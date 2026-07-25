@@ -7,6 +7,37 @@
 
 完整的 M1–M28.1 历史、逐次 checkpoint 和测试数字保存在 `coho_museum/archive/Milestones-M1-M28.1-full.md`。本文件只保存当前执行范围。
 
+## M29：Research 目录重构与文件系统契约
+
+Status: Implementation Complete — Pipeline 2.9.0 frozen 2026-07-25
+
+Acceptance note: 本次 filesystem contract、迁移、authority、runner、batch、reporter、assembler、publisher 与 15 馆页面回归均通过。全站 `verify-significance-evidence.mjs` 仍因迁移前已存在的 145 条 pending audit 失败；本次未改写 significance 数据或降低门禁，因为该内容审计不属于 M29 授权范围。
+
+Scope：
+
+- 在不改写游客可见正文、评分、选件、路线或 UI 的前提下，分离 active content、evidence、production / regression / experiment runs、pipeline metadata、archive 与 legacy scripts。
+- 先冻结 machine-readable inventory 与 migration plan，再按哈希保护执行迁移；未知文件不删除。
+- Pipeline 2.9.0 新增 filesystem contract v1、统一 run creator、共享路径解析和 run 生命周期门。
+- Runner、batch、reporter、assembler、finalizer 与 publisher 不再接受任意输出目录；accepted / published / superseded run 只读。
+- Authority gate 自动阻止 research 根目录污染、随意 milestone 目录、active/archive 引用串线和 museum-specific builder 回流。
+
+Execution order：
+
+1. Owner-approved change record。
+2. Filesystem contract 与共享 validator。
+3. 正反测试。
+4. Inventory 与 migration plan。
+5. 哈希保护迁移与引用更新。
+6. 全套回归、15 馆浏览器验证和 Pipeline 2.9.0 冻结。
+
+Completion gate：
+
+- `research/` 根目录只剩 contract allowlist；active content 全部为 `research/content/<museumId>.md`。
+- 原顶层 milestone runs、pipeline metadata 和旧正文完成分类迁移，无未知文件被删除。
+- Canonical scripts 全部使用同一 Node contract 真源；任意路径、symlink / junction 逃逸、身份漂移和 immutable 写入负例被拒绝。
+- 规定的现有与新增测试全部通过；15 馆、500 项、内容文件、路线、图片和 console 无迁移回归。
+- `research/pipeline/releases/v2.9.0.json` 幂等冻结，工作区无意外未跟踪文件。
+
 ## M26：十五馆当前 pipeline 整馆重生
 
 Status: Partially resumed — Chichu only
@@ -173,7 +204,7 @@ Result：
 - 8095 独立预览通过：20 张卡片、20 个唯一深链、20/20 图片解码、20/20 正文从“30 秒先懂”开始，0 控制台错误。
 - Owner 要求主卡保持干净；候选共享页面已移除左侧结论句及右侧旅行行动 / 限制段，只保留评分档位与必要入口。
 - 总模型 tokens 为 1,202,086，其中两次馆级结构生成 146,879；第二次为修复首稿评分硬门失败。
-- Owner 接受 79 分与候选内容后，正式 `ratings.js`、`chichu.js`、`routes.js` 与 `research/chichu-content-v2.md` 已原子更新；共享馆页保持干净主卡并更新脚本缓存版本。
+- Owner 接受 79 分与候选内容后，正式 `ratings.js`、`chichu.js`、`routes.js` 与 `research/content/chichu.md` 已原子更新；共享馆页保持干净主卡并更新脚本缓存版本。
 - 首次删除主卡节点时未更新脚本缓存版本，浏览器继续运行旧 JavaScript 后中断页面；已修复缓存版本，并在真实 8095 页面刷新确认 79 分、路线、正文和 20 张卡恢复。
 
 Completion gate：
@@ -206,7 +237,7 @@ Result：
 - 木心正式站已更新为 77 分、20 件内容、三档路线、10 张对象图与 10 张明确标注的馆舍占位图；缓存版本同步更新。
 - 8094 正式页面通过后，8095 / 8096 预览服务已关闭。
 - 正式根目录发布门发现并修复两项预览未覆盖的装配回归：新作品内联重要性被旧集中映射拒绝，以及木心评分块替换错误吞并相邻卢浮宫评分；修复后木心保持 77 分、卢浮宫恢复并保持 98 分。
-- 本轮累计使用 2,458,375 tokens；详细证据见 `research/audits/muxin-m28-4-v2.4.7-candidate.md`。
+- 本轮累计使用 2,458,375 tokens；详细证据见 `research/evidence/audits/muxin-m28-4-v2.4.7-candidate.md`。
 
 Completion gate：
 

@@ -1,34 +1,91 @@
 import fs from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
-import {spawnSync} from "node:child_process";
+import { spawnSync } from "node:child_process";
+import {
+  fixtureRunId,
+  writeFixtureManifest,
+  writeFixtureRun,
+} from "./lib/test-filesystem-fixture.mjs";
 
-const root = path.resolve(new URL("..", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"));
-const reporter = path.join(root, "scripts/report-museum-generation.mjs");
+const repository = path.resolve(new URL("..", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"));
+const reporter = path.join(repository, "scripts", "report-museum-generation.mjs");
 const fixture = await fs.mkdtemp(path.join(os.tmpdir(), "meowseum-report-"));
-const writeResult = async (directory, name, data) => {
-  const target = path.join(fixture, directory);
-  await fs.mkdir(target, {recursive: true});
-  await fs.writeFile(path.join(target, `${name}-result.json`), JSON.stringify(data), "utf8");
-};
-const base = {
-  museumId: "fixture",
-  runnerStartedAt: "2026-07-24T00:00:00.000Z"
-};
 try {
-  await writeResult("research/a", "research", {...base, stage: "research", modelStartedAt: "2026-07-24T00:00:00.000Z", modelCompletedAt: "2026-07-24T00:05:00.000Z", completedAt: "2026-07-24T00:05:00.000Z", tokenUsage: {total: 100}});
-  await writeResult("research/b", "research", {...base, stage: "research", modelStartedAt: "2026-07-24T00:00:00.000Z", modelCompletedAt: "2026-07-24T00:08:00.000Z", completedAt: "2026-07-24T00:08:00.000Z", tokenUsage: {total: 200}});
-  await writeResult("author/a", "author", {...base, runnerStartedAt: "2026-07-24T00:08:00.000Z", stage: "author", modelStartedAt: "2026-07-24T00:08:00.000Z", modelCompletedAt: "2026-07-24T00:10:00.000Z", completedAt: "2026-07-24T00:10:00.000Z", tokenUsage: {total: 300}});
-  let run = spawnSync(process.execPath, [reporter, "--museum", "fixture", "--run-root", fixture, "--completed-at", "2026-07-24T00:12:00.000Z"], {encoding: "utf8"});
+  await writeFixtureManifest(fixture);
+  const { runRoot } = await writeFixtureRun({ projectRoot: fixture });
+  const writeResult = async (directory, name, data) => {
+    const target = path.join(runRoot, ...directory.split("/"));
+    await fs.mkdir(target, { recursive: true });
+    await fs.writeFile(path.join(target, `${name}-result.json`), JSON.stringify(data), "utf8");
+  };
+  const base = {
+    runId: fixtureRunId,
+    museumId: "fixture",
+    runnerStartedAt: "2026-07-24T00:00:00.000Z",
+  };
+  await writeResult("research/batches/a", "research", {
+    ...base,
+    stage: "research",
+    modelStartedAt: "2026-07-24T00:00:00.000Z",
+    modelCompletedAt: "2026-07-24T00:05:00.000Z",
+    completedAt: "2026-07-24T00:05:00.000Z",
+    tokenUsage: { total: 100 },
+  });
+  await writeResult("research/batches/b", "research", {
+    ...base,
+    stage: "research",
+    modelStartedAt: "2026-07-24T00:00:00.000Z",
+    modelCompletedAt: "2026-07-24T00:08:00.000Z",
+    completedAt: "2026-07-24T00:08:00.000Z",
+    tokenUsage: { total: 200 },
+  });
+  await writeResult("works/a/author", "author", {
+    ...base,
+    runnerStartedAt: "2026-07-24T00:08:00.000Z",
+    stage: "author",
+    modelStartedAt: "2026-07-24T00:08:00.000Z",
+    modelCompletedAt: "2026-07-24T00:10:00.000Z",
+    completedAt: "2026-07-24T00:10:00.000Z",
+    tokenUsage: { total: 300 },
+  });
+  const identity = [
+    `--project-root=${fixture}`,
+    "--kind=production",
+    "--museum=fixture",
+    `--run-id=${fixtureRunId}`,
+  ];
+  let run = spawnSync(
+    process.execPath,
+    [reporter, ...identity, "--completed-at=2026-07-24T00:12:00.000Z"],
+    { encoding: "utf8" },
+  );
   if (run.status !== 0) throw new Error(run.stderr || run.stdout);
-  const report = JSON.parse(await fs.readFile(path.join(fixture, "generation-report.json"), "utf8"));
-  if (report.totalTokens !== 600 || report.totalWallSeconds !== 720 || report.postGenerationSeconds !== 120) throw new Error("report total calculation failed");
-  if (report.stages.research.wallSeconds !== 480 || report.stages.author.wallSeconds !== 120) throw new Error("parallel stage calculation failed");
+  const report = JSON.parse(await fs.readFile(path.join(runRoot, "reports", "generation-report.json"), "utf8"));
+  if (report.totalTokens !== 600 || report.totalWallSeconds !== 720 || report.postGenerationSeconds !== 120) {
+    throw new Error("report total calculation failed");
+  }
+  if (report.runRoot.includes(":\\") || path.isAbsolute(report.runRoot)) throw new Error("report leaked an absolute runRoot");
+  if (report.stages.research.wallSeconds !== 480 || report.stages.author.wallSeconds !== 120) {
+    throw new Error("parallel stage calculation failed");
+  }
 
-  await writeResult("broken", "author", {...base, stage: "author", modelStartedAt: "2026-07-24T00:10:00.000Z", modelCompletedAt: "2026-07-24T00:11:00.000Z", completedAt: "2026-07-24T00:11:00.000Z"});
-  run = spawnSync(process.execPath, [reporter, "--museum", "fixture", "--run-root", fixture], {encoding: "utf8"});
-  if (run.status === 0 || !run.stderr.includes("missing metrics")) throw new Error("reporter accepted missing token metrics");
-  console.log("museum generation report self-test passed");
+  await writeResult("works/b/author", "author", {
+    ...base,
+    stage: "author",
+    modelStartedAt: "2026-07-24T00:10:00.000Z",
+    modelCompletedAt: "2026-07-24T00:11:00.000Z",
+    completedAt: "2026-07-24T00:11:00.000Z",
+  });
+  run = spawnSync(process.execPath, [reporter, ...identity], { encoding: "utf8" });
+  if (run.status === 0 || !run.stderr.includes("missing metrics")) {
+    throw new Error("reporter accepted missing token metrics");
+  }
+  run = spawnSync(process.execPath, [reporter, ...identity, `--out-dir=${fixture}`], { encoding: "utf8" });
+  if (run.status === 0 || !run.stderr.includes("--out-dir must exactly equal")) {
+    throw new Error("reporter accepted an arbitrary --out-dir");
+  }
+  process.stdout.write("museum generation report self-test passed\n");
 } finally {
-  await fs.rm(fixture, {recursive: true, force: true});
+  await fs.rm(fixture, { recursive: true, force: true });
 }

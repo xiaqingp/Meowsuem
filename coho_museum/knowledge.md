@@ -29,10 +29,10 @@
 ## Generation
 
 - 唯一入口：`scripts/run-isolated-generation.ps1`
-- 标准启动：`powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -File scripts/run-isolated-generation.ps1 -RunDirectory <run-dir>`；项目根目录由 runner 自动推导。
-- 每馆完成报告：`node scripts/report-museum-generation.mjs --museum <museum-id> --run-root <run-root>`；报告必须包含真实总用时、分阶段用时和总 token。
-- 候选正式门：`node scripts/verify-release-candidate.mjs --museum=<museum-id> --candidate=<candidate-dir> --live`；只把联网检查限定到当前馆，本地结构仍全站检查。
-- 候选发布：`node scripts/publish-museum-candidate.mjs --candidate=<candidate-dir> --publish`；相同候选重跑必须为零改动。
+- 新 run 只能由 `node scripts/create-generation-run.mjs --kind=production --museum=<museum-id> --milestone=<milestone>` 创建；Milestone 只是 metadata。
+- 标准启动：先按 run identity 找到合法 stage directory，再由 `scripts/run-isolated-generation.ps1 -RunDirectory <stage-dir>` 执行；Node validator 是路径 contract 唯一真源。
+- 每馆完成报告：`node scripts/report-museum-generation.mjs --kind=production --museum=<museum-id> --run-id=<run-id>`；报告固定写入该 run 的 `reports/`。
+- 候选正式门与发布都使用 `kind + museum + run-id`；candidate 固定为该 run 的 `candidate/`，调用者不得另选目录。相同候选重跑必须为零改动。
 - 模型和 reasoning effort 读取当前 release / run header，不靠 CLI 默认值。
 - 研究最多 10 件一批；每件作品独立生成 `writing-plan.json`、`card.txt`、`draft.md`。
 - 作者输入合同：`content_instruction + research_card + work_context + optional research_supplement`；每类最多一份，总计不得超过 manifest 字节预算。

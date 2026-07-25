@@ -78,7 +78,7 @@ museumData.british = {
   id:"british",editorialCapacity:60,city:"伦敦 · 英国",zh:"大英博物馆",en:"The British Museum",
   ...museumRatings.british,
   verdict:"不是把全世界缩成陈列柜，而是让人同时看见人类造物的联系，以及这些物件为何会来到伦敦。",
-  hero:bmImage("British Museum Great Court, London, UK - Diliff.jpg"),contentFile:"./research/british-content-v1.md",
+  hero:bmImage("British Museum Great Court, London, UK - Diliff.jpg"),contentFile:"./research/content/british.md",
   intro:[
     "大英博物馆最不可替代的地方，不只是文明跨度，而是许多改变知识史的原件和完整收藏群在同一建筑中发生比较：文字如何被破译，宫殿怎样制造帝国图像，墓葬怎样保存社会等级，跨洋材料又如何移动。",
     "这份力量也带着不能绕开的取得史。帕特农雕塑、贝宁宫廷艺术和部分亚洲藏品的迁移涉及帝国、战争、交易与权力不对等；讲清对象来到伦敦的过程，本身就是看懂它们的一部分。",

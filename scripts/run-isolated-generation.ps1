@@ -23,12 +23,24 @@ $run = [IO.Path]::GetFullPath($RunDirectory).TrimEnd('\', '/')
 $headerPath = Join-Path $run 'run-header.json'
 
 if (-not [IO.File]::Exists($headerPath)) { throw "missing run header: $headerPath" }
-if (-not $run.StartsWith($project + [IO.Path]::DirectorySeparatorChar, [StringComparison]::OrdinalIgnoreCase) -and $run -ne $project) {
-    throw 'run directory is outside project root'
-}
+$validator = Join-Path $project 'scripts/validate-run-directory.mjs'
+$validatorArgs = @(
+    $validator,
+    "--project-root=$project",
+    "--run-directory=$run",
+    '--mode=read-write'
+)
+if ($LogPath) { $validatorArgs += "--log-path=$([IO.Path]::GetFullPath($LogPath))" }
+$validationJson = & node @validatorArgs
+if ($LASTEXITCODE -ne 0) { throw 'filesystem contract validation failed' }
+$runContract = $validationJson | ConvertFrom-Json
 
 $headerText = [IO.File]::ReadAllText($headerPath, [Text.Encoding]::UTF8)
 $header = $headerText | ConvertFrom-Json
+if ([string]$header.runId -ne [string]$runContract.runId) { throw 'run header runId drifted from run.json' }
+if ([string]$header.pipelineVersion -ne [string]$runContract.pipelineVersion) { throw 'run header pipelineVersion drifted from run.json' }
+if ($runContract.museumId -and [string]$header.museumId -ne [string]$runContract.museumId) { throw 'run header museumId drifted from run.json' }
+if ($runContract.caseId -and [string]$header.caseId -ne [string]$runContract.caseId) { throw 'run header caseId drifted from run.json' }
 if ($header.executionProfile.reasoningEffort -ne 'medium') { throw 'reasoning effort must be medium' }
 if (-not $header.executionProfile.model) { throw 'model is required' }
 if (-not $header.allowedInputs -or -not $header.outputs) { throw 'allowedInputs and outputs are required' }
@@ -117,9 +129,6 @@ $researchCandidatePacketText = $null
 $imageCandidatePacketText = $null
 $blocks = foreach ($input in $header.allowedInputs) {
     $full = [IO.Path]::GetFullPath((Join-Path $project $input.path))
-    if (-not $full.StartsWith($project + [IO.Path]::DirectorySeparatorChar, [StringComparison]::OrdinalIgnoreCase)) {
-        throw "input escaped project root: $($input.path)"
-    }
     if (-not [IO.File]::Exists($full)) { throw "missing input: $($input.path)" }
     $actual = (Get-FileHash -Algorithm SHA256 -LiteralPath $full).Hash.ToLowerInvariant()
     if ($actual -ne $input.sha256) { throw "input hash mismatch: $($input.path)" }
@@ -209,9 +218,6 @@ if ($inputContract -and $null -ne $inputContract.maxTotalBytes -and $totalInputB
 
 $outputPaths = foreach ($output in $header.outputs) {
     $full = [IO.Path]::GetFullPath((Join-Path $run $output))
-    if (-not $full.StartsWith($run + [IO.Path]::DirectorySeparatorChar, [StringComparison]::OrdinalIgnoreCase)) {
-        throw "output escaped run directory: $output"
-    }
     if ($RecordOutputsOnly) {
         if (-not [IO.File]::Exists($full)) { throw "missing output to record: $output" }
     }
@@ -250,7 +256,7 @@ Follow the stage in the run header exactly. The museum_scope, museum_candidate_p
     $oldOutputEncoding = $OutputEncoding
     $oldErrorActionPreference = $ErrorActionPreference
     $OutputEncoding = [Text.UTF8Encoding]::new($false)
-    $resolvedLog = if ($LogPath) { [IO.Path]::GetFullPath($LogPath) } else { Join-Path $run 'runner.log' }
+    $resolvedLog = [string]$runContract.logPath
     if ([IO.File]::Exists($resolvedLog)) { throw "runner log already exists: $resolvedLog" }
     $modelStartedAt = [DateTimeOffset]::Now
     try {
@@ -292,6 +298,7 @@ $result = [ordered]@{
     runId = [string]$header.runId
     stage = [string]$header.stage
     museumId = [string]$header.museumId
+    caseId = [string]$header.caseId
     workId = [string]$header.workId
     pipelineVersion = [string]$header.pipelineVersion
     instructionVersion = [string]$header.instructionVersion

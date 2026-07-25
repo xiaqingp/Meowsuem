@@ -1,13 +1,34 @@
 import fs from "node:fs/promises";
+import path from "node:path";
+import {pathToFileURL} from "node:url";
 import vm from "node:vm";
+import {loadManifest, resolveCanonicalRun} from "./lib/filesystem-contract.mjs";
 import "./verify-content-pipeline.mjs";
 import "./verify-significance-evidence.mjs";
 
 const root = new URL("../", import.meta.url);
 const appFile = name => new URL(name, root);
-const baseDataFiles = ["ratings.js", "muxin.js", "museums.js", "louvre.js", "museum-expansions.js", "vienna.js", "enoura.js", "british.js", "anchorage.js", "getty.js", "chichu.js", "egyptian.js", "alhambra.js", "smk.js", "frye.js", "routes.js"];
-const candidateArg = process.argv.find(argument => argument.startsWith("--candidate="))?.slice(12);
-const candidateRoot = candidateArg ? new URL(`${candidateArg.replaceAll("\\", "/").replace(/\/?$/, "/")}`, root) : null;
+const baseDataFiles = ["ratings.js", "muxin.js", "museums.js", "seattle.js", "louvre.js", "museum-expansions.js", "vienna.js", "enoura.js", "british.js", "anchorage.js", "getty.js", "chichu.js", "egyptian.js", "alhambra.js", "smk.js", "frye.js", "routes.js"];
+const argument = name => process.argv.find(value => value.startsWith(`${name}=`))?.slice(name.length + 1);
+const projectRoot = path.resolve(argument("--project-root") || new URL("..", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"));
+const runKind = argument("--kind");
+let candidateRoot = null;
+if (runKind) {
+  const contractManifest = await loadManifest(projectRoot);
+  const resolved = await resolveCanonicalRun({
+    projectRoot,
+    manifest: contractManifest,
+    runKind,
+    museumId: argument("--museum"),
+    caseId: argument("--case"),
+    runId: argument("--run-id"),
+    suppliedRunRoot: argument("--run-root"),
+    writable: true
+  });
+  candidateRoot = pathToFileURL(`${path.join(resolved.runRoot, "candidate")}${path.sep}`);
+} else if (argument("--candidate")) {
+  throw new Error("Filesystem contract violation: --candidate requires canonical run identity");
+}
 const candidatePublication = candidateRoot
   ? await fs.readFile(new URL("publication.json", candidateRoot), "utf8").then(JSON.parse).catch(error => {
       if (error.code === "ENOENT") return null;

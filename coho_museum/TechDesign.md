@@ -22,7 +22,7 @@
 
 - Museum：稳定 `id`、中英名、城市/国家、坐标、封面、评分、理由、容量、章节、路线、更新时间、正式内容文件；行动文案和限制可以保留为内部数据，但馆页主卡不渲染。
 - Work：馆内唯一 `id`、稳定 URL、双语名、作者/文化、国家/地区、年代、图片、优先级、重要性、独立卡片简介和详情锚点。
-- `research/content-standard-manifest.json` 注册每馆正式 `contentFile`；前端引用必须一一对应。
+- `research/content-standard-manifest.json` 注册每馆正式 `contentFile`；前端只读取 `research/content/<museumId>.md`，且引用必须一一对应。
 - 历史稿、测试稿、失败稿和 pipeline artifact 不得成为前端正式内容源。
 
 ## Content flow
@@ -43,7 +43,8 @@ museum scope and selection
 - 唯一模型入口：`scripts/run-isolated-generation.ps1`。
 - 标准调用固定为非交互 PowerShell，runner 自动推导项目根目录；整馆结束后由 `scripts/report-museum-generation.mjs` 汇总真实用时与 token，缺少模型计量即阻断完成。
 - 整馆本地结构门始终全站执行；联网图片、来源、珍贵度与发布状态按当前馆执行。候选由 `scripts/publish-museum-candidate.mjs` 根据 `publication.json` 暂存、发布、更新缓存键并在失败时回滚。
-- 内容生成与网站装配以 `assembly-input.json` 为边界。`scripts/assemble-museum-candidate.mjs` 是唯一候选装配器；馆专用 builder 不再属于正式 pipeline。`scripts/finalize-museum.mjs` 依次执行装配、验证和 dry-run / 发布并记录零模型成本。
+- 内容生成与网站装配以 `<runRoot>/structure/assembly-input.json` 为边界。`scripts/assemble-museum-candidate.mjs` 是唯一候选装配器，固定输出 `<runRoot>/candidate/`；馆专用 builder 不再属于正式 pipeline。`scripts/finalize-museum.mjs` 以 `kind + museum/case + runId` 解析同一 run，依次执行装配、验证和 dry-run / 发布，把报告写入 `<runRoot>/reports/` 并记录零模型成本。
+- Run root、candidate、reports 和 active content destination 都由 `scripts/lib/filesystem-contract.mjs` 计算。调用者不得另选目录；兼容的 `--run-root` 只有在精确等于 canonical root 时才通过。新 run 由 `scripts/create-generation-run.mjs` 创建，Milestone 仅是 `run.json` metadata。
 - Manifest 中现有 15 馆保留为 legacy baseline。未来新馆只采用 `museumData.<id>` 运行时赋值，并在 assembly 输入中提供地图坐标；装配器自动生成包含新馆脚本、地图坐标与排名注册的候选 `index.html` / `museum.html`。`scripts/verify-future-museum-contract.mjs` 在发布门之前机械检查绑定、加载顺序、页面注册与禁用馆专用 builder，避免依赖人工记忆或逐馆代码。
 - `scripts/freeze-pipeline-release.mjs` 只根据 manifest 写入 release 哈希锁，不接触博物馆正文。
 - author bundle 一次生成 `writing-plan.json`、`card.txt` 和 `draft.md`。

@@ -6,12 +6,12 @@ import {spawnSync} from "node:child_process";
 
 const projectRoot = path.resolve(new URL("..", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"));
 const cases = [
-  ["historical_object", "egyptian/narmer-palette", "research/pipeline-tests/v2.3.2-narmer-canonical-significance/research/narmer-palette-research-card.md"],
-  ["modern_painting", "met/autumn-rhythm-number-30", "research/pipeline-tests/v2.2.2-three-work-production-patch-2026-07-22/research/autumn-rhythm-number-30-research-card.md"],
-  ["old_master_painting", "vienna/hunters-in-the-snow", "research/m28-6/vienna/research-batch-01/vienna-pg-02-hunters-in-the-snow-research-card.md"],
-  ["decorative_art", "vienna/saliera", "research/m28-6/vienna/research-batch-02/vienna-kk-01-saliera-research-card.md"],
-  ["architecture", "chichu/concrete-ramp", "research/m28-3/chichu/research-batch-01/concrete-ramp-research-card.md"],
-  ["coin", "vienna/sigismund-guldiner", "research/m28-6/vienna/research-batch-04/vienna-coin-01-sigismund-guldiner-research-card.md"]
+  ["historical_object", "egyptian/narmer-palette", "research/pipeline/tests/v2.3.2-narmer-canonical-significance/research/narmer-palette-research-card.md"],
+  ["modern_painting", "met/autumn-rhythm-number-30", "research/pipeline/tests/v2.2.2-three-work-production-patch-2026-07-22/research/autumn-rhythm-number-30-research-card.md"],
+  ["old_master_painting", "vienna/hunters-in-the-snow", "research/runs/production/vienna/m28-6-vienna/research-batch-01/vienna-pg-02-hunters-in-the-snow-research-card.md"],
+  ["decorative_art", "vienna/saliera", "research/runs/production/vienna/m28-6-vienna/research-batch-02/vienna-kk-01-saliera-research-card.md"],
+  ["architecture", "chichu/concrete-ramp", "research/runs/production/chichu/m28-3-chichu/research-batch-01/concrete-ramp-research-card.md"],
+  ["coin", "vienna/sigismund-guldiner", "research/runs/production/vienna/m28-6-vienna/research-batch-04/vienna-coin-01-sigismund-guldiner-research-card.md"]
 ];
 const digest = text => crypto.createHash("sha256").update(text).digest("hex");
 const tempRoot = await fs.mkdtemp(path.join(os.tmpdir(), "meowseum-author-regression-"));
@@ -24,9 +24,18 @@ try {
     await fs.mkdir(path.dirname(destination), {recursive: true});
     await fs.copyFile(path.join(projectRoot, relative), destination);
   }
+  await fs.mkdir(path.join(tempRoot, "scripts", "lib"), {recursive: true});
+  await fs.copyFile(
+    path.join(projectRoot, "scripts", "validate-run-directory.mjs"),
+    path.join(tempRoot, "scripts", "validate-run-directory.mjs")
+  );
+  await fs.copyFile(
+    path.join(projectRoot, "scripts", "lib", "filesystem-contract.mjs"),
+    path.join(tempRoot, "scripts", "lib", "filesystem-contract.mjs")
+  );
   const instruction = await fs.readFile(path.join(tempRoot, "research/meowseum-content-instruction.md"), "utf8");
 
-  for (const [type, workId, sourceRelative] of cases) {
+  for (const [caseIndex, [type, workId, sourceRelative]] of cases.entries()) {
     const safe = type.replaceAll("_", "-");
     const card = await fs.readFile(path.join(projectRoot, sourceRelative), "utf8");
     const cardRelative = `research/cards/${safe}.md`;
@@ -35,16 +44,35 @@ try {
     await fs.writeFile(path.join(tempRoot, cardRelative), card, "utf8");
     await fs.writeFile(path.join(tempRoot, contextRelative), context, "utf8");
 
-    const runDirectory = path.join(tempRoot, "runs", safe);
+    const runId = `20260725T1615${String(caseIndex).padStart(2, "0")}Z-p2.9.0`;
+    const runRoot = path.join(tempRoot, "research", "runs", "regression", safe, runId);
+    const runDirectory = path.join(runRoot, "works", "work-one", "author");
     await fs.mkdir(runDirectory, {recursive: true});
+    await fs.mkdir(path.join(runRoot, "candidate"), {recursive: true});
+    await fs.mkdir(path.join(runRoot, "reports"), {recursive: true});
+    await fs.writeFile(path.join(runRoot, "run.json"), `${JSON.stringify({
+      schemaVersion: 1,
+      filesystemContractVersion: 1,
+      runKind: "regression",
+      runId,
+      caseId: safe,
+      milestone: "M29",
+      pipelineVersion: "2.9.0",
+      instructionVersion: "2.2.0",
+      status: "running",
+      createdAt: "2026-07-25T16:15:00.000Z",
+      createdBy: "scripts/test-author-input-regression.mjs",
+      layoutVersion: 1,
+      immutable: false
+    }, null, 2)}\n`);
     const header = {
-      runId: `m28-11-author-input-${safe}`,
+      runId,
       stage: "author",
-      museumId: workId.split("/")[0],
+      caseId: safe,
       workId,
       inputContractVersion: 2,
-      pipelineVersion: "2.7.0",
-      instructionVersion: "2.1.0",
+      pipelineVersion: "2.9.0",
+      instructionVersion: "2.2.0",
       executionProfile: {model: "gpt-5.6-sol", reasoningEffort: "medium"},
       allowedInputs: [
         {path: "research/meowseum-content-instruction.md", role: "content_instruction", sha256: digest(instruction)},

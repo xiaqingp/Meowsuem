@@ -2,21 +2,21 @@ import fs from "node:fs/promises";
 import "./verify-content-pipeline.mjs";
 
 const sources = [
-  ["louvre", new URL("../research/louvre-content-v4.md", import.meta.url)],
-  ["met", new URL("../research/met-content-v2.md", import.meta.url)],
-  ["seattle", new URL("../research/seattle-content-v2.md", import.meta.url)]
-  ,["glyptotek", new URL("../research/glyptotek-content-v2.md", import.meta.url)]
-  ,["muxin", new URL("../research/muxin-content-v1.md", import.meta.url)]
-  ,["vienna", new URL("../research/vienna-content-v2.md", import.meta.url)]
-  ,["enoura", new URL("../research/enoura-content-v1.md", import.meta.url)]
-  ,["british", new URL("../research/british-content-v1.md", import.meta.url)]
-  ,["anchorage", new URL("../research/anchorage-content-v1.md", import.meta.url)]
-  ,["getty", new URL("../research/getty-content-v1.md", import.meta.url)]
-  ,["chichu", new URL("../research/chichu-content-v1.md", import.meta.url)]
-  ,["egyptian", new URL("../research/egyptian-content-v2.md", import.meta.url)]
-  ,["alhambra", new URL("../research/alhambra-content-v1.md", import.meta.url)]
-  ,["smk", new URL("../research/smk-content-v1.md", import.meta.url)]
-  ,["frye", new URL("../research/frye-content-v1.md", import.meta.url)]
+  ["louvre", new URL("../research/content/louvre.md", import.meta.url)],
+  ["met", new URL("../research/content/met.md", import.meta.url)],
+  ["seattle", new URL("../research/content/seattle.md", import.meta.url)]
+  ,["glyptotek", new URL("../research/content/glyptotek.md", import.meta.url)]
+  ,["muxin", new URL("../research/content/muxin.md", import.meta.url)]
+  ,["vienna", new URL("../research/content/vienna.md", import.meta.url)]
+  ,["enoura", new URL("../research/content/enoura.md", import.meta.url)]
+  ,["british", new URL("../research/content/british.md", import.meta.url)]
+  ,["anchorage", new URL("../research/content/anchorage.md", import.meta.url)]
+  ,["getty", new URL("../research/content/getty.md", import.meta.url)]
+  ,["chichu", new URL("../research/content/chichu.md", import.meta.url)]
+  ,["egyptian", new URL("../research/content/egyptian.md", import.meta.url)]
+  ,["alhambra", new URL("../research/content/alhambra.md", import.meta.url)]
+  ,["smk", new URL("../research/content/smk.md", import.meta.url)]
+  ,["frye", new URL("../research/content/frye.md", import.meta.url)]
 ];
 const strict = process.argv.includes("--strict");
 const compact = process.argv.includes("--compact");

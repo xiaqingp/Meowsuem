@@ -9,7 +9,7 @@ museumData.vienna = {
   "en": "Kunsthistorisches Museum Vienna",
   "verdict": "",
   "hero": "https://www.khm.at/fileadmin/_processed_/f/5/csm_114_AS_SaalXI_7_AWSZ-card_59120d5a30.jpg",
-  "contentFile": "./research/vienna-content-v2.md",
+  "contentFile": "./research/content/vienna.md",
   "official": "https://www.khm.at/en",
   "visit": "https://www.khm.at/en/visit",
   "cardCopyContract": "independent-v1",

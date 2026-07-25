@@ -5,12 +5,14 @@ import {spawnSync} from "node:child_process";
 
 const root = path.resolve(new URL("..", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"));
 const manifest = JSON.parse(await fs.readFile(path.join(root, "research/content-standard-manifest.json"), "utf8"));
-const runRoot = path.join(root, "research", "pipeline-tests", "v2.8.0-luna-image");
-const candidateRoot = path.join(runRoot, "candidates");
+const runId = "20260725T151500Z-p2.9.0";
+const runRoot = path.join(root, "research", "runs", "regression", "image-disambiguation-contract", runId);
+const stageRoot = path.join(runRoot, "image-evidence", "contract-fixture");
+const candidateRoot = path.join(stageRoot, "candidates");
 await fs.rm(runRoot, {recursive: true, force: true});
 await fs.mkdir(candidateRoot, {recursive: true});
 
-const workImage = path.join(root, "research", "pipeline-tests", "v2.8.0-image-browser", "image-evidence", "assets", "double-elvis-browser-fixture.jpg");
+const workImage = path.join(root, "research", "pipeline", "tests", "v2.8.0-image-browser", "image-evidence", "assets", "double-elvis-browser-fixture.jpg");
 const wrongImage = path.join(root, "assets", "enoura", "winter-tunnel.jpg");
 const copiedWork = path.join(candidateRoot, "candidate-work.jpg");
 const copiedWrong = path.join(candidateRoot, "candidate-wrong.jpg");
@@ -18,7 +20,7 @@ await fs.copyFile(workImage, copiedWork);
 await fs.copyFile(wrongImage, copiedWrong);
 const hash = async file => crypto.createHash("sha256").update(await fs.readFile(file)).digest("hex");
 const rel = file => path.relative(root, file).replaceAll("\\", "/");
-const packetPath = path.join(runRoot, "image-candidate-packet.json");
+const packetPath = path.join(stageRoot, "image-candidate-packet.json");
 const packet = {
   museumId: "seattle",
   works: [{
@@ -56,10 +58,10 @@ const packet = {
 await fs.writeFile(packetPath, `${JSON.stringify(packet, null, 2)}\n`, "utf8");
 const instructionPath = path.join(root, manifest.canonicalInstruction);
 const header = {
-  runId: "v2.8.0-luna-image-contract",
+  runId,
   startedAt: new Date().toISOString(),
   stage: "image_disambiguation",
-  museumId: "seattle",
+  targetMuseumId: "seattle",
   works: [{museumId: "seattle", workId: "double-elvis-model-fixture", workIdentity: packet.works[0].identity}],
   pipelineVersion: manifest.pipelineVersion,
   instructionVersion: manifest.currentVersion,
@@ -73,28 +75,46 @@ const header = {
   retry: "disabled",
   publicationBoundary: "evidence_only"
 };
-await fs.writeFile(path.join(runRoot, "run-header.json"), `${JSON.stringify(header, null, 2)}\n`, "utf8");
+header.caseId = "image-disambiguation-contract";
+await fs.writeFile(path.join(runRoot, "run.json"), `${JSON.stringify({
+  schemaVersion: 1,
+  filesystemContractVersion: 1,
+  runKind: "regression",
+  runId,
+  caseId: "image-disambiguation-contract",
+  milestone: "M29",
+  pipelineVersion: manifest.pipelineVersion,
+  instructionVersion: manifest.currentVersion,
+  status: "running",
+  createdAt: "2026-07-25T15:15:00.000Z",
+  createdBy: "scripts/test-image-disambiguation-contract.mjs",
+  layoutVersion: 1,
+  immutable: false
+}, null, 2)}\n`, "utf8");
+await fs.writeFile(path.join(stageRoot, "run-header.json"), `${JSON.stringify(header, null, 2)}\n`, "utf8");
 
 const validate = spawnSync("powershell.exe", [
   "-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass",
   "-File", path.join(root, "scripts", "run-isolated-generation.ps1"),
-  "-RunDirectory", runRoot,
+  "-RunDirectory", stageRoot,
   "-ValidateOnly"
 ], {cwd: root, encoding: "utf8"});
 if (validate.status !== 0) throw new Error(validate.stderr || validate.stdout);
 if (!process.argv.includes("--run-model")) {
+  await fs.rm(runRoot, {recursive: true, force: true});
   console.log("image disambiguation contract fixture passed");
   process.exit(0);
 }
 const run = spawnSync("powershell.exe", [
   "-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass",
   "-File", path.join(root, "scripts", "run-isolated-generation.ps1"),
-  "-RunDirectory", runRoot
+  "-RunDirectory", stageRoot
 ], {cwd: root, encoding: "utf8", timeout: 10 * 60 * 1000});
 if (run.status !== 0) throw new Error(run.stderr || run.stdout);
-const output = JSON.parse(await fs.readFile(path.join(runRoot, "image-decisions.json"), "utf8"));
+const output = JSON.parse(await fs.readFile(path.join(stageRoot, "image-decisions.json"), "utf8"));
 const decision = output.decisions?.[0];
 if (output.decisions?.length !== 1 || decision?.status !== "accepted" || decision.selectedCandidateId !== "candidate-work") {
   throw new Error(`Luna image decision failed: ${JSON.stringify(decision)}`);
 }
+await fs.rm(runRoot, {recursive: true, force: true});
 console.log("Luna image disambiguation passed: correct official work image selected");

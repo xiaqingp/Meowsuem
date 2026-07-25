@@ -1,6 +1,6 @@
 import fs from "node:fs";
 
-const markdown = fs.readFileSync(new URL("../research/louvre-content-v4.md", import.meta.url), "utf8");
+const markdown = fs.readFileSync(new URL("../research/content/louvre.md", import.meta.url), "utf8");
 const manifest = JSON.parse(fs.readFileSync(new URL("../research/content-standard-manifest.json", import.meta.url), "utf8"));
 const expected = manifest.museums.louvre.declaredCapacity;
 const afterStart = markdown.indexOf("\n# 参观前的实时提醒");

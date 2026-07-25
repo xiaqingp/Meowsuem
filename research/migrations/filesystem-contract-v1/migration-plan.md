@@ -1,0 +1,85 @@
+# Filesystem Contract v1 Migration Plan
+
+- Generated: 2026-07-25T16:06:39.702Z
+- Inventory files: 2061
+- Files to move or archive: 2054
+- Files to archive: 106
+- Unknown: 0
+- Destination collisions: 0
+
+## Operations
+
+- `research/audits` → `research/evidence/audits`
+- `research/style-study` → `research/evidence/style-study`
+- `research/pipeline-changes/PCR-2026-07-23-01.json` → `research/pipeline/changes/PCR-2026-07-23-01.json`
+- `research/pipeline-changes/PCR-2026-07-24-01.json` → `research/pipeline/changes/PCR-2026-07-24-01.json`
+- `research/pipeline-changes/PCR-2026-07-24-02.json` → `research/pipeline/changes/PCR-2026-07-24-02.json`
+- `research/pipeline-changes/PCR-2026-07-24-03.json` → `research/pipeline/changes/PCR-2026-07-24-03.json`
+- `research/pipeline-changes/PCR-2026-07-24-04.json` → `research/pipeline/changes/PCR-2026-07-24-04.json`
+- `research/pipeline-changes/PCR-2026-07-24-05.json` → `research/pipeline/changes/PCR-2026-07-24-05.json`
+- `research/pipeline-changes/PCR-2026-07-24-06.json` → `research/pipeline/changes/PCR-2026-07-24-06.json`
+- `research/pipeline-changes/PCR-2026-07-24-07.json` → `research/pipeline/changes/PCR-2026-07-24-07.json`
+- `research/pipeline-changes/PCR-2026-07-24-08.json` → `research/pipeline/changes/PCR-2026-07-24-08.json`
+- `research/pipeline-changes/PCR-2026-07-24-09.json` → `research/pipeline/changes/PCR-2026-07-24-09.json`
+- `research/pipeline-changes/PCR-2026-07-24-10.json` → `research/pipeline/changes/PCR-2026-07-24-10.json`
+- `research/pipeline-changes/PCR-2026-07-24-11.json` → `research/pipeline/changes/PCR-2026-07-24-11.json`
+- `research/pipeline-changes/PCR-2026-07-24-12.json` → `research/pipeline/changes/PCR-2026-07-24-12.json`
+- `research/pipeline-changes/PCR-2026-07-24-13.json` → `research/pipeline/changes/PCR-2026-07-24-13.json`
+- `research/pipeline-changes/PCR-2026-07-24-14.json` → `research/pipeline/changes/PCR-2026-07-24-14.json`
+- `research/pipeline-changes/PCR-2026-07-24-15.json` → `research/pipeline/changes/PCR-2026-07-24-15.json`
+- `research/pipeline-changes/PCR-2026-07-25-01.json` → `research/pipeline/changes/PCR-2026-07-25-01.json`
+- `research/pipeline-changes/PCR-2026-07-25-02.json` → `research/pipeline/changes/PCR-2026-07-25-02.json`
+- `research/pipeline-changes/PCR-2026-07-25-03.json` → `research/pipeline/changes/PCR-2026-07-25-03.json`
+- `research/pipeline-releases` → `research/pipeline/releases`
+- `research/pipeline-tests` → `research/pipeline/tests`
+- `research/generation-tests` → `research/archive/experiments/generation-tests`
+- `research/m22` → `research/archive/experiments/m22`
+- `research/m26/louvre` → `research/runs/production/louvre/m26-2026-07-22-01`
+- `research/m28-3/chichu` → `research/runs/production/chichu/m28-3-chichu`
+- `research/m28-4/muxin` → `research/runs/production/muxin/m28-4-muxin`
+- `research/m28-6/vienna` → `research/runs/production/vienna/m28-6-vienna`
+- `research/m28-12/seattle-selection-schema-superseded` → `research/archive/runs/m28-12/seattle-selection-schema-superseded`
+- `research/m28-12/seattle-standard-route-superseded` → `research/archive/runs/m28-12/seattle-standard-route-superseded`
+- `research/m28-12/seattle` → `research/runs/production/seattle/m28-12-seattle`
+- `research/alhambra-content-v1.md` → `research/content/alhambra.md`
+- `research/anchorage-content-v1.md` → `research/content/anchorage.md`
+- `research/british-content-v1.md` → `research/content/british.md`
+- `research/chichu-content-v2.md` → `research/content/chichu.md`
+- `research/egyptian-content-v2.md` → `research/content/egyptian.md`
+- `research/enoura-content-v1.md` → `research/content/enoura.md`
+- `research/frye-content-v1.md` → `research/content/frye.md`
+- `research/getty-content-v1.md` → `research/content/getty.md`
+- `research/glyptotek-content-v2.md` → `research/content/glyptotek.md`
+- `research/louvre-content-v4.md` → `research/content/louvre.md`
+- `research/met-content-v2.md` → `research/content/met.md`
+- `research/muxin-content-v2.md` → `research/content/muxin.md`
+- `research/seattle-content-v3.md` → `research/content/seattle.md`
+- `research/smk-content-v1.md` → `research/content/smk.md`
+- `research/vienna-content-v2.md` → `research/content/vienna.md`
+- `research/chichu-content-v1.md` → `research/archive/content/chichu-content-v1.md`
+- `research/egyptian-content-v1.md` → `research/archive/content/egyptian-content-v1.md`
+- `research/louvre-content-prototype.md` → `research/archive/content/louvre-content-prototype.md`
+- `research/louvre-content-test-v2.md` → `research/archive/content/louvre-content-test-v2.md`
+- `research/louvre-content-v3.md` → `research/archive/content/louvre-content-v3.md`
+- `research/louvre-new-content-v1.md` → `research/archive/content/louvre-new-content-v1.md`
+- `research/muxin-content-v1.md` → `research/archive/content/muxin-content-v1.md`
+- `research/seattle-content-v2.md` → `research/archive/content/seattle-content-v2.md`
+- `research/vienna-content-v1.md` → `research/archive/content/vienna-content-v1.md`
+- `research/content-method-v2.md` → `research/archive/contracts/content-method-v2.md`
+- `research/m22-pipeline-contract.md` → `research/archive/contracts/m22-pipeline-contract.md`
+- `research/louvre-image-sources.md` → `research/evidence/museums/louvre/image-sources.md`
+- `research/louvre-selection-60-v1.md` → `research/evidence/museums/louvre/selection-60.md`
+- `research/archive/content-standard-manifest-before-M28.1.json` → `research/archive/contracts/content-standard-manifest-before-M28.1.json`
+- `research/archive/generation-pipeline-history-through-M28.1.md` → `research/archive/contracts/generation-pipeline-history-through-M28.1.md`
+- `research/archive/meowseum-content-instruction-history-through-M28.1.md` → `research/archive/contracts/meowseum-content-instruction-history-through-M28.1.md`
+- `scripts/build-alhambra-content.mjs` → `scripts/legacy/build-alhambra-content.mjs`
+- `scripts/build-egyptian-content.mjs` → `scripts/legacy/build-egyptian-content.mjs`
+- `scripts/build-louvre-v4.mjs` → `scripts/legacy/build-louvre-v4.mjs`
+- `scripts/build-m11-content.mjs` → `scripts/legacy/build-m11-content.mjs`
+- `scripts/build-vienna-content.mjs` → `scripts/legacy/build-vienna-content.mjs`
+- `scripts/run-frye-pilot-author.ps1` → `scripts/legacy/run-frye-pilot-author.ps1`
+- `scripts/run-frye-pilot-reviewer.ps1` → `scripts/legacy/run-frye-pilot-reviewer.ps1`
+
+## Investigate
+
+- None

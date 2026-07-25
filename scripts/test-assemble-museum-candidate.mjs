@@ -1,54 +1,112 @@
-import fs from "node:fs/promises";
-import path from "node:path";
-import vm from "node:vm";
-import {spawn} from "node:child_process";
 import assert from "node:assert/strict";
+import fs from "node:fs/promises";
+import os from "node:os";
+import path from "node:path";
+import { spawnSync } from "node:child_process";
+import {
+  fixtureRunId,
+  writeFixtureManifest,
+  writeFixtureRun,
+} from "./lib/test-filesystem-fixture.mjs";
 
-const root = path.resolve(new URL("..", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"));
-const cases = [
-  {id: "vienna", run: "research/m28-6/vienna", candidate: "research/m28-6/vienna/candidate-m28-9", count: 40},
-  {id: "chichu", run: "research/m28-3/chichu", candidate: "research/m28-3/chichu/candidate-m28-9", count: 20}
-];
-const execute = args => new Promise((resolve, reject) => {
-  const child = spawn(process.execPath, args, {cwd: root, stdio: "inherit"});
-  child.on("error", reject);
-  child.on("exit", code => code === 0 ? resolve() : reject(new Error(`assembler exited ${code}`)));
-});
-const firstDiff = (left, right, trail = "") => {
-  if (JSON.stringify(left) === JSON.stringify(right)) return "";
-  if (!left || !right || typeof left !== "object" || typeof right !== "object") return `${trail}: ${JSON.stringify(left)} != ${JSON.stringify(right)}`;
-  for (const key of new Set([...Object.keys(left), ...Object.keys(right)])) {
-    const found = firstDiff(left[key], right[key], `${trail}.${key}`);
-    if (found) return found;
-  }
-  return trail;
-};
+const script = path.resolve(new URL("assemble-museum-candidate.mjs", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"));
+const root = await fs.mkdtemp(path.join(os.tmpdir(), "meowseum-assembly-"));
+try {
+  await writeFixtureManifest(root);
+  const { runRoot } = await writeFixtureRun({ projectRoot: root });
+  await fs.writeFile(
+    path.join(root, "ratings.js"),
+    "const museumRatings = {\n  fixture: {\n    score: 70\n  }\n};\n",
+  );
+  await fs.writeFile(
+    path.join(root, "routes.js"),
+    'const routePlans = {\n  fixture: {}\n};\nconst contentUpdatedAtByMuseum = {fixture:"2026-07-25"};\n',
+  );
+  const page = '<script src="./museums.js"></script>\n<script src="./fixture.js"></script>\n<script src="./routes.js"></script>';
+  await fs.writeFile(path.join(root, "index.html"), page);
+  await fs.writeFile(path.join(root, "museum.html"), page);
 
-for (const test of cases) {
-  await execute([
-    "scripts/assemble-museum-candidate.mjs",
-    `--run-root=${test.run}`,
-    `--candidate=${test.candidate}`
-  ]);
-  const loadMuseum = async candidate => {
-    const context = {};
-    vm.createContext(context);
-    vm.runInContext(await fs.readFile(path.join(root, candidate || "", "ratings.js"), "utf8"), context);
-    vm.runInContext("globalThis.museumData={}", context);
-    vm.runInContext(await fs.readFile(path.join(root, candidate || "", `${test.id}.js`), "utf8"), context);
-    vm.runInContext(await fs.readFile(path.join(root, candidate || "", "routes.js"), "utf8"), context);
-    vm.runInContext(`globalThis.__museum=museumData.${test.id}`, context);
-    return JSON.parse(JSON.stringify(context.__museum));
+  const workRoot = path.join(runRoot, "works", "work-one");
+  await fs.mkdir(path.join(workRoot, "author"), { recursive: true });
+  await fs.mkdir(path.join(workRoot, "mechanical"), { recursive: true });
+  const draft = "## 作品一 / Work One\n\n### 30 秒先懂\n\n这是一段测试正文。\n";
+  await fs.writeFile(path.join(workRoot, "author", "draft.md"), draft);
+  await fs.writeFile(path.join(workRoot, "author", "card.txt"), "一句卡片简介。");
+  await fs.writeFile(
+    path.join(workRoot, "author", "writing-plan.json"),
+    JSON.stringify({
+      displayMetadata: {
+        by: "作者 · 国家",
+        date: "1900",
+        material: "布面油画",
+        place: "测试馆",
+        priority: "绝对不可错过",
+        significance: "稀世珍品",
+        stay: "建议停留 3 分钟",
+      },
+    }),
+  );
+  await fs.writeFile(path.join(workRoot, "mechanical", "mechanical-result.json"), '{"status":"passed"}');
+  const input = {
+    schemaVersion: 1,
+    museum: {
+      id: "fixture",
+      editorialCapacity: 1,
+      city: "测试城",
+      zh: "测试馆",
+      en: "Fixture Museum",
+      verdict: "",
+      hero: "https://example.test/hero.jpg",
+      contentFile: "research/content/fixture.md",
+      official: "https://example.test",
+      visit: "https://example.test/visit",
+      contentUpdatedAt: "2026-07-25",
+      intro: ["测试馆介"],
+      routes: {},
+    },
+    chapters: [{ id: "one", number: "01", title: "第一章", intro: "章节简介" }],
+    routes: {
+      "90": { title: "90 分钟", note: "", workIds: ["work-one"] },
+      half: { title: "半天", note: "", workIds: ["work-one"] },
+      all: { title: "完整", note: "", workIds: ["work-one"] },
+    },
+    rating: { score: 70 },
+    works: [
+      {
+        id: "work-one",
+        ch: "one",
+        significance: "稀世珍品",
+        image: "https://example.test/work.jpg",
+        imageSource: "https://example.test/image",
+        imageCaption: "作品一",
+        source: "https://example.test/work",
+      },
+    ],
+    publication: { dataFile: "fixture.js", cacheKey: "fixture-v1", cachePages: ["index.html", "museum.html"] },
   };
-  const [museum, production] = await Promise.all([loadMuseum(test.candidate), loadMuseum("")]);
-  if (museum.works.length !== test.count) throw new Error(`${test.id}: wrong work count`);
-  if (new Set(museum.works.map(work => work.id)).size !== test.count) throw new Error(`${test.id}: duplicate work ids`);
-  try { assert.deepStrictEqual(museum, production); }
-  catch { throw new Error(`${test.id}: candidate is not semantically equal to production (${firstDiff(museum, production)})`); }
-  const reportText = await fs.readFile(path.join(root, test.candidate, path.basename(museum.contentFile)), "utf8");
-  if ((reportText.match(/^##\s+\d+\./gm) || []).length !== test.count) throw new Error(`${test.id}: wrong content count`);
-  const productionText = await fs.readFile(path.join(root, museum.contentFile.replace(/^\.\//, "")), "utf8");
-  const normalize = text => text.replace(/\n+---\n+/g, "\n\n").replace(/\r\n/g, "\n").trim();
-  if (normalize(reportText) !== normalize(productionText)) throw new Error(`${test.id}: candidate prose changed`);
+  await fs.writeFile(path.join(runRoot, "structure", "assembly-input.json"), `${JSON.stringify(input, null, 2)}\n`);
+  const identity = [
+    `--project-root=${root}`,
+    "--kind=production",
+    "--museum=fixture",
+    `--run-id=${fixtureRunId}`,
+  ];
+  let result = spawnSync(process.execPath, [script, ...identity], { encoding: "utf8" });
+  if (result.status !== 0) throw new Error(result.stderr || result.stdout);
+  const candidate = path.join(runRoot, "candidate");
+  const content = await fs.readFile(path.join(candidate, "fixture.md"), "utf8");
+  assert.match(content, /### 30 秒先懂/);
+  assert.equal((content.match(/^##\s+\d+\./gm) ?? []).length, 1);
+  const publication = JSON.parse(await fs.readFile(path.join(candidate, "publication.json"), "utf8"));
+  assert.equal(
+    publication.files.find((item) => item.source === "fixture.md").destination,
+    "research/content/fixture.md",
+  );
+  result = spawnSync(process.execPath, [script, ...identity, `--candidate=${root}`], { encoding: "utf8" });
+  if (result.status === 0 || !result.stderr.includes("--candidate must exactly equal")) {
+    throw new Error("assembler accepted candidate output outside the run");
+  }
+  process.stdout.write("generic assembler contract test passed\n");
+} finally {
+  await fs.rm(root, { recursive: true, force: true });
 }
-console.log("generic assembler test passed: Vienna 40 and Chichu 20");

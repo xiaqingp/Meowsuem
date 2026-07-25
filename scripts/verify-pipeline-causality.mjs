@@ -21,7 +21,7 @@ const verify = run => {
   return failures;
 };
 
-const fixture = JSON.parse(await fs.readFile(new URL("../research/pipeline-tests/causality-fixtures.json", import.meta.url), "utf8"));
+const fixture = JSON.parse(await fs.readFile(new URL("../research/pipeline/tests/causality-fixtures.json", import.meta.url), "utf8"));
 const validFailures = verify(fixture.valid);
 const backfillFailures = verify(fixture.backfill);
 if (validFailures.length || !backfillFailures.length) {

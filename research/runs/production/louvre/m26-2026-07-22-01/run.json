@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "filesystemContractVersion": 1,
+  "runKind": "production",
+  "runId": "m26-2026-07-22-01",
+  "museumId": "louvre",
+  "milestone": "M26",
+  "pipelineVersion": "2.6.2",
+  "instructionVersion": "legacy",
+  "status": "blocked",
+  "createdAt": "2026-07-25T00:00:00.000Z",
+  "createdBy": "scripts/migrate-filesystem-contract-v1.mjs",
+  "layoutVersion": 0,
+  "legacyLayout": true,
+  "immutable": false
+}

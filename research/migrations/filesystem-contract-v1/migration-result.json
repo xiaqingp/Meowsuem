@@ -1,0 +1,567 @@
+{
+  "generatedAt": "2026-07-25T16:06:57.413Z",
+  "filesystemContractVersion": 1,
+  "status": "moved",
+  "moves": [
+    {
+      "oldPath": "research/audits",
+      "newPath": "research/evidence/audits",
+      "hashBefore": "6c450be7ecaa4920461a58cca523e09d5f0c9fcd3e35801035e82adcbd63b229",
+      "hashAfter": "6c450be7ecaa4920461a58cca523e09d5f0c9fcd3e35801035e82adcbd63b229",
+      "files": 33,
+      "finalHash": "6c450be7ecaa4920461a58cca523e09d5f0c9fcd3e35801035e82adcbd63b229"
+    },
+    {
+      "oldPath": "research/style-study",
+      "newPath": "research/evidence/style-study",
+      "hashBefore": "373036de7afb76da65234d199e0c0e73d6d2979a42b26800d1bda457c0941c8a",
+      "hashAfter": "373036de7afb76da65234d199e0c0e73d6d2979a42b26800d1bda457c0941c8a",
+      "files": 7,
+      "finalHash": "373036de7afb76da65234d199e0c0e73d6d2979a42b26800d1bda457c0941c8a"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-23-01.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-23-01.json",
+      "hashBefore": "806364b4ef0fa0341c9a5a60ece506dc2832107f751dcfc45781e2bdd99ee503",
+      "hashAfter": "806364b4ef0fa0341c9a5a60ece506dc2832107f751dcfc45781e2bdd99ee503",
+      "files": 1,
+      "finalHash": "806364b4ef0fa0341c9a5a60ece506dc2832107f751dcfc45781e2bdd99ee503"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-01.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-01.json",
+      "hashBefore": "2574704d8052404b307466fc1ae6e5f302ce903544d64c4b065df15e108b90fd",
+      "hashAfter": "2574704d8052404b307466fc1ae6e5f302ce903544d64c4b065df15e108b90fd",
+      "files": 1,
+      "finalHash": "2574704d8052404b307466fc1ae6e5f302ce903544d64c4b065df15e108b90fd"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-02.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-02.json",
+      "hashBefore": "b44c930102ebde3e7b39523dc3682858926eae8b72393781151be4ba568eec79",
+      "hashAfter": "b44c930102ebde3e7b39523dc3682858926eae8b72393781151be4ba568eec79",
+      "files": 1,
+      "finalHash": "b44c930102ebde3e7b39523dc3682858926eae8b72393781151be4ba568eec79"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-03.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-03.json",
+      "hashBefore": "8656dce72e5438e9fa7e9fdae448c9e0ba353ebadf1746ab348694510c7ced20",
+      "hashAfter": "8656dce72e5438e9fa7e9fdae448c9e0ba353ebadf1746ab348694510c7ced20",
+      "files": 1,
+      "finalHash": "8656dce72e5438e9fa7e9fdae448c9e0ba353ebadf1746ab348694510c7ced20"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-04.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-04.json",
+      "hashBefore": "009fa5dce39b98e41b5be5b0aae8be635f27e416c64d0f0ceb9b56276cdec9bf",
+      "hashAfter": "009fa5dce39b98e41b5be5b0aae8be635f27e416c64d0f0ceb9b56276cdec9bf",
+      "files": 1,
+      "finalHash": "009fa5dce39b98e41b5be5b0aae8be635f27e416c64d0f0ceb9b56276cdec9bf"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-05.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-05.json",
+      "hashBefore": "af7bb3ab18d0a28bf51c0ab2646214091557eb26a47bf253b46ee8c4f8ae2ce5",
+      "hashAfter": "af7bb3ab18d0a28bf51c0ab2646214091557eb26a47bf253b46ee8c4f8ae2ce5",
+      "files": 1,
+      "finalHash": "af7bb3ab18d0a28bf51c0ab2646214091557eb26a47bf253b46ee8c4f8ae2ce5"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-06.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-06.json",
+      "hashBefore": "cb90b118e09fd9c68072d406f4c8a84699438f90cdc7f510b5e2daace6ee5e8d",
+      "hashAfter": "cb90b118e09fd9c68072d406f4c8a84699438f90cdc7f510b5e2daace6ee5e8d",
+      "files": 1,
+      "finalHash": "cb90b118e09fd9c68072d406f4c8a84699438f90cdc7f510b5e2daace6ee5e8d"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-07.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-07.json",
+      "hashBefore": "188dc0482bb30aa148ff2bd2942b6156a502de51f6ffa405e35f9b4a22c704a2",
+      "hashAfter": "188dc0482bb30aa148ff2bd2942b6156a502de51f6ffa405e35f9b4a22c704a2",
+      "files": 1,
+      "finalHash": "188dc0482bb30aa148ff2bd2942b6156a502de51f6ffa405e35f9b4a22c704a2"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-08.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-08.json",
+      "hashBefore": "c735dc5820f7943a6eec2086d1c77f2c7d910b33dfdb7e6e55c0586f8ea209f5",
+      "hashAfter": "c735dc5820f7943a6eec2086d1c77f2c7d910b33dfdb7e6e55c0586f8ea209f5",
+      "files": 1,
+      "finalHash": "c735dc5820f7943a6eec2086d1c77f2c7d910b33dfdb7e6e55c0586f8ea209f5"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-09.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-09.json",
+      "hashBefore": "1515a65ca00b47fdaac1a9dfd5f33ad9a910d32900b78b88b513f56e66659396",
+      "hashAfter": "1515a65ca00b47fdaac1a9dfd5f33ad9a910d32900b78b88b513f56e66659396",
+      "files": 1,
+      "finalHash": "1515a65ca00b47fdaac1a9dfd5f33ad9a910d32900b78b88b513f56e66659396"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-10.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-10.json",
+      "hashBefore": "61977957139e0d1b9ee9cecd6e25ee336774b15abdb44bd3da0cc2ae26d7e409",
+      "hashAfter": "61977957139e0d1b9ee9cecd6e25ee336774b15abdb44bd3da0cc2ae26d7e409",
+      "files": 1,
+      "finalHash": "61977957139e0d1b9ee9cecd6e25ee336774b15abdb44bd3da0cc2ae26d7e409"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-11.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-11.json",
+      "hashBefore": "1bb885425e860825ae144882ada45d8413a85b3f450fc720c0064571bf70bc8d",
+      "hashAfter": "1bb885425e860825ae144882ada45d8413a85b3f450fc720c0064571bf70bc8d",
+      "files": 1,
+      "finalHash": "1bb885425e860825ae144882ada45d8413a85b3f450fc720c0064571bf70bc8d"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-12.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-12.json",
+      "hashBefore": "bba770132d123880d6a38d8d99c8627f99cd0167d3855b4b751c7bb8ecd6136c",
+      "hashAfter": "bba770132d123880d6a38d8d99c8627f99cd0167d3855b4b751c7bb8ecd6136c",
+      "files": 1,
+      "finalHash": "bba770132d123880d6a38d8d99c8627f99cd0167d3855b4b751c7bb8ecd6136c"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-13.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-13.json",
+      "hashBefore": "abdf102374e6883efd342600206f1b063096b139ec5eb0538a22a28684e89067",
+      "hashAfter": "abdf102374e6883efd342600206f1b063096b139ec5eb0538a22a28684e89067",
+      "files": 1,
+      "finalHash": "abdf102374e6883efd342600206f1b063096b139ec5eb0538a22a28684e89067"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-14.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-14.json",
+      "hashBefore": "286e9a1dc2f4c03f4d5c3ee0fdcba14c4a526aa116abad83164729f3ee3b6141",
+      "hashAfter": "286e9a1dc2f4c03f4d5c3ee0fdcba14c4a526aa116abad83164729f3ee3b6141",
+      "files": 1,
+      "finalHash": "286e9a1dc2f4c03f4d5c3ee0fdcba14c4a526aa116abad83164729f3ee3b6141"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-15.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-15.json",
+      "hashBefore": "bb624ba3be1a426f7b9e93a3dde270df5005fc43880ccba38178a53d55126468",
+      "hashAfter": "bb624ba3be1a426f7b9e93a3dde270df5005fc43880ccba38178a53d55126468",
+      "files": 1,
+      "finalHash": "bb624ba3be1a426f7b9e93a3dde270df5005fc43880ccba38178a53d55126468"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-25-01.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-25-01.json",
+      "hashBefore": "603d3fe7bf7b3c1648231268ff61162faadb16edd26701988287176c916f5aa1",
+      "hashAfter": "603d3fe7bf7b3c1648231268ff61162faadb16edd26701988287176c916f5aa1",
+      "files": 1,
+      "finalHash": "603d3fe7bf7b3c1648231268ff61162faadb16edd26701988287176c916f5aa1"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-25-02.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-25-02.json",
+      "hashBefore": "e31d71efa506ebaa41075bf3fd8c929eb89ffda74d3b7e57a56d8ca624b8d604",
+      "hashAfter": "e31d71efa506ebaa41075bf3fd8c929eb89ffda74d3b7e57a56d8ca624b8d604",
+      "files": 1,
+      "finalHash": "e31d71efa506ebaa41075bf3fd8c929eb89ffda74d3b7e57a56d8ca624b8d604"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-25-03.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-25-03.json",
+      "hashBefore": "c54620818a4fde2eb306141611c351d82d755db7b1719c0f3c097d64d5baad03",
+      "hashAfter": "c54620818a4fde2eb306141611c351d82d755db7b1719c0f3c097d64d5baad03",
+      "files": 1,
+      "finalHash": "c54620818a4fde2eb306141611c351d82d755db7b1719c0f3c097d64d5baad03"
+    },
+    {
+      "oldPath": "research/pipeline-releases",
+      "newPath": "research/pipeline/releases",
+      "hashBefore": "5b2dcaec3b07c7f5b68483732625434f15f23e0807d9a069c8479bf8a9d3352b",
+      "hashAfter": "5b2dcaec3b07c7f5b68483732625434f15f23e0807d9a069c8479bf8a9d3352b",
+      "files": 38,
+      "finalHash": "5b2dcaec3b07c7f5b68483732625434f15f23e0807d9a069c8479bf8a9d3352b"
+    },
+    {
+      "oldPath": "research/pipeline-tests",
+      "newPath": "research/pipeline/tests",
+      "hashBefore": "7ac8fdbaf4f41278f16cc2049b0ce43fc8fc5449389c92e96dae0411a57b7982",
+      "hashAfter": "7ac8fdbaf4f41278f16cc2049b0ce43fc8fc5449389c92e96dae0411a57b7982",
+      "files": 427,
+      "finalHash": "7ac8fdbaf4f41278f16cc2049b0ce43fc8fc5449389c92e96dae0411a57b7982"
+    },
+    {
+      "oldPath": "research/generation-tests",
+      "newPath": "research/archive/experiments/generation-tests",
+      "hashBefore": "cdbebc36c233dbae346e386c8d95f9c34dae36a12c7393cecc36abd92c7f88dd",
+      "hashAfter": "cdbebc36c233dbae346e386c8d95f9c34dae36a12c7393cecc36abd92c7f88dd",
+      "files": 53,
+      "finalHash": "cdbebc36c233dbae346e386c8d95f9c34dae36a12c7393cecc36abd92c7f88dd"
+    },
+    {
+      "oldPath": "research/m22",
+      "newPath": "research/archive/experiments/m22",
+      "hashBefore": "d88acd86c02375493febb492a99162c209906b9f1482193841dec8d043e6ae2b",
+      "hashAfter": "d88acd86c02375493febb492a99162c209906b9f1482193841dec8d043e6ae2b",
+      "files": 8,
+      "finalHash": "d88acd86c02375493febb492a99162c209906b9f1482193841dec8d043e6ae2b"
+    },
+    {
+      "oldPath": "research/m26/louvre",
+      "newPath": "research/runs/production/louvre/m26-2026-07-22-01",
+      "hashBefore": "88c171686207566ae1bcc676b4e2cf1fa2fe39cc8c17148663fe8a6a53449c11",
+      "hashAfter": "88c171686207566ae1bcc676b4e2cf1fa2fe39cc8c17148663fe8a6a53449c11",
+      "files": 7,
+      "finalHash": "1e567c5f589d92ae9f6e3426ed29cf38941020be1302e41fbbd72529c53486a4"
+    },
+    {
+      "oldPath": "research/m28-3/chichu",
+      "newPath": "research/runs/production/chichu/m28-3-chichu",
+      "hashBefore": "22f9f89fa843e5c0c5ef79235f822326a71c86bd02932dc3bc9d267e4fd7c995",
+      "hashAfter": "22f9f89fa843e5c0c5ef79235f822326a71c86bd02932dc3bc9d267e4fd7c995",
+      "files": 217,
+      "finalHash": "3d95bb3b674ee443acd85ce817afe4ba4a782cb3f6a47091c1e31b8366d8f014"
+    },
+    {
+      "oldPath": "research/m28-4/muxin",
+      "newPath": "research/runs/production/muxin/m28-4-muxin",
+      "hashBefore": "33e643cc861f8a9c4aa920044f1f2bac0873aaef52ee224f0295b55f6b225310",
+      "hashAfter": "33e643cc861f8a9c4aa920044f1f2bac0873aaef52ee224f0295b55f6b225310",
+      "files": 499,
+      "finalHash": "1d4a620195bb89c992c731490c1c154aa1cc454873b16ea4c0ac03d2730c41da"
+    },
+    {
+      "oldPath": "research/m28-6/vienna",
+      "newPath": "research/runs/production/vienna/m28-6-vienna",
+      "hashBefore": "c8a669f7a934cf74456b6de99e91d3130cf742f796aa81ddc98a0178f7c69a6d",
+      "hashAfter": "c8a669f7a934cf74456b6de99e91d3130cf742f796aa81ddc98a0178f7c69a6d",
+      "files": 416,
+      "finalHash": "c7eef9044d96af64b084dacc896200583f91eb3e86f3066b3331ac7b8c67a2d8"
+    },
+    {
+      "oldPath": "research/m28-12/seattle-selection-schema-superseded",
+      "newPath": "research/archive/runs/m28-12/seattle-selection-schema-superseded",
+      "hashBefore": "3e9d11f13b3a05fc22618ae587f47a5756ea86f802df6951b9558ffe29f938a8",
+      "hashAfter": "3e9d11f13b3a05fc22618ae587f47a5756ea86f802df6951b9558ffe29f938a8",
+      "files": 6,
+      "finalHash": "3e9d11f13b3a05fc22618ae587f47a5756ea86f802df6951b9558ffe29f938a8"
+    },
+    {
+      "oldPath": "research/m28-12/seattle-standard-route-superseded",
+      "newPath": "research/archive/runs/m28-12/seattle-standard-route-superseded",
+      "hashBefore": "27d356b28d55b1d90abe091fd4398e31c34871aa8b11dd41a871a63d1f74c8df",
+      "hashAfter": "27d356b28d55b1d90abe091fd4398e31c34871aa8b11dd41a871a63d1f74c8df",
+      "files": 28,
+      "finalHash": "27d356b28d55b1d90abe091fd4398e31c34871aa8b11dd41a871a63d1f74c8df"
+    },
+    {
+      "oldPath": "research/m28-12/seattle",
+      "newPath": "research/runs/production/seattle/m28-12-seattle",
+      "hashBefore": "d7c584ca6ef64bd91888b7dc0f807545b409a4a99fdda7f9145d820acc0af6f4",
+      "hashAfter": "d7c584ca6ef64bd91888b7dc0f807545b409a4a99fdda7f9145d820acc0af6f4",
+      "files": 265,
+      "finalHash": "97208bde856e0ee2717241ccdae039508647d008eb3a1f6544e0d8213fd6e376"
+    },
+    {
+      "oldPath": "research/alhambra-content-v1.md",
+      "newPath": "research/content/alhambra.md",
+      "hashBefore": "55725934f1c47946f60135d3a50c3fed915697129053b4f60b05854fa9e28041",
+      "hashAfter": "55725934f1c47946f60135d3a50c3fed915697129053b4f60b05854fa9e28041",
+      "files": 1,
+      "finalHash": "55725934f1c47946f60135d3a50c3fed915697129053b4f60b05854fa9e28041"
+    },
+    {
+      "oldPath": "research/anchorage-content-v1.md",
+      "newPath": "research/content/anchorage.md",
+      "hashBefore": "b212dd9345b6dbf01e777829f6c4a068bd10a261cb68cb828d9a4237d9ad56b4",
+      "hashAfter": "b212dd9345b6dbf01e777829f6c4a068bd10a261cb68cb828d9a4237d9ad56b4",
+      "files": 1,
+      "finalHash": "b212dd9345b6dbf01e777829f6c4a068bd10a261cb68cb828d9a4237d9ad56b4"
+    },
+    {
+      "oldPath": "research/british-content-v1.md",
+      "newPath": "research/content/british.md",
+      "hashBefore": "685880d28c0c707b7893a2dbf5e37025ed81666ba36ce3594d13f04fe78f2ffe",
+      "hashAfter": "685880d28c0c707b7893a2dbf5e37025ed81666ba36ce3594d13f04fe78f2ffe",
+      "files": 1,
+      "finalHash": "685880d28c0c707b7893a2dbf5e37025ed81666ba36ce3594d13f04fe78f2ffe"
+    },
+    {
+      "oldPath": "research/chichu-content-v2.md",
+      "newPath": "research/content/chichu.md",
+      "hashBefore": "93c27040fabc6218c397dabcd299ec36b5ce37c49b3bd3d0206a31235c3f333d",
+      "hashAfter": "93c27040fabc6218c397dabcd299ec36b5ce37c49b3bd3d0206a31235c3f333d",
+      "files": 1,
+      "finalHash": "93c27040fabc6218c397dabcd299ec36b5ce37c49b3bd3d0206a31235c3f333d"
+    },
+    {
+      "oldPath": "research/egyptian-content-v2.md",
+      "newPath": "research/content/egyptian.md",
+      "hashBefore": "b0ac15f36c2246fcf63639fc7100b3b2b54b7dea07d0d383e0f4c0ee4f3d7cd4",
+      "hashAfter": "b0ac15f36c2246fcf63639fc7100b3b2b54b7dea07d0d383e0f4c0ee4f3d7cd4",
+      "files": 1,
+      "finalHash": "b0ac15f36c2246fcf63639fc7100b3b2b54b7dea07d0d383e0f4c0ee4f3d7cd4"
+    },
+    {
+      "oldPath": "research/enoura-content-v1.md",
+      "newPath": "research/content/enoura.md",
+      "hashBefore": "93de81f6f0149bffda78f18a99ba6e4c9869389b2c437ec8b7ef10088d165bbb",
+      "hashAfter": "93de81f6f0149bffda78f18a99ba6e4c9869389b2c437ec8b7ef10088d165bbb",
+      "files": 1,
+      "finalHash": "93de81f6f0149bffda78f18a99ba6e4c9869389b2c437ec8b7ef10088d165bbb"
+    },
+    {
+      "oldPath": "research/frye-content-v1.md",
+      "newPath": "research/content/frye.md",
+      "hashBefore": "c8ad6856a9727b2e6ed8061a68e5629b395ef7607157a1d5475729ee2de63e49",
+      "hashAfter": "c8ad6856a9727b2e6ed8061a68e5629b395ef7607157a1d5475729ee2de63e49",
+      "files": 1,
+      "finalHash": "c8ad6856a9727b2e6ed8061a68e5629b395ef7607157a1d5475729ee2de63e49"
+    },
+    {
+      "oldPath": "research/getty-content-v1.md",
+      "newPath": "research/content/getty.md",
+      "hashBefore": "b1939d7cc6256ed5cf6ed979e83f3bdb0b432b49151b94d1ce551af5e6d8ff66",
+      "hashAfter": "b1939d7cc6256ed5cf6ed979e83f3bdb0b432b49151b94d1ce551af5e6d8ff66",
+      "files": 1,
+      "finalHash": "b1939d7cc6256ed5cf6ed979e83f3bdb0b432b49151b94d1ce551af5e6d8ff66"
+    },
+    {
+      "oldPath": "research/glyptotek-content-v2.md",
+      "newPath": "research/content/glyptotek.md",
+      "hashBefore": "394d814f05763e01554b2606e0ce84a22c1eaca6ae5aa45c5f8025565f1a14f5",
+      "hashAfter": "394d814f05763e01554b2606e0ce84a22c1eaca6ae5aa45c5f8025565f1a14f5",
+      "files": 1,
+      "finalHash": "394d814f05763e01554b2606e0ce84a22c1eaca6ae5aa45c5f8025565f1a14f5"
+    },
+    {
+      "oldPath": "research/louvre-content-v4.md",
+      "newPath": "research/content/louvre.md",
+      "hashBefore": "4729450b374670a779f33a8f7874637e1113d96ae62f2c77997ae608fd5dec8e",
+      "hashAfter": "4729450b374670a779f33a8f7874637e1113d96ae62f2c77997ae608fd5dec8e",
+      "files": 1,
+      "finalHash": "4729450b374670a779f33a8f7874637e1113d96ae62f2c77997ae608fd5dec8e"
+    },
+    {
+      "oldPath": "research/met-content-v2.md",
+      "newPath": "research/content/met.md",
+      "hashBefore": "6ffefe9168e9f0a3ff19e498aa7e55fba0d44a5833e4430ca1cad6a72adb1042",
+      "hashAfter": "6ffefe9168e9f0a3ff19e498aa7e55fba0d44a5833e4430ca1cad6a72adb1042",
+      "files": 1,
+      "finalHash": "6ffefe9168e9f0a3ff19e498aa7e55fba0d44a5833e4430ca1cad6a72adb1042"
+    },
+    {
+      "oldPath": "research/muxin-content-v2.md",
+      "newPath": "research/content/muxin.md",
+      "hashBefore": "92237dcbe4806bdf0e8c567d224ffd6dde25aa6250fbfa5ddce7b4b4de5d7252",
+      "hashAfter": "92237dcbe4806bdf0e8c567d224ffd6dde25aa6250fbfa5ddce7b4b4de5d7252",
+      "files": 1,
+      "finalHash": "92237dcbe4806bdf0e8c567d224ffd6dde25aa6250fbfa5ddce7b4b4de5d7252"
+    },
+    {
+      "oldPath": "research/seattle-content-v3.md",
+      "newPath": "research/content/seattle.md",
+      "hashBefore": "b2c8e2cd2c3939736499e2f793e3eddf991445f079a08facc6fa41db4572900b",
+      "hashAfter": "b2c8e2cd2c3939736499e2f793e3eddf991445f079a08facc6fa41db4572900b",
+      "files": 1,
+      "finalHash": "b2c8e2cd2c3939736499e2f793e3eddf991445f079a08facc6fa41db4572900b"
+    },
+    {
+      "oldPath": "research/smk-content-v1.md",
+      "newPath": "research/content/smk.md",
+      "hashBefore": "7c7f5a0e080235a0f483b2038390c5ac242416b0e1d70a3d3a767aef00b2b193",
+      "hashAfter": "7c7f5a0e080235a0f483b2038390c5ac242416b0e1d70a3d3a767aef00b2b193",
+      "files": 1,
+      "finalHash": "7c7f5a0e080235a0f483b2038390c5ac242416b0e1d70a3d3a767aef00b2b193"
+    },
+    {
+      "oldPath": "research/vienna-content-v2.md",
+      "newPath": "research/content/vienna.md",
+      "hashBefore": "249371729a3faaf42de3b302f63449d7d13509f53b39c634fbe3754d22a215a0",
+      "hashAfter": "249371729a3faaf42de3b302f63449d7d13509f53b39c634fbe3754d22a215a0",
+      "files": 1,
+      "finalHash": "249371729a3faaf42de3b302f63449d7d13509f53b39c634fbe3754d22a215a0"
+    },
+    {
+      "oldPath": "research/chichu-content-v1.md",
+      "newPath": "research/archive/content/chichu-content-v1.md",
+      "hashBefore": "9a48d38f3bcfb9c6fe0e7d76cea04fec196c8fabea037fcaa55384533590222b",
+      "hashAfter": "9a48d38f3bcfb9c6fe0e7d76cea04fec196c8fabea037fcaa55384533590222b",
+      "files": 1,
+      "finalHash": "71cbe05c4b586b4a0b983989e6a46c9e057802bb812ed24b9cf672421789f947"
+    },
+    {
+      "oldPath": "research/egyptian-content-v1.md",
+      "newPath": "research/archive/content/egyptian-content-v1.md",
+      "hashBefore": "106674f1b9624b742a908235f6b6210405d4b7294ce59e5a8d4495b2cc3f5c21",
+      "hashAfter": "106674f1b9624b742a908235f6b6210405d4b7294ce59e5a8d4495b2cc3f5c21",
+      "files": 1,
+      "finalHash": "cd740e1a7c769c576b506a0569b13574e8d4b294338aaf8073d8f0a70476f096"
+    },
+    {
+      "oldPath": "research/louvre-content-prototype.md",
+      "newPath": "research/archive/content/louvre-content-prototype.md",
+      "hashBefore": "75abaed3e4b2c3c56fc1c5d5fd4d844b8f582a9e88b53506eb7067719a361f4d",
+      "hashAfter": "75abaed3e4b2c3c56fc1c5d5fd4d844b8f582a9e88b53506eb7067719a361f4d",
+      "files": 1,
+      "finalHash": "d0be2d884199f34460cca3db20070612473b0f7fbafa98f1c12ffaa5482685ca"
+    },
+    {
+      "oldPath": "research/louvre-content-test-v2.md",
+      "newPath": "research/archive/content/louvre-content-test-v2.md",
+      "hashBefore": "8ce54cd8b4d82f11675b1186890521880034942556092fa94d9bc990287e1a1e",
+      "hashAfter": "8ce54cd8b4d82f11675b1186890521880034942556092fa94d9bc990287e1a1e",
+      "files": 1,
+      "finalHash": "4b04a6acc2bbbc2054a3dd9b01d172d242073c9a9df0cae05c9959a67a26efdb"
+    },
+    {
+      "oldPath": "research/louvre-content-v3.md",
+      "newPath": "research/archive/content/louvre-content-v3.md",
+      "hashBefore": "46524b22a6f73ece7f20f8b31ae09dfef97a6c6472e4f1e910705b07704ed21a",
+      "hashAfter": "46524b22a6f73ece7f20f8b31ae09dfef97a6c6472e4f1e910705b07704ed21a",
+      "files": 1,
+      "finalHash": "79227444a336663468db22e7ef89469362b9c8467381c0053b80fe4d486c60e0"
+    },
+    {
+      "oldPath": "research/louvre-new-content-v1.md",
+      "newPath": "research/archive/content/louvre-new-content-v1.md",
+      "hashBefore": "9a86535e52d8e715bc4ed39e87dd55576fd232feddcb0ca64c98b7a45c7b5f12",
+      "hashAfter": "9a86535e52d8e715bc4ed39e87dd55576fd232feddcb0ca64c98b7a45c7b5f12",
+      "files": 1,
+      "finalHash": "af9393ce1f7f74dd9554a6887395fcdaa455da2732e9b753c90bf8e08a71e3f3"
+    },
+    {
+      "oldPath": "research/muxin-content-v1.md",
+      "newPath": "research/archive/content/muxin-content-v1.md",
+      "hashBefore": "0c087b62aaa0448d7c04d953d8a1c78ddadbe2303217598919b96b418a4a3c09",
+      "hashAfter": "0c087b62aaa0448d7c04d953d8a1c78ddadbe2303217598919b96b418a4a3c09",
+      "files": 1,
+      "finalHash": "e2b0e3b5a5c32dd897cd41bf4175206f4b22a2886b2a7d0fb23bab7bc78bf94c"
+    },
+    {
+      "oldPath": "research/seattle-content-v2.md",
+      "newPath": "research/archive/content/seattle-content-v2.md",
+      "hashBefore": "7e8fa1bc4ec78847490b258c9af935517e83bea459ea47edef3319207d092978",
+      "hashAfter": "7e8fa1bc4ec78847490b258c9af935517e83bea459ea47edef3319207d092978",
+      "files": 1,
+      "finalHash": "94077ef6c84e2d1c53c3af1ced4ae60352be7c77e05fa022b53e2042e7c5db94"
+    },
+    {
+      "oldPath": "research/vienna-content-v1.md",
+      "newPath": "research/archive/content/vienna-content-v1.md",
+      "hashBefore": "22805878651691f10158aea25c697b3d1fc6ff7ecb1e16983775575f7a1f080d",
+      "hashAfter": "22805878651691f10158aea25c697b3d1fc6ff7ecb1e16983775575f7a1f080d",
+      "files": 1,
+      "finalHash": "dfa3be17c61be611cae5fca4a145cc277ddd537ebed9f588393ea41213b0bf77"
+    },
+    {
+      "oldPath": "research/content-method-v2.md",
+      "newPath": "research/archive/contracts/content-method-v2.md",
+      "hashBefore": "0b469c1b56a638b8f340941fb1d880d6588139511b9d5333bba730afcdd27589",
+      "hashAfter": "0b469c1b56a638b8f340941fb1d880d6588139511b9d5333bba730afcdd27589",
+      "files": 1,
+      "finalHash": "0b469c1b56a638b8f340941fb1d880d6588139511b9d5333bba730afcdd27589"
+    },
+    {
+      "oldPath": "research/m22-pipeline-contract.md",
+      "newPath": "research/archive/contracts/m22-pipeline-contract.md",
+      "hashBefore": "1fd6be4d5e38ca7962d9b25a322678b7b65fe9e64e1fcddd8ec96ced76f5a273",
+      "hashAfter": "1fd6be4d5e38ca7962d9b25a322678b7b65fe9e64e1fcddd8ec96ced76f5a273",
+      "files": 1,
+      "finalHash": "1fd6be4d5e38ca7962d9b25a322678b7b65fe9e64e1fcddd8ec96ced76f5a273"
+    },
+    {
+      "oldPath": "research/louvre-image-sources.md",
+      "newPath": "research/evidence/museums/louvre/image-sources.md",
+      "hashBefore": "5e36bb0f497d32ea0719feeda2d42d23cd81ebc67122b65e078929c64bc6dde4",
+      "hashAfter": "5e36bb0f497d32ea0719feeda2d42d23cd81ebc67122b65e078929c64bc6dde4",
+      "files": 1,
+      "finalHash": "5e36bb0f497d32ea0719feeda2d42d23cd81ebc67122b65e078929c64bc6dde4"
+    },
+    {
+      "oldPath": "research/louvre-selection-60-v1.md",
+      "newPath": "research/evidence/museums/louvre/selection-60.md",
+      "hashBefore": "bf7d9dfde7cf805341361918351de030cdf7fb4d1a089676caa31217fe78dc01",
+      "hashAfter": "bf7d9dfde7cf805341361918351de030cdf7fb4d1a089676caa31217fe78dc01",
+      "files": 1,
+      "finalHash": "bf7d9dfde7cf805341361918351de030cdf7fb4d1a089676caa31217fe78dc01"
+    },
+    {
+      "oldPath": "research/archive/content-standard-manifest-before-M28.1.json",
+      "newPath": "research/archive/contracts/content-standard-manifest-before-M28.1.json",
+      "hashBefore": "a6eca33ff604ab1bd3fda277d2a60d2a921146077e982ad6e90f7b3926ee896a",
+      "hashAfter": "a6eca33ff604ab1bd3fda277d2a60d2a921146077e982ad6e90f7b3926ee896a",
+      "files": 1,
+      "finalHash": "a6eca33ff604ab1bd3fda277d2a60d2a921146077e982ad6e90f7b3926ee896a"
+    },
+    {
+      "oldPath": "research/archive/generation-pipeline-history-through-M28.1.md",
+      "newPath": "research/archive/contracts/generation-pipeline-history-through-M28.1.md",
+      "hashBefore": "7b3e3f37c532e3d5c4a2ce6a11e6d54ec848ced3fa5ee0086f1fe7b9f0b81ec9",
+      "hashAfter": "7b3e3f37c532e3d5c4a2ce6a11e6d54ec848ced3fa5ee0086f1fe7b9f0b81ec9",
+      "files": 1,
+      "finalHash": "7b3e3f37c532e3d5c4a2ce6a11e6d54ec848ced3fa5ee0086f1fe7b9f0b81ec9"
+    },
+    {
+      "oldPath": "research/archive/meowseum-content-instruction-history-through-M28.1.md",
+      "newPath": "research/archive/contracts/meowseum-content-instruction-history-through-M28.1.md",
+      "hashBefore": "e90e0e4c0f0baa865094bbf2bac86bda5103a0dff7fceab806a430eb2d57d33d",
+      "hashAfter": "e90e0e4c0f0baa865094bbf2bac86bda5103a0dff7fceab806a430eb2d57d33d",
+      "files": 1,
+      "finalHash": "e90e0e4c0f0baa865094bbf2bac86bda5103a0dff7fceab806a430eb2d57d33d"
+    },
+    {
+      "oldPath": "scripts/build-alhambra-content.mjs",
+      "newPath": "scripts/legacy/build-alhambra-content.mjs",
+      "hashBefore": "192a4284d7eb1828552a6b41cfc6d4bbaf8fbb84c2275b78b59c9fbae2f9d40b",
+      "hashAfter": "192a4284d7eb1828552a6b41cfc6d4bbaf8fbb84c2275b78b59c9fbae2f9d40b",
+      "files": 1,
+      "finalHash": "5bf0932f8efe747c3eb92e95387f869c558377b381f7ed7d73c72a04c97735ff"
+    },
+    {
+      "oldPath": "scripts/build-egyptian-content.mjs",
+      "newPath": "scripts/legacy/build-egyptian-content.mjs",
+      "hashBefore": "87b9376359a424f146d258724272d7b028488fd73207c81179dbfccb27fe7672",
+      "hashAfter": "87b9376359a424f146d258724272d7b028488fd73207c81179dbfccb27fe7672",
+      "files": 1,
+      "finalHash": "73b5013e4f9a26683465e4321fdaffb62f59ef4a891bb06bb53099d7a8300075"
+    },
+    {
+      "oldPath": "scripts/build-louvre-v4.mjs",
+      "newPath": "scripts/legacy/build-louvre-v4.mjs",
+      "hashBefore": "313285459fbac7e27d421c0588524b752e81d0f54505a4a0bbecedffc24e0450",
+      "hashAfter": "313285459fbac7e27d421c0588524b752e81d0f54505a4a0bbecedffc24e0450",
+      "files": 1,
+      "finalHash": "69289f9452cbc6400abfd24fe8b6e98c58f975be8ca8d897e4c4cd57ba390e20"
+    },
+    {
+      "oldPath": "scripts/build-m11-content.mjs",
+      "newPath": "scripts/legacy/build-m11-content.mjs",
+      "hashBefore": "7c2a53d97c705cdb96ee5f813dc6832d4afabc9d539c006deae5711b98f36983",
+      "hashAfter": "7c2a53d97c705cdb96ee5f813dc6832d4afabc9d539c006deae5711b98f36983",
+      "files": 1,
+      "finalHash": "e5af1cebf7b49b83018bc79e25472ca215af1063c1544999cef6f2c53b5a8ad1"
+    },
+    {
+      "oldPath": "scripts/build-vienna-content.mjs",
+      "newPath": "scripts/legacy/build-vienna-content.mjs",
+      "hashBefore": "1717f5cb0d8a9d5da08fb3e46f8dc560ce6a76594233aaa83ab12e8aa9aab067",
+      "hashAfter": "1717f5cb0d8a9d5da08fb3e46f8dc560ce6a76594233aaa83ab12e8aa9aab067",
+      "files": 1,
+      "finalHash": "91e878a51b66ae876246d7682b0f620344366279eebcea44f097be32ff441d11"
+    },
+    {
+      "oldPath": "scripts/run-frye-pilot-author.ps1",
+      "newPath": "scripts/legacy/run-frye-pilot-author.ps1",
+      "hashBefore": "85a4ce006263cb946dc05c5827557f57933c8de304d980c9a56443a45708a298",
+      "hashAfter": "85a4ce006263cb946dc05c5827557f57933c8de304d980c9a56443a45708a298",
+      "files": 1,
+      "finalHash": "312fb31f3f22aaef5ac19bb1e8d80093047b941506df9cf9deab16aa1a0d60fe"
+    },
+    {
+      "oldPath": "scripts/run-frye-pilot-reviewer.ps1",
+      "newPath": "scripts/legacy/run-frye-pilot-reviewer.ps1",
+      "hashBefore": "90f8c68d0e9a1ea33a8eca5639cbf5534137ce1a698cb526806299b66ed6f0ef",
+      "hashAfter": "90f8c68d0e9a1ea33a8eca5639cbf5534137ce1a698cb526806299b66ed6f0ef",
+      "files": 1,
+      "finalHash": "9599e23ac1aaaaba4dedc0a14c0b1d3f11530758a463ea7bd443b533b81f927b"
+    }
+  ]
+}

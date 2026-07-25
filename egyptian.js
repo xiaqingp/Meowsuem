@@ -135,7 +135,7 @@ museumData.egyptian = {
   id:"egyptian",editorialCapacity:40,cardCopyContract:"independent-v1",contentUpdatedAt:"2026-07-22",city:"开罗 · 埃及",zh:"埃及博物馆（解放广场）",en:"The Egyptian Museum in Cairo",
   ...museumRatings.egyptian,
   verdict:"即使明星藏品不断迁出，这里仍把埃及国家诞生、金字塔时代雕塑、完整贵族墓葬与塔尼斯王室金银葬具压在同一座历史馆舍里。",
-  hero:emImage("CairoEgyptMueseum.jpg"),contentFile:"./research/egyptian-content-v2.md",official:emOfficial,visit:emVisit,
+  hero:emImage("CairoEgyptMueseum.jpg"),contentFile:"./research/content/egyptian.md",official:emOfficial,visit:emVisit,
   intro:[
     "先把三个名字分清：本页只讲解放广场的埃及博物馆，不是吉萨的大埃及博物馆（GEM），也不是福斯塔特的埃及国家文明博物馆（NMEC）。图坦卡蒙整套珍宝正集中到 GEM，22 具皇家木乃伊已在 2021 年迁往 NMEC；它们不会被借回来替这座馆撑评分。",
     "剩下的馆藏仍足以决定一次旅行。纳尔迈调色板站在国家与文字形成的门槛；左塞尔、胡夫、哈夫拉、孟卡拉、拉霍特普与诺芙蕾特构成别处难以复制的金字塔时代原件群；尤亚与图亚墓把棺具、面具、家具和战车留在同一语境；塔尼斯又以两具银棺和王室金面具补上一条独立高峰。",

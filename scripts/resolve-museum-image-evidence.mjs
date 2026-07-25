@@ -4,25 +4,33 @@ import os from "node:os";
 import crypto from "node:crypto";
 import {createRequire} from "node:module";
 import {spawnSync} from "node:child_process";
+import {assertPathInside, loadManifest, resolveCanonicalRun} from "./lib/filesystem-contract.mjs";
 
 const argument = name => process.argv.find(value => value.startsWith(`${name}=`))?.slice(name.length + 1);
 const projectRoot = path.resolve(argument("--project-root") || new URL("..", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"));
-const runRoot = path.resolve(projectRoot, argument("--run-root") || "");
 const allowModel = process.argv.includes("--allow-model");
 const fresh = process.argv.includes("--fresh");
-if (!argument("--run-root")) throw new Error("--run-root=<directory> is required");
-if (runRoot !== projectRoot && !runRoot.startsWith(`${projectRoot}${path.sep}`)) throw new Error("run root escaped project root");
-
-const manifest = JSON.parse(await fs.readFile(path.join(projectRoot, "research/content-standard-manifest.json"), "utf8"));
+const manifest = await loadManifest(projectRoot);
+const {runRoot, descriptor} = await resolveCanonicalRun({
+  projectRoot,
+  manifest,
+  runKind: argument("--kind"),
+  museumId: argument("--museum"),
+  caseId: argument("--case"),
+  runId: argument("--run-id"),
+  suppliedRunRoot: argument("--run-root"),
+  writable: true
+});
 const pool = JSON.parse(await fs.readFile(path.join(runRoot, "candidate-pool", "candidate-pool.json"), "utf8"));
 const museumId = pool.museum?.id;
 if (!/^[a-z][a-z0-9-]*$/.test(museumId || "")) throw new Error("candidate pool has no valid museum id");
+if (descriptor.museumId && museumId !== descriptor.museumId) throw new Error("Filesystem contract violation: image evidence museum identity drift");
 const evidenceRoot = path.join(runRoot, "image-evidence");
 const assetsRoot = path.join(evidenceRoot, "assets");
 const candidateAssetsRoot = path.join(evidenceRoot, "candidates");
 if (fresh) {
   const resolved = path.resolve(evidenceRoot);
-  if (!resolved.startsWith(`${runRoot}${path.sep}`)) throw new Error("image evidence path escaped run root");
+  await assertPathInside(runRoot, resolved, {allowEqual: false});
   await fs.rm(resolved, {recursive: true, force: true});
 }
 await fs.mkdir(assetsRoot, {recursive: true});
@@ -282,7 +290,7 @@ if (allowModel && ambiguous.length) {
   await fs.writeFile(packetPath, `${JSON.stringify(packet, null, 2)}\n`, "utf8");
   const instructionPath = path.join(projectRoot, "research", "meowseum-content-instruction.md");
   const header = {
-    runId: `${museumId}-image-disambiguation-${Date.now()}`,
+    runId: descriptor.runId,
     startedAt: new Date().toISOString(),
     stage: "image_disambiguation",
     museumId,
@@ -307,6 +315,7 @@ if (allowModel && ambiguous.length) {
   const run = spawnSync("powershell.exe", [
     "-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass",
     "-File", path.join(projectRoot, "scripts", "run-isolated-generation.ps1"),
+    "-ProjectRoot", projectRoot,
     "-RunDirectory", modelRoot
   ], {cwd: projectRoot, encoding: "utf8", timeout: 10 * 60 * 1000});
   if (run.status !== 0) throw new Error(`image disambiguation failed: ${run.stderr || run.stdout}`);
@@ -372,5 +381,5 @@ const output = {
   modelRun,
   works: records
 };
-await fs.writeFile(path.join(runRoot, "verified-image-evidence.json"), `${JSON.stringify(output, null, 2)}\n`, "utf8");
+await fs.writeFile(path.join(evidenceRoot, "verified-image-evidence.json"), `${JSON.stringify(output, null, 2)}\n`, "utf8");
 console.log(`${museumId} image evidence: ${output.summary.accepted}/${output.summary.works} accepted, ${output.summary.ambiguous} ambiguous, ${output.summary.unresolved} unresolved, ${output.summary.modelCalls} model calls`);

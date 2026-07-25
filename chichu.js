@@ -9,7 +9,7 @@ museumData.chichu = {
   "en": "Chichu Art Museum",
   "verdict": "如果已经安排直岛行程，地中美术馆应列为优先目的地，并预留至少半天；若只按稀世名作密度决定旅行，它不足以单独支撑一次前往直岛的行程。",
   "hero": "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_sp.jpg",
-  "contentFile": "./research/chichu-content-v2.md",
+  "contentFile": "./research/content/chichu.md",
   "official": "https://benesse-artsite.jp/en/art/chichu.html",
   "visit": "https://benesse-artsite.jp/en/general-information.html",
   "cardCopyContract": "independent-v1",

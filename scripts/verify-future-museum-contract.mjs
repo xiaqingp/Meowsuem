@@ -1,6 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import {pathToFileURL} from "node:url";
+import {loadManifest, resolveCanonicalRun} from "./lib/filesystem-contract.mjs";
 
 export function validateFutureMuseumContract({input, dataSource, indexHtml, museumHtml, publication, runFiles, legacyMuseumIds}) {
   const failures = [];
@@ -46,17 +47,28 @@ export function validateFutureMuseumContract({input, dataSource, indexHtml, muse
 async function main() {
   const argument = name => process.argv.find(value => value.startsWith(`${name}=`))?.slice(name.length + 1);
   const projectRoot = path.resolve(argument("--project-root") || new URL("..", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"));
-  const runRoot = path.resolve(projectRoot, argument("--run-root") || "");
-  const candidateRoot = path.resolve(projectRoot, argument("--candidate") || path.join(runRoot, "candidate"));
-  if (!argument("--run-root")) throw new Error("--run-root=<directory> is required");
-  const [input, manifest, publication, indexHtml, museumHtml, entries] = await Promise.all([
+  const manifest = await loadManifest(projectRoot);
+  const {runRoot, descriptor} = await resolveCanonicalRun({
+    projectRoot,
+    manifest,
+    runKind: argument("--kind"),
+    museumId: argument("--museum"),
+    caseId: argument("--case"),
+    runId: argument("--run-id"),
+    suppliedRunRoot: argument("--run-root"),
+    writable: true
+  });
+  const candidateRoot = path.join(runRoot, "candidate");
+  const [input, publication, indexHtml, museumHtml, entries] = await Promise.all([
     fs.readFile(path.join(runRoot, "assembly-input.json"), "utf8").then(JSON.parse),
-    fs.readFile(path.join(projectRoot, "research/content-standard-manifest.json"), "utf8").then(JSON.parse),
     fs.readFile(path.join(candidateRoot, "publication.json"), "utf8").then(JSON.parse),
     fs.readFile(path.join(candidateRoot, "index.html"), "utf8").catch(() => fs.readFile(path.join(projectRoot, "index.html"), "utf8")),
     fs.readFile(path.join(candidateRoot, "museum.html"), "utf8").catch(() => fs.readFile(path.join(projectRoot, "museum.html"), "utf8")),
     fs.readdir(runRoot)
   ]);
+  if (descriptor.museumId && input.museum.id !== descriptor.museumId) {
+    throw new Error("Filesystem contract violation: future contract museum identity drift");
+  }
   const actualDataSource = await fs.readFile(path.join(candidateRoot, input.publication.dataFile), "utf8");
   const failures = validateFutureMuseumContract({
     input,

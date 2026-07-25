@@ -1,0 +1,351 @@
+{
+  "schemaVersion": 1,
+  "migratedAt": "2026-07-25T16:10:00.000Z",
+  "source": "research/content-standard-manifest.json",
+  "validation": {
+    "status": "m28_in_progress",
+    "causalityFixture": "passed_valid_accepted_backfill_rejected",
+    "authorityGate": "passed_after_m28_1_compaction",
+    "managementCompaction": {
+      "status": "passed",
+      "activeCohoBytesBefore": 186077,
+      "activeCohoBytesAfter": 17194,
+      "reductionPercent": 90.76,
+      "currentVersionReferencesOutsideManifestAndRelease": 0
+    },
+    "acceptedRegression": {
+      "authorBundleResult": "research/pipeline/tests/v2.0.9-autumn-rhythm-single-load-clean3/author-result.json",
+      "researchTokens": 78149,
+      "authorTokens": 50259,
+      "successfulRunTokens": 128408,
+      "reviewerRun": false,
+      "productionWrite": false
+    },
+    "threeWorkProductionPatch": {
+      "status": "implemented_awaiting_owner_content_acceptance",
+      "runRoot": "research/pipeline/tests/v2.2.2-three-work-production-patch-2026-07-22",
+      "works": [
+        "vienna/hunters",
+        "egyptian/narmer",
+        "met/autumn-rhythm"
+      ],
+      "researchTokens": 104599,
+      "authorTokens": {
+        "hunters-in-the-snow": 45672,
+        "narmer-palette": 34590,
+        "autumn-rhythm-number-30": 47615
+      },
+      "successfulRunTokens": 232476,
+      "reviewerRun": false,
+      "retryRun": false,
+      "mechanicalGate": "passed_3_of_3",
+      "browserGate": "passed_3_deep_links_3_images_zero_console_errors",
+      "publication": "owner_approved_work_level_content_patch"
+    },
+    "narmerPlainLanguageTest": {
+      "status": "mechanical_pass_owner_voice_review_pending",
+      "research": "latest_run_uses_fresh_card_plus_targeted_historical_transition_supplement",
+      "runs": [
+        {
+          "pipelineVersion": "2.2.4",
+          "authorTokens": 47647,
+          "result": "semantic_fail_abstract_model_language"
+        },
+        {
+          "pipelineVersion": "2.2.5",
+          "authorTokens": 49041,
+          "result": "semantic_fail_legacy_research_card_preframed_narrative"
+        },
+        {
+          "pipelineVersion": "2.2.6",
+          "authorTokens": 48986,
+          "result": "mechanical_pass_owner_voice_review_pending",
+          "runRoot": "research/pipeline/tests/v2.2.6-narmer-evidence-only-test"
+        },
+        {
+          "pipelineVersion": "2.3.0",
+          "authorTokens": 44314,
+          "result": "structural_pass_residual_card_formula_and_deep_prose_density",
+          "runRoot": "research/pipeline/tests/v2.3.0-narmer-lean-author-test"
+        },
+        {
+          "pipelineVersion": "2.3.1",
+          "authorTokens": 43659,
+          "result": "semantic_fail_unification_still_subordinated_and_mechanical_block_missing_workId",
+          "runRoot": "research/pipeline/tests/v2.3.1-narmer-historical-core-test"
+        },
+        {
+          "pipelineVersion": "2.3.2",
+          "researchTokens": 86035,
+          "result": "research_semantic_fail_canonical_first_unification_context_still_omitted_no_author_run",
+          "runRoot": "research/pipeline/tests/v2.3.2-narmer-canonical-significance"
+        },
+        {
+          "pipelineVersion": "2.4.0",
+          "researchGapTokens": 80691,
+          "authorTokens": 50616,
+          "result": "mechanical_pass_historical_transition_selected_owner_content_review_pending_research_gap_not_token_efficient",
+          "runRoot": "research/pipeline/tests/v2.4.0-narmer-value-type-test"
+        }
+      ],
+      "reviewerRun": false,
+      "publication": "none_test_artifact_only"
+    },
+    "twoValueTypeConcisenessTest": {
+      "status": "mechanical_pass_2_of_2_owner_content_review_pending",
+      "pipelineVersion": "2.4.2",
+      "instructionVersion": "2.0.1",
+      "runRoot": "research/pipeline/tests/v2.4.2-two-value-types",
+      "works": [
+        {
+          "workId": "egyptian/narmer-palette",
+          "valueType": "historical_transition",
+          "authorTokens": 47157,
+          "visibleCharacters": 1857,
+          "previousVisibleCharacters": 2825,
+          "result": "mechanical_pass_conciseness_improved_but_core_claim_still_less_direct_than_owner_requirement"
+        },
+        {
+          "workId": "met/autumn-rhythm-number-30",
+          "valueType": "artistic_breakthrough",
+          "authorTokens": 41735,
+          "visibleCharacters": 1518,
+          "previousVisibleCharacters": 2654,
+          "result": "mechanical_pass_core_and_conciseness_improved_residual_negative_contrast_formula"
+        }
+      ],
+      "reviewerRun": false,
+      "retryRun": false,
+      "publication": "none_test_artifacts_only"
+    },
+    "huntersValueTypeTest": {
+      "status": "mechanical_pass_owner_content_review_pending",
+      "pipelineVersion": "2.4.2",
+      "instructionVersion": "2.0.1",
+      "runRoot": "research/pipeline/tests/v2.4.2-hunters-value-type-test",
+      "workId": "vienna/hunters-in-the-snow",
+      "valueType": "artistic_breakthrough",
+      "authorTokens": 44145,
+      "visibleCharacters": 1707,
+      "previousVisibleCharacters": 2501,
+      "result": "mechanical_pass_direct_core_and_conciseness_improved_residual_negative_contrast_formulas",
+      "reviewerRun": false,
+      "retryRun": false,
+      "publication": "none_test_artifact_only"
+    },
+    "chichuFullGenerationCandidate": {
+      "status": "accepted_and_published_2026-07-23",
+      "pipelineVersion": "2.4.2",
+      "instructionVersion": "2.0.1",
+      "runRoot": "research/runs/production/chichu/m28-3-chichu",
+      "works": 20,
+      "researchBatches": 2,
+      "researchTokens": 262799,
+      "authorTokens": 792408,
+      "museumStructureTokens": 146879,
+      "totalTokens": 1202086,
+      "mechanicalGate": "passed_20_of_20_zero_blockers",
+      "firstMuseumStructure": "rejected_score_92_with_zero_rare_assets",
+      "candidateScore": 79,
+      "candidateRareAssets": 0,
+      "browserGate": "passed_20_cards_20_deep_links_20_images_zero_console_errors_on_8095_preview",
+      "reviewerRun": false,
+      "productionWrite": true,
+      "previewUrl": "http://127.0.0.1:8094/museum.html?id=chichu"
+    },
+    "muxinFullGenerationCandidate": {
+      "status": "accepted_and_published_2026-07-23",
+      "pipelineVersion": "2.4.7",
+      "instructionVersion": "2.0.2",
+      "runRoot": "research/runs/production/muxin/m28-4-muxin",
+      "candidateWorks": 20,
+      "researchCards": 20,
+      "replacementResearchWorks": 7,
+      "authorBundles": 20,
+      "candidateScore": 77,
+      "candidateRareAssets": 0,
+      "ratingGate": "passed_score_77_anchor_76_77_zero_rare_assets",
+      "availability": {
+        "confirmedOnView": 1,
+        "collectionRotation": 5,
+        "previouslyExhibitedCurrentUnknown": 14
+      },
+      "imagePolicy": {
+        "objectImage": 10,
+        "museumHeroPlaceholder": 10
+      },
+      "mechanicalGate": "passed_20_of_20_zero_blockers_zero_advisories",
+      "browserGate": "passed_20_cards_20_unique_deep_links_10_object_images_10_labeled_museum_placeholders_19_availability_tags_routes_and_detail_pages_on_8094",
+      "totalTokens": 2458375,
+      "reviewerRun": false,
+      "productionWrite": true,
+      "previewUrl": "http://127.0.0.1:8094/museum.html?id=muxin",
+      "auditRecord": "research/evidence/audits/muxin-m28-4-v2.4.7-candidate.md"
+    },
+    "museumRatingGate": {
+      "status": "passed_14_of_14_fixtures",
+      "pipelineVersion": "2.4.7",
+      "processor": "scripts/process-museum-rating.mjs",
+      "test": "scripts/test-museum-rating-gate.mjs",
+      "covers": [
+        "zero_rare_79_pass",
+        "zero_rare_80_block",
+        "one_rare_80_pass",
+        "rare_below_80_block",
+        "three_independent_rare_lines_for_90",
+        "world_dominant_concentration_evidence",
+        "rare_asset_evidence_match",
+        "parent_child_no_double_count",
+        "within_band_anchor_match"
+      ],
+      "modelTokens": 0
+    },
+    "authorInputContractRegression": {
+      "status": "passed",
+      "pipelineVersion": "2.4.8",
+      "fixture": "research/pipeline/tests/v2.4.8-author-input-contract/run-header.json",
+      "requiredRoles": [
+        "content_instruction",
+        "research_card",
+        "work_context"
+      ],
+      "optionalRoles": [
+        "research_supplement"
+      ],
+      "legacyMuxinBytes": 96266,
+      "compactBytes": 57951,
+      "byteReductionPercent": 39.8,
+      "wholeMuseumPlanRejected": true,
+      "auditRecordsRejected": true,
+      "modelTokens": 0
+    },
+    "pipelineChangeControl": {
+      "status": "passed",
+      "pipelineVersion": "2.4.8",
+      "record": "research/pipeline/changes/PCR-2026-07-23-01.json",
+      "ownerAuthorizationRequired": true,
+      "outOfScopeCanonicalChangeRejected": true,
+      "frozenReleaseImmutable": true,
+      "releaseIdempotencePassed": true,
+      "modelTokens": 0
+    },
+    "generationObservability": {
+      "status": "passed",
+      "pipelineVersion": "2.4.9",
+      "runner": "scripts/run-isolated-generation.ps1",
+      "reporter": "scripts/report-museum-generation.mjs",
+      "projectRootInferred": true,
+      "missingRunDirectoryFailsFast": true,
+      "nonInteractiveInvocationRequired": true,
+      "realRunnerAndModelTimestampsRecorded": true,
+      "tokenUsageRecordedFromCliLog": true,
+      "parallelStageWallClockFixturePassed": true,
+      "missingMetricsBlocked": true,
+      "releaseIdempotencePassed": true,
+      "modelTokens": 0
+    },
+    "postGenerationPerformance": {
+      "status": "passed",
+      "pipelineVersion": "2.5.0",
+      "testMuseum": "vienna",
+      "candidateBuildBaselineSeconds": 18.71,
+      "candidateBuildOptimizedSeconds": 2.37,
+      "candidateStructureSeconds": 0.09,
+      "candidateImageGateSeconds": 1.49,
+      "scopedLiveReleaseGateSeconds": 13.02,
+      "publicationSeconds": 0.12,
+      "browserRepresentativeSecondsApprox": 3,
+      "candidateWorks": 40,
+      "liveImages": 41,
+      "liveSources": 43,
+      "brokenImages": 0,
+      "brokenSources": 0,
+      "publisherSecondRunChangedFiles": 0,
+      "modelTokens": 0,
+      "auditRecord": "research/evidence/audits/vienna-m28-8-post-generation-performance.md"
+    },
+    "genericPostGenerationFinalization": {
+      "status": "passed",
+      "pipelineVersion": "2.6.0",
+      "assembler": "scripts/assemble-museum-candidate.mjs",
+      "finalizer": "scripts/finalize-museum.mjs",
+      "testMuseums": {
+        "vienna": {
+          "works": 40,
+          "assemblySeconds": 0.109,
+          "verificationSeconds": 5.427,
+          "publicationDryRunSeconds": 0.086,
+          "totalSeconds": 5.624
+        },
+        "chichu": {
+          "works": 20,
+          "assemblySeconds": 0.103,
+          "verificationSeconds": 16.713,
+          "publicationDryRunSeconds": 0.079,
+          "totalSeconds": 16.896
+        }
+      },
+      "semanticEquivalence": "passed_2_of_2",
+      "wholeSiteInventory": "15_museums_500_works_608_urls",
+      "modelCalls": 0,
+      "modelTokens": 0,
+      "productionWrite": false,
+      "auditRecord": "research/evidence/audits/m28-9-generic-finalization.md"
+    },
+    "modelAndInputOptimization": {
+      "status": "passed",
+      "pipelineVersion": "2.7.1",
+      "instructionVersion": "2.1.0",
+      "scopeModel": "gpt-5.6-terra",
+      "standardResearchModel": "gpt-5.6-terra",
+      "complexAndAuthorModel": "gpt-5.6-sol",
+      "researchBatchConcurrency": 4,
+      "authorConcurrency": 10,
+      "instructionViewReductionPercent": {
+        "museum_scope": 70.1,
+        "museum_candidate_pool": 64.1,
+        "research": 61,
+        "museum_selection": 60,
+        "museum_structure": 82,
+        "author": 49.4
+      },
+      "realModelCalls": 7,
+      "realModelTokens": 217741,
+      "successfulScopeTokens": 22271,
+      "successfulStandardResearchTokens": 21936,
+      "successfulAuthorTokens": 35872,
+      "sixWorkAuthorInputRegression": "passed_6_of_6",
+      "compactClaimEndToEnd": "passed",
+      "reviewerRun": false,
+      "productionWrite": false,
+      "auditRecord": "research/evidence/audits/m28-11-model-and-input-optimization.md"
+    },
+    "verifiedImageEvidence": {
+      "status": "passed",
+      "pipelineVersion": "2.8.0",
+      "instructionVersion": "2.2.0",
+      "resolver": "scripts/resolve-museum-image-evidence.mjs",
+      "seattleWorks": 20,
+      "accepted": 20,
+      "ambiguous": 0,
+      "unresolved": 0,
+      "uniqueImageUrls": 20,
+      "uniqueImageHashes": 20,
+      "legacyAssetInputsRead": false,
+      "seattleModelCalls": 0,
+      "seattleModelTokens": 0,
+      "seattleResolverSeconds": 40.696,
+      "assemblyAndPublicationSeconds": 2.741,
+      "browserLoadedImages": 20,
+      "browserPlaceholders": 0,
+      "lunaFallbackModel": "gpt-5.6-luna",
+      "lunaFallbackReasoningEffort": "medium",
+      "lunaContractTest": "passed_correct_official_work_image_selected",
+      "lunaContractTestSeconds": 21.494,
+      "lunaContractTestTokens": 17381,
+      "reviewerRun": false,
+      "publishedPort": 8094
+    },
+    "boundary": "M26 remains paused until M28 passes and owner explicitly resumes it"
+  }
+}

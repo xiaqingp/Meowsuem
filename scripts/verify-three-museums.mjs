@@ -90,7 +90,7 @@ for (const [id, rating] of Object.entries(ratings)) {
 
 if (/三处场馆|奥林匹克雕塑公园/.test(ratings.seattle.scoreReason + ratings.seattle.withinBandReason + ratings.seattle.limitations)) { console.error("seattle: excluded SAM venues leaked into rating rationale"); failed = true; }
 
-const visibleFiles = [appFile("index.html"), appFile("museum.html"), new URL("../research/louvre-content-v4.md", import.meta.url), new URL("../research/muxin-content-v1.md", import.meta.url)];
+const visibleFiles = [appFile("index.html"), appFile("museum.html"), new URL("../research/content/louvre.md", import.meta.url), new URL("../research/content/muxin.md", import.meta.url)];
 const forbidden = ["测试稿", "UI 原型", "这版内容刻意改了什么", "正式产品中应", "内容版本与核验", "当前方案", "即将开放"];
 for (const file of visibleFiles) {
   const text = await fs.readFile(file, "utf8");

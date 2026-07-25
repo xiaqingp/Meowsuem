@@ -1,61 +1,101 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import {spawn} from "node:child_process";
-import {performance} from "node:perf_hooks";
+import { spawn } from "node:child_process";
+import { performance } from "node:perf_hooks";
+import {
+  loadManifest,
+  resolveCanonicalRun,
+  transitionRunStatus,
+} from "./lib/filesystem-contract.mjs";
 
-const argument = name => process.argv.find(value => value.startsWith(`${name}=`))?.slice(name.length + 1);
-const projectRoot = path.resolve(argument("--project-root") || new URL("..", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"));
-const runRoot = path.resolve(projectRoot, argument("--run-root") || "");
-const candidateRoot = path.resolve(projectRoot, argument("--candidate") || path.join(runRoot, "candidate"));
-if (!argument("--run-root")) throw new Error("--run-root=<directory> is required");
-const input = JSON.parse(await fs.readFile(path.join(runRoot, "assembly-input.json"), "utf8"));
+const argument = (name) => process.argv.find((value) => value.startsWith(`${name}=`))?.slice(name.length + 1);
+const projectRoot = path.resolve(
+  argument("--project-root") || new URL("..", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"),
+);
+const manifest = await loadManifest(projectRoot);
+const runKind = argument("--kind");
+const runId = argument("--run-id");
+if (!runKind || !runId) throw new Error("--kind and --run-id are required");
+if (argument("--run-root")) {
+  process.stderr.write("DEPRECATION: --run-root is accepted only when it exactly matches the contract path.\n");
+}
+const { runRoot, descriptor } = await resolveCanonicalRun({
+  projectRoot,
+  manifest,
+  runKind,
+  museumId: argument("--museum"),
+  caseId: argument("--case"),
+  runId,
+  suppliedRunRoot: argument("--run-root"),
+  writable: true,
+});
+if (!["running", "verified"].includes(descriptor.status)) {
+  throw new Error(`Filesystem contract violation: finalization requires running or verified status, received ${descriptor.status}`);
+}
+const publish = process.argv.includes("--publish");
+if (publish && runKind !== "production") {
+  throw new Error("Filesystem contract violation: real publish requires a production run");
+}
+if (publish && descriptor.status !== "verified") {
+  throw new Error("Filesystem contract violation: real publish requires verified status");
+}
+const input = JSON.parse(await fs.readFile(path.join(runRoot, "structure", "assembly-input.json"), "utf8"));
 const concurrency = argument("--concurrency");
-const relative = target => path.relative(projectRoot, target).replaceAll("\\", "/");
+const identityArgs = [
+  `--kind=${runKind}`,
+  ...(runKind === "production" ? [`--museum=${descriptor.museumId}`] : [`--case=${descriptor.caseId}`]),
+  `--run-id=${runId}`,
+  `--project-root=${projectRoot}`,
+];
 const stages = [];
 
-const run = async (name, args) => {
+const run = async (name, script, args = []) => {
   const started = performance.now();
   await new Promise((resolve, reject) => {
-    const child = spawn(process.execPath, args, {cwd: projectRoot, stdio: "inherit"});
+    const child = spawn(process.execPath, [script, ...identityArgs, ...args], {
+      cwd: projectRoot,
+      stdio: "inherit",
+    });
     child.on("error", reject);
-    child.on("exit", code => code === 0 ? resolve() : reject(new Error(`${name} exited ${code}`)));
+    child.on("exit", (code) => (code === 0 ? resolve() : reject(new Error(`${name} exited ${code}`))));
   });
-  stages.push({name, seconds: Number(((performance.now() - started) / 1000).toFixed(3))});
+  stages.push({ name, seconds: Number(((performance.now() - started) / 1000).toFixed(3)) });
 };
 
 const totalStarted = performance.now();
-await run("assembly", [
-  "scripts/assemble-museum-candidate.mjs",
-  `--run-root=${relative(runRoot)}`,
-  `--candidate=${relative(candidateRoot)}`
-]);
-await run("future-contract", [
-  "scripts/verify-future-museum-contract.mjs",
-  `--run-root=${relative(runRoot)}`,
-  `--candidate=${relative(candidateRoot)}`
-]);
-await run("verification", [
-  "scripts/verify-release-candidate.mjs",
-  `--museum=${input.museum.id}`,
-  `--candidate=${relative(candidateRoot)}`,
+await run("assembly", "scripts/assemble-museum-candidate.mjs", runKind === "regression" ? ["--dry-run"] : []);
+await run("future-contract", "scripts/verify-future-museum-contract.mjs");
+await run("verification", "scripts/verify-release-candidate.mjs", [
   ...(concurrency ? [`--concurrency=${concurrency}`] : []),
-  ...(process.argv.includes("--live") ? ["--live"] : [])
+  ...(process.argv.includes("--live") ? ["--live"] : []),
 ]);
-await run(process.argv.includes("--publish") ? "publication" : "publication-dry-run", [
-  "scripts/publish-museum-candidate.mjs",
-  `--candidate=${relative(candidateRoot)}`,
-  ...(process.argv.includes("--publish") ? ["--publish"] : [])
+await run(publish ? "publication" : "publication-dry-run", "scripts/publish-museum-candidate.mjs", [
+  ...(publish ? ["--publish"] : []),
 ]);
 
+const completedAt = new Date();
 const report = {
   museumId: input.museum.id,
-  completedAt: new Date().toISOString(),
+  runId,
+  runKind,
+  completedAt: completedAt.toISOString(),
   stages,
   totalSeconds: Number(((performance.now() - totalStarted) / 1000).toFixed(3)),
   modelCalls: 0,
   modelTokens: 0,
   liveVerification: process.argv.includes("--live"),
-  publicationMode: process.argv.includes("--publish") ? "publish" : "dry-run"
+  publicationMode: publish ? "publish" : "dry-run",
 };
-await fs.writeFile(path.join(candidateRoot, "finalization-report.json"), `${JSON.stringify(report, null, 2)}\n`, "utf8");
-console.log(JSON.stringify(report));
+const reportsRoot = path.join(runRoot, "reports");
+await fs.mkdir(reportsRoot, { recursive: true });
+await fs.writeFile(path.join(reportsRoot, "finalization-report.json"), `${JSON.stringify(report, null, 2)}\n`, "utf8");
+if (publish || descriptor.status !== "verified") {
+  await transitionRunStatus({
+    projectRoot,
+    runRoot,
+    manifest,
+    nextStatus: publish ? "published" : "verified",
+    timestamp: completedAt,
+  });
+}
+process.stdout.write(`${JSON.stringify(report)}\n`);

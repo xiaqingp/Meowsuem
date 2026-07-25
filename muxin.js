@@ -9,7 +9,7 @@ const muxinMuseum = {
   "en": "Mu Xin Art Museum",
   "verdict": "",
   "hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mu%20Xin%20Art%20Museum%20Wuzhen.jpg?width=1280",
-  "contentFile": "./research/muxin-content-v2.md",
+  "contentFile": "./research/content/muxin.md",
   "official": "http://www.muxinam.com/",
   "visit": "https://www.ewuzhen.com/ticket/detail?goodsCode=PK-202002-0949&goodsId=214433676845494273",
   "cardCopyContract": "independent-v1",

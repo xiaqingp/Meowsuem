@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "filesystemContractVersion": 1,
+  "runKind": "production",
+  "runId": "m28-6-vienna",
+  "museumId": "vienna",
+  "milestone": "M28.6",
+  "pipelineVersion": "2.7.2",
+  "instructionVersion": "legacy",
+  "status": "published",
+  "createdAt": "2026-07-25T00:00:00.000Z",
+  "createdBy": "scripts/migrate-filesystem-contract-v1.mjs",
+  "layoutVersion": 0,
+  "legacyLayout": true,
+  "immutable": true,
+  "publishedAt": "2026-07-25T00:00:00.000Z"
+}

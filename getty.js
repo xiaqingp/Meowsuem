@@ -49,7 +49,7 @@ museumData.getty = {
   id:"getty", editorialCapacity:30, city:"洛杉矶 · 美国", zh:"盖蒂中心", en:"Getty Center",
   ...museumRatings.getty,
   verdict:"它不是靠一件镇馆之宝压倒你，而是让欧洲艺术、建筑、花园、山景和洛杉矶的光共同组成一次完整的半日体验。",
-  hero:gettyHero, contentFile:"./research/getty-content-v1.md", official:gettyCollection, visit:gettyCenter,
+  hero:gettyHero, contentFile:"./research/content/getty.md", official:gettyCollection, visit:gettyCenter,
   intro:[
     "先把边界说清楚：这里是 Brentwood 山上的 Getty Center，不是 Pacific Palisades 的 Getty Villa。Villa 的古希腊、伊特鲁里亚和罗马文物不参与本馆 89 分，也不出现在这 30 项里。",
     "Getty Center 的强项不是百科全书式覆盖，而是几条被精心收紧的欧洲艺术线：中世纪到 19 世纪绘画、法国装饰艺术、文艺复兴与巴洛克雕塑，以及轮换展出的手稿、素描和摄影。建筑与中央花园把这些对象放进一座真正需要步行、停留和回望的山顶现场。",

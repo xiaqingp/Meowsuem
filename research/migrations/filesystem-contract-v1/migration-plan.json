@@ -1,0 +1,296 @@
+{
+  "generatedAt": "2026-07-25T16:06:39.702Z",
+  "filesystemContractVersion": 1,
+  "targetPipelineVersion": "2.9.0",
+  "summary": {
+    "files": 2061,
+    "moves": 2054,
+    "archives": 106,
+    "unknown": 0,
+    "collisions": 0
+  },
+  "unknown": [],
+  "collisions": [],
+  "operations": [
+    {
+      "oldPath": "research/audits",
+      "newPath": "research/evidence/audits"
+    },
+    {
+      "oldPath": "research/style-study",
+      "newPath": "research/evidence/style-study"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-23-01.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-23-01.json"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-01.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-01.json"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-02.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-02.json"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-03.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-03.json"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-04.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-04.json"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-05.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-05.json"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-06.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-06.json"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-07.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-07.json"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-08.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-08.json"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-09.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-09.json"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-10.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-10.json"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-11.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-11.json"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-12.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-12.json"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-13.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-13.json"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-14.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-14.json"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-24-15.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-24-15.json"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-25-01.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-25-01.json"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-25-02.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-25-02.json"
+    },
+    {
+      "oldPath": "research/pipeline-changes/PCR-2026-07-25-03.json",
+      "newPath": "research/pipeline/changes/PCR-2026-07-25-03.json"
+    },
+    {
+      "oldPath": "research/pipeline-releases",
+      "newPath": "research/pipeline/releases"
+    },
+    {
+      "oldPath": "research/pipeline-tests",
+      "newPath": "research/pipeline/tests"
+    },
+    {
+      "oldPath": "research/generation-tests",
+      "newPath": "research/archive/experiments/generation-tests"
+    },
+    {
+      "oldPath": "research/m22",
+      "newPath": "research/archive/experiments/m22"
+    },
+    {
+      "oldPath": "research/m26/louvre",
+      "newPath": "research/runs/production/louvre/m26-2026-07-22-01"
+    },
+    {
+      "oldPath": "research/m28-3/chichu",
+      "newPath": "research/runs/production/chichu/m28-3-chichu"
+    },
+    {
+      "oldPath": "research/m28-4/muxin",
+      "newPath": "research/runs/production/muxin/m28-4-muxin"
+    },
+    {
+      "oldPath": "research/m28-6/vienna",
+      "newPath": "research/runs/production/vienna/m28-6-vienna"
+    },
+    {
+      "oldPath": "research/m28-12/seattle-selection-schema-superseded",
+      "newPath": "research/archive/runs/m28-12/seattle-selection-schema-superseded"
+    },
+    {
+      "oldPath": "research/m28-12/seattle-standard-route-superseded",
+      "newPath": "research/archive/runs/m28-12/seattle-standard-route-superseded"
+    },
+    {
+      "oldPath": "research/m28-12/seattle",
+      "newPath": "research/runs/production/seattle/m28-12-seattle"
+    },
+    {
+      "oldPath": "research/alhambra-content-v1.md",
+      "newPath": "research/content/alhambra.md"
+    },
+    {
+      "oldPath": "research/anchorage-content-v1.md",
+      "newPath": "research/content/anchorage.md"
+    },
+    {
+      "oldPath": "research/british-content-v1.md",
+      "newPath": "research/content/british.md"
+    },
+    {
+      "oldPath": "research/chichu-content-v2.md",
+      "newPath": "research/content/chichu.md"
+    },
+    {
+      "oldPath": "research/egyptian-content-v2.md",
+      "newPath": "research/content/egyptian.md"
+    },
+    {
+      "oldPath": "research/enoura-content-v1.md",
+      "newPath": "research/content/enoura.md"
+    },
+    {
+      "oldPath": "research/frye-content-v1.md",
+      "newPath": "research/content/frye.md"
+    },
+    {
+      "oldPath": "research/getty-content-v1.md",
+      "newPath": "research/content/getty.md"
+    },
+    {
+      "oldPath": "research/glyptotek-content-v2.md",
+      "newPath": "research/content/glyptotek.md"
+    },
+    {
+      "oldPath": "research/louvre-content-v4.md",
+      "newPath": "research/content/louvre.md"
+    },
+    {
+      "oldPath": "research/met-content-v2.md",
+      "newPath": "research/content/met.md"
+    },
+    {
+      "oldPath": "research/muxin-content-v2.md",
+      "newPath": "research/content/muxin.md"
+    },
+    {
+      "oldPath": "research/seattle-content-v3.md",
+      "newPath": "research/content/seattle.md"
+    },
+    {
+      "oldPath": "research/smk-content-v1.md",
+      "newPath": "research/content/smk.md"
+    },
+    {
+      "oldPath": "research/vienna-content-v2.md",
+      "newPath": "research/content/vienna.md"
+    },
+    {
+      "oldPath": "research/chichu-content-v1.md",
+      "newPath": "research/archive/content/chichu-content-v1.md"
+    },
+    {
+      "oldPath": "research/egyptian-content-v1.md",
+      "newPath": "research/archive/content/egyptian-content-v1.md"
+    },
+    {
+      "oldPath": "research/louvre-content-prototype.md",
+      "newPath": "research/archive/content/louvre-content-prototype.md"
+    },
+    {
+      "oldPath": "research/louvre-content-test-v2.md",
+      "newPath": "research/archive/content/louvre-content-test-v2.md"
+    },
+    {
+      "oldPath": "research/louvre-content-v3.md",
+      "newPath": "research/archive/content/louvre-content-v3.md"
+    },
+    {
+      "oldPath": "research/louvre-new-content-v1.md",
+      "newPath": "research/archive/content/louvre-new-content-v1.md"
+    },
+    {
+      "oldPath": "research/muxin-content-v1.md",
+      "newPath": "research/archive/content/muxin-content-v1.md"
+    },
+    {
+      "oldPath": "research/seattle-content-v2.md",
+      "newPath": "research/archive/content/seattle-content-v2.md"
+    },
+    {
+      "oldPath": "research/vienna-content-v1.md",
+      "newPath": "research/archive/content/vienna-content-v1.md"
+    },
+    {
+      "oldPath": "research/content-method-v2.md",
+      "newPath": "research/archive/contracts/content-method-v2.md"
+    },
+    {
+      "oldPath": "research/m22-pipeline-contract.md",
+      "newPath": "research/archive/contracts/m22-pipeline-contract.md"
+    },
+    {
+      "oldPath": "research/louvre-image-sources.md",
+      "newPath": "research/evidence/museums/louvre/image-sources.md"
+    },
+    {
+      "oldPath": "research/louvre-selection-60-v1.md",
+      "newPath": "research/evidence/museums/louvre/selection-60.md"
+    },
+    {
+      "oldPath": "research/archive/content-standard-manifest-before-M28.1.json",
+      "newPath": "research/archive/contracts/content-standard-manifest-before-M28.1.json"
+    },
+    {
+      "oldPath": "research/archive/generation-pipeline-history-through-M28.1.md",
+      "newPath": "research/archive/contracts/generation-pipeline-history-through-M28.1.md"
+    },
+    {
+      "oldPath": "research/archive/meowseum-content-instruction-history-through-M28.1.md",
+      "newPath": "research/archive/contracts/meowseum-content-instruction-history-through-M28.1.md"
+    },
+    {
+      "oldPath": "scripts/build-alhambra-content.mjs",
+      "newPath": "scripts/legacy/build-alhambra-content.mjs"
+    },
+    {
+      "oldPath": "scripts/build-egyptian-content.mjs",
+      "newPath": "scripts/legacy/build-egyptian-content.mjs"
+    },
+    {
+      "oldPath": "scripts/build-louvre-v4.mjs",
+      "newPath": "scripts/legacy/build-louvre-v4.mjs"
+    },
+    {
+      "oldPath": "scripts/build-m11-content.mjs",
+      "newPath": "scripts/legacy/build-m11-content.mjs"
+    },
+    {
+      "oldPath": "scripts/build-vienna-content.mjs",
+      "newPath": "scripts/legacy/build-vienna-content.mjs"
+    },
+    {
+      "oldPath": "scripts/run-frye-pilot-author.ps1",
+      "newPath": "scripts/legacy/run-frye-pilot-author.ps1"
+    },
+    {
+      "oldPath": "scripts/run-frye-pilot-reviewer.ps1",
+      "newPath": "scripts/legacy/run-frye-pilot-reviewer.ps1"
+    }
+  ]
+}

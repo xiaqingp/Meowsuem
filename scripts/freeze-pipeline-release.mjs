@@ -1,6 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import crypto from "node:crypto";
+import {assertPathInside, loadManifest} from "./lib/filesystem-contract.mjs";
 
 const outOfScope = (changed, allowed) => changed.filter(file => !new Set(allowed).has(file));
 const releaseDrift = (existing, canonicalFiles, recordSha256) => {
@@ -20,7 +21,7 @@ if (process.argv.includes("--self-test")) {
 
 const root = path.resolve(new URL("..", import.meta.url).pathname.replace(/^\/(?:([A-Za-z]:))/, "$1"));
 const manifestPath = path.join(root, "research/content-standard-manifest.json");
-const manifest = JSON.parse(await fs.readFile(manifestPath, "utf8"));
+const manifest = await loadManifest(root);
 const hashFile = async relative =>
   crypto.createHash("sha256").update(await fs.readFile(path.join(root, relative))).digest("hex");
 if (!manifest.activePipelineChange) throw new Error("manifest is missing activePipelineChange");
@@ -50,7 +51,11 @@ const canonicalFiles = [
   { path: manifest.canonicalAuthorInputPreprocessor },
   { path: manifest.canonicalMechanicalProcessor },
   { path: manifest.canonicalMuseumRatingProcessor },
-  { path: manifest.canonicalReleaseFreezer }
+  { path: manifest.canonicalReleaseFreezer },
+  { path: manifest.canonicalFilesystemContract },
+  { path: manifest.canonicalRunCreator },
+  { path: manifest.canonicalRunValidator },
+  { path: manifest.canonicalFilesystemMigration }
 ];
 for (const file of canonicalFiles) file.sha256 = await hashFile(file.path);
 const baseHashes = new Map(baseRelease.canonicalFiles.map(file => [file.path, file.sha256]));
@@ -61,16 +66,23 @@ const unauthorized = outOfScope(changedCanonicalFiles, change.allowedCanonicalFi
 if (unauthorized.length) throw new Error(`pipeline change exceeds owner-approved scope: ${unauthorized.join(", ")}`);
 const changeRecordSha256 = await hashFile(manifest.activePipelineChange);
 
-const baseline = manifest.validation?.acceptedRegression;
-const acceptedRegression = baseline?.authorBundleResult
+const baseline = manifest.regressions?.acceptedAuthorBundle;
+const acceptedRegression = baseline?.record
   ? {
-      authorBundleResult: baseline.authorBundleResult,
-      authorBundleResultSha256: await hashFile(baseline.authorBundleResult),
+      authorBundleResult: baseline.record,
+      authorBundleResultSha256: await hashFile(baseline.record),
       successfulRunTokens: baseline.successfulRunTokens,
       reviewerRun: false,
       productionWrite: false
     }
   : undefined;
+const releaseRoot = path.join(root, "research", "pipeline", "releases");
+const historicalReleaseHashes = [];
+for (const entry of await fs.readdir(releaseRoot, {withFileTypes: true})) {
+  if (!entry.isFile() || !entry.name.endsWith(".json") || entry.name === `v${manifest.pipelineVersion}.json`) continue;
+  const relative = path.relative(root, path.join(releaseRoot, entry.name)).replaceAll("\\", "/");
+  historicalReleaseHashes.push({path: relative, sha256: await hashFile(relative)});
+}
 
 const release = {
   name: "Meowseum Generation Pipeline",
@@ -90,16 +102,21 @@ const release = {
   modelRouting: manifest.modelRouting,
   stageInstructionViews: manifest.stageInstructionViews,
   stageInputContracts: manifest.stageInputContracts,
+  filesystemContract: manifest.filesystemContract,
+  regressions: manifest.regressions,
   stateMachine: manifest.causalityStages,
+  historicalReleaseHashes,
   ...(acceptedRegression ? { acceptedRegression } : {})
 };
 
 const outputPath = path.resolve(root, manifest.currentRelease);
-if (!outputPath.startsWith(`${root}${path.sep}`)) throw new Error("release path escaped project root");
+await assertPathInside(releaseRoot, outputPath, {allowEqual: false});
 try {
   const existing = JSON.parse(await fs.readFile(outputPath, "utf8"));
   const drift = releaseDrift(existing, canonicalFiles, changeRecordSha256);
   if (drift) throw new Error(`frozen release is immutable; create a new owner-approved version for: ${drift}`);
+  console.log(`pipeline release already frozen: ${path.relative(root, outputPath)} (${existing.version})`);
+  process.exit(0);
 } catch (error) {
   if (error.code !== "ENOENT") throw error;
 }

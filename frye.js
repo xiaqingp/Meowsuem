@@ -34,7 +34,7 @@ museumData.frye = {
   ...museumRatings.frye,
   verdict:"一对西雅图收藏家认准的德语区绘画，后来成了一座美术馆不断反问自身趣味的起点；馆不大，却有非常清楚的性格。",
   hero:"https://fryemuseum.org/sites/default/files/images/sidebar/Frye%20Ext%20AndrewvanLeeuwen-sidebar.jpg",
-  contentFile:"./research/frye-content-v1.md", official:"https://fryemuseum.org/collection/founding-collection", visit:"https://fryemuseum.org/visit",
+  contentFile:"./research/content/frye.md", official:"https://fryemuseum.org/collection/founding-collection", visit:"https://fryemuseum.org/visit",
   intro:[
     "Frye 1952 年开馆，创馆基础是 Charles 与 Emma Frye 留给西雅图的 232 幅油画，其中近一半来自德国。两人不是漫无目的地买欧洲名画：1893 年芝加哥哥伦布纪念博览会点燃了他们的兴趣，后来又持续追随慕尼黑艺术家协会和慕尼黑分离派。",
     "这使 Frye 很不像一座缩小版综合美术馆。它最有意思的部分，是看 1900 年前后的收藏家如何理解“好画”：讲故事、画得像、人物漂亮，同时也逐渐接受更松动的笔触和构图。施图克、蒙卡奇、冯·乌德和特吕布纳把这条变化串起来。",

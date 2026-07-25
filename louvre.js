@@ -144,7 +144,7 @@ museumData.louvre = {
   editorialCapacity:60,
   verdict:"它不只收藏名作，也制造名作。",
   hero:"https://commons.wikimedia.org/wiki/Special:FilePath/Louvre_Museum_Wikimedia_Commons_2.jpg?width=1800",
-  contentFile:"./research/louvre-content-v4.md",contentHasOverview:true,
+  contentFile:"./research/content/louvre.md",contentHasOverview:true,
   intro:[
     "如果你一生只去一座综合型博物馆，卢浮宫几乎一定在候选名单里。它的价值不只是明星作品，而是让人看见战争、王权、考古、市场和展陈怎样反复改写名作。",
     "它不是中性仓库：楼梯、宫殿、展厅和人群都参与作品意义。值得追问的不只是它有多有名，而是它原来是什么、为什么来到这里，以及卢浮宫怎样改变我们的观看。"

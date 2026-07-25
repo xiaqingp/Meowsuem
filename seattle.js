@@ -9,7 +9,7 @@ museumData.seattle = {
   "en": "Seattle Art Museum",
   "verdict": "",
   "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Albert_Bierstadt_-_Puget_Sound_on_the_Pacific_Coast_%281870%29.jpg/1920px-Albert_Bierstadt_-_Puget_Sound_on_the_Pacific_Coast_%281870%29.jpg",
-  "contentFile": "./research/seattle-content-v3.md",
+  "contentFile": "./research/content/seattle.md",
   "official": "https://www.seattleartmuseum.org/art-and-artists/sams-collection",
   "visit": "https://www.seattleartmuseum.org/visit",
   "cardCopyContract": "independent-v1",

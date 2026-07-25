@@ -67,7 +67,7 @@ museumData.enoura = {
   id:"enoura", editorialCapacity:20, city:"小田原 · 日本", zh:"江之浦测候所", en:"Enoura Observatory",
   ...museumRatings.enoura,
   verdict:"它不是靠镇馆名作取胜，而是把太阳、海岸、旧石与日本建筑史编成一次只能用身体读完的现场作品。",
-  hero:enouraImages.aerial, contentFile:"./research/enoura-content-v1.md",
+  hero:enouraImages.aerial, contentFile:"./research/content/enoura.md",
   intro:["江之浦最容易被误解成‘适合拍照的建筑’。真正值得看的，是杉本博司如何让一百米长廊对准夏至、七十米隧道对准冬至、石舞台桥道对准春分与秋分，再用迁移而来的门、塔、础石和茶室把天文时间接到人类历史。","因此本馆的 20 项不是 20 件被玻璃罩住的藏品，而是 20 个现场节点。每一项都要求你换位置、走一段路或等待光线；如果只拍海景，会错过这套作品真正的结构。"],
   official:enouraOfficial, visit:"https://www.odawara-af.com/en/enoura/ticket/",
   chapters:[

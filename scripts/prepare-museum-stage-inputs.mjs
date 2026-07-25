@@ -2,6 +2,7 @@ import crypto from "node:crypto";
 import fs from "node:fs/promises";
 import path from "node:path";
 import {pathToFileURL} from "node:url";
+import {loadManifest, projectRelative, resolveCanonicalRun} from "./lib/filesystem-contract.mjs";
 
 const evidencePattern = /<!--\s*meowseum-downstream-evidence\/1\.0\s*\n([\s\S]*?)\n-->/;
 const complexRiskFlags = new Set([
@@ -107,11 +108,23 @@ export async function buildMuseumWorkIndex({projectRoot, runRoot}) {
 async function main() {
   const argument = name => process.argv.find(value => value.startsWith(`${name}=`))?.slice(name.length + 1);
   const projectRoot = path.resolve(argument("--project-root") || new URL("..", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"));
-  const runRoot = path.resolve(projectRoot, argument("--run-root") || "");
-  const output = path.resolve(projectRoot, argument("--output") || path.join(runRoot, "museum-work-index.json"));
-  if (!argument("--run-root")) throw new Error("--run-root=<directory> is required");
-  if (!runRoot.startsWith(`${projectRoot}${path.sep}`) || !output.startsWith(`${projectRoot}${path.sep}`)) throw new Error("path escaped project root");
+  const manifest = await loadManifest(projectRoot);
+  const {runRoot} = await resolveCanonicalRun({
+    projectRoot,
+    manifest,
+    runKind: argument("--kind"),
+    museumId: argument("--museum"),
+    caseId: argument("--case"),
+    runId: argument("--run-id"),
+    suppliedRunRoot: argument("--run-root"),
+    writable: true
+  });
+  const output = path.join(runRoot, "selection", "museum-work-index.json");
+  if (argument("--output") && path.resolve(projectRoot, argument("--output")) !== output) {
+    throw new Error(`Filesystem contract violation: --output must equal ${projectRelative(projectRoot, output)}`);
+  }
   const index = await buildMuseumWorkIndex({projectRoot, runRoot});
+  await fs.mkdir(path.dirname(output), {recursive: true});
   await fs.writeFile(output, `${JSON.stringify(index, null, 2)}\n`, "utf8");
   console.log(`prepared museum work index: ${index.works.length} works`);
 }

@@ -1,9 +1,10 @@
+// NON-CANONICAL HISTORICAL VERIFIER. Reads archived M22 evidence only; never used by the active pipeline.
 import fs from "node:fs/promises";
 
 const museum = process.argv.find(argument => argument.startsWith("--museum="))?.slice(9) || "vienna";
-const packetUrl = new URL(`../research/m22/${museum}-research-packets.json`, import.meta.url);
-const taskUrl = new URL(`../research/m22/${museum}-writing-tasks.jsonl`, import.meta.url);
-const reviewUrl = new URL(`../research/m22/${museum}-narrative-reviews.jsonl`, import.meta.url);
+const packetUrl = new URL(`../research/archive/experiments/m22/${museum}-research-packets.json`, import.meta.url);
+const taskUrl = new URL(`../research/archive/experiments/m22/${museum}-writing-tasks.jsonl`, import.meta.url);
+const reviewUrl = new URL(`../research/archive/experiments/m22/${museum}-narrative-reviews.jsonl`, import.meta.url);
 const packets = JSON.parse(await fs.readFile(packetUrl, "utf8"));
 const manifest = JSON.parse(await fs.readFile(new URL("../research/content-standard-manifest.json", import.meta.url), "utf8"));
 const expectedVersion = manifest.museums?.[museum]?.targetVersion || manifest.currentVersion;

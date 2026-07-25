@@ -1,6 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import crypto from "node:crypto";
+import {assertPathInside, loadManifest, resolveCanonicalRun} from "./lib/filesystem-contract.mjs";
 
 const decodeHtml = value => String(value || "")
   .replaceAll("&amp;", "&")
@@ -447,18 +448,33 @@ if (process.argv.includes("--self-test")) {
 }
 
 const argument = name => process.argv.find(value => value.startsWith(`${name}=`))?.slice(name.length + 1);
-const projectRoot = path.resolve(new URL("..", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"));
-const runRoot = path.resolve(projectRoot, argument("--run-root") || "");
-if (!argument("--run-root")) throw new Error("--run-root=<directory> is required");
-if (runRoot !== projectRoot && !runRoot.startsWith(`${projectRoot}${path.sep}`)) throw new Error("run root escaped project root");
+const projectRoot = path.resolve(argument("--project-root") || new URL("..", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"));
+const manifest = await loadManifest(projectRoot);
+const {runRoot, descriptor} = await resolveCanonicalRun({
+  projectRoot,
+  manifest,
+  runKind: argument("--kind"),
+  museumId: argument("--museum"),
+  caseId: argument("--case"),
+  runId: argument("--run-id"),
+  suppliedRunRoot: argument("--run-root"),
+  writable: true
+});
 
 const requiredArgs = ["--hero", "--official", "--visit", "--data-file", "--content-file", "--cache-key"];
 for (const name of requiredArgs) if (!argument(name)) throw new Error(`${name}=... is required`);
 const readJson = async file => JSON.parse(await fs.readFile(file, "utf8"));
 const scope = await readJson(path.join(runRoot, "scope", "museum-scope.json"));
 const candidates = await readJson(path.join(runRoot, "candidate-pool", "candidate-pool.json"));
-const rating = await readJson(path.join(runRoot, "museum-selection", "museum-rating.json"));
-const plan = await readJson(path.join(runRoot, "museum-structure", "museum-plan.json"));
+const rating = await readJson(path.join(runRoot, "rating", "museum-rating.json"));
+const plan = await readJson(path.join(runRoot, "structure", "museum-plan.json"));
+if (descriptor.museumId && (plan.museum.id || scope.museum.id) !== descriptor.museumId) {
+  throw new Error("Filesystem contract violation: assembly preparation museum identity drift");
+}
+const expectedContentFile = `research/content/${plan.museum.id || scope.museum.id}.md`;
+if (argument("--content-file") !== expectedContentFile) {
+  throw new Error(`Filesystem contract violation: --content-file must be ${expectedContentFile}`);
+}
 const hero = argument("--hero");
 const organizationHost = hostname(argument("--official")).replace(/^www\./, "");
 const contentUpdatedAt = scope.sources
@@ -471,17 +487,17 @@ if (!contentUpdatedAt) throw new Error("scope sources must provide an accessedAt
 const candidateById = new Map(candidates.candidates.map(item => [item.id, item]));
 const contexts = new Map();
 for (const item of plan.works) {
-  contexts.set(item.workId, await readJson(path.join(runRoot, "works", item.workId, "work-context.json")));
+  contexts.set(item.workId, await readJson(path.join(runRoot, "works", item.workId, "research", "work-context.json")));
 }
 let assetCache = {};
 try {
-  assetCache = await readJson(path.join(runRoot, "asset-cache.json"));
+  assetCache = await readJson(path.join(runRoot, "image-evidence", "asset-cache.json"));
 } catch {
   // A cache is optional; official object-page resolution and the hero fallback remain available.
 }
 let imageEvidence = null;
 try {
-  imageEvidence = await readJson(path.join(runRoot, "verified-image-evidence.json"));
+  imageEvidence = await readJson(path.join(runRoot, "image-evidence", "verified-image-evidence.json"));
   if (imageEvidence.museumId !== (plan.museum.id || scope.museum.id)) throw new Error("image evidence museum mismatch");
 } catch (error) {
   if (error.code !== "ENOENT") throw error;
@@ -496,7 +512,7 @@ const resolveAsset = async item => {
     if (!evidence) throw new Error(`verified image evidence is missing work: ${item.workId}`);
     if (evidence.status === "accepted" && evidence.selected?.localPath) {
       const localFile = path.resolve(projectRoot, evidence.selected.localPath);
-      if (!localFile.startsWith(`${runRoot}${path.sep}`)) throw new Error(`image evidence escaped run root: ${item.workId}`);
+      await assertPathInside(runRoot, localFile, {allowEqual: false});
       const bytes = await fs.readFile(localFile);
       const actualHash = crypto.createHash("sha256").update(bytes).digest("hex");
       if (actualHash !== evidence.selected.sha256) throw new Error(`image evidence hash mismatch: ${item.workId}`);
@@ -755,8 +771,8 @@ const ratingOutput = {
 const works = [];
 for (const item of plan.works) {
   const asset = assetById.get(item.workId);
-  const writingPlan = await readJson(path.join(runRoot, "works", item.workId, "writing-plan.json"));
-  const draft = await fs.readFile(path.join(runRoot, "works", item.workId, "draft.md"), "utf8");
+  const writingPlan = await readJson(path.join(runRoot, "works", item.workId, "author", "writing-plan.json"));
+  const draft = await fs.readFile(path.join(runRoot, "works", item.workId, "author", "draft.md"), "utf8");
   const heading = draft.match(/^##\s+(.+?)\s+\/\s+(.+)$/m);
   if (!heading) throw new Error(`missing bilingual heading: ${item.workId}`);
   works.push({
@@ -807,7 +823,7 @@ const assemblyInput = {
     cachePages: ["index.html", "museum.html"]
   }
 };
-await fs.writeFile(path.join(runRoot, "verified-assets.json"), `${JSON.stringify(assets, null, 2)}\n`, "utf8");
-await fs.writeFile(path.join(runRoot, "asset-cache.json"), `${JSON.stringify(assetCache, null, 2)}\n`, "utf8");
-await fs.writeFile(path.join(runRoot, "assembly-input.json"), `${JSON.stringify(assemblyInput, null, 2)}\n`, "utf8");
+await fs.writeFile(path.join(runRoot, "image-evidence", "verified-assets.json"), `${JSON.stringify(assets, null, 2)}\n`, "utf8");
+await fs.writeFile(path.join(runRoot, "image-evidence", "asset-cache.json"), `${JSON.stringify(assetCache, null, 2)}\n`, "utf8");
+await fs.writeFile(path.join(runRoot, "structure", "assembly-input.json"), `${JSON.stringify(assemblyInput, null, 2)}\n`, "utf8");
 console.log(`prepared assembly input: ${plan.museum.id || scope.museum.id}, ${works.length} works, ${assets.filter(item => item.imageKind === "museum-placeholder").length} placeholders`);

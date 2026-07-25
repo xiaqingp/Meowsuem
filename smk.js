@@ -47,7 +47,7 @@ museumData.smk = {
   ...museumRatings.smk,
   verdict:"丹麦黄金时代在这里不是一间地方绘画展厅：它与王室旧藏、哈默斯霍伊、马蒂斯和战后丹麦艺术连成一部国家收藏怎样不断改写自己的历史。",
   hero:"https://www.smk.dk/wp-content/uploads/2023/03/Facade2-scaled-e1679901449472.jpg",
-  contentFile:"./research/smk-content-v1.md", official:smkCollection, visit:smkVisit,
+  contentFile:"./research/content/smk.md", official:smkCollection, visit:smkVisit,
   intro:[
     "SMK 的起点是丹麦王室收藏，1849 年君主制转向立宪后，藏品也转为国家所有。今天它保存超过二十万件作品，时间跨越约七百年；但参观时无需把它当成缩小版卢浮宫，真正应该抓住的是几条在哥本哈根才能看得这么集中的主线。",
     "第一条是丹麦黄金时代：SMK 拥有全球规模最大的克里斯滕·科布克收藏，也拥有世界最大的哈默斯霍伊收藏之一。第二条是法国现代主义：约翰内斯·鲁普的捐赠带来二十五件马蒂斯，使这里形成法国境外最重要的马蒂斯收藏群之一，《绿线》则是能单独改变一次参观重量的作品。",

@@ -33,7 +33,7 @@ museumData.anchorage = {
   id:"anchorage",editorialCapacity:20,city:"安克雷奇 · 美国",zh:"安克雷奇博物馆",en:"Anchorage Museum",
   ...museumRatings.anchorage,
   verdict:"它不是用一件世界名作定义阿拉斯加，而是把北方的艺术、原住民知识、历史和环境放回同一张地图。",
-  hero:amImage("/media/9247/2015_lunchonlawn_2.jpg"),contentFile:"./research/anchorage-content-v1.md",
+  hero:amImage("/media/9247/2015_lunchonlawn_2.jpg"),contentFile:"./research/content/anchorage.md",
   intro:[
     "这家馆最特别的不是某一种门类，而是它拒绝把阿拉斯加拆成‘壮丽风景’与‘民族学过去’。Art of the North、Alaska Exhibition 与馆内 Smithsonian Arctic Studies Center 让绘画、生活技术、殖民史和当代原住民声音彼此校正。",
     "馆藏超过 26,000 件对象，并有超过 700,000 张历史照片与档案；长期展出的 Smithsonian 文化遗产则属于借展，不能混写成馆方所有。下面的 20 件既包括当前常设展重点，也包括可能轮换的馆藏对象。",

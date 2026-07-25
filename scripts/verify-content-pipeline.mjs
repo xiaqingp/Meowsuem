@@ -15,6 +15,8 @@ const approvedNonProseWriters = new Set([
   "assemble-museum-candidate.mjs",
   "prepare-museum-assembly.mjs",
   "resolve-museum-image-evidence.mjs",
+  "create-generation-run.mjs",
+  "migrate-filesystem-contract-v1.mjs",
   "test-image-disambiguation-contract.mjs",
   "prepare-museum-stage-inputs.mjs",
   "finalize-museum.mjs"
@@ -25,7 +27,7 @@ for (const entry of await fs.readdir(scriptsUrl, {withFileTypes:true})) {
   if (!entry.isFile() || !entry.name.endsWith(".mjs")) continue;
   const source = await fs.readFile(new URL(entry.name, scriptsUrl), "utf8");
   const writesFile = /\b(?:writeFile|writeFileSync)\s*\(/.test(source);
-  if (writesFile && !approvedNonProseWriters.has(entry.name)) {
+  if (writesFile && !approvedNonProseWriters.has(entry.name) && !entry.name.startsWith("test-")) {
     failures.push(`${entry.name}: unapproved script writes files; museum prose must already exist before build`);
   }
 }

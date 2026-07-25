@@ -1,18 +1,55 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import {
+  assertPathInside,
+  assertSafeIdentifier,
+  loadManifest,
+  projectRelative,
+  resolveCanonicalRun,
+} from "./lib/filesystem-contract.mjs";
 
 const argument = name => process.argv.find(value => value.startsWith(`${name}=`))?.slice(name.length + 1);
 const projectRoot = path.resolve(argument("--project-root") || new URL("..", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"));
-const runRoot = path.resolve(projectRoot, argument("--run-root") || "");
-const candidateRoot = path.resolve(projectRoot, argument("--candidate") || path.join(runRoot, "candidate"));
-if (!argument("--run-root")) throw new Error("--run-root=<directory> is required");
-for (const target of [runRoot, candidateRoot]) {
-  if (target !== projectRoot && !target.startsWith(`${projectRoot}${path.sep}`)) throw new Error(`path escaped project root: ${target}`);
+const manifest = await loadManifest(projectRoot);
+const runKind = argument("--kind");
+const runId = argument("--run-id");
+if (!runKind || !runId) throw new Error("--kind and --run-id are required");
+if (argument("--run-root")) {
+  process.stderr.write("DEPRECATION: --run-root is accepted only when it exactly matches the contract path.\n");
 }
+const {runRoot, descriptor} = await resolveCanonicalRun({
+  projectRoot,
+  manifest,
+  runKind,
+  museumId: argument("--museum"),
+  caseId: argument("--case"),
+  runId,
+  suppliedRunRoot: argument("--run-root"),
+  writable: true
+});
+if (runKind !== "production" && !(runKind === "regression" && process.argv.includes("--dry-run"))) {
+  throw new Error("Filesystem contract violation: assembly requires production or regression --dry-run");
+}
+const candidateRoot = path.join(runRoot, "candidate");
+if (argument("--candidate")) {
+  const suppliedCandidate = path.resolve(projectRoot, argument("--candidate"));
+  if (suppliedCandidate !== candidateRoot) {
+    throw new Error(`Filesystem contract violation: --candidate must exactly equal ${projectRelative(projectRoot, candidateRoot)}`);
+  }
+  process.stderr.write("DEPRECATION: --candidate is fixed by the filesystem contract.\n");
+}
+await assertPathInside(runRoot, candidateRoot);
 
 const readJson = async file => JSON.parse(await fs.readFile(file, "utf8"));
-const input = await readJson(path.join(runRoot, "assembly-input.json"));
-const manifest = await readJson(path.join(projectRoot, "research/content-standard-manifest.json"));
+const input = await readJson(path.join(runRoot, "structure", "assembly-input.json"));
+assertSafeIdentifier(input.museum?.id, "museum id");
+if (descriptor.museumId && input.museum.id !== descriptor.museumId) {
+  throw new Error("Filesystem contract violation: assembly museum identity does not match run.json");
+}
+const expectedContentFile = `research/content/${input.museum.id}.md`;
+if (input.museum.contentFile !== expectedContentFile) {
+  throw new Error(`Filesystem contract violation: active content must be ${expectedContentFile}`);
+}
 const isFutureMuseum = !manifest.futureMuseumContract.legacyMuseumIds.includes(input.museum?.id);
 if (input.schemaVersion !== 1) throw new Error("assembly input schemaVersion must be 1");
 if (!/^[a-z][a-z0-9-]*$/.test(input.museum?.id || "")) throw new Error("invalid museum id");
@@ -41,10 +78,10 @@ for (const [index, record] of input.works.entries()) {
   seen.add(record.id);
   const workRoot = path.join(runRoot, "works", record.id);
   const [draft, card, writingPlan, mechanical] = await Promise.all([
-    fs.readFile(path.join(workRoot, "draft.md"), "utf8"),
-    fs.readFile(path.join(workRoot, "card.txt"), "utf8"),
-    readJson(path.join(workRoot, "writing-plan.json")),
-    readJson(path.join(workRoot, "mechanical-result.json"))
+    fs.readFile(path.join(workRoot, "author", "draft.md"), "utf8"),
+    fs.readFile(path.join(workRoot, "author", "card.txt"), "utf8"),
+    readJson(path.join(workRoot, "author", "writing-plan.json")),
+    readJson(path.join(workRoot, "mechanical", "mechanical-result.json"))
   ]);
   if (mechanical.status !== "passed" && mechanical.result !== "passed" && mechanical.blockers?.length) {
     throw new Error(`mechanical gate did not pass: ${record.id}`);
@@ -66,10 +103,10 @@ for (const [index, record] of input.works.entries()) {
   }
   if (record.localAssetSource) {
     const source = path.resolve(projectRoot, record.localAssetSource);
-    if (!source.startsWith(`${runRoot}${path.sep}`)) throw new Error(`local image escaped run root: ${record.id}`);
+    await assertPathInside(runRoot, source, {allowEqual: false});
     const destinationRelative = record.image.replace(/^\.\//, "");
     const destination = path.resolve(candidateRoot, destinationRelative);
-    if (!destination.startsWith(`${candidateRoot}${path.sep}`)) throw new Error(`candidate image escaped candidate root: ${record.id}`);
+    await assertPathInside(candidateRoot, destination, {allowEqual: false});
     localAssets.push({source, destination, relative: destinationRelative});
   }
   markdown.push(`## ${index + 1}. ${heading[1]} / ${heading[2]}\n\n${body}`);

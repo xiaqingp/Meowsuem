@@ -195,3 +195,10 @@
 - Cause: 没有把每个承诺来源对应到独立代码路径、固定夹具和真实运行记录，完成门只检查了结果数量。
 - Fix: Pipeline 2.7.12 为官方 Open Graph / JSON-LD / API / IIIF、直接 Commons API、Wikidata、DuckDuckGo 与 Bing 建立独立路径；身份包加入年代、机构和馆藏号，失败状态分型；真实页面同时验证占位标签。
 - Prevention: 图片解析里程碑必须提交“来源能力—代码路径—测试夹具—真实状态”四项对照；共享 provider 不能冒充独立来源，proposal 未落地不得标记通过。
+
+## 2026-07-25 - 目录秩序必须由共享 contract 执行
+
+- Issue: `research/` 长期混放正文、milestone run、测试、证据与失败稿，多个脚本还能自行选择 `--run-root`、`--out-dir` 或 `--candidate`，整理一次不能阻止下次重新污染。
+- Cause: 路径规则只写在文档和各脚本局部判断中，没有统一的 run identity、descriptor、生命周期与 root hygiene 门。
+- Fix: Pipeline 2.9.0 引入 filesystem contract v1、唯一 Node 路径模块、run creator、validator、迁移 inventory/plan/result，以及覆盖路径逃逸、身份漂移和 immutable 写入的正反测试。
+- Prevention: 新 run 只能由 creator 创建；Milestone 只进入 metadata；canonical writer 只接收 `kind + museum/case + runId`，所有路径由同一 contract 计算。历史证据可以保留旧路径，但 archive 不能成为运行时 fallback。

@@ -48,7 +48,7 @@ const museumData = {
     ...museumRatings.glyptotek,
     verdict: "不是靠一件明星作品，而是靠几组世界级收藏让半天时间迅速不够用。",
     hero: "https://glyptoteket.com/media/q4vfi3kq/arkitektur-exterior-0007_glyptoteket-anders-sune-berg_1.jpg?format=webp&width=1600",
-    contentFile: "./research/glyptotek-content-v2.md",
+    contentFile: "./research/content/glyptotek.md",
     intro: [
       "名字里的 Glyptotek 原意接近“雕塑收藏馆”，但这里真正厉害的是一种奇怪而有效的组合：古代地中海肖像、埃及墓葬、丹麦雕塑和法国现代绘画，被塞进一组像宫殿、温室与罗马广场拼起来的建筑。你不是按国家上课，而是在石头的永久感与现代绘画的瞬间感之间来回切换。",
       "评分的核心不是“有莫奈、梵高、高更”这些作者名，而是收藏组的完整性。罗马肖像超过 400 件；帕尔米拉墓葬雕刻群为叙利亚境外规模最大；馆藏近 60 件高更；德加去世后铸造的 72 件铜像，这里是世界上少数拥有完整一套的博物馆之一。",
@@ -92,7 +92,7 @@ const museumData = {
     city: "西雅图 · 美国",
     zh: "西雅图艺术博物馆",
     en: "Seattle Art Museum",
-    contentFile: "./research/seattle-content-v3.md",
+    contentFile: "./research/content/seattle.md",
     ...museumRatings.seattle,
     verdict: "有鲜明的西北地域特色，但不是来到西雅图必须完成的一站。",
     tradeoff: "市中心馆、亚洲艺术馆和奥林匹克雕塑公园分处三地。第一次来可把市中心馆与海边雕塑公园连起来；除非兴趣高度匹配，不必为了集齐三处牺牲其他西雅图行程。",
@@ -140,7 +140,7 @@ const museumData = {
   },
 
   met: {
-    id:"met", city:"纽约 · 美国", zh:"大都会艺术博物馆", en:"The Metropolitan Museum of Art", contentFile:"./research/met-content-v2.md", ...museumRatings.met,
+    id:"met", city:"纽约 · 美国", zh:"大都会艺术博物馆", en:"The Metropolitan Museum of Art", contentFile:"./research/content/met.md", ...museumRatings.met,
     editorialCapacity:20,
     verdict:"如果只能用一家博物馆理解“世界艺术史”这个野心，选它。",
     tradeoff:"第五大道主馆不是一天能看完的百科全书；修道院分馆 The Met Cloisters 还在曼哈顿北端。第一次至少留半天，只选 4—5 个部门，不要按楼层扫荡。",

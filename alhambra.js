@@ -78,7 +78,7 @@ museumData.alhambra = {
   id:"alhambra",editorialCapacity:30,cardCopyContract:"independent-v1",city:"格拉纳达 · 西班牙",zh:"阿尔罕布拉宫",en:"Alhambra and Generalife",
   ...museumRatings.alhambra,
   verdict:"沿着城门、王座厅、私人宫室和山地水网行走，阿尔罕布拉会展开成一座保存着权力更替与日常生活的中世纪宫城。",
-  hero:ahImage("2018/07/vista-de-la-Alhambra.jpg"),contentFile:"./research/alhambra-content-v1.md",official:alhambraOfficial,visit:alhambraVisit,
+  hero:ahImage("2018/07/vista-de-la-Alhambra.jpg"),contentFile:"./research/content/alhambra.md",official:alhambraOfficial,visit:alhambraVisit,
   intro:[
     "照片常把阿尔罕布拉压缩成狮子庭院、钟乳石穹顶和水中倒影。来到现场，装饰仍嵌在原来的城墙、朝会路线、私人宫室、水网和山地景观中；各部分之间的关系才是它最难被复制的内容。",
     "95 分来自三条能够连续行走的历史线：阿尔卡萨瓦记录王朝从军事生存起步，纳斯里德宫殿保存行政、朝会与私人生活，Generalife 则保留宫苑、灌溉和生产性园圃。查理五世宫及后来的居住改造，又让 1492 年后的权力接管留在现场。",

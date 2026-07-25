@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "filesystemContractVersion": 1,
+  "pipelineVersion": "2.9.0",
+  "testedAt": "2026-07-25T16:24:47.515Z",
+  "status": "passed",
+  "commands": [
+    {
+      "command": "node scripts/test-filesystem-contract.mjs",
+      "status": "passed",
+      "durationSeconds": 0.18
+    },
+    {
+      "command": "node scripts/test-create-generation-run.mjs",
+      "status": "passed",
+      "durationSeconds": 0.12
+    },
+    {
+      "command": "node scripts/test-filesystem-migration.mjs",
+      "status": "passed",
+      "durationSeconds": 1.28
+    },
+    {
+      "command": "node scripts/test-run-generation-batch.mjs",
+      "status": "passed",
+      "durationSeconds": 0.24
+    },
+    {
+      "command": "powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -File scripts/test-run-isolated-generation.ps1",
+      "status": "passed",
+      "durationSeconds": 1.55
+    },
+    {
+      "command": "node scripts/test-museum-generation-report.mjs",
+      "status": "passed",
+      "durationSeconds": 0.34
+    },
+    {
+      "command": "node scripts/test-assemble-museum-candidate.mjs",
+      "status": "passed",
+      "durationSeconds": 0.26
+    },
+    {
+      "command": "node scripts/test-publish-museum-candidate.mjs",
+      "status": "passed",
+      "durationSeconds": 0.49
+    },
+    {
+      "command": "node scripts/test-future-museum-contract.mjs",
+      "status": "passed",
+      "durationSeconds": 0.08
+    },
+    {
+      "command": "node scripts/test-author-input-regression.mjs",
+      "status": "passed",
+      "durationSeconds": 4.13
+    },
+    {
+      "command": "node scripts/test-museum-rating-gate.mjs",
+      "status": "passed",
+      "durationSeconds": 0.08
+    },
+    {
+      "command": "node scripts/test-project-authority.mjs",
+      "status": "passed",
+      "durationSeconds": 0.18
+    },
+    {
+      "command": "node scripts/verify-pipeline-causality.mjs",
+      "status": "passed",
+      "durationSeconds": 0.11
+    },
+    {
+      "command": "node scripts/verify-content-pipeline.mjs",
+      "status": "passed",
+      "durationSeconds": 0.1
+    },
+    {
+      "command": "node scripts/migrate-filesystem-contract-v1.mjs --verify",
+      "status": "passed",
+      "durationSeconds": 0.82
+    },
+    {
+      "command": "node scripts/test-image-disambiguation-contract.mjs",
+      "status": "passed"
+    },
+    {
+      "command": "node scripts/test-prepare-museum-stage-inputs.mjs",
+      "status": "passed",
+      "durationSeconds": 0.09
+    },
+    {
+      "command": "node scripts/freeze-pipeline-release.mjs --self-test",
+      "status": "passed",
+      "durationSeconds": 0.08
+    }
+  ],
+  "browserValidation": {
+    "baseUrl": "http://127.0.0.1:8094",
+    "museumCount": 15,
+    "overviewPagesPassed": 15,
+    "firstWorkPagesPassed": 15,
+    "halfRoutePagesPassed": 15,
+    "activeContentHttp200": 15,
+    "consoleErrors": 0
+  },
+  "outOfScopeBaseline": {
+    "command": "node scripts/verify-significance-evidence.mjs",
+    "status": "failed",
+    "reason": "145 pre-existing pending significance audits; significance evidence data was not changed by the filesystem migration",
+    "rareWorks": 155,
+    "auditRecords": 166,
+    "failures": 145
+  }
+}
