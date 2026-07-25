@@ -1,98 +1,124 @@
 {
   "schemaVersion": 1,
   "filesystemContractVersion": 1,
-  "pipelineVersion": "2.9.0",
-  "testedAt": "2026-07-25T16:24:47.515Z",
-  "status": "passed",
+  "pipelineVersion": "2.9.3",
+  "testedAt": "2026-07-25T17:05:29.709Z",
+  "status": "passed_with_preexisting_significance_baseline",
   "commands": [
     {
       "command": "node scripts/test-filesystem-contract.mjs",
       "status": "passed",
-      "durationSeconds": 0.18
+      "exitCode": 0,
+      "durationSeconds": 0.107
     },
     {
       "command": "node scripts/test-create-generation-run.mjs",
       "status": "passed",
-      "durationSeconds": 0.12
+      "exitCode": 0,
+      "durationSeconds": 0.126
     },
     {
       "command": "node scripts/test-filesystem-migration.mjs",
       "status": "passed",
-      "durationSeconds": 1.28
+      "exitCode": 0,
+      "durationSeconds": 1.274
     },
     {
       "command": "node scripts/test-run-generation-batch.mjs",
       "status": "passed",
-      "durationSeconds": 0.24
+      "exitCode": 0,
+      "durationSeconds": 0.212
     },
     {
       "command": "powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -File scripts/test-run-isolated-generation.ps1",
       "status": "passed",
-      "durationSeconds": 1.55
+      "exitCode": 0,
+      "durationSeconds": 1.512
     },
     {
       "command": "node scripts/test-museum-generation-report.mjs",
       "status": "passed",
-      "durationSeconds": 0.34
+      "exitCode": 0,
+      "durationSeconds": 0.339
     },
     {
       "command": "node scripts/test-assemble-museum-candidate.mjs",
       "status": "passed",
-      "durationSeconds": 0.26
+      "exitCode": 0,
+      "durationSeconds": 0.241
     },
     {
       "command": "node scripts/test-publish-museum-candidate.mjs",
       "status": "passed",
-      "durationSeconds": 0.49
+      "exitCode": 0,
+      "durationSeconds": 0.513
     },
     {
       "command": "node scripts/test-future-museum-contract.mjs",
       "status": "passed",
-      "durationSeconds": 0.08
+      "exitCode": 0,
+      "durationSeconds": 0.083
     },
     {
       "command": "node scripts/test-author-input-regression.mjs",
       "status": "passed",
-      "durationSeconds": 4.13
+      "exitCode": 0,
+      "durationSeconds": 3.855
     },
     {
       "command": "node scripts/test-museum-rating-gate.mjs",
       "status": "passed",
-      "durationSeconds": 0.08
+      "exitCode": 0,
+      "durationSeconds": 0.065
     },
     {
       "command": "node scripts/test-project-authority.mjs",
       "status": "passed",
-      "durationSeconds": 0.18
+      "exitCode": 0,
+      "durationSeconds": 0.184
+    },
+    {
+      "command": "node scripts/verify-project-authority.mjs",
+      "status": "passed",
+      "exitCode": 0,
+      "durationSeconds": 0.168,
+      "result": "15 active content files; pipeline 2.9.3"
     },
     {
       "command": "node scripts/verify-pipeline-causality.mjs",
       "status": "passed",
-      "durationSeconds": 0.11
+      "exitCode": 0,
+      "durationSeconds": 0.067
     },
     {
       "command": "node scripts/verify-content-pipeline.mjs",
       "status": "passed",
-      "durationSeconds": 0.1
+      "exitCode": 0,
+      "durationSeconds": 0.101
     },
     {
       "command": "node scripts/migrate-filesystem-contract-v1.mjs --verify",
       "status": "passed",
-      "durationSeconds": 0.82
+      "exitCode": 0,
+      "durationSeconds": 0.839
     },
     {
       "command": "node scripts/test-image-disambiguation-contract.mjs",
-      "status": "passed"
+      "status": "passed",
+      "exitCode": 0,
+      "durationSeconds": 0.719
     },
     {
       "command": "node scripts/test-prepare-museum-stage-inputs.mjs",
       "status": "passed",
-      "durationSeconds": 0.09
+      "exitCode": 0,
+      "durationSeconds": 0.076
     },
     {
       "command": "node scripts/freeze-pipeline-release.mjs --self-test",
       "status": "passed",
-      "durationSeconds": 0.08
+      "exitCode": 0,
+      "durationSeconds": 0.079
     }
   ],
   "browserValidation": {
@@ -104,12 +130,17 @@
     "activeContentHttp200": 15,
     "consoleErrors": 0
   },
-  "outOfScopeBaseline": {
+  "significanceBaseline": {
     "command": "node scripts/verify-significance-evidence.mjs",
-    "status": "failed",
-    "reason": "145 pre-existing pending significance audits; significance evidence data was not changed by the filesystem migration",
+    "status": "passed_with_preexisting_significance_baseline",
+    "exitCode": 1,
+    "failureCategory": "significance_audit_pending",
+    "reason": "The significance-evidence backlog predates filesystem contract v1. It is not caused or expanded by the directory migration. Filesystem contract v1 is accepted with this pre-existing baseline, while no new filesystem-related significance regression is allowed.",
     "rareWorks": 155,
     "auditRecords": 166,
-    "failures": 145
+    "failureCount": 145,
+    "failureSetSha256": "de674ef30690a5b7351d86fe2440b20d733a8568e7f54a049a1e59a8f8e188d0",
+    "filesystemRelatedFailures": 0,
+    "newRegressions": 0
   }
 }

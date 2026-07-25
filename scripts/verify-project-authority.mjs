@@ -122,6 +122,7 @@ export async function verifyProjectAuthority({ projectRoot, checkRelease = true 
     canonicalStageInputPreparer: "scripts/prepare-museum-stage-inputs.mjs",
     canonicalBatchRunner: "scripts/run-generation-batch.mjs",
     canonicalReleaseFreezer: "scripts/freeze-pipeline-release.mjs",
+    canonicalAuthorityVerifier: "scripts/verify-project-authority.mjs",
     canonicalFilesystemContract: "scripts/lib/filesystem-contract.mjs",
     canonicalRunCreator: "scripts/create-generation-run.mjs",
     canonicalRunValidator: "scripts/validate-run-directory.mjs",
@@ -130,9 +131,10 @@ export async function verifyProjectAuthority({ projectRoot, checkRelease = true 
   for (const [field, expected] of Object.entries(canonicalExpectations)) {
     if (manifest[field] !== expected) failures.push(`manifest ${field} drift`);
   }
-  if (manifest.pipelineVersion !== "2.9.0") failures.push("manifest pipelineVersion must be 2.9.0");
+  if (!/^\d+\.\d+\.\d+$/.test(manifest.pipelineVersion)) failures.push("manifest pipelineVersion is invalid");
   resolveContractRoots(root, manifest);
-  if (!manifest.currentRelease.startsWith("research/pipeline/releases/")) failures.push("current release root drift");
+  const expectedRelease = `research/pipeline/releases/v${manifest.pipelineVersion}.json`;
+  if (manifest.currentRelease !== expectedRelease) failures.push(`current release must be ${expectedRelease}`);
   if (!manifest.activePipelineChange.startsWith("research/pipeline/changes/")) failures.push("active change root drift");
 
   try {
@@ -177,7 +179,9 @@ export async function verifyProjectAuthority({ projectRoot, checkRelease = true 
   for (const script of canonicalScriptPaths) {
     const source = await fs.readFile(path.join(root, script), "utf8");
     if (script !== manifest.canonicalFilesystemMigration) {
-      if (/scripts[\\/]legacy|\.\/legacy[\\/]/.test(source)) failures.push(`canonical script imports legacy code: ${script}`);
+      if (/(?:from\s+["']|import\s*(?:\(\s*)?["'])[^"']*(?:scripts[\\/]legacy|\.\/legacy[\\/])/.test(source)) {
+        failures.push(`canonical script imports legacy code: ${script}`);
+      }
       if (/research[\\/]archive[\\/]content/.test(source)) failures.push(`canonical script reads archive content: ${script}`);
     }
   }
@@ -231,7 +235,7 @@ export async function verifyProjectAuthority({ projectRoot, checkRelease = true 
       }
     }
   }
-  return { failures, activeContentFiles: activeFromManifest.size };
+  return { failures, activeContentFiles: activeFromManifest.size, pipelineVersion: manifest.pipelineVersion };
 }
 
 async function main() {
@@ -241,7 +245,7 @@ async function main() {
   if (result.failures.length) process.exitCode = 1;
   else {
     process.stdout.write(
-      `project authority gate passed: ${result.activeContentFiles} active content files, pipeline 2.9.0\n`,
+      `project authority gate passed: ${result.activeContentFiles} active content files, pipeline ${result.pipelineVersion}\n`,
     );
   }
 }

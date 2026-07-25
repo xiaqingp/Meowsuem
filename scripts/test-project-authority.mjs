@@ -24,6 +24,7 @@ try {
     canonicalStageInputPreparer: "scripts/prepare-museum-stage-inputs.mjs",
     canonicalBatchRunner: "scripts/run-generation-batch.mjs",
     canonicalReleaseFreezer: "scripts/freeze-pipeline-release.mjs",
+    canonicalAuthorityVerifier: "scripts/verify-project-authority.mjs",
     canonicalFilesystemContract: "scripts/lib/filesystem-contract.mjs",
     canonicalRunCreator: "scripts/create-generation-run.mjs",
     canonicalRunValidator: "scripts/validate-run-directory.mjs",
@@ -60,6 +61,13 @@ try {
 
   let result = await verifyProjectAuthority({ projectRoot: root, checkRelease: false });
   assert.deepEqual(result.failures, []);
+
+  manifest.currentRelease = "research/pipeline/releases/v2.9.1.json";
+  await write("research/content-standard-manifest.json", `${JSON.stringify(manifest, null, 2)}\n`);
+  result = await verifyProjectAuthority({ projectRoot: root, checkRelease: false });
+  assert(result.failures.some((failure) => failure.includes("current release must be")));
+  manifest.currentRelease = "research/pipeline/releases/v2.9.0.json";
+  await write("research/content-standard-manifest.json", `${JSON.stringify(manifest, null, 2)}\n`);
 
   await write("fixture.js", 'museumData.fixture={contentFile:"./research/archive/content/fixture.md"};');
   result = await verifyProjectAuthority({ projectRoot: root, checkRelease: false });

@@ -15,6 +15,10 @@ const cases = [
 ];
 const digest = text => crypto.createHash("sha256").update(text).digest("hex");
 const tempRoot = await fs.mkdtemp(path.join(os.tmpdir(), "meowseum-author-regression-"));
+const currentManifest = JSON.parse(
+  await fs.readFile(path.join(projectRoot, "research/content-standard-manifest.json"), "utf8"),
+);
+const pipelineVersion = currentManifest.pipelineVersion;
 
 try {
   await fs.mkdir(path.join(tempRoot, "research", "cards"), {recursive: true});
@@ -44,7 +48,7 @@ try {
     await fs.writeFile(path.join(tempRoot, cardRelative), card, "utf8");
     await fs.writeFile(path.join(tempRoot, contextRelative), context, "utf8");
 
-    const runId = `20260725T1615${String(caseIndex).padStart(2, "0")}Z-p2.9.0`;
+    const runId = `20260725T1615${String(caseIndex).padStart(2, "0")}Z-p${pipelineVersion}`;
     const runRoot = path.join(tempRoot, "research", "runs", "regression", safe, runId);
     const runDirectory = path.join(runRoot, "works", "work-one", "author");
     await fs.mkdir(runDirectory, {recursive: true});
@@ -57,7 +61,7 @@ try {
       runId,
       caseId: safe,
       milestone: "M29",
-      pipelineVersion: "2.9.0",
+      pipelineVersion,
       instructionVersion: "2.2.0",
       status: "running",
       createdAt: "2026-07-25T16:15:00.000Z",
@@ -71,7 +75,7 @@ try {
       caseId: safe,
       workId,
       inputContractVersion: 2,
-      pipelineVersion: "2.9.0",
+      pipelineVersion,
       instructionVersion: "2.2.0",
       executionProfile: {model: "gpt-5.6-sol", reasoningEffort: "medium"},
       allowedInputs: [

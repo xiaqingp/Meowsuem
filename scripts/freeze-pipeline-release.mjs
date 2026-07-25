@@ -52,6 +52,7 @@ const canonicalFiles = [
   { path: manifest.canonicalMechanicalProcessor },
   { path: manifest.canonicalMuseumRatingProcessor },
   { path: manifest.canonicalReleaseFreezer },
+  { path: manifest.canonicalAuthorityVerifier },
   { path: manifest.canonicalFilesystemContract },
   { path: manifest.canonicalRunCreator },
   { path: manifest.canonicalRunValidator },

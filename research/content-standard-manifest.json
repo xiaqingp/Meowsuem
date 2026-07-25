@@ -18,14 +18,15 @@
   "canonicalMechanicalProcessor": "scripts/process-author-bundle.mjs",
   "canonicalMuseumRatingProcessor": "scripts/process-museum-rating.mjs",
   "canonicalReleaseFreezer": "scripts/freeze-pipeline-release.mjs",
+  "canonicalAuthorityVerifier": "scripts/verify-project-authority.mjs",
   "canonicalFilesystemContract": "scripts/lib/filesystem-contract.mjs",
   "canonicalRunCreator": "scripts/create-generation-run.mjs",
   "canonicalRunValidator": "scripts/validate-run-directory.mjs",
   "canonicalFilesystemMigration": "scripts/migrate-filesystem-contract-v1.mjs",
-  "pipelineVersion": "2.9.0",
+  "pipelineVersion": "2.9.3",
   "currentVersion": "2.2.0",
-  "currentRelease": "research/pipeline/releases/v2.9.0.json",
-  "activePipelineChange": "research/pipeline/changes/PCR-2026-07-25-filesystem-contract-v1.json",
+  "currentRelease": "research/pipeline/releases/v2.9.3.json",
+  "activePipelineChange": "research/pipeline/changes/PCR-2026-07-25-filesystem-contract-v1-authority-self-scan.json",
   "releaseStatus": "active",
   "activeMilestone": "M29",
   "filesystemContract": {
@@ -700,9 +701,13 @@
     }
   },
   "validation": {
-    "status": "m29_filesystem_contract_in_progress",
+    "status": "m29_filesystem_contract_completed",
+    "filesystemContractGate": "passed",
+    "authorityGate": "passed",
+    "causalityGate": "passed",
+    "significanceEvidenceGate": "passed_with_preexisting_significance_baseline",
+    "significanceBaselineRecord": "research/pipeline/tests/filesystem-contract-v1/result.json",
     "causalityFixture": "passed_valid_accepted_backfill_rejected",
-    "authorityGate": "pending_pipeline_2.9.0_freeze",
     "boundary": "M26 remains paused until M28 passes and owner explicitly resumes it"
   },
   "regressions": {
@@ -714,6 +719,14 @@
     "filesystemContract": {
       "status": "passed",
       "record": "research/pipeline/tests/filesystem-contract-v1/result.json"
+    },
+    "significanceEvidence": {
+      "status": "passed_with_preexisting_significance_baseline",
+      "record": "research/pipeline/tests/filesystem-contract-v1/result.json",
+      "failureCount": 145,
+      "failureCategory": "significance_audit_pending",
+      "failureSetSha256": "de674ef30690a5b7351d86fe2440b20d733a8568e7f54a049a1e59a8f8e188d0",
+      "filesystemRelatedFailures": 0
     }
   }
 }

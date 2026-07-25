@@ -1,0 +1,53 @@
+{
+  "id": "PCR-2026-07-25-filesystem-contract-v1-completion",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-25",
+  "ownerInstruction": "Complete filesystem contract v1 final-state reconciliation, run the real authority verifier, and formally record the pre-existing significance-evidence baseline without changing museum content.",
+  "baseRelease": "research/pipeline/releases/v2.9.0.json",
+  "targetVersion": "2.9.1",
+  "filesystemContractVersion": 1,
+  "implementationStatus": "completed",
+  "scope": [
+    "filesystem contract v1 final-state reconciliation",
+    "real repository authority verification",
+    "pre-existing significance-evidence baseline recording",
+    "authority verifier version-pointer hardening",
+    "pipeline 2.9.1 patch release"
+  ],
+  "outOfScope": [
+    "rewriting museum prose",
+    "changing museum scores",
+    "changing work selection",
+    "changing routes",
+    "changing frontend UX",
+    "clearing the pre-existing significance audit backlog"
+  ],
+  "allowedCanonicalFiles": [
+    "scripts/verify-project-authority.mjs"
+  ],
+  "allowedManagementFiles": [
+    "research/content-standard-manifest.json",
+    "research/pipeline/tests/filesystem-contract-v1/result.json",
+    "coho_museum/Milestones.md"
+  ],
+  "verification": {
+    "filesystemContractGate": "passed",
+    "authorityGate": "passed",
+    "causalityGate": "passed",
+    "significanceEvidenceGate": "passed_with_preexisting_significance_baseline",
+    "record": "research/pipeline/tests/filesystem-contract-v1/result.json"
+  },
+  "significanceBaseline": {
+    "status": "passed_with_preexisting_significance_baseline",
+    "command": "node scripts/verify-significance-evidence.mjs",
+    "exitCode": 1,
+    "failureCount": 145,
+    "failureCategory": "significance_audit_pending",
+    "rareWorks": 155,
+    "auditRecords": 166,
+    "failureSetSha256": "de674ef30690a5b7351d86fe2440b20d733a8568e7f54a049a1e59a8f8e188d0",
+    "filesystemRelatedFailures": 0,
+    "statement": "The significance-evidence backlog predates filesystem contract v1. It is not caused or expanded by the directory migration. Filesystem contract v1 is accepted with this pre-existing baseline, while no new filesystem-related significance regression is allowed."
+  }
+}

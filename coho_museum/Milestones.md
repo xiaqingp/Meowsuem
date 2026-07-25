@@ -9,9 +9,9 @@
 
 ## M29：Research 目录重构与文件系统契约
 
-Status: Implementation Complete — Pipeline 2.9.0 frozen 2026-07-25
+Status: Complete — Pipeline 2.9.3 frozen 2026-07-25
 
-Acceptance note: 本次 filesystem contract、迁移、authority、runner、batch、reporter、assembler、publisher 与 15 馆页面回归均通过。全站 `verify-significance-evidence.mjs` 仍因迁移前已存在的 145 条 pending audit 失败；本次未改写 significance 数据或降低门禁，因为该内容审计不属于 M29 授权范围。
+Acceptance note: 本次 filesystem contract、迁移、真实仓库 authority、runner、batch、reporter、assembler、publisher 与 15 馆页面回归均通过。全站 `verify-significance-evidence.mjs` 仍因迁移前已存在的 145 条 pending audit 返回非零；该固定失败集合已作为 owner-approved pre-existing baseline 正式记录，filesystem 相关新增失败为 0，门禁没有降低。
 
 Scope：
 
@@ -36,7 +36,7 @@ Completion gate：
 - 原顶层 milestone runs、pipeline metadata 和旧正文完成分类迁移，无未知文件被删除。
 - Canonical scripts 全部使用同一 Node contract 真源；任意路径、symlink / junction 逃逸、身份漂移和 immutable 写入负例被拒绝。
 - 规定的现有与新增测试全部通过；15 馆、500 项、内容文件、路线、图片和 console 无迁移回归。
-- `research/pipeline/releases/v2.9.0.json` 幂等冻结，工作区无意外未跟踪文件。
+- `research/pipeline/releases/v2.9.3.json` 幂等冻结，并将真实 authority verifier 纳入 canonical hash；工作区无意外未跟踪文件。
 
 ## M26：十五馆当前 pipeline 整馆重生
 
