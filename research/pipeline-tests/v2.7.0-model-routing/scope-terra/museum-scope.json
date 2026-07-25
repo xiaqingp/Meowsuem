@@ -1,0 +1,23 @@
+{
+  "runId": "m28-11-v2.7.0-vienna-scope-terra-2026-07-24",
+  "museumId": "vienna",
+  "museum": {
+    "nameZh": "维也纳艺术史博物馆",
+    "nameEn": "Kunsthistorisches Museum Vienna",
+    "location": "Maria-Theresien-Platz, Vienna, Austria"
+  },
+  "selectedCapacity": 40,
+  "scopeRationale": "采用 40 件容量：本轮范围以首次参观所需的核心作品为主，并预留一组用于继续解释本馆收藏、建筑、权力、原境、展示或地方关系的作品；后续选品必须逐件说明其为何只能由这家馆的收藏语境来回答。",
+  "editorialRoles": [
+    "第一次先看",
+    "继续看懂这家馆"
+  ],
+  "selectionRequirements": [
+    "全部 40 件共同支撑馆级旅行判断，不以名气排行榜替代馆藏叙事。",
+    "每件作品须具备独立研究卡、可追溯 claimLedger 与正式双层讲解。",
+    "每件作品同时标注参观优先级和重要性，并分别说明理由。",
+    "扩容部分的每件作品须说明其补足的本馆问题，不能重复前 20 件已解释的价值。",
+    "冷门但值得仅可从正式入选的 40 件中产生，不额外增加容量。"
+  ],
+  "publicationBoundary": "test_only_no_production_write"
+}

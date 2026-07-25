@@ -1,0 +1,171 @@
+{
+  "workId": "spring-dance",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "dfb0ae03c460ea03b400d6b117802f159d8fd3c3e0fd734f438a66193cf6de45"
+  },
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "coreQuestion": "画面几乎没有纵深，斯图克怎样仍让这场环舞转起来？",
+  "paragraphDependency": [
+    {
+      "paragraph": "30 秒先懂",
+      "does": "建立浅空间与持续动势的可见矛盾，并给出由手臂弧线和身体朝向造成运动感的暂时答案。",
+      "dependsOn": "只依赖标题和画面可见信息，不要求读者预先知道作者或题材。",
+      "newUnderstanding": "读者获得可立即执行的观看路线，并知道景深不是动势的主要来源。",
+      "breaksIfMovedEarlier": "已是正文入口，无需前置段落。"
+    },
+    {
+      "paragraph": "核心问题段",
+      "does": "解释相连手臂如何把人物接成整体，并用前景背影建立圆环内外。",
+      "dependsOn": "依赖快层已提出的弧线与朝向。",
+      "newUnderstanding": "运动不只是轮廓相似，而是由人物连接和朝向差异共同生成。",
+      "breaksIfMovedEarlier": "若置于快层前，读者还不知道为何要追踪弧线，也没有浅空间与动势的矛盾。"
+    },
+    {
+      "paragraph": "浅空间段",
+      "does": "用狭窄草地、紧贴的深绿树丛和零星亮色空隙说明空间如何托出轮廓。",
+      "dependsOn": "依赖上一段已经建立的圆环、朝向和可追踪方向。",
+      "newUnderstanding": "背景不是一般风景补充，而是让环舞轮廓清晰、把动势推到前沿的形式条件。",
+      "breaksIfMovedEarlier": "若提前，色彩和空间会成为孤立形式分析，尚不能回答它们为何服务于环舞。"
+    },
+    {
+      "paragraph": "晚期斯图克段",
+      "does": "在构图机制已经可见后，交代晚期生涯位置，并用同馆《帕里斯的裁判》比较解释本馆作用与价值边界。",
+      "dependsOn": "依赖前两段已经解释的环形动作、明亮自然和浅舞台。",
+      "newUnderstanding": "读者能把本作识别为斯图克晚期装饰性群像方法的明亮、运动版本，并理解它为何是馆内比较节点而非行程级珍品。",
+      "breaksIfMovedEarlier": "若提前，晚期、风格和比较会退化为可交换的资料栏目，读者还看不出比较差异落在哪里。"
+    },
+    {
+      "paragraph": "四个细节",
+      "does": "把前文机制拆成前景背影、手臂弧线、深绿衬底和狭窄草地四项现场可核对动作。",
+      "dependsOn": "依赖前文已说明这些细节如何共同生成动势。",
+      "newUnderstanding": "读者可逐项验证答案，而非只接受抽象的‘有节奏’评价。",
+      "breaksIfMovedEarlier": "若提前，细节会成为缺少因果关系的观看清单。"
+    },
+    {
+      "paragraph": "最后再看一眼",
+      "does": "从前景背影沿手臂绕行一圈，再以窄草地收束，重新验证运动由弧线和朝向产生。",
+      "dependsOn": "依赖全文已建立的圆环内外、浅舞台、色彩衬托与馆内比较。",
+      "newUnderstanding": "第二眼把静止画面理解为一套可由目光重新启动的构图机制。",
+      "breaksIfMovedEarlier": "若提前，动作只会重复快层，无法回收对浅舞台和晚期方法的理解。"
+    },
+    {
+      "paragraph": "事实边界",
+      "does": "正面确认标题所能支持的春天与舞蹈，并把人物身份、关系、舞种和祭仪限定在证据之外。",
+      "dependsOn": "依赖正文已经仅以可见动作解释画面，没有用未知叙事支撑核心答案。",
+      "newUnderstanding": "读者知道构图解释不需要虚构具体神话或仪式。",
+      "breaksIfMovedEarlier": "若提前，会以限制性口吻压过作品入口，且读者尚不知道这些未知项为何不妨碍观看。"
+    }
+  ],
+  "claimClosure": [
+    {
+      "sentence": "前景那具背向观者的身体尤其重要：它让圆环有了朝里、朝外的区别，也把观者留在环外。",
+      "riskCategory": "编辑推断 / 空间关系",
+      "evidenceType": "直接观察加编辑推断",
+      "sourceOrBasis": "研究卡确认前景有背向观者的身体；圆环内外是由该位置和朝向推导的观看解释。",
+      "confidence": "中：可见位置和朝向明确，‘把观者留在环外’是可追溯的空间推断。",
+      "verdict": "保留；措辞没有升级成人物心理、事件事实或作者意图。"
+    },
+    {
+      "sentence": "这样的环境没有展开成深远风景，更像一块托住人体轮廓的舞台。",
+      "riskCategory": "编辑推断 / 空间定性",
+      "evidenceType": "直接观察加明确比拟",
+      "sourceOrBasis": "深绿树丛紧贴浅色身体、草地狭窄、背景空隙有限；‘更像’标明解释强度。",
+      "confidence": "中：视觉依据充分，但并非来源确认的真实舞台或作者意图。",
+      "verdict": "保留；未写成实际场所或确定创作意图。"
+    },
+    {
+      "sentence": "轮廓鲜明的古典化裸体、环形节奏与浅舞台，延续了他把人物组织成装饰性整体的方法。",
+      "riskCategory": "作者风格 / 生涯位置",
+      "evidenceType": "来源事实加直接观察",
+      "sourceOrBasis": "研究卡确认作者跨绘画、雕塑、摄影使用与图形艺术的整体实践，并明确本作应置于装饰性整体思维；画面可见环形节奏与浅空间。",
+      "confidence": "中高：作品年代与视觉特征明确，‘延续’保持在研究卡允许边界内。",
+      "verdict": "保留；没有宣称转折、巅峰或作者明确意图。"
+    },
+    {
+      "sentence": "作为 Frye 所藏三件斯图克作品中‘运动与明亮’的一端，它很适合用来辨认同一位画家怎样改变群像的节奏。",
+      "riskCategory": "馆藏位置 / 不可替代性",
+      "evidenceType": "来源比较与编辑判断",
+      "sourceOrBasis": "研究卡和 source-pack 均给出与同馆《帕里斯的裁判》的共同点、差异及三件 Stuck 中的比较端点结论。",
+      "confidence": "中高：馆内比较范围明确；价值只限定为馆内比较节点。",
+      "verdict": "保留；未升级为全球唯一或行程级不可替代。"
+    },
+    {
+      "sentence": "它并不承担足以改变旅行路线的珍品分量。",
+      "riskCategory": "重要性与 72 分边界",
+      "evidenceType": "锁定馆级边界与研究卡编辑结论",
+      "sourceOrBasis": "test-spec 锁定 Frye 72 分边界；研究卡明确单作不构成行程级珍品。",
+      "confidence": "高：两份允许输入直接一致。",
+      "verdict": "保留；防止作品语义与馆级评分漂移。"
+    },
+    {
+      "sentence": "标题把春天与舞蹈相连；可靠信息没有为人物指定神名、关系、舞种或具体祭仪。",
+      "riskCategory": "图像寓意 / 仪式用途 / 历史重建",
+      "evidenceType": "来源事实与明确未知边界",
+      "sourceOrBasis": "研究卡不确定性/禁写项。",
+      "confidence": "高：输入直接规定这些内容不得补写。",
+      "verdict": "保留；边界属于读者理解题材所需的证据限度，不包含内部待办。"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这幅画地方很浅，却靠一圈相连的手臂、交替的身体朝向和深绿背景，让一群静止的人看起来一直在转；它在 Frye 的价值，是帮你看出斯图克晚期群像还能有明亮、运动的一面。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "notes": "标题能口头复述；快层主语和因果完整；深层从连接、空间推进到生涯与馆内比较；转折无需依赖生硬名词化或英文式概念压缩。"
+  },
+  "productionLanguageScan": {
+    "scope": [
+      "card.txt 的卡片正文",
+      "draft.md 的访客可见标题、元数据、快层、深层、细节、最后一眼、事实边界与资料行"
+    ],
+    "termsChecked": [
+      "研究缺口",
+      "图片许可任务",
+      "发布任务",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "版本迁移"
+    ],
+    "findings": [],
+    "verdict": "clear",
+    "note": "draft.md 顶部的直接上游 HTML 注释属于不可见 artifact 元数据，不是访客 prose。"
+  },
+  "significanceReview": {
+    "label": "特色看点",
+    "visitPriority": "强烈推荐",
+    "artisticAchievement": "环形弧线、朝向交替和深浅色块对照在浅空间中制造清晰动势，形式回报具体。",
+    "artHistoricalPosition": "中低；为斯图克晚期装饰性群像的可读实例，未获得开创、转折或巅峰证据。",
+    "historicalCulturalValue": "有限；没有可确认的具体事件、祭仪、原境或制度见证。",
+    "rarityAndIrreplaceability": "中低；没有可靠数量边界，不满足稀世珍品硬门。",
+    "collectionPosition": "中高；是 Frye 三件斯图克作品中‘运动与明亮’的比较端点。",
+    "comparisonCategory": "斯图克晚期的古典化裸体群像与浅舞台构图",
+    "nearestComparator": "同馆《帕里斯的裁判》Judgment of Paris",
+    "sharedCore": "晚期、古典化裸体、浅舞台。",
+    "difference": "本作以环形动作和明亮自然组织画面；比较作以静止裁决与岩壁建立张力。",
+    "boundaryVerdict": "与 Frye 72 分馆级边界一致；正文明确不把本作写成决定行程的稀世珍品。"
+  },
+  "voiceSelfAssessment": {
+    "provisionalOnly": true,
+    "scores": {
+      "entry": 2,
+      "causality": 2,
+      "human": 1,
+      "turn": 2,
+      "visualPayoff": 2,
+      "spokenClarity": 2,
+      "secondLook": 2
+    },
+    "total": 13,
+    "evidence": "入口由浅空间与动势的矛盾建立；认知从手臂连接推进到身体朝向、背景空间，再到馆内比较；结尾用前景背影、弧线和窄草地闭合核心问题。人物与制度并非本作的主要因果动力，因此 human 仅作适用性有限的候选 1 分。"
+  },
+  "unresolvedRisks": [
+    "作品图片 Photo: Jueqian Fang 的再利用许可未确认；该事项只保留在内部记录。",
+    "2026-07-22 未确认作品当日在展；访客正文已提示以馆方当日信息为准。",
+    "现有资料不能确认具体祭仪、神名、舞种、人物关系、完整人物数或全部人物性别；正文已避开这些断言。",
+    "现有比较只足以支持同馆三件斯图克作品中的相对位置，不能支持全球稀有度、作者巅峰或不可替代性。"
+  ],
+  "independentReviewRequired": true
+}

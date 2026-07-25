@@ -1,0 +1,188 @@
+{
+  "workId": "cargamonton",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "museumId": "frye",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "6519997b605c343dc373e7aa6306f7dad0cd3ba5054423a5f23d54de8180471b"
+  },
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "finalPassIssued": false,
+  "mechanicalChecks": {
+    "writingPlanJson": "valid",
+    "cardVisibleCharacters": 39,
+    "quickLayerCharactersExcludingWhitespace": 158,
+    "deepLayerCharactersExcludingWhitespace": 946,
+    "cardIndependentFromQuickLayer": true,
+    "observableDetailCount": 4,
+    "singleCoreQuestion": true,
+    "negativeContrastSkeletonCountOutsideFactBoundary": 0
+  },
+  "narrativeReview": [
+    {
+      "paragraph": "30秒先懂",
+      "dependsOn": "读者只需看见八张身体叠压的低色度图像。",
+      "newUnderstanding": "暂时明白八张静止断片让玩闹、强制与亲密之间的判断变慢。",
+      "breaksIfMovedEarlier": "这是叙事起点，无需前置段落。"
+    },
+    {
+      "paragraph": "深层第1段：八张共同改变观看对象",
+      "dependsOn": "快层已经建立八张一组以及动作被中断。",
+      "newUnderstanding": "注意力从单个冲突场面转向身体关系，以及观众怎样在断片间补动作。",
+      "breaksIfMovedEarlier": "若置于快层之前，读者尚不知道为何八张必须共同读取。"
+    },
+    {
+      "paragraph": "深层第2段：题名与关系语境",
+      "dependsOn": "上一段已让读者亲自遭遇无法定性的身体接触。",
+      "newUnderstanding": "含混不只是图像不清，而与 cargamontón 的社会语境及男性气质、酷儿亲密的并置有关。",
+      "breaksIfMovedEarlier": "提前会把背景变成概念说明，读者尚未从画面感到判断困难。"
+    },
+    {
+      "paragraph": "深层第3段：网络像素转为凹版颗粒",
+      "dependsOn": "前两段已建立需要被延长的判断迟疑。",
+      "newUnderstanding": "材料转译让模糊从信息不足变成可停留的纸面表面，使快速归类更困难。",
+      "breaksIfMovedEarlier": "没有关系含混这一前提，材料只会成为孤立的技法知识。"
+    },
+    {
+      "paragraph": "深层第4段：与《Soft Boy》的媒介推进",
+      "dependsOn": "上一段已说明静止与纸面如何工作。",
+      "newUnderstanding": "读者能理解本系列为何是走向时间、声音和表演的关键前作，而不是简单的影像截图。",
+      "breaksIfMovedEarlier": "若未先理解静止版画的机制，与影像的比较就只剩媒介栏目。"
+    },
+    {
+      "paragraph": "深层第5段：Frye馆藏位置与价值边界",
+      "dependsOn": "上一段已经完成与最近对象《Soft Boy》的相同点和决定性差异。",
+      "newUnderstanding": "不可替代性落在完整八件组、纸面机制和馆展链条，同时保持72分馆的重要藏品边界。",
+      "breaksIfMovedEarlier": "没有最近对象比较，就无法说明为何影像不能替代这组版画。"
+    },
+    {
+      "paragraph": "四项可观察细节",
+      "dependsOn": "深层已经把序列、遮挡、颗粒和间断逐项变成有意义的形式证据。",
+      "newUnderstanding": "读者可以在现场用四个动作核对前文，而不是只接受抽象结论。",
+      "breaksIfMovedEarlier": "提前列出会成为无解释的寻物清单。"
+    },
+    {
+      "paragraph": "最后再看一眼",
+      "dependsOn": "读者已理解空隙、材料、社会语境和比较对象。",
+      "newUnderstanding": "张与张之间的空白成为第二眼：它改变身体接触的重量，同时拒绝替人物补出胜负和情绪。",
+      "breaksIfMovedEarlier": "缺少前文时，空隙只是形式停顿，无法回收核心问题。"
+    },
+    {
+      "paragraph": "事实边界与资料",
+      "dependsOn": "正文已正面建立证据能支持的观察和解释。",
+      "newUnderstanding": "读者知道哪些身份、时间、情绪不能从图像确认，且不影响核心观看回报。",
+      "breaksIfMovedEarlier": "提前会让限制接管叙事声音，并在价值尚未建立时中断观看。"
+    }
+  ],
+  "claimClosure": [
+    {
+      "sentence": "‘cargamontón’指秘鲁学校中一种叠压、嬉闹式的霸凌仪式。",
+      "evidenceType": "来源事实",
+      "sourceOrBasis": "research-card.md所列Frye展览页与展览文字",
+      "confidence": "高：馆方直接解释词义与学校语境。",
+      "verdict": "保留；措辞未扩展到具体学校或事件。"
+    },
+    {
+      "sentence": "索尔迪把秘鲁男校记忆、网上找到的同类影像、男性气质与酷儿亲密放在一起讨论。",
+      "evidenceType": "来源事实",
+      "sourceOrBasis": "research-card.md所列Frye展览页与作者访谈支持的展览文字",
+      "confidence": "高：研究卡明确记录作者访谈支持这些主题并置。",
+      "verdict": "保留；未写成普遍规律或唯一作者意图。"
+    },
+    {
+      "sentence": "相邻画面看似接得上，却没有给出一段完整动作。",
+      "evidenceType": "直接观察",
+      "sourceOrBasis": "研究卡记录八张序列、动作重复与间断。",
+      "confidence": "高：只描述作品呈现与观看结果。",
+      "verdict": "保留；没有升级为真实时间顺序。"
+    },
+    {
+      "sentence": "原始图像来自网络视频静帧，像素的粗糙感被转成凹版印刷的颗粒、网点与低色度调子。",
+      "evidenceType": "来源事实加直接观察",
+      "sourceOrBasis": "研究卡记录网络视频静帧、铜版蚀刻纸上印刷及可见颗粒/网点/调子。",
+      "confidence": "高：来源与观察相互闭合。",
+      "verdict": "保留。"
+    },
+    {
+      "sentence": "这组2022年的版画直接通向索尔迪2023年的三频道影像《Soft Boy》。",
+      "evidenceType": "来源事实与因果边界",
+      "sourceOrBasis": "研究卡明确称系列先于并被2023年《Soft Boy》扩展。",
+      "confidence": "高：时间与扩展关系均有馆方展览材料支持。",
+      "verdict": "保留；‘通向’在下一句由同主题和媒介差异具体解释。"
+    },
+    {
+      "sentence": "《Soft Boy》能补足声音与时间，却不能替代纸面断片之间的空白。",
+      "evidenceType": "有边界的编辑判断",
+      "sourceOrBasis": "研究卡最近对象比较：同主题；版画用八个静止断片和物质转译，影像用时间、声音与表演。",
+      "confidence": "高：不可替代性严格限于媒介观看机制，不涉及全球唯一或数量。",
+      "verdict": "保留。"
+    },
+    {
+      "sentence": "这个空隙没有替人物补出胜负或情绪，却会改变动作的重量。",
+      "evidenceType": "观看指导与有标记的编辑推断",
+      "sourceOrBasis": "序列间断、身体叠压以及禁止确定胜负和心理的研究边界。",
+      "confidence": "中高：前半句是证据限制，后半句由读者来回比较相邻画面即可核对。",
+      "verdict": "保留；后文使用‘可能’和‘仍保留’避免确定心理或行为性质。"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "八张版画把一段挤成一团的男孩动作停住，让我们从纸面颗粒和画面空隙里反复判断这究竟更像玩闹、强制还是亲密，也看懂它怎样走向后来的影像《Soft Boy》。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "notes": "标题、快层及段落转折可自然口头复述；术语aquatint photogravure紧跟具体的颗粒、网点与调子解释。"
+  },
+  "productionLanguageScan": {
+    "scope": [
+      "card.txt可见文字",
+      "draft.md访客可见文字"
+    ],
+    "forbiddenCategoriesChecked": [
+      "内部研究缺口",
+      "图片许可任务",
+      "发布任务或发布状态",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "迁移语言"
+    ],
+    "findings": [],
+    "verdict": "clear"
+  },
+  "significanceReview": {
+    "candidateLabel": "重要藏品",
+    "fiveDimensionClosure": {
+      "artisticAchievement": "八张静止断片、网络像素到凹版颗粒的转译、重复与缺口共同服务核心问题。",
+      "artHistoricalPosition": "作为2023年《Soft Boy》的关键前作，其生涯位置具体且有来源；不扩张为艺术史首创。",
+      "historicalCulturalValue": "有来源地连接秘鲁男校记忆、hazing、男性气质与酷儿亲密；不声称记录具体事件。",
+      "rarityAndIrreplaceability": "完整八件组与静止版画机制无法由最近对象的时间、声音和表演替代；版次与全球数量不作为论据。",
+      "collectionPosition": "Frye 2023年个展选件与随后完整系列入藏形成清楚馆展链条。"
+    },
+    "nearestComparator": "Rafael Soldi，《Soft Boy》 / Soft Boy（2023）",
+    "comparisonClosed": true,
+    "frye72BoundaryRespected": true,
+    "notes": "正文明确称其为重要藏品，并排除稀世珍品和旅行目的地级分量；此为作者候选判断，须由独立审读确认。"
+  },
+  "unresolvedRisks": [
+    {
+      "risk": "年度报告所记每张27 1/5 × 34英寸可能有排版或转录问题。",
+      "impact": "尺寸未进入访客正文，不影响当前叙事；若未来加入尺寸，需先核对象登记。"
+    },
+    {
+      "risk": "版次未核。",
+      "impact": "正文不使用版次、数量稀有或唯一性论证。"
+    },
+    {
+      "risk": "当前在展状态可能变化，研究快照未检出On View。",
+      "impact": "正文仅写馆藏且展出可能轮换，不承诺现场可见。"
+    },
+    {
+      "risk": "直接图片文件与复用许可未确认。",
+      "impact": "不进入访客文字；后续配图仍需单独处理。"
+    }
+  ],
+  "authorRecommendation": "送交未参与成稿的独立审读者；作者不签发最终PASS。"
+}

@@ -1,0 +1,48 @@
+{
+  "runId": "m28-6-vienna-author-vienna-pg-06-art-of-painting-2026-07-24",
+  "startedAt": "2026-07-24T07:30:03.788Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card",
+  "museumId": "vienna",
+  "workId": "vienna-pg-06-art-of-painting",
+  "workIdentity": {
+    "artistOrCulture": "约翰内斯·维米尔 Johannes Vermeer",
+    "title": "绘画的艺术",
+    "titleEn": "The Art of Painting",
+    "museum": "Kunsthistorisches Museum Vienna"
+  },
+  "pipelineVersion": "2.4.8",
+  "instructionVersion": "2.0.2",
+  "inputContractVersion": 1,
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "465e7a2ce500057a139dbb64ff9df36755a6525a1f3a960e90fa0263a572ebfe"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-01/vienna-pg-06-art-of-painting-research-card.md",
+      "role": "research_card",
+      "sha256": "7dd9166cd0a5808eab05192429be47ec4f5126e3bcf602486b5a24cd7f33fc40"
+    },
+    {
+      "path": "research/m28-6/vienna/works/vienna-pg-06-art-of-painting/work-context.json",
+      "role": "work_context",
+      "sha256": "97903c3a3adea34d61304000fa4a7e5f3f856a4a4d80e6c5ecec575f40a28d14"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

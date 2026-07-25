@@ -1,0 +1,279 @@
+{
+  "workId": "four-cornered-hat-with-birds",
+  "narrativeMainline": {
+    "valueType": "ritual_or_original_context",
+    "mainline": "这顶帽子的结绒表面、四角轮廓和四面重复的鸟纹，只有戴到人身上才完成作用：它与彩绘面孔和大型纹样长衣共同把 Wari 官员的身份变成一套从不同方向都能辨认的形象。",
+    "storyBeats": [
+      {
+        "beat": "先从帽子的方形帽体、四个突角、结绒表面和四侧重复图案，说明它不是一块静止的平面织物，而是围绕头部组织的立体设计。",
+        "researchRefs": [
+          "R02",
+          "R10",
+          "R11",
+          "R12",
+          "R13"
+        ],
+        "readerGain": "读者先理解形状、材料和图案怎样配合身体观看。"
+      },
+      {
+        "beat": "再把帽子放回馆方描述的整套官员装束中，解释帽子如何与彩绘面孔、束腰长衣共同制造公开可见的身份。",
+        "researchRefs": [
+          "R03"
+        ],
+        "readerGain": "读者理解这件纺织品的核心价值来自穿戴后的整体效果。"
+      },
+      {
+        "beat": "随后以 Met 鸟纹四角帽为最近比较，说明四角帽横跨 Wari 与 Tiwanaku，结构和图案可能给出不同信号；本作的绒头与 SAM 的 Wari 归属相容，但没有出土地点与技术分析，不能把归属写成出土事实。",
+        "researchRefs": [
+          "R05",
+          "R06",
+          "R07"
+        ],
+        "readerGain": "读者既看见本作结绒结构的辨识意义，也知道归属判断的证据边界。"
+      },
+      {
+        "beat": "最后回到四角与四面图案：四角可能来自动物耳朵，但只作为限定解释；引导读者沿四侧复看重复的鸟纹与几何单元。",
+        "researchRefs": [
+          "R04",
+          "R12",
+          "R13"
+        ],
+        "readerGain": "第二眼把帽子的轮廓、图案和穿戴身份重新连在一起。"
+      }
+    ],
+    "humorBasis": ""
+  },
+  "mustNotAssume": [
+    "不得假定本件的具体出土地、墓葬或使用环境。",
+    "不得假定佩戴者姓名、具体官职或人物心理。",
+    "不得确认鸟的种类。",
+    "不得把四角源自动物耳朵写成定论。",
+    "不得把其他四角帽上的磨损、修补或发油污渍套用到本件。",
+    "不得把 SAM 的 Wari 风格归属写成本件已有考古出土或技术分析证明。",
+    "不得声称本件当前正在展出。",
+    "不得称本件为唯一、仅存或稀世珍品。"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "这顶帽子属于 Wari。",
+      "evidenceType": "来源事实与跨来源比较",
+      "researchRefs": [
+        "R01",
+        "R05",
+        "R06",
+        "R07"
+      ],
+      "allowedWording": "SAM 将本件归为 Wari；其结绒结构也与 Met 所述多见于 Wari 遗址的类型相容。",
+      "forbiddenUpgrade": "不得写成出土地或技术分析已经证明它必定属于 Wari。"
+    },
+    {
+      "claim": "四角原本代表动物耳朵。",
+      "evidenceType": "馆方限定解释",
+      "researchRefs": [
+        "R04"
+      ],
+      "allowedWording": "四角可能原本来自动物耳朵的造型。",
+      "forbiddenUpgrade": "不得把这一解释写成确定设计意图或确定象征。"
+    },
+    {
+      "claim": "帽子把佩戴者变成人兽复合形象。",
+      "evidenceType": "馆方限定解释",
+      "researchRefs": [
+        "R04"
+      ],
+      "allowedWording": "若四角确实对应动物耳朵，整套形象可能让佩戴者显得介于人与动物之间。",
+      "forbiddenUpgrade": "不得声称本件确定具有变身、宗教或神圣功能。"
+    },
+    {
+      "claim": "本件曾在日常生活中实际佩戴。",
+      "evidenceType": "类型背景",
+      "researchRefs": [
+        "R08"
+      ],
+      "allowedWording": "同类帽中有磨边、修补和发油污渍，说明这一类型并非只为墓葬制作。",
+      "forbiddenUpgrade": "不得把其他帽子的使用痕迹当成本件的磨损分析。"
+    },
+    {
+      "claim": "本件具有不可替代性或极端稀有度。",
+      "evidenceType": "比较与重要性判断",
+      "researchRefs": [
+        "R07",
+        "R09"
+      ],
+      "allowedWording": "本件是理解结绒结构、鸟纹与穿戴身份关系的特色看点；同类比较件存在。",
+      "forbiddenUpgrade": "不得称为唯一、仅存、最重要或稀世珍品。"
+    }
+  ],
+  "displayMetadata": {
+    "by": "Peruvian；Seattle Art Museum 进一步归为 Wari",
+    "date": "约 500–800",
+    "material": "骆驼科动物纤维、棉",
+    "place": "Seattle Art Museum，馆藏号 76.51",
+    "priority": "强烈推荐",
+    "significance": "特色看点",
+    "stay": "5—8 分钟",
+    "availability": "display_status_unknown",
+    "imagePolicy": "object_image"
+  },
+  "claimLedger": [
+    {
+      "id": "C01",
+      "claim": "本件为 SAM 归类的 Peruvian/Wari 鸟纹四角帽，约 500–800，以骆驼科动物纤维和棉制成，馆藏号 76.51。",
+      "researchRefs": [
+        "R01"
+      ],
+      "usage": [
+        "displayMetadata",
+        "draft 标题下身份背景"
+      ]
+    },
+    {
+      "id": "C02",
+      "claim": "打结技术形成蓬松表面，侧身鸟与动态几何图案交替排列。",
+      "researchRefs": [
+        "R02"
+      ],
+      "usage": [
+        "card",
+        "draft 快层与深层"
+      ]
+    },
+    {
+      "id": "C03",
+      "claim": "馆方认为这种帽子高戴于 Wari 官员头上，并与彩绘面孔和大型纹样束腰长衣组成整体装束，改变穿戴者整体可见身份。",
+      "researchRefs": [
+        "R03"
+      ],
+      "usage": [
+        "card",
+        "draft 快层与深层"
+      ]
+    },
+    {
+      "id": "C04",
+      "claim": "四角可能原为动物耳朵，使佩戴者成为人兽复合形象；这一解释必须保留不确定性。",
+      "researchRefs": [
+        "R04"
+      ],
+      "usage": [
+        "draft 深层与最后一眼"
+      ]
+    },
+    {
+      "id": "C05",
+      "claim": "四角帽主要与同时期且相邻的 Wari、Tiwanaku 相关；结绒帽多见于 Wari 遗址，无绒头者多见于 Tiwanaku，但结构和图案信号可能冲突。",
+      "researchRefs": [
+        "R05"
+      ],
+      "usage": [
+        "draft 比较段"
+      ]
+    },
+    {
+      "id": "C06",
+      "claim": "本作的结绒结构与 SAM 的 Wari 判断相容，但没有本件出土地点或技术分析，不能写成考古出土事实。",
+      "researchRefs": [
+        "R06"
+      ],
+      "usage": [
+        "draft 比较段与事实边界"
+      ]
+    },
+    {
+      "id": "C07",
+      "claim": "Met 316978 是约 500–900 的四角、骆驼科纤维、鸟纹比较帽；它无绒头，且图案与结构造成 Tiwanaku/Wari 混合归属。",
+      "researchRefs": [
+        "R07"
+      ],
+      "usage": [
+        "draft 比较段"
+      ]
+    },
+    {
+      "id": "C08",
+      "claim": "同类帽既见作墓葬供物，也有磨边、古代修补和发油污渍等实际使用证据，但这些痕迹不能套用到本件。",
+      "researchRefs": [
+        "R08"
+      ],
+      "usage": [
+        "draft 趣闻段"
+      ]
+    },
+    {
+      "id": "C09",
+      "claim": "本件适合列为特色看点；核心价值在纺织结构、鸟纹和全身装束共同制造官员身份，同类存在，不能列稀世珍品。",
+      "researchRefs": [
+        "R09"
+      ],
+      "usage": [
+        "displayMetadata",
+        "card",
+        "draft 比较段"
+      ]
+    },
+    {
+      "id": "C10",
+      "claim": "帽体近方形，顶端四角向上突起。",
+      "researchRefs": [
+        "R10"
+      ],
+      "usage": [
+        "card",
+        "draft 快层与最后一眼"
+      ]
+    },
+    {
+      "id": "C11",
+      "claim": "表面有明显绒毛或结绒质感，不是平滑织片。",
+      "researchRefs": [
+        "R11"
+      ],
+      "usage": [
+        "card",
+        "draft 快层与比较段"
+      ]
+    },
+    {
+      "id": "C12",
+      "claim": "侧身鸟与几何单元按方格交替重复。",
+      "researchRefs": [
+        "R12"
+      ],
+      "usage": [
+        "card",
+        "draft 快层、深层与最后一眼"
+      ]
+    },
+    {
+      "id": "C13",
+      "claim": "多色图案覆盖四侧，佩戴时从不同方向都能看到重复设计。",
+      "researchRefs": [
+        "R13"
+      ],
+      "usage": [
+        "card",
+        "draft 快层、深层与最后一眼"
+      ]
+    },
+    {
+      "id": "C14",
+      "claim": "展出状态未知，最近列出的个展期止于 2014；图片使用 SAM 对象页照片并需发布前核权。",
+      "researchRefs": [
+        "基本信息与状态"
+      ],
+      "usage": [
+        "displayMetadata"
+      ]
+    },
+    {
+      "id": "C15",
+      "claim": "参观优先级为强烈推荐，重要性为特色看点，建议停留 5—8 分钟。",
+      "researchRefs": [
+        "work_context.selection"
+      ],
+      "usage": [
+        "displayMetadata"
+      ]
+    }
+  ]
+}

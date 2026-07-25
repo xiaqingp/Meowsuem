@@ -1,0 +1,186 @@
+{
+  "runId": "m28-4-muxin-research-gap-01-2026-07-23",
+  "startedAt": "2026-07-24T04:19:01.723Z",
+  "stage": "research_gap",
+  "researchMode": "targeted_gap_only",
+  "museumId": "muxin",
+  "works": [
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c02",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "《诗经演》手稿本",
+        "titleEn": "Manuscript of Variations on the Practising Book of Odes",
+        "museum": "Mu Xin Art Museum"
+      },
+      "missingDimensions": [
+        "object_identity_and_group_boundary",
+        "permanent_collection_or_stable_display_status",
+        "reliable_object_image_and_four_direct_observations",
+        "object_level_metadata",
+        "nearest_comparator_and_claim_boundary"
+      ]
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c03",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "《我纷纷的情欲》手稿本",
+        "titleEn": "Manuscript of The Everfalling Flakes of My Desire",
+        "museum": "Mu Xin Art Museum"
+      },
+      "missingDimensions": [
+        "object_identity_and_group_boundary",
+        "permanent_collection_or_stable_display_status",
+        "reliable_object_image_and_four_direct_observations",
+        "object_level_metadata",
+        "nearest_comparator_and_claim_boundary"
+      ]
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c04",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "《巴珑》手稿本",
+        "titleEn": "Manuscript of Parron",
+        "museum": "Mu Xin Art Museum"
+      },
+      "missingDimensions": [
+        "object_identity_and_group_boundary",
+        "permanent_collection_or_stable_display_status",
+        "reliable_object_image_and_four_direct_observations",
+        "object_level_metadata",
+        "nearest_comparator_and_claim_boundary"
+      ]
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c05",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "《伪所罗门书》手稿本",
+        "titleEn": "Manuscript of In the Name of Solomon",
+        "museum": "Mu Xin Art Museum"
+      },
+      "missingDimensions": [
+        "object_identity_and_group_boundary",
+        "permanent_collection_or_stable_display_status",
+        "reliable_object_image_and_four_direct_observations",
+        "object_level_metadata",
+        "nearest_comparator_and_claim_boundary"
+      ]
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c06",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "《文学回忆录》讲席手稿本",
+        "titleEn": "Lecture manuscripts associated with Literary Memoir",
+        "museum": "Mu Xin Art Museum"
+      },
+      "missingDimensions": [
+        "object_identity_and_group_boundary",
+        "permanent_collection_or_stable_display_status",
+        "reliable_object_image_and_four_direct_observations",
+        "object_level_metadata",
+        "nearest_comparator_and_claim_boundary"
+      ]
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c07",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "未完成小说《空房间》手稿",
+        "titleEn": "Manuscript of the unfinished novel An Empty Room",
+        "museum": "Mu Xin Art Museum"
+      },
+      "missingDimensions": [
+        "object_identity_and_group_boundary",
+        "permanent_collection_or_stable_display_status",
+        "reliable_object_image_and_four_direct_observations",
+        "object_level_metadata",
+        "nearest_comparator_and_claim_boundary"
+      ]
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c08",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "《诗经》英文改写稿",
+        "titleEn": "English adaptation manuscript of the Book of Odes",
+        "museum": "Mu Xin Art Museum"
+      },
+      "missingDimensions": [
+        "object_identity_and_group_boundary",
+        "permanent_collection_or_stable_display_status",
+        "reliable_object_image_and_four_direct_observations",
+        "object_level_metadata",
+        "nearest_comparator_and_claim_boundary"
+      ]
+    }
+  ],
+  "pipelineVersion": "2.4.3",
+  "instructionVersion": "2.0.1",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c22c60e3a215aa1ac90da402debeb2caf9da39975cb2921c4845ef74ef14c834"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "cde91463dd296ba3f11b6bccfddc15964a256d5c132be913f11062fb6bb7cc66"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "bb9ad5d44fbb6b6382c90e17599c100648ca295800d57ff1b40f3cfc09b039ee"
+    },
+    {
+      "path": "research/m28-4/muxin/research-batch-01/muxin-c02-research-card.md",
+      "sha256": "c7f56f72675d355442627a8e0ec87e078e155a70d65867053dddc1ca9f8f30a1"
+    },
+    {
+      "path": "research/m28-4/muxin/research-batch-01/muxin-c03-research-card.md",
+      "sha256": "b06c278ecc5b16f9a271b14d9f92788b80e3e8b5ecb1bf1f57cd283082248a38"
+    },
+    {
+      "path": "research/m28-4/muxin/research-batch-01/muxin-c04-research-card.md",
+      "sha256": "811b674a0029cad82478bcdc6a5bf93e5ac5e6a45bb8dfcb56bc732eb12b5d3c"
+    },
+    {
+      "path": "research/m28-4/muxin/research-batch-01/muxin-c05-research-card.md",
+      "sha256": "4a7c0b54c0e337eb3de394b2b1d3a1954da363202201eb0bfe596ac43bbaec77"
+    },
+    {
+      "path": "research/m28-4/muxin/research-batch-01/muxin-c06-research-card.md",
+      "sha256": "711a26dc1122825683d5dde7ed33bb3ccf1462bbe342371bda91719769224535"
+    },
+    {
+      "path": "research/m28-4/muxin/research-batch-01/muxin-c07-research-card.md",
+      "sha256": "067b60dbbd9f9b077b9a1e2814c3d37fc3b10f4885eea6e2f727b0c1f05ec8b1"
+    },
+    {
+      "path": "research/m28-4/muxin/research-batch-01/muxin-c08-research-card.md",
+      "sha256": "15347c06e505460055c48415cbbc1e20381c0a59646f07b11ad596caf9a14eeb"
+    }
+  ],
+  "outputs": [
+    "muxin-c02-research-supplement.md",
+    "muxin-c03-research-supplement.md",
+    "muxin-c04-research-supplement.md",
+    "muxin-c05-research-supplement.md",
+    "muxin-c06-research-supplement.md",
+    "muxin-c07-research-supplement.md",
+    "muxin-c08-research-supplement.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

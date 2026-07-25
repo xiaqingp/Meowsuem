@@ -1,0 +1,454 @@
+{
+  "schemaVersion": 1,
+  "proseTransforms": {
+    "removeLegacyDetailHeading": false
+  },
+  "metadataFields": {
+    "includeMaterial": false
+  },
+  "museum": {
+    "id": "muxin",
+    "editorialCapacity": 20,
+    "city": "乌镇 · 中国",
+    "zh": "木心美术馆",
+    "en": "Mu Xin Art Museum",
+    "verdict": "",
+    "hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mu%20Xin%20Art%20Museum%20Wuzhen.jpg?width=1280",
+    "contentFile": "./research/muxin-content-v2.md",
+    "official": "http://www.muxinam.com/",
+    "visit": "https://www.ewuzhen.com/ticket/detail?goodsCode=PK-202002-0949&goodsId=214433676845494273",
+    "cardCopyContract": "independent-v1",
+    "contentUpdatedAt": "2026-07-23",
+    "intro": [
+      "这不是靠一件世界名作成立的馆，而是一条由监禁文献、完整文学稿本、早晚期纸本绘画、影像与跨水馆舍共同构成的个人创作保存线。参观的核心，是看同一个人怎样在受限纸张、固定诗形、微型风景和建筑空间中反复处理“作品如何被留下、又如何被观看”。"
+    ],
+    "routes": {
+      "90": {
+        "title": "90分钟：抓住保存、绘画与空间三条线",
+        "note": "只保留能解释评分与馆级主线的节点；文学稿本和绘画如未展出，按同章可见对象替换，不等待指定页面。",
+        "workIds": [
+          "muxin-c20",
+          "muxin-c01",
+          "muxin-c02",
+          "muxin-c14",
+          "muxin-r02",
+          "muxin-c12",
+          "muxin-c15"
+        ]
+      },
+      "half": {
+        "title": "半天：把文学与绘画放回同一条创作线",
+        "note": "按建筑—监禁文献—诗歌稿本—版本与记忆—早期绘画—晚期序列—设计与影像推进，中途在水边或连接空间休息。",
+        "workIds": [
+          "muxin-c20",
+          "muxin-c01",
+          "muxin-c02",
+          "muxin-c03",
+          "muxin-c05",
+          "muxin-c09",
+          "muxin-c10",
+          "muxin-c14",
+          "muxin-r06",
+          "muxin-r02",
+          "muxin-c11",
+          "muxin-r03",
+          "muxin-c12",
+          "muxin-c15",
+          "muxin-r05",
+          "muxin-r07"
+        ]
+      },
+      "all": {
+        "title": "完整浏览：20个节点分两轮看",
+        "note": "第一轮建立主线，第二轮补比较对象与媒介边界；不把20项写成当天必然全部可见的清单。",
+        "workIds": [
+          "muxin-c01",
+          "muxin-c02",
+          "muxin-c03",
+          "muxin-c04",
+          "muxin-c05",
+          "muxin-c09",
+          "muxin-c10",
+          "muxin-r01",
+          "muxin-c14",
+          "muxin-r06",
+          "muxin-r02",
+          "muxin-c11",
+          "muxin-r03",
+          "muxin-r04",
+          "muxin-c12",
+          "muxin-c13",
+          "muxin-c15",
+          "muxin-r05",
+          "muxin-r07",
+          "muxin-c20"
+        ]
+      }
+    }
+  },
+  "chapters": [
+    {
+      "id": "ch01",
+      "number": "01",
+      "title": "一张本该写检查的纸，怎样变成秘密写作？",
+      "intro": "最重要的不是把监禁经历讲成传奇，而是理解纸从强制自我检查的工具变成秘密写作载体后，字迹密度、双面书写、损耗和轮换展示为何连成一条因果线。"
+    },
+    {
+      "id": "ch02",
+      "number": "02",
+      "title": "一本书出版以前，稿本还能告诉我们什么？",
+      "intro": "馆方保存的具名稿本让文学从书架回到亲笔对象，但观看回报并不相同：有的能确认固定诗形或版本距离，有的目前只能确认题名、收藏框架或特展角色。"
+    },
+    {
+      "id": "ch03",
+      "number": "03",
+      "title": "晚年小画之前，木心的纸本绘画是什么尺度？",
+      "intro": "《渔村》和无题人物画不能单独证明风格转折，却能避免把木心的绘画压缩成晚年狭长风景一种样子。"
+    },
+    {
+      "id": "ch04",
+      "number": "04",
+      "title": "为什么这些风景越来越小、越来越长？",
+      "intro": "单件之间高度可比，真正的观看回报来自连续比较年代、比例和题名；《生与死》的白点口述提供对象专属入口，三十二幅晚年微型组则承担序列价值。"
+    },
+    {
+      "id": "ch05",
+      "number": "05",
+      "title": "画之外，木心怎样被设计和记录？",
+      "intro": "封面设计稿把木心放到自己作品的出版设计者位置；纪录片则是后来的影像记录和序馆材料，不能与木心亲自创作的作品混为一谈。"
+    },
+    {
+      "id": "ch06",
+      "number": "06",
+      "title": "为什么看木心，要在水面、缝隙和天光之间走？",
+      "intro": "馆舍不是额外装饰：每次离开展厅重新遇见水、院落或光，都会把连续阅读切成停顿。不过建筑只计作一项整体，不能再拆成多条珍品线重复抬分。"
+    }
+  ],
+  "routes": {
+    "90": {
+      "title": "90分钟：抓住保存、绘画与空间三条线",
+      "note": "只保留能解释评分与馆级主线的节点；文学稿本和绘画如未展出，按同章可见对象替换，不等待指定页面。",
+      "workIds": [
+        "muxin-c20",
+        "muxin-c01",
+        "muxin-c02",
+        "muxin-c14",
+        "muxin-r02",
+        "muxin-c12",
+        "muxin-c15"
+      ]
+    },
+    "half": {
+      "title": "半天：把文学与绘画放回同一条创作线",
+      "note": "按建筑—监禁文献—诗歌稿本—版本与记忆—早期绘画—晚期序列—设计与影像推进，中途在水边或连接空间休息。",
+      "workIds": [
+        "muxin-c20",
+        "muxin-c01",
+        "muxin-c02",
+        "muxin-c03",
+        "muxin-c05",
+        "muxin-c09",
+        "muxin-c10",
+        "muxin-c14",
+        "muxin-r06",
+        "muxin-r02",
+        "muxin-c11",
+        "muxin-r03",
+        "muxin-c12",
+        "muxin-c15",
+        "muxin-r05",
+        "muxin-r07"
+      ]
+    },
+    "all": {
+      "title": "完整浏览：20个节点分两轮看",
+      "note": "第一轮建立主线，第二轮补比较对象与媒介边界；不把20项写成当天必然全部可见的清单。",
+      "workIds": [
+        "muxin-c01",
+        "muxin-c02",
+        "muxin-c03",
+        "muxin-c04",
+        "muxin-c05",
+        "muxin-c09",
+        "muxin-c10",
+        "muxin-r01",
+        "muxin-c14",
+        "muxin-r06",
+        "muxin-r02",
+        "muxin-c11",
+        "muxin-r03",
+        "muxin-r04",
+        "muxin-c12",
+        "muxin-c13",
+        "muxin-c15",
+        "muxin-r05",
+        "muxin-r07",
+        "muxin-c20"
+      ]
+    }
+  },
+  "rating": {
+    "score": 77,
+    "scoreBand": "70–79 · 可去可不去",
+    "shortAction": "乌镇行程中按兴趣安排",
+    "travelAction": "已经来到乌镇、又愿意理解木心的文学、绘画与保存史时值得安排；不建议只为本馆专程前往乌镇。",
+    "scoreReason": "《狱中笔记》六十六页文献组、数部完整文学稿本、从20世纪70年代到晚年的纸本绘画序列，以及跨元宝湖的馆舍，共同构成一座高度专注于木心个人创作与保存史的美术馆。候选中有十五项达到重要藏品，但没有一项完成稀世珍品所需的最近比较、决定性差异与全球不可替代性硬门，因此评分必须留在70档。",
+    "withinBandReason": "位于70档的76–77段上沿：它对单一艺术家的文学、绘画、监禁文献和晚年空间呈现具有明显领域权威，重要对象数量与建筑现场使其高于西雅图美术馆75和一般地方小馆；但大量稿本和画作缺少对象级图像、编目或实时展出保证，晚期狭长纸本之间又高度可比，建筑体验也不能重复计成珍品线。整体不可复制性仍低于江之浦测候所78和地中美术馆79，故定为77。",
+    "limitations": "除馆舍外，多数对象采取轮换或仅有既往展出记录；当天可见状态以馆方为准。",
+    "dedicatedTrip": false,
+    "rareAssets": [],
+    "sources": [
+      "http://www.muxinam.com/",
+      "https://www.xbiao.com/20151028/34431.html",
+      "https://www.theartjournal.cn/institutions/10399"
+    ],
+    "calibratedAgainst": [
+      "alhambra",
+      "anchorage",
+      "british",
+      "chichu",
+      "egyptian",
+      "enoura",
+      "frye",
+      "getty",
+      "glyptotek",
+      "louvre",
+      "met",
+      "muxin",
+      "seattle",
+      "smk",
+      "vienna"
+    ],
+    "calibratedAt": "2026-07-23"
+  },
+  "works": [
+    {
+      "id": "muxin-c01",
+      "ch": "ch01",
+      "significance": "重要藏品",
+      "availabilityTag": "馆藏轮换",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mu%20Xin%20Art%20Museum%20Wuzhen.jpg?width=1280",
+      "imageSource": "http://www.muxinam.com/",
+      "imageCaption": "馆舍占位图，不是本作品图。",
+      "imageKind": "museum-placeholder",
+      "source": "https://www.muxinam.com/index_en.php?a=wenxue&m=Guancang"
+    },
+    {
+      "id": "muxin-c02",
+      "ch": "ch02",
+      "significance": "重要藏品",
+      "availabilityTag": "馆藏轮换",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mu%20Xin%20Art%20Museum%20Wuzhen.jpg?width=1280",
+      "imageSource": "http://www.muxinam.com/",
+      "imageCaption": "馆舍占位图，不是本作品图。",
+      "imageKind": "museum-placeholder",
+      "source": "https://www.muxinam.com/index_en.php?a=wenxue&m=Guancang"
+    },
+    {
+      "id": "muxin-c03",
+      "ch": "ch02",
+      "significance": "重要藏品",
+      "availabilityTag": "馆藏轮换",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mu%20Xin%20Art%20Museum%20Wuzhen.jpg?width=1280",
+      "imageSource": "http://www.muxinam.com/",
+      "imageCaption": "馆舍占位图，不是本作品图。",
+      "imageKind": "museum-placeholder",
+      "source": "https://www.muxinam.com/index_en.php?a=wenxue&m=Guancang"
+    },
+    {
+      "id": "muxin-c04",
+      "ch": "ch02",
+      "significance": "特色看点",
+      "availabilityTag": "馆藏轮换",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mu%20Xin%20Art%20Museum%20Wuzhen.jpg?width=1280",
+      "imageSource": "http://www.muxinam.com/",
+      "imageCaption": "馆舍占位图，不是本作品图。",
+      "imageKind": "museum-placeholder",
+      "source": "https://www.muxinam.com/index_en.php?a=wenxue&m=Guancang"
+    },
+    {
+      "id": "muxin-c05",
+      "ch": "ch02",
+      "significance": "重要藏品",
+      "availabilityTag": "馆藏轮换",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mu%20Xin%20Art%20Museum%20Wuzhen.jpg?width=1280",
+      "imageSource": "http://www.muxinam.com/",
+      "imageCaption": "馆舍占位图，不是本作品图。",
+      "imageKind": "museum-placeholder",
+      "source": "https://www.muxinam.com/index_en.php?a=wenxue&m=Guancang"
+    },
+    {
+      "id": "muxin-c09",
+      "ch": "ch02",
+      "significance": "重要藏品",
+      "availabilityTag": "曾展出 · 当前待核验",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mu%20Xin%20Art%20Museum%20Wuzhen.jpg?width=1280",
+      "imageSource": "http://www.muxinam.com/",
+      "imageCaption": "馆舍占位图，不是本作品图。",
+      "imageKind": "museum-placeholder",
+      "source": "https://m.bjnews.com.cn/detail/155149856314262.html"
+    },
+    {
+      "id": "muxin-c10",
+      "ch": "ch02",
+      "significance": "重要藏品",
+      "availabilityTag": "曾展出 · 当前待核验",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mu%20Xin%20Art%20Museum%20Wuzhen.jpg?width=1280",
+      "imageSource": "http://www.muxinam.com/",
+      "imageCaption": "馆舍占位图，不是本作品图。",
+      "imageKind": "museum-placeholder",
+      "source": "https://culture.ifeng.com/a/20151115/46251066_0.shtml"
+    },
+    {
+      "id": "muxin-r01",
+      "ch": "ch02",
+      "significance": "特色看点",
+      "availabilityTag": "曾展出 · 当前待核验",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mu%20Xin%20Art%20Museum%20Wuzhen.jpg?width=1280",
+      "imageSource": "http://www.muxinam.com/",
+      "imageCaption": "馆舍占位图，不是本作品图。",
+      "imageKind": "museum-placeholder",
+      "source": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3872/site/attach/0/671df7253fe14338b83405391284b4fa.pdf"
+    },
+    {
+      "id": "muxin-c14",
+      "ch": "ch03",
+      "significance": "重要藏品",
+      "availabilityTag": "曾展出 · 当前待核验",
+      "image": "https://img.artcm.cn/5659358afa59313651810a10.jpg",
+      "imageSource": "https://www.artcm.cn/customer/exhibition_detail/?exhibition_id=67",
+      "imageCaption": "《渔村》，纸本彩墨，20世纪70年代。",
+      "imageKind": "work",
+      "source": "https://www.theartjournal.cn/institutions/10399"
+    },
+    {
+      "id": "muxin-r06",
+      "ch": "ch03",
+      "significance": "重要藏品",
+      "availabilityTag": "曾展出 · 当前待核验",
+      "image": "https://www.theartjournal.cn/wp-content/uploads/2015/11/%E9%A2%98%E6%9C%AA%E5%AE%9A%EF%BC%8C%E7%BA%B8%E6%9C%AC%E5%BD%A9%E5%A2%A8%EF%BC%8C-31.4X40.5cm-70%E5%B9%B4%E4%BB%A3.jpg",
+      "imageSource": "https://www.theartjournal.cn/institutions/10399",
+      "imageCaption": "题未定，纸本彩墨，31.4 × 40.5厘米，20世纪70年代。",
+      "imageKind": "work",
+      "source": "https://www.xbiao.com/20151028/34431.html"
+    },
+    {
+      "id": "muxin-r02",
+      "ch": "ch04",
+      "significance": "重要藏品",
+      "availabilityTag": "曾展出 · 当前待核验",
+      "image": "https://t-atl.xbiao.com/2015/1028/5cbe555236f0f8181121b4ac94930bfb.jpg",
+      "imageSource": "https://www.xbiao.com/20151028/34431.html",
+      "imageCaption": "《四块水晶石》，纸本彩墨，1991年。",
+      "imageKind": "work",
+      "source": "https://www.xbiao.com/20151028/34431.html"
+    },
+    {
+      "id": "muxin-c11",
+      "ch": "ch04",
+      "significance": "重要藏品",
+      "availabilityTag": "曾展出 · 当前待核验",
+      "image": "https://t-atl.xbiao.com/2015/1028/80331e2679b84036a20c5f8d69d9ba7c.jpg",
+      "imageSource": "https://www.xbiao.com/20151028/34431.html",
+      "imageCaption": "《晴风》，纸本彩墨，1999年。",
+      "imageKind": "work",
+      "source": "https://www.thepaper.cn/newsDetail_forward_19765642"
+    },
+    {
+      "id": "muxin-r03",
+      "ch": "ch04",
+      "significance": "重要藏品",
+      "availabilityTag": "曾展出 · 当前待核验",
+      "image": "https://t-atl.xbiao.com/2015/1028/1e5537af9183e924514078c8ec1940e6.jpg",
+      "imageSource": "https://www.xbiao.com/20151028/34431.html",
+      "imageCaption": "《早晨》，纸本彩墨，2000年。",
+      "imageKind": "work",
+      "source": "https://www.xbiao.com/20151028/34431.html"
+    },
+    {
+      "id": "muxin-r04",
+      "ch": "ch04",
+      "significance": "重要藏品",
+      "availabilityTag": "曾展出 · 当前待核验",
+      "image": "https://t-atl.xbiao.com/2015/1028/9e8f4e42f71f2c2ae45036a86cead2f1.jpg",
+      "imageSource": "https://www.xbiao.com/20151028/34431.html",
+      "imageCaption": "《战争前夜》，纸本彩墨，2001年。",
+      "imageKind": "work",
+      "source": "https://www.xbiao.com/20151028/34431.html"
+    },
+    {
+      "id": "muxin-c12",
+      "ch": "ch04",
+      "significance": "重要藏品",
+      "availabilityTag": "曾展出 · 当前待核验",
+      "image": "https://t-atl.xbiao.com/2015/1028/a98fa8fe5b22c2043e0d6a088ca6a634.jpg",
+      "imageSource": "https://www.xbiao.com/20151028/34431.html",
+      "imageCaption": "《生与死》，纸本彩墨，2001年。",
+      "imageKind": "work",
+      "source": "https://www.artcm.cn/customer/exhibit_detail/?exhibit_id=374"
+    },
+    {
+      "id": "muxin-c13",
+      "ch": "ch04",
+      "significance": "重要藏品",
+      "availabilityTag": "曾展出 · 当前待核验",
+      "image": "https://www.theartjournal.cn/wp-content/uploads/2015/11/%E3%80%8A%E5%BA%9F%E8%B0%B7%E3%80%8B%E7%BA%B8%E6%9C%AC%E5%BD%A9%E5%A2%A815.7%C3%9742.9cm2004.jpg",
+      "imageSource": "https://www.theartjournal.cn/institutions/10399",
+      "imageCaption": "《废谷》，纸本彩墨，2004年。",
+      "imageKind": "work",
+      "source": "https://www.theartjournal.cn/institutions/10399"
+    },
+    {
+      "id": "muxin-c15",
+      "ch": "ch04",
+      "significance": "重要藏品",
+      "availabilityTag": "曾展出 · 当前待核验",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mu%20Xin%20Art%20Museum%20Wuzhen.jpg?width=1280",
+      "imageSource": "http://www.muxinam.com/",
+      "imageCaption": "馆舍占位图，不是本作品图。",
+      "imageKind": "museum-placeholder",
+      "source": "https://www.thepaper.cn/newsDetail_forward_1397020"
+    },
+    {
+      "id": "muxin-r05",
+      "ch": "ch05",
+      "significance": "特色看点",
+      "availabilityTag": "曾展出 · 当前待核验",
+      "image": "https://img.artcm.cn/565933d1fa593136539fb621.jpg",
+      "imageSource": "https://artcm.cn/customer/exhibit_detail/?exhibit_id=372",
+      "imageCaption": "木心为自己未来画册设计的封面，纸本。",
+      "imageKind": "work",
+      "source": "https://www.xbiao.com/20151028/34431.html"
+    },
+    {
+      "id": "muxin-r07",
+      "ch": "ch05",
+      "significance": "体验补充",
+      "availabilityTag": "曾展出 · 当前待核验",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mu%20Xin%20Art%20Museum%20Wuzhen.jpg?width=1280",
+      "imageSource": "http://www.muxinam.com/",
+      "imageCaption": "馆舍占位图，不是本作品图。",
+      "imageKind": "museum-placeholder",
+      "source": "https://www.theartjournal.cn/institutions/10399"
+    },
+    {
+      "id": "muxin-c20",
+      "ch": "ch06",
+      "significance": "特色看点",
+      "availabilityTag": "",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mu%20Xin%20Art%20Museum%20Wuzhen.jpg?width=1280",
+      "imageSource": "http://www.muxinam.com/",
+      "imageCaption": "木心美术馆建筑与跨水空间。",
+      "imageKind": "work",
+      "source": "https://www.archdaily.com/785110/mu-xin-art-museum-oli-architecture-pllc"
+    }
+  ],
+  "publication": {
+    "dataFile": "muxin.js",
+    "cacheKey": "20260724-m28-9-muxin",
+    "cachePages": [
+      "index.html",
+      "museum.html"
+    ]
+  }
+}

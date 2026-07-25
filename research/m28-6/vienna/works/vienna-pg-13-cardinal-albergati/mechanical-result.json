@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-pg-13-cardinal-albergati-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:43.977Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "04ecf37fa54537a57764004aa06b456dfbe67e900c0e0098fb7656d0df06873e",
+      "bytes": 9995
+    },
+    {
+      "path": "card.txt",
+      "sha256": "7b5f85d7d1970c033638a7a16498e35ca29589291886724254cff76cef2e6d2a",
+      "bytes": 318
+    },
+    {
+      "path": "draft.md",
+      "sha256": "e7b1e174dbebb8dafc7a582659a1e0630738c3faa6a882419752066810f2b4e9",
+      "bytes": 4222
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-pg-08-madonna-of-the-meadow-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:42:41.8284916-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-01/vienna-pg-08-madonna-of-the-meadow-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "46561072442a4b095e1b2f424eebc6832e7ca5c54098b8678033d6032b8bd2b2"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-pg-08-madonna-of-the-meadow/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "0066c50e16f69c7069742e662603b8ad2290c7588b251cf45693c290936eef58"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "42238dfdd535217af3d222cec0d37685c8b7c9dabb01a3ce9fcf9016171e0071",
+                        "bytes":  9619
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "56100fad58eff4b24260738497067584eec8d5d59c12f027db8a931e0d592f75",
+                        "bytes":  235
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "80484df33af972552976b1572707a4f68fd6f37247b4a7523349dd119d4ea2c4",
+                        "bytes":  4324
+                    }
+                ]
+}

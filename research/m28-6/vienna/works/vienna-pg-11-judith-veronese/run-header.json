@@ -1,0 +1,48 @@
+{
+  "runId": "m28-6-vienna-author-vienna-pg-11-judith-veronese-2026-07-24",
+  "startedAt": "2026-07-24T07:30:03.801Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card",
+  "museumId": "vienna",
+  "workId": "vienna-pg-11-judith-veronese",
+  "workIdentity": {
+    "artistOrCulture": "保罗·委罗内塞 Paolo Veronese",
+    "title": "朱迪斯与霍洛芬的头颅",
+    "titleEn": "Judith with the Head of Holofernes",
+    "museum": "Kunsthistorisches Museum Vienna"
+  },
+  "pipelineVersion": "2.4.8",
+  "instructionVersion": "2.0.2",
+  "inputContractVersion": 1,
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "465e7a2ce500057a139dbb64ff9df36755a6525a1f3a960e90fa0263a572ebfe"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-02/vienna-pg-11-judith-veronese-research-card.md",
+      "role": "research_card",
+      "sha256": "b8bc592edcf1e54747eb84d8a717219d9e101e6469ed14f1376b99e8891f9196"
+    },
+    {
+      "path": "research/m28-6/vienna/works/vienna-pg-11-judith-veronese/work-context.json",
+      "role": "work_context",
+      "sha256": "b237493a2b2b6db12c8cb210191b8313049c75fa6cccac6ef1ded99cd3612728"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

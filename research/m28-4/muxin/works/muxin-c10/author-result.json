@@ -1,0 +1,60 @@
+{
+    "runId":  "m28-4-muxin-author-muxin-c10-2026-07-23",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.7",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-23T22:02:58.0149092-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/generation-pipeline.md",
+                       "sha256":  "fbe6770b2ff0d935448d52feb1f0d73c35bf8b901efe905dca982615e664a0ad"
+                   },
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/works/muxin-c10/author-input-research.md",
+                       "sha256":  "07b1240d1d5df6d7198ce40529c5f3d75ff1f5581de3a2ce487ad622fc346859"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/works/muxin-c10/author-input-research-record.json",
+                       "sha256":  "a645938350ac83152da3098bd20e3c36d8f41384154d1af55b563ba0a5fd73d3"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/works/muxin-c10/author-input-supplement.md",
+                       "sha256":  "2ef1484500395f4b46036da867c4f629728fb4f5385de33e06786c3babe2930b"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/works/muxin-c10/author-input-supplement-record.json",
+                       "sha256":  "3be61de0f0307c15fee4aabd3a48b2e303c9ce136c3c1c007ba52c1920ff5ab3"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/works/muxin-c10/work-selection.json",
+                       "sha256":  "3a02b31f3dfb936a5f4839cf828fea1cf18f06b8f23880f9fa55fcea5dc4bf96"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/integration/museum-plan.json",
+                       "sha256":  "f1667c694974a0128558ce6d9519b3a616cab05d4dc3a4f4d00caf5ec62862b2"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "70e9c93495b2a11c82e52b47a82a3a08ad786c4c88acd93008e2db247149b8b2",
+                        "bytes":  6915
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "8e05facec8d33ae4cbffbc4a8bfa000b6ac6d557e4f6b7354da75d6e61c0910e",
+                        "bytes":  314
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "b04fcd4ec9499e3e4d94053e74f5cb6b84b1019269617cb18b47e6ebd9954cc7",
+                        "bytes":  3381
+                    }
+                ]
+}

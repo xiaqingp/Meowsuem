@@ -1,0 +1,51 @@
+{
+  "runId": "m28-4-muxin-author-muxin-c02-2026-07-23",
+  "startedAt": "2026-07-24T04:52:25.779Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card_after_verified_selection",
+  "museumId": "muxin",
+  "workId": "muxin-c02",
+  "workIdentity": "以馆方列名的《诗经演》完整稿本为一件；册数、页数和版本阶段未知，不按三百首拆分。",
+  "pipelineVersion": "2.4.6",
+  "instructionVersion": "2.0.2",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c22c60e3a215aa1ac90da402debeb2caf9da39975cb2921c4845ef74ef14c834"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "e7b049c97e262a0a9f2e334388ffadfb2013ce5a3fded20f7063256d03bb7e56"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-4/muxin/research-batch-01/muxin-c02-research-card.md",
+      "sha256": "c7f56f72675d355442627a8e0ec87e078e155a70d65867053dddc1ca9f8f30a1"
+    },
+    {
+      "path": "research/m28-4/muxin/research-gap-01/muxin-c02-research-supplement.md",
+      "sha256": "b6df42cdb4e470309f6c1a586344a319717bb80fc5bd8794c5debd6ec3d93440"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c02/work-selection.json",
+      "sha256": "2f3b6f85b37450c547fd9eca5db777b4e7785973c3a5bcb47e1d27916e830485"
+    },
+    {
+      "path": "research/m28-4/muxin/integration/museum-plan.json",
+      "sha256": "f1667c694974a0128558ce6d9519b3a616cab05d4dc3a4f4d00caf5ec62862b2"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

@@ -1,0 +1,59 @@
+{
+  "runId": "m28-4-muxin-author-muxin-c03-2026-07-23",
+  "startedAt": "2026-07-24T04:56:16.672Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card_after_verified_selection",
+  "museumId": "muxin",
+  "workId": "muxin-c03",
+  "workIdentity": "以馆方列名的《我纷纷的情欲》整部稿本为一件；不把出版物三辑边界或晚年定稿身份投射到馆藏稿本。",
+  "pipelineVersion": "2.4.7",
+  "instructionVersion": "2.0.2",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c22c60e3a215aa1ac90da402debeb2caf9da39975cb2921c4845ef74ef14c834"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "fbe6770b2ff0d935448d52feb1f0d73c35bf8b901efe905dca982615e664a0ad"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c03/author-input-research.md",
+      "sha256": "5bcd2e5e9976b608dc7ecdb5ecb448ff2094ab1c1c70251f04742d37f61d118b"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c03/author-input-research-record.json",
+      "sha256": "cb475ed90099c8f87933b8f3cee20c1b5a0bcc3de8ce0a2abe90c85df5fb0674"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c03/author-input-supplement.md",
+      "sha256": "dd583f7669d7eb7a35a286d2a6fca81c48f2737fc5a51282ca5ab67c893edcf7"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c03/author-input-supplement-record.json",
+      "sha256": "ebeeee40d62763a311540e50366bfac92a060521333b37648cfc4bf6750e9410"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c03/work-selection.json",
+      "sha256": "30f9c2cf2b6f047079feeb8d282dd877774eca4bc6d9d2d5fe9e5446f74cad9c"
+    },
+    {
+      "path": "research/m28-4/muxin/integration/museum-plan.json",
+      "sha256": "f1667c694974a0128558ce6d9519b3a616cab05d4dc3a4f4d00caf5ec62862b2"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

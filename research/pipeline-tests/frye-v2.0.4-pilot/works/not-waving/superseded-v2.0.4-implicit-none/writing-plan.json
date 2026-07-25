@@ -1,0 +1,172 @@
+{
+  "workId": "not-waving",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "museumId": "frye",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "directUpstream": "research-card.md",
+  "directUpstreamSha256": "8d07cf253078045801dbfac4f4fcb8989b51bc11aa3bec88aeea75d3d8056fe3",
+  "readerBaseline": {
+    "knows": "零背景读者只从题名与作品外观知道：这是一件高窄、釉面明亮、由花、骷髅、链条、孔洞和木底座共同构成的立体作品。",
+    "doesNotYetKnow": "读者尚不知道题名来自 Stevie Smith 1957 年同名诗，也不知道底座由艺术家制作并属于作品，或它如何连接 Frye 的西雅图当代艺术展览史。",
+    "likelyFirstResponse": "繁密、闪亮的装饰先显得活泼，骷髅与题名随后让这种活泼变得不安；不预设读者会误认任何具体象征。"
+  },
+  "coreQuestion": "为什么这些闪亮、甜美的装饰越堆越多，作品反而越来越像一场求救？",
+  "quickLayerPromise": {
+    "visibleTension": "釉面的花朵与装饰性堆叠显得欢快，骷髅、链条、孔洞和“溺水”的题名却持续压低这种玩趣。",
+    "provisionalAnswer": "作品让吸引人的表面与危险信号占据同一个身体；底座把它托起，却也令它像被固定在无法脱身的状态中。",
+    "viewingRoute": "沿整体高窄轮廓观察釉光、花、骷髅、链条、孔洞，再把自制木底座纳入整体，最后用题名重新衡量最初的甜美感。"
+  },
+  "cognitionSteps": [
+    {
+      "step": 1,
+      "discovery": "明亮釉光、花朵和繁密装饰首先制造亲近感。",
+      "changesUnderstanding": "核心问题先从材料表面成立：危险并未以灰暗、克制的方式出现。",
+      "thereforeNext": "既然表面如此悦目，哪些形状开始破坏这份轻松？"
+    },
+    {
+      "step": 2,
+      "discovery": "骷髅、链条与孔洞和花朵处在同一层叠结构中。",
+      "changesUnderstanding": "甜美与不安不是两个分区，而是纠缠在同一物体上；读者不能只把它当作装饰集合。",
+      "thereforeNext": "这种纠缠为什么会被题名读成求救，而不只是怪诞趣味？"
+    },
+    {
+      "step": 3,
+      "discovery": "题名引用 Stevie Smith 1957 年同名诗，带入一个动作被旁观者误读的处境。",
+      "changesUnderstanding": "先前看似热闹的表面可以被重新理解为遮住危急信号的可见噪声；仅概述联系，不长引诗。",
+      "thereforeNext": "作品的实体结构怎样让这种被托住却未获救的感觉更具体？"
+    },
+    {
+      "step": 4,
+      "discovery": "艺术家自制木底座属于作品，扩展了高窄轮廓，并把陶塑托离地面。",
+      "changesUnderstanding": "底座不再只是展示设备；它使“支撑”与“固定”同时成为可见的空间关系，但不宣称这是作者唯一意图。",
+      "thereforeNext": "这件作品为何在 Frye 值得停留，而不应被夸成稀世孤品？"
+    },
+    {
+      "step": 5,
+      "discovery": "作品从洛杉矶展览进入 Frye 2012—13 年的《Mw [Moment Magnitude]》并被收藏，连接地方酷儿陶艺与该馆的西雅图当代艺术展览史。",
+      "changesUnderstanding": "它的重要性落在具体馆藏关系和现场可读性，而非版次稀缺或艺术史最高峰。",
+      "thereforeNext": "带着这条边界回看，哪些细节最能同时保留玩趣与求救的张力？"
+    }
+  ],
+  "humorBasis": null,
+  "forbiddenAssumptions": [
+    "不得假定人物、器官或确定的叙事角色存在。",
+    "不得把孔洞确定命名为性象征。",
+    "不得把策展人的私人认同写成艺术家自述或唯一意图。",
+    "不得断言底座象征囚禁、救援或宗教装置；只能描述其结构效果并标示为观看推断。",
+    "不得把骷髅直接等同于死亡愿望或作者心理。",
+    "不得声称作品当前在展。",
+    "不得把作品夸成唯一、首次、稀世珍品或决定 Frye 行程的作品。"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "甜美装饰与不安身体性并存。",
+      "evidenceType": "直接观察加编辑推断",
+      "allowedWording": "写明花、釉光、骷髅、链条和孔洞共同出现，并说这些可见元素使甜美感变得不安。",
+      "forbiddenUpgrade": "不得写成艺术家明确要表现创伤、死亡或某种心理状态。"
+    },
+    {
+      "claim": "题名使热闹表面具有求救被误读的张力。",
+      "evidenceType": "来源事实加有限文学概述",
+      "allowedWording": "题名引用 Stevie Smith 1957 年同名诗，可概述为旁观者把求救误看成挥手。",
+      "forbiddenUpgrade": "不得长引诗，不得声称陶塑重演诗中全部情节或等于某位真实人物。"
+    },
+    {
+      "claim": "底座同时产生支撑与固定的视觉关系。",
+      "evidenceType": "来源事实加编辑推断",
+      "allowedWording": "先确认底座由艺术家自制且属于作品，再以“看起来”“会让人感到”描述空间效果。",
+      "forbiddenUpgrade": "不得断言底座象征囚禁、救赎或作者意图。"
+    },
+    {
+      "claim": "作品连接 Frye 展览史与西雅图酷儿陶艺。",
+      "evidenceType": "来源事实与馆藏判断",
+      "allowedWording": "陈述作品参加 Frye 2012—13 年展览后入藏，并将馆内价值限定为地方当代艺术与酷儿陶艺的连接。",
+      "forbiddenUpgrade": "不得称其为西雅图酷儿陶艺唯一、首件或最重要代表。"
+    },
+    {
+      "claim": "作品不可替代性来自馆藏关系。",
+      "evidenceType": "编辑比较判断",
+      "allowedWording": "限定为在 Frye 内，它把一次展览记忆、地方艺术家与大型陶塑入藏连接起来。",
+      "forbiddenUpgrade": "不得升级为全球稀缺、艺术家生涯唯一或足以决定旅行路线。"
+    }
+  ],
+  "historicalContextPlan": {
+    "applicable": true,
+    "type": "作品展览与入藏史；不是依赖战争、政治或宗教事件的历史画。",
+    "beforeState": "作品先在洛杉矶 Ambach & Rice 的《Shamrock Edelweiss Seaweed》展出。",
+    "changeOrConflict": "它随后出现在 Frye 2012—13 年的《Mw [Moment Magnitude]》并被购藏。",
+    "objectRole": "作品不是历史事件的记录；其角色是把一次展览选择转化为 Frye 的长期馆藏关系。",
+    "consequence": "今天它可用于理解 Frye 如何把西雅图当代艺术与酷儿陶艺纳入收藏叙事。",
+    "uncertainty": "资料不支持把入藏决定归因于单一策展动机，也不支持把策展人的个人解读当成艺术家陈述。",
+    "placement": "快层不塞入展览史；深层在理解题名和底座之后，用一段说明其馆内重要性。"
+  },
+  "authorStylePlan": {
+    "artistCareerPosition": "2012 年成熟期大型陶塑，与西雅图当代艺术展览史及 Frye 入藏直接相连。",
+    "visibleStyle": "强烈釉光、装饰过剩、花与骷髅等符号层叠，以及陶塑与自制底座共同构成的 assemblage-like 整体。",
+    "classification": "代表 Mitchell 成熟期把玩趣、装饰和不安并置的方法；不声称这是生涯转折或唯一范例。",
+    "proseBoundary": "用可见材料和构造说明风格，不把酷儿编码拆成确定符号字典。"
+  },
+  "significance": {
+    "importanceLabel": "重要藏品",
+    "visitPriority": "强烈推荐",
+    "dimensions": {
+      "representativeness": { "score": 4, "outOf": 5, "reason": "可见地集中釉陶、装饰过剩与符号叠加。" },
+      "careerNode": { "score": 4, "outOf": 5, "reason": "成熟期大型作品，并与 Frye 展览及入藏形成明确节点。" },
+      "rarity": { "score": 3, "outOf": 5, "reason": "价值不依赖稀有版次，资料也不支持唯一性。" },
+      "collectionNarrative": { "score": 5, "outOf": 5, "reason": "连接 Frye 2012—13 年展览、西雅图当代艺术与地方酷儿陶艺。" },
+      "onsiteLegibility": { "score": 5, "outOf": 5, "reason": "高窄轮廓、釉光和层叠符号具有直接现场回报。" }
+    },
+    "comparisonCategory": "当代酷儿陶塑与近似 assemblage 的陶艺",
+    "nearestComparator": {
+      "work": "Fu Dogs",
+      "artist": "Jeffry Mitchell",
+      "year": 2005,
+      "location": "Frye Art Museum",
+      "similarity": "同用釉陶、装饰过剩、动物或符号叠加与酷儿编码。",
+      "difference": "《Not Waving, but Drowning》规模更大，带艺术家自制底座，并由题名引入求救遭误读的张力。"
+    },
+    "irreplaceabilityBoundary": "馆内不可替代性来自展览记忆、地方艺术与大型陶塑入藏的连接；不等于艺术史峰值、稀世棋局或决定行程的孤品。",
+    "frye72Boundary": "正文须明确它是 Frye 值得停留的重要藏品，同时避免‘镇馆之宝’‘世界级孤品’‘值得专程来西雅图’等越界措辞。"
+  },
+  "observableDetails": [
+    "整体高而窄，底座把轮廓继续向下延伸。",
+    "表面釉光强，明亮反光会随站位改变。",
+    "花朵与骷髅在同一繁密结构中层叠。",
+    "链条穿行于其他形体之间。",
+    "孔洞或开口打断实体表面。",
+    "木底座由艺术家自制，是作品身份的一部分。"
+  ],
+  "secondLook": {
+    "action": "退到能同时容纳陶塑与木底座的位置，再从最亮的花朵沿链条移动到骷髅和孔洞，最后看底座如何把整个高窄身体托住。",
+    "newJudgment": "第二眼不把甜美和危险分开：越吸引目光的装饰，越可能让求救信号淹没在可见的热闹里。",
+    "returnsToCoreQuestion": true
+  },
+  "productionLanguageBoundary": {
+    "visitorProseMustExclude": [
+      "研究缺口",
+      "图片许可或摄影署名冲突",
+      "发布与迁移待办",
+      "测试、prompt、生成器或 reviewer",
+      "作者自审和内部风险标签"
+    ],
+    "visitorFacingUncertaintyAllowed": "只保留理解作品必需的证据边界，例如不把策展人解读写成艺术家唯一意图；不得把内部核验事项伪装成事实边界。"
+  },
+  "sectionPlan": [
+    "固定元数据与双语作者名",
+    "30 秒先懂：甜美装饰为何形成求救张力",
+    "多停几分钟：装饰与危险如何在同一身体上纠缠",
+    "题名怎样改变对热闹表面的理解",
+    "自制底座怎样参与作品",
+    "为什么它在 Frye 值得停留：比较、展览史和 72 分边界",
+    "至少四个可观察细节",
+    "最后再看一眼：从花与链条回到整体支撑关系",
+    "事实边界与两条资料链接"
+  ],
+  "cardPlan": {
+    "purpose": "独立回答为什么值得点开。",
+    "lengthVisibleCharacters": "24—100",
+    "mustNot": "不复制快层，不以通用观看命令开头，不含内部生产语言。"
+  },
+  "retryReason": null
+}

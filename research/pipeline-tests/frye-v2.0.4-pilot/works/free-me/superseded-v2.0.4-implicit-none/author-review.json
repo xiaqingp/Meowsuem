@@ -1,0 +1,167 @@
+{
+  "workId": "free-me",
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "cbe149084a76f91bdf10b75b00f332a3ad69176eeff53bb3445ab0dbffeb8381"
+  },
+  "paragraphDependency": [
+    {
+      "paragraph": "30 秒先懂",
+      "dependsOn": "读者只需能看见蓝、白色域与草写文字。",
+      "newUnderstanding": "文字既可阅读，也是沿倾斜边界运行的构图线。",
+      "breaksIfMovedEarlier": "这是全文入口，不能再提前；若删去，深层将缺少核心问题与暂时答案。"
+    },
+    {
+      "paragraph": "深层第 1 段：文字与边界",
+      "dependsOn": "快层已经建立文字兼具字义和线条作用。",
+      "newUnderstanding": "读句子的横向眼动同时测量蓝色梯形边缘，解释快层答案为何成立。",
+      "breaksIfMovedEarlier": "没有快层提出的矛盾，蓝白比例与字迹位置会变成孤立的形式描述。"
+    },
+    {
+      "paragraph": "深层第 2 段：无法定位的白色区域",
+      "dependsOn": "上一段已让读者把交界看成被文字激活的空间线。",
+      "newUnderstanding": "尺度参照的缺失使空间悬而未决，并与题名的身体诉求形成张力。",
+      "breaksIfMovedEarlier": "若尚未说明文字如何激活边界，对白色区域的保留判断只像事实纠错。"
+    },
+    {
+      "paragraph": "深层第 3 段：霍平卡的方法",
+      "dependsOn": "前两段已具体建立语言、空间与不确定性怎样在本作中工作。",
+      "newUnderstanding": "作者的跨媒介实践通过眼前白字、色域与倾斜边界落到可见形式。",
+      "breaksIfMovedEarlier": "提前会成为可替换的作者背景，读者还看不到所谓‘语言成为材料’的证据。"
+    },
+    {
+      "paragraph": "深层第 4 段：比较与馆内作用",
+      "dependsOn": "上一段已建立本作与作者影像／文本方法的关系。",
+      "newUnderstanding": "静态打印的物质差异及其对 Frye 馆藏叙事的扩展得到解释，同时收窄稀缺性边界。",
+      "breaksIfMovedEarlier": "未先看懂作品机制，比较对象和馆内价值会成为独立的重要性栏目。"
+    },
+    {
+      "paragraph": "现场细节清单",
+      "dependsOn": "正文已说明每个形式细节怎样参与核心问题。",
+      "newUnderstanding": "读者获得五个可现场核对的落点。",
+      "breaksIfMovedEarlier": "若放在机制解释前，细节会退化成无因果的视觉盘点。"
+    },
+    {
+      "paragraph": "最后再看一眼",
+      "dependsOn": "全文已建立字义、书写方向、空间不确定与身体诉求的关系。",
+      "newUnderstanding": "沿字迹移动并在暗线处停住，把‘不要急于命名’变成具体的第二眼动作。",
+      "breaksIfMovedEarlier": "没有前文，停住不命名只是一条任意观看口令。"
+    },
+    {
+      "paragraph": "事实边界",
+      "dependsOn": "正文已经正面说明证据能够支持的观看结论。",
+      "newUnderstanding": "明确区分可见纹理、馆方保留描述、心理解释与易变在展状态。",
+      "breaksIfMovedEarlier": "提前会让审慎边界接管作品入口，并削弱叙事声音。"
+    }
+  ],
+  "claimClosure": [
+    {
+      "sentence": "画面上部约三分之一是蓝色，下方是一片带暗线的白色纹理。",
+      "evidenceType": "馆方口述描述与直接观察",
+      "sourceOrBasis": "research-card.md；Frye 对象页",
+      "confidence": "高：馆方描述与画面观察一致。",
+      "verdict": "保留"
+    },
+    {
+      "sentence": "它可以让人联想到云，但馆方的描述也只说‘可能是云’。",
+      "evidenceType": "馆方带限定的描述",
+      "sourceOrBasis": "research-card.md 记录馆方 likely clouds",
+      "confidence": "高：措辞没有越过馆方的不确定边界。",
+      "verdict": "保留限定"
+    },
+    {
+      "sentence": "题名三次以‘请让我摆脱这具身体’起句。",
+      "evidenceType": "来源事实",
+      "sourceOrBasis": "research-card.md 与 source-pack.md",
+      "confidence": "高：研究材料明确记录三次同句起首。",
+      "verdict": "保留"
+    },
+    {
+      "sentence": "霍平卡的创作跨越摄影、影像与文字，经常触及语言、土地、记忆和原住民经验。",
+      "evidenceType": "作者实践背景",
+      "sourceOrBasis": "research-card.md 与 source-pack.md",
+      "confidence": "中高：材料支持广义实践范围；正文没有替本作指定单一历史事件。",
+      "verdict": "保留"
+    },
+    {
+      "sentence": "Frye 将它归入当代艺术、近期购藏与太平洋西北艺术家收藏。",
+      "evidenceType": "馆方分类事实",
+      "sourceOrBasis": "research-card.md；Frye 对象页",
+      "confidence": "高：三项分类由馆方对象页记录。",
+      "verdict": "保留"
+    },
+    {
+      "sentence": "它因此为馆内以具象油画为主的历史核心增加了一种不同的经验。",
+      "evidenceType": "基于馆藏对照的编辑判断",
+      "sourceOrBasis": "research-card.md 的馆藏叙事结论",
+      "confidence": "中高：判断范围明确限定在 Frye 内部。",
+      "verdict": "保留"
+    },
+    {
+      "sentence": "它在馆内叙事中的作用突出，但不是一件足以越过这家馆整体旅行定位的稀世孤品。",
+      "evidenceType": "重要性比较与馆级边界判断",
+      "sourceOrBasis": "research-card.md 五维判断；test-spec.md 的 Frye 72 分边界",
+      "confidence": "高：正文使用‘重要藏品’，没有提出唯一性或全球最高级。",
+      "verdict": "保留"
+    },
+    {
+      "sentence": "截至 2026 年 7 月 22 日未列入 On View。",
+      "evidenceType": "带日期的易变馆方状态",
+      "sourceOrBasis": "research-card.md",
+      "confidence": "高但易变：正文已给核验日期，并在事实边界提醒现场状态可能变化。",
+      "verdict": "保留日期限定"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这件作品把一句关于身体的话写在蓝白交界上，让读字和辨认空间变成同一件事，而看不清下方究竟是什么，正好保住了它的张力。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "notes": "标题、快层与四段深层可连续口头复述；主语和因果完整，没有依赖密集短句或抽象术语推进。"
+  },
+  "productionLanguageScan": {
+    "scope": ["card.txt 的访客文案", "draft.md 的可见正文"],
+    "internalGapLanguage": false,
+    "imageLicenseTaskLanguage": false,
+    "publicationTaskLanguage": false,
+    "testLanguage": false,
+    "promptLanguage": false,
+    "generatorLanguage": false,
+    "reviewerLanguage": false,
+    "migrationLanguage": false,
+    "verdict": "clean"
+  },
+  "significanceReview": {
+    "label": "重要藏品",
+    "fiveDimensionsCovered": true,
+    "nearestComparatorNamed": "Hopinka 的影像／文本作品",
+    "decisiveDifference": "静态、近方形的 Dibond 打印让文字沿蓝色边界运行。",
+    "collectionRole": "扩展 Frye 的语言、地景与原住民当代作者线。",
+    "rarityBoundary": "没有声称唯一、最早、巅峰或全球不可替代。",
+    "museumScoreBoundary": "正文明确不把作品抬高为改变 Frye 72 分旅行定位的稀世孤品。",
+    "verdict": "ready for independent significance check"
+  },
+  "voiceSelfAssessment": {
+    "candidateOnly": true,
+    "scores": {
+      "entry": 2,
+      "causality": 2,
+      "people": 1,
+      "turn": 2,
+      "visualPayoff": 2,
+      "spokenClarity": 2,
+      "secondLook": 2
+    },
+    "total": 13,
+    "notes": "‘人’维度只给 1 分，因为本作的推进主要依赖语言、材料与观看机制，不宜为凑分虚构人物选择。此分数仅为作者候选意见。"
+  },
+  "unresolvedRisks": [
+    "研究卡未单列参观优先级；正文采用‘强烈推荐’是依据 4/5 现场可读性、5/5 馆藏叙事与入选 20 件名单作出的编辑判断，需独立审读确认。",
+    "研究卡只提供英文长题名的省略写法，正文中文名为编辑翻译并继续保留省略号；若正式登记要求完整长题名，需由更完整的馆方题名记录核对。",
+    "作者地区行沿用研究卡中的 Ho-Chunk Nation / Pechanga Band of Luiseño Indians 归属；正式展示时应确认产品对原住民族归属的统一标点与中文呈现。",
+    "On View 状态只对应 2026 年 7 月 22 日快照，访客到馆前仍需查看馆方实时页面。",
+    "馆方对象页摄影与图片复用授权未确认；该事项仅留在内部记录，不进入访客文案。"
+  ],
+  "authorDecision": "正文与卡片已完成作者侧依赖、断言、朗读、生产语言和重要性检查；交由未参与写作的独立审读者裁决。"
+}

@@ -1,0 +1,48 @@
+{
+  "runId": "m28-6-vienna-author-vienna-kk-08-bellerophon-pegasus-2026-07-24",
+  "startedAt": "2026-07-24T07:30:03.829Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card",
+  "museumId": "vienna",
+  "workId": "vienna-kk-08-bellerophon-pegasus",
+  "workIdentity": {
+    "artistOrCulture": "贝尔托尔多·迪·乔瓦尼 Bertoldo di Giovanni；阿德里亚诺·菲奥伦蒂诺铸造",
+    "title": "柏勒洛丰驯服珀伽索斯",
+    "titleEn": "Bellerophon Taming Pegasus",
+    "museum": "Kunsthistorisches Museum Vienna"
+  },
+  "pipelineVersion": "2.4.8",
+  "instructionVersion": "2.0.2",
+  "inputContractVersion": 1,
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "465e7a2ce500057a139dbb64ff9df36755a6525a1f3a960e90fa0263a572ebfe"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-03/vienna-kk-08-bellerophon-pegasus-research-card.md",
+      "role": "research_card",
+      "sha256": "c358f5c0f17df9b396ee5b4adac04cd24ea7889fd88a9d6bb50b564d64c5c14a"
+    },
+    {
+      "path": "research/m28-6/vienna/works/vienna-kk-08-bellerophon-pegasus/work-context.json",
+      "role": "work_context",
+      "sha256": "e0153773d43e554fa2377ac6c355dcaa51ea5e81fb78505fe0d92a7ee15d115a"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

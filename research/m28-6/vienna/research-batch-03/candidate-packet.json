@@ -1,0 +1,246 @@
+{
+  "schemaVersion": "museum-research-packet/1.0",
+  "museum": {
+    "museumId": "vienna",
+    "nameZh": "维也纳艺术史博物馆",
+    "nameEn": "Kunsthistorisches Museum Vienna",
+    "location": "Maria-Theresien-Platz, Vienna, Austria",
+    "scopeType": "single_building"
+  },
+  "poolDecision": {
+    "status": "candidate_pool_complete",
+    "targetCount": 40,
+    "candidateCount": 40,
+    "selectionStatus": "not_selected",
+    "ratingStatus": "not_started",
+    "principle": "候选池按主馆五个常设收藏与馆舍空间建立；每项须能回答一个本馆独有问题，并有馆方一手页面支持身份或空间边界。本文件不预判正式入选、参观优先级、重要性、稀世珍品或评分。",
+    "allocation": {
+      "picture_gallery": 16,
+      "kunstkammer": 8,
+      "greek_roman_antiquities": 6,
+      "egyptian_near_eastern": 5,
+      "coin_cabinet": 2,
+      "building_integrated_display": 3
+    }
+  },
+  "candidates": [
+    {
+      "candidateId": "vienna-kk-05-rudolf-ii-bust",
+      "collection": "kunstkammer",
+      "type": "sculpture",
+      "nameZh": "皇帝鲁道夫二世胸像",
+      "nameEn": "Emperor Rudolf II",
+      "makerOrCulture": "阿德里安·德·弗里斯 Adriaen de Vries",
+      "date": "1603",
+      "identityBasis": "馆方对象页标示艺术珍宝馆第 XXVII 厅在展，签名纪年和人物身份明确。",
+      "candidateReason": "由皇帝的宫廷雕塑家制作，并直接回应鲁道夫收藏的查理五世胸像，可解释收藏、模仿与王权形象的循环。",
+      "museumQuestionAdded": "收藏家如何用一件新肖像把自己放进祖先与帝国权威的视觉谱系？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_KK_RUDOLF"
+      ]
+    },
+    {
+      "candidateId": "vienna-kk-06-dragon-bowl",
+      "collection": "kunstkammer",
+      "type": "precious_stone_vessel",
+      "nameZh": "贝壳形碗（龙碗）",
+      "nameEn": "Shell-shaped Bowl, so-called Dragon Bowl",
+      "makerOrCulture": "加斯帕罗·米塞罗尼 Gasparo Miseroni",
+      "date": "约 1565/1570",
+      "identityBasis": "馆方对象页标示艺术珍宝馆第 XXVIII 厅在展，作者、材料和年代稳定。",
+      "candidateReason": "青金石、金与宝石共同体现稀贵天然材料如何经少数专业工匠转化为王侯珍藏。",
+      "museumQuestionAdded": "艺术珍宝馆为何把艰难加工的天然材料看作知识、财富与技艺的共同证明？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_KK_DRAGON"
+      ]
+    },
+    {
+      "candidateId": "vienna-kk-07-rock-crystal-pyramid",
+      "collection": "kunstkammer",
+      "type": "precious_stone_vessel",
+      "nameZh": "水晶金字塔",
+      "nameEn": "Rock Crystal Pyramid",
+      "makerOrCulture": "迪奥尼西奥·米塞罗尼 Dionysio Miseroni",
+      "date": "1653",
+      "identityBasis": "馆方对象页标示艺术珍宝馆第 XXII 厅在展，并称其为作者最高杰作和唯一签名纪年作品。",
+      "candidateReason": "复杂器形来自对一整块大水晶的连续切削，能独立解释珍宝馆的材料风险与技术炫示。",
+      "museumQuestionAdded": "当原料不能失败重来时，器形怎样记录工匠的规划、风险和控制？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_KK_CRYSTAL"
+      ]
+    },
+    {
+      "candidateId": "vienna-kk-08-bellerophon-pegasus",
+      "collection": "kunstkammer",
+      "type": "bronze_statuette",
+      "nameZh": "柏勒洛丰驯服珀伽索斯",
+      "nameEn": "Bellerophon Taming Pegasus",
+      "makerOrCulture": "贝尔托尔多·迪·乔瓦尼 Bertoldo di Giovanni；阿德里亚诺·菲奥伦蒂诺铸造",
+      "date": "约 1481/1482",
+      "identityBasis": "馆方对象页标示艺术珍宝馆第 XXXIV 厅在展，模型作者、铸造者与签名均有记录。",
+      "candidateReason": "馆方将其列为文艺复兴最早且最著名的小型青铜之一，补足珍宝馆的人文主义古典复兴线。",
+      "museumQuestionAdded": "小型青铜为何会成为可从多面把玩、讨论古典故事与艺术家身份的新收藏类型？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_KK_BELLEROPHON"
+      ]
+    },
+    {
+      "candidateId": "vienna-ant-01-gemma-augustea",
+      "collection": "greek_roman_antiquities",
+      "type": "cameo",
+      "nameZh": "奥古斯都宝石",
+      "nameEn": "Gemma Augustea",
+      "makerOrCulture": "罗马，早期帝国时期",
+      "date": "公元 9–12 年",
+      "identityBasis": "馆方对象页标示古物馆第 XVI 厅在展，材质、年代、图像人物和哈布斯堡收藏史明确。",
+      "candidateReason": "馆方称其为维也纳古物收藏最重要的古代浮雕宝石，以两层图像塑造奥古斯都与提比略的胜利和继承。",
+      "museumQuestionAdded": "一块随身尺度的宝石怎样把皇位继承、战争胜利与神化秩序压进两层图像？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_ANT_GEMMA"
+      ]
+    },
+    {
+      "candidateId": "vienna-ant-02-nagyszentmiklos-treasure",
+      "collection": "greek_roman_antiquities",
+      "type": "treasure_group",
+      "nameZh": "纳吉圣米克洛什金宝藏",
+      "nameEn": "Gold Treasure of Nagyszentmiklós",
+      "makerOrCulture": "迁徙时期／中世纪早期，多文化归属待研究卡细化",
+      "date": "约 7–9 世纪",
+      "identityBasis": "馆方古物馆常设页把该宝藏作为使收藏跻身同类最佳的三项核心之一，并明确归入主馆古物收藏。",
+      "candidateReason": "以成组金器代表馆藏的迁徙时期与中世纪早期宝藏强项，不能由单件希腊罗马雕刻替代。",
+      "museumQuestionAdded": "成组金器如何保存跨地域权力、宴饮和工艺交流，而其文化归属又为何需要谨慎处理？",
+      "availabilityEvidence": "collection_rotation",
+      "sourceRefs": [
+        "S_ANT_OVERVIEW"
+      ]
+    },
+    {
+      "candidateId": "vienna-ant-03-brygos-skyphos",
+      "collection": "greek_roman_antiquities",
+      "type": "painted_vessel",
+      "nameZh": "布里戈斯大杯：普里阿摩斯赎回赫克托耳遗体",
+      "nameEn": "Brygos Skyphos: The Ransom of Hector",
+      "makerOrCulture": "布里戈斯陶工坊／布里戈斯画家，古希腊",
+      "date": "约公元前 490 年",
+      "identityBasis": "馆方对象页记录器形、题材、年代、出土地、尺寸和馆藏编号；古物馆页将其列为花瓶收藏代表作。",
+      "candidateReason": "以罕见的大型器形和接近《伊利亚特》第 24 卷的安静叙事，代表本馆希腊彩陶强项。",
+      "museumQuestionAdded": "希腊瓶画怎样不用连续文字，把战争英雄叙事转向老人请求归还儿子遗体的克制场面？",
+      "availabilityEvidence": "display_status_unknown",
+      "sourceRefs": [
+        "S_ANT_BRYGOS",
+        "S_ANT_OVERVIEW"
+      ]
+    },
+    {
+      "candidateId": "vienna-ant-04-bacchanalia-decree",
+      "collection": "greek_roman_antiquities",
+      "type": "inscription",
+      "nameZh": "元老院关于酒神祭仪的决议",
+      "nameEn": "Senatus Consultum de Bacchanalibus",
+      "makerOrCulture": "古罗马",
+      "date": "公元前 186 年",
+      "identityBasis": "馆方对象页标示古物馆第 XII 厅在展，原件编号、发现史与展示副本边界均有记录。",
+      "candidateReason": "馆方称其为现存最早的拉丁文元老院决议文本，并说明这是该法令唯一存世副本。",
+      "museumQuestionAdded": "罗马国家如何把对秘密宗教集会的恐惧转化为公开发布、处罚与地方执行的文字程序？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_ANT_BACCHANALIA"
+      ]
+    },
+    {
+      "candidateId": "vienna-ant-05-amazon-sarcophagus",
+      "collection": "greek_roman_antiquities",
+      "type": "sarcophagus",
+      "nameZh": "亚马孙之战石棺",
+      "nameEn": "Sarcophagus with Fighting Amazons",
+      "makerOrCulture": "古典时代地中海文化，具体归属待单件研究卡核实",
+      "date": "待单件研究卡核实",
+      "identityBasis": "馆方古物馆常设页反复以稳定英文题名列为重点，并记录其在 17 世纪已进入哈布斯堡收藏。",
+      "candidateReason": "补足古物馆的大型葬葬雕刻与战斗叙事线，并能解释早期哈布斯堡古物收藏。",
+      "museumQuestionAdded": "大型石棺怎样把神话战斗转化为围绕死者展开的连续纪念图像？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_ANT_OVERVIEW"
+      ]
+    },
+    {
+      "candidateId": "vienna-ant-06-theseus-mosaic",
+      "collection": "greek_roman_antiquities",
+      "type": "mosaic_integrated_display",
+      "nameZh": "忒修斯马赛克",
+      "nameEn": "Theseus Mosaic",
+      "makerOrCulture": "古罗马，发现于萨尔茨堡附近别墅",
+      "date": "待单件研究卡核实",
+      "identityBasis": "馆方古物馆页将其列为重点；馆舍专题确认它被嵌入主馆古物展厅的大理石地面。",
+      "candidateReason": "对象与 1891 年馆舍展示技术直接结合，可把古代住宅地面、考古迁移与历史主义博物馆空间放在同一问题中。",
+      "museumQuestionAdded": "当古代马赛克被嵌入十九世纪博物馆地面，原始建筑功能与现代展示如何叠在一起？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_ANT_OVERVIEW",
+        "S_BUILDING"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S_KK_RUDOLF",
+      "title": "Emperor Rudolf II",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/emperor-rudolf-ii-91513"
+    },
+    {
+      "id": "S_KK_DRAGON",
+      "title": "Shell-shaped Bowl, so-called Dragon Bowl",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/shell-shaped-bowl-so-called-dragon-bowl-87856"
+    },
+    {
+      "id": "S_KK_CRYSTAL",
+      "title": "Rock Crystal Pyramid",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/bergkristall-pyramide-580539"
+    },
+    {
+      "id": "S_KK_BELLEROPHON",
+      "title": "Bellerophon Taming Pegasus",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/bellerophon-taming-pegasus-91603"
+    },
+    {
+      "id": "S_ANT_OVERVIEW",
+      "title": "Collection of Greek and Roman Antiquities – 3,000 years of art",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/visit/collections/collection-of-greek-and-roman-antiquities/selected-masterpieces"
+    },
+    {
+      "id": "S_ANT_GEMMA",
+      "title": "Gemma Augustea",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/gemma-augustea-59171"
+    },
+    {
+      "id": "S_ANT_BRYGOS",
+      "title": "The Ransom of Hector",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/hektors-loesung-56696-1"
+    },
+    {
+      "id": "S_ANT_BACCHANALIA",
+      "title": "Senatus Consultum de Bacchanalibus",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/senatus-consultum-de-bacchanalibus-52468"
+    },
+    {
+      "id": "S_BUILDING",
+      "title": "The Kunsthistorisches Museum – a Gesamtkunstwerk",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/exhibitions/the-kunsthistorisches-museum-gesamtkunstwerk"
+    }
+  ]
+}

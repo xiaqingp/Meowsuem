@@ -1,0 +1,410 @@
+{
+  "museumId": "muxin",
+  "museumName": {
+    "zh": "木心美术馆",
+    "en": "Mu Xin Art Museum"
+  },
+  "location": "乌镇，浙江，中国",
+  "score": 77,
+  "scoreBand": "70–79 · 可去可不去",
+  "withinBandAnchor": "76–77",
+  "travelAction": "同城优先级较高：已经到乌镇、愿意用半天理解木心的文学与绘画时值得主动安排；不建议仅为本馆单独前往乌镇。",
+  "dedicatedTrip": false,
+  "rareAssets": [],
+  "capacity": 20,
+  "museumMainline": "这不是靠一件世界名作成立的馆，而是一条由监禁文献、完整文学稿本、早晚期纸本绘画、影像与跨水馆舍共同构成的个人创作保存线。参观的核心，是看同一个人怎样在受限纸张、固定诗形、微型风景和建筑空间中反复处理“作品如何被留下、又如何被观看”。",
+  "readerDecision": {
+    "bestFor": [
+      "已经到乌镇，并愿意给木心的文学与绘画至少90分钟的人",
+      "对手稿、版本、单一艺术家美术馆或水上建筑感兴趣的人",
+      "愿意接受作品轮换，并把看不到某一页视为保存边界的人"
+    ],
+    "limitations": [
+      "全部候选均未通过稀世珍品的不可替代性硬门，不能把本馆写成决定城市旅行的目的地",
+      "大量稿本与绘画只确认曾展出、轮换或纳入常设陈列框架，不能承诺当天可见",
+      "多件晚期狭长纸本回答相近问题，完整浏览时需要按序列比较，不能逐件都当作独立高峰",
+      "部分对象没有可靠单件图，页面应使用馆舍占位图，并明确标注非作品图"
+    ]
+  },
+  "chapters": [
+    {
+      "chapterId": "ch01",
+      "title": "一张本该写检查的纸，怎样变成秘密写作？",
+      "question": "纸张的制度用途、双面密写、藏匿与今天的轮换展示，怎样共同解释《狱中笔记》的价值？",
+      "role": "全馆历史与保存主轴",
+      "workIds": [
+        "muxin-c01"
+      ],
+      "keyTakeaway": "最重要的不是把监禁经历讲成传奇，而是理解纸从强制自我检查的工具变成秘密写作载体后，字迹密度、双面书写、损耗和轮换展示为何连成一条因果线。"
+    },
+    {
+      "chapterId": "ch02",
+      "title": "一本书出版以前，稿本还能告诉我们什么？",
+      "question": "完整稿本、初稿、悼文原稿与出版本之间，哪些差异真的能从现有证据确认？",
+      "role": "文学稿本与版本线",
+      "workIds": [
+        "muxin-c02",
+        "muxin-c03",
+        "muxin-c04",
+        "muxin-c05",
+        "muxin-c09",
+        "muxin-c10",
+        "muxin-r01"
+      ],
+      "keyTakeaway": "馆方保存的具名稿本让文学从书架回到亲笔对象，但观看回报并不相同：有的能确认固定诗形或版本距离，有的目前只能确认题名、收藏框架或特展角色。"
+    },
+    {
+      "chapterId": "ch03",
+      "title": "晚年小画之前，木心的纸本绘画是什么尺度？",
+      "question": "20世纪70年代较大、较具象或近方形的作品，怎样为晚期微型风景提供必要对照？",
+      "role": "早期绘画、人物与师承语境",
+      "workIds": [
+        "muxin-c14",
+        "muxin-r06"
+      ],
+      "keyTakeaway": "《渔村》和无题人物画不能单独证明风格转折，却能避免把木心的绘画压缩成晚年狭长风景一种样子。"
+    },
+    {
+      "chapterId": "ch04",
+      "title": "为什么这些风景越来越小、越来越长？",
+      "question": "从1991年到2004年的具名纸本与晚年微型组，如何用比例、题名、序列和有限的对象证据展开比较？",
+      "role": "晚期绘画主线",
+      "workIds": [
+        "muxin-r02",
+        "muxin-c11",
+        "muxin-r03",
+        "muxin-r04",
+        "muxin-c12",
+        "muxin-c13",
+        "muxin-c15"
+      ],
+      "keyTakeaway": "单件之间高度可比，真正的观看回报来自连续比较年代、比例和题名；《生与死》的白点口述提供对象专属入口，三十二幅晚年微型组则承担序列价值。"
+    },
+    {
+      "chapterId": "ch05",
+      "title": "画之外，木心怎样被设计和记录？",
+      "question": "一张未来画册封面和一部晚年纪录片，分别怎样塑造作品的公开形象与博物馆入口？",
+      "role": "出版设计与影像补充",
+      "workIds": [
+        "muxin-r05",
+        "muxin-r07"
+      ],
+      "keyTakeaway": "封面设计稿把木心放到自己作品的出版设计者位置；纪录片则是后来的影像记录和序馆材料，不能与木心亲自创作的作品混为一谈。"
+    },
+    {
+      "chapterId": "ch06",
+      "title": "为什么看木心，要在水面、缝隙和天光之间走？",
+      "question": "分开的混凝土展厅、街道式连接、水面与下沉层，怎样改变作品之间的停顿？",
+      "role": "建筑与现场收束",
+      "workIds": [
+        "muxin-c20"
+      ],
+      "keyTakeaway": "馆舍不是额外装饰：每次离开展厅重新遇见水、院落或光，都会把连续阅读切成停顿。不过建筑只计作一项整体，不能再拆成多条珍品线重复抬分。"
+    }
+  ],
+  "coldButWorth": [
+    {
+      "workId": "muxin-r05",
+      "whyLessNoticed": "它不是木心最常被提及的文学稿本或微型风景，而且年代与拟议画册仍未知。",
+      "whyWorthIt": "用途明确的封面设计稿把问题从“木心画了什么”转向“他怎样预想自己的画被出版和观看”。",
+      "whyTakeTimeFromFamousWorks": "它补足馆内绘画、文学之外的设计维度，观看回报不与狭长风景重复。"
+    },
+    {
+      "workId": "muxin-r06",
+      "whyLessNoticed": "作品无正式题名，人物身份与画面细节也未公开确认。",
+      "whyWorthIt": "它提供候选中少见的20世纪70年代具象人物或肖像题材，纠正“木心绘画只有晚期风景”的过度简化。",
+      "whyTakeTimeFromFamousWorks": "它与《渔村》一起建立早期尺度和题材对照，使后面的微型风景变化更容易理解。"
+    },
+    {
+      "workId": "muxin-r01",
+      "whyLessNoticed": "手稿阶段、年代和删改都未确认，不能靠物质细节吸引注意。",
+      "whyWorthIt": "具名文章把木心青年时期的上海美专经历、后来的回忆性散文和文学馆展示连在一起。",
+      "whyTakeTimeFromFamousWorks": "它补充的是美术教育如何变成文学记忆，而不是再重复一部诗集稿本。"
+    }
+  ],
+  "routes": {
+    "ninetyMinutes": {
+      "title": "90分钟：抓住保存、绘画与空间三条线",
+      "strategy": "只保留能解释评分与馆级主线的节点；文学稿本和绘画如未展出，按同章可见对象替换，不等待指定页面。",
+      "orderedStops": [
+        {
+          "workId": "muxin-c20",
+          "minutes": 15,
+          "purpose": "先理解展厅、水面、缝隙与天光怎样切分参观节奏。"
+        },
+        {
+          "workId": "muxin-c01",
+          "minutes": 15,
+          "purpose": "用《狱中笔记》建立全馆最专属的制度、材料与保存关系。"
+        },
+        {
+          "workId": "muxin-c02",
+          "minutes": 10,
+          "purpose": "以《诗经演》理解完整稿本与固定十四行结构；若未展，改看同章当日可见的具名稿本。"
+        },
+        {
+          "workId": "muxin-c14",
+          "minutes": 10,
+          "purpose": "用较大近方形的早期纸本建立晚期小画之前的尺度参照。"
+        },
+        {
+          "workId": "muxin-r02",
+          "minutes": 8,
+          "purpose": "从1991年的极狭长纸本进入晚期序列；未展时以《晴风》《早晨》或《战争前夜》替换。"
+        },
+        {
+          "workId": "muxin-c12",
+          "minutes": 10,
+          "purpose": "通过深色体块、微小白点和作者口述转述，获得一件对象专属的深入观看。"
+        },
+        {
+          "workId": "muxin-c15",
+          "minutes": 12,
+          "purpose": "用晚年微型风景组理解序列价值；若只展部分，就把可见部分当作组的节选。"
+        }
+      ],
+      "bufferMinutes": 10,
+      "activelySkip": [
+        "《巴珑》《双重悲悼》《战后嘉年华》等证据或当前可见性较弱的稿本",
+        "逐件看完所有相近的狭长纸本",
+        "完整35分钟纪录片"
+      ]
+    },
+    "halfDay": {
+      "title": "半天：把文学与绘画放回同一条创作线",
+      "strategy": "按建筑—监禁文献—诗歌稿本—版本与记忆—早期绘画—晚期序列—设计与影像推进，中途在水边或连接空间休息。",
+      "orderedWorkIds": [
+        "muxin-c20",
+        "muxin-c01",
+        "muxin-c02",
+        "muxin-c03",
+        "muxin-c05",
+        "muxin-c09",
+        "muxin-c10",
+        "muxin-c14",
+        "muxin-r06",
+        "muxin-r02",
+        "muxin-c11",
+        "muxin-r03",
+        "muxin-c12",
+        "muxin-c15",
+        "muxin-r05",
+        "muxin-r07"
+      ],
+      "optionalIfVisible": [
+        "muxin-c04",
+        "muxin-r01",
+        "muxin-r04",
+        "muxin-c13"
+      ],
+      "restPoint": "完成文学馆后，在连接展厅的水边、庭院或有自然光的路径停一次，再进入绘画序列。"
+    },
+    "complete": {
+      "title": "完整浏览：20个节点分两轮看",
+      "strategy": "第一轮建立主线，第二轮补比较对象与媒介边界；不把20项写成当天必然全部可见的清单。",
+      "sessions": [
+        {
+          "title": "第一轮：决定本馆价值的核心节点",
+          "orderedWorkIds": [
+            "muxin-c20",
+            "muxin-c01",
+            "muxin-c02",
+            "muxin-c03",
+            "muxin-c05",
+            "muxin-c09",
+            "muxin-c14",
+            "muxin-r06",
+            "muxin-r02",
+            "muxin-c11",
+            "muxin-c12",
+            "muxin-c15"
+          ]
+        },
+        {
+          "title": "第二轮：版本、近邻比较、设计与影像",
+          "orderedWorkIds": [
+            "muxin-c04",
+            "muxin-c10",
+            "muxin-r01",
+            "muxin-r03",
+            "muxin-r04",
+            "muxin-c13",
+            "muxin-r05",
+            "muxin-r07"
+          ]
+        }
+      ],
+      "availabilityRule": "除固定馆舍外，其余对象均须以馆方当日展讯和现场展签为准；未展对象不跨区域折返追找，只在所属章节中选择可见替代。",
+      "imageRule": "使用馆舍占位图的对象不能凭占位图进行视觉判断。"
+    }
+  },
+  "workPlacement": [
+    {
+      "workId": "muxin-c01",
+      "chapterId": "ch01",
+      "priority": "绝对不可错过",
+      "significance": "重要藏品",
+      "availability": "collection_rotation",
+      "imagePolicy": "museum_hero_placeholder"
+    },
+    {
+      "workId": "muxin-c02",
+      "chapterId": "ch02",
+      "priority": "强烈推荐",
+      "significance": "重要藏品",
+      "availability": "collection_rotation",
+      "imagePolicy": "museum_hero_placeholder"
+    },
+    {
+      "workId": "muxin-c03",
+      "chapterId": "ch02",
+      "priority": "强烈推荐",
+      "significance": "重要藏品",
+      "availability": "collection_rotation",
+      "imagePolicy": "museum_hero_placeholder"
+    },
+    {
+      "workId": "muxin-c04",
+      "chapterId": "ch02",
+      "priority": "时间充裕再看",
+      "significance": "特色看点",
+      "availability": "collection_rotation",
+      "imagePolicy": "museum_hero_placeholder"
+    },
+    {
+      "workId": "muxin-c05",
+      "chapterId": "ch02",
+      "priority": "强烈推荐",
+      "significance": "重要藏品",
+      "availability": "collection_rotation",
+      "imagePolicy": "museum_hero_placeholder"
+    },
+    {
+      "workId": "muxin-c09",
+      "chapterId": "ch02",
+      "priority": "时间充裕再看",
+      "significance": "重要藏品",
+      "availability": "previously_exhibited_current_unknown",
+      "imagePolicy": "museum_hero_placeholder"
+    },
+    {
+      "workId": "muxin-c10",
+      "chapterId": "ch02",
+      "priority": "时间充裕再看",
+      "significance": "重要藏品",
+      "availability": "previously_exhibited_current_unknown",
+      "imagePolicy": "museum_hero_placeholder"
+    },
+    {
+      "workId": "muxin-c11",
+      "chapterId": "ch04",
+      "priority": "强烈推荐",
+      "significance": "重要藏品",
+      "availability": "previously_exhibited_current_unknown",
+      "imagePolicy": "object_image"
+    },
+    {
+      "workId": "muxin-c12",
+      "chapterId": "ch04",
+      "priority": "强烈推荐",
+      "significance": "重要藏品",
+      "availability": "previously_exhibited_current_unknown",
+      "imagePolicy": "object_image"
+    },
+    {
+      "workId": "muxin-c13",
+      "chapterId": "ch04",
+      "priority": "强烈推荐",
+      "significance": "重要藏品",
+      "availability": "previously_exhibited_current_unknown",
+      "imagePolicy": "object_image"
+    },
+    {
+      "workId": "muxin-c14",
+      "chapterId": "ch03",
+      "priority": "强烈推荐",
+      "significance": "重要藏品",
+      "availability": "previously_exhibited_current_unknown",
+      "imagePolicy": "object_image"
+    },
+    {
+      "workId": "muxin-c15",
+      "chapterId": "ch04",
+      "priority": "绝对不可错过",
+      "significance": "重要藏品",
+      "availability": "previously_exhibited_current_unknown",
+      "imagePolicy": "museum_hero_placeholder"
+    },
+    {
+      "workId": "muxin-c20",
+      "chapterId": "ch06",
+      "priority": "绝对不可错过",
+      "significance": "特色看点",
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image"
+    },
+    {
+      "workId": "muxin-r01",
+      "chapterId": "ch02",
+      "priority": "时间充裕再看",
+      "significance": "特色看点",
+      "availability": "previously_exhibited_current_unknown",
+      "imagePolicy": "museum_hero_placeholder"
+    },
+    {
+      "workId": "muxin-r02",
+      "chapterId": "ch04",
+      "priority": "强烈推荐",
+      "significance": "重要藏品",
+      "availability": "previously_exhibited_current_unknown",
+      "imagePolicy": "object_image"
+    },
+    {
+      "workId": "muxin-r03",
+      "chapterId": "ch04",
+      "priority": "强烈推荐",
+      "significance": "重要藏品",
+      "availability": "previously_exhibited_current_unknown",
+      "imagePolicy": "object_image"
+    },
+    {
+      "workId": "muxin-r04",
+      "chapterId": "ch04",
+      "priority": "强烈推荐",
+      "significance": "重要藏品",
+      "availability": "previously_exhibited_current_unknown",
+      "imagePolicy": "object_image"
+    },
+    {
+      "workId": "muxin-r05",
+      "chapterId": "ch05",
+      "priority": "强烈推荐",
+      "significance": "特色看点",
+      "availability": "previously_exhibited_current_unknown",
+      "imagePolicy": "object_image"
+    },
+    {
+      "workId": "muxin-r06",
+      "chapterId": "ch03",
+      "priority": "强烈推荐",
+      "significance": "重要藏品",
+      "availability": "previously_exhibited_current_unknown",
+      "imagePolicy": "object_image"
+    },
+    {
+      "workId": "muxin-r07",
+      "chapterId": "ch05",
+      "priority": "时间充裕再看",
+      "significance": "体验补充",
+      "availability": "previously_exhibited_current_unknown",
+      "imagePolicy": "museum_hero_placeholder"
+    }
+  ],
+  "integrationBoundaries": {
+    "ratingFrozen": true,
+    "scoreExplanation": "本馆有十五项重要藏品，但没有任何对象通过稀世珍品硬门；建筑、服务和现场体验不帮助跨档。",
+    "visibility": "馆藏、曾展出与当天在展必须分开表达；路线是编辑顺序，不是实时导航。",
+    "parentChild": "晚年微型风景画组不得与其可能包含的具名单件重复计作独立珍品线。",
+    "publication": "whole_museum_candidate_no_production_write"
+  }
+}

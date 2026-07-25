@@ -1,0 +1,193 @@
+{
+  "artifactType": "independent_review",
+  "workId": "judgment-paris",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "reviewerIndependence": "Fresh independent reviewer; did not participate in authoring and used only the nine explicitly authorized inputs.",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "1d4ad66e58ff1be2158c092fb4d3e565b08f641dc66127bc1af43105d11c26af"
+  },
+  "artifactHashes": {
+    "research-card.md": "f94156ef75cfac009d4347e282a4d0d13a6573496b9e66a218e9d407405c2154",
+    "writing-plan.json": "9751b5cb8b06c70fbea8ce5628764a02c96b5ee5f58fa0fa7542740100b83687",
+    "card.txt": "a1f11363e001f0ccb77287b3aa3646927f53c685bc109d2c8c71e47a68844e98",
+    "draft.md": "1d4ad66e58ff1be2158c092fb4d3e565b08f641dc66127bc1af43105d11c26af"
+  },
+  "upstreamChainVerification": {
+    "verdict": "PASS",
+    "complete": true,
+    "links": [
+      {
+        "artifact": "research-card.md",
+        "declaredDirectUpstream": "../../batch-01/source-pack.md",
+        "declaredSha256": "1b14092fcb94d8fc908227917e92dabf0175f01cb5e1853b2d42d724ecd66e3e",
+        "actualSha256": "1b14092fcb94d8fc908227917e92dabf0175f01cb5e1853b2d42d724ecd66e3e",
+        "matches": true
+      },
+      {
+        "artifact": "writing-plan.json",
+        "declaredDirectUpstream": "research-card.md",
+        "declaredSha256": "f94156ef75cfac009d4347e282a4d0d13a6573496b9e66a218e9d407405c2154",
+        "actualSha256": "f94156ef75cfac009d4347e282a4d0d13a6573496b9e66a218e9d407405c2154",
+        "matches": true
+      },
+      {
+        "artifact": "card.txt",
+        "declaredDirectUpstream": "writing-plan.json",
+        "declaredSha256": "9751b5cb8b06c70fbea8ce5628764a02c96b5ee5f58fa0fa7542740100b83687",
+        "actualSha256": "9751b5cb8b06c70fbea8ce5628764a02c96b5ee5f58fa0fa7542740100b83687",
+        "matches": true
+      },
+      {
+        "artifact": "draft.md",
+        "declaredDirectUpstream": "card.txt",
+        "declaredSha256": "a1f11363e001f0ccb77287b3aa3646927f53c685bc109d2c8c71e47a68844e98",
+        "actualSha256": "a1f11363e001f0ccb77287b3aa3646927f53c685bc109d2c8c71e47a68844e98",
+        "matches": true
+      }
+    ]
+  },
+  "mechanicalChecks": {
+    "cardVisibleCharacters": 53,
+    "cardRequiredRange": "24-100",
+    "cardRangePassed": true,
+    "quickVisibleCharacters": 142,
+    "quickRequiredRange": "70-240",
+    "quickRangePassed": true,
+    "deepVisibleCharacters": 856,
+    "deepRequiredMinimum": 320,
+    "deepRangePassed": true,
+    "observableDetailCount": 5,
+    "observableDetailMinimum": 4,
+    "observableDetailsPassed": true,
+    "requiredMetadataPassed": true,
+    "requiredSectionsPassed": true,
+    "clickableSourcesPassed": true,
+    "negationContrastSkeletonsOutsideFactBoundary": 0,
+    "mechanicalVerdict": "PASS"
+  },
+  "claimAudit": {
+    "verdict": "PASS",
+    "findings": [
+      "The 1923 date, late-career placement five years before Stuck's death, medium-level identity, Founding Collection status, and dated On View boundary remain within the supplied evidence.",
+      "The myth chain—three goddesses, Paris as judge, Aphrodite's promise of Helen, and the link to the Trojan War—matches the supplied Getty-backed evidence.",
+      "The attributed Athena and Hera clues are limited to the sourced staff, crown, and necklace; the prose does not invent a complete left-to-right identity order.",
+      "Paris's pose is not upgraded into hesitation, desire, fear, or another mental state.",
+      "The suspended-decision language is presented as an interpretation of spacing and viewing, while the fact boundary explicitly declines to fix an exact before-or-after instant or unique authorial intention.",
+      "The Rubens comparison, global-ranking limit, and Frye-specific role match the supplied comparison boundary without a numerical rarity claim or unsupported superlative."
+    ],
+    "unplannedHighRiskClaims": []
+  },
+  "layerIndependence": {
+    "verdict": "PASS",
+    "card": "Independently answers why to click through the contrast between war-scale consequences and the tense distance among four figures; it does not copy the quick layer or begin with a viewing command.",
+    "quick": "Independently supplies the visible one-versus-three arrangement, sufficient mythic causality, and a provisional answer about static comparison.",
+    "deep": "Remains intelligible without the quick layer: it rebuilds the conflict and consequence before developing spacing, shallow staging, career position, comparison, and collection significance.",
+    "nonDuplication": "The layers share the core question but perform distinct jobs rather than repeating the same sentences under new headings."
+  },
+  "paragraphDependency": {
+    "verdict": "PASS",
+    "analysis": [
+      {
+        "paragraph": 1,
+        "dependsOn": "The core question only.",
+        "newUnderstanding": "The still group becomes a consequence-bearing comparison because the mythic choice leads toward war.",
+        "breaksIfMovedEarlier": "This is the necessary historical foundation and already occupies the earliest deep position."
+      },
+      {
+        "paragraph": 2,
+        "dependsOn": "The reader knows why a comparison among these four figures matters.",
+        "newUnderstanding": "Spacing, shallow depth, costume clues, and the horizontal queue show how looking and judgment organize the scene.",
+        "breaksIfMovedEarlier": "Without the conflict and stakes, the arrangement would read as detached formal description."
+      },
+      {
+        "paragraph": 3,
+        "dependsOn": "The preceding paragraph has established the shallow stage, outlines, bodies, and intervals in this specific painting.",
+        "newUnderstanding": "Those features become a late-career Stuck method in which reduced action concentrates narrative pressure.",
+        "breaksIfMovedEarlier": "The career claim would become a generic style block before its visible evidence was established."
+      },
+      {
+        "paragraph": 4,
+        "dependsOn": "The story mechanism and Stuck-specific staging have both been established.",
+        "newUnderstanding": "Rubens supplies the nearest comparator, while the global, museum, and travel boundaries locate the work accurately as an important Frye holding.",
+        "breaksIfMovedEarlier": "Its decisive difference and collection role would lack the formal and career premises developed in paragraphs 2 and 3."
+      }
+    ]
+  },
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这幅画把一场后来会牵出战争的选择画得异常安静，人物之间的横向队列和空隙让观看本身变成裁决的压力，也说明它为什么在 Frye 的施图克收藏中重要、却不是足以改变旅行安排的世界级名作。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "readAloudEvidence": "标题的问题可自然复述；快层从位置反差进入神话后果；深层转折由‘知道前因后果以后’、‘在这里’和‘把它放进……这一类群像中’顺畅承接，未出现需要先解码的抽象标题或生硬名词堆叠。"
+  },
+  "significanceReview": {
+    "verdict": "PASS",
+    "label": "重要藏品",
+    "fiveDimensions": {
+      "artisticAchievement": "The shallow horizontal staging, clear outlines, intervals, and warm bodies against dark rock form a concrete mechanism for viewing and judgment.",
+      "artHistoricalPosition": "The draft places the work within the established Judgment of Paris tradition and explicitly declines to call it the subject's global high point.",
+      "historicalCulturalValue": "The work is accurately framed as a 1923 retelling of the mythic prehistory of the Trojan War, not evidence of ancient Greek life or the war itself.",
+      "rarityAndIrreplaceability": "No unsupported count or rarity claim is made; comparable works are acknowledged, and irreplaceability is restricted to the late group-stage function within Frye's Stuck holdings.",
+      "collectionPosition": "The comparison with the museum's Sin explains how this work extends a related stage mechanism from a single allegorical figure to a group structured by mutual viewing."
+    },
+    "nearestComparator": "Peter Paul Rubens's Judgment of Paris compositional tradition",
+    "sharedCore": "Paris, the three goddesses, viewing, and judgment.",
+    "decisiveDifference": "Stuck compresses the figures into a cooler, shallower, near-sculptural static horizontal queue rather than emphasizing the greater bodily turning, movement, and depth associated with the Rubens tradition.",
+    "nonSubstitutabilityBoundary": "Rubens and other versions can explain the same mythic core, so this is not globally non-substitutable. Within Frye, Sin cannot fully substitute for this work's late-career conversion of the stage mechanism into a group comparison among mutually viewed bodies.",
+    "travelBoundary": "The prose explicitly says the work merits extra minutes in the museum but cannot by itself alter a trip, consistent with Frye's locked score of 72."
+  },
+  "voiceScores": {
+    "entry": {
+      "score": 2,
+      "evidence": "‘双方之间那段空隙，比任何表情都更紧张’ immediately establishes a visible, work-specific tension rather than an encyclopedia opening."
+    },
+    "causality": {
+      "score": 2,
+      "evidence": "The promise of Helen leads to Paris's choice and the Trojan War; that consequence changes the quiet arrangement into ‘能够启动灾难的比较’."
+    },
+    "humanAgency": {
+      "score": 2,
+      "evidence": "The story remains legible through the goddesses' dispute, Aphrodite's promise, and Paris's assigned judgment without inventing anyone's psychology."
+    },
+    "turn": {
+      "score": 2,
+      "evidence": "‘知道前因后果以后，这份安静便有了重量’ is an evidence-based cognitive turn: stillness changes from absent action into pressure before consequences unfold."
+    },
+    "visualPayoff": {
+      "score": 2,
+      "evidence": "The myth and judgment return to the left-right split, empty interval, compressed rock wall, horizontal queue, costume clues, and warm bodies against dark gray."
+    },
+    "spokenClarity": {
+      "score": 2,
+      "evidence": "The prose reads naturally aloud, especially ‘动作越少，谁在看、谁被看、决定尚未落下的压力反而越集中’, while retaining the needed causal background."
+    },
+    "secondLook": {
+      "score": 2,
+      "evidence": "The ending asks the visitor to pause in the specific gap and then move across the four bodies, converting background emptiness into the painting's pressure point."
+    },
+    "total": 14,
+    "maximum": 14,
+    "threshold": 12,
+    "noZero": true,
+    "verdict": "PASS"
+  },
+  "mechanicalVerdict": "PASS",
+  "factBoundaryVerdict": "PASS",
+  "narrativeVerdict": "PASS",
+  "nativeChineseVerdict": "PASS",
+  "significanceVerdict": "PASS",
+  "workSpecificVerdict": "PASS",
+  "productionLanguageVerdict": "PASS",
+  "productionLanguageScan": {
+    "scope": [
+      "card.txt",
+      "draft.md"
+    ],
+    "findings": [],
+    "verdict": "PASS"
+  },
+  "actionableFailureReasons": [],
+  "finalVerdict": "PASS"
+}

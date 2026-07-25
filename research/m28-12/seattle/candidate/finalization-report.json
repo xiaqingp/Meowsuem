@@ -1,0 +1,27 @@
+{
+  "museumId": "seattle",
+  "completedAt": "2026-07-25T09:01:26.473Z",
+  "stages": [
+    {
+      "name": "assembly",
+      "seconds": 0.121
+    },
+    {
+      "name": "future-contract",
+      "seconds": 0.082
+    },
+    {
+      "name": "verification",
+      "seconds": 2.39
+    },
+    {
+      "name": "publication",
+      "seconds": 0.147
+    }
+  ],
+  "totalSeconds": 2.741,
+  "modelCalls": 0,
+  "modelTokens": 0,
+  "liveVerification": true,
+  "publicationMode": "publish"
+}

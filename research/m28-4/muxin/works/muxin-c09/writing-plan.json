@@ -1,0 +1,141 @@
+{
+  "workId": "muxin-c09",
+  "readerStartingPoint": "读者只从题名知道这是一份初稿；现有可靠资料没有提供可供逐页辨认的对象图，也不能预设读者了解它与后续稿、2006年出版文本的关系。",
+  "narrativeMainline": {
+    "valueType": "artist_landmark",
+    "mainline": "1986年初稿为《哥伦比亚的倒影》留下一个可纪年的早期文本状态，后续修改与二十年后的重新编订出版则把它变成木心长期推敲文字的版本证据。这个关系同时解释初稿为何值得保留、为何应与后续稿和出版文本比较，以及为何不能把连续书写的外观直接解释成一气呵成。",
+    "storyBeats": [
+      {
+        "beat": "先建立1986年初稿与2006年重新编订出版之间的时间距离。",
+        "evidence": [
+          "author-input-research.md#来源事实与局部因果",
+          "author-input-supplement.md#最近比较对象与断言边界"
+        ],
+        "newUnderstanding": "这件稿本的首要价值是保存一个可纪年的早期文本状态，而不是只展示名人笔迹。"
+      },
+      {
+        "beat": "再解释报道记载的载体与书写形式，并严格保留证据类型。",
+        "evidence": [
+          "author-input-research.md#零背景可确认材料",
+          "author-input-supplement.md#可靠对象图像与四项直接观察",
+          "author-input-supplement.md#对象级元数据"
+        ],
+        "newUnderstanding": "账目打印纸、逗号分句、不点句号和不分段属于来源记载的早期稿面特征，只能说明这一文本状态怎样被留下。"
+      },
+      {
+        "beat": "最后用最近比较对象与缺失的逐页校勘划清价值边界。",
+        "evidence": [
+          "author-input-research.md#比较与不可替代性",
+          "author-input-supplement.md#最近比较对象与断言边界"
+        ],
+        "newUnderstanding": "初稿足以作为重要的版本证据，但目前不能证明具体删改、独有句子或全球不可替代性。"
+      }
+    ]
+  },
+  "mustNotAssume": [
+    "不得假设木心一口气写完初稿，或从连续书写推断其心理和写作速度。",
+    "不得采用“二稿删减过半”或“定稿仅三百字”的说法。",
+    "不得断言初稿中哪些句子、段落或结构没有进入后续版本。",
+    "不得把2015年与2024年的展示记录写成永久收藏或当前一定在展。",
+    "不得从馆舍占位图描述稿页的颜色、字迹、尺寸、页数或具体布局。"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "初稿与2006年文本构成二十年的版本链。",
+      "evidenceType": "来源事实",
+      "allowedWording": "1986年初稿与二十年后重新编订出版的文本，构成一条可确认的版本线。",
+      "forbiddenUpgrade": "不得写成已完整还原二十年间每一次修改。"
+    },
+    {
+      "claim": "初稿无句号、不分段，并以逗号分句。",
+      "evidenceType": "来源记载，非本轮直接观察",
+      "allowedWording": "考察报道记载初稿以逗号分句、不点句号，也不分段。",
+      "forbiddenUpgrade": "不得写成肉眼已核对的全稿特征，也不得推出一气呵成。"
+    },
+    {
+      "claim": "初稿保留最早可纪年的文本状态。",
+      "evidenceType": "来源事实与编辑整理",
+      "allowedWording": "现有资料把1986年初稿确认为可纪年的早期文本状态。",
+      "forbiddenUpgrade": "不得写成全球现存最早、唯一或最完整版本。"
+    },
+    {
+      "claim": "该件与木心美术馆有稳定展示关系。",
+      "evidenceType": "两个时间点的来源事实",
+      "allowedWording": "2015年与2024年的现场记录支持它曾长期或反复进入馆内展示。",
+      "forbiddenUpgrade": "不得写成木心美术馆永久馆藏或当前一定在展。"
+    },
+    {
+      "claim": "初稿具有不可替代性。",
+      "evidenceType": "证据不足",
+      "allowedWording": "初稿提供后续稿和出版文本不能代替的1986年文本起点，但具体独有内容尚未得到逐页校勘。",
+      "forbiddenUpgrade": "不得标为稀世珍品或声称其全球不可替代。"
+    }
+  ],
+  "displayMetadata": {
+    "by": "木心 Mu Xin · 地区资料未注明",
+    "date": "1986年",
+    "material": "带预印账目格式的纸本文稿（书写工具、页数与尺寸未确认）",
+    "place": "木心美术馆 · 曾展出，当前状态待核验",
+    "priority": "时间充裕再看",
+    "significance": "重要藏品",
+    "stay": "约6分钟",
+    "availability": "previously_exhibited_current_unknown",
+    "imagePolicy": "museum_hero_placeholder"
+  },
+  "claimLedger": [
+    {
+      "id": "c01",
+      "claim": "对象是木心1986年《哥伦比亚的倒影》初稿整体，后续稿与2006年文本仅作比较。",
+      "type": "来源事实",
+      "sourcePointer": "author-input-supplement.md#对象身份与组界"
+    },
+    {
+      "id": "c02",
+      "claim": "2006年简体本经过木心重新编订；出版方说明从1986年台湾《散文一集》到2006年仍在推敲文字。",
+      "type": "来源事实",
+      "sourcePointer": "author-input-research.md#来源事实与局部因果"
+    },
+    {
+      "id": "c03",
+      "claim": "1986年初稿与二十年后的重新编订出版构成可确认的长时间版本线。",
+      "type": "编辑整理",
+      "sourcePointer": "author-input-research.md#文献机制"
+    },
+    {
+      "id": "c04",
+      "claim": "报道记载初稿写在账目打印纸上，以逗号分句，不点句号，也不分段。",
+      "type": "来源事实，非直接观察",
+      "sourcePointer": "author-input-supplement.md#可靠对象图像与四项直接观察"
+    },
+    {
+      "id": "c05",
+      "claim": "公开资料没有可靠逐页校勘，不能确认具体删减比例或初稿独有内容。",
+      "type": "证据边界",
+      "sourcePointer": "author-input-supplement.md#最近比较对象与断言边界"
+    },
+    {
+      "id": "c06",
+      "claim": "三版手稿曾被用于现场比较，但初稿、二稿与定稿不能合并成一个稳定对象。",
+      "type": "来源事实与组界",
+      "sourcePointer": "author-input-supplement.md#对象身份与组界"
+    },
+    {
+      "id": "c07",
+      "claim": "2015年与2024年均有该初稿在馆内展示的记录，当前是否在展仍未知。",
+      "type": "来源事实与易变状态",
+      "sourcePointer": "author-input-supplement.md#永久收藏或稳定展示状态"
+    },
+    {
+      "id": "c08",
+      "claim": "最近比较对象是同作后续稿和2006年重新编订的简体出版文本；本件未通过稀世珍品硬门。",
+      "type": "比较与重要性判断",
+      "sourcePointer": "work-selection.json#nearestComparator"
+    },
+    {
+      "id": "c09",
+      "claim": "对象图不可可靠对应，页面采用馆舍占位图，不能把占位图当作作品证据。",
+      "type": "图像边界",
+      "sourcePointer": "work-selection.json#imagePolicy"
+    }
+  ]
+}

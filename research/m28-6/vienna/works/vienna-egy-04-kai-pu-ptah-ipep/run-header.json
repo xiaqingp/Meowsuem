@@ -1,0 +1,48 @@
+{
+  "runId": "m28-6-vienna-author-vienna-egy-04-kai-pu-ptah-ipep-2026-07-24",
+  "startedAt": "2026-07-24T07:30:03.849Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card",
+  "museumId": "vienna",
+  "workId": "vienna-egy-04-kai-pu-ptah-ipep",
+  "workIdentity": {
+    "artistOrCulture": "古埃及，吉萨",
+    "title": "凯普普塔与伊佩普双人像",
+    "titleEn": "Statue Group of Kai-pu-ptah and Ipep",
+    "museum": "Kunsthistorisches Museum Vienna"
+  },
+  "pipelineVersion": "2.4.8",
+  "instructionVersion": "2.0.2",
+  "inputContractVersion": 1,
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "465e7a2ce500057a139dbb64ff9df36755a6525a1f3a960e90fa0263a572ebfe"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-04/vienna-egy-04-kai-pu-ptah-ipep-research-card.md",
+      "role": "research_card",
+      "sha256": "ba13a6e8bf861f6d270e48df831cf933ba485e11b590f5fe4c57e7efb1acf005"
+    },
+    {
+      "path": "research/m28-6/vienna/works/vienna-egy-04-kai-pu-ptah-ipep/work-context.json",
+      "role": "work_context",
+      "sha256": "e47ab7799c340125b479297cea28a94cf0d9bf8f659f71acf191b0a9d583771f"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

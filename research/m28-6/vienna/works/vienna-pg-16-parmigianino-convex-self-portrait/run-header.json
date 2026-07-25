@@ -1,0 +1,48 @@
+{
+  "runId": "m28-6-vienna-author-vienna-pg-16-parmigianino-convex-self-portrait-2026-07-24",
+  "startedAt": "2026-07-24T07:30:03.813Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card",
+  "museumId": "vienna",
+  "workId": "vienna-pg-16-parmigianino-convex-self-portrait",
+  "workIdentity": {
+    "artistOrCulture": "帕尔米贾尼诺 Parmigianino",
+    "title": "凸面镜中的自画像",
+    "titleEn": "Self-Portrait in a Convex Mirror",
+    "museum": "Kunsthistorisches Museum Vienna"
+  },
+  "pipelineVersion": "2.4.8",
+  "instructionVersion": "2.0.2",
+  "inputContractVersion": 1,
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "465e7a2ce500057a139dbb64ff9df36755a6525a1f3a960e90fa0263a572ebfe"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-02/vienna-pg-16-parmigianino-convex-self-portrait-research-card.md",
+      "role": "research_card",
+      "sha256": "8ffb0d74108fd9aad4b18c0b2b008fd0cbc0980a6b1ab9da37e4317e7c075431"
+    },
+    {
+      "path": "research/m28-6/vienna/works/vienna-pg-16-parmigianino-convex-self-portrait/work-context.json",
+      "role": "work_context",
+      "sha256": "72e43be6cb1c7efa10e4684c9b328f03e18b397b1daf937be9fe1e4f0c810177"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

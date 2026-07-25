@@ -1,0 +1,33 @@
+{
+  "runId": "m28-frye-v2.0.5-pilot-2026-07-22",
+  "startedAt": "2026-07-22T12:09:51.5551860-07:00",
+  "upgradedAt": "2026-07-22T21:19:39-07:00",
+  "executor": "Codex isolated research, per-work authors, and independent reviewers",
+  "museumId": "frye",
+  "pipelineVersion": "2.0.6",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "authorReasoningEffort": "medium",
+    "reviewerReasoningEffort": "medium",
+    "implicitDefaultsAllowed": false
+  },
+  "instructionVersion": "1.7.0",
+  "publication": "test_only_until_all_twenty_pass",
+  "scope": "Frye Art Museum at 704 Terry Avenue; 20 stable collection objects; temporary loans excluded",
+  "lockedInputs": [
+    { "path": "research/README.md", "sha256": "5a3a76c4734c0f497e259c311726e77a528c6620f3959891e46ba005a04b0fec" },
+    { "path": "coho_museum/PRD.md", "sha256": "e391877a19702c377662edad402f7343ce1a052d539a50577a447b3aa48823a3" },
+    { "path": "coho_museum/TechDesign.md", "sha256": "cfe77bb584cc5087068ef6a74b8f7bd63e063c579828468962791f8910e7e6c4" },
+    { "path": "research/content-standard-manifest.json", "sha256": "d466e15c5793bf4bd02c0db15f16da372be5448909c172bd808e2fa5c66675ab" },
+    { "path": "research/meowseum-content-instruction.md", "sha256": "39f31401eb9d228a29f4d0de6fb56e3b6c4c072ebd34e4012eeab9a04ec6020e" },
+    { "path": "research/generation-pipeline.md", "sha256": "f5f7fbcd3f46609dcb81bbb1e3fff8b689a2af7ea56feb49153c9a8450246c21" },
+    { "path": "research/pipeline-tests/frye-v2.0.4-pilot/batch-01/source-pack.md", "sha256": "92503d9ecd2cd5639bd9280c77b540e01ff7875eeddf5411d12d819a4b028516", "usage": "v2.0.5 mandatory metadata closure complete" },
+    { "path": "research/pipeline-tests/frye-v2.0.4-pilot/batch-02/source-pack.md", "sha256": "c789e7f8db09f9230efd4d932c90a40ab41516cb66a20bb57304af0b3c88e6c0", "usage": "v2.0.5 mandatory metadata closure complete" },
+    { "path": "research/m22/frye-research-packets.json", "sha256": "6ee13b9e0b0e604531f2677fd83ecf2867c104c58b4960e4705b6e1eb341970a", "usage": "candidate IDs and official URL discovery only; facts require fresh verification" }
+  ],
+  "researchBatches": [
+    ["sin", "judgment-paris", "spring-dance", "condemned", "soap-bubbles", "picture-book", "three-firs", "birch-grove", "marion-lenbach", "dordrecht"],
+    ["in-the-woods", "sun-maiden", "chief-seattle", "critical-point", "prayer-hands", "free-me", "cargamonton", "fruits-plenty", "gentle-angry-women", "not-waving"]
+  ],
+  "supersededEvidence": "All author and reviewer artifacts produced with implicit reasoning effort none were archived per work and are not eligible as v2.0.5 pass evidence."
+}

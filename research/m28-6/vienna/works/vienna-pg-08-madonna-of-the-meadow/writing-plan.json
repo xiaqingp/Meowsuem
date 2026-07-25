@@ -1,0 +1,241 @@
+{
+  "schemaVersion": "author-bundle/1.0",
+  "runId": "m28-6-vienna-author-vienna-pg-08-madonna-of-the-meadow-2026-07-24",
+  "museumId": "vienna",
+  "workId": "vienna-pg-08-madonna-of-the-meadow",
+  "displayMetadata": {
+    "by": "拉斐尔 Raphael · 意大利",
+    "date": "1505 或 1506年",
+    "material": "白杨木板",
+    "place": "绘画馆 Room I · 确认在展",
+    "priority": "强烈推荐",
+    "significance": "重要藏品",
+    "stay": "建议停留 6—8 分钟",
+    "availability": "confirmed_on_view",
+    "imagePolicy": "object_image"
+  },
+  "narrativeMainline": {
+    "valueType": "artist_landmark",
+    "mainline": "拉斐尔在佛罗伦萨时期借鉴与列奥纳多相关的金字塔式人物组织，把圣母、基督幼儿和幼年施洗约翰安置成一个清楚、稳定又彼此相连的群体；亲密的日常动作因此能够同时承载十字细杖所提示的宗教后事。",
+    "readerStartingPoint": "读者从标题和画面能够确认圣母坐在草地上，两名儿童在她身前通过目光、手势与十字形细杖联系。",
+    "storyBeats": [
+      {
+        "beat": 1,
+        "materials": [
+          "零背景可确认与图像观察第1—3条",
+          "来源事实与候选价值证据第2、4条"
+        ],
+        "newUnderstanding": "三角形构图不是抽象标签，而是圣母的身体与双手怎样把两个分开的孩子组织成一个稳定整体。"
+      },
+      {
+        "beat": 2,
+        "materials": [
+          "零背景可确认与图像观察第2、4、5条",
+          "来源事实与候选价值证据第2条"
+        ],
+        "newUnderstanding": "清楚的近景关系与逐层淡去的远景让人性化亲密动作和宗教预示可以同时成立。"
+      },
+      {
+        "beat": 3,
+        "materials": [
+          "来源事实与候选价值证据第1、3条",
+          "比较与不可替代性边界",
+          "可用趣闻"
+        ],
+        "newUnderstanding": "委托、习作和同阶段比较把作品放回拉斐尔佛罗伦萨时期；它是关键实例，但不是这一方案的唯一代表。"
+      },
+      {
+        "beat": 4,
+        "materials": [
+          "零背景可确认与图像观察第1—4条"
+        ],
+        "newUnderstanding": "最后一眼沿圣母双手、儿童动作与十字细杖复看，能够看见稳定构图怎样承接宗教预示。"
+      }
+    ],
+    "humorBasis": "",
+    "mustNotAssume": [
+      "圣母正在预见受难，或因而感到悲伤",
+      "幼儿真实预知未来事件",
+      "拉斐尔临摹了某一幅现存的列奥纳多作品",
+      "本作首创金字塔式圣母构图",
+      "本作是拉斐尔佛罗伦萨时期这一方案的唯一代表",
+      "衣缘纪年只能确定为1505年或只能确定为1506年"
+    ],
+    "highRiskClaims": [
+      {
+        "claim": "圣母的内心状态",
+        "evidenceType": "直接观察仅支持姿态与目光，不支持心理判断",
+        "allowedWording": "圣母以双手环护并连接两个孩子的动作",
+        "forbiddenUpgrade": "她预见受难并为此悲伤"
+      },
+      {
+        "claim": "十字细杖的时间含义",
+        "evidenceType": "研究卡记录的宗教图像解释",
+        "allowedWording": "十字细杖提示基督未来的受难",
+        "forbiddenUpgrade": "画中幼儿真实预知后来发生的事件"
+      },
+      {
+        "claim": "列奥纳多的影响",
+        "evidenceType": "来源事实与同期构图比较",
+        "allowedWording": "采用与列奥纳多相关的金字塔式人物组织",
+        "forbiddenUpgrade": "临摹列奥纳多某一幅现存作品"
+      },
+      {
+        "claim": "构图的首创性",
+        "evidenceType": "比较组显示同期存在多个近似方案",
+        "allowedWording": "是拉斐尔佛罗伦萨时期这一构图探索的关键实例",
+        "forbiddenUpgrade": "首创金字塔式圣母构图"
+      },
+      {
+        "claim": "作品的不可替代性",
+        "evidenceType": "与乌菲齐和卢浮宫作品的比较",
+        "allowedWording": "本作拥有明确委托、早期纪年、相关习作与自身收藏史，但共享同阶段核心创新",
+        "forbiddenUpgrade": "世界唯一、无可替代或稀世珍品"
+      },
+      {
+        "claim": "作品纪年",
+        "evidenceType": "衣缘题记存在两种读法",
+        "allowedWording": "1505或1506年",
+        "forbiddenUpgrade": "把其中任一年写成无争议定论"
+      }
+    ]
+  },
+  "claimLedger": [
+    {
+      "id": "C01",
+      "claim": "圣母、基督幼儿和幼年施洗约翰构成宽底上收的三角形。",
+      "type": "direct_observation",
+      "source": "研究卡｜零背景可确认与图像观察第1条",
+      "usedIn": [
+        "card.txt",
+        "draft.md｜30秒先懂",
+        "draft.md｜三角形怎样把三个人变成一个整体",
+        "draft.md｜最后再看一眼"
+      ]
+    },
+    {
+      "id": "C02",
+      "claim": "两名儿童通过目光、手势和十字形细杖联系，细杖提示未来受难。",
+      "type": "source_fact_and_direct_observation",
+      "source": "研究卡｜零背景可确认与图像观察第2条",
+      "usedIn": [
+        "card.txt",
+        "draft.md｜30秒先懂",
+        "draft.md｜亲密动作为什么没有冲淡宗教意义",
+        "draft.md｜细节",
+        "draft.md｜最后再看一眼"
+      ]
+    },
+    {
+      "id": "C03",
+      "claim": "圣母一手环护、一手连接儿童动作，把分开的孩子组织成一组。",
+      "type": "direct_observation",
+      "source": "研究卡｜零背景可确认与图像观察第3条",
+      "usedIn": [
+        "draft.md｜30秒先懂",
+        "draft.md｜三角形怎样把三个人变成一个整体",
+        "draft.md｜细节",
+        "draft.md｜最后再看一眼"
+      ]
+    },
+    {
+      "id": "C04",
+      "claim": "近景人物体量清楚，远景河岸、树木、建筑与地平线逐层淡去。",
+      "type": "direct_observation",
+      "source": "研究卡｜零背景可确认与图像观察第4条",
+      "usedIn": [
+        "draft.md｜亲密动作为什么没有冲淡宗教意义",
+        "draft.md｜细节"
+      ]
+    },
+    {
+      "id": "C05",
+      "claim": "亲密日常动作与宗教预示在同一画面中并存。",
+      "type": "editorial_synthesis",
+      "source": "研究卡｜零背景可确认与图像观察第2、3、5条；来源事实与候选价值证据第4条",
+      "usedIn": [
+        "card.txt",
+        "draft.md｜30秒先懂",
+        "draft.md｜亲密动作为什么没有冲淡宗教意义"
+      ]
+    },
+    {
+      "id": "C06",
+      "claim": "本作为佛罗伦萨贵族及赞助人Taddeo Taddei所作，后于1662年由Ferdinand Karl大公购得，1663年入Ambras收藏，1773年移往维也纳。",
+      "type": "source_fact",
+      "source": "研究卡｜来源事实与候选价值证据第1条",
+      "usedIn": [
+        "draft.md｜为什么这是拉斐尔佛罗伦萨时期的关键实例"
+      ]
+    },
+    {
+      "id": "C07",
+      "claim": "拉斐尔约1504—08年在佛罗伦萨接触列奥纳多与米开朗琪罗，本作采用与列奥纳多相关的金字塔式人物组织，同时保持明亮、清楚的景观和人物关系。",
+      "type": "source_fact",
+      "source": "研究卡｜来源事实与候选价值证据第2条",
+      "usedIn": [
+        "card.txt",
+        "draft.md｜30秒先懂",
+        "draft.md｜三角形怎样把三个人变成一个整体",
+        "draft.md｜为什么这是拉斐尔佛罗伦萨时期的关键实例"
+      ]
+    },
+    {
+      "id": "C08",
+      "claim": "大都会藏有与本作构图及施洗约翰手臂相关的红粉笔习作，是拉斐尔较早使用红粉笔的例子之一。",
+      "type": "source_fact",
+      "source": "研究卡｜来源事实与候选价值证据第3条",
+      "usedIn": [
+        "draft.md｜为什么这是拉斐尔佛罗伦萨时期的关键实例"
+      ]
+    },
+    {
+      "id": "C09",
+      "claim": "乌菲齐《金翅雀圣母》和卢浮宫《美丽的女园丁》与本作共享佛罗伦萨时期的三人金字塔群像探索，因此本作并非唯一实例。",
+      "type": "comparison",
+      "source": "研究卡｜比较与不可替代性边界",
+      "usedIn": [
+        "draft.md｜为什么这是拉斐尔佛罗伦萨时期的关键实例",
+        "draft.md｜事实边界"
+      ]
+    },
+    {
+      "id": "C10",
+      "claim": "衣缘纪年可读作1505，也可能为1506。",
+      "type": "source_fact",
+      "source": "研究卡｜身份与状态；可用趣闻",
+      "usedIn": [
+        "draft.md｜这件作品有哪些趣闻",
+        "draft.md｜事实边界"
+      ]
+    },
+    {
+      "id": "C11",
+      "claim": "作品现于KHM绘画馆Room I确认在展。",
+      "type": "source_fact",
+      "source": "研究卡｜身份与状态",
+      "usedIn": [
+        "writing-plan.json｜displayMetadata"
+      ]
+    },
+    {
+      "id": "C12",
+      "claim": "作品为白杨木板，尺寸113 × 88.5厘米，藏品号GG 175。",
+      "type": "source_fact",
+      "source": "研究卡｜身份与状态",
+      "usedIn": [
+        "writing-plan.json｜displayMetadata"
+      ]
+    },
+    {
+      "id": "C13",
+      "claim": "作品属于重要藏品，稀世珍品硬门未通过。",
+      "type": "locked_context",
+      "source": "work-context.json｜significance；rareGatePassed",
+      "usedIn": [
+        "writing-plan.json｜displayMetadata",
+        "draft.md｜事实边界"
+      ]
+    }
+  ]
+}

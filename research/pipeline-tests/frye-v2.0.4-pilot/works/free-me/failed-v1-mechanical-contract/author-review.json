@@ -1,0 +1,200 @@
+{
+  "artifactType": "author_review",
+  "workId": "free-me",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "5d088360d71fd3d2d72893d5f7b7fb7d53eb0a678e42ee56d0d05d4a94bcb028"
+  },
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "finalPassIssued": false,
+  "retryReason": null,
+  "paragraphDependency": [
+    {
+      "paragraph": "30秒先懂",
+      "does": "从蓝白色域与沿边界的文字建立核心问题，并给出文字参与构图的暂时答案。",
+      "dependsOn": "只依赖标题、元数据和读者可见的画面。",
+      "newUnderstanding": "文字既能被读，也规定视线经过色块与边界的方式。",
+      "breaksIfMovedEarlier": "已经是叙事入口，无需前移。"
+    },
+    {
+      "paragraph": "文字为什么贴着蓝白边界移动？",
+      "does": "拆解色域、倾斜线与字迹位置，说明边界怎样兼任颜色分隔和阅读路线。",
+      "dependsOn": "快层已建立文字不在图像之外、而在交界处这一可见张力。",
+      "newUnderstanding": "作品的机制来自文字位置与观看移动，不只来自图像主体。",
+      "breaksIfMovedEarlier": "若置于快层前，读者尚未获得核心问题和暂时答案，细节会退化为构图清单。"
+    },
+    {
+      "paragraph": "一句话为什么会反复回来？",
+      "does": "用题名的三次重复深化边界机制，并把可读文字与不确定空间并置；随后接入作者成熟期方法。",
+      "dependsOn": "上一段已说明文字沿边界移动，读者才能理解重复为何像一次次回到同一道交界。",
+      "newUnderstanding": "语言的明确性没有消除空间的不确定性，作者方法也落实到眼前的文字与地景表面。",
+      "breaksIfMovedEarlier": "若前移，‘回到交界处’缺少边界兼作阅读路线的形式前提，作者语境会显得悬空。"
+    },
+    {
+      "paragraph": "静止的一张图，为什么在Frye值得停留？",
+      "does": "以同作者影像／文本作品为最近比较对象，说明静态载体的差异，并把形式价值连接到Frye馆藏位置。",
+      "dependsOn": "前两段已建立文字参与造型、题名重复与空间不确定性，比较才有明确的共同价值。",
+      "newUnderstanding": "本作是可比较的成熟期重要藏品；其特殊回报在静态表面和Frye馆藏扩展，而非全球唯一性。",
+      "breaksIfMovedEarlier": "若置于形式机制之前，比较与馆藏价值只会成为可交换的标签。"
+    },
+    {
+      "paragraph": "再看这些容易错过的细节",
+      "does": "把前文判断逐项兑现为画幅、色域、文字、倾斜线与白色纹理五个可核对细节。",
+      "dependsOn": "前文已解释这些细节如何共同回答核心问题。",
+      "newUnderstanding": "读者能在现场检验文字路线与空间不确定性，而非只接受抽象结论。",
+      "breaksIfMovedEarlier": "若前移，五项观察仍可见，但无法说明它们为何属于同一个问题。"
+    },
+    {
+      "paragraph": "最后再看一眼",
+      "does": "要求沿字迹复走蓝白边界，并在暗线处保留主体疑问，回收核心问题。",
+      "dependsOn": "依赖前文已经建立的题名重复、阅读路线和下部主体不确定性。",
+      "newUnderstanding": "第二眼不再急于辨认地点，而会辨认作品如何用文字稳定观看路径。",
+      "breaksIfMovedEarlier": "若提前，读者尚不知道为何应保留命名疑问，也无法理解这条路径的形式价值。"
+    },
+    {
+      "paragraph": "事实边界",
+      "does": "收紧下部主体、作者心理和可见状态三类证据边界。",
+      "dependsOn": "正文已正面建立可以确认的形式与馆藏价值。",
+      "newUnderstanding": "读者知道哪些判断保持开放，而不会把限定误当成全文主旨。",
+      "breaksIfMovedEarlier": "若前移，会用排除项接管正文声音，并削弱从可见机制进入的叙事。"
+    }
+  ],
+  "claimClosure": [
+    {
+      "sentence": "作品的长题名三次以‘Free me from this body’起句。",
+      "evidenceType": "来源事实",
+      "sourceOrBasis": "research-card.md所列馆方对象页事实",
+      "confidence": "高：馆方对象页直接提供题名结构。",
+      "verdict": "保留"
+    },
+    {
+      "sentence": "霍平卡常在语言、土地、记忆与原住民经验之间工作。",
+      "evidenceType": "来源事实的概括",
+      "sourceOrBasis": "research-card.md与source-pack.md所列馆方对象页语境",
+      "confidence": "中高：馆方对作者实践的稳定概括；正文未升级为本作唯一意图。",
+      "verdict": "保留"
+    },
+    {
+      "sentence": "在这件2020年的静态打印中，文字被直接安放到地景般的表面，成为可见的形式材料。",
+      "evidenceType": "来源事实加直接观察",
+      "sourceOrBasis": "媒材、年代与画面文字位置均见研究卡；‘地景般’以‘般’保留观察性质。",
+      "confidence": "高：身份事实明确，形式判断可由图像直接核对。",
+      "verdict": "保留"
+    },
+    {
+      "sentence": "题名可以引出多种联想，画面本身并不足以确认一种心理叙事。",
+      "evidenceType": "证据限制",
+      "sourceOrBasis": "研究卡明确禁止灵魂出窍、死亡愿望或作者心理推断。",
+      "confidence": "高：这是对证据能力的收窄，没有替人物或作者书写心理。",
+      "verdict": "保留"
+    },
+    {
+      "sentence": "它在作者成熟期实践中具有清楚的代表性。",
+      "evidenceType": "编辑判断",
+      "sourceOrBasis": "研究卡将2020年定位为成熟期摄影／文本实践，并给出代表性4/5。",
+      "confidence": "中：成熟期和方法有资料支持，正文没有升级为转折、唯一或生涯高峰。",
+      "verdict": "保留"
+    },
+    {
+      "sentence": "馆方把它归入当代艺术、近期购藏与太平洋西北艺术家。",
+      "evidenceType": "来源事实",
+      "sourceOrBasis": "馆方对象页分类，见research-card.md。",
+      "confidence": "高：馆方直接分类。",
+      "verdict": "保留"
+    },
+    {
+      "sentence": "在一所以具象油画历史核心著称的馆藏里，它让语言、接近抽象的地景和原住民作者声音占据同一个表面。",
+      "evidenceType": "来源事实加编辑推断",
+      "sourceOrBasis": "研究卡明确给出其扩展Frye具象油画历史核心的馆藏作用；形式来自直接观察。",
+      "confidence": "中高：馆藏对照有上游支持，措辞限定为馆内作用而非全球史结论。",
+      "verdict": "保留"
+    },
+    {
+      "sentence": "类似的核心方法也能在霍平卡其他作品中看到，因此这里的重要性来自具体的形式和馆藏位置，无须把它抬成全球唯一的作品。",
+      "evidenceType": "比较判断与不可替代性边界",
+      "sourceOrBasis": "研究卡最近比较对象为霍平卡影像／文本作品，共同点是语言成为形式材料；明确不声称生涯唯一。",
+      "confidence": "中高：比较类别与共同点已给出，全球数量未知所以正文拒绝唯一性。",
+      "verdict": "保留"
+    },
+    {
+      "sentence": "馆方也只把它描述为‘可能是云’。",
+      "evidenceType": "来源事实与不确定性",
+      "sourceOrBasis": "馆方用likely clouds，见research-card.md。",
+      "confidence": "高：忠实保留馆方限定。",
+      "verdict": "保留"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这张照片把一句反复出现的话写在蓝白交界上，读文字的路线也成了看图的路线；它在Frye的重要性，就在于用一张静止图像把语言、地景和原住民作者声音带进馆藏。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "notes": "标题均能口头复述，主语和因果完整；段落转折由边界、重复、比较逐步推进，没有依赖生硬名词化。"
+  },
+  "productionLanguageScan": {
+    "scope": [
+      "card.txt可见正文",
+      "draft.md访客可见正文",
+      "事实边界",
+      "资料行"
+    ],
+    "forbiddenCategoriesChecked": [
+      "内部研究缺口",
+      "图片许可任务",
+      "发布任务或状态",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "版本迁移"
+    ],
+    "findings": [],
+    "verdict": "passed",
+    "note": "draft.md开头两行是不可见的artifact链注释，不属于访客正文。"
+  },
+  "significanceReview": {
+    "label": "重要藏品",
+    "fiveDimensionsCovered": {
+      "artisticAchievement": "已覆盖：文字、色域、边界与倾斜线共同组织阅读。",
+      "artHistoricalPosition": "已覆盖：成熟期代表性明确，同时不称转折或高峰。",
+      "historicalCulturalValue": "已覆盖：语言、土地、记忆与原住民经验作为作者实践语境，未伪装成单一事件记录。",
+      "rarityAndIrreplaceability": "已覆盖：最近比较对象能提供相近核心方法，全球数量未知，未通过稀世珍品硬门。",
+      "collectionPosition": "已覆盖：三项馆方分类及其对Frye历史核心的扩展。"
+    },
+    "nearestComparator": "Sky Hopinka的影像／文本作品",
+    "sharedValue": "语言作为形式材料，并与地景、记忆和原住民经验相连。",
+    "difference": "静态Dibond打印把文字固定在蓝色边界上，所有阅读与空间关系集中于单张近方形图像。",
+    "boundary": "不声称全球唯一、生涯最高峰或不可替代；不超过Frye 72分馆级边界。",
+    "verdict": "adequate_for_independent_review"
+  },
+  "voiceCandidate": {
+    "entry": 2,
+    "causality": 2,
+    "humanAgency": 1,
+    "turn": 2,
+    "visualPayoff": 2,
+    "oralClarity": 2,
+    "secondLook": 2,
+    "total": 13,
+    "note": "作者自评分仅为候选意见，不构成通过证据；本作以材料和语言机制推进，人的选择并非主要叙事动力。"
+  },
+  "mechanicalChecks": {
+    "cardVisibleCharacters": "约50，处于24—100警戒范围内",
+    "quickLayer": "独立成段，处于70—240可见字符警戒范围内",
+    "deepLayer": "超过320可见字符，并支撑五项现场细节",
+    "observableDetails": 5,
+    "negativeContrastSkeletons": "正文最多一处完整否定—转折骨架，未形成重复模板",
+    "singleCoreQuestion": "为什么文字贴着蓝白边界移动，而不作为独立说明？"
+  },
+  "unresolvedRisks": [
+    "研究卡只提供以省略号表示的馆方长题名，正文无法逐字展开完整英文题名；需由独立审读确认当前展示名是否允许沿用省略形式。",
+    "中文作者名和部族归属的标准馆方译法未在上游材料中提供；正文保留英文部族名称以避免擅定译名。",
+    "当前在展状态会变化；正文仅写稳定馆藏并提示以馆方现场信息为准。",
+    "图片复用许可尚未取得；该事项只保留在内部审读记录，未进入访客正文。",
+    "最近比较对象只能落实到霍平卡的影像／文本作品这一作品群，上游未提供一件具名对象；因此重要性维持‘重要藏品’，不主张全球不可替代。"
+  ],
+  "authorDecision": "稿件已完成作者层面的段落依赖、断言闭环、中文朗读、生产语言与重要性检查；提交独立审读，不签发最终PASS。"
+}

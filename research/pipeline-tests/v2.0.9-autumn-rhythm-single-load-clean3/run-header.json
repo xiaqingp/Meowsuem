@@ -1,0 +1,78 @@
+{
+  "runId": "m28-v2.0.9-autumn-rhythm-single-load-clean3-2026-07-22",
+  "startedAt": "2026-07-22T20:55:00-07:00",
+  "stage": "author",
+  "researchMode": "fresh",
+  "museumId": "met",
+  "workId": "autumn-rhythm-number-30",
+  "workIdentity": {
+    "artist": "Jackson Pollock",
+    "title": "Autumn Rhythm (Number 30)",
+    "museum": "The Metropolitan Museum of Art"
+  },
+  "pipelineVersion": "2.0.9",
+  "instructionVersion": "1.7.4",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "7b275220896dd9bfe6694032d47deee4240362e7251676452148505e14c5c4f5"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "331bcf0f9364270ea1ca518324bb3179a55acf28a3f46d52badfbfbc3fa2acd6"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "30a823bc0d6c1d41d6072ff3749a986711dd9e717cecb1f8ac534e6916b38307"
+    },
+    {
+      "path": "research/pipeline-tests/v2.0.9-autumn-rhythm-single-load-clean3/research-card.md",
+      "sha256": "46980e193ca0028155f177fe586f20e3b850f068e7c4da7c8ca68150a19772e3"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "researchExecution": {
+    "sessionId": "019f8d1c-16e2-7631-ae55-e1c4cfe759eb",
+    "tokensUsed": 78149,
+    "researchCardChars": 4003,
+    "researchCardSha256": "46980e193ca0028155f177fe586f20e3b850f068e7c4da7c8ca68150a19772e3",
+    "localFileReadsByModel": 0
+  },
+  "authorExecution": {
+    "sessionId": "019f8d1e-54a6-7c01-b91f-8c0e4cb0bae6",
+    "tokensUsed": 50259,
+    "writingPlanSha256": "4f332dfec64633a4f18350dab68823a547ed3a9e6517228ceaa8245c2025f4d0",
+    "cardSha256": "9d88113c49552a24cac17a7cc99da3e858d7968d13a4804b475ef98067660181",
+    "draftSha256": "d17bb9d9ac0e64950265ce850a200acb2c15bc171e97dbf84725cbe367b13e4c",
+    "localFileReadsByModel": 0,
+    "webQueriesByModel": 0
+  },
+  "tokenRegression": {
+    "successfulRunTokens": 128408,
+    "baselineV1_7_3": 249122,
+    "baselineV1_7_4": 298788,
+    "reductionFromV1_7_3Percent": 48.46,
+    "reductionFromV1_7_4Percent": 57.02,
+    "invalidInfrastructureAttemptsWithUnreportedTokens": 2
+  },
+  "mechanicalVerification": {
+    "researchCardWithinTypicalVisibleCharacterLimit": false,
+    "researchCardVisibleCharacters": 4003,
+    "writingPlanJsonValid": true,
+    "writingPlanDirectUpstreamHashMatches": true,
+    "declaredOutputsExist": true,
+    "reviewerFilesCreated": false,
+    "retryFilesCreated": false,
+    "draftRecordsWritingPlanHash": false,
+    "status": "generated_unreviewed_with_provenance_gate_failure"
+  },
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publication": "test_only_unreviewed_no_production_write"
+}

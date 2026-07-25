@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.7.2",
+  "runId": "m28-12-v2.7.2-seattle-author-double-elvis-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-25T06:24:43.520Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_availability_from_locked_work_context",
+    "derived_imagePolicy_from_locked_work_context"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "fdc39b8ab9f9236298248635c909fa3930302661038fb1b85c3a46c0c6e3bb34",
+      "bytes": 8598
+    },
+    {
+      "path": "card.txt",
+      "sha256": "452f5435fb5be434cfe6b32c03dfe9d46a946078e05450b7bcca1e5466d681ce",
+      "bytes": 489
+    },
+    {
+      "path": "draft.md",
+      "sha256": "e742a066280e900d14957e9d79bf14c1faf551de258e8f2a3a61e370beded023",
+      "bytes": 3875
+    }
+  ]
+}

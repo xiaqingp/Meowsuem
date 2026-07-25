@@ -1,0 +1,47 @@
+{
+  "runId": "m28-4-muxin-author-muxin-r01-2026-07-23",
+  "startedAt": "2026-07-24T04:52:25.815Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card_after_verified_selection",
+  "museumId": "muxin",
+  "workId": "muxin-r01",
+  "workIdentity": "稳定到《战后嘉年华》馆内展出稿件这一层级；不进一步断言其为初稿、誊清稿、校样或复制件。",
+  "pipelineVersion": "2.4.6",
+  "instructionVersion": "2.0.2",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c22c60e3a215aa1ac90da402debeb2caf9da39975cb2921c4845ef74ef14c834"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "e7b049c97e262a0a9f2e334388ffadfb2013ce5a3fded20f7063256d03bb7e56"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-4/muxin/replacement-research/muxin-r01-research-card.md",
+      "sha256": "e2a2621100de73ab46f5e9ce02d1ed703e5e233e2dfb205fc87036985ab9cfd3"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-r01/work-selection.json",
+      "sha256": "cd9f08bdfeb1dfc2f39585be20b4c7a4822d14a52f4b7e0d27ebb4c4e7c028fb"
+    },
+    {
+      "path": "research/m28-4/muxin/integration/museum-plan.json",
+      "sha256": "f1667c694974a0128558ce6d9519b3a616cab05d4dc3a4f4d00caf5ec62862b2"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

@@ -1,0 +1,142 @@
+{
+  "workId": "fruits-plenty",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "museumId": "frye",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "directUpstream": {
+    "filename": "research-card.md",
+    "sha256": "9ef40ceff90d6e39917a81ec009840290e769042f2b9f695b7b92c5f4db55443"
+  },
+  "readerBaseline": "零背景读者从画面与题名能知道：眼前是两幅横向的水果图像，其中一幅颜色反相；图中还出现校色或测量参照，两个子题名使用 Oriental 与 Occidental。读者不预先知道 Warshaw 商业档案、这些分类词的历史含义或艺术家的工作方法。",
+  "workSpecificQuestion": "为什么这组水果图像把校色参照、档案标识和方向命名都留在画面里？",
+  "quickLayerPromise": {
+    "visibleTension": "水果通常让人联想到丰盛和自然，但这两幅图同时暴露校色、测量、编号与反相效果。",
+    "provisionalAnswer": "这些技术和档案痕迹把观看重点从水果本身移到水果怎样被拍摄、命名和归类。",
+    "viewingRoute": [
+      "并看两幅横向图像的色调差异",
+      "辨认水果旁的校色或测量参照",
+      "把 Oriental/Occidental 的成对命名与档案标识联系起来"
+    ]
+  },
+  "cognitionSteps": [
+    {
+      "step": 1,
+      "discovery": "一幅图像出现反相或色调颠倒，而两幅都保留了技术参照。",
+      "changesUnderstanding": "水果不再只是被陈列的对象，图像的制作和校准过程也成为内容。",
+      "thereforeNext": "既然制作痕迹被故意展示，这些图像原来从哪里来？"
+    },
+    {
+      "step": 2,
+      "discovery": "长题名指向 Smithsonian NMAH 的 Warshaw Collection of Business Americana 约1900年商业档案。",
+      "changesUnderstanding": "眼前所见成为对既有商业档案的重新摄影与编排，而非单纯模仿水果静物。",
+      "thereforeNext": "档案的成对方向命名怎样改变这组水果的意义？"
+    },
+    {
+      "step": 3,
+      "discovery": "Oriental 与 Occidental 把事物放进以西方为参照的方向性分类，作品又用并置与反相让这套框架变得醒目。",
+      "changesUnderstanding": "所谓丰盛也包含分类者的视角；档案并非透明地保存商品图像。",
+      "thereforeNext": "这种处理与传统丰饶水果静物相比，带来了什么新的观看回报？"
+    },
+    {
+      "step": 4,
+      "discovery": "传统丰饶静物与本作共享水果陈列，本作额外显露编号、命名、校色和反相。",
+      "changesUnderstanding": "作品的艺术价值落在让图像制度可见，并把 Frye 的静物线索转向当代档案批评。",
+      "thereforeNext": "带着这一认识，最后应怎样同时复看两幅图？"
+    }
+  ],
+  "forbiddenAssumptions": [
+    "不假设读者把 Oriental 当作中性当代词汇。",
+    "不声称画中水果的原产地、品种或贸易路线。",
+    "不确定 .01/.02 与两个子题名的对应关系。",
+    "不把配对件尺寸写成均已确认；只确认 Occidental 为 41 × 60 in.。",
+    "不推断艺术家的私人心理、单一意图或某个具体殖民事件。",
+    "不把当前稳定馆藏写成当前在展。"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "作品批判殖民分类。",
+      "evidenceType": "来源事实与编辑推断的结合",
+      "allowedWording": "约1900年商业档案中的方向性分类以西方为参照；作品通过并置、反相和保留档案痕迹，使这套分类框架进入观看。",
+      "forbiddenEscalation": "不得声称作品证明了某种具体殖民暴力，或断言艺术家唯一、明确的意图。"
+    },
+    {
+      "claim": "一幅为反相图像。",
+      "evidenceType": "直接观察与子题名",
+      "allowedWording": "其中一幅呈现反相或色调颠倒效果。",
+      "forbiddenEscalation": "不得据此确定制作步骤、先后时间或原始底片状态。"
+    },
+    {
+      "claim": "两件尺寸相同。",
+      "evidenceType": "来源事实不足",
+      "allowedWording": "仅写 Occidental 的已确认尺寸；组合元数据不写两件同尺寸。",
+      "forbiddenEscalation": "不得把 41 × 60 in. 扩展为两件均适用。"
+    },
+    {
+      "claim": "这件作品不可替代或稀有。",
+      "evidenceType": "比较与馆藏叙事判断",
+      "allowedWording": "它在 Frye 内部把历史静物传统转向档案分类与摄影标准问题，属于重要藏品。",
+      "forbiddenEscalation": "不得称稀世珍品、独一无二、艺术家生涯巅峰或旅行级孤品。"
+    }
+  ],
+  "historicalContextPlan": {
+    "applicable": true,
+    "beforeState": "约1900年的商业档案以命名、编号和图像标准组织商业材料，观看者通常只把档案图像当作所记录商品的载体。",
+    "changeOrConflict": "Oriental/Occidental 这类方向词把对象放进以西方为参照的分类秩序；当代艺术家重新摄影和编排这些材料，使分类与摄影标准本身变得可见。",
+    "objectRole": "作品重新解释历史商业档案，而非作为约1900年商品和水果原产地的一手证明。",
+    "consequence": "观众会同时看到被记录的水果与决定其可见方式的档案制度。",
+    "uncertainty": "现有材料不支持具体水果来源、具体商业主体或单一殖民事件；艺术家意图只写到资料支持的持续档案研究范围。",
+    "placement": "快层只交代约1900年商业档案来源和分类框架；深层第二、三段展开命名、校色和反相怎样共同改变观看。"
+  },
+  "authorStyle": {
+    "applicable": true,
+    "careerPosition": "2021年成熟期，延续 Stephanie Syjuco 对档案、分类、摄影标准与殖民命名的研究。",
+    "visibleMethod": "重新摄影和编排档案水果图像，保留校色或测量参照，并以成对命名和反相制造比较。",
+    "classification": "成熟期的典型方法；不提升为转折点或生涯最高峰。",
+    "proseBoundary": "只写在本作可见且研究卡支持的方法，不写无关生平摘要。"
+  },
+  "significance": {
+    "level": "重要藏品",
+    "dimensions": {
+      "artisticAchievement": "4/5：并置、反相、校色参照和成对命名共同拆开自然主义水果图像的完整幻觉。",
+      "artHistoricalPosition": "3/5：属于艺术家成熟期的档案再摄影方法，现有证据不足以称开创或转折。",
+      "historicalCulturalValue": "3/5：让约1900年商业档案的分类语言进入当代观看，但不是当时贸易或水果来源的直接史料。",
+      "rarityAndIrreplaceability": "3/5：同类档案批评策略并非本作独有，全球数量与版次未确认。",
+      "collectionPosition": "5/5：在 Frye 内部把历史静物传统转向殖民档案、分类和摄影标准问题。"
+    },
+    "comparisonCategory": "档案再摄影／批判性静物与传统丰饶水果静物的比较",
+    "nearestComparator": "传统丰饶水果静物",
+    "sharedCoreValue": "都以水果陈列制造丰富的视觉表面。",
+    "decisiveDifference": "本作把档案编号、方向性命名、校色参照与反相效果保留在画面中心，使图像如何被组织成为主题。",
+    "confirmedQuantity": "二件组合；全球同类作品数量与版次未确认。",
+    "irreplaceabilityBoundary": "最近比较对象能解释水果静物传统，却不能提供本作对档案框架和摄影标准的同时揭示；这一差异支持馆内重要性，不足以通过稀世珍品硬门。",
+    "frye72Boundary": "用‘重要藏品’和馆内收藏线节点表述，不称稀世、唯一、必看孤品，也不暗示它足以改变西雅图行程。"
+  },
+  "observableDetails": [
+    "两幅横向图像组成一组。",
+    "水果或商业档案图像占据主要画面。",
+    "色彩校准或测量参照与水果同框。",
+    "其中一幅出现反相或色调颠倒效果。",
+    "Oriental 与 Occidental 的成对命名形成对照。",
+    "档案标识没有被裁掉或隐藏。"
+  ],
+  "secondLook": "让视线在两幅图之间往返一次，暂时越过水果，专门追踪校色参照、档案标识与反相处；再回到水果，判断所谓‘丰盛’是否仍像一个自然形成的画面。",
+  "cardStrategy": "独立说明点击价值：一组水果静物如何让百年前商业档案的分类方式现形；不用详情快层句子，也不以导览命令开头。",
+  "productionLanguageBoundary": {
+    "visitorProseAllowed": "作品身份、可观察细节、约1900年档案来源、证据支持的分类解释、当前在展状态的事实边界。",
+    "internalOnly": [
+      "Inverted 尺寸待核",
+      ".01/.02 与子题名对应待核",
+      "图片许可与直接图像地址",
+      "任何发布、测试、prompt、生成器、reviewer 或版本迁移信息"
+    ]
+  },
+  "plannedDetailStructure": [
+    "快层：从水果与校色／反相并存的可见矛盾，给出档案框架成为主题的暂时答案。",
+    "深层一：解释为什么技术参照没有退到幕后。",
+    "深层二：交代 Warshaw 商业档案和成对方向命名怎样改变上一层理解。",
+    "深层三：比较传统丰饶静物，完成艺术价值、作者方法和 Frye 馆藏位置判断。",
+    "细节清单：至少四项现场可核对证据。",
+    "最后一眼：在两幅之间追踪制度痕迹，再回看水果。"
+  ]
+}

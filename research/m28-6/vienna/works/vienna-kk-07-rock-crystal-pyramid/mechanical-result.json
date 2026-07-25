@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-kk-07-rock-crystal-pyramid-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:42.634Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "2ced6c15c9483b71982779875d1b052bcaefdd71c3128fa092a3ac3355aee7d7",
+      "bytes": 9808
+    },
+    {
+      "path": "card.txt",
+      "sha256": "d142c32091c3709d8452b8dea543ee0b0eb9a0963f51c9c194c055606f594c0c",
+      "bytes": 276
+    },
+    {
+      "path": "draft.md",
+      "sha256": "bb51ecb02bbf4ca36719dcb890d38406eee2603df44b76669791c939c9f0ca41",
+      "bytes": 4234
+    }
+  ]
+}

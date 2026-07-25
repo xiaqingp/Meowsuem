@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-pg-14-madonna-with-the-pear-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:44.063Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "70fa9c04caf25ecd4b25dc79d51778e171e9afe42fcdb835c3e00527da4fee2b",
+      "bytes": 9361
+    },
+    {
+      "path": "card.txt",
+      "sha256": "5c80fb19b44ffe882b53fa786d173a5d58aac391c92f4af940c12e60be82b9ba",
+      "bytes": 196
+    },
+    {
+      "path": "draft.md",
+      "sha256": "d045e47717094887e672ea0ec6499fb4b7f6503ab6728a23d2e8e0c58a1c82b4",
+      "bytes": 3586
+    }
+  ]
+}

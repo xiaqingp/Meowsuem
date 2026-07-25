@@ -1,0 +1,83 @@
+{
+  "runId": "m28-v2.0.3-full-2026-07-22",
+  "startedAt": "2026-07-22T11:09:04.2821130-07:00",
+  "executor": "Codex isolated author and independent reviewer",
+  "museumId": "m28-cross-museum-four-work-test",
+  "pipelineVersion": "2.0.3",
+  "instructionVersion": "1.6.7",
+  "publication": "test_only_no_production_write",
+  "lockedInputs": [
+    {
+      "path": "research/README.md",
+      "sha256": "5a3a76c4734c0f497e259c311726e77a528c6620f3959891e46ba005a04b0fec"
+    },
+    {
+      "path": "coho_museum/PRD.md",
+      "sha256": "e391877a19702c377662edad402f7343ce1a052d539a50577a447b3aa48823a3"
+    },
+    {
+      "path": "coho_museum/TechDesign.md",
+      "sha256": "20ac277976c91674c8eff9b38512f38af21171e8b84b3d2035f62f85338ff15b"
+    },
+    {
+      "path": "research/content-standard-manifest.json",
+      "sha256": "35fb7ad45d3fab0d53c9640504dbf51e597bc43096bf3961b217c8410e9943be"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "887fda761f62a0c2274c96a53a977e5fa001f5258fbfb753b02d0555e540712e"
+    },
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "ddd6225e45a7383d2dee17f4f5ccfa519987b9175679668974a5dad50d3ab4fb"
+    },
+    {
+      "path": "research/generation-tests/v1.6.1-two-work-source-pack.md",
+      "sha256": "6671d051117731bf8aea53cec8e33d4e88467dc79633e36a36cb6c19783940ff"
+    },
+    {
+      "path": "research/generation-tests/v1.6.7-two-work-source-addendum.md",
+      "sha256": "540a47658882cff3fea9773192a0058e0b04b843ff57303ea5e2d886cdd530d3"
+    },
+    {
+      "path": "research/pipeline-tests/v2.0.3-full/held-out-source-pack.md",
+      "sha256": "8afced474849697343beacc2728c43d37237e0f8deb26e8635fe8a5031acde75"
+    },
+    {
+      "path": "research/pipeline-tests/v2.0.3-full/test-spec.md",
+      "sha256": "267c82a881f1c25a85b49d495556e7064226aea204041014751e01a303a111c6"
+    }
+  ],
+  "authorAllowedInputs": {
+    "hunters-in-the-snow": [
+      "run-header.json",
+      "test-spec.md",
+      "research/meowseum-content-instruction.md",
+      "research/generation-pipeline.md",
+      "research/generation-tests/v1.6.1-two-work-source-pack.md",
+      "research/generation-tests/v1.6.7-two-work-source-addendum.md"
+    ],
+    "narmer-palette": [
+      "run-header.json",
+      "test-spec.md",
+      "research/meowseum-content-instruction.md",
+      "research/generation-pipeline.md",
+      "research/generation-tests/v1.6.1-two-work-source-pack.md",
+      "research/generation-tests/v1.6.7-two-work-source-addendum.md"
+    ],
+    "autumn-rhythm-number-30": [
+      "run-header.json",
+      "test-spec.md",
+      "research/meowseum-content-instruction.md",
+      "research/generation-pipeline.md",
+      "held-out-source-pack.md"
+    ],
+    "chichu-art-museum-whole": [
+      "run-header.json",
+      "test-spec.md",
+      "research/meowseum-content-instruction.md",
+      "research/generation-pipeline.md",
+      "held-out-source-pack.md"
+    ]
+  }
+}

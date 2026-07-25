@@ -1,0 +1,74 @@
+{
+  "instructionVersion": "1.6.5",
+  "reviews": [
+    {
+      "workId": "hunters",
+      "coreQuestion": "为什么一场看起来收获寒酸的狩猎，最后让人记住的却是整个冬天？",
+      "quickLayerIndependent": true,
+      "deepLayerIndependent": true,
+      "finalReturnsToQuestion": true,
+      "paragraphDependencies": [
+        {"paragraph":"一只狐狸，够不够撑起整幅画｜第一段","dependsOn":"读者首先注意最近、最大的猎人","newUnderstanding":"一只狐狸只支持收获有限，无法读取猎人心理","breaksIfMovedEarlier":"它必须先建立读者为何会把猎人当主角"},
+        {"paragraph":"一只狐狸，够不够撑起整幅画｜第二段","dependsOn":"猎人已经取得视觉中心又缺少完整故事","newUnderstanding":"陡坡主动把目光从猎人送向山谷，猎人只是入口","breaksIfMovedEarlier":"没有猎人的初始中心，山坡就无从完成主角转移"},
+        {"paragraph":"山坡把故事交给了谁｜第一段","dependsOn":"视线已经被送入远景","newUnderstanding":"同一天还容纳娱乐、赶路与备餐，冬天不等于单一低落","breaksIfMovedEarlier":"提前列小人物会退化成无目的细节清单"},
+        {"paragraph":"山坡把故事交给了谁｜第二段","dependsOn":"多种生活已经同时出现","newUnderstanding":"核心问题从狩猎成败升级为季节能装下多少生活","breaksIfMovedEarlier":"没有并存生活，就无法提出季节尺度"},
+        {"paragraph":"六幅画，要让人聊完一整年｜两段","dependsOn":"文章已经需要解释季节尺度","newUnderstanding":"六季委托、可能的餐厅陈列和两个月职责解释了大景观、高视点与人物密度","breaksIfMovedEarlier":"若先讲委托，只会成为作者年代式背景资料"},
+        {"paragraph":"颜色让这种服从变成身体感觉","dependsOn":"六季任务已经解释为什么需要整体世界","newUnderstanding":"勃鲁盖尔的风格在于用冷色和尺度让天气统摄所有小故事","breaksIfMovedEarlier":"没有季节任务，颜色分析会变成孤立风格栏目"},
+        {"paragraph":"找到四幅兄弟作品，才知道冬天这一幅贵在哪里","dependsOn":"作品的季节机制与作者方法都已成立","newUnderstanding":"比较对象可替代一般季节方法，却不能替代系列冬季节点与具体冬景成就","breaksIfMovedEarlier":"在知道作品怎样工作前谈珍贵，只剩数量炫耀"},
+        {"paragraph":"最后再看一眼","dependsOn":"狐狸、日常活动、六季任务、整体寒冷和比较边界均已建立","newUnderstanding":"短暂个人事件被整个季节包围，真正主角完成从猎人到冬天的转移","breaksIfMovedEarlier":"缺少前文三种时间尺度时，结尾只是一句风景很大的感叹"}
+      ],
+      "highRiskClaimReview": [
+        {"sentence":"馆方确认，整队只带回一只狐狸。","evidenceType":"source_fact","sourceOrBasis":"KHM 作品页","verdict":"passed"},
+        {"sentence":"这个线索足以让人判断收获有限，人物的具体心情仍留在画外。","evidenceType":"bounded_editorial_inference","sourceOrBasis":"单只狐狸与疲惫狗群；claimBoundaryPlan 明确禁止读取人物心理","verdict":"passed"},
+        {"sentence":"作品可能陈列在委托人的乡间住宅餐厅里。","evidenceType":"qualified_source_fact","sourceOrBasis":"KHM 2025 展览资料使用可能性表述","verdict":"passed"},
+        {"sentence":"勃鲁盖尔把尼德兰日常与翻越阿尔卑斯山留下的高山经验组合起来。","evidenceType":"source_fact","sourceOrBasis":"KHM seasons research page","verdict":"passed"},
+        {"sentence":"原六幅季节画现存五幅。","evidenceType":"source_fact","sourceOrBasis":"KHM seasons research page","verdict":"passed"},
+        {"sentence":"KHM 还把它称为欧洲绘画中第一幅、也是最突出的冬季风景画。","evidenceType":"attributed_superlative","sourceOrBasis":"KHM 作品页原有明确机构判断，并在正文中归因给 KHM","verdict":"passed"}
+      ],
+      "unplannedHighRiskClaims": [],
+      "voiceEvidence": {
+        "entrance":"三名猎人和整群狗只交回一只狐狸，远处冰面却继续生活。",
+        "cognitiveTurn":"猎人的故事刚打开，山坡便把目光交给季节；六季委托随后解释这种主角转移。",
+        "humor":"成绩单来自投入与收获的真实反差，删除后因果仍成立。",
+        "secondLook":"狐狸、小火、冰面分别对应一次归猎、一顿饭、一个下午，最后被整个季节包围。"
+      },
+      "verdict": "passed"
+    },
+    {
+      "workId": "narmer",
+      "coreQuestion": "为什么一块调色板要把同一位国王画两遍？",
+      "quickLayerIndependent": true,
+      "deepLayerIndependent": true,
+      "finalReturnsToQuestion": true,
+      "paragraphDependencies": [
+        {"paragraph":"同一位国王，为什么换顶王冠又来一遍｜白冠段","dependsOn":"读者已发现同一国王重复出现","newUnderstanding":"白冠面承担击敌角色，画面保存的是政治角色而非可还原日期","breaksIfMovedEarlier":"它必须先接住标题提出的重复问题"},
+        {"paragraph":"同一位国王，为什么换顶王冠又来一遍｜红冠段","dependsOn":"白冠面已经建立征服角色","newUnderstanding":"红冠面补上检视、排列与控制，第二次出场提供另一种统治能力","breaksIfMovedEarlier":"先讲秩序会失去两种角色互补的对照"},
+        {"paragraph":"国王的重复于是有了理由","dependsOn":"征服与统治两项工作都已可见","newUnderstanding":"重复成为政治程序，并自然产生陌生观众如何读懂的问题","breaksIfMovedEarlier":"两项工作未建立时，重复理由只是空洞结论"},
+        {"paragraph":"权力越大，字号越大｜两段","dependsOn":"文章已经追问不识文字者如何读懂","newUnderstanding":"尺寸、分层和复合视角被理解为提高政治信息可读性的设计","breaksIfMovedEarlier":"没有可读性问题，形式分析会变成风格栏目"},
+        {"paragraph":"这套设计已经如此正式，石板中央为什么还留着一个调色槽","dependsOn":"视觉设计的政治功能已经成立","newUnderstanding":"关注点从图像外观推进到器物为何承载这种设计","breaksIfMovedEarlier":"在形式功能之前问器形，会变成考古插曲"},
+        {"paragraph":"两只怪兽，怎样把旧器物拖进新政治｜两段","dependsOn":"调色槽成为待解释的遗留结构","newUnderstanding":"实用调色板向仪式物转化，旧圆槽和共享怪兽母题被纳入控制图像","breaksIfMovedEarlier":"没有圆槽问题，怪兽比较只是图像学资料"},
+        {"paragraph":"有相似的第二件，这一件反而更容易说清｜两段","dependsOn":"文章已经知道器形与母题来自时代共享实验","newUnderstanding":"纳尔迈的不可替代性从孤例转为具名国王、两冠、文字和双面程序的集中保存","breaksIfMovedEarlier":"在共享语言出现前比较，无法区分相同点和决定性差异"},
+        {"paragraph":"历史走得很慢，国王只用举一次手｜两段","dependsOn":"王权程序和比较边界已经建立","newUnderstanding":"作品价值转向政治图像怎样压缩渐进国家形成，并由击敌母题的长期延续得到回应","breaksIfMovedEarlier":"没有先理解图像程序，就会把历史边界误当成附加免责声明"},
+        {"paragraph":"最后再看一眼","dependsOn":"征服、秩序、可读性、器形、比较与历史压缩均已成立","newUnderstanding":"两具身体各自承担一项王权工作，合成一个无所不包的国王","breaksIfMovedEarlier":"缺少前文两项工作和压缩机制，结论无法成立"}
+      ],
+      "highRiskClaimReview": [
+        {"sentence":"它没有交代可供还原的战役日期，胜负关系却非常明确。","evidenceType":"fact_boundary_plus_observation","sourceOrBasis":"官方资料只给统一解释，不给具体战役；击敌姿态可见","verdict":"passed"},
+        {"sentence":"两面合起来，征服和统治都落到同一个名字上。","evidenceType":"editorial_interpretation","sourceOrBasis":"白冠击敌、红冠行列、两面王名框；未写成历史时序","verdict":"passed"},
+        {"sentence":"交颈神兽常被解释为上下埃及归于国王控制。","evidenceType":"qualified_source_interpretation","sourceOrBasis":"埃及旅游与文物部明确使用解释性措辞","verdict":"passed"},
+        {"sentence":"这个母题来自同时代共享的视觉资源。","evidenceType":"bounded_comparative_inference","sourceOrBasis":"Ashmolean 双犬调色板的同类神兽及近东交流说明","verdict":"passed"},
+        {"sentence":"大型调色板本来就是当时工匠试验权力、危险与秩序的场所。","evidenceType":"editorial_synthesis","sourceOrBasis":"双犬、猎人、战场与纳尔迈四件机构记录的共同题材；未宣称唯一用途","verdict":"passed"},
+        {"sentence":"埃及国家形成很可能经历物质文化扩展和多次冲突。","evidenceType":"qualified_source_fact","sourceOrBasis":"The Met 古埃及教育资料","verdict":"passed"},
+        {"sentence":"国王击敌的姿态成为埃及王权标志，直到古埃及最后建造的一批神庙仍在出现。","evidenceType":"source_fact","sourceOrBasis":"埃及旅游与文物部 Narmer Palette 页面","verdict":"passed"},
+        {"sentence":"国王做大事，也有人跟在后面负责鞋。","evidenceType":"grounded_humor","sourceOrBasis":"British Museum cast record 确认 sandal-bearer；未新增神圣仪式含义","verdict":"passed"}
+      ],
+      "unplannedHighRiskClaims": [],
+      "voiceEvidence": {
+        "entrance":"两顶王冠和同一国王的重复，是零背景读者可以立即发现的矛盾。",
+        "cognitiveTurn":"重复先变成两种王权工作，再由尺寸解释可读性，由调色槽解释器物转化，最后由同类比较和渐进统一解释政治压缩。",
+        "humor":"字号与负责鞋都来自真实图像关系，删除后事实和因果仍成立。",
+        "secondLook":"白冠面悬住击敌，红冠面铺开秩序；两具身体合成一个国王。"
+      },
+      "verdict": "passed"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "museum-work-index/1.0",
+  "works": [
+    {
+      "workId": "portrait-head-bottle-64-228-21",
+      "researchComplexity": "standard",
+      "riskFlags": [],
+      "selectionEvidence": {
+        "collectionIdentity": "The Met accession 64.228.21 is a Moche Portrait Head Bottle, dated to the 5th–6th century.",
+        "availability": "On view at The Met Fifth Avenue, Gallery 362, as checked 2026-07-24.",
+        "imageStrategy": "Official Met IIIF object image; Public Domain.",
+        "importanceCandidate": "A candidate important work for showing the Moche portrait-head and stirrup-spout ceramic tradition through a documented, currently on-view example.",
+        "rareCandidate": false,
+        "nearestComparators": "Two related vessels are in Chicago’s Field Museum (100076) and Lima’s Museo Nacional de Antropología, Arqueología, e Historia.",
+        "decisiveDifference": "The related vessels differ in their headband designs.",
+        "independentCollectionLine": "Part of The Met’s Arts of the Ancient Americas holdings in the Michael C. Rockefeller Wing.",
+        "parentRelationship": null,
+        "requiresFullCard": false,
+        "sourceClaimIds": [
+          "R01",
+          "R03",
+          "R05",
+          "R14",
+          "R20"
+        ]
+      },
+      "structureSummary": {
+        "coreValue": "A modeled and painted Moche portrait-head bottle makes the relationship between repeatable molds, individualized painted detail, and uncertain ritual or mortuary meanings concrete.",
+        "mediumPeriod": "Ceramic, slip, pigment; 5th–6th century, Moche, Peru.",
+        "sectionSignals": [
+          "Moche portrait tradition",
+          "molded ceramic and painted difference",
+          "ritual and mortuary uncertainty"
+        ],
+        "routeRole": "A focused stop for Andean ceramics and Moche visual culture.",
+        "sourceClaimIds": [
+          "R01",
+          "R11",
+          "R13",
+          "R14",
+          "R15",
+          "R16"
+        ]
+      },
+      "researchCardPath": "research/pipeline-tests/v2.7.0-model-routing/research-standard-terra-retry-2/portrait-head-bottle-64-228-21-research-card.md",
+      "researchCardSha256": "2411ea4f4745d16ae7aff4e9f9c664727248318981b3d339742d5e27deb8bb57"
+    }
+  ]
+}

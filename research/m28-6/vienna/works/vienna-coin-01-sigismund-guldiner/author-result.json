@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-coin-01-sigismund-guldiner-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:33:02.8352088-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-04/vienna-coin-01-sigismund-guldiner-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "913294e7b12a2d13439e0018becc50fceec693e6e9ee6a116a9eff3c42b90fbe"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-coin-01-sigismund-guldiner/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "02db451e565d538de1789e34d330ec575fd4d5b865f02df197504d5bba299a35"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "566c48d621abab96cc8a78a85a844c40d5bae32701a8fe41edab457e34d8b09a",
+                        "bytes":  7200
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "cee05eab25f012e1f64dbe7acfe050aa72b60c13f888602deb279f1475db8b27",
+                        "bytes":  199
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "8e1df93c5b86616451335746694c30089dda53e7b47e991d895d37f01cfa0821",
+                        "bytes":  3111
+                    }
+                ]
+}

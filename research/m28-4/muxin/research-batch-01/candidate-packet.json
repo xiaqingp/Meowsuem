@@ -1,0 +1,425 @@
+{
+  "schemaVersion": "museum-research-packet/1.0",
+  "museum": {
+    "museumId": "muxin",
+    "nameZh": "木心美术馆",
+    "nameEn": "Mu Xin Art Museum",
+    "location": "乌镇西栅景区内，浙江省嘉兴市桐乡市",
+    "candidateCapacity": 20
+  },
+  "poolPolicy": {
+    "status": "candidate_research_only",
+    "selectionPerformed": false,
+    "ratingPerformed": false,
+    "routesOrMuseumCopyWritten": false,
+    "rules": [
+      "候选仅限西栅木心美术馆的稳定收藏与展示范围；东栅木心故居纪念馆和年度特展借件不进入候选池。",
+      "同一组《狱中笔记》、晚年微型风景画和馆舍建筑分别只作为一个候选单位，不按页数、幅数、展柜或建筑局部拆分。",
+      "开馆展、外借展和基金会藏品记录只证明对象与木心美术馆体系存在展示或保管关系；在下一阶段核实馆藏、长期保管、借展和复制件身份前，不把它们写成稳定馆藏。",
+      "本池保留证据较弱但能补足媒介或生平问题的条件候选；它们不得因凑足20件而自动进入正式精选。"
+    ]
+  },
+  "candidates": [
+    {
+      "candidateId": "muxin-c01",
+      "nameZh": "《狱中笔记》六十六页文献组",
+      "nameEn": "Prison Notes, group of sixty-six sheets",
+      "creator": "木心 Mu Xin",
+      "objectType": "成组文学手稿",
+      "date": "约1970—1973年",
+      "material": "纸本墨迹；具体纸张、书写工具与装订状态待核",
+      "candidateStatus": "eligible_high_priority",
+      "stableUnit": "六十六页作为一个文献组，不按正反面、展柜或轮换页拆分。",
+      "knownEvidence": [
+        "馆方常设收藏页称木心在被单独关押和置于防空洞期间，以写检查为由取得纸笔，完成六十六页、正反共一百三十二面的笔记。",
+        "馆方说明原件因脆弱和磨损仅节选展示并定期轮换。",
+        "该组原件曾于2001年木心耶鲁个展及后续巡展展出。"
+      ],
+      "candidateRationale": "它把木心的文学实践、特殊历史处境、纸张保存方式和当代展陈限制集中在同一对象组，是本馆最不可由普通出版物替代的候选之一。",
+      "possibleValueTypes": [
+        "social_document",
+        "material_or_technical_innovation",
+        "ritual_or_original_context"
+      ],
+      "nextStageChecks": [
+        "逐项确认馆内展示的是哪些原件、是否混有复制件或重制展示。",
+        "核实六十六页、正反一百三十二面和约六十五万字这一数字的馆方原文及计数口径。",
+        "取得可靠图像、当前轮换页清单、材质和保存记录。",
+        "建立与耶鲁2001年展览目录的对象对应关系。"
+      ],
+      "evidenceConfidence": "high",
+      "sourceRefs": [
+        "S01",
+        "S02",
+        "S03"
+      ]
+    },
+    {
+      "candidateId": "muxin-c02",
+      "nameZh": "《诗经演》手稿本",
+      "nameEn": "Manuscript of Variations on the Practising Book of Odes",
+      "creator": "木心 Mu Xin",
+      "objectType": "文学手稿",
+      "date": "待核",
+      "material": "纸本墨迹，待核",
+      "candidateStatus": "eligible",
+      "stableUnit": "以完整稿本为一个对象，不按单页拆分。",
+      "knownEvidence": [
+        "馆方常设收藏页将《诗经演》列为馆内较完整的稿本之一。",
+        "馆方资料把它置于文革前幸存稿、旅美稿和归国后稿本共同构成的文学陈列中。"
+      ],
+      "candidateRationale": "它可能以手稿形态证明木心如何重新处理中国早期诗歌传统，并补足绘画无法解释的文学工作方法。",
+      "possibleValueTypes": [
+        "artistic_breakthrough",
+        "conceptual_question"
+      ],
+      "nextStageChecks": [
+        "核实题名英译、写作年代、页数、版本阶段和馆藏编号。",
+        "确认馆内是否展示原稿本及当前可见状态。",
+        "寻找学术研究说明该稿本与出版本的关系。"
+      ],
+      "evidenceConfidence": "medium-high",
+      "sourceRefs": [
+        "S01",
+        "S04"
+      ]
+    },
+    {
+      "candidateId": "muxin-c03",
+      "nameZh": "《我纷纷的情欲》手稿本",
+      "nameEn": "Manuscript of The Everfalling Flakes of My Desire",
+      "creator": "木心 Mu Xin",
+      "objectType": "诗歌手稿",
+      "date": "待核",
+      "material": "纸本墨迹，待核",
+      "candidateStatus": "eligible",
+      "stableUnit": "以稿本为一个对象，不按诗篇或单页拆分。",
+      "knownEvidence": [
+        "馆方英文收藏页将The Everfalling Flakes of My Desire列入保存较完整的稿本。",
+        "后续高校考察资料以中文题名《我纷纷的情欲》重列该稿本。"
+      ],
+      "candidateRationale": "如能确认原稿与修改痕迹，它可让游客直接看到木心诗歌形成的过程，而非只看到出版结果。",
+      "possibleValueTypes": [
+        "artist_landmark",
+        "social_document"
+      ],
+      "nextStageChecks": [
+        "核实中文题名与馆方英文题名是否确指同一稿本。",
+        "确认写作年代、页数、修改层次、馆藏身份与当前展示状态。",
+        "寻找能够解释其在木心诗歌生涯位置的权威研究。"
+      ],
+      "evidenceConfidence": "medium",
+      "sourceRefs": [
+        "S01",
+        "S04"
+      ]
+    },
+    {
+      "candidateId": "muxin-c04",
+      "nameZh": "《巴珑》手稿本",
+      "nameEn": "Manuscript of Parron",
+      "creator": "木心 Mu Xin",
+      "objectType": "文学手稿",
+      "date": "待核",
+      "material": "纸本墨迹，待核",
+      "candidateStatus": "eligible",
+      "stableUnit": "以完整稿本为一个对象。",
+      "knownEvidence": [
+        "馆方常设收藏页将《巴珑》列为较完整稿本之一。",
+        "开馆报道也把《巴珑》列入文学馆的重要完整稿本。"
+      ],
+      "candidateRationale": "该稿本有潜力连接木心的创作修改、出版史与旅美阶段文学实践，但目前对象级资料仍不足。",
+      "possibleValueTypes": [
+        "artist_landmark",
+        "social_document"
+      ],
+      "nextStageChecks": [
+        "核实写作与出版年代、页数、稿本阶段和馆藏编号。",
+        "确认原件是否稳定展示。",
+        "寻找手稿与定稿差异的可靠研究。"
+      ],
+      "evidenceConfidence": "medium-high",
+      "sourceRefs": [
+        "S01",
+        "S05"
+      ]
+    },
+    {
+      "candidateId": "muxin-c05",
+      "nameZh": "《伪所罗门书》手稿本",
+      "nameEn": "Manuscript of In the Name of Solomon",
+      "creator": "木心 Mu Xin",
+      "objectType": "诗歌手稿",
+      "date": "待核",
+      "material": "纸本墨迹，待核",
+      "candidateStatus": "eligible",
+      "stableUnit": "以稿本为一个对象，不按诗篇拆分。",
+      "knownEvidence": [
+        "馆方常设收藏页将In the Name of Solomon列为较完整稿本之一。",
+        "中国作家网文章说明出版本各诗二十七行，并将其与《诗经演》的十四行形式并置讨论。"
+      ],
+      "candidateRationale": "对象若保留清楚的编排和修改信息，可用于解释木心如何把人物分身与严格诗形结合，具有独立于普通出版物的观看回报。",
+      "possibleValueTypes": [
+        "formal_achievement",
+        "artist_landmark"
+      ],
+      "nextStageChecks": [
+        "核实馆方英译与中文出版题名的对象对应。",
+        "确认稿本是否显出二十七行结构、修改次序和编排痕迹。",
+        "取得馆方对象记录、可靠图像与当前可见状态。"
+      ],
+      "evidenceConfidence": "medium",
+      "sourceRefs": [
+        "S01",
+        "S06"
+      ]
+    },
+    {
+      "candidateId": "muxin-c06",
+      "nameZh": "《文学回忆录》讲席手稿本",
+      "nameEn": "Lecture manuscripts associated with Literary Memoir",
+      "creator": "木心 Mu Xin",
+      "objectType": "讲席手稿与课程文献",
+      "date": "讲课发生于1989—1994年；具体稿页年代待核",
+      "material": "纸本墨迹，待核",
+      "candidateStatus": "eligible",
+      "stableUnit": "以馆方界定的一套讲席稿本为一个对象，不按课程或页数拆分。",
+      "knownEvidence": [
+        "馆方称木心1989至1994年在纽约连续五年讲述世界文学史，涉及百余位作家、思想家、哲学家和艺术家。",
+        "馆方常设收藏页将《文学回忆录》讲席稿本列为较完整稿本之一。"
+      ],
+      "candidateRationale": "这套材料可把木心作为讲述者的口述实践、纽约华人艺术圈的课堂现场和后来出版物区分开来。",
+      "possibleValueTypes": [
+        "social_document",
+        "civilization_system"
+      ],
+      "nextStageChecks": [
+        "区分木心本人讲稿、陈丹青课堂笔记、后期整理稿与出版物。",
+        "核实馆方所谓稿本的组成、作者归属、页数和当前展示状态。",
+        "寻找课程参与者、时间地点与文献形成过程的一手证据。"
+      ],
+      "evidenceConfidence": "medium-high",
+      "sourceRefs": [
+        "S01",
+        "S07"
+      ]
+    },
+    {
+      "candidateId": "muxin-c07",
+      "nameZh": "未完成小说《空房间》手稿",
+      "nameEn": "Manuscript of the unfinished novel An Empty Room",
+      "creator": "木心 Mu Xin",
+      "objectType": "小说手稿",
+      "date": "待核",
+      "material": "纸本墨迹，待核",
+      "candidateStatus": "conditional",
+      "stableUnit": "以未完成小说现存稿件整体为一个对象。",
+      "knownEvidence": [
+        "馆方英文常设收藏页把An Empty Room单列为文学收藏项目。",
+        "高校考察资料称馆中陈列木心未完成小说《The Empty Room》手稿。"
+      ],
+      "candidateRationale": "未完成稿若能显示结构与停笔边界，可让观众理解创作未完成本身，而不是把它当作一部已经成立的出版作品。",
+      "possibleValueTypes": [
+        "artist_landmark",
+        "conceptual_question"
+      ],
+      "nextStageChecks": [
+        "核实中文正式题名、写作年代、现存篇幅和未完成性质的权威表述。",
+        "确认稿件原件、馆藏身份和当前展示状态。",
+        "寻找该小说在木心创作生涯中的研究定位。"
+      ],
+      "evidenceConfidence": "medium",
+      "sourceRefs": [
+        "S01",
+        "S04"
+      ]
+    },
+    {
+      "candidateId": "muxin-c08",
+      "nameZh": "《诗经》英文改写稿",
+      "nameEn": "English adaptation manuscript of the Book of Odes",
+      "creator": "木心 Mu Xin",
+      "objectType": "跨语言文学手稿",
+      "date": "待核",
+      "material": "纸本英文墨迹，待核",
+      "candidateStatus": "conditional",
+      "stableUnit": "以馆方界定的英文改写稿整体为一个对象。",
+      "knownEvidence": [
+        "高校考察资料称馆中陈列《诗经》英文改写稿，并把它与木心让中国文学同世界文学平视的观念联系起来。"
+      ],
+      "candidateRationale": "如果对象身份和文本性质得到确认，它能提供中文诗歌传统经由木心跨语言改写的直接材料，与中文《诗经演》形成非重复的比较。",
+      "possibleValueTypes": [
+        "artistic_breakthrough",
+        "conceptual_question"
+      ],
+      "nextStageChecks": [
+        "优先取得馆方对象页或展签，确认它是翻译、改写、练习还是完整稿本。",
+        "核实年代、篇幅、与《诗经演》的关系及原件状态。",
+        "在缺少馆方或学术一手证据时不得进入正式精选。"
+      ],
+      "evidenceConfidence": "low-medium",
+      "sourceRefs": [
+        "S04"
+      ]
+    },
+    {
+      "candidateId": "muxin-c09",
+      "nameZh": "《哥伦比亚的倒影》初稿",
+      "nameEn": "First draft of Reflections of Colombia",
+      "creator": "木心 Mu Xin",
+      "objectType": "散文手稿",
+      "date": "1986年",
+      "material": "纸本墨迹，待核",
+      "candidateStatus": "conditional",
+      "stableUnit": "以1986年初稿整体为一个对象。",
+      "knownEvidence": [
+        "2022年苏州博物馆与木心美术馆合作展览的报道明确提到1986年《哥伦比亚的倒影》初稿。"
+      ],
+      "candidateRationale": "具名、纪年明确的初稿有机会展示木心旅美写作的形成过程，并为散文手稿提供比泛称“旅美稿件”更稳定的对象单位。",
+      "possibleValueTypes": [
+        "artist_landmark",
+        "social_document"
+      ],
+      "nextStageChecks": [
+        "确认收藏机构、是否已回到木心美术馆常设范围及当前可见状态。",
+        "核实初稿页数、修改层次、首次出版信息和对象图像。",
+        "若仅为2022年临时借展对象则从永久候选中剔除。"
+      ],
+      "evidenceConfidence": "medium",
+      "sourceRefs": [
+        "S08"
+      ]
+    },
+    {
+      "candidateId": "muxin-c10",
+      "nameZh": "《双重悲悼》手稿",
+      "nameEn": "Manuscript of Double Mourning",
+      "creator": "木心 Mu Xin",
+      "objectType": "纪念性文学手稿",
+      "date": "约1991年，待核",
+      "material": "纸本墨迹，待核",
+      "candidateStatus": "conditional",
+      "stableUnit": "以文章手稿整体为一个对象。",
+      "knownEvidence": [
+        "木心美术馆开馆报道称该手稿写于林风眠逝世之际，并曾作为“林风眠与木心”开馆特展连接两位艺术家的文献纽带。"
+      ],
+      "candidateRationale": "它可能把木心的师承记忆、文字纪念与绘画实践连在一个具名对象上，但其是否属于稳定常设范围尚未确认。",
+      "possibleValueTypes": [
+        "artist_landmark",
+        "social_document"
+      ],
+      "nextStageChecks": [
+        "核实准确写作年代、题名、篇幅、馆藏身份及是否只在开馆特展展出。",
+        "寻找馆方或学术来源说明木心与林风眠关系及文本内容。",
+        "若无法证明常设或长期保管关系则剔除。"
+      ],
+      "evidenceConfidence": "low-medium",
+      "sourceRefs": [
+        "S02"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "S01",
+      "title": "Literature Collection",
+      "publisher": "木心美术馆 Mu Xin Art Museum",
+      "url": "https://www.muxinam.com/index_en.php?a=wenxue&m=Guancang",
+      "accessed": "2026-07-23",
+      "sourceStrength": "high",
+      "supports": [
+        "《狱中笔记》的页数、形成处境、巡展与轮换展示",
+        "馆内较完整稿本名单",
+        "文革前、旅美与归国后文学手稿及影像空间"
+      ]
+    },
+    {
+      "sourceId": "S02",
+      "title": "木心“魂归”故里乌镇：一座以“梦想抵抗现实”的博物馆",
+      "publisher": "艺术新闻／The Art Journal",
+      "url": "https://www.theartjournal.cn/institutions/10399",
+      "accessed": "2026-07-23",
+      "sourceStrength": "medium-high",
+      "supports": [
+        "常设展结构与《狱中笔记》独立展厅",
+        "《废谷》的题名、材质、尺寸与年代",
+        "《双重悲悼》手稿曾用于开馆特展"
+      ]
+    },
+    {
+      "sourceId": "S03",
+      "title": "Mu Xin Art Museum Grand Opening Showcases ‘Prison Notes’ and Intricate Landscapes",
+      "publisher": "Artnet News",
+      "url": "https://news.artnet.com/art-world/mu-xin-art-museum-opening-366692",
+      "accessed": "2026-07-23",
+      "sourceStrength": "medium",
+      "supports": [
+        "开馆时常设展示包含绘画与《狱中笔记》",
+        "展示批准与可见状态需后续核实"
+      ]
+    },
+    {
+      "sourceId": "S04",
+      "title": "乌镇木心美术馆烟波桥畔参画境，木心美学话江南",
+      "publisher": "西安美术学院美术史论系",
+      "url": "https://shilun.xafa.edu.cn/info/1036/9618.htm",
+      "accessed": "2026-07-23",
+      "sourceStrength": "medium",
+      "supports": [
+        "馆内文学稿本和文献类型",
+        "《空房间》手稿与《诗经》英文改写稿",
+        "一号展厅媒介范围"
+      ]
+    },
+    {
+      "sourceId": "S05",
+      "title": "“木心逃走了，我们去美术馆找他”",
+      "publisher": "澎湃新闻",
+      "url": "https://www.thepaper.cn/newsDetail_forward_1397020",
+      "accessed": "2026-07-23",
+      "sourceStrength": "medium-high",
+      "supports": [
+        "一号、二号展厅的绘画媒介和年代范围",
+        "晚年微型风景画组",
+        "文学馆较完整稿本名单"
+      ]
+    },
+    {
+      "sourceId": "S06",
+      "title": "邹汉明：“而我辈也曾有过青春”",
+      "publisher": "中国作家网",
+      "url": "https://www.chinawriter.com.cn/n1/2017/0616/c404031-29345134.html",
+      "accessed": "2026-07-23",
+      "sourceStrength": "medium-high",
+      "supports": [
+        "《伪所罗门书》的诗形与《诗经演》的形式比较",
+        "出版文本的文学研究背景"
+      ]
+    },
+    {
+      "sourceId": "S07",
+      "title": "Memoirs of Literature series",
+      "publisher": "木心美术馆 Mu Xin Art Museum",
+      "url": "https://www.muxinam.com/index_en.php?a=wenxuehuiyiluxilie&m=Xueshu",
+      "accessed": "2026-07-23",
+      "sourceStrength": "high",
+      "supports": [
+        "1989至1994年纽约文学讲席的时间、对象与规模",
+        "馆方后续以讲席人物策划特展的机构线索"
+      ]
+    },
+    {
+      "sourceId": "S08",
+      "title": "木心作品亮相苏州博物馆",
+      "publisher": "人民日报海外版",
+      "url": "https://paper.people.com.cn/rmrbhwb/html/2022-09/06/content_25938223.htm",
+      "accessed": "2026-07-23",
+      "sourceStrength": "high",
+      "supports": [
+        "2022年木心美术馆合作展的绘画、书法和手稿类型",
+        "《哥伦比亚的倒影》1986年初稿",
+        "纪录片《木心》《1994》"
+      ]
+    }
+  ]
+}

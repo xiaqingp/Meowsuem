@@ -1,0 +1,293 @@
+{
+  "artifactType": "single-work-author-review",
+  "workId": "sin",
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "finalPassIssued": false,
+  "run": {
+    "runId": "m28-frye-v2.0.5-pilot-2026-07-22",
+    "museumId": "frye",
+    "pipelineVersion": "2.0.5",
+    "instructionVersion": "1.6.9",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "high"
+  },
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "b7a47d3488bf33beda626cc569e42f365d3a21492ca2b0d099f876a6903da978"
+  },
+  "retryVerification": {
+    "reason": "Content instruction 1.6.9 regression",
+    "freshGenerationFromResearchCard": true,
+    "failedProseRead": false,
+    "cardContainsVisibleMetadataPrefix": false,
+    "cardContainsVisibleMetadataDelimiter": false,
+    "detailHasSeparateMaterialLine": true,
+    "completeNegationContrastSkeletonCount": 0,
+    "maximumAllowed": 1
+  },
+  "cardReview": {
+    "visibleProse": "女人与蛇共享一场正面凝视，黑暗、身体和金框把熟悉的“罪”母题压成极具现场张力的寓言。",
+    "visibleCharacterBoundary": "24—100",
+    "boundaryMet": true,
+    "independentClickReason": true,
+    "copiedFromQuickLayer": false,
+    "startsWithGenericViewingCommand": false,
+    "titleAuthorCountryMetadataPrefix": false,
+    "metadataDelimiterInVisibleProse": false,
+    "provenanceHandling": "直接上游记录置于HTML注释，访客可见字段只有一条简介正文。"
+  },
+  "structureReview": {
+    "bilingualWorkName": true,
+    "bilingualArtistName": true,
+    "artistCountryLabel": "德国",
+    "requiredMetadataLines": {
+      "artistOrCulture": true,
+      "date": true,
+      "material": true,
+      "locationOrStatus": true,
+      "visitPriority": true,
+      "significance": true,
+      "suggestedTime": true
+    },
+    "quickLayerIndependent": true,
+    "deepLayerIndependent": true,
+    "observableDetailCount": 6,
+    "secondLookClosesCoreQuestion": true,
+    "exactChineseSectionContractMet": true
+  },
+  "paragraphDependency": [
+    {
+      "paragraph": "P1—30秒先懂",
+      "function": "以女子与蛇的两道凝视提出核心问题，并给出构图压缩寓意的暂时答案和观看路线。",
+      "dependsOn": "只依赖标题与画面可见事实，符合零背景读者起点。",
+      "newUnderstanding": "“罪”先通过观者被两道目光迎住的现场关系成立。",
+      "breaksIfMovedEarlier": "已是全文入口，无需前置移动。"
+    },
+    {
+      "paragraph": "P2—为什么两双眼睛比完整故事更有压力",
+      "function": "拆开女子视线、蛇眼、蛇头和缠肩动作，解释共同凝视怎样承载寓意。",
+      "dependsOn": "依赖P1已提出“两道凝视”是快速抓手。",
+      "newUnderstanding": "裸体、蛇与标题给共同凝视一个“罪/诱惑”的寓意方向，同时无需确认具名人物。",
+      "breaksIfMovedEarlier": "读者尚未把两个亮点视为同一个问题，细节分析会退化为观察清单。"
+    },
+    {
+      "paragraph": "P3—黑暗与金框怎样收紧这场对视",
+      "function": "解释近黑背景、暗部截断、窄竖幅、横向蛇身与建筑式金框的空间机制。",
+      "dependsOn": "依赖P2已建立女子与蛇共同朝向观者的关系。",
+      "newUnderstanding": "压力由明暗、方向和边界的整体设计生成，金框也参与寓意舞台。",
+      "breaksIfMovedEarlier": "若共同凝视尚未成立，空间压缩缺少明确对象，也无法回答它收紧了什么。"
+    },
+    {
+      "paragraph": "P4—为什么斯图克多年后仍在重做这个母题",
+      "function": "在构图机制成立后，引入1891至1912年的多版本事实与Frye件的较晚生涯位置。",
+      "dependsOn": "依赖P3已经说明哪些稳定构图要素值得被长期复演。",
+      "newUnderstanding": "画面是成熟母题的一次较晚重做，作者风格落在反复维持的具体视觉安排上。",
+      "breaksIfMovedEarlier": "先讲版本会成为作者年代资料，读者还不知道究竟是哪套视觉设计被反复使用。"
+    },
+    {
+      "paragraph": "P5—1893年已有相近版本，Frye这件为何仍值得停留",
+      "function": "用最近比较对象限定稀缺性，再把价值落到艺术控制、生涯位置与Frye馆藏作用。",
+      "dependsOn": "依赖P4已建立多版本事实及Frye件为较晚版本。",
+      "newUnderstanding": "比较对象共享核心价值，所以准确等级是重要藏品；Frye件的具体版本差异和馆内锚点作用仍提供观看回报。",
+      "breaksIfMovedEarlier": "没有多版本与作者风格前提，比较会像独立的珍贵度栏目，重要性结论也缺少因果基础。"
+    },
+    {
+      "paragraph": "P6—再看这些容易错过的细节",
+      "function": "把前四段的凝视、方向、压缩、横竖张力与画框机制落实为六个现场动作。",
+      "dependsOn": "依赖P2至P5已经说明这些细节为何共同服务核心问题。",
+      "newUnderstanding": "读者能在原作前逐项验证论证，不把故事与形式分析留在抽象层。",
+      "breaksIfMovedEarlier": "细节会失去认知用途，只剩可调换的导览命令。"
+    },
+    {
+      "paragraph": "P7—最后再看一眼",
+      "function": "沿女子眼睛、蛇眼、蛇身与金框完成第二眼，把观者纳入对视关系。",
+      "dependsOn": "依赖P2建立共同凝视、P3建立框限、P4至P5建立成熟母题与重要性边界。",
+      "newUnderstanding": "标题“罪”被重新理解为女子、蛇与观者之间由构图形成的具体关系。",
+      "breaksIfMovedEarlier": "若尚未理解两道凝视与框限机制，动作只会重复快速层，无法形成第二眼。"
+    },
+    {
+      "paragraph": "P8—事实边界",
+      "function": "收窄版本数量、人物身份、心理与易变在展状态。",
+      "dependsOn": "依赖正文已经正面说明可确认的母题、版本和观察事实。",
+      "newUnderstanding": "读者知道哪些结论稳定，哪些范围应保持开放，不会把寓意扩成具名人物或把快照当保证。",
+      "breaksIfMovedEarlier": "入口若先列限制，会让事实边界接管正文声音，并削弱核心问题的正面推进。"
+    }
+  ],
+  "reorderTest": {
+    "deepParagraphsFreelySwappable": false,
+    "testedMove": "将P5比较与重要性段移到P3之前",
+    "failureProduced": "读者尚不知道稳定构图机制和多版本生涯位置，比较对象会变成孤立资料，且无法推出为何定位为重要藏品。",
+    "verdict": "dependency_confirmed"
+  },
+  "claimClosure": [
+    {
+      "sentence": "标题把裸体、蛇和这种正面相遇引向“罪”与“诱惑”的寓意范围。",
+      "evidenceType": "来源事实与直接观察的合并判断",
+      "sourceOrBasis": "作品标题；画面可见裸体、蛇与正面凝视；研究卡允许“罪/诱惑”寓意范围",
+      "confidence": "高：标题与可见形象直接支持，措辞保持在寓意范围内",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "人物也无需姓名便能让寓意成立。",
+      "evidenceType": "编辑推断",
+      "sourceOrBasis": "前句已经由标题、裸体、蛇和共同凝视建立寓意；人物具体身份未获来源支持",
+      "confidence": "中高：推断过程在段内可见，未把未知身份升级为事实",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "斯图克的象征主义方法就在这些可见安排中起效。",
+      "evidenceType": "来源事实加编辑推断",
+      "sourceOrBasis": "研究卡确认斯图克与象征主义的联系；前文逐项给出人体、动物、明暗、构图和画框证据",
+      "confidence": "高：流派定位有来源，机制判断可由本作观察复核",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "1891至1912年间，斯图克画过多个构图仅有小幅变化的《罪》。",
+      "evidenceType": "来源事实",
+      "sourceOrBasis": "Neue Pinakothek对象资料",
+      "confidence": "高：权威馆藏来源直接陈述时间范围、多版本及小幅构图变化",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "Frye这件约作于1908年，已是这一成名母题的较晚版本，使用蛋彩绘于画布。",
+      "evidenceType": "来源事实",
+      "sourceOrBasis": "Frye对象页的年代与媒材；时间范围比较支持“较晚版本”",
+      "confidence": "高：身份字段直接闭环，“较晚”由1908相对1891至1912范围得出",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "反复出现的窄幅、暗背景、缠肩大蛇与正面凝视，说明这套设计足以承载他持续经营的象征主义语言。",
+      "evidenceType": "编辑推断",
+      "sourceOrBasis": "多版本与小幅构图变化的来源事实；Frye件和1893年比较对象共享的可见构图",
+      "confidence": "中高：结论限定为设计持续性，不声称作者确定意图",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "Neue Pinakothek收藏的1893年《罪》是最近的比较对象。",
+      "evidenceType": "有来源的编辑比较",
+      "sourceOrBasis": "研究卡指定最近对象，并列出共享构图与差异",
+      "confidence": "高：比较范围是同作者同母题的近似版本",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "多个近似版本把稀缺性限制在中低水平。",
+      "evidenceType": "来源事实支持的编辑判断",
+      "sourceOrBasis": "1891至1912年多个版本；最近对象共享核心艺术史与构图价值",
+      "confidence": "高：结论主动缩小稀缺性，不依赖未知的精确总数",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "这件作品的分量落在成熟的构图控制、作者成名母题的生涯位置，以及它作为Frye馆内斯图克与慕尼黑象征主义锚点的作用；“重要藏品”准确概括了这层价值。",
+      "evidenceType": "五维重要性编辑判断",
+      "sourceOrBasis": "可观察的构图机制、多版本与生涯位置、Frye创馆收藏身份、最近比较对象可替代核心价值",
+      "confidence": "高：艺术、艺术史、生涯与馆藏作用均有闭环，稀世珍品硬门明确未通过",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "标题里的“罪”会落到一组具体关系上：女子、蛇和观者共同构成的一次对视。",
+      "evidenceType": "编辑推断",
+      "sourceOrBasis": "女子与蛇朝向画外的两处凝视亮点，以及第二眼的明确视线动作",
+      "confidence": "中高：用“会”呈现观看效果，不写作者意图或观者必然心理",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "2026-07-22馆方索引显示在展，实际状态可能变化。",
+      "evidenceType": "带日期的来源事实",
+      "sourceOrBasis": "Frye On View索引快照",
+      "confidence": "高：日期和易变边界均显式保留",
+      "verdict": "retain"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这幅画把女人、蛇和两双眼睛压进黑暗与金框里，让“罪”先变成一场迎面而来的对视；多个版本说明这是斯图克长期经营的成熟母题，Frye这件重要，却不靠稀有取胜。",
+    "translationeseFindings": [],
+    "readAloudChecks": {
+      "titleAndQuickLayer": "passed",
+      "paragraphTransitions": "passed",
+      "comparisonParagraph": "passed",
+      "secondLook": "passed"
+    },
+    "readAloudVerdict": "passed",
+    "notes": "各段主语清楚；标题可口头复述；“两道凝视—空间收紧—母题复演—比较定级—第二眼”连续朗读时因果关系自然。"
+  },
+  "productionLanguageScan": {
+    "scope": [
+      "card.txt访客可见简介",
+      "draft.md访客可见详情"
+    ],
+    "checkedCategories": {
+      "internalResearchGap": false,
+      "imageLicenseTask": false,
+      "publicationTaskOrStatus": false,
+      "testOrRegressionLanguage": false,
+      "prompt": false,
+      "generator": false,
+      "reviewer": false,
+      "migration": false
+    },
+    "factBoundaryContainsOnlyVisitorRelevantLimits": true,
+    "verdict": "clean"
+  },
+  "significanceReview": {
+    "assignedLabel": "重要藏品",
+    "visitPriority": "绝对不可错过",
+    "fiveDimensions": {
+      "artisticAchievement": "closed：两道凝视、窄幅、明暗截断、横纵张力与建筑式画框形成具体的整体构图机制。",
+      "artHistoricalPosition": "closed：斯图克象征主义成名母题在1891至1912年间被持续复演，Frye件为较晚版本。",
+      "historicalCulturalValue": "closed_with_limit：呈现象征主义对罪、诱惑与情色身体的寓意处理，不承担具体历史事件见证。",
+      "rarityAndIrreplaceability": "closed：多个近似版本与1893年最近对象共享核心价值，稀缺性中低，未通过稀世珍品硬门。",
+      "museumCollectionPosition": "closed：Frye创馆收藏中斯图克与慕尼黑象征主义的锚点。"
+    },
+    "nearestComparator": "Neue Pinakothek，Franz von Stuck，1893年《Die Sünde》",
+    "sharedCore": "窄竖幅、暗背景、蛇缠双肩、女子正面凝视",
+    "decisiveDifferenceBoundary": "年代、蛋彩/画布、具体色调与画框形成版本差异，但不足以建立全球不可替代性。",
+    "frye72BoundaryRespected": true,
+    "overclaimScan": {
+      "rareTreasure": false,
+      "worldClassMustSee": false,
+      "uniqueOrOnly": false,
+      "tripDecidingClaim": false
+    },
+    "verdict": "ready_for_independent_significance_check"
+  },
+  "voiceSelfAssessment": {
+    "entry": 2,
+    "causality": 2,
+    "human": 1,
+    "turn": 2,
+    "visualPayoff": 2,
+    "spokenClarity": 2,
+    "secondLook": 2,
+    "total": 13,
+    "candidateOpinionOnly": true,
+    "note": "本作不是事件画，人的选择与制度因果适用度低，因此“人”项保守记1；该分数不构成通过证据。"
+  },
+  "unresolvedRisks": [
+    {
+      "risk": "相关《罪》版本的精确总数未形成一致公开结论。",
+      "containment": "正文只写1891至1912年间存在多个近似版本，并在事实边界明确总数未知。",
+      "visitorImpact": "不影响当前重要藏品定位，但禁止任何唯一、首版或精确数量说法。"
+    },
+    {
+      "risk": "人物具体身份缺少足够证据。",
+      "containment": "正文停留在由标题、裸体和蛇支持的罪/诱惑寓意范围，不命名Eve。",
+      "visitorImpact": "保留图像学开放性。"
+    },
+    {
+      "risk": "在展信息属于2026-07-22快照。",
+      "containment": "地点/状态行与事实边界均保留日期及易变限定。",
+      "visitorImpact": "到访前仍需以馆方实时信息为准。"
+    },
+    {
+      "risk": "Frye低清图的再利用许可未确认。",
+      "containment": "访客正文未写许可待办，也未把图片纳入本次交付；该事项仅保留在内部风险记录。",
+      "visitorImpact": "不影响文字候选，影响未来图片再发布授权。"
+    }
+  ],
+  "handoff": {
+    "nextStage": "independent-review",
+    "authorRecommendation": "Review the sealed artifacts against the same locked acceptance criteria.",
+    "independentReviewerMustDecideFinalPass": true
+  }
+}

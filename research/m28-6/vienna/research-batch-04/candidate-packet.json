@@ -1,0 +1,260 @@
+{
+  "schemaVersion": "museum-research-packet/1.0",
+  "museum": {
+    "museumId": "vienna",
+    "nameZh": "维也纳艺术史博物馆",
+    "nameEn": "Kunsthistorisches Museum Vienna",
+    "location": "Maria-Theresien-Platz, Vienna, Austria",
+    "scopeType": "single_building"
+  },
+  "poolDecision": {
+    "status": "candidate_pool_complete",
+    "targetCount": 40,
+    "candidateCount": 40,
+    "selectionStatus": "not_selected",
+    "ratingStatus": "not_started",
+    "principle": "候选池按主馆五个常设收藏与馆舍空间建立；每项须能回答一个本馆独有问题，并有馆方一手页面支持身份或空间边界。本文件不预判正式入选、参观优先级、重要性、稀世珍品或评分。",
+    "allocation": {
+      "picture_gallery": 16,
+      "kunstkammer": 8,
+      "greek_roman_antiquities": 6,
+      "egyptian_near_eastern": 5,
+      "coin_cabinet": 2,
+      "building_integrated_display": 3
+    }
+  },
+  "candidates": [
+    {
+      "candidateId": "vienna-egy-01-ka-ni-nisut-chapel",
+      "collection": "egyptian_near_eastern",
+      "type": "cult_chamber",
+      "nameZh": "卡尼尼苏特祭祀室",
+      "nameEn": "Chapel of Ka-ni-nisut",
+      "makerOrCulture": "古埃及，吉萨",
+      "date": "第五王朝早期，约公元前 2500 年",
+      "identityBasis": "馆方对象页标示埃及与近东收藏第 II 厅在展，并记录发掘、购藏、安装和重建历史。",
+      "candidateReason": "完整祭祀空间能直接解释古王国墓葬仪式、假门和持续供养制度，也是维也纳吉萨发掘线的核心。",
+      "museumQuestionAdded": "墓室上方的祭祀空间怎样让死者、家属、祭司与供品维持长期关系？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_EGY_CHAPEL"
+      ]
+    },
+    {
+      "candidateId": "vienna-egy-02-reserve-head",
+      "collection": "egyptian_near_eastern",
+      "type": "sculpture",
+      "nameZh": "储备头像",
+      "nameEn": "Reserve Head",
+      "makerOrCulture": "古埃及，吉萨",
+      "date": "第四王朝胡夫时期，约公元前 2609–2584 年",
+      "identityBasis": "馆方对象页标示埃及与近东收藏第 VII 厅在展，出土墓葬、材质与发掘来源明确。",
+      "candidateReason": "已知同类仅略多于 30 件而功能仍未解决，兼具稀有类型、考古语境和真实学术未知。",
+      "museumQuestionAdded": "为什么古王国墓中会放置独立石头像，并有意损伤耳部和后脑？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_EGY_RESERVE"
+      ]
+    },
+    {
+      "candidateId": "vienna-egy-03-babylon-lion",
+      "collection": "egyptian_near_eastern",
+      "type": "architectural_relief",
+      "nameZh": "巴比伦行进狮子砖墙浮雕",
+      "nameEn": "Wall Section with Relief of a Striding Lion",
+      "makerOrCulture": "新巴比伦，巴比伦游行大道",
+      "date": "尼布甲尼撒二世时期，公元前 604–562 年",
+      "identityBasis": "馆方对象页标示埃及与近东收藏第 VIa 厅在展，出土地、材料、尺寸和来源清楚。",
+      "candidateReason": "以彩釉砖和建筑尺度补足近东线，连接伊什塔尔女神、城门游行大道与帝国城市设计。",
+      "museumQuestionAdded": "一只重复出现在城墙上的狮子怎样把宗教符号、建筑材料与国家仪式结合起来？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_EGY_LION"
+      ]
+    },
+    {
+      "candidateId": "vienna-egy-04-kai-pu-ptah-ipep",
+      "collection": "egyptian_near_eastern",
+      "type": "sculpture_group",
+      "nameZh": "凯普普塔与伊佩普双人像",
+      "nameEn": "Statue Group of Kai-pu-ptah and Ipep",
+      "makerOrCulture": "古埃及，吉萨",
+      "date": "第五王朝晚期，约公元前 2400 年",
+      "identityBasis": "馆方对象页标示埃及与近东收藏第 VII 厅在展，姓名、出土位置和发掘来源明确，同时保留两人关系未知。",
+      "candidateReason": "将吉萨墓葬雕像的性别姿态、铭文身份与尚未解决的人物关系集中在一件作品中。",
+      "museumQuestionAdded": "当名字可以读出而人物关系仍未知时，姿势、铭文与墓葬位置分别能证明什么？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_EGY_KAI"
+      ]
+    },
+    {
+      "candidateId": "vienna-egy-05-gem-nef-hor-bak",
+      "collection": "egyptian_near_eastern",
+      "type": "sculpture",
+      "nameZh": "杰姆内夫霍尔巴克抱龛跪像",
+      "nameEn": "Naophorous Statue of Gem-nef-hor-bak",
+      "makerOrCulture": "古埃及，可能来自塞易斯",
+      "date": "第三十王朝，公元前 4 世纪上半叶",
+      "identityBasis": "馆方对象页标示埃及与近东收藏第 IX 厅在展，人物职衔、材料、来源与约 1560 年入藏史明确。",
+      "candidateReason": "是馆方所述最早进入维也纳收藏的埃及对象，可把古埃及神庙雕像与欧洲早期收藏史连接起来。",
+      "museumQuestionAdded": "一尊原在神庙中的抱龛跪像，怎样在十六世纪成为维也纳埃及收藏的起点？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_EGY_GEMNEF"
+      ]
+    },
+    {
+      "candidateId": "vienna-coin-01-sigismund-guldiner",
+      "collection": "coin_cabinet",
+      "type": "coin",
+      "nameZh": "西吉斯蒙德银古尔迪纳",
+      "nameEn": "Guldiner of Archduke Sigismund",
+      "makerOrCulture": "蒂罗尔哈恩铸币厂",
+      "date": "1486",
+      "identityBasis": "馆方对象页标示钱币馆第 I 室在展，面额、铸地、材质、重量、直径和馆藏编号明确。",
+      "candidateReason": "以大尺寸银币呈现统治者全身像、纹章与名号，适合作为货币从价值工具到权力图像的入口。",
+      "museumQuestionAdded": "一枚大型银币怎样同时解决支付尺度、君主肖像与领地权威的传播？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_COIN_GULDINER",
+        "S_COIN_OVERVIEW"
+      ]
+    },
+    {
+      "candidateId": "vienna-coin-02-charles-v-dedication-medal",
+      "collection": "coin_cabinet",
+      "type": "medal",
+      "nameZh": "纽伦堡献给查理五世的纪念章",
+      "nameEn": "Dedication Medal of the City of Nuremberg for Charles V",
+      "makerOrCulture": "阿尔布雷希特·丢勒设计 Albrecht Dürer",
+      "date": "约 1521",
+      "identityBasis": "馆方对象页标示钱币馆第 I 室在展，设计者、人物、材质、铭文和馆藏编号明确。",
+      "candidateReason": "以城市献礼、皇帝肖像、十四面纹章和“更远之外”格言说明纪念章与流通货币的不同政治功能。",
+      "museumQuestionAdded": "不用于日常支付的纪念章，怎样把城市、皇帝与帝国领地关系浓缩成可持有的图像？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_COIN_DURER_MEDAL",
+        "S_COIN_OVERVIEW"
+      ]
+    },
+    {
+      "candidateId": "vienna-space-01-museum-building",
+      "collection": "building_integrated_display",
+      "type": "architecture",
+      "nameZh": "维也纳艺术史博物馆主馆建筑",
+      "nameEn": "Kunsthistorisches Museum Main Building",
+      "makerOrCulture": "戈特弗里德·森佩尔 Gottfried Semper；卡尔·冯·哈森瑙尔 Carl von Hasenauer",
+      "date": "1871–1891，1891 年开放",
+      "identityBasis": "馆方馆舍专题确认建筑师、建造年代、委托人、双馆关系和 Maria-Theresien-Platz 主馆边界。",
+      "candidateReason": "主馆从设计之初就是为哈布斯堡收藏建造的整体艺术品，外立面雕塑与内部分类共同表达现代公共博物馆的形成。",
+      "museumQuestionAdded": "帝国收藏从宫殿迁入公共博物馆时，建筑怎样替它们重新安排知识与权力秩序？",
+      "availabilityEvidence": "permanent_space",
+      "sourceRefs": [
+        "S_BUILDING"
+      ]
+    },
+    {
+      "candidateId": "vienna-space-02-grand-staircase-ensemble",
+      "collection": "building_integrated_display",
+      "type": "architecture_and_integrated_art",
+      "nameZh": "主楼梯整体：卡诺瓦《忒修斯战胜半人马》与楼梯绘画",
+      "nameEn": "Grand Staircase Ensemble with Canova's Theseus Slaying the Centaur",
+      "makerOrCulture": "Antonio Canova；Mihály von Munkácsy；Hans Makart；Gustav Klimt、Ernst Klimt、Franz Matsch",
+      "date": "雕塑 1810–1819；楼梯装饰主要完成于 19 世纪 80–90 年代",
+      "identityBasis": "馆方馆舍专题明确楼梯空间、卡诺瓦雕塑、天顶画与拱肩／柱间绘画的作者和空间关系；雕塑对象页标示楼梯在展。",
+      "candidateReason": "这是从入口阴影走向主层收藏的视觉高潮，雕塑、绘画与建筑共同把参观动线变成帝国艺术史叙事。",
+      "museumQuestionAdded": "楼梯为何不只是交通空间，而是让观众在进入画廊前先经历一套艺术史和帝国自我形象？",
+      "availabilityEvidence": "permanent_space",
+      "sourceRefs": [
+        "S_BUILDING",
+        "S_SPACE_THESEUS",
+        "S_SPACE_KLIMT_EGYPT"
+      ]
+    },
+    {
+      "candidateId": "vienna-space-03-cupola-hall",
+      "collection": "building_integrated_display",
+      "type": "architecture_and_space",
+      "nameZh": "穹顶大厅",
+      "nameEn": "Cupola Hall",
+      "makerOrCulture": "Gottfried Semper；Carl von Hasenauer 及馆舍装饰团队",
+      "date": "1871–1891",
+      "identityBasis": "馆方馆舍专题明确八角形平面、跨越主层与二层的空间、内外穹顶高差及统治者图像装饰。",
+      "candidateReason": "它是主馆中央轴线和帝国自我表现的顶点，也在实际参观中连接绘画馆、钱币馆与公共停留空间。",
+      "museumQuestionAdded": "中央穹顶怎样把分散的收藏楼层、统治者历史与观众身体汇聚到一个共同中心？",
+      "availabilityEvidence": "permanent_space",
+      "sourceRefs": [
+        "S_BUILDING"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S_EGY_CHAPEL",
+      "title": "Chapel of Ka-ni-nisut",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/chapel-of-ka-ni-nisut-317061"
+    },
+    {
+      "id": "S_EGY_RESERVE",
+      "title": "Reserve Head",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/reserve-head-322358"
+    },
+    {
+      "id": "S_EGY_LION",
+      "title": "Wall Section with Relief of a Striding Lion",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/wandstueck-mit-dem-relief-eines-schreitenden-loewen-376850-1"
+    },
+    {
+      "id": "S_EGY_KAI",
+      "title": "Statue Group of Kai-pu-ptah and Ipep",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/statue-group-of-kai-pu-ptah-and-ipep-323871"
+    },
+    {
+      "id": "S_EGY_GEMNEF",
+      "title": "Naophorous Statue of Gem-nef-hor-bak",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/naophorous-statue-of-gem-nef-hor-bak-316886"
+    },
+    {
+      "id": "S_COIN_OVERVIEW",
+      "title": "Coin Cabinet – the fascinating world of coins and medals",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/exhibitions/muenzkabinett"
+    },
+    {
+      "id": "S_COIN_GULDINER",
+      "title": "Guldiner of Archduke Sigismund, 1486",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/kunstwerke/ehg-sigismund-guldiner-frontal-im-harnisch-stehend-turnierreiter-1009266"
+    },
+    {
+      "id": "S_COIN_DURER_MEDAL",
+      "title": "Dedication Medal of the City of Nuremberg for Charles V",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/kunstwerke/medaille-1008262"
+    },
+    {
+      "id": "S_BUILDING",
+      "title": "The Kunsthistorisches Museum – a Gesamtkunstwerk",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/exhibitions/the-kunsthistorisches-museum-gesamtkunstwerk"
+    },
+    {
+      "id": "S_SPACE_THESEUS",
+      "title": "Theseus Slaying the Centaur",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/theseusgruppe-theseus-besiegt-den-kentauren-1132785-1"
+    },
+    {
+      "id": "S_SPACE_KLIMT_EGYPT",
+      "title": "Egypt",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/aegypten-1311303-1"
+    }
+  ]
+}

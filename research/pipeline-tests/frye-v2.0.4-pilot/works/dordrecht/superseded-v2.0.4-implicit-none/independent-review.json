@@ -1,0 +1,225 @@
+{
+  "workId": "dordrecht",
+  "reviewType": "fresh-independent-review",
+  "reviewerIndependence": {
+    "participatedInAuthoring": false,
+    "authorArtifactsEdited": false,
+    "restrictedInputCompliance": true
+  },
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "c62b6dc330ff16872f9e77a6f36891b05d0e5c1c439b1d60491d07cb9c6a5dd2"
+  },
+  "artifactHashes": {
+    "research-card.md": "c3bb8894b9129dfe4a0a49d38f096ac9e191fc99fed4b39448294cbc94898c35",
+    "writing-plan.json": "d6627f62e1824ab2dda5514c8d85773bf9e5d69126aa7bc866f33f48b383a796",
+    "card.txt": "be9ed0ca477182bede3e5bfd3d36f4f7b1e71bbe59cd7f044e7e373946c06bd9",
+    "draft.md": "c62b6dc330ff16872f9e77a6f36891b05d0e5c1c439b1d60491d07cb9c6a5dd2"
+  },
+  "directUpstreamChain": {
+    "declared": "batch-01/source-pack.md -> research-card.md -> writing-plan.json -> card.txt -> draft.md -> independent-review.json",
+    "links": [
+      {
+        "artifact": "research-card.md",
+        "declaredDirectUpstream": "../../batch-01/source-pack.md",
+        "declaredSha256": "1b14092fcb94d8fc908227917e92dabf0175f01cb5e1853b2d42d724ecd66e3e",
+        "actualSha256": "1b14092fcb94d8fc908227917e92dabf0175f01cb5e1853b2d42d724ecd66e3e",
+        "verified": true
+      },
+      {
+        "artifact": "writing-plan.json",
+        "declaredDirectUpstream": "research-card.md",
+        "declaredSha256": "c3bb8894b9129dfe4a0a49d38f096ac9e191fc99fed4b39448294cbc94898c35",
+        "actualSha256": "c3bb8894b9129dfe4a0a49d38f096ac9e191fc99fed4b39448294cbc94898c35",
+        "verified": true
+      },
+      {
+        "artifact": "card.txt",
+        "declaredDirectUpstream": "writing-plan.json",
+        "declaredSha256": "d6627f62e1824ab2dda5514c8d85773bf9e5d69126aa7bc866f33f48b383a796",
+        "actualSha256": "d6627f62e1824ab2dda5514c8d85773bf9e5d69126aa7bc866f33f48b383a796",
+        "verified": true
+      },
+      {
+        "artifact": "draft.md",
+        "declaredDirectUpstream": "card.txt",
+        "declaredSha256": "be9ed0ca477182bede3e5bfd3d36f4f7b1e71bbe59cd7f044e7e373946c06bd9",
+        "actualSha256": "be9ed0ca477182bede3e5bfd3d36f4f7b1e71bbe59cd7f044e7e373946c06bd9",
+        "verified": true
+      },
+      {
+        "artifact": "independent-review.json",
+        "declaredDirectUpstream": "draft.md",
+        "declaredSha256": "c62b6dc330ff16872f9e77a6f36891b05d0e5c1c439b1d60491d07cb9c6a5dd2",
+        "actualSha256": "c62b6dc330ff16872f9e77a6f36891b05d0e5c1c439b1d60491d07cb9c6a5dd2",
+        "verified": true
+      }
+    ],
+    "verdict": "PASS"
+  },
+  "mechanicalChecks": {
+    "cardVisibleCharacters": 68,
+    "cardRequiredRange": "24-100",
+    "quickLayerVisibleCharacters": 113,
+    "quickLayerRequiredRange": "70-240",
+    "deepLayerVisibleCharacters": 715,
+    "deepLayerMinimum": 320,
+    "metadataComplete": true,
+    "dualLayerPresent": true,
+    "observableDetailCount": 4,
+    "workSpecificFinalLookPresent": true,
+    "factBoundaryPresent": true,
+    "clickableSourcePresent": true,
+    "negationContrastSkeletonCount": 0,
+    "verdict": "PASS"
+  },
+  "independenceChecks": {
+    "cardIndependent": true,
+    "quickLayerIndependent": true,
+    "deepLayerIndependent": true,
+    "cardQuickDeepDuplication": "No material sentence reuse. The card gives a standalone click-value judgment; the quick layer supplies a complete provisional answer and route; the deep layer can be understood without the quick layer.",
+    "verdict": "PASS"
+  },
+  "paragraphDependencyReview": {
+    "coreQuestion": "为什么标题点出教堂，画面里最有分量的却是天空？",
+    "sequence": [
+      {
+        "paragraph": "面积反差与教堂的尺度作用",
+        "dependsOn": "标题与画面中教堂/天空的可见反差",
+        "newUnderstanding": "教堂从题名主体转为城市坐标和云天尺度参照",
+        "breaksIfMovedEarlier": "This is the opening premise and needs no earlier deep paragraph."
+      },
+      {
+        "paragraph": "云层与水面形成天气结构",
+        "dependsOn": "教堂已经被建立为低处的稳定参照",
+        "newUnderstanding": "天空的分量不仅来自面积，也来自云色被水面短笔触延续",
+        "breaksIfMovedEarlier": "The claim that the stable tower reveals changing color would lack its established reference function."
+      },
+      {
+        "paragraph": "晚期方法与小木板",
+        "dependsOn": "云、水、城廓各自的画面作用已经被辨认",
+        "newUnderstanding": "这些关系被放进布丹晚期港口天气方法与小尺幅组织中",
+        "breaksIfMovedEarlier": "The listed formal tasks would arrive before the reader had seen why they matter."
+      },
+      {
+        "paragraph": "Le Havre 比较与 Frye 馆藏位置",
+        "dependsOn": "本作的天气机制、地点标记和载体差异已经建立",
+        "newUnderstanding": "比较组能替代核心天气方法，本作的差异和馆藏作用成立，但不可替代性不成立",
+        "breaksIfMovedEarlier": "The shared core and decisive difference would be labels without the preceding visual mechanism."
+      }
+    ],
+    "reorderingTest": "PASS: moving the later method or comparator paragraphs earlier would remove premises needed for their significance judgments.",
+    "verdict": "PASS"
+  },
+  "claimAudit": {
+    "verdict": "FAIL",
+    "supportedClaims": [
+      "Title, artist, date, medium, dimensions, collection status, and mutable on-view boundary match the supplied evidence.",
+      "Low horizon, gray-white-blue clouds, distant church/tower, horizontal water strokes, boats/sails, and dark shoreline stay within supplied direct observation.",
+      "The comparison with Boudin's Le Havre harbor group, limited single-work rarity, and Frye collection role match the research card and plan.",
+      "The draft does not identify the building as Grote Kerk, claim an on-site completion, add a specific trip, invoke Monet, claim unique rarity, or assign psychology."
+    ],
+    "failures": [
+      {
+        "sentence": "载体只有约 30 × 42 厘米，有限面积促使每一部分承担明确任务：塔楼辨认地点，暗岸线稳住下缘，水面短笔触传递上方色彩。",
+        "reason": "The dimensions and visible functions are supported, but ‘有限面积促使’ turns size into an unqualified causal explanation. The plan expressly says the small panel is insufficient to prove authorial intent and only permits saying that its limited area concentrates cloud, water, and skyline.",
+        "action": "Remove or explicitly narrow the unsupported size-causes-design causal claim; retain only observations or a clearly marked editorial inference supported by the supplied evidence."
+      },
+      {
+        "sentence": "他长期描绘港口、海岸与多变天空……",
+        "reason": "The supplied source pack and research card both flag the institutional author biography as still needing stronger authority before publication. No completed supporting source is present in the authorized evidence chain.",
+        "action": "Either add authoritative evidence upstream and regenerate through the declared chain, or narrow/remove the career-wide claim."
+      }
+    ],
+    "unplannedHighRiskClaims": [
+      "The unqualified causal upgrade from panel size to compositional task assignment."
+    ]
+  },
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这幅小画把教堂和城市压在低处，让云、水和天气成为主角；塔尖既标出多德雷赫特，也帮观众量出天空与水域有多宽。",
+    "readAloudPerformed": true,
+    "translationeseFindings": [
+      {
+        "text": "可见笔触让天气显得持续变化，同时没有替作品补写具体作画速度或完成过程。",
+        "finding": "The second half changes from visitor explanation to audit-style self-description. It is not natural spoken Chinese in an artwork explanation and exposes the drafting/research operation."
+      }
+    ],
+    "readAloudVerdict": "failed"
+  },
+  "productionLanguageScan": {
+    "verdict": "FAIL",
+    "finding": "‘同时没有替作品补写具体作画速度或完成过程’ tells visitors what the writer deliberately did not fabricate. This is internal evidence-boundary/review language even though it avoids the canonical keyword examples.",
+    "action": "Remove the internal self-audit statement from visitor prose; communicate only evidence-supported information about the artwork."
+  },
+  "significanceReview": {
+    "fiveDimensions": {
+      "artisticAchievement": "PASS: the draft identifies low horizon, cloud color, water strokes, and compact spatial control.",
+      "artHistoryPosition": "PASS WITH EVIDENCE ISSUE: it places the work in Boudin's mature/late weather practice, but the career-wide support must be strengthened upstream.",
+      "historicalCulturalValue": "PASS: Dordrecht and the church silhouette provide bounded place identification without inventing a specific building or trip.",
+      "rarityAndIrreplaceability": "PASS: single-work rarity is explicitly limited and no rare-masterpiece claim is made.",
+      "collectionPosition": "PASS: it is framed as a French weather-painting branch within Frye's German-speaking founding-collection emphasis."
+    },
+    "nearestComparator": "Boudin's Le Havre harbor-view group",
+    "sharedCore": "Low horizon, cloud-dominant weather structure, and reduced boats and shoreline.",
+    "decisiveDifference": "Dordrecht's church silhouette supplies place recognition and the work uses a small wood panel.",
+    "nonSubstitutabilityBoundary": "The comparator can supply the same core weather method; Dordrecht place identity and panel format differentiate this work but do not establish globally non-substitutable value.",
+    "frye72BoundaryRespected": true,
+    "verdict": "PASS"
+  },
+  "workSpecificityReview": {
+    "verdict": "PASS",
+    "evidence": "The question, low Dordrecht skyline, church-tower scale marker, cloud/water relation, small panel, Le Havre comparator, and tower-tip final look would not transfer unchanged to another work."
+  },
+  "voiceScores": {
+    "entrance": {
+      "score": 2,
+      "evidence": "‘教堂塔楼在画面低处露出尖顶，真正占满视野的是层层叠起的灰白蓝云’ immediately establishes a visible, specific tension."
+    },
+    "causality": {
+      "score": 2,
+      "evidence": "The draft connects low horizon and area contrast to the tower's role as a scale marker, then connects cloud color and water strokes to the weather structure."
+    },
+    "people": {
+      "score": 2,
+      "evidence": "Human/institutional motivation is not material to this landscape's evidence; the draft appropriately avoids inventing Boudin's psychology or intention."
+    },
+    "turn": {
+      "score": 2,
+      "evidence": "The church shifts from apparent title subject to a stable coordinate that makes the much larger, changing weather visible."
+    },
+    "visualPayoff": {
+      "score": 2,
+      "evidence": "Each interpretive step returns to tower, skyline, clouds, horizontal water strokes, boats/sails, or dark shoreline."
+    },
+    "oralClarity": {
+      "score": 1,
+      "evidence": "Most prose reads clearly aloud, but ‘没有替作品补写具体作画速度或完成过程’ is audit-style, visitor-inappropriate language and breaks the spoken explanation."
+    },
+    "secondLook": {
+      "score": 2,
+      "evidence": "The final action fixes on the tower tip, scans the skyline, and compares cloud area with horizontal water strokes to recover the core scale judgment."
+    },
+    "total": 13,
+    "maximum": 14,
+    "threshold": 12,
+    "hasZero": false,
+    "thresholdVerdict": "PASS"
+  },
+  "mechanicalVerdict": "PASS",
+  "factBoundaryVerdict": "FAIL",
+  "narrativeVerdict": "PASS",
+  "nativeChineseVerdict": "FAIL",
+  "significanceVerdict": "PASS",
+  "workSpecificVerdict": "PASS",
+  "productionLanguageVerdict": "FAIL",
+  "failureReasons": [
+    "Hard gate: visitor prose contains internal self-audit language about not supplying an unsupported painting speed or completion process.",
+    "Hard gate: the sentence beginning ‘有限面积促使’ upgrades panel size into an unqualified causal explanation beyond the plan's permitted wording.",
+    "Hard gate: the career-wide statement that Boudin long painted ports, coasts, and changing skies remains flagged upstream as needing authoritative institutional support before publication.",
+    "Native-Chinese gate: the audit-style sentence cannot be naturally retold as visitor-facing artwork explanation and makes translationeseFindings nonempty."
+  ],
+  "finalVerdict": "FAIL"
+}

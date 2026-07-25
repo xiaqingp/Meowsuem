@@ -1,0 +1,16 @@
+{
+  "decisions": [
+    {
+      "workId": "double-elvis-model-fixture",
+      "status": "accepted",
+      "selectedCandidateId": "candidate-work",
+      "confidence": 0.99,
+      "evidence": [
+        "The candidate metadata identifies the image URL as an official Seattle Art Museum object-page preview with method official_og_image.",
+        "The image shows a complete two-figure Elvis composition on a single artwork view, matching the locked identity title Double Elvis by Andy Warhol.",
+        "The alternate candidate is an outdoor architectural image and does not depict the locked work."
+      ],
+      "reason": "candidate-work is the official object-page main image and its complete visible composition matches Double Elvis; candidate-wrong is unrelated."
+    }
+  ]
+}

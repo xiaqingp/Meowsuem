@@ -1,0 +1,49 @@
+{
+    "runId":  "m28-12-v2.7.1-seattle-candidate-pool-2026-07-24",
+    "stage":  "museum_candidate_pool",
+    "museumId":  "seattle",
+    "workId":  "",
+    "pipelineVersion":  "2.7.1",
+    "instructionVersion":  "2.1.0",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-07-24T22:25:09.5438461-07:00",
+    "modelStartedAt":  "2026-07-24T22:25:09.8509903-07:00",
+    "modelCompletedAt":  "2026-07-24T22:29:01.5562903-07:00",
+    "completedAt":  "2026-07-24T22:29:01.5796161-07:00",
+    "runnerDurationMs":  232036,
+    "modelDurationMs":  231705,
+    "tokenUsage":  {
+                       "total":  118822,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "2",
+                                    "4",
+                                    "9",
+                                    "12",
+                                    "13"
+                                ],
+    "logPath":  "research/m28-12/seattle/candidate-pool/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "ccd00997261deb8d327f185f373a779f1654fdf21f15f9c1bf1eaa952b90cb83"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/scope/museum-scope.json",
+                       "role":  "museum_scope",
+                       "sha256":  "df4bf6e1b0ecdc6e23d6fd8d1f04e4f4c9749ea703403853b91f4d3e15f8c7cb"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "candidate-pool.json",
+                        "sha256":  "34e968b709cb34159e8620709954146deb7e88c3d375391aa22764735591145f",
+                        "bytes":  26158
+                    }
+                ]
+}

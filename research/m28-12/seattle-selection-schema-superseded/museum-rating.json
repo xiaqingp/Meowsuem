@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "museum-rating/1.0",
+  "runId": "m28-12-v2.7.1-seattle-museum-selection-2026-07-24",
+  "museumId": "seattle",
+  "score": 75,
+  "scoreBand": "70–79 · 可去可不去",
+  "shortAction": "可去可不去",
+  "travelAction": "已经来到西雅图、又对现代艺术、西北海岸原住民艺术或跨文化器物感兴趣时，可以给市中心主馆安排半天；普通游客跳过也不会形成重大遗憾。",
+  "scoreReason": "《海变》保存波洛克由画架与画笔转向地面滴洒的两阶段证据，《双重猫王》让 1976 年 SAM 委托的空白板进入作品结构；Naaxein 把西北海岸纺织的材料、身份权利与舞动语境连在一起，Idia 腰饰面具则把 Benin 王室纪念与 1897 年掠夺史汇于一物。其余美国艺术、古代美洲、罗马埃及、伊斯兰手稿及非洲—葡萄牙象牙器形成一套完整半日路线，但 20 件中没有任何对象通过稀世珍品的全球不可替代性硬门。",
+  "withinBandReason": "位于 70 档中段上沿：四个强入口分属现代艺术、西北海岸纺织、Benin 王室艺术与收藏伦理，另外十二件重要藏品维持了跨媒介和跨文明密度，因此高于仅有零散亮点的 70–72，也足以支持一场完整参观。它仍低于 76–77 的同城高优先级段，因为所有核心作品都有能够解释同一主要价值的近比，尚无一条收藏线获得对象级世界权威证据；多件作品当天状态未知，《风暴将至》确认外借，《圣物匣》明确不在展，《蓝色古兰经》书叶也不是 downtown 主馆的确定展品。",
+  "limitations": "本评分和 20 件清单只覆盖 1300 First Avenue 的 downtown 主馆，不把 Seattle Asian Art Museum、Olympic Sculpture Park 或临展借入作品纳入加分。馆藏对象不等于当天在展；出发前应核验具体作品、展厅和跨馆址状态。",
+  "dedicatedTrip": false,
+  "rareAssets": [],
+  "selectedWorkCount": 20,
+  "importanceCounts": {
+    "稀世珍品": 0,
+    "重要藏品": 16,
+    "特色看点": 4,
+    "体验补充": 0
+  },
+  "calibratedAgainst": [
+    "alhambra",
+    "anchorage",
+    "british",
+    "chichu",
+    "egyptian",
+    "enoura",
+    "frye",
+    "getty",
+    "glyptotek",
+    "louvre",
+    "met",
+    "muxin",
+    "seattle",
+    "smk",
+    "vienna"
+  ],
+  "calibratedAt": "2026-07-24",
+  "sources": [
+    "https://www.seattleartmuseum.org/art-and-artists/sams-collection",
+    "https://art.seattleartmuseum.org/collections",
+    "https://art.seattleartmuseum.org/objects/2742/sea-change",
+    "https://art.seattleartmuseum.org/objects/3307/double-elvis",
+    "https://art.seattleartmuseum.org/objects/13497/naaxein",
+    "https://art.seattleartmuseum.org/objects/8251/belt-mask-of-iyoba-mother-of-the-oba-idia"
+  ]
+}

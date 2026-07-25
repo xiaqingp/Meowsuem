@@ -1,0 +1,32 @@
+{
+  "pipelineVersion": "2.7.0",
+  "runId": "m28-11-v2.7.0-author-compact-claims-retry-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-25T05:13:39.752Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "mapped_displayMetadata_artistOrCulture_to_by",
+    "mapped_displayMetadata_medium_to_material",
+    "mapped_displayMetadata_location_to_place",
+    "derived_imagePolicy_from_locked_work_context"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "3af502fe1b40248de2cecb3c97bf800cf23d201c9dd7d162566ee0ef88b8c30b",
+      "bytes": 10568
+    },
+    {
+      "path": "card.txt",
+      "sha256": "c916db91256f29c683c8b002a85a9418d9d90345c3bf50c11264ccd9cb72b210",
+      "bytes": 442
+    },
+    {
+      "path": "draft.md",
+      "sha256": "1094000bfc5579d165e98d3681899043b9b02cc6c414a33117a0b098271741e6",
+      "bytes": 3900
+    }
+  ]
+}

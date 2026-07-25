@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-ant-05-amazon-sarcophagus-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:41.015Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "e8c5371dfc86a86e611c247cba029de3c15f1e4ff2034ae06cff204dcb88d1c6",
+      "bytes": 9357
+    },
+    {
+      "path": "card.txt",
+      "sha256": "f10cfec15221f0223cd9ef66825255b72c93eea4531b6c1f654996e3f50e69b6",
+      "bytes": 289
+    },
+    {
+      "path": "draft.md",
+      "sha256": "1c33ad393ec2cff14a8a0f444b0e708909403e23be174ad3f833b8c86b4a0ffd",
+      "bytes": 4606
+    }
+  ]
+}

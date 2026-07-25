@@ -1,0 +1,236 @@
+{
+  "reviewType": "fresh-independent-review",
+  "workId": "chief-seattle",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "reviewerIndependence": {
+    "participatedInAuthoring": false,
+    "authorArtifactsEdited": false,
+    "reviewScope": "Only the nine paths authorized by the reviewer task were read; no network or undeclared comparison material was used."
+  },
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "bb336aaaaf3236c79b70d37d610e877f3f1a7a09ffe7949dbf144bfbc74f93e6"
+  },
+  "artifactHashes": {
+    "research-card.md": "22a3c2af1443e56efde423aef23482946b915d0f643c4b13eb030a0235f8ebe2",
+    "writing-plan.json": "956649127579183c22a8eec9c1d0dd41052cf6bda306b5cbb2ae647d7aca8f5e",
+    "card.txt": "9b6d548c9e086367afcf506a0fab21339a70cfaa0f0a38dc88aa347ccc6a1e47",
+    "draft.md": "bb336aaaaf3236c79b70d37d610e877f3f1a7a09ffe7949dbf144bfbc74f93e6"
+  },
+  "directUpstreamChain": {
+    "declared": [
+      {
+        "artifact": "research-card.md",
+        "directUpstream": "../../batch-02/source-pack.md",
+        "declaredSha256": "fa667b11415c1864ad81b1d3dce35169ed237d29167dceb9e1465cf7a81d75ea",
+        "actualSha256": "fa667b11415c1864ad81b1d3dce35169ed237d29167dceb9e1465cf7a81d75ea",
+        "matches": true
+      },
+      {
+        "artifact": "writing-plan.json",
+        "directUpstream": "research-card.md",
+        "declaredSha256": "22a3c2af1443e56efde423aef23482946b915d0f643c4b13eb030a0235f8ebe2",
+        "actualSha256": "22a3c2af1443e56efde423aef23482946b915d0f643c4b13eb030a0235f8ebe2",
+        "matches": true
+      },
+      {
+        "artifact": "card.txt",
+        "directUpstream": "writing-plan.json",
+        "declaredSha256": "956649127579183c22a8eec9c1d0dd41052cf6bda306b5cbb2ae647d7aca8f5e",
+        "actualSha256": "956649127579183c22a8eec9c1d0dd41052cf6bda306b5cbb2ae647d7aca8f5e",
+        "matches": true
+      },
+      {
+        "artifact": "draft.md",
+        "directUpstream": "card.txt",
+        "declaredSha256": "9b6d548c9e086367afcf506a0fab21339a70cfaa0f0a38dc88aa347ccc6a1e47",
+        "actualSha256": "9b6d548c9e086367afcf506a0fab21339a70cfaa0f0a38dc88aa347ccc6a1e47",
+        "matches": true
+      }
+    ],
+    "complete": true,
+    "verdict": "PASS"
+  },
+  "mechanicalChecks": {
+    "cardVisibleCharacters": 79,
+    "cardAllowedRange": "24-100",
+    "quickVisibleCharacters": 165,
+    "quickAllowedRange": "70-240",
+    "deepVisibleCharacters": 1065,
+    "deepMinimum": 320,
+    "observableDetailCount": 5,
+    "observableDetailMinimum": 4,
+    "requiredHeadingsExact": true,
+    "metadataComplete": true,
+    "factBoundaryPresent": true,
+    "clickableSourcesPresent": true,
+    "workSpecificFinalLookPresent": true,
+    "allPassed": true
+  },
+  "independenceChecks": {
+    "card": "PASS — independently answers why the work merits opening by foregrounding the half-century gap and public-memory value; it is not copied from the quick layer and does not begin with a tour command.",
+    "quick": "PASS — independently supplies both the provisional answer (a posthumous commemorative portrait) and a usable viewing route through face, dark background, shoulders, and clothing.",
+    "deep": "PASS — remains intelligible without the quick layer, rebuilds the visible setup and date gap, then develops agency, collection context, and the comparator.",
+    "layerSeparation": "PASS — card, quick, and deep perform distinct jobs without sentence reuse; the final look converts the established date gap into a specific second viewing action."
+  },
+  "claimAudit": {
+    "verdict": "PASS",
+    "checkedClaims": [
+      {
+        "claim": "Henry Raschen; American; Chief Seattle; circa 1916; oil on canvas; 19 3/8 × 15 1/2 inches (49.21 × 39.37 cm); Founding Collection.",
+        "basis": "Batch source-pack identity record [F8] and research card.",
+        "verdict": "SUPPORTED"
+      },
+      {
+        "claim": "Si’ahl was a Duwamish/Suquamish leader, died in 1866, and Seattle uses an Anglicized form of his name.",
+        "basis": "Batch source-pack background [F9] and research card.",
+        "verdict": "SUPPORTED"
+      },
+      {
+        "claim": "The circa-1916 portrait cannot be a life sitting and is a posthumous reconstruction roughly half a century later.",
+        "basis": "Supported inference from the sourced work date and 1866 death date; the draft states the inference at matching strength.",
+        "verdict": "SUPPORTED_INFERENCE"
+      },
+      {
+        "claim": "Raschen was about sixty-two and had long practiced portraiture, landscape, and Indigenous subjects.",
+        "basis": "Batch source-pack career note [F10].",
+        "verdict": "SUPPORTED"
+      },
+      {
+        "claim": "Bust format, near-frontal pose, central face, dark background, dark hair, cropped shoulders, and partial clothing.",
+        "basis": "Direct observations declared in the batch source-pack and research card.",
+        "verdict": "SUPPORTED_OBSERVATION"
+      },
+      {
+        "claim": "E. M. Sammis's widely circulated image derived from an 1864 photograph is the nearest comparator; its image chain is temporally closer to Si’ahl.",
+        "basis": "Batch source-pack comparison record and writing-plan boundary.",
+        "verdict": "SUPPORTED"
+      },
+      {
+        "claim": "The painting's distinctive return lies in the intersection of a non-Indigenous painter's reconstruction, Frye's Founding Collection, and Seattle local memory, not in unique or authoritative physiognomic evidence.",
+        "basis": "Batch source-pack significance boundary and research/writing-plan comparison analysis.",
+        "verdict": "SUPPORTED_EDITORIAL_JUDGMENT"
+      },
+      {
+        "claim": "The evidence does not establish culturally accurate clothing, tribal participation, or Si’ahl's own intention.",
+        "basis": "Explicit research-card and source-pack risk boundaries.",
+        "verdict": "SUPPORTED_BOUNDARY"
+      }
+    ],
+    "unplannedHighRiskClaims": [],
+    "psychologyOrIntentLeak": false,
+    "viewingOrderAsHistoryLeak": false,
+    "unsupportedSuperlativeLeak": false
+  },
+  "paragraphDependency": {
+    "verdict": "PASS",
+    "coreQuestion": "一个去世半世纪的人，为什么显得就在眼前？",
+    "sequence": [
+      {
+        "paragraph": "一个去世半世纪的人，为什么显得就在眼前？",
+        "dependsOn": "The visible portrait and the title.",
+        "newUnderstanding": "The compact bust, central face, and sparse setting create directness; the artist's late-career position identifies this as a deliberate portrait treatment.",
+        "breaksIfMovedEarlier": "This is the opening premise and establishes the visual effect later paragraphs reinterpret."
+      },
+      {
+        "paragraph": "1916 与 1866 之间，改变了什么？",
+        "dependsOn": "The first paragraph's immediate encounter effect.",
+        "newUnderstanding": "The date gap changes directness from apparent encounter into posthumous construction and establishes the evidence boundary.",
+        "breaksIfMovedEarlier": "Without first establishing how direct the portrait feels, the date contrast loses the specific visual claim it overturns."
+      },
+      {
+        "paragraph": "城市记住的，是谁塑造的版本？",
+        "dependsOn": "The portrait has already been established as a posthumous construction rather than a life record.",
+        "newUnderstanding": "Authorship, Anglicized naming, and Founding Collection custody locate the work within the making and preservation of public memory.",
+        "breaksIfMovedEarlier": "Before the posthumous boundary, the agency question could be mistaken for a claim about Si’ahl's self-representation."
+      },
+      {
+        "paragraph": "照片更接近生前，为什么还要看这幅油画？",
+        "dependsOn": "The prior paragraph's account of public-memory production and collection custody.",
+        "newUnderstanding": "The comparator narrows the painting's non-substitutability to Frye and Seattle memory while denying unique physiognomic authority.",
+        "breaksIfMovedEarlier": "The comparator's value boundary requires the local-memory and collection role already established."
+      },
+      {
+        "paragraph": "再看这些容易错过的细节",
+        "dependsOn": "The date, agency, and comparator arguments.",
+        "newUnderstanding": "Five visual checks let the visitor test how authority is produced without treating clothing or likeness as authenticated evidence.",
+        "breaksIfMovedEarlier": "Placed before the argument, the same observations would be a disconnected inventory rather than verification of the answer."
+      }
+    ],
+    "arbitraryReorderingPossible": false,
+    "workSpecificity": "The logic depends on this work's circa-1916/1866 gap, Si’ahl's naming relation to Seattle, Raschen's non-Indigenous authorship, Frye Founding Collection status, and the Sammis/1864-photo comparator."
+  },
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这幅画看起来像让 Si’ahl 直接站到观众面前，可它画于他去世约半世纪后，所以真正值得看的，是画家、城市和收藏怎样共同制造并保存了这个近在眼前的公共形象。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "notes": "Titles, quick layer, transitions, and final look read naturally aloud; technical terms such as ‘照片链条’ and ‘形貌实证’ are locally explained by concrete contrasts and do not obstruct oral comprehension."
+  },
+  "significanceReview": {
+    "label": "重要藏品",
+    "fiveDimensions": {
+      "artisticAchievement": "3/5 — the compact bust, near-frontal pose, central face, and dark ground efficiently create legibility and public authority, without evidence of formal innovation.",
+      "artHistoricalPosition": "2/5 — a late work within Raschen's established practice, not evidenced as a turning point, type-defining work, or career peak.",
+      "historicalCulturalValue": "4/5 — concretely exposes how a non-Indigenous posthumous portrait participated in Seattle's public memory of a Duwamish/Suquamish leader, while preserving the representation boundary.",
+      "rarityAndIrreplaceability": "3/5 — the Sammis/1864-photo image chain supplies closer lifetime likeness evidence; this painting's distinct return is its oil-painting reconstruction within Frye and Seattle memory, not global uniqueness.",
+      "collectionPosition": "5/5 — its Founding Collection status makes it a key object for understanding how Frye's historic collection intersects with local memory."
+    },
+    "comparisonCategory": "死后纪念性原住民领袖肖像",
+    "nearestComparator": "E. M. Sammis 据 1864 年照片制作并广泛传播的 Si’ahl 公共影像",
+    "sharedCoreValue": "Both establish a publicly recognizable image of Si’ahl.",
+    "decisiveDifference": "The Sammis image chain is closer to Si’ahl's lifetime; Raschen's oil painting is a reconstruction roughly half a century later whose specific value comes from its medium, non-Indigenous authorship, and preservation in Frye's Founding Collection.",
+    "nonSubstitutabilityBoundary": "The painting is non-substitutable only for studying the particular intersection of Frye collection history and Seattle public memory. It is substitutable, and inferior to the earlier photograph chain, as evidence of Si’ahl's lifetime appearance; no global rarity, uniqueness, or art-historical peak is claimed.",
+    "frye72Calibration": "PASS — ‘重要藏品’ is justified without calling the work a rare masterpiece, a unique likeness, or a reason to plan a trip around Frye.",
+    "verdict": "PASS"
+  },
+  "voiceScores": {
+    "entry": {
+      "score": 2,
+      "evidence": "‘一个去世半世纪的人，为什么显得就在眼前？’ turns the visible near-frontal portrait and date gap into a concrete, work-specific question."
+    },
+    "causality": {
+      "score": 2,
+      "evidence": "‘脸越显得近，观众越需要意识到，自己接触的是后世重新组织的纪念形象’ explicitly shows how the date gap changes the meaning of the visual directness."
+    },
+    "people": {
+      "score": 2,
+      "evidence": "‘谁有机会制作形象，谁把它收藏起来，以及后来的观众从何处认识这位领袖’ makes authorship, collecting, and public memory understandable through human choices."
+    },
+    "turn": {
+      "score": 2,
+      "evidence": "The sourced 1916/1866 contrast changes the face-to-face impression into a posthumous-memory problem rather than relying on a rhetorical trick."
+    },
+    "visualPayoff": {
+      "score": 2,
+      "evidence": "The argument repeatedly returns to the centered face, dark background, cropped shoulders, partial clothing, and small scale, followed by five directly checkable details."
+    },
+    "oralClarity": {
+      "score": 2,
+      "evidence": "‘脸越显得近……自己接触的是后世重新组织的纪念形象’ and the question-led transitions remain speakable while preserving the historical boundary."
+    },
+    "secondLook": {
+      "score": 2,
+      "evidence": "‘把视线停在脸部与暗背景交接的轮廓，再沿两侧滑到被画框截断的肩部’ gives a specific new action that tests authority against the half-century distance."
+    },
+    "total": 14,
+    "threshold": "at least 12/14 and no zero",
+    "passed": true
+  },
+  "mechanicalVerdict": "PASS",
+  "factBoundaryVerdict": "PASS",
+  "narrativeVerdict": "PASS",
+  "nativeChineseVerdict": "PASS",
+  "significanceVerdict": "PASS",
+  "workSpecificVerdict": "PASS",
+  "productionLanguageVerdict": "PASS",
+  "productionLanguageScan": {
+    "scope": "card.txt and all visitor-visible draft.md prose, including status, fact boundary, and sources",
+    "prohibitedInternalTermsFound": [],
+    "internalProcessLeakFound": false
+  },
+  "hardGateFailures": [],
+  "actionableFailureReasons": [],
+  "finalVerdict": "PASS"
+}

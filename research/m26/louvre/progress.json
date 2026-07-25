@@ -1,0 +1,22 @@
+{
+  "batchId": "m26-2026-07-22-01",
+  "museumId": "louvre",
+  "instructionVersion": "1.6.7",
+  "selectionReviewed": "60 retained pending complete per-work evidence refresh",
+  "researchCardsCompleted": 10,
+  "writingTasksCompleted": 1,
+  "draftsGenerated": 2,
+  "draftsCompleted": 1,
+  "failedDraftsRetained": 1,
+  "significanceRecordsPending": 30,
+  "gates": {
+    "contentPipeline": "passed",
+    "publishedLouvreBaseline": "60_of_60_zero_content_failures",
+    "m26Significance": "failed_expected_30_pending_records",
+    "browser": "not_run_until_atomic_candidate"
+  },
+  "reviewsCompleted": 1,
+  "published": false,
+  "nextWorkId": "venus",
+  "updatedAt": "2026-07-22T02:04:58-07:00"
+}

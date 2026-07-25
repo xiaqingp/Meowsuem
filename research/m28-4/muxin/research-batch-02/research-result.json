@@ -1,0 +1,75 @@
+{
+    "runId":  "m28-4-muxin-fresh-research-batch-02-2026-07-23",
+    "stage":  "research",
+    "pipelineVersion":  "2.4.3",
+    "instructionVersion":  "2.0.1",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-23T21:14:04.7926481-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/generation-pipeline.md",
+                       "sha256":  "cde91463dd296ba3f11b6bccfddc15964a256d5c132be913f11062fb6bb7cc66"
+                   },
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "sha256":  "bb9ad5d44fbb6b6382c90e17599c100648ca295800d57ff1b40f3cfc09b039ee"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/research-batch-02/candidate-packet.json",
+                       "sha256":  "3b1d3613217ee2e3d18fec43f2cad9796a900e0168b22e10cd7aa8b86524f609"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "muxin-c11-research-card.md",
+                        "sha256":  "30228a7d0908529373749c83268f82a8a2b791c4567887fb078ad56ef4295e73",
+                        "bytes":  4158
+                    },
+                    {
+                        "path":  "muxin-c12-research-card.md",
+                        "sha256":  "fa2c90dfe43f7efd4ab948eb3e1398ab1997cf6b34f8df72e57dad21aae63fa3",
+                        "bytes":  3971
+                    },
+                    {
+                        "path":  "muxin-c13-research-card.md",
+                        "sha256":  "8fd19f296722a168d434cdd9d2bb1c5a6902f316f20510a2013df3cb068a90b5",
+                        "bytes":  3704
+                    },
+                    {
+                        "path":  "muxin-c14-research-card.md",
+                        "sha256":  "347ecaa4671de5ad12daef9fd0cb29868c2656500a666d219bb99ce599d2e2ae",
+                        "bytes":  3844
+                    },
+                    {
+                        "path":  "muxin-c15-research-card.md",
+                        "sha256":  "060309af9b100990e00720ce2b6c0b42118e1b38f606c0ff512c8d87188e430d",
+                        "bytes":  4566
+                    },
+                    {
+                        "path":  "muxin-c16-research-card.md",
+                        "sha256":  "e109b44aa485f57a1475f7329432d4bdb9178b327ed999f265e11183d1935036",
+                        "bytes":  3638
+                    },
+                    {
+                        "path":  "muxin-c17-research-card.md",
+                        "sha256":  "976c0b71fa1e540afbc258b322581c6835f490030a4313d00180faf9688bf9e2",
+                        "bytes":  3771
+                    },
+                    {
+                        "path":  "muxin-c18-research-card.md",
+                        "sha256":  "eef60a03e3fa979ee23ea9e5fd1a8a0cd9e9782f8163a4d7905f9cda117a970d",
+                        "bytes":  3825
+                    },
+                    {
+                        "path":  "muxin-c19-research-card.md",
+                        "sha256":  "67142b07534671433ad46c93cd8b158c6eb52a578ad1b64e471fda6ef11b7d0b",
+                        "bytes":  3980
+                    },
+                    {
+                        "path":  "muxin-c20-research-card.md",
+                        "sha256":  "eafef293991697dca7cf39cec874b13bdf93ac87e8cf77c04765af32b325f557",
+                        "bytes":  4702
+                    }
+                ]
+}

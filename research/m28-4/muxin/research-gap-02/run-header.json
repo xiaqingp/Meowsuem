@@ -1,0 +1,164 @@
+{
+  "runId": "m28-4-muxin-research-gap-02-2026-07-23",
+  "startedAt": "2026-07-24T04:19:01.728Z",
+  "stage": "research_gap",
+  "researchMode": "targeted_gap_only",
+  "museumId": "muxin",
+  "works": [
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c09",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "《哥伦比亚的倒影》初稿",
+        "titleEn": "First draft of Reflections of Colombia",
+        "museum": "Mu Xin Art Museum"
+      },
+      "missingDimensions": [
+        "object_identity_and_group_boundary",
+        "permanent_collection_or_stable_display_status",
+        "reliable_object_image_and_four_direct_observations",
+        "object_level_metadata",
+        "nearest_comparator_and_claim_boundary"
+      ]
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c10",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "《双重悲悼》手稿",
+        "titleEn": "Manuscript of Double Mourning",
+        "museum": "Mu Xin Art Museum"
+      },
+      "missingDimensions": [
+        "object_identity_and_group_boundary",
+        "permanent_collection_or_stable_display_status",
+        "reliable_object_image_and_four_direct_observations",
+        "object_level_metadata",
+        "nearest_comparator_and_claim_boundary"
+      ]
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c16",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "1989年无题石版画",
+        "titleEn": "Untitled lithograph",
+        "museum": "Mu Xin Art Museum"
+      },
+      "missingDimensions": [
+        "object_identity_and_group_boundary",
+        "permanent_collection_or_stable_display_status",
+        "reliable_object_image_and_four_direct_observations",
+        "object_level_metadata",
+        "nearest_comparator_and_claim_boundary"
+      ]
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c17",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "文革前幸存手稿组",
+        "titleEn": "Surviving manuscripts written before the Cultural Revolution, group",
+        "museum": "Mu Xin Art Museum"
+      },
+      "missingDimensions": [
+        "object_identity_and_group_boundary",
+        "permanent_collection_or_stable_display_status",
+        "reliable_object_image_and_four_direct_observations",
+        "object_level_metadata",
+        "nearest_comparator_and_claim_boundary"
+      ]
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c18",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "“言论交代”与申诉书文献组",
+        "titleEn": "Political statements and appeal documents, group",
+        "museum": "Mu Xin Art Museum"
+      },
+      "missingDimensions": [
+        "object_identity_and_group_boundary",
+        "permanent_collection_or_stable_display_status",
+        "reliable_object_image_and_four_direct_observations",
+        "object_level_metadata",
+        "nearest_comparator_and_claim_boundary"
+      ]
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c19",
+      "workIdentity": {
+        "artistOrCulture": "多位拍摄者与制作者，待核",
+        "title": "木心生平影像档案组",
+        "titleEn": "Mu Xin biographical moving-image archive, group",
+        "museum": "Mu Xin Art Museum"
+      },
+      "missingDimensions": [
+        "object_identity_and_group_boundary",
+        "permanent_collection_or_stable_display_status",
+        "reliable_object_image_and_four_direct_observations",
+        "object_level_metadata",
+        "nearest_comparator_and_claim_boundary"
+      ]
+    }
+  ],
+  "pipelineVersion": "2.4.3",
+  "instructionVersion": "2.0.1",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c22c60e3a215aa1ac90da402debeb2caf9da39975cb2921c4845ef74ef14c834"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "cde91463dd296ba3f11b6bccfddc15964a256d5c132be913f11062fb6bb7cc66"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "bb9ad5d44fbb6b6382c90e17599c100648ca295800d57ff1b40f3cfc09b039ee"
+    },
+    {
+      "path": "research/m28-4/muxin/research-batch-01/muxin-c09-research-card.md",
+      "sha256": "2fc21fa65f3b18b2154d20dd1e8b7663b8fa181e9c16f817f30a5d94d29343a4"
+    },
+    {
+      "path": "research/m28-4/muxin/research-batch-01/muxin-c10-research-card.md",
+      "sha256": "e8d0b0b4721919b2d16c89fa50235ad8648b011ca3ddf20fb04e692630a3d270"
+    },
+    {
+      "path": "research/m28-4/muxin/research-batch-02/muxin-c16-research-card.md",
+      "sha256": "e109b44aa485f57a1475f7329432d4bdb9178b327ed999f265e11183d1935036"
+    },
+    {
+      "path": "research/m28-4/muxin/research-batch-02/muxin-c17-research-card.md",
+      "sha256": "976c0b71fa1e540afbc258b322581c6835f490030a4313d00180faf9688bf9e2"
+    },
+    {
+      "path": "research/m28-4/muxin/research-batch-02/muxin-c18-research-card.md",
+      "sha256": "eef60a03e3fa979ee23ea9e5fd1a8a0cd9e9782f8163a4d7905f9cda117a970d"
+    },
+    {
+      "path": "research/m28-4/muxin/research-batch-02/muxin-c19-research-card.md",
+      "sha256": "67142b07534671433ad46c93cd8b158c6eb52a578ad1b64e471fda6ef11b7d0b"
+    }
+  ],
+  "outputs": [
+    "muxin-c09-research-supplement.md",
+    "muxin-c10-research-supplement.md",
+    "muxin-c16-research-supplement.md",
+    "muxin-c17-research-supplement.md",
+    "muxin-c18-research-supplement.md",
+    "muxin-c19-research-supplement.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

@@ -1,0 +1,46 @@
+{
+  "runId": "m28-3-chichu-fresh-research-batch-01-2026-07-23",
+  "startedAt": "2026-07-23T20:30:00-07:00",
+  "stage": "research",
+  "researchMode": "fresh",
+  "museumId": "chichu",
+  "works": [
+    {"museumId":"chichu","workId":"whole","workIdentity":{"artistOrCulture":"Tadao Ando; Claude Monet; James Turrell; Walter De Maria","title":"Chichu Art Museum as a Whole","museum":"Chichu Art Museum"}},
+    {"museumId":"chichu","workId":"hidden-profile","workIdentity":{"artist":"Tadao Ando","title":"The Nearly Invisible Profile","museum":"Chichu Art Museum"}},
+    {"museumId":"chichu","workId":"entrance-cut","workIdentity":{"artist":"Tadao Ando","title":"The Entrance Cut","museum":"Chichu Art Museum"}},
+    {"museumId":"chichu","workId":"triangle-court","workIdentity":{"artist":"Tadao Ando","title":"Triangular Courtyard","museum":"Chichu Art Museum"}},
+    {"museumId":"chichu","workId":"square-court","workIdentity":{"artist":"Tadao Ando","title":"Square Courtyard","museum":"Chichu Art Museum"}},
+    {"museumId":"chichu","workId":"trench-passage","workIdentity":{"artist":"Tadao Ando","title":"Gutter-Shaped Outdoor Passage","museum":"Chichu Art Museum"}},
+    {"museumId":"chichu","workId":"concrete-ramp","workIdentity":{"artist":"Tadao Ando","title":"Concrete Ramps and Turns","museum":"Chichu Art Museum"}},
+    {"museumId":"chichu","workId":"daylight-clock","workIdentity":{"artistOrCulture":"Tadao Ando and the commissioned artists","title":"Daylight as an Invisible Clock","museum":"Chichu Art Museum"}},
+    {"museumId":"chichu","workId":"monet-room","workIdentity":{"artistOrCulture":"Tadao Ando; Claude Monet","title":"Claude Monet Space","museum":"Chichu Art Museum"}},
+    {"museumId":"chichu","workId":"water-lily-pond-1915","workIdentity":{"artist":"Claude Monet","title":"Water-Lily Pond, circa 1915-1926","museum":"Chichu Art Museum"}}
+  ],
+  "pipelineVersion": "2.4.2",
+  "instructionVersion": "2.0.1",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c22c60e3a215aa1ac90da402debeb2caf9da39975cb2921c4845ef74ef14c834"
+  },
+  "allowedInputs": [
+    {"path":"research/generation-pipeline.md","sha256":"8ddda4087bb5ee9fb60782eedcfb29152636ea0818f570631638c3016f11c90e"},
+    {"path":"research/meowseum-content-instruction.md","sha256":"bb9ad5d44fbb6b6382c90e17599c100648ca295800d57ff1b40f3cfc09b039ee"}
+  ],
+  "outputs": [
+    "whole-research-card.md",
+    "hidden-profile-research-card.md",
+    "entrance-cut-research-card.md",
+    "triangle-court-research-card.md",
+    "square-court-research-card.md",
+    "trench-passage-research-card.md",
+    "concrete-ramp-research-card.md",
+    "daylight-clock-research-card.md",
+    "monet-room-research-card.md",
+    "water-lily-pond-1915-research-card.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

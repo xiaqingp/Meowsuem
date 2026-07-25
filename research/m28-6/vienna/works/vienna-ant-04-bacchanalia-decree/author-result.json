@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-ant-04-bacchanalia-decree-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:31:26.2396763-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-03/vienna-ant-04-bacchanalia-decree-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "e6dfe23d5bb9cad3b368029d26dcf83a5e6891f4541e1eea8a4e57402cea2232"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-ant-04-bacchanalia-decree/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "4fba8961787043b0e487fd4969337138af18ab91bb70bba3b22ebe69a30901c9"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "d05c4369b8adaeb638bde86a18c27049e0ac67ab8fa711933300c6d15f454c2a",
+                        "bytes":  9076
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "997b859e393700b26108d31becd454745751e0b79d2eab00e3d5451cdbe3b0a6",
+                        "bytes":  253
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "8eee059cd6513bbe6ef353b99b0b5941b1f53c61e7f6114942d5cd58443e8f0b",
+                        "bytes":  4237
+                    }
+                ]
+}

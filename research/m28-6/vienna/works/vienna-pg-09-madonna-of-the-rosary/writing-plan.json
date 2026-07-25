@@ -1,0 +1,192 @@
+{
+  "schemaVersion": "author-bundle/1.0",
+  "workId": "vienna-pg-09-madonna-of-the-rosary",
+  "displayMetadata": {
+    "by": "卡拉瓦乔 Caravaggio · 意大利",
+    "date": "约 1603",
+    "material": "布面绘画",
+    "place": "维也纳艺术史博物馆绘画馆 · 确认在展",
+    "priority": "强烈推荐",
+    "significance": "重要藏品",
+    "stay": "建议停留 6—8 分钟",
+    "availability": "confirmed_on_view",
+    "imagePolicy": "object_image"
+  },
+  "narrativeMainline": {
+    "valueType": "civilization_system",
+    "mainline": "卡拉瓦乔把抽象的宗教恩典画成一条看得见的传递链：基督幼儿与圣母居于上方，圣多明我在下方交出念珠，跪地信众伸手承接，捐赠人又以动作把画外观众引入这套关系。作品的核心价值，是让玫瑰经敬礼所依赖的圣人、团体与普通信众之间的层级关系变成具体的人体动作。",
+    "readerStartingPoint": "零背景读者可从标题和画面确认圣母与基督幼儿位于高处，下方圣人向跪地人群分发念珠，人物的手势在上下两层之间彼此衔接。",
+    "storyBeats": [
+      {
+        "step": 1,
+        "materials": [
+          "零背景可确认与图像观察第 1、4 条",
+          "来源事实与候选价值证据第 1 条"
+        ],
+        "newUnderstanding": "念珠不是附属道具，而是把神圣恩典落实为可见交接动作的关键物件。"
+      },
+      {
+        "step": 2,
+        "materials": [
+          "零背景可确认与图像观察第 2、3 条",
+          "来源事实与候选价值证据第 1 条"
+        ],
+        "newUnderstanding": "圣人和捐赠人的手势把画内的宗教层级延伸到画外观看者，使祭坛画同时组织信仰关系与观看位置。"
+      },
+      {
+        "step": 3,
+        "materials": [
+          "零背景可确认与图像观察第 5 条",
+          "比较与不可替代性边界"
+        ],
+        "newUnderstanding": "红色帷幕、近前景人群与大型祭坛画尺度把传递动作压到观众面前；这既体现卡拉瓦乔大型宗教画的共同方法，也不能单凭规模推出原始礼拜空间。"
+      },
+      {
+        "step": 4,
+        "materials": [
+          "来源事实与候选价值证据第 2、3 条",
+          "可用趣闻",
+          "未确定与断言边界"
+        ],
+        "newUnderstanding": "作品后来在安特卫普道明会教堂获得明确用途，但那是迁移史中的后续阶段，原委托与原空间仍未知。"
+      }
+    ],
+    "humorBasis": "",
+    "mustNotAssume": [
+      "原委托人已经确定",
+      "安特卫普道明会教堂就是作品最初的礼拜空间",
+      "画中伸手人物具有可确定的心理状态",
+      "画内光线来自某一扇可定位的窗户",
+      "尺寸足以证明作品原先安装在某个具体位置",
+      "本作已通过稀世珍品的不可替代性硬门"
+    ]
+  },
+  "highRiskClaims": [
+    {
+      "claim": "画中人物的伸手动作表达确定的渴望、恐惧或狂热",
+      "evidenceType": "直接观察仅支持动作，不支持确定心理",
+      "allowedWording": "跪地人群伸手向上，承接圣多明我分发的念珠",
+      "forbiddenUpgrade": "断言人物内心状态"
+    },
+    {
+      "claim": "画家有意让所有观众加入玫瑰经团体",
+      "evidenceType": "馆方说明支持捐赠人以动作邀请观看者进入圣多明我的庇护范围",
+      "allowedWording": "捐赠人的动作把画外观看者纳入这套邀请关系",
+      "forbiddenUpgrade": "扩写为卡拉瓦乔已获证明的个人意图"
+    },
+    {
+      "claim": "安特卫普道明会教堂是作品的原始委托地点",
+      "evidenceType": "来源只确认艺术家团体购入后供该教堂使用",
+      "allowedWording": "安特卫普教堂用途是作品迁移史中后来得到确认的一站",
+      "forbiddenUpgrade": "把后来的用途倒推为原始委托"
+    },
+    {
+      "claim": "作品确定绘于 1603 年",
+      "evidenceType": "KHM 当前著录约 1603，另有约 1601 的著录差异",
+      "allowedWording": "馆方当前著录为约 1603",
+      "forbiddenUpgrade": "给出精确年份或抹去年代争议"
+    },
+    {
+      "claim": "本作是卡拉瓦乔不可替代的稀世珍品",
+      "evidenceType": "研究卡仅建立大型宗教祭坛画比较类别，硬比较尚未完成",
+      "allowedWording": "重要藏品；本作把念珠分配、捐赠人邀请与特殊迁移史结合起来",
+      "forbiddenUpgrade": "使用唯一、最重要或不可替代等结论"
+    }
+  ],
+  "claimLedger": [
+    {
+      "id": "C01",
+      "claim": "圣母与基督幼儿位于高处，圣多明我在下方给跪地人群分发念珠",
+      "type": "direct_observation_and_sourced_identity",
+      "researchCardLocation": "零背景可确认与图像观察第 1 条"
+    },
+    {
+      "id": "C02",
+      "claim": "圣伯多禄殉道者以手势指向基督幼儿",
+      "type": "sourced_fact",
+      "researchCardLocation": "零背景可确认与图像观察第 2 条"
+    },
+    {
+      "id": "C03",
+      "claim": "左侧捐赠人转向观众，以动作邀请观看者进入圣多明我的庇护范围",
+      "type": "sourced_fact_and_direct_observation",
+      "researchCardLocation": "零背景可确认与图像观察第 3 条"
+    },
+    {
+      "id": "C04",
+      "claim": "跪地人群伸手向上，念珠成为高低人物之间的交接物",
+      "type": "direct_observation",
+      "researchCardLocation": "零背景可确认与图像观察第 4 条"
+    },
+    {
+      "id": "C05",
+      "claim": "大面积红色帷幕与近前景人群把场景压近前景",
+      "type": "direct_observation",
+      "researchCardLocation": "零背景可确认与图像观察第 5 条"
+    },
+    {
+      "id": "C06",
+      "claim": "画面把恩典表现成由基督与圣母、经由圣人到普通信众的层级动作",
+      "type": "sourced_interpretation",
+      "researchCardLocation": "来源事实与候选价值证据第 1 条"
+    },
+    {
+      "id": "C07",
+      "claim": "作品很可能在罗马绘制，原委托者和原始用途未解决",
+      "type": "sourced_fact_with_uncertainty",
+      "researchCardLocation": "来源事实与候选价值证据第 2 条"
+    },
+    {
+      "id": "C08",
+      "claim": "1607 年作品在那不勒斯由 Louis Finson 与 Abraham Vinck 持有，1617 年到阿姆斯特丹，后由安特卫普艺术家团体购入供当地道明会教堂使用，1786 年到维也纳",
+      "type": "sourced_provenance",
+      "researchCardLocation": "来源事实与候选价值证据第 3 条"
+    },
+    {
+      "id": "C09",
+      "claim": "购画的安特卫普艺术家团体包括鲁本斯与老扬·勃鲁盖尔",
+      "type": "sourced_fact",
+      "researchCardLocation": "可用趣闻"
+    },
+    {
+      "id": "C10",
+      "claim": "卡拉瓦乔的大型宗教祭坛画常以近距离人物、强烈明暗与身体动作重组宗教叙事",
+      "type": "sourced_comparison",
+      "researchCardLocation": "比较与不可替代性边界"
+    },
+    {
+      "id": "C11",
+      "claim": "馆方当前著录约 1603，另有约 1601 的著录差异",
+      "type": "sourced_attribution_boundary",
+      "researchCardLocation": "身份与状态；未确定与断言边界"
+    },
+    {
+      "id": "C12",
+      "claim": "作品在维也纳艺术史博物馆绘画馆确认在展",
+      "type": "sourced_current_status",
+      "researchCardLocation": "身份与状态"
+    },
+    {
+      "id": "C13",
+      "claim": "作品是布面绘画，尺寸 364.5 × 249.5 厘米，藏品号 GG 147",
+      "type": "sourced_object_data",
+      "researchCardLocation": "身份与状态"
+    },
+    {
+      "id": "C14",
+      "claim": "本作尚未完成同类祭坛画的不可替代性硬比较，重要性定为重要藏品而非稀世珍品",
+      "type": "editorial_judgment_with_locked_context",
+      "researchCardLocation": "比较与不可替代性边界；work_context.significance；work_context.rareGatePassed"
+    }
+  ],
+  "sourceLinks": [
+    {
+      "label": "KHM：Madonna of the Rosary",
+      "url": "https://www.khm.at/en/objectdb/detail/425/"
+    },
+    {
+      "label": "KHM Repository：馆藏年刊相关条目",
+      "url": "https://repository.khm.at/viewer/fullscreen/0061501/123/"
+    }
+  ]
+}

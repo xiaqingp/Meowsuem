@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.7.2",
+  "runId": "m28-12-v2.7.2-seattle-author-narragansett-bay-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-25T06:24:44.136Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_availability_from_locked_work_context",
+    "derived_imagePolicy_from_locked_work_context"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "a3218b2fd45b67fe0dbd19780438e64ab8cf47bbc9ee55b5524f3d2170984122",
+      "bytes": 8902
+    },
+    {
+      "path": "card.txt",
+      "sha256": "4cb3837ecbc034d564d23bccfac39c4151511387d6fbc2d406ce1b2b112c61cd",
+      "bytes": 586
+    },
+    {
+      "path": "draft.md",
+      "sha256": "4f26df4f4a3f4db0bd2c6f6aa35b58be3fd13d0a93feefeb40197f0cd294a623",
+      "bytes": 3854
+    }
+  ]
+}

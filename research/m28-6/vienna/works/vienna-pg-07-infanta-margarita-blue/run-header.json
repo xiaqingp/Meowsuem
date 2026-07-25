@@ -1,0 +1,48 @@
+{
+  "runId": "m28-6-vienna-author-vienna-pg-07-infanta-margarita-blue-2026-07-24",
+  "startedAt": "2026-07-24T07:30:03.791Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card",
+  "museumId": "vienna",
+  "workId": "vienna-pg-07-infanta-margarita-blue",
+  "workIdentity": {
+    "artistOrCulture": "迭戈·委拉斯开兹 Diego Velázquez",
+    "title": "身着蓝裙的玛格丽特公主",
+    "titleEn": "Infanta Margarita in a Blue Dress",
+    "museum": "Kunsthistorisches Museum Vienna"
+  },
+  "pipelineVersion": "2.4.8",
+  "instructionVersion": "2.0.2",
+  "inputContractVersion": 1,
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "465e7a2ce500057a139dbb64ff9df36755a6525a1f3a960e90fa0263a572ebfe"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-01/vienna-pg-07-infanta-margarita-blue-research-card.md",
+      "role": "research_card",
+      "sha256": "01ccfe1a7944b92e8c08412a1b247df6c3aba9b82924582fdb77598c07a7548b"
+    },
+    {
+      "path": "research/m28-6/vienna/works/vienna-pg-07-infanta-margarita-blue/work-context.json",
+      "role": "work_context",
+      "sha256": "1606eead1151b0a1c2824b360a0ae76255be6273420ded7b1e8a5ea9fe5f6177"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

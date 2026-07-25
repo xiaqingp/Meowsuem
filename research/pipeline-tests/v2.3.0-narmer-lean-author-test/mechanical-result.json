@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.3.0",
+  "runId": "m28-2-v2.3.0-narmer-lean-author-2026-07-22",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-23T06:45:52.255Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "7bdd73e25bd09214737f4cceb447b355365694daa25cca9520715d66536a38e7",
+      "bytes": 10946
+    },
+    {
+      "path": "card.txt",
+      "sha256": "f0a25f3c8d5f1c5a9918e00b3a6671ad8de84684bfa48f6d4dfdbd7f95e5853b",
+      "bytes": 370
+    },
+    {
+      "path": "draft.md",
+      "sha256": "218cacfbc1285d31818e1e53f113a6ba590cacf1eb5806c71e4a34a0fbab4bb8",
+      "bytes": 6301
+    }
+  ]
+}

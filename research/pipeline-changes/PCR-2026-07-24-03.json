@@ -1,0 +1,50 @@
+{
+  "id": "PCR-2026-07-24-03",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-24",
+  "ownerInstruction": "可以，优化吧，优化之后用维也纳，和地中作为测试，应该不用模型了",
+  "baseRelease": "research/pipeline-releases/v2.5.0.json",
+  "targetVersion": "2.6.0",
+  "scope": [
+    "replace museum-specific candidate builders with one deterministic assembler",
+    "run assembly, verification and publication from one zero-model finalizer",
+    "prove the shared path with the sealed Vienna and Chichu artifacts",
+    "record post-generation elapsed time and zero model tokens"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/assemble-museum-candidate.mjs",
+    "scripts/finalize-museum.mjs",
+    "scripts/verify-content-pipeline.mjs",
+    "scripts/verify-significance-evidence.mjs",
+    "scripts/freeze-pipeline-release.mjs"
+  ],
+  "allowedManagementFiles": [
+    "research/content-standard-manifest.json",
+    "research/m28-6/vienna/assembly-input.json",
+    "research/m28-3/chichu/assembly-input.json",
+    "research/m28-6/vienna/candidate-m28-9",
+    "research/m28-3/chichu/candidate-m28-9",
+    "scripts/test-assemble-museum-candidate.mjs",
+    "scripts/verify-project-authority.mjs",
+    "coho_museum/TechDesign.md",
+    "coho_museum/Milestones.md",
+    "coho_museum/Lessons.md",
+    "coho_museum/knowledge.md",
+    "research/audits/m28-9-generic-finalization.md"
+  ],
+  "requiredTests": [
+    "generic assembler fixture test",
+    "Vienna real-artifact assembly equivalence",
+    "Chichu real-artifact assembly equivalence",
+    "whole-site deterministic release gate for both candidates",
+    "scoped live resource gate for both museums",
+    "publisher dry-run for both candidates",
+    "zero model invocation and zero model token report",
+    "project authority gate",
+    "pipeline causality gate",
+    "content pipeline gate",
+    "release idempotence"
+  ]
+}

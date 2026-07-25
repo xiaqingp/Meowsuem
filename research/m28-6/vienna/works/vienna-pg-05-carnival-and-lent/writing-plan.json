@@ -1,0 +1,240 @@
+{
+  "schemaVersion": "author-bundle-plan/1.0",
+  "museumId": "vienna",
+  "workId": "vienna-pg-05-carnival-and-lent",
+  "displayMetadata": {
+    "by": "老彼得·勃鲁盖尔 Pieter Bruegel the Elder · 尼德兰",
+    "date": "1559年",
+    "material": "橡木板",
+    "place": "绘画馆 Room X · 确认在展",
+    "priority": "强烈推荐",
+    "significance": "重要藏品",
+    "stay": "建议停留 8—12 分钟",
+    "availability": "confirmed_on_view",
+    "imagePolicy": "object_image"
+  },
+  "narrativeMainline": {
+    "valueType": "social_document",
+    "mainline": "勃鲁盖尔没有照录某一天的广场，而是把狂欢节与四旬斋相邻时段的饮食、礼拜、施舍和娱乐压到同一座城里，让两套生活制度在一幅画中正面比较。前景的滑稽比武、左右两侧的活动差异以及跨越两区的人群，共同把历法怎样改变城市生活变成可见的社会全景。",
+    "readerStartingPoint": "零背景读者可从标题与画面确认：前景两名拟人化角色相向对冲，左侧关联酒肉与节庆，右侧关联鱼食、施舍与宗教活动，周围有大量同时展开的小场景。",
+    "storyBeats": [
+      {
+        "step": 1,
+        "materials": [
+          "零背景可确认与图像观察第1—3条",
+          "来源事实与候选价值证据第1条"
+        ],
+        "newUnderstanding": "先认出前景双方的食物武器，并理解它们分别对应禁食前的狂欢与四旬斋的克制。"
+      },
+      {
+        "step": 2,
+        "materials": [
+          "来源事实与候选价值证据第2—3条",
+          "零背景可确认与图像观察第4—5条"
+        ],
+        "newUnderstanding": "画家把相邻节期的真实习俗安排为同地同时发生，广场因此不是单日纪实，而是一座用于比较两套生活规则的城市模型。"
+      },
+      {
+        "step": 3,
+        "materials": [
+          "比较与不可替代性边界第1—2条",
+          "零背景可确认与图像观察第3条"
+        ],
+        "newUnderstanding": "高视点和密集小场景服务于历法与宗教饮食制度的全局对照；跨区人群也阻止观众把画面简化成善恶两队。"
+      },
+      {
+        "step": 4,
+        "materials": [
+          "可用趣闻",
+          "未确定与断言边界"
+        ],
+        "newUnderstanding": "节期对战有真实民俗基础，但全城习俗同时上场是画家的改写；观看可以落到具体动作，同时保留对个别寓意的不确定性。"
+      }
+    ],
+    "humorBasis": "酒桶充当坐骑、串肉与载鱼烘焙铲充当比武武器；笑点来自真实节期对战民俗与饮食物件被改作骑士装备的尺度反差。",
+    "mustNotAssume": [
+      "画面是在记录某个真实日期发生的单一事件。",
+      "作品是新教对天主教的确定政治宣言。",
+      "左侧人物全都代表邪恶，右侧人物全都代表善良。",
+      "每个小动作都已有确定的象征解释。",
+      "画中各群体具有可由姿态直接判断的统一心理。",
+      "本作已经通过全球不可替代性的比较硬门。"
+    ]
+  },
+  "highRiskClaims": [
+    {
+      "claim": "所有活动在同一地点、同一时间出现是勃鲁盖尔的编排。",
+      "evidenceType": "来源事实",
+      "allowedWording": "馆方指出，习俗与当时民俗记录相符，但让它们同地同时发生是勃鲁盖尔的创造。",
+      "forbiddenUpgrade": "不得写成画面忠实记录了某一天的真实现场。"
+    },
+    {
+      "claim": "狂欢节与四旬斋双方的价值判断。",
+      "evidenceType": "来源事实与直接观察",
+      "allowedWording": "分别说明酒肉、节庆与鱼食、礼拜、施舍等活动，并指出画中有人跨越两区。",
+      "forbiddenUpgrade": "不得升级为左恶右善或整群人的道德裁决。"
+    },
+    {
+      "claim": "作品的宗教政治含义。",
+      "evidenceType": "来源边界",
+      "allowedWording": "写作限于节期、饮食与宗教实践的比较。",
+      "forbiddenUpgrade": "不得称为新教对天主教的确定政治宣言。"
+    },
+    {
+      "claim": "个别人物动作的含义。",
+      "evidenceType": "直接观察与不确定性",
+      "allowedWording": "只描述研究卡已登记的动作、物件和位置；可说并非每个小动作的寓意都已确定。",
+      "forbiddenUpgrade": "不得由姿态推断恐惧、骄傲、虔诚等心理，也不得逐项硬解象征。"
+    },
+    {
+      "claim": "作品的不可替代性与等级。",
+      "evidenceType": "比较来源与工作上下文",
+      "allowedWording": "称为重要藏品；与《儿童游戏》《尼德兰谚语》比较其以历法和宗教饮食制度组织全局的特点。",
+      "forbiddenUpgrade": "不得称为全球唯一、不可替代或稀世珍品。"
+    },
+    {
+      "claim": "画面观看顺序等于历史时间顺序。",
+      "evidenceType": "来源事实与直接观察",
+      "allowedWording": "可按前景对决、左右活动和跨区人群组织观看。",
+      "forbiddenUpgrade": "不得把视觉阅读顺序写成事件实际发生的先后。"
+    }
+  ],
+  "claimLedger": [
+    {
+      "id": "C01",
+      "claim": "作品题名为《狂欢节与四旬斋之战》，作者为老彼得·勃鲁盖尔，年代1559年。",
+      "type": "来源事实",
+      "researchCardRef": "身份与状态第1—3条",
+      "usedIn": [
+        "displayMetadata",
+        "draft标题与资料"
+      ]
+    },
+    {
+      "id": "C02",
+      "claim": "作品为橡木板，现于KHM绘画馆Room X确认在展。",
+      "type": "来源事实",
+      "researchCardRef": "身份与状态第3—4条",
+      "usedIn": [
+        "displayMetadata",
+        "draft事实边界"
+      ]
+    },
+    {
+      "id": "C03",
+      "claim": "前景左侧狂欢节骑酒桶、以串肉为武器；右侧四旬斋以烘焙铲和两条鱼应战。",
+      "type": "直接观察",
+      "researchCardRef": "零背景可确认与图像观察第1条",
+      "usedIn": [
+        "card",
+        "draft快层",
+        "draft深层",
+        "draft细节"
+      ]
+    },
+    {
+      "id": "C04",
+      "claim": "双方采用马上比武般的对冲姿态，但坐骑和武器由饮食物件替代。",
+      "type": "直接观察",
+      "researchCardRef": "零背景可确认与图像观察第2条",
+      "usedIn": [
+        "draft快层",
+        "draft深层",
+        "draft趣闻"
+      ]
+    },
+    {
+      "id": "C05",
+      "claim": "左半集中饮酒、肉食和节庆活动；右半出现鱼、施舍和宗教活动；有人跨越两区。",
+      "type": "直接观察",
+      "researchCardRef": "零背景可确认与图像观察第3条",
+      "usedIn": [
+        "card",
+        "draft深层",
+        "draft细节",
+        "draft最后一眼"
+      ]
+    },
+    {
+      "id": "C06",
+      "claim": "高视点容纳广场、街道、教堂或建筑入口及大量同时发生的小场景；周边人物构成两套节期生活。",
+      "type": "直接观察",
+      "researchCardRef": "零背景可确认与图像观察第4—5条",
+      "usedIn": [
+        "draft深层",
+        "draft细节"
+      ]
+    },
+    {
+      "id": "C07",
+      "claim": "狂欢节与肉食、饮酒和节庆相连；四旬斋强调克制、鱼食、礼拜与施舍。",
+      "type": "来源事实",
+      "researchCardRef": "来源事实与候选价值证据第1条",
+      "usedIn": [
+        "card",
+        "draft快层",
+        "draft深层"
+      ]
+    },
+    {
+      "id": "C08",
+      "claim": "拟人化的狂欢节与四旬斋比武在十五、十六世纪确有民俗实践。",
+      "type": "来源事实",
+      "researchCardRef": "来源事实与候选价值证据第1条；可用趣闻",
+      "usedIn": [
+        "draft趣闻"
+      ]
+    },
+    {
+      "id": "C09",
+      "claim": "馆方称画中习俗符合当时民俗记录，而把全部活动安排在同一地点、同一时间是勃鲁盖尔的创造。",
+      "type": "来源事实",
+      "researchCardRef": "来源事实与候选价值证据第2条",
+      "usedIn": [
+        "card",
+        "draft快层",
+        "draft深层",
+        "draft趣闻"
+      ]
+    },
+    {
+      "id": "C10",
+      "claim": "作品把相邻节期及相反制度压缩成可比较的城市模型，不是某一天的无加工纪实。",
+      "type": "编辑整理",
+      "researchCardRef": "来源事实与候选价值证据第2—3条",
+      "usedIn": [
+        "card",
+        "draft快层",
+        "draft深层",
+        "draft最后一眼"
+      ]
+    },
+    {
+      "id": "C11",
+      "claim": "《儿童游戏》和《尼德兰谚语》同样以高视点和密集小场景汇集民俗或行为材料，本作则以历法和宗教饮食制度的对立组织全局。",
+      "type": "比较事实",
+      "researchCardRef": "比较与不可替代性边界第1条",
+      "usedIn": [
+        "draft深层"
+      ]
+    },
+    {
+      "id": "C12",
+      "claim": "个别小动作的寓意并非都已确定，现有比较不足以证明本作全球不可替代。",
+      "type": "来源边界",
+      "researchCardRef": "比较与不可替代性边界第2—3条",
+      "usedIn": [
+        "draft事实边界"
+      ]
+    },
+    {
+      "id": "C13",
+      "claim": "现有来源不支持把作品定为新教对天主教的确定宣言，也不支持把左右两侧判成纯粹善恶。",
+      "type": "来源边界",
+      "researchCardRef": "未确定与断言边界第1—2条",
+      "usedIn": [
+        "draft事实边界"
+      ]
+    }
+  ]
+}

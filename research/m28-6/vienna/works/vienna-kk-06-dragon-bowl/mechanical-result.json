@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-kk-06-dragon-bowl-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:42.544Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "b659cc65a6298c04faa39785abd39fc84c104a93ad17eab76055d6aa13ca6310",
+      "bytes": 9608
+    },
+    {
+      "path": "card.txt",
+      "sha256": "13402faa499adba7836c95cecbba080c8f75124cee4e34da15eed05124283225",
+      "bytes": 298
+    },
+    {
+      "path": "draft.md",
+      "sha256": "982f166e037208fc65fa9e6066d6d2d84cbcc3db1f3c0bc93d483ff6f7f0bc0a",
+      "bytes": 3950
+    }
+  ]
+}

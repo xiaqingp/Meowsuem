@@ -1,0 +1,279 @@
+{
+  "name": "Meowseum Generation Pipeline",
+  "version": "2.7.11",
+  "status": "active",
+  "frozenAt": "2026-07-25",
+  "sourceManifest": "research/content-standard-manifest.json",
+  "canonicalFiles": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "127011b1166bb75aa5fbce3fd51485ae13a2942841ad7e550a8f3f38960afbfc"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "version": "2.1.1",
+      "sha256": "8c08c30f9d915a8942ed605287f7993a6514742c8f895b427876a6ffabb3fda2"
+    },
+    {
+      "path": "scripts/run-isolated-generation.ps1",
+      "sha256": "c7931d34e1f54dde5c43336acc50f7fb7ac380cfe7bed7ca27ea0e01f2cf4aa6"
+    },
+    {
+      "path": "scripts/report-museum-generation.mjs",
+      "sha256": "92f0fd77acf68e293418064197ca37235f5a40eb41c0494c6fa90347c4869f15"
+    },
+    {
+      "path": "scripts/verify-release-candidate.mjs",
+      "sha256": "665f1f9637b527ea935b0f8d1b895875a8d9c936f6088d0f142b6e27b9cf04a9"
+    },
+    {
+      "path": "scripts/publish-museum-candidate.mjs",
+      "sha256": "5c1bcfa1187a27055408a947cedf6c609e3e04deff2a0bc99c5a6b279324b1f3"
+    },
+    {
+      "path": "scripts/assemble-museum-candidate.mjs",
+      "sha256": "c114f9f11bb5c7b88d1a3d7b4f7bcbc6a87a5e2766b1f6d7c96506b3c51b704c"
+    },
+    {
+      "path": "scripts/prepare-museum-assembly.mjs",
+      "sha256": "85bfa855500b7b3a86f382cc6dbe1384ea231950540cfd478e9f1c18ada00403"
+    },
+    {
+      "path": "scripts/finalize-museum.mjs",
+      "sha256": "57a9601b693036e9d3e7c7ea062b460a133bba5f41fe8fba7e15f1358521eb93"
+    },
+    {
+      "path": "scripts/verify-content-pipeline.mjs",
+      "sha256": "94c0b0e419f8367265cff06c13b79498ffdc8a576b500ba2c405678576e7f541"
+    },
+    {
+      "path": "scripts/verify-significance-evidence.mjs",
+      "sha256": "7c1bd4de7515a9a953faa6e25f9a564a83a828abd7b6c313bf17a491052f0adf"
+    },
+    {
+      "path": "scripts/verify-future-museum-contract.mjs",
+      "sha256": "589772ad5d7783acddfe8d2b884d9d49e640017ad8d3382d1b201781ca6d1a39"
+    },
+    {
+      "path": "scripts/prepare-museum-stage-inputs.mjs",
+      "sha256": "189370863782a56df707d8c4ab1c9e2bf41029933642a170e195795496870980"
+    },
+    {
+      "path": "scripts/run-generation-batch.mjs",
+      "sha256": "5379fb74ae1cafb7d1096c3f4222cad32e0e4b4797d8743a09e8665d26af3cba"
+    },
+    {
+      "path": "scripts/prepare-author-research-input.mjs",
+      "sha256": "ff09bdd2e4b2d292308798ef3e210dd2d801dab5eed936bd698846768dab608d"
+    },
+    {
+      "path": "scripts/process-author-bundle.mjs",
+      "sha256": "6d51f222be4efca0d02132150e188f2be1c5b870ee537e00986094c184b53455"
+    },
+    {
+      "path": "scripts/process-museum-rating.mjs",
+      "sha256": "7c3cd66598df1831e95d3e5b1e508df00163297334ac5cd103911de16072de8f"
+    },
+    {
+      "path": "scripts/freeze-pipeline-release.mjs",
+      "sha256": "590dbf8b38dc6e0faafd113dad17b3c2f097f50ba08b421b64cfe31baa27bf0d"
+    }
+  ],
+  "changeControl": {
+    "id": "PCR-2026-07-25-01",
+    "record": "research/pipeline-changes/PCR-2026-07-25-01.json",
+    "recordSha256": "0c25caf78fd4968cdc76fecac0ec58c3fb7733fdf60191c0265041e3bbf4ad6e",
+    "baseRelease": "research/pipeline-releases/v2.7.10.json",
+    "changedCanonicalFiles": [
+      "research/generation-pipeline.md",
+      "scripts/prepare-museum-assembly.mjs",
+      "scripts/freeze-pipeline-release.mjs"
+    ]
+  },
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "freshResearchMaxWorksPerContext": 10,
+    "reviewerMode": "disabled",
+    "completionReportRequired": true,
+    "postGenerationLiveScope": "current_museum",
+    "postGenerationNetworkConcurrency": 8,
+    "postGenerationModelCalls": 0,
+    "postGenerationModelTokens": 0,
+    "imageResolverVersion": 2,
+    "imageResolverModelCalls": 0,
+    "futureMuseumContractVersion": 1,
+    "researchBatchConcurrency": 4,
+    "authorConcurrency": 10,
+    "authorBundleOutputs": [
+      "writing-plan.json",
+      "card.txt",
+      "draft.md"
+    ]
+  },
+  "modelRouting": {
+    "museum_scope": {
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "museum_candidate_pool": {
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "medium"
+    },
+    "research": {
+      "standard": {
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
+      },
+      "complex": {
+        "model": "gpt-5.6-sol",
+        "reasoningEffort": "medium"
+      }
+    },
+    "museum_selection": {
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "medium"
+    },
+    "museum_structure": {
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "medium"
+    },
+    "author": {
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "medium"
+    }
+  },
+  "stageInstructionViews": {
+    "museum_scope": [
+      "0",
+      "1",
+      "2",
+      "4",
+      "12",
+      "13"
+    ],
+    "museum_candidate_pool": [
+      "0",
+      "1",
+      "2",
+      "4",
+      "9",
+      "12",
+      "13"
+    ],
+    "research": [
+      "0",
+      "1",
+      "5",
+      "9",
+      "12",
+      "13"
+    ],
+    "museum_selection": [
+      "0",
+      "1",
+      "3",
+      "4",
+      "9",
+      "12",
+      "13"
+    ],
+    "museum_structure": [
+      "0",
+      "2",
+      "7",
+      "11",
+      "12",
+      "13"
+    ],
+    "author": [
+      "0",
+      "1",
+      "6",
+      "8",
+      "9",
+      "10",
+      "12",
+      "13",
+      "14"
+    ]
+  },
+  "stageInputContracts": {
+    "author": {
+      "version": 2,
+      "requiredRoles": [
+        "content_instruction",
+        "research_card",
+        "work_context"
+      ],
+      "optionalRoles": [
+        "research_supplement"
+      ],
+      "maxInputsByRole": {
+        "content_instruction": 1,
+        "research_card": 1,
+        "work_context": 1,
+        "research_supplement": 1
+      },
+      "maxTotalBytes": 90000
+    },
+    "research": {
+      "version": 1,
+      "maxWorksPerContext": 10,
+      "requiredEvidenceBlock": "meowseum-downstream-evidence/1.0",
+      "requiredCandidateFields": [
+        "identityAnchor",
+        "identitySourceUrl",
+        "riskFlags",
+        "riskRationale"
+      ],
+      "complexityValues": [
+        "standard",
+        "complex"
+      ],
+      "riskFlags": [
+        "identity_conflict",
+        "attribution_or_date_conflict",
+        "rare_candidate",
+        "superlative_claim",
+        "composite_or_parent_child",
+        "architecture_or_site",
+        "insufficient_official_sources",
+        "availability_ambiguity",
+        "cross_source_synthesis"
+      ]
+    },
+    "museumPlanning": {
+      "version": 1,
+      "requiredIndex": "museum-work-index.json",
+      "fullCardFallbackField": "requiresFullCard"
+    },
+    "assembly": {
+      "version": 2,
+      "requiredFile": "assembly-input.json",
+      "requiredSources": [
+        "museum_structure",
+        "museum_rating",
+        "museum_selection",
+        "author_bundles",
+        "verified_assets"
+      ],
+      "modelCalls": 0,
+      "futureRequiredFields": [
+        "integration.coordinates"
+      ]
+    }
+  },
+  "stateMachine": [
+    "research_card",
+    "author_bundle",
+    "mechanical_processed"
+  ],
+  "acceptedRegression": {
+    "authorBundleResult": "research/pipeline-tests/v2.0.9-autumn-rhythm-single-load-clean3/author-result.json",
+    "authorBundleResultSha256": "2e0ff07959cddb0f91ac9bf768e69fcc1aa892da380707e8797b41563ea5555a",
+    "successfulRunTokens": 128408,
+    "reviewerRun": false,
+    "productionWrite": false
+  }
+}

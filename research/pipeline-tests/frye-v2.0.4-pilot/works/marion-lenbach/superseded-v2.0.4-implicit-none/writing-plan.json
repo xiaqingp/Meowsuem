@@ -1,0 +1,184 @@
+{
+  "workId": "marion-lenbach",
+  "directUpstream": {
+    "filename": "research-card.md",
+    "sha256": "7d65411c24de7c7b4bd26a634a252676b3f51acdc7e8e27c9ce9a0c605d6117f"
+  },
+  "readerBaseline": {
+    "knownFromTitleAndImage": [
+      "画面里有两个朝向不同的儿童形象",
+      "标题只点出玛丽昂·伦巴赫，并把另一人称作画家尼古拉斯·吉西斯之女",
+      "一张脸和周围区域比另一部分完成得更充分，大片棕灰底仍然可见"
+    ],
+    "notAssumed": "读者不需要认识伦巴赫、吉西斯，也不预设两名儿童的关系、情绪或这张纸上的写生次序。"
+  },
+  "coreQuestion": "为什么同一幅双人肖像里明显不同的完成度，反而是理解伦巴赫如何制造肖像的关键？",
+  "quickLayerPromise": {
+    "visibleTension": "两个儿童形象同处一张竖幅，却没有被处理到同样完整：脸部较集中，衣服、边缘和大片棕灰底仍显松动。",
+    "provisionalAnswer": "这件作品的观看回报不在于寻找一张圆满的正式合影，而在于看脸如何从底色与松动笔触中被逐步突出。",
+    "viewingRoute": [
+      "比较两个头部的朝向与完成度",
+      "沿脸部向衣服和边缘移动，观察笔触如何变松",
+      "确认棕灰底色并非被全部遮住，而是参与人物造型"
+    ]
+  },
+  "cognitionSteps": [
+    {
+      "step": 1,
+      "discovery": "完成度差异首先表现为可见的材料事实，而不是人物故事。",
+      "changesUnderstanding": "读者从辨认两名儿童，转向辨认画家把注意力放在哪里。",
+      "thereforeNext": "脸部为什么比衣服和边缘更集中？"
+    },
+    {
+      "step": 2,
+      "discovery": "纸本裱板、裸露底色与松动笔触让肖像的建构过程留在表面。",
+      "changesUnderstanding": "看似缺少收尾的区域开始承担作用：它们衬出脸部，而非只是空白。",
+      "thereforeNext": "这种处理在伦巴赫的创作中处于什么位置？"
+    },
+    {
+      "step": 3,
+      "discovery": "这是一件1899年的晚期、非正式双人作品；伦巴赫以名流肖像闻名，也反复描绘女儿玛丽昂。",
+      "changesUnderstanding": "它把读者从正式权力肖像的结果带到画家更自由的工作面与家庭题材。",
+      "thereforeNext": "加入另一位画家的女儿后，这件作品在馆内多提供了什么？"
+    },
+    {
+      "step": 4,
+      "discovery": "标题把两位慕尼黑艺术圈画家的家庭并置，但证据只支持身份与圈子线索，不支持具体友情或同次写生。",
+      "changesUnderstanding": "双人并置可以帮助理解艺术家家庭与职业圈相接，却不能被扩写成未经证实的亲密故事。",
+      "thereforeNext": "在不夸大这条线索时，作品为什么仍值得停留？"
+    },
+    {
+      "step": 5,
+      "discovery": "与同馆约1895年的单人《玛丽昂·伦巴赫》相比，本作增加第二名儿童并留下更明显的开放区域。",
+      "changesUnderstanding": "作品的独特回报是把反复出现的女儿题材、双人并置和制作过程合在同一表面，而不是证明它比正式肖像更稀有或更高级。",
+      "thereforeNext": "最后回到两张脸与棕灰底之间，验证完成度差异如何组织观看。"
+    }
+  ],
+  "humorBasis": null,
+  "forbiddenAssumptions": [
+    "不得给尼古拉斯·吉西斯之女补姓名",
+    "不得称两名儿童为朋友、姐妹或具有其他未经证实的关系",
+    "不得从姿态或表情推断性格、情绪与心理",
+    "不得把完成度差异写成先后写生顺序",
+    "不得把裸露底色或松动区域写成伦巴赫放弃作品",
+    "不得断言两人于同一次写生中出现",
+    "不得把本作称为顶级正式肖像、稀世珍品或决定行程的名作"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "未完成区域表现了作者放弃",
+      "evidenceType": "直接观察只能确认完成度不同；无作者意图证据",
+      "allowedWording": "大片棕灰底可见，衣服和边缘的笔触较松，画面保留了明显不同的完成度",
+      "forbiddenEscalation": "放弃、失败、故意未完成"
+    },
+    {
+      "claim": "两名儿童的具体关系与心理",
+      "evidenceType": "标题身份事实加直接观察；无关系或心理来源",
+      "allowedWording": "标题把伦巴赫之女与吉西斯之女并置；两个头部朝向不同",
+      "forbiddenEscalation": "好友、姐妹、亲密、拘谨、厌烦或其他内心判断"
+    },
+    {
+      "claim": "两个形象存在明确写生先后或同次写生",
+      "evidenceType": "无历史时间顺序证据",
+      "allowedWording": "同一画面保留两个完成度不同的儿童形象",
+      "forbiddenEscalation": "先画谁、后画谁、同日或同次完成"
+    },
+    {
+      "claim": "双人画面证明两个艺术家家庭关系密切",
+      "evidenceType": "标题与慕尼黑艺术圈背景只支持家庭/职业网络线索",
+      "allowedWording": "两位艺术家的女儿同处一画，可作为家庭与职业圈相接的线索",
+      "forbiddenEscalation": "证明两家友情、合作或固定交往"
+    },
+    {
+      "claim": "作品具有全球不可替代性",
+      "evidenceType": "馆内比较与编辑判断；无全球数量或最高级证据",
+      "allowedWording": "在 Frye 的伦巴赫作品中，它以双人并置和开放工作面提供独特的过程视角",
+      "forbiddenEscalation": "唯一、仅存、顶级、不可替代的世界名作"
+    }
+  ],
+  "historicalContextPlan": {
+    "applicable": false,
+    "reason": "本作的重要性不依赖一场具体事件、政治变化、宗教改革、制度转型或社会冲突；所需背景是伦巴赫的肖像实践、反复描绘玛丽昂以及慕尼黑艺术家圈。",
+    "beforeState": null,
+    "changeOrConflict": null,
+    "objectRole": null,
+    "consequence": null,
+    "uncertainty": "两名儿童是否同次写生、具体先后以及两家人的关系均未证实。",
+    "placement": "快层只交代完成度反差；深层在材料机制之后引入作者实践与家庭/职业网络，不把它写成事件史。"
+  },
+  "authorStylePlan": {
+    "careerPosition": "1899年的晚期、非正式双人作品，习作性质强；与伦巴赫完成度更高的名流权力肖像形成生产阶段上的差别。",
+    "visibleFeatures": [
+      "脸部处理相对集中",
+      "衣服和轮廓边缘保留松动笔触",
+      "棕灰底色大面积暴露并参与造型",
+      "两个头部朝向不同，未被整理成对称合影"
+    ],
+    "typicalTurnOrException": "用伦巴赫以名流肖像著称、又反复描绘玛丽昂的背景解释本作：它不是正式权力肖像的典型成品，而是能显出更自由工作过程的晚期侧面。",
+    "boundary": "不把‘习作性质强’升级为馆方确定的习作分类，不推断作者意图或完成计划。"
+  },
+  "significancePlan": {
+    "level": "特色看点",
+    "dimensions": {
+      "artisticAchievement": "中：脸部、松动边缘与裸露底色形成有效的注意力层级，过程感强于完整叙事。",
+      "artHistoricalPosition": "中低：未获证据支持其为肖像史转折或伦巴赫生涯高峰；价值在于显出著名肖像家的非正式工作面。",
+      "historicalCulturalValue": "中：标题把两个慕尼黑艺术家家庭连入同一画面，为职业圈与家庭题材提供线索，但不构成关系史证明。",
+      "rarityAndIrreplaceability": "中：全球数量未知；馆内最近比较能解释反复描绘玛丽昂，却不能替代本作的双人并置与明显开放区域。",
+      "collectionPosition": "高：在 Frye 的伦巴赫群中承担‘完成品背后的过程与圈子’节点。"
+    },
+    "comparisonCategory": "伦巴赫晚期描绘女儿玛丽昂的肖像与非正式儿童肖像",
+    "nearestComparator": "同馆约1895年《玛丽昂·伦巴赫》 Marion Lenbach（1952.098）",
+    "sharedValue": "两作都反复描绘伦巴赫的女儿，并把注意力集中在脸部。",
+    "decisiveDifference": "1899年作品加入吉西斯之女，并保留更明显的棕灰底与完成度差异。",
+    "nonSubstitutableValue": "单人比较作能说明玛丽昂是反复题材，却不能同时呈现双人并置、艺术家家庭网络线索和开放的制作表面。",
+    "unknownBoundary": "无法确认全球同类数量、两人是否同次写生，也不据此建立稀世性。",
+    "frye72Boundary": "只称馆内有明确观看回报的特色看点；不称行程级珍品，不暗示它能改变西雅图旅行安排。"
+  },
+  "observableDetails": [
+    "竖幅中放置两个儿童头像或半身形象",
+    "两个头部朝向不同",
+    "一处脸部与周围区域完成得较充分",
+    "另一形象周围留有大片棕灰底",
+    "衣服和轮廓边缘可见松动笔触",
+    "底层纸面或底色明显参与人物造型"
+  ],
+  "secondLook": {
+    "action": "把视线从两张脸分别移到各自肩部和外轮廓，再比较笔触在哪里散开、棕灰底在哪里接手塑造形体。",
+    "newJudgment": "完成度差异并没有让两个人物从画面中脱开；它用不同密度把脸推到前面，也让肖像从成品变成可观察的制作过程。"
+  },
+  "cardPlan": {
+    "purpose": "独立回答为何值得点开，强调双人画面把肖像制作过程留在表面。",
+    "mustNotCopy": "不复用快层的观看路线、句序或‘完成度反差—暂时答案’表达。",
+    "openingBoundary": "不以先看、再看、先找、先确认、先别、首先等通用导览命令开头。",
+    "visibleCharacterTarget": "24—100"
+  },
+  "detailContract": {
+    "bilingualWorkTitle": "玛丽昂·伦巴赫与画家尼古拉斯·吉西斯之女 / Marion Lenbach and the Daughter of the Painter Nikolaus Gysis",
+    "bilingualArtistLine": "弗朗茨·冯·伦巴赫 Franz von Lenbach · 德国",
+    "quickLayerVisibleCharacterTarget": "70—240，优先90—180",
+    "deepLayerMinimumVisibleCharacters": 320,
+    "sectionsInOrder": [
+      "作品标题与元数据",
+      "30 秒先懂",
+      "多停几分钟，你会看到什么",
+      "最后再看一眼",
+      "事实边界",
+      "资料"
+    ],
+    "progressiveQuestionRule": "全文只推进核心问题；小标题按完成度反差—材料机制—作者位置—馆内比较递进，不排成可交换的历史、风格、重要性栏目。"
+  },
+  "productionLanguageBoundary": {
+    "visitorProseForbidden": [
+      "研究缺口",
+      "图片许可任务",
+      "发布任务",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "版本迁移"
+    ],
+    "allowedVisitorBoundary": "只写读者需要的证据限度与易变在展状态，例如不确定第二名儿童姓名、写生次序，以及到访时应以馆方当日陈列为准。",
+    "internalRisksDestination": "author-review.json"
+  }
+}

@@ -1,0 +1,40 @@
+{
+    "runId":  "m28-2-v2.3.0-narmer-lean-author-2026-07-22",
+    "stage":  "author",
+    "pipelineVersion":  "2.3.0",
+    "instructionVersion":  "1.9.0",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-22T23:45:33.4579401-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/generation-pipeline.md",
+                       "sha256":  "d50cc98c2ae21df557934f83ac8033e53c1b05b22009017bea7070864ef4af8d"
+                   },
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "sha256":  "2177cc45c3d95f511a2c676be7b10f5e8e8fd932f87193bd9a1685e8baac7a16"
+                   },
+                   {
+                       "path":  "research/pipeline-tests/v2.3.0-narmer-lean-author-test/research-card.md",
+                       "sha256":  "e7ab7fad530ebc5e42556c0033f70765f9bc7fdeca8068e0dc6344cb3385342e"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "7bdd73e25bd09214737f4cceb447b355365694daa25cca9520715d66536a38e7",
+                        "bytes":  10946
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "f0a25f3c8d5f1c5a9918e00b3a6671ad8de84684bfa48f6d4dfdbd7f95e5853b",
+                        "bytes":  370
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "1c3e9a4d4793b1e82c261495668f1815a36c0de8022a4aa11d2b46d852c86e89",
+                        "bytes":  6303
+                    }
+                ]
+}

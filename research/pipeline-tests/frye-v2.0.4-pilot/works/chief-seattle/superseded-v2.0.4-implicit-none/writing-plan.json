@@ -1,0 +1,149 @@
+{
+  "workId": "chief-seattle",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "directUpstream": {
+    "filename": "research-card.md",
+    "sha256": "22a3c2af1443e56efde423aef23482946b915d0f643c4b13eb030a0235f8ebe2"
+  },
+  "retryReason": "机械门禁失败：旧失败稿将标题写成“30秒先懂”，而规范要求精确标题“30 秒先懂”。本次仅从 research-card.md 重新生成，不复用失败文字。",
+  "readerBaseline": "零背景读者只能从题名知道人物与 Chief Seattle 有关，并能在画面中看到一位居中、近正面的胸像人物、暗背景和局部服饰；读者未必知道 Si’ahl 的身份、去世年份、作品年代或这幅画与生前照片的距离。",
+  "workSpecificQuestion": "一个在 Si’ahl 去世约半世纪后完成的肖像，究竟让今天的观众看见了谁？",
+  "quickLayerPromise": {
+    "visibleTension": "画面用居中、近正面的胸像制造直接相见的感觉，但作品约作于 1916 年，Si’ahl 已于 1866 年去世。",
+    "provisionalAnswer": "观众看到的是一幅后世纪念形象：它能说明西雅图如何塑造并传播一位地方领袖的公共面貌，却不能充当 Si’ahl 本人容貌或文化自我表述的权威记录。",
+    "viewingRoute": [
+      "先用人物直视般的居中构图感受肖像的权威感",
+      "再以暗背景、被压缩的肩部和服饰判断画面怎样集中注意力",
+      "最后把约1916与1866两个时间锚点叠回整幅画，辨认“相见感”与历史距离同时存在"
+    ]
+  },
+  "cognitionSteps": [
+    {
+      "step": 1,
+      "discovery": "这是一幅小尺幅、近正面、暗背景的胸像，人物头面占据中心。",
+      "changesUnderstanding": "题名中的历史人物首先被画面处理成一个可迅速识别、像在与观众对面的公共形象。",
+      "thereforeNext": "这种近距离的相见感，是否来自真实会面？"
+    },
+    {
+      "step": 2,
+      "discovery": "作品约作于1916年，而Si’ahl在1866年已经去世。",
+      "changesUnderstanding": "画面的直接感不能再被理解为现场写生的结果；它属于死后约半世纪的再造。",
+      "thereforeNext": "既然不是现场记录，这幅肖像在历史中做了什么？"
+    },
+    {
+      "step": 3,
+      "discovery": "Si’ahl是Duwamish/Suquamish领袖，城市使用了其英语化名字；Raschen则是画原住民题材的非原住民画家。",
+      "changesUnderstanding": "肖像的重点由“本人长什么样”转为“城市怎样把一位原住民领袖塑造成公共记忆”。",
+      "thereforeNext": "画面用哪些形式让这种公共形象显得稳定而可信？"
+    },
+    {
+      "step": 4,
+      "discovery": "近正面姿态、居中头面、暗背景与仅局部出现的肩部服饰，共同压低环境信息，把辨识压力集中到脸部。",
+      "changesUnderstanding": "形式上的权威感来自构图取舍，不能自动转换为服饰准确、部族认可或本人意图。",
+      "thereforeNext": "与更接近Si’ahl生前的公共影像相比，这幅油画还保留什么价值？"
+    },
+    {
+      "step": 5,
+      "discovery": "最近比较对象是E. M. Sammis据1864年照片制作并广泛传播的Si’ahl影像；两者都建立公共可识别性，但油画晚得多、再造层更厚。",
+      "changesUnderstanding": "本作的核心价值不在形貌实证，而在Frye创始收藏与西雅图地方记忆如何保存一种非原住民塑造的纪念形象。",
+      "thereforeNext": "第二眼应同时看见画面的权威效果和它与本人之间的历史距离。"
+    }
+  ],
+  "humorBasis": null,
+  "forbiddenAssumptions": [
+    "Raschen见过Si’ahl或依据现场写生作画",
+    "画中服饰准确代表Duwamish或Suquamish文化",
+    "该肖像得到相关部族同意或代表其文化自我表述",
+    "画中表情证明Si’ahl的心理、性格或本人意图",
+    "城市命名和这幅画可以概括Si’ahl与殖民城市之间的完整历史",
+    "读者起初把这幅画当成照片、写生或绝对准确的记录"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "这是Si’ahl本人的准确容貌记录",
+      "evidenceType": "历史重建风险；作品年代与人物卒年形成反证",
+      "allowedWording": "这是一幅在Si’ahl去世约半世纪后形成的纪念性再造",
+      "forbiddenUpgrade": "准确肖像、亲见写生、最真实面貌"
+    },
+    {
+      "claim": "人物显得庄严，所以Si’ahl本人庄严或希望如此呈现",
+      "evidenceType": "人物心理与作者意图风险；只能直接观察构图",
+      "allowedWording": "居中、近正面与暗背景使公共肖像显得稳定、有权威感",
+      "forbiddenUpgrade": "本人心理、性格、愿望或作者明确意图"
+    },
+    {
+      "claim": "服饰准确记录部族文化",
+      "evidenceType": "图像宣称与文化归属风险；资料仅支持服饰局部可见",
+      "allowedWording": "肩部与服饰只在画面边缘局部出现",
+      "forbiddenUpgrade": "准确族属、仪式用途、部族认可"
+    },
+    {
+      "claim": "画面还原了Si’ahl生前的历史时刻",
+      "evidenceType": "真实时间顺序风险；作品晚于人物去世",
+      "allowedWording": "后世以油画重新组织他的公共形象",
+      "forbiddenUpgrade": "现场事件、真实会面或生前某一刻"
+    },
+    {
+      "claim": "本作不可由其他Si’ahl肖像替代",
+      "evidenceType": "不可替代性判断；最近比较对象为据1864照片传播的公共影像",
+      "allowedWording": "其独特回报在Frye创始收藏与西雅图地方记忆的馆内语境；形貌实证可由更接近生前的照片链条提供",
+      "forbiddenUpgrade": "唯一、最权威、稀世珍品或无可替代的容貌记录"
+    }
+  ],
+  "historicalContextPlan": {
+    "applicable": true,
+    "beforeState": "Si’ahl是Duwamish/Suquamish领袖，生活于十九世纪；城市后来使用了其名字的英语化形式。",
+    "changeOrConflict": "Si’ahl于1866年去世，约半世纪后的1916年前后，非原住民画家Raschen仍以油画重塑他的公共面貌；人物生前经验与城市纪念形象之间出现时间和叙述权力的距离。",
+    "objectRole": "作品不是事件现场记录，而是后世纪念并重新解释一位地方领袖的公共肖像。",
+    "consequence": "它让观众追问西雅图地方记忆由谁塑造、哪些形式效果被当成历史可信度，并把Frye创始收藏纳入这段记忆史。",
+    "uncertainty": "现有资料不能确认Raschen具体依据哪一图像作画、相关部族是否参与、服饰是否准确，也不以本作重建Si’ahl本人意图。",
+    "placement": "快层用1916与1866说明死后再造；深层第二段交代Si’ahl身份、城市命名和非原住民画家的位置，随后回到构图与比较对象。"
+  },
+  "authorStyle": {
+    "applicable": true,
+    "plan": "只写本作可见且资料可支持的Raschen方法：肖像、风景与原住民题材是其长期实践，本作属约62岁晚期；用紧凑胸像、近正面人物、暗背景与被裁切的肩部集中辨识度。将其说明为这件晚期公共肖像的可见处理，不宣称这是其独创、典型巅峰或明确意图。",
+    "careerPosition": "约62岁的晚期作品；其西部与原住民题材实践已形成多年。"
+  },
+  "significance": {
+    "label": "重要藏品",
+    "fiveDimensions": {
+      "artisticAchievement": "3/5：紧凑的胸像、暗背景和中心化头面有效建立公共肖像的辨识与权威感，但资料不足以主张形式创新。",
+      "artHistoricalPosition": "2/5：是Raschen晚期既有题材实践的一例，未证成生涯转折或类型定义作品。",
+      "historicalCulturalValue": "4/5：能具体揭示西雅图如何在Si’ahl去世后塑造一位Duwamish/Suquamish领袖的公共记忆，同时必须承认其非原住民再造视角。",
+      "rarityAndIrreplaceability": "3/5：最近对象为E. M. Sammis据1864照片制作的常见公共影像；本作在油画、创始收藏与地方记忆语境上有独特回报，但不具形貌实证上的不可替代性。",
+      "collectionPosition": "5/5：属于Frye Founding Collection，是理解该馆历史收藏如何参与地方记忆的重要节点。"
+    },
+    "comparisonCategory": "死后纪念性原住民领袖肖像",
+    "nearestComparator": "E. M. Sammis据1864年照片制作并传播的Si’ahl公共影像",
+    "sharedCoreValue": "都把Si’ahl转化为公众可识别的肖像。",
+    "decisiveDifference": "Sammis影像链条更接近Si’ahl生前；Raschen油画晚约半世纪，并在Frye创始收藏中显示后世纪念形象如何被重新制造和保存。",
+    "boundary": "不主张全球数量、唯一性、形貌准确性或艺术史峰值；其不可替代性限于Frye馆藏与Seattle地方记忆的具体交点。"
+  },
+  "observableDetails": [
+    "胸像式构图",
+    "人物呈正面或近正面",
+    "头部与面部位于小画面中心",
+    "背景整体偏暗",
+    "深色头发环绕面部",
+    "肩部与服饰只局部进入画面"
+  ],
+  "secondLook": "看完年代差后，把视线停在面部与暗背景的交界，再扫到被画框压缩的肩部和服饰：体会画面如何用极少环境信息制造强烈的“本人就在眼前”之感，同时记住这份直接感来自去世约半世纪后的纪念性再造。",
+  "productionLanguageBoundary": {
+    "visitorProseMayContain": [
+      "作品年代与人物卒年",
+      "历史证据能支持的限度",
+      "当前未承诺在展的自然表述",
+      "可点击的作品与历史资料来源"
+    ],
+    "internalOnly": [
+      "研究缺口",
+      "图片许可与图片文件待办",
+      "发布状态与发布任务",
+      "测试、机械门禁与失败稿",
+      "prompt、生成器、reviewer与版本迁移",
+      "任何发布前补核指令"
+    ]
+  }
+}

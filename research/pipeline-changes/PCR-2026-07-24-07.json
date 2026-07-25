@@ -1,0 +1,27 @@
+{
+  "id": "PCR-2026-07-24-07",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-24",
+  "ownerInstruction": "同意升级为 Pipeline 2.7.2，补齐评分输出合同，并从评分阶段继续",
+  "baseRelease": "research/pipeline-releases/v2.7.1.json",
+  "targetVersion": "2.7.2",
+  "scope": [
+    "add the canonical museum_selection output contract required by process-museum-rating",
+    "rerun only Seattle museum selection and downstream stages; preserve completed research"
+  ],
+  "allowedCanonicalFiles": [
+    "research/meowseum-content-instruction.md"
+  ],
+  "allowedManagementFiles": [
+    "research/content-standard-manifest.json",
+    "coho_museum/Milestones.md",
+    "coho_museum/knowledge.md"
+  ],
+  "requiredTests": [
+    "museum_selection stage view contains every canonical rating field",
+    "Seattle museum rating gate passes without manual field repair",
+    "project authority and pipeline causality gates pass",
+    "release idempotence and immutability pass"
+  ]
+}

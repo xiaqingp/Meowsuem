@@ -1,0 +1,280 @@
+{
+  "workId": "posthumous-portrait-head-of-the-emperor-claudius",
+  "narrativeMainline": {
+    "valueType": "civilization_system",
+    "mainline": "罗马把可辨认的皇帝面貌做成可重复、可嵌装的肖像系统，使克劳狄乌斯去世并被神化后，仍能通过祭祀雕像出现在帝国的公共或宗教空间中。眼前的头颈截面、略转的头像和保存下来的细刻，把这套系统从抽象制度变成一件可观察的物件。",
+    "readerStartingPoint": "零背景读者从标题可知人物是克劳狄乌斯、作品为死后肖像，从现存形态可见它只保留头颈部分；读者尚不知道头像可能怎样与身体组合，也不知道同类帝王形象为何会大量制作。",
+    "storyBeats": [
+      {
+        "step": "先用 54—68 年的断代、克劳狄乌斯于 54 年去世以及馆方对祭祀雕像的谨慎判断，说明这张脸在人物死后承担了什么任务。",
+        "researchRefs": [
+          "R01",
+          "R02"
+        ],
+        "newUnderstanding": "这是一件很可能服务于已故并被神化皇帝祭祀形象的肖像头像，具体原境仍未知。"
+      },
+      {
+        "step": "再把帝国内数百件略有变化的皇帝肖像与本作可能嵌入另制超大雕像身体的方式连起来。",
+        "researchRefs": [
+          "R03",
+          "R04",
+          "R09"
+        ],
+        "newUnderstanding": "辨认皇帝的面貌与制作整尊身体可以分开处理，重复和模块化共同支持形象传播。"
+      },
+      {
+        "step": "以涅尔瓦头像说明这种可嵌装、借肖像连续性表达统治正当性的机制延续到后来，同时限定本作的独特问题。",
+        "researchRefs": [
+          "R07",
+          "R08"
+        ],
+        "newUnderstanding": "本作不是同类机制的孤例；它的重要性在于把该机制具体落在克劳狄乌斯死后神化这一历史节点上。"
+      },
+      {
+        "step": "最后回到头发、转向、面部细刻、损伤与未经后世重刻或过度清洗的表面。",
+        "researchRefs": [
+          "R05",
+          "R09",
+          "R10",
+          "R11",
+          "R12"
+        ],
+        "newUnderstanding": "观众可以从保存下来的制作与表面痕迹，重新看见一套帝王形象制度如何落实到石头上。"
+      }
+    ],
+    "humorBasis": null,
+    "highRiskClaims": [
+      {
+        "claim": "本作属于克劳狄乌斯死后被神化后的祭祀雕像。",
+        "evidenceType": "来源事实，馆方使用 probably",
+        "researchRefs": [
+          "R01",
+          "R02"
+        ],
+        "allowedWording": "很可能属于已故、继而被神化的克劳狄乌斯的祭祀雕像",
+        "forbiddenUpgrade": "确定为某座神庙或公共建筑中的祭祀雕像"
+      },
+      {
+        "claim": "完整雕像的身体、姿态与安放地点可以复原。",
+        "evidenceType": "来源只支持嵌装方式与若干可能原境",
+        "researchRefs": [
+          "R02",
+          "R04"
+        ],
+        "allowedWording": "头像原本很可能嵌装在披长袍、穿托加的超大尺寸雕像上；原境可能有多种",
+        "forbiddenUpgrade": "确定身体姿态、委托人、建筑或陈设位置"
+      },
+      {
+        "claim": "头像的转向或面部细节表现了克劳狄乌斯的心理。",
+        "evidenceType": "直接观察",
+        "researchRefs": [
+          "R10",
+          "R12"
+        ],
+        "allowedWording": "头像略转向一侧，头发、耳、眼睑、嘴角与下颏有细刻",
+        "forbiddenUpgrade": "由姿态推断威严、忧虑、自信或其他内心"
+      },
+      {
+        "claim": "罗马皇帝肖像在帝国内有统一且完全相同的版本。",
+        "evidenceType": "来源事实",
+        "researchRefs": [
+          "R03"
+        ],
+        "allowedWording": "数百件仅略有变化的皇帝肖像帮助臣民辨认统治者",
+        "forbiddenUpgrade": "所有版本完全相同，或由单一中央机构统一制作"
+      },
+      {
+        "claim": "本作是唯一或不可替代的罗马皇帝肖像。",
+        "evidenceType": "比较与重要性判断",
+        "researchRefs": [
+          "R03",
+          "R07",
+          "R08"
+        ],
+        "allowedWording": "重要藏品；其核心价值集中在克劳狄乌斯死后神化、模块化雕像与形象传播的交点",
+        "forbiddenUpgrade": "唯一、仅存、稀世珍品或全球不可替代"
+      },
+      {
+        "claim": "作品目前正在展厅展出。",
+        "evidenceType": "状态边界",
+        "researchRefs": [
+          "R06"
+        ],
+        "allowedWording": "当前展出状态未知",
+        "forbiddenUpgrade": "根据对象页或既往展览推定当日可见"
+      }
+    ]
+  },
+  "mustNotAssume": [
+    "具体头像类型名称已经确认",
+    "古代出土地、委托人、原建筑或完整雕像姿态已经确认",
+    "头像的转向和表情能证明人物心理或雕刻者意图",
+    "数百件皇帝肖像完全相同，或均由同一机构制作",
+    "本作是克劳狄乌斯肖像的唯一存世实例或全球最佳实例",
+    "Getty 的涅尔瓦头像可以替代本作关于克劳狄乌斯死后神化的历史价值",
+    "对象页的存在意味着作品当前正在展出"
+  ],
+  "displayMetadata": {
+    "by": "Roman",
+    "date": "54–68 CE",
+    "material": "希腊大理石",
+    "place": "Seattle Art Museum",
+    "priority": "强烈推荐",
+    "significance": "重要藏品",
+    "stay": "5—8 分钟",
+    "availability": "display_status_unknown",
+    "imagePolicy": "object_image"
+  },
+  "claimLedger": [
+    {
+      "claimId": "C01",
+      "claim": "作品断代为 54—68 年，晚于克劳狄乌斯在 54 年去世，因而属于死后肖像。",
+      "type": "来源事实",
+      "researchRefs": [
+        "R01"
+      ],
+      "usedIn": [
+        "card",
+        "draft:30 秒先懂",
+        "draft:一张脸怎样继续履行皇帝的职务"
+      ]
+    },
+    {
+      "claimId": "C02",
+      "claim": "本作很可能属于已故、继而被神化的克劳狄乌斯的祭祀雕像；公共、宗教或较私人原境皆有可能，具体地点未知。",
+      "type": "来源事实",
+      "researchRefs": [
+        "R02"
+      ],
+      "usedIn": [
+        "card",
+        "draft:30 秒先懂",
+        "draft:一张脸怎样继续履行皇帝的职务",
+        "draft:事实边界"
+      ]
+    },
+    {
+      "claimId": "C03",
+      "claim": "罗马帝国内有数百件略有变化的皇帝肖像，使臣民能够辨认统治者。",
+      "type": "来源事实",
+      "researchRefs": [
+        "R03"
+      ],
+      "usedIn": [
+        "card",
+        "draft:30 秒先懂",
+        "draft:重复不是缺点，而是这套系统的用途"
+      ]
+    },
+    {
+      "claimId": "C04",
+      "claim": "头像原本很可能嵌装在一尊披长袍、穿托加的超大尺寸雕像上；身体和具体安放地点没有保存或确认。",
+      "type": "来源事实",
+      "researchRefs": [
+        "R04"
+      ],
+      "usedIn": [
+        "card",
+        "draft:头像与身体为什么可以分开制作",
+        "draft:事实边界"
+      ]
+    },
+    {
+      "claimId": "C05",
+      "claim": "后脑、脸侧和鼻部有轻微损伤；整体保存良好，未被后世修补、过度清洗或重刻。",
+      "type": "来源事实",
+      "researchRefs": [
+        "R05"
+      ],
+      "usedIn": [
+        "draft:这件作品有哪些趣闻？",
+        "draft:最后再看一眼"
+      ]
+    },
+    {
+      "claimId": "C06",
+      "claim": "已知来源链从 Robin Symes Ltd. 截至 1993 年开始，SAM 于 1993 年购藏；古代出土地及此前流传史未知。",
+      "type": "来源事实",
+      "researchRefs": [
+        "R06"
+      ],
+      "usedIn": [
+        "draft:事实边界"
+      ]
+    },
+    {
+      "claimId": "C07",
+      "claim": "Getty 的涅尔瓦头像同为可嵌入另制身体的罗马皇帝大理石头像，其资料说明帝王肖像可借形式连续性宣示统治正当性；它不能替代本作关于克劳狄乌斯死后神化的证据。",
+      "type": "来源事实与编辑整理",
+      "researchRefs": [
+        "R07"
+      ],
+      "usedIn": [
+        "draft:重复不是缺点，而是这套系统的用途"
+      ]
+    },
+    {
+      "claimId": "C08",
+      "claim": "本作是重要藏品，其价值在于同时保存死后神化、模块化雕像和可复制的帝王识别系统；现有证据不支持全球不可替代性。",
+      "type": "编辑整理",
+      "researchRefs": [
+        "R03",
+        "R07",
+        "R08"
+      ],
+      "usedIn": [
+        "card",
+        "draft:重复不是缺点，而是这套系统的用途"
+      ]
+    },
+    {
+      "claimId": "C09",
+      "claim": "现存部分只有头颈，颈部下端可见与另制身体相接的截面。",
+      "type": "直接观察",
+      "researchRefs": [
+        "R09"
+      ],
+      "usedIn": [
+        "draft:30 秒先懂",
+        "draft:头像与身体为什么可以分开制作",
+        "draft:最后再看一眼"
+      ]
+    },
+    {
+      "claimId": "C10",
+      "claim": "头发由连续短束刻出，额前发束形成清楚轮廓。",
+      "type": "直接观察",
+      "researchRefs": [
+        "R10"
+      ],
+      "usedIn": [
+        "draft:头像与身体为什么可以分开制作",
+        "draft:最后再看一眼"
+      ]
+    },
+    {
+      "claimId": "C11",
+      "claim": "鼻部与一侧脸面可见缺损，面部其余部分大体完整。",
+      "type": "直接观察",
+      "researchRefs": [
+        "R11"
+      ],
+      "usedIn": [
+        "draft:这件作品有哪些趣闻？",
+        "draft:最后再看一眼"
+      ]
+    },
+    {
+      "claimId": "C12",
+      "claim": "头像略转向一侧，耳、眼睑、嘴角与下颏均有细刻。",
+      "type": "直接观察",
+      "researchRefs": [
+        "R12"
+      ],
+      "usedIn": [
+        "draft:头像与身体为什么可以分开制作",
+        "draft:最后再看一眼"
+      ]
+    }
+  ]
+}

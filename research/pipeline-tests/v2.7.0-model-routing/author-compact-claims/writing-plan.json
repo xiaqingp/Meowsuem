@@ -1,0 +1,144 @@
+{
+  "museumId": "met",
+  "workId": "portrait-head-bottle-64-228-21",
+  "narrativeMainline": {
+    "valueType": "艺术成就",
+    "mainline": "这件莫切人像头形瓶最值得理解的，是模具与彩绘怎样共同工作：模具让相近的人像能够重复制作，头巾、额带、面绘和器腹纹样又让每件成品出现差异。它因此把莫切人像传统的制作方法具体呈现出来，同时保留了人物身份与仪式意义无法确定的边界。",
+    "readerStartingPoint": "零背景读者从名称与器物外形可以知道，这是一件把瓶身塑成人头的陶器；读者尚不知道马镫形流口的长期传统、模具和彩绘的分工，也不知道研究者对人物身份与用途仍有不同解释。",
+    "storyBeats": [
+      {
+        "beat": "先从瓶身、人头和双支单口的组合说明这既是人像，也是延续已久的马镫口瓶形。",
+        "researchRefs": ["R06", "R11"],
+        "newUnderstanding": "人物形象与容器形制在同一件陶器上结合。"
+      },
+      {
+        "beat": "说明人像头瓶可以用模具重复制作，再落到本器的乳白与红色面绘、蛇纹额带、颈部和器腹纹样。",
+        "researchRefs": ["R07", "R08", "R09", "R10", "R13"],
+        "newUnderstanding": "造型的重复性与彩绘细节并存，眼前细节不是附带装饰，而是制作差异的一部分。"
+      },
+      {
+        "beat": "引入芝加哥与利马的两件最近比较对象，说明三者很可能同模或同母范相关，但额带不同。",
+        "researchRefs": ["R14", "R19"],
+        "newUnderstanding": "莫切陶工的复制并不等于成品完全相同，同时现有证据不能支持稀有、唯一或优劣判断。"
+      },
+      {
+        "beat": "交代器物的仪式和墓葬语境，以及显要人物、断首或亲属敬奉等竞争解释，最后回到额带、面绘和下颌下方菱形复看。",
+        "researchRefs": ["R12", "R15", "R16", "R17"],
+        "newUnderstanding": "具体外观可以确认，但人物是谁、过去的人怎样理解它以及菱形的意义仍不能确定。"
+      }
+    ],
+    "humorBasis": []
+  },
+  "mustNotAssume": [
+    "被塑者的姓名、身份、社会地位或内心感受已经得到确认",
+    "双支单口的具体象征意义已经得到解释",
+    "这件器物参加过哪一项具体仪式，或一定出自墓葬",
+    "下颌下方的菱形确定表现蛹或死亡转化",
+    "本器比芝加哥与利马的相关器更优、更稀有或不可替代",
+    "三件相关器必定直接出自同一个模具"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "人像表现显要人物",
+      "evidenceType": "来源中的学术解释",
+      "researchRefs": ["R15"],
+      "allowedWording": "Christopher Donnan 根据约900件人像头及考古资料，主张它们表现社区成员认识的显要人物。",
+      "forbiddenUpgrade": "这就是一位已确认身份的莫切显要人物。"
+    },
+    {
+      "claim": "器物与断首、亲属敬奉或虔敬行为有关",
+      "evidenceType": "来源中的竞争解释",
+      "researchRefs": ["R16"],
+      "allowedWording": "另有学者从墓葬语境出发，提出断首或亲属敬奉等解释。",
+      "forbiddenUpgrade": "此瓶确定用于断首仪式或祖先崇拜。"
+    },
+    {
+      "claim": "下颌下方的菱形代表蛹和死亡转化",
+      "evidenceType": "馆方谨慎描述与具名学者解释",
+      "researchRefs": ["R17"],
+      "allowedWording": "馆方说菱形或许代表蛹；Steve Bourget 提出它可能关联死亡临界阶段的转化。",
+      "forbiddenUpgrade": "菱形就是死亡与重生的确定象征。"
+    },
+    {
+      "claim": "相关器物来自同一模具",
+      "evidenceType": "来源支持的可能关系",
+      "researchRefs": ["R14"],
+      "allowedWording": "三件器物很可能出自同一模具，或出自同一母范制成的模具。",
+      "forbiddenUpgrade": "三件器物确定由同一模具制成。"
+    },
+    {
+      "claim": "本器稀有或不可替代",
+      "evidenceType": "比较边界",
+      "researchRefs": ["R19"],
+      "allowedWording": "现有材料只确认两件相关比较对象，不能确认全球存世总数、优劣或本器的不可替代性。",
+      "forbiddenUpgrade": "本器是唯一、仅存、最优秀或不可替代的人像头瓶。"
+    }
+  ],
+  "claimLedger": [
+    {
+      "claim": "作品为莫切文化5—6世纪的陶、化妆土与颜料制人像头形瓶，高32.4厘米。",
+      "researchRefs": ["R01"],
+      "usedIn": ["card", "draft.metadata"]
+    },
+    {
+      "claim": "瓶身塑成人头，顶部接双支单口的马镫形流口。",
+      "researchRefs": ["R06"],
+      "usedIn": ["card", "draft.quick", "draft.deep"]
+    },
+    {
+      "claim": "马镫口瓶在秘鲁北海岸流行约2500年；其双支单口可能便于握持，也带有意义未明的象征性。",
+      "researchRefs": ["R11"],
+      "usedIn": ["draft.deep"]
+    },
+    {
+      "claim": "本器有乳白头巾、几何边饰额带、四条张口蛇纹、乳白面部竖带及红色细部。",
+      "researchRefs": ["R07", "R08", "R09"],
+      "usedIn": ["card", "draft.quick", "draft.deep", "draft.lastLook"]
+    },
+    {
+      "claim": "颈部有阶梯形纹样，下颌下方器腹有一列菱形。",
+      "researchRefs": ["R10"],
+      "usedIn": ["draft.deep", "draft.lastLook"]
+    },
+    {
+      "claim": "人像头瓶以模具制作，再用乳白与红色化妆土彩绘。",
+      "researchRefs": ["R13"],
+      "usedIn": ["card", "draft.quick", "draft.deep", "draft.funFact"]
+    },
+    {
+      "claim": "芝加哥和利马各有一件与本器很可能同模或同母范相关的器物，三者额带设计不同。",
+      "researchRefs": ["R14"],
+      "usedIn": ["card", "draft.deep", "draft.funFact"]
+    },
+    {
+      "claim": "现有材料不能确认相关器物的全球存世总数、优劣或本器不可替代性。",
+      "researchRefs": ["R19"],
+      "usedIn": ["draft.deep", "draft.boundary"]
+    },
+    {
+      "claim": "此类器物用于特定仪式，许多但非全部最后进入墓葬。",
+      "researchRefs": ["R12"],
+      "usedIn": ["draft.deep"]
+    },
+    {
+      "claim": "Donnan主张人像表现社区认识的显要人物，但该身份解释未获完全证实。",
+      "researchRefs": ["R15"],
+      "usedIn": ["draft.deep", "draft.boundary"]
+    },
+    {
+      "claim": "另有学者提出断首或亲属敬奉等解释，而过去观看方式难以确定。",
+      "researchRefs": ["R16"],
+      "usedIn": ["draft.deep", "draft.boundary"]
+    },
+    {
+      "claim": "菱形或许代表蛹；Bourget提出它可能关联死亡临界阶段的转化。",
+      "researchRefs": ["R17"],
+      "usedIn": ["draft.deep", "draft.lastLook", "draft.boundary"]
+    },
+    {
+      "claim": "作品于核验日位于大都会艺术博物馆第五大道馆Gallery 362展出。",
+      "researchRefs": ["R01"],
+      "usedIn": ["card", "draft.visit"]
+    }
+  ]
+}

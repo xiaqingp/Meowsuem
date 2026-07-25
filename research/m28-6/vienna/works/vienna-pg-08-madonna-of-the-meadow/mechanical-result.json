@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-pg-08-madonna-of-the-meadow-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:43.496Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "42238dfdd535217af3d222cec0d37685c8b7c9dabb01a3ce9fcf9016171e0071",
+      "bytes": 9619
+    },
+    {
+      "path": "card.txt",
+      "sha256": "56100fad58eff4b24260738497067584eec8d5d59c12f027db8a931e0d592f75",
+      "bytes": 235
+    },
+    {
+      "path": "draft.md",
+      "sha256": "318b0088cf07c7337b336e000a55a8aa854c1b186f91f38bb4b73b490d6a2b6e",
+      "bytes": 4322
+    }
+  ]
+}

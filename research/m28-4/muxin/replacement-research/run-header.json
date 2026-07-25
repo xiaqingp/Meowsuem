@@ -1,0 +1,120 @@
+{
+  "runId": "m28-4-muxin-replacement-fresh-research-2026-07-23",
+  "startedAt": "2026-07-24T04:39:54.483Z",
+  "stage": "research",
+  "researchMode": "fresh",
+  "museumId": "muxin",
+  "works": [
+    {
+      "museumId": "muxin",
+      "workId": "muxin-r01",
+      "replacesWorkId": "muxin-c06",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "《战后嘉年华》手稿",
+        "titleEn": "Manuscript of Postwar Carnival",
+        "museum": "Mu Xin Art Museum"
+      }
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-r02",
+      "replacesWorkId": "muxin-c07",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "《四块水晶石》",
+        "titleEn": "Four Crystal Stones",
+        "museum": "Mu Xin Art Museum"
+      }
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-r03",
+      "replacesWorkId": "muxin-c08",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "《早晨》",
+        "titleEn": "Morning",
+        "museum": "Mu Xin Art Museum"
+      }
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-r04",
+      "replacesWorkId": "muxin-c16",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "《战争前夜》",
+        "titleEn": "Eve of War",
+        "museum": "Mu Xin Art Museum"
+      }
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-r05",
+      "replacesWorkId": "muxin-c17",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "《木心为自己未来画册设计的封面》",
+        "titleEn": "Cover Designed by Mu Xin for His Future Art Book",
+        "museum": "Mu Xin Art Museum"
+      }
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-r06",
+      "replacesWorkId": "muxin-c18",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "题未定（20世纪70年代纸本彩墨，31.4 × 40.5厘米）",
+        "titleEn": "Untitled (ink and color on paper, 1970s, 31.4 × 40.5 cm)",
+        "museum": "Mu Xin Art Museum"
+      }
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-r07",
+      "replacesWorkId": "muxin-c19",
+      "workIdentity": {
+        "artistOrCulture": "Timothy Sternberg、Francisco Bello",
+        "title": "纪录片《梦想抵抗现实》",
+        "titleEn": "Dreaming Against the World",
+        "museum": "Mu Xin Art Museum"
+      }
+    }
+  ],
+  "pipelineVersion": "2.4.6",
+  "instructionVersion": "2.0.2",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c22c60e3a215aa1ac90da402debeb2caf9da39975cb2921c4845ef74ef14c834"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "e7b049c97e262a0a9f2e334388ffadfb2013ce5a3fded20f7063256d03bb7e56"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-4/muxin/candidate-replacement/replacement-candidates.json",
+      "sha256": "37dfa476a2853c9fe228b8750ce2d34ee97ccdbd0b170d1cf510ae9ffdbf1be5"
+    }
+  ],
+  "outputs": [
+    "muxin-r01-research-card.md",
+    "muxin-r02-research-card.md",
+    "muxin-r03-research-card.md",
+    "muxin-r04-research-card.md",
+    "muxin-r05-research-card.md",
+    "muxin-r06-research-card.md",
+    "muxin-r07-research-card.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

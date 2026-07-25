@@ -1,0 +1,26 @@
+{
+  "museumId": "chichu",
+  "cacheKey": "20260724-m28-9-chichu",
+  "files": [
+    {
+      "source": "chichu.js",
+      "destination": "chichu.js"
+    },
+    {
+      "source": "chichu-content-v2.md",
+      "destination": "research/chichu-content-v2.md"
+    },
+    {
+      "source": "ratings.js",
+      "destination": "ratings.js"
+    },
+    {
+      "source": "routes.js",
+      "destination": "routes.js"
+    }
+  ],
+  "cachePages": [
+    "index.html",
+    "museum.html"
+  ]
+}

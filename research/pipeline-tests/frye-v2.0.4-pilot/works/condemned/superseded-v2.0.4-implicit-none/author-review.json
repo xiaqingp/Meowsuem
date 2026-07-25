@@ -1,0 +1,200 @@
+{
+  "artifactType": "author_review",
+  "workId": "condemned",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "museumId": "frye",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "188e64e3090da445d57cfb74770d2d3d5b7596308b959fcb931466118777ab11"
+  },
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "finalPassIssued": false,
+  "cardIndependence": {
+    "verdict": "passed_author_check",
+    "visibleCharacterBoundary": "within_24_to_100",
+    "reason": "卡片以空地造成的全室压力回答点击理由；快层则从束缚、人群、亮色和空地给出完整观看路线，两者功能独立且没有近义改写。",
+    "genericViewingCommandAtStart": false
+  },
+  "quickLayer": {
+    "verdict": "passed_author_check",
+    "independentlyFunctional": true,
+    "promiseDelivered": "可见矛盾是拥挤房间中的空地；暂定答案是空间把身体拘束扩展为人际隔离；观看路线明确落在束缚、人群、空地与亮色。"
+  },
+  "narrativeReview": [
+    {
+      "paragraph": "30秒先懂",
+      "dependsOn": "只依赖标题和零背景读者可见的暗室、束缚、人群、空地与亮色。",
+      "newUnderstanding": "空地使监禁超出脚踝束缚，成为整个房间里可见的人际处境。",
+      "breaksIfMovedEarlier": "已是入口段，无需前置段落；删去它不会使深层残缺，保留它也能独立指导观看。"
+    },
+    {
+      "paragraph": "深层第1段：束缚、站位与空地",
+      "dependsOn": "承接快层提出但尚未解释的核心问题：为什么拥挤的房间中央仍留出空地。",
+      "newUnderstanding": "空间关系本身足以说明隔离，无需给人物添加情绪或共同意图。",
+      "breaksIfMovedEarlier": "若放到核心问题之前，读者尚不知道为何要把普通空地当成解释对象。"
+    },
+    {
+      "paragraph": "深层第2段：死囚题材为何在这里出现",
+      "dependsOn": "严格依赖第1段已经建立的‘关系由空间而非心理成立’。开句以‘正因为这种关系先由空间建立’回收该前提。",
+      "newUnderstanding": "革命后社会语境与相关作品把眼前的空间关系扩展为作者早期反复处理的监禁和旁观问题，同时保留人物身份边界。",
+      "breaksIfMovedEarlier": "提前后会退化成可交换的生平背景，读者还不知道这些历史信息要解释画面上的哪一处。"
+    },
+    {
+      "paragraph": "深层第3段：暗色与亮部怎样承担题材",
+      "dependsOn": "严格依赖第2段已建立的监禁与旁观问题；开句‘有了这层背景’使暗色从一般气氛转为该问题的视觉机制。",
+      "newUnderstanding": "褐黑、粗粝表面、白色切分和紧凑布局不断把视线送回人物间距，作者风格由此服务核心问题。",
+      "breaksIfMovedEarlier": "提前后只剩通用的明暗与笔触分析，无法说明这些形式为何重要。"
+    },
+    {
+      "paragraph": "深层第4段：比较后确定重要性边界",
+      "dependsOn": "严格依赖第3段已确认的具体艺术机制；开句‘也因此’把价值判断建立在构图与题材共同成立之上。",
+      "newUnderstanding": "与1870年相关作品比较后，本作可定位为早期关键题材的重要藏品；精确版本关系和稀缺性不足以支持主版本或稀世珍品判断。",
+      "breaksIfMovedEarlier": "提前后，重要性会变成名家、年代、馆藏作用的独立栏目，尚无具体艺术成就作为依据。"
+    },
+    {
+      "paragraph": "四项现场细节",
+      "dependsOn": "依赖第4段对作品价值边界的收束，把前述社会题材、形式机制与比较判断重新拆回可核对的束缚、空地、白色和右侧亮区。",
+      "newUnderstanding": "抽象的‘监禁与旁观’被落实为四个可现场复查的视觉证据。",
+      "breaksIfMovedEarlier": "提前后会成为无解释的寻物清单，读者不知道四处细节共同回答什么问题。"
+    },
+    {
+      "paragraph": "最后再看一眼",
+      "dependsOn": "依赖细节段已逐项确认的束缚、空地边缘与沿墙人群。",
+      "newUnderstanding": "第二眼主动放弃心理猜测，用一条从脚踝到空地再到人群的视线验证全篇答案。",
+      "breaksIfMovedEarlier": "若没有前文的历史、形式、比较和细节闭环，这个动作只会是一般导览口令。"
+    },
+    {
+      "paragraph": "事实边界",
+      "dependsOn": "依赖全文已经正面建立的可见关系与有限历史判断，最后收窄身份、结局、心理、版本和在展状态。",
+      "newUnderstanding": "读者能区分画面可确认的关系、馆方提供的历史联系与仍不能确定的事实。",
+      "breaksIfMovedEarlier": "提前后会以限制清单接管正文声音，并阻断核心问题的建立。"
+    }
+  ],
+  "claimClosure": [
+    {
+      "sentence": "绳索限制身体，空地则把监禁扩大成整个房间的人际处境。",
+      "evidenceType": "直接观察加明确标识的形式解释",
+      "sourceOrBasis": "研究卡所列脚踝束缚、沿墙人群和中央空地；解释没有升级为作者意图或人物心理。",
+      "confidence": "中：视觉关系清楚，‘扩大’是可追踪的编辑性形式判断。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "Frye 把蒙卡奇的早期创作放在1848—1849年革命后的匈牙利社会以及现实主义影响中理解。",
+      "evidenceType": "来源事实",
+      "sourceOrBasis": "Frye Collection Connection，经研究卡记录。",
+      "confidence": "高：馆方文章直接提供作者与该社会、艺术语境的联系。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "一个人被拘束时，周围的人如何出现在这段距离之外。",
+      "evidenceType": "直接观察转化成的问题",
+      "sourceOrBasis": "束缚、沿墙人物与空地均来自可靠图像观察。",
+      "confidence": "高：句子描述画面关系，没有赋予人群一致意图。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "社会题材由人物之间可量出的距离承担，而不是靠一张脸替全场作答。",
+      "evidenceType": "形式分析",
+      "sourceOrBasis": "紧凑布局、暗色室内、亮色切分、空地与多人物关系。",
+      "confidence": "中：是建立在多项观察上的解释，并未声称唯一含义或作者明示意图。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "它在艺术成就、蒙卡奇早期生涯、革命后社会题材与 Frye 创馆收藏中的位置都很突出。",
+      "evidenceType": "来源事实加编辑判断",
+      "sourceOrBasis": "馆方元数据、馆方作者与社会语境说明、相关作品比较，以及研究卡五维判断。",
+      "confidence": "中高：各维均有明确依据，措辞没有升级为最高级或全球排名。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "稀缺性证据较有限，所以更准确的定位是重要藏品。",
+      "evidenceType": "比较边界与编辑判断",
+      "sourceOrBasis": "最近对象明确，但版本关系和数量未知；不满足稀世珍品不可替代性硬门。",
+      "confidence": "高：结论主动匹配现有证据强度。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "对一座旅行推荐分为72分的馆来说，它是值得停下来的强节点，却不承担改变整趟行程的分量。",
+      "evidenceType": "锁定测试边界与编辑判断",
+      "sourceOrBasis": "test-spec锁定Frye 72分；研究卡将本作定为重要藏品而非唯一或主版本。",
+      "confidence": "高：严格遵守馆级旅行边界，没有制造行程级珍品。",
+      "verdict": "retain"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这幅画不用猜谁在想什么，脚边的束缚、人群的站位和中间那块空地已经让人看见，一个人怎样在满屋人面前仍被隔开。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "notes": "标题能直接口述；转折由‘空间关系—历史落点—形式作用—比较定级’推动，没有抽象名词并排或含混的名词化协调。"
+  },
+  "productionLanguageScan": {
+    "scope": [
+      "card.txt可见正文",
+      "draft.md访客可见正文"
+    ],
+    "forbiddenCategories": [
+      "研究缺口",
+      "图片许可任务",
+      "发布任务",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "版本迁移"
+    ],
+    "findings": [],
+    "verdict": "passed_author_check",
+    "note": "HTML溯源注释属于不可见artifact元数据，不是访客正文。"
+  },
+  "significanceReview": {
+    "verdict": "passed_author_check",
+    "label": "重要藏品",
+    "fiveDimensionsCovered": {
+      "artisticAchievement": "紧凑布局、明暗切分、粗粝表面和空地共同承担叙事。",
+      "artHistoricalPosition": "作者早期赢得声誉的死囚题材形成期。",
+      "historicalCulturalValue": "连接革命后匈牙利社会、监禁与旁观问题，同时不冒充具体案件史料。",
+      "rarityAndIrreplaceability": "最近比较对象明确，精确版本关系和数量未知，故不进入稀世珍品。",
+      "collectionPosition": "Frye创馆收藏中少数把社会制度与群体观看置于中心的早期现实主义作品。"
+    },
+    "nearestComparator": "Mihály de Munkácsy, The Last Day of a Condemned Man, 1870",
+    "comparisonClosure": "共享囚犯、室内与旁观者；Frye件更紧凑，1870年作品扩展最后探访场面；版本主次不作断言。",
+    "frye72BoundaryRespected": true
+  },
+  "observableDetailCheck": {
+    "count": 6,
+    "minimumMet": true,
+    "details": [
+      "中央偏左男子坐在床或长凳边",
+      "脚踝附近可见束缚",
+      "多人沿墙站立",
+      "囚犯与人群之间留有空地",
+      "右侧门口或窗区较亮",
+      "白床单和白衬衣切开褐黑色域"
+    ]
+  },
+  "secondLookReview": {
+    "verdict": "passed_author_check",
+    "workSpecific": true,
+    "reason": "结尾要求沿脚踝束缚、空地边缘和墙边人群复查，不是可换用到其他作品的退后或总览口令。"
+  },
+  "authorVoiceCandidateScore": {
+    "entry": 2,
+    "causality": 2,
+    "people": 2,
+    "turn": 2,
+    "visualPayoff": 2,
+    "spokenClarity": 2,
+    "secondLook": 2,
+    "total": 14,
+    "authorityBoundary": "仅为作者候选意见；不得作为最终通过证据。"
+  },
+  "unresolvedRisks": [
+    "本作与1870年《死囚的最后一天》的精确版本关系仍未确定，因此正文只称相关作品。",
+    "人物罪名、政治身份、结局、彼此关系与心理均无法确认，正文未作补写。",
+    "在展状态来自2026年7月22日快照，会随展陈变化。",
+    "图片再利用许可未确认；该事项仅保留在内部记录，未进入访客正文。"
+  ]
+}

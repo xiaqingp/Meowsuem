@@ -1,0 +1,857 @@
+{
+  "schemaVersion": "1.0",
+  "run": {
+    "runId": "m28-6-vienna-candidate-pool-2026-07-23",
+    "stage": "museum_candidate_pool",
+    "researchMode": "fresh",
+    "startedAt": "2026-07-23T23:52:00-07:00",
+    "pipelineVersion": "2.4.8",
+    "instructionVersion": "2.0.2",
+    "executionProfile": {
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "medium"
+    },
+    "lockedInputs": [
+      {
+        "path": "research/generation-pipeline.md",
+        "sha256": "a65e9a4cb1477e4dfb00f06871483c928224dee22b69e292b84b2dcc7cdb4b24"
+      },
+      {
+        "path": "research/meowseum-content-instruction.md",
+        "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+      },
+      {
+        "path": "research/m28-6/vienna/scope/museum-scope.json",
+        "sha256": "840550f4d0e158e9c187d7b68aa188bdac63b7e0136bdd9c5c49b337add949e0"
+      }
+    ],
+    "publicationBoundary": "whole_museum_candidate_no_production_write"
+  },
+  "museum": {
+    "museumId": "vienna",
+    "nameZh": "维也纳艺术史博物馆",
+    "nameEn": "Kunsthistorisches Museum Vienna",
+    "location": "Maria-Theresien-Platz, Vienna, Austria",
+    "scopeType": "single_building"
+  },
+  "poolDecision": {
+    "status": "candidate_pool_complete",
+    "targetCount": 40,
+    "candidateCount": 40,
+    "selectionStatus": "not_selected",
+    "ratingStatus": "not_started",
+    "principle": "候选池按主馆五个常设收藏与馆舍空间建立；每项须能回答一个本馆独有问题，并有馆方一手页面支持身份或空间边界。本文件不预判正式入选、参观优先级、重要性、稀世珍品或评分。",
+    "allocation": {
+      "picture_gallery": 16,
+      "kunstkammer": 8,
+      "greek_roman_antiquities": 6,
+      "egyptian_near_eastern": 5,
+      "coin_cabinet": 2,
+      "building_integrated_display": 3
+    }
+  },
+  "candidates": [
+    {
+      "candidateId": "vienna-pg-01-tower-of-babel",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "巴别塔",
+      "nameEn": "The Tower of Babel",
+      "makerOrCulture": "老彼得·勃鲁盖尔 Pieter Bruegel the Elder",
+      "date": "1563",
+      "identityBasis": "馆方对象与艺术家专题页均以该题名、作者和年代著录，并标示主馆绘画馆展出。",
+      "candidateReason": "以巨塔、港城和大量施工活动形成勃鲁盖尔最具代表性的宏观叙事之一，可支撑本馆世界级勃鲁盖尔收藏线。",
+      "museumQuestionAdded": "勃鲁盖尔怎样把圣经题材变成关于工程、城市与集体行动的百科式画面？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_PG_BRUEGEL", "S_OBJECTS"]
+    },
+    {
+      "candidateId": "vienna-pg-02-hunters-in-the-snow",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "雪中猎人（冬）",
+      "nameEn": "Hunters in the Snow (Winter)",
+      "makerOrCulture": "老彼得·勃鲁盖尔 Pieter Bruegel the Elder",
+      "date": "1565",
+      "identityBasis": "馆方对象页著录为绘画馆第 X 厅在展，编号明确。",
+      "candidateReason": "既是月份／季节组画的关键存世部分，又由整体空间和寒冷效果而非单一风俗细节成立。",
+      "museumQuestionAdded": "风景画怎样把季节经验、劳动和娱乐组织成一个共同世界？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_PG_HUNTERS"]
+    },
+    {
+      "candidateId": "vienna-pg-03-childrens-games",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "儿童游戏",
+      "nameEn": "Children's Games",
+      "makerOrCulture": "老彼得·勃鲁盖尔 Pieter Bruegel the Elder",
+      "date": "1560",
+      "identityBasis": "馆方勃鲁盖尔专题页以题名、作者、年代和绘画馆第 X 厅在展状态著录。",
+      "candidateReason": "馆方记录画中超过 230 名儿童与 83 种游戏，构成没有直接先例的绘画式游戏百科。",
+      "museumQuestionAdded": "一幅画怎样同时保存日常生活资料并考验观众的观看尺度？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_PG_BRUEGEL"]
+    },
+    {
+      "candidateId": "vienna-pg-04-peasant-wedding",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "农民婚礼",
+      "nameEn": "Peasant Wedding",
+      "makerOrCulture": "老彼得·勃鲁盖尔 Pieter Bruegel the Elder",
+      "date": "约 1567/1568",
+      "identityBasis": "馆方勃鲁盖尔专题将其列为主馆长期展出的代表作。",
+      "candidateReason": "把日常婚宴组织成高度控制的群像，补足勃鲁盖尔收藏中的社会生活与人物关系线。",
+      "museumQuestionAdded": "看似抓拍的民间场景怎样由构图、习俗与阶层关系精密搭成？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_PG_BRUEGEL"]
+    },
+    {
+      "candidateId": "vienna-pg-05-carnival-and-lent",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "狂欢节与四旬斋之战",
+      "nameEn": "The Fight between Carnival and Lent",
+      "makerOrCulture": "老彼得·勃鲁盖尔 Pieter Bruegel the Elder",
+      "date": "1559",
+      "identityBasis": "馆方对象页标示主馆绘画馆第 X 厅在展。",
+      "candidateReason": "以同一广场并置两套节期习俗，显示勃鲁盖尔如何将民俗现实重新编排成寓言性社会全景。",
+      "museumQuestionAdded": "一座城镇怎样在同一画面里容纳相反的饮食、信仰与节庆制度？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_PG_CARNIVAL"]
+    },
+    {
+      "candidateId": "vienna-pg-06-art-of-painting",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "绘画的艺术",
+      "nameEn": "The Art of Painting",
+      "makerOrCulture": "约翰内斯·维米尔 Johannes Vermeer",
+      "date": "约 1666/1668",
+      "identityBasis": "馆方对象页以该题名、作者和年代著录，标示绘画馆第 XII 厅在展。",
+      "candidateReason": "把画室场景提升为关于绘画、历史与尼德兰身份的寓意，是本馆荷兰绘画线不可替代的单件核心。",
+      "museumQuestionAdded": "一间画室怎样同时谈论艺术制作、历史记忆与国家图像？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_PG_VERMEER"]
+    },
+    {
+      "candidateId": "vienna-pg-07-infanta-margarita-blue",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "身着蓝裙的玛格丽特公主",
+      "nameEn": "Infanta Margarita in a Blue Dress",
+      "makerOrCulture": "迭戈·委拉斯开兹 Diego Velázquez",
+      "date": "1659",
+      "identityBasis": "馆方对象页确认题名、作者、年代与皇家婚姻肖像语境；馆方绘画馆页将公主肖像群列为重点。",
+      "candidateReason": "既处于委拉斯开兹晚年风格高点，也是西班牙与奥地利哈布斯堡宫廷以肖像维系婚姻政治的实物。",
+      "museumQuestionAdded": "一幅儿童肖像怎样同时承担亲属识别、婚姻外交与绘画实验？",
+      "availabilityEvidence": "display_status_unknown",
+      "sourceRefs": ["S_PG_INFANTA_BLUE", "S_PG_OVERVIEW"]
+    },
+    {
+      "candidateId": "vienna-pg-08-madonna-of-the-meadow",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "草地圣母",
+      "nameEn": "The Madonna of the Meadow",
+      "makerOrCulture": "拉斐尔 Raphael",
+      "date": "1505 或 1506",
+      "identityBasis": "馆方对象页标示主馆绘画馆第 I 厅在展，并记录作者、材质与来源。",
+      "candidateReason": "以清楚的人物金字塔和开阔风景体现拉斐尔佛罗伦萨时期的新构图与精神表达。",
+      "museumQuestionAdded": "文艺复兴绘画怎样把亲密家庭动作组织成稳定而普遍的宗教图像？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_PG_RAPHAEL"]
+    },
+    {
+      "candidateId": "vienna-pg-09-madonna-of-the-rosary",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "玫瑰经圣母",
+      "nameEn": "Madonna of the Rosary",
+      "makerOrCulture": "卡拉瓦乔 Caravaggio",
+      "date": "约 1601",
+      "identityBasis": "馆方在线藏品明确著录题名、作者、年代、祭坛画功能和进入帝国画廊的历史。",
+      "candidateReason": "以祭坛画尺度连接宗教团体、仪式分配与卡拉瓦乔人物组织方式，补足意大利巴洛克线。",
+      "museumQuestionAdded": "祭坛画怎样把神圣恩典表现成从上到下、由人物传递的社会动作？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_OBJECTS"]
+    },
+    {
+      "candidateId": "vienna-pg-10-nymph-and-shepherd",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "宁芙与牧羊人",
+      "nameEn": "Nymph and Shepherd",
+      "makerOrCulture": "提香 Titian",
+      "date": "约 1570/1575",
+      "identityBasis": "馆方对象页标示主馆绘画馆在展，并明确题材解释仍有分歧。",
+      "candidateReason": "以提香晚年开放笔触和未完全解决的题材构成威尼斯绘画线的高价值研究对象。",
+      "museumQuestionAdded": "当故事身份并不确定时，人物、风景与笔触怎样仍然建立作品的力量？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_PG_TITIAN"]
+    },
+    {
+      "candidateId": "vienna-pg-11-judith-veronese",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "朱迪斯与霍洛芬的头颅",
+      "nameEn": "Judith with the Head of Holofernes",
+      "makerOrCulture": "保罗·委罗内塞 Paolo Veronese",
+      "date": "约 1582",
+      "identityBasis": "馆方对象页标示主馆绘画馆第 III 厅在展，题名、作者和年代稳定。",
+      "candidateReason": "以华美色彩处理暴力故事，提供与提香不同的威尼斯绘画观看回报。",
+      "museumQuestionAdded": "委罗内塞怎样让美丽、庆典感与恐怖在同一幅画里相互延迟？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_PG_VERONESE"]
+    },
+    {
+      "candidateId": "vienna-pg-12-rubens-self-portrait",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "自画像",
+      "nameEn": "Self-Portrait",
+      "makerOrCulture": "彼得·保罗·鲁本斯 Peter Paul Rubens",
+      "date": "1638/1640",
+      "identityBasis": "馆方对象页稳定著录作者、年代、材质及宫廷肖像属性。",
+      "candidateReason": "把宫廷身份标志与晚年个体面貌放在同一肖像中，代表本馆强大的弗兰德斯巴洛克收藏。",
+      "museumQuestionAdded": "一位成功的宫廷艺术家如何控制公开身份与私人面貌之间的距离？",
+      "availabilityEvidence": "display_status_unknown",
+      "sourceRefs": ["S_PG_RUBENS", "S_PG_OVERVIEW"]
+    },
+    {
+      "candidateId": "vienna-pg-13-cardinal-albergati",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "红衣主教尼科洛·阿尔贝加蒂（？）",
+      "nameEn": "Cardinal Niccolò Albergati (?)",
+      "makerOrCulture": "扬·凡·艾克 Jan van Eyck",
+      "date": "约 1435",
+      "identityBasis": "馆方对象页保留人物身份问号，同时稳定确认作者、年代和与德累斯顿素描的关系。",
+      "candidateReason": "可具体解释早期尼德兰油画技术如何把书籍绘画的精细度转入板画肖像，同时示范身份不确定性的正确边界。",
+      "museumQuestionAdded": "油画技术的成熟怎样改变肖像对皮肤、衣料和个体特征的记录能力？",
+      "availabilityEvidence": "display_status_unknown",
+      "sourceRefs": ["S_PG_VANEYCK"]
+    },
+    {
+      "candidateId": "vienna-pg-14-madonna-with-the-pear",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "梨子圣母",
+      "nameEn": "Madonna with the Pear",
+      "makerOrCulture": "阿尔布雷希特·丢勒 Albrecht Dürer",
+      "date": "1512",
+      "identityBasis": "馆方对象页标示主馆绘画馆第 XI 厅在展，并著录签名、材质和来源。",
+      "candidateReason": "在小型圣母像中并置晚期哥特式人物类型与意大利式柔和塑形，提供德意志文艺复兴的跨地域问题。",
+      "museumQuestionAdded": "丢勒怎样把北方传统与意大利经验压缩进一幅亲密的小画？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_PG_DURER"]
+    },
+    {
+      "candidateId": "vienna-pg-15-summer",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "夏",
+      "nameEn": "Summer",
+      "makerOrCulture": "朱塞佩·阿尔钦博托 Giuseppe Arcimboldo",
+      "date": "1563",
+      "identityBasis": "馆方对象页标示主馆绘画馆第 8 厅在展，签名和年代清楚。",
+      "candidateReason": "由植物和果实组成人脸，直接连接哈布斯堡宫廷艺术、自然知识与节庆设计。",
+      "museumQuestionAdded": "宫廷画家怎样把自然物分类、肖像错觉和季节寓意合成一种新图像？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_PG_SUMMER"]
+    },
+    {
+      "candidateId": "vienna-pg-16-parmigianino-convex-self-portrait",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "凸面镜中的自画像",
+      "nameEn": "Self-Portrait in a Convex Mirror",
+      "makerOrCulture": "帕尔米贾尼诺 Parmigianino",
+      "date": "约 1523/1524",
+      "identityBasis": "馆方在线藏品以稳定题名、作者和年代著录，并说明作品绘于凸形木板。",
+      "candidateReason": "以画面载体本身模拟镜面畸变，把艺术家自我推介、错觉和媒介实验集中在一件小作品中。",
+      "museumQuestionAdded": "一件自画像怎样让画板、镜子与观看者的位置变成同一个视觉问题？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_OBJECTS"]
+    },
+    {
+      "candidateId": "vienna-kk-01-saliera",
+      "collection": "kunstkammer",
+      "type": "goldsmith_work",
+      "nameZh": "盐罐",
+      "nameEn": "Saliera",
+      "makerOrCulture": "本韦努托·切利尼 Benvenuto Cellini",
+      "date": "1540–1543",
+      "identityBasis": "馆方对象页标示艺术珍宝馆第 XXIX 厅在展，并明确为切利尼唯一存世金匠作品。",
+      "candidateReason": "同时是桌上器物、宇宙寓意和法国王权委托物，是艺术珍宝馆最强的单件候选之一。",
+      "museumQuestionAdded": "一件盐和胡椒容器怎样把材料、餐桌礼仪与统治者的宇宙秩序合为一体？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_KK_SALIERA"]
+    },
+    {
+      "candidateId": "vienna-kk-02-krumau-madonna",
+      "collection": "kunstkammer",
+      "type": "sculpture",
+      "nameZh": "克鲁姆洛夫圣母",
+      "nameEn": "Virgin and Child, so-called Krumau Madonna",
+      "makerOrCulture": "约 1400 年布拉格宫廷艺术圈",
+      "date": "约 1390/1400",
+      "identityBasis": "馆方对象页标示艺术珍宝馆第 XXXVI 厅在展，题名、材质和审慎归属清楚。",
+      "candidateReason": "是国际哥特式“美丽圣母”类型的著名实例，补足珍宝馆不只是贵金属和机械的雕塑线。",
+      "museumQuestionAdded": "宫廷雕塑怎样同时表现天后、年轻母亲与对儿童身体的具体观察？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_KK_KRUMAU"]
+    },
+    {
+      "candidateId": "vienna-kk-03-automaton-ship",
+      "collection": "kunstkammer",
+      "type": "automaton",
+      "nameZh": "船形自动机械",
+      "nameEn": "Automaton in the Form of a Ship",
+      "makerOrCulture": "汉斯·施洛特海姆 Hans Schlottheim",
+      "date": "1585",
+      "identityBasis": "馆方对象页标示艺术珍宝馆第 XXVII 厅在展，作者、年代与机械功能清楚。",
+      "candidateReason": "船能沿桌面行进、人物随音乐动作并鸣炮，集中体现宫廷宴会、工程技术与帝国象征。",
+      "museumQuestionAdded": "自动机械在宫廷里为何既是娱乐，也是统治和技术能力的表演？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_KK_SHIP"]
+    },
+    {
+      "candidateId": "vienna-kk-04-cittern-player",
+      "collection": "kunstkammer",
+      "type": "automaton",
+      "nameZh": "西特琴演奏者自动机械",
+      "nameEn": "Automaton, so-called Cittern Player",
+      "makerOrCulture": "16 世纪后半叶",
+      "date": "16 世纪后半叶",
+      "identityBasis": "馆方对象页标示艺术珍宝馆第 XXXII 厅在展，并记录动作机制与历史归属说法。",
+      "candidateReason": "以拟人动作呈现文艺复兴时期“技术模仿自然”的观念，与船形机械形成不同的人体模拟问题。",
+      "museumQuestionAdded": "机器模仿人的演奏、转头和行走时，宫廷观众究竟在赞叹什么？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_KK_CITTERN"]
+    },
+    {
+      "candidateId": "vienna-kk-05-rudolf-ii-bust",
+      "collection": "kunstkammer",
+      "type": "sculpture",
+      "nameZh": "皇帝鲁道夫二世胸像",
+      "nameEn": "Emperor Rudolf II",
+      "makerOrCulture": "阿德里安·德·弗里斯 Adriaen de Vries",
+      "date": "1603",
+      "identityBasis": "馆方对象页标示艺术珍宝馆第 XXVII 厅在展，签名纪年和人物身份明确。",
+      "candidateReason": "由皇帝的宫廷雕塑家制作，并直接回应鲁道夫收藏的查理五世胸像，可解释收藏、模仿与王权形象的循环。",
+      "museumQuestionAdded": "收藏家如何用一件新肖像把自己放进祖先与帝国权威的视觉谱系？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_KK_RUDOLF"]
+    },
+    {
+      "candidateId": "vienna-kk-06-dragon-bowl",
+      "collection": "kunstkammer",
+      "type": "precious_stone_vessel",
+      "nameZh": "贝壳形碗（龙碗）",
+      "nameEn": "Shell-shaped Bowl, so-called Dragon Bowl",
+      "makerOrCulture": "加斯帕罗·米塞罗尼 Gasparo Miseroni",
+      "date": "约 1565/1570",
+      "identityBasis": "馆方对象页标示艺术珍宝馆第 XXVIII 厅在展，作者、材料和年代稳定。",
+      "candidateReason": "青金石、金与宝石共同体现稀贵天然材料如何经少数专业工匠转化为王侯珍藏。",
+      "museumQuestionAdded": "艺术珍宝馆为何把艰难加工的天然材料看作知识、财富与技艺的共同证明？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_KK_DRAGON"]
+    },
+    {
+      "candidateId": "vienna-kk-07-rock-crystal-pyramid",
+      "collection": "kunstkammer",
+      "type": "precious_stone_vessel",
+      "nameZh": "水晶金字塔",
+      "nameEn": "Rock Crystal Pyramid",
+      "makerOrCulture": "迪奥尼西奥·米塞罗尼 Dionysio Miseroni",
+      "date": "1653",
+      "identityBasis": "馆方对象页标示艺术珍宝馆第 XXII 厅在展，并称其为作者最高杰作和唯一签名纪年作品。",
+      "candidateReason": "复杂器形来自对一整块大水晶的连续切削，能独立解释珍宝馆的材料风险与技术炫示。",
+      "museumQuestionAdded": "当原料不能失败重来时，器形怎样记录工匠的规划、风险和控制？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_KK_CRYSTAL"]
+    },
+    {
+      "candidateId": "vienna-kk-08-bellerophon-pegasus",
+      "collection": "kunstkammer",
+      "type": "bronze_statuette",
+      "nameZh": "柏勒洛丰驯服珀伽索斯",
+      "nameEn": "Bellerophon Taming Pegasus",
+      "makerOrCulture": "贝尔托尔多·迪·乔瓦尼 Bertoldo di Giovanni；阿德里亚诺·菲奥伦蒂诺铸造",
+      "date": "约 1481/1482",
+      "identityBasis": "馆方对象页标示艺术珍宝馆第 XXXIV 厅在展，模型作者、铸造者与签名均有记录。",
+      "candidateReason": "馆方将其列为文艺复兴最早且最著名的小型青铜之一，补足珍宝馆的人文主义古典复兴线。",
+      "museumQuestionAdded": "小型青铜为何会成为可从多面把玩、讨论古典故事与艺术家身份的新收藏类型？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_KK_BELLEROPHON"]
+    },
+    {
+      "candidateId": "vienna-ant-01-gemma-augustea",
+      "collection": "greek_roman_antiquities",
+      "type": "cameo",
+      "nameZh": "奥古斯都宝石",
+      "nameEn": "Gemma Augustea",
+      "makerOrCulture": "罗马，早期帝国时期",
+      "date": "公元 9–12 年",
+      "identityBasis": "馆方对象页标示古物馆第 XVI 厅在展，材质、年代、图像人物和哈布斯堡收藏史明确。",
+      "candidateReason": "馆方称其为维也纳古物收藏最重要的古代浮雕宝石，以两层图像塑造奥古斯都与提比略的胜利和继承。",
+      "museumQuestionAdded": "一块随身尺度的宝石怎样把皇位继承、战争胜利与神化秩序压进两层图像？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_ANT_GEMMA"]
+    },
+    {
+      "candidateId": "vienna-ant-02-nagyszentmiklos-treasure",
+      "collection": "greek_roman_antiquities",
+      "type": "treasure_group",
+      "nameZh": "纳吉圣米克洛什金宝藏",
+      "nameEn": "Gold Treasure of Nagyszentmiklós",
+      "makerOrCulture": "迁徙时期／中世纪早期，多文化归属待研究卡细化",
+      "date": "约 7–9 世纪",
+      "identityBasis": "馆方古物馆常设页把该宝藏作为使收藏跻身同类最佳的三项核心之一，并明确归入主馆古物收藏。",
+      "candidateReason": "以成组金器代表馆藏的迁徙时期与中世纪早期宝藏强项，不能由单件希腊罗马雕刻替代。",
+      "museumQuestionAdded": "成组金器如何保存跨地域权力、宴饮和工艺交流，而其文化归属又为何需要谨慎处理？",
+      "availabilityEvidence": "collection_rotation",
+      "sourceRefs": ["S_ANT_OVERVIEW"]
+    },
+    {
+      "candidateId": "vienna-ant-03-brygos-skyphos",
+      "collection": "greek_roman_antiquities",
+      "type": "painted_vessel",
+      "nameZh": "布里戈斯大杯：普里阿摩斯赎回赫克托耳遗体",
+      "nameEn": "Brygos Skyphos: The Ransom of Hector",
+      "makerOrCulture": "布里戈斯陶工坊／布里戈斯画家，古希腊",
+      "date": "约公元前 490 年",
+      "identityBasis": "馆方对象页记录器形、题材、年代、出土地、尺寸和馆藏编号；古物馆页将其列为花瓶收藏代表作。",
+      "candidateReason": "以罕见的大型器形和接近《伊利亚特》第 24 卷的安静叙事，代表本馆希腊彩陶强项。",
+      "museumQuestionAdded": "希腊瓶画怎样不用连续文字，把战争英雄叙事转向老人请求归还儿子遗体的克制场面？",
+      "availabilityEvidence": "display_status_unknown",
+      "sourceRefs": ["S_ANT_BRYGOS", "S_ANT_OVERVIEW"]
+    },
+    {
+      "candidateId": "vienna-ant-04-bacchanalia-decree",
+      "collection": "greek_roman_antiquities",
+      "type": "inscription",
+      "nameZh": "元老院关于酒神祭仪的决议",
+      "nameEn": "Senatus Consultum de Bacchanalibus",
+      "makerOrCulture": "古罗马",
+      "date": "公元前 186 年",
+      "identityBasis": "馆方对象页标示古物馆第 XII 厅在展，原件编号、发现史与展示副本边界均有记录。",
+      "candidateReason": "馆方称其为现存最早的拉丁文元老院决议文本，并说明这是该法令唯一存世副本。",
+      "museumQuestionAdded": "罗马国家如何把对秘密宗教集会的恐惧转化为公开发布、处罚与地方执行的文字程序？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_ANT_BACCHANALIA"]
+    },
+    {
+      "candidateId": "vienna-ant-05-amazon-sarcophagus",
+      "collection": "greek_roman_antiquities",
+      "type": "sarcophagus",
+      "nameZh": "亚马孙之战石棺",
+      "nameEn": "Sarcophagus with Fighting Amazons",
+      "makerOrCulture": "古典时代地中海文化，具体归属待单件研究卡核实",
+      "date": "待单件研究卡核实",
+      "identityBasis": "馆方古物馆常设页反复以稳定英文题名列为重点，并记录其在 17 世纪已进入哈布斯堡收藏。",
+      "candidateReason": "补足古物馆的大型葬葬雕刻与战斗叙事线，并能解释早期哈布斯堡古物收藏。",
+      "museumQuestionAdded": "大型石棺怎样把神话战斗转化为围绕死者展开的连续纪念图像？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_ANT_OVERVIEW"]
+    },
+    {
+      "candidateId": "vienna-ant-06-theseus-mosaic",
+      "collection": "greek_roman_antiquities",
+      "type": "mosaic_integrated_display",
+      "nameZh": "忒修斯马赛克",
+      "nameEn": "Theseus Mosaic",
+      "makerOrCulture": "古罗马，发现于萨尔茨堡附近别墅",
+      "date": "待单件研究卡核实",
+      "identityBasis": "馆方古物馆页将其列为重点；馆舍专题确认它被嵌入主馆古物展厅的大理石地面。",
+      "candidateReason": "对象与 1891 年馆舍展示技术直接结合，可把古代住宅地面、考古迁移与历史主义博物馆空间放在同一问题中。",
+      "museumQuestionAdded": "当古代马赛克被嵌入十九世纪博物馆地面，原始建筑功能与现代展示如何叠在一起？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_ANT_OVERVIEW", "S_BUILDING"]
+    },
+    {
+      "candidateId": "vienna-egy-01-ka-ni-nisut-chapel",
+      "collection": "egyptian_near_eastern",
+      "type": "cult_chamber",
+      "nameZh": "卡尼尼苏特祭祀室",
+      "nameEn": "Chapel of Ka-ni-nisut",
+      "makerOrCulture": "古埃及，吉萨",
+      "date": "第五王朝早期，约公元前 2500 年",
+      "identityBasis": "馆方对象页标示埃及与近东收藏第 II 厅在展，并记录发掘、购藏、安装和重建历史。",
+      "candidateReason": "完整祭祀空间能直接解释古王国墓葬仪式、假门和持续供养制度，也是维也纳吉萨发掘线的核心。",
+      "museumQuestionAdded": "墓室上方的祭祀空间怎样让死者、家属、祭司与供品维持长期关系？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_EGY_CHAPEL"]
+    },
+    {
+      "candidateId": "vienna-egy-02-reserve-head",
+      "collection": "egyptian_near_eastern",
+      "type": "sculpture",
+      "nameZh": "储备头像",
+      "nameEn": "Reserve Head",
+      "makerOrCulture": "古埃及，吉萨",
+      "date": "第四王朝胡夫时期，约公元前 2609–2584 年",
+      "identityBasis": "馆方对象页标示埃及与近东收藏第 VII 厅在展，出土墓葬、材质与发掘来源明确。",
+      "candidateReason": "已知同类仅略多于 30 件而功能仍未解决，兼具稀有类型、考古语境和真实学术未知。",
+      "museumQuestionAdded": "为什么古王国墓中会放置独立石头像，并有意损伤耳部和后脑？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_EGY_RESERVE"]
+    },
+    {
+      "candidateId": "vienna-egy-03-babylon-lion",
+      "collection": "egyptian_near_eastern",
+      "type": "architectural_relief",
+      "nameZh": "巴比伦行进狮子砖墙浮雕",
+      "nameEn": "Wall Section with Relief of a Striding Lion",
+      "makerOrCulture": "新巴比伦，巴比伦游行大道",
+      "date": "尼布甲尼撒二世时期，公元前 604–562 年",
+      "identityBasis": "馆方对象页标示埃及与近东收藏第 VIa 厅在展，出土地、材料、尺寸和来源清楚。",
+      "candidateReason": "以彩釉砖和建筑尺度补足近东线，连接伊什塔尔女神、城门游行大道与帝国城市设计。",
+      "museumQuestionAdded": "一只重复出现在城墙上的狮子怎样把宗教符号、建筑材料与国家仪式结合起来？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_EGY_LION"]
+    },
+    {
+      "candidateId": "vienna-egy-04-kai-pu-ptah-ipep",
+      "collection": "egyptian_near_eastern",
+      "type": "sculpture_group",
+      "nameZh": "凯普普塔与伊佩普双人像",
+      "nameEn": "Statue Group of Kai-pu-ptah and Ipep",
+      "makerOrCulture": "古埃及，吉萨",
+      "date": "第五王朝晚期，约公元前 2400 年",
+      "identityBasis": "馆方对象页标示埃及与近东收藏第 VII 厅在展，姓名、出土位置和发掘来源明确，同时保留两人关系未知。",
+      "candidateReason": "将吉萨墓葬雕像的性别姿态、铭文身份与尚未解决的人物关系集中在一件作品中。",
+      "museumQuestionAdded": "当名字可以读出而人物关系仍未知时，姿势、铭文与墓葬位置分别能证明什么？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_EGY_KAI"]
+    },
+    {
+      "candidateId": "vienna-egy-05-gem-nef-hor-bak",
+      "collection": "egyptian_near_eastern",
+      "type": "sculpture",
+      "nameZh": "杰姆内夫霍尔巴克抱龛跪像",
+      "nameEn": "Naophorous Statue of Gem-nef-hor-bak",
+      "makerOrCulture": "古埃及，可能来自塞易斯",
+      "date": "第三十王朝，公元前 4 世纪上半叶",
+      "identityBasis": "馆方对象页标示埃及与近东收藏第 IX 厅在展，人物职衔、材料、来源与约 1560 年入藏史明确。",
+      "candidateReason": "是馆方所述最早进入维也纳收藏的埃及对象，可把古埃及神庙雕像与欧洲早期收藏史连接起来。",
+      "museumQuestionAdded": "一尊原在神庙中的抱龛跪像，怎样在十六世纪成为维也纳埃及收藏的起点？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_EGY_GEMNEF"]
+    },
+    {
+      "candidateId": "vienna-coin-01-sigismund-guldiner",
+      "collection": "coin_cabinet",
+      "type": "coin",
+      "nameZh": "西吉斯蒙德银古尔迪纳",
+      "nameEn": "Guldiner of Archduke Sigismund",
+      "makerOrCulture": "蒂罗尔哈恩铸币厂",
+      "date": "1486",
+      "identityBasis": "馆方对象页标示钱币馆第 I 室在展，面额、铸地、材质、重量、直径和馆藏编号明确。",
+      "candidateReason": "以大尺寸银币呈现统治者全身像、纹章与名号，适合作为货币从价值工具到权力图像的入口。",
+      "museumQuestionAdded": "一枚大型银币怎样同时解决支付尺度、君主肖像与领地权威的传播？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_COIN_GULDINER", "S_COIN_OVERVIEW"]
+    },
+    {
+      "candidateId": "vienna-coin-02-charles-v-dedication-medal",
+      "collection": "coin_cabinet",
+      "type": "medal",
+      "nameZh": "纽伦堡献给查理五世的纪念章",
+      "nameEn": "Dedication Medal of the City of Nuremberg for Charles V",
+      "makerOrCulture": "阿尔布雷希特·丢勒设计 Albrecht Dürer",
+      "date": "约 1521",
+      "identityBasis": "馆方对象页标示钱币馆第 I 室在展，设计者、人物、材质、铭文和馆藏编号明确。",
+      "candidateReason": "以城市献礼、皇帝肖像、十四面纹章和“更远之外”格言说明纪念章与流通货币的不同政治功能。",
+      "museumQuestionAdded": "不用于日常支付的纪念章，怎样把城市、皇帝与帝国领地关系浓缩成可持有的图像？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": ["S_COIN_DURER_MEDAL", "S_COIN_OVERVIEW"]
+    },
+    {
+      "candidateId": "vienna-space-01-museum-building",
+      "collection": "building_integrated_display",
+      "type": "architecture",
+      "nameZh": "维也纳艺术史博物馆主馆建筑",
+      "nameEn": "Kunsthistorisches Museum Main Building",
+      "makerOrCulture": "戈特弗里德·森佩尔 Gottfried Semper；卡尔·冯·哈森瑙尔 Carl von Hasenauer",
+      "date": "1871–1891，1891 年开放",
+      "identityBasis": "馆方馆舍专题确认建筑师、建造年代、委托人、双馆关系和 Maria-Theresien-Platz 主馆边界。",
+      "candidateReason": "主馆从设计之初就是为哈布斯堡收藏建造的整体艺术品，外立面雕塑与内部分类共同表达现代公共博物馆的形成。",
+      "museumQuestionAdded": "帝国收藏从宫殿迁入公共博物馆时，建筑怎样替它们重新安排知识与权力秩序？",
+      "availabilityEvidence": "permanent_space",
+      "sourceRefs": ["S_BUILDING"]
+    },
+    {
+      "candidateId": "vienna-space-02-grand-staircase-ensemble",
+      "collection": "building_integrated_display",
+      "type": "architecture_and_integrated_art",
+      "nameZh": "主楼梯整体：卡诺瓦《忒修斯战胜半人马》与楼梯绘画",
+      "nameEn": "Grand Staircase Ensemble with Canova's Theseus Slaying the Centaur",
+      "makerOrCulture": "Antonio Canova；Mihály von Munkácsy；Hans Makart；Gustav Klimt、Ernst Klimt、Franz Matsch",
+      "date": "雕塑 1810–1819；楼梯装饰主要完成于 19 世纪 80–90 年代",
+      "identityBasis": "馆方馆舍专题明确楼梯空间、卡诺瓦雕塑、天顶画与拱肩／柱间绘画的作者和空间关系；雕塑对象页标示楼梯在展。",
+      "candidateReason": "这是从入口阴影走向主层收藏的视觉高潮，雕塑、绘画与建筑共同把参观动线变成帝国艺术史叙事。",
+      "museumQuestionAdded": "楼梯为何不只是交通空间，而是让观众在进入画廊前先经历一套艺术史和帝国自我形象？",
+      "availabilityEvidence": "permanent_space",
+      "sourceRefs": ["S_BUILDING", "S_SPACE_THESEUS", "S_SPACE_KLIMT_EGYPT"]
+    },
+    {
+      "candidateId": "vienna-space-03-cupola-hall",
+      "collection": "building_integrated_display",
+      "type": "architecture_and_space",
+      "nameZh": "穹顶大厅",
+      "nameEn": "Cupola Hall",
+      "makerOrCulture": "Gottfried Semper；Carl von Hasenauer 及馆舍装饰团队",
+      "date": "1871–1891",
+      "identityBasis": "馆方馆舍专题明确八角形平面、跨越主层与二层的空间、内外穹顶高差及统治者图像装饰。",
+      "candidateReason": "它是主馆中央轴线和帝国自我表现的顶点，也在实际参观中连接绘画馆、钱币馆与公共停留空间。",
+      "museumQuestionAdded": "中央穹顶怎样把分散的收藏楼层、统治者历史与观众身体汇聚到一个共同中心？",
+      "availabilityEvidence": "permanent_space",
+      "sourceRefs": ["S_BUILDING"]
+    }
+  ],
+  "researchNotes": {
+    "scopeCompliance": [
+      "全部候选位于或明确属于 Maria-Theresien-Platz 主馆五个常设收藏及馆舍空间。",
+      "未纳入 Imperial Treasury、Neue Hofburg、Ephesos Museum、Imperial Armoury、historic musical instruments、Weltmuseum、Theatermuseum、Schönbrunn 车马博物馆或其他分馆对象。",
+      "临展未作为候选来源；在线藏品中的易变在展状态与长期馆藏关系分开记录。"
+    ],
+    "knownFollowUpNeeds": [
+      "本阶段只建立候选池；下一阶段须逐件 fresh research，核对稳定 ID、材质、精确年代、图像许可、比较对象、价值候选证据与可见状态。",
+      "纳吉圣米克洛什金宝藏按收藏组列候选；研究卡须冻结组界，避免把组内器物重复计为独立珍品线。",
+      "亚马孙石棺与忒修斯马赛克的精确年代、材质和对象页须在单件研究卡中补齐；候选身份及主馆关系已由馆方常设收藏页稳定支持。",
+      "委拉斯开兹蓝裙公主、鲁本斯自画像与凡·艾克肖像的长期馆藏关系明确，但本次页面摘录未给出可靠的当前展厅状态，暂记 display_status_unknown。",
+      "建筑与空间候选不是独立可移动藏品；后续重要性判断不得把同一空间的建筑体验重复加分。"
+    ]
+  },
+  "sources": [
+    {
+      "id": "S_PG_OVERVIEW",
+      "title": "Picture Gallery – highlights from the history of European art",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/exhibitions/picture-gallery"
+    },
+    {
+      "id": "S_PG_BRUEGEL",
+      "title": "The Best of Bruegel – Only in Vienna",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/exhibitions/picture-gallery/the-best-of-bruegel-only-in-vienna"
+    },
+    {
+      "id": "S_PG_HUNTERS",
+      "title": "Hunters in the Snow (Winter)",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/hunters-in-the-snow-winter-327"
+    },
+    {
+      "id": "S_PG_CARNIVAL",
+      "title": "The Fight between Carnival and Lent",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/the-fight-between-carnival-and-lent-320"
+    },
+    {
+      "id": "S_PG_VERMEER",
+      "title": "The Art of Painting",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/the-art-of-painting-2574"
+    },
+    {
+      "id": "S_PG_INFANTA_BLUE",
+      "title": "Infanta Margarita in a Blue Dress",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/infanta-margarita-in-a-blue-dress-2027"
+    },
+    {
+      "id": "S_PG_RAPHAEL",
+      "title": "The Madonna of the Meadow",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/the-madonna-of-the-meadow-1502"
+    },
+    {
+      "id": "S_PG_TITIAN",
+      "title": "Nymph and Shepherd",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/nymph-and-shepherd-1950"
+    },
+    {
+      "id": "S_PG_VERONESE",
+      "title": "Judith with the Head of Holofernes",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/judith-with-the-head-of-holofernes-390"
+    },
+    {
+      "id": "S_PG_RUBENS",
+      "title": "Self-Portrait",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/self-portrait-1638"
+    },
+    {
+      "id": "S_PG_VANEYCK",
+      "title": "Cardinal Niccolò Albergati (?)",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/cardinal-niccol-albergati-680"
+    },
+    {
+      "id": "S_PG_DURER",
+      "title": "Madonna with the Pear",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/madonna-with-the-pear-616"
+    },
+    {
+      "id": "S_PG_SUMMER",
+      "title": "Summer",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/summer-71"
+    },
+    {
+      "id": "S_KK_SALIERA",
+      "title": "Saliera",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/objectdb/detail/87080"
+    },
+    {
+      "id": "S_KK_KRUMAU",
+      "title": "Virgin and Child, so-called Krumau Madonna",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/virgin-and-child-so-called-krumau-madonna-96174"
+    },
+    {
+      "id": "S_KK_SHIP",
+      "title": "Automaton in the Form of a Ship",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/automaton-in-the-form-of-a-ship-87073"
+    },
+    {
+      "id": "S_KK_CITTERN",
+      "title": "Automaton, so-called Cittern Player",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/automaton-so-called-cittern-player-96017"
+    },
+    {
+      "id": "S_KK_RUDOLF",
+      "title": "Emperor Rudolf II",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/emperor-rudolf-ii-91513"
+    },
+    {
+      "id": "S_KK_DRAGON",
+      "title": "Shell-shaped Bowl, so-called Dragon Bowl",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/shell-shaped-bowl-so-called-dragon-bowl-87856"
+    },
+    {
+      "id": "S_KK_CRYSTAL",
+      "title": "Rock Crystal Pyramid",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/bergkristall-pyramide-580539"
+    },
+    {
+      "id": "S_KK_BELLEROPHON",
+      "title": "Bellerophon Taming Pegasus",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/bellerophon-taming-pegasus-91603"
+    },
+    {
+      "id": "S_ANT_OVERVIEW",
+      "title": "Collection of Greek and Roman Antiquities – 3,000 years of art",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/visit/collections/collection-of-greek-and-roman-antiquities/selected-masterpieces"
+    },
+    {
+      "id": "S_ANT_GEMMA",
+      "title": "Gemma Augustea",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/gemma-augustea-59171"
+    },
+    {
+      "id": "S_ANT_BRYGOS",
+      "title": "The Ransom of Hector",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/hektors-loesung-56696-1"
+    },
+    {
+      "id": "S_ANT_BACCHANALIA",
+      "title": "Senatus Consultum de Bacchanalibus",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/senatus-consultum-de-bacchanalibus-52468"
+    },
+    {
+      "id": "S_EGY_CHAPEL",
+      "title": "Chapel of Ka-ni-nisut",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/chapel-of-ka-ni-nisut-317061"
+    },
+    {
+      "id": "S_EGY_RESERVE",
+      "title": "Reserve Head",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/reserve-head-322358"
+    },
+    {
+      "id": "S_EGY_LION",
+      "title": "Wall Section with Relief of a Striding Lion",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/wandstueck-mit-dem-relief-eines-schreitenden-loewen-376850-1"
+    },
+    {
+      "id": "S_EGY_KAI",
+      "title": "Statue Group of Kai-pu-ptah and Ipep",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/statue-group-of-kai-pu-ptah-and-ipep-323871"
+    },
+    {
+      "id": "S_EGY_GEMNEF",
+      "title": "Naophorous Statue of Gem-nef-hor-bak",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/naophorous-statue-of-gem-nef-hor-bak-316886"
+    },
+    {
+      "id": "S_COIN_OVERVIEW",
+      "title": "Coin Cabinet – the fascinating world of coins and medals",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/exhibitions/muenzkabinett"
+    },
+    {
+      "id": "S_COIN_GULDINER",
+      "title": "Guldiner of Archduke Sigismund, 1486",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/kunstwerke/ehg-sigismund-guldiner-frontal-im-harnisch-stehend-turnierreiter-1009266"
+    },
+    {
+      "id": "S_COIN_DURER_MEDAL",
+      "title": "Dedication Medal of the City of Nuremberg for Charles V",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/kunstwerke/medaille-1008262"
+    },
+    {
+      "id": "S_BUILDING",
+      "title": "The Kunsthistorisches Museum – a Gesamtkunstwerk",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/exhibitions/the-kunsthistorisches-museum-gesamtkunstwerk"
+    },
+    {
+      "id": "S_SPACE_THESEUS",
+      "title": "Theseus Slaying the Centaur",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/theseusgruppe-theseus-besiegt-den-kentauren-1132785-1"
+    },
+    {
+      "id": "S_SPACE_KLIMT_EGYPT",
+      "title": "Egypt",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/aegypten-1311303-1"
+    },
+    {
+      "id": "S_OBJECTS",
+      "title": "Artworks – browse and discover",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks"
+    }
+  ],
+  "stoppingCondition": {
+    "met": true,
+    "reason": "已取得 40 个候选，数量与锁定容量一致；每项均位于主馆边界内，并由馆方对象页、常设收藏页或馆舍专题支持稳定身份／空间身份及与 Maria-Theresien-Platz 主馆的关系。六条分配线均达到计划数量，且新增候选分别补充勃鲁盖尔群、欧洲画派、宫廷珍宝与机械、古代浮雕宝石／陶器／法令／宝藏、吉萨与近东材料、钱币和纪念章、馆舍与历史展示等不同问题。继续搜索只会扩张候选而不会解除本阶段的明确缺口；精确比较、重要性、评分、图片许可和逐件在展状态属于后续研究卡与 museum_selection 阶段。"
+  }
+}

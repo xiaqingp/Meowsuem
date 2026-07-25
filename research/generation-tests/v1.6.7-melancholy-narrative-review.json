@@ -1,0 +1,101 @@
+{
+  "instructionVersion": "1.6.7",
+  "workId": "melancholy",
+  "coreQuestion": "为什么一群忙个不停的人会叫《忧郁》？",
+  "quickLayerIndependent": true,
+  "deepLayerIndependent": true,
+  "finalReturnsToQuestion": true,
+  "paragraphDependencies": [
+    {
+      "paragraph": "这场球赛，从尺寸上就赢不了｜两段",
+      "dependsOn": "快层已经让读者看见忙碌与无结果的矛盾",
+      "newUnderstanding": "巨球、小环、削木棍和木屑证明问题不是静止，而是行动失去方向",
+      "breaksIfMovedEarlier": "没有先看见具体动作，忧郁的新解释只会像抽象定义"
+    },
+    {
+      "paragraph": "在克拉纳赫之前，忧郁已经换过一次意思｜两段",
+      "dependsOn": "画面已经迫使读者追问当时的忧郁为何不限于悲伤",
+      "newUnderstanding": "四体液与文艺复兴创造力观解释翼人和丢勒前史",
+      "breaksIfMovedEarlier": "先讲思想史会抢走作品自身制造的问题"
+    },
+    {
+      "paragraph": "十八年后，危险闯进了日常生活｜两段",
+      "dependsOn": "丢勒的创造天才困境已经建立",
+      "newUnderstanding": "路德语境和黑云让克拉纳赫的忙碌人物变成另一种忧郁答案",
+      "breaksIfMovedEarlier": "没有丢勒这个比较对象，就看不出克拉纳赫究竟改写了什么"
+    },
+    {
+      "paragraph": "画得越清楚，黑云越显得不对劲｜两段",
+      "dependsOn": "危险侵入日常的解释已经成立",
+      "newUnderstanding": "干净轮廓、透明油彩和横幅构图不是装饰，而在加强无人察觉危险的反差",
+      "breaksIfMovedEarlier": "在历史冲突之前谈风格，会退化成孤立的作者栏目"
+    },
+    {
+      "paragraph": "类似作品还有三幅，这一幅为什么仍值得停下来｜两段",
+      "dependsOn": "主题改写与形式成就已经可以比较",
+      "newUnderstanding": "作品作为重要藏品的价值来自具体版本设计和可靠作品史，而非唯一性",
+      "breaksIfMovedEarlier": "不知道它怎样改写主题，就无法判断其他版本能替代什么"
+    },
+    {
+      "paragraph": "最后再看一眼",
+      "dependsOn": "行动、丢勒、路德语境、清楚风格和版本边界都已建立",
+      "newUnderstanding": "翼人的手与黑云把画名收束为生活照常时错过危险",
+      "breaksIfMovedEarlier": "缺少前文时只剩一句未经解释的警句"
+    }
+  ],
+  "highRiskClaimReview": [
+    {
+      "sentence": "馆方认为她似乎正准备把木棍做成圆环。",
+      "evidenceType": "attributed_visual_identification",
+      "sourceOrBasis": "Cranach Digital Archive / SMK 对 KMSsp722 的对象描述",
+      "confidence": "高：直接收藏记录确认削木棍并以 apparently 限定圆环用途，正文保留‘似乎’",
+      "verdict": "passed"
+    },
+    {
+      "sentence": "到了文艺复兴，一些思想家又给它加上较光亮的一面——忧郁的人可能因为想得太深，拥有特殊的创造力。",
+      "evidenceType": "museum_historical_synthesis",
+      "sourceOrBasis": "Musée Unterlinden 对四体液、中世纪负面含义与文艺复兴艺术气质的说明",
+      "confidence": "高：馆方明确给出历史变化，正文用‘一些思想家’和‘可能’限制共识范围",
+      "verdict": "passed"
+    },
+    {
+      "sentence": "Cranach Digital Archive 和 Unterlinden 博物馆都把这组作品与马丁·路德对忧郁的看法联系起来。",
+      "evidenceType": "attributed_scholarly_interpretation",
+      "sourceOrBasis": "两家机构分别把系列的外部契机与路德对忧郁、撒旦诱惑的看法相连",
+      "confidence": "高：两个独立机构结论同向，正文保留机构归因，不升级为画家自述",
+      "verdict": "passed"
+    },
+    {
+      "sentence": "克拉纳赫在 1528—1533 年间画过至少四个构图明显不同的《忧郁》版本。",
+      "evidenceType": "bounded_version_comparison",
+      "sourceOrBasis": "Cranach Digital Archive 的系列研究史与 Unterlinden inventory document 逐项列出四版",
+      "confidence": "高：数据库与馆方文档相互支持；‘至少’给未登记作品保留边界",
+      "verdict": "passed"
+    },
+    {
+      "sentence": "收藏记录至少可以追到 1710 年。",
+      "evidenceType": "provenance_record",
+      "sourceOrBasis": "Cranach Digital Archive / SMK provenance 记录 Gottorp Inventory 1710",
+      "confidence": "高：直接作品档案，正文没有据此推断更早来源",
+      "verdict": "passed"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这幅画里人人都在忙，事情却没有方向；克拉纳赫借丢勒的翼人和路德时代对魔鬼诱惑的担心，把忧郁画成日常照常、危险已经靠近。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed"
+  },
+  "historicalContextReview": {
+    "verdict": "passed",
+    "evidence": "正文先用球赛和削木棍建立问题，再说明四体液传统、文艺复兴创造力观、丢勒图像与路德语境的冲突；历史背景改变了对黑云和忙碌的理解，并在下一段回到克拉纳赫的形式。"
+  },
+  "voiceEvidence": {
+    "entrance": "从所有人都在动却叫《忧郁》的矛盾进入，没有虚构读者误解。",
+    "cognitiveTurn": "无结果动作要求解释旧概念，丢勒前史再要求解释克拉纳赫与路德语境中的改写。",
+    "humor": "体育器材混用来自巨球与小环的真实尺度，删掉笑点后论证仍成立。",
+    "secondLook": "让读者盯住正在工作的手，再替人物抬头看黑云，重新回答画名。"
+  },
+  "verdict": "passed"
+}
+

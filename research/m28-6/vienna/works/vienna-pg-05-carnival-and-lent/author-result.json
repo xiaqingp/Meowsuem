@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-pg-05-carnival-and-lent-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:41:15.2766924-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-01/vienna-pg-05-carnival-and-lent-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "fe06e5b1f40ef53f01725080256793490fcb3459f496545010383ffc3c19db7b"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-pg-05-carnival-and-lent/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "749d5789fb57522d8fcc7d061cacd7651ed51b2c9366427c80e339ed61e593d5"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "c00bbe0e1e45b548a5e1ef557aaf0d9249ad2410997cdd541b8058de8235ef1d",
+                        "bytes":  9664
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "8815686950807ac4506f921329e1e064c99de90870ce0174cb77627db55f6d60",
+                        "bytes":  301
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "c2d7bb0b51077f8898f05b93008f3214466599407a74b7f04db37c7ed7358664",
+                        "bytes":  3998
+                    }
+                ]
+}

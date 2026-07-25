@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.2.2",
+  "runId": "m28-2-v2.2.2-narmer-palette-author-2026-07-22",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-23T05:09:09.131Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "4979c66a0dda114700227f73243d4b0af32d5d64985d3679a3c16ab683df5b9c",
+      "bytes": 16021
+    },
+    {
+      "path": "card.txt",
+      "sha256": "650e2ccfba5f5fe97f0af124d26d793060056eab7efaca48d18c29258d2d4433",
+      "bytes": 277
+    },
+    {
+      "path": "draft.md",
+      "sha256": "faa311f19e4f719abefdb19a2d2d7f1c20de244eb4ad314bb147cc7e85c7dc7f",
+      "bytes": 6392
+    }
+  ]
+}

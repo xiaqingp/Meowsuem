@@ -1,0 +1,155 @@
+{
+  "workId": "in-the-woods",
+  "directUpstream": {
+    "filename": "research-card.md",
+    "sha256": "8e52a13e50fce924a571a8f2ea06968752dc1532cded5a387af2de78775922c6"
+  },
+  "readerBaseline": "零背景读者从题名与画面能知道：这是一幅纵长的林中单人裸体画；人物肤色明亮，周围树林深暗。读者尚不知道它为何值得在 Frye 停留，也不知道它处于布格罗生涯的什么位置。",
+  "coreQuestion": "一幅题材并不罕见的林中裸体，为什么能成为理解 Frye 创始收藏趣味的关键一件？",
+  "quickLayerPromise": {
+    "visibleTension": "明亮、平整的人体几乎占满纵长画幅，深绿褐树林却把她包围起来。",
+    "provisionalAnswer": "观看价值来自学院派对人体、表面与环境反差的严密控制，也来自作品作为 Frye 创始收藏样本所显示的收藏偏好。",
+    "viewingRoute": [
+      "人物占据画幅主要高度",
+      "亮肤色与深绿褐林地的明暗对照",
+      "远观平整的画面表面"
+    ]
+  },
+  "cognitionSteps": [
+    {
+      "step": 1,
+      "discovery": "画面最先成立的不是故事，而是纵长构图中明亮人体与暗色林地的强烈分离。",
+      "changesUnderstanding": "读者从辨认题材转向注意画家怎样让人物在静止环境中持续占据视线。",
+      "thereforeNext": "这种醒目效果具体靠哪些学院派处理维持？"
+    },
+    {
+      "step": 2,
+      "discovery": "人物占据画幅主要高度，远观表面平整，树林以深绿褐色衬托肤色。",
+      "changesUnderstanding": "作品的吸引力被落实为构图、明暗和表面处理，而非模特心理或情节。",
+      "thereforeNext": "这些可见方法在布格罗的创作生涯中处于什么位置？"
+    },
+    {
+      "step": 3,
+      "discovery": "作品作于1905年，与布格罗卒年相同，可稳妥称为极晚期作品。",
+      "changesUnderstanding": "眼前成熟、稳定的学院派方法因此具有生涯末端的时间重量，但不能升级成‘最后作品’。",
+      "thereforeNext": "同类作品很多时，这一件自身的差异和价值在哪里？"
+    },
+    {
+      "step": 4,
+      "discovery": "与布格罗《海浪》（The Wave，1902）相比，两者都是理想化单人裸体；本作改用树林、纵向站姿和更暗的环境。",
+      "changesUnderstanding": "比较显示本作不是稀有类型，其特殊观看回报来自环境与站姿造成的垂直、静止感。",
+      "thereforeNext": "既然类型并不稀有，它为何仍值得在 Frye 停留？"
+    },
+    {
+      "step": 5,
+      "discovery": "作品属于 Founding Collection，是 Frye 创始收藏所偏爱的晚期法国学院派绘画的清楚样本。",
+      "changesUnderstanding": "重要性从全球稀缺转向馆藏叙事：它帮助读者看懂这家馆为何以这类绘画为历史核心。",
+      "thereforeNext": "回到画面时，应怎样同时看见学院派方法与收藏趣味？"
+    }
+  ],
+  "humorBasis": null,
+  "forbiddenAssumptions": [
+    "不得假设读者认为裸体人物有明确身份或故事",
+    "不得描述模特的心理、情绪或意图",
+    "不得把远观表面平整升级为完全没有笔触",
+    "不得称其为布格罗最后一幅作品",
+    "不得把当前 On View 快照写成到访当日必然展出",
+    "不得把重要藏品写成稀世珍品或改变旅行路线的孤品"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "人物显得宁静、羞怯或孤独",
+      "evidenceType": "画面观察不足以证明人物心理",
+      "allowedWording": "只写人物的站姿、位置以及画面的静止感",
+      "forbiddenUpgrade": "不得命名人物情绪或内心"
+    },
+    {
+      "claim": "这是布格罗最后的作品",
+      "evidenceType": "来源事实仅能确认创作年与卒年同为1905年",
+      "allowedWording": "极晚期作品；创作于布格罗生命最后一年",
+      "forbiddenUpgrade": "不得写最后一幅、绝笔或完成先后"
+    },
+    {
+      "claim": "画面没有笔触",
+      "evidenceType": "直接观察只能支持远观表面平整",
+      "allowedWording": "远看时表面显得平整，笔触不抢眼",
+      "forbiddenUpgrade": "不得断言无笔触或完全光滑"
+    },
+    {
+      "claim": "作者有意让人物逃离现实",
+      "evidenceType": "缺少作者意图来源",
+      "allowedWording": "描述理想化人体与暗色林地的视觉关系",
+      "forbiddenUpgrade": "不得声称作者意图、寓意或具体叙事"
+    },
+    {
+      "claim": "作品不可替代或极为稀有",
+      "evidenceType": "比较与五维判断只支持馆内叙事价值",
+      "allowedWording": "它是 Frye 创始收藏趣味的关键样本；同类晚期学院派裸体并不罕见",
+      "forbiddenUpgrade": "不得称世界唯一、稀世珍品或专程旅行理由"
+    }
+  ],
+  "historicalContextPlan": {
+    "applicable": false,
+    "reason": "作品的重要性不依赖战争、革命、宗教改革、政治变化或制度冲突；必要背景是布格罗的极晚期生涯位置与 Frye 创始收藏身份，分别嵌入认知链第三、第五步。"
+  },
+  "authorStyle": {
+    "applicable": true,
+    "visibleFeatures": [
+      "理想化单人裸体",
+      "人体占据纵长画幅主要高度",
+      "亮肤色与深绿褐环境形成对照",
+      "远观表面平整、笔触不抢眼"
+    ],
+    "careerPlacement": "1905年的极晚期作品，呈现成熟而持续的学院派人体与表面处理；不称转折或绝笔。",
+    "comparisonUse": "以1902年《海浪》说明同为理想化单人裸体时，树林、纵向站姿与暗色环境怎样改变观看。"
+  },
+  "significance": {
+    "label": "重要藏品",
+    "dimensions": {
+      "representativeness": { "score": 3, "outOf": 5, "reason": "可清楚代表布格罗成熟学院派裸体方法，但不是罕见题材。" },
+      "careerNode": { "score": 4, "outOf": 5, "reason": "1905年与作者卒年相同，属于极晚期，具有明确生涯位置。" },
+      "rarity": { "score": 2, "outOf": 5, "reason": "晚期法国学院派单人裸体有可比作品，稀缺性有限。" },
+      "collectionNarrative": { "score": 5, "outOf": 5, "reason": "Founding Collection身份使它直接解释 Frye 创始收藏的学院派趣味。" },
+      "onsiteLegibility": { "score": 4, "outOf": 5, "reason": "纵长构图、明暗反差与表面处理在现场容易辨认。" }
+    },
+    "comparisonCategory": "布格罗晚期法国学院派理想化单人裸体",
+    "nearestComparator": "William-Adolphe Bouguereau《海浪》（The Wave，1902）",
+    "similarity": "两者都以理想化单人裸体为主体。",
+    "decisiveDifference": "《林中》以树林、纵向站姿和深暗环境组织视线；《海浪》处在不同环境中。",
+    "irreplaceabilityBoundary": "对 Frye 馆藏叙事很关键，但在布格罗作品类型和艺术史范围内并非不可替代。",
+    "travelBoundary": "服从 Frye 72分边界：可说明馆藏关键性，不得写成决定行程、值得专程或稀世孤品。"
+  },
+  "observableDetails": [
+    "画幅纵向狭长",
+    "单一裸身女性占据画幅主要高度",
+    "人物肤色明亮",
+    "周围林地以深绿褐色为主",
+    "人体与林地形成显著明暗对照",
+    "远观画面表面显得平整"
+  ],
+  "secondLook": "在人物与树林交界处来回移动视线：看亮肤色的轮廓如何被暗色林地连续托住，再退回整体，确认纵长画幅怎样把一次普通的林中站立变成稳定、垂直的视觉中心。",
+  "productionLanguageBoundary": {
+    "visitorProseMustExclude": [
+      "研究缺口",
+      "图片许可或图片任务",
+      "发布待办或发布状态",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "版本迁移"
+    ],
+    "internalRisksDestination": "author-review.json",
+    "visitorFacingUncertaintyAllowed": "仅可自然说明在展状态可能变化，以及证据只能支持‘极晚期’而非‘最后作品’。"
+  },
+  "draftContract": {
+    "title": "## 林中 / Dans les bois (In the Woods)",
+    "artistLine": "威廉-阿道夫·布格罗 William-Adolphe Bouguereau · 法国",
+    "quickLayerVisibleCharacters": "70—240，目标90—180",
+    "deepLayerMinimumVisibleCharacters": 320,
+    "progressiveQuestionCount": 1,
+    "requiredDetailCount": 4,
+    "cardVisibleCharacters": "24—100",
+    "negativeContrastMaximum": 1
+  }
+}

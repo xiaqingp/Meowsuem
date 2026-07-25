@@ -1,0 +1,158 @@
+{
+  "workId": "muxin-c04",
+  "readerStartingPoint": "读者只从题名知道这是一部名为《巴珑》的稿本；现有可靠对象图缺失，不能预设读者看得到题名页、落款、删改或篇章次序。",
+  "narrativeMainline": {
+    "valueType": "conceptual_question",
+    "mainline": "这部稿本最能提出的不是“木心怎样改了某一行”，而是一本诗集出版以后，亲笔稿本究竟还能证明到哪一步：馆方确认它是一部具名的完整稿本，出版资料说明所收诗作多写于1984—1997年，但公开资料尚不能把稿本与现行本逐篇对应。这个关系同时解释它为何进入文学馆、为何要与其他完整诗稿比较，以及为何不能把诗作年代直接写成稿本形成期。",
+    "storyBeats": [
+      {
+        "beat": "先把《巴珑》的首要价值落在版本问题上：馆方保存并列名一部完整稿本，但公开材料不足以展示具体删改过程。",
+        "evidence": [
+          "author-input-research.md#对象身份",
+          "author-input-supplement.md#对象身份与组界"
+        ],
+        "readerGain": "明白这件对象值得看之处，是出版文本背后仍有一部亲笔稿本，而不是未经证实的视觉细节。"
+      },
+      {
+        "beat": "再区分诗作年代与稿本年代：2020年版依据晚年定稿，收三十多首诗，多数署有1984—1997年的写作日期；这些信息属于所收文本，不能自动成为稿本的形成史。",
+        "evidence": [
+          "author-input-research.md#来源事实与局部因果",
+          "author-input-supplement.md#对象级元数据"
+        ],
+        "readerGain": "能够理解“跨多年写成”与“眼前稿本怎样编成”是两个不同问题。"
+      },
+      {
+        "beat": "最后把它放回馆内完整诗稿组比较：它与《我纷纷的情欲》《诗经演》《伪所罗门书》共享从亲笔稿到出版文本的价值，但尚无对象级决定性差异。",
+        "evidence": [
+          "author-input-research.md#比较与不可替代性",
+          "author-input-supplement.md#最近比较与断言边界",
+          "work-selection.json#significance"
+        ],
+        "readerGain": "知道它是文学馆版本线上的特色节点，而不是已经证明不可替代的孤本或木心诗歌最高峰。"
+      }
+    ]
+  },
+  "mustNotAssume": [
+    "馆藏稿本完整覆盖现行出版物的全部诗篇。",
+    "出版诗作主要写于1984—1997年等于稿本形成于1984—1997年。",
+    "稿页上可见跨年编排、多层删改、移行、落款或目录。",
+    "《巴珑》是木心诗歌生涯的转折、最高成就或不可替代孤本。",
+    "原件、全稿或同一页当前持续展出。"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "《巴珑》是一部具名的完整稿本单位。",
+      "evidenceType": "馆方来源事实",
+      "allowedWording": "馆方把 Parron 列为五部最完整稿本之一，可按整部稿本作为一件介绍。",
+      "forbiddenUpgrade": "不得写成现行出版物全部诗篇的完整母本。"
+    },
+    {
+      "claim": "诗作主要写于1984—1997年。",
+      "evidenceType": "出版介绍",
+      "allowedWording": "2020年版介绍称所收三十多首诗多数署有写作日期，主要在1984—1997年。",
+      "forbiddenUpgrade": "不得把这一范围写成稿本形成期、誊写期或每页落款范围。"
+    },
+    {
+      "claim": "稿本能够显示多年筛选、排序和定稿过程。",
+      "evidenceType": "未获证实的可能性",
+      "allowedWording": "目录、落款与修改层次若有公开对象证据，才可能回答这一问题；现有资料不能确认。",
+      "forbiddenUpgrade": "不得写成稿本上可以看到跨年汇编或多层修改。"
+    },
+    {
+      "claim": "本稿不可替代或代表木心诗歌最高成就。",
+      "evidenceType": "比较证据不足",
+      "allowedWording": "它与三部完整诗稿共同构成馆内亲笔诗稿的比较线，目前定位为特色看点。",
+      "forbiddenUpgrade": "不得使用唯一、孤本、最高峰、决定性转折或稀世珍品。"
+    },
+    {
+      "claim": "原件当前可见。",
+      "evidenceType": "馆藏与展示体系来源事实，缺少逐件实时展讯",
+      "allowedWording": "馆藏轮换，原件是否在展须以当日现场为准。",
+      "forbiddenUpgrade": "不得保证原件、全稿或固定页面持续在展。"
+    }
+  ],
+  "displayMetadata": {
+    "titleZh": "《巴珑》手稿本",
+    "titleEn": "Parron",
+    "by": "木心 Mu Xin · 地区资料未注明",
+    "date": "稿本形成期未核；出版诗作主要写于1984—1997年",
+    "material": "纸本墨迹；纸张、书写工具、尺寸与装订未核",
+    "place": "木心美术馆文学馆 · 馆藏轮换",
+    "priority": "时间充裕再看",
+    "significance": "特色看点",
+    "stay": "3–5分钟；仅在原件展出时停留",
+    "availability": "collection_rotation",
+    "imagePolicy": "museum_hero_placeholder"
+  },
+  "claimLedger": [
+    {
+      "id": "C1",
+      "claim": "馆方把 Parron 列为五部最完整稿本之一，支持将《巴珑》整部稿本视为一件。",
+      "source": "author-input-supplement.md#对象身份与组界；Mu Xin Art Museum, Literature Collection",
+      "usedIn": [
+        "card.txt",
+        "draft.md#30 秒先懂",
+        "draft.md#一部诗集，为什么还要回到稿本"
+      ]
+    },
+    {
+      "id": "C2",
+      "claim": "2020年版《巴珑》依据木心晚年定稿，收三十多首诗，多数署有写作日期，主要在1984—1997年。",
+      "source": "author-input-research.md#来源事实与局部因果；《巴珑》出版信息线索",
+      "usedIn": [
+        "card.txt",
+        "draft.md#多年写成，不等于这部稿本形成了多年"
+      ]
+    },
+    {
+      "id": "C3",
+      "claim": "公开资料没有对象编号、页数、目录、逐诗落款或稿本与现行出版物逐篇对应信息。",
+      "source": "author-input-supplement.md#对象身份与组界；author-input-supplement.md#对象级元数据",
+      "usedIn": [
+        "card.txt",
+        "draft.md#30 秒先懂",
+        "draft.md#多年写成，不等于这部稿本形成了多年",
+        "draft.md#再看这些容易错过的细节",
+        "draft.md#最后再看一眼",
+        "draft.md#事实边界"
+      ]
+    },
+    {
+      "id": "C4",
+      "claim": "最近比较组为《我纷纷的情欲》《诗经演》《伪所罗门书》稿本；它们同为馆方列出的完整晚年诗歌稿本，尚未建立《巴珑》的决定性差异。",
+      "source": "author-input-research.md#比较与不可替代性；author-input-supplement.md#最近比较与断言边界",
+      "usedIn": [
+        "draft.md#它在馆里是一条比较线，不是一座孤峰"
+      ]
+    },
+    {
+      "id": "C5",
+      "claim": "本件属于馆藏轮换，未确认原件当前在展或持续展示同一页。",
+      "source": "author-input-supplement.md#稳定收藏与展示状态；work-selection.json#availability",
+      "usedIn": [
+        "card.txt",
+        "draft.md#再看这些容易错过的细节",
+        "draft.md#事实边界"
+      ]
+    },
+    {
+      "id": "C6",
+      "claim": "未取得可靠对象图，不能确认题名页、日期落款、改字移行或篇章排序；图片策略为馆舍占位图。",
+      "source": "author-input-research.md#现场可观察证据；author-input-supplement.md#对象图像与四项直接观察；work-selection.json#imagePolicy",
+      "usedIn": [
+        "card.txt",
+        "draft.md#事实边界"
+      ]
+    },
+    {
+      "id": "C7",
+      "claim": "本件的重要性冻结为特色看点，原因是它补入旅美诗歌稿本与晚年结集的收藏方向，但对象本身尚不能证明跨年编排或多层修改。",
+      "source": "work-selection.json#significance；work-selection.json#significanceReason",
+      "usedIn": [
+        "draft.md#30 秒先懂",
+        "draft.md#它在馆里是一条比较线，不是一座孤峰",
+        "draft.md#最后再看一眼"
+      ]
+    }
+  ]
+}

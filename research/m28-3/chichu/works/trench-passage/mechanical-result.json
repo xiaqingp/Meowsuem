@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.2",
+  "runId": "m28-3-chichu-author-trench-passage-2026-07-23",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T03:08:49.709Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "a52d11d5abbcd0dbaca4e9f4a9dd254a46e1a6852f2d3f6928575f1da1ada366",
+      "bytes": 6163
+    },
+    {
+      "path": "card.txt",
+      "sha256": "49a4d7af0f7b9cb17fab491f324ae4214d35873335662c8b5f2e879afd88e734",
+      "bytes": 232
+    },
+    {
+      "path": "draft.md",
+      "sha256": "98f3cd6733a6ee73fde63c2d0cd8aef3ba2ed88d2586c27727a68e26abec40b9",
+      "bytes": 3051
+    }
+  ]
+}

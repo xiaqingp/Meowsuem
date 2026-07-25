@@ -1,0 +1,260 @@
+{
+  "schemaVersion": "museum-research-packet/1.0",
+  "museum": {
+    "museumId": "seattle",
+    "nameZh": "????????",
+    "nameEn": "Seattle Art Museum",
+    "location": "1300 First Avenue, Seattle, Washington, USA",
+    "scopeType": "single_building"
+  },
+  "works": [
+    {
+      "id": "sea-change",
+      "title": "Sea Change",
+      "makerOrCulture": "Jackson Pollock",
+      "date": "1947",
+      "collectionGroup": "Modern & Contemporary Art",
+      "objectNumber": "58.55",
+      "identityAnchor": "58.55",
+      "identitySourceUrl": "https://art.seattleartmuseum.org/objects/2742/sea-change",
+      "candidateRationale": "馆方列为该收藏群精选；作品处在 Pollock 以滴洒成为主导方法的转折点，材料中还包含 gravel，可承担“方法怎样从画笔转向地面作业”的研究问题。",
+      "researchTask": "核实 1946—1947 两阶段制作、材料分析、Peggy Guggenheim 来源链、与最接近的 Pollock 转折期作品之比较，并确认主馆展陈与可见状态。",
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "riskRationale": "馆藏号、作者、题名和官方对象页一致；研究仍须避免把馆藏精选升级为全球不可替代性，并核实实时可见状态。",
+      "museumId": "seattle",
+      "workId": "sea-change",
+      "workIdentity": {
+        "artistOrCulture": "Jackson Pollock",
+        "title": "Sea Change",
+        "titleEn": "Sea Change",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "id": "barcelona",
+      "title": "Barcelona",
+      "makerOrCulture": "Francis Picabia",
+      "date": "1924",
+      "collectionGroup": "Modern & Contemporary Art",
+      "objectNumber": "61.188",
+      "identityAnchor": "61.188",
+      "identitySourceUrl": "https://art.seattleartmuseum.org/objects/14283/barcelona",
+      "candidateRationale": "馆方列为现代与当代艺术精选，可补足欧洲现代主义与战后美国艺术之间的时间断面，并提供与 Picabia 生涯阶段相关的独立研究问题。",
+      "researchTask": "核实作品媒材、1924 年生涯语境、题名与图像关系、可靠比较对象、来源链，以及市中心主馆展陈与可见状态。",
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "riskRationale": "馆藏号和官方对象页能够唯一定位；具体生涯位置与艺术史权重留待研究，不在候选阶段预判。",
+      "museumId": "seattle",
+      "workId": "barcelona",
+      "workIdentity": {
+        "artistOrCulture": "Francis Picabia",
+        "title": "Barcelona",
+        "titleEn": "Barcelona",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "id": "how-my-mothers-embroidered-apron-unfolds-in-my-life",
+      "title": "How My Mother's Embroidered Apron Unfolds in My Life",
+      "makerOrCulture": "Arshile Gorky",
+      "date": "1944",
+      "collectionGroup": "Modern & Contemporary Art",
+      "objectNumber": "74.40",
+      "identityAnchor": "74.40",
+      "identitySourceUrl": "https://art.seattleartmuseum.org/objects/5816/how-my-mothers-embroidered-apron-unfolds-in-my-life",
+      "candidateRationale": "馆方列为该收藏群精选；题名把个人记忆、纺织物和抽象绘画连接起来，可形成不同于 Pollock 技法史的观看问题。",
+      "researchTask": "核实题名、创作年代、母亲与围裙主题的可靠来源、媒材、Gorky 生涯位置、比较对象及主馆可见状态。",
+      "riskFlags": [
+        "availability_ambiguity",
+        "insufficient_official_sources"
+      ],
+      "riskRationale": "对象身份唯一；涉及家庭记忆与作者经历的解释必须由可靠来源支持，不能从题名直接推导心理。",
+      "museumId": "seattle",
+      "workId": "how-my-mothers-embroidered-apron-unfolds-in-my-life",
+      "workIdentity": {
+        "artistOrCulture": "Arshile Gorky",
+        "title": "How My Mother's Embroidered Apron Unfolds in My Life",
+        "titleEn": "How My Mother's Embroidered Apron Unfolds in My Life",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "id": "double-elvis",
+      "title": "Double Elvis",
+      "makerOrCulture": "Andy Warhol",
+      "date": "1963/1976",
+      "collectionGroup": "Modern & Contemporary Art",
+      "objectNumber": "76.9",
+      "identityAnchor": "76.9",
+      "identitySourceUrl": "https://art.seattleartmuseum.org/objects/3307/double-elvis",
+      "candidateRationale": "馆方列为收藏精选；1963 年影像面板与 1976 年受馆方委托加入的空白面板，使作品同时涉及复制、缺席与 SAM 自身收藏史。",
+      "researchTask": "核实两面板的制作与委托时间、电影宣传照来源、catalogue raisonné 条目、空白面板的解释边界、最近比较对象和当前主馆展陈。",
+      "riskFlags": [
+        "availability_ambiguity",
+        "composite_or_parent_child"
+      ],
+      "riskRationale": "馆藏号唯一；双年代与双面板结构容易被误写成同一次制作，研究必须分别处理。",
+      "museumId": "seattle",
+      "workId": "double-elvis",
+      "workIdentity": {
+        "artistOrCulture": "Andy Warhol",
+        "title": "Double Elvis",
+        "titleEn": "Double Elvis",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "id": "dr-silvester-gardiner",
+      "title": "Dr. Silvester Gardiner (1708-1786)",
+      "makerOrCulture": "John Singleton Copley",
+      "date": "probably 1772",
+      "collectionGroup": "American Art",
+      "objectNumber": "2006.125",
+      "identityAnchor": "2006.125",
+      "identitySourceUrl": "https://art.seattleartmuseum.org/objects/34531/dr-silvester-gardiner-17081786",
+      "candidateRationale": "馆方列为美国艺术精选；肖像可承担殖民时期身份、职业呈现与 Copley 肖像方法的研究问题。",
+      "researchTask": "核实约 1772 年的断代依据、人物生平与历史语境、服饰和道具解释、Copley 生涯位置、比较肖像及主馆可见状态。",
+      "riskFlags": [
+        "attribution_or_date_conflict",
+        "availability_ambiguity"
+      ],
+      "riskRationale": "对象身份明确，但年代由馆方标为 probably，正文必须保留相应限定。",
+      "museumId": "seattle",
+      "workId": "dr-silvester-gardiner",
+      "workIdentity": {
+        "artistOrCulture": "John Singleton Copley",
+        "title": "Dr. Silvester Gardiner (1708-1786)",
+        "titleEn": "Dr. Silvester Gardiner (1708-1786)",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "id": "still-life-with-strawberries-and-ostrich-egg-cup",
+      "title": "Still Life with Strawberries and Ostrich Egg Cup",
+      "makerOrCulture": "Raphaelle Peale",
+      "date": "1814",
+      "collectionGroup": "American Art",
+      "objectNumber": "2014.23",
+      "identityAnchor": "2014.23",
+      "identitySourceUrl": "https://art.seattleartmuseum.org/objects/8386/still-life-with-strawberries-and-ostrich-egg-cup",
+      "candidateRationale": "馆方列为美国艺术精选；静物中的食物、贵重容器与表面描绘可补足肖像和风景之外的物质文化研究线。",
+      "researchTask": "核实各物件身份、1814 年美国静物语境、材质与构图、Peale 生涯位置、同类比较对象、来源链和主馆可见状态。",
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "riskRationale": "馆藏号与对象页唯一；物件的经济或象征含义不能仅凭图像推断，须由来源支持。",
+      "museumId": "seattle",
+      "workId": "still-life-with-strawberries-and-ostrich-egg-cup",
+      "workIdentity": {
+        "artistOrCulture": "Raphaelle Peale",
+        "title": "Still Life with Strawberries and Ostrich Egg Cup",
+        "titleEn": "Still Life with Strawberries and Ostrich Egg Cup",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "id": "a-country-home",
+      "title": "A Country Home",
+      "makerOrCulture": "Frederic Edwin Church",
+      "date": "1854",
+      "collectionGroup": "American Art",
+      "objectNumber": "65.80",
+      "identityAnchor": "65.80",
+      "identitySourceUrl": "https://art.seattleartmuseum.org/objects/12074/a-country-home",
+      "candidateRationale": "馆方列为美国艺术精选，并明确主馆展示十九世纪美国风景画；可研究风景、家园观念与 Church 生涯之间的关系。",
+      "researchTask": "核实地点或题材身份、1854 年语境、构图与媒材、Church 生涯位置、最近比较对象及当前主馆展陈。",
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "riskRationale": "身份锚点明确；题名中的 home 不足以自行证明具体社会寓意，解释须保持来源边界。",
+      "museumId": "seattle",
+      "workId": "a-country-home",
+      "workIdentity": {
+        "artistOrCulture": "Frederic Edwin Church",
+        "title": "A Country Home",
+        "titleEn": "A Country Home",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "id": "narragansett-bay",
+      "title": "Narragansett Bay",
+      "makerOrCulture": "John Frederick Kensett",
+      "date": "1861",
+      "collectionGroup": "American Art",
+      "objectNumber": "2001.1054",
+      "identityAnchor": "2001.1054",
+      "identitySourceUrl": "https://art.seattleartmuseum.org/objects/28103/narragansett-bay",
+      "candidateRationale": "馆方列为美国艺术精选；与 Church 作品并置可让研究区分同一世纪美国风景画中的不同空间和观看方法，而不是重复一条名家线。",
+      "researchTask": "核实地点、创作背景、形式特征、Kensett 生涯位置、与同馆及馆外风景画的可比范围，以及主馆可见状态。",
+      "riskFlags": [
+        "availability_ambiguity",
+        "insufficient_official_sources"
+      ],
+      "riskRationale": "对象页与馆藏号唯一；比较只能在可靠来源支持的范围内进行，不预设孰优孰劣。",
+      "museumId": "seattle",
+      "workId": "narragansett-bay",
+      "workIdentity": {
+        "artistOrCulture": "John Frederick Kensett",
+        "title": "Narragansett Bay",
+        "titleEn": "Narragansett Bay",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "id": "swan-rattle",
+      "title": "Swan rattle",
+      "makerOrCulture": "Native American",
+      "date": "19th century",
+      "collectionGroup": "Native American Art",
+      "objectNumber": "59.104",
+      "identityAnchor": "59.104",
+      "identitySourceUrl": "https://art.seattleartmuseum.org/objects/12808/swan-rattle",
+      "candidateRationale": "馆方列为原住民艺术精选；可把雕刻物的形制、使用语境与西北海岸收藏线带入以西雅图为目的地的主馆叙事。",
+      "researchTask": "核实文化归属、名称、年代、材料、原始用途与使用限制、来源链、可比器物，以及是否与市中心主馆稳定展陈相关。",
+      "riskFlags": [
+        "availability_ambiguity",
+        "insufficient_official_sources",
+        "cross_source_synthesis"
+      ],
+      "riskRationale": "馆藏号唯一，但馆方精选页只给宽泛文化与世纪；研究必须细化归属并尊重可能存在的文化使用边界。",
+      "museumId": "seattle",
+      "workId": "swan-rattle",
+      "workIdentity": {
+        "artistOrCulture": "Native American",
+        "title": "Swan rattle",
+        "titleEn": "Swan rattle",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "id": "naaxein",
+      "title": "Naaxein",
+      "makerOrCulture": "Native American",
+      "date": "ca. 1880",
+      "collectionGroup": "Native American Art",
+      "objectNumber": "68.194",
+      "identityAnchor": "68.194",
+      "identitySourceUrl": "https://art.seattleartmuseum.org/objects/13497/naaxein",
+      "candidateRationale": "馆方列为原住民艺术精选；纺织媒介能补充雕刻器物之外的材料、劳动、身份与使用语境研究。",
+      "researchTask": "核实名称语言与文化归属、织造材料和技术、约 1880 年断代、原始用途、来源链、比较对象及市中心主馆关系。",
+      "riskFlags": [
+        "availability_ambiguity",
+        "insufficient_official_sources",
+        "cross_source_synthesis"
+      ],
+      "riskRationale": "官方馆藏号明确；文化归属与名称翻译不能由候选页的宽泛标签自行补齐。",
+      "museumId": "seattle",
+      "workId": "naaxein",
+      "workIdentity": {
+        "artistOrCulture": "Native American",
+        "title": "Naaxein",
+        "titleEn": "Naaxein",
+        "museum": "Seattle Art Museum"
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "runId": "m28-6-vienna-author-vienna-ant-02-nagyszentmiklos-treasure-2026-07-24",
+  "startedAt": "2026-07-24T07:30:03.833Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card",
+  "museumId": "vienna",
+  "workId": "vienna-ant-02-nagyszentmiklos-treasure",
+  "workIdentity": {
+    "artistOrCulture": "迁徙时期／中世纪早期，多文化归属待研究卡细化",
+    "title": "纳吉圣米克洛什金宝藏",
+    "titleEn": "Gold Treasure of Nagyszentmiklós",
+    "museum": "Kunsthistorisches Museum Vienna"
+  },
+  "pipelineVersion": "2.4.8",
+  "instructionVersion": "2.0.2",
+  "inputContractVersion": 1,
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "465e7a2ce500057a139dbb64ff9df36755a6525a1f3a960e90fa0263a572ebfe"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-03/vienna-ant-02-nagyszentmiklos-treasure-research-card.md",
+      "role": "research_card",
+      "sha256": "eb5a46121c34f67bcd46742490c517a26939fd82b79bd2e3194ac8d82778bcdf"
+    },
+    {
+      "path": "research/m28-6/vienna/works/vienna-ant-02-nagyszentmiklos-treasure/work-context.json",
+      "role": "work_context",
+      "sha256": "b90dc77caf101cd5a457e860fc5034862232c854d8c3a922200b75ff9bdf40dd"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

@@ -1,0 +1,416 @@
+{
+  "schemaVersion": 1,
+  "proseTransforms": {
+    "removeLegacyDetailHeading": true
+  },
+  "metadataFields": {
+    "includeMaterial": false
+  },
+  "museum": {
+    "id": "chichu",
+    "editorialCapacity": 20,
+    "city": "直岛 · 日本",
+    "zh": "地中美术馆",
+    "en": "Chichu Art Museum",
+    "verdict": "如果已经安排直岛行程，地中美术馆应列为优先目的地，并预留至少半天；若只按稀世名作密度决定旅行，它不足以单独支撑一次前往直岛的行程。",
+    "hero": "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_sp.jpg",
+    "contentFile": "./research/chichu-content-v2.md",
+    "official": "https://benesse-artsite.jp/en/art/chichu.html",
+    "visit": "https://benesse-artsite.jp/en/general-information.html",
+    "cardCopyContract": "independent-v1",
+    "intro": [
+      "安藤忠雄用埋入山体的混凝土、露天几何庭院和专用展厅限制光进入的方式；莫奈的水面、塔瑞尔的光室与德·玛利亚的固定几何体因此都不再拥有一个恒定外观。这里最值得看的不是建筑、作品或自然中的单独一项，而是三者怎样共同把观看变成一段随身体移动和时刻变化的过程。",
+      "安藤忠雄把建筑大半埋入山体，并为莫奈、詹姆斯·塔瑞尔和沃尔特·德·玛利亚分别设计永久空间；路线、自然光、作品与天气共同构成高度不可复制的现场。20项中有11项达到重要藏品，但没有一项通过“稀世珍品”的全球不可替代性硬门，因此最高只能停在70档。",
+      "馆藏集中于三位艺术家，20项中多项是同一建筑的观看节点，不能按20件独立名作理解。预约、开放日、维护与塔瑞尔夜间项目会变化；馆内摄影规则和当天作品状态须以馆方为准。"
+    ],
+    "contentUpdatedAt": "2026-07-23",
+    "routes": {
+      "90": {
+        "title": "90分钟 · 三位艺术家与建筑主线",
+        "note": "现场若限流或规定单向动线，以馆方路线为准；本路线是注意力取舍，不是实时导航。",
+        "workIds": [
+          "whole",
+          "entrance-cut",
+          "triangle-court",
+          "monet-room",
+          "water-lily-pond-1915",
+          "afrum",
+          "open-field",
+          "open-sky",
+          "time-timeless"
+        ]
+      },
+      "half": {
+        "title": "半天 · 看懂建筑怎样改变三组作品",
+        "note": "给莫奈室、三件塔瑞尔作品和德·玛利亚空间各留出安静适应光线的时间，不以快速打卡数量为目标。",
+        "workIds": [
+          "whole",
+          "hidden-profile",
+          "entrance-cut",
+          "concrete-ramp",
+          "square-court",
+          "trench-passage",
+          "triangle-court",
+          "daylight-clock",
+          "monet-room",
+          "water-lily-pond-1915",
+          "cluster-grass",
+          "water-lilies-1914",
+          "afrum",
+          "open-field",
+          "open-sky",
+          "time-timeless"
+        ]
+      },
+      "all": {
+        "title": "完整浏览 · 把20项看成一套时间装置",
+        "note": "庭园可在入馆前或离馆后观看；馆内顺序须服从当天动线。日落项目不是常规开放自动包含的环节。",
+        "workIds": [
+          "whole",
+          "hidden-profile",
+          "entrance-cut",
+          "concrete-ramp",
+          "square-court",
+          "trench-passage",
+          "triangle-court",
+          "daylight-clock",
+          "monet-room",
+          "marble-floor",
+          "water-lily-pond-1915",
+          "cluster-grass",
+          "water-lilies-1914",
+          "water-lily-pond-1917",
+          "willow-reflections",
+          "afrum",
+          "open-field",
+          "open-sky",
+          "time-timeless",
+          "chichu-garden"
+        ]
+      }
+    }
+  },
+  "chapters": [
+    {
+      "id": "buried-museum",
+      "number": "01",
+      "title": "建筑消失以后，靠什么带你进入地下？",
+      "intro": "从地表轮廓到入口、坡道和两座庭院，解释“地中”不是外形噱头，而是一套用遮挡、转折、几何与露天开口建立方向的路线。"
+    },
+    {
+      "id": "measured-daylight",
+      "number": "02",
+      "title": "自然光既然会变，展厅怎样把变化变成秩序？",
+      "intro": "说明自然光并非未经设计地落入地下；开口、吊顶、材料和测光共同让时间可见，并为莫奈作品建立专用环境。"
+    },
+    {
+      "id": "monet-water",
+      "number": "03",
+      "title": "没有岸和地平线，莫奈怎样只用水面撑起五幅画？",
+      "intro": "以建馆契机的六米双联画为核心，对照方形、横幅、草丛和柳影，讲清莫奈晚期如何用浮叶、反射与松散笔触替代传统远景。"
+    },
+    {
+      "id": "turrell-perception",
+      "number": "04",
+      "title": "光什么时候像物体，什么时候又像一间房？",
+      "intro": "按1968、2000、2004年的顺序比较塔瑞尔从墙角投影、空间开口到真实天空的三种方法，让观众用移动和颜色对比检查自己的知觉。"
+    },
+    {
+      "id": "changing-time",
+      "number": "05",
+      "title": "不动的石球与生长的庭园，怎样各自记录时间？",
+      "intro": "以德·玛利亚的固定几何和地中庭园的季节变化收束全馆：时间既能通过光在材料上的移动显现，也能通过植物的生长与花期显现。"
+    }
+  ],
+  "routes": {
+    "90": {
+      "title": "90分钟 · 三位艺术家与建筑主线",
+      "note": "现场若限流或规定单向动线，以馆方路线为准；本路线是注意力取舍，不是实时导航。",
+      "workIds": [
+        "whole",
+        "entrance-cut",
+        "triangle-court",
+        "monet-room",
+        "water-lily-pond-1915",
+        "afrum",
+        "open-field",
+        "open-sky",
+        "time-timeless"
+      ]
+    },
+    "half": {
+      "title": "半天 · 看懂建筑怎样改变三组作品",
+      "note": "给莫奈室、三件塔瑞尔作品和德·玛利亚空间各留出安静适应光线的时间，不以快速打卡数量为目标。",
+      "workIds": [
+        "whole",
+        "hidden-profile",
+        "entrance-cut",
+        "concrete-ramp",
+        "square-court",
+        "trench-passage",
+        "triangle-court",
+        "daylight-clock",
+        "monet-room",
+        "water-lily-pond-1915",
+        "cluster-grass",
+        "water-lilies-1914",
+        "afrum",
+        "open-field",
+        "open-sky",
+        "time-timeless"
+      ]
+    },
+    "all": {
+      "title": "完整浏览 · 把20项看成一套时间装置",
+      "note": "庭园可在入馆前或离馆后观看；馆内顺序须服从当天动线。日落项目不是常规开放自动包含的环节。",
+      "workIds": [
+        "whole",
+        "hidden-profile",
+        "entrance-cut",
+        "concrete-ramp",
+        "square-court",
+        "trench-passage",
+        "triangle-court",
+        "daylight-clock",
+        "monet-room",
+        "marble-floor",
+        "water-lily-pond-1915",
+        "cluster-grass",
+        "water-lilies-1914",
+        "water-lily-pond-1917",
+        "willow-reflections",
+        "afrum",
+        "open-field",
+        "open-sky",
+        "time-timeless",
+        "chichu-garden"
+      ]
+    }
+  },
+  "rating": {
+    "score": 79,
+    "scoreBand": "70–79 · 可去可不去",
+    "shortAction": "直岛行程中优先安排",
+    "travelAction": "如果已经安排直岛行程，地中美术馆应列为优先目的地，并预留至少半天；若只按稀世名作密度决定旅行，它不足以单独支撑一次前往直岛的行程。",
+    "scoreReason": "安藤忠雄把建筑大半埋入山体，并为莫奈、詹姆斯·塔瑞尔和沃尔特·德·玛利亚分别设计永久空间；路线、自然光、作品与天气共同构成高度不可复制的现场。20项中有11项达到重要藏品，但没有一项通过“稀世珍品”的全球不可替代性硬门，因此最高只能停在70档。",
+    "withinBandReason": "位于70档上限：整体现场、三位艺术家的永久空间和从早期到晚期的塔瑞尔序列，使它比一般建筑型小馆更完整，也比同为场域体验主导的江之浦测候所更集中地把重要原作、建筑与光线锁在一起；但收藏规模很小，莫奈和塔瑞尔均有明确可比组，建筑体验也不能重复计作多条珍品线，所以不能跨入80档。",
+    "limitations": "馆藏集中于三位艺术家，20项中多项是同一建筑的观看节点，不能按20件独立名作理解。预约、开放日、维护与塔瑞尔夜间项目会变化；馆内摄影规则和当天作品状态须以馆方为准。",
+    "dedicatedTrip": false,
+    "rareAssets": [],
+    "sources": [
+      "https://benesse-artsite.jp/en/art/chichu.html",
+      "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf",
+      "https://benesse-artsite.jp/en/story/20210611-1671.html",
+      "https://benesse-artsite.jp/en/story/20170215-770.html",
+      "https://www.benesse-artsite.jp/en/calendar/monthly.html"
+    ],
+    "calibratedAgainst": [
+      "alhambra",
+      "anchorage",
+      "british",
+      "chichu",
+      "egyptian",
+      "enoura",
+      "frye",
+      "getty",
+      "glyptotek",
+      "louvre",
+      "met",
+      "muxin",
+      "seattle",
+      "smk",
+      "vienna"
+    ],
+    "calibratedAt": "2026-07-23"
+  },
+  "works": [
+    {
+      "id": "whole",
+      "ch": "buried-museum",
+      "significance": "重要藏品",
+      "image": "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_sp.jpg",
+      "imageSource": "https://benesse-artsite.jp/en/art/chichu.html",
+      "imageCaption": "馆方地中美术馆主图：用于辨认建筑与地形关系。",
+      "source": "https://benesse-artsite.jp/en/art/chichu.html"
+    },
+    {
+      "id": "hidden-profile",
+      "ch": "buried-museum",
+      "significance": "体验补充",
+      "image": "https://benesse-artsite.jp/en/art/chichu_architecture_thumb_01.jpg",
+      "imageSource": "https://benesse-artsite.jp/en/art/chichu.html",
+      "imageCaption": "馆方安藤建筑配图：用于辨认地下几何空间；不是当前节点的独立对象照。",
+      "source": "https://benesse-artsite.jp/en/art/chichu.html"
+    },
+    {
+      "id": "entrance-cut",
+      "ch": "buried-museum",
+      "significance": "体验补充",
+      "image": "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_sp.jpg",
+      "imageSource": "https://benesse-artsite.jp/en/art/chichu.html",
+      "imageCaption": "馆方地中美术馆主图：用于辨认建筑与地形关系。",
+      "source": "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf"
+    },
+    {
+      "id": "concrete-ramp",
+      "ch": "buried-museum",
+      "significance": "体验补充",
+      "image": "https://benesse-artsite.jp/en/art/chichu_architecture_thumb_01.jpg",
+      "imageSource": "https://benesse-artsite.jp/en/art/chichu.html",
+      "imageCaption": "馆方安藤建筑配图：用于辨认地下几何空间；不是当前节点的独立对象照。",
+      "source": "https://benesse-artsite.jp/en/art/chichu.html"
+    },
+    {
+      "id": "square-court",
+      "ch": "buried-museum",
+      "significance": "特色看点",
+      "image": "https://benesse-artsite.jp/en/art/chichu_architecture_thumb_01.jpg",
+      "imageSource": "https://benesse-artsite.jp/en/art/chichu.html",
+      "imageCaption": "馆方安藤建筑配图：用于辨认地下几何空间；不是当前节点的独立对象照。",
+      "source": "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf"
+    },
+    {
+      "id": "trench-passage",
+      "ch": "buried-museum",
+      "significance": "体验补充",
+      "image": "https://benesse-artsite.jp/en/art/chichu_architecture_thumb_01.jpg",
+      "imageSource": "https://benesse-artsite.jp/en/art/chichu.html",
+      "imageCaption": "馆方安藤建筑配图：用于辨认地下几何空间；不是当前节点的独立对象照。",
+      "source": "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf"
+    },
+    {
+      "id": "triangle-court",
+      "ch": "buried-museum",
+      "significance": "特色看点",
+      "image": "https://benesse-artsite.jp/en/art/chichu_architecture_thumb_01.jpg",
+      "imageSource": "https://benesse-artsite.jp/en/art/chichu.html",
+      "imageCaption": "馆方安藤建筑配图：用于辨认地下几何空间；不是当前节点的独立对象照。",
+      "source": "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf"
+    },
+    {
+      "id": "daylight-clock",
+      "ch": "measured-daylight",
+      "significance": "特色看点",
+      "image": "https://benesse-artsite.jp/en/story/uploads/story/blog20201029_04.jpg",
+      "imageSource": "https://benesse-artsite.jp/en/art/chichu.html",
+      "imageCaption": "馆方采光实验模型照片：用于解释自然光设计，不是现场展品。",
+      "source": "https://benesse-artsite.jp/en/art/chichu.html"
+    },
+    {
+      "id": "monet-room",
+      "ch": "measured-daylight",
+      "significance": "重要藏品",
+      "image": "https://benesse-artsite.jp/en/story/uploads/story/blog20201029_01.jpg",
+      "imageSource": "https://benesse-artsite.jp/en/story/20210611-1671.html",
+      "imageCaption": "馆方莫奈空间照片：可见自然光、白色曲面与作品陈列关系。",
+      "source": "https://benesse-artsite.jp/en/art/chichu.html"
+    },
+    {
+      "id": "marble-floor",
+      "ch": "measured-daylight",
+      "significance": "体验补充",
+      "image": "https://benesse-artsite.jp/en/story/uploads/story/blog20201029_05.jpg",
+      "imageSource": "https://benesse-artsite.jp/en/story/20210611-1671.html",
+      "imageCaption": "馆方施工档案：莫奈空间手工铺设的大理石地面。",
+      "source": "https://benesse-artsite.jp/en/story/20210611-1671.html"
+    },
+    {
+      "id": "water-lily-pond-1915",
+      "ch": "monet-water",
+      "significance": "重要藏品",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/77/Monet_Waterlilypond_1926.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Monet_Waterlilypond_1926.jpg",
+      "imageCaption": "《睡莲的池塘》完整作品图；作品身份以地中美术馆官方清单核对。",
+      "source": "https://benesse-artsite.jp/en/art/chichu.html"
+    },
+    {
+      "id": "cluster-grass",
+      "ch": "monet-water",
+      "significance": "重要藏品",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Monet-Water-lilies-cluster-of-grass-Chichu-museum.tif/lossy-page1-1920px-Monet-Water-lilies-cluster-of-grass-Chichu-museum.tif.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Monet-Water-lilies-cluster-of-grass-Chichu-museum.tif",
+      "imageCaption": "馆方莫奈章节配图：对应馆内五幅《睡莲》收藏组；不是每幅作品的独立正面图。",
+      "source": "https://benesse-artsite.jp/en/art/chichu.html"
+    },
+    {
+      "id": "water-lilies-1914",
+      "ch": "monet-water",
+      "significance": "重要藏品",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Monet-Water-lilies-Chichu-museum.tif/lossy-page1-1280px-Monet-Water-lilies-Chichu-museum.tif.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Monet-Water-lilies-Chichu-museum.tif",
+      "imageCaption": "馆方莫奈章节配图：对应馆内五幅《睡莲》收藏组；不是每幅作品的独立正面图。",
+      "source": "https://benesse-artsite.jp/en/art/chichu.html"
+    },
+    {
+      "id": "water-lily-pond-1917",
+      "ch": "monet-water",
+      "significance": "重要藏品",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/17/The_Water_Lily_Pond_%281917-1919%29_Claude_Monet_-_Chichu_Art_Museum_%28W1896%29.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:The_Water_Lily_Pond_(1917-1919)_Claude_Monet_-_Chichu_Art_Museum_(W1896).jpg",
+      "imageCaption": "馆方莫奈章节配图：对应馆内五幅《睡莲》收藏组；不是每幅作品的独立正面图。",
+      "source": "https://benesse-artsite.jp/en/art/chichu.html"
+    },
+    {
+      "id": "willow-reflections",
+      "ch": "monet-water",
+      "significance": "重要藏品",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Nympheas%2C_reflets_de_saule_-_Water-Lilies%2C_Reflections_of_Weeping_Willows_%281916-19%29_Claude_Monet_-_Chichu_Museum_of_Art_%28W_1857%29.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Nympheas,_reflets_de_saule_-_Water-Lilies,_Reflections_of_Weeping_Willows_(1916-19)_Claude_Monet_-_Chichu_Museum_of_Art_(W_1857).jpg",
+      "imageCaption": "馆方莫奈章节配图：对应馆内五幅《睡莲》收藏组；不是每幅作品的独立正面图。",
+      "source": "https://benesse-artsite.jp/en/art/chichu.html"
+    },
+    {
+      "id": "afrum",
+      "ch": "turrell-perception",
+      "significance": "重要藏品",
+      "image": "https://unpointculture.wordpress.com/wp-content/uploads/2016/02/images-1.jpeg",
+      "imageSource": "https://unpointculture.wordpress.com/2016/02/16/larchitecture-comme-paysage-et-lieu-de-loeuvre-tadao-ando-au-chichu-art-museum-de-naoshima/images-1-2/",
+      "imageCaption": "《Afrum, Pale Blue》对象照；摄影署名与馆方授权信息见图片来源页。",
+      "source": "https://benesse-artsite.jp/en/art/chichu.html"
+    },
+    {
+      "id": "open-field",
+      "ch": "turrell-perception",
+      "significance": "重要藏品",
+      "image": "https://benesse-artsite.jp/en/story/uploads/story/conference_by_MichaelGovan/Open-Field-%2C-2000-by-James-.jpg",
+      "imageSource": "https://benesse-artsite.jp/en/story/20170215-770.html",
+      "imageCaption": "馆方讲座档案中的《Open Field》对象照。",
+      "source": "https://benesse-artsite.jp/en/art/chichu.html"
+    },
+    {
+      "id": "open-sky",
+      "ch": "turrell-perception",
+      "significance": "重要藏品",
+      "image": "https://assets.st-note.com/production/uploads/images/18273451/picture_pc_1436859ddd31e1db25f66eb286632c6b.jpg?width=1200",
+      "imageSource": "https://note.com/miumore/n/n9b08ca9a5cf1",
+      "imageCaption": "《Open Sky》Night Program 现场照；用于辨认方形天窗与环绕座席。",
+      "source": "https://benesse-artsite.jp/en/art/chichu.html"
+    },
+    {
+      "id": "time-timeless",
+      "ch": "changing-time",
+      "significance": "重要藏品",
+      "image": "https://benesse-artsite.jp/en/story/uploads/story/conference_by_MichaelGovan/Time_Timeless_No-Time%2C-2004.jpg",
+      "imageSource": "https://benesse-artsite.jp/en/story/20170215-770.html",
+      "imageCaption": "馆方讲座档案中的《Time/Timeless/No Time》对象照。",
+      "source": "https://benesse-artsite.jp/en/art/chichu.html"
+    },
+    {
+      "id": "chichu-garden",
+      "ch": "changing-time",
+      "significance": "体验补充",
+      "image": "https://benesse-artsite.jp/en/art/uploads/art/garden.jpg",
+      "imageSource": "https://benesse-artsite.jp/en/art/chichu.html",
+      "imageCaption": "馆方地中庭园照片：对应进馆前的植物序列。",
+      "source": "https://benesse-artsite.jp/en/art/chichu.html"
+    }
+  ],
+  "publication": {
+    "dataFile": "chichu.js",
+    "cacheKey": "20260724-m28-9-chichu",
+    "cachePages": [
+      "index.html",
+      "museum.html"
+    ]
+  }
+}

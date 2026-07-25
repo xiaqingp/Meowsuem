@@ -1,0 +1,156 @@
+{
+  "workId": "sin",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "52d2236ba5fb5a09b8521e9407ec6a75d9850f77c1d04d8da3aac5bc05f6dc1c"
+  },
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "finalDecisionAuthority": "independent reviewer only",
+  "mechanicalChecks": {
+    "cardBodyVisibleCharacters": 43,
+    "cardBoundary": "within 24—100",
+    "quickLayerVisibleCharactersApprox": 131,
+    "quickLayerBoundary": "within 70—240 and within preferred 90—180",
+    "deepLayerVisibleCharactersApprox": 800,
+    "deepLayerBoundary": "above 320",
+    "observableDetailCount": 5,
+    "requiredChineseSectionsPresent": true,
+    "bilingualWorkAndArtistNamesPresent": true
+  },
+  "paragraphDependency": [
+    {
+      "paragraph": "30 秒先懂",
+      "dependsOn": "只依赖读者可见的标题、女人、蛇、亮眼、暗背景与金框。",
+      "newUnderstanding": "抽象的‘罪’先被理解为女人、蛇与观众之间的正面相遇。",
+      "breaksIfMovedEarlier": "已是入口段，无需更早前提。"
+    },
+    {
+      "paragraph": "深层第 1 段：为什么女人和蛇要一起看向观众",
+      "dependsOn": "快层已指出共同凝视，但尚未解释构图怎样迫使它成立。",
+      "newUnderstanding": "窄幅、蛇的横向路径和四个亮点把观众纳入画面关系；可见姿态不等于人物心理。",
+      "breaksIfMovedEarlier": "若移到元数据之前，读者尚未知道作品身份与核心问题。"
+    },
+    {
+      "paragraph": "深层第 2 段：这次对视为什么会像一个完整的装置",
+      "dependsOn": "上一段已建立对视由方向和亮点构成。",
+      "newUnderstanding": "背景的遮蔽、蛇身的弧线、身体的局部显现和建筑式金框共同把对视组织成整体。",
+      "breaksIfMovedEarlier": "会在尚未建立共同凝视前谈整体设计，失去所要解释的对象。"
+    },
+    {
+      "paragraph": "深层第 3 段：为什么相似版本很多，这一件仍值得停留",
+      "dependsOn": "前两段已经说明这套视觉方案具体由什么组成。",
+      "newUnderstanding": "1893 年比较对象与长期母题说明 Frye 件的价值来自成熟方案、具体差异和馆内作用，而非唯一性。",
+      "breaksIfMovedEarlier": "若未先辨认视觉方案，版本比较会退化为年代与馆名清单。"
+    },
+    {
+      "paragraph": "可观察细节列表",
+      "dependsOn": "前三段已依次建立共同凝视、整体设计与版本价值。",
+      "newUnderstanding": "读者可用眼睛、蛇身、蛇头、身体边缘与金框逐项复核论证。",
+      "breaksIfMovedEarlier": "提前后会成为没有解释目的的观看命令列表。"
+    },
+    {
+      "paragraph": "最后再看一眼",
+      "dependsOn": "全文已说明四个亮点、蛇的横向路径、金框和标题之间的关系。",
+      "newUnderstanding": "第二眼可以先从形式重建寓意，再回读标题；核心问题获得现场可执行的答案。",
+      "breaksIfMovedEarlier": "没有前文，‘四个亮点’与‘边界’尚未获得意义，只会重复快层。"
+    },
+    {
+      "paragraph": "事实边界与资料",
+      "dependsOn": "正文已给出母题、比较与重要性判断。",
+      "newUnderstanding": "读者知道较晚版本、版本数量和人物身份的证据边界。",
+      "breaksIfMovedEarlier": "提前后会让限制条件接管叙事声音，并在读者尚未理解比较价值时先谈版本争议。"
+    }
+  ],
+  "claimClosure": [
+    {
+      "sentence": "女子的双眼和蛇眼同时亮着，一起朝向画外。",
+      "evidenceType": "直接观察",
+      "sourceOrBasis": "研究卡列明女子与蛇眼形成亮点；可靠图像可核对。",
+      "confidence": "高：可由图像直接确认。",
+      "verdict": "保留；只写方向与亮度，不升级为心理。"
+    },
+    {
+      "sentence": "它借由对视，变成观众在画前必须处理的关系。",
+      "evidenceType": "编辑推断",
+      "sourceOrBasis": "由正面朝向、四个亮点与窄竖幅共同推导，正文明确从可见形式进入。",
+      "confidence": "中：解释可追溯到观察，但观众反应并非来源事实。",
+      "verdict": "保留；措辞停在观看关系，不声称作者意图或必然情绪。"
+    },
+    {
+      "sentence": "金色画框以建筑式形状围住狭长画面，让内部元素成为一个整体。",
+      "evidenceType": "直接观察加编辑推断",
+      "sourceOrBasis": "研究卡确认金色建筑式框参与整体效果；整体性由边界与构图关系推导。",
+      "confidence": "高／中：框的形式为高置信观察，整体效果为中置信解释。",
+      "verdict": "保留；未写成作者确定意图。"
+    },
+    {
+      "sentence": "施图克在 1891—1912 年间多次处理《罪》这一母题，Frye 藏品属于较晚版本。",
+      "evidenceType": "来源事实与年代比较",
+      "sourceOrBasis": "research-card.md 的可用事实及 Frye、Neue Pinakothek、Smarthistory 来源链。",
+      "confidence": "高：研究卡明确给出时间范围与较晚版本定位。",
+      "verdict": "保留；未给出有争议的版本总数。"
+    },
+    {
+      "sentence": "与 Neue Pinakothek 1893 年《Die Sünde》共享暗背景、缠肩的蛇、正面凝视和窄竖幅，但年代、媒材、具体画框与色调不同。",
+      "evidenceType": "来源事实与直接比较观察",
+      "sourceOrBasis": "研究卡的最近比较对象、相同点与差异。",
+      "confidence": "高：比较范围明确且逐项有对象依据。",
+      "verdict": "保留。"
+    },
+    {
+      "sentence": "它是 Frye 连接创馆收藏与慕尼黑象征主义最清楚的锚点之一。",
+      "evidenceType": "编辑判断／馆内不可替代性",
+      "sourceOrBasis": "研究卡五维重要性结论：本馆叙事高，Stuck／慕尼黑象征主义锚点。",
+      "confidence": "中高：馆内比较范围有限且使用‘之一’，没有世界级最高断言。",
+      "verdict": "保留；同时明确不构成改变旅行路线的孤品。"
+    },
+    {
+      "sentence": "女子身份不确定，不能确定为夏娃。",
+      "evidenceType": "证据边界",
+      "sourceOrBasis": "研究卡不确定性与禁写明确禁止 Eve 身份。",
+      "confidence": "高：现有输入没有支持该身份。",
+      "verdict": "在事实边界中以‘不把女子确定为夏娃’收窄。"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这篇讲的是：施图克怎样用女人和蛇共同朝外的四只眼睛、横过肩头的蛇身和金色窄框，把抽象的‘罪’变成观众眼前的一次对视；相似版本虽多，Frye 这件仍是理解馆内慕尼黑象征主义的重要入口。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "notes": "标题均围绕同一问题推进；转折有观察或比较依据；没有连续依赖否定—转折骨架，也没有需要先解码的抽象概念压缩。"
+  },
+  "productionLanguageScan": {
+    "scope": ["card.txt 的卡片正文", "draft.md 的访客可见正文"],
+    "termsChecked": ["研究缺口", "图片许可任务", "发布任务", "测试", "prompt", "生成器", "reviewer", "版本迁移", "发布前补核"],
+    "visitorFacingHits": [],
+    "verdict": "clean"
+  },
+  "significanceReview": {
+    "fiveDimensionsCovered": true,
+    "nearestComparatorNamed": "Neue Pinakothek 1893 年《Die Sünde》",
+    "comparisonCategoryDefined": "施图克的象征主义‘罪／蛇与女人’母题版本",
+    "similarityAndDifferenceExplained": true,
+    "scarcityBoundaryExplained": "多个近似版本存在，不采用有争议的精确总数，不以唯一性成立。",
+    "museumRoleExplained": "Frye 的 Stuck 与慕尼黑象征主义锚点。",
+    "travelBoundaryRespected": "保持‘重要藏品’，明确不构成改变行程的稀世珍品。",
+    "verdict": "ready for independent assessment"
+  },
+  "unresolvedRisks": [
+    {
+      "risk": "公开来源对《罪》近似版本总数不一。",
+      "containment": "访客正文不写精确数量、不写唯一或原作；比较只使用已确认的 1893 年对象。"
+    },
+    {
+      "risk": "女子的具体身份及作者确定意图未获证实。",
+      "containment": "不称夏娃，不写人物心理或作者意图；只陈述可见姿态与有限寓意框架。"
+    },
+    {
+      "risk": "2026-07-22 的在展状态为易变快照。",
+      "containment": "详情只写‘在展状态可能变化’，不承诺到访时一定可见。"
+    },
+    {
+      "risk": "Frye 图片的再利用许可未确认。",
+      "containment": "未在访客正文出现；保留为内部风险，不创建或发布图片资产。"
+    }
+  ]
+}

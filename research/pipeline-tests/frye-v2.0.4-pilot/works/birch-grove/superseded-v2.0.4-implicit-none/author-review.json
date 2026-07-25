@@ -1,0 +1,183 @@
+{
+  "workId": "birch-grove",
+  "artifactType": "author_review",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "575959ad379af13b6b4400edd995a3ed91655dbe04723e454cb5ec916fa40de0"
+  },
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "finalPassIssued": false,
+  "narrativeReview": [
+    {
+      "paragraph": "30秒先懂",
+      "function": "用无传统主角却不松散的可见反差提出核心问题，并以疏密、粗细和综合色块给出暂时答案与观看路线。",
+      "dependsOn": "只依赖标题和观者能直接看到的人物、建筑、树干及颜色。",
+      "newUnderstanding": "重复的树干既形成节奏，也能建立深度。",
+      "breaksIfMovedEarlier": "这是入口段，不能再提前；若拆开，快速层会只剩悬念或只剩观看口令。"
+    },
+    {
+      "paragraph": "没有中心，这片树林为什么不会散掉？",
+      "function": "把快速层的‘疏密’拆成聚拢、留空、粗干与细干共同维持秩序的机制。",
+      "dependsOn": "读者已接受画面没有单一中心，却仍感到结构稳定。",
+      "newUnderstanding": "秩序来自许多可核对的小差异，不来自中央焦点。",
+      "breaksIfMovedEarlier": "若放到入口之前，读者还不知道为何要追问‘散不散’，疏密分析会变成孤立形式清单。"
+    },
+    {
+      "paragraph": "竖线怎样变成可以进入的空间？",
+      "function": "从平面节奏推进到空间，解释粗细、叠压和背景碎化怎样让视线深入，并以约1900年的成熟期定位收束作者方法。",
+      "dependsOn": "上一段已经证明竖线并非均匀花纹，而有组织差异。",
+      "newUnderstanding": "同一套差异还承担空间功能，自然题材因此转成画面结构。",
+      "breaksIfMovedEarlier": "未先建立疏密秩序，就无法理解为何这里要检验它会不会只是一张平面花纹。"
+    },
+    {
+      "paragraph": "换成三棵沉重的冷杉，答案会怎样改变？",
+      "function": "用最近比较对象检验前两段的答案，并把本作的轻、密、多、无建筑焦点转化为有限而具体的馆藏价值。",
+      "dependsOn": "读者已经理解本作靠大量浅色竖线同时制造节奏和空间。",
+      "newUnderstanding": "本作的独特回报不在树木题材本身，而在与特吕布纳少、重、遮挡式骨架的差别；重要性因此落在馆内比较节点。",
+      "breaksIfMovedEarlier": "若比较先出现，轻、密、多只是标签，读者还没看懂这些特征怎样工作。"
+    },
+    {
+      "paragraph": "再看这些容易错过的细节",
+      "function": "把此前机制拆成五个现场可核对动作：粗干、疏密、综合色块、远近与无焦点。",
+      "dependsOn": "前三段已说明每项细节为何与核心问题有关。",
+      "newUnderstanding": "读者能自行验证结构判断，而不是接受抽象评价。",
+      "breaksIfMovedEarlier": "提前后会退化成观察清单，不知道这些动作共同回答什么问题。"
+    },
+    {
+      "paragraph": "最后再看一眼",
+      "function": "用一根粗干到一片细干的横移，把前景稳定与远景深入合成同一次第二眼，并闭合无中心为何仍成立的问题。",
+      "dependsOn": "读者已经知道粗细、疏密、叠压和比较共同界定本作价值。",
+      "newUnderstanding": "无主角不是信息缺失，而是整体节奏能够成为观看中心的条件。",
+      "breaksIfMovedEarlier": "若提前，‘两种作用’尚未被解释，结尾动作只会重复快速层。"
+    },
+    {
+      "paragraph": "事实边界与资料",
+      "function": "收窄地点、季节、象征和易变在展状态，并给出可点击来源。",
+      "dependsOn": "正文已用正面观察和有限比较完成价值判断。",
+      "newUnderstanding": "读者能区分眼前可见机制与作品无法证明的外部叙事。",
+      "breaksIfMovedEarlier": "提前会让限制性说明接管正文声音，并在观看机制成立前打断叙事。"
+    }
+  ],
+  "claimClosure": [
+    {
+      "sentence": "画面没有传统意义上的主角，且人物、建筑和突出的单棵树都缺席。",
+      "evidenceType": "直接观察",
+      "sourceOrBasis": "研究卡观察与可靠作品图像；措辞限定为画面可见结构。",
+      "confidence": "高：这些形状与缺席可由图像直接核对。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "疏密、粗细、叠压和综合色块让重复的竖线同时制造节奏与深度。",
+      "evidenceType": "直接观察加编辑推断",
+      "sourceOrBasis": "研究卡列明树干疏密、综合色面和远景细干；正文展示了从可见依据到视觉效果的推导。",
+      "confidence": "中高：形式依据清楚，‘制造’描述观看效果，不宣称作者意图。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "这件约作于1900年的成熟期风景，把自然景物转成画面结构。",
+      "evidenceType": "来源事实加编辑判断",
+      "sourceOrBasis": "Frye对象页和2014年报支持年代；研究卡支持成熟期定位，画面结构由可见竖线和综合色面解释。",
+      "confidence": "中：年代为高置信度，生涯定位与风格为研究卡允许的谨慎判断，未使用‘最典型’或‘开创’。",
+      "verdict": "retain_with_current_scope"
+    },
+    {
+      "sentence": "与特吕布纳作品相比，迪尔轻、密、多且无建筑焦点，特吕布纳重、少并以建筑形成对照。",
+      "evidenceType": "研究卡中的直接比较",
+      "sourceOrBasis": "research-card.md‘比较与重要性’；比较范围限定为Frye馆内两作。",
+      "confidence": "高：共同点和差异均已在研究卡按可观察形式列明。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "本作是具体而耐看的创馆收藏节点，不是足以单独决定行程的流派巅峰。",
+      "evidenceType": "来源事实加五维编辑判断",
+      "sourceOrBasis": "Founding Collection索引确认收藏身份；研究卡五维为艺术史中低、馆藏叙事中高、稀缺中低，并明确单件不拔高。",
+      "confidence": "高：正面价值与降调边界都直接来自研究卡；未宣称全球唯一或不可替代。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "具体地点、季节和白桦象征无法由作品现有证据确认。",
+      "evidenceType": "证据边界",
+      "sourceOrBasis": "研究卡‘不确定性/禁写’。",
+      "confidence": "高：这是明确记录的禁写边界。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "正文中的人物心理、历史先后、仪式用途、作者明确意图、首次、唯一、最早与世界级不可替代性断言。",
+      "evidenceType": "全篇逐句扫描",
+      "sourceOrBasis": "draft.md访客正文未出现此类肯定断言；‘第一次’仅存在于本内部审读字段说明，不在访客正文。",
+      "confidence": "高：逐句扫描结果。",
+      "verdict": "none_present"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这幅画没有人物或建筑当主角，迪尔靠白桦树干的粗细、疏密和前后叠压，让一片林子既有节奏又有深度；跟特吕布纳那三根沉重冷杉一比，它轻密、无中心的特点就更清楚了。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "readAloudNotes": "核心问句可自然复述；快层先给答案，深层从秩序推进到空间再到比较；未出现抽象主语连续支配长句或生硬术语堆叠。"
+  },
+  "productionLanguageScan": {
+    "scope": ["card.txt visitor text", "draft.md rendered visitor text"],
+    "excludedNonVisitorProvenance": "文件开头两行HTML注释仅用于保存强制上游链，不属于渲染后的访客正文。",
+    "termsChecked": [
+      "内部研究缺口",
+      "图片许可任务",
+      "发布任务或状态",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "版本迁移"
+    ],
+    "findings": [],
+    "verdict": "passed"
+  },
+  "significanceReview": {
+    "declaredImportance": "特色看点",
+    "visitPriority": "时间充裕再看",
+    "fiveDimensionsCovered": {
+      "artisticAchievement": "以粗细、疏密、叠压和综合色块维持无中心横幅，正文已具体解释。",
+      "artHistoricalPosition": "只定位为约1900年的成熟期风景实例，未写成开创、转折或流派巅峰。",
+      "historicalCulturalValue": "确认创馆收藏身份；不虚构具体地点、季节、事件或象征。",
+      "rarityAndIrreplaceability": "未声称数量稀少或全球不可替代；比较显示核心价值可部分替代。",
+      "collectionPosition": "通过与特吕布纳最近对象的共同点和关键差异，说明它在Frye创馆收藏中的比较作用。"
+    },
+    "nearestComparatorClosed": true,
+    "frye72BoundaryRespected": true,
+    "verdict": "ready_for_independent_significance_check"
+  },
+  "structureAndLengthReview": {
+    "cardIndependentFromQuickLayer": true,
+    "cardOpeningIsNotGenericViewingCommand": true,
+    "cardVisibleCharacterBoundary": "within_24_to_100",
+    "quickLayerBoundary": "within_70_to_240_visible_chinese_characters",
+    "deepLayerMinimum": "above_320_visible_characters",
+    "observableDetailCount": 5,
+    "singleProgressiveQuestion": true,
+    "swappableColumnStructure": false,
+    "repeatedSentenceTemplateFinding": null,
+    "negativeContrastSkeletonCount": 1
+  },
+  "candidateVoiceScore": {
+    "entry": 2,
+    "causality": 2,
+    "humanAgencyWhenApplicable": 1,
+    "turn": 2,
+    "visualPayoff": 2,
+    "spokenClarity": 2,
+    "secondLook": 2,
+    "total": 13,
+    "note": "作品不依赖人物、制度或事件，人这一项按不强行拟人化的适用性给1；该候选评分不是最终通过证据。"
+  },
+  "unresolvedRisks": [
+    "‘路德维希·迪尔 Ludwig Dill · 德国’采用通行国家归属，但研究卡未列机构级作者档案；独立审读应确认是否保留该国家标签。",
+    "作者作为慕尼黑分离派创始成员的说法仍只有次级传记线索，已从访客正文删除。",
+    "作者风格与成熟期位置缺少更高等级专门文献，正文已避免‘典型’‘转折’‘首创’等升级。",
+    "作品在展状态易变；正文仅给出2026年7月22日未确认在展的日期化边界。",
+    "图片再利用许可未确认；图片未进入访客正文，也未把该事项写入事实边界。",
+    "比较对象的馆内形式差异来自已锁定研究卡，但独立审读仍应核对中文译名与比较措辞。"
+  ],
+  "authorConclusion": "正文已完成作者侧的段落依赖、断言闭环、母语朗读、生产语言和重要性检查；等待未参与成稿者独立审读，不签发最终PASS。"
+}

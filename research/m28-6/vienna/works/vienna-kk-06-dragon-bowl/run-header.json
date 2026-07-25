@@ -1,0 +1,48 @@
+{
+  "runId": "m28-6-vienna-author-vienna-kk-06-dragon-bowl-2026-07-24",
+  "startedAt": "2026-07-24T07:30:03.826Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card",
+  "museumId": "vienna",
+  "workId": "vienna-kk-06-dragon-bowl",
+  "workIdentity": {
+    "artistOrCulture": "加斯帕罗·米塞罗尼 Gasparo Miseroni",
+    "title": "贝壳形碗（龙碗）",
+    "titleEn": "Shell-shaped Bowl, so-called Dragon Bowl",
+    "museum": "Kunsthistorisches Museum Vienna"
+  },
+  "pipelineVersion": "2.4.8",
+  "instructionVersion": "2.0.2",
+  "inputContractVersion": 1,
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "465e7a2ce500057a139dbb64ff9df36755a6525a1f3a960e90fa0263a572ebfe"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-03/vienna-kk-06-dragon-bowl-research-card.md",
+      "role": "research_card",
+      "sha256": "d14ad82e794aa73988742070861146261c8dd5906f045dc95e8509fed9673e21"
+    },
+    {
+      "path": "research/m28-6/vienna/works/vienna-kk-06-dragon-bowl/work-context.json",
+      "role": "work_context",
+      "sha256": "cb8ab957b45da36bc6c1f331a04b921c544c2aaca8eec73bfe1d59244e982707"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

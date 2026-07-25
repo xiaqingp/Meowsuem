@@ -1,0 +1,271 @@
+{
+  "artifact": "author_review",
+  "createdAt": "2026-07-22T11:15:52.9867139-07:00",
+  "runId": "m28-v2.0.3-full-2026-07-22",
+  "workId": "hunters-in-the-snow",
+  "pipelineVersion": "2.0.3",
+  "instructionVersion": "1.6.7",
+  "publication": "test_only_no_production_write",
+  "directUpstreams": [
+    {
+      "path": "card.txt",
+      "sha256": "f42c973214a0bcde5fdb48de97eabbc65bceceaf36b2273d28bab7d813998ab6"
+    },
+    {
+      "path": "draft.md",
+      "sha256": "c9c992b31125ebd9517d37ecac60e8598a7a9bf70228bceb660f7cdefa9f5665"
+    }
+  ],
+  "reviewedAgainst": {
+    "writingPlan": {
+      "path": "writing-plan.json",
+      "sha256": "e514bcf05ffc666721b93af97c35ff6d1a7ebb64b57266d8df0536a3c7c55160"
+    },
+    "sharedTaskAcceptance": "research/pipeline-tests/v2.0.3-full/test-spec.md#3-shared-taskacceptance"
+  },
+  "mechanicalChecks": {
+    "cardVisibleCharacters": 44,
+    "cardRequiredRange": "24-100",
+    "cardIndependentFromQuickLayer": true,
+    "cardStartsWithTourCommand": false,
+    "quickLayerVisibleCharacters": 133,
+    "quickLayerNormalRange": "90-180",
+    "deepLayerApproxVisibleCharacters": 1135,
+    "deepLayerMinimumWarningLine": 320,
+    "onSiteDetailCount": 6,
+    "completeNegationTurnPatterns": 0,
+    "metadataComplete": true,
+    "clickableSourceCount": 4,
+    "upstreamHashesRecorded": true,
+    "notes": "字符数由 PowerShell 对对应区段去除常见 Markdown 标记后计算；深层字符数仅用于残缺警戒，不作为质量证明。"
+  },
+  "narrativeReview": [
+    {
+      "paragraph": 1,
+      "paragraphOpening": "猎人当然重要：三个人、狗群和几根黑色树干挤在左侧",
+      "function": "用归猎动作、单只狐狸与近景构图建立标题人物的实际作用，同时封住心理偷写。",
+      "dependsOn": "快层已经提出猎人只是进入更大冬景的路线。",
+      "newUnderstanding": "猎人不是被删除的题材；他们是把观众从近景送入画面的入口，有限收获只按画面证据陈述。",
+      "breaksIfMovedEarlier": "若没有快层的整体问题，本段会退化为对猎物和姿态的孤立描述。"
+    },
+    {
+      "paragraph": 2,
+      "paragraphOpening": "山坡随后把视野猛地打开",
+      "function": "沿斜坡把近景扩展到村庄和冰面，并区分空间并置与历史先后。",
+      "dependsOn": "上一段已把猎人确立为进入画面的近景入口。",
+      "newUnderstanding": "画面不是一支队伍的单线故事；不同距离的人物共同构成冬季生活，核心问题扩大到环境怎样统摄这些活动。",
+      "breaksIfMovedEarlier": "若先讲远处活动，读者尚不知道为什么要从标题人物离开，也无法形成尺度变化。"
+    },
+    {
+      "paragraph": 3,
+      "paragraphOpening": "答案藏在颜色和地形里",
+      "function": "用冷色延续、高视点、小火焰和人物尺度回答分散活动为何仍成整体。",
+      "dependsOn": "上一段已提出多种活动怎样被同一力量管住的问题。",
+      "newUnderstanding": "冬天不是背景标签，而是由颜色、地形和距离共同产生、能够组织所有人物的整体效果。",
+      "breaksIfMovedEarlier": "如果未先展示近远活动的分散，本段的统一作用就没有需要解决的对象。"
+    },
+    {
+      "paragraph": 4,
+      "paragraphOpening": "这层整体感也改变了旧的月份图传统",
+      "function": "在整体寒冷已被看见后，引入月份图、六季组画、委托和组合景观，解释形式变化的历史意义。",
+      "dependsOn": "上一段已用可见证据证明风景气氛可以统摄人物活动。",
+      "newUnderstanding": "勃鲁盖尔继承劳动与娱乐的月份组织方式，却让风景本身取得与人物同等甚至更重要的位置。",
+      "breaksIfMovedEarlier": "提前讲传统会成为百科背景；读者尚未在画面上看见传统为何发生变化。"
+    },
+    {
+      "paragraph": 5,
+      "paragraphOpening": "原组画六幅现存五幅",
+      "function": "用同组比较、维也纳馆藏与带归属的 KHM 判断，审计稀世价值并回收核心问题。",
+      "dependsOn": "上一段已建立本作把月份活动改造成整体冬景的艺术史变化。",
+      "newUnderstanding": "兄弟作品能替代部分季节组织方法，却不能替代本作作为冬季节点的持续寒冷成就；重要性来自具体差异，而非名气或物理唯一。",
+      "breaksIfMovedEarlier": "若读者尚不知道本作改变了什么，数量和馆方评价只会变成孤立的珍贵度栏目。"
+    }
+  ],
+  "coreQuestionRecovery": {
+    "question": "为什么画名叫《雪中猎人》，真正控制全画的却是冬天？",
+    "quickAnswer": "猎人提供观看路线，近景、冰面和冷色环境共同让冬天成为整体。",
+    "deepenedAnswer": "风景通过色调、地形和尺度统摄人物，并把月份图以活动指认时间的传统推进为由整个季节环境主导的观看方式。",
+    "finalLookRecovery": "沿猎人、斜坡、冰面、天空和远山复看三个距离，检验人的局部活动与冬景整体控制之间的关系。"
+  },
+  "assertionClosure": [
+    {
+      "sentence": "长矛上只挂着一只狐狸。",
+      "riskCategory": "数量与观察",
+      "evidenceType": "直接观察；资料包来源事实",
+      "sourceOrBasis": "v1.6.1 资料包的来源事实与直接观察候选",
+      "confidence": "高：物件与数量可在可靠图像中核对，资料包也明确记录。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "这些动作和物件足以说明一次归猎的收获有限，却不能替他们写出失望或沮丧。",
+      "riskCategory": "编辑推断与人物心理",
+      "evidenceType": "单只狐狸的直接观察加明确限定的编辑推断；心理被排除",
+      "sourceOrBasis": "研究卡高风险表；资料包明确说‘狩猎失败’不是已知账目",
+      "confidence": "中：‘有限’只描述画面提供的可见收获，不推及历史账目；心理没有被断言。",
+      "verdict": "retain_with_existing_scope"
+    },
+    {
+      "sentence": "近景队伍与远处人群没有组成一条按时间发生的故事。",
+      "riskCategory": "历史先后",
+      "evidenceType": "画面空间结构与证据边界",
+      "sourceOrBasis": "母指令禁止把观看顺序升级为历史先后；资料包未提供连续事件证据",
+      "confidence": "高：该句限制证据范围，没有另造时间顺序。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "灰绿、蓝灰、脏白和黑色从脚下斜坡延续到冰面、天空与远山。",
+      "riskCategory": "视觉观察",
+      "evidenceType": "直接观察",
+      "sourceOrBasis": "v1.6.1 资料包直接观察候选",
+      "confidence": "高：颜色与位置可由图像核对。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "KHM 所说的‘整体寒冷效果’因此可以在画面上核对。",
+      "riskCategory": "因果与馆方评价",
+      "evidenceType": "KHM 来源事实加颜色、尺度和空间的直接观察",
+      "sourceOrBasis": "KHM 作品页，经 v1.6.1 资料包锁定",
+      "confidence": "高：评价有明确归属，正文随后列出可核对依据。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "中世纪月份图像常用每月的劳动和娱乐安排一年。",
+      "riskCategory": "历史背景",
+      "evidenceType": "来源事实",
+      "sourceOrBasis": "v1.6.7 补充包的《雪中猎人》历史背景",
+      "confidence": "高：补充包将其规定为必须讲清的传统基线。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "在这套受商人 Nicolaes Jongelinck 委托的组画中，风景气氛和自然变化取得了和人物活动同等甚至更重要的位置。",
+      "riskCategory": "委托与艺术史变化",
+      "evidenceType": "来源事实与规范要求",
+      "sourceOrBasis": "v1.6.1 资料包的委托事实；v1.6.7 补充包的历史主线",
+      "confidence": "高：两项锁定输入分别支持委托者和风景角色变化。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "画中的山谷具有自然真实感，实际是组合创造的景观，远山还联系着画家翻越阿尔卑斯山的经验。",
+      "riskCategory": "真实地点与作者经验",
+      "evidenceType": "来源事实",
+      "sourceOrBasis": "v1.6.1 资料包的来源事实",
+      "confidence": "高：资料包明确给出组合景观与阿尔卑斯经验，同时排除可定位写生。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "原组画六幅现存五幅，维也纳收藏其中的早春、秋与冬。",
+      "riskCategory": "存世数量与馆藏位置",
+      "evidenceType": "来源事实",
+      "sourceOrBasis": "KHM 资料，经 v1.6.1 资料包锁定",
+      "confidence": "高：数量、分藏与维也纳三幅均明确记录。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "眼前这幅仍保留一个无法由它们替代的冬季节点：高视点、大幅冷色风景与近远人物一起制造持续寒冷。",
+      "riskCategory": "不可替代性",
+      "evidenceType": "同组比较加编辑评价",
+      "sourceOrBasis": "资料包最近比较组、不可替代性候选和直接观察",
+      "confidence": "中高：比较范围明确，兄弟作品的可替代价值已承认；决定性差异落在本作可核对的冬季形式成就。",
+      "verdict": "retain_for_independent_significance_review"
+    },
+    {
+      "sentence": "KHM 把这套组画称为欧洲风景画的开创性作品，也把《雪中猎人》称为欧洲绘画中第一幅、最突出的冬季风景画。",
+      "riskCategory": "首次、最高级与艺术史位置",
+      "evidenceType": "带归属的馆方判断",
+      "sourceOrBasis": "KHM 作品页与季节组画资料，经 v1.6.1 资料包锁定",
+      "confidence": "高于转述层：正文保留 KHM 归属和欧洲绘画范围，不扩张为无争议全球定论。",
+      "verdict": "retain_with_attribution"
+    },
+    {
+      "sentence": "这个馆方判断与同组比较共同说明了它的稀世价值。",
+      "riskCategory": "重要性标签",
+      "evidenceType": "五维评价与稀世珍品硬门的编辑结论",
+      "sourceOrBasis": "研究卡五维判断；同组现存作品比较；KHM 艺术史判断；KHM 同场收藏三幅的馆藏位置",
+      "confidence": "中高：比较类别、最近对象、可替代部分、决定性差异和未知边界齐全；最终标签仍交独立 reviewer。",
+      "verdict": "candidate_retain_pending_independent_review"
+    },
+    {
+      "sentence": "资料包于 2026-07-21 核验为在展，现场状态以馆方为准。",
+      "riskCategory": "易变状态",
+      "evidenceType": "带日期的来源事实",
+      "sourceOrBasis": "v1.6.1 资料包身份段",
+      "confidence": "高于核验日；之后可能变化，正文已明确边界。",
+      "verdict": "retain_with_date_boundary"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这幅画用猎人把人带进画面，再用山坡、冰面和一整套冷色把人的活动缩进冬天里，所以它既延续了月份图，又让风景真正成了主角。",
+    "segmentsReadAloud": [
+      "card.txt 正文",
+      "30 秒先懂",
+      "核心问题标题",
+      "五个深层段落的首句与转折",
+      "六条现场细节",
+      "最后再看一眼"
+    ],
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "notes": "标题可直接口头提出；正文中的‘整体寒冷效果’有 KHM 归属并立即落回颜色、尺度和距离，没有把规划字段当成发表语言。"
+  },
+  "candidateVoiceScores": {
+    "status": "author_candidate_only_not_a_pass_score",
+    "scores": [
+      {
+        "dimension": "入口",
+        "score": 2,
+        "evidence": "快层从左侧猎人、单只狐狸和斜坡进入，并提出猎人只是入口、冬天统摄全画的对象专属问题。"
+      },
+      {
+        "dimension": "因果",
+        "score": 2,
+        "evidence": "多距离活动提出‘为何仍成整体’，下一段用色调、地形和尺度回答，再由这一整体感引出月份图传统的变化。"
+      },
+      {
+        "dimension": "人",
+        "score": 2,
+        "evidence": "猎人、冰面活动者和委托者各自承担观看、季节生活与组画形成的具体作用，没有用制度名词替代人。"
+      },
+      {
+        "dimension": "转折",
+        "score": 2,
+        "evidence": "‘画名里的猎人只是冬季生活的一部分’把标题人物的中心性改写为近景入口，随后历史段证明这种变化为何重要。"
+      },
+      {
+        "dimension": "视觉兑现",
+        "score": 2,
+        "evidence": "每次判断都回到狐狸、斜坡、冰面小人、冷色、小火焰、枝头鸟或高视点。"
+      },
+      {
+        "dimension": "口语清晰度",
+        "score": 2,
+        "evidence": "核心问题、段落首句与最后动作可直接朗读复述，抽象判断均由人、动作、颜色和地形承接。"
+      },
+      {
+        "dimension": "第二眼",
+        "score": 2,
+        "evidence": "结尾要求沿猎人、斜坡、冰面到远山核对冷色是否贯穿三个距离，把对猎物的第一眼改成对环境统摄力的复看。"
+      }
+    ],
+    "candidateTotal": 14,
+    "thresholdEvaluation": "reserved_for_independent_reviewer"
+  },
+  "significanceAudit": {
+    "proposedLabel": "稀世珍品",
+    "artisticAchievement": "高视点、斜坡展开、近远尺度差与有限冷色把大量人物活动统一为持续寒冷。",
+    "artHistoricalPosition": "继承月份图传统并让风景气氛取得主角位置；KHM 把本作与组画置于欧洲风景画的开创性位置。",
+    "historicalCulturalValue": "保存十六世纪六季时间观、商人委托与季节组画的具体关系。",
+    "rarityAndIrreplaceability": "最近比较组为同组现存四幅；它们能替代部分季节组织价值，不能替代本作冬季节点及其整体寒冷的具体成就。",
+    "collectionPosition": "KHM 藏约四十幅存世勃鲁盖尔绘画中的十二幅，并可同场比较季节组画中的三幅。",
+    "decisiveDifference": "本作把归猎、冰面活动、高视点和持续冷色集中为组画的冬季高峰，并有 KHM 对其欧洲冬季风景画位置的明确判断。",
+    "unknownBoundaries": [
+      "‘第一幅、最突出’是 KHM 的欧洲绘画语境判断，不扩张为全球无争议定论。",
+      "现存五幅不全在维也纳；维也纳藏三幅。",
+      "物理唯一、巨幅和名家身份不单独构成升级理由。"
+    ],
+    "authorAssessment": "hard_gate_evidence_present_pending_independent_reviewer"
+  },
+  "authorDisposition": "ready_for_independent_review",
+  "finalVerdict": null,
+  "finalVerdictAuthority": "independent_reviewer_only"
+}

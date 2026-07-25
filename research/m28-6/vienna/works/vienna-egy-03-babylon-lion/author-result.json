@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-egy-03-babylon-lion-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:34:49.8239182-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-04/vienna-egy-03-babylon-lion-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "17b1cac774d587f48c5740ea46cd7cf7ce00d5a41beab762de84b87bb962ec25"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-egy-03-babylon-lion/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "86db92c874b8796a19a35e944affd0ec2712aecd4073701cdaaf01f8f725a728"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "8d9c76ba09f9e95b1772ab026665ddebad33c265e711da9cfdafc05495e4e03c",
+                        "bytes":  10130
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "303ba754cdf858e5af5a878bd4b3cdd6da1cd7f80096b7122dcf16bb5bd4e1f8",
+                        "bytes":  181
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "e8ab81ed7f78eddbc9cf3e69dd64a42c2e841f2795bb35259f6f241184c6e5d3",
+                        "bytes":  4059
+                    }
+                ]
+}

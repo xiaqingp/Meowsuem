@@ -1,0 +1,180 @@
+{
+  "workId": "spring-dance",
+  "reviewType": "fresh-independent-review",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "dfb0ae03c460ea03b400d6b117802f159d8fd3c3e0fd734f438a66193cf6de45"
+  },
+  "artifactHashes": {
+    "research-card.md": "0a5dcb681732e5919c167d1277215e9ab41fcf8bad82597246db090a772cb2bc",
+    "writing-plan.json": "0058a6bf8ebd09c04d2e4c63d8f3e4da7c1a995dc9979003c7906f25fb4bfb76",
+    "card.txt": "76c64f3606ec6eabef0abbf39c5f54535dcc1b9334b00de4e32c62bc22f097a5",
+    "draft.md": "dfb0ae03c460ea03b400d6b117802f159d8fd3c3e0fd734f438a66193cf6de45"
+  },
+  "upstreamChainVerification": {
+    "verdict": "PASS",
+    "complete": true,
+    "links": [
+      {
+        "downstream": "research-card.md",
+        "declaredUpstream": "../../batch-01/source-pack.md",
+        "declaredSha256": "1b14092fcb94d8fc908227917e92dabf0175f01cb5e1853b2d42d724ecd66e3e",
+        "actualSha256": "1b14092fcb94d8fc908227917e92dabf0175f01cb5e1853b2d42d724ecd66e3e",
+        "matches": true
+      },
+      {
+        "downstream": "writing-plan.json",
+        "declaredUpstream": "research-card.md",
+        "declaredSha256": "0a5dcb681732e5919c167d1277215e9ab41fcf8bad82597246db090a772cb2bc",
+        "actualSha256": "0a5dcb681732e5919c167d1277215e9ab41fcf8bad82597246db090a772cb2bc",
+        "matches": true
+      },
+      {
+        "downstream": "card.txt",
+        "declaredUpstream": "writing-plan.json",
+        "declaredSha256": "0058a6bf8ebd09c04d2e4c63d8f3e4da7c1a995dc9979003c7906f25fb4bfb76",
+        "actualSha256": "0058a6bf8ebd09c04d2e4c63d8f3e4da7c1a995dc9979003c7906f25fb4bfb76",
+        "matches": true
+      },
+      {
+        "downstream": "draft.md",
+        "declaredUpstream": "card.txt",
+        "declaredSha256": "76c64f3606ec6eabef0abbf39c5f54535dcc1b9334b00de4e32c62bc22f097a5",
+        "actualSha256": "76c64f3606ec6eabef0abbf39c5f54535dcc1b9334b00de4e32c62bc22f097a5",
+        "matches": true
+      }
+    ]
+  },
+  "mechanicalChecks": {
+    "metadataComplete": true,
+    "cardVisibleCharacters": 37,
+    "cardRange": "24-100",
+    "cardRangePassed": true,
+    "quickLayerVisibleCharacters": 112,
+    "quickLayerRange": "70-240",
+    "quickLayerRangePassed": true,
+    "deepLayerVisibleCharacters": 642,
+    "deepLayerMinimum": 320,
+    "deepLayerMinimumPassed": true,
+    "observableDetailCount": 4,
+    "observableDetailMinimumPassed": true,
+    "clickableSourceCount": 3,
+    "clickableSourcesPassed": true,
+    "completeNegativeTurnSkeletonCount": 0,
+    "negativeTurnSkeletonPassed": true,
+    "productionLanguageMatches": [],
+    "productionLanguageScanPassed": true
+  },
+  "mechanicalVerdict": {
+    "verdict": "PASS",
+    "evidence": "元数据、独立卡片、双层详情、四项现场细节、对象专属最后一眼、事实边界和三条可点击资料均齐全；卡片 37、快层 112、深层 642 个可见字符，均通过锁定机械边界。"
+  },
+  "factBoundaryVerdict": {
+    "verdict": "PASS",
+    "evidence": "逐句对照研究卡与资料包后，年代、晚期位置、媒材语境、馆内比较和所有视觉描述均在证据边界内。正文没有补写祭仪、神名、舞种、人物关系、人物心理、作者意图、真实时间顺序、在展保证或全球稀有性；事实边界也准确收窄这些未知项。",
+    "claimChecks": [
+      {
+        "claim": "约 1925 年，距斯图克去世约三年",
+        "basis": "Frye 元数据与生卒年",
+        "verdict": "supported"
+      },
+      {
+        "claim": "手臂弧线、身体朝向、深绿背景和狭窄草地形成运动感与浅舞台",
+        "basis": "研究卡列出的直接观察，加上明确可识别的编辑性形式分析",
+        "verdict": "supported-with-transparent-inference"
+      },
+      {
+        "claim": "与同馆《帕里斯的裁判》的异同及 Frye 馆内比较作用",
+        "basis": "资料包和写作计划的最近比较对象、共享核心与差异",
+        "verdict": "supported"
+      },
+      {
+        "claim": "不承担足以改变旅行路线的珍品分量",
+        "basis": "研究卡的特色看点结论、稀缺中低判断与 Frye 72 分边界",
+        "verdict": "supported"
+      }
+    ],
+    "unplannedHighRiskClaims": []
+  },
+  "narrativeVerdict": {
+    "verdict": "PASS",
+    "coreQuestion": "画面几乎没有纵深，斯图克怎样仍让这场环舞转起来？",
+    "evidence": "深层按手臂连接人物、身体朝向形成环内外、背景与草地压浅空间、晚期馆内比较解释价值、最后以同一路径复核机制的顺序推进。后段依赖前段已建立的弧线、朝向和浅舞台；提前移动会失去比较或复看的视觉前提。历史、风格与重要性没有成为可任意交换的栏目。",
+    "paragraphReorderingTest": "passed",
+    "quickDeepLastLookRoles": "快层给出完整暂时答案和观看路线；深层解释答案如何成立并加入比较；最后一眼用前景背影、手臂弧线和窄草地重新验证核心问题。"
+  },
+  "nativeChineseVerdict": {
+    "verdict": "PASS",
+    "oneBreathParaphrase": "这幅晚期群像没有宽阔景深，却靠相连手臂、交替朝向和深浅色块，让一圈静止人体看起来持续转动。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "evidence": "标题、快层及各段转折连续朗读自然，主语和因果完整，没有生硬名词化、抽象字段直译、百科腔或审核口吻。"
+  },
+  "significanceVerdict": {
+    "verdict": "PASS",
+    "label": "特色看点",
+    "fiveDimensions": {
+      "artisticAchievement": "手臂弧线、人体朝向交替、浅色身体与深绿树丛的对照，在浅空间中形成清楚而持续的动势。",
+      "artHistoricalPosition": "斯图克约 1925 年的晚期装饰性群像；正文没有把它夸成类型开创、关键转折或生涯巅峰。",
+      "historicalCulturalValue": "未确认具体祭仪、事件或原境，正文不以历史见证拔高作品。",
+      "rarityAndIrreplaceability": "现有证据不能证明同类数量、全球稀有度或不可替代性，正文明确否定行程级珍品分量。",
+      "collectionPosition": "作为 Frye 三件斯图克中‘运动与明亮’的一端，能与同馆另一晚期群像形成明确观看差异。"
+    },
+    "comparisonCategory": "斯图克晚期的古典化裸体群像与浅舞台构图",
+    "nearestComparator": "Franz von Stuck，《帕里斯的裁判》Judgment of Paris（同馆）",
+    "sharedCore": "晚期、古典化裸体、压缩空间与浅舞台。",
+    "decisiveDifference": "《春之舞》以相连人体的环形动作和明亮自然组织画面；比较作以静止裁决场景与岩壁组织关系。",
+    "nonSubstitutabilityBoundary": "最近比较对象可以替代对斯图克晚期浅舞台群像这一核心问题的部分理解，因此本作不通过稀世珍品不可替代性硬门；其不可互换回报仅限 Frye 馆内‘运动与明亮’的比较端点，足以支持特色看点，不足以支持重要藏品或行程级珍品。"
+  },
+  "workSpecificVerdict": {
+    "verdict": "PASS",
+    "evidence": "核心问题、前景背影、连续手臂弧线、深绿树丛、狭窄草地、同馆《帕里斯的裁判》比较及结尾复看动作都绑定《春之舞》，遮去作品名仍可辨认，无法原样移用于一般群像。",
+    "cardQuickDeepIndependence": "passed",
+    "cardEvidence": "卡片独立回答值得点开的原因，没有复用快层全文或以导览口令开场。",
+    "quickEvidence": "快层独立给出为何值得看、如何看和暂时答案，删去深层仍可执行。",
+    "deepEvidence": "深层从视觉机制完整展开到晚期馆内比较，删去快层仍可理解。"
+  },
+  "productionLanguageVerdict": {
+    "verdict": "PASS",
+    "evidence": "对卡片、快层、深层、最后一眼、事实边界和资料行的全量扫描未发现研究缺口、图片许可、发布待办、测试、prompt、生成器、reviewer、版本迁移或其他内部制作语言。"
+  },
+  "voiceScores": {
+    "entry": {
+      "score": 2,
+      "evidence": "‘几乎不给他们向远处移动的空间，环舞却没有停住’立即建立浅空间与持续运动的具体矛盾。"
+    },
+    "causality": {
+      "score": 2,
+      "evidence": "正文逐步说明相连手臂为何连接人物、朝向变化如何制造环内外、背景与草地怎样把动势压到轮廓上。"
+    },
+    "people": {
+      "score": 2,
+      "evidence": "在无可证人物身份或历史行动的题材中，正文让人物的相连动作和朝向承担解释，同时克制地不虚构心理、关系或祭仪。"
+    },
+    "turn": {
+      "score": 2,
+      "evidence": "从‘需要景深才会动’的现场张力，转到‘运动由轮廓、朝向和相连弧线生成’，并由可见细节及馆内比较兑现。"
+    },
+    "visualPayoff": {
+      "score": 2,
+      "evidence": "叙事持续回到前景背影、手臂弧线、深绿衬底和狭窄草地四项可核对细节。"
+    },
+    "spokenClarity": {
+      "score": 2,
+      "evidence": "句子口语自然、关系清楚，‘人物没有散落在风景里’等表达可直接朗读和复述，同时保留必要比较边界。"
+    },
+    "secondLook": {
+      "score": 2,
+      "evidence": "结尾要求从前景背影出发沿手臂绕圈，再核对窄草地，以具体动作重新确认运动来自浅舞台构图。"
+    },
+    "total": 14,
+    "threshold": "at least 12/14 with no zero",
+    "verdict": "PASS"
+  },
+  "hardGateFailures": [],
+  "actionableFailureReasons": [],
+  "finalVerdict": "PASS"
+}

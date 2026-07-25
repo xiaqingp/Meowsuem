@@ -1,0 +1,191 @@
+{
+  "artifact": "author-review",
+  "directUpstream": "draft.md",
+  "directUpstreamSHA256": "e3ebcfe488a696fd99398b9826317231b59286e925185807518e897712f79510",
+  "runId": "m28-hunters-retry-v2.0.4-2026-07-22",
+  "museumId": "khm",
+  "workId": "hunters-in-the-snow",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "reviewRole": "author_self_review",
+  "publication": "test_only_no_production_write",
+  "authorVerdict": "READY_FOR_INDEPENDENT_REVIEW",
+  "finalPassIssued": false,
+  "finalVerdictAuthority": "independent_reviewer_only",
+  "structureReview": {
+    "cardSummaryIndependent": true,
+    "quickLayerIndependent": true,
+    "deepLayerIndependent": true,
+    "quickLayerVisibleCharacterBand": "within_normal_band_by_manual_count",
+    "deepLayerAboveMinimumWarningLine": true,
+    "observableDetailCount": 5,
+    "singleCoreQuestion": "为什么近处有人带着有限猎物归来，远处人群仍在冰上活动，最后留住视线的却是整片冬天？",
+    "negationTurnSkeletonCountOutsideFactBoundary": 0
+  },
+  "narrativeReview": [
+    {
+      "paragraph": "快层用归猎、冰面人物和贯穿全画的冷色给出暂时答案与观看路线。",
+      "dependsOn": "读者从标题与画面已能辨认雪地猎人。",
+      "newUnderstanding": "猎人是进入画面的故事，季节环境才是统领全画的力量。",
+      "breaksIfMovedEarlier": "这是详情的阅读入口，不能移到身份元数据之前承担作品识别。"
+    },
+    {
+      "paragraph": "第一段从狐狸、狗群、黑树与斜坡说明猎人为何只是空间入口。",
+      "dependsOn": "快层已提出猎人醒目但冬景占主导的矛盾。",
+      "newUnderstanding": "近景的体量优势被斜坡打开的广阔空间削弱。",
+      "breaksIfMovedEarlier": "缺少快层的核心矛盾时，细节会退化为孤立的构图描述。"
+    },
+    {
+      "paragraph": "第二段加入冰面、村舍、燎猪与高视点，打破单线归猎叙事。",
+      "dependsOn": "上一段已建立斜坡把视线送出近景。",
+      "newUnderstanding": "画面容纳同一冬日里的多种生活，猎人不再垄断主题。",
+      "breaksIfMovedEarlier": "若尚未建立斜坡的空间作用，远处活动与近景归猎的关系会变成并列清单。"
+    },
+    {
+      "paragraph": "第三段用灰绿、蓝灰、脏白、黑色与小火解释分散活动为何仍统一。",
+      "dependsOn": "上一段已让读者看见人物活动很多且分散。",
+      "newUnderstanding": "统一冬色把多种生活收进同一种气候，环境由背景变为组织力量。",
+      "breaksIfMovedEarlier": "没有先建立活动的分散，冷色的统摄作用就缺少要解决的问题。"
+    },
+    {
+      "paragraph": "第四段在视觉机制成立后说明月份图传统、六季节律与组合景观。",
+      "dependsOn": "上一段已证明环境怎样在眼前统摄人物。",
+      "newUnderstanding": "这种视觉结果对应艺术传统的变化：人的季节活动仍在，风景足以定义季节。",
+      "breaksIfMovedEarlier": "提前会把历史背景写成百科资料，读者尚不知道它解释画上的哪种变化。"
+    },
+    {
+      "paragraph": "第五段以同组六季画为最近比较组，解释冬季节点的不可替代性与馆藏位置。",
+      "dependsOn": "上一段已建立本作作为六季组画冬季节点的历史作用。",
+      "newUnderstanding": "兄弟作品能说明季节组织，却不能提供这幅画持续寒冷的具体成就。",
+      "breaksIfMovedEarlier": "没有组画传统和冬季机制，比较只剩数量与馆藏名气。"
+    },
+    {
+      "paragraph": "细节列表把前述机制拆成五个可现场复核的动作。",
+      "dependsOn": "深层已解释狐狸、斜坡、色调、火焰和高视点为何重要。",
+      "newUnderstanding": "读者能用具体局部验证叙事，而不是接受抽象结论。",
+      "breaksIfMovedEarlier": "若先列细节，其重要性尚未建立，会退化为寻宝清单。"
+    },
+    {
+      "paragraph": "最后一眼沿狐狸、斜坡、冰面与全画色调回收核心问题。",
+      "dependsOn": "前文已从人物、空间、色调、传统和比较逐步建立冬景主导。",
+      "newUnderstanding": "第二眼仍保留猎人故事，却能把它重新放回整个冬季环境。",
+      "breaksIfMovedEarlier": "缺少深层形成的新认识时，这条路线只会重复快层。"
+    }
+  ],
+  "reorderReview": {
+    "testedMoves": [
+      "将冷色段移到冰面活动段之前",
+      "将月份图传统段移到视觉机制之前",
+      "将比较段移到组画历史之前"
+    ],
+    "result": "failed_as_expected",
+    "reason": "三种移动都会分别丢失‘分散活动为何需被统一’、‘历史变化解释画上什么’或‘比较类别为何成立’的前提。"
+  },
+  "assertionReview": [
+    {
+      "sentence": "长矛上只有一只狐狸，这让归猎的收获显得有限。",
+      "evidenceType": "direct_observation_plus_bounded_editorial_inference",
+      "sourceOrBasis": "画面可见一只狐狸；研究卡明确允许‘收获显得有限’。",
+      "confidence": "中：观察明确，收获程度为带边界的编辑推断。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "归来的队伍与这些活动同时摆在一个山谷中。",
+      "evidenceType": "direct_observation",
+      "sourceOrBasis": "画面空间关系；‘同时摆在画中’不声称真实事件先后。",
+      "confidence": "高：只描述同一画面中的并置。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "整片景观由观察与想象组合而成，并非某座尼德兰村庄的实景记录。",
+      "evidenceType": "source_fact",
+      "sourceOrBasis": "KHM 作品页及专题；研究卡列为高置信度。",
+      "confidence": "高：馆方明确支持组合、发明的景观及阿尔卑斯经验。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "KHM 因而把这组画称为欧洲风景画的开创性作品，并称本作为欧洲绘画中第一幅且最突出的冬季风景画。",
+      "evidenceType": "attributed_institutional_claim",
+      "sourceOrBasis": "KHM 作品页与季节专题，正文保留馆方归属与比较范围。",
+      "confidence": "高：可确认是馆方明确评价；不扩写为全部学界共识。",
+      "verdict": "retain_with_attribution"
+    },
+    {
+      "sentence": "这套组画原有六幅，现存五幅；维也纳收藏早春、秋与冬。",
+      "evidenceType": "source_fact",
+      "sourceOrBasis": "KHM 季节专题与研究卡。",
+      "confidence": "高：数量和去向由馆方资料明确支持。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "对一套原六幅、现存五幅的开创性季节组画来说，这项差异足以支持‘稀世珍品’的判断。",
+      "evidenceType": "auditable_editorial_significance_judgment",
+      "sourceOrBasis": "比较类别为同一六季组画；最近对象为另四幅现存兄弟作品；决定性差异为冬季节点与贯穿近远景的整体寒冷效果。",
+      "confidence": "中高：组画范围、馆方艺术史评价和形式差异均有依据；等级仍须独立审读。",
+      "verdict": "retain_pending_independent_review"
+    }
+  ],
+  "highRiskClosure": {
+    "psychologyOrEmotionAdded": false,
+    "historicalSequenceInferredFromViewingOrder": false,
+    "artistIntentClaimed": false,
+    "realVillageClaimed": false,
+    "unattributedSuperlativeUsed": false,
+    "physicalUniquenessUsedAsSignificance": false,
+    "unplannedHighRiskClaims": []
+  },
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "猎人和冰上人群把我们带进画里，斜坡与冷色却把所有小故事收进同一个冬天，这也说明勃鲁盖尔怎样让风景在季节画中取得主导。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed_by_author",
+    "notes": "标题均可口头复述，段落转折由上一段产生的问题推动；未把计划中的抽象速记直接搬入正文。"
+  },
+  "productionLanguageHardGate": {
+    "scope": [
+      "cardSummary",
+      "30秒先懂",
+      "多停几分钟",
+      "细节列表",
+      "最后再看一眼",
+      "事实边界",
+      "资料行"
+    ],
+    "researchGapLanguageFound": false,
+    "imageLicenseTodoLanguageFound": false,
+    "publicationStatusLanguageFound": false,
+    "testLanguageFound": false,
+    "promptLanguageFound": false,
+    "generatorLanguageFound": false,
+    "reviewerLanguageFound": false,
+    "versionMigrationLanguageFound": false,
+    "verdict": "passed_by_author"
+  },
+  "candidateVoiceScores": {
+    "入口": { "score": 2, "basis": "快层以一只狐狸、冰面人群与全画冬色建立对象专属矛盾。" },
+    "因果": { "score": 2, "basis": "斜坡打开空间，分散活动提出统一问题，冷色给出答案，月份图传统解释其历史意义。" },
+    "人": { "score": 1, "basis": "人物活动清楚可见，但正文按证据边界不补写心理或欲望。" },
+    "转折": { "score": 2, "basis": "答案从标题人物推进到同一冬日的多种生活，再推进到环境统摄与季节画传统变化。" },
+    "视觉兑现": { "score": 2, "basis": "狐狸、狗群、斜坡、冰面、火焰、鸟与四组色彩均可现场复核。" },
+    "口语清晰度": { "score": 2, "basis": "核心关系可用一句日常中文复述，历史段回到眼前人物与景观。" },
+    "第二眼": { "score": 2, "basis": "结尾用狐狸—斜坡—冰面—全画色调的专属动作重排猎人与冬景的关系。" },
+    "total": 13,
+    "status": "author_candidate_only_not_final"
+  },
+  "unresolvedRisks": [
+    {
+      "risk": "图片来源与许可信息未包含在封存输入中。",
+      "location": "internal_only",
+      "impact": "不影响本次文字自审，但阻塞任何正式图片使用与生产发布。"
+    },
+    {
+      "risk": "画廊 X 室在展状态仅核验至 2026-07-21，属于易变信息。",
+      "location": "internal_only",
+      "impact": "实际参观前仍应以馆方现场信息为准。"
+    },
+    {
+      "risk": "‘稀世珍品’及整体叙事质量尚未由独立 reviewer 裁定。",
+      "location": "internal_only",
+      "impact": "作者自审不能将作品状态推进到最终 PASS。"
+    }
+  ]
+}

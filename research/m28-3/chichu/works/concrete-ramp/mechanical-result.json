@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.4.2",
+  "runId": "m28-3-chichu-author-concrete-ramp-2026-07-23",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T03:08:48.962Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_workId_from_run_header",
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "c9f05dbae41c5ed429db0adf0c1d7abe2415cc5c17d82891559bab9d658f8b12",
+      "bytes": 7950
+    },
+    {
+      "path": "card.txt",
+      "sha256": "491de5c8b1ac2d623085e37a5b571d8a02622a0e95696a9513fb8998b0402aca",
+      "bytes": 259
+    },
+    {
+      "path": "draft.md",
+      "sha256": "91e2a02e9601650848867b0b10b5f1920d4a064e4e880a41d00b78aeb622527d",
+      "bytes": 3252
+    }
+  ]
+}

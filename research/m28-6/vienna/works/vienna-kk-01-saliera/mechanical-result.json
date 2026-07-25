@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-kk-01-saliera-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:42.043Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "200183ee2536e765c196f6dc097a3ec0cb13e2cbbc1ddb887a203c79255a6899",
+      "bytes": 11418
+    },
+    {
+      "path": "card.txt",
+      "sha256": "f8f891f2c37ab016bad0ff22a4587dbf17f86879778065032a5556ff24b7b091",
+      "bytes": 241
+    },
+    {
+      "path": "draft.md",
+      "sha256": "0c55b43611e8e63840cb4122f41266a6e9890ebb61f21465a3048d2a7f0e42e7",
+      "bytes": 3973
+    }
+  ]
+}

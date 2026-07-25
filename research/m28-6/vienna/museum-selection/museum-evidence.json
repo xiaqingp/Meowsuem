@@ -1,0 +1,651 @@
+{
+  "museumId": "vienna",
+  "museumIdentity": {
+    "zh": "维也纳艺术史博物馆",
+    "en": "Kunsthistorisches Museum Vienna",
+    "location": "Maria-Theresien-Platz, Vienna, Austria"
+  },
+  "selectionCapacity": 40,
+  "works": [
+    {
+      "workId": "vienna-pg-01-tower-of-babel",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "稀世珍品",
+      "rareGatePassed": true,
+      "nearestComparator": "鹿特丹 Boijmans Van Beuningen 博物馆藏勃鲁盖尔《巴别塔》",
+      "rareGateReason": "两作共享同作者、同题材与螺旋巨塔方案；维也纳版有明确的1563年署名纪年，画板面积近四倍，并以更密集的城市与施工过程成为最有影响力的经典版本。鹿特丹版能解释同题实验，却不能替代这一纪年、尺度和图像传播位置的组合；全部历史复制品数量仍不能确认。",
+      "independenceKey": "bruegel_collection",
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-01/vienna-pg-01-tower-of-babel-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-pg-02-hunters-in-the-snow",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "稀世珍品",
+      "rareGatePassed": true,
+      "nearestComparator": "勃鲁盖尔六季组画其余四幅存世作品",
+      "rareGateReason": "五幅存世季节画共享高视点、广阔风景和季节活动；本作以积雪、冰面、枯树、低产归猎与远近空间共同建立持续冬季，并获馆方在欧洲冬季风景传统中的最高级评价。其他季节画保存系列结构，却不能替代这幅作品对冬景画方法的关键推进；原六幅中一幅已佚，不能把本作泛称为唯一冬景。",
+      "independenceKey": "bruegel_collection",
+      "parentOrWholeWorkId": null,
+      "ratingRole": "collection_member",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-01/vienna-pg-02-hunters-in-the-snow-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-pg-03-childrens-games",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "重要藏品",
+      "rareGatePassed": false,
+      "nearestComparator": "泥金手稿月历边饰、校园游戏图与后来的儿童／愚行寓意图",
+      "rareGateReason": "统一城市空间中的大型游戏汇编具有突出的艺术与社会史价值，但“没有直接先例或平行”主要依赖馆方概括，尚无覆盖全球同题作品的比较，不能完成不可替代性硬门。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "collection_member",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-01/vienna-pg-03-childrens-games-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-pg-04-peasant-wedding",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "重要藏品",
+      "rareGatePassed": false,
+      "nearestComparator": "勃鲁盖尔《婚礼舞蹈》与《农民舞蹈》",
+      "rareGateReason": "本作把乡村婚宴、服务动作与身份差异组织成严密构图，是勃鲁盖尔社会题材的重要代表；同作者及后继者有多件可解释相近核心问题的作品，现有证据不足以证明全球不可替代。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "collection_member",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-01/vienna-pg-04-peasant-wedding-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-pg-05-carnival-and-lent",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "重要藏品",
+      "rareGatePassed": false,
+      "nearestComparator": "勃鲁盖尔《儿童游戏》与《尼德兰谚语》",
+      "rareGateReason": "以历法、饮食和宗教实践的对立组织密集民俗全景，具有明确艺术机制和社会史价值；但现有资料没有完成同类作品数量与决定性差异的全球比较。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "collection_member",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-01/vienna-pg-05-carnival-and-lent-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-pg-06-art-of-painting",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "稀世珍品",
+      "rareGatePassed": true,
+      "nearestComparator": "纽约大都会艺术博物馆藏维米尔《天主教信仰的寓意》",
+      "rareGateReason": "两作都把帘幕后室内转化为寓意场景；维也纳作品把作画过程、历史缪斯克利俄与分裂前十七省地图嵌入画室，使绘画自我指涉、历史和旧尼德兰记忆成为同一结构。比较作能替代寓意画类型，却不能替代这一组合及其在约三十六幅已知维米尔作品中的特殊位置；存世数仍以当前归属为边界。",
+      "independenceKey": "vermeer_art_of_painting",
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-01/vienna-pg-06-art-of-painting-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-pg-07-infanta-margarita-blue",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "重要藏品",
+      "rareGatePassed": false,
+      "nearestComparator": "KHM《身着白裙的玛格丽特公主》及普拉多《宫娥》中的公主形象",
+      "rareGateReason": "1659年为维也纳宫廷而作，并属委拉斯开兹最后完成的作品，兼具婚姻外交功能与晚期笔法；组内多件公主肖像能解释同一制度与画家方法，故不通过全球不可替代性硬门。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-01/vienna-pg-07-infanta-margarita-blue-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-pg-08-madonna-of-the-meadow",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "重要藏品",
+      "rareGatePassed": false,
+      "nearestComparator": "乌菲齐《金翅雀圣母》与卢浮宫《美丽的女园丁》",
+      "rareGateReason": "本作是拉斐尔佛罗伦萨时期把金字塔人物组织、亲密动作与宗教预示结合的重要作品；近例共享核心创新，现有决定性差异不足以证明不可替代。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-01/vienna-pg-08-madonna-of-the-meadow-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-pg-09-madonna-of-the-rosary",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "重要藏品",
+      "rareGatePassed": false,
+      "nearestComparator": "卡拉瓦乔《圣马太蒙召／殉道》组、《基督下葬》与《圣母之死》",
+      "rareGateReason": "巨幅祭坛画以念珠传递、捐赠人邀请和近距离人物组织玫瑰经团体，且有艺术家群体购置史；原始委托和年代仍有边界，同类祭坛画硬比较不足，不能仅凭名家与尺度升为稀世珍品。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-01/vienna-pg-09-madonna-of-the-rosary-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-pg-10-nymph-and-shepherd",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "重要藏品",
+      "rareGatePassed": false,
+      "nearestComparator": "提香晚期《马西亚斯受剥皮》及其他晚期神话／宗教画",
+      "rareGateReason": "人物与风景通过差异化开放笔触结合，是提香晚期方法的重要证据；同作者有多件晚期高峰，题材身份也未确定，现有资料不足以证明不可替代。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-01/vienna-pg-10-nymph-and-shepherd-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-pg-11-judith-veronese",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "重要藏品",
+      "rareGatePassed": false,
+      "nearestComparator": "委罗内塞约1580/83年《卢克蕾齐娅》及16—17世纪意大利朱迪斯题材",
+      "rareGateReason": "华服和明暗使暴力信息延迟显现，具体展示委罗内塞处理女性与暴力叙事的方法；缺少决定性一对一比较与同题数量边界，不通过稀世珍品硬门。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-02/vienna-pg-11-judith-veronese-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-pg-12-rubens-self-portrait",
+      "identityStable": true,
+      "availability": "display_status_unknown",
+      "imagePolicy": "object_image",
+      "significance": "重要藏品",
+      "rareGatePassed": false,
+      "nearestComparator": "卢浮宫藏鲁本斯约1635/1638年自画像准备素描",
+      "rareGateReason": "作品把晚年面貌与宫廷肖像属性并置，并有同一项目准备素描可比；存在若干变体，全部自画像数量与优劣比较不足，不能完成不可替代性硬门。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-02/vienna-pg-12-rubens-self-portrait-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-pg-13-cardinal-albergati",
+      "identityStable": true,
+      "availability": "display_status_unknown",
+      "imagePolicy": "object_image",
+      "significance": "重要藏品",
+      "rareGatePassed": false,
+      "nearestComparator": "德累斯顿铜版画陈列馆藏同一人物银尖准备素描",
+      "rareGateReason": "板画与带色彩注记的银尖写生稿形成直接制作关系，能具体解释凡·艾克油性媒介的精炼；人物身份仍须保留问号，亦无覆盖全集的唯一性证据。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-02/vienna-pg-13-cardinal-albergati-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-pg-14-madonna-with-the-pear",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "重要藏品",
+      "rareGatePassed": false,
+      "nearestComparator": "丢勒约1511—1512年的圣母图像及《圣母生平》版画",
+      "rareGateReason": "作品具体展示晚期哥特式人物类型与意大利式柔和塑形的交汇；现有资料未证明其为首次、转折或最高峰，也缺少决定性比较。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-02/vienna-pg-14-madonna-with-the-pear-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-pg-15-summer",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "重要藏品",
+      "rareGatePassed": false,
+      "nearestComparator": "同系列1563年《冬》、后来的《夏》版本及《四元素》系列",
+      "rareGateReason": "1563年《四季》奠定阿尔钦博托后世声誉，本作把季节物产、复合头像与宫廷秩序结合；版本关系和首套状态尚有研究边界，不能以新颖性直接推出全球孤本。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-02/vienna-pg-15-summer-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-pg-16-parmigianino-convex-self-portrait",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "重要藏品",
+      "rareGatePassed": false,
+      "nearestComparator": "文艺复兴镜像自画像传统及Andrea del Sarto镜像肖像问题",
+      "rareGateReason": "凸木板、凸面畸变与向教皇展示技艺的用途合一，是帕尔米贾尼诺早期和矫饰主义错觉实验的重要证据；现有材料未证明它是全球第一件或没有可替代近例。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-02/vienna-pg-16-parmigianino-convex-self-portrait-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-kk-01-saliera",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "稀世珍品",
+      "rareGatePassed": true,
+      "nearestComparator": "切利尼存世雕塑、钱币／奖章及文献所载但已佚失的金银器",
+      "rareGateReason": "比较范围为切利尼存世金匠作品，馆方明确称其为作者唯一存世金质作品。近例能说明造型能力，却不能替代一件完整保存黄金、珐琅、功能性容器、弗朗索瓦一世徽记和宇宙图像程序的王室桌上器；未来新归属及跨作者质量排名仍属未知。",
+      "independenceKey": "cellini_saliera",
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-02/vienna-kk-01-saliera-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-kk-02-krumau-madonna",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "重要藏品",
+      "rareGatePassed": false,
+      "nearestComparator": "托伦“美丽圣母”及弗罗茨瓦夫／布拉格相关中欧石雕组",
+      "rareGateReason": "本作为约1400年“美丽圣母”类型最著名实例之一，艺术成就明确；馆方未给出覆盖比较组的唯一特征或存世数，制作地亦须保留限定，故不通过硬门。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-02/vienna-kk-02-krumau-madonna-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-kk-03-automaton-ship",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "重要藏品",
+      "rareGatePassed": false,
+      "nearestComparator": "大英博物馆与法国Écouen所藏16世纪后期奥格斯堡机械帆船",
+      "rareGateReason": "宴席中心装饰、桌面行进、音乐、人物动作、鸣炮和帝国图像保存于同一装置，历史技术价值很高；同类机械船有多件存世，决定性差异和数量尚未完整覆盖。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-02/vienna-kk-03-automaton-ship-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-kk-04-cittern-player",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "重要藏品",
+      "rareGatePassed": false,
+      "nearestComparator": "Smithsonian约1560年机械修士与布达佩斯音乐自动机械",
+      "rareGateReason": "便携人形、织物服装、步行、转头和拨琴共同解释16世纪技术模仿生命的宫廷观念；作者、制作地和同类总数均不稳定，现有“三件”说法只是定义受限的发现线索。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-02/vienna-kk-04-cittern-player-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-kk-05-rudolf-ii-bust",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "重要藏品",
+      "rareGatePassed": false,
+      "nearestComparator": "莱奥尼的查理五世胸像及德·弗里斯1607年鲁道夫二世像",
+      "rareGateReason": "1603年签名纪年像与鲁道夫购藏的查理五世祖先像形成有意识的王朝配对，收藏与形象生产关系突出；现有资料不能证明其唯一或在皇帝青铜胸像中不可替代。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-03/vienna-kk-05-rudolf-ii-bust-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-kk-06-dragon-bowl",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "重要藏品",
+      "rareGatePassed": false,
+      "nearestComparator": "馆内米塞罗尼工坊珍石器组与普拉多龙形水晶杯",
+      "rareGateReason": "青金石贝壳形器壁、龙形金工与多种宝石共同体现珍石切磨和协作设计；同工坊器皿成组存在，不能以天然石纹独一推出对象级不可替代。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "collection_member",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-03/vienna-kk-06-dragon-bowl-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-kk-07-rock-crystal-pyramid",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "稀世珍品",
+      "rareGatePassed": true,
+      "nearestComparator": "大都会艺术博物馆藏约1680年米塞罗尼工坊烟水晶执壶及17世纪布拉格大型水晶器",
+      "rareGateReason": "近例共享切磨水晶与珐琅金属装配，却没有本作从同一大块原料连续切出四段的塔式工序。145.4厘米组合高度、不可逆取材、斐迪南三世铭文、馆方所称作者最高杰作及唯一签名纪年作品共同构成不可替代核心；全球同类总数仍未知，唯一性仅限作者签名纪年范围。",
+      "independenceKey": "miseroni_rock_crystal_pyramid",
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-03/vienna-kk-07-rock-crystal-pyramid-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-kk-08-bellerophon-pegasus",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "稀世珍品",
+      "rareGatePassed": true,
+      "nearestComparator": "贝尔托尔多《持盾者》及15世纪后期佛罗伦萨早期独立小型青铜",
+      "rareGateReason": "近例共享古典复兴与青铜实验；本作是古代以后首次再现柏勒洛丰驯服珀伽索斯题材、贝尔托尔多唯一署名小雕像，并以铭文同时记录模型作者和铸造者。比较作不能替代题材复兴、人马三维角力与作坊分工实证的组合；“唯一”不扩展为作者唯一存世雕塑。",
+      "independenceKey": "bertoldo_bellerophon",
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-03/vienna-kk-08-bellerophon-pegasus-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-ant-01-gemma-augustea",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "稀世珍品",
+      "rareGatePassed": true,
+      "nearestComparator": "法国国家图书馆 Grand Camée de France、KHM Gemma Claudia及Tazza Farnese",
+      "rareGateReason": "少数大型古代浮雕宝石共享宫廷媒介与王朝图像；本作处于奥古斯都晚期，直接并置奥古斯都、提比略、日耳曼尼库斯、胜利与俘虏，并以双层石色组织完整帝国继承程序。近例不能替代这一时代、人物和政治结构组合；雕刻师、委托人及下层战事仍有争议。",
+      "independenceKey": "gemma_augustea",
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-03/vienna-ant-01-gemma-augustea-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-ant-02-nagyszentmiklos-treasure",
+      "identityStable": true,
+      "availability": "collection_rotation",
+      "imagePolicy": "object_image",
+      "significance": "稀世珍品",
+      "rareGatePassed": true,
+      "nearestComparator": "晚期阿瓦尔墓葬及喀尔巴阡盆地迁徙时期至早期中世纪贵金属器群",
+      "rareGateReason": "比较组能解释单件器形和区域工艺，却不能替代同一发现中23件金器保存的成对器物、不同金纯度、文字、人物图像和多种器类联合证据。决定性价值在完整宝藏组的内部可比较系统；埋藏者、制作地、语言及是否同一工坊仍未知，本组只计一条珍品线。",
+      "independenceKey": "nagyszentmiklos_treasure",
+      "parentOrWholeWorkId": null,
+      "ratingRole": "whole_site",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-03/vienna-ant-02-nagyszentmiklos-treasure-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-ant-03-brygos-skyphos",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "重要藏品",
+      "rareGatePassed": false,
+      "nearestComparator": "布达佩斯同题阿提卡红绘skyphos及其他赎回赫克托耳瓶画",
+      "rareGateReason": "约12升尺度、接近《伊利亚特》第24卷的人物安排和少见的克制构图具有明确价值；同题早已有传统，全球存世总数及决定性差异不足以通过硬门。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-03/vienna-ant-03-brygos-skyphos-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-ant-04-bacchanalia-decree",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "稀世珍品",
+      "rareGatePassed": true,
+      "nearestComparator": "李维《罗马史》后世叙事及其他罗马共和国法律／公告铭文",
+      "rareGateReason": "馆方明确界定本板为该酒神祭决议唯一存世副本，也是现存最早的拉丁文元老院决议文本。后世叙事和其他法律铭文能解释背景，却不能替代公元前186年面向Ager Teuranus的同时代实物副本及其中的审批、公开宣读和地方执行程序；它不是元老院母本，也不证明李维全部指控。",
+      "independenceKey": "bacchanalia_decree",
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-03/vienna-ant-04-bacchanalia-decree-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-ant-05-amazon-sarcophagus",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "重要藏品",
+      "rareGatePassed": false,
+      "nearestComparator": "伊斯坦布尔“亚历山大石棺”等东地中海王室战争浮雕石棺",
+      "rareGateReason": "Soloi明确出土地、彭特利库斯大理石与四面亚马孙战斗连接塞浦路斯政治和泛希腊视觉语言；墓主、历史影射和同类数量未确认，不足以证明全球不可替代。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-03/vienna-ant-05-amazon-sarcophagus-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-ant-06-theseus-mosaic",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "特色看点",
+      "rareGatePassed": false,
+      "nearestComparator": "晚期罗马别墅中的忒修斯与迷宫叙事地面马赛克",
+      "rareGateReason": "明确的Loig别墅出土地、四场景组合与1891年嵌入KHM地面的展示史提供独特现场回报；同题马赛克有多处存世，原房间和观看方向未知，不通过硬门。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "supporting_node",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-03/vienna-ant-06-theseus-mosaic-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-egy-01-ka-ni-nisut-chapel",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "重要藏品",
+      "rareGatePassed": false,
+      "nearestComparator": "古王国马斯塔巴的地上祭祀室、假门及成套壁面浮雕",
+      "rareGateReason": "祭祀空间、假门、图像和有记录的维也纳吉萨发掘关系完整，能解释古王国来世供奉系统；同类完整祭祀室数量和最近第二件尚未建立，不能称唯一或最完整。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-04/vienna-egy-01-ka-ni-nisut-chapel-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-egy-02-reserve-head",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "重要藏品",
+      "rareGatePassed": false,
+      "nearestComparator": "胡夫时期其他吉萨墓葬储备头像",
+      "rareGateReason": "馆方称胡夫时期同类略多于30件，维也纳件有明确原位发掘记录；功能、损伤原因和人物身份不明，且不能证明它压倒同组近例，故不通过不可替代性硬门。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-04/vienna-egy-02-reserve-head-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-egy-03-babylon-lion",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "重要藏品",
+      "rareGatePassed": false,
+      "nearestComparator": "柏林所藏巴比伦伊什塔尔门与游行大道釉砖复原",
+      "rareGateReason": "维也纳墙段保留游行大道塔楼的伊什塔尔狮子、彩釉砖和建筑重复系统，历史与材料价值明确；全部狮子墙段数量、原砖比例和对柏林近例的决定性差异未建立。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "collection_member",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-04/vienna-egy-03-babylon-lion-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-egy-04-kai-pu-ptah-ipep",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "特色看点",
+      "rareGatePassed": false,
+      "nearestComparator": "古王国墓葬中男性迈步、女性并足并带底座铭文的双人石像",
+      "rareGateReason": "姓名可读而关系未知，且手持物解释有争议，能提供清楚的考古证据边界；馆方称其为典型双人像，未有数量或决定性差异支持更高等级。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "supporting_node",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-04/vienna-egy-04-kai-pu-ptah-ipep-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-egy-05-gem-nef-hor-bak",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "特色看点",
+      "rareGatePassed": false,
+      "nearestComparator": "埃及晚期王朝原置神庙的私人抱龛跪像",
+      "rareGateReason": "抱龛、奈特神像与约1560年的早期欧洲收藏史提供明确观看回报；可能出土地、最近比较对象和数量均不确定，早期购藏也不能单独证明对象级不可替代。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "supporting_node",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-04/vienna-egy-05-gem-nef-hor-bak-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-coin-01-sigismund-guldiner",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "重要藏品",
+      "rareGatePassed": false,
+      "nearestComparator": "柏林钱币馆藏1486年同型西吉斯蒙德古尔迪纳",
+      "rareGateReason": "1486年大型等值银币类型处在塔勒谱系早期，币制转折价值明确；柏林同型件共享核心价值，维也纳件版别稀有度与存世数未获支持，不能把类型史地位自动转为单枚不可替代性。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-04/vienna-coin-01-sigismund-guldiner-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-coin-02-charles-v-dedication-medal",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "重要藏品",
+      "rareGatePassed": false,
+      "nearestComparator": "苏格兰国家美术馆藏1521年同一献礼项目银章",
+      "rareGateReason": "对象保存纽伦堡市政献礼竞争、丢勒等人的协作设计和因瘟疫改址而失去原定用途的政治计划；同项目原制约100枚，维也纳件的版别和制作阶段差异未厘清。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-04/vienna-coin-02-charles-v-dedication-medal-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-space-01-museum-building",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "重要藏品",
+      "rareGatePassed": false,
+      "nearestComparator": "Maria-Theresien-Platz对面的维也纳自然史博物馆",
+      "rareGateReason": "相向双馆、整体艺术品方案与为哈布斯堡收藏专门建造的公共馆舍具有强烈现场和制度价值；世界博物馆建筑的对象级比较未完成，建筑体验也不帮助跨越珍品档位。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "whole_site",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-04/vienna-space-01-museum-building-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-space-02-grand-staircase-ensemble",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "体验补充",
+      "rareGatePassed": false,
+      "nearestComparator": "主馆入口厅—穹顶大厅中轴及同时期专门建造博物馆的仪式楼梯",
+      "rareGateReason": "建筑、卡诺瓦雕塑与跨代绘画协作共同把上楼路线变成收藏的视觉序言；它是主馆建筑的子空间，不能与父项重复计作珍品线，全球不可替代性比较也未完成。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": "vienna-space-01-museum-building",
+      "ratingRole": "supporting_node",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-04/vienna-space-02-grand-staircase-ensemble-research-card.md"
+      ]
+    },
+    {
+      "workId": "vienna-space-03-cupola-hall",
+      "identityStable": true,
+      "availability": "confirmed_on_view",
+      "imagePolicy": "object_image",
+      "significance": "体验补充",
+      "rareGatePassed": false,
+      "nearestComparator": "主馆入口厅、主楼梯及对面自然史博物馆穹顶",
+      "rareGateReason": "八角大厅、上下层贯通、统治者图像程序和内外穹顶近20米高差构成路线高点；作为主馆建筑子空间，其价值不与父项重复计数，也无全球比较支持稀世等级。",
+      "independenceKey": null,
+      "parentOrWholeWorkId": "vienna-space-01-museum-building",
+      "ratingRole": "supporting_node",
+      "sourcePointers": [
+        "research/m28-6/vienna/research-batch-04/vienna-space-03-cupola-hall-research-card.md"
+      ]
+    }
+  ]
+}

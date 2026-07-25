@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.4.2",
+  "runId": "m28-3-chichu-author-entrance-cut-2026-07-23",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T03:08:49.112Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_workId_from_run_header",
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "eec45a2854ab8c35b6d7395ee331ca2fd0e051372b163ce490ecc63431733e3d",
+      "bytes": 5910
+    },
+    {
+      "path": "card.txt",
+      "sha256": "f16a484f2045bb83b272b4d80d485040867a509f067efc7cbbfd92332f1d98f6",
+      "bytes": 265
+    },
+    {
+      "path": "draft.md",
+      "sha256": "4d007a1c0194ad4d73b15dbc25956dfe74cbf7122f0d8558ab7106e9e8c5b25b",
+      "bytes": 3213
+    }
+  ]
+}

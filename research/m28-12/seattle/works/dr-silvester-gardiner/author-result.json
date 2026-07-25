@@ -1,0 +1,66 @@
+{
+    "runId":  "m28-12-v2.7.2-seattle-author-dr-silvester-gardiner-2026-07-24",
+    "stage":  "author",
+    "museumId":  "seattle",
+    "workId":  "dr-silvester-gardiner",
+    "pipelineVersion":  "2.7.2",
+    "instructionVersion":  "2.1.1",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-07-24T23:16:48.4857206-07:00",
+    "modelStartedAt":  "2026-07-24T23:16:49.0821550-07:00",
+    "modelCompletedAt":  "2026-07-24T23:18:22.9446131-07:00",
+    "completedAt":  "2026-07-24T23:18:22.9724447-07:00",
+    "runnerDurationMs":  94487,
+    "modelDurationMs":  93862,
+    "tokenUsage":  {
+                       "total":  34766,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "6",
+                                    "8",
+                                    "9",
+                                    "10",
+                                    "12",
+                                    "13",
+                                    "14"
+                                ],
+    "logPath":  "research/m28-12/seattle/works/dr-silvester-gardiner/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "8c08c30f9d915a8942ed605287f7993a6514742c8f895b427876a6ffabb3fda2"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/research-batch-01/dr-silvester-gardiner-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "e48af14dbe545a473e064fc7675cd3abd85193b56b337d6a3fbf553432b72616"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/works/dr-silvester-gardiner/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "b11a826afc67c82d3fe99de723d6550593b7d629d433f5f469be5eff6fee297a"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "35c9d52a163d375349694bcf52f74a8c5f5f2954ea19759791280e1690134079",
+                        "bytes":  9394
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "fbe51bf28d1614fed07996e34c251dc8b1f1b79a552c8c8707819c7467408224",
+                        "bytes":  502
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "593dc9c313cbd9e8236379a99ab9ecd4fd680b2719f2949a6f7d61abb34d7550",
+                        "bytes":  4912
+                    }
+                ]
+}

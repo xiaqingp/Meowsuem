@@ -1,0 +1,188 @@
+{
+  "artifactType": "author_review",
+  "workId": "soap-bubbles",
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "finalPassIssued": false,
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "a57e4308fa3ea4d28b89d3533d634711dc4a35083a7072d9677d3d4f218695a8"
+  },
+  "paragraphDependency": [
+    {
+      "paragraph": "30 秒先懂",
+      "does": "提出泡泡为何比有实体的人与镜子更有视觉分量，并给出位置、圆形呼应与亮部链这一暂时答案。",
+      "dependsOn": "读者只需看见女子、圆镜与泡泡。",
+      "newUnderstanding": "泡泡是照镜动作的中间环节，而非孤立道具。",
+      "breaksIfMovedEarlier": "这是入口段，不能再提前。"
+    },
+    {
+      "paragraph": "为什么泡泡能截住整幅画的视线？",
+      "does": "拆解脸—泡泡—镜的位置关系、身体斜线和暗背景中的亮部组织。",
+      "dependsOn": "快层已建立‘透明物反而有分量’的矛盾。",
+      "newUnderstanding": "泡泡的分量来自构图，不来自物理体积。",
+      "breaksIfMovedEarlier": "若放在快层前，读者尚不知道为何要追踪这些形式关系。"
+    },
+    {
+      "paragraph": "一枚易碎的圆点，容得下多少意义？",
+      "does": "在构图答案成立后，引入泡泡与短暂/虚空的比较传统，同时收窄心理和严格 vanitas 判断。",
+      "dependsOn": "上一段已证明泡泡并非可有可无，意义讨论才有画面支点。",
+      "newUnderstanding": "易逝联想是开放的比较语境，不是人物心理或固定题解。",
+      "breaksIfMovedEarlier": "提前会让寓意压过画面机制，变成先贴标签。"
+    },
+    {
+      "paragraph": "学院训练为什么落在这样私密的一刻？",
+      "does": "用 Max 的训练与成熟期位置解释严密人物塑造为何集中于两个小圆形和日常室内动作。",
+      "dependsOn": "读者已理解构图机制及意义的开放边界。",
+      "newUnderstanding": "学院能力在本作中服务于私密、短暂的观看，而非宏大事件。",
+      "breaksIfMovedEarlier": "提前会成为与核心问题分离的作者履历。"
+    },
+    {
+      "paragraph": "它为什么在 Frye 值得停下来？",
+      "does": "汇总艺术成就、生涯位置、文化价值、稀有度边界和馆藏作用，并与 McGranaghan《自画像》比较。",
+      "dependsOn": "前文已经分别建立形式、意义边界与作者方法。",
+      "newUnderstanding": "作品是重要藏品，价值在馆内连接功能与对象专属结构，不靠全球稀有性成立。",
+      "breaksIfMovedEarlier": "若前移，五维结论会像孤立评级，最近比较也缺少共同观看问题。"
+    },
+    {
+      "paragraph": "再看这些容易错过的细节",
+      "does": "把前文判断逐项落回泡泡外缘、两个圆、亮部链、身体斜线和后景人物。",
+      "dependsOn": "读者已经知道为什么这些细节共同回答核心问题。",
+      "newUnderstanding": "抽象的‘构图重量’可在五处现场证据中复核。",
+      "breaksIfMovedEarlier": "提前会退化成无目的找细节清单。"
+    },
+    {
+      "paragraph": "最后再看一眼",
+      "does": "要求比较泡泡到脸与镜边的距离，并重走亮部链，回收核心问题。",
+      "dependsOn": "全篇已建立泡泡的位置、形状、光和意义边界。",
+      "newUnderstanding": "第二眼能亲自检验透明物如何控制整幅画。",
+      "breaksIfMovedEarlier": "读者尚未理解距离与亮部链为何重要，动作会变成通用导览口令。"
+    },
+    {
+      "paragraph": "事实边界与资料",
+      "does": "说明 vanitas、人物心理、人物关系和可见状态的证据限度，并给出访客可用资料。",
+      "dependsOn": "正文已用正面叙事建立作品价值。",
+      "newUnderstanding": "读者知道哪些联想可以保留，哪些结论不能锁死。",
+      "breaksIfMovedEarlier": "提前会让限制性说明接管作品入口。"
+    }
+  ],
+  "claimClosure": [
+    {
+      "sentence": "她的视线经过泡泡，落向手镜。",
+      "evidenceType": "direct_observation_and_museum_description",
+      "sourceOrBasis": "研究卡记录 Frye 展览手册对前景女子透过小泡泡凝视手镜的描述。",
+      "confidence": "高：馆方文字与图像观察一致。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "欧洲图像传统常把泡泡与生命短暂、虚空联系起来。",
+      "evidenceType": "comparative_context",
+      "sourceOrBasis": "研究卡明确允许作为比较语境，同时禁止严格 vanitas 定性。",
+      "confidence": "中：传统关联稳定，但本作的直接作者或目录证据不足。",
+      "verdict": "retain_with_boundary"
+    },
+    {
+      "sentence": "画面没有替女子写下明确的情绪。",
+      "evidenceType": "evidence_limit",
+      "sourceOrBasis": "姿态与视线不能支持自恋、悲伤或预知死亡；计划已列为禁止升级。",
+      "confidence": "高：这是对可观察证据边界的说明。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "作品作于 Max 的成熟期。",
+      "evidenceType": "sourced_career_context",
+      "sourceOrBasis": "1881 年作品与 British Museum 记载的 1879—1883 年慕尼黑学院教职相合；研究卡将其标为成熟期作品。",
+      "confidence": "高：日期与权威传记时间线直接相合。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "作品曾借展至 Lenbachhaus 的 Gabriel von Max 回顾展。",
+      "evidenceType": "sourced_exhibition_history",
+      "sourceOrBasis": "研究卡记录 Frye 2011 年报中的借展信息。",
+      "confidence": "高：馆方年报直接记载。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "它在 Frye 的价值是连接学院人物画与‘反射’主题的后世重读。",
+      "evidenceType": "editorial_inference",
+      "sourceOrBasis": "本作的学院人物画机制、Frye 展览中的反射主题及与 McGranaghan《自画像》的比较共同支持。",
+      "confidence": "中高：馆内比较有直接展览语境，结论限定于 Frye 馆藏作用。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "它不需要被抬高为改变旅行路线的孤品。",
+      "evidenceType": "calibrated_significance_judgment",
+      "sourceOrBasis": "研究卡五维为艺术史中、作者生涯中高、本馆叙事高、现场高、稀缺中；Frye 锁定 72 分边界。",
+      "confidence": "高：结论与五维证据及馆级边界一致。",
+      "verdict": "retain"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这幅画用一枚卡在脸和镜子之间的透明泡泡，把普通照镜变成一场关于观看和消失的短暂停顿；它的价值首先在构图，易逝寓意只能留作开放联想。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "notes": "标题都能口头复述；段落转折由泡泡的位置、意义边界、作者方法与馆内比较递进，没有抽象主语接管叙述。"
+  },
+  "productionLanguageScan": {
+    "visitorArtifactsScanned": ["card.txt", "draft.md"],
+    "researchGapLanguage": false,
+    "imageLicenseTaskLanguage": false,
+    "publicationTaskLanguage": false,
+    "testLanguage": false,
+    "promptLanguage": false,
+    "generatorLanguage": false,
+    "reviewerLanguage": false,
+    "migrationLanguage": false,
+    "verdict": "clean",
+    "note": "draft.md 的事实边界只向访客说明解释限度与易变的在展状态；文件头的上游注释属于不可见 artifact 元数据，不是访客正文。"
+  },
+  "significanceReview": {
+    "label": "重要藏品",
+    "fiveDimensionsClosed": {
+      "artisticAchievement": "已落到圆形呼应、斜线、暗背景和亮部链。",
+      "artHistoricalPosition": "限定为学院人物画接近日常与开放意义的例子，不称开创或巅峰。",
+      "historicalCulturalValue": "泡泡传统只作比较语境；不把作品当重大历史见证。",
+      "rarityAndIrreplaceability": "明确稀有度不是主要理由，未宣称全球数量或唯一性。",
+      "collectionPosition": "明确其连接 Frye 学院人物画与‘反射’主题重读的作用。"
+    },
+    "nearestComparator": "David McGranaghan, Self-Portrait",
+    "comparisonClosed": "已说明共同的圆形反射/自我观看，以及人物—手镜—泡泡与凸镜式画面之间的关键差异。",
+    "frye72BoundaryRespected": true,
+    "verdict": "ready_for_independent_judgment"
+  },
+  "observableDetailReview": {
+    "count": 5,
+    "allTraceableToResearchCardOrReliableImage": true,
+    "details": [
+      "泡泡外缘",
+      "泡泡与圆镜",
+      "脸—泡泡—镜—手的亮部链",
+      "前景身体斜线",
+      "后景较小人物"
+    ]
+  },
+  "secondLookReview": {
+    "workSpecific": true,
+    "addsNewAction": true,
+    "reclaimsCoreQuestion": true,
+    "verdict": "ready"
+  },
+  "candidateVoiceScores": {
+    "entry": 2,
+    "causality": 2,
+    "human": 1,
+    "turn": 2,
+    "visualPayoff": 2,
+    "spokenClarity": 2,
+    "secondLook": 2,
+    "total": 13,
+    "note": "作者候选评分仅供独立审读参考，不构成通过证据。"
+  },
+  "unresolvedRisks": [
+    "本作与 vanitas 的关系仍只能作为比较语境，不能升级为严格题材认定。",
+    "前景女子的心理及前后人物关系无法确定，正文已保持在动作与画面关系层面。",
+    "全球同类数量与唯一性未确认，因此重要性维持‘重要藏品’，不进入‘稀世珍品’。",
+    "在展状态易变，当前仅能提示访客以馆方当日信息为准。",
+    "卡片与详情中的作者地区写作‘德国’，独立审读应确认这一通行艺术史归属与馆方作者档案一致。"
+  ]
+}

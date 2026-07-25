@@ -1,0 +1,50 @@
+{
+  "museumId": "seattle",
+  "runRoot": "C:/Users/surreal/Documents/Museum/research/m28-12/seattle",
+  "reportCompletedAt": "2026-07-25T06:35:12.691Z",
+  "firstRunnerStartedAt": "2026-07-25T05:23:18.676Z",
+  "lastModelCompletedAt": "2026-07-25T06:20:53.260Z",
+  "totalWallSeconds": 4314,
+  "postGenerationSeconds": 859,
+  "modelRuns": 26,
+  "totalTokens": 1223634,
+  "stages": {
+    "museum_candidate_pool": {
+      "runs": 1,
+      "wallSeconds": 232,
+      "modelSecondsSum": 232,
+      "tokens": 118822
+    },
+    "museum_selection": {
+      "runs": 1,
+      "wallSeconds": 99,
+      "modelSecondsSum": 99,
+      "tokens": 91951
+    },
+    "museum_structure": {
+      "runs": 1,
+      "wallSeconds": 156,
+      "modelSecondsSum": 156,
+      "tokens": 86997
+    },
+    "research": {
+      "runs": 2,
+      "wallSeconds": 508,
+      "modelSecondsSum": 879,
+      "tokens": 339388
+    },
+    "museum_scope": {
+      "runs": 1,
+      "wallSeconds": 60,
+      "modelSecondsSum": 60,
+      "tokens": 31457
+    },
+    "author": {
+      "runs": 20,
+      "wallSeconds": 245,
+      "modelSecondsSum": 2170,
+      "tokens": 555019
+    }
+  },
+  "missingMetrics": []
+}

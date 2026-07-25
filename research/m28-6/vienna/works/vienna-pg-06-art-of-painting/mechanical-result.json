@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-pg-06-art-of-painting-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:43.310Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "033fe1f9328b525345045b281bbd81605207fc7b6a26282fd5f5d10f1968273f",
+      "bytes": 10700
+    },
+    {
+      "path": "card.txt",
+      "sha256": "de12e44f9dbb84b0c4000f2a707c959de0d3a6c3ec1a873f3ccad858d3810e79",
+      "bytes": 397
+    },
+    {
+      "path": "draft.md",
+      "sha256": "1a860dff6e6e7b6fba414695c2a0cd086d57c30ab4357180ba918c503252f08c",
+      "bytes": 4628
+    }
+  ]
+}

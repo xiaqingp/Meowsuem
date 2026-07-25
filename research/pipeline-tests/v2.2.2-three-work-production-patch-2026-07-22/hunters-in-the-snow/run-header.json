@@ -1,0 +1,39 @@
+{
+  "runId": "m28-2-v2.2.2-hunters-in-the-snow-author-2026-07-22",
+  "startedAt": "2026-07-22T22:01:00-07:00",
+  "stage": "author",
+  "researchMode": "fresh",
+  "museumId": "vienna",
+  "workId": "hunters-in-the-snow",
+  "workIdentity": {
+    "artist": "Pieter Bruegel the Elder",
+    "title": "Hunters in the Snow",
+    "museum": "Kunsthistorisches Museum Vienna"
+  },
+  "pipelineVersion": "2.2.2",
+  "instructionVersion": "1.8.1",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c22c60e3a215aa1ac90da402debeb2caf9da39975cb2921c4845ef74ef14c834"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "4d64aa73c15bea7961053cf4a1143eb83686797240f1e3f52635391e6a73699a"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "9de51ef66bf9bf48f8a2181acf4740e5e205b698d7a45da064e599f1def3e635"
+    },
+    {
+      "path": "research/pipeline-tests/v2.2.2-three-work-production-patch-2026-07-22/research/hunters-in-the-snow-research-card.md",
+      "sha256": "a71628728cdd3bbd5f28bc735e5533dcd2cea516e0eb63466318ac150929018f"
+    }
+  ],
+  "outputs": ["writing-plan.json", "card.txt", "draft.md"],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "owner_approved_work_level_content_patch"
+}

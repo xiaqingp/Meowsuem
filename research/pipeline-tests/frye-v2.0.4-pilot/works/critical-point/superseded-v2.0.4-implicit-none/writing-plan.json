@@ -1,0 +1,152 @@
+{
+  "workId": "critical-point",
+  "directUpstream": {
+    "filename": "research-card.md",
+    "sha256": "d137ea2fb53233df7e8a7f0726c06c229138aa7319e169e8878498346caf2d23"
+  },
+  "readerBaseline": "零背景读者从题名和画面只能确认：几名男子围着桌上的棋盘，目光和手势都聚到盘面；读者不知道棋种、局势、人物关系或胜负。",
+  "coreQuestion": "为什么一盘几乎没有动作的棋，能让整间屋子都紧张起来？",
+  "quickLayerPromise": {
+    "visibleTension": "画面里没有奔跑或碰撞，注意力却被压到棋盘上的一个停顿。",
+    "provisionalAnswer": "画家用众人的视线、手势和密集室内陈设，把尚未落下的一步变成群体事件。",
+    "viewingRoute": [
+      "下部中央的棋盘",
+      "围桌人物汇向盘面的视线",
+      "悬停或指向的手势",
+      "包围人物的室内物件"
+    ]
+  },
+  "cognitionSteps": [
+    {
+      "step": 1,
+      "discovery": "棋盘位于构图下部中央，人物的目光和手势都向它收拢。",
+      "changesUnderstanding": "紧张感不需要靠大动作，而由注意力的集中建立。",
+      "thereforeNext": "既然真正的主角是停顿，画家怎样让停顿持续可读？"
+    },
+    {
+      "step": 2,
+      "discovery": "每个人与棋盘的距离、朝向和手势不同，形成一圈彼此牵连的观看位置。",
+      "changesUnderstanding": "这不只是两名对弈者的局面，而是由旁观者共同放大的室内小戏剧。",
+      "thereforeNext": "这种把人物与物件组织成故事的方法，如何落在莫勒的创作上？"
+    },
+    {
+      "step": 3,
+      "discovery": "莫勒持续描绘室内人物与物件叙事；最近比较对象《雕塑家的工作室》也让陈设承担讲故事的任务。",
+      "changesUnderstanding": "拥挤的道具不只是背景，它们帮助界定人物的共同空间；本作则把全部线索压到棋盘的暂停点。",
+      "thereforeNext": "这种清楚易读的机制，为什么值得在 Frye 停留，又应把重要性放到什么边界？"
+    },
+    {
+      "step": 4,
+      "discovery": "作品是 Frye 创始收藏中现场可读性强的美国室内风俗画，但有同作者、同机制的可比作品。",
+      "changesUnderstanding": "它的价值在于清楚展示风俗画怎样用视线、动作和物件制造叙事，并不来自稀有或艺术史唯一性。",
+      "thereforeNext": "带着这一判断回看时，哪一处停顿最能检验整幅画的组织力？"
+    }
+  ],
+  "forbiddenAssumptions": [
+    "不假设棋种、具体局面、下一步棋或胜者",
+    "不假设人物姓名、关系、职业或谁是对弈者",
+    "不把姿态写成焦虑、得意、失望等确定心理",
+    "不把约1903写成确定年代，也不补写尺寸",
+    "不把当前在展写成到访当日必然可见",
+    "不把画家意图、事件先后或人物发言当作已知事实"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "人物都在等待决定胜负的一步",
+      "evidenceType": "直接观察只能支持视线与手势集中；胜负节点未核",
+      "allowedWording": "众人的注意力集中在棋盘上的停顿",
+      "forbiddenEscalation": "决定胜负、将死、关键一步或指定胜者"
+    },
+    {
+      "claim": "人物感到紧张",
+      "evidenceType": "编辑推断，依据构图注意力集中而非心理证据",
+      "allowedWording": "画面形成紧张感；室内气氛被压到棋盘上",
+      "forbiddenEscalation": "给任何人物指定焦虑、恐惧、得意或失望"
+    },
+    {
+      "claim": "画面记录真实事件的时间顺序",
+      "evidenceType": "无来源支持",
+      "allowedWording": "作品截取一个暂停动作",
+      "forbiddenEscalation": "断言此前走了哪步、随后发生什么"
+    },
+    {
+      "claim": "作者有意让棋盘成为主角",
+      "evidenceType": "由构图得出的编辑推断",
+      "allowedWording": "构图让棋盘成为注意力中心",
+      "forbiddenEscalation": "声称作者明确意图或留下相关自述"
+    },
+    {
+      "claim": "作品不可替代或极为稀有",
+      "evidenceType": "比较证据反而显示存在同作者室内叙事近例",
+      "allowedWording": "它是 Frye 创始收藏中清楚易读的美国风俗画样本",
+      "forbiddenEscalation": "稀世棋画、唯一、艺术史峰值或旅行级孤品"
+    }
+  ],
+  "historicalContextPlan": {
+    "applicable": false,
+    "reason": "本作的重要性不依赖一场必须展开的战争、政治、宗教或制度变迁；只需在深层简要说明十九世纪末室内风俗画以手势、陈设和社交场景构成可读叙事。",
+    "beforeState": null,
+    "changeOrConflict": null,
+    "objectRole": "成熟期室内风俗画，以群体注意力和物件组织小型社交叙事。",
+    "consequence": "帮助读者理解画面机制及其在 Frye 创始收藏中的角色。",
+    "uncertainty": "研究卡未提供足以支撑更具体社会史因果的首选来源。",
+    "placement": "快层不塞背景；深层第二段在比较同作者室内叙事时用一句交代。"
+  },
+  "authorStyle": {
+    "artist": "路易斯·莫勒 Louis Moeller · 美国",
+    "careerPosition": "1898—1908 年范围内的成熟期作品；不得缩窄为约1903。",
+    "workSpecificStyle": "用可读手势、人物朝向、密集室内陈设与中心物件组织小型社交戏剧。",
+    "typicalTurnOrException": "研究卡支持其为莫勒持续室内人物—物件叙事方法的一例；不宣称代表作或转折作。",
+    "comparison": "与《雕塑家的工作室》Sculptor’s Studio 相比，两作都由室内人物和物件推动叙事；比较作以工作室身份与收藏陈设为主题，本作把注意力集中于棋盘的暂停点。"
+  },
+  "significance": {
+    "label": "特色看点",
+    "fiveDimensions": {
+      "artisticAchievement": "构图以棋盘、视线和手势把静止时刻组织成清楚的群体叙事；现场可读性强。",
+      "artHistoricalPosition": "属于晚十九世纪美国室内风俗画的成熟做法，但没有证据证明开创类型或处在作者生涯高峰。",
+      "historicalCulturalValue": "保存了以室内社交和可读动作服务叙事的风俗画机制；不作为具体棋局或人物关系的历史记录。",
+      "rarityAndIrreplaceability": "稀缺性低；同作者《雕塑家的工作室》可解释相近的室内人物—物件机制，差异主要在棋盘暂停点与工作室陈设主题。",
+      "collectionPosition": "Founding Collection 中清楚易读的美国风俗画样本，能补足 Frye 创始收藏的叙事趣味。"
+    },
+    "nearestComparator": {
+      "work": "《雕塑家的工作室》Sculptor’s Studio",
+      "artist": "路易斯·莫勒 Louis Moeller",
+      "collection": "The Metropolitan Museum of Art",
+      "sharedCoreValue": "室内群体与物件共同引导叙事",
+      "decisiveDifference": "Frye 作品围绕棋盘的暂停点集中注意力；比较作突出工作室身份与收藏陈设。",
+      "boundary": "差异足以说明本作的观看回报，不足以证明全球不可替代性。"
+    },
+    "frye72Boundary": "不把本作写成决定行程的珍品；它的理由是现场机制清楚、能解释创始收藏中的美国风俗画，而非稀有度。"
+  },
+  "observableDetails": [
+    "棋盘位于画面下部中央",
+    "多名男子围绕桌面形成紧密群体",
+    "人物视线汇向盘面",
+    "手势朝棋盘悬停或指向",
+    "室内物件密集地包围人物"
+  ],
+  "secondLook": "最后把目光放在棋盘附近那只尚未完成动作的手上，再沿每个人的视线绕一圈，检验一个小小停顿怎样牵住整间屋子。",
+  "productionLanguageBoundary": {
+    "visitorProseAllowed": "只写作品身份、可见细节、可支持的艺术机制、比较边界、当前馆方列为在展但到访可有变动。",
+    "visitorProseForbidden": [
+      "研究缺口",
+      "图片许可任务",
+      "发布任务",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "迁移语言"
+    ],
+    "internalRisksDestination": "author-review.json"
+  },
+  "cardPlan": "独立回答为何值得点开：一盘静止的棋怎样靠全屋人的视线与手势变成戏剧；不复用快层句子，不以导览命令开头。",
+  "draftSectionPlan": [
+    "元数据与双语作者名",
+    "30 秒先懂：给出暂停点与观看抓手",
+    "多停几分钟：从注意力集中推进到群体叙事，再以同作者比较界定风格与价值",
+    "至少四个可观察细节",
+    "最后再看一眼：沿手势和视线复核停顿机制",
+    "事实边界与两条可点击资料"
+  ]
+}

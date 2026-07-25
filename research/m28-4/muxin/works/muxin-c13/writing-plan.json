@@ -1,0 +1,171 @@
+{
+  "workId": "muxin-c13",
+  "readerStartingPoint": "读者从题名与现有资料可以知道这是一件名为《废谷》的横向纸本作品；在没有高清图可独立核对的情况下，不能预设山谷形状、颜色层次、笔触方向或具体景物。",
+  "narrativeMainline": {
+    "valueType": "artist_landmark",
+    "mainline": "《废谷》是一枚有明确坐标的木心晚年绘画节点：2004年的纪年、15.7 × 42.9厘米的横向纸本，以及它在开馆展小型风景序列中的位置，使观众可以把晚年风景看成一项连续实践。它的意义需要在《晴风》《生与死》及同组小画之间，通过年代、比例和题名的比较来成立。"
+  },
+  "storyBeats": [
+    {
+      "beat": "先建立单件价值的准确边界",
+      "materials": [
+        "身份与状态",
+        "候选价值证据"
+      ],
+      "newUnderstanding": "这件作品的可靠价值是一个明确纪年的晚年节点，而不是已经得到证明的生涯高峰。"
+    },
+    {
+      "beat": "把尺寸转化为组内比较",
+      "materials": [
+        "比较与不可替代性",
+        "可直接确认与图像记录"
+      ],
+      "newUnderstanding": "《废谷》的横向比例介于《晴风》的极狭长带状比例与《生与死》较高的比例之间，单件因而成为观察晚年纸本变化的一枚坐标。"
+    },
+    {
+      "beat": "说明策展位置与材料边界",
+      "materials": [
+        "关键事实与局部因果",
+        "未决问题"
+      ],
+      "newUnderstanding": "2015年开馆展把它放进二楼小型风景序列，这一位置支持组内阅读；纸本彩墨是可确认的材料，评论所说的油画笔触或综合材料感不能升级为制作事实。"
+    }
+  ],
+  "mustNotAssume": [
+    "《废谷》是木心成熟期高峰、生涯代表作或晚年风景的转折点。",
+    "题名中的山谷对应画面中任何未经高清图核对的具体轮廓、颜色、前后景或笔触。",
+    "大众评论所说的油画笔触或综合材料观感等于作品使用了油彩或综合材料。",
+    "作品含有转印过程。",
+    "作品目前仍在展，或已确认属于木心美术馆永久馆藏。",
+    "《废谷》比《晴风》《生与死》或晚年微型风景组更重要、更成熟或不可替代。"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "《废谷》属于木心晚年绘画序列",
+      "evidenceType": "来源事实与编辑整理",
+      "allowedWording": "2004年的明确纪年使它可以作为木心晚年风景序列中的一个节点。",
+      "forbiddenUpgrade": "成熟期高峰、生涯代表作、决定性转折。"
+    },
+    {
+      "claim": "《废谷》的比例处在两个近邻作品之间",
+      "evidenceType": "来源事实与尺寸计算",
+      "allowedWording": "按已公布尺寸，它比《晴风》的带状比例更高，又比《生与死》更狭长。",
+      "forbiddenUpgrade": "由比例进一步推断空间深度、观看速度、情绪或作者意图。"
+    },
+    {
+      "claim": "作品具有油画或综合材料特征",
+      "evidenceType": "大众评论",
+      "allowedWording": "有评论用油画笔触或综合材料观感来形容它。",
+      "forbiddenUpgrade": "把评论判断写成油画、综合材料或材质检测结论。"
+    },
+    {
+      "claim": "作品当前可见或为馆藏",
+      "evidenceType": "展陈史来源",
+      "allowedWording": "它曾在2015年开馆展二楼风景画展厅出现，当前展出状态待核验。",
+      "forbiddenUpgrade": "当前在展、永久陈列或已确认馆藏。"
+    },
+    {
+      "claim": "作品具有不可替代性",
+      "evidenceType": "比较证据",
+      "allowedWording": "它适合作为晚年小型风景组内的独立比较节点。",
+      "forbiddenUpgrade": "稀世珍品、唯一、不可替代或看过同组作品仍无法获得其核心价值。"
+    }
+  ],
+  "displayMetadata": {
+    "by": "木心 Mu Xin · 中国",
+    "date": "2004年",
+    "material": "纸本彩墨",
+    "place": "木心美术馆；2015年开馆展曾展出，当前展出状态待核验",
+    "priority": "强烈推荐",
+    "significance": "重要藏品",
+    "stay": "若在展，约2—3分钟",
+    "availability": "previously_exhibited_current_unknown",
+    "imagePolicy": "object_image"
+  },
+  "claimLedger": [
+    {
+      "id": "C01",
+      "claim": "作品题名为《废谷》，年代为2004年，材质为纸本彩墨，尺寸为15.7 × 42.9厘米。",
+      "evidenceType": "来源事实",
+      "researchPointer": "身份与状态；关键事实与局部因果1",
+      "usedIn": [
+        "card",
+        "draft"
+      ]
+    },
+    {
+      "id": "C02",
+      "claim": "作品是横向长幅，宽高比约2.7:1。",
+      "evidenceType": "已登记观察与尺寸计算",
+      "researchPointer": "可直接确认与图像记录",
+      "usedIn": [
+        "draft"
+      ]
+    },
+    {
+      "id": "C03",
+      "claim": "作品曾在2015年开馆展二楼小型风景画展厅展出。",
+      "evidenceType": "来源事实",
+      "researchPointer": "身份与状态；关键事实与局部因果2",
+      "usedIn": [
+        "draft"
+      ]
+    },
+    {
+      "id": "C04",
+      "claim": "开馆策展把二楼用于小型风景画，并参考木心生前对作品的分类和展示方式。",
+      "evidenceType": "来源事实",
+      "researchPointer": "候选价值证据",
+      "usedIn": [
+        "draft"
+      ]
+    },
+    {
+      "id": "C05",
+      "claim": "《晴风》为1999年、9.5 × 54厘米，《生与死》为2001年、17.4 × 37.9厘米；三者共享晚期、小尺幅、纸本及横向景观这一比较范围。",
+      "evidenceType": "来源事实与比较整理",
+      "researchPointer": "比较与不可替代性",
+      "usedIn": [
+        "card",
+        "draft"
+      ]
+    },
+    {
+      "id": "C06",
+      "claim": "按尺寸比例，《废谷》比《晴风》更高，又比《生与死》更狭长。",
+      "evidenceType": "编辑整理",
+      "researchPointer": "比较与不可替代性：可确认差异",
+      "usedIn": [
+        "card",
+        "draft"
+      ]
+    },
+    {
+      "id": "C07",
+      "claim": "现有比较没有证明《废谷》具有同组作品无法替代的核心价值。",
+      "evidenceType": "比较结论",
+      "researchPointer": "比较与不可替代性：结论",
+      "usedIn": [
+        "draft"
+      ]
+    },
+    {
+      "id": "C08",
+      "claim": "油画笔触和综合材料观感只是大众评论判断，不能改变纸本彩墨的材料记录。",
+      "evidenceType": "来源边界",
+      "researchPointer": "可直接确认与图像记录；关键事实与局部因果3",
+      "usedIn": [
+        "draft"
+      ]
+    },
+    {
+      "id": "C09",
+      "claim": "公开资料未确认收藏机构、编号、正式英译、当前轮换状态及是否含转印过程。",
+      "evidenceType": "未知边界",
+      "researchPointer": "未决问题",
+      "usedIn": [
+        "draft"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "workId": "sun-maiden",
+  "directUpstream": {
+    "filename": "research-card.md",
+    "sha256": "61e3a145e8b884dc827308c9db99a2e893d51f03e5f796167f35e875c9f7ffdc"
+  },
+  "readerBaseline": "零背景读者只从题名和画面知道：一名裸体女性站在林地中，身体一侧很亮；读者未必知道莉莲·根特，也不知道女性画家进入人体训练与职业展览曾受限制。",
+  "workSpecificQuestion": "为什么《太阳少女》中最抢眼的不是人物的表情，而是身体边缘那圈强光？",
+  "quickLayerPromise": {
+    "visibleTension": "人物背向或侧向观者，面容并不主导画面，身体边缘的亮光却把她从绿褐色植被中托出。",
+    "provisionalAnswer": "根特让明暗交界承担了画面的表现力：亮边既勾出人体，也把林地的户外光感带进传统裸体题材。",
+    "viewingRoute": [
+      "身体外缘的强亮区域",
+      "人物背向或侧向观者的姿态",
+      "绿褐植被与皮肤亮区的对比",
+      "身体内部由亮转暗的变化"
+    ]
+  },
+  "cognitionSteps": [
+    {
+      "step": 1,
+      "discovery": "面容退居次位，身体轮廓与强光先建立观看焦点。",
+      "changesUnderstanding": "读者从寻找人物表情转向观察光怎样塑造人体。",
+      "thereforeNext": "这圈亮光怎样同时交代身体与户外环境？"
+    },
+    {
+      "step": 2,
+      "discovery": "绿褐植被压低环境色调，皮肤亮区因对比而显得更强，阴影又让身体保有体积。",
+      "changesUnderstanding": "光不再只是轮廓装饰，而成为连接人体和林地的绘画机制。",
+      "thereforeNext": "一位约1909年前后工作的女性画家为何值得用这一机制重看传统裸体？"
+    },
+    {
+      "step": 3,
+      "discovery": "根特工作于女性接受人体训练和进入职业展览仍受限制的时代，而她在以户外女性裸体建立声誉的阶段持续处理这一题材。",
+      "changesUnderstanding": "画面获得了生产条件的背景，但不能因此被写成明确的女权宣言。",
+      "thereforeNext": "与同馆另一幅林地裸体相比，本作提供了什么不同的观看价值？"
+    },
+    {
+      "step": 4,
+      "discovery": "最近比较对象是威廉-阿道夫·布格罗的《林中》Dans les bois；两者都画理想化林地裸体，根特的画更依赖户外色光和亮暗交界。",
+      "changesUnderstanding": "本作的重要性落在具体的光色处理和馆内可形成的作者准入对照，而不落在无法证明的全国唯一性。",
+      "thereforeNext": "带着这层比较，最后一眼应回到哪处可见证据？"
+    },
+    {
+      "step": 5,
+      "discovery": "沿人物外缘追踪亮光，在肩背附近停下，再看亮处如何与阴影、植被相接。",
+      "changesUnderstanding": "读者把最初的醒目亮边重新理解为整幅画组织人体、环境和观看距离的枢纽。",
+      "thereforeNext": "核心问题在同一处视觉证据上闭合。"
+    }
+  ],
+  "humorBasis": null,
+  "forbiddenAssumptions": [
+    "模特的身份、情绪或心理状态",
+    "太阳或其他具体光源的方向",
+    "画面记录了一个可还原的真实时刻",
+    "根特是首位或唯一从事此类裸体画的女性",
+    "作品具有明确的女权意图或旨在反抗男性凝视",
+    "约1909是没有口径差异的精确创作年",
+    "作品是根特得到权威确认的代表作",
+    "作品具有全国范围的唯一性"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "人物因背向观者而显得羞怯、自由或沉思。",
+      "evidenceType": "人物心理；画面只支持姿态观察。",
+      "allowedWording": "人物背向或侧向观者，面容没有成为主要信息。",
+      "forbiddenUpgrade": "不得给姿态指定情绪、性格或心理动机。"
+    },
+    {
+      "claim": "阳光从确定方向照来，记录了某个真实时刻。",
+      "evidenceType": "历史重建与真实时间顺序；仅有可见明暗。",
+      "allowedWording": "身体边缘受强光，亮区与阴影形成对比。",
+      "forbiddenUpgrade": "不得确定光源方向、时刻或作画现场。"
+    },
+    {
+      "claim": "画面宣称女性挣脱男性凝视。",
+      "evidenceType": "图像宣称与作者意图；来源未证明。",
+      "allowedWording": "根特所处时代限制女性接受人体训练和参与职业展览；这一背景改变了本作的观看语境。",
+      "forbiddenUpgrade": "不得把社会背景升级成作品的明确政治宣言或作者自述。"
+    },
+    {
+      "claim": "本作是美国女性户外裸体画中唯一或最重要的作品。",
+      "evidenceType": "不可替代性与最高级；没有覆盖全国的比较证据。",
+      "allowedWording": "在 Frye 馆内，它能与《林中》并置，讨论不同作者进入裸体传统的条件和光色方法。",
+      "forbiddenUpgrade": "不得写全国唯一、首件、最高成就或稀世珍品。"
+    },
+    {
+      "claim": "作品完成于精确的1909年。",
+      "evidenceType": "来源事实存在馆方口径差异。",
+      "allowedWording": "约1909；馆方集合页另列1904—1914。",
+      "forbiddenUpgrade": "不得消除两个馆方日期口径之间的差异。"
+    }
+  ],
+  "historicalContextPlan": {
+    "applicable": true,
+    "beforeState": "学院裸体传统长期依赖人体训练和职业展览体系，而女性进入这些环节的机会受到限制。",
+    "changeOrConflict": "根特在这种限制仍存在的时代成为职业画家，并在约33岁的阶段以户外女性裸体建立声誉。",
+    "objectRole": "本作是她处理这一题材的馆藏实例，可让观看者比较传统题材由不同作者生产时的条件与方法；它不被当作社会运动文献。",
+    "consequence": "这层制度背景让同馆林地裸体之间的比较超出题材相似，转向谁能画、怎样以光色处理人体。",
+    "uncertainty": "现有来源未证明本作的明确女权意图，也未确认它是根特的单件代表作。",
+    "placement": "快层只用一句点出根特是女性职业画家；深层第三段解释训练与展览准入，并立即回到亮边、姿态和同馆比较。"
+  },
+  "authorStyle": {
+    "applicable": true,
+    "artist": "莉莲·根特 Lillian Genth · 美国",
+    "careerPosition": "约33岁、以户外女性裸体建立声誉的阶段；现有证据不足以称单件代表作。",
+    "visibleMethod": "以户外色光、身体外缘的强亮区域、皮肤亮暗转换和绿褐环境色的对照来塑造人体。",
+    "typicalTurnOrException": "可写成她这一阶段题材与方法的可见实例；不得把它定为转折点或唯一范例。"
+  },
+  "significance": {
+    "label": "重要藏品",
+    "fiveDimensions": {
+      "artisticAchievement": "强光、阴影与绿褐环境色共同塑造清楚的人体体积和户外光感，形式回报具体。",
+      "artHistoricalPosition": "属于根特约33岁、以户外女性裸体建立声誉的阶段，但未获证为单件代表作或艺术史转折点。",
+      "historicalCulturalValue": "女性参与人体训练与职业展览受限的制度背景，使女性画家处理裸体题材具有明确的历史语境；作品本身不被写成女权宣言。",
+      "rarityAndIrreplaceability": "未确认全国数量或唯一性；其不可替代性限于 Frye 馆内与《林中》形成的作者准入及光色方法对照。",
+      "collectionPosition": "Founding Collection 作品，且 Frye 将根特列为该收藏的重要艺术家之一，馆藏叙事位置强。"
+    },
+    "nearestComparator": {
+      "work": "《林中》Dans les bois",
+      "artist": "威廉-阿道夫·布格罗 William-Adolphe Bouguereau",
+      "location": "Frye Art Museum",
+      "sharedCore": "林地中的理想化女性裸体。",
+      "decisiveDifference": "根特的画更依赖户外色光与身体边缘的强亮对比；女性作者的职业准入背景也改变馆内并置的解释范围。",
+      "boundary": "比较能证明馆内并置价值，不能证明全国唯一或全球不可替代。"
+    },
+    "frye72Boundary": "只称重要藏品与创始收藏中的强比较对象；不使用稀世、必看孤品、决定行程、世界级或不可错过等越级措辞。"
+  },
+  "observableDetails": [
+    "女性裸体站在户外林地中",
+    "人物背向或侧向观者，面容不是构图中心",
+    "身体外缘出现强亮区域",
+    "皮肤上的亮区与阴影形成明显转换",
+    "周围植被以绿褐色为主",
+    "明亮皮肤与较暗环境形成强对比"
+  ],
+  "secondLook": "从人物肩背附近沿身体外缘缓慢追踪亮光，留意亮边在何处被阴影和绿褐植被截断；用这条交界重新判断画中真正组织视线的是面容，还是光。",
+  "productionLanguageBoundary": {
+    "visitorFacingForbidden": [
+      "研究缺口",
+      "图片许可任务",
+      "发布任务",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "版本迁移"
+    ],
+    "visitorFacingAllowedBoundary": "事实边界只说明约1909与1904—1914两种馆方日期口径、当日可见状态可能变化，以及作者意图和全国唯一性没有被主张。内部风险只进入author-review.json。"
+  },
+  "plannedMetadata": {
+    "title": "《太阳少女》 / Sun Maiden",
+    "artist": "莉莲·根特 Lillian Genth · 美国",
+    "date": "约1909（馆方集合页另列1904—1914）",
+    "locationStatus": "Frye Art Museum；稳定馆藏，核验时在展，到访当日以馆方为准",
+    "visitPriority": "强烈推荐",
+    "visitPriorityReason": "光色机制现场清楚，且能与同馆《林中》形成有内容的比较。",
+    "importance": "重要藏品",
+    "importanceReason": "创始收藏中的强馆内节点，艺术方法和制度语境明确，但没有全国唯一性证据。",
+    "suggestedStay": "赶时间30秒；细看4—6分钟"
+  }
+}

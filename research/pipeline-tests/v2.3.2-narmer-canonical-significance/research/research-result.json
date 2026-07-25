@@ -1,0 +1,26 @@
+{
+    "runId":  "m28-2-v2.3.2-narmer-fresh-research-2026-07-22",
+    "stage":  "research",
+    "pipelineVersion":  "2.3.2",
+    "instructionVersion":  "1.9.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-22T23:58:34.1963046-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/generation-pipeline.md",
+                       "sha256":  "5ebfbfd86fe4f1e8e0364e025b13039cf6f259ff71b24c8db3eb74de509eba64"
+                   },
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "sha256":  "0cfc2455438d0137ced8f07911d771d4bfaed1cc458546a97ede271e363fd11b"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "narmer-palette-research-card.md",
+                        "sha256":  "c17f828c02dd8b39aa1450b311a23e5da41ba2c662ad79d423356d33be7c23a3",
+                        "bytes":  8551
+                    }
+                ]
+}

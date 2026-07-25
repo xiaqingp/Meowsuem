@@ -1,0 +1,172 @@
+{
+  "workId": "condemned",
+  "reviewType": "fresh-independent-review",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "ddcd70203c1b826d104ec418832ab8e2000b77a2af8334905513d66845d467db"
+  },
+  "artifactHashes": {
+    "research-card.md": "2d59b7ab3e1f61f1e41d518a655e7bf1c28329843ea86ccf42439515eef9303f",
+    "writing-plan.json": "70c133f5df0b3ff2fcad55ec4f6cc125a464b692e15c76192cd638b260e80738",
+    "card.txt": "a3be8e69e9dc6597efdd5773a5aa1e8a92ec0981da399a4de5e22f909b16e95b",
+    "draft.md": "ddcd70203c1b826d104ec418832ab8e2000b77a2af8334905513d66845d467db"
+  },
+  "directUpstreamChain": {
+    "verdict": "PASS",
+    "complete": true,
+    "links": [
+      {
+        "artifact": "research-card.md",
+        "declaredDirectUpstream": "../../batch-01/source-pack.md",
+        "declaredSha256": "1b14092fcb94d8fc908227917e92dabf0175f01cb5e1853b2d42d724ecd66e3e",
+        "actualSha256": "1b14092fcb94d8fc908227917e92dabf0175f01cb5e1853b2d42d724ecd66e3e",
+        "matches": true
+      },
+      {
+        "artifact": "writing-plan.json",
+        "declaredDirectUpstream": "research-card.md",
+        "declaredSha256": "2d59b7ab3e1f61f1e41d518a655e7bf1c28329843ea86ccf42439515eef9303f",
+        "actualSha256": "2d59b7ab3e1f61f1e41d518a655e7bf1c28329843ea86ccf42439515eef9303f",
+        "matches": true
+      },
+      {
+        "artifact": "card.txt",
+        "declaredDirectUpstream": "writing-plan.json",
+        "declaredSha256": "70c133f5df0b3ff2fcad55ec4f6cc125a464b692e15c76192cd638b260e80738",
+        "actualSha256": "70c133f5df0b3ff2fcad55ec4f6cc125a464b692e15c76192cd638b260e80738",
+        "matches": true
+      },
+      {
+        "artifact": "draft.md",
+        "declaredDirectUpstream": "card.txt",
+        "declaredSha256": "a3be8e69e9dc6597efdd5773a5aa1e8a92ec0981da399a4de5e22f909b16e95b",
+        "actualSha256": "a3be8e69e9dc6597efdd5773a5aa1e8a92ec0981da399a4de5e22f909b16e95b",
+        "matches": true
+      },
+      {
+        "artifact": "independent-review.json",
+        "declaredDirectUpstream": "draft.md",
+        "declaredSha256": "ddcd70203c1b826d104ec418832ab8e2000b77a2af8334905513d66845d467db",
+        "actualSha256": "ddcd70203c1b826d104ec418832ab8e2000b77a2af8334905513d66845d467db",
+        "matches": true
+      }
+    ]
+  },
+  "mechanicalChecks": {
+    "cardVisibleCharacters": 77,
+    "cardRequiredRange": "24-100",
+    "quickLayerVisibleCharacters": 140,
+    "quickLayerRequiredRange": "70-240",
+    "deepLayerVisibleCharacters": 752,
+    "deepLayerMinimum": 320,
+    "observableDetailCount": 4,
+    "observableDetailMinimum": 4,
+    "metadataComplete": true,
+    "dualLayerPresent": true,
+    "workSpecificSecondLookPresent": true,
+    "factBoundaryPresent": true,
+    "clickableSourcesPresent": true,
+    "completeHashChain": true,
+    "verdict": "PASS"
+  },
+  "mechanicalVerdict": {
+    "verdict": "PASS",
+    "evidence": "Card, quick layer, and deep layer meet the locked visible-character bounds; metadata, two-layer structure, four observable-detail bullets, a work-specific final look, fact boundary, clickable sources, and the complete hash chain are present."
+  },
+  "factBoundaryVerdict": {
+    "verdict": "FAIL",
+    "evidence": [
+      "The closing claim ‘一群人共同维持、观看却无人跨过的距离’ upgrades visible positions and distance into an unsupported causal/ethical claim that the bystanders collectively maintain the condition. The supplied evidence supports where they stand and that they watch, but not their agency in maintaining the institution or situation.",
+      "The body otherwise respects the stated unknowns about crime, political identity, outcome, psychology, light source, and the exact relationship between the two paintings."
+    ]
+  },
+  "narrativeVerdict": {
+    "verdict": "FAIL",
+    "evidence": [
+      "The deep historical-context paragraph can move before the opening spatial-analysis paragraph without losing a premise, and the painting-technique paragraph depends on the opening spatial analysis rather than on the intervening history paragraph. The history and technique paragraphs are therefore substantially exchangeable, triggering the locked paragraph-dependency failure.",
+      "Card/quick independence fails: the card’s ‘真正让场面绷紧的却是他们之间无人踏入的空地’ and the quick layer’s ‘他与众人之间那块空地，反而成了画面最紧张的部分’ use the same contrast, image, and conclusion in near-paraphrase form rather than functioning as independently written layers.",
+      "Quick/deep progression is otherwise intelligible: the quick layer supplies a provisional answer and the deep layer adds spatial mechanism, context, technique, comparison, and collection boundary."
+    ]
+  },
+  "nativeChineseVerdict": {
+    "verdict": "PASS",
+    "readAloudVerdict": "PASS",
+    "oneBreathParaphrase": "这幅画最紧张的地方不是人物表情，而是囚犯与围观者之间没人跨过的空地；画家用站位、明暗和室内空间把刑罚中的群体关系画了出来。",
+    "translationeseFindings": [],
+    "evidence": "The title, quick layer, transitions, and final look can be read aloud and naturally restated in Chinese; no English-style compressed title or decoding-heavy metaphor blocks comprehension."
+  },
+  "significanceVerdict": {
+    "verdict": "PASS",
+    "label": "重要藏品",
+    "fiveDimensions": {
+      "artisticAchievement": "PASS — the prose identifies spatial separation, figure placement, dark tonal field, and white accents as the concrete formal mechanism.",
+      "artHistoricalPosition": "PASS — it places the work in Munkácsy’s early social-realist condemned-prisoner theme without claiming invention, peak, or primacy.",
+      "historicalCulturalValue": "PASS — it connects punishment, confinement, group viewing, and post-1848–49 Hungarian social context while refusing to turn the image into a record of a specific case.",
+      "rarityAndIrreplaceability": "PASS — rarity and exact version status remain unknown, so the prose does not claim global uniqueness or rare-treasure status.",
+      "collectionPosition": "PASS — it gives the work a bounded role as an uncommon social-realist node in the Frye Founding Collection."
+    },
+    "nearestComparator": "Mihály de Munkácsy, The Last Day of a Condemned Man, 1870",
+    "sharedCore": "A confined person, an interior, and onlookers jointly organize the narrative.",
+    "nonSubstitutabilityBoundary": "The comparator can supply the same broad thematic core, while the Frye work offers a tighter spatial arrangement and a specific role inside the Founding Collection. Because the exact version relationship and global rarity are unresolved, this supports ‘重要藏品’ but not ‘稀世珍品’ or a trip-determining claim."
+  },
+  "workSpecificVerdict": {
+    "verdict": "PASS",
+    "evidence": "The core question, ankle restraint, wall-bound group, empty floor, white bedding/clothing, right-side bright area, and final eye movement are specific enough that the text cannot be transferred unchanged to another work."
+  },
+  "productionLanguageVerdict": {
+    "verdict": "PASS",
+    "scannedVisitorArtifacts": [
+      "card.txt",
+      "draft.md"
+    ],
+    "findings": [],
+    "evidence": "No visitor-facing research-gap, image-license task, publication task/status, test, prompt, generator, reviewer, version-migration, or pre-publication production language appears."
+  },
+  "independenceChecks": {
+    "cardVsQuick": "FAIL — near-paraphrase of the same empty-space contrast and tension claim.",
+    "quickVsDeep": "PASS — some necessary thesis recurrence is followed by additional mechanism, history, technique, comparison, and boundary.",
+    "cardVsDeep": "PASS — the deep layer materially develops the card’s observation rather than merely expanding its wording."
+  },
+  "voiceScores": {
+    "入口": {
+      "score": 2,
+      "evidence": "‘题名把注意力推向死囚，画家却让一群旁观者沿墙围住暗室’ immediately creates a concrete title/composition problem."
+    },
+    "因果": {
+      "score": 2,
+      "evidence": "The account links empty floor, positions, tonal divisions, and the related 1870 work to why the scene’s social tension is legible."
+    },
+    "人": {
+      "score": 1,
+      "evidence": "The prisoner and onlookers make the institutional theme understandable through their visible relationship, but no sourced human choice or motive can carry the history further."
+    },
+    "转折": {
+      "score": 2,
+      "evidence": "Understanding shifts from the titled individual to the spatial relation between restrained person and watching group, then is bounded by the comparator and unresolved version status."
+    },
+    "视觉兑现": {
+      "score": 2,
+      "evidence": "‘脚踝附近可见束缚’, the empty floor, wall-bound figures, white fabric, and right-side bright area repeatedly return the argument to observable evidence."
+    },
+    "口语清晰度": {
+      "score": 2,
+      "evidence": "The quick layer and main transitions read naturally aloud and preserve the necessary historical and evidentiary limits."
+    },
+    "第二眼": {
+      "score": 2,
+      "evidence": "The ending gives a precise eye movement from ankle restraint to the wall group and then to the empty floor, using the acquired spatial reading."
+    },
+    "total": 13,
+    "maximum": 14,
+    "threshold": 12,
+    "noZero": true,
+    "verdict": "PASS"
+  },
+  "actionableFailureReasons": [
+    "Remove or evidence/narrow the unsupported implication in ‘一群人共同维持’ so that the ending remains within observable group position and viewing rather than assigning collective causal or ethical agency.",
+    "Rebuild the deep paragraph dependency so the historical-context, painting-technique, and comparison/significance paragraphs each require the understanding established immediately before them; the present history and technique paragraphs remain reorderable.",
+    "Make the card and quick layer independently functional instead of restating the same ‘onlookers around one man / unentered empty space creates tension’ contrast in near-paraphrase."
+  ],
+  "finalVerdict": "FAIL",
+  "finalRationale": "Mechanical checks and the 13/14 voice threshold pass, but the unsupported causal/ethical upgrade, paragraph-dependency hard-gate failure, and card/quick independence failure require an overall FAIL."
+}

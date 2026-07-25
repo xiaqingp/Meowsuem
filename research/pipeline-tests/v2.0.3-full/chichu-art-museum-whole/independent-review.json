@@ -1,0 +1,30 @@
+{
+  "workId": "chichu-art-museum-whole",
+  "sha256": {
+    "research-card.md": "a5b3dfd80c6e9c075212fef66149e073a10d536bb78859d4c77411681154fe5b",
+    "writing-plan.json": "5d102615322a68def9eb81b20f422f95d36bde7209777ca919b0e5ee0bd0d07e",
+    "card.txt": "3cae97ee167691e51dcd0243813a9cf8b5fbb9a8d2c86f075fc4de0a41b10997",
+    "draft.md": "2e3a2d756d46e1adf70a1a4e8db0d61d652e5a18cff1f3d19c1ef8dabacb4213"
+  },
+  "sevenVoiceScores": {
+    "入口": { "score": 2, "evidence": "快层以“大部分藏入地下／天空和日光一路参与”的空间矛盾建立问题。" },
+    "因果": { "score": 2, "evidence": "地下选择引出几何采光，庭院训练方向与亮度感知，再依次进入三组永久作品。" },
+    "人": { "score": 1, "evidence": "本对象以空间机制为主，但仍通过访客行走、停留和建筑师—艺术家共同设计使关系可理解。" },
+    "转折": { "score": 2, "evidence": "光从引路条件变成莫奈的展陈条件，再成为特瑞尔的作品材料，最后组织德·玛利亚空间。" },
+    "视觉兑现": { "score": 2, "evidence": "入口、坡道、三角与方形庭院、五幅《睡莲》、球体、台阶和27件几何体均可现场核对。" },
+    "口语清晰度": { "score": 2, "evidence": "“你不是在三个彼此无关的展厅里收集名家”自然朗读并准确回收路线关系。" },
+    "第二眼": { "score": 2, "evidence": "结尾在德·玛利亚空间把球体、台阶、几何体和当下光线纳入同一视野，并回想此前路线。" },
+    "total": 13
+  },
+  "mechanicalVerdict": { "verdict": "PASS", "evidence": "实测四项 SHA-256 与记录一致：计划指向研究卡，卡片指向计划，草稿直接指向卡片并另记计划。元数据、独立卡片、快深层、六项细节、事实边界与链接齐全。" },
+  "factBoundaryVerdict": { "verdict": "PASS", "evidence": "逐查建造目的、光效、访客感受、整体意图、最高级与可见状态：馆方主张均有归属，天气与运营不作承诺，路线效果写为可核对机制而非必然心理；未并入直岛其他对象。" },
+  "narrativeVerdict": { "verdict": "PASS", "evidence": "实际移动路线构成严格依赖：地下入口提出自然如何在场，庭院训练光与尺度，莫奈把光变为展陈条件，特瑞尔变为材料，德·玛利亚汇合尺度与光，最后才形成整馆判断。卡、快、深层各自独立。" },
+  "nativeChineseVerdict": { "verdict": "PASS", "evidence": "卡片、快层、标题、段落转折与结尾已朗读；空间关系清楚，标题自然，无研究字段或英文句法直搬。" },
+  "significanceVerdict": { "verdict": "PASS", "evidence": "五维完成；资料没有具名最近比较对象，正文据此不声称不可替代并降为“重要藏品”。地下、自然光、建筑、永久作品和体验明确只共同支持一个整体结论，没有重复计分。" },
+  "workSpecificVerdict": { "verdict": "PASS", "evidence": "以入口—坡道—几何庭院—莫奈—特瑞尔—德·玛利亚的实际路线说明地下、自然光与永久作品共同工作；对象始终限定地中美术馆整体。" },
+  "verdict": "PASS",
+  "blockingFindings": [],
+  "nonBlockingNotes": [
+    "“重要藏品”用于整馆建筑对象略显沿用单件藏品词汇，但这是共享四级重要性字段，并未造成标准冲突。"
+  ]
+}

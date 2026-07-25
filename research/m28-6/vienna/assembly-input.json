@@ -1,0 +1,707 @@
+{
+  "schemaVersion": 1,
+  "proseTransforms": {
+    "removeLegacyDetailHeading": false
+  },
+  "metadataFields": {
+    "includeMaterial": true
+  },
+  "museum": {
+    "id": "vienna",
+    "editorialCapacity": 40,
+    "city": "维也纳 · 奥地利",
+    "zh": "维也纳艺术史博物馆",
+    "en": "Kunsthistorisches Museum Vienna",
+    "verdict": "",
+    "hero": "https://www.khm.at/fileadmin/_processed_/f/5/csm_114_AS_SaalXI_7_AWSZ-card_59120d5a30.jpg",
+    "contentFile": "./research/vienna-content-v2.md",
+    "official": "https://www.khm.at/en",
+    "visit": "https://www.khm.at/en/visit",
+    "cardCopyContract": "independent-v1",
+    "contentUpdatedAt": "2026-07-24",
+    "intro": [
+      "这座馆最不可替代的地方，是多种原本服务于祭祀、法律、宴会、王朝形象和私人观看的对象，被哈布斯堡收藏汇集，再由1891年开放的专门馆舍重新编排成一部可步行进入的权力与观看史。参观从建筑的帝国序言出发，依次看权力怎样留下文字和肖像、信仰怎样进入墓室与器物、珍贵材料怎样成为宫廷技术，最后在绘画中转化为对社会、历史和绘画本身的重新组织。",
+      "96分由八条独立稀世珍品线支撑，跨越勃鲁盖尔绘画群、维米尔、文艺复兴金工与青铜、宫廷水晶、罗马浮雕宝石、早期中世纪金器组及共和国法律文本。扣分来自顶级密度仍偏向哈布斯堡形成的欧洲绘画与宫廷收藏，文明跨度不及最高分综合馆；纳吉圣米克洛什宝藏为轮换状态，另有少数作品当天展出未确认。"
+    ],
+    "routes": {
+      "90": {
+        "title": "90分钟 · 只抓住决定96分的核心",
+        "note": "以中央建筑轴线开场，在古物与艺术珍宝馆各取数件不可替代对象，最后把主要时间留给勃鲁盖尔和维米尔。主动跳过埃及收藏、钱币馆及大部分第二梯队绘画；这是一条取舍路线，不是主馆缩略全景。",
+        "workIds": [
+          "vienna-space-02-grand-staircase-ensemble",
+          "vienna-space-03-cupola-hall",
+          "vienna-ant-01-gemma-augustea",
+          "vienna-ant-04-bacchanalia-decree",
+          "vienna-kk-01-saliera",
+          "vienna-kk-07-rock-crystal-pyramid",
+          "vienna-kk-08-bellerophon-pegasus",
+          "vienna-pg-01-tower-of-babel",
+          "vienna-pg-02-hunters-in-the-snow",
+          "vienna-pg-06-art-of-painting"
+        ]
+      },
+      "half": {
+        "title": "半天 · 看懂这家馆为何不只是名画馆",
+        "note": "先用建筑建立收藏逻辑，再依次看古代制度、宫廷技术、勃鲁盖尔群和绘画如何重组历史与身份。路线保留全部八条稀世珍品线的代表；轮换对象不可见时，以同章其他对象维持主线。",
+        "workIds": [
+          "vienna-space-01-museum-building",
+          "vienna-space-02-grand-staircase-ensemble",
+          "vienna-space-03-cupola-hall",
+          "vienna-ant-01-gemma-augustea",
+          "vienna-ant-04-bacchanalia-decree",
+          "vienna-ant-02-nagyszentmiklos-treasure",
+          "vienna-ant-06-theseus-mosaic",
+          "vienna-egy-01-ka-ni-nisut-chapel",
+          "vienna-kk-01-saliera",
+          "vienna-kk-07-rock-crystal-pyramid",
+          "vienna-kk-08-bellerophon-pegasus",
+          "vienna-kk-03-automaton-ship",
+          "vienna-kk-05-rudolf-ii-bust",
+          "vienna-pg-01-tower-of-babel",
+          "vienna-pg-02-hunters-in-the-snow",
+          "vienna-pg-03-childrens-games",
+          "vienna-pg-04-peasant-wedding",
+          "vienna-pg-05-carnival-and-lent",
+          "vienna-pg-06-art-of-painting",
+          "vienna-pg-07-infanta-margarita-blue",
+          "vienna-pg-08-madonna-of-the-meadow",
+          "vienna-pg-09-madonna-of-the-rosary",
+          "vienna-pg-16-parmigianino-convex-self-portrait"
+        ]
+      },
+      "all": {
+        "title": "完整浏览 · 40项内容库，建议拆成两次",
+        "note": "第一次集中建筑、古物、埃及与艺术珍宝馆，回答物件怎样服务制度、祭祀与宫廷技术；第二次集中绘画馆和钱币馆，回答图像怎样组织社会、身份、历史与绘画本身。每次都在穹顶大厅附近安排休息，避免把第二次参观降为疲劳补漏。",
+        "workIds": [
+          "vienna-space-01-museum-building",
+          "vienna-space-02-grand-staircase-ensemble",
+          "vienna-space-03-cupola-hall",
+          "vienna-ant-01-gemma-augustea",
+          "vienna-ant-04-bacchanalia-decree",
+          "vienna-ant-02-nagyszentmiklos-treasure",
+          "vienna-kk-05-rudolf-ii-bust",
+          "vienna-coin-01-sigismund-guldiner",
+          "vienna-coin-02-charles-v-dedication-medal",
+          "vienna-egy-01-ka-ni-nisut-chapel",
+          "vienna-egy-02-reserve-head",
+          "vienna-egy-04-kai-pu-ptah-ipep",
+          "vienna-egy-05-gem-nef-hor-bak",
+          "vienna-egy-03-babylon-lion",
+          "vienna-ant-03-brygos-skyphos",
+          "vienna-ant-05-amazon-sarcophagus",
+          "vienna-ant-06-theseus-mosaic",
+          "vienna-kk-01-saliera",
+          "vienna-kk-07-rock-crystal-pyramid",
+          "vienna-kk-08-bellerophon-pegasus",
+          "vienna-kk-03-automaton-ship",
+          "vienna-kk-04-cittern-player",
+          "vienna-kk-06-dragon-bowl",
+          "vienna-kk-02-krumau-madonna",
+          "vienna-pg-01-tower-of-babel",
+          "vienna-pg-02-hunters-in-the-snow",
+          "vienna-pg-03-childrens-games",
+          "vienna-pg-04-peasant-wedding",
+          "vienna-pg-05-carnival-and-lent",
+          "vienna-pg-06-art-of-painting",
+          "vienna-pg-07-infanta-margarita-blue",
+          "vienna-pg-12-rubens-self-portrait",
+          "vienna-pg-13-cardinal-albergati",
+          "vienna-pg-16-parmigianino-convex-self-portrait",
+          "vienna-pg-15-summer",
+          "vienna-pg-08-madonna-of-the-meadow",
+          "vienna-pg-14-madonna-with-the-pear",
+          "vienna-pg-09-madonna-of-the-rosary",
+          "vienna-pg-11-judith-veronese",
+          "vienna-pg-10-nymph-and-shepherd"
+        ]
+      }
+    }
+  },
+  "chapters": [
+    {
+      "id": "vienna-ch-01-building",
+      "number": "01",
+      "title": "为什么还没看藏品，博物馆已经开始讲权力？",
+      "intro": "建立整馆最小解释模型，说明建筑不是中性容器，而是收藏公开化后的第一件解释工具。"
+    },
+    {
+      "id": "vienna-ch-02-power",
+      "number": "02",
+      "title": "权力怎样把自己刻进宝石、青铜和货币？",
+      "intro": "把图像宣称、法律执行、王朝配对和货币传播区分开，同时显示权力并不只存在于大型历史画。"
+    },
+    {
+      "id": "vienna-ch-03-afterlife-story",
+      "number": "03",
+      "title": "一件古物怎样让死者、神话和仪式继续运作？",
+      "intro": "从原始用途进入古物收藏，避免把所有古代对象只看成独立雕塑或漂亮图案。"
+    },
+    {
+      "id": "vienna-ch-04-kunstkammer",
+      "number": "04",
+      "title": "当材料比用途更重要，器物会变成什么？",
+      "intro": "解释艺术珍宝馆并非杂物柜，而是一套比较材料、技术、运动、古典复兴和宫廷展示的知识系统。"
+    },
+    {
+      "id": "vienna-ch-05-bruegel",
+      "number": "05",
+      "title": "勃鲁盖尔怎样把一个世界压进一块画板？",
+      "intro": "把本馆最强的单一画家收藏读成一组观看方法，而不是五张名作清单；《巴别塔》和《雪中猎人》共同支撑一条稀世珍品线。"
+    },
+    {
+      "id": "vienna-ch-06-painting",
+      "number": "06",
+      "title": "一幅画何时不再只是再现对象？",
+      "intro": "以维米尔的绘画自我指涉为核心，连接宫廷身份、文艺复兴构图、威尼斯晚期笔触、矫饰主义错觉及宗教叙事。"
+    }
+  ],
+  "routes": {
+    "90": {
+      "title": "90分钟 · 只抓住决定96分的核心",
+      "note": "以中央建筑轴线开场，在古物与艺术珍宝馆各取数件不可替代对象，最后把主要时间留给勃鲁盖尔和维米尔。主动跳过埃及收藏、钱币馆及大部分第二梯队绘画；这是一条取舍路线，不是主馆缩略全景。",
+      "workIds": [
+        "vienna-space-02-grand-staircase-ensemble",
+        "vienna-space-03-cupola-hall",
+        "vienna-ant-01-gemma-augustea",
+        "vienna-ant-04-bacchanalia-decree",
+        "vienna-kk-01-saliera",
+        "vienna-kk-07-rock-crystal-pyramid",
+        "vienna-kk-08-bellerophon-pegasus",
+        "vienna-pg-01-tower-of-babel",
+        "vienna-pg-02-hunters-in-the-snow",
+        "vienna-pg-06-art-of-painting"
+      ]
+    },
+    "half": {
+      "title": "半天 · 看懂这家馆为何不只是名画馆",
+      "note": "先用建筑建立收藏逻辑，再依次看古代制度、宫廷技术、勃鲁盖尔群和绘画如何重组历史与身份。路线保留全部八条稀世珍品线的代表；轮换对象不可见时，以同章其他对象维持主线。",
+      "workIds": [
+        "vienna-space-01-museum-building",
+        "vienna-space-02-grand-staircase-ensemble",
+        "vienna-space-03-cupola-hall",
+        "vienna-ant-01-gemma-augustea",
+        "vienna-ant-04-bacchanalia-decree",
+        "vienna-ant-02-nagyszentmiklos-treasure",
+        "vienna-ant-06-theseus-mosaic",
+        "vienna-egy-01-ka-ni-nisut-chapel",
+        "vienna-kk-01-saliera",
+        "vienna-kk-07-rock-crystal-pyramid",
+        "vienna-kk-08-bellerophon-pegasus",
+        "vienna-kk-03-automaton-ship",
+        "vienna-kk-05-rudolf-ii-bust",
+        "vienna-pg-01-tower-of-babel",
+        "vienna-pg-02-hunters-in-the-snow",
+        "vienna-pg-03-childrens-games",
+        "vienna-pg-04-peasant-wedding",
+        "vienna-pg-05-carnival-and-lent",
+        "vienna-pg-06-art-of-painting",
+        "vienna-pg-07-infanta-margarita-blue",
+        "vienna-pg-08-madonna-of-the-meadow",
+        "vienna-pg-09-madonna-of-the-rosary",
+        "vienna-pg-16-parmigianino-convex-self-portrait"
+      ]
+    },
+    "all": {
+      "title": "完整浏览 · 40项内容库，建议拆成两次",
+      "note": "第一次集中建筑、古物、埃及与艺术珍宝馆，回答物件怎样服务制度、祭祀与宫廷技术；第二次集中绘画馆和钱币馆，回答图像怎样组织社会、身份、历史与绘画本身。每次都在穹顶大厅附近安排休息，避免把第二次参观降为疲劳补漏。",
+      "workIds": [
+        "vienna-space-01-museum-building",
+        "vienna-space-02-grand-staircase-ensemble",
+        "vienna-space-03-cupola-hall",
+        "vienna-ant-01-gemma-augustea",
+        "vienna-ant-04-bacchanalia-decree",
+        "vienna-ant-02-nagyszentmiklos-treasure",
+        "vienna-kk-05-rudolf-ii-bust",
+        "vienna-coin-01-sigismund-guldiner",
+        "vienna-coin-02-charles-v-dedication-medal",
+        "vienna-egy-01-ka-ni-nisut-chapel",
+        "vienna-egy-02-reserve-head",
+        "vienna-egy-04-kai-pu-ptah-ipep",
+        "vienna-egy-05-gem-nef-hor-bak",
+        "vienna-egy-03-babylon-lion",
+        "vienna-ant-03-brygos-skyphos",
+        "vienna-ant-05-amazon-sarcophagus",
+        "vienna-ant-06-theseus-mosaic",
+        "vienna-kk-01-saliera",
+        "vienna-kk-07-rock-crystal-pyramid",
+        "vienna-kk-08-bellerophon-pegasus",
+        "vienna-kk-03-automaton-ship",
+        "vienna-kk-04-cittern-player",
+        "vienna-kk-06-dragon-bowl",
+        "vienna-kk-02-krumau-madonna",
+        "vienna-pg-01-tower-of-babel",
+        "vienna-pg-02-hunters-in-the-snow",
+        "vienna-pg-03-childrens-games",
+        "vienna-pg-04-peasant-wedding",
+        "vienna-pg-05-carnival-and-lent",
+        "vienna-pg-06-art-of-painting",
+        "vienna-pg-07-infanta-margarita-blue",
+        "vienna-pg-12-rubens-self-portrait",
+        "vienna-pg-13-cardinal-albergati",
+        "vienna-pg-16-parmigianino-convex-self-portrait",
+        "vienna-pg-15-summer",
+        "vienna-pg-08-madonna-of-the-meadow",
+        "vienna-pg-14-madonna-with-the-pear",
+        "vienna-pg-09-madonna-of-the-rosary",
+        "vienna-pg-11-judith-veronese",
+        "vienna-pg-10-nymph-and-shepherd"
+      ]
+    }
+  },
+  "rating": {
+    "score": 96,
+    "scoreBand": "90–100 · 值得专程旅行",
+    "shortAction": "值得专程旅行",
+    "travelAction": "值得为了这座馆安排维也纳行程；首次参观至少留出半天，完整理解建议拆成两次。",
+    "scoreReason": "维也纳艺术史博物馆拥有多条彼此独立、足以改变旅行决定的稀世珍品线：世界最强的一组老彼得·勃鲁盖尔核心画作，以《巴别塔》和《雪中猎人》为同一收藏高峰；维米尔《绘画的艺术》；切利尼唯一存世金质作品《盐罐》；米塞罗尼《水晶金字塔》；贝尔托尔多《柏勒洛丰驯服珀伽索斯》；《奥古斯都宝石》；23件纳吉圣米克洛什金宝藏；以及唯一存世、同时也是最早拉丁文元老院决议文本的酒神祭法令铜板。绘画馆、艺术珍宝馆与古物收藏并非靠名家名单堆分，而是在老大师绘画、宫廷工艺和古代政治／制度实物三方面都保存不可由普通近例替代的对象。",
+    "withinBandReason": "位于90档的96–97段下沿：它明显高于以单一建筑文明整体进入95分的阿尔罕布拉，因为至少八条独立珍品线跨越绘画、金工、水晶、青铜、古代宝石、早期中世纪金器和罗马法律文本，任何一条临时不可见都不会使专程旅行理由消失；也高于80档上限那些只有数件或数组世界级核心的馆。它不取埃及博物馆的97或卢浮宫、大都会、大英博物馆的98，是因为顶级密度仍较集中于哈布斯堡形成的欧洲绘画与宫廷收藏，跨文明跨度较小；纳吉圣米克洛什宝藏采用轮换状态，鲁本斯自画像与凡·艾克肖像的当天展出也未确认。建筑和楼梯只改善现场，不重复计作珍品线。",
+    "limitations": "40项是一套跨多次参观使用的内容库，不应伪装成一天必须走完的清单。 主馆之外的同机构场馆不在本计划内；不要把帝国珍宝馆或Neue Hofburg藏品混进当天路线。 纳吉圣米克洛什金宝藏按馆藏轮换处理；鲁本斯《自画像》和凡·艾克《红衣主教尼科洛·阿尔贝加蒂（？）》的当天展出状态未确认。 开放时间、闭室、轮换与具体陈列位置属于易变信息，出发前应查馆方。",
+    "dedicatedTrip": true,
+    "rareAssets": [
+      "vienna-pg-01-tower-of-babel",
+      "vienna-pg-02-hunters-in-the-snow",
+      "vienna-pg-06-art-of-painting",
+      "vienna-kk-01-saliera",
+      "vienna-kk-07-rock-crystal-pyramid",
+      "vienna-kk-08-bellerophon-pegasus",
+      "vienna-ant-01-gemma-augustea",
+      "vienna-ant-02-nagyszentmiklos-treasure",
+      "vienna-ant-04-bacchanalia-decree"
+    ],
+    "sources": [
+      "https://www.khm.at/en",
+      "https://www.khm.at/en/artworks"
+    ],
+    "calibratedAgainst": [
+      "alhambra",
+      "anchorage",
+      "british",
+      "chichu",
+      "egyptian",
+      "enoura",
+      "frye",
+      "getty",
+      "glyptotek",
+      "louvre",
+      "met",
+      "muxin",
+      "seattle",
+      "smk",
+      "vienna"
+    ],
+    "calibratedAt": "2026-07-23"
+  },
+  "works": [
+    {
+      "id": "vienna-space-01-museum-building",
+      "ch": "vienna-ch-01-building",
+      "significance": "重要藏品",
+      "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Vienna%20-%20View%20of%20Maria%20Theresien-Platz%20and%20the%20Kunsthistorisches%20Museum%20-%206291.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Vienna_-_View_of_Maria_Theresien-Platz_and_the_Kunsthistorisches_Museum_-_6291.jpg",
+      "imageCaption": "维也纳艺术史博物馆主馆建筑，戈特弗里德·森佩尔 Gottfried Semper；卡尔·冯·哈森瑙尔 Carl von Hasenauer，1871–1891年；1891年10月17日开放。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/exhibitions/the-kunsthistorisches-museum-gesamtkunstwerk"
+    },
+    {
+      "id": "vienna-space-02-grand-staircase-ensemble",
+      "ch": "vienna-ch-01-building",
+      "significance": "体验补充",
+      "image": "https://www.khm.at/fileadmin/img_KHM/gebaeude/innen/KHM_Stiegenhaus_052023-3559.jpg",
+      "imageSource": "https://www.khm.at/en/exhibitions/the-kunsthistorisches-museum-gesamtkunstwerk",
+      "imageCaption": "主楼梯整体：卡诺瓦《忒修斯战胜半人马》与楼梯绘画，Antonio Canova；Mihály von Munkácsy；Hans Makart；Gustav Klimt、Ernst Klimt、Franz Matsch，卡诺瓦研究始于 1795 年，雕塑执行于 1810–1819 年；楼梯绘画主要完成于 1880–1891 年。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/kunstwerke/theseusgruppe-theseus-besiegt-den-kentauren-1132785"
+    },
+    {
+      "id": "vienna-space-03-cupola-hall",
+      "ch": "vienna-ch-01-building",
+      "significance": "体验补充",
+      "image": "https://www.khm.at/fileadmin/img_KHM/gebaeude/innen/KHM_Kuppelhalle_AU_04.jpg",
+      "imageSource": "https://www.khm.at/en/exhibitions/the-kunsthistorisches-museum-gesamtkunstwerk",
+      "imageCaption": "穹顶大厅，戈特弗里德·森佩尔 Gottfried Semper；卡尔·冯·哈森瑙尔 Carl von Hasenauer 及馆舍装饰团队 · 维也纳，1871–1891 年。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/exhibitions/the-kunsthistorisches-museum-gesamtkunstwerk"
+    },
+    {
+      "id": "vienna-ant-01-gemma-augustea",
+      "ch": "vienna-ch-02-power",
+      "significance": "稀世珍品",
+      "image": "https://www.khm.at/pics/59171/ANSA_IXa_79_1_CD_web1.jpg",
+      "imageSource": "https://www.khm.at/kunstwerke/gemma-augustea-59171",
+      "imageCaption": "奥古斯都宝石，罗马，早期帝国时期，公元9—12年。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/kunstwerke/gemma-augustea-59171"
+    },
+    {
+      "id": "vienna-ant-04-bacchanalia-decree",
+      "ch": "vienna-ch-02-power",
+      "significance": "稀世珍品",
+      "image": "https://www.khm.at/pics/52468/ANSA_III_168_45581_ret_web1.jpg",
+      "imageSource": "https://www.khm.at/kunstwerke/senatus-consultum-de-bacchanalibus-52468",
+      "imageCaption": "元老院关于酒神祭仪的决议，古罗马 · 罗马共和国，公元前186年。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/kunstwerke/senatus-consultum-de-bacchanalibus-52468"
+    },
+    {
+      "id": "vienna-ant-02-nagyszentmiklos-treasure",
+      "ch": "vienna-ch-02-power",
+      "significance": "稀世珍品",
+      "availabilityTag": "馆藏轮换",
+      "image": "https://www.khm.at/pics/71220/ANSA_VIIb_33_202203_01_web1.jpg",
+      "imageSource": "https://www.khm.at/kunstwerke/medaillonkrug-71220",
+      "imageCaption": "纳吉圣米克洛什金宝藏，迁徙时期／中世纪早期，多文化归属未定，7—9世纪（部分器物或为8世纪）。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/kunstwerke/medaillonkrug-71220"
+    },
+    {
+      "id": "vienna-kk-05-rudolf-ii-bust",
+      "ch": "vienna-ch-02-power",
+      "significance": "重要藏品",
+      "image": "https://www.khm.at/pics/91513/KK_5506_01_ret_web1.jpg",
+      "imageSource": "https://www.khm.at/en/artworks/emperor-rudolf-ii-91513",
+      "imageCaption": "皇帝鲁道夫二世胸像，阿德里安·德·弗里斯 Adriaen de Vries · 尼德兰，1603年。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/artworks/emperor-rudolf-ii-91513"
+    },
+    {
+      "id": "vienna-coin-01-sigismund-guldiner",
+      "ch": "vienna-ch-02-power",
+      "significance": "重要藏品",
+      "image": "https://www.khm.at/pics/1009266/MK_001347ba_1.jpg",
+      "imageSource": "https://www.khm.at/kunstwerke/ehg-sigismund-guldiner-frontal-im-harnisch-stehend-turnierreiter-1009266",
+      "imageCaption": "西吉斯蒙德银古尔迪纳，蒂罗尔哈恩铸币厂，1486年。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/kunstwerke/ehg-sigismund-guldiner-frontal-im-harnisch-stehend-turnierreiter-1009266"
+    },
+    {
+      "id": "vienna-coin-02-charles-v-dedication-medal",
+      "ch": "vienna-ch-02-power",
+      "significance": "重要藏品",
+      "image": "https://www.khm.at/pics/1008262/MK_000018bb_1.jpg",
+      "imageSource": "https://www.khm.at/kunstwerke/medaille-1008262",
+      "imageCaption": "纽伦堡献给查理五世的纪念章，阿尔布雷希特·丢勒 Albrecht Dürer · 纽伦堡（设计），约1521年。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/kunstwerke/medaille-1008262"
+    },
+    {
+      "id": "vienna-egy-01-ka-ni-nisut-chapel",
+      "ch": "vienna-ch-03-afterlife-story",
+      "significance": "重要藏品",
+      "image": "https://www.khm.at/pics/317061/AEOS_8006_35392_web1.jpg",
+      "imageSource": "https://www.khm.at/en/artworks/chapel-of-ka-ni-nisut-317061",
+      "imageCaption": "卡尼尼苏特祭祀室，古埃及，吉萨，第五王朝早期，约公元前2500年。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/artworks/chapel-of-ka-ni-nisut-317061"
+    },
+    {
+      "id": "vienna-egy-02-reserve-head",
+      "ch": "vienna-ch-03-afterlife-story",
+      "significance": "重要藏品",
+      "image": "https://www.khm.at/pics/322358/AEOS_7787_01_web1.jpg",
+      "imageSource": "https://www.khm.at/en/artworks/reserve-head-322358",
+      "imageCaption": "储备头像，古埃及，吉萨，第四王朝胡夫统治期，约公元前 2609–2584 年。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/artworks/reserve-head-322358"
+    },
+    {
+      "id": "vienna-egy-04-kai-pu-ptah-ipep",
+      "ch": "vienna-ch-03-afterlife-story",
+      "significance": "特色看点",
+      "image": "https://www.khm.at/pics/323871/AEOS_7444_89_web1.jpg",
+      "imageSource": "https://www.khm.at/en/artworks/statue-group-of-kai-pu-ptah-and-ipep-323871",
+      "imageCaption": "凯普普塔与伊佩普双人像，古埃及，吉萨，第五王朝晚期，约公元前 2400 年。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/artworks/statue-group-of-kai-pu-ptah-and-ipep-323871"
+    },
+    {
+      "id": "vienna-egy-05-gem-nef-hor-bak",
+      "ch": "vienna-ch-03-afterlife-story",
+      "significance": "特色看点",
+      "image": "https://www.khm.at/pics/316886/AE_INV_62_08.jpg",
+      "imageSource": "https://www.khm.at/en/artworks/naophorous-statue-of-gem-nef-hor-bak-316886",
+      "imageCaption": "杰姆内夫霍尔巴克抱龛跪像，古埃及，可能来自塞易斯，第三十王朝，公元前4世纪上半叶。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/artworks/naophorous-statue-of-gem-nef-hor-bak-316886"
+    },
+    {
+      "id": "vienna-egy-03-babylon-lion",
+      "ch": "vienna-ch-03-afterlife-story",
+      "significance": "重要藏品",
+      "image": "https://www.khm.at/pics/376850/AEOS_SEM_951_ret_web1.jpg",
+      "imageSource": "https://www.khm.at/kunstwerke/wandstueck-mit-dem-relief-eines-schreitenden-loewen-376850",
+      "imageCaption": "巴比伦行进狮子砖墙浮雕，新巴比伦，巴比伦游行大道，尼布甲尼撒二世时期，公元前 604–562 年。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/kunstwerke/wandstueck-mit-dem-relief-eines-schreitenden-loewen-376850"
+    },
+    {
+      "id": "vienna-ant-03-brygos-skyphos",
+      "ch": "vienna-ch-03-afterlife-story",
+      "significance": "重要藏品",
+      "image": "https://www.khm.at/pics/56696/ANSA_IV_3710_3672_fin_web1.jpg",
+      "imageSource": "https://www.khm.at/kunstwerke/hektors-loesung-56696",
+      "imageCaption": "布里戈斯大杯：普里阿摩斯赎回赫克托耳遗体，布里戈斯陶工坊／布里戈斯画家 · 古希腊，约公元前490年。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/kunstwerke/hektors-loesung-56696"
+    },
+    {
+      "id": "vienna-ant-05-amazon-sarcophagus",
+      "ch": "vienna-ch-03-afterlife-story",
+      "significance": "重要藏品",
+      "image": "https://www.khm.at/pics/50832/ANSA_I_169_03_web1.jpg",
+      "imageSource": "https://www.khm.at/kunstwerke/amazonensarkophag-50832",
+      "imageCaption": "亚马孙之战石棺，希腊文化，公元前4世纪后半叶。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/kunstwerke/amazonensarkophag-50832"
+    },
+    {
+      "id": "vienna-ant-06-theseus-mosaic",
+      "ch": "vienna-ch-03-afterlife-story",
+      "significance": "特色看点",
+      "image": "https://www.khm.at/pics/52079/Ansa_II_20_Gesamt_web1.jpg",
+      "imageSource": "https://www.khm.at/en/artworks/theseusmosaik-52079",
+      "imageCaption": "忒修斯马赛克，古罗马，发现于萨尔茨堡附近别墅，公元4世纪。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/artworks/theseusmosaik-52079"
+    },
+    {
+      "id": "vienna-kk-01-saliera",
+      "ch": "vienna-ch-04-kunstkammer",
+      "significance": "稀世珍品",
+      "image": "https://www.khm.at/pics/87080/KK_881_012006_14.jpg",
+      "imageSource": "https://www.khm.at/en/artworks/saliera-87080",
+      "imageCaption": "盐罐，本韦努托·切利尼 Benvenuto Cellini · 佛罗伦萨，1540–1543。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/artworks/saliera-87080"
+    },
+    {
+      "id": "vienna-kk-07-rock-crystal-pyramid",
+      "ch": "vienna-ch-04-kunstkammer",
+      "significance": "稀世珍品",
+      "image": "https://www.khm.at/pics/580539/KK_2251_44312.jpg",
+      "imageSource": "https://www.khm.at/en/artworks/bergkristall-pyramide-580539",
+      "imageCaption": "水晶金字塔，迪奥尼西奥·米塞罗尼 Dionysio Miseroni · 布拉格，1653年。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/artworks/bergkristall-pyramide-580539"
+    },
+    {
+      "id": "vienna-kk-08-bellerophon-pegasus",
+      "ch": "vienna-ch-04-kunstkammer",
+      "significance": "稀世珍品",
+      "image": "https://www.khm.at/pics/91603/KK_5596_01_web1.jpg",
+      "imageSource": "https://www.khm.at/en/artworks/bellerophon-taming-pegasus-91603",
+      "imageCaption": "柏勒洛丰驯服珀伽索斯，贝尔托尔多·迪·乔瓦尼 Bertoldo di Giovanni · 意大利（模型）；阿德里亚诺·菲奥伦蒂诺 Adriano Fiorentino · 意大利（铸造），约1481/1482年。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/artworks/bellerophon-taming-pegasus-91603"
+    },
+    {
+      "id": "vienna-kk-03-automaton-ship",
+      "ch": "vienna-ch-04-kunstkammer",
+      "significance": "重要藏品",
+      "image": "https://www.khm.at/pics/87073/KK_874_2012_04_web1.jpg",
+      "imageSource": "https://www.khm.at/en/artworks/automaton-in-the-form-of-a-ship-87073",
+      "imageCaption": "船形自动机械，汉斯·施洛特海姆 Hans Schlottheim · 奥格斯堡，1585年。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/artworks/automaton-in-the-form-of-a-ship-87073"
+    },
+    {
+      "id": "vienna-kk-04-cittern-player",
+      "ch": "vienna-ch-04-kunstkammer",
+      "significance": "重要藏品",
+      "image": "https://www.khm.at/pics/96017/KK_10000_10638_web1.jpg",
+      "imageSource": "https://www.khm.at/en/artworks/automaton-so-called-cittern-player-96017",
+      "imageCaption": "西特琴演奏者自动机械，作者不详；西班牙（？），16 世纪后半叶。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/artworks/automaton-so-called-cittern-player-96017"
+    },
+    {
+      "id": "vienna-kk-06-dragon-bowl",
+      "ch": "vienna-ch-04-kunstkammer",
+      "significance": "重要藏品",
+      "image": "https://www.khm.at/pics/87856/KK_1851_Neu_16_web1.jpg",
+      "imageSource": "https://www.khm.at/en/artworks/shell-shaped-bowl-so-called-dragon-bowl-87856",
+      "imageCaption": "贝壳形碗（龙碗），加斯帕罗·米塞罗尼 Gasparo Miseroni · 米兰，约1565/1570年。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/artworks/shell-shaped-bowl-so-called-dragon-bowl-87856"
+    },
+    {
+      "id": "vienna-kk-02-krumau-madonna",
+      "ch": "vienna-ch-04-kunstkammer",
+      "significance": "重要藏品",
+      "image": "https://www.khm.at/pics/96174/KK_10156_02_web1.jpg",
+      "imageSource": "https://www.khm.at/en/artworks/virgin-and-child-so-called-krumau-madonna-96174",
+      "imageCaption": "克鲁姆洛夫圣母，匿名 · 约 1400 年布拉格宫廷艺术圈（可能），约 1390/1400。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/artworks/virgin-and-child-so-called-krumau-madonna-96174"
+    },
+    {
+      "id": "vienna-pg-01-tower-of-babel",
+      "ch": "vienna-ch-05-bruegel",
+      "significance": "稀世珍品",
+      "image": "https://www.khm.at/pics/323/GG_1026_2018_CD_web1.jpg",
+      "imageSource": "https://www.khm.at/en/object/323/",
+      "imageCaption": "巴别塔，老彼得·勃鲁盖尔 Pieter Bruegel the Elder · 尼德兰，1563。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/object/323/"
+    },
+    {
+      "id": "vienna-pg-02-hunters-in-the-snow",
+      "ch": "vienna-ch-05-bruegel",
+      "significance": "稀世珍品",
+      "image": "https://www.khm.at/pics/327/GG_1838_2018_CD_web1.jpg",
+      "imageSource": "https://www.khm.at/en/artworks/hunters-in-the-snow-winter-327",
+      "imageCaption": "雪中猎人（冬），老彼得·勃鲁盖尔 Pieter Bruegel the Elder · 尼德兰，1565。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/artworks/hunters-in-the-snow-winter-327"
+    },
+    {
+      "id": "vienna-pg-03-childrens-games",
+      "ch": "vienna-ch-05-bruegel",
+      "significance": "重要藏品",
+      "image": "https://www.khm.at/pics/321/GG_1017_XXL.jpg",
+      "imageSource": "https://www.khm.at/en/artworks/children-s-games-321",
+      "imageCaption": "儿童游戏，老彼得·勃鲁盖尔 Pieter Bruegel the Elder · 尼德兰，1560。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/artworks/children-s-games-321"
+    },
+    {
+      "id": "vienna-pg-04-peasant-wedding",
+      "ch": "vienna-ch-05-bruegel",
+      "significance": "重要藏品",
+      "image": "https://www.khm.at/pics/330/GG_1027_Web.jpg",
+      "imageSource": "https://www.khm.at/en/artworks/peasant-wedding-330",
+      "imageCaption": "农民婚礼，老彼得·勃鲁盖尔 Pieter Bruegel the Elder · 尼德兰，1568。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/artworks/peasant-wedding-330"
+    },
+    {
+      "id": "vienna-pg-05-carnival-and-lent",
+      "ch": "vienna-ch-05-bruegel",
+      "significance": "重要藏品",
+      "image": "https://www.khm.at/pics/320/GG_1016_2018_CD_web1.jpg",
+      "imageSource": "https://www.khm.at/en/artworks/the-fight-between-carnival-and-lent-320",
+      "imageCaption": "狂欢节与四旬斋之战，老彼得·勃鲁盖尔 Pieter Bruegel the Elder · 尼德兰，1559年。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/artworks/the-fight-between-carnival-and-lent-320"
+    },
+    {
+      "id": "vienna-pg-06-art-of-painting",
+      "ch": "vienna-ch-06-painting",
+      "significance": "稀世珍品",
+      "image": "https://www.khm.at/pics/2574/GG_9128_CD_web1.jpg",
+      "imageSource": "https://www.khm.at/en/artworks/the-art-of-painting-2574",
+      "imageCaption": "绘画的艺术，约翰内斯·维米尔 Johannes Vermeer · 荷兰，约 1666/68。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/artworks/the-art-of-painting-2574"
+    },
+    {
+      "id": "vienna-pg-07-infanta-margarita-blue",
+      "ch": "vienna-ch-06-painting",
+      "significance": "重要藏品",
+      "image": "https://www.khm.at/pics/2027/GG_2130_201309_CD_web1.jpg",
+      "imageSource": "https://www.khm.at/en/artworks/infanta-margarita-in-a-blue-dress-2027",
+      "imageCaption": "身着蓝裙的玛格丽特公主，迭戈·委拉斯开兹 Diego Velázquez · 西班牙，1659年。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/artworks/infanta-margarita-in-a-blue-dress-2027"
+    },
+    {
+      "id": "vienna-pg-12-rubens-self-portrait",
+      "ch": "vienna-ch-06-painting",
+      "significance": "重要藏品",
+      "availabilityTag": "展出状态待核验",
+      "image": "https://www.khm.at/pics/1638/GG_527_CD_ALT_web1.jpg",
+      "imageSource": "https://www.khm.at/en/artworks/self-portrait-1638",
+      "imageCaption": "自画像，彼得·保罗·鲁本斯 Peter Paul Rubens · 弗兰德斯，1638/1640。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/artworks/self-portrait-1638"
+    },
+    {
+      "id": "vienna-pg-13-cardinal-albergati",
+      "ch": "vienna-ch-06-painting",
+      "significance": "重要藏品",
+      "availabilityTag": "展出状态待核验",
+      "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Jan%20van%20Eyck%2C%20%2C%20Kunsthistorisches%20Museum%20Wien%2C%20Gem%C3%A4ldegalerie%20-%20Kardinal%20Niccol%C3%B2%20Albergati%20%5E%20%281375-1443%29%20-%20GG%20975%20-%20Kunsthistorisches%20Museum.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Jan_van_Eyck,_,_Kunsthistorisches_Museum_Wien,_Gem%C3%A4ldegalerie_-_Kardinal_Niccol%C3%B2_Albergati_%5E_(1375-1443)_-_GG_975_-_Kunsthistorisches_Museum.jpg",
+      "imageCaption": "红衣主教尼科洛·阿尔贝加蒂（？），扬·凡·艾克 Jan van Eyck · 早期尼德兰，约 1435。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/kunstwerke/kardinal-niccol-albergati-1375-1443-680"
+    },
+    {
+      "id": "vienna-pg-16-parmigianino-convex-self-portrait",
+      "ch": "vienna-ch-06-painting",
+      "significance": "重要藏品",
+      "image": "https://www.khm.at/pics/1407/GG_286_CD_web1.jpg",
+      "imageSource": "https://www.khm.at/en/artworks/selbstbildnis-im-konvexspiegel-1407",
+      "imageCaption": "凸面镜中的自画像，帕尔米贾尼诺 Parmigianino · 意大利／艾米利亚，约 1523/1524。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/artworks/selbstbildnis-im-konvexspiegel-1407"
+    },
+    {
+      "id": "vienna-pg-15-summer",
+      "ch": "vienna-ch-06-painting",
+      "significance": "重要藏品",
+      "image": "https://www.khm.at/pics/71/GG_1589_CD_web1.jpg",
+      "imageSource": "https://www.khm.at/en/artworks/summer-71",
+      "imageCaption": "夏，朱塞佩·阿尔钦博托 Giuseppe Arcimboldo · 意大利／伦巴第，1563年。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/artworks/summer-71"
+    },
+    {
+      "id": "vienna-pg-08-madonna-of-the-meadow",
+      "ch": "vienna-ch-06-painting",
+      "significance": "重要藏品",
+      "image": "https://www.khm.at/pics/1502/GG_175_Gesamt_CD_web1.jpg",
+      "imageSource": "https://www.khm.at/en/artworks/the-madonna-of-the-meadow-1502",
+      "imageCaption": "草地圣母，拉斐尔 Raphael · 意大利，1505 或 1506年。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/artworks/the-madonna-of-the-meadow-1502"
+    },
+    {
+      "id": "vienna-pg-14-madonna-with-the-pear",
+      "ch": "vienna-ch-06-painting",
+      "significance": "重要藏品",
+      "image": "https://www.khm.at/pics/616/GG_848_CD_web1.jpg",
+      "imageSource": "https://www.khm.at/en/artworks/madonna-with-the-pear-616",
+      "imageCaption": "梨子圣母，阿尔布雷希特·丢勒 Albrecht Dürer · 德意志／纽伦堡，1512。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/artworks/madonna-with-the-pear-616"
+    },
+    {
+      "id": "vienna-pg-09-madonna-of-the-rosary",
+      "ch": "vienna-ch-06-painting",
+      "significance": "重要藏品",
+      "image": "https://www.khm.at/pics/425/GG_147_201904_CD_web1.jpg",
+      "imageSource": "https://www.khm.at/en/objectdb/detail/425/",
+      "imageCaption": "玫瑰经圣母，卡拉瓦乔 Caravaggio · 意大利，约 1603。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/objectdb/detail/425/"
+    },
+    {
+      "id": "vienna-pg-11-judith-veronese",
+      "ch": "vienna-ch-06-painting",
+      "significance": "重要藏品",
+      "image": "https://www.khm.at/pics/390/GG_34_HP.jpg",
+      "imageSource": "https://www.khm.at/en/artworks/judith-with-the-head-of-holofernes-390",
+      "imageCaption": "朱迪斯与霍洛芬的头颅，保罗·委罗内塞 Paolo Veronese · 意大利（威尼斯），约 1582 年。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/artworks/judith-with-the-head-of-holofernes-390"
+    },
+    {
+      "id": "vienna-pg-10-nymph-and-shepherd",
+      "ch": "vienna-ch-06-painting",
+      "significance": "重要藏品",
+      "image": "https://www.khm.at/pics/1950/GG_1825_CD_web1.jpg",
+      "imageSource": "https://www.khm.at/en/artworks/nymph-and-shepherd-1950",
+      "imageCaption": "宁芙与牧羊人，提香 Titian · 意大利威尼斯，约 1570/75。",
+      "imageKind": "work",
+      "source": "https://www.khm.at/en/artworks/nymph-and-shepherd-1950"
+    }
+  ],
+  "publication": {
+    "dataFile": "vienna.js",
+    "cacheKey": "20260724-m28-9-vienna",
+    "cachePages": [
+      "index.html",
+      "museum.html"
+    ]
+  }
+}

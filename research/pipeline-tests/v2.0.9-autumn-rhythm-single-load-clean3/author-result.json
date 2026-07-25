@@ -1,0 +1,40 @@
+{
+    "runId":  "m28-v2.0.9-autumn-rhythm-single-load-clean3-2026-07-22",
+    "stage":  "author",
+    "pipelineVersion":  "2.0.9",
+    "instructionVersion":  "1.7.4",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-22T21:07:30.1311544-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/generation-pipeline.md",
+                       "sha256":  "331bcf0f9364270ea1ca518324bb3179a55acf28a3f46d52badfbfbc3fa2acd6"
+                   },
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "sha256":  "30a823bc0d6c1d41d6072ff3749a986711dd9e717cecb1f8ac534e6916b38307"
+                   },
+                   {
+                       "path":  "research/pipeline-tests/v2.0.9-autumn-rhythm-single-load-clean3/research-card.md",
+                       "sha256":  "46980e193ca0028155f177fe586f20e3b850f068e7c4da7c8ca68150a19772e3"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "4f332dfec64633a4f18350dab68823a547ed3a9e6517228ceaa8245c2025f4d0",
+                        "bytes":  14472
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "9d88113c49552a24cac17a7cc99da3e858d7968d13a4804b475ef98067660181",
+                        "bytes":  265
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "d17bb9d9ac0e64950265ce850a200acb2c15bc171e97dbf84725cbe367b13e4c",
+                        "bytes":  6866
+                    }
+                ]
+}

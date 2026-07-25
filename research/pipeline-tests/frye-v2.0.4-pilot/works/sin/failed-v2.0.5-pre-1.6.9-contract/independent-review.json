@@ -1,0 +1,315 @@
+{
+  "workId": "sin",
+  "runId": "m28-frye-v2.0.5-pilot-2026-07-22",
+  "reviewType": "fresh-independent-review",
+  "pipelineVersion": "2.0.5",
+  "instructionVersion": "1.6.8",
+  "model": "gpt-5.6-sol",
+  "reasoningEffort": "high",
+  "participatedInAuthoring": false,
+  "authorArtifactsEdited": false,
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "8f50759de1191c5606ddd553f5df701ecc01bc32c848e41d4fe312fd54118403"
+  },
+  "actualSha256": {
+    "research-card.md": "b50bac56599f636bda59fb9483daad1fc378034f221609506956d0a239e26154",
+    "writing-plan.json": "19fb988e9647ceddfc8693021a3fe0c90915b8610a247a39ae007ddb31998d65",
+    "card.txt": "294e81b1ac392779e79a1b353ab92919df29f28039196cef19439162647b0460",
+    "draft.md": "8f50759de1191c5606ddd553f5df701ecc01bc32c848e41d4fe312fd54118403"
+  },
+  "lockedInputSubsetVerification": {
+    "verdict": "PASS",
+    "checks": [
+      {
+        "filename": "research/meowseum-content-instruction.md",
+        "declaredSha256": "d7382e972b98d08c30b10554bbc2e8b5cc9ce9e6c51d31d38d2d43b36a806ade",
+        "actualSha256": "d7382e972b98d08c30b10554bbc2e8b5cc9ce9e6c51d31d38d2d43b36a806ade",
+        "matches": true
+      },
+      {
+        "filename": "research/generation-pipeline.md",
+        "declaredSha256": "1de6bc62de70f337ed3c61bb85e36422df4553ff3befe955127535c881429253",
+        "actualSha256": "1de6bc62de70f337ed3c61bb85e36422df4553ff3befe955127535c881429253",
+        "matches": true
+      },
+      {
+        "filename": "research/pipeline-tests/frye-v2.0.4-pilot/batch-01/source-pack.md",
+        "declaredSha256": "92503d9ecd2cd5639bd9280c77b540e01ff7875eeddf5411d12d819a4b028516",
+        "actualSha256": "92503d9ecd2cd5639bd9280c77b540e01ff7875eeddf5411d12d819a4b028516",
+        "matches": true
+      }
+    ]
+  },
+  "directUpstreamChainVerification": {
+    "verdict": "PASS",
+    "complete": true,
+    "links": [
+      {
+        "artifact": "research-card.md",
+        "declaredDirectUpstream": "../../batch-01/source-pack.md",
+        "declaredSha256": "92503d9ecd2cd5639bd9280c77b540e01ff7875eeddf5411d12d819a4b028516",
+        "actualSha256": "92503d9ecd2cd5639bd9280c77b540e01ff7875eeddf5411d12d819a4b028516",
+        "matches": true
+      },
+      {
+        "artifact": "writing-plan.json",
+        "declaredDirectUpstream": "research-card.md",
+        "declaredSha256": "b50bac56599f636bda59fb9483daad1fc378034f221609506956d0a239e26154",
+        "actualSha256": "b50bac56599f636bda59fb9483daad1fc378034f221609506956d0a239e26154",
+        "matches": true
+      },
+      {
+        "artifact": "card.txt",
+        "declaredDirectUpstream": "writing-plan.json",
+        "declaredSha256": "19fb988e9647ceddfc8693021a3fe0c90915b8610a247a39ae007ddb31998d65",
+        "actualSha256": "19fb988e9647ceddfc8693021a3fe0c90915b8610a247a39ae007ddb31998d65",
+        "matches": true
+      },
+      {
+        "artifact": "draft.md",
+        "declaredDirectUpstream": "card.txt",
+        "declaredSha256": "294e81b1ac392779e79a1b353ab92919df29f28039196cef19439162647b0460",
+        "actualSha256": "294e81b1ac392779e79a1b353ab92919df29f28039196cef19439162647b0460",
+        "matches": true
+      },
+      {
+        "artifact": "independent-review.json",
+        "declaredDirectUpstream": "draft.md",
+        "declaredSha256": "8f50759de1191c5606ddd553f5df701ecc01bc32c848e41d4fe312fd54118403",
+        "actualSha256": "8f50759de1191c5606ddd553f5df701ecc01bc32c848e41d4fe312fd54118403",
+        "matches": true
+      }
+    ]
+  },
+  "mechanicalVerdict": {
+    "verdict": "PASS",
+    "countingMethod": "Removed HTML comments and Markdown control syntax, collapsed whitespace, and counted rendered visible characters.",
+    "cardVisibleCharacters": 78,
+    "cardRequiredRange": "24-100",
+    "quickVisibleCharacters": 115,
+    "quickRequiredRange": "70-240",
+    "deepVisibleCharacters": 986,
+    "deepRequiredMinimum": 320,
+    "observableDetailCount": 5,
+    "observableDetailRequiredMinimum": 4,
+    "clickableSourceCount": 4,
+    "completeMetadata": true,
+    "dualLayerStructure": true,
+    "factBoundaryPresent": true,
+    "workSpecificLastLookPresent": true
+  },
+  "layerIndependence": {
+    "verdict": "PASS",
+    "card": "The card makes its own value judgment about the paired gaze and Frye collection role; it is not copied from the quick layer.",
+    "quick": "The quick layer independently gives a visible tension, a provisional answer, and an executable route through snake, eyes, darkness, and frame.",
+    "deep": "The deep layer remains intelligible without the quick layer because it restates the core question and establishes allegory, spatial mechanism, version history, comparison, and significance with new evidence.",
+    "quickWithoutDeep": "The quick layer still explains why to look and how to begin if the deep layer is removed.",
+    "deepWithoutQuick": "The deep layer still establishes its own premises if the quick layer is removed."
+  },
+  "paragraphDependencyReview": {
+    "verdict": "PASS",
+    "paragraphs": [
+      {
+        "paragraph": "Deep section 1: title, body, snake, and paired gaze establish the allegorical encounter and the Eve boundary.",
+        "dependsOn": "No earlier deep paragraph; it establishes the starting premise.",
+        "newUnderstanding": "The subject is an open allegory built through two outward gazes, not a securely identified biblical figure.",
+        "breaksIfMovedEarlier": "Not applicable; this is the required first premise."
+      },
+      {
+        "paragraph": "Deep section 2: narrow format, darkness, shoulder line, and architectural frame explain how the encounter is physically produced.",
+        "dependsOn": "The first section has already established what the encounter is and why the paired gaze matters.",
+        "newUnderstanding": "Frame and darkness become active spatial devices rather than background decoration.",
+        "breaksIfMovedEarlier": "The phrase about making the encounter would lack the allegorical and gaze-based premise."
+      },
+      {
+        "paragraph": "Deep section 3: repeated versions and the 1893 comparator re-evaluate the Frye work's importance.",
+        "dependsOn": "The prior section has identified the concentrated mechanism that can recur across versions.",
+        "newUnderstanding": "Value shifts from possible uniqueness to a mature repeated mechanism and a specific Frye collection role.",
+        "breaksIfMovedEarlier": "The version comparison would arrive before the reader knows which formal mechanism is being compared."
+      },
+      {
+        "paragraph": "Detail list and last look return the argument to the paired eyes, snake head, disappearing body, narrow field, and gold frame.",
+        "dependsOn": "The preceding sections have assigned those details allegorical, spatial, and comparative meaning.",
+        "newUnderstanding": "The reader can test the argument on the object and distinguish concentrated viewing power from rarity.",
+        "breaksIfMovedEarlier": "The actions would become a generic checklist without the established significance boundary."
+      }
+    ],
+    "arbitraryReorderingWouldDamageUnderstanding": true
+  },
+  "claimAudit": {
+    "verdict": "PASS",
+    "everyVisitorClaimChecked": true,
+    "checks": [
+      {
+        "claimGroup": "Identity, author, country label, date, medium, dimensions, collection identity, accession number, and dated on-view snapshot",
+        "evidenceType": "source fact",
+        "basis": "Frye object record and the mandatory-metadata supplement in the supplied source pack and research card",
+        "verdict": "PASS"
+      },
+      {
+        "claimGroup": "Near-black background, narrow vertical format, exposed upper body, snake crossing both shoulders with head toward the right front, paired eye highlights, lower torso disappearing into shadow, and architectural gold frame",
+        "evidenceType": "direct observation",
+        "basis": "Supplied Frye image observations recorded in the source pack, research card, and writing plan",
+        "verdict": "PASS"
+      },
+      {
+        "claimGroup": "The title, nude body, and snake place the figure in an allegorical field of sin and temptation without securely identifying Eve",
+        "evidenceType": "source-supported interpretation with explicit boundary",
+        "basis": "Source pack and research card; the draft preserves the uncertainty",
+        "verdict": "PASS"
+      },
+      {
+        "claimGroup": "Symbolist method joins allegory, erotic body, dark field, concentrated composition, and architectural framing",
+        "evidenceType": "source fact plus editorial inference tied to visible evidence",
+        "basis": "Source pack's style framework, Frye exhibition context, and object-specific observations",
+        "verdict": "PASS"
+      },
+      {
+        "claimGroup": "Stuck returned to this motif during 1891-1912; the Frye work is a later version; the 1893 Neue Pinakothek work was an earlier successful version",
+        "evidenceType": "source fact",
+        "basis": "Neue Pinakothek evidence as captured in the supplied source pack and research card",
+        "verdict": "PASS"
+      },
+      {
+        "claimGroup": "The 1893 comparator shares dark background, shoulder-crossing snake, frontal gaze, and narrow vertical format, while differing in date, medium, specific frame, and color",
+        "evidenceType": "source-supported comparison",
+        "basis": "Supplied comparison record in the source pack, research card, and writing plan",
+        "verdict": "PASS"
+      },
+      {
+        "claimGroup": "The work is important for concentrated formal achievement, Stuck's career motif, Munich Symbolism, and Frye's collection narrative, while multiple related versions limit rarity and global non-substitutability",
+        "evidenceType": "editorial significance judgment supported by comparison",
+        "basis": "Supplied five-dimension significance record and nearest-comparator boundary",
+        "verdict": "PASS"
+      }
+    ],
+    "forbiddenUpgradesFound": [],
+    "unplannedHighRiskClaims": []
+  },
+  "factBoundaryVerdict": {
+    "verdict": "PASS",
+    "evidence": [
+      "No exact version count is asserted.",
+      "The figure is not identified as Eve.",
+      "No psychology, moral state, or certain authorial intention is assigned.",
+      "Viewing order is not converted into historical sequence.",
+      "The 2026-07-22 on-view status is explicitly limited to a changeable snapshot.",
+      "The work is not called an original, unique version, most famous version, rare treasure, or trip-determining masterpiece."
+    ]
+  },
+  "narrativeVerdict": {
+    "verdict": "PASS",
+    "coreQuestion": "为什么女人和蛇要一起盯住你？",
+    "evidence": "The quick layer answers with a frontal allegorical encounter; the deep sections successively establish allegorical limits, explain the spatial mechanism, and use version comparison to change the meaning of importance; the last look returns that revised answer to visible details.",
+    "inventedReaderCorrection": false,
+    "psychologyLeak": false,
+    "viewingOrderAsHistory": false,
+    "fixedGuideOpening": false
+  },
+  "nativeChineseVerdict": {
+    "verdict": "FAIL",
+    "oneBreathParaphrase": "这幅画用女人和蛇同时朝外的目光、大片黑暗和金色画框，把‘罪’变成观者无法轻易避开的正面遭遇；多个近似版本说明它的价值在成熟构图和 Frye 馆内作用，而不在唯一性。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "failed",
+    "findings": [
+      {
+        "location": "card.txt",
+        "evidence": "‘弗朗茨·冯·施图克 Franz von Stuck · 德国在《罪》Die Sünde 里……’",
+        "reason": "The author-country label runs directly into the sentence. Read aloud, ‘德国在’ is parsed as part of the sentence and briefly makes Germany sound like the acting subject, so the card is not natural, immediately intelligible Chinese."
+      },
+      {
+        "location": "draft.md before the fact-boundary section",
+        "evidence": "‘……一场与你正面相遇的寓意，而非一段只能远观的故事’ and ‘所谓风格，在这里不是一个流派标签，而是……’",
+        "reason": "These are two complete negation-contrast structures in visitor prose. The canonical instruction permits at most one per work, so the repeated review-like scaffold fails the locked language gate."
+      }
+    ]
+  },
+  "significanceVerdict": {
+    "verdict": "PASS",
+    "label": "重要藏品",
+    "fiveDimensions": {
+      "artisticAchievement": "PASS — the judgment is tied to narrow format, dark field, paired gazes, horizontal snake movement, and architectural frame.",
+      "artHistoryAndCareer": "PASS — the draft identifies a later instance of Stuck's successful recurring motif and connects it to his Symbolist practice.",
+      "historicalCulturalValue": "PASS — the draft explains how the object preserves Munich Symbolism's combination of allegory, body, and total design without inflating it into event history.",
+      "rarityAndIrreplaceability": "PASS — multiple related versions are acknowledged, exact total remains unknown, and the 1893 comparator can supply much of the same core art-historical value.",
+      "collectionPosition": "PASS — the work is specifically justified as a Frye anchor for Stuck and Munich Symbolism."
+    },
+    "comparisonCategory": "Franz von Stuck's Symbolist ‘sin / snake and woman’ motif versions",
+    "nearestComparator": "Franz von Stuck, 1893 Die Sünde, Neue Pinakothek",
+    "sharedCore": "Dark background, snake across the shoulders, frontal gaze, narrow vertical format, and sin/temptation allegory.",
+    "decisiveDifferences": "Date, medium, specific frame, and color treatment.",
+    "nonSubstitutabilityBoundary": "The Frye work is collection-specific and narratively important inside Frye, but related versions can provide the motif's main global art-historical value; it therefore does not cross the rare-treasure gate.",
+    "frye72BoundaryRespected": true
+  },
+  "workSpecificVerdict": {
+    "verdict": "PASS",
+    "evidence": "The paired human and snake eyes, snake head at the right front, disappearing torso, narrow field, architectural gold frame, 1891-1912 version practice, 1893 comparator, and Frye's Stuck/Munich Symbolism role make the paragraphs and final look non-transferable to another work."
+  },
+  "productionLanguageVerdict": {
+    "verdict": "PASS",
+    "scannedSurfaces": [
+      "card.txt visitor prose",
+      "draft.md metadata",
+      "draft.md quick layer",
+      "draft.md deep layer",
+      "draft.md detail list",
+      "draft.md last look",
+      "draft.md fact boundary",
+      "draft.md sources line"
+    ],
+    "internalProductionLanguageMatches": [],
+    "evidence": "No research-gap task, image-license task, publication task, test, prompt, generator, reviewer, pipeline, or migration language appears in visitor prose. References to versions concern the artwork's version history and are not production language."
+  },
+  "voiceScores": {
+    "entry": {
+      "score": 2,
+      "evidence": "‘女子的大部分身体沉进黑暗，女子和蛇的眼睛却同时亮起’ opens with an object-specific visual tension rather than biography or chronology."
+    },
+    "causality": {
+      "score": 2,
+      "evidence": "The text explains how darkness, shoulder line, snake movement, narrow format, and frame create viewing pressure, then why repeated versions change the basis of value."
+    },
+    "people": {
+      "score": 2,
+      "evidence": "Where human choice is relevant, Stuck's repeated return to the motif is used to make the work's career position and mature mechanism understandable; irrelevant institutional drama is not invented."
+    },
+    "turn": {
+      "score": 2,
+      "evidence": "The 1893 comparison changes the reader's understanding of preciousness from possible uniqueness to mature formal achievement and Frye-specific collection value."
+    },
+    "visualPayoff": {
+      "score": 2,
+      "evidence": "Every interpretive step returns to the eyes, snake, shoulders, dark body boundary, vertical field, or gold frame, followed by five executable detail checks."
+    },
+    "oralClarity": {
+      "score": 1,
+      "evidence": "Most of the draft is clear and speakable, but the card's ‘德国在《罪》’ collision and the repeated negation-contrast scaffold create audible editorial stiffness."
+    },
+    "secondLook": {
+      "score": 2,
+      "evidence": "The ending asks the reader to hold the woman's eyes, right-side snake head, and gold frame together while re-reading darkness as the device that advances the paired gaze."
+    },
+    "total": 13,
+    "maximum": 14,
+    "threshold": 12,
+    "hasZero": false,
+    "verdict": "PASS"
+  },
+  "hardGateFailures": [
+    {
+      "gate": "Natural Chinese read-aloud gate",
+      "reason": "The card's author-country label is not grammatically separated from the sentence, producing the audible collision ‘德国在《罪》’."
+    },
+    {
+      "gate": "Maximum one complete negation-contrast structure in visitor prose",
+      "reason": "Before the fact-boundary section, the draft contains both an ‘A，而非 B’ structure and a ‘不是 A，而是 B’ structure."
+    }
+  ],
+  "actionableFailureReasons": [
+    "Return card.txt to writing because the author-country display runs directly into the sentence and fails natural spoken Chinese; grammatically separate the metadata label from the sentence without changing the factual contract.",
+    "Return draft.md to writing because visitor prose contains two complete negation-contrast structures before the fact-boundary section; reduce the work to at most one such structure and rerun the full independent review."
+  ],
+  "voiceVerdict": "PASS",
+  "finalVerdict": "FAIL"
+}

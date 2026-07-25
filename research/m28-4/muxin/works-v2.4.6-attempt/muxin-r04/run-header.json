@@ -1,0 +1,47 @@
+{
+  "runId": "m28-4-muxin-author-muxin-r04-2026-07-23",
+  "startedAt": "2026-07-24T04:52:25.825Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card_after_verified_selection",
+  "museumId": "muxin",
+  "workId": "muxin-r04",
+  "workIdentity": "《战争前夜》，2001年，纸本彩墨；10.8 × 54.7厘米和约10 × 54厘米为相容的精确值与约数。",
+  "pipelineVersion": "2.4.6",
+  "instructionVersion": "2.0.2",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c22c60e3a215aa1ac90da402debeb2caf9da39975cb2921c4845ef74ef14c834"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "e7b049c97e262a0a9f2e334388ffadfb2013ce5a3fded20f7063256d03bb7e56"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-4/muxin/replacement-research/muxin-r04-research-card.md",
+      "sha256": "8efb088dbf4f38884ee952f523de7cb7c3b18fda40587dd3acd244190099dc85"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-r04/work-selection.json",
+      "sha256": "36334c4547547ab7aa38c5c70ad8c81cabb4924997b8f4a6445e2656e9ad8868"
+    },
+    {
+      "path": "research/m28-4/muxin/integration/museum-plan.json",
+      "sha256": "f1667c694974a0128558ce6d9519b3a616cab05d4dc3a4f4d00caf5ec62862b2"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

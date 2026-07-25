@@ -1,0 +1,154 @@
+{
+  "workId": "dordrecht",
+  "directUpstream": {
+    "filename": "research-card.md",
+    "sha256": "c3bb8894b9129dfe4a0a49d38f096ac9e191fc99fed4b39448294cbc94898c35"
+  },
+  "readerBaseline": "读者只从标题知道画的是多德雷赫特与一座教堂；从画面能看到大片云天、低矮城廓、水面、船帆和塔楼，不预设读者认识具体教堂、布丹的旅行史或法国风景画史。",
+  "workSpecificQuestion": "为什么标题点出教堂，画面里最有分量的却是天空？",
+  "quickLayerPromise": {
+    "visibleTension": "教堂塔楼提供地点标记，却被压在很低的城市轮廓里，天空占据画面大部。",
+    "provisionalAnswer": "布丹用低地平线、层叠云色和水面短笔触，把城市地标变成衡量天气与光线的尺度。",
+    "viewingRoute": [
+      "比较天空与城廓所占面积",
+      "辨认灰、白、蓝云层的叠压",
+      "沿水面横向短笔触寻找天空的色彩回应",
+      "用塔楼、船帆和暗岸线确认城市尺度"
+    ]
+  },
+  "cognitionSteps": [
+    {
+      "step": 1,
+      "discovery": "标题中的教堂只占低处一个小轮廓，天空才是面积最大的部分。",
+      "changesUnderstanding": "读者从寻找建筑主体，转为追问建筑为何被缩小。",
+      "thereforeNext": "需要看画家怎样让天空取得视觉重量。"
+    },
+    {
+      "step": 2,
+      "discovery": "低地平线、灰白蓝云层与水面横向短笔触把天空和水连成一套天气结构。",
+      "changesUnderstanding": "建筑不再只是被画小，而成为判断天气尺度与远近的参照。",
+      "thereforeNext": "需要解释这种处理与布丹晚期港口、海岸题材的关系。"
+    },
+    {
+      "step": 3,
+      "discovery": "作品属于布丹晚期，延续其以港口、海岸和多变天空为重心的户外观察；小木板让笔触与天气变化显得集中。",
+      "changesUnderstanding": "画面的简略不等于信息贫乏，有限面积被用来组织云、水、船岸和城廓的关系。",
+      "thereforeNext": "需要与最接近的 Le Havre 港景群比较，判断这件小画的具体价值。"
+    },
+    {
+      "step": 4,
+      "discovery": "它与 Le Havre 港景群共享低地平线、主导云层和缩小船岸，但 Dordrecht 的教堂轮廓提供明确城市识别，载体又是小木板。",
+      "changesUnderstanding": "作品的价值落在具体地点如何进入布丹的天气方法，而不依赖独一性或宏大尺幅。",
+      "thereforeNext": "最后应回到塔楼与水面，检验地点标记怎样稳住不断变化的天空。"
+    }
+  ],
+  "humorBasis": null,
+  "forbiddenAssumptions": [
+    "不把标题中的 cathedral 改写为 Grote Kerk 或其他具体教堂名。",
+    "不假定作品在多德雷赫特户外一气呵成。",
+    "不补写具体旅次、停留日期或完成地点。",
+    "不写布丹当时的心理、意图或对城市的感情。",
+    "不把读者设定为原本误认教堂是主体。",
+    "不把画面观看顺序写成真实作画顺序。",
+    "不把本作称为布丹独一、最大、最高峰或决定行程的代表作。",
+    "不写 Monet 影响关系。"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "画家有意让天空压过教堂。",
+      "evidenceType": "直接观察加编辑推断",
+      "allowedWording": "低地平线使天空占据大部，教堂轮廓成为低处的地点标记。",
+      "forbiddenUpgrade": "不得写成作者明确意图或心理选择。"
+    },
+    {
+      "claim": "画作在多德雷赫特现场迅速完成。",
+      "evidenceType": "无充分来源",
+      "allowedWording": "可描述迅速、可见的笔触；不陈述完成地点和作画时长。",
+      "forbiddenUpgrade": "不得写现场一气呵成、写生完成或某次旅途中完成。"
+    },
+    {
+      "claim": "塔楼就是 Grote Kerk。",
+      "evidenceType": "馆方标题只确认 cathedral",
+      "allowedWording": "多德雷赫特的教堂或教堂塔楼。",
+      "forbiddenUpgrade": "不得给出具体建筑学名。"
+    },
+    {
+      "claim": "小木板证明布丹追求即时天气记录。",
+      "evidenceType": "来源事实与形式观察不足以证明意图",
+      "allowedWording": "小木板的有限面积集中呈现云层、水面和城廓。",
+      "forbiddenUpgrade": "不得由载体推出作者意图、速度或户外完成方式。"
+    },
+    {
+      "claim": "本作不可替代或极其稀有。",
+      "evidenceType": "比较结论不支持",
+      "allowedWording": "它在 Frye 以德语区绘画为重的创馆收藏中，补入法国画家观察港口天气的一条清楚支线。",
+      "forbiddenUpgrade": "不得称稀世珍品、唯一实例或足以改变旅行路线。"
+    }
+  ],
+  "historicalContextPlan": {
+    "applicable": false,
+    "reason": "作品的重要性不依赖具体事件、政治变化、宗教改革、制度转型或社会冲突；只需交代十九世纪港口城市与天气观察的题材语境，不建立历史事件因果。",
+    "beforeState": null,
+    "changeOrConflict": null,
+    "objectRole": null,
+    "consequence": null,
+    "uncertainty": "具体旅次与完成地点未确认。",
+    "placement": "快层不放历史事件；深层在解释晚期方法时用一句题材语境承接画面。"
+  },
+  "authorStyle": {
+    "careerPosition": "约 1885—89，属于布丹晚期。",
+    "visibleFeatures": [
+      "低地平线",
+      "灰白蓝云层占据画面大部",
+      "水面横向短笔触回应天空",
+      "船、岸与城市轮廓被压缩为低处标记"
+    ],
+    "classification": "晚期典型的港口城市与天气风景方法；不扩写为未经权威来源支持的生涯高峰或影响史结论。"
+  },
+  "significance": {
+    "label": "特色看点",
+    "priority": "强烈推荐",
+    "fiveDimensions": {
+      "artisticAchievement": "小尺幅中以低地平线、云层综合色与横向水纹建立清楚的空间和天气关系，形式控制具体而集中。",
+      "artHistoryPosition": "处于布丹晚期港口、海岸与多变天空的持续实践中；本作自身不主张开创性或生涯高峰。",
+      "historicalCulturalValue": "Dordrecht 的城市与教堂轮廓保留地点识别，但具体旅次和建筑身份边界未确认。",
+      "rarityAndIrreplaceability": "稀缺性中低；Le Havre 港景群可解释相同核心方法，Dordrecht 地点轮廓与小木板载体提供本作差异，但不足以通过不可替代性硬门。",
+      "collectionPosition": "在 Frye 以德语区绘画为重的创馆收藏中，清楚补入法国户外天气实践。"
+    },
+    "nearestComparator": {
+      "category": "布丹的港口城市／天气风景",
+      "object": "Boudin 的 Le Havre 港景群",
+      "sharedCore": "低地平线、云层主导、船与岸线缩小。",
+      "decisiveDifference": "本作由 Dordrecht 教堂轮廓提供城市识别，并使用小木板载体。",
+      "boundary": "现有证据不能确认全球数量或证明本作优于、独一于该比较组。"
+    },
+    "frye72Boundary": "只说明它对创馆收藏主线的补充作用；不称世界级必看、稀世孤品、决定行程或值得专程绕行。"
+  },
+  "observableDetails": [
+    "横向小木板上，地平线压得很低。",
+    "灰、白、蓝色云层相互叠压，占据画面大部。",
+    "远处教堂塔楼从低矮城市轮廓中升起。",
+    "水面由横向短笔触组成，并回应天空色彩。",
+    "前景可见小船或船帆。",
+    "深色岸线在画面下部稳住横向结构。"
+  ],
+  "secondLook": "最后把目光停在塔楼尖端，再沿同一高度横向扫过城廓；随后向上比较云层的面积、向下比较水面短笔触，体会这枚小小的地点标记怎样同时量出天空与水域的宽阔。",
+  "productionLanguageBoundary": {
+    "visitorAllowed": "可说明馆方标题只确认 Dordrecht 与 cathedral，以及在展状态可能变化。",
+    "visitorForbidden": [
+      "研究缺口",
+      "图片许可任务",
+      "发布任务",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "迁移",
+      "发布前补核"
+    ],
+    "internalOnly": "具体旅次、完成地点、机构级作者传记、Monet 影响关系与图片再利用许可等风险只进入 author-review.json。"
+  },
+  "cardStrategy": "用‘城市地标退到低处、天气成为主角’说明点击价值；独立成句，不复制快层，不以通用观看命令开头。",
+  "detailStrategy": "快层给出完整暂时答案；深层依次从面积反差推进到云水机制、晚期方法与比较边界；细节清单兑现观察；最后一眼用塔楼作为尺度标记回收核心问题。",
+  "negationContrastLimit": "card.txt 与 draft.md 合计最多保留一处完整否定—转折骨架；计划采用零处。"
+}

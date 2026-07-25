@@ -1,0 +1,173 @@
+{
+  "workId": "birch-grove",
+  "artifactType": "writing_plan",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "museumId": "frye",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "directUpstream": {
+    "filename": "research-card.md",
+    "sha256": "09924da1615c31c53e2643b9c94a3dcba1424993768ecb08896a3074efef8a01"
+  },
+  "readerBaseline": {
+    "knownFromImageAndTitle": "零背景读者从标题知道画的是白桦林，从画面能看见横幅中大量白色或浅灰树干、绿黄褐色块、没有明确人物，也没有一座建筑或单棵主树充当焦点。",
+    "likelyToMiss": "树干并非均匀排开；疏密、粗细和前后叠压让重复的竖线同时产生节奏与空间。",
+    "noInventedMisconception": true
+  },
+  "coreQuestion": "没有人物、建筑或单棵主树，这片白桦林为什么仍不会散掉？",
+  "quickLayerPromise": {
+    "visibleTension": "画面塞满相似的浅色树干，却没有一个传统中心。",
+    "provisionalAnswer": "迪尔用树干的疏密、粗细、叠压和综合色块，把重复变成有方向的节奏；越往远处，树干越细、间隙越碎，空间因此成立。",
+    "viewingRoute": [
+      "辨认近处较粗的浅色树干与远处细干",
+      "比较树干聚拢和放开的区域",
+      "观察绿、黄、褐色块怎样穿过竖线",
+      "确认画面不靠人物或建筑收束"
+    ]
+  },
+  "cognitionSteps": [
+    {
+      "step": 1,
+      "discovery": "相似树干没有平均铺满画面，而是以疏密变化组成骨架。",
+      "changesUnderstanding": "读者会把看似随意的一片林子理解为经过组织的画面。",
+      "thereforeNext": "既然没有中央主角，深度又从哪里来？"
+    },
+    {
+      "step": 2,
+      "discovery": "近处树干较粗，远处细干层层切碎空隙；树冠与地面的综合色块从其间穿过。",
+      "changesUnderstanding": "重复的竖线不只装饰表面，也靠粗细、叠压和间隙建立前后。",
+      "thereforeNext": "这种组织方式在作者生涯与世纪之交风景画中应怎样谨慎定位？"
+    },
+    {
+      "step": 3,
+      "discovery": "作品约作于1900年，可作为迪尔成熟期风景中以重复竖线、综合色面和装饰性节奏组织自然的例子。",
+      "changesUnderstanding": "树林题材转化为绘画结构，而不只是某处景色的记录。",
+      "thereforeNext": "这套结构与本馆最近的树木风景比较时，有什么独特回报？"
+    },
+    {
+      "step": 4,
+      "discovery": "与特吕布纳《赫姆斯巴赫城堡的三棵冷杉》相比，两作都以树干为骨架；迪尔轻、密、多且无建筑焦点，特吕布纳则重、少，并以遮挡建筑形成对照。",
+      "changesUnderstanding": "本作的价值落在一种具体的轻密节奏，以及它对Frye创馆收藏中慕尼黑风景现代性的补充。",
+      "thereforeNext": "最后应如何用第二眼验证这种轻密节奏确实产生空间？"
+    },
+    {
+      "step": 5,
+      "discovery": "沿一根近处粗干向上看，再把目光移到其旁远处的细干，可同时看见表面节奏和空间层次。",
+      "changesUnderstanding": "开头的无中心不再等于松散，而成为这幅画的观看机制。",
+      "thereforeNext": "核心问题闭合。"
+    }
+  ],
+  "humorBasis": null,
+  "forbiddenAssumptions": [
+    "画面描绘某个可命名的具体地点",
+    "画面属于某个可确定的季节",
+    "白桦具有民族身份或其他确定象征",
+    "作者希望表达某种心理或政治寓意",
+    "画面各区域对应真实行走或作画的时间顺序",
+    "作品是慕尼黑分离派的流派巅峰或曾参加某次分离派展览",
+    "作品于2026-07-22当天在展",
+    "读者原本把这幅画误认成写生地记录"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "迪尔是慕尼黑分离派创始成员。",
+      "evidenceType": "低置信度次级传记线索",
+      "allowedWording": "访客正文不采用；只以约1900年的世纪之交语境定位。",
+      "forbiddenUpgrade": "不得据此宣称本画参展史、流派领导地位或确定意图。"
+    },
+    {
+      "claim": "重复树干体现作者成熟期的装饰性节奏。",
+      "evidenceType": "研究卡的生涯定位加直接观察",
+      "allowedWording": "可写为‘这件约1900年的成熟期风景，把重复竖线和综合色块变成画面组织方法’。",
+      "forbiddenUpgrade": "不得写成作者首创、最典型或最重要的方法。"
+    },
+    {
+      "claim": "树林的疏密变化形成节奏和空间。",
+      "evidenceType": "直接观察与明确标记的编辑解释",
+      "allowedWording": "用‘你能看见’‘会让’等措辞说明视觉效果。",
+      "forbiddenUpgrade": "不得升级为作者明示意图、真实光线方向或作画顺序。"
+    },
+    {
+      "claim": "本作区分了Frye所藏两种慕尼黑风景现代性。",
+      "evidenceType": "研究卡提供的编辑比较判断",
+      "allowedWording": "限定为与特吕布纳作品并看时得到的馆内比较价值。",
+      "forbiddenUpgrade": "不得称两作穷尽该地区风景现代性，或称本作全球不可替代。"
+    },
+    {
+      "claim": "本作具有不可替代性。",
+      "evidenceType": "比较结论显示单件稀缺与艺术史权重有限",
+      "allowedWording": "只写它在Frye创馆收藏路线中的具体补充作用。",
+      "forbiddenUpgrade": "不得写成稀世珍品、决定行程的杰作、流派巅峰或唯一范例。"
+    }
+  ],
+  "historicalContextPlan": {
+    "applicable": false,
+    "reason": "作品的重要性不依赖一场具体事件、政治变化、宗教改革、制度转型或社会冲突；泛泛补写分离派历史会压过眼前作品，且现有专门来源不足。",
+    "beforeState": null,
+    "changeOrConflict": null,
+    "objectRole": null,
+    "consequence": null,
+    "uncertainty": "作者的分离派职务与更细的风格谱系尚缺机构级专门文献支持。",
+    "placement": "正文只保留‘约1900年的世纪之交成熟风景’这一有元数据支撑的时间锚点，不展开制度史。"
+  },
+  "authorStylePlan": {
+    "applicable": true,
+    "careerPosition": "约1900年的成熟期风景",
+    "visibleFeatures": [
+      "白色或浅灰树干形成重复竖线",
+      "绿、黄、褐色组成相连色面",
+      "树干疏密与粗细变化制造节奏",
+      "远景被层层细干切碎"
+    ],
+    "classification": "成熟期实例；资料不足以称为作者最典型、转折或例外之作",
+    "boundary": "不以分离派标签代替画面分析，不补写无关生平。"
+  },
+  "significance": {
+    "label": "特色看点",
+    "visitPriority": "时间充裕再看",
+    "dimensions": {
+      "artisticAchievement": "中：以疏密、粗细、叠压与综合色块，在没有中心人物或建筑的情况下维持横幅结构。",
+      "artHistoricalPosition": "中低：能说明世纪之交风景画的装饰性组织，但现有证据不能支持开创、转折或流派高峰。",
+      "historicalCulturalValue": "中低：是约1900年的德语地区风景实例和Frye创馆收藏组成，未保存可确认的特定事件或地点证据。",
+      "rarityAndIrreplaceability": "中低：全球数量与决定性稀缺均未确认；同类树木风景可比较，其核心回报可以部分替代。",
+      "collectionPosition": "中高：与特吕布纳作品并看，可把Frye创馆收藏中的两种树干结构和慕尼黑风景取向拆开。"
+    },
+    "comparisonCategory": "白桦林与以树干为骨架的装饰性现代风景",
+    "nearestComparator": {
+      "work": "威廉·特吕布纳 Wilhelm Trübner，《赫姆斯巴赫城堡的三棵冷杉》Drei Tannen in Schloss Hemsbach (Three Firs)",
+      "sharedCore": "都用树干建立画面骨架，并保留可见笔触和浅纵深。",
+      "decisiveDifference": "迪尔的树干轻、密、多，且没有建筑焦点；特吕布纳以三根沉重暗干遮挡并对比白色建筑。",
+      "nonSubstitutableValue": "在馆内比较中，本作提供轻密、连续、无建筑焦点的节奏体验；但这不足以证明全球不可替代性。"
+    },
+    "frye72Boundary": "明确写成创馆收藏中的比较节点和特色看点；不得称为行程级珍品、世界级杰作或值得专程到访的理由。"
+  },
+  "observableDetails": [
+    "大量白色或浅灰树干纵向贯穿横幅",
+    "近处树干较粗，远处细干层层叠压",
+    "树干的聚拢与放开形成不规则疏密",
+    "树冠与地面由绿、黄、褐色块构成",
+    "远处空隙被细树干切成碎片",
+    "画面中没有明确人物或建筑焦点"
+  ],
+  "secondLook": "选一根近处较粗的浅色树干，沿它向上看到树冠，再把目光横移到旁边成片的细干；留意同一组竖线怎样从清楚的前景骨架变成碎密的远景。",
+  "cardPlan": {
+    "purpose": "独立回答为何值得点开：用无中心却不松散的结构回报建立兴趣。",
+    "mustNotCopyQuickLayer": true,
+    "openingBoundary": "不以‘先看、再看、先找、先确认、先别、首先’开头。",
+    "visibleCharacterTarget": "24—100"
+  },
+  "productionLanguageBoundary": {
+    "visitorFiles": ["card.txt", "draft.md"],
+    "forbiddenTopics": [
+      "内部研究缺口",
+      "图片许可任务",
+      "发布任务或状态",
+      "测试与测试稿",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "版本迁移"
+    ],
+    "riskPlacement": "所有内部风险只进入author-review.json；访客可见事实边界只说明作品证据能够确认的地点、季节、象征和在展状态边界。"
+  }
+}

@@ -1,0 +1,66 @@
+{
+    "runId":  "m28-12-v2.7.2-seattle-author-belt-mask-of-iyoba-idia-2026-07-24",
+    "stage":  "author",
+    "museumId":  "seattle",
+    "workId":  "belt-mask-of-iyoba-idia",
+    "pipelineVersion":  "2.7.2",
+    "instructionVersion":  "2.1.1",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-07-24T23:16:48.3316669-07:00",
+    "modelStartedAt":  "2026-07-24T23:16:48.9327292-07:00",
+    "modelCompletedAt":  "2026-07-24T23:18:40.3498830-07:00",
+    "completedAt":  "2026-07-24T23:18:40.3706348-07:00",
+    "runnerDurationMs":  112039,
+    "modelDurationMs":  111417,
+    "tokenUsage":  {
+                       "total":  34815,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "6",
+                                    "8",
+                                    "9",
+                                    "10",
+                                    "12",
+                                    "13",
+                                    "14"
+                                ],
+    "logPath":  "research/m28-12/seattle/works/belt-mask-of-iyoba-idia/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "8c08c30f9d915a8942ed605287f7993a6514742c8f895b427876a6ffabb3fda2"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/research-batch-02/belt-mask-of-iyoba-idia-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "018b597f10ac11f466e4297189323a2a28f480022036afd5e97201d30e79e46f"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/works/belt-mask-of-iyoba-idia/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "8d373511deba5c7a6761d685d83d5dde33670841e99899c084b4db0121d8e018"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "284a866a15935b151ac50921b1d1028884eba035711e8c6b84f3e228c6f973fe",
+                        "bytes":  7806
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "dbe64c713002f910744da2823df11a431a32979450cc7ff87b502ecfa4a03196",
+                        "bytes":  670
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "b36c1f867a0671ee9068f7ce93e22a7c53fe538d42d8db0ecfa8945006175160",
+                        "bytes":  4978
+                    }
+                ]
+}

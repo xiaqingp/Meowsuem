@@ -1,0 +1,174 @@
+{
+  "artifactType": "independent_review",
+  "workId": "soap-bubbles",
+  "reviewerIndependence": {
+    "participatedInAuthoring": false,
+    "authorArtifactsEdited": false,
+    "reviewScope": "fresh independent review from the nine explicitly authorized inputs only"
+  },
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "a57e4308fa3ea4d28b89d3533d634711dc4a35083a7072d9677d3d4f218695a8"
+  },
+  "artifactHashes": {
+    "research-card.md": "88c598876e732c135d5421c2101d2ff8e111b25e6f1941f044f50dc941eb0344",
+    "writing-plan.json": "15c0bb21f6e6c7258f3ca191870656fad7bf8ed9ee0f4f63e22fb28ec890f9ec",
+    "card.txt": "b3db7f90211212cb32e7b759e8e7f31fef8884ffa59a9d8e586aa0e702642065",
+    "draft.md": "a57e4308fa3ea4d28b89d3533d634711dc4a35083a7072d9677d3d4f218695a8"
+  },
+  "directUpstreamChain": {
+    "declaredChain": [
+      {
+        "artifact": "research-card.md",
+        "directUpstream": "../../batch-01/source-pack.md",
+        "declaredSha256": "1b14092fcb94d8fc908227917e92dabf0175f01cb5e1853b2d42d724ecd66e3e",
+        "actualSha256": "1b14092fcb94d8fc908227917e92dabf0175f01cb5e1853b2d42d724ecd66e3e",
+        "verified": true
+      },
+      {
+        "artifact": "writing-plan.json",
+        "directUpstream": "research-card.md",
+        "declaredSha256": "88c598876e732c135d5421c2101d2ff8e111b25e6f1941f044f50dc941eb0344",
+        "actualSha256": "88c598876e732c135d5421c2101d2ff8e111b25e6f1941f044f50dc941eb0344",
+        "verified": true
+      },
+      {
+        "artifact": "card.txt",
+        "directUpstream": "writing-plan.json",
+        "declaredSha256": "15c0bb21f6e6c7258f3ca191870656fad7bf8ed9ee0f4f63e22fb28ec890f9ec",
+        "actualSha256": "15c0bb21f6e6c7258f3ca191870656fad7bf8ed9ee0f4f63e22fb28ec890f9ec",
+        "verified": true
+      },
+      {
+        "artifact": "draft.md",
+        "directUpstream": "card.txt",
+        "declaredSha256": "b3db7f90211212cb32e7b759e8e7f31fef8884ffa59a9d8e586aa0e702642065",
+        "actualSha256": "b3db7f90211212cb32e7b759e8e7f31fef8884ffa59a9d8e586aa0e702642065",
+        "verified": true
+      }
+    ],
+    "completeDeclaredChainVerified": true
+  },
+  "mechanicalChecks": {
+    "cardVisibleCharacters": 34,
+    "cardRequiredRange": "24-100",
+    "quickLayerVisibleCharacters": 137,
+    "quickLayerRequiredRange": "70-240",
+    "deepLayerVisibleCharacters": 1055,
+    "deepLayerMinimum": 320,
+    "observableDetailCount": 5,
+    "observableDetailMinimum": 4,
+    "clickableSourceCount": 3,
+    "completeNegativeContrastSkeletonCountOutsideFactBoundary": 0,
+    "fixedFirstThenTemplate": false,
+    "metadataComplete": true,
+    "dualLayerPresent": true,
+    "objectSpecificFinalLookPresent": true
+  },
+  "mechanicalVerdict": {
+    "verdict": "PASS",
+    "evidence": "Card, quick layer, and deep layer meet the locked character boundaries; metadata, dual layers, five observable-detail prompts, clickable sources, and an object-specific final look are present. No complete prohibited negative-turn skeleton or fixed 先看/再看 opening template was found."
+  },
+  "factBoundaryVerdict": {
+    "verdict": "FAIL",
+    "evidence": [
+      "The draft adds visual assertions not closed by the supplied research-card observation set: ‘手臂把视线带向镜子’ and the claim that a ‘薄薄一圈亮边’ is what makes the bubble visible. The supplied card establishes a diagonal foreground body, concentrated highlights, and a transparent bubble, but does not record those more specific observations or a separately inspectable image as evidence.",
+      "The sentence that the work was loaned to the Lenbachhaus retrospective is supported in the batch source pack, but the visitor-facing 资料 line omits the cited Frye 2011 annual report, so that published claim is not traceable through the draft’s clickable sources."
+    ],
+    "actionableFailures": [
+      "Close or remove the two unrecorded visual assertions through the research-card and plan chain; do not silently treat them as already verified observations.",
+      "Make the retrospective-loan claim traceable to its supplied source in the visitor source list, or remove the claim."
+    ]
+  },
+  "narrativeVerdict": {
+    "verdict": "FAIL",
+    "evidence": "The deep section’s ‘学院训练为什么落在这样私密的一刻？’ paragraph depends on the first composition paragraph but not on the intervening bubble/vanitas paragraph. It can move ahead of that paragraph without losing a required premise, so the declared cognition sequence is not fully realized as paragraph dependency. Quick and deep layers are independently usable, and the final look adds an action rather than merely repeating the opening.",
+    "actionableFailures": [
+      "Rebuild the deep-layer dependency so the author/career paragraph requires a specific understanding established by the immediately preceding meaning paragraph, or reorder the argument through the writing-plan chain."
+    ]
+  },
+  "nativeChineseVerdict": {
+    "verdict": "FAIL",
+    "readAloudVerdict": "failed",
+    "oneBreathParaphrase": "这幅画让一枚夹在脸和手镜之间的透明泡泡变得比实体更醒目，并借它把照镜、消逝感和学院人物画连起来。",
+    "translationeseFindings": [
+      "Card phrase ‘镜中自我、易逝的光和学院人物画拴在同一瞬间’ compresses three abstract categories into an unnatural spoken construction; ‘镜中自我’ and ‘易逝的光’ require decoding before the concrete scene is clear.",
+      "Deep-layer phrase ‘十九世纪学院人物画如何接近日常、暧昧的意义’ has an unclear coordination and reads as abstract nominal compression rather than idiomatic spoken Chinese."
+    ],
+    "actionableFailures": [
+      "Remove the two abstract compressed constructions in the card and deep layer; preserve the claims but make their grammatical relationships orally unambiguous."
+    ]
+  },
+  "significanceVerdict": {
+    "verdict": "PASS",
+    "fiveDimensions": {
+      "artisticAchievement": "The draft identifies the concrete mechanism: round mirror and bubble, diagonal body, and concentrated light give compositional weight to a nearly immaterial form.",
+      "artHistoricalPosition": "It places the work in mature nineteenth-century academic figure painting without claiming innovation or a career peak.",
+      "historicalCulturalValue": "It treats the transience/vanitas tradition as a bounded comparison and explicitly denies the work a major historical-witness function.",
+      "rarityAndIrreplaceability": "It states that rarity is not the main basis and avoids global uniqueness claims.",
+      "collectionPosition": "It explains the Frye-specific link between academic figure painting and the later reflection theme."
+    },
+    "nearestComparator": "David McGranaghan, Self-Portrait",
+    "nonSubstitutabilityBoundary": "The comparator shares circular reflection and self-viewing, while Max’s work uniquely combines a narrative figure, hand mirror, and fragile bubble within this Frye comparison. The draft correctly limits this to a museum-level viewing difference and does not convert it into global uniqueness or a travel-changing masterpiece claim.",
+    "travelBoundaryRespected": true
+  },
+  "workSpecificVerdict": {
+    "verdict": "PASS",
+    "evidence": "The core question, composition mechanism, comparator boundary, five detail prompts, and final distance-measuring action all depend on this work’s face-bubble-mirror arrangement and cannot be transferred unchanged to another object."
+  },
+  "productionLanguageVerdict": {
+    "verdict": "PASS",
+    "evidence": "The complete visitor prose in card.txt and draft.md contains no research-gap, image-permission, publication-todo, test, prompt, generator, reviewer, or version-migration language. The fact boundary discusses only interpretive evidence limits and changing display status."
+  },
+  "layerIndependence": {
+    "cardIndependent": true,
+    "quickLayerIndependent": true,
+    "deepLayerIndependent": true,
+    "verdict": "PASS",
+    "evidence": "The card states a standalone click-worthy value judgment; the quick layer answers why to look and how; the deep layer remains intelligible without the quick layer and adds mechanism, context, comparison, and details rather than merely paraphrasing it."
+  },
+  "voiceScores": {
+    "entrance": {
+      "score": 2,
+      "evidence": "‘画中最有分量的东西，偏偏是一枚几乎没有实体的泡泡’ immediately establishes the work-specific contradiction."
+    },
+    "causality": {
+      "score": 2,
+      "evidence": "The prose explains how position, diagonal movement, circular rhyme, and concentrated highlights make the bubble control attention."
+    },
+    "human": {
+      "score": 1,
+      "evidence": "The private act of looking into a hand mirror anchors the explanation, but the author-career material is more contextual than driven by a human choice; this dimension is only partly applicable."
+    },
+    "turn": {
+      "score": 2,
+      "evidence": "The bubble changes from a near-weightless prop into the compositional center, and the bounded vanitas context then opens meaning without fixing the woman’s psychology."
+    },
+    "visualPayoff": {
+      "score": 2,
+      "evidence": "The argument repeatedly returns to the face, bubble, mirror, hand, dark background, diagonal body, and smaller background figure."
+    },
+    "oralClarity": {
+      "score": 1,
+      "evidence": "Most sentences read naturally aloud, but the card’s abstract compression and ‘接近日常、暧昧的意义’ interrupt oral clarity."
+    },
+    "secondLook": {
+      "score": 2,
+      "evidence": "The ending asks the visitor to compare the bubble’s distances from face and mirror and then follow the face-bubble-mirror-hand light chain."
+    },
+    "total": 12,
+    "maximum": 14,
+    "threshold": 12,
+    "hasZero": false,
+    "verdict": "PASS"
+  },
+  "hardGateFailures": [
+    "fact boundary / assertion closure",
+    "paragraph dependency",
+    "native Chinese / translationese"
+  ],
+  "finalVerdict": {
+    "verdict": "FAIL",
+    "reason": "The 12/14 voice threshold passes with no zero, but canonical hard gates fail for evidence closure, paragraph dependency, and native-Chinese readability. Any hard-gate failure requires final FAIL."
+  }
+}

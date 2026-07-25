@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-egy-01-ka-ni-nisut-chapel-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:34:32.5743850-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-04/vienna-egy-01-ka-ni-nisut-chapel-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "b4fd982dc594ac632e598ca46cd504bfc2955e12a392f5bd6a7be853a47e3caf"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-egy-01-ka-ni-nisut-chapel/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "1aefe6fc9f90146e48d8b8f1e34871adea83048bd03351192b3b049c12ae0a8d"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "e750d4ef6555538e9c7bfb9ebb5d70e7608a2766b910be9d520388b7c7b49020",
+                        "bytes":  9516
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "2bedb6538579058be6c3ad765c1f04211b8efcc87795021a39eb4e5e58d3ff84",
+                        "bytes":  286
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "d31f97c98526806764e7d5f0f1823e145fe4aa61cc468fb4272fba5d101a2645",
+                        "bytes":  3515
+                    }
+                ]
+}

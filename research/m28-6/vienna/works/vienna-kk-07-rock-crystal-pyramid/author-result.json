@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-kk-07-rock-crystal-pyramid-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:39:05.1138106-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-03/vienna-kk-07-rock-crystal-pyramid-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "9beb7b4094bd3240ce00c4c1b48ac01ce9e04d186d3e8b8b878f06a838c6e82f"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-kk-07-rock-crystal-pyramid/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "490a5bed6d61378765d20be7f72892afa3b367528d23798eb73a01d62bd16180"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "2ced6c15c9483b71982779875d1b052bcaefdd71c3128fa092a3ac3355aee7d7",
+                        "bytes":  9808
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "d142c32091c3709d8452b8dea543ee0b0eb9a0963f51c9c194c055606f594c0c",
+                        "bytes":  276
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "c8b9f6aa00918fac7a5aecf9ed73dfff0cedef999fe26c86ec08be7bdd4b5402",
+                        "bytes":  4236
+                    }
+                ]
+}

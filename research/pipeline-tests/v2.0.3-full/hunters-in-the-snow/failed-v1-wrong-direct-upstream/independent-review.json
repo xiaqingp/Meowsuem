@@ -1,0 +1,32 @@
+{
+  "workId": "hunters-in-the-snow",
+  "sha256": {
+    "research-card.md": "8dfb8979064734c51b0897c90720ad01abf28da05c367929716f11f6d305154b",
+    "writing-plan.json": "078e69496b4233efa220788454008dcbc59eb953723cf3cb506a9c9a70ffeec2",
+    "card.txt": "55af8fc19ba4011962ef0cf60a7ebb1678c4f6c0cf7a69e465fccfe0638daa49",
+    "draft.md": "860166264ca31ff1429da8a20bac7199e74fdf446c6813966de45b5dade213a3"
+  },
+  "sevenVoiceScores": {
+    "入口": { "score": 2, "evidence": "快层以“猎人带一只狐狸归来／冰面仍有人活动／整片寒冷包住故事”的具体反差进入。" },
+    "因果": { "score": 2, "evidence": "“冷色从近处一直延伸到山谷”解释了人物虽多、冬景仍统摄全画的原因。" },
+    "人": { "score": 2, "evidence": "归猎、燎猪、冰上活动和商人委托把月份传统的变化落实到人的活动与选择。" },
+    "转折": { "score": 2, "evidence": "“猎人给出入口，却没有封住故事”随后转为冬季环境取得主导，有视觉与传统史证据。" },
+    "视觉兑现": { "score": 2, "evidence": "狐狸、斜坡、冰面、小火焰、非纯白积雪和高视点均回到现场可核对之处。" },
+    "口语清晰度": { "score": 2, "evidence": "“人的活动越多，包围他们的冬天反而越完整”朗读自然，主语与关系清楚。" },
+    "第二眼": { "score": 2, "evidence": "结尾要求由狐狸沿斜坡到冰面，再扫过天空和山坡，动作对象专属。" },
+    "total": 14
+  },
+  "mechanicalVerdict": { "verdict": "FAIL", "evidence": "draft.md 声明直接上游为 writing-plan.json（078e...），但已封存的 card.txt 位于计划与草稿之间；不符合每个下游显式记录直接上游的因果链要求。其余已声明上游哈希与实测值相符。" },
+  "factBoundaryVerdict": { "verdict": "PASS", "evidence": "逐查心理、情绪、历史先后、地点、最高级与比较：正文明确不推断猎人或狗的内心，不把近远景当时间顺序；组合景观、餐厅陈列可能性及 KHM“第一且最突出”的归属均保留边界。" },
+  "narrativeVerdict": { "verdict": "PASS", "evidence": "深层依次由有限收获转向斜坡与远景，再由统一色调解释冬季主导，最后进入月份图传统与组画位置；调换段落会破坏问题推进，核心问题在结尾回收。快层与深层可各自独立成立。" },
+  "nativeChineseVerdict": { "verdict": "PASS", "evidence": "卡片、快层、标题、转折与结尾已朗读；表达可自然复述，无翻译腔标题或抽象规划字段直搬正文。" },
+  "significanceVerdict": { "verdict": "PASS", "evidence": "五维均有结论；比较类别为同一六季组画，最近对象为现存四幅兄弟作。正文承认其可替代一般季节组织经验，同时以冬季节点、整体寒冷形式及有归属的 KHM 欧洲冬景评价支持不可替代核心，符合“稀世珍品”硬门。" },
+  "workSpecificVerdict": { "verdict": "PASS", "evidence": "近景归猎、远处冰面与整体冬景共同作答；清楚解释月份图活动仍在而风景与自然变化取得更大分量；未判断猎人与狗的情绪。" },
+  "verdict": "FAIL",
+  "blockingFindings": [
+    "draft.md 的直接上游记录错误：封存链中 card.txt 已生成，草稿却跳过它声明 writing-plan.json 为直接上游。"
+  ],
+  "nonBlockingNotes": [
+    "正文多次显式说明证据边界，略带审稿痕迹，但尚未破坏自然朗读、段落依赖或现场观看价值。"
+  ]
+}

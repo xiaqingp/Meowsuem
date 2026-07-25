@@ -1,0 +1,36 @@
+{
+    "runId":  "m28-2-v2.2.2-three-work-fresh-research-2026-07-22",
+    "stage":  "research",
+    "pipelineVersion":  "2.2.2",
+    "instructionVersion":  "1.8.1",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-22T22:00:08.3914059-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/generation-pipeline.md",
+                       "sha256":  "4d64aa73c15bea7961053cf4a1143eb83686797240f1e3f52635391e6a73699a"
+                   },
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "sha256":  "9de51ef66bf9bf48f8a2181acf4740e5e205b698d7a45da064e599f1def3e635"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "hunters-in-the-snow-research-card.md",
+                        "sha256":  "a71628728cdd3bbd5f28bc735e5533dcd2cea516e0eb63466318ac150929018f",
+                        "bytes":  6496
+                    },
+                    {
+                        "path":  "narmer-palette-research-card.md",
+                        "sha256":  "9c4ad157fa6b9cf254768efab1c301b0dae9dcedf56400c61b13c6322a4bafb8",
+                        "bytes":  7936
+                    },
+                    {
+                        "path":  "autumn-rhythm-number-30-research-card.md",
+                        "sha256":  "9bf1ffe99f8a54757dc673bd3d9e56bdb6161712dc68fdba75c740c6f331992d",
+                        "bytes":  7167
+                    }
+                ]
+}

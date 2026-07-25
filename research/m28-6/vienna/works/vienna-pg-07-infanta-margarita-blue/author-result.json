@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-pg-07-infanta-margarita-blue-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:42:34.3991422-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-01/vienna-pg-07-infanta-margarita-blue-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "01ccfe1a7944b92e8c08412a1b247df6c3aba9b82924582fdb77598c07a7548b"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-pg-07-infanta-margarita-blue/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "1606eead1151b0a1c2824b360a0ae76255be6273420ded7b1e8a5ea9fe5f6177"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "7dec6da2deffdbbf47c65d09bb583fc6e5b3124bf7c6a7a215e8e8fd4a11b11d",
+                        "bytes":  10429
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "49165563604e34fa67b5153fe12b48c323bbbd7b4ad9c18e1d2353dfa64d787e",
+                        "bytes":  262
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "de50998fbe276249965896d6469fea20ec4b7496b67aa61103e1a7f51c050ca7",
+                        "bytes":  4701
+                    }
+                ]
+}

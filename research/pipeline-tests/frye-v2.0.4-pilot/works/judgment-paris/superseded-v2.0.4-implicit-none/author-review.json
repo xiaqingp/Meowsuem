@@ -1,0 +1,229 @@
+{
+  "artifactType": "author_review",
+  "workId": "judgment-paris",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "museumId": "frye",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "1d4ad66e58ff1be2158c092fb4d3e565b08f641dc66127bc1af43105d11c26af"
+  },
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "finalDecisionAuthority": "independent reviewer only",
+  "paragraphDependency": [
+    {
+      "paragraph": "30 秒先懂",
+      "actualFunction": "用一对三的站位与中间空隙建立矛盾，并给出金苹果、许诺、战争后果和静止队列这一暂时答案。",
+      "dependsOn": "只依赖标题、画面可见站位与零背景读者起点。",
+      "newUnderstanding": "读者知道巨大后果被压缩在一场尚未显出结果的观看与比较中。",
+      "breaksIfMovedEarlier": "已是正文入口，无需前移。"
+    },
+    {
+      "paragraph": "深层第 1 段：选择怎样取得重量",
+      "actualFunction": "补全争夺、委托裁决、Helen 许诺和战争后果，再把因果落回画中缺席的战争与显眼的一对三站位。",
+      "dependsOn": "依赖快层已经提出的核心问题，但即使删除快层，本段仍自行交代人物、冲突与后果。",
+      "newUnderstanding": "静止被读成后果尚未进入画面的临界状态，而非故事贫乏。",
+      "breaksIfMovedEarlier": "若移到元数据之前，读者尚未知道眼前要解释的是静止队列，神话会变成脱离画面的故事摘要。"
+    },
+    {
+      "paragraph": "深层第 2 段：站位怎样执行裁决",
+      "actualFunction": "用横队、空隙、浅空间、服饰识别和目光移动解释裁决如何由构图承担。",
+      "dependsOn": "依赖上一段建立的裁决者、三位竞争者及选择后果。",
+      "newUnderstanding": "人物间隔不只是构图空白，而是把判断者与被比较者分开的关系结构。",
+      "breaksIfMovedEarlier": "若早于神话因果，‘一人负责判断、三人被比较’缺少人物关系依据。"
+    },
+    {
+      "paragraph": "深层第 3 段：静止为何属于施图克的方法",
+      "actualFunction": "把浅舞台、轮廓、人体和岩壁与晚期生涯相连，解释动作减少为何会集中观看压力。",
+      "dependsOn": "依赖上一段已经让读者看见站位与浅空间的叙事作用。",
+      "newUnderstanding": "静止队列既讲故事，也是施图克晚期神话画的形式方法。",
+      "breaksIfMovedEarlier": "若提前，‘浅舞台’会成为未经视觉兑现的风格标签。"
+    },
+    {
+      "paragraph": "深层第 4 段：比较怎样限定价值",
+      "actualFunction": "以 Rubens 同题传统说明共同核心与形式差异，再把价值限定到作者晚期及 Frye 馆内 Stuck 收藏线。",
+      "dependsOn": "依赖前两段已建立的静止横队机制和上一段的生涯位置。",
+      "newUnderstanding": "读者能区分具体艺术价值、馆藏作用与全球不可替代性，并理解为何标签是重要藏品。",
+      "breaksIfMovedEarlier": "若提前，比较对象只会新增艺术史资料，无法回答本作静止为何重要。"
+    },
+    {
+      "paragraph": "可观察细节列表",
+      "actualFunction": "把核心问题拆成五个现场可核对动作：姿态、空隙、队列、明暗和浅空间。",
+      "dependsOn": "依赖正文已说明这些形式如何承担裁决，而非仅列形状。",
+      "newUnderstanding": "读者可以在现场逐项验证此前的因果与形式解释。",
+      "breaksIfMovedEarlier": "若提前，空隙和岩壁尚无叙事意义，会退化成清单。"
+    },
+    {
+      "paragraph": "最后再看一眼",
+      "actualFunction": "让视线停在空隙再横移，以新的观看动作回收‘巨大后果为何静止’。",
+      "dependsOn": "依赖神话后果、裁决关系、浅舞台及空隙含义均已建立。",
+      "newUnderstanding": "空白从背景转为决定悬而未落的压力区。",
+      "breaksIfMovedEarlier": "若提前，‘战争后果还看不见’和‘决定悬在两边之间’缺少因果与空间前提。"
+    },
+    {
+      "paragraph": "事实边界",
+      "actualFunction": "区分现代神话重述、画面观察、编辑解释、人物心理和全球比较边界。",
+      "dependsOn": "依赖全文已经正面建立可支持的故事、形式与价值。",
+      "newUnderstanding": "读者知道哪些判断可由来源和画面支持，哪些不能被升级为历史、心理或全球排序。",
+      "breaksIfMovedEarlier": "若提前，限制会先于正文可支持内容出现，形成审稿口吻。"
+    }
+  ],
+  "claimClosure": [
+    {
+      "sentence": "左边的帕里斯独自面对右边三位女神，双方之间那段空隙，比任何表情都更紧张。",
+      "riskCategory": "人物心理 / 编辑判断",
+      "evidenceType": "直接观察加明确的编辑性视觉判断",
+      "sourceOrBasis": "研究卡的左右站位、人物间隔与横向浅空间；‘更紧张’描述构图效果，不归因人物内心。",
+      "confidence": "高：位置与空隙可直接核对；措辞没有声称人物感受。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "阿佛洛狄忒以海伦相许，他的选择继而牵出特洛伊战争。",
+      "riskCategory": "历史先后 / 因果",
+      "evidenceType": "有来源的神话叙事",
+      "sourceOrBasis": "Getty 神话背景及研究卡。",
+      "confidence": "高：权威来源直接支持神话中的许诺与后续关系。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "施图克没有铺开后来的灾难，而是把四个人压进一条近乎静止的横队。",
+      "riskCategory": "作者意图 / 否定—转折骨架",
+      "evidenceType": "画面直接观察与构图描述",
+      "sourceOrBasis": "画中可见四人横队且没有战争场面；句子描述成品差异，不写‘为了’或明确意图。",
+      "confidence": "高：画面内容与构图可核对；全文仅此一处完整‘没有……而是……’骨架。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "灾难尚未进入画面，能够启动灾难的比较已经摆在眼前。",
+      "riskCategory": "历史先后 / 图像寓意",
+      "evidenceType": "神话因果与画面内容结合的编辑推断",
+      "sourceOrBasis": "Getty 支持裁决通向战争；画面呈现裁决人物而无战争场景。",
+      "confidence": "中高：因果与画面内容可靠，‘启动’是对神话结构的概括，不声称真实历史。",
+      "verdict": "retain_with_fact_boundary"
+    },
+    {
+      "sentence": "Frye 的策展资料还以权杖识别雅典娜，以冠饰和项链识别赫拉。",
+      "riskCategory": "人物身份",
+      "evidenceType": "馆方策展解释",
+      "sourceOrBasis": "Frye 策展页；正文明确归属为策展资料。",
+      "confidence": "高：来源直接支持；未自行补全三位女神排序。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "观者的目光也会沿队列逐个移动。",
+      "riskCategory": "作者意图 / 唯一观看方式",
+      "evidenceType": "基于横向排列的编辑性观看建议",
+      "sourceOrBasis": "人物横向队列的直接观察。",
+      "confidence": "中：是合理的观看路径，不写成所有观众必然反应或作者明确安排。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "这套浅舞台、清楚轮廓和近雕塑式人体，是施图克晚期神话画仍在使用的方法。",
+      "riskCategory": "作者风格 / 生涯位置",
+      "evidenceType": "馆方展览资料与本作直接观察",
+      "sourceOrBasis": "研究卡记录作品为去世前五年的晚期神话画；Frye 展览资料支持神话、人体与建筑式整体设计贯穿其多媒介实践。",
+      "confidence": "中高：晚期年代与可见特征确定；用‘仍在使用’而非开创性或唯一风格断言。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "最近的参照是鲁本斯的同题传统。",
+      "riskCategory": "比较 / 最近对象",
+      "evidenceType": "研究卡已确认的比较结论",
+      "sourceOrBasis": "research-card.md 的比较与重要性段。",
+      "confidence": "中高：比较类别和最近对象由研究卡明确给出；未声称单幅一一对应或全球最接近。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "它没有因此成为这一题材的全球最高范本；它的分量更准确地落在施图克的晚期生涯和 Frye 的收藏内部。",
+      "riskCategory": "最高级 / 不可替代性",
+      "evidenceType": "研究卡的重要性边界与编辑判断",
+      "sourceOrBasis": "研究卡明确写明非同题材全球顶级范本，五维为艺术史中、作者生涯中高、本馆叙事高。",
+      "confidence": "高：结论主动收窄，未制造全球数量或优劣排名。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "那段原本像背景的空白，会变成全画压力最集中的地方。",
+      "riskCategory": "作者意图 / 图像寓意",
+      "evidenceType": "依托全文的第二眼编辑判断",
+      "sourceOrBasis": "人物间隔、裁决关系与神话后果已逐段建立。",
+      "confidence": "中高：是向读者提出的视觉解释，没有宣称唯一寓意或作者意图。",
+      "verdict": "retain"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这幅画讲的是一个会引出战争的选择，可施图克偏把所有动作压住，只靠帕里斯、三位女神和他们之间的空隙，让你感觉决定还悬着。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "readAloudNotes": "标题能口头复述；快层主语和因果完整；深层由故事到站位、由站位到风格、由风格到比较，转折自然。‘近雕塑式’仅用于具体身体与队列，不承担抽象比喻。"
+  },
+  "productionLanguageScan": {
+    "filesScanned": ["card.txt", "draft.md"],
+    "forbiddenCategories": [
+      "internal research gap",
+      "image-license task",
+      "publication task or state",
+      "test language",
+      "prompt or generator language",
+      "reviewer language",
+      "migration language"
+    ],
+    "findings": [],
+    "verdict": "passed",
+    "note": "访客可见事实边界只处理神话与历史记录、解释限度、人物心理、精确时刻、全球数量与易变在展状态。"
+  },
+  "significanceReview": {
+    "assignedLabel": "重要藏品",
+    "fiveDimensions": {
+      "artisticAchievement": "构图、间隔和浅空间形成清楚的观看与裁决机制。",
+      "artHistoricalPosition": "属于长期同题传统中的晚期现代重述，不宣称开创或巅峰。",
+      "historicalCulturalValue": "保存神话在 1923 年绘画中的再解释，不冒充古代历史记录。",
+      "rarityAndIrreplaceability": "未提供全球数量；Rubens 同题传统可解释同一神话核心，因此不进入稀世珍品。",
+      "collectionPosition": "与《罪 / Sin》构成 Frye 馆内从单体寓意到群体观看的 Stuck 线索。"
+    },
+    "comparisonCategory": "Judgment of Paris 神话群像",
+    "nearestComparator": "Rubens 同题传统",
+    "sharedCore": "Paris、三位女神、观看与裁决。",
+    "keyDifference": "施图克使用更浅、更冷、近雕塑式静止的横向队列。",
+    "unknownsPreserved": "全球同题总数、优劣排序和唯一性均未声称。",
+    "frye72Boundary": "正文明确称重要藏品，并说明值得馆内停留但不足以单独改变旅行安排。",
+    "verdict": "label_supported_pending_independent_review"
+  },
+  "cardIndependenceReview": {
+    "visibleCharacterRange": "24—100",
+    "startsWithGenericViewingCommand": false,
+    "copiedFromQuickLayer": false,
+    "bilingualArtistAndRegionPresent": true,
+    "verdict": "ready"
+  },
+  "structureReview": {
+    "quickLayerMechanicalRange": "within 70—240 visible Chinese characters",
+    "deepLayerMechanicalMinimum": "above 320 visible characters",
+    "observableDetailCount": 5,
+    "singleProgressiveQuestion": "为什么一场会引向战争的裁决，被画成几乎没有动作的静止队列？",
+    "historyCompleteness": "人物关系、争夺起因、裁决当下、Helen 许诺、战争后果、现代重述边界均已交代。",
+    "secondLookSpecificity": "停在双方空隙，再沿横向队列移动；新判断是空白承载悬而未决的压力。",
+    "reorderTest": "passed：深层四段依次需要神话因果、站位机制、生涯方法和比较边界；互换会丢失前提。",
+    "swappableColumnTest": "passed：历史、风格与重要性都回答静止队列为何成立及为何值得看，没有独立成资料栏目。"
+  },
+  "candidateVoiceScores": {
+    "entry": {"score": 2, "basis": "一对三站位、空隙和战争后果构成对象专属入口。"},
+    "causality": {"score": 2, "basis": "金苹果争夺到裁决、许诺和战争后果完整，并回到静止构图。"},
+    "people": {"score": 2, "basis": "三位女神的争夺、Aphrodite 的许诺和 Paris 的裁决职责推动叙事。"},
+    "turn": {"score": 2, "basis": "知道战争后果后，安静队列转为临界时刻；理解站位后，空隙转为压力区。"},
+    "visualPayoff": {"score": 2, "basis": "故事逐次落回横队、间隔、岩壁、明暗与浅空间。"},
+    "oralClarity": {"score": 2, "basis": "因果主语完整，标题与段落可自然口头复述。"},
+    "secondLook": {"score": 2, "basis": "结尾要求在具体空隙停顿并横移目光，产生新判断。"},
+    "candidateTotal": 14,
+    "authorityBoundary": "作者评分仅为候选意见，不构成最终通过证据。"
+  },
+  "unresolvedRisks": [
+    "Rubens 作为最近比较对象由锁定研究卡给出，但当前作者输入没有更细的单幅作品与尺寸、版本或收藏史比较；正文因此只写‘同题传统’，独立审读应检查这一范围是否足够准确。",
+    "全球同题作品数量、优劣排序与唯一性未知；正文已避免数量和最高级断言。",
+    "三位女神的完整画面排序未由输入充分支持；正文只采用馆方对 Athena 与 Hera 的服饰识别。",
+    "画面属于决定前还是决定后的精确一刻不能锁定；正文将‘悬而未决’保持为观看解释，并在事实边界收窄。",
+    "2026-07-22 的在展索引为易变快照；正文提示到访前以馆方为准。",
+    "图片摄影署名与再利用许可未确认；该事项仅留在内部记录，没有进入访客正文。"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-egy-02-reserve-head-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:41.554Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "1ca49e868e6f3da3b3cf840b9c905a44532867764996da0725c0885cf5e48bc9",
+      "bytes": 9442
+    },
+    {
+      "path": "card.txt",
+      "sha256": "be42cc97fe1dc2adb3274a12ed8be452ad57567b559d75f7e2db12bda8267f7d",
+      "bytes": 229
+    },
+    {
+      "path": "draft.md",
+      "sha256": "fbf54e7362afbf903462b22e8328e36404e71d7f59017e9bc2697ebfc728dfc7",
+      "bytes": 3924
+    }
+  ]
+}

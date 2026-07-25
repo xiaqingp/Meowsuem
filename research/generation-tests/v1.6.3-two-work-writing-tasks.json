@@ -1,0 +1,62 @@
+{
+  "instructionVersion": "1.6.3",
+  "sourcePack": "research/generation-tests/v1.6.1-two-work-source-pack.md",
+  "tasks": [
+    {
+      "taskId": "m25-hunters-round-3",
+      "workId": "hunters",
+      "readerStartingPoint": "读者能看见猎人、狗、雪地和远处冰面，也能发现长矛上只有一只狐狸；尚不知道这幅画属于季节组画。",
+      "narrativeQuestion": "为什么一场看起来收获寒酸的狩猎，最后让人记住的却是整个冬天？",
+      "logicSequence": [
+        "从一只狐狸和疲惫队伍读出收获有限，但不替人物确认内心",
+        "顺着山坡进入远处冰面，发现同一季节同时容纳劳作、匮乏和娱乐",
+        "用六季组画与商人委托解释画家为什么把个人事件缩进季节系统",
+        "用发明景观、高视点和整体冷色解释勃鲁盖尔怎样让天气成为真正主角",
+        "与其余四幅现存季节画及约四十幅存世绘画比较，划定稀有度和艺术价值",
+        "回到小火与大冬天，让读者在第二眼重新衡量人的尺度"
+      ],
+      "humorBasis": "三名猎人和整群狗只带回一只狐狸；幽默仅来自可见的投入与收获反差。",
+      "falsePremisesToAvoid": [
+        "画中地点是真实可定位的尼德兰村庄",
+        "勃鲁盖尔明确意在批判某个阶级",
+        "六幅季节组画全部藏在维也纳",
+        "一只狐狸足以还原真实狩猎结果"
+      ],
+      "claimBoundaryPlan": [
+        {"claim":"猎人与狗的情绪","evidenceType":"来源事实加直接观察","allowedWording":"狗群疲惫；队伍姿态沉重；收获看起来有限","forbiddenUpgrade":"人物正在失望、绝望或羞愧"},
+        {"claim":"狩猎结果","evidenceType":"编辑推断","allowedWording":"从仅有一只狐狸看，这趟狩猎收获似乎不佳","forbiddenUpgrade":"这次狩猎已经被史料证明确认失败"},
+        {"claim":"景观地点","evidenceType":"KHM 来源事实","allowedWording":"由尼德兰生活与阿尔卑斯山经验组合的发明景观","forbiddenUpgrade":"可定位的真实村庄写生"},
+        {"claim":"不可替代性","evidenceType":"来源事实加比较判断","allowedWording":"六季组画唯一保存的冬季节点；KHM 称其为欧洲绘画第一幅且最突出的冬季风景画","forbiddenUpgrade":"全世界唯一冬景或唯一类似作品"}
+      ]
+    },
+    {
+      "taskId": "m25-narmer-round-3",
+      "workId": "narmer",
+      "readerStartingPoint": "读者能看见同一位巨大国王在两面出现、戴着不同王冠，并能看见敌人、动物和分层排列；尚不知道调色板用途和统一过程的争议。",
+      "narrativeQuestion": "为什么一块调色板要把同一位国王画两遍？",
+      "logicSequence": [
+        "从两顶王冠和两次国王出场确认两面呈现两种统治角色，不推成事件时序",
+        "并列击敌与检视行列，说明图像怎样把暴力和秩序同时归给国王",
+        "用人物大小、分层和复合视角解释权力怎样变成可读的图像语法",
+        "从中央圆槽和长颈兽追回应属实用器形却已转为仪式物的变化",
+        "与双犬、猎人和战场调色板比较，说明同类仍有而本件为何不可替代",
+        "回到两面连读，并把图像宣称与渐进历史过程分开"
+      ],
+      "humorBasis": "国王并非真的比侍从高出数倍；图像把身高当作字号，谁权力大谁就用大号字。",
+      "falsePremisesToAvoid": [
+        "它记录了一场日期和敌方都已确定的统一战争",
+        "纳尔迈凭一次战役完成埃及统一",
+        "交颈神兽只有统一这一种解释",
+        "它是唯一存世的前王朝仪式调色板",
+        "此后三千年埃及艺术规则都由这一件作品一次发明"
+      ],
+      "claimBoundaryPlan": [
+        {"claim":"双面关系","evidenceType":"观看结构与编辑解释","allowedWording":"两面并列征服者与秩序维护者两种王权角色；观众可以连读","forbiddenUpgrade":"两面记录同一天按先后发生的连续动作"},
+        {"claim":"埃及统一","evidenceType":"馆方限定解释加历史研究","allowedWording":"图像宣称纳尔迈跨越上下埃及的王权；统一很可能是渐进过程","forbiddenUpgrade":"纳尔迈已被证实凭一次战役占领两地"},
+        {"claim":"长颈神兽","evidenceType":"馆方解释与同类比较","allowedWording":"常被解释为两地归于控制；相似母题也用于其他仪式调色板","forbiddenUpgrade":"它们确定且只象征上下埃及统一"},
+        {"claim":"视觉语法的延续","evidenceType":"来源事实加直接观察","allowedWording":"击敌图式后来长期延续；尺度等级、分层与复合视角已在本件协同工作","forbiddenUpgrade":"这件作品一次发明此后三千年全部埃及艺术规则"},
+        {"claim":"不可替代性","evidenceType":"机构资料比较与编辑判断","allowedWording":"同类仍有；本件把具名统治者、两冠、两面王权叙事与早期文字集中保存","forbiddenUpgrade":"没有第二件调色板或没有任何可比对象"}
+      ]
+    }
+  ]
+}

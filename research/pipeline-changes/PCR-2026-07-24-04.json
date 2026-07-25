@@ -1,0 +1,48 @@
+{
+  "id": "PCR-2026-07-24-04",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-24",
+  "ownerInstruction": "我不担心木心，我们可以不修复，但是对于未来，怎么保证不会不一致？ 嗯，开始做吧",
+  "baseRelease": "research/pipeline-releases/v2.6.0.json",
+  "targetVersion": "2.6.1",
+  "scope": [
+    "leave the fifteen existing museums unchanged",
+    "enforce one runtime assignment and one load-order contract for every future museum",
+    "mechanically register future museum data in candidate pages",
+    "block invalid binding, script order, map registration and museum-specific builders before publication"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/assemble-museum-candidate.mjs",
+    "scripts/finalize-museum.mjs",
+    "scripts/verify-future-museum-contract.mjs",
+    "scripts/verify-release-candidate.mjs",
+    "scripts/verify-significance-evidence.mjs",
+    "scripts/verify-content-pipeline.mjs",
+    "scripts/freeze-pipeline-release.mjs"
+  ],
+  "allowedManagementFiles": [
+    "research/content-standard-manifest.json",
+    "scripts/test-future-museum-contract.mjs",
+    "scripts/verify-project-authority.mjs",
+    "coho_museum/TechDesign.md",
+    "coho_museum/Milestones.md",
+    "coho_museum/Lessons.md",
+    "coho_museum/knowledge.md",
+    "research/audits/m28-10-future-museum-contract.md"
+  ],
+  "requiredTests": [
+    "future contract positive fixture",
+    "invalid binding rejected",
+    "invalid script order rejected",
+    "missing map registration rejected",
+    "museum-specific builder rejected",
+    "Vienna and Chichu generic assembly regression",
+    "project authority gate",
+    "pipeline causality gate",
+    "content pipeline gate",
+    "release idempotence",
+    "zero model calls and zero model tokens"
+  ]
+}

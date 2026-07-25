@@ -1,0 +1,158 @@
+{
+  "reviewType": "independent-review",
+  "reviewerRole": "全新独立 reviewer；未参与本件作者生成",
+  "workId": "autumn-rhythm-number-30",
+  "workTitle": "秋韵：第30号",
+  "runId": "m28-v2.0.3-full-2026-07-22",
+  "pipelineVersion": "2.0.3",
+  "instructionVersion": "1.6.7",
+  "directUpstream": {
+    "file": "draft.md",
+    "actualSha256": "01f72f8f3997dcebebdab4168f2ed4d91d6b45defe80c0a8e11c4e3807f4d5b6"
+  },
+  "causalityCheck": {
+    "verdict": "PASS",
+    "draftDeclaredDirectUpstream": "card.txt",
+    "draftDeclaredCardSha256": "07f1b6b7ce2a718b6e3ebc85cf6268dc41118acaac9f06954c797d835a534c56",
+    "actualCardSha256": "07f1b6b7ce2a718b6e3ebc85cf6268dc41118acaac9f06954c797d835a534c56",
+    "evidence": "draft.md 声明的 card.txt 哈希与实际 SHA-256 完全一致；本 review 另记录了实际 draft.md SHA-256。"
+  },
+  "checks": [
+    {
+      "item": "artifactAndMetadata",
+      "verdict": "PASS",
+      "evidence": "中英文名、作者与国家、年代、材质、尺寸、地点状态、参观优先级、重要性和建议停留齐全；现场状态有变化限定。"
+    },
+    {
+      "item": "cardSummary",
+      "verdict": "PASS",
+      "evidence": "卡片以五米多宽的线网及重力、身体移动、持续控制说明点击价值，长度合规，不以导览命令开场，也未摘抄快层。"
+    },
+    {
+      "item": "quickLayer",
+      "verdict": "PASS",
+      "evidence": "快层从四散线迹与整体未散的可见矛盾进入，给出地面作画中重力与调节并存的暂时答案，并提供近追长弧、退看疏密节奏的路线。"
+    },
+    {
+      "item": "dualLayerIndependence",
+      "verdict": "PASS",
+      "evidence": "快层单独可指导观看；深层从线迹差异重新建立方法、控制、成熟期与比较结论。卡片强调点击价值，快层交付暂时答案，深层解释答案成立的机制，三者没有互相改写。"
+    },
+    {
+      "item": "factClosure",
+      "verdict": "PASS",
+      "evidence": "身份、尺寸、1947 年起的地面方法、壁画兴趣、1950 年成熟期、1957 年入藏、抽象表现主义语境及比较对象均可回查资料包；观察与来源事实边界清楚。"
+    },
+    {
+      "item": "historicalAndArtNarrative",
+      "verdict": "PASS",
+      "evidence": "正文以 1947 年滴流方法、架上画与壁画之间的尺度问题、1950 年成熟运用和战后纽约语境构成必要历史链，并明确复杂地理转移不能归功于单件作品。"
+    },
+    {
+      "item": "paragraphCognitiveProgression",
+      "verdict": "PASS",
+      "evidence": "段落依次发现线网由不同痕迹构成、追问痕迹怎样产生、再辨认控制、定位成熟期、最后用同阶段作品限制重要性；每段都依赖上一段留下的问题，比较段若提前便缺少可比较的核心机制。"
+    },
+    {
+      "item": "workSpecificMustPass",
+      "verdict": "PASS",
+      "evidence": "没有虚构故事；清楚说明画布铺地、从四边移动、重力牵引和颜料流动如何留下线迹，也用疏密、覆盖、留白和横向节奏解释控制；成熟期和比较对象得到实质处理。"
+    },
+    {
+      "item": "authorStyleAndCareerPosition",
+      "verdict": "PASS",
+      "evidence": "波洛克的方法具体落在滴、泼、甩、抹、全幅结构、身体尺度、颜料流动和覆盖关系；正文将本作置于 1947 年方法节点之后的 1950 年成熟期，而非只贴流派标签。"
+    },
+    {
+      "item": "significanceFiveDimensions",
+      "verdict": "PASS",
+      "evidence": "艺术成就是 5.28 米横幅中对覆盖、疏密、留白和节奏的组织；艺术史位置是成熟期全幅滴画与抽象表现主义代表实例；历史文化价值限定在战后纽约语境；稀有度承认强比较作；馆藏位置以 1957 年进入大都会为边界。"
+    },
+    {
+      "item": "closestComparatorsAndIrreplaceability",
+      "verdict": "PASS",
+      "evidence": "比较类别限定为 1947—1950 年大型全幅滴画；最近对象明确为同年的《一：第31号，1950》和较早的《满五寻》。正文承认前者能提供相近的巨幅控制认识，因此不强行宣称不可替代，并正确降为‘重要藏品’。"
+    },
+    {
+      "item": "onSiteDetailsAndSecondLook",
+      "verdict": "PASS",
+      "evidence": "长弧、短促飞溅、密处旁的裸画布、横向疏密交替四项均可现场核对；最后一眼沿长弧到落点再拉回整体，具体检验局部动作怎样进入全幅秩序。"
+    },
+    {
+      "item": "factBoundaryAndSources",
+      "verdict": "PASS",
+      "evidence": "事实边界限制具体秋景、纯随机、逐线预定、纽约崛起单因、最大第一唯一和稳定展出；六个可点击来源覆盖对象、流派、作者方法和比较作品。"
+    },
+    {
+      "item": "highRiskSentenceAudit",
+      "verdict": "PASS",
+      "evidence": "正文不把即兴升级为随机，不把控制升级为逐线预画，不把题名升级为具体自然对象，不把本作写成纽约崛起的单独原因，也没有无范围最高级或不可替代性宣称。"
+    },
+    {
+      "item": "contrastSyntax",
+      "verdict": "PASS",
+      "evidence": "仅有一处完整‘不是……而是……’骨架用于把均匀花纹改读为动作痕迹；其余推进依靠观察和因果，没有反复套用否定—转折或‘先看……再看……’模板。"
+    },
+    {
+      "item": "nativeChinese",
+      "verdict": "PASS",
+      "evidence": "标题和转折均为自然口语问题，可一口气复述为：近看线迹差异，理解地面作画怎样让身体和重力入画，再从疏密覆盖看出控制，最后用同阶段作品判断它重要但非不可替代。无翻译腔发现。"
+    },
+    {
+      "item": "productionLanguage",
+      "verdict": "PASS",
+      "evidence": "正文没有测试稿、审稿结论、母版迁移、资产待补或内部发布流程等制作语言；证据限制均转化为面向访客的自然事实边界。"
+    }
+  ],
+  "voiceRubric": {
+    "scale": "每项 0—2；七项合计满分 14，门槛为至少 12 且无 0 分",
+    "items": [
+      {
+        "criterion": "入口",
+        "score": 2,
+        "evidence": "‘一张没有中心的画，靠什么站得住？’把抽象对象的现场矛盾立即转成可验证问题。"
+      },
+      {
+        "criterion": "因果",
+        "score": 2,
+        "evidence": "动作与材料状态造成线迹差异，持续调节造成疏密与整体节奏，成熟期和重要性判断都承接这一机制。"
+      },
+      {
+        "criterion": "人",
+        "score": 2,
+        "evidence": "手臂摆动、身体换位、从四边接近画布和作画中的持续处理，使艺术方法通过人的具体选择变得可理解。"
+      },
+      {
+        "criterion": "转折",
+        "score": 2,
+        "evidence": "线网从均匀花纹转为动作痕迹，重力参与又转为重力与选择共存，最后由强比较作把‘名作’校准为‘重要但可比’。"
+      },
+      {
+        "criterion": "视觉兑现",
+        "score": 2,
+        "evidence": "每个机制都落回长弧、回环、飞溅、落点、覆盖、裸画布和横向疏密节奏。"
+      },
+      {
+        "criterion": "口语清晰度",
+        "score": 2,
+        "evidence": "‘只解释了线条为何如此多变，还没有解释五米多宽的画面为何能连成整体’等转折清楚自然，术语均由可见动作解释。"
+      },
+      {
+        "criterion": "第二眼",
+        "score": 2,
+        "evidence": "沿一条长弧追到落点，再放回密集结点、空隙和覆盖层，能具体检验局部动作如何服从整体。"
+      }
+    ],
+    "total": 14,
+    "maximum": 14,
+    "thresholdVerdict": "PASS"
+  },
+  "mechanicalVerdict": "PASS",
+  "factBoundaryVerdict": "PASS",
+  "narrativeVerdict": "PASS",
+  "nativeChineseVerdict": "PASS",
+  "significanceVerdict": "PASS",
+  "failedHardGates": [],
+  "verdict": "PASS",
+  "verdictReason": "直接上游哈希、发表形态、事实边界、叙事推进、自然中文与重要性判断全部通过；声音评分 14/14 且无 0 分。"
+}

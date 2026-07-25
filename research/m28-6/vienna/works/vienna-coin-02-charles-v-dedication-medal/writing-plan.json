@@ -1,0 +1,259 @@
+{
+  "schemaVersion": "meowseum-author-plan/1.0",
+  "workId": "vienna-coin-02-charles-v-dedication-medal",
+  "displayMetadata": {
+    "by": "阿尔布雷希特·丢勒 Albrecht Dürer · 纽伦堡（设计）",
+    "date": "约1521年",
+    "material": "银质献礼纪念章",
+    "place": "维也纳艺术史博物馆钱币馆第 I 室 · 馆方确认在展",
+    "priority": "强烈推荐",
+    "significance": "重要藏品",
+    "stay": "建议停留5分钟",
+    "availability": "confirmed_on_view",
+    "imagePolicy": "object_image"
+  },
+  "narrativeMainline": {
+    "valueType": "civilization_system",
+    "mainline": "纽伦堡市议会把向查理五世致敬、并与其他帝国城市竞争的任务做成一枚银章；丢勒、皮尔克海默、工匠汉斯·克拉夫特以及市政和帝国校核者共同参与，使它成为城市政治礼仪如何运作的实物。瘟疫又迫使原定会议改址，让这项周密的献礼计划失去预定场合。",
+    "readerStartingPoint": "读者从标题可以知道这是一枚纽伦堡献给查理五世的纪念章；从可靠对象图可以确认中央胸像、环列纹章、格言卷带与铭文，但未必知道这些元素如何由多人和制度共同形成，也不知道原定献礼场合为何消失。",
+    "storyBeats": [
+      {
+        "step": 1,
+        "materials": [
+          "来源事实与候选价值证据第1条",
+          "可直接确认与可核验细节第1—4条"
+        ],
+        "newUnderstanding": "先说明这不是流通币，而是纽伦堡市议会为向新加冕的查理五世致敬、并参与城市间献礼竞争而筹划的政治礼物；肖像、纹章和格言共同承担这项用途。"
+      },
+      {
+        "step": 2,
+        "materials": [
+          "来源事实与候选价值证据第2条"
+        ],
+        "newUnderstanding": "再解释政治图像并非一人独作：丢勒与皮尔克海默提供构想，汉斯·克拉夫特制作，纹章和格言还经过市政及帝国史官校核。"
+      },
+      {
+        "step": 3,
+        "materials": [
+          "来源事实与候选价值证据第3条",
+          "趣闻候选"
+        ],
+        "newUnderstanding": "补上计划与现实的转折：纪念章原拟配合1521年在纽伦堡举行的帝国会议，会议因瘟疫改至沃尔姆斯，章牌因此失去预定献礼场合。"
+      },
+      {
+        "step": 4,
+        "materials": [
+          "来源事实与候选价值证据第4条",
+          "比较与不可替代性边界"
+        ],
+        "newUnderstanding": "最后用先铸后压印的制作背景和苏格兰同项目银章划定价值：它是重要藏品，但现有材料不能证明维也纳件全球不可替代，也不能把原制100枚写成现存数量。"
+      }
+    ],
+    "humorBasis": "周密准备的城市献礼，最终被瘟疫造成的会议改址打乱；只作为真实处境的反差，不虚构章牌是否实际送出。",
+    "mustNotAssume": [
+      "丢勒亲自刻模、铸造或压制了这枚银章。",
+      "PLVS VLTRA在本章中构成未经来源证明的全球帝国宣言。",
+      "原制100枚等于现存100枚，或能够据此推出今天的存世总数。",
+      "维也纳件比苏格兰比较件更早、更精美或属于不同制作阶段。",
+      "纪念章最终是否正式交付给查理五世。",
+      "查理五世胸像的表情或姿态能够证明其心理状态。",
+      "图像中的纹章排列能够在现有材料之外证明特定领地等级或政治顺序。"
+    ]
+  },
+  "highRiskClaims": [
+    {
+      "claim": "丢勒是本章的设计者，但不是已证实的亲手制作者。",
+      "evidenceType": "来源事实",
+      "evidence": "身份与状态；来源事实与候选价值证据第2条",
+      "allowedWording": "丢勒与皮尔克海默提供设计构想，汉斯·克拉夫特负责制作。",
+      "forbiddenUpgrade": "丢勒亲自刻模、铸造或压制。"
+    },
+    {
+      "claim": "纪念章失去原定献礼场合。",
+      "evidenceType": "来源事实",
+      "evidence": "来源事实与候选价值证据第3条",
+      "allowedWording": "原计划配合1521年在纽伦堡召开的帝国会议；会议因瘟疫改至沃尔姆斯，纪念章失去原定场合。",
+      "forbiddenUpgrade": "纪念章没有制作完成、从未交付或彻底取消。"
+    },
+    {
+      "claim": "PLVS VLTRA可按馆方释义解释为“更远之外”。",
+      "evidenceType": "来源事实与直接观察",
+      "evidence": "可直接确认与可核验细节第3条",
+      "allowedWording": "卷带写着PLVS VLTRA，馆方释为“更远之外”。",
+      "forbiddenUpgrade": "把它确定解释成超出研究卡范围的全球帝国宣言或作者意图。"
+    },
+    {
+      "claim": "同项目曾制作100枚。",
+      "evidenceType": "比较来源事实",
+      "evidence": "比较与不可替代性边界",
+      "allowedWording": "苏格兰国家美术馆称其藏品是当时制作的100枚之一。",
+      "forbiddenUpgrade": "现存100枚、仅存100枚或维也纳件是孤品。"
+    },
+    {
+      "claim": "本作采用先铸后压印工艺。",
+      "evidenceType": "来源事实",
+      "evidence": "来源事实与候选价值证据第4条",
+      "allowedWording": "德国国家博物馆在当时大型纪念章制作的范围内，将此项目描述为先铸后压印，以使金属表面更致密、有光泽。",
+      "forbiddenUpgrade": "宣称这是纪念章史上首次使用该技术或丢勒本人发明该工艺。"
+    },
+    {
+      "claim": "维也纳件是重要藏品，但不可替代性尚未证明。",
+      "evidenceType": "比较来源事实与编辑判断",
+      "evidence": "比较与不可替代性边界；work-context significance与rareGatePassed",
+      "allowedWording": "同项目存在可比银章，版别、阶段和优劣差异未厘清，因此不把维也纳件写成稀世孤品。",
+      "forbiddenUpgrade": "世界唯一、仅存、最佳版本或稀世珍品。"
+    }
+  ],
+  "claimLedger": [
+    {
+      "id": "C01",
+      "claim": "作品约作于1521年，是银质献礼纪念章。",
+      "type": "来源事实",
+      "researchCardLocation": "身份与状态第4—5条",
+      "usedIn": [
+        "displayMetadata",
+        "draft"
+      ]
+    },
+    {
+      "id": "C02",
+      "claim": "正面中央为戴拱冠、穿甲并佩金羊毛骑士团项链的查理五世胸像。",
+      "type": "直接观察",
+      "researchCardLocation": "可直接确认与可核验细节第1条",
+      "usedIn": [
+        "draft"
+      ]
+    },
+    {
+      "id": "C03",
+      "claim": "宽阔凸起边缘环列14面加冠纹章，皇帝铭文沿边缘环绕。",
+      "type": "直接观察",
+      "researchCardLocation": "可直接确认与可核验细节第2、4条",
+      "usedIn": [
+        "draft"
+      ]
+    },
+    {
+      "id": "C04",
+      "claim": "上方卷带写PLVS VLTRA并缠绕赫拉克勒斯之柱，馆方释为“更远之外”。",
+      "type": "来源事实与直接观察",
+      "researchCardLocation": "可直接确认与可核验细节第3条",
+      "usedIn": [
+        "draft"
+      ]
+    },
+    {
+      "id": "C05",
+      "claim": "作品没有面额和铸币地字段，是纪念章而非流通币。",
+      "type": "来源事实与直接观察",
+      "researchCardLocation": "可直接确认与可核验细节第5条",
+      "usedIn": [
+        "card",
+        "draft"
+      ]
+    },
+    {
+      "id": "C06",
+      "claim": "纽伦堡市议会计划以此向新加冕的查理五世致敬，并与其他帝国城市的献礼竞争。",
+      "type": "来源事实",
+      "researchCardLocation": "来源事实与候选价值证据第1条",
+      "usedIn": [
+        "narrativeMainline",
+        "card",
+        "draft"
+      ]
+    },
+    {
+      "id": "C07",
+      "claim": "丢勒与皮尔克海默提供设计构想，汉斯·克拉夫特制作，纹章和格言经市政及帝国史官校核。",
+      "type": "来源事实",
+      "researchCardLocation": "来源事实与候选价值证据第2条",
+      "usedIn": [
+        "narrativeMainline",
+        "card",
+        "draft"
+      ]
+    },
+    {
+      "id": "C08",
+      "claim": "纪念章原计划配合1521年在纽伦堡召开的帝国会议；会议因瘟疫改至沃尔姆斯，献礼失去原定场合。",
+      "type": "来源事实",
+      "researchCardLocation": "来源事实与候选价值证据第3条；趣闻候选",
+      "usedIn": [
+        "narrativeMainline",
+        "card",
+        "draft"
+      ]
+    },
+    {
+      "id": "C09",
+      "claim": "德国国家博物馆称，在当时大型纪念章多用铸造的背景下，此项目采用先铸后压印，使表面更致密、有光泽。",
+      "type": "来源事实",
+      "researchCardLocation": "来源事实与候选价值证据第4条",
+      "usedIn": [
+        "draft"
+      ]
+    },
+    {
+      "id": "C10",
+      "claim": "苏格兰国家美术馆藏有同一项目的1521年银章，并称该件是当时制作的100枚之一。",
+      "type": "比较来源事实",
+      "researchCardLocation": "比较与不可替代性边界第1条",
+      "usedIn": [
+        "draft"
+      ]
+    },
+    {
+      "id": "C11",
+      "claim": "两件共享城市献礼计划、丢勒设计体系、查理五世肖像与帝国纹章；维也纳件与比较件的版别、制作阶段及优劣差异未厘清，100枚不是现存数量。",
+      "type": "比较来源事实与边界",
+      "researchCardLocation": "比较与不可替代性边界第2—3条",
+      "usedIn": [
+        "draft"
+      ]
+    },
+    {
+      "id": "C12",
+      "claim": "作品在钱币馆第I室，馆方标为在展，核验日期为2026-07-24。",
+      "type": "来源事实",
+      "researchCardLocation": "身份与状态第7条",
+      "usedIn": [
+        "displayMetadata",
+        "card",
+        "draft"
+      ]
+    },
+    {
+      "id": "C13",
+      "claim": "作品的重要性为重要藏品，不可替代性硬门未通过。",
+      "type": "锁定上下文与编辑判断",
+      "researchCardLocation": "比较与不可替代性边界；work-context significance与rareGatePassed",
+      "usedIn": [
+        "displayMetadata",
+        "draft"
+      ]
+    },
+    {
+      "id": "C14",
+      "claim": "纪念章把城市政治礼仪中的致敬、竞争、设计、制作和校核凝结为一件银质实物。",
+      "type": "编辑整理",
+      "researchCardLocation": "来源事实与候选价值证据第1—2条；可直接确认与可核验细节第1—5条",
+      "usedIn": [
+        "narrativeMainline",
+        "card",
+        "draft"
+      ]
+    }
+  ],
+  "draftStructure": [
+    "30秒先懂：纪念章作为城市政治礼仪的实物",
+    "一枚纪念章怎样代表一座城市：用途与图像",
+    "设计为何不是丢勒一个人的工作：多人和制度协作",
+    "精心准备为何错过原定场合：会议因瘟疫改址",
+    "制作方法与比较边界：先铸后压印、苏格兰同项目银章",
+    "趣闻：为未在纽伦堡发生的会议留下实物",
+    "四项可核验细节",
+    "最后一眼：从肖像移向格言和纹章，复看政治计划的构成",
+    "事实边界与资料"
+  ]
+}

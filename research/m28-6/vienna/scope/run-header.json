@@ -1,0 +1,37 @@
+{
+  "runId": "m28-6-vienna-scope-2026-07-23",
+  "startedAt": "2026-07-23T23:00:00-07:00",
+  "stage": "museum_scope",
+  "researchMode": "fresh",
+  "museumId": "vienna",
+  "museumIdentity": {
+    "zh": "维也纳艺术史博物馆",
+    "en": "Kunsthistorisches Museum Vienna",
+    "location": "Maria-Theresien-Platz, Vienna, Austria"
+  },
+  "capacityCandidate": 40,
+  "pipelineVersion": "2.4.8",
+  "instructionVersion": "2.0.2",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "465e7a2ce500057a139dbb64ff9df36755a6525a1f3a960e90fa0263a572ebfe"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "a65e9a4cb1477e4dfb00f06871483c928224dee22b69e292b84b2dcc7cdb4b24"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    }
+  ],
+  "outputs": [
+    "museum-scope.json"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

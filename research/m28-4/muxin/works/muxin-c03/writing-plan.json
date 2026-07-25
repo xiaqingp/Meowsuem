@@ -1,0 +1,131 @@
+{
+  "workId": "muxin-c03",
+  "readerStartingPoint": "读者只从题名知道这是一部诗集稿本；现有可靠资料还能确认它是手写稿，且考察者记载部分页边有抽象人像，但读者看不到可逐页核对的对象图。",
+  "narrativeMainline": {
+    "valueType": "conceptual_question",
+    "mainline": "这部稿本把已经出版的诗集重新变成一个需要辨认的亲笔对象：馆方把整部具名稿本列为最完整稿本之一，考察者又记下手写页与部分页边的抽象人像。它因此打开了文字、图像与版本关系的问题，但现有证据只够提出问题，不能把馆藏稿本直接认作晚年定稿，也不能宣称图画在解释诗。"
+  },
+  "storyBeats": [
+    {
+      "beat": "先区分出版物与馆藏稿本",
+      "materials": [
+        "研究卡「来源事实与局部因果」",
+        "补充「对象身份与组界」",
+        "补充「对象级元数据」"
+      ],
+      "readerGain": "明白现行出版物的三辑和晚年定稿信息不能反向规定馆藏稿本的组界与版本身份。"
+    },
+    {
+      "beat": "再处理页边抽象人像这条对象线索",
+      "materials": [
+        "研究卡「零背景可确认材料」",
+        "补充「对象图像与四项直接观察」",
+        "补充「最近比较与断言边界」"
+      ],
+      "readerGain": "知道图与文同页为何值得注意，也知道同期性、作者归属、篇章功能和诗意关系都尚未得到证明。"
+    },
+    {
+      "beat": "最后放回完整诗歌稿本组比较",
+      "materials": [
+        "研究卡「比较与不可替代性」",
+        "补充「最近比较与断言边界」",
+        "work-selection.json"
+      ],
+      "readerGain": "理解它是重要藏品，却不能仅凭页边人像线索升级为不可替代的稀世珍品。"
+    }
+  ],
+  "humorBasis": null,
+  "mustNotAssume": [
+    "馆藏稿本就是现行出版所依据的晚年定稿",
+    "出版物的三辑边界等于馆藏稿本的实体边界",
+    "页边抽象人像一定由木心绘制，或与诗文同时形成",
+    "页边图解释诗意，或体现木心明确的“诗画合一”意图",
+    "其他完整诗歌稿本没有类似页边图",
+    "当天一定展出全稿、原件或考察报道所见的同一页"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "馆方把《我纷纷的情欲》列为最完整稿本之一",
+      "evidenceType": "馆方来源事实",
+      "allowedWording": "馆方把整部具名稿本列为最完整稿本之一",
+      "forbiddenUpgrade": "馆方最完整、唯一完整或最终定稿"
+    },
+    {
+      "claim": "部分页边有抽象人像",
+      "evidenceType": "2025年高校考察者的来源描述",
+      "allowedWording": "考察者记载部分页边有抽象人像",
+      "forbiddenUpgrade": "直接描述人物数量、朝向、颜色、表情，或断定人像作者与形成时间"
+    },
+    {
+      "claim": "现行版本依据木心晚年定稿",
+      "evidenceType": "出版方来源事实",
+      "allowedWording": "出版方说明现行版本依据木心晚年定稿",
+      "forbiddenUpgrade": "馆藏稿本即晚年定稿，或馆藏稿本与现行版本逐页一致"
+    },
+    {
+      "claim": "本稿具有诗与图同页的线索",
+      "evidenceType": "来源事实的并置整理",
+      "allowedWording": "报道留下文字与页边人像同处稿页的线索",
+      "forbiddenUpgrade": "图像参与篇章安排、解释诗意或证明明确创作意图"
+    },
+    {
+      "claim": "本稿是不可替代的诗画稿本",
+      "evidenceType": "比较证据不足",
+      "allowedWording": "它是完整诗歌稿本组中的重要藏品，页边人像是尚待核验的差异线索",
+      "forbiddenUpgrade": "独有、唯一、稀世珍品或不可替代"
+    }
+  ],
+  "displayMetadata": {
+    "by": "木心 Mu Xin",
+    "date": "年代待核",
+    "material": "纸本墨迹；纸张、笔墨、页数与装订待核",
+    "place": "木心美术馆文学馆 · 馆藏轮换，当前展页待核",
+    "priority": "强烈推荐",
+    "significance": "重要藏品",
+    "stay": "建议停留 6–8 分钟",
+    "availability": "collection_rotation",
+    "imagePolicy": "museum_hero_placeholder"
+  },
+  "claimLedger": [
+    {
+      "id": "C1",
+      "claim": "馆方以整部有题名稿本为收藏单位，并把它列为五部最完整稿本之一。",
+      "source": "author-input-supplement.md「对象身份与组界」；author-input-research.md「对象身份」"
+    },
+    {
+      "id": "C2",
+      "claim": "出版方说明现行版本依据木心晚年定稿、分三辑；这些信息不证明馆藏稿本就是该定稿，也不规定其实体边界。",
+      "source": "author-input-research.md「来源事实与局部因果」；author-input-supplement.md「对象身份与组界」「对象级元数据」"
+    },
+    {
+      "id": "C3",
+      "claim": "2025年高校考察者记载展柜中有手写稿，且部分页边有抽象人像。",
+      "source": "author-input-supplement.md「稳定收藏与展示状态」「对象图像与四项直接观察」"
+    },
+    {
+      "id": "C4",
+      "claim": "现有对象图不足以核对具体字迹、人物朝向、数量、墨色、装订和删改，也不能证明页边图作者、形成时间或功能。",
+      "source": "author-input-supplement.md「对象图像与四项直接观察」「对象级元数据」"
+    },
+    {
+      "id": "C5",
+      "claim": "最近比较组是《诗经演》《巴珑》《伪所罗门书》完整诗歌稿本；没有比较组图像证明页边人像为本稿独有。",
+      "source": "author-input-research.md「比较与不可替代性」；author-input-supplement.md「最近比较与断言边界」"
+    },
+    {
+      "id": "C6",
+      "claim": "本稿属于馆藏并纳入文学馆常设陈列框架，但原件、复制件、轮换方式与当天展页未知。",
+      "source": "author-input-supplement.md「稳定收藏与展示状态」；work-selection.json"
+    },
+    {
+      "id": "C7",
+      "claim": "年代、馆藏编号、页数、尺寸、纸张、笔墨、装订和版本阶段尚未核实。",
+      "source": "author-input-research.md「对象身份」「未确定与作者阶段边界」；author-input-supplement.md「对象级元数据」"
+    },
+    {
+      "id": "C8",
+      "claim": "本件使用馆舍占位图，不能把占位图作为作品视觉证据。",
+      "source": "work-selection.json；author-input-research.md「来源」"
+    }
+  ]
+}

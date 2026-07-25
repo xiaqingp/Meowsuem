@@ -1,0 +1,36 @@
+{
+  "id": "PCR-2026-07-23-01",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-23",
+  "ownerInstruction": "你确保fix了这个问题，并且确保以后不能adhoc得改pipeline",
+  "baseRelease": "research/pipeline-releases/v2.4.7.json",
+  "targetVersion": "2.4.8",
+  "scope": [
+    "restore a minimal author input contract",
+    "reject undeclared author inputs and repeated whole-museum plans",
+    "require an owner-approved versioned change record before freezing a pipeline release"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/run-isolated-generation.ps1",
+    "scripts/freeze-pipeline-release.mjs"
+  ],
+  "allowedManagementFiles": [
+    "research/content-standard-manifest.json",
+    "scripts/test-run-isolated-generation.ps1",
+    "scripts/verify-project-authority.mjs",
+    "coho_museum/TechDesign.md",
+    "coho_museum/Milestones.md",
+    "coho_museum/Lessons.md",
+    "coho_museum/knowledge.md"
+  ],
+  "requiredTests": [
+    "isolated generation runner self-test",
+    "project authority gate",
+    "pipeline causality gate",
+    "content pipeline gate",
+    "release idempotence",
+    "author prompt byte regression"
+  ]
+}

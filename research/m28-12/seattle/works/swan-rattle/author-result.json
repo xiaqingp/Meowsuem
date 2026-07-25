@@ -1,0 +1,66 @@
+{
+    "runId":  "m28-12-v2.7.2-seattle-author-swan-rattle-2026-07-24",
+    "stage":  "author",
+    "museumId":  "seattle",
+    "workId":  "swan-rattle",
+    "pipelineVersion":  "2.7.2",
+    "instructionVersion":  "2.1.1",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-07-24T23:19:30.6300565-07:00",
+    "modelStartedAt":  "2026-07-24T23:19:30.8786828-07:00",
+    "modelCompletedAt":  "2026-07-24T23:20:49.3902688-07:00",
+    "completedAt":  "2026-07-24T23:20:49.4147969-07:00",
+    "runnerDurationMs":  78785,
+    "modelDurationMs":  78512,
+    "tokenUsage":  {
+                       "total":  20687,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "6",
+                                    "8",
+                                    "9",
+                                    "10",
+                                    "12",
+                                    "13",
+                                    "14"
+                                ],
+    "logPath":  "research/m28-12/seattle/works/swan-rattle/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "8c08c30f9d915a8942ed605287f7993a6514742c8f895b427876a6ffabb3fda2"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/research-batch-01/swan-rattle-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "e58e9c8cbc6896083e45e44b3044c69d056652691b1f5ebfa2e1226995fe91a3"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/works/swan-rattle/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "90d46bc83cf895ae6c547ef98686551b5b08df4fa337bf3d6f35fb8285fe778f"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "e1360a6809b5e8abecbd004d1f4269afa00c5fbf6ecfc36a7274b70fa259c34f",
+                        "bytes":  7370
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "708c3c0b6a319558743e44845186063a9e5eea3d4298332ab4bbc59bb48fcb4e",
+                        "bytes":  499
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "8e4e93cf4d61878691d61c381105b14d23e2921419107862669cb9fc2950d3bf",
+                        "bytes":  3140
+                    }
+                ]
+}

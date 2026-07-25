@@ -1,0 +1,34 @@
+{
+  "runId": "m28-v1.7.3-autumn-rhythm-isolated-generation-2026-07-22",
+  "startedAt": "2026-07-22T19:40:20-07:00",
+  "executor": "isolated Codex author only",
+  "museumId": "met",
+  "workId": "autumn-rhythm-number-30",
+  "pipelineVersion": "2.0.6",
+  "instructionVersion": "1.7.3",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "authorReasoningEffort": "medium",
+    "reviewer": "disabled",
+    "retry": "disabled"
+  },
+  "publication": "test_only_no_production_write",
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "af0e094bd1d50a714dcc4b0c6a598a0ec329972144023f17f96f39d827605af7"
+    },
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "f5f7fbcd3f46609dcb81bbb1e3fff8b689a2af7ea56feb49153c9a8450246c21"
+    },
+    {
+      "path": "research/pipeline-tests/v1.7.3-autumn-rhythm-isolated-generation/test-spec.md",
+      "sha256": "5004055a1b941e7bbb91ba8d6f754beb704c94bed52be61ddc1179635a4c7c12"
+    },
+    {
+      "path": "research/pipeline-tests/v1.7.3-autumn-rhythm-isolated-generation/research-card.md",
+      "sha256": "ea921b4d9b74cbbe612be442790125f4211ba4ec0dd1070b691ae1d7d88c06a9"
+    }
+  ]
+}

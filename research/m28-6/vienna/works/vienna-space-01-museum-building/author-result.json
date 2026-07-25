@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-space-01-museum-building-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:45:48.9712537-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-04/vienna-space-01-museum-building-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "089413fc36647913502de0e0622d431233b4637d83834a26bdef839af6f94ed8"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-space-01-museum-building/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "ec2b25debf1cca29d66fc68c40da4fcbfc4971583ed92d1b860d006eab5dd289"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "112742f0bea967c5504f8f2f68b2dc8038736965d6a3b071e261be33c089ee41",
+                        "bytes":  8665
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "fb065dd476f73d65cb2bb7471d7aef8399988f8e1d99f328fc72a0cafc06b7d1",
+                        "bytes":  307
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "cfb181b51d1cc46b98f26d69592899bc715fd0ee9ebb873bb05ee136087ac51b",
+                        "bytes":  4287
+                    }
+                ]
+}

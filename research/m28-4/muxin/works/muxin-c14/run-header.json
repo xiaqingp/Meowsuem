@@ -1,0 +1,51 @@
+{
+  "runId": "m28-4-muxin-author-muxin-c14-2026-07-23",
+  "startedAt": "2026-07-24T04:56:56.536Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card_after_verified_selection",
+  "museumId": "muxin",
+  "workId": "muxin-c14",
+  "workIdentity": "《渔村》为20世纪70年代纸本彩墨；两组年代和尺寸著录保留为编目差异，不拆成两件。",
+  "pipelineVersion": "2.4.7",
+  "instructionVersion": "2.0.2",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c22c60e3a215aa1ac90da402debeb2caf9da39975cb2921c4845ef74ef14c834"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "fbe6770b2ff0d935448d52feb1f0d73c35bf8b901efe905dca982615e664a0ad"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c14/author-input-research.md",
+      "sha256": "347ecaa4671de5ad12daef9fd0cb29868c2656500a666d219bb99ce599d2e2ae"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c14/author-input-research-record.json",
+      "sha256": "834137528fe8307bc8577913a178e24c0f3fb8a2fb0a5170d54d37e00d577aff"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c14/work-selection.json",
+      "sha256": "919afe98f2d70a67e6e93cdee1f16b9901c3bff72e12b9b46f1ea73e20633b91"
+    },
+    {
+      "path": "research/m28-4/muxin/integration/museum-plan.json",
+      "sha256": "f1667c694974a0128558ce6d9519b3a616cab05d4dc3a4f4d00caf5ec62862b2"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

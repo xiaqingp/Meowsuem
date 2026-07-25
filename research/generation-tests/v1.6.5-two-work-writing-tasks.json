@@ -1,0 +1,59 @@
+{
+  "instructionVersion": "1.6.5",
+  "sourcePack": "research/generation-tests/v1.6.1-two-work-source-pack.md",
+  "tasks": [
+    {
+      "taskId": "m25-hunters-round-5",
+      "workId": "hunters",
+      "readerStartingPoint": "读者首先看见左下方的猎人和狗，也能发现远处冰面很热闹。",
+      "narrativeQuestion": "为什么一场看起来收获寒酸的狩猎，最后让人记住的却是整个冬天？",
+      "quickLayerPlan": {
+        "visibleTension": "三名猎人与整群狗只带回一只狐狸，远处村民却在冰上娱乐。",
+        "provisionalAnswer": "猎人只是入口；同一季节里的匮乏、生计和快乐才是主体。",
+        "viewingRoute": "从狐狸和狗群沿陡坡进入冰面，再用近景小火与整体冷色确认答案。"
+      },
+      "logicSequence": [
+        {"discovery":"猎人虽在最近处，却背向观众、收获有限，并被坡线带离视线中心。","changesUnderstanding":"一次归猎只够打开画面，无法垄断主题。","thereforeNext":"山坡把我们的目光交给了谁？"},
+        {"discovery":"冰面娱乐、赶路和燎猪与疲惫狗群同时出现。","changesUnderstanding":"冬天成为容纳多种生活状态的时间系统。","thereforeNext":"画家为何需要如此大的世界来代表一个季节？"},
+        {"discovery":"作品属于六幅季节组画，可能供委托人的餐厅宾客观看和交谈。","changesUnderstanding":"高视点、众多人物和大景观服务于表现两个月的生活循环。","thereforeNext":"这套任务怎样转化为勃鲁盖尔独有的视觉方法？"},
+        {"discovery":"组合景观、冷色和尺度递减让天气取得比人物更大的叙事权。","changesUnderstanding":"作者风格的核心从细节丰富转为用整体气候统摄日常。","thereforeNext":"同系列也有这种方法，冬季节点为何仍不可替代？"},
+        {"discovery":"六幅现存五幅且只有本作保留冬季；KHM 又给予其欧洲冬景史上的明确位置。","changesUnderstanding":"作品价值由系列稀有度与让寒冷成为主角的艺术成就共同构成。","thereforeNext":"回到狐狸、火与冰面，用三种短时间重新体会整个季节。"}
+      ],
+      "humorBasis": "三名猎人与整群狗最终只有一只狐狸，像一份很难写漂亮的成绩单。",
+      "falsePremisesToAvoid": ["画中村庄可以真实定位","猎人心情已知","六幅季节画全在维也纳","作品意在批判某一阶级"],
+      "claimBoundaryPlan": [
+        {"claim":"狩猎结果与人物情绪","evidenceType":"来源事实加编辑推断","allowedWording":"只带回一只狐狸，收获看起来有限；狗群疲惫","forbiddenUpgrade":"确认狩猎失败或猎人正在失望"},
+        {"claim":"景观地点","evidenceType":"KHM 来源事实","allowedWording":"尼德兰日常与阿尔卑斯经验组成的发明景观","forbiddenUpgrade":"真实村庄写生"},
+        {"claim":"委托与陈列","evidenceType":"KHM 限定来源","allowedWording":"为 Jongelinck 创作，可能陈列在乡间住宅餐厅","forbiddenUpgrade":"确定挂在餐厅某面墙"},
+        {"claim":"不可替代性","evidenceType":"KHM 来源加比较判断","allowedWording":"六季系列仅存的冬季节点；KHM 称其为欧洲绘画第一幅且最突出的冬季风景画","forbiddenUpgrade":"世界唯一冬景"}
+      ]
+    },
+    {
+      "taskId": "m25-narmer-round-5",
+      "workId": "narmer",
+      "readerStartingPoint": "读者能看见同一位巨大国王在两面出现并佩戴不同王冠。",
+      "narrativeQuestion": "为什么一块调色板要把同一位国王画两遍？",
+      "quickLayerPlan": {
+        "visibleTension": "同一国王在双面重复出现，一面击敌，一面行进检视。",
+        "provisionalAnswer": "两面把征服与秩序两种王权角色同时交给纳尔迈。",
+        "viewingRoute": "认白冠与红冠，比较人物尺寸，再寻找中央圆槽与长颈神兽。"
+      },
+      "logicSequence": [
+        {"discovery":"白冠面突出击敌，红冠面突出行列、战败者和城墙。","changesUnderstanding":"重复国王成为把征服与统治集中到同一人的政治程序。","thereforeNext":"不识文字的观众为何也能立即读懂？"},
+        {"discovery":"尺寸等级、横向分层和复合视角把权力关系编码进形式。","changesUnderstanding":"早期埃及风格显出政治信息设计的功能。","thereforeNext":"这种设计为何保留调色板器形？"},
+        {"discovery":"旧调色板用于研磨颜料，本件保留圆槽并用交颈神兽把它纳入控制图像。","changesUnderstanding":"器物用途转化与王权图像形成在同一对象上相遇。","thereforeNext":"这种视觉资源属于本件，还是属于同时代更广的实验？"},
+        {"discovery":"双犬、猎人和战场调色板提供相近动物、圆槽、狩猎和战争图像。","changesUnderstanding":"价值从虚假孤例转为具名国王、两冠、文字和双面程序的集中保存。","thereforeNext":"真实统一若更漫长，图像的极端压缩为何仍重要？"},
+        {"discovery":"统一很可能渐进发生，击敌图式却延续至古埃及最后的神庙。","changesUnderstanding":"作品记录的是王权如何把复杂历史变成可反复使用的简单形象。","thereforeNext":"把两面同时留在脑中，看两具身体怎样合成一个完整国王。"}
+      ],
+      "humorBasis": "人物尺寸像字体字号；长颈神兽的夸张身体又恰好服务圆槽。",
+      "falsePremisesToAvoid": ["两面记录按时序发生的同一场战斗","纳尔迈一次征服完成统一","长颈神兽只有统一一种含义","本件没有任何同类","它一次发明全部埃及艺术规则"],
+      "claimBoundaryPlan": [
+        {"claim":"双面关系","evidenceType":"观看结构与编辑解释","allowedWording":"并列征服者与秩序主人两种角色","forbiddenUpgrade":"按时间连续发生的动作"},
+        {"claim":"埃及统一","evidenceType":"馆方限定解释加历史研究","allowedWording":"图像宣称跨越上下埃及的王权；统一很可能渐进完成","forbiddenUpgrade":"一次战役完成统一"},
+        {"claim":"长颈神兽","evidenceType":"馆方解释加同类比较","allowedWording":"常被解释为两地受控，同时保留其他含义","forbiddenUpgrade":"唯一确定象征"},
+        {"claim":"视觉语法","evidenceType":"来源事实加直接观察","allowedWording":"尺度、分层与复合视角已协同工作；击敌图式长期延续","forbiddenUpgrade":"本件一次发明三千年全部规则"},
+        {"claim":"不可替代性","evidenceType":"机构资料比较","allowedWording":"同类仍有；本件集中保存具名统治者、两冠、文字和双面王权程序","forbiddenUpgrade":"没有第二件同类"}
+      ]
+    }
+  ]
+}

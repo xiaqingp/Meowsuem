@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.7.2",
+  "runId": "m28-12-v2.7.2-seattle-author-salt-cellar-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-25T06:24:44.401Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_availability_from_locked_work_context",
+    "derived_imagePolicy_from_locked_work_context"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "a7b9d729b79e6bf8a10137b40f538613bc9194f456b07c920720f3677ec09e29",
+      "bytes": 11299
+    },
+    {
+      "path": "card.txt",
+      "sha256": "6135987234901d0abcf4b62d4b32ed948ce641f368d2a2c0831bc4e2442f8b8d",
+      "bytes": 460
+    },
+    {
+      "path": "draft.md",
+      "sha256": "9845c2464e427c370145441d39b67df6d24cc6693e3fc3c9105f4dc41de238fb",
+      "bytes": 3389
+    }
+  ]
+}

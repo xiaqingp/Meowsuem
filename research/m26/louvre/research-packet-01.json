@@ -1,0 +1,99 @@
+{
+  "batchId": "m26-2026-07-22-01",
+  "museumId": "louvre",
+  "instructionVersion": "1.6.7",
+  "packet": 1,
+  "researchOnly": true,
+  "works": [
+    {
+      "workId": "victory",
+      "identity": "萨莫色雷斯的胜利女神 / Winged Victory of Samothrace；希腊化时期；约公元前 200—175 年；帕罗斯大理石像、拉尔托斯大理石船首与基座",
+      "facts": ["1863 年发现于萨莫色雷斯帕莱奥波利斯的大神圣所", "雕像高 328 厘米，连船首与基座总高 564 厘米", "头、双臂等缺失；2014 年复原时重新并入羽毛和基座残片", "2026-07-22 馆方对象页标为德农馆 703 厅在展"],
+      "comparators": ["奥林匹亚派奥尼奥斯胜利女神：另一件大型古希腊胜利女神原作", "同类罗马复制品：可比较胜利女神形象，不能替代本作船首、圣所与雕像的组合"],
+      "observations": ["左腿前迈而躯干略向前", "衣褶在腹部贴身、在腿旁翻卷", "双翼向后张开", "船首基座要求观众从斜前方读出航行方向"],
+      "uncertainties": ["具体纪念哪一场海战仍有争论", "制作地点记录为罗德岛并带问号", "现代楼梯展陈不是古代圣所原境"],
+      "sources": ["https://collections.louvre.fr/en/ark:/53355/cl010252531", "https://doi.org/10.3764/aja.124.4.0551"]
+    },
+    {
+      "workId": "venus",
+      "identity": "米洛的维纳斯 / Venus de Milo；希腊化时期；约公元前 130—100 年；大理石",
+      "facts": ["1820 年发现于米洛斯岛", "双臂缺失，躯干和衣褶构成主要观看线索", "19 世纪进入卢浮宫后迅速成为古典雕塑代表"],
+      "comparators": ["卡普阿的维纳斯等同类半裸阿佛洛狄忒像", "其他罗马复制品能解释姿态类型，不能替代本作希腊化原作身份与保存状态"],
+      "observations": ["上身与骨盆方向错开", "衣褶压在髋部并向腿部滑落", "正面和侧面轮廓差异明显", "残臂使原动作无法确定"],
+      "uncertainties": ["双臂原姿势与所持物没有定论", "发现现场与早期复原记录存在复杂争议"],
+      "sources": ["https://www.louvre.fr/en/explore/visitor-trails/the-louvre-s-masterpieces/a-welcome-newcomer-to-the-louvre"]
+    },
+    {
+      "workId": "mona",
+      "identity": "蒙娜丽莎 / Mona Lisa；列奥纳多·达·芬奇；约 1503—1519 年；木板油画",
+      "facts": ["画中人物通常认作丽莎·盖拉尔迪尼", "达·芬奇长期修改作品并将其带到法国", "卢浮宫原作与普拉多工坊副本的底层修改可并行比较"],
+      "comparators": ["普拉多工坊副本：与原作并行制作并重复多处底层修改", "达·芬奇其他成熟肖像：可比较晕涂法与人物—风景关系"],
+      "observations": ["人物双手交叠", "嘴角与眼角轮廓被柔化", "左右背景地平线高度并不完全一致", "小画幅与巨大观看人群形成现场尺度反差"],
+      "uncertainties": ["委托、完成时间与最终交付过程仍有研究分歧", "表情含义不能被写成确定心理"],
+      "sources": ["https://www.louvre.fr/en/explore/visitor-trails/the-louvre-s-masterpieces/a-superstar-and-a-wedding-crowd", "https://www.museodelprado.es/en/learn/research/studies-and-restorations/resource/study-of-the-prado-museums-copy-of-la-gioconda/504eace0-d54e-49b1-a16b-7afd17f756d3"]
+    },
+    {
+      "workId": "cana",
+      "identity": "加纳的婚宴 / The Wedding Feast at Cana；保罗·委罗内塞；1562—1563 年；布面油画",
+      "facts": ["原为威尼斯圣乔治马焦雷修道院食堂而作", "拿破仑战争时期被运往法国", "现与《蒙娜丽莎》同处国家厅"],
+      "comparators": ["圣乔治马焦雷原食堂建筑与复制展示", "委罗内塞其他大型宴饮画"],
+      "observations": ["基督位于拥挤宴席中央却不占最大面积", "乐师处在前景中轴", "建筑透视把人群分成多层", "画幅远大于对面的《蒙娜丽莎》"],
+      "uncertainties": ["人物具体身份有传统说法但并非全部可确认", "离开原食堂后尺度与观看距离已改变"],
+      "sources": ["https://www.louvre.fr/en/explore/visitor-trails/the-louvre-s-masterpieces/a-superstar-and-a-wedding-crowd", "https://www.louvre.fr/en/explore/the-palace/from-the-mona-lisa-to-the-wedding-feast-at-cana"]
+    },
+    {
+      "workId": "virgin-rocks",
+      "identity": "岩间圣母 / The Virgin of the Rocks；列奥纳多·达·芬奇；约 1483—1494 年；木板转移至画布",
+      "facts": ["与米兰圣母无原罪兄弟会委托有关", "伦敦国家美术馆保存另一版本", "人物以手势和视线在岩洞空间中连接"],
+      "comparators": ["伦敦国家美术馆版本：最接近的同题同构图比较对象", "同一委托的相关祭坛组件"],
+      "observations": ["圣母右手悬在婴孩上方", "天使手势把视线送向幼年施洗约翰", "岩洞和水面以明暗连接前后空间", "人物没有传统建筑王座"],
+      "uncertainties": ["两个版本的制作分工、先后与委托纠纷细节仍需限定", "植物与手势的逐项象征不能写成唯一答案"],
+      "sources": ["https://collections.louvre.fr/ark:/53355/cl010062373", "https://www.nationalgallery.org.uk/media/15698/keith_roy_morrison_schade2011.pdf"]
+    },
+    {
+      "workId": "coronation",
+      "identity": "拿破仑一世加冕大典 / The Coronation of Napoleon；雅克-路易·大卫；1806—1807 年；布面油画",
+      "facts": ["表现 1804 年巴黎圣母院典礼", "画面选择拿破仑为约瑟芬加冕的时刻", "艺术家调整出席人物与姿态以服务帝国叙事"],
+      "comparators": ["凡尔赛保存的大卫工作室版本", "典礼记录与草图可比较画家对事实的改写"],
+      "observations": ["拿破仑站在画面中心举起冠冕", "约瑟芬跪在前方", "教皇坐在后方", "巨幅人物群被建筑轴线整理"],
+      "uncertainties": ["不能把画面当作现场照片", "具体人物姿态的政治意图需有来源"],
+      "sources": ["https://www.louvre.fr/en/explore/the-palace/think-big"]
+    },
+    {
+      "workId": "raft",
+      "identity": "梅杜萨之筏 / The Raft of the Medusa；泰奥多尔·席里柯；1818—1819 年；布面油画",
+      "facts": ["取材于 1816 年法国军舰梅杜萨号搁浅后的木筏灾难", "幸存者叙述和政治丑闻进入作品研究", "画家研究尸体、人体与幸存者证词"],
+      "comparators": ["事件报道与幸存者科雷亚尔、萨维尼的叙述", "席里柯相关习作"],
+      "observations": ["尸体与幸存者沿两组斜线向右上堆高", "远船接近地平线", "帆与挥布形成相反方向", "前景尸体逼近画框"],
+      "uncertainties": ["人物并非逐一对应真实幸存者", "画面压缩了灾难时间，不能当作单一瞬间记录"],
+      "sources": ["https://www.louvre.fr/en/explore/visitor-trails/the-louvre-s-masterpieces/romanticism-topicality-sensuality"]
+    },
+    {
+      "workId": "liberty",
+      "identity": "自由引导人民 / Liberty Leading the People；欧仁·德拉克洛瓦；1830 年；布面油画",
+      "facts": ["回应 1830 年七月革命而非 1789 年法国大革命", "自由以寓意女性出现，同时与具体街垒人物同行", "作品曾因政治敏感性长期离开展示"],
+      "comparators": ["1830 年七月革命版画与新闻图像", "德拉克洛瓦其他政治与历史画"],
+      "observations": ["自由女神踩过街垒向前", "三色旗占据画面上方", "不同衣着与年龄的人物并列", "死者身体横在前景"],
+      "uncertainties": ["人物类型与真实肖像需区分", "不能把寓意人物当作真实参战者"],
+      "sources": ["https://www.louvre.fr/en/explore/visitor-trails/the-louvre-s-masterpieces/romanticism-topicality-sensuality"]
+    },
+    {
+      "workId": "hammurabi",
+      "identity": "汉谟拉比法典石碑 / The Code of Hammurabi；古巴比伦；约公元前 1750 年；玄武岩",
+      "facts": ["上部表现汉谟拉比面对太阳与正义之神沙玛什", "下部刻录近三百条判例", "石碑后来被带到苏萨并在那里出土"],
+      "comparators": ["更早的乌尔纳姆法典等法律文本", "同类王权立法碑铭"],
+      "observations": ["神坐而王站", "权杖与环位于两人之间", "密集楔形文字覆盖主体大部", "顶部图像与下部文字形成上下权威关系"],
+      "uncertainties": ["它不是世界最早法律文本", "条文的实际司法运作不能只由纪念碑推断"],
+      "sources": ["https://www.louvre.fr/en/the-code-of-hammurabi"]
+    },
+    {
+      "workId": "naram-sin",
+      "identity": "纳拉姆辛胜利石碑 / Victory Stele of Naram-Sin；阿卡德；约公元前 2254—2218 年；石灰岩",
+      "facts": ["表现纳拉姆辛率军登山击败敌人", "国王戴角冠并显著大于其他人物", "后被埃兰王舒特鲁克-纳洪特带到苏萨并加刻铭文"],
+      "comparators": ["传统分层式两河纪念碑", "兀鹫碑：同馆更早战争纪念碑"],
+      "observations": ["人物沿连续斜坡上升", "国王位于山峰与星体下方", "士兵沿国王方向推进", "敌人倒下或求饶"],
+      "uncertainties": ["星体和角冠的具体神学解释需限定", "图像宣称的胜利不等于完整战史"],
+      "sources": ["https://collections.louvre.fr/en/ark:/53355/cl010123450"]
+    }
+  ]
+}

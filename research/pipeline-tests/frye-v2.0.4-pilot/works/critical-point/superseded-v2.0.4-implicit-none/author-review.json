@@ -1,0 +1,177 @@
+{
+  "workId": "critical-point",
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "finalPassIssued": false,
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "56362fc67df917f3daf6589c598c2f495b1c7ee3a5406881ce8637fa55a4e04b"
+  },
+  "retryReason": null,
+  "paragraphDependency": [
+    {
+      "paragraph": "30 秒先懂",
+      "dependsOn": "元数据只建立作品身份；本段从读者可见的棋盘、视线和手势进入。",
+      "newUnderstanding": "静止的棋局能够靠全体人物集中的注意力形成戏剧。",
+      "breaksIfMovedEarlier": "已处于正文入口，无需提前；若删去，深层会失去30秒暂时答案和观看路线。"
+    },
+    {
+      "paragraph": "核心问题第一段：注意力的方向",
+      "dependsOn": "快层已经指出盘面、手和脸构成观看路线。",
+      "newUnderstanding": "紧张感来自构图结点；同时把棋种、局势与胜负收窄为未知。",
+      "breaksIfMovedEarlier": "若置于快层之前，读者尚未建立‘停顿为何可读’的抓手，证据边界会像先行审稿。"
+    },
+    {
+      "paragraph": "旁观者怎样把停顿放大",
+      "dependsOn": "上一段已确认棋盘是注意力结点，而非确认了具体棋局。",
+      "newUnderstanding": "不同距离、朝向与手势把私人对弈扩成群体场景，紧张是构图效果而非人物心理事实。",
+      "breaksIfMovedEarlier": "若提前，‘放大’缺少被放大的对象，也无法自然解释为什么不指定心理。"
+    },
+    {
+      "paragraph": "室内物件为什么也在讲故事",
+      "dependsOn": "前两段已说明人物怎样围绕中心物件形成群体叙事。",
+      "newUnderstanding": "同作者比较显示，人物—物件叙事是持续方法；本作的特殊处理是把陈设围出的空间收束到棋盘暂停点。",
+      "breaksIfMovedEarlier": "若提前，比较会成为孤立的作者风格栏目，读者还不知道要比较哪种机制。"
+    },
+    {
+      "paragraph": "它为什么值得在 Frye 多停几分钟",
+      "dependsOn": "此前已建立本作的构图成就、作者方法和最近比较对象。",
+      "newUnderstanding": "比较对象限制了稀有性，同时凸显本作以棋盘调动群体的观看回报；重要性落在特色看点。",
+      "breaksIfMovedEarlier": "若提前，重要性判断缺少艺术机制与比较依据，会退化成标签。"
+    },
+    {
+      "paragraph": "再看这些容易错过的细节",
+      "dependsOn": "正文已经把棋盘、视线、手势、围桌形状和陈设解释为同一机制。",
+      "newUnderstanding": "五项观察成为可在现场逐一核验的证据，而非零散寻物。",
+      "breaksIfMovedEarlier": "若提前，细节会像清单，尚不能回答它们共同怎样制造停顿。"
+    },
+    {
+      "paragraph": "最后再看一眼",
+      "dependsOn": "全文已经证明手势—视线—棋盘的循环，并界定无法辨认具体棋局。",
+      "newUnderstanding": "读者用一只未完成动作的手重新检验：核心价值在共同维持的停顿。",
+      "breaksIfMovedEarlier": "若提前，‘共同维持’尚无群体构图和证据边界支撑，只会重复入口。"
+    },
+    {
+      "paragraph": "事实边界",
+      "dependsOn": "正文已先用正面叙事解释证据能够支持什么。",
+      "newUnderstanding": "读者获得年代、展陈易变性及棋局解释限度，不改变核心答案。",
+      "breaksIfMovedEarlier": "若提前，会让限制条件接管正文声音。"
+    }
+  ],
+  "claimClosure": [
+    {
+      "sentence": "莫勒没有交代下一步棋，而是把落子前的暂停拉长。",
+      "evidenceType": "直接观察加编辑推断",
+      "sourceOrBasis": "棋盘、汇聚视线与停驻手势可见；没有可辨认棋局信息。‘拉长’描述观看效果。",
+      "confidence": "中：构图依据充分，但不升级为作者自述或真实时序。",
+      "verdict": "保留；正文没有指定下一步内容。"
+    },
+    {
+      "sentence": "紧张感由此成为一种构图效果。",
+      "evidenceType": "编辑推断",
+      "sourceOrBasis": "人物距离、朝向、视线和手势共同向棋盘集中。",
+      "confidence": "中：能支持观者感受到的画面张力，不能支持人物心理。",
+      "verdict": "保留；同句明确不替人物指定焦虑、得意或失望。"
+    },
+    {
+      "sentence": "莫勒擅长把人物放进陈设密集的室内，让物件帮助观者辨认场景和关系。",
+      "evidenceType": "来源事实与作品比较",
+      "sourceOrBasis": "research-card.md 记录莫勒的室内风俗画实践，并以 Met《雕塑家的工作室》作为近例。",
+      "confidence": "中：两件作品支持持续兴趣和方法描述，未升级为完整生涯最高级判断。",
+      "verdict": "保留。"
+    },
+    {
+      "sentence": "这件作品没有开创一种新类型，现有比较也无法支持稀有或不可替代的判断。",
+      "evidenceType": "比较边界与编辑判断",
+      "sourceOrBasis": "研究卡五维稀缺性2/5；最近比较对象共享室内人物—物件叙事机制。",
+      "confidence": "中高：足以拒绝高等级主张，但不声称完成全球作品普查。",
+      "verdict": "保留为重要性降级边界。"
+    },
+    {
+      "sentence": "作为 Frye 创始收藏中的美国风俗画，它让十九世纪末绘画如何把日常社交变成可读故事，一眼就变得具体。",
+      "evidenceType": "来源事实、直接观察与编辑判断",
+      "sourceOrBasis": "Founding Collection 归属由馆方集合页支持；人物、室内、棋盘与手势可见；风俗画机制来自研究卡。",
+      "confidence": "高（归属与观察）/中（馆藏解释）：措辞限定在观看回报。",
+      "verdict": "保留。"
+    },
+    {
+      "sentence": "馆方目前将作品年代列为 1898—1908，并列入当前 On View。",
+      "evidenceType": "来源事实",
+      "sourceOrBasis": "Frye 当前集合页与 On View 列表，核验日期2026-07-22。",
+      "confidence": "高但易变：年代按当前馆方口径，展陈状态可能调整。",
+      "verdict": "保留，并已写易变限定。"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这幅画最有意思的是棋盘上什么大动作都没有，莫勒却用一圈人的眼神和手势，把落子前的停顿变成了整屋人一起参与的小戏剧。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "notes": "标题是自然疑问；快层能独立复述；段落转折依次由棋盘、旁观者、室内物件、同作者比较与馆藏价值推进。全文保留一处完整‘并非……而是……’骨架，未形成密集审核口吻。"
+  },
+  "productionLanguageScan": {
+    "scope": [
+      "card.txt 的访客可见句",
+      "draft.md 的标题、元数据、快层、深层、细节、最后一眼、事实边界与资料行"
+    ],
+    "forbiddenCategories": [
+      "内部研究缺口",
+      "图片许可任务",
+      "发布任务",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "版本迁移"
+    ],
+    "findings": [],
+    "verdict": "clean"
+  },
+  "significanceReview": {
+    "label": "特色看点",
+    "artisticAchievement": "棋盘、人物朝向、视线与手势构成明确注意力中心，静止时刻仍有叙事张力。",
+    "artHistoricalPosition": "成熟的美国室内风俗画方法；没有开创类型、生涯高峰或转折的充分证据。",
+    "historicalCulturalValue": "可具体说明十九世纪末风俗画如何将日常社交组织为可读故事；不承担具体棋局或人物关系的史料功能。",
+    "rarityAndIrreplaceability": "稀缺性2/5；《雕塑家的工作室》提供同作者、同机制近例，故不可替代性硬门不成立。",
+    "collectionPosition": "Founding Collection 中清楚易读的美国风俗画样本，馆藏叙事4/5、现场可读性4/5。",
+    "nearestComparator": "路易斯·莫勒《雕塑家的工作室》Sculptor’s Studio（Met）：共享室内群体和物件叙事；本作集中于棋盘暂停点，比较作集中于工作室身份陈设。",
+    "frye72BoundaryVerdict": "compliant：未使用稀世珍品、决定行程、世界级或不可替代等越界判断。"
+  },
+  "observableDetailCheck": {
+    "count": 5,
+    "details": [
+      "下部中央的棋盘",
+      "围桌男子形成紧密群体",
+      "视线汇向盘面",
+      "手势与棋盘距离不同",
+      "密集室内陈设"
+    ],
+    "verdict": "all_traceable_to_research_card"
+  },
+  "secondLookReview": {
+    "action": "从棋盘附近尚未完成动作的手出发，沿人物视线绕回盘面。",
+    "newJudgment": "检验整群人怎样共同维持停顿，而非猜测棋局结果。",
+    "verdict": "work_specific_and_dependent_on_prior_prose"
+  },
+  "voiceScoreCandidate": {
+    "entry": { "score": 2, "basis": "‘画面最响亮的地方，偏偏没有动作’立即建立本作的静止—张力问题。" },
+    "causality": { "score": 2, "basis": "棋盘结点引出旁观者放大，再引出物件叙事与比较边界。" },
+    "human": { "score": 1, "basis": "人物选择无法从资料确认；正文以可见的群体观看关系推进，没有虚构身份。" },
+    "turn": { "score": 2, "basis": "私人对弈经旁观者变成群体戏剧，随后比较又把价值从稀有收窄到机制与馆藏角色。" },
+    "visualPayoff": { "score": 2, "basis": "每项判断回到棋盘、视线、手势、围桌形状或陈设。" },
+    "oralClarity": { "score": 2, "basis": "一口气复述成立，标题与转折可自然朗读。" },
+    "secondLook": { "score": 2, "basis": "末段提供从手势沿视线回到盘面的对象专属复看动作。" },
+    "total": 13,
+    "note": "仅为作者候选意见，不构成最终通过。"
+  },
+  "unresolvedRisks": [
+    "馆方对象页尚未直接恢复核验，因此正文只采用当前集合页的1898—1908年代范围，没有采用旧线索‘约1903’。",
+    "作品尺寸未获允许输入中的官方结果支持，正文已省略。",
+    "棋种、具体局面、人物关系与胜负无法确认，正文只写可见的注意力结构。",
+    "当前 On View 状态核验于2026-07-22，访客到场时可能变化。",
+    "Moeller 的慕尼黑训练、1884年奖项与1895年 Academician 身份只有非首选汇编提示，正文未使用。",
+    "图片直接地址、摄影署名与复用许可未确认；该事项未进入访客正文。",
+    "中文题名《棋局的关键时刻》为基于英文题名的编辑译名，允许输入未提供馆方正式中文名。",
+    "参观优先级‘时间充裕再看’与停留3—5分钟属于依据特色看点和72分边界作出的编辑判断，研究卡未给出显式等级。"
+  ],
+  "authorConclusion": "稿件具备进入独立审读的条件；作者未签发最终 PASS。"
+}

@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-pg-02-hunters-in-the-snow-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:42.909Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "847dc28dd5986e08f6791d4a4f5aaee8e08499ae2a69ffd7ba86a4f29cad8aec",
+      "bytes": 8745
+    },
+    {
+      "path": "card.txt",
+      "sha256": "d955651b56c5c3199e4473cf7933097cc90462b2ee74322b4a602e26462918a9",
+      "bytes": 211
+    },
+    {
+      "path": "draft.md",
+      "sha256": "0ed4ea690293147d0aeb775a22903afb84172b315e627918c2593eaba427d7d7",
+      "bytes": 3881
+    }
+  ]
+}

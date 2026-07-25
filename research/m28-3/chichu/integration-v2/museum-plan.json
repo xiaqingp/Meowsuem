@@ -1,0 +1,204 @@
+{
+  "museumId": "chichu",
+  "identity": {
+    "zh": "地中美术馆",
+    "en": "Chichu Art Museum",
+    "location": "Naoshima, Japan"
+  },
+  "capacity": 20,
+  "score": {
+    "value": 79,
+    "band": "70–79 · 可去可不去",
+    "travelAction": "如果已经安排直岛行程，地中美术馆应列为优先目的地，并预留至少半天；若只按稀世名作密度决定旅行，它不足以单独支撑一次前往直岛的行程。",
+    "scoreReason": "安藤忠雄把建筑大半埋入山体，并为莫奈、詹姆斯·塔瑞尔和沃尔特·德·玛利亚分别设计永久空间；路线、自然光、作品与天气共同构成高度不可复制的现场。20项中有11项达到重要藏品，但没有一项通过“稀世珍品”的全球不可替代性硬门，因此最高只能停在70档。",
+    "withinBandReason": "位于70档上限：整体现场、三位艺术家的永久空间和从早期到晚期的塔瑞尔序列，使它比一般建筑型小馆更完整，也比同为场域体验主导的江之浦测候所更集中地把重要原作、建筑与光线锁在一起；但收藏规模很小，莫奈和塔瑞尔均有明确可比组，建筑体验也不能重复计作多条珍品线，所以不能跨入80档。",
+    "limitations": "馆藏集中于三位艺术家，20项中多项是同一建筑的观看节点，不能按20件独立名作理解。预约、开放日、维护与塔瑞尔夜间项目会变化；馆内摄影规则和当天作品状态须以馆方为准。",
+    "rareAssets": [],
+    "dedicatedTrip": false
+  },
+  "museumMainline": {
+    "question": "一座美术馆怎样把自己藏进地下，却让光、天气和时间成为最醒目的展品？",
+    "answer": "安藤忠雄用埋入山体的混凝土、露天几何庭院和专用展厅限制光进入的方式；莫奈的水面、塔瑞尔的光室与德·玛利亚的固定几何体因此都不再拥有一个恒定外观。这里最值得看的不是建筑、作品或自然中的单独一项，而是三者怎样共同把观看变成一段随身体移动和时刻变化的过程。",
+    "travelerStartingPoint": "零背景访客首先能确认的是山坡上的几何切口、地下混凝土路线、五幅莫奈晚期《睡莲》、三件塔瑞尔光作品和德·玛利亚的定制空间。"
+  },
+  "chapters": [
+    {
+      "id": "buried-museum",
+      "title": "建筑消失以后，靠什么带你进入地下？",
+      "purpose": "从地表轮廓到入口、坡道和两座庭院，解释“地中”不是外形噱头，而是一套用遮挡、转折、几何与露天开口建立方向的路线。",
+      "workIds": [
+        "whole",
+        "hidden-profile",
+        "entrance-cut",
+        "concrete-ramp",
+        "square-court",
+        "trench-passage",
+        "triangle-court"
+      ]
+    },
+    {
+      "id": "measured-daylight",
+      "title": "自然光既然会变，展厅怎样把变化变成秩序？",
+      "purpose": "说明自然光并非未经设计地落入地下；开口、吊顶、材料和测光共同让时间可见，并为莫奈作品建立专用环境。",
+      "workIds": [
+        "daylight-clock",
+        "monet-room",
+        "marble-floor"
+      ]
+    },
+    {
+      "id": "monet-water",
+      "title": "没有岸和地平线，莫奈怎样只用水面撑起五幅画？",
+      "purpose": "以建馆契机的六米双联画为核心，对照方形、横幅、草丛和柳影，讲清莫奈晚期如何用浮叶、反射与松散笔触替代传统远景。",
+      "workIds": [
+        "water-lily-pond-1915",
+        "cluster-grass",
+        "water-lilies-1914",
+        "water-lily-pond-1917",
+        "willow-reflections"
+      ]
+    },
+    {
+      "id": "turrell-perception",
+      "title": "光什么时候像物体，什么时候又像一间房？",
+      "purpose": "按1968、2000、2004年的顺序比较塔瑞尔从墙角投影、空间开口到真实天空的三种方法，让观众用移动和颜色对比检查自己的知觉。",
+      "workIds": [
+        "afrum",
+        "open-field",
+        "open-sky"
+      ]
+    },
+    {
+      "id": "changing-time",
+      "title": "不动的石球与生长的庭园，怎样各自记录时间？",
+      "purpose": "以德·玛利亚的固定几何和地中庭园的季节变化收束全馆：时间既能通过光在材料上的移动显现，也能通过植物的生长与花期显现。",
+      "workIds": [
+        "time-timeless",
+        "chichu-garden"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "90-minutes",
+      "title": "90分钟｜三位艺术家与建筑主线",
+      "duration": "约90分钟",
+      "goal": "只保留能够证明本馆整体判断的建筑节点和三位艺术家的最高回报作品。",
+      "workIds": [
+        "whole",
+        "entrance-cut",
+        "triangle-court",
+        "monet-room",
+        "water-lily-pond-1915",
+        "afrum",
+        "open-field",
+        "open-sky",
+        "time-timeless"
+      ],
+      "activelySkip": [
+        "hidden-profile",
+        "square-court",
+        "trench-passage",
+        "concrete-ramp",
+        "marble-floor",
+        "cluster-grass",
+        "water-lilies-1914",
+        "water-lily-pond-1917",
+        "willow-reflections",
+        "chichu-garden"
+      ],
+      "note": "现场若限流或规定单向动线，以馆方路线为准；本路线是注意力取舍，不是实时导航。"
+    },
+    {
+      "id": "half-day",
+      "title": "半天｜看懂建筑怎样改变三组作品",
+      "duration": "约3至4小时",
+      "goal": "在核心作品之外加入地表、坡道、两座庭院、日光机制和莫奈组画差异，形成完整的建筑—光—作品关系。",
+      "workIds": [
+        "whole",
+        "hidden-profile",
+        "entrance-cut",
+        "concrete-ramp",
+        "square-court",
+        "trench-passage",
+        "triangle-court",
+        "daylight-clock",
+        "monet-room",
+        "water-lily-pond-1915",
+        "cluster-grass",
+        "water-lilies-1914",
+        "afrum",
+        "open-field",
+        "open-sky",
+        "time-timeless"
+      ],
+      "activelySkip": [
+        "marble-floor",
+        "water-lily-pond-1917",
+        "willow-reflections",
+        "chichu-garden"
+      ],
+      "note": "给莫奈室、三件塔瑞尔作品和德·玛利亚空间各留出安静适应光线的时间，不以快速打卡数量为目标。"
+    },
+    {
+      "id": "complete",
+      "title": "完整浏览｜把20项看成一套时间装置",
+      "duration": "半天以上；若参加塔瑞尔日落项目，须另按馆方预约安排",
+      "goal": "覆盖全部20项，并通过五幅莫奈、三件塔瑞尔、建筑材料和庭园的细部比较理解整馆。",
+      "workIds": [
+        "chichu-garden",
+        "whole",
+        "hidden-profile",
+        "entrance-cut",
+        "concrete-ramp",
+        "square-court",
+        "trench-passage",
+        "triangle-court",
+        "daylight-clock",
+        "monet-room",
+        "marble-floor",
+        "water-lily-pond-1915",
+        "cluster-grass",
+        "water-lilies-1914",
+        "water-lily-pond-1917",
+        "willow-reflections",
+        "afrum",
+        "open-field",
+        "open-sky",
+        "time-timeless"
+      ],
+      "activelySkip": [],
+      "note": "庭园可在入馆前或离馆后观看；馆内顺序须服从当天动线。日落项目不是常规开放自动包含的环节。"
+    }
+  ],
+  "visitBoundaries": [
+    "本馆范围只包括地中美术馆，不把直岛其他Benesse Art Site场馆并入评分或路线。",
+    "三位艺术家的作品由馆方列为永久陈列，但永久收藏不等于任何时刻都无维护或临时限制。",
+    "自然光使作品和空间随时刻、天气与季节变化；文案不承诺某一种固定颜色或光影。",
+    "塔瑞尔日落夜间项目需按馆方实时信息预约；常规参观与夜间项目分开安排。",
+    "馆内摄影规定可能变化，出发前和现场均以馆方说明为准。"
+  ],
+  "sourceLinks": [
+    {
+      "label": "地中美术馆馆方介绍",
+      "url": "https://benesse-artsite.jp/en/art/chichu.html"
+    },
+    {
+      "label": "Benesse Art Site Naoshima媒体资料",
+      "url": "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf"
+    },
+    {
+      "label": "莫奈空间建造档案",
+      "url": "https://benesse-artsite.jp/en/story/20210611-1671.html"
+    },
+    {
+      "label": "塔瑞尔与德·玛利亚馆方讲座",
+      "url": "https://benesse-artsite.jp/en/story/20170215-770.html"
+    },
+    {
+      "label": "馆方开放日历",
+      "url": "https://www.benesse-artsite.jp/en/calendar/monthly.html"
+    }
+  ],
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

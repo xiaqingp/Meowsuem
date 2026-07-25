@@ -1,0 +1,30 @@
+{
+  "museum": "vienna",
+  "instructionVersion": "1.5.0",
+  "researchBatches": 4,
+  "maxWorksPerResearchBatch": 10,
+  "researchCards": 40,
+  "singleWorkWritingTasks": 40,
+  "multiWorkWritingTasks": 0,
+  "firstPassContentGate": {
+    "worksChecked": 40,
+    "failedWorks": 0,
+    "failureFamilies": 0
+  },
+  "previousPublishedDraft": {
+    "worksAffectedByGeneratedBoilerplate": 40,
+    "failureFamilies": 12
+  },
+  "browserGate": {
+    "museumCards": 40,
+    "uniqueWorkUrls": 40,
+    "imagesChecked": 40,
+    "brokenImages": 0,
+    "detailPagesChecked": 40,
+    "failedDetailPages": 0
+  },
+  "tokenMeasurement": {
+    "status": "unavailable",
+    "claim": "No exact token-saving claim is made; the pilot proves lower failed-work rework instead."
+  }
+}

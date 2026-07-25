@@ -1,0 +1,51 @@
+{
+  "runId": "m28-4-muxin-author-muxin-c13-2026-07-23",
+  "startedAt": "2026-07-24T04:56:17.704Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card_after_verified_selection",
+  "museumId": "muxin",
+  "workId": "muxin-c13",
+  "workIdentity": "《废谷》，2004年，纸本彩墨，15.7 × 42.9厘米；多条开馆资料的题名、年代、材质和尺寸一致。",
+  "pipelineVersion": "2.4.7",
+  "instructionVersion": "2.0.2",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c22c60e3a215aa1ac90da402debeb2caf9da39975cb2921c4845ef74ef14c834"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "fbe6770b2ff0d935448d52feb1f0d73c35bf8b901efe905dca982615e664a0ad"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c13/author-input-research.md",
+      "sha256": "8fd19f296722a168d434cdd9d2bb1c5a6902f316f20510a2013df3cb068a90b5"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c13/author-input-research-record.json",
+      "sha256": "cd97e93b81635e0566bd01da70e2ef8e6c674d74e052fe513049ac15f3328afb"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c13/work-selection.json",
+      "sha256": "9228c037e57003edef5830777a7947e6c380414e2afe7976fd2e6cc77e152f37"
+    },
+    {
+      "path": "research/m28-4/muxin/integration/museum-plan.json",
+      "sha256": "f1667c694974a0128558ce6d9519b3a616cab05d4dc3a4f4d00caf5ec62862b2"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

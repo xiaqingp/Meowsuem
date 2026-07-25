@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.4.2",
+  "runId": "m28-3-chichu-author-cluster-grass-2026-07-23",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T03:08:48.892Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_workId_from_run_header",
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "8d0f242b505691195aeb4a30de2268b253980d850b9d4971ace24cdda29466c4",
+      "bytes": 8009
+    },
+    {
+      "path": "card.txt",
+      "sha256": "1be2bea9c868cc40b9d7c1ac8d319af223fd008325b24f2e6a6b9cff5989f156",
+      "bytes": 331
+    },
+    {
+      "path": "draft.md",
+      "sha256": "06402446f87858250acc3a7ffe71eae5a43aeb577e6613e2122eacd0e6df9ea9",
+      "bytes": 4042
+    }
+  ]
+}

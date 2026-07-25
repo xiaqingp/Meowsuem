@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-ant-05-amazon-sarcophagus-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:32:58.6911406-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-03/vienna-ant-05-amazon-sarcophagus-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "b3ef70785f7f45a60e4919da11df925b09ab8dc5c900e74555a359e9643662cb"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-ant-05-amazon-sarcophagus/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "65d3642cf770fab0215572c2c180068be0472e31019254f118e0ba07d443ddc7"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "e8c5371dfc86a86e611c247cba029de3c15f1e4ff2034ae06cff204dcb88d1c6",
+                        "bytes":  9357
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "f10cfec15221f0223cd9ef66825255b72c93eea4531b6c1f654996e3f50e69b6",
+                        "bytes":  289
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "a06a755fcccd0cf34a3817a8f1e6de713a6c80044ce6fc15e6e5fc05e29f14f3",
+                        "bytes":  4608
+                    }
+                ]
+}

@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "meowseum-author-bundle/1.0",
+  "runId": "m28-6-vienna-author-vienna-pg-12-rubens-self-portrait-2026-07-24",
+  "museumId": "vienna",
+  "workId": "vienna-pg-12-rubens-self-portrait",
+  "title": {
+    "zh": "自画像",
+    "en": "Self-Portrait"
+  },
+  "displayMetadata": {
+    "by": "彼得·保罗·鲁本斯 Peter Paul Rubens · 弗兰德斯",
+    "date": "1638/1640",
+    "material": "布面绘画",
+    "place": "维也纳艺术史博物馆绘画馆馆藏 · 展出状态待核验",
+    "priority": "强烈推荐",
+    "significance": "重要藏品",
+    "stay": "建议停留 5 分钟",
+    "availability": "display_status_unknown",
+    "imagePolicy": "object_image"
+  },
+  "selectionRationale": {
+    "priority": "作品把鲁本斯生命最后阶段的具体面貌与宫廷肖像的公开身份并置，现场观看回报明确；当前展出状态未知，因此不标为绝对不可错过。",
+    "significance": "作品具有明确的作者晚年生涯位置，并有卢浮宫准备素描作为同一项目的比较对象；现有证据未完成不可替代性硬门，故定为重要藏品。"
+  },
+  "narrativeMainline": {
+    "valueType": "artist_landmark",
+    "mainline": "鲁本斯在生命最后阶段仍借柱、剑和手套呈现宫廷人物的公开身份，却没有把年长的面貌完全理想化。公开地位与具体年龄同时留在画中，使这幅自画像成为他晚年如何呈现自己的重要作品。",
+    "readerStartingPoint": "读者从标题可知这是鲁本斯的自画像；从可靠图像可见半身人物、宽边帽、深色服装、柱、剑、手套，以及脸部的年长特征。",
+    "storyBeats": [
+      {
+        "step": 1,
+        "researchMaterial": [
+          "零背景可确认与图像观察 1—4",
+          "来源事实与候选价值第 2 条"
+        ],
+        "newUnderstanding": "先建立公开身份与具体年龄并置这一核心关系，并把它落实到宫廷属性、脸部和明暗安排。"
+      },
+      {
+        "step": 2,
+        "researchMaterial": [
+          "来源事实与候选价值第 1—2 条",
+          "因果、原境与经历第 1 条"
+        ],
+        "newUnderstanding": "解释这些物件为何不是普通装饰：它们把鲁本斯放进贵族化、外交家式的公开形象，而个人面貌仍得到突出。"
+      },
+      {
+        "step": 3,
+        "researchMaterial": [
+          "来源事实与候选价值第 4 条",
+          "比较、趣闻与边界第 1 条"
+        ],
+        "newUnderstanding": "通过卢浮宫准备素描说明这幅自画像经过构思，同时划清现有比较证据不足以证明全球不可替代性。"
+      },
+      {
+        "step": 4,
+        "researchMaterial": [
+          "来源事实与候选价值第 3 条",
+          "比较、趣闻与边界第 2 条"
+        ],
+        "newUnderstanding": "以后加姓名铭文说明署名痕迹与艺术家亲笔并非一回事，并引导第二眼回到画中真正承担身份表达的物件和面貌。"
+      }
+    ],
+    "humorBasis": "",
+    "mustNotAssume": [
+      "不得把画中表情解释为疲惫、忧郁、骄傲或死亡预感。",
+      "不得声称鲁本斯意在让私人真我战胜公共身份。",
+      "不得把左侧柱上的姓名铭文写成鲁本斯亲笔签名。",
+      "不得断定作品完成于1638、1639或1640中的某一年。",
+      "不得虚构最初委托者、受赠者或悬挂地点。",
+      "不得声称这是鲁本斯唯一、最重要或最优秀的自画像。",
+      "不得声称作品当前一定在展。"
+    ]
+  },
+  "highRiskClaims": [
+    {
+      "claim": "画中年长特征表达鲁本斯的某种心理或死亡预感",
+      "evidenceType": "直接观察仅支持皱纹、眼袋与松弛皮肤等外观",
+      "allowedWording": "面部保留年长特征，未被完全理想化",
+      "forbiddenUpgrade": "疲惫、忧郁、骄傲、病痛或死亡预感"
+    },
+    {
+      "claim": "宫廷属性揭示鲁本斯的明确创作意图",
+      "evidenceType": "馆方来源事实支持宫廷属性与个人面貌的并置",
+      "allowedWording": "柱、剑和手套把他放入贵族化、外交家式的公开身份",
+      "forbiddenUpgrade": "鲁本斯明确要让私人真我战胜公共身份"
+    },
+    {
+      "claim": "作品的精确完成年份",
+      "evidenceType": "馆方年代范围与研究卡未知边界",
+      "allowedWording": "1638/1640，或生命最后阶段",
+      "forbiddenUpgrade": "确定完成于1638、1639或1640中的某一年"
+    },
+    {
+      "claim": "左侧铭文证明作品有鲁本斯亲笔签名",
+      "evidenceType": "来源事实明确铭文为后来添加",
+      "allowedWording": "左侧柱上的姓名铭文是后加的",
+      "forbiddenUpgrade": "鲁本斯亲笔签名或以铭文完成自我宣告"
+    },
+    {
+      "claim": "本作在鲁本斯自画像中具有唯一性或最高地位",
+      "evidenceType": "现有材料仅提供卢浮宫同一项目准备素描，未完成全部自画像比较",
+      "allowedWording": "鲁本斯晚年重要自画像；具有同一项目的准备素描可比",
+      "forbiddenUpgrade": "唯一、最重要、最优秀或不可替代"
+    },
+    {
+      "claim": "作品当前在展",
+      "evidenceType": "馆藏关系已确认，对象页未给当前展厅",
+      "allowedWording": "绘画馆馆藏，展出状态待核验",
+      "forbiddenUpgrade": "当前在展或可按固定展厅找到"
+    }
+  ],
+  "claimLedger": [
+    {
+      "id": "C01",
+      "claim": "作品为鲁本斯1638/1640年的布面自画像，属于其生命最后阶段。",
+      "type": "来源事实",
+      "researchCardLocation": "身份与状态；来源事实与候选价值"
+    },
+    {
+      "id": "C02",
+      "claim": "人物为半身像，戴宽边帽，面部正对观者。",
+      "type": "直接观察",
+      "researchCardLocation": "零背景可确认与图像观察 1"
+    },
+    {
+      "id": "C03",
+      "claim": "画面有手套、剑与柱等宫廷肖像属性。",
+      "type": "来源事实与直接观察",
+      "researchCardLocation": "零背景可确认与图像观察 2；来源事实与候选价值第 2 条"
+    },
+    {
+      "id": "C04",
+      "claim": "深色服装与背景压低色彩，脸、白领和手成为较明确的亮部。",
+      "type": "直接观察",
+      "researchCardLocation": "零背景可确认与图像观察 3"
+    },
+    {
+      "id": "C05",
+      "claim": "面部保留皱纹、眼袋与松弛皮肤等年长特征，未被完全理想化。",
+      "type": "直接观察",
+      "researchCardLocation": "零背景可确认与图像观察 4"
+    },
+    {
+      "id": "C06",
+      "claim": "宫廷属性塑造贵族化、外交家式的公开身份，个人面貌同时得到更多重视。",
+      "type": "来源事实",
+      "researchCardLocation": "来源事实与候选价值第 2 条；因果、原境与经历第 1 条"
+    },
+    {
+      "id": "C07",
+      "claim": "鲁本斯在宫廷极为成功，却对宫廷生活始终矛盾，晚年寻求卸下多数外交职责。",
+      "type": "来源事实",
+      "researchCardLocation": "来源事实与候选价值第 1 条"
+    },
+    {
+      "id": "C08",
+      "claim": "卢浮宫约1635/1638年的纸上自画像被认定为维也纳作品的准备研究，并有若干变体。",
+      "type": "来源事实与比较",
+      "researchCardLocation": "来源事实与候选价值第 4 条；比较、趣闻与边界第 1 条"
+    },
+    {
+      "id": "C09",
+      "claim": "准备素描说明维也纳自画像经过构思，但现有资料不足以确认全部自画像数量、优劣或不可替代性。",
+      "type": "编辑整理与证据边界",
+      "researchCardLocation": "来源事实与候选价值第 4 条；比较、趣闻与边界第 1 条"
+    },
+    {
+      "id": "C10",
+      "claim": "左侧柱上的“P.P. RUBINS”铭文为后来添加，不能视作鲁本斯亲笔签名。",
+      "type": "来源事实",
+      "researchCardLocation": "来源事实与候选价值第 3 条；比较、趣闻与边界第 2 条"
+    },
+    {
+      "id": "C11",
+      "claim": "作品1691年见于Juan Gaspar Enríquez Alonso de Cabrera收藏，1720年已记录于画廊；最初受赠者和悬挂地点未知。",
+      "type": "来源事实与证据边界",
+      "researchCardLocation": "因果、原境与经历第 2 条"
+    },
+    {
+      "id": "C12",
+      "claim": "作品属于Kunsthistorisches Museum绘画馆馆藏，但当前展出状态未知。",
+      "type": "来源事实与易变状态边界",
+      "researchCardLocation": "身份与状态"
+    },
+    {
+      "id": "C13",
+      "claim": "本作应列为重要藏品而非稀世珍品。",
+      "type": "编辑判断",
+      "researchCardLocation": "身份与状态；比较、趣闻与边界；work_context significance与rareGatePassed"
+    }
+  ],
+  "draftStructure": [
+    "30 秒先懂：公开身份与年长面貌的并置",
+    "多停几分钟：宫廷属性如何建立身份",
+    "多停几分钟：准备素描如何证明构思并划清珍贵性边界",
+    "趣闻：后加铭文",
+    "细节：宽边帽与正面面孔、亮部、手套与剑",
+    "最后再看一眼：从后加姓名转回画中物件与面貌",
+    "事实边界与资料"
+  ]
+}

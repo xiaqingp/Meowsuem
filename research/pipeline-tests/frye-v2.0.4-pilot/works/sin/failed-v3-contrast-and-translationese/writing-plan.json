@@ -1,0 +1,156 @@
+{
+  "workId": "sin",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "museumId": "frye",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "directUpstream": {
+    "filename": "research-card.md",
+    "sha256": "f939f6bc2e9ab15bcd7f5b398f9b92fc8be8c7db9125e478a2c8ff8ecb81ca14"
+  },
+  "readerBaseline": "零背景读者能从标题《罪》、窄竖画面、暗处的女子、横跨双肩的蛇、两个眼部亮点和金色框看出危险与诱惑并置；读者尚不知道这是不是某个具体人物，也不知道框与多个版本为何重要。",
+  "coreQuestion": "为什么《罪》把几乎所有东西藏进黑暗，却让两个眼部亮点和金框共同逼近观者？",
+  "quickLayerPromise": {
+    "visibleTension": "身体与背景几乎相融，女子和蛇的眼部却各留下一个亮点，外圈金框又把黑暗收成一道窄门。",
+    "provisionalAnswer": "作品用极少的亮部把观看变成一次无法回避的对视；框不是外围装饰，而是把诱惑与危险一起推到面前的构图部件。",
+    "viewingRoute": [
+      "确认女子眼部的一个亮点",
+      "确认蛇眼的一个亮点",
+      "沿蛇横跨双肩的方向看它怎样压住窄幅",
+      "比较近黑画面与金色建筑式框的明暗边界"
+    ]
+  },
+  "cognitionSteps": [
+    {
+      "step": 1,
+      "discovery": "近黑背景抹去环境，女子眼部与蛇眼各有一个亮点，视线被压缩成双重对视。",
+      "changesUnderstanding": "标题中的抽象道德词先被落实为身体、蛇和观者之间的视觉压力。",
+      "thereforeNext": "如果压力不只来自人物，包围画面的金色框怎样参与其中？"
+    },
+    {
+      "step": 2,
+      "discovery": "金色建筑式框与窄竖幅共同把黑暗收束成门或壁龛般的整体，框改变了人物逼近观者的方式。",
+      "changesUnderstanding": "画面不再只是黑底人物；它是由绘画与框共同设计的一次迎面遭遇。",
+      "thereforeNext": "既然整体设计如此关键，这种安排是偶然的一件，还是作者反复经营的母题？"
+    },
+    {
+      "step": 3,
+      "discovery": "Stuck 在1891至1912年间制作过多个近似版本；Frye 约1908年的作品属于较晚阶段，与1893年版本共享暗背景、缠肩之蛇、正面凝视和窄幅。",
+      "changesUnderstanding": "上一段的框—画整体由一次现场效果变成被反复调整的象征主义公式；Frye 件的价值不能建立在唯一性上。",
+      "thereforeNext": "重复母题为何仍值得在 Frye 停留，它在作者生涯、馆藏和现场各自成立到什么程度？"
+    },
+    {
+      "step": 4,
+      "discovery": "该作在艺术史、作者生涯、本馆叙事和现场观看四维均高，稀缺性中低；最近对象是 Neue Pinakothek 1893年《罪》。",
+      "changesUnderstanding": "重要性被重新定位为象征主义机制与本馆锚点，而非孤本稀有度或行程级珍品。",
+      "thereforeNext": "带着这个边界回到现场，哪几个细节能让第二眼同时看见诱惑、危险与设计？"
+    },
+    {
+      "step": 5,
+      "discovery": "肩部的蛇身、右前方的蛇头、消失在暗处的身体轮廓和框的金黑交界共同把两处眼部亮点固定在狭窄正面。",
+      "changesUnderstanding": "观者最后看到的不只是题材符号，而是画面与框如何控制距离和注意力。",
+      "thereforeNext": "核心问题在第二眼得到回收。"
+    }
+  ],
+  "humorBasis": null,
+  "forbiddenAssumptions": [
+    "女子就是夏娃 Eve",
+    "女子在恐惧、诱惑、挑衅或享受",
+    "蛇和女子之间存在可确证的故事时间顺序",
+    "作者明确说明了每个元素的唯一寓意",
+    "Frye 件是原作、首个版本、唯一版本或最著名版本",
+    "多个版本的精确总数",
+    "现场必定在展",
+    "重要性足以改变西雅图旅行路线"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "女子的正面凝视表达特定心理",
+      "evidenceType": "直接观察只能确认面部朝向与眼部亮点",
+      "allowedWording": "她从暗处正面朝向观者",
+      "forbiddenUpgrade": "写成诱惑、挑衅、恐惧或明知有罪"
+    },
+    {
+      "claim": "蛇与女子构成一段确定的先后故事",
+      "evidenceType": "直接观察只能确认蛇横跨双肩且头伸向右前",
+      "allowedWording": "蛇与女子在同一窄幅中同时逼近视线",
+      "forbiddenUpgrade": "补写蛇先靠近、女子随后反应等真实时间顺序"
+    },
+    {
+      "claim": "作者意在把框做成宗教建筑或祭坛",
+      "evidenceType": "研究卡确认建筑式整体设计；具体宗教用途未确认",
+      "allowedWording": "金色建筑式框参与整体效果，形成门或壁龛般的观看感受",
+      "forbiddenUpgrade": "断言作者明确意图或称其为祭坛、圣像"
+    },
+    {
+      "claim": "Frye 件是唯一或原初版本",
+      "evidenceType": "来源事实确认1891至1912年有多个近似版本，Frye 件约1908",
+      "allowedWording": "这是较晚版本之一；其价值不依赖版本唯一性",
+      "forbiddenUpgrade": "原作、唯一、首个成功版本、精确版本总数"
+    },
+    {
+      "claim": "作品不可替代并足以决定旅行",
+      "evidenceType": "五维比较与馆内定位；稀缺仅中低，馆级72分边界",
+      "allowedWording": "它是 Frye 的 Stuck 与慕尼黑象征主义锚点",
+      "forbiddenUpgrade": "稀世珍品、世界唯一、必须为它专程到访"
+    }
+  ],
+  "historicalContextPlan": {
+    "applicable": false,
+    "reason": "作品的重要性不依赖一场必须重建前后状态的政治、宗教或制度变化；适用背景是象征主义与作者反复经营该母题。",
+    "beforeState": null,
+    "changeOrConflict": null,
+    "objectRole": "以寓意、情色身体和建筑式整体设计重新组织‘罪’这一抽象主题。",
+    "consequence": "多个版本说明这一组合在作者生涯中持续重要，但不证明任何一件具有唯一地位。",
+    "uncertainty": "公开来源对版本总数不一；不写精确数量或作者确定意图。",
+    "placement": "快层只交代视觉机制；深层在金框改变观看之后再引入版本史，使版本事实回答‘这套整体设计是否偶然’。"
+  },
+  "authorStyle": {
+    "artist": "弗朗茨·冯·施图克 Franz von Stuck · 德国",
+    "movement": "象征主义",
+    "careerPosition": "约1908年的较晚版本，属于1891至1912年反复处理的《罪》母题",
+    "visibleMechanism": "寓意题材、情色身体、近黑背景、正面凝视、缠肩之蛇与建筑式框被组织成统一整体",
+    "typicalTurnOrException": "典型地体现其象征主义整体设计；不得把较晚版本写成原初或唯一成就"
+  },
+  "significance": {
+    "artHistory": "高：是 Stuck 象征主义‘罪/蛇与女人’母题的清晰实例，但 Frye 件并非唯一版本。",
+    "artistCareer": "高：母题跨1891至1912年反复出现，Frye 件显示其较晚阶段的持续经营。",
+    "museumNarrative": "高：是 Frye 的 Stuck 与慕尼黑象征主义锚点。",
+    "onsiteExperience": "高：窄竖幅、近黑背景、两处眼部亮点与金框形成强烈整体效果。",
+    "scarcity": "中低：多个近似版本存在，公开总数不统一。",
+    "comparisonCategory": "象征主义‘罪/蛇与女人’母题",
+    "nearestComparator": "Neue Pinakothek 1893年《Die Sünde (Sin)》",
+    "sharedFeatures": "暗背景、蛇缠肩、正面凝视、窄竖幅",
+    "decisiveDifference": "Frye 件年代较晚，媒材、具体框和色调不同；其现场价值在具体的框—画整体，而非首创或唯一性。",
+    "boundary": "重要藏品；不能拔高为稀世珍品或决定行程的孤品，符合 Frye 72分边界。"
+  },
+  "observableDetails": [
+    "窄竖幅把人物压在狭长空间内",
+    "女子从近黑背景中浮现，身体轮廓有些部分融入暗处",
+    "蛇横跨双肩，蛇头伸向画面右前方",
+    "女子眼部有一个亮点",
+    "蛇眼有一个亮点",
+    "金色建筑式框与黑色画面形成鲜明边界"
+  ],
+  "secondLook": "在确认女子眼部与蛇眼各一个亮点后，把视线扩大到蛇身和金框：第二眼应看出两点亮光并非孤立效果，而是被蛇的横向压力、窄幅和框的边界共同固定的一次正面遭遇。",
+  "productionLanguageBoundary": {
+    "visitorProseMustExclude": [
+      "研究缺口",
+      "图片许可任务",
+      "发布任务",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "迁移语言"
+    ],
+    "internalRisksLocation": "author-review.json only"
+  },
+  "retryResponse": {
+    "reason": "先前中段金框与版本史可互换，未形成段落依赖。",
+    "regenerationRule": "仅从 research-card.md 重建，不复用失败 prose。",
+    "causalFix": "必须先由金框证明画与框是一个整体，才能由版本史回答这种整体设计是否偶然；若版本史提前，‘这种安排’尚无指代对象，论证失去前提。",
+    "reorderingTest": "将版本史段移到金框段前会使版本比较变成无对象的资料插入，也无法解释为何比较框与色调，因此重排必须失败。",
+    "eyeHighlightBoundary": "正文只写女子眼部一个亮点与蛇眼一个亮点，合计恰好两个。"
+  }
+}

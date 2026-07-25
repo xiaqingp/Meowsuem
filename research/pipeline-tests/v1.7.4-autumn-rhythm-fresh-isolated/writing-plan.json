@@ -1,0 +1,348 @@
+{
+  "artifactType": "writing_plan",
+  "runProvenance": {
+    "runId": "m28-v1.7.4-autumn-rhythm-fresh-isolated-2026-07-22",
+    "stage": "author",
+    "museumId": "met",
+    "workId": "autumn-rhythm-number-30",
+    "pipelineVersion": "2.0.8",
+    "instructionVersion": "1.7.4",
+    "executor": {
+      "name": "Codex",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "medium"
+    },
+    "startedAt": "2026-07-22T20:12:33.7119099-07:00"
+  },
+  "directUpstream": {
+    "path": "research-card.md",
+    "sha256": "bdb72de37bef8ece6742f72dd69c664b965c20eebf0570ac7a39476549c4e88c"
+  },
+  "readerStartingPoint": "标题会带来季节联想；画面直接可见的是土黄色底面，以及黑、白、褐等颜料留下的线、滴点和团块。零背景读者不能仅凭这些形状确认具体景物、情绪或象征。",
+  "primaryValue": {
+    "statement": "这件作品把流动颜料经过画布的路线、覆盖和聚积直接留在画面上，使制作过程本身成为可观看的结构。",
+    "whyPrioritized": "它同时解释了无中心形象的画面为何仍有组织、波洛克成熟滴画方法的价值，以及观众现场应观察什么；趣闻、收藏史和同年比较都只负责加深这条主线。"
+  },
+  "coreQuestion": "一幅没有中心形象的画，怎样让制作过程本身成为可看的结构？",
+  "quickLayerPromise": {
+    "primaryValue": "颜料留下的路线、覆盖和聚积，就是这幅画的主要结构。",
+    "whyItMatters": "作品把注意力从描绘对象转向尺度、动作与制作过程，是波洛克经典滴画期的大型代表作。",
+    "visualAnchor": "黑色长弧、白线覆盖、离散滴点与露出的土黄色底布在全幅交错。",
+    "viewingAction": null,
+    "visibleTension": "画面没有被空白隔出的中心主体，但不同粗细、方向和覆盖关系仍使视线在全幅移动。"
+  },
+  "logicChain": [
+    {
+      "step": 1,
+      "discovery": "画面没有中心形象，结构来自遍及全幅的线、滴点、团块和裸露底布。",
+      "changesUnderstanding": "读者不再需要先为线网寻找具体景物，而可以把注意力放到颜料留下的形态与关系上。",
+      "thereforeNext": "这些不同形态是怎样产生的？",
+      "claimIds": ["C01", "C02", "C03"]
+    },
+    {
+      "step": 2,
+      "discovery": "波洛克把未上底、未绷框的画布铺在地面，用木棍、搅拌棒和工业珐琅漆施画，有时直接从罐中倾倒，并可从四边接近画布。",
+      "changesUnderstanding": "长线、滴点和聚积不只是抽象图案，而是流动颜料与身体位置共同留下的制作记录。",
+      "thereforeNext": "既然颜料流动，这幅画是否只是偶然形成？",
+      "claimIds": ["C04", "C05"]
+    },
+    {
+      "step": 3,
+      "discovery": "波洛克否认作品只是事故，并说自己对结果有总体概念；证据只支持过程中包含控制。",
+      "changesUnderstanding": "观众可以同时承认颜料具有流动性，又从粗细、方向和覆盖关系看见选择与组织。",
+      "thereforeNext": "这种方法为什么在波洛克的创作和战后艺术中重要？",
+      "claimIds": ["C06", "C07"]
+    },
+    {
+      "step": 4,
+      "discovery": "作品完成于1950年，属于波洛克1947—1950年的经典滴画期，是这种方法最大型的作品之一，也处在其职业高峰。",
+      "changesUnderstanding": "眼前的巨大线网成为成熟方法的集中实例，而不是一次孤立的材料实验。",
+      "thereforeNext": "它与同年几乎同尺寸的作品相比，究竟独特到什么程度？",
+      "claimIds": ["C08", "C09", "C10"]
+    },
+    {
+      "step": 5,
+      "discovery": "《一：第31号》与本作在年代、尺度和核心方法上极为接近；本作可确认的区别是土黄裸布、黑白褐综合色调及专门制作照片，但现有证据不足以证明不可替代性。",
+      "changesUnderstanding": "作品的艺术与馆藏地位明确，重要性应落在“重要藏品”，不把知名度或馆方精选升级为稀世珍品。",
+      "thereforeNext": "最后怎样用覆盖关系把整条制作过程重新看一遍？",
+      "claimIds": ["C11", "C12", "C13", "C14"]
+    },
+    {
+      "step": 6,
+      "discovery": "沿粗黑线追踪，在白线覆盖处停下，再转向露出的底布，可以辨认线在上、线在下和底布露出的层次。",
+      "changesUnderstanding": "无中心的画面被重新理解为分层完成的过程记录。",
+      "thereforeNext": null,
+      "claimIds": ["C15"]
+    }
+  ],
+  "historicalContextPlan": null,
+  "humorBasis": null,
+  "funFactPlan": {
+    "include": true,
+    "fact": "1950年夏秋，Hans Namuth多次在工作室拍摄，约留下200张波洛克制作本作与《一：第31号》的照片；1951年《Artnews》刊出其中五张本作制作照。",
+    "purpose": "这些照片把铺地、绕行和悬空施漆与本作直接联系起来，帮助读者把画面看成制作过程的记录。",
+    "boundary": "不把摄影编成促使画风改变的因果故事。",
+    "claimIds": ["C16", "C17"]
+  },
+  "mustNotAssume": [
+    "标题证明作品描绘秋景，或线团代表具体自然物。",
+    "画面能够证明波洛克当时的心理、情绪或潜意识内容。",
+    "作品完全随机，或每一滴颜料都被精确预定。",
+    "本作比《一：第31号》更优，或者在同类作品中不可替代。",
+    "Gallery 851与当前在展状态在读者到访时仍不改变。",
+    "Hans Namuth的拍摄促使波洛克改变画风。"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "波洛克控制了制作过程。",
+      "evidenceType": "来源事实与可见观察",
+      "allowedWording": "过程包含控制；粗细、方向与覆盖关系显示颜料并非只以一种方式落下。",
+      "forbiddenUpgrade": "每一滴颜料都被精确预定；画面完全排除偶然。",
+      "claimIds": ["C06", "C07"]
+    },
+    {
+      "claim": "作品表现波洛克的情绪或潜意识。",
+      "evidenceType": "无充分证据",
+      "allowedWording": "不进入正文。",
+      "forbiddenUpgrade": "从线条速度、力量感或姿态推断作者心理。",
+      "claimIds": ["C18"]
+    },
+    {
+      "claim": "作品描绘秋天景色。",
+      "evidenceType": "标题联想与事实边界",
+      "allowedWording": "标题可以带来季节联想；现有资料不能确认具体秋景。",
+      "forbiddenUpgrade": "把任何线团指认为树枝、落叶或其他自然物。",
+      "claimIds": ["C19"]
+    },
+    {
+      "claim": "本作不可替代或优于同年作品。",
+      "evidenceType": "比较证据不足",
+      "allowedWording": "重要藏品；同年有尺寸、方法和地位极接近的《一：第31号》。",
+      "forbiddenUpgrade": "稀世珍品、唯一、最高成就、决定性优越。",
+      "claimIds": ["C11", "C12", "C13", "C14"]
+    },
+    {
+      "claim": "摄影造成波洛克画风变化。",
+      "evidenceType": "没有因果证据",
+      "allowedWording": "制作照片帮助今天的观众理解本作方法。",
+      "forbiddenUpgrade": "Namuth的拍摄促使、导致或终结某种画法。",
+      "claimIds": ["C16", "C17"]
+    },
+    {
+      "claim": "作品现在可以在Gallery 851看到。",
+      "evidenceType": "截至2026-07-22核验的易变馆方信息",
+      "allowedWording": "核验时馆方显示在第五大道馆Gallery 851展出，实际到访以馆方当天信息为准。",
+      "forbiddenUpgrade": "承诺到访时必然可见。",
+      "claimIds": ["C20"]
+    }
+  ],
+  "detailStructure": [
+    {
+      "section": "30秒先懂",
+      "purpose": "给出制作过程成为画面结构的暂时答案，并以黑线、白线、滴点和裸布兑现。",
+      "claimIds": ["C01", "C02", "C03", "C08"]
+    },
+    {
+      "section": "没有中心，画面为什么不会散掉？",
+      "purpose": "从全幅分布、疏密、方向和覆盖关系解释观看机制。",
+      "claimIds": ["C02", "C03", "C07"]
+    },
+    {
+      "section": "地面怎样进入了画面？",
+      "purpose": "解释铺地、四边接近、工具与流动颜料怎样产生可见形态，并限定控制断言。",
+      "claimIds": ["C04", "C05", "C06", "C07"]
+    },
+    {
+      "section": "为什么它代表波洛克的高峰期？",
+      "purpose": "交代经典滴画期、规模、作者位置与抽象表现主义语境。",
+      "claimIds": ["C08", "C09", "C10"]
+    },
+    {
+      "section": "它重要，但为什么不标成稀世珍品？",
+      "purpose": "以最近比较对象说明共享价值、可确认差异和不可替代性边界。",
+      "claimIds": ["C11", "C12", "C13", "C14"]
+    },
+    {
+      "section": "这件作品有哪些趣闻？",
+      "purpose": "用对象专属的制作照片记录帮助理解方法，不扩张因果。",
+      "claimIds": ["C16", "C17"]
+    },
+    {
+      "section": "再看这些容易错过的细节",
+      "purpose": "给出四项以上可在图像或现场核对的观察。",
+      "claimIds": ["C02", "C03", "C21", "C22", "C23"]
+    },
+    {
+      "section": "最后再看一眼",
+      "purpose": "以覆盖顺序回收核心问题。",
+      "claimIds": ["C15"]
+    }
+  ],
+  "cardSummaryPlan": {
+    "purpose": "独立回答为什么值得点开：巨幅、制作过程可见、成熟滴画期。",
+    "mustDifferFromQuickLayer": "不复用详情页的首句、观看命令或最后一眼动作。",
+    "claimIds": ["C01", "C08", "C09"]
+  },
+  "claimLedger": [
+    {
+      "id": "C01",
+      "claim": "流动颜料留下的制作过程构成画面本身。",
+      "basis": "research-card.md / Editorial judgment / 首要价值；Evidence atoms 4",
+      "type": "来源事实与编辑整理"
+    },
+    {
+      "id": "C02",
+      "claim": "土黄色底面与黑、白、褐等线、滴点和团块遍及画面。",
+      "basis": "research-card.md / Direct image observations 1–5",
+      "type": "直接观察"
+    },
+    {
+      "id": "C03",
+      "claim": "画面没有被空白隔出的中心主体，局部密度仍有疏密变化。",
+      "basis": "research-card.md / Direct image observations 5",
+      "type": "直接观察"
+    },
+    {
+      "id": "C04",
+      "claim": "波洛克把未上底、未绷框的画布铺地，用木棍、搅拌棒和工业珐琅漆施画，有时直接倾倒。",
+      "basis": "research-card.md / Evidence atoms 1 [S1]",
+      "type": "来源事实"
+    },
+    {
+      "id": "C05",
+      "claim": "地面作画允许作者从四边接近画布，流动颜料形成长线、回环、滴点和聚积。",
+      "basis": "research-card.md / Evidence atoms 4 [S6]",
+      "type": "来源事实"
+    },
+    {
+      "id": "C06",
+      "claim": "波洛克否认作品只是事故，并说自己对结果有总体概念。",
+      "basis": "research-card.md / Evidence atoms 4 [S6]",
+      "type": "来源事实"
+    },
+    {
+      "id": "C07",
+      "claim": "证据支持过程包含控制，但不支持每一滴都被精确预定；粗细、方向与覆盖关系让视线游移。",
+      "basis": "research-card.md / Evidence atoms 4；Fact boundaries 3",
+      "type": "来源事实与边界"
+    },
+    {
+      "id": "C08",
+      "claim": "作品完成于1950年，属于1947—1950年的经典滴画期。",
+      "basis": "research-card.md / Evidence atoms 3 [S1][S4]",
+      "type": "来源事实"
+    },
+    {
+      "id": "C09",
+      "claim": "The Met称其为这种方法最大型的作品之一。",
+      "basis": "research-card.md / Evidence atoms 3 [S1]",
+      "type": "来源事实"
+    },
+    {
+      "id": "C10",
+      "claim": "本作处在波洛克职业高峰，也是战后纽约抽象表现主义转向尺度、动作与制作过程的代表实例。",
+      "basis": "research-card.md / Evidence atoms 3, 5 [S3][S4][S5]",
+      "type": "来源事实与编辑整理"
+    },
+    {
+      "id": "C11",
+      "claim": "最近比较对象是同年《一：第31号》，尺寸269.5×530.8厘米，与本作267×526厘米几乎相同。",
+      "basis": "research-card.md / Comparison and significance boundary 2 [S4]",
+      "type": "来源事实"
+    },
+    {
+      "id": "C12",
+      "claim": "两作共享巨幅地面作画、倾倒与甩洒形成全幅线网以及职业高峰位置。",
+      "basis": "research-card.md / Comparison and significance boundary 3 [S4]",
+      "type": "来源事实与比较"
+    },
+    {
+      "id": "C13",
+      "claim": "本作可确认的差异包括土黄裸布、黑白褐综合色调及Hans Namuth留下的专门制作照片。",
+      "basis": "research-card.md / Comparison and significance boundary 4 [S1][S6]",
+      "type": "来源事实与直接观察"
+    },
+    {
+      "id": "C14",
+      "claim": "现有证据未证明这些差异使本作不可替代，因此重要性为重要藏品，不是稀世珍品。",
+      "basis": "research-card.md / Editorial judgment；Comparison and significance boundary 5",
+      "type": "编辑判断与证据边界"
+    },
+    {
+      "id": "C15",
+      "claim": "沿粗黑线追踪，在白线覆盖处停下，再转向裸布，可用上下覆盖和底布露出辨认分层制作过程。",
+      "basis": "research-card.md / 最后一眼动作",
+      "type": "已记录观看动作"
+    },
+    {
+      "id": "C16",
+      "claim": "1950年夏秋Hans Namuth多次到工作室，约拍摄200张波洛克制作本作与《一：第31号》的照片。",
+      "basis": "research-card.md / Fun-fact check [S6]",
+      "type": "来源事实"
+    },
+    {
+      "id": "C17",
+      "claim": "1951年《Artnews》刊出其中五张本作制作照；这些照片帮助理解铺地、绕行和悬空施漆。",
+      "basis": "research-card.md / Fun-fact check [S6]",
+      "type": "来源事实与编辑整理"
+    },
+    {
+      "id": "C18",
+      "claim": "画面不足以支持对作者心理、情绪或潜意识的判断。",
+      "basis": "research-card.md / Fact boundaries 2",
+      "type": "证据边界"
+    },
+    {
+      "id": "C19",
+      "claim": "标题可引发季节联想，但资料不足以确认秋景或具体自然物。",
+      "basis": "research-card.md / Fact boundaries 1",
+      "type": "证据边界"
+    },
+    {
+      "id": "C20",
+      "claim": "截至2026-07-22馆方显示作品在The Met Fifth Avenue Gallery 851展出；状态易变。",
+      "basis": "research-card.md / Identity and collection status / Visibility [S1]",
+      "type": "易变来源事实"
+    },
+    {
+      "id": "C21",
+      "claim": "白线多处跨过黑、褐层，少量浅蓝灰痕迹夹在其中。",
+      "basis": "research-card.md / Direct image observations 3",
+      "type": "直接观察"
+    },
+    {
+      "id": "C22",
+      "claim": "连续长弧与离散小滴并存，可区分流动、甩落和局部聚积的不同形态。",
+      "basis": "research-card.md / Direct image observations 4",
+      "type": "直接观察"
+    },
+    {
+      "id": "C23",
+      "claim": "底部与左右边缘附近可追踪接近画边后折返或越过其他线层的黑色弧线。",
+      "basis": "research-card.md / Direct image observations 6",
+      "type": "直接观察"
+    },
+    {
+      "id": "C24",
+      "claim": "作品材质使用馆方公开字段“珐琅漆/画布”，不简化成油画。",
+      "basis": "research-card.md / Identity and collection status / Medium",
+      "type": "来源事实"
+    },
+    {
+      "id": "C25",
+      "claim": "馆藏身份为大都会艺术博物馆现代与当代艺术部，George A. Hearn Fund，1957；馆方称该馆于波洛克去世次年从李·克拉斯纳处购得。",
+      "basis": "research-card.md / Identity and collection status / Collection identity",
+      "type": "来源事实"
+    }
+  ],
+  "plannedMetadata": {
+    "title": "秋韵（第30号） / Autumn Rhythm (Number 30)",
+    "artistOrCulture": "杰克逊·波洛克 Jackson Pollock · 美国",
+    "date": "1950年",
+    "medium": "珐琅漆 / 画布",
+    "locationStatus": "大都会艺术博物馆；截至2026-07-22馆方显示在第五大道馆Gallery 851展出，实际以馆方当天信息为准",
+    "visitPriority": "绝对不可错过（候选）",
+    "importance": "重要藏品",
+    "suggestedTime": "赶时间30秒；细看6—8分钟"
+  }
+}

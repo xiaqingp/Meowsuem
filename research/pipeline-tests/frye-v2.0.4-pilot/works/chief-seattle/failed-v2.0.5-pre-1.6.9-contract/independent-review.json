@@ -1,0 +1,288 @@
+{
+  "artifactType": "independent_review",
+  "workId": "chief-seattle",
+  "runId": "m28-frye-v2.0.5-pilot-2026-07-22",
+  "museumId": "frye",
+  "pipelineVersion": "2.0.5",
+  "instructionVersion": "1.6.8",
+  "reviewerModel": "gpt-5.6-sol",
+  "reviewerReasoningEffort": "high",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "b50e08b2f616d9780da9ff6a93cc9004e7638eca4f5952504dbc302a90c3dc57"
+  },
+  "actualSHA256": {
+    "research-card.md": "9dbbfe4af02f9408e8bdf71589b25a4e88cf0aaa1178d811f63becf9ba087ebd",
+    "writing-plan.json": "dcfb4ec50743c91254fffaafdf99fd04e7a06bbfa755a4936b1247aedd625e14",
+    "card.txt": "eafb6515ee25a2fafafcf2da116758c28320dec80e42ccac60b5c57bf2c7e3cd",
+    "draft.md": "b50e08b2f616d9780da9ff6a93cc9004e7638eca4f5952504dbc302a90c3dc57"
+  },
+  "directUpstreamChain": {
+    "verdict": "PASS",
+    "completeDeclaredChainVerified": true,
+    "links": [
+      {
+        "artifact": "research-card.md",
+        "declaredDirectUpstream": "../../batch-02/source-pack.md",
+        "declaredSHA256": "c789e7f8db09f9230efd4d932c90a40ab41516cb66a20bb57304af0b3c88e6c0",
+        "actualSHA256": "c789e7f8db09f9230efd4d932c90a40ab41516cb66a20bb57304af0b3c88e6c0",
+        "matches": true
+      },
+      {
+        "artifact": "writing-plan.json",
+        "declaredDirectUpstream": "research-card.md",
+        "declaredSHA256": "9dbbfe4af02f9408e8bdf71589b25a4e88cf0aaa1178d811f63becf9ba087ebd",
+        "actualSHA256": "9dbbfe4af02f9408e8bdf71589b25a4e88cf0aaa1178d811f63becf9ba087ebd",
+        "matches": true
+      },
+      {
+        "artifact": "card.txt",
+        "declaredDirectUpstream": "writing-plan.json",
+        "declaredSHA256": "dcfb4ec50743c91254fffaafdf99fd04e7a06bbfa755a4936b1247aedd625e14",
+        "actualSHA256": "dcfb4ec50743c91254fffaafdf99fd04e7a06bbfa755a4936b1247aedd625e14",
+        "matches": true
+      },
+      {
+        "artifact": "draft.md",
+        "declaredDirectUpstream": "card.txt",
+        "declaredSHA256": "eafb6515ee25a2fafafcf2da116758c28320dec80e42ccac60b5c57bf2c7e3cd",
+        "actualSHA256": "eafb6515ee25a2fafafcf2da116758c28320dec80e42ccac60b5c57bf2c7e3cd",
+        "matches": true
+      },
+      {
+        "artifact": "independent-review.json",
+        "declaredDirectUpstream": "draft.md",
+        "declaredSHA256": "b50e08b2f616d9780da9ff6a93cc9004e7638eca4f5952504dbc302a90c3dc57",
+        "actualSHA256": "b50e08b2f616d9780da9ff6a93cc9004e7638eca4f5952504dbc302a90c3dc57",
+        "matches": true
+      }
+    ]
+  },
+  "mechanicalChecks": {
+    "cardVisibleCharacters": 78,
+    "cardRequiredRange": "24-100",
+    "cardLengthPass": true,
+    "quickVisibleCharacters": 144,
+    "quickRequiredRange": "70-240",
+    "quickLengthPass": true,
+    "deepVisibleCharacters": 1038,
+    "deepRequiredMinimum": 320,
+    "deepLengthPass": true,
+    "observableDetailCount": 4,
+    "observableDetailMinimum": 4,
+    "observableDetailsPass": true,
+    "clickableSourceCount": 3,
+    "clickableSourcesPass": true,
+    "requiredSectionsPass": true,
+    "contrastSkeletonCount": 0,
+    "contrastSkeletonPass": true,
+    "mandatoryMetadata": {
+      "creatorAndCountry": true,
+      "date": true,
+      "medium": false,
+      "collectionIdentity": true,
+      "visibilityBoundary": true,
+      "visitPriority": true,
+      "importance": true
+    }
+  },
+  "mechanicalVerdict": {
+    "verdict": "FAIL",
+    "reason": "draft.md never states the mandatory medium '布面油画' and has no visible medium field. This fails the locked shared gate requiring complete metadata and the Pipeline 2.0.5 mandatory-metadata contract; the upstream evidence itself is complete."
+  },
+  "claimAudit": {
+    "allVisitorClaimsInspected": true,
+    "identityDateCollectionAndVisibility": {
+      "verdict": "PASS",
+      "basis": "The creator attribution, American-born-Germany label, circa-1916 date, Founding Collection identity, and 2026-07-22 not-on-view boundary agree with the supplied evidence. The absent medium is an output completeness failure, not a contradictory fact."
+    },
+    "historicalClaims": {
+      "verdict": "PASS",
+      "basis": "Si’ahl's 1866 death, the approximately fifty-year gap, Duwamish/Suquamish leadership, and the city's use of his anglicized name are supported. The draft correctly treats the painting as a later commemorative image, not a live sitting."
+    },
+    "artistBiographyAndCareer": {
+      "verdict": "PASS",
+      "basis": "Munich study, return to California, portrait/landscape/Indigenous-subject practice, approximate age 62, and late-career placement remain within the supplied Raschen evidence and stated boundary."
+    },
+    "visualObservations": {
+      "verdict": "PASS",
+      "basis": "Bust crop, near-frontal pose, centered head and face, dark hair, dark background, and partial shoulder/clothing are all supplied observations. The draft does not convert pose into psychology or partial clothing into cultural identification."
+    },
+    "editorialInferences": {
+      "verdict": "PASS",
+      "basis": "The public-memory reading is visibly framed through the documented date gap, city-name relationship, later non-Indigenous painter, and selective composition; it does not assert an official commission, community consent, or Raschen's sole intention."
+    },
+    "comparisonClaims": {
+      "verdict": "PASS",
+      "basis": "The E. M. Sammis image based on the 1864 photograph is the supplied nearest comparator. Shared public recognizability, the comparator's closer connection to Si’ahl's lifetime, and Raschen's later painted reworking stay within the evidence."
+    },
+    "highRiskBoundary": {
+      "psychologyBreach": false,
+      "artistIntentBreach": false,
+      "historicalSequenceBreach": false,
+      "accurateLikenessOrClothingBreach": false,
+      "communityConsentBreach": false,
+      "highestOrUniqueClaimBreach": false,
+      "currentDisplayPromiseBreach": false
+    },
+    "unsupportedOrOverstatedClaims": []
+  },
+  "factBoundaryVerdict": {
+    "verdict": "PASS",
+    "reason": "Every factual, observational, inferential, comparative, and uncertainty claim stays within the research card and source pack. The boundary paragraph properly narrows likeness, clothing, consent, psychology, intent, image source, and current visibility."
+  },
+  "layerIndependence": {
+    "card": {
+      "verdict": "PASS",
+      "reason": "The 78-character card independently states the click value through the half-century delay and the question of how the city reshaped Si’ahl's memory; it is not an extracted viewing command."
+    },
+    "quick": {
+      "verdict": "PASS",
+      "reason": "The quick layer independently supplies the visual route, date tension, provisional answer, and reason to look even if the deep layer is removed."
+    },
+    "deep": {
+      "verdict": "PASS",
+      "reason": "The deep layer re-establishes the crop and date gap in its first paragraph, then supplies identity, biography, mechanism, comparison, and significance, so it remains intelligible without the quick layer."
+    }
+  },
+  "paragraphDependency": {
+    "verdict": "PASS",
+    "reorderTest": "The deep sequence is not freely swappable: the opening establishes directness versus date distance; the next paragraph establishes Si’ahl, city naming, and Raschen; the following paragraph depends on those facts to explain selective public memory; comparison then tests that mechanism; the final significance paragraph depends on the comparison and Frye relationship to set the level. Moving later paragraphs earlier removes those premises.",
+    "paragraphs": [
+      {
+        "paragraph": "deep-1",
+        "dependsOn": "none; it independently restates the visual and date tension",
+        "newUnderstanding": "direct visual encounter does not erase the half-century historical distance",
+        "breaksIfMovedEarlier": "not applicable; this is the required deep-layer entry"
+      },
+      {
+        "paragraph": "deep-2",
+        "dependsOn": "the posthumous-image problem established in deep-1",
+        "newUnderstanding": "the portrait connects Si’ahl, Seattle's name, and a later non-Indigenous painter",
+        "breaksIfMovedEarlier": "the biography would arrive before the reader knows why authorship and date matter"
+      },
+      {
+        "paragraph": "deep-3",
+        "dependsOn": "the city-name and later-painter relationship in deep-2 plus the crop in deep-1",
+        "newUnderstanding": "selective composition makes a recognizable public face while limiting historical reconstruction",
+        "breaksIfMovedEarlier": "'城市记忆' and the caution about reconstruction would lack the established city and maker relationship"
+      },
+      {
+        "paragraph": "deep-4",
+        "dependsOn": "the public-image mechanism established in deep-3",
+        "newUnderstanding": "the nearest photographic comparator shares recognizability but cannot replace this painting's Frye relationship",
+        "breaksIfMovedEarlier": "the comparator would appear as a detached research item rather than a test of the preceding mechanism"
+      },
+      {
+        "paragraph": "deep-5",
+        "dependsOn": "the comparison and collection relationship in deep-4",
+        "newUnderstanding": "the work is a local-memory feature, not a globally irreplaceable or itinerary-changing object",
+        "breaksIfMovedEarlier": "the level judgment would precede its nearest-comparator and non-substitutability evidence"
+      }
+    ]
+  },
+  "narrativeVerdict": {
+    "verdict": "PASS",
+    "reason": "One object-specific question drives a real progression from apparent encounter to historical distance, city memory, comparison, and bounded significance. The quick layer has an answer, the deep paragraphs depend on one another, and the final look returns to the same question with a concrete viewing action."
+  },
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这幅画让人像是直接见到 Si’ahl，但它晚于他去世约半世纪，所以真正值得看的是后来的人怎样用一张集中的脸塑造西雅图对他的记忆。",
+    "readAloudVerdict": "failed",
+    "translationeseFindings": [
+      {
+        "location": "deep layer, nearest-comparator paragraph",
+        "text": "看过前者，仍不能代替眼前这件作品在 Frye 的特殊关系",
+        "finding": "The predicate-object relationship is grammatically incomplete: a viewer can replace an object or a relationship, but '这件作品在 Frye 的特殊关系' lacks an explicit counterpart and does not read as native spoken Chinese."
+      }
+    ]
+  },
+  "nativeChineseVerdict": {
+    "verdict": "FAIL",
+    "reason": "Continuous aloud reading catches one grammatically broken relation in the comparator paragraph. Canonical section 6.3 makes a nonempty translationese finding or failed read-aloud verdict a hard failure."
+  },
+  "significanceReview": {
+    "declaredLevel": "特色看点",
+    "fiveDimensions": {
+      "artisticAchievement": "PASS — the draft identifies concentrated bust cropping, near-frontal placement, dark background, and clear on-site legibility without claiming formal leadership.",
+      "artHistoricalPosition": "PASS — it places the work late in Raschen's portrait and Indigenous-subject practice while denying unsupported innovation, career turning point, or peak status.",
+      "historicalCulturalValue": "PASS — it identifies the concrete value as a later, non-Indigenous construction of Seattle local memory and keeps it separate from likeness proof or Indigenous self-representation.",
+      "rarityAndIrreplaceability": "PASS — it states that art-historical innovation, comparable quantity, and global irreplaceability lack sufficient evidence.",
+      "collectionPosition": "PASS — it explains the Founding Collection link between Frye's collecting origin and Seattle's commemoration of Si’ahl."
+    },
+    "comparisonCategory": "死后纪念性原住民领袖肖像",
+    "nearestComparator": "E. M. Sammis 据1864年照片制作并传播的 Si’ahl 公共影像",
+    "sharedCoreValue": "Both establish a publicly recognizable image of Si’ahl.",
+    "decisiveDifference": "The photographic transmission is closer to Si’ahl's lifetime; Raschen's oil painting is a much later painted reworking.",
+    "nonSubstitutabilityBoundary": "The painting's defensible non-substitutable value is its specific Founding Collection relationship inside Frye, not unique likeness evidence, global rarity, or community authorization.",
+    "frye72Boundary": "PASS — the prose calls it a local-memory feature and explicitly says it does not carry enough weight to change a travel itinerary."
+  },
+  "significanceVerdict": {
+    "verdict": "PASS",
+    "reason": "All five dimensions, the nearest comparator, shared value, decisive difference, unknown global boundary, and the narrow museum-specific non-substitutability are present and support '特色看点' without crossing Frye's 72-point boundary."
+  },
+  "workSpecificVerdict": {
+    "verdict": "PASS",
+    "reason": "The core problem, date gap, Si’ahl/Seattle naming relationship, Raschen's later authorship, Sammis comparator, Founding Collection role, crop, and final viewing action cannot be transferred unchanged to another work."
+  },
+  "productionLanguageScan": {
+    "visitorArtifactsScanned": [
+      "card.txt visible prose",
+      "draft.md title and metadata",
+      "draft.md quick layer",
+      "draft.md deep layer and detail list",
+      "draft.md final look",
+      "draft.md fact boundary and source line"
+    ],
+    "hits": []
+  },
+  "productionLanguageVerdict": {
+    "verdict": "PASS",
+    "reason": "No research-gap, image-permission, publication-task, test, prompt, generator, reviewer, or version-migration language appears in visitor prose. Evidence limits and dated visibility are visitor-relevant boundaries, not internal production notes."
+  },
+  "voiceScores": {
+    "entrance": {
+      "score": 2,
+      "evidence": "'近正面的姿态和暗背景让这次“相见”显得很直接；年代却把距离重新拉开' establishes a concrete visual/date problem rather than an encyclopedia opening."
+    },
+    "causality": {
+      "score": 2,
+      "evidence": "The draft links the 1866/1916 gap to posthumous image-making, then links city naming, repeated images, and selective composition to public recognizability and bounded memory."
+    },
+    "people": {
+      "score": 1,
+      "evidence": "Si’ahl and Raschen remain identifiable people with distinct historical positions, but no sourced commissioner, community response, or personal motive is available, so part of the mechanism is necessarily carried by the abstract collective '城市/公共记忆'."
+    },
+    "turn": {
+      "score": 2,
+      "evidence": "The apparent face-to-face encounter becomes a later commemorative construction when the death and painting dates are introduced; this is an evidence-based change in understanding."
+    },
+    "visualPayoff": {
+      "score": 2,
+      "evidence": "Bust crop, centered head and face, dark hair and background, and partial shoulder/clothing repeatedly cash the historical argument back into visible evidence."
+    },
+    "oralClarity": {
+      "score": 1,
+      "evidence": "The main argument can be paraphrased naturally, but '看过前者，仍不能代替眼前这件作品在 Frye 的特殊关系' breaks aloud because its grammatical relation is incomplete."
+    },
+    "secondLook": {
+      "score": 2,
+      "evidence": "The ending directs the eye from the centered face to the cropped shoulder and then the locationless dark background while holding the visual closeness against the half-century distance."
+    },
+    "total": 12,
+    "maximum": 14,
+    "threshold": 12,
+    "hasZero": false,
+    "verdict": "PASS"
+  },
+  "failureReasons": [
+    {
+      "gate": "mechanical / complete mandatory metadata",
+      "reason": "draft.md omits the medium entirely even though the research card and writing plan support '布面油画'. Add the mandatory visitor-facing medium metadata; no new research is required."
+    },
+    {
+      "gate": "native Chinese / read aloud",
+      "reason": "The sentence containing '仍不能代替眼前这件作品在 Frye 的特殊关系' is grammatically incomplete and fails continuous spoken Chinese. Repair that relation in the comparator paragraph, then rerun the independent read-aloud check."
+    }
+  ],
+  "finalVerdict": "FAIL"
+}

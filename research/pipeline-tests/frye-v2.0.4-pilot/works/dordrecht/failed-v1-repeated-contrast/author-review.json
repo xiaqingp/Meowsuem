@@ -1,0 +1,209 @@
+{
+  "workId": "dordrecht",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "2afd03621b483c69436d57215d7def505a5684e5f5eedfcf7f5832fb9c623548"
+  },
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "finalPassIssued": false,
+  "paragraphDependency": [
+    {
+      "paragraph": "30 秒先懂",
+      "actualFunction": "提出教堂在标题中居中、在画面中却很小的可见矛盾，并给出天气主导的暂时答案与观看路线。",
+      "dependsOn": "只依赖标题和整体画面，不要求艺术史背景。",
+      "newUnderstanding": "教堂既用于辨认城市，也用于衡量云与水的变化。",
+      "breaksIfMovedEarlier": "已是读者入口，不能再提前。"
+    },
+    {
+      "paragraph": "深层第 1 段：塔楼作为参照",
+      "actualFunction": "把快层的答案拆成固定竖线与大片天空之间的尺度关系。",
+      "dependsOn": "依赖读者已经注意到标题与画面重心的反差。",
+      "newUnderstanding": "教堂的作用不只在于被认出，还在于为天空提供可比较的尺度。",
+      "breaksIfMovedEarlier": "若放到快层之前，读者还没有形成需要解释的地标与天气矛盾。"
+    },
+    {
+      "paragraph": "深层第 2 段：笔触完成结构",
+      "actualFunction": "说明云、水、船岸怎样把尺度关系落实为颜色、方向和重量。",
+      "dependsOn": "依赖上一段已建立塔楼与天空的结构参照。",
+      "newUnderstanding": "天气主导不是题材标签，而由云层叠压、水面横笔和薄城市带共同造成。",
+      "breaksIfMovedEarlier": "若提前，笔触细节会成为孤立清单，尚不能回答它们为何重要。"
+    },
+    {
+      "paragraph": "深层第 3 段：晚期方法与小木板",
+      "actualFunction": "在视觉机制成立后，说明这些特征怎样落到 Boudin 晚期港口与天气实践，并解释小尺度的观看回报。",
+      "dependsOn": "依赖前两段已经指出具体的低地平线、云层与横向水笔。",
+      "newUnderstanding": "小尺幅没有削弱主题，而使地标、船岸与天气的取舍更集中。",
+      "breaksIfMovedEarlier": "若提前，作者语境会变成未被眼前作品兑现的生涯介绍。"
+    },
+    {
+      "paragraph": "深层第 4 段：比较与五维重要性",
+      "actualFunction": "用 Le Havre 港景群界定相同方法与本作差异，再把艺术、艺术史、历史文化、稀缺和馆藏位置收束到核心问题。",
+      "dependsOn": "依赖前文已经说明本作的视觉机制、载体和生涯位置。",
+      "newUnderstanding": "本作的价值来自具体城市坐标和馆藏支线，不来自稀世性或行程级名气。",
+      "breaksIfMovedEarlier": "若提前，比较对象的相同点与差异都缺少本作内部证据，价值边界会显得武断。"
+    },
+    {
+      "paragraph": "细节清单",
+      "actualFunction": "把核心答案转换为五个现场可执行、可核对的观察动作。",
+      "dependsOn": "依赖读者已经理解天空、塔楼、水面和前景在同一结构中的作用。",
+      "newUnderstanding": "抽象的天气主导可以被面积、竖线、色层、笔触方向和前景重量逐项核实。",
+      "breaksIfMovedEarlier": "若提前，细节会被当成任意观看顺序，无法说明它们共同证明什么。"
+    },
+    {
+      "paragraph": "最后再看一眼",
+      "actualFunction": "以塔楼为轴向上看云、向下看水，把标题中的教堂重新理解为天气的固定坐标。",
+      "dependsOn": "依赖全文已建立地标、天气、构图、作者方法与价值边界。",
+      "newUnderstanding": "教堂获得名字但不占据最大面积，正是作品让固定城市与变化天气同时可见的方法。",
+      "breaksIfMovedEarlier": "若提前，向上与向下的动作只剩空间指令，不能产生第二眼判断。"
+    }
+  ],
+  "claimClosure": [
+    {
+      "sentence": "教堂的塔楼是城市轮廓里最明确的竖线。",
+      "evidenceType": "直接观察",
+      "sourceOrBasis": "可靠图像中塔楼从低矮城市轮廓升起。",
+      "confidence": "高：形状与相对位置可直接核对。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "固定的建筑为云层与水面的变化提供参照。",
+      "evidenceType": "编辑推断",
+      "sourceOrBasis": "低地平线、塔楼竖线、大片云层和上下水天关系共同支持；正文以观看效果表达，不声称作者意图。",
+      "confidence": "中高：推断路径在正文中可见，未升级为历史事实。",
+      "verdict": "retain_with_observational_framing"
+    },
+    {
+      "sentence": "约 1885—1889 年，布丹已进入创作晚期，并长期画港口、海岸和多变天空。",
+      "evidenceType": "来源事实",
+      "sourceOrBasis": "research-card.md 的年代、生涯位置和作者语境。",
+      "confidence": "中：年代明确；作者语境在研究卡中可用，但机构级专门传记仍待补强。",
+      "verdict": "retain_at_current_strength"
+    },
+    {
+      "sentence": "本作与 Le Havre 港景群共享低地平线、云层主导以及缩小的船岸。",
+      "evidenceType": "研究卡提供的比较结论",
+      "sourceOrBasis": "research-card.md 的最近比较对象、相同点与差异。",
+      "confidence": "中：比较范围明确，但当前资料链没有附专门比较来源。",
+      "verdict": "retain_without_superlative"
+    },
+    {
+      "sentence": "它不是稀世或无法替代的作品，也不是决定行程的名作。",
+      "evidenceType": "编辑判断与馆级边界",
+      "sourceOrBasis": "研究卡给出稀缺中低、存在可替代比较组、非独一或最大代表作；锁定的 Frye 评分为 72。",
+      "confidence": "高：结论主动收窄，符合比较证据和馆级边界。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "馆方标题只称远处建筑为 the Cathedral，笔触不能证明作品在现场一次完成。",
+      "evidenceType": "来源边界与推断限制",
+      "sourceOrBasis": "Frye 对象页标题；research-card.md 禁写项。",
+      "confidence": "高：与直接上游边界一致。",
+      "verdict": "retain"
+    }
+  ],
+  "highRiskCategoryChecks": {
+    "characterPsychology": "not_applicable_no_figural_psychology_claim",
+    "realChronology": "passed_no_viewing_order_converted_to_historical_sequence",
+    "imageClaimVersusHistory": "passed_work_not_used_as_evidence_of_a_specific_historical_event",
+    "ritualUse": "not_applicable",
+    "artistIntent": "passed_observational_effect_not_presented_as_intent",
+    "causation": "passed_visual_causation_is_shown_through_composition_and_marks",
+    "firstOnlyEarliestMostImportant": "passed_no_such_claim",
+    "irreplaceability": "passed_comparator_and_replacement_boundary_are_explicit"
+  },
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReadAloud": {
+    "oneBreathParaphrase": "这幅小画虽然用教堂命名，却把最大空间留给云和水，教堂反倒像一把尺，让人看清布丹怎样用低地平线和短笔触画天气。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "notes": "标题、快层和段落转折可连续口述；主语与指代清楚，没有生硬名词化或需要先解码的概念比喻。"
+  },
+  "productionLanguageScan": {
+    "scope": [
+      "card.txt visitor-visible sentence",
+      "draft.md visitor-visible metadata and prose"
+    ],
+    "termsChecked": [
+      "研究缺口",
+      "图片许可任务",
+      "发布任务",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "版本迁移"
+    ],
+    "findings": [],
+    "verdict": "passed",
+    "provenanceCommentHandling": "文件首行的 directUpstream HTML 注释是不可见审计元数据，不属于访客正文。"
+  },
+  "significanceReview": {
+    "label": "特色看点",
+    "fiveDimensions": {
+      "artisticAchievement": "具体落在小尺幅中的低地平线、水天分层、横向短笔触与构图控制。",
+      "artHistoricalPosition": "只称晚期天气实践的一例，不称开创、转折或生涯巅峰。",
+      "historicalCulturalValue": "限于十九世纪画家观察荷兰港口城市的视角，不伪装成事件记录。",
+      "rarityAndIrreplaceability": "以 Le Havre 港景群为最近比较组，承认可替代的一般方法，并保留 Dordrecht 城市坐标的具体差异。",
+      "collectionPosition": "说明它把 Frye 创馆收藏从德语区绘画主线伸向法国户外天气实践。"
+    },
+    "nearestComparatorPresent": true,
+    "frye72BoundaryRespected": true,
+    "verdict": "ready_for_independent_judgment"
+  },
+  "voiceCandidate": {
+    "entry": {
+      "score": 2,
+      "evidence": "标题中的教堂很小、天空占大部，入口矛盾可见且对象专属。"
+    },
+    "causality": {
+      "score": 2,
+      "evidence": "低地平线、塔楼参照、水面横笔依次解释天气为何取得主导。"
+    },
+    "people": {
+      "score": 1,
+      "evidence": "作品不依赖人物或制度叙事；作者选择通过具体取舍呈现，但不扩写未经支持的生平。"
+    },
+    "turn": {
+      "score": 2,
+      "evidence": "教堂从名义主角转为天气刻度，认知变化由画面比例和结构支持。"
+    },
+    "visualPayoff": {
+      "score": 2,
+      "evidence": "五个细节均可在图像或现场核对。"
+    },
+    "spokenClarity": {
+      "score": 2,
+      "evidence": "可用一口气复述，朗读无生硬概念压缩。"
+    },
+    "secondLook": {
+      "score": 2,
+      "evidence": "沿塔楼竖线向上看云、向下看水，动作回收唯一问题并产生新判断。"
+    },
+    "candidateTotal": 13,
+    "authorityBoundary": "作者评分仅供独立审读参考，不构成通过证据。"
+  },
+  "unresolvedRisks": [
+    {
+      "risk": "Boudin 的作者语境尚缺机构级专门传记补强。",
+      "impact": "晚期、港口与天气实践可按当前研究卡保留，但不得扩展到 Monet 影响、首创或完整生涯定位。"
+    },
+    {
+      "risk": "Le Havre 港景群比较在当前研究卡中有结论，但没有附独立比较来源。",
+      "impact": "比较只用于一般方法与差异，不支撑优劣、数量或唯一性判断；独立审读可要求回到研究阶段补证。"
+    },
+    {
+      "risk": "具体教堂身份、Dordrecht 旅次和完成地点未确认。",
+      "impact": "正文保持 the Cathedral 的标题边界，不写 Grote Kerk、具体旅行时间或现场完成。"
+    },
+    {
+      "risk": "当前在展状态未确认。",
+      "impact": "详情提示以馆方当日信息为准，不承诺现场一定可见。"
+    },
+    {
+      "risk": "图片再利用许可未确认。",
+      "impact": "不影响本文事实与声音审读，但图片不得据此进入正式发布。"
+    }
+  ]
+}

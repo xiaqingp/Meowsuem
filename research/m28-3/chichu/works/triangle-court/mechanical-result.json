@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.4.2",
+  "runId": "m28-3-chichu-author-triangle-court-2026-07-23",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T03:08:49.782Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_workId_from_run_header",
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "0743f90c955545f4bed38f4b512bfab3b46767efea95b61b46b1a0d759dd5bfd",
+      "bytes": 6772
+    },
+    {
+      "path": "card.txt",
+      "sha256": "4a4fd083511e0ce795c3201f08a5fa2b8a1f7ff374b569da549cd134db940330",
+      "bytes": 361
+    },
+    {
+      "path": "draft.md",
+      "sha256": "4839af8dcf5239878463b9caac1ff63db2ded2f29a1e4806d942e28a37ab5981",
+      "bytes": 3616
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "schemaVersion": "museum-research-packet/1.0",
+  "museum": {
+    "museumId": "vienna",
+    "nameZh": "维也纳艺术史博物馆",
+    "nameEn": "Kunsthistorisches Museum Vienna",
+    "location": "Maria-Theresien-Platz, Vienna, Austria",
+    "scopeType": "single_building"
+  },
+  "poolDecision": {
+    "status": "candidate_pool_complete",
+    "targetCount": 40,
+    "candidateCount": 40,
+    "selectionStatus": "not_selected",
+    "ratingStatus": "not_started",
+    "principle": "候选池按主馆五个常设收藏与馆舍空间建立；每项须能回答一个本馆独有问题，并有馆方一手页面支持身份或空间边界。本文件不预判正式入选、参观优先级、重要性、稀世珍品或评分。",
+    "allocation": {
+      "picture_gallery": 16,
+      "kunstkammer": 8,
+      "greek_roman_antiquities": 6,
+      "egyptian_near_eastern": 5,
+      "coin_cabinet": 2,
+      "building_integrated_display": 3
+    }
+  },
+  "candidates": [
+    {
+      "candidateId": "vienna-pg-11-judith-veronese",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "朱迪斯与霍洛芬的头颅",
+      "nameEn": "Judith with the Head of Holofernes",
+      "makerOrCulture": "保罗·委罗内塞 Paolo Veronese",
+      "date": "约 1582",
+      "identityBasis": "馆方对象页标示主馆绘画馆第 III 厅在展，题名、作者和年代稳定。",
+      "candidateReason": "以华美色彩处理暴力故事，提供与提香不同的威尼斯绘画观看回报。",
+      "museumQuestionAdded": "委罗内塞怎样让美丽、庆典感与恐怖在同一幅画里相互延迟？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_PG_VERONESE"
+      ]
+    },
+    {
+      "candidateId": "vienna-pg-12-rubens-self-portrait",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "自画像",
+      "nameEn": "Self-Portrait",
+      "makerOrCulture": "彼得·保罗·鲁本斯 Peter Paul Rubens",
+      "date": "1638/1640",
+      "identityBasis": "馆方对象页稳定著录作者、年代、材质及宫廷肖像属性。",
+      "candidateReason": "把宫廷身份标志与晚年个体面貌放在同一肖像中，代表本馆强大的弗兰德斯巴洛克收藏。",
+      "museumQuestionAdded": "一位成功的宫廷艺术家如何控制公开身份与私人面貌之间的距离？",
+      "availabilityEvidence": "display_status_unknown",
+      "sourceRefs": [
+        "S_PG_RUBENS",
+        "S_PG_OVERVIEW"
+      ]
+    },
+    {
+      "candidateId": "vienna-pg-13-cardinal-albergati",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "红衣主教尼科洛·阿尔贝加蒂（？）",
+      "nameEn": "Cardinal Niccolò Albergati (?)",
+      "makerOrCulture": "扬·凡·艾克 Jan van Eyck",
+      "date": "约 1435",
+      "identityBasis": "馆方对象页保留人物身份问号，同时稳定确认作者、年代和与德累斯顿素描的关系。",
+      "candidateReason": "可具体解释早期尼德兰油画技术如何把书籍绘画的精细度转入板画肖像，同时示范身份不确定性的正确边界。",
+      "museumQuestionAdded": "油画技术的成熟怎样改变肖像对皮肤、衣料和个体特征的记录能力？",
+      "availabilityEvidence": "display_status_unknown",
+      "sourceRefs": [
+        "S_PG_VANEYCK"
+      ]
+    },
+    {
+      "candidateId": "vienna-pg-14-madonna-with-the-pear",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "梨子圣母",
+      "nameEn": "Madonna with the Pear",
+      "makerOrCulture": "阿尔布雷希特·丢勒 Albrecht Dürer",
+      "date": "1512",
+      "identityBasis": "馆方对象页标示主馆绘画馆第 XI 厅在展，并著录签名、材质和来源。",
+      "candidateReason": "在小型圣母像中并置晚期哥特式人物类型与意大利式柔和塑形，提供德意志文艺复兴的跨地域问题。",
+      "museumQuestionAdded": "丢勒怎样把北方传统与意大利经验压缩进一幅亲密的小画？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_PG_DURER"
+      ]
+    },
+    {
+      "candidateId": "vienna-pg-15-summer",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "夏",
+      "nameEn": "Summer",
+      "makerOrCulture": "朱塞佩·阿尔钦博托 Giuseppe Arcimboldo",
+      "date": "1563",
+      "identityBasis": "馆方对象页标示主馆绘画馆第 8 厅在展，签名和年代清楚。",
+      "candidateReason": "由植物和果实组成人脸，直接连接哈布斯堡宫廷艺术、自然知识与节庆设计。",
+      "museumQuestionAdded": "宫廷画家怎样把自然物分类、肖像错觉和季节寓意合成一种新图像？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_PG_SUMMER"
+      ]
+    },
+    {
+      "candidateId": "vienna-pg-16-parmigianino-convex-self-portrait",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "凸面镜中的自画像",
+      "nameEn": "Self-Portrait in a Convex Mirror",
+      "makerOrCulture": "帕尔米贾尼诺 Parmigianino",
+      "date": "约 1523/1524",
+      "identityBasis": "馆方在线藏品以稳定题名、作者和年代著录，并说明作品绘于凸形木板。",
+      "candidateReason": "以画面载体本身模拟镜面畸变，把艺术家自我推介、错觉和媒介实验集中在一件小作品中。",
+      "museumQuestionAdded": "一件自画像怎样让画板、镜子与观看者的位置变成同一个视觉问题？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_OBJECTS"
+      ]
+    },
+    {
+      "candidateId": "vienna-kk-01-saliera",
+      "collection": "kunstkammer",
+      "type": "goldsmith_work",
+      "nameZh": "盐罐",
+      "nameEn": "Saliera",
+      "makerOrCulture": "本韦努托·切利尼 Benvenuto Cellini",
+      "date": "1540–1543",
+      "identityBasis": "馆方对象页标示艺术珍宝馆第 XXIX 厅在展，并明确为切利尼唯一存世金匠作品。",
+      "candidateReason": "同时是桌上器物、宇宙寓意和法国王权委托物，是艺术珍宝馆最强的单件候选之一。",
+      "museumQuestionAdded": "一件盐和胡椒容器怎样把材料、餐桌礼仪与统治者的宇宙秩序合为一体？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_KK_SALIERA"
+      ]
+    },
+    {
+      "candidateId": "vienna-kk-02-krumau-madonna",
+      "collection": "kunstkammer",
+      "type": "sculpture",
+      "nameZh": "克鲁姆洛夫圣母",
+      "nameEn": "Virgin and Child, so-called Krumau Madonna",
+      "makerOrCulture": "约 1400 年布拉格宫廷艺术圈",
+      "date": "约 1390/1400",
+      "identityBasis": "馆方对象页标示艺术珍宝馆第 XXXVI 厅在展，题名、材质和审慎归属清楚。",
+      "candidateReason": "是国际哥特式“美丽圣母”类型的著名实例，补足珍宝馆不只是贵金属和机械的雕塑线。",
+      "museumQuestionAdded": "宫廷雕塑怎样同时表现天后、年轻母亲与对儿童身体的具体观察？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_KK_KRUMAU"
+      ]
+    },
+    {
+      "candidateId": "vienna-kk-03-automaton-ship",
+      "collection": "kunstkammer",
+      "type": "automaton",
+      "nameZh": "船形自动机械",
+      "nameEn": "Automaton in the Form of a Ship",
+      "makerOrCulture": "汉斯·施洛特海姆 Hans Schlottheim",
+      "date": "1585",
+      "identityBasis": "馆方对象页标示艺术珍宝馆第 XXVII 厅在展，作者、年代与机械功能清楚。",
+      "candidateReason": "船能沿桌面行进、人物随音乐动作并鸣炮，集中体现宫廷宴会、工程技术与帝国象征。",
+      "museumQuestionAdded": "自动机械在宫廷里为何既是娱乐，也是统治和技术能力的表演？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_KK_SHIP"
+      ]
+    },
+    {
+      "candidateId": "vienna-kk-04-cittern-player",
+      "collection": "kunstkammer",
+      "type": "automaton",
+      "nameZh": "西特琴演奏者自动机械",
+      "nameEn": "Automaton, so-called Cittern Player",
+      "makerOrCulture": "16 世纪后半叶",
+      "date": "16 世纪后半叶",
+      "identityBasis": "馆方对象页标示艺术珍宝馆第 XXXII 厅在展，并记录动作机制与历史归属说法。",
+      "candidateReason": "以拟人动作呈现文艺复兴时期“技术模仿自然”的观念，与船形机械形成不同的人体模拟问题。",
+      "museumQuestionAdded": "机器模仿人的演奏、转头和行走时，宫廷观众究竟在赞叹什么？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_KK_CITTERN"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S_PG_OVERVIEW",
+      "title": "Picture Gallery – highlights from the history of European art",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/exhibitions/picture-gallery"
+    },
+    {
+      "id": "S_PG_VERONESE",
+      "title": "Judith with the Head of Holofernes",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/judith-with-the-head-of-holofernes-390"
+    },
+    {
+      "id": "S_PG_RUBENS",
+      "title": "Self-Portrait",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/self-portrait-1638"
+    },
+    {
+      "id": "S_PG_VANEYCK",
+      "title": "Cardinal Niccolò Albergati (?)",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/cardinal-niccol-albergati-680"
+    },
+    {
+      "id": "S_PG_DURER",
+      "title": "Madonna with the Pear",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/madonna-with-the-pear-616"
+    },
+    {
+      "id": "S_PG_SUMMER",
+      "title": "Summer",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/summer-71"
+    },
+    {
+      "id": "S_KK_SALIERA",
+      "title": "Saliera",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/objectdb/detail/87080"
+    },
+    {
+      "id": "S_KK_KRUMAU",
+      "title": "Virgin and Child, so-called Krumau Madonna",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/virgin-and-child-so-called-krumau-madonna-96174"
+    },
+    {
+      "id": "S_KK_SHIP",
+      "title": "Automaton in the Form of a Ship",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/automaton-in-the-form-of-a-ship-87073"
+    },
+    {
+      "id": "S_KK_CITTERN",
+      "title": "Automaton, so-called Cittern Player",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/automaton-so-called-cittern-player-96017"
+    },
+    {
+      "id": "S_OBJECTS",
+      "title": "Artworks – browse and discover",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks"
+    }
+  ]
+}

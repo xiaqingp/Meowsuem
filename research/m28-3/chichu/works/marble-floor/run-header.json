@@ -1,0 +1,43 @@
+{
+  "runId": "m28-3-chichu-author-marble-floor-2026-07-23",
+  "startedAt": "2026-07-24T02:57:50.969Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card",
+  "museumId": "chichu",
+  "workId": "marble-floor",
+  "workIdentity": {
+    "artistOrCulture": "Tadao Ando team and craftspeople",
+    "title": "The Hand-Laid Marble Floor",
+    "museum": "Chichu Art Museum"
+  },
+  "pipelineVersion": "2.4.2",
+  "instructionVersion": "2.0.1",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c22c60e3a215aa1ac90da402debeb2caf9da39975cb2921c4845ef74ef14c834"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "8ddda4087bb5ee9fb60782eedcfb29152636ea0818f570631638c3016f11c90e"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "bb9ad5d44fbb6b6382c90e17599c100648ca295800d57ff1b40f3cfc09b039ee"
+    },
+    {
+      "path": "research/m28-3/chichu/research-batch-02/marble-floor-research-card.md",
+      "sha256": "470a305dba889bcecf920e3a5705e5686e2f4518e9b1005af66cdcdec79247d5"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

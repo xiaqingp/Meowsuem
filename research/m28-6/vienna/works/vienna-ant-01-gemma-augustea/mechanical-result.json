@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-ant-01-gemma-augustea-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:40.573Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "4537996d11de19a67fc49d448006d97f9f46b64942ecba006109939600c29332",
+      "bytes": 10345
+    },
+    {
+      "path": "card.txt",
+      "sha256": "4cfb1e9e1b5350f0838d22f0b458084cc8e5252a268b8a2aac86c9f1617e4e40",
+      "bytes": 238
+    },
+    {
+      "path": "draft.md",
+      "sha256": "17a2a1aa13329a8bfa823b5bfd252b1d0495f1ede6acef82d97253f545682663",
+      "bytes": 5142
+    }
+  ]
+}

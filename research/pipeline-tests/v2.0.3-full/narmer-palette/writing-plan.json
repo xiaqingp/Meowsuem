@@ -1,0 +1,111 @@
+{
+  "artifact": "writing-plan",
+  "language": "zh-CN",
+  "upstream": {
+    "file": "research-card.md",
+    "sha256": "a6975e502410be2b86ca1a030041668caf04281e6cfa738ab93f90488fba8221"
+  },
+  "readerStart": "零背景读者能看出这是一块双面雕刻石板，国王反复出现并做出击敌或行进动作，但未必知道上埃及在南部河谷、下埃及在北部三角洲，也不知道两顶王冠为何不同。",
+  "coreQuestion": "为什么纳尔迈要在调色板的两面戴上不同王冠？",
+  "quickPromise": {
+    "visibleTension": "同一位国王在两面换了王冠，场景也从击敌变成胜利行列。",
+    "provisionalAnswer": "白冠与红冠分别把纳尔迈联系到南部的上埃及和北部的下埃及；双面图像借此宣称他拥有跨越两地的王权。",
+    "viewingRoute": [
+      "核对击敌面白冠与行列面红冠",
+      "比较国王和随从的尺寸",
+      "寻找两面共同的王名框",
+      "观察行列、死者、交颈神兽与公牛如何扩展胜利主题"
+    ]
+  },
+  "cognitionSteps": [
+    {
+      "step": 1,
+      "discovery": "上埃及是尼罗河谷南部，对应白冠；下埃及是北部三角洲，对应红冠。",
+      "changesUnderstanding": "两冠不再只是服饰变化，而是两块地域与权力标志。",
+      "thereforeNext": "同一国王为何需要在两面分别占据这两套标志？"
+    },
+    {
+      "step": 2,
+      "discovery": "两面都把纳尔迈刻得最大，并重复王名框；一面击敌，一面主持胜利行列。",
+      "changesUnderstanding": "双面共同塑造一个跨两地、支配战争与秩序的统治者形象。",
+      "thereforeNext": "这种强烈图像能否直接当作统一历史的记录？"
+    },
+    {
+      "step": 3,
+      "discovery": "考古重建将统一理解为文化扩展、贸易、中心竞争和多次冲突共同推动的渐进过程。",
+      "changesUnderstanding": "石板给出的是王权的简洁宣称，不能代替复杂历史过程。",
+      "thereforeNext": "在不能确认具体战役时，作品仍能可靠证明什么？"
+    },
+    {
+      "step": 4,
+      "discovery": "可靠底线是作品诞生于统一王国形成期，并主动把纳尔迈表现为跨上下埃及的统治者；Menes 身份仍有争议。",
+      "changesUnderstanding": "作品价值从“战争报道”转为“形成期王权如何让统治变得可见”。",
+      "thereforeNext": "这种表现为何在同类调色板中难以替代？"
+    },
+    {
+      "step": 5,
+      "discovery": "近似调色板能提供动物、武装人物或战争叙事，却不能在同一大体完整原件上同时提供具名纳尔迈、两冠、王名、胜利行列和早期文字。",
+      "changesUnderstanding": "珍贵性来自具体组合及其历史、艺术价值，不来自年代早或物理唯一。",
+      "thereforeNext": "最后应带着什么新认识复看两面？"
+    }
+  ],
+  "mustNotAssume": [
+    "读者原本相信上埃及在北、下埃及在南",
+    "双面场景按真实历史时间连续发生",
+    "纳尔迈凭一场具体战役完成统一",
+    "长颈神兽只有统一两地这一种寓意",
+    "纳尔迈就是 Menes",
+    "本作发明了此后三千年的全部埃及艺术规范",
+    "已知神庙内具体怎样使用这件仪式物",
+    "同类只剩这一件或它一定正在展出"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "两冠宣称纳尔迈统治上下埃及",
+      "evidenceType": "来源事实加图像观察",
+      "allowedWording": "两冠与双面场景共同把纳尔迈表现为跨越上下埃及的统治者",
+      "forbiddenUpgrade": "两冠证明纳尔迈以一次战役完成统一"
+    },
+    {
+      "claim": "统一过程",
+      "evidenceType": "考古历史重建",
+      "allowedWording": "统一是文化扩展、贸易、竞争和冲突共同推动的渐进过程",
+      "forbiddenUpgrade": "画面给出了统一发生的完整顺序"
+    },
+    {
+      "claim": "交颈神兽寓意",
+      "evidenceType": "竞争性解释",
+      "allowedWording": "常被解释为两地受国王控制",
+      "forbiddenUpgrade": "确定且唯一象征上下埃及统一"
+    },
+    {
+      "claim": "人物动作与心理",
+      "evidenceType": "直接观察",
+      "allowedWording": "国王举起武器击向跪伏者",
+      "forbiddenUpgrade": "国王愤怒、敌人恐惧"
+    },
+    {
+      "claim": "稀世珍品与不可替代性",
+      "evidenceType": "三个最近比较对象及多项决定性差异",
+      "allowedWording": "近似对象存在，但不能同时提供具名纳尔迈、两冠、王名、胜利行列、早期文字与大体完整双面构图",
+      "forbiddenUpgrade": "世界唯一、同类仅存或无可比较"
+    },
+    {
+      "claim": "纳尔迈与 Menes",
+      "evidenceType": "学术争议",
+      "allowedWording": "两者是否同一人并无定论",
+      "forbiddenUpgrade": "纳尔迈就是 Menes"
+    }
+  ],
+  "historicalContextPlan": {
+    "beforeState": "公元前四千纪末，南部河谷与北部三角洲有不同中心和王权标志，并非两个整齐现代国家。",
+    "changeOrConflict": "文化扩展、贸易、中心竞争与多次冲突共同推动统一王国逐渐形成。",
+    "objectRole": "调色板参与王权宣称，把纳尔迈表现为跨越两地的统治者；不把它当完整战史。",
+    "consequence": "国王击敌图式长期延续，作品保存形成期王权把政治等级转成可见秩序的早期实例。",
+    "uncertainty": "具体战役未定；纪念胜利与仪式宣言两种读法并存；纳尔迈与 Menes 的关系无定论。",
+    "placement": "快层解释南北地理、两冠和暂时答案；深层第二至第四段展开渐进统一、政治宣称与争议。"
+  },
+  "humorBasis": null,
+  "cardIndependence": "卡片只回答为何值得点开，不摘取快层句子，也不使用导览命令开场。",
+  "endingAction": "把两面并置，沿白冠—两面王名—红冠来回核对，重新判断王权宣称与历史重建的距离。"
+}

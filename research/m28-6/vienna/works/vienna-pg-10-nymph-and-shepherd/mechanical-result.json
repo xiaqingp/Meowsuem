@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-pg-10-nymph-and-shepherd-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:43.675Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "b7f18f3875347add6a708befacb19f976a5a1156496c81a1574086e238efaa34",
+      "bytes": 9015
+    },
+    {
+      "path": "card.txt",
+      "sha256": "ee7f1ec6f67ec02e3c9b902a5a877d145597382160e87413b1f0b640b2ff0e4a",
+      "bytes": 262
+    },
+    {
+      "path": "draft.md",
+      "sha256": "aa24a849b0963bf6b2a54bf2455f3af3307972490c0c65d248b6e110bf4c379e",
+      "bytes": 4398
+    }
+  ]
+}

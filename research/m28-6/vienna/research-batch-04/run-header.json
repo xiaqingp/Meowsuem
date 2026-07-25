@@ -1,0 +1,146 @@
+{
+  "runId": "m28-6-vienna-fresh-research-batch-04-2026-07-23",
+  "startedAt": "2026-07-24T07:00:35.322Z",
+  "stage": "research",
+  "researchMode": "fresh",
+  "museumId": "vienna",
+  "works": [
+    {
+      "museumId": "vienna",
+      "workId": "vienna-egy-01-ka-ni-nisut-chapel",
+      "workIdentity": {
+        "artistOrCulture": "古埃及，吉萨",
+        "title": "卡尼尼苏特祭祀室",
+        "titleEn": "Chapel of Ka-ni-nisut",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-egy-02-reserve-head",
+      "workIdentity": {
+        "artistOrCulture": "古埃及，吉萨",
+        "title": "储备头像",
+        "titleEn": "Reserve Head",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-egy-03-babylon-lion",
+      "workIdentity": {
+        "artistOrCulture": "新巴比伦，巴比伦游行大道",
+        "title": "巴比伦行进狮子砖墙浮雕",
+        "titleEn": "Wall Section with Relief of a Striding Lion",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-egy-04-kai-pu-ptah-ipep",
+      "workIdentity": {
+        "artistOrCulture": "古埃及，吉萨",
+        "title": "凯普普塔与伊佩普双人像",
+        "titleEn": "Statue Group of Kai-pu-ptah and Ipep",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-egy-05-gem-nef-hor-bak",
+      "workIdentity": {
+        "artistOrCulture": "古埃及，可能来自塞易斯",
+        "title": "杰姆内夫霍尔巴克抱龛跪像",
+        "titleEn": "Naophorous Statue of Gem-nef-hor-bak",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-coin-01-sigismund-guldiner",
+      "workIdentity": {
+        "artistOrCulture": "蒂罗尔哈恩铸币厂",
+        "title": "西吉斯蒙德银古尔迪纳",
+        "titleEn": "Guldiner of Archduke Sigismund",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-coin-02-charles-v-dedication-medal",
+      "workIdentity": {
+        "artistOrCulture": "阿尔布雷希特·丢勒设计 Albrecht Dürer",
+        "title": "纽伦堡献给查理五世的纪念章",
+        "titleEn": "Dedication Medal of the City of Nuremberg for Charles V",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-space-01-museum-building",
+      "workIdentity": {
+        "artistOrCulture": "戈特弗里德·森佩尔 Gottfried Semper；卡尔·冯·哈森瑙尔 Carl von Hasenauer",
+        "title": "维也纳艺术史博物馆主馆建筑",
+        "titleEn": "Kunsthistorisches Museum Main Building",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-space-02-grand-staircase-ensemble",
+      "workIdentity": {
+        "artistOrCulture": "Antonio Canova；Mihály von Munkácsy；Hans Makart；Gustav Klimt、Ernst Klimt、Franz Matsch",
+        "title": "主楼梯整体：卡诺瓦《忒修斯战胜半人马》与楼梯绘画",
+        "titleEn": "Grand Staircase Ensemble with Canova's Theseus Slaying the Centaur",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-space-03-cupola-hall",
+      "workIdentity": {
+        "artistOrCulture": "Gottfried Semper；Carl von Hasenauer 及馆舍装饰团队",
+        "title": "穹顶大厅",
+        "titleEn": "Cupola Hall",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    }
+  ],
+  "pipelineVersion": "2.4.8",
+  "instructionVersion": "2.0.2",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "465e7a2ce500057a139dbb64ff9df36755a6525a1f3a960e90fa0263a572ebfe"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "a65e9a4cb1477e4dfb00f06871483c928224dee22b69e292b84b2dcc7cdb4b24"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-04/candidate-packet.json",
+      "sha256": "85db91670d4553bf82d1f7acfe383760e159afa8a4c66baa0efa13f433252e9a"
+    }
+  ],
+  "outputs": [
+    "vienna-egy-01-ka-ni-nisut-chapel-research-card.md",
+    "vienna-egy-02-reserve-head-research-card.md",
+    "vienna-egy-03-babylon-lion-research-card.md",
+    "vienna-egy-04-kai-pu-ptah-ipep-research-card.md",
+    "vienna-egy-05-gem-nef-hor-bak-research-card.md",
+    "vienna-coin-01-sigismund-guldiner-research-card.md",
+    "vienna-coin-02-charles-v-dedication-medal-research-card.md",
+    "vienna-space-01-museum-building-research-card.md",
+    "vienna-space-02-grand-staircase-ensemble-research-card.md",
+    "vienna-space-03-cupola-hall-research-card.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

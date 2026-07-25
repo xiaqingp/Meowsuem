@@ -1,0 +1,156 @@
+{
+  "workId": "prayer-hands",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "directUpstream": {
+    "filename": "research-card.md",
+    "sha256": "91adcaba9bc9ae1ec3cf660cf6e616799e8c514191c5d5ad32c8e4aab3bcf457"
+  },
+  "readerBaseline": "零背景读者能从画面看见一件狭长双联：重复的女性形象、举起并合拢的手、浅色身体、几何墙形和两联之间的接缝；标题提供了 T-Wall 与 Prayer Hands 两个词，但读者未必知道 T-wall 的含义。",
+  "workSpecificQuestion": "为什么《T形墙·祈祷之手》的身体和墙要被分到两联之中，手势却又把画面重新连起来？",
+  "quickLayerPromise": {
+    "visibleTension": "墙形、身体和接缝都在制造分隔，重复人物的高举合拢手势又形成跨越两联的呼应。",
+    "provisionalAnswer": "双联结构让保护与分隔同时成为可见经验，身体和手势则让这道几何秩序显得并不封闭。",
+    "viewingRoute": [
+      "比较两联重复女性形象的位置",
+      "沿高举和合拢的手势寻找呼应",
+      "观察浅色身体与几何墙形的对照",
+      "留意中央接缝怎样参与构图"
+    ]
+  },
+  "cognitionSteps": [
+    {
+      "step": 1,
+      "discovery": "双联、重复人物、墙形和接缝共同把分隔变成画面结构。",
+      "changesUnderstanding": "标题里的“墙”不再只是题材名词，而成为观看时实际遇到的切分。",
+      "thereforeNext": "既然画面强调分隔，人物的手势为什么仍能形成联系？"
+    },
+    {
+      "step": 2,
+      "discovery": "重复女性形象以高举、合拢的手势互相呼应，浅色身体从几何墙形中显出。",
+      "changesUnderstanding": "身体并非墙形的附属装饰；它以重复和手势对几何秩序作出形式上的回应。",
+      "thereforeNext": "这种墙形为何会与迁移和军事基础设施发生联系？"
+    },
+    {
+      "step": 3,
+      "discovery": "T-wall 指军用混凝土防爆墙类型；馆方把 Kahraman 的实践与迁移、移民及个人经验联系。",
+      "changesUnderstanding": "几何墙形因此获得保护与分隔并存的现实背景，但仍不能被锁定为某个具体地点或战争场景。",
+      "thereforeNext": "这件作品怎样把这组背景变成 Kahraman 在本作中的具体形式方法？"
+    },
+    {
+      "step": 4,
+      "discovery": "本作沿用 Kahraman《T-Wall》系列的身体与墙形，同时以双联、祈祷手势及 Frye 个展后的入藏关系形成自身语境。",
+      "changesUnderstanding": "作品的价值落在形式机制与馆藏制度节点的交会：同系列可解释其方法，却不能替代这件双联在 Frye 的位置。",
+      "thereforeNext": "最后回到接缝，检验手势是否真的消除了分隔，还是只让分隔更清楚可见。"
+    }
+  ],
+  "forbiddenAssumptions": [
+    "不假设画中人物的具体身份、国籍、宗教或心理状态。",
+    "不把合拢的手确定为某一种宗教仪式。",
+    "不把画面确定为某场战争、某处地点或艺术家的单一亲历记忆。",
+    "不把左右两联的观看顺序写成真实时间先后。",
+    "不声称艺术家意图已经被画面观察直接证明。",
+    "不声称作品当前在展。",
+    "不把 Frye 馆藏首件伊拉克艺术家作品升级为全球首件、唯一或艺术家最重要作品。"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "人物在祈祷并具有某种确定情绪或宗教归属。",
+      "evidenceType": "直接观察仅支持手势外观；标题含 Prayer Hands。",
+      "allowedWording": "写“高举、合拢的手”或“题名所说的‘祈祷之手’”。",
+      "forbiddenUpgrade": "不得确定仪式、信仰、恳求、恐惧、希望或人物内心。"
+    },
+    {
+      "claim": "画面记录伊拉克战争的某一地点或具体事件。",
+      "evidenceType": "来源事实只支持 T-wall 的军事防爆墙类型及馆方给出的迁移语境。",
+      "allowedWording": "写 T-wall 与军事基础设施、保护和分隔有关，并用馆方语境限定迁移联系。",
+      "forbiddenUpgrade": "不得指认地点、战役、年份或具体战争记忆。"
+    },
+    {
+      "claim": "左右两联构成事件的先后。",
+      "evidenceType": "直接观察支持双联、重复形象和接缝。",
+      "allowedWording": "只描述观看中两联的重复、呼应和切分。",
+      "forbiddenUpgrade": "不得写成历史或叙事时间线。"
+    },
+    {
+      "claim": "艺术家有意用手势战胜墙。",
+      "evidenceType": "编辑推断可从形式对照提出有限问题，资料不支持确定意图。",
+      "allowedWording": "写“手势形成呼应”“让分隔显得更清楚”或以开放问题收束。",
+      "forbiddenUpgrade": "不得写“象征胜利”“证明希望”或确定作者意图。"
+    },
+    {
+      "claim": "作品具有全球不可替代性。",
+      "evidenceType": "来源事实支持 Frye 馆藏首件伊拉克艺术家作品；比较仅限同作者《T-Wall》系列。",
+      "allowedWording": "写其在 Frye 个展与入藏史中的馆内制度节点不可替代。",
+      "forbiddenUpgrade": "不得称稀世珍品、全球唯一、艺术家巅峰或旅行决定性名作。"
+    }
+  ],
+  "historicalContextPlan": {
+    "applicable": true,
+    "beforeState": "观众首先面对的是双联、身体、手势与几何墙形的形式关系，不预设具体战争知识。",
+    "changeOrConflict": "T-wall 作为军用混凝土防爆墙类型，把保护与分隔放进同一种基础设施；馆方把艺术家的实践与迁移、移民及个人经验联系。",
+    "objectRole": "作品重新解释这种墙体经验，把墙形、重复身体、手势和接缝组织成具象绘画；它不被表述为某个具体事件的记录。",
+    "consequence": "观众由此能把几何切分理解为带有现实背景的观看机制，同时保留地点、事件和宗教归属的不确定性。",
+    "uncertainty": "现有材料不能确认具体地点、战争事件、人物身份、宗教归属或艺术家的唯一意图。",
+    "placement": "快层只用一句说明 T-wall 是军用混凝土防爆墙类型；深层第三段展开保护/分隔与迁移语境，并立即回到墙形、身体和接缝。"
+  },
+  "authorStyle": {
+    "applicable": true,
+    "careerPosition": "2023 年成熟期大型作品，与 2024—25 Frye 个展及 2025 入藏直接相连。",
+    "visibleMethod": "重复女性形象、清晰轮廓、浅色身体、几何墙形、双联接缝和高举/合拢手势共同工作。",
+    "classification": "与同作者《T-Wall》系列共享身体与墙形的方法；本作以双联和手势形成专属变化。",
+    "boundary": "不从单件观察概括艺术家全部实践，也不把系列关联写成艺术家确定意图。"
+  },
+  "significance": {
+    "label": "重要藏品",
+    "fiveDimensions": {
+      "artisticAchievement": "4/5：双联接缝、重复身体、墙形与手势把分隔问题落实为清楚可读的构图机制。",
+      "artHistoricalPosition": "4/5：属于 Kahraman 成熟期《T-Wall》方法，并与其 Frye 个展节点直接相连；未证明为全球性转折或生涯巅峰。",
+      "historicalCulturalValue": "4/5：以军事基础设施和迁移语境处理身体与边界，但不作为某场战争的一手记录。",
+      "rarityAndIrreplaceability": "4/5：同系列作品能解释核心方法，因此全球不可替代性未通过；本作双联与祈祷手势构成明确差异。",
+      "collectionPosition": "5/5：Frye 称其为馆藏首件伊拉克艺术家作品，且由馆内个展转为永久收藏，是清楚的制度节点。"
+    },
+    "nearestComparator": {
+      "category": "迁移与军事基础设施语境中的当代具象绘画",
+      "object": "Hayv Kahraman《T-Wall》系列其他作品",
+      "sharedCore": "身体与防爆墙形制",
+      "decisiveDifference": "本作的双联结构、祈祷手势及 Frye 个展后入藏史",
+      "unknownBoundary": "未确认全球数量、系列完整范围或本作在艺术家全部创作中的唯一等级。",
+      "irreplaceabilityConclusion": "比较对象可替代对系列方法的理解，不能替代本作在 Frye 馆藏制度史中的位置；这支持“重要藏品”，不支持“稀世珍品”。"
+    },
+    "frye72Boundary": "说明其对 Frye 收藏方向的重要性，不把它写成足以决定西雅图行程的稀世孤品。"
+  },
+  "observableDetails": [
+    "画面由两个狭长部分组成。",
+    "女性形象在两联中重复出现。",
+    "人物的手高举并合拢，形成呼应。",
+    "浅色身体与几何墙体形状形成对照。",
+    "两联之间的竖直接缝参与构图。",
+    "人物轮廓清晰。"
+  ],
+  "secondLook": "把视线停在中央接缝，再沿两侧高举、合拢的手移动：判断手势是否真的跨过了墙形，还是让分隔变得更醒目。",
+  "detailStructure": [
+    "元数据与双层阅读入口",
+    "快层：墙、身体、手势与接缝给出的暂时答案",
+    "深层第一段：双联为何把分隔变成观看动作",
+    "深层第二段：手势怎样改变对墙形的理解",
+    "深层第三段：T-wall 的军事基础设施与迁移语境如何回到画面",
+    "深层第四段：同系列比较与 Frye 入藏节点共同限定重要性",
+    "六项可观察细节",
+    "对象专属最后一眼、事实边界与资料"
+  ],
+  "productionLanguageBoundary": {
+    "visitorProseMustExclude": [
+      "研究缺口",
+      "图片许可任务",
+      "发布任务或状态",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "版本迁移"
+    ],
+    "internalOnly": "图片许可、当前在展未检出、证据缺口和审读风险只进入内部文件；访客事实边界只说明作品解释所需的证据限度。"
+  },
+  "cardPlan": "独立回答点击价值：这件双联怎样让墙、身体、手势和接缝共同制造保护与分隔的张力；不复用快层句子，不以导览命令开头。"
+}

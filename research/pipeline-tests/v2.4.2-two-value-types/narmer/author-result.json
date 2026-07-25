@@ -1,0 +1,44 @@
+{
+    "runId":  "m28-2-v2.4.2-narmer-concise-author-2026-07-23",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.2",
+    "instructionVersion":  "2.0.1",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-23T19:22:28.4459407-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/generation-pipeline.md",
+                       "sha256":  "8ddda4087bb5ee9fb60782eedcfb29152636ea0818f570631638c3016f11c90e"
+                   },
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "sha256":  "bb9ad5d44fbb6b6382c90e17599c100648ca295800d57ff1b40f3cfc09b039ee"
+                   },
+                   {
+                       "path":  "research/pipeline-tests/v2.3.2-narmer-canonical-significance/research/narmer-palette-research-card.md",
+                       "sha256":  "c17f828c02dd8b39aa1450b311a23e5da41ba2c662ad79d423356d33be7c23a3"
+                   },
+                   {
+                       "path":  "research/pipeline-tests/v2.4.0-narmer-value-type-test/research-gap/narmer-palette-research-supplement.md",
+                       "sha256":  "37f93d31bf9d4099d31ce5a1f7a7265374ea6a7977c640985ed2aa5dfe11fe9d"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "4264e8b7407e5ed45e6edcdd743f275fec11947f6a29a94131142d5453c63446",
+                        "bytes":  7187
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "8eb684e150f3ce1d6acd1a8fa36d5b37deacf6a393931d3f960fddafe47d7697",
+                        "bytes":  295
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "3b9b10ecd8ed3e2394d9d4bec2c5139fe248c7b9a2e6c93965e006e6ca9e68a9",
+                        "bytes":  4712
+                    }
+                ]
+}

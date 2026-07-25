@@ -1,0 +1,27 @@
+{
+  "museumId": "vienna",
+  "completedAt": "2026-07-25T04:24:59.914Z",
+  "stages": [
+    {
+      "name": "assembly",
+      "seconds": 0.088
+    },
+    {
+      "name": "future-contract",
+      "seconds": 0.064
+    },
+    {
+      "name": "verification",
+      "seconds": 0.113
+    },
+    {
+      "name": "publication-dry-run",
+      "seconds": 0.084
+    }
+  ],
+  "totalSeconds": 0.35,
+  "modelCalls": 0,
+  "modelTokens": 0,
+  "liveVerification": false,
+  "publicationMode": "dry-run"
+}

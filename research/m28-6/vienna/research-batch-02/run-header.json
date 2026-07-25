@@ -1,0 +1,146 @@
+{
+  "runId": "m28-6-vienna-fresh-research-batch-02-2026-07-23",
+  "startedAt": "2026-07-24T07:00:35.318Z",
+  "stage": "research",
+  "researchMode": "fresh",
+  "museumId": "vienna",
+  "works": [
+    {
+      "museumId": "vienna",
+      "workId": "vienna-pg-11-judith-veronese",
+      "workIdentity": {
+        "artistOrCulture": "保罗·委罗内塞 Paolo Veronese",
+        "title": "朱迪斯与霍洛芬的头颅",
+        "titleEn": "Judith with the Head of Holofernes",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-pg-12-rubens-self-portrait",
+      "workIdentity": {
+        "artistOrCulture": "彼得·保罗·鲁本斯 Peter Paul Rubens",
+        "title": "自画像",
+        "titleEn": "Self-Portrait",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-pg-13-cardinal-albergati",
+      "workIdentity": {
+        "artistOrCulture": "扬·凡·艾克 Jan van Eyck",
+        "title": "红衣主教尼科洛·阿尔贝加蒂（？）",
+        "titleEn": "Cardinal Niccolò Albergati (?)",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-pg-14-madonna-with-the-pear",
+      "workIdentity": {
+        "artistOrCulture": "阿尔布雷希特·丢勒 Albrecht Dürer",
+        "title": "梨子圣母",
+        "titleEn": "Madonna with the Pear",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-pg-15-summer",
+      "workIdentity": {
+        "artistOrCulture": "朱塞佩·阿尔钦博托 Giuseppe Arcimboldo",
+        "title": "夏",
+        "titleEn": "Summer",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-pg-16-parmigianino-convex-self-portrait",
+      "workIdentity": {
+        "artistOrCulture": "帕尔米贾尼诺 Parmigianino",
+        "title": "凸面镜中的自画像",
+        "titleEn": "Self-Portrait in a Convex Mirror",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-kk-01-saliera",
+      "workIdentity": {
+        "artistOrCulture": "本韦努托·切利尼 Benvenuto Cellini",
+        "title": "盐罐",
+        "titleEn": "Saliera",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-kk-02-krumau-madonna",
+      "workIdentity": {
+        "artistOrCulture": "约 1400 年布拉格宫廷艺术圈",
+        "title": "克鲁姆洛夫圣母",
+        "titleEn": "Virgin and Child, so-called Krumau Madonna",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-kk-03-automaton-ship",
+      "workIdentity": {
+        "artistOrCulture": "汉斯·施洛特海姆 Hans Schlottheim",
+        "title": "船形自动机械",
+        "titleEn": "Automaton in the Form of a Ship",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-kk-04-cittern-player",
+      "workIdentity": {
+        "artistOrCulture": "16 世纪后半叶",
+        "title": "西特琴演奏者自动机械",
+        "titleEn": "Automaton, so-called Cittern Player",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    }
+  ],
+  "pipelineVersion": "2.4.8",
+  "instructionVersion": "2.0.2",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "465e7a2ce500057a139dbb64ff9df36755a6525a1f3a960e90fa0263a572ebfe"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "a65e9a4cb1477e4dfb00f06871483c928224dee22b69e292b84b2dcc7cdb4b24"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-02/candidate-packet.json",
+      "sha256": "2dc11f16879cde9021ecb22fd4931b4215d7e8df1e9a961edf1c35c395979d90"
+    }
+  ],
+  "outputs": [
+    "vienna-pg-11-judith-veronese-research-card.md",
+    "vienna-pg-12-rubens-self-portrait-research-card.md",
+    "vienna-pg-13-cardinal-albergati-research-card.md",
+    "vienna-pg-14-madonna-with-the-pear-research-card.md",
+    "vienna-pg-15-summer-research-card.md",
+    "vienna-pg-16-parmigianino-convex-self-portrait-research-card.md",
+    "vienna-kk-01-saliera-research-card.md",
+    "vienna-kk-02-krumau-madonna-research-card.md",
+    "vienna-kk-03-automaton-ship-research-card.md",
+    "vienna-kk-04-cittern-player-research-card.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

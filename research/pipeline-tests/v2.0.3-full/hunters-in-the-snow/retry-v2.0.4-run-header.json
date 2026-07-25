@@ -1,0 +1,21 @@
+{
+  "runId": "m28-hunters-retry-v2.0.4-2026-07-22",
+  "startedAt": "2026-07-22T12:01:27.7865644-07:00",
+  "executor": "Codex isolated author and independent reviewer",
+  "museumId": "khm",
+  "workId": "hunters-in-the-snow",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "publication": "test_only_no_production_write",
+  "retryReason": "sealed v2 draft failed visitor-facing production-language hard gate",
+  "lockedInputs": [
+    { "path": "research/meowseum-content-instruction.md", "sha256": "d7382e972b98d08c30b10554bbc2e8b5cc9ce9e6c51d31d38d2d43b36a806ade" },
+    { "path": "research/generation-pipeline.md", "sha256": "4a8d9a3cb358ae79cdb7cbc7d5190566cd625857c4faa8959aa136c720656121" },
+    { "path": "research/pipeline-tests/v2.0.3-full/test-spec.md", "sha256": "1d805bec112a40b2fb061b8ba4aaebadc8e24bb4eb8e6fee2601f757f7f0114f" },
+    { "path": "research/generation-tests/v1.6.1-two-work-source-pack.md", "sha256": "6671d051117731bf8aea53cec8e33d4e88467dc79633e36a36cb6c19783940ff" },
+    { "path": "research/generation-tests/v1.6.7-two-work-source-addendum.md", "sha256": "540a47658882cff3fea9773192a0058e0b04b843ff57303ea5e2d886cdd530d3" },
+    { "path": "research/pipeline-tests/v2.0.3-full/hunters-in-the-snow/research-card.md", "sha256": "8dfb8979064734c51b0897c90720ad01abf28da05c367929716f11f6d305154b" },
+    { "path": "research/pipeline-tests/v2.0.3-full/hunters-in-the-snow/writing-plan.json", "sha256": "078e69496b4233efa220788454008dcbc59eb953723cf3cb506a9c9a70ffeec2" },
+    { "path": "research/pipeline-tests/v2.0.3-full/hunters-in-the-snow/card.txt", "sha256": "55af8fc19ba4011962ef0cf60a7ebb1678c4f6c0cf7a69e465fccfe0638daa49" }
+  ]
+}

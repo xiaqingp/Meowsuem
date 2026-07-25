@@ -1,0 +1,40 @@
+{
+    "runId":  "m28-3-chichu-author-hidden-profile-2026-07-23",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.2",
+    "instructionVersion":  "2.0.1",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-23T19:59:22.9668824-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/generation-pipeline.md",
+                       "sha256":  "8ddda4087bb5ee9fb60782eedcfb29152636ea0818f570631638c3016f11c90e"
+                   },
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "sha256":  "bb9ad5d44fbb6b6382c90e17599c100648ca295800d57ff1b40f3cfc09b039ee"
+                   },
+                   {
+                       "path":  "research/m28-3/chichu/research-batch-01/hidden-profile-research-card.md",
+                       "sha256":  "ec320c8c200c9a0f08270ab62991ac60cdc4652d0c8456571e00e3877a452da0"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "4198eda551b9aab0a196de54b09dc6388b51d9e3d31e0df2e23f87eacda2af29",
+                        "bytes":  5777
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "e5b280746b483402a2cb7d32acdc19a63c10b6276cb3aaf9aed7ebd8839c8f6b",
+                        "bytes":  298
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "cb3f403e8be752fd06e95818efed918a895d4656b4f2e01dbb35233ee45d4aa9",
+                        "bytes":  3087
+                    }
+                ]
+}

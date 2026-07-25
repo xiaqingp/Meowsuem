@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.4.2",
+  "runId": "m28-3-chichu-author-chichu-garden-2026-07-23",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T03:08:48.819Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_workId_from_run_header",
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "7b19e1f646f57556cb7bfe8d43df7ee5a07eaf4144092bcd22e5b3c01c6347a0",
+      "bytes": 6040
+    },
+    {
+      "path": "card.txt",
+      "sha256": "118f288d6943c6ece425732e151abf11789b0da111f76b591cca3d4eb1df06ca",
+      "bytes": 292
+    },
+    {
+      "path": "draft.md",
+      "sha256": "4a7cb09f15f879a5383650d697c41d678a96edc3da134f3cb8c435c19c995876",
+      "bytes": 3730
+    }
+  ]
+}

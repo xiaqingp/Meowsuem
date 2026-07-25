@@ -1,0 +1,43 @@
+{
+  "runId": "m28-3-chichu-author-monet-room-2026-07-23",
+  "startedAt": "2026-07-24T02:57:50.958Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card",
+  "museumId": "chichu",
+  "workId": "monet-room",
+  "workIdentity": {
+    "artistOrCulture": "Tadao Ando; Claude Monet",
+    "title": "Claude Monet Space",
+    "museum": "Chichu Art Museum"
+  },
+  "pipelineVersion": "2.4.2",
+  "instructionVersion": "2.0.1",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c22c60e3a215aa1ac90da402debeb2caf9da39975cb2921c4845ef74ef14c834"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "8ddda4087bb5ee9fb60782eedcfb29152636ea0818f570631638c3016f11c90e"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "bb9ad5d44fbb6b6382c90e17599c100648ca295800d57ff1b40f3cfc09b039ee"
+    },
+    {
+      "path": "research/m28-3/chichu/research-batch-01/monet-room-research-card.md",
+      "sha256": "3411316fd41cda958133d4fc08db03efd2ccd7d7e66d529913370287a3a9b243"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

@@ -1,0 +1,59 @@
+{
+  "runId": "m28-4-muxin-author-muxin-c05-2026-07-23",
+  "startedAt": "2026-07-24T04:56:55.583Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card_after_verified_selection",
+  "museumId": "muxin",
+  "workId": "muxin-c05",
+  "workIdentity": "以馆方列名的《伪所罗门书》整部稿本为一件；不把单首诗或出版评论中的行数拆作独立对象。",
+  "pipelineVersion": "2.4.7",
+  "instructionVersion": "2.0.2",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c22c60e3a215aa1ac90da402debeb2caf9da39975cb2921c4845ef74ef14c834"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "fbe6770b2ff0d935448d52feb1f0d73c35bf8b901efe905dca982615e664a0ad"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c05/author-input-research.md",
+      "sha256": "477e4bd5da9278bcea3e0419e4abc001fb47903812a427e250119b855ca3a7a1"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c05/author-input-research-record.json",
+      "sha256": "237031bbd896230e3934a7609846bdc9b202a24371b3ee3445e4e7e2026dbae3"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c05/author-input-supplement.md",
+      "sha256": "b06298dfe736e9b2d0ce99fdddcdcc8a695b64f6bc824b309ceaff892cd2baa5"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c05/author-input-supplement-record.json",
+      "sha256": "7a4ed5d6a46e06ddef76e3cc73f31d665ada85da3a33d5a96b72f1d805e17d7c"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c05/work-selection.json",
+      "sha256": "1e323a50ae228fe0519bf948dd05c2305dfaf1975416541855bce84043574193"
+    },
+    {
+      "path": "research/m28-4/muxin/integration/museum-plan.json",
+      "sha256": "f1667c694974a0128558ce6d9519b3a616cab05d4dc3a4f4d00caf5ec62862b2"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

@@ -1,0 +1,387 @@
+{
+  "artifactType": "single-work-independent-review",
+  "workId": "sin",
+  "run": {
+    "runId": "m28-frye-v2.0.5-pilot-2026-07-22",
+    "museumId": "frye",
+    "pipelineVersion": "2.0.5",
+    "instructionVersion": "1.6.9",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "high"
+  },
+  "reviewerIndependence": {
+    "freshReviewer": true,
+    "participatedInAuthoring": false,
+    "authorArtifactsEdited": false,
+    "reviewScopeLimitedToDeclaredInputs": true
+  },
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "b7a47d3488bf33beda626cc569e42f365d3a21492ca2b0d099f876a6903da978"
+  },
+  "artifactHashes": {
+    "research-card.md": "b50bac56599f636bda59fb9483daad1fc378034f221609506956d0a239e26154",
+    "writing-plan.json": "c418f3f5be33695e22052835b8f425bf720ec7fc0720619e41f61dd48cf8226b",
+    "card.txt": "42fea7413086cbedd97d37efc4f9c0e40d6230663f9a9754e82d8fadef09df72",
+    "draft.md": "b7a47d3488bf33beda626cc569e42f365d3a21492ca2b0d099f876a6903da978"
+  },
+  "upstreamChainVerification": {
+    "verdict": "PASS",
+    "complete": true,
+    "rootArtifact": {
+      "filename": "../../batch-01/source-pack.md",
+      "actualSha256": "92503d9ecd2cd5639bd9280c77b540e01ff7875eeddf5411d12d819a4b028516",
+      "runHeaderLockedSha256": "92503d9ecd2cd5639bd9280c77b540e01ff7875eeddf5411d12d819a4b028516",
+      "match": true
+    },
+    "links": [
+      {
+        "downstream": "research-card.md",
+        "declaredDirectUpstream": "../../batch-01/source-pack.md",
+        "declaredSha256": "92503d9ecd2cd5639bd9280c77b540e01ff7875eeddf5411d12d819a4b028516",
+        "actualDirectUpstreamSha256": "92503d9ecd2cd5639bd9280c77b540e01ff7875eeddf5411d12d819a4b028516",
+        "match": true
+      },
+      {
+        "downstream": "writing-plan.json",
+        "declaredDirectUpstream": "research-card.md",
+        "declaredSha256": "b50bac56599f636bda59fb9483daad1fc378034f221609506956d0a239e26154",
+        "actualDirectUpstreamSha256": "b50bac56599f636bda59fb9483daad1fc378034f221609506956d0a239e26154",
+        "match": true
+      },
+      {
+        "downstream": "card.txt",
+        "declaredDirectUpstream": "writing-plan.json",
+        "declaredSha256": "c418f3f5be33695e22052835b8f425bf720ec7fc0720619e41f61dd48cf8226b",
+        "actualDirectUpstreamSha256": "c418f3f5be33695e22052835b8f425bf720ec7fc0720619e41f61dd48cf8226b",
+        "match": true
+      },
+      {
+        "downstream": "draft.md",
+        "declaredDirectUpstream": "card.txt",
+        "declaredSha256": "42fea7413086cbedd97d37efc4f9c0e40d6230663f9a9754e82d8fadef09df72",
+        "actualDirectUpstreamSha256": "42fea7413086cbedd97d37efc4f9c0e40d6230663f9a9754e82d8fadef09df72",
+        "match": true
+      },
+      {
+        "downstream": "independent-review.json",
+        "declaredDirectUpstream": "draft.md",
+        "declaredSha256": "b7a47d3488bf33beda626cc569e42f365d3a21492ca2b0d099f876a6903da978",
+        "actualDirectUpstreamSha256": "b7a47d3488bf33beda626cc569e42f365d3a21492ca2b0d099f876a6903da978",
+        "match": true
+      }
+    ]
+  },
+  "mechanicalChecks": {
+    "countMethod": "Strip HTML comments, Markdown link targets and Markdown markers, then remove whitespace; retain visible punctuation.",
+    "cardVisibleCharacters": {
+      "actual": 42,
+      "allowed": "24-100",
+      "pass": true
+    },
+    "quickLayerVisibleCharacters": {
+      "actual": 136,
+      "allowed": "70-240",
+      "pass": true
+    },
+    "deepLayerVisibleCharacters": {
+      "actual": 957,
+      "minimum": 320,
+      "pass": true
+    },
+    "requiredHeadingsPresent": true,
+    "bilingualWorkTitlePresent": true,
+    "bilingualArtistNamePresent": true,
+    "requiredMetadataLines": {
+      "authorOrCulture": true,
+      "date": true,
+      "materialSeparateLine": true,
+      "locationOrStatus": true,
+      "visitPriority": true,
+      "significance": true,
+      "suggestedTime": true
+    },
+    "cardVisibleFieldContainsOnlySummaryProse": true,
+    "cardMetadataPrefixAbsent": true,
+    "cardMetadataDelimiterAbsent": true,
+    "cardGenericViewingCommandOpeningAbsent": true,
+    "observableDetailBullets": {
+      "actual": 6,
+      "minimum": 4,
+      "pass": true
+    },
+    "objectSpecificLastLookPresent": true,
+    "factBoundaryPresent": true,
+    "clickableSourceLinks": {
+      "actual": 3,
+      "pass": true
+    },
+    "completeNegationContrastSkeletonsOutsideFactBoundary": {
+      "actual": 0,
+      "maximum": 1,
+      "pass": true
+    }
+  },
+  "mechanicalVerdict": "PASS",
+  "claimAudit": {
+    "method": "Every visitor-facing assertion was checked section by section against the authorized source pack, research card and writing plan, and classified as sourced fact, supplied visual observation or bounded editorial inference.",
+    "sectionResults": [
+      {
+        "section": "metadata",
+        "verdict": "PASS",
+        "evidence": "Artist and German label, circa 1908 date, tempera/canvas, Founding Collection identity, accession number boundary and dated On View status are supported."
+      },
+      {
+        "section": "card.txt",
+        "verdict": "PASS",
+        "evidence": "Woman, snake, dark field, gold frame and allegorical sin/temptation range are supplied observations or bounded synthesis; no psychology or named biblical figure is asserted."
+      },
+      {
+        "section": "30 秒先懂",
+        "verdict": "PASS",
+        "evidence": "Frontal gaze, snake over the shoulders, bright eyes, dark field, cropped torso and architectural gold frame remain within the supplied observation boundary; the encounter with the viewer is presented as an effect of composition."
+      },
+      {
+        "section": "deep paragraph 1",
+        "verdict": "FAIL",
+        "evidence": "Most claims are supported, but two comparative visual rankings are not independently substantiated by the allowed textual evidence."
+      },
+      {
+        "section": "deep paragraph 2",
+        "verdict": "PASS",
+        "evidence": "Near-black background, narrow vertical format, torso cut by darkness, horizontal snake and architectural frame are supplied observations; spatial pressure is a traceable editorial inference."
+      },
+      {
+        "section": "deep paragraph 3",
+        "verdict": "PASS",
+        "evidence": "Multiple versions between 1891 and 1912, small compositional changes, circa 1908 late version, tempera/canvas, recurring motif and Symbolist placement are supported. The text does not claim a precise count or definite motive."
+      },
+      {
+        "section": "deep paragraph 4",
+        "verdict": "PASS",
+        "evidence": "The 1893 Neue Pinakothek comparator, shared core, stated differences, medium-low rarity, mature career position and Frye collection role match the research evidence and stay within the 72-point boundary."
+      },
+      {
+        "section": "detail bullets and last look",
+        "verdict": "PASS",
+        "evidence": "The six checks and final eye-to-eye-to-frame route return to supplied visual features; the concluding meaning is clearly a viewing judgment rather than an asserted historical fact."
+      },
+      {
+        "section": "fact boundary and sources",
+        "verdict": "PASS",
+        "evidence": "Version/date/count uncertainty, allegorical range, unnamed figure, unknown psychology and mutable display status are stated accurately; all three supplied visitor sources are linked."
+      }
+    ],
+    "unsupportedClaims": [
+      {
+        "text": "女子的脸是暗处最大的亮面",
+        "reason": "The authorized evidence says the upper body emerges from a near-black background and that the eyes are highlights, but does not establish that the face is the largest bright plane; the prohibited network means this ranking cannot be independently checked against the linked image."
+      },
+      {
+        "text": "蛇眼的亮点更小",
+        "reason": "The authorized evidence establishes two eye highlights but does not establish their relative size; this comparative visual claim is not independently verifiable from the supplied text."
+      }
+    ],
+    "psychologyClaims": "none",
+    "definiteArtistIntentClaims": "none",
+    "historicalSequenceUpgrades": "none",
+    "forbiddenIdentityClaims": "none",
+    "unplannedHighRiskClaims": []
+  },
+  "factBoundaryVerdict": "FAIL",
+  "narrativeReview": {
+    "coreQuestion": "Why can a woman, a snake and two bright pairs of eyes turn sin into pressure faced by the viewer?",
+    "singleCoreQuestionMaintained": true,
+    "quickLayerHasProvisionalAnswer": true,
+    "quickDeepIndependence": {
+      "verdict": "PASS",
+      "evidence": "The quick layer supplies a complete viewing route and provisional answer; the deep layer adds spatial mechanism, motif recurrence, career placement and the nearest comparator."
+    },
+    "cardQuickIndependence": {
+      "verdict": "FAIL",
+      "evidence": "The card's shared frontal gaze plus the exact body/snake/darkness/gold-frame bundle is a compressed rephrasing of the quick layer's central answer, rather than an independently conceived click reason."
+    },
+    "paragraphDependency": [
+      {
+        "paragraph": "two eyes and allegory",
+        "dependsOn": "the quick layer's two-gaze tension",
+        "newUnderstanding": "the title and bodily entanglement turn visible gaze into a bounded sin/temptation allegory",
+        "breaksIfMovedEarlier": "it would lose the already established visual tension",
+        "pass": true
+      },
+      {
+        "paragraph": "darkness, format and frame",
+        "dependsOn": "the confrontation established by the eye paragraph",
+        "newUnderstanding": "spatial compression and the frame, not narrative incident, intensify that confrontation",
+        "breaksIfMovedEarlier": "the phrase referring to this confrontation would lack its premise",
+        "pass": true
+      },
+      {
+        "paragraph": "1891-1912 repetitions and circa 1908 position",
+        "dependsOn": "the compressed design established in the first two paragraphs",
+        "newUnderstanding": "the design is a repeatedly worked mature motif rather than an isolated construction",
+        "breaksIfMovedEarlier": "the recurring features would not yet have been shown or explained",
+        "pass": true
+      },
+      {
+        "paragraph": "1893 comparator and significance",
+        "dependsOn": "the existence of multiple versions and the late-version boundary",
+        "newUnderstanding": "the comparator lowers rarity while preserving version-level and museum-narrative value",
+        "breaksIfMovedEarlier": "the rarity conclusion would arrive before the version series is established",
+        "pass": true
+      }
+    ],
+    "paragraphReorderTest": "PASS",
+    "lastLookClosure": "PASS"
+  },
+  "narrativeVerdict": "FAIL",
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这幅画把女子、蛇、黑暗和金框挤进窄画幅，用两双眼睛让观者直接面对“罪”的寓意；它虽有相近版本，仍是 Frye 理解斯图克象征主义的重要作品。",
+    "translationeseFindings": [
+      {
+        "text": "共享一场正面凝视",
+        "finding": "“共享一场”与“凝视”的搭配生硬，朗读时不像自然口头解释。"
+      },
+      {
+        "text": "两个形象因此共享一条逼近观者的视线",
+        "finding": "抽象概念被过度压缩；“共享一条……视线”在此处需要先解码句法。"
+      },
+      {
+        "text": "蛇身贴着双肩横向展开，正好抵住这股纵向收缩",
+        "finding": "“抵住纵向收缩”是生硬的抽象搭配，连续朗读会卡顿。"
+      },
+      {
+        "text": "多个近似版本把稀缺性限制在中低水平",
+        "finding": "内部评估式名词化压过了面对访客的自然说明。"
+      }
+    ],
+    "readAloudVerdict": "FAIL"
+  },
+  "nativeChineseVerdict": "FAIL",
+  "significanceReview": {
+    "label": "重要藏品",
+    "labelFit": "PASS",
+    "fiveDimensions": {
+      "artisticAchievement": {
+        "verdict": "PASS",
+        "evidence": "Narrow format, two eye highlights, darkness, bodily cropping and architectural frame are tied to concrete compositional control."
+      },
+      "artHistoricalPosition": {
+        "verdict": "PASS",
+        "evidence": "The work is placed within Stuck's successful, repeatedly worked Symbolist Sin motif without claiming first-version or unique status."
+      },
+      "historicalCulturalValue": {
+        "verdict": "PASS",
+        "evidence": "The plan assigns a bounded medium value to Symbolist treatments of sin, temptation and eroticized bodies and explicitly avoids treating the work as evidence of a specific historical event."
+      },
+      "rarityAndIrreplaceability": {
+        "verdict": "PASS",
+        "evidence": "Multiple 1891-1912 versions and the 1893 comparator make rarity medium-low; the core motif is substitutable, while the Frye version retains only version-specific and in-museum value."
+      },
+      "museumCollectionPosition": {
+        "verdict": "PASS",
+        "evidence": "The work is specifically identified as Frye's anchor for Stuck and Munich Symbolism."
+      }
+    },
+    "artistCareerPosition": "PASS — a mature later repetition of a successful motif, not a first or unique version.",
+    "nearestComparator": {
+      "object": "Neue Pinakothek, Franz von Stuck, 1893, Die Sünde",
+      "sharedCore": "narrow vertical format, dark background, snake across the shoulders and frontal gaze",
+      "differences": "date, tempera/canvas medium, specific tonality and architectural frame",
+      "quantityBoundary": "multiple versions are confirmed for 1891-1912; exact total remains unknown",
+      "nonSubstitutabilityBoundary": "The comparator can substitute for the motif's core art-historical value. This version remains non-substitutable only as the specific Frye object, its frame/tonality/material effect and its role in Frye's collection narrative."
+    },
+    "frye72Boundary": "PASS — no rare-treasure, world-class, unique, special-trip or itinerary-determining inflation appears."
+  },
+  "significanceVerdict": "PASS",
+  "workSpecificReview": {
+    "verdict": "PASS",
+    "evidence": "The core question, headings, comparison, six details and final action depend on this work's paired eyes, shoulder-crossing snake, narrow dark field, gold architectural frame, circa 1908 late-version status and 1893 comparator; they cannot be transferred unchanged to another work."
+  },
+  "workSpecificVerdict": "PASS",
+  "productionLanguageScan": {
+    "visitorFilesScanned": [
+      "card.txt",
+      "draft.md"
+    ],
+    "forbiddenTopicCounts": {
+      "researchGap": 0,
+      "imageLicenseTask": 0,
+      "publicationTaskOrStatus": 0,
+      "testOrRegression": 0,
+      "prompt": 0,
+      "generator": 0,
+      "reviewer": 0,
+      "versionMigration": 0
+    },
+    "allowedEvidenceBoundaryLanguage": "The exact-version-count limit and dated mutable On View status are visitor-relevant evidence boundaries, not internal production language."
+  },
+  "productionLanguageVerdict": "PASS",
+  "voiceReview": {
+    "dimensions": [
+      {
+        "dimension": "入口",
+        "score": 2,
+        "evidence": "“画面最强的地方，是两道凝视同时逼近” immediately establishes a work-specific tension rather than an encyclopedia opening."
+      },
+      {
+        "dimension": "因果",
+        "score": 2,
+        "evidence": "The draft connects paired gaze to allegory, darkness/frame to pressure, and multiple versions to both career position and reduced rarity."
+      },
+      {
+        "dimension": "人",
+        "score": 1,
+        "evidence": "Stuck's repeated reworking and adjustment of the motif is intelligible as artistic action, but the evidence does not support a fuller account of motive or decision."
+      },
+      {
+        "dimension": "转折",
+        "score": 2,
+        "evidence": "The 1893 comparator changes the answer from apparent singularity to mature but substitutable motif value, then relocates the strongest claim to Frye's collection narrative."
+      },
+      {
+        "dimension": "视觉兑现",
+        "score": 2,
+        "evidence": "The argument repeatedly returns to the two eyes, snake, shoulder line, cropped torso, narrow format and architectural frame."
+      },
+      {
+        "dimension": "口语清晰度",
+        "score": 1,
+        "evidence": "The overall explanation is followable, but several compressed abstract collocations fail a natural continuous read-aloud test."
+      },
+      {
+        "dimension": "第二眼",
+        "score": 2,
+        "evidence": "The ending gives the specific eye-to-snake-to-shoulders-to-frame action and changes the title from a label into a three-way viewing relation."
+      }
+    ],
+    "total": 12,
+    "maximum": 14,
+    "threshold": "at least 12 and no zero",
+    "hasZero": false,
+    "verdict": "PASS"
+  },
+  "hardGateFailures": [
+    "factBoundaryVerdict",
+    "narrativeVerdict",
+    "nativeChineseVerdict"
+  ],
+  "actionableFailureReasons": [
+    {
+      "gate": "factBoundaryVerdict",
+      "reason": "The visual rankings “女子的脸是暗处最大的亮面” and “蛇眼的亮点更小” are not established by the authorized textual evidence and cannot be independently verified under the no-network constraint.",
+      "requiredAction": "Remove these rankings or add them to the research evidence through the authorized retry process before using them in visitor prose."
+    },
+    {
+      "gate": "narrativeVerdict",
+      "reason": "card.txt compresses the quick layer's same shared-gaze claim and the same body/snake/darkness/gold-frame bundle, so the card and quick layer are not independently written.",
+      "requiredAction": "Create a genuinely independent card click reason without reusing that quick-layer claim bundle; preserve the existing quick/deep progression only after rechecking all three layers together."
+    },
+    {
+      "gate": "nativeChineseVerdict",
+      "reason": "The read-aloud test fails on the listed abstract collocations, especially “共享一场正面凝视”, “共享一条逼近观者的视线”, “抵住这股纵向收缩” and “把稀缺性限制在中低水平”.",
+      "requiredAction": "Recast the flagged clauses in ordinary spoken Chinese and repeat the full card/quick/deep/last-look read-aloud check; do not merely substitute connective words."
+    }
+  ],
+  "finalVerdict": "FAIL"
+}

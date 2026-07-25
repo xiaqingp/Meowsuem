@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.7.2",
+  "runId": "m28-12-v2.7.2-seattle-author-sea-change-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-25T06:24:44.493Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_availability_from_locked_work_context",
+    "derived_imagePolicy_from_locked_work_context"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "af703351a3ccddbfbf276d797ea12ba80f6c681366bfc74a0acccc2cb2977baf",
+      "bytes": 9026
+    },
+    {
+      "path": "card.txt",
+      "sha256": "167bdaa9cf71b7e03fddd7a2c96929ecfb22eff555d01e9c44aecf9b173d6c61",
+      "bytes": 469
+    },
+    {
+      "path": "draft.md",
+      "sha256": "636560f8e3d34962134b56eede4d6ef82d25f23ed7482ef232c07e0ebb8e23a8",
+      "bytes": 4461
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "museumId": "vienna",
+  "cacheKey": "20260724-m28-8-vienna",
+  "files": [
+    {
+      "source": "vienna.js",
+      "destination": "vienna.js"
+    },
+    {
+      "source": "vienna-content-v2.md",
+      "destination": "research/vienna-content-v2.md"
+    },
+    {
+      "source": "ratings.js",
+      "destination": "ratings.js"
+    },
+    {
+      "source": "routes.js",
+      "destination": "routes.js"
+    }
+  ],
+  "cachePages": [
+    "index.html",
+    "museum.html"
+  ]
+}

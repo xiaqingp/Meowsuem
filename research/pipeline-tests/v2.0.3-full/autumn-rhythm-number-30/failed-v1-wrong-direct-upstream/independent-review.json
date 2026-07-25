@@ -1,0 +1,30 @@
+{
+  "workId": "autumn-rhythm-number-30",
+  "sha256": {
+    "research-card.md": "3c5325259927aee3e3e91a19faad78e52665375d2564e3d60704919896f4e06f",
+    "writing-plan.json": "32c0e0bbbee5fb6b4388bfd38b51c220ff1e1173a50f28dad22533d616f7e3b5",
+    "card.txt": "07f1b6b7ce2a718b6e3ebc85cf6268dc41118acaac9f06954c797d835a534c56",
+    "draft.md": "bdb0ed79973c5422cdf3562e185d519bccd40d76526cf5b8d62a26a5c200b572"
+  },
+  "sevenVoiceScores": {
+    "入口": { "score": 2, "evidence": "快层从五米横幅中“密集交叠／让底色与裸画布透气”的可见张力进入。" },
+    "因果": { "score": 2, "evidence": "地面作画使身体、速度、重力进入线迹，疏密、覆盖与保留又解释持续控制。" },
+    "人": { "score": 2, "evidence": "波洛克绕四边移动、摆臂和换位的选择把抽象方法写成可理解的制作行为。" },
+    "转折": { "score": 2, "evidence": "近看线网拆成动作，退远又形成横向节奏，使“飞散”转为即兴与控制并存。" },
+    "视觉兑现": { "score": 2, "evidence": "长弧、回环、飞溅、落点、密集结点、裸画布和覆盖层均回到眼前作品。" },
+    "口语清晰度": { "score": 2, "evidence": "“控制就不必猜作者脑中预先画好了什么”朗读顺畅，并把复杂机制说清。" },
+    "第二眼": { "score": 2, "evidence": "结尾要求追一条长弧再退远，检验局部动作如何进入整体节奏。" },
+    "total": 14
+  },
+  "mechanicalVerdict": { "verdict": "FAIL", "evidence": "draft.md 声明直接上游为 writing-plan.json（32c0...），但封存的 card.txt 已位于计划与草稿之间；违反直接上游记录要求。其余声明哈希与实测值相符。" },
+  "factBoundaryVerdict": { "verdict": "PASS", "evidence": "逐查随机性、作者计划、自然寓意、纽约崛起、最高级与不可替代性：正文坚持即兴与控制并存，不把线迹认作具体秋景，不把纽约地位归因于单件作品，也未使用第一、最大或唯一。" },
+  "narrativeVerdict": { "verdict": "PASS", "evidence": "深层由线迹差异追问制作方法，再由重力追问控制，继而进入成熟期和强比较作；每段依赖前文并改变答案。快层独立提供观看路线，深层删除快层后仍完整，卡片没有摘写快层。" },
+  "nativeChineseVerdict": { "verdict": "PASS", "evidence": "卡片、快层、标题、转折与结尾已朗读；无虚构故事，术语均由动作和画面解释，表达自然可复述。" },
+  "significanceVerdict": { "verdict": "PASS", "evidence": "五维判断完整且正确执行硬门：《一：第31号，1950》能提供同年巨幅滴画的相近核心价值，《满五寻》提供较早节点，因此主动降为“重要藏品”，没有以名气、巨幅或早期收藏升级。" },
+  "workSpecificVerdict": { "verdict": "PASS", "evidence": "没有虚构故事；讲清地面作画、身体移动、重力和控制如何形成线网；说明1950年成熟期与两件比较对象；随机性和纽约崛起均有边界。" },
+  "verdict": "FAIL",
+  "blockingFindings": [
+    "draft.md 的直接上游记录错误：封存链中 card.txt 已生成，草稿却跳过它声明 writing-plan.json 为直接上游。"
+  ],
+  "nonBlockingNotes": []
+}

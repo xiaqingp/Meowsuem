@@ -1,0 +1,93 @@
+{
+    "runId":  "m28-12-v2.7.1-seattle-complex-research-batch-02-2026-07-24",
+    "stage":  "research",
+    "museumId":  "seattle",
+    "workId":  "",
+    "pipelineVersion":  "2.7.1",
+    "instructionVersion":  "2.1.0",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-07-24T22:33:57.3796834-07:00",
+    "modelStartedAt":  "2026-07-24T22:33:57.6788627-07:00",
+    "modelCompletedAt":  "2026-07-24T22:40:09.1131607-07:00",
+    "completedAt":  "2026-07-24T22:40:09.1490647-07:00",
+    "runnerDurationMs":  371769,
+    "modelDurationMs":  371434,
+    "tokenUsage":  {
+                       "total":  148478,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "5",
+                                    "9",
+                                    "12",
+                                    "13"
+                                ],
+    "logPath":  "research/m28-12/seattle/research-batch-02/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "ccd00997261deb8d327f185f373a779f1654fdf21f15f9c1bf1eaa952b90cb83"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/research-batch-02/candidate-packet.json",
+                       "role":  "candidate_packet",
+                       "sha256":  "0c71670f7ee694ae383e24ae8f762e69d54b56ddcacbe28e64970bd40a4551d0"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "posthumous-portrait-head-of-the-emperor-claudius-research-card.md",
+                        "sha256":  "00a43a57a17dded0239ec1ee250a4e58371662e704e21f1772285eccd582c1bc",
+                        "bytes":  5379
+                    },
+                    {
+                        "path":  "funerary-portrait-research-card.md",
+                        "sha256":  "db6e61165714a8465b09121023141cb0cc636842ad4a6bd48156ad1f4d1a9b29",
+                        "bytes":  5236
+                    },
+                    {
+                        "path":  "reliquary-casket-research-card.md",
+                        "sha256":  "2a4d4a08d29a9942cf3c48d0dc0aa97cd78b8af9c326d5d30169dc3058906249",
+                        "bytes":  4767
+                    },
+                    {
+                        "path":  "salt-cellar-research-card.md",
+                        "sha256":  "20eb1efa57dedbdbbfb318636e3552e26a6b4abe667bd6b28d87e048738f7251",
+                        "bytes":  4949
+                    },
+                    {
+                        "path":  "belt-mask-of-iyoba-idia-research-card.md",
+                        "sha256":  "018b597f10ac11f466e4297189323a2a28f480022036afd5e97201d30e79e46f",
+                        "bytes":  5640
+                    },
+                    {
+                        "path":  "four-cornered-hat-with-birds-research-card.md",
+                        "sha256":  "b55eb3bfc767f02cc31c37d2e9594dfcfc0fe0e782bb3492f5939ad30b58838c",
+                        "bytes":  4811
+                    },
+                    {
+                        "path":  "cylinder-vase-depicting-scribes-in-the-underworld-research-card.md",
+                        "sha256":  "09060d9985106bcea269462a7ae1824a942f8a11c7d741fa3f1e37ba13865cad",
+                        "bytes":  5257
+                    },
+                    {
+                        "path":  "folio-from-the-dispersed-blue-quran-research-card.md",
+                        "sha256":  "8c209aaedcd95f5d5356428055a0b79062bd49c6a1ce9d2dd0b507fd4804258b",
+                        "bytes":  5462
+                    },
+                    {
+                        "path":  "gathering-storm-research-card.md",
+                        "sha256":  "99186207a4c9371b9e399b519ddd54224328b4db0cad18f3a6a6e3f531f0b594",
+                        "bytes":  5007
+                    },
+                    {
+                        "path":  "canoe-prow-figure-nguzu-nguzu-research-card.md",
+                        "sha256":  "50e3537ec9a7dd183249a97eb0c275d1f1227eb3abf37282697162aeb0fbd8e3",
+                        "bytes":  5180
+                    }
+                ]
+}

@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-pg-01-tower-of-babel-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:42.815Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "45a7ae407ef5633920c8f0a8eb97933f6b6e01fb37c65eec0a7b79f283b39a05",
+      "bytes": 8928
+    },
+    {
+      "path": "card.txt",
+      "sha256": "d2c326c8e7345a2cbb5df606c5fa72bf8f15bdc8f797d812fd9b03e88b44db94",
+      "bytes": 313
+    },
+    {
+      "path": "draft.md",
+      "sha256": "cfc60a551e656c5784752549c0a66037c392b7d2e86f383ba9dcbf550d96392b",
+      "bytes": 4954
+    }
+  ]
+}

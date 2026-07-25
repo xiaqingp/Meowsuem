@@ -1,0 +1,135 @@
+{
+    "runId":  "m28-3-chichu-museum-structure-2026-07-23",
+    "stage":  "museum_structure",
+    "pipelineVersion":  "2.4.2",
+    "instructionVersion":  "2.0.1",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-23T20:13:05.5804909-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/generation-pipeline.md",
+                       "sha256":  "8ddda4087bb5ee9fb60782eedcfb29152636ea0818f570631638c3016f11c90e"
+                   },
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "sha256":  "bb9ad5d44fbb6b6382c90e17599c100648ca295800d57ff1b40f3cfc09b039ee"
+                   },
+                   {
+                       "path":  "coho_museum/PRD.md",
+                       "sha256":  "933ce0e05825686d397d10bcf762f4f7322e8b529ea06cc6a275d22eb59a5e59"
+                   },
+                   {
+                       "path":  "coho_museum/TechDesign.md",
+                       "sha256":  "13a7fbd336e10259f681d18069141cbc9f3dec194e30c92e165bee696539d919"
+                   },
+                   {
+                       "path":  "coho_museum/Milestones.md",
+                       "sha256":  "ee34510aa96861891bba76075b7ab46d359472e161d9b42357df05e05994fd77"
+                   },
+                   {
+                       "path":  "coho_museum/Lessons.md",
+                       "sha256":  "e8a8e76fd6a6c2323e800d74173a4001ab53e1cc68bed11c61b7d703df94b920"
+                   },
+                   {
+                       "path":  "coho_museum/knowledge.md",
+                       "sha256":  "13f78e9e08794ee920c12dcd045a73810076cf676d2493cba6058a8d087708e8"
+                   },
+                   {
+                       "path":  "research/m28-3/chichu/integration/comparison-ratings.json",
+                       "sha256":  "2f1339deee9473b120cfe9bca7928fa01716ca8e45ef5bfed4423de84326d03d"
+                   },
+                   {
+                       "path":  "research/m28-3/chichu/research-batch-01/whole-research-card.md",
+                       "sha256":  "4d0129d5f7c19bacb8f44ae33bf8050e34cff46ecf466b40b8ee7c2be3dd2552"
+                   },
+                   {
+                       "path":  "research/m28-3/chichu/research-batch-01/hidden-profile-research-card.md",
+                       "sha256":  "ec320c8c200c9a0f08270ab62991ac60cdc4652d0c8456571e00e3877a452da0"
+                   },
+                   {
+                       "path":  "research/m28-3/chichu/research-batch-01/entrance-cut-research-card.md",
+                       "sha256":  "8091ea7ce806518a035f6b99f7869919464228cf410e6806da72c2d71ae05b21"
+                   },
+                   {
+                       "path":  "research/m28-3/chichu/research-batch-01/triangle-court-research-card.md",
+                       "sha256":  "522fcf53faec1e61b663c6e61c057bb056cd1e126cdc75522740e3260a146719"
+                   },
+                   {
+                       "path":  "research/m28-3/chichu/research-batch-01/square-court-research-card.md",
+                       "sha256":  "090b7913ec982fc5adb75864e070405dfe3fc3d16b17f00dc48052a08d180bdb"
+                   },
+                   {
+                       "path":  "research/m28-3/chichu/research-batch-01/trench-passage-research-card.md",
+                       "sha256":  "cbb2dbcad9e7933fe0dddb54242650f5bebdc12daefabfb3826bfaee78d81062"
+                   },
+                   {
+                       "path":  "research/m28-3/chichu/research-batch-01/concrete-ramp-research-card.md",
+                       "sha256":  "f7c50bc2ab3a77c6acae1d0453a7d831a985cc2337d08f8a718ac4a3baa2c18f"
+                   },
+                   {
+                       "path":  "research/m28-3/chichu/research-batch-01/daylight-clock-research-card.md",
+                       "sha256":  "8d42d6fb551efb16ef6024a19d3dfe8f9953f36758c3d1c9d7e1118cbf1b591c"
+                   },
+                   {
+                       "path":  "research/m28-3/chichu/research-batch-01/monet-room-research-card.md",
+                       "sha256":  "3411316fd41cda958133d4fc08db03efd2ccd7d7e66d529913370287a3a9b243"
+                   },
+                   {
+                       "path":  "research/m28-3/chichu/research-batch-01/water-lily-pond-1915-research-card.md",
+                       "sha256":  "2af559f26c6de0cf993352ea68caf8b7fb5f46e4c84feb20098de3a9a0377fe9"
+                   },
+                   {
+                       "path":  "research/m28-3/chichu/research-batch-02/cluster-grass-research-card.md",
+                       "sha256":  "a3e87f0ec45d84f09fc475c99b95db0bb438f2a187c96950d9365558b9e245c3"
+                   },
+                   {
+                       "path":  "research/m28-3/chichu/research-batch-02/water-lilies-1914-research-card.md",
+                       "sha256":  "6e1eaa0f130795362ac0b8ac58d027ea9df7240ce312630a4bc40f34936aa705"
+                   },
+                   {
+                       "path":  "research/m28-3/chichu/research-batch-02/water-lily-pond-1917-research-card.md",
+                       "sha256":  "2e7e1a89d73e47b6840b023a604c2cc6becfee751fb61a3216f58dd5c0abff3e"
+                   },
+                   {
+                       "path":  "research/m28-3/chichu/research-batch-02/willow-reflections-research-card.md",
+                       "sha256":  "f05b7ecce8aff76d2b20645bfad02372248fe252cbda1acdf94a2da4c6834247"
+                   },
+                   {
+                       "path":  "research/m28-3/chichu/research-batch-02/marble-floor-research-card.md",
+                       "sha256":  "470a305dba889bcecf920e3a5705e5686e2f4518e9b1005af66cdcdec79247d5"
+                   },
+                   {
+                       "path":  "research/m28-3/chichu/research-batch-02/afrum-research-card.md",
+                       "sha256":  "8738a53db7ce947be671c40653206010444ae827684f3b5dfe4a1795ee84fe14"
+                   },
+                   {
+                       "path":  "research/m28-3/chichu/research-batch-02/open-field-research-card.md",
+                       "sha256":  "a39457e8af358bd581d1b6612457035c6114f9a29c55a53b5559f2d4e6dfaa7b"
+                   },
+                   {
+                       "path":  "research/m28-3/chichu/research-batch-02/open-sky-research-card.md",
+                       "sha256":  "74ae81a4eefb663761315ded1a2f0e2f73b7d9039db418bde8830edb4815d83e"
+                   },
+                   {
+                       "path":  "research/m28-3/chichu/research-batch-02/time-timeless-research-card.md",
+                       "sha256":  "24302c8dc3d7339ec07a952b1814c5106a4af52deac208815425ce2fba8f59d6"
+                   },
+                   {
+                       "path":  "research/m28-3/chichu/research-batch-02/chichu-garden-research-card.md",
+                       "sha256":  "f38429bae0e324f6ae325593b99e6fd34c5a47f76fce01b0300f3c464e1563be"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "museum-plan.json",
+                        "sha256":  "103527578b09c527935aeca987844fcc72d8c9a57f658aa392589f403c754d48",
+                        "bytes":  12567
+                    },
+                    {
+                        "path":  "museum-copy.md",
+                        "sha256":  "9702f644ff0100eaa493713996c6ea7d373e5ac8137e3600f863294fdaae1db3",
+                        "bytes":  8815
+                    }
+                ]
+}

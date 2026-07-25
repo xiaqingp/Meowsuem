@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "author-bundle/1.0",
+  "museumId": "vienna",
+  "workId": "vienna-coin-01-sigismund-guldiner",
+  "displayMetadata": {
+    "by": "蒂罗尔哈恩铸币厂",
+    "date": "1486年",
+    "material": "银，铸打",
+    "place": "钱币馆第 I 室",
+    "priority": "强烈推荐",
+    "significance": "重要藏品",
+    "stay": "建议停留 4—6 分钟",
+    "availability": "confirmed_on_view",
+    "imagePolicy": "object_image"
+  },
+  "narrativeMainline": {
+    "valueType": "historical_transition",
+    "mainline": "西吉斯蒙德的古尔迪纳把原本以金币命名的高面值，改用足量白银来实现；扩大的币面又让币制改革与统治者形象传播落在同一件日常流通媒介上。",
+    "readerStartingPoint": "读者从标题可知这是一枚属于西吉斯蒙德的银质古尔迪纳；从可靠对象图可见正面的全身统治者形象、权力器物、盾牌、赛盔和环形铭文。",
+    "storyBeats": [
+      {
+        "step": 1,
+        "materials": [
+          "来源事实与候选价值证据第1条",
+          "趣闻候选"
+        ],
+        "newUnderstanding": "理解名称中的金币价值单位为何会落在银币上，以及这项等值设计在塔勒谱系中的位置。"
+      },
+      {
+        "step": 2,
+        "materials": [
+          "可直接确认与可核验细节第1—4条",
+          "来源事实与候选价值证据第3条"
+        ],
+        "newUnderstanding": "理解更大的银质币面如何同时承载统治者全身像、权力器物和领地标志。"
+      },
+      {
+        "step": 3,
+        "materials": [
+          "可直接确认与可核验细节第5条",
+          "比较与不可替代性边界"
+        ],
+        "newUnderstanding": "把骑士与领地纹章放回同型币的整体图像系统，并区分类型史地位与维也纳单枚的独特性。"
+      }
+    ],
+    "humorBasis": "“古尔登”指向金币价值，而实物却由银制成；这种名与材质的反差直接解释币制设计。",
+    "mustNotAssume": [
+      "维也纳本件重31.68克、直径41毫米",
+      "维也纳本件背面必可逐项确认16面领地纹章",
+      "1486年已经使用“塔勒”这一现代币名",
+      "维也纳本件是同型币中唯一、最优或版别最稀有的一枚",
+      "统治者的姿态能够证明其骄傲、野心或其他心理",
+      "币面图像证明各领地在现实政治中已经统一"
+    ],
+    "highRiskClaims": [
+      {
+        "claim": "这枚币是“第一枚塔勒”",
+        "evidenceType": "来源事实，且仅支持类型史范围",
+        "allowedWording": "属于1486年开铸的大型等值银币类型，并处在近代最早的塔勒谱系中",
+        "forbiddenUpgrade": "世界第一枚银币；1486年已经通称塔勒"
+      },
+      {
+        "claim": "维也纳本件具有不可替代性",
+        "evidenceType": "比较证据不足",
+        "allowedWording": "它是理解这一早期类型的重要馆藏实例",
+        "forbiddenUpgrade": "唯一存世；无可替代；同型最佳"
+      },
+      {
+        "claim": "背面的骑士与16面领地纹章均可直接归属于维也纳本件",
+        "evidenceType": "维也纳标题与柏林同型比较件说明",
+        "allowedWording": "同型比较件的背面可见奔驰的赛马骑士与外围领地纹章；维也纳页标题亦确认骑士主题",
+        "forbiddenUpgrade": "把柏林件的16面纹章逐项无条件写成本件观察"
+      },
+      {
+        "claim": "币面图像反映实际政治统一",
+        "evidenceType": "图像与币制资料支持的编辑整理",
+        "allowedWording": "币面把统治者、权力器物和领地标志组合成一套公开的统治图像",
+        "forbiddenUpgrade": "图像证明领地已经完成政治统一"
+      },
+      {
+        "claim": "西吉斯蒙德的姿态表达特定心理",
+        "evidenceType": "直接观察只能支持服饰、持物和姿态",
+        "allowedWording": "他正面全身站立，穿盔甲和披风并持权力器物",
+        "forbiddenUpgrade": "骄傲、自信、野心勃勃"
+      }
+    ]
+  },
+  "claimLedger": [
+    {
+      "id": "C01",
+      "claim": "作品由蒂罗尔哈恩铸币厂于1486年铸造，是银质铸打的古尔迪纳。",
+      "type": "来源事实",
+      "researchCardLocation": "身份与状态"
+    },
+    {
+      "id": "C02",
+      "claim": "作品位于钱币馆第I室，馆方于2026-07-24标为在展。",
+      "type": "来源事实",
+      "researchCardLocation": "身份与状态"
+    },
+    {
+      "id": "C03",
+      "claim": "古尔迪纳以足量白银对应一枚金币古尔登的价值。",
+      "type": "来源事实",
+      "researchCardLocation": "来源事实与候选价值证据第1条；趣闻候选"
+    },
+    {
+      "id": "C04",
+      "claim": "1486年起在哈恩铸造的古尔迪纳被柏林钱币馆称为中世纪最大的银币，并被置于近代最早的塔勒谱系中。",
+      "type": "来源事实",
+      "researchCardLocation": "来源事实与候选价值证据第1条"
+    },
+    {
+      "id": "C05",
+      "claim": "正面是西吉斯蒙德的正面全身立像，他穿盔甲和披风，戴大公帽。",
+      "type": "直接观察",
+      "researchCardLocation": "可直接确认与可核验细节第1条"
+    },
+    {
+      "id": "C06",
+      "claim": "西吉斯蒙德左手握剑柄，右手持球形权杖。",
+      "type": "直接观察",
+      "researchCardLocation": "可直接确认与可核验细节第2条"
+    },
+    {
+      "id": "C07",
+      "claim": "人物两侧分别有狮子托举的奥地利横带盾和带孔雀羽饰的加冠赛盔。",
+      "type": "直接观察",
+      "researchCardLocation": "可直接确认与可核验细节第3条"
+    },
+    {
+      "id": "C08",
+      "claim": "环形铭文称西吉斯蒙德为奥地利大公。",
+      "type": "直接观察",
+      "researchCardLocation": "可直接确认与可核验细节第4条"
+    },
+    {
+      "id": "C09",
+      "claim": "维也纳页标题确认背面的赛马骑士主题；柏林同型件还显示外围16面领地纹章。",
+      "type": "来源事实与比较观察",
+      "researchCardLocation": "可直接确认与可核验细节第5条"
+    },
+    {
+      "id": "C10",
+      "claim": "大型银面让币值改革与统治图像传播结合在同一媒介上。",
+      "type": "编辑整理",
+      "researchCardLocation": "来源事实与候选价值证据第3条"
+    },
+    {
+      "id": "C11",
+      "claim": "柏林钱币馆藏有一枚同为1486年哈恩铸造的同型古尔迪纳。",
+      "type": "来源事实",
+      "researchCardLocation": "比较与不可替代性边界"
+    },
+    {
+      "id": "C12",
+      "claim": "现有材料不能证明维也纳本件在版别、存世数量或决定性差异上不可替代。",
+      "type": "证据边界",
+      "researchCardLocation": "比较与不可替代性边界；未知与禁止升级"
+    },
+    {
+      "id": "C13",
+      "claim": "“塔勒”这一名称后来才形成。",
+      "type": "来源事实",
+      "researchCardLocation": "未知与禁止升级第2条"
+    }
+  ]
+}

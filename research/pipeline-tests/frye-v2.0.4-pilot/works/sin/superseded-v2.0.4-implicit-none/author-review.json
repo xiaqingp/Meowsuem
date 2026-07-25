@@ -1,0 +1,204 @@
+{
+  "artifactType": "author_review",
+  "workId": "sin",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "e185062cb610046597726d25a5f976fad4a908ae8fe59a5adfb9dd4dfc5a22f0"
+  },
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "finalPassIssued": false,
+  "cardReview": {
+    "visibleCharacterRange": "24-100",
+    "independentFromQuickLayer": true,
+    "startsWithGenericViewingCommand": false,
+    "authorFormat": "弗朗茨·冯·施图克 Franz von Stuck · 德国",
+    "verdict": "ready"
+  },
+  "paragraphDependency": [
+    {
+      "paragraph": "30 秒先懂",
+      "actualFunction": "用女子的眼睛、蛇眼、缠肩蛇身和金框给出完整的暂时答案。",
+      "dependsOn": "只依赖标题和肉眼可见的画面。",
+      "newUnderstanding": "《罪》通过一次正面相遇把诱惑与危险放到一起。",
+      "breaksIfMovedEarlier": "这是入口段，不能再提前。"
+    },
+    {
+      "paragraph": "为什么两张脸会像一个形象？",
+      "actualFunction": "解释蛇身如何在构图上连接女子与蛇，并收窄身份和心理断言。",
+      "dependsOn": "快层已指出两处亮点和蛇横过双肩。",
+      "newUnderstanding": "抽象标题靠贴合的身体关系获得具体形状。",
+      "breaksIfMovedEarlier": "读者尚未建立两处目光共同施压的入口。"
+    },
+    {
+      "paragraph": "金框怎样继续收紧画面",
+      "actualFunction": "把近黑背景、窄竖幅和金框接到前段的身体关系上。",
+      "dependsOn": "前段已说明女子和蛇为何难以拆开。",
+      "newUnderstanding": "环境消失与金框包围，使这组相连的身体成为封闭整体。",
+      "breaksIfMovedEarlier": "缺少先被包住的女子—蛇组合。"
+    },
+    {
+      "paragraph": "反复描绘带来了什么",
+      "actualFunction": "用1891至1912年的多次创作与约1908年的晚期位置解释眼前组合属于施图克的典型方法。",
+      "dependsOn": "前两段已经逐项建立身体、背景和框的配合。",
+      "newUnderstanding": "眼前效果来自艺术家长期反复经营的母题，而非孤立的形式巧合。",
+      "breaksIfMovedEarlier": "作者位置会变成与画面无关的生涯资料。"
+    },
+    {
+      "paragraph": "这件晚期作品在 Frye 的分量",
+      "actualFunction": "与1893年最近对象比较，完成五维意义中的生涯、馆内、现场、稀缺与艺术史判断。",
+      "dependsOn": "前段已建立可用于比较的暗背景、蛇、正面人物、窄幅和画框机制。",
+      "newUnderstanding": "多个版本降低稀有度，却不削弱这件作品作为Frye象征主义节点的观看价值。",
+      "breaksIfMovedEarlier": "相同点与差异会退化成清单，读者还不知道它们为什么重要。"
+    },
+    {
+      "paragraph": "再看这些容易错过的细节",
+      "actualFunction": "把前文机制拆成四个可现场核对的动作。",
+      "dependsOn": "读者已理解身体相连、空间被收紧和画框参与构图。",
+      "newUnderstanding": "每个抽象判断都可落回脸部边缘、蛇身、蛇头位置和框面交界。",
+      "breaksIfMovedEarlier": "动作会变成缺少理由的观看命令。"
+    },
+    {
+      "paragraph": "最后再看一眼",
+      "actualFunction": "以两处眼部亮点、蛇身和金框回收唯一核心问题。",
+      "dependsOn": "全文已解释各部分如何连成整体，并交代晚期版本意义。",
+      "newUnderstanding": "观者能亲自验证标题如何由具体形状成立。",
+      "breaksIfMovedEarlier": "读者尚不知道金框和版本比较为何会改变第二眼。"
+    },
+    {
+      "paragraph": "事实边界",
+      "actualFunction": "向访客说明版本数量、人物身份、心理、寓意与意图的证据限度。",
+      "dependsOn": "正文已经正面说清证据支持的观看与意义。",
+      "newUnderstanding": "读者知道哪些结论可以成立，哪些仍保持开放。",
+      "breaksIfMovedEarlier": "限制会抢走正文声音，并在答案之前形成审稿口吻。"
+    }
+  ],
+  "claimClosure": [
+    {
+      "sentence": "《罪》把一个道德词变成近在眼前的相遇：诱惑与危险共用同一片黑暗，也同时迎向画外的人。",
+      "evidenceType": "编辑推断",
+      "sourceOrBasis": "标题、正面人物、蛇、近黑背景以及两处受光眼部的组合；以画面效果陈述，不归因于作者意图。",
+      "confidence": "中：可由多个可见要素共同支持，但‘诱惑’仍是标题和传统母题引导的解释。",
+      "verdict": "保留；措辞未指定人物心理或唯一寓意。"
+    },
+    {
+      "sentence": "标题提供‘罪’这个寓意方向，画面则用贴在一起的身体把抽象概念变得具体。",
+      "evidenceType": "来源事实加编辑推断",
+      "sourceOrBasis": "馆方标题与可直接观察的缠肩蛇身、相邻脸部。",
+      "confidence": "高：标题与形状均可直接核对，推断范围仅限构图效果。",
+      "verdict": "保留。"
+    },
+    {
+      "sentence": "施图克把框也纳入整体效果。",
+      "evidenceType": "研究卡支持的作者方法",
+      "sourceOrBasis": "研究卡明确给出‘建筑式整体设计’作为理解框架，且金色建筑式框可直接观察。",
+      "confidence": "高：来源框架与对象观察相互闭合。",
+      "verdict": "保留；未扩写确定心理目的。"
+    },
+    {
+      "sentence": "反复出现的暗背景、缠肩之蛇、正面人物和窄幅构图，说明这套组合长期处在他的象征主义创作中心。",
+      "evidenceType": "来源事实与比较推断",
+      "sourceOrBasis": "1891至1912年多个近似作品，以及1893年最近比较对象共享的构图特征。",
+      "confidence": "高：时间跨度和多次处理由研究卡支持，‘创作中心’限定于该持续母题。",
+      "verdict": "保留。"
+    },
+    {
+      "sentence": "Frye 这一件让观者在馆内直接看懂施图克怎样把寓意、身体和画框合成一体，也由此成为馆藏中慕尼黑象征主义的清晰节点。",
+      "evidenceType": "编辑判断与不可替代性",
+      "sourceOrBasis": "五维重要性结论、馆内叙事位置及眼前可核对的整体设计。",
+      "confidence": "高：判断范围明确限定为Frye馆内，不声称唯一或世界级。",
+      "verdict": "保留。"
+    },
+    {
+      "sentence": "放在 72 分的 Frye，它是一件值得认真停留的重要藏品；单件分量还到不了改变城市行程的程度。",
+      "evidenceType": "馆级评分边界与编辑判断",
+      "sourceOrBasis": "锁定测试规范的72分边界，以及艺术史高、生涯高、馆内高、现场高、稀缺中低的五维判断。",
+      "confidence": "高：标签与旅行结论均按锁定边界收敛。",
+      "verdict": "保留；未升级为稀世珍品。"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这幅画用女人和蛇的两处目光抓住你，再用横过肩膀的蛇和贴得很近的金框把它们锁成一个形象；它虽是较晚的多版本之一，仍能在Frye把施图克的象征主义方法讲得很清楚。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "notes": "连续朗读卡片、快层、四个深层段落与结尾，主语清楚；已避开‘距离控制’‘整套距离设计’等抽象名词化表达。"
+  },
+  "productionLanguageScan": {
+    "filesScanned": [
+      "card.txt",
+      "draft.md"
+    ],
+    "forbiddenCategories": [
+      "研究缺口",
+      "图片许可任务",
+      "发布任务",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "版本迁移"
+    ],
+    "findings": [],
+    "verdict": "passed"
+  },
+  "contrastSkeletonReview": {
+    "completeNegativeToPositiveSkeletonsOutsideFactBoundary": 1,
+    "location": "最后再看一眼中的‘不再悬在画外：……已经把它压成……’",
+    "maximumAllowed": 1,
+    "verdict": "within_limit"
+  },
+  "eyeHighlightReview": {
+    "supportedHighlightCount": 2,
+    "highlights": [
+      "女子的眼睛",
+      "蛇眼"
+    ],
+    "unsupportedAdditionalEyeHighlights": [],
+    "psychologyUpgrades": [],
+    "verdict": "passed"
+  },
+  "significanceReview": {
+    "fiveDimensionsCovered": {
+      "artHistory": "高",
+      "artistCareer": "高",
+      "museumNarrative": "高",
+      "onsiteExperience": "高",
+      "rarity": "中低"
+    },
+    "comparisonCategory": "施图克的象征主义‘罪／蛇与女人’母题版本",
+    "nearestComparator": "Neue Pinakothek藏1893年《罪》Die Sünde",
+    "decisiveDifferenceBoundary": "年代、媒材、色调与具体画框不同；未把差异夸为唯一性。",
+    "unknownBoundary": "公开资料对近似作品总数说法不一。",
+    "importanceLabel": "重要藏品",
+    "visitPriority": "强烈推荐",
+    "frye72BoundaryRespected": true,
+    "verdict": "ready"
+  },
+  "observableDetailReview": {
+    "count": 7,
+    "minimum": 4,
+    "secondLookIsWorkSpecific": true,
+    "verdict": "passed"
+  },
+  "voiceScoreCandidate": {
+    "entry": 2,
+    "causality": 2,
+    "people": 1,
+    "turn": 2,
+    "visualPayoff": 2,
+    "spokenClarity": 2,
+    "secondLook": 2,
+    "total": 13,
+    "note": "作品不依赖具体历史人物选择，‘人’维度以清楚处理观者与形象关系计1分；该分数仅为作者候选意见。"
+  },
+  "unresolvedRisks": [
+    "公开资料对《罪》近似作品的总数不一致，因此正文不提供精确数量。",
+    "人物身份、人物心理、蛇的单一寓意和作者确定意图均未确认，正文保持开放。",
+    "2026年7月22日的在展信息属于易变快照，到访时可能不同。",
+    "图片再利用许可未确认；该事项仅保留在内部记录，未进入访客正文。"
+  ],
+  "authorConclusion": "卡片与详情满足作者阶段门槛，可交由未参与写作的独立审读者检查；本文件不签发最终PASS。"
+}

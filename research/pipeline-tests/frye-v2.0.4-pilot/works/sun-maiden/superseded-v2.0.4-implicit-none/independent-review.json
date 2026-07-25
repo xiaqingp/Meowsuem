@@ -1,0 +1,235 @@
+{
+  "workId": "sun-maiden",
+  "reviewRole": "fresh-independent-reviewer",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "e9a434b99a52b406534ed18ece4de33470548c2797954193843b9eb3bfc9b383"
+  },
+  "artifactHashes": {
+    "research-card.md": "61e3a145e8b884dc827308c9db99a2e893d51f03e5f796167f35e875c9f7ffdc",
+    "writing-plan.json": "e28c595b99cbaefd349275d76cd1b2a5da795da93df4db18dcec92e0fc22a400",
+    "card.txt": "54d77f16c27ec6d2afc6bdf3b4b98706b13c3fc22731747fa0b768a352a062bf",
+    "draft.md": "e9a434b99a52b406534ed18ece4de33470548c2797954193843b9eb3bfc9b383"
+  },
+  "directUpstreamChain": {
+    "declaredChain": [
+      "batch-02/source-pack.md",
+      "research-card.md",
+      "writing-plan.json",
+      "card.txt",
+      "draft.md",
+      "independent-review.json"
+    ],
+    "links": [
+      {
+        "artifact": "research-card.md",
+        "declaredDirectUpstream": "../../batch-02/source-pack.md",
+        "declaredSha256": "fa667b11415c1864ad81b1d3dce35169ed237d29167dceb9e1465cf7a81d75ea",
+        "actualSha256": "fa667b11415c1864ad81b1d3dce35169ed237d29167dceb9e1465cf7a81d75ea",
+        "verdict": "PASS"
+      },
+      {
+        "artifact": "writing-plan.json",
+        "declaredDirectUpstream": "research-card.md",
+        "declaredSha256": "61e3a145e8b884dc827308c9db99a2e893d51f03e5f796167f35e875c9f7ffdc",
+        "actualSha256": "61e3a145e8b884dc827308c9db99a2e893d51f03e5f796167f35e875c9f7ffdc",
+        "verdict": "PASS"
+      },
+      {
+        "artifact": "card.txt",
+        "declaredDirectUpstream": "writing-plan.json",
+        "declaredSha256": "e28c595b99cbaefd349275d76cd1b2a5da795da93df4db18dcec92e0fc22a400",
+        "actualSha256": "e28c595b99cbaefd349275d76cd1b2a5da795da93df4db18dcec92e0fc22a400",
+        "verdict": "PASS"
+      },
+      {
+        "artifact": "draft.md",
+        "declaredDirectUpstream": "card.txt",
+        "declaredSha256": "54d77f16c27ec6d2afc6bdf3b4b98706b13c3fc22731747fa0b768a352a062bf",
+        "actualSha256": "54d77f16c27ec6d2afc6bdf3b4b98706b13c3fc22731747fa0b768a352a062bf",
+        "verdict": "PASS"
+      },
+      {
+        "artifact": "independent-review.json",
+        "declaredDirectUpstream": "draft.md",
+        "declaredSha256": "e9a434b99a52b406534ed18ece4de33470548c2797954193843b9eb3bfc9b383",
+        "actualSha256": "e9a434b99a52b406534ed18ece4de33470548c2797954193843b9eb3bfc9b383",
+        "verdict": "PASS"
+      }
+    ],
+    "completeChainVerdict": "PASS"
+  },
+  "mechanicalChecks": {
+    "cardVisibleCharacters": 72,
+    "cardRequiredRange": "24-100",
+    "quickVisibleCharacters": 123,
+    "quickRequiredRange": "70-240",
+    "deepVisibleCharacters": 913,
+    "deepRequiredMinimum": 320,
+    "observableDetailBullets": 5,
+    "observableDetailRequiredMinimum": 4,
+    "completeNegationTurnSkeletonsOutsideFactBoundary": 1,
+    "completeNegationTurnAllowedMaximum": 1,
+    "requiredMetadataPresent": true,
+    "dualLayerStructurePresent": true,
+    "specificLastLookPresent": true,
+    "clickableSourcesPresent": true
+  },
+  "mechanicalVerdict": {
+    "verdict": "PASS",
+    "evidence": "All locked length, structure, metadata, detail, source, and contrast-skeleton checks pass."
+  },
+  "factBoundaryVerdict": {
+    "verdict": "PASS",
+    "evidence": [
+      "The two official date formulations are preserved rather than collapsed.",
+      "The prose does not assign a model identity, emotion, precise light-source direction, or explicit feminist intent.",
+      "The career-stage, institutional-access context, Founding Collection status, on-view qualification, comparator, and visible light/color observations remain within the supplied evidence.",
+      "The national-uniqueness boundary is stated explicitly and no unplanned high-risk claim was found."
+    ],
+    "unplannedHighRiskClaims": []
+  },
+  "narrativeVerdict": {
+    "verdict": "PASS",
+    "coreQuestion": "为什么《太阳少女》中最抢眼的不是人物的表情，而是身体边缘那圈强光？",
+    "paragraphDependency": [
+      {
+        "paragraph": "The opening deep paragraph establishes the displaced facial focus and explains how edge light, vegetation, and internal shadow produce volume.",
+        "dependsOn": "The quick layer's provisional answer that edge light is the viewing mechanism.",
+        "newUnderstanding": "The bright edge is not merely an outline; it models bodily turning and volume.",
+        "breaksIfMovedEarlier": "Without the visible tension, the technical description lacks a reason for attention."
+      },
+      {
+        "paragraph": "The forest paragraph makes the setting part of the same light-dark mechanism and limits claims about the source direction.",
+        "dependsOn": "The prior paragraph's account of the body's edge and internal shadow.",
+        "newUnderstanding": "Body and forest are connected by one contrast system rather than treated as figure plus incidental background.",
+        "breaksIfMovedEarlier": "The reader would not yet know which edge and tonal transition the setting is helping to explain."
+      },
+      {
+        "paragraph": "The career-history section introduces restricted access to life training and professional exhibitions, then returns that context to the depicted body and light handling.",
+        "dependsOn": "The established visual mechanism and the question of why this treatment matters beyond appearance.",
+        "newUnderstanding": "The same nude acquires a production-history dimension without becoming an unsupported political declaration.",
+        "breaksIfMovedEarlier": "Placed first, it would read as detachable biography before the work-specific visual problem exists."
+      },
+      {
+        "paragraph": "The Bouguereau comparison tests the mechanism and institutional context against the nearest in-museum comparator.",
+        "dependsOn": "Both the light mechanism and the access-history context have already been established.",
+        "newUnderstanding": "The work's museum-specific value lies in a concrete difference in light/color treatment and in who could enter the nude tradition.",
+        "breaksIfMovedEarlier": "The comparison would become a checklist item because its two decisive axes would not yet be available."
+      },
+      {
+        "paragraph": "The significance paragraph calibrates the result as an important collection node, not a nationally unique masterpiece.",
+        "dependsOn": "The formal return and comparator boundary established in all preceding paragraphs.",
+        "newUnderstanding": "The label is justified by specific museum value while remaining inside the Frye 72-point boundary.",
+        "breaksIfMovedEarlier": "The importance label would precede the evidence that earns it."
+      }
+    ],
+    "reorderingTest": "The historical-context and comparison paragraphs lose their explanatory premises if moved before the visual mechanism; the significance paragraph cannot move earlier without becoming an unsupported label.",
+    "quickDeepLastLookRoles": "Quick gives a complete provisional answer; deep independently rebuilds and extends it through mechanism, institutional history, and comparison; the last look turns those results into a specific shoulder-and-edge viewing action."
+  },
+  "nativeChineseVerdict": {
+    "verdict": "FAIL",
+    "oneBreathParaphrase": "这幅画把人物的脸转到一边，让身体边缘的亮光成为主角；顺着亮边看，既能看见人体怎样从林地里显出来，也能想到一位女性画家当年进入裸体画训练和展览体系有多不容易。",
+    "readAloudVerdict": "failed",
+    "translationeseFindings": [
+      {
+        "text": "让这段职业条件落实成可见的光色处理",
+        "finding": "“职业条件落实成光色处理”把制度背景和绘画动作压成抽象概念搭配，朗读时需要先解码。"
+      },
+      {
+        "text": "不同作者进入学院裸体传统的职业条件",
+        "finding": "“进入传统的职业条件”是英文式概念压缩，日常中文难以一口气自然复述。"
+      },
+      {
+        "text": "关于光色方法与作者准入的比较",
+        "finding": "“作者准入”是内部研究标签式名词化，用在访客叙事中生硬。"
+      },
+      {
+        "text": "让传统题材显出原本容易被忽略的生产条件",
+        "finding": "“题材显出生产条件”以抽象事物作动作主体，意思可推知，但口头表达不自然。"
+      }
+    ],
+    "hardGateBasis": "Canonical section 6.3 requires translationeseFindings to be empty and the title, quick layer, and paragraph transitions to read naturally aloud."
+  },
+  "significanceVerdict": {
+    "verdict": "PASS",
+    "label": "重要藏品",
+    "fiveDimensions": {
+      "artisticAchievement": "The draft identifies a concrete formal achievement: edge light, internal shadow, and dark green-brown vegetation jointly establish contrast, turning, volume, and outdoor light.",
+      "artHistoricalPosition": "It places the work in Genth's approximately age-33 period of building a reputation through outdoor female nudes, while avoiding claims of a singular masterpiece or turning point.",
+      "historicalCulturalValue": "It connects the nude to restricted access for women to life training and professional exhibitions, while explicitly declining to convert that context into a political manifesto.",
+      "rarityAndIrreplaceability": "It names the nearest comparator and limits non-substitutability to the Frye pairing's distinct light/color method and artist-access context; it explicitly rejects national uniqueness.",
+      "collectionPosition": "It identifies the work as a Founding Collection node whose value is strengthened by a specific in-museum comparison."
+    },
+    "nearestComparator": "William-Adolphe Bouguereau, Dans les bois (In the Woods), Frye Art Museum",
+    "sharedCore": "Idealized female nude in a woodland setting.",
+    "decisiveDifference": "Sun Maiden relies more directly on outdoor color-light and the strongly lit body edge; Genth's access to professional nude training and exhibition changes the institutional meaning of the pairing.",
+    "nonSubstitutabilityBoundary": "The comparator can supply the woodland-nude subject but not this exact conjunction of Genth's light treatment and the in-museum contrast in artists' access conditions. This supports an important-collection label only, not national or global uniqueness.",
+    "frye72Calibration": "The prose avoids rare-treasure, world-class, itinerary-deciding, and must-see-isolate language."
+  },
+  "workSpecificVerdict": {
+    "verdict": "PASS",
+    "evidence": "The core question, shoulder/back edge light, green-brown vegetation, internal tonal transition, Genth's career context, and the same-museum Bouguereau comparator make the argument non-transferable to a generic nude painting."
+  },
+  "productionLanguageVerdict": {
+    "verdict": "PASS",
+    "scannedVisitorSurfaces": [
+      "card.txt",
+      "draft metadata",
+      "quick layer",
+      "deep layer",
+      "last look",
+      "fact boundary",
+      "source line"
+    ],
+    "findings": []
+  },
+  "independenceChecks": {
+    "card": "PASS — an independent value judgment explaining why the work merits opening; it is not an excerpt or guide-command opening.",
+    "quickLayer": "PASS — independently states why to look and what visible mechanism supplies the payoff.",
+    "deepLayer": "PASS — remains intelligible without the quick layer and adds causal visual analysis, institutional history, comparison, and calibrated importance.",
+    "lastLook": "PASS — supplies a work-specific shoulder-to-edge tracing action and a changed judgment rather than repeating the opening."
+  },
+  "voiceScores": {
+    "entrance": {
+      "score": 2,
+      "evidence": "“人物把面容转离观者，最醒目的信息便落到身体边缘” immediately establishes a visible, specific problem."
+    },
+    "causality": {
+      "score": 2,
+      "evidence": "The draft explains how dark vegetation increases the skin's brightness, how shadow preserves volume, and why those facts lead into the institutional comparison."
+    },
+    "human": {
+      "score": 2,
+      "evidence": "Women's restricted access to life training and professional exhibitions is connected to Genth's ability to build a career with this subject."
+    },
+    "turn": {
+      "score": 2,
+      "evidence": "The reader moves from treating the bright edge as an eye-catching outline to understanding it as the joint mechanism for body, forest, and career context."
+    },
+    "visualPayoff": {
+      "score": 2,
+      "evidence": "Every contextual move returns to shoulder/back edge light, internal shadow, skin brightness, or green-brown vegetation."
+    },
+    "spokenClarity": {
+      "score": 1,
+      "evidence": "Most sentences are clear, but phrases such as “职业条件落实成可见的光色处理” and “作者准入” are abstract and unnatural when read aloud."
+    },
+    "secondLook": {
+      "score": 2,
+      "evidence": "The ending directs the reader to begin at the shoulder/back, trace the changing bright edge, and notice where shadow and vegetation interrupt it."
+    },
+    "total": 13,
+    "threshold": "at least 12/14 with no zero",
+    "thresholdVerdict": "PASS"
+  },
+  "failureReasons": [
+    {
+      "gate": "nativeChineseVerdict",
+      "reason": "The visitor prose contains multiple abstract, compressed phrases that do not read naturally aloud: “职业条件落实成可见的光色处理”, “进入学院裸体传统的职业条件”, “作者准入”, and “题材显出……生产条件”.",
+      "action": "Return the work to drafting and replace those research-label abstractions with natural spoken Chinese that names the people, access restrictions, and visible painting actions directly; then rerun the full independent review. Do not merely swap connectors or add qualifiers."
+    }
+  ],
+  "finalVerdict": "FAIL",
+  "finalRationale": "The direct-upstream chain, mechanical gates, fact boundaries, narrative dependency, significance calibration, work specificity, production-language scan, and 13/14 voice threshold pass. The canonical native-Chinese hard gate fails because translationeseFindings is nonempty and the affected passages do not read naturally aloud; any hard-gate failure requires final FAIL."
+}

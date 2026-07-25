@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.4.2",
+  "runId": "m28-3-chichu-author-open-field-2026-07-23",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T03:08:49.414Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_workId_from_run_header",
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "1638eada1fe27c69f62bca90c8a254cc585c06d3dd7ab656d499c970808cf5da",
+      "bytes": 7190
+    },
+    {
+      "path": "card.txt",
+      "sha256": "3c0d6c9a82d8d512e0f834e281319c1d980eed88a0cd3107066ba7827eb15bbc",
+      "bytes": 238
+    },
+    {
+      "path": "draft.md",
+      "sha256": "55eeedb11c67c820afc0c594220bf0676730e6052b0c2e3bc5a7dc2fc1088fbc",
+      "bytes": 4000
+    }
+  ]
+}

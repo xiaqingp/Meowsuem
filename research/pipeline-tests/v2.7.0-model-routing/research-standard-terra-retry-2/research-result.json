@@ -1,0 +1,48 @@
+{
+    "runId":  "m28-11-v2.7.0-standard-research-terra-retry-2-2026-07-24",
+    "stage":  "research",
+    "museumId":  "met",
+    "workId":  "",
+    "pipelineVersion":  "2.7.0",
+    "instructionVersion":  "2.1.0",
+    "model":  "gpt-5.6-terra",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-07-24T22:04:36.8581803-07:00",
+    "modelStartedAt":  "2026-07-24T22:04:37.1742198-07:00",
+    "modelCompletedAt":  "2026-07-24T22:05:53.2118583-07:00",
+    "completedAt":  "2026-07-24T22:05:53.2328043-07:00",
+    "runnerDurationMs":  76375,
+    "modelDurationMs":  76038,
+    "tokenUsage":  {
+                       "total":  21936,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "5",
+                                    "9",
+                                    "12",
+                                    "13"
+                                ],
+    "logPath":  "research/pipeline-tests/v2.7.0-model-routing/research-standard-terra-retry-2/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "115c3ee4bb870e63b21cbc9a7b63949c3ea4a467f4beee553c21315855551862"
+                   },
+                   {
+                       "path":  "research/pipeline-tests/v2.7.0-model-routing/research-standard-terra-retry-2/candidate-packet.json",
+                       "role":  "candidate_packet",
+                       "sha256":  "83713e4d6618fa27e482de9572e1e80b686a5e2439bc2cfc5f8f6409ca9aad71"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "portrait-head-bottle-64-228-21-research-card.md",
+                        "sha256":  "2411ea4f4745d16ae7aff4e9f9c664727248318981b3d339742d5e27deb8bb57",
+                        "bytes":  8433
+                    }
+                ]
+}

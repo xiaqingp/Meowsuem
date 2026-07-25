@@ -1,0 +1,961 @@
+{
+  "canonicalInstruction": "research/meowseum-content-instruction.md",
+  "canonicalPipeline": "research/generation-pipeline.md",
+  "canonicalRunner": "scripts/run-isolated-generation.ps1",
+  "canonicalGenerationReporter": "scripts/report-museum-generation.mjs",
+  "canonicalReleaseVerifier": "scripts/verify-release-candidate.mjs",
+  "canonicalPublisher": "scripts/publish-museum-candidate.mjs",
+  "canonicalAssembler": "scripts/assemble-museum-candidate.mjs",
+  "canonicalImageEvidenceResolver": "scripts/resolve-museum-image-evidence.mjs",
+  "canonicalAssemblyInputPreparer": "scripts/prepare-museum-assembly.mjs",
+  "canonicalFinalizer": "scripts/finalize-museum.mjs",
+  "canonicalContentVerifier": "scripts/verify-content-pipeline.mjs",
+  "canonicalSignificanceVerifier": "scripts/verify-significance-evidence.mjs",
+  "canonicalFutureMuseumVerifier": "scripts/verify-future-museum-contract.mjs",
+  "canonicalStageInputPreparer": "scripts/prepare-museum-stage-inputs.mjs",
+  "canonicalBatchRunner": "scripts/run-generation-batch.mjs",
+  "canonicalAuthorInputPreprocessor": "scripts/prepare-author-research-input.mjs",
+  "canonicalMechanicalProcessor": "scripts/process-author-bundle.mjs",
+  "canonicalMuseumRatingProcessor": "scripts/process-museum-rating.mjs",
+  "canonicalReleaseFreezer": "scripts/freeze-pipeline-release.mjs",
+  "pipelineVersion": "2.8.0",
+  "currentVersion": "2.2.0",
+  "currentRelease": "research/pipeline-releases/v2.8.0.json",
+  "activePipelineChange": "research/pipeline-changes/PCR-2026-07-25-03.json",
+  "releaseStatus": "active",
+  "activeMilestone": "M28",
+  "reviewerMode": "disabled",
+  "causalityStages": [
+    "verified_image_evidence",
+    "research_card",
+    "author_bundle",
+    "mechanical_processed"
+  ],
+  "museumRatingStages": [
+    "museum_selection",
+    "rating_verified",
+    "museum_structure"
+  ],
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "freshResearchMaxWorksPerContext": 10,
+    "reviewerMode": "disabled",
+    "completionReportRequired": true,
+    "postGenerationLiveScope": "current_museum",
+    "postGenerationNetworkConcurrency": 8,
+    "postGenerationModelCalls": 0,
+    "postGenerationModelTokens": 0,
+    "imageResolverVersion": 4,
+    "imageResolverModelPolicy": "ambiguity_only",
+    "imageResolverModel": "gpt-5.6-luna",
+    "imageResolverReasoningEffort": "medium",
+    "futureMuseumContractVersion": 1,
+    "researchBatchConcurrency": 4,
+    "authorConcurrency": 10,
+    "authorBundleOutputs": [
+      "writing-plan.json",
+      "card.txt",
+      "draft.md"
+    ]
+  },
+  "modelRouting": {
+    "museum_scope": {
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "medium"
+    },
+    "museum_candidate_pool": {
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "medium"
+    },
+    "image_disambiguation": {
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "medium"
+    },
+    "research": {
+      "standard": {
+        "model": "gpt-5.6-terra",
+        "reasoningEffort": "medium"
+      },
+      "complex": {
+        "model": "gpt-5.6-sol",
+        "reasoningEffort": "medium"
+      }
+    },
+    "museum_selection": {
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "medium"
+    },
+    "museum_structure": {
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "medium"
+    },
+    "author": {
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "medium"
+    }
+  },
+  "stageInstructionViews": {
+    "museum_scope": ["0", "1", "2", "4", "12", "13"],
+    "museum_candidate_pool": ["0", "1", "2", "4", "9", "12", "13"],
+    "image_disambiguation": ["1"],
+    "research": ["0", "1", "5", "9", "12", "13"],
+    "museum_selection": ["0", "1", "3", "4", "9", "12", "13"],
+    "museum_structure": ["0", "2", "7", "11", "12", "13"],
+    "author": ["0", "1", "6", "8", "9", "10", "12", "13", "14"]
+  },
+  "stageInputContracts": {
+    "imageDisambiguation": {
+      "version": 1,
+      "requiredRoles": [
+        "content_instruction",
+        "image_candidate_packet"
+      ],
+      "maxWorksPerContext": 10,
+      "maxCandidatesPerWork": 5,
+      "output": "image-decisions.json"
+    },
+    "author": {
+      "version": 2,
+      "requiredRoles": [
+        "content_instruction",
+        "research_card",
+        "work_context"
+      ],
+      "optionalRoles": [
+        "research_supplement"
+      ],
+      "maxInputsByRole": {
+        "content_instruction": 1,
+        "research_card": 1,
+        "work_context": 1,
+        "research_supplement": 1
+      },
+      "maxTotalBytes": 90000
+    },
+    "research": {
+      "version": 1,
+      "maxWorksPerContext": 10,
+      "requiredEvidenceBlock": "meowseum-downstream-evidence/1.0",
+      "requiredCandidateFields": ["identityAnchor", "identitySourceUrl", "riskFlags", "riskRationale"],
+      "complexityValues": ["standard", "complex"],
+      "riskFlags": [
+        "identity_conflict",
+        "attribution_or_date_conflict",
+        "rare_candidate",
+        "superlative_claim",
+        "composite_or_parent_child",
+        "architecture_or_site",
+        "insufficient_official_sources",
+        "availability_ambiguity",
+        "cross_source_synthesis"
+      ]
+    },
+    "museumPlanning": {
+      "version": 1,
+      "requiredIndex": "museum-work-index.json",
+      "fullCardFallbackField": "requiresFullCard"
+    },
+    "assembly": {
+      "version": 2,
+      "requiredFile": "assembly-input.json",
+      "requiredSources": [
+        "verified_image_evidence",
+        "museum_structure",
+        "museum_rating",
+        "museum_selection",
+        "author_bundles",
+        "verified_assets"
+      ],
+      "modelCalls": "zero_during_assembly",
+      "futureRequiredFields": [
+        "integration.coordinates"
+      ]
+    }
+  },
+  "futureMuseumContract": {
+    "version": 1,
+    "legacyMuseumIds": [
+      "frye",
+      "alhambra",
+      "egyptian",
+      "chichu",
+      "getty",
+      "anchorage",
+      "british",
+      "enoura",
+      "louvre",
+      "met",
+      "seattle",
+      "glyptotek",
+      "vienna",
+      "smk",
+      "muxin"
+    ],
+    "runtimeAssignment": "museumData.<museumId>",
+    "dataScriptAfter": "museums.js",
+    "museumScriptBefore": "routes.js",
+    "requiredCandidatePages": [
+      "index.html",
+      "museum.html"
+    ],
+    "museumSpecificBuilderAllowed": false
+  },
+  "updatedAt": "2026-07-25",
+  "globalMigration": {
+    "targetVersion": "1.8.1",
+    "status": "pending_all_published_museums_native_chinese_and_core_history_audit",
+    "affectedDimensions": [
+      "quick_layer_direct_conclusion_and_deep_layer_relevance_gate",
+      "value_type_selection_without_medium_templates",
+      "targeted_research_gap_for_missing_value_evidence",
+      "research_captures_canonical_historical_or_artistic_position",
+      "highest_order_historical_or_artistic_value_precedes_visual_mechanism",
+      "quick_layer_single_responsibility_and_lean_author_plan",
+      "research_cards_hold_evidence_not_authoring_decisions",
+      "plain_language_proof_from_concrete_fact_to_reader_meaning",
+      "minimum_explanatory_model_and_prerequisite_order",
+      "structured_work_metadata_separated_from_reader_body",
+      "conditional_dedicated_source_grounded_work_specific_fun_fact_section",
+      "abstract_art_criticism_terms_require_visible_explanation",
+      "quick_layer_primary_value_and_no_invented_reader_state",
+      "native_chinese_read_aloud",
+      "translationese_titles_and_abstract_planning_language",
+      "core_historical_context_completeness",
+      "visitor_facing_production_language"
+    ],
+    "triggerExample": "egyptian/narmer",
+    "boundary": "v2.0.1 requires the quick layer to lead with the highest-value conclusion and the deep layer to retain only facts that change understanding; no published work changes automatically"
+  },
+  "m26Regeneration": {
+    "batchId": "m26-2026-07-22-01",
+    "status": "paused_by_m28_pipeline_validation",
+    "instructionVersionAtStart": "1.6.7",
+    "orderedMuseums": [
+      "louvre",
+      "met",
+      "seattle",
+      "glyptotek",
+      "muxin",
+      "vienna",
+      "enoura",
+      "british",
+      "anchorage",
+      "getty",
+      "chichu",
+      "egyptian",
+      "alhambra",
+      "smk",
+      "frye"
+    ],
+    "museums": {
+      "louvre": {
+        "status": "in_progress",
+        "startedAt": "2026-07-22T02:04:58-07:00",
+        "completedAt": null,
+        "evidence": [
+          {
+            "recordedAt": "2026-07-22T02:10:58-07:00",
+            "instructionVersion": "1.6.7",
+            "scope": "research_cards_10_of_60_and_victory_single_work_cycle",
+            "artifacts": [
+              "research/m26/louvre/research-packet-01.json",
+              "research/m26/louvre/writing-tasks/01-victory.json",
+              "research/m26/louvre/cards/01-victory.txt",
+              "research/m26/louvre/drafts/01-victory-v1-failed.md",
+              "research/m26/louvre/drafts/01-victory-v2.md",
+              "research/m26/louvre/reviews/01-victory-v1.json",
+              "research/m26/louvre/progress.json",
+              "research/audits/louvre-m26-regeneration-progress.md"
+            ],
+            "automaticGate": "victory_v2_passed_card_44_quick_101_deep_1035_details_5_failures_0",
+            "retainedFailure": "victory_v1_failed_three_contrast_skeletons",
+            "publication": "not_started_atomic_boundary_preserved"
+          }
+        ]
+      },
+      "met": {
+        "status": "pending",
+        "startedAt": null,
+        "completedAt": null,
+        "evidence": []
+      },
+      "seattle": {
+        "status": "pending",
+        "startedAt": null,
+        "completedAt": null,
+        "evidence": []
+      },
+      "glyptotek": {
+        "status": "pending",
+        "startedAt": null,
+        "completedAt": null,
+        "evidence": []
+      },
+      "muxin": {
+        "status": "pending",
+        "startedAt": null,
+        "completedAt": null,
+        "evidence": []
+      },
+      "vienna": {
+        "status": "pending",
+        "startedAt": null,
+        "completedAt": null,
+        "evidence": []
+      },
+      "enoura": {
+        "status": "pending",
+        "startedAt": null,
+        "completedAt": null,
+        "evidence": []
+      },
+      "british": {
+        "status": "pending",
+        "startedAt": null,
+        "completedAt": null,
+        "evidence": []
+      },
+      "anchorage": {
+        "status": "pending",
+        "startedAt": null,
+        "completedAt": null,
+        "evidence": []
+      },
+      "getty": {
+        "status": "pending",
+        "startedAt": null,
+        "completedAt": null,
+        "evidence": []
+      },
+      "chichu": {
+        "status": "pending",
+        "startedAt": null,
+        "completedAt": null,
+        "evidence": []
+      },
+      "egyptian": {
+        "status": "pending",
+        "startedAt": null,
+        "completedAt": null,
+        "evidence": []
+      },
+      "alhambra": {
+        "status": "pending",
+        "startedAt": null,
+        "completedAt": null,
+        "evidence": []
+      },
+      "smk": {
+        "status": "pending",
+        "startedAt": null,
+        "completedAt": null,
+        "evidence": []
+      },
+      "frye": {
+        "status": "pending",
+        "startedAt": null,
+        "completedAt": null,
+        "evidence": []
+      }
+    }
+  },
+  "allowedStatuses": [
+    "pending_full_audit",
+    "in_audit",
+    "compliant"
+  ],
+  "museums": {
+    "frye": {
+      "contentFile": "research/frye-content-v1.md",
+      "origin": "prose_first_then_m22_artifacts_backfilled_not_causal_pipeline_evidence",
+      "targetVersion": "1.6.7",
+      "ratingCalibration": "passed_2026-07-22_v1.6.7",
+      "status": "in_audit",
+      "declaredCapacity": 20,
+      "scopeBoundary": "Frye Art Museum at 704 Terry Avenue only; temporary loans do not count toward the rating; founding and contemporary collection objects rotate",
+      "structuralGate": "passed_2026-07-22_20_of_20",
+      "voiceVarietyGate": "passed_2026-07-22_zero_duplicate_prose_and_formula_failures",
+      "humanVoiceAudit": "author_self_review_passed_owner_review_pending",
+      "factAndComparisonAudit": "official_collection_pages_checked_2026-07-22",
+      "contentGate": "passed_2026-07-22_20_of_20_v1.6.7",
+      "browserGate": "passed_2026-07-22_first_screen_20_urls_long_title_and_zero_console_errors",
+      "auditRecord": "research/audits/frye-m27-build-v1.6.7.md"
+    },
+    "alhambra": {
+      "contentFile": "research/alhambra-content-v1.md",
+      "origin": "manually_rewritten_from_existing_official_research_cards_under_v1.5.0_2026-07-21",
+      "targetVersion": "1.5.0",
+      "ratingCalibration": "passed_2026-07-21_v1.5.0",
+      "status": "in_audit",
+      "declaredCapacity": 30,
+      "scopeBoundary": "Alhambra and Generalife official monument complex only; Albaicin and other Granada monuments are excluded; 30 entries are architectural and landscape nodes, not movable collection objects",
+      "structuralGate": "passed_2026-07-21_30_of_30",
+      "voiceVarietyGate": "passed_2026-07-21_zero_exact_duplicate_prose_and_formula_reduction",
+      "humanVoiceAudit": "author_self_audit_completed_owner_review_pending",
+      "factAndComparisonAudit": "rechecked_against_existing_official_patronato_research_cards_2026-07-21",
+      "contentGate": "passed_2026-07-21_30_of_30_manual_rewrite",
+      "browserGate": "passed_2026-07-21_all_30_deep_links",
+      "auditRecord": "research/audits/alhambra-m21-rewrite-v1.5.0.md"
+    },
+    "egyptian": {
+      "contentFile": "research/egyptian-content-v2.md",
+      "origin": "manually_rewritten_from_vetted_research_under_m22_and_v1.5.0_2026-07-22",
+      "targetVersion": "1.5.0",
+      "ratingCalibration": "passed_2026-07-21_v1.5.0",
+      "status": "in_audit",
+      "declaredCapacity": 40,
+      "scopeBoundary": "Egyptian Museum at Tahrir Square only; Grand Egyptian Museum and National Museum of Egyptian Civilization are excluded; transferred Tutankhamun treasures and 22 royal mummies do not count",
+      "structuralGate": "passed_2026-07-22_40_of_40",
+      "voiceVarietyGate": "passed_2026-07-22_zero_visible_not_rather_family",
+      "humanVoiceAudit": "author_self_audit_completed_owner_review_pending",
+      "factAndComparisonAudit": "completed_with_egyptian_ministry_sources_2026-07-21",
+      "contentGate": "passed_2026-07-22_40_of_40_manual_rewrite",
+      "browserGate": "passed_2026-07-22_all_40_deep_links",
+      "auditRecord": "research/audits/egyptian-m21-rewrite-v1.5.0.md"
+    },
+    "chichu": {
+      "contentFile": "research/chichu-content-v2.md",
+      "origin": "full_isolated_generation_under_pipeline_2.4.2",
+      "targetVersion": "2.0.1",
+      "ratingCalibration": "passed_2026-07-23_score_79_zero_rare_assets",
+      "status": "compliant",
+      "declaredCapacity": 20,
+      "scopeBoundary": "Chichu Art Museum only; other Benesse Art Site Naoshima venues are excluded; 20 entries mix nine permanent artworks with distinct architecture and garden nodes",
+      "structuralGate": "passed_2026-07-23_20_of_20",
+      "voiceVarietyGate": "passed_2026-07-23_zero_mechanical_blockers",
+      "cardCopyGate": "passed_2026-07-23_20_of_20_independent",
+      "humanVoiceAudit": "owner_accepted_2026-07-23",
+      "factAndComparisonAudit": "fresh_research_completed_2026-07-23",
+      "contentGate": "passed_owner_acceptance_2026-07-23",
+      "browserGate": "passed_2026-07-23_20_deep_links_and_images",
+      "auditRecord": "research/audits/chichu-m28-3-v2.4.2-candidate.md"
+    },
+    "getty": {
+      "contentFile": "research/getty-content-v1.md",
+      "origin": "hand_authored_under_1.5.0",
+      "targetVersion": "1.5.0",
+      "ratingCalibration": "passed_2026-07-21_v1.5.0",
+      "status": "compliant",
+      "declaredCapacity": 30,
+      "scopeBoundary": "Getty Center at 1200 Getty Center Drive only; Getty Villa is excluded; paper, manuscripts, and photographs rotate",
+      "structuralGate": "passed_2026-07-21_30_of_30",
+      "voiceVarietyGate": "passed_2026-07-21",
+      "humanVoiceAudit": "accepted_by_owner_2026-07-21",
+      "factAndComparisonAudit": "completed_with_official_getty_pages_2026-07-21",
+      "contentGate": "passed_2026-07-21_30_of_30",
+      "browserGate": "passed_2026-07-21",
+      "auditRecord": "research/audits/getty-m17-build-v1.5.0.md"
+    },
+    "anchorage": {
+      "contentFile": "research/anchorage-content-v1.md",
+      "origin": "hand_authored_under_1.4.0",
+      "targetVersion": "1.4.0",
+      "ratingCalibration": "passed_2026-07-20_v1.5.0",
+      "status": "in_audit",
+      "declaredCapacity": 20,
+      "scopeBoundary": "625 C Street main museum only; Smithsonian objects are long-term loans and collection objects may rotate",
+      "structuralGate": "passed_2026-07-20_20_of_20",
+      "voiceVarietyGate": "passed_2026-07-20",
+      "humanVoiceAudit": "pending",
+      "factAndComparisonAudit": "pending",
+      "contentGate": "passed_2026-07-20_20_of_20",
+      "browserGate": "passed_2026-07-20",
+      "auditRecord": "research/audits/anchorage-m15-build-v1.4.0.md"
+    },
+    "british": {
+      "contentFile": "research/british-content-v1.md",
+      "origin": "hand_authored_under_1.4.0",
+      "targetVersion": "1.4.0",
+      "ratingCalibration": "passed_2026-07-20_v1.5.0",
+      "status": "compliant",
+      "declaredCapacity": 60,
+      "scopeBoundary": "Great Russell Street main museum only; paper and sensitive works may rotate",
+      "structuralGate": "passed_2026-07-20_60_of_60",
+      "voiceVarietyGate": "passed_2026-07-20",
+      "humanVoiceAudit": "accepted_by_owner_2026-07-20",
+      "factAndComparisonAudit": "accepted_by_owner_with_documented_boundaries_2026-07-20",
+      "contentGate": "passed_2026-07-20_60_of_60",
+      "browserGate": "passed_2026-07-20",
+      "auditRecord": "research/audits/british-m14-build-v1.4.0.md"
+    },
+    "enoura": {
+      "contentFile": "research/enoura-content-v1.md",
+      "origin": "hand_authored_under_1.4.0",
+      "targetVersion": "1.4.0",
+      "ratingCalibration": "passed_2026-07-20_v1.5.0",
+      "status": "in_audit",
+      "declaredCapacity": 20,
+      "scopeBoundary": "Enoura Observatory site nodes only; not the full Sugimoto Collection",
+      "structuralGate": "passed_2026-07-20_20_of_20",
+      "voiceVarietyGate": "passed_2026-07-20",
+      "humanVoiceAudit": "pending",
+      "factAndComparisonAudit": "pending",
+      "contentGate": "passed_2026-07-20_20_of_20",
+      "browserGate": "passed_2026-07-20"
+    },
+    "louvre": {
+      "contentFile": "research/louvre-content-v4.md",
+      "origin": "iterative_pre_1.0",
+      "targetVersion": "1.3.1",
+      "ratingCalibration": "passed_2026-07-20_v1.5.0",
+      "status": "compliant",
+      "declaredCapacity": 60,
+      "expansionAudit": "completed_2026-07-20",
+      "expansionAuditRecord": "research/audits/louvre-expansion-audit-v1.3.0.md",
+      "structuralGate": "passed_2026-07-20_60_of_60",
+      "humanVoiceAudit": "completed_2026-07-20",
+      "factAndComparisonAudit": "completed_2026-07-20",
+      "auditRecord": "research/audits/louvre-expansion-audit-v1.3.0.md",
+      "contentGate": "passed_2026-07-20_60_of_60",
+      "browserGate": "passed_2026-07-20",
+      "historicalNarrativeAudit": "passed_2026-07-20",
+      "historicalNarrativeAuditRecord": "research/audits/louvre-history-painting-audit-v1.3.1.md"
+    },
+    "met": {
+      "contentFile": "research/met-content-v2.md",
+      "origin": "mixed_20_iterative_plus_40_generated_by_retired_script_requires_rewrite",
+      "targetVersion": "1.3.1",
+      "ratingCalibration": "passed_2026-07-20_v1.5.0",
+      "status": "pending_full_audit",
+      "declaredCapacity": 60,
+      "capacityCompatibilityAudit": "passed_2026-07-20_rebuilt_60",
+      "structuralGate": "passed_2026-07-20_60_of_60",
+      "humanVoiceAudit": "pending_after_partial_rewrite_works_21_to_60",
+      "factAndComparisonAudit": "pending_after_partial_rewrite_works_21_to_60",
+      "auditRecord": "research/audits/m11-five-museum-regeneration-v1.3.1.md",
+      "contentGate": "pending_rewrite_works_21_to_60",
+      "browserGate": "pending_after_rewrite"
+    },
+    "seattle": {
+      "contentFile": "research/seattle-content-v3.md",
+      "origin": "full_isolated_generation_under_pipeline_2.7.2_with_verified_image_evidence_regenerated_under_2.8.0",
+      "targetVersion": "2.2.0",
+      "ratingCalibration": "passed_2026-07-24_score_75_anchor_73_75",
+      "status": "compliant",
+      "declaredCapacity": 20,
+      "capacityCompatibilityAudit": "passed_2026-07-24_downtown_only_20",
+      "structuralGate": "passed_2026-07-24_20_of_20",
+      "humanVoiceAudit": "pipeline_author_contract_passed_reviewer_disabled",
+      "factAndComparisonAudit": "research_cards_and_claim_ledgers_present_20_of_20",
+      "auditRecord": "research/m28-12/seattle/candidate/finalization-report.json",
+      "contentGate": "passed_2026-07-24_20_of_20",
+      "siteBoundaryGate": "passed_2026-07-24_downtown_only",
+      "browserGate": "passed_2026-07-25_8094_20_of_20_unique_local_work_images_loaded_zero_placeholders_and_four_deep_links",
+      "assetResolverGate": "passed_2026-07-25_v4_browser_official_object_identity_20_of_20_zero_model_zero_legacy_inputs",
+      "generationReport": "research/m28-12/seattle/generation-report.json",
+      "publishedDataFile": "seattle.js",
+      "publishedAt": "2026-07-25"
+    },
+    "glyptotek": {
+      "contentFile": "research/glyptotek-content-v2.md",
+      "origin": "mixed_20_iterative_plus_10_generated_by_retired_script_requires_rewrite",
+      "targetVersion": "1.3.1",
+      "ratingCalibration": "passed_2026-07-20_v1.5.0",
+      "status": "pending_full_audit",
+      "declaredCapacity": 30,
+      "capacityCompatibilityAudit": "passed_2026-07-20_rebuilt_30",
+      "structuralGate": "passed_2026-07-20_30_of_30",
+      "humanVoiceAudit": "pending_after_partial_rewrite_works_21_to_30",
+      "factAndComparisonAudit": "pending_after_partial_rewrite_works_21_to_30",
+      "auditRecord": "research/audits/m11-five-museum-regeneration-v1.3.1.md",
+      "contentGate": "pending_rewrite_works_21_to_30",
+      "browserGate": "pending_after_rewrite"
+    },
+    "vienna": {
+      "contentFile": "research/vienna-content-v2.md",
+      "origin": "full_isolated_generation_under_pipeline_2.4.8",
+      "targetVersion": "2.0.2",
+      "ratingCalibration": "passed_2026-07-24_score_96_nine_rare_assets_eight_independent_lines",
+      "status": "compliant",
+      "declaredCapacity": 40,
+      "scopeBoundary": "Maria-Theresien-Platz main building only",
+      "structuralGate": "passed_2026-07-24_40_of_40",
+      "voiceVarietyGate": "passed_2026-07-24_zero_mechanical_blockers",
+      "humanVoiceAudit": "isolated_author_generation_owner_direct_publish_authorized",
+      "factAndComparisonAudit": "passed_2026-07-24_fresh_research_and_9_of_9_significance_records",
+      "contentGate": "passed_2026-07-24_40_of_40",
+      "browserGate": "passed_2026-07-24_40_cards_40_deep_links_40_images_3_routes",
+      "auditRecord": "research/audits/vienna-m28-6-v2.4.8-release.md"
+    },
+    "smk": {
+      "contentFile": "research/smk-content-v1.md",
+      "origin": "m22_batched_research_single_work_authored_prose",
+      "targetVersion": "1.5.0",
+      "ratingCalibration": "passed_2026-07-21_v1.5.0",
+      "status": "in_audit",
+      "declaredCapacity": 30,
+      "scopeBoundary": "SMK Solvgade main museum only; SMK Thy and other sites are excluded; all 30 objects checked as on display through the official API on 2026-07-21",
+      "structuralGate": "passed_2026-07-21_30_of_30",
+      "voiceVarietyGate": "passed_2026-07-21_zero_duplicate_prose_and_formula_scan",
+      "humanVoiceAudit": "author_self_audit_completed_owner_review_pending",
+      "factAndComparisonAudit": "completed_with_official_smk_collection_pages_and_api_2026-07-21",
+      "contentGate": "passed_2026-07-21_30_of_30",
+      "browserGate": "passed_2026-07-21_30_cards_30_deep_links_30_images",
+      "auditRecord": "research/audits/smk-m23-build-v1.5.0.md"
+    },
+    "muxin": {
+      "contentFile": "research/muxin-content-v2.md",
+      "origin": "full_isolated_generation_under_pipeline_2.4.7",
+      "targetVersion": "2.0.2",
+      "ratingCalibration": "passed_2026-07-23_score_77_zero_rare_assets",
+      "status": "compliant",
+      "declaredCapacity": 20,
+      "scopeBoundary": "Wuzhen Xizha Mu Xin Art Museum only; the Former Residence Memorial Hall in Dongzha is excluded",
+      "structuralGate": "passed_2026-07-23_20_of_20",
+      "voiceVarietyGate": "passed_2026-07-23_zero_mechanical_blockers",
+      "humanVoiceAudit": "owner_accepted_2026-07-23",
+      "factAndComparisonAudit": "fresh_research_completed_2026-07-23",
+      "cardCopyGate": "passed_2026-07-23_20_of_20_independent",
+      "contentGate": "passed_owner_acceptance_2026-07-23",
+      "browserGate": "passed_2026-07-23_20_deep_links_10_object_images_10_labeled_placeholders",
+      "auditRecord": "research/audits/muxin-m28-4-v2.4.7-candidate.md"
+    }
+  },
+  "validation": {
+    "status": "m28_in_progress",
+    "causalityFixture": "passed_valid_accepted_backfill_rejected",
+    "authorityGate": "passed_after_m28_1_compaction",
+    "managementCompaction": {
+      "status": "passed",
+      "activeCohoBytesBefore": 186077,
+      "activeCohoBytesAfter": 17194,
+      "reductionPercent": 90.76,
+      "currentVersionReferencesOutsideManifestAndRelease": 0
+    },
+    "acceptedRegression": {
+      "authorBundleResult": "research/pipeline-tests/v2.0.9-autumn-rhythm-single-load-clean3/author-result.json",
+      "researchTokens": 78149,
+      "authorTokens": 50259,
+      "successfulRunTokens": 128408,
+      "reviewerRun": false,
+      "productionWrite": false
+    },
+    "threeWorkProductionPatch": {
+      "status": "implemented_awaiting_owner_content_acceptance",
+      "runRoot": "research/pipeline-tests/v2.2.2-three-work-production-patch-2026-07-22",
+      "works": [
+        "vienna/hunters",
+        "egyptian/narmer",
+        "met/autumn-rhythm"
+      ],
+      "researchTokens": 104599,
+      "authorTokens": {
+        "hunters-in-the-snow": 45672,
+        "narmer-palette": 34590,
+        "autumn-rhythm-number-30": 47615
+      },
+      "successfulRunTokens": 232476,
+      "reviewerRun": false,
+      "retryRun": false,
+      "mechanicalGate": "passed_3_of_3",
+      "browserGate": "passed_3_deep_links_3_images_zero_console_errors",
+      "publication": "owner_approved_work_level_content_patch"
+    },
+    "narmerPlainLanguageTest": {
+      "status": "mechanical_pass_owner_voice_review_pending",
+      "research": "latest_run_uses_fresh_card_plus_targeted_historical_transition_supplement",
+      "runs": [
+        {
+          "pipelineVersion": "2.2.4",
+          "authorTokens": 47647,
+          "result": "semantic_fail_abstract_model_language"
+        },
+        {
+          "pipelineVersion": "2.2.5",
+          "authorTokens": 49041,
+          "result": "semantic_fail_legacy_research_card_preframed_narrative"
+        },
+        {
+          "pipelineVersion": "2.2.6",
+          "authorTokens": 48986,
+          "result": "mechanical_pass_owner_voice_review_pending",
+          "runRoot": "research/pipeline-tests/v2.2.6-narmer-evidence-only-test"
+        },
+        {
+          "pipelineVersion": "2.3.0",
+          "authorTokens": 44314,
+          "result": "structural_pass_residual_card_formula_and_deep_prose_density",
+          "runRoot": "research/pipeline-tests/v2.3.0-narmer-lean-author-test"
+        },
+        {
+          "pipelineVersion": "2.3.1",
+          "authorTokens": 43659,
+          "result": "semantic_fail_unification_still_subordinated_and_mechanical_block_missing_workId",
+          "runRoot": "research/pipeline-tests/v2.3.1-narmer-historical-core-test"
+        },
+        {
+          "pipelineVersion": "2.3.2",
+          "researchTokens": 86035,
+          "result": "research_semantic_fail_canonical_first_unification_context_still_omitted_no_author_run",
+          "runRoot": "research/pipeline-tests/v2.3.2-narmer-canonical-significance"
+        },
+        {
+          "pipelineVersion": "2.4.0",
+          "researchGapTokens": 80691,
+          "authorTokens": 50616,
+          "result": "mechanical_pass_historical_transition_selected_owner_content_review_pending_research_gap_not_token_efficient",
+          "runRoot": "research/pipeline-tests/v2.4.0-narmer-value-type-test"
+        }
+      ],
+      "reviewerRun": false,
+      "publication": "none_test_artifact_only"
+    },
+    "twoValueTypeConcisenessTest": {
+      "status": "mechanical_pass_2_of_2_owner_content_review_pending",
+      "pipelineVersion": "2.4.2",
+      "instructionVersion": "2.0.1",
+      "runRoot": "research/pipeline-tests/v2.4.2-two-value-types",
+      "works": [
+        {
+          "workId": "egyptian/narmer-palette",
+          "valueType": "historical_transition",
+          "authorTokens": 47157,
+          "visibleCharacters": 1857,
+          "previousVisibleCharacters": 2825,
+          "result": "mechanical_pass_conciseness_improved_but_core_claim_still_less_direct_than_owner_requirement"
+        },
+        {
+          "workId": "met/autumn-rhythm-number-30",
+          "valueType": "artistic_breakthrough",
+          "authorTokens": 41735,
+          "visibleCharacters": 1518,
+          "previousVisibleCharacters": 2654,
+          "result": "mechanical_pass_core_and_conciseness_improved_residual_negative_contrast_formula"
+        }
+      ],
+      "reviewerRun": false,
+      "retryRun": false,
+      "publication": "none_test_artifacts_only"
+    },
+    "huntersValueTypeTest": {
+      "status": "mechanical_pass_owner_content_review_pending",
+      "pipelineVersion": "2.4.2",
+      "instructionVersion": "2.0.1",
+      "runRoot": "research/pipeline-tests/v2.4.2-hunters-value-type-test",
+      "workId": "vienna/hunters-in-the-snow",
+      "valueType": "artistic_breakthrough",
+      "authorTokens": 44145,
+      "visibleCharacters": 1707,
+      "previousVisibleCharacters": 2501,
+      "result": "mechanical_pass_direct_core_and_conciseness_improved_residual_negative_contrast_formulas",
+      "reviewerRun": false,
+      "retryRun": false,
+      "publication": "none_test_artifact_only"
+    },
+    "chichuFullGenerationCandidate": {
+      "status": "accepted_and_published_2026-07-23",
+      "pipelineVersion": "2.4.2",
+      "instructionVersion": "2.0.1",
+      "runRoot": "research/m28-3/chichu",
+      "works": 20,
+      "researchBatches": 2,
+      "researchTokens": 262799,
+      "authorTokens": 792408,
+      "museumStructureTokens": 146879,
+      "totalTokens": 1202086,
+      "mechanicalGate": "passed_20_of_20_zero_blockers",
+      "firstMuseumStructure": "rejected_score_92_with_zero_rare_assets",
+      "candidateScore": 79,
+      "candidateRareAssets": 0,
+      "browserGate": "passed_20_cards_20_deep_links_20_images_zero_console_errors_on_8095_preview",
+      "reviewerRun": false,
+      "productionWrite": true,
+      "previewUrl": "http://127.0.0.1:8094/museum.html?id=chichu"
+    },
+    "muxinFullGenerationCandidate": {
+      "status": "accepted_and_published_2026-07-23",
+      "pipelineVersion": "2.4.7",
+      "instructionVersion": "2.0.2",
+      "runRoot": "research/m28-4/muxin",
+      "candidateWorks": 20,
+      "researchCards": 20,
+      "replacementResearchWorks": 7,
+      "authorBundles": 20,
+      "candidateScore": 77,
+      "candidateRareAssets": 0,
+      "ratingGate": "passed_score_77_anchor_76_77_zero_rare_assets",
+      "availability": {
+        "confirmedOnView": 1,
+        "collectionRotation": 5,
+        "previouslyExhibitedCurrentUnknown": 14
+      },
+      "imagePolicy": {
+        "objectImage": 10,
+        "museumHeroPlaceholder": 10
+      },
+      "mechanicalGate": "passed_20_of_20_zero_blockers_zero_advisories",
+      "browserGate": "passed_20_cards_20_unique_deep_links_10_object_images_10_labeled_museum_placeholders_19_availability_tags_routes_and_detail_pages_on_8094",
+      "totalTokens": 2458375,
+      "reviewerRun": false,
+      "productionWrite": true,
+      "previewUrl": "http://127.0.0.1:8094/museum.html?id=muxin",
+      "auditRecord": "research/audits/muxin-m28-4-v2.4.7-candidate.md"
+    },
+    "museumRatingGate": {
+      "status": "passed_14_of_14_fixtures",
+      "pipelineVersion": "2.4.7",
+      "processor": "scripts/process-museum-rating.mjs",
+      "test": "scripts/test-museum-rating-gate.mjs",
+      "covers": [
+        "zero_rare_79_pass",
+        "zero_rare_80_block",
+        "one_rare_80_pass",
+        "rare_below_80_block",
+        "three_independent_rare_lines_for_90",
+        "world_dominant_concentration_evidence",
+        "rare_asset_evidence_match",
+        "parent_child_no_double_count",
+        "within_band_anchor_match"
+      ],
+      "modelTokens": 0
+    },
+    "authorInputContractRegression": {
+      "status": "passed",
+      "pipelineVersion": "2.4.8",
+      "fixture": "research/pipeline-tests/v2.4.8-author-input-contract/run-header.json",
+      "requiredRoles": [
+        "content_instruction",
+        "research_card",
+        "work_context"
+      ],
+      "optionalRoles": [
+        "research_supplement"
+      ],
+      "legacyMuxinBytes": 96266,
+      "compactBytes": 57951,
+      "byteReductionPercent": 39.8,
+      "wholeMuseumPlanRejected": true,
+      "auditRecordsRejected": true,
+      "modelTokens": 0
+    },
+    "pipelineChangeControl": {
+      "status": "passed",
+      "pipelineVersion": "2.4.8",
+      "record": "research/pipeline-changes/PCR-2026-07-23-01.json",
+      "ownerAuthorizationRequired": true,
+      "outOfScopeCanonicalChangeRejected": true,
+      "frozenReleaseImmutable": true,
+      "releaseIdempotencePassed": true,
+      "modelTokens": 0
+    },
+    "generationObservability": {
+      "status": "passed",
+      "pipelineVersion": "2.4.9",
+      "runner": "scripts/run-isolated-generation.ps1",
+      "reporter": "scripts/report-museum-generation.mjs",
+      "projectRootInferred": true,
+      "missingRunDirectoryFailsFast": true,
+      "nonInteractiveInvocationRequired": true,
+      "realRunnerAndModelTimestampsRecorded": true,
+      "tokenUsageRecordedFromCliLog": true,
+      "parallelStageWallClockFixturePassed": true,
+      "missingMetricsBlocked": true,
+      "releaseIdempotencePassed": true,
+      "modelTokens": 0
+    },
+    "postGenerationPerformance": {
+      "status": "passed",
+      "pipelineVersion": "2.5.0",
+      "testMuseum": "vienna",
+      "candidateBuildBaselineSeconds": 18.71,
+      "candidateBuildOptimizedSeconds": 2.37,
+      "candidateStructureSeconds": 0.09,
+      "candidateImageGateSeconds": 1.49,
+      "scopedLiveReleaseGateSeconds": 13.02,
+      "publicationSeconds": 0.12,
+      "browserRepresentativeSecondsApprox": 3,
+      "candidateWorks": 40,
+      "liveImages": 41,
+      "liveSources": 43,
+      "brokenImages": 0,
+      "brokenSources": 0,
+      "publisherSecondRunChangedFiles": 0,
+      "modelTokens": 0,
+      "auditRecord": "research/audits/vienna-m28-8-post-generation-performance.md"
+    },
+    "genericPostGenerationFinalization": {
+      "status": "passed",
+      "pipelineVersion": "2.6.0",
+      "assembler": "scripts/assemble-museum-candidate.mjs",
+      "finalizer": "scripts/finalize-museum.mjs",
+      "testMuseums": {
+        "vienna": {
+          "works": 40,
+          "assemblySeconds": 0.109,
+          "verificationSeconds": 5.427,
+          "publicationDryRunSeconds": 0.086,
+          "totalSeconds": 5.624
+        },
+        "chichu": {
+          "works": 20,
+          "assemblySeconds": 0.103,
+          "verificationSeconds": 16.713,
+          "publicationDryRunSeconds": 0.079,
+          "totalSeconds": 16.896
+        }
+      },
+      "semanticEquivalence": "passed_2_of_2",
+      "wholeSiteInventory": "15_museums_500_works_608_urls",
+      "modelCalls": 0,
+      "modelTokens": 0,
+      "productionWrite": false,
+      "auditRecord": "research/audits/m28-9-generic-finalization.md"
+    },
+    "modelAndInputOptimization": {
+      "status": "passed",
+      "pipelineVersion": "2.7.1",
+      "instructionVersion": "2.1.0",
+      "scopeModel": "gpt-5.6-terra",
+      "standardResearchModel": "gpt-5.6-terra",
+      "complexAndAuthorModel": "gpt-5.6-sol",
+      "researchBatchConcurrency": 4,
+      "authorConcurrency": 10,
+      "instructionViewReductionPercent": {
+        "museum_scope": 70.1,
+        "museum_candidate_pool": 64.1,
+        "research": 61.0,
+        "museum_selection": 60.0,
+        "museum_structure": 82.0,
+        "author": 49.4
+      },
+      "realModelCalls": 7,
+      "realModelTokens": 217741,
+      "successfulScopeTokens": 22271,
+      "successfulStandardResearchTokens": 21936,
+      "successfulAuthorTokens": 35872,
+      "sixWorkAuthorInputRegression": "passed_6_of_6",
+      "compactClaimEndToEnd": "passed",
+      "reviewerRun": false,
+      "productionWrite": false,
+      "auditRecord": "research/audits/m28-11-model-and-input-optimization.md"
+    },
+    "verifiedImageEvidence": {
+      "status": "passed",
+      "pipelineVersion": "2.8.0",
+      "instructionVersion": "2.2.0",
+      "resolver": "scripts/resolve-museum-image-evidence.mjs",
+      "seattleWorks": 20,
+      "accepted": 20,
+      "ambiguous": 0,
+      "unresolved": 0,
+      "uniqueImageUrls": 20,
+      "uniqueImageHashes": 20,
+      "legacyAssetInputsRead": false,
+      "seattleModelCalls": 0,
+      "seattleModelTokens": 0,
+      "seattleResolverSeconds": 40.696,
+      "assemblyAndPublicationSeconds": 2.741,
+      "browserLoadedImages": 20,
+      "browserPlaceholders": 0,
+      "lunaFallbackModel": "gpt-5.6-luna",
+      "lunaFallbackReasoningEffort": "medium",
+      "lunaContractTest": "passed_correct_official_work_image_selected",
+      "lunaContractTestSeconds": 21.494,
+      "lunaContractTestTokens": 17381,
+      "reviewerRun": false,
+      "publishedPort": 8094
+    },
+    "boundary": "M26 remains paused until M28 passes and owner explicitly resumes it"
+  }
+}

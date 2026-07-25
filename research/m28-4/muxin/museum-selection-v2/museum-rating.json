@@ -1,0 +1,41 @@
+{
+  "museumId": "muxin",
+  "score": 74,
+  "scoreBand": "70–79 · 可去可不去",
+  "withinBandAnchor": "73–75",
+  "scoreReason": "木心美术馆最强的公共价值来自一条高度集中的单一艺术家叙事：《狱中笔记》把文革时期强制自我检查的纸张与秘密写作保存在同一组原件中，数部完整文学稿本、早晚期绘画和水上馆舍又把文字、图像与故乡空间连在一起。现有候选没有一件完成稀世珍品的最近比较、决定性差异和全球不可替代性硬门，因此评分不能越过79；七个候选的对象身份或组界仍未稳定，还必须先替换，当前结果不能进入后续写作。",
+  "withinBandReason": "落在73–75的中点：它比亮点零散的小馆更有明确方向，《狱中笔记》、完整稿本群、晚年微型风景与建筑能形成完整的单一艺术家参观；但馆藏范围集中，多件绘画只确认曾展出或基金会收藏，稿本普遍轮换且缺少对象级图像，七个候选还需替换。与同为74分、依靠区域解释力成立的Anchorage Museum相比，本馆的个人文献与空间结合更专属，但对象稳定性和可见性限制更重；它也缺少Seattle Art Museum 75分所拥有的跨作者重要作品密度，故定为74。",
+  "rareAssets": [],
+  "independentRareLines": [],
+  "dedicatedTrip": false,
+  "worldDominantConcentration": false,
+  "worldDominantConcentrationEvidence": [],
+  "limitations": [
+    "七个候选未通过identityStable硬门，须运行一次定向museum_candidate_replacement后重做完整museum_selection。",
+    "多件稿本缺少对象级图像、编目和稳定展页信息，文学馆存在轮换或原件状态不明。",
+    "多件绘画只确认基金会收藏、开馆特展或合作展展出，不能承诺当前可见。",
+    "没有候选通过稀世珍品不可替代性硬门，建筑现场也不能单独帮助跨入80档。"
+  ],
+  "calibrationComparators": [
+    {
+      "museumId": "frye",
+      "score": 72,
+      "relation": "木心美术馆的单一艺术家文献、绘画与馆舍关系更完整，故高于收藏性格明确但单件上限较低的Frye Art Museum。"
+    },
+    {
+      "museumId": "anchorage",
+      "score": 74,
+      "relation": "两馆都以解释力而非稀世名作成立；木心美术馆对象专属性更强，但稳定身份、图像和可见性缺口抵消这一优势，因此并列。"
+    },
+    {
+      "museumId": "seattle",
+      "score": 75,
+      "relation": "Seattle Art Museum至少有《海变》等跨作者重要作品形成更稳定的对象密度；木心美术馆目前未达到同等候选稳定度。"
+    },
+    {
+      "museumId": "chichu",
+      "score": 79,
+      "relation": "地中美术馆拥有为莫奈、塔瑞尔和德·玛利亚定制的多条永久作品空间，整体现场兑现度更高；木心美术馆不应仅凭建筑与集中叙事接近70档上限。"
+    }
+  ]
+}

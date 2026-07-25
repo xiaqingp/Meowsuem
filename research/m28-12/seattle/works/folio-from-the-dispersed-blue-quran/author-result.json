@@ -1,0 +1,66 @@
+{
+    "runId":  "m28-12-v2.7.2-seattle-author-folio-from-the-dispersed-blue-quran-2026-07-24",
+    "stage":  "author",
+    "museumId":  "seattle",
+    "workId":  "folio-from-the-dispersed-blue-quran",
+    "pipelineVersion":  "2.7.2",
+    "instructionVersion":  "2.1.1",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-07-24T23:16:48.4966916-07:00",
+    "modelStartedAt":  "2026-07-24T23:16:49.1308990-07:00",
+    "modelCompletedAt":  "2026-07-24T23:20:34.5107392-07:00",
+    "completedAt":  "2026-07-24T23:20:34.5293094-07:00",
+    "runnerDurationMs":  226033,
+    "modelDurationMs":  225380,
+    "tokenUsage":  {
+                       "total":  11433,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "6",
+                                    "8",
+                                    "9",
+                                    "10",
+                                    "12",
+                                    "13",
+                                    "14"
+                                ],
+    "logPath":  "research/m28-12/seattle/works/folio-from-the-dispersed-blue-quran/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "8c08c30f9d915a8942ed605287f7993a6514742c8f895b427876a6ffabb3fda2"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/research-batch-02/folio-from-the-dispersed-blue-quran-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "8c209aaedcd95f5d5356428055a0b79062bd49c6a1ce9d2dd0b507fd4804258b"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/works/folio-from-the-dispersed-blue-quran/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "690b8f9dbe06bd485689738ab744ad149b2e530d2f2f0fc6d042ba046873ec32"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "8bbaf8fb5353fe5590c9781058a9fee2b78980dce5f19467f0f6e2864766a9ed",
+                        "bytes":  9920
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "59ea8a0b5fa20bc1100973c79661ec65b78b080a79157bfef5739b8cef0a6916",
+                        "bytes":  478
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "f707a42a4afb05efaec616b39fe6fed0c78298fee38e125657b2828f00908fa9",
+                        "bytes":  4775
+                    }
+                ]
+}

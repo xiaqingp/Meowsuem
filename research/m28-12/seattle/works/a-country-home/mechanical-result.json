@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.7.2",
+  "runId": "m28-12-v2.7.2-seattle-author-a-country-home-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-25T06:24:43.117Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_availability_from_locked_work_context",
+    "derived_imagePolicy_from_locked_work_context"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "2b9de5f8762c78602b6a60e371230852f8c2ea59fc9e03bb6f6592fdf4a18c41",
+      "bytes": 11918
+    },
+    {
+      "path": "card.txt",
+      "sha256": "ce2b1363dc2d1e0c659871ff83f4bee80432ba5a2803036fbb9590fca36b5f8a",
+      "bytes": 530
+    },
+    {
+      "path": "draft.md",
+      "sha256": "1a93ebb0e35dc081ae20e57521364d1c3c3f86d7ed6cd17c54d6166fbe2d3756",
+      "bytes": 3861
+    }
+  ]
+}

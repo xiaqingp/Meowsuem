@@ -1,0 +1,42 @@
+{
+  "runId": "m28-12-v2.7.2-seattle-author-still-life-with-strawberries-and-ostrich-egg-cup-2026-07-24",
+  "startedAt": "2026-07-24T00:00:00-07:00",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card",
+  "museumId": "seattle",
+  "workId": "still-life-with-strawberries-and-ostrich-egg-cup",
+  "inputContractVersion": 2,
+  "pipelineVersion": "2.7.2",
+  "instructionVersion": "2.1.1",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c7931d34e1f54dde5c43336acc50f7fb7ac380cfe7bed7ca27ea0e01f2cf4aa6"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "8c08c30f9d915a8942ed605287f7993a6514742c8f895b427876a6ffabb3fda2"
+    },
+    {
+      "path": "research/m28-12/seattle/research-batch-01/still-life-with-strawberries-and-ostrich-egg-cup-research-card.md",
+      "role": "research_card",
+      "sha256": "4c3a5b96e867f1e4b742bc730a902da9a8536e140e08cd4098d5383b31f8598d"
+    },
+    {
+      "path": "research/m28-12/seattle/works/still-life-with-strawberries-and-ostrich-egg-cup/work-context.json",
+      "role": "work_context",
+      "sha256": "0e0b02f3c6f27d1d90defaa6ef40cccbddf83c06a186e43d1bb64bfa887a9ab8"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "candidate_then_atomic_production_write"
+}

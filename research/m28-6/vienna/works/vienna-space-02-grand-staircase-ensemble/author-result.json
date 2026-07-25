@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-space-02-grand-staircase-ensemble-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:46:04.2371041-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-04/vienna-space-02-grand-staircase-ensemble-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "680090b51d751e47d75293fee869db20884db3ecace4d048c7f787f072bbdf2b"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-space-02-grand-staircase-ensemble/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "8e1cd9a43a93f13e9b10f1cdde15770281f21def480b846afd69e73dfc970cd3"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "13df162b801f53d7a99c2617a3c2fb0f6c6366403724fba57c5185d2a06bc2f9",
+                        "bytes":  10054
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "0be3b8221daaca0fbbad5ebb2b3468163ed962efcb6795c2b682f6dece7627c1",
+                        "bytes":  265
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "bc949586a87c66d760e0ddddd6d6c5275c8ab1800e4345e5c555af7721e0cf1a",
+                        "bytes":  5174
+                    }
+                ]
+}

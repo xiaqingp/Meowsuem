@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-egy-05-gem-nef-hor-bak-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:35:57.4558335-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-04/vienna-egy-05-gem-nef-hor-bak-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "e13611c63aeaffc89df0a9af6b5688309b7e0e3e6a16e12c9f614eac02bdcba0"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-egy-05-gem-nef-hor-bak/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "d5eaaa7d5d9fbb3ecd1d807e406e2060d71f9d7ae5ae728ba5711205af979775"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "f2364fa0c4ff9a520979f17a7cee0dbff26133e558c06ac291019b1992eb494f",
+                        "bytes":  7544
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "74582969a34118184359766b343c9fa7be735451b3759b71919c603eb76a9bf4",
+                        "bytes":  293
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "204735ebb257bc590af7ae9d4bd01f4bf168a1918aa826b54ed68b17576044f6",
+                        "bytes":  3199
+                    }
+                ]
+}

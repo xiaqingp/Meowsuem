@@ -1,0 +1,26 @@
+{
+  "id": "PCR-2026-07-24-14",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-24",
+  "ownerInstruction": "完成西雅图艺术博物馆整馆发布并做主站浏览器验收",
+  "baseRelease": "research/pipeline-releases/v2.7.8.json",
+  "targetVersion": "2.7.9",
+  "scope": [
+    "derive contentUpdatedAt from the locked scope source access date",
+    "avoid UTC rollover changing the visitor-visible update date"
+  ],
+  "allowedCanonicalFiles": [
+    "scripts/prepare-museum-assembly.mjs"
+  ],
+  "allowedManagementFiles": [
+    "research/content-standard-manifest.json",
+    "coho_museum/Milestones.md",
+    "coho_museum/knowledge.md"
+  ],
+  "requiredTests": [
+    "Seattle visible update date is 2026-07-24",
+    "assembly and atomic publication remain idempotent",
+    "release idempotence and immutability pass"
+  ]
+}

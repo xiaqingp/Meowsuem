@@ -1,0 +1,57 @@
+{
+  "name": "Meowseum Generation Pipeline",
+  "version": "2.4.7",
+  "status": "active",
+  "frozenAt": "2026-07-23",
+  "sourceManifest": "research/content-standard-manifest.json",
+  "canonicalFiles": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "fbe6770b2ff0d935448d52feb1f0d73c35bf8b901efe905dca982615e664a0ad"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "version": "2.0.2",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "scripts/run-isolated-generation.ps1",
+      "sha256": "c22c60e3a215aa1ac90da402debeb2caf9da39975cb2921c4845ef74ef14c834"
+    },
+    {
+      "path": "scripts/prepare-author-research-input.mjs",
+      "sha256": "ff09bdd2e4b2d292308798ef3e210dd2d801dab5eed936bd698846768dab608d"
+    },
+    {
+      "path": "scripts/process-author-bundle.mjs",
+      "sha256": "acd01ba270097d6b426add9a7a4800d6baaf9a4fa2378f2ad8a9cfd75ad095b7"
+    },
+    {
+      "path": "scripts/process-museum-rating.mjs",
+      "sha256": "7c3cd66598df1831e95d3e5b1e508df00163297334ac5cd103911de16072de8f"
+    }
+  ],
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "freshResearchMaxWorksPerContext": 10,
+    "reviewerMode": "disabled",
+    "authorBundleOutputs": [
+      "writing-plan.json",
+      "card.txt",
+      "draft.md"
+    ]
+  },
+  "stateMachine": [
+    "research_card",
+    "author_bundle",
+    "mechanical_processed"
+  ],
+  "acceptedRegression": {
+    "authorBundleResult": "research/pipeline-tests/v2.0.9-autumn-rhythm-single-load-clean3/author-result.json",
+    "authorBundleResultSha256": "2e0ff07959cddb0f91ac9bf768e69fcc1aa892da380707e8797b41563ea5555a",
+    "successfulRunTokens": 128408,
+    "reviewerRun": false,
+    "productionWrite": false
+  }
+}

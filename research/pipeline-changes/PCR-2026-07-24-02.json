@@ -1,0 +1,45 @@
+{
+  "id": "PCR-2026-07-24-02",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-24",
+  "ownerInstruction": "对，你先把组装、补图、验证、发布 优化一下，因为不用模型，所以你可以改了code之后，直接用维也纳做测试吧？",
+  "baseRelease": "research/pipeline-releases/v2.4.9.json",
+  "targetVersion": "2.5.0",
+  "scope": [
+    "optimize post-generation museum assembly and image resolution without model calls",
+    "scope live release verification to the museum being published while preserving whole-site deterministic checks",
+    "standardize deterministic candidate publication and cache busting",
+    "test the optimized post-generation path with the sealed Vienna artifacts"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/verify-release-candidate.mjs",
+    "scripts/publish-museum-candidate.mjs",
+    "scripts/freeze-pipeline-release.mjs"
+  ],
+  "allowedManagementFiles": [
+    "research/content-standard-manifest.json",
+    "research/m28-6/vienna/build-candidate.mjs",
+    "research/m28-6/vienna/validate-images.mjs",
+    "research/m28-6/vienna/candidate/publication.json",
+    "scripts/test-publish-museum-candidate.mjs",
+    "scripts/verify-project-authority.mjs",
+    "scripts/verify-content-pipeline.mjs",
+    "coho_museum/TechDesign.md",
+    "coho_museum/Milestones.md",
+    "coho_museum/Lessons.md",
+    "coho_museum/knowledge.md",
+    "research/audits/vienna-m28-8-post-generation-performance.md"
+  ],
+  "requiredTests": [
+    "Vienna candidate build timing and hash-equivalence check",
+    "scoped Vienna live image and source verification",
+    "candidate publisher dry-run and no-op publication fixture",
+    "Vienna production structural gate",
+    "project authority gate",
+    "pipeline causality gate",
+    "content pipeline gate",
+    "release idempotence"
+  ]
+}

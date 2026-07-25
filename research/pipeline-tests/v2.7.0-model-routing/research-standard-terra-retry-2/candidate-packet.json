@@ -1,0 +1,22 @@
+{
+  "museumId": "met",
+  "museum": "The Metropolitan Museum of Art",
+  "works": [
+    {
+      "museumId": "met",
+      "workId": "portrait-head-bottle-64-228-21",
+      "workIdentity": {
+        "artistOrCulture": "Moche",
+        "title": "人像头形瓶",
+        "titleEn": "Portrait Head Bottle",
+        "museum": "The Metropolitan Museum of Art"
+      },
+      "identityAnchor": "The Met accession 64.228.21",
+      "identitySourceUrl": "https://www.metmuseum.org/art/collection/search/308527",
+      "riskFlags": [],
+      "riskRationale": "官方对象页提供唯一藏品号、稳定身份、当前展厅、公开图像和同馆学术说明；候选不主张稀世、唯一、最早或身份归属争议。",
+      "candidateRole": "安第斯陶器与肖像传统的候选代表；是否入选及重要性由本次新研究决定"
+    }
+  ],
+  "researchBoundary": "从零核实对象身份、馆藏关系、展出状态、图像、艺术价值和可观察细节；不得读取旧正文。若发现任何 canonical risk flag，必须如实记录，不得为了保留 standard 路由删除风险。"
+}

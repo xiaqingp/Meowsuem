@@ -1,0 +1,61 @@
+<!doctype html>
+<!-- Meowseum production entry -->
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meowseum — 博物馆旅行指南</title>
+  <script>
+    const legacyParams = new URLSearchParams(location.search);
+    if (legacyParams.get("museum") === "louvre" || legacyParams.has("work")) {
+      const target = new URL("./museum.html", location.href);
+      target.searchParams.set("id", "louvre");
+      if (legacyParams.get("work")) target.searchParams.set("work", legacyParams.get("work"));
+      target.hash = location.hash;
+      location.replace(target);
+    }
+  </script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <style>
+    :root{--paper:#f3efe7;--ink:#1b1917;--muted:#716b63;--line:rgba(27,25,23,.17);--wine:#7d2430;--gold:#b69b64;--serif:"Noto Serif SC","Songti SC",Georgia,serif;--sans:Inter,"Noto Sans SC","Microsoft YaHei",sans-serif}
+    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.6}a{color:inherit}.topbar{height:58px;padding:0 36px;display:flex;align-items:center;border-bottom:1px solid var(--line)}.brand{text-decoration:none;font:600 19px/1 var(--serif);letter-spacing:.11em}main{max-width:1420px;margin:auto;padding:0 40px}.intro{padding:48px 0 30px}.eyebrow,.section-label{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--wine);font-weight:800}.intro h1{font:500 clamp(40px,5vw,68px)/1.12 var(--serif);letter-spacing:-.035em;margin:8px 0 10px}.intro p{margin:0;color:var(--muted);font:16px/1.7 var(--serif)}
+    .map-wrap{position:relative;border:1px solid var(--line);background:#d9d5cc}.map-head{height:48px;padding:0 16px;display:flex;align-items:center;justify-content:space-between;background:var(--paper);border-bottom:1px solid var(--line)}.map-head span:last-child{color:var(--muted);font-size:10px}.map{height:560px}.leaflet-tile-pane{filter:grayscale(.92) sepia(.12) contrast(.9) brightness(.96)}.leaflet-control-attribution{font-size:9px!important}.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--paper);color:var(--ink);border-radius:0}.leaflet-popup-content{margin:14px 16px;min-width:190px}.popup-city{font-size:10px;color:var(--muted)}.popup-name{font:500 17px/1.35 var(--serif);margin:2px 0 8px}.popup-link{color:var(--wine);font-size:11px;text-decoration:none}.score-marker{width:40px!important;height:40px!important;margin:-20px 0 0 -20px!important;border:2px solid var(--paper);border-radius:50%;background:var(--wine);color:white;box-shadow:0 2px 12px rgba(0,0,0,.24);display:grid!important;place-items:center;font:500 14px/1 var(--serif)}.score-marker.mid{background:#765e39}.score-marker.optional{background:#55514b}.score-marker.seattle{margin-left:-44px!important}.score-marker.frye{margin-left:4px!important}
+    .scale{padding:30px 0 40px}.scale-head{display:flex;align-items:end;justify-content:space-between;margin-bottom:13px}.scale-head h2,.ranking-head h2{font:500 25px/1.2 var(--serif);margin:5px 0 0}.scale-head p{margin:0;color:var(--muted);font-size:10px}.scale-grid{display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--ink);border-bottom:1px solid var(--line)}.scale-item{min-height:122px;padding:14px 17px 15px;border-right:1px solid var(--line)}.scale-item:last-child{border-right:0}.scale-item strong{display:block;font:500 26px/1 var(--serif);margin-bottom:11px}.scale-item:first-child strong{color:var(--wine)}.scale-item p{margin:0;color:var(--muted);font-size:11px;line-height:1.65}
+    .ranking{padding:8px 0 70px}.ranking-head{padding-bottom:14px;border-bottom:1px solid var(--ink)}.rank-list{display:grid}.rank-row{min-height:105px;display:grid;grid-template-columns:70px minmax(300px,1fr) minmax(160px,.45fr) 130px;gap:24px;align-items:center;border-bottom:1px solid var(--line);text-decoration:none;transition:background .15s}.rank-row:hover{background:rgba(255,255,255,.25)}.rank-no{color:var(--gold);font:500 18px var(--serif)}.rank-name strong{display:block;font:500 21px/1.35 var(--serif)}.rank-name span,.rank-city{color:var(--muted);font-size:11px}.rank-score{display:block;font:500 36px/1 var(--serif)}.rank-band{display:block;margin-top:5px;color:var(--muted);font-size:10px;line-height:1.5}
+    @media(max-width:800px){main{padding:0 18px}.topbar{padding:0 18px}.intro{padding-top:34px}.intro h1{font-size:42px}.map{height:460px}.scale-grid{grid-template-columns:1fr}.scale-item{min-height:0;border-right:0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:80px 1fr;gap:15px}.scale-item:last-child{border-bottom:0}.scale-item strong{margin:2px 0}.rank-row{grid-template-columns:42px 1fr 58px;gap:10px;padding:14px 0}.rank-city,.rank-band{display:none}.rank-name strong{font-size:17px}.rank-score{font-size:28px}}
+  </style>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="./index.html">MEOWSEUM</a></header>
+  <main>
+    <section class="intro"><div class="eyebrow">Museum travel guide</div><h1>把旅行时间，留给真正值得的博物馆。</h1><p>帮你判断一座博物馆值不值得去，以及到了以后最该看什么。</p></section>
+    <section class="map-wrap" aria-labelledby="mapTitle"><header class="map-head"><span id="mapTitle" class="section-label">世界博物馆地图</span><span>拖动或缩放地图，选择博物馆</span></header><div id="map" class="map" aria-label="可缩放的世界博物馆地图"></div></section>
+    <section class="scale" aria-labelledby="scaleTitle"><header class="scale-head"><div><span class="section-label">评分标准</span><h2 id="scaleTitle">分数怎样影响行程</h2></div><p>先由稀世珍品和旅行影响定档，再在档内比较</p></header><div class="scale-grid"><div class="scale-item"><strong>90–100</strong><p>有很多稀世珍品，值得为了它专程来到这座城市。</p></div><div class="scale-item"><strong>80–89</strong><p>有一些稀世珍品，适合在城市行程中主动安排。</p></div><div class="scale-item"><strong>70–79</strong><p>没有足以决定行程的稀世珍品，但整体浏览体验不错，可去可不去。</p></div><div class="scale-item"><strong>60–69</strong><p>只有少数小众或特殊看点，否则不建议去。</p></div><div class="scale-item"><strong>60 以下</strong><p>不建议去，可以略过。</p></div></div></section>
+    <section class="ranking" aria-labelledby="rankingTitle"><header class="ranking-head"><span class="section-label">Museum ranking</span><h2 id="rankingTitle">博物馆排名</h2></header><div id="rankList" class="rank-list"></div></section>
+  </main>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="./ratings.js?v=20260724-m28-8-vienna"></script>
+  <script src="./muxin.js?v=20260723-m28-4"></script>
+  <script src="./museums.js?v=20260723-m28-4-muxin"></script>
+  <script src="./louvre.js?v=20260719-muxin2"></script>
+  <script src="./vienna.js?v=20260724-m28-8-vienna"></script>
+  <script src="./enoura.js?v=20260720-m13"></script>
+  <script src="./british.js?v=20260720-m14"></script>
+  <script src="./anchorage.js?v=20260720-m15"></script>
+  <script src="./getty.js?v=20260721-m17"></script>
+  <script src="./chichu.js?v=20260723-m28-4"></script>
+  <script src="./egyptian.js?v=20260721-m19"></script>
+  <script src="./alhambra.js?v=20260721-m20"></script>
+  <script src="./smk.js?v=20260721-m23"></script>
+  <script src="./frye.js?v=20260722-m27"></script>
+  <script src="./seattle.js?v=20260724-m28-12-seattle"></script>
+  <script>
+    const museumLocations={louvre:[48.8606,2.3376],met:[40.7794,-73.9632],seattle:[47.6073,-122.3381],frye:[47.6071,-122.3241],glyptotek:[55.6726,12.5724],smk:[55.6889,12.5783],muxin:[30.7527069,120.4835269],vienna:[48.2038,16.3618],enoura:[35.203,139.141],british:[51.5194,-0.127],anchorage:[61.2165,-149.8842],getty:[34.078,-118.4741],chichu:[34.4497583,133.9858028],egyptian:[30.0478,31.2336],alhambra:[37.1761,-3.5881]};
+    const order=["louvre","met","british","egyptian","vienna","alhambra","chichu","getty","glyptotek","smk","muxin","enoura","anchorage","seattle","frye"].sort((a,b)=>museumData[b].score-museumData[a].score);
+    const map=L.map("map",{minZoom:2,maxZoom:17,worldCopyJump:true}).setView([28,0],2);
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
+    order.forEach(id=>{const museum=museumData[id];const markerClass=museum.score>=90?"":museum.score>=80?" mid":" optional";const icon=L.divIcon({className:`score-marker${markerClass} ${id}`,html:String(museum.score),iconSize:[40,40]});L.marker(museumLocations[id],{icon,title:`${museum.zh} · ${museum.score}`}).addTo(map).bindPopup(`<div class="popup-city">${museum.city} · ${museum.score} 分</div><div class="popup-name">${museum.zh}</div><div class="popup-city">${museum.en}</div><a class="popup-link" href="./museum.html?id=${encodeURIComponent(id)}">进入博物馆 →</a>`)});
+    document.querySelector("#rankList").innerHTML=order.map((id,index)=>{const museum=museumData[id];return `<a class="rank-row" href="./museum.html?id=${encodeURIComponent(id)}"><span class="rank-no">${String(index+1).padStart(2,"0")}</span><span class="rank-name"><strong>${museum.zh}</strong><span>${museum.en}</span></span><span class="rank-city">${museum.city}</span><span><span class="rank-score">${museum.score}</span><span class="rank-band">${museum.scoreBand}</span></span></a>`}).join("");
+  </script>
+</body>
+</html>

@@ -1,0 +1,217 @@
+{
+  "workId": "swan-rattle",
+  "narrativeMainline": {
+    "valueType": "ritual_or_original_context",
+    "mainline": "这件鸟形响器的意义不只在雕刻出的外形，也在声音、持握和仪式行动共同发生；但现有资料只能把它放回西北海岸响器的类别语境，不能替它指定某一场仪式或某一种神话。",
+    "readerStartingPoint": "读者从题名与对象图可以知道这是一件带柄的鸟形响器，并能看到喙、眼部、彩绘区域以及前端集中的鸟体；读者尚不知道它怎样被使用，也无法仅凭图像确定其具体仪式。",
+    "storyBeats": [
+      {
+        "beat": "先从带柄鸟形、前端集中的鸟体、喙眼与彩绘区域说明：这是一件需要同时从雕刻和动作理解的器物。",
+        "researchRefs": [
+          "R93"
+        ],
+        "newUnderstanding": "静态外形只是它的一部分，手柄已经把观看引向持握与发声。"
+      },
+      {
+        "beat": "再用西北海岸响器与歌曲、舞蹈、讲话及仪式行动相联的类别资料，解释声音为何也是器物意义的一部分。",
+        "researchRefs": [
+          "R88",
+          "R89",
+          "R90"
+        ],
+        "newUnderstanding": "雕刻物、声音、持握和仪式行动共同构成这类器物的作用。"
+      },
+      {
+        "beat": "最后以馆内 Heiltsuk《渡鸦响器》作最近比较，并交代本作的 Tlingit／Tsimshian 双重著录和用途未知。",
+        "researchRefs": [
+          "R86",
+          "R91",
+          "R92",
+          "R94",
+          "R95"
+        ],
+        "newUnderstanding": "比较能帮助辨认类别，却不能把另一件渡鸦响器的身份、方向或仪式用途移植到本作。"
+      }
+    ],
+    "humorBasis": "",
+    "highRiskClaims": [
+      {
+        "claim": "本作曾用于某一场具体仪式、歌曲或舞蹈。",
+        "evidenceType": "类别语境，非单件档案",
+        "allowedWording": "西北海岸响器常与仪式、歌曲、舞蹈、讲话和动作相联；这为理解本作提供类别语境。",
+        "forbiddenUpgrade": "断言本作的具体使用者、歌曲、仪式、治疗或秘密社团用途。",
+        "researchRefs": [
+          "R88",
+          "R89",
+          "R90"
+        ]
+      },
+      {
+        "claim": "鸟形一定是渡鸦，或天鹅名称来自某种原住民语言。",
+        "evidenceType": "馆方题名与图像观察",
+        "allowedWording": "沿用馆方题名《天鹅响器》，并称其为鸟形；具体图像身份的原始记录未知。",
+        "forbiddenUpgrade": "擅自改称渡鸦，或解释“Swan”的语言来源。",
+        "researchRefs": [
+          "R86",
+          "R94"
+        ]
+      },
+      {
+        "claim": "本作的标准持握方向已经确定。",
+        "evidenceType": "邻近类别比较",
+        "allowedWording": "其他 Tlingit、Haida、Tsimshian 响器资料显示持握方向与仪式动作有关。",
+        "forbiddenUpgrade": "把鸟喙朝下或鸟胸朝上的方向指定为本作的正确持法。",
+        "researchRefs": [
+          "R89",
+          "R90",
+          "R94"
+        ]
+      },
+      {
+        "claim": "本作由单一文化制作，或双重归属已得到解释。",
+        "evidenceType": "馆方著录",
+        "allowedWording": "SAM 的 Maker 字段并列 Tlingit 与 Tsimshian；公开资料没有解释这一并列的依据。",
+        "forbiddenUpgrade": "简化为单一族属，或自行推断制作地点、制作者与来源链。",
+        "researchRefs": [
+          "R86",
+          "R95"
+        ]
+      },
+      {
+        "claim": "本作稀有、唯一或比比较对象更重要。",
+        "evidenceType": "馆内比较与证据边界",
+        "allowedWording": "它与馆内 Heiltsuk《渡鸦响器》共享木雕、着色和可摇响的类别特征，但鸟形、形制与文化著录不同。",
+        "forbiddenUpgrade": "宣称唯一、最稀有、决定性优于比较对象或全球不可替代。",
+        "researchRefs": [
+          "R91",
+          "R92"
+        ]
+      }
+    ]
+  },
+  "mustNotAssume": [
+    "本作现在正在西雅图艺术博物馆展出。",
+    "本作的具体制作者、制作地点、来源链或原持有者已经确认。",
+    "本作使用了某种内部装填物，或能发出某种强度、音色的声音。",
+    "本作具有 Raven rattle 资料所述的某一项具体神话、治疗、氏族或秘密社团用途。",
+    "读者会把这件作品误认成静态玩具、渡鸦或普通鸟雕。",
+    "对象图展示的方向就是历史上的标准持握方向。"
+  ],
+  "displayMetadata": {
+    "by": "Tlingit／Tsimshian（馆方并列著录）",
+    "date": "19 世纪",
+    "material": "木、颜料",
+    "place": "Seattle Art Museum，馆藏号 59.104",
+    "priority": "强烈推荐",
+    "significance": "特色看点",
+    "stay": "5—8 分钟",
+    "availability": "display_status_unknown",
+    "imagePolicy": "object_image"
+  },
+  "claimLedger": [
+    {
+      "claimId": "C01",
+      "claim": "馆方将作品题名为《天鹅响器》，Maker 字段并列 Tlingit 与 Tsimshian。",
+      "researchRefs": [
+        "R86"
+      ],
+      "usedIn": [
+        "writing-plan.displayMetadata.by",
+        "draft.事实边界",
+        "draft.趣闻"
+      ]
+    },
+    {
+      "claimId": "C02",
+      "claim": "对象为带柄、横向延伸的木雕鸟形，鸟体集中在前端，细柄向后延伸，表面有深浅彩绘区，头部可见喙和眼部，身体轮廓不是简单球形。",
+      "researchRefs": [
+        "R93"
+      ],
+      "usedIn": [
+        "card",
+        "draft.30秒先懂",
+        "draft.最后再看一眼"
+      ]
+    },
+    {
+      "claimId": "C03",
+      "claim": "西北海岸音乐常与仪式和赠礼宴会相联，响器及其他发声会进入具有权属的歌曲与舞蹈。",
+      "researchRefs": [
+        "R88"
+      ],
+      "usedIn": [
+        "card",
+        "draft.声音怎样进入器物"
+      ]
+    },
+    {
+      "claimId": "C04",
+      "claim": "Tlingit 与 Haida 等邻近资料显示，雕刻响器会由人在正式行动中持握，用来配合舞蹈、讲话和动作。",
+      "researchRefs": [
+        "R89",
+        "R90"
+      ],
+      "usedIn": [
+        "draft.声音怎样进入器物"
+      ]
+    },
+    {
+      "claimId": "C05",
+      "claim": "这些类别资料不能证明本作的具体持握方向、使用者、歌曲或仪式。",
+      "researchRefs": [
+        "R88",
+        "R89",
+        "R90",
+        "R94"
+      ],
+      "usedIn": [
+        "card",
+        "draft.声音怎样进入器物",
+        "draft.事实边界"
+      ]
+    },
+    {
+      "claimId": "C06",
+      "claim": "最近比较对象是 SAM 馆藏 Heiltsuk《渡鸦响器》59.105；两者共享木雕、着色和可摇响的特征，但鸟形、形制与文化归属不同。",
+      "researchRefs": [
+        "R91"
+      ],
+      "usedIn": [
+        "draft.为什么比较渡鸦响器"
+      ]
+    },
+    {
+      "claimId": "C07",
+      "claim": "现有证据不足以确认已知数量、决定性差异或全球不可替代性，本作不符合稀世珍品硬门。",
+      "researchRefs": [
+        "R92"
+      ],
+      "usedIn": [
+        "draft.为什么比较渡鸦响器"
+      ]
+    },
+    {
+      "claimId": "C08",
+      "claim": "公开对象页未说明双文化归属依据、制作地点、制作者、来源链和具体用途。",
+      "researchRefs": [
+        "R86",
+        "R87",
+        "R95"
+      ],
+      "usedIn": [
+        "draft.事实边界",
+        "draft.趣闻"
+      ]
+    },
+    {
+      "claimId": "C09",
+      "claim": "对象页没有当前展览或展厅字段，2026-07-24 的展出状态未知。",
+      "researchRefs": [
+        "R87"
+      ],
+      "usedIn": [
+        "writing-plan.displayMetadata.availability"
+      ]
+    }
+  ]
+}

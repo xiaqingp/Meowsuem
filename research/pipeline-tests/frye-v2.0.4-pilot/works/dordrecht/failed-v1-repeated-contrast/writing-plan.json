@@ -1,0 +1,168 @@
+{
+  "workId": "dordrecht",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "directUpstream": {
+    "filename": "research-card.md",
+    "sha256": "c3bb8894b9129dfe4a0a49d38f096ac9e191fc99fed4b39448294cbc94898c35"
+  },
+  "readerBaseline": {
+    "knownFromImageAndTitle": [
+      "画面是一幅以天空、水面、低矮城市和远处教堂轮廓组成的小幅风景",
+      "标题给出地点 Dordrecht，并把远处建筑称为 the Cathedral"
+    ],
+    "notAssumed": [
+      "读者认识 Boudin 或了解他与法国现代风景画的关系",
+      "读者知道 Dordrecht 的城市史或能辨认具体教堂",
+      "读者会把小尺幅自动理解为现场写生"
+    ]
+  },
+  "coreQuestion": "标题点名教堂，为什么画里真正占据注意力的却是天气？",
+  "quickLayerPromise": {
+    "visibleTension": "教堂给画命名，却被压在很低的城市轮廓中；灰白蓝的云层占去大部分画面。",
+    "provisionalAnswer": "Boudin 用低地平线、迅速可见的短笔触和水天呼应，把城市地标变成衡量天气与光线的标尺。",
+    "viewingRoute": [
+      "比较天空与城市所占面积",
+      "辨认教堂轮廓在低地平线上的位置",
+      "沿水面横向短笔触寻找云层色彩的回应"
+    ]
+  },
+  "cognitionSteps": [
+    {
+      "step": 1,
+      "discovery": "标题中的教堂在画面里很小，天空才是最大的形状。",
+      "changesUnderstanding": "作品不再只是地标记录，而首先是一场天空与城市尺度的较量。",
+      "thereforeNext": "画家用什么结构让天气取得主导？"
+    },
+    {
+      "step": 2,
+      "discovery": "低地平线压低城市，灰白蓝云层与水面的横向短笔触彼此响应。",
+      "changesUnderstanding": "教堂并未消失，它成为稳定的竖向坐标，使云和水的变化更容易被察觉。",
+      "thereforeNext": "这种处理在 Boudin 的创作中处于什么位置？"
+    },
+    {
+      "step": 3,
+      "discovery": "作品属于 Boudin 晚期港口、海岸与天气观察的创作范围，并采用小木板。",
+      "changesUnderstanding": "小尺度没有削弱主题，反而让画面的取舍更集中：建筑只保留足够辨认的轮廓。",
+      "thereforeNext": "它与作者更典型的 Le Havre 港景相比，独特回报在哪里？"
+    },
+    {
+      "step": 4,
+      "discovery": "它与 Le Havre 港景群共享低地平线、云层主导和缩小的船岸，但 Dordrecht 的教堂轮廓提供不同的城市坐标。",
+      "changesUnderstanding": "本作的价值不是稀有或宏大，而是用另一座港城清楚展示 Boudin 如何让固定地标服务于变化的天气。",
+      "thereforeNext": "回到现场，哪一个细节能把这层认识固定下来？"
+    },
+    {
+      "step": 5,
+      "discovery": "塔楼的竖线从低矮岸线升起，却仍没有切断大片云层。",
+      "changesUnderstanding": "第二眼会同时看见地标的辨认作用和它在天气面前的有限尺度。",
+      "thereforeNext": "以塔楼为坐标，再比较其上下两侧的云与水。"
+    }
+  ],
+  "humorBasis": null,
+  "forbiddenAssumptions": [
+    "远处建筑就是 Grote Kerk",
+    "作品在 Dordrecht 现场一气呵成",
+    "具体旅次、停留日期或完成地点已经确认",
+    "作者有意贬低宗教建筑",
+    "小船里人物的身份、动作或心理可以辨认",
+    "该作是 Boudin 最大、最稀有或最具代表性的作品"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "具体教堂身份",
+      "evidenceType": "馆方标题只写 the Cathedral",
+      "allowedWording": "教堂或塔楼轮廓",
+      "forbiddenUpgrade": "不得写 Grote Kerk 或其他具体建筑学名"
+    },
+    {
+      "claim": "现场创作与速度",
+      "evidenceType": "可直接观察到笔触，不能由笔触推出完成过程",
+      "allowedWording": "短笔触清楚可见；处理显得简练",
+      "forbiddenUpgrade": "不得写现场完成、一气呵成或记录某一瞬间"
+    },
+    {
+      "claim": "作者意图",
+      "evidenceType": "构图与色彩的编辑分析",
+      "allowedWording": "画面让天空取得主导；教堂可以作为视觉坐标",
+      "forbiddenUpgrade": "不得断言作者意在削弱宗教或纪念碑意义"
+    },
+    {
+      "claim": "生涯与艺术史影响",
+      "evidenceType": "研究卡仅支持晚期及天气实践，专门传记尚未补强",
+      "allowedWording": "晚期作品；延续其港口、海岸与天气观察",
+      "forbiddenUpgrade": "不得写对 Monet 的影响、首创地位或完整生涯结论"
+    },
+    {
+      "claim": "不可替代性",
+      "evidenceType": "与 Le Havre 港景群的编辑比较",
+      "allowedWording": "在 Frye 的创馆收藏中提供法国天气绘画的清晰一例；Dordrecht 教堂轮廓形成特定城市坐标",
+      "forbiddenUpgrade": "不得称独一、稀世珍品、最大尺幅代表作或旅行决定性名作"
+    }
+  ],
+  "historicalContextPlan": {
+    "applicable": false,
+    "reason": "作品的重要性不依赖具体事件、制度转型或社会冲突；只需最低限度的港口城市与十九世纪户外天气观察语境。",
+    "beforeState": "不适用，不构造事件前史。",
+    "changeOrConflict": "不适用；叙事矛盾来自画面中地标与天气的尺度关系。",
+    "objectRole": "作品观察一座荷兰河港城市的水面、城市轮廓与天气，不作为历史事件记录使用。",
+    "consequence": "它帮助读者理解 Boudin 如何让变化的天空成为城市风景的主角。",
+    "uncertainty": "具体旅次、完成地点和具体教堂身份未确认。",
+    "placement": "快层只说明地标与天气的视觉关系；深层第三段补充晚期港口与天气实践，不展开未经证实的旅行史。"
+  },
+  "authorStyle": {
+    "applicable": true,
+    "careerPosition": "约 1885—89 的晚期作品",
+    "visibleFeatures": [
+      "低地平线",
+      "灰白蓝云层的叠置",
+      "水面横向短笔触",
+      "船、岸与建筑被缩小为简练轮廓"
+    ],
+    "interpretiveUse": "用眼前的构图和笔触说明 Boudin 对港口、海岸与多变天空的持续关注，不写无关生平摘要。",
+    "boundary": "机构级专门传记未补强，正文不涉及 Monet 影响关系或首创论。"
+  },
+  "significance": {
+    "label": "特色看点",
+    "visitPriority": "时间充裕再看",
+    "artisticAchievement": "小尺幅中以低地平线、大片云层和水面横向笔触建立清楚的空间与天气关系，形式控制具体但不拔高为生涯巅峰。",
+    "artHistoricalPosition": "艺术史位置中高；可作为 Boudin 晚期天气风景实践的一例，现有证据不足以主张开创或转折。",
+    "historicalCulturalValue": "保存十九世纪画家观察荷兰港口城市、水面与天气的视角，但不承担具体事件或制度的一手见证。",
+    "rarityAndIrreplaceability": "稀缺中低；同作者 Le Havre 港景群能够解释相近方法，Dordrecht 教堂轮廓与小木板载体提供本作的具体差异，全球数量未知。",
+    "collectionPosition": "在以德语区绘画为重的 Frye 创馆收藏中，清楚扩展出法国户外天气实践的一条支线。",
+    "nearestComparator": {
+      "name": "Boudin 的 Le Havre 港景群",
+      "sharedValue": "低地平线、云层主导、缩小的船与岸线",
+      "decisiveDifference": "本作以 Dordrecht 的教堂轮廓提供城市识别，并使用小尺幅木板",
+      "replacementBoundary": "比较组能替代对 Boudin 天气方法的一般理解，不能替代 Dordrecht 城市轮廓在本馆这件实物中的具体观看经验。"
+    },
+    "frye72Boundary": "只说明它为 72 分博物馆收藏增加一条清晰支线；不称稀世珍品、世界级名作、必看孤品或改变行程的理由。"
+  },
+  "observableDetails": [
+    "低地平线把城市压在画面下部",
+    "灰、白、蓝色云层层叠，占据大部分画面",
+    "远处教堂或塔楼从低矮城市轮廓中升起",
+    "水面由横向短笔触铺开并回应天空色调",
+    "前景有小船或帆以及深色岸线",
+    "画面为横向小木板，尺度约 30.16 × 41.91 厘米"
+  ],
+  "secondLook": {
+    "action": "把目光停在塔楼顶端，再沿同一条竖线分别向上看云层、向下看水面。",
+    "newJudgment": "塔楼足以让城市被认出，却只占很小高度；固定地标因此成为衡量水天变化的坐标。",
+    "returnsToCoreQuestion": true
+  },
+  "productionLanguageBoundary": {
+    "visitorProseMustExclude": [
+      "研究缺口",
+      "图片许可任务",
+      "发布任务",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "版本迁移"
+    ],
+    "allowedVisitorBoundary": "只陈述证据能支持的事实限度：馆方标题未给出具体教堂名，且作品是否在展需到访前查馆方。",
+    "internalRiskDestination": "author-review.json"
+  }
+}

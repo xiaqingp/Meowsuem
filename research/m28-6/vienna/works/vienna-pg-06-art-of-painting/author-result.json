@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-pg-06-art-of-painting-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:41:19.6752489-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-01/vienna-pg-06-art-of-painting-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "7dd9166cd0a5808eab05192429be47ec4f5126e3bcf602486b5a24cd7f33fc40"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-pg-06-art-of-painting/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "97903c3a3adea34d61304000fa4a7e5f3f856a4a4d80e6c5ecec575f40a28d14"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "033fe1f9328b525345045b281bbd81605207fc7b6a26282fd5f5d10f1968273f",
+                        "bytes":  10700
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "de12e44f9dbb84b0c4000f2a707c959de0d3a6c3ec1a873f3ccad858d3810e79",
+                        "bytes":  397
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "7440409b6eaf45ff0e6f902506689d55966a35d64c2c514513ca4ffee3456f73",
+                        "bytes":  4630
+                    }
+                ]
+}

@@ -1,0 +1,363 @@
+{
+  "schemaVersion": "museum-evidence/1.0",
+  "runId": "m28-12-v2.7.1-seattle-museum-selection-2026-07-24",
+  "stage": "museum_selection",
+  "museumId": "seattle",
+  "museumIdentity": {
+    "zh": "西雅图美术馆",
+    "en": "Seattle Art Museum",
+    "location": "1300 First Avenue, Seattle, Washington, USA"
+  },
+  "scope": {
+    "included": "仅限 1300 First Avenue 的 downtown 主馆及其馆藏对象。",
+    "excluded": [
+      "Seattle Asian Art Museum",
+      "Olympic Sculpture Park",
+      "临展借入作品"
+    ],
+    "availabilityRule": "馆藏身份不等于当天展出；ongoing 展史仍须现场核验，明确外借、不在展或跨馆址的对象不得写成当天必见。"
+  },
+  "capacity": 20,
+  "selectionDecision": {
+    "selectedCount": 20,
+    "excludedCount": 0,
+    "rareAssetCount": 0,
+    "summary": "20 件候选全部保留。它们不是名家排行榜，而是共同解释本馆的四条主线：现代艺术的材料与观念转折、十九世纪美国艺术、西北海岸及大洋洲器物的原境、跨文明的文字、权力、仪式与交换。没有任何单件通过稀世珍品的对象级不可替代性硬门，因此不扩容。",
+    "collectionLines": [
+      {
+        "id": "modern-art",
+        "label": "现代艺术：材料、记忆与复制",
+        "workIds": [
+          "sea-change",
+          "double-elvis",
+          "how-my-mothers-embroidered-apron-unfolds-in-my-life",
+          "barcelona"
+        ],
+        "reason": "四件作品分别承担波洛克的技术转折、沃霍尔作品中的馆方委托、戈尔基的记忆与抽象、皮卡比亚的文字图像冲突，观看回报不重复。"
+      },
+      {
+        "id": "american-art",
+        "label": "美国艺术：身份、家园与物质世界",
+        "workIds": [
+          "dr-silvester-gardiner",
+          "still-life-with-strawberries-and-ostrich-egg-cup",
+          "a-country-home",
+          "narragansett-bay"
+        ],
+        "reason": "肖像、静物与两种风景把殖民精英身份、全球物质接触、家园观念及海岸光线研究连成完整而不过度重复的路线。"
+      },
+      {
+        "id": "embodied-and-oceanic-art",
+        "label": "身体、声音与航海原境",
+        "workIds": [
+          "naaxein",
+          "swan-rattle",
+          "canoe-prow-figure-nguzu-nguzu",
+          "four-cornered-hat-with-birds",
+          "gathering-storm"
+        ],
+        "reason": "纺织、响器、舟艏像、帽饰和当代绘画要求把对象重新接回穿戴、舞动、声音、船体、地点与文化权利。"
+      },
+      {
+        "id": "objects-of-power-and-exchange",
+        "label": "文字、权力、死亡与跨洲交换",
+        "workIds": [
+          "belt-mask-of-iyoba-idia",
+          "cylinder-vase-depicting-scribes-in-the-underworld",
+          "folio-from-the-dispersed-blue-quran",
+          "funerary-portrait",
+          "posthumous-portrait-head-of-the-emperor-claudius",
+          "reliquary-casket",
+          "salt-cellar"
+        ],
+        "reason": "这组作品覆盖王室仪式与殖民掠夺、玛雅文字与宴饮、早期古兰经页面、私人丧葬、帝王形象、圣物崇敬及非洲—葡萄牙委托。"
+      }
+    ]
+  },
+  "works": [
+    {
+      "workId": "sea-change",
+      "visitPriority": "绝对不可错过",
+      "importance": "重要藏品",
+      "visitPriorityReason": "若当天在展，它用同一画面的早期画笔层、地面滴洒层、砂砾与末期色块，最直接解释本馆现代艺术线的一次关键技术转折。",
+      "importanceReason": "作品处于 Pollock 1947 年滴画方法成为主导的生涯节点；但 MoMA 的《Full Fathom Five》共享同年、由画架转向地面及异质材料进入画面的核心价值，不能升为稀世珍品。",
+      "availability": "2017 年馆方曾称在展；2026-07-24 当前状态未知，须核验。",
+      "coldButWorth": false,
+      "evidenceRefs": ["sea-change:R01", "sea-change:R02", "sea-change:R03", "sea-change:R04", "sea-change:R05", "sea-change:R07", "sea-change:R08", "sea-change:R09"]
+    },
+    {
+      "workId": "double-elvis",
+      "visitPriority": "绝对不可错过",
+      "importance": "重要藏品",
+      "visitPriorityReason": "1963 年重复猫王的面板与 1976 年 SAM 委托的空白面板必须并看；本馆的收藏行为由此直接进入作品结构。",
+      "importanceReason": "MoMA 与 SFMOMA 的 Ferus 类型作品可解释复制与重叠，SAM 版本的空白板提供明确差异；该差异重要，但证据不足以证明全球唯一或对象级不可替代。",
+      "availability": "列入 2022-12-22 开始的 ongoing 展览；当天位置仍须核验。",
+      "coldButWorth": false,
+      "evidenceRefs": ["double-elvis:R31", "double-elvis:R32", "double-elvis:R33", "double-elvis:R34", "double-elvis:R35", "double-elvis:R36", "double-elvis:R37", "double-elvis:R38", "double-elvis:R39"]
+    },
+    {
+      "workId": "naaxein",
+      "visitPriority": "绝对不可错过",
+      "importance": "重要藏品",
+      "visitPriorityReason": "它把黄雪松树皮、山羊毛、纬线缠织、身份权利和舞动语境连成一体，是本馆地域收藏最有解释力的节点之一。",
+      "importanceReason": "SAM 自藏多件相近 Naaxein，其他馆也有明确比较袍；本件能代表重要收藏群，但公开资料不足以证明纹样、数量或全球不可替代性。",
+      "availability": "对象页无展史或当前展厅字段；2026-07-24 状态未知。",
+      "coldButWorth": true,
+      "coldButWorthReason": "它不依靠名家知名度，且静态平展容易遮蔽其穿戴和舞动语境；织造结构、知识传承与身份权利提供了足以从名作旁分走时间的观看回报。",
+      "evidenceRefs": ["naaxein:R97", "naaxein:R98", "naaxein:R99", "naaxein:R100", "naaxein:R101", "naaxein:R102", "naaxein:R104", "naaxein:R105", "naaxein:R106"]
+    },
+    {
+      "workId": "belt-mask-of-iyoba-idia",
+      "visitPriority": "绝对不可错过",
+      "importance": "重要藏品",
+      "visitPriorityReason": "它同时要求观众理解王母 Idia 的王室纪念、Oba 的仪式佩戴，以及 1897 年从王宫掠走的精确来源链。",
+      "importanceReason": "同组象牙腰饰面具数量很少且历史价值很高，但四件或五件的计数口径冲突，同组对象又能替代大部分核心解释；SAM 本件尚无对象级决定性差异通过硬门。",
+      "availability": "最近明确展期止于 2023-08-28；当前未知。",
+      "coldButWorth": false,
+      "evidenceRefs": ["belt-mask-of-iyoba-idia:R01", "belt-mask-of-iyoba-idia:R02", "belt-mask-of-iyoba-idia:R03", "belt-mask-of-iyoba-idia:R04", "belt-mask-of-iyoba-idia:R05", "belt-mask-of-iyoba-idia:R06", "belt-mask-of-iyoba-idia:R07", "belt-mask-of-iyoba-idia:R08", "belt-mask-of-iyoba-idia:R09"]
+    },
+    {
+      "workId": "how-my-mothers-embroidered-apron-unfolds-in-my-life",
+      "visitPriority": "强烈推荐",
+      "importance": "重要藏品",
+      "visitPriorityReason": "题名把母亲与个人记忆带入画面，流动线条和薄色却拒绝变成可辨认插图，适合解释抽象如何承载记忆而不固定符号。",
+      "importanceReason": "作品属于 Gorky 1944 年成熟阶段并进入当时超现实主义展览网络；同年的《One Year the Milkweed》可解释相近技法，因此不具已证实的全球不可替代性。",
+      "availability": "最近明确在 SAM 展出至 2021-04-26；2026-07-24 当前未知。",
+      "coldButWorth": false,
+      "evidenceRefs": ["how-my-mothers-embroidered-apron-unfolds-in-my-life:R21", "how-my-mothers-embroidered-apron-unfolds-in-my-life:R22", "how-my-mothers-embroidered-apron-unfolds-in-my-life:R23", "how-my-mothers-embroidered-apron-unfolds-in-my-life:R25", "how-my-mothers-embroidered-apron-unfolds-in-my-life:R26", "how-my-mothers-embroidered-apron-unfolds-in-my-life:R27", "how-my-mothers-embroidered-apron-unfolds-in-my-life:R28", "how-my-mothers-embroidered-apron-unfolds-in-my-life:R29"]
+    },
+    {
+      "workId": "dr-silvester-gardiner",
+      "visitPriority": "强烈推荐",
+      "importance": "重要藏品",
+      "visitPriorityReason": "服饰、假发、家具和姿态建构殖民精英身份，而 1778 年的财产重分配来源史又揭示这套秩序并不稳定。",
+      "importanceReason": "这是 Copley 美国时期晚段的高水平精英肖像和革命前夕历史节点；其他 Copley 殖民肖像能够解释同一身份塑造机制。",
+      "availability": "列入 2022-10-20 开始的 ongoing 展览；当天位置仍须核验。",
+      "coldButWorth": false,
+      "evidenceRefs": ["dr-silvester-gardiner:R42", "dr-silvester-gardiner:R43", "dr-silvester-gardiner:R44", "dr-silvester-gardiner:R45", "dr-silvester-gardiner:R46", "dr-silvester-gardiner:R47", "dr-silvester-gardiner:R48", "dr-silvester-gardiner:R49"]
+    },
+    {
+      "workId": "still-life-with-strawberries-and-ostrich-egg-cup",
+      "visitPriority": "强烈推荐",
+      "importance": "重要藏品",
+      "visitPriorityReason": "一张小画同时兑现蛋壳、银、瓷和果实的材质差异，并把 Peale 家族收藏、实验农场与早期美国的全球物质接触放到同一桌面。",
+      "importanceReason": "它清楚体现 Raphaelle Peale 对当时地位较低的静物画的专业选择；NGA 的相近草莓静物可替代其核心技法解释。",
+      "availability": "列入 2022-10-20 开始的 ongoing 展览；当天位置仍须核验。",
+      "coldButWorth": true,
+      "coldButWorthReason": "早期美国静物常被肖像与风景遮蔽，但这件作品以跨地区物件和精确材质控制补足本馆美国艺术线中不可缺少的物质文化问题。",
+      "evidenceRefs": ["still-life-with-strawberries-and-ostrich-egg-cup:R53", "still-life-with-strawberries-and-ostrich-egg-cup:R54", "still-life-with-strawberries-and-ostrich-egg-cup:R55", "still-life-with-strawberries-and-ostrich-egg-cup:R56", "still-life-with-strawberries-and-ostrich-egg-cup:R57", "still-life-with-strawberries-and-ostrich-egg-cup:R59", "still-life-with-strawberries-and-ostrich-egg-cup:R60", "still-life-with-strawberries-and-ostrich-egg-cup:R61"]
+    },
+    {
+      "workId": "a-country-home",
+      "visitPriority": "强烈推荐",
+      "importance": "重要藏品",
+      "visitPriorityReason": "共享的大气与光色把家屋、水、树和天空组织成整体，展示 Church 转向巨幅自然奇观前如何提炼普通家园景观。",
+      "importanceReason": "作品是 Church 早期生涯的重要成熟节点；早期比较画及后来的《尼亚加拉》《安第斯之心》都提供明确可比价值，不能标为稀世珍品。",
+      "availability": "列入 2022-10-20 开始的 ongoing 展览；当天位置仍须核验。",
+      "coldButWorth": false,
+      "evidenceRefs": ["a-country-home:R64", "a-country-home:R65", "a-country-home:R66", "a-country-home:R67", "a-country-home:R68", "a-country-home:R69", "a-country-home:R71", "a-country-home:R72", "a-country-home:R73"]
+    },
+    {
+      "workId": "cylinder-vase-depicting-scribes-in-the-underworld",
+      "visitPriority": "强烈推荐",
+      "importance": "重要藏品",
+      "visitPriorityReason": "观众必须沿圆周移动，才能把饮杯、器沿文字、十位书吏、坐姿主宰与冥界怪物接成一套可用、可读、可看的器物。",
+      "importanceReason": "它是古典期玛雅文字、宴饮与神话图像的强节点；Met 的同类圆筒器能替代器型与文字制度的核心解释。",
+      "availability": "展史列 ongoing 展览，但无明确当前展厅字段；现场待核验。",
+      "coldButWorth": true,
+      "coldButWorthReason": "圆筒器在展柜中容易被单面观看；其真正回报来自环绕图像与未释读文字如何共同改变观看方式。",
+      "evidenceRefs": ["cylinder-vase-depicting-scribes-in-the-underworld:R01", "cylinder-vase-depicting-scribes-in-the-underworld:R02", "cylinder-vase-depicting-scribes-in-the-underworld:R03", "cylinder-vase-depicting-scribes-in-the-underworld:R05", "cylinder-vase-depicting-scribes-in-the-underworld:R06", "cylinder-vase-depicting-scribes-in-the-underworld:R07", "cylinder-vase-depicting-scribes-in-the-underworld:R09", "cylinder-vase-depicting-scribes-in-the-underworld:R10"]
+    },
+    {
+      "workId": "salt-cellar",
+      "visitPriority": "强烈推荐",
+      "importance": "重要藏品",
+      "visitPriorityReason": "它用一个欧洲餐桌器说明葡萄牙委托并不等于欧洲制造：非洲雕工、欧洲图样和早期跨洲交换共同塑造器物。",
+      "importanceReason": "Sapi-Portuguese 象牙是早期非洲—欧洲直接交换的重要实物；SAM 自藏及 Met 均有同类，单件稀有数量与优劣未获证明。",
+      "availability": "展史列 ongoing 展览，但无明确当前展厅字段；现场待核验。",
+      "coldButWorth": true,
+      "coldButWorthReason": "器物功能和后来的欧洲收藏史容易遮蔽非洲雕工的主体性；绕器观看人物、钥匙与装饰带能具体纠正这一失焦。",
+      "evidenceRefs": ["salt-cellar:R01", "salt-cellar:R02", "salt-cellar:R03", "salt-cellar:R04", "salt-cellar:R05", "salt-cellar:R06", "salt-cellar:R07", "salt-cellar:R09", "salt-cellar:R10"]
+    },
+    {
+      "workId": "funerary-portrait",
+      "visitPriority": "强烈推荐",
+      "importance": "重要藏品",
+      "visitPriorityReason": "这块独立陈列的木板原本固定在木乃伊面部上方；把它重新接回身体和裹尸系统，才能理解希腊—罗马肖像传统如何进入埃及葬俗。",
+      "importanceReason": "它是罗马时期埃及跨文化丧葬肖像的重要实例，但全球约有一千件同类，SAM 自身也有多件近比。",
+      "availability": "对象页无当前展厅字段；展出状态未知。",
+      "coldButWorth": false,
+      "evidenceRefs": ["funerary-portrait:R01", "funerary-portrait:R03", "funerary-portrait:R04", "funerary-portrait:R05", "funerary-portrait:R07", "funerary-portrait:R08", "funerary-portrait:R09", "funerary-portrait:R10"]
+    },
+    {
+      "workId": "posthumous-portrait-head-of-the-emperor-claudius",
+      "visitPriority": "强烈推荐",
+      "importance": "重要藏品",
+      "visitPriorityReason": "头像的可嵌装结构与死后断代，把罗马皇帝形象的复制传播、公共识别和神化纪念集中在一个对象上。",
+      "importanceReason": "作品保存了克劳狄乌斯死后肖像的重要机制，但馆方明确指出帝国内有数百件略有变化的皇帝肖像，全球不可替代性不成立。",
+      "availability": "对象页无当前展厅字段；展出状态未知。",
+      "coldButWorth": false,
+      "evidenceRefs": ["posthumous-portrait-head-of-the-emperor-claudius:R01", "posthumous-portrait-head-of-the-emperor-claudius:R02", "posthumous-portrait-head-of-the-emperor-claudius:R03", "posthumous-portrait-head-of-the-emperor-claudius:R04", "posthumous-portrait-head-of-the-emperor-claudius:R05", "posthumous-portrait-head-of-the-emperor-claudius:R07", "posthumous-portrait-head-of-the-emperor-claudius:R08"]
+    },
+    {
+      "workId": "narragansett-bay",
+      "visitPriority": "时间充裕再看",
+      "importance": "重要藏品",
+      "visitPriorityReason": "它适合与《乡间之家》对看：极小人物、低岸线和开阔水天把事件密度压低，形成另一种十九世纪美国风景观看节奏。",
+      "importanceReason": "作品处于 Kensett 约 1860 年转向大西洋海岸光线研究的阶段；同题海岸画众多且无存世数量证据。",
+      "availability": "列入 2022-10-20 开始的 ongoing 展览；当天位置仍须核验。",
+      "coldButWorth": false,
+      "evidenceRefs": ["narragansett-bay:R75", "narragansett-bay:R76", "narragansett-bay:R77", "narragansett-bay:R78", "narragansett-bay:R80", "narragansett-bay:R81", "narragansett-bay:R82", "narragansett-bay:R83"]
+    },
+    {
+      "workId": "barcelona",
+      "visitPriority": "时间充裕再看",
+      "importance": "重要藏品",
+      "visitPriorityReason": "文字与互相覆盖的形体不肯收束成单一题材，为 Picabia 拒绝固定风格和固定解释提供一张具体切片。",
+      "importanceReason": "作品位于《391》编辑期结束之年和持续改换风格的先锋生涯中；相近怪诞人物与文字图像作品较多，无法证明不可替代性。",
+      "availability": "最近明确在展至 2022-01-23；2026-07-24 当前未知。",
+      "coldButWorth": false,
+      "evidenceRefs": ["barcelona:R11", "barcelona:R12", "barcelona:R13", "barcelona:R14", "barcelona:R15", "barcelona:R17", "barcelona:R18", "barcelona:R19"]
+    },
+    {
+      "workId": "swan-rattle",
+      "visitPriority": "时间充裕再看",
+      "importance": "特色看点",
+      "visitPriorityReason": "若在展，应把木雕鸟形与声音、持握和仪式行动一起理解；它为西北海岸路线补上绘画与纺织无法提供的听觉维度。",
+      "importanceReason": "具体用途、声音、制作者和 Tlingit／Tsimshian 双重归属依据均未解决；同馆有明确近比，证据只足以支持特色看点。",
+      "availability": "对象页无展史或当前展厅字段；2026-07-24 状态未知。",
+      "coldButWorth": true,
+      "coldButWorthReason": "小型响器容易被当成静态鸟雕；其较少被注意的声音与持握问题，正是理解西北海岸仪式器物不可缺少的回报。",
+      "evidenceRefs": ["swan-rattle:R86", "swan-rattle:R87", "swan-rattle:R88", "swan-rattle:R89", "swan-rattle:R90", "swan-rattle:R91", "swan-rattle:R92", "swan-rattle:R93", "swan-rattle:R94"]
+    },
+    {
+      "workId": "canoe-prow-figure-nguzu-nguzu",
+      "visitPriority": "时间充裕再看",
+      "importance": "特色看点",
+      "visitPriorityReason": "展柜里的独立雕像必须重新接回水线、船艏、最多约 35 名乘员与危险航道，观看动作因此从看表情转为复原安装关系。",
+      "importanceReason": "它清楚代表 Solomon Islands 航海与保护性船体雕刻，但 British Museum 的同类与完整舟能替代核心原境解释。",
+      "availability": "最近明确展期止于 2022-05-30；当前未知。",
+      "coldButWorth": true,
+      "coldButWorthReason": "离开船体后，它容易失去意义；恢复贴近水线的安装位置，会让鹦鹉螺壳嵌饰与守护功能重新变得可理解。",
+      "evidenceRefs": ["canoe-prow-figure-nguzu-nguzu:R01", "canoe-prow-figure-nguzu-nguzu:R02", "canoe-prow-figure-nguzu-nguzu:R03", "canoe-prow-figure-nguzu-nguzu:R04", "canoe-prow-figure-nguzu-nguzu:R05", "canoe-prow-figure-nguzu-nguzu:R06", "canoe-prow-figure-nguzu-nguzu:R07", "canoe-prow-figure-nguzu-nguzu:R09"]
+    },
+    {
+      "workId": "four-cornered-hat-with-birds",
+      "visitPriority": "时间充裕再看",
+      "importance": "特色看点",
+      "visitPriorityReason": "结绒、鸟纹、四角轮廓与整套装束共同制造可移动的 Wari 身份，补足雕塑和绘画之外由身体启动的古代艺术。",
+      "importanceReason": "本件有明确纺织与穿戴价值，但同类帽饰存在，归属还依赖风格与结构判断，公开资料不足以支持更高等级。",
+      "availability": "展出状态未知。",
+      "coldButWorth": true,
+      "coldButWorthReason": "帽饰体量和公众知名度都不突出，但从四侧重复的鸟纹、结绒表面和全身穿戴关系入手，可以具体看到权力如何由纺织和身体共同呈现。",
+      "evidenceRefs": ["four-cornered-hat-with-birds:R01", "four-cornered-hat-with-birds:R02", "four-cornered-hat-with-birds:R03", "four-cornered-hat-with-birds:R04", "four-cornered-hat-with-birds:R05", "four-cornered-hat-with-birds:R06", "four-cornered-hat-with-birds:R07", "four-cornered-hat-with-birds:R09"]
+    },
+    {
+      "workId": "folio-from-the-dispersed-blue-quran",
+      "visitPriority": "时间充裕再看",
+      "importance": "重要藏品",
+      "visitPriorityReason": "金字、银色节标和靛蓝皮纸把经文诵读、记忆与横向页面节奏组织在一起，但当前馆址未知且最近明确展出地点并非市中心主馆。",
+      "importanceReason": "它属于著名的分散父手稿，材料和早期 Kufic 排版重要；Met 等馆的同手稿书叶可替代大部分核心价值，本页释文又未公开。",
+      "availability": "曾在 Seattle Asian Art Museum 展至 2021-07-11；当前未知，不能列为 downtown 主馆确定展品。",
+      "coldButWorth": false,
+      "evidenceRefs": ["folio-from-the-dispersed-blue-quran:R01", "folio-from-the-dispersed-blue-quran:R02", "folio-from-the-dispersed-blue-quran:R03", "folio-from-the-dispersed-blue-quran:R04", "folio-from-the-dispersed-blue-quran:R05", "folio-from-the-dispersed-blue-quran:R06", "folio-from-the-dispersed-blue-quran:R07", "folio-from-the-dispersed-blue-quran:R09"]
+    },
+    {
+      "workId": "gathering-storm",
+      "visitPriority": "时间充裕再看",
+      "importance": "重要藏品",
+      "visitPriorityReason": "它为跨文明器物路线加入一位有名有姓的当代 Aboriginal 艺术家，并通过同一水潭十二时段的系列结构连接地点、时间和 clan 标记；但当前无法在 SAM 现场观看。",
+      "importanceReason": "本作是 Lin Onus 的清楚艺术家节点，同组其余十一幅可以替代“同地异时”的核心方法，故不具对象级不可替代性。",
+      "availability": "截至 2026-07-24 确认借展 Nevada Museum of Art，不在 SAM。",
+      "coldButWorth": false,
+      "evidenceRefs": ["gathering-storm:R01", "gathering-storm:R02", "gathering-storm:R03", "gathering-storm:R04", "gathering-storm:R07", "gathering-storm:R08", "gathering-storm:R09"]
+    },
+    {
+      "workId": "reliquary-casket",
+      "visitPriority": "时间充裕再看",
+      "importance": "特色看点",
+      "visitPriorityReason": "小匣把不可见的圣物转成可展示、可崇敬的鎏金珐琅容器，为路线补上中世纪宗教器物和錾胎珐琅工艺；当前不在展。",
+      "importanceReason": "约 1200 年前后的 Limoges 类圣物匣有高度接近的比较对象，具体工坊、圣徒和原圣物又未知，适合作为特色看点。",
+      "availability": "馆方于 2026-07-24 明确标注 Not currently on view。",
+      "coldButWorth": false,
+      "evidenceRefs": ["reliquary-casket:R01", "reliquary-casket:R02", "reliquary-casket:R03", "reliquary-casket:R04", "reliquary-casket:R06", "reliquary-casket:R07", "reliquary-casket:R08"]
+    }
+  ],
+  "importanceSummary": {
+    "稀世珍品": [],
+    "重要藏品": [
+      "a-country-home",
+      "barcelona",
+      "double-elvis",
+      "dr-silvester-gardiner",
+      "how-my-mothers-embroidered-apron-unfolds-in-my-life",
+      "naaxein",
+      "narragansett-bay",
+      "sea-change",
+      "still-life-with-strawberries-and-ostrich-egg-cup",
+      "belt-mask-of-iyoba-idia",
+      "cylinder-vase-depicting-scribes-in-the-underworld",
+      "folio-from-the-dispersed-blue-quran",
+      "funerary-portrait",
+      "gathering-storm",
+      "posthumous-portrait-head-of-the-emperor-claudius",
+      "salt-cellar"
+    ],
+    "特色看点": [
+      "swan-rattle",
+      "canoe-prow-figure-nguzu-nguzu",
+      "four-cornered-hat-with-birds",
+      "reliquary-casket"
+    ],
+    "体验补充": []
+  },
+  "coldButWorthWorkIds": [
+    "naaxein",
+    "still-life-with-strawberries-and-ostrich-egg-cup",
+    "cylinder-vase-depicting-scribes-in-the-underworld",
+    "salt-cellar",
+    "swan-rattle",
+    "canoe-prow-figure-nguzu-nguzu",
+    "four-cornered-hat-with-birds"
+  ],
+  "ratingEvidence": {
+    "bandDecision": "70–79 · 可去可不去",
+    "rareAssets": [],
+    "dedicatedTrip": false,
+    "bandReason": "20 件中没有任何对象通过稀世珍品的比较硬门，所以评分最高只能停在 79。现代艺术、美国艺术、西北海岸与跨文明器物能够形成一套完整半日路线，支持高于 70 档低段。",
+    "withinBandReason": "《海变》《双重猫王》、Naaxein 和 Idia 腰饰面具构成四个强而不重复的入口，另外十二件重要藏品维持跨媒介密度，因此达到 75；但核心作品均有能够解释同一主要价值的近比，西北海岸收藏也没有对象级世界权威证据，加之多件状态未知、跨馆址、外借或明确不在展，不能进入 76–77 的同城高优先级段。",
+    "mainLimitations": [
+      "没有通过不可替代性硬门的稀世珍品或不可替代整体。",
+      "名家作品多数是重要生涯节点而非足以决定行程的代表作组。",
+      "大量对象当天可见状态未知；《风暴将至》已确认外借，《圣物匣》明确不在展，《蓝色古兰经》书叶不属于 downtown 主馆的确定展品。",
+      "本评分不把 Seattle Asian Art Museum、Olympic Sculpture Park 或临展并入。"
+    ]
+  },
+  "claimLedger": {
+    "selectionClaims": [
+      {
+        "claim": "没有任何候选通过稀世珍品硬门。",
+        "support": [
+          "全部 20 张研究卡的 nearest comparator、decisive difference 与 rarity boundary",
+          "content_instruction:9.2",
+          "content_instruction:9.3"
+        ]
+      },
+      {
+        "claim": "20 件足以覆盖第一次参观和本馆核心主线，不应扩容。",
+        "support": [
+          "museum_work_index:works[*].structureSummary.routeRole",
+          "content_instruction:4"
+        ]
+      },
+      {
+        "claim": "基础评分必须留在 70 档。",
+        "support": [
+          "rating_calibration:seattle",
+          "content_instruction:3",
+          "content_instruction:3.4"
+        ]
+      }
+    ]
+  }
+}

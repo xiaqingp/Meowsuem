@@ -1,0 +1,28 @@
+{
+  "id": "PCR-2026-07-24-08",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-24",
+  "ownerInstruction": "完成最新 pipeline 的西雅图艺术博物馆整馆运行，并修复运行中暴露的通用机械阻断问题",
+  "baseRelease": "research/pipeline-releases/v2.7.2.json",
+  "targetVersion": "2.7.3",
+  "scope": [
+    "derive availability and imagePolicy only from the locked work_context during mechanical processing",
+    "avoid model retries for deterministic non-prose metadata",
+    "continue the existing Seattle run without changing its researched or authored prose"
+  ],
+  "allowedCanonicalFiles": [
+    "scripts/process-author-bundle.mjs"
+  ],
+  "allowedManagementFiles": [
+    "research/content-standard-manifest.json",
+    "coho_museum/Milestones.md",
+    "coho_museum/knowledge.md"
+  ],
+  "requiredTests": [
+    "mechanical processor self-test passes",
+    "all 20 Seattle author bundles pass mechanical processing without a model retry",
+    "project authority and pipeline causality gates pass",
+    "release idempotence and immutability pass"
+  ]
+}

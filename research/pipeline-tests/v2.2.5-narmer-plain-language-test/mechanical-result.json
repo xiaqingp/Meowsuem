@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.2.5",
+  "runId": "m28-2-v2.2.5-narmer-plain-language-author-2026-07-22",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-23T06:25:26.633Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "d5e84ada1709cdcd0dfe6cf15877137be288ba29547a932f8370cb7eb0d70f16",
+      "bytes": 18328
+    },
+    {
+      "path": "card.txt",
+      "sha256": "f687dfb36e7d1dab54606f3f5d1c5db2f1a69269b906db9cf63880a8fcf3f319",
+      "bytes": 439
+    },
+    {
+      "path": "draft.md",
+      "sha256": "9146f05bafa1163b42cbc8bccfcd5a1f4fbbcbeac97f0f6bbfb3c46e5be0f299",
+      "bytes": 6575
+    }
+  ]
+}

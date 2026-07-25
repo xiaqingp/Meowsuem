@@ -1,0 +1,38 @@
+{
+  "ok": true,
+  "failures": [],
+  "summary": {
+    "museumId": "vienna",
+    "workCount": 40,
+    "significanceCounts": {
+      "稀世珍品": 9,
+      "重要藏品": 26,
+      "特色看点": 3,
+      "体验补充": 2
+    },
+    "rareAssets": [
+      "vienna-ant-01-gemma-augustea",
+      "vienna-ant-02-nagyszentmiklos-treasure",
+      "vienna-ant-04-bacchanalia-decree",
+      "vienna-kk-01-saliera",
+      "vienna-kk-07-rock-crystal-pyramid",
+      "vienna-kk-08-bellerophon-pegasus",
+      "vienna-pg-01-tower-of-babel",
+      "vienna-pg-02-hunters-in-the-snow",
+      "vienna-pg-06-art-of-painting"
+    ],
+    "independentRareLines": [
+      "bacchanalia_decree",
+      "bertoldo_bellerophon",
+      "bruegel_collection",
+      "cellini_saliera",
+      "gemma_augustea",
+      "miseroni_rock_crystal_pyramid",
+      "nagyszentmiklos_treasure",
+      "vermeer_art_of_painting"
+    ],
+    "score": 96,
+    "scoreBand": "90–100 · 值得专程旅行",
+    "withinBandAnchor": "96–97"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "artifactType": "writing_plan",
+  "workId": "soap-bubbles",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "museumId": "frye",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "directUpstream": {
+    "filename": "research-card.md",
+    "sha256": "88c598876e732c135d5421c2101d2ff8e111b25e6f1941f044f50dc941eb0344"
+  },
+  "readerBaseline": "零背景读者从标题和画面能知道：一名女子拿着圆镜，脸与镜之间有一枚泡泡，暗处另有较小人物；读者尚不知道这些圆形为什么被排在一起，也不知道作品是否在讲某种寓意。",
+  "coreQuestion": "马克斯为什么把女子的脸、泡泡和手镜排在同一条观看关系里？",
+  "quickLayerPromise": {
+    "visibleTension": "女子似乎在看镜子，视线中间却悬着一枚透明泡泡；镜面与泡泡都能反光，一个稳定、一个随时会破。",
+    "provisionalAnswer": "这组安排把一次普通的照镜动作变成关于观看本身的画面：人的脸、镜面和泡泡互相牵引注意力，而泡泡的脆弱只作为开放的联想，不被写成确定寓意。",
+    "viewingRoute": [
+      "确认女子手里的圆镜",
+      "沿脸—泡泡—镜子的关系看亮部如何集中",
+      "再留意暗处较小人物与前景斜向身体造成的距离"
+    ]
+  },
+  "cognitionSteps": [
+    {
+      "step": 1,
+      "discovery": "画面最亮的脸、手、镜和泡泡被暗背景聚在一起，核心不是单独某个物件，而是它们之间的观看关系。",
+      "changesUnderstanding": "把标题中的‘泡泡’从孤立道具改看成连接脸与镜子的视觉节点。",
+      "thereforeNext": "既然泡泡占住脸与镜之间的位置，它与圆镜的差别怎样改变这次照镜？"
+    },
+    {
+      "step": 2,
+      "discovery": "圆镜是被手握住的稳定物体，透明泡泡却悬在空中；两个圆形都承接亮光，却有完全不同的质感和持续时间。",
+      "changesUnderstanding": "照镜不再只是日常动作，画面同时让人比较一种可反复使用的反射与一种容易消失的反光。",
+      "thereforeNext": "这种对照是否足以把作品定为死亡或虚空寓意？"
+    },
+    {
+      "step": 3,
+      "discovery": "欧洲图像传统常把泡泡联系到生命短暂或虚空，但研究卡没有直接作者或目录证据证明本作是严格的 vanitas。",
+      "changesUnderstanding": "寓意可以帮助提出问题，却不能替女子规定心情，也不能把开放的观看关系封成单一答案。",
+      "thereforeNext": "若不靠确定寓意，这幅画在马克斯的创作与 Frye 馆藏中为何仍值得停留？"
+    },
+    {
+      "step": 4,
+      "discovery": "作品属于马克斯成熟期，把学院人物画的造型、私密室内与反射题材放在一起；在 Frye，它还能与 David McGranaghan 的《自画像》比较圆形反射与自我观看。",
+      "changesUnderstanding": "价值从‘谜底是否为虚空’转向画家如何用可见的圆形与亮暗关系组织观看，以及本馆后来如何借反射主题重读它。",
+      "thereforeNext": "带着这种理解，最后应回到哪组可见关系完成第二眼？"
+    },
+    {
+      "step": 5,
+      "discovery": "重新沿脸、泡泡、镜子看一遍，再把暗处较小人物纳入整体，能看到前景亮部怎样从暗背景中被集中出来。",
+      "changesUnderstanding": "第二眼不再寻找女子的心理答案，而是检验泡泡如何实际改变一幅人物画的注意力结构。",
+      "thereforeNext": "核心问题在可见关系中闭合，不再新增解释。"
+    }
+  ],
+  "humorBasis": null,
+  "forbiddenAssumptions": [
+    "女子自恋、悲伤、恐惧、预知死亡或正在思考人生短暂",
+    "本作是严格的 vanitas，或泡泡具有作者确定的唯一象征",
+    "前景女子与后景较小人物存在某种亲属、主仆或叙事关系",
+    "画面各部分构成真实事件的先后顺序",
+    "泡泡、镜子或人物具有研究卡未列出的颜色、表情、服饰、空间位置或光源",
+    "该作稀有、唯一、代表作者最高成就，或足以决定 Frye 的旅行价值",
+    "读者起初已经把作品误读成某个固定故事"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "女子的心理状态",
+      "evidenceType": "直接观察不足以支持心理判断",
+      "allowedWording": "女子持镜；泡泡悬在脸与镜之间",
+      "forbiddenUpgrade": "自恋、悲伤、预知死亡或任何内心独白"
+    },
+    {
+      "claim": "泡泡的寓意",
+      "evidenceType": "比较史语境；本作缺少直接作者或目录证据",
+      "allowedWording": "泡泡在欧洲图像传统中常让人联想到生命短暂或虚空；在本作中只作为可能的比较语境",
+      "forbiddenUpgrade": "确定称为 vanitas、死亡寓言或作者意图"
+    },
+    {
+      "claim": "人物关系与时间顺序",
+      "evidenceType": "只能直接观察前景女子与后景较小人物",
+      "allowedWording": "后景另有较小人物",
+      "forbiddenUpgrade": "亲属、主仆、旁观者身份，或事件先后"
+    },
+    {
+      "claim": "作者生涯位置与风格",
+      "evidenceType": "研究卡整合对象年代、学院经历与风格判断",
+      "allowedWording": "成熟期作品；学院人物画、日常室内与反射/易逝意象在此结合",
+      "forbiddenUpgrade": "作者首次、唯一或最高峰作品"
+    },
+    {
+      "claim": "重要性与不可替代性",
+      "evidenceType": "研究卡的五维判断及与 McGranaghan《自画像》的比较",
+      "allowedWording": "重要藏品；在 Frye 内连接十九世纪学院人物画与后世对反射主题的重读，价值不依赖稀有性",
+      "forbiddenUpgrade": "稀世珍品、全球不可替代或行程级名作"
+    },
+    {
+      "claim": "回顾展借展",
+      "evidenceType": "研究卡转述 Frye 2011 年报，但研究卡来源清单未列年报链接",
+      "allowedWording": "正文省略该事实",
+      "forbiddenUpgrade": "在访客正文写入回顾展借展或据此推导权威地位"
+    }
+  ],
+  "historicalContextPlan": {
+    "applicable": false,
+    "reason": "作品的重要性不依赖具体政治、宗教、制度变化或社会冲突；只需谨慎提供泡泡意象的比较史边界。",
+    "beforeState": null,
+    "changeOrConflict": null,
+    "objectRole": null,
+    "consequence": null,
+    "uncertainty": "泡泡可联系生命短暂/虚空的图像传统，但本作是否严格属于 vanitas 无直接证据。",
+    "placement": "快层不下寓意结论；深层第三认知段以一句限定说明比较语境。"
+  },
+  "authorStyle": {
+    "careerPosition": "1881 年成熟期作品；马克斯此前接受布拉格、维也纳与慕尼黑的学院训练，并在 1879—1883 年任慕尼黑学院历史画教授。",
+    "visibleMethod": "暗背景把亮部集中在脸、手、镜与泡泡；竖幅和前景身体的斜线让脸—泡泡—镜子的关系成为注意力中心。",
+    "typicalTurnOrException": "以学院人物画能力处理较私密的日常室内与反射题材；相较宗教殉道题材更私密。",
+    "boundary": "不据此宣称本作首次、唯一或最具代表性。"
+  },
+  "significance": {
+    "label": "重要藏品",
+    "fiveDimensions": {
+      "artisticAchievement": "中高：用竖幅、斜向身体与集中亮部，把脸、泡泡和圆镜组织成清晰而含义开放的观看关系。",
+      "artHistoricalPosition": "中：没有证据显示它开创类型；其价值在于把学院人物画与镜像、易逝意象结合。",
+      "historicalCulturalValue": "中：可进入欧洲泡泡意象的比较史，但严格 vanitas 归属未证实。",
+      "rarityAndIrreplaceability": "中：全球数量与不可替代性未获证明；价值不依赖稀有。",
+      "collectionPosition": "高：在 Frye 内连接十九世纪学院人物画与后世以‘反射’为线索的重读。"
+    },
+    "comparisonCategory": "镜像、泡泡与易逝意象组织的风俗人物画",
+    "nearestComparator": "David McGranaghan，《自画像》 Self-Portrait（同一 Frye 展览语境）",
+    "sharedCore": "都以圆形反射和自我观看组织注意力。",
+    "decisiveDifference": "马克斯用叙事人物与容易破裂的泡泡组织关系；McGranaghan 让画面本身呈凸镜式形状。",
+    "irreplaceabilityBoundary": "比较对象能解释反射主题，因此不能证明全球不可替代；本作独有的馆内回报是从十九世纪学院人物画进入这一主题。",
+    "travelBoundary": "Frye 为 72 分档馆；本作不被描述为稀世珍品、必看孤品或决定行程的理由。"
+  },
+  "observableDetails": [
+    "画面为竖幅",
+    "前景女子手持圆形镜子",
+    "一枚透明泡泡悬在女子的脸与镜子之间",
+    "后景另有较小人物",
+    "暗背景把亮部集中在脸、手、镜与泡泡",
+    "前景身体形成斜线"
+  ],
+  "secondLook": "沿女子的脸、泡泡、手镜来回看一次，再把暗处的较小人物纳入视野；检验那枚透明泡泡怎样把原本可直接相接的脸与镜子隔开，并把亮部收拢成一条观看关系。",
+  "productionLanguageBoundary": {
+    "visitorProseMustExclude": [
+      "研究缺口",
+      "图片许可任务",
+      "发布任务或状态",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "版本迁移"
+    ],
+    "internalOnlyRisks": "来源缺项、在展状态、图片许可、回顾展借展证据边界与审读结论仅进入内部 artifact。"
+  },
+  "plannedMetadata": {
+    "title": "肥皂泡 / Seifenblasen (Soap Bubbles)",
+    "artist": "加布里埃尔·冯·马克斯 Gabriel von Max · 慕尼黑艺术圈",
+    "date": "1881",
+    "locationStatus": "Frye Art Museum 创馆收藏；当前是否在展请以馆方当日信息为准",
+    "visitPriority": "强烈推荐",
+    "importance": "重要藏品",
+    "suggestedTime": "赶时间 30 秒；细看 4—6 分钟"
+  }
+}

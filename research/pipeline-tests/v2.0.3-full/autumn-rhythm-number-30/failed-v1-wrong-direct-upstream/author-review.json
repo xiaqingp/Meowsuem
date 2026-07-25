@@ -1,0 +1,118 @@
+{
+  "artifactType": "作者自审",
+  "workId": "autumn-rhythm-number-30",
+  "upstreams": [
+    {
+      "file": "card.txt",
+      "sha256": "07f1b6b7ce2a718b6e3ebc85cf6268dc41118acaac9f06954c797d835a534c56"
+    },
+    {
+      "file": "draft.md",
+      "sha256": "bdb0ed79973c5422cdf3562e185d519bccd40d76526cf5b8d62a26a5c200b572"
+    }
+  ],
+  "coreQuestion": "没有中心形象的线网，怎样让人看出波洛克在巨大画面上同时借助重力并保持控制？",
+  "paragraphDependency": [
+    {
+      "paragraph": "快层",
+      "does": "用疏密与露底的可见矛盾，给出地面作画使重力和控制同时进入画面的暂时答案。",
+      "dependsOn": "零背景读者能看见多色线网与巨大横幅。",
+      "newUnderstanding": "线网的差异可作为观看控制的入口。",
+      "breaksIfMovedEarlier": "已是最前层，不适用。"
+    },
+    {
+      "paragraph": "深层一",
+      "does": "把整体线网拆成长弧、回环、飞溅、粗细与落点。",
+      "dependsOn": "快层已经提出线网并不均匀。",
+      "newUnderstanding": "线网由不同动作和材料状态构成。",
+      "breaksIfMovedEarlier": "缺少核心问题时，细节会成为无方向的罗列。"
+    },
+    {
+      "paragraph": "深层二",
+      "does": "解释铺地、绕行、滴泼甩抹以及重力怎样生成不同线迹。",
+      "dependsOn": "深层一已辨认出需要解释的线迹差异。",
+      "newUnderstanding": "身体移动、速度和重力具有可见结果。",
+      "breaksIfMovedEarlier": "没有前段线迹，方法会变成制作知识清单。"
+    },
+    {
+      "paragraph": "深层三",
+      "does": "从覆盖、疏密、露底和横向节奏解释过程中的控制。",
+      "dependsOn": "深层二已建立重力与动作进入画面的机制。",
+      "newUnderstanding": "控制表现为持续调节整体关系，不要求逐线预画。",
+      "breaksIfMovedEarlier": "读者尚不知道哪些动作和材料力量需要被调节。"
+    },
+    {
+      "paragraph": "深层四",
+      "does": "把地面方法与巨幅控制放进 1930 年代壁画兴趣、1947 年节点及 1950 年成熟期。",
+      "dependsOn": "深层三已说明本作具体如何控制大画面。",
+      "newUnderstanding": "这一机制是长期问题在成熟期的展开，不是孤立表演。",
+      "breaksIfMovedEarlier": "成熟期会沦为年代标签，未能解释眼前何以成熟。"
+    },
+    {
+      "paragraph": "深层五",
+      "does": "用《一：第 31 号，1950》和《满五寻》检验成熟期价值与不可替代性。",
+      "dependsOn": "深层四已界定比较所需的时期、方法与尺度。",
+      "newUnderstanding": "本作重要且具体，却不足以升级为稀世珍品。",
+      "breaksIfMovedEarlier": "未建立核心价值时，比较对象无法判断替代了什么。"
+    },
+    {
+      "paragraph": "最后一眼",
+      "does": "把单条长弧、落点、覆盖、密集结点与露底重新并入横向整体。",
+      "dependsOn": "前文已解释身体、重力、控制、成熟期和比较边界。",
+      "newUnderstanding": "读者能亲自检验局部自由动作怎样进入整体控制。",
+      "breaksIfMovedEarlier": "相同动作只能看到线，不能验证核心问题的答案。"
+    }
+  ],
+  "highRiskClosure": [
+    {
+      "claim": "重力与即兴进入作画，控制同时存在。",
+      "evidenceType": "馆方来源事实加直接观察",
+      "sourceOrBasis": "大都会作品资料；疏密、覆盖、落点与露底",
+      "confidence": "高：直接权威来源与多项可见证据相互支持",
+      "closure": "正文限定为过程中的调节，没有写成纯随机或逐线预画。"
+    },
+    {
+      "claim": "本作属于 1950 年成熟期。",
+      "evidenceType": "时间节点、方法与同年比较",
+      "sourceOrBasis": "大都会与 MoMA 资料；1947 年方法节点及同年《一：第 31 号》",
+      "confidence": "高：年代、方法发展和强比较对象一致",
+      "closure": "正文说明成熟的具体机制，没有使用第一、唯一或最佳。"
+    },
+    {
+      "claim": "本作处于战后纽约成为现代艺术重要中心的语境。",
+      "evidenceType": "艺术史背景",
+      "sourceOrBasis": "大都会抽象表现主义资料",
+      "confidence": "高置信度背景；单件因果不成立",
+      "closure": "正文明确复杂历史，只把本作称为代表作品。"
+    },
+    {
+      "claim": "题名与十月及自然变化有关。",
+      "evidenceType": "馆方解释",
+      "sourceOrBasis": "大都会作品对象页",
+      "confidence": "中：解释可靠，但不指定自然对象",
+      "closure": "仅在事实边界转述，未发明树、风、舞蹈或真实秋景。"
+    },
+    {
+      "claim": "重要藏品而非稀世珍品。",
+      "evidenceType": "同作者同阶段比较",
+      "sourceOrBasis": "《一：第 31 号，1950》与《满五寻》",
+      "confidence": "高：真实比较作能覆盖相近核心认识",
+      "closure": "已说明决定性差异不足，不作虚假唯一性判断。"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReadAloud": {
+    "oneBreathParaphrase": "这幅画把画布铺在地上，让身体动作和重力留下线条，又靠疏密、覆盖与留白管住五米多宽的整体，所以即兴和控制能同时被看见。",
+    "translationeseFindings": [],
+    "readAloudFinding": "标题直接提出对象专属问题；快层可独立复述；各段转折由上一段的问题推动；结尾动作能自然说出口。"
+  },
+  "formulaCounts": {
+    "完整否定转折骨架": 0,
+    "以先看再看首先开场": 0,
+    "通用开场这件作品值得看因为": 0,
+    "无范围最高级": 0,
+    "计划外高风险断言": 0,
+    "现场可核对细节": 5,
+    "认知推进步骤": 5
+  }
+}

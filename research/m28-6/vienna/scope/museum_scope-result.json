@@ -1,0 +1,26 @@
+{
+    "runId":  "m28-6-vienna-scope-2026-07-23",
+    "stage":  "museum_scope",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-23T23:51:15.0968178-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/generation-pipeline.md",
+                       "sha256":  "a65e9a4cb1477e4dfb00f06871483c928224dee22b69e292b84b2dcc7cdb4b24"
+                   },
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "museum-scope.json",
+                        "sha256":  "840550f4d0e158e9c187d7b68aa188bdac63b7e0136bdd9c5c49b337add949e0",
+                        "bytes":  13749
+                    }
+                ]
+}

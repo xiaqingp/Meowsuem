@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-ant-04-bacchanalia-decree-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:40.902Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "d05c4369b8adaeb638bde86a18c27049e0ac67ab8fa711933300c6d15f454c2a",
+      "bytes": 9076
+    },
+    {
+      "path": "card.txt",
+      "sha256": "997b859e393700b26108d31becd454745751e0b79d2eab00e3d5451cdbe3b0a6",
+      "bytes": 253
+    },
+    {
+      "path": "draft.md",
+      "sha256": "4651701fae5edfdf1d7ae1200309bd816bf086e7c48c3d0371fbf9ac9f49f0a8",
+      "bytes": 4235
+    }
+  ]
+}

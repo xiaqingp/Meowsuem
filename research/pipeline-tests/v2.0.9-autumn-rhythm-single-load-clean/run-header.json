@@ -1,0 +1,37 @@
+{
+  "runId": "m28-v2.0.9-autumn-rhythm-single-load-clean-2026-07-22",
+  "startedAt": "2026-07-22T20:51:00-07:00",
+  "stage": "research",
+  "researchMode": "fresh",
+  "museumId": "met",
+  "workId": "autumn-rhythm-number-30",
+  "workIdentity": {
+    "artist": "Jackson Pollock",
+    "title": "Autumn Rhythm (Number 30)",
+    "museum": "The Metropolitan Museum of Art"
+  },
+  "pipelineVersion": "2.0.9",
+  "instructionVersion": "1.7.4",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "aaf23662358bdda9fdb129db83acc93a1149929c5cc5d439eb8663d44d5091ab"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "331bcf0f9364270ea1ca518324bb3179a55acf28a3f46d52badfbfbc3fa2acd6"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "30a823bc0d6c1d41d6072ff3749a986711dd9e717cecb1f8ac534e6916b38307"
+    }
+  ],
+  "outputs": [
+    "research-card.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publication": "test_only_unreviewed_no_production_write"
+}

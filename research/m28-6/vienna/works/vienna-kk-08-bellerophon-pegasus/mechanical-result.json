@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-kk-08-bellerophon-pegasus-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:42.720Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "53f0326e6b33484a914c34044d7f3b78b63b04bc5c92677c94c286b7c61a5d51",
+      "bytes": 12823
+    },
+    {
+      "path": "card.txt",
+      "sha256": "58f64b5d9d590d775abac19eec1fed3aa409f38dffe611ea1e336d01a345f359",
+      "bytes": 283
+    },
+    {
+      "path": "draft.md",
+      "sha256": "01aac2a71cc845adb0c68c6f782be81bdcd66b1f82922f3f770480862bcb8ebd",
+      "bytes": 4720
+    }
+  ]
+}

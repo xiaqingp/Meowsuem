@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.2",
+  "runId": "m28-3-chichu-author-open-sky-2026-07-23",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T03:08:49.492Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "bcf53bf4f9770ca13251830f75541c8c291954724c3552cc47cf9765b6be0da8",
+      "bytes": 7759
+    },
+    {
+      "path": "card.txt",
+      "sha256": "f35f105f7d65c775486dca43a4f252d2d39882645aaf114dbca5f761f3e8821c",
+      "bytes": 280
+    },
+    {
+      "path": "draft.md",
+      "sha256": "45816a75a8cae61f9180a5be69535e59273678ae97d02eb4031497e17c9ca1dc",
+      "bytes": 3840
+    }
+  ]
+}

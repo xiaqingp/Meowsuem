@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-pg-12-rubens-self-portrait-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:44:08.9532770-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-02/vienna-pg-12-rubens-self-portrait-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "92f8db6fc7bf8b2372535c7d31ffb7a1bfca25cbfb401c0c545a9100dff2e5ce"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-pg-12-rubens-self-portrait/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "f153f4674af562ed76785085e483147d2d597b0e0289f46f60689be0e2c1f4e1"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "da4c673c8d1319c80fbacf36e3e2c4de9d1e694c9c6b58ae04182605bfedc0ad",
+                        "bytes":  9351
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "6e4e073d0546c3ff39ccec32871402d7d49d431db090a5b225078d661b2ae8ce",
+                        "bytes":  313
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "fc0b3170bb6944b49b0306d868ef797f5699ecd09be92f29b8eb284afda29693",
+                        "bytes":  3691
+                    }
+                ]
+}

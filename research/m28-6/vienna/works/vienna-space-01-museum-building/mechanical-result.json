@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-space-01-museum-building-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:44.356Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "112742f0bea967c5504f8f2f68b2dc8038736965d6a3b071e261be33c089ee41",
+      "bytes": 8665
+    },
+    {
+      "path": "card.txt",
+      "sha256": "fb065dd476f73d65cb2bb7471d7aef8399988f8e1d99f328fc72a0cafc06b7d1",
+      "bytes": 307
+    },
+    {
+      "path": "draft.md",
+      "sha256": "3af613a58db916e654f58871bc7c3e4a6f23e9658fc9fa851b663c5d9dfe40f9",
+      "bytes": 4285
+    }
+  ]
+}

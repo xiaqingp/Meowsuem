@@ -1,0 +1,28 @@
+{
+  "workId": "narmer-palette",
+  "sha256": {
+    "research-card.md": "a6975e502410be2b86ca1a030041668caf04281e6cfa738ab93f90488fba8221",
+    "writing-plan.json": "236f76c119f98900bcf1287f96d2d60dc502ec3a85c23539f87218b349d3ef48",
+    "card.txt": "9ca2c4924a32851c881e6ed67e6b9af4aae0857e7ae8d09b3fbff9381dbdc896",
+    "draft.md": "f6d550777f42958b38ce3018d60ddc6bae6692b2e35344d4ee0e5b36c4ce0b88"
+  },
+  "sevenVoiceScores": {
+    "入口": { "score": 2, "evidence": "快层从同一国王在两面换王冠的可见矛盾进入，并立即解释南北地理。" },
+    "因果": { "score": 2, "evidence": "两冠、王名、尺度、武力与行列共同推出跨南北王权宣称，同时说明它为何不能替代渐进统一史。" },
+    "人": { "score": 2, "evidence": "纳尔迈、侍从、敌人与仪式行列把政治形成过程转成可理解的权力关系。" },
+    "转折": { "score": 2, "evidence": "“这段历史比一场胜仗复杂”把强烈胜利图像转为需与历史重建分开的王权版本。" },
+    "视觉兑现": { "score": 2, "evidence": "白冠、红冠、王名框、人物尺度、圆凹、交颈神兽和公牛均可现场核对。" },
+    "口语清晰度": { "score": 2, "evidence": "“它给出的答案很有力，却是王权希望人们看见的版本”简洁自然，可脱离原文复述。" },
+    "第二眼": { "score": 2, "evidence": "结尾沿白冠—两面王名框—红冠来回看，把政治宣称与战史证据重新分开。" },
+    "total": 14
+  },
+  "mechanicalVerdict": { "verdict": "PASS", "evidence": "实测四项 SHA-256 与各下游记录一致：计划指向研究卡，卡片指向计划，草稿指向卡片。元数据、卡片长度、快深层、五项以上细节、事实边界与链接齐全。" },
+  "factBoundaryVerdict": { "verdict": "PASS", "evidence": "逐查具体战役、双面先后、神兽寓意、仪式用途、Menes 身份、心理与最高级：正文将双面作为宣称而非战报，统一写为渐进过程，神兽用“常被解释”，Menes 与具体战役均保留争议。" },
+  "narrativeVerdict": { "verdict": "PASS", "evidence": "王冠地理先建立，随后两面如何塑造统治者，再以渐进统一限制图像，继而重读暴力与仪式，最后进入同类比较；各段改变核心答案且不可随意重排。卡片、快层、深层彼此独立。" },
+  "nativeChineseVerdict": { "verdict": "PASS", "evidence": "卡片、快层、标题、转折与最后一眼已朗读；“为什么纳尔迈要在两面戴上不同王冠”是自然口语问题，历史主次清楚，无规划字段式翻译腔。" },
+  "significanceVerdict": { "verdict": "PASS", "evidence": "五维完整；比较类别和双犬、猎人、战场三件最近对象明确。正文承认它们共享仪式调色板、武装或战争价值，并以具名纳尔迈、两冠、王名、胜利行列、早期文字和大体完整双面的可靠组合差异通过不可替代性硬门。" },
+  "workSpecificVerdict": { "verdict": "PASS", "evidence": "零背景读者可懂上埃及为南部河谷、下埃及为北部三角洲；统一写成渐进过程；两冠与两面图像服务王权宣称；Menes 身份和具体战役均未定论。" },
+  "verdict": "PASS",
+  "blockingFindings": [],
+  "nonBlockingNotes": []
+}

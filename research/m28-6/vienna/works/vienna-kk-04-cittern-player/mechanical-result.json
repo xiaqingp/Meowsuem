@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-kk-04-cittern-player-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:42.372Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "e272a0a5b7bab831b5dbd806e918bbff0fe25b4ae5c813c712dd85f281f23500",
+      "bytes": 10296
+    },
+    {
+      "path": "card.txt",
+      "sha256": "7007bbd4bd87612b259d178c49ea9b8f513a1758d32bc5f63680aa5e35b88bed",
+      "bytes": 317
+    },
+    {
+      "path": "draft.md",
+      "sha256": "fabdda85914ecadcda64140d3cc1c756fa4198e5b957d6c3ebe553914b4e3693",
+      "bytes": 4733
+    }
+  ]
+}

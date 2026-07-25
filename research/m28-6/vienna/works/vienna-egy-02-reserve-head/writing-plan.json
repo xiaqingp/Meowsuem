@@ -1,0 +1,240 @@
+{
+  "schemaVersion": "author-bundle-plan/1.0",
+  "workId": "vienna-egy-02-reserve-head",
+  "title": "储备头像",
+  "titleEn": "Reserve Head",
+  "displayMetadata": {
+    "by": "古埃及，吉萨",
+    "date": "第四王朝胡夫统治期，约公元前 2609–2584 年",
+    "material": "石灰岩",
+    "place": "埃及与近东收藏第 VII 厅；确认在展（2026-07-24 核验）",
+    "priority": "强烈推荐",
+    "significance": "重要藏品",
+    "stay": "建议停留 5 分钟",
+    "availability": "confirmed_on_view",
+    "imagePolicy": "object_image"
+  },
+  "narrativeMainline": {
+    "valueType": "ritual_or_original_context",
+    "mainline": "这颗石灰岩头像从一开始就是颈部收平的独立圆雕，并被放进吉萨墓葬的地下部分。原境让它显然属于墓葬安排，但无铭文、身份不明以及可能出于有意的损伤，又使它的确切功能至今无法确定。",
+    "readerStartingPoint": "读者从标题与对象图可以知道这是一颗独立头像，并能看到平收的颈部、简化的发式、无铭文和多处损伤；仅凭这些不能知道它代表谁、为何入墓或损伤为何产生。",
+    "storyBeats": [
+      {
+        "step": 1,
+        "materials": [
+          "身份与状态",
+          "可直接确认与可核验细节"
+        ],
+        "newUnderstanding": "头像的独立形态是原始制作结果，平收的颈部不是从完整雕像上断裂后留下的断口。"
+      },
+      {
+        "step": 2,
+        "materials": [
+          "来源事实与候选价值证据"
+        ],
+        "newUnderstanding": "同类对象来自吉萨墓葬地下部分，因此这件头像的核心价值来自墓葬原境与未知用途之间的关系。"
+      },
+      {
+        "step": 3,
+        "materials": [
+          "可直接确认与可核验细节",
+          "未知与禁止升级"
+        ],
+        "newUnderstanding": "精细面部与耳部、后脑及头顶损伤并存；有意损伤与巫术功能都只能按馆方的限定措辞表述。"
+      },
+      {
+        "step": 4,
+        "materials": [
+          "来源事实与候选价值证据",
+          "比较与不可替代性边界",
+          "趣闻候选"
+        ],
+        "newUnderstanding": "它属于胡夫时期略多于 30 件的稀少类型，原位照片增强了原境理解，但现有比较证据只支持“重要藏品”，不足以证明全球不可替代性。"
+      }
+    ],
+    "humorBasis": null
+  },
+  "mustNotAssume": [
+    "头像代表墓主人本人或保存了其真实相貌",
+    "头像所代表人物的身份与性别已经确定",
+    "耳部、后脑和头顶的损伤一定出于巫术仪式",
+    "损伤发生在安葬前、安葬时或盗扰时的具体时点",
+    "这件维也纳头像在同类中艺术质量最高、保存最好或最重要",
+    "胡夫时期储备头像的全球现存总数已有完整更新清单"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "头像原本就是独立圆雕",
+      "evidenceType": "来源事实与直接观察",
+      "allowedWording": "头像在颈部下端水平收平，从一开始就作为独立头像制作",
+      "forbiddenUpgrade": "由一尊身份明确的完整雕像切下"
+    },
+    {
+      "claim": "损伤具有有意性",
+      "evidenceType": "馆方限定解释",
+      "allowedWording": "馆方认为这些损伤很可能是有意造成",
+      "forbiddenUpgrade": "损伤确定由祭司、盗墓者或某种仪式造成"
+    },
+    {
+      "claim": "损伤具有巫术功能",
+      "evidenceType": "馆方竞争性解释",
+      "allowedWording": "可能具有某种巫术功能",
+      "forbiddenUpgrade": "这是经过确认的魔法破坏"
+    },
+    {
+      "claim": "头像具有肖像性质",
+      "evidenceType": "同类对象的常见学术解释",
+      "allowedWording": "同类头像因个体化特征常被解释为肖像",
+      "forbiddenUpgrade": "它准确再现了某位已识别人物的真实面貌"
+    },
+    {
+      "claim": "同类数量稀少",
+      "evidenceType": "馆方数量说明",
+      "allowedWording": "馆方称胡夫统治期已知同类略多于 30 件",
+      "forbiddenUpgrade": "全世界仅存 30 件或维也纳件举世无双"
+    },
+    {
+      "claim": "对象不可替代",
+      "evidenceType": "比较证据不足",
+      "allowedWording": "它有明确原位发掘记录，是重要藏品",
+      "forbiddenUpgrade": "它压倒其他吉萨储备头像或属于稀世珍品"
+    }
+  ],
+  "claimLedger": [
+    {
+      "id": "C01",
+      "claim": "作品为颈部下端水平收平的独立石灰岩头像，并非完整雕像的断片。",
+      "type": "来源事实与直接观察",
+      "source": "研究卡｜身份与状态；可直接确认与可核验细节",
+      "usedIn": [
+        "card.txt",
+        "draft.md｜30 秒先懂",
+        "draft.md｜为什么一颗头会单独入墓？",
+        "draft.md｜细节"
+      ]
+    },
+    {
+      "id": "C02",
+      "claim": "作品出自吉萨 Mastaba G. 4350，由维也纳科学院于 1912/13 年发掘。",
+      "type": "来源事实",
+      "source": "研究卡｜身份与状态",
+      "usedIn": [
+        "draft.md｜为什么一颗头会单独入墓？"
+      ]
+    },
+    {
+      "id": "C03",
+      "claim": "储备头像发现于墓葬地下部分，可在竖井底部或墓室内。",
+      "type": "来源事实",
+      "source": "研究卡｜来源事实与候选价值证据",
+      "usedIn": [
+        "card.txt",
+        "draft.md｜30 秒先懂",
+        "draft.md｜为什么一颗头会单独入墓？"
+      ]
+    },
+    {
+      "id": "C04",
+      "claim": "储备头像的确切功能至今不明。",
+      "type": "来源事实",
+      "source": "研究卡｜来源事实与候选价值证据；未知与禁止升级",
+      "usedIn": [
+        "card.txt",
+        "draft.md｜30 秒先懂",
+        "draft.md｜为什么一颗头会单独入墓？",
+        "draft.md｜事实边界"
+      ]
+    },
+    {
+      "id": "C05",
+      "claim": "耳部、后脑和头顶可见损伤；馆方认为损伤很可能为有意造成，其目的未定，并仅提出可能具有巫术功能。",
+      "type": "直接观察与馆方限定解释",
+      "source": "研究卡｜可直接确认与可核验细节；来源事实与候选价值证据",
+      "usedIn": [
+        "card.txt",
+        "draft.md｜损伤为何比完整答案更重要？",
+        "draft.md｜细节",
+        "draft.md｜最后再看一眼",
+        "draft.md｜事实边界"
+      ]
+    },
+    {
+      "id": "C06",
+      "claim": "精细雕刻的面部与受损部位形成明显的制作状态差异。",
+      "type": "直接观察",
+      "source": "研究卡｜可直接确认与可核验细节",
+      "usedIn": [
+        "draft.md｜损伤为何比完整答案更重要？",
+        "draft.md｜细节",
+        "draft.md｜最后再看一眼"
+      ]
+    },
+    {
+      "id": "C07",
+      "claim": "头像为剃净或短发形态且没有铭文；同类部分对象的性别因无铭文及发式简化而不能明确。",
+      "type": "直接观察与来源事实",
+      "source": "研究卡｜可直接确认与可核验细节",
+      "usedIn": [
+        "draft.md｜面孔能告诉我们是谁吗？",
+        "draft.md｜细节",
+        "draft.md｜事实边界"
+      ]
+    },
+    {
+      "id": "C08",
+      "claim": "同类头像因个体化特征常被解释为肖像，但具体人物未被识别。",
+      "type": "主流解释及其边界",
+      "source": "研究卡｜来源事实与候选价值证据；未知与禁止升级",
+      "usedIn": [
+        "draft.md｜面孔能告诉我们是谁吗？",
+        "draft.md｜事实边界"
+      ]
+    },
+    {
+      "id": "C09",
+      "claim": "馆方称胡夫统治期已知储备头像略多于 30 件。",
+      "type": "来源事实",
+      "source": "研究卡｜来源事实与候选价值证据；比较与不可替代性边界",
+      "usedIn": [
+        "draft.md｜少见，但珍贵在哪里？"
+      ]
+    },
+    {
+      "id": "C10",
+      "claim": "最近比较组为其他胡夫时期吉萨墓葬储备头像；维也纳件有明确原位发掘记录，但证据不足以证明其压倒比较组。",
+      "type": "比较结论及边界",
+      "source": "研究卡｜比较与不可替代性边界",
+      "usedIn": [
+        "draft.md｜少见，但珍贵在哪里？"
+      ]
+    },
+    {
+      "id": "C11",
+      "claim": "馆方新闻资料保存了头像在墓中原位出土的历史照片。",
+      "type": "来源事实",
+      "source": "研究卡｜趣闻候选",
+      "usedIn": [
+        "draft.md｜这件作品有哪些趣闻？"
+      ]
+    },
+    {
+      "id": "C12",
+      "claim": "作品现于埃及与近东收藏第 VII 厅确认在展，核验日期为 2026-07-24。",
+      "type": "馆方状态事实",
+      "source": "研究卡｜身份与状态",
+      "usedIn": [
+        "writing-plan.json｜displayMetadata"
+      ]
+    },
+    {
+      "id": "C13",
+      "claim": "作品的重要性为重要藏品，未通过稀世珍品不可替代性硬门。",
+      "type": "锁定工作语境与编辑判断",
+      "source": "work-context.json｜significance；rareGatePassed；研究卡｜比较与不可替代性边界",
+      "usedIn": [
+        "writing-plan.json｜displayMetadata",
+        "draft.md｜少见，但珍贵在哪里？"
+      ]
+    }
+  ]
+}

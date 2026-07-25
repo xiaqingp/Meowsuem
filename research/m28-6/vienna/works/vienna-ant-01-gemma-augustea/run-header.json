@@ -1,0 +1,48 @@
+{
+  "runId": "m28-6-vienna-author-vienna-ant-01-gemma-augustea-2026-07-24",
+  "startedAt": "2026-07-24T07:30:03.831Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card",
+  "museumId": "vienna",
+  "workId": "vienna-ant-01-gemma-augustea",
+  "workIdentity": {
+    "artistOrCulture": "罗马，早期帝国时期",
+    "title": "奥古斯都宝石",
+    "titleEn": "Gemma Augustea",
+    "museum": "Kunsthistorisches Museum Vienna"
+  },
+  "pipelineVersion": "2.4.8",
+  "instructionVersion": "2.0.2",
+  "inputContractVersion": 1,
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "465e7a2ce500057a139dbb64ff9df36755a6525a1f3a960e90fa0263a572ebfe"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-03/vienna-ant-01-gemma-augustea-research-card.md",
+      "role": "research_card",
+      "sha256": "08eeb634109391956836d993da1c569415bf3c1cd77eba4d95182fe7c3fcd8dd"
+    },
+    {
+      "path": "research/m28-6/vienna/works/vienna-ant-01-gemma-augustea/work-context.json",
+      "role": "work_context",
+      "sha256": "56bf3acbf04052840635fec0fe0ddcc4f55545aafc582f1e7f352a4425174d95"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

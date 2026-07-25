@@ -1,0 +1,148 @@
+{
+  "workId": "muxin-c10",
+  "readerStartingPoint": "读者从题名只能知道这是一篇名为《双重悲悼》的文章原稿；现有资料没有可靠对象图，不能从页面确认字迹、页数、删改或装裱。",
+  "narrativeMainline": {
+    "valueType": "artist_landmark",
+    "mainline": "木心在林风眠去世后写下《双重悲悼》，以学生、作家和艺术评论者的多重位置回望老师；2015年开馆特展又把原稿与师生双方的作品同堂陈列，让这篇文字成为连接两代艺术家的文献。",
+    "storyBeats": [
+      {
+        "beat": "先交代林风眠去世后木心写作悼文，以及文章回看林风眠艺术生涯与毁画经历的基本关系。",
+        "materials": [
+          "author-input-research.md#来源事实与局部因果",
+          "author-input-supplement.md#对象级元数据"
+        ],
+        "readerGain": "读者明白这不是一份脱离人物关系的文学稿，而是学生兼评论者对老师的回望。"
+      },
+      {
+        "beat": "再说明2015年开馆特展把原稿与林风眠、木心双方作品放在一起。",
+        "materials": [
+          "author-input-research.md#文献与展陈机制",
+          "author-input-supplement.md#对象身份与组界"
+        ],
+        "readerGain": "原稿的价值从文章内容推进到特定展览中的连接作用。"
+      },
+      {
+        "beat": "最后用出版文本作最近比较对象，说明主要论述可以被出版物传递，而原稿删改层、长期馆藏和脱离特展后的不可替代性都未获证明。",
+        "materials": [
+          "author-input-research.md#比较与不可替代性",
+          "author-input-supplement.md#最近比较对象与断言边界"
+        ],
+        "readerGain": "读者能区分重要文献与稀世珍品，也知道这件对象的价值边界在哪里。"
+      }
+    ]
+  },
+  "humorBasis": "2015年开馆展让一篇悼文原稿站到老师与学生的作品之间；意外感来自文字在展览中承担连接作用，不添加笑料。",
+  "mustNotAssume": [
+    "不得假定原稿有可见删改层、题签、签名或特定书写布局。",
+    "不得假定页数、封套、誊清稿和附页边界已经确定。",
+    "不得把2015年特展展出写成馆藏、常设或当前在展。",
+    "不得把木心在悼文中的评价与记忆直接当作已确认的林风眠史实。",
+    "不得根据师生关系推断木心的私人情感强度。",
+    "不得把馆舍占位图当作原稿图像。"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "原稿保留木心的修改过程",
+      "evidenceType": "未获证实",
+      "allowedWording": "亲笔原稿可能保存修改过程，但现有资料不能确认",
+      "forbiddenUpgrade": "原稿清楚呈现多层删改或写作过程"
+    },
+    {
+      "claim": "原稿是馆藏或当前在展",
+      "evidenceType": "来源只确认2015年特展",
+      "allowedWording": "2015年曾在开馆特展展出，当前展出状态待核验",
+      "forbiddenUpgrade": "木心美术馆馆藏、常设展品或现在可以看到"
+    },
+    {
+      "claim": "悼文记载可直接重建林风眠经历",
+      "evidenceType": "木心的文章叙述",
+      "allowedWording": "文章回看或叙述林风眠的艺术生涯与毁画经历",
+      "forbiddenUpgrade": "手稿证明相关历史细节全部属实"
+    },
+    {
+      "claim": "原稿不可替代",
+      "evidenceType": "比较证据不足",
+      "allowedWording": "它在2015年特展中的文献连接作用有确定差异",
+      "forbiddenUpgrade": "它是唯一、不可替代或稀世珍品"
+    },
+    {
+      "claim": "木心因深厚私人悲痛写作",
+      "evidenceType": "师生关系与悼文题名不能直接证明心理",
+      "allowedWording": "木心在林风眠去世后写下悼文",
+      "forbiddenUpgrade": "木心怀着无法排遣的悲痛写作"
+    }
+  ],
+  "displayMetadata": {
+    "by": "木心 Mu Xin · 地区归属未核",
+    "date": "林风眠去世后，约20世纪90年代初",
+    "material": "文章原稿；具体纸张与书写工具未核",
+    "place": "木心美术馆；2015年特展曾展，当前展出状态待核验",
+    "priority": "时间充裕再看",
+    "significance": "重要藏品",
+    "stay": "5分钟（如当日可见）",
+    "availability": "previously_exhibited_current_unknown",
+    "imagePolicy": "museum_hero_placeholder"
+  },
+  "claimLedger": [
+    {
+      "id": "c01",
+      "claim": "对象是2015年开馆特展所称《双重悲悼》原稿整体，物理组界未知。",
+      "source": "author-input-supplement.md#对象身份与组界"
+    },
+    {
+      "id": "c02",
+      "claim": "作者为木心，写作发生在林风眠去世后、20世纪90年代初。",
+      "source": "author-input-supplement.md#对象级元数据"
+    },
+    {
+      "id": "c03",
+      "claim": "木心兼具林风眠学生、作家和艺术评论者的多重位置。",
+      "source": "author-input-research.md#候选价值证据"
+    },
+    {
+      "id": "c04",
+      "claim": "文章讨论林风眠的艺术生涯及文革中毁画经历。",
+      "source": "author-input-research.md#来源事实与局部因果"
+    },
+    {
+      "id": "c05",
+      "claim": "2015年特展让原稿与林风眠、木心双方作品同展，原稿承担文献连接作用。",
+      "source": "author-input-research.md#文献与展陈机制；author-input-supplement.md#最近比较对象与断言边界"
+    },
+    {
+      "id": "c06",
+      "claim": "出版文本能够传递木心对林风眠艺术与生平的评论。",
+      "source": "author-input-supplement.md#最近比较对象与断言边界"
+    },
+    {
+      "id": "c07",
+      "claim": "没有高清图或校勘资料证明原稿存在可见删改层。",
+      "source": "author-input-supplement.md#可靠对象图像与四项直接观察；author-input-supplement.md#最近比较对象与断言边界"
+    },
+    {
+      "id": "c08",
+      "claim": "现有证据只确认2015年特展，不证明长期馆藏、常设或当前可见。",
+      "source": "author-input-supplement.md#永久收藏或稳定展示状态"
+    },
+    {
+      "id": "c09",
+      "claim": "页数、尺寸、纸张、书写工具、签名题记、馆藏编号和保存链未确认。",
+      "source": "author-input-supplement.md#对象级元数据"
+    },
+    {
+      "id": "c10",
+      "claim": "该对象未通过稀世珍品硬门，重要性为重要藏品。",
+      "source": "work-selection.json#significance；work-selection.json#rareGateReason"
+    },
+    {
+      "id": "c11",
+      "claim": "页面采用馆舍占位图，非作品图。",
+      "source": "work-selection.json#imagePolicy"
+    },
+    {
+      "id": "c12",
+      "claim": "参观优先级为时间充裕再看。",
+      "source": "museum-plan.json#workPlacement[muxin-c10]"
+    }
+  ]
+}

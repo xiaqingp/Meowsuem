@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.4.2",
+  "runId": "m28-3-chichu-author-whole-2026-07-23",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T03:08:50.164Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_workId_from_run_header",
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "5c07adb6ae945a1e745fcc33a8c6f3e88405ecc61c1051ef92f1a0c35338c0a9",
+      "bytes": 8742
+    },
+    {
+      "path": "card.txt",
+      "sha256": "cdfeb186f998eead5ed7a81d916d49bec8966b34425bd0cc2397cde4a2bebc3d",
+      "bytes": 268
+    },
+    {
+      "path": "draft.md",
+      "sha256": "a11dababcc280d8c50e2638cea254ff25a97925ea059138f3724efd6792cfb3c",
+      "bytes": 3933
+    }
+  ]
+}

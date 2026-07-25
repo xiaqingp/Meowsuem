@@ -1,0 +1,66 @@
+{
+    "runId":  "m28-12-v2.7.2-seattle-author-double-elvis-2026-07-24",
+    "stage":  "author",
+    "museumId":  "seattle",
+    "workId":  "double-elvis",
+    "pipelineVersion":  "2.7.2",
+    "instructionVersion":  "2.1.1",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-07-24T23:16:48.4243118-07:00",
+    "modelStartedAt":  "2026-07-24T23:16:49.0560923-07:00",
+    "modelCompletedAt":  "2026-07-24T23:18:25.3002410-07:00",
+    "completedAt":  "2026-07-24T23:18:25.3323806-07:00",
+    "runnerDurationMs":  96908,
+    "modelDurationMs":  96244,
+    "tokenUsage":  {
+                       "total":  34810,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "6",
+                                    "8",
+                                    "9",
+                                    "10",
+                                    "12",
+                                    "13",
+                                    "14"
+                                ],
+    "logPath":  "research/m28-12/seattle/works/double-elvis/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "8c08c30f9d915a8942ed605287f7993a6514742c8f895b427876a6ffabb3fda2"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/research-batch-01/double-elvis-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "eda01f1246c55be1113a0aa6b5e7fdb2a17b6ab2d259d3d71cb9d2ced3342bd4"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/works/double-elvis/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "4c06aea15887c7db8e9793e3bba8ea5380db0fd1df9bc55e0c66a6b699117f88"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "f9c2cf287190978edff87168955a7c409f70c7201a17b86a2302874cb6c97d46",
+                        "bytes":  8030
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "452f5435fb5be434cfe6b32c03dfe9d46a946078e05450b7bcca1e5466d681ce",
+                        "bytes":  489
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "e742a066280e900d14957e9d79bf14c1faf551de258e8f2a3a61e370beded023",
+                        "bytes":  3875
+                    }
+                ]
+}

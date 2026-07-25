@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-ant-03-brygos-skyphos-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:40.790Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "88273bc6d0b159667bd7bbf2f356a31d5d2bb748ca1943a570e10811d43a9f4d",
+      "bytes": 10148
+    },
+    {
+      "path": "card.txt",
+      "sha256": "71bf82defd16f72f93815183a7c1223c34123033948516236bb7bc9c1f9a13e0",
+      "bytes": 288
+    },
+    {
+      "path": "draft.md",
+      "sha256": "3a381a08d07c75dcf8b212308e2e9b66fff8247ac6194a6c54b39d0c347eca7a",
+      "bytes": 4636
+    }
+  ]
+}

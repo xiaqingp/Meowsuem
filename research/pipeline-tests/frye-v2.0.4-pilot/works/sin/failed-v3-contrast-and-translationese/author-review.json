@@ -1,0 +1,162 @@
+{
+  "workId": "sin",
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "finalPassIssued": false,
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "9abe648d7cbc5a9375ef2996e6e55926bf29209e8f7999c4317b2b629e342015"
+  },
+  "retryDisposition": {
+    "priorFailure": "中段金框与版本史可以互换而不损失理解。",
+    "failedProseReused": false,
+    "regeneratedFrom": "research-card.md",
+    "fix": "金框段先把作品定义为画面与外框共同构成的入口；版本史段随后专门回答这套整体设计是否偶然。",
+    "reorderingTest": {
+      "attemptedMove": "把版本史段提前到金框段之前",
+      "result": "fails",
+      "reason": "提前后，‘这套安排’尚未由框—画关系建立，版本之间为何要比较具体框与色调也没有问题来源；版本事实退化为可插拔资料。"
+    }
+  },
+  "narrativeReview": [
+    {
+      "paragraph": "30 秒先懂：用近黑画面、两处眼部亮点、蛇身和金框给出暂时答案。",
+      "dependsOn": "只依赖零背景读者可直接看到的标题与画面。",
+      "newUnderstanding": "‘罪’先被理解为由对视、横向压力和边界共同制造的迎面相遇。",
+      "breaksIfMovedEarlier": "这是快速层起点，无需提前。"
+    },
+    {
+      "paragraph": "深层一：拆解女子、蛇与观者的双重对视。",
+      "dependsOn": "快速层已提出黑暗为何留下两道目光。",
+      "newUnderstanding": "眼部亮点的可靠意义是控制注意力与距离，不是证明人物心理。",
+      "breaksIfMovedEarlier": "若置于快速层前，读者尚未得到核心问题和暂时答案。"
+    },
+    {
+      "paragraph": "深层二：说明金色建筑式框如何把对视收成入口。",
+      "dependsOn": "上一段已把注意力集中到正面人物与横跨肩部的蛇。",
+      "newUnderstanding": "压力来自画与框共同设计，框成为构图机制的一部分。",
+      "breaksIfMovedEarlier": "若早于对视段，‘改变了什么距离’尚未建立，框只剩孤立形式描述。"
+    },
+    {
+      "paragraph": "深层三：用多个版本回答整体设计是否偶然。",
+      "dependsOn": "上一段必须先确立所谓‘整体设计’是黑暗、窄幅、蛇与建筑式框的组合。",
+      "newUnderstanding": "现场看到的组合是作者长期返回的母题，同时 Frye 件的价值不依赖唯一性。",
+      "breaksIfMovedEarlier": "金框尚未参与答案时，版本间的框与色调差异没有比较理由，段落变成可交换的生涯资料。"
+    },
+    {
+      "paragraph": "深层四：在重复版本的边界上完成五维重要性判断。",
+      "dependsOn": "上一段已确立多个版本和较晚版本身份，先排除了以唯一性支撑价值的路径。",
+      "newUnderstanding": "作品因艺术机制、作者生涯、本馆锚点与现场强度而重要，稀缺性中低且不越过72分馆级边界。",
+      "breaksIfMovedEarlier": "若早于版本史，‘稀缺性中低’与‘仍值得停留’缺少已建立的比较前提。"
+    },
+    {
+      "paragraph": "细节清单：把已建立的距离设计落实到肩部、蛇头、暗部与金黑边界。",
+      "dependsOn": "前四段已解释为何蛇身、暗背景和框属于同一机制。",
+      "newUnderstanding": "读者能用四个现场动作复核整体论证。",
+      "breaksIfMovedEarlier": "提前后会退化为无解释的形式清单。"
+    },
+    {
+      "paragraph": "最后一眼：同时容纳两个眼部亮点、蛇身和金框。",
+      "dependsOn": "全文已经从对视推进到框—画整体、版本边界和五维价值。",
+      "newUnderstanding": "第二眼把抽象标题理解为一套控制观看距离的设计。",
+      "breaksIfMovedEarlier": "没有前文时，‘不只由蛇承担’和‘整套距离设计’都没有论证基础。"
+    }
+  ],
+  "claimClosure": [
+    {
+      "sentence": "女子眼部的一个亮点和蛇眼的一个亮点相互呼应，却不能替我们说明她的心情。",
+      "evidenceType": "直接观察与证据边界",
+      "sourceOrBasis": "research-card.md 可观察细节及人物心理禁写",
+      "confidence": "高：两处视觉细节可直接确认，心理结论被明确收窄。",
+      "verdict": "supported"
+    },
+    {
+      "sentence": "金色建筑式框参与整体效果，形成门洞或壁龛般的观看感受。",
+      "evidenceType": "来源事实加编辑推断",
+      "sourceOrBasis": "research-card.md 确认金色建筑式框参与整体效果；门洞或壁龛使用‘像’限定为观看感受。",
+      "confidence": "中高：框的性质有依据，空间比喻清楚标为视觉推断。",
+      "verdict": "supported_with_qualification"
+    },
+    {
+      "sentence": "施图克在 1891 至 1912 年间反复处理《罪》这一母题；Frye 约 1908 年的作品属于较晚版本。",
+      "evidenceType": "来源事实",
+      "sourceOrBasis": "research-card.md 的版本年代边界",
+      "confidence": "高：时间范围与本件年代由授权研究卡明确支持。",
+      "verdict": "supported"
+    },
+    {
+      "sentence": "刚才看到的整体设计并非随手出现的一次效果，而是作者长期返回、持续调整的组合。",
+      "evidenceType": "由多个版本与可见共性形成的编辑推断",
+      "sourceOrBasis": "1891至1912年多个近似版本；与1893年最近对象共享暗背景、缠肩之蛇、正面凝视和窄幅。",
+      "confidence": "中高：反复返回有直接事实支持，‘持续调整’由版本差异推导且不涉及确定意图。",
+      "verdict": "supported"
+    },
+    {
+      "sentence": "这是一件重要藏品，却不足以成为为了它专程改变旅行路线的孤品。",
+      "evidenceType": "五维编辑判断与比较边界",
+      "sourceOrBasis": "艺术史高、作者生涯高、本馆叙事高、现场高、稀缺中低；Frye 72分边界。",
+      "confidence": "高：判断逐维展开且未使用唯一性或最高级。",
+      "verdict": "supported"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "eyeHighlightAudit": {
+    "required": 2,
+    "actual": 2,
+    "items": [
+      "女子眼部一个亮点",
+      "蛇眼一个亮点"
+    ],
+    "verdict": "passed"
+  },
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这篇讲的是《罪》怎样用女子和蛇的两道目光抓住人，再用金框把画面收成一道入口，而多个版本说明这套办法是施图克长期经营的母题，所以 Frye 这件虽不唯一，仍是馆里很有分量的象征主义作品。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "notes": "标题均能口头复述；转折由问题变化推动，没有依赖固定‘先看/再看’或连续否定—转折模板。"
+  },
+  "productionLanguageScan": {
+    "scope": [
+      "card.txt 的访客文案",
+      "draft.md 的标题、元数据、快速层、深入层、细节、最后一眼、事实边界与资料行"
+    ],
+    "forbiddenCategoriesFound": [],
+    "verdict": "passed",
+    "note": "内部风险仅保留在本 author-review.json。draft.md 顶部链路为不可见 artifact 注释，不属于访客正文。"
+  },
+  "significanceReview": {
+    "fiveDimensionsCovered": true,
+    "nearestComparator": "Neue Pinakothek 1893年《Die Sünde (Sin)》",
+    "comparisonCategory": "象征主义‘罪/蛇与女人’母题",
+    "decisiveDifferenceCovered": true,
+    "scarcityBoundary": "多个近似版本；总数不确定；稀缺性中低。",
+    "museumBoundary": "定位为 Frye 的 Stuck/慕尼黑象征主义锚点和重要藏品，不称稀世珍品，不制造专程旅行理由。",
+    "verdict": "ready_for_independent_assessment"
+  },
+  "cardReview": {
+    "independentFromQuickLayer": true,
+    "startsWithGenericViewingCommand": false,
+    "visibleCharacterBoundary": "24—100 的独立点击理由；链路记录不属于卡片展示文案。",
+    "bilingualNaming": true,
+    "verdict": "passed"
+  },
+  "sectionContractReview": {
+    "exactChineseSkeletonPresent": true,
+    "quickLayerIndependent": true,
+    "deepLayerIndependent": true,
+    "fourObservableActions": true,
+    "workSpecificFinalLook": true,
+    "singleProgressiveQuestion": true,
+    "verdict": "passed"
+  },
+  "unresolvedRisks": [
+    "公开来源对《罪》近似版本总数说法不一，正文只能保留‘多个’。",
+    "2026-07-22 的在展状态属于易变快照，到访时可能不同。",
+    "女子身份、人物心理和作者对各元素的确定意图均不能确认。",
+    "金框与1893年比较对象之间的具体差异只能按已核实边界概括，不能扩写成完整版本谱系。",
+    "图片再利用许可未确认；该事项不得进入访客正文。"
+  ],
+  "authorConclusion": "稿件已完成作者侧依赖、断言、中文朗读、生产语言与重要性检查；不签发最终 PASS，交由独立审读。"
+}

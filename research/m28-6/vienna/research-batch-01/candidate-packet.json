@@ -1,0 +1,246 @@
+{
+  "schemaVersion": "museum-research-packet/1.0",
+  "museum": {
+    "museumId": "vienna",
+    "nameZh": "维也纳艺术史博物馆",
+    "nameEn": "Kunsthistorisches Museum Vienna",
+    "location": "Maria-Theresien-Platz, Vienna, Austria",
+    "scopeType": "single_building"
+  },
+  "poolDecision": {
+    "status": "candidate_pool_complete",
+    "targetCount": 40,
+    "candidateCount": 40,
+    "selectionStatus": "not_selected",
+    "ratingStatus": "not_started",
+    "principle": "候选池按主馆五个常设收藏与馆舍空间建立；每项须能回答一个本馆独有问题，并有馆方一手页面支持身份或空间边界。本文件不预判正式入选、参观优先级、重要性、稀世珍品或评分。",
+    "allocation": {
+      "picture_gallery": 16,
+      "kunstkammer": 8,
+      "greek_roman_antiquities": 6,
+      "egyptian_near_eastern": 5,
+      "coin_cabinet": 2,
+      "building_integrated_display": 3
+    }
+  },
+  "candidates": [
+    {
+      "candidateId": "vienna-pg-01-tower-of-babel",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "巴别塔",
+      "nameEn": "The Tower of Babel",
+      "makerOrCulture": "老彼得·勃鲁盖尔 Pieter Bruegel the Elder",
+      "date": "1563",
+      "identityBasis": "馆方对象与艺术家专题页均以该题名、作者和年代著录，并标示主馆绘画馆展出。",
+      "candidateReason": "以巨塔、港城和大量施工活动形成勃鲁盖尔最具代表性的宏观叙事之一，可支撑本馆世界级勃鲁盖尔收藏线。",
+      "museumQuestionAdded": "勃鲁盖尔怎样把圣经题材变成关于工程、城市与集体行动的百科式画面？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_PG_BRUEGEL",
+        "S_OBJECTS"
+      ]
+    },
+    {
+      "candidateId": "vienna-pg-02-hunters-in-the-snow",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "雪中猎人（冬）",
+      "nameEn": "Hunters in the Snow (Winter)",
+      "makerOrCulture": "老彼得·勃鲁盖尔 Pieter Bruegel the Elder",
+      "date": "1565",
+      "identityBasis": "馆方对象页著录为绘画馆第 X 厅在展，编号明确。",
+      "candidateReason": "既是月份／季节组画的关键存世部分，又由整体空间和寒冷效果而非单一风俗细节成立。",
+      "museumQuestionAdded": "风景画怎样把季节经验、劳动和娱乐组织成一个共同世界？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_PG_HUNTERS"
+      ]
+    },
+    {
+      "candidateId": "vienna-pg-03-childrens-games",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "儿童游戏",
+      "nameEn": "Children's Games",
+      "makerOrCulture": "老彼得·勃鲁盖尔 Pieter Bruegel the Elder",
+      "date": "1560",
+      "identityBasis": "馆方勃鲁盖尔专题页以题名、作者、年代和绘画馆第 X 厅在展状态著录。",
+      "candidateReason": "馆方记录画中超过 230 名儿童与 83 种游戏，构成没有直接先例的绘画式游戏百科。",
+      "museumQuestionAdded": "一幅画怎样同时保存日常生活资料并考验观众的观看尺度？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_PG_BRUEGEL"
+      ]
+    },
+    {
+      "candidateId": "vienna-pg-04-peasant-wedding",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "农民婚礼",
+      "nameEn": "Peasant Wedding",
+      "makerOrCulture": "老彼得·勃鲁盖尔 Pieter Bruegel the Elder",
+      "date": "约 1567/1568",
+      "identityBasis": "馆方勃鲁盖尔专题将其列为主馆长期展出的代表作。",
+      "candidateReason": "把日常婚宴组织成高度控制的群像，补足勃鲁盖尔收藏中的社会生活与人物关系线。",
+      "museumQuestionAdded": "看似抓拍的民间场景怎样由构图、习俗与阶层关系精密搭成？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_PG_BRUEGEL"
+      ]
+    },
+    {
+      "candidateId": "vienna-pg-05-carnival-and-lent",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "狂欢节与四旬斋之战",
+      "nameEn": "The Fight between Carnival and Lent",
+      "makerOrCulture": "老彼得·勃鲁盖尔 Pieter Bruegel the Elder",
+      "date": "1559",
+      "identityBasis": "馆方对象页标示主馆绘画馆第 X 厅在展。",
+      "candidateReason": "以同一广场并置两套节期习俗，显示勃鲁盖尔如何将民俗现实重新编排成寓言性社会全景。",
+      "museumQuestionAdded": "一座城镇怎样在同一画面里容纳相反的饮食、信仰与节庆制度？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_PG_CARNIVAL"
+      ]
+    },
+    {
+      "candidateId": "vienna-pg-06-art-of-painting",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "绘画的艺术",
+      "nameEn": "The Art of Painting",
+      "makerOrCulture": "约翰内斯·维米尔 Johannes Vermeer",
+      "date": "约 1666/1668",
+      "identityBasis": "馆方对象页以该题名、作者和年代著录，标示绘画馆第 XII 厅在展。",
+      "candidateReason": "把画室场景提升为关于绘画、历史与尼德兰身份的寓意，是本馆荷兰绘画线不可替代的单件核心。",
+      "museumQuestionAdded": "一间画室怎样同时谈论艺术制作、历史记忆与国家图像？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_PG_VERMEER"
+      ]
+    },
+    {
+      "candidateId": "vienna-pg-07-infanta-margarita-blue",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "身着蓝裙的玛格丽特公主",
+      "nameEn": "Infanta Margarita in a Blue Dress",
+      "makerOrCulture": "迭戈·委拉斯开兹 Diego Velázquez",
+      "date": "1659",
+      "identityBasis": "馆方对象页确认题名、作者、年代与皇家婚姻肖像语境；馆方绘画馆页将公主肖像群列为重点。",
+      "candidateReason": "既处于委拉斯开兹晚年风格高点，也是西班牙与奥地利哈布斯堡宫廷以肖像维系婚姻政治的实物。",
+      "museumQuestionAdded": "一幅儿童肖像怎样同时承担亲属识别、婚姻外交与绘画实验？",
+      "availabilityEvidence": "display_status_unknown",
+      "sourceRefs": [
+        "S_PG_INFANTA_BLUE",
+        "S_PG_OVERVIEW"
+      ]
+    },
+    {
+      "candidateId": "vienna-pg-08-madonna-of-the-meadow",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "草地圣母",
+      "nameEn": "The Madonna of the Meadow",
+      "makerOrCulture": "拉斐尔 Raphael",
+      "date": "1505 或 1506",
+      "identityBasis": "馆方对象页标示主馆绘画馆第 I 厅在展，并记录作者、材质与来源。",
+      "candidateReason": "以清楚的人物金字塔和开阔风景体现拉斐尔佛罗伦萨时期的新构图与精神表达。",
+      "museumQuestionAdded": "文艺复兴绘画怎样把亲密家庭动作组织成稳定而普遍的宗教图像？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_PG_RAPHAEL"
+      ]
+    },
+    {
+      "candidateId": "vienna-pg-09-madonna-of-the-rosary",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "玫瑰经圣母",
+      "nameEn": "Madonna of the Rosary",
+      "makerOrCulture": "卡拉瓦乔 Caravaggio",
+      "date": "约 1601",
+      "identityBasis": "馆方在线藏品明确著录题名、作者、年代、祭坛画功能和进入帝国画廊的历史。",
+      "candidateReason": "以祭坛画尺度连接宗教团体、仪式分配与卡拉瓦乔人物组织方式，补足意大利巴洛克线。",
+      "museumQuestionAdded": "祭坛画怎样把神圣恩典表现成从上到下、由人物传递的社会动作？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_OBJECTS"
+      ]
+    },
+    {
+      "candidateId": "vienna-pg-10-nymph-and-shepherd",
+      "collection": "picture_gallery",
+      "type": "painting",
+      "nameZh": "宁芙与牧羊人",
+      "nameEn": "Nymph and Shepherd",
+      "makerOrCulture": "提香 Titian",
+      "date": "约 1570/1575",
+      "identityBasis": "馆方对象页标示主馆绘画馆在展，并明确题材解释仍有分歧。",
+      "candidateReason": "以提香晚年开放笔触和未完全解决的题材构成威尼斯绘画线的高价值研究对象。",
+      "museumQuestionAdded": "当故事身份并不确定时，人物、风景与笔触怎样仍然建立作品的力量？",
+      "availabilityEvidence": "confirmed_on_view",
+      "sourceRefs": [
+        "S_PG_TITIAN"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S_PG_OVERVIEW",
+      "title": "Picture Gallery – highlights from the history of European art",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/exhibitions/picture-gallery"
+    },
+    {
+      "id": "S_PG_BRUEGEL",
+      "title": "The Best of Bruegel – Only in Vienna",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/exhibitions/picture-gallery/the-best-of-bruegel-only-in-vienna"
+    },
+    {
+      "id": "S_PG_HUNTERS",
+      "title": "Hunters in the Snow (Winter)",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/hunters-in-the-snow-winter-327"
+    },
+    {
+      "id": "S_PG_CARNIVAL",
+      "title": "The Fight between Carnival and Lent",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/the-fight-between-carnival-and-lent-320"
+    },
+    {
+      "id": "S_PG_VERMEER",
+      "title": "The Art of Painting",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/the-art-of-painting-2574"
+    },
+    {
+      "id": "S_PG_INFANTA_BLUE",
+      "title": "Infanta Margarita in a Blue Dress",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/infanta-margarita-in-a-blue-dress-2027"
+    },
+    {
+      "id": "S_PG_RAPHAEL",
+      "title": "The Madonna of the Meadow",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/the-madonna-of-the-meadow-1502"
+    },
+    {
+      "id": "S_PG_TITIAN",
+      "title": "Nymph and Shepherd",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks/nymph-and-shepherd-1950"
+    },
+    {
+      "id": "S_OBJECTS",
+      "title": "Artworks – browse and discover",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-pg-05-carnival-and-lent-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:43.205Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "c00bbe0e1e45b548a5e1ef557aaf0d9249ad2410997cdd541b8058de8235ef1d",
+      "bytes": 9664
+    },
+    {
+      "path": "card.txt",
+      "sha256": "8815686950807ac4506f921329e1e064c99de90870ce0174cb77627db55f6d60",
+      "bytes": 301
+    },
+    {
+      "path": "draft.md",
+      "sha256": "fc8bc55ac366a9b3baa84ba7d610f282e3e10bf5d835e7b7788484cc4d931506",
+      "bytes": 3996
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Meowseum Generation Pipeline",
+  "version": "2.1.0",
+  "status": "stable",
+  "frozenAt": "2026-07-22",
+  "ownerAcceptedBaseline": "Autumn Rhythm (Number 30)",
+  "canonicalFiles": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "164fdbd83483e77ea1ac75291d09b4e9d307dcfcb6c8294aa6d387655b8c94a0"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "version": "1.7.4",
+      "sha256": "30a823bc0d6c1d41d6072ff3749a986711dd9e717cecb1f8ac534e6916b38307"
+    },
+    {
+      "path": "scripts/run-isolated-generation.ps1",
+      "sha256": "c22c60e3a215aa1ac90da402debeb2caf9da39975cb2921c4845ef74ef14c834"
+    }
+  ],
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "chatIsolated": true,
+    "adHocPromptAllowed": false,
+    "freshResearchMaxWorksPerContext": 10,
+    "authorBundleOutputs": [
+      "writing-plan.json",
+      "card.txt",
+      "draft.md"
+    ]
+  },
+  "provenance": {
+    "method": "runner-owned stage result",
+    "resultFilePattern": "<stage>-result.json",
+    "visitorProseContainsHashes": false,
+    "purpose": "identify exact inputs and outputs and detect later modification",
+    "notAPurpose": "judge content quality or prove the model's internal reasoning order"
+  },
+  "acceptedRegression": {
+    "run": "research/pipeline-tests/v2.0.9-autumn-rhythm-single-load-clean3",
+    "authorBundleResult": "research/pipeline-tests/v2.0.9-autumn-rhythm-single-load-clean3/author-result.json",
+    "authorBundleResultSha256": "2e0ff07959cddb0f91ac9bf768e69fcc1aa892da380707e8797b41563ea5555a",
+    "researchTokens": 78149,
+    "authorTokens": 50259,
+    "successfulRunTokens": 128408,
+    "ownerContentAcceptance": true,
+    "reviewerRun": false,
+    "productionWrite": false
+  },
+  "publicationBoundary": "Independent review and museum-level verification remain required before production publication."
+}

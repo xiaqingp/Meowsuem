@@ -1,0 +1,203 @@
+{
+  "workId": "marion-lenbach",
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "finalPassIssued": false,
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "16f6b7d6fef2e6c54bef6c4fc0638df384bee36db43afa89ffd77b9a28df76d2"
+  },
+  "paragraphDependency": [
+    {
+      "paragraph": "30 秒先懂",
+      "does": "用两个儿童形象完成度不同的可见反差提出核心问题，并给出‘笔触密度分配注意力’的暂时答案。",
+      "dependsOn": "只依赖标题与画面可见信息，不要求读者有作者背景。",
+      "newUnderstanding": "这件作品的回报在肖像成形过程，而非辨认一张完整合影。",
+      "breaksIfMovedEarlier": "这是入口段，不能再提前。"
+    },
+    {
+      "paragraph": "深层第 1 段：完成度怎样组织观看",
+      "does": "把快层的暂时答案拆成脸部、肩部、轮廓、底色和笔触密度之间的视觉机制。",
+      "dependsOn": "依赖快层已经提出完成度反差。",
+      "newUnderstanding": "棕灰底和松动区域也参与造型，并把脸部推到注意力中心。",
+      "breaksIfMovedEarlier": "若置于快层之前，读者尚不知道为何比较这些区域，细节会变成孤立形式清单。"
+    },
+    {
+      "paragraph": "深层第 2 段：从表面进入作者实践",
+      "does": "由开放表面转入伦巴赫的名流肖像背景、纸本裱板材料和反复描绘玛丽昂的事实。",
+      "dependsOn": "依赖上一段已经说明开放区域如何发挥视觉作用。",
+      "newUnderstanding": "本作提供的是著名肖像家较自由的晚期工作面，而非正式权力肖像的完整陈设。",
+      "breaksIfMovedEarlier": "若材料机制尚未建立，作者名望与生涯信息会退化成可交换的风格栏目。"
+    },
+    {
+      "paragraph": "深层第 3 段：双人身份的证据边界",
+      "does": "在作者家庭题材建立后，引入玛丽昂与吉西斯之女的标题身份及慕尼黑艺术圈线索，同时截断友情、同次写生等过度推断。",
+      "dependsOn": "依赖前段已说明玛丽昂是伦巴赫反复描绘的女儿。",
+      "newUnderstanding": "双人并置把家庭题材与职业圈相接，但只是一条有限线索。",
+      "breaksIfMovedEarlier": "若读者尚不知道玛丽昂在作者实践中的位置，艺术家圈背景会像独立历史插页。"
+    },
+    {
+      "paragraph": "深层第 4 段：比较与馆内意义",
+      "does": "用同馆约 1895 年单人《玛丽昂·伦巴赫》检验本作的新增价值，并明确艺术史、稀有度与行程边界。",
+      "dependsOn": "依赖此前已建立的女儿题材、双人身份和开放工作面三项认识。",
+      "newUnderstanding": "比较作可替代‘玛丽昂是反复题材’这一部分，却不能同时替代双人并置、圈子线索和过程表面。",
+      "breaksIfMovedEarlier": "提前比较会在决定性差异尚未可见时先给价值结论。"
+    },
+    {
+      "paragraph": "容易错过的细节",
+      "does": "把前四段的判断逐项落回头部朝向、肩线、棕灰底、完成度和纸本裱板。",
+      "dependsOn": "依赖读者已经理解这些细节为何共同回答核心问题。",
+      "newUnderstanding": "五个观察动作可在现场复核叙事，而非另起一组知识点。",
+      "breaksIfMovedEarlier": "提前会成为无因果的视觉盘点。"
+    },
+    {
+      "paragraph": "最后再看一眼",
+      "does": "让读者沿脸、肩与轮廓复走笔触密度变化，再把棕灰底作为造型部分纳入整体。",
+      "dependsOn": "依赖深层已经说明开放表面、作者实践和完成度边界。",
+      "newUnderstanding": "第二眼把完成度不一读成可观察的肖像制作过程。",
+      "breaksIfMovedEarlier": "若没有前文，‘工作表面’只是抽象结论，动作也不会改变判断。"
+    },
+    {
+      "paragraph": "事实边界与资料",
+      "does": "收窄姓名、关系、写生时间、落笔先后、作者意图与易变陈列状态，并给出支持身份、作者背景和馆藏比较的来源。",
+      "dependsOn": "依赖正文已经正面说明证据所能支持的内容。",
+      "newUnderstanding": "读者能区分可见完成度、身份事实与尚不能确认的历史叙述。",
+      "breaksIfMovedEarlier": "提前会让限制语言接管入口，并在正面叙事建立前显得像内部审稿。"
+    }
+  ],
+  "claimClosure": [
+    {
+      "sentence": "两个儿童形象的完成程度明显不同，脸部较清楚，衣服、轮廓与周围底色较松。",
+      "evidenceType": "直接观察",
+      "sourceOrBasis": "可靠作品图像及研究卡的直接观察",
+      "confidence": "高：形状、位置、笔触密度和底色均可肉眼复核。",
+      "verdict": "保留；没有升级成作者放弃、故意未完成或时间先后。"
+    },
+    {
+      "sentence": "笔触密度把脸部推到注意力中心，棕灰底也参与人物造型。",
+      "evidenceType": "由直接观察形成的编辑判断",
+      "sourceOrBasis": "脸部较集中、边缘较松、底色大面积可见的组合",
+      "confidence": "中高：视觉机制可复核，但以观看效果而非作者意图表述。",
+      "verdict": "保留；未写成伦巴赫明确意图。"
+    },
+    {
+      "sentence": "伦巴赫以政治人物和社会名流肖像闻名，也反复描绘女儿玛丽昂。",
+      "evidenceType": "来源事实",
+      "sourceOrBasis": "Lenbachhaus 的伦巴赫馆藏页与十九世纪收藏页",
+      "confidence": "高：机构馆藏与作者定位直接支持。",
+      "verdict": "保留。"
+    },
+    {
+      "sentence": "这件作品让家庭题材与更自由的工作方式相遇。",
+      "evidenceType": "来源事实加编辑判断",
+      "sourceOrBasis": "标题身份、反复描绘玛丽昂的馆藏事实，以及开放边缘和松动笔触的直接观察",
+      "confidence": "中：‘更自由’是相对正式名流肖像的形式判断。",
+      "verdict": "保留为比较性描述；未把作品正式分类为习作，也未声称作者意图。"
+    },
+    {
+      "sentence": "伦巴赫与希腊裔慕尼黑画家吉西斯同处当地艺术圈，这张画把两个艺术家家庭带到同一表面。",
+      "evidenceType": "来源事实与标题事实",
+      "sourceOrBasis": "研究卡的慕尼黑艺术圈背景及 Frye 对象标题",
+      "confidence": "中高：艺术圈与两位父亲身份成立；正文没有推导两家私交。",
+      "verdict": "保留；具体关系、同时写生与友情均明确留空。"
+    },
+    {
+      "sentence": "同馆约 1895 年《玛丽昂·伦巴赫》是最近的比较对象。",
+      "evidenceType": "来源事实与研究比较",
+      "sourceOrBasis": "研究卡指定的同馆最近比较对象",
+      "confidence": "中高：馆内同作者、同人物比较直接相关；不代表全球最近对象。",
+      "verdict": "保留，并以‘同馆’限定比较范围。"
+    },
+    {
+      "sentence": "本作在 Frye 的独特回报是合并双人并置、艺术家圈线索和开放的制作表面。",
+      "evidenceType": "编辑判断",
+      "sourceOrBasis": "馆内比较、标题身份和直接观察",
+      "confidence": "中：在研究卡限定的 Frye 伦巴赫群范围内成立；全球数量未知。",
+      "verdict": "保留为馆内价值；未升级成全球唯一或稀世珍品。"
+    },
+    {
+      "sentence": "本作不足以成为决定行程的珍品。",
+      "evidenceType": "五维重要性编辑判断",
+      "sourceOrBasis": "艺术史中低、作者生涯中、本馆叙事高、现场中高、稀缺中，以及同馆可比作品存在",
+      "confidence": "高：结论向下收窄，符合 Frye 72 分边界和研究卡的重要性判断。",
+      "verdict": "保留。"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReadAloud": {
+    "oneBreathParaphrase": "这张双人儿童肖像没有把每处都画得一样满，脸、肩线和棕灰底之间的疏密，刚好让人看见伦巴赫怎样把一张脸从工作表面里推出来。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "notes": "标题虽长但由馆方作品名决定；快层主语明确，深层转折来自前段视觉认识，连续朗读没有生硬名词化、抽象主语堆积或需要先解码的机巧比喻。"
+  },
+  "productionLanguageScan": {
+    "scope": [
+      "card.txt 访客句",
+      "draft.md 标题、元数据、快层、深层、细节、最后一眼、事实边界与资料行"
+    ],
+    "forbiddenCategoriesChecked": [
+      "内部研究缺口",
+      "图片许可任务",
+      "发布任务",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "版本迁移"
+    ],
+    "findings": [],
+    "verdict": "clean"
+  },
+  "significanceReview": {
+    "assignedLevel": "特色看点",
+    "fiveDimensionsCovered": {
+      "artisticAchievement": "以脸部集中、边缘松动和底色参与造型说明具体形式回报。",
+      "artHistoricalPosition": "明确不是伦巴赫生涯巅峰或艺术史转折，以晚期非正式工作面为限。",
+      "historicalCulturalValue": "只把两位艺术家的女儿同画理解为家庭与职业圈线索，不当作关系史证明。",
+      "rarityAndIrreplaceability": "全球数量未知；同馆比较对象可替代女儿反复入画这一价值，不能替代双人并置与开放表面的组合。",
+      "collectionPosition": "在 Frye 的伦巴赫群中补充完成品背后的过程与圈子。"
+    },
+    "nearestComparator": "同馆约 1895 年《玛丽昂·伦巴赫》 Marion Lenbach（1952.098）",
+    "comparisonClosure": "相同点是玛丽昂反复入画且脸部受到强调；关键差异是本作增加吉西斯之女并保留更明显的棕灰底和完成度差异。",
+    "frye72Boundary": "正文明确否定单件作品的行程级珍品地位，只保留具体馆内观看回报。",
+    "verdict": "作者侧证据与措辞相称，等待独立审读确认。"
+  },
+  "voiceCandidateAssessment": {
+    "status": "candidate_only",
+    "scores": {
+      "entry": 2,
+      "causality": 2,
+      "people": 1,
+      "turn": 2,
+      "visualPayoff": 2,
+      "spokenClarity": 2,
+      "secondLook": 2
+    },
+    "total": 13,
+    "zeroScores": 0,
+    "reasonForPeopleScore": "人物身份推动家庭与职业圈线索，但证据不足以展开选择、冲突或关系故事，因此不为凑分扩写。",
+    "boundary": "这是作者候选意见，不构成独立 reviewer 的声音签核或最终 PASS。"
+  },
+  "unresolvedRisks": [
+    {
+      "risk": "馆方在展状态会变化。",
+      "handling": "正文给出 2026 年 7 月 22 日时间锚，并提醒到访时以馆方当日信息为准。"
+    },
+    {
+      "risk": "吉西斯之女姓名、两名儿童关系、是否同次写生和落笔先后未确认。",
+      "handling": "正文未补姓名或故事，并在事实边界明确收窄。"
+    },
+    {
+      "risk": "开放区域的完成状态与作者意图无法确认。",
+      "handling": "只描述完成度差异和观看效果，不使用‘放弃’‘故意未完成’或确定习作分类。"
+    },
+    {
+      "risk": "全球同类数量及稀有度没有证据。",
+      "handling": "重要性保持‘特色看点’，不可替代性只限定在 Frye 馆内比较。"
+    },
+    {
+      "risk": "与约 1895 年单人《玛丽昂·伦巴赫》的比较依据来自研究卡摘要，独立审读仍需确认正文没有超出该比较范围。",
+      "handling": "正文只比较人物重复出现、脸部重点、第二名儿童与开放区域，不推导质量高下或全球位置。"
+    }
+  ],
+  "authorDecision": "稿件已完成作者侧段落依赖、断言闭环、中文朗读、生产语言与重要性检查；提交未参与成稿的独立 reviewer，作者不签发最终 PASS。"
+}

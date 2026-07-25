@@ -1,0 +1,48 @@
+{
+  "runId": "m28-6-vienna-author-vienna-pg-08-madonna-of-the-meadow-2026-07-24",
+  "startedAt": "2026-07-24T07:30:03.794Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card",
+  "museumId": "vienna",
+  "workId": "vienna-pg-08-madonna-of-the-meadow",
+  "workIdentity": {
+    "artistOrCulture": "拉斐尔 Raphael",
+    "title": "草地圣母",
+    "titleEn": "The Madonna of the Meadow",
+    "museum": "Kunsthistorisches Museum Vienna"
+  },
+  "pipelineVersion": "2.4.8",
+  "instructionVersion": "2.0.2",
+  "inputContractVersion": 1,
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "465e7a2ce500057a139dbb64ff9df36755a6525a1f3a960e90fa0263a572ebfe"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-01/vienna-pg-08-madonna-of-the-meadow-research-card.md",
+      "role": "research_card",
+      "sha256": "46561072442a4b095e1b2f424eebc6832e7ca5c54098b8678033d6032b8bd2b2"
+    },
+    {
+      "path": "research/m28-6/vienna/works/vienna-pg-08-madonna-of-the-meadow/work-context.json",
+      "role": "work_context",
+      "sha256": "0066c50e16f69c7069742e662603b8ad2290c7588b251cf45693c290936eef58"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

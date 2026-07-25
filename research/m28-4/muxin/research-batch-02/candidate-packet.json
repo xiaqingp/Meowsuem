@@ -1,0 +1,495 @@
+{
+  "schemaVersion": "museum-research-packet/1.0",
+  "museum": {
+    "museumId": "muxin",
+    "nameZh": "木心美术馆",
+    "nameEn": "Mu Xin Art Museum",
+    "location": "乌镇西栅景区内，浙江省嘉兴市桐乡市",
+    "candidateCapacity": 20
+  },
+  "poolPolicy": {
+    "status": "candidate_research_only",
+    "selectionPerformed": false,
+    "ratingPerformed": false,
+    "routesOrMuseumCopyWritten": false,
+    "rules": [
+      "候选仅限西栅木心美术馆的稳定收藏与展示范围；东栅木心故居纪念馆和年度特展借件不进入候选池。",
+      "同一组《狱中笔记》、晚年微型风景画和馆舍建筑分别只作为一个候选单位，不按页数、幅数、展柜或建筑局部拆分。",
+      "开馆展、外借展和基金会藏品记录只证明对象与木心美术馆体系存在展示或保管关系；在下一阶段核实馆藏、长期保管、借展和复制件身份前，不把它们写成稳定馆藏。",
+      "本池保留证据较弱但能补足媒介或生平问题的条件候选；它们不得因凑足20件而自动进入正式精选。"
+    ]
+  },
+  "candidates": [
+    {
+      "candidateId": "muxin-c11",
+      "nameZh": "《晴风》",
+      "nameEn": "Clear Wind",
+      "creator": "木心 Mu Xin",
+      "objectType": "纸本彩墨",
+      "date": "1999年",
+      "material": "纸本彩墨",
+      "dimensions": "9.5 × 54厘米",
+      "candidateStatus": "eligible",
+      "stableUnit": "单件绘画。",
+      "knownEvidence": [
+        "开馆资料给出题名、1999年、纸本彩墨和9.5×54厘米。",
+        "2022年合作展览资料标注收藏机构为木心艺术基金会。"
+      ],
+      "candidateRationale": "狭长横幅和明确纪年使它成为研究木心晚期纸本彩墨构图及基金会与美术馆保管关系的可操作对象。",
+      "possibleValueTypes": [
+        "formal_achievement",
+        "artist_landmark"
+      ],
+      "nextStageChecks": [
+        "核实正式英译、准确尺寸、馆藏编号、图像和当前展出状态。",
+        "确认木心艺术基金会藏品是否属于本馆长期保管或稳定常设。",
+        "寻找同阶段最近比较对象，避免仅凭狭长形制判断价值。"
+      ],
+      "evidenceConfidence": "medium-high",
+      "sourceRefs": [
+        "S09",
+        "S10"
+      ]
+    },
+    {
+      "candidateId": "muxin-c12",
+      "nameZh": "《生与死》",
+      "nameEn": "Life and Death",
+      "creator": "木心 Mu Xin",
+      "objectType": "纸本彩墨",
+      "date": "2001年",
+      "material": "纸本彩墨",
+      "dimensions": "约17.4 × 37.9厘米",
+      "candidateStatus": "eligible",
+      "stableUnit": "单件绘画。",
+      "knownEvidence": [
+        "开馆资料给出题名、2001年、纸本彩墨和17.4×37.9厘米。",
+        "开馆展对象页以17×37厘米的近似尺寸记录此作。"
+      ],
+      "candidateRationale": "题名、年代和对象记录相对稳定，可用于研究木心晚期绘画如何让题名与风景或抽象形态发生关系。",
+      "possibleValueTypes": [
+        "conceptual_question",
+        "formal_achievement"
+      ],
+      "nextStageChecks": [
+        "取得馆方对象记录、正式英译、可靠图像、馆藏归属和当前状态。",
+        "解决两处尺寸的四舍五入差异。",
+        "只在图像和研究支持下解释题名，不从题名推断画面寓意。"
+      ],
+      "evidenceConfidence": "medium-high",
+      "sourceRefs": [
+        "S11",
+        "S09"
+      ]
+    },
+    {
+      "candidateId": "muxin-c13",
+      "nameZh": "《废谷》",
+      "nameEn": "Desolate Valley",
+      "creator": "木心 Mu Xin",
+      "objectType": "纸本彩墨",
+      "date": "2004年",
+      "material": "纸本彩墨",
+      "dimensions": "15.7 × 42.9厘米",
+      "candidateStatus": "eligible_high_priority",
+      "stableUnit": "单件绘画。",
+      "knownEvidence": [
+        "开馆报道和展览评论均给出题名、2004年、纸本彩墨和15.7×42.9厘米。",
+        "开馆展对象页记录该作曾在木心美术馆开馆特展展出。"
+      ],
+      "candidateRationale": "它是目前身份最清楚的晚期纸本彩墨之一，可作为研究木心晚年成熟风景、微小尺度与长幅构图的核心候选。",
+      "possibleValueTypes": [
+        "artist_landmark",
+        "formal_achievement"
+      ],
+      "nextStageChecks": [
+        "核实馆藏机构、馆藏编号、正式英译和当前是否在常设轮换中。",
+        "取得可靠大图并记录至少四项直接观察。",
+        "与《晴风》及晚年微型风景画组比较，确认其独立价值而非重复代表同一问题。"
+      ],
+      "evidenceConfidence": "high",
+      "sourceRefs": [
+        "S02",
+        "S09",
+        "S12"
+      ]
+    },
+    {
+      "candidateId": "muxin-c14",
+      "nameZh": "《渔村》",
+      "nameEn": "Fishing Village",
+      "creator": "木心 Mu Xin",
+      "objectType": "纸本彩墨",
+      "date": "约1970年或1970年代",
+      "material": "纸本彩墨",
+      "dimensions": "约69.5 × 68.7厘米",
+      "candidateStatus": "eligible",
+      "stableUnit": "单件绘画。",
+      "knownEvidence": [
+        "开馆资料记录《渔村》为20世纪70年代纸本彩墨，尺寸约67.8×69厘米。",
+        "2022年合作展览资料记录为1970年、69.5×68.7厘米，收藏机构为木心艺术基金会。"
+      ],
+      "candidateRationale": "这件较大幅早期绘画可与晚年狭长或微型风景形成年代和尺度对照，补足木心绘画变化的问题。",
+      "possibleValueTypes": [
+        "artist_landmark",
+        "formal_achievement"
+      ],
+      "nextStageChecks": [
+        "优先解决1970年与1970年代、两组尺寸之间的目录差异。",
+        "核实馆藏编号、图像、基金会与美术馆的长期保管关系和当前状态。",
+        "寻找可靠研究说明它在木心绘画生涯中属于典型、转折还是例外。"
+      ],
+      "evidenceConfidence": "medium",
+      "sourceRefs": [
+        "S09",
+        "S10"
+      ]
+    },
+    {
+      "candidateId": "muxin-c15",
+      "nameZh": "晚年微型转印风景画组",
+      "nameEn": "Late miniature transfer landscapes, group",
+      "creator": "木心 Mu Xin",
+      "objectType": "成组微型转印风景画",
+      "date": "约1999—2010年，准确范围待核",
+      "material": "微型转印与纸本彩墨等，具体分类待核",
+      "candidateStatus": "eligible_high_priority",
+      "stableUnit": "馆方长期陈列的晚年微型风景作为一个收藏组；不得按三十二幅拆成多条收藏高峰。",
+      "knownEvidence": [
+        "开馆报道称二号展厅集中展示木心七十二岁至八十三岁期间创作的三十二幅微型彩墨风景。",
+        "2022年合作展览报道将微型转印风景画列为木心后期艺术风格的重要媒介之一。"
+      ],
+      "candidateRationale": "这组作品能说明木心晚年持续使用小尺度风景及转印媒介的整体实践，单件名作无法替代其序列与变化。",
+      "possibleValueTypes": [
+        "material_or_technical_innovation",
+        "artist_landmark",
+        "formal_achievement"
+      ],
+      "nextStageChecks": [
+        "核实三十二幅的准确清单、题名、年代、媒介、馆藏身份和轮换情况。",
+        "区分纸本彩墨、转印、石版画等媒介，不把不同技术混称。",
+        "确认组内是否存在足以单独成为正式候选的作品；若拆出单件，必须避免与整组重复计数。"
+      ],
+      "evidenceConfidence": "medium-high",
+      "sourceRefs": [
+        "S05",
+        "S08",
+        "S13"
+      ]
+    },
+    {
+      "candidateId": "muxin-c16",
+      "nameZh": "1989年无题石版画",
+      "nameEn": "Untitled lithograph",
+      "creator": "木心 Mu Xin",
+      "objectType": "版画",
+      "date": "1989年",
+      "material": "石版画或版画；具体技法待核",
+      "dimensions": "38 × 56.5厘米",
+      "candidateStatus": "conditional",
+      "stableUnit": "以开馆资料图示的1989年无题版画为一个对象。",
+      "knownEvidence": [
+        "开馆资料图录式页面记录一件1989年无题版画，尺寸38×56.5厘米。",
+        "常设展概述确认一号展厅包含木心旅美初期的石版画抽象系列。"
+      ],
+      "candidateRationale": "它可补足木心从纸本彩墨之外进入石版画和抽象系列的媒介线，但当前身份信息不足。",
+      "possibleValueTypes": [
+        "material_or_technical_innovation",
+        "artistic_breakthrough"
+      ],
+      "nextStageChecks": [
+        "取得馆方正式对象名、编号、版次、印刷机构、技法、馆藏归属和图像。",
+        "确认它是否属于常设轮换而非仅在开馆材料中出现。",
+        "在对象身份无法稳定前不得进入正式精选。"
+      ],
+      "evidenceConfidence": "low-medium",
+      "sourceRefs": [
+        "S09",
+        "S05"
+      ]
+    },
+    {
+      "candidateId": "muxin-c17",
+      "nameZh": "文革前幸存手稿组",
+      "nameEn": "Surviving manuscripts written before the Cultural Revolution, group",
+      "creator": "木心 Mu Xin",
+      "objectType": "早期文学与艺术手稿组",
+      "date": "1966年前",
+      "material": "纸本墨迹及可能包含曲谱、话剧稿，待核",
+      "candidateStatus": "conditional",
+      "stableUnit": "仅在馆方尚未提供稳定单件身份前作为一个档案组；与已单列的具名稿本不得重复。",
+      "knownEvidence": [
+        "馆方常设收藏页说明文学馆展示木心在文革前秘密写作的幸存手稿。",
+        "开馆资料进一步提到早年曲谱、话剧稿等类型。"
+      ],
+      "candidateRationale": "该组可能保存木心早期多媒介实践及作品毁失后的幸存链，但目前范围过宽，必须在下一阶段缩成稳定档案单位。",
+      "possibleValueTypes": [
+        "social_document",
+        "artist_landmark"
+      ],
+      "nextStageChecks": [
+        "建立具体清单，排除已单列稿本和普通出版物。",
+        "逐件核实题名、年代、原件身份、保存史和当前可见状态。",
+        "若无法形成边界清楚的档案单位，则以证据更强的单件替换。"
+      ],
+      "evidenceConfidence": "medium",
+      "sourceRefs": [
+        "S01",
+        "S04",
+        "S13"
+      ]
+    },
+    {
+      "candidateId": "muxin-c18",
+      "nameZh": "“言论交代”与申诉书文献组",
+      "nameEn": "Political statements and appeal documents, group",
+      "creator": "木心 Mu Xin",
+      "objectType": "生平与政治处境文献组",
+      "date": "文革中后期，准确年代待核",
+      "material": "纸本文书，待核",
+      "candidateStatus": "conditional",
+      "stableUnit": "以馆方档案编组为准；不得与《狱中笔记》重复计入。",
+      "knownEvidence": [
+        "开馆资料称文学馆保存并展示木心文革中后期的“言论交代”与申诉书等文献。"
+      ],
+      "candidateRationale": "若原件和档案关系清楚，这组文书能区分制度要求木心写下的文字与他暗中创作的《狱中笔记》，直接揭示两类书写在同一处境中的不同功能。",
+      "possibleValueTypes": [
+        "social_document",
+        "historical_transition"
+      ],
+      "nextStageChecks": [
+        "确认具体文献数量、题名、日期、机构语境、原件身份和馆藏编号。",
+        "查明与《狱中笔记》的时间和功能边界。",
+        "在无一手档案说明时不得推断政治指控、心理状态或因果。"
+      ],
+      "evidenceConfidence": "low-medium",
+      "sourceRefs": [
+        "S13"
+      ]
+    },
+    {
+      "candidateId": "muxin-c19",
+      "nameZh": "木心生平影像档案组",
+      "nameEn": "Mu Xin biographical moving-image archive, group",
+      "creator": "多位拍摄者与制作者，待核",
+      "objectType": "纪录片与影像档案",
+      "date": "20世纪末至21世纪，具体对象待核",
+      "material": "数字或胶片影像及声音，待核",
+      "candidateStatus": "conditional",
+      "stableUnit": "只纳入馆方长期保管并稳定放映、能界定作者和版本的影像单元；不把每个片段拆分。",
+      "knownEvidence": [
+        "馆方常设收藏介绍称文学馆内设小型影像空间，播放与木心有关的影像档案。",
+        "2022年合作展览报道列出纪录片《木心》《1994》。"
+      ],
+      "candidateRationale": "具备对象身份的影像可保留木心的声音、动作或讲述现场，提供绘画和静态手稿无法替代的生平证据。",
+      "possibleValueTypes": [
+        "social_document",
+        "ritual_or_original_context"
+      ],
+      "nextStageChecks": [
+        "建立片名、导演、年份、时长、版权方、载体和馆藏身份清单。",
+        "确认《木心》《1994》是否为常设影像、临展放映或外来片源。",
+        "只有对象身份明确且稳定可见时才保留正式候选。"
+      ],
+      "evidenceConfidence": "low-medium",
+      "sourceRefs": [
+        "S01",
+        "S08"
+      ]
+    },
+    {
+      "candidateId": "muxin-c20",
+      "nameZh": "木心美术馆建筑与水上空间整体",
+      "nameEn": "Mu Xin Art Museum architecture and waterside spatial ensemble",
+      "creator": "OLI Architecture PLLC；冈本博 Hiroshi Okamoto、林兵 Bing Lin",
+      "objectType": "建筑与空间整体",
+      "date": "设计与建造期2011—2015年",
+      "material": "现浇混凝土、玻璃、水景与其他建筑材料",
+      "candidateStatus": "eligible_high_priority",
+      "stableUnit": "馆舍、桥、展厅间街道式连接、庭院、水面、天窗和下沉层作为一个整体对象，不拆分。",
+      "knownEvidence": [
+        "OLI事务所资料确认冈本博担任项目设计负责人，项目期为2011至2015年；锁定范围资料同时确认林兵的项目角色。",
+        "建筑资料说明混凝土展览体量由类似街道的连接空间串联，建筑跨在元宝湖上，两层位于水面上，一层沉入水下。",
+        "天窗、室外院落和水景把自然光与外部水面带入参观路径。"
+      ],
+      "candidateRationale": "建筑不是普通容器：连续体量、穿行缝隙、水面与下沉空间共同改变观看节奏，能够提供单件藏品无法替代的现场价值。",
+      "possibleValueTypes": [
+        "architecture_and_space"
+      ],
+      "nextStageChecks": [
+        "以OLI完整项目页、图纸或建筑档案核实面积、结构、材料、动线和设计概念。",
+        "现场或可靠图像记录至少四项可观察空间证据，并区分设计者原意与编辑观察。",
+        "若后续作为核心作品评价，不得再作为一般参观体验重复加分。"
+      ],
+      "evidenceConfidence": "high",
+      "sourceRefs": [
+        "S14",
+        "S15",
+        "S16"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "S01",
+      "title": "Literature Collection",
+      "publisher": "木心美术馆 Mu Xin Art Museum",
+      "url": "https://www.muxinam.com/index_en.php?a=wenxue&m=Guancang",
+      "accessed": "2026-07-23",
+      "sourceStrength": "high",
+      "supports": [
+        "《狱中笔记》的页数、形成处境、巡展与轮换展示",
+        "馆内较完整稿本名单",
+        "文革前、旅美与归国后文学手稿及影像空间"
+      ]
+    },
+    {
+      "sourceId": "S02",
+      "title": "木心“魂归”故里乌镇：一座以“梦想抵抗现实”的博物馆",
+      "publisher": "艺术新闻／The Art Journal",
+      "url": "https://www.theartjournal.cn/institutions/10399",
+      "accessed": "2026-07-23",
+      "sourceStrength": "medium-high",
+      "supports": [
+        "常设展结构与《狱中笔记》独立展厅",
+        "《废谷》的题名、材质、尺寸与年代",
+        "《双重悲悼》手稿曾用于开馆特展"
+      ]
+    },
+    {
+      "sourceId": "S04",
+      "title": "乌镇木心美术馆烟波桥畔参画境，木心美学话江南",
+      "publisher": "西安美术学院美术史论系",
+      "url": "https://shilun.xafa.edu.cn/info/1036/9618.htm",
+      "accessed": "2026-07-23",
+      "sourceStrength": "medium",
+      "supports": [
+        "馆内文学稿本和文献类型",
+        "《空房间》手稿与《诗经》英文改写稿",
+        "一号展厅媒介范围"
+      ]
+    },
+    {
+      "sourceId": "S05",
+      "title": "“木心逃走了，我们去美术馆找他”",
+      "publisher": "澎湃新闻",
+      "url": "https://www.thepaper.cn/newsDetail_forward_1397020",
+      "accessed": "2026-07-23",
+      "sourceStrength": "medium-high",
+      "supports": [
+        "一号、二号展厅的绘画媒介和年代范围",
+        "晚年微型风景画组",
+        "文学馆较完整稿本名单"
+      ]
+    },
+    {
+      "sourceId": "S08",
+      "title": "木心作品亮相苏州博物馆",
+      "publisher": "人民日报海外版",
+      "url": "https://paper.people.com.cn/rmrbhwb/html/2022-09/06/content_25938223.htm",
+      "accessed": "2026-07-23",
+      "sourceStrength": "high",
+      "supports": [
+        "2022年木心美术馆合作展的绘画、书法和手稿类型",
+        "《哥伦比亚的倒影》1986年初稿",
+        "纪录片《木心》《1994》"
+      ]
+    },
+    {
+      "sourceId": "S09",
+      "title": "木心美术馆将于乌镇开馆",
+      "publisher": "崇真艺客",
+      "url": "https://www.trueart.com/news/329516.html",
+      "accessed": "2026-07-23",
+      "sourceStrength": "medium",
+      "supports": [
+        "《晴风》《生与死》《废谷》《渔村》的开馆图录式信息",
+        "1989年无题版画的尺寸与媒介线索"
+      ]
+    },
+    {
+      "sourceId": "S10",
+      "title": "木心诞辰95周年纪念展：纸墨里的“池静石眠”",
+      "publisher": "澎湃新闻",
+      "url": "https://www.thepaper.cn/newsDetail_forward_19765642",
+      "accessed": "2026-07-23",
+      "sourceStrength": "medium-high",
+      "supports": [
+        "《晴风》的1999年、尺寸和木心艺术基金会收藏信息",
+        "《渔村》的1970年、尺寸和木心艺术基金会收藏信息"
+      ]
+    },
+    {
+      "sourceId": "S11",
+      "title": "展品：《生与死》",
+      "publisher": "ArtCM艺厘米",
+      "url": "https://www.artcm.cn/customer/exhibit_detail/?exhibit_id=374",
+      "accessed": "2026-07-23",
+      "sourceStrength": "medium",
+      "supports": [
+        "《生与死》曾在木心美术馆开馆特展展出",
+        "对象的近似尺寸与纸本载体"
+      ]
+    },
+    {
+      "sourceId": "S12",
+      "title": "展品：《废谷》",
+      "publisher": "ArtCM艺厘米",
+      "url": "https://www.artcm.cn/customer/exhibit_detail/?exhibit_id=371",
+      "accessed": "2026-07-23",
+      "sourceStrength": "medium",
+      "supports": [
+        "《废谷》曾在木心美术馆开馆特展展出",
+        "对象的近似尺寸与纸本载体"
+      ]
+    },
+    {
+      "sourceId": "S13",
+      "title": "木心美术馆开馆资料汇编",
+      "publisher": "搜狗百科转引开馆资料",
+      "url": "https://baike.sogou.com/v141555938.htm",
+      "accessed": "2026-07-23",
+      "sourceStrength": "low-medium",
+      "supports": [
+        "晚年三十二幅微型风景的陈列概述",
+        "早年曲谱、话剧稿、“言论交代”与申诉书等类型线索"
+      ]
+    },
+    {
+      "sourceId": "S14",
+      "title": "Studio",
+      "publisher": "OLI Architecture",
+      "url": "https://oliarch.com/studio/",
+      "accessed": "2026-07-23",
+      "sourceStrength": "high",
+      "supports": [
+        "冈本博的设计负责人角色",
+        "木心美术馆项目期2011至2015年"
+      ]
+    },
+    {
+      "sourceId": "S15",
+      "title": "木心美术馆，浙江乌镇／OLI建筑设计事务所",
+      "publisher": "谷德设计网",
+      "url": "https://www.gooood.cn/mu-xin-art-museum-by-oli-architecture-pllc.htm",
+      "accessed": "2026-07-23",
+      "sourceStrength": "medium-high",
+      "supports": [
+        "街道式连接、混凝土展览空间、天窗、院落与水景关系",
+        "OLI项目摄影和建筑说明"
+      ]
+    },
+    {
+      "sourceId": "S16",
+      "title": "木心美术馆“风啊，水啊，一顶桥”",
+      "publisher": "建筑学院",
+      "url": "https://www.archcollege.com/22589.html",
+      "accessed": "2026-07-23",
+      "sourceStrength": "medium",
+      "supports": [
+        "建筑跨越元宝湖、两层在水面上及一层下沉",
+        "现浇混凝土结构与馆内功能"
+      ]
+    }
+  ]
+}

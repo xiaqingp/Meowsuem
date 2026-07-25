@@ -1,0 +1,140 @@
+{
+  "name": "Meowseum Generation Pipeline",
+  "version": "2.6.0",
+  "status": "active",
+  "frozenAt": "2026-07-24",
+  "sourceManifest": "research/content-standard-manifest.json",
+  "canonicalFiles": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "a7b3b8e9b7537a28ccee3fe5344e1114da12e99a1235deecdef332779ff93aad"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "version": "2.0.2",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "scripts/run-isolated-generation.ps1",
+      "sha256": "6ab4bc87e31394df0d12245ec4fecf0e4a54e28d6fbccf3ce20b1f811fee8cb8"
+    },
+    {
+      "path": "scripts/report-museum-generation.mjs",
+      "sha256": "92f0fd77acf68e293418064197ca37235f5a40eb41c0494c6fa90347c4869f15"
+    },
+    {
+      "path": "scripts/verify-release-candidate.mjs",
+      "sha256": "5576b6bcc9144d38050acd2708b3694ba416cd2bdb90d7599aae5ff65f85e049"
+    },
+    {
+      "path": "scripts/publish-museum-candidate.mjs",
+      "sha256": "5c1bcfa1187a27055408a947cedf6c609e3e04deff2a0bc99c5a6b279324b1f3"
+    },
+    {
+      "path": "scripts/assemble-museum-candidate.mjs",
+      "sha256": "5dd5ef6c2ed5c953c5eed249cc273106e820e7a98b2bff1db9f92d1ea5fd5af6"
+    },
+    {
+      "path": "scripts/finalize-museum.mjs",
+      "sha256": "4db5bdab2e84ffebeb49a98f7169c4fbde13290543c96e2e7b234165b35f1fd3"
+    },
+    {
+      "path": "scripts/verify-content-pipeline.mjs",
+      "sha256": "bf96235f1875ba1680e4c3a45a98d22a523714e2fd8ea549191c83c727c857d6"
+    },
+    {
+      "path": "scripts/verify-significance-evidence.mjs",
+      "sha256": "28f1b1b8cbb273ec2e3175df4da9642911d6732ca5a1ed62ad1621800139d84d"
+    },
+    {
+      "path": "scripts/prepare-author-research-input.mjs",
+      "sha256": "ff09bdd2e4b2d292308798ef3e210dd2d801dab5eed936bd698846768dab608d"
+    },
+    {
+      "path": "scripts/process-author-bundle.mjs",
+      "sha256": "acd01ba270097d6b426add9a7a4800d6baaf9a4fa2378f2ad8a9cfd75ad095b7"
+    },
+    {
+      "path": "scripts/process-museum-rating.mjs",
+      "sha256": "7c3cd66598df1831e95d3e5b1e508df00163297334ac5cd103911de16072de8f"
+    },
+    {
+      "path": "scripts/freeze-pipeline-release.mjs",
+      "sha256": "46cd506e7546d96a36661d5d9a57cd483bb16ffb39ed3a0015818df859473fb0"
+    }
+  ],
+  "changeControl": {
+    "id": "PCR-2026-07-24-03",
+    "record": "research/pipeline-changes/PCR-2026-07-24-03.json",
+    "recordSha256": "63e7a0865939bcd141abb112b90d2f0b64f5e6f640ac1e2aacffbf38044f583d",
+    "baseRelease": "research/pipeline-releases/v2.5.0.json",
+    "changedCanonicalFiles": [
+      "research/generation-pipeline.md",
+      "scripts/assemble-museum-candidate.mjs",
+      "scripts/finalize-museum.mjs",
+      "scripts/verify-content-pipeline.mjs",
+      "scripts/verify-significance-evidence.mjs",
+      "scripts/freeze-pipeline-release.mjs"
+    ]
+  },
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "freshResearchMaxWorksPerContext": 10,
+    "reviewerMode": "disabled",
+    "completionReportRequired": true,
+    "postGenerationLiveScope": "current_museum",
+    "postGenerationNetworkConcurrency": 8,
+    "postGenerationModelCalls": 0,
+    "postGenerationModelTokens": 0,
+    "authorBundleOutputs": [
+      "writing-plan.json",
+      "card.txt",
+      "draft.md"
+    ]
+  },
+  "stageInputContracts": {
+    "author": {
+      "version": 1,
+      "requiredRoles": [
+        "content_instruction",
+        "research_card",
+        "work_context"
+      ],
+      "optionalRoles": [
+        "research_supplement"
+      ],
+      "maxInputsByRole": {
+        "content_instruction": 1,
+        "research_card": 1,
+        "work_context": 1,
+        "research_supplement": 1
+      },
+      "maxTotalBytes": 90000
+    },
+    "assembly": {
+      "version": 1,
+      "requiredFile": "assembly-input.json",
+      "requiredSources": [
+        "museum_structure",
+        "museum_rating",
+        "museum_selection",
+        "author_bundles",
+        "verified_assets"
+      ],
+      "modelCalls": 0
+    }
+  },
+  "stateMachine": [
+    "research_card",
+    "author_bundle",
+    "mechanical_processed"
+  ],
+  "acceptedRegression": {
+    "authorBundleResult": "research/pipeline-tests/v2.0.9-autumn-rhythm-single-load-clean3/author-result.json",
+    "authorBundleResultSha256": "2e0ff07959cddb0f91ac9bf768e69fcc1aa892da380707e8797b41563ea5555a",
+    "successfulRunTokens": 128408,
+    "reviewerRun": false,
+    "productionWrite": false
+  }
+}

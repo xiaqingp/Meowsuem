@@ -1,0 +1,188 @@
+{
+  "schemaVersion": "author-bundle/1.0",
+  "museumId": "vienna",
+  "workId": "vienna-ant-03-brygos-skyphos",
+  "displayMetadata": {
+    "by": "布里戈斯陶工坊／布里戈斯画家 · 古希腊",
+    "date": "约公元前490年",
+    "material": "陶土，阿提卡红绘",
+    "place": "Kunsthistorisches Museum Vienna 古物馆第XIV厅（核验于2026-07-24）",
+    "priority": "强烈推荐",
+    "significance": "重要藏品",
+    "stay": "建议停留6—8分钟",
+    "availability": "confirmed_on_view",
+    "imagePolicy": "object_image"
+  },
+  "narrativeMainline": {
+    "valueType": "narrative_subject",
+    "mainline": "布里戈斯画家把英雄战争中最沉重的一刻，放在父亲请求杀子者归还遗体的安静会面里；斜卧床上的阿喀琉斯、床下的赫克托耳与步行而来的普里阿摩斯，把生者的请求和死者的代价压进同一幅室内场景。克制的构图既接近《伊利亚特》第24卷的叙事，也与更早同题图像及画家常见的激烈动作形成反差。",
+    "readerStartingPoint": "读者从标题和画面可以确认：普里阿摩斯走向宴饮床上的阿喀琉斯，赫克托耳的遗体在床下；尚不知道此前阿喀琉斯为何扣留遗体、诸神如何介入，以及请求之后发生什么。",
+    "storyBeats": [
+      {
+        "beat": "先用正面的三个人物及其位置关系讲清作品的首要价值：战斗退到画外，求还遗体成为中心。",
+        "researchBasis": [
+          "零背景可确认对象与图像证据：正面中央、床前、床下与左侧人物关系",
+          "故事最低事实与艺术改写证据：从英雄战斗转到父亲请求归还遗体"
+        ],
+        "newUnderstanding": "读者能立即辨认谁向谁提出什么请求，以及死者为何是场景的核心。"
+      },
+      {
+        "beat": "补足《伊利亚特》第24卷所需的前因、神意、赎金与后果，再回到床下遗体。",
+        "researchBasis": [
+          "故事最低事实与艺术改写证据：阿喀琉斯杀死并扣留赫克托耳遗体；诸神要求归还；普里阿摩斯携赎金请求；其后归还与葬礼"
+        ],
+        "newUnderstanding": "读者明白画面截取的是复仇转向归还与安葬的请求时刻。"
+      },
+      {
+        "beat": "解释安静、以水平垂直关系为主的构图为何重要，并用宴饮床、小桌、侍酒器、墙上武器和有限黑色留白兑现。",
+        "researchBasis": [
+          "零背景可确认对象与图像证据：宴饮床、小食桌、侍酒者、武器、黑色留白、回纹带",
+          "故事最低事实与艺术改写证据：安静构图与更早同题图像及画家常见激烈动作的对照"
+        ],
+        "newUnderstanding": "读者看到画家如何让战争的压力停留在静止的人物关系和室内物件中。"
+      },
+      {
+        "beat": "由约12升容量解释器物用途，再说明双面环绕叙事的观看边界。",
+        "researchBasis": [
+          "身份与展陈：尺寸与约12升容量",
+          "原始用途、比较与边界：馆方推测更可能用于混酒",
+          "零背景可确认对象与图像证据：背面希腊诸王集会、柱子与宽厚杯体"
+        ],
+        "newUnderstanding": "读者把图像重新放回大型宴饮器具上观看，同时不会把正背两面擅自连成真实时间顺序。"
+      }
+    ],
+    "humorBasis": "题名称作“大杯”，容量却约12升；真实的尺度反差可帮助解释它更可能是混酒器。",
+    "mustNotAssume": [
+      "普里阿摩斯、阿喀琉斯或侍酒者具有研究卡未证明的确定心理。",
+      "正面与背面构成历史事件的先后顺序。",
+      "本件是赎回赫克托耳题材的首次图像。",
+      "画家有意让器物承担某种未经来源说明的道德训诫。",
+      "原始委托人、实际宴饮场合或进入伊特鲁里亚墓葬的原因已经确定。",
+      "本件是全球唯一或同题存世数量已经核清。"
+    ]
+  },
+  "highRiskClaims": [
+    {
+      "claim": "画面唤起对普里阿摩斯命运的同情。",
+      "evidenceType": "来源事实（馆方艺术判断）",
+      "allowedWording": "馆方认为，克制的场面强烈唤起对老王命运的同情。",
+      "forbiddenUpgrade": "断言画中人物本人正在感到同情、悲痛或悔恨。"
+    },
+    {
+      "claim": "正背两面形成连续历史时间。",
+      "evidenceType": "直接观察仅支持两面题材及空间提示",
+      "allowedWording": "翻到背面，可以看到特洛伊城前希腊诸王的集会；两面可沿杯体观看。",
+      "forbiddenUpgrade": "把两面写成已获来源证明的先后事件。"
+    },
+    {
+      "claim": "作品接近《伊利亚特》第24卷。",
+      "evidenceType": "来源事实（KHM对象页判断）",
+      "allowedWording": "馆方认为人物安排尤其接近《伊利亚特》第24卷。",
+      "forbiddenUpgrade": "声称作品是荷马文本的逐字插图或画家意图已被证明。"
+    },
+    {
+      "claim": "这只大杯用于混酒。",
+      "evidenceType": "来源推测（约12升容量）",
+      "allowedWording": "馆方据其约12升容量推测，它更可能用于混酒。",
+      "forbiddenUpgrade": "把混酒用途写成确定事实，或指定未经证明的宴饮场合。"
+    },
+    {
+      "claim": "本件是同题唯一或首次。",
+      "evidenceType": "比较证据否定首次；全球数量未知",
+      "allowedWording": "同题图像在公元前6世纪已经出现；本件的价值在具体人物安排、超大容量与克制构图。",
+      "forbiddenUpgrade": "唯一、仅存、首次、最早。"
+    },
+    {
+      "claim": "本件不可被其他同题瓶画替代。",
+      "evidenceType": "比较边界不足，rareGatePassed为false",
+      "allowedWording": "将其列为重要藏品，并说明与布达佩斯同题skyphos共享题材、但存在构图与器物尺度差异。",
+      "forbiddenUpgrade": "稀世珍品、举世无双或全球最佳。"
+    }
+  ],
+  "claimLedger": [
+    {
+      "id": "C01",
+      "claim": "正面中央的阿喀琉斯斜卧宴饮床，床前有小食桌，赫克托耳遗体位于床下。",
+      "type": "direct_observation",
+      "researchCardLocation": "零背景可确认对象与图像证据，第1条"
+    },
+    {
+      "id": "C02",
+      "claim": "普里阿摩斯从左侧带随从走近，请求杀死其子的阿喀琉斯归还遗体。",
+      "type": "source_fact_and_direct_observation",
+      "researchCardLocation": "零背景可确认对象与图像证据，第2条"
+    },
+    {
+      "id": "C03",
+      "claim": "右侧侍酒者持舀酒器和滤酒器，墙上悬挂武器，提示室内或营帐空间。",
+      "type": "direct_observation",
+      "researchCardLocation": "零背景可确认对象与图像证据，第3条"
+    },
+    {
+      "id": "C04",
+      "claim": "背面表现特洛伊城前希腊诸王集会，一根柱子提示帐篷空间。",
+      "type": "direct_observation",
+      "researchCardLocation": "零背景可确认对象与图像证据，第4条"
+    },
+    {
+      "id": "C05",
+      "claim": "人物周围黑色留白较少，上下有回纹带，宽厚杯体承载环绕叙事。",
+      "type": "direct_observation",
+      "researchCardLocation": "零背景可确认对象与图像证据，第5条"
+    },
+    {
+      "id": "C06",
+      "claim": "《伊利亚特》第24卷之前，阿喀琉斯杀死赫克托耳并扣留、凌辱其遗体，诸神要求归还。",
+      "type": "source_fact",
+      "researchCardLocation": "故事最低事实与艺术改写证据，第1条"
+    },
+    {
+      "id": "C07",
+      "claim": "普里阿摩斯在神引导下携赎金进入希腊营地，请求归还儿子；其后阿喀琉斯同意，特洛伊人为赫克托耳举行葬礼。",
+      "type": "source_fact",
+      "researchCardLocation": "故事最低事实与艺术改写证据，第1至2条"
+    },
+    {
+      "id": "C08",
+      "claim": "馆方认为图像尤其接近《伊利亚特》第24卷，并以克制场面唤起对老王命运的同情。",
+      "type": "attributed_source_judgment",
+      "researchCardLocation": "故事最低事实与艺术改写证据，第3条"
+    },
+    {
+      "id": "C09",
+      "claim": "同题图像在公元前6世纪已经出现；本件以安静、水平垂直关系占主导的构图区别于更早图像中的突进动作，也区别于布里戈斯画家常见的激烈动作。",
+      "type": "source_fact_and_comparison",
+      "researchCardLocation": "故事最低事实与艺术改写证据，第4条"
+    },
+    {
+      "id": "C10",
+      "claim": "器物容量约12升，远大于普通饮杯；馆方据此推测它更可能用于混酒而非个人饮用。",
+      "type": "source_fact_with_qualified_inference",
+      "researchCardLocation": "身份与展陈；原始用途、比较与边界，第1条"
+    },
+    {
+      "id": "C11",
+      "claim": "布达佩斯美术博物馆藏有同题阿提卡红绘skyphos，波士顿美术馆藏有可比较器形与画面—器体关系的同阶段skyphos。",
+      "type": "comparison_fact",
+      "researchCardLocation": "原始用途、比较与边界，近例"
+    },
+    {
+      "id": "C12",
+      "claim": "本件的比较差异包括超大容量、接近《伊利亚特》第24卷的具体人物安排，以及安静构图与画家常见激烈动作的反差。",
+      "type": "comparison_judgment",
+      "researchCardLocation": "原始用途、比较与边界，决定性差异"
+    },
+    {
+      "id": "C13",
+      "claim": "原始委托人、实际宴饮场合、进入伊特鲁里亚墓葬的原因及全球同题存世总数仍不确定。",
+      "type": "uncertainty_boundary",
+      "researchCardLocation": "原始用途、比较与边界，未知边界"
+    },
+    {
+      "id": "C14",
+      "claim": "作品在KHM古物馆第XIV厅在展，状态核验于2026-07-24。",
+      "type": "source_fact",
+      "researchCardLocation": "身份与展陈，状态修正"
+    }
+  ]
+}

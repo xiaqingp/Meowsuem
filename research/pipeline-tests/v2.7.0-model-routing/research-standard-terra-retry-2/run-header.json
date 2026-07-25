@@ -1,0 +1,46 @@
+{
+  "runId": "m28-11-v2.7.0-standard-research-terra-retry-2-2026-07-24",
+  "startedAt": "2026-07-24T00:00:00-07:00",
+  "stage": "research",
+  "researchMode": "fresh",
+  "researchComplexity": "standard",
+  "museumId": "met",
+  "works": [
+    {
+      "museumId": "met",
+      "workId": "portrait-head-bottle-64-228-21",
+      "workIdentity": {
+        "artistOrCulture": "Moche",
+        "title": "人像头形瓶",
+        "titleEn": "Portrait Head Bottle",
+        "museum": "The Metropolitan Museum of Art"
+      }
+    }
+  ],
+  "pipelineVersion": "2.7.0",
+  "instructionVersion": "2.1.0",
+  "executionProfile": {
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c7931d34e1f54dde5c43336acc50f7fb7ac380cfe7bed7ca27ea0e01f2cf4aa6"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "115c3ee4bb870e63b21cbc9a7b63949c3ea4a467f4beee553c21315855551862"
+    },
+    {
+      "path": "research/pipeline-tests/v2.7.0-model-routing/research-standard-terra-retry-2/candidate-packet.json",
+      "role": "candidate_packet",
+      "sha256": "83713e4d6618fa27e482de9572e1e80b686a5e2439bc2cfc5f8f6409ca9aad71"
+    }
+  ],
+  "outputs": [
+    "portrait-head-bottle-64-228-21-research-card.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "test_only_no_production_write"
+}

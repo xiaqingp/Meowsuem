@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.7.2",
+  "runId": "m28-12-v2.7.2-seattle-author-swan-rattle-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-25T06:24:44.661Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_availability_from_locked_work_context",
+    "derived_imagePolicy_from_locked_work_context"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "dfe65c5b718b7865900e4ed98022627362752144776790938c38daa02f93a5b0",
+      "bytes": 7950
+    },
+    {
+      "path": "card.txt",
+      "sha256": "708c3c0b6a319558743e44845186063a9e5eea3d4298332ab4bbc59bb48fcb4e",
+      "bytes": 499
+    },
+    {
+      "path": "draft.md",
+      "sha256": "8e4e93cf4d61878691d61c381105b14d23e2921419107862669cb9fc2950d3bf",
+      "bytes": 3140
+    }
+  ]
+}

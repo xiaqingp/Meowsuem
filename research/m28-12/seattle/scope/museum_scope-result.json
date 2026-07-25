@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-12-v2.7.1-seattle-scope-2026-07-24",
+    "stage":  "museum_scope",
+    "museumId":  "seattle",
+    "workId":  "",
+    "pipelineVersion":  "2.7.1",
+    "instructionVersion":  "2.1.0",
+    "model":  "gpt-5.6-terra",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-07-24T22:23:18.6761115-07:00",
+    "modelStartedAt":  "2026-07-24T22:23:18.9377313-07:00",
+    "modelCompletedAt":  "2026-07-24T22:24:18.9237443-07:00",
+    "completedAt":  "2026-07-24T22:24:18.9443129-07:00",
+    "runnerDurationMs":  60268,
+    "modelDurationMs":  59986,
+    "tokenUsage":  {
+                       "total":  31457,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "2",
+                                    "4",
+                                    "12",
+                                    "13"
+                                ],
+    "logPath":  "research/m28-12/seattle/scope/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "ccd00997261deb8d327f185f373a779f1654fdf21f15f9c1bf1eaa952b90cb83"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "museum-scope.json",
+                        "sha256":  "df4bf6e1b0ecdc6e23d6fd8d1f04e4f4c9749ea703403853b91f4d3e15f8c7cb",
+                        "bytes":  7805
+                    }
+                ]
+}

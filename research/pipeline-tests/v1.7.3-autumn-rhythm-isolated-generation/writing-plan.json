@@ -1,0 +1,292 @@
+{
+  "artifactType": "writing_plan",
+  "workId": "autumn-rhythm-number-30",
+  "runId": "m28-v1.7.3-autumn-rhythm-isolated-generation-2026-07-22",
+  "pipelineVersion": "2.0.6",
+  "instructionVersion": "1.7.3",
+  "directUpstream": {
+    "filename": "research-card.md",
+    "sha256": "ea921b4d9b74cbbe612be442790125f4211ba4ec0dd1070b691ae1d7d88c06a9"
+  },
+  "primaryValueSelection": {
+    "primaryValue": "波洛克把铺地作画时的身体移动、重力和颜料流动，组织成一幅五米多宽、仍能看清疏密与覆盖层次的横向线网。",
+    "whyPrioritized": "这项机制同时解释本作的现场观看回报、1950年成熟期位置和抽象表现主义把绘画行为、材料与大尺幅推到核心的意义；材料趣闻、收藏史和比较信息都应服务于它。",
+    "readerStartingPoint": "从标题与画面可确认：作品横向展开，由黑、白、棕褐、灰色线迹构成，没有中心人物或单一焦点。研究卡未记录需要纠正的读者判断。",
+    "notAssumed": [
+      "不假设读者害怕看不懂、急着拍照、会把它当成随意泼洒，或已经形成任何意见。",
+      "不假设线迹记录具体秋景。",
+      "不精确复原波洛克每一步站位、动作顺序或心理。",
+      "不把重力和颜料流动写成脱离画家调节、独自完成作品。",
+      "不把本作写成世界唯一、最大、第一件成熟滴画或纽约成为现代艺术中心的单独原因。"
+    ]
+  },
+  "quickLayerPromise": {
+    "primaryValue": "地面作画把身体、重力和流动留下的线迹带进画面；作品的关键成就在于这些线迹被组织成有疏密、覆盖与留白差异的五米多宽整体。",
+    "whyItMatters": "它具体呈现了波洛克1950年成熟期的大型全幅方法，也是抽象表现主义把绘画行为、材料和大尺幅推到核心的代表实例。",
+    "visualAnchor": "密集堆叠与较稀疏的停顿区沿横幅交替，多层线迹之间仍露出底色和裸露画布。",
+    "viewingAction": null,
+    "visibleTension": null
+  },
+  "coreQuestion": "波洛克怎样把身体、重力与流动留下的线迹，组织成一幅五米多宽却仍有清楚疏密、层次和横向节奏的画？",
+  "cognitiveChain": [
+    {
+      "step": 1,
+      "discovery": "画布铺在地面，波洛克可从四周工作，以稀释颜料滴、泼、甩、抹；重力、速度、身体移动和颜料流动因此进入线迹。",
+      "changesUnderstanding": "画面中的线不只是一种外观，而是材料落下和作画者移动共同留下的结果。",
+      "thereforeNext": "既然流动和动作都会造成变化，巨幅画面怎样没有变成均匀的一团？"
+    },
+    {
+      "step": 2,
+      "discovery": "长弧、回环、短促飞溅以及不同粗细和落点互相覆盖；密集结点旁保留稀疏区、底色和裸露画布。",
+      "changesUnderstanding": "所谓组织不是抽象赞语，而是覆盖多少、哪里密、哪里停、哪里仍透气都在画面上可见。",
+      "thereforeNext": "这些线迹为什么能拉开成五米多宽的连续横向关系？"
+    },
+    {
+      "step": 3,
+      "discovery": "建筑用珐琅漆、木棍或搅漆棒以及有时从罐中倒出的做法，有助于形成长线、滴流和飞溅；波洛克又在1947年设想过介于架上画与壁画之间、很大但可移动的作品。",
+      "changesUnderstanding": "对象专属的材料反差解释了线怎样流动，尺度设想则解释了这种方法为何被放到横向巨幅上检验。",
+      "thereforeNext": "这套方法在波洛克的创作和抽象表现主义中处于什么位置？"
+    },
+    {
+      "step": 4,
+      "discovery": "1947年是滴流方法的重要节点；本作与同年的《一：第31号，1950》显示它在大型全幅结构中的成熟运用，并成为抽象表现主义强调行为、材料和大尺幅的代表实例。",
+      "changesUnderstanding": "眼前的疏密与覆盖既是具体观看经验，也是波洛克创作方法和战后纽约艺术语境的一个实例。",
+      "thereforeNext": "这种重要性是否足以让本作成为不可替代的稀世珍品？"
+    },
+    {
+      "step": 5,
+      "discovery": "《一：第31号，1950》和较早的《满五寻》都能提供相近核心认识；本作有自身横向尺度、线网关系和较早进入大都会收藏史的位置，但决定性不可替代性未被证明。",
+      "changesUnderstanding": "作品值得作为重要藏品细看，理由来自具体艺术成就和生涯位置，不依赖虚构稀有度。",
+      "thereforeNext": "最后应怎样把一条局部线迹重新放回整幅疏密关系？"
+    }
+  ],
+  "funFactPlan": {
+    "selected": "刷房子的漆进入大都会",
+    "placement": "放在解释材料流动与巨幅线迹形成的因果段落中。",
+    "purpose": "用建筑用珐琅漆与木棍、搅漆棒的对象专属事实解释长线、滴流和飞溅怎样形成，同时保留普通材料与博物馆名画之间的真实反差。",
+    "wordingBoundary": "不写成随便、廉价或毫无技术；不声称所有颜料都从罐中直接倒出；不移植漆罐打孔、火鸡滴管、手印或嵌入物等其他作品资料。"
+  },
+  "humorBasis": "仅使用建筑用珐琅漆后来进入大都会这一有来源的材料反差；不另造笑点。",
+  "historicalContextPlan": {
+    "beforeState": "波洛克自1947年起把未绷框画布铺在地面，以滴、泼、甩、抹发展滴流方法。",
+    "changeOrConflict": "到1950年，这种方法进入巨幅全幅结构，绘画行为、材料流动与大尺幅成为作品核心。",
+    "objectRole": "本作是波洛克1950年成熟期与抽象表现主义上述转向的代表实例。",
+    "consequence": "它参与说明战后纽约成为现代艺术重要中心的过程。",
+    "uncertainty": "不能把这一地理转移归为本作的单独结果，也不能把本作定为第一件成熟滴画。",
+    "placement": "快层用一句交代1950年成熟期与抽象表现主义意义；深层在材料和画面组织已经建立后展开。"
+  },
+  "highRiskClaims": [
+    {
+      "claim": "画面具有组织与横向节奏",
+      "evidenceType": "直接观察与研究卡解释边界",
+      "allowedWording": "线条粗细、落点、覆盖、密集堆叠、稀疏停顿、底色与裸露画布沿5.28米横幅形成可辨的疏密、层次和横向交替。",
+      "forbiddenUpgrade": "完美控制、精确预设每一滴、颜料毫无偶然性。"
+    },
+    {
+      "claim": "身体动作进入画面",
+      "evidenceType": "高置信度来源事实",
+      "allowedWording": "铺地并从四周工作，使身体移动、速度、重力和颜料流动进入线迹。",
+      "forbiddenUpgrade": "精确复原每一步站位、每条线对应的动作，或用舞蹈作客观测量。"
+    },
+    {
+      "claim": "1950年成熟期",
+      "evidenceType": "高置信度来源事实与真实比较",
+      "allowedWording": "1947年滴流方法已是重要节点；本作与《一：第31号，1950》显示其在巨幅全幅结构中的成熟运用。",
+      "forbiddenUpgrade": "第一件成熟滴画、最高峰、同类最佳。"
+    },
+    {
+      "claim": "标题与秋天有关",
+      "evidenceType": "中置信度来源事实",
+      "allowedWording": "馆方把标题与十月、自然持续变化联系起来。",
+      "forbiddenUpgrade": "画面记录具体秋景或波洛克的确定意图。"
+    },
+    {
+      "claim": "重要性与不可替代性",
+      "evidenceType": "高置信度比较与明确未知边界",
+      "allowedWording": "本作是重要藏品；同阶段与较早节点存在能提供相近核心价值的强比较作，现有资料未证明全球不可替代性。",
+      "forbiddenUpgrade": "稀世珍品、世界唯一、最大、不可替代或客观优于比较作。"
+    },
+    {
+      "claim": "战后纽约艺术史位置",
+      "evidenceType": "高置信度来源事实",
+      "allowedWording": "本作是抽象表现主义把绘画行为、材料和大尺幅推至核心的代表实例；该运动参与战后纽约成为现代艺术重要中心的过程。",
+      "forbiddenUpgrade": "本作单独促成纽约取代巴黎。"
+    }
+  ],
+  "plannedStructure": {
+    "card": "独立回答为什么值得点开：五米多宽画面里，流动线迹仍显出覆盖、疏密和留白的组织；不复写快层，不用观看命令开头。",
+    "quickLayer": "先说明地面作画产生线迹、画家通过覆盖与疏密把它们组织成横向整体，再点明1950年成熟期和抽象表现主义意义，以可见疏密与裸露画布确认。",
+    "deepLayer": [
+      "从地面到线迹：解释铺地、四周工作、重力、速度、身体移动和颜料流动。",
+      "流动怎样变成画面：用长弧、回环、飞溅、覆盖、密区、稀区与露底解释具体组织。",
+      "刷房子的漆为何适合长线：自然整合建筑漆、木棍或搅漆棒的fun fact，并连接1947年的可移动巨幅设想。",
+      "1950年意味着什么：建立成熟期和抽象表现主义位置。",
+      "重要，但有真实近邻：比较《一：第31号，1950》和《满五寻》，守住重要藏品边界。",
+      "四项以上细节：覆盖次序、速度差、保留处、横向疏密。",
+      "最后一眼：沿长弧到落点，再把它放回整幅疏密关系。"
+    ]
+  },
+  "claimLedger": [
+    {
+      "id": "C01",
+      "type": "source_fact",
+      "researchCardBasis": "运行与身份",
+      "allowedClaims": [
+        "作品中文名为《秋韵：第30号》，英文名为Autumn Rhythm (Number 30)。",
+        "作者为杰克逊·波洛克 Jackson Pollock，美国。",
+        "年代为1950年。",
+        "尺寸为269.9 × 528.3厘米。"
+      ],
+      "plannedUse": ["draft_metadata", "draft_quick", "draft_deep"]
+    },
+    {
+      "id": "C02",
+      "type": "source_fact",
+      "researchCardBasis": "运行与身份",
+      "allowedClaims": [
+        "材质为画布上油彩与改性醇酸树脂漆。",
+        "大都会以建筑用珐琅漆解释其材料语境。"
+      ],
+      "plannedUse": ["draft_metadata", "draft_deep", "card"]
+    },
+    {
+      "id": "C03",
+      "type": "source_fact",
+      "researchCardBasis": "运行与身份",
+      "allowedClaims": [
+        "作品藏于纽约大都会艺术博物馆。",
+        "核验时在第五大道馆址851展厅展出，现场状态可能变化。"
+      ],
+      "plannedUse": ["draft_metadata", "draft_fact_boundary"]
+    },
+    {
+      "id": "C04",
+      "type": "editorial_classification",
+      "researchCardBasis": "运行与身份；比较、艺术价值与边界",
+      "allowedClaims": [
+        "参观优先级为绝对不可错过，因为巨大实物尺度直接展示波洛克成熟期的作画机制。",
+        "重要性为重要藏品；真实强比较作能提供相近核心价值，不满足不可替代性硬门。",
+        "建议停留为赶时间30秒，细看6—8分钟。"
+      ],
+      "plannedUse": ["draft_metadata", "draft_deep"]
+    },
+    {
+      "id": "C05",
+      "type": "source_fact",
+      "researchCardBasis": "来源事实与直接观察",
+      "allowedClaims": [
+        "波洛克自1947年起把未绷框画布铺在地面，可从四周工作，以稀释颜料滴、泼、甩、抹。",
+        "这种方法让重力、速度、身体移动和颜料流动进入画面。"
+      ],
+      "plannedUse": ["draft_quick", "draft_deep", "card"]
+    },
+    {
+      "id": "C06",
+      "type": "direct_observation",
+      "researchCardBasis": "来源事实与直接观察；抽象评论词的具体解释",
+      "allowedClaims": [
+        "画面横向展开，黑、白、棕褐、灰色线迹互相覆盖，没有中心人物或单一焦点。",
+        "线迹包含长弧、回环和短促飞溅，粗细、速度感和密度各异。",
+        "局部堆叠与较稀疏的停顿区并存，底色和裸露画布从线网间露出。",
+        "近看可追踪单条颜料的流向与落点，远看可见密度差形成横向节奏。",
+        "组织与横向节奏只能具体解释为线条粗细、落点、覆盖、密集堆叠、稀疏停顿、底色和裸露画布沿横幅形成的可辨差异。"
+      ],
+      "plannedUse": ["card", "draft_quick", "draft_deep", "draft_details", "draft_final_look"]
+    },
+    {
+      "id": "C07",
+      "type": "source_fact",
+      "researchCardBasis": "对象专属Fun facts／可使用一",
+      "allowedClaims": [
+        "波洛克制作本作时使用简单木棍或搅漆棒，以及建筑用珐琅漆，有时直接从漆罐倒出。",
+        "建筑漆的流动性与木棍、搅漆棒帮助解释长线、滴流和飞溅怎样形成。",
+        "后来进入大都会的这幅名画使用了刷房子的建筑漆。"
+      ],
+      "plannedUse": ["draft_deep"]
+    },
+    {
+      "id": "C08",
+      "type": "source_fact",
+      "researchCardBasis": "来源事实与直接观察",
+      "allowedClaims": [
+        "波洛克在1947年设想过介于架上绘画与壁画之间、尺寸很大但仍可移动的作品。",
+        "本作的横向巨幅与这一问题相关。",
+        "大都会把本作联系到波洛克1930年代的壁画兴趣，并提及托马斯·哈特·本顿与大卫·阿尔法罗·西凯罗斯的影响。"
+      ],
+      "plannedUse": ["draft_deep"]
+    },
+    {
+      "id": "C09",
+      "type": "source_fact_and_comparison",
+      "researchCardBasis": "抽象评论词的具体解释；比较、艺术价值与边界",
+      "allowedClaims": [
+        "1947年是波洛克滴流方法的重要节点。",
+        "1950年的本作与《一：第31号，1950》显示这种方法在巨幅全幅结构中的成熟运用。",
+        "本作位于波洛克1950年成熟期。"
+      ],
+      "plannedUse": ["draft_quick", "draft_deep", "card"]
+    },
+    {
+      "id": "C10",
+      "type": "source_fact",
+      "researchCardBasis": "来源事实与直接观察；比较、艺术价值与边界",
+      "allowedClaims": [
+        "抽象表现主义把绘画行为、材料和大尺幅推到核心位置。",
+        "该运动参与战后纽约成为现代艺术重要中心的过程。",
+        "本作是这一艺术史变化的代表实例，不能写成单独原因。"
+      ],
+      "plannedUse": ["draft_quick", "draft_deep"]
+    },
+    {
+      "id": "C11",
+      "type": "comparison_and_boundary",
+      "researchCardBasis": "比较、艺术价值与边界",
+      "allowedClaims": [
+        "比较类别为波洛克1947—1950年间以滴流为主要方法的大型全幅绘画。",
+        "MoMA《一：第31号，1950》与本作同年、巨幅、方法与全幅结构高度可比。",
+        "MoMA《满五寻，1947》是较早滴画节点，可替代滴流如何成为主要方法的部分认识。",
+        "本作具有自身横向尺度、线网关系和大都会收藏史位置，但资料未证明全球不可替代性。",
+        "本作应称重要藏品，不称稀世珍品。"
+      ],
+      "plannedUse": ["draft_deep", "draft_fact_boundary"]
+    },
+    {
+      "id": "C12",
+      "type": "source_fact",
+      "researchCardBasis": "来源事实与直接观察",
+      "allowedClaims": [
+        "大都会于1957年购入本作，即波洛克意外去世后的次年。",
+        "这一事实只支持本作较早进入机构收藏史。"
+      ],
+      "plannedUse": ["draft_deep"]
+    },
+    {
+      "id": "C13",
+      "type": "source_fact_with_limit",
+      "researchCardBasis": "来源事实与直接观察；未知与禁写",
+      "allowedClaims": [
+        "馆方把标题与十月、自然持续变化联系起来。",
+        "现有材料不支持把画面认定为具体秋景。"
+      ],
+      "plannedUse": ["draft_fact_boundary"]
+    },
+    {
+      "id": "C14",
+      "type": "editorial_action_grounded_in_observation",
+      "researchCardBasis": "现场线索与最后一眼",
+      "allowedClaims": [
+        "最后沿一条长弧追到落点，再退远把它放回整幅疏密关系，检查局部动作怎样进入五米多宽的整体。"
+      ],
+      "plannedUse": ["draft_final_look"]
+    },
+    {
+      "id": "C15",
+      "type": "source_links",
+      "researchCardBasis": "来源",
+      "allowedClaims": [
+        "资料行可链接大都会对象页、汉斯·纳穆斯照片页、Pollock-Krasner House画室页、大都会抽象表现主义页及MoMA比较作品页。"
+      ],
+      "plannedUse": ["draft_sources"]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "runId": "m28-4-muxin-author-muxin-c03-2026-07-23",
+  "startedAt": "2026-07-24T04:52:25.781Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card_after_verified_selection",
+  "museumId": "muxin",
+  "workId": "muxin-c03",
+  "workIdentity": "以馆方列名的《我纷纷的情欲》整部稿本为一件；不把出版物三辑边界或晚年定稿身份投射到馆藏稿本。",
+  "pipelineVersion": "2.4.6",
+  "instructionVersion": "2.0.2",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c22c60e3a215aa1ac90da402debeb2caf9da39975cb2921c4845ef74ef14c834"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "e7b049c97e262a0a9f2e334388ffadfb2013ce5a3fded20f7063256d03bb7e56"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-4/muxin/research-batch-01/muxin-c03-research-card.md",
+      "sha256": "b06c278ecc5b16f9a271b14d9f92788b80e3e8b5ecb1bf1f57cd283082248a38"
+    },
+    {
+      "path": "research/m28-4/muxin/research-gap-01/muxin-c03-research-supplement.md",
+      "sha256": "ff9c475b984ca4eb748f8202fdf26c42f4644c8d2432c44e0813de242ce3c35f"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c03/work-selection.json",
+      "sha256": "30f9c2cf2b6f047079feeb8d282dd877774eca4bc6d9d2d5fe9e5446f74cad9c"
+    },
+    {
+      "path": "research/m28-4/muxin/integration/museum-plan.json",
+      "sha256": "f1667c694974a0128558ce6d9519b3a616cab05d4dc3a4f4d00caf5ec62862b2"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

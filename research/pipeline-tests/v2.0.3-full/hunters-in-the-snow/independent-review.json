@@ -1,0 +1,158 @@
+{
+  "artifact": "independent-review",
+  "workId": "hunters-in-the-snow",
+  "reviewerRole": "fresh-independent-reviewer",
+  "instructionVersion": "1.6.8",
+  "pipelineVersion": "2.0.4",
+  "directUpstream": "draft.md",
+  "directUpstreamSHA256": "e3ebcfe488a696fd99398b9826317231b59286e925185807518e897712f79510",
+  "verifiedDraftDependency": {
+    "draftDeclaredDirectUpstream": "card.txt",
+    "draftDeclaredDirectUpstreamSHA256": "55af8fc19ba4011962ef0cf60a7ebb1678c4f6c0cf7a69e465fccfe0638daa49",
+    "actualCardSHA256": "55af8fc19ba4011962ef0cf60a7ebb1678c4f6c0cf7a69e465fccfe0638daa49",
+    "verdict": "PASS",
+    "evidence": "draft.md 声明的 card.txt SHA256 与实际 SHA256 完全一致。"
+  },
+  "hardGates": [
+    {
+      "gate": "artifactCausality",
+      "verdict": "PASS",
+      "evidence": "research-card.md、writing-plan.json、card.txt、draft.md 的直接上游文件名与所列 SHA256 连续对应；draft.md 对 card.txt 的声明哈希已实算核验。"
+    },
+    {
+      "gate": "metadataCompleteness",
+      "verdict": "PASS",
+      "evidence": "正文具备中英文名、作者与尼德兰归属、1565 年、材质尺寸、地点与在展状态、参观优先级、重要性和建议停留。"
+    },
+    {
+      "gate": "cardIndependence",
+      "verdict": "PASS",
+      "evidence": "卡片简介为独立的一句价值判断，长度落在 24—100 可见字符内；不以导览命令开场，也不是快层摘句。"
+    },
+    {
+      "gate": "fastLayer",
+      "verdict": "PASS",
+      "evidence": "快层以猎人、狐狸、冰面活动和统一冬色给出观看路线，并明确暂时答案：人物引入故事，冬季环境统领全画；长度处于规范区间。"
+    },
+    {
+      "gate": "deepLayerIndependence",
+      "verdict": "PASS",
+      "evidence": "遮去快层后，深层仍从近景悬念独立建立空间、活动、色调、月份图传统与比较结论；遮去深层后，快层仍能指导现场观看。"
+    },
+    {
+      "gate": "paragraphCognitiveProgression",
+      "verdict": "PASS",
+      "evidence": "认知依次由猎人为何未占满画面，推进到山谷中的多种活动，再由统一冷色解释环境如何统摄人物，继而说明对月份图传统的改造，最后用同组作品比较检验冬季节点的不可替代性；提前移动后段会失去前置认识。"
+    },
+    {
+      "gate": "workSpecificMustPass",
+      "verdict": "PASS",
+      "evidence": "正文用近景归猎、远处冰面活动和整体冬景共同回答核心问题，解释月份图从劳动娱乐栏目向完整季节环境的变化，并未判断猎人与狗的情绪。"
+    },
+    {
+      "gate": "observableDetails",
+      "verdict": "PASS",
+      "evidence": "狐狸、斜坡、非纯白雪色、小火和枝头鸟五项均给出可现场核对的对象与动作，超过至少四项要求。"
+    },
+    {
+      "gate": "secondLook",
+      "verdict": "PASS",
+      "evidence": "结尾要求从狐狸沿斜坡移向冰面，再扫过灰绿、蓝灰与脏白；动作属于本作，并以‘猎人只是冬季容纳的生活之一’回收深层新认识。"
+    },
+    {
+      "gate": "factBoundary",
+      "verdict": "PASS",
+      "evidence": "‘收获显得有限’保持为观察推断；心理、空间与时间先后、原陈列位置均被正确收窄；组合景观不被写成可定位村庄。"
+    },
+    {
+      "gate": "highRiskClaims",
+      "verdict": "PASS",
+      "evidence": "未把动作升级成疲惫、失望等心理，未把近远观看顺序升级成事件先后；‘第一幅且最突出’明确归属于 KHM 馆方评价，没有伪装成无范围学界共识。"
+    },
+    {
+      "gate": "sources",
+      "verdict": "PASS",
+      "evidence": "资料行提供四个可点击来源，分别覆盖作品、馆藏、季节组画与补充展览资料；正文数字、比较和馆方评价均能回到所给资料包。"
+    },
+    {
+      "gate": "nativeChineseAndFixedSyntax",
+      "verdict": "PASS",
+      "evidence": "卡片、快层、标题、段落转折与结尾可自然朗读和复述；标题均为具体口语问题；没有通用‘这件作品值得看，因为’开场，也未用完整‘不是/并非……而是/只是……’骨架反复推进。"
+    },
+    {
+      "gate": "authorStyleAndObjectSpecificity",
+      "verdict": "PASS",
+      "evidence": "高视点、斜坡、近远尺度、组合景观及灰绿/蓝灰/脏白/黑色的整体处理均落在眼前作品；季节组画及其开创性位置说明本作在勃鲁盖尔风景实践中的作用，标题与结尾无法无损替换到另一件作品。"
+    },
+    {
+      "gate": "significanceFiveDimensions",
+      "verdict": "PASS",
+      "evidence": "艺术成就由空间与统一色调说明；艺术史位置由月份图改造及 KHM 的开创性评价说明；历史文化价值由十六世纪尼德兰六季观念与委托组画说明；稀有度/不可替代性由原六现五及冬季节点说明；馆藏位置由 KHM 约四十幅存世绘画中藏十二幅、可同馆比较三幅说明。"
+    },
+    {
+      "gate": "nearestComparators",
+      "verdict": "PASS",
+      "evidence": "比较类别锁定同一委托的现存兄弟作品；最近对象为维也纳、布拉格和纽约的另四幅，正文说明共享的季节组织价值、冬季节点的决定性差异，以及其他季节无法提供的持续寒冷整体。"
+    },
+    {
+      "gate": "productionLanguage",
+      "verdict": "PASS",
+      "evidence": "逐区扫描卡片、快层、深层、事实边界和资料行，均无研究缺口、图片许可、发布待办、测试、prompt、生成器、reviewer、版本迁移或‘发布前补核’等访客不可见生产语言。"
+    }
+  ],
+  "voiceRubric": [
+    {
+      "criterion": "入口",
+      "score": 2,
+      "maxScore": 2,
+      "evidence": "‘为什么猎人没有占住整幅画？’从标题、近景体量与视线越过猎人的具体矛盾进入。"
+    },
+    {
+      "criterion": "因果",
+      "score": 2,
+      "maxScore": 2,
+      "evidence": "斜坡打开空间，高视点铺开活动，统一冬色再收拢活动，最终解释风景为何取得组织全画的地位。"
+    },
+    {
+      "criterion": "人",
+      "score": 2,
+      "maxScore": 2,
+      "evidence": "猎人、冰面活动者和燎猪者把月份图传统与季节生活变得可理解，同时没有虚构人物内心。"
+    },
+    {
+      "criterion": "转折",
+      "score": 2,
+      "maxScore": 2,
+      "evidence": "答案由猎人归来的一条故事转为同一冬日的多种生活，再转为冬季环境统摄人物，转折均由空间与色调证据支持。"
+    },
+    {
+      "criterion": "视觉兑现",
+      "score": 2,
+      "maxScore": 2,
+      "evidence": "历史与价值判断持续返回狐狸、斜坡、冰面、冷色、小火、鸟与高视点。"
+    },
+    {
+      "criterion": "口语清晰度",
+      "score": 2,
+      "maxScore": 2,
+      "evidence": "核心可一口气复述为：猎人把人带进画面，山谷活动把故事放大，统一冬色让整个环境成为主角。"
+    },
+    {
+      "criterion": "第二眼",
+      "score": 2,
+      "maxScore": 2,
+      "evidence": "结尾提供从狐狸经斜坡到冰面、再扫整体冬色的具体复看动作，并改变猎人与冬景的主次判断。"
+    }
+  ],
+  "voiceScore": 14,
+  "voiceScoreMaximum": 14,
+  "voiceThreshold": 12,
+  "zeroScoreItems": [],
+  "mechanicalVerdict": "PASS",
+  "factBoundaryVerdict": "PASS",
+  "narrativeVerdict": "PASS",
+  "nativeChineseVerdict": "PASS",
+  "significanceVerdict": "PASS",
+  "failedItems": [],
+  "verdict": "PASS"
+}

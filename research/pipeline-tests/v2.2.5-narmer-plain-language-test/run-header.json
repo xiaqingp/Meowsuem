@@ -1,0 +1,43 @@
+{
+  "runId": "m28-2-v2.2.5-narmer-plain-language-author-2026-07-22",
+  "startedAt": "2026-07-22T23:22:30.4110992-07:00",
+  "stage": "author",
+  "researchMode": "reuse_locked_research_card",
+  "museumId": "egyptian",
+  "workId": "narmer-palette",
+  "workIdentity": {
+    "artistOrCulture": "Ancient Egyptian, Early Dynastic Period",
+    "title": "Narmer Palette",
+    "museum": "The Egyptian Museum in Cairo"
+  },
+  "pipelineVersion": "2.2.5",
+  "instructionVersion": "1.8.4",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c22c60e3a215aa1ac90da402debeb2caf9da39975cb2921c4845ef74ef14c834"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "b5b38a520bc9e553e03c8698dbe85410dd9085fcf35cdd9b4daba11e3393073f"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "c7790d213dfa129c117b7ccc1676800d54ffe6858d8975b21986cf005ea6172b"
+    },
+    {
+      "path": "research/pipeline-tests/v2.2.2-three-work-production-patch-2026-07-22/research/narmer-palette-research-card.md",
+      "sha256": "9c4ad157fa6b9cf254768efab1c301b0dae9dcedf56400c61b13c6322a4bafb8"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "test_only_no_production_write"
+}

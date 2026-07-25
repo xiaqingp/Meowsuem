@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.4.2",
+  "runId": "m28-3-chichu-author-willow-reflections-2026-07-23",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T03:08:50.279Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_workId_from_run_header",
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "3c79305b590471c4f189121e7175f01eb5cf048d5c8e85e631f33686e4b4e7df",
+      "bytes": 6941
+    },
+    {
+      "path": "card.txt",
+      "sha256": "ce88c9bca728f5a71ccb8ce676d4605d0910447fdf726194391b625e508f5bb6",
+      "bytes": 286
+    },
+    {
+      "path": "draft.md",
+      "sha256": "6255d909d62acc218ddcb9d5e4c735468c942a5df6e2f135e8731325cf33310e",
+      "bytes": 4195
+    }
+  ]
+}

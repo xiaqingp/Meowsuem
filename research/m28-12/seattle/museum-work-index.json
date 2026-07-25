@@ -1,0 +1,1005 @@
+{
+  "schemaVersion": "museum-work-index/1.0",
+  "works": [
+    {
+      "workId": "a-country-home",
+      "researchComplexity": "complex",
+      "riskFlags": [
+        "availability_ambiguity",
+        "cross_source_synthesis"
+      ],
+      "selectionEvidence": {
+        "collectionIdentity": "SAM馆藏号65.80，Frederic Edwin Church，1854年。",
+        "availability": "馆方列入2022-10-20开始的ongoing展览；当天位置仍建议核验。",
+        "imageStrategy": "使用SAM对象图；摄影Paul Macapia，复用许可待核。",
+        "importanceCandidate": "Church早期以统一大气组织普通家园景观的成熟节点，候选为重要藏品。",
+        "rareCandidate": false,
+        "nearestComparators": "Evening After a Storm、New England Landscape，以及后来的Niagara和The Heart of the Andes。",
+        "decisiveDifference": "本作以同一空气统合普通元素，而非依赖戏剧落日、元素繁多或单一自然奇观。",
+        "independentCollectionLine": "1965年家族赠藏，构成SAM十九世纪美国风景收藏节点。",
+        "parentRelationship": null,
+        "requiresFullCard": true,
+        "sourceClaimIds": [
+          "R64",
+          "R65",
+          "R66",
+          "R67",
+          "R68",
+          "R69",
+          "R70",
+          "R71",
+          "R72"
+        ]
+      },
+      "structureSummary": {
+        "coreValue": "作品以共享的大气和光色把家屋、水、树与天空组织成统一整体，保存Church转向巨幅奇观前的早期提炼。",
+        "mediumPeriod": "1854年美国风景画；布面油画。",
+        "sectionSignals": [
+          "formal_achievement",
+          "artist_landmark",
+          "social_document"
+        ],
+        "routeRole": "美国风景线中连接家园观念与Church生涯转折的高优先级节点。",
+        "sourceClaimIds": [
+          "R66",
+          "R67",
+          "R68",
+          "R69",
+          "R73"
+        ]
+      },
+      "researchCardPath": "research/m28-12/seattle/research-batch-01/a-country-home-research-card.md",
+      "researchCardSha256": "306bb957fa527c2e1b7e5466fa6678e1dc61ceeffb8a3960202b1484575918e9",
+      "fullCardFallback": "research/m28-12/seattle/research-batch-01/a-country-home-research-card.md"
+    },
+    {
+      "workId": "barcelona",
+      "researchComplexity": "complex",
+      "riskFlags": [
+        "availability_ambiguity",
+        "cross_source_synthesis"
+      ],
+      "selectionEvidence": {
+        "collectionIdentity": "SAM馆藏号61.188，Francis Picabia，1924年。",
+        "availability": "最近明确在展至2022-01-23；2026-07-24当前未知。",
+        "imageStrategy": "使用SAM对象图；摄影Susan Dirk，复用许可待核。",
+        "importanceCandidate": "文字与互相冲突的图像叠置，提供Picabia多变现代主义实践的具体切片。",
+        "rareCandidate": false,
+        "nearestComparators": "Picabia约1924—1926年的怪诞人物画与文字图像作品。",
+        "decisiveDifference": "本作的文字层与对比图像并置可具体观察，但不足以证明系列唯一性。",
+        "independentCollectionLine": "经Zoe Dusanne Gallery进入西雅图、1959年由SAM购买的欧洲现代主义收藏节点。",
+        "parentRelationship": null,
+        "requiresFullCard": true,
+        "sourceClaimIds": [
+          "R11",
+          "R12",
+          "R13",
+          "R14",
+          "R15",
+          "R16",
+          "R17",
+          "R18"
+        ]
+      },
+      "structureSummary": {
+        "coreValue": "本作让文字和多层图像彼此干扰，具体呈现Picabia拒绝固定风格与单一解释的现代主义方法。",
+        "mediumPeriod": "1924年欧洲现代主义；板上油画。",
+        "sectionSignals": [
+          "artistic_breakthrough",
+          "artist_landmark",
+          "conceptual_question"
+        ],
+        "routeRole": "补足欧洲达达／超现实主义时间断面的中高优先级节点。",
+        "sourceClaimIds": [
+          "R13",
+          "R14",
+          "R15",
+          "R19"
+        ]
+      },
+      "researchCardPath": "research/m28-12/seattle/research-batch-01/barcelona-research-card.md",
+      "researchCardSha256": "bde22e647c3074a86d7b57fb5b970d0b005482d04ee685dd45b89f8c133e152b",
+      "fullCardFallback": "research/m28-12/seattle/research-batch-01/barcelona-research-card.md"
+    },
+    {
+      "workId": "double-elvis",
+      "researchComplexity": "complex",
+      "riskFlags": [
+        "composite_or_parent_child",
+        "availability_ambiguity",
+        "cross_source_synthesis"
+      ],
+      "selectionEvidence": {
+        "collectionIdentity": "SAM馆藏号76.9，由1963年影像面板与1976年空白面板组成。",
+        "availability": "馆方列入2022-12-22开始的ongoing展览；当天位置仍建议核验。",
+        "imageStrategy": "使用SAM对象图；作品版权属Warhol Foundation/ARS，摄影Paul Macapia。",
+        "importanceCandidate": "重复名人影像与SAM委托的空白板共同构成作品，候选为重要藏品。",
+        "rareCandidate": false,
+        "nearestComparators": "MoMA的Double Elvis与SFMOMA的Triple Elvis，均为1963年Ferus类型。",
+        "decisiveDifference": "SAM在1976年委托加入同尺寸空白面板，使收藏行为进入作品结构。",
+        "independentCollectionLine": "SAM于1976年购买第一板并直接委托第二板，是本馆收藏史的独立节点。",
+        "parentRelationship": "两面板组成单一馆藏对象76.9；年代与制作行为不同。",
+        "requiresFullCard": true,
+        "sourceClaimIds": [
+          "R31",
+          "R32",
+          "R33",
+          "R34",
+          "R35",
+          "R36",
+          "R37",
+          "R38",
+          "R40"
+        ]
+      },
+      "structureSummary": {
+        "coreValue": "1963年重复猫王与1976年空白板并置，让复制、缺席和博物馆委托成为同一作品。",
+        "mediumPeriod": "1963／1976年美国波普艺术；丝网印墨与合成聚合物颜料、画布。",
+        "sectionSignals": [
+          "conceptual_question",
+          "artist_landmark",
+          "social_document"
+        ],
+        "routeRole": "现代与当代艺术线的高优先级馆藏史节点。",
+        "sourceClaimIds": [
+          "R33",
+          "R34",
+          "R35",
+          "R38",
+          "R39"
+        ]
+      },
+      "researchCardPath": "research/m28-12/seattle/research-batch-01/double-elvis-research-card.md",
+      "researchCardSha256": "eda01f1246c55be1113a0aa6b5e7fdb2a17b6ab2d259d3d71cb9d2ced3342bd4",
+      "fullCardFallback": "research/m28-12/seattle/research-batch-01/double-elvis-research-card.md"
+    },
+    {
+      "workId": "dr-silvester-gardiner",
+      "researchComplexity": "complex",
+      "riskFlags": [
+        "attribution_or_date_conflict",
+        "availability_ambiguity",
+        "cross_source_synthesis"
+      ],
+      "selectionEvidence": {
+        "collectionIdentity": "SAM馆藏号2006.125，John Singleton Copley，年代很可能为1772年。",
+        "availability": "馆方列入2022-10-20开始的ongoing展览；当天位置仍建议核验。",
+        "imageStrategy": "使用SAM三张对象图；摄影Susan Cole，复用许可待核。",
+        "importanceCandidate": "殖民地精英肖像与革命时期财产重分配来源史相交，候选为重要藏品。",
+        "rareCandidate": false,
+        "nearestComparators": "The Met的Mrs. Jerathmael Bowers等Copley殖民地精英肖像。",
+        "decisiveDifference": "坐像者的医药与地产财富背景、1778年财产重分配来源链构成具体历史差异。",
+        "independentCollectionLine": "SAM美国艺术线中连接殖民肖像与革命史的节点。",
+        "parentRelationship": null,
+        "requiresFullCard": true,
+        "sourceClaimIds": [
+          "R42",
+          "R43",
+          "R44",
+          "R45",
+          "R46",
+          "R47",
+          "R48"
+        ]
+      },
+      "structureSummary": {
+        "coreValue": "肖像用服饰、家具和姿态建构殖民精英身份，而革命时期的来源史又显示这种秩序并不稳定。",
+        "mediumPeriod": "约1772年英属北美殖民肖像；布面油画。",
+        "sectionSignals": [
+          "social_document",
+          "historical_transition",
+          "artist_landmark"
+        ],
+        "routeRole": "美国艺术线的高优先级殖民社会与革命前夕节点。",
+        "sourceClaimIds": [
+          "R44",
+          "R45",
+          "R46",
+          "R47",
+          "R49"
+        ]
+      },
+      "researchCardPath": "research/m28-12/seattle/research-batch-01/dr-silvester-gardiner-research-card.md",
+      "researchCardSha256": "e48af14dbe545a473e064fc7675cd3abd85193b56b337d6a3fbf553432b72616",
+      "fullCardFallback": "research/m28-12/seattle/research-batch-01/dr-silvester-gardiner-research-card.md"
+    },
+    {
+      "workId": "how-my-mothers-embroidered-apron-unfolds-in-my-life",
+      "researchComplexity": "complex",
+      "riskFlags": [
+        "availability_ambiguity",
+        "cross_source_synthesis"
+      ],
+      "selectionEvidence": {
+        "collectionIdentity": "SAM馆藏号74.40，Arshile Gorky，1944年。",
+        "availability": "最近明确在SAM展出至2021-04-26；2026-07-24当前未知。",
+        "imageStrategy": "使用SAM对象图；开放许可未注明，复用须清权。",
+        "importanceCandidate": "1944年成熟抽象把个人记忆、自然观察与超现实主义方法相连，候选为重要藏品。",
+        "rareCandidate": false,
+        "nearestComparators": "NGA的One Year the Milkweed（1944）。",
+        "decisiveDifference": "本作题名与母亲主题形成个人记忆入口，但具体形体指代未知。",
+        "independentCollectionLine": "Virginia与Bagley Wright收藏于1974年赠予SAM的现代艺术节点。",
+        "parentRelationship": null,
+        "requiresFullCard": true,
+        "sourceClaimIds": [
+          "R21",
+          "R22",
+          "R23",
+          "R24",
+          "R25",
+          "R26",
+          "R27",
+          "R28"
+        ]
+      },
+      "structureSummary": {
+        "coreValue": "作品让个人记忆进入流动抽象，却不把题名中的围裙和母亲还原成可辨认插图。",
+        "mediumPeriod": "1944年美国现代绘画；布面油画。",
+        "sectionSignals": [
+          "artist_landmark",
+          "artistic_breakthrough",
+          "conceptual_question"
+        ],
+        "routeRole": "现代艺术线中连接超现实主义、移民记忆与抽象表现主义前史的高优先级节点。",
+        "sourceClaimIds": [
+          "R23",
+          "R25",
+          "R26",
+          "R27",
+          "R29"
+        ]
+      },
+      "researchCardPath": "research/m28-12/seattle/research-batch-01/how-my-mothers-embroidered-apron-unfolds-in-my-life-research-card.md",
+      "researchCardSha256": "2982511dae4163b08ff3abda5a62498941aebef34e27120a1bf464fd17fd63ab",
+      "fullCardFallback": "research/m28-12/seattle/research-batch-01/how-my-mothers-embroidered-apron-unfolds-in-my-life-research-card.md"
+    },
+    {
+      "workId": "naaxein",
+      "researchComplexity": "complex",
+      "riskFlags": [
+        "availability_ambiguity",
+        "insufficient_official_sources",
+        "cross_source_synthesis"
+      ],
+      "selectionEvidence": {
+        "collectionIdentity": "SAM馆藏号68.194，Tlingit，约1880年，山羊毛、黄雪松树皮与染料。",
+        "availability": "对象页无当前展厅或展史字段，2026-07-24状态未知。",
+        "imageStrategy": "使用SAM对象图；摄影与开放许可未注明，并需尊重氏族图案权利。",
+        "importanceCandidate": "材料、纬线缠织、穿着资格与舞动语境共同构成价值，候选为重要藏品。",
+        "rareCandidate": false,
+        "nearestComparators": "SAM自藏83.229、91.1.79、95.89及Cleveland晚19世纪Naaxein。",
+        "decisiveDifference": "68.194是SAM历史纺织收藏群的具体节点，但公开资料不足以证明其纹样或数量唯一。",
+        "independentCollectionLine": "SAM西北海岸原住民纺织与礼仪服饰收藏线。",
+        "parentRelationship": null,
+        "requiresFullCard": true,
+        "sourceClaimIds": [
+          "R97",
+          "R98",
+          "R99",
+          "R100",
+          "R101",
+          "R102",
+          "R103",
+          "R104",
+          "R105",
+          "R107"
+        ]
+      },
+      "structureSummary": {
+        "coreValue": "Naaxein把雪松树皮、山羊毛、镜像织造、身份权利与舞动场景连成一套仍在传承的礼仪纺织系统。",
+        "mediumPeriod": "约1880年Tlingit礼仪纺织；山羊毛、黄雪松树皮与染料。",
+        "sectionSignals": [
+          "material_or_technical_innovation",
+          "ritual_or_original_context",
+          "civilization_system"
+        ],
+        "routeRole": "补足西北海岸材料、劳动、身份与仪式的高优先级纺织节点。",
+        "sourceClaimIds": [
+          "R99",
+          "R100",
+          "R101",
+          "R102",
+          "R103",
+          "R106"
+        ]
+      },
+      "researchCardPath": "research/m28-12/seattle/research-batch-01/naaxein-research-card.md",
+      "researchCardSha256": "57eb356f16bb94565a027c9f7af5576b7c4a2e48cbbf724e24ad55adeee483cf",
+      "fullCardFallback": "research/m28-12/seattle/research-batch-01/naaxein-research-card.md"
+    },
+    {
+      "workId": "narragansett-bay",
+      "researchComplexity": "complex",
+      "riskFlags": [
+        "availability_ambiguity",
+        "cross_source_synthesis"
+      ],
+      "selectionEvidence": {
+        "collectionIdentity": "SAM馆藏号2001.1054，John Frederick Kensett，1861年。",
+        "availability": "馆方列入2022-10-20开始的ongoing展览；当天位置仍建议核验。",
+        "imageStrategy": "使用SAM对象图；摄影与开放许可未注明，复用须清权。",
+        "importanceCandidate": "Kensett由森林内部转向大西洋海岸光线研究的阶段作品，候选为重要藏品。",
+        "rareCandidate": false,
+        "nearestComparators": "Kensett其他Newport／Narragansett海岸画及同馆A Country Home。",
+        "decisiveDifference": "本作以开阔水天和极小人物压低事件密度，区别于Church较丰富的家园景物组织。",
+        "independentCollectionLine": "2001年赠藏，构成SAM十九世纪美国海岸风景节点。",
+        "parentRelationship": null,
+        "requiresFullCard": true,
+        "sourceClaimIds": [
+          "R75",
+          "R76",
+          "R77",
+          "R78",
+          "R79",
+          "R80",
+          "R81",
+          "R82"
+        ]
+      },
+      "structureSummary": {
+        "coreValue": "作品用开阔水天、低岸线和极小人物呈现Kensett转向海岸透明光线研究后的安静观看方法。",
+        "mediumPeriod": "1861年美国风景画；布面油画。",
+        "sectionSignals": [
+          "formal_achievement",
+          "artist_landmark",
+          "social_document"
+        ],
+        "routeRole": "与Church形成非重复对照的美国风景线中高优先级节点。",
+        "sourceClaimIds": [
+          "R77",
+          "R78",
+          "R81",
+          "R83"
+        ]
+      },
+      "researchCardPath": "research/m28-12/seattle/research-batch-01/narragansett-bay-research-card.md",
+      "researchCardSha256": "ff9c497f0ca53a1dc29d2e20cb4d1db8a6c10c7575837667882df757086fb31a",
+      "fullCardFallback": "research/m28-12/seattle/research-batch-01/narragansett-bay-research-card.md"
+    },
+    {
+      "workId": "sea-change",
+      "researchComplexity": "complex",
+      "riskFlags": [
+        "availability_ambiguity",
+        "cross_source_synthesis"
+      ],
+      "selectionEvidence": {
+        "collectionIdentity": "SAM馆藏号58.55，Jackson Pollock，1947年。",
+        "availability": "2017年曾由馆方称在展，2026-07-24当前状态未知。",
+        "imageStrategy": "使用SAM对象图；摄影Eduardo Calderón，复用许可待核。",
+        "importanceCandidate": "同一画面保存1946年画架画与1947年地面滴洒的转折证据，候选为重要藏品。",
+        "rareCandidate": false,
+        "nearestComparators": "MoMA的Full Fathom Five（1947）。",
+        "decisiveDifference": "Sea Change的技术研究强调选择性保留、遮蔽及砂砾；比较不足以证明唯一或第一。",
+        "independentCollectionLine": "Peggy Guggenheim于1958年赠予SAM的现代艺术收藏节点。",
+        "parentRelationship": null,
+        "requiresFullCard": true,
+        "sourceClaimIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04",
+          "R05",
+          "R06",
+          "R07",
+          "R08"
+        ]
+      },
+      "structureSummary": {
+        "coreValue": "作品以可见的两阶段物质层次呈现Pollock从画架与画笔转向地面滴洒的生涯转折。",
+        "mediumPeriod": "1947年美国现代绘画；油画颜料、商业油漆、砂砾与画布。",
+        "sectionSignals": [
+          "artistic_breakthrough",
+          "artist_landmark",
+          "material_or_technical_innovation"
+        ],
+        "routeRole": "现代艺术线的高优先级技术转折节点，展出状态需核验。",
+        "sourceClaimIds": [
+          "R03",
+          "R04",
+          "R05",
+          "R09"
+        ]
+      },
+      "researchCardPath": "research/m28-12/seattle/research-batch-01/sea-change-research-card.md",
+      "researchCardSha256": "963ea8ebb33fcc4fddd52da97e7ca73f2c44231545bb5d39858e2707775b876e",
+      "fullCardFallback": "research/m28-12/seattle/research-batch-01/sea-change-research-card.md"
+    },
+    {
+      "workId": "still-life-with-strawberries-and-ostrich-egg-cup",
+      "researchComplexity": "complex",
+      "riskFlags": [
+        "availability_ambiguity",
+        "cross_source_synthesis"
+      ],
+      "selectionEvidence": {
+        "collectionIdentity": "SAM馆藏号2014.23，Raphaelle Peale，1814年。",
+        "availability": "馆方列入2022-10-20开始的ongoing展览；当天位置仍建议核验。",
+        "imageStrategy": "使用SAM对象图；摄影Elizabeth Mann，复用许可待核。",
+        "importanceCandidate": "早期美国静物把不同地区与材质的收藏物及家族农场草莓并置，候选为重要藏品。",
+        "rareCandidate": false,
+        "nearestComparators": "NGA的Strawberries and Cream（1816）。",
+        "decisiveDifference": "SAM作品在同一小幅画中组合鸵鸟蛋银装杯、东亚瓷器与家族农场草莓。",
+        "independentCollectionLine": "长期借展后于2014年正式入藏，补足SAM美国艺术的静物与物质文化线。",
+        "parentRelationship": null,
+        "requiresFullCard": true,
+        "sourceClaimIds": [
+          "R53",
+          "R54",
+          "R55",
+          "R56",
+          "R57",
+          "R58",
+          "R59",
+          "R60",
+          "R62"
+        ]
+      },
+      "structureSummary": {
+        "coreValue": "小幅静物以精确的材质差异保存了Peale家族收藏、实验农场与早期美国全球物质接触。",
+        "mediumPeriod": "1814年美国静物；带后加部分的木板油画。",
+        "sectionSignals": [
+          "formal_achievement",
+          "social_document",
+          "artist_landmark"
+        ],
+        "routeRole": "美国艺术线中补足肖像、风景之外物质文化的高优先级节点。",
+        "sourceClaimIds": [
+          "R55",
+          "R56",
+          "R57",
+          "R59",
+          "R61"
+        ]
+      },
+      "researchCardPath": "research/m28-12/seattle/research-batch-01/still-life-with-strawberries-and-ostrich-egg-cup-research-card.md",
+      "researchCardSha256": "4c3a5b96e867f1e4b742bc730a902da9a8536e140e08cd4098d5383b31f8598d",
+      "fullCardFallback": "research/m28-12/seattle/research-batch-01/still-life-with-strawberries-and-ostrich-egg-cup-research-card.md"
+    },
+    {
+      "workId": "swan-rattle",
+      "researchComplexity": "complex",
+      "riskFlags": [
+        "identity_conflict",
+        "insufficient_official_sources",
+        "availability_ambiguity",
+        "cross_source_synthesis"
+      ],
+      "selectionEvidence": {
+        "collectionIdentity": "SAM馆藏号59.104，19世纪木制着色响器；文化字段并列Tlingit与Tsimshian。",
+        "availability": "对象页无当前展厅或展史字段，2026-07-24状态未知。",
+        "imageStrategy": "使用SAM对象图；摄影与开放许可未注明，并需考虑文化使用限制。",
+        "importanceCandidate": "可承担西北海岸雕刻、声音与仪式行动共同构成器物意义的研究问题。",
+        "rareCandidate": false,
+        "nearestComparators": "SAM馆藏Heiltsuk Raven rattle（59.105）及其他西北海岸响器。",
+        "decisiveDifference": "具体鸟形与Tlingit/Tsimshian双重著录不同，但不足以证明稀有或唯一。",
+        "independentCollectionLine": "SAM西北海岸原住民声音与仪式器物收藏线。",
+        "parentRelationship": null,
+        "requiresFullCard": true,
+        "sourceClaimIds": [
+          "R86",
+          "R87",
+          "R88",
+          "R89",
+          "R90",
+          "R91",
+          "R92",
+          "R94",
+          "R95"
+        ]
+      },
+      "structureSummary": {
+        "coreValue": "这件木制鸟形响器提示西北海岸艺术的雕刻、声音、持握与仪式行动不可分开，但其单件用途仍需保留边界。",
+        "mediumPeriod": "19世纪西北海岸原住民木雕着色响器。",
+        "sectionSignals": [
+          "ritual_or_original_context",
+          "material_or_technical_innovation",
+          "civilization_system"
+        ],
+        "routeRole": "补足西雅图目的地叙事中西北海岸声音与仪式器物的中高优先级节点。",
+        "sourceClaimIds": [
+          "R86",
+          "R88",
+          "R89",
+          "R90",
+          "R93"
+        ]
+      },
+      "researchCardPath": "research/m28-12/seattle/research-batch-01/swan-rattle-research-card.md",
+      "researchCardSha256": "e58e9c8cbc6896083e45e44b3044c69d056652691b1f5ebfa2e1226995fe91a3",
+      "fullCardFallback": "research/m28-12/seattle/research-batch-01/swan-rattle-research-card.md"
+    },
+    {
+      "workId": "belt-mask-of-iyoba-idia",
+      "researchComplexity": "complex",
+      "riskFlags": [
+        "rare_candidate",
+        "superlative_claim",
+        "cross_source_synthesis",
+        "availability_ambiguity"
+      ],
+      "selectionEvidence": {
+        "collectionIdentity": "SAM 馆藏号 81.17.493 的 16 世纪 Benin Kingdom 象牙王室腰饰面具。",
+        "availability": "最近确认展期止于 2023-08-28；当前未知。",
+        "imageStrategy": "使用 SAM 两张对象照片，发布前核验许可。",
+        "importanceCandidate": "王母 Idia 纪念、Oba 仪式佩戴与 1897 掠夺史汇于一物，建议重要藏品。",
+        "rareCandidate": true,
+        "nearestComparators": "British Museum Af1910,0513.1、Met 1978.412.323 等同组象牙 hip-pendants。",
+        "decisiveDifference": "SAM 保存了精确到 1897-02-16、掠取者与王宫卧室箱子的来源链；尚不足以证明对象级全球不可替代。",
+        "independentCollectionLine": "African Art 中 Benin 王室艺术、女性权力与殖民掠夺节点。",
+        "parentRelationship": null,
+        "requiresFullCard": true,
+        "sourceClaimIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04",
+          "R05",
+          "R06",
+          "R07",
+          "R08",
+          "R09"
+        ]
+      },
+      "structureSummary": {
+        "coreValue": "它既是王母权力进入 Oba 仪式的象牙形象，也是 1897 年王宫掠夺留下精确来源链的物证。",
+        "mediumPeriod": "Benin Kingdom，约 1517–1550，象牙王室饰件。",
+        "sectionSignals": [
+          "王室仪式",
+          "女性权力",
+          "殖民掠夺",
+          "来源伦理"
+        ],
+        "routeRole": "承担全馆最强的原始用途与收藏伦理双重观看节点。",
+        "sourceClaimIds": [
+          "R02",
+          "R05",
+          "R06",
+          "R07"
+        ]
+      },
+      "researchCardPath": "research/m28-12/seattle/research-batch-02/belt-mask-of-iyoba-idia-research-card.md",
+      "researchCardSha256": "018b597f10ac11f466e4297189323a2a28f480022036afd5e97201d30e79e46f",
+      "fullCardFallback": "research/m28-12/seattle/research-batch-02/belt-mask-of-iyoba-idia-research-card.md"
+    },
+    {
+      "workId": "canoe-prow-figure-nguzu-nguzu",
+      "researchComplexity": "complex",
+      "riskFlags": [
+        "insufficient_official_sources",
+        "availability_ambiguity",
+        "cross_source_synthesis"
+      ],
+      "selectionEvidence": {
+        "collectionIdentity": "SAM 馆藏号 81.17.1443，19 世纪末 Solomon Islands 木与鹦鹉螺壳舟艏像。",
+        "availability": "最近明确展期止于 2022-05-30；当前未知。",
+        "imageStrategy": "使用 SAM 两张对象照片，发布前核验许可。",
+        "importanceCandidate": "雕刻意义由水线安装、船体、乘员和航海危险共同产生，建议重要藏品或特色看点。",
+        "rareCandidate": false,
+        "nearestComparators": "British Museum Oc1938,1001.33 及完整舟 Oc1927,1022.1。",
+        "decisiveDifference": "SAM 本件以鹦鹉螺壳嵌饰和馆方记录的最多 35 人航行关系形成具体差异。",
+        "independentCollectionLine": "Oceanic Art 中航海、船体与保护性雕刻节点。",
+        "parentRelationship": "原属大型独木舟船艏的附属守护形象，现与船体分离。",
+        "requiresFullCard": true,
+        "sourceClaimIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04",
+          "R05",
+          "R06",
+          "R07",
+          "R09"
+        ]
+      },
+      "structureSummary": {
+        "coreValue": "这件雕刻原在水线附近替整艘舟警戒；离开船体后，必须用安装位置才能恢复其意义。",
+        "mediumPeriod": "Solomon Islands，19 世纪末，木与鹦鹉螺壳。",
+        "sectionSignals": [
+          "航海原境",
+          "船体雕刻",
+          "大洋洲"
+        ],
+        "routeRole": "让观众把独立展柜中的雕像重新接回船体、乘员和海上行动。",
+        "sourceClaimIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04",
+          "R05"
+        ]
+      },
+      "researchCardPath": "research/m28-12/seattle/research-batch-02/canoe-prow-figure-nguzu-nguzu-research-card.md",
+      "researchCardSha256": "50e3537ec9a7dd183249a97eb0c275d1f1227eb3abf37282697162aeb0fbd8e3",
+      "fullCardFallback": "research/m28-12/seattle/research-batch-02/canoe-prow-figure-nguzu-nguzu-research-card.md"
+    },
+    {
+      "workId": "cylinder-vase-depicting-scribes-in-the-underworld",
+      "researchComplexity": "complex",
+      "riskFlags": [
+        "cross_source_synthesis",
+        "availability_ambiguity",
+        "attribution_or_date_conflict"
+      ],
+      "selectionEvidence": {
+        "collectionIdentity": "SAM 馆藏号 81.109 的 Maya 施彩化妆土圆筒器，约 600–900。",
+        "availability": "展史列 ongoing 展览，但无明确当前展厅字段；现场待核验。",
+        "imageStrategy": "使用 SAM 三张对象照片支持环绕观看，发布前核验许可。",
+        "importanceCandidate": "把书写、宴饮与冥界图像组织在圆周表面的重要古典期玛雅器物。",
+        "rareCandidate": false,
+        "nearestComparators": "Met 314311，7–8 世纪带器沿文字和坐姿神祇的 Maya 圆筒器。",
+        "decisiveDifference": "本作连续十位书吏、坐姿主宰与张口怪物构成不同的冥界场景。",
+        "independentCollectionLine": "Ancient American Art 中玛雅文字、宴饮与神话图像节点。",
+        "parentRelationship": null,
+        "requiresFullCard": true,
+        "sourceClaimIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R05",
+          "R06",
+          "R07",
+          "R09"
+        ]
+      },
+      "structureSummary": {
+        "coreValue": "它让一只饮杯同时成为文字载体与环绕式冥界图像，观看必须随器身移动。",
+        "mediumPeriod": "古典期玛雅，约 600–900，施彩化妆土陶。",
+        "sectionSignals": [
+          "玛雅文字",
+          "宴饮制度",
+          "冥界图像"
+        ],
+        "routeRole": "承担古代美洲路线中“器物如何同时被用、被读、被观看”的节点。",
+        "sourceClaimIds": [
+          "R01",
+          "R02",
+          "R05",
+          "R06"
+        ]
+      },
+      "researchCardPath": "research/m28-12/seattle/research-batch-02/cylinder-vase-depicting-scribes-in-the-underworld-research-card.md",
+      "researchCardSha256": "09060d9985106bcea269462a7ae1824a942f8a11c7d741fa3f1e37ba13865cad",
+      "fullCardFallback": "research/m28-12/seattle/research-batch-02/cylinder-vase-depicting-scribes-in-the-underworld-research-card.md"
+    },
+    {
+      "workId": "folio-from-the-dispersed-blue-quran",
+      "researchComplexity": "complex",
+      "riskFlags": [
+        "composite_or_parent_child",
+        "attribution_or_date_conflict",
+        "availability_ambiguity",
+        "cross_source_synthesis"
+      ],
+      "selectionEvidence": {
+        "collectionIdentity": "SAM 馆藏号 69.37，散佚《蓝色古兰经》的一叶；SAM 断为 9 世纪 North African。",
+        "availability": "曾于 Seattle Asian Art Museum 展至 2021-07-11；当前未知，非市中心主馆确定展品。",
+        "imageStrategy": "使用 SAM 两张对象照片，发布前核验许可。",
+        "importanceCandidate": "靛蓝皮纸、金银字与早期 Kufic 排版共同体现经文诵读和豪华手稿设计，建议重要藏品。",
+        "rareCandidate": false,
+        "nearestComparators": "Met 2004.88 等同一分散父手稿书叶。",
+        "decisiveDifference": "本页具体字行与经文段落不同，但公开页尚无释文，无法建立对象级不可替代性。",
+        "independentCollectionLine": "Islamic Art 中早期古兰经书写、材料与分散手稿节点。",
+        "parentRelationship": "分散的多卷《Blue Qur'an》父手稿中的单叶。",
+        "requiresFullCard": true,
+        "sourceClaimIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04",
+          "R05",
+          "R06",
+          "R07",
+          "R09"
+        ]
+      },
+      "structureSummary": {
+        "coreValue": "深蓝皮纸和金字把经文的诵读、记忆与页面节奏组织成同一种视觉经验。",
+        "mediumPeriod": "北非早期伊斯兰手稿，约 9 世纪，金银与靛蓝染动物皮纸。",
+        "sectionSignals": [
+          "经文书写",
+          "豪华手稿",
+          "分散对象"
+        ],
+        "routeRole": "补入文字本身就是主要视觉材料的观看节点，并提醒跨馆址核验。",
+        "sourceClaimIds": [
+          "R01",
+          "R02",
+          "R05",
+          "R06"
+        ]
+      },
+      "researchCardPath": "research/m28-12/seattle/research-batch-02/folio-from-the-dispersed-blue-quran-research-card.md",
+      "researchCardSha256": "8c209aaedcd95f5d5356428055a0b79062bd49c6a1ce9d2dd0b507fd4804258b",
+      "fullCardFallback": "research/m28-12/seattle/research-batch-02/folio-from-the-dispersed-blue-quran-research-card.md"
+    },
+    {
+      "workId": "four-cornered-hat-with-birds",
+      "researchComplexity": "complex",
+      "riskFlags": [
+        "cross_source_synthesis",
+        "availability_ambiguity",
+        "attribution_or_date_conflict"
+      ],
+      "selectionEvidence": {
+        "collectionIdentity": "SAM 馆藏号 76.51，约 500–800 的 Peruvian/Wari 鸟纹四角帽。",
+        "availability": "展出状态未知。",
+        "imageStrategy": "使用 SAM 对象页照片，发布前核验许可。",
+        "importanceCandidate": "纺织技术、图案与整套穿戴共同制造 Wari 官员身份，建议重要藏品或特色看点。",
+        "rareCandidate": false,
+        "nearestComparators": "Met 316978，500–900 的 Tiwanaku or Wari 四角鸟纹帽。",
+        "decisiveDifference": "本作有蓬松打结绒头并由 SAM 归 Wari；Met 比较件无绒头且归属未定。",
+        "independentCollectionLine": "Ancient American Art 中安第斯纺织与可穿戴身份节点。",
+        "parentRelationship": null,
+        "requiresFullCard": true,
+        "sourceClaimIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R05",
+          "R06",
+          "R07",
+          "R09"
+        ]
+      },
+      "structureSummary": {
+        "coreValue": "帽子的结绒、鸟纹和四角轮廓与全身装束共同把佩戴者变成可移动的 Wari 身份图案。",
+        "mediumPeriod": "安第斯 Wari，约 500–800，骆驼科动物纤维与棉。",
+        "sectionSignals": [
+          "纺织技术",
+          "穿戴身份",
+          "安第斯文明"
+        ],
+        "routeRole": "补足雕塑和绘画之外由身体启动的古代艺术。",
+        "sourceClaimIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04"
+        ]
+      },
+      "researchCardPath": "research/m28-12/seattle/research-batch-02/four-cornered-hat-with-birds-research-card.md",
+      "researchCardSha256": "b55eb3bfc767f02cc31c37d2e9594dfcfc0fe0e782bb3492f5939ad30b58838c",
+      "fullCardFallback": "research/m28-12/seattle/research-batch-02/four-cornered-hat-with-birds-research-card.md"
+    },
+    {
+      "workId": "funerary-portrait",
+      "researchComplexity": "complex",
+      "riskFlags": [
+        "availability_ambiguity",
+        "cross_source_synthesis"
+      ],
+      "selectionEvidence": {
+        "collectionIdentity": "SAM 馆藏号 50.62 的 1–2 世纪 Egyptian 木板蛋彩丧葬肖像。",
+        "availability": "展出状态未知。",
+        "imageStrategy": "使用 SAM 对象页单件图，发布前核验许可。",
+        "importanceCandidate": "罗马肖像传统进入埃及木乃伊葬俗的具体物证，建议重要藏品候选。",
+        "rareCandidate": false,
+        "nearestComparators": "SAM 46.52、46.51 与 56.153；全球约有一千件同类留存。",
+        "decisiveDifference": "本板的具体人物形象和蛋彩表面不可由另一件替代，但同类足以解释核心制度。",
+        "independentCollectionLine": "Ancient Mediterranean Art 中罗马埃及丧葬文化节点。",
+        "parentRelationship": null,
+        "requiresFullCard": true,
+        "sourceClaimIds": [
+          "R01",
+          "R03",
+          "R04",
+          "R05",
+          "R07",
+          "R08",
+          "R09"
+        ]
+      },
+      "structureSummary": {
+        "coreValue": "它不是脱离身体的普通肖像，而是把希腊—罗马式面貌嵌入埃及木乃伊葬俗的木板。",
+        "mediumPeriod": "罗马时期埃及，1–2 世纪，木板蛋彩。",
+        "sectionSignals": [
+          "丧葬制度",
+          "跨文化肖像",
+          "古代板画"
+        ],
+        "routeRole": "与克劳狄乌斯头像对看个人身后纪念和帝王公共形象。",
+        "sourceClaimIds": [
+          "R01",
+          "R04",
+          "R05",
+          "R09"
+        ]
+      },
+      "researchCardPath": "research/m28-12/seattle/research-batch-02/funerary-portrait-research-card.md",
+      "researchCardSha256": "db6e61165714a8465b09121023141cb0cc636842ad4a6bd48156ad1f4d1a9b29",
+      "fullCardFallback": "research/m28-12/seattle/research-batch-02/funerary-portrait-research-card.md"
+    },
+    {
+      "workId": "gathering-storm",
+      "researchComplexity": "complex",
+      "riskFlags": [
+        "insufficient_official_sources",
+        "availability_ambiguity"
+      ],
+      "selectionEvidence": {
+        "collectionIdentity": "SAM 馆藏号 2006.31，Lin Onus 1993 年亚麻布油画。",
+        "availability": "截至 2026-07-24 确认借展 Nevada Museum of Art，不在 SAM。",
+        "imageStrategy": "使用 SAM 对象页照片，发布前核验许可。",
+        "importanceCandidate": "同一地点十二时段系列中融合水面观察与 clan 身体彩绘图案的艺术家节点。",
+        "rareCandidate": false,
+        "nearestComparators": "同一 Numerili 水潭的其余十一幅系列画。",
+        "decisiveDifference": "本作以黄昏、将至风暴、云树倒影和单鱼触水构成独特时刻。",
+        "independentCollectionLine": "Australian Aboriginal Art 中有名艺术家的当代跨视觉传统节点。",
+        "parentRelationship": "十二幅同地异时的 24 Hours at Numerili Suite 系列之一。",
+        "requiresFullCard": true,
+        "sourceClaimIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04",
+          "R07",
+          "R08",
+          "R09"
+        ]
+      },
+      "structureSummary": {
+        "coreValue": "同一水潭的十二时段研究，在这幅黄昏画里把树云倒影与带 clan 标记的鱼放进同一水面。",
+        "mediumPeriod": "澳大利亚当代艺术，1993，亚麻布油画。",
+        "sectionSignals": [
+          "艺术家生涯",
+          "原住民当代艺术",
+          "时间与地点"
+        ],
+        "routeRole": "为跨文明古代器物路线加入一位有名有姓的当代艺术家；当前借展外馆。",
+        "sourceClaimIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04"
+        ]
+      },
+      "researchCardPath": "research/m28-12/seattle/research-batch-02/gathering-storm-research-card.md",
+      "researchCardSha256": "99186207a4c9371b9e399b519ddd54224328b4db0cad18f3a6a6e3f531f0b594",
+      "fullCardFallback": "research/m28-12/seattle/research-batch-02/gathering-storm-research-card.md"
+    },
+    {
+      "workId": "posthumous-portrait-head-of-the-emperor-claudius",
+      "researchComplexity": "complex",
+      "riskFlags": [
+        "attribution_or_date_conflict",
+        "availability_ambiguity",
+        "cross_source_synthesis"
+      ],
+      "selectionEvidence": {
+        "collectionIdentity": "SAM 馆藏号 93.6 的 Roman 大理石头像，馆方断代 54–68 CE。",
+        "availability": "展出状态未知；对象页无当前展厅字段。",
+        "imageStrategy": "使用 SAM 对象页两张馆方照片，许可发布前核验。",
+        "importanceCandidate": "死后神化、模块化雕像和帝王形象传播的具体证据，建议重要藏品候选。",
+        "rareCandidate": false,
+        "nearestComparators": "Getty 的涅尔瓦皇帝可嵌装大理石头像提供同机制比较。",
+        "decisiveDifference": "本作的 54–68 CE 断代与馆方祭祀雕像判断把核心问题限定在克劳狄乌斯死后神化。",
+        "independentCollectionLine": "Ancient Mediterranean Art 的罗马皇权肖像节点。",
+        "parentRelationship": null,
+        "requiresFullCard": true,
+        "sourceClaimIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R07",
+          "R08"
+        ]
+      },
+      "structureSummary": {
+        "coreValue": "一件可复制、可嵌装的死后皇帝头像，显示罗马如何让神化统治者在帝国内持续被辨认。",
+        "mediumPeriod": "罗马帝国早期，大理石肖像，54–68 CE。",
+        "sectionSignals": [
+          "皇权形象",
+          "死后神化",
+          "罗马肖像"
+        ],
+        "routeRole": "与埃及私人丧葬肖像对看，区分政治公共形象和个人身后纪念。",
+        "sourceClaimIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04"
+        ]
+      },
+      "researchCardPath": "research/m28-12/seattle/research-batch-02/posthumous-portrait-head-of-the-emperor-claudius-research-card.md",
+      "researchCardSha256": "00a43a57a17dded0239ec1ee250a4e58371662e704e21f1772285eccd582c1bc",
+      "fullCardFallback": "research/m28-12/seattle/research-batch-02/posthumous-portrait-head-of-the-emperor-claudius-research-card.md"
+    },
+    {
+      "workId": "reliquary-casket",
+      "researchComplexity": "complex",
+      "riskFlags": [
+        "attribution_or_date_conflict",
+        "availability_ambiguity",
+        "cross_source_synthesis"
+      ],
+      "selectionEvidence": {
+        "collectionIdentity": "SAM 馆藏号 49.38；约 1200–1225，可能法国、可能 Limoges。",
+        "availability": "馆方明确标注 Not currently on view。",
+        "imageStrategy": "使用 SAM 对象页两张馆方图，许可发布前核验。",
+        "importanceCandidate": "圣物崇敬、匣式形制和錾胎珐琅工艺的紧凑实例。",
+        "rareCandidate": false,
+        "nearestComparators": "Met 14.40.703，约 1200–1220 的 Limoges 小型珐琅圣物匣。",
+        "decisiveDifference": "本作公开图像方案为八位站立圣徒，比较件带另一套铭文／叙事。",
+        "independentCollectionLine": "European Art 中世纪宗教器物与珐琅工艺节点。",
+        "parentRelationship": null,
+        "requiresFullCard": true,
+        "sourceClaimIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04",
+          "R06",
+          "R08"
+        ]
+      },
+      "structureSummary": {
+        "coreValue": "小匣把不可见的圣物转化为可展示、可崇敬的鎏金珐琅容器。",
+        "mediumPeriod": "中世纪欧洲，约 1200–1225，木胎鎏金铜錾胎珐琅。",
+        "sectionSignals": [
+          "宗教原境",
+          "珐琅工艺",
+          "中世纪欧洲"
+        ],
+        "routeRole": "补足绘画以外的中世纪物质宗教，但当前不在展。",
+        "sourceClaimIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04"
+        ]
+      },
+      "researchCardPath": "research/m28-12/seattle/research-batch-02/reliquary-casket-research-card.md",
+      "researchCardSha256": "2a4d4a08d29a9942cf3c48d0dc0aa97cd78b8af9c326d5d30169dc3058906249",
+      "fullCardFallback": "research/m28-12/seattle/research-batch-02/reliquary-casket-research-card.md"
+    },
+    {
+      "workId": "salt-cellar",
+      "researchComplexity": "complex",
+      "riskFlags": [
+        "cross_source_synthesis",
+        "availability_ambiguity"
+      ],
+      "selectionEvidence": {
+        "collectionIdentity": "SAM 馆藏号 81.17.189 的 Sapi、Sierra Leone 象牙盐罐，约 1490–1530。",
+        "availability": "展史列 ongoing 展览，但无当前展厅字段；现场待核验。",
+        "imageStrategy": "使用 SAM 对象页单件图，发布前核验许可。",
+        "importanceCandidate": "早期非洲—葡萄牙直接交换中由非洲雕工完成的欧洲委托器，建议重要藏品候选。",
+        "rareCandidate": false,
+        "nearestComparators": "SAM 68.30、68.31；Met 1991.435a,b。",
+        "decisiveDifference": "本作人物、钥匙与 Manueline 装饰的具体组合。",
+        "independentCollectionLine": "African Art 中 Sapi-Portuguese 象牙与早期全球交换节点。",
+        "parentRelationship": null,
+        "requiresFullCard": true,
+        "sourceClaimIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04",
+          "R05",
+          "R06",
+          "R09"
+        ]
+      },
+      "structureSummary": {
+        "coreValue": "它让欧洲餐桌器成为非洲雕工、葡萄牙图样与早期大西洋交换共同作用的物证。",
+        "mediumPeriod": "Sierra Leone，约 1490–1530，象牙雕刻。",
+        "sectionSignals": [
+          "跨洲委托",
+          "非洲象牙",
+          "早期全球化"
+        ],
+        "routeRole": "用一件器物打破“欧洲委托等于欧洲制造”的误区。",
+        "sourceClaimIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04"
+        ]
+      },
+      "researchCardPath": "research/m28-12/seattle/research-batch-02/salt-cellar-research-card.md",
+      "researchCardSha256": "20eb1efa57dedbdbbfb318636e3552e26a6b4abe667bd6b28d87e048738f7251",
+      "fullCardFallback": "research/m28-12/seattle/research-batch-02/salt-cellar-research-card.md"
+    }
+  ]
+}

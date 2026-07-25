@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-pg-03-childrens-games-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:43.001Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "a27ebf46e71dc3706115fe1874bbf991c2bbafab5267803e0d8dbfd0afa8987e",
+      "bytes": 9579
+    },
+    {
+      "path": "card.txt",
+      "sha256": "91d2b084100c5229a4cb8479623d70705e7ee5f845a67be92f844a1ac1073328",
+      "bytes": 328
+    },
+    {
+      "path": "draft.md",
+      "sha256": "e4837110bb76cc8a74222dfb95e5e9b3d023fd77a43af9ccfa53c7c59848939a",
+      "bytes": 4325
+    }
+  ]
+}

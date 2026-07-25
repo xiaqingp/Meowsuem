@@ -1,0 +1,99 @@
+{
+  "instructionVersion": "1.6.4",
+  "sourcePack": "research/generation-tests/v1.6.1-two-work-source-pack.md",
+  "tasks": [
+    {
+      "taskId": "m25-hunters-round-4",
+      "workId": "hunters",
+      "readerStartingPoint": "读者首先看见左下方的猎人和狗，也能发现远处冰面很热闹。",
+      "narrativeQuestion": "为什么一场看起来收获寒酸的狩猎，最后让人记住的却是整个冬天？",
+      "quickLayerPlan": {
+        "visibleTension": "三名猎人与整群狗只带回一只狐狸，远处村民却在冰上娱乐。",
+        "provisionalAnswer": "猎人只是入口；勃鲁盖尔真正组织的是同一季节里并存的匮乏、生计与快乐。",
+        "viewingRoute": "从狐狸和狗群沿陡坡进入冰面，再用近景小火与整体冷色确认答案。"
+      },
+      "logicSequence": [
+        {
+          "discovery": "猎人虽在最近处，却背向观众、收获有限，并被坡线带离视线中心。",
+          "changesUnderstanding": "画面主题从一次狩猎的结果，开始转向猎人无法垄断的更大环境。",
+          "thereforeNext": "猎人让出的空间里，究竟还有哪些生活同时发生？"
+        },
+        {
+          "discovery": "冰面娱乐、赶路、燎猪和村庄生活与疲惫队伍并存。",
+          "changesUnderstanding": "冬天从单一情绪变成容纳多种生活状态的系统。",
+          "thereforeNext": "勃鲁盖尔为什么需要如此多的人和如此大的景观来表现一个季节？"
+        },
+        {
+          "discovery": "本作属于为商人创作的六幅季节组画，可能供餐厅宾客讨论自然与生活。",
+          "changesUnderstanding": "人物众多和高视点具有委托与系列上的理由：作品要代表时间循环，而非讲完一个英雄事件。",
+          "thereforeNext": "画家怎样让抽象的季节时间变成身体能够感到的寒冷？"
+        },
+        {
+          "discovery": "灰绿冷色、黑树、陡坡、高视点和组合景观把所有人物压进同一种气候。",
+          "changesUnderstanding": "作者风格不再是细节多，而是让天气和地形取得比任何人物更大的叙事权。",
+          "thereforeNext": "同系列作品也能做到这一点，冬季这一幅还有什么不可替代？"
+        },
+        {
+          "discovery": "原六幅现存五幅，冬季节点只由本作保存；KHM 又把它定位为欧洲冬季风景画的早期决定性作品。",
+          "changesUnderstanding": "珍贵性从数量稀少上升为具体艺术成就：它让冬天第一次如此完整地支配一幅大型风景。",
+          "thereforeNext": "最后回到狐狸、火和冰面，重新衡量人在这个冬天里的尺度。"
+        }
+      ],
+      "humorBasis": "三名猎人与整群狗最终只有一只狐狸，像一份很难写漂亮的成绩单。",
+      "falsePremisesToAvoid": ["画中村庄可以真实定位","猎人心情已知","六幅季节画全在维也纳","作品意在批判某一阶级"],
+      "claimBoundaryPlan": [
+        {"claim":"狩猎结果与人物情绪","evidenceType":"来源事实加编辑推断","allowedWording":"只带回一只狐狸，收获看起来有限；狗群疲惫","forbiddenUpgrade":"确认狩猎失败或猎人正在失望"},
+        {"claim":"景观地点","evidenceType":"KHM 来源事实","allowedWording":"尼德兰日常与阿尔卑斯经验组成的发明景观","forbiddenUpgrade":"真实村庄写生"},
+        {"claim":"委托与陈列","evidenceType":"KHM 限定来源","allowedWording":"为 Jongelinck 创作，可能陈列在乡间住宅餐厅","forbiddenUpgrade":"确定挂在餐厅某面墙"},
+        {"claim":"不可替代性","evidenceType":"KHM 来源加比较判断","allowedWording":"六季系列仅存的冬季节点；KHM 称其为欧洲绘画第一幅且最突出的冬季风景画","forbiddenUpgrade":"世界唯一冬景"}
+      ]
+    },
+    {
+      "taskId": "m25-narmer-round-4",
+      "workId": "narmer",
+      "readerStartingPoint": "读者能看见同一位巨大国王在两面出现并佩戴不同王冠。",
+      "narrativeQuestion": "为什么一块调色板要把同一位国王画两遍？",
+      "quickLayerPlan": {
+        "visibleTension": "同一国王在双面重复出现，一面击敌，一面行进检视。",
+        "provisionalAnswer": "两面把征服与秩序两种王权角色同时交给纳尔迈。",
+        "viewingRoute": "先认白冠与红冠，再比较国王和侍从的尺寸，最后寻找中央圆槽与长颈神兽。"
+      },
+      "logicSequence": [
+        {
+          "discovery": "白冠面突出击敌，红冠面突出行列、战败者和城墙，两面承担不同政治工作。",
+          "changesUnderstanding": "重复国王不再显得多余，而成为把征服与统治集中到同一人的方法。",
+          "thereforeNext": "即使观众不识文字，这套政治角色为什么仍一眼可读？"
+        },
+        {
+          "discovery": "尺寸等级、横向分层和复合身体视角把权力关系编码进形式。",
+          "changesUnderstanding": "所谓早期埃及风格不只是外观，它是一套提高政治信息效率的设计。",
+          "thereforeNext": "这种设计为什么偏偏被刻在一件调色板形器物上？"
+        },
+        {
+          "discovery": "更早调色板用于研磨颜料，本件保留圆槽，却用交颈神兽把旧结构纳入控制图像。",
+          "changesUnderstanding": "器物用途的改变与王权图像的形成发生在同一个物件上。",
+          "thereforeNext": "这套动物、圆槽和暴力语言是本件独创，还是一个时代共有的实验？"
+        },
+        {
+          "discovery": "双犬、猎人和战场调色板提供同类动物、狩猎与战争图像。",
+          "changesUnderstanding": "纳尔迈调色板的价值不再来自虚假的孤例，而来自它把具名国王、两冠、文字和双面程序集中保存。",
+          "thereforeNext": "如果真实统一过程更漫长，这套高度简化的图像为何仍如此重要？"
+        },
+        {
+          "discovery": "统一很可能是渐进过程，击敌图式却一直延续到古埃及最后的神庙。",
+          "changesUnderstanding": "它的历史价值不在如实记录一次事件，而在成功把复杂国家形成压缩成国王个人能够重复表演的形象。",
+          "thereforeNext": "最后把两面同时留在脑中，看王权怎样把漫长历史缩成一个巨大身体。"
+        }
+      ],
+      "humorBasis": "国王并非真的比侍从高出数倍；图像把身高当字号使用。",
+      "falsePremisesToAvoid": ["两面记录按时序发生的同一场战斗","纳尔迈一次征服完成统一","长颈神兽只有统一一种含义","本件没有任何同类","它一次发明全部埃及艺术规则"],
+      "claimBoundaryPlan": [
+        {"claim":"双面关系","evidenceType":"观看结构与编辑解释","allowedWording":"并列征服者与秩序主人两种角色","forbiddenUpgrade":"按时间连续发生的动作"},
+        {"claim":"埃及统一","evidenceType":"馆方限定解释加历史研究","allowedWording":"图像宣称跨越上下埃及的王权；统一很可能渐进完成","forbiddenUpgrade":"一次战役完成统一"},
+        {"claim":"长颈神兽","evidenceType":"馆方解释加同类比较","allowedWording":"常被解释为两地受控，同时保留其他含义","forbiddenUpgrade":"唯一确定象征"},
+        {"claim":"视觉语法","evidenceType":"来源事实加直接观察","allowedWording":"尺度、分层与复合视角已协同工作；击敌图式长期延续","forbiddenUpgrade":"本件一次发明三千年全部规则"},
+        {"claim":"不可替代性","evidenceType":"机构资料比较","allowedWording":"同类仍有；本件集中保存具名统治者、两冠、文字和双面王权程序","forbiddenUpgrade":"没有第二件同类"}
+      ]
+    }
+  ]
+}

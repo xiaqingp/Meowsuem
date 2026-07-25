@@ -1,0 +1,170 @@
+{
+  "workId": "cargamonton",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "6d3d3e68ce428ba53adc7c435b51310c7d2287a312a2117b681f39c00ac06faa"
+  },
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "finalPassIssued": false,
+  "mechanicalChecks": {
+    "exactQuickHeading": "30 秒先懂",
+    "quickLayerNonWhitespaceCharacters": 148,
+    "deepLayerNonWhitespaceCharacters": 989,
+    "cardVisibleCopyCharacters": 41,
+    "observableDetailCount": 4,
+    "singleProgressiveQuestion": "为什么把网络视频里一瞬间的身体叠压，转成八张有颗粒、有停顿的版画？",
+    "result": "within_locked_boundaries"
+  },
+  "paragraphDependency": [
+    {
+      "paragraph": "快层",
+      "dependsOn": "作品元数据已建立八张成组、版画媒介与作者身份。",
+      "newUnderstanding": "题名背景、视频到版画的转译，以及亲密/压迫难以仓促定性的核心答案一次成立。",
+      "breaksIfMovedEarlier": "若置于元数据前，读者不知道八张和版画所指为何。"
+    },
+    {
+      "paragraph": "深层第1段：题名与习俗",
+      "dependsOn": "快层已提出身体接触为何难以定性。",
+      "newUnderstanding": "模糊感获得秘鲁学校习俗、男校记忆、男性气质与酷儿亲密的社会背景，同时保留人物心理边界。",
+      "breaksIfMovedEarlier": "若提前，背景会成为与画面脱节的题材说明。"
+    },
+    {
+      "paragraph": "深层第2段：视频变版画",
+      "dependsOn": "上一段已说明为何这些身体动作值得被反复判断。",
+      "newUnderstanding": "颗粒与慢速观看来自媒介转译，形式开始回答核心问题。",
+      "breaksIfMovedEarlier": "若提前，像素和铜版调子只剩技法罗列。"
+    },
+    {
+      "paragraph": "深层第3段：八张的间断",
+      "dependsOn": "上一段已建立静帧及版画如何减慢单个动作。",
+      "newUnderstanding": "八张序列通过重复与缺口进一步阻止观众补出确定因果。",
+      "breaksIfMovedEarlier": "若提前，读者尚不知道连续视频为何被拆成静帧，间断的作用无法成立。"
+    },
+    {
+      "paragraph": "深层第4段：与《Soft Boy》比较",
+      "dependsOn": "前段已建立本作静止、颗粒和间断的观看机制。",
+      "newUnderstanding": "最近比较对象反证这些机制的独特回报，并确定作品在作者生涯与 Frye 馆藏中的连接位置。",
+      "breaksIfMovedEarlier": "若提前，静态版画与影像的差别会沦为媒介名词对照。"
+    },
+    {
+      "paragraph": "深层第5段：价值与边界",
+      "dependsOn": "前段已完成形式机制、生涯节点、最近比较对象与馆藏链条。",
+      "newUnderstanding": "重要藏品判断得到五维支撑，同时明确不升级为稀世珍品。",
+      "breaksIfMovedEarlier": "若提前，价值结论缺少形式、比较和馆藏依据。"
+    },
+    {
+      "paragraph": "细节列表",
+      "dependsOn": "正文已解释八张、遮挡、颗粒和间断为何共同工作。",
+      "newUnderstanding": "抽象判断分别落到四项可现场核对的视觉证据。",
+      "breaksIfMovedEarlier": "若提前，细节只是寻物清单，无法改变理解。"
+    },
+    {
+      "paragraph": "最后再看一眼",
+      "dependsOn": "读者已理解判断被拖慢来自静止断片与序列缺口。",
+      "newUnderstanding": "通过比较两张近似姿势，亲自体验版画如何延长判断，回收核心问题。",
+      "breaksIfMovedEarlier": "若提前，动作会成为可替换的导览口令。"
+    },
+    {
+      "paragraph": "事实边界",
+      "dependsOn": "前文已经正面建立作品能支持的观看判断。",
+      "newUnderstanding": "把序列经验与真实时间、身份、情绪和意图的证据限度分开。",
+      "breaksIfMovedEarlier": "若提前，限制条款会压过作品声音。"
+    }
+  ],
+  "claimClosure": [
+    {
+      "sentence": "题名指向秘鲁学校里一种多人叠压的欺凌习俗。",
+      "evidenceType": "source_fact",
+      "sourceOrBasis": "Frye《Rafael Soldi: Soft Boy》展览页与展览文本",
+      "confidence": "高：馆方展览材料直接解释题名和习俗语境。",
+      "verdict": "closed"
+    },
+    {
+      "sentence": "索尔迪从网络视频截取瞬间，再把像素影像转成有颗粒的铜版调子。",
+      "evidenceType": "source_fact_plus_direct_observation",
+      "sourceOrBasis": "Frye 展览文本；研究卡所列像素源痕迹与版画颗粒观察",
+      "confidence": "高：制作来源有馆方材料，视觉结果可由图像核对。",
+      "verdict": "closed"
+    },
+    {
+      "sentence": "他把自己的秘鲁男校记忆、网络上找到的同类影像，以及对男性气质和酷儿亲密的思考放在一起。",
+      "evidenceType": "source_fact",
+      "sourceOrBasis": "Frye 展览页与艺术家访谈支持的研究卡背景",
+      "confidence": "高：研究卡明确记录作者访谈支持；措辞未扩大为唯一意图。",
+      "verdict": "closed"
+    },
+    {
+      "sentence": "媒介变化因此改变了观看节奏。",
+      "evidenceType": "editorial_inference",
+      "sourceOrBasis": "视频静帧转为八张纸上版画的来源事实，加上颗粒、静止与间断的直接观察",
+      "confidence": "中高：推断链在相邻句中完整展示，未冒充作者自述。",
+      "verdict": "closed"
+    },
+    {
+      "sentence": "八张的排列不能复原一场真实事件的时间顺序。",
+      "evidenceType": "evidence_limit",
+      "sourceOrBasis": "研究卡只确认序列、动作重复与间断，不提供具体事件身份或连续时间",
+      "confidence": "高：这是对证据能力的收窄。",
+      "verdict": "closed"
+    },
+    {
+      "sentence": "这组 2022 年版画直接通向索尔迪 2023 年的三频道影像《Soft Boy》。",
+      "evidenceType": "source_fact",
+      "sourceOrBasis": "Frye 展览页与展览文本",
+      "confidence": "高：馆方材料明确说明系列先于并被后作扩展。",
+      "verdict": "closed"
+    },
+    {
+      "sentence": "在 Frye 的收藏中，它连接一次本馆个展、艺术家的媒介转向，以及当代男性身体如何被观看的问题。",
+      "evidenceType": "editorial_significance_judgment",
+      "sourceOrBasis": "2023 Frye 个展、2024 入藏、与《Soft Boy》的媒介比较",
+      "confidence": "中高：馆史链条和比较明确；结论限定在 Frye 馆藏内部。",
+      "verdict": "closed"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReadAloud": {
+    "oneBreathParaphrase": "这组作品把网络视频里的多人叠压截成八张颗粒版画，故意让动作停下来，使我们更难草率判断身体之间究竟是亲密、玩闹还是压迫。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "notes": "标题能口头复述；快层主语和因果完整；深层转折来自题名背景、媒介变化、序列间断和最近比较对象，没有依靠资料栏目拼接。"
+  },
+  "productionLanguageScan": {
+    "visitorFilesScanned": [
+      "card.txt",
+      "draft.md"
+    ],
+    "forbiddenFindings": [],
+    "literalTermCounts": {
+      "测试": 0,
+      "prompt": 0,
+      "生成器": 0,
+      "reviewer": 0,
+      "版本迁移": 0,
+      "图片许可": 0,
+      "发布待办": 0,
+      "研究缺口": 0
+    },
+    "verdict": "clear"
+  },
+  "significanceReview": {
+    "level": "重要藏品",
+    "fiveDimensionsCovered": {
+      "artisticAchievement": "颗粒、灰调、静止与八张间断共同形成观看机制。",
+      "artHistoricalPosition": "2022 年版画是 2023 年《Soft Boy》的关键前作。",
+      "historicalCulturalValue": "处理秘鲁男校习俗、男性气质和酷儿亲密，但不充当具体事件档案。",
+      "rarityAndIrreplaceability": "最近比较对象为《Soft Boy》；静止断片不可由影像的时间、声音和表演替代，未声称唯一版。",
+      "collectionPosition": "连接 Frye 2023 个展与随后永久入藏。"
+    },
+    "nearestComparator": "Rafael Soldi《Soft Boy》(2023)",
+    "frye72BoundaryRespected": true,
+    "notes": "正文明确称重要藏品，并说明其不是足以决定旅行的稀世名作。"
+  },
+  "unresolvedRisks": [
+    "年度报告所记每张 27 1/5 × 34 英寸疑有排版或转录问题，因此正文未列尺寸。",
+    "版次未核，正文未作唯一版或稀缺数量判断。",
+    "当前 On View 列表未检出；正文只写稳定馆藏并提示展出状态以馆方当日信息为准。",
+    "作品图像直接文件、摄影标注与复用许可尚未确认，只保留在内部风险中。"
+  ],
+  "authorDecision": "稿件已完成作者侧依赖、断言、母语朗读、生产语言与重要性检查；提交独立审读，不签发最终通过结论。"
+}

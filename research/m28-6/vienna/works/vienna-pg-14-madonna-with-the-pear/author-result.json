@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-pg-14-madonna-with-the-pear-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:44:21.2145339-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-02/vienna-pg-14-madonna-with-the-pear-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "9d9af060449aba3ef9f576c540f1d17f6b6500787d73be4e058c3f6763036f62"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-pg-14-madonna-with-the-pear/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "a0826222df3da272f934351e6cb4c17a3a2bffd13de936e5de7a9b201bdf0732"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "70fa9c04caf25ecd4b25dc79d51778e171e9afe42fcdb835c3e00527da4fee2b",
+                        "bytes":  9361
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "5c80fb19b44ffe882b53fa786d173a5d58aac391c92f4af940c12e60be82b9ba",
+                        "bytes":  196
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "f2d7597e3f96f5df70b675ad73cec856c59b2e5d7cb036713aa151f1ee7df06d",
+                        "bytes":  3588
+                    }
+                ]
+}

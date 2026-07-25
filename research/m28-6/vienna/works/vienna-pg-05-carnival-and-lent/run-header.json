@@ -1,0 +1,48 @@
+{
+  "runId": "m28-6-vienna-author-vienna-pg-05-carnival-and-lent-2026-07-24",
+  "startedAt": "2026-07-24T07:30:03.785Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card",
+  "museumId": "vienna",
+  "workId": "vienna-pg-05-carnival-and-lent",
+  "workIdentity": {
+    "artistOrCulture": "老彼得·勃鲁盖尔 Pieter Bruegel the Elder",
+    "title": "狂欢节与四旬斋之战",
+    "titleEn": "The Fight between Carnival and Lent",
+    "museum": "Kunsthistorisches Museum Vienna"
+  },
+  "pipelineVersion": "2.4.8",
+  "instructionVersion": "2.0.2",
+  "inputContractVersion": 1,
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "465e7a2ce500057a139dbb64ff9df36755a6525a1f3a960e90fa0263a572ebfe"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-01/vienna-pg-05-carnival-and-lent-research-card.md",
+      "role": "research_card",
+      "sha256": "fe06e5b1f40ef53f01725080256793490fcb3459f496545010383ffc3c19db7b"
+    },
+    {
+      "path": "research/m28-6/vienna/works/vienna-pg-05-carnival-and-lent/work-context.json",
+      "role": "work_context",
+      "sha256": "749d5789fb57522d8fcc7d061cacd7651ed51b2c9366427c80e339ed61e593d5"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

@@ -1,0 +1,183 @@
+{
+  "reviewType": "fresh-independent-review",
+  "workId": "in-the-woods",
+  "museumId": "frye",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "reviewer": "Codex fresh independent reviewer",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "06585c881a990064eeeee7f61748fc72cfbf8ee447a9c97ecc4e66ab858ee0fc"
+  },
+  "artifactHashes": {
+    "research-card.md": "8e52a13e50fce924a571a8f2ea06968752dc1532cded5a387af2de78775922c6",
+    "writing-plan.json": "b80b50616029fd129613705a3df074a291ebc822aa0a4012fe480b738a54824f",
+    "card.txt": "8c29e47c6d48bb35320ad03c049ad481ad7f8fbdf6a4fddbe6fec93f2d3d6152",
+    "draft.md": "06585c881a990064eeeee7f61748fc72cfbf8ee447a9c97ecc4e66ab858ee0fc"
+  },
+  "directUpstreamChain": {
+    "verdict": "PASS",
+    "complete": true,
+    "links": [
+      {
+        "artifact": "research-card.md",
+        "declaredUpstream": "../../batch-02/source-pack.md",
+        "declaredSha256": "fa667b11415c1864ad81b1d3dce35169ed237d29167dceb9e1465cf7a81d75ea",
+        "actualSha256": "fa667b11415c1864ad81b1d3dce35169ed237d29167dceb9e1465cf7a81d75ea",
+        "matches": true
+      },
+      {
+        "artifact": "writing-plan.json",
+        "declaredUpstream": "research-card.md",
+        "declaredSha256": "8e52a13e50fce924a571a8f2ea06968752dc1532cded5a387af2de78775922c6",
+        "actualSha256": "8e52a13e50fce924a571a8f2ea06968752dc1532cded5a387af2de78775922c6",
+        "matches": true
+      },
+      {
+        "artifact": "card.txt",
+        "declaredUpstream": "writing-plan.json",
+        "declaredSha256": "b80b50616029fd129613705a3df074a291ebc822aa0a4012fe480b738a54824f",
+        "actualSha256": "b80b50616029fd129613705a3df074a291ebc822aa0a4012fe480b738a54824f",
+        "matches": true
+      },
+      {
+        "artifact": "draft.md",
+        "declaredUpstream": "card.txt",
+        "declaredSha256": "8c29e47c6d48bb35320ad03c049ad481ad7f8fbdf6a4fddbe6fec93f2d3d6152",
+        "actualSha256": "8c29e47c6d48bb35320ad03c049ad481ad7f8fbdf6a4fddbe6fec93f2d3d6152",
+        "matches": true
+      },
+      {
+        "artifact": "independent-review.json",
+        "declaredUpstream": "draft.md",
+        "declaredSha256": "06585c881a990064eeeee7f61748fc72cfbf8ee447a9c97ecc4e66ab858ee0fc",
+        "actualSha256": "06585c881a990064eeeee7f61748fc72cfbf8ee447a9c97ecc4e66ab858ee0fc",
+        "matches": true
+      }
+    ]
+  },
+  "mechanicalChecks": {
+    "cardVisibleCharacters": 73,
+    "cardRange": "24-100",
+    "quickLayerVisibleCharacters": 129,
+    "quickLayerRange": "70-240",
+    "deepLayerVisibleCharacters": 967,
+    "deepLayerMinimum": 320,
+    "observableDetailBullets": 4,
+    "minimumObservableDetails": 4,
+    "clickableSourceLinks": 3,
+    "requiredMetadataPresent": true,
+    "dualLayerStructurePresent": true,
+    "objectSpecificFinalLookPresent": true,
+    "negativeContrastGate": {
+      "maximum": 1,
+      "verdict": "FAIL",
+      "evidence": [
+        "树林没有展开成一片可供游览的风景，而是以深暗色调紧贴在明亮人体周围。",
+        "眼前看到的是一套已经长期磨炼的画法，而不是需要靠生平轶事补足的实验。",
+        "这里的观看回报不在题材稀有，而在林地如何收窄空间……",
+        "它值得停留……而非因为它是改变旅行路线的孤品。"
+      ]
+    }
+  },
+  "mechanicalVerdict": {
+    "verdict": "FAIL",
+    "reason": "字数、结构、元数据、四项细节和可点击资料均通过，但访客正文保留了不止一处完整的否定—转折骨架，超过共享硬门允许的最多一处。"
+  },
+  "factBoundaryVerdict": {
+    "verdict": "PASS",
+    "reason": "逐句核对未发现心理偷写、作者意图臆测、观看顺序冒充历史先后、最后作品断言、无笔触断言或当日必展承诺。1905年、极晚期、Founding Collection、在展快照、可见特征及《海浪》比较均在供应证据边界内；推断以可见构图和馆藏身份为依据。"
+  },
+  "narrativeVerdict": {
+    "verdict": "PASS",
+    "coreQuestion": "题材并不罕见，它为什么仍是理解 Frye 的关键一件？",
+    "reason": "深层依次从视觉中心、表面处理与生涯位置推进到最近比较对象，再落到 Frye 创始收藏作用；后段引用前段已经建立的视觉机制和比较结论，整体重排会削弱理解。快层提供暂时答案，最后一眼回收同一问题。"
+  },
+  "nativeChineseVerdict": {
+    "verdict": "FAIL",
+    "readAloudVerdict": "failed",
+    "oneBreathParaphrase": "这幅画并不靠罕见题材取胜；布格罗用亮人体、暗树林和纵长画幅集中视线，而它的极晚期身份与创始收藏归属又让人看懂 Frye 的学院派趣味。",
+    "translationeseFindings": [
+      "“它的五维价值并不平均”把内部评价框架直接说给访客，口头讲解中生硬且需要先解码。",
+      "“人物边缘因此持续清楚”搭配不自然，连续朗读时有明显书面加工感。",
+      "“共同形成的约束”以抽象名词概括刚刚可直接描述的画面关系，削弱口语清晰度。"
+    ]
+  },
+  "significanceVerdict": {
+    "verdict": "PASS",
+    "label": "重要藏品",
+    "fiveDimensions": {
+      "artisticAchievement": "以纵长构图、亮肤色和深绿褐林地的对照，以及远观平整的表面控制视线，具体成立。",
+      "artHistoricalPosition": "1905年与作者卒年相同，只称极晚期，未升级为绝笔或转折。",
+      "historicalCulturalValue": "作为 Founding Collection 成员，清楚呈现 Frye 创始收藏的学院派趣味；未夸大为更广泛历史见证。",
+      "rarityAndIrreplaceability": "明确承认晚期学院派单人裸体并不少见，全球不可替代性不成立。",
+      "collectionPosition": "对解释 Frye 创始收藏主线具有关键馆内作用。"
+    },
+    "nearestComparator": "William-Adolphe Bouguereau《海浪》（The Wave，1902）",
+    "comparisonBoundary": "两者共享理想化单人裸体；《林中》的树林、纵向站姿和深暗环境构成可见差异。",
+    "nonSubstitutabilityBoundary": "《海浪》能够替代同类题材与作者方法的部分核心价值，因此本作只能以 Frye 馆藏叙事关键性成立，不能升为稀世珍品或旅行级孤品。",
+    "travelBoundary": "与 Frye 72分边界一致，未声称决定行程或值得专程。"
+  },
+  "workSpecificVerdict": {
+    "verdict": "PASS",
+    "reason": "核心问题、纵长画幅、亮肤色与深绿褐树林、1905年极晚期位置、《海浪》比较和 Founding Collection 作用共同锁定本作；遮去作品名仍可辨认。最后一眼要求沿亮色轮廓下行、经暗色树林回到上方，不能原样替换到任意作品。"
+  },
+  "productionLanguageVerdict": {
+    "verdict": "FAIL",
+    "reason": "访客深层出现“它的五维价值并不平均”，随后按“代表性／生涯位置／稀缺性／馆藏叙事／现场”逐项报审。这把内部五维评估支架带入访客正文，未按母指令要求把价值判断自然融入叙事。未发现图片许可、发布待办、测试、prompt、生成器、reviewer 或版本迁移等其他生产词。"
+  },
+  "layerIndependence": {
+    "cardIndependent": true,
+    "quickLayerIndependent": true,
+    "deepLayerIndependent": true,
+    "verdict": "PASS",
+    "reason": "卡片独立回答为何值得点开，没有复用导览动作；快层单独给出观看抓手与馆藏价值；删除快层后深层仍能完整回答核心问题，删除深层后快层仍能指导观看。"
+  },
+  "paragraphDependency": {
+    "verdict": "PASS",
+    "reason": "视觉中心建立后才解释平整表面和极晚期位置；《海浪》比较据此界定差异；馆藏结论再调用比较结果收束。后两部分前移会失去已经建立的视觉机制或比较前提。"
+  },
+  "voiceScores": {
+    "entry": {
+      "score": 2,
+      "evidence": "“题材并不罕见，它为什么仍是理解 Frye 的关键一件？”以本作的稀缺性与馆藏作用冲突建立具体问题。"
+    },
+    "causality": {
+      "score": 2,
+      "evidence": "“纵长比例进一步加强了站姿的垂直感”以及“树林……实际承担着组织视线的工作”明确回答视觉事实为什么重要。"
+    },
+    "people": {
+      "score": 1,
+      "evidence": "正文能把布格罗的长期学院派选择与 Frye 创始收藏的审美选择连接起来，但“Founding Collection”仍主要作为抽象机构标签出现，人的收藏选择没有充分具体化。"
+    },
+    "turn": {
+      "score": 2,
+      "evidence": "《海浪》的比较把“题材稀有”转为“环境和站姿如何组织视线”，再把重要性转到 Frye 馆藏叙事，认知变化有证据。"
+    },
+    "visualPayoff": {
+      "score": 2,
+      "evidence": "极晚期、生涯方法和馆藏价值都回到纵长比例、亮肤色、暗树林、轮廓与远观表面。"
+    },
+    "oralClarity": {
+      "score": 1,
+      "evidence": "多数句子可口头复述，但“它的五维价值并不平均”“人物边缘因此持续清楚”“共同形成的约束”在连续朗读中显得 rubric 化或抽象。"
+    },
+    "secondLook": {
+      "score": 2,
+      "evidence": "结尾要求沿亮色轮廓向下、经暗色树林回到上方，以新建立的构图和收藏认识复看全幅。"
+    },
+    "total": 12,
+    "outOf": 14,
+    "threshold": 12,
+    "hasZero": false,
+    "verdict": "PASS"
+  },
+  "actionableFailureReasons": [
+    "将访客正文中的完整否定—转折骨架压到最多一处；当前至少四处，分别以“没有……而是”“是……而不是”“不在……而在”“而非因为”组织反转。",
+    "移除访客深层中的内部五维评估支架；“它的五维价值并不平均”及随后逐项报审违反价值判断应自然进入叙事的要求。",
+    "重新完成中文朗读审读，消除“人物边缘因此持续清楚”“共同形成的约束”等不能自然口头复述的搭配与抽象名词化。"
+  ],
+  "finalVerdict": "FAIL",
+  "finalReason": "声音评分为12/14且无零分，但机械否定—转折硬门、中文母语硬门和访客生产语言硬门失败；任何硬门失败均使最终结果为FAIL。"
+}

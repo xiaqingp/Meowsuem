@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.4.2",
+  "runId": "m28-3-chichu-author-marble-floor-2026-07-23",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T03:08:49.267Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_workId_from_run_header",
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "e7d84d5b9b4151b2ffb4d0c1d3f7230a6f2f19c113682222ff020342650f8820",
+      "bytes": 8735
+    },
+    {
+      "path": "card.txt",
+      "sha256": "b3b4d2cb41227e9a69c406eaa15690994f06709844fa213acac8284d5c19576b",
+      "bytes": 315
+    },
+    {
+      "path": "draft.md",
+      "sha256": "867ec8276a3be9bce5a2b3a85bb924ebcc9a99629782d00b00612214ff083d87",
+      "bytes": 3471
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-pg-12-rubens-self-portrait-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:43.880Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "da4c673c8d1319c80fbacf36e3e2c4de9d1e694c9c6b58ae04182605bfedc0ad",
+      "bytes": 9351
+    },
+    {
+      "path": "card.txt",
+      "sha256": "6e4e073d0546c3ff39ccec32871402d7d49d431db090a5b225078d661b2ae8ce",
+      "bytes": 313
+    },
+    {
+      "path": "draft.md",
+      "sha256": "d58c526ae40b0f30031ea90a01c4ed2cc353db3d30a55e6e8cd25d235cd24a0f",
+      "bytes": 3689
+    }
+  ]
+}

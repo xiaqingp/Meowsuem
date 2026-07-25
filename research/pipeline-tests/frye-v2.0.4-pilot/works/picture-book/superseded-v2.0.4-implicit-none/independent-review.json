@@ -1,0 +1,209 @@
+{
+  "reviewType": "fresh-independent-review",
+  "workId": "picture-book",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "reviewerIndependence": {
+    "participatedInAuthoring": false,
+    "authorArtifactsEdited": false,
+    "reviewScope": "Only the nine user-authorized files were read."
+  },
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "3e01c3727a084dbe36ca2e8c8ff04b613784169358d76cb8ad7dcca21a77cab8"
+  },
+  "artifactHashes": {
+    "research-card.md": "45e109097da840dc2ad43b3fd6e984d1f205d24c371ddfbedbfa2ad893bd8051",
+    "writing-plan.json": "720cd93855286ac2bb095130cb3f22319a5eaa50526034d0baddfe8257949c32",
+    "card.txt": "ce87de8d86ff726bd8633d1d968b90748732f9334fea361c81e7f231c57d42d5",
+    "draft.md": "3e01c3727a084dbe36ca2e8c8ff04b613784169358d76cb8ad7dcca21a77cab8"
+  },
+  "directUpstreamChain": {
+    "declaredChain": "batch-01/source-pack.md -> research-card.md -> writing-plan.json -> card.txt -> draft.md",
+    "verified": true,
+    "links": [
+      {
+        "artifact": "research-card.md",
+        "declaredDirectUpstream": "../../batch-01/source-pack.md",
+        "declaredSha256": "1b14092fcb94d8fc908227917e92dabf0175f01cb5e1853b2d42d724ecd66e3e",
+        "actualSha256": "1b14092fcb94d8fc908227917e92dabf0175f01cb5e1853b2d42d724ecd66e3e",
+        "matches": true
+      },
+      {
+        "artifact": "writing-plan.json",
+        "declaredDirectUpstream": "research-card.md",
+        "declaredSha256": "45e109097da840dc2ad43b3fd6e984d1f205d24c371ddfbedbfa2ad893bd8051",
+        "actualSha256": "45e109097da840dc2ad43b3fd6e984d1f205d24c371ddfbedbfa2ad893bd8051",
+        "matches": true
+      },
+      {
+        "artifact": "card.txt",
+        "declaredDirectUpstream": "writing-plan.json",
+        "declaredSha256": "720cd93855286ac2bb095130cb3f22319a5eaa50526034d0baddfe8257949c32",
+        "actualSha256": "720cd93855286ac2bb095130cb3f22319a5eaa50526034d0baddfe8257949c32",
+        "matches": true
+      },
+      {
+        "artifact": "draft.md",
+        "declaredDirectUpstream": "card.txt",
+        "declaredSha256": "ce87de8d86ff726bd8633d1d968b90748732f9334fea361c81e7f231c57d42d5",
+        "actualSha256": "ce87de8d86ff726bd8633d1d968b90748732f9334fea361c81e7f231c57d42d5",
+        "matches": true
+      }
+    ]
+  },
+  "mechanicalChecks": {
+    "countMethod": "Comments, Markdown markers, link destinations, and whitespace excluded; visible link labels retained.",
+    "cardVisibleCharacters": 42,
+    "cardRequiredRange": "24-100",
+    "quickVisibleCharacters": 127,
+    "quickRequiredRange": "70-240",
+    "deepVisibleCharacters": 882,
+    "deepRequiredMinimum": 320,
+    "observableDetailCount": 5,
+    "observableDetailRequiredMinimum": 4,
+    "metadataPresent": true,
+    "dualLayerPresent": true,
+    "specificSecondLookPresent": true,
+    "clickableSourcesPresent": true,
+    "negativeContrastStructuresOutsideFactBoundary": [
+      "乌德没有靠清楚的文字或插图讲故事，而是……",
+      "吸引人的不再是……而是……",
+      "真正把画面拢紧的并非……而是……"
+    ],
+    "negativeContrastCount": 3,
+    "negativeContrastMaximum": 1,
+    "productionLanguageMatches": []
+  },
+  "mechanicalVerdict": {
+    "verdict": "FAIL",
+    "reason": "All length, structure, detail-count, second-look, and source-link checks pass, but visitor prose contains three complete negative-to-contrast structures outside the fact-boundary paragraph; the canonical maximum is one."
+  },
+  "claimAudit": [
+    {
+      "claim": "少了会把目光带走的家具与环境说明",
+      "verdict": "unsupported-escalation",
+      "reason": "The supplied evidence supports a simplified, dark background, but does not establish the asserted furniture absence or its attention-directing effect as a fact."
+    },
+    {
+      "claim": "乌德那些由普通人扮演宗教场景的作品群",
+      "verdict": "unsupported-escalation",
+      "reason": "The supplied evidence says Uhde placed contemporary ordinary people in religious scenes; '扮演' adds an unestablished role-playing or staging claim."
+    },
+    {
+      "claim": "也让 Frye 的十九世纪绘画不只剩下宏大的历史或宗教叙事",
+      "verdict": "insufficiently-bounded-editorial-claim",
+      "reason": "The work packet supports a high museum-narrative role, but this broader characterization of Frye's nineteenth-century holdings is not demonstrated by the supplied evidence for this work."
+    }
+  ],
+  "factBoundaryVerdict": {
+    "verdict": "FAIL",
+    "reason": "Most identities, observations, author context, and uncertainty limits stay within the packet, but the three audited sentences exceed the supplied factual or inferential boundary."
+  },
+  "layerIndependence": {
+    "card": "PASS: independently answers why the work is worth opening and does not begin with a tour command.",
+    "quick": "PASS: independently states the visible tension, gives a provisional answer, and names usable visual cues.",
+    "deep": "PASS: remains understandable without the quick layer and supplies the mechanism, author context, comparison, details, and boundary.",
+    "overall": "PASS"
+  },
+  "paragraphDependency": {
+    "verdict": "FAIL",
+    "reason": "The mature-period/author-context paragraph can be moved before the brushwork paragraph without losing a necessary premise. It adds a topic and comparison, but does not depend on the immediately preceding discovery strongly enough to satisfy the locked reordering test."
+  },
+  "narrativeVerdict": {
+    "verdict": "FAIL",
+    "reason": "The core question remains coherent and several transitions advance its answer, but the movable author-context paragraph fails the canonical paragraph-dependency hard gate."
+  },
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "书里的内容虽然看不清，几个人朝向同一页的脸、身体、明暗和笔触，仍把共同阅读变成画面的中心。",
+    "translationeseFindings": [
+      {
+        "text": "几个人如何把注意力交给同一个小小的平面",
+        "issue": "'把注意力交给平面' is an abstract collocation that is difficult to say naturally aloud."
+      },
+      {
+        "text": "日常阅读便显得像一个正在持续的片刻",
+        "issue": "'持续的片刻' is conceptually strained and sounds translated rather than conversational."
+      },
+      {
+        "text": "一个普通室内、几张朝下的脸和一页书，也能承受他的构图",
+        "issue": "'室内/脸/书承受构图' compresses an abstract critical claim into an unnatural Chinese predicate."
+      }
+    ],
+    "readAloudVerdict": "failed"
+  },
+  "nativeChineseVerdict": {
+    "verdict": "FAIL",
+    "reason": "The article is generally intelligible, but the listed phrases do not survive continuous read-aloud naturally; canonical rules make any nonempty translationese finding a hard failure."
+  },
+  "significanceReview": {
+    "declaredLabel": "重要藏品",
+    "canonicalFiveDimensions": {
+      "artisticAchievement": "Partially addressed through composition, light-dark organization, short brushwork, and grouped attention, but not separately judged.",
+      "artHistoricalPosition": "Addressed as medium-level and as mature-period daily subject matter, without a claim of innovation or peak status.",
+      "historicalCulturalValue": "Not evaluated.",
+      "rarityAndIrreplaceability": "Scarcity is bounded as medium-low; the text identifies a difference from religious-scene works but does not clearly state what core value the comparator cannot provide.",
+      "museumCollectionPosition": "Addressed as high through its role in Frye's collection narrative."
+    },
+    "nearestComparator": "Uhde's mature-period group of religious scenes containing contemporary ordinary people",
+    "nearestComparatorSpecificity": "A comparison group is named, but no single nearest work is established in the supplied evidence.",
+    "nonSubstitutabilityBoundary": "The draft says this work offers a clear Frye entry into modern life, light, and attention, while denying rarity and trip-determining status; however, it does not finish why the comparison group cannot provide the same core value.",
+    "frye72BoundaryRespected": true
+  },
+  "significanceVerdict": {
+    "verdict": "FAIL",
+    "reason": "The draft respects the Frye 72-point ceiling and avoids treasure inflation, but it uses the plan's noncanonical dimension set, omits an explicit historical-cultural-value judgment, and leaves the comparator's non-substitutability boundary incomplete."
+  },
+  "workSpecificVerdict": {
+    "verdict": "PASS",
+    "reason": "The title question, white page, converging faces and bodies, dark background, brushwork, religious-scene comparison, and final tracing action are specific to this work and cannot be transferred unchanged to an unrelated object."
+  },
+  "productionLanguageVerdict": {
+    "verdict": "PASS",
+    "reason": "No visitor-facing research gap, permission task, publication task, test, prompt, generator, reviewer, or version-migration language was found in card.txt or draft.md."
+  },
+  "voiceScores": {
+    "entrance": {
+      "score": 2,
+      "evidence": "The quick layer opens with the work-specific problem of why a nearly unreadable book controls the picture."
+    },
+    "causality": {
+      "score": 2,
+      "evidence": "The prose repeatedly connects page position, face direction, grouped bodies, background, and brushwork to the concentration of attention."
+    },
+    "people": {
+      "score": 2,
+      "evidence": "The explanation is organized through the observable actions of an adult and children gathering and looking, while avoiding invented identities and psychology."
+    },
+    "turn": {
+      "score": 1,
+      "evidence": "The shift from book content to shared attention changes the initial question, but the later author-context paragraph is partly modular and does not produce a fully dependent new turn."
+    },
+    "visualPayoff": {
+      "score": 2,
+      "evidence": "Claims return to the white page, face directions, shoulders, sleeves, dark background, and visible short brushwork."
+    },
+    "spokenClarity": {
+      "score": 1,
+      "evidence": "Most sentences are clear, but '把注意力交给同一个小小的平面', '正在持续的片刻', and '承受他的构图' sound unnatural aloud."
+    },
+    "secondLook": {
+      "score": 2,
+      "evidence": "The ending gives a concrete action: trace the outer faces and shoulders back to the central white page, then reassess what binds the group."
+    },
+    "total": 12,
+    "maximum": 14,
+    "threshold": "at least 12/14 with no zero",
+    "thresholdPassed": true
+  },
+  "actionableFailureReasons": [
+    "Reduce the three complete negative-to-contrast structures outside the fact-boundary paragraph to no more than one; do not merely swap conjunctions.",
+    "Rebuild the deep-layer paragraph order so the author-context paragraph requires a premise established by the preceding paragraph and fails if moved earlier.",
+    "Remove or substantiate the furniture/attention claim, the '普通人扮演宗教场景' escalation, and the broad claim about what Frye's nineteenth-century painting would otherwise contain.",
+    "Resolve the three listed translationese phrases so the titles, quick layer, and paragraph transitions pass continuous native-Chinese read-aloud.",
+    "Evaluate all five canonical significance dimensions, including historical-cultural value, and state the precise core value unavailable from the nearest comparator or explicitly narrow the claim."
+  ],
+  "finalVerdict": "FAIL",
+  "finalReason": "Voice reaches 12/14 with no zero, but hard gates fail for the contrast-pattern limit, paragraph dependency, fact boundary, native Chinese, and significance judgment."
+}

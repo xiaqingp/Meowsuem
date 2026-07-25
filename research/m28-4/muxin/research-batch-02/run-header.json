@@ -1,0 +1,146 @@
+{
+  "runId": "m28-4-muxin-fresh-research-batch-02-2026-07-23",
+  "startedAt": "2026-07-24T04:08:51.852Z",
+  "stage": "research",
+  "researchMode": "fresh",
+  "museumId": "muxin",
+  "works": [
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c11",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "《晴风》",
+        "titleEn": "Clear Wind",
+        "museum": "Mu Xin Art Museum"
+      }
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c12",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "《生与死》",
+        "titleEn": "Life and Death",
+        "museum": "Mu Xin Art Museum"
+      }
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c13",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "《废谷》",
+        "titleEn": "Desolate Valley",
+        "museum": "Mu Xin Art Museum"
+      }
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c14",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "《渔村》",
+        "titleEn": "Fishing Village",
+        "museum": "Mu Xin Art Museum"
+      }
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c15",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "晚年微型转印风景画组",
+        "titleEn": "Late miniature transfer landscapes, group",
+        "museum": "Mu Xin Art Museum"
+      }
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c16",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "1989年无题石版画",
+        "titleEn": "Untitled lithograph",
+        "museum": "Mu Xin Art Museum"
+      }
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c17",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "文革前幸存手稿组",
+        "titleEn": "Surviving manuscripts written before the Cultural Revolution, group",
+        "museum": "Mu Xin Art Museum"
+      }
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c18",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "“言论交代”与申诉书文献组",
+        "titleEn": "Political statements and appeal documents, group",
+        "museum": "Mu Xin Art Museum"
+      }
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c19",
+      "workIdentity": {
+        "artistOrCulture": "多位拍摄者与制作者，待核",
+        "title": "木心生平影像档案组",
+        "titleEn": "Mu Xin biographical moving-image archive, group",
+        "museum": "Mu Xin Art Museum"
+      }
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c20",
+      "workIdentity": {
+        "artistOrCulture": "OLI Architecture PLLC；冈本博 Hiroshi Okamoto、林兵 Bing Lin",
+        "title": "木心美术馆建筑与水上空间整体",
+        "titleEn": "Mu Xin Art Museum architecture and waterside spatial ensemble",
+        "museum": "Mu Xin Art Museum"
+      }
+    }
+  ],
+  "pipelineVersion": "2.4.3",
+  "instructionVersion": "2.0.1",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c22c60e3a215aa1ac90da402debeb2caf9da39975cb2921c4845ef74ef14c834"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "cde91463dd296ba3f11b6bccfddc15964a256d5c132be913f11062fb6bb7cc66"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "bb9ad5d44fbb6b6382c90e17599c100648ca295800d57ff1b40f3cfc09b039ee"
+    },
+    {
+      "path": "research/m28-4/muxin/research-batch-02/candidate-packet.json",
+      "sha256": "3b1d3613217ee2e3d18fec43f2cad9796a900e0168b22e10cd7aa8b86524f609"
+    }
+  ],
+  "outputs": [
+    "muxin-c11-research-card.md",
+    "muxin-c12-research-card.md",
+    "muxin-c13-research-card.md",
+    "muxin-c14-research-card.md",
+    "muxin-c15-research-card.md",
+    "muxin-c16-research-card.md",
+    "muxin-c17-research-card.md",
+    "muxin-c18-research-card.md",
+    "muxin-c19-research-card.md",
+    "muxin-c20-research-card.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

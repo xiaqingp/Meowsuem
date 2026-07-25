@@ -1,0 +1,93 @@
+{
+    "runId":  "m28-12-v2.7.1-seattle-complex-research-batch-01-2026-07-24",
+    "stage":  "research",
+    "museumId":  "seattle",
+    "workId":  "",
+    "pipelineVersion":  "2.7.1",
+    "instructionVersion":  "2.1.0",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-07-24T22:33:57.3796834-07:00",
+    "modelStartedAt":  "2026-07-24T22:33:57.6788627-07:00",
+    "modelCompletedAt":  "2026-07-24T22:42:25.6866855-07:00",
+    "completedAt":  "2026-07-24T22:42:25.7281153-07:00",
+    "runnerDurationMs":  508348,
+    "modelDurationMs":  508008,
+    "tokenUsage":  {
+                       "total":  190910,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "5",
+                                    "9",
+                                    "12",
+                                    "13"
+                                ],
+    "logPath":  "research/m28-12/seattle/research-batch-01/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "ccd00997261deb8d327f185f373a779f1654fdf21f15f9c1bf1eaa952b90cb83"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/research-batch-01/candidate-packet.json",
+                       "role":  "candidate_packet",
+                       "sha256":  "b93b48e642c6736b6f17b347aa8d6f41229cff7168d61103db4a9fb140889c11"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "sea-change-research-card.md",
+                        "sha256":  "963ea8ebb33fcc4fddd52da97e7ca73f2c44231545bb5d39858e2707775b876e",
+                        "bytes":  6656
+                    },
+                    {
+                        "path":  "barcelona-research-card.md",
+                        "sha256":  "bde22e647c3074a86d7b57fb5b970d0b005482d04ee685dd45b89f8c133e152b",
+                        "bytes":  6691
+                    },
+                    {
+                        "path":  "how-my-mothers-embroidered-apron-unfolds-in-my-life-research-card.md",
+                        "sha256":  "2982511dae4163b08ff3abda5a62498941aebef34e27120a1bf464fd17fd63ab",
+                        "bytes":  6826
+                    },
+                    {
+                        "path":  "double-elvis-research-card.md",
+                        "sha256":  "eda01f1246c55be1113a0aa6b5e7fdb2a17b6ab2d259d3d71cb9d2ced3342bd4",
+                        "bytes":  6580
+                    },
+                    {
+                        "path":  "dr-silvester-gardiner-research-card.md",
+                        "sha256":  "e48af14dbe545a473e064fc7675cd3abd85193b56b337d6a3fbf553432b72616",
+                        "bytes":  6555
+                    },
+                    {
+                        "path":  "still-life-with-strawberries-and-ostrich-egg-cup-research-card.md",
+                        "sha256":  "4c3a5b96e867f1e4b742bc730a902da9a8536e140e08cd4098d5383b31f8598d",
+                        "bytes":  6860
+                    },
+                    {
+                        "path":  "a-country-home-research-card.md",
+                        "sha256":  "306bb957fa527c2e1b7e5466fa6678e1dc61ceeffb8a3960202b1484575918e9",
+                        "bytes":  6451
+                    },
+                    {
+                        "path":  "narragansett-bay-research-card.md",
+                        "sha256":  "ff9c497f0ca53a1dc29d2e20cb4d1db8a6c10c7575837667882df757086fb31a",
+                        "bytes":  6051
+                    },
+                    {
+                        "path":  "swan-rattle-research-card.md",
+                        "sha256":  "e58e9c8cbc6896083e45e44b3044c69d056652691b1f5ebfa2e1226995fe91a3",
+                        "bytes":  7134
+                    },
+                    {
+                        "path":  "naaxein-research-card.md",
+                        "sha256":  "57eb356f16bb94565a027c9f7af5576b7c4a2e48cbbf724e24ad55adeee483cf",
+                        "bytes":  7920
+                    }
+                ]
+}

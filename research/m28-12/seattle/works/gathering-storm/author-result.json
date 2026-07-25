@@ -1,0 +1,66 @@
+{
+    "runId":  "m28-12-v2.7.2-seattle-author-gathering-storm-2026-07-24",
+    "stage":  "author",
+    "museumId":  "seattle",
+    "workId":  "gathering-storm",
+    "pipelineVersion":  "2.7.2",
+    "instructionVersion":  "2.1.1",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-07-24T23:18:00.5675923-07:00",
+    "modelStartedAt":  "2026-07-24T23:18:00.8267951-07:00",
+    "modelCompletedAt":  "2026-07-24T23:19:30.3466407-07:00",
+    "completedAt":  "2026-07-24T23:19:30.3671903-07:00",
+    "runnerDurationMs":  89800,
+    "modelDurationMs":  89520,
+    "tokenUsage":  {
+                       "total":  33986,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "6",
+                                    "8",
+                                    "9",
+                                    "10",
+                                    "12",
+                                    "13",
+                                    "14"
+                                ],
+    "logPath":  "research/m28-12/seattle/works/gathering-storm/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "8c08c30f9d915a8942ed605287f7993a6514742c8f895b427876a6ffabb3fda2"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/research-batch-02/gathering-storm-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "99186207a4c9371b9e399b519ddd54224328b4db0cad18f3a6a6e3f531f0b594"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/works/gathering-storm/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "026898ffb379259f035ce5bfeb679cf4521c494de5b9419dac3a3fc4e325a415"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "33409257a1d7b2d5972252dda6e4c6fe52c4527dbff56a7064b4d488e011473e",
+                        "bytes":  7724
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "eb3a18a5dcc00e9aea4b5d133ffb304d9285e162be508c6a4a79e61c57620ca7",
+                        "bytes":  586
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "f3da5a0d7fc1e29feb0e3c311822ded46830eeb59a87307caf4d09d8293eb701",
+                        "bytes":  4249
+                    }
+                ]
+}

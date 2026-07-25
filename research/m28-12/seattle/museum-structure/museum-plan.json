@@ -1,0 +1,368 @@
+{
+  "schemaVersion": "museum-plan/1.0",
+  "runId": "m28-12-v2.7.2-seattle-museum-structure-2026-07-24",
+  "museumId": "seattle",
+  "museum": {
+    "nameZh": "西雅图艺术博物馆",
+    "nameEn": "Seattle Art Museum",
+    "city": "西雅图",
+    "address": "1300 First Avenue, Seattle, Washington, USA",
+    "scope": "仅限市中心主馆的稳定馆藏；不含 Seattle Asian Art Museum、Olympic Sculpture Park、临展与短期委任项目。"
+  },
+  "rating": {
+    "score": 75,
+    "scoreBand": "70–79 · 可去可不去",
+    "travelVerdict": "如果行程已到西雅图、愿意用半天看跨文化馆藏，值得安排；不建议仅凭本馆专程改变城市或跨城行程。",
+    "anchorWorks": [
+      "sea-change",
+      "double-elvis",
+      "naaxein",
+      "belt-mask-of-iyoba-idia",
+      "cylinder-vase-depicting-scribes-in-the-underworld",
+      "salt-cellar"
+    ],
+    "strengths": [
+      "现代艺术作品能把创作过程与博物馆收藏行为变成可见问题。",
+      "西北海岸原住民艺术与西雅图目的地具有明确关联。",
+      "非洲、古代美洲、地中海与大洋洲器物能恢复穿戴、宴饮、航海、仪式和交换等原始行动。"
+    ],
+    "limitations": [
+      "没有作品通过稀世珍品不可替代性硬门。",
+      "多件重要藏品处于轮换、既往展出或当前状态未知。",
+      "散佚《蓝色古兰经》书叶不是市中心主馆确定展品，《风暴将至》正在外借，《圣物匣》明确不在展。"
+    ]
+  },
+  "editorialThesis": "这家馆最值得看的不是一条从古代到现代的完整名作年表，而是同一栋主馆如何让绘画、纺织、书写与器物重新接回它们曾经参与的身体动作、社会制度和收藏过程。",
+  "audiences": {
+    "bestFor": [
+      "第一次到西雅图、希望用半天获得跨文化艺术概览的旅行者",
+      "对作品材料、原始用途、收藏史与来源伦理感兴趣的观众",
+      "愿意在少数现代名家之外观看纺织、陶器、象牙和礼仪器物的人"
+    ],
+    "lessSuitableFor": [
+      "只为一件全球不可替代名作安排专程的人",
+      "期待亚洲艺术馆或户外雕塑公园也包含在同一馆址路线中的人",
+      "无法接受馆藏轮换、希望清单上每件作品当天必然可见的人"
+    ]
+  },
+  "sections": [
+    {
+      "id": "making-visible",
+      "title": "一张画怎样把“创作发生过什么”留在表面？",
+      "question": "现代绘画如何让修改、重复、缺席与记忆成为可核对的视觉证据？",
+      "summary": "从波洛克保留又遮蔽的两阶段画层开始，经沃霍尔由 SAM 委托加入的空白板，再到戈尔基拒绝把题名画成插图、皮卡比亚让文字和图像互相干扰，观看重点从辨认题材转向理解作品怎样形成。",
+      "workIds": [
+        "sea-change",
+        "double-elvis",
+        "how-my-mothers-embroidered-apron-unfolds-in-my-life",
+        "barcelona"
+      ]
+    },
+    {
+      "id": "status-in-america",
+      "title": "美国图像如何制造身份，又怎样被历史改写？",
+      "question": "肖像、静物与风景分别怎样把财富、家园和时代选择组织进画面？",
+      "summary": "Copley 的服饰与家具建构殖民精英身份，作品来源史却穿过革命时期的财产重分配；Peale 用跨地区器物和家族农场草莓保存物质世界；Church 与 Kensett 则以两种不同的大气和事件密度处理十九世纪美国景观。",
+      "workIds": [
+        "dr-silvester-gardiner",
+        "still-life-with-strawberries-and-ostrich-egg-cup",
+        "a-country-home",
+        "narragansett-bay"
+      ]
+    },
+    {
+      "id": "body-and-ceremony",
+      "title": "展柜里的静物，原来怎样被身体启动？",
+      "question": "离开穿戴、声音与仪式后，器物还剩下多少原意？",
+      "summary": "Naaxein 的织造、身份权利和舞动不可分开；鸟纹四角帽需要和整套 Wari 装束一起理解；天鹅响器的雕刻意义还包括声音、持握与仪式，但其具体用途和双重文化著录必须保留边界。",
+      "workIds": [
+        "naaxein",
+        "four-cornered-hat-with-birds",
+        "swan-rattle"
+      ]
+    },
+    {
+      "id": "objects-in-action",
+      "title": "杯、舟艏像与圣物匣，为什么不能只看正面？",
+      "question": "器物的形状怎样规定使用方式和观看路径？",
+      "summary": "玛雅圆筒杯要随器身转动，文字、饮用与冥界图像才会相遇；Nguzu Nguzu 必须接回水线、船体与乘员；中世纪圣物匣则用鎏金铜和珐琅把不可见的圣物转为可展示的崇敬对象。",
+      "workIds": [
+        "cylinder-vase-depicting-scribes-in-the-underworld",
+        "canoe-prow-figure-nguzu-nguzu",
+        "reliquary-casket"
+      ]
+    },
+    {
+      "id": "power-afterlife",
+      "title": "一张脸在死后替谁工作？",
+      "question": "私人丧葬、帝王神化与王母纪念如何给肖像不同的社会任务？",
+      "summary": "罗马埃及木板肖像原属木乃伊系统；克劳狄乌斯头像通过可复制、可嵌装的帝王形象延续神化统治者；伊迪娅腰饰面具既进入 Oba 仪式，也留下 1897 年王宫掠夺的精确来源链。",
+      "workIds": [
+        "funerary-portrait",
+        "posthumous-portrait-head-of-the-emperor-claudius",
+        "belt-mask-of-iyoba-idia"
+      ]
+    },
+    {
+      "id": "crossing-systems",
+      "title": "跨越地区之后，谁仍在决定作品的意义？",
+      "question": "委托、经文、殖民交换与地点记忆怎样同时连接文化，又拒绝被抹平？",
+      "summary": "Sapi 象牙盐罐说明欧洲委托不等于欧洲制造；《蓝色古兰经》书叶把熟悉经文的诵读与金字蓝底排版结合，却也是分散父手稿的一页；Lin Onus 则把同一水潭的时间观察与 clan 身体彩绘图案置于同一水面。",
+      "workIds": [
+        "salt-cellar",
+        "folio-from-the-dispersed-blue-quran",
+        "gathering-storm"
+      ]
+    }
+  ],
+  "works": [
+    {
+      "workId": "sea-change",
+      "titleZh": "《海变》",
+      "significance": "重要藏品",
+      "sectionId": "making-visible",
+      "availability": "当前展出状态未知，到馆核验",
+      "routePriority": "core"
+    },
+    {
+      "workId": "double-elvis",
+      "titleZh": "《双重猫王》",
+      "significance": "重要藏品",
+      "sectionId": "making-visible",
+      "availability": "馆方列入持续展览，但当天位置仍需核验",
+      "routePriority": "core"
+    },
+    {
+      "workId": "how-my-mothers-embroidered-apron-unfolds-in-my-life",
+      "titleZh": "《母亲的刺绣围裙如何在我的生命中展开》",
+      "significance": "重要藏品",
+      "sectionId": "making-visible",
+      "availability": "当前展出状态未知",
+      "routePriority": "extended"
+    },
+    {
+      "workId": "barcelona",
+      "titleZh": "《巴塞罗那》",
+      "significance": "重要藏品",
+      "sectionId": "making-visible",
+      "availability": "当前展出状态未知",
+      "routePriority": "extended"
+    },
+    {
+      "workId": "dr-silvester-gardiner",
+      "titleZh": "《西尔维斯特·加德纳医生》",
+      "significance": "重要藏品",
+      "sectionId": "status-in-america",
+      "availability": "馆方列入持续展览，但当天位置仍需核验",
+      "routePriority": "core"
+    },
+    {
+      "workId": "still-life-with-strawberries-and-ostrich-egg-cup",
+      "titleZh": "《草莓与鸵鸟蛋杯静物》",
+      "significance": "重要藏品",
+      "sectionId": "status-in-america",
+      "availability": "馆方列入持续展览，但当天位置仍需核验",
+      "routePriority": "core"
+    },
+    {
+      "workId": "a-country-home",
+      "titleZh": "《乡间之家》",
+      "significance": "重要藏品",
+      "sectionId": "status-in-america",
+      "availability": "馆方列入持续展览，但当天位置仍需核验",
+      "routePriority": "extended"
+    },
+    {
+      "workId": "narragansett-bay",
+      "titleZh": "《纳拉甘西特湾》",
+      "significance": "重要藏品",
+      "sectionId": "status-in-america",
+      "availability": "馆方列入持续展览，但当天位置仍需核验",
+      "routePriority": "extended"
+    },
+    {
+      "workId": "naaxein",
+      "titleZh": "Naaxein",
+      "significance": "重要藏品",
+      "sectionId": "body-and-ceremony",
+      "availability": "当前展出状态未知",
+      "routePriority": "core"
+    },
+    {
+      "workId": "four-cornered-hat-with-birds",
+      "titleZh": "鸟纹四角帽",
+      "significance": "特色看点",
+      "sectionId": "body-and-ceremony",
+      "availability": "当前展出状态未知",
+      "routePriority": "extended"
+    },
+    {
+      "workId": "swan-rattle",
+      "titleZh": "天鹅响器",
+      "significance": "特色看点",
+      "sectionId": "body-and-ceremony",
+      "availability": "当前展出状态未知",
+      "routePriority": "extended"
+    },
+    {
+      "workId": "cylinder-vase-depicting-scribes-in-the-underworld",
+      "titleZh": "描绘冥界书吏的圆筒杯",
+      "significance": "重要藏品",
+      "sectionId": "objects-in-action",
+      "availability": "馆方列入持续展览，但当天位置仍需核验",
+      "routePriority": "core"
+    },
+    {
+      "workId": "canoe-prow-figure-nguzu-nguzu",
+      "titleZh": "独木舟艏像（Nguzu Nguzu）",
+      "significance": "特色看点",
+      "sectionId": "objects-in-action",
+      "availability": "当前展出状态未知",
+      "routePriority": "extended"
+    },
+    {
+      "workId": "reliquary-casket",
+      "titleZh": "圣物匣",
+      "significance": "特色看点",
+      "sectionId": "objects-in-action",
+      "availability": "明确不在展",
+      "routePriority": "reference_only"
+    },
+    {
+      "workId": "funerary-portrait",
+      "titleZh": "丧葬肖像",
+      "significance": "重要藏品",
+      "sectionId": "power-afterlife",
+      "availability": "当前展出状态未知",
+      "routePriority": "extended"
+    },
+    {
+      "workId": "posthumous-portrait-head-of-the-emperor-claudius",
+      "titleZh": "克劳狄乌斯皇帝死后肖像头像",
+      "significance": "重要藏品",
+      "sectionId": "power-afterlife",
+      "availability": "当前展出状态未知",
+      "routePriority": "extended"
+    },
+    {
+      "workId": "belt-mask-of-iyoba-idia",
+      "titleZh": "伊约巴（王母）伊迪娅腰饰面具",
+      "significance": "重要藏品",
+      "sectionId": "power-afterlife",
+      "availability": "当前展出状态未知",
+      "routePriority": "core"
+    },
+    {
+      "workId": "salt-cellar",
+      "titleZh": "盐罐",
+      "significance": "重要藏品",
+      "sectionId": "crossing-systems",
+      "availability": "馆方列入持续展览，但当天位置仍需核验",
+      "routePriority": "core"
+    },
+    {
+      "workId": "folio-from-the-dispersed-blue-quran",
+      "titleZh": "散佚《蓝色古兰经》书叶",
+      "significance": "重要藏品",
+      "sectionId": "crossing-systems",
+      "availability": "当前未知；既往展出地为 Seattle Asian Art Museum，不能列作市中心主馆现场节点",
+      "routePriority": "reference_only"
+    },
+    {
+      "workId": "gathering-storm",
+      "titleZh": "《风暴将至》",
+      "significance": "重要藏品",
+      "sectionId": "crossing-systems",
+      "availability": "截至 2026-07-24 正在 Nevada Museum of Art 借展，不在 SAM",
+      "routePriority": "reference_only"
+    }
+  ],
+  "routes": {
+    "ninetyMinutes": {
+      "title": "90 分钟｜只看决定 75 分判断的节点",
+      "strategy": "入馆先核对当日展厅；按现场可见项依次完成，缺一件就转到下一件，不为状态未知作品折返。",
+      "workIds": [
+        "sea-change",
+        "double-elvis",
+        "naaxein",
+        "cylinder-vase-depicting-scribes-in-the-underworld",
+        "belt-mask-of-iyoba-idia",
+        "salt-cellar",
+        "dr-silvester-gardiner",
+        "still-life-with-strawberries-and-ostrich-egg-cup"
+      ],
+      "activeSkips": [
+        "暂跳过两幅十九世纪美国风景之间的细分比较。",
+        "暂跳过 Picabia、Gorky 与三件状态不适合作现场节点的作品。",
+        "不前往另两处 SAM 馆址。"
+      ]
+    },
+    "halfDay": {
+      "title": "半天｜看懂主馆为何是跨文化综合馆",
+      "strategy": "先看现代艺术的制作过程，再看美国艺术的身份与物质文化，休息后进入西北海岸、古代美洲、非洲与地中海器物；以实际开放展厅调整同组顺序。",
+      "workIds": [
+        "sea-change",
+        "double-elvis",
+        "how-my-mothers-embroidered-apron-unfolds-in-my-life",
+        "barcelona",
+        "dr-silvester-gardiner",
+        "still-life-with-strawberries-and-ostrich-egg-cup",
+        "a-country-home",
+        "narragansett-bay",
+        "naaxein",
+        "swan-rattle",
+        "cylinder-vase-depicting-scribes-in-the-underworld",
+        "belt-mask-of-iyoba-idia",
+        "salt-cellar",
+        "funerary-portrait",
+        "posthumous-portrait-head-of-the-emperor-claudius"
+      ],
+      "conditionalAlternates": [
+        "four-cornered-hat-with-birds",
+        "canoe-prow-figure-nguzu-nguzu"
+      ],
+      "excludedUnavailable": [
+        "folio-from-the-dispersed-blue-quran",
+        "gathering-storm",
+        "reliquary-casket"
+      ]
+    },
+    "complete": {
+      "title": "完整浏览｜20 件内容库，建议分两次核验式参观",
+      "strategy": "第一次以市中心主馆当日可见的 17 件为范围；第二次只在状态改变后补看缺席项。完整路线是编辑覆盖，不承诺 20 件能在同一天、同一馆址兑现。",
+      "visitOneWorkIds": [
+        "sea-change",
+        "double-elvis",
+        "how-my-mothers-embroidered-apron-unfolds-in-my-life",
+        "barcelona",
+        "dr-silvester-gardiner",
+        "still-life-with-strawberries-and-ostrich-egg-cup",
+        "a-country-home",
+        "narragansett-bay",
+        "naaxein",
+        "four-cornered-hat-with-birds",
+        "swan-rattle",
+        "cylinder-vase-depicting-scribes-in-the-underworld",
+        "canoe-prow-figure-nguzu-nguzu",
+        "funerary-portrait",
+        "posthumous-portrait-head-of-the-emperor-claudius",
+        "belt-mask-of-iyoba-idia",
+        "salt-cellar"
+      ],
+      "visitTwoOrReferenceWorkIds": [
+        "folio-from-the-dispersed-blue-quran",
+        "gathering-storm",
+        "reliquary-casket"
+      ],
+      "restPlan": "完成现代与美国艺术两组后休息，再进入器物密集的后半程；环绕观看圆筒杯、盐罐和舟艏像时减少连续读牌。",
+      "boundaryNote": "《蓝色古兰经》书叶须先确认是否回到市中心主馆；《风暴将至》在外借期内只作内容参考；《圣物匣》在馆方状态改变前不进入现场路线。"
+    }
+  },
+  "visitNotes": [
+    "出发前按作品逐件核对当日展出状态；“ongoing”不等于当天一定在原位。",
+    "本计划不是实时馆内导航，楼层、展厅与通行顺序以现场为准。",
+    "Seattle Asian Art Museum 与 Olympic Sculpture Park 是独立地点，不要把它们拼进 1300 First Avenue 的半天路线。",
+    "原住民礼仪器物的观看应保留文化归属、氏族权利与具体用途未知的边界。",
+    "馆方对象照片多未给开放复用许可；发布图片前须另行清权。"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-ant-02-nagyszentmiklos-treasure-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:40.692Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "6338aabe1c4e821eda9f3f0fe5cb2de6e228fa52844de7720b897ab3ea286931",
+      "bytes": 9993
+    },
+    {
+      "path": "card.txt",
+      "sha256": "c521232973f894b3f620cd5f09cd197d40448bcd71b65394c7981b0ba4efa785",
+      "bytes": 351
+    },
+    {
+      "path": "draft.md",
+      "sha256": "1da15aaa635a9ea3f826efec4bbdb5e27fbf78b783f91880ecb8aecb7d57fe7f",
+      "bytes": 5144
+    }
+  ]
+}

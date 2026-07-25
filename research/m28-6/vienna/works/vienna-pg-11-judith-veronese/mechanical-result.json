@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-pg-11-judith-veronese-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:43.772Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "a8932b3fd0cfd9b3d6b510343ef2f7021c338af68c8ffcce44b8c0b5e49cd44a",
+      "bytes": 8985
+    },
+    {
+      "path": "card.txt",
+      "sha256": "fb4a8440f1bf3afb1ac58e5428fc03798e6dbba4d67a06c6e258fea1a14dfc37",
+      "bytes": 265
+    },
+    {
+      "path": "draft.md",
+      "sha256": "8e9473a7785b0d8642d577097d0ffd22d2f8138760fe08f5a87553945f223e5f",
+      "bytes": 3216
+    }
+  ]
+}

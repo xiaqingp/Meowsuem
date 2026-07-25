@@ -1,0 +1,220 @@
+{
+  "schemaVersion": "author-bundle-plan/1.0",
+  "runId": "m28-6-vienna-author-vienna-kk-03-automaton-ship-2026-07-24",
+  "workId": "vienna-kk-03-automaton-ship",
+  "displayMetadata": {
+    "by": "汉斯·施洛特海姆 Hans Schlottheim · 奥格斯堡",
+    "date": "1585年",
+    "material": "鎏金并局部彩绘的银、铜合金、铁",
+    "place": "Kunsthistorisches Museum 艺术珍宝馆 XXVII 厅 · 确认在展",
+    "priority": "强烈推荐",
+    "significance": "重要藏品",
+    "stay": "建议停留 5—7 分钟",
+    "availability": "confirmed_on_view",
+    "imagePolicy": "object_image"
+  },
+  "selectionDecision": {
+    "priorityReason": "它把宴席中心装饰、桌面行进、音乐、人物动作、鸣炮与帝国图像集中在同一对象中，能以较短停留解释艺术珍宝馆中的机械、宫廷与权力关系。",
+    "significanceReason": "作品的历史与观看价值明确，但16世纪后期奥格斯堡同类机械帆船仍有其他实例，现有材料也不能确认确切存世数量，因此不通过稀世珍品硬门。"
+  },
+  "narrativeMainline": {
+    "valueType": "ritual_or_original_context",
+    "mainline": "施洛特海姆把传统的船形宴席中心装饰变成一套会移动、奏乐、驱动人物并鸣炮的宫廷表演，使机械技术与帝国赞颂在宴桌上同时发生。船上的人物、纹章和双头鹰铭文共同说明，这些机关既制造惊奇，也替统治者及其帝国发声。",
+    "readerStartingPoint": "零背景读者从标题与图像可以确认：对象是一艘装饰密集的金属多桅船，船上布满人物、旗帜、纹章，船侧排列炮口；机械的实际功能需要馆方说明才能知道。",
+    "storyBeats": [
+      {
+        "step": 1,
+        "materials": [
+          "功能、宫廷语境与候选价值：船形宴席中心装饰传统及综合自动机械",
+          "零背景可确认与图像观察：内部机构、桌面移动、音乐与人物动作"
+        ],
+        "newUnderstanding": "读者先明白它不是静止模型，而是把传统宴席器型改造成整套桌面演出的对象。"
+      },
+      {
+        "step": 2,
+        "materials": [
+          "功能、宫廷语境与候选价值：人物和纹章赞颂统治者及其帝国",
+          "1585年德文双头鹰铭文"
+        ],
+        "newUnderstanding": "读者进一步理解，机械效果与帝国图像服务于同一次宫廷权力展示；铭文是对象的自我宣称，不是战舰史实。"
+      },
+      {
+        "step": 3,
+        "materials": [
+          "比较类别与边界：伦敦、Écouen机械帆船比较组",
+          "比较类别与边界：同类数量和归属边界",
+          "1626年斯图加特机械桨帆船"
+        ],
+        "newUnderstanding": "读者能把它放回奥格斯堡机械船传统中，理解其重要性来自功能与语境的组合，而不是未经证实的唯一性。"
+      },
+      {
+        "step": 4,
+        "materials": [
+          "趣闻与未知：宴桌中心装饰自行行进、奏乐并在高潮鸣炮",
+          "零背景可确认与图像观察：多桅船、人物、金属帆装和炮口"
+        ],
+        "newUnderstanding": "读者带着宫廷演出的认识重新观看船上由人物、徽记到炮口的完整布置。"
+      }
+    ],
+    "humorBasis": "宴席中心装饰会自行行进并在演示高潮鸣炮，真实的尺度与场合反差足以产生轻微幽默，不另造包袱。",
+    "mustNotAssume": [
+      "不得假定原始委托者、首次演示场合或具体观众。",
+      "不得把全部动作写成已经确认的固定顺序或时长。",
+      "不得声称展厅会启动装置，或装置目前仍能完整运行。",
+      "不得把双头鹰铭文写成真实战舰经历或历史事件记录。",
+      "不得声称本作是唯一、最早、最好或仅存的机械船。",
+      "不得确认同型船的全球存世总数或伦敦实例与历史文献记载的无歧义对应。",
+      "不得推断人物的心理或汉斯·施洛特海姆的个人意图。"
+    ]
+  },
+  "highRiskClaims": [
+    {
+      "claim": "机械船会在桌面移动、奏乐、驱动船员动作并鸣炮。",
+      "evidenceType": "馆方来源事实",
+      "allowedWording": "馆方说明其内部机构能使船在桌面移动、让船员随音乐动作，并在演示高潮鸣炮。",
+      "forbiddenUpgrade": "不得写成现场必定演示、今日仍可完整运行，或擅自补齐所有动作的准确顺序。"
+    },
+    {
+      "claim": "人物、纹章与铭文赞颂统治者及其帝国。",
+      "evidenceType": "馆方来源事实与对象铭文",
+      "allowedWording": "这些图像与铭文构成对象对统治者及其帝国的赞颂或自我宣称。",
+      "forbiddenUpgrade": "不得把图像宣称当成真实政治控制范围、历史胜利或作者明确意图。"
+    },
+    {
+      "claim": "船形宴席中心装饰有更早传统，本作把器型升级为综合自动机械。",
+      "evidenceType": "研究卡来源事实",
+      "allowedWording": "船形宴席中心装饰早已有传统；本作把桌面移动、音乐、人物动作与鸣炮集中到这一器型。",
+      "forbiddenUpgrade": "不得称其为第一件、首创或彻底改变传统。"
+    },
+    {
+      "claim": "本作不是同类唯一实例。",
+      "evidenceType": "比较来源事实",
+      "allowedWording": "伦敦与Écouen另有16世纪后期奥格斯堡机械帆船可供比较，现有资料不能确认同型船确切存世数。",
+      "forbiddenUpgrade": "不得给出未经来源覆盖的全球数量、优劣排序或确定归属。"
+    },
+    {
+      "claim": "本作属于重要藏品。",
+      "evidenceType": "基于来源事实的编辑判断",
+      "allowedWording": "其重要性来自宴席器型、复杂机械程序与帝国图像在一个对象中的结合；同类实例存在，故按重要藏品处理。",
+      "forbiddenUpgrade": "不得升级为稀世珍品、世界唯一或不可替代。"
+    }
+  ],
+  "claimLedger": [
+    {
+      "id": "C01",
+      "claim": "作品由汉斯·施洛特海姆制作于奥格斯堡，纪年1585。",
+      "type": "来源事实",
+      "researchCardLocation": "身份与状态"
+    },
+    {
+      "id": "C02",
+      "claim": "材质为鎏金并局部彩绘的银、铜合金、铁。",
+      "type": "来源事实",
+      "researchCardLocation": "身份与状态"
+    },
+    {
+      "id": "C03",
+      "claim": "作品在Kunsthistorisches Museum艺术珍宝馆XXVII厅确认在展，核验日期为2026-07-24。",
+      "type": "来源事实",
+      "researchCardLocation": "身份与状态"
+    },
+    {
+      "id": "C04",
+      "claim": "对象整体为多桅帆船，船上分布大量小型船员、卫兵与统治者人物。",
+      "type": "直接观察",
+      "researchCardLocation": "零背景可确认与图像观察 1"
+    },
+    {
+      "id": "C05",
+      "claim": "船体、桅杆、帆装、旗帜与纹章被做成装饰密集的金属微型结构。",
+      "type": "直接观察",
+      "researchCardLocation": "零背景可确认与图像观察 2"
+    },
+    {
+      "id": "C06",
+      "claim": "船侧排列炮口，馆方说明机械演示高潮会鸣炮齐射。",
+      "type": "直接观察与来源事实",
+      "researchCardLocation": "零背景可确认与图像观察 3"
+    },
+    {
+      "id": "C07",
+      "claim": "内部机械使船在桌面移动，并让船员随内部音乐动作。",
+      "type": "馆方来源事实",
+      "researchCardLocation": "零背景可确认与图像观察 4"
+    },
+    {
+      "id": "C08",
+      "claim": "船形宴席中心装饰有更早传统，本作将其发展为综合自动机械。",
+      "type": "来源事实",
+      "researchCardLocation": "功能、宫廷语境与候选价值"
+    },
+    {
+      "id": "C09",
+      "claim": "人物与纹章赞颂统治者及其帝国，移动、音乐、人物动作和炮响把技术能力转化为宴席表演。",
+      "type": "馆方来源事实与编辑整理",
+      "researchCardLocation": "功能、宫廷语境与候选价值"
+    },
+    {
+      "id": "C10",
+      "claim": "1585年德文铭文以双头鹰自称，宣扬不惧风暴并警告船员不要与之对抗。",
+      "type": "来源事实",
+      "researchCardLocation": "功能、宫廷语境与候选价值"
+    },
+    {
+      "id": "C11",
+      "claim": "铭文属于对象的帝国式自我宣称，不能作为真实战舰经历。",
+      "type": "来源边界",
+      "researchCardLocation": "功能、宫廷语境与候选价值"
+    },
+    {
+      "id": "C12",
+      "claim": "最近比较组包括大英博物馆和法国Écouen的16世纪后期奥格斯堡机械帆船，多件作品与施洛特海姆有关联。",
+      "type": "比较来源事实",
+      "researchCardLocation": "比较类别与边界"
+    },
+    {
+      "id": "C13",
+      "claim": "比较组共享桌面船形、钟表机械、人物、音乐、武器动作与王权展示等价值。",
+      "type": "比较来源事实",
+      "researchCardLocation": "比较类别与边界"
+    },
+    {
+      "id": "C14",
+      "claim": "现有资料不能确认同型船确切存世数，也不能把历史文献中的某件与伦敦实例无歧义对应。",
+      "type": "比较证据边界",
+      "researchCardLocation": "比较类别与边界"
+    },
+    {
+      "id": "C15",
+      "claim": "KHM另藏1626年斯图加特机械桨帆船，其锁桨手驱动方式、制作人、年代与动作程序均不同。",
+      "type": "比较来源事实",
+      "researchCardLocation": "比较类别与边界"
+    },
+    {
+      "id": "C16",
+      "claim": "作品的重要性来自宴席中心装饰、机械程序与帝国图像的结合；因同类实例存在且数量边界未明，定为重要藏品而非稀世珍品。",
+      "type": "编辑判断",
+      "researchCardLocation": "身份与状态；比较类别与边界；work_context"
+    },
+    {
+      "id": "C17",
+      "claim": "原始委托者、首次演示场合、完整动作顺序与时长、现存可运行程度及零件更换情况未知。",
+      "type": "研究边界",
+      "researchCardLocation": "趣闻与未知"
+    }
+  ],
+  "sourceLinks": [
+    {
+      "label": "KHM对象页：Automaton in the Form of a Ship",
+      "url": "https://www.khm.at/en/artworks/automaton-in-the-form-of-a-ship-87073"
+    },
+    {
+      "label": "Oxford Cabinet：Mechanical galleons, Augsburg c. 1585",
+      "url": "https://www.cabinet.ox.ac.uk/mechanical-galleons-augsburg-c-1585-0"
+    },
+    {
+      "label": "KHM对象页：1626 Automaton in the Form of a Galley",
+      "url": "https://www.khm.at/en/artworks/automaton-in-the-form-of-a-galley-90920"
+    }
+  ]
+}

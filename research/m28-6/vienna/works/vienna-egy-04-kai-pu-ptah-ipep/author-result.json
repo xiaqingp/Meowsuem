@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-egy-04-kai-pu-ptah-ipep-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:35:49.2941242-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-04/vienna-egy-04-kai-pu-ptah-ipep-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "ba13a6e8bf861f6d270e48df831cf933ba485e11b590f5fe4c57e7efb1acf005"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-egy-04-kai-pu-ptah-ipep/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "e47ab7799c340125b479297cea28a94cf0d9bf8f659f71acf191b0a9d583771f"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "6a83009dac10d59bce5e20c98558b4e14d086b29139a94dfa48f9ccf3c8b9606",
+                        "bytes":  8850
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "cf7369637efa3caa3cd00749742ed8eaadc56c8af07cbc00897724610fc1786b",
+                        "bytes":  196
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "0d2c15949530b2427dcde290ea082df5492f044ac907454e23a59873c5115dc2",
+                        "bytes":  3752
+                    }
+                ]
+}

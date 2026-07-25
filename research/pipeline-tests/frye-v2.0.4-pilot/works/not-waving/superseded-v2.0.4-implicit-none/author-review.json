@@ -1,0 +1,179 @@
+{
+  "workId": "not-waving",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "museumId": "frye",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "directUpstream": "draft.md",
+  "directUpstreamSha256": "54c073b7d746393582544188eb2380eaffede316373f5b53daac60f4913c114d",
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "finalPassIssued": false,
+  "retryReason": null,
+  "mechanicalChecks": {
+    "cardVisibleCharacters": 42,
+    "cardWithin24To100": true,
+    "cardIndependentFromQuickLayer": true,
+    "cardStartsWithGenericViewingCommand": false,
+    "quickLayerWithin70To240VisibleCharacters": true,
+    "deepLayerAtLeast320VisibleCharacters": true,
+    "observableDetailCount": 5,
+    "singleProgressiveQuestion": true,
+    "bilingualWorkAndArtistNamesPresent": true,
+    "directUpstreamChainRecorded": true
+  },
+  "narrativeReview": [
+    {
+      "paragraph": "30 秒先懂",
+      "does": "用釉光、花、骷髅、链条和孔洞建立甜美与危险的可见冲突，并以诗题给出暂时答案和站位。",
+      "dependsOn": "只依赖元数据中的题名与读者眼前可见的整体。",
+      "newUnderstanding": "装饰既吸引观看，也可能使危险信号被热闹遮住。",
+      "breaksIfMovedEarlier": "若移到元数据之前，读者不知道作品题名、作者与媒介，诗题的作用缺少对象。"
+    },
+    {
+      "paragraph": "核心问题第一段",
+      "does": "从釉面亲近感推进到花、骷髅、链条和孔洞共处的实体结构。",
+      "dependsOn": "依赖快层已经提出‘热闹可能遮住危险’的暂时答案。",
+      "newUnderstanding": "甜美与危险并非前后两种效果，而是占据同一个身体。",
+      "breaksIfMovedEarlier": "提前后会失去核心问题与观看张力，段落只剩元素罗列。"
+    },
+    {
+      "paragraph": "题名怎样改变这份热闹",
+      "does": "交代诗题的最低必要背景，并说明它如何改变对前段可见元素的判断。",
+      "dependsOn": "依赖前段已经确认甜美与危险在形体上纠缠。",
+      "newUnderstanding": "装饰的吸引力不只制造玩趣，也可能参与一次视觉误读。",
+      "breaksIfMovedEarlier": "若先讲诗，读者还没有看见装饰怎样吸引目光，文学背景会悬空。"
+    },
+    {
+      "paragraph": "底座为什么也算作品的一部分",
+      "does": "从题名造成的误读压力推进到作品的实体支撑关系。",
+      "dependsOn": "依赖上一段已建立‘看见却没有认出’的观看框架。",
+      "newUnderstanding": "支撑与固定可以同时由结构产生，求救张力因此从题名回到空间。",
+      "breaksIfMovedEarlier": "若置于题名前，支撑与固定只像独立形式分析，无法推进核心答案。"
+    },
+    {
+      "paragraph": "它为何在 Frye 值得停留",
+      "does": "以展览到入藏的路径、与 Fu Dogs 的最近比较和 72 分边界完成重要性判断。",
+      "dependsOn": "依赖前文已经解释本作的题名机制、规模和自制底座。",
+      "newUnderstanding": "本作的馆内分量来自成熟期方法、地方展览史与收藏关系，不来自虚构稀有度。",
+      "breaksIfMovedEarlier": "若提前，比较中的‘体量更大、底座参与造型、题名压低玩趣’都尚未被正文建立。"
+    },
+    {
+      "paragraph": "细节动作列表",
+      "does": "把前文判断拆回釉光、相邻元素、链条、孔洞和底座五个现场动作。",
+      "dependsOn": "依赖前文已说明这些细节为何共同回答核心问题。",
+      "newUnderstanding": "读者能用局部动作验证装饰、危险与支撑关系，而非只接受抽象结论。",
+      "breaksIfMovedEarlier": "提前会使动作变成无意义的寻物清单。"
+    },
+    {
+      "paragraph": "最后再看一眼",
+      "does": "以一次退后、移动目光和整体观察回收题名与核心问题。",
+      "dependsOn": "依赖诗题、装饰纠缠、底座结构与细节动作已全部建立。",
+      "newUnderstanding": "最吸引人的装饰与最可能遮住求救的热闹在同一眼中成立。",
+      "breaksIfMovedEarlier": "若提前，‘招手’与‘求救’只是文字游戏，未由形体和题名共同支撑。"
+    },
+    {
+      "paragraph": "事实边界",
+      "does": "区分直接观察、结构解释、馆方支持的题名联系和易变在展状态。",
+      "dependsOn": "依赖全文已经自然给出判断，边界只负责收窄断言强度。",
+      "newUnderstanding": "读者知道哪些是可见事实、哪些是观看解释，同时不把符号锁死。",
+      "breaksIfMovedEarlier": "提前会让边界先于体验，正文声音变成审稿式排除。"
+    }
+  ],
+  "claimClosure": [
+    {
+      "sentence": "题名来自一首写求救被误认成挥手的诗。",
+      "evidenceType": "来源事实与短篇幅概述",
+      "sourceOrBasis": "Frye 馆方文章明确连接 Stevie Smith 1957 年同名诗；正文只概述核心处境，未长引。",
+      "confidence": "高：馆方资料直接建立作品题名与诗作的联系。",
+      "verdict": "保留"
+    },
+    {
+      "sentence": "它们既吸引人靠近，也可能让危险信号淹没在热闹里。",
+      "evidenceType": "直接观察加编辑推断",
+      "sourceOrBasis": "明亮釉光、花与骷髅、链条、孔洞并置，加上题名的误读处境；‘可能’明确限定推断。",
+      "confidence": "中：视觉依据充分，但效果属于观看解释，不是作者意图陈述。",
+      "verdict": "以限定措辞保留"
+    },
+    {
+      "sentence": "支撑在这里变得微妙：它确实让物体站立，也让这个被层层装饰包住的身体看起来固定在原处。",
+      "evidenceType": "来源事实加结构观察",
+      "sourceOrBasis": "馆方记录底座由艺术家自制且属于作品；‘看起来’把固定感限定为视觉解释。",
+      "confidence": "中：底座身份为高置信事实，固定感是可复核但非唯一的现场解释。",
+      "verdict": "保留"
+    },
+    {
+      "sentence": "这件作品先在洛杉矶 Ambach & Rice 的《Shamrock Edelweiss Seaweed》展出，随后进入 Frye 2012—13 年的《Mw [Moment Magnitude]》，并成为馆藏。",
+      "evidenceType": "来源事实与时间顺序",
+      "sourceOrBasis": "Frye 馆方文章记录展览与入藏路径。",
+      "confidence": "高：馆方直接记录作品经历。",
+      "verdict": "保留"
+    },
+    {
+      "sentence": "它的分量来自这组具体联系：一位西雅图艺术家的成熟期陶塑、一次本馆展览，以及 Frye 对地方酷儿艺术的收藏。",
+      "evidenceType": "来源事实加馆藏意义判断",
+      "sourceOrBasis": "作品年代、展览入藏路径、Pacific Northwest Artists 分类及研究卡的重要性判断。",
+      "confidence": "中高：事实链明确；‘分量’是限定在 Frye 馆内的编辑判断。",
+      "verdict": "保留"
+    },
+    {
+      "sentence": "它是重要藏品，却不需要被夸成足以决定旅行路线的稀世孤品。",
+      "evidenceType": "五维重要性与馆级评分边界",
+      "sourceOrBasis": "五维为 4/5、4/5、3/5、5/5、5/5；稀缺性证据不支持唯一性，Frye 锁定 72 分。",
+      "confidence": "高：明确限定为馆内重要藏品，并拒绝超出证据的稀缺结论。",
+      "verdict": "保留"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这件闪亮陶塑把花、骷髅、链条和孔洞堆在一起，题名又提醒我们求救可能被看成招手，所以越热闹的表面越让人不安，连底座的支撑也显得不那么安稳。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "notes": "标题能口头复述；段落转折由釉面、题名、底座、入藏关系和第二眼依次推动。已避免抽象名词连续堆叠，也未靠固定‘先看/再看’或反复‘不是/而是’模板组织正文。"
+  },
+  "productionLanguageScan": {
+    "scope": ["card.txt 可见文字", "draft.md 访客可见文字"],
+    "forbiddenCategoriesChecked": [
+      "内部研究缺口",
+      "图片许可与摄影署名任务",
+      "发布或迁移任务",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "内部版本流程"
+    ],
+    "findings": [],
+    "verdict": "clear",
+    "note": "draft.md 的事实边界仅区分观察、解释、题名来源与易变在展状态，没有带入内部待办。"
+  },
+  "significanceReview": {
+    "fiveDimensionsCovered": true,
+    "nearestComparatorCovered": true,
+    "nearestComparator": "Jeffry Mitchell, Fu Dogs, 2005, Frye Art Museum",
+    "comparisonFunction": "比较具体说明两作共有釉陶、装饰过剩和符号叠加，同时突出本作更大、自制底座参与造型及题名改变玩趣读法。",
+    "museumRoleEstablished": "作品连接 Frye 2012—13 年展览、西雅图当代艺术与地方酷儿陶艺收藏。",
+    "rarityBoundaryRespected": true,
+    "frye72BoundaryRespected": true,
+    "verdict": "重要性论证与重要藏品标签匹配，没有把馆内不可替代性升级成全球稀缺或专程旅行理由。"
+  },
+  "observableEvidenceReview": {
+    "count": 5,
+    "details": [
+      "釉面亮点随站位移动",
+      "花与骷髅相邻且无清晰分界",
+      "链条串联分散形体",
+      "孔洞打断实体表面",
+      "木底座延长整体轮廓"
+    ],
+    "secondLookIsWorkSpecific": true,
+    "secondLookReturnsToCoreQuestion": true
+  },
+  "unresolvedRisks": [
+    "馆方对象页与旧年报对作品摄影署名分别出现 Mark Woods 与 Spike Mafford；访客正文未使用摄影署名。",
+    "作品图像直接文件地址及复用许可未确认；访客正文未提及。",
+    "当前 On View 列表未检出该作；正文只说明馆藏身份并提醒展出状态可能调整。",
+    "策展人把作品与艺术家的酷儿身份、爱尔兰天主教成长背景、玩趣和不安并置；正文只采用有馆藏链支持的地方酷儿艺术定位，未写成艺术家唯一意图。",
+    "孔洞的具体象征意义没有确定证据，正文保持为直接观察。"
+  ],
+  "authorConclusion": "正文已完成作者阶段的依赖、断言、朗读、生产语言与重要性检查，现交由未参与写作的独立审读者判断；作者不签发最终通过结论。"
+}

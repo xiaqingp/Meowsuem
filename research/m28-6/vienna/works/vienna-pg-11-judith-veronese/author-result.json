@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-pg-11-judith-veronese-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:44:03.5878567-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-02/vienna-pg-11-judith-veronese-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "b8bc592edcf1e54747eb84d8a717219d9e101e6469ed14f1376b99e8891f9196"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-pg-11-judith-veronese/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "b237493a2b2b6db12c8cb210191b8313049c75fa6cccac6ef1ded99cd3612728"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "a8932b3fd0cfd9b3d6b510343ef2f7021c338af68c8ffcce44b8c0b5e49cd44a",
+                        "bytes":  8985
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "fb4a8440f1bf3afb1ac58e5428fc03798e6dbba4d67a06c6e258fea1a14dfc37",
+                        "bytes":  265
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "38700b4bdcbe3e93f8e283f645d79c1b41e500ffdec7f0b44bd8e9b83fb03477",
+                        "bytes":  3218
+                    }
+                ]
+}

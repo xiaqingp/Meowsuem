@@ -1,0 +1,234 @@
+{
+  "schemaVersion": "author-bundle/1.0",
+  "workId": "vienna-kk-05-rudolf-ii-bust",
+  "displayMetadata": {
+    "by": "阿德里安·德·弗里斯 Adriaen de Vries · 尼德兰",
+    "date": "1603年",
+    "material": "青铜",
+    "place": "维也纳艺术史博物馆主馆艺术珍宝馆第XXVII厅 · 确认在展",
+    "priority": "强烈推荐",
+    "significance": "重要藏品",
+    "stay": "建议停留5—8分钟",
+    "availability": "confirmed_on_view",
+    "imagePolicy": "object_image"
+  },
+  "narrativeMainline": {
+    "valueType": "ritual_or_original_context",
+    "mainline": "鲁道夫二世先购藏曾叔祖查理五世的胸像，德·弗里斯再以那件祖先肖像为范本塑造鲁道夫，并让新旧两像形成王朝配对。转身的身体、抬高的目光、华丽铠甲与寓意基座共同把在世统治者组织成庄严的帝国形象。",
+    "readerStartingPoint": "读者从标题与对象图能够知道，这是一尊身穿繁复铠甲、佩斜带的男性统治者青铜半身像；其身体和头部略有转向，目光向上，基座带人物与鹰等符号。",
+    "storyBeats": [
+      {
+        "step": 1,
+        "materials": [
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "newUnderstanding": "这不只是鲁道夫的个人肖像：他购藏的祖先胸像直接参与了自己帝国形象的制作。"
+      },
+      {
+        "step": 2,
+        "materials": [
+          "C4",
+          "C5",
+          "C6",
+          "C7"
+        ],
+        "newUnderstanding": "德·弗里斯通过转身、抬眼、铠甲和基座符号完成荣耀化塑造；这些形式说明作品怎样制造公共形象，却不等于揭示人物心理。"
+      },
+      {
+        "step": 3,
+        "materials": [
+          "C8",
+          "C9"
+        ],
+        "newUnderstanding": "背面的署名、年份以及记载皇帝年龄的铭文，把作者、制作时间和统治者身份固定在同一件对象上，也让收藏与新形象生产的联系更具体。"
+      },
+      {
+        "step": 4,
+        "materials": [
+          "C10",
+          "C11",
+          "C12"
+        ],
+        "newUnderstanding": "与查理五世胸像及1607年另一尊鲁道夫像相比，本像的重要性在有意识的王朝配对；现有证据不足以把这种差异升级为全球唯一或稀世珍品。"
+      }
+    ],
+    "humorBasis": "",
+    "mustNotAssume": [
+      "向上的目光代表鲁道夫的骄傲、焦虑或神秘主义倾向",
+      "胸像透明记录了鲁道夫的真实性格",
+      "基座上每个寓意人物和符号的具体身份均已确认",
+      "两尊胸像在原始空间中的具体摆放方式已经明确",
+      "本像是同类作品中唯一、最少见或最优秀的一件",
+      "鲁道夫亲自规定了每一处姿态与装饰"
+    ],
+    "highRiskClaims": [
+      {
+        "claim": "作品表现了鲁道夫真实的骄傲或其他心理状态",
+        "evidenceType": "直接观察只能确认目光向上；馆方资料只提供性格与荣耀化形象的反差",
+        "allowedWording": "目光向上；作品把馆方所称性格羞怯的皇帝塑造成庄严统治者",
+        "forbiddenUpgrade": "骄傲、焦虑、神秘主义或其他内心判断"
+      },
+      {
+        "claim": "鲁道夫明确意图以胸像证明其统治合法性",
+        "evidenceType": "来源确认直接范本、收藏关系与成对设置，研究卡将其列为宫廷肖像和王朝收藏制造合法性的候选价值",
+        "allowedWording": "祖先肖像参与塑造鲁道夫的帝国形象；配对建立王朝联系",
+        "forbiddenUpgrade": "断言鲁道夫亲口表达了这一意图或规定全部图像细节"
+      },
+      {
+        "claim": "图像中的尊严、权力与智慧等于历史事实",
+        "evidenceType": "馆方对基座符号的图像解释",
+        "allowedWording": "基座符号宣示或象征皇帝的尊严、权力与智慧",
+        "forbiddenUpgrade": "把图像宣称写成对鲁道夫实际统治能力的证明"
+      },
+      {
+        "claim": "本像与查理五世胸像的具体原始并置方式已经复原",
+        "evidenceType": "来源确认两像形成一对，但研究卡明确具体原始并置方式待核实",
+        "allowedWording": "两像形成一对或王朝配对",
+        "forbiddenUpgrade": "描述未经来源确认的房间、方向、距离或观看顺序"
+      },
+      {
+        "claim": "本像是唯一或不可替代的稀世珍品",
+        "evidenceType": "来源确认签名纪年和有意识的王朝配对，但全球数量及最高级比较未完成",
+        "allowedWording": "重要藏品；其王朝收藏关系不是一般皇帝肖像可以替代的观看重点",
+        "forbiddenUpgrade": "唯一、仅存、最少见、最佳或稀世珍品"
+      }
+    ]
+  },
+  "claimLedger": [
+    {
+      "id": "C1",
+      "claim": "鲁道夫二世购藏了曾叔祖查理五世的胸像。",
+      "type": "source_fact",
+      "researchCardLocation": "来源事实与候选价值证据；收藏史、趣闻与未知",
+      "sources": [
+        "KHM对象页",
+        "KHM Kunstkammer guide"
+      ]
+    },
+    {
+      "id": "C2",
+      "claim": "德·弗里斯的鲁道夫胸像直接以莱奥尼制作的查理五世胸像为范本。",
+      "type": "source_fact",
+      "researchCardLocation": "来源事实与候选价值证据",
+      "sources": [
+        "KHM Kunstkammer guide"
+      ]
+    },
+    {
+      "id": "C3",
+      "claim": "鲁道夫让新像与旧像形成一对，收藏中的祖先肖像因而参与了新帝国形象的生产。",
+      "type": "source_fact_and_editorial_explanation",
+      "researchCardLocation": "来源事实与候选价值证据；收藏史、趣闻与未知",
+      "sources": [
+        "KHM Kunstkammer guide",
+        "KHM对象页"
+      ]
+    },
+    {
+      "id": "C4",
+      "claim": "德·弗里斯1601年成为鲁道夫的宫廷雕塑家。",
+      "type": "source_fact",
+      "researchCardLocation": "来源事实与候选价值证据",
+      "sources": [
+        "KHM对象页"
+      ]
+    },
+    {
+      "id": "C5",
+      "claim": "馆方称德·弗里斯善于把性格羞怯的皇帝塑造成庄严统治者；这描述的是荣耀化形象与馆方所述性格的反差，不是胸像对心理的透明记录。",
+      "type": "source_fact_and_boundary",
+      "researchCardLocation": "来源事实与候选价值证据",
+      "sources": [
+        "KHM对象页"
+      ]
+    },
+    {
+      "id": "C6",
+      "claim": "相对查理五世范本，本像以身体轻微扭转和抬高视线增强庄严感。",
+      "type": "source_fact_and_formal_comparison",
+      "researchCardLocation": "来源事实与候选价值证据",
+      "sources": [
+        "KHM对象页",
+        "KHM Kunstkammer guide"
+      ]
+    },
+    {
+      "id": "C7",
+      "claim": "像中人物穿繁复铠甲并佩斜带，铠甲有植物纹样和狮形装饰；基座有人物与鹰等符号，馆方解释其象征皇帝的尊严、权力与智慧。",
+      "type": "direct_observation_and_source_interpretation",
+      "researchCardLocation": "零背景可确认对象与图像证据",
+      "sources": [
+        "KHM对象页及对象图"
+      ]
+    },
+    {
+      "id": "C8",
+      "claim": "胸像背面有德·弗里斯的署名和1603年纪年。",
+      "type": "source_fact",
+      "researchCardLocation": "身份与展陈",
+      "sources": [
+        "KHM对象页"
+      ]
+    },
+    {
+      "id": "C9",
+      "claim": "铭文列出鲁道夫的皇帝身份，并记载他51岁及1603年。",
+      "type": "source_fact",
+      "researchCardLocation": "身份与展陈",
+      "sources": [
+        "KHM对象页"
+      ]
+    },
+    {
+      "id": "C10",
+      "claim": "最近的比较对象包括莱奥尼的查理五世胸像，以及德·弗里斯现藏维也纳皇室珍宝馆的1607年鲁道夫二世像。",
+      "type": "source_fact",
+      "researchCardLocation": "比较、不可替代性与边界",
+      "sources": [
+        "KHM对象页",
+        "KHM Kunstkammer guide",
+        "Getty Conservation Institute"
+      ]
+    },
+    {
+      "id": "C11",
+      "claim": "本像的决定性区别是1603年作者签名纪年，以及与鲁道夫所藏查理五世像有意识形成的王朝配对。",
+      "type": "source_fact_and_comparison",
+      "researchCardLocation": "比较、不可替代性与边界",
+      "sources": [
+        "KHM对象页",
+        "KHM Kunstkammer guide"
+      ]
+    },
+    {
+      "id": "C12",
+      "claim": "现有资料不能确认本像全球唯一、存世最少或通过稀世珍品硬门，因此重要性定为重要藏品。",
+      "type": "evidence_boundary",
+      "researchCardLocation": "比较、不可替代性与边界；work_context",
+      "sources": [
+        "锁定研究卡",
+        "work-context"
+      ]
+    },
+    {
+      "id": "C13",
+      "claim": "作品为1603年青铜胸像，高112、宽70、深41厘米，馆藏号Kunstkammer 5506，馆方标为主馆艺术珍宝馆第XXVII厅在展。",
+      "type": "source_fact",
+      "researchCardLocation": "身份与展陈",
+      "sources": [
+        "KHM对象页"
+      ]
+    },
+    {
+      "id": "C14",
+      "claim": "人物头部微转，目光向上，胡须、卷发和铠甲纹样均被细刻，胸前斜带形成明显斜线。",
+      "type": "direct_observation",
+      "researchCardLocation": "零背景可确认对象与图像证据",
+      "sources": [
+        "KHM对象页对象图"
+      ]
+    }
+  ]
+}

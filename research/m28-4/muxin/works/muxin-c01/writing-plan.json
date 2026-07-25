@@ -1,0 +1,179 @@
+{
+  "workId": "muxin-c01",
+  "readerStartingPoint": "读者只需知道眼前是一组六十六张、正反两面密集书写的纸；具体文字内容、监禁制度和保存经历都需要正文建立。",
+  "narrativeMainline": {
+    "valueType": "social_document",
+    "mainline": "强制自我检查用纸被木心转作秘密写作；有限的纸张与被搜查风险使文字极小、密布正反两面并被藏入衣物，因此原稿的损耗、双面展法和今天的轮换保存，都成为监禁处境留下的物证。",
+    "storyBeats": [
+      {
+        "beat": "先交代纸张原先为何被提供、木心如何改变其用途，使读者理解这组对象保存的不只是文字内容，也是制度用途与个人写作之间的冲突。",
+        "materials": [
+          "来源事实与局部因果第1—2项",
+          "候选价值证据 social_document、ritual_or_original_context"
+        ],
+        "newUnderstanding": "纸本本身参与了历史，不只是后来承载作品的中性材料。"
+      },
+      {
+        "beat": "再把纸张受限、搜查风险、极小密写、双面利用和藏入衣物连起来，说明物质特征如何由形成处境造成。",
+        "materials": [
+          "艺术/历史机制",
+          "零背景可确认材料第1—2项",
+          "来源事实与局部因果第3—4项"
+        ],
+        "newUnderstanding": "字迹密度、双面书写和纸张损耗不是装饰性细节，而是秘密写作得以留下的条件和代价。"
+      },
+      {
+        "beat": "最后用出版选文、同期风景画和原稿之间的差别解释原件为何仍值得看，并把耶鲁双面展法与乌镇轮换保存放入同一保存问题。",
+        "materials": [
+          "比较与不可替代性",
+          "对象经历与趣闻候选",
+          "馆址/可见状态"
+        ],
+        "newUnderstanding": "文字可以转录，原稿的双面密度、损耗与藏匿痕迹却无法由出版物或绘画替代；轮换不是作品残缺，而是保存边界。"
+      }
+    ]
+  },
+  "mustNotAssume": [
+    "木心在书写时的具体心理或情绪",
+    "当前展出的是哪几页，以及现场原件与复制件的比例",
+    "单页尺寸、纸种、墨种、磨损的具体位置",
+    "约六十五万字是经过公开校勘的精确统计",
+    "这组文献是唯一存世或世界最重要的狱中文献",
+    "准确起讫年能够收窄到某一个来源给出的年份"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "监禁中的具体心理",
+      "evidenceType": "无可用证据",
+      "allowedWording": "只说明写作处境、动作和物质结果",
+      "prohibitedUpgrade": "不得由字迹或藏匿动作推断恐惧、绝望、反抗意志等心理"
+    },
+    {
+      "claim": "形成时间",
+      "evidenceType": "来源事实存在编目差异",
+      "allowedWording": "约1970—1973年",
+      "prohibitedUpgrade": "不得写成确定的1972年或1971—1972年"
+    },
+    {
+      "claim": "字数",
+      "evidenceType": "馆方陈述",
+      "allowedWording": "馆方称约六十五万字",
+      "prohibitedUpgrade": "不得写成精确统计或校勘结论"
+    },
+    {
+      "claim": "藏匿衣物",
+      "evidenceType": "多个可靠来源对衣物细节表述不同",
+      "allowedWording": "藏入棉衣或棉裤等衣物夹层带出",
+      "prohibitedUpgrade": "不得锁定未经共同确认的具体衣物部位"
+    },
+    {
+      "claim": "不可替代性与稀有度",
+      "evidenceType": "已有近邻比较，但缺少同类监禁手稿的广泛比较",
+      "allowedWording": "出版选文与同期风景画不能替代原稿的物质证据；重要藏品",
+      "prohibitedUpgrade": "不得称唯一、最高、全球不可替代或稀世珍品"
+    },
+    {
+      "claim": "当前展示",
+      "evidenceType": "馆方确认原件脆弱、节选并定期轮换",
+      "allowedWording": "馆藏轮换，不能承诺具体展页",
+      "prohibitedUpgrade": "不得声称六十六张全部在展，或确认原件与复制件比例"
+    }
+  ],
+  "displayMetadata": {
+    "by": "木心 Mu Xin（1927—2011）",
+    "date": "约1970—1973年",
+    "material": "纸本墨迹；六十六张，正反一百三十二面",
+    "place": "木心美术馆展厅3 · 馆藏轮换",
+    "priority": "绝对不可错过",
+    "significance": "重要藏品",
+    "stay": "建议停留15分钟",
+    "availability": "collection_rotation",
+    "imagePolicy": "museum_hero_placeholder"
+  },
+  "claimLedger": [
+    {
+      "id": "C01",
+      "claim": "对象是六十六张纸组成的一组，正反共一百三十二面，不拆分为单页作品。",
+      "evidenceType": "来源事实",
+      "researchPointer": "对象身份·稳定单位"
+    },
+    {
+      "id": "C02",
+      "claim": "年代保留为约1970—1973年，因为现有来源的具体年份不同。",
+      "evidenceType": "来源事实及断言边界",
+      "researchPointer": "对象身份·年代"
+    },
+    {
+      "id": "C03",
+      "claim": "木心在被关押期间以写检查为由取得纸笔，并转用于秘密文学创作。",
+      "evidenceType": "来源事实",
+      "researchPointer": "来源事实与局部因果第1—2项"
+    },
+    {
+      "id": "C04",
+      "claim": "这种纸原本用于强制自我批评，制度用途与实际写作用途发生冲突。",
+      "evidenceType": "来源事实与编辑整理",
+      "researchPointer": "来源事实与局部因果第2项；候选价值证据 social_document"
+    },
+    {
+      "id": "C05",
+      "claim": "文字极小、排列密集并写满正反两面。",
+      "evidenceType": "来源记载的可见特征",
+      "researchPointer": "零背景可确认材料第1—2项"
+    },
+    {
+      "id": "C06",
+      "claim": "受限纸张与被搜查风险使书写极度压缩，并需要藏入衣物带出。",
+      "evidenceType": "来源事实与研究卡局部因果",
+      "researchPointer": "艺术/历史机制；来源事实与局部因果第3项"
+    },
+    {
+      "id": "C07",
+      "claim": "馆方称六十六张纸约有六十五万字，但统计方法未公开。",
+      "evidenceType": "馆方陈述及断言边界",
+      "researchPointer": "来源事实与局部因果第4项"
+    },
+    {
+      "id": "C08",
+      "claim": "纸面已有泛黄和磨损，但具体位置未由对象级高清图核验。",
+      "evidenceType": "来源记载及观察边界",
+      "researchPointer": "零背景可确认材料第2项；现场可观察证据第3项"
+    },
+    {
+      "id": "C09",
+      "claim": "出版选文保留文字内容，却不能保留正反密度、纸张损耗和藏匿痕迹；同期风景画也不能提供相同的监禁物证。",
+      "evidenceType": "比较事实与编辑整理",
+      "researchPointer": "比较与不可替代性"
+    },
+    {
+      "id": "C10",
+      "claim": "2001年耶鲁展曾以透明结构悬置纸张，使两面都能观看。",
+      "evidenceType": "来源事实",
+      "researchPointer": "零背景可确认材料第3项；对象经历与趣闻候选·展陈史"
+    },
+    {
+      "id": "C11",
+      "claim": "木心美术馆因原件脆弱和磨损，只节选并定期轮换展示，不能承诺具体展页。",
+      "evidenceType": "馆方陈述",
+      "researchPointer": "对象身份·馆址/可见状态；现场可观察证据第4项"
+    },
+    {
+      "id": "C12",
+      "claim": "现有研究未覆盖同类监禁手稿的广泛比较，不能证明全球唯一性或稀世珍品地位。",
+      "evidenceType": "研究边界",
+      "researchPointer": "比较与不可替代性·未通过项；未确定与作者阶段边界"
+    },
+    {
+      "id": "C13",
+      "claim": "页面使用馆舍占位图而非作品图，且不得由占位图产生视觉判断。",
+      "evidenceType": "冻结选择与图片边界",
+      "researchPointer": "work-selection.json·imagePolicy；来源·图片/许可"
+    },
+    {
+      "id": "C14",
+      "claim": "这组文献在2001—2003年与三十三幅风景画一同巡展至耶鲁、芝加哥、檀香山和纽约。",
+      "evidenceType": "来源事实",
+      "researchPointer": "来源事实与局部因果第5项"
+    }
+  ]
+}

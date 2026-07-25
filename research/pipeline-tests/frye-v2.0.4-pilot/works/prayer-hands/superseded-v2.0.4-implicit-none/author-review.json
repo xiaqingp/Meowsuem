@@ -1,0 +1,169 @@
+{
+  "workId": "prayer-hands",
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "finalPassIssued": false,
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "cd00b4c097835a5e7266b4004bd243884f10eb009778a0b12df73e3b061bcdab"
+  },
+  "paragraphDependency": [
+    {
+      "paragraph": "30 秒先懂",
+      "dependsOn": "元数据与题名已经给出作品身份。",
+      "newUnderstanding": "墙形和接缝制造分隔，重复身体与手势形成呼应；T-wall 的保护功能也带来隔离。",
+      "breaksIfMovedEarlier": "若置于作品身份之前，T-wall 和双联所指对象不清楚。"
+    },
+    {
+      "paragraph": "深层第一段：双联与接缝",
+      "dependsOn": "快层已经建立分隔与呼应的暂时答案。",
+      "newUnderstanding": "双联格式要求目光跨过接缝，使“墙”成为观看动作中的切分。",
+      "breaksIfMovedEarlier": "若提前，读者尚不知道为何要追踪墙形、身体与手势的关系。"
+    },
+    {
+      "paragraph": "深层第二段：动作改变分隔的力度",
+      "dependsOn": "上一段已证明接缝如何建立分隔。",
+      "newUnderstanding": "高举、合拢的手以重复和曲线回应墙形，同时动作本身不授权心理或宗教判断。",
+      "breaksIfMovedEarlier": "若提前，手势只会成为孤立的形式描述，无法说明它改变了哪一种分隔。"
+    },
+    {
+      "paragraph": "深层第三段：T-wall 的现实背景",
+      "dependsOn": "前两段已从画面建立墙形、接缝、身体与手势的机制。",
+      "newUnderstanding": "军用防爆墙把保护和隔离放进同一基础设施，馆方的迁移语境让形式张力获得有限而可追溯的现实背景。",
+      "breaksIfMovedEarlier": "若提前，军事与迁移背景会接管作品，读者还没有可返回的画面机制。"
+    },
+    {
+      "paragraph": "深层第四段：系列比较与 Frye 入藏",
+      "dependsOn": "上一段已说明本作处理的现实问题及证据边界。",
+      "newUnderstanding": "同系列可替代对方法的理解，却不能替代本作双联、手势与 Frye 收藏节点的组合，因此重要性被限定为重要藏品。",
+      "breaksIfMovedEarlier": "若提前，比较与馆藏史会像独立资料栏目，尚未回答它们为何影响核心问题。"
+    },
+    {
+      "paragraph": "可观察细节",
+      "dependsOn": "深层已解释接缝、身体、手势、墙形和狭长双联为何相关。",
+      "newUnderstanding": "读者可以用六个具体细节逐项检验前文判断。",
+      "breaksIfMovedEarlier": "若提前，细节会退化为未解释其作用的清单。"
+    },
+    {
+      "paragraph": "最后再看一眼",
+      "dependsOn": "全文已建立分隔、呼应、保护/隔离背景及有限解释边界。",
+      "newUnderstanding": "手势未必消除界线，也可能让距离更醒目；接缝因此成为核心问题的现场检验点。",
+      "breaksIfMovedEarlier": "若提前，读者无法理解为何要比较“跨过”与“凸显”两种观看结果。"
+    },
+    {
+      "paragraph": "事实边界与资料",
+      "dependsOn": "正文已正面完成可支持的作品解释。",
+      "newUnderstanding": "读者知道人物身份、宗教、地点、具体事件、首件范围和展出状态的边界。",
+      "breaksIfMovedEarlier": "若提前，限制会压过作品本身，并形成审稿式开场。"
+    }
+  ],
+  "claimClosure": [
+    {
+      "sentence": "题名中的 T-wall 指军用混凝土防爆墙类型；它既用于保护，也造成分隔。",
+      "riskType": "历史背景与功能因果",
+      "evidenceType": "来源事实",
+      "sourceOrBasis": "research-card.md 与 batch-02/source-pack.md 的 T-wall 背景",
+      "confidence": "中：墙体类型与保护/分隔关系得到资料包支持，但正文不扩展到具体地点或事件。",
+      "verdict": "保留，强度与证据相称。"
+    },
+    {
+      "sentence": "这里能确认的是动作和重复关系，无法仅凭姿态确定人物的情绪或信仰。",
+      "riskType": "人物心理与宗教归属",
+      "evidenceType": "直接观察与证据限制",
+      "sourceOrBasis": "可观察的高举/合拢手势；研究卡明确禁止臆断人物身份和宗教归属",
+      "confidence": "高：句子只说明观察能够支持的边界。",
+      "verdict": "保留。"
+    },
+    {
+      "sentence": "Frye 将卡赫拉曼的创作与迁移、移民及个人经验联系起来。",
+      "riskType": "策展解释与艺术家经历",
+      "evidenceType": "馆方来源事实",
+      "sourceOrBasis": "Frye 2025 Impact Report，资料包 F15",
+      "confidence": "高：明确归因给 Frye，没有冒充画面观察或艺术家唯一意图。",
+      "verdict": "保留。"
+    },
+    {
+      "sentence": "作品曾进入 Frye 2024—25 年的卡赫拉曼个展，随后于 2025 年入藏。",
+      "riskType": "历史先后与入藏因果",
+      "evidenceType": "来源事实",
+      "sourceOrBasis": "research-card.md 与资料包 F14、F15",
+      "confidence": "高：展期与馆藏号年份支持顺序；正文只写先后，不声称个展必然导致购买。",
+      "verdict": "保留。"
+    },
+    {
+      "sentence": "馆方称它是 Frye 馆藏中首件伊拉克艺术家的作品。",
+      "riskType": "首次断言",
+      "evidenceType": "馆方范围内的来源事实",
+      "sourceOrBasis": "Frye 2025 Impact Report，资料包 F15",
+      "confidence": "高：正文与事实边界均把比较范围限定为 Frye 馆藏。",
+      "verdict": "保留，不升级为全球或艺术家生涯首次。"
+    },
+    {
+      "sentence": "同系列作品仍能解释其核心方法，所以更准确的判断是：它是一件重要藏品，其分量来自具体构图与 Frye 收藏方向的交会，而非全球唯一性。",
+      "riskType": "重要性与不可替代性",
+      "evidenceType": "编辑判断，基于同系列比较与馆藏事实",
+      "sourceOrBasis": "研究卡五维判断、最近比较对象及 Frye 首件伊拉克艺术家作品的馆方说明",
+      "confidence": "中高：馆内制度位置清楚；全球数量和系列完整范围未知，因此主动停在重要藏品。",
+      "verdict": "保留；符合 Frye 72 分边界。"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这件双联用墙形和接缝把人隔开，又用重复身体和合拢的手让两边互相回应；知道 T-wall 同时保护和分隔后，再看那条缝，就会明白它为什么是全画的关键。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "notes": "标题、快层与四段推进均可口头复述；长句已保持明确主语和对象，未使用抽象概念压缩代替具体动作。"
+  },
+  "productionLanguageScan": {
+    "verdict": "passed",
+    "checkedTerms": [
+      "内部研究缺口",
+      "图片许可任务",
+      "发布任务或状态",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "版本迁移"
+    ],
+    "findings": [],
+    "boundaryCheck": "访客正文只保留人物身份、宗教、具体地点/事件、首件范围和易变展出状态等理解作品所需的事实边界。"
+  },
+  "significanceReview": {
+    "verdict": "ready_for_independent_check",
+    "label": "重要藏品",
+    "fiveDimensionsCovered": true,
+    "nearestComparator": "Hayv Kahraman《T-Wall》系列其他作品",
+    "comparisonClosure": "同系列共享身体与防爆墙形制；本作差异为双联、祈祷手势及 Frye 个展/入藏史。比较对象可以替代系列方法的理解，不能替代本作的馆内制度位置。",
+    "rarityBoundary": "未确认全球数量、系列完整范围或本作的全球等级，因此未使用“稀世珍品”。",
+    "frye72Boundary": "正文将价值限定在具体形式与 Frye 收藏节点，没有把作品写成决定旅行的稀世孤品。"
+  },
+  "structureChecks": {
+    "singleProgressiveQuestion": true,
+    "quickLayerIndependentAndComplete": true,
+    "deepLayerIndependentAndAtLeast320VisibleCharacters": true,
+    "observableDetailCount": 6,
+    "workSpecificSecondLook": true,
+    "genericViewingCommandOpening": false,
+    "swappableHistoryStyleSignificanceColumns": false,
+    "repeatedSentenceTemplateRisk": "low",
+    "negativeTurnSkeletonCount": 1
+  },
+  "candidateVoiceScores": {
+    "entry": 2,
+    "causality": 2,
+    "people": 1,
+    "turn": 2,
+    "visualPayoff": 2,
+    "oralClarity": 2,
+    "secondLook": 2,
+    "total": 13,
+    "note": "作者候选意见，仅供独立审读参考，不构成最终通过。人物维度为 1，因为本作主要由材料化墙体、身体与馆藏制度关系推进，不宜虚构个人选择。"
+  },
+  "unresolvedRisks": [
+    "当前展出状态易变，正文仅写可能轮换，未承诺到访可见。",
+    "现有资料不能确认人物身份、宗教归属、具体地点、战争事件或艺术家的唯一意图；正文已收窄。",
+    "《T-Wall》系列的全球数量与完整范围未确认，因此重要性停在“重要藏品”。",
+    "图片摄影者为 Jueqian Fang，复用许可尚未取得；该事项仅保留在内部审读记录。"
+  ],
+  "retryReason": null
+}

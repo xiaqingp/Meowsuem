@@ -1,0 +1,264 @@
+{
+  "schemaVersion": "museum-research-packet/1.0",
+  "museum": {
+    "museumId": "seattle",
+    "nameZh": "????????",
+    "nameEn": "Seattle Art Museum",
+    "location": "1300 First Avenue, Seattle, Washington, USA",
+    "scopeType": "single_building"
+  },
+  "works": [
+    {
+      "id": "posthumous-portrait-head-of-the-emperor-claudius",
+      "title": "Posthumous portrait head of the Emperor Claudius",
+      "makerOrCulture": "Roman",
+      "date": "54-68 A.D.",
+      "collectionGroup": "Ancient Mediterranean Art",
+      "objectNumber": "93.6",
+      "identityAnchor": "93.6",
+      "identitySourceUrl": "https://art.seattleartmuseum.org/objects/9184/posthumous-portrait-head-of-the-emperor-claudius",
+      "candidateRationale": "馆方列为古代地中海艺术精选；“死后肖像”提供皇权形象、再现制度和断代方法的明确研究问题。",
+      "researchTask": "核实归属与断代依据、为何判定为死后肖像、原像类型、材料与保存状况、最近比较头像及主馆展陈。",
+      "riskFlags": [
+        "attribution_or_date_conflict",
+        "availability_ambiguity"
+      ],
+      "riskRationale": "馆藏号和题名唯一；题名含有学术判断，研究必须核实其证据并记录仍有争议或未知之处。",
+      "museumId": "seattle",
+      "workId": "posthumous-portrait-head-of-the-emperor-claudius",
+      "workIdentity": {
+        "artistOrCulture": "Roman",
+        "title": "Posthumous portrait head of the Emperor Claudius",
+        "titleEn": "Posthumous portrait head of the Emperor Claudius",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "id": "funerary-portrait",
+      "title": "Funerary Portrait",
+      "makerOrCulture": "Egyptian",
+      "date": "1st-2nd century",
+      "collectionGroup": "Ancient Mediterranean Art",
+      "objectNumber": "50.62",
+      "identityAnchor": "50.62",
+      "identitySourceUrl": "https://art.seattleartmuseum.org/objects/11852/funerary-portrait",
+      "candidateRationale": "馆方列为古代地中海艺术精选；可研究肖像作为丧葬物件的使用方式，并与罗马帝王头像区分个人纪念和政治形象。",
+      "researchTask": "核实地域、年代、材质、原始丧葬语境、人物身份可知边界、来源链、同类比较对象和主馆可见状态。",
+      "riskFlags": [
+        "availability_ambiguity",
+        "cross_source_synthesis"
+      ],
+      "riskRationale": "对象身份明确；人物身份和面貌写实程度不能从肖像外观自行确定。",
+      "museumId": "seattle",
+      "workId": "funerary-portrait",
+      "workIdentity": {
+        "artistOrCulture": "Egyptian",
+        "title": "Funerary Portrait",
+        "titleEn": "Funerary Portrait",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "id": "reliquary-casket",
+      "title": "Reliquary casket",
+      "makerOrCulture": "probably French, probably Limoges",
+      "date": "ca. 1200-1225",
+      "collectionGroup": "European Art",
+      "objectNumber": "49.38",
+      "identityAnchor": "49.38",
+      "identitySourceUrl": "https://art.seattleartmuseum.org/objects/5988/reliquary-casket",
+      "candidateRationale": "馆方列为欧洲艺术精选；小型圣物匣可补足绘画之外的中世纪珐琅、宗教使用和物件形制研究。",
+      "researchTask": "核实 Limoges 归属的证据与不确定性、champlevé 工艺、圣物匣用途、图像人物、比较对象、来源链，并记录馆方标示的不可见状态。",
+      "riskFlags": [
+        "attribution_or_date_conflict",
+        "availability_ambiguity"
+      ],
+      "riskRationale": "馆藏号唯一；馆方对产地两次使用 probably，且对象页标示 Not currently on view，研究和后续路线必须保留这两个边界。",
+      "museumId": "seattle",
+      "workId": "reliquary-casket",
+      "workIdentity": {
+        "artistOrCulture": "probably French, probably Limoges",
+        "title": "Reliquary casket",
+        "titleEn": "Reliquary casket",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "id": "salt-cellar",
+      "title": "Salt cellar",
+      "makerOrCulture": "Sapi, Sierra Leone",
+      "date": "ca. 1490-1530",
+      "collectionGroup": "African Art",
+      "objectNumber": "81.17.189",
+      "identityAnchor": "81.17.189",
+      "identitySourceUrl": "https://art.seattleartmuseum.org/objects/7058/salt-cellar",
+      "candidateRationale": "馆方非洲艺术专题首列该对象；它把 Sapi 象牙雕刻、葡萄牙委托与欧洲餐桌使用放在同一物件中，可承担跨洲接触而非单一风格史的问题。",
+      "researchTask": "核实 Sapi 归属、1490—1530 断代、委托与使用语境、象牙材料、图像细节、同类盐罐比较、来源链和主馆展陈。",
+      "riskFlags": [
+        "cross_source_synthesis",
+        "availability_ambiguity"
+      ],
+      "riskRationale": "馆藏号可与馆内其他同题盐罐区分；象牙材料、殖民接触与来源史需要谨慎研究，但对象身份没有冲突。",
+      "museumId": "seattle",
+      "workId": "salt-cellar",
+      "workIdentity": {
+        "artistOrCulture": "Sapi, Sierra Leone",
+        "title": "Salt cellar",
+        "titleEn": "Salt cellar",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "id": "belt-mask-of-iyoba-idia",
+      "title": "Belt mask of Iyoba (Mother of the Oba) Idia",
+      "makerOrCulture": "Benin Kingdom",
+      "date": "ca. 1517-1550",
+      "collectionGroup": "African Art",
+      "objectNumber": "81.17.493",
+      "identityAnchor": "81.17.493",
+      "identitySourceUrl": "https://art.seattleartmuseum.org/objects/8251/belt-mask-of-iyoba-mother-of-the-oba-idia",
+      "candidateRationale": "馆方非洲艺术专题列出的宫廷对象；对象页同时记录王室纪念、仪式使用与 1897 年英国军事掠夺来源，可形成艺术价值、权力和收藏伦理相互关联的研究问题。",
+      "researchTask": "核实 Idia 与 Oba Esigie 的历史关系、四件相关象牙面具的比较范围、年度仪式、1897 年来源链、返还讨论、材料与主馆展陈状态。",
+      "riskFlags": [
+        "rare_candidate",
+        "cross_source_synthesis",
+        "availability_ambiguity"
+      ],
+      "riskRationale": "馆藏号与对象页唯一；馆方明确记录其于 1897 年由英国惩罚性远征从贝宁王宫取走，后续研究必须正面处理来源与返还语境，不把它写成中性的流传故事。",
+      "museumId": "seattle",
+      "workId": "belt-mask-of-iyoba-idia",
+      "workIdentity": {
+        "artistOrCulture": "Benin Kingdom",
+        "title": "Belt mask of Iyoba (Mother of the Oba) Idia",
+        "titleEn": "Belt mask of Iyoba (Mother of the Oba) Idia",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "id": "four-cornered-hat-with-birds",
+      "title": "Four-cornered hat with birds",
+      "makerOrCulture": "Peruvian",
+      "date": "ca. 500-800",
+      "collectionGroup": "Ancient American Art",
+      "objectNumber": "76.51",
+      "identityAnchor": "76.51",
+      "identitySourceUrl": "https://art.seattleartmuseum.org/objects/21167/fourcornered-hat-with-birds",
+      "candidateRationale": "馆方古代美洲专题前列该对象；它以可穿戴纺织物补充绘画与雕塑路线，适合研究技术、身份和图案如何共同工作。",
+      "researchTask": "核实具体文化归属、约 500—800 年断代、织造结构、鸟纹解释、佩戴与出土语境、来源链、比较对象及主馆可见状态。",
+      "riskFlags": [
+        "cross_source_synthesis",
+        "availability_ambiguity"
+      ],
+      "riskRationale": "馆藏号唯一；候选页仅标 Peruvian，具体文化和用途不得凭形制补写。",
+      "museumId": "seattle",
+      "workId": "four-cornered-hat-with-birds",
+      "workIdentity": {
+        "artistOrCulture": "Peruvian",
+        "title": "Four-cornered hat with birds",
+        "titleEn": "Four-cornered hat with birds",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "id": "cylinder-vase-depicting-scribes-in-the-underworld",
+      "title": "Cylinder vase depicting scribes in the Underworld",
+      "makerOrCulture": "Maya",
+      "date": "ca. 600-900",
+      "collectionGroup": "Ancient American Art",
+      "objectNumber": "81.109",
+      "identityAnchor": "81.109",
+      "identitySourceUrl": "https://art.seattleartmuseum.org/objects/10224/cylinder-vase-depicting-scribes-in-the-underworld",
+      "candidateRationale": "馆方古代美洲专题前列该对象；带叙事场景的圆筒器可研究书写者、冥界图像、器物用途和环绕式观看。",
+      "researchTask": "核实 Maya 地域与年代、文字或图像识读、scribes 与 Underworld 题名依据、陶器用途、来源链、可比器物和主馆可见状态。",
+      "riskFlags": [
+        "cross_source_synthesis",
+        "availability_ambiguity"
+      ],
+      "riskRationale": "对象身份唯一；题名包含对人物身份和场景的解释，必须核查学术依据，不能把观看顺序写成事件时间顺序。",
+      "museumId": "seattle",
+      "workId": "cylinder-vase-depicting-scribes-in-the-underworld",
+      "workIdentity": {
+        "artistOrCulture": "Maya",
+        "title": "Cylinder vase depicting scribes in the Underworld",
+        "titleEn": "Cylinder vase depicting scribes in the Underworld",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "id": "folio-from-the-dispersed-blue-quran",
+      "title": "Folio from the dispersed \"Blue Qur'an\"",
+      "makerOrCulture": "North African",
+      "date": "9th century",
+      "collectionGroup": "Islamic Art",
+      "objectNumber": "69.37",
+      "identityAnchor": "69.37",
+      "identitySourceUrl": "https://art.seattleartmuseum.org/objects/5815/folio-from-the-dispersed-blue-quran",
+      "candidateRationale": "馆方伊斯兰艺术专题首列该页；分散手稿的一叶能够把书写材料、页面设计、经文功能和成组收藏问题连接起来。",
+      "researchTask": "核实页中文字、材料、金字与蓝色底的制作、九世纪和北非归属依据、分散历史、全球相关页的可核实比较，以及市中心主馆展陈关系。",
+      "riskFlags": [
+        "composite_or_parent_child",
+        "attribution_or_date_conflict",
+        "availability_ambiguity"
+      ],
+      "riskRationale": "馆藏号唯一；该对象属于分散手稿，研究必须区分本页可确认信息与整部手稿的推断，并特别核实跨馆址边界。",
+      "museumId": "seattle",
+      "workId": "folio-from-the-dispersed-blue-quran",
+      "workIdentity": {
+        "artistOrCulture": "North African",
+        "title": "Folio from the dispersed \"Blue Qur'an\"",
+        "titleEn": "Folio from the dispersed \"Blue Qur'an\"",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "id": "gathering-storm",
+      "title": "Gathering Storm",
+      "makerOrCulture": "Lin Onus",
+      "date": "1993",
+      "collectionGroup": "Australian Aboriginal Art",
+      "objectNumber": "2006.31",
+      "identityAnchor": "2006.31",
+      "identitySourceUrl": "https://art.seattleartmuseum.org/objects/33432/gathering-storm",
+      "candidateRationale": "馆方澳大利亚原住民艺术专题首列该作；它为主馆跨文化路线加入一位有明确姓名的当代艺术家，并可研究不同视觉传统与政治历史的关系。",
+      "researchTask": "核实作品媒材、图像来源、艺术家文化背景与生涯位置、1993 年语境、可靠比较对象、图像观察资料和主馆可见状态。",
+      "riskFlags": [
+        "insufficient_official_sources",
+        "availability_ambiguity"
+      ],
+      "riskRationale": "馆藏号、作者与题名一致；文化与政治解释须来自艺术家或权威研究，不能由画面风格直接推断。",
+      "museumId": "seattle",
+      "workId": "gathering-storm",
+      "workIdentity": {
+        "artistOrCulture": "Lin Onus",
+        "title": "Gathering Storm",
+        "titleEn": "Gathering Storm",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "id": "canoe-prow-figure-nguzu-nguzu",
+      "title": "Canoe prow figure (Nguzu Nguzu)",
+      "makerOrCulture": "Melanesian",
+      "date": "late 19th century",
+      "collectionGroup": "Oceanic Art",
+      "objectNumber": "81.17.1443",
+      "identityAnchor": "81.17.1443",
+      "identitySourceUrl": "https://art.seattleartmuseum.org/objects/5847/canoe-prow-figure-nguzu-nguzu",
+      "candidateRationale": "馆方大洋洲专题首列该对象；独木舟艏像能把雕刻从独立陈列品还原到船体、航行和保护性使用的原始关系中。",
+      "researchTask": "核实更具体的地域与文化归属、名称、材料、安装位置、使用功能、十九世纪末断代、来源链、比较对象及主馆展陈状态。",
+      "riskFlags": [
+        "insufficient_official_sources",
+        "availability_ambiguity"
+      ],
+      "riskRationale": "馆藏号唯一；候选页的 Melanesian 标签宽泛，具体地域、功能与精神含义必须在研究阶段核实。",
+      "museumId": "seattle",
+      "workId": "canoe-prow-figure-nguzu-nguzu",
+      "workIdentity": {
+        "artistOrCulture": "Melanesian",
+        "title": "Canoe prow figure (Nguzu Nguzu)",
+        "titleEn": "Canoe prow figure (Nguzu Nguzu)",
+        "museum": "Seattle Art Museum"
+      }
+    }
+  ]
+}

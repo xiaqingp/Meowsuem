@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-pg-13-cardinal-albergati-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:44:22.1006264-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-02/vienna-pg-13-cardinal-albergati-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "81e5971c26429e8d08c2067c7134a5e1ee4f4a289683cea20e127e57597eb63d"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-pg-13-cardinal-albergati/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "a79f9a846c694b352ecd2183b105fb75fe20f60ad932cbe762032d4033c07dd7"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "04ecf37fa54537a57764004aa06b456dfbe67e900c0e0098fb7656d0df06873e",
+                        "bytes":  9995
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "7b5f85d7d1970c033638a7a16498e35ca29589291886724254cff76cef2e6d2a",
+                        "bytes":  318
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "a9b7e7b57d7197ad84e66eb01b3efaf127bb7ed8979c9561da2cedaaa0a55f80",
+                        "bytes":  4224
+                    }
+                ]
+}

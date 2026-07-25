@@ -1,0 +1,53 @@
+{
+  "runId": "m28-2-v2.4.0-narmer-historical-transition-gap-2026-07-23",
+  "startedAt": "2026-07-23T00:09:19.6128558-07:00",
+  "stage": "research_gap",
+  "researchMode": "targeted_gap",
+  "museumId": "egyptian",
+  "workId": "narmer-palette",
+  "workIdentity": {
+    "artistOrCulture": "Ancient Egyptian, Early Dynastic Period",
+    "title": "Narmer Palette",
+    "museum": "The Egyptian Museum in Cairo"
+  },
+  "missingDimensions": [
+    {
+      "valueType": "historical_transition",
+      "questions": [
+        "What political situation preceded Egypt's first dynasty and unification?",
+        "What role do reliable sources assign to Narmer in the formation of a unified Egyptian kingdom?",
+        "What changed after this transition?",
+        "How does the palette relate to that transition: event record, political image, or surviving evidence?",
+        "What exact wording is supported for first, earliest, or one of the earliest?"
+      ]
+    }
+  ],
+  "pipelineVersion": "2.4.0",
+  "instructionVersion": "2.0.0",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c22c60e3a215aa1ac90da402debeb2caf9da39975cb2921c4845ef74ef14c834"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "7c1964bc58fe6e3c26fe7f55a25ad361dcae2c474b5bab696f10da31c1644d75"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "9f0f032e492e29ec6ae01ed453ed2baf894f8843a07db3597bce66dc2f906438"
+    },
+    {
+      "path": "research/pipeline-tests/v2.3.2-narmer-canonical-significance/research/narmer-palette-research-card.md",
+      "sha256": "c17f828c02dd8b39aa1450b311a23e5da41ba2c662ad79d423356d33be7c23a3"
+    }
+  ],
+  "outputs": [
+    "narmer-palette-research-supplement.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "test_only_no_production_write"
+}

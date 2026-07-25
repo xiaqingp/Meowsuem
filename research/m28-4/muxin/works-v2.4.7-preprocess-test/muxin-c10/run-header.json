@@ -1,0 +1,59 @@
+{
+  "runId": "m28-4-muxin-author-muxin-c10-2026-07-23",
+  "startedAt": "2026-07-24T04:56:17.390Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card_after_verified_selection",
+  "museumId": "muxin",
+  "workId": "muxin-c10",
+  "workIdentity": "以2015年开馆特展所称《双重悲悼》原稿整体为一件；页数、封套与附页边界未知。",
+  "pipelineVersion": "2.4.7",
+  "instructionVersion": "2.0.2",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c22c60e3a215aa1ac90da402debeb2caf9da39975cb2921c4845ef74ef14c834"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "fbe6770b2ff0d935448d52feb1f0d73c35bf8b901efe905dca982615e664a0ad"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c10/author-input-research.md",
+      "sha256": "66f16557572866b190ec49d7f738d79f6fd03dbbf07e7d9ae7949e4dc446434a"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c10/author-input-research-record.json",
+      "sha256": "6d1124a09db77e40b61fc6bf43172bb4030c69abe29f1d007c3556fbbc1f46a5"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c10/author-input-supplement.md",
+      "sha256": "2ef1484500395f4b46036da867c4f629728fb4f5385de33e06786c3babe2930b"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c10/author-input-supplement-record.json",
+      "sha256": "3be61de0f0307c15fee4aabd3a48b2e303c9ce136c3c1c007ba52c1920ff5ab3"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c10/work-selection.json",
+      "sha256": "3a02b31f3dfb936a5f4839cf828fea1cf18f06b8f23880f9fa55fcea5dc4bf96"
+    },
+    {
+      "path": "research/m28-4/muxin/integration/museum-plan.json",
+      "sha256": "f1667c694974a0128558ce6d9519b3a616cab05d4dc3a4f4d00caf5ec62862b2"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

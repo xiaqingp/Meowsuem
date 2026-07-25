@@ -1,0 +1,211 @@
+{
+  "artifactType": "author_review",
+  "workId": "soap-bubbles",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "104496b76c253f5ec482e79c95fbae06fdb2d47167c0698ecc33407d2c2c1818"
+  },
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "scopeNote": "作者自审只确认稿件已具备独立审读条件，不签发最终通过结论。",
+  "paragraphDependency": [
+    {
+      "paragraph": "30 秒先懂",
+      "dependsOn": "元数据与读者从画面可直接确认的脸、泡泡、手镜和暗背景。",
+      "newUnderstanding": "暂时回答核心问题：镜子稳定可握，泡泡容易消失，因此普通照镜动作多出一层不安定。",
+      "breaksIfMovedEarlier": "它是读者进入深层前的独立抓手，已处于可用的最早位置。"
+    },
+    {
+      "paragraph": "泡泡为什么偏偏悬在脸和镜子之间？",
+      "dependsOn": "快层已经建立脸—泡泡—镜子的关系，却尚未解释泡泡怎样在构图中发挥作用。",
+      "newUnderstanding": "泡泡占住脸与镜子的连接位置，并与圆镜、集中亮部一起把题目变成关于观看的问题。",
+      "breaksIfMovedEarlier": "没有快层先指出稳定镜子与易逝泡泡的张力，本段会只剩构图罗列。"
+    },
+    {
+      "paragraph": "两个圆形，一稳一易碎",
+      "dependsOn": "上一段已经证明泡泡与圆镜因位置、圆形和亮部被联系起来。",
+      "newUnderstanding": "两个圆形的质感与持续时间不同；马克斯把学院人物画能力用于改变一处日常照镜动作。",
+      "breaksIfMovedEarlier": "若尚未建立两个圆形为何必须一起看，学院训练与成熟期判断会变成可交换的作者资料。"
+    },
+    {
+      "paragraph": "寓意到哪里该停下",
+      "dependsOn": "上一段先建立了稳定镜面与易逝泡泡的可见差别，本段才有理由讨论这种差别引出的传统联想。",
+      "newUnderstanding": "泡泡可联系生命短暂或虚空，但这一语境不能替女子规定心理，也不能锁死本作答案。",
+      "breaksIfMovedEarlier": "若没有圆镜与泡泡的具体差别，vanitas 边界会像外加的图像学栏目。"
+    },
+    {
+      "paragraph": "到了 Frye，旧人物画有了新看法",
+      "dependsOn": "上一段已把寓意保持为开放问题，因此本段才能解释后世展览为何以反射而非固定寓意重读作品。",
+      "newUnderstanding": "与 McGranaghan《自画像》的比较把本作定位为连接学院人物画和后世反射主题的重要藏品，同时明确其非行程级稀世珍品。",
+      "breaksIfMovedEarlier": "若提前到寓意边界之前，馆藏比较会像独立的重要性栏目，也无法说明为什么‘反射’比单一寓意更合适。"
+    },
+    {
+      "paragraph": "再看这些容易错过的细节",
+      "dependsOn": "前四段依次建立亮部关系、两个圆形的差别、寓意边界和馆内重读。",
+      "newUnderstanding": "把四项判断分别变成可执行的现场核对动作。",
+      "breaksIfMovedEarlier": "提前后，动作会退化为未解释的观看清单。"
+    },
+    {
+      "paragraph": "最后再看一眼",
+      "dependsOn": "细节动作已经让读者能核对脸、泡泡、镜子、暗处人物和集中亮部。",
+      "newUnderstanding": "泡泡同时隔开并连接脸与镜子，核心问题在整体关系中闭合。",
+      "breaksIfMovedEarlier": "没有前文对稳定反射、易逝反光和寓意边界的建立，结尾的对比会缺少依据。"
+    },
+    {
+      "paragraph": "事实边界与资料",
+      "dependsOn": "正文已经正面给出能成立的观察、比较与价值判断。",
+      "newUnderstanding": "收窄严格 vanitas、人物心理、人物关系和易变在展状态，不新增访客结论。",
+      "breaksIfMovedEarlier": "提前后会让限制条件接管正文声音，读者尚未得到正面答案。"
+    }
+  ],
+  "dependencyVerdict": "深层四个主段形成即时依赖：位置关系 → 两个圆形的性质差别 → 由差别产生但需收窄的寓意 → 因寓意开放而成立的 Frye 反射主题重读。任意交换都会失去上一段提供的前提。",
+  "claimClosure": [
+    {
+      "sentence": "镜子可以握住，泡泡却随时可能消失。",
+      "evidenceType": "直接观察加普通材料性质",
+      "sourceOrBasis": "画面可见女子持镜、透明泡泡悬空；泡泡易破是日常可验证性质。",
+      "confidence": "高：动作与物件直接可见，措辞没有升级为人物心理或作者意图。",
+      "verdict": "closed"
+    },
+    {
+      "sentence": "泡泡占住了两者原本可以直接相接的位置。",
+      "evidenceType": "直接观察",
+      "sourceOrBasis": "研究卡明确泡泡悬于脸与镜之间。",
+      "confidence": "高：只描述画面位置关系。",
+      "verdict": "closed"
+    },
+    {
+      "sentence": "马克斯受过布拉格、维也纳和慕尼黑的学院训练，后来还在慕尼黑学院教授历史画。",
+      "evidenceType": "来源事实",
+      "sourceOrBasis": "research-card.md 转述 British Museum 作者档案；教授任期 1879—1883 未在正文重复数字。",
+      "confidence": "高：权威博物馆作者档案直接支持。",
+      "verdict": "closed"
+    },
+    {
+      "sentence": "在欧洲图像传统中，泡泡常与生命短暂或虚空联系在一起。",
+      "evidenceType": "比较史语境",
+      "sourceOrBasis": "research-card.md 的历史/题材边界。",
+      "confidence": "中：稳定的比较语境，但缺少本作严格归类的直接证据；正文随即明确收窄。",
+      "verdict": "closed_with_qualification"
+    },
+    {
+      "sentence": "画面本身也没有交代女子的情绪，后景较小人物与她的关系同样不明。",
+      "evidenceType": "直接观察的限度",
+      "sourceOrBasis": "research-card.md 禁写女子心理和前后人物关系。",
+      "confidence": "高：明确说明无法从动作与位置推出心理、身份。",
+      "verdict": "closed"
+    },
+    {
+      "sentence": "Frye 曾在同一展览语境中把它与 David McGranaghan 的《自画像》联系起来。",
+      "evidenceType": "来源事实",
+      "sourceOrBasis": "research-card.md 的最近比较对象与 Frye《The Third, Meaning》手册。",
+      "confidence": "高：馆方展览语境直接支持比较关系。",
+      "verdict": "closed"
+    },
+    {
+      "sentence": "它没有被证明为稀世孤品，却能把十九世纪学院人物画与后来围绕‘反射’的观看问题接起来。",
+      "evidenceType": "编辑判断",
+      "sourceOrBasis": "研究卡五维判断、比较类别、最近比较对象及不可替代性边界。",
+      "confidence": "中高：馆内作用有馆方展览比较支撑；全球稀有性未知，因此明确不升级。",
+      "verdict": "closed_with_boundary"
+    },
+    {
+      "sentence": "那枚泡泡既隔开脸与镜子，又把两者拴在同一条视线上。",
+      "evidenceType": "直接观察与可追溯编辑推断",
+      "sourceOrBasis": "泡泡位于脸与镜之间，且脸、手、镜、泡泡为集中亮部。",
+      "confidence": "高：比喻可直接还原为位置与亮部关系，没有心理或作者意图。",
+      "verdict": "closed"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这幅画把一枚容易破的泡泡放在女子的脸和手镜之间，让普通照镜变成对两种反光的比较；我们可以想到时间短暂，却不能替女子猜心情，到了 Frye，它又能和一幅凸镜式自画像一起谈人怎样看自己。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "notes": "连续朗读后，标题均可用日常中文复述；已删除‘镜像自我’等压缩说法，并把‘自我观看’改写为‘人怎样看自己’。主语、对象和因果关系完整。"
+  },
+  "productionLanguageScan": {
+    "checkedArtifacts": [
+      "card.txt visitor-visible line",
+      "draft.md visitor prose"
+    ],
+    "forbiddenCategories": [
+      "内部研究缺口",
+      "图片许可任务",
+      "发布任务或状态",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "版本迁移"
+    ],
+    "findings": [],
+    "verdict": "clean",
+    "boundaryNote": "事实边界只说明作品解释与易变在展状态的访客相关限度，没有写入内部待办。"
+  },
+  "cardAndQuickLayerIndependence": {
+    "cardFunction": "用价值判断说明学院人物画如何借镜子与泡泡形成关于反射和消失的观看回报。",
+    "quickLayerFunction": "用脸—泡泡—镜子的现场关系给出 30 秒可执行的观看抓手与暂时答案。",
+    "nearParaphrase": false,
+    "genericCommandOpening": false
+  },
+  "significanceReview": {
+    "label": "重要藏品",
+    "artisticAchievement": "构图以竖幅、前景斜线和集中亮部组织脸、泡泡、镜子之间的关系。",
+    "artHistoricalPosition": "成熟期学院人物画与私密室内、反射/易逝意象结合；无开创性或最高峰强断言。",
+    "historicalCulturalValue": "泡泡可进入生命短暂/虚空的欧洲比较史，但严格 vanitas 归属未确认。",
+    "rarityAndIrreplaceability": "全球数量与唯一性未知；正文明确不以稀有性成立。",
+    "collectionPosition": "与 McGranaghan《自画像》的最近比较对象建立 Frye 馆内反射主题重读。",
+    "nearestComparator": "David McGranaghan，《自画像》 Self-Portrait",
+    "comparatorDifference": "两者共享圆形反射与看自己的主题；Max 使用人物、手镜和易碎泡泡，McGranaghan 让画面本身呈凸镜式形状。",
+    "frye72Boundary": "正文把它写成值得馆内多停几分钟的重要节点，同时明确它不是改变西雅图行程的稀世珍品。",
+    "verdict": "appropriately_bounded"
+  },
+  "observableDetailAudit": {
+    "count": 6,
+    "details": [
+      "竖幅",
+      "女子持圆形手镜",
+      "透明泡泡位于脸与镜之间",
+      "后景较小人物",
+      "暗背景集中脸、手、镜、泡泡的亮部",
+      "前景身体形成斜线"
+    ],
+    "unsupportedVisualClaims": []
+  },
+  "voiceCandidateScores": {
+    "entry": 2,
+    "causality": 2,
+    "human": 1,
+    "turn": 2,
+    "visualPayoff": 2,
+    "spokenClarity": 2,
+    "secondLook": 2,
+    "total": 13,
+    "note": "仅为作者候选自评分；独立审读者需重新评分。人物维度为 1，因为作品不依赖可证实的人物选择或制度冲突，正文刻意不补心理。"
+  },
+  "unresolvedRisks": [
+    {
+      "risk": "当前是否在展未确认。",
+      "handling": "访客正文已标为易变信息，并要求以馆方当日信息为准。"
+    },
+    {
+      "risk": "图片再利用许可未确认。",
+      "handling": "仅留在本内部自审记录；访客正文未出现。"
+    },
+    {
+      "risk": "研究卡称 Frye 2011 年报记录该作参加 Lenbachhaus 回顾展，但研究卡来源清单未附年报链接。",
+      "handling": "作者稿完全省略回顾展借展事实，不以该事实支撑重要性。"
+    },
+    {
+      "risk": "严格 vanitas 归属、女子心理和前后人物关系均无直接证据。",
+      "handling": "正文只保留带限定的比较史语境，并明确不确定边界。"
+    },
+    {
+      "risk": "作者现代国家归属未在研究卡明写。",
+      "handling": "卡片与详情收窄为研究卡可支持的地区表述‘慕尼黑艺术圈’，不把出生地机械当作国籍。"
+    }
+  ]
+}

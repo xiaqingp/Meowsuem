@@ -1,0 +1,26 @@
+{
+  "id": "PCR-2026-07-24-13",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-24",
+  "ownerInstruction": "继续完成西雅图艺术博物馆整馆运行并原子更新主网站",
+  "baseRelease": "research/pipeline-releases/v2.7.7.json",
+  "targetVersion": "2.7.8",
+  "scope": [
+    "exclude a page from cache-only rewrites when that page is already a direct publication file",
+    "prevent duplicate atomic staging paths during legacy museum migration"
+  ],
+  "allowedCanonicalFiles": [
+    "scripts/assemble-museum-candidate.mjs"
+  ],
+  "allowedManagementFiles": [
+    "research/content-standard-manifest.json",
+    "coho_museum/Milestones.md",
+    "coho_museum/knowledge.md"
+  ],
+  "requiredTests": [
+    "Seattle publication plan contains no duplicate destination",
+    "publisher dry-run and atomic publish pass",
+    "release idempotence and immutability pass"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "PCR-2026-07-24-05",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-24",
+  "ownerInstruction": "按照我们上面说的，模型和pipeline的更改，执行吧",
+  "baseRelease": "research/pipeline-releases/v2.6.1.json",
+  "targetVersion": "2.7.0",
+  "scope": [
+    "materialize stage-specific views from the single canonical content instruction without ad hoc prompts",
+    "retain complete per-work research while giving rating and museum structure compact evidence indexes",
+    "keep per-work author isolation while replacing repeated claim prose with research claim references",
+    "run research and author directories with bounded concurrency",
+    "route museum scope and mechanically eligible standard research to gpt-5.6-terra medium while retaining gpt-5.6-sol medium for candidate selection, complex research, rating, structure and authoring",
+    "validate on sealed artifacts and a small isolated model sample without regenerating or publishing a whole museum"
+  ],
+  "allowedCanonicalFiles": [
+    "research/meowseum-content-instruction.md",
+    "research/generation-pipeline.md",
+    "scripts/run-isolated-generation.ps1",
+    "scripts/process-author-bundle.mjs",
+    "scripts/prepare-museum-stage-inputs.mjs",
+    "scripts/run-generation-batch.mjs",
+    "scripts/verify-content-pipeline.mjs",
+    "scripts/freeze-pipeline-release.mjs"
+  ],
+  "allowedManagementFiles": [
+    "research/content-standard-manifest.json",
+    "scripts/test-prepare-museum-stage-inputs.mjs",
+    "scripts/test-run-generation-batch.mjs",
+    "scripts/test-run-isolated-generation.ps1",
+    "scripts/test-author-input-regression.mjs",
+    "scripts/verify-project-authority.mjs",
+    "coho_museum/TechDesign.md",
+    "coho_museum/Milestones.md",
+    "coho_museum/Lessons.md",
+    "coho_museum/knowledge.md",
+    "research/audits/m28-11-model-and-input-optimization.md",
+    "research/pipeline-tests/v2.7.0-model-routing"
+  ],
+  "requiredTests": [
+    "stage instruction views are strict subsets of the canonical instruction and retain required sections",
+    "scope model route is terra medium",
+    "standard research route is terra medium and complex research route is sol medium",
+    "candidate pool, rating, structure and author routes remain sol medium",
+    "research batching is bounded and author batching remains work-isolated",
+    "selection and structure indexes preserve every work id and source pointer",
+    "compact author claim references resolve to locked research",
+    "six-work author input regression",
+    "project authority, causality, runner, content and release immutability gates",
+    "no production content or port 8094 mutation"
+  ]
+}

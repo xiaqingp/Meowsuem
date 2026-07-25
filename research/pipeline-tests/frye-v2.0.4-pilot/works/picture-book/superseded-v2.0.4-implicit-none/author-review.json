@@ -1,0 +1,193 @@
+{
+  "workId": "picture-book",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "museumId": "frye",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "3e01c3727a084dbe36ca2e8c8ff04b613784169358d76cb8ad7dcca21a77cab8"
+  },
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "finalPassIssued": false,
+  "mechanicalBoundaries": {
+    "cardVisibleCharacters": 42,
+    "cardRequiredRange": "24—100",
+    "quickLayerVisibleCharactersApprox": 118,
+    "quickLayerWarningRange": "70—240",
+    "deepLayerVisibleCharactersApprox": 814,
+    "deepLayerMinimum": 320,
+    "verdict": "within_bounds"
+  },
+  "paragraphDependency": [
+    {
+      "paragraph": "30 秒先懂",
+      "dependsOn": "仅依赖标题和读者能直接看见的白页、脸部朝向与围拢身体。",
+      "newUnderstanding": "暂时回答核心问题：书页靠众人的共同朝向、明暗和紧凑轮廓成为中心。",
+      "breaksIfMovedEarlier": "这是入口段，不能再提前；若删去，深层仍可独立成立，但读者失去 30 秒抓手。"
+    },
+    {
+      "paragraph": "书页为什么能牵住所有人？",
+      "dependsOn": "快层已经指出书中内容难辨、人物却都朝向它的可见矛盾。",
+      "newUnderstanding": "把中心从书本内容改判为几个人共享注意的关系，同时明确身份边界。",
+      "breaksIfMovedEarlier": "若置于快层之前，读者尚未建立‘内容少、吸引力强’的矛盾，人物朝向便只是细节罗列。"
+    },
+    {
+      "paragraph": "这种专注为什么没有变成僵硬的合影？",
+      "dependsOn": "上一段已建立身体围拢和共同朝向，因此本段才能追问画面如何保持流动。",
+      "newUnderstanding": "暗背景、短笔触与综合色块既集中注意，也让日常片刻不显僵硬。",
+      "breaksIfMovedEarlier": "若提前，笔触会退化为孤立的风格介绍，无法解释它如何服务共同注意。"
+    },
+    {
+      "paragraph": "这幅日常小景怎样进入乌德的创作？",
+      "dependsOn": "前两段已经用可见证据说明光色、笔触与人物关系怎样运作。",
+      "newUnderstanding": "把这些机制放进成熟期日常题材，并用宗教场景作品群的差异说明普通阅读为何足以承受构图。",
+      "breaksIfMovedEarlier": "若提前，宗教作品比较会成为生涯资料栏目，读者还不知道比较应解释画面上的什么。"
+    },
+    {
+      "paragraph": "它为什么值得在 Frye 停下来？",
+      "dependsOn": "上一段已建立作者生涯语境与比较对象，本段才能判断相同点、决定性差异和五维重要性。",
+      "newUnderstanding": "价值落在 Frye 馆内叙事和现场回报，而非稀缺、巅峰或行程级地位。",
+      "breaksIfMovedEarlier": "若提前，重要性判断缺少可见机制和作者比较作为前提，会变成可交换的价值栏目。"
+    },
+    {
+      "paragraph": "再看这些容易错过的细节",
+      "dependsOn": "全文已解释共同注意、笔触和构图，五项观察现在分别成为答案的证据。",
+      "newUnderstanding": "读者可以在现场逐项核对书页位置、脸部朝向、身体轮廓、背景和衣物笔触。",
+      "breaksIfMovedEarlier": "若提前，只剩清单；读者尚不知道这些细节共同回答什么问题。"
+    },
+    {
+      "paragraph": "最后再看一眼",
+      "dependsOn": "前文已把共同注意拆解为朝向、围拢、明暗、笔触和比较边界。",
+      "newUnderstanding": "通过沿脸和肩膀回到白页的对象专属动作，确认画面中心是共享注意发生的方式。",
+      "breaksIfMovedEarlier": "若提前，动作虽可执行，却没有‘从寻找书中内容转向观察共同注意’这一认知变化。"
+    },
+    {
+      "paragraph": "事实边界与资料",
+      "dependsOn": "正文已经正面建立可支持的观察与评价。",
+      "newUnderstanding": "收窄人物身份、亲属关系、书中内容、光源、宗教事件和易变在展状态，未改变正文主线。",
+      "breaksIfMovedEarlier": "若提前，会让限制性说明接管入口声音，并在读者理解作品前堆出否定项。"
+    }
+  ],
+  "claimClosure": [
+    {
+      "sentence": "一个成人与几个儿童靠得很近，多张脸低向同一处，肩膀和衣袖从四周收向打开的书。",
+      "evidenceType": "直接观察",
+      "sourceOrBasis": "研究卡列明成人与儿童围拢打开的书、多张脸朝书页；可靠图像可核对。",
+      "confidence": "高：属于形状、位置、朝向和动作的肉眼观察。",
+      "verdict": "保留；没有升级为亲属关系或人物心理。"
+    },
+    {
+      "sentence": "日常阅读便显得像一个正在持续的片刻，而非排好位置后停住的姿势。",
+      "evidenceType": "编辑推断",
+      "sourceOrBasis": "可见短笔触、综合色块、围拢身体和未完全磨平的边缘共同支持；以‘显得像’标记推断。",
+      "confidence": "中：形式依据明确，但不是对真实时间顺序或作者意图的事实陈述。",
+      "verdict": "保留限定表达；不升级为人物真实动作过程。"
+    },
+    {
+      "sentence": "这里找不到可以确认的基督教人物或事件，阅读本身就足以组织人物关系。",
+      "evidenceType": "来源事实加编辑推断",
+      "sourceOrBasis": "研究卡明确本作没有可确认的基督教人物或事件；围拢与朝向支持阅读组织构图的判断。",
+      "confidence": "高（边界事实）／中高（构图推断）：两部分均未声称作者意图。",
+      "verdict": "保留；不写成宗教化家庭阅读。"
+    },
+    {
+      "sentence": "它是理解乌德如何观察现代生活、光与专注的清楚入口。",
+      "evidenceType": "来源事实加编辑比较",
+      "sourceOrBasis": "Saxon Biography 的作者题材定位、研究卡的成熟期判断，以及本作可见的光色与共同注意机制。",
+      "confidence": "中高：适合作为有限的作者生涯入口判断，不等于代表峰值或唯一性。",
+      "verdict": "保留；强度与证据相称。"
+    },
+    {
+      "sentence": "这份价值来自精确的观看回报，不来自把它夸成足以决定行程的孤品。",
+      "evidenceType": "编辑判断与馆级评分边界",
+      "sourceOrBasis": "研究卡五维为艺术史中、作者生涯中、本馆叙事高、现场高、稀缺中低；锁定的 Frye 72 分边界。",
+      "confidence": "高：是对重要性上限的克制判断，没有提出全球数量结论。",
+      "verdict": "保留；明确拒绝稀世珍品或行程级夸张。"
+    },
+    {
+      "sentence": "这本小书的力量，就发生在几个人暂时共享注意的那一刻。",
+      "evidenceType": "编辑推断",
+      "sourceOrBasis": "多张脸、肩膀、衣袖共同朝向白页的直接观察；‘共享注意’描述画面关系，不描述内心感受。",
+      "confidence": "中高：视觉机制充分，‘暂时’仅指画面呈现的一刻，不建立历史先后。",
+      "verdict": "保留。"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "书里画了什么其实看不清，真正抓人的是几个人怎样一起低头、围住那页书；乌德用明暗和松动笔触把普通阅读变成共同注意的现场，这也是它在 Frye 值得停留的原因。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "notes": "标题均为口语可复述的问题；转折由书页—人物—画法—作者语境—重要性逐层产生，没有依靠‘接下来／另外／与此同时’串联。"
+  },
+  "productionLanguageScan": {
+    "scope": [
+      "card.txt 访客可见文本",
+      "draft.md 访客可见文本"
+    ],
+    "forbiddenCategories": [
+      "内部研究缺口",
+      "图片许可任务",
+      "发布任务",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "版本迁移"
+    ],
+    "findings": [],
+    "verdict": "passed",
+    "note": "直接上游与哈希仅存在于不可见链路注释；访客正文中的‘事实边界’只说明证据限度和易变在展状态。"
+  },
+  "significanceReview": {
+    "fiveDimensionsCovered": true,
+    "dimensions": {
+      "artHistory": "中",
+      "artistCareer": "中",
+      "museumNarrative": "高",
+      "onsiteReturn": "高",
+      "scarcity": "中低"
+    },
+    "comparisonCategory": "家庭阅读／共同注意场景，与 Uhde 将当代普通人置于宗教场景的成熟期作品群",
+    "nearestComparator": "Uhde 将当代普通人置于宗教场景的作品群",
+    "similarityExplained": "日常室内、普通人物、借光与人物关系组织专注。",
+    "decisiveDifferenceExplained": "本作没有可确认的基督教人物或事件，阅读本身承担共同注意的中心。",
+    "irreplaceabilityBoundary": "明确为 Frye 馆内理解 Uhde 的入口；未宣称唯一、作者峰值、稀世珍品或决定行程。",
+    "frye72BoundaryRespected": true,
+    "verdict": "author_candidate_acceptable_pending_independent_review"
+  },
+  "progressiveQuestionReview": {
+    "singleCoreQuestion": "为什么一本几乎看不清内容的书，仍能成为整幅画最有力量的中心？",
+    "progression": "白页支点 → 人物共同朝向 → 笔触维持流动 → 作者生涯比较 → Frye 内的重要性 → 对象专属复看",
+    "swappableColumnRisk": "low",
+    "repeatedTemplateRisk": "cannot_be_assessed_across_other_works_in_isolated_author_task",
+    "verdict": "coherent_within_this_work"
+  },
+  "unresolvedRisks": [
+    {
+      "risk": "人物身份与亲属关系未确认",
+      "handling": "正文统一写‘一个成人与几个儿童’，未写母亲或家庭关系。"
+    },
+    {
+      "risk": "书中内容和真实光源方向未确认",
+      "handling": "正文仅写页面较亮、位置居中及人物朝向，未识别图像内容或光源。"
+    },
+    {
+      "risk": "最近比较对象目前是作品群，而非单件具名作品",
+      "handling": "比较范围、相同点与决定性差异已写明，但独立审读可判断其精度是否足够。"
+    },
+    {
+      "risk": "图片再利用许可未确认",
+      "handling": "仅保留在本内部自审；卡片和详情访客正文未出现。"
+    },
+    {
+      "risk": "在展状态会变化",
+      "handling": "详情仅提示以到访当日馆方信息为准，不承诺稳定展出。"
+    },
+    {
+      "risk": "跨作品重复骨架无法在隔离单件作者任务中判断",
+      "handling": "本稿内部未使用固定‘先看／再看’开场；留待全馆连续朗读阶段核对。"
+    }
+  ],
+  "authorConclusion": "结构、事实边界、中文朗读、生产语言与重要性已完成作者侧检查；本结论不构成最终 PASS，稿件等待独立审读。"
+}

@@ -1,0 +1,325 @@
+{
+  "schemaVersion": "1.0",
+  "run": {
+    "runId": "m28-6-vienna-scope-2026-07-23",
+    "stage": "museum_scope",
+    "researchMode": "fresh",
+    "startedAt": "2026-07-23T23:00:00-07:00",
+    "pipelineVersion": "2.4.8",
+    "instructionVersion": "2.0.2",
+    "executionProfile": {
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "medium"
+    },
+    "lockedInputs": [
+      {
+        "path": "research/generation-pipeline.md",
+        "sha256": "a65e9a4cb1477e4dfb00f06871483c928224dee22b69e292b84b2dcc7cdb4b24"
+      },
+      {
+        "path": "research/meowseum-content-instruction.md",
+        "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+      }
+    ],
+    "publicationBoundary": "whole_museum_candidate_no_production_write"
+  },
+  "museum": {
+    "museumId": "vienna",
+    "nameZh": "维也纳艺术史博物馆",
+    "nameEn": "Kunsthistorisches Museum Vienna",
+    "canonicalLocation": {
+      "address": "Maria-Theresien-Platz, 1010 Vienna, Austria",
+      "mainEntrance": "Maria-Theresien-Platz",
+      "accessibleEntrance": "Burgring 5",
+      "scopeType": "single_building"
+    }
+  },
+  "scopeDecision": {
+    "status": "scoped",
+    "includedBoundary": {
+      "definition": "本轮只研究并候选选取 Maria-Theresien-Platz 主馆馆舍内的常设收藏、馆舍建筑及与这些内容直接相关的参观体验。",
+      "permanentCollections": [
+        {
+          "id": "egyptian_near_eastern",
+          "nameZh": "埃及与近东收藏",
+          "locationInBuilding": "底层"
+        },
+        {
+          "id": "greek_roman_antiquities",
+          "nameZh": "希腊与罗马古物收藏",
+          "locationInBuilding": "底层"
+        },
+        {
+          "id": "kunstkammer",
+          "nameZh": "艺术珍宝馆",
+          "locationInBuilding": "主馆常设展区"
+        },
+        {
+          "id": "picture_gallery",
+          "nameZh": "绘画馆",
+          "locationInBuilding": "一层"
+        },
+        {
+          "id": "coin_cabinet",
+          "nameZh": "钱币馆",
+          "locationInBuilding": "二层"
+        }
+      ],
+      "architectureIncluded": true,
+      "temporaryExhibitionsIncluded": false
+    },
+    "excludedBoundary": [
+      {
+        "name": "Imperial Treasury Vienna",
+        "reason": "霍夫堡内的独立参观地点，馆方票务将其与 Kunsthistorisches Museum Vienna 分列为两个 location。"
+      },
+      {
+        "name": "Neue Hofburg collections",
+        "examples": [
+          "Weltmuseum Wien",
+          "Imperial Armoury",
+          "Collection of Historic Musical Instruments",
+          "Ephesos Museum"
+        ],
+        "reason": "位于 Neue Hofburg／Heldenplatz，不在 Maria-Theresien-Platz 主馆单体边界内。"
+      },
+      {
+        "name": "Imperial Carriage Museum Vienna",
+        "reason": "位于 Schönbrunn，是同一博物馆协会下的另一馆址。"
+      },
+      {
+        "name": "Theatermuseum",
+        "reason": "与 KHM 同属 KHM-Museumsverband，但属于独立博物馆。"
+      },
+      {
+        "name": "Ambras Castle Innsbruck",
+        "reason": "位于 Innsbruck，超出维也纳主馆边界。"
+      },
+      {
+        "name": "temporary_exhibitions",
+        "reason": "临展不进入基础评分或长期候选容量；后续仅可作为易变参观提醒。"
+      }
+    ],
+    "boundaryRationale": [
+      "馆方把 Kunsthistorisches Museum 的地址、入口和五个连贯常设收藏统一指向 Maria-Theresien-Platz 主馆。",
+      "馆方同时明确 KHM-Museumsverband 还包含其他博物馆和分馆；机构归属不能替代实际馆址边界。",
+      "采用单馆舍边界可使后续选品、路线、图片和当天可见状态保持可执行，不把跨馆址内容误写成一次主馆参观。"
+    ]
+  },
+  "capacity": {
+    "candidate": 40,
+    "decision": "retain_40",
+    "confidence": "high",
+    "rationale": [
+      "主馆不是单一媒介馆：五个常设收藏横跨古埃及与近东、希腊罗马古物、宫廷珍玩、欧洲古典绘画和钱币史，核心 20 件不足以同时解释这些收藏如何由哈布斯堡宫廷收藏转化为现代博物馆。",
+      "绘画馆本身有超过 770 件展品，并拥有老彼得·勃鲁盖尔的独特作品群，以及提香、委罗内塞、丁托列托、鲁本斯、凡·戴克、凡·艾克、罗希尔·范德魏登、丢勒、克拉纳赫、委拉斯开兹和维米尔等多条可独立成章的收藏线。",
+      "艺术珍宝馆约展出 2,200 件对象，包含金银器、雕塑、青铜、象牙、硬石器、钟表、自动机械和科学仪器；其材料、宫廷制度与工艺问题无法由绘画线替代。",
+      "古物收藏另有约 2,500 件常设展品；埃及与近东收藏约 18,500 件馆藏，并因 Giza 发掘拥有埃及境外重要的古王国材料。钱币馆约 600,000 件，提供货币、肖像、权力与收藏制度的独立问题。",
+      "Semper 与 Hasenauer 设计的 1871—1891 年馆舍本身把帝国收藏、展示技术和空间秩序组织成整体，至少需要少量建筑与原展陈节点进入候选池。",
+      "因此 21—40 件可以继续回答为何这些对象非得在这座主馆一起看，而不是为补齐名家名单扩容。"
+    ],
+    "provisionalAllocationForResearch": [
+      {
+        "collectionOrLine": "Picture Gallery",
+        "candidateSlots": 16,
+        "purpose": "覆盖勃鲁盖尔群、威尼斯绘画、尼德兰与弗兰德斯绘画、德意志绘画、西班牙宫廷肖像等不重复价值线。"
+      },
+      {
+        "collectionOrLine": "Kunstkammer",
+        "candidateSlots": 8,
+        "purpose": "覆盖宫廷收藏、贵重材料、雕塑、自动机械、科学仪器与 Cellini 的 Saliera。"
+      },
+      {
+        "collectionOrLine": "Greek and Roman Antiquities",
+        "candidateSlots": 6,
+        "purpose": "覆盖 cameos、希腊陶器、罗马与迁徙时期宝藏等核心强项。"
+      },
+      {
+        "collectionOrLine": "Egyptian and Near Eastern Collection",
+        "candidateSlots": 5,
+        "purpose": "覆盖古王国 Giza 材料、墓葬语境、王室雕像与近东对象。"
+      },
+      {
+        "collectionOrLine": "Coin Cabinet",
+        "candidateSlots": 2,
+        "purpose": "覆盖货币与奖章史，避免用数量稀释主馆核心。"
+      },
+      {
+        "collectionOrLine": "Building and integrated display",
+        "candidateSlots": 3,
+        "purpose": "解释馆舍、中央空间和历史展陈如何把帝国收藏变为一座公共博物馆。"
+      }
+    ],
+    "allocationStatus": "research_planning_only",
+    "selectionConstraint": "后续仍须逐件建立研究卡并证明入选理由；此分配不是正式选品、章节、路线、重要性或评分结果。"
+  },
+  "institutionalAndBuildingContext": {
+    "collectionSpan": "馆方概括为跨越约七千年，从古埃及延伸至十八世纪晚期；文艺复兴与巴洛克收藏尤为重要。",
+    "institutionalOrigin": "主馆集中展示哈布斯堡皇室收藏。",
+    "building": {
+      "architects": [
+        "Gottfried Semper",
+        "Carl von Hasenauer"
+      ],
+      "construction": "1871–1891",
+      "openedToPublic": "1891",
+      "commissionedBy": "Emperor Franz Joseph I",
+      "scopeRelevance": "入口大厅、楼梯与穹顶大厅构成馆舍中央轴线；各收藏的历史展厅与建筑装饰可作为整馆形成机制的一部分研究。"
+    }
+  },
+  "mutableInformation": {
+    "verifiedAt": "2026-07-23",
+    "timezone": "America/Los_Angeles",
+    "museumLocalTimezone": "Europe/Vienna",
+    "officialVisitorPageObserved": {
+      "openingHours": "Open daily, 10 a.m.–6 p.m.; Thursday until 9 p.m.",
+      "address": "Maria-Theresien-Platz, 1010 Vienna",
+      "mainEntrance": "Maria-Theresien-Platz",
+      "accessibleEntrance": "Burgring 5"
+    },
+    "handlingRule": "开放时间、票价、临时闭室、轮换与单件在展状态均属易变信息；正式发布前必须重新查馆方。当前开放时间只记录本次核验快照，不作为未来参观保证。",
+    "knownBoundary": "馆方在线藏品页同时包含未展出对象；进入候选池不等于确认当天在展。"
+  },
+  "researchGuardrailsForNextStage": [
+    "只研究本文件 includedBoundary 内的对象和建筑节点。",
+    "每件对象必须有稳定身份及与 Maria-Theresien-Platz 主馆的馆藏、长期保管或稳定展示关系；仅曾参加临展不能升级为馆藏。",
+    "对象页标注 on view 可作为核验起点，但易变状态须记录核验日期；无法确认时使用规定的不确定性枚举。",
+    "不得把 Ephesos Museum、Imperial Treasury、Imperial Armoury、historic musical instruments、Weltmuseum 或其他分馆对象混入主馆 40 件候选。",
+    "40 是候选容量目标，不是按馆藏数量机械配额；若 fresh research 无法证明某个第 21—40 件新增了本馆独有问题，应在后续容量决策中缩减。"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Kunsthistorisches Museum",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en",
+      "supports": [
+        "主馆地址",
+        "本次核验时的开放时间",
+        "Maria-Theresien-Platz 主馆身份"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Plan your visit",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/visit",
+      "supports": [
+        "主入口与无障碍入口",
+        "交通和访客边界",
+        "主馆四个主要常设收藏的访客描述"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "The Museum",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/museum",
+      "supports": [
+        "馆藏时代跨度",
+        "KHM-Museumsverband 与独立博物馆关系",
+        "建筑师、建设史与 1891 年开放"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "The Kunsthistorisches Museum – a Gesamtkunstwerk",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/exhibitions/the-kunsthistorisches-museum-gesamtkunstwerk",
+      "supports": [
+        "主馆五个连贯常设收藏",
+        "建筑设计与空间",
+        "各收藏在馆舍中的历史配置"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Picture Gallery",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/research/collections/picture-gallery",
+      "supports": [
+        "绘画馆收藏范围与主要强项",
+        "超过 770 件展品",
+        "一层常设位置"
+      ]
+    },
+    {
+      "id": "S6",
+      "title": "Picture Gallery – highlights from the history of European art",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/exhibitions/picture-gallery",
+      "supports": [
+        "老彼得·勃鲁盖尔作品群",
+        "维米尔与委拉斯开兹等馆方重点"
+      ]
+    },
+    {
+      "id": "S7",
+      "title": "Kunstkammer Wien (Chamber of Art)",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/research/collections/kunstkammer-wien-chamber-of-art",
+      "supports": [
+        "约 2,200 件展品",
+        "材料与对象类型",
+        "Cellini 的 Saliera 及收藏世界地位"
+      ]
+    },
+    {
+      "id": "S8",
+      "title": "Egyptian and Near Eastern Collection",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/research/collections/egyptian-and-near-eastern-collection",
+      "supports": [
+        "约 18,500 件馆藏",
+        "Giza 古王国收藏强项",
+        "底层常设位置"
+      ]
+    },
+    {
+      "id": "S9",
+      "title": "Collection of Greek and Roman Antiquities – 3,000 years of art",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/visit/collections/collection-of-greek-and-roman-antiquities/selected-masterpieces",
+      "supports": [
+        "约 2,500 件展品",
+        "cameos、迁徙时期宝藏与希腊陶器强项",
+        "底层常设位置"
+      ]
+    },
+    {
+      "id": "S10",
+      "title": "Coin Cabinet",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/research/collections/coin-cabinet",
+      "supports": [
+        "约 600,000 件馆藏",
+        "钱币、纸币、奖章与相关对象范围",
+        "二层常设位置"
+      ]
+    },
+    {
+      "id": "S11",
+      "title": "Combined Ticket: Treasures of the Habsburgs",
+      "publisher": "KHM Shop",
+      "url": "https://shop.khm.at/en/tickets/detail?cHash=29f472808b1ddce4eee0909c94bcf9fd&shop%5BshowItem%5D=200000000009019-T013-01",
+      "supports": [
+        "Kunsthistorisches Museum Vienna 与 Imperial Treasury Vienna 是两个独立参观地点",
+        "其他 KHM 馆址的分列关系"
+      ]
+    },
+    {
+      "id": "S12",
+      "title": "Artworks – browse and discover",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/artworks",
+      "supports": [
+        "在线藏品同时收录当前未展出对象",
+        "后续必须逐件核验可见状态"
+      ]
+    }
+  ],
+  "stoppingCondition": {
+    "met": true,
+    "reason": "已由馆方一手资料确认主馆地址与入口、五个纳入收藏、同机构其他馆址的排除边界、馆舍历史、40 件候选容量的多收藏依据，以及易变参观信息的核验日期；museum_scope 阶段无需继续扩展到逐件对象研究、评分、章节、路线或正文。"
+  }
+}

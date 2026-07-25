@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "author-bundle/1.0",
+  "museumId": "vienna",
+  "workId": "vienna-space-01-museum-building",
+  "narrativeMainline": {
+    "valueType": "architecture_and_space",
+    "mainline": "这座主馆把建筑、雕塑、绘画和展厅组织成一件服务于哈布斯堡收藏的“整体艺术品”：观众沿入口、主楼梯和穹顶大厅逐步进入越来越繁密的装饰，也从城市广场上的帝国双馆走进具体的艺术分类与展示空间。",
+    "readerStartingPoint": "读者从名称可知这是维也纳艺术史博物馆的主馆；现场可直接看到它与自然史博物馆隔广场相对，并有中央穹顶、中央高起体量和两侧角部凸出体。",
+    "storyBeats": [
+      {
+        "step": 1,
+        "materials": [
+          "来源事实：馆方称建筑为Gesamtkunstwerk",
+          "可核验细节：入口、主楼梯与穹顶大厅形成连续中轴，装饰逐步繁密"
+        ],
+        "newUnderstanding": "建筑本身就是收藏展示的一部分，空间推进和装饰变化共同建立观看经验。"
+      },
+      {
+        "step": 2,
+        "materials": [
+          "来源事实：双馆是竞图前规定的基本条件",
+          "可核验细节：两馆隔广场相对、外形近似且都有中央穹顶",
+          "来源事实：两馆雕塑主题按艺术与自然区分"
+        ],
+        "newUnderstanding": "近似外形先把艺术与自然并列，雕塑主题再把两个知识领域分开。"
+      },
+      {
+        "step": 3,
+        "materials": [
+          "来源事实：画廊建筑讨论包括挂画墙面、采光与清晰度",
+          "来源事实：1891年开放后，跨越古代至巴洛克的哈布斯堡收藏进入面向广泛公众的专门馆舍"
+        ],
+        "newUnderstanding": "宏大的帝国形象与实际展陈问题同时进入建筑设计，公共开放也不等于收藏权属的简单转让。"
+      },
+      {
+        "step": 4,
+        "materials": [
+          "比较边界：最近比较对象是对面的自然史博物馆",
+          "共享项与决定性差异：近似体量、穹顶和对称位置；雕塑主题与内部功能不同",
+          "未知边界：全球对象级稀有度比较未完成"
+        ],
+        "newUnderstanding": "最有效的比较就在广场对面；建筑的重要性可以成立，但不能升级为全球唯一或举世无双。"
+      }
+    ],
+    "humorBasis": "两座馆外形故意近似，辨认其知识类别要靠立面人物与主题这一真实的制度性反差。",
+    "mustNotAssume": [
+      "装饰程序等于19世纪社会已经实现的客观知识秩序",
+      "收藏公共开放意味着其权属已经简单脱离皇室",
+      "两位建筑师各自承担了哪些具体部分",
+      "建筑是全球唯一或举世无双的博物馆建筑",
+      "未在研究卡中记录的具体建材、光源方向或装饰作者"
+    ]
+  },
+  "highRiskClaims": [
+    {
+      "claim": "双馆呈现艺术与自然的并列知识领域",
+      "evidenceType": "来源事实与编辑整理",
+      "allowedWording": "双馆的近似外形、对称位置和分化的雕塑主题，把艺术与自然作为并列领域呈现出来",
+      "forbiddenUpgrade": "19世纪社会已经建立了客观、完整的知识秩序"
+    },
+    {
+      "claim": "主馆是一件整体艺术品",
+      "evidenceType": "馆方明确表述",
+      "allowedWording": "馆方把这座建筑称为Gesamtkunstwerk（整体艺术品）",
+      "forbiddenUpgrade": "它是全球唯一或最完整的整体艺术品博物馆"
+    },
+    {
+      "claim": "1891年的开放具有公共性",
+      "evidenceType": "来源事实",
+      "allowedWording": "1891年开放后，哈布斯堡收藏被置入面向广泛公众的专门馆舍",
+      "forbiddenUpgrade": "收藏权属由皇室完整转交公众"
+    },
+    {
+      "claim": "建筑的重要性与不可替代性",
+      "evidenceType": "直接比较与已知边界",
+      "allowedWording": "对面的自然史博物馆是最直接的比较对象；两馆共享近似外形而以雕塑主题和内部功能分化",
+      "forbiddenUpgrade": "建筑举世无双、没有其他可比对象"
+    },
+    {
+      "claim": "装饰由克制转为繁密",
+      "evidenceType": "研究卡记录的可核验细节",
+      "allowedWording": "沿入口、主楼梯到穹顶大厅，装饰逐步变得繁密",
+      "forbiddenUpgrade": "装饰变化证明建筑师意图让观众感到敬畏"
+    }
+  ],
+  "claimLedger": [
+    {
+      "id": "C01",
+      "claim": "建筑由戈特弗里德·森佩尔与卡尔·冯·哈森瑙尔设计，1871至1891年建造，1891年10月17日开放。",
+      "researchCardLocation": "身份与状态"
+    },
+    {
+      "id": "C02",
+      "claim": "主馆位于Maria-Theresien-Platz，是为哈布斯堡收藏专门建造的公共博物馆，与自然史博物馆构成相向的穹顶双馆。",
+      "researchCardLocation": "身份与状态"
+    },
+    {
+      "id": "C03",
+      "claim": "两馆隔广场相对，外部体量近乎对称，并以中央穹顶为显著标志。",
+      "researchCardLocation": "可直接确认与可核验细节"
+    },
+    {
+      "id": "C04",
+      "claim": "主立面中央体量高起并覆穹顶，两侧由角部凸出体平衡；壁柱、柱式与檐带组织高文艺复兴式外观。",
+      "researchCardLocation": "可直接确认与可核验细节"
+    },
+    {
+      "id": "C05",
+      "claim": "艺术史馆立面雕塑采用艺术家、学者、统治者、赞助人及艺术中心等主题；自然史馆采用科学家、探索者、发明、大陆和天体等主题。",
+      "researchCardLocation": "可直接确认与可核验细节"
+    },
+    {
+      "id": "C06",
+      "claim": "入口、主楼梯与穹顶大厅形成连续中轴，空间装饰由相对克制逐步转为繁密。",
+      "researchCardLocation": "可直接确认与可核验细节"
+    },
+    {
+      "id": "C07",
+      "claim": "馆方称建筑为Gesamtkunstwerk，建筑、雕塑、绘画和展厅共同服务于哈布斯堡收藏的展示。",
+      "researchCardLocation": "来源事实与候选价值证据"
+    },
+    {
+      "id": "C08",
+      "claim": "双馆是委托人在竞图前规定的基本条件；近似外形与位置把艺术和自然作为并列知识领域呈现。",
+      "researchCardLocation": "来源事实与候选价值证据"
+    },
+    {
+      "id": "C09",
+      "claim": "当时关于画廊建筑的讨论涉及挂画墙面、采光与清晰度。",
+      "researchCardLocation": "来源事实与候选价值证据"
+    },
+    {
+      "id": "C10",
+      "claim": "1891年开放把跨越古代至巴洛克的哈布斯堡收藏置入面向广泛公众的专门馆舍，但不能据此断言收藏权属已简单脱离皇室。",
+      "researchCardLocation": "来源事实与候选价值证据"
+    },
+    {
+      "id": "C11",
+      "claim": "最近比较对象是广场对面的自然史博物馆；两馆共享穹顶、近似外形和对称城市位置，雕塑主题与内部功能按艺术和自然分化。",
+      "researchCardLocation": "比较与不可替代性边界"
+    },
+    {
+      "id": "C12",
+      "claim": "建筑对象级的全球稀有度比较未完成，不能称其举世无双。",
+      "researchCardLocation": "比较与不可替代性边界"
+    },
+    {
+      "id": "C13",
+      "claim": "两馆故意采用近似外观，而立面人物与主题区分馆内知识类别。",
+      "researchCardLocation": "趣闻候选"
+    },
+    {
+      "id": "C14",
+      "claim": "建筑是永久空间，可见状态为confirmed_on_view，核验日期为2026-07-24。",
+      "researchCardLocation": "身份与状态"
+    },
+    {
+      "id": "C15",
+      "claim": "主馆建筑的结构化重要性为重要藏品，rareGatePassed为false，ratingRole为whole_site。",
+      "researchCardLocation": "work_context"
+    },
+    {
+      "id": "C16",
+      "claim": "参观优先级采用绝对不可错过，建议停留为贯穿主馆参观全程。",
+      "researchCardLocation": "作者阶段编辑判断"
+    }
+  ],
+  "displayMetadata": {
+    "by": "戈特弗里德·森佩尔 Gottfried Semper；卡尔·冯·哈森瑙尔 Carl von Hasenauer",
+    "date": "1871–1891年；1891年10月17日开放",
+    "material": "建筑、雕塑、绘画与展厅的整体设计",
+    "place": "Maria-Theresien-Platz, Vienna · 永久建筑空间",
+    "priority": "绝对不可错过",
+    "significance": "重要藏品",
+    "stay": "贯穿主馆参观全程",
+    "availability": "confirmed_on_view",
+    "imagePolicy": "object_image"
+  }
+}

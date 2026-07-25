@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.7.2",
+  "runId": "m28-12-v2.7.2-seattle-author-four-cornered-hat-with-birds-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-25T06:24:43.742Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_availability_from_locked_work_context",
+    "derived_imagePolicy_from_locked_work_context"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "e2e79ab2f1a635d3c09ca9cb43485bd614a8151dfac3ba161de1c1d1c2d762b6",
+      "bytes": 9143
+    },
+    {
+      "path": "card.txt",
+      "sha256": "f8ceb82c461a1ea1219f9cd54a29a64f37af9da0329849b7d82f960947bca8a7",
+      "bytes": 515
+    },
+    {
+      "path": "draft.md",
+      "sha256": "30bf377907da034fc149737b495f85bb836bea45976904c2cae17d98059b4d13",
+      "bytes": 3627
+    }
+  ]
+}

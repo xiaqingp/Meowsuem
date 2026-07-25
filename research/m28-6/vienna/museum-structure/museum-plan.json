@@ -1,0 +1,400 @@
+{
+  "schemaVersion": "1.0",
+  "run": {
+    "runId": "m28-6-vienna-museum-structure-2026-07-24",
+    "stage": "museum_structure",
+    "pipelineVersion": "2.4.8",
+    "instructionVersion": "2.0.2",
+    "publicationBoundary": "whole_museum_candidate_no_production_write"
+  },
+  "museum": {
+    "museumId": "vienna",
+    "nameZh": "维也纳艺术史博物馆",
+    "nameEn": "Kunsthistorisches Museum Vienna",
+    "location": "Maria-Theresien-Platz, Vienna, Austria",
+    "scope": "仅包括 Maria-Theresien-Platz 主馆内的绘画馆、艺术珍宝馆、希腊与罗马古物收藏、埃及与近东收藏、钱币馆，以及主馆建筑和固定空间；不包括帝国珍宝馆、Neue Hofburg 各馆、皇家马车博物馆、戏剧博物馆、阿姆布拉斯城堡或临时展览。",
+    "capacity": 40,
+    "score": 96,
+    "scoreBand": "90–100 · 值得专程旅行",
+    "withinBandAnchor": "96–97",
+    "travelAction": "值得为了这座馆安排维也纳行程；首次参观至少留出半天，完整理解建议拆成两次。",
+    "rareAssets": [
+      "vienna-pg-01-tower-of-babel",
+      "vienna-pg-02-hunters-in-the-snow",
+      "vienna-pg-06-art-of-painting",
+      "vienna-kk-01-saliera",
+      "vienna-kk-07-rock-crystal-pyramid",
+      "vienna-kk-08-bellerophon-pegasus",
+      "vienna-ant-01-gemma-augustea",
+      "vienna-ant-02-nagyszentmiklos-treasure",
+      "vienna-ant-04-bacchanalia-decree"
+    ],
+    "independentRareLines": [
+      "bruegel_collection",
+      "vermeer_art_of_painting",
+      "cellini_saliera",
+      "miseroni_rock_crystal_pyramid",
+      "bertoldo_bellerophon",
+      "gemma_augustea",
+      "nagyszentmiklos_treasure",
+      "bacchanalia_decree"
+    ]
+  },
+  "museumNarrative": {
+    "readerStartingPoint": "读者可能把这里理解为一座名画很多的皇室美术馆，但主馆实际把绘画、古物、宫廷珍玩、埃及与近东对象、钱币和专门建造的馆舍放进同一参观系统。",
+    "coreQuestion": "哈布斯堡收藏为何不只是名作仓库，而是一套用图像、材料、器物、法律文本和建筑来安排世界秩序的系统？",
+    "mainline": "这座馆最不可替代的地方，是多种原本服务于祭祀、法律、宴会、王朝形象和私人观看的对象，被哈布斯堡收藏汇集，再由1891年开放的专门馆舍重新编排成一部可步行进入的权力与观看史。参观从建筑的帝国序言出发，依次看权力怎样留下文字和肖像、信仰怎样进入墓室与器物、珍贵材料怎样成为宫廷技术，最后在绘画中转化为对社会、历史和绘画本身的重新组织。",
+    "minimumExplanationModel": "人们先用物件和图像安排宗教、法律、身份与统治，再由收藏者把这些对象聚到一起，最后由博物馆建筑决定公众以什么顺序理解它们；这条关系同时解释古代法令的公开文字、宫廷珍玩的材料奇观、肖像和寓意画的权力形象，以及入口—楼梯—穹顶大厅的渐强路线。",
+    "scoreLogic": "96分由八条独立稀世珍品线支撑，跨越勃鲁盖尔绘画群、维米尔、文艺复兴金工与青铜、宫廷水晶、罗马浮雕宝石、早期中世纪金器组及共和国法律文本。扣分来自顶级密度仍偏向哈布斯堡形成的欧洲绘画与宫廷收藏，文明跨度不及最高分综合馆；纳吉圣米克洛什宝藏为轮换状态，另有少数作品当天展出未确认。",
+    "limitations": [
+      "40项是一套跨多次参观使用的内容库，不应伪装成一天必须走完的清单。",
+      "主馆之外的同机构场馆不在本计划内；不要把帝国珍宝馆或Neue Hofburg藏品混进当天路线。",
+      "纳吉圣米克洛什金宝藏按馆藏轮换处理；鲁本斯《自画像》和凡·艾克《红衣主教尼科洛·阿尔贝加蒂（？）》的当天展出状态未确认。",
+      "开放时间、闭室、轮换与具体陈列位置属于易变信息，出发前应查馆方。"
+    ]
+  },
+  "chapters": [
+    {
+      "chapterId": "vienna-ch-01-building",
+      "order": 1,
+      "title": "为什么还没看藏品，博物馆已经开始讲权力？",
+      "question": "双馆外观、主楼梯和穹顶大厅如何把进入展厅的身体路线变成哈布斯堡收藏的序言？",
+      "chapterRole": "建立整馆最小解释模型，说明建筑不是中性容器，而是收藏公开化后的第一件解释工具。",
+      "workIds": [
+        "vienna-space-01-museum-building",
+        "vienna-space-02-grand-staircase-ensemble",
+        "vienna-space-03-cupola-hall"
+      ]
+    },
+    {
+      "chapterId": "vienna-ch-02-power",
+      "order": 2,
+      "title": "权力怎样把自己刻进宝石、青铜和货币？",
+      "question": "从奥古斯都的继承图像到罗马法令、皇帝胸像与币章，统治如何变成可以携带、宣读和重复的物件？",
+      "chapterRole": "把图像宣称、法律执行、王朝配对和货币传播区分开，同时显示权力并不只存在于大型历史画。",
+      "workIds": [
+        "vienna-ant-01-gemma-augustea",
+        "vienna-ant-04-bacchanalia-decree",
+        "vienna-ant-02-nagyszentmiklos-treasure",
+        "vienna-kk-05-rudolf-ii-bust",
+        "vienna-coin-01-sigismund-guldiner",
+        "vienna-coin-02-charles-v-dedication-medal"
+      ]
+    },
+    {
+      "chapterId": "vienna-ch-03-afterlife-story",
+      "order": 3,
+      "title": "一件古物怎样让死者、神话和仪式继续运作？",
+      "question": "墓室、神庙雕像、石棺、酒器和住宅地面原本要求人做什么，离开原境后又还剩下什么？",
+      "chapterRole": "从原始用途进入古物收藏，避免把所有古代对象只看成独立雕塑或漂亮图案。",
+      "workIds": [
+        "vienna-egy-01-ka-ni-nisut-chapel",
+        "vienna-egy-02-reserve-head",
+        "vienna-egy-04-kai-pu-ptah-ipep",
+        "vienna-egy-05-gem-nef-hor-bak",
+        "vienna-egy-03-babylon-lion",
+        "vienna-ant-03-brygos-skyphos",
+        "vienna-ant-05-amazon-sarcophagus",
+        "vienna-ant-06-theseus-mosaic"
+      ]
+    },
+    {
+      "chapterId": "vienna-ch-04-kunstkammer",
+      "order": 4,
+      "title": "当材料比用途更重要，器物会变成什么？",
+      "question": "黄金、水晶、青金石、青铜、机械和石雕如何在宫廷珍宝馆中共同证明自然稀有、工艺能力与收藏者权力？",
+      "chapterRole": "解释艺术珍宝馆并非杂物柜，而是一套比较材料、技术、运动、古典复兴和宫廷展示的知识系统。",
+      "workIds": [
+        "vienna-kk-01-saliera",
+        "vienna-kk-07-rock-crystal-pyramid",
+        "vienna-kk-08-bellerophon-pegasus",
+        "vienna-kk-03-automaton-ship",
+        "vienna-kk-04-cittern-player",
+        "vienna-kk-06-dragon-bowl",
+        "vienna-kk-02-krumau-madonna"
+      ]
+    },
+    {
+      "chapterId": "vienna-ch-05-bruegel",
+      "order": 5,
+      "title": "勃鲁盖尔怎样把一个世界压进一块画板？",
+      "question": "巨塔、季节、游戏、婚宴与节期为何都要依靠高视点、密集行动和城市或乡村空间才能成立？",
+      "chapterRole": "把本馆最强的单一画家收藏读成一组观看方法，而不是五张名作清单；《巴别塔》和《雪中猎人》共同支撑一条稀世珍品线。",
+      "workIds": [
+        "vienna-pg-01-tower-of-babel",
+        "vienna-pg-02-hunters-in-the-snow",
+        "vienna-pg-03-childrens-games",
+        "vienna-pg-04-peasant-wedding",
+        "vienna-pg-05-carnival-and-lent"
+      ]
+    },
+    {
+      "chapterId": "vienna-ch-06-painting",
+      "order": 6,
+      "title": "一幅画何时不再只是再现对象？",
+      "question": "画室、宫廷肖像、圣母、神话、暴力故事和视觉错觉怎样让绘画讨论历史、身份、信仰与自身能力？",
+      "chapterRole": "以维米尔的绘画自我指涉为核心，连接宫廷身份、文艺复兴构图、威尼斯晚期笔触、矫饰主义错觉及宗教叙事。",
+      "workIds": [
+        "vienna-pg-06-art-of-painting",
+        "vienna-pg-07-infanta-margarita-blue",
+        "vienna-pg-12-rubens-self-portrait",
+        "vienna-pg-13-cardinal-albergati",
+        "vienna-pg-16-parmigianino-convex-self-portrait",
+        "vienna-pg-15-summer",
+        "vienna-pg-08-madonna-of-the-meadow",
+        "vienna-pg-14-madonna-with-the-pear",
+        "vienna-pg-09-madonna-of-the-rosary",
+        "vienna-pg-11-judith-veronese",
+        "vienna-pg-10-nymph-and-shepherd"
+      ]
+    }
+  ],
+  "editorialRoles": {
+    "firstVisit": [
+      "vienna-space-01-museum-building",
+      "vienna-space-02-grand-staircase-ensemble",
+      "vienna-space-03-cupola-hall",
+      "vienna-ant-01-gemma-augustea",
+      "vienna-ant-04-bacchanalia-decree",
+      "vienna-ant-02-nagyszentmiklos-treasure",
+      "vienna-kk-01-saliera",
+      "vienna-kk-07-rock-crystal-pyramid",
+      "vienna-kk-08-bellerophon-pegasus",
+      "vienna-kk-03-automaton-ship",
+      "vienna-egy-01-ka-ni-nisut-chapel",
+      "vienna-pg-01-tower-of-babel",
+      "vienna-pg-02-hunters-in-the-snow",
+      "vienna-pg-03-childrens-games",
+      "vienna-pg-04-peasant-wedding",
+      "vienna-pg-05-carnival-and-lent",
+      "vienna-pg-06-art-of-painting",
+      "vienna-pg-07-infanta-margarita-blue",
+      "vienna-pg-08-madonna-of-the-meadow",
+      "vienna-pg-09-madonna-of-the-rosary"
+    ],
+    "continueUnderstanding": [
+      "vienna-kk-05-rudolf-ii-bust",
+      "vienna-coin-01-sigismund-guldiner",
+      "vienna-coin-02-charles-v-dedication-medal",
+      "vienna-egy-02-reserve-head",
+      "vienna-egy-04-kai-pu-ptah-ipep",
+      "vienna-egy-05-gem-nef-hor-bak",
+      "vienna-egy-03-babylon-lion",
+      "vienna-ant-03-brygos-skyphos",
+      "vienna-ant-05-amazon-sarcophagus",
+      "vienna-ant-06-theseus-mosaic",
+      "vienna-kk-04-cittern-player",
+      "vienna-kk-06-dragon-bowl",
+      "vienna-kk-02-krumau-madonna",
+      "vienna-pg-10-nymph-and-shepherd",
+      "vienna-pg-11-judith-veronese",
+      "vienna-pg-12-rubens-self-portrait",
+      "vienna-pg-13-cardinal-albergati",
+      "vienna-pg-14-madonna-with-the-pear",
+      "vienna-pg-15-summer",
+      "vienna-pg-16-parmigianino-convex-self-portrait"
+    ],
+    "undernoticedButWorthwhile": [
+      {
+        "workId": "vienna-ant-04-bacchanalia-decree",
+        "whyOverlooked": "外观是一块密集文字青铜板，容易被绘画和金器的即时视觉效果盖过。",
+        "reward": "它把罗马元老院决定、地方宣读、审批例外和公开展示连成可读的行政程序。",
+        "whyTakeTime": "它是本馆少数能凭同时代文字直接解释国家怎样执行宗教管制的对象，并通过稀世珍品硬门。"
+      },
+      {
+        "workId": "vienna-egy-04-kai-pu-ptah-ipep",
+        "whyOverlooked": "尺寸不大，且不具著名王名或戏剧性故事。",
+        "reward": "名字已经读出、关系却仍未知，能直观区分考古事实与现代解释。",
+        "whyTakeTime": "它用一个很小的证据缺口，教会观众怎样阅读整座埃及收藏。"
+      },
+      {
+        "workId": "vienna-coin-02-charles-v-dedication-medal",
+        "whyOverlooked": "钱币馆位于二层，纪念章也常被误当成普通货币。",
+        "reward": "一枚未用于流通的银章保存了城市献礼竞争、多人协作和因瘟疫改址而落空的政治场合。",
+        "whyTakeTime": "它把宏大的帝国图像还原为一项可能失败的市政计划。"
+      },
+      {
+        "workId": "vienna-ant-06-theseus-mosaic",
+        "whyOverlooked": "它嵌在地面，容易被当成展厅装饰。",
+        "reward": "古代别墅地面、完整神话叙事和1891年博物馆展陈史在同一位置叠合。",
+        "whyTakeTime": "它直接证明这座馆连展陈本身也有需要辨认的历史层。"
+      },
+      {
+        "workId": "vienna-pg-13-cardinal-albergati",
+        "whyOverlooked": "小幅肖像且人物身份带问号，不像大型名画那样抢眼。",
+        "reward": "与银尖准备素描的关系让观众看到单色现场记录、文字色彩提示和油画完成层之间的制作转换。",
+        "whyTakeTime": "它能具体说明凡·艾克的媒介精炼，而无需重复“发明油画”的错误神话。"
+      }
+    ]
+  },
+  "routes": [
+    {
+      "routeId": "vienna-route-90",
+      "name": "90分钟｜只抓住决定96分的核心",
+      "duration": "90分钟",
+      "strategy": "以中央建筑轴线开场，在古物与艺术珍宝馆各取数件不可替代对象，最后把主要时间留给勃鲁盖尔和维米尔。主动跳过埃及收藏、钱币馆及大部分第二梯队绘画；这是一条取舍路线，不是主馆缩略全景。",
+      "workIds": [
+        "vienna-space-02-grand-staircase-ensemble",
+        "vienna-space-03-cupola-hall",
+        "vienna-ant-01-gemma-augustea",
+        "vienna-ant-04-bacchanalia-decree",
+        "vienna-kk-01-saliera",
+        "vienna-kk-07-rock-crystal-pyramid",
+        "vienna-kk-08-bellerophon-pegasus",
+        "vienna-pg-01-tower-of-babel",
+        "vienna-pg-02-hunters-in-the-snow",
+        "vienna-pg-06-art-of-painting"
+      ],
+      "availabilityNotes": [
+        "若酒神祭法令展柜陈列的是复制件，应按现场标识说明，不把复制件称为原件。",
+        "纳吉圣米克洛什宝藏因轮换不纳入固定90分钟路线。"
+      ]
+    },
+    {
+      "routeId": "vienna-route-half-day",
+      "name": "半天｜看懂这家馆为何不只是名画馆",
+      "duration": "约4小时，含一次休息",
+      "strategy": "先用建筑建立收藏逻辑，再依次看古代制度、宫廷技术、勃鲁盖尔群和绘画如何重组历史与身份。路线保留全部八条稀世珍品线的代表；轮换对象不可见时，以同章其他对象维持主线。",
+      "workIds": [
+        "vienna-space-01-museum-building",
+        "vienna-space-02-grand-staircase-ensemble",
+        "vienna-space-03-cupola-hall",
+        "vienna-ant-01-gemma-augustea",
+        "vienna-ant-04-bacchanalia-decree",
+        "vienna-ant-02-nagyszentmiklos-treasure",
+        "vienna-ant-06-theseus-mosaic",
+        "vienna-egy-01-ka-ni-nisut-chapel",
+        "vienna-kk-01-saliera",
+        "vienna-kk-07-rock-crystal-pyramid",
+        "vienna-kk-08-bellerophon-pegasus",
+        "vienna-kk-03-automaton-ship",
+        "vienna-kk-05-rudolf-ii-bust",
+        "vienna-pg-01-tower-of-babel",
+        "vienna-pg-02-hunters-in-the-snow",
+        "vienna-pg-03-childrens-games",
+        "vienna-pg-04-peasant-wedding",
+        "vienna-pg-05-carnival-and-lent",
+        "vienna-pg-06-art-of-painting",
+        "vienna-pg-07-infanta-margarita-blue",
+        "vienna-pg-08-madonna-of-the-meadow",
+        "vienna-pg-09-madonna-of-the-rosary",
+        "vienna-pg-16-parmigianino-convex-self-portrait"
+      ],
+      "availabilityNotes": [
+        "纳吉圣米克洛什宝藏为馆藏轮换；不可见时不为凑路线改用未经确认的单件。",
+        "所有具体房间与闭室状态以当天馆方信息和现场标识为准。"
+      ]
+    },
+    {
+      "routeId": "vienna-route-complete",
+      "name": "完整浏览｜40项内容库，建议拆成两次",
+      "duration": "两次各约4小时；不建议压进同一天",
+      "strategy": "第一次集中建筑、古物、埃及与艺术珍宝馆，回答物件怎样服务制度、祭祀与宫廷技术；第二次集中绘画馆和钱币馆，回答图像怎样组织社会、身份、历史与绘画本身。每次都在穹顶大厅附近安排休息，避免把第二次参观降为疲劳补漏。",
+      "visits": [
+        {
+          "visit": 1,
+          "theme": "从古代制度到宫廷珍宝",
+          "workIds": [
+            "vienna-space-01-museum-building",
+            "vienna-space-02-grand-staircase-ensemble",
+            "vienna-space-03-cupola-hall",
+            "vienna-ant-01-gemma-augustea",
+            "vienna-ant-04-bacchanalia-decree",
+            "vienna-ant-02-nagyszentmiklos-treasure",
+            "vienna-ant-03-brygos-skyphos",
+            "vienna-ant-05-amazon-sarcophagus",
+            "vienna-ant-06-theseus-mosaic",
+            "vienna-egy-01-ka-ni-nisut-chapel",
+            "vienna-egy-02-reserve-head",
+            "vienna-egy-04-kai-pu-ptah-ipep",
+            "vienna-egy-05-gem-nef-hor-bak",
+            "vienna-egy-03-babylon-lion",
+            "vienna-kk-01-saliera",
+            "vienna-kk-07-rock-crystal-pyramid",
+            "vienna-kk-08-bellerophon-pegasus",
+            "vienna-kk-03-automaton-ship",
+            "vienna-kk-04-cittern-player",
+            "vienna-kk-06-dragon-bowl",
+            "vienna-kk-02-krumau-madonna",
+            "vienna-kk-05-rudolf-ii-bust"
+          ]
+        },
+        {
+          "visit": 2,
+          "theme": "从货币、社会全景到绘画的自我意识",
+          "workIds": [
+            "vienna-coin-01-sigismund-guldiner",
+            "vienna-coin-02-charles-v-dedication-medal",
+            "vienna-pg-01-tower-of-babel",
+            "vienna-pg-02-hunters-in-the-snow",
+            "vienna-pg-03-childrens-games",
+            "vienna-pg-04-peasant-wedding",
+            "vienna-pg-05-carnival-and-lent",
+            "vienna-pg-06-art-of-painting",
+            "vienna-pg-07-infanta-margarita-blue",
+            "vienna-pg-12-rubens-self-portrait",
+            "vienna-pg-13-cardinal-albergati",
+            "vienna-pg-16-parmigianino-convex-self-portrait",
+            "vienna-pg-15-summer",
+            "vienna-pg-08-madonna-of-the-meadow",
+            "vienna-pg-14-madonna-with-the-pear",
+            "vienna-pg-09-madonna-of-the-rosary",
+            "vienna-pg-11-judith-veronese",
+            "vienna-pg-10-nymph-and-shepherd"
+          ]
+        }
+      ],
+      "availabilityNotes": [
+        "纳吉圣米克洛什宝藏为馆藏轮换。",
+        "鲁本斯《自画像》与凡·艾克《红衣主教尼科洛·阿尔贝加蒂（？）》为展出状态待核验；不可见时保留内容库条目，但不承诺现场可看。",
+        "出发前重查开放、闭室、轮换和具体展厅。"
+      ]
+    }
+  ],
+  "workCoverage": {
+    "expectedCount": 40,
+    "selectionRule": "每项在章节中只出现一次；路线可以按参观取舍重复引用。",
+    "allWorkIds": [
+      "vienna-pg-01-tower-of-babel",
+      "vienna-pg-02-hunters-in-the-snow",
+      "vienna-pg-03-childrens-games",
+      "vienna-pg-04-peasant-wedding",
+      "vienna-pg-05-carnival-and-lent",
+      "vienna-pg-06-art-of-painting",
+      "vienna-pg-07-infanta-margarita-blue",
+      "vienna-pg-08-madonna-of-the-meadow",
+      "vienna-pg-09-madonna-of-the-rosary",
+      "vienna-pg-10-nymph-and-shepherd",
+      "vienna-pg-11-judith-veronese",
+      "vienna-pg-12-rubens-self-portrait",
+      "vienna-pg-13-cardinal-albergati",
+      "vienna-pg-14-madonna-with-the-pear",
+      "vienna-pg-15-summer",
+      "vienna-pg-16-parmigianino-convex-self-portrait",
+      "vienna-kk-01-saliera",
+      "vienna-kk-02-krumau-madonna",
+      "vienna-kk-03-automaton-ship",
+      "vienna-kk-04-cittern-player",
+      "vienna-kk-05-rudolf-ii-bust",
+      "vienna-kk-06-dragon-bowl",
+      "vienna-kk-07-rock-crystal-pyramid",
+      "vienna-kk-08-bellerophon-pegasus",
+      "vienna-ant-01-gemma-augustea",
+      "vienna-ant-02-nagyszentmiklos-treasure",
+      "vienna-ant-03-brygos-skyphos",
+      "vienna-ant-04-bacchanalia-decree",
+      "vienna-ant-05-amazon-sarcophagus",
+      "vienna-ant-06-theseus-mosaic",
+      "vienna-egy-01-ka-ni-nisut-chapel",
+      "vienna-egy-02-reserve-head",
+      "vienna-egy-03-babylon-lion",
+      "vienna-egy-04-kai-pu-ptah-ipep",
+      "vienna-egy-05-gem-nef-hor-bak",
+      "vienna-coin-01-sigismund-guldiner",
+      "vienna-coin-02-charles-v-dedication-medal",
+      "vienna-space-01-museum-building",
+      "vienna-space-02-grand-staircase-ensemble",
+      "vienna-space-03-cupola-hall"
+    ]
+  }
+}

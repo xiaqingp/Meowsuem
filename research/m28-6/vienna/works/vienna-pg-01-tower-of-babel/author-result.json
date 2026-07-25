@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-pg-01-tower-of-babel-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:39:35.3988167-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-01/vienna-pg-01-tower-of-babel-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "f6e4a7284b34b55a6078b4dec60b6934b4925ddb60b926f11f617fdfe0777324"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-pg-01-tower-of-babel/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "12db5620a1feb2af32690a6eabb13d01d427067be90000959f4a6adfbb250ff1"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "45a7ae407ef5633920c8f0a8eb97933f6b6e01fb37c65eec0a7b79f283b39a05",
+                        "bytes":  8928
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "d2c326c8e7345a2cbb5df606c5fa72bf8f15bdc8f797d812fd9b03e88b44db94",
+                        "bytes":  313
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "5c41a0a1a580e68f72d8855a5d7b07426e4ca6001b50ac48c70213d0ebe6dc86",
+                        "bytes":  4956
+                    }
+                ]
+}

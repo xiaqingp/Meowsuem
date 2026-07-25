@@ -1,0 +1,43 @@
+{
+  "id": "PCR-2026-07-24-01",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-24",
+  "ownerInstruction": "把1和2都修复吧。另外，以后每次一个博物馆做完，你要有一个用时和用token的报告",
+  "baseRelease": "research/pipeline-releases/v2.4.8.json",
+  "targetVersion": "2.4.9",
+  "scope": [
+    "make the isolated runner infer the project root and fail immediately when the run directory is missing",
+    "make the canonical invocation non-interactive so missing arguments cannot wait for input",
+    "record real runner and model timestamps plus model token usage",
+    "require a per-museum completion report with elapsed time and token totals"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/run-isolated-generation.ps1",
+    "scripts/report-museum-generation.mjs",
+    "scripts/freeze-pipeline-release.mjs"
+  ],
+  "allowedManagementFiles": [
+    "research/content-standard-manifest.json",
+    "scripts/test-run-isolated-generation.ps1",
+    "scripts/test-museum-generation-report.mjs",
+    "scripts/verify-project-authority.mjs",
+    "scripts/verify-content-pipeline.mjs",
+    "coho_museum/TechDesign.md",
+    "coho_museum/Milestones.md",
+    "coho_museum/Lessons.md",
+    "coho_museum/knowledge.md"
+  ],
+  "requiredTests": [
+    "runner inferred-project-root fixture",
+    "runner missing-run-directory fail-fast fixture",
+    "runner timestamp and token result fixture",
+    "museum generation report parallel-stage fixture",
+    "isolated generation runner self-test",
+    "project authority gate",
+    "pipeline causality gate",
+    "content pipeline gate",
+    "release idempotence"
+  ]
+}

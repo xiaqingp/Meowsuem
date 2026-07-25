@@ -1,0 +1,468 @@
+{
+  "schemaVersion": "museum-candidate-replacement/1.0",
+  "run": {
+    "runId": "m28-4-muxin-candidate-replacement-2026-07-23",
+    "stage": "museum_candidate_replacement",
+    "researchMode": "fresh_targeted_replacement",
+    "startedAt": "2026-07-23T21:40:00-07:00",
+    "researchedAt": "2026-07-23",
+    "timezone": "America/Los_Angeles",
+    "pipelineVersion": "2.4.6",
+    "instructionVersion": "2.0.2",
+    "executionProfile": {
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "medium"
+    },
+    "publicationBoundary": "whole_museum_candidate_no_production_write"
+  },
+  "museum": {
+    "museumId": "muxin",
+    "nameZh": "木心美术馆",
+    "nameEn": "Mu Xin Art Museum",
+    "location": "Wuzhen, Zhejiang, China"
+  },
+  "replacementPolicy": {
+    "replacementCount": 7,
+    "replacedWorkIds": [
+      "muxin-c06",
+      "muxin-c07",
+      "muxin-c08",
+      "muxin-c16",
+      "muxin-c17",
+      "muxin-c18",
+      "muxin-c19"
+    ],
+    "selectionPerformed": false,
+    "ratingPerformed": false,
+    "rules": [
+      "只接受题名、作者、媒介与物理组界能够闭合的单件；题名未定作品必须以唯一的年代、材质和尺寸组合锁定。",
+      "开馆展或序馆放映记录只证明对象曾在木心美术馆展出，不据此升级为当前在展或永久馆藏。",
+      "两件尺寸接近的20世纪70年代题未定纸本彩墨分别存在于开馆资料中；本次只取31.4×40.5厘米者，避免近重复。",
+      "新候选不沿用被替换对象的身份假设，也不修补原对象名称、作者归属或组界。",
+      "本文件只提供进入完整对象级研究的替代候选，不执行馆级选品、评分、路线或正文写作。"
+    ]
+  },
+  "replacementCandidates": [
+    {
+      "candidateId": "muxin-r01",
+      "replacesWorkId": "muxin-c06",
+      "nameZh": "《战后嘉年华》手稿",
+      "nameEn": "Manuscript of Postwar Carnival",
+      "englishTitleStatus": "working_translation",
+      "creator": "木心 Mu Xin",
+      "objectType": "散文手稿",
+      "date": "待核",
+      "material": "纸本墨迹，具体纸张与书写工具待核",
+      "stableUnit": "以题名为《战后嘉年华》的文章手稿整体为一个对象，不与出版本或展览中引用的文字复制件合并。",
+      "identityStable": true,
+      "availability": "previously_exhibited_current_unknown",
+      "imagePolicy": "museum_hero_placeholder",
+      "candidateStatus": "eligible",
+      "knownEvidence": [
+        "中国作家协会系统刊物所载的木心美术馆参观记录明确称，馆内展柜陈列有回忆青年时代美专生涯的《战后嘉年华》手稿。",
+        "上海美术教育研究资料把《战后嘉年华》识别为木心回顾上海美专经历的具名文章，可与无题早期稿和宽泛的文革前幸存手稿类别区分。",
+        "木心美术馆馆方常设收藏页确认文学馆陈列木心旅美及归国后手稿，但未在公开清单中单列此稿。"
+      ],
+      "candidateRationale": "它以具名文章手稿替代作者与组界不清的讲席文献，能连接木心的美术教育经历、回忆性写作与文学馆的手稿展示，同时保持单件边界。",
+      "possibleValueTypes": [
+        "social_document",
+        "artist_landmark"
+      ],
+      "nextStageChecks": [
+        "取得馆方展签或编目，核实写作年代、页数、稿本阶段、馆藏编号与收藏关系。",
+        "区分亲笔原稿、誊清稿、出版校样和展陈复制件。",
+        "核实当前是否仍在文学馆轮换展示，并取得可靠对象图。"
+      ],
+      "evidenceConfidence": "medium",
+      "sourceRefs": [
+        "R01",
+        "R02",
+        "R03"
+      ]
+    },
+    {
+      "candidateId": "muxin-r02",
+      "replacesWorkId": "muxin-c07",
+      "nameZh": "《四块水晶石》",
+      "nameEn": "Four Crystal Stones",
+      "englishTitleStatus": "working_translation",
+      "creator": "木心 Mu Xin",
+      "objectType": "纸本彩墨",
+      "date": "1991年",
+      "material": "纸本彩墨",
+      "dimensions": "9.4 × 53.7厘米",
+      "stableUnit": "单件具名绘画。",
+      "identityStable": true,
+      "availability": "previously_exhibited_current_unknown",
+      "imagePolicy": "object_image",
+      "candidateStatus": "eligible",
+      "knownEvidence": [
+        "木心美术馆开馆图录式资料逐项给出题名《四块水晶石》、1991年、纸本彩墨和9.4×53.7厘米，并配有对象图。",
+        "开馆展资料说明一、二层专馆长期陈列木心不同时期的绘画，具体展品此后会酌情轮换。",
+        "同一开馆资料把它与《晴风》《早晨》《生与死》《战争前夜》《废谷》等具名晚期纸本彩墨逐件区分。"
+      ],
+      "candidateRationale": "题名、年代、媒介、尺寸和图像组合足以锁定单件；它补入一件1990年代初的狭长纸本彩墨，可在下一阶段检验其是否为晚期长幅风景形成前的独立节点。",
+      "possibleValueTypes": [
+        "formal_achievement",
+        "artist_landmark"
+      ],
+      "nextStageChecks": [
+        "核实正式英译、馆藏编号、收藏机构和当前轮换状态。",
+        "取得高分辨率对象图并记录至少四项直接观察。",
+        "与《晴风》《早晨》《战争前夜》等狭长纸本彩墨建立最近比较，避免重复代表同一形式问题。"
+      ],
+      "evidenceConfidence": "medium-high",
+      "sourceRefs": [
+        "R04",
+        "R05"
+      ]
+    },
+    {
+      "candidateId": "muxin-r03",
+      "replacesWorkId": "muxin-c08",
+      "nameZh": "《早晨》",
+      "nameEn": "Morning",
+      "englishTitleStatus": "working_translation",
+      "creator": "木心 Mu Xin",
+      "objectType": "纸本彩墨",
+      "date": "2000年",
+      "material": "纸本彩墨",
+      "dimensions": "11.3 × 47.7厘米",
+      "stableUnit": "单件具名绘画。",
+      "identityStable": true,
+      "availability": "previously_exhibited_current_unknown",
+      "imagePolicy": "object_image",
+      "candidateStatus": "eligible",
+      "knownEvidence": [
+        "木心美术馆开馆图录式资料逐项给出题名《早晨》、2000年、纸本彩墨和11.3×47.7厘米，并配有对象图。",
+        "该作在同一资料中位于1999年《晴风》与2001年《生与死》《战争前夜》之间，可作为独立纪年对象识别。",
+        "开馆报道确认常设专馆所选绘画覆盖木心多个时期，但展品会轮换，不能据开馆记录推定当前在展。"
+      ],
+      "candidateRationale": "它以完整的题名、纪年、媒介、尺寸和图像替代文本性质不明的英文改写稿，并为1999至2001年的晚期纸本彩墨序列增加一个可核验节点。",
+      "possibleValueTypes": [
+        "formal_achievement",
+        "artist_landmark"
+      ],
+      "nextStageChecks": [
+        "核实正式英译、馆藏编号、收藏机构与当前展示状态。",
+        "取得可靠大图，避免仅凭题名推断晨光、时间或象征意义。",
+        "比较《晴风》《生与死》《战争前夜》，确认本作提供的观看问题并非重复。"
+      ],
+      "evidenceConfidence": "medium-high",
+      "sourceRefs": [
+        "R04",
+        "R05"
+      ]
+    },
+    {
+      "candidateId": "muxin-r04",
+      "replacesWorkId": "muxin-c16",
+      "nameZh": "《战争前夜》",
+      "nameEn": "Eve of War",
+      "englishTitleStatus": "working_translation",
+      "creator": "木心 Mu Xin",
+      "objectType": "纸本彩墨",
+      "date": "2001年",
+      "material": "纸本彩墨",
+      "dimensions": "10.8 × 54.7厘米；另一展品页约记为10 × 54厘米",
+      "stableUnit": "单件具名绘画；两组尺寸视为同一对象的精确记录与约数记录，不拆分。",
+      "identityStable": true,
+      "availability": "previously_exhibited_current_unknown",
+      "imagePolicy": "object_image",
+      "candidateStatus": "eligible_high_priority",
+      "knownEvidence": [
+        "木心美术馆开馆图录式资料给出《战争前夜》、2001年、纸本彩墨和10.8×54.7厘米，并配有对象图。",
+        "开馆特展的独立展品页再次记录题名、作者、纸本载体和约10×54厘米尺寸，形成第二条对象级记录。",
+        "后续文学媒体使用该作图像时标注为木心2001年纸本彩墨作品，并注明来源于木心美术馆。"
+      ],
+      "candidateRationale": "与身份未闭合的1989年题未定版画相比，此作拥有题名、纪年、媒介、尺寸、图像和独立展品页，能够稳定进入后续对象级研究。",
+      "possibleValueTypes": [
+        "conceptual_question",
+        "formal_achievement",
+        "artist_landmark"
+      ],
+      "nextStageChecks": [
+        "以馆方记录解决10.8×54.7厘米与约10×54厘米的著录精度差异。",
+        "核实正式英译、馆藏编号、收藏机构和当前状态。",
+        "只在图像与研究支持下解释题名与画面关系，不把题名直接当作战争叙事证据。"
+      ],
+      "evidenceConfidence": "high",
+      "sourceRefs": [
+        "R04",
+        "R06",
+        "R07"
+      ]
+    },
+    {
+      "candidateId": "muxin-r05",
+      "replacesWorkId": "muxin-c17",
+      "nameZh": "《木心为自己未来画册设计的封面》",
+      "nameEn": "Cover Designed by Mu Xin for His Future Art Book",
+      "englishTitleStatus": "working_translation",
+      "creator": "木心 Mu Xin",
+      "objectType": "画册封面设计稿",
+      "date": "年代不详",
+      "material": "纸本",
+      "dimensions": "53.5 × 102厘米",
+      "stableUnit": "单件具名纸本设计稿。",
+      "identityStable": true,
+      "availability": "previously_exhibited_current_unknown",
+      "imagePolicy": "object_image",
+      "candidateStatus": "eligible_high_priority",
+      "knownEvidence": [
+        "木心美术馆开馆图录式资料给出完整题名、纸本、53.5×102厘米和年代不详，并配有对象图。",
+        "开馆报道在介绍常设专馆时再次以相同题名、材质和尺寸刊出该作图像。",
+        "开馆特展的独立展品页将其登记为木心创作、纸本、出展于木心美术馆开馆特展的对象。"
+      ],
+      "candidateRationale": "这件对象不是宽泛的幸存手稿类别，而是题名、用途、材质、尺寸和展览记录均可区分的设计稿；它还能补足绘画与出版物之间的视觉设计问题。",
+      "possibleValueTypes": [
+        "conceptual_question",
+        "ritual_or_original_context",
+        "artist_landmark"
+      ],
+      "nextStageChecks": [
+        "核实馆藏编号、制作年代、拟议画册身份、收藏机构与当前展示状态。",
+        "确认题名来自木心本人、馆方编目还是开馆策展命名。",
+        "研究设计稿是否曾被实际采用，以及对象上的文字和版式如何与画册计划对应。"
+      ],
+      "evidenceConfidence": "high",
+      "sourceRefs": [
+        "R04",
+        "R05",
+        "R08"
+      ]
+    },
+    {
+      "candidateId": "muxin-r06",
+      "replacesWorkId": "muxin-c18",
+      "nameZh": "题未定（20世纪70年代纸本彩墨，31.4 × 40.5厘米）",
+      "nameEn": "Untitled (ink and color on paper, 1970s, 31.4 × 40.5 cm)",
+      "englishTitleStatus": "descriptive_identifier",
+      "creator": "木心 Mu Xin",
+      "objectType": "纸本彩墨人物画",
+      "date": "20世纪70年代",
+      "material": "纸本彩墨",
+      "dimensions": "31.4 × 40.5厘米",
+      "stableUnit": "以题未定、20世纪70年代、纸本彩墨、31.4×40.5厘米及对应图像的组合锁定单件；不与同批31×40.5厘米的另一件题未定作品合并。",
+      "identityStable": true,
+      "availability": "previously_exhibited_current_unknown",
+      "imagePolicy": "object_image",
+      "candidateStatus": "eligible",
+      "knownEvidence": [
+        "木心美术馆开馆图录式资料分别列出两件20世纪70年代题未定纸本彩墨，本件尺寸为31.4×40.5厘米，并有独立对象图。",
+        "开馆报道以同一尺寸和图像将本件说明为木心较具象的肖像题材作品。",
+        "同一报道确认一号馆同时展出抽象石版画、具象作品和人像作品，使本件的开馆展关系明确。"
+      ],
+      "candidateRationale": "这件作品以尺寸和图像形成无歧义标识，替代数量、作者和档案组界均不明的政治文书类别；它还补充现有候选较弱的20世纪70年代具象人物画线。",
+      "possibleValueTypes": [
+        "artist_landmark",
+        "formal_achievement",
+        "social_document"
+      ],
+      "nextStageChecks": [
+        "取得馆方对象编号或展签，确认正式题名状态、精确年代、收藏机构和当前展示状态。",
+        "以可靠大图核实人物、姿态和画面细节；不得把报道中的“肖像题材”升级为具名人物身份。",
+        "与31×40.5厘米的同批题未定作品及木心旅美初期人物画比较，确认独立入选价值。"
+      ],
+      "evidenceConfidence": "medium-high",
+      "sourceRefs": [
+        "R04",
+        "R05"
+      ]
+    },
+    {
+      "candidateId": "muxin-r07",
+      "replacesWorkId": "muxin-c19",
+      "nameZh": "纪录片《梦想抵抗现实》",
+      "nameEn": "Dreaming Against the World",
+      "creator": "Timothy Sternberg、Francisco Bello",
+      "objectType": "纪录片",
+      "date": "2015年首映；主要拍摄于2010年",
+      "material": "数字影像与声音",
+      "duration": "约35分钟",
+      "stableUnit": "以2015年全球首映、由Timothy Sternberg与Francisco Bello联合执导的纪录片成片为一个对象；不与馆内其他影像档案或未剪素材合并。",
+      "identityStable": true,
+      "availability": "previously_exhibited_current_unknown",
+      "imagePolicy": "museum_hero_placeholder",
+      "candidateStatus": "eligible_high_priority",
+      "knownEvidence": [
+        "木心美术馆开馆报道明确记录序馆视频区把纪录片《梦想抵抗现实》的片段与文字并置。",
+        "该片2015年在纽约亚洲协会总部全球首映，报道明确给出英文名Dreaming Against the World及联合导演Timothy Sternberg、Francisco Bello。",
+        "影像报道说明影片约35分钟，主要素材于2010年在乌镇拍摄，能够与1994年旅行录像、2014年其他纪录片和馆内无题影像区分。"
+      ],
+      "candidateRationale": "它把原先作者、年份和版本混杂的宽泛影像组收窄为一部片名、导演、首映年份和成片边界均明确的纪录片，并有木心美术馆序馆使用记录。",
+      "possibleValueTypes": [
+        "social_document",
+        "ritual_or_original_context"
+      ],
+      "nextStageChecks": [
+        "取得馆方节目单，核实序馆使用的是完整成片还是经授权节选，以及当前是否仍放映。",
+        "核实准确片长、制作方、版权方、馆藏或放映许可关系。",
+        "建立影片所含木心本人影像的拍摄日期和剪辑边界，不把后期旁白或策展文字当作木心自述。"
+      ],
+      "evidenceConfidence": "high",
+      "sourceRefs": [
+        "R05",
+        "R09",
+        "R10"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "R01",
+      "title": "2022年1月《中国作家》相关刊物中的木心美术馆参观记录",
+      "publisher": "中国作家协会",
+      "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3872/site/attach/0/671df7253fe14338b83405391284b4fa.pdf",
+      "accessed": "2026-07-23",
+      "sourceStrength": "medium",
+      "supports": [
+        "文学馆展柜曾陈列《战后嘉年华》手稿",
+        "该稿与凡·高画展诗稿等其他文献分别陈列"
+      ]
+    },
+    {
+      "sourceId": "R02",
+      "title": "木心——曾经的美专学生、一代传奇人物 他的作品来了！",
+      "publisher": "刘海粟美术馆相关展览资讯，经搜狐转载",
+      "url": "https://news.sohu.com/a/1012813715_121106832",
+      "accessed": "2026-07-23",
+      "sourceStrength": "medium",
+      "supports": [
+        "《战后嘉年华》为木心回顾上海美专经历的具名文章",
+        "木心遗留手稿与画作进入美术馆体系的概述"
+      ]
+    },
+    {
+      "sourceId": "R03",
+      "title": "Literature Collection",
+      "publisher": "木心美术馆 Mu Xin Art Museum",
+      "url": "https://www.muxinam.com/index_en.php?a=wenxue&m=Guancang",
+      "accessed": "2026-07-23",
+      "sourceStrength": "high",
+      "supports": [
+        "文学馆长期陈列木心各时期手稿的范围",
+        "手稿展示采用轮换制度"
+      ]
+    },
+    {
+      "sourceId": "R04",
+      "title": "木心美术馆将于乌镇开馆",
+      "publisher": "腕表之家转载开馆资料",
+      "url": "https://www.xbiao.com/20151028/34431.html",
+      "accessed": "2026-07-23",
+      "sourceStrength": "medium",
+      "supports": [
+        "《四块水晶石》《早晨》《战争前夜》的题名、年代、材质、尺寸与图像",
+        "画册封面设计稿与20世纪70年代题未定纸本彩墨的对象级信息"
+      ]
+    },
+    {
+      "sourceId": "R05",
+      "title": "木心“魂归”故里乌镇：一座以“梦想抵抗现实”的博物馆，深入个人的艺术世界与历史情境",
+      "publisher": "艺术新闻／The Art Journal",
+      "url": "https://www.theartjournal.cn/institutions/10399",
+      "accessed": "2026-07-23",
+      "sourceStrength": "medium-high",
+      "supports": [
+        "开馆常设专馆、轮换陈列及绘画媒介范围",
+        "画册封面设计稿和31.4×40.5厘米题未定人物画的图像与展陈关系",
+        "序馆曾使用纪录片《梦想抵抗现实》片段"
+      ]
+    },
+    {
+      "sourceId": "R06",
+      "title": "展品：《战争前夜》",
+      "publisher": "ArtCM艺厘米",
+      "url": "https://www.artcm.cn/customer/exhibit_detail/?exhibit_id=378",
+      "accessed": "2026-07-23",
+      "sourceStrength": "medium",
+      "supports": [
+        "《战争前夜》的独立展品身份、作者、纸本载体、近似尺寸和开馆特展关系"
+      ]
+    },
+    {
+      "sourceId": "R07",
+      "title": "同情中断录丨木心谈张爱玲",
+      "publisher": "单读相关转载",
+      "url": "https://ny.zdline.cn/h5/article/detail.do?artId=43816",
+      "accessed": "2026-07-23",
+      "sourceStrength": "medium",
+      "supports": [
+        "《战争前夜》为木心2001年纸本彩墨作品",
+        "图像来源指向木心美术馆"
+      ]
+    },
+    {
+      "sourceId": "R08",
+      "title": "展品：《木心为自己未来画册设计的封面》",
+      "publisher": "ArtCM艺厘米",
+      "url": "https://artcm.cn/customer/exhibit_detail/?exhibit_id=372",
+      "accessed": "2026-07-23",
+      "sourceStrength": "medium",
+      "supports": [
+        "画册封面设计稿的独立展品身份、作者、纸本载体和开馆特展关系"
+      ]
+    },
+    {
+      "sourceId": "R09",
+      "title": "Art Doc | 给木心的告别礼：纪录片《梦想抵抗现实》纽约首映",
+      "publisher": "艺术新闻／The Art Journal",
+      "url": "https://www.theartjournal.cn/feature-video/2120",
+      "accessed": "2026-07-23",
+      "sourceStrength": "medium-high",
+      "supports": [
+        "纪录片中英文片名",
+        "2015年亚洲协会全球首映",
+        "Timothy Sternberg与Francisco Bello联合执导"
+      ]
+    },
+    {
+      "sourceId": "R10",
+      "title": "这部35分钟的纪录片看完木心的84年",
+      "publisher": "梨视频",
+      "url": "https://www.pearvideo.com/video_1026411",
+      "accessed": "2026-07-23",
+      "sourceStrength": "medium",
+      "supports": [
+        "影片约35分钟",
+        "主要拍摄于2010年乌镇"
+      ]
+    }
+  ],
+  "researchStop": {
+    "searchBatches": 5,
+    "stopped": true,
+    "conditionsMet": [
+      "已形成恰好7个替代候选，并与7个被替换workId一一对应。",
+      "每个候选均可由具名题名，或题未定加唯一年代、材质、尺寸和图像的组合稳定识别。",
+      "每个候选均有木心美术馆常设范围、开馆展或序馆放映关系的可靠记录；未把曾展出升级为当前在展。",
+      "绘画、文学手稿、出版设计和具名纪录片均有覆盖，且没有把宽泛档案类别、未知版画系列或混合影像组重新包装为单件。",
+      "后续结果已主要重复2015年开馆资料、同一批对象图和二手参观记录，未再出现身份更稳定且能显著改善媒介覆盖的新对象。"
+    ],
+    "unresolvedButNonBlocking": [
+      "7个候选均缺少可抓取的馆方馆藏编号与逐件当前展出状态。",
+      "《战后嘉年华》手稿仍需馆方编目确认页数、稿本阶段与原件/复制件身份。",
+      "多件开馆展绘画的永久收藏机构尚未公开确认，当前只能标记为曾展出、现状未知。",
+      "《四块水晶石》《早晨》《战争前夜》与画册封面设计稿的正式馆方英译仍待核。",
+      "纪录片《梦想抵抗现实》在序馆使用的是完整成片还是授权节选、目前是否继续放映，仍需馆方节目单确认。"
+    ],
+    "nextStagePriority": [
+      "为7个候选分别取得馆方对象页、馆藏编号、收藏或长期保管关系、原件/复制件身份与当前状态。",
+      "为5件纸本对象取得可靠大图并建立对象级视觉观察；纪录片不得使用馆舍占位图作为视觉证据。",
+      "为《四块水晶石》《早晨》《战争前夜》及题未定人物画建立最近比较对象，确认它们不会与已保留的晚期纸本彩墨重复。",
+      "为《战后嘉年华》手稿建立稿本—出版本关系，为画册封面设计稿建立拟议出版物关系。",
+      "完成7件fresh research card后，连同已保留的13件对象重新运行完整museum_selection；不得只把替代候选追加到旧评分结果。"
+    ]
+  },
+  "stageDecision": {
+    "status": "replacement_candidates_complete",
+    "replacementCandidateCount": 7,
+    "allCandidateIdentitiesStable": true,
+    "mayAdvanceToFreshObjectResearch": true,
+    "museumSelectionPerformed": false,
+    "ratingPerformed": false,
+    "structureOrRoutesWritten": false,
+    "productionWritePerformed": false
+  }
+}

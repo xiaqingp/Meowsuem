@@ -1,0 +1,150 @@
+{
+  "name": "Meowseum Generation Pipeline",
+  "version": "2.6.1",
+  "status": "active",
+  "frozenAt": "2026-07-24",
+  "sourceManifest": "research/content-standard-manifest.json",
+  "canonicalFiles": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "7d5f57f660527b9708b6fa22d2a333422d82e590961962f3e69bef60dc84af14"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "version": "2.0.2",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "scripts/run-isolated-generation.ps1",
+      "sha256": "6ab4bc87e31394df0d12245ec4fecf0e4a54e28d6fbccf3ce20b1f811fee8cb8"
+    },
+    {
+      "path": "scripts/report-museum-generation.mjs",
+      "sha256": "92f0fd77acf68e293418064197ca37235f5a40eb41c0494c6fa90347c4869f15"
+    },
+    {
+      "path": "scripts/verify-release-candidate.mjs",
+      "sha256": "e3c61a116bda573a211e1e58e00b1077e4ddb7dd0d10bc3683c95b3ecccc6eb1"
+    },
+    {
+      "path": "scripts/publish-museum-candidate.mjs",
+      "sha256": "5c1bcfa1187a27055408a947cedf6c609e3e04deff2a0bc99c5a6b279324b1f3"
+    },
+    {
+      "path": "scripts/assemble-museum-candidate.mjs",
+      "sha256": "ae30cc61cf72fd0062f71cc23e2d1898f27ad881d81332f0baa7458f8528bd1c"
+    },
+    {
+      "path": "scripts/finalize-museum.mjs",
+      "sha256": "57a9601b693036e9d3e7c7ea062b460a133bba5f41fe8fba7e15f1358521eb93"
+    },
+    {
+      "path": "scripts/verify-content-pipeline.mjs",
+      "sha256": "b15289d0be0920e0ea17f1bdf5eac709b414756c45f09a88b523a5b40e70a127"
+    },
+    {
+      "path": "scripts/verify-significance-evidence.mjs",
+      "sha256": "7c1bd4de7515a9a953faa6e25f9a564a83a828abd7b6c313bf17a491052f0adf"
+    },
+    {
+      "path": "scripts/verify-future-museum-contract.mjs",
+      "sha256": "589772ad5d7783acddfe8d2b884d9d49e640017ad8d3382d1b201781ca6d1a39"
+    },
+    {
+      "path": "scripts/prepare-author-research-input.mjs",
+      "sha256": "ff09bdd2e4b2d292308798ef3e210dd2d801dab5eed936bd698846768dab608d"
+    },
+    {
+      "path": "scripts/process-author-bundle.mjs",
+      "sha256": "acd01ba270097d6b426add9a7a4800d6baaf9a4fa2378f2ad8a9cfd75ad095b7"
+    },
+    {
+      "path": "scripts/process-museum-rating.mjs",
+      "sha256": "7c3cd66598df1831e95d3e5b1e508df00163297334ac5cd103911de16072de8f"
+    },
+    {
+      "path": "scripts/freeze-pipeline-release.mjs",
+      "sha256": "cd2eca6b8fbda2462071e01b8c1f951e764b6fff3b7276da4ac829c8b381f6e0"
+    }
+  ],
+  "changeControl": {
+    "id": "PCR-2026-07-24-04",
+    "record": "research/pipeline-changes/PCR-2026-07-24-04.json",
+    "recordSha256": "1fdeeb00e1d860c95f61a77a87bfa25c9e0413e1d40434344f8e41270dcf8c2b",
+    "baseRelease": "research/pipeline-releases/v2.6.0.json",
+    "changedCanonicalFiles": [
+      "research/generation-pipeline.md",
+      "scripts/verify-release-candidate.mjs",
+      "scripts/assemble-museum-candidate.mjs",
+      "scripts/finalize-museum.mjs",
+      "scripts/verify-content-pipeline.mjs",
+      "scripts/verify-significance-evidence.mjs",
+      "scripts/verify-future-museum-contract.mjs",
+      "scripts/freeze-pipeline-release.mjs"
+    ]
+  },
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "freshResearchMaxWorksPerContext": 10,
+    "reviewerMode": "disabled",
+    "completionReportRequired": true,
+    "postGenerationLiveScope": "current_museum",
+    "postGenerationNetworkConcurrency": 8,
+    "postGenerationModelCalls": 0,
+    "postGenerationModelTokens": 0,
+    "futureMuseumContractVersion": 1,
+    "authorBundleOutputs": [
+      "writing-plan.json",
+      "card.txt",
+      "draft.md"
+    ]
+  },
+  "stageInputContracts": {
+    "author": {
+      "version": 1,
+      "requiredRoles": [
+        "content_instruction",
+        "research_card",
+        "work_context"
+      ],
+      "optionalRoles": [
+        "research_supplement"
+      ],
+      "maxInputsByRole": {
+        "content_instruction": 1,
+        "research_card": 1,
+        "work_context": 1,
+        "research_supplement": 1
+      },
+      "maxTotalBytes": 90000
+    },
+    "assembly": {
+      "version": 1,
+      "requiredFile": "assembly-input.json",
+      "requiredSources": [
+        "museum_structure",
+        "museum_rating",
+        "museum_selection",
+        "author_bundles",
+        "verified_assets"
+      ],
+      "modelCalls": 0,
+      "futureRequiredFields": [
+        "integration.coordinates"
+      ]
+    }
+  },
+  "stateMachine": [
+    "research_card",
+    "author_bundle",
+    "mechanical_processed"
+  ],
+  "acceptedRegression": {
+    "authorBundleResult": "research/pipeline-tests/v2.0.9-autumn-rhythm-single-load-clean3/author-result.json",
+    "authorBundleResultSha256": "2e0ff07959cddb0f91ac9bf768e69fcc1aa892da380707e8797b41563ea5555a",
+    "successfulRunTokens": 128408,
+    "reviewerRun": false,
+    "productionWrite": false
+  }
+}

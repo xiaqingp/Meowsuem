@@ -1,0 +1,146 @@
+{
+  "runId": "m28-6-vienna-fresh-research-batch-01-2026-07-23",
+  "startedAt": "2026-07-24T07:00:35.315Z",
+  "stage": "research",
+  "researchMode": "fresh",
+  "museumId": "vienna",
+  "works": [
+    {
+      "museumId": "vienna",
+      "workId": "vienna-pg-01-tower-of-babel",
+      "workIdentity": {
+        "artistOrCulture": "老彼得·勃鲁盖尔 Pieter Bruegel the Elder",
+        "title": "巴别塔",
+        "titleEn": "The Tower of Babel",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-pg-02-hunters-in-the-snow",
+      "workIdentity": {
+        "artistOrCulture": "老彼得·勃鲁盖尔 Pieter Bruegel the Elder",
+        "title": "雪中猎人（冬）",
+        "titleEn": "Hunters in the Snow (Winter)",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-pg-03-childrens-games",
+      "workIdentity": {
+        "artistOrCulture": "老彼得·勃鲁盖尔 Pieter Bruegel the Elder",
+        "title": "儿童游戏",
+        "titleEn": "Children's Games",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-pg-04-peasant-wedding",
+      "workIdentity": {
+        "artistOrCulture": "老彼得·勃鲁盖尔 Pieter Bruegel the Elder",
+        "title": "农民婚礼",
+        "titleEn": "Peasant Wedding",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-pg-05-carnival-and-lent",
+      "workIdentity": {
+        "artistOrCulture": "老彼得·勃鲁盖尔 Pieter Bruegel the Elder",
+        "title": "狂欢节与四旬斋之战",
+        "titleEn": "The Fight between Carnival and Lent",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-pg-06-art-of-painting",
+      "workIdentity": {
+        "artistOrCulture": "约翰内斯·维米尔 Johannes Vermeer",
+        "title": "绘画的艺术",
+        "titleEn": "The Art of Painting",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-pg-07-infanta-margarita-blue",
+      "workIdentity": {
+        "artistOrCulture": "迭戈·委拉斯开兹 Diego Velázquez",
+        "title": "身着蓝裙的玛格丽特公主",
+        "titleEn": "Infanta Margarita in a Blue Dress",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-pg-08-madonna-of-the-meadow",
+      "workIdentity": {
+        "artistOrCulture": "拉斐尔 Raphael",
+        "title": "草地圣母",
+        "titleEn": "The Madonna of the Meadow",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-pg-09-madonna-of-the-rosary",
+      "workIdentity": {
+        "artistOrCulture": "卡拉瓦乔 Caravaggio",
+        "title": "玫瑰经圣母",
+        "titleEn": "Madonna of the Rosary",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-pg-10-nymph-and-shepherd",
+      "workIdentity": {
+        "artistOrCulture": "提香 Titian",
+        "title": "宁芙与牧羊人",
+        "titleEn": "Nymph and Shepherd",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    }
+  ],
+  "pipelineVersion": "2.4.8",
+  "instructionVersion": "2.0.2",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "465e7a2ce500057a139dbb64ff9df36755a6525a1f3a960e90fa0263a572ebfe"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "a65e9a4cb1477e4dfb00f06871483c928224dee22b69e292b84b2dcc7cdb4b24"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-01/candidate-packet.json",
+      "sha256": "cbdac61dc0b96ab1ea025db1c364c8e6e2031d9de8a76ae1a8ba5ae4285d137c"
+    }
+  ],
+  "outputs": [
+    "vienna-pg-01-tower-of-babel-research-card.md",
+    "vienna-pg-02-hunters-in-the-snow-research-card.md",
+    "vienna-pg-03-childrens-games-research-card.md",
+    "vienna-pg-04-peasant-wedding-research-card.md",
+    "vienna-pg-05-carnival-and-lent-research-card.md",
+    "vienna-pg-06-art-of-painting-research-card.md",
+    "vienna-pg-07-infanta-margarita-blue-research-card.md",
+    "vienna-pg-08-madonna-of-the-meadow-research-card.md",
+    "vienna-pg-09-madonna-of-the-rosary-research-card.md",
+    "vienna-pg-10-nymph-and-shepherd-research-card.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

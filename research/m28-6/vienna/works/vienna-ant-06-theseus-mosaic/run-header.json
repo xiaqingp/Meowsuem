@@ -1,0 +1,48 @@
+{
+  "runId": "m28-6-vienna-author-vienna-ant-06-theseus-mosaic-2026-07-24",
+  "startedAt": "2026-07-24T07:30:03.842Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card",
+  "museumId": "vienna",
+  "workId": "vienna-ant-06-theseus-mosaic",
+  "workIdentity": {
+    "artistOrCulture": "古罗马，发现于萨尔茨堡附近别墅",
+    "title": "忒修斯马赛克",
+    "titleEn": "Theseus Mosaic",
+    "museum": "Kunsthistorisches Museum Vienna"
+  },
+  "pipelineVersion": "2.4.8",
+  "instructionVersion": "2.0.2",
+  "inputContractVersion": 1,
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "465e7a2ce500057a139dbb64ff9df36755a6525a1f3a960e90fa0263a572ebfe"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-03/vienna-ant-06-theseus-mosaic-research-card.md",
+      "role": "research_card",
+      "sha256": "600cbb98ade4d0363fc7186febb62ca2dda044a8f6a2841f59fd8cf5392c515c"
+    },
+    {
+      "path": "research/m28-6/vienna/works/vienna-ant-06-theseus-mosaic/work-context.json",
+      "role": "work_context",
+      "sha256": "0a2d2ab9f7159d368d987566d8cce91c55ae4ca93286a99928da22db72690ef7"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

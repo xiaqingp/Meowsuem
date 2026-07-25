@@ -1,0 +1,176 @@
+{
+  "runId": "m28-12-v2.7.2-seattle-museum-structure-2026-07-24",
+  "startedAt": "2026-07-24T00:00:00-07:00",
+  "stage": "museum_structure",
+  "researchMode": "fresh_locked_research_cards",
+  "museumId": "seattle",
+  "museumIdentity": {
+    "zh": "西雅图艺术博物馆",
+    "en": "Seattle Art Museum",
+    "location": "1300 First Avenue, Seattle, Washington, USA"
+  },
+  "workIds": [
+    "a-country-home",
+    "barcelona",
+    "double-elvis",
+    "dr-silvester-gardiner",
+    "how-my-mothers-embroidered-apron-unfolds-in-my-life",
+    "naaxein",
+    "narragansett-bay",
+    "sea-change",
+    "still-life-with-strawberries-and-ostrich-egg-cup",
+    "swan-rattle",
+    "belt-mask-of-iyoba-idia",
+    "canoe-prow-figure-nguzu-nguzu",
+    "cylinder-vase-depicting-scribes-in-the-underworld",
+    "folio-from-the-dispersed-blue-quran",
+    "four-cornered-hat-with-birds",
+    "funerary-portrait",
+    "gathering-storm",
+    "posthumous-portrait-head-of-the-emperor-claudius",
+    "reliquary-casket",
+    "salt-cellar"
+  ],
+  "pipelineVersion": "2.7.2",
+  "instructionVersion": "2.1.1",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c7931d34e1f54dde5c43336acc50f7fb7ac380cfe7bed7ca27ea0e01f2cf4aa6"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "8c08c30f9d915a8942ed605287f7993a6514742c8f895b427876a6ffabb3fda2"
+    },
+    {
+      "path": "research/m28-12/seattle/scope/museum-scope.json",
+      "role": "museum_scope",
+      "sha256": "df4bf6e1b0ecdc6e23d6fd8d1f04e4f4c9749ea703403853b91f4d3e15f8c7cb"
+    },
+    {
+      "path": "research/m28-12/seattle/museum-work-index.json",
+      "role": "museum_work_index",
+      "sha256": "93774e3b3187074365627478de64e32d9ee66dd05215983e4bf25bfa47819960"
+    },
+    {
+      "path": "research/m28-12/seattle/museum-selection/museum-evidence.json",
+      "role": "museum_selection",
+      "sha256": "68f5c33d7cfcee9ac24e0a21cf165fef05191c85437a223b5e0d6012bb5e7c84"
+    },
+    {
+      "path": "research/m28-12/seattle/museum-selection/museum-rating.json",
+      "role": "museum_rating",
+      "sha256": "f1c4f9780c826668b6f5e155bf2ab0b0a079e5d1f2181fc45717c3b8ac17c109"
+    },
+    {
+      "path": "research/m28-12/seattle/research-batch-01/a-country-home-research-card.md",
+      "role": "research_card_fallback",
+      "sha256": "306bb957fa527c2e1b7e5466fa6678e1dc61ceeffb8a3960202b1484575918e9"
+    },
+    {
+      "path": "research/m28-12/seattle/research-batch-01/barcelona-research-card.md",
+      "role": "research_card_fallback",
+      "sha256": "bde22e647c3074a86d7b57fb5b970d0b005482d04ee685dd45b89f8c133e152b"
+    },
+    {
+      "path": "research/m28-12/seattle/research-batch-01/double-elvis-research-card.md",
+      "role": "research_card_fallback",
+      "sha256": "eda01f1246c55be1113a0aa6b5e7fdb2a17b6ab2d259d3d71cb9d2ced3342bd4"
+    },
+    {
+      "path": "research/m28-12/seattle/research-batch-01/dr-silvester-gardiner-research-card.md",
+      "role": "research_card_fallback",
+      "sha256": "e48af14dbe545a473e064fc7675cd3abd85193b56b337d6a3fbf553432b72616"
+    },
+    {
+      "path": "research/m28-12/seattle/research-batch-01/how-my-mothers-embroidered-apron-unfolds-in-my-life-research-card.md",
+      "role": "research_card_fallback",
+      "sha256": "2982511dae4163b08ff3abda5a62498941aebef34e27120a1bf464fd17fd63ab"
+    },
+    {
+      "path": "research/m28-12/seattle/research-batch-01/naaxein-research-card.md",
+      "role": "research_card_fallback",
+      "sha256": "57eb356f16bb94565a027c9f7af5576b7c4a2e48cbbf724e24ad55adeee483cf"
+    },
+    {
+      "path": "research/m28-12/seattle/research-batch-01/narragansett-bay-research-card.md",
+      "role": "research_card_fallback",
+      "sha256": "ff9c497f0ca53a1dc29d2e20cb4d1db8a6c10c7575837667882df757086fb31a"
+    },
+    {
+      "path": "research/m28-12/seattle/research-batch-01/sea-change-research-card.md",
+      "role": "research_card_fallback",
+      "sha256": "963ea8ebb33fcc4fddd52da97e7ca73f2c44231545bb5d39858e2707775b876e"
+    },
+    {
+      "path": "research/m28-12/seattle/research-batch-01/still-life-with-strawberries-and-ostrich-egg-cup-research-card.md",
+      "role": "research_card_fallback",
+      "sha256": "4c3a5b96e867f1e4b742bc730a902da9a8536e140e08cd4098d5383b31f8598d"
+    },
+    {
+      "path": "research/m28-12/seattle/research-batch-01/swan-rattle-research-card.md",
+      "role": "research_card_fallback",
+      "sha256": "e58e9c8cbc6896083e45e44b3044c69d056652691b1f5ebfa2e1226995fe91a3"
+    },
+    {
+      "path": "research/m28-12/seattle/research-batch-02/belt-mask-of-iyoba-idia-research-card.md",
+      "role": "research_card_fallback",
+      "sha256": "018b597f10ac11f466e4297189323a2a28f480022036afd5e97201d30e79e46f"
+    },
+    {
+      "path": "research/m28-12/seattle/research-batch-02/canoe-prow-figure-nguzu-nguzu-research-card.md",
+      "role": "research_card_fallback",
+      "sha256": "50e3537ec9a7dd183249a97eb0c275d1f1227eb3abf37282697162aeb0fbd8e3"
+    },
+    {
+      "path": "research/m28-12/seattle/research-batch-02/cylinder-vase-depicting-scribes-in-the-underworld-research-card.md",
+      "role": "research_card_fallback",
+      "sha256": "09060d9985106bcea269462a7ae1824a942f8a11c7d741fa3f1e37ba13865cad"
+    },
+    {
+      "path": "research/m28-12/seattle/research-batch-02/folio-from-the-dispersed-blue-quran-research-card.md",
+      "role": "research_card_fallback",
+      "sha256": "8c209aaedcd95f5d5356428055a0b79062bd49c6a1ce9d2dd0b507fd4804258b"
+    },
+    {
+      "path": "research/m28-12/seattle/research-batch-02/four-cornered-hat-with-birds-research-card.md",
+      "role": "research_card_fallback",
+      "sha256": "b55eb3bfc767f02cc31c37d2e9594dfcfc0fe0e782bb3492f5939ad30b58838c"
+    },
+    {
+      "path": "research/m28-12/seattle/research-batch-02/funerary-portrait-research-card.md",
+      "role": "research_card_fallback",
+      "sha256": "db6e61165714a8465b09121023141cb0cc636842ad4a6bd48156ad1f4d1a9b29"
+    },
+    {
+      "path": "research/m28-12/seattle/research-batch-02/gathering-storm-research-card.md",
+      "role": "research_card_fallback",
+      "sha256": "99186207a4c9371b9e399b519ddd54224328b4db0cad18f3a6a6e3f531f0b594"
+    },
+    {
+      "path": "research/m28-12/seattle/research-batch-02/posthumous-portrait-head-of-the-emperor-claudius-research-card.md",
+      "role": "research_card_fallback",
+      "sha256": "00a43a57a17dded0239ec1ee250a4e58371662e704e21f1772285eccd582c1bc"
+    },
+    {
+      "path": "research/m28-12/seattle/research-batch-02/reliquary-casket-research-card.md",
+      "role": "research_card_fallback",
+      "sha256": "2a4d4a08d29a9942cf3c48d0dc0aa97cd78b8af9c326d5d30169dc3058906249"
+    },
+    {
+      "path": "research/m28-12/seattle/research-batch-02/salt-cellar-research-card.md",
+      "role": "research_card_fallback",
+      "sha256": "20eb1efa57dedbdbbfb318636e3552e26a6b4abe667bd6b28d87e048738f7251"
+    }
+  ],
+  "outputs": [
+    "museum-plan.json",
+    "museum-copy.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "candidate_then_atomic_production_write"
+}

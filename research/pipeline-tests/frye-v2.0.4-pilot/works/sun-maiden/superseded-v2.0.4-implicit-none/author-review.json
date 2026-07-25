@@ -1,0 +1,183 @@
+{
+  "workId": "sun-maiden",
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "e9a434b99a52b406534ed18ece4de33470548c2797954193843b9eb3bfc9b383"
+  },
+  "retryReason": null,
+  "paragraphDependency": [
+    {
+      "paragraph": "Q1-30秒先懂",
+      "function": "以转开的面容和醒目的身体亮边建立问题，并给出光色机制与职业条件的暂时答案。",
+      "dependsOn": "元数据已确认作品、作者和年代范围。",
+      "newUnderstanding": "观看抓手不是人物表情，而是身体与林地交界处的强光；制度背景会落回这处可见处理。",
+      "breaksIfMovedEarlier": "若置于元数据前，读者不知道根特与作品身份，职业条件失去对象。"
+    },
+    {
+      "paragraph": "D1-核心问题第一段",
+      "function": "拆解面容退位、亮边、环境暗调与身体体积之间的视觉关系。",
+      "dependsOn": "快层已经要求读者把注意力从表情移到亮边。",
+      "newUnderstanding": "亮边不是孤立线条，而由环境对比与身体内部明暗共同成立。",
+      "breaksIfMovedEarlier": "没有快层的观察转向，这段会变成无缘由的形式清单。"
+    },
+    {
+      "paragraph": "D2-核心问题第二段",
+      "function": "说明林地如何参与光色机制，并限制对光源方向的推断。",
+      "dependsOn": "上一段已建立身体外缘、环境暗调和内部阴影三者的关系。",
+      "newUnderstanding": "林地不是可替换布景；人体和环境由同一条亮暗交界相连。",
+      "breaksIfMovedEarlier": "若尚未解释亮边与体积，林地参与机制的结论缺少可见前提。"
+    },
+    {
+      "paragraph": "D3-职业史第一段",
+      "function": "把根特的生涯阶段及女性获得人体训练、职业展览机会的限制接到裸体题材。",
+      "dependsOn": "前两段已证明作品的观看价值具体落在光色与人体处理。",
+      "newUnderstanding": "制度背景改变题材的生产语境，但不能替作品指定政治意图。",
+      "breaksIfMovedEarlier": "若视觉机制尚未成立，制度史会悬空成为可交换的作者背景栏目。"
+    },
+    {
+      "paragraph": "D4-馆内比较第一段",
+      "function": "用同馆《林中》界定最近比较类别、相同点和方法差异。",
+      "dependsOn": "上一段已说明作者准入为何能改变裸体题材的观看条件，前文也已解释根特的户外色光。",
+      "newUnderstanding": "比较同时涵盖林地裸体的形式处理与不同作者进入传统的职业条件。",
+      "breaksIfMovedEarlier": "若缺少光色机制和准入背景，比较只剩题材相似。"
+    },
+    {
+      "paragraph": "D5-馆内比较第二段",
+      "function": "综合形式、馆藏位置和比较边界，给出重要藏品判断。",
+      "dependsOn": "上一段已经建立最近比较对象及决定性差异。",
+      "newUnderstanding": "作品的稳健价值是 Frye 馆内的比较节点，而非全国唯一性。",
+      "breaksIfMovedEarlier": "没有最近对象和差异，重要性会成为无依据标签。"
+    },
+    {
+      "paragraph": "D6-细节列表",
+      "function": "把核心答案拆回肩背亮边、姿态、皮肤明暗、植被和交界五处现场证据。",
+      "dependsOn": "深层已依次建立光色机制、制度背景与比较意义。",
+      "newUnderstanding": "读者能用至少四个可观察细节检验前文，而不靠抽象价值词。",
+      "breaksIfMovedEarlier": "若放在机制解释前，列表会成为没有认知推进的导览指令。"
+    },
+    {
+      "paragraph": "L1-最后再看一眼",
+      "function": "沿肩背亮边追踪至阴影和植被，回收人物、环境与职业位置。",
+      "dependsOn": "细节列表已经把亮边的起止、内部明暗和环境对比变成可执行观察。",
+      "newUnderstanding": "最初醒目的亮边被重读为组织整幅作品及其历史语境的枢纽。",
+      "breaksIfMovedEarlier": "没有前文的制度与比较铺垫，职业位置无法从这条亮暗交界自然回收。"
+    },
+    {
+      "paragraph": "B1-事实边界",
+      "function": "收窄日期、心理、光源、意图与可见状态的断言范围。",
+      "dependsOn": "正文已正面说明证据支持的画面机制和历史语境。",
+      "newUnderstanding": "读者知道哪些结论可稳定采用，哪些只能保留边界。",
+      "breaksIfMovedEarlier": "若放在正面讲述前，会让限制性语言接管正文声音。"
+    }
+  ],
+  "claimClosure": [
+    {
+      "sentence": "人物背向或侧向观者，面容没有占据构图中心。",
+      "evidenceType": "直接观察",
+      "sourceOrBasis": "馆方图像中可核对的姿态与构图位置。",
+      "confidence": "高：可靠图像可直接观察。",
+      "verdict": "保留；未升级为人物心理。"
+    },
+    {
+      "sentence": "环境的暗色让身体显现，身体上的明暗变化又把户外光感带进画面。",
+      "evidenceType": "直接观察加编辑推断",
+      "sourceOrBasis": "绿褐植被、强亮身体边缘和皮肤阴影的可见关系。",
+      "confidence": "中高：形式关系可观察，‘户外光感’是基于画面环境的收窄解释。",
+      "verdict": "保留；未指定太阳方向、时刻或实际作画现场。"
+    },
+    {
+      "sentence": "她工作的年代，女性接受人体训练、进入职业展览的机会仍受限制。",
+      "evidenceType": "历史背景",
+      "sourceOrBasis": "research-card.md及其上游资料记录的制度背景。",
+      "confidence": "中高：背景为稳定历史判断，但正文不扩大到具体学院、年份或个人遭遇。",
+      "verdict": "保留；断言范围与资料一致。"
+    },
+    {
+      "sentence": "这个背景不会自动替作品写出一份政治宣言。",
+      "evidenceType": "作者意图边界",
+      "sourceOrBasis": "资料未证明根特对本作的明确女权意图。",
+      "confidence": "高：这是对证据限度的说明。",
+      "verdict": "保留；没有反向声称作品不具任何政治含义。"
+    },
+    {
+      "sentence": "两幅画都把理想化的女性裸体放进林地；到了根特这里，户外色光和身体边缘的强亮对比更直接地推动观看。",
+      "evidenceType": "比较事实与形式判断",
+      "sourceOrBasis": "研究卡给出的最近比较对象、相同点和关键差异。",
+      "confidence": "中高：同类与可见差异明确；‘更直接’限定于本次馆内形式比较。",
+      "verdict": "保留；未扩张为普遍优劣排名。"
+    },
+    {
+      "sentence": "《太阳少女》因此是 Frye 创始收藏中的重要节点。",
+      "evidenceType": "馆藏位置与编辑判断",
+      "sourceOrBasis": "Founding Collection身份、Frye将根特列为该收藏的重要艺术家之一，以及与《林中》的馆内比较作用。",
+      "confidence": "中高：馆藏身份有直接来源，‘重要节点’由具体馆内作用支撑。",
+      "verdict": "保留为‘重要藏品’范围；未升级为稀世珍品。"
+    },
+    {
+      "sentence": "现有证据不足以把它说成全国唯一的例子。",
+      "evidenceType": "不可替代性边界",
+      "sourceOrBasis": "研究卡明确不主张全国唯一，且没有全国数量比较。",
+      "confidence": "高：与研究边界直接一致。",
+      "verdict": "保留；明确限制比较范围。"
+    },
+    {
+      "sentence": "馆方对象页将作品定为约1909，集合页采用1904—1914的范围。",
+      "evidenceType": "来源事实",
+      "sourceOrBasis": "Frye对象页与集合页两种馆方口径。",
+      "confidence": "高：两个官方页面直接支持各自口径。",
+      "verdict": "保留两种口径，不选定精确年份。"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这篇讲《太阳少女》怎样让人物转开面容，再用身体边缘的强光把人体和林地连起来；等你看懂这条亮暗交界，女性画家进入裸体训练与职业展览的限制，以及它和同馆《林中》的差别，也都有了落脚处。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "notes": "标题能口头复述；快层主语完整；深层转折来自前段认识；未发现生硬名词化、英文式压缩或需要先解码的比喻。"
+  },
+  "productionLanguageScan": {
+    "scope": [
+      "card.txt访客可见文字",
+      "draft.md标题、元数据、快层、深层、最后一眼、事实边界与资料行"
+    ],
+    "forbiddenCategoriesChecked": [
+      "内部研究缺口",
+      "图片许可任务",
+      "发布任务",
+      "测试",
+      "prompt",
+      "generator",
+      "reviewer",
+      "migration"
+    ],
+    "result": "未在访客文字中发现内部生产语言。日期口径、证据限度和易变在展状态属于访客需要的事实边界。"
+  },
+  "significanceReview": {
+    "labelReviewed": "重要藏品",
+    "artisticAchievement": "亮边、身体内部阴影与绿褐环境色构成明确、可核对的光色机制。",
+    "artHistoricalPosition": "作品属于根特约33岁、以户外女性裸体建立声誉的阶段；未称代表作、转折点或巅峰。",
+    "historicalCulturalValue": "女性获得人体训练和职业展览机会受限的背景改变题材的生产语境；未归入作者明确意图。",
+    "rarityAndIrreplaceability": "最近对象为同馆布格罗《林中》；共同价值是林地理想化女性裸体，差异是根特更依赖户外色光且作者准入语境不同。不可替代性只限馆内并置价值，全国数量未知。",
+    "collectionPosition": "Founding Collection作品；Frye把根特列为该收藏的重要艺术家之一。",
+    "nearestComparator": "威廉-阿道夫·布格罗《林中》Dans les bois，Frye Art Museum。",
+    "frye72Boundary": "正文没有使用稀世珍品、世界级、决定行程、全国唯一、必看孤品等越级表述；强烈推荐来自现场观看回报，不被偷换为馆级旅行理由。",
+    "authorAssessment": "重要藏品标签与现有证据相称，交由独立审读确认。"
+  },
+  "cardReview": {
+    "independentClickReason": true,
+    "notCopiedFromQuickLayer": true,
+    "genericViewingCommandOpening": false,
+    "visibleCharacterBoundary": "符合24—100可见字符要求；上游记录置于不可见注释。",
+    "bilingualNaming": "包含莉莲·根特 Lillian Genth · 美国与《太阳少女》Sun Maiden。"
+  },
+  "unresolvedRisks": [
+    "馆方对象页采用约1909，集合页采用1904—1914；正文已并列保留，精确创作年仍未统一。",
+    "当前在展状态会变化；正文只记录核验时状态并提示到访当日以馆方为准。",
+    "没有覆盖全国范围的同类作品数量或唯一性证据；重要性限定为馆内强比较节点。",
+    "现有材料不支持模特身份、人物心理、具体光源方向或根特对本作的明确女权意图，正文均未作这些断言。",
+    "根特处于以户外女性裸体建立声誉的阶段，但没有单件权威证据把本作定为代表作。",
+    "图片复用授权尚未取得；该事项未进入任何访客文字。"
+  ],
+  "finalAuthority": "最终结论由未参与成稿的独立审读者签发；本文件只记录作者自审与送审准备状态。"
+}

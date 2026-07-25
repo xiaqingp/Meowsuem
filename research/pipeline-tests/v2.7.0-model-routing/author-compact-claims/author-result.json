@@ -1,0 +1,66 @@
+{
+    "runId":  "m28-11-v2.7.0-author-compact-claims-2026-07-24",
+    "stage":  "author",
+    "museumId":  "met",
+    "workId":  "portrait-head-bottle-64-228-21",
+    "pipelineVersion":  "2.7.0",
+    "instructionVersion":  "2.1.0",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-07-24T22:08:19.5901287-07:00",
+    "modelStartedAt":  "2026-07-24T22:08:19.9876263-07:00",
+    "modelCompletedAt":  "2026-07-24T22:09:52.5607311-07:00",
+    "completedAt":  "2026-07-24T22:09:52.5889023-07:00",
+    "runnerDurationMs":  92999,
+    "modelDurationMs":  92573,
+    "tokenUsage":  {
+                       "total":  58261,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "6",
+                                    "8",
+                                    "9",
+                                    "10",
+                                    "12",
+                                    "13",
+                                    "14"
+                                ],
+    "logPath":  "research/pipeline-tests/v2.7.0-model-routing/author-compact-claims/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "3a7779c69152fbd48c55fdccddc2dcd6b4a71b156ac728500b6cdbf73f6e23f3"
+                   },
+                   {
+                       "path":  "research/pipeline-tests/v2.7.0-model-routing/research-standard-terra-retry-2/portrait-head-bottle-64-228-21-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "2411ea4f4745d16ae7aff4e9f9c664727248318981b3d339742d5e27deb8bb57"
+                   },
+                   {
+                       "path":  "research/pipeline-tests/v2.7.0-model-routing/author-compact-claims/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "24f286fb9a40294a182b58f79f2e69cdc289e5e727a73f5619b4abb5f6b61ff6"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "1fd54fcab24c1685022ab78839102acbb66dac035f0c0085598793581dd6a8ce",
+                        "bytes":  7074
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "7bb1aa266d7c9c52ca34d250faf6a70a761f47b852ee1a348ccecde89e4f9f6e",
+                        "bytes":  738
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "8bfb5863ed2401f24779f4424225ad88ca02d7d98bf927bf60c11683c922f2e1",
+                        "bytes":  4527
+                    }
+                ]
+}

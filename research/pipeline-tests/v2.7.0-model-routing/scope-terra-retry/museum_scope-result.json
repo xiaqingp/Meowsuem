@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-11-v2.7.0-vienna-scope-terra-retry-2026-07-24",
+    "stage":  "museum_scope",
+    "museumId":  "vienna",
+    "workId":  "",
+    "pipelineVersion":  "2.7.0",
+    "instructionVersion":  "2.1.0",
+    "model":  "gpt-5.6-terra",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-07-24T21:55:50.3799592-07:00",
+    "modelStartedAt":  "2026-07-24T21:55:50.7191216-07:00",
+    "modelCompletedAt":  "2026-07-24T21:56:40.6036728-07:00",
+    "completedAt":  "2026-07-24T21:56:40.6256477-07:00",
+    "runnerDurationMs":  50246,
+    "modelDurationMs":  49885,
+    "tokenUsage":  {
+                       "total":  22271,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "2",
+                                    "4",
+                                    "12",
+                                    "13"
+                                ],
+    "logPath":  "research/pipeline-tests/v2.7.0-model-routing/scope-terra-retry/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "9e3bea46de5fc80c0e2e8f1a91484141ef0ba33e5fbc29a0749ae2505f960fdc"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "museum-scope.json",
+                        "sha256":  "941ade7adb5780801481b8b25ee599758172b92f3473b9bffb0bf0c3ad9942d7",
+                        "bytes":  6116
+                    }
+                ]
+}

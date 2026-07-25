@@ -1,0 +1,75 @@
+{
+    "runId":  "m28-6-vienna-fresh-research-batch-01-2026-07-23",
+    "stage":  "research",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:05:20.6100110-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/generation-pipeline.md",
+                       "sha256":  "a65e9a4cb1477e4dfb00f06871483c928224dee22b69e292b84b2dcc7cdb4b24"
+                   },
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-01/candidate-packet.json",
+                       "sha256":  "cbdac61dc0b96ab1ea025db1c364c8e6e2031d9de8a76ae1a8ba5ae4285d137c"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "vienna-pg-01-tower-of-babel-research-card.md",
+                        "sha256":  "f6e4a7284b34b55a6078b4dec60b6934b4925ddb60b926f11f617fdfe0777324",
+                        "bytes":  4106
+                    },
+                    {
+                        "path":  "vienna-pg-02-hunters-in-the-snow-research-card.md",
+                        "sha256":  "87e487d47b9950eeb16d765e214583987459ae6d3206488a10b234ba885a7ab8",
+                        "bytes":  3639
+                    },
+                    {
+                        "path":  "vienna-pg-03-childrens-games-research-card.md",
+                        "sha256":  "4ef195050e4672d8e614d9525f2b2f4a7204bc124bd2ad9116bab469748a49eb",
+                        "bytes":  3774
+                    },
+                    {
+                        "path":  "vienna-pg-04-peasant-wedding-research-card.md",
+                        "sha256":  "9a1e4d45fc614a4a7dcef95f222957c6f5dea7bed3ecec4791c06ac4ab48981f",
+                        "bytes":  3560
+                    },
+                    {
+                        "path":  "vienna-pg-05-carnival-and-lent-research-card.md",
+                        "sha256":  "fe06e5b1f40ef53f01725080256793490fcb3459f496545010383ffc3c19db7b",
+                        "bytes":  3375
+                    },
+                    {
+                        "path":  "vienna-pg-06-art-of-painting-research-card.md",
+                        "sha256":  "7dd9166cd0a5808eab05192429be47ec4f5126e3bcf602486b5a24cd7f33fc40",
+                        "bytes":  3747
+                    },
+                    {
+                        "path":  "vienna-pg-07-infanta-margarita-blue-research-card.md",
+                        "sha256":  "01ccfe1a7944b92e8c08412a1b247df6c3aba9b82924582fdb77598c07a7548b",
+                        "bytes":  3633
+                    },
+                    {
+                        "path":  "vienna-pg-08-madonna-of-the-meadow-research-card.md",
+                        "sha256":  "46561072442a4b095e1b2f424eebc6832e7ca5c54098b8678033d6032b8bd2b2",
+                        "bytes":  3615
+                    },
+                    {
+                        "path":  "vienna-pg-09-madonna-of-the-rosary-research-card.md",
+                        "sha256":  "087bb3df436da5b77d2077812a5b825df718bcf7a62af44528c81fd69b793e9f",
+                        "bytes":  3622
+                    },
+                    {
+                        "path":  "vienna-pg-10-nymph-and-shepherd-research-card.md",
+                        "sha256":  "23ff2faad7f49f50ed95358e1d56f5f883d61c939bdab4b147d469387ac67244",
+                        "bytes":  3745
+                    }
+                ]
+}

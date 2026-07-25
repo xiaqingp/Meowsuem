@@ -1,0 +1,249 @@
+{
+  "workId": "double-elvis",
+  "narrativeMainline": {
+    "valueType": "conceptual_question",
+    "mainline": "沃霍尔先在1963年的面板上重复猫王影像，西雅图艺术博物馆又在1976年委托他制作一块同尺寸空白面板；左右并置后，人物的重叠出现、彻底缺席和博物馆的收藏行为都成了作品结构。",
+    "readerStartingPoint": "零背景读者从标题和作品可见两个并列竖幅：左边有两个重叠的持枪猫王形象，右边基本为空白银灰面。",
+    "storyBeats": [
+      {
+        "beat": "先从左右两板的直接反差说明核心：左板重复人物，右板不出现人物。",
+        "researchRefs": [
+          "R34",
+          "R35",
+          "R39"
+        ],
+        "newUnderstanding": "空白板不是画面之外的余地，而是1976年加入作品的组成部分。"
+      },
+      {
+        "beat": "再解释左板的影像来源、银色背景和丝网印刷，让重复与错位落到具体材料和可见痕迹上。",
+        "researchRefs": [
+          "R31",
+          "R33",
+          "R39"
+        ],
+        "newUnderstanding": "左边不是两张分别手绘的肖像；商业复制工艺让同一影像在重叠中保留偏移。"
+      },
+      {
+        "beat": "最后与MoMA双重版和SFMOMA三重版比较，划清复制主题与SAM版本独有观看回报的边界。",
+        "researchRefs": [
+          "R34",
+          "R36",
+          "R37",
+          "R38"
+        ],
+        "newUnderstanding": "其他Ferus类型作品也能解释复制与重叠，SAM版本不可替代之处是1976年委托的空白板让本馆收藏行为进入作品。"
+      }
+    ],
+    "humorBasis": "不设置幽默；左右一边人物重叠、一边人物全无的真实反差已经足够推动讲述。"
+  },
+  "mustNotAssume": [
+    "不得把宣传照来源写成已经确定；馆方只说很可能来自电影《Flaming Star》的宣传照。",
+    "不得把空白板解释成沃霍尔预知猫王于1977年去世。",
+    "不得宣称SAM版本全球唯一、同类最佳或属于稀世珍品。",
+    "不得把人物持枪的姿态升级成猫王的心理、性格或真实冲突。",
+    "不得把1963年影像板与1976年空白板写成一次同时完成。",
+    "不得把馆方列为ongoing的展览状态写成当天一定在原位。"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "宣传照来源",
+      "evidenceType": "来源事实",
+      "researchRefs": [
+        "R33"
+      ],
+      "allowedWording": "馆方认为影像很可能来自电影《Flaming Star》（1960）的宣传照。",
+      "forbiddenUpgrade": "确定来自该电影，或宣称沃霍尔亲自说明了来源。"
+    },
+    {
+      "claim": "空白板表达缺席与失落",
+      "evidenceType": "馆方解释",
+      "researchRefs": [
+        "R35"
+      ],
+      "allowedWording": "馆方将这类名人肖像与空白屏幕的配对解释为强调缺席与失落。",
+      "forbiddenUpgrade": "沃霍尔预言猫王去世，或这就是作者唯一、明确的意图。"
+    },
+    {
+      "claim": "两个面板的制作先后",
+      "evidenceType": "来源事实",
+      "researchRefs": [
+        "R31",
+        "R34"
+      ],
+      "allowedWording": "影像面板作于1963年；SAM购入后，于1976年委托沃霍尔制作空白面板。",
+      "forbiddenUpgrade": "把两板写成1963年一次完成，或把观看顺序当作虚构故事的时间顺序。"
+    },
+    {
+      "claim": "SAM版本的不可替代性",
+      "evidenceType": "跨来源比较",
+      "researchRefs": [
+        "R34",
+        "R36",
+        "R37",
+        "R38"
+      ],
+      "allowedWording": "MoMA和SFMOMA的相关版本可解释复制与重叠；SAM版本独有的观看回报是1976年委托的空白板直接记录本馆收藏行为。",
+      "forbiddenUpgrade": "全球唯一、最高等级、最重要或没有任何相似版本。"
+    },
+    {
+      "claim": "人物姿态",
+      "evidenceType": "直接观察",
+      "researchRefs": [
+        "R39"
+      ],
+      "allowedWording": "人物双腿分开，手臂向前持枪。",
+      "forbiddenUpgrade": "据姿态断言人物愤怒、紧张、威胁观众或具有其他心理。"
+    },
+    {
+      "claim": "当前展出状态",
+      "evidenceType": "来源事实与易变信息",
+      "researchRefs": [
+        "R32"
+      ],
+      "allowedWording": "截至2026-07-24，馆方仍将作品列入持续展览；当天位置仍需核验。",
+      "forbiddenUpgrade": "保证当天展出或保证仍在原展厅。"
+    }
+  ],
+  "displayMetadata": {
+    "by": "安迪·沃霍尔（Andy Warhol）",
+    "date": "1963／1976（两个面板分别制作）",
+    "material": "丝网印墨与合成聚合物颜料，画布",
+    "place": "Seattle Art Museum，馆藏号 76.9",
+    "priority": "绝对不可错过",
+    "significance": "重要藏品",
+    "stay": "8—12 分钟",
+    "availability": "collection_rotation",
+    "imagePolicy": "object_image"
+  },
+  "claimLedger": [
+    {
+      "id": "C01",
+      "claim": "作品由两个同尺寸竖幅面板并列组成；左板有两个重叠的黑色全身猫王枪手形象，右板基本为空白银灰面。",
+      "evidenceType": "直接观察",
+      "researchRefs": [
+        "R39"
+      ],
+      "usedIn": [
+        "card",
+        "30秒先懂",
+        "深层第一节",
+        "最后再看一眼"
+      ]
+    },
+    {
+      "id": "C02",
+      "claim": "左板人物双腿分开、手臂向前持枪，银灰底可见丝网印刷的错位与重影。",
+      "evidenceType": "直接观察",
+      "researchRefs": [
+        "R39"
+      ],
+      "usedIn": [
+        "深层第二节",
+        "最后再看一眼"
+      ]
+    },
+    {
+      "id": "C03",
+      "claim": "影像面板作于1963年；SAM在1976年从Stephen Mazoh购入后，委托沃霍尔制作同尺寸空白面板。",
+      "evidenceType": "来源事实",
+      "researchRefs": [
+        "R31",
+        "R34"
+      ],
+      "usedIn": [
+        "card",
+        "30秒先懂",
+        "深层第一节",
+        "趣闻"
+      ]
+    },
+    {
+      "id": "C04",
+      "claim": "馆方认为猫王影像很可能来自电影《Flaming Star》（1960）的宣传照，并把银色背景与电影银幕联系起来。",
+      "evidenceType": "来源事实",
+      "researchRefs": [
+        "R33"
+      ],
+      "usedIn": [
+        "深层第二节",
+        "事实边界"
+      ]
+    },
+    {
+      "id": "C05",
+      "claim": "作品使用来自商业复制工艺的丝网印刷，重复影像仍可出现套印错位，不是两张手绘肖像。",
+      "evidenceType": "来源事实与直接观察",
+      "researchRefs": [
+        "R31",
+        "R39"
+      ],
+      "usedIn": [
+        "深层第二节"
+      ]
+    },
+    {
+      "id": "C06",
+      "claim": "馆方将沃霍尔把名人肖像与空白屏幕配对的做法解释为强调缺席与失落。",
+      "evidenceType": "馆方解释",
+      "researchRefs": [
+        "R35"
+      ],
+      "usedIn": [
+        "深层第一节",
+        "事实边界"
+      ]
+    },
+    {
+      "id": "C07",
+      "claim": "MoMA的《Double Elvis》来自1963年Ferus Gallery首展的23张Elvis画布之一，这批作品是沃霍尔首批采用多个重叠人物的画布。",
+      "evidenceType": "来源事实",
+      "researchRefs": [
+        "R36"
+      ],
+      "usedIn": [
+        "深层第三节"
+      ]
+    },
+    {
+      "id": "C08",
+      "claim": "SFMOMA的《Triple Elvis [Ferus type]》确认同一可比家族还有三重人物版本。",
+      "evidenceType": "来源事实",
+      "researchRefs": [
+        "R37"
+      ],
+      "usedIn": [
+        "深层第三节"
+      ]
+    },
+    {
+      "id": "C09",
+      "claim": "MoMA双重版与SAM作品共享1963年猫王枪手、银底、重复及Ferus系列语境；SAM版本的决定性差异是1976年受委托加入空白面板。",
+      "evidenceType": "跨来源比较",
+      "researchRefs": [
+        "R34",
+        "R36",
+        "R38"
+      ],
+      "usedIn": [
+        "card",
+        "深层第三节"
+      ]
+    },
+    {
+      "id": "C10",
+      "claim": "其他Ferus类型作品可解释复制与重叠，但不能替代SAM版本中由1976年委托直接记录的收藏行为；这不证明SAM版本全球唯一或最高等级。",
+      "evidenceType": "编辑整理与比较结论",
+      "researchRefs": [
+        "R34",
+        "R36",
+        "R37",
+        "R38"
+      ],
+      "usedIn": [
+        "card",
+        "深层第三节",
+        "事实边界"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "workId": "muxin-c05",
+  "readerStartingPoint": "读者只知道这是一部题名为《伪所罗门书》的木心手写诗稿；没有可靠对象图可供辨认具体划线、墨色、页码或每页行数。",
+  "narrativeMainline": {
+    "valueType": "formal_achievement",
+    "mainline": "木心以二十七行作为这组诗的重要形式基准，却没有让全书机械地服从同一数字：多篇超出基准，末篇尤其长。稿本的反复修改记录又让读者看到，严格的成品结构背后存在持续加工，但现有证据不能证明这些修改就是为了凑足行数。",
+    "storyBeats": [
+      {
+        "beat": "先说明二十七行是重要基准而非全书无例外的硬规则。",
+        "evidence": [
+          "author-input-research.md#来源事实与局部因果",
+          "author-input-supplement.md#最近比较与断言边界"
+        ],
+        "readerGain": "读者理解本作的形式价值来自规则与例外并存，而不是整齐数字本身。"
+      },
+      {
+        "beat": "再把馆方所列整部具名稿本与高校记录的反复修改放在一起，说明稿本让成品之前的加工过程进入观看。",
+        "evidence": [
+          "author-input-research.md#对象身份",
+          "author-input-supplement.md#对象身份与组界",
+          "author-input-supplement.md#稳定收藏与展示状态"
+        ],
+        "readerGain": "读者明白为什么要看手稿，而不只读出版诗集。"
+      },
+      {
+        "beat": "以《诗经演》的十四行结构作最近比较，并明确本稿尚未证明手稿层面的决定性差异。",
+        "evidence": [
+          "author-input-research.md#比较与不可替代性",
+          "work-selection.json#nearestComparator"
+        ],
+        "readerGain": "读者把本作定位为重要藏品，同时知道它没有通过不可替代性硬门。"
+      }
+    ]
+  },
+  "mustNotAssume": [
+    "馆藏稿本包含出版集中全部诗篇。",
+    "每首诗都恰好二十七行。",
+    "稿面修改是为了把诗压进二十七行。",
+    "修改痕迹能够证明改动先后、作者心理或明确意图。",
+    "馆舍占位图展示了作品本身。",
+    "本稿当前持续在展。"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "二十七行是本书全部诗篇无例外的固定格式。",
+      "evidenceType": "来源事实与反例",
+      "allowedWording": "二十七行是重要的基准结构；可靠评论同时记载多篇超出这一基准。",
+      "forbiddenUpgrade": "每首均为二十七行；全书统一二十七行。"
+    },
+    {
+      "claim": "反复修改都是为了满足行数规则。",
+      "evidenceType": "来源只分别支持修改痕迹与形式基准",
+      "allowedWording": "展柜记录可见反复修改；现有证据不能确定修改是否围绕行数发生。",
+      "forbiddenUpgrade": "木心为了凑足二十七行反复删改。"
+    },
+    {
+      "claim": "稿面能够还原作者的修改次序或心理。",
+      "evidenceType": "未确定边界",
+      "allowedWording": "稿面留下反复修改的记录。",
+      "forbiddenUpgrade": "据此排列修改先后，或推断作者犹豫、挣扎等心理。"
+    },
+    {
+      "claim": "本稿具有全球不可替代性。",
+      "evidenceType": "比较证据",
+      "allowedWording": "这是馆方列出的最完整稿本之一，也是重要藏品；《诗经演》仍能解释相近的固定诗形问题。",
+      "forbiddenUpgrade": "稀世珍品、唯一、不可替代。"
+    },
+    {
+      "claim": "本稿当前正在持续展出。",
+      "evidenceType": "馆藏与近期展示记录",
+      "allowedWording": "纳入文学馆展示体系，采用馆藏轮换标签；是否当日展出需现场核验。",
+      "forbiddenUpgrade": "常年在展、当前必见。"
+    }
+  ],
+  "displayMetadata": {
+    "titleZh": "《伪所罗门书》手稿本",
+    "titleEn": "In the Name of Solomon",
+    "by": "木心 Mu Xin · 地区待核",
+    "date": "晚年稿本，准确日期待核",
+    "material": "纸本墨迹；纸张与书写工具待核",
+    "place": "木心美术馆文学馆 · 馆藏轮换，当前展出待核",
+    "priority": "强烈推荐",
+    "significance": "重要藏品",
+    "stay": "建议停留 8 分钟",
+    "availability": "collection_rotation",
+    "imagePolicy": "museum_hero_placeholder"
+  },
+  "claimLedger": [
+    {
+      "id": "C01",
+      "claim": "馆方把《伪所罗门书》整部具名稿本列为文学馆最完整稿本之一。",
+      "source": "author-input-supplement.md#对象身份与组界"
+    },
+    {
+      "id": "C02",
+      "claim": "出版评论援引资料称二十七行是重要基准，并与木心生年相应。",
+      "source": "author-input-research.md#来源事实与局部因果"
+    },
+    {
+      "id": "C03",
+      "claim": "可靠评论称多数诗接近三十行、七首超过三十行、末篇六十三行。",
+      "source": "author-input-supplement.md#最近比较与断言边界"
+    },
+    {
+      "id": "C04",
+      "claim": "2025年高校考察记录称展柜中的本稿为手写稿，并可见反复修改。",
+      "source": "author-input-supplement.md#稳定收藏与展示状态；author-input-supplement.md#对象图像与四项直接观察"
+    },
+    {
+      "id": "C05",
+      "claim": "《诗经演》是最近比较对象，以十四行为统一结构；二者均为馆方所列完整稿本。",
+      "source": "author-input-research.md#比较与不可替代性"
+    },
+    {
+      "id": "C06",
+      "claim": "没有图像证明修改围绕行数发生，也没有手稿层决定性差异足以排除《诗经演》作为可替代比较对象。",
+      "source": "author-input-supplement.md#最近比较与断言边界"
+    },
+    {
+      "id": "C07",
+      "claim": "本稿纳入文学馆展示体系，但采用馆藏轮换状态，当前是否展出需核验。",
+      "source": "author-input-supplement.md#稳定收藏与展示状态；work-selection.json#availability"
+    },
+    {
+      "id": "C08",
+      "claim": "未取得可靠对象图，页面使用馆舍占位图，不把占位图作为作品证据。",
+      "source": "author-input-research.md#来源；work-selection.json#imagePolicy"
+    },
+    {
+      "id": "C09",
+      "claim": "出版方称本作是木心看重的代表作之一，并转述作者将其视为个人成长史。",
+      "source": "author-input-research.md#来源事实与局部因果"
+    }
+  ]
+}

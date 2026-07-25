@@ -1,0 +1,159 @@
+{
+  "artifact": "writing_plan",
+  "createdAt": "2026-07-22T11:13:12.0970895-07:00",
+  "runId": "m28-v2.0.3-full-2026-07-22",
+  "workId": "hunters-in-the-snow",
+  "pipelineVersion": "2.0.3",
+  "instructionVersion": "1.6.7",
+  "publication": "test_only_no_production_write",
+  "directUpstream": {
+    "path": "research-card.md",
+    "sha256": "08905fe3fa5c075ccbe93e2d26ab312af816c252876c7fc912a9bcd26a63fd25"
+  },
+  "readerStartingPoint": {
+    "actuallyVisible": "读者从标题和画面能看到左侧猎人与狗群下坡，右下方有村庄和冰面，大部分画幅属于灰绿、蓝灰与脏白的冬景。",
+    "likelyToMiss": "标题把注意力拉向猎人，但人物只占左侧近景一角；远处活动、地形和整体色调共同决定作品。",
+    "notAssumed": [
+      "读者认为猎人是英雄",
+      "读者认为村庄是真实地点",
+      "读者只会看人物故事",
+      "读者已经了解中世纪月份图或六季组画"
+    ]
+  },
+  "coreQuestion": "为什么画名叫《雪中猎人》，真正控制全画的却是冬天？",
+  "quickLayerPromise": {
+    "visibleTension": "近景猎人与狗群清楚可辨，却被陡坡、村庄、冰面、天空和远山包在更大的冬季环境里。",
+    "provisionalAnswer": "猎人提供进入画面的路线；近景归猎、远处冰面活动和贯穿三个距离的冷色共同说明，真正把所有人组织起来的是冬季本身。",
+    "viewingRoute": [
+      "左侧猎人、狗群与长矛上的狐狸",
+      "斜坡通向右下方村庄与冰面小人物",
+      "从近景雪地到天空远山持续出现的灰绿、蓝灰、脏白和黑色"
+    ]
+  },
+  "cardSummaryPlan": {
+    "purpose": "独立回答为什么值得点开，不摘录快层，也不使用导览命令开场。",
+    "angle": "强调标题人物与整体冬景之间的尺度反差，以及作品把风景推到主角位置的艺术史回报。",
+    "targetVisibleCharacters": "24-100"
+  },
+  "cognitiveChain": [
+    {
+      "step": 1,
+      "discovery": "近景队伍只带回一只狐狸，但正文只描述可见收获与下坡动作，不替人物和狗判断情绪。",
+      "changesUnderstanding": "标题中的猎人从唯一主角变成观察全画尺度关系的近景入口。",
+      "thereforeNext": "如果猎人只是入口，画面把他们带向了怎样的更大世界？"
+    },
+    {
+      "step": 2,
+      "discovery": "斜坡把近景打开成村庄和冰面；远处小人物仍在滑冰和活动，同一画面容纳多种冬季生活。",
+      "changesUnderstanding": "作品的中心不再是一支队伍的单线故事，而是不同距离上的人都被同一季节包围。",
+      "thereforeNext": "这些分散活动为什么没有把画面拆成一堆小故事？"
+    },
+    {
+      "step": 3,
+      "discovery": "灰绿、蓝灰、脏白与黑色从近景延续到冰面、天空和远山，左侧小火焰只是少量暖色。",
+      "changesUnderstanding": "统一画面的力量来自整体色调、地形和寒冷效果；冬天成为所有人物共同处境。",
+      "thereforeNext": "把季节画得比月份活动更有统摄力，在当时改变了什么传统？"
+    },
+    {
+      "step": 4,
+      "discovery": "月份图传统用每月劳动和娱乐组织一年；勃鲁盖尔保留活动，却在六季组画中把风景气氛和自然变化提高到同等甚至更重要的位置。",
+      "changesUnderstanding": "近景归猎与远处娱乐不是可交换的风俗细节，而是证明风景已经能够主导季节叙事的两端。",
+      "thereforeNext": "同组作品也能组织季节，本作为何仍有不可替代的观看价值？"
+    },
+    {
+      "step": 5,
+      "discovery": "现存四幅兄弟作品可替代部分季节组织方法，不能替代本作作为冬季节点，以高视点、大幅冬景和持续冷色制造整体寒冷的具体成就；KHM 还能同场展示其中三幅。",
+      "changesUnderstanding": "本作的珍贵不只在名气、尺寸或物理唯一，而在它让月份活动退入一片完整冬景，并可在原系列比较中被核对。",
+      "thereforeNext": "最后回到三个距离，检验人物是否仍只是局部，而冬景是否持续控制整体。"
+    }
+  ],
+  "historicalContextPlan": {
+    "required": true,
+    "beforeState": "中世纪月份图像通常以每月劳动和娱乐组织一年；人物活动是识别月份的重要方式。",
+    "changeOrConflict": "勃鲁盖尔沿用季节、劳动和娱乐，却让山坡、冰面、天空、色调与自然变化取得和人物同等甚至更重要的位置。",
+    "objectRole": "《雪中猎人》作为原六季组画的冬季节点，用近景归猎、远处冰面活动和整体寒冷把传统改造成由风景统摄的季节经验。",
+    "consequence": "季节不再只由某项月份活动指认，整片景观也能成为画面主角；KHM 因而把组画置于欧洲风景画的开创性位置。",
+    "uncertainty": "开创性与‘第一幅、最突出’属于 KHM 的判断；正文不得扩张成无争议的全球定论。委托地点以‘可能陈列于乡间住宅餐厅’表述。",
+    "placement": {
+      "quickLayer": "用一句话指出猎人只是进入冬景的路线，近景、冰面和整体色调共同让冬天成为主角。",
+      "deepLayer": "在前三步建立整体寒冷后展开月份图传统、六季组画和风景角色变化，再进入同组比较。"
+    }
+  },
+  "deepLayerPlan": {
+    "paragraphCount": 5,
+    "progression": [
+      "从有限收获和下坡动作建立近景入口，不判断心理",
+      "沿斜坡扩大到村庄与冰面，建立多距离的冬季生活",
+      "用冷色、高视点和小火焰解释整体寒冷如何统一细节",
+      "从眼前结构转入月份图与六季组画，解释风景为何取得主角位置",
+      "用现存组画比较和 KHM 馆藏位置完成重要性判断，并收回核心问题"
+    ],
+    "minimumOnSiteDetails": 6,
+    "negationTurnLimit": 1
+  },
+  "finalLook": {
+    "action": "从左侧猎人沿斜坡看到冰面，再抬回天空和远山。",
+    "changedSecondLook": "核对人的活动是否始终只是局部，以及同一组冷色是否在近、中、远三个距离持续把冬季压在整幅画上。"
+  },
+  "humorBasis": null,
+  "mustNotAssume": [
+    "猎人与狗失望、沮丧、饥饿或羞愧",
+    "长矛上的一只狐狸能证明一场狩猎在账目意义上失败",
+    "远处滑冰者比近景队伍更快乐",
+    "从近景到远景的观看顺序等于事件发生顺序",
+    "画中村庄可定位或是一次实地写生",
+    "社会阶级批判、气候史或宗教寓意是画家已确认意图",
+    "现存五幅组画全部位于维也纳",
+    "名气、巨幅或物理唯一足以证明稀世珍品"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "猎人和狗的情绪",
+      "evidenceType": "姿态与来源描述不足以证明心理",
+      "allowedWording": "描述下坡、低头、瘦长身体和一只狐狸；如引用疲惫须归于资料来源",
+      "forbiddenUpgrade": "失望、沮丧、饥饿、羞愧或快乐"
+    },
+    {
+      "claim": "狩猎失败",
+      "evidenceType": "直接观察加编辑推断",
+      "allowedWording": "长矛上只挂着一只狐狸；收获在画面上显得有限",
+      "forbiddenUpgrade": "把失败写成已证实的历史记录"
+    },
+    {
+      "claim": "空间层次代表历史先后",
+      "evidenceType": "观看顺序",
+      "allowedWording": "画面同时安排近景归猎与远处活动",
+      "forbiddenUpgrade": "声称各场景依次发生"
+    },
+    {
+      "claim": "真实地点",
+      "evidenceType": "来源事实",
+      "allowedWording": "组合、发明的景观；山脉联系阿尔卑斯经验",
+      "forbiddenUpgrade": "定位为真实尼德兰村庄或一次写生"
+    },
+    {
+      "claim": "欧洲第一幅和最突出的冬季风景画",
+      "evidenceType": "KHM 馆方判断",
+      "allowedWording": "KHM 将它称为……",
+      "forbiddenUpgrade": "无归属、无范围地写成全球共识"
+    },
+    {
+      "claim": "稀世珍品与不可替代性",
+      "evidenceType": "同组比较、馆方艺术史判断和编辑评价",
+      "allowedWording": "写清兄弟作品可替代的价值、本作冬季节点的差异及数量边界",
+      "forbiddenUpgrade": "用作者名气、尺寸、馆方精选或物理唯一自动升级"
+    }
+  ],
+  "factBoundaryPlan": [
+    "在正文中直接限定 KHM 的最高级判断，不留到事实边界补救。",
+    "明确风景为组合创造，现场展出状态以馆方为准。",
+    "区分画面可见的有限收获与未经证实的‘狩猎失败’。",
+    "说明六幅现存五幅、维也纳藏其中三幅。"
+  ],
+  "sourceLinks": [
+    "https://www.khm.at/en/artworks/hunters-in-the-snow-winter-327",
+    "https://www.khm.at/en/exhibitions/picture-gallery/the-best-of-bruegel-only-in-vienna",
+    "https://zeitendernatur.khm.at/en/chapter-ii-the-seasons-a-la-bruegel/",
+    "https://www.khm.at/en/museum/press/arcimboldo-bassano-bruegel?cHash=a74f594756b98e3eb4fbc880f412881b&tx_theme_downloads%5Baction%5D=download&tx_theme_downloads%5Bcontroller%5D=Download&tx_theme_downloads%5Bitem%5D=496"
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "schemaVersion": "museum-scope/1.0",
+  "run": {
+    "runId": "m28-4-muxin-scope-2026-07-23",
+    "stage": "museum_scope",
+    "researchMode": "fresh",
+    "startedAt": "2026-07-23T22:00:00-07:00",
+    "researchedAt": "2026-07-23",
+    "timezone": "America/Los_Angeles",
+    "pipelineVersion": "2.4.3",
+    "instructionVersion": "2.0.1",
+    "executionProfile": {
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "medium"
+    },
+    "publicationBoundary": "whole_museum_candidate_no_production_write"
+  },
+  "museum": {
+    "museumId": "muxin",
+    "nameZh": "木心美术馆",
+    "nameEn": "Mu Xin Art Museum",
+    "city": "乌镇",
+    "administrativeLocation": "浙江省嘉兴市桐乡市乌镇",
+    "country": "中国",
+    "institutionType": "以木心的绘画、文学与生平文献为核心的单一艺术家美术馆",
+    "opened": "2015-11-15",
+    "openedConfidence": "high"
+  },
+  "siteBoundary": {
+    "canonicalVenue": {
+      "nameZh": "木心美术馆西栅馆舍",
+      "nameEn": "Mu Xin Art Museum, Wuzhen Xizha",
+      "location": "乌镇西栅景区内，元宝湖畔，毗邻乌镇大剧院",
+      "accessContext": "进入美术馆须先具备西栅景区入园资格；美术馆展览另行售票。",
+      "singleBuildingScope": true
+    },
+    "included": [
+      "木心美术馆西栅馆舍内的常设展厅、特展厅、影像与文献展示空间",
+      "由美术馆建筑、元宝湖水面、桥、光线与内部动线共同形成的现场空间关系",
+      "馆方收藏或长期保管、用于解释木心艺术与文学实践的原作、手稿、文献、遗物与影像材料"
+    ],
+    "excluded": [
+      {
+        "name": "木心故居纪念馆",
+        "location": "乌镇东栅景区内财神湾186号晚晴小筑",
+        "reason": "这是另一个馆址，开放制度、门票与展品性质均独立；不得与西栅木心美术馆合并为单馆范围。"
+      },
+      {
+        "name": "木心旧居及乌镇其他木心相关地点",
+        "reason": "可作为背景或跨馆址提醒，但不属于本次20件候选容量。"
+      },
+      {
+        "name": "西栅景区其他景点与乌镇大剧院",
+        "reason": "它们只用于解释抵达、邻接和空间边界，不属于木心美术馆馆藏。"
+      },
+      {
+        "name": "礼品店商品、无明确馆藏身份的陈设与商业复制品",
+        "reason": "不构成馆藏候选。"
+      }
+    ],
+    "boundaryConfidence": "high"
+  },
+  "collectionScope": {
+    "stableCore": [
+      {
+        "category": "木心绘画",
+        "eligibleForCandidatePool": true,
+        "notes": "优先纳入有馆方身份页、可靠图像和可核验创作背景的原作。"
+      },
+      {
+        "category": "木心文学手稿与相关文献",
+        "eligibleForCandidatePool": true,
+        "notes": "以单件手稿、明确成组文献或能解释其文学实践的档案单位为候选，不按页数机械拆分。"
+      },
+      {
+        "category": "狱中笔记及相关材料",
+        "eligibleForCandidatePool": true,
+        "notes": "先核实原件、复制件或重制展示的身份；同一文献组不得拆成多条独立珍品线。"
+      },
+      {
+        "category": "生平影像、书籍与个人文献",
+        "eligibleForCandidatePool": "conditional",
+        "notes": "只有在对象身份清楚且能提供不可由绘画或手稿替代的理解时进入候选池。"
+      },
+      {
+        "category": "美术馆建筑与水上空间",
+        "eligibleForCandidatePool": true,
+        "notes": "可作为一个整体对象研究，不把外观、桥、楼梯、展厅和水面拆成多个候选重复计数。"
+      }
+    ],
+    "rotatingPrograms": {
+      "category": "与木心思想、文学或艺术关系有关的年度特展",
+      "eligibleForBaseRating": false,
+      "eligibleForPermanentSelection": false,
+      "notes": "临展只记录为核验日现场信息，不进入博物馆基础评分或永久20件选品。长期借展若后续发现，须另行核实稳定性与归属。"
+    },
+    "identityControls": [
+      "原作、手稿原件、复制件、影像复制与展陈重制必须分别标明。",
+      "馆藏、借展、合作机构藏品与仅在临展期间出现的对象必须分别标明。",
+      "木心同一作品组、同一狱中文献组或同一建筑整体不得因页数、展柜或空间分段被重复计为独立收藏高峰。"
+    ],
+    "scopeConfidence": "medium-high"
+  },
+  "architectureAndInstitution": {
+    "architects": [
+      "Hiroshi Okamoto",
+      "林兵 Bing Lin"
+    ],
+    "practice": "OLI Architecture PLLC",
+    "designAndConstructionPeriod": "2011-2015",
+    "scopeRole": "建筑是馆级研究对象，并可作为20件候选中的一个整体对象；它不能在后续评分中既作为核心作品又作为普通参观体验重复加分。",
+    "evidenceBoundary": "建筑事务所资料可支持设计者、项目期与建筑关系；关于建筑如何体现木心思想的解释仍须在后续研究阶段逐条取证。"
+  },
+  "capacity": {
+    "candidate": 20,
+    "lockedForNextStage": 20,
+    "rationale": "本馆为收藏边界集中的单一艺术家美术馆。20件足以覆盖绘画、文学手稿、狱中文献、影像/生平材料与建筑整体；本阶段未发现必须扩至30件才能解释的第二个独立高密度收藏体系。",
+    "expansionRule": "只有后续研究证明第21至30件各自补上不可由核心20件替代的本馆问题，才可在上游重新确认容量；不得因手稿页数、临展借件或作者名气机械扩容。"
+  },
+  "volatileInformation": {
+    "verifiedForDate": "2026-07-23",
+    "operatingStatus": {
+      "value": "有一项标注2026年4月25日至8月23日的年度特展正在馆内举行，足以表明1月短期施工闭馆后馆舍已恢复接待；未找到2026年7月23日当天的独立开馆公告。",
+      "confidence": "medium",
+      "dayOfVisitVerificationRequired": true
+    },
+    "hours": {
+      "summer": "09:00-17:30",
+      "winter": "09:00-17:00",
+      "lastTicket": "闭馆前30分钟",
+      "regularClosure": "周一闭馆；法定节假日逢周一正常开放",
+      "confidence": "medium",
+      "dayOfVisitVerificationRequired": true
+    },
+    "tickets": {
+      "museumPermanentOnly": "正价20元，优惠10元",
+      "museumPermanentAndSpecial": "正价30元，优惠20元",
+      "xizhaAdmissionAlsoRequired": true,
+      "confidence": "medium",
+      "dayOfVisitVerificationRequired": true
+    },
+    "currentSpecialExhibition": {
+      "titleZh": "陀思妥耶夫斯基：人是一个谜",
+      "dates": "2026-04-25/2026-08-23",
+      "location": "地下一层特展厅1、2、3",
+      "baseScopeTreatment": "记录但不进入基础评分或永久选品",
+      "confidence": "medium-high"
+    },
+    "knownTemporaryClosure": {
+      "dates": "2026-01-25/2026-01-30",
+      "reason": "展厅施工改造",
+      "statusAtResearchDate": "已过期；后续特展信息显示馆舍已重新开放。",
+      "confidence": "high"
+    },
+    "officialContact": {
+      "telephone": "0573-8873 1822",
+      "email": "infos@muxinam.com",
+      "officialWebsite": "https://www.muxinam.com/",
+      "websiteFetchStatus": "本次研究中官网抓取超时；临行前应通过官网、官方微信公众号或电话复核。"
+    }
+  },
+  "nextStageResearchPriorities": [
+    "建立永久馆藏对象清单，逐件核实题名、年代、材质、馆藏或借展身份、当前可见状态和可靠图像。",
+    "确认狱中笔记及相关展示中哪些是原件、复制件或重制材料，并以作品组为单位界定候选。",
+    "为木心绘画寻找馆方对象页、学术展览目录、耶鲁大学美术馆等权威收藏或研究资料中的比较证据。",
+    "将建筑作为单一整体对象研究，记录可观察空间证据，并从OLI Architecture的一手项目资料核实设计机制。",
+    "永久选品与馆级评分不得使用2026年度陀思妥耶夫斯基特展借件作为基础收藏证据。"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "木心美术馆2026年度特展“陀思妥耶夫斯基：人是一个谜”",
+      "publisher": "木心美术馆内容转载于凤凰网",
+      "url": "https://h5.ifeng.com/c/vivoArticle/v002I787D5VONqME6y1eVcbRFfzMqwLkftSs0yAPGnLB5qM__?isNews=1&showComments=0",
+      "accessed": "2026-07-23",
+      "supports": [
+        "当前特展日期、地点与合作机构",
+        "夏冬开放时间、周一闭馆规则",
+        "票价、西栅入园前提与联系方式",
+        "东栅木心故居纪念馆的独立馆址与制度"
+      ],
+      "sourceStrength": "medium-high"
+    },
+    {
+      "id": "S2",
+      "title": "木心美术馆临时闭馆",
+      "publisher": "乌镇旅游官方微博转载于新浪",
+      "url": "https://www.sina.cn/news/detail/5258613639874173.html",
+      "accessed": "2026-07-23",
+      "supports": [
+        "2026年1月25日至30日第一阶段施工闭馆",
+        "闭馆期间东栅木心故居纪念馆与西栅礼品店仍开放",
+        "两个木心相关馆址并非同一参观单元"
+      ],
+      "sourceStrength": "high"
+    },
+    {
+      "id": "S3",
+      "title": "Mu Xin Art Museum’s New Year Greeting",
+      "publisher": "OLI Architecture",
+      "url": "https://oliarch.com/press/national-academy-of-design-richard-serra-memoriam-3-3-3-3/",
+      "accessed": "2026-07-23",
+      "supports": [
+        "美术馆2015至2025年的特展项目线",
+        "机构在2025年十周年时仍持续运营",
+        "特展与木心相关文学、艺术人物形成独立于常设收藏的项目线"
+      ],
+      "sourceStrength": "high"
+    },
+    {
+      "id": "S4",
+      "title": "OLI Architecture — Studio and Work",
+      "publisher": "OLI Architecture",
+      "url": "https://oliarch.com/studio/",
+      "accessed": "2026-07-23",
+      "supports": [
+        "Hiroshi Okamoto与林兵及OLI Architecture的项目角色",
+        "木心美术馆项目期为2011至2015年"
+      ],
+      "sourceStrength": "high"
+    },
+    {
+      "id": "S5",
+      "title": "出行锦囊：乌镇西栅历史街区游览规则须知",
+      "publisher": "乌镇旅游官方网站",
+      "url": "https://www.wuzhen.com.cn/web/traver/prompt",
+      "accessed": "2026-07-23",
+      "supports": [
+        "西栅门票不自动包含木心美术馆",
+        "西栅景区与美术馆票务边界"
+      ],
+      "sourceStrength": "high"
+    },
+    {
+      "id": "S6",
+      "title": "Mu Xin Art Museum Grand Opening Showcases ‘Prison Notes’ and Intricate Landscapes",
+      "publisher": "Artnet News",
+      "url": "https://news.artnet.com/art-world/mu-xin-art-museum-opening-366692",
+      "accessed": "2026-07-23",
+      "supports": [
+        "2015年11月15日开馆",
+        "开馆时常设展示包含木心绘画与狱中笔记",
+        "部分展示曾受批准与可见状态影响，后续需逐件核验"
+      ],
+      "sourceStrength": "medium"
+    },
+    {
+      "id": "S7",
+      "title": "Mu Xin Museum",
+      "publisher": "Institute for Public Art",
+      "url": "https://www.instituteforpublicart.org/case-studies/mu-xin-museum/",
+      "accessed": "2026-07-23",
+      "supports": [
+        "馆舍位于乌镇西栅北侧元宝湖上并邻近乌镇大剧院",
+        "建筑与水、街道及公共空间的关系"
+      ],
+      "sourceStrength": "medium"
+    },
+    {
+      "id": "S8",
+      "title": "乌镇大剧院",
+      "publisher": "乌镇旅游官方网站",
+      "url": "https://www.wuzhen.com.cn/web/food/leDetails?id=70",
+      "accessed": "2026-07-23",
+      "supports": [
+        "乌镇大剧院位于元宝湖畔并与木心美术馆相邻",
+        "西栅入口区域的地理边界"
+      ],
+      "sourceStrength": "high"
+    }
+  ],
+  "researchStop": {
+    "searchBatches": 4,
+    "stopped": true,
+    "conditionsMet": [
+      "稳定身份与单馆馆址边界已由多源确认。",
+      "与东栅木心故居纪念馆的排除关系已确认。",
+      "常设收藏、建筑整体与轮换特展的范围差异已确认。",
+      "20件容量已有与馆藏结构相符的保守锁定。",
+      "当前特展、基本开放制度、票务边界和已知施工闭馆已有日期化证据。",
+      "剩余缺口属于临行前必须由馆方复核的易变运营信息，继续搜索只会增加低质量转载而不会改变本阶段边界。"
+    ],
+    "unresolvedButNonBlocking": [
+      "官网在本次抓取中超时，无法取得2026年7月23日当天页面快照。",
+      "未找到单独的施工后重新开馆公告；恢复接待由2026年4月至8月的在馆特展及其参观信息交叉推定。",
+      "永久馆藏逐件身份、原件与复制件边界、当前展出状态留待museum_research阶段核验。"
+    ]
+  },
+  "stageDecision": {
+    "status": "scoped",
+    "mayAdvanceToMuseumResearch": true,
+    "museumSelectionPerformed": false,
+    "ratingPerformed": false,
+    "structureOrRoutesWritten": false,
+    "productionWritePerformed": false
+  }
+}

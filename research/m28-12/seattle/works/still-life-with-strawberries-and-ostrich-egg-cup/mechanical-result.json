@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.7.2",
+  "runId": "m28-12-v2.7.2-seattle-author-still-life-with-strawberries-and-ostrich-egg-cup-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-25T06:24:44.580Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_availability_from_locked_work_context",
+    "derived_imagePolicy_from_locked_work_context"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "7d8b53fa4f0949093634e87fad6ecdea81535268b05b14c4b96e01c7ffefe9c7",
+      "bytes": 9488
+    },
+    {
+      "path": "card.txt",
+      "sha256": "4c45cb249b59b2e14d8bd3e6ffcca69c1ef0153d8024e07d022ce7cd66ecf4c1",
+      "bytes": 424
+    },
+    {
+      "path": "draft.md",
+      "sha256": "9e478298070931e64ef12dfe1021c7839b3d32da24582a390536dd3ac23976ee",
+      "bytes": 4373
+    }
+  ]
+}

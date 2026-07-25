@@ -1,0 +1,135 @@
+{
+  "source": "mechanical aggregate of 20 locked writing-plan.json files",
+  "works": [
+    {
+      "workId": "afrum",
+      "significance": "重要藏品",
+      "priority": "绝对不可错过",
+      "valueType": "artistic_breakthrough"
+    },
+    {
+      "workId": "chichu-garden",
+      "significance": "体验补充",
+      "priority": "时间充裕再看",
+      "valueType": "architecture_and_space"
+    },
+    {
+      "workId": "cluster-grass",
+      "significance": "重要藏品",
+      "priority": "强烈推荐",
+      "valueType": "artist_landmark"
+    },
+    {
+      "workId": "concrete-ramp",
+      "significance": "体验补充",
+      "priority": "强烈推荐",
+      "valueType": "architecture_and_space"
+    },
+    {
+      "workId": "daylight-clock",
+      "significance": "特色看点",
+      "priority": "绝对不可错过",
+      "valueType": "architecture_and_space"
+    },
+    {
+      "workId": "entrance-cut",
+      "significance": "体验补充",
+      "priority": "强烈推荐",
+      "valueType": "architecture_and_space"
+    },
+    {
+      "workId": "hidden-profile",
+      "significance": "体验补充",
+      "priority": "强烈推荐",
+      "valueType": "architecture_and_space"
+    },
+    {
+      "workId": "marble-floor",
+      "significance": "体验补充",
+      "priority": "时间充裕再看",
+      "valueType": "architecture_and_space"
+    },
+    {
+      "workId": "monet-room",
+      "significance": "重要藏品",
+      "priority": "绝对不可错过",
+      "valueType": "architecture_and_space"
+    },
+    {
+      "workId": "open-field",
+      "significance": "重要藏品",
+      "priority": "绝对不可错过",
+      "valueType": "conceptual_question"
+    },
+    {
+      "workId": "open-sky",
+      "significance": "重要藏品",
+      "priority": "绝对不可错过",
+      "valueType": "architecture_and_space"
+    },
+    {
+      "workId": "square-court",
+      "significance": "特色看点",
+      "priority": "强烈推荐",
+      "valueType": "architecture_and_space"
+    },
+    {
+      "workId": "time-timeless",
+      "significance": "重要藏品",
+      "priority": "绝对不可错过",
+      "valueType": "conceptual_question"
+    },
+    {
+      "workId": "trench-passage",
+      "significance": "体验补充",
+      "priority": "强烈推荐",
+      "valueType": "architecture_and_space"
+    },
+    {
+      "workId": "triangle-court",
+      "significance": "特色看点",
+      "priority": "绝对不可错过",
+      "valueType": "architecture_and_space"
+    },
+    {
+      "workId": "water-lilies-1914",
+      "significance": "重要藏品",
+      "priority": "强烈推荐",
+      "valueType": "artistic_breakthrough"
+    },
+    {
+      "workId": "water-lily-pond-1915",
+      "significance": "重要藏品",
+      "priority": "绝对不可错过——它是建馆契机和房间尺度的核心依据",
+      "valueType": "artist_landmark"
+    },
+    {
+      "workId": "water-lily-pond-1917",
+      "significance": "重要藏品",
+      "priority": "强烈推荐",
+      "valueType": "artist_landmark"
+    },
+    {
+      "workId": "whole",
+      "significance": "重要藏品",
+      "priority": "绝对不可错过",
+      "valueType": "architecture_and_space"
+    },
+    {
+      "workId": "willow-reflections",
+      "significance": "重要藏品",
+      "priority": "强烈推荐",
+      "valueType": "formal_achievement"
+    }
+  ],
+  "counts": {
+    "稀世珍品": 0,
+    "重要藏品": 11,
+    "特色看点": 3,
+    "体验补充": 6
+  },
+  "productionGate": {
+    "score90PlusRequiresMultipleRareAssets": true,
+    "rareAssetsMustReferenceWorksLabeled": "稀世珍品"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-coin-01-sigismund-guldiner-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:41.220Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "566c48d621abab96cc8a78a85a844c40d5bae32701a8fe41edab457e34d8b09a",
+      "bytes": 7200
+    },
+    {
+      "path": "card.txt",
+      "sha256": "cee05eab25f012e1f64dbe7acfe050aa72b60c13f888602deb279f1475db8b27",
+      "bytes": 199
+    },
+    {
+      "path": "draft.md",
+      "sha256": "6d07961f56451dfc17b8ae6a0185d8594aa61edc7769b623a01e4ec4c189c788",
+      "bytes": 3109
+    }
+  ]
+}

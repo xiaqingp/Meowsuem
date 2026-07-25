@@ -1,0 +1,59 @@
+{
+  "runId": "m28-4-muxin-author-muxin-c04-2026-07-23",
+  "startedAt": "2026-07-24T04:56:16.864Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card_after_verified_selection",
+  "museumId": "muxin",
+  "workId": "muxin-c04",
+  "workIdentity": "以馆方列名的《巴珑》整部稿本为一件；公开资料未确认其是否覆盖现行出版物全部诗篇。",
+  "pipelineVersion": "2.4.7",
+  "instructionVersion": "2.0.2",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c22c60e3a215aa1ac90da402debeb2caf9da39975cb2921c4845ef74ef14c834"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "fbe6770b2ff0d935448d52feb1f0d73c35bf8b901efe905dca982615e664a0ad"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c04/author-input-research.md",
+      "sha256": "39f1e39d4cbecedf2afa1c826a3ffde75b4dcb8ccff276377ea4e3754207f0ed"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c04/author-input-research-record.json",
+      "sha256": "59827df4f9c3c7277289d90b6841895a5c51b677d547136a179e74d95b4e98a1"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c04/author-input-supplement.md",
+      "sha256": "20475998f8eef7f52932b35cf6593839d1774e249683030bd78fdb9c72a695cf"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c04/author-input-supplement-record.json",
+      "sha256": "3dac5afb2c5302c5820bc84b6dc9993725cc9988ec9076a988a977b6d6f2a413"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c04/work-selection.json",
+      "sha256": "56db6f2d452d237bb1d4ab7a19093f3f94fc391ca438b1306ac4a7f0fd50d0f6"
+    },
+    {
+      "path": "research/m28-4/muxin/integration/museum-plan.json",
+      "sha256": "f1667c694974a0128558ce6d9519b3a616cab05d4dc3a4f4d00caf5ec62862b2"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

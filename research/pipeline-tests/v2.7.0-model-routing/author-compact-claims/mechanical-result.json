@@ -1,0 +1,35 @@
+{
+  "pipelineVersion": "2.7.0",
+  "runId": "m28-11-v2.7.0-author-compact-claims-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-25T05:09:58.827Z",
+  "status": "blocked",
+  "blockers": [
+    "missing_or_invalid_valueType",
+    "missing_displayMetadata",
+    "invalid_availability",
+    "invalid_imagePolicy",
+    "draft_body_does_not_start_with_quick_layer"
+  ],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_english_title_from_locked_research"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "1fd54fcab24c1685022ab78839102acbb66dac035f0c0085598793581dd6a8ce",
+      "bytes": 7074
+    },
+    {
+      "path": "card.txt",
+      "sha256": "7bb1aa266d7c9c52ca34d250faf6a70a761f47b852ee1a348ccecde89e4f9f6e",
+      "bytes": 738
+    },
+    {
+      "path": "draft.md",
+      "sha256": "a927631b4c423a08937b27a7b46b74e50ac2e1f1fab1c6e81bf272c2f818880e",
+      "bytes": 4568
+    }
+  ]
+}

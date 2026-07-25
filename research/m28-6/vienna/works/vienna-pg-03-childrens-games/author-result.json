@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-pg-03-childrens-games-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:40:56.1544666-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-01/vienna-pg-03-childrens-games-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "4ef195050e4672d8e614d9525f2b2f4a7204bc124bd2ad9116bab469748a49eb"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-pg-03-childrens-games/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "78c3e98099404bd92a521f0448ad209a1cb4f332027dc2353b33430a2cae4210"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "a27ebf46e71dc3706115fe1874bbf991c2bbafab5267803e0d8dbfd0afa8987e",
+                        "bytes":  9579
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "91d2b084100c5229a4cb8479623d70705e7ee5f845a67be92f844a1ac1073328",
+                        "bytes":  328
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "a8a97805d2d38e2531fad8874a7d330a5098609e41c43cab67831efa7380c7c8",
+                        "bytes":  4327
+                    }
+                ]
+}

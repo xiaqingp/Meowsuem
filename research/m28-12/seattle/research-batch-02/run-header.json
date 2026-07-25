@@ -1,0 +1,145 @@
+{
+  "runId": "m28-12-v2.7.1-seattle-complex-research-batch-02-2026-07-24",
+  "startedAt": "2026-07-24T00:00:00-07:00",
+  "stage": "research",
+  "researchMode": "fresh",
+  "researchComplexity": "complex",
+  "museumId": "seattle",
+  "works": [
+    {
+      "museumId": "seattle",
+      "workId": "posthumous-portrait-head-of-the-emperor-claudius",
+      "workIdentity": {
+        "artistOrCulture": "Roman",
+        "title": "Posthumous portrait head of the Emperor Claudius",
+        "titleEn": "Posthumous portrait head of the Emperor Claudius",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "museumId": "seattle",
+      "workId": "funerary-portrait",
+      "workIdentity": {
+        "artistOrCulture": "Egyptian",
+        "title": "Funerary Portrait",
+        "titleEn": "Funerary Portrait",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "museumId": "seattle",
+      "workId": "reliquary-casket",
+      "workIdentity": {
+        "artistOrCulture": "probably French, probably Limoges",
+        "title": "Reliquary casket",
+        "titleEn": "Reliquary casket",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "museumId": "seattle",
+      "workId": "salt-cellar",
+      "workIdentity": {
+        "artistOrCulture": "Sapi, Sierra Leone",
+        "title": "Salt cellar",
+        "titleEn": "Salt cellar",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "museumId": "seattle",
+      "workId": "belt-mask-of-iyoba-idia",
+      "workIdentity": {
+        "artistOrCulture": "Benin Kingdom",
+        "title": "Belt mask of Iyoba (Mother of the Oba) Idia",
+        "titleEn": "Belt mask of Iyoba (Mother of the Oba) Idia",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "museumId": "seattle",
+      "workId": "four-cornered-hat-with-birds",
+      "workIdentity": {
+        "artistOrCulture": "Peruvian",
+        "title": "Four-cornered hat with birds",
+        "titleEn": "Four-cornered hat with birds",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "museumId": "seattle",
+      "workId": "cylinder-vase-depicting-scribes-in-the-underworld",
+      "workIdentity": {
+        "artistOrCulture": "Maya",
+        "title": "Cylinder vase depicting scribes in the Underworld",
+        "titleEn": "Cylinder vase depicting scribes in the Underworld",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "museumId": "seattle",
+      "workId": "folio-from-the-dispersed-blue-quran",
+      "workIdentity": {
+        "artistOrCulture": "North African",
+        "title": "Folio from the dispersed \"Blue Qur'an\"",
+        "titleEn": "Folio from the dispersed \"Blue Qur'an\"",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "museumId": "seattle",
+      "workId": "gathering-storm",
+      "workIdentity": {
+        "artistOrCulture": "Lin Onus",
+        "title": "Gathering Storm",
+        "titleEn": "Gathering Storm",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "museumId": "seattle",
+      "workId": "canoe-prow-figure-nguzu-nguzu",
+      "workIdentity": {
+        "artistOrCulture": "Melanesian",
+        "title": "Canoe prow figure (Nguzu Nguzu)",
+        "titleEn": "Canoe prow figure (Nguzu Nguzu)",
+        "museum": "Seattle Art Museum"
+      }
+    }
+  ],
+  "pipelineVersion": "2.7.1",
+  "instructionVersion": "2.1.0",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c7931d34e1f54dde5c43336acc50f7fb7ac380cfe7bed7ca27ea0e01f2cf4aa6"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "ccd00997261deb8d327f185f373a779f1654fdf21f15f9c1bf1eaa952b90cb83"
+    },
+    {
+      "path": "research/m28-12/seattle/research-batch-02/candidate-packet.json",
+      "role": "candidate_packet",
+      "sha256": "0c71670f7ee694ae383e24ae8f762e69d54b56ddcacbe28e64970bd40a4551d0"
+    }
+  ],
+  "outputs": [
+    "posthumous-portrait-head-of-the-emperor-claudius-research-card.md",
+    "funerary-portrait-research-card.md",
+    "reliquary-casket-research-card.md",
+    "salt-cellar-research-card.md",
+    "belt-mask-of-iyoba-idia-research-card.md",
+    "four-cornered-hat-with-birds-research-card.md",
+    "cylinder-vase-depicting-scribes-in-the-underworld-research-card.md",
+    "folio-from-the-dispersed-blue-quran-research-card.md",
+    "gathering-storm-research-card.md",
+    "canoe-prow-figure-nguzu-nguzu-research-card.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "candidate_then_atomic_production_write"
+}

@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-pg-16-parmigianino-convex-self-portrait-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:45:51.9030073-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-02/vienna-pg-16-parmigianino-convex-self-portrait-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "8ffb0d74108fd9aad4b18c0b2b008fd0cbc0980a6b1ab9da37e4317e7c075431"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-pg-16-parmigianino-convex-self-portrait/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "72e43be6cb1c7efa10e4684c9b328f03e18b397b1daf937be9fe1e4f0c810177"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "47fdbeda7d345159ac5cdc57b62fec73e70f78d50b191f450c13dafb28204881",
+                        "bytes":  9330
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "141c828646fe5c978b9e0dda8a062ba188ff43eaf67c8d133d0b641ff6707fce",
+                        "bytes":  253
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "8916396bb59610c8b599ff7397a145e99f92a91a01c3e1597009295a87c89bb2",
+                        "bytes":  4543
+                    }
+                ]
+}

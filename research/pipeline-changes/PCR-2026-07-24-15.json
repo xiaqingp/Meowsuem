@@ -1,0 +1,26 @@
+{
+  "id": "PCR-2026-07-24-15",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-24",
+  "ownerInstruction": "完成西雅图艺术博物馆整馆发布并保证真实网页没有破图",
+  "baseRelease": "research/pipeline-releases/v2.7.9.json",
+  "targetVersion": "2.7.10",
+  "scope": [
+    "verify cached work-image bytes before publication",
+    "fall back to the museum hero when a cached image is host-blocked or not an image"
+  ],
+  "allowedCanonicalFiles": [
+    "scripts/prepare-museum-assembly.mjs"
+  ],
+  "allowedManagementFiles": [
+    "research/content-standard-manifest.json",
+    "coho_museum/Milestones.md",
+    "coho_museum/knowledge.md"
+  ],
+  "requiredTests": [
+    "Seattle detail pages have no visible broken images",
+    "official object image or museum hero fallback is retained for all 20 works",
+    "release idempotence and immutability pass"
+  ]
+}

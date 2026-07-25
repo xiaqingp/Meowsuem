@@ -1,0 +1,1116 @@
+{
+  "schemaVersion": 1,
+  "stage": "verified_image_evidence",
+  "museumId": "seattle",
+  "pipelineVersion": "2.8.0",
+  "generatedAt": "2026-07-25T08:54:25.254Z",
+  "fresh": true,
+  "legacyAssetInputsRead": false,
+  "resolver": {
+    "version": 4,
+    "browser": "Google Chrome via Playwright",
+    "modelPolicy": "ambiguity_only",
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium"
+  },
+  "summary": {
+    "works": 20,
+    "accepted": 20,
+    "ambiguous": 0,
+    "unresolved": 0,
+    "wallClockMs": 40696,
+    "modelCalls": 0,
+    "modelTokens": 0
+  },
+  "modelRun": null,
+  "works": [
+    {
+      "workId": "sea-change",
+      "identity": {
+        "title": "Sea Change",
+        "artistOrCulture": "Jackson Pollock",
+        "date": "1947",
+        "identityAnchor": "58.55",
+        "identitySourceUrl": "https://art.seattleartmuseum.org/objects/2742/sea-change"
+      },
+      "status": "accepted",
+      "finalUrl": "https://art.seattleartmuseum.org/objects/2742/sea-change",
+      "httpStatus": 200,
+      "pageTitle": "Sea Change – Works – eMuseum",
+      "selected": {
+        "id": "og",
+        "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/76355/preview",
+        "method": "official_og_image",
+        "alt": "",
+        "width": 500,
+        "height": 645,
+        "score": 240,
+        "localPath": "research/m28-12/seattle/image-evidence/assets/sea-change.jpg",
+        "contentType": "image/jpeg",
+        "sha256": "edc5431dcbaa46905b02a64a0646431785a0f5233753b0415657fd9a39a1f85d",
+        "evidenceId": "img:seattle:sea-change:edc5431dcbaa"
+      },
+      "candidates": [
+        {
+          "id": "og",
+          "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/76355/full",
+          "method": "official_og_image",
+          "score": 240
+        },
+        {
+          "id": "img-3",
+          "url": "https://sam.canto.com/direct/image/d7kaar3t6p0u56ck10j3m0914q/7ojU2b_cbc4SMzXXUiFDLnD-Ud4/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        }
+      ],
+      "resolver": "official_browser_v1",
+      "durationMs": 2106
+    },
+    {
+      "workId": "barcelona",
+      "identity": {
+        "title": "Barcelona",
+        "artistOrCulture": "Francis Picabia",
+        "date": "1924",
+        "identityAnchor": "61.188",
+        "identitySourceUrl": "https://art.seattleartmuseum.org/objects/14283/barcelona"
+      },
+      "status": "accepted",
+      "finalUrl": "https://art.seattleartmuseum.org/objects/14283/barcelona",
+      "httpStatus": 200,
+      "pageTitle": "Barcelona – Works – eMuseum",
+      "selected": {
+        "id": "og",
+        "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/42601/preview",
+        "method": "official_og_image",
+        "alt": "",
+        "width": 500,
+        "height": 702,
+        "score": 240,
+        "localPath": "research/m28-12/seattle/image-evidence/assets/barcelona.jpg",
+        "contentType": "image/jpeg",
+        "sha256": "7a6bb17f7783749ab405acbda5d1793c62f34763b5cb1fa141ce45158e8a318a",
+        "evidenceId": "img:seattle:barcelona:7a6bb17f7783"
+      },
+      "candidates": [
+        {
+          "id": "og",
+          "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/42601/full",
+          "method": "official_og_image",
+          "score": 240
+        },
+        {
+          "id": "img-4",
+          "url": "https://sam.canto.com/direct/image/d7kaar3t6p0u56ck10j3m0914q/7ojU2b_cbc4SMzXXUiFDLnD-Ud4/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-5",
+          "url": "https://sam.canto.com/direct/image/b3ifk213qp6vpb6prdc9481462/TEp_Cv9n3NPb2d6-E5Bg4ob5c4E/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-15",
+          "url": "https://sam.canto.com/direct/image/i2eilj1lq53l51l3utkpef695k/_Tp0pQGgPtNGIBfwMK4CRvFcrYk/original?content-type=image%2Fsvg%2Bxml&name=footer-big-SAM.svg",
+          "method": "official_rendered_image",
+          "score": 110
+        }
+      ],
+      "resolver": "official_browser_v1",
+      "durationMs": 2000
+    },
+    {
+      "workId": "how-my-mothers-embroidered-apron-unfolds-in-my-life",
+      "identity": {
+        "title": "How My Mother's Embroidered Apron Unfolds in My Life",
+        "artistOrCulture": "Arshile Gorky",
+        "date": "1944",
+        "identityAnchor": "74.40",
+        "identitySourceUrl": "https://art.seattleartmuseum.org/objects/5816/how-my-mothers-embroidered-apron-unfolds-in-my-life"
+      },
+      "status": "accepted",
+      "finalUrl": "https://art.seattleartmuseum.org/objects/5816/how-my-mothers-embroidered-apron-unfolds-in-my-life",
+      "httpStatus": 200,
+      "pageTitle": "How My Mother's Embroidered Apron Unfolds in My Life – Works – eMuseum",
+      "selected": {
+        "id": "og",
+        "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/95371/preview",
+        "method": "official_og_image",
+        "alt": "",
+        "width": 500,
+        "height": 443,
+        "score": 240,
+        "localPath": "research/m28-12/seattle/image-evidence/assets/how-my-mothers-embroidered-apron-unfolds-in-my-life.jpg",
+        "contentType": "image/jpeg",
+        "sha256": "0b79ad75a6faa8c6e1c4910aa80d2bb9f41c4102ee8a50d60e9c6ebf1f4a3ee6",
+        "evidenceId": "img:seattle:how-my-mothers-embroidered-apron-unfolds-in-my-life:0b79ad75a6fa"
+      },
+      "candidates": [
+        {
+          "id": "og",
+          "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/95371/full",
+          "method": "official_og_image",
+          "score": 240
+        },
+        {
+          "id": "img-4",
+          "url": "https://sam.canto.com/direct/image/d7kaar3t6p0u56ck10j3m0914q/7ojU2b_cbc4SMzXXUiFDLnD-Ud4/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-5",
+          "url": "https://sam.canto.com/direct/image/b3ifk213qp6vpb6prdc9481462/TEp_Cv9n3NPb2d6-E5Bg4ob5c4E/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-16",
+          "url": "https://sam.canto.com/direct/image/i2eilj1lq53l51l3utkpef695k/_Tp0pQGgPtNGIBfwMK4CRvFcrYk/original?content-type=image%2Fsvg%2Bxml&name=footer-big-SAM.svg",
+          "method": "official_rendered_image",
+          "score": 110
+        }
+      ],
+      "resolver": "official_browser_v1",
+      "durationMs": 1983
+    },
+    {
+      "workId": "double-elvis",
+      "identity": {
+        "title": "Double Elvis",
+        "artistOrCulture": "Andy Warhol",
+        "date": "1963/1976",
+        "identityAnchor": "76.9",
+        "identitySourceUrl": "https://art.seattleartmuseum.org/objects/3307/double-elvis"
+      },
+      "status": "accepted",
+      "finalUrl": "https://art.seattleartmuseum.org/objects/3307/double-elvis",
+      "httpStatus": 200,
+      "pageTitle": "Double Elvis – Works – eMuseum",
+      "selected": {
+        "id": "og",
+        "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/29806/preview",
+        "method": "official_og_image",
+        "alt": "",
+        "width": 500,
+        "height": 346,
+        "score": 240,
+        "localPath": "research/m28-12/seattle/image-evidence/assets/double-elvis.jpg",
+        "contentType": "image/jpeg",
+        "sha256": "5d2ca6d3bcbff3371e49830c6501baa8bcbab7a8a51316183d20bf95f9c30057",
+        "evidenceId": "img:seattle:double-elvis:5d2ca6d3bcbf"
+      },
+      "candidates": [
+        {
+          "id": "og",
+          "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/29806/full",
+          "method": "official_og_image",
+          "score": 240
+        },
+        {
+          "id": "img-4",
+          "url": "https://sam.canto.com/direct/image/d7kaar3t6p0u56ck10j3m0914q/7ojU2b_cbc4SMzXXUiFDLnD-Ud4/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-5",
+          "url": "https://sam.canto.com/direct/image/b3ifk213qp6vpb6prdc9481462/TEp_Cv9n3NPb2d6-E5Bg4ob5c4E/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-19",
+          "url": "https://sam.canto.com/direct/image/i2eilj1lq53l51l3utkpef695k/_Tp0pQGgPtNGIBfwMK4CRvFcrYk/original?content-type=image%2Fsvg%2Bxml&name=footer-big-SAM.svg",
+          "method": "official_rendered_image",
+          "score": 110
+        }
+      ],
+      "resolver": "official_browser_v1",
+      "durationMs": 2063
+    },
+    {
+      "workId": "dr-silvester-gardiner",
+      "identity": {
+        "title": "Dr. Silvester Gardiner (1708-1786)",
+        "artistOrCulture": "John Singleton Copley",
+        "date": "probably 1772",
+        "identityAnchor": "2006.125",
+        "identitySourceUrl": "https://art.seattleartmuseum.org/objects/34531/dr-silvester-gardiner-17081786"
+      },
+      "status": "accepted",
+      "finalUrl": "https://art.seattleartmuseum.org/objects/34531/dr-silvester-gardiner-17081786",
+      "httpStatus": 200,
+      "pageTitle": "Dr. Silvester Gardiner (1708-1786) – Works – eMuseum",
+      "selected": {
+        "id": "og",
+        "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/27736/preview",
+        "method": "official_og_image",
+        "alt": "",
+        "width": 500,
+        "height": 623,
+        "score": 240,
+        "localPath": "research/m28-12/seattle/image-evidence/assets/dr-silvester-gardiner.jpg",
+        "contentType": "image/jpeg",
+        "sha256": "c344669ff563d0bfcbecbaedd2071934dd2b5df6961dd914da16dfb263fcb706",
+        "evidenceId": "img:seattle:dr-silvester-gardiner:c344669ff563"
+      },
+      "candidates": [
+        {
+          "id": "og",
+          "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/27736/full",
+          "method": "official_og_image",
+          "score": 240
+        },
+        {
+          "id": "img-4",
+          "url": "https://sam.canto.com/direct/image/d7kaar3t6p0u56ck10j3m0914q/7ojU2b_cbc4SMzXXUiFDLnD-Ud4/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-5",
+          "url": "https://sam.canto.com/direct/image/b3ifk213qp6vpb6prdc9481462/TEp_Cv9n3NPb2d6-E5Bg4ob5c4E/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-16",
+          "url": "https://sam.canto.com/direct/image/i2eilj1lq53l51l3utkpef695k/_Tp0pQGgPtNGIBfwMK4CRvFcrYk/original?content-type=image%2Fsvg%2Bxml&name=footer-big-SAM.svg",
+          "method": "official_rendered_image",
+          "score": 110
+        }
+      ],
+      "resolver": "official_browser_v1",
+      "durationMs": 2103
+    },
+    {
+      "workId": "still-life-with-strawberries-and-ostrich-egg-cup",
+      "identity": {
+        "title": "Still Life with Strawberries and Ostrich Egg Cup",
+        "artistOrCulture": "Raphaelle Peale",
+        "date": "1814",
+        "identityAnchor": "2014.23",
+        "identitySourceUrl": "https://art.seattleartmuseum.org/objects/8386/still-life-with-strawberries-and-ostrich-egg-cup"
+      },
+      "status": "accepted",
+      "finalUrl": "https://art.seattleartmuseum.org/objects/8386/still-life-with-strawberries-and-ostrich-egg-cup",
+      "httpStatus": 200,
+      "pageTitle": "Still Life with Strawberries and Ostrich Egg Cup – Works – eMuseum",
+      "selected": {
+        "id": "og",
+        "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/58957/preview",
+        "method": "official_og_image",
+        "alt": "",
+        "width": 500,
+        "height": 335,
+        "score": 240,
+        "localPath": "research/m28-12/seattle/image-evidence/assets/still-life-with-strawberries-and-ostrich-egg-cup.jpg",
+        "contentType": "image/jpeg",
+        "sha256": "d66401dd49363bf42c4a8773a1ab42166b57ae0375def01ae6d250bedb24c6cd",
+        "evidenceId": "img:seattle:still-life-with-strawberries-and-ostrich-egg-cup:d66401dd4936"
+      },
+      "candidates": [
+        {
+          "id": "og",
+          "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/58957/full",
+          "method": "official_og_image",
+          "score": 240
+        },
+        {
+          "id": "img-4",
+          "url": "https://sam.canto.com/direct/image/d7kaar3t6p0u56ck10j3m0914q/7ojU2b_cbc4SMzXXUiFDLnD-Ud4/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-5",
+          "url": "https://sam.canto.com/direct/image/b3ifk213qp6vpb6prdc9481462/TEp_Cv9n3NPb2d6-E5Bg4ob5c4E/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-19",
+          "url": "https://sam.canto.com/direct/image/i2eilj1lq53l51l3utkpef695k/_Tp0pQGgPtNGIBfwMK4CRvFcrYk/original?content-type=image%2Fsvg%2Bxml&name=footer-big-SAM.svg",
+          "method": "official_rendered_image",
+          "score": 110
+        }
+      ],
+      "resolver": "official_browser_v1",
+      "durationMs": 1973
+    },
+    {
+      "workId": "a-country-home",
+      "identity": {
+        "title": "A Country Home",
+        "artistOrCulture": "Frederic Edwin Church",
+        "date": "1854",
+        "identityAnchor": "65.80",
+        "identitySourceUrl": "https://art.seattleartmuseum.org/objects/12074/a-country-home"
+      },
+      "status": "accepted",
+      "finalUrl": "https://art.seattleartmuseum.org/objects/12074/a-country-home",
+      "httpStatus": 200,
+      "pageTitle": "A Country Home – Works – eMuseum",
+      "selected": {
+        "id": "og",
+        "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/29491/preview",
+        "method": "official_og_image",
+        "alt": "",
+        "width": 500,
+        "height": 317,
+        "score": 240,
+        "localPath": "research/m28-12/seattle/image-evidence/assets/a-country-home.jpg",
+        "contentType": "image/jpeg",
+        "sha256": "8cbd5080d622521c2f39dcfb5ee0e42177ce17a7c6f7785a0e3e4657661c8f30",
+        "evidenceId": "img:seattle:a-country-home:8cbd5080d622"
+      },
+      "candidates": [
+        {
+          "id": "og",
+          "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/29491/full",
+          "method": "official_og_image",
+          "score": 240
+        },
+        {
+          "id": "img-4",
+          "url": "https://sam.canto.com/direct/image/d7kaar3t6p0u56ck10j3m0914q/7ojU2b_cbc4SMzXXUiFDLnD-Ud4/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-5",
+          "url": "https://sam.canto.com/direct/image/b3ifk213qp6vpb6prdc9481462/TEp_Cv9n3NPb2d6-E5Bg4ob5c4E/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-17",
+          "url": "https://sam.canto.com/direct/image/i2eilj1lq53l51l3utkpef695k/_Tp0pQGgPtNGIBfwMK4CRvFcrYk/original?content-type=image%2Fsvg%2Bxml&name=footer-big-SAM.svg",
+          "method": "official_rendered_image",
+          "score": 110
+        }
+      ],
+      "resolver": "official_browser_v1",
+      "durationMs": 2165
+    },
+    {
+      "workId": "narragansett-bay",
+      "identity": {
+        "title": "Narragansett Bay",
+        "artistOrCulture": "John Frederick Kensett",
+        "date": "1861",
+        "identityAnchor": "2001.1054",
+        "identitySourceUrl": "https://art.seattleartmuseum.org/objects/28103/narragansett-bay"
+      },
+      "status": "accepted",
+      "finalUrl": "https://art.seattleartmuseum.org/objects/28103/narragansett-bay",
+      "httpStatus": 200,
+      "pageTitle": "Narragansett Bay – Works – eMuseum",
+      "selected": {
+        "id": "og",
+        "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/37767/preview",
+        "method": "official_og_image",
+        "alt": "",
+        "width": 500,
+        "height": 286,
+        "score": 240,
+        "localPath": "research/m28-12/seattle/image-evidence/assets/narragansett-bay.jpg",
+        "contentType": "image/jpeg",
+        "sha256": "356b0ed70df023aac8bb91510c474c1abe0c4da2150bbc04ef8adfa65b6e988c",
+        "evidenceId": "img:seattle:narragansett-bay:356b0ed70df0"
+      },
+      "candidates": [
+        {
+          "id": "og",
+          "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/37767/full",
+          "method": "official_og_image",
+          "score": 240
+        },
+        {
+          "id": "img-4",
+          "url": "https://sam.canto.com/direct/image/d7kaar3t6p0u56ck10j3m0914q/7ojU2b_cbc4SMzXXUiFDLnD-Ud4/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-5",
+          "url": "https://sam.canto.com/direct/image/b3ifk213qp6vpb6prdc9481462/TEp_Cv9n3NPb2d6-E5Bg4ob5c4E/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-19",
+          "url": "https://sam.canto.com/direct/image/i2eilj1lq53l51l3utkpef695k/_Tp0pQGgPtNGIBfwMK4CRvFcrYk/original?content-type=image%2Fsvg%2Bxml&name=footer-big-SAM.svg",
+          "method": "official_rendered_image",
+          "score": 110
+        }
+      ],
+      "resolver": "official_browser_v1",
+      "durationMs": 1822
+    },
+    {
+      "workId": "swan-rattle",
+      "identity": {
+        "title": "Swan rattle",
+        "artistOrCulture": "Native American",
+        "date": "19th century",
+        "identityAnchor": "59.104",
+        "identitySourceUrl": "https://art.seattleartmuseum.org/objects/12808/swan-rattle"
+      },
+      "status": "accepted",
+      "finalUrl": "https://art.seattleartmuseum.org/objects/12808/swan-rattle",
+      "httpStatus": 200,
+      "pageTitle": "Swan rattle – Works – eMuseum",
+      "selected": {
+        "id": "og",
+        "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/5408/preview",
+        "method": "official_og_image",
+        "alt": "",
+        "width": 500,
+        "height": 334,
+        "score": 240,
+        "localPath": "research/m28-12/seattle/image-evidence/assets/swan-rattle.jpg",
+        "contentType": "image/jpeg",
+        "sha256": "31ddee45fee23ebb4c89812c187340f594653a00067d4985b37c4978c56e56cc",
+        "evidenceId": "img:seattle:swan-rattle:31ddee45fee2"
+      },
+      "candidates": [
+        {
+          "id": "og",
+          "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/5408/full",
+          "method": "official_og_image",
+          "score": 240
+        },
+        {
+          "id": "img-4",
+          "url": "https://sam.canto.com/direct/image/d7kaar3t6p0u56ck10j3m0914q/7ojU2b_cbc4SMzXXUiFDLnD-Ud4/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-5",
+          "url": "https://sam.canto.com/direct/image/b3ifk213qp6vpb6prdc9481462/TEp_Cv9n3NPb2d6-E5Bg4ob5c4E/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-18",
+          "url": "https://sam.canto.com/direct/image/i2eilj1lq53l51l3utkpef695k/_Tp0pQGgPtNGIBfwMK4CRvFcrYk/original?content-type=image%2Fsvg%2Bxml&name=footer-big-SAM.svg",
+          "method": "official_rendered_image",
+          "score": 110
+        }
+      ],
+      "resolver": "official_browser_v1",
+      "durationMs": 1909
+    },
+    {
+      "workId": "naaxein",
+      "identity": {
+        "title": "Naaxein",
+        "artistOrCulture": "Native American",
+        "date": "ca. 1880",
+        "identityAnchor": "68.194",
+        "identitySourceUrl": "https://art.seattleartmuseum.org/objects/13497/naaxein"
+      },
+      "status": "accepted",
+      "finalUrl": "https://art.seattleartmuseum.org/objects/13497/naaxein",
+      "httpStatus": 200,
+      "pageTitle": "Naaxein – Works – eMuseum",
+      "selected": {
+        "id": "og",
+        "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/49410/preview",
+        "method": "official_og_image",
+        "alt": "",
+        "width": 500,
+        "height": 393,
+        "score": 240,
+        "localPath": "research/m28-12/seattle/image-evidence/assets/naaxein.jpg",
+        "contentType": "image/jpeg",
+        "sha256": "d9f2addc48c6ae3b371aeb375ae6ecb4721ed4e51afdf645255ee6d2359547d4",
+        "evidenceId": "img:seattle:naaxein:d9f2addc48c6"
+      },
+      "candidates": [
+        {
+          "id": "og",
+          "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/49410/full",
+          "method": "official_og_image",
+          "score": 240
+        },
+        {
+          "id": "img-4",
+          "url": "https://sam.canto.com/direct/image/d7kaar3t6p0u56ck10j3m0914q/7ojU2b_cbc4SMzXXUiFDLnD-Ud4/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-5",
+          "url": "https://sam.canto.com/direct/image/b3ifk213qp6vpb6prdc9481462/TEp_Cv9n3NPb2d6-E5Bg4ob5c4E/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-14",
+          "url": "https://sam.canto.com/direct/image/i2eilj1lq53l51l3utkpef695k/_Tp0pQGgPtNGIBfwMK4CRvFcrYk/original?content-type=image%2Fsvg%2Bxml&name=footer-big-SAM.svg",
+          "method": "official_rendered_image",
+          "score": 110
+        }
+      ],
+      "resolver": "official_browser_v1",
+      "durationMs": 1900
+    },
+    {
+      "workId": "posthumous-portrait-head-of-the-emperor-claudius",
+      "identity": {
+        "title": "Posthumous portrait head of the Emperor Claudius",
+        "artistOrCulture": "Roman",
+        "date": "54-68 A.D.",
+        "identityAnchor": "93.6",
+        "identitySourceUrl": "https://art.seattleartmuseum.org/objects/9184/posthumous-portrait-head-of-the-emperor-claudius"
+      },
+      "status": "accepted",
+      "finalUrl": "https://art.seattleartmuseum.org/objects/9184/posthumous-portrait-head-of-the-emperor-claudius",
+      "httpStatus": 200,
+      "pageTitle": "Posthumous portrait head of the Emperor Claudius – Works – eMuseum",
+      "selected": {
+        "id": "og",
+        "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/27631/preview",
+        "method": "official_og_image",
+        "alt": "",
+        "width": 500,
+        "height": 774,
+        "score": 240,
+        "localPath": "research/m28-12/seattle/image-evidence/assets/posthumous-portrait-head-of-the-emperor-claudius.jpg",
+        "contentType": "image/jpeg",
+        "sha256": "253ddcebbe1bb899b3abee27803dcbcccaa0b3485204b9abafd4526eb8971e2a",
+        "evidenceId": "img:seattle:posthumous-portrait-head-of-the-emperor-claudius:253ddcebbe1b"
+      },
+      "candidates": [
+        {
+          "id": "og",
+          "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/27631/full",
+          "method": "official_og_image",
+          "score": 240
+        },
+        {
+          "id": "img-4",
+          "url": "https://sam.canto.com/direct/image/d7kaar3t6p0u56ck10j3m0914q/7ojU2b_cbc4SMzXXUiFDLnD-Ud4/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-5",
+          "url": "https://sam.canto.com/direct/image/b3ifk213qp6vpb6prdc9481462/TEp_Cv9n3NPb2d6-E5Bg4ob5c4E/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-19",
+          "url": "https://sam.canto.com/direct/image/i2eilj1lq53l51l3utkpef695k/_Tp0pQGgPtNGIBfwMK4CRvFcrYk/original?content-type=image%2Fsvg%2Bxml&name=footer-big-SAM.svg",
+          "method": "official_rendered_image",
+          "score": 110
+        }
+      ],
+      "resolver": "official_browser_v1",
+      "durationMs": 1927
+    },
+    {
+      "workId": "funerary-portrait",
+      "identity": {
+        "title": "Funerary Portrait",
+        "artistOrCulture": "Egyptian",
+        "date": "1st-2nd century",
+        "identityAnchor": "50.62",
+        "identitySourceUrl": "https://art.seattleartmuseum.org/objects/11852/funerary-portrait"
+      },
+      "status": "accepted",
+      "finalUrl": "https://art.seattleartmuseum.org/objects/11852/funerary-portrait",
+      "httpStatus": 200,
+      "pageTitle": "Funerary Portrait – Works – eMuseum",
+      "selected": {
+        "id": "og",
+        "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/33979/preview",
+        "method": "official_og_image",
+        "alt": "",
+        "width": 500,
+        "height": 758,
+        "score": 240,
+        "localPath": "research/m28-12/seattle/image-evidence/assets/funerary-portrait.jpg",
+        "contentType": "image/jpeg",
+        "sha256": "5d82fa22c2d62c867e4492a551b17016a3474aeff6b26e5630b75182c44a2483",
+        "evidenceId": "img:seattle:funerary-portrait:5d82fa22c2d6"
+      },
+      "candidates": [
+        {
+          "id": "og",
+          "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/33979/full",
+          "method": "official_og_image",
+          "score": 240
+        },
+        {
+          "id": "img-4",
+          "url": "https://sam.canto.com/direct/image/d7kaar3t6p0u56ck10j3m0914q/7ojU2b_cbc4SMzXXUiFDLnD-Ud4/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-5",
+          "url": "https://sam.canto.com/direct/image/b3ifk213qp6vpb6prdc9481462/TEp_Cv9n3NPb2d6-E5Bg4ob5c4E/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-19",
+          "url": "https://sam.canto.com/direct/image/i2eilj1lq53l51l3utkpef695k/_Tp0pQGgPtNGIBfwMK4CRvFcrYk/original?content-type=image%2Fsvg%2Bxml&name=footer-big-SAM.svg",
+          "method": "official_rendered_image",
+          "score": 110
+        }
+      ],
+      "resolver": "official_browser_v1",
+      "durationMs": 1865
+    },
+    {
+      "workId": "reliquary-casket",
+      "identity": {
+        "title": "Reliquary casket",
+        "artistOrCulture": "probably French, probably Limoges",
+        "date": "ca. 1200-1225",
+        "identityAnchor": "49.38",
+        "identitySourceUrl": "https://art.seattleartmuseum.org/objects/5988/reliquary-casket"
+      },
+      "status": "accepted",
+      "finalUrl": "https://art.seattleartmuseum.org/objects/5988/reliquary-casket",
+      "httpStatus": 200,
+      "pageTitle": "Reliquary casket – Works – eMuseum",
+      "selected": {
+        "id": "og",
+        "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/3502/preview",
+        "method": "official_og_image",
+        "alt": "",
+        "width": 500,
+        "height": 728,
+        "score": 240,
+        "localPath": "research/m28-12/seattle/image-evidence/assets/reliquary-casket.jpg",
+        "contentType": "image/jpeg",
+        "sha256": "51f235d38cb711be61b1bfa3846044aed5184c93b21bcf4edca18e52e49682e0",
+        "evidenceId": "img:seattle:reliquary-casket:51f235d38cb7"
+      },
+      "candidates": [
+        {
+          "id": "og",
+          "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/3502/full",
+          "method": "official_og_image",
+          "score": 240
+        },
+        {
+          "id": "img-4",
+          "url": "https://sam.canto.com/direct/image/d7kaar3t6p0u56ck10j3m0914q/7ojU2b_cbc4SMzXXUiFDLnD-Ud4/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-5",
+          "url": "https://sam.canto.com/direct/image/b3ifk213qp6vpb6prdc9481462/TEp_Cv9n3NPb2d6-E5Bg4ob5c4E/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-17",
+          "url": "https://sam.canto.com/direct/image/i2eilj1lq53l51l3utkpef695k/_Tp0pQGgPtNGIBfwMK4CRvFcrYk/original?content-type=image%2Fsvg%2Bxml&name=footer-big-SAM.svg",
+          "method": "official_rendered_image",
+          "score": 110
+        }
+      ],
+      "resolver": "official_browser_v1",
+      "durationMs": 2125
+    },
+    {
+      "workId": "salt-cellar",
+      "identity": {
+        "title": "Salt cellar",
+        "artistOrCulture": "Sapi, Sierra Leone",
+        "date": "ca. 1490-1530",
+        "identityAnchor": "81.17.189",
+        "identitySourceUrl": "https://art.seattleartmuseum.org/objects/7058/salt-cellar"
+      },
+      "status": "accepted",
+      "finalUrl": "https://art.seattleartmuseum.org/objects/7058/salt-cellar",
+      "httpStatus": 200,
+      "pageTitle": "Salt cellar – Works – eMuseum",
+      "selected": {
+        "id": "og",
+        "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/48930/preview",
+        "method": "official_og_image",
+        "alt": "",
+        "width": 500,
+        "height": 625,
+        "score": 240,
+        "localPath": "research/m28-12/seattle/image-evidence/assets/salt-cellar.jpg",
+        "contentType": "image/jpeg",
+        "sha256": "004a69d363cd8979725799abc3498fbe7ecb38170f77942e9232930d6718f63f",
+        "evidenceId": "img:seattle:salt-cellar:004a69d363cd"
+      },
+      "candidates": [
+        {
+          "id": "og",
+          "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/48930/full",
+          "method": "official_og_image",
+          "score": 240
+        },
+        {
+          "id": "img-4",
+          "url": "https://sam.canto.com/direct/image/d7kaar3t6p0u56ck10j3m0914q/7ojU2b_cbc4SMzXXUiFDLnD-Ud4/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-5",
+          "url": "https://sam.canto.com/direct/image/b3ifk213qp6vpb6prdc9481462/TEp_Cv9n3NPb2d6-E5Bg4ob5c4E/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-13",
+          "url": "https://sam.canto.com/direct/image/i2eilj1lq53l51l3utkpef695k/_Tp0pQGgPtNGIBfwMK4CRvFcrYk/original?content-type=image%2Fsvg%2Bxml&name=footer-big-SAM.svg",
+          "method": "official_rendered_image",
+          "score": 110
+        }
+      ],
+      "resolver": "official_browser_v1",
+      "durationMs": 1843
+    },
+    {
+      "workId": "belt-mask-of-iyoba-idia",
+      "identity": {
+        "title": "Belt mask of Iyoba (Mother of the Oba) Idia",
+        "artistOrCulture": "Benin Kingdom",
+        "date": "ca. 1517-1550",
+        "identityAnchor": "81.17.493",
+        "identitySourceUrl": "https://art.seattleartmuseum.org/objects/8251/belt-mask-of-iyoba-mother-of-the-oba-idia"
+      },
+      "status": "accepted",
+      "finalUrl": "https://art.seattleartmuseum.org/objects/8251/belt-mask-of-iyoba-mother-of-the-oba-idia",
+      "httpStatus": 200,
+      "pageTitle": "Belt mask of Iyoba (Mother of the Oba) Idia – Works – eMuseum",
+      "selected": {
+        "id": "og",
+        "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/27411/preview",
+        "method": "official_og_image",
+        "alt": "",
+        "width": 500,
+        "height": 592,
+        "score": 240,
+        "localPath": "research/m28-12/seattle/image-evidence/assets/belt-mask-of-iyoba-idia.jpg",
+        "contentType": "image/jpeg",
+        "sha256": "4d58d67008451aa53400e9ee1162f4c8b95805bafe660f44987ac7c09713c0c0",
+        "evidenceId": "img:seattle:belt-mask-of-iyoba-idia:4d58d6700845"
+      },
+      "candidates": [
+        {
+          "id": "og",
+          "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/27411/full",
+          "method": "official_og_image",
+          "score": 240
+        },
+        {
+          "id": "img-4",
+          "url": "https://sam.canto.com/direct/image/d7kaar3t6p0u56ck10j3m0914q/7ojU2b_cbc4SMzXXUiFDLnD-Ud4/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-5",
+          "url": "https://sam.canto.com/direct/image/b3ifk213qp6vpb6prdc9481462/TEp_Cv9n3NPb2d6-E5Bg4ob5c4E/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-19",
+          "url": "https://sam.canto.com/direct/image/i2eilj1lq53l51l3utkpef695k/_Tp0pQGgPtNGIBfwMK4CRvFcrYk/original?content-type=image%2Fsvg%2Bxml&name=footer-big-SAM.svg",
+          "method": "official_rendered_image",
+          "score": 110
+        }
+      ],
+      "resolver": "official_browser_v1",
+      "durationMs": 1979
+    },
+    {
+      "workId": "four-cornered-hat-with-birds",
+      "identity": {
+        "title": "Four-cornered hat with birds",
+        "artistOrCulture": "Peruvian",
+        "date": "ca. 500-800",
+        "identityAnchor": "76.51",
+        "identitySourceUrl": "https://art.seattleartmuseum.org/objects/21167/fourcornered-hat-with-birds"
+      },
+      "status": "accepted",
+      "finalUrl": "https://art.seattleartmuseum.org/objects/21167/fourcornered-hat-with-birds",
+      "httpStatus": 200,
+      "pageTitle": "Four-cornered hat with birds – Works – eMuseum",
+      "selected": {
+        "id": "og",
+        "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/27700/preview",
+        "method": "official_og_image",
+        "alt": "",
+        "width": 500,
+        "height": 514,
+        "score": 240,
+        "localPath": "research/m28-12/seattle/image-evidence/assets/four-cornered-hat-with-birds.jpg",
+        "contentType": "image/jpeg",
+        "sha256": "c8507c0e77b4f6c2b23ec83484f23fe0a55aad9d671897a8fe3645f621affea5",
+        "evidenceId": "img:seattle:four-cornered-hat-with-birds:c8507c0e77b4"
+      },
+      "candidates": [
+        {
+          "id": "og",
+          "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/27700/full",
+          "method": "official_og_image",
+          "score": 240
+        },
+        {
+          "id": "img-4",
+          "url": "https://sam.canto.com/direct/image/d7kaar3t6p0u56ck10j3m0914q/7ojU2b_cbc4SMzXXUiFDLnD-Ud4/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-5",
+          "url": "https://sam.canto.com/direct/image/b3ifk213qp6vpb6prdc9481462/TEp_Cv9n3NPb2d6-E5Bg4ob5c4E/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-15",
+          "url": "https://sam.canto.com/direct/image/i2eilj1lq53l51l3utkpef695k/_Tp0pQGgPtNGIBfwMK4CRvFcrYk/original?content-type=image%2Fsvg%2Bxml&name=footer-big-SAM.svg",
+          "method": "official_rendered_image",
+          "score": 110
+        }
+      ],
+      "resolver": "official_browser_v1",
+      "durationMs": 1946
+    },
+    {
+      "workId": "cylinder-vase-depicting-scribes-in-the-underworld",
+      "identity": {
+        "title": "Cylinder vase depicting scribes in the Underworld",
+        "artistOrCulture": "Maya",
+        "date": "ca. 600-900",
+        "identityAnchor": "81.109",
+        "identitySourceUrl": "https://art.seattleartmuseum.org/objects/10224/cylinder-vase-depicting-scribes-in-the-underworld"
+      },
+      "status": "accepted",
+      "finalUrl": "https://art.seattleartmuseum.org/objects/10224/cylinder-vase-depicting-scribes-in-the-underworld",
+      "httpStatus": 200,
+      "pageTitle": "Cylinder vase depicting scribes in the Underworld – Works – eMuseum",
+      "selected": {
+        "id": "og",
+        "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/28461/preview",
+        "method": "official_og_image",
+        "alt": "",
+        "width": 500,
+        "height": 569,
+        "score": 240,
+        "localPath": "research/m28-12/seattle/image-evidence/assets/cylinder-vase-depicting-scribes-in-the-underworld.jpg",
+        "contentType": "image/jpeg",
+        "sha256": "f6740dca6823d3d70eb9b2448178359a14dd136079f731a8210b1d84849c0f8e",
+        "evidenceId": "img:seattle:cylinder-vase-depicting-scribes-in-the-underworld:f6740dca6823"
+      },
+      "candidates": [
+        {
+          "id": "og",
+          "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/28461/full",
+          "method": "official_og_image",
+          "score": 240
+        },
+        {
+          "id": "img-4",
+          "url": "https://sam.canto.com/direct/image/d7kaar3t6p0u56ck10j3m0914q/7ojU2b_cbc4SMzXXUiFDLnD-Ud4/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-5",
+          "url": "https://sam.canto.com/direct/image/b3ifk213qp6vpb6prdc9481462/TEp_Cv9n3NPb2d6-E5Bg4ob5c4E/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-17",
+          "url": "https://sam.canto.com/direct/image/i2eilj1lq53l51l3utkpef695k/_Tp0pQGgPtNGIBfwMK4CRvFcrYk/original?content-type=image%2Fsvg%2Bxml&name=footer-big-SAM.svg",
+          "method": "official_rendered_image",
+          "score": 110
+        }
+      ],
+      "resolver": "official_browser_v1",
+      "durationMs": 2857
+    },
+    {
+      "workId": "folio-from-the-dispersed-blue-quran",
+      "identity": {
+        "title": "Folio from the dispersed \"Blue Qur'an\"",
+        "artistOrCulture": "North African",
+        "date": "9th century",
+        "identityAnchor": "69.37",
+        "identitySourceUrl": "https://art.seattleartmuseum.org/objects/5815/folio-from-the-dispersed-blue-quran"
+      },
+      "status": "accepted",
+      "finalUrl": "https://art.seattleartmuseum.org/objects/5815/folio-from-the-dispersed-blue-quran",
+      "httpStatus": 200,
+      "pageTitle": "Folio from the dispersed \"Blue Qur'an\" – Works – eMuseum",
+      "selected": {
+        "id": "og",
+        "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/130907/preview",
+        "method": "official_og_image",
+        "alt": "",
+        "width": 500,
+        "height": 375,
+        "score": 240,
+        "localPath": "research/m28-12/seattle/image-evidence/assets/folio-from-the-dispersed-blue-quran.jpg",
+        "contentType": "image/jpeg",
+        "sha256": "713f52eecc75e8d20721f1f56a050ff7d5eb965542dd8920bf43be7d2c46ff8b",
+        "evidenceId": "img:seattle:folio-from-the-dispersed-blue-quran:713f52eecc75"
+      },
+      "candidates": [
+        {
+          "id": "og",
+          "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/130907/full",
+          "method": "official_og_image",
+          "score": 240
+        },
+        {
+          "id": "img-4",
+          "url": "https://sam.canto.com/direct/image/d7kaar3t6p0u56ck10j3m0914q/7ojU2b_cbc4SMzXXUiFDLnD-Ud4/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-5",
+          "url": "https://sam.canto.com/direct/image/b3ifk213qp6vpb6prdc9481462/TEp_Cv9n3NPb2d6-E5Bg4ob5c4E/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-16",
+          "url": "https://sam.canto.com/direct/image/i2eilj1lq53l51l3utkpef695k/_Tp0pQGgPtNGIBfwMK4CRvFcrYk/original?content-type=image%2Fsvg%2Bxml&name=footer-big-SAM.svg",
+          "method": "official_rendered_image",
+          "score": 110
+        }
+      ],
+      "resolver": "official_browser_v1",
+      "durationMs": 2092
+    },
+    {
+      "workId": "gathering-storm",
+      "identity": {
+        "title": "Gathering Storm",
+        "artistOrCulture": "Lin Onus",
+        "date": "1993",
+        "identityAnchor": "2006.31",
+        "identitySourceUrl": "https://art.seattleartmuseum.org/objects/33432/gathering-storm"
+      },
+      "status": "accepted",
+      "finalUrl": "https://art.seattleartmuseum.org/objects/33432/gathering-storm",
+      "httpStatus": 200,
+      "pageTitle": "Gathering Storm – Works – eMuseum",
+      "selected": {
+        "id": "og",
+        "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/33890/preview",
+        "method": "official_og_image",
+        "alt": "",
+        "width": 500,
+        "height": 373,
+        "score": 240,
+        "localPath": "research/m28-12/seattle/image-evidence/assets/gathering-storm.jpg",
+        "contentType": "image/jpeg",
+        "sha256": "ad0bae26cca20c87904edaccc4afa8ed40c3f21911a09bba2fa9eba581a8439c",
+        "evidenceId": "img:seattle:gathering-storm:ad0bae26cca2"
+      },
+      "candidates": [
+        {
+          "id": "og",
+          "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/33890/full",
+          "method": "official_og_image",
+          "score": 240
+        },
+        {
+          "id": "img-4",
+          "url": "https://sam.canto.com/direct/image/d7kaar3t6p0u56ck10j3m0914q/7ojU2b_cbc4SMzXXUiFDLnD-Ud4/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-5",
+          "url": "https://sam.canto.com/direct/image/b3ifk213qp6vpb6prdc9481462/TEp_Cv9n3NPb2d6-E5Bg4ob5c4E/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-15",
+          "url": "https://sam.canto.com/direct/image/i2eilj1lq53l51l3utkpef695k/_Tp0pQGgPtNGIBfwMK4CRvFcrYk/original?content-type=image%2Fsvg%2Bxml&name=footer-big-SAM.svg",
+          "method": "official_rendered_image",
+          "score": 110
+        }
+      ],
+      "resolver": "official_browser_v1",
+      "durationMs": 1881
+    },
+    {
+      "workId": "canoe-prow-figure-nguzu-nguzu",
+      "identity": {
+        "title": "Canoe prow figure (Nguzu Nguzu)",
+        "artistOrCulture": "Melanesian",
+        "date": "late 19th century",
+        "identityAnchor": "81.17.1443",
+        "identitySourceUrl": "https://art.seattleartmuseum.org/objects/5847/canoe-prow-figure-nguzu-nguzu"
+      },
+      "status": "accepted",
+      "finalUrl": "https://art.seattleartmuseum.org/objects/5847/canoe-prow-figure-nguzu-nguzu",
+      "httpStatus": 200,
+      "pageTitle": "Canoe prow figure (Nguzu Nguzu) – Works – eMuseum",
+      "selected": {
+        "id": "og",
+        "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/49637/preview",
+        "method": "official_og_image",
+        "alt": "",
+        "width": 500,
+        "height": 625,
+        "score": 240,
+        "localPath": "research/m28-12/seattle/image-evidence/assets/canoe-prow-figure-nguzu-nguzu.jpg",
+        "contentType": "image/jpeg",
+        "sha256": "0a28f32fe90b53a348b8cae96ecaf0845f71a60761638881b9d59fd794d8d174",
+        "evidenceId": "img:seattle:canoe-prow-figure-nguzu-nguzu:0a28f32fe90b"
+      },
+      "candidates": [
+        {
+          "id": "og",
+          "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/49637/full",
+          "method": "official_og_image",
+          "score": 240
+        },
+        {
+          "id": "img-4",
+          "url": "https://sam.canto.com/direct/image/d7kaar3t6p0u56ck10j3m0914q/7ojU2b_cbc4SMzXXUiFDLnD-Ud4/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-5",
+          "url": "https://sam.canto.com/direct/image/b3ifk213qp6vpb6prdc9481462/TEp_Cv9n3NPb2d6-E5Bg4ob5c4E/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-16",
+          "url": "https://sam.canto.com/direct/image/i2eilj1lq53l51l3utkpef695k/_Tp0pQGgPtNGIBfwMK4CRvFcrYk/original?content-type=image%2Fsvg%2Bxml&name=footer-big-SAM.svg",
+          "method": "official_rendered_image",
+          "score": 110
+        }
+      ],
+      "resolver": "official_browser_v1",
+      "durationMs": 2157
+    }
+  ]
+}

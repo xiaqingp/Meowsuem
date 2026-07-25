@@ -1,0 +1,66 @@
+{
+    "runId":  "m28-12-v2.7.2-seattle-author-sea-change-2026-07-24",
+    "stage":  "author",
+    "museumId":  "seattle",
+    "workId":  "sea-change",
+    "pipelineVersion":  "2.7.2",
+    "instructionVersion":  "2.1.1",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-07-24T23:18:36.9660679-07:00",
+    "modelStartedAt":  "2026-07-24T23:18:37.3382059-07:00",
+    "modelCompletedAt":  "2026-07-24T23:20:08.5988029-07:00",
+    "completedAt":  "2026-07-24T23:20:08.6197805-07:00",
+    "runnerDurationMs":  91654,
+    "modelDurationMs":  91261,
+    "tokenUsage":  {
+                       "total":  34079,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "6",
+                                    "8",
+                                    "9",
+                                    "10",
+                                    "12",
+                                    "13",
+                                    "14"
+                                ],
+    "logPath":  "research/m28-12/seattle/works/sea-change/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "8c08c30f9d915a8942ed605287f7993a6514742c8f895b427876a6ffabb3fda2"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/research-batch-01/sea-change-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "963ea8ebb33fcc4fddd52da97e7ca73f2c44231545bb5d39858e2707775b876e"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/works/sea-change/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "3a1514258c67403ce15420dacdd7b157539ec97b05dc4012fdf6a29576ef0b8c"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "70f4ca932399c9446dc20edbac8e60af353f98e6afa768d93894e5b4c9e657bb",
+                        "bytes":  8391
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "167bdaa9cf71b7e03fddd7a2c96929ecfb22eff555d01e9c44aecf9b173d6c61",
+                        "bytes":  469
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "636560f8e3d34962134b56eede4d6ef82d25f23ed7482ef232c07e0ebb8e23a8",
+                        "bytes":  4461
+                    }
+                ]
+}

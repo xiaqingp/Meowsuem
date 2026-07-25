@@ -1,0 +1,40 @@
+{
+    "runId":  "m28-2-v2.2.2-hunters-in-the-snow-author-2026-07-22",
+    "stage":  "author",
+    "pipelineVersion":  "2.2.2",
+    "instructionVersion":  "1.8.1",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-22T22:03:13.6079131-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/generation-pipeline.md",
+                       "sha256":  "4d64aa73c15bea7961053cf4a1143eb83686797240f1e3f52635391e6a73699a"
+                   },
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "sha256":  "9de51ef66bf9bf48f8a2181acf4740e5e205b698d7a45da064e599f1def3e635"
+                   },
+                   {
+                       "path":  "research/pipeline-tests/v2.2.2-three-work-production-patch-2026-07-22/research/hunters-in-the-snow-research-card.md",
+                       "sha256":  "a71628728cdd3bbd5f28bc735e5533dcd2cea516e0eb63466318ac150929018f"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "7d193f92290b97a2de1c6df89034a3ea178c42f836090e600d8b366ca2ce494d",
+                        "bytes":  13086
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "24b018a18fd3d96d634f6f6b742e2f547f8980a7a84af9445c098dceb31171e9",
+                        "bytes":  286
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "5754f227f1b6027a5099434d06bc3cf3bb5744148aeb59a3ff56d282dca40a3c",
+                        "bytes":  6395
+                    }
+                ]
+}

@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-pg-04-peasant-wedding-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:43.098Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "879510f3072247f16973682cfccad7e7fa00f6cbd0b9ebfa0773100c4bb97aa1",
+      "bytes": 10629
+    },
+    {
+      "path": "card.txt",
+      "sha256": "b8594a03816fd82c3fddf637bc10bb3a1cc70944ba40170842f3709321ba3543",
+      "bytes": 217
+    },
+    {
+      "path": "draft.md",
+      "sha256": "729fbbd96bf81c3c7523fb765fd3bcd6c4280b75222545060c7c737959e78a41",
+      "bytes": 4306
+    }
+  ]
+}

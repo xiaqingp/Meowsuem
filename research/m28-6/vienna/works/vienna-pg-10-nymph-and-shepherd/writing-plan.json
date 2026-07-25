@@ -1,0 +1,187 @@
+{
+  "schemaVersion": "author-bundle/1.0",
+  "workId": "vienna-pg-10-nymph-and-shepherd",
+  "displayMetadata": {
+    "by": "提香 Titian · 意大利威尼斯",
+    "date": "约 1570/75",
+    "material": "布面绘画",
+    "place": "Gemäldegalerie Room II · 确认在展（2026-07-24 核验）",
+    "priority": "强烈推荐",
+    "significance": "重要藏品",
+    "stay": "建议停留 6—8 分钟",
+    "availability": "confirmed_on_view",
+    "imagePolicy": "object_image"
+  },
+  "narrativeMainline": {
+    "valueType": "artist_landmark",
+    "mainline": "这件提香晚期作品把人物、风景与可见笔触放进同一套表达：女子的身体、男子的衣物、天空和地景并未被处理成同样光滑的表面，却共同维持着一段无法用确切神话姓名锁死的牧歌关系。人物身份的争议不会使作品失效，反而让观众看清，晚期提香如何让形式本身承担意义。",
+    "readerStartingPoint": "读者从标题和画面可以确认一名横卧的近裸女子、一名戴叶冠持笛的着衣男子、兽皮以及人物背后的天空、树木和远景；无法仅凭这些确认两人的姓名、心理或具体故事时刻。",
+    "storyBeats": [
+      {
+        "step": 1,
+        "materials": [
+          "零背景可确认与图像观察第 1、3、4 条",
+          "来源事实与候选价值证据第 3、4 条"
+        ],
+        "newUnderstanding": "先建立作品的首要价值：晚期提香用区域之间不同的颜料处理，把人物和风景组织为同一个表达整体。"
+      },
+      {
+        "step": 2,
+        "materials": [
+          "来源事实与候选价值证据第 1、2 条",
+          "未确定与断言边界第 1 条"
+        ],
+        "newUnderstanding": "说明题材为何不能被一个确定神话故事锁定，并引入馆方更倾向的牧歌诗解释。"
+      },
+      {
+        "step": 3,
+        "materials": [
+          "零背景可确认与图像观察第 1—4 条",
+          "来源事实与候选价值证据第 4 条",
+          "未确定与断言边界第 2、3 条"
+        ],
+        "newUnderstanding": "把解释落回笛、兽皮、人物间距、天空与各区域不同的完成感，同时划清心理和未完成判断的边界。"
+      },
+      {
+        "step": 4,
+        "materials": [
+          "比较与不可替代性边界全部"
+        ],
+        "newUnderstanding": "用同作者晚期作品界定本作的位置：开放笔触并非本作独有，本作的具体回报来自牧歌式二人关系、身份不定以及人物与风景共同承载意义。"
+      }
+    ],
+    "humorBasis": "",
+    "mustNotAssume": [
+      "女子和男子就是狄俄尼索斯与阿里阿德涅，或就是帕里斯与俄诺涅",
+      "男子因为被拒绝而处在画面边缘",
+      "天空客观证明了人物的心理状态",
+      "不同区域的差异处理说明作品未完成或提香衰老失控",
+      "提香有意创建或直接预见了十九世纪印象派",
+      "现有画幅全部属于提香的原始构图"
+    ],
+    "highRiskClaims": [
+      {
+        "claim": "画中人物的确切身份",
+        "evidenceType": "来源事实与研究争议",
+        "allowedWording": "曾被解释为两组不同的神话人物；馆方更倾向广义牧歌诗语境",
+        "forbiddenUpgrade": "断言某一组姓名就是确定答案"
+      },
+      {
+        "claim": "男子与女子的心理和关系",
+        "evidenceType": "直接观察加馆方解释",
+        "allowedWording": "两人没有身体接触；馆方倾向把场景联系到牧人对不可企及女子的渴望",
+        "forbiddenUpgrade": "把男子写成确定遭到拒绝，或替两人指定内心"
+      },
+      {
+        "claim": "天空与人物状态的关系",
+        "evidenceType": "直接观察加馆方解释",
+        "allowedWording": "天空变化剧烈；馆方把风景与人物状态联系起来",
+        "forbiddenUpgrade": "把天空写成人物心理的客观证明"
+      },
+      {
+        "claim": "开放笔触的艺术史位置",
+        "evidenceType": "馆方来源事实",
+        "allowedWording": "馆方将其视为提香晚期风格，并认为它在形式上预示后来的印象派认识",
+        "forbiddenUpgrade": "声称提香创建了印象派运动"
+      },
+      {
+        "claim": "作品是否未完成",
+        "evidenceType": "馆方对差异处理的说明",
+        "allowedWording": "不同区域采用差异甚至相反的处理，形成不同的完成感",
+        "forbiddenUpgrade": "据此断言作品未完成或提香衰老失控"
+      },
+      {
+        "claim": "作品的不可替代性",
+        "evidenceType": "比较材料",
+        "allowedWording": "它是重要的提香晚期作品，独特回报在于牧歌式二人关系、题材不定以及人物与风景共同承载意义",
+        "forbiddenUpgrade": "声称它是全球唯一或不可替代的提香晚期开放笔触作品"
+      }
+    ]
+  },
+  "claimLedger": [
+    {
+      "id": "C01",
+      "claim": "画面中央是一名横卧于兽皮上的近裸女子，侧边是一名着衣、戴叶冠并持笛的年轻男子。",
+      "type": "direct_observation",
+      "source": "研究卡｜零背景可确认与图像观察第 1 条",
+      "usedIn": ["card", "quick", "deep", "details"]
+    },
+    {
+      "id": "C02",
+      "claim": "两人没有明确身体接触，距离本身不足以确认神话身份或具体关系。",
+      "type": "direct_observation",
+      "source": "研究卡｜零背景可确认与图像观察第 2 条",
+      "usedIn": ["deep", "details", "lastLook"]
+    },
+    {
+      "id": "C03",
+      "claim": "人物背后有变化剧烈的天空、树木和远景；馆方把风景与人物状态联系起来，但这属于解释。",
+      "type": "direct_observation_and_sourced_interpretation",
+      "source": "研究卡｜零背景可确认与图像观察第 3 条",
+      "usedIn": ["quick", "deep", "details", "factBoundary"]
+    },
+    {
+      "id": "C04",
+      "claim": "身体、衣物、天空与地景的颜料处理和完成感不同，画面保留可见笔触。",
+      "type": "direct_observation",
+      "source": "研究卡｜零背景可确认与图像观察第 4 条",
+      "usedIn": ["card", "quick", "deep", "details", "lastLook"]
+    },
+    {
+      "id": "C05",
+      "claim": "左侧有宽约 17 厘米、现被画框遮住的后加接部分，现有宽度不能全视为提香原始构图。",
+      "type": "sourced_fact",
+      "source": "研究卡｜身份与状态；零背景可确认与图像观察第 5 条",
+      "usedIn": ["details", "factBoundary"]
+    },
+    {
+      "id": "C06",
+      "claim": "题材曾被解释为狄俄尼索斯与阿里阿德涅，也曾被解释为帕里斯与俄诺涅。",
+      "type": "sourced_fact",
+      "source": "研究卡｜来源事实与候选价值证据第 1 条",
+      "usedIn": ["deep", "funFact", "factBoundary"]
+    },
+    {
+      "id": "C07",
+      "claim": "KHM 更倾向把作品放入牧歌诗传统，联系到牧人对不可企及女子的渴望，但人物姓名未获文献确认。",
+      "type": "sourced_interpretation",
+      "source": "研究卡｜来源事实与候选价值证据第 1、2 条",
+      "usedIn": ["deep", "funFact", "factBoundary"]
+    },
+    {
+      "id": "C08",
+      "claim": "KHM 将开放、可见的笔触视为提香晚期风格，并认为其在形式上预示后来的印象派认识。",
+      "type": "sourced_fact",
+      "source": "研究卡｜来源事实与候选价值证据第 3 条",
+      "usedIn": ["card", "quick", "deep", "factBoundary"]
+    },
+    {
+      "id": "C09",
+      "claim": "馆方德文详页强调不同区域采用差异甚至相反的处理，并由此增强表现力；笼统称作未完成并不准确。",
+      "type": "sourced_fact_and_editorial_explanation",
+      "source": "研究卡｜来源事实与候选价值证据第 4 条；未确定与断言边界第 3 条",
+      "usedIn": ["deep", "details", "factBoundary"]
+    },
+    {
+      "id": "C10",
+      "claim": "《马西亚斯受剥皮》及其他提香晚期神话或宗教画同样保留开放笔触，并使人物与环境的边界松动。",
+      "type": "sourced_comparison",
+      "source": "研究卡｜比较与不可替代性边界第 1 条",
+      "usedIn": ["deep"]
+    },
+    {
+      "id": "C11",
+      "claim": "本作在比较中的具体差异是牧歌式二人关系、题材身份持续不定以及人物与风景共同承载意义。",
+      "type": "sourced_comparison",
+      "source": "研究卡｜比较与不可替代性边界第 2 条",
+      "usedIn": ["card", "deep", "lastLook"]
+    },
+    {
+      "id": "C12",
+      "claim": "提香有多件晚期代表作，开放笔触本身不足以证明本作全球不可替代。",
+      "type": "sourced_boundary",
+      "source": "研究卡｜比较与不可替代性边界第 3 条",
+      "usedIn": ["deep", "factBoundary"]
+    }
+  ]
+}

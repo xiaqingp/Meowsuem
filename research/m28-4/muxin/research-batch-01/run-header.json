@@ -1,0 +1,146 @@
+{
+  "runId": "m28-4-muxin-fresh-research-batch-01-2026-07-23",
+  "startedAt": "2026-07-24T04:08:51.848Z",
+  "stage": "research",
+  "researchMode": "fresh",
+  "museumId": "muxin",
+  "works": [
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c01",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "《狱中笔记》六十六页文献组",
+        "titleEn": "Prison Notes, group of sixty-six sheets",
+        "museum": "Mu Xin Art Museum"
+      }
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c02",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "《诗经演》手稿本",
+        "titleEn": "Manuscript of Variations on the Practising Book of Odes",
+        "museum": "Mu Xin Art Museum"
+      }
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c03",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "《我纷纷的情欲》手稿本",
+        "titleEn": "Manuscript of The Everfalling Flakes of My Desire",
+        "museum": "Mu Xin Art Museum"
+      }
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c04",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "《巴珑》手稿本",
+        "titleEn": "Manuscript of Parron",
+        "museum": "Mu Xin Art Museum"
+      }
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c05",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "《伪所罗门书》手稿本",
+        "titleEn": "Manuscript of In the Name of Solomon",
+        "museum": "Mu Xin Art Museum"
+      }
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c06",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "《文学回忆录》讲席手稿本",
+        "titleEn": "Lecture manuscripts associated with Literary Memoir",
+        "museum": "Mu Xin Art Museum"
+      }
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c07",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "未完成小说《空房间》手稿",
+        "titleEn": "Manuscript of the unfinished novel An Empty Room",
+        "museum": "Mu Xin Art Museum"
+      }
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c08",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "《诗经》英文改写稿",
+        "titleEn": "English adaptation manuscript of the Book of Odes",
+        "museum": "Mu Xin Art Museum"
+      }
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c09",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "《哥伦比亚的倒影》初稿",
+        "titleEn": "First draft of Reflections of Colombia",
+        "museum": "Mu Xin Art Museum"
+      }
+    },
+    {
+      "museumId": "muxin",
+      "workId": "muxin-c10",
+      "workIdentity": {
+        "artistOrCulture": "木心 Mu Xin",
+        "title": "《双重悲悼》手稿",
+        "titleEn": "Manuscript of Double Mourning",
+        "museum": "Mu Xin Art Museum"
+      }
+    }
+  ],
+  "pipelineVersion": "2.4.3",
+  "instructionVersion": "2.0.1",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c22c60e3a215aa1ac90da402debeb2caf9da39975cb2921c4845ef74ef14c834"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "cde91463dd296ba3f11b6bccfddc15964a256d5c132be913f11062fb6bb7cc66"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "bb9ad5d44fbb6b6382c90e17599c100648ca295800d57ff1b40f3cfc09b039ee"
+    },
+    {
+      "path": "research/m28-4/muxin/research-batch-01/candidate-packet.json",
+      "sha256": "df4351b2a812bfd34cb3650f43b63186027994f3869aaaff1ee4864ad562c77f"
+    }
+  ],
+  "outputs": [
+    "muxin-c01-research-card.md",
+    "muxin-c02-research-card.md",
+    "muxin-c03-research-card.md",
+    "muxin-c04-research-card.md",
+    "muxin-c05-research-card.md",
+    "muxin-c06-research-card.md",
+    "muxin-c07-research-card.md",
+    "muxin-c08-research-card.md",
+    "muxin-c09-research-card.md",
+    "muxin-c10-research-card.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

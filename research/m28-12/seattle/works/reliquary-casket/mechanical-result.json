@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.7.2",
+  "runId": "m28-12-v2.7.2-seattle-author-reliquary-casket-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-25T06:24:44.313Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_availability_from_locked_work_context",
+    "derived_imagePolicy_from_locked_work_context"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "65eef5d61da67ad9a2ec086c7e331c83c46a5df5b78ec91ea243d5d58aafb877",
+      "bytes": 9371
+    },
+    {
+      "path": "card.txt",
+      "sha256": "4652dacc3a55424809384b952d9d910a5bebf2127d5d954a838c3f100fc0477e",
+      "bytes": 544
+    },
+    {
+      "path": "draft.md",
+      "sha256": "a814f1ae015ae80b3cdbeb0afb0c879beaa13c1a5739ab07369b76575b3c07f9",
+      "bytes": 3707
+    }
+  ]
+}

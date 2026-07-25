@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.4.2",
+  "runId": "m28-2-v2.4.2-hunters-value-type-author-2026-07-23",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T02:43:13.864Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_workId_from_run_header",
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "588e45877e84f80864e9e2250298613a3bc46d6a7e51aedaeeb243695f221eb7",
+      "bytes": 8495
+    },
+    {
+      "path": "card.txt",
+      "sha256": "e064cb700c2da26989e2d16568e99a0ed5e6e10d783fbadc3f3a239949bd1c97",
+      "bytes": 334
+    },
+    {
+      "path": "draft.md",
+      "sha256": "c5d7ed0e5ecf0c698d54637263dfa5545218610900ddd719993b5f8f5052f2f0",
+      "bytes": 4167
+    }
+  ]
+}

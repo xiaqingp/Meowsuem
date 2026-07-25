@@ -1,0 +1,159 @@
+{
+  "workId": "gentle-angry-women",
+  "directUpstream": "draft.md",
+  "directUpstreamSha256": "8a3593b8f15614e85d4ccb4a67c09fcb36c12de855266600d44c1afef432ef08",
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "retryReason": "",
+  "narrativeReview": [
+    {
+      "paragraph": "30 秒先懂：建立题名中复数人声与画面无人之间的矛盾，并给出衣物结构承担记录功能的暂时答案。",
+      "dependsOn": "仅依赖题名和画面可见信息，作为读者起点。",
+      "newUnderstanding": "没有人物不是信息不足，而是作品把公共身份从面孔转移到衣物结构的方法。",
+      "breaksIfMovedEarlier": "已是入口段；不能再提前。"
+    },
+    {
+      "paragraph": "深层第一段：从无人画面追问‘我们’留下什么，并把答案落到服装轮廓、颜色和纹样。",
+      "dependsOn": "快层已经建立复数声音与无人画面的落差。",
+      "newUnderstanding": "观众应追踪行动留下的形式线索，而非猜测具体女性身份。",
+      "breaksIfMovedEarlier": "若放在快层前，读者尚未看见题名与画面的矛盾，‘从谁到留下什么’的转向没有起点。"
+    },
+    {
+      "paragraph": "深层第二段：通过石墨网格、几何单元和对称解释图像为何近似制作图，并限定重织说法。",
+      "dependsOn": "上一段已确定公共身份线索寄存在衣物形式中。",
+      "newUnderstanding": "衣物形式不只被描绘，还被拆成可计数、可读取的结构，因此能承担传递意味。",
+      "breaksIfMovedEarlier": "若提前，网格只会成为孤立的形式细节，读者尚不知道为什么制作结构与核心问题有关。"
+    },
+    {
+      "paragraph": "深层第三段：与人物肖像和抗议摄影比较，说明撤去身体与现场所带来的取舍。",
+      "dependsOn": "前段已证明图式怎样保存衣物的结构信息。",
+      "newUnderstanding": "本作放弃复原具体事件的能力，换来一种越过个人相貌来阅读集体身份的方式。",
+      "breaksIfMovedEarlier": "若没有图式机制作为前提，比较只会成为媒介清单，无法说明本作具体增加了什么。"
+    },
+    {
+      "paragraph": "深层第四段：把比较所得的方法差异收束为 Frye 馆藏中的地方与女性主义价值，并主动压低全球稀缺性。",
+      "dependsOn": "上一段已说明本作相对肖像和抗议摄影的决定性差异与局限。",
+      "newUnderstanding": "重要性来自馆内收藏线和记录方法，不来自全球唯一、艺术史首创或生涯高峰。",
+      "breaksIfMovedEarlier": "若先谈馆藏价值，读者还不知道这种记录方法具体怎样不同，判断会显得空泛。"
+    },
+    {
+      "paragraph": "细节清单：把前文论证逐项落回茶染底色、服装外缘、彩色单元、石墨痕迹和题名造成的空位。",
+      "dependsOn": "四个深层段落已经建立颜色、结构、记录方法和复数声音之间的联系。",
+      "newUnderstanding": "五项肉眼线索可以共同验证前文，而非只作装饰性观察。",
+      "breaksIfMovedEarlier": "若提前，观众能看见细节，却不明白它们为何共同回答‘我们去了哪里’。"
+    },
+    {
+      "paragraph": "最后再看一眼：要求沿外缘再进入网格，把色块重新理解为承接复数声音的结构单位。",
+      "dependsOn": "前文已经说明服装形、网格、比较对象与馆藏价值。",
+      "newUnderstanding": "第二眼从辨认一件毛衣转向辨认集体身份怎样分散在相连的格子中。",
+      "breaksIfMovedEarlier": "若放到前面，‘结构单位’和‘复数声音’尚未通过观察与比较建立，只会成为抽象比喻。"
+    }
+  ],
+  "claimClosure": [
+    {
+      "sentence": "Lesperance 成熟期的创作持续把抗议者的针织衣物转译成绘画或编织图式。",
+      "evidenceType": "来源事实的谨慎转述",
+      "sourceOrBasis": "research-card.md 的生涯位置与实践说明",
+      "confidence": "中：研究卡明确支持持续实践与成熟期定位，但未提供艺术家首级文本或具体系列目录。",
+      "verdict": "保留；未绑定具体原型、事件或人物。"
+    },
+    {
+      "sentence": "于是，这张画同时像记录和方案——它保存衣物的形式，也提醒人们，集体身份可以通过手工结构被一格格组织起来。",
+      "evidenceType": "直接观察加编辑推断",
+      "sourceOrBasis": "可见石墨网格、几何色块、对称服装形；研究卡关于服装作为行动档案的方法",
+      "confidence": "中：图式感与结构可直接观察；‘组织起来’是有可见依据的解释性措辞。",
+      "verdict": "保留；下一句明确限定不能确认真实重织。"
+    },
+    {
+      "sentence": "传统人物肖像和抗议摄影常靠身体、面孔或现场保存公共身份。",
+      "evidenceType": "编辑比较",
+      "sourceOrBasis": "research-card.md 指定的最近比较对象及相同点",
+      "confidence": "中：比较类别可靠，正文使用‘常’避免无边界概括。",
+      "verdict": "保留。"
+    },
+    {
+      "sentence": "它更具体的价值发生在馆藏内部：Lesperance 是太平洋西北艺术家，这张纸上作品又把女性主义收藏与一种少见的记录方法连在一起——服装不只是人物的附属物，也能成为行动留下的档案。",
+      "evidenceType": "来源事实加编辑判断",
+      "sourceOrBasis": "research-card.md 的 Pacific Northwest Artists 归类、五维馆藏叙事 5/5 与不可替代性边界",
+      "confidence": "中高：馆内归类与收藏作用有研究卡支持；‘少见’只描述馆内方法，不扩展为全球数量判断。",
+      "verdict": "保留；同段明确否认全球唯一与生涯高峰证据。"
+    },
+    {
+      "sentence": "现有证据支持本作属于 Lesperance 将抗议者针织衣物转译为绘画或编织图式的实践；具体原型人物、照片、抗议时间地点及是否曾据此重织，无法由本作确认。",
+      "evidenceType": "证据边界",
+      "sourceOrBasis": "research-card.md 的实践说明与风险/禁写项",
+      "confidence": "高：正面范围与未知项均直接来自研究卡。",
+      "verdict": "保留；这是访客理解作品所需的证据限度，不含内部待办。"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这张画把抗议者的脸和身体拿掉，只留下像毛衣制作图一样的颜色、轮廓和网格，让人看见衣物也能替一群人的行动保存身份线索。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed"
+  },
+  "productionLanguageScan": {
+    "scope": [
+      "card.txt 的访客可见文字",
+      "draft.md 的标题、元数据、快层、深层、细节、最后一眼、事实边界与资料行"
+    ],
+    "forbiddenCategories": [
+      "研究缺口",
+      "图片许可任务",
+      "发布任务或状态",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "迁移或版本流程"
+    ],
+    "findings": [],
+    "verdict": "clean"
+  },
+  "significanceReview": {
+    "level": "特色看点",
+    "fiveDimensions": {
+      "artisticAchievement": "茶染暖色、水粉几何形、石墨网格与对称构图共同建立介于图像和制作图之间的形式机制。",
+      "artHistoricalPosition": "能代表艺术家成熟期的抗议针织物转译实践；没有证据支持首创、转折或生涯高峰。",
+      "historicalCulturalValue": "以衣物结构保存社会运动的公共身份线索，但不能复原具体事件全貌。",
+      "rarityAndIrreplaceability": "传统人物肖像或抗议摄影是最近比较对象；本作的差异是以可读取的针织结构替代身体、面孔与现场。全球数量和不可替代性未知。",
+      "collectionPosition": "为 Frye 的太平洋西北与女性主义收藏增加‘服装作为行动档案’的方法。"
+    },
+    "nearestComparator": "传统人物肖像或抗议摄影",
+    "boundaryCheck": "正文没有使用稀世珍品、唯一、首次、艺术家最高峰或决定行程的措辞；符合 Frye 72 分馆级边界。",
+    "verdict": "重要性标签与证据相称，比较对象、差异、馆内价值和未知边界均已进入正文。"
+  },
+  "observableDetailCheck": {
+    "count": 5,
+    "details": [
+      "茶染暖褐纸面",
+      "左右对称的服装外缘",
+      "成组彩色几何单元",
+      "可见石墨网格与记号",
+      "复数题名与无人画面的落差"
+    ],
+    "verdict": "均可由作品或可靠图像现场核对；未把姿态升级为心理。"
+  },
+  "progressiveQuestionCheck": {
+    "question": "没有身体和面孔，这张像针织图表的画为什么仍能留下集体行动的痕迹？",
+    "verdict": "快层给出暂时答案，四个深层段落依次解释载体、结构、比较取舍与馆藏价值，最后一眼回收同一问题。"
+  },
+  "authorVoiceCandidate": {
+    "entry": 2,
+    "causality": 2,
+    "people": 1,
+    "turn": 2,
+    "visualPayoff": 2,
+    "spokenClarity": 2,
+    "secondLook": 2,
+    "total": 13,
+    "note": "仅为作者候选意见，不构成最终通过证据。"
+  },
+  "unresolvedRisks": [
+    "具体原型照片、抗议年份、地点与人物身份未确认，正文已回避具体化。",
+    "题名对应歌曲或口号的首级来源未确认，正文只使用题名本身可见的复数口吻。",
+    "是否曾依据图式真实重织未确认，正文明确限制为图式感与可读取结构。",
+    "当前展陈状态易变；正文只写稳定馆藏、既往展期及状态可能变化。",
+    "对象直接图像与复用许可未确认，仅保留在本内部记录，未进入访客正文。"
+  ],
+  "finalPassIssued": false
+}

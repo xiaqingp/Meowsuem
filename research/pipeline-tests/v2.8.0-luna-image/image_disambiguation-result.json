@@ -1,0 +1,43 @@
+{
+    "runId":  "v2.8.0-luna-image-contract",
+    "stage":  "image_disambiguation",
+    "museumId":  "seattle",
+    "workId":  "",
+    "pipelineVersion":  "2.8.0",
+    "instructionVersion":  "2.2.0",
+    "model":  "gpt-5.6-luna",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-07-25T02:03:33.2848006-07:00",
+    "modelStartedAt":  "2026-07-25T02:03:33.6304646-07:00",
+    "modelCompletedAt":  "2026-07-25T02:03:54.7557370-07:00",
+    "completedAt":  "2026-07-25T02:03:54.7786752-07:00",
+    "runnerDurationMs":  21494,
+    "modelDurationMs":  21125,
+    "tokenUsage":  {
+                       "total":  17381,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "1"
+                                ],
+    "logPath":  "research/pipeline-tests/v2.8.0-luna-image/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "643828b23ac5de2049ffcc19130c95401d45f4e4c7e9a69982a946204f9cb6d7"
+                   },
+                   {
+                       "path":  "research/pipeline-tests/v2.8.0-luna-image/image-candidate-packet.json",
+                       "role":  "image_candidate_packet",
+                       "sha256":  "81be7f483a3d3cec85d84dcb3066919990505e683a2e439b1263df584a911f64"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "image-decisions.json",
+                        "sha256":  "259322efcbf4609857ed65b598305c9f4998426beef26ec79c93e105245582c2",
+                        "bytes":  780
+                    }
+                ]
+}

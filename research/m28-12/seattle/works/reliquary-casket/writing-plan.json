@@ -1,0 +1,272 @@
+{
+  "workId": "reliquary-casket",
+  "narrativeMainline": {
+    "valueType": "ritual_or_original_context",
+    "mainline": "这只小匣用屋形结构、环绕各面的圣徒形象和鎏金珐琅表皮，把原本藏在容器里的圣人遗物转化为可以展示和崇敬的对象。木胎负责支撑，铜、鎏金与有色珐琅负责塑造珍贵的外观，形制、材料和宗教用途因此连成一体。",
+    "storyBeats": [
+      {
+        "beat": "先说明圣物匣储存并展示圣人遗物的用途，再由屋形轮廓、正面人物框格和多面装饰建立“容器如何让不可见遗物获得可见外观”的核心关系。",
+        "researchRefs": [
+          "R02",
+          "R03",
+          "R09",
+          "R10",
+          "R12"
+        ],
+        "readerGain": "读者先理解这不是普通装饰盒，而是一件以形状和图像服务宗教崇敬的容器。"
+      },
+      {
+        "beat": "解释木胎外包铜、錾出凹槽、填入釉料并热熔、最后鎏金的材料结构，把金色人物与有色底面的对照落实到制作方法。",
+        "researchRefs": [
+          "R04",
+          "R11"
+        ],
+        "readerGain": "读者理解珍贵外观怎样由木质结构与金属、珐琅表皮共同形成。"
+      },
+      {
+        "beat": "把本作与年代和工艺接近的 Met 圣物匣并置，说明同类作品共享的核心价值以及本作图像方案的差异，同时收窄稀有度判断。",
+        "researchRefs": [
+          "R06",
+          "R07",
+          "R08"
+        ],
+        "readerGain": "读者知道它的重要性在于紧凑呈现中世纪宗教器物的用途与工艺，而不在于工艺类别全球唯一。"
+      },
+      {
+        "beat": "以绕看屋顶、正面和端面的动作收束，并说明具体圣徒、遗物与原教堂仍未知。",
+        "researchRefs": [
+          "R02",
+          "R05",
+          "R12"
+        ],
+        "readerGain": "读者能带着用途和证据边界复看各面，而不会把未确认身份当成事实。"
+      }
+    ],
+    "humorBasis": "木胎几乎被鎏金铜与珐琅从视觉上覆盖：结构朴素，表皮负责庄严。",
+    "highRiskClaims": [
+      {
+        "claim": "作品的产地是法国 Limoges。",
+        "evidenceType": "来源事实",
+        "researchRefs": [
+          "R01"
+        ],
+        "allowedWording": "可能制于法国，也可能来自 Limoges。",
+        "forbiddenUpgrade": "不得删除两个“可能”，不得确定具体工坊。"
+      },
+      {
+        "claim": "八位人物是某些特定圣徒，匣内曾藏某位圣人的遗物。",
+        "evidenceType": "来源事实及证据限度",
+        "researchRefs": [
+          "R02"
+        ],
+        "allowedWording": "公开资料只确认正面六位、两端各一位站立圣徒；具体身份和原藏遗物未知。",
+        "forbiddenUpgrade": "不得为人物命名，不得推定所藏遗物。"
+      },
+      {
+        "claim": "匣子的制作者意在用昂贵外表欺骗观看者。",
+        "evidenceType": "编辑整理",
+        "researchRefs": [
+          "R03",
+          "R04",
+          "R11"
+        ],
+        "allowedWording": "贵金属与珐琅覆盖使容器获得适合展示和崇敬的珍贵外观。",
+        "forbiddenUpgrade": "不得宣称制作者的确定心理、意图或欺骗效果。"
+      },
+      {
+        "claim": "本作是唯一或不可替代的 Limoges 圣物匣。",
+        "evidenceType": "来源比较",
+        "researchRefs": [
+          "R06",
+          "R07",
+          "R08"
+        ],
+        "allowedWording": "Met 藏有年代与工艺高度接近的同类作品；本作的区别在公开资料所确认的八位站立圣徒图像方案。",
+        "forbiddenUpgrade": "不得写成唯一、仅存、最杰出或全球不可替代。"
+      },
+      {
+        "claim": "现存各面的图像按真实历史时间展开。",
+        "evidenceType": "直接观察及来源事实",
+        "researchRefs": [
+          "R02",
+          "R07",
+          "R12"
+        ],
+        "allowedWording": "装饰分布在屋顶、正面和端面，需要从不同方向观看；公开资料只确认站立圣徒。",
+        "forbiddenUpgrade": "不得把绕看的次序写成事件的真实时间顺序或一套已确认叙事。"
+      },
+      {
+        "claim": "收藏来源能够还原作品的中世纪教会原境。",
+        "evidenceType": "来源事实及证据限度",
+        "researchRefs": [
+          "R05"
+        ],
+        "allowedWording": "近现代来源链可追溯，1949 年由 SAM 购入；更早的教会原境未知。",
+        "forbiddenUpgrade": "不得指定原教堂、原陈设方式或内部原装置。"
+      }
+    ]
+  },
+  "mustNotAssume": [
+    "不得假定具体工坊、确定法国或 Limoges 产地。",
+    "不得假定八位圣徒的姓名、人物关系或叙事情节。",
+    "不得假定匣内原藏何种遗物、来自哪座教堂或仍保留原内部装置。",
+    "不得把绕看不同面的观看顺序当成真实历史时间顺序。",
+    "不得宣称制作者的确定宗教意图或人物心理。",
+    "不得把本作称为唯一、仅存、最杰出或全球不可替代的同类器。",
+    "不得暗示作品目前在展。"
+  ],
+  "displayMetadata": {
+    "by": "可能为法国制作，可能来自 Limoges",
+    "date": "约 1200—1225",
+    "material": "木胎外包铜，錾胎珐琅并鎏金",
+    "place": "Seattle Art Museum，49.38",
+    "priority": "时间充裕再看",
+    "significance": "特色看点",
+    "stay": "3—5 分钟",
+    "availability": "collection_rotation",
+    "imagePolicy": "object_image"
+  },
+  "claimLedger": [
+    {
+      "claimId": "C01",
+      "claim": "作品约作于 1200—1225，产地仅能限定为可能法国、可能 Limoges。",
+      "researchRefs": [
+        "R01"
+      ],
+      "usedIn": [
+        "displayMetadata",
+        "draft 事实边界"
+      ]
+    },
+    {
+      "claimId": "C02",
+      "claim": "作品采用屋形或传统石棺式圣物匣形制，正面六位站立圣徒，两端各一位；身份和原藏圣物未确认。",
+      "researchRefs": [
+        "R02"
+      ],
+      "usedIn": [
+        "card",
+        "draft 30 秒先懂",
+        "draft 深层",
+        "draft 事实边界"
+      ]
+    },
+    {
+      "claimId": "C03",
+      "claim": "中世纪圣物匣用于储存和展示圣人遗物，chasse 是常见匣式形制，容器常饰以贵金属、宝石和珐琅。",
+      "researchRefs": [
+        "R03"
+      ],
+      "usedIn": [
+        "card",
+        "draft 30 秒先懂",
+        "draft 深层"
+      ]
+    },
+    {
+      "claimId": "C04",
+      "claim": "作品为木胎外包铜，使用錾胎珐琅和鎏金；錾胎珐琅是在金属表面凿槽，以边界隔开釉色，再经热熔结合。",
+      "researchRefs": [
+        "R04"
+      ],
+      "usedIn": [
+        "displayMetadata",
+        "card",
+        "draft 深层",
+        "draft 趣闻"
+      ]
+    },
+    {
+      "claimId": "C05",
+      "claim": "作品近现代来源链可追至多个收藏者和经销商，1949 年由 SAM 购入；更早教会原境未知。",
+      "researchRefs": [
+        "R05"
+      ],
+      "usedIn": [
+        "draft 事实边界"
+      ]
+    },
+    {
+      "claimId": "C06",
+      "claim": "Met 14.40.703 是约 1200—1220、年代和工艺高度接近的小型 Limoges 珐琅圣物匣，因此本作不具全球不可替代性。",
+      "researchRefs": [
+        "R06"
+      ],
+      "usedIn": [
+        "draft 深层"
+      ]
+    },
+    {
+      "claimId": "C07",
+      "claim": "比较件有特定铭文或可能叙事，本作公开资料仅确认八位站立圣徒；差异在图像方案而非工艺类别唯一。",
+      "researchRefs": [
+        "R07"
+      ],
+      "usedIn": [
+        "draft 深层"
+      ]
+    },
+    {
+      "claimId": "C08",
+      "claim": "作品适合作为特色看点，集中呈现宗教崇敬、容器形制和 Limoges 珐琅工艺，但不满足稀世珍品门槛。",
+      "researchRefs": [
+        "R08"
+      ],
+      "usedIn": [
+        "displayMetadata",
+        "card",
+        "draft 深层"
+      ]
+    },
+    {
+      "claimId": "C09",
+      "claim": "整体为带斜坡屋顶的小匣，轮廓接近缩小的石棺或建筑。",
+      "researchRefs": [
+        "R09"
+      ],
+      "usedIn": [
+        "card",
+        "draft 30 秒先懂",
+        "draft 深层"
+      ]
+    },
+    {
+      "claimId": "C10",
+      "claim": "正面站立人物被分隔在重复的拱形或框格中。",
+      "researchRefs": [
+        "R10"
+      ],
+      "usedIn": [
+        "card",
+        "draft 30 秒先懂",
+        "draft 深层"
+      ]
+    },
+    {
+      "claimId": "C11",
+      "claim": "金色金属人物与有色珐琅底形成材质对照。",
+      "researchRefs": [
+        "R11"
+      ],
+      "usedIn": [
+        "card",
+        "draft 30 秒先懂",
+        "draft 深层",
+        "draft 最后一眼"
+      ]
+    },
+    {
+      "claimId": "C12",
+      "claim": "屋顶、正面和端面都有装饰，观看需要绕到侧面，不能只看正面。",
+      "researchRefs": [
+        "R12"
+      ],
+      "usedIn": [
+        "card",
+        "draft 30 秒先懂",
+        "draft 深层",
+        "draft 最后一眼"
+      ]
+    }
+  ]
+}

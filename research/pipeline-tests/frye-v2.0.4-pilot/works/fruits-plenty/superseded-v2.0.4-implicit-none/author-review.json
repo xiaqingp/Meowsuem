@@ -1,0 +1,202 @@
+{
+  "workId": "fruits-plenty",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "1165c7607c5a1743802babfc3496e10b789bda582de5972ba481f4dbfa66500d"
+  },
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "finalPassIssued": false,
+  "paragraphDependency": [
+    {
+      "paragraph": "30秒先懂",
+      "dependsOn": "读者只需看见两幅水果图像、技术参照与反相效果。",
+      "newUnderstanding": "作品的暂时答案从水果转到决定水果怎样被拍摄、命名和归类的框架。",
+      "breaksIfMovedEarlier": "这是入口段，不能再提前；删除它会使深层缺少可见矛盾与暂时答案。"
+    },
+    {
+      "paragraph": "深层第一段：技术痕迹为何留在画面",
+      "dependsOn": "快层已建立‘技术痕迹也是内容’的暂时答案。",
+      "newUnderstanding": "校色、尺标、编号和反相让摄影处理过程可见，两幅并置提供比较而不构成历史先后。",
+      "breaksIfMovedEarlier": "若移到快层之前，读者尚未知道核心问题，也无法理解为何要区分比较方式与时间顺序。"
+    },
+    {
+      "paragraph": "深层第二段：Warshaw档案与方向命名",
+      "dependsOn": "上一段已把边角技术痕迹提升为需要解释的画面主体。",
+      "newUnderstanding": "这些痕迹来自约1900年商业档案；Oriental/Occidental 显示档案也用西方参照的语言组织世界。",
+      "breaksIfMovedEarlier": "若提前，历史词汇会变成孤立背景，尚未回答它为什么在这幅作品中值得注意。"
+    },
+    {
+      "paragraph": "深层第三段：丰盛感怎样被改写",
+      "dependsOn": "读者已理解摄影处理与档案命名都不是透明背景。",
+      "newUnderstanding": "水果静物的丰盛表面被编号、校色、方向词和反相打断，并由此落到西久科的成熟期方法与Frye静物线索。",
+      "breaksIfMovedEarlier": "若提前，‘打断自然主义幻觉’缺少前两段提供的具体机制，作者方法和馆藏位置会退化成栏目。"
+    },
+    {
+      "paragraph": "深层第四段：比较与重要性边界",
+      "dependsOn": "前三段已经说明本作具体做了什么、为何改变静物观看。",
+      "newUnderstanding": "传统丰饶静物是最近比较对象；差异支持重要藏品与馆内不可替代性，但不支持稀世珍品或生涯转折。",
+      "breaksIfMovedEarlier": "若提前，重要性结论尚无视觉机制、档案背景和馆藏作用支撑。"
+    },
+    {
+      "paragraph": "可观察细节清单",
+      "dependsOn": "深层已解释色调、技术参照、并置、题名与档案痕迹分别改变什么认识。",
+      "newUnderstanding": "读者可以把抽象的档案分类问题逐项落实到五个现场可核对细节。",
+      "breaksIfMovedEarlier": "若提前，细节只会成为寻物清单，尚不能兑现核心问题。"
+    },
+    {
+      "paragraph": "最后再看一眼",
+      "dependsOn": "全文已把水果与决定其可见方式的框架同时建立为观看对象。",
+      "newUnderstanding": "往返两幅并追踪制度痕迹后，再回看水果，‘丰盛’会显出选择、命名与处理的条件。",
+      "breaksIfMovedEarlier": "若提前，动作虽可执行，却没有前文建立的第二眼判断。"
+    }
+  ],
+  "reorderTest": {
+    "attemptedMove": "把重要性比较段移到档案命名段之前。",
+    "result": "failed",
+    "reason": "最近比较对象与馆藏作用会先于视觉机制和历史分类框架出现，读者无法知道差异为何具有意义。"
+  },
+  "claimClosure": [
+    {
+      "sentence": "它们取材于史密森尼美国国家历史博物馆约1900年的商业档案。",
+      "evidenceType": "来源事实",
+      "sourceOrBasis": "研究卡与Frye年度报告所录长题名，指向 Smithsonian NMAH Warshaw Collection of Business Americana circa 1900。",
+      "confidence": "高：馆方材料直接记录档案来源。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "其中一幅还呈现反相效果。",
+      "evidenceType": "直接观察与子题名",
+      "sourceOrBasis": "可靠图像观察；子题名含 Inverted。",
+      "confidence": "高：画面效果可见，措辞未推断制作先后。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "Oriental 与 Occidental 把世界分成‘东方’和‘西方’，参照点来自西方的命名秩序。",
+      "evidenceType": "来源背景与编辑解释",
+      "sourceOrBasis": "研究卡明确约1900商业档案分类词汇承载西方中心的地理／商品秩序；正文限定在命名框架。",
+      "confidence": "中高：分类词与档案语境明确；未升级为具体历史事件或作者唯一意图。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "这是西久科成熟期档案再摄影方法在本作中的具体落点。",
+      "evidenceType": "来源事实与可见方法",
+      "sourceOrBasis": "研究卡将2021年定位为其对档案、分类、摄影标准与殖民命名持续研究的成熟期；画面可见重新摄影、编排、校色与反相。",
+      "confidence": "中高：方法与时期有资料支持，未称转折、首次或巅峰。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "它更准确的位置，是一件能改变 Frye 静物观看方式的重要藏品。",
+      "evidenceType": "五维重要性与最近对象比较",
+      "sourceOrBasis": "五维为4/5、3/5、3/5、3/5、5/5；最近比较对象为传统丰饶水果静物，决定性差异为档案编号、方向命名、校色与反相进入中心。",
+      "confidence": "中高：馆内作用明确，全球稀缺性与生涯节点有限，故收窄为重要藏品。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "当前 On View 列表未列出本作。",
+      "evidenceType": "核验日期下的易变来源事实",
+      "sourceOrBasis": "研究卡记录2026-07-22当前 On View 未检出。",
+      "confidence": "高但易变：正文已要求到访时以馆方现场信息为准。",
+      "verdict": "retain"
+    }
+  ],
+  "riskCategoryChecks": {
+    "psychology": "无人物心理或艺术家心理断言。",
+    "historicalSequence": "明确反相与两幅比较不代表真实时间先后。",
+    "imageClaimVsHistory": "作品用于重新解释约1900商业档案，不把水果图像当成原产地或贸易路线证据。",
+    "artistIntent": "只写资料支持的持续研究方法，不声称单一、明确或私人意图。",
+    "superlatives": "无首次、唯一、最早、最重要、世界级等结论。",
+    "irreplaceability": "仅说明传统丰饶静物不能替代本作在Frye内部同时观察档案语言与摄影标准的价值，并明确同类方法非其独有。"
+  },
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这两幅水果图故意把校色、编号、反相和东西方命名都露出来，让人看到商业档案不仅保存东西，也会决定东西怎样被看见。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "notes": "标题可直接口头复述；快层在一段内完成画面矛盾、档案来源与暂时答案；段落转折由‘技术痕迹—档案来历—丰盛感—重要性’推进。全文保留完整主语，未用抽象名词堆叠代替动作。"
+  },
+  "productionLanguageScan": {
+    "scope": [
+      "card.txt访客可见句",
+      "draft.md标题、元数据、快层、深层、细节、最后一眼、事实边界与资料行"
+    ],
+    "forbiddenCategories": {
+      "researchGap": 0,
+      "imageLicenseTask": 0,
+      "publicationTask": 0,
+      "testLanguage": 0,
+      "promptLanguage": 0,
+      "generatorLanguage": 0,
+      "reviewerLanguage": 0,
+      "migrationLanguage": 0
+    },
+    "verdict": "clear"
+  },
+  "cardReview": {
+    "independentClickReason": true,
+    "copiedFromQuickLayer": false,
+    "startsWithGenericViewingCommand": false,
+    "visibleCharacterBoundary": "within 24–100 visible Chinese-character range by author inspection",
+    "workSpecificity": "同时点出水果、反相、校色标记与百年前商业档案分类，遮住作品名仍可辨认对象。"
+  },
+  "structureReview": {
+    "quickLayerPromiseFulfilled": true,
+    "deepLayerIndependentWithoutQuickLayer": true,
+    "quickLayerUsefulWithoutDeepLayer": true,
+    "singleProgressiveQuestion": "为什么这组水果图像把校色参照、档案标识和方向命名都留在画面里？",
+    "observableDetailCount": 5,
+    "secondLookIsWorkSpecific": true,
+    "contrastSkeletonCountOutsideFactBoundary": 0
+  },
+  "significanceReview": {
+    "level": "重要藏品",
+    "fiveDimensionsCovered": true,
+    "nearestComparator": "传统丰饶水果静物",
+    "sharedValue": "水果陈列与丰盛视觉。",
+    "decisiveDifference": "本作让档案编号、方向命名、校色参照和反相成为中心。",
+    "rarityBoundary": "同类档案批评方法并非西久科独有；全球同类数量与版次未确认。",
+    "frye72BoundaryRespected": true,
+    "reason": "正文不称稀世珍品、旅行级孤品、生涯巅峰或决定行程的作品，只陈述其Frye馆内收藏线作用。"
+  },
+  "voiceCandidateScores": {
+    "entry": {
+      "score": 2,
+      "evidence": "‘两幅水果图像并排出现，却没有把档案编号、校色或测量参照藏起来’立即建立对象专属矛盾。"
+    },
+    "causality": {
+      "score": 2,
+      "evidence": "技术痕迹使处理过程可见，继而引出档案来历与分类语言，最终改变对‘丰盛’的理解。"
+    },
+    "people": {
+      "score": 1,
+      "evidence": "本作核心由档案制度、命名与艺术家的重新摄影选择推动；无须虚构具体历史人物。"
+    },
+    "turn": {
+      "score": 2,
+      "evidence": "‘理解了这层安排，再看“丰盛”就会多出一道缝’由前两段证据改变静物判断。"
+    },
+    "visualPayoff": {
+      "score": 2,
+      "evidence": "编号、校色、反相、横向并置与成对题名全部回到可观察细节。"
+    },
+    "oralClarity": {
+      "score": 2,
+      "evidence": "一口气转述可用日常中文完成，连续朗读无生硬概念压缩。"
+    },
+    "secondLook": {
+      "score": 2,
+      "evidence": "结尾要求在两幅间追踪校色、标识和反相，再回看水果是否仍显得自然形成。"
+    },
+    "total": 13,
+    "note": "仅为作者阶段候选评分，不构成最终通过证据。"
+  },
+  "unresolvedRisks": [
+    ".01/.02 与 Inverted/Oriental、Occidental 的具体对应关系仍未确认；正文未写对应关系。",
+    "Inverted/Oriental 的尺寸仍未确认；正文只陈述官方已确认的 Occidental 尺寸。",
+    "全球同类作品数量、版次与不可替代性边界未确认；重要性保持为重要藏品。",
+    "当前未在 On View 列表检出属于易变信息，到访时仍须以馆方现场状态为准。",
+    "图片直接地址与复用许可未确认，仅保留在内部风险中。"
+  ]
+}

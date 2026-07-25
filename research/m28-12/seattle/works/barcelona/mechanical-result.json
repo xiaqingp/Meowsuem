@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.7.2",
+  "runId": "m28-12-v2.7.2-seattle-author-barcelona-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-25T06:24:43.196Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_availability_from_locked_work_context"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "bae10c12616cba24e88d0bc3cc1155cc285b8a3212f68ca5926a6d009d5f95dd",
+      "bytes": 8011
+    },
+    {
+      "path": "card.txt",
+      "sha256": "630cae3f86f889bc34056fbeb77248c88cc43df0538ddf7755c3d193ac4fc0fc",
+      "bytes": 406
+    },
+    {
+      "path": "draft.md",
+      "sha256": "fc7cae0ffffae888053a7f916b352c97b09b7304218656614ead3b687d4861be",
+      "bytes": 4387
+    }
+  ]
+}

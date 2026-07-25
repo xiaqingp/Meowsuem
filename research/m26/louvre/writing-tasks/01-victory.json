@@ -1,0 +1,35 @@
+{
+  "workId": "victory",
+  "instructionVersion": "1.6.7",
+  "readerStartingPoint": "读者在达鲁楼梯先看到一尊无头无臂、长着翅膀的巨大石像；不需要假定他已知道海战、圣所或复原史。",
+  "narrativeQuestion": "她明明立在石头上，为什么看起来像刚冲进一阵海风？",
+  "quickLayerPlan": {
+    "visibleTension": "雕像静止而且残缺，衣褶、身体和船首却共同制造正在迎风前进的感觉。",
+    "provisionalAnswer": "雕刻家让身体前倾、衣料一面贴身一面向后翻卷，再让整座雕像站到船首上。",
+    "viewingRoute": "从左腿与腹部贴身衣褶开始，沿外翻衣边上看双翼，最后把船首基座纳入整体。"
+  },
+  "logicSequence": [
+    {"discovery": "贴身与飞起的衣褶同时出现", "changesUnderstanding": "风不是环境说明，而是由石面两种处理直接造出来", "thereforeNext": "这股风为什么需要一艘船"},
+    {"discovery": "脚下基座本身是一艘船的船首", "changesUnderstanding": "人物不只是抽象胜利，而是被放进海上奉献语境", "thereforeNext": "现代楼梯与古代圣所的观看有何不同"},
+    {"discovery": "作品来自萨莫色雷斯大神圣所，具体海战仍未确定", "changesUnderstanding": "可以确认纪念性海上胜利，却不能替它指定唯一事件", "thereforeNext": "残缺和复原怎样参与今天的动作感"},
+    {"discovery": "雕像、船首与基座由不同石材和多块构件组成，部分位置经现代补配", "changesUnderstanding": "眼前的完整冲势来自古代组合与现代保存共同成立", "thereforeNext": "为什么比较对象仍不能替代这一整组经验"},
+    {"discovery": "奥林匹亚胜利女神能比较大型原作与高位展示，却没有本作船首—圣所组合", "changesUnderstanding": "不可替代性来自雕像、海上基座、原发现地与现代观看史的共同证据", "thereforeNext": "回到第一眼，重新把风、身体和船看成一个动作"}
+  ],
+  "humorBasis": "可为空；若保留轻微口语，只来自三万二千公斤石材却显得迎风移动的尺度反差。",
+  "falsePremisesToAvoid": ["不要声称观众以为她是天使", "不要确定她纪念某一场具体海战", "不要把现代楼梯说成古代原位", "不要把缺失头臂说成动作感的原因"],
+  "claimBoundaryPlan": [
+    {"claim": "作品纪念海上胜利", "evidenceType": "ship-shaped base and sanctuary scholarship", "allowedWording": "海上胜利纪念物", "forbiddenUpgrade": "指定未有定论的海战"},
+    {"claim": "风压住衣料", "evidenceType": "direct observation and sculptural analysis", "allowedWording": "衣褶让身体像迎着风", "forbiddenUpgrade": "声称可确认真实风向"},
+    {"claim": "古代观看位置", "evidenceType": "archaeological reconstruction with competing proposals", "allowedWording": "圣所中的高位纪念组合", "forbiddenUpgrade": "把现代达鲁楼梯等同原境"},
+    {"claim": "重要性", "evidenceType": "bounded comparison with Paionios Nike", "allowedWording": "船首、圣所来源和大型希腊化原作组合难以替代", "forbiddenUpgrade": "世界唯一大型胜利女神"}
+  ],
+  "historicalContextRequired": true,
+  "historicalContextPlan": {
+    "beforeState": "希腊世界长期用胜利女神形象庆祝军事成功，并把纪念物放入神圣空间。",
+    "changeOrConflict": "希腊化时代的海上竞争催生大型胜利奉献物，但本作对应的具体冲突仍有争论。",
+    "objectRole": "以站在船首的胜利女神把一次海上成功转成可公开观看的奉献纪念物。",
+    "consequence": "人物、船体和圣所位置被合成一个需要移动视线才能读完的纪念场景。",
+    "uncertainty": "具体委托者、制作地和所纪念战役不能定论。",
+    "placement": "快层只交代船首与海风；深层第三段交代圣所、纪念功能与争议。"
+  }
+}

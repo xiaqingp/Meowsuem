@@ -1,0 +1,98 @@
+{
+  "name": "Meowseum Generation Pipeline",
+  "version": "2.4.9",
+  "status": "active",
+  "frozenAt": "2026-07-24",
+  "sourceManifest": "research/content-standard-manifest.json",
+  "canonicalFiles": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "42c0b15b31bcf0424dd45318871ed1983629131328d0080a0a1acbeeda6ec30c"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "version": "2.0.2",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "scripts/run-isolated-generation.ps1",
+      "sha256": "6ab4bc87e31394df0d12245ec4fecf0e4a54e28d6fbccf3ce20b1f811fee8cb8"
+    },
+    {
+      "path": "scripts/report-museum-generation.mjs",
+      "sha256": "92f0fd77acf68e293418064197ca37235f5a40eb41c0494c6fa90347c4869f15"
+    },
+    {
+      "path": "scripts/prepare-author-research-input.mjs",
+      "sha256": "ff09bdd2e4b2d292308798ef3e210dd2d801dab5eed936bd698846768dab608d"
+    },
+    {
+      "path": "scripts/process-author-bundle.mjs",
+      "sha256": "acd01ba270097d6b426add9a7a4800d6baaf9a4fa2378f2ad8a9cfd75ad095b7"
+    },
+    {
+      "path": "scripts/process-museum-rating.mjs",
+      "sha256": "7c3cd66598df1831e95d3e5b1e508df00163297334ac5cd103911de16072de8f"
+    },
+    {
+      "path": "scripts/freeze-pipeline-release.mjs",
+      "sha256": "838469cc748fca65cfcf7a93bc8ac6a73e44db55c9afa6f581f1c27740ac9f16"
+    }
+  ],
+  "changeControl": {
+    "id": "PCR-2026-07-24-01",
+    "record": "research/pipeline-changes/PCR-2026-07-24-01.json",
+    "recordSha256": "83c64de1fd989f3f60af6936872b27354d40a884504caf67125cb1d683c9e2f6",
+    "baseRelease": "research/pipeline-releases/v2.4.8.json",
+    "changedCanonicalFiles": [
+      "research/generation-pipeline.md",
+      "scripts/run-isolated-generation.ps1",
+      "scripts/report-museum-generation.mjs",
+      "scripts/freeze-pipeline-release.mjs"
+    ]
+  },
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "freshResearchMaxWorksPerContext": 10,
+    "reviewerMode": "disabled",
+    "completionReportRequired": true,
+    "authorBundleOutputs": [
+      "writing-plan.json",
+      "card.txt",
+      "draft.md"
+    ]
+  },
+  "stageInputContracts": {
+    "author": {
+      "version": 1,
+      "requiredRoles": [
+        "content_instruction",
+        "research_card",
+        "work_context"
+      ],
+      "optionalRoles": [
+        "research_supplement"
+      ],
+      "maxInputsByRole": {
+        "content_instruction": 1,
+        "research_card": 1,
+        "work_context": 1,
+        "research_supplement": 1
+      },
+      "maxTotalBytes": 90000
+    }
+  },
+  "stateMachine": [
+    "research_card",
+    "author_bundle",
+    "mechanical_processed"
+  ],
+  "acceptedRegression": {
+    "authorBundleResult": "research/pipeline-tests/v2.0.9-autumn-rhythm-single-load-clean3/author-result.json",
+    "authorBundleResultSha256": "2e0ff07959cddb0f91ac9bf768e69fcc1aa892da380707e8797b41563ea5555a",
+    "successfulRunTokens": 128408,
+    "reviewerRun": false,
+    "productionWrite": false
+  }
+}

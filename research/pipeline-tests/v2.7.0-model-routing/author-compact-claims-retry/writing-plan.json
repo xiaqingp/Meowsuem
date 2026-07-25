@@ -1,0 +1,301 @@
+{
+  "workId": "portrait-head-bottle-64-228-21",
+  "narrativeMainline": {
+    "valueType": "material_or_technical_innovation",
+    "mainline": "莫切陶工用模具反复塑出相近的人像头，再用乳白与红色化妆土改变额带和面部细节；这件瓶因此把可重复的制作方法与每件器物的可见差异放在一起。它还保留了仪式与墓葬语境的线索，但人物身份和具体含义仍无法确定。",
+    "storyBeats": [
+      {
+        "step": "从头形瓶身、马镫形流口、额带和面绘入手，先建立这是一件同时依靠塑形与彩绘完成的器物。",
+        "researchRefs": [
+          "R06",
+          "R07",
+          "R08",
+          "R09",
+          "R10"
+        ],
+        "readerGain": "读者能在对象上确认主线所说的两种制作层次。"
+      },
+      {
+        "step": "解释模具或母范怎样产生相关器物，并以芝加哥、利马两件额带不同的近例说明重复之中仍有差异。",
+        "researchRefs": [
+          "R13",
+          "R14"
+        ],
+        "readerGain": "读者理解模制不等于成品完全相同，彩绘也是区分器物的重要环节。"
+      },
+      {
+        "step": "把这种制作方式放回莫切人像头瓶传统及仪式、墓葬语境，同时交代身份与意义的解释边界。",
+        "researchRefs": [
+          "R12",
+          "R15",
+          "R16",
+          "R18"
+        ],
+        "readerGain": "读者明白这类器物可能关联真实人物与丧葬观念，但现有证据不能确定本器人物是谁或当时人如何理解它。"
+      },
+      {
+        "step": "回到蛇纹、面部色带和下颌下菱形，区分可见纹样与学者对菱形的谨慎解释。",
+        "researchRefs": [
+          "R08",
+          "R09",
+          "R10",
+          "R17"
+        ],
+        "readerGain": "读者最后一眼既能发现具体细节，也不会把一种图像学解释当成定论。"
+      }
+    ],
+    "humorBasis": "",
+    "highRiskClaims": [
+      {
+        "claim": "人像表现某位可确认身份的显要人物",
+        "evidenceType": "有影响力的学术解释，具体身份未获证实",
+        "allowedWording": "Donnan 主张这类人像表现社区成员认识的显要人物；本器人物是谁无法确认。",
+        "forbiddenUpgrade": "确定写成本器就是某位统治者、贵族或具名人物。",
+        "researchRefs": [
+          "R15"
+        ]
+      },
+      {
+        "claim": "器物的墓葬或仪式意义已经确定",
+        "evidenceType": "来源事实与竞争解释",
+        "allowedWording": "这类器物用于特定仪式，许多但非全部最后进入墓葬；学者另提出断首或亲属敬奉等解释。",
+        "forbiddenUpgrade": "断言本器参加过某项具体仪式，或确定象征断首、祖先崇拜或重生。",
+        "researchRefs": [
+          "R12",
+          "R16"
+        ]
+      },
+      {
+        "claim": "下颌下菱形确定代表蛹和死亡转化",
+        "evidenceType": "馆方谨慎描述与具体学者解释",
+        "allowedWording": "菱形或许代表蛹；Bourget 提出它可能关联死亡临界阶段的转化。",
+        "forbiddenUpgrade": "把菱形、蛹、蝇类和死亡转化写成确定图像学。",
+        "researchRefs": [
+          "R17"
+        ]
+      },
+      {
+        "claim": "本器稀有、唯一或不可替代",
+        "evidenceType": "比较边界不足",
+        "allowedWording": "可确认芝加哥与利马有两件同模或同母范相关器物，额带设计不同；全球数量和优劣无法确认。",
+        "forbiddenUpgrade": "称本器唯一、仅存、最优、极为罕见或不可替代。",
+        "researchRefs": [
+          "R14",
+          "R19"
+        ]
+      },
+      {
+        "claim": "面部表情或纹样透露人物心理及作者意图",
+        "evidenceType": "仅有外观描述，无心理或意图证据",
+        "allowedWording": "只描述面部色带、鼻梁红色细部、下巴红色三角形及其他可见纹样。",
+        "forbiddenUpgrade": "据此判断人物威严、恐惧、神圣身份，或宣称陶工意在表达某种心理。",
+        "researchRefs": [
+          "R08",
+          "R09",
+          "R10"
+        ]
+      }
+    ]
+  },
+  "mustNotAssume": [
+    "不能假定被塑者的姓名、身份、社会等级、情绪或年龄。",
+    "不能假定本器实际参加过哪一种具体仪式，或一定出自墓葬。",
+    "不能把马镫形流口的象征意义写成已知。",
+    "不能把三件相关器物说成全球仅存三件，也不能比较其优劣。",
+    "不能把额带蛇纹、面部彩绘或菱形纹样解释为确定象征。",
+    "不能把馆方于 2026-07-24 标示在展写成未来到访时必然可见。"
+  ],
+  "displayMetadata": {
+    "titleZh": "人像头形瓶",
+    "titleEn": "Portrait Head Bottle",
+    "date": "5—6 世纪",
+    "dimensions": "高 32.4 cm；宽 18.4 cm；深 19.1 cm",
+    "accessionNumber": "The Met 64.228.21",
+    "availability": "confirmed_on_view",
+    "availabilityChecked": "2026-07-24",
+    "priority": "强烈推荐",
+    "significance": "重要藏品",
+    "stay": "5—8 分钟",
+    "routeRole": "安第斯陶器与莫切视觉文化的代表性停留点",
+    "imageUrl": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/308527/2084449/main-image",
+    "imageLicense": "Public Domain",
+    "by": "莫切文化 Moche · 秘鲁",
+    "material": "陶、化妆土、颜料",
+    "place": "纽约大都会艺术博物馆第五大道馆，Michael C. Rockefeller Wing，Gallery 362",
+    "imagePolicy": "object_image"
+  },
+  "claimLedger": [
+    {
+      "id": "C01",
+      "claim": "瓶身塑成人头，顶部接双支单口的马镫形流口。",
+      "type": "source_fact",
+      "researchRefs": [
+        "R06"
+      ],
+      "usedIn": [
+        "draft:30秒先懂",
+        "draft:从一张脸看见两道工序"
+      ]
+    },
+    {
+      "id": "C02",
+      "claim": "头发上覆乳白色头巾，并戴几何边饰额带；额带下有四条张口、露齿并带分叉舌的蛇纹。",
+      "type": "source_fact",
+      "researchRefs": [
+        "R07",
+        "R08"
+      ],
+      "usedIn": [
+        "draft:从一张脸看见两道工序",
+        "draft:最后再看一眼"
+      ]
+    },
+    {
+      "id": "C03",
+      "claim": "脸中央有乳白竖带，鼻梁有红色细部，下巴有红色三角形，白带两侧有红线。",
+      "type": "source_fact",
+      "researchRefs": [
+        "R09"
+      ],
+      "usedIn": [
+        "card",
+        "draft:30秒先懂",
+        "draft:从一张脸看见两道工序"
+      ]
+    },
+    {
+      "id": "C04",
+      "claim": "颈部有阶梯形纹样，下颌下方罐腹有一列菱形。",
+      "type": "source_fact",
+      "researchRefs": [
+        "R10"
+      ],
+      "usedIn": [
+        "draft:从一张脸看见两道工序",
+        "draft:最后再看一眼"
+      ]
+    },
+    {
+      "id": "C05",
+      "claim": "人像头瓶以模具制作，同一模具或母范可制多件，再以乳白与红色化妆土彩绘。",
+      "type": "source_fact",
+      "researchRefs": [
+        "R13"
+      ],
+      "usedIn": [
+        "card",
+        "draft:30秒先懂",
+        "draft:一副模具为什么没有带来完全相同的成品",
+        "draft:这件作品有哪些趣闻？"
+      ]
+    },
+    {
+      "id": "C06",
+      "claim": "本器与芝加哥、利马的两件器物很可能同模或同母范相关，三者额带设计不同。",
+      "type": "source_fact",
+      "researchRefs": [
+        "R14"
+      ],
+      "usedIn": [
+        "card",
+        "draft:一副模具为什么没有带来完全相同的成品",
+        "draft:这件作品有哪些趣闻？"
+      ]
+    },
+    {
+      "id": "C07",
+      "claim": "现有材料不能确认相关器物的全球总数、优劣或本器相对另两件的不可替代性。",
+      "type": "source_fact",
+      "researchRefs": [
+        "R19"
+      ],
+      "usedIn": [
+        "draft:一副模具为什么没有带来完全相同的成品"
+      ]
+    },
+    {
+      "id": "C08",
+      "claim": "马镫口瓶在秘鲁北海岸流行约2500年；其形制可能便于握持并带有象征性，但具体意义未知。",
+      "type": "source_fact",
+      "researchRefs": [
+        "R11"
+      ],
+      "usedIn": [
+        "draft:这张脸曾怎样进入社会生活"
+      ]
+    },
+    {
+      "id": "C09",
+      "claim": "当地在16世纪前没有文字传统；这类器物用于特定仪式，许多但非全部最终进入墓葬。",
+      "type": "source_fact",
+      "researchRefs": [
+        "R12"
+      ],
+      "usedIn": [
+        "draft:这张脸曾怎样进入社会生活"
+      ]
+    },
+    {
+      "id": "C10",
+      "claim": "Donnan 根据约900件人像头及考古材料，主张它们表现社区成员认识的显要人物，但这不是完全证实的身份结论。",
+      "type": "source_fact",
+      "researchRefs": [
+        "R15"
+      ],
+      "usedIn": [
+        "card",
+        "draft:这张脸曾怎样进入社会生活"
+      ]
+    },
+    {
+      "id": "C11",
+      "claim": "学者也从墓葬语境提出断首或亲属敬奉等解释；过去的人如何看待人像器难以确定。",
+      "type": "source_fact",
+      "researchRefs": [
+        "R16"
+      ],
+      "usedIn": [
+        "card",
+        "draft:这张脸曾怎样进入社会生活",
+        "draft:事实边界"
+      ]
+    },
+    {
+      "id": "C12",
+      "claim": "馆方谨慎认为菱形或许代表蛹；Bourget 提出它可能指向蝇类破蛹，并象征死亡临界阶段的转化。",
+      "type": "source_fact",
+      "researchRefs": [
+        "R17"
+      ],
+      "usedIn": [
+        "draft:最后再看一眼",
+        "draft:事实边界"
+      ]
+    },
+    {
+      "id": "C13",
+      "claim": "人像头瓶发现于莫切南部特定河谷，最写实的例子集中在莫切晚期III—IV阶段。",
+      "type": "source_fact",
+      "researchRefs": [
+        "R18"
+      ],
+      "usedIn": [
+        "draft:这张脸曾怎样进入社会生活"
+      ]
+    },
+    {
+      "id": "C14",
+      "claim": "模制建立相近的立体头像，彩绘在相关器物之间制造可见差异。",
+      "type": "editorial_synthesis",
+      "researchRefs": [
+        "R13",
+        "R14"
+      ],
+      "usedIn": [
+        "card",
+        "draft:30秒先懂",
+        "draft:一副模具为什么没有带来完全相同的成品"
+      ]
+    }
+  ]
+}

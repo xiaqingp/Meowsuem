@@ -1,0 +1,26 @@
+{
+  "id": "PCR-2026-07-24-11",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-24",
+  "ownerInstruction": "继续完成西雅图艺术博物馆整馆运行并更新主网站",
+  "baseRelease": "research/pipeline-releases/v2.7.5.json",
+  "targetVersion": "2.7.6",
+  "scope": [
+    "bind a regenerated legacy museum data script before routes.js on the detail page",
+    "bind it before the inline museumLocations bootstrap on the homepage when routes.js is not present"
+  ],
+  "allowedCanonicalFiles": [
+    "scripts/assemble-museum-candidate.mjs"
+  ],
+  "allowedManagementFiles": [
+    "research/content-standard-manifest.json",
+    "coho_museum/Milestones.md",
+    "coho_museum/knowledge.md"
+  ],
+  "requiredTests": [
+    "Seattle candidate binds seattle.js on both pages",
+    "generic assembly and future museum contract tests pass",
+    "release idempotence and immutability pass"
+  ]
+}

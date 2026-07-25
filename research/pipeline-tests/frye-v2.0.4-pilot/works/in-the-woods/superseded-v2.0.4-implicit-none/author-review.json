@@ -1,0 +1,172 @@
+{
+  "workId": "in-the-woods",
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "finalPassIssued": false,
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "06585c881a990064eeeee7f61748fc72cfbf8ee447a9c97ecc4e66ab858ee0fc"
+  },
+  "paragraphDependency": [
+    {
+      "paragraph": "30秒先懂",
+      "dependsOn": "读者只需看见纵长画幅、亮肤色与深色树林。",
+      "newUnderstanding": "作品用明暗、轮廓和表面处理把静止人体设为视觉中心，并能提示 Frye 的创始收藏趣味。",
+      "breaksIfMovedEarlier": "这是入口层，不能再提前。"
+    },
+    {
+      "paragraph": "深层第一段：答案先藏在画面怎样分配注意力",
+      "dependsOn": "快层已经指出人物与树林的明暗冲突，并提出作品与 Frye 的关系。",
+      "newUnderstanding": "纵长比例、贴近人物的深暗树林与缺少激烈动作共同形成稳定中心。",
+      "breaksIfMovedEarlier": "若放到快层前，读者尚未知道为何要追问一幅非叙事性裸体怎样值得停留。"
+    },
+    {
+      "paragraph": "深层第二段：平整表面把目光留给人体",
+      "dependsOn": "上一段已建立视线被构图固定在人物身上。",
+      "newUnderstanding": "远观平整的表面使轮廓、色调与人体塑造优先显现；1905年把这套方法放到作者极晚期。",
+      "breaksIfMovedEarlier": "提前后，作者方法会变成孤立风格资料，失去它在当前画面中解决注意力问题的前提。"
+    },
+    {
+      "paragraph": "深层第三段：《海浪》让树林的作用更清楚",
+      "dependsOn": "前两段已说明本作的构图与表面机制，并建立其成熟学院派方法。",
+      "newUnderstanding": "与同作者近年单人裸体比较后，树林、纵向站姿和暗色环境成为本作的决定性差异。",
+      "breaksIfMovedEarlier": "读者若尚未理解本作自身机制，比较会退化为两件作品的并列清单。"
+    },
+    {
+      "paragraph": "深层第四段：它把一位画家和一座馆连在一起",
+      "dependsOn": "此前已确认可见机制、生涯位置以及与最近比较对象的差异。",
+      "newUnderstanding": "作品的高价值集中在馆藏叙事和现场可读性，而非稀缺性；它具体解释 Frye 创始收藏的审美选择。",
+      "breaksIfMovedEarlier": "提前会先宣布重要性，再补依据，核心问题失去逐步回答。"
+    },
+    {
+      "paragraph": "四个现场细节",
+      "dependsOn": "前文已把画幅、轮廓、空间和表面分别连入核心答案。",
+      "newUnderstanding": "读者获得四项可现场复核的抓手，而不是重复抽象价值判断。",
+      "breaksIfMovedEarlier": "提前会变成没有解释用途的观察清单。"
+    },
+    {
+      "paragraph": "最后再看一眼",
+      "dependsOn": "全文已建立纵长构图、暗色环境、平整表面、极晚期方法与创始收藏意义。",
+      "newUnderstanding": "沿明暗交界移动视线时，读者可同时看见画面机制和馆藏选择。",
+      "breaksIfMovedEarlier": "没有前文，沿轮廓移动只是一条通用观看命令，无法回收核心问题。"
+    }
+  ],
+  "claimClosure": [
+    {
+      "sentence": "这幅1905年的极晚期作品也很能说明 Frye 创始收藏为何偏爱法国学院派绘画。",
+      "evidenceType": "来源事实加编辑判断",
+      "sourceOrBasis": "研究卡确认1905年、Founding Collection及五维馆藏叙事5/5；画面观察支持学院派人体与表面机制。",
+      "confidence": "高：年代与收藏身份由馆方对象资料支持；‘很能说明’明确是以对象事实为基础的编辑判断。",
+      "verdict": "保留；未升级为唯一代表或旅行级珍品。"
+    },
+    {
+      "sentence": "画面没有依靠激烈动作推动情节。",
+      "evidenceType": "直接观察",
+      "sourceOrBasis": "研究卡记录单一人物、静止姿态与无运动瞬间。",
+      "confidence": "高：只描述可见动作状态，不推断人物心理。",
+      "verdict": "保留。"
+    },
+    {
+      "sentence": "作品完成于1905年，也就是他生命的最后一年，因此可稳妥地放在其创作的极晚期。",
+      "evidenceType": "来源事实",
+      "sourceOrBasis": "研究卡确认创作年与卒年同为1905年，并明确只可称极晚期。",
+      "confidence": "高：年份闭合；正文与事实边界均未称最后作品。",
+      "verdict": "保留。"
+    },
+    {
+      "sentence": "理想化单人裸体、清楚的人体结构以及被压低存在感的笔触，都是布格罗成熟学院派方法在本作上的可见部分。",
+      "evidenceType": "直接观察加研究卡风格定位",
+      "sourceOrBasis": "研究卡给出理想化裸体、远观表面平整及成熟期边界。",
+      "confidence": "中高：‘被压低存在感’限定为观看效果，未断言没有笔触；‘人体结构’只指可见塑造。",
+      "verdict": "保留，并由事实边界再次限制无笔触误读。"
+    },
+    {
+      "sentence": "把它与布格罗1902年的《海浪》（The Wave）放在一起想，两幅画都有理想化的单人裸体。",
+      "evidenceType": "比较事实",
+      "sourceOrBasis": "研究卡指定《海浪》（1902）为最近比较对象，并记录共同点与差异。",
+      "confidence": "高：措辞没有扩张比较范围。",
+      "verdict": "保留。"
+    },
+    {
+      "sentence": "它值得停留，因为它让 Frye 创始收藏的审美选择变得具体，而非因为它是改变旅行路线的孤品。",
+      "evidenceType": "编辑判断与重要性边界",
+      "sourceOrBasis": "Founding Collection；五维馆藏叙事5/5、稀缺2/5；Frye 72分边界。",
+      "confidence": "高：明确区分馆内叙事价值与全球稀缺性。",
+      "verdict": "保留；全文唯一一处完整否定—转折骨架。"
+    },
+    {
+      "sentence": "馆藏在展情况可能随轮换改变。",
+      "evidenceType": "易变状态边界",
+      "sourceOrBasis": "研究卡记录2026-07-22 On View 可检出但到访须复核。",
+      "confidence": "高：没有承诺到访当日可见。",
+      "verdict": "保留。"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这幅画的题材不稀奇，但布格罗用纵长构图、亮人体和暗树林把人稳稳托出来；它又是他生命最后一年的作品和 Frye 创始收藏，所以最值得看的，是一套成熟学院派画法怎样变成这家馆的审美名片。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "notes": "标题、快层、四段推进与结尾连续朗读顺畅；主语和指代清楚；没有生硬名词化或英文式概念压缩。"
+  },
+  "productionLanguageScan": {
+    "scope": [
+      "card.txt可见文字",
+      "draft.md标题、元数据、快层、深层、细节、最后一眼、事实边界与资料行"
+    ],
+    "forbiddenCategories": [
+      "内部研究缺口",
+      "图片许可任务",
+      "发布任务或状态",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "版本迁移"
+    ],
+    "findings": [],
+    "verdict": "clear"
+  },
+  "significanceReview": {
+    "declaredLabel": "重要藏品",
+    "fiveDimensionsCovered": true,
+    "nearestComparatorNamed": "William-Adolphe Bouguereau《海浪》（The Wave，1902）",
+    "comparisonCategory": "布格罗晚期法国学院派理想化单人裸体",
+    "decisiveDifference": "树林、纵向站姿和深暗环境改变人物与背景的关系。",
+    "boundary": "正文明确承认题材与类型不稀有，把价值落在极晚期生涯位置、Founding Collection身份和 Frye 馆藏叙事；没有越过72分馆级边界。",
+    "verdict": "证据与‘重要藏品’标签相称，交独立审读确认。"
+  },
+  "structureReview": {
+    "cardIndependentFromQuickLayer": true,
+    "cardDoesNotStartWithGenericViewingCommand": true,
+    "singleProgressiveQuestion": "一幅题材并不罕见的林中裸体，为什么能成为理解 Frye 创始收藏趣味的关键一件？",
+    "quickLayerIndependent": true,
+    "deepLayerIndependent": true,
+    "observableDetailCount": 4,
+    "secondLookIsWorkSpecific": true,
+    "swappableColumnRisk": "low",
+    "templateRepetitionRisk": "需由全馆连续朗读阶段判断；本件内部未见重复句式骨架。"
+  },
+  "unresolvedRisks": [
+    {
+      "risk": "当前在展状态会变化。",
+      "containment": "访客正文只记录2026-07-22名录快照并提示到访以现场为准。"
+    },
+    {
+      "risk": "无法证明本作为布格罗最后一幅作品。",
+      "containment": "全文仅称1905年极晚期作品，并在事实边界明确收窄。"
+    },
+    {
+      "risk": "远观表面平整不能证明完全没有笔触。",
+      "containment": "正文写‘笔触不抢眼’，事实边界明确两者不等同。"
+    },
+    {
+      "risk": "《海浪》的比较在本次输入中只有研究卡压缩结论，没有扩展比较资料。",
+      "containment": "正文严格限于研究卡确认的共同题材及树林、纵向站姿、环境差异，不扩张到优劣、版本数量或作者意图。"
+    },
+    {
+      "risk": "作品图片复用许可尚未取得。",
+      "containment": "仅保留在内部审读记录；访客文字未提及。"
+    }
+  ],
+  "authorRecommendation": "稿件已完成作者侧依赖、断言、中文朗读、生产语言与重要性检查，可交由未参与写作的独立审读者判断；本文件不签发最终PASS。"
+}

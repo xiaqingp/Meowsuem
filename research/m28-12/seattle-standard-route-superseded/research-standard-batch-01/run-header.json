@@ -1,0 +1,145 @@
+{
+  "runId": "m28-12-v2.7.1-seattle-research-batch-01-2026-07-24",
+  "startedAt": "2026-07-24T00:00:00-07:00",
+  "stage": "research",
+  "researchMode": "fresh",
+  "researchComplexity": "standard",
+  "museumId": "seattle",
+  "works": [
+    {
+      "museumId": "seattle",
+      "workId": "sea-change",
+      "workIdentity": {
+        "artistOrCulture": "Jackson Pollock",
+        "title": "Sea Change",
+        "titleEn": "Sea Change",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "museumId": "seattle",
+      "workId": "barcelona",
+      "workIdentity": {
+        "artistOrCulture": "Francis Picabia",
+        "title": "Barcelona",
+        "titleEn": "Barcelona",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "museumId": "seattle",
+      "workId": "how-my-mothers-embroidered-apron-unfolds-in-my-life",
+      "workIdentity": {
+        "artistOrCulture": "Arshile Gorky",
+        "title": "How My Mother's Embroidered Apron Unfolds in My Life",
+        "titleEn": "How My Mother's Embroidered Apron Unfolds in My Life",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "museumId": "seattle",
+      "workId": "double-elvis",
+      "workIdentity": {
+        "artistOrCulture": "Andy Warhol",
+        "title": "Double Elvis",
+        "titleEn": "Double Elvis",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "museumId": "seattle",
+      "workId": "dr-silvester-gardiner",
+      "workIdentity": {
+        "artistOrCulture": "John Singleton Copley",
+        "title": "Dr. Silvester Gardiner (1708-1786)",
+        "titleEn": "Dr. Silvester Gardiner (1708-1786)",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "museumId": "seattle",
+      "workId": "still-life-with-strawberries-and-ostrich-egg-cup",
+      "workIdentity": {
+        "artistOrCulture": "Raphaelle Peale",
+        "title": "Still Life with Strawberries and Ostrich Egg Cup",
+        "titleEn": "Still Life with Strawberries and Ostrich Egg Cup",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "museumId": "seattle",
+      "workId": "a-country-home",
+      "workIdentity": {
+        "artistOrCulture": "Frederic Edwin Church",
+        "title": "A Country Home",
+        "titleEn": "A Country Home",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "museumId": "seattle",
+      "workId": "narragansett-bay",
+      "workIdentity": {
+        "artistOrCulture": "John Frederick Kensett",
+        "title": "Narragansett Bay",
+        "titleEn": "Narragansett Bay",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "museumId": "seattle",
+      "workId": "swan-rattle",
+      "workIdentity": {
+        "artistOrCulture": "Native American",
+        "title": "Swan rattle",
+        "titleEn": "Swan rattle",
+        "museum": "Seattle Art Museum"
+      }
+    },
+    {
+      "museumId": "seattle",
+      "workId": "naaxein",
+      "workIdentity": {
+        "artistOrCulture": "Native American",
+        "title": "Naaxein",
+        "titleEn": "Naaxein",
+        "museum": "Seattle Art Museum"
+      }
+    }
+  ],
+  "pipelineVersion": "2.7.1",
+  "instructionVersion": "2.1.0",
+  "executionProfile": {
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c7931d34e1f54dde5c43336acc50f7fb7ac380cfe7bed7ca27ea0e01f2cf4aa6"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "ccd00997261deb8d327f185f373a779f1654fdf21f15f9c1bf1eaa952b90cb83"
+    },
+    {
+      "path": "research/m28-12/seattle/research-batch-01/candidate-packet.json",
+      "role": "candidate_packet",
+      "sha256": "0e19b938bef43c026acb363d1cf159bbbf98e8deaa132dcd5162597a4e464441"
+    }
+  ],
+  "outputs": [
+    "sea-change-research-card.md",
+    "barcelona-research-card.md",
+    "how-my-mothers-embroidered-apron-unfolds-in-my-life-research-card.md",
+    "double-elvis-research-card.md",
+    "dr-silvester-gardiner-research-card.md",
+    "still-life-with-strawberries-and-ostrich-egg-cup-research-card.md",
+    "a-country-home-research-card.md",
+    "narragansett-bay-research-card.md",
+    "swan-rattle-research-card.md",
+    "naaxein-research-card.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "candidate_then_atomic_production_write"
+}

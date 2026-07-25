@@ -1,0 +1,157 @@
+{
+  "workId": "sin",
+  "directUpstream": {
+    "filename": "research-card.md",
+    "sha256": "f939f6bc2e9ab15bcd7f5b398f9b92fc8be8c7db9125e478a2c8ff8ecb81ca14"
+  },
+  "run": {
+    "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+    "museumId": "frye",
+    "pipelineVersion": "2.0.4",
+    "instructionVersion": "1.6.8"
+  },
+  "readerBaseline": "零背景读者从标题知道画面与‘罪’有关，并能看见黑暗中的女子、横跨双肩的蛇、两双发亮的眼睛和金色建筑式画框；不预设她是夏娃，也不预设她的心理或蛇的固定象征含义。",
+  "coreQuestion": "为什么这幅《罪》要让女人和蛇一起看向观众？",
+  "quickLayerPromise": {
+    "visibleTension": "女人与蛇几乎被黑暗吞没，四只眼睛却同时把观众拉进画面；金色画框又像一道门，把这次对视固定在狭窄空间里。",
+    "provisionalAnswer": "这件作品的力量来自被精心组织的对视：身体、蛇和框共同把抽象的‘罪’变成一次无法轻易避开的正面相遇。",
+    "viewingRoute": [
+      "比较女子眼睛与蛇眼的亮度和方向",
+      "辨认蛇横跨双肩并把头伸向右前方的路径",
+      "观察身体如何从近黑背景中显现",
+      "把金色建筑式画框视为作品整体的一部分"
+    ]
+  },
+  "cognitionSteps": [
+    {
+      "step": 1,
+      "discovery": "画面最先成立的不是故事，而是女子和蛇共同形成的正面凝视。",
+      "changesUnderstanding": "标题中的抽象概念因此有了一个可见的接触方式：观众也被纳入对视。",
+      "thereforeNext": "既然对视是入口，下一步要问蛇与身体怎样把它加强。"
+    },
+    {
+      "step": 2,
+      "discovery": "蛇横跨双肩，蛇头伸向右前，亮眼与女子的眼睛彼此呼应；身体则在黑暗中只显出关键部分。",
+      "changesUnderstanding": "女人与蛇不再是两个并列符号，而被轮廓、亮点和横向路径锁成一个视觉整体。",
+      "thereforeNext": "既然这种合并经过形式组织，就要追问它在 Stuck 的创作中为何反复出现。"
+    },
+    {
+      "step": 3,
+      "discovery": "Stuck 在 1891—1912 年间多次处理这一母题；Frye 藏品约作于 1908 年，属于较晚版本。",
+      "changesUnderstanding": "眼前的构图可被理解为作者长期调整的象征主义方案，而非一次孤立的图像。",
+      "thereforeNext": "多个近似版本存在，便必须比较 Frye 件的艺术价值与版本边界。"
+    },
+    {
+      "step": 4,
+      "discovery": "最近的比较对象是 Neue Pinakothek 1893 年《罪》：两者共享暗背景、蛇缠肩、正面凝视和窄竖幅，但年代、媒材、具体画框与色调不同。",
+      "changesUnderstanding": "Frye 件的重要性来自它清楚保存这一成熟母题及建筑式整体设计，而不是版本唯一。",
+      "thereforeNext": "最后应回到现场，检验框、蛇眼和女子眼睛怎样共同完成这次相遇。"
+    }
+  ],
+  "forbiddenAssumptions": [
+    "不把女子认定为夏娃。",
+    "不描述女子或蛇的心理、欲望、诱惑意图或道德态度。",
+    "不把观看时先注意到的部分写成真实事件的先后。",
+    "不宣称作者的确定意图。",
+    "不称本件为原作、唯一版本、最著名版本或首次版本。",
+    "不写未经确认的版本总数。",
+    "不把重要藏品提升为值得改变西雅图行程的稀世珍品。"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "女子在诱惑观众。",
+      "evidenceType": "人物心理与作者意图，现有证据不足",
+      "allowedWording": "女子与蛇正面朝向观众，形成直接对视。",
+      "forbiddenUpgrade": "不得写诱惑、挑衅、羞耻、恐惧或主动设局。"
+    },
+    {
+      "claim": "蛇就是《圣经》中诱惑夏娃的蛇。",
+      "evidenceType": "图像寓意推定，研究卡未确认人物身份",
+      "allowedWording": "标题、女人与蛇进入象征主义的罪之寓意框架。",
+      "forbiddenUpgrade": "不得把女子命名为夏娃或补写《创世记》情节。"
+    },
+    {
+      "claim": "作者用画框把观众困住。",
+      "evidenceType": "由可见形式产生的编辑推断",
+      "allowedWording": "金色建筑式画框收紧了窄幅画面的观看范围。",
+      "forbiddenUpgrade": "不得证明为作者明确意图或观众必然心理反应。"
+    },
+    {
+      "claim": "Frye 藏品是唯一或原初版本。",
+      "evidenceType": "版本与稀缺性；来源明确存在多个近似版本",
+      "allowedWording": "约 1908 年的较晚版本；版本总数未采用精确数字。",
+      "forbiddenUpgrade": "不得写唯一、首个、原作、定本或最著名。"
+    },
+    {
+      "claim": "本作足以成为旅行目的。",
+      "evidenceType": "不可替代性与旅行判断",
+      "allowedWording": "Frye 的 Stuck 与慕尼黑象征主义锚点，是重要藏品。",
+      "forbiddenUpgrade": "不得写稀世珍品、镇馆神作或值得专程改道。"
+    }
+  ],
+  "historicalContextPlan": {
+    "applicable": false,
+    "reason": "本作的重要性主要依赖象征主义形式、作者反复处理的母题及馆藏语境，不依赖一场必须交代前后状态的政治、宗教或社会事件。",
+    "beforeState": null,
+    "changeOrConflict": null,
+    "objectRole": null,
+    "consequence": null,
+    "uncertainty": "不将女人与蛇扩写成未经证实的具体《圣经》事件。",
+    "placement": "快层只说明象征主义寓意如何通过对视成为现场经验；深层第三步交代母题在 1891—1912 年间被反复处理。"
+  },
+  "authorStyle": {
+    "artist": "弗朗茨·冯·施图克 Franz von Stuck · 德国",
+    "movement": "象征主义",
+    "careerPosition": "约 1908 年的较晚《罪》版本，属于作者长期反复处理的标志性母题。",
+    "visibleInThisWork": [
+      "寓意主题通过女人、蛇与正面凝视集中呈现",
+      "情色身体从近黑背景中局部显现",
+      "金色建筑式画框与窄竖幅共同构成整体设计"
+    ],
+    "boundary": "可称典型母题的较晚版本；不称首次、唯一、原作或最著名版本。"
+  },
+  "significance": {
+    "label": "重要藏品",
+    "dimensions": {
+      "artHistory": "高：清楚呈现象征主义把寓意、情色身体与凝视组织为整体的机制。",
+      "artistCareer": "高：属于 Stuck 在 1891—1912 年间反复处理的标志性母题，Frye 件处于较晚阶段。",
+      "museumNarrative": "高：是 Frye 的 Stuck 与慕尼黑象征主义锚点。",
+      "onsiteImpact": "高：窄竖幅、近黑背景、四只亮眼与金色建筑式框产生强烈而具体的现场效果。",
+      "scarcity": "中低：存在多个近似版本，公开来源对总数不一，不以唯一性成立。"
+    },
+    "comparisonCategory": "Franz von Stuck 的象征主义‘罪／蛇与女人’母题版本",
+    "nearestComparator": "Neue Pinakothek，Franz von Stuck，1893 年《Die Sünde》",
+    "similarities": ["暗背景", "蛇缠双肩", "正面凝视", "窄竖幅"],
+    "differences": ["年代不同", "媒材不同", "具体画框不同", "色调不同"],
+    "irreplaceability": "Frye 件让观众在本馆直接看到这一成熟母题的较晚展开，并以具体画框和色调形成自身的现场整体；比较对象能解释母题，却不能替代眼前对象。",
+    "travelBoundary": "它能支撑 Frye 馆内叙事，但不构成改变旅行路线的稀世珍品。"
+  },
+  "observableDetails": [
+    "画面是窄竖幅。",
+    "女子从近黑背景中浮现。",
+    "蛇横跨女子双肩。",
+    "蛇头伸向画面右前方。",
+    "女子的双眼与蛇眼构成四个亮点。",
+    "金色建筑式画框参与整体效果。"
+  ],
+  "secondLook": "读完后，把视线同时放在女子双眼、蛇眼和金色框的内缘：确认这四个亮点与狭窄边界怎样把抽象的‘罪’变成一场朝向观众的对视。",
+  "cardPlan": {
+    "purpose": "独立回答为何值得点开，突出成熟象征主义母题与画框整体设计。",
+    "visibleCharacterTarget": "24—100",
+    "independenceRule": "不复制快层，不摘取详情句子，不以通用观看命令开场。"
+  },
+  "draftContract": {
+    "title": "## 1. 罪 / Sin",
+    "artistLine": "**作者或文化**：弗朗茨·冯·施图克 Franz von Stuck · 德国",
+    "quickLayerVisibleCharacters": "70—240，目标 90—180",
+    "deepLayerMinimumVisibleCharacters": 320,
+    "requiredSections": ["30 秒先懂", "多停几分钟，你会看到什么", "再看这些容易错过的细节", "最后再看一眼", "事实边界", "资料"],
+    "progressiveQuestionRule": "只推进核心问题‘为什么女人和蛇一起看向观众’，不另起可交换的历史、风格或珍贵性栏目。"
+  },
+  "productionLanguageBoundary": {
+    "visitorProseForbidden": ["研究缺口", "图片许可任务", "发布任务", "测试", "prompt", "生成器", "reviewer", "版本迁移", "发布前补核"],
+    "internalRiskDestination": "author-review.json",
+    "visitorBoundaryAllowed": "只说明作品本身的证据限度、版本非唯一及易变的现场状态。"
+  },
+  "humorBasis": null
+}

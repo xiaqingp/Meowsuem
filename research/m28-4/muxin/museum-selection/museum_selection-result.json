@@ -1,0 +1,119 @@
+{
+    "runId":  "m28-4-muxin-museum-selection-2026-07-23",
+    "stage":  "museum_selection",
+    "pipelineVersion":  "2.4.3",
+    "instructionVersion":  "2.0.1",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-23T21:17:56.2021399-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/generation-pipeline.md",
+                       "sha256":  "cde91463dd296ba3f11b6bccfddc15964a256d5c132be913f11062fb6bb7cc66"
+                   },
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "sha256":  "bb9ad5d44fbb6b6382c90e17599c100648ca295800d57ff1b40f3cfc09b039ee"
+                   },
+                   {
+                       "path":  "scripts/process-museum-rating.mjs",
+                       "sha256":  "ff6421fbbdc336b115b99c9d23be8ba81e64155f469cf2359cfe9d29ae24d315"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/museum-selection/comparison-ratings.json",
+                       "sha256":  "38692c07e6ee6b1c4bd819c54d320dc707a781a35840f51415d4a6ab08a0880b"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/research-batch-01/muxin-c01-research-card.md",
+                       "sha256":  "5e1f591dadd558b1ffa82a04e2217aa3ebdeb8778ad7bba6c25b9fd12dd6abb7"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/research-batch-01/muxin-c02-research-card.md",
+                       "sha256":  "c7f56f72675d355442627a8e0ec87e078e155a70d65867053dddc1ca9f8f30a1"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/research-batch-01/muxin-c03-research-card.md",
+                       "sha256":  "b06c278ecc5b16f9a271b14d9f92788b80e3e8b5ecb1bf1f57cd283082248a38"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/research-batch-01/muxin-c04-research-card.md",
+                       "sha256":  "811b674a0029cad82478bcdc6a5bf93e5ac5e6a45bb8dfcb56bc732eb12b5d3c"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/research-batch-01/muxin-c05-research-card.md",
+                       "sha256":  "4a7c0b54c0e337eb3de394b2b1d3a1954da363202201eb0bfe596ac43bbaec77"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/research-batch-01/muxin-c06-research-card.md",
+                       "sha256":  "711a26dc1122825683d5dde7ed33bb3ccf1462bbe342371bda91719769224535"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/research-batch-01/muxin-c07-research-card.md",
+                       "sha256":  "067b60dbbd9f9b077b9a1e2814c3d37fc3b10f4885eea6e2f727b0c1f05ec8b1"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/research-batch-01/muxin-c08-research-card.md",
+                       "sha256":  "15347c06e505460055c48415cbbc1e20381c0a59646f07b11ad596caf9a14eeb"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/research-batch-01/muxin-c09-research-card.md",
+                       "sha256":  "2fc21fa65f3b18b2154d20dd1e8b7663b8fa181e9c16f817f30a5d94d29343a4"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/research-batch-01/muxin-c10-research-card.md",
+                       "sha256":  "e8d0b0b4721919b2d16c89fa50235ad8648b011ca3ddf20fb04e692630a3d270"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/research-batch-02/muxin-c11-research-card.md",
+                       "sha256":  "30228a7d0908529373749c83268f82a8a2b791c4567887fb078ad56ef4295e73"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/research-batch-02/muxin-c12-research-card.md",
+                       "sha256":  "fa2c90dfe43f7efd4ab948eb3e1398ab1997cf6b34f8df72e57dad21aae63fa3"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/research-batch-02/muxin-c13-research-card.md",
+                       "sha256":  "8fd19f296722a168d434cdd9d2bb1c5a6902f316f20510a2013df3cb068a90b5"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/research-batch-02/muxin-c14-research-card.md",
+                       "sha256":  "347ecaa4671de5ad12daef9fd0cb29868c2656500a666d219bb99ce599d2e2ae"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/research-batch-02/muxin-c15-research-card.md",
+                       "sha256":  "060309af9b100990e00720ce2b6c0b42118e1b38f606c0ff512c8d87188e430d"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/research-batch-02/muxin-c16-research-card.md",
+                       "sha256":  "e109b44aa485f57a1475f7329432d4bdb9178b327ed999f265e11183d1935036"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/research-batch-02/muxin-c17-research-card.md",
+                       "sha256":  "976c0b71fa1e540afbc258b322581c6835f490030a4313d00180faf9688bf9e2"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/research-batch-02/muxin-c18-research-card.md",
+                       "sha256":  "eef60a03e3fa979ee23ea9e5fd1a8a0cd9e9782f8163a4d7905f9cda117a970d"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/research-batch-02/muxin-c19-research-card.md",
+                       "sha256":  "67142b07534671433ad46c93cd8b158c6eb52a578ad1b64e471fda6ef11b7d0b"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/research-batch-02/muxin-c20-research-card.md",
+                       "sha256":  "eafef293991697dca7cf39cec874b13bdf93ac87e8cf77c04765af32b325f557"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "museum-evidence.json",
+                        "sha256":  "2d09b309abbbbdb9deb009ed3676ed75966c17dfcd4aa4785b7f0548be5beced",
+                        "bytes":  19355
+                    },
+                    {
+                        "path":  "museum-rating.json",
+                        "sha256":  "0f1895b006f7c54984b0887af575dc9c5fbb7e553533d27d6d496b9c54727cfd",
+                        "bytes":  3060
+                    }
+                ]
+}

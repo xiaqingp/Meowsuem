@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-space-02-grand-staircase-ensemble-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:44.479Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "13df162b801f53d7a99c2617a3c2fb0f6c6366403724fba57c5185d2a06bc2f9",
+      "bytes": 10054
+    },
+    {
+      "path": "card.txt",
+      "sha256": "0be3b8221daaca0fbbad5ebb2b3468163ed962efcb6795c2b682f6dece7627c1",
+      "bytes": 265
+    },
+    {
+      "path": "draft.md",
+      "sha256": "0a04b1ef5ca27fbf08a07ecfc172a05dafd8542091e9a6e9c2be469c8358ab9a",
+      "bytes": 5172
+    }
+  ]
+}

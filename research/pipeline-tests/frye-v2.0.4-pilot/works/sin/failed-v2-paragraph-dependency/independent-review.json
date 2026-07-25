@@ -1,0 +1,247 @@
+{
+  "artifactType": "independent_review",
+  "workId": "sin",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "museumId": "frye",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "reviewerRole": "fresh_independent_reviewer",
+  "independenceAttestation": "未参与 research-card、writing-plan、card 或 draft 的创作；本次只使用任务明确列出的九个文件，未读取作者自审、旧正文、旧任务或评审、其他作品目录、质量样本、git、memory、skills、网络或其他未列路径。",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "b41f93546e9267c77732d72af6842fe569b55b781accebd6438d86c28014cc4e"
+  },
+  "artifactHashes": {
+    "research-card.md": "f939f6bc2e9ab15bcd7f5b398f9b92fc8be8c7db9125e478a2c8ff8ecb81ca14",
+    "writing-plan.json": "e7631ec1cb2647d83c88a315517589b346290bea0ef32ed09fc148d3e1338d26",
+    "card.txt": "4f34f7be535d4fe3ee5d52024ad143b81f3f16c764c3a9eabe0c6904a397cbcd",
+    "draft.md": "b41f93546e9267c77732d72af6842fe569b55b781accebd6438d86c28014cc4e"
+  },
+  "declaredDirectUpstreamChain": {
+    "verdict": "VERIFIED",
+    "links": [
+      {
+        "artifact": "research-card.md",
+        "declaredUpstream": "../../batch-01/source-pack.md",
+        "declaredSha256": "1b14092fcb94d8fc908227917e92dabf0175f01cb5e1853b2d42d724ecd66e3e",
+        "actualSha256": "1b14092fcb94d8fc908227917e92dabf0175f01cb5e1853b2d42d724ecd66e3e",
+        "matches": true
+      },
+      {
+        "artifact": "writing-plan.json",
+        "declaredUpstream": "research-card.md",
+        "declaredSha256": "f939f6bc2e9ab15bcd7f5b398f9b92fc8be8c7db9125e478a2c8ff8ecb81ca14",
+        "actualSha256": "f939f6bc2e9ab15bcd7f5b398f9b92fc8be8c7db9125e478a2c8ff8ecb81ca14",
+        "matches": true
+      },
+      {
+        "artifact": "card.txt",
+        "declaredUpstream": "writing-plan.json",
+        "declaredSha256": "e7631ec1cb2647d83c88a315517589b346290bea0ef32ed09fc148d3e1338d26",
+        "actualSha256": "e7631ec1cb2647d83c88a315517589b346290bea0ef32ed09fc148d3e1338d26",
+        "matches": true
+      },
+      {
+        "artifact": "draft.md",
+        "declaredUpstream": "card.txt",
+        "declaredSha256": "4f34f7be535d4fe3ee5d52024ad143b81f3f16c764c3a9eabe0c6904a397cbcd",
+        "actualSha256": "4f34f7be535d4fe3ee5d52024ad143b81f3f16c764c3a9eabe0c6904a397cbcd",
+        "matches": true
+      }
+    ]
+  },
+  "mechanicalChecks": {
+    "cardVisibleCharacters": 69,
+    "cardRequiredRange": "24-100",
+    "cardPassed": true,
+    "quickVisibleCharacters": 128,
+    "quickRequiredRange": "70-240",
+    "quickPassed": true,
+    "deepVisibleCharacters": 934,
+    "deepMinimum": 320,
+    "deepPassed": true,
+    "observableDetailCount": 5,
+    "observableDetailMinimum": 4,
+    "observableDetailsPassed": true,
+    "requiredMetadataPassed": true,
+    "clickableSourcesPassed": true,
+    "fixedContrastSkeletonPassed": true,
+    "fixedContrastSkeletonEvidence": "访客正文仅有一处完整的‘不只是……而是……’否定—转折骨架；‘不是母题首版’只出现在内部研究卡，不计入访客正文。",
+    "mechanicalVerdict": "PASS"
+  },
+  "claimAudit": {
+    "verdict": "PASS",
+    "findings": [
+      {
+        "claim": "身份、约 1908 年、蛋彩/画布、创馆收藏及 2026-07-22 在展快照",
+        "evidenceType": "来源事实",
+        "basis": "source-pack 与 research-card；正文保留到访前复核的易变边界",
+        "confidence": "高",
+        "verdict": "SUPPORTED"
+      },
+      {
+        "claim": "女子与蛇各有一处眼部亮点、蛇横跨双肩并伸向右前、胸腹沉入暗部、金色建筑式框收紧窄竖幅",
+        "evidenceType": "直接观察",
+        "basis": "source-pack 与 research-card 的图像观察清单",
+        "confidence": "高",
+        "verdict": "SUPPORTED"
+      },
+      {
+        "claim": "画面把女子、蛇、目光与边框组织为封闭且带诱惑意味的整体",
+        "evidenceType": "有标记的编辑推断",
+        "basis": "标题、两处亮点、横向蛇身、近黑背景和建筑式框；未升级为作者意图或人物心理",
+        "confidence": "中高",
+        "verdict": "SUPPORTED_WITHIN_BOUNDARY"
+      },
+      {
+        "claim": "1891—1912 年有多个近似版本，Frye 约 1908 年作品属于较晚版本，最近比较对象为 Neue Pinakothek 1893 年版本",
+        "evidenceType": "来源事实与明确比较",
+        "basis": "source-pack、research-card 与 writing-plan",
+        "confidence": "高；精确版本总数仍未知，正文未给出数字",
+        "verdict": "SUPPORTED"
+      },
+      {
+        "claim": "作品是 Frye 理解 Stuck 与慕尼黑象征主义的锚点，但不是改变城市行程的稀世珍品",
+        "evidenceType": "有限度编辑判断",
+        "basis": "五维判断、最近比较对象、版本非唯一边界与 Frye 72 分馆级边界",
+        "confidence": "中高",
+        "verdict": "SUPPORTED_WITHIN_BOUNDARY"
+      }
+    ],
+    "psychologyOrEmotionInvented": false,
+    "authorIntentInvented": false,
+    "viewingOrderMiscastAsHistory": false,
+    "unsupportedSuperlativeOrUniqueness": false,
+    "unplannedHighRiskClaims": []
+  },
+  "factBoundaryVerdict": "PASS",
+  "factBoundaryEvidence": "正文逐句可归入来源事实、直接观察或有限度编辑推断；未把人物指定为 Eve，未偷写心理或作者确定意图，未给出版本精确总数，也未把观看动作写成历史先后。",
+  "layerIndependence": {
+    "cardIndependent": true,
+    "cardEvidence": "卡片独立回答值得点开的原因，以‘两点冷光’和女人、蛇、金框的整体关系作价值判断，没有摘抄快层或使用导览口令。",
+    "quickIndependent": true,
+    "quickEvidence": "快层单独给出可见矛盾、暂时答案和观看路径；删除深层后仍能指导现场观看。",
+    "deepIndependent": true,
+    "deepEvidence": "深层从两处目光和横向蛇身重新建立核心问题，不依赖快层提供缺失前提；删除快层后仍完整。",
+    "lastLookAddsSecondLook": true,
+    "lastLookEvidence": "结尾要求从女子眼移到蛇眼，再沿蛇身反扫至金框，把此前分开的线索重组为‘两道目光、一条横线和一圈硬边’。",
+    "verdict": "PASS"
+  },
+  "paragraphDependency": {
+    "verdict": "FAIL",
+    "coreQuestion": "两处眼部亮点如何把女人、蛇与金框锁成一个整体。",
+    "paragraphs": [
+      {
+        "paragraph": "两道目光为什么没有各自散开？",
+        "dependsOn": "标题与眼前可见的两处亮点",
+        "newUnderstanding": "暗背景、横跨双肩的蛇身和被截断的身体把注意力推回两处目光。",
+        "breaksIfMovedEarlier": "这是深层起点，不能再提前。"
+      },
+      {
+        "paragraph": "为什么金框也是这道关系的一部分？",
+        "dependsOn": "上一段已经建立蛇身横线与目光关系",
+        "newUnderstanding": "金框和窄竖幅把该关系扩展成封闭的整体设计。",
+        "breaksIfMovedEarlier": "若置于第一段之前，读者尚不知道‘这道关系’指什么。"
+      },
+      {
+        "paragraph": "同一母题为何会被施图克反复画？",
+        "dependsOn": "第一段已建立的女人、蛇与目光关系",
+        "newUnderstanding": "版本史说明这套构图是长期经营的母题，同时限制唯一性夸张。",
+        "breaksIfMovedEarlier": "它需要第一段先建立‘这组关系’，但不需要第二段先解释金框。"
+      },
+      {
+        "paragraph": "它在 Frye 为什么值得这一站？",
+        "dependsOn": "前文的形式机制、作者方法和版本边界",
+        "newUnderstanding": "五维价值最终落为重要藏品而非行程级稀世珍品。",
+        "breaksIfMovedEarlier": "提前会失去形式与比较依据。"
+      }
+    ],
+    "reorderingTest": "将‘为什么金框也是这道关系的一部分？’与‘同一母题为何会被施图克反复画？’互换，版本段仍可直接承接首段的女人、蛇与目光关系，金框段也仍可在版本段之后成立；核心理解与指代没有实质损失。",
+    "hardGateFailure": "深层中间两段可调换而不损害理解，触发母指令 6.4 的直接失败条件。"
+  },
+  "narrativeVerdict": "FAIL",
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这幅画用女人和蛇各一处发亮的眼睛、横过肩头的蛇身和窄金框，把‘罪’做成一个封闭又让人移不开眼的形象；它虽不是唯一版本，却是 Frye 理解施图克象征主义的重要作品。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "readAloudEvidence": "卡片、快层、四个深层标题及段间转折连续朗读自然；主语和指代清楚，没有需要先解码的抽象标题。"
+  },
+  "nativeChineseVerdict": "PASS",
+  "significanceReview": {
+    "declaredLevel": "重要藏品",
+    "fiveDimensions": {
+      "artisticAchievement": "PASS：两处目光、横向蛇身、近黑背景、窄竖幅与金框形成具体而集中的构图机制。",
+      "artHistoricalAndArtistPosition": "PASS：属于 Stuck 长期反复经营且辨识度高的象征主义母题，Frye 件是约 1908 年的较晚版本。",
+      "historicalCulturalValue": "PASS：具体说明寓意、情色身体与整体设计怎样在象征主义语境中结合，没有把流派标签当结论。",
+      "rarityAndIrreplaceability": "PASS：近似版本不止一件，精确总数未知，稀缺性明确限定为有限。",
+      "collectionPosition": "PASS：具体落到 Frye 的 Stuck 与慕尼黑象征主义收藏线。"
+    },
+    "comparisonCategory": "Stuck 1891—1912 年间的‘罪／蛇与女人’近似版本",
+    "nearestComparator": "Neue Pinakothek 1893 年《罪》Die Sünde",
+    "sharedValue": "暗背景、缠肩的蛇、正面目光与窄竖幅共同构成核心象征主义形象。",
+    "decisiveDifference": "Frye 件年代较晚，媒材、色调和具体边框不同。",
+    "nonSubstitutabilityBoundary": "这些差异支持眼前具体作品的现场整体效果和其在 Frye 馆内的锚点作用，但不足以证明全球不可替代性；看过 1893 年比较对象能够获得相近的核心母题价值，因此本件不得升级为稀世珍品或行程决定因素。",
+    "frye72BoundaryRespected": true,
+    "verdict": "PASS"
+  },
+  "significanceVerdict": "PASS",
+  "workSpecificReview": {
+    "verdict": "PASS",
+    "evidence": "核心问题、各段机制和最后一眼都依赖本作特有的两处眼部亮点、横跨双肩的蛇、近黑背景、窄竖幅、建筑式金框及多个《罪》版本；遮去作品名仍可据这些线索识别，不能原样替换到一般象征主义人物画。"
+  },
+  "workSpecificVerdict": "PASS",
+  "productionLanguageReview": {
+    "verdict": "PASS",
+    "scannedScope": "card.txt 与 draft.md 的全部访客可见文字，包括元数据、快层、深层、细节、最后一眼、事实边界和资料行。",
+    "findings": [],
+    "note": "正文中的‘版本’均指艺术品的近似版本，不是版本迁移或其他内部生产语言。"
+  },
+  "productionLanguageVerdict": "PASS",
+  "voiceScores": {
+    "entrance": {
+      "score": 2,
+      "evidence": "‘大片黑暗里，真正发亮的是两处’立即建立可见问题，并由女人眼与蛇眼具体兑现。"
+    },
+    "causality": {
+      "score": 2,
+      "evidence": "‘黑暗减少信息，横线拴住身体，两点亮光则把观者留在这条关系里’明确回答形状为何造成紧张感。"
+    },
+    "people": {
+      "score": 1,
+      "evidence": "本作不依赖事件史或制度史，正文没有硬塞人物心理；但人的选择只以施图克长期反复经营该母题间接出现，没有形成更具体的行动因果。"
+    },
+    "turn": {
+      "score": 2,
+      "evidence": "版本比较把‘反复出现’从稀有性想象转成长期经营的视觉机制，并明确改变价值判断：‘价值不需要由“唯一”来保证’。"
+    },
+    "visualPayoff": {
+      "score": 2,
+      "evidence": "版本、象征主义与价值判断持续回到两处眼光、横向蛇身、暗部、窄幅和金框。"
+    },
+    "spokenClarity": {
+      "score": 2,
+      "evidence": "‘让视线在这两点之间横移’、‘蛇身横跨双肩’等句子口头可复述，连续朗读自然且不牺牲边界。"
+    },
+    "secondLook": {
+      "score": 2,
+      "evidence": "结尾给出女子眼到蛇眼、沿蛇身反扫至金框的具体动作，并把线索重组为新的整体判断。"
+    },
+    "total": 13,
+    "maximum": 14,
+    "threshold": 12,
+    "noZero": true,
+    "verdict": "PASS"
+  },
+  "hardGateFailures": [
+    {
+      "gate": "paragraph_dependency_and_reordering",
+      "reason": "深层的金框段与版本段可以互换而不损害理解；版本段只依赖首段建立的女人、蛇与目光关系，不依赖金框段新增的整体设计认识。"
+    }
+  ],
+  "actionableFailureReasons": [
+    "必须让金框段与版本段之间形成不可调换的认知依赖，或按真正的因果需要重组深层；当前两段互换后核心问题、指代和结论均无实质损失。",
+    "返工审读时需再次执行段落重排测试，并明确记录每个中间段提前后会丢失的具体前提；不得只靠标题顺序或‘因此’制造表面依赖。"
+  ],
+  "finalVerdict": "FAIL",
+  "finalReason": "机械门、事实边界、自然中文、重要性、作品专属性、生产语言和 13/14 voice 均通过，但段落依赖硬门失败；按锁定规则，任何硬门失败使最终结论为 FAIL。"
+}

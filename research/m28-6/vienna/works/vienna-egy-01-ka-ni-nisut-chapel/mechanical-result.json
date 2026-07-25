@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-egy-01-ka-ni-nisut-chapel-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:41.454Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "e750d4ef6555538e9c7bfb9ebb5d70e7608a2766b910be9d520388b7c7b49020",
+      "bytes": 9516
+    },
+    {
+      "path": "card.txt",
+      "sha256": "2bedb6538579058be6c3ad765c1f04211b8efcc87795021a39eb4e5e58d3ff84",
+      "bytes": 286
+    },
+    {
+      "path": "draft.md",
+      "sha256": "b594afa2f0d5cecb7612f7040f08c150b8794b4da417c01e5c411446703304b8",
+      "bytes": 3513
+    }
+  ]
+}

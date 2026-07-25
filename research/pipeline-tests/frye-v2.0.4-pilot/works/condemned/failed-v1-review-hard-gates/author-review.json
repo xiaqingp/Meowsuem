@@ -1,0 +1,196 @@
+{
+  "workId": "condemned",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "ddcd70203c1b826d104ec418832ab8e2000b77a2af8334905513d66845d467db"
+  },
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "mechanicalChecks": {
+    "cardVisibleCharacters": 77,
+    "cardRangeRequired": "24—100",
+    "quickLayerVisibleCharacters": 140,
+    "quickLayerRangeRequired": "70—240",
+    "deepLayerVisibleCharacters": 938,
+    "deepLayerMinimumRequired": 320,
+    "observableDetailCount": 6,
+    "sectionContractPresent": true,
+    "bilingualWorkAndArtistNamesPresent": true
+  },
+  "paragraphDependency": [
+    {
+      "paragraph": "30秒先懂",
+      "dependsOn": "标题和零背景读者可见的暗室、囚犯、围观者与空地。",
+      "newUnderstanding": "暂时回答空地为何重要：刑罚同时组织被拘束者与观看者。",
+      "breaksIfMovedEarlier": "这是入口段，无需前置正文。"
+    },
+    {
+      "paragraph": "深层第1段：空地怎样组织关系",
+      "dependsOn": "快层已经指出空地是可见矛盾。",
+      "newUnderstanding": "把题名中的单个人物扩展为谁能靠近、谁只能观看的群体空间关系，同时排除对心理的偷写。",
+      "breaksIfMovedEarlier": "若置于快层之前，读者尚未获得空地这一观察抓手，空间分析会失去问题指向。"
+    },
+    {
+      "paragraph": "深层第2段：革命后社会语境",
+      "dependsOn": "上一段已建立画面关心的是群体与制度性处境。",
+      "newUnderstanding": "解释这种关注为何会出现在蒙卡奇早期社会题材中，并把社会背景重新落回暗室距离。",
+      "breaksIfMovedEarlier": "提前后会成为可交换的生平背景，读者还不知道它要解释哪一处画面。"
+    },
+    {
+      "paragraph": "深层第3段：绘画手段",
+      "dependsOn": "前两段已建立群体关系及其社会现实主义语境。",
+      "newUnderstanding": "说明褐黑色、粗粝表面、亮区、白色布料和人物站位怎样让制度关系可见。",
+      "breaksIfMovedEarlier": "提前后只剩孤立的形式描述，无法回答这些形式为何重要。"
+    },
+    {
+      "paragraph": "深层第4段：最近比较与重要性",
+      "dependsOn": "前文已说明本作的核心观看价值和作者早期方法。",
+      "newUnderstanding": "借1870年相关作品界定同题材位置，并把结论收束为有边界的‘重要藏品’。",
+      "breaksIfMovedEarlier": "若没有先建立本作的空间机制，比较只会变成版本资料，无法说明Frye作品独立的观看回报。"
+    },
+    {
+      "paragraph": "四项现场细节",
+      "dependsOn": "深层已经把束缚、空地、白色与右侧亮区分别接入核心问题。",
+      "newUnderstanding": "把抽象结论转成可执行的现场核对动作。",
+      "breaksIfMovedEarlier": "提前后会成为无因果的观看清单，读者不知道每个动作验证什么。"
+    },
+    {
+      "paragraph": "最后再看一眼",
+      "dependsOn": "全文已建立束缚、群体、制度语境和无人跨过的距离。",
+      "newUnderstanding": "通过脚踝—人群—空地的复看路线，把个人命运与群体观看合回同一判断。",
+      "breaksIfMovedEarlier": "没有前文时，‘共同维持、观看’缺少空间与历史依据。"
+    },
+    {
+      "paragraph": "事实边界与资料",
+      "dependsOn": "正文已经正面说清证据支持的动作、空间、语境和比较。",
+      "newUnderstanding": "收窄罪名、身份、结局、心理、作者主张与版本关系的断言范围。",
+      "breaksIfMovedEarlier": "提前后会以限制清单接管讲述，且读者还不知道这些边界针对哪些判断。"
+    }
+  ],
+  "claimClosure": [
+    {
+      "sentence": "他与众人之间那块空地，反而成了画面最紧张的部分。",
+      "evidenceType": "直接观察加编辑判断",
+      "sourceOrBasis": "研究卡确认观看者与囚犯之间留有空地；‘最紧张’由构图中的隔离关系推出。",
+      "confidence": "中：空地可直接确认，张力属于透明的形式判断。",
+      "verdict": "保留；没有升级为人物心理或作者意图。"
+    },
+    {
+      "sentence": "这段可见的距离已经足以说明，房间里的每个人都被同一场制度性处境联系起来。",
+      "evidenceType": "编辑推断",
+      "sourceOrBasis": "题名确认死囚身份，束缚与围观站位可见；监禁和刑罚构成共享处境。",
+      "confidence": "中：制度关系可由题名、束缚和群体观看共同支持，但不推断态度。",
+      "verdict": "保留；措辞限定于关系。"
+    },
+    {
+      "sentence": "Frye把这一阶段放在1848—49年革命后的匈牙利社会中理解，也指出库尔贝、米勒和巴比松画派对他的影响。",
+      "evidenceType": "来源事实",
+      "sourceOrBasis": "Frye Collection Connection。",
+      "confidence": "高：馆方文章直接陈述。",
+      "verdict": "保留。"
+    },
+    {
+      "sentence": "革命后的社会现实进入画面时，没有化成历史事件的插图，而是落在一间暗室里人与人无法消失的距离上。",
+      "evidenceType": "编辑推断",
+      "sourceOrBasis": "馆方提供革命后语境；研究卡不支持具体案件；暗室与人物距离为直接观察。",
+      "confidence": "中：作为对证据边界和形式机制的综合判断成立。",
+      "verdict": "保留；未把男子写成政治犯，也未把画面称为历史记录。"
+    },
+    {
+      "sentence": "蒙卡奇早期现实主义在这里的力量，就在于构图、明暗和人物站位共同讲述社会关系。",
+      "evidenceType": "来源事实加形式判断",
+      "sourceOrBasis": "馆方确认早期现实主义语境；研究卡确认暗色室内、粗粝表面与人物关系承载叙事。",
+      "confidence": "高到中：阶段归属高，艺术成就判断为有可见依据的编辑评价。",
+      "verdict": "保留。"
+    },
+    {
+      "sentence": "两件作品都把被拘束者、室内和旁观者放在一起；1870年的画把他人最后探访囚犯的场面扩展开来，Frye这件则更紧凑。",
+      "evidenceType": "来源事实加比较观察",
+      "sourceOrBasis": "Frye馆方文章确认关联及1870年作品的扩展场景；研究卡给出紧凑差异。",
+      "confidence": "高到中：关联与扩展高，紧凑为有依据的比较判断。",
+      "verdict": "保留；下一句明确精确版本关系未知。"
+    },
+    {
+      "sentence": "它让人近距离读懂蒙卡奇怎样以一间房组织制度与观看，也在Frye创馆收藏中提供了少见的社会现实主义节点。",
+      "evidenceType": "编辑判断",
+      "sourceOrBasis": "五维重要性、直接观察及研究卡中的馆藏位置结论。",
+      "confidence": "中高：本馆作用有研究卡支持，未扩大为全球唯一或目的地级价值。",
+      "verdict": "保留；符合重要藏品与72分馆边界。"
+    },
+    {
+      "sentence": "此时再问一次：压住这间暗室的，或许不只是一个人的命运，还有一群人共同维持、观看却无人跨过的距离。",
+      "evidenceType": "明确限定的编辑推断",
+      "sourceOrBasis": "束缚、群体站位、中央空地与前文制度语境。",
+      "confidence": "中：‘或许’标明解释性质；不赋予具体心理。",
+      "verdict": "保留，作为对象专属第二眼。"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这幅画最值得看的不是给死囚猜罪名，而是看蒙卡奇怎样用一间暗室、围观的人和中间那块空地，把刑罚画成一个人与一群人的关系。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "notes": "标题是口头可复述的具体问题；快层主语与关系完整；深层转折来自画面—语境—手法—比较的认知推进，没有生硬名词化标题。"
+  },
+  "productionLanguageScan": {
+    "scope": [
+      "card.txt访客可见文字",
+      "draft.md标题、元数据、快层、深层、细节、最后一眼、事实边界和资料行"
+    ],
+    "forbiddenCategoriesFound": [],
+    "verdict": "clean",
+    "internalRisksConfinedHere": true
+  },
+  "significanceReview": {
+    "label": "重要藏品",
+    "fiveDimensions": {
+      "artisticAchievement": "通过紧凑空间、暗色域、白色切分和群体站位把社会关系转化为形式张力。",
+      "artHistoricalPosition": "处于蒙卡奇早期死囚题材和社会现实主义声誉形成期；未声称作者巅峰或开创性唯一地位。",
+      "historicalCulturalValue": "关联革命后匈牙利社会及十九世纪刑罚、监禁语境；正文明确不把画面当具体案件记录。",
+      "rarityAndIrreplaceability": "最近比较对象明确存在，版本性质与数量边界未知，因此不进入稀世珍品级。",
+      "collectionPosition": "在Frye创馆收藏中提供少见的社会制度与群体观看节点。"
+    },
+    "nearestComparator": "Mihály de Munkácsy, The Last Day of a Condemned Man, 1870",
+    "comparisonClosure": "正文说明共享的囚犯—室内—旁观者核心、1870年作品扩展探访场景、Frye件更紧凑，以及精确版本关系未知。",
+    "frye72BoundaryRespected": true,
+    "verdict": "重要性陈述具体且有边界，未使用决定行程、稀世、唯一或主版本措辞。"
+  },
+  "voiceCandidateScores": {
+    "entry": {
+      "score": 2,
+      "basis": "‘题名把注意力推向死囚，画家却让一群旁观者沿墙围住暗室’立即建立题名与空间的具体张力。"
+    },
+    "causality": {
+      "score": 2,
+      "basis": "空地引出群体关系，群体关系要求社会语境，社会语境再由明暗与站位兑现。"
+    },
+    "people": {
+      "score": 2,
+      "basis": "被束缚者、旁观者与制度的关系清楚，同时没有虚构人物心理。"
+    },
+    "turn": {
+      "score": 2,
+      "basis": "答案从单个死囚推进到群体观看，再由最近比较对象收窄为有边界的重要藏品。"
+    },
+    "visualPayoff": {
+      "score": 2,
+      "basis": "束缚、沿墙人群、中央空地、白色布料、右侧亮区和暗色表面均回到可观察证据。"
+    },
+    "spokenClarity": {
+      "score": 2,
+      "basis": "连续朗读自然，一口气概括成立，未发现翻译腔。"
+    },
+    "secondLook": {
+      "score": 2,
+      "basis": "脚踝—人群—空地的路线重新检验全文核心问题，且只能用于本作。"
+    },
+    "candidateTotal": 14,
+    "authorityBoundary": "作者评分仅为候选意见，须由独立审读确认。"
+  },
+  "unresolvedRisks": [
+    "本作与1870年《死囚的最后一天》的精确版本关系仍未获catalogue raisonné级证据确认；正文已收窄。",
+    "画中男子的罪名、政治身份、结局与人物心理未知；正文未补写。",
+    "图片再利用许可未确认；该事项未进入访客正文。",
+    "2026年7月22日的展出状态属于易变快照，到访时可能变化。"
+  ],
+  "independentReviewRequired": true
+}

@@ -1,0 +1,348 @@
+{
+  "artifactType": "writing_plan",
+  "status": "unreviewed",
+  "runId": "m28-v1.7.3-autumn-rhythm-clean-isolated-2026-07-22",
+  "museumId": "met",
+  "workId": "autumn-rhythm-number-30",
+  "pipelineVersion": "2.0.6",
+  "instructionVersion": "1.7.3",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium"
+  },
+  "directUpstream": {
+    "filename": "research-card.md",
+    "sha256": "6f93334431d866243f3b59306fc1817a08f50916dead7daa044913c84a833683"
+  },
+  "readerStartingPoint": {
+    "knownFromTitleAndImage": [
+      "这是一幅非常宽的抽象画，没有清楚描绘人物、物件或事件。",
+      "黑、白、棕色和少量蓝绿色痕迹铺在浅褐色画布底上。",
+      "标题给出秋天的联想和编号，却没有提供叙事情节。"
+    ],
+    "assumedMisconceptions": []
+  },
+  "narrativeSpine": {
+    "primaryValue": "这件作品把液体颜料移动、落下和交叠的路线变成画面的主要结构，并把这种结构展开到墙面般的尺度。",
+    "priorityReason": "它同时连接现场最容易核对的线条、飞溅、色块和露底，与作品有记录的落地作画方法，是零背景读者理解本作艺术价值的最短路径。",
+    "coreQuestion": "没有中心人物或物件时，工具、身体移动、重力与反复选择怎样共同组织出这片遍布全幅的颜料痕迹？",
+    "quickLayerPromise": {
+      "primaryValue": "颜料运行的路线本身就是画面的结构。",
+      "whyItMatters": "波洛克让线条脱离描绘轮廓的传统任务，并在其成熟的泼洒绘画高峰期把这种方法推到巨幅画面上。",
+      "visualAnchor": "黑色长线、较窄的白色流痕、棕色颜料堆积和持续露出的浅褐色底布彼此交叉，活动遍及整幅，却没有单一中心。"
+    },
+    "humorBasis": null,
+    "mustNotAssume": [
+      "读者认为画面只是随机事故。",
+      "画面代表某处秋景或波洛克的特定情绪。",
+      "所有痕迹都按预定设计完成。",
+      "可从交叠关系还原全部颜色的先后顺序。",
+      "本作是波洛克唯一、最伟大或不可替代的作品。",
+      "三件巨幅作品等于全球仅存三件可比泼洒画。"
+    ]
+  },
+  "logicChain": [
+    {
+      "step": 1,
+      "discovery": "全幅没有中心形象，粗细不同的线、飞溅、滴点、色块和露底共同分布。",
+      "changesUnderstanding": "观看重点从寻找题材转向辨认颜料在画布上的不同运动结果。",
+      "thereforeNext": "这些差异鲜明的痕迹是怎样形成的？",
+      "claimIds": ["C12", "C13", "C14", "C15", "C16", "C17"]
+    },
+    {
+      "step": 2,
+      "discovery": "波洛克把未绷紧的画布铺在地面，从四边走动作画，并用倾倒、滴洒、甩溅和积聚颜料的方法形成痕迹。",
+      "changesUnderstanding": "画面的线不再只是手持画笔贴着画布描出的轮廓，而是工具、液体颜料、重力、速度、力度和身体位置共同留下的结果。",
+      "thereforeNext": "既有下落造成的偶然变化，画面为何仍能形成可辨认的整体组织？",
+      "claimIds": ["C18", "C19", "C20"]
+    },
+    {
+      "step": 3,
+      "discovery": "痕迹遍及整幅，但局部疏密、线宽、颜色与露底不断变化；创作方法容纳液体下落的效果，也包含对流动、位置、密度和继续或停止的快速选择。",
+      "changesUnderstanding": "作品的组织来自连续调节，而不能简化成纯事故或完全预定的图样。",
+      "thereforeNext": "这种方法处在波洛克创作的什么位置，本作的地位该如何判断？",
+      "claimIds": ["C20", "C21", "C22"]
+    },
+    {
+      "step": 4,
+      "discovery": "本作属于波洛克成熟高峰期的三件1950年巨幅画之一；最接近的《一号：第31号，1950》提供相同的核心历史与技术经验，因此现有证据支持“重要藏品”，不支持不可替代的“稀世珍品”。",
+      "changesUnderstanding": "本作的重要性落在成熟方法、巨幅尺度、具体色彩与痕迹分布，以及大都会艺术博物馆的收藏史上，而不是无依据的唯一性。",
+      "thereforeNext": "回到下方一段白色流痕，怎样把有记录的制作动作与整幅分布联系起来？",
+      "claimIds": ["C23", "C24", "C25", "C26", "C27"]
+    },
+    {
+      "step": 5,
+      "discovery": "汉斯·纳穆特的照片记录了波洛克在1950年夏末为本作下部添加白色颜料。",
+      "changesUnderstanding": "一处具体白色痕迹可以与有记录的创作动作相连，同时完整层次顺序仍保持未知。",
+      "thereforeNext": "沿这段白色痕迹看它与黑、棕色痕迹的交叉，再把视线放到整幅，判断局部交叉怎样进入全幅结构。",
+      "claimIds": ["C28", "C29", "C30"]
+    }
+  ],
+  "historicalContextPlan": {
+    "applicable": false,
+    "reason": "作品的重要性不依赖需要重建的战争、政治、宗教或叙事事件；相关历史只需解释工作环境、技术发展、生涯位置和收藏史。"
+  },
+  "highRiskClaims": [
+    {
+      "claim": "画名证明作品描绘秋景或自然象征。",
+      "evidenceType": "馆方解释与未获支持的作者意图之间有边界。",
+      "allowedWording": "标题带来季节联想；大都会艺术博物馆把标题与自然的流动联系起来。",
+      "forbiddenUpgrade": "波洛克明确描绘秋景，或作品具有确定的自然象征。"
+    },
+    {
+      "claim": "每一道痕迹都受控或都属偶然。",
+      "evidenceType": "博物馆对一般方法的分析与本作直接观察。",
+      "allowedWording": "方法同时容纳下落液体的变化和对流动、位置、密度、颜色与继续或停止的选择。",
+      "forbiddenUpgrade": "完全预定的设计，或纯粹随机事故。"
+    },
+    {
+      "claim": "白色是整幅最后一层。",
+      "evidenceType": "本作特定照片说明。",
+      "allowedWording": "波洛克在1950年夏末的一次拍摄中为画面下部添加白色颜料。",
+      "forbiddenUpgrade": "所有白色都最后画成，或全幅层次顺序已经确定。"
+    },
+    {
+      "claim": "本作唯一、最伟大或不可替代。",
+      "evidenceType": "同作者同年同阶段巨幅作品比较。",
+      "allowedWording": "本作是成熟高峰期的重要藏品，也是三件1950年巨幅画之一。",
+      "forbiddenUpgrade": "稀世珍品、全球唯一、波洛克最伟大的作品。"
+    },
+    {
+      "claim": "本作单独改变了现代艺术。",
+      "evidenceType": "关于波洛克泼洒绘画方法的艺术史资料与本馆收藏史。",
+      "allowedWording": "波洛克的泼洒绘画方法具有广泛影响，本作是成熟的重要实例；大都会艺术博物馆1957年的购藏显示这种革新很快进入现代艺术经典。",
+      "forbiddenUpgrade": "本作单独发明抽象表现主义或直接造成后来的艺术运动。"
+    }
+  ],
+  "detailStructure": [
+    {
+      "section": "30秒先懂",
+      "purpose": "给出液体颜料路线成为画面结构这一首要价值，并以黑、白、棕痕迹和露底确认。",
+      "claimIds": ["C12", "C13", "C14", "C15", "C16", "C17", "C22"]
+    },
+    {
+      "section": "颜料怎样组织一幅没有中心的画？",
+      "purpose": "从落地作画、四边移动、工具与物理变量解释痕迹差异，再说明连续选择怎样形成全幅组织。",
+      "claimIds": ["C18", "C19", "C20", "C21", "C22"]
+    },
+    {
+      "section": "为什么这是波洛克成熟高峰期的作品？",
+      "purpose": "把眼前的线、泼洒、积聚和全幅分布放回1947至1950年的技术与生涯位置。",
+      "claimIds": ["C9", "C10", "C11", "C23"]
+    },
+    {
+      "section": "它重要，但为什么不是稀世珍品？",
+      "purpose": "用三件1950年巨幅组和最近比较对象完成价值与边界判断，并接入1957年收藏史。",
+      "claimIds": ["C24", "C25", "C26", "C27", "C31"]
+    },
+    {
+      "section": "再看这些容易错过的细节",
+      "purpose": "提供五项可以在现场执行的观察动作。",
+      "claimIds": ["C12", "C13", "C14", "C15", "C16", "C17", "C28", "C29"]
+    },
+    {
+      "section": "最后再看一眼",
+      "purpose": "由有照片记录的下部白色颜料出发，把一个局部交叉重新连接到全幅分布，并保持层次顺序边界。",
+      "claimIds": ["C28", "C29", "C30"]
+    }
+  ],
+  "cardSummaryPlan": {
+    "independentFromDetailDraft": true,
+    "purpose": "回答这件作品为什么值得点开：巨幅画面把液体颜料的运行路线变成结构，并让观众从具体痕迹理解波洛克成熟期的方法。",
+    "claimIds": ["C12", "C13", "C14", "C15", "C16", "C17", "C22", "C23"]
+  },
+  "claimLedger": [
+    {
+      "id": "C1",
+      "claim": "作品稳定ID为met-57.92-autumn-rhythm-number-30。",
+      "type": "sourceFact",
+      "basis": "research-card.md §1, S1"
+    },
+    {
+      "id": "C2",
+      "claim": "中文名为《秋韵（第30号）》，英文馆藏题名为Autumn Rhythm: Number 30, 1950。",
+      "type": "sourceFact",
+      "basis": "research-card.md §1, S1 and S1-ZH"
+    },
+    {
+      "id": "C3",
+      "claim": "作者为杰克逊·波洛克 Jackson Pollock，馆方归属为美国，生卒年1912—1956。",
+      "type": "sourceFact",
+      "basis": "research-card.md §1, S1 and S1-ZH"
+    },
+    {
+      "id": "C4",
+      "claim": "作品创作于1950年。",
+      "type": "sourceFact",
+      "basis": "research-card.md §1, S1"
+    },
+    {
+      "id": "C5",
+      "claim": "当前英文馆藏记录的材质为布面油改性醇酸树脂颜料。",
+      "type": "sourceFact",
+      "basis": "research-card.md §1, S1"
+    },
+    {
+      "id": "C6",
+      "claim": "当前英文馆藏记录尺寸为269.9 × 528.3 × 6.7厘米。",
+      "type": "sourceFact",
+      "basis": "research-card.md §1, S1"
+    },
+    {
+      "id": "C7",
+      "claim": "作品当前记录为在大都会艺术博物馆第五大道馆851展厅展出，状态核验于2026-07-22，不能承诺未来持续展出。",
+      "type": "sourceFact",
+      "basis": "research-card.md §1 and §9, S1"
+    },
+    {
+      "id": "C8",
+      "claim": "参观优先级为绝对不可错过，重要性为重要藏品；建议赶时间30秒，细看5—8分钟。",
+      "type": "editorialSelection",
+      "basis": "research-card.md §2"
+    },
+    {
+      "id": "C9",
+      "claim": "波洛克在1947年发展出把稀释颜料倾倒、滴洒到地面上未处理画布的方法。",
+      "type": "sourceFact",
+      "basis": "research-card.md §4–§7, S2"
+    },
+    {
+      "id": "C10",
+      "claim": "波洛克1947—1951年的大型泼洒绘画构成其声誉的主要基础，本作属于成熟高峰期，而非早期实验。",
+      "type": "sourceFact",
+      "basis": "research-card.md §7, S5, S6, S12"
+    },
+    {
+      "id": "C11",
+      "claim": "泼洒画让线条不再承担描绘物体轮廓的传统任务，颜料形成的线本身成为主要表达方式。",
+      "type": "sourceFact",
+      "basis": "research-card.md §6, S4"
+    },
+    {
+      "id": "C12",
+      "claim": "画面是非常宽的横向矩形，浅褐色或接近原布色的底在全幅多处可见。",
+      "type": "directObservation",
+      "basis": "research-card.md O1"
+    },
+    {
+      "id": "C13",
+      "claim": "黑色形成最醒目的深色网络，包括长弧线、环线、斜线、短促飞溅及较厚的积聚。",
+      "type": "directObservation",
+      "basis": "research-card.md O2"
+    },
+    {
+      "id": "C14",
+      "claim": "较窄的白色流痕与飞溅穿过或贴近深色痕迹，下部有数段尤其清楚。",
+      "type": "directObservation",
+      "basis": "research-card.md O3"
+    },
+    {
+      "id": "C15",
+      "claim": "棕色既形成流动线迹，也形成较宽、较柔和的色块或积聚。",
+      "type": "directObservation",
+      "basis": "research-card.md O4"
+    },
+    {
+      "id": "C16",
+      "claim": "少量灰暗蓝绿色分散出现，没有形成连续色域。",
+      "type": "directObservation",
+      "basis": "research-card.md O5"
+    },
+    {
+      "id": "C17",
+      "claim": "画面同时可见细线、中等粗线、滴点、飞溅与宽色块；局部疏密不同，活动遍及全幅，没有单一中心形象。",
+      "type": "directObservation",
+      "basis": "research-card.md O6–O7"
+    },
+    {
+      "id": "C18",
+      "claim": "波洛克在斯普林斯的谷仓画室把未绷紧的画布铺在地上，从四边走动并施加液体颜料。",
+      "type": "sourceFact",
+      "basis": "research-card.md §4–§6, S2 and S3"
+    },
+    {
+      "id": "C19",
+      "claim": "他使用倾倒、滴洒、泼溅、甩洒与积聚等方法，也使用木棍、画笔柄和颜料罐等非常规工具。",
+      "type": "sourceFact",
+      "basis": "research-card.md §6, S4"
+    },
+    {
+      "id": "C20",
+      "claim": "这种方法让重力、动量、力度、速度、颜料流动性与画家绕画布移动共同影响痕迹形态。",
+      "type": "sourceFact",
+      "basis": "research-card.md §6, S6 and S8"
+    },
+    {
+      "id": "C21",
+      "claim": "下落液体会产生偶然变化，画家同时对流动、位置、密度、颜色以及继续或停止作出选择。",
+      "type": "sourceFactAndEditorialExplanation",
+      "basis": "research-card.md §6–§7 and §13, S6, S8, O1–O7"
+    },
+    {
+      "id": "C22",
+      "claim": "本作把不同粗细、颜色与形态的颜料痕迹广泛分布，并保留露底，使颜料运行的路线成为没有中心题材时的主要可见结构。",
+      "type": "editorialSynthesis",
+      "basis": "research-card.md §3, §6, O1–O7"
+    },
+    {
+      "id": "C23",
+      "claim": "MoMA把本作与《一号：第31号，1950》《第32号，1950》列为1950年夏秋完成的三件巨幅画，并把这个组放在波洛克经典泼洒绘画的高峰。",
+      "type": "sourceFact",
+      "basis": "research-card.md §5–§8, S5 and S6"
+    },
+    {
+      "id": "C24",
+      "claim": "最接近的比较对象《一号：第31号，1950》同为1950年、墙面尺度、成熟高峰期的泼洒画，尺寸269.5 × 530.8厘米，与本作极为接近。",
+      "type": "sourceFact",
+      "basis": "research-card.md §8, S6"
+    },
+    {
+      "id": "C25",
+      "claim": "《一号：第31号，1950》提供相同的核心历史与技术经验；两作色彩和局部组织不同，但现有证据没有建立本作不可替代的决定性价值。",
+      "type": "comparisonConclusion",
+      "basis": "research-card.md §8, S6, O1–O7"
+    },
+    {
+      "id": "C26",
+      "claim": "《第32号，1950》是三件巨幅作品组中的另一件，进一步证明可比较小组存在。",
+      "type": "sourceFact",
+      "basis": "research-card.md §8, S5 and S7"
+    },
+    {
+      "id": "C27",
+      "claim": "本作确切色彩、痕迹分布、下部白色颜料的记录和大都会艺术博物馆收藏史具有对象专属性，但不足以把重要性升级为稀世珍品。",
+      "type": "comparisonConclusion",
+      "basis": "research-card.md §8"
+    },
+    {
+      "id": "C28",
+      "claim": "汉斯·纳穆特的照片记录波洛克位于本作边缘；另一张照片说明他在1950年夏末为本作下部添加白色颜料。",
+      "type": "sourceFact",
+      "basis": "research-card.md §4, §9–§10, S9 and S10"
+    },
+    {
+      "id": "C29",
+      "claim": "这份照片记录只支持一次下部白色颜料的施加，不能推出所有白色的先后或全幅完整层次顺序。",
+      "type": "evidenceBoundary",
+      "basis": "research-card.md §5–§6, §10, §13–§14, S10"
+    },
+    {
+      "id": "C30",
+      "claim": "最后观看动作是沿一段下部白色流痕观察它与黑、棕痕迹的交叉，再把视线扩展至全幅，判断局部如何进入遍布画面的分布。",
+      "type": "editorialViewingAction",
+      "basis": "research-card.md §12"
+    },
+    {
+      "id": "C31",
+      "claim": "大都会艺术博物馆于1957年购藏本作，即波洛克去世后一年；馆方把这一时间点解释为他的绘画革新迅速进入现代艺术经典的迹象。",
+      "type": "sourceFactAndAttributedInterpretation",
+      "basis": "research-card.md §4–§5 and §9, S1 and S1-ZH"
+    },
+    {
+      "id": "C32",
+      "claim": "结构化元数据采用当前英文馆藏记录的材质与三维尺寸；中文页面及较早资料的材质和尺寸表述不同，现有来源未解释差异。",
+      "type": "evidenceBoundary",
+      "basis": "research-card.md §1 Metadata discrepancy boundary and §14"
+    }
+  ]
+}

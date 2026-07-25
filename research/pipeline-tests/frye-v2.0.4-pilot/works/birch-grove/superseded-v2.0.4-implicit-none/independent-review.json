@@ -1,0 +1,182 @@
+{
+  "workId": "birch-grove",
+  "artifactType": "independent_review",
+  "reviewerRole": "fresh_independent_reviewer",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "museumId": "frye",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "575959ad379af13b6b4400edd995a3ed91655dbe04723e454cb5ec916fa40de0"
+  },
+  "artifactHashes": {
+    "research-card.md": "09924da1615c31c53e2643b9c94a3dcba1424993768ecb08896a3074efef8a01",
+    "writing-plan.json": "daac25c46bf82bc8479bc7512060c3e31641ffce1a99e97820da24f214fe0eb3",
+    "card.txt": "c06bc474bd31008a717e12311a09c619f9dfbdd906a21c4796803b9c73c61e83",
+    "draft.md": "575959ad379af13b6b4400edd995a3ed91655dbe04723e454cb5ec916fa40de0"
+  },
+  "directUpstreamChain": {
+    "verified": true,
+    "links": [
+      {
+        "artifact": "research-card.md",
+        "declaredDirectUpstream": "../../batch-01/source-pack.md",
+        "declaredSha256": "1b14092fcb94d8fc908227917e92dabf0175f01cb5e1853b2d42d724ecd66e3e",
+        "actualSha256": "1b14092fcb94d8fc908227917e92dabf0175f01cb5e1853b2d42d724ecd66e3e",
+        "matches": true
+      },
+      {
+        "artifact": "writing-plan.json",
+        "declaredDirectUpstream": "research-card.md",
+        "declaredSha256": "09924da1615c31c53e2643b9c94a3dcba1424993768ecb08896a3074efef8a01",
+        "actualSha256": "09924da1615c31c53e2643b9c94a3dcba1424993768ecb08896a3074efef8a01",
+        "matches": true
+      },
+      {
+        "artifact": "card.txt",
+        "declaredDirectUpstream": "writing-plan.json",
+        "declaredSha256": "daac25c46bf82bc8479bc7512060c3e31641ffce1a99e97820da24f214fe0eb3",
+        "actualSha256": "daac25c46bf82bc8479bc7512060c3e31641ffce1a99e97820da24f214fe0eb3",
+        "matches": true
+      },
+      {
+        "artifact": "draft.md",
+        "declaredDirectUpstream": "card.txt",
+        "declaredSha256": "c06bc474bd31008a717e12311a09c619f9dfbdd906a21c4796803b9c73c61e83",
+        "actualSha256": "c06bc474bd31008a717e12311a09c619f9dfbdd906a21c4796803b9c73c61e83",
+        "matches": true
+      },
+      {
+        "artifact": "independent-review.json",
+        "declaredDirectUpstream": "draft.md",
+        "declaredSha256": "575959ad379af13b6b4400edd995a3ed91655dbe04723e454cb5ec916fa40de0",
+        "actualSha256": "575959ad379af13b6b4400edd995a3ed91655dbe04723e454cb5ec916fa40de0",
+        "matches": true
+      }
+    ]
+  },
+  "mechanicalChecks": {
+    "cardVisibleCharacters": 48,
+    "cardRange": "24-100",
+    "quickVisibleCharacters": 140,
+    "quickRange": "70-240",
+    "deepVisibleCharacters": 775,
+    "deepMinimum": 320,
+    "observableDetailCount": 5,
+    "observableDetailMinimum": 4,
+    "completeMetadata": true,
+    "clickableSourcesPresent": true,
+    "workSpecificLastLookPresent": true,
+    "negationTurnSkeletonCountOutsideFactBoundary": 1,
+    "productionLanguageHits": [],
+    "verdict": "PASS"
+  },
+  "layerIndependence": {
+    "card": "PASS: independently states the click-through value as a centered compositional paradox and does not issue a viewing sequence.",
+    "quick": "PASS: independently gives the no-center answer and a usable viewing action within the quick layer.",
+    "deep": "PASS: remains intelligible without the quick layer and develops irregular spacing, depth, comparison, collection value, and detailed checks.",
+    "verdict": "PASS"
+  },
+  "paragraphDependency": {
+    "verdict": "PASS",
+    "evidence": [
+      "The first deep paragraph establishes that unequal spacing, rather than a central focus, holds the grove together.",
+      "The second depends on the established repeated vertical framework and asks how that framework also produces depth through thickness and overlap.",
+      "The comparator paragraph depends on both prior results before distinguishing Dill's light, dense structure from Trubner's few heavy trunks and assigning collection value.",
+      "The detail list operationalizes the mechanisms already established, and the final look recombines surface rhythm with depth to close the core question."
+    ]
+  },
+  "claimAudit": {
+    "verdict": "FAIL",
+    "supportedBoundaries": [
+      "Circa 1900, oil-on-canvas identity, Founding Collection status, and unconfirmed display status stay within the supplied evidence.",
+      "The shallow-colored trunks, green/yellow/brown masses, irregular density, fragmented distance, and absence of a clear person are supported as direct observations.",
+      "The Trubner comparison, limited collection role, and explicit refusal to elevate the work to an itinerary-defining masterpiece follow the supplied comparison boundary.",
+      "The prose does not invent a location, season, birch symbolism, artist psychology, political meaning, or exhibition history."
+    ],
+    "unsupportedOrUnclosedClaims": [
+      {
+        "visitorText": "**作者或文化**：路德维希·迪尔 Ludwig Dill · 德国",
+        "reason": "None of the supplied evidence artifacts explicitly establishes the author's country/national attribution as Germany. The source pack supports a German-speaking/Munich context, which is not the same claim as nationality.",
+        "action": "Add an authoritative nationality/affiliation source to the research card before retaining the country label, or narrow the metadata to what the supplied evidence establishes."
+      },
+      {
+        "visitorText": "人物、建筑和突出的单棵树都缺席了 / 画面里没有明确人物或建筑",
+        "reason": "The research card and batch source pack explicitly support no clear person, but they do not record the absence of architecture or of a single prominent tree as verified observations. Those observations first appear in the writing plan and are then published without a research-card evidence entry.",
+        "action": "Verify these image observations and add them to the research card before retaining them, or remove/narrow the unsupported portions."
+      }
+    ],
+    "unplannedHighRiskClaims": []
+  },
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这幅白桦林没有人物、建筑或一棵主树来聚焦，却靠树干忽密忽疏、近粗远细，把满眼竖线组织成既有节奏又有深度的树林。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "notes": "Titles, quick layer, paragraph transitions, detail commands, and final look read naturally aloud; metaphors such as '发号施令' remain immediately intelligible and do not obscure the mechanism."
+  },
+  "significanceReview": {
+    "verdict": "PASS",
+    "label": "特色看点",
+    "visitPriority": "时间充裕再看",
+    "fiveDimensions": {
+      "artisticAchievement": "PASS: identifies the concrete achievement as maintaining structure and depth through trunk spacing, thickness, overlap, and connected color masses.",
+      "artHistoricalPosition": "PASS: limits the work to a circa-1900 mature landscape example and does not claim invention, a turning point, or a movement peak.",
+      "historicalCulturalValue": "PASS: keeps this dimension modest; the work is treated as a Founding Collection component rather than evidence of a specific event, place, or symbol.",
+      "rarityAndIrreplaceability": "PASS: does not manufacture rarity and expressly denies itinerary-level or global non-substitutability.",
+      "collectionPosition": "PASS: gives the work a specific comparative role within the Frye Founding Collection."
+    },
+    "nearestComparator": "Wilhelm Trubner, Three Firs in Hemsbach Castle",
+    "sharedCore": "Both use tree trunks as the picture's structural skeleton.",
+    "decisiveDifference": "Dill uses many light, dense trunks without an architectural focus; Trubner uses a few heavy dark trunks in contrast with an obscured white building.",
+    "nonSubstitutabilityBoundary": "The work provides a light, dense, continuous, non-architectural rhythm in the in-museum comparison, while that local comparative return does not establish worldwide non-substitutability.",
+    "frye72Boundary": "Respected: the draft calls the work a concrete Founding Collection node and explicitly says it is not a movement peak capable of deciding an itinerary."
+  },
+  "voiceScores": {
+    "entry": {
+      "score": 2,
+      "evidence": "'这片白桦林几乎没有传统意义上的主角' immediately creates the work-specific no-center problem."
+    },
+    "causality": {
+      "score": 2,
+      "evidence": "'粗干把近景钉住，细干则一层层切碎远处' explains why repeated trunks create both order and depth."
+    },
+    "people": {
+      "score": 2,
+      "evidence": "Human-choice narration is not applicable to this landscape, and the draft correctly avoids inventing an artist's intention or biography to force this dimension."
+    },
+    "turn": {
+      "score": 2,
+      "evidence": "The apparent risk that repeated trunks become a flat pattern changes into the recognition that thickness and overlap make an enterable space."
+    },
+    "visualPayoff": {
+      "score": 2,
+      "evidence": "Every main explanation returns to observable trunk density, thickness, overlap, gaps, and green/yellow/brown masses."
+    },
+    "oralClarity": {
+      "score": 2,
+      "evidence": "'有的两三根挤在一起，有的中间留出一块绿色或褐黄色空隙' is natural spoken Chinese with concrete relations."
+    },
+    "secondLook": {
+      "score": 2,
+      "evidence": "The ending asks the visitor to follow one thick birch upward and then shift laterally to layered thin trunks, recombining rhythm and depth."
+    },
+    "total": 14,
+    "maximum": 14,
+    "threshold": 12,
+    "noZero": true,
+    "verdict": "PASS"
+  },
+  "mechanicalVerdict": "PASS",
+  "factBoundaryVerdict": "FAIL",
+  "narrativeVerdict": "PASS",
+  "nativeChineseVerdict": "PASS",
+  "significanceVerdict": "PASS",
+  "workSpecificVerdict": "PASS",
+  "productionLanguageVerdict": "PASS",
+  "failureReasons": [
+    "The visitor metadata publishes '德国' without an explicit nationality/affiliation basis in the supplied research evidence.",
+    "The quick and deep visitor prose publishes the absence of architecture and a single prominent tree even though those image observations were not verified in the research card or batch source pack."
+  ],
+  "finalVerdict": "FAIL"
+}

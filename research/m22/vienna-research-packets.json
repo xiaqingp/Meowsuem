@@ -1,0 +1,67 @@
+{
+  "museum": "vienna",
+  "instructionVersion": "1.5.0",
+  "deliverables": ["cardSummary", "detailMarkdown"],
+  "batches": [
+    {
+      "id": "vienna-01",
+      "items": [
+        {"workId":"hunters","identity":"老彼得·勃鲁盖尔，1565年，月份组画","facts":["猎人和狗从左下进入，冰上活动铺向远景","原六幅月份组画现可确认五幅"],"comparison":"勃鲁盖尔约四十幅存世绘画中，维也纳藏十二幅，本作是月份组画核心","source":"https://www.khm.at/en/artworks/hunters-in-the-snow-winter-327"},
+        {"workId":"babel","identity":"老彼得·勃鲁盖尔，1563年","facts":["塔体仿照罗马圆形竞技场并露出施工过程","国王、石匠、吊机与已开裂结构同时出现"],"comparison":"同题大型核心版本以维也纳和鹿特丹两件最著名，维也纳本更大","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"wedding","identity":"老彼得·勃鲁盖尔，约1567年","facts":["木板托盘形成横贯人群的视觉通道","新娘可辨，新郎身份并不确定"],"comparison":"题材并非孤例，价值在成熟期群像秩序与日常观察","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"children","identity":"老彼得·勃鲁盖尔，1560年","facts":["两百多个儿童展示八十多种游戏","城市空间几乎完全由儿童占据"],"comparison":"没有已知第二幅同规模、同密度的勃鲁盖尔儿童游戏全景","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"carnival","identity":"老彼得·勃鲁盖尔，1559年","facts":["酒馆一侧对应狂欢节，教堂一侧对应四旬斋","两位拟人主角在广场中央交锋"],"comparison":"同题传统存在，本作以数百行为组成城市剧场","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"dance","identity":"老彼得·勃鲁盖尔，约1568年","facts":["近景舞者被放大到切出画框","风笛手、脚步和身体转向组织节奏"],"comparison":"与《农民婚礼》构成晚期大型农民题材关键一对","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"gloomy","identity":"老彼得·勃鲁盖尔，1565年，月份组画","facts":["风暴前的树木、船只与劳作构成早春恶劣天气","高视点把局部劳动放入季节系统"],"comparison":"月份组画核心之一，需与《雪中猎人》《牧群归来》连读","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"herd","identity":"老彼得·勃鲁盖尔，1565年，月份组画","facts":["牧人把牛群赶下山，远处天气正在改变","牲畜身体形成横向移动的队列"],"comparison":"五件确认月份组画中的秋季节点，维也纳组藏使系列比较成立","source":"https://www.khm.at/en/artworks/the-return-of-the-herd-autumn-326"},
+        {"workId":"art-painting","identity":"约翰内斯·维米尔，约1666至1668年","facts":["画家背对观众，模特持书与号角扮演克里奥","地图、吊灯、帘幕与棋盘地砖把工作室变成舞台"],"comparison":"维米尔存世作品本就很少，本作规模大且直接讨论绘画身份","source":"https://www.khm.at/en/artworks/the-art-of-painting-2574-1"},
+        {"workId":"infanta-blue","identity":"迭戈·委拉斯开兹，1659年","facts":["蓝裙轮廓巨大，脸部和织物由松动笔触完成","公主肖像服务维也纳与马德里王室婚配沟通"],"comparison":"与白裙像等构成年龄与笔法序列，是晚期宫廷肖像核心","source":"https://www.khm.at/en/artworks/infanta-margarita-in-a-blue-dress-2027"}
+      ]
+    },
+    {
+      "id": "vienna-02",
+      "items": [
+        {"workId":"infanta-white","identity":"迭戈·委拉斯开兹，约1656年","facts":["银白裙体积与幼小面孔形成反差","肖像被送往维也纳供未来婚配对象认识"],"comparison":"与蓝裙像连读可见公主成长及委拉斯开兹晚期笔法","source":"https://www.khm.at/en/artworks/infanta-margarita-in-a-white-dress-2026"},
+        {"workId":"jane","identity":"小汉斯·霍尔拜因，约1536至1537年","facts":["珠宝、袖口和金线被精确刻画","正面坐姿与克制表情服务王后身份"],"comparison":"原作肖像存世有限，维也纳本是关键宫廷肖像","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"maximilian","identity":"阿尔布雷希特·丢勒，1519年","facts":["皇帝手持石榴，象征多部分联合","衰老面孔未被改成年轻征服者"],"comparison":"存在其他版本，维也纳本是去世之年的代表性油画定型","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"gallery","identity":"小戴维·特尼尔斯，约1651年","facts":["利奥波德·威廉大公与随从站在密集名画之间","墙上作品可辨并对应其意大利绘画收藏"],"comparison":"画家制作过多个画廊版本，本作记录KHM核心收藏形成","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"madonna-meadow","identity":"拉斐尔，1505或1506年","facts":["圣母与两名儿童构成稳定三角","幼年施洗约翰的十字架预告受难"],"comparison":"拉斐尔圣母像并不少，本作清楚显示佛罗伦萨时期风格转折","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"crowning","identity":"卡拉瓦乔，约1602至1604年","facts":["两根木棍从两侧把荆棘压向基督","强光集中于近距离身体冲突"],"comparison":"同题与归属存在讨论，维也纳本以成熟明暗和紧缩戏剧重要","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"rosary","identity":"卡拉瓦乔，约1601至1603年","facts":["前景跪者的脚直接伸向观众","多明我会圣人分发玫瑰经，上方红帷幕建立祭坛尺度"],"comparison":"卡拉瓦乔大型祭坛画存世有限，本作保留完整公共尺度","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"philosophers","identity":"乔尔乔内，约1508至1509年","facts":["三名人物年龄与服饰不同，少年在洞穴边测量","人物身份没有公认唯一答案"],"comparison":"乔尔乔内公认存世绘画极少，本作文献与早期收藏史较稳定","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"danae","identity":"提香，约1560年","facts":["宙斯化作金雨落向达娜厄","侍女用围裙承接金币，欲望与财富被并置"],"comparison":"提香及工作室有多个版本，维也纳本适合比较晚期笔触与委托","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"nymph","identity":"提香，约1570至1575年","facts":["人物关系与故事难以确定","暮色中肉身、树干与天空边界松动"],"comparison":"题材不唯一，价值在集中体现提香晚期以色彩消解轮廓","source":"https://www.khm.at/en/visit/collections"}
+      ]
+    },
+    {
+      "id": "vienna-03",
+      "items": [
+        {"workId":"rose-garlands","identity":"阿尔布雷希特·丢勒，1506年","facts":["圣母为皇帝与教皇加戴玫瑰花环","丢勒把自己画入威尼斯德意志商人祭坛画"],"comparison":"损伤与修复显著，仍是丢勒威尼斯时期最重要的大型作品之一","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"convex","identity":"帕尔米贾尼诺，约1524年","facts":["画在凸形木板上以模拟凸面镜","近手被夸大，脸与弯曲房间缩向中心"],"comparison":"几乎找不到媒介形状、光学实验与自我推介完全同构的第二件","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"summer","identity":"朱塞佩·阿尔钦博托，1563年","facts":["蔬果与麦穗拼成侧面头像","季节物产与哈布斯堡自然收藏相关"],"comparison":"系列存在多个版本，维也纳早期组在宫廷语境和系列关系上关键","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"fire","identity":"朱塞佩·阿尔钦博托，1566年","facts":["蜡烛、火绳枪、炮管和火焰拼成人脸","王朝鹰徽把自然元素转成帝国武力"],"comparison":"属于早期四元素组关键存世作品，价值来自系列语义","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"rubens-self","identity":"彼得·保罗·鲁本斯，约1638至1640年","facts":["宽檐帽与黑衣塑造绅士身份","画面不展示画笔等职业工具"],"comparison":"鲁本斯自画像不多但非唯一，维也纳本是晚年自我定位核心","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"four-rivers","identity":"彼得·保罗·鲁本斯，约1615年","facts":["四组人物与四条河流象征四大洲","鳄鱼、老虎等动物参与地域识别"],"comparison":"四洲寓意传统广泛，本作以鲁本斯巨幅肉身语言呈现早期全球想象","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"rembrandt-self","identity":"伦勃朗，1652年","facts":["双手插腰形成宽阔正面姿态","朴素褐衣与直接目光替代华服"],"comparison":"伦勃朗自画像数量多，本作是中晚年全身自我形象的重要节点","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"jan-leeuw","identity":"扬·凡·艾克，1436年","facts":["金匠手持小金环并直视观众","原框铭文含姓名、日期及绘画自述"],"comparison":"凡·艾克署名肖像很少，本作身份与原框信息格外完整","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"saliera","identity":"本韦努托·切利尼，1540至1543年","facts":["海神与大地女神对应盐和胡椒","黄金、珐琅与餐桌功能合为小型宇宙"],"comparison":"切利尼唯一完整存世且可确定亲手制作的大型金工雕塑","source":"https://www.khm.at/en/objectdb/detail/87080?lv=list&offset=0"},
+        {"workId":"burgundy-cup","identity":"不详金匠，约1453至1467年","facts":["器身被金叶、珍珠与宝石覆盖","来源进入勃艮第与哈布斯堡宫廷记忆"],"comparison":"中世纪世俗金银器常被熔毁，完整宫廷高脚杯极少","source":"https://www.khm.at/en/artworks/deckelpokal-sog-burgundischer-hofbecher-86226"}
+      ]
+    },
+    {
+      "id": "vienna-04",
+      "items": [
+        {"workId":"krumau","identity":"波希米亚雕刻家，约1390至1400年","facts":["圣母身体呈S形，衣褶连续流动","圣母子互动把礼拜像转成亲密游戏"],"comparison":"同类美丽圣母尚有数件，克鲁毛本被视为定义风格的最高质量实例之一","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"ship","identity":"汉斯·施洛特海姆，约1585年","facts":["发条可驱动船体、音乐、小人物与模拟鸣炮","甲板人物表现皇帝及选侯秩序"],"comparison":"欧洲尚有少数机械船，维也纳本属于规模与动作最复杂的一组","source":"https://www.khm.at/en/artworks/automaton-in-the-form-of-a-ship-87073"},
+        {"workId":"helena-fur","identity":"彼得·保罗·鲁本斯，约1636至1638年","facts":["皮草同时遮蔽并强调裸露身体","模特是鲁本斯年轻妻子海伦娜·富尔曼特"],"comparison":"鲁本斯画过多幅海伦娜，本作因私人语境与晚期肉身笔法重要","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"saul","identity":"老彼得·勃鲁盖尔，1562年","facts":["扫罗自杀被压缩在巨大山谷一角","军队和地形占据远大于英雄事件的尺度"],"comparison":"同题很多，本作以反英雄尺度补足维也纳勃鲁盖尔群的叙事跨度","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"gemma","identity":"古罗马工匠，约公元9至12年","facts":["双层缟玛瑙上层表现神化奥古斯都，下层表现战利品与俘虏","材料天然色层区分人物与背景"],"comparison":"大型古罗马宝石浮雕仅少数宫廷级实例可比，Gemma Augustea最完整著名","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"nagyszent","identity":"早期中世纪金匠，约7至9世纪","facts":["宝藏共二十三件金器，图像混合草原、拜占庭与中亚因素","制造者与文化归属仍有争论"],"comparison":"整批保存使其成为早期中世纪金工最重大发现之一","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"jupiter-io","identity":"柯勒乔，约1531至1532年","facts":["朱庇特化成带脸与手的灰云拥抱伊娥","触觉由云、皮肤与明暗交界完成"],"comparison":"属于朱庇特之爱组画，核心价值在无形神体的大胆处理","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"ganymede","identity":"柯勒乔，约1531至1532年","facts":["鹰把伽倪墨得斯垂直提离地面","地面小狗仰望并维持上下尺度"],"comparison":"与《朱庇特与伊娥》在维也纳重聚，系列比较高于单幅孤立观看","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"kani","identity":"古埃及工匠，约公元前2450年","facts":["来自吉萨的祭祀室以原建筑构件整体呈现","墙上供品、仆役与名字维持墓主来世"],"comparison":"能进入完整建筑空间的吉萨古王国墓室远少于单件浮雕","source":"https://www.khm.at/en/visit/collections"},
+        {"workId":"philip-iv","identity":"迭戈·委拉斯开兹，1632年","facts":["黑衣吸收大部分身体，脸、白领与手成为少数亮点","姿态克制，王权依靠稳定而非动作"],"comparison":"腓力四世肖像版本很多，维也纳本与公主肖像组形成王朝对照","source":"https://www.khm.at/en/visit/collections"}
+      ]
+    }
+  ]
+}

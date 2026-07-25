@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-ant-06-theseus-mosaic-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:41.113Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "7174f8b8df42da68164008a43aa49ff164952c45704d3f08262386b8a2050d3f",
+      "bytes": 11690
+    },
+    {
+      "path": "card.txt",
+      "sha256": "74cc571b4e93bc87259a87dc2eee5d21aadd4fbc68eabd35fae2067c2864161a",
+      "bytes": 277
+    },
+    {
+      "path": "draft.md",
+      "sha256": "05cb55b93de0fa3e4804fdb36556a54ff391cfc9c3413a5713c9277babe0fa55",
+      "bytes": 4081
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "runId": "m28-4-muxin-author-muxin-c20-2026-07-23",
+  "startedAt": "2026-07-24T04:56:18.055Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card_after_verified_selection",
+  "museumId": "muxin",
+  "workId": "muxin-c20",
+  "workIdentity": "以馆舍体量、跨水关系、街道式连接、庭院、天窗、水边和下沉层为一个建筑空间整体，不拆分重复计分。",
+  "pipelineVersion": "2.4.7",
+  "instructionVersion": "2.0.2",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c22c60e3a215aa1ac90da402debeb2caf9da39975cb2921c4845ef74ef14c834"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "fbe6770b2ff0d935448d52feb1f0d73c35bf8b901efe905dca982615e664a0ad"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c20/author-input-research.md",
+      "sha256": "eafef293991697dca7cf39cec874b13bdf93ac87e8cf77c04765af32b325f557"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c20/author-input-research-record.json",
+      "sha256": "57985abcdb73630e4030f89a2fe5a4a8071f418f1bb29180cf31f564dda95f8e"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c20/work-selection.json",
+      "sha256": "65d66c99574b276207adf8e03a76a377f2bf639a801af0c9142f8ee73f2dd0c3"
+    },
+    {
+      "path": "research/m28-4/muxin/integration/museum-plan.json",
+      "sha256": "f1667c694974a0128558ce6d9519b3a616cab05d4dc3a4f4d00caf5ec62862b2"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

@@ -1,0 +1,179 @@
+{
+  "artifactType": "independent_review",
+  "workId": "three-firs",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "reviewerIndependence": {
+    "participatedInAuthoring": false,
+    "authorArtifactsEdited": false,
+    "reviewedOnlyDeclaredInputs": true,
+    "networkUsed": false
+  },
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "84eacac77f305de2f7eca74d59fba63f960ca8441e5167e755c0bc31311e5efa"
+  },
+  "artifactHashes": {
+    "research-card.md": "e1a197d158822ba9dfa592dc2bb7dc3138bed062a82e5f3c7286d4ddb4d71082",
+    "writing-plan.json": "d2a1e47022637d97cf0b05348c67ddeafe2d95fef053913084d5f82a3b2eb5d1",
+    "card.txt": "1b8c686ddfd4f19dc7141c464e7abbe6fa811e0b7a1860e104e7a48566cb2738",
+    "draft.md": "84eacac77f305de2f7eca74d59fba63f960ca8441e5167e755c0bc31311e5efa"
+  },
+  "directUpstreamChain": {
+    "verified": true,
+    "links": [
+      {
+        "artifact": "research-card.md",
+        "declaredDirectUpstream": "../../batch-01/source-pack.md",
+        "declaredSha256": "1b14092fcb94d8fc908227917e92dabf0175f01cb5e1853b2d42d724ecd66e3e",
+        "actualSha256": "1b14092fcb94d8fc908227917e92dabf0175f01cb5e1853b2d42d724ecd66e3e",
+        "matches": true
+      },
+      {
+        "artifact": "writing-plan.json",
+        "declaredDirectUpstream": "research-card.md",
+        "declaredSha256": "e1a197d158822ba9dfa592dc2bb7dc3138bed062a82e5f3c7286d4ddb4d71082",
+        "actualSha256": "e1a197d158822ba9dfa592dc2bb7dc3138bed062a82e5f3c7286d4ddb4d71082",
+        "matches": true
+      },
+      {
+        "artifact": "card.txt",
+        "declaredDirectUpstream": "writing-plan.json",
+        "declaredSha256": "d2a1e47022637d97cf0b05348c67ddeafe2d95fef053913084d5f82a3b2eb5d1",
+        "actualSha256": "d2a1e47022637d97cf0b05348c67ddeafe2d95fef053913084d5f82a3b2eb5d1",
+        "matches": true
+      },
+      {
+        "artifact": "draft.md",
+        "declaredDirectUpstream": "card.txt",
+        "declaredSha256": "1b8c686ddfd4f19dc7141c464e7abbe6fa811e0b7a1860e104e7a48566cb2738",
+        "actualSha256": "1b8c686ddfd4f19dc7141c464e7abbe6fa811e0b7a1860e104e7a48566cb2738",
+        "matches": true
+      }
+    ]
+  },
+  "mechanicalChecks": {
+    "cardVisibleCharacters": 34,
+    "cardRequiredRange": "24-100",
+    "quickVisibleCharacters": 133,
+    "quickRequiredRange": "70-240",
+    "deepVisibleCharacters": 785,
+    "deepRequiredMinimum": 320,
+    "observableDetailCount": 5,
+    "observableDetailRequiredMinimum": 4,
+    "hasCompleteMetadata": true,
+    "hasIndependentCard": true,
+    "hasQuickLayer": true,
+    "hasDeepLayer": true,
+    "hasWorkSpecificFinalLook": true,
+    "hasClickableSources": true,
+    "verdict": "PASS"
+  },
+  "claimAudit": {
+    "completedSentenceBySentence": true,
+    "psychologyOrEmotionLeak": false,
+    "unsupportedArtistIntent": false,
+    "viewingOrderAsHistoricalSequence": false,
+    "unsupportedSuperlative": false,
+    "unsupportedRarityOrIrreplaceability": false,
+    "notes": "Metadata, observable forms, brushwork, Lenbachhaus comparison, career framing, comparator, and on-view caveat remain within the supplied source pack and research card. Interpretive statements about obstruction, compression, and structure are legible as formal analysis grounded in named visual evidence."
+  },
+  "layerIndependence": {
+    "cardIndependent": true,
+    "quickIndependentWithoutDeep": true,
+    "deepIndependentWithoutQuick": true,
+    "quickDeepNonDuplicative": true,
+    "closingAddsSecondLook": true,
+    "notes": "The card gives a standalone click-value judgment; the quick layer supplies the visual tension and provisional answer; the deep layer independently establishes spatial compression, surface structure, comparator, collection position, and details."
+  },
+  "paragraphDependency": {
+    "verified": true,
+    "coreQuestion": "为什么挡住城堡，反而让这片风景更有力量？",
+    "sequence": [
+      "近景树干把空间切成窄缝，建立遮挡问题。",
+      "可见笔触与色点解释紧密结构不只来自物体位置。",
+      "与《白桦林》的比较限定本作的差异、馆藏位置和重要性边界。",
+      "细节清单把前三段判断落实为现场可核对动作。",
+      "最后一眼回收白楼、草坪、暗树冠与树干骨架。"
+    ],
+    "exchangeableSurveySections": false
+  },
+  "workSpecificity": {
+    "verified": true,
+    "evidence": "三根沉重暗干、被分割露出的白楼与塔楼、中央黄绿色草坪、上缘暗树冠、短划与色点，以及与《白桦林》的明确差异共同锁定本作；核心问题和最后一眼不能原样替换到一般风景画。"
+  },
+  "nativeChineseReadAloud": {
+    "performed": true,
+    "scope": "card.txt and all visitor-facing prose in draft.md, with special attention to the quick layer",
+    "result": "PASS",
+    "notes": "句法自然、停顿清楚，术语有即时解释；没有明显翻译腔、主语缺失造成的歧义或生硬模板反转。"
+  },
+  "productionLanguageScan": {
+    "scope": "card.txt and visitor-facing prose in draft.md",
+    "internalProductionLanguageFound": false,
+    "result": "PASS",
+    "notes": "HTML provenance comments are artifact metadata rather than visitor prose; visitor prose contains no research-gap, image-license, publication-task, test, prompt, generator, reviewer, migration, or review-process language."
+  },
+  "significanceReview": {
+    "declaredLevel": "重要藏品",
+    "fiveDimensions": {
+      "artisticAchievement": "PASS — 以三根暗干、亮草坪、白楼、暗树冠和可见笔触具体说明构图、空间与材料组织。",
+      "artHistoricalPosition": "PASS — 限定为成熟期方法及现实主义向德国现代风景开放笔触发展的区间，没有声称开创性或巅峰。",
+      "historicalCulturalValue": "PASS — 只保留标题确认的地点线索，不把作品升级为城堡建筑史或居留史证据。",
+      "rarityAndIrreplaceability": "PASS — 明说存在可解释同一问题的比较对象，价值来自具体组织，未伪造全球唯一性。",
+      "collectionPosition": "PASS — 具体说明其揭示 Frye 创馆收藏中以色块、笔触和结构成立的一面。"
+    },
+    "comparisonCategory": "德语地区现代风景中的树干屏障",
+    "nearestComparator": "路德维希·迪尔 Ludwig Dill《白桦林 Birkenwald》",
+    "sharedCoreValue": "两作都以树干作为骨架，以浅纵深和可见笔触组织风景。",
+    "decisiveDifference": "本作用三根少而重的暗干挤压并遮挡白色建筑；比较对象以更多轻而密的白干形成节奏，且没有建筑焦点。",
+    "nonSubstitutabilityBoundary": "比较对象能够解释同一核心问题，因此本作不通过稀世珍品不可替代性硬门；其不可替代回报仅限定在 Frye 馆内的厚重暗干、建筑遮挡和现代风景收藏节点。",
+    "frye72BoundaryRespected": true,
+    "result": "PASS"
+  },
+  "voiceScores": {
+    "入口": {
+      "score": 2,
+      "evidence": "以三根树干几乎堵住近景、白楼只能从缝隙露出的具体矛盾立即建立问题。"
+    },
+    "因果": {
+      "score": 2,
+      "evidence": "遮挡收紧空间并提示后景，明暗与笔触进一步说明景物为何形成紧密结构。"
+    },
+    "人": {
+      "score": 1,
+      "evidence": "本作不依赖人物或制度冲突；作者如何发展莱布尔的织物般结构原则得到简洁说明，但人的选择不是主驱动力。"
+    },
+    "转折": {
+      "score": 2,
+      "evidence": "被视为障碍的树干经空间、明暗和笔触证据转化为全画骨架，理解变化有完整依据。"
+    },
+    "视觉兑现": {
+      "score": 2,
+      "evidence": "白楼、塔楼、黄绿色草坪、暗树冠、窄缝、短划、色点与颜料起伏均可现场核对。"
+    },
+    "口语清晰度": {
+      "score": 2,
+      "evidence": "朗读顺畅；“结构”紧跟树干边缘、草坪、白墙和一笔一笔颜料的具体解释。"
+    },
+    "第二眼": {
+      "score": 2,
+      "evidence": "结尾给出中央树干旁白楼—黄绿色草坪—上缘暗树冠的对象专属复看路径，并收回骨架判断。"
+    },
+    "total": 13,
+    "maximum": 14,
+    "threshold": 12,
+    "hasZero": false,
+    "verdict": "PASS"
+  },
+  "mechanicalVerdict": "PASS",
+  "factBoundaryVerdict": "PASS",
+  "narrativeVerdict": "PASS",
+  "nativeChineseVerdict": "PASS",
+  "significanceVerdict": "PASS",
+  "workSpecificVerdict": "PASS",
+  "productionLanguageVerdict": "PASS",
+  "actionableFailureReasons": [],
+  "finalVerdict": "PASS"
+}

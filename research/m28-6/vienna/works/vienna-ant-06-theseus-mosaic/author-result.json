@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-ant-06-theseus-mosaic-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:33:22.0431090-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-03/vienna-ant-06-theseus-mosaic-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "600cbb98ade4d0363fc7186febb62ca2dda044a8f6a2841f59fd8cf5392c515c"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-ant-06-theseus-mosaic/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "0a2d2ab9f7159d368d987566d8cce91c55ae4ca93286a99928da22db72690ef7"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "7174f8b8df42da68164008a43aa49ff164952c45704d3f08262386b8a2050d3f",
+                        "bytes":  11690
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "74cc571b4e93bc87259a87dc2eee5d21aadd4fbc68eabd35fae2067c2864161a",
+                        "bytes":  277
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "9f316919d6633aa9a3709b9aca2196fa9fe9fddcf740f70d5a748e513bd75b4a",
+                        "bytes":  4083
+                    }
+                ]
+}

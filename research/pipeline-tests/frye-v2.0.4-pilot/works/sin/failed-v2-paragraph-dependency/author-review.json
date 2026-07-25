@@ -1,0 +1,168 @@
+{
+  "artifactType": "author_review",
+  "workId": "sin",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "b41f93546e9267c77732d72af6842fe569b55b781accebd6438d86c28014cc4e"
+  },
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "finalPassIssued": false,
+  "retryDisposition": {
+    "reason": "先前独立审读指出硬事实错误：证据只支持两个眼部亮点，分别属于女子与蛇；失败稿曾写成四只亮眼或四处高光。",
+    "resolution": "本轮从研究卡重新生成；卡片、快层、深层细节和最后一眼均只陈述两处眼部亮点，未复用失败文字。"
+  },
+  "narrativeReview": [
+    {
+      "paragraph": "30 秒先懂",
+      "function": "用两处亮点、横跨双肩的蛇身和金框给出完整的暂时答案。",
+      "dependsOn": "只依赖读者能看到女子、蛇、黑暗与金框。",
+      "newUnderstanding": "目光关系与整体设计共同制造作品的吸引力。",
+      "breaksIfMovedEarlier": "这是正文入口，不能再提前；删除会使后文失去核心问题和观看路线。"
+    },
+    {
+      "paragraph": "深层第一段：两道目光为什么没有各自散开",
+      "function": "解释两处亮点怎样通过蛇身、暗部和被截断的身体连成一套构图。",
+      "dependsOn": "快层已经指出两处亮点及蛇身这条横向连接。",
+      "newUnderstanding": "紧张感先由可见形式建立，标题提供寓意方向。",
+      "breaksIfMovedEarlier": "若放到快层之前，读者尚未得到独立的观看抓手，细节会显得零散。"
+    },
+    {
+      "paragraph": "深层第二段：为什么金框也是这道关系的一部分",
+      "function": "把已建立的画内关系扩展到画幅和建筑式框，并落到施图克的整体设计方法。",
+      "dependsOn": "上一段已经证明目光、蛇身和暗部构成封闭关系。",
+      "newUnderstanding": "边框参与寓意效果，作品的封闭感由画内外结构共同产生。",
+      "breaksIfMovedEarlier": "没有上一段的画内机制，金框会退化成孤立的风格资料。"
+    },
+    {
+      "paragraph": "深层第三段：同一母题为何会被施图克反复画",
+      "function": "用版本跨度和 1893 年比较对象解释这套整体机制是作者长期经营的母题。",
+      "dependsOn": "前两段已经具体说明所谓‘这套关系’由哪些可见部分组成。",
+      "newUnderstanding": "重复版本增加作者生涯分量，也限制唯一性和稀缺性判断。",
+      "breaksIfMovedEarlier": "若先讲版本，读者还不知道被反复经营的视觉机制是什么，段落会变成版本史栏目。"
+    },
+    {
+      "paragraph": "深层第四段：它在 Frye 为什么值得这一站",
+      "function": "在形式机制和版本边界都成立后，完成五维重要性与 72 分馆级边界判断。",
+      "dependsOn": "依赖前文已经建立的形式成就、作者核心母题、象征主义语境与非唯一版本。",
+      "newUnderstanding": "本作是馆内重要锚点，但价值来自具体构图与收藏位置，不来自全球不可替代性。",
+      "breaksIfMovedEarlier": "提前会让‘重要藏品’成为没有比较与视觉依据的标签。"
+    },
+    {
+      "paragraph": "再看这些容易错过的细节",
+      "function": "把前文判断落实为五项可现场核对的动作。",
+      "dependsOn": "依赖读者已理解为什么横线、两处亮点、蛇头、暗部和金框共同作用。",
+      "newUnderstanding": "抽象的封闭感可逐项在作品上复核。",
+      "breaksIfMovedEarlier": "若在机制解释前列出，会成为没有意义推进的视觉清单。"
+    },
+    {
+      "paragraph": "最后再看一眼",
+      "function": "用女子眼、蛇眼、蛇身和金框完成一次对象专属的复看。",
+      "dependsOn": "依赖全文已把两处亮点、横线与硬边解释为同一整体。",
+      "newUnderstanding": "标题中的‘罪’被重新看作由具体视觉关系压缩成的形象。",
+      "breaksIfMovedEarlier": "若提前，读者还无法理解为何这四个要素应被连读。"
+    },
+    {
+      "paragraph": "事实边界",
+      "function": "收窄版本数量、人物身份与心理断言。",
+      "dependsOn": "依赖正文已经正面说明能确认的版本跨度、构图和寓意方向。",
+      "newUnderstanding": "读者能区分可确认事实、直接观察与有限解释。",
+      "breaksIfMovedEarlier": "提前会以限制语气接管入口，并在读者尚未理解作品前制造审稿感。"
+    }
+  ],
+  "claimClosure": [
+    {
+      "sentence": "大片黑暗里，真正发亮的是两处：女子的一只眼和蛇的一只眼。",
+      "evidenceType": "直接观察",
+      "sourceOrBasis": "研究卡与 Frye 图像观察均明确为两个亮点。",
+      "confidence": "高：来源记录与图像观察一致。",
+      "verdict": "保留；准确修复既往硬事实错误。"
+    },
+    {
+      "sentence": "外围的金色建筑式框继续收紧这幅窄画，使《罪》看起来像一件从绘画到边框都经过整体设计的象征主义形象。",
+      "evidenceType": "直接观察加编辑推断",
+      "sourceOrBasis": "金色建筑式框为可见事实；Frye 展览把施图克多媒介实践作为相互关联整体考察。",
+      "confidence": "中高：形式基础清楚，‘收紧’与‘整体设计’作为观看判断呈现，未写成作者自述。",
+      "verdict": "保留。"
+    },
+    {
+      "sentence": "标题给出‘罪’的寓意方向，但画面的紧张感先由这些具体形状造成。",
+      "evidenceType": "来源事实加编辑推断",
+      "sourceOrBasis": "馆方标题确认为《罪》；紧张感的形式依据为黑暗、横线和两处亮点。",
+      "confidence": "中：寓意方向由标题支持，观看效果明确标为形式分析。",
+      "verdict": "保留；没有指定人物心理或作者唯一意图。"
+    },
+    {
+      "sentence": "从 1891 到 1912 年，施图克制作过多个构图相近的《罪》版本；Frye 这件约作于 1908 年，属于较晚的一件。",
+      "evidenceType": "来源事实",
+      "sourceOrBasis": "Neue Pinakothek 的母题年代范围；Frye 对象页的约 1908 年断代。",
+      "confidence": "高：两个权威馆藏来源直接支持。",
+      "verdict": "保留；未给精确数量，未称末版或复制品。"
+    },
+    {
+      "sentence": "反复出现的构图说明，这组关系是施图克长期经营的核心母题。",
+      "evidenceType": "来源事实支持的编辑推断",
+      "sourceOrBasis": "1891—1912 年多个近似版本，以及 1893 年版本对作者声誉的重要性。",
+      "confidence": "中高：长期反复制作和成功版本均有来源，‘核心母题’与资料边界一致。",
+      "verdict": "保留。"
+    },
+    {
+      "sentence": "Frye 版本的分量来自它怎样在这一件作品里重新完成那套视觉装置，价值不需要由‘唯一’来保证。",
+      "evidenceType": "编辑判断",
+      "sourceOrBasis": "版本比较、具体媒材／边框／色调差异及馆内收藏位置。",
+      "confidence": "中：能支持重要藏品与馆内锚点，不能支持稀世珍品。",
+      "verdict": "保留；措辞主动拒绝唯一性升级。"
+    },
+    {
+      "sentence": "对一座旅行推荐分为 72 的馆来说，这是一件值得认真停留的重要藏品，却不承担改变城市行程的分量。",
+      "evidenceType": "锁定馆级编辑判断",
+      "sourceOrBasis": "锁定测试规范沿用 Frye 72 分边界；研究卡五维为高／高／高／高／中低。",
+      "confidence": "高：等级与馆级边界由任务输入锁定。",
+      "verdict": "保留；未升级为稀世珍品或旅行决定因素。"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这幅画靠女子和蛇各一处亮眼、横过肩膀的蛇身以及收紧画面的金框，把‘罪’做成一个完整形象；Frye 这件虽不是唯一版本，仍是馆里理解施图克象征主义的重要一站。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "notes": "标题均可口头复述；转折由可见形式到整体设计、再到版本与馆内价值，未依赖抽象名词堆叠。"
+  },
+  "productionLanguageScan": {
+    "scope": [
+      "card.txt 的访客可见文字",
+      "draft.md 的标题、元数据、快层、深层、细节、最后一眼、事实边界与资料行"
+    ],
+    "forbiddenFindings": [],
+    "verdict": "passed",
+    "notes": "访客正文未出现研究缺口、图片许可任务、发布任务、测试、prompt、生成器、reviewer 或版本迁移语言；链路元数据置于不可见注释。"
+  },
+  "significanceReview": {
+    "level": "重要藏品",
+    "artisticAchievement": "两处眼部亮点、横向蛇身、近黑背景、窄竖幅与建筑式金框形成高度集中的整体。",
+    "artHistoricalPosition": "属于施图克长期反复经营、辨识度很高的象征主义《罪》母题。",
+    "historicalCulturalValue": "具体呈现象征主义把寓意、情色身体与整体设计结合的方式。",
+    "rarityAndIrreplaceability": "多个近似版本已确认，精确总数未知；Frye 件具有具体媒材、色调、边框和馆内语境，但未通过全球不可替代性硬门。",
+    "collectionPosition": "Frye 的施图克与慕尼黑象征主义锚点。",
+    "nearestComparator": "Neue Pinakothek 1893 年《罪》Die Sünde",
+    "boundaryVerdict": "重要性表述与 72 分馆级边界一致；没有把它写成稀世珍品或改变行程的理由。"
+  },
+  "mechanicalChecks": {
+    "cardVisibleCharacterRange": "24—100；候选稿在范围内",
+    "quickLayerRange": "70—240；候选稿在范围内",
+    "deepLayerMinimum": "至少 320；候选稿超过下限",
+    "observableDetailCount": 5,
+    "eyeHighlightCountStated": 2,
+    "progressiveCoreQuestions": 1,
+    "finalReviewerAuthorityReserved": true
+  },
+  "unresolvedRisks": [
+    "公开资料未提供可统一采用的《罪》版本精确总数，正文已缩小为‘多个近似版本’。",
+    "人物身份不能确定为 Eve，正文未命名。",
+    "作品在展状态易变，正文仅给出带日期的馆方索引快照并提醒到访时复核。",
+    "象征意义与观看效果包含有限编辑推断，正文以可见构图为依据，未升级为作者确定意图。"
+  ],
+  "authorRecommendation": "提交未参与写作的独立审读者进行事实、声音与边界复核；本文件不签发最终 PASS。"
+}

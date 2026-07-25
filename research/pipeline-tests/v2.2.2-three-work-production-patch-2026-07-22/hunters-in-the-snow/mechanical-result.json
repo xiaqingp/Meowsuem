@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.2.2",
+  "runId": "m28-2-v2.2.2-hunters-in-the-snow-author-2026-07-22",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-23T05:09:08.513Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "7d193f92290b97a2de1c6df89034a3ea178c42f836090e600d8b366ca2ce494d",
+      "bytes": 13086
+    },
+    {
+      "path": "card.txt",
+      "sha256": "24b018a18fd3d96d634f6f6b742e2f547f8980a7a84af9445c098dceb31171e9",
+      "bytes": 286
+    },
+    {
+      "path": "draft.md",
+      "sha256": "b521a6c9e4a8530828279ffd06d158422143b79a8d0b421ad5be3614c4b8d917",
+      "bytes": 6382
+    }
+  ]
+}

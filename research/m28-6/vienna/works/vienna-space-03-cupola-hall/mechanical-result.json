@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-space-03-cupola-hall-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:44.615Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "c96982e08cf54cece14d0a0fe5c01f063cd1418f1f549e4e617bf2428cc6bc8a",
+      "bytes": 8768
+    },
+    {
+      "path": "card.txt",
+      "sha256": "220305976c6a786f13432b1d3b4aaff14f7a16956589659b40b3f2b8cc130e41",
+      "bytes": 193
+    },
+    {
+      "path": "draft.md",
+      "sha256": "64b2e3f47b53498fac6aab1a65036786925b03b5daa51956550607d4debe69ec",
+      "bytes": 3794
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "PCR-2026-07-25-02",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "ownerInstruction": "按确认的完整多来源搜索方案试做：直接官方元数据和IIIF、Wikidata、Commons API、独立搜索provider、严格身份核对和准确失败状态；不要临时拼补",
+  "baseRelease": "research/pipeline-releases/v2.7.11.json",
+  "targetVersion": "2.7.12",
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/prepare-museum-assembly.mjs"
+  ],
+  "allowedManagementFiles": [
+    "research/content-standard-manifest.json",
+    "coho_museum/TechDesign.md",
+    "coho_museum/Milestones.md",
+    "coho_museum/Lessons.md",
+    "coho_museum/knowledge.md"
+  ],
+  "tests": [
+    "official Open Graph, JSON-LD and IIIF fixtures pass",
+    "Wikidata and direct Wikimedia Commons fixtures pass without a web-search provider",
+    "wrong-work and ambiguous-object fixtures are rejected",
+    "one provider outage does not skip later sources and is not reported as not_found",
+    "Seattle unresolved assets rerun with zero model calls and zero tokens",
+    "Seattle release and browser deep-link gates pass",
+    "pipeline release 2.7.12 freezes idempotently"
+  ]
+}

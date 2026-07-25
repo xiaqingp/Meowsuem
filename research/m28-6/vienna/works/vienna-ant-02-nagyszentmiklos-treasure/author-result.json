@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-ant-02-nagyszentmiklos-treasure-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:32:08.0952133-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-03/vienna-ant-02-nagyszentmiklos-treasure-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "eb5a46121c34f67bcd46742490c517a26939fd82b79bd2e3194ac8d82778bcdf"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-ant-02-nagyszentmiklos-treasure/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "b90dc77caf101cd5a457e860fc5034862232c854d8c3a922200b75ff9bdf40dd"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "6338aabe1c4e821eda9f3f0fe5cb2de6e228fa52844de7720b897ab3ea286931",
+                        "bytes":  9993
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "c521232973f894b3f620cd5f09cd197d40448bcd71b65394c7981b0ba4efa785",
+                        "bytes":  351
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "519e2a83584ef28c507b0299242fb4eaa468146c8a6cefb632d03046ce4ff5ea",
+                        "bytes":  5146
+                    }
+                ]
+}

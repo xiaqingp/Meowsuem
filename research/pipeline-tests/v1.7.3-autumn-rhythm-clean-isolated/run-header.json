@@ -1,0 +1,63 @@
+{
+  "runId": "m28-v1.7.3-autumn-rhythm-clean-isolated-2026-07-22",
+  "startedAt": "2026-07-22T19:45:45.0672849-07:00",
+  "museumId": "met",
+  "workId": "autumn-rhythm-number-30",
+  "pipelineVersion": "2.0.6",
+  "instructionVersion": "1.7.3",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "researchReasoningEffort": "medium",
+    "authorReasoningEffort": "medium",
+    "reviewer": "disabled",
+    "retry": "disabled"
+  },
+  "publication": "test_only_unreviewed_no_production_write",
+  "researchExecution": {
+    "sessionId": "019f8cdd-f8e9-7dc3-9a4e-7e6c301caf90",
+    "status": "completed",
+    "output": "research-card.md",
+    "sha256": "6f93334431d866243f3b59306fc1817a08f50916dead7daa044913c84a833683"
+  },
+  "authorExecution": {
+    "sessionId": "019f8ce3-2787-7c42-905d-0b9519a7c142",
+    "status": "completed_unreviewed",
+    "outputs": {
+      "writing-plan.json": "5bed7a4f89ca623b70f6f850cfa078babcaa3b795c3dea5ec738a0f64ce9cb4f",
+      "card.txt": "cf61d28dcae43078ee9c8aaa51ff367697d638a3ff1df19d6c18c1bda54486d2",
+      "draft.md": "850a3a7c47673ac0d4c63a04e793b19f2bab570512a02c58618b0938df7e5932"
+    }
+  },
+  "allowedResearchInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "af0e094bd1d50a714dcc4b0c6a598a0ec329972144023f17f96f39d827605af7"
+    },
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "f5f7fbcd3f46609dcb81bbb1e3fff8b689a2af7ea56feb49153c9a8450246c21"
+    },
+    {
+      "path": "research/pipeline-tests/v1.7.3-autumn-rhythm-clean-isolated/research-task.md",
+      "sha256": "56ff566a8876e2e86cf5f09d001f3119b5484038a218007b02ccc068f7ac85a9"
+    }
+  ],
+  "allowedAuthorInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "af0e094bd1d50a714dcc4b0c6a598a0ec329972144023f17f96f39d827605af7"
+    },
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "f5f7fbcd3f46609dcb81bbb1e3fff8b689a2af7ea56feb49153c9a8450246c21"
+    },
+    {
+      "path": "research/pipeline-tests/v1.7.3-autumn-rhythm-clean-isolated/author-task.md",
+      "sha256": "d3d5cee3b322d70b32f5fc67ae459a0c4fecc8532bf372301daf46ff0e7f354a"
+    },
+    {
+      "path": "research/pipeline-tests/v1.7.3-autumn-rhythm-clean-isolated/research-card.md",
+      "sha256": "6f93334431d866243f3b59306fc1817a08f50916dead7daa044913c84a833683"
+    }
+  ]
+}

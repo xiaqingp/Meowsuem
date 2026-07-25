@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.4.2",
+  "runId": "m28-3-chichu-author-monet-room-2026-07-23",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T03:08:49.342Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_workId_from_run_header",
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "520d1da4a90c584b9e4c570392da0c3d304a63d756c1f563b38e53bd72919b66",
+      "bytes": 7724
+    },
+    {
+      "path": "card.txt",
+      "sha256": "58628f16e22ded62f6bcecf77a6e9b1221c30342828b69ce241c2249c0430184",
+      "bytes": 340
+    },
+    {
+      "path": "draft.md",
+      "sha256": "a96082026b79b5f183cab1c1d39e5b362a7782dee236108120de7b9f4c0db45a",
+      "bytes": 3764
+    }
+  ]
+}

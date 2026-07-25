@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.7.2",
+  "runId": "m28-12-v2.7.2-seattle-author-canoe-prow-figure-nguzu-nguzu-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-25T06:24:43.362Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_availability_from_locked_work_context",
+    "derived_imagePolicy_from_locked_work_context"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "419878e57b229c06504786421b9ef6b9cc7119c62782f7beb4c2cbc398cbbb22",
+      "bytes": 9668
+    },
+    {
+      "path": "card.txt",
+      "sha256": "3cbcb477c1ed895566131dfa0fa47a1ebf92e611fb3ed4390264cd96c1a67cf8",
+      "bytes": 436
+    },
+    {
+      "path": "draft.md",
+      "sha256": "ff013769884f296df7ace95e75ccd9723bca74c91ca0d870391276d0e55e69f2",
+      "bytes": 4283
+    }
+  ]
+}

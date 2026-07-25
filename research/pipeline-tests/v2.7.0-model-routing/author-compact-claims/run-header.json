@@ -1,0 +1,41 @@
+{
+  "runId": "m28-11-v2.7.0-author-compact-claims-2026-07-24",
+  "startedAt": "2026-07-24T00:00:00-07:00",
+  "stage": "author",
+  "museumId": "met",
+  "workId": "portrait-head-bottle-64-228-21",
+  "inputContractVersion": 2,
+  "pipelineVersion": "2.7.0",
+  "instructionVersion": "2.1.0",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c7931d34e1f54dde5c43336acc50f7fb7ac380cfe7bed7ca27ea0e01f2cf4aa6"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "3a7779c69152fbd48c55fdccddc2dcd6b4a71b156ac728500b6cdbf73f6e23f3"
+    },
+    {
+      "path": "research/pipeline-tests/v2.7.0-model-routing/research-standard-terra-retry-2/portrait-head-bottle-64-228-21-research-card.md",
+      "role": "research_card",
+      "sha256": "2411ea4f4745d16ae7aff4e9f9c664727248318981b3d339742d5e27deb8bb57"
+    },
+    {
+      "path": "research/pipeline-tests/v2.7.0-model-routing/author-compact-claims/work-context.json",
+      "role": "work_context",
+      "sha256": "24f286fb9a40294a182b58f79f2e69cdc289e5e727a73f5619b4abb5f6b61ff6"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "test_only_no_production_write"
+}

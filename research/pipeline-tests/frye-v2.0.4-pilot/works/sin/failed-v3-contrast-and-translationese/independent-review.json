@@ -1,0 +1,227 @@
+{
+  "reviewType": "fresh-independent-review",
+  "workId": "sin",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "reviewerIndependence": {
+    "participatedInAuthoring": false,
+    "authorArtifactsEdited": false,
+    "networkUsed": false,
+    "unlistedInputsUsed": false
+  },
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "9abe648d7cbc5a9375ef2996e6e55926bf29209e8f7999c4317b2b629e342015"
+  },
+  "artifactHashes": {
+    "research-card.md": "f939f6bc2e9ab15bcd7f5b398f9b92fc8be8c7db9125e478a2c8ff8ecb81ca14",
+    "writing-plan.json": "4b847dcfb3b5509153b133f760e3b4759b1febb072e9e0860362837f93bd1fd6",
+    "card.txt": "9ee8c36828f5630e2e41e425536f6c5fa14927667539c76fe92f93329d238c4c",
+    "draft.md": "9abe648d7cbc5a9375ef2996e6e55926bf29209e8f7999c4317b2b629e342015"
+  },
+  "directUpstreamChain": {
+    "declared": "batch-01/source-pack.md -> research-card.md -> writing-plan.json -> card.txt -> draft.md -> independent-review.json",
+    "links": [
+      {
+        "artifact": "research-card.md",
+        "declaredDirectUpstream": "../../batch-01/source-pack.md",
+        "declaredSha256": "1b14092fcb94d8fc908227917e92dabf0175f01cb5e1853b2d42d724ecd66e3e",
+        "actualSha256": "1b14092fcb94d8fc908227917e92dabf0175f01cb5e1853b2d42d724ecd66e3e",
+        "verdict": "PASS"
+      },
+      {
+        "artifact": "writing-plan.json",
+        "declaredDirectUpstream": "research-card.md",
+        "declaredSha256": "f939f6bc2e9ab15bcd7f5b398f9b92fc8be8c7db9125e478a2c8ff8ecb81ca14",
+        "actualSha256": "f939f6bc2e9ab15bcd7f5b398f9b92fc8be8c7db9125e478a2c8ff8ecb81ca14",
+        "verdict": "PASS"
+      },
+      {
+        "artifact": "card.txt",
+        "declaredDirectUpstream": "writing-plan.json",
+        "declaredSha256": "4b847dcfb3b5509153b133f760e3b4759b1febb072e9e0860362837f93bd1fd6",
+        "actualSha256": "4b847dcfb3b5509153b133f760e3b4759b1febb072e9e0860362837f93bd1fd6",
+        "verdict": "PASS"
+      },
+      {
+        "artifact": "draft.md",
+        "declaredDirectUpstream": "card.txt",
+        "declaredSha256": "9ee8c36828f5630e2e41e425536f6c5fa14927667539c76fe92f93329d238c4c",
+        "actualSha256": "9ee8c36828f5630e2e41e425536f6c5fa14927667539c76fe92f93329d238c4c",
+        "verdict": "PASS"
+      },
+      {
+        "artifact": "independent-review.json",
+        "declaredDirectUpstream": "draft.md",
+        "declaredSha256": "9abe648d7cbc5a9375ef2996e6e55926bf29209e8f7999c4317b2b629e342015",
+        "actualSha256": "9abe648d7cbc5a9375ef2996e6e55926bf29209e8f7999c4317b2b629e342015",
+        "verdict": "PASS"
+      }
+    ],
+    "completeChainVerdict": "PASS"
+  },
+  "mechanicalChecks": {
+    "cardVisibleCharacters": 64,
+    "cardRequiredRange": "24-100",
+    "quickVisibleCharacters": 119,
+    "quickRequiredRange": "70-240",
+    "deepVisibleCharacters": 937,
+    "deepRequiredMinimum": 320,
+    "observableDetailCount": 4,
+    "requiredObservableDetailMinimum": 4,
+    "requiredMetadataPresent": true,
+    "dualLayerStructurePresent": true,
+    "lastLookPresent": true,
+    "factBoundaryPresent": true,
+    "clickableSourcesPresent": true,
+    "productionLanguageHits": [],
+    "negativeContrastFindings": [
+      "画框不再只是挂画所需的外围装饰。",
+      "这说明刚才看到的整体设计并非随手出现的一次效果，而是作者长期返回、持续调整的组合。",
+      "此时‘罪’不再只由蛇这个传统形象承担：真正逼近你的，是两道目光被横线与边框牢牢固定后形成的整套距离设计。"
+    ],
+    "negativeContrastAllowedMaximumOutsideFactBoundary": 1
+  },
+  "mechanicalVerdict": {
+    "verdict": "FAIL",
+    "evidence": "All numeric and structural bounds pass, but visitor prose contains at least two complete negative-to-positive contrast skeletons outside the fact-boundary paragraph; the canonical maximum is one."
+  },
+  "claimAudit": [
+    {
+      "claimGroup": "identity, date, collection, and visibility",
+      "basis": "The title, artist, circa-1908 date, Founding Collection status, dated On View snapshot, and changeability boundary match the research card and source pack.",
+      "verdict": "PASS"
+    },
+    {
+      "claimGroup": "visual description",
+      "basis": "Narrow vertical format, near-black ground, partially lost body contour, snake across both shoulders with head toward the right front, one highlight at the woman's eye area, one at the snake's eye, and the gold architectural frame all remain within supplied direct observation.",
+      "verdict": "PASS"
+    },
+    {
+      "claimGroup": "viewing mechanism and interpretation",
+      "basis": "The doorway/niche effect, frontal encounter, horizontal pressure, and frame-as-compositional-part are presented as readings traceable to the observed format, snake, darkness, highlights, and frame rather than as sourced historical facts.",
+      "verdict": "PASS"
+    },
+    {
+      "claimGroup": "symbolism and artist style",
+      "basis": "Symbolism, allegory, erotic body, and integrated architectural framing are supplied research boundaries. The draft does not assign a specific identity, psychology, or certain authorial intention.",
+      "verdict": "PASS"
+    },
+    {
+      "claimGroup": "version history and career position",
+      "basis": "Multiple related versions from 1891-1912, Frye's circa-1908 work as a later version, and long-running treatment of the motif are supported. No exact version count, first-version claim, or unique/original claim is introduced.",
+      "verdict": "PASS"
+    },
+    {
+      "claimGroup": "comparison",
+      "basis": "The nearest comparator is the Neue Pinakothek 1893 Die Sünde. Shared darkness, shoulder-wrapped snake, frontal gaze, and narrow format, plus differences in date, medium, frame, and coloring, match the supplied comparison evidence.",
+      "verdict": "PASS"
+    },
+    {
+      "claimGroup": "importance and travel boundary",
+      "basis": "The draft identifies strong art-historical, career, museum-narrative, and onsite value, while rating scarcity medium-low. It labels the work important rather than rare and explicitly denies route-changing solitary-masterpiece status, consistent with the Frye 72-point boundary.",
+      "verdict": "PASS"
+    },
+    {
+      "claimGroup": "uncertainty",
+      "basis": "The fact boundary preserves uncertainty over version count, sitter identity, psychology, and unique interpretation without exposing an internal task or publication note.",
+      "verdict": "PASS"
+    }
+  ],
+  "factBoundaryVerdict": {
+    "verdict": "PASS",
+    "evidence": "Every factual and high-risk claim stays within supplied evidence or is visibly framed as an editorial reading; no psychology, unsupported chronology, unique identity, exact count, certain intention, or visibility guarantee is asserted."
+  },
+  "layerIndependence": {
+    "card": "PASS — independently answers why the work is worth opening without using a viewing command or copying a draft sentence.",
+    "quick": "PASS — independently gives a complete provisional answer and a usable visual route.",
+    "deep": "PASS — remains coherent without the quick layer, restates the visual premise compactly, then explains framing, version history, comparison, significance, and details.",
+    "verdict": "PASS"
+  },
+  "paragraphDependency": {
+    "verdict": "PASS",
+    "evidence": [
+      "The opening visual paragraph establishes the dual gaze before the frame paragraph can enlarge the encounter.",
+      "The frame paragraph establishes the frame-painting whole before the version paragraph asks whether that arrangement was accidental.",
+      "The version paragraph establishes repetition and non-uniqueness before the significance paragraph can locate value outside rarity.",
+      "The detail list and final look depend on the established eye-snake-frame mechanism and would lose their interpretive payoff if moved earlier."
+    ],
+    "reorderingTest": "PASS — moving the version-history paragraph before the frame paragraph removes the referent and premise for ‘this arrangement’; moving the significance paragraph before version history removes the basis for the scarcity boundary."
+  },
+  "narrativeVerdict": {
+    "verdict": "PASS",
+    "evidence": "One work-specific question advances through observable gaze, frame-painting integration, repeated-version history, bounded significance, and a returned second look. The deep sections are not freely interchangeable research categories."
+  },
+  "nativeChineseVerdict": {
+    "verdict": "FAIL",
+    "oneBreathParaphrase": "这幅画把女人、蛇和金框挤在一条窄而黑的正面空间里，用两处眼部亮光迫使观众同时面对诱惑和危险；它虽有多个版本，仍是 Frye 理解施图克象征主义的重要一件。",
+    "readAloudVerdict": "FAIL",
+    "translationeseFindings": [
+      "‘窄幅与金黑交界仍有很强的距离控制’以抽象名词‘距离控制’作结，连续朗读不像自然口头解释。",
+      "‘整套距离设计’再次把可见关系压缩为抽象概念，并与前文‘距离控制’形成研究术语式重复。"
+    ],
+    "evidence": "Most sentences read naturally, but these repeated abstract nominalizations prevent a clean native-Chinese aloud pass under the locked rule that translationeseFindings must be empty."
+  },
+  "significanceEvaluation": {
+    "artAchievement": "PASS — the draft specifies the narrow format, darkness, paired eye highlights, transverse snake, and gold frame as the formal achievement rather than relying on praise words.",
+    "artHistoryAndCareer": "PASS — it places the work in Stuck's Symbolist practice and in the 1891-1912 repeated motif, while identifying the Frye work as a later version.",
+    "historicalCulturalValue": "PASS — it treats Sin as an allegorical theme and does not inflate the image into documentary history or a definite biblical identity.",
+    "scarcityAndNonSubstitutability": "PASS — scarcity is medium-low; the nearest comparator can explain the shared core motif, while the Frye work's non-substitutable boundary is its particular frame-painting onsite encounter and its role inside Frye, not uniqueness.",
+    "museumPosition": "PASS — it identifies the work as Frye's anchor for Stuck and Munich Symbolism without making it a city-trip determinant.",
+    "nearestComparator": "Neue Pinakothek 1893 Die Sünde (Sin)",
+    "nonSubstitutabilityBoundary": "The comparator supplies the same basic motif and much of the core art-historical value; the Frye work retains a specific onsite frame, medium, coloring, later-career position, and museum-narrative role, sufficient for ‘重要藏品’ but not ‘稀世珍品’.",
+    "verdict": "PASS"
+  },
+  "significanceVerdict": {
+    "verdict": "PASS",
+    "evidence": "All five canonical dimensions are addressed with a nearest comparator, decisive differences, an explicit substitutability limit, and a classification consistent with the museum's 72-point boundary."
+  },
+  "workSpecificVerdict": {
+    "verdict": "PASS",
+    "evidence": "The core question and every major step depend on this work's two eye highlights, shoulder-crossing snake, narrow black field, architectural gold frame, repeated Sin motif, and the 1893 comparator; replacing the object would collapse the argument."
+  },
+  "productionLanguageVerdict": {
+    "verdict": "PASS",
+    "evidence": "No visitor-facing card, quick layer, deep layer, last look, fact boundary, or sources line contains research-gap, image-license, publication-task, test, prompt, generator, reviewer, or migration language."
+  },
+  "voiceScores": {
+    "entry": {
+      "score": 2,
+      "evidence": "‘为什么黑暗里偏偏留下两道目光？’ immediately opens a concrete visual problem rather than biography or metadata."
+    },
+    "causality": {
+      "score": 2,
+      "evidence": "The text explains why darkness concentrates attention, why the frame changes that encounter, and why repeated versions alter the value judgment."
+    },
+    "people": {
+      "score": 2,
+      "evidence": "A human-choice or institutional history is not required for this non-event allegory; the draft appropriately makes the viewer's encounter understandable without inventing the sitter's psychology or the artist's intent."
+    },
+    "turn": {
+      "score": 2,
+      "evidence": "The frame changes the work from a dark figure image into an integrated encounter, and version history then changes ‘special effect’ into a sustained motif while lowering the rarity claim."
+    },
+    "visualPayoff": {
+      "score": 2,
+      "evidence": "The argument repeatedly returns to the two highlights, snake across the shoulders, rightward head, lost body contour, narrow format, and gold-black edge."
+    },
+    "spokenClarity": {
+      "score": 1,
+      "evidence": "Most of the explanation is clear aloud, but ‘距离控制’ and ‘整套距离设计’ are abstract nominalizations that interrupt natural spoken Chinese."
+    },
+    "secondLook": {
+      "score": 2,
+      "evidence": "The final instruction asks the reader to hold both eye highlights in view while peripheral vision catches the transverse snake and surrounding frame, recombining the established mechanism."
+    },
+    "total": 13,
+    "maximum": 14,
+    "threshold": 12,
+    "hasZero": false,
+    "voiceVerdict": "PASS"
+  },
+  "actionableFailureReasons": [
+    "Reduce the visitor prose to at most one complete negative-to-positive contrast skeleton outside the fact-boundary paragraph. The current excess is evidenced by ‘画框不再只是……’, ‘并非……而是……’, and ‘不再只由……真正逼近你的，是……’. Do not change the underlying factual boundary.",
+    "Resolve the aloud/native-Chinese failures centered on the exact phrases ‘距离控制’ and ‘整套距离设计’; both compress visible relationships into repeated abstract nominalizations. Preserve the established eye-snake-frame causal sequence."
+  ],
+  "finalVerdict": "FAIL",
+  "finalRationale": "The voice score passes at 13/14 with no zero, and fact, narrative, significance, specificity, production-language, layer-independence, and chain checks pass. Final verdict is nevertheless FAIL because the locked negative-contrast maximum and native-Chinese/translationese hard gate fail."
+}

@@ -1,0 +1,51 @@
+{
+  "runId": "m28-4-muxin-author-muxin-r02-2026-07-23",
+  "startedAt": "2026-07-24T04:56:56.918Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card_after_verified_selection",
+  "museumId": "muxin",
+  "workId": "muxin-r02",
+  "workIdentity": "《四块水晶石》，1991年，纸本彩墨，9.4 × 53.7厘米；题名、年代、材质、尺寸和配图共同锁定单件。",
+  "pipelineVersion": "2.4.7",
+  "instructionVersion": "2.0.2",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c22c60e3a215aa1ac90da402debeb2caf9da39975cb2921c4845ef74ef14c834"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "fbe6770b2ff0d935448d52feb1f0d73c35bf8b901efe905dca982615e664a0ad"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-r02/author-input-research.md",
+      "sha256": "69895a296a9431cd6516e6054f71bab35decd3188f1151416ed1f02ad4168a0d"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-r02/author-input-research-record.json",
+      "sha256": "48ec285e14d3e7aa73a3c92f6e48df94ae8be3d85b388b6aa3e1345a9485247c"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-r02/work-selection.json",
+      "sha256": "f2fbfce99866d546c5d396a8f8bf4c927428a9e07dd30240b5333827bc9b4478"
+    },
+    {
+      "path": "research/m28-4/muxin/integration/museum-plan.json",
+      "sha256": "f1667c694974a0128558ce6d9519b3a616cab05d4dc3a4f4d00caf5ec62862b2"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

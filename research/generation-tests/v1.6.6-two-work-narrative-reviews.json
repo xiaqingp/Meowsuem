@@ -1,0 +1,234 @@
+{
+  "instructionVersion": "1.6.6",
+  "sourcePack": "research/generation-tests/v1.6.1-two-work-source-pack.md",
+  "sourceAddendum": "research/generation-tests/v1.6.6-two-work-source-addendum.md",
+  "reviews": [
+    {
+      "workId": "hunters",
+      "coreQuestion": "为什么一场收获寒酸的狩猎，最后让人记住的却是整个冬天？",
+      "quickLayerIndependent": true,
+      "deepLayerIndependent": true,
+      "finalReturnsToQuestion": true,
+      "paragraphDependencies": [
+        {
+          "paragraph": "雪地先交出一份成绩单｜第一段",
+          "dependsOn": "读者先看到最近、最大的猎人",
+          "newUnderstanding": "狐狸、兔踪、人物与狗的状态共同支持收获寒酸，不必虚构具体心理",
+          "breaksIfMovedEarlier": "它必须先建立猎人为何成为初始主角"
+        },
+        {
+          "paragraph": "雪地先交出一份成绩单｜第二段",
+          "dependsOn": "归猎结果已经由多项证据建立",
+          "newUnderstanding": "猎人背影与斜坡把观看任务交给山谷",
+          "breaksIfMovedEarlier": "没有归猎起点，斜坡无法完成主角转移"
+        },
+        {
+          "paragraph": "山坡把主角交给了谁｜两段",
+          "dependsOn": "视线已经进入山谷",
+          "newUnderstanding": "多种小事把主题从狩猎成败升级为冬天容纳的生活系统",
+          "breaksIfMovedEarlier": "提前列细节会退化成无目的清单"
+        },
+        {
+          "paragraph": "六幅画，怎样装下一整年｜两段",
+          "dependsOn": "文章已经提出为何需要季节尺度",
+          "newUnderstanding": "组画委托与月份图像传统解释大世界，勃鲁盖尔又把重点转向风景气氛",
+          "breaksIfMovedEarlier": "若先讲传统，只会成为年代背景"
+        },
+        {
+          "paragraph": "这就是勃鲁盖尔：一边画地图，一边偷看日常｜两段",
+          "dependsOn": "组画任务已经说明风景为何重要",
+          "newUnderstanding": "高视点、日常细节、组合景观和冷色构成作者把季节变成世界的方法",
+          "breaksIfMovedEarlier": "没有季节问题，形式会变成孤立风格栏目"
+        },
+        {
+          "paragraph": "有四幅兄弟作品，为什么冬天仍不可替代｜两段",
+          "dependsOn": "季节机制与作者方法都已成立",
+          "newUnderstanding": "兄弟作品可替代一般方法，无法替代冬季节点和本作的冬景成就",
+          "breaksIfMovedEarlier": "在理解作品怎样工作前谈第一与稀有，只剩名次"
+        },
+        {
+          "paragraph": "最后再看一眼",
+          "dependsOn": "兔踪、狐狸、冰面、组画与寒冷均已建立",
+          "newUnderstanding": "一次归猎和一个下午被整个季节包围，主角完成从猎人到冬天的转移",
+          "breaksIfMovedEarlier": "缺少多种时间尺度时，结尾无法回答最初问题"
+        }
+      ],
+      "highRiskClaimReview": [
+        {
+          "sentence": "这趟狩猎，成绩确实不太好看。",
+          "evidenceType": "high_confidence_editorial_synthesis",
+          "sourceOrBasis": "KHM 的单只狐狸与疲惫狗群，加 Smarthistory 的兔踪、失败狩猎分析形成多项同向证据",
+          "confidence": "高：一个馆方对象页与一个独立艺术史教育来源共同支持，断言只评价狩猎结果，不读取人物内心",
+          "verdict": "passed"
+        },
+        {
+          "sentence": "至少有一份晚餐刚刚跑掉。",
+          "evidenceType": "grounded_humor_from_observation",
+          "sourceOrBasis": "Smarthistory 识别前景兔踪并解释为猎物刚逃走；晚餐为轻微口语化转述",
+          "confidence": "中高：兔踪含义有可靠解释，晚餐是非字面幽默，不承担历史事实",
+          "verdict": "passed"
+        },
+        {
+          "sentence": "大都会指出，他关注的不再只是每季该做什么，而是风景本身的气氛与变化。",
+          "evidenceType": "attributed_art_historical_interpretation",
+          "sourceOrBasis": "The Met Heilbrunn Timeline 对 Seasons 系列的明确分析",
+          "confidence": "高：具名艺术史机构的直接判断且正文保留归因",
+          "verdict": "passed"
+        },
+        {
+          "sentence": "这片山谷看起来可信，却不是尼德兰某处实景。",
+          "evidenceType": "source_fact_and_visual_analysis",
+          "sourceOrBasis": "Smarthistory 明确说明尼德兰低地与阿尔卑斯山经验被组合",
+          "confidence": "高：直接研究说明与地理事实一致",
+          "verdict": "passed"
+        },
+        {
+          "sentence": "KHM 进一步称它为欧洲绘画中第一幅、也是最突出的冬季风景画。",
+          "evidenceType": "attributed_bounded_superlative",
+          "sourceOrBasis": "KHM 作品页原文，正文明确限定欧洲绘画和机构归因",
+          "confidence": "高：强断言来自直接收藏机构判断，比较范围未扩张",
+          "verdict": "passed"
+        },
+        {
+          "sentence": "冬季节点却只由眼前这幅保存。",
+          "evidenceType": "comparative_source_fact",
+          "sourceOrBasis": "KHM、The Met 与 Smarthistory 的五幅现存季节组画清单",
+          "confidence": "高：多个独立机构列出的现存组画一致",
+          "verdict": "passed"
+        }
+      ],
+      "unplannedHighRiskClaims": [],
+      "voiceEvidence": {
+        "entrance": "一只狐狸加兔踪，立刻把狩猎结果说清；远处生活制造真实反差。",
+        "cognitiveTurn": "狩猎结果推动视线进入山谷，季节尺度再要求组画传统和作者方法，最后才能谈不可替代性。",
+        "humor": "成绩单、晚餐跑掉和地图式观看都来自可见事实，删除笑点后因果仍成立。",
+        "secondLook": "兔踪、狐狸和冰面依次扩大时间尺度，最终让冬天接管主角。"
+      },
+      "verdict": "passed"
+    },
+    {
+      "workId": "narmer",
+      "coreQuestion": "为什么一块调色板要把同一位国王画两遍？",
+      "quickLayerIndependent": true,
+      "deepLayerIndependent": true,
+      "finalReturnsToQuestion": true,
+      "paragraphDependencies": [
+        {
+          "paragraph": "同一位国王，为什么要出场两次｜两段",
+          "dependsOn": "读者已在快层发现两冠与重复",
+          "newUnderstanding": "白冠面承担击敌，红冠面承担把胜利整理成秩序",
+          "breaksIfMovedEarlier": "必须先接住重复问题并建立两项王权工作"
+        },
+        {
+          "paragraph": "不识象形文字，为什么也不会认错老板｜两段",
+          "dependsOn": "两项王权工作已经建立",
+          "newUnderstanding": "尺寸、分层和复合视角是让政治信息立即可读的设计",
+          "breaksIfMovedEarlier": "没有可读性问题，形式分析会变成风格栏目"
+        },
+        {
+          "paragraph": "一件化妆工具，为什么跑进神庙｜两段",
+          "dependsOn": "正式视觉设计已经被理解",
+          "newUnderstanding": "尺寸、双面雕刻与神庙发现语境解释器物从实用品转成仪式物",
+          "breaksIfMovedEarlier": "没有视觉程序，器物史会成为考古插曲"
+        },
+        {
+          "paragraph": "怪兽不是密码本里唯一的一条答案｜两段",
+          "dependsOn": "中央圆槽已经成为旧功能遗迹",
+          "newUnderstanding": "共享怪兽母题被重新编入控制程序，统一解释重要但不唯一",
+          "breaksIfMovedEarlier": "没有器形问题，怪兽比较只是图像学旁支"
+        },
+        {
+          "paragraph": "找到第二件，才能说清它到底贵在哪里｜两段",
+          "dependsOn": "共享器形和母题已经成立",
+          "newUnderstanding": "价值从虚假孤例转为王名、两冠、文字和双面程序的集中保存，并获得限定的最早例证",
+          "breaksIfMovedEarlier": "在共同家族出现前，无法说清相同与决定性差异"
+        },
+        {
+          "paragraph": "历史慢慢发生，图像负责一锤定音｜两段",
+          "dependsOn": "王权程序和比较边界已成立",
+          "newUnderstanding": "作品价值转向政治图像如何压缩渐进国家形成，并由击敌母题的长期延续回应",
+          "breaksIfMovedEarlier": "没有先理解程序，就会把历史边界当作免责声明"
+        },
+        {
+          "paragraph": "最后再看一眼",
+          "dependsOn": "征服、秩序、可读性、仪式器物、比较和历史压缩均已建立",
+          "newUnderstanding": "两具身体各管一项王权工作，合成完整国王",
+          "breaksIfMovedEarlier": "缺少两项工作与压缩机制，结论无法成立"
+        }
+      ],
+      "highRiskClaimReview": [
+        {
+          "sentence": "这是现存材料中，同一统治者使用两种王冠的最早例证。",
+          "evidenceType": "bounded_scholarly_superlative",
+          "sourceOrBasis": "Smarthistory 对 first preserved example 的明确表述",
+          "confidence": "高：直接学术教育来源给出明确现存材料范围；正文没有升级为发明或首次统一",
+          "verdict": "passed"
+        },
+        {
+          "sentence": "力量已经被加工成队列、等级和控制。",
+          "evidenceType": "editorial_visual_synthesis",
+          "sourceOrBasis": "British Museum 对官员、持旗者、被缚斩首者、受控神兽与撞城公牛的目录描述",
+          "confidence": "高：多项直接可见关系支撑，属于形式解释而非历史事件重建",
+          "verdict": "passed"
+        },
+        {
+          "sentence": "它已经转化为献给神的仪式物，而不是每天拿来磨眼影的生活用品。",
+          "evidenceType": "scholarly_function_interpretation",
+          "sourceOrBasis": "Smarthistory 明确称 ritual item dedicated to a god；Narmer Catalog 确认神庙区 Main Deposit 附近出土和巨大尺寸",
+          "confidence": "高：两个独立可靠来源从功能与考古语境相互支持",
+          "verdict": "passed"
+        },
+        {
+          "sentence": "交颈神兽代表两地统一是重要解释，不是唯一答案。",
+          "evidenceType": "qualified_iconographic_interpretation",
+          "sourceOrBasis": "埃及旅游与文物部给出统一解释，Smarthistory 强调总体解释仍有争议，Ashmolean 提供同类母题",
+          "confidence": "高：主流解释和争议边界均有独立来源",
+          "verdict": "passed"
+        },
+        {
+          "sentence": "它属于一个正在试验权力、暴力和秩序的大型调色板家族。",
+          "evidenceType": "comparative_editorial_synthesis",
+          "sourceOrBasis": "双犬、猎人、战场与纳尔迈调色板的机构记录及 O'Connor program 概念的二手学术摘要",
+          "confidence": "中高：比较样本明确，‘试验’是编辑性概括而非唯一功能断言",
+          "verdict": "passed"
+        },
+        {
+          "sentence": "埃及国家形成很可能经历文化扩展、政治竞争和多次冲突。",
+          "evidenceType": "qualified_scholarly_history",
+          "sourceOrBasis": "The Met 古埃及教育资料对渐进国家形成的说明",
+          "confidence": "中高：可靠学术教育来源，正文保留‘很可能’",
+          "verdict": "passed"
+        },
+        {
+          "sentence": "“国王击敌”的姿态此后长期延续，直到古埃及最后建造的一批神庙仍能看到。",
+          "evidenceType": "source_fact",
+          "sourceOrBasis": "埃及旅游与文物部 Narmer Palette 页面",
+          "confidence": "高：直接来源明确陈述并有广泛艺术史共识",
+          "verdict": "passed"
+        },
+        {
+          "sentence": "连王权仪式也有人负责鞋，宏大政治因此突然露出一个具体职位。",
+          "evidenceType": "grounded_humor",
+          "sourceOrBasis": "Smarthistory 确认仪式物，British Museum 确认神庙行列和 sandal-bearer，人物在两面均可见",
+          "confidence": "高：三项相互支持；笑点不声称已还原具体礼仪原因",
+          "verdict": "passed"
+        },
+        {
+          "sentence": "这与神庙语境相呼应，但具体礼仪细节仍无法完全复原。",
+          "evidenceType": "bounded_contextual_inference",
+          "sourceOrBasis": "Narmer Catalog 的神庙区发现语境、British Museum 的神庙行列与提鞋侍从、解释争议",
+          "confidence": "中：语境联系合理但非唯一解释，正文明确保留不确定性",
+          "verdict": "passed"
+        }
+      ],
+      "unplannedHighRiskClaims": [],
+      "voiceEvidence": {
+        "entrance": "两顶王冠和同一国王重复，是零背景读者立即能发现的问题。",
+        "cognitiveTurn": "两次出场先变成两项王权工作，再由尺寸解释可读性、由神庙语境解释器物、由同类比较划定珍贵性。",
+        "humor": "权力字号、磨眼影和负责鞋都由作品事实生长，删除后逻辑仍完整。",
+        "secondLook": "白冠面的悬停与红冠面的队列合成两项工作，回答为什么要画两次。"
+      },
+      "verdict": "passed"
+    }
+  ]
+}

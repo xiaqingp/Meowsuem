@@ -1,0 +1,48 @@
+{
+  "runId": "m28-6-vienna-author-vienna-egy-03-babylon-lion-2026-07-24",
+  "startedAt": "2026-07-24T07:30:03.847Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card",
+  "museumId": "vienna",
+  "workId": "vienna-egy-03-babylon-lion",
+  "workIdentity": {
+    "artistOrCulture": "新巴比伦，巴比伦游行大道",
+    "title": "巴比伦行进狮子砖墙浮雕",
+    "titleEn": "Wall Section with Relief of a Striding Lion",
+    "museum": "Kunsthistorisches Museum Vienna"
+  },
+  "pipelineVersion": "2.4.8",
+  "instructionVersion": "2.0.2",
+  "inputContractVersion": 1,
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "465e7a2ce500057a139dbb64ff9df36755a6525a1f3a960e90fa0263a572ebfe"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-04/vienna-egy-03-babylon-lion-research-card.md",
+      "role": "research_card",
+      "sha256": "17b1cac774d587f48c5740ea46cd7cf7ce00d5a41beab762de84b87bb962ec25"
+    },
+    {
+      "path": "research/m28-6/vienna/works/vienna-egy-03-babylon-lion/work-context.json",
+      "role": "work_context",
+      "sha256": "86db92c874b8796a19a35e944affd0ec2712aecd4073701cdaaf01f8f725a728"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

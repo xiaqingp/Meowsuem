@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-pg-04-peasant-wedding-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:41:12.3343715-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-01/vienna-pg-04-peasant-wedding-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "9a1e4d45fc614a4a7dcef95f222957c6f5dea7bed3ecec4791c06ac4ab48981f"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-pg-04-peasant-wedding/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "301be6e62915be26054f2309d14a6c8b5a4664f21779a948ba56080550924cbb"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "879510f3072247f16973682cfccad7e7fa00f6cbd0b9ebfa0773100c4bb97aa1",
+                        "bytes":  10629
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "b8594a03816fd82c3fddf637bc10bb3a1cc70944ba40170842f3709321ba3543",
+                        "bytes":  217
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "0fca5a3908c799aaa5ca0887f09b6eef650a927d874a552ea4329bf61e03f7d4",
+                        "bytes":  4308
+                    }
+                ]
+}

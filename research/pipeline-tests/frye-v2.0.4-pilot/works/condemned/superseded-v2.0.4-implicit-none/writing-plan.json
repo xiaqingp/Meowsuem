@@ -1,0 +1,148 @@
+{
+  "artifactType": "writing_plan",
+  "workId": "condemned",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "museumId": "frye",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "directUpstream": {
+    "filename": "research-card.md",
+    "sha256": "2d59b7ab3e1f61f1e41d518a655e7bf1c28329843ea86ccf42439515eef9303f"
+  },
+  "readerBaseline": "零背景读者从标题知道中央人物是死囚，从画面能看到暗室、坐着且脚踝附近受束缚的男子、沿墙的人群、右侧亮处、白色床单与人群之间的空地；读者不知道他的罪名、身份、结局、旁观者关系或内心。",
+  "workSpecificQuestion": "为什么画家把死囚与围观者之间的空地留得这么显眼？",
+  "quickLayerPromise": {
+    "visibleTension": "房间里挤着许多人，死囚周围却留出一块无人跨过的空地。",
+    "provisionalAnswer": "这块空地把监禁从脚踝处的束缚扩大为一整套人与人之间的隔离，使读者无需猜测表情也能读懂场面的压力。",
+    "viewingRoute": [
+      "中央偏左坐着的男子与脚踝附近的束缚",
+      "沿墙停留的人群",
+      "人物之间无人占据的空地",
+      "右侧亮处以及切开褐黑色域的白床单和衣衫"
+    ]
+  },
+  "cognitionSteps": [
+    {
+      "step": 1,
+      "discovery": "束缚先确认中央男子的处境，而人群与他之间的空地把肉身拘禁转化为可见的社会距离。",
+      "changesUnderstanding": "读者从‘一名被绑住的人’推进到‘整个房间都在执行隔离’。",
+      "thereforeNext": "既然压力来自房间里的人际结构，就必须追问画家为什么在早期创作中反复处理死囚与旁观者。"
+    },
+    {
+      "step": 2,
+      "discovery": "作品形成于作者早期赢得声誉的死囚题材时期；Frye 把它与 1870 年扩展为最后探访场面的《死囚的最后一天》相联系。",
+      "changesUnderstanding": "上一段的空地不再只是构图上的空白，而成为作者反复研究‘被拘束者如何处在人群之中’的关键装置。",
+      "thereforeNext": "既然题材和人群关系相互依赖，就要看暗色、亮部与粗粝表面怎样让这种关系在视觉上成立。"
+    },
+    {
+      "step": 3,
+      "discovery": "暗色室内压低环境，白床单、衬衣和右侧亮处切开褐黑色域，粗粝表面与紧凑布局把注意力锁在人与人之间。",
+      "changesUnderstanding": "读者明白形式并非附加风格说明，而是在强化上一段所见的拘束与围观关系。",
+      "thereforeNext": "既然形式与题材共同成立，就要判断这件较紧凑的相关作品在作者与 Frye 馆藏中究竟重要到什么程度。"
+    },
+    {
+      "step": 4,
+      "discovery": "最近比较对象是 1870 年《死囚的最后一天》；两者共享囚犯、室内和旁观者，本作更紧凑，但精确版本关系尚不能确定。",
+      "changesUnderstanding": "作品的价值落在早期关键题材、强烈构图和 Frye 创馆收藏中的制度观看线索上，而不依赖把它宣称为主版本或孤品。",
+      "thereforeNext": "最后回到空地，检查它如何同时容纳身体束缚、群体观看和无法被填平的距离。"
+    }
+  ],
+  "humorBasis": null,
+  "forbiddenAssumptions": [
+    "死囚的罪名、处决结果或政治犯身份",
+    "任何人物的恐惧、同情、冷漠、羞耻等内心",
+    "沿墙人物彼此的身份、关系或共同意图",
+    "画面表现的是处决前最后探访的确定时刻",
+    "本作是1870年作品的习作、缩小稿、复制品或主版本",
+    "右侧亮处的具体光源",
+    "观看人群构成一个主动审判或惩罚死囚的集体"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "人群在审判或排斥死囚",
+      "evidenceType": "直接观察只能确认站位与空地，不能确认共同心理或行动",
+      "allowedWording": "人群沿墙围住场面，与死囚之间留有空地",
+      "forbiddenEscalation": "把人群写成一致行动的审判者、冷漠者或施刑者"
+    },
+    {
+      "claim": "男子因即将处决而恐惧或绝望",
+      "evidenceType": "标题与束缚支持死囚身份；心理没有来源",
+      "allowedWording": "男子坐在床或长凳边，脚踝附近可见束缚",
+      "forbiddenEscalation": "命名其情绪、思想或对结局的预知"
+    },
+    {
+      "claim": "画面记录处决前的最后探访",
+      "evidenceType": "馆方只明确把本作与1870年扩展该场面的作品相联系",
+      "allowedWording": "馆方把本作与后来扩展为最后探访场面的作品相联系",
+      "forbiddenEscalation": "断言本作的确切时刻、前因或后果"
+    },
+    {
+      "claim": "作者有意用空地象征社会排斥",
+      "evidenceType": "空地为直接观察，作用属于编辑性形式分析",
+      "allowedWording": "这块空地让身体隔离在画面中变得更清楚",
+      "forbiddenEscalation": "宣称作者明确意图或唯一象征含义"
+    },
+    {
+      "claim": "本作是不可替代的主版本",
+      "evidenceType": "馆方比较与年代支持题材、生涯位置；目录关系未核验",
+      "allowedWording": "它是作者早期关键题材的相关作品，也是Frye创馆收藏中少数把社会制度与群体观看置于中心的作品",
+      "forbiddenEscalation": "唯一、主版本、习作、缩小稿或无法替代的稀世珍品"
+    }
+  ],
+  "historicalContextPlan": {
+    "applicable": true,
+    "beforeState": "不扩写资料未提供的革命前政治结构；只让读者知道作者的早期现实主义题材需要放在1848—49年革命后的匈牙利社会语境中理解。",
+    "changeOrConflict": "革命后的社会处境使监禁、刑罚与普通人的生活成为作者早期现实主义题材的背景；资料未证明画中人为革命参与者。",
+    "objectRole": "作品通过死囚、束缚、旁观者和封闭室内重新组织这一社会处境，不作为具体案件或政治事件的纪实证据。",
+    "consequence": "这一题材成为作者早期建立声誉的关键方向，并在1870年相关作品中扩展为更完整的探访场面。",
+    "uncertainty": "人物身份、罪名、政治属性、事件时刻与两幅作品的精确版本关系均不确定。",
+    "placement": "快层只说明这是作者早期反复处理的死囚题材；深层第二段在空地与人群关系已经建立后，补足革命后社会背景与相关作品。"
+  },
+  "authorStyle": {
+    "careerPosition": "早期社会现实主义关键题材的形成期作品",
+    "visibleFeatures": [
+      "暗色室内",
+      "粗粝表面",
+      "紧凑的人物布局",
+      "白床单、衬衣与右侧亮处切开褐黑色域",
+      "人物关系承担叙事"
+    ],
+    "interpretiveUse": "风格只在读者理解人群与空地后出现，用来说明形式怎样强化同一个问题，不另立可交换的作者栏目。"
+  },
+  "significance": {
+    "label": "重要藏品",
+    "fiveDimensions": {
+      "artisticAchievement": "高：紧凑布局、明暗切分与中央空地共同组织人物关系，形式与社会题材紧密相扣。",
+      "artHistoricalPosition": "高：处于Munkácsy早期赢得声誉的社会现实主义死囚题材形成期。",
+      "historicalCulturalValue": "高：把监禁、刑罚和群体观看作为革命后匈牙利社会现实的艺术问题，但不是具体案件的纪实证据。",
+      "rarityAndIrreplaceability": "中：有明确相关作品，准确版本关系与全球数量未知，不能通过稀世珍品硬门。",
+      "collectionPosition": "高：属于Frye创馆收藏，是其中少数把社会制度与群体观看置于中心的早期现实主义作品。"
+    },
+    "comparisonCategory": "Munkácsy早期死囚题材的社会现实主义室内画",
+    "nearestComparator": "Mihály de Munkácsy，The Last Day of a Condemned Man，1870",
+    "sharedCore": "被拘束者、封闭室内与旁观者共同构成叙事",
+    "decisiveDifference": "Frye作品构图更紧凑；1870年作品把场景扩展为他人最后探访囚犯",
+    "unknownBoundary": "准确版本关系、数量层面的稀缺性与主次关系待目录级证据确认",
+    "nonSubstitutableValue": "在Frye馆内，它以紧凑空间清楚连接社会制度、群体观看与创馆收藏史；这一馆藏作用不等于全球不可替代性。",
+    "travelBoundary": "服从Frye 72分边界：可作为重要停留点，不写成足以改变西雅图行程的稀世珍品。"
+  },
+  "observableDetails": [
+    "中央偏左男子坐在床或长凳边",
+    "男子脚踝附近可见束缚",
+    "多人沿墙围在室内",
+    "观看者与囚犯之间留有空地",
+    "右侧门口或窗区较亮",
+    "白床单和白衬衣切开褐黑色域"
+  ],
+  "secondLook": "在认出脚踝束缚之后，把视线移到死囚与沿墙人群之间那块无人站入的地面；重新判断真正困住他的只有绳索，还是整个房间的距离。",
+  "productionLanguageBoundary": {
+    "visitorProseAllowed": "只写作品、现场观察、必要的历史背景、比较边界和读者需要知道的证据限度。",
+    "visitorProseForbidden": [
+      "研究缺口或补研究待办",
+      "图片许可任务",
+      "发布任务或状态",
+      "测试、prompt、生成器、reviewer、迁移或版本语言"
+    ],
+    "internalRisksDestination": "author-review.json"
+  }
+}

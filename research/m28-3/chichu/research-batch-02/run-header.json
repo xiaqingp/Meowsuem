@@ -1,0 +1,46 @@
+{
+  "runId": "m28-3-chichu-fresh-research-batch-02-2026-07-23",
+  "startedAt": "2026-07-23T20:30:00-07:00",
+  "stage": "research",
+  "researchMode": "fresh",
+  "museumId": "chichu",
+  "works": [
+    {"museumId":"chichu","workId":"cluster-grass","workIdentity":{"artist":"Claude Monet","title":"Water Lilies, Cluster of Grass, 1914-1917","museum":"Chichu Art Museum"}},
+    {"museumId":"chichu","workId":"water-lilies-1914","workIdentity":{"artist":"Claude Monet","title":"Water Lilies, 1914-1917","museum":"Chichu Art Museum"}},
+    {"museumId":"chichu","workId":"water-lily-pond-1917","workIdentity":{"artist":"Claude Monet","title":"Water-Lily Pond, 1917-1919","museum":"Chichu Art Museum"}},
+    {"museumId":"chichu","workId":"willow-reflections","workIdentity":{"artist":"Claude Monet","title":"Water Lilies, Reflections of Weeping Willows, 1916-1919","museum":"Chichu Art Museum"}},
+    {"museumId":"chichu","workId":"marble-floor","workIdentity":{"artistOrCulture":"Tadao Ando team and craftspeople","title":"The Hand-Laid Marble Floor","museum":"Chichu Art Museum"}},
+    {"museumId":"chichu","workId":"afrum","workIdentity":{"artist":"James Turrell","title":"Afrum, Pale Blue, 1968","museum":"Chichu Art Museum"}},
+    {"museumId":"chichu","workId":"open-field","workIdentity":{"artist":"James Turrell","title":"Open Field, 2000","museum":"Chichu Art Museum"}},
+    {"museumId":"chichu","workId":"open-sky","workIdentity":{"artist":"James Turrell","title":"Open Sky, 2004","museum":"Chichu Art Museum"}},
+    {"museumId":"chichu","workId":"time-timeless","workIdentity":{"artist":"Walter De Maria","title":"Time/Timeless/No Time, 2004","museum":"Chichu Art Museum"}},
+    {"museumId":"chichu","workId":"chichu-garden","workIdentity":{"artistOrCulture":"Chichu Art Museum garden team; inspired by Monet's garden at Giverny","title":"Chichu Garden","museum":"Chichu Art Museum"}}
+  ],
+  "pipelineVersion": "2.4.2",
+  "instructionVersion": "2.0.1",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c22c60e3a215aa1ac90da402debeb2caf9da39975cb2921c4845ef74ef14c834"
+  },
+  "allowedInputs": [
+    {"path":"research/generation-pipeline.md","sha256":"8ddda4087bb5ee9fb60782eedcfb29152636ea0818f570631638c3016f11c90e"},
+    {"path":"research/meowseum-content-instruction.md","sha256":"bb9ad5d44fbb6b6382c90e17599c100648ca295800d57ff1b40f3cfc09b039ee"}
+  ],
+  "outputs": [
+    "cluster-grass-research-card.md",
+    "water-lilies-1914-research-card.md",
+    "water-lily-pond-1917-research-card.md",
+    "willow-reflections-research-card.md",
+    "marble-floor-research-card.md",
+    "afrum-research-card.md",
+    "open-field-research-card.md",
+    "open-sky-research-card.md",
+    "time-timeless-research-card.md",
+    "chichu-garden-research-card.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

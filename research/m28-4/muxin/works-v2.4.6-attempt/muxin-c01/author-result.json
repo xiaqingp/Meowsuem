@@ -1,0 +1,48 @@
+{
+    "runId":  "m28-4-muxin-author-muxin-c01-2026-07-23",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.6",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-23T21:54:35.7332281-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/generation-pipeline.md",
+                       "sha256":  "e7b049c97e262a0a9f2e334388ffadfb2013ce5a3fded20f7063256d03bb7e56"
+                   },
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/research-batch-01/muxin-c01-research-card.md",
+                       "sha256":  "5e1f591dadd558b1ffa82a04e2217aa3ebdeb8778ad7bba6c25b9fd12dd6abb7"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/works/muxin-c01/work-selection.json",
+                       "sha256":  "6df90c28553f971e1a510fdec0455fe3e9483c472bea79abb6d100c104b807a0"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/integration/museum-plan.json",
+                       "sha256":  "f1667c694974a0128558ce6d9519b3a616cab05d4dc3a4f4d00caf5ec62862b2"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "6ba99558ce440f0d995dc6bc3af37aba3e1e012231d98f31acd93a38f7e222e6",
+                        "bytes":  8870
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "d0e3d56d0a08c0f05e79c15e2d266cb9d828c534027c88bf4dc2d7d04019ee78",
+                        "bytes":  254
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "94fece032462a1df7715d1a81c0db8990a9a9687f27e8af3da28d842388957ec",
+                        "bytes":  4603
+                    }
+                ]
+}

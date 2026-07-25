@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-pg-09-madonna-of-the-rosary-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:42:43.4639760-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-01/vienna-pg-09-madonna-of-the-rosary-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "087bb3df436da5b77d2077812a5b825df718bcf7a62af44528c81fd69b793e9f"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-pg-09-madonna-of-the-rosary/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "5eafb6c177d063d2610849fdf79cb7c45c3cd4fc53b635da4f916d56af34cd6d"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "5cd5332b039f143fa3ce49ed1c165c9dad0d41d1dd4fe188d0eb39acf553e420",
+                        "bytes":  8418
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "6d8947dc89d29d8892a55994ad577933b8fc607b456b18119b4ade25b8f7cc04",
+                        "bytes":  313
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "650864b7f284bc39b01d2c00cfdbb7441f1b4e4119c9f59aa1d7ca142c6ede1e",
+                        "bytes":  3996
+                    }
+                ]
+}

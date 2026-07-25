@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-kk-02-krumau-madonna-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:36:20.1744876-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-02/vienna-kk-02-krumau-madonna-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "ac0901f3a09236394684d1280e881a1f9e7f25bfaa5b87c0592cf47422bde97c"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-kk-02-krumau-madonna/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "cd0a786b7562f81da4e69f4f4ff38d4a738111998b57a5b8bc0a591e32fc5773"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "9254653a159faed52b1167c112185a9f5527e06fc23d33786ef9dbd72abe3ad6",
+                        "bytes":  9712
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "ed31cdd21f83c88a3615407859fa62e75482fe9f3a105a1233162e0588286702",
+                        "bytes":  226
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "5116a906bda36775db6a4b17ebf2e489881d9a3d27c627569dfce4d19924939b",
+                        "bytes":  4408
+                    }
+                ]
+}

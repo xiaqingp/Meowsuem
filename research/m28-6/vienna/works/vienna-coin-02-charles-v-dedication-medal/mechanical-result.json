@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-coin-02-charles-v-dedication-medal-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:41.333Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "8315ca96c78eceb2a6fd0920b6643cd8a2aab56a558c7359a9550db1ca191373",
+      "bytes": 11278
+    },
+    {
+      "path": "card.txt",
+      "sha256": "e6300f1450b7312811e9885bfbff928ac7e0877d4dd7f6701964123e63e4d0fa",
+      "bytes": 313
+    },
+    {
+      "path": "draft.md",
+      "sha256": "fc3cbda15e0134266a25c73847c875675af7c60da0ae4392b4b11af4fa61c2b9",
+      "bytes": 5107
+    }
+  ]
+}

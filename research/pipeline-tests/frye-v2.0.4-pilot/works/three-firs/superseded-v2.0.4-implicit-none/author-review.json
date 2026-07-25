@@ -1,0 +1,163 @@
+{
+  "artifactType": "author_review",
+  "workId": "three-firs",
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "84eacac77f305de2f7eca74d59fba63f960ca8441e5167e755c0bc31311e5efa"
+  },
+  "paragraphDependency": [
+    {
+      "paragraph": "30 秒先懂",
+      "does": "以三根暗树干遮住白楼的可见反差提出问题，并给出画面结构这一暂时答案。",
+      "dependsOn": "读者只需看见树干、草坪、白楼和上缘树冠。",
+      "newUnderstanding": "遮挡是观看回报的起点，笔触将成为解释结构的下一条线索。",
+      "breaksIfMovedEarlier": "这是入口段，不能提前。"
+    },
+    {
+      "paragraph": "深层第 1 段",
+      "does": "拆解树干、窄缝、白楼和草坪怎样共同压缩纵深。",
+      "dependsOn": "快层已建立遮挡与结构的关系。",
+      "newUnderstanding": "树干既收紧空间，也通过缝隙保留后方建筑与庭园。",
+      "breaksIfMovedEarlier": "缺少快层的可见反差时，双重作用会像孤立的构图结论。"
+    },
+    {
+      "paragraph": "深层第 2 段",
+      "does": "从空间结构推进到颜料表面，并把可见笔触放入特吕布纳成熟期方法。",
+      "dependsOn": "上一段已说明哪些区域被树干组织在一起。",
+      "newUnderstanding": "紧密感同时来自位置与笔触；风格信息可以回到树干、草坪和白墙核对。",
+      "breaksIfMovedEarlier": "读者尚不知道颜料要组织哪些空间关系，作者风格会退化为独立栏目。"
+    },
+    {
+      "paragraph": "深层第 3 段",
+      "does": "用迪尔《白桦林》限定本作的具体差异、馆藏作用与重要性等级。",
+      "dependsOn": "前两段已建立少而重的暗干、受压空间和可见笔触。",
+      "newUnderstanding": "比较对象能解释相近价值，本作的回报在厚重遮挡与结构，不在全球唯一性。",
+      "breaksIfMovedEarlier": "未先看清本作机制，轻密白干与沉重暗干的比较没有判断基础。"
+    },
+    {
+      "paragraph": "细节清单",
+      "does": "把前三段结论逐一落实到窄缝、草坪、上缘暗带、笔触和白墙。",
+      "dependsOn": "读者已经知道空间、表面与比较为何重要。",
+      "newUnderstanding": "抽象的结构判断变成五项可现场核对的视觉证据。",
+      "breaksIfMovedEarlier": "清单会变成缺少因果的寻物指令。"
+    },
+    {
+      "paragraph": "最后再看一眼",
+      "does": "用白楼缝隙、亮草坪与暗树冠的连读回收核心问题。",
+      "dependsOn": "全文已解释三处区域怎样被树干和笔触连接。",
+      "newUnderstanding": "原先的障碍在第二眼成为整幅画的骨架。",
+      "breaksIfMovedEarlier": "没有前文的空间与笔触证据，骨架结论只是一句比喻。"
+    },
+    {
+      "paragraph": "事实边界",
+      "does": "收窄地点、风格归属和易变在展状态。",
+      "dependsOn": "正文已经正面说明作品适合怎样观看。",
+      "newUnderstanding": "读者能区分画面结构判断、风格语境与可变陈列信息。",
+      "breaksIfMovedEarlier": "边界会抢走入口，并使正文带上审稿口吻。"
+    }
+  ],
+  "claimClosure": [
+    {
+      "sentence": "三根深褐树干几乎堵住近景，白楼和塔楼只能从缝隙中探出来。",
+      "evidenceType": "直接观察与馆方视觉描述",
+      "sourceOrBasis": "Frye 对象页；研究卡直接观察",
+      "confidence": "高：馆方描述与图像可见特征一致。",
+      "verdict": "保留；不含人物心理、作者意图或时间先后。"
+    },
+    {
+      "sentence": "遮挡承担了双重作用：它把空间收紧，又借每一道缝提醒你后面仍有建筑和庭园。",
+      "evidenceType": "基于直接观察的编辑推断",
+      "sourceOrBasis": "三根近景树干、树间白楼与中央草坪的空间关系",
+      "confidence": "中高：推断过程在句前完整展示，可由画面核对。",
+      "verdict": "保留；未升级为作者明确意图。"
+    },
+    {
+      "sentence": "Lenbachhaus 的资料把他与威廉·莱布尔联系起来，并指出他把莱布尔那种织物般的画面结构发展成一项原则。",
+      "evidenceType": "来源事实",
+      "sourceOrBasis": "Lenbachhaus 展览资料",
+      "confidence": "高：直接机构研究来源。",
+      "verdict": "保留；与本作短划、色点和综合色块紧邻，不构成游离风格标签。"
+    },
+    {
+      "sentence": "两幅画都用树干搭骨架，也都保留可见笔触；迪尔以更多轻而密的白色树干形成节奏，特吕布纳则用三根少而重的暗干挤压建筑。",
+      "evidenceType": "直接观察与受限比较",
+      "sourceOrBasis": "两件研究卡中的画面观察",
+      "confidence": "中高：共同点与差异均为可见特征，未扩展为优劣或影响史。",
+      "verdict": "保留。"
+    },
+    {
+      "sentence": "它有能够解释相近问题的比较对象，价值来自具体而有力的画面组织，适合放在“重要藏品”的边界内理解。",
+      "evidenceType": "五维重要性判断与最近对象比较",
+      "sourceOrBasis": "研究卡的重要性结论；《白桦林》作为最近比较对象",
+      "confidence": "中高：艺术与馆藏价值具体，全球不可替代性未声称成立。",
+      "verdict": "保留；符合 Frye 72 分边界。"
+    },
+    {
+      "sentence": "刚才像障碍的三根粗干，此刻成了整幅画最牢固的骨架。",
+      "evidenceType": "由全文观察闭合的编辑判断",
+      "sourceOrBasis": "窄缝、草坪、白楼、暗树冠与树干的关系",
+      "confidence": "中高：‘骨架’已由多项可见结构具体解释。",
+      "verdict": "保留；是对象专属第二眼，不宣称作者意图。"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这幅画把三根树干挡在城堡前面，再用草坪、白墙和一笔一笔的颜色把被切碎的空间重新扣紧。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "notes": "标题、快层、三段推进和结尾可连续口述；主语清楚，未用抽象名词串联，也未依赖固定的‘先看／再看’或否定—转折模板。"
+  },
+  "productionLanguageScan": {
+    "researchGap": false,
+    "imageLicenseTask": false,
+    "publicationTaskOrStatus": false,
+    "testLanguage": false,
+    "promptLanguage": false,
+    "generatorLanguage": false,
+    "reviewerLanguage": false,
+    "migrationLanguage": false,
+    "verdict": "clean"
+  },
+  "significanceReview": {
+    "level": "重要藏品",
+    "fiveDimensionsClosed": {
+      "artisticAchievement": "暗树干、亮草坪、白楼和暗树冠构成紧密结构，可见笔触兼具描绘与组织作用。",
+      "artHistoricalPosition": "正文以成熟期结构方法定位，不宣称开创、唯一或流派巅峰。",
+      "historicalCulturalValue": "仅保留海姆斯巴赫城堡地点线索，不把画面用作建筑史记录。",
+      "rarityAndIrreplaceability": "明确存在相近比较对象，未证明全球不可替代性，因此不升为稀世珍品。",
+      "collectionPosition": "具体说明它揭示 Frye 创馆收藏中依靠色块与笔触成立的现代风景一面。"
+    },
+    "nearestComparator": "路德维希·迪尔 Ludwig Dill《白桦林 Birkenwald》",
+    "comparisonClosed": true,
+    "frye72BoundaryRespected": true,
+    "verdict": "重要性、参观优先级和馆级边界一致。"
+  },
+  "observableDetailCount": 5,
+  "secondLookIsWorkSpecific": true,
+  "cardReview": {
+    "visibleCharacterBoundary": "24—100",
+    "independentFromQuickLayer": true,
+    "genericViewingCommandOpening": false,
+    "verdict": "meets_author_boundary"
+  },
+  "authorVoiceCandidate": {
+    "entry": 2,
+    "causality": 2,
+    "humanAgencyWhenApplicable": 1,
+    "turn": 2,
+    "visualPayoff": 2,
+    "spokenClarity": 2,
+    "secondLook": 2,
+    "total": 13,
+    "note": "作品不依赖人物或制度冲突，人的维度按适用性保守记 1；此分数仅为作者候选意见。"
+  },
+  "unresolvedRisks": [
+    "馆方在展状态会变化，到访时仍需以当日陈列为准。",
+    "海姆斯巴赫城堡的具体建筑史、塔楼层数和作者居留关系未获权威核验，正文已避免扩写。",
+    "全球同类作品数量与不可替代性没有证据支持，重要性维持为重要藏品。",
+    "图片来源可确认至 Frye 与摄影者 Spike Mafford，但开放再发布许可未确认；该事项未进入访客正文。"
+  ],
+  "finalDecision": "NOT_ISSUED_BY_AUTHOR",
+  "independentReviewRequired": true
+}

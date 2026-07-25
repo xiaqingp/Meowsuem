@@ -1,0 +1,205 @@
+{
+  "artifact": "author-review",
+  "workId": "sin",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "museumId": "frye",
+  "directUpstream": {
+    "file": "draft.md",
+    "sha256": "e04739ae9ed834b9bf6fd78546f7adb014b2261246576ca19d5d75b166437873"
+  },
+  "reviewScope": "作者自审；不能签发最终 PASS",
+  "coreQuestion": "为什么这幅画只给出一名女子、一条蛇和两道凝视，却足以让“罪”像一个迎面发生的场面？",
+  "paragraphDependencies": [
+    {
+      "paragraph": "30 秒先懂",
+      "does": "从缺少地点和动作的画面反差进入，以女子眼睛、蛇眼和蛇头方向给出暂时答案。",
+      "dependsOn": "元数据与标题已经建立作品身份。",
+      "newUnderstanding": "抽象的‘罪’被压缩成一次由双重凝视造成的正面相遇。",
+      "breaksIfMovedEarlier": "若置于元数据之前，读者还不知道标题与对象，‘抽象的罪’缺少指向。"
+    },
+    {
+      "paragraph": "深层第 1 段：身体、蛇与被删除的情节",
+      "does": "拆解黑背景、身体截断和蛇的横向关系，并收窄人物身份边界。",
+      "dependsOn": "快层已经提出‘信息被压缩’的暂时答案。",
+      "newUnderstanding": "压迫感来自观者无法借完整情节拉开距离，不需要补写具体人物故事。",
+      "breaksIfMovedEarlier": "提前会先讲限制，尚未让读者看到双重凝视为何构成问题。"
+    },
+    {
+      "paragraph": "深层第 2 段：象征主义怎样在画面上成立",
+      "does": "把前段的形式压缩与象征主义对内在经验的关注相连，并逐项返回身体、蛇、黑暗和眼睛。",
+      "dependsOn": "前段已证明作品不靠完整外部事件组织。",
+      "newUnderstanding": "流派标签获得可见机制，寓意由形象关系而非说明文字承载。",
+      "breaksIfMovedEarlier": "若没有前段对缺失情节与可见关系的拆解，象征主义会退化为百科标签。"
+    },
+    {
+      "paragraph": "深层第 3 段：建筑式金框",
+      "does": "把观看从画布内部扩到外框，并用 Frye 与 Museum Villa Stuck 的展览语境支持整体考察。",
+      "dependsOn": "前两段已说明画布内部如何把寓意布置成迎面相遇。",
+      "newUnderstanding": "画框继续强化窄竖、正面、舞台化的整体效果。",
+      "breaksIfMovedEarlier": "提前谈外框会在内部构图尚未成立时分散核心问题。"
+    },
+    {
+      "paragraph": "深层第 4 段：多个版本与最近比较对象",
+      "does": "交代 1891—1912 年多版本范围、1893 年比较对象与 Frye 较晚版本的共同点和差异。",
+      "dependsOn": "前文已让读者理解共同构图机制与外框作用。",
+      "newUnderstanding": "比较不再只是年代清单，而是检验哪些视觉机制持续、哪些对象条件不同。",
+      "breaksIfMovedEarlier": "若先谈版本，读者还不知道应该比较何种核心价值。"
+    },
+    {
+      "paragraph": "深层第 5 段：重要性结论",
+      "does": "由多版本事实推出作者持续返回该母题，并把价值落到 Frye 的收藏线与现场观看，同时拒绝行程级拔高。",
+      "dependsOn": "比较段已建立共享核心、差异与稀缺边界。",
+      "newUnderstanding": "重要性来自艺术机制、作者生涯和馆藏位置，不来自版本唯一性。",
+      "breaksIfMovedEarlier": "缺少比较前提时，‘重要节点’会成为无证据的评级。"
+    },
+    {
+      "paragraph": "五个现场细节",
+      "does": "把前文结论拆成可执行的观察：双亮点、蛇身方向、身体截断、横竖冲突和画框。",
+      "dependsOn": "前文已解释每项细节为何与核心问题有关。",
+      "newUnderstanding": "读者可以独立在现场复核叙事，而非只接受抽象判断。",
+      "breaksIfMovedEarlier": "提前列举会成为没有因果作用的视觉清单。"
+    },
+    {
+      "paragraph": "最后再看一眼",
+      "does": "用眼睛—蛇眼—蛇身—暗部—金框的具体复看动作，回收‘抽象概念如何成为相遇’。",
+      "dependsOn": "全文已分别建立双重凝视、蛇的方向、身体遮蔽与整体画框的作用。",
+      "newUnderstanding": "第二眼把分散细节合成一套视觉安排，而不是重复开头。",
+      "breaksIfMovedEarlier": "若提前，动作虽可执行，却无法产生由比较与整体设计带来的新判断。"
+    },
+    {
+      "paragraph": "事实边界与资料",
+      "does": "收窄版本总数、人物身份、心理、作者意图与易变在展状态，并提供可点击来源。",
+      "dependsOn": "正文已经正面说明证据支持的结论。",
+      "newUnderstanding": "读者能区分可靠结论与未知边界，不会把较晚版本误作唯一版本。",
+      "breaksIfMovedEarlier": "提前会让限制接管正文声音，削弱先看懂作品的路径。"
+    }
+  ],
+  "assertionClosure": [
+    {
+      "sentence": "施图克正是用这种压缩，把标题中抽象的‘罪’变成一次迎面发生、很难避开的相遇。",
+      "evidenceType": "编辑推断，基于直接观察与标题",
+      "sourceOrBasis": "窄竖幅、近黑背景、女子眼睛与蛇眼、蛇头朝向；Frye 标题",
+      "confidence": "中高：视觉关系明确，‘相遇’是被清楚标记的观看解释，不声称人物心理或作者确定意图。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "标题、裸身与蛇把这一形象带入‘罪/诱惑’的寓意范围，但现有资料没有把女子确认为某个具体人物。",
+      "evidenceType": "来源事实加直接观察",
+      "sourceOrBasis": "Frye 标题；研究卡中的图像观察与身份禁写边界",
+      "confidence": "高：标题和形象可核对；后半句忠实保留身份未知。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "象征主义关注的不只是外部世界的样貌，也包括难以直接描绘的内在经验。",
+      "evidenceType": "来源事实的概括",
+      "sourceOrBasis": "Smarthistory 将 Stuck 与象征主义相连，并指出该运动关注内在自我",
+      "confidence": "中高：权威教育来源直接支持运动层面的概括，正文未将其升级为本件作者自述。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "构图没有在画布边缘结束，外框继续参与它的舞台感。",
+      "evidenceType": "编辑推断，基于直接观察与展览语境",
+      "sourceOrBasis": "建筑式金色画框；Frye 与 Museum Villa Stuck 展览对多种实践的整体考察",
+      "confidence": "中：‘舞台感’是视觉解释，未赋予画框唯一象征或作者确定意图。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "施图克在 1891 至 1912 年间多次处理《罪》这一母题，各版本的构图通常只有小幅变化。",
+      "evidenceType": "来源事实",
+      "sourceOrBasis": "Neue Pinakothek 对多个版本及通常仅小幅构图变化的说明",
+      "confidence": "高：机构来源直接支持；没有填写精确版本总数。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "Frye 这件约作于 1908 年，以蛋彩绘于画布，是较晚的版本。",
+      "evidenceType": "来源事实与年代比较",
+      "sourceOrBasis": "Frye 对象页元数据；Neue Pinakothek 的 1891—1912 母题范围及 1893 年版本",
+      "confidence": "高：年代、媒材和相对位置均可直接回查。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "这套构图并非施图克偶然用过一次的效果，而是他在生涯中持续返回的母题。",
+      "evidenceType": "来源事实的因果归纳",
+      "sourceOrBasis": "1891—1912 年间多个近似版本",
+      "confidence": "高：‘持续返回’准确概括时间跨度内多次创作，不推断返回动机。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "它是馆内的重要节点，但不足以单独成为改变城市行程的理由。",
+      "evidenceType": "编辑判断",
+      "sourceOrBasis": "五维重要性：艺术史高、作者生涯高、本馆叙事高、现场高、稀缺中低；Frye 72 分馆级边界",
+      "confidence": "高：与已锁定的馆级评分和‘重要藏品’而非‘稀世珍品’结论一致。",
+      "verdict": "retain"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这幅画把故事和场景压到最低，只留下女子、蛇、黑暗和两道目光，让‘罪’变成一次迎面相遇；金框又把这种效果扩成整体设计，而多个版本说明它重要却不唯一。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "notes": "标题均能口头复述；段落主语明确；比较段的年代、媒材和价值结论连续朗读无生硬概念压缩。"
+  },
+  "productionLanguageScan": {
+    "visitorFacingFiles": [
+      "card.txt",
+      "draft.md"
+    ],
+    "scannedConcepts": [
+      "研究缺口",
+      "图片许可",
+      "发布待办",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "版本迁移"
+    ],
+    "findings": [],
+    "verdict": "passed"
+  },
+  "significanceCheck": {
+    "museumScore": 72,
+    "label": "重要藏品",
+    "fiveDimensionsClosed": true,
+    "nearestComparatorNamed": true,
+    "rarityBoundaryPreserved": true,
+    "tripChangingOverstatementFound": false,
+    "verdict": "passed",
+    "notes": "正文明确存在多个近似版本，并把价值落到艺术机制、作者生涯与 Frye 馆藏位置；未使用唯一、原作、首版、稀世珍品或足以决定行程的措辞。"
+  },
+  "structureChecks": {
+    "completeMetadata": true,
+    "quickLayerIndependent": true,
+    "deepLayerIndependent": true,
+    "deepLayerVisibleCharactersAtLeast320": true,
+    "onSiteDetailsCount": 5,
+    "objectSpecificSecondLook": true,
+    "clickableSources": true,
+    "singleCoreQuestion": true,
+    "reorderWouldBreakUnderstanding": true,
+    "cardVisibleCharactersWithin24To100": true,
+    "cardIsIndependentFromQuickLayer": true
+  },
+  "voiceCandidateScore": {
+    "entrance": 2,
+    "causality": 2,
+    "human": 1,
+    "turn": 2,
+    "visualPayoff": 2,
+    "spokenClarity": 2,
+    "secondLook": 2,
+    "total": 13,
+    "note": "对象不是事件画，‘人’维度主要通过观者与被观看形象的关系成立；该分数仅为作者候选意见。"
+  },
+  "unresolvedRisks": [
+    "公开可靠来源未给出该母题精确版本总数，因此正文只能写‘多个近似版本’。",
+    "人物具体身份、心理与作者对本件作品的单一意图无法确认，正文已保持限定。",
+    "2026-07-22 的在展索引属于易变快照，到访时仍需由访客查询馆方状态。",
+    "图片再利用许可尚未确认；该事项只保留在内部记录，没有进入访客正文。",
+    "作者自审不能替代未参与成稿者的独立逐句核对和最终签发。"
+  ],
+  "finalPassSigned": false,
+  "status": "READY_FOR_INDEPENDENT_REVIEW"
+}

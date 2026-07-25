@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-kk-05-rudolf-ii-bust-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:38:02.2948714-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-03/vienna-kk-05-rudolf-ii-bust-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "33376031fcccf10bc9836242ac6d55f9fa51b7a041a4846b7fd18523bcb847f4"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-kk-05-rudolf-ii-bust/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "5849505114d8fef392f9d68c1519882ad1dc7a0b596f1ad1a105b1c6f9f4d9f4"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "dfa276f744380859dd87a4635a6117ca5035e522033e94e6fddd539d4a9376af",
+                        "bytes":  9578
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "7c98f451d735acee45dceb807bc6c5edfa5bf239cae7fbc0886b3d4046010359",
+                        "bytes":  343
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "bdf49826f211b12597388b69d4d110cb0eb05af2050cfe98747a23f53f06c79d",
+                        "bytes":  4253
+                    }
+                ]
+}

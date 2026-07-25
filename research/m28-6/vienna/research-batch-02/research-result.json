@@ -1,0 +1,75 @@
+{
+    "runId":  "m28-6-vienna-fresh-research-batch-02-2026-07-23",
+    "stage":  "research",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:10:08.3064976-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/generation-pipeline.md",
+                       "sha256":  "a65e9a4cb1477e4dfb00f06871483c928224dee22b69e292b84b2dcc7cdb4b24"
+                   },
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-02/candidate-packet.json",
+                       "sha256":  "2dc11f16879cde9021ecb22fd4931b4215d7e8df1e9a961edf1c35c395979d90"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "vienna-pg-11-judith-veronese-research-card.md",
+                        "sha256":  "b8bc592edcf1e54747eb84d8a717219d9e101e6469ed14f1376b99e8891f9196",
+                        "bytes":  3684
+                    },
+                    {
+                        "path":  "vienna-pg-12-rubens-self-portrait-research-card.md",
+                        "sha256":  "92f8db6fc7bf8b2372535c7d31ffb7a1bfca25cbfb401c0c545a9100dff2e5ce",
+                        "bytes":  3117
+                    },
+                    {
+                        "path":  "vienna-pg-13-cardinal-albergati-research-card.md",
+                        "sha256":  "81e5971c26429e8d08c2067c7134a5e1ee4f4a289683cea20e127e57597eb63d",
+                        "bytes":  3314
+                    },
+                    {
+                        "path":  "vienna-pg-14-madonna-with-the-pear-research-card.md",
+                        "sha256":  "9d9af060449aba3ef9f576c540f1d17f6b6500787d73be4e058c3f6763036f62",
+                        "bytes":  2867
+                    },
+                    {
+                        "path":  "vienna-pg-15-summer-research-card.md",
+                        "sha256":  "89da0e76078fb3fb5cf394d1627c53edfa7709e46b3851b88964eb2d24372668",
+                        "bytes":  3291
+                    },
+                    {
+                        "path":  "vienna-pg-16-parmigianino-convex-self-portrait-research-card.md",
+                        "sha256":  "8ffb0d74108fd9aad4b18c0b2b008fd0cbc0980a6b1ab9da37e4317e7c075431",
+                        "bytes":  3510
+                    },
+                    {
+                        "path":  "vienna-kk-01-saliera-research-card.md",
+                        "sha256":  "6a645271939643531d8395b6afb508014e3347b6da7613058e74749e84528bce",
+                        "bytes":  3851
+                    },
+                    {
+                        "path":  "vienna-kk-02-krumau-madonna-research-card.md",
+                        "sha256":  "ac0901f3a09236394684d1280e881a1f9e7f25bfaa5b87c0592cf47422bde97c",
+                        "bytes":  3687
+                    },
+                    {
+                        "path":  "vienna-kk-03-automaton-ship-research-card.md",
+                        "sha256":  "78808ed76022c996af129efe241ebc8293ec06f5e1fda77a3a8747c197c4519e",
+                        "bytes":  3525
+                    },
+                    {
+                        "path":  "vienna-kk-04-cittern-player-research-card.md",
+                        "sha256":  "19285e4740488388596456e2598c1fad067e931a2033dad5d8b254d3d8864491",
+                        "bytes":  3789
+                    }
+                ]
+}

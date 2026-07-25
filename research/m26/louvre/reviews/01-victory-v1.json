@@ -1,0 +1,39 @@
+{
+  "workId": "victory",
+  "draft": "research/m26/louvre/drafts/01-victory-v2.md",
+  "reviewRound": 2,
+  "previousFailedDraft": "research/m26/louvre/drafts/01-victory-v1-failed.md",
+  "previousFailure": "shared formula gate found three complete negation-contrast skeletons",
+  "instructionVersion": "1.6.7",
+  "narrativeReview": {
+    "quickLayerIndependent": true,
+    "deepLayerIndependent": true,
+    "finalReturnsToQuestion": true,
+    "paragraphs": [
+      {"paragraph": "风碰过的衣褶", "dependsOn": "快层已经提出静止石像为何像迎风移动", "newUnderstanding": "动作来自贴身与翻卷两种石面处理，而非想象表情", "breaksIfMovedEarlier": "没有先看到矛盾，形式分析会变成术语"},
+      {"paragraph": "船首基座", "dependsOn": "风的方向已经可见", "newUnderstanding": "风属于海上胜利场景，身体与基座必须合读", "breaksIfMovedEarlier": "先讲船首会只剩身份说明"},
+      {"paragraph": "圣所与不确定海战", "dependsOn": "船首已经建立海上纪念功能", "newUnderstanding": "能确认纪念范围，不能指定唯一事件", "breaksIfMovedEarlier": "历史争议会抢走第一眼观看"},
+      {"paragraph": "残缺与修复", "dependsOn": "古代组合关系已经成立", "newUnderstanding": "现代补配保存可证动作，没有发明缺失姿势", "breaksIfMovedEarlier": "修复清单会像独立栏目"},
+      {"paragraph": "派奥尼奥斯胜利女神比较", "dependsOn": "动作、船首、圣所和保存史均已建立", "newUnderstanding": "相似大型原作可替代一般类型经验，不能替代本作组合", "breaksIfMovedEarlier": "未先证明组合价值就无法判断决定性差异"},
+      {"paragraph": "最后一眼", "dependsOn": "船首、腿、衣褶和双翼已形成完整因果", "newUnderstanding": "观众用一次上升视线重做胜利抵达动作", "breaksIfMovedEarlier": "只会重复开头的风感"}
+    ]
+  },
+  "highRiskClaimReview": [
+    {"sentence": "她是一位刚落上战船的胜利女神。", "evidenceType": "bounded editorial rendering of statue plus ship-shaped base", "sourceOrBasis": "卢浮宫对象页确认 Nike 与船首形基座", "confidence": "高：身份与基座为直接馆藏记录；‘刚落上’是动作感的口语化表达", "verdict": "passed"},
+    {"sentence": "胜利被安排在海上发生。", "evidenceType": "editorial synthesis", "sourceOrBasis": "船首基座与海上胜利纪念物研究", "confidence": "高：只限定图像与纪念功能，不指定战役", "verdict": "passed"},
+    {"sentence": "具体是哪一场战争、由谁委托，学界仍有不同方案。", "evidenceType": "scholarly uncertainty", "sourceOrBasis": "AJA 2020 及卢浮宫书目中的竞争解释", "confidence": "高：不确定性本身有多项研究记录", "verdict": "passed"},
+    {"sentence": "眼前这件仍无法被它替代。", "evidenceType": "bounded comparative significance judgment", "sourceOrBasis": "派奥尼奥斯胜利女神与本作在基座、来源和保存组合上的逐项比较", "confidence": "中高：比较类别明确；不扩张为所有胜利女神的绝对排名", "verdict": "passed"}
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这尊像之所以像在迎风落上船头，是因为贴身衣褶、前倾身体、双翼和船首一起制造动作；具体纪念哪场海战不知道，但这套组合仍没有第二件能替代。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed"
+  },
+  "historicalContextReview": {
+    "verdict": "passed",
+    "evidence": "正文先由船首建立海上胜利范围，再交代大神圣所、奉献功能与具体战役争议；没有把未定的希腊化战争写成确定事件。"
+  },
+  "formulaScan": {"notRatherSkeletonsOutsideBoundary": 1, "verdict": "passed"},
+  "verdict": "passed_internal_not_published"
+}

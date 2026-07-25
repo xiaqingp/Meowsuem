@@ -1,0 +1,26 @@
+{
+  "id": "PCR-2026-07-24-06",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-24",
+  "ownerInstruction": "按照我们上面说的，模型和pipeline的更改，执行吧",
+  "baseRelease": "research/pipeline-releases/v2.7.0.json",
+  "targetVersion": "2.7.1",
+  "scope": [
+    "freeze modelRouting and stageInstructionViews inside the immutable pipeline release so the approved optimization is independently reproducible"
+  ],
+  "allowedCanonicalFiles": [
+    "scripts/freeze-pipeline-release.mjs"
+  ],
+  "allowedManagementFiles": [
+    "research/content-standard-manifest.json",
+    "coho_museum/Milestones.md",
+    "coho_museum/knowledge.md",
+    "research/audits/m28-11-model-and-input-optimization.md"
+  ],
+  "requiredTests": [
+    "release contains modelRouting and stageInstructionViews",
+    "project authority gate",
+    "release idempotence and immutability"
+  ]
+}

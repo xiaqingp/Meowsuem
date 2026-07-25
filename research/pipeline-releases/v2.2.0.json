@@ -1,0 +1,80 @@
+{
+  "name": "Meowseum Generation Pipeline",
+  "version": "2.2.0",
+  "status": "observation",
+  "releasedAt": "2026-07-22",
+  "decision": "Temporarily disable the default reviewer and observe author-pipeline quality.",
+  "canonicalFiles": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "b357451cdfcd95c701c72b0b9cd8b096aef0386544c9e6a6ad373ec4dfbc3a27"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "version": "1.8.0",
+      "sha256": "476270b69968f49ad9068fabfdee6568243c82e34fad7f9b88656ee036960940"
+    },
+    {
+      "path": "scripts/run-isolated-generation.ps1",
+      "sha256": "c22c60e3a215aa1ac90da402debeb2caf9da39975cb2921c4845ef74ef14c834"
+    }
+  ],
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "chatIsolated": true,
+    "adHocPromptAllowed": false,
+    "freshResearchMaxWorksPerContext": 10,
+    "reviewerMode": "disabled",
+    "reviewArtifactRequired": false,
+    "authorBundleOutputs": [
+      "writing-plan.json",
+      "card.txt",
+      "draft.md"
+    ]
+  },
+  "stateMachine": [
+    "research_card",
+    "author_bundle",
+    "mechanical_verified",
+    "observation"
+  ],
+  "mechanicalGates": [
+    "file identity and upstream hashes",
+    "required fields and section structure",
+    "source format and claim-ledger presence",
+    "card and detail prose separation",
+    "visitor-facing production-language scan",
+    "image and unique URL checks",
+    "detectable repeated-phrase scan"
+  ],
+  "provenance": {
+    "method": "runner-owned stage result",
+    "resultFilePattern": "<stage>-result.json",
+    "visitorProseContainsHashes": false,
+    "purpose": "identify exact inputs and outputs and detect later modification",
+    "notAPurpose": "judge content quality or prove the model's internal reasoning order"
+  },
+  "acceptedRegression": {
+    "run": "research/pipeline-tests/v2.0.9-autumn-rhythm-single-load-clean3",
+    "authorBundleResult": "research/pipeline-tests/v2.0.9-autumn-rhythm-single-load-clean3/author-result.json",
+    "authorBundleResultSha256": "2e0ff07959cddb0f91ac9bf768e69fcc1aa892da380707e8797b41563ea5555a",
+    "researchTokens": 78149,
+    "authorTokens": 50259,
+    "successfulRunTokens": 128408,
+    "ownerContentAcceptance": true,
+    "reviewerRun": false,
+    "productionWrite": false
+  },
+  "observationPolicy": {
+    "singleWorkFailure": "regenerate that work from the same canonical pipeline and valid research card",
+    "systemicFailure": "upgrade the canonical instruction or pipeline version, then regenerate affected works",
+    "reviewerReenableSignals": [
+      "repeated unsupported or overconfident claims",
+      "repeated unnatural Chinese",
+      "repeated wrong narrative priority",
+      "repeated templated phrasing"
+    ]
+  },
+  "publicationBoundary": "Mechanical verification only creates an observation candidate. Museum-level checks and explicit owner acceptance are required before production publication."
+}

@@ -1,0 +1,182 @@
+{
+  "instructionVersion": "1.6.7",
+  "sourcePack": "research/generation-tests/v1.6.1-two-work-source-pack.md",
+  "tasks": [
+    {
+      "taskId": "m25-hunters-round-7",
+      "workId": "hunters",
+      "readerStartingPoint": "读者首先看见左下方的猎人和狗，也能发现远处冰面很热闹。",
+      "narrativeQuestion": "为什么一场看起来收获寒酸的狩猎，最后让人记住的却是整个冬天？",
+      "quickLayerPlan": {
+        "visibleTension": "三名猎人与整群狗只带回一只狐狸，远处村民却在冰上娱乐。",
+        "provisionalAnswer": "猎人只是入口；同一季节里的匮乏、生计和快乐才是主体。",
+        "viewingRoute": "从狐狸和狗群沿陡坡进入冰面，再用近景小火与整体冷色确认答案。"
+      },
+      "logicSequence": [
+        {
+          "discovery": "猎人只带回一只狐狸，前方兔踪还提示其他猎物刚刚逃走；人物与狗的状态共同指向收获寒酸。",
+          "changesUnderstanding": "高置信度来自多项同向证据，猎人的具体心理仍无需虚构；归猎只够打开画面。",
+          "thereforeNext": "斜坡把目光越过猎人之后，谁接管了故事？"
+        },
+        {
+          "discovery": "冰面娱乐、赶路和燎猪与疲惫狗群同时出现。",
+          "changesUnderstanding": "冬天成为容纳多种生活状态的时间系统。",
+          "thereforeNext": "画家为何需要如此大的世界来代表一个季节？"
+        },
+        {
+          "discovery": "作品属于六幅季节组画，可能供委托人的餐厅宾客观看和交谈。",
+          "changesUnderstanding": "高视点、众多人物和大景观服务于表现两个月的生活循环。",
+          "thereforeNext": "这套任务怎样转化为勃鲁盖尔独有的视觉方法？"
+        },
+        {
+          "discovery": "组合景观、冷色和尺度递减让天气取得比人物更大的叙事权。",
+          "changesUnderstanding": "作者风格的核心从细节丰富转为用整体气候统摄日常。",
+          "thereforeNext": "同系列也有这种方法，冬季节点为何仍不可替代？"
+        },
+        {
+          "discovery": "六幅现存五幅且只有本作保留冬季；KHM 又给予其欧洲冬景史上的明确位置。",
+          "changesUnderstanding": "作品价值由系列稀有度与让寒冷成为主角的艺术成就共同构成。",
+          "thereforeNext": "回到狐狸、火与冰面，用三种短时间重新体会整个季节。"
+        }
+      ],
+      "humorBasis": "三名猎人与整群狗最终只有一只狐狸，像一份很难写漂亮的成绩单。",
+      "falsePremisesToAvoid": [
+        "画中村庄可以真实定位",
+        "猎人心情已知",
+        "六幅季节画全在维也纳",
+        "作品意在批判某一阶级"
+      ],
+      "claimBoundaryPlan": [
+        {
+          "claim": "狩猎结果与人物情绪",
+          "evidenceType": "来源事实加编辑推断",
+          "allowedWording": "只有一只狐狸，兔踪提示猎物逃走；可称收获寒酸或狩猎不成功",
+          "forbiddenUpgrade": "断言每位猎人的具体心情"
+        },
+        {
+          "claim": "景观地点",
+          "evidenceType": "KHM 来源事实",
+          "allowedWording": "尼德兰日常与阿尔卑斯经验组成的发明景观",
+          "forbiddenUpgrade": "真实村庄写生"
+        },
+        {
+          "claim": "委托与陈列",
+          "evidenceType": "KHM 限定来源",
+          "allowedWording": "为 Jongelinck 创作，可能陈列在乡间住宅餐厅",
+          "forbiddenUpgrade": "确定挂在餐厅某面墙"
+        },
+        {
+          "claim": "不可替代性",
+          "evidenceType": "KHM 来源加比较判断",
+          "allowedWording": "六季系列仅存的冬季节点；KHM 称其为欧洲绘画第一幅且最突出的冬季风景画",
+          "forbiddenUpgrade": "世界唯一冬景"
+        }
+      ],
+      "instructionVersion": "1.6.7",
+      "historicalContextRequired": true,
+      "historicalContextPlan": {
+        "beforeState": "欧洲月份图像传统通常用每月劳动和娱乐安排一年，风景服务于季节活动。",
+        "changeOrConflict": "勃鲁盖尔继承月份传统，却让风景气氛和自然变化取得与人物活动相等甚至更大的分量。",
+        "objectRole": "《雪中猎人》以高视点、组合山谷、冷色和几十种日常活动，把冬天从背景变成统领画面的力量。",
+        "consequence": "风景不再只交代人物在哪里做事，而能独立组织时间、社会生活和观看情绪。",
+        "uncertainty": "六幅作品具体陈列方式仍有推测；不把现代风景画独立门类的形成归功于单件作品。",
+        "placement": "快层说明冬天接管故事；深层在归猎与山谷之后解释月份传统和勃鲁盖尔的改变。"
+      }
+    },
+    {
+      "taskId": "m25-narmer-round-7",
+      "workId": "narmer",
+      "readerStartingPoint": "读者能看见同一位巨大国王在两面出现并佩戴不同王冠。",
+      "narrativeQuestion": "为什么纳尔迈要在石板两面戴上不同王冠？",
+      "quickLayerPlan": {
+        "visibleTension": "同一国王在双面重复出现，一面击敌，一面行进检视。",
+        "provisionalAnswer": "白冠代表上埃及，红冠代表下埃及；同一人佩戴两冠，是新统一王权把南北两地集中到国王身上的宣言。",
+        "viewingRoute": "认白冠与红冠，比较人物尺寸，再寻找中央圆槽与长颈神兽。"
+      },
+      "logicSequence": [
+        {
+          "discovery": "一面白冠、一面红冠，对应上埃及与下埃及；这是现存最早的同一统治者佩戴两冠图像。",
+          "changesUnderstanding": "国王重复出现不是形式游戏，而与统一王国形成的核心历史变化直接相关。",
+          "thereforeNext": "上下埃及究竟怎样走到需要同一位国王的时刻？"
+        },
+        {
+          "discovery": "统一很可能由文化扩展、竞争、贸易和冲突逐渐形成，而非纳尔迈打一仗完成。",
+          "changesUnderstanding": "调色板不必是战地记录，仍能作为新王权主动宣告南北归于一人的政治图像。",
+          "thereforeNext": "石板怎样让不识字的人也立刻看懂这份宣言？"
+        },
+        {
+          "discovery": "国王的巨大尺寸、横向分层和复合视角让等级与动作一目了然。",
+          "changesUnderstanding": "所谓经典埃及风格首先是一套清楚传达权力的办法。",
+          "thereforeNext": "这样正式的图像为什么仍保留调色板的圆槽？"
+        },
+        {
+          "discovery": "巨大的仪式调色板出土于神庙区，长颈神兽围住旧研磨槽。",
+          "changesUnderstanding": "生活器物的形式被带进神庙，用来承载统一王权和神圣秩序。",
+          "thereforeNext": "同类调色板已经存在，本作具体多了什么？"
+        },
+        {
+          "discovery": "同类作品共享圆槽、怪兽、狩猎和暴力；本作集中保存王名、两冠、早期文字和双面叙事。",
+          "changesUnderstanding": "珍贵性来自统一历史节点与具体图像组合，不来自虚假的孤例。",
+          "thereforeNext": "回到两顶王冠，看现实中的渐进统一如何被石板说成一个清楚答案。"
+        }
+      ],
+      "humorBasis": "人物尺寸像权力字号；作品的仪式属性、神庙行列和提鞋侍从相互支持“连王权仪式也有人负责鞋”。",
+      "falsePremisesToAvoid": [
+        "两面记录按时序发生的同一场战斗",
+        "纳尔迈一次征服完成统一",
+        "长颈神兽只有统一一种含义",
+        "本件没有任何同类",
+        "它一次发明全部埃及艺术规则"
+      ],
+      "claimBoundaryPlan": [
+        {
+          "claim": "双面关系",
+          "evidenceType": "观看结构与编辑解释",
+          "allowedWording": "并列征服者与秩序主人两种角色",
+          "forbiddenUpgrade": "按时间连续发生的动作"
+        },
+        {
+          "claim": "埃及统一",
+          "evidenceType": "馆方限定解释加历史研究",
+          "allowedWording": "图像宣称跨越上下埃及的王权；统一很可能渐进完成",
+          "forbiddenUpgrade": "一次战役完成统一"
+        },
+        {
+          "claim": "长颈神兽",
+          "evidenceType": "馆方解释加同类比较",
+          "allowedWording": "常被解释为两地受控，同时保留其他含义",
+          "forbiddenUpgrade": "唯一确定象征"
+        },
+        {
+          "claim": "视觉语法",
+          "evidenceType": "来源事实加直接观察",
+          "allowedWording": "尺度、分层与复合视角已协同工作；击敌图式长期延续",
+          "forbiddenUpgrade": "本件一次发明三千年全部规则"
+        },
+        {
+          "claim": "不可替代性",
+          "evidenceType": "机构资料比较",
+          "allowedWording": "同类仍有；本件集中保存具名统治者、两冠、文字和双面王权程序",
+          "forbiddenUpgrade": "没有第二件同类"
+        },
+        {
+          "claim": "两种王冠的最早现存例证",
+          "evidenceType": "Smarthistory 学术教育资料的限定比较",
+          "allowedWording": "现存材料中，同一统治者使用上下埃及两种王冠的最早例证",
+          "forbiddenUpgrade": "纳尔迈发明两种王冠或第一次统一埃及"
+        }
+      ],
+      "instructionVersion": "1.6.7",
+      "historicalContextRequired": true,
+      "historicalContextPlan": {
+        "beforeState": "尼罗河谷南部的上埃及与三角洲北部的下埃及有不同的政治中心和王权标志；白冠后来对应上埃及，红冠对应下埃及。",
+        "changeOrConflict": "公元前四千纪末，文化扩展、中心竞争、贸易和冲突推动南北逐渐形成统一王国，过程不是一场战役完成。",
+        "objectRole": "调色板让纳尔迈在两面分别佩戴白冠和红冠，把击敌、神祇、胜利行列和两地王权集中到同一位国王。",
+        "consequence": "它保存了现存最早的同一统治者佩戴两冠图像，并预示统一埃及长期使用的王权表达。",
+        "uncertainty": "学界争论它是具体统一事件的纪念，还是关于统一的仪式性宣言；纳尔迈与传说中的 Menes 是否同一人也不确定。",
+        "placement": "快层直接交代两冠与南北统一；深层第一部分先解释上下埃及及渐进统一，再进入视觉形式和仪式器物。"
+      }
+    }
+  ],
+  "sourceAddendum": "research/generation-tests/v1.6.7-two-work-source-addendum.md"
+}

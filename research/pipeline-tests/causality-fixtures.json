@@ -1,0 +1,20 @@
+{
+  "valid": {
+    "pipelineVersion": "$CURRENT",
+    "stages": [
+      {"name":"verified_image_evidence","artifact":"verified-image-evidence.json","payload":"images-v1","createdAt":"2026-07-22T09:59:00-07:00","inputSha256":null},
+      {"name":"research_card","artifact":"card.json","payload":"facts-v1","createdAt":"2026-07-22T10:00:00-07:00","inputSha256":"ad1ed153055eec2e7a46a2063a2ca0f5c652bdaf11937813cbbf99e4253fc00b"},
+      {"name":"author_bundle","artifact":"author-result.json","payload":"author-bundle-v1","createdAt":"2026-07-22T10:01:00-07:00","inputSha256":"640a36961d7716d94bd3ae63af2ff6b60c9c92ac8c49c3e27ff47aa0ceff3707"},
+      {"name":"mechanical_processed","artifact":"mechanical-result.json","payload":"mechanical-processed-v1","createdAt":"2026-07-22T10:02:00-07:00","inputSha256":"030bd9cd6e361bf8b11f1f1893e867c1f2acb74e512423d606612f17f834af73"}
+    ]
+  },
+  "backfill": {
+    "pipelineVersion": "$CURRENT",
+    "stages": [
+      {"name":"verified_image_evidence","artifact":"verified-image-evidence.json","payload":"images-v1","createdAt":"2026-07-22T10:00:00-07:00","inputSha256":null},
+      {"name":"research_card","artifact":"card.json","payload":"facts-v1","createdAt":"2026-07-22T10:03:00-07:00","inputSha256":"ad1ed153055eec2e7a46a2063a2ca0f5c652bdaf11937813cbbf99e4253fc00b"},
+      {"name":"author_bundle","artifact":"author-result.json","payload":"author-bundle-v1","createdAt":"2026-07-22T10:01:00-07:00","inputSha256":"640a36961d7716d94bd3ae63af2ff6b60c9c92ac8c49c3e27ff47aa0ceff3707"},
+      {"name":"mechanical_processed","artifact":"mechanical-result.json","payload":"mechanical-processed-v1","createdAt":"2026-07-22T10:05:00-07:00","inputSha256":"wrong-backfilled-hash"}
+    ]
+  }
+}

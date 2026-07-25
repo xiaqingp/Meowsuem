@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-kk-03-automaton-ship-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:37:47.9868570-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-02/vienna-kk-03-automaton-ship-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "78808ed76022c996af129efe241ebc8293ec06f5e1fda77a3a8747c197c4519e"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-kk-03-automaton-ship/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "3da3de52d3eb55b8e828acf00fb775628a3fdb5ecd9a3439aa0cf82272c7c404"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "09db9684c5612206cdf003581f68153fedd8765e76508b0571b961b7292c6b9a",
+                        "bytes":  10806
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "f8ec66ded1c7c65d8f6f56cb03c31c622da9ea47574faa473b051bdfbd86e885",
+                        "bytes":  199
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "5ca78e23d0b1aaa4a66f3fcef6d3668817cf4d746633c6cb7630262dbdde62f3",
+                        "bytes":  4196
+                    }
+                ]
+}

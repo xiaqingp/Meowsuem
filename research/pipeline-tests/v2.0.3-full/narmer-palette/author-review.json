@@ -1,0 +1,115 @@
+{
+  "artifact": "author-review",
+  "language": "zh-CN",
+  "upstream": {
+    "file": "draft.md",
+    "sha256": "f6d550777f42958b38ce3018d60ddc6bae6692b2e35344d4ee0e5b36c4ce0b88"
+  },
+  "artifactHashes": {
+    "card.txt": "9ca2c4924a32851c881e6ed67e6b9af4aae0857e7ae8d09b3fbff9381dbdc896",
+    "draft.md": "f6d550777f42958b38ce3018d60ddc6bae6692b2e35344d4ee0e5b36c4ce0b88"
+  },
+  "coreQuestion": "为什么纳尔迈要在调色板的两面戴上不同王冠？",
+  "paragraphDependency": [
+    {
+      "paragraph": "30 秒先懂",
+      "dependsOn": "读者能辨认双面、国王与两顶不同王冠。",
+      "newUnderstanding": "上埃及是南部河谷、下埃及是北部三角洲；两冠暂时回答跨两地王权的核心问题。",
+      "breaksIfMovedEarlier": "这是全文入口，无需前置段落。"
+    },
+    {
+      "paragraph": "深层第一段：两冠怎样与名字、尺度和场景共同工作",
+      "dependsOn": "快层已建立两冠的地域对应和政治宣称。",
+      "newUnderstanding": "宣称由两冠、王名、巨大身形、击敌与行列共同构成，不靠单一符号。",
+      "breaksIfMovedEarlier": "若提前，读者尚不知道两冠为何对应南北两地。"
+    },
+    {
+      "paragraph": "深层第二段：统一的渐进历史",
+      "dependsOn": "上一段已展示石板给出的强烈、简洁答案。",
+      "newUnderstanding": "考古重建的统一过程更漫长；图像宣称与历史过程必须分开。",
+      "breaksIfMovedEarlier": "若提前，尚无石板的简洁宣称可供对照。"
+    },
+    {
+      "paragraph": "深层第三段：暴力、神兽与争议",
+      "dependsOn": "上一段已区分政治宣称和历史重建。",
+      "newUnderstanding": "暴力图像能说明王权怎样表现自己，不能锁定具体战役；神兽寓意与 Menes 身份保留争议。",
+      "breaksIfMovedEarlier": "若提前，限制语不能改变已经建立的历史答案。"
+    },
+    {
+      "paragraph": "深层第四段：比较与不可替代性",
+      "dependsOn": "前三段已确定核心价值是形成期跨两地王权的完整表达。",
+      "newUnderstanding": "比较对象可替代动物、武装或战争叙事，不能替代具名纳尔迈、两冠、王名、行列、文字与双面完整度的组合。",
+      "breaksIfMovedEarlier": "若提前，珍贵性会退化成没有核心价值依据的清单。"
+    },
+    {
+      "paragraph": "细节清单与最后一眼",
+      "dependsOn": "深层已解释尺度、王名、器形、复合视角、公牛及史料边界。",
+      "newUnderstanding": "五个核对动作落实抽象判断；沿白冠—王名—红冠复看，同时看见政治宣称的力量与边界。",
+      "breaksIfMovedEarlier": "若提前，细节只剩找图任务，第二眼也尚未被历史与比较改变。"
+    }
+  ],
+  "highRiskClosure": [
+    {
+      "claim": "两冠把纳尔迈表现为跨越上下埃及的统治者。",
+      "evidenceType": "来源事实、双面观察与多源共识",
+      "confidence": "高：两冠对应及同一统治者佩戴两冠有多源支持。",
+      "closure": "保留为图像表现和政治宣称，不写成一次战役的历史证明。"
+    },
+    {
+      "claim": "统一是文化扩展、贸易、中心竞争和多次冲突共同推动的渐进过程。",
+      "evidenceType": "历史重建",
+      "confidence": "高：大都会资料与补充资料明确支持。",
+      "closure": "正文与石板给出的简洁版本分开。"
+    },
+    {
+      "claim": "交颈神兽常被解释为两地受国王控制。",
+      "evidenceType": "竞争性图像学解释",
+      "confidence": "中：解释常见但并非唯一。",
+      "closure": "使用“常被解释”，并明示保留其他可能。"
+    },
+    {
+      "claim": "暴力图像说明王权选择用压倒性的力量表现自己。",
+      "evidenceType": "直接观察加编辑推断",
+      "confidence": "中：图像选择可见，政治功能为有依据推断。",
+      "closure": "未加入人物心理或具体战役名称。"
+    },
+    {
+      "claim": "纳尔迈与 Menes 是否同一人没有定论。",
+      "evidenceType": "学术争议",
+      "confidence": "高：补充资料明确要求保留争议。",
+      "closure": "没有选择任一身份结论。"
+    },
+    {
+      "claim": "稀世珍品及不可替代性。",
+      "evidenceType": "双犬、猎人、战场调色板的同类比较",
+      "confidence": "高：决定性组合差异及未知边界均已记录。",
+      "closure": "承认近似对象存在，不声称世界唯一或同类仅存。"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReadAloud": {
+    "oneBreathParaphrase": "石板让纳尔迈分别戴上南方上埃及的白冠和北方下埃及的红冠，以名字、巨大身形和胜利场景宣称跨两地统治；真实统一是渐进过程，具体战役和 Menes 身份仍有争议。",
+    "translationeseFindings": [],
+    "readAloudCheck": "标题是口语可问的具体问题；快层主语清楚；段落转折自然；抽象判断均落回王冠、名字、动作或历史变化。"
+  },
+  "formulaCounts": {
+    "genericWorthOpening": 0,
+    "firstThenViewingTemplate": 0,
+    "completeNegationTurnSkeleton": 1,
+    "crossSentenceNegationTurn": 0,
+    "quickLayerCopiedIntoCard": 0,
+    "interchangeableEndingCommand": 0
+  },
+  "mechanicalNotes": {
+    "cardVisibleCharacterRange": "正文句在 24—100 个可见字符范围内",
+    "observableDetailCount": 5,
+    "sourceLinksPresent": true,
+    "factBoundaryPresent": true,
+    "historicalContextCovered": "南部河谷上埃及、北部三角洲下埃及、渐进统一、两冠、政治宣称与历史重建分离、Menes 与战役不确定"
+  },
+  "remainingRisks": [
+    "资料包没有实时展出核验，正文已要求以馆方为准。",
+    "稀世珍品判断不能外推为完整全球数量结论。",
+    "神兽寓意、具体战役、仪式操作及 Menes 身份仍不可封闭。"
+  ]
+}

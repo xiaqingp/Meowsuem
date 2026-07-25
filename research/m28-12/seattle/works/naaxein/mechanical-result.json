@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.7.2",
+  "runId": "m28-12-v2.7.2-seattle-author-naaxein-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-25T06:24:44.051Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_availability_from_locked_work_context"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "c64540eb5f9c865be9f4f4067d757ce9fead5cd82a3e20b2f34d17e391fdd5be",
+      "bytes": 10693
+    },
+    {
+      "path": "card.txt",
+      "sha256": "fa6ae82859465750db81d8510bfd2013d46c065604a187b0d01054067bd382c2",
+      "bytes": 499
+    },
+    {
+      "path": "draft.md",
+      "sha256": "072f96008d215c3f09a0a54f26a630f9bd24ab7451091878c9f822fa7de0975c",
+      "bytes": 5130
+    }
+  ]
+}

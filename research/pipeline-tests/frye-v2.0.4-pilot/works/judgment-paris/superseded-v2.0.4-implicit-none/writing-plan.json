@@ -1,0 +1,187 @@
+{
+  "artifactType": "writing_plan",
+  "workId": "judgment-paris",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "museumId": "frye",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "directUpstream": {
+    "filename": "research-card.md",
+    "sha256": "f94156ef75cfac009d4347e282a4d0d13a6573496b9e66a218e9d407405c2154"
+  },
+  "readerBaseline": "读者从标题大致知道这是一场裁决，从画面能看见左侧一名男子面对右侧三名女性；不预设读者认识 Paris、Hera、Athena、Aphrodite、金苹果或特洛伊战争的关系。",
+  "workSpecificQuestion": "为什么一场会引向战争的裁决，被 Stuck 画成几乎没有动作的静止队列？",
+  "quickLayerPromise": {
+    "visibleTension": "故事后果巨大，画面却把 Paris 与三位女神隔开，所有人像被固定在狭浅舞台上。",
+    "provisionalAnswer": "Stuck 把高潮放在决定尚未说出口的观看关系里：Paris 必须比较三位女神，而横向队列让观者也被拉进这场比较。",
+    "viewingRoute": [
+      "左侧单独的 Paris 与右侧三人队列",
+      "双方之间的空隙",
+      "岩壁压缩出的浅空间",
+      "暖色人体与暗灰背景的对照"
+    ]
+  },
+  "cognitionSteps": [
+    {
+      "step": 1,
+      "discovery": "画面把一对三的关系和中间空隙摆得比具体动作更醒目。",
+      "changesUnderstanding": "读者会把它从一般裸体群像改看成一场尚未落槌的比较。",
+      "thereforeNext": "这四个人为什么必须在这里彼此比较？"
+    },
+    {
+      "step": 2,
+      "discovery": "神话中三位女神争夺金苹果，Paris 被要求裁定；Aphrodite 以 Helen 为许诺，选择的后果连到特洛伊战争。",
+      "changesUnderstanding": "静止不再等于没有故事，而成为灾难后果尚未启动的临界时刻。",
+      "thereforeNext": "Stuck 怎样让这个临界时刻持续，而不靠激烈动作？"
+    },
+    {
+      "step": 3,
+      "discovery": "横向队列、轮廓化身体、岩壁般的暗背景和压扁纵深，把人物处理成舞台上的近雕塑形体。",
+      "changesUnderstanding": "裁决被理解为由站位、间隔和观看权力推动，而非由表情或心理说明推动。",
+      "thereforeNext": "这种处理在 Stuck 的生涯与 Frye 收藏里为何值得注意？"
+    },
+    {
+      "step": 4,
+      "discovery": "这是 Stuck 去世前五年的晚期神话画；与 Rubens 同题传统相比，它保留人物与裁决，却把运动和纵深收束为冷静的横向队列。",
+      "changesUnderstanding": "作品的价值落在晚期舞台机制和馆内 Stuck 收藏线，而不是全球同题材的最高地位。",
+      "thereforeNext": "带着这一边界回看，哪一处能把故事、形式与价值同时收拢？"
+    },
+    {
+      "step": 5,
+      "discovery": "Paris 与三位女神之间那段空隙既分开裁决者与被观看者，也让决定显得尚未发生。",
+      "changesUnderstanding": "第二眼会把空白看成全画最有压力的部分，并回收核心问题。",
+      "thereforeNext": "结束。"
+    }
+  ],
+  "forbiddenAssumptions": [
+    "不假设读者已经误认某位女神。",
+    "不凭画面给三位女神从左到右完整排序。",
+    "不写 Paris 犹豫、贪婪、被诱惑或任何内心状态。",
+    "不把观看顺序写成神话事件发生顺序。",
+    "不把画面当作古希腊生活或特洛伊战争的历史记录。",
+    "不把 Frye 策展人的凝视分析写成唯一解释。",
+    "不称本作为全球同题材顶级、唯一或不可替代范本。"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "Paris 正在犹豫或受到诱惑。",
+      "evidenceType": "人物心理；现有来源未证明。",
+      "allowedWording": "Paris 侧身屈腿踏石，面对三位女神。",
+      "forbiddenUpgrade": "由姿态推断犹豫、欲望、焦虑或决定。"
+    },
+    {
+      "claim": "画面呈现选择 Aphrodite 之前的确定瞬间。",
+      "evidenceType": "题材背景加编辑推断。",
+      "allowedWording": "画面把重点停在观看与裁决关系上；可将其理解为决定仍悬而未决。",
+      "forbiddenUpgrade": "宣称画家明确指定了精确时间点或画中尚未作出选择。"
+    },
+    {
+      "claim": "三位女神的完整站位身份。",
+      "evidenceType": "策展来源仅以服饰识别 Athena 与 Hera。",
+      "allowedWording": "策展资料借权杖、冠饰与项链识别 Athena 和 Hera；正文无需逐一排序。",
+      "forbiddenUpgrade": "凭模糊图像自行给三人完整排序。"
+    },
+    {
+      "claim": "Stuck 有意让观众成为裁判。",
+      "evidenceType": "构图观察引出的编辑解释。",
+      "allowedWording": "横向陈列让观者也不得不比较三具身体。",
+      "forbiddenUpgrade": "写成作者明确意图或唯一观看方式。"
+    },
+    {
+      "claim": "本作具有全球不可替代性。",
+      "evidenceType": "重要性比较。",
+      "allowedWording": "它是 Frye 馆内理解 Stuck 晚期群体舞台机制的重要节点；Rubens 同题传统仍可解释同一神话核心。",
+      "forbiddenUpgrade": "稀世珍品、世界级范本、决定行程或全球同题无可替代。"
+    }
+  ],
+  "historicalContextPlan": {
+    "applicable": true,
+    "beforeState": "Hera、Athena 与 Aphrodite 因金苹果所代表的美貌归属发生争夺。",
+    "changeOrConflict": "Paris 被要求在三位女神之间裁定；Aphrodite 许诺 Helen，Paris 的选择由此与后来的特洛伊战争相连。",
+    "objectRole": "1923 年的画作重新讲述神话，把冲突压缩到裁决者面对三位女神的观看关系中；它不是古代事件的记录。",
+    "consequence": "了解后果后，画面的静止与间隔会显出压力：一项看似审美的选择被神话赋予战争后果。",
+    "uncertainty": "现有来源不支持把画面钉死为选择前后的精确一刻，也不支持以单一凝视理论穷尽作品。",
+    "placement": "快层用两句交代争夺、许诺与战争后果；深层第一段展开裁决如何使静止队列获得因果压力。"
+  },
+  "authorStylePlan": {
+    "artist": "弗朗茨·冯·施图克 Franz von Stuck",
+    "careerPosition": "1923 年晚期神话画，作于艺术家去世前五年。",
+    "visibleFeatures": [
+      "横向、近乎平行的队列",
+      "岩壁压缩纵深形成浅舞台",
+      "轮廓清楚、近雕塑式的人体",
+      "暖色人体与暗灰背景对照"
+    ],
+    "interpretiveUse": "这些特征说明 Stuck 如何用站位和轮廓维持裁决压力，并把其贯穿多媒介实践的神话、人体与建筑式整体设计落回本作。",
+    "boundary": "不以流派标签或生平摘要代替眼前形式，也不宣称作者的唯一意图。"
+  },
+  "significancePlan": {
+    "label": "重要藏品",
+    "fiveDimensions": {
+      "artisticAchievement": "中高：横向队列、人物间隔和浅空间把观看与裁决变成清楚的形式机制。",
+      "artHistoricalPosition": "中：延续西方艺术的 Paris 裁决传统，但不是该题材的开创或全球高峰。",
+      "historicalCulturalValue": "中：以现代绘画重述会通向特洛伊战争的神话前史，不是古希腊生活的一手记录。",
+      "rarityAndIrreplaceability": "中：全球同题作品众多；本作不可替代性主要限于 Frye 的 Stuck 收藏线。",
+      "collectionPosition": "高：与《罪 Sin》共同显示 Stuck 的舞台机制如何从单体寓意扩展到群体观看。"
+    },
+    "comparisonCategory": "Judgment of Paris 神话群像",
+    "nearestComparator": "彼得·保罗·鲁本斯 Peter Paul Rubens 的同题构图传统",
+    "sharedCore": "均以 Paris、三位女神以及观看和裁决组织题材。",
+    "decisiveDifference": "Stuck 将人物压成横向、近雕塑式静止队列，空间更浅、更冷；Rubens 传统通常更强调身体扭转、运动和纵深。",
+    "confirmedQuantityOrLowerBound": "不提供数量；现有资料不支持全球存世统计。",
+    "unknownBoundary": "不能确认同题作品总数、全球优劣排序或本作的唯一性。",
+    "irreplaceability": "在 Frye 内，它为 Stuck 的群体观看和晚期浅舞台提供清晰实例；这一馆藏作用不能由《罪》的单体寓意完全替代。",
+    "travelBoundary": "遵守 Frye 72 分边界：称重要藏品，不称稀世珍品、世界级必看或足以决定行程。"
+  },
+  "observableDetails": [
+    "横向画幅把四个人物沿左右展开。",
+    "Paris 单独位于左侧，侧身、屈腿并踏在石面上。",
+    "三位女神在右侧近乎平行岩壁排成一列。",
+    "Paris 与三位女神之间留有明显空隙。",
+    "暗灰岩壁把纵深压得很浅。",
+    "暖色人体从暗灰背景中显出。"
+  ],
+  "secondLook": {
+    "action": "视线不要追逐表情，而在 Paris 与三位女神之间的空隙停一下，再沿四具身体的横向队列移动。",
+    "newJudgment": "那段空白会从普通背景变成裁决尚未落下的压力区：战争后果尚未出现，比较已经开始。"
+  },
+  "cardPlan": {
+    "purpose": "独立回答为何值得点开。",
+    "angle": "以巨大后果与冷静队列的反差概括本作价值。",
+    "constraints": "24—100 个可见字符；不复制快层；不用通用观看命令开头；含双语作者名。"
+  },
+  "draftContract": {
+    "title": "判决帕里斯 / The Judgment of Paris",
+    "artistLine": "弗朗茨·冯·施图克 Franz von Stuck · 德国",
+    "date": "1923",
+    "locationStatus": "Frye Art Museum 创馆收藏；2026-07-22 馆方索引显示在展，到访前以馆方为准",
+    "visitPriority": "强烈推荐",
+    "importance": "重要藏品",
+    "suggestedTime": "赶时间 30 秒；细看 4—6 分钟",
+    "quickVisibleCharacterTarget": "90—180，硬边界 70—240",
+    "deepVisibleCharacterMinimum": 320,
+    "exactChineseSections": [
+      "## N. 中文名 / English Name",
+      "元数据六行",
+      "### 30 秒先懂",
+      "### 多停几分钟，你会看到什么",
+      "对象专属粗体问题标题与递进段落",
+      "**再看这些容易错过的细节**及至少四项动作",
+      "### 最后再看一眼",
+      "**事实边界**与**资料**"
+    ]
+  },
+  "productionLanguageBoundary": {
+    "visitorFiles": ["card.txt", "draft.md"],
+    "forbiddenTopics": [
+      "研究缺口",
+      "图片许可或摄影署名待办",
+      "发布状态或发布待办",
+      "测试、prompt、生成器、reviewer",
+      "版本迁移或内部流程"
+    ],
+    "allowedVisitorBoundary": "只说明神话与历史记录的区别、解释并非唯一、全球数量与排序不能由现有证据确认，以及在展状态易变。",
+    "internalRiskDestination": "author-review.json"
+  },
+  "humorBasis": null
+}

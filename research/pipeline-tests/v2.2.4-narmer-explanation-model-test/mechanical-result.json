@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.2.4",
+  "runId": "m28-2-v2.2.4-narmer-explanation-model-author-2026-07-22",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-23T06:20:55.579Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "54d3ab05fd27126a2437f80ce69aac4a2bc3c924ff256b0ed3c4e910ff43e835",
+      "bytes": 15195
+    },
+    {
+      "path": "card.txt",
+      "sha256": "31bc93cf2b28bda119613dfb099c2a95f3c0d5275e94510985c8cf07eabdffcb",
+      "bytes": 364
+    },
+    {
+      "path": "draft.md",
+      "sha256": "fb9945fd873065a1de6f5bdb36a9e5e2e897dca84aef8e18af0a3fe441c03ebe",
+      "bytes": 6750
+    }
+  ]
+}

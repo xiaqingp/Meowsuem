@@ -1,0 +1,42 @@
+{
+  "runId": "m28-12-v2.7.2-seattle-author-narragansett-bay-2026-07-24",
+  "startedAt": "2026-07-24T00:00:00-07:00",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card",
+  "museumId": "seattle",
+  "workId": "narragansett-bay",
+  "inputContractVersion": 2,
+  "pipelineVersion": "2.7.2",
+  "instructionVersion": "2.1.1",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c7931d34e1f54dde5c43336acc50f7fb7ac380cfe7bed7ca27ea0e01f2cf4aa6"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "8c08c30f9d915a8942ed605287f7993a6514742c8f895b427876a6ffabb3fda2"
+    },
+    {
+      "path": "research/m28-12/seattle/research-batch-01/narragansett-bay-research-card.md",
+      "role": "research_card",
+      "sha256": "ff9c497f0ca53a1dc29d2e20cb4d1db8a6c10c7575837667882df757086fb31a"
+    },
+    {
+      "path": "research/m28-12/seattle/works/narragansett-bay/work-context.json",
+      "role": "work_context",
+      "sha256": "50c6d608ec7c4e94d98ccc4d908bc58d08e95c77f3d626f74f6369e3480b8bf4"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "candidate_then_atomic_production_write"
+}

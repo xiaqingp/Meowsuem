@@ -1,0 +1,186 @@
+{
+  "reviewType": "fresh-independent-review",
+  "workId": "critical-point",
+  "reviewerIndependence": {
+    "participatedInAuthoring": false,
+    "authorArtifactsEdited": false,
+    "restrictedInputSetObserved": true
+  },
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "56362fc67df917f3daf6589c598c2f495b1c7ee3a5406881ce8637fa55a4e04b"
+  },
+  "actualSha256": {
+    "research-card.md": "d137ea2fb53233df7e8a7f0726c06c229138aa7319e169e8878498346caf2d23",
+    "writing-plan.json": "80c4e4e5aed243ac26dd48d7ec836336843eda5dc68841f957b18a5370d26993",
+    "card.txt": "c79d9f60057c944a2a81015cdff730f8d4ee250f9b1971b617d7195212c85888",
+    "draft.md": "56362fc67df917f3daf6589c598c2f495b1c7ee3a5406881ce8637fa55a4e04b"
+  },
+  "directUpstreamChain": {
+    "verdict": "PASS",
+    "complete": true,
+    "links": [
+      {
+        "artifact": "research-card.md",
+        "declaredDirectUpstream": "../../batch-02/source-pack.md",
+        "declaredSha256": "fa667b11415c1864ad81b1d3dce35169ed237d29167dceb9e1465cf7a81d75ea",
+        "actualSha256": "fa667b11415c1864ad81b1d3dce35169ed237d29167dceb9e1465cf7a81d75ea",
+        "matches": true
+      },
+      {
+        "artifact": "writing-plan.json",
+        "declaredDirectUpstream": "research-card.md",
+        "declaredSha256": "d137ea2fb53233df7e8a7f0726c06c229138aa7319e169e8878498346caf2d23",
+        "actualSha256": "d137ea2fb53233df7e8a7f0726c06c229138aa7319e169e8878498346caf2d23",
+        "matches": true
+      },
+      {
+        "artifact": "card.txt",
+        "declaredDirectUpstream": "writing-plan.json",
+        "declaredSha256": "80c4e4e5aed243ac26dd48d7ec836336843eda5dc68841f957b18a5370d26993",
+        "actualSha256": "80c4e4e5aed243ac26dd48d7ec836336843eda5dc68841f957b18a5370d26993",
+        "matches": true
+      },
+      {
+        "artifact": "draft.md",
+        "declaredDirectUpstream": "card.txt",
+        "declaredSha256": "c79d9f60057c944a2a81015cdff730f8d4ee250f9b1971b617d7195212c85888",
+        "actualSha256": "c79d9f60057c944a2a81015cdff730f8d4ee250f9b1971b617d7195212c85888",
+        "matches": true
+      }
+    ]
+  },
+  "mechanicalChecks": {
+    "verdict": "FAIL",
+    "cardVisibleCharacters": 38,
+    "cardRequiredRange": "24-100",
+    "cardLengthPass": true,
+    "quickVisibleCharacters": 116,
+    "quickRequiredRange": "70-240",
+    "quickLengthPass": true,
+    "deepVisibleCharacters": 896,
+    "deepMinimum": 320,
+    "deepLengthPass": true,
+    "observableDetailCount": 5,
+    "observableDetailMinimum": 4,
+    "observableDetailPass": true,
+    "dualLayerPresent": true,
+    "specificSecondLookPresent": true,
+    "clickableSourceCount": 2,
+    "metadataComplete": false,
+    "metadataFailure": "draft.md 未列研究卡已经确认的材质“布面油画”，未满足完整元数据硬门。"
+  },
+  "cardQuickDeepIndependence": {
+    "verdict": "PASS",
+    "cardIndependent": true,
+    "quickIndependentWithoutDeep": true,
+    "deepIndependentWithoutQuick": true,
+    "evidence": "卡片独立回答点击价值；快层给出棋盘、视线、手势与暂停机制；深层自行重建核心问题、观察依据、比较和价值边界，三者没有逐句摘抄。"
+  },
+  "claimAudit": {
+    "verdict": "FAIL",
+    "supportedBoundaries": [
+      "作者、年代范围、创始收藏、当前 On View 及展陈可变边界与资料包一致。",
+      "棋盘位于下部中央、多名男子围桌、视线与手势集中、室内陈设密集均属于资料包允许的直接观察。",
+      "与《雕塑家的工作室》的相同机制、关键差异和不可替代性限制与资料包一致。",
+      "正文没有指定棋种、具体局面、胜者或人物心理。"
+    ],
+    "unsupportedClaims": [
+      {
+        "location": "card.txt 与 draft.md 的 30 秒先懂",
+        "claim": "落子前的停顿 / 落子前的暂停",
+        "reason": "证据只支持一个暂停动作，不能确认这是落子之前；写作计划也明确禁止把观看到的停顿升级成事件先后。"
+      },
+      {
+        "location": "draft.md 的 30 秒先懂",
+        "claim": "原本只属于桌边两人的局面",
+        "reason": "这把两名人物认定为对弈者并赋予局面关系；研究卡和写作计划明确禁止假设谁是对弈者及人物关系。"
+      }
+    ],
+    "unplannedHighRiskClaimsEmpty": false
+  },
+  "paragraphDependency": {
+    "verdict": "FAIL",
+    "coreQuestion": "为什么一盘几乎没有动作的棋，能让整间屋子都紧张起来？",
+    "finding": "“旁观者怎样把一次停顿放大？”与“室内的物件为什么也在讲故事？”两段都只依赖第一段已经建立的注意力中心；二者对调后，各自的论证仍基本完整，没有丢失必要前提。深层因此仍呈现可交换的机制栏目，未通过重排硬门。",
+    "workSpecificity": "各段持续落在棋盘、围桌人物、手势、陈设及同作者比较上；对象专属性本身成立。"
+  },
+  "nativeChineseReadAloud": {
+    "verdict": "PASS",
+    "oneBreathParaphrase": "这幅画用棋盘周围所有人的视线、手势和拥挤陈设，把一个静止的棋局变成全屋共同参与的小戏剧。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "note": "标题、快层和段落转折可以自然复述；少数偏书面的构图词没有达到翻译腔硬门。"
+  },
+  "significanceAssessment": {
+    "verdict": "PASS",
+    "label": "特色看点",
+    "fiveDimensions": {
+      "artisticAchievement": "以低处的小棋盘、汇流视线和不同距离的手势控制群体注意力，具体且与作品可见机制相连。",
+      "artHistoricalPosition": "明确限定为成熟的室内风俗画方法，不宣称开创类型、代表作或生涯高峰。",
+      "historicalCulturalValue": "只把它作为十九世纪末室内社交风俗画的可读样本，不当作具体棋局或人物关系的历史记录。",
+      "rarityAndIrreplaceability": "明确承认同作者近例可以解释相同核心机制，稀缺性和全球不可替代性不成立。",
+      "collectionPosition": "具体说明其为 Frye 创始收藏中的美国风俗画样本，馆藏回报清楚但有限。"
+    },
+    "nearestComparator": "Louis Moeller, Sculptor’s Studio, The Metropolitan Museum of Art",
+    "sharedCoreValue": "室内群体与物件共同引导叙事。",
+    "decisiveDifference": "Frye 作品把注意力集中于棋盘暂停点，比较作突出工作室身份与收藏陈设。",
+    "nonSubstitutabilityBoundary": "差异提供本作特有的观看回报，但不足以证明全球不可替代性；这与 Frye 72 分边界一致。"
+  },
+  "voiceScores": {
+    "entry": {
+      "score": 2,
+      "evidence": "“画面最响亮的地方，偏偏没有动作”立即建立静止与紧张的具体矛盾。"
+    },
+    "causality": {
+      "score": 2,
+      "evidence": "正文从棋盘的低位与小面积，推进到视线和手势汇流，再解释旁观者与陈设如何放大停顿。"
+    },
+    "human": {
+      "score": 2,
+      "evidence": "“人物没有做同一个动作，却被同一块棋盘拴在一起”用群体的朝向与动作解释社交戏剧，同时避免偷写心理。"
+    },
+    "turn": {
+      "score": 1,
+      "evidence": "从私人对弈的假设转向群体构图、再用比较对象收窄价值，确有认知变化；但中间两段依赖不足，转折未形成不可调换的推进。"
+    },
+    "visualPayoff": {
+      "score": 2,
+      "evidence": "论述反复回到棋盘位置、逐张脸的视线、手与桌沿的距离、围桌形状和密集陈设。"
+    },
+    "oralClarity": {
+      "score": 2,
+      "evidence": "“正因为结果悬着，观者才会跟着他们一起等待”等句子主语、因果和对象清楚，连续朗读自然。"
+    },
+    "secondLook": {
+      "score": 2,
+      "evidence": "结尾要求把目光落在棋盘附近的手上，再沿每个人的视线绕回盘面，以具体动作复核群体共同维持的停顿。"
+    },
+    "total": 13,
+    "maximum": 14,
+    "thresholdMet": true,
+    "noZero": true,
+    "verdict": "PASS"
+  },
+  "mechanicalVerdict": "FAIL",
+  "factBoundaryVerdict": "FAIL",
+  "narrativeVerdict": "FAIL",
+  "nativeChineseVerdict": "PASS",
+  "significanceVerdict": "PASS",
+  "workSpecificVerdict": "PASS",
+  "productionLanguageVerdict": "PASS",
+  "productionLanguageScan": {
+    "visitorProseScanned": [
+      "card.txt",
+      "draft.md"
+    ],
+    "forbiddenInternalProductionLanguageFound": []
+  },
+  "actionableFailureReasons": [
+    "在元数据中补齐研究卡已确认的材质；当前缺少“布面油画”。",
+    "删除或收窄 card.txt 与快层中未经证据支持的“落子前”时间先后断言，只保留资料能够确认的暂停边界。",
+    "删除或收窄快层把场面认定为“只属于桌边两人”的关系断言；现有证据不能确认谁是棋手。",
+    "重组深层，使旁观者与室内物件两段中的后段必须依赖前段新增的认识；当前二者可以对调而不损害理解。"
+  ],
+  "finalVerdict": "FAIL"
+}

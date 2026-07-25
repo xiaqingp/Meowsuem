@@ -1,0 +1,163 @@
+{
+  "reviewType": "fresh_independent_reviewer",
+  "workId": "sin",
+  "run": {
+    "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+    "museumId": "frye",
+    "pipelineVersion": "2.0.4",
+    "instructionVersion": "1.6.8"
+  },
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "52d2236ba5fb5a09b8521e9407ec6a75d9850f77c1d04d8da3aac5bc05f6dc1c"
+  },
+  "artifactHashes": {
+    "research-card.md": "f939f6bc2e9ab15bcd7f5b398f9b92fc8be8c7db9125e478a2c8ff8ecb81ca14",
+    "writing-plan.json": "f18465132d216b3ed8ad2155165e075fe7c1fd7508ffe92e12816abeed56deb0",
+    "card.txt": "e994d94c62d5300c7577e5f652be4002399334cce1ee8823894a3e9e7c80861a",
+    "draft.md": "52d2236ba5fb5a09b8521e9407ec6a75d9850f77c1d04d8da3aac5bc05f6dc1c"
+  },
+  "upstreamChainVerification": {
+    "verdict": "PASS",
+    "completeChain": "batch-01/source-pack.md -> research-card.md -> writing-plan.json -> card.txt -> draft.md -> independent-review.json",
+    "links": [
+      {
+        "downstream": "research-card.md",
+        "declaredUpstream": "../../batch-01/source-pack.md",
+        "declaredSha256": "1b14092fcb94d8fc908227917e92dabf0175f01cb5e1853b2d42d724ecd66e3e",
+        "actualSha256": "1b14092fcb94d8fc908227917e92dabf0175f01cb5e1853b2d42d724ecd66e3e",
+        "matches": true
+      },
+      {
+        "downstream": "writing-plan.json",
+        "declaredUpstream": "research-card.md",
+        "declaredSha256": "f939f6bc2e9ab15bcd7f5b398f9b92fc8be8c7db9125e478a2c8ff8ecb81ca14",
+        "actualSha256": "f939f6bc2e9ab15bcd7f5b398f9b92fc8be8c7db9125e478a2c8ff8ecb81ca14",
+        "matches": true
+      },
+      {
+        "downstream": "card.txt",
+        "declaredUpstream": "writing-plan.json",
+        "declaredSha256": "f18465132d216b3ed8ad2155165e075fe7c1fd7508ffe92e12816abeed56deb0",
+        "actualSha256": "f18465132d216b3ed8ad2155165e075fe7c1fd7508ffe92e12816abeed56deb0",
+        "matches": true
+      },
+      {
+        "downstream": "draft.md",
+        "declaredUpstream": "card.txt",
+        "declaredSha256": "e994d94c62d5300c7577e5f652be4002399334cce1ee8823894a3e9e7c80861a",
+        "actualSha256": "e994d94c62d5300c7577e5f652be4002399334cce1ee8823894a3e9e7c80861a",
+        "matches": true
+      }
+    ]
+  },
+  "mechanicalChecks": {
+    "cardVisibleCharacters": 43,
+    "cardRequiredRange": "24-100",
+    "cardLengthPassed": true,
+    "quickVisibleCharacters": 131,
+    "quickRequiredRange": "70-240",
+    "quickLengthPassed": true,
+    "deepVisibleCharacters": 800,
+    "deepRequiredMinimum": 320,
+    "deepLengthPassed": true,
+    "observableDetailCount": 5,
+    "observableDetailMinimum": 4,
+    "observableDetailsPassed": true,
+    "clickableSourceCount": 3,
+    "requiredSectionsPresent": true,
+    "fullNegationTurnSkeletonCountOutsideFactBoundary": 1,
+    "negationTurnLimitPassed": true,
+    "productionLanguageHitCount": 0
+  },
+  "mechanicalVerdict": {
+    "verdict": "PASS",
+    "evidence": "卡片 43 个可见字符，快层 131 个，深层 800 个；五项现场细节、对象专属最后一眼、完整元数据和三个可点击来源均具备。访客正文仅有一处完整否定—转折骨架。"
+  },
+  "factBoundaryVerdict": {
+    "verdict": "FAIL",
+    "evidence": "source-pack.md 的直接观察只支持‘女子与蛇的眼睛形成两个亮点’，research-card.md 也只写‘女子与蛇眼形成亮点’；draft.md 却反复写成‘四只眼睛’、‘四个亮点’，并称女子双眼与蛇眼都在暗处发亮。这把受限的视觉观察升级成了供应证据未支持的精确数量。其余身份、年代、媒材、版本区间、比较对象、较晚版本、非唯一边界、在展易变边界以及不把人物写成夏娃或偷写心理，均在证据范围内。",
+    "actionableFailureReasons": [
+      "把快层、深层细节和最后一眼中的‘四只眼睛／四个亮点’收窄到供应证据实际支持的观察；在没有新增并封存可靠图像核验前，不得保留精确的四点计数。"
+    ]
+  },
+  "narrativeVerdict": {
+    "verdict": "PASS",
+    "evidence": "核心问题始终是女人与蛇为何共同朝向观众。第一段建立凝视关系，第二段依赖该关系解释身体、蛇身、暗部与画框如何组成整体，第三段再依赖已建立的形式方案进入版本比较并校准价值；将比较段提前会失去需要比较的形式前提。快层先给完整答案，深层解释其成立机制，最后一眼回收同一问题并要求暂时忽略标题后复看。"
+  },
+  "nativeChineseVerdict": {
+    "verdict": "PASS",
+    "oneBreathParaphrase": "这幅画把女人、蛇、黑暗和金框组织成一次朝向观众的对视，而 Frye 这件虽不是唯一版本，仍能让人看清施图克反复经营这套象征主义构图的方法。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "evidence": "标题、快层和三段转折连续朗读自然，主语与关系清楚；‘答案藏在身体怎样被显露出来’略带书面修辞，但不构成需先解码的翻译腔。"
+  },
+  "significanceVerdict": {
+    "verdict": "PASS",
+    "label": "重要藏品",
+    "fiveDimensionAssessment": {
+      "artisticAchievement": "通过窄竖幅、近黑色域、横向蛇身、凝视与建筑式画框的整体组织，具体说明形式与表现力。",
+      "artHistoryAndArtistCareer": "把作品放在 Stuck 1891—1912 年反复处理的标志性象征主义母题中，并明确 Frye 件约 1908 年、属较晚版本。",
+      "historicalCulturalValue": "价值主要来自象征主义寓意与图像机制，不依赖具体历史事件或一手历史见证；正文没有为补足此维度而虚构事件。",
+      "scarcityAndIrreplaceability": "明确存在多个近似版本、总数不明、稀缺性中低；不以唯一性成立。",
+      "museumCollectionPosition": "明确说明它是 Frye 创馆收藏中连接 Stuck 与慕尼黑象征主义的锚点之一。"
+    },
+    "comparisonCategory": "Franz von Stuck 的象征主义‘罪／蛇与女人’母题版本",
+    "nearestComparator": "Neue Pinakothek，Franz von Stuck，1893 年《Die Sünde》",
+    "nonSubstitutabilityBoundary": "1893 年比较件能够解释同一成熟母题，因此 Frye 件不具全球不可替代性；Frye 件的不可替代边界仅是其较晚版本的具体媒材、画框、色调与本馆收藏叙事。该边界足以支持‘重要藏品’，不足以升级为‘稀世珍品’或旅行目的。"
+  },
+  "workSpecificVerdict": {
+    "verdict": "PASS",
+    "evidence": "蛇横跨双肩、蛇头向右前、近黑背景、窄竖幅、建筑式金框、多个《罪》版本及 Neue Pinakothek 1893 比较件共同锁定本作；遮去作品名后仍可辨认，段落与结尾不能原样移植到一般象征主义肖像。"
+  },
+  "productionLanguageVerdict": {
+    "verdict": "PASS",
+    "evidence": "卡片、快层、深层、最后一眼、事实边界和资料行均未出现研究缺口、图片许可待办、发布任务、测试、prompt、生成器、reviewer、版本迁移或发布前补核等内部生产语言。"
+  },
+  "layerIndependence": {
+    "verdict": "PASS",
+    "card": "独立回答值得点开的原因，以代表性母题、共同凝视和金框整体设计建立价值，没有用导览口令开场，也不是快层原句摘录。",
+    "quick": "不依赖深层即可说明为何值得看，并给出沿蛇身、脸与上身、金框核对的观看路径。",
+    "deep": "删去快层后仍有完整核心问题、形式机制、版本比较、馆藏价值、五项细节与第二眼。"
+  },
+  "voiceScores": {
+    "entrance": {
+      "score": 2,
+      "evidence": "‘黑暗几乎抹去了环境，女子的双眼和蛇眼却同时亮着’立即建立本作特有的明暗与凝视问题，不是作者年代式百科开头。"
+    },
+    "causality": {
+      "score": 2,
+      "evidence": "正文从凝视为何成立，推进到蛇身、暗部与金框怎样把人物锁成整体，再说明多个版本为何把价值判断从唯一性转向长期调整的视觉方案。"
+    },
+    "human": {
+      "score": 1,
+      "evidence": "本作不依赖制度史或历史事件，正文也正确避免虚构人物心理；人的维度主要体现为观众被纳入对视和 Stuck 长期反复处理母题，但缺少可由现有证据进一步展开的具体选择。"
+    },
+    "turn": {
+      "score": 2,
+      "evidence": "‘眼前作品不是靠“只有这一件”获得价值’由多个版本及 1893 比较件支撑，把最初的强烈现场印象转成对成熟方案和馆内作用的判断。"
+    },
+    "visualPayoff": {
+      "score": 2,
+      "evidence": "每一步都回到窄竖幅、蛇身横线、右侧蛇头、暗部显露和金色框；事实与比较最终改变这些可见部分的读法。"
+    },
+    "spokenClarity": {
+      "score": 2,
+      "evidence": "‘蛇的横向弧线把女子的双肩扣在一起，又以右侧蛇头打破人体近乎正面的稳定’可直接口头复述，转折和指代连续清楚。"
+    },
+    "secondLook": {
+      "score": 2,
+      "evidence": "结尾要求先暂时忽略标题，在眼睛、蛇身与金框内缘之间复看，再用标题检验寓意如何从具体形式成立，认知动作比开头更进一步。"
+    },
+    "total": 13,
+    "maximum": 14,
+    "threshold": 12,
+    "hasZero": false,
+    "verdict": "PASS"
+  },
+  "hardGateFailures": [
+    "事实边界硬门失败：供应证据只确认两个眼部亮点，正文却三处升级为四只眼睛／四个亮点。"
+  ],
+  "finalVerdict": "FAIL",
+  "finalReason": "声音评分 13/14 且无零分，机械、叙事、中文、重要性、对象专属性和生产语言门均通过；但精确视觉数量超出供应证据边界，触发共享事实硬门，因此最终必须 FAIL。"
+}

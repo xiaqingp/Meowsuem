@@ -1,0 +1,240 @@
+{
+  "instructionVersion": "1.6.7",
+  "sourcePack": "research/generation-tests/v1.6.1-two-work-source-pack.md",
+  "sourceAddendum": "research/generation-tests/v1.6.7-two-work-source-addendum.md",
+  "reviews": [
+    {
+      "workId": "hunters",
+      "coreQuestion": "为什么一场收获寒酸的狩猎，最后让人记住的却是整个冬天？",
+      "quickLayerIndependent": true,
+      "deepLayerIndependent": true,
+      "finalReturnsToQuestion": true,
+      "paragraphDependencies": [
+        {
+          "paragraph": "猎人回来了，晚饭却跑了｜两段",
+          "dependsOn": "读者先看到最近、最大的猎人",
+          "newUnderstanding": "狐狸、兔踪与狗群共同支持狩猎不成功，人物内心仍无需虚构",
+          "breaksIfMovedEarlier": "它必须先建立故事为何从猎人开始"
+        },
+        {
+          "paragraph": "顺着山坡，故事突然变大｜两段",
+          "dependsOn": "归猎结果已清楚，背影与斜坡把目光送远",
+          "newUnderstanding": "远处日常没有停下，冬天开始取代猎人成为容纳故事的主角",
+          "breaksIfMovedEarlier": "没有近处失败，远处热闹只是一串细节"
+        },
+        {
+          "paragraph": "为什么一幅画要管两个月｜两段",
+          "dependsOn": "文章已经需要解释冬天为何成为主角",
+          "newUnderstanding": "六季委托与月份传统解释内容规模，勃鲁盖尔又把重点从活动转向风景气氛",
+          "breaksIfMovedEarlier": "若先讲传统，会成为与观看无关的背景"
+        },
+        {
+          "paragraph": "勃鲁盖尔到底厉害在哪｜两段",
+          "dependsOn": "传统与改变已明确",
+          "newUnderstanding": "高视点、细节、组合山谷和冷色说明作者怎样让天气管全场",
+          "breaksIfMovedEarlier": "没有前文的历史变化，风格分析会成为孤立栏目"
+        },
+        {
+          "paragraph": "已经有另外四季，为什么还非看这一幅｜两段",
+          "dependsOn": "作品怎样改变季节画已经成立",
+          "newUnderstanding": "兄弟作品可替代一般方法，不能替代冬季节点和寒冷成为主角的成就",
+          "breaksIfMovedEarlier": "在理解方法前谈珍贵，只剩名次"
+        },
+        {
+          "paragraph": "最后再看一眼",
+          "dependsOn": "兔踪、狐狸、冰面、月份传统和作者方法均已建立",
+          "newUnderstanding": "一次归猎和一个下午被整个季节包围，主角完成转移",
+          "breaksIfMovedEarlier": "缺少多种时间尺度时，结尾无法成立"
+        }
+      ],
+      "highRiskClaimReview": [
+        {
+          "sentence": "这趟狩猎，成绩确实不太好看。",
+          "evidenceType": "high_confidence_editorial_synthesis",
+          "sourceOrBasis": "KHM 的单只狐狸与疲惫狗群，加 Smarthistory 的兔踪、失败狩猎分析形成多项同向证据",
+          "confidence": "高：一个馆方对象页与一个独立艺术史教育来源共同支持，断言只评价狩猎结果，不读取人物内心",
+          "verdict": "passed"
+        },
+        {
+          "sentence": "至少有一份晚餐刚刚跑掉。",
+          "evidenceType": "grounded_humor_from_observation",
+          "sourceOrBasis": "Smarthistory 识别前景兔踪并解释为猎物刚逃走；晚餐为轻微口语化转述",
+          "confidence": "中高：兔踪含义有可靠解释，晚餐是非字面幽默，不承担历史事实",
+          "verdict": "passed"
+        },
+        {
+          "sentence": "大都会指出，他关注的不再只是每季该做什么，而是风景本身的气氛与变化。",
+          "evidenceType": "attributed_art_historical_interpretation",
+          "sourceOrBasis": "The Met Heilbrunn Timeline 对 Seasons 系列的明确分析",
+          "confidence": "高：具名艺术史机构的直接判断且正文保留归因",
+          "verdict": "passed"
+        },
+        {
+          "sentence": "这片山谷看起来可信，却不是尼德兰某处实景。",
+          "evidenceType": "source_fact_and_visual_analysis",
+          "sourceOrBasis": "Smarthistory 明确说明尼德兰低地与阿尔卑斯山经验被组合",
+          "confidence": "高：直接研究说明与地理事实一致",
+          "verdict": "passed"
+        },
+        {
+          "sentence": "KHM 进一步称它为欧洲绘画中第一幅、也是最突出的冬季风景画。",
+          "evidenceType": "attributed_bounded_superlative",
+          "sourceOrBasis": "KHM 作品页原文，正文明确限定欧洲绘画和机构归因",
+          "confidence": "高：强断言来自直接收藏机构判断，比较范围未扩张",
+          "verdict": "passed"
+        },
+        {
+          "sentence": "冬季节点却只由眼前这幅保存。",
+          "evidenceType": "comparative_source_fact",
+          "sourceOrBasis": "KHM、The Met 与 Smarthistory 的五幅现存季节组画清单",
+          "confidence": "高：多个独立机构列出的现存组画一致",
+          "verdict": "passed"
+        }
+      ],
+      "unplannedHighRiskClaims": [],
+      "voiceEvidence": {
+        "entrance": "一只狐狸加兔踪，立刻把狩猎结果说清；远处生活制造真实反差。",
+        "cognitiveTurn": "狩猎结果推动视线进入山谷，季节尺度再要求组画传统和作者方法，最后才能谈不可替代性。",
+        "humor": "成绩单、晚餐跑掉和地图式观看都来自可见事实，删除笑点后因果仍成立。",
+        "secondLook": "兔踪、狐狸和冰面依次扩大时间尺度，最终让冬天接管主角。"
+      },
+      "verdict": "passed",
+      "nativeChineseReview": {
+        "oneBreathParaphrase": "猎人打猎没什么收获，山坡却把我们带进一个仍在照常生活的冬天；勃鲁盖尔真正厉害的是让天气接管所有人。",
+        "translationeseFindings": [],
+        "readAloudVerdict": "passed"
+      },
+      "historicalContextReview": {
+        "verdict": "passed",
+        "evidence": "正文在猎人与山谷之后交代月份图像传统、六季委托和勃鲁盖尔把重点转向风景气氛的变化，历史背景解释了艺术方法，没有抢在观看问题之前。"
+      }
+    },
+    {
+      "workId": "narmer",
+      "coreQuestion": "为什么纳尔迈要在石板两面戴上不同王冠？",
+      "quickLayerIndependent": true,
+      "deepLayerIndependent": true,
+      "finalReturnsToQuestion": true,
+      "paragraphDependencies": [
+        {
+          "paragraph": "白冠在南，红冠在北｜三段",
+          "dependsOn": "快层已经指出两冠对应南北",
+          "newUnderstanding": "读者先弄清上下埃及的地理、两种王冠、纳尔迈所处年代与 Menes 争议",
+          "breaksIfMovedEarlier": "这是后文讨论统一宣言的历史前提，不能被移到形式分析之后"
+        },
+        {
+          "paragraph": "统一花了很久，石板只用两面｜三段",
+          "dependsOn": "南北地理与王冠意义已经明确",
+          "newUnderstanding": "统一是渐进过程，石板却用击敌和胜利行列给出简洁政治答案",
+          "breaksIfMovedEarlier": "不知道两冠对应什么，就无法理解两面为何与统一有关"
+        },
+        {
+          "paragraph": "国王为什么比所有人都大｜两段",
+          "dependsOn": "统一宣言的内容已经建立",
+          "newUnderstanding": "尺寸、分层和复合视角解释这份宣言为何无需识字也能读懂",
+          "breaksIfMovedEarlier": "先讲形式会重演旧版只讲视觉语法、忽略历史主线的问题"
+        },
+        {
+          "paragraph": "化妆用的调色板，为什么进了神庙｜两段",
+          "dependsOn": "政治信息怎样读懂已经成立",
+          "newUnderstanding": "尺寸、双面雕刻和神庙出土解释作品为何从生活工具变成仪式物",
+          "breaksIfMovedEarlier": "没有前文的统一宣言，器物史会成为旁支"
+        },
+        {
+          "paragraph": "有类似作品，这一件为什么仍然无可替代｜两段",
+          "dependsOn": "器形与怪兽来自共享传统",
+          "newUnderstanding": "比较对象能替代调色板家族背景，无法替代本作在统一节点集中保存的王名、两冠和双面叙事",
+          "breaksIfMovedEarlier": "未先建立共同传统，就无法说明决定性差异"
+        },
+        {
+          "paragraph": "最后再看一眼",
+          "dependsOn": "南北统一、两项王权工作、视觉等级、仪式语境和比较均已成立",
+          "newUnderstanding": "两次出场分别负责胜利与秩序，合起来宣布整个埃及归于一人",
+          "breaksIfMovedEarlier": "缺少历史背景时，只会重复国王出现两次"
+        }
+      ],
+      "highRiskClaimReview": [
+        {
+          "sentence": "大约五千年前，尼罗河南部的上埃及与北部三角洲的下埃及，正逐渐合成一个王国。",
+          "evidenceType": "scholarly_historical_synthesis",
+          "sourceOrBasis": "The Met 对物质文化扩展和多次冲突的渐进国家形成说明；UCL 对公元前3000年前后统一与王权出现的概述",
+          "confidence": "高：两个独立学术机构支持，正文用“逐渐”避免单次征服模型",
+          "verdict": "passed"
+        },
+        {
+          "sentence": "这是现存最早让同一位国王佩戴两种王冠的图像。",
+          "evidenceType": "bounded_scholarly_superlative",
+          "sourceOrBasis": "Smarthistory 与 UCL Digital Egypt 均明确给出 earliest/first preserved depiction",
+          "confidence": "高：两个独立来源一致，比较范围限定为现存图像",
+          "verdict": "passed"
+        },
+        {
+          "sentence": "南北两地，现在都归这个人管。",
+          "evidenceType": "plain_language_summary_of_image_claim",
+          "sourceOrBasis": "两冠、王名、击敌与胜利行列；Smarthistory 的统一解释和UCL王权背景",
+          "confidence": "高：这是图像政治宣言的口语总结，不声称真实行政控制在某日完成",
+          "verdict": "passed"
+        },
+        {
+          "sentence": "多数学者把他视为第一王朝的首位国王，也有人把他放在第一王朝之前的“第零王朝”。",
+          "evidenceType": "qualified_scholarly_consensus",
+          "sourceOrBasis": "UCL Digital Egypt Narmer chronology",
+          "confidence": "高：来源直接陈述多数与少数分类",
+          "verdict": "passed"
+        },
+        {
+          "sentence": "后世把统一埃及的第一位国王称作 Menes，但 Menes 究竟是不是纳尔迈，至今没有定论。",
+          "evidenceType": "qualified_identity_history",
+          "sourceOrBasis": "UCL Digital Egypt Menes and Narmer pages",
+          "confidence": "高：来源明确说明认同提议及高度不确定性",
+          "verdict": "passed"
+        },
+        {
+          "sentence": "所以它可能纪念过真实胜利，也可能主要是一件关于统一的仪式宣言。",
+          "evidenceType": "balanced_interpretive_boundary",
+          "sourceOrBasis": "Smarthistory 并列历史叙事与仪式统一两种主要解释",
+          "confidence": "高：直接呈现学术分歧，不选择未经证明的唯一答案",
+          "verdict": "passed"
+        },
+        {
+          "sentence": "它已经是一件献给神的仪式物，没人会每天抱着这么大一块石头磨眼影。",
+          "evidenceType": "scholarly_function_plus_grounded_humor",
+          "sourceOrBasis": "Smarthistory 的 ritual item dedicated to a god；Narmer Catalog 神庙区发现位置与尺寸",
+          "confidence": "高：两个来源相互支持，幽默只强调非日用品尺度",
+          "verdict": "passed"
+        },
+        {
+          "sentence": "连王权仪式也有人负责鞋，宏大历史旁边仍有一个具体职位。",
+          "evidenceType": "grounded_humor",
+          "sourceOrBasis": "British Museum 确认提鞋侍从与神庙行列，Smarthistory确认仪式物",
+          "confidence": "高：人物身份、行列地点和器物性质相互支持",
+          "verdict": "passed"
+        },
+        {
+          "sentence": "但没有哪件比较对象同时保住这些内容：纳尔迈王名、白冠与红冠、早期文字、国王击敌、胜利行列，以及前后两面大体完整的叙事。",
+          "evidenceType": "bounded_comparative_claim",
+          "sourceOrBasis": "双犬、猎人、战场调色板机构记录与本件要素逐项比较",
+          "confidence": "高：比较对象和差异逐项列明，未扩大到所有未发现物",
+          "verdict": "passed"
+        }
+      ],
+      "unplannedHighRiskClaims": [],
+      "voiceEvidence": {
+        "entrance": "两顶不同王冠直接引出南北埃及统一，不先抛出视觉语法。",
+        "cognitiveTurn": "先解释南北与统一，再看石板如何简化历史，随后才说明尺寸、器形和同类比较。",
+        "humor": "地图上下相反、最大号字体、磨眼影和负责鞋都依附具体事实。",
+        "secondLook": "白冠与红冠重新合在一起，回答为何同一国王必须出现两次。"
+      },
+      "verdict": "passed",
+      "nativeChineseReview": {
+        "oneBreathParaphrase": "埃及南北逐渐统一时，纳尔迈在石板两面分别戴上南北王冠；石板把漫长历史讲成国王打赢敌人、接管秩序的两幅画。",
+        "translationeseFindings": [],
+        "readAloudVerdict": "passed"
+      },
+      "historicalContextReview": {
+        "verdict": "passed",
+        "evidence": "快层直接交代上埃及、下埃及与统一；深层前三段说明地理、两冠、纳尔迈年代、Menes争议、渐进统一及两种图像解释，随后才进入形式、仪式和比较。"
+      }
+    }
+  ]
+}

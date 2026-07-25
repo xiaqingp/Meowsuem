@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.4.2",
+  "runId": "m28-3-chichu-author-time-timeless-2026-07-23",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T03:08:49.639Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_workId_from_run_header",
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "12b86918d43e88d1de8da145b813491c65cc57a3e34123c568937a84e3af427a",
+      "bytes": 7526
+    },
+    {
+      "path": "card.txt",
+      "sha256": "d56111a6510a091b112ddf3328c71d1d6c48d865ed23f730c91e1122111d7578",
+      "bytes": 240
+    },
+    {
+      "path": "draft.md",
+      "sha256": "bb93c60ff53ae13267b8bfd3f2a7dd1108a3fe32b3826450b5759ed5e9e97d26",
+      "bytes": 3825
+    }
+  ]
+}

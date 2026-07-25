@@ -1,0 +1,27 @@
+{
+  "ok": false,
+  "failures": [
+    "muxin-c06: identityStable must be true",
+    "muxin-c07: identityStable must be true",
+    "muxin-c08: identityStable must be true",
+    "muxin-c16: identityStable must be true",
+    "muxin-c17: identityStable must be true",
+    "muxin-c18: identityStable must be true",
+    "muxin-c19: identityStable must be true"
+  ],
+  "summary": {
+    "museumId": "muxin",
+    "workCount": 20,
+    "significanceCounts": {
+      "稀世珍品": 0,
+      "重要藏品": 14,
+      "特色看点": 5,
+      "体验补充": 1
+    },
+    "rareAssets": [],
+    "independentRareLines": [],
+    "score": 74,
+    "scoreBand": "70–79 · 可去可不去",
+    "withinBandAnchor": "73–75"
+  }
+}

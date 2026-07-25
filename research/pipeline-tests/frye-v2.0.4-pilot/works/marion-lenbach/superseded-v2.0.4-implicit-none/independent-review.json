@@ -1,0 +1,198 @@
+{
+  "workId": "marion-lenbach",
+  "reviewRole": "fresh-independent-reviewer",
+  "reviewedAt": "2026-07-22",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "16f6b7d6fef2e6c54bef6c4fc0638df384bee36db43afa89ffd77b9a28df76d2"
+  },
+  "artifactHashes": {
+    "research-card.md": "7d65411c24de7c7b4bd26a634a252676b3f51acdc7e8e27c9ce9a0c605d6117f",
+    "writing-plan.json": "c7b03bdd07cb00737bbb7ceec5494a5e7761a68d5010efee250906e0e4fb4015",
+    "card.txt": "508b160cdec78865d3357d132c160bf54a2a12581900af6d69a90af79ce598d2",
+    "draft.md": "16f6b7d6fef2e6c54bef6c4fc0638df384bee36db43afa89ffd77b9a28df76d2"
+  },
+  "upstreamChainVerification": {
+    "verdict": "PASS",
+    "complete": true,
+    "links": [
+      {
+        "artifact": "research-card.md",
+        "declaredDirectUpstream": "../../batch-01/source-pack.md",
+        "declaredSha256": "1b14092fcb94d8fc908227917e92dabf0175f01cb5e1853b2d42d724ecd66e3e",
+        "actualSha256": "1b14092fcb94d8fc908227917e92dabf0175f01cb5e1853b2d42d724ecd66e3e",
+        "matches": true
+      },
+      {
+        "artifact": "writing-plan.json",
+        "declaredDirectUpstream": "research-card.md",
+        "declaredSha256": "7d65411c24de7c7b4bd26a634a252676b3f51acdc7e8e27c9ce9a0c605d6117f",
+        "actualSha256": "7d65411c24de7c7b4bd26a634a252676b3f51acdc7e8e27c9ce9a0c605d6117f",
+        "matches": true
+      },
+      {
+        "artifact": "card.txt",
+        "declaredDirectUpstream": "writing-plan.json",
+        "declaredSha256": "c7b03bdd07cb00737bbb7ceec5494a5e7761a68d5010efee250906e0e4fb4015",
+        "actualSha256": "c7b03bdd07cb00737bbb7ceec5494a5e7761a68d5010efee250906e0e4fb4015",
+        "matches": true
+      },
+      {
+        "artifact": "draft.md",
+        "declaredDirectUpstream": "card.txt",
+        "declaredSha256": "508b160cdec78865d3357d132c160bf54a2a12581900af6d69a90af79ce598d2",
+        "actualSha256": "508b160cdec78865d3357d132c160bf54a2a12581900af6d69a90af79ce598d2",
+        "matches": true
+      }
+    ]
+  },
+  "mechanicalChecks": {
+    "cardVisibleCharacters": 37,
+    "cardRequiredRange": "24-100",
+    "quickVisibleCharacters": 111,
+    "quickRequiredRange": "70-240",
+    "deepVisibleCharacters": 845,
+    "deepRequiredMinimum": 320,
+    "bilingualTitlePresent": true,
+    "authorCountryLinePresent": true,
+    "metadataComplete": true,
+    "quickAndDeepLayersPresent": true,
+    "observableDetailCount": 5,
+    "specificSecondLookPresent": true,
+    "clickableSourcesPresent": true,
+    "mechanicalVerdict": "PASS"
+  },
+  "claimAudit": {
+    "verdict": "PASS",
+    "findings": [
+      "身份、年代、材质、馆藏号、Founding Collection 与 2026-07-22 On View 快照均在供应证据内。",
+      "第二名儿童只写作吉西斯之女，没有补姓名、友情、亲属关系或心理。",
+      "完成度、头部朝向、棕灰底、衣服与边缘笔触均保持为直接观察；正文明确不把它们升级为放弃、同次写生或落笔先后。",
+      "伦巴赫的名流肖像背景、反复描绘玛丽昂以及与吉西斯同处慕尼黑艺术圈均由供应材料支持。",
+      "同馆约1895年《玛丽昂·伦巴赫》的比较范围、共同点、差异及全球数量未知边界均按研究卡收窄。",
+      "没有未闭环的人物心理、作者意图、真实时间顺序、首次、唯一、最高级或全球不可替代性断言。"
+    ],
+    "unplannedHighRiskClaims": []
+  },
+  "layerIndependence": {
+    "cardIndependent": true,
+    "quickIndependent": true,
+    "deepIndependent": true,
+    "verdict": "PASS",
+    "evidence": "卡片独立回答为何值得点开；快层给出完成度反差、观看动作和暂时答案；删去快层后，深层仍从可见差异完整解释材料机制、作者位置、艺术圈线索和馆内比较。三者没有逐句摘抄关系。"
+  },
+  "paragraphDependency": {
+    "verdict": "PASS",
+    "coreQuestion": "为什么不同的完成度反而让这幅肖像成立？",
+    "sequence": [
+      "第一段先把完成度差异解释为脸部注意力层级。",
+      "第二段依赖这一材料机制，才把它放入伦巴赫的正式名流肖像与家庭题材之间。",
+      "第三段依赖两名儿童的身份，谨慎扩展到艺术家家庭与职业圈线索。",
+      "第四段依赖前述过程、题材和圈子三项认识，才用最近比较对象限定馆内独特回报。"
+    ],
+    "reorderingTest": "第二至第四段若前移，会分别缺失完成度机制、身份边界或比较所需的核心价值定义；不能任意调换。"
+  },
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这张双人儿童肖像没有把各处画得一样完整，裸露底色和松动笔触反而让人看清伦巴赫怎样把注意力集中到脸上，也让它在馆内成为观察肖像制作过程和艺术家家庭圈子的一个入口。",
+    "readAloudVerdict": "failed",
+    "translationeseFindings": [
+      {
+        "text": "这张画也把两个艺术家家庭带到同一表面",
+        "reason": "“带到同一表面”是抽象且不自然的概念压缩，朗读时需要先解码比喻。"
+      },
+      {
+        "text": "哪些部分留在形成之中",
+        "reason": "“留在形成之中”不是自然口头中文，抽象化了画面上仍未收拢的具体状态。"
+      },
+      {
+        "text": "开放的边缘 / 更明显的开放区域 / 开放的制作表面",
+        "reason": "“开放”反复修饰边缘、区域和制作表面，带有英文概念直译感，连续朗读生硬。"
+      }
+    ],
+    "nativeChineseVerdict": "FAIL"
+  },
+  "significanceReview": {
+    "declaredLevel": "特色看点",
+    "fiveDimensions": {
+      "artisticAchievement": "成立：脸部集中、松动边缘和裸露底色形成明确的注意力层级，但未拔高为形式创新高峰。",
+      "artHistoricalPosition": "成立：明确不是伦巴赫巅峰名作或肖像史转折，定位为著名肖像家较自由的晚期工作面。",
+      "historicalCulturalValue": "成立：两位慕尼黑艺术家之女同画只作为家庭与职业圈线索，没有冒充两家关系史证明。",
+      "rarityAndIrreplaceability": "成立：全球数量未知；不可替代范围收窄到双人并置、明显完成度差异和馆内过程视角。",
+      "collectionPosition": "成立：在 Frye 的伦巴赫群中补充正式肖像成品背后的制作过程与家庭网络节点。"
+    },
+    "nearestComparator": "同馆约1895年《玛丽昂·伦巴赫》 Marion Lenbach（1952.098）",
+    "sharedValue": "两作均反复描绘玛丽昂并把脸部作为重点。",
+    "decisiveDifference": "1899年作品加入吉西斯之女，并留下更明显的棕灰底和完成度差异。",
+    "nonSubstitutabilityBoundary": "比较作能证明玛丽昂是反复题材，但不能同时提供双人并置、艺术家家庭网络线索与明显保留制作过程的表面；此边界只支撑馆内特色看点，不支撑全球稀有或行程级珍品。",
+    "frye72BoundaryRespected": true,
+    "significanceVerdict": "PASS"
+  },
+  "workSpecificReview": {
+    "verdict": "PASS",
+    "evidence": "核心问题、棕灰底、两个朝向不同的儿童、玛丽昂与吉西斯之女的标题身份、纸本裱板以及同馆单人玛丽昂比较共同锁定本作；换成一般未完成肖像不能原样成立。"
+  },
+  "productionLanguageReview": {
+    "verdict": "PASS",
+    "scannedScope": "card.txt and all visitor-facing prose in draft.md, including fact boundary and sources",
+    "findings": [],
+    "evidence": "未出现研究缺口、图片许可、发布待办、测试、prompt、生成器、reviewer、版本迁移或其他内部生产语言。"
+  },
+  "voiceScores": {
+    "entry": {
+      "score": 2,
+      "evidence": "“两个儿童形象挤在同一张竖幅里，完成程度却明显不同”立即建立本作可见反差。"
+    },
+    "causality": {
+      "score": 2,
+      "evidence": "正文解释笔触由脸向衣服变松、底色接手身体塑造，因此观看注意力集中到脸部，并进一步说明这为何改变对肖像成形过程的理解。"
+    },
+    "people": {
+      "score": 1,
+      "evidence": "玛丽昂、吉西斯之女及两位艺术家的家庭与职业圈被写清，但受证据边界限制，没有足够人的选择或行动形成更强推进。"
+    },
+    "turn": {
+      "score": 2,
+      "evidence": "“这里的空与松并非无事发生；它们把脸部的集中处理衬得更明确”把看似缺少收尾的区域转成组织肖像注意力的机制，认知变化有画面证据。"
+    },
+    "visualPayoff": {
+      "score": 2,
+      "evidence": "脸部、肩线、外轮廓、棕灰底、完成度和纸本裱板均落实为现场可核对的观看证据。"
+    },
+    "spokenClarity": {
+      "score": 1,
+      "evidence": "大部分句子可口头复述，但“带到同一表面”“留在形成之中”和多处“开放的……”使连续朗读出现明显翻译腔。"
+    },
+    "secondLook": {
+      "score": 2,
+      "evidence": "结尾要求目光从两张脸滑到肩部和外轮廓，找出笔触散开处，再把棕灰底纳入空间，以验证完成度如何集中两张脸。"
+    },
+    "total": 12,
+    "maximum": 14,
+    "threshold": 12,
+    "hasZero": false,
+    "voiceVerdict": "PASS"
+  },
+  "hardGateFailures": [
+    {
+      "gate": "native Chinese / read-aloud",
+      "reason": "访客正文存在三组需先解码的抽象直译表达，translationeseFindings 非空；按 canonical 1.6.8，此项直接失败。",
+      "action": "返工时只处理已标出的不自然表达，使艺术家家庭线索、未收拢区域和制作过程改为可直接口头复述的具体中文；完成后重新做全文连续朗读与独立审读。"
+    }
+  ],
+  "actionableFailureReasons": [
+    "删除或改写“把两个艺术家家庭带到同一表面”这一抽象概念压缩。",
+    "删除或改写“哪些部分留在形成之中”这一非自然口头表达。",
+    "逐一处理“开放的边缘”“开放区域”“开放的制作表面”的直译式重复，并重新连续朗读标题、快层、深层转折和结尾。"
+  ],
+  "mechanicalVerdict": "PASS",
+  "factBoundaryVerdict": "PASS",
+  "narrativeVerdict": "PASS",
+  "nativeChineseVerdict": "FAIL",
+  "significanceVerdict": "PASS",
+  "workSpecificVerdict": "PASS",
+  "productionLanguageVerdict": "PASS",
+  "finalVerdict": "FAIL",
+  "finalReason": "Voice score is 12/14 with no zero, but the canonical native-Chinese hard gate fails because translationeseFindings is non-empty. Any hard-gate failure makes the final verdict FAIL."
+}

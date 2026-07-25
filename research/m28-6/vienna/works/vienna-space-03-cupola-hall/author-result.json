@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-space-03-cupola-hall-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:47:26.0307717-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-04/vienna-space-03-cupola-hall-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "1a967f4fc4ae95ea85a17341590e2fb0208bbfe3a944ff0af5bf79c6a2ed9aab"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-space-03-cupola-hall/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "08422dced5a432483ff88596319654abc93c519d8e80cdc457bc6af33f596656"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "c96982e08cf54cece14d0a0fe5c01f063cd1418f1f549e4e617bf2428cc6bc8a",
+                        "bytes":  8768
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "220305976c6a786f13432b1d3b4aaff14f7a16956589659b40b3f2b8cc130e41",
+                        "bytes":  193
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "b367402122391c05fd6f34bb124058b541cbdb9f33bf3b1ea2f507dba6dededf",
+                        "bytes":  3796
+                    }
+                ]
+}

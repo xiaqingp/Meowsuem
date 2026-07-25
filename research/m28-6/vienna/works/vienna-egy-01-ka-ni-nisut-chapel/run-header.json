@@ -1,0 +1,48 @@
+{
+  "runId": "m28-6-vienna-author-vienna-egy-01-ka-ni-nisut-chapel-2026-07-24",
+  "startedAt": "2026-07-24T07:30:03.843Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card",
+  "museumId": "vienna",
+  "workId": "vienna-egy-01-ka-ni-nisut-chapel",
+  "workIdentity": {
+    "artistOrCulture": "古埃及，吉萨",
+    "title": "卡尼尼苏特祭祀室",
+    "titleEn": "Chapel of Ka-ni-nisut",
+    "museum": "Kunsthistorisches Museum Vienna"
+  },
+  "pipelineVersion": "2.4.8",
+  "instructionVersion": "2.0.2",
+  "inputContractVersion": 1,
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "465e7a2ce500057a139dbb64ff9df36755a6525a1f3a960e90fa0263a572ebfe"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-04/vienna-egy-01-ka-ni-nisut-chapel-research-card.md",
+      "role": "research_card",
+      "sha256": "b4fd982dc594ac632e598ca46cd504bfc2955e12a392f5bd6a7be853a47e3caf"
+    },
+    {
+      "path": "research/m28-6/vienna/works/vienna-egy-01-ka-ni-nisut-chapel/work-context.json",
+      "role": "work_context",
+      "sha256": "1aefe6fc9f90146e48d8b8f1e34871adea83048bd03351192b3b049c12ae0a8d"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-coin-02-charles-v-dedication-medal-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:34:06.0697634-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-04/vienna-coin-02-charles-v-dedication-medal-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "147c8d145b33f434c2bd569da0e5284d4beda985f6f959296b7b248c4c9b0218"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-coin-02-charles-v-dedication-medal/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "1b542d1f8ce60fa5a6a1760be3c70212e66c9c3c827fd5120ecf9ff6c4d17be3"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "8315ca96c78eceb2a6fd0920b6643cd8a2aab56a558c7359a9550db1ca191373",
+                        "bytes":  11278
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "e6300f1450b7312811e9885bfbff928ac7e0877d4dd7f6701964123e63e4d0fa",
+                        "bytes":  313
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "95e919a8eb5bb894b0c16a2091859cfe082b94f004b2a5b708ed1e5c8dc01572",
+                        "bytes":  5109
+                    }
+                ]
+}

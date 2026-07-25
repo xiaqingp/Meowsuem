@@ -1,0 +1,447 @@
+{
+  "artifactType": "writing_plan",
+  "publishable": false,
+  "pipelineVersion": "2.0.6",
+  "instructionVersion": "1.7.0",
+  "museumId": "frye",
+  "workId": "sin",
+  "regressionMode": "clean_no_feedback_planning_only",
+  "executionProfile": {
+    "model": "GPT-5",
+    "reasoningEffort": "medium"
+  },
+  "inputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "39f31401eb9d228a29f4d0de6fb56e3b6c4c072ebd34e4012eeab9a04ec6020e"
+    },
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "f5f7fbcd3f46609dcb81bbb1e3fff8b689a2af7ea56feb49153c9a8450246c21"
+    },
+    {
+      "path": "research/pipeline-tests/frye-v2.0.4-pilot/batch-01/source-pack.md",
+      "sha256": "92503d9ecd2cd5639bd9280c77b540e01ff7875eeddf5411d12d819a4b028516"
+    },
+    {
+      "path": "research/pipeline-tests/frye-v2.0.4-pilot/works/sin/research-card.md",
+      "sha256": "b50bac56599f636bda59fb9483daad1fc378034f221609506956d0a239e26154"
+    }
+  ],
+  "directUpstream": {
+    "path": "research/pipeline-tests/frye-v2.0.4-pilot/works/sin/research-card.md",
+    "sha256": "b50bac56599f636bda59fb9483daad1fc378034f221609506956d0a239e26154"
+  },
+  "plannedMetadata": [
+    {
+      "field": "artistCulture",
+      "claimIds": ["CL01"]
+    },
+    {
+      "field": "dateMediumDimensions",
+      "claimIds": ["CL02", "CL03"]
+    },
+    {
+      "field": "collectionIdentity",
+      "claimIds": ["CL04"]
+    },
+    {
+      "field": "locationStatus",
+      "claimIds": ["CL05"]
+    }
+  ],
+  "readerStart": {
+    "knownFromTitle": "标题提供“罪”这一题名，不据此给人物命名。",
+    "visibleStartingPoints": "只从窄竖幅、近黑背景中的女子、横跨双肩的蛇、女子与蛇眼的亮点，以及金色建筑式框开始。",
+    "claimIds": ["CL06", "CL07"]
+  },
+  "coreQuestion": {
+    "question": "为什么这件较晚的《罪》版本仍是 Frye 的 Stuck／慕尼黑象征主义锚点，而它的价值又不来自版本唯一性？",
+    "claimIds": ["CL08", "CL13"]
+  },
+  "rapidLayerPromise": {
+    "visibleTension": "计划并置近黑背景、女子与蛇眼的亮点、横跨双肩的蛇和金色建筑式框，不添加人物心理。",
+    "provisionalAnswer": "计划先说明这是一件以“罪／蛇与女人”为母题的象征主义作品，并把它在 Frye 馆内的锚点作用与版本稀缺性分开。",
+    "viewingRoute": [
+      "女子与蛇眼的亮点",
+      "蛇横跨双肩并把头伸向右前",
+      "金色建筑式框参与整体效果"
+    ],
+    "claimIds": ["CL07", "CL09", "CL13"]
+  },
+  "cognitionSequence": [
+    {
+      "step": 1,
+      "discovery": "画面以窄竖幅、近黑背景、女子与蛇眼的亮点、横跨双肩的蛇和金色建筑式框组织观看。",
+      "changesUnderstanding": "把起点限定为研究卡已有的可见形状、位置与明暗关系，不先解释人物身份或心理。",
+      "thereforeNext": "下一步追问题名、蛇与裸身能够支持到什么解释边界。",
+      "claimIds": ["CL07", "CL14"]
+    },
+    {
+      "step": 2,
+      "discovery": "蛇、裸身与题名把人物置于“罪／诱惑”的寓意场；资料不足以把蛇锁定为某一具体圣经人物。",
+      "changesUnderstanding": "可把画面作为寓意来理解，但不把寓意升级为人物姓名或作者确定意图。",
+      "thereforeNext": "下一步追问这种寓意怎样进入 Stuck 的象征主义与整体设计框架。",
+      "claimIds": ["CL06", "CL09", "CL14"]
+    },
+    {
+      "step": 3,
+      "discovery": "Stuck 被定位为象征主义艺术家；寓意、情色身体与建筑式整体设计是这件作品的理解框架。",
+      "changesUnderstanding": "金色建筑式框不只作为外围元数据处理，而与已记录的整体设计框架一同纳入观看计划。",
+      "thereforeNext": "下一步追问这件约 1908 年作品在同一母题的多个版本中处于什么位置。",
+      "claimIds": ["CL07", "CL09"]
+    },
+    {
+      "step": 4,
+      "discovery": "该母题在 1891—1912 年间有多个近似版本；Frye 件是较晚版本，不是 1893 年首个成功版本。",
+      "changesUnderstanding": "作品的价值不能建立在首版或唯一版本的说法上。",
+      "thereforeNext": "下一步与 Neue Pinakothek 1893 年《罪》比较共享特征和已记录差异。",
+      "claimIds": ["CL08", "CL13", "CL14"]
+    },
+    {
+      "step": 5,
+      "discovery": "Frye 件与 1893 年比较对象共享暗背景、蛇缠肩、正面凝视和窄竖幅；差异限于年代、媒材、具体框与色调。",
+      "changesUnderstanding": "比较确认母题连续性，同时保留研究卡给出的差异边界，不作优劣排序。",
+      "thereforeNext": "最后回答它为何在 Frye 馆内重要，而非把比较差异写成全球不可替代性。",
+      "claimIds": ["CL10", "CL11", "CL14"]
+    },
+    {
+      "step": 6,
+      "discovery": "研究卡将作品评为艺术史、作者生涯、本馆叙事和现场维度高，稀缺维度中低，并称其为 Frye 的 Stuck／慕尼黑象征主义锚点。",
+      "changesUnderstanding": "计划结论落在馆内叙事作用和已记录的重要性维度，不把多个版本改写成版本稀有或唯一。",
+      "thereforeNext": "最后一眼回到女子与蛇眼的亮点、蛇的横向动作和金色建筑式框，复核寓意与整体设计如何由可见证据承载。",
+      "claimIds": ["CL07", "CL12", "CL13"]
+    }
+  ],
+  "historicalContextPlan": {
+    "applicable": false,
+    "beforeState": null,
+    "changeOrConflict": null,
+    "objectRole": null,
+    "consequence": null,
+    "uncertainty": null,
+    "placement": null
+  },
+  "humorBasis": null,
+  "mustNotAssume": [
+    {
+      "boundary": "不把人物命名为 Eve。",
+      "upstreamBoundaryIds": ["BD01"]
+    },
+    {
+      "boundary": "不写人物心理或作者确定意图。",
+      "upstreamBoundaryIds": ["BD02"]
+    },
+    {
+      "boundary": "不写版本精确总数。",
+      "upstreamBoundaryIds": ["BD03"]
+    },
+    {
+      "boundary": "不称其为原作、唯一或最著名版本。",
+      "upstreamBoundaryIds": ["BD04"]
+    }
+  ],
+  "highRiskAssertions": [
+    {
+      "assertion": "画中人物是 Eve。",
+      "evidenceType": "unsupported_identity",
+      "allowedWording": "女子；或按有来源的“罪／蛇与女人”寓意母题表述。",
+      "forbiddenUpgrade": "Eve 或其他具体圣经人物。",
+      "upstreamBoundaryIds": ["BD01"]
+    },
+    {
+      "assertion": "女子具有某种心理或 Stuck 明确意图表达某种心理。",
+      "evidenceType": "unsupported_psychology_or_intent",
+      "allowedWording": "只写研究卡记录的身体位置、凝视与寓意框架。",
+      "forbiddenUpgrade": "任何人物内心或作者确定意图。",
+      "upstreamBoundaryIds": ["BD02"]
+    },
+    {
+      "assertion": "该母题共有一个精确版本总数。",
+      "evidenceType": "uncertain_quantity",
+      "allowedWording": "1891—1912 年间有多个近似版本。",
+      "forbiddenUpgrade": "任何精确版本总数。",
+      "upstreamBoundaryIds": ["BD03"],
+      "claimIds": ["CL08"]
+    },
+    {
+      "assertion": "Frye 件是原作、唯一版本、首版或最著名版本。",
+      "evidenceType": "contradicted_or_unsupported_superlative",
+      "allowedWording": "Frye 件是较晚版本，不是 1893 年首个成功版本；其馆内价值不来自版本唯一性。",
+      "forbiddenUpgrade": "原作、唯一、首版、最著名版本或以版本稀有性拔高。",
+      "upstreamBoundaryIds": ["BD04"],
+      "claimIds": ["CL08", "CL13"]
+    }
+  ],
+  "claimLedger": [
+    {
+      "claimId": "CL01",
+      "type": "fact",
+      "plannedClaim": "作者为 Franz von Stuck，精确访客国家标签为“德国”。",
+      "upstreamEntries": [
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/works/sin/research-card.md",
+          "entry": "## 必填元数据闭环（pipeline 2.0.5） > 作者/文化"
+        },
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/batch-01/source-pack.md",
+          "entry": "## Pipeline 2.0.5 必填元数据来源补充 > ### 创作者国家/文化归属闭环 > Franz von Stuck（适用于本批三件作品）"
+        }
+      ]
+    },
+    {
+      "claimId": "CL02",
+      "type": "fact",
+      "plannedClaim": "作品年代为约 1908。",
+      "upstreamEntries": [
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/works/sin/research-card.md",
+          "entry": "## 身份与边界"
+        },
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/batch-01/source-pack.md",
+          "entry": "## sin — Franz von Stuck, Die Sünde (Sin) > **身份与边界**"
+        }
+      ]
+    },
+    {
+      "claimId": "CL03",
+      "type": "fact",
+      "plannedClaim": "媒材为蛋彩／画布，尺寸为 88.58 × 54.93 cm。",
+      "upstreamEntries": [
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/works/sin/research-card.md",
+          "entry": "## 身份与边界"
+        },
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/batch-01/source-pack.md",
+          "entry": "## sin — Franz von Stuck, Die Sünde (Sin) > **正文可用事实（逐条来源）** > 1"
+        }
+      ]
+    },
+    {
+      "claimId": "CL04",
+      "type": "fact",
+      "plannedClaim": "馆藏号为 1952.169，属于 Frye Founding Collection。",
+      "upstreamEntries": [
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/works/sin/research-card.md",
+          "entry": "## 身份与边界"
+        },
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/batch-01/source-pack.md",
+          "entry": "## sin — Franz von Stuck, Die Sünde (Sin) > **身份与边界**"
+        }
+      ]
+    },
+    {
+      "claimId": "CL05",
+      "type": "fact",
+      "plannedClaim": "作品出现在 2026-07-22 的 Frye On View 快照中，状态易变。",
+      "upstreamEntries": [
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/works/sin/research-card.md",
+          "entry": "## 身份与边界"
+        },
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/batch-01/source-pack.md",
+          "entry": "## sin — Franz von Stuck, Die Sünde (Sin) > **身份与边界**"
+        }
+      ]
+    },
+    {
+      "claimId": "CL06",
+      "type": "fact",
+      "plannedClaim": "题名为 Die Sünde (Sin)／《罪》。",
+      "upstreamEntries": [
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/works/sin/research-card.md",
+          "entry": "## 身份与边界"
+        },
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/batch-01/source-pack.md",
+          "entry": "## sin — Franz von Stuck, Die Sünde (Sin) > **正文可用事实（逐条来源）** > 1"
+        }
+      ]
+    },
+    {
+      "claimId": "CL07",
+      "type": "observation",
+      "plannedClaim": "画面为窄竖幅；女子从近黑背景浮现；蛇横跨双肩并把头伸向右前；女子与蛇眼形成亮点；金色建筑式框参与整体效果。",
+      "upstreamEntries": [
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/works/sin/research-card.md",
+          "entry": "## 可用事实与观察 > 观察"
+        },
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/batch-01/source-pack.md",
+          "entry": "## sin — Franz von Stuck, Die Sünde (Sin) > **直接观察**（据 Frye 图像）"
+        }
+      ]
+    },
+    {
+      "claimId": "CL08",
+      "type": "fact",
+      "plannedClaim": "该母题在 1891—1912 年间有多个近似版本；Frye 件是较晚版本，不是 1893 年首个成功版本。",
+      "upstreamEntries": [
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/works/sin/research-card.md",
+          "entry": "## 可用事实与观察 > 该母题 1891–1912 年间有多个近似版本"
+        },
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/batch-01/source-pack.md",
+          "entry": "## sin — Franz von Stuck, Die Sünde (Sin) > **正文可用事实（逐条来源）** > 2"
+        }
+      ]
+    },
+    {
+      "claimId": "CL09",
+      "type": "argument",
+      "plannedClaim": "Stuck 被定位为象征主义艺术家；寓意、情色身体与建筑式整体设计是理解框架；蛇、裸身与题名把人物置于“罪／诱惑”的寓意场。",
+      "upstreamEntries": [
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/works/sin/research-card.md",
+          "entry": "## 可用事实与观察 > 作者定位为象征主义"
+        },
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/batch-01/source-pack.md",
+          "entry": "## sin — Franz von Stuck, Die Sünde (Sin) > **历史/题材**"
+        }
+      ]
+    },
+    {
+      "claimId": "CL10",
+      "type": "comparison",
+      "plannedClaim": "最近比较对象是 Neue Pinakothek 1893 年 Die Sünde；两者共享暗背景、蛇缠肩、正面凝视和窄竖幅。",
+      "upstreamEntries": [
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/works/sin/research-card.md",
+          "entry": "## 比较与重要性 > 最近对象；同"
+        },
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/batch-01/source-pack.md",
+          "entry": "## sin — Franz von Stuck, Die Sünde (Sin) > **重要性与比较** > 最近对象；同"
+        }
+      ]
+    },
+    {
+      "claimId": "CL11",
+      "type": "comparison",
+      "plannedClaim": "Frye 件与 1893 年比较对象的已记录差异为年代、媒材、具体框与色调。",
+      "upstreamEntries": [
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/works/sin/research-card.md",
+          "entry": "## 比较与重要性 > 异"
+        },
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/batch-01/source-pack.md",
+          "entry": "## sin — Franz von Stuck, Die Sünde (Sin) > **重要性与比较** > 异"
+        }
+      ]
+    },
+    {
+      "claimId": "CL12",
+      "type": "argument",
+      "plannedClaim": "五维判断为艺术史高、作者生涯高、本馆叙事高、现场高、稀缺中低。",
+      "upstreamEntries": [
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/works/sin/research-card.md",
+          "entry": "## 比较与重要性 > 五维"
+        },
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/batch-01/source-pack.md",
+          "entry": "## sin — Franz von Stuck, Die Sünde (Sin) > **重要性与比较** > 五维"
+        }
+      ]
+    },
+    {
+      "claimId": "CL13",
+      "type": "argument",
+      "plannedClaim": "作品是 Frye 的 Stuck／慕尼黑象征主义锚点，但其价值不来自版本唯一性，不能以版本稀有性拔高。",
+      "upstreamEntries": [
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/works/sin/research-card.md",
+          "entry": "## 比较与重要性 > 结论"
+        },
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/batch-01/source-pack.md",
+          "entry": "## sin — Franz von Stuck, Die Sünde (Sin) > **重要性与比较** > 不可替代性"
+        }
+      ]
+    },
+    {
+      "claimId": "CL14",
+      "type": "boundary",
+      "plannedClaim": "现有材料不支持把人物命名为 Eve、写人物心理或作者确定意图、给出版本精确总数，或称其为原作、唯一、首版或最著名版本。",
+      "upstreamEntries": [
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/works/sin/research-card.md",
+          "entry": "## 不确定性与禁写"
+        },
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/batch-01/source-pack.md",
+          "entry": "## sin — Franz von Stuck, Die Sünde (Sin) > **风险/不确定/禁写**"
+        }
+      ]
+    }
+  ],
+  "boundaryLedger": [
+    {
+      "boundaryId": "BD01",
+      "boundary": "不替人物命名为 Eve；蛇不能锁定为某一具体圣经人物。",
+      "upstreamEntries": [
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/works/sin/research-card.md",
+          "entry": "## 不确定性与禁写"
+        },
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/batch-01/source-pack.md",
+          "entry": "## sin — Franz von Stuck, Die Sünde (Sin) > **历史/题材**；**风险/不确定/禁写**"
+        }
+      ]
+    },
+    {
+      "boundaryId": "BD02",
+      "boundary": "不写人物心理或作者确定意图。",
+      "upstreamEntries": [
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/works/sin/research-card.md",
+          "entry": "## 不确定性与禁写"
+        },
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/batch-01/source-pack.md",
+          "entry": "## sin — Franz von Stuck, Die Sünde (Sin) > **风险/不确定/禁写**"
+        }
+      ]
+    },
+    {
+      "boundaryId": "BD03",
+      "boundary": "公开来源对版本总数不一，不写精确总数。",
+      "upstreamEntries": [
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/works/sin/research-card.md",
+          "entry": "## 不确定性与禁写"
+        },
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/batch-01/source-pack.md",
+          "entry": "## sin — Franz von Stuck, Die Sünde (Sin) > **风险/不确定/禁写**"
+        }
+      ]
+    },
+    {
+      "boundaryId": "BD04",
+      "boundary": "不称原作、唯一、首版或最著名版本，不以版本稀有性拔高。",
+      "upstreamEntries": [
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/works/sin/research-card.md",
+          "entry": "## 比较与重要性 > 结论；## 不确定性与禁写"
+        },
+        {
+          "file": "research/pipeline-tests/frye-v2.0.4-pilot/batch-01/source-pack.md",
+          "entry": "## sin — Franz von Stuck, Die Sünde (Sin) > **风格/生涯位置**；**重要性与比较**；**风险/不确定/禁写**"
+        }
+      ]
+    }
+  ],
+  "draftOutputsPlanned": false
+}

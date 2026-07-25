@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-pg-02-hunters-in-the-snow-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:39:43.8935515-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-01/vienna-pg-02-hunters-in-the-snow-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "87e487d47b9950eeb16d765e214583987459ae6d3206488a10b234ba885a7ab8"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-pg-02-hunters-in-the-snow/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "9d320444dab52ae89bbf9655518f5d339ebbcc4e5eb11dffd74dc318939406a6"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "847dc28dd5986e08f6791d4a4f5aaee8e08499ae2a69ffd7ba86a4f29cad8aec",
+                        "bytes":  8745
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "d955651b56c5c3199e4473cf7933097cc90462b2ee74322b4a602e26462918a9",
+                        "bytes":  211
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "ee367e480a3f5a3acef6be3dfc7233ac26fe29923e750a2aab73b2fe3bf5f6d2",
+                        "bytes":  3883
+                    }
+                ]
+}

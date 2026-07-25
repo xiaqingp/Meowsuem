@@ -1,0 +1,168 @@
+{
+  "runId": "m28-12-v2.7.1-seattle-scope-2026-07-24",
+  "stage": "museum_scope",
+  "museum": {
+    "id": "seattle",
+    "name": {
+      "zh": "西雅图艺术博物馆",
+      "en": "Seattle Art Museum"
+    }
+  },
+  "scope": {
+    "includedSites": [
+      {
+        "name": "Seattle Art Museum（市中心主馆）",
+        "address": "1300 First Avenue, Seattle, WA 98101, USA",
+        "boundary": "本轮候选池仅覆盖该地址内由 Seattle Art Museum 展出的稳定馆藏；主馆入口周边的城市公共艺术不因毗邻而自动纳入。",
+        "rationale": "本运行 header 指定的博物馆身份和地址即为市中心主馆；馆方将其与另外两处地点分别列出。",
+        "sourceIds": ["sam-contact", "sam-three-sites"]
+      }
+    ],
+    "excludedSites": [
+      {
+        "name": "Seattle Asian Art Museum",
+        "address": "1400 East Prospect Street, Seattle, WA 98112, USA",
+        "reason": "馆方将其作为 Volunteer Park 的独立地点列出；它不是本轮 header 所指定的 1300 First Avenue 主馆。其亚洲艺术馆藏与展陈不进入本轮候选池。",
+        "sourceIds": ["sam-contact", "sam-three-sites"]
+      },
+      {
+        "name": "Olympic Sculpture Park",
+        "address": "2901 Western Avenue, Seattle, WA 98121, USA",
+        "reason": "馆方将其作为海滨的独立地点列出，且参观与票务边界不同；园内雕塑、场地项目及临时项目不进入本轮候选池。",
+        "sourceIds": ["sam-contact", "sam-three-sites"]
+      },
+      {
+        "name": "临时展览与短期委任项目",
+        "reason": "本阶段只建立稳定馆藏的研究边界；馆方“What's on”页面所列具有日期范围的展览和项目须排除，避免把可变展期当作永久收藏。",
+        "sourceIds": ["sam-three-sites"]
+      }
+    ]
+  },
+  "collectionGroups": [
+    {
+      "name": "SAM's Collection（馆方线上馆藏总览）",
+      "included": true,
+      "site": "Seattle Art Museum（市中心主馆）",
+      "scope": "候选阶段从馆方总览的分类中筛选实际可归属或可在主馆稳定呈现的对象；对象页和可见地点仍须在后续阶段逐件确认。",
+      "sourceIds": ["sam-collection-overview", "sam-emuseum-collections"]
+    },
+    {
+      "name": "African Art",
+      "included": true,
+      "site": "Seattle Art Museum（市中心主馆）",
+      "sourceIds": ["sam-collection-overview", "sam-emuseum-collections"]
+    },
+    {
+      "name": "American Art",
+      "included": true,
+      "site": "Seattle Art Museum（市中心主馆）",
+      "sourceIds": ["sam-collection-overview", "sam-emuseum-collections"]
+    },
+    {
+      "name": "Ancient American Art",
+      "included": true,
+      "site": "Seattle Art Museum（市中心主馆）",
+      "sourceIds": ["sam-collection-overview", "sam-emuseum-collections"]
+    },
+    {
+      "name": "Ancient Mediterranean Art",
+      "included": true,
+      "site": "Seattle Art Museum（市中心主馆）",
+      "sourceIds": ["sam-collection-overview", "sam-emuseum-collections"]
+    },
+    {
+      "name": "Asian Art",
+      "included": "conditional",
+      "site": "Seattle Art Museum（市中心主馆）",
+      "scope": "仅纳入馆方对象页或主馆展陈资料能确认与市中心主馆相关的对象；Seattle Asian Art Museum 的对象不得因同属机构而纳入。",
+      "sourceIds": ["sam-collection-overview", "sam-contact"]
+    },
+    {
+      "name": "Australian Aboriginal Art",
+      "included": true,
+      "site": "Seattle Art Museum（市中心主馆）",
+      "sourceIds": ["sam-collection-overview", "sam-emuseum-collections"]
+    },
+    {
+      "name": "Decorative Art & Design",
+      "included": true,
+      "site": "Seattle Art Museum（市中心主馆）",
+      "sourceIds": ["sam-collection-overview", "sam-emuseum-collections"]
+    },
+    {
+      "name": "European Art",
+      "included": true,
+      "site": "Seattle Art Museum（市中心主馆）",
+      "sourceIds": ["sam-collection-overview", "sam-emuseum-collections"]
+    },
+    {
+      "name": "Islamic Art",
+      "included": true,
+      "site": "Seattle Art Museum（市中心主馆）",
+      "sourceIds": ["sam-collection-overview", "sam-emuseum-collections"]
+    },
+    {
+      "name": "Modern & Contemporary Art",
+      "included": true,
+      "site": "Seattle Art Museum（市中心主馆）",
+      "sourceIds": ["sam-collection-overview", "sam-emuseum-collections"]
+    },
+    {
+      "name": "Native American Art",
+      "included": true,
+      "site": "Seattle Art Museum（市中心主馆）",
+      "sourceIds": ["sam-collection-overview", "sam-emuseum-collections"]
+    },
+    {
+      "name": "Oceanic Art",
+      "included": true,
+      "site": "Seattle Art Museum（市中心主馆）",
+      "sourceIds": ["sam-collection-overview", "sam-emuseum-collections"]
+    }
+  ],
+  "capacity": {
+    "candidate": 20,
+    "decision": 20,
+    "rationale": "主馆可从跨地域、跨媒介的馆藏总览中建立完整的首次参观主线，但本轮馆址被严格限定为一个地点，并排除了亚洲艺术馆与雕塑公园两处独立场地。先以 20 件验证主馆的核心收藏群、地域关联与不同媒介；只有候选池证明额外作品能解释主馆独有的收藏形成机制或观看问题，才可在后续阶段扩容。"
+  },
+  "sources": [
+    {
+      "id": "sam-contact",
+      "title": "Contact Us",
+      "publisher": "Seattle Art Museum",
+      "url": "https://www.seattleartmuseum.org/info/contact",
+      "accessedAt": "2026-07-24",
+      "supports": "确认 Seattle Art Museum、Seattle Asian Art Museum 与 Olympic Sculpture Park 的分别地址，以及三处地点的独立参观信息。"
+    },
+    {
+      "id": "sam-three-sites",
+      "title": "SAM | Seattle Art Museum, Seattle Asian Art Museum, Olympic Sculpture Park",
+      "publisher": "Seattle Art Museum",
+      "url": "https://www.seattleartmuseum.org/",
+      "accessedAt": "2026-07-24",
+      "supports": "馆方将机构表述为“one museum, three must-see locations”，逐一列出三处地点及其展览／项目地点，支持本轮按主馆地址排除另外两处独立场地和有期限项目。"
+    },
+    {
+      "id": "sam-collection-overview",
+      "title": "SAM's Collection",
+      "publisher": "Seattle Art Museum",
+      "url": "https://www.seattleartmuseum.org/art-and-artists/sams-collection",
+      "accessedAt": "2026-07-24",
+      "supports": "确认馆方称永久馆藏约 25,000 件、跨全球文化与历史视角，并列出本 scope 使用的稳定馆藏分类。"
+    },
+    {
+      "id": "sam-emuseum-collections",
+      "title": "Collections – eMuseum",
+      "publisher": "Seattle Art Museum",
+      "url": "https://art.seattleartmuseum.org/collections",
+      "accessedAt": "2026-07-24",
+      "supports": "确认线上对象库以 African、American、Ancient American、Ancient Mediterranean、Asian、Australian Aboriginal、Decorative Arts & Design、European、Islamic、Modern & Contemporary、Native American 与 Oceanic 等分类组织。"
+    }
+  ],
+  "uncertainties": [
+    "馆方线上总览按全机构馆藏分类，不能单独证明每件对象当前或稳定陈列于市中心主馆；候选与研究阶段必须逐件核实对象页、所在地点及可见状态。",
+    "Asian Art 为跨三馆址边界风险最高的类别；本轮仅可保留能由后续一手资料确认与市中心主馆相关的对象。",
+    "eMuseum 分类页面展示的是可浏览的线上对象数，不能据此推断各部门完整藏量或当前展出数量。",
+    "主馆入口附近的 Hammering Man 等城市公共艺术的产权与收藏归属须逐件核实；未确认属于 SAM 稳定馆藏者不进入候选池。"
+  ]
+}

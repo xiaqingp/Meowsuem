@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-kk-02-krumau-madonna-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:42.169Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "9254653a159faed52b1167c112185a9f5527e06fc23d33786ef9dbd72abe3ad6",
+      "bytes": 9712
+    },
+    {
+      "path": "card.txt",
+      "sha256": "ed31cdd21f83c88a3615407859fa62e75482fe9f3a105a1233162e0588286702",
+      "bytes": 226
+    },
+    {
+      "path": "draft.md",
+      "sha256": "4137f3f293115eb60a6dd56ffe66b52b6043c8791b5d52c25c60d05bd6f55f85",
+      "bytes": 4406
+    }
+  ]
+}

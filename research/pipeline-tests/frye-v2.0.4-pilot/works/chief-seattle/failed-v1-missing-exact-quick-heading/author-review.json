@@ -1,0 +1,209 @@
+{
+  "workId": "chief-seattle",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "museumId": "frye",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "7faef6325f4a83f3910a10633d1d971e7233ea8c61935e765e0d49624ab3edf0"
+  },
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "finalPassIssued": false,
+  "mechanicalChecks": {
+    "cardVisibleCharacters": 45,
+    "cardWithin24To100": true,
+    "cardIndependentFromQuickLayer": true,
+    "cardStartsWithGenericViewingCommand": false,
+    "quickLayerCharactersExcludingWhitespace": 158,
+    "quickLayerWithin70To240": true,
+    "deepLayerCharactersExcludingWhitespace": 1176,
+    "deepLayerAtLeast320": true,
+    "observableDetailCount": 5,
+    "bilingualWorkAndArtistNamesPresent": true,
+    "sectionContractPresent": true,
+    "singleProgressiveQuestion": "当画家从未见过Si’ahl时，这幅肖像究竟让我们看见了谁？"
+  },
+  "paragraphDependency": [
+    {
+      "paragraph": "30秒先懂",
+      "dependsOn": "元数据已经给出作品名、作者和年代。",
+      "newUnderstanding": "日期差把近正面肖像从直接写照改读为死后纪念形象，并给出四个观看线索。",
+      "breaksIfMovedEarlier": "若置于身份信息之前，Si’ahl、作品日期与作者的关系会缺少锚点。"
+    },
+    {
+      "paragraph": "深层第1段：题名与正面构图",
+      "dependsOn": "快层已经建立‘直接感与时间距离’的矛盾。",
+      "newUnderstanding": "读者看清直接感来自头面居中、小画幅与信息集中，而表情不能证明心理。",
+      "breaksIfMovedEarlier": "若早于核心问题，会变成孤立的构图描述，不知道为何要检验直接感。"
+    },
+    {
+      "paragraph": "深层第2段：日期与城市记忆",
+      "dependsOn": "上一段已说明画面如何制造可识别性。",
+      "newUnderstanding": "1916与1866的差距、Si’ahl的领袖身份、城市命名和Raschen晚期实践，把可识别性转成后人制作公共记忆的问题。",
+      "breaksIfMovedEarlier": "若没有先体验画面的直接感，历史日期只会成为背景资料，无法造成认知转折。"
+    },
+    {
+      "paragraph": "深层第3段：暗背景与缺席",
+      "dependsOn": "上一段已确认这是一位非原住民画家在Si’ahl死后进行的再造。",
+      "newUnderstanding": "背景、身体与服饰信息的省略同时增强识别度并暴露证据限度。",
+      "breaksIfMovedEarlier": "缺少死后再造前提时，对背景和服饰的限制会像外加的审稿警告。"
+    },
+    {
+      "paragraph": "深层第4段：最近比较对象",
+      "dependsOn": "上一段已说明本画自身不能回答形貌与文化来源问题。",
+      "newUnderstanding": "1864照片传播链更接近生前，却同样经过传播和重制；比较从真假二选一转为层层制作。",
+      "breaksIfMovedEarlier": "若提前出现，读者尚未知道本画缺失什么，比较对象会成为横向资料插入。"
+    },
+    {
+      "paragraph": "深层第5段：重要性边界",
+      "dependsOn": "前文已建立本画的时间距离、形式机制与最近比较对象。",
+      "newUnderstanding": "作品的重要性被限定在Frye创始收藏与Seattle地方记忆的交点，不依赖全球稀有或形貌权威。",
+      "breaksIfMovedEarlier": "没有前文比较和画面分析，‘重要藏品’只剩标签，72分边界也缺少理由。"
+    },
+    {
+      "paragraph": "五项可观察细节",
+      "dependsOn": "深层已经解释为何头面、截断、暗背景、服饰局部和小尺度都与核心问题有关。",
+      "newUnderstanding": "读者获得现场逐项核对的方法，每一项都能验证纪念性与证据距离并存。",
+      "breaksIfMovedEarlier": "若在解释前列出，细节会成为互不相干的视觉清单。"
+    },
+    {
+      "paragraph": "最后再看一眼",
+      "dependsOn": "全文已建立画面通过删去环境与身体来集中公共形象。",
+      "newUnderstanding": "第二眼从脸移向画框和暗背景，把缺席的信息也纳入观看结论。",
+      "breaksIfMovedEarlier": "没有历史与比较铺垫时，暗背景只会被看成一般形式效果。"
+    },
+    {
+      "paragraph": "事实边界与资料",
+      "dependsOn": "正文已经用自然叙事完成主要限定。",
+      "newUnderstanding": "集中确认可证日期、解释范围、心理与社群边界以及易变在展状态，并提供反查入口。",
+      "breaksIfMovedEarlier": "若提前，限制条款会接管正文声音，读者还未理解这些边界为何重要。"
+    }
+  ],
+  "claimClosure": [
+    {
+      "sentence": "画作约完成于1916年，Duwamish与Suquamish领袖Si’ahl早在1866年去世。",
+      "evidenceType": "来源事实",
+      "sourceOrBasis": "Frye对象页与NPS历史背景；研究卡明确记录",
+      "confidence": "高：两个直接且权威的来源分别覆盖作品日期和人物去世年份",
+      "verdict": "保留"
+    },
+    {
+      "sentence": "你面对的是后人塑造的纪念形象，也是西雅图如何记住其名字来源的一份视觉记录。",
+      "evidenceType": "有标记的编辑判断",
+      "sourceOrBasis": "作品晚于Si’ahl去世约半世纪；城市以其英语化名字命名；作品进入Frye Founding Collection",
+      "confidence": "中高：事实链稳定，‘如何记住’是从死后再造与收藏位置导出的解释，不声称唯一意图",
+      "verdict": "保留"
+    },
+    {
+      "sentence": "表情并不能替我们说出Si’ahl的性格或心情。",
+      "evidenceType": "证据边界",
+      "sourceOrBasis": "近正面姿态和面部外观属于直接观察，心理无来源支持",
+      "confidence": "高：观察不能单独升级为人物心理",
+      "verdict": "保留"
+    },
+    {
+      "sentence": "本作出现在他约六十二岁的晚期，延续了已经经营多年的题材。",
+      "evidenceType": "来源事实加生涯定位",
+      "sourceOrBasis": "Raschen生卒年1854—1937、作品约1916、Autry记录其肖像风景及原住民题材",
+      "confidence": "中高：年龄为约数，长期题材有作者档案支持；未升级为巅峰或转折",
+      "verdict": "保留"
+    },
+    {
+      "sentence": "一位非原住民画家把早已进入公共传播的人物重新变成油画。",
+      "evidenceType": "来源事实与编辑归纳",
+      "sourceOrBasis": "Raschen身份、Si’ahl生前照片及后续公共影像传播、1916年油画日期",
+      "confidence": "中高：身份与时间链明确；没有声称社群授权或画家意图",
+      "verdict": "保留"
+    },
+    {
+      "sentence": "我们可以描述发色、朝向和衣物露出的范围，却不能仅凭这些局部确认服饰是否准确，更不能把它当作Duwamish或Suquamish的文化自我表述。",
+      "evidenceType": "直接观察与证据边界",
+      "sourceOrBasis": "研究卡只支持视觉外观，未提供服饰考证、社群参与或自我表述证据",
+      "confidence": "高：允许内容和禁止升级均与研究卡一致",
+      "verdict": "保留"
+    },
+    {
+      "sentence": "最近的比较对象，是E. M. Sammis依据1864年照片制作并传播的Si’ahl常见影像。",
+      "evidenceType": "研究卡比较结论",
+      "sourceOrBasis": "source-pack与research-card指定的最近比较对象",
+      "confidence": "中高：比较对象已在上游确定；正文没有扩张到全球唯一或完整传播史",
+      "verdict": "保留"
+    },
+    {
+      "sentence": "比较的意义不是选出一张‘绝对真实’的脸，而是看清公共形象每流传一次，都多了一层制作者与时代的选择。",
+      "evidenceType": "编辑推断",
+      "sourceOrBasis": "1864照片、Sammis传播影像与1916油画形成连续的重制层次",
+      "confidence": "中：推断可追溯且正文明确作为比较所得认识；不宣称完整传播链",
+      "verdict": "保留"
+    },
+    {
+      "sentence": "它的特殊位置来自Founding Collection：在一座名为Seattle的城市里，创始收藏保存了后人如何描绘Si’ahl的一次具体选择。",
+      "evidenceType": "来源事实与编辑重要性判断",
+      "sourceOrBasis": "Frye对象页的Founding Collection归属、城市命名背景、作品死后再造性质",
+      "confidence": "中高：馆藏归属与地方关系明确，措辞限于‘一次具体选择’",
+      "verdict": "保留"
+    },
+    {
+      "sentence": "看过更接近生前照片的影像，仍不能取代这幅画所留下的二十世纪初油画再造与Frye收藏史的交点。",
+      "evidenceType": "限定范围的不可替代性判断",
+      "sourceOrBasis": "最近比较对象在生前距离上更强；本作的媒介、日期与Founding Collection位置不同",
+      "confidence": "中高：不可替代性只限馆内地方记忆叙事，不扩张为全球稀有",
+      "verdict": "保留"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这幅画看着像在让我们直接面对西雅图酋长，可画家落笔时Si’ahl已经去世约半世纪，所以真正值得看的是后人怎样把一张脸变成城市记忆，又省略了哪些能证明身份来源的信息。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "notes": "标题、快层、日期转折、比较和最后一眼可连续口头复述；没有生硬名词化或英文式概念堆叠。"
+  },
+  "productionLanguageScan": {
+    "scope": [
+      "card.txt访客可见文字",
+      "draft.md访客可见正文、事实边界与资料行"
+    ],
+    "forbiddenCategories": [
+      "内部研究缺口",
+      "图片许可任务",
+      "发布任务",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "版本迁移"
+    ],
+    "findings": [],
+    "verdict": "passed"
+  },
+  "significanceReview": {
+    "assignedLevel": "重要藏品",
+    "fiveDimensionsClosed": true,
+    "nearestComparatorNamed": true,
+    "nearestComparator": "E. M. Sammis依据1864年照片传播的Si’ahl常见影像",
+    "artisticAchievement": "正面小型胸像以居中头面和暗背景获得清楚识别度，未夸为形式高峰。",
+    "artHistoricalPosition": "定位为Raschen约六十二岁时的晚期既有实践，未声称转折或巅峰。",
+    "historicalCulturalValue": "解释Seattle地方公共记忆的后设塑造，同时明确它不是Si’ahl形貌或文化自述的一手证据。",
+    "rarityAndIrreplaceability": "不可替代性严格限定在1916年油画再造与Frye Founding Collection的交点；未声称全球数量、唯一性或权威性。",
+    "collectionPosition": "清楚说明其把Frye创始收藏与城市命名、原住民领袖公共形象问题连接。",
+    "frye72PointBoundaryRespected": true,
+    "travelClaim": "正文明确说明它不足以成为改变旅行路线的稀世珍品。",
+    "verdict": "ready_for_independent_assessment"
+  },
+  "voiceSelfAssessment": {
+    "coreQuestionProgression": "candidate_strong",
+    "observableEvidenceIntegration": "candidate_strong",
+    "naturalChinese": "candidate_strong",
+    "templateAvoidance": "candidate_strong",
+    "boundaryIntegration": "candidate_strong",
+    "note": "以上仅为作者候选意见，不构成独立审读结论。"
+  },
+  "unresolvedRisks": [
+    "Raschen采用的具体图像来源尚不能确认，因此正文只比较公共影像链条，不宣称直接临摹关系。",
+    "服饰准确性、Duwamish或Suquamish社群参与及艺术家唯一意图均无证据，已从访客断言中排除。",
+    "当前在展状态易变，正文仅提示以馆内当日信息为准。",
+    "图片直接文件地址、摄影署名与复用许可未确认；该事项只保留在本不可发布作者自审中。",
+    "五维上游评分采用作者代表性、生涯节点、稀缺性、馆藏地方叙事、现场可读性口径；正文重要性已按母指令的艺术成就、艺术史位置、历史文化价值、稀有与不可替代性、馆藏位置重新闭合，仍需独立审读确认映射是否充分。"
+  ]
+}

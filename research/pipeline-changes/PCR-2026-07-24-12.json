@@ -1,0 +1,26 @@
+{
+  "id": "PCR-2026-07-24-12",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-24",
+  "ownerInstruction": "继续完成西雅图艺术博物馆整馆运行并更新主网站",
+  "baseRelease": "research/pipeline-releases/v2.7.6.json",
+  "targetVersion": "2.7.7",
+  "scope": [
+    "count a candidate data file as a new museum only when its museum id is not already in the manifest",
+    "retain full inventory checks for both new museums and regenerated legacy museums"
+  ],
+  "allowedCanonicalFiles": [
+    "scripts/verify-release-candidate.mjs"
+  ],
+  "allowedManagementFiles": [
+    "research/content-standard-manifest.json",
+    "coho_museum/Milestones.md",
+    "coho_museum/knowledge.md"
+  ],
+  "requiredTests": [
+    "Seattle legacy regeneration expects 15 museums rather than 16",
+    "new future museum test still expects one additional museum",
+    "release idempotence and immutability pass"
+  ]
+}

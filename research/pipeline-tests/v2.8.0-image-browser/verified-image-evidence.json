@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "stage": "verified_image_evidence",
+  "museumId": "seattle",
+  "pipelineVersion": "2.8.0",
+  "generatedAt": "2026-07-25T08:59:57.602Z",
+  "fresh": true,
+  "legacyAssetInputsRead": false,
+  "resolver": {
+    "version": 4,
+    "browser": "Google Chrome via Playwright",
+    "modelPolicy": "ambiguity_only",
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium"
+  },
+  "summary": {
+    "works": 1,
+    "accepted": 1,
+    "ambiguous": 0,
+    "unresolved": 0,
+    "wallClockMs": 2493,
+    "modelCalls": 0,
+    "modelTokens": 0
+  },
+  "modelRun": null,
+  "works": [
+    {
+      "workId": "double-elvis-browser-fixture",
+      "identity": {
+        "title": "Double Elvis",
+        "artistOrCulture": "Andy Warhol",
+        "date": "1963/1976",
+        "identityAnchor": "76.9",
+        "identitySourceUrl": "https://art.seattleartmuseum.org/objects/3307/double-elvis"
+      },
+      "status": "accepted",
+      "finalUrl": "https://art.seattleartmuseum.org/objects/3307/double-elvis",
+      "httpStatus": 200,
+      "pageTitle": "Double Elvis – Works – eMuseum",
+      "selected": {
+        "id": "og",
+        "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/29806/preview",
+        "method": "official_og_image",
+        "alt": "",
+        "width": 500,
+        "height": 346,
+        "score": 240,
+        "localPath": "research/pipeline-tests/v2.8.0-image-browser/image-evidence/assets/double-elvis-browser-fixture.jpg",
+        "contentType": "image/jpeg",
+        "sha256": "5d2ca6d3bcbff3371e49830c6501baa8bcbab7a8a51316183d20bf95f9c30057",
+        "evidenceId": "img:seattle:double-elvis-browser-fixture:5d2ca6d3bcbf"
+      },
+      "candidates": [
+        {
+          "id": "og",
+          "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/29806/full",
+          "method": "official_og_image",
+          "score": 240
+        },
+        {
+          "id": "img-4",
+          "url": "https://sam.canto.com/direct/image/d7kaar3t6p0u56ck10j3m0914q/7ojU2b_cbc4SMzXXUiFDLnD-Ud4/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-5",
+          "url": "https://sam.canto.com/direct/image/b3ifk213qp6vpb6prdc9481462/TEp_Cv9n3NPb2d6-E5Bg4ob5c4E/m800/800",
+          "method": "official_rendered_image",
+          "score": 110
+        },
+        {
+          "id": "img-19",
+          "url": "https://sam.canto.com/direct/image/i2eilj1lq53l51l3utkpef695k/_Tp0pQGgPtNGIBfwMK4CRvFcrYk/original?content-type=image%2Fsvg%2Bxml&name=footer-big-SAM.svg",
+          "method": "official_rendered_image",
+          "score": 110
+        }
+      ],
+      "resolver": "official_browser_v1",
+      "durationMs": 2491
+    }
+  ]
+}

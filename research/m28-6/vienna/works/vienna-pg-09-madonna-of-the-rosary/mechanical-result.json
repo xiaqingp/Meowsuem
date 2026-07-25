@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-pg-09-madonna-of-the-rosary-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:43.586Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "5cd5332b039f143fa3ce49ed1c165c9dad0d41d1dd4fe188d0eb39acf553e420",
+      "bytes": 8418
+    },
+    {
+      "path": "card.txt",
+      "sha256": "6d8947dc89d29d8892a55994ad577933b8fc607b456b18119b4ade25b8f7cc04",
+      "bytes": 313
+    },
+    {
+      "path": "draft.md",
+      "sha256": "d357d8362565fd7a2fb4632bd1902959c1bab0d59097808ed239e8ff85506745",
+      "bytes": 3994
+    }
+  ]
+}

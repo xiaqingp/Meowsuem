@@ -1,0 +1,207 @@
+{
+  "workId": "prayer-hands",
+  "reviewType": "fresh-independent-review",
+  "reviewerIndependence": {
+    "participatedInAuthoring": false,
+    "authorArtifactsEdited": false,
+    "inputsRestrictedToDeclaredPaths": true
+  },
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "cd00b4c097835a5e7266b4004bd243884f10eb009778a0b12df73e3b061bcdab"
+  },
+  "artifactHashes": {
+    "research-card.md": "91adcaba9bc9ae1ec3cf660cf6e616799e8c514191c5d5ad32c8e4aab3bcf457",
+    "writing-plan.json": "e66e17de6b7c8c4fea64b08fb1f23a1731787f2e377aafdb713730c250b67e46",
+    "card.txt": "16d7c8099da0ce850b607a72bd467b50dc77264ed1abe97e4c0645af1c199bd5",
+    "draft.md": "cd00b4c097835a5e7266b4004bd243884f10eb009778a0b12df73e3b061bcdab"
+  },
+  "directUpstreamChain": {
+    "declared": "batch-02/source-pack.md -> research-card.md -> writing-plan.json -> card.txt -> draft.md -> independent-review.json",
+    "links": [
+      {
+        "artifact": "research-card.md",
+        "directUpstream": "../../batch-02/source-pack.md",
+        "declaredSha256": "fa667b11415c1864ad81b1d3dce35169ed237d29167dceb9e1465cf7a81d75ea",
+        "actualSha256": "fa667b11415c1864ad81b1d3dce35169ed237d29167dceb9e1465cf7a81d75ea",
+        "verified": true
+      },
+      {
+        "artifact": "writing-plan.json",
+        "directUpstream": "research-card.md",
+        "declaredSha256": "91adcaba9bc9ae1ec3cf660cf6e616799e8c514191c5d5ad32c8e4aab3bcf457",
+        "actualSha256": "91adcaba9bc9ae1ec3cf660cf6e616799e8c514191c5d5ad32c8e4aab3bcf457",
+        "verified": true
+      },
+      {
+        "artifact": "card.txt",
+        "directUpstream": "writing-plan.json",
+        "declaredSha256": "e66e17de6b7c8c4fea64b08fb1f23a1731787f2e377aafdb713730c250b67e46",
+        "actualSha256": "e66e17de6b7c8c4fea64b08fb1f23a1731787f2e377aafdb713730c250b67e46",
+        "verified": true
+      },
+      {
+        "artifact": "draft.md",
+        "directUpstream": "card.txt",
+        "declaredSha256": "16d7c8099da0ce850b607a72bd467b50dc77264ed1abe97e4c0645af1c199bd5",
+        "actualSha256": "16d7c8099da0ce850b607a72bd467b50dc77264ed1abe97e4c0645af1c199bd5",
+        "verified": true
+      },
+      {
+        "artifact": "independent-review.json",
+        "directUpstream": "draft.md",
+        "declaredSha256": "cd00b4c097835a5e7266b4004bd243884f10eb009778a0b12df73e3b061bcdab",
+        "actualSha256": "cd00b4c097835a5e7266b4004bd243884f10eb009778a0b12df73e3b061bcdab",
+        "verified": true
+      }
+    ],
+    "complete": true,
+    "verdict": "PASS"
+  },
+  "mechanicalChecks": {
+    "countMethod": "HTML comments, Markdown control characters, link destinations, and whitespace excluded; visible link labels retained.",
+    "cardVisibleCharacters": 57,
+    "cardRequiredRange": "24-100",
+    "quickVisibleCharacters": 131,
+    "quickRequiredRange": "70-240",
+    "deepVisibleCharacters": 971,
+    "deepMinimum": 320,
+    "observableDetailCount": 6,
+    "observableDetailMinimum": 4,
+    "hasBilingualTitle": true,
+    "hasRequiredMetadataAndStatusBoundary": true,
+    "hasQuickAndDeepLayers": true,
+    "hasWorkSpecificLastLook": true,
+    "hasFactBoundary": true,
+    "hasClickableSources": true,
+    "mechanicalVerdict": "PASS"
+  },
+  "claimAudit": {
+    "verdict": "FAIL",
+    "supportedBoundaries": [
+      "The draft correctly limits the collection 'first' claim to Frye.",
+      "It does not assign a specific identity, religion, emotion, war, place, or historical sequence to the figures.",
+      "It does not claim current display and correctly states that display may rotate.",
+      "The T-wall definition, exhibition-to-acquisition history, migration context, and comparator boundary track the supplied evidence."
+    ],
+    "unsupportedOrUnclosedClaims": [
+      {
+        "text": "身体的曲线与相互呼应的手势却没有被它完全收拢",
+        "reason": "The supplied observation record supports light-colored bodies, clear contours, gestures, and geometric wall shapes, but does not establish the asserted curve-versus-containment mechanism. It is presented as an observable conclusion without an explicit inference marker."
+      },
+      {
+        "text": "使身体与墙体的相接、遮挡和分离更容易辨认",
+        "reason": "Contact and occlusion are new visual particulars absent from the supplied observation record; no supplied image evidence or recorded observation closes these claims."
+      },
+      {
+        "text": "两联的纵向伸展把手臂向上的动作拉长",
+        "reason": "The tall diptych and raised arms are supported, but the claim that the format elongates the action is an unmarked interpretive upgrade rather than a recorded observation."
+      }
+    ],
+    "factBoundaryVerdict": "FAIL"
+  },
+  "layerIndependence": {
+    "card": "PASS: independently answers why the work is worth opening and does not copy the quick layer or begin with a navigation command.",
+    "quick": "PASS: supplies a complete provisional answer and a usable viewing route without requiring the deep layer.",
+    "deep": "PASS: remains intelligible without the quick layer and develops structure, context, comparison, and collection significance rather than merely repeating it.",
+    "cardQuickDeepVerdict": "PASS"
+  },
+  "paragraphDependency": {
+    "verdict": "PASS",
+    "reason": "The deep layer moves from the physical seam, to the gestures' effect on that division, to the T-wall context, and only then to series comparison and Frye acquisition significance. Moving the comparison/significance paragraph ahead of the formal and contextual premises would remove its basis; the paragraphs are not freely interchangeable."
+  },
+  "narrativeVerdict": "PASS",
+  "narrativeEvidence": "One work-specific question governs the draft; the answer advances from division as a viewing action to gesture, infrastructure context, and a bounded importance judgment, then returns to the seam in the last look.",
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这幅双联让接缝和墙形切开身体，又让两边合拢的手彼此呼应；知道 T-wall 同时保护和分隔后，再看接缝，就会更清楚作品为什么把身体、边界和 Frye 的收藏节点放在一起。",
+    "readAloudVerdict": "failed",
+    "translationeseFindings": [
+      {
+        "text": "同时仍需把解释留在资料支持的范围内",
+        "reason": "This is reviewer-facing evidentiary administration embedded in the explanatory flow, not natural visitor-facing spoken Chinese."
+      },
+      {
+        "text": "这里能确认的是动作和重复关系，无法仅凭姿态确定人物的情绪或信仰",
+        "reason": "Together with the later boundary sentences, this creates a repeated audit cadence that interrupts the spoken explanation instead of absorbing the limit into natural narration."
+      },
+      {
+        "text": "其分量来自具体构图与 Frye 收藏方向的交会",
+        "reason": "The compressed nominal phrase '构图与收藏方向的交会' is abstract and reads like translated institutional criticism rather than something a Chinese speaker would naturally say aloud."
+      }
+    ],
+    "nativeChineseVerdict": "FAIL"
+  },
+  "significanceReview": {
+    "label": "重要藏品",
+    "fiveDimensions": {
+      "artisticAchievement": "PASS: identifies the diptych seam, repeated bodies, wall geometry, and gestures as the concrete compositional mechanism.",
+      "artHistoricalPosition": "PASS: places the work in Kahraman's mature T-Wall method without claiming a global turning point or career peak.",
+      "historicalCulturalValue": "PASS: connects military infrastructure and migration context while refusing to treat the painting as a record of a specific war event.",
+      "rarityAndIrreplaceability": "PASS: recognizes that other T-Wall works substitute for understanding the series method and therefore does not claim global irreplaceability.",
+      "collectionPosition": "PASS: identifies the exhibition-to-acquisition path and Frye's first work by an Iraqi artist as the museum-specific institutional node."
+    },
+    "nearestComparator": "Other works in Hayv Kahraman's T-Wall series.",
+    "sharedCore": "Bodies combined with the form of military blast walls.",
+    "decisiveDifference": "This work's diptych structure, prayer-hands motif, and Frye exhibition/acquisition history.",
+    "nonSubstitutabilityBoundary": "Other T-Wall works can substitute for the series method but cannot substitute for this object's place in Frye's collection history; the supplied evidence does not establish global quantity, unique rank, or career-peak status.",
+    "frye72Boundary": "PASS: the draft calls the work important to Frye and explicitly rejects global uniqueness; it does not make it a rare masterpiece capable of deciding a Seattle trip.",
+    "significanceVerdict": "PASS"
+  },
+  "workSpecificVerdict": "PASS",
+  "workSpecificEvidence": "The central seam, paired raised and joined hands, T-wall form, diptych structure, same-series comparator, and Frye acquisition node cannot be transferred unchanged to another work.",
+  "productionLanguageScan": {
+    "scanned": [
+      "card.txt",
+      "all visitor-visible prose in draft.md, including metadata, quick layer, deep layer, last look, fact boundary, and sources"
+    ],
+    "matchedForbiddenTerms": [],
+    "productionLanguageVerdict": "PASS"
+  },
+  "voiceScores": {
+    "entrance": {
+      "score": 2,
+      "evidence": "The quick layer immediately establishes the concrete tension between the cutting wall/seam and the echoed raised hands."
+    },
+    "causality": {
+      "score": 2,
+      "evidence": "The draft explains why the seam changes viewing, why the gesture changes the force of division, and why T-wall context changes the meaning of the geometry."
+    },
+    "people": {
+      "score": 1,
+      "evidence": "The artist's migration context and Frye's acquisition are present, but the institutional history is not made understandable through any concrete person's choice; this dimension is only partly applicable to the chosen argument."
+    },
+    "turn": {
+      "score": 2,
+      "evidence": "The supported shift from a generic wall shape to infrastructure that protects and separates changes how the seam and bodies are understood."
+    },
+    "visualPayoff": {
+      "score": 2,
+      "evidence": "Each main move returns to the seam, repeated bodies, raised hands, light bodies, and geometric wall shapes."
+    },
+    "oralClarity": {
+      "score": 1,
+      "evidence": "Much of the prose is clear, but repeated evidence-audit phrasing and the abstract phrase '具体构图与 Frye 收藏方向的交会' do not read aloud as natural visitor-facing Chinese."
+    },
+    "secondLook": {
+      "score": 2,
+      "evidence": "The ending gives a precise action—hold on the central seam and follow the paired hands—and asks whether their echo bridges or intensifies the distance."
+    },
+    "total": 12,
+    "maximum": 14,
+    "threshold": "at least 12/14 with no zero",
+    "thresholdMet": true,
+    "voiceVerdict": "PASS"
+  },
+  "hardGateFailures": [
+    "Fact boundary: remove or explicitly ground the unrecorded visual claims about curves/containment, contact/occlusion, and the tall format elongating the action; the supplied evidence does not close them as written.",
+    "Native Chinese: replace the repeated evidence-audit register and abstract institutional nominalization identified in translationeseFindings; the read-aloud/native-Chinese gate requires an empty findings list."
+  ],
+  "actionableFailureReasons": [
+    "Resolve each of the three identified visual assertions against the supplied observation evidence; do not leave interpretive upgrades phrased as direct observation.",
+    "Rework the three cited audit-like or abstract Chinese expressions so the visitor explanation can be naturally spoken aloud while preserving the same evidence limits."
+  ],
+  "finalVerdict": "FAIL",
+  "finalReason": "The mechanical and voice thresholds pass, but the fact-boundary and native-Chinese hard gates fail; any hard-gate failure requires FAIL."
+}

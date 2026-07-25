@@ -1,0 +1,98 @@
+{
+  "runId": "m28-v1.7.4-autumn-rhythm-fresh-isolated-2026-07-22",
+  "startedAt": "2026-07-22T20:12:33.7119099-07:00",
+  "stage": "author",
+  "researchMode": "fresh",
+  "museumId": "met",
+  "workId": "autumn-rhythm-number-30",
+  "workIdentity": {
+    "artist": "Jackson Pollock",
+    "title": "Autumn Rhythm (Number 30)",
+    "museum": "The Metropolitan Museum of Art"
+  },
+  "pipelineVersion": "2.0.8",
+  "instructionVersion": "1.7.4",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "disabledFeatures": [
+      "apps",
+      "memories",
+      "plugins",
+      "plugin_sharing",
+      "remote_plugin"
+    ]
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "c40c3256a498aa28f421fda409516c96046568cf79c8251bb9b6ecf8074fcf98"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "30a823bc0d6c1d41d6072ff3749a986711dd9e717cecb1f8ac534e6916b38307"
+    },
+    {
+      "path": "research/pipeline-tests/v1.7.4-autumn-rhythm-fresh-isolated/research-card.md",
+      "sha256": "bdb72de37bef8ece6742f72dd69c664b965c20eebf0570ac7a39476549c4e88c"
+    }
+  ],
+  "researchExecution": {
+    "sessionId": "019f8cf6-33be-7e11-b32e-c705a0ffe8bb",
+    "status": "completed",
+    "output": "research-card.md",
+    "sha256": "bdb72de37bef8ece6742f72dd69c664b965c20eebf0570ac7a39476549c4e88c",
+    "visibleCharacters": 3733
+  },
+  "authorExecution": {
+    "sessionId": "019f8cfe-0766-7ff3-99d2-067da09979bd",
+    "status": "completed_unreviewed",
+    "finishedAt": "2026-07-22T20:25:44.2792325-07:00",
+    "tokensReportedByCli": 82398,
+    "inputsRead": [
+      "run-header.json",
+      "research/generation-pipeline.md",
+      "research/meowseum-content-instruction.md",
+      "research/pipeline-tests/v1.7.4-autumn-rhythm-fresh-isolated/research-card.md"
+    ],
+    "outputs": [
+      {
+        "path": "writing-plan.json",
+        "sha256": "dbd47e31a7845cae81bd253f22cfa6da3d71e1f272122a277279b29d5d39e64a"
+      },
+      {
+        "path": "card.txt",
+        "sha256": "7636943fa536e3a08c19889e8bc95ee671d17a7226fea66709bb4e237317c66d"
+      },
+      {
+        "path": "draft.md",
+        "sha256": "59c7bea37936443ebc6271b48a4f5d4dbeec2f5645a9afd479ee1b502ae788c7"
+      }
+    ],
+    "reviewerRun": false,
+    "retryRun": false
+  },
+  "failedAuthorAttempts": [
+    {
+      "sessionId": "019f8cfa-87b6-7da3-b068-eb400e76b0da",
+      "status": "invalid_interrupted_before_outputs",
+      "reason": "read unlisted local skill file before run-header input enforcement",
+      "outputsUsed": []
+    }
+  ],
+  "launcherFailures": [
+    {
+      "status": "exited_before_model_start",
+      "reason": "local CLI does not recognize the skill_search feature flag",
+      "outputsUsed": []
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publication": "test_only_unreviewed_no_production_write"
+}

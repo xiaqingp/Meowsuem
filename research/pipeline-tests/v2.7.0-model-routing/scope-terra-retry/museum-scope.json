@@ -1,0 +1,130 @@
+{
+  "museumId": "vienna",
+  "stage": "museum_scope",
+  "generatedAt": "2026-07-24",
+  "museum": {
+    "zh": "维也纳艺术史博物馆",
+    "en": "Kunsthistorisches Museum Vienna"
+  },
+  "scope": {
+    "includedSite": {
+      "name": "Kunsthistorisches Museum",
+      "address": "Maria-Theresien-Platz, 1010 Vienna, Austria",
+      "boundary": "本轮只覆盖 Maria-Theresien-Platz 的 Kunsthistorisches Museum 主馆建筑及其在该址长期陈列的收藏部门。",
+      "sourceIds": ["visit", "collections-overview"]
+    },
+    "excludedSites": [
+      {
+        "name": "Neue Hofburg",
+        "reason": "馆方将其列为年票覆盖的另一处地点；该处的房间与展品可因建筑工程临时受限，并非本轮主馆建筑范围。",
+        "sourceIds": ["visit"]
+      },
+      {
+        "name": "Weltmuseum Wien",
+        "reason": "馆方年票页面将其作为 Heldenplatz 的独立博物馆地点，而不是 Maria-Theresien-Platz 主馆。",
+        "sourceIds": ["visit"]
+      },
+      {
+        "name": "Theatermuseum",
+        "reason": "馆方年票页面将其作为 Palais Lobkowitz 的独立博物馆地点。",
+        "sourceIds": ["visit"]
+      },
+      {
+        "name": "Imperial Treasury Vienna、Imperial Carriage Museum 与 Ambras Castle Innsbruck",
+        "reason": "馆方把它们列在年票可访问的其他地点；不纳入本轮 Maria-Theresien-Platz 主馆范围。",
+        "sourceIds": ["visit"]
+      },
+      {
+        "name": "临时展览",
+        "reason": "本轮候选池只建立于稳定馆藏；馆方首页另列有时间限定的 exhibitions，故不把临展作品并入。",
+        "sourceIds": ["home"]
+      }
+    ]
+  },
+  "collectionGroups": [
+    {
+      "name": "Picture Gallery",
+      "zh": "绘画馆",
+      "location": "Kunsthistorisches Museum, Maria-Theresien-Platz",
+      "includedInCandidatePool": true,
+      "reason": "馆方主馆访问页将其列为该址可见的核心收藏。",
+      "sourceIds": ["collections-overview"]
+    },
+    {
+      "name": "Kunstkammer Vienna",
+      "zh": "艺术珍宝馆",
+      "location": "Kunsthistorisches Museum, Maria-Theresien-Platz",
+      "includedInCandidatePool": true,
+      "reason": "馆方主馆访问页将其列为该址可见的核心收藏。",
+      "sourceIds": ["collections-overview"]
+    },
+    {
+      "name": "Egyptian and Near Eastern Collection",
+      "zh": "埃及与近东收藏",
+      "location": "Kunsthistorisches Museum, Maria-Theresien-Platz",
+      "includedInCandidatePool": true,
+      "reason": "馆方主馆访问页将其列为该址可见的核心收藏。",
+      "sourceIds": ["collections-overview"]
+    },
+    {
+      "name": "Collection of Greek and Roman Antiquities",
+      "zh": "希腊与罗马古物收藏",
+      "location": "Kunsthistorisches Museum, Maria-Theresien-Platz",
+      "includedInCandidatePool": true,
+      "reason": "馆方页面确认该收藏位于 Kunsthistorisches Museum，并说明其公共陈列约有 2,500 件物品。",
+      "sourceIds": ["antiquities"]
+    },
+    {
+      "name": "Coin Cabinet",
+      "zh": "钱币馆",
+      "location": "Kunsthistorisches Museum, Maria-Theresien-Platz",
+      "includedInCandidatePool": true,
+      "reason": "馆方的主馆收藏总览将其列为该址稳定收藏之一；候选阶段再核实可见性与对象页证据。",
+      "sourceIds": ["collections-overview"]
+    }
+  ],
+  "capacity": {
+    "provisional": 40,
+    "reason": "该址同时覆盖五个跨媒介、跨文明的稳定收藏群；馆方概述其藏品跨越五千年，范围从古埃及至18世纪末。核心20件不足以解释绘画馆、艺术珍宝馆与三组古代／物质文化收藏各自的形成与观看问题；40件容量允许后续在每一收藏群中建立有证据的代表性路线，但不预设旅行评分或具体入选作品。",
+    "sourceIds": ["home", "collections-overview", "antiquities"]
+  },
+  "uncertaintiesForNextStages": [
+    "钱币馆的当前可见对象、开放方式与适合纳入正式精选的数量，须在候选阶段以对象页和当前馆方信息确认。",
+    "各收藏中哪些对象当日展出、借展或轮换，须在候选与研究阶段逐件核实；本 scope 不把稳定馆藏等同于当天必定可见。",
+    "Maria-Theresien-Platz 主馆以外地点虽由同一博物馆联合体或年票关联，但是否需要另立内容条目，不在本轮主馆 scope 内决定。"
+  ],
+  "sources": [
+    {
+      "id": "visit",
+      "title": "Plan your visit",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/visit",
+      "accessedAt": "2026-07-24",
+      "supports": "确认主馆地址与入口，并区分年票覆盖的 Neue Hofburg、Weltmuseum Wien、Theatermuseum、Imperial Treasury、Imperial Carriage Museum 和 Ambras Castle 等其他地点。"
+    },
+    {
+      "id": "collections-overview",
+      "title": "The Kunsthistorisches Museum - Vienna",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/",
+      "accessedAt": "2026-07-24",
+      "supports": "确认主馆地址、五千年馆藏范围，以及主馆的绘画馆、艺术珍宝馆、埃及与近东收藏、希腊与罗马古物收藏和钱币馆。"
+    },
+    {
+      "id": "antiquities",
+      "title": "Collection of Greek and Roman Antiquities – 3,000 years of art",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/visit/collections/collection-of-greek-and-roman-antiquities/selected-masterpieces",
+      "accessedAt": "2026-07-24",
+      "supports": "确认希腊与罗马古物收藏在主馆、时间跨度与公共陈列约2,500件物品。"
+    },
+    {
+      "id": "home",
+      "title": "The Kunsthistorisches Museum - Vienna",
+      "publisher": "Kunsthistorisches Museum Vienna",
+      "url": "https://www.khm.at/en/",
+      "accessedAt": "2026-07-24",
+      "supports": "确认馆方将 exhibitions 单列并显示其时间限定性质，支持将临时展览排除出稳定收藏候选池。"
+    }
+  ]
+}

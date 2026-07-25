@@ -1,0 +1,31 @@
+{
+  "id": "PCR-2026-07-24-09",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-24",
+  "ownerInstruction": "用最新 pipeline 完成西雅图艺术博物馆整馆运行并直接更新主网站",
+  "baseRelease": "research/pipeline-releases/v2.7.3.json",
+  "targetVersion": "2.7.4",
+  "scope": [
+    "prepare verified assets and assembly-input from locked stage outputs without a model",
+    "use the museum hero as a non-blocking fallback when an official object image cannot be resolved",
+    "let the generic assembler bind a newly generated data file for a legacy museum before routes.js"
+  ],
+  "allowedCanonicalFiles": [
+    "scripts/prepare-museum-assembly.mjs",
+    "scripts/assemble-museum-candidate.mjs",
+    "research/generation-pipeline.md"
+  ],
+  "allowedManagementFiles": [
+    "research/content-standard-manifest.json",
+    "coho_museum/Milestones.md",
+    "coho_museum/knowledge.md"
+  ],
+  "requiredTests": [
+    "Seattle assembly input contains 20 works and only locked work ids",
+    "asset resolution uses official object pages or the documented museum hero fallback",
+    "generic assembly and future museum contract tests pass",
+    "project authority and pipeline causality gates pass",
+    "release idempotence and immutability pass"
+  ]
+}

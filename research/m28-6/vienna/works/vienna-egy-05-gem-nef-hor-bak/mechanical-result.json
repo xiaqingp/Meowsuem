@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-egy-05-gem-nef-hor-bak-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:41.891Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "f2364fa0c4ff9a520979f17a7cee0dbff26133e558c06ac291019b1992eb494f",
+      "bytes": 7544
+    },
+    {
+      "path": "card.txt",
+      "sha256": "74582969a34118184359766b343c9fa7be735451b3759b71919c603eb76a9bf4",
+      "bytes": 293
+    },
+    {
+      "path": "draft.md",
+      "sha256": "041aa487844e7c574ff3b7ad28a2cd0330a2d69641c320e824aeee53ec9802a4",
+      "bytes": 3197
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "runId": "m28-6-vienna-author-vienna-egy-05-gem-nef-hor-bak-2026-07-24",
+  "startedAt": "2026-07-24T07:30:03.851Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card",
+  "museumId": "vienna",
+  "workId": "vienna-egy-05-gem-nef-hor-bak",
+  "workIdentity": {
+    "artistOrCulture": "古埃及，可能来自塞易斯",
+    "title": "杰姆内夫霍尔巴克抱龛跪像",
+    "titleEn": "Naophorous Statue of Gem-nef-hor-bak",
+    "museum": "Kunsthistorisches Museum Vienna"
+  },
+  "pipelineVersion": "2.4.8",
+  "instructionVersion": "2.0.2",
+  "inputContractVersion": 1,
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "465e7a2ce500057a139dbb64ff9df36755a6525a1f3a960e90fa0263a572ebfe"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-04/vienna-egy-05-gem-nef-hor-bak-research-card.md",
+      "role": "research_card",
+      "sha256": "e13611c63aeaffc89df0a9af6b5688309b7e0e3e6a16e12c9f614eac02bdcba0"
+    },
+    {
+      "path": "research/m28-6/vienna/works/vienna-egy-05-gem-nef-hor-bak/work-context.json",
+      "role": "work_context",
+      "sha256": "d5eaaa7d5d9fbb3ecd1d807e406e2060d71f9d7ae5ae728ba5711205af979775"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

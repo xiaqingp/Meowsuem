@@ -1,0 +1,248 @@
+{
+  "artifactType": "作者自审",
+  "workId": "autumn-rhythm-number-30",
+  "runId": "m28-v2.0.3-full-2026-07-22",
+  "pipelineVersion": "2.0.3",
+  "instructionVersion": "1.6.7",
+  "upstream": {
+    "file": "draft.md",
+    "sha256": "01f72f8f3997dcebebdab4168f2ed4d91d6b45defe80c0a8e11c4e3807f4d5b6"
+  },
+  "reviewScope": "作者对新生成 draft.md 的逐段依赖、断言闭环、中文朗读、双层阅读、对象专属性、重要性与事实边界自审。作者判断不构成最终通过证据。",
+  "coreQuestion": "没有中心形象的线网，怎样让人看出波洛克在巨大画面上同时借助重力并保持控制？",
+  "layerIndependence": {
+    "cardToDetail": {
+      "judgment": "satisfied",
+      "basis": "card.txt 只给出点开理由；draft.md 另行建立观看矛盾、机制、成熟期与比较结论，没有扩写或改写卡片原句作为快层。"
+    },
+    "quickWithoutDeep": {
+      "judgment": "satisfied",
+      "basis": "快层独立交代值得看的矛盾、长弧—疏密—远观路线，以及即兴与控制并存的暂时答案。"
+    },
+    "deepWithoutQuick": {
+      "judgment": "satisfied",
+      "basis": "深层从线迹差异重新建立问题，再依次解释地面方法、可见控制、成熟期和可比对象，不依赖快层补足论证。"
+    },
+    "endingTransformation": {
+      "judgment": "satisfied",
+      "basis": "结尾要求把一条长弧的落点放回密集结点、空隙与覆盖层，检验局部动作如何进入整体秩序，使用了深层新建立的控制概念。"
+    }
+  },
+  "narrativeReview": [
+    {
+      "paragraph": "深层第 1 段：拆开‘线网’，辨认长弧、回环、飞溅、粗细和落点。",
+      "dependsOn": "只依赖零背景读者能看见一幅没有中心人物的多色线迹横幅。",
+      "newUnderstanding": "线网不是单一纹样，而是不同动作与材料状态的可见痕迹；核心问题从寻找形象改为解释痕迹怎样组成巨画。",
+      "breaksIfMovedEarlier": "它是深层入口，不能再提前；若删去，后文的作画方法会失去需要解释的具体视觉差异。"
+    },
+    {
+      "paragraph": "深层第 2 段：说明未绷框画布铺地、从四边移动以及滴、泼、甩、抹。",
+      "dependsOn": "依赖上一段已经区分出的线迹速度、方向和状态差异。",
+      "newUnderstanding": "读者知道身体换位、动作速度、材料流动与重力怎样产生这些差异，同时仍需追问整体为何成立。",
+      "breaksIfMovedEarlier": "若在观察前出现，地面作画会变成孤立技法知识，读者看不到它具体解释了哪些线迹。"
+    },
+    {
+      "paragraph": "深层第 3 段：以多层覆盖、疏密、留白和横向起伏定位控制。",
+      "dependsOn": "依赖上一段已确认重力和身体动作能解释线条变化，却尚未解释整体组织。",
+      "newUnderstanding": "控制被界定为作画中对落点、覆盖、疏密与整体关系的持续处理，不等于逐线预画。",
+      "breaksIfMovedEarlier": "若放到地面方法之前，‘调节’没有材料和动作机制作为前提，也无法回答重力与控制如何共存。"
+    },
+    {
+      "paragraph": "深层第 4 段：把地面方法扩展到 1950 年的巨幅全幅结构和抽象表现主义语境。",
+      "dependsOn": "依赖前文已经解释的局部动作与整体控制，才能判断大尺幅不是单纯尺寸信息。",
+      "newUnderstanding": "眼前机制被放进波洛克从 1947 年滴流节点到 1950 年成熟运用的创作位置，并说明其艺术史意义及因果边界。",
+      "breaksIfMovedEarlier": "若提前，成熟期和抽象表现主义会成为百科标签，尚未落到本作的可见机制。"
+    },
+    {
+      "paragraph": "深层第 5 段：与《一：第 31 号，1950》和《满五寻》比较并得出‘重要藏品’。",
+      "dependsOn": "依赖前文已建立的核心价值——巨幅画面中身体、材料、重力与控制的结合——才能判断比较对象是否可替代。",
+      "newUnderstanding": "本作的横向节奏和收藏位置有自身价值，但强比较作能提供相近认识，因此不满足全球不可替代性硬门。",
+      "breaksIfMovedEarlier": "若没有先定义核心价值，比较会退化为作品名单，无法支撑降级结论。"
+    },
+    {
+      "paragraph": "深层第 6 段：收窄题名解释，回到颜料如何落下、交叠和停住。",
+      "dependsOn": "依赖前文已把价值落在实际制作痕迹，并完成成熟期与重要性判断。",
+      "newUnderstanding": "题名只提示变化与节奏，不把抽象线迹锁定为具体自然对象；核心问题最终仍由可观察机制回答。",
+      "breaksIfMovedEarlier": "若提前，事实限制会打断机制推进，并在读者尚未寻找自然对象时制造凭空纠错。"
+    }
+  ],
+  "assertionClosure": [
+    {
+      "sentence": "波洛克自 1947 年起把未绷框的画布铺在地面，可以从四边接近，用稀释颜料滴、泼、甩、抹。",
+      "riskCategory": "process",
+      "evidenceType": "来源事实",
+      "sourceOrBasis": "大都会作品对象页、MoMA 过程与材料资料；研究卡已记录。",
+      "confidence": "高：直接权威来源支持作画时间节点、地面方式与动作。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "颜料离开工具后受重力牵引，手臂摆动的幅度、身体换位的方向、动作快慢和颜料的流动性，都会改变线迹。",
+      "riskCategory": "causation",
+      "evidenceType": "来源事实与可追溯材料机制",
+      "sourceOrBasis": "馆方资料强调重力、速度、身体移动和颜料流动进入画面；研究卡已记录。",
+      "confidence": "高：资料明确支持这些因素进入作画过程，正文未声称可由单条线反推出唯一动作。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "更可靠的理解是，波洛克在作画过程中持续处理落点、覆盖、疏密与整体关系。",
+      "riskCategory": "intent-and-control",
+      "evidenceType": "来源事实加编辑推断",
+      "sourceOrBasis": "馆方明确强调即兴与控制；多层覆盖、疏密区、留白和整体节奏为直接观察。措辞限定为过程中的处理，不主张预定图纸或具体心理意图。",
+      "confidence": "高：来源与视觉证据共同支持控制存在；具体控制形式以可见关系表述。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "1950 年的《秋韵：第 30 号》把这个问题落实为 5.28 米宽的全幅结构。",
+      "riskCategory": "historical-sequence",
+      "evidenceType": "来源事实与编辑归纳",
+      "sourceOrBasis": "1947 年可移动巨幅设想、作品 1950 年年代及 528.3 厘米尺寸均见资料包；‘落实’只指本作体现该问题，不宣称首次。",
+      "confidence": "高：时间和尺寸有直接来源，因果强度已收窄。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "它属于战后纽约成为现代艺术重要中心的历史语境，但这场转变有更复杂的成因，不能归功于单件作品。",
+      "riskCategory": "historical-causation",
+      "evidenceType": "艺术史背景与边界限定",
+      "sourceOrBasis": "大都会抽象表现主义资料与封存资料包；写作计划明确禁止单件归因。",
+      "confidence": "高：语境判断有权威资料支持，正文明确拒绝超额单因果。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "纽约现代艺术博物馆的《一：第 31 号，1950》与它同年，方法、巨幅尺度和全幅组织都高度可比。",
+      "riskCategory": "comparison",
+      "evidenceType": "来源事实与同类比较",
+      "sourceOrBasis": "MoMA 对象页及研究卡的最近比较对象记录。",
+      "confidence": "高：同年、方法、规模与全幅结构均由封存资料明确给出。",
+      "verdict": "retain"
+    },
+    {
+      "sentence": "现有证据不足以把这些差异说成全球不可替代。",
+      "riskCategory": "irreplacability",
+      "evidenceType": "比较结论",
+      "sourceOrBasis": "《一：第 31 号，1950》能够提供相近的成熟期巨幅控制认识，《满五寻》能够提供较早滴流节点；未有决定性差异证据。",
+      "confidence": "高：这是对证据上限的保守判断，符合未知不得按通过处理的硬门。",
+      "verdict": "retain-and-label-important-not-treasure"
+    },
+    {
+      "sentence": "馆方把‘秋韵’与十月及自然持续变化联系起来。",
+      "riskCategory": "title-meaning",
+      "evidenceType": "归属明确的来源解释",
+      "sourceOrBasis": "大都会作品解释；研究卡将其标为中等置信度并禁止升级为具体秋景。",
+      "confidence": "中：是馆方解释而非图像确定所指，正文保留归属并立即收窄。",
+      "verdict": "retain-with-attribution"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "factTypeAudit": {
+    "sourceFacts": [
+      "作者、年代、材质、尺寸、收藏地点与核验时展厅",
+      "1947 年起的地面作画方法和从四边工作",
+      "1947 年关于架上画与壁画之间的可移动巨幅设想",
+      "壁画兴趣、抽象表现主义语境和 1957 年入藏",
+      "两件 MoMA 比较作及题名解释"
+    ],
+    "directObservations": [
+      "黑、白、棕褐、灰色线迹互相覆盖",
+      "长弧、回环、短促飞溅和粗细差",
+      "密集结点、稀疏区、底色与裸画布露出",
+      "远观可见横向疏密节奏"
+    ],
+    "editorialInferences": [
+      "疏密、覆盖和留白使过程中的调节可见",
+      "强比较作可提供相近核心认识，因此不可替代性未证",
+      "题名提示变化与节奏，但不能锁定具体自然对象"
+    ],
+    "judgment": "satisfied",
+    "basis": "编辑推断均给出可回查的事实或视觉依据，并用‘更可靠的理解’‘现有证据不足’等措辞显示边界。"
+  },
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这幅五米多宽的画虽然没有中心形象，近看每条线却有不同动作和落点，远看又有疏密节奏；把画布铺地让重力和身体进入画面，覆盖、留白和整体关系则让控制变得可见，所以它是波洛克成熟期的重要代表作，但还不能说没有别的作品能替代这种认识。",
+    "translationeseFindings": [],
+    "readAloudChecks": {
+      "card": "自然；一句话能清楚复述点开价值。",
+      "quickLayer": "自然；矛盾、观看动作和暂时答案连续，不依赖研究字段。",
+      "titles": "自然且对象专属；问题依次从线网成立、地面方法、控制、成熟期推进到同类比较。",
+      "transitions": "自然；每段末尾产生下一问，没有依靠‘另外’‘与此同时’拼接栏目。",
+      "ending": "自然；动作具体，并回收局部动作如何进入整体控制。"
+    },
+    "readAloudVerdict": "passed"
+  },
+  "significanceReview": {
+    "label": "重要藏品",
+    "comparisonClass": "波洛克 1947—1950 年间以滴流为主要方法的大型全幅绘画",
+    "nearestComparators": [
+      "MoMA《一：第 31 号，1950》",
+      "MoMA《满五寻》，1947"
+    ],
+    "fiveDimensions": {
+      "artisticAchievement": "覆盖、疏密、留白和不同线速组织 5.28 米横幅，使动作痕迹形成可辨整体节奏。",
+      "artHistoricalPosition": "1950 年成熟期代表实例，体现抽象表现主义将行为、材料和大尺幅推到核心。",
+      "historicalCulturalValue": "能说明战后纽约现代艺术语境，但未承担或单独造成艺术中心转移。",
+      "rarityAndIrreplaceability": "同年巨幅滴画与较早方法节点均有强比较作，决定性不可替代差异未证。",
+      "collectionPosition": "1957 年进入大都会收藏，是其波洛克代表性全幅滴画；未升级为资料未证明的稳定馆藏核心。"
+    },
+    "decisiveDifference": "本作自身的横向尺度、具体线网节奏和大都会收藏史位置成立，但不足以构成全球不可替代的决定性差异。",
+    "hardGateJudgment": "does_not_qualify_as_rare_treasure",
+    "basis": "比较对象可提供相近核心价值，稀世珍品硬门第 3、4 问不能成立。"
+  },
+  "observableDetailCheck": {
+    "count": 4,
+    "details": [
+      "长弧的粗细变化、断开与落点",
+      "短促飞溅与连续回环的差别",
+      "堆叠结点旁露出的底色与裸画布",
+      "横向稀疏区与密集区的交替"
+    ],
+    "judgment": "satisfied"
+  },
+  "styleAndTemplateCheck": {
+    "objectSpecificEntry": "从无中心线网却能维持整体秩序的可见矛盾进入。",
+    "genericOpeningUsed": false,
+    "guideCommandOpeningUsed": false,
+    "fullNegationTurnSkeletonCountInVisitorBody": 1,
+    "fixedPhraseCopyDetected": false,
+    "humorUsed": false,
+    "judgment": "satisfied"
+  },
+  "voiceAssessment": {
+    "note": "作者只记录逐项依据，不给 0—2 分或通过总分；数字评分和最终 verdict 留给独立 reviewer。",
+    "entry": "具体矛盾是线迹四散而整体不散；快层当场给出观察路径。",
+    "causality": "线迹差异引出地面方法，地面方法留下整体问题，疏密与覆盖回答控制问题。",
+    "humanAgency": "身体换位、手臂摆动与过程中的调节使艺术方法可理解，没有虚构心理。",
+    "turn": "从‘动作留下痕迹’推进到‘整体关系显示控制’，认知变化由视觉证据支撑。",
+    "visualPayoff": "历史与方法均回到长弧、落点、覆盖、留白和疏密节奏。",
+    "spokenClarity": "专业概念都由动作或眼前细节解释，可用日常中文复述。",
+    "secondLook": "沿长弧到落点，再核对它经过的结点、空隙和覆盖层。"
+  },
+  "gateJudgments": {
+    "mechanicalVerdict": {
+      "authorJudgment": "satisfied",
+      "basis": "元数据、双层结构、四个细节、最后一眼、事实边界和可点击资料齐全；直接上游及实际 SHA-256 已记录。"
+    },
+    "factBoundaryVerdict": {
+      "authorJudgment": "satisfied",
+      "basis": "随机、具体秋景、逐线预定、纽约崛起单因果、最高级和不可替代性均已逐句限制；计划外高风险断言为空。"
+    },
+    "narrativeVerdict": {
+      "authorJudgment": "satisfied",
+      "basis": "六个深层段落形成观察—机制—控制—时期—比较—题名回收的依赖链，调换会损害前提。"
+    },
+    "nativeChineseVerdict": {
+      "authorJudgment": "satisfied",
+      "basis": "已朗读卡片、快层、标题、转折和结尾；可一口气复述，翻译腔发现为空。"
+    },
+    "significanceVerdict": {
+      "authorJudgment": "satisfied",
+      "basis": "五维判断、比较类别和最近对象齐全；因决定性差异与不可替代性未证，严格保留‘重要藏品’。"
+    },
+    "overallVerdict": {
+      "authorJudgment": "not_issued",
+      "basis": "作者自审不签发 PASS/FAIL；须由未参与成稿的独立 reviewer 结合机械门和人工门给出最终 verdict。"
+    }
+  },
+  "unresolvedRisks": [
+    "资料核验后的具体展厅和在展状态可能变化，发布或到访前仍需查馆方实时页面。",
+    "全球同类作品总数、同类客观优劣排序与本作稳定馆藏核心地位未获证明，正文已避免相应强断言。",
+    "最终机械、事实边界、叙事、母语和重要性 verdict 仍待独立 reviewer 签发。"
+  ]
+}

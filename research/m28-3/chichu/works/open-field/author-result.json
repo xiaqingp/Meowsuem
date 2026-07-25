@@ -1,0 +1,40 @@
+{
+    "runId":  "m28-3-chichu-author-open-field-2026-07-23",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.2",
+    "instructionVersion":  "2.0.1",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-23T20:08:00.5039614-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/generation-pipeline.md",
+                       "sha256":  "8ddda4087bb5ee9fb60782eedcfb29152636ea0818f570631638c3016f11c90e"
+                   },
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "sha256":  "bb9ad5d44fbb6b6382c90e17599c100648ca295800d57ff1b40f3cfc09b039ee"
+                   },
+                   {
+                       "path":  "research/m28-3/chichu/research-batch-02/open-field-research-card.md",
+                       "sha256":  "a39457e8af358bd581d1b6612457035c6114f9a29c55a53b5559f2d4e6dfaa7b"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "27fddc8042f14c0306b965bc500cf08d9998397b97adb79f7bc5a1278a1e8942",
+                        "bytes":  7164
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "3c0d6c9a82d8d512e0f834e281319c1d980eed88a0cd3107066ba7827eb15bbc",
+                        "bytes":  238
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "3c2fd437dcf95875112ba336d1841a38d5ffe19fa0203c678902b2ac87c2397d",
+                        "bytes":  4002
+                    }
+                ]
+}

@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-ant-03-brygos-skyphos-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:31:38.3756895-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-03/vienna-ant-03-brygos-skyphos-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "014ec617698e800f7cf48684acfdb8a6a8b0d12562d03d99ae984d4c2ee2f3dc"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-ant-03-brygos-skyphos/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "dbd41d0b0865597a7924058730c078fb560fe3aac659b31d031903b64ad99d32"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "88273bc6d0b159667bd7bbf2f356a31d5d2bb748ca1943a570e10811d43a9f4d",
+                        "bytes":  10148
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "71bf82defd16f72f93815183a7c1223c34123033948516236bb7bc9c1f9a13e0",
+                        "bytes":  288
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "133a6437f930f189569c11077d8c7506573674f6ec5b6f673a5839bbf98354b1",
+                        "bytes":  4638
+                    }
+                ]
+}

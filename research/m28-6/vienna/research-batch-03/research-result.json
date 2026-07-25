@@ -1,0 +1,75 @@
+{
+    "runId":  "m28-6-vienna-fresh-research-batch-03-2026-07-23",
+    "stage":  "research",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:15:55.8081800-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/generation-pipeline.md",
+                       "sha256":  "a65e9a4cb1477e4dfb00f06871483c928224dee22b69e292b84b2dcc7cdb4b24"
+                   },
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-03/candidate-packet.json",
+                       "sha256":  "26a6050526399488fc837ee2eb3c10f54adc3d859d2dc887495d744b9035d6ef"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "vienna-kk-05-rudolf-ii-bust-research-card.md",
+                        "sha256":  "33376031fcccf10bc9836242ac6d55f9fa51b7a041a4846b7fd18523bcb847f4",
+                        "bytes":  4447
+                    },
+                    {
+                        "path":  "vienna-kk-06-dragon-bowl-research-card.md",
+                        "sha256":  "d14ad82e794aa73988742070861146261c8dd5906f045dc95e8509fed9673e21",
+                        "bytes":  4252
+                    },
+                    {
+                        "path":  "vienna-kk-07-rock-crystal-pyramid-research-card.md",
+                        "sha256":  "9beb7b4094bd3240ce00c4c1b48ac01ce9e04d186d3e8b8b878f06a838c6e82f",
+                        "bytes":  3967
+                    },
+                    {
+                        "path":  "vienna-kk-08-bellerophon-pegasus-research-card.md",
+                        "sha256":  "c358f5c0f17df9b396ee5b4adac04cd24ea7889fd88a9d6bb50b564d64c5c14a",
+                        "bytes":  4443
+                    },
+                    {
+                        "path":  "vienna-ant-01-gemma-augustea-research-card.md",
+                        "sha256":  "08eeb634109391956836d993da1c569415bf3c1cd77eba4d95182fe7c3fcd8dd",
+                        "bytes":  4129
+                    },
+                    {
+                        "path":  "vienna-ant-02-nagyszentmiklos-treasure-research-card.md",
+                        "sha256":  "eb5a46121c34f67bcd46742490c517a26939fd82b79bd2e3194ac8d82778bcdf",
+                        "bytes":  5037
+                    },
+                    {
+                        "path":  "vienna-ant-03-brygos-skyphos-research-card.md",
+                        "sha256":  "014ec617698e800f7cf48684acfdb8a6a8b0d12562d03d99ae984d4c2ee2f3dc",
+                        "bytes":  4199
+                    },
+                    {
+                        "path":  "vienna-ant-04-bacchanalia-decree-research-card.md",
+                        "sha256":  "e6dfe23d5bb9cad3b368029d26dcf83a5e6891f4541e1eea8a4e57402cea2232",
+                        "bytes":  4393
+                    },
+                    {
+                        "path":  "vienna-ant-05-amazon-sarcophagus-research-card.md",
+                        "sha256":  "b3ef70785f7f45a60e4919da11df925b09ab8dc5c900e74555a359e9643662cb",
+                        "bytes":  3967
+                    },
+                    {
+                        "path":  "vienna-ant-06-theseus-mosaic-research-card.md",
+                        "sha256":  "600cbb98ade4d0363fc7186febb62ca2dda044a8f6a2841f59fd8cf5392c515c",
+                        "bytes":  4181
+                    }
+                ]
+}

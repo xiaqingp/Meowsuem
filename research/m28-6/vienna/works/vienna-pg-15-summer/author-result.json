@@ -1,0 +1,43 @@
+{
+    "runId":  "m28-6-vienna-author-vienna-pg-15-summer-2026-07-24",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:46:01.5257069-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-02/vienna-pg-15-summer-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "89da0e76078fb3fb5cf394d1627c53edfa7709e46b3851b88964eb2d24372668"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/works/vienna-pg-15-summer/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "56c111b0bc9c386dd6c811b4898a03a368c371335a5a2867f44f2c3fd9128377"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "a2fbf410c8c54c06d89d3861a0b1c4ecbac7ee61f61bf21d77d7e82e339697d4",
+                        "bytes":  12357
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "ffe0ce54d84bdaa7d184bac3a66175d95fb0f54ba4a64051a28861f5bc1c80fb",
+                        "bytes":  232
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "d2b2a6eb9ff414615d6dd507ca0f1c6e84076a977a899702d06d6157238c1c47",
+                        "bytes":  4206
+                    }
+                ]
+}

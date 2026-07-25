@@ -1,0 +1,186 @@
+{
+  "schemaVersion": "author-bundle/1.0",
+  "museumId": "vienna",
+  "workId": "vienna-ant-05-amazon-sarcophagus",
+  "narrativeMainline": {
+    "valueType": "ritual_or_original_context",
+    "mainline": "这件大型石棺把精英墓葬塑造成一座被神话战争环绕的纪念物：建筑式箱体提供庄重外壳，四面连续的希腊人与亚马孙战斗则把死亡纪念接入泛希腊的英雄叙事。它出自塞浦路斯王城Soloi，又使用彭特利库斯大理石和希腊神话语言，因此尤其能说明当地精英怎样借用跨地域的材料与图像表达身份；墓主及其现实战争经历仍未确认。",
+    "readerStartingPoint": "读者从标题和作品图像可以知道这是一具石棺，四面浮雕表现希腊人与亚马孙交战；人物身份、墓主是谁以及神话与现实历史的关系并不能仅凭画面确认。",
+    "visualAnchor": "拉长的建筑式箱体、四面连续战斗带、英雄式裸体的希腊战士、穿长裤与长袖束带衣的亚马孙，以及铺豹皮鞍毯的战马共同支撑主线。",
+    "storyBeats": [
+      {
+        "materials": [
+          "零背景可确认对象与图像证据",
+          "身份与展陈"
+        ],
+        "readerGain": "先明白这不是一块独立战斗浮雕，而是一具以建筑式箱体和四面战斗带共同构成的墓葬纪念物。"
+      },
+      {
+        "materials": [
+          "零背景可确认对象与图像证据",
+          "原境、历史解释与候选价值证据"
+        ],
+        "readerGain": "通过希腊战士与波斯式亚马孙服装的区分，理解神话战争如何用服装和武器把双方编码为不同阵营。"
+      },
+      {
+        "materials": [
+          "原境、历史解释与候选价值证据",
+          "比较、不可替代性与边界"
+        ],
+        "readerGain": "把Soloi出土地、进口大理石与泛希腊神话联系起来，同时保留墓主和现实战争影射尚未确定的边界。"
+      },
+      {
+        "materials": [
+          "发现与收藏史、趣闻"
+        ],
+        "readerGain": "知道这件墓葬物在欧洲收藏史中先后变成富商藏品、花园陈设和大厅展品，从而理解观看语境如何改变。"
+      }
+    ],
+    "humorBasis": "一件原本包围死者的墓葬物，后来先后出现在富商收藏、皇宫花园和图书馆大厅；语境反差来自有来源的迁移史。",
+    "mustNotAssume": [
+      "墓主就是Stasikrates。",
+      "浮雕描绘的就是公元前332年提尔战役。",
+      "亚马孙服装证明现实敌人是波斯人。",
+      "现存箱体保留原盖，或原盖形制已经确定。",
+      "石棺在同类中唯一，或已知同类总数。",
+      "人物姿态能够证明其恐惧、骄傲或其他心理。",
+      "四面浮雕构成一段可按观看顺序复原的真实时间线。",
+      "大理石的具体运输路线或制作工坊已经确定。"
+    ],
+    "highRiskClaims": [
+      {
+        "claim": "墓主属于Soloi末代王族，可能是Stasikrates。",
+        "evidenceType": "馆方推测",
+        "allowedWording": "馆方认为墓主很可能属于Soloi末代王族，并把Stasikrates列为一种可能。",
+        "forbiddenUpgrade": "墓主就是Stasikrates，或王室身份已经确认。"
+      },
+      {
+        "claim": "亚马孙之战影射墓主参加的现实战争。",
+        "evidenceType": "馆方可能解释",
+        "allowedWording": "这套神话战争可能影射墓主参与的现实战争。",
+        "forbiddenUpgrade": "浮雕记录了提尔战役，或可据此重建墓主经历。"
+      },
+      {
+        "claim": "亚马孙的服装具有波斯式特征。",
+        "evidenceType": "来源事实与直接观察",
+        "allowedWording": "长裤、长袖束带衣、披风与帽子构成图像传统中的波斯式装束。",
+        "forbiddenUpgrade": "亚马孙就是波斯人，或现实敌人已经确定为波斯人。"
+      },
+      {
+        "claim": "作品属于全球不可替代的孤品。",
+        "evidenceType": "比较证据不足",
+        "allowedWording": "它以明确Soloi出土地、进口大理石和四面战斗浮雕的组合体现自身价值；全球同类总数未确认。",
+        "forbiddenUpgrade": "唯一、仅存、同类最佳或稀世珍品。"
+      },
+      {
+        "claim": "四面战斗表现真实事件的先后过程。",
+        "evidenceType": "直接观察仅支持连续战斗场面",
+        "allowedWording": "四面连续表现步战与骑战，形成环绕箱体的战斗带。",
+        "forbiddenUpgrade": "按浮雕排列断定真实战事的时间顺序或结局。"
+      },
+      {
+        "claim": "创作者意在宣扬墓主的具体战功。",
+        "evidenceType": "原境解释与墓主身份均未确认",
+        "allowedWording": "神话战争为精英墓葬提供了英雄化的纪念语言，并可能联系墓主的现实战争经历。",
+        "forbiddenUpgrade": "断言创作者的明确意图或墓主的具体战功。"
+      }
+    ]
+  },
+  "displayMetadata": {
+    "by": "希腊文化",
+    "date": "公元前4世纪后半叶",
+    "material": "彭特利库斯大理石",
+    "place": "古物馆第XI厅在展",
+    "priority": "强烈推荐",
+    "significance": "重要藏品",
+    "stay": "建议停留8—10分钟",
+    "availability": "confirmed_on_view",
+    "imagePolicy": "object_image"
+  },
+  "claimLedger": [
+    {
+      "id": "C01",
+      "claim": "作品为希腊文化、公元前4世纪后半叶的彭特利库斯大理石石棺，发现于塞浦路斯古王城Soloi。",
+      "type": "source_fact",
+      "researchCardLocation": "身份与展陈"
+    },
+    {
+      "id": "C02",
+      "claim": "箱体呈拉长的建筑形，下有两级基座，四角有壁柱；原盖不存，坡屋顶形制仅为馆方推测。",
+      "type": "direct_observation_and_source_fact",
+      "researchCardLocation": "零背景可确认对象与图像证据"
+    },
+    {
+      "id": "C03",
+      "claim": "四面浮雕连续表现希腊人与亚马孙交战，包含步战和骑马人物。",
+      "type": "direct_observation",
+      "researchCardLocation": "零背景可确认对象与图像证据"
+    },
+    {
+      "id": "C04",
+      "claim": "希腊战士采用英雄式裸体、披短斗篷，武器装备接近重装步兵。",
+      "type": "direct_observation_and_source_fact",
+      "researchCardLocation": "零背景可确认对象与图像证据"
+    },
+    {
+      "id": "C05",
+      "claim": "亚马孙穿长裤、长袖束带衣、披风与帽子，使用短剑、双刃斧、投矛和半月形盾。",
+      "type": "direct_observation_and_source_fact",
+      "researchCardLocation": "零背景可确认对象与图像证据"
+    },
+    {
+      "id": "C06",
+      "claim": "所有战马铺有豹皮鞍毯，人物、马匹和武器沿长箱体构成连续战斗带。",
+      "type": "direct_observation",
+      "researchCardLocation": "零背景可确认对象与图像证据"
+    },
+    {
+      "id": "C07",
+      "claim": "希腊战士与波斯式亚马孙服装的对照，把异族战争编码进神话，但不能据此确认现实敌人身份。",
+      "type": "source_fact_and_bounded_editorial_explanation",
+      "researchCardLocation": "原境、历史解释与候选价值证据"
+    },
+    {
+      "id": "C08",
+      "claim": "馆方认为墓主很可能属于Soloi末代王族，Stasikrates只是可能人选。",
+      "type": "qualified_source_fact",
+      "researchCardLocation": "原境、历史解释与候选价值证据"
+    },
+    {
+      "id": "C09",
+      "claim": "神话战争可能影射墓主参与的现实战争，但与公元前332年提尔战役的联系未定。",
+      "type": "qualified_source_fact",
+      "researchCardLocation": "原境、历史解释与候选价值证据；比较、不可替代性与边界"
+    },
+    {
+      "id": "C10",
+      "claim": "明确的Soloi出土地、彭特利库斯大理石输入、四面战斗和可能的王族联系，共同连接塞浦路斯地方政治与泛希腊视觉语言。",
+      "type": "source_fact_and_editorial_synthesis",
+      "researchCardLocation": "比较、不可替代性与边界"
+    },
+    {
+      "id": "C11",
+      "claim": "西顿王室石棺可比较建筑式箱体、王室墓葬和战争浮雕，却不能替代本件明确的Soloi出土地；全球同类总数未确认。",
+      "type": "comparison_fact",
+      "researchCardLocation": "比较、不可替代性与边界"
+    },
+    {
+      "id": "C12",
+      "claim": "作品1557年在Soloi发现，1558年运至威尼斯，1567年归Fugger家族，后由哈布斯堡购得并先后陈设于霍夫堡花园、宫廷图书馆大厅，1805年归古物柜。",
+      "type": "source_fact",
+      "researchCardLocation": "发现与收藏史、趣闻"
+    },
+    {
+      "id": "C13",
+      "claim": "作品馆藏号为Antikensammlung I 169，现于古物馆第XI厅在展。",
+      "type": "source_fact",
+      "researchCardLocation": "身份与展陈"
+    },
+    {
+      "id": "C14",
+      "claim": "作品应列为强烈推荐、重要藏品；全球不可替代性尚未完成比较。",
+      "type": "research_card_evaluation",
+      "researchCardLocation": "身份与展陈；比较、不可替代性与边界"
+    }
+  ]
+}

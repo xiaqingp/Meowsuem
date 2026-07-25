@@ -1,0 +1,26 @@
+{
+  "museumId": "muxin",
+  "cacheKey": "20260724-m28-9-muxin",
+  "files": [
+    {
+      "source": "muxin.js",
+      "destination": "muxin.js"
+    },
+    {
+      "source": "muxin-content-v2.md",
+      "destination": "research/muxin-content-v2.md"
+    },
+    {
+      "source": "ratings.js",
+      "destination": "ratings.js"
+    },
+    {
+      "source": "routes.js",
+      "destination": "routes.js"
+    }
+  ],
+  "cachePages": [
+    "index.html",
+    "museum.html"
+  ]
+}

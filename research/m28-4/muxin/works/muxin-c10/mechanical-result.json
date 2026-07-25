@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.7",
+  "runId": "m28-4-muxin-author-muxin-c10-2026-07-23",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T05:03:07.760Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "70e9c93495b2a11c82e52b47a82a3a08ad786c4c88acd93008e2db247149b8b2",
+      "bytes": 6915
+    },
+    {
+      "path": "card.txt",
+      "sha256": "8e05facec8d33ae4cbffbc4a8bfa000b6ac6d557e4f6b7354da75d6e61c0910e",
+      "bytes": 314
+    },
+    {
+      "path": "draft.md",
+      "sha256": "19e25dcf9112b83a3f318dd244ac9a882351d1c803de012f0cb00eff5c218f70",
+      "bytes": 3379
+    }
+  ]
+}

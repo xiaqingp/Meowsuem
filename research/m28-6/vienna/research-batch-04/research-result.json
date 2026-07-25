@@ -1,0 +1,75 @@
+{
+    "runId":  "m28-6-vienna-fresh-research-batch-04-2026-07-23",
+    "stage":  "research",
+    "pipelineVersion":  "2.4.8",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-24T00:20:15.4598262-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/generation-pipeline.md",
+                       "sha256":  "a65e9a4cb1477e4dfb00f06871483c928224dee22b69e292b84b2dcc7cdb4b24"
+                   },
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-6/vienna/research-batch-04/candidate-packet.json",
+                       "sha256":  "85db91670d4553bf82d1f7acfe383760e159afa8a4c66baa0efa13f433252e9a"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "vienna-egy-01-ka-ni-nisut-chapel-research-card.md",
+                        "sha256":  "b4fd982dc594ac632e598ca46cd504bfc2955e12a392f5bd6a7be853a47e3caf",
+                        "bytes":  3460
+                    },
+                    {
+                        "path":  "vienna-egy-02-reserve-head-research-card.md",
+                        "sha256":  "0602a2b28b993de91452e4ad46c93ee508995c435f958e6958ad48d3b1fe2438",
+                        "bytes":  3107
+                    },
+                    {
+                        "path":  "vienna-egy-03-babylon-lion-research-card.md",
+                        "sha256":  "17b1cac774d587f48c5740ea46cd7cf7ce00d5a41beab762de84b87bb962ec25",
+                        "bytes":  3258
+                    },
+                    {
+                        "path":  "vienna-egy-04-kai-pu-ptah-ipep-research-card.md",
+                        "sha256":  "ba13a6e8bf861f6d270e48df831cf933ba485e11b590f5fe4c57e7efb1acf005",
+                        "bytes":  3064
+                    },
+                    {
+                        "path":  "vienna-egy-05-gem-nef-hor-bak-research-card.md",
+                        "sha256":  "e13611c63aeaffc89df0a9af6b5688309b7e0e3e6a16e12c9f614eac02bdcba0",
+                        "bytes":  3111
+                    },
+                    {
+                        "path":  "vienna-coin-01-sigismund-guldiner-research-card.md",
+                        "sha256":  "913294e7b12a2d13439e0018becc50fceec693e6e9ee6a116a9eff3c42b90fbe",
+                        "bytes":  3196
+                    },
+                    {
+                        "path":  "vienna-coin-02-charles-v-dedication-medal-research-card.md",
+                        "sha256":  "147c8d145b33f434c2bd569da0e5284d4beda985f6f959296b7b248c4c9b0218",
+                        "bytes":  3359
+                    },
+                    {
+                        "path":  "vienna-space-01-museum-building-research-card.md",
+                        "sha256":  "089413fc36647913502de0e0622d431233b4637d83834a26bdef839af6f94ed8",
+                        "bytes":  3374
+                    },
+                    {
+                        "path":  "vienna-space-02-grand-staircase-ensemble-research-card.md",
+                        "sha256":  "680090b51d751e47d75293fee869db20884db3ecace4d048c7f787f072bbdf2b",
+                        "bytes":  3725
+                    },
+                    {
+                        "path":  "vienna-space-03-cupola-hall-research-card.md",
+                        "sha256":  "1a967f4fc4ae95ea85a17341590e2fb0208bbfe3a944ff0af5bf79c6a2ed9aab",
+                        "bytes":  3230
+                    }
+                ]
+}

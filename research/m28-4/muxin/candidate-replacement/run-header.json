@@ -1,0 +1,54 @@
+{
+  "runId": "m28-4-muxin-candidate-replacement-2026-07-23",
+  "startedAt": "2026-07-23T21:40:00-07:00",
+  "stage": "museum_candidate_replacement",
+  "researchMode": "fresh_targeted_replacement",
+  "museumId": "muxin",
+  "museumIdentity": {
+    "zh": "木心美术馆",
+    "en": "Mu Xin Art Museum",
+    "location": "Wuzhen, Zhejiang, China"
+  },
+  "replacementCount": 7,
+  "replacedWorkIds": [
+    "muxin-c06",
+    "muxin-c07",
+    "muxin-c08",
+    "muxin-c16",
+    "muxin-c17",
+    "muxin-c18",
+    "muxin-c19"
+  ],
+  "pipelineVersion": "2.4.6",
+  "instructionVersion": "2.0.2",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c22c60e3a215aa1ac90da402debeb2caf9da39975cb2921c4845ef74ef14c834"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "e7b049c97e262a0a9f2e334388ffadfb2013ce5a3fded20f7063256d03bb7e56"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-4/muxin/candidate-pool/candidate-pool.json",
+      "sha256": "ba0449e3841f12ee8da944803963ce918607673133dfa660c7b6a589c5696453"
+    },
+    {
+      "path": "research/m28-4/muxin/museum-selection-v2/museum-evidence.json",
+      "sha256": "a47485c8bc10a45f933f89988acb4177e98a89734daea40c0d0b6a2820572770"
+    }
+  ],
+  "outputs": [
+    "replacement-candidates.json"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

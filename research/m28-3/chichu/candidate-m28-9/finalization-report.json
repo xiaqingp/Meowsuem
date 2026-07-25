@@ -1,0 +1,23 @@
+{
+  "museumId": "chichu",
+  "completedAt": "2026-07-25T03:58:43.921Z",
+  "stages": [
+    {
+      "name": "assembly",
+      "seconds": 0.103
+    },
+    {
+      "name": "verification",
+      "seconds": 16.713
+    },
+    {
+      "name": "publication-dry-run",
+      "seconds": 0.079
+    }
+  ],
+  "totalSeconds": 16.896,
+  "modelCalls": 0,
+  "modelTokens": 0,
+  "liveVerification": true,
+  "publicationMode": "dry-run"
+}

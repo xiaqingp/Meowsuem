@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-pg-07-infanta-margarita-blue-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:43.407Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "7dec6da2deffdbbf47c65d09bb583fc6e5b3124bf7c6a7a215e8e8fd4a11b11d",
+      "bytes": 10429
+    },
+    {
+      "path": "card.txt",
+      "sha256": "49165563604e34fa67b5153fe12b48c323bbbd7b4ad9c18e1d2353dfa64d787e",
+      "bytes": 262
+    },
+    {
+      "path": "draft.md",
+      "sha256": "7e062922b902766c07361ea4f7183beaef9929f9a20d9f789cc1e358fce6de71",
+      "bytes": 4699
+    }
+  ]
+}

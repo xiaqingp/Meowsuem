@@ -1,0 +1,34 @@
+{
+    "runId":  "m28-4-muxin-candidate-replacement-2026-07-23",
+    "stage":  "museum_candidate_replacement",
+    "pipelineVersion":  "2.4.6",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-23T21:39:31.1001369-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/generation-pipeline.md",
+                       "sha256":  "e7b049c97e262a0a9f2e334388ffadfb2013ce5a3fded20f7063256d03bb7e56"
+                   },
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/candidate-pool/candidate-pool.json",
+                       "sha256":  "ba0449e3841f12ee8da944803963ce918607673133dfa660c7b6a589c5696453"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/museum-selection-v2/museum-evidence.json",
+                       "sha256":  "a47485c8bc10a45f933f89988acb4177e98a89734daea40c0d0b6a2820572770"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "replacement-candidates.json",
+                        "sha256":  "37dfa476a2853c9fe228b8750ce2d34ee97ccdbd0b170d1cf510ae9ffdbf1be5",
+                        "bytes":  22655
+                    }
+                ]
+}

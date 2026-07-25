@@ -1,0 +1,51 @@
+{
+  "runId": "m28-4-muxin-author-muxin-c09-2026-07-23",
+  "startedAt": "2026-07-24T04:52:25.791Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card_after_verified_selection",
+  "museumId": "muxin",
+  "workId": "muxin-c09",
+  "workIdentity": "只指1986年《哥伦比亚的倒影》初稿整体；后续稿与2006年出版文本仅作比较，物理页数和收藏编号未知。",
+  "pipelineVersion": "2.4.6",
+  "instructionVersion": "2.0.2",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c22c60e3a215aa1ac90da402debeb2caf9da39975cb2921c4845ef74ef14c834"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "e7b049c97e262a0a9f2e334388ffadfb2013ce5a3fded20f7063256d03bb7e56"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-4/muxin/research-batch-01/muxin-c09-research-card.md",
+      "sha256": "2fc21fa65f3b18b2154d20dd1e8b7663b8fa181e9c16f817f30a5d94d29343a4"
+    },
+    {
+      "path": "research/m28-4/muxin/research-gap-02/muxin-c09-research-supplement.md",
+      "sha256": "fd96de985221bd148cc0b818c80b1d1e33ce798bdb812ab4cdb5fb9d4d9b30fa"
+    },
+    {
+      "path": "research/m28-4/muxin/works/muxin-c09/work-selection.json",
+      "sha256": "9ba588202ecfb303c11a49ca0e06ac251abc4b073ac8a2894ae4019bc15dd36f"
+    },
+    {
+      "path": "research/m28-4/muxin/integration/museum-plan.json",
+      "sha256": "f1667c694974a0128558ce6d9519b3a616cab05d4dc3a4f4d00caf5ec62862b2"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

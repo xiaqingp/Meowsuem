@@ -1,0 +1,154 @@
+{
+  "workId": "spring-dance",
+  "directUpstream": {
+    "filename": "research-card.md",
+    "sha256": "0a5dcb681732e5919c167d1277215e9ab41fcf8bad82597246db090a772cb2bc"
+  },
+  "readerBaseline": "零背景读者从标题知道作品与春天、舞蹈有关，从画面可见一组浅色裸体在树林前相连环舞；读者尚不知道人物身份、舞种、仪式或故事。",
+  "coreQuestion": "画面几乎没有纵深，斯图克怎样仍让这场环舞转起来？",
+  "quickLayerPromise": {
+    "visibleTension": "人物被压在深绿树丛与狭窄草地之间，空间很浅，动作却呈现连续流动。",
+    "provisionalAnswer": "运动感主要来自相连手臂形成的弧线、身体方向的交替，以及浅色人体和深绿背景的强对比，而非宽阔景深。",
+    "viewingRoute": [
+      "沿相连的手臂追踪连续弧线",
+      "比较前景背向观者的身体与其余人物的朝向",
+      "观察浅色身体如何被深绿树丛托出",
+      "确认狭窄草地怎样把人物推到画面前沿"
+    ]
+  },
+  "cognitionSteps": [
+    {
+      "step": 1,
+      "discovery": "相连的手臂把分散的人体接成一条连续弧线。",
+      "changesUnderstanding": "画面的动势首先来自人物之间的连接，不依赖真实舞台的纵深。",
+      "thereforeNext": "弧线既已连起人物，身体朝向又怎样让它避免变成静止花边？"
+    },
+    {
+      "step": 2,
+      "discovery": "前景背向观者的身体与其他人物的转向交替，抬起的手臂继续弧线。",
+      "changesUnderstanding": "环舞感由朝向变化和动作接力共同建立，观看者被留在圆环之外。",
+      "thereforeNext": "人物为何能在拥挤、浅窄的空间里仍然清晰？"
+    },
+    {
+      "step": 3,
+      "discovery": "浅色人体紧贴深绿树丛，脚下草地很窄，亮色天空或空隙只在后方露出。",
+      "changesUnderstanding": "自然环境更像托出轮廓的装饰性舞台，而不是供人物深入行走的风景。",
+      "thereforeNext": "这种浅舞台在斯图克晚期创作和 Frye 馆藏中意味着什么？"
+    },
+    {
+      "step": 4,
+      "discovery": "约 1925 年的本作处于斯图克晚期；与同馆《帕里斯的裁判》相比，同样使用古典化裸体和浅舞台，却以环形动作与明亮自然替换静止裁决与岩壁。",
+      "changesUnderstanding": "本作的价值不在独占某个题材，而在清楚呈现斯图克如何用轮廓、节奏和浅空间组织群像，并成为 Frye 三件斯图克作品中“运动与明亮”的比较端点。",
+      "thereforeNext": "带着这一比较，最后该用什么动作重新确认环舞确实由画面结构生成？"
+    },
+    {
+      "step": 5,
+      "discovery": "从前景背影出发，沿手臂弧线绕行一圈，再回到狭窄草地，可以同时确认朝向、连接与浅空间。",
+      "changesUnderstanding": "第二眼看到的不是一个需要补齐神话故事的场景，而是一套让静止群像持续流动的构图机制。",
+      "thereforeNext": "核心问题闭合。"
+    }
+  ],
+  "humorBasis": null,
+  "forbiddenAssumptions": [
+    "这是一场酒神祭或其他具体祭仪",
+    "人物具有可命名的神话身份或亲属关系",
+    "作品赞颂青春或表达作者对春天的确定寓意",
+    "可凭图像确定具体舞种、人物总数或全部人物性别",
+    "人物姿态能够证明喜悦、陶醉等心理",
+    "观看时沿圆环移动等于画中事件的真实时间顺序",
+    "作品当天一定在展"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "人物正在举行具体祭仪。",
+      "evidenceType": "无可靠来源；裸体环舞只能作为直接观察。",
+      "allowedWording": "多人裸体相连环舞；标题把春天与舞蹈相连。",
+      "forbiddenUpgrade": "酒神祭、春祭、宗教仪式或具体神话事件"
+    },
+    {
+      "claim": "人物感到喜悦或陶醉。",
+      "evidenceType": "姿态与动作的直接观察不支持心理事实。",
+      "allowedWording": "人物抬臂、相连，身体朝向交替。",
+      "forbiddenUpgrade": "把动作写成确定情绪、欲望或作者意图"
+    },
+    {
+      "claim": "环形观看路线呈现舞蹈的真实先后。",
+      "evidenceType": "编辑安排的观看顺序。",
+      "allowedWording": "观者可以沿手臂形成的弧线追踪构图。",
+      "forbiddenUpgrade": "把观看路线写成事件发生顺序"
+    },
+    {
+      "claim": "本作是斯图克晚期最重要或不可替代的代表作。",
+      "evidenceType": "来源事实支持晚期年代；比较材料只支持馆内相对作用。",
+      "allowedWording": "本作是 Frye 三件斯图克作品中‘运动与明亮’的比较端点。",
+      "forbiddenUpgrade": "世界唯一、作者巅峰、稀世珍品、足以决定行程"
+    }
+  ],
+  "historicalContextPlan": {
+    "applicable": false,
+    "reason": "作品的重要性不依赖具体历史事件、制度转型、宗教改革或社会冲突；仅需交代约 1925 年的晚期生涯位置与作者跨媒介的装饰性整体思维。",
+    "beforeState": null,
+    "changeOrConflict": null,
+    "objectRole": null,
+    "consequence": null,
+    "uncertainty": "无来源证明具体祭仪、神名或叙事。",
+    "placement": "快层不加入历史事件；深层在构图机制建立后，用一段晚期生涯与同馆比较解释作品位置。"
+  },
+  "authorStylePlan": {
+    "careerPosition": "约 1925 年，距斯图克 1928 年去世约三年，属于晚期作品。",
+    "visibleFeatures": [
+      "轮廓清楚的古典化裸体",
+      "相连手臂形成环形节奏",
+      "深绿与浅色身体的色块对照",
+      "浅窄空间呈现装饰性舞台效果"
+    ],
+    "classification": "晚期延续：以轮廓、节奏与浅空间延续其装饰性整体思维；不据现有材料声称为转折或巅峰。"
+  },
+  "significance": {
+    "label": "特色看点",
+    "visitPriority": "强烈推荐",
+    "fiveDimensions": {
+      "artisticAchievement": "环形构图、人体朝向交替和明暗色块对照，使浅空间获得持续动势；形式回报明确。",
+      "artHistoricalPosition": "艺术史权重中低；属于斯图克晚期装饰性群像实践，不宣称开创类型或形成关键转折。",
+      "historicalCulturalValue": "未确认具体祭仪、事件或原境，历史文化见证价值有限。",
+      "rarityAndIrreplaceability": "稀缺性中低；现有证据不能确认同类数量或全球不可替代性。",
+      "collectionPosition": "本馆叙事中高；是 Frye 三件斯图克作品中‘运动与明亮’的一极。"
+    },
+    "comparisonCategory": "斯图克晚期的古典化裸体群像与浅舞台构图",
+    "nearestComparator": "Franz von Stuck，《帕里斯的裁判》Judgment of Paris（同馆）",
+    "sharedCore": "同属晚期，均以古典化裸体置于浅舞台。",
+    "decisiveDifference": "本作以相连人体的环形动作和明亮自然组织画面；比较作以静止裁决场景与岩壁组织关系。",
+    "boundary": "比较说明馆内观看差异，不证明本作稀有、唯一或足以改变旅行路线；符合 Frye 72 分馆级边界。"
+  },
+  "observableDetails": [
+    "多名浅色裸体围成环舞",
+    "前景可见背向观者的身体",
+    "抬起并相连的手臂形成连续弧线",
+    "深绿树丛紧贴并衬出浅色身体",
+    "人物脚下只有狭窄草地",
+    "树丛后露出亮色天空或空隙"
+  ],
+  "secondLook": "从前景背向观者的身体起步，用目光沿相连手臂绕过整圈；回到起点时，再确认脚下草地有多窄，体会运动如何由弧线和朝向而非景深产生。",
+  "productionLanguageBoundary": {
+    "visitorProseMustExclude": [
+      "研究缺口",
+      "图片许可任务",
+      "发布任务",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "版本迁移"
+    ],
+    "visitorFacingEvidenceBoundary": "只用自然限定说明现有证据能支持的作品判断与易变在展状态；内部风险仅进入 author-review.json。"
+  },
+  "outputContract": {
+    "cardVisibleCharacters": "24-100",
+    "quickLayerVisibleCharacters": "70-240",
+    "deepLayerMinimumVisibleCharacters": 320,
+    "detailLanguage": "自然中文",
+    "artistDisplay": "弗朗茨·冯·斯图克 Franz von Stuck · 德国",
+    "workDisplay": "《春之舞》 / Frühlingtanz (Spring Dance)",
+    "suggestedStay": "赶时间 30 秒；细看 3—5 分钟"
+  }
+}

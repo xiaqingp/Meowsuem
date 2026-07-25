@@ -1,0 +1,331 @@
+{
+  "museumId": "muxin",
+  "museumName": {
+    "zh": "木心美术馆",
+    "en": "Mu Xin Art Museum"
+  },
+  "location": "Wuzhen, Zhejiang, China",
+  "candidateCapacity": 20,
+  "works": [
+    {
+      "workId": "muxin-c01",
+      "title": "《狱中笔记》六十六页文献组",
+      "significance": "重要藏品",
+      "significanceReason": "六十六张双面密写原稿把强制自我检查用纸、秘密写作、藏匿方式与今日轮换展示连成一条本馆最专属的文献证据链；但同类监禁手稿的系统比较尚缺。",
+      "rareGatePassed": false,
+      "rareGateAssessment": "最近比较对象能够替代部分文字或政治压力背景；现有研究未覆盖同类监禁手稿，也不能确认全球数量、最高地位或决定性不可替代差异。",
+      "nearestComparator": "该组的出版转录，以及同展的1977—79年三十三幅风景画",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-4/muxin/research-batch-01/muxin-c01-research-card.md#比较与不可替代性",
+        "research/m28-4/muxin/research-batch-01/muxin-c01-research-card.md#来源事实与局部因果"
+      ]
+    },
+    {
+      "workId": "muxin-c02",
+      "title": "《诗经演》手稿本",
+      "significance": "重要藏品",
+      "significanceReason": "完整稿本对应三百首十四行结构的持续诗体实验，是木心文学收藏中的明确节点；对象级图像、修改层次和手稿版本位置仍未核清。",
+      "rareGatePassed": false,
+      "rareGateAssessment": "《伪所罗门书》可解释同一严格诗形问题，现有证据只稳定支持出版文本结构，未证明手稿层面的决定性差异。",
+      "nearestComparator": "《伪所罗门书》手稿本",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-4/muxin/research-batch-01/muxin-c02-research-card.md#比较与不可替代性",
+        "research/m28-4/muxin/research-batch-01/muxin-c02-research-card.md#候选价值证据"
+      ]
+    },
+    {
+      "workId": "muxin-c03",
+      "title": "《我纷纷的情欲》手稿本",
+      "significance": "重要藏品",
+      "significanceReason": "它属于馆方明确列出的完整诗稿，并有页边抽象人像这一潜在诗画同页特征；年代、版本阶段和图像归属不足以把潜力升级为独一无二的成就。",
+      "rareGatePassed": false,
+      "rareGateAssessment": "馆内其他完整诗稿共享亲笔稿本价值，页边人像是否为本作独有及是否与文字同阶段形成均未确认。",
+      "nearestComparator": "《诗经演》《巴珑》《伪所罗门书》完整诗歌稿本组",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-4/muxin/research-batch-01/muxin-c03-research-card.md#比较与不可替代性",
+        "research/m28-4/muxin/research-batch-01/muxin-c03-research-card.md#未确定与作者阶段边界"
+      ]
+    },
+    {
+      "workId": "muxin-c04",
+      "title": "《巴珑》手稿本",
+      "significance": "特色看点",
+      "significanceReason": "它可能呈现多年诗作的筛选与晚年定稿，但现有资料没有证明馆藏稿本处于哪一版本环节，也没有建立手稿自身的观看回报。",
+      "rareGatePassed": false,
+      "rareGateAssessment": "其他完整诗歌稿本能够替代亲笔稿与结集过程这一核心问题；决定性差异、修改层次和完整性均未建立。",
+      "nearestComparator": "《我纷纷的情欲》《诗经演》《伪所罗门书》手稿本",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "supporting_node",
+      "sourcePointers": [
+        "research/m28-4/muxin/research-batch-01/muxin-c04-research-card.md#比较与不可替代性",
+        "research/m28-4/muxin/research-batch-01/muxin-c04-research-card.md#艺术/文学机制"
+      ]
+    },
+    {
+      "workId": "muxin-c05",
+      "title": "《伪所罗门书》手稿本",
+      "significance": "重要藏品",
+      "significanceReason": "固定行数基准、实际例外与反复修改使它能够说明木心怎样在形式约束中工作；对象级图像与修改次序仍不完整。",
+      "rareGatePassed": false,
+      "rareGateAssessment": "《诗经演》共享数字化诗行结构，且本作并非所有诗篇都严格二十七行；手稿层面的不可替代差异未证实。",
+      "nearestComparator": "《诗经演》手稿本",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-4/muxin/research-batch-01/muxin-c05-research-card.md#比较与不可替代性",
+        "research/m28-4/muxin/research-batch-01/muxin-c05-research-card.md#来源事实与局部因果"
+      ]
+    },
+    {
+      "workId": "muxin-c06",
+      "title": "《文学回忆录》讲席手稿本",
+      "significance": "特色看点",
+      "significanceReason": "纽约五年私人文学课堂及其口述、记录、编辑链具有鲜明社群史价值，但馆藏对象究竟是木心讲稿、陈丹青笔记还是后期整理稿尚未拆清。",
+      "rareGatePassed": false,
+      "rareGateAssessment": "对象在文献形成链中的位置未定，无法与陈丹青五册听课笔记和2013年出版本建立决定性差异。",
+      "nearestComparator": "陈丹青五册听课笔记及2013年《文学回忆录》出版本",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "supporting_node",
+      "sourcePointers": [
+        "research/m28-4/muxin/research-batch-01/muxin-c06-research-card.md#文献形成机制",
+        "research/m28-4/muxin/research-batch-01/muxin-c06-research-card.md#比较与不可替代性"
+      ]
+    },
+    {
+      "workId": "muxin-c07",
+      "title": "未完成小说《空房间》手稿",
+      "significance": "特色看点",
+      "significanceReason": "未完成稿可能保存创作停笔边界，但当前中文名、英文名、体裁及与同名英文短篇集和《空房》的关系均存在身份冲突。",
+      "rareGatePassed": false,
+      "rareGateAssessment": "对象身份硬门未过，无法建立比较类别、决定性差异或不可替代价值。",
+      "nearestComparator": "英文短篇集 An Empty Room、中文《空房》及未完成稿《三号防空洞》",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "supporting_node",
+      "sourcePointers": [
+        "research/m28-4/muxin/research-batch-01/muxin-c07-research-card.md#身份冲突",
+        "research/m28-4/muxin/research-batch-01/muxin-c07-research-card.md#停止结论"
+      ]
+    },
+    {
+      "workId": "muxin-c08",
+      "title": "《诗经》英文改写稿",
+      "significance": "特色看点",
+      "significanceReason": "若身份成立，它可展示木心如何跨语言处理《诗经》材料；目前只有单一考察报道，文本类型、完整性和与《诗经演》的关系均未确认。",
+      "rareGatePassed": false,
+      "rareGateAssessment": "缺少第二个独立可靠来源，对象真实性及与《诗经演》的决定性差异均未过门。",
+      "nearestComparator": "《诗经演》中文手稿",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "supporting_node",
+      "sourcePointers": [
+        "research/m28-4/muxin/research-batch-01/muxin-c08-research-card.md#比较与不可替代性",
+        "research/m28-4/muxin/research-batch-01/muxin-c08-research-card.md#停止结论"
+      ]
+    },
+    {
+      "workId": "muxin-c09",
+      "title": "《哥伦比亚的倒影》初稿",
+      "significance": "重要藏品",
+      "significanceReason": "1986年初稿到2006年重新编订出版形成二十年版本链，账目打印纸载体也提供对象专属的物质信息；但只确认过合作临展，稳定馆藏身份未过门。",
+      "rareGatePassed": false,
+      "rareGateAssessment": "同作后续稿和出版本共享版本史价值，尚无逐页校勘证明初稿保留了不可替代内容，也无全球比较。",
+      "nearestComparator": "同作后续稿及2006年重新编订的出版本",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-4/muxin/research-batch-01/muxin-c09-research-card.md#比较与不可替代性",
+        "research/m28-4/muxin/research-batch-01/muxin-c09-research-card.md#未确定与作者阶段边界"
+      ]
+    },
+    {
+      "workId": "muxin-c10",
+      "title": "《双重悲悼》手稿",
+      "significance": "重要藏品",
+      "significanceReason": "它曾在开馆展中连接林风眠作品、木心作品与师生历史记忆，文本意义和原展语境清楚；当前长期保管、修改层次与常设状态未证。",
+      "rareGatePassed": false,
+      "rareGateAssessment": "出版本、木心其他悼文与林风眠作品可分别传递论述和艺术；原稿不可替代的修改证据尚未取得。",
+      "nearestComparator": "《双重悲悼》出版文本、木心其他悼文及林风眠本人作品",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-4/muxin/research-batch-01/muxin-c10-research-card.md#文献与展陈机制",
+        "research/m28-4/muxin/research-batch-01/muxin-c10-research-card.md#比较与不可替代性"
+      ]
+    },
+    {
+      "workId": "muxin-c11",
+      "title": "《晴风》",
+      "significance": "重要藏品",
+      "significanceReason": "身份和尺寸较稳定，极狭长纸本能够清楚代表木心晚期横向风景实践；高清观察、生涯地位和稳定馆藏关系仍不足。",
+      "rareGatePassed": false,
+      "rareGateAssessment": "《战争前夜》《朝霞》等同期狭长纸本共享核心形式，现有资料只证明比例差异，不能证明方法或历史地位上的不可替代性。",
+      "nearestComparator": "《战争前夜》与《朝霞》",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "collection_member",
+      "sourcePointers": [
+        "research/m28-4/muxin/research-batch-02/muxin-c11-research-card.md#比较与边界",
+        "research/m28-4/muxin/research-batch-02/muxin-c11-research-card.md#身份与状态"
+      ]
+    },
+    {
+      "workId": "muxin-c12",
+      "title": "《生与死》",
+      "significance": "重要藏品",
+      "significanceReason": "深色块面、微小白点与木心本人被转述的指认，使题名和形式之间形成对象专属的解释关系；但尚无研究把它确认为生涯转折或唯一范例。",
+      "rareGatePassed": false,
+      "rareGateAssessment": "同期《战争前夜》和晚期狭长风景共享小尺幅、抽象化景观与题名参与观看；本作差异明确但未达到全球不可替代硬门。",
+      "nearestComparator": "《战争前夜》及木心晚期狭长纸本风景组",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-4/muxin/research-batch-02/muxin-c12-research-card.md#比较与不可替代性",
+        "research/m28-4/muxin/research-batch-02/muxin-c12-research-card.md#候选价值证据"
+      ]
+    },
+    {
+      "workId": "muxin-c13",
+      "title": "《废谷》",
+      "significance": "重要藏品",
+      "significanceReason": "明确纪年、材质和展厅关系使它成为晚年小型风景序列中的可靠节点；现有资料没有证明它比同组作品提供更高的独立价值。",
+      "rareGatePassed": false,
+      "rareGateAssessment": "《晴风》《生与死》及微型风景组能够解释同一晚期小尺幅景观问题，本作的决定性差异未建立。",
+      "nearestComparator": "《晴风》《生与死》及晚年微型风景画组",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "collection_member",
+      "sourcePointers": [
+        "research/m28-4/muxin/research-batch-02/muxin-c13-research-card.md#比较与不可替代性",
+        "research/m28-4/muxin/research-batch-02/muxin-c13-research-card.md#候选价值证据"
+      ]
+    },
+    {
+      "workId": "muxin-c14",
+      "title": "《渔村》",
+      "significance": "重要藏品",
+      "significanceReason": "较大近方形的早期纸本和2015年与林风眠《芦苇》的并置，为木心早期师承语境和晚年小幅风景之间提供有效对照。",
+      "rareGatePassed": false,
+      "rareGateAssessment": "林风眠《芦苇》和木心晚期风景可解释师承与生涯变化；本作同阶段代表性、存世数量和不可替代差异仍未知。",
+      "nearestComparator": "林风眠《芦苇》及木心晚期《晴风》《废谷》",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-4/muxin/research-batch-02/muxin-c14-research-card.md#比较与不可替代性",
+        "research/m28-4/muxin/research-batch-02/muxin-c14-research-card.md#人与艺术关系"
+      ]
+    },
+    {
+      "workId": "muxin-c15",
+      "title": "晚年微型转印风景画组",
+      "significance": "重要藏品",
+      "significanceReason": "三十二幅集中陈列的晚年微型风景能够以序列展示木心十余年的持续实践，是单件无法完全替代的馆内收藏线；完整清单、逐件媒介和当前组展稳定性仍缺。",
+      "rareGatePassed": false,
+      "rareGateAssessment": "耶鲁体系所藏1977—79年三十三幅风景是明确的近似比较组；年代与可能的转印媒介构成差异，但本组清单和研究不足以证明世界级不可替代性。",
+      "nearestComparator": "耶鲁大学美术馆体系所藏1977—79年三十三幅纸本风景",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "sourcePointers": [
+        "research/m28-4/muxin/research-batch-02/muxin-c15-research-card.md#最近比较组与硬门",
+        "research/m28-4/muxin/research-batch-02/muxin-c15-research-card.md#身份与组界"
+      ]
+    },
+    {
+      "workId": "muxin-c16",
+      "title": "1989年无题石版画",
+      "significance": "特色看点",
+      "significanceReason": "石版画线可补足木心旅美初期媒介与抽象构局的变化，但单件题名、年代范围、版次及图像对应尚未稳定。",
+      "rareGatePassed": false,
+      "rareGateAssessment": "同一1985—90年抽象石版画系列共享全部已知核心价值，单件决定性差异尚未找到。",
+      "nearestComparator": "木心1985—90年抽象石版画系列",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "supporting_node",
+      "sourcePointers": [
+        "research/m28-4/muxin/research-batch-02/muxin-c16-research-card.md#比较与边界",
+        "research/m28-4/muxin/research-batch-02/muxin-c16-research-card.md#阻断缺口"
+      ]
+    },
+    {
+      "workId": "muxin-c17",
+      "title": "文革前幸存手稿组",
+      "significance": "特色看点",
+      "significanceReason": "文革前私人写作、曲谱和话剧稿线索有保存早期跨媒介实践的潜力，但组界过宽且没有逐件清单，尚不能作为稳定的重要收藏组。",
+      "rareGatePassed": false,
+      "rareGateAssessment": "《狱中笔记》和后期具名稿本共享亲笔文献价值；本组内部差异过大、保存链未知，不能形成一条不可替代收藏线。",
+      "nearestComparator": "《狱中笔记》及木心旅美、归国后的具名手稿",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "supporting_node",
+      "sourcePointers": [
+        "research/m28-4/muxin/research-batch-02/muxin-c17-research-card.md#比较与不可替代性",
+        "research/m28-4/muxin/research-batch-02/muxin-c17-research-card.md#阻断缺口"
+      ]
+    },
+    {
+      "workId": "muxin-c18",
+      "title": "“言论交代”与申诉书文献组",
+      "significance": "特色看点",
+      "significanceReason": "若档案身份成立，它能与秘密写作形成制度功能对照；目前文书数量、亲笔或复制件身份、形成机关与申诉结果均未知。",
+      "rareGatePassed": false,
+      "rareGateAssessment": "《狱中笔记》是最接近的同期比较组，但本组的对象清单和制度语境未核，功能差异仍不足以通过不可替代性硬门。",
+      "nearestComparator": "《狱中笔记》六十六页文献组",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "supporting_node",
+      "sourcePointers": [
+        "research/m28-4/muxin/research-batch-02/muxin-c18-research-card.md#比较与不可替代性",
+        "research/m28-4/muxin/research-batch-02/muxin-c18-research-card.md#阻断缺口"
+      ]
+    },
+    {
+      "workId": "muxin-c19",
+      "title": "木心生平影像档案组",
+      "significance": "特色看点",
+      "significanceReason": "1994年英国行等动态影像能保存木心的声音、动作与环境变化，补充静态手稿和绘画；节目单、版本、权利与常设边界尚未建立。",
+      "rareGatePassed": false,
+      "rareGateAssessment": "肖像照片、录音、书信和手稿共享生平记录价值；移动影像有媒介差异，但缺少母版、版本与稳定保管资料，不能推出馆藏稀有度。",
+      "nearestComparator": "木心肖像照片、录音、书信和手稿",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "supporting_node",
+      "sourcePointers": [
+        "research/m28-4/muxin/research-batch-02/muxin-c19-research-card.md#比较与不可替代性",
+        "research/m28-4/muxin/research-batch-02/muxin-c19-research-card.md#阻断缺口"
+      ]
+    },
+    {
+      "workId": "muxin-c20",
+      "title": "木心美术馆建筑与水上空间整体",
+      "significance": "特色看点",
+      "significanceReason": "分开的混凝土展厅、街道式连接、水面、下沉层和天光共同塑造参观节奏，是馆内固定且高度对象专属的整体体验；建筑史的全球比较不足。",
+      "rareGatePassed": false,
+      "rareGateAssessment": "现有来源未建立同类单一艺术家水上纪念美术馆的最近第二件；现场经验虽难由图纸替代，却不足以证明全球建筑史上的稀世地位。",
+      "nearestComparator": "尚未建立经过研究的同类最近比较对象",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "whole_site",
+      "sourcePointers": [
+        "research/m28-4/muxin/research-batch-02/muxin-c20-research-card.md#比较与重要性边界",
+        "research/m28-4/muxin/research-batch-02/muxin-c20-research-card.md#候选价值与局部因果"
+      ]
+    }
+  ]
+}

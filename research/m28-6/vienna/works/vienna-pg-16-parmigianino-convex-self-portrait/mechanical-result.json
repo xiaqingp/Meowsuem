@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-pg-16-parmigianino-convex-self-portrait-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:44.245Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "47fdbeda7d345159ac5cdc57b62fec73e70f78d50b191f450c13dafb28204881",
+      "bytes": 9330
+    },
+    {
+      "path": "card.txt",
+      "sha256": "141c828646fe5c978b9e0dda8a062ba188ff43eaf67c8d133d0b641ff6707fce",
+      "bytes": 253
+    },
+    {
+      "path": "draft.md",
+      "sha256": "533478fbdadbd5f4933f45d7b7c99b61324cab989842925a17fabf92d5dfcb40",
+      "bytes": 4541
+    }
+  ]
+}

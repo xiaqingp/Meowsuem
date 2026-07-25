@@ -1,0 +1,52 @@
+{
+    "runId":  "m28-4-muxin-author-muxin-c15-2026-07-23",
+    "stage":  "author",
+    "pipelineVersion":  "2.4.7",
+    "instructionVersion":  "2.0.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "completedAt":  "2026-07-23T22:04:34.1563444-07:00",
+    "inputs":  [
+                   {
+                       "path":  "research/generation-pipeline.md",
+                       "sha256":  "fbe6770b2ff0d935448d52feb1f0d73c35bf8b901efe905dca982615e664a0ad"
+                   },
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "sha256":  "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/works/muxin-c15/author-input-research.md",
+                       "sha256":  "060309af9b100990e00720ce2b6c0b42118e1b38f606c0ff512c8d87188e430d"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/works/muxin-c15/author-input-research-record.json",
+                       "sha256":  "80b93714817db97aa05ee8ed621d63b400f5f2eda46115f1c1a16b247cdb0dce"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/works/muxin-c15/work-selection.json",
+                       "sha256":  "bae4e73820f7d9762370cb8063fcb89017e9ef8b20bb62bc4911008d650a70ef"
+                   },
+                   {
+                       "path":  "research/m28-4/muxin/integration/museum-plan.json",
+                       "sha256":  "f1667c694974a0128558ce6d9519b3a616cab05d4dc3a4f4d00caf5ec62862b2"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "838c246d6909a040c5b1536dc72f94efce31df8f94f4f46930b5ecf0497f2e22",
+                        "bytes":  7255
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "3801f1b2bff9fe47afc76d19443df7ac79b712ca101a984ab70ed8f0294dc035",
+                        "bytes":  284
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "99d7c2b4573f571e4c0342a4a8e1e0263fc519ba738d7f93afb2c9bd4e0621cd",
+                        "bytes":  3834
+                    }
+                ]
+}

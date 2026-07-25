@@ -1,0 +1,142 @@
+{
+  "workId": "muxin-r01",
+  "readerStartingPoint": "读者从题名只能知道这是与《战后嘉年华》一文有关的馆内展出稿件；不能仅凭题名判断“战后”与“嘉年华”的具体所指，也看不到可核验的笔迹、删改、页序或纸张细节。",
+  "narrativeMainline": {
+    "valueType": "social_document",
+    "mainline": "木心先在1946年进入上海美专学习西画，后来以《战后嘉年华》回忆这段经历，美术馆又把这篇具名文章的稿件放进文学馆展示。它的价值在于把美术教育、个人回忆和文学保存连成一条线，但现有证据只允许把它当作回忆材料，不能当作事件发生时留下的记录或已经确认阶段的亲笔原稿。",
+    "storyBeats": [
+      {
+        "beat": "先交代1946年进入上海美专与后来写成回忆性文章的关系。",
+        "materials": [
+          "研究卡「来源事实与候选价值证据」[S2][S4]",
+          "研究卡「因果与形成过程材料」"
+        ],
+        "readerGain": "读者明白稿件保存的是后来对青年美术教育的回望，不是1946年当场形成的档案。"
+      },
+      {
+        "beat": "再说明美术馆为何把这份具名稿件放进文学馆。",
+        "materials": [
+          "研究卡「来源事实与候选价值证据」[S1][S3]"
+        ],
+        "readerGain": "读者看到绘画学习经历如何经由文学写作进入博物馆的手稿展示。"
+      },
+      {
+        "beat": "最后以出版本和其他具名稿件作最近比较，划清目前能确认的价值。",
+        "materials": [
+          "研究卡「比较与不可替代性边界」",
+          "work-selection.json 的 rareGateReason"
+        ],
+        "readerGain": "读者明白这件对象值得停留的理由是三种经历的连接，而不是尚未证实的删改痕迹、稿本阶段或物质唯一性。"
+      }
+    ]
+  },
+  "assertionBoundaries": [
+    "对象稳定到《战后嘉年华》馆内展出稿件这一层级，不进一步断言其为初稿、誊清稿、校样、复制件或亲笔原稿。",
+    "1946年是木心进入上海美专的时间，不是这份稿件的写作年代。",
+    "这篇文章是个人回忆材料，不能据此重建上海美专历史的全貌。",
+    "只能确认该稿件曾在文学馆展出，不能承诺当前可见。",
+    "馆舍占位图不是作品图，不能据此描述字迹、纸张、页数、版式或删改。"
+  ],
+  "mustNotAssume": [
+    "稿件写于1946年或事件发生当时",
+    "展出物一定是木心亲笔原稿",
+    "稿件存在可见删改或与出版本有确定文字差异",
+    "当前仍在文学馆展出",
+    "木心通过文章完整、客观地记录了上海美专历史"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "展出物是亲笔原稿或特定稿本阶段",
+      "evidenceType": "来源事实与身份边界",
+      "allowedWording": "《战后嘉年华》馆内展出稿件；《战后嘉年华》手稿是参观记录采用的称呼",
+      "prohibitedUpgrade": "初稿、定稿、誊清稿、校样、复制件或亲笔原稿"
+    },
+    {
+      "claim": "稿件形成于木心就读上海美专期间",
+      "evidenceType": "年代事实",
+      "allowedWording": "木心1946年进入上海美专，后来以文章回忆这段经历；稿件写作年代未核实",
+      "prohibitedUpgrade": "1946年写成、战后当场记录或同时代日记"
+    },
+    {
+      "claim": "稿件保存了出版文本没有的写作过程",
+      "evidenceType": "比较与未知边界",
+      "allowedWording": "若有删改，稿件可能保存写作过程，但公开资料尚未证明",
+      "prohibitedUpgrade": "可见大量修改、揭示创作过程或与出版本存在确定差异"
+    },
+    {
+      "claim": "文章可以证明上海美专的完整历史",
+      "evidenceType": "材料性质边界",
+      "allowedWording": "文章保存木心对个人美术教育经历的回忆",
+      "prohibitedUpgrade": "完整还原、客观证明或代表所有学生的经历"
+    },
+    {
+      "claim": "对象具有不可替代性",
+      "evidenceType": "比较证据",
+      "allowedWording": "它把具名文章、个人教育经历与文学馆展示连接起来",
+      "prohibitedUpgrade": "唯一、仅存、不可替代、稀世珍品或作者生涯转折"
+    }
+  ],
+  "displayMetadata": {
+    "titleZh": "《战后嘉年华》馆内展出稿件",
+    "titleEn": "Manuscript of Postwar Carnival",
+    "by": "木心 Mu Xin · 地区归属未核实",
+    "date": "未核实",
+    "material": "纸本墨迹；纸张与书写工具未核实",
+    "place": "木心美术馆文学馆 · 曾展出，当前状态未知",
+    "priority": "时间充裕再看",
+    "significance": "特色看点",
+    "stay": "3–5分钟",
+    "availability": "previously_exhibited_current_unknown",
+    "imagePolicy": "museum_hero_placeholder"
+  },
+  "claimLedger": [
+    {
+      "id": "C1",
+      "claim": "木心于1946年进入上海美专学习西画。",
+      "evidenceLocation": "研究卡「来源事实与候选价值证据」[S2][S4]",
+      "evidenceType": "来源事实"
+    },
+    {
+      "id": "C2",
+      "claim": "《战后嘉年华》是木心回顾上海美专经历的具名文章，并收入《鱼丽之宴》。",
+      "evidenceLocation": "研究卡「来源事实与候选价值证据」[S2]",
+      "evidenceType": "来源事实"
+    },
+    {
+      "id": "C3",
+      "claim": "2022年的参观记录明确提到文学馆展柜中的《战后嘉年华》手稿。",
+      "evidenceLocation": "研究卡「来源事实与候选价值证据」[S1]",
+      "evidenceType": "来源事实"
+    },
+    {
+      "id": "C4",
+      "claim": "木心美术馆第五馆是文学专馆，开馆时约展出50份手稿，之后酌情更换。",
+      "evidenceLocation": "研究卡「来源事实与候选价值证据」[S3]",
+      "evidenceType": "来源事实"
+    },
+    {
+      "id": "C5",
+      "claim": "现有公开资料不能确认展出物的稿本阶段、页数、删改及其与出版本的差异。",
+      "evidenceLocation": "研究卡「对象身份」「比较与不可替代性边界」「未确定事项」",
+      "evidenceType": "证据边界"
+    },
+    {
+      "id": "C6",
+      "claim": "出版本和馆内其他具名文学稿件是最近比较对象；现有证据不足以证明本件的物质不可替代性。",
+      "evidenceLocation": "研究卡「比较与不可替代性边界」；work-selection.json 的 rareGateReason",
+      "evidenceType": "比较与编辑判断"
+    },
+    {
+      "id": "C7",
+      "claim": "这件对象曾在文学馆展出，但当前是否在展未知。",
+      "evidenceLocation": "研究卡「对象身份」；work-selection.json 的 availability",
+      "evidenceType": "来源事实与状态边界"
+    },
+    {
+      "id": "C8",
+      "claim": "没有可靠对象图，必须使用馆舍占位图，且不能据此描述作品视觉细节。",
+      "evidenceLocation": "研究卡「零背景可确认信息与视觉边界」；work-selection.json 的 imagePolicy",
+      "evidenceType": "图像边界"
+    }
+  ]
+}

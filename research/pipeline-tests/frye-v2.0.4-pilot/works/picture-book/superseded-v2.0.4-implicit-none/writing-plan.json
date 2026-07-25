@@ -1,0 +1,166 @@
+{
+  "workId": "picture-book",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "museumId": "frye",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "directUpstream": {
+    "filename": "research-card.md",
+    "sha256": "45e109097da840dc2ad43b3fd6e984d1f205d24c371ddfbedbfa2ad893bd8051"
+  },
+  "readerBaseline": "零背景读者从标题知道众人正在看一本图画书，从画面能看见一个成人与几个儿童围拢打开的书、多张脸都朝向居中偏下的白色书页；读者尚不知道人物身份、亲属关系、书中内容或光源。",
+  "workSpecificQuestion": "为什么一本几乎看不清内容的书，仍能成为整幅画最有力量的中心？",
+  "quickLayerPromise": {
+    "visibleTension": "书页面积不大、内容难辨，却同时牵住多张脸和身体。",
+    "provisionalAnswer": "画家把书页当作共同注意的支点：页面本身少说话，人物朝向、明暗与笔触替它显示阅读正在把众人临时聚成一个整体。",
+    "viewingRoute": [
+      "中央偏下的白色书页",
+      "多张朝向书页的脸",
+      "围拢形成的紧凑轮廓",
+      "暗背景与衣物上的短笔触"
+    ]
+  },
+  "cognitionSteps": [
+    {
+      "step": 1,
+      "discovery": "白页虽小，却因位置和亮度成为全画的视觉支点。",
+      "changesUnderstanding": "读者从寻找书中画了什么，转向观察谁在看、注意力怎样汇聚。",
+      "thereforeNext": "既然内容不可辨，人物关系如何让阅读成立？"
+    },
+    {
+      "step": 2,
+      "discovery": "多张脸、低垂的视线和围拢的身体共同指向书页。",
+      "changesUnderstanding": "画面主题由一本书扩展为一群人共享注意的方式，同时不替人物指定亲属身份。",
+      "thereforeNext": "这种专注为什么没有被处理成僵硬的摆拍？"
+    },
+    {
+      "step": 3,
+      "discovery": "短笔触、综合色块和简化暗背景弱化琐碎说明，把视觉能量留给脸、衣物和书页之间的关系。",
+      "changesUnderstanding": "松动笔触不只是风格标签，而是在现场维持日常场景的流动感。",
+      "thereforeNext": "这在 Uhde 的创作与 Frye 馆藏中占什么位置？"
+    },
+    {
+      "step": 4,
+      "discovery": "作品属于 Uhde 1880 年代成熟期的日常题材；与他把普通人带入宗教场景的作品群相比，本作没有可确认的基督教事件。",
+      "changesUnderstanding": "普通阅读无需借宗教身份，也能显示 Uhde 如何借光色与人物关系处理专注。",
+      "thereforeNext": "它的重要性应如何准确落位，而不越过 Frye 的旅行价值边界？"
+    },
+    {
+      "step": 5,
+      "discovery": "五维评价为艺术史中、作者生涯中、本馆叙事高、现场高、稀缺中低；最近比较对象是 Uhde 的当代普通人宗教场景作品群。",
+      "changesUnderstanding": "它的价值在于提供理解 Uhde 与 Frye 收藏趣味的清楚入口，不依赖稀有或巅峰地位。",
+      "thereforeNext": "最后应带着“共同注意如何形成”的答案回看哪一处？"
+    }
+  ],
+  "humorBasis": null,
+  "forbiddenAssumptions": [
+    "成人是母亲，儿童与成人存在亲属关系",
+    "人物正在进行虔诚或宗教阅读",
+    "白页亮度来自可确定方向的真实光源",
+    "能够辨认书中图像或文字内容",
+    "人物具有温馨、虔诚、幸福等确定心理",
+    "本作是 Uhde 最具代表性或稀有的作品"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "人物因阅读而感到温馨或虔诚",
+      "evidenceType": "直接观察只能确认朝向与姿态，不能确认心理",
+      "allowedWording": "多张脸朝向书页，身体围拢在一起",
+      "forbiddenEscalation": "温馨的一家人虔诚共读"
+    },
+    {
+      "claim": "画中是母亲和孩子",
+      "evidenceType": "标题与对象资料未确认身份或亲属关系",
+      "allowedWording": "一个成人与几个儿童",
+      "forbiddenEscalation": "母亲带着自己的孩子读书"
+    },
+    {
+      "claim": "白页发出圣光或真实照亮众人",
+      "evidenceType": "直接观察只支持页面较亮、背景较暗",
+      "allowedWording": "白色书页在暗背景中成为亮部和视觉支点",
+      "forbiddenEscalation": "圣光从书中照出或光源方向确定"
+    },
+    {
+      "claim": "作者意在把普通阅读宗教化",
+      "evidenceType": "作者意图无直接来源；比较只支持题材与形式差异",
+      "allowedWording": "本作可作为理解 Uhde 如何处理现代日常生活中的光与专注的入口",
+      "forbiddenEscalation": "Uhde 明确把家庭阅读变成宗教仪式"
+    },
+    {
+      "claim": "本作不可由其他 Uhde 作品替代",
+      "evidenceType": "编辑比较；五维稀缺仅中低",
+      "allowedWording": "它在 Frye 内提供一个从日常阅读进入 Uhde 创作的清楚节点",
+      "forbiddenEscalation": "独一无二、作者巅峰或决定行程的珍品"
+    }
+  ],
+  "historicalContextPlan": {
+    "applicable": false,
+    "reason": "本作的重要性不依赖某场事件、政治变化、宗教改革、制度转型或社会冲突；十九世纪家庭阅读与识字文化仅是背景线索，当前证据不足以承担核心因果。",
+    "beforeState": null,
+    "changeOrConflict": null,
+    "objectRole": null,
+    "consequence": null,
+    "uncertainty": "人物身份、书中内容及具体家庭阅读语境均未确认。",
+    "placement": "正文不展开宏观历史，只在事实边界收窄人物身份与宗教解释。"
+  },
+  "authorStyle": {
+    "careerPosition": "1880 年代成熟期的家庭与日常题材作品",
+    "visibleMechanism": "松动短笔触、综合色块、简化暗背景，以及集中于人物关系的光色组织",
+    "classification": "成熟期日常题材；可与其宗教场景作品群比较，但本作没有可确认的基督教人物或事件",
+    "boundary": "不直接称为宗教化，也不把德国印象主义标签替代对可见方法的解释"
+  },
+  "significance": {
+    "label": "重要藏品",
+    "dimensions": {
+      "artHistory": "中",
+      "artistCareer": "中",
+      "museumNarrative": "高",
+      "onsiteReturn": "高",
+      "scarcity": "中低"
+    },
+    "comparisonCategory": "Uhde 的家庭阅读／共同注意场景，与其将当代普通人置于宗教场景的成熟期作品群",
+    "nearestComparator": "Uhde 将当代普通人置于宗教场景的作品群",
+    "similarities": "日常室内、普通人物，以及借光与人物关系组织专注",
+    "decisiveDifference": "《图画书 I》没有可确认的基督教人物或事件，阅读本身承担共同注意的中心",
+    "irreplaceability": "在 Frye 内，它为理解 Uhde 如何从现代日常生活处理光与专注提供直接入口；其价值是馆内叙事与现场观看回报，不是数量稀少。",
+    "boundary": "不能称作者宗教画代表峰值、稀世珍品、世界级孤品或足以决定旅行路线的作品；服从 Frye 72 分边界。"
+  },
+  "observableDetails": [
+    "竖幅构图中，一个成人与几个儿童围拢打开的书",
+    "白色书页位于构图中心偏下",
+    "多张脸都朝向书页",
+    "背景简化且整体偏暗",
+    "衣物由可见短笔触和综合色块构成"
+  ],
+  "secondLook": {
+    "action": "沿着最外侧人物的脸和肩膀逐个回到中央白页，再看这些朝向怎样把分散的人连成一个紧凑轮廓。",
+    "newJudgment": "画面的中心不只是那本书，而是书页让几个人在同一刻共享注意的方式。",
+    "coreQuestionClosure": "即使看不清书中内容，人物的朝向、围拢、明暗和笔触仍让这本书成为全画最有力量的中心。"
+  },
+  "productionLanguageBoundary": {
+    "visitorProseAllowed": "仅写作品、现场观察、可靠作者语境、比较结论与访客真正需要知道的证据边界。",
+    "visitorProseForbidden": [
+      "研究缺口",
+      "图片许可任务",
+      "发布任务",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "版本迁移"
+    ],
+    "internalRisksDestination": "author-review.json"
+  },
+  "plannedDraftContract": {
+    "workTitle": "图画书 I / Das Bilderbuch I (Picture Book I)",
+    "artistLine": "弗里茨·冯·乌德 Fritz von Uhde · 德国",
+    "date": "1889",
+    "locationStatus": "Frye Art Museum，创馆收藏；在展状态以到访当日馆方信息为准",
+    "visitPriority": "强烈推荐",
+    "importance": "重要藏品",
+    "suggestedTime": "赶时间 30 秒；细看 4—6 分钟",
+    "quickLayerVisibleCharacterTarget": "90—180",
+    "deepLayerMinimumVisibleCharacters": 320,
+    "cardVisibleCharacterRange": "24—100"
+  }
+}

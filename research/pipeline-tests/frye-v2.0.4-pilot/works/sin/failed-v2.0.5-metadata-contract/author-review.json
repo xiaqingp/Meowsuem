@@ -1,0 +1,254 @@
+{
+  "workId": "sin",
+  "directUpstream": {
+    "filename": "draft.md",
+    "sha256": "ea8d8a1b6abce58c9faadb9f30ba988181667d081a2e7f2a2c67f2ce3c0a778b"
+  },
+  "reviewContext": {
+    "runId": "m28-frye-v2.0.5-pilot-2026-07-22",
+    "pipelineVersion": "2.0.5",
+    "instructionVersion": "1.6.8",
+    "model": "gpt-5.6-sol",
+    "authorReasoningEffort": "high",
+    "retryReason": "Pipeline 2.0.5 regression after fixing the executor profile. Generated fresh from research-card.md under explicit high reasoning; superseded low-reasoning outputs were not read or reused."
+  },
+  "paragraphDependencyReview": [
+    {
+      "paragraph": "Q1 — 30 秒先懂",
+      "does": "从女子与蛇的两处亮眼进入，给出身体、蛇与凝视共同制造寓意效果的暂时答案。",
+      "dependsOn": "只依赖标题《罪》和零背景读者可见的女子、蛇、黑暗。",
+      "newUnderstanding": "值得看的重点是观者怎样被双重凝视卷入，而非等待一个完整情节。",
+      "breaksIfMovedEarlier": "这是正文入口，无法再提前；删去后深层会缺少可独立成立的 30 秒抓手。"
+    },
+    {
+      "paragraph": "D1 — 标题怎样变成观看关系",
+      "does": "解释抽象标题如何通过正面人物、横肩之蛇与两处眼睛成为看与被看的关系。",
+      "dependsOn": "Q1 已经让读者识别两处亮眼，并得到“凝视会把观者卷入”的暂时答案。",
+      "newUnderstanding": "“罪”在本文中的作用机制落在观看发生的瞬间，而非未获证实的人物故事。",
+      "breaksIfMovedEarlier": "若放到 Q1 前，读者还没有视觉入口，‘看与被看’会成为抽象判断。"
+    },
+    {
+      "paragraph": "D2 — 蛇与暗部怎样收紧关系",
+      "does": "沿蛇身、蛇头方向和暗部边缘说明人物与动物怎样被锁进同一构图。",
+      "dependsOn": "D1 已建立两处目光共同作用，读者才会追问它们怎样由身体结构连在一起。",
+      "newUnderstanding": "双重凝视的强度来自蛇的横向路径、空间压缩和身体的断续显现。",
+      "breaksIfMovedEarlier": "若先讲蛇的结构，读者尚不知道这条结构要加强哪一种观看关系。"
+    },
+    {
+      "paragraph": "D3 — 金框、作者方法与生涯位置",
+      "does": "把前段的压缩效果扩展到金框，并由眼前形式进入施图克的象征主义方法和较晚版本位置。",
+      "dependsOn": "D2 已说明画面内部如何收紧，金框才会被理解为继续集中效果，而非孤立装饰。",
+      "newUnderstanding": "高度集中的寓意机制属于施图克多年持续经营的方法，Frye 件是该母题的较晚延续。",
+      "breaksIfMovedEarlier": "若提前介绍流派与生涯，作者信息会先于可见机制，退化为百科栏目。"
+    },
+    {
+      "paragraph": "D4 — 比较怎样限定重要性",
+      "does": "以 1893 年版本为最近比较对象，说明共同机制、具体差异、版本边界与 Frye 馆内价值。",
+      "dependsOn": "D3 已建立‘多年经营的较晚版本’，比较才是在回答这一判断的证据边界。",
+      "newUnderstanding": "作品是重要藏品，因为艺术机制、作者母题位置和馆内锚点同时成立；其价值不依赖全球唯一性。",
+      "breaksIfMovedEarlier": "若在形式与生涯位置前比较，年份、媒材与版本会变成孤立清单，无法解释为何重要。"
+    },
+    {
+      "paragraph": "V1 — 五个现场细节",
+      "does": "把两处眼睛、蛇身、暗部、蛇头方向和金框逐一转成可核对动作。",
+      "dependsOn": "D1—D4 已分别赋予这些细节以凝视、结构、作者方法和比较意义。",
+      "newUnderstanding": "读者可以在现场用五个具体位置复核全文结论。",
+      "breaksIfMovedEarlier": "若提前，动作仍可执行，但会失去它们为何共同回答核心问题的意义。"
+    },
+    {
+      "paragraph": "L1 — 最后再看一眼",
+      "does": "以左肩—蛇头—女子眼睛—金框的对象专属路线回收全文。",
+      "dependsOn": "前文已经说明蛇的方向、双重凝视、暗部和金框的各自作用。",
+      "newUnderstanding": "第二眼把分散细节合成一套由身体、动物、目光和边框共同运行的观看装置。",
+      "breaksIfMovedEarlier": "若提前，‘完整观看装置’尚无逐项依据，只会重复快层。"
+    },
+    {
+      "paragraph": "B1 — 事实边界",
+      "does": "收窄版本数量、人物身份、经文来源和易变在展状态。",
+      "dependsOn": "D3—D4 已经使用版本和寓意身份，边界才有清楚的指向对象。",
+      "newUnderstanding": "读者知道哪些结论稳定、哪些只能停在有限范围。",
+      "breaksIfMovedEarlier": "若提前，尚未出现的版本与身份判断会先成为防御性说明，打断核心问题。"
+    }
+  ],
+  "claimClosure": [
+    {
+      "sentence": "裸身吸引视线，蛇与双重凝视随即把观者卷进一种诱惑和警觉同时存在的关系。",
+      "riskType": "观看效果；不得升级为人物心理或作者意图",
+      "evidenceType": "直接观察加编辑推断",
+      "sourceOrBasis": "研究卡确认裸身、蛇横跨双肩、蛇头向右前与两处亮眼；效果判断由这些可见关系推出。",
+      "confidence": "中：可见机制明确，但‘诱惑和警觉’是对观者效果的限定性概括。",
+      "verdict": "保留；句子描述观看关系，没有替人物书写心理。"
+    },
+    {
+      "sentence": "于是“罪”不只停留在标题里，它发生在看与被看的瞬间。",
+      "riskType": "图像寓意",
+      "evidenceType": "编辑推断",
+      "sourceOrBasis": "标题、正面人物、蛇与双重亮眼共同构成寓意关系；研究卡允许“罪/诱惑”的寓意场。",
+      "confidence": "中：推断过程在前两句中对读者可见。",
+      "verdict": "保留；没有声称唯一解释或确定宗教身份。"
+    },
+    {
+      "sentence": "人物与动物因此被锁进同一条横向结构。",
+      "riskType": "构图因果",
+      "evidenceType": "直接观察加形式分析",
+      "sourceOrBasis": "蛇从一侧肩膀横穿另一侧且贴着上身，研究卡明确蛇横跨双肩。",
+      "confidence": "高：结构可由图像直接核对。",
+      "verdict": "保留。"
+    },
+    {
+      "sentence": "这里可以看出施图克处理象征主义题材的典型方法：寓意、情色身体和整体设计彼此配合，让一个抽象概念获得近乎实体的压迫感。",
+      "riskType": "作者风格与观看效果",
+      "evidenceType": "来源事实加编辑推断",
+      "sourceOrBasis": "研究卡明确作者定位、寓意、情色身体、建筑式整体设计和本作的窄幅、暗背景、金框。",
+      "confidence": "中高：风格框架有来源；‘压迫感’是由空间压缩与近黑背景推出的观感。",
+      "verdict": "保留；未写成作者明确意图。"
+    },
+    {
+      "sentence": "它显示的不是一次偶然构思，而是一套经过多年调整、仍保持高度集中效果的视觉方法。",
+      "riskType": "时间因果与作者实践",
+      "evidenceType": "来源事实加编辑推断",
+      "sourceOrBasis": "权威比较来源确认 1891—1912 年间存在多个构图近似、仅小幅变化的版本。",
+      "confidence": "高：跨多年重复与小幅变化足以排除一次性构思；未推断具体心理动机。",
+      "verdict": "保留；这是全文唯一一处完整否定—转折骨架。"
+    },
+    {
+      "sentence": "多个近似版本说明这一母题在施图克生涯与象征主义图像中分量很重，也限制了对单件稀有度的拔高。",
+      "riskType": "作者生涯位置与稀有度",
+      "evidenceType": "来源事实与比较判断",
+      "sourceOrBasis": "研究卡将本作列为成名母题较晚版本，作者生涯与艺术史位置均为高，稀缺性为中低。",
+      "confidence": "高：结论与研究卡五维判断及多版本事实一致。",
+      "verdict": "保留。"
+    },
+    {
+      "sentence": "在 Frye 馆内，它又是理解施图克及慕尼黑象征主义收藏线的重要锚点。",
+      "riskType": "不可替代性与馆藏位置",
+      "evidenceType": "研究卡编辑判断",
+      "sourceOrBasis": "研究卡明确称其为 Frye 的 Stuck/慕尼黑象征主义锚点，本馆叙事维度为高。",
+      "confidence": "高：范围严格限定为 Frye 馆内。",
+      "verdict": "保留；未升级为全球不可替代、稀世珍品或旅行级孤品。"
+    },
+    {
+      "sentence": "目前可确认施图克在 1891—1912 年间创作过多个近似版本，Frye 所藏是约 1908 年的较晚一件；版本总数没有可靠一致的说法。",
+      "riskType": "数量、年代与版本关系",
+      "evidenceType": "来源事实",
+      "sourceOrBasis": "研究卡与 Neue Pinakothek 比较来源。",
+      "confidence": "高：时间范围与多个版本有权威来源；未知总数被明确保留。",
+      "verdict": "保留。"
+    }
+  ],
+  "plannedHighRiskClaimCheck": {
+    "characterPsychology": "正文没有给女子或蛇书写内心、欲望、恐惧或挑衅。",
+    "realTimeSequence": "正文只有观看路径和作者跨年版本范围，没有把观看顺序写成画内真实时间。",
+    "imageClaimVersusHistory": "正文把罪与诱惑限定为寓意效果，没有把画面当作宗教或历史事件记录。",
+    "artistIntent": "正文分析可见效果与典型方法，没有使用‘作者想要/意在/证明其意图’。",
+    "uniquenessAndSuperlatives": "正文明确有多个近似版本、总数未知，没有首次、唯一、原作、最著名或世界级判断。",
+    "irreplaceability": "正文仅确认 Frye 馆内锚点，重要性为重要藏品。",
+    "unplannedHighRiskClaims": []
+  },
+  "nativeChineseReview": {
+    "oneBreathParaphrase": "这幅画把女子、蛇、黑暗和两双眼睛挤进一个窄舞台，让观者一看她，也立刻被画面里的目光盯住；它是施图克反复画过的成名母题，在 Frye 很重要，但价值不靠版本唯一。",
+    "translationeseFindings": [],
+    "readAloudVerdict": "passed",
+    "readAloudNotes": "标题能口头复述；快层有主语和完整答案；深层四段从凝视、蛇与暗部、金框与作者方法推进到版本比较，没有生硬名词堆叠。"
+  },
+  "productionLanguageScan": {
+    "visitorFilesScanned": [
+      "card.txt",
+      "draft.md"
+    ],
+    "prohibitedCategories": {
+      "internalResearchGap": false,
+      "imageLicenseTask": false,
+      "publicationTask": false,
+      "testLanguage": false,
+      "promptLanguage": false,
+      "generatorLanguage": false,
+      "reviewerLanguage": false,
+      "migrationLanguage": false
+    },
+    "findings": [],
+    "result": "clear",
+    "note": "draft.md 顶部仅有不可见的直接上游哈希注释；访客段落没有内部生产语言。事实边界只说明对象版本、人物身份和易变在展状态。"
+  },
+  "significanceReview": {
+    "assignedLevel": "重要藏品",
+    "fiveDimensionsClosed": {
+      "artisticAchievement": "正文用窄幅、蛇的横向路径、暗部、双重凝视和金框解释具体形式成就。",
+      "artHistoricalPosition": "正文把它放在施图克 1891—1912 年持续经营的象征主义母题内，并说明是较晚版本。",
+      "historicalCulturalValue": "正文只说明抽象道德概念怎样在象征主义图像中变成观看关系，没有冒充具体宗教史证据。",
+      "rarityAndIrreplaceability": "正文给出 1893 年最近比较对象、共同点与差异，并明确多个版本和未知总数。",
+      "collectionPosition": "正文把价值限定为 Frye 馆内施图克与慕尼黑象征主义收藏线的锚点。"
+    },
+    "nearestComparator": "Neue Pinakothek，Franz von Stuck，1893，Die Sünde",
+    "comparatorClosure": "共同核心为暗背景、蛇缠肩、正面凝视与窄竖幅；Frye 件年代更晚、媒材及具体框与色调不同。差异不足以建立全球不可替代性。",
+    "museum72Boundary": "已遵守：未使用稀世珍品、世界级必看、唯一、孤品或改变行程的措辞。",
+    "significanceVerdict": "重要性论证完整，等待独立审读。"
+  },
+  "voiceScoreCandidate": {
+    "candidateOnly": true,
+    "scores": {
+      "entry": {
+        "score": 2,
+        "evidence": "快层以女子与蛇两处亮眼进入，并立即给出双重凝视的暂时答案。"
+      },
+      "causality": {
+        "score": 2,
+        "evidence": "蛇横跨双肩、暗部压缩、金框收紧依次解释双重凝视为何增强。"
+      },
+      "humanAgency": {
+        "score": 2,
+        "evidence": "多个跨年版本被解释为施图克持续经营与调整同一母题的创作选择。"
+      },
+      "turn": {
+        "score": 2,
+        "evidence": "比较段把单幅的强烈效果转为‘成熟母题的较晚版本’，并由此限定稀有度。"
+      },
+      "visualPayoff": {
+        "score": 2,
+        "evidence": "每一步都回到眼睛、蛇身、暗部、蛇头方向或金框。"
+      },
+      "spokenClarity": {
+        "score": 2,
+        "evidence": "连续朗读时主语清楚，转折由画面关系推动，可用一口气摘要复述。"
+      },
+      "secondLook": {
+        "score": 2,
+        "evidence": "结尾给出左肩—蛇头—女子眼睛—金框的对象专属折线路径，并合成新的观看判断。"
+      }
+    },
+    "total": 14,
+    "minimumThreshold": 12,
+    "zeroScores": 0,
+    "note": "作者评分仅供候选判断，不构成最终通过证据。"
+  },
+  "unresolvedRisks": [
+    {
+      "risk": "研究卡没有单列现代国家归属。作者行采用研究卡能够支持的地区归属‘慕尼黑’，独立审读需确认该地区标注是否满足产品字段。",
+      "visitorImpact": "低；没有凭常识补写国籍。",
+      "requiredAction": "如产品字段必须使用国家，应先补充研究卡来源，再改作者行。"
+    },
+    {
+      "risk": "公开来源对《罪》母题版本总数说法不一。",
+      "visitorImpact": "已通过‘多个近似版本、总数无可靠一致说法’收窄。",
+      "requiredAction": "独立审读不得把总数或版本排序补进正文。"
+    },
+    {
+      "risk": "金色建筑式画框的具体设计与制作归属未确认。",
+      "visitorImpact": "正文只描述画框的可见效果，没有归于施图克本人。",
+      "requiredAction": "维持当前措辞，除非上游增加直接证据。"
+    },
+    {
+      "risk": "2026-07-22 在展信息是易变快照。",
+      "visitorImpact": "元数据与事实边界均提示状态会变化。",
+      "requiredAction": "页面使用时按馆方实时状态更新，不改变作品价值判断。"
+    },
+    {
+      "risk": "Frye 对象图的再利用授权未确认。",
+      "visitorImpact": "本次仅生成文字，访客正文未出现图片任务。",
+      "requiredAction": "任何图片使用应在独立图片流程中确认授权。"
+    }
+  ],
+  "finalPassIssued": false,
+  "independentReviewRequired": true,
+  "status": "READY_FOR_INDEPENDENT_REVIEW"
+}

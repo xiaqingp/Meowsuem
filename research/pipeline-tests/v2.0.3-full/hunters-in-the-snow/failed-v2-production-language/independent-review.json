@@ -1,0 +1,163 @@
+{
+  "reviewType": "independent-review",
+  "reviewerRole": "全新独立 reviewer；未参与本件作者生成",
+  "workId": "hunters-in-the-snow",
+  "workTitle": "雪中猎人",
+  "runId": "m28-v2.0.3-full-2026-07-22",
+  "pipelineVersion": "2.0.3",
+  "instructionVersion": "1.6.7",
+  "directUpstream": {
+    "file": "draft.md",
+    "actualSha256": "d238115bc1a6ea4d2bf5e659404317e1365a184841bcab7e0e8a8be07991d930"
+  },
+  "causalityCheck": {
+    "verdict": "PASS",
+    "draftDeclaredDirectUpstream": "card.txt",
+    "draftDeclaredCardSha256": "55af8fc19ba4011962ef0cf60a7ebb1678c4f6c0cf7a69e465fccfe0638daa49",
+    "actualCardSha256": "55af8fc19ba4011962ef0cf60a7ebb1678c4f6c0cf7a69e465fccfe0638daa49",
+    "evidence": "draft.md 声明的 card.txt 哈希与实际 SHA-256 完全一致；本 review 另记录了实际 draft.md SHA-256。"
+  },
+  "checks": [
+    {
+      "item": "artifactAndMetadata",
+      "verdict": "PASS",
+      "evidence": "中英文名、作者与地区、年代、材质尺寸、地点状态、参观优先级、重要性和建议停留齐全；地点状态保留核验日期与变化边界。"
+    },
+    {
+      "item": "cardSummary",
+      "verdict": "PASS",
+      "evidence": "卡片以‘猎人带回一只狐狸，冰面仍挤满人’建立对象专属反差，独立回答点击价值；未以导览命令开场，也不是快层摘句。"
+    },
+    {
+      "item": "quickLayer",
+      "verdict": "PASS",
+      "evidence": "快层独立交代近景归猎、远处活动和贯穿全画的冷色，给出‘人物引入、冬天留住视线’的暂时答案，并提供沿斜坡观看的路线。"
+    },
+    {
+      "item": "dualLayerIndependence",
+      "verdict": "PASS",
+      "evidence": "删去深层，快层仍能指导观看并回答价值；删去快层，深层从猎人、斜坡、色彩到月份图传统重新建立完整论证。卡片、快层、深层职责不同。"
+    },
+    {
+      "item": "factClosure",
+      "verdict": "PASS",
+      "evidence": "身份、六季组画、委托、月份图传统、现存去向和馆方评价均可回查白名单资料；观察、来源事实与编辑推断有清楚分界。"
+    },
+    {
+      "item": "historicalAndArtNarrative",
+      "verdict": "PASS",
+      "evidence": "正文讲清变化前的月份图以劳动娱乐组织时间、勃鲁盖尔保留活动但让景观和气氛统摄人物、本作作为十二月与一月节点的角色，并把变化落回冷色、高视点和近远活动。"
+    },
+    {
+      "item": "paragraphCognitiveProgression",
+      "verdict": "PASS",
+      "evidence": "认知依次从‘猎人不是全部主题’推进到‘斜坡连接并存活动’、‘冷色让环境取得主导’、‘月份图传统被改造’、‘兄弟组画能替代什么与不能替代什么’；后段依赖前段建立的冬景机制，不能无损前移。"
+    },
+    {
+      "item": "workSpecificMustPass",
+      "verdict": "PASS",
+      "evidence": "近景有限猎获、远处冰面活动和整体冬景共同回答同一问题；明确解释月份图传统的变化；没有把低头、瘦长等动作外观升级为猎人或狗的情绪。"
+    },
+    {
+      "item": "authorStyleAndCareerPosition",
+      "verdict": "PASS",
+      "evidence": "作者方法具体落在高视点、组合景观、近远尺度与整体色调，并把本作放进 1565 年季节组画及欧洲风景画转折，而非只贴‘勃鲁盖尔风格’标签。"
+    },
+    {
+      "item": "significanceFiveDimensions",
+      "verdict": "PASS",
+      "evidence": "艺术成就为统一寒冷效果与空间组织；艺术史位置为月份图向环境主导的季节画转折；历史文化价值为六季观念与商人委托；稀有度按原六幅现存五幅限定；馆藏位置结合 KHM 三幅同组画与勃鲁盖尔收藏线说明。"
+    },
+    {
+      "item": "closestComparatorsAndIrreplaceability",
+      "verdict": "PASS",
+      "evidence": "比较类别和最近比较对象明确为同一六季组画现存另四幅；正文承认它们可替代一般季节组织经验，同时以有资料支持的冬季节点和整体寒冷效果说明其不能提供的核心价值，未知边界未被抹去。"
+    },
+    {
+      "item": "onSiteDetailsAndSecondLook",
+      "verdict": "PASS",
+      "evidence": "狐狸、狗群、小火焰、冰面人物、枝头鸟与远谷至少五项可现场核对；最后一眼要求从狐狸沿斜坡到冰面再扫回全幅冷色，并用深层建立的环境主导认识改变第二眼。"
+    },
+    {
+      "item": "factBoundaryAndSources",
+      "verdict": "PASS",
+      "evidence": "事实边界限制狩猎结果、心理情绪、观看顺序、可定位村庄、原陈列位置和馆方最高级范围；四个资料链接齐全，正文没有依赖事实边界替无依据强断言兜底。"
+    },
+    {
+      "item": "highRiskSentenceAudit",
+      "verdict": "PASS",
+      "evidence": "‘收获显得有限’被明确标成由一只狐狸支持的有限推断；未偷写人物心理；空间观看顺序未写成事件先后；‘第一幅且最突出’保留 KHM 归属；不可替代性限定在明确比较组与冬季核心价值。"
+    },
+    {
+      "item": "contrastSyntax",
+      "verdict": "PASS",
+      "evidence": "访客正文未反复用完整‘不是……而是……’或‘先看……再看……’骨架推进；主要转折由画面证据产生。个别否定用于事实边界，没有形成模板堆叠。"
+    },
+    {
+      "item": "nativeChinese",
+      "verdict": "PASS",
+      "evidence": "标题、快层和段落转折可自然朗读，一口气可复述为：猎人只是入口，斜坡和冷色把近远活动收进一个冬天，勃鲁盖尔因此改变了月份图中人物与风景的分量。虽有少量审读式限定，尚未造成翻译腔或理解阻塞。"
+    },
+    {
+      "item": "productionLanguage",
+      "verdict": "FAIL",
+      "evidence": "访客成稿的事实边界直接出现‘图片许可信息尚未提供，发布前仍需补核’。这是内部资产与发布流程状态，不是作品事实或访客观看边界，违反母指令禁止页面出现制作说明、测试话语或流程语言的硬性要求。"
+    }
+  ],
+  "voiceRubric": {
+    "scale": "每项 0—2；七项合计满分 14，门槛为至少 12 且无 0 分",
+    "items": [
+      {
+        "criterion": "入口",
+        "score": 2,
+        "evidence": "‘猎人为什么没有占满这幅《雪中猎人》？’从标题人物与画面范围的具体矛盾进入。"
+      },
+      {
+        "criterion": "因果",
+        "score": 2,
+        "evidence": "斜坡连接活动，冷色统摄空间，继而解释人物为何让位于冬景及这种变化为何具有艺术史分量。"
+      },
+      {
+        "criterion": "人",
+        "score": 2,
+        "evidence": "猎人、冰上人群、燎猪者和委托人的活动把季节传统与观看机制落到具体人的行动，同时不偷写心理。"
+      },
+      {
+        "criterion": "转折",
+        "score": 2,
+        "evidence": "从标题中的猎人转到统摄近远活动的冬景，再转到月份图传统的改造，均由斜坡、色调和组画资料支持。"
+      },
+      {
+        "criterion": "视觉兑现",
+        "score": 2,
+        "evidence": "艺术史判断持续回到狐狸、坡地、火焰、冰面人物、高视点和灰绿蓝灰色调。"
+      },
+      {
+        "criterion": "口语清晰度",
+        "score": 1,
+        "evidence": "主体叙述清楚可复述，但‘评价范围不能自行扩大’、‘判断来自……并不只靠……’及发布前补核语句带有审稿或生产口吻，削弱访客声音。"
+      },
+      {
+        "criterion": "第二眼",
+        "score": 2,
+        "evidence": "从狐狸沿斜坡到冰面、再扫回全幅冷色的动作具体，并把局部狩猎重新放进整体冬季组织。"
+      }
+    ],
+    "total": 13,
+    "maximum": 14,
+    "thresholdVerdict": "PASS"
+  },
+  "mechanicalVerdict": "FAIL",
+  "factBoundaryVerdict": "PASS",
+  "narrativeVerdict": "PASS",
+  "nativeChineseVerdict": "PASS",
+  "significanceVerdict": "PASS",
+  "failedHardGates": [
+    {
+      "gate": "publishedFormNoProductionLanguage",
+      "evidence": "事实边界中的‘图片许可信息尚未提供，发布前仍需补核’暴露内部制作与发布状态。"
+    }
+  ],
+  "verdict": "FAIL",
+  "verdictReason": "哈希、事实、叙事、中文与重要性均通过，声音评分 13/14；但访客成稿含明确生产语言，属于 published-form 硬门失败，因此总 verdict 必须为 FAIL。"
+}

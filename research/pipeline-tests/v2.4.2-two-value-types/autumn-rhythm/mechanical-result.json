@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.4.2",
+  "runId": "m28-2-v2.4.2-autumn-rhythm-concise-author-2026-07-23",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T02:22:34.813Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_workId_from_run_header",
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "0fb6b2093c901a72421c1d28187e49a664f140bf25316b23e2542bc4ffb3753e",
+      "bytes": 6764
+    },
+    {
+      "path": "card.txt",
+      "sha256": "2c9be964ac24737e8582cbccef43c5095c9d486e313ba33d87ae8c6ef4bd4c80",
+      "bytes": 259
+    },
+    {
+      "path": "draft.md",
+      "sha256": "01528a391c379132d5951888eae604548b8cb85b0bc9ab50265505b1163e42ec",
+      "bytes": 3879
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "artifact": "地中美术馆整体作者复核",
+  "upstream": { "file": "draft.md", "sha256": "2e3a2d756d46e1adf70a1a4e8db0d61d652e5a18cff1f3d19c1ef8dabacb4213" },
+  "reviewedArtifacts": { "card.txt": "3cae97ee167691e51dcd0243813a9cf8b5fbb9a8d2c86f075fc4de0a41b10997", "draft.md": "2e3a2d756d46e1adf70a1a4e8db0d61d652e5a18cff1f3d19c1ef8dabacb4213" },
+  "coreQuestion": "为什么从低调入口走到三组永久作品的这条路，本身就是理解地中美术馆的关键？",
+  "paragraphDependency": [
+    {
+      "paragraph": "30 秒先懂",
+      "dependsOn": "仅依赖元数据中的地点与对象边界。",
+      "newUnderstanding": "给出地下—庭院—三组永久作品的完整路线，并暂答路线把建筑与作品连成一次观看。",
+      "breaksIfMovedEarlier": "已位于元数据后，无需移动。"
+    },
+    {
+      "paragraph": "深层一：入口与地下选择",
+      "dependsOn": "快层已提出主体藏入地下却让自然参与的矛盾。",
+      "newUnderstanding": "低调入口被落实为尽量减少地表改变的建造选择，并提出自然如何继续在场。",
+      "breaksIfMovedEarlier": "若没有快层路线，地景边界会像孤立的建筑背景。"
+    },
+    {
+      "paragraph": "深层二：通道与几何庭院",
+      "dependsOn": "上一段已提出进入地下后自然如何在场。",
+      "newUnderstanding": "三角、方形开口把天空和日光引入，身体移动使封闭与开放可比较。",
+      "breaksIfMovedEarlier": "若入口的地下问题未建立，庭院只剩形式罗列。"
+    },
+    {
+      "paragraph": "深层三：光的可变边界",
+      "dependsOn": "上一段已确认庭院让光进入地下。",
+      "newUnderstanding": "路线训练访客注意方向、尺度和亮度，同时限定光效不可按时刻保证。",
+      "breaksIfMovedEarlier": "若尚未建立庭院机制，变化光线缺少具体进入路径。"
+    },
+    {
+      "paragraph": "深层四：莫奈室",
+      "dependsOn": "此前已建立光作为路线条件并训练观看。",
+      "newUnderstanding": "自然光由指路条件推进为五幅《睡莲》的展陈条件，建筑—作品关系首次落到具体单元。",
+      "breaksIfMovedEarlier": "提前会失去从庭院光到展室光的认知转换。"
+    },
+    {
+      "paragraph": "深层五：特瑞尔",
+      "dependsOn": "莫奈室已把光从通道条件推进为展陈条件。",
+      "newUnderstanding": "光进一步成为作品直接使用的材料，停留与移动进入知觉过程。",
+      "breaksIfMovedEarlier": "提前会削弱光从环境到展陈再到材料的递进。"
+    },
+    {
+      "paragraph": "深层六：德·玛利亚",
+      "dependsOn": "前文已建立方向、尺度、亮度和观看者移动。",
+      "newUnderstanding": "球体、台阶、27 件几何体与变化光线把此前训练汇入一个空间关系。",
+      "breaksIfMovedEarlier": "提前会让球体和几何体成为孤立清单，无法回收整条路线。"
+    },
+    {
+      "paragraph": "深层七：比较与重要性",
+      "dependsOn": "前六段已证明连续观看机制如何成立。",
+      "newUnderstanding": "价值归于四者共同设计的一套机制；同类可替代单项且具名比较不足，因此只计一次并标为重要藏品。",
+      "breaksIfMovedEarlier": "若机制尚未展开，重要性判断会成为无证据评级。"
+    },
+    {
+      "paragraph": "最后再看一眼",
+      "dependsOn": "全文已建立庭院如何训练对光、尺度与位置的注意。",
+      "newUnderstanding": "用德·玛利亚空间的同框比较，验证整条路线如何改变最后一眼。",
+      "breaksIfMovedEarlier": "提前会只剩通用的停步动作，无法回收入口以来的空间学习。"
+    }
+  ],
+  "highRiskClosure": [
+    {
+      "sentence": "按馆方说明，建筑大部分置于地下，是为了尽量少改变濑户内海景观。",
+      "evidenceType": "馆方来源事实",
+      "sourceOrBasis": "地中美术馆馆方页与资料包",
+      "confidence": "高：直接馆方说明；正文保留归属语。",
+      "closure": "未升级为完全不改变或唯一方案。"
+    },
+    {
+      "sentence": "光线会随一天、季节和天气变化，因此这里没有一场可按钟点保证的固定光效。",
+      "evidenceType": "馆方来源事实与可变信息边界",
+      "sourceOrBasis": "资料包的空间机制与禁写项",
+      "confidence": "高：变化有直接支持；具体效果无支持。",
+      "closure": "正文只承诺变化，并明确不承诺特定效果。"
+    },
+    {
+      "sentence": "馆方把整座美术馆视为一件大型场域特定作品。",
+      "evidenceType": "有归属的馆方评价",
+      "sourceOrBasis": "馆方资料包",
+      "confidence": "高：作为馆方表述；不冒充无争议世界排名。",
+      "closure": "紧接空间依据与比较限制。"
+    },
+    {
+      "sentence": "它的可靠价值在于这套组合形成了高度对象专属的连续观看机制。",
+      "evidenceType": "来源事实支持的编辑归纳",
+      "sourceOrBasis": "地下布局、庭院、自然光、三组永久作品及共同设计事实",
+      "confidence": "中：组合机制可追溯，但全球比较不完整。",
+      "closure": "以重要藏品收窄，未写唯一或不可替代。"
+    },
+    {
+      "sentence": "故保守列为‘重要藏品’；建筑、作品和体验共同支持这一个结论，不重复算作三份珍贵。",
+      "evidenceType": "重要性规则与比较边界",
+      "sourceOrBasis": "资料包比较说明及五维硬门",
+      "confidence": "高：具名最近比较对象缺失，不能通过稀世珍品硬门。",
+      "closure": "重要性降级和禁止重复计分均已显式说明。"
+    }
+  ],
+  "unplannedHighRiskClaims": [],
+  "nativeChineseReadAloud": {
+    "oneBreathParaphrase": "这座馆把主体藏进地下，再用庭院把天空和光带回来；一路走过莫奈、特瑞尔和德·玛利亚，才看懂建筑与作品为什么是一件整体。",
+    "translationeseFindings": [],
+    "readAloudAssessment": "卡片独立说明点击价值；标题能口头复述；快层有暂时答案；各段转折由入口、庭院、三组作品和比较依次推动；末段动作回收前文。"
+  },
+  "formulaCounts": {
+    "完整不是而是骨架": 1,
+    "完整并非而是骨架": 0,
+    "你以为其实骨架": 0,
+    "这件作品值得看因为开场": 0,
+    "先看再看骨架": 0,
+    "先再顺序骨架": 0
+  },
+  "formulaBasis": "对 draft.md 全文按所列字面模式计数；唯一的完整否定—转折句位于德·玛利亚段，未超过正文上限。",
+  "factBoundaryCheck": "边界段与正文一致：限定地中美术馆、光线可变、运营信息易变、比较证据不足；没有用边界段撤回正文强断言。",
+  "significanceCheck": "艺术成就、艺术史位置、历史文化价值、稀有度／不可替代性、馆藏位置均已处理；与其他安藤及场域特定场馆的比较承认单项可替代，缺少具名最近对象，因此未升级为稀世珍品。",
+  "onsiteDetailCount": 6,
+  "sourceLinkCount": 3
+}

@@ -1,0 +1,83 @@
+{
+  "instructionVersion": "1.6.7",
+  "taskId": "m25-melancholy-regression-v1.6.7",
+  "workId": "melancholy",
+  "sourcePack": "research/generation-tests/v1.6.7-melancholy-source-addendum.md",
+  "readerStartingPoint": "读者看见画名是《忧郁》，画里的人却都在动。",
+  "narrativeQuestion": "为什么一群忙个不停的人会叫《忧郁》？",
+  "quickLayerPlan": {
+    "visibleTension": "孩子在进行一场大球过小环的古怪游戏，翼人也在削木棍，左上黑云却正在靠近。",
+    "provisionalAnswer": "克拉纳赫把忧郁画成行动仍在继续、方向却已经丢失的危险状态。",
+    "viewingRoute": "先比较巨球与小圆环，再看刀和木屑，最后抬头寻找黑云。"
+  },
+  "logicSequence": [
+    {
+      "discovery": "孩子与翼人都在认真行动，但游戏几乎无法完成，劳动也看不到结果。",
+      "changesUnderstanding": "画名不再指身体静止，而指行动失去方向。",
+      "thereforeNext": "为什么当时的人会把忧郁理解成比悲伤更复杂的状态？"
+    },
+    {
+      "discovery": "四体液传统、文艺复兴创造天赋观和丢勒《忧郁 I》共同构成翼人形象的前史。",
+      "changesUnderstanding": "翼人不是随意加入的奇幻人物，而是在回应一种著名的忧郁形象。",
+      "thereforeNext": "克拉纳赫为什么把丢勒的工具和停滞换成游戏、劳动与黑云？"
+    },
+    {
+      "discovery": "路德警惕忧郁会使人受到魔鬼诱惑，克拉纳赫的系列常被放在这一宗教改革语境中理解。",
+      "changesUnderstanding": "无结果的忙碌和黑云可以共同表示危险已经侵入日常，而非单纯的创作瓶颈。",
+      "thereforeNext": "为什么画面仍然如此清楚、明亮，甚至带一点好笑？"
+    },
+    {
+      "discovery": "克拉纳赫以干净轮廓、薄而透明的油彩和横向构图，把晴朗城镇、日常活动与角落黑云放在同一平面。",
+      "changesUnderstanding": "明亮不是冲淡主题，而是让无人察觉危险的反差更强。",
+      "thereforeNext": "同题还有几个版本，哥本哈根这一幅凭什么重要？"
+    },
+    {
+      "discovery": "1528—1533 年间至少有四个不同版本，哥本哈根版不是孤本，却以横幅同时容纳工作、游戏、城镇与威胁。",
+      "changesUnderstanding": "重要性来自构图质量、版本比较和可靠作品史，不来自虚假的唯一性。",
+      "thereforeNext": "回到翼人的手和黑云，如何用一个动作重新看懂画名？"
+    }
+  ],
+  "humorBasis": "巨球与小圆环的尺度严重不配套，孩子却执行得非常认真。",
+  "falsePremisesToAvoid": [
+    "翼人什么也没做",
+    "所有动物都有唯一寓意",
+    "画面准确插图化了路德某一篇讲道",
+    "哥本哈根版是唯一或公认最佳版本"
+  ],
+  "claimBoundaryPlan": [
+    {
+      "claim": "翼人正在制作圆环",
+      "evidenceType": "馆方观察",
+      "allowedWording": "似乎正把木棍削成圆环",
+      "forbiddenUpgrade": "确定知道她最终要做什么"
+    },
+    {
+      "claim": "路德语境",
+      "evidenceType": "博物馆解释与研究史",
+      "allowedWording": "系列常被联系到路德对忧郁和魔鬼诱惑的警惕",
+      "forbiddenUpgrade": "克拉纳赫逐句插图化某次讲道"
+    },
+    {
+      "claim": "黑云含义",
+      "evidenceType": "多馆解释",
+      "allowedWording": "常被解释为巫术、魔鬼诱惑或失控危险",
+      "forbiddenUpgrade": "唯一确定含义"
+    },
+    {
+      "claim": "版本数量与重要性",
+      "evidenceType": "Cranach Digital Archive 与馆方版本记录",
+      "allowedWording": "至少四个构图不同的版本；哥本哈根版为重要藏品",
+      "forbiddenUpgrade": "世界唯一或四版最佳"
+    }
+  ],
+  "historicalContextRequired": true,
+  "historicalContextPlan": {
+    "beforeState": "忧郁长期来自四体液医学传统，中世纪多带疾病与消极意味；文艺复兴又把它与艺术创造力联系起来。",
+    "changeOrConflict": "丢勒把忧郁发展成被知识与创造极限困住的形象；宗教改革者路德则警惕忧郁可能让人受到魔鬼诱惑。",
+    "objectRole": "克拉纳赫保留翼人，却用荒唐游戏、无结果劳动和黑云，把忧郁从静止的天才困境改写成日常内部正在扩大的危险。",
+    "consequence": "作品让观众看见同一情绪概念在文艺复兴人文主义与宗教改革语境中的不同解释。",
+    "uncertainty": "它与路德思想的联系有研究支持，但黑云、动物和各项游戏的确切寓意没有唯一答案。",
+    "placement": "快层先用忙碌与危险给出答案；深层在图像反差之后解释四体液、丢勒和路德，再回到克拉纳赫的形式。"
+  }
+}
+

@@ -1,0 +1,230 @@
+{
+  "workId": "belt-mask-of-iyoba-idia",
+  "narrativeMainline": {
+    "valueType": "ritual_or_original_context",
+    "mainline": "这件象牙饰件把王母伊迪娅的纪念形象带入历代 Oba 的年度仪式；它后来又因 1897 年英国行动从贝宁王宫被掠走，因而同时保存了王权如何纪念一位女性，以及殖民掠夺如何改变王室物件命运的证据。",
+    "readerStartingPoint": "零背景读者从名称与图像可以知道这是一张象牙人脸，但尚不知道“面具”并非罩在脸上，也不知道它与王母称号、Oba 仪式和 1897 年掠夺的关系。",
+    "storyBeats": [
+      {
+        "beat": "先从侧缘的固定结构解释它是悬在腰或髋部的王室饰件，让“面具”的形状与实际使用方式分开。",
+        "researchRefs": [
+          "R02",
+          "R13"
+        ],
+        "newUnderstanding": "这张脸原本会随 Oba 的仪式性佩戴进入公共的王权场合。"
+      },
+      {
+        "beat": "再交代 Esigie、Idia 的军事支持与 Queen Mother 头衔，说明纪念形象为何进入 Oba 的仪式。",
+        "researchRefs": [
+          "R02",
+          "R04",
+          "R05"
+        ],
+        "newUnderstanding": "人物识别需要保留限定，但母亲、军事支持、王室称号与纪念物之间已有清楚的因果链。"
+      },
+      {
+        "beat": "最后沿 1897 年王宫卧室箱子、Robert Allman 与后续收藏链推进，回到物件今天所承载的来源伦理。",
+        "researchRefs": [
+          "R06",
+          "R07",
+          "R08",
+          "R09"
+        ],
+        "newUnderstanding": "它不只讲原来的王室用途，也以精确来源记录见证用途被暴力中断、物件被掠走并进入西方收藏的过程。"
+      }
+    ],
+    "humorBasis": "名称与用途之间有真实反差：它叫“面具”，却是悬在腰或髋部的饰件。",
+    "highRiskClaims": [
+      {
+        "claim": "人脸就是王母伊迪娅",
+        "evidenceType": "来源事实，但 British Museum 保留问号",
+        "allowedWording": "通常被认为表现王母伊迪娅；SAM 将其定名为伊迪娅",
+        "forbiddenUpgrade": "确定就是伊迪娅本人或写成写实肖像"
+      },
+      {
+        "claim": "Esigie 的明确创作意图",
+        "evidenceType": "SAM 对象页的馆方解释",
+        "allowedWording": "据 SAM 解释，Esigie 为纪念母亲而制作或委制",
+        "forbiddenUpgrade": "声称存在最初命令的文字记录，或断言具体雕工和完整个人意图"
+      },
+      {
+        "claim": "1897 年的来源变化",
+        "evidenceType": "SAM 具体来源记录与 British Museum 对同组物件的独立说明",
+        "allowedWording": "英国惩罚性远征期间从贝宁王宫被掠走；SAM 记录本件由 Robert Allman 于 1897 年 2 月 16 日从 Oba 卧室箱中取走",
+        "forbiddenUpgrade": "中性化为流入欧洲，或补写未有来源支持的现场经过"
+      },
+      {
+        "claim": "同组存世数量与不可替代性",
+        "evidenceType": "SAM 与 British Museum 的计数口径冲突，且同组比较对象共享核心价值",
+        "allowedWording": "属于一个非常小的同组；SAM 说四件，British Museum 说五件风格相近的饰件",
+        "forbiddenUpgrade": "四件仅存、五件仅存、世界唯一、同组最佳或稀世珍品"
+      },
+      {
+        "claim": "佩戴的连续时间与仪式细节",
+        "evidenceType": "SAM 称历代 Oba 在年度仪式中佩戴直到 1897 年",
+        "allowedWording": "据 SAM，历代 Oba 曾在年度仪式中佩戴这类饰件，直到 1897 年",
+        "forbiddenUpgrade": "补写仪式名称、准确程序或把观看顺序写成历史事件的完整时间线"
+      }
+    ]
+  },
+  "mustNotAssume": [
+    "不能确定人脸必然是伊迪娅的写实肖像。",
+    "不能假定留有最初制作命令、具体雕工姓名或完整仪式程序。",
+    "不能把 SAM 的“四件”或 British Museum 的“五件”扩大为无争议的全球存世总数。",
+    "不能声称本件优于同组对象，或具有同组对象无法替代的决定性对象级价值。",
+    "不能把 1897 年的掠夺写成中性的收藏流转。",
+    "不能声称作品当前正在展出，也不能补写返还谈判的现状。",
+    "不能由人脸姿态推断伊迪娅或佩戴者的心理。",
+    "不能把小型头像、刻纹、深色部分的具体身份或象征意义写成定论。"
+  ],
+  "displayMetadata": {
+    "by": "Benin Kingdom，Nigerian",
+    "date": "约 1517–1550",
+    "material": "象牙",
+    "place": "Seattle Art Museum，馆藏号 81.17.493",
+    "priority": "绝对不可错过",
+    "significance": "重要藏品",
+    "stay": "8—12 分钟",
+    "availability": "previously_exhibited_current_unknown",
+    "imagePolicy": "object_image"
+  },
+  "claimLedger": [
+    {
+      "claim": "作品为 Benin Kingdom 的象牙王室饰件，SAM 馆藏号 81.17.493。",
+      "researchRefs": [
+        "R01"
+      ],
+      "usedIn": [
+        "displayMetadata",
+        "draft 标题与主线语境"
+      ]
+    },
+    {
+      "claim": "SAM 解释其纪念 Queen Idia，由其子 Oba Esigie 制作或委制，并由历代 Oba 在年度仪式中佩戴直到 1897 年。",
+      "researchRefs": [
+        "R02"
+      ],
+      "usedIn": [
+        "card",
+        "draft 30 秒先懂",
+        "draft 深层"
+      ]
+    },
+    {
+      "claim": "SAM 称同类图像为四件之一，British Museum 称五件风格相近的 16 世纪象牙 hip-pendants，计数口径冲突。",
+      "researchRefs": [
+        "R03"
+      ],
+      "usedIn": [
+        "draft 同组比较",
+        "draft 事实边界"
+      ]
+    },
+    {
+      "claim": "British Museum 对人物为 Idia 的识别使用谨慎限定。",
+      "researchRefs": [
+        "R04"
+      ],
+      "usedIn": [
+        "card",
+        "draft 深层",
+        "draft 事实边界"
+      ]
+    },
+    {
+      "claim": "Esigie 为感谢 Idia 对军事行动的支持而创设 Queen Mother 头衔。",
+      "researchRefs": [
+        "R05"
+      ],
+      "usedIn": [
+        "card",
+        "draft 深层"
+      ]
+    },
+    {
+      "claim": "SAM 记录 1897-02-16 Robert Allman 从 Benin City 王宫 Oba 卧室箱中取走本件，之后经 1960 年交易链进入 Katherine White 收藏，并于 1981 年遗赠 SAM。",
+      "researchRefs": [
+        "R06"
+      ],
+      "usedIn": [
+        "card",
+        "draft 来源史"
+      ]
+    },
+    {
+      "claim": "British Museum 独立将同组物件从 Oba 寝室藏匿处移走的过程称为掠夺。",
+      "researchRefs": [
+        "R07"
+      ],
+      "usedIn": [
+        "card",
+        "draft 来源史"
+      ]
+    },
+    {
+      "claim": "British Museum 与 Met 的同组饰件共享 Idia 关联、王室佩戴和 1897 年掠夺史；SAM 本件的精确来源链尤其完整，但同组物件可回答大部分核心问题。",
+      "researchRefs": [
+        "R08",
+        "R09"
+      ],
+      "usedIn": [
+        "draft 同组比较",
+        "draft 事实边界"
+      ]
+    },
+    {
+      "claim": "人脸呈长椭圆形，额部与眼周有刻纹。",
+      "researchRefs": [
+        "R10"
+      ],
+      "usedIn": [
+        "draft 30 秒先懂",
+        "draft 最后一眼"
+      ]
+    },
+    {
+      "claim": "顶缘和下颏周围的小型头像或纹饰构成边框。",
+      "researchRefs": [
+        "R11"
+      ],
+      "usedIn": [
+        "draft 30 秒先懂",
+        "draft 最后一眼"
+      ]
+    },
+    {
+      "claim": "双眼与部分细节的深色嵌入或孔洞和浅色象牙形成对照。",
+      "researchRefs": [
+        "R12"
+      ],
+      "usedIn": [
+        "draft 30 秒先懂",
+        "draft 最后一眼"
+      ]
+    },
+    {
+      "claim": "侧缘的悬挂或固定结构支持其为腰或髋部佩戴的王室饰件，而非覆盖面部的面具。",
+      "researchRefs": [
+        "R13",
+        "R02",
+        "R08"
+      ],
+      "usedIn": [
+        "card",
+        "draft 30 秒先懂",
+        "draft 趣闻",
+        "draft 最后一眼"
+      ]
+    },
+    {
+      "claim": "最近明确展期止于 2023-08-28，当前展出状态未知。",
+      "researchRefs": [
+        "基本信息与状态"
+      ],
+      "usedIn": [
+        "displayMetadata",
+        "draft 事实边界"
+      ]
+    }
+  ]
+}

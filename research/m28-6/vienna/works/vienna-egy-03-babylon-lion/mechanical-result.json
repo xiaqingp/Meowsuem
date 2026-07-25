@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-egy-03-babylon-lion-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:41.648Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "8d9c76ba09f9e95b1772ab026665ddebad33c265e711da9cfdafc05495e4e03c",
+      "bytes": 10130
+    },
+    {
+      "path": "card.txt",
+      "sha256": "303ba754cdf858e5af5a878bd4b3cdd6da1cd7f80096b7122dcf16bb5bd4e1f8",
+      "bytes": 181
+    },
+    {
+      "path": "draft.md",
+      "sha256": "a9ff8a1b13ed7a24e07a9671534e9ce0d92367372a29b3d667cda8dda6aeefdf",
+      "bytes": 4057
+    }
+  ]
+}

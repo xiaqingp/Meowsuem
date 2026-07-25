@@ -1,0 +1,163 @@
+{
+  "artifactType": "writing_plan",
+  "workId": "free-me",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "museumId": "frye",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "directUpstream": {
+    "filename": "research-card.md",
+    "sha256": "716675a18e6d40ff015a1750eb5f25dc548a7c9ac7b4061bddf9dc3f551d7ffd"
+  },
+  "readerBaseline": "零背景读者能看出这是一幅近方形、蓝白分区的图像，并能注意到白色草写文字；读者尚不知道下部是什么，也不知道文字为何沿色域边界行进。",
+  "coreQuestion": "为什么这件作品让文字贴着蓝白边界移动，而不把它放成一条独立说明？",
+  "quickLayerPromise": {
+    "visibleTension": "文字既能读成句子，又被弯曲的边界牵着走；下部白色区域同时拒绝给出明确尺度。",
+    "provisionalAnswer": "文字在这里既传递题名，也参与构图；它把难以命名的蓝白交界变成作品的观看路径。",
+    "viewingRoute": [
+      "先辨认蓝白两块大色域",
+      "顺着白色草写文字的走向读边界",
+      "注意向右倾斜的地平线与下部暗线",
+      "回看文字、图像和长题名如何互相改变"
+    ]
+  },
+  "cognitionSteps": [
+    {
+      "step": 1,
+      "discovery": "画面以蓝白两块大色域建立近乎抽象的第一印象，白色草写文字却嵌在交界处。",
+      "changesUnderstanding": "作品不能只按地景照片或纯抽象图像来读，因为语言已经进入画面结构。",
+      "thereforeNext": "文字沿边界的具体位置怎样改变读图方式？"
+    },
+    {
+      "step": 2,
+      "discovery": "文字沿蓝色梯形边界延伸，地平线向右倾斜，下部白色纹理没有提供可靠尺度。",
+      "changesUnderstanding": "边界不再只是把颜色分开的线，它同时承担阅读路线；空间的不确定性也因此持续存在。",
+      "thereforeNext": "题名的重复与这条阅读路线是什么关系？"
+    },
+    {
+      "step": 3,
+      "discovery": "长题名三次以“Free me from this body”起句，重复使句子具有回返和延续感。",
+      "changesUnderstanding": "文字与图像的关系从一次性说明变成反复经过同一道边界；但重复不能被升级为作者心理或死亡愿望。",
+      "thereforeNext": "这种摄影与文本相互牵制的方法，在作者实践和 Frye 馆藏中处于什么位置？"
+    },
+    {
+      "step": 4,
+      "discovery": "霍平卡的成熟期实践常处理语言、土地、记忆与原住民经验；本作把这种方法压缩进静态的 Dibond 打印。",
+      "changesUnderstanding": "看似简约的照片由语言与难以确定尺度的地景共同构成，而不宜由单一民族身份替作品下定义。",
+      "thereforeNext": "与霍平卡的影像／文本作品相比，这件静态作品为何仍值得在 Frye 停留？"
+    },
+    {
+      "step": 5,
+      "discovery": "最近比较对象是霍平卡的影像／文本作品；共同点是语言成为形式材料，本作的差异是静态打印以及沿蓝色边界运行的文字。",
+      "changesUnderstanding": "它的价值不在全球唯一，而在用一张静态图像把阅读、地景与不确定尺度锁在同一表面，并扩展 Frye 以具象油画为主的历史核心。",
+      "thereforeNext": "最后如何带着这一认识复看边界？"
+    }
+  ],
+  "forbiddenAssumptions": [
+    "不假定读者把下部认成云、航拍图或任何确定地点。",
+    "不把题名解释为灵魂出窍、死亡愿望或作者心理自述。",
+    "不把文字出现的阅读顺序写成真实事件的时间顺序。",
+    "不以单一民族身份概括作者或作品。",
+    "不声称作品当前在展。",
+    "不声称本作在霍平卡生涯中唯一、首创或最重要。"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "下部白色区域是云。",
+      "evidenceType": "馆方保留限定的口述描述与直接观察",
+      "allowedWording": "下部白色区域似云；馆方也只用 likely clouds 保留判断。",
+      "forbiddenUpgrade": "确定写成云层、航拍云海或具体地景。"
+    },
+    {
+      "claim": "题名表达脱离身体或死亡的愿望。",
+      "evidenceType": "无足够证据",
+      "allowedWording": "只说明题名的三次重复及其在画面中的形式作用。",
+      "forbiddenUpgrade": "推断作者心理、灵魂出窍或死亡愿望。"
+    },
+    {
+      "claim": "作者让文字沿边界运行是为了表达某个确定意图。",
+      "evidenceType": "直接观察加编辑推断",
+      "allowedWording": "写成可见效果：文字使边界同时成为阅读路线。",
+      "forbiddenUpgrade": "写成作者明确意图或唯一解释。"
+    },
+    {
+      "claim": "本作具有全球不可替代性。",
+      "evidenceType": "同作者类别比较与馆藏语境",
+      "allowedWording": "它在 Frye 馆藏中以语言、抽象地景与原住民作者声音扩展历史核心。",
+      "forbiddenUpgrade": "稀世珍品、全球唯一或霍平卡生涯最高峰。"
+    }
+  ],
+  "historicalContextPlan": {
+    "applicable": false,
+    "reason": "作品的重要性不依赖一场必须解释前后状态的特定历史事件、战争、宗教改革或制度转型。",
+    "beforeState": null,
+    "changeOrConflict": null,
+    "objectRole": null,
+    "consequence": null,
+    "uncertainty": null,
+    "placement": "正文仅在作者方法与 Frye 馆藏语境中说明语言、土地、记忆和原住民经验，不虚构事件史。"
+  },
+  "authorStyle": {
+    "applicable": true,
+    "careerPosition": "2020年成熟期的摄影／文本实践。",
+    "visibleFeatures": [
+      "文字直接进入图像表面",
+      "蓝白色域把地景推向抽象",
+      "尺度与主体保持不确定",
+      "语言和图像必须共同读取"
+    ],
+    "classification": "典型方法在静态Dibond打印中的集中呈现；不声称是转折或例外。",
+    "boundary": "不以单一民族身份概括作品，也不把通行创作主题写成作者对本作的明确意图。"
+  },
+  "significance": {
+    "label": "重要藏品",
+    "dimensions": {
+      "artisticAchievement": "4/5：文字的位置、色域分割与倾斜边界共同组织阅读，摄影和书写不是可拆开的两层。",
+      "artHistoricalPosition": "3/5：属于霍平卡成熟期跨摄影／文本实践，但现有证据不足以定为生涯转折或高峰。",
+      "historicalCulturalValue": "3/5：语言、土地、记忆与原住民经验构成可靠的作者实践语境，但本作不被当成单一历史事件的记录。",
+      "rarityAndIrreplaceability": "3/5：同作者影像／文本作品可解释相近核心问题；本作的静态载体与沿边界文字提供具体差异，全球数量与唯一性不作主张。",
+      "collectionPosition": "5/5：馆方同时归入当代艺术、近期购藏和太平洋西北艺术家，它扩展 Frye 以具象油画为主的历史核心。"
+    },
+    "comparisonCategory": "原住民当代摄影—文本作品",
+    "nearestComparator": "Sky Hopinka 的影像／文本作品",
+    "sharedValue": "语言不只是说明，而是形式材料，并与土地、记忆和原住民经验相连。",
+    "decisiveDifference": "本作是静态Dibond打印，文字沿蓝色边界运行，阅读被压缩到一张近方形图像的表面。",
+    "unknownBoundary": "不能确认全球同类数量，也不能证明本作在作者生涯中唯一或最重要。",
+    "whyNotRareMasterpiece": "最近比较对象能够提供相近的语言—图像核心价值，现有证据不足以通过全球不可替代性硬门。",
+    "whyItStillMatters": "在 Frye 馆内，它让语言、抽象地景与原住民作者声音进入一条以具象油画为主的收藏叙事。",
+    "frye72Boundary": "写作定位为重要藏品和馆藏扩展节点，不把它夸成决定西雅图行程的稀世珍品。"
+  },
+  "observableDetails": [
+    "画面接近方形",
+    "上部约三分之一为蓝色",
+    "下部为带暗线的白色纹理区域",
+    "白色草写文字沿蓝色梯形边界延伸",
+    "地平线向右倾斜",
+    "蓝白两大色域使图像接近抽象"
+  ],
+  "secondLook": "读完长题名后，让视线沿白色草写文字重新走过蓝白交界；看到暗线时不要急着给下部命名，留意文字如何把一条颜色边界变成可阅读的路径。",
+  "cardStrategy": "独立回答点击理由：强调摄影与手写文字共享同一条倾斜边界，以及它为 Frye 收藏带来的语言—地景观看方式；不复用快层句子，不以导览命令开场。",
+  "detailSectionPlan": [
+    "30秒先懂：给出边界兼作阅读路线的暂时答案",
+    "问题一：文字为什么不肯离开图像，建立形式机制",
+    "问题二：一句话为何反复回来，解释题名重复并收紧心理推断",
+    "问题三：它为什么在Frye值得停留，以比较推进重要性",
+    "再看细节：至少四项可现场核对观察",
+    "最后再看一眼：沿文字复走边界，保留下部尺度的不确定性"
+  ],
+  "productionLanguageBoundary": {
+    "visitorProseAllowed": "只写作品、现场观看、作者方法、比较、馆藏位置以及证据所支持的不确定性。",
+    "visitorProseForbidden": [
+      "研究缺口",
+      "图片许可或图片任务",
+      "发布状态或发布任务",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "版本迁移"
+    ],
+    "internalRiskPlacement": "所有内部风险只进入author-review.json。"
+  },
+  "humorBasis": null
+}

@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.8",
+  "runId": "m28-6-vienna-author-vienna-egy-04-kai-pu-ptah-ipep-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T07:47:41.772Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "6a83009dac10d59bce5e20c98558b4e14d086b29139a94dfa48f9ccf3c8b9606",
+      "bytes": 8850
+    },
+    {
+      "path": "card.txt",
+      "sha256": "cf7369637efa3caa3cd00749742ed8eaadc56c8af07cbc00897724610fc1786b",
+      "bytes": 196
+    },
+    {
+      "path": "draft.md",
+      "sha256": "723d140be26edeb2675c7e996250afdc47d713d7037a6bf5ae46d1e5a6a367c3",
+      "bytes": 3750
+    }
+  ]
+}

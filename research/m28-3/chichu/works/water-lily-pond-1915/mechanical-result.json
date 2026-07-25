@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.4.2",
+  "runId": "m28-3-chichu-author-water-lily-pond-1915-2026-07-23",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T03:08:49.966Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_workId_from_run_header",
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "0b4c9c8f88b32831b0bc82507393f85422c13618e53d06fd6d3cc1a7e6768ed0",
+      "bytes": 7886
+    },
+    {
+      "path": "card.txt",
+      "sha256": "97dffb0b868d66a65053b327af839c5902091696ef630217172883c74163411a",
+      "bytes": 295
+    },
+    {
+      "path": "draft.md",
+      "sha256": "e3bf025bc9796ee9aef33f56b68d723faefb3eb4c83c6ec850a94fbe60b53f54",
+      "bytes": 3923
+    }
+  ]
+}

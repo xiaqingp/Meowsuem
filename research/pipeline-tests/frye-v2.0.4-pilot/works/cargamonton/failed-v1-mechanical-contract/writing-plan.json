@@ -1,0 +1,140 @@
+{
+  "workId": "cargamonton",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "museumId": "frye",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "directUpstream": {
+    "filename": "research-card.md",
+    "sha256": "6d690b51cabde71522a27a83af665309803ca57cbf60fe78b7378318494b2ec4"
+  },
+  "readerBaseline": "零背景读者能看出这是八张低色度、颗粒明显的群体身体图像，身体彼此叠压；作品名和这种拥挤动作之间的关系尚不清楚。",
+  "coreQuestion": "为什么要把一段挤成一团的动作拆成八张静止版画？",
+  "quickLayerPromise": {
+    "visibleTension": "图像像低清网络视频的暂停画面，却被做成需要逐张观看的纸上版画；身体接触既像嬉闹，也带着压迫感。",
+    "provisionalAnswer": "八张静止断片让动作失去连续解释，观众只能在玩闹、强制与亲密的相邻可能之间反复判断；版画的颗粒和调子又把随手刷过的视频变成可慢看的物质痕迹。",
+    "viewingRoute": [
+      "先确认完整对象由八张组成",
+      "比较相邻画面中身体叠压的重复和缺口",
+      "观察像素源痕迹怎样转成凹版印刷的颗粒与调子"
+    ]
+  },
+  "cognitionSteps": [
+    {
+      "step": 1,
+      "discovery": "八张画面共同构成作品，重复的身体群并不提供一段连续动作。",
+      "changesUnderstanding": "作品的重点从某个单独冲突场面，转为观看者如何在断片之间补动作。",
+      "thereforeNext": "这些断片为何始终难以被判成单纯玩闹或单纯暴力？"
+    },
+    {
+      "step": 2,
+      "discovery": "“cargamontón”指秘鲁学校中叠压、嬉闹式的 hazing；艺术家选择的正是暴力与玩闹、强制与亲密界线模糊的瞬间。",
+      "changesUnderstanding": "画面含混不再只是低清造成的信息不足，而成为作品持续追问男性群体接触方式的机制。",
+      "thereforeNext": "网络视频为何还要经过铜版蚀刻和纸上印刷？"
+    },
+    {
+      "step": 3,
+      "discovery": "网络视频静帧的像素痕迹被转成 aquatint photogravure 的颗粒、网点和低色度调子。",
+      "changesUnderstanding": "观看从追赶事件结果，变为辨认身体接触和图像介质留下的痕迹；模糊获得了可停留的表面。",
+      "thereforeNext": "这种停顿在 Soldi 的创作与 Frye 收藏中处于什么位置？"
+    },
+    {
+      "step": 4,
+      "discovery": "本系列直接通向 2023 年三频道影像《Soft Boy》，并因 Frye 同年的个展形成明确馆藏链条。",
+      "changesUnderstanding": "八张版画可被看作影像作品之前，以静止、重复和材料转译试探同一主题的关键前作。",
+      "thereforeNext": "因此最后应带着什么新判断重看八张之间的空白？"
+    }
+  ],
+  "humorBasis": null,
+  "forbiddenAssumptions": [
+    "不得识别画中具体人物、学校或年份",
+    "不得断言任何人物感到恐惧、羞耻、快乐或亲密",
+    "不得把八张的排列当成真实动作的时间顺序",
+    "不得判断具体行为一定是暴力、玩闹或双方自愿",
+    "不得声称艺术家意图只有一种，或本系列是唯一版、全球唯一或艺术史高峰",
+    "不得把可疑的每张尺寸或未核版次写入访客正文",
+    "不得声称作品当前在展"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "画中人物正在遭受暴力并感到恐惧。",
+      "evidenceType": "直接观察仅支持身体叠压；研究来源支持艺术家选择暴力/玩闹界线模糊的瞬间。",
+      "allowedWording": "身体叠压让动作在玩闹与压迫之间难以迅速定性。",
+      "forbiddenUpgrade": "确定行为性质、同意状态或人物心理。"
+    },
+    {
+      "claim": "八张按真实时间先后记录同一次事件。",
+      "evidenceType": "直接观察支持序列中的重复与间断；来源仅确认图像来自网络视频静帧。",
+      "allowedWording": "相邻画面制造动作重复和缺口。",
+      "forbiddenUpgrade": "把观看次序写成事件真实先后，或断言来自同一场事件。"
+    },
+    {
+      "claim": "Soldi 用作品证明男性亲密必然带有暴力。",
+      "evidenceType": "作者访谈支持他并置秘鲁男校记忆、网络影像、男性气质与酷儿亲密。",
+      "allowedWording": "系列把男性气质、强制与酷儿亲密放进同一组难以立刻判定的身体接触中。",
+      "forbiddenUpgrade": "把主题升级成单一作者意图、普遍规律或历史事实。"
+    },
+    {
+      "claim": "这组版画不可被《Soft Boy》替代。",
+      "evidenceType": "研究卡的同作者最近对象比较及 Frye 个展—入藏链条。",
+      "allowedWording": "《Soft Boy》用时间、声音与表演展开主题；本系列以八个静止断片和版画转译提供不同观看机制，并保存 Frye 个展研究链条。",
+      "forbiddenUpgrade": "唯一版、全球唯一、Soldi 最重要作品或稀世珍品。"
+    }
+  ],
+  "historicalContextPlan": {
+    "applicable": false,
+    "reason": "作品的重要性不依赖一场需交代前后局面的宏观历史事件；适用背景是秘鲁学校 cargamontón 惯习、网络视频来源以及男性气质与酷儿亲密的作者研究语境。",
+    "beforeState": null,
+    "changeOrConflict": "叠压式 hazing 中玩闹/暴力、亲密/强制的界线冲突。",
+    "objectRole": "作品重新转译网络影像与艺术家相关记忆，不作为某所学校或某次事件的历史记录。",
+    "consequence": "它把稍纵即逝、易被快速归类的群体动作改成八个需要慢看的纸上断片。",
+    "uncertainty": "具体人物、地点、年份、单次事件关系和人物情绪均不能确认。",
+    "placement": "快层只解释词义与判断困难；深层第二、三段展开社会语境和材料转译。"
+  },
+  "authorStyle": {
+    "position": "2022 年系列是直接通向 2023 年三频道影像《Soft Boy》的关键前作，并与 Frye 2023 年个展及随后入藏相连。",
+    "visibleFeatures": [
+      "使用网络低清影像而非清晰摆拍",
+      "以八张静止序列保留重复和缺口",
+      "把像素源痕迹转成凹版的颗粒、网点和调子",
+      "让男性身体接触持续停在多种关系解释之间"
+    ],
+    "careerRole": "关键前作；正文只在可见形式与有来源的主题语境内说明，不概括艺术家全部生涯。"
+  },
+  "significance": {
+    "label": "重要藏品",
+    "fryeBoundary": "Frye 为 72 分馆；本作是馆展研究链条中的重要当代入藏，不写成决定行程的稀世珍品。",
+    "fiveDimensions": {
+      "artisticAchievement": "网络像素与凹版颗粒的物质转译、八张断片的节奏和留白，共同延长对含混身体动作的判断。",
+      "artHistoricalPosition": "是 Soldi 从静态版画走向 2023 年《Soft Boy》时间、声音与表演展开的关键前作；研究卡评分对应代表性 5/5、生涯节点 5/5。",
+      "historicalCulturalValue": "把秘鲁男校 cargamontón 惯习、男性气质与酷儿亲密的当代讨论带入作品，但不充当具体事件档案。",
+      "rarityAndIrreplaceability": "研究卡评分为稀缺性 3/5；价值来自完整八件组、静止版画机制与馆展链条，不来自已确认的版次稀有或全球唯一。",
+      "collectionPosition": "2023 Frye 个展选件之后完整系列入藏，使本馆自办展览的研究链条获得永久对象；研究卡评分 5/5。"
+    },
+    "nearestComparator": {
+      "work": "Rafael Soldi，《Soft Boy》 / Soft Boy（2023）",
+      "category": "围绕同一 cargamontón / hazing 主题和男性身体群的同作者影像作品",
+      "similarity": "共同处理仪式化叠压、男性气质与身体关系的含混。",
+      "decisiveDifference": "《CARGAMONTÓN》以八个静止纸上断片和版画物质转译工作；《Soft Boy》用时间、声音与表演展开。",
+      "boundary": "比较支持媒介和馆藏语境的不可替代性，不支持全球数量或最高级判断。"
+    }
+  },
+  "observableDetails": [
+    "完整作品由八张组成，单张不能代表整件",
+    "画面整体呈单色或低色度，颗粒明显",
+    "多具身体相互叠压，肢体边界在局部难以分开",
+    "像素源痕迹被版画网点与调子重新呈现",
+    "相邻张之间出现相似动作的重复与缺口"
+  ],
+  "secondLook": "看完材料与比较后，把目光放在两张相邻版画之间：不要替空白补出胜负或情绪，观察同一种身体接触怎样因一次停顿而在玩闹、强制和亲密之间改变重量。",
+  "productionLanguageBoundary": {
+    "visitorProseAllowed": "作品事实、可见细节、有来源的语境、必要的不确定性与在展状态边界。",
+    "visitorProseForbidden": [
+      "内部研究缺口",
+      "图片许可或图片任务",
+      "发布待办或发布状态",
+      "测试、prompt、生成器、reviewer、迁移或版本流程语言"
+    ],
+    "internalRisksDestination": "author-review.json"
+  }
+}

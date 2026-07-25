@@ -1,0 +1,48 @@
+{
+    "runId":  "m28-11-v2.7.0-standard-research-terra-2026-07-24",
+    "stage":  "research",
+    "museumId":  "met",
+    "workId":  "",
+    "pipelineVersion":  "2.7.0",
+    "instructionVersion":  "2.1.0",
+    "model":  "gpt-5.6-terra",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-07-24T21:57:57.9334854-07:00",
+    "modelStartedAt":  "2026-07-24T21:57:58.2558911-07:00",
+    "modelCompletedAt":  "2026-07-24T21:59:11.0061042-07:00",
+    "completedAt":  "2026-07-24T21:59:11.0410111-07:00",
+    "runnerDurationMs":  73108,
+    "modelDurationMs":  72750,
+    "tokenUsage":  {
+                       "total":  22954,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "5",
+                                    "9",
+                                    "12",
+                                    "13"
+                                ],
+    "logPath":  "research/pipeline-tests/v2.7.0-model-routing/research-standard-terra/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "9e3bea46de5fc80c0e2e8f1a91484141ef0ba33e5fbc29a0749ae2505f960fdc"
+                   },
+                   {
+                       "path":  "research/pipeline-tests/v2.7.0-model-routing/research-standard-terra/candidate-packet.json",
+                       "role":  "candidate_packet",
+                       "sha256":  "81dad265acb03961b63cebf964e7b206054517a2c180481fe95b2288b79bbe95"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "portrait-head-bottle-research-card.md",
+                        "sha256":  "01a0d083866f66390d4a8afbbd2cc59210a66eda2c383ccfce40f7b8caa99006",
+                        "bytes":  7683
+                    }
+                ]
+}

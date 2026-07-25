@@ -1,0 +1,146 @@
+{
+  "runId": "m28-6-vienna-fresh-research-batch-03-2026-07-23",
+  "startedAt": "2026-07-24T07:00:35.320Z",
+  "stage": "research",
+  "researchMode": "fresh",
+  "museumId": "vienna",
+  "works": [
+    {
+      "museumId": "vienna",
+      "workId": "vienna-kk-05-rudolf-ii-bust",
+      "workIdentity": {
+        "artistOrCulture": "阿德里安·德·弗里斯 Adriaen de Vries",
+        "title": "皇帝鲁道夫二世胸像",
+        "titleEn": "Emperor Rudolf II",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-kk-06-dragon-bowl",
+      "workIdentity": {
+        "artistOrCulture": "加斯帕罗·米塞罗尼 Gasparo Miseroni",
+        "title": "贝壳形碗（龙碗）",
+        "titleEn": "Shell-shaped Bowl, so-called Dragon Bowl",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-kk-07-rock-crystal-pyramid",
+      "workIdentity": {
+        "artistOrCulture": "迪奥尼西奥·米塞罗尼 Dionysio Miseroni",
+        "title": "水晶金字塔",
+        "titleEn": "Rock Crystal Pyramid",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-kk-08-bellerophon-pegasus",
+      "workIdentity": {
+        "artistOrCulture": "贝尔托尔多·迪·乔瓦尼 Bertoldo di Giovanni；阿德里亚诺·菲奥伦蒂诺铸造",
+        "title": "柏勒洛丰驯服珀伽索斯",
+        "titleEn": "Bellerophon Taming Pegasus",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-ant-01-gemma-augustea",
+      "workIdentity": {
+        "artistOrCulture": "罗马，早期帝国时期",
+        "title": "奥古斯都宝石",
+        "titleEn": "Gemma Augustea",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-ant-02-nagyszentmiklos-treasure",
+      "workIdentity": {
+        "artistOrCulture": "迁徙时期／中世纪早期，多文化归属待研究卡细化",
+        "title": "纳吉圣米克洛什金宝藏",
+        "titleEn": "Gold Treasure of Nagyszentmiklós",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-ant-03-brygos-skyphos",
+      "workIdentity": {
+        "artistOrCulture": "布里戈斯陶工坊／布里戈斯画家，古希腊",
+        "title": "布里戈斯大杯：普里阿摩斯赎回赫克托耳遗体",
+        "titleEn": "Brygos Skyphos: The Ransom of Hector",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-ant-04-bacchanalia-decree",
+      "workIdentity": {
+        "artistOrCulture": "古罗马",
+        "title": "元老院关于酒神祭仪的决议",
+        "titleEn": "Senatus Consultum de Bacchanalibus",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-ant-05-amazon-sarcophagus",
+      "workIdentity": {
+        "artistOrCulture": "古典时代地中海文化，具体归属待单件研究卡核实",
+        "title": "亚马孙之战石棺",
+        "titleEn": "Sarcophagus with Fighting Amazons",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    },
+    {
+      "museumId": "vienna",
+      "workId": "vienna-ant-06-theseus-mosaic",
+      "workIdentity": {
+        "artistOrCulture": "古罗马，发现于萨尔茨堡附近别墅",
+        "title": "忒修斯马赛克",
+        "titleEn": "Theseus Mosaic",
+        "museum": "Kunsthistorisches Museum Vienna"
+      }
+    }
+  ],
+  "pipelineVersion": "2.4.8",
+  "instructionVersion": "2.0.2",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "465e7a2ce500057a139dbb64ff9df36755a6525a1f3a960e90fa0263a572ebfe"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "a65e9a4cb1477e4dfb00f06871483c928224dee22b69e292b84b2dcc7cdb4b24"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-03/candidate-packet.json",
+      "sha256": "26a6050526399488fc837ee2eb3c10f54adc3d859d2dc887495d744b9035d6ef"
+    }
+  ],
+  "outputs": [
+    "vienna-kk-05-rudolf-ii-bust-research-card.md",
+    "vienna-kk-06-dragon-bowl-research-card.md",
+    "vienna-kk-07-rock-crystal-pyramid-research-card.md",
+    "vienna-kk-08-bellerophon-pegasus-research-card.md",
+    "vienna-ant-01-gemma-augustea-research-card.md",
+    "vienna-ant-02-nagyszentmiklos-treasure-research-card.md",
+    "vienna-ant-03-brygos-skyphos-research-card.md",
+    "vienna-ant-04-bacchanalia-decree-research-card.md",
+    "vienna-ant-05-amazon-sarcophagus-research-card.md",
+    "vienna-ant-06-theseus-mosaic-research-card.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

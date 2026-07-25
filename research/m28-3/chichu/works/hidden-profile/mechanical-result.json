@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.4.2",
+  "runId": "m28-3-chichu-author-hidden-profile-2026-07-23",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-24T03:08:49.185Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "normalized_draft.md"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "4198eda551b9aab0a196de54b09dc6388b51d9e3d31e0df2e23f87eacda2af29",
+      "bytes": 5777
+    },
+    {
+      "path": "card.txt",
+      "sha256": "e5b280746b483402a2cb7d32acdc19a63c10b6276cb3aaf9aed7ebd8839c8f6b",
+      "bytes": 298
+    },
+    {
+      "path": "draft.md",
+      "sha256": "ebd77d9f242fc1914582e400a0c02e8f4d0da307f7d3c71cdf9a4beb2195c07c",
+      "bytes": 3085
+    }
+  ]
+}

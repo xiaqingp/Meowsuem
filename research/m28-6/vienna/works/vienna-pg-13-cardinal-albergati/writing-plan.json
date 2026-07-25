@@ -1,0 +1,217 @@
+{
+  "schemaVersion": "author-bundle/1.0",
+  "runId": "m28-6-vienna-author-vienna-pg-13-cardinal-albergati-2026-07-24",
+  "museumId": "vienna",
+  "workId": "vienna-pg-13-cardinal-albergati",
+  "displayMetadata": {
+    "by": "扬·凡·艾克 Jan van Eyck · 早期尼德兰",
+    "date": "约 1435",
+    "material": "橡木板绘画",
+    "place": "Kunsthistorisches Museum 绘画馆馆藏 · 展出状态未知",
+    "priority": "强烈推荐",
+    "significance": "重要藏品",
+    "stay": "5—8 分钟",
+    "availability": "display_status_unknown",
+    "imagePolicy": "object_image"
+  },
+  "selectionRationale": {
+    "priorityReason": "板画与德累斯顿银尖准备素描可以直接对照，短暂停留便能看懂凡·艾克如何把现场记录与文字色彩提示落实为完成画。",
+    "significanceReason": "作品把油性媒介的精细层次、肖像中的具体面貌与留存的准备素描连接起来，是理解凡·艾克作画方法的重要实例；现有比较证据不足以证明全球不可替代性，因此定为重要藏品。",
+    "rareGatePassed": false
+  },
+  "narrativeMainline": {
+    "valueType": "artistic_breakthrough",
+    "mainline": "凡·艾克把银尖素描记录的具体面貌和写在纸上的色彩提示，转化为油性层次极细的板上肖像；素描与完成画的对应，让这种从现场记录到彩色成像的工作方法变得可比较。",
+    "readerStartingPoint": "读者从标题知道这是一幅传统上与阿尔贝加蒂相联系的肖像；从画面能看见一位红衣帽围住面部的年长男子、暗背景，以及皱纹、胡茬和皮肤色差。",
+    "storyBeats": [
+      {
+        "step": 1,
+        "materials": [
+          "来源事实与候选价值",
+          "零背景可确认与图像观察 1—3"
+        ],
+        "newUnderstanding": "这幅肖像的重要性首先在于把具体面貌保存为细密的彩色板画，而不是把人物修整成光滑的类型。"
+      },
+      {
+        "step": 2,
+        "materials": [
+          "来源事实与候选价值：阿拉斯和平会议期间的银尖素描",
+          "经历、比较与趣闻：最近比较对象"
+        ],
+        "newUnderstanding": "德累斯顿素描保存轮廓与具体特征，纸上的色彩文字注记补足单色媒介不能记录的信息；板画则把这些信息落实为颜色与质感。"
+      },
+      {
+        "step": 3,
+        "materials": [
+          "来源事实与候选价值：油树脂结合剂与书籍绘画尺度转移",
+          "零背景可确认与图像观察 2—3"
+        ],
+        "newUnderstanding": "凡·艾克的贡献应准确理解为精炼油性媒介，并把书籍绘画式的细密描绘转入更大的板画，而非发明油画。"
+      },
+      {
+        "step": 4,
+        "materials": [
+          "零背景可确认与图像观察 1—4",
+          "身份与状态：尺寸及改形记录",
+          "未知边界"
+        ],
+        "newUnderstanding": "复看时可以把面部细节、暗背景和修复后的矩形边缘分别理解为完成画的表现、构图条件与对象经历，同时保留人物身份和展出状态的不确定性。"
+      }
+    ],
+    "humorBasis": null
+  },
+  "mustNotAssume": [
+    "画中人确定就是尼科洛·阿尔贝加蒂。",
+    "红衣本身足以证明人物的红衣主教身份。",
+    "人物的表情、皱纹或姿态能够证明其性格、心理或政治态度。",
+    "凡·艾克发明了油画。",
+    "德累斯顿素描与维也纳板画之间的精确时间间隔已经确定。",
+    "这是唯一留有准备素描的凡·艾克肖像。",
+    "作品当前正在展厅展出。",
+    "作品完全由凡·艾克本人独立完成而无任何工作室参与。"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "人物身份",
+      "evidenceType": "来源事实与未知边界",
+      "allowedWording": "传统上被认作尼科洛·阿尔贝加蒂；人物身份尚未确定，标题始终保留问号。",
+      "forbiddenUpgrade": "确定就是阿尔贝加蒂，或仅凭红衣证明其红衣主教身份。"
+    },
+    {
+      "claim": "凡·艾克对油画的贡献",
+      "evidenceType": "馆方来源事实",
+      "allowedWording": "凡·艾克高度精炼油树脂结合剂的运用，并把书籍绘画式的精细描绘转入更大的板画。",
+      "forbiddenUpgrade": "凡·艾克发明油画。"
+    },
+    {
+      "claim": "素描与板画的制作关系",
+      "evidenceType": "馆方来源事实与对象比较",
+      "allowedWording": "馆方把银尖素描置于 1435 年阿拉斯和平会议期间，并称板画随后不久完成；两件作品可以比较现场记录、文字色彩提示与完成效果。",
+      "forbiddenUpgrade": "给出未经资料确认的精确间隔，或断言板画机械复制素描。"
+    },
+    {
+      "claim": "人物心理与性格",
+      "evidenceType": "直接观察的限制",
+      "allowedWording": "描述年长面貌、皱纹、胡茬、眼周、嘴唇与细小色差。",
+      "forbiddenUpgrade": "由外貌推断疲惫、忧虑、严厉、虔诚或其他心理与性格。"
+    },
+    {
+      "claim": "作品稀有度与不可替代性",
+      "evidenceType": "最近比较对象与未知边界",
+      "allowedWording": "素描与板画的对应是理解制作过程的重要实例，作品定为重要藏品。",
+      "forbiddenUpgrade": "唯一、仅存、举世无双或已经通过稀世珍品不可替代性硬门。"
+    },
+    {
+      "claim": "当前可见状态",
+      "evidenceType": "身份与状态",
+      "allowedWording": "Kunsthistorisches Museum 绘画馆馆藏，展出状态未知。",
+      "forbiddenUpgrade": "声称作品当前确认在展。"
+    }
+  ],
+  "claimLedger": [
+    {
+      "id": "C01",
+      "claim": "作品为扬·凡·艾克约 1435 年创作的橡木板绘画，馆藏编号 Gemäldegalerie, 975。",
+      "type": "来源事实",
+      "researchCardLocation": "身份与状态"
+    },
+    {
+      "id": "C02",
+      "claim": "画中人传统上被认作尼科洛·阿尔贝加蒂，但身份未确定，名称须保留问号。",
+      "type": "来源事实与不确定性",
+      "researchCardLocation": "身份与状态；未知边界"
+    },
+    {
+      "id": "C03",
+      "claim": "年长男子以胸像出现，身体略转，面部占画幅很大。",
+      "type": "直接观察",
+      "researchCardLocation": "零背景可确认与图像观察 1"
+    },
+    {
+      "id": "C04",
+      "claim": "红色衣帽围住面部，背景暗且没有叙事场景。",
+      "type": "直接观察",
+      "researchCardLocation": "零背景可确认与图像观察 2"
+    },
+    {
+      "id": "C05",
+      "claim": "皮肤可见皱纹、胡茬和细小色差，嘴唇与眼周没有被统一成光滑表面。",
+      "type": "直接观察",
+      "researchCardLocation": "零背景可确认与图像观察 3"
+    },
+    {
+      "id": "C06",
+      "claim": "画面现为矩形；18 世纪曾被改成椭圆形，后来补回边角，左右各接约 1 厘米。",
+      "type": "来源事实与直接观察",
+      "researchCardLocation": "身份与状态；零背景可确认与图像观察 4"
+    },
+    {
+      "id": "C07",
+      "claim": "馆方称凡·艾克在 1435 年阿拉斯和平会议期间作银尖素描，记录这位年长教廷使节的面貌，并写下发色、肤色等色彩注记；板画随后不久完成。",
+      "type": "来源事实",
+      "researchCardLocation": "来源事实与候选价值"
+    },
+    {
+      "id": "C08",
+      "claim": "德累斯顿银尖素描与维也纳板画共享同一面貌及具体特征；素描含色彩文字注记，板画以油性层次落实颜色与质感。",
+      "type": "来源事实与比较",
+      "researchCardLocation": "经历、比较与趣闻"
+    },
+    {
+      "id": "C09",
+      "claim": "单色准备素描上的文字注记保存了完成画所需的颜色信息，并帮助解释制作过程。",
+      "type": "来源事实与编辑整理",
+      "researchCardLocation": "经历、比较与趣闻"
+    },
+    {
+      "id": "C10",
+      "claim": "凡·艾克没有发明油画；馆方认为他高度精炼了油树脂结合剂的运用，把书籍绘画已经达到的精细描绘转入更大的板画。",
+      "type": "来源事实",
+      "researchCardLocation": "来源事实与候选价值"
+    },
+    {
+      "id": "C11",
+      "claim": "板画与素描的对应使研究者能够比较现场记录、文字色彩提示与完成画。",
+      "type": "来源事实与编辑整理",
+      "researchCardLocation": "来源事实与候选价值；经历、比较与趣闻"
+    },
+    {
+      "id": "C12",
+      "claim": "作品当前展出状态未知。",
+      "type": "来源事实",
+      "researchCardLocation": "身份与状态"
+    },
+    {
+      "id": "C13",
+      "claim": "人物身份、素描与板画的精确日期间隔及工作室参与程度仍不能确定。",
+      "type": "不确定性",
+      "researchCardLocation": "未知边界"
+    },
+    {
+      "id": "C14",
+      "claim": "作品定为重要藏品而非稀世珍品，因为制作方法与作者艺术位置明确，但现有证据不支持唯一性或全球不可替代性。",
+      "type": "编辑判断",
+      "researchCardLocation": "来源事实与候选价值；经历、比较与趣闻；未知边界；work_context significance 与 rareGatePassed"
+    }
+  ],
+  "sourceUsage": [
+    {
+      "label": "KHM 对象页",
+      "url": "https://www.khm.at/en/artworks/cardinal-niccol-albergati-680-1",
+      "uses": [
+        "作品身份与年代",
+        "图像观察",
+        "银尖素描和板画的制作关系",
+        "油性媒介判断",
+        "改形记录"
+      ]
+    },
+    {
+      "label": "MSK Gent 对象关系条目",
+      "url": "https://www.mskgent.be/en/collection/2011-cq-16",
+      "uses": [
+        "德累斯顿素描与板画的对象关系"
+      ]
+    }
+  ]
+}

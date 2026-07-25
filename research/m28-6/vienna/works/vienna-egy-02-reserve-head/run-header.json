@@ -1,0 +1,48 @@
+{
+  "runId": "m28-6-vienna-author-vienna-egy-02-reserve-head-2026-07-24",
+  "startedAt": "2026-07-24T07:30:03.846Z",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card",
+  "museumId": "vienna",
+  "workId": "vienna-egy-02-reserve-head",
+  "workIdentity": {
+    "artistOrCulture": "古埃及，吉萨",
+    "title": "储备头像",
+    "titleEn": "Reserve Head",
+    "museum": "Kunsthistorisches Museum Vienna"
+  },
+  "pipelineVersion": "2.4.8",
+  "instructionVersion": "2.0.2",
+  "inputContractVersion": 1,
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "465e7a2ce500057a139dbb64ff9df36755a6525a1f3a960e90fa0263a572ebfe"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-04/vienna-egy-02-reserve-head-research-card.md",
+      "role": "research_card",
+      "sha256": "0602a2b28b993de91452e4ad46c93ee508995c435f958e6958ad48d3b1fe2438"
+    },
+    {
+      "path": "research/m28-6/vienna/works/vienna-egy-02-reserve-head/work-context.json",
+      "role": "work_context",
+      "sha256": "31e7e8b21c31379ae5f575ab7516bafb8dd1f79c52e1304a22b6b9f9ddb4e863"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}

@@ -1,0 +1,163 @@
+{
+  "workId": "free-me",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "directUpstream": {
+    "filename": "research-card.md",
+    "sha256": "716675a18e6d40ff015a1750eb5f25dc548a7c9ac7b4061bddf9dc3f551d7ffd"
+  },
+  "readerBaseline": {
+    "knownAtFirstGlance": "读者只需看出近方形画面被蓝、白两块区域占据，并发现一行白色草写文字贴着两者的斜向交界移动。",
+    "backgroundAssumed": "不预设读者认识 Sky Hopinka、了解其族群背景，或熟悉摄影与文字结合的当代艺术。",
+    "likelyProductiveUncertainty": "下方白色纹理究竟是什么、画面尺度有多大，都难以仅凭图像确定；这种无法立即定位的感觉正是进入作品的起点。"
+  },
+  "coreQuestion": "为什么这件作品把文字放在蓝白交界线上，而不把它当作画外说明？",
+  "quickLayerPromise": {
+    "visibleTension": "草写文字既像一句可读的话，又像一道贴着倾斜边界延伸的视觉线条。",
+    "provisionalAnswer": "文字在这里同时承担语言和构图两种工作：它让观者一边读身体的诉求，一边沿着不稳定的蓝白边界移动目光。",
+    "viewingRoute": [
+      "辨认蓝白两大色域",
+      "顺着白色草写文字追踪斜向边界",
+      "留意地平线般的界线向右倾斜",
+      "回到下部带暗线的白色纹理，保留对其尺度与身份的不确定"
+    ]
+  },
+  "cognitionSteps": [
+    {
+      "step": 1,
+      "discovery": "文字没有停在图像之外，而是沿蓝白交界运行。",
+      "changesUnderstanding": "题名不再只是解释图像的标签，也成为画面中的形状和路径。",
+      "thereforeNext": "既然文字进入构图，它怎样改变蓝白两块区域的关系？"
+    },
+    {
+      "step": 2,
+      "discovery": "边界向右倾斜，下方纹理又缺少可确定的尺度参照。",
+      "changesUnderstanding": "蓝白分区不再像稳定的上下两层，而显得悬而未决；阅读文字也成了一次横穿边界的动作。",
+      "thereforeNext": "这种视觉上的不稳定，怎样与反复出现的‘摆脱这具身体’相互作用？"
+    },
+    {
+      "step": 3,
+      "discovery": "题名三次以同一句开头，但作品没有替观者说明白色区域的确切身份。",
+      "changesUnderstanding": "重复强化了身体与语言的压力，图像的不确定却阻止我们把它缩成单一故事。",
+      "thereforeNext": "这套语言—图像机制在 Hopinka 的创作与 Frye 馆藏中处于什么位置？"
+    },
+    {
+      "step": 4,
+      "discovery": "Hopinka 的跨摄影、影像与文本实践经常处理语言、土地、记忆与原住民经验；本作把这些关系压进一张静态打印。",
+      "changesUnderstanding": "作品的重要性来自语言真正参与观看，而非依靠一个被预先解释好的景观主题。",
+      "thereforeNext": "最后应带着这一认识回到哪一个具体位置？"
+    },
+    {
+      "step": 5,
+      "discovery": "蓝色梯形边缘、白字、右倾界线和下部暗线在同一处相遇。",
+      "changesUnderstanding": "第二眼会把字义、书写动作和空间的不稳定同时看见。",
+      "thereforeNext": "以沿文字追踪边界、在无法确定下方物象时停住作为收束。"
+    }
+  ],
+  "humorBasis": null,
+  "forbiddenAssumptions": [
+    "不假设读者起初把下方认成云、雪、海面或航拍地景。",
+    "不把馆方的 likely clouds 升级为确定的云。",
+    "不把题名解释成灵魂出窍、死亡愿望或艺术家的个人心理告白。",
+    "不以单一民族身份概括作者或替图像指定某段具体原住民历史。",
+    "不把当前未列入 On View 写成永不展出。"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "下方白色区域是云。",
+      "evidenceType": "馆方带保留的口述描述加直接观察",
+      "allowedWording": "下方像云的白色纹理；馆方描述也保留了‘可能是云’的余地。",
+      "forbiddenUpgrade": "确定写成云层、航拍或特定地点。"
+    },
+    {
+      "claim": "题名表达作者想脱离身体或走向死亡。",
+      "evidenceType": "无足够证据",
+      "allowedWording": "反复出现的句子把身体问题压到观看中心。",
+      "forbiddenUpgrade": "写成作者心理、死亡愿望、灵魂出窍或唯一意图。"
+    },
+    {
+      "claim": "画面记录一段具体原住民土地经验。",
+      "evidenceType": "作者实践背景与编辑判断",
+      "allowedWording": "放在 Hopinka 长期处理语言、土地、记忆与原住民经验的实践中理解。",
+      "forbiddenUpgrade": "为本图指定未经来源确认的地点、事件、族群仪式或历史情节。"
+    },
+    {
+      "claim": "本作在作者生涯或同类作品中唯一、最重要。",
+      "evidenceType": "研究卡只支持类别比较与馆内作用",
+      "allowedWording": "是其成熟期摄影—文本实践的清楚样本，并扩展 Frye 的馆藏叙事。",
+      "forbiddenUpgrade": "唯一、首次、巅峰、决定性代表作或不可替代的全球杰作。"
+    }
+  ],
+  "historicalContextPlan": {
+    "applicable": false,
+    "reason": "本作的重要性不依赖一场必须叙述前因后果的单一历史事件。",
+    "beforeState": null,
+    "changeOrConflict": null,
+    "objectRole": "以静态摄影—文本方式把语言、地景般的色域与身体诉求并置。",
+    "consequence": "在 Frye 内部，为以具象油画为主的历史核心增加原住民当代作者声音与跨媒介观看方式。",
+    "uncertainty": "不把广义创作主题落实为未经证实的具体事件。",
+    "placement": "快层只说明文字进入构图；深层后段再交代作者实践和馆内作用。"
+  },
+  "authorStylePlan": {
+    "author": "斯凯·霍平卡 Sky Hopinka",
+    "careerPosition": "2020 年成熟期的跨摄影／文本实践",
+    "visibleStyle": "语言不是画外注释，而是沿边界运行的形式材料；大色域、倾斜界线与难以判定尺度的纹理共同制造不稳定的空间感。",
+    "classification": "典型样本，但不声称为生涯转折或唯一代表。"
+  },
+  "significance": {
+    "label": "重要藏品",
+    "dimensions": {
+      "representativeness": {"score": 4, "outOf": 5, "reason": "清楚呈现 Hopinka 将语言作为形式材料的跨媒介方法。"},
+      "careerPosition": {"score": 3, "outOf": 5, "reason": "属于 2020 年成熟期实践，现有证据不足以称为转折点或巅峰。"},
+      "rarity": {"score": 3, "outOf": 5, "reason": "静态 Dibond 摄影—文本作品有明确形态，但不主张唯一或数量稀少。"},
+      "collectionNarrative": {"score": 5, "outOf": 5, "reason": "把语言、抽象地景和原住民作者声音带入 Frye 以具象油画为主的历史核心。"},
+      "onsiteLegibility": {"score": 4, "outOf": 5, "reason": "蓝白分区、草写文字和倾斜边界可立即辨认，同时保留细读空间。"}
+    },
+    "comparisonCategory": "原住民当代摄影—文本作品",
+    "nearestComparator": "Hopinka 的影像／文本作品",
+    "sharedMechanism": "语言不是说明附件，而是作品的时间、声音或视觉结构。",
+    "decisiveDifference": "本作把这一机制固定在近方形的静态 Dibond 打印中，让白字沿蓝色边界运行。",
+    "irreplaceabilityBoundary": "馆内叙事作用突出；不宣称它在 Hopinka 生涯或全球同类中唯一，也不越过 Frye 72 分馆级边界。"
+  },
+  "observableDetails": [
+    "近方形画幅",
+    "上部约三分之一的蓝色区域",
+    "沿蓝色梯形边界延伸的白色草写文字",
+    "向右倾斜、近似地平线的交界",
+    "下部带暗线的白色纹理",
+    "蓝、白两大色域之间缺少稳定尺度参照"
+  ],
+  "secondLook": {
+    "action": "从左侧第一段白字开始，沿字迹追到右侧较高处，再把视线落到文字下方那条暗线。",
+    "newJudgment": "不要急着替白色区域命名；观察一句可读的话怎样同时变成边界，并让身体、语言与空间一起悬在未定状态。"
+  },
+  "productionLanguageBoundary": {
+    "visitorProseMustExclude": [
+      "内部研究缺口",
+      "图片许可任务",
+      "发布任务",
+      "生产检验术语",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "版本迁移"
+    ],
+    "internalRisksDestination": "author-review.json",
+    "visitorFacingUncertaintyAllowed": "只保留真正改变观看的对象不确定性与截至 2026-07-22 的易变在展边界。"
+  },
+  "cardPlan": "独立回答点击价值：一行草写文字如何把近方形照片变成语言与地景相互拉扯的现场；不用详情快层句子，不以导览命令开头。",
+  "detailPlan": {
+    "quickLayerTarget": "90—180 个可见汉字，并使用精确标题‘30 秒先懂’。",
+    "deepLayerTarget": "至少 320 个可见字符；五步围绕同一问题推进，历史、风格与重要性嵌入因果链。",
+    "sectionContract": [
+      "双语作品标题",
+      "六项元数据",
+      "30 秒先懂",
+      "多停几分钟，你会看到什么",
+      "至少四个现场细节",
+      "最后再看一眼",
+      "事实边界与资料"
+    ]
+  }
+}

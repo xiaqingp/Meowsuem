@@ -1,0 +1,164 @@
+{
+  "artifactType": "writing_plan",
+  "workId": "three-firs",
+  "runId": "m28-frye-v2.0.4-pilot-2026-07-22",
+  "pipelineVersion": "2.0.4",
+  "instructionVersion": "1.6.8",
+  "directUpstream": {
+    "filename": "research-card.md",
+    "sha256": "e1a197d158822ba9dfa592dc2bb7dc3138bed062a82e5f3c7286d4ddb4d71082"
+  },
+  "readerBaseline": "零背景读者从标题和画面能知道这是一处有三根近景树干、草坪与白色建筑的风景；他们尚不知道遮挡为何是作品的主要观看回报，也不需要预先懂德国现代绘画或海姆斯巴赫的地方史。",
+  "coreQuestion": "为什么画家让三根深色树干挡在城堡前面，反而使这片风景更值得看？",
+  "quickLayerPromise": {
+    "visibleTension": "三根粗重的深褐树干占住近景，白楼与塔楼只能从缝隙中露出。",
+    "provisionalAnswer": "遮挡把城堡从风景主角变成色块与空间的支点；树干、亮草坪和白楼共同搭起一张紧密的画面结构。",
+    "viewingRoute": [
+      "比较三根暗树干与白楼的明暗重量",
+      "沿中央黄绿色草坪辨认被压缩的纵深",
+      "靠近观察短划、色点与有肌理的笔触"
+    ]
+  },
+  "cognitionSteps": [
+    {
+      "step": 1,
+      "discovery": "近景三根树干不是边缘装饰，而是纵向截断整个空间的骨架。",
+      "changesUnderstanding": "读者不再只把画面当作一处带城堡的景色，开始把遮挡本身视为构图事件。",
+      "thereforeNext": "树干挡住了建筑，画面怎样仍让人感到空间存在？"
+    },
+    {
+      "step": 2,
+      "discovery": "白楼和塔从树间露出，中央较亮的黄绿色草坪把近景暗干与后方建筑联系起来。",
+      "changesUnderstanding": "遮挡并未取消纵深，而是用明暗和间隙把纵深压缩得更紧。",
+      "thereforeNext": "这种紧密感只靠物体位置，还是也来自颜料的处理？"
+    },
+    {
+      "step": 3,
+      "discovery": "树冠暗带、草地、灌木与建筑都由显露的短划、色点和有肌理的笔触组织。",
+      "changesUnderstanding": "风景的核心从地点识别推进到画面表面的色块结构；笔触既描绘景物，也把各区域织在一起。",
+      "thereforeNext": "这种做法在特吕布纳的创作和同类风景中处于什么位置？"
+    },
+    {
+      "step": 4,
+      "discovery": "特吕布纳在成熟期把与莱布尔相关的织物般画面结构发展成原则；与迪尔《白桦林》相比，本作用少而重的暗干和建筑间隙制造压力。",
+      "changesUnderstanding": "作品的价值落在可核对的结构差异上，而不需要把它笼统归为法国印象派或抬成孤品。",
+      "thereforeNext": "带着结构意识回看时，哪一眼能同时收住遮挡、纵深和笔触？"
+    },
+    {
+      "step": 5,
+      "discovery": "从中央树干一侧的白楼缝隙移到亮草坪，再回到上缘暗树冠，可看见明暗区域被三根树干扣在一起。",
+      "changesUnderstanding": "第二眼把原先像障碍的树干理解为全画的连接装置。",
+      "thereforeNext": "核心问题得到回收，不另开新主题。"
+    }
+  ],
+  "humorBasis": null,
+  "forbiddenAssumptions": [
+    "读者原本认为城堡必然应是画面主角",
+    "作品属于法国印象派",
+    "海姆斯巴赫城堡的具体建筑史、塔楼层数或作者居留关系已经核实",
+    "可从画面推断季节、天气、光源方向或作者心理",
+    "遮挡来自作者明确留下的象征意图",
+    "本作是同类风景中唯一、最早或最重要的作品"
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "画家有意让城堡退居次位",
+      "evidenceType": "编辑推断",
+      "allowedWording": "画面让白楼只从树间露出，观看重心因此落到树干、间隙与色块关系上",
+      "forbiddenUpgrade": "宣称作者明确意图或心理"
+    },
+    {
+      "claim": "画面表现法国印象派",
+      "evidenceType": "来源事实与风格比较",
+      "allowedWording": "成熟期风景以开放、可见的短促笔触和色块结构组织景物",
+      "forbiddenUpgrade": "把视觉相似升级为法国印象派归属"
+    },
+    {
+      "claim": "景物构成真实的前后时间或行动顺序",
+      "evidenceType": "直接观察",
+      "allowedWording": "只描述近景树干、中央草坪与后方建筑的空间关系",
+      "forbiddenUpgrade": "把观看顺序写成事件先后"
+    },
+    {
+      "claim": "作品保存了海姆斯巴赫城堡的可靠建筑史信息",
+      "evidenceType": "低置信度地点线索",
+      "allowedWording": "标题提供海姆斯巴赫城堡这一地点线索",
+      "forbiddenUpgrade": "补写建筑年代、塔楼层数、居留关系或历史事件"
+    },
+    {
+      "claim": "本作具有全球不可替代性",
+      "evidenceType": "比较与编辑判断",
+      "allowedWording": "在 Frye 馆内，它以厚重暗干、建筑遮挡和可见笔触提供一处鲜明的现代风景节点",
+      "forbiddenUpgrade": "唯一、稀世珍品、世界级必看或足以决定行程"
+    }
+  ],
+  "historicalContextPlan": {
+    "applicable": false,
+    "reason": "作品的重要性不依赖某场政治、宗教、制度或社会冲突；地点史也未获核实。",
+    "beforeState": null,
+    "changeOrConflict": null,
+    "objectRole": null,
+    "consequence": null,
+    "uncertainty": "仅能确认标题中的地点线索，不扩写城堡史或作者居留。",
+    "placement": "正文不设置历史背景段；相关证据边界仅以访客需要的自然限定收窄。"
+  },
+  "authorStylePlan": {
+    "artist": "威廉·特吕布纳 Wilhelm Trübner · 德国",
+    "careerPosition": "1904 年成熟期风景",
+    "visibleFeatures": [
+      "近景深色树干把空间切成窄缝",
+      "短划、色点与有肌理的笔触保持可见",
+      "草坪、灌木、树冠与建筑被处理为相互咬合的综合色块"
+    ],
+    "supportedContext": "Lenbachhaus 将特吕布纳与威廉·莱布尔并置，并指出他把莱布尔织物般的画面结构发展为原则。",
+    "boundary": "用本作可见结构解释成熟期方法，不以流派标签代替观看，也不扩写无关生平。"
+  },
+  "significance": {
+    "level": "重要藏品",
+    "visitPriority": "强烈推荐",
+    "fiveDimensions": {
+      "artisticAchievement": "三根沉重暗干、亮草坪、白楼与上缘暗树冠形成紧密的明暗和空间结构；可见笔触同时承担描绘与组织作用。",
+      "artHistoricalPosition": "位于现实主义向德国现代风景开放笔触发展的区间，可借本作理解特吕布纳成熟期的画面结构原则，但无证据支持开创性或流派巅峰。",
+      "historicalCulturalValue": "标题保存地点线索，现有证据不足以把它作为城堡建筑史或作者居留的一手记录。",
+      "rarityAndIrreplaceability": "稀缺性为中；可比作品存在，全球数量与不可替代性未获证明。它在 Frye 内的独特回报是以三根暗干遮住建筑，形成厚重、受压的结构。",
+      "collectionPosition": "有力说明 Frye 创馆收藏不只包含抛光的叙事画，也包含以笔触和画面结构为主角的现代风景。"
+    },
+    "comparisonCategory": "德语地区现代风景中的树干屏障",
+    "nearestComparator": "路德维希·迪尔 Ludwig Dill《白桦林 Birkenwald》",
+    "sharedCoreValue": "两作都让树干成为画面骨架，以浅纵深和可见笔触组织风景。",
+    "decisiveDifference": "特吕布纳以三根少而重的深色树干遮挡白色建筑；迪尔以更多轻而密的白干形成节奏，且没有建筑焦点。",
+    "boundary": "比较能说明具体差异，却不能证明全球唯一性；因此不升为稀世珍品，也不越过 Frye 72 分馆级边界。"
+  },
+  "observableDetails": [
+    "三根深褐树干在近景纵向截断空间",
+    "白色楼体和塔楼从树干之间露出",
+    "中央黄绿色草坪比周围区域更亮",
+    "上缘树冠形成连续暗带",
+    "树木、草地与建筑表面可见短划、色点和有肌理的笔触"
+  ],
+  "secondLook": "把视线停在中央树干与白楼之间的窄缝，沿亮草坪向下移动，再抬回上缘暗树冠；观察三根树干怎样把三个亮暗区域扣成一个整体。",
+  "sectionStrategy": {
+    "quickLayer": "用遮挡反差给出暂时答案，并以树干—草坪—白楼—笔触的路线兑现。",
+    "deepLayer": [
+      "遮挡怎样压缩空间",
+      "笔触怎样把景物织成结构",
+      "与《白桦林》的差异怎样限定本作价值",
+      "至少四个可现场核对的细节"
+    ],
+    "closing": "以白楼缝隙、亮草坪和暗树冠的连读完成对象专属第二眼。"
+  },
+  "productionLanguageBoundary": {
+    "visitorProseMustExclude": [
+      "研究缺口",
+      "图片许可或图片任务",
+      "发布任务或发布状态",
+      "测试",
+      "prompt",
+      "生成器",
+      "reviewer",
+      "版本迁移"
+    ],
+    "visitorFacingBoundaryAllowed": "只说明作品归属、比较范围、地点史证据限度与易变的在展状态；用自然中文陈述，不写内部待办。",
+    "internalRisksLocation": "author-review.json"
+  }
+}

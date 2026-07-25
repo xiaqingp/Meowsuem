@@ -1,0 +1,259 @@
+{
+  "runId": "m28-6-vienna-museum-structure-2026-07-24",
+  "startedAt": "2026-07-24T07:25:12.295Z",
+  "stage": "museum_structure",
+  "researchMode": "fresh_locked_research_cards",
+  "museumId": "vienna",
+  "museumIdentity": {
+    "zh": "维也纳艺术史博物馆",
+    "en": "Kunsthistorisches Museum Vienna",
+    "location": "Maria-Theresien-Platz, Vienna, Austria"
+  },
+  "workIds": [
+    "vienna-pg-01-tower-of-babel",
+    "vienna-pg-02-hunters-in-the-snow",
+    "vienna-pg-03-childrens-games",
+    "vienna-pg-04-peasant-wedding",
+    "vienna-pg-05-carnival-and-lent",
+    "vienna-pg-06-art-of-painting",
+    "vienna-pg-07-infanta-margarita-blue",
+    "vienna-pg-08-madonna-of-the-meadow",
+    "vienna-pg-09-madonna-of-the-rosary",
+    "vienna-pg-10-nymph-and-shepherd",
+    "vienna-pg-11-judith-veronese",
+    "vienna-pg-12-rubens-self-portrait",
+    "vienna-pg-13-cardinal-albergati",
+    "vienna-pg-14-madonna-with-the-pear",
+    "vienna-pg-15-summer",
+    "vienna-pg-16-parmigianino-convex-self-portrait",
+    "vienna-kk-01-saliera",
+    "vienna-kk-02-krumau-madonna",
+    "vienna-kk-03-automaton-ship",
+    "vienna-kk-04-cittern-player",
+    "vienna-kk-05-rudolf-ii-bust",
+    "vienna-kk-06-dragon-bowl",
+    "vienna-kk-07-rock-crystal-pyramid",
+    "vienna-kk-08-bellerophon-pegasus",
+    "vienna-ant-01-gemma-augustea",
+    "vienna-ant-02-nagyszentmiklos-treasure",
+    "vienna-ant-03-brygos-skyphos",
+    "vienna-ant-04-bacchanalia-decree",
+    "vienna-ant-05-amazon-sarcophagus",
+    "vienna-ant-06-theseus-mosaic",
+    "vienna-egy-01-ka-ni-nisut-chapel",
+    "vienna-egy-02-reserve-head",
+    "vienna-egy-03-babylon-lion",
+    "vienna-egy-04-kai-pu-ptah-ipep",
+    "vienna-egy-05-gem-nef-hor-bak",
+    "vienna-coin-01-sigismund-guldiner",
+    "vienna-coin-02-charles-v-dedication-medal",
+    "vienna-space-01-museum-building",
+    "vienna-space-02-grand-staircase-ensemble",
+    "vienna-space-03-cupola-hall"
+  ],
+  "pipelineVersion": "2.4.8",
+  "instructionVersion": "2.0.2",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "465e7a2ce500057a139dbb64ff9df36755a6525a1f3a960e90fa0263a572ebfe"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "a65e9a4cb1477e4dfb00f06871483c928224dee22b69e292b84b2dcc7cdb4b24"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "sha256": "c0536561bd2f8785991a44615e98db2291852a8f86eba8a51f1cee0fef6491a5"
+    },
+    {
+      "path": "coho_museum/PRD.md",
+      "sha256": "2ae7e6487ef86a82d9c304d4535359521423a2ea36da8222e6e85c4c0189790b"
+    },
+    {
+      "path": "coho_museum/TechDesign.md",
+      "sha256": "963f63f43da8a3162a116ba58f01224745f669bbd49444b703d0f5359cf85eb8"
+    },
+    {
+      "path": "research/m28-6/vienna/scope/museum-scope.json",
+      "sha256": "840550f4d0e158e9c187d7b68aa188bdac63b7e0136bdd9c5c49b337add949e0"
+    },
+    {
+      "path": "research/m28-6/vienna/museum-selection/museum-evidence.json",
+      "sha256": "4ac0b33b2c7e93c5e7d0cff76f6c2bcbb902cf287350edba78a26490f939a80e"
+    },
+    {
+      "path": "research/m28-6/vienna/museum-selection/museum-rating.json",
+      "sha256": "f0c786d6c45ef17af2ce1e5b8c9d78e30458f1cf78f69fa1ef3621280cc44e86"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-01/vienna-pg-01-tower-of-babel-research-card.md",
+      "sha256": "f6e4a7284b34b55a6078b4dec60b6934b4925ddb60b926f11f617fdfe0777324"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-01/vienna-pg-02-hunters-in-the-snow-research-card.md",
+      "sha256": "87e487d47b9950eeb16d765e214583987459ae6d3206488a10b234ba885a7ab8"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-01/vienna-pg-03-childrens-games-research-card.md",
+      "sha256": "4ef195050e4672d8e614d9525f2b2f4a7204bc124bd2ad9116bab469748a49eb"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-01/vienna-pg-04-peasant-wedding-research-card.md",
+      "sha256": "9a1e4d45fc614a4a7dcef95f222957c6f5dea7bed3ecec4791c06ac4ab48981f"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-01/vienna-pg-05-carnival-and-lent-research-card.md",
+      "sha256": "fe06e5b1f40ef53f01725080256793490fcb3459f496545010383ffc3c19db7b"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-01/vienna-pg-06-art-of-painting-research-card.md",
+      "sha256": "7dd9166cd0a5808eab05192429be47ec4f5126e3bcf602486b5a24cd7f33fc40"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-01/vienna-pg-07-infanta-margarita-blue-research-card.md",
+      "sha256": "01ccfe1a7944b92e8c08412a1b247df6c3aba9b82924582fdb77598c07a7548b"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-01/vienna-pg-08-madonna-of-the-meadow-research-card.md",
+      "sha256": "46561072442a4b095e1b2f424eebc6832e7ca5c54098b8678033d6032b8bd2b2"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-01/vienna-pg-09-madonna-of-the-rosary-research-card.md",
+      "sha256": "087bb3df436da5b77d2077812a5b825df718bcf7a62af44528c81fd69b793e9f"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-01/vienna-pg-10-nymph-and-shepherd-research-card.md",
+      "sha256": "23ff2faad7f49f50ed95358e1d56f5f883d61c939bdab4b147d469387ac67244"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-02/vienna-pg-11-judith-veronese-research-card.md",
+      "sha256": "b8bc592edcf1e54747eb84d8a717219d9e101e6469ed14f1376b99e8891f9196"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-02/vienna-pg-12-rubens-self-portrait-research-card.md",
+      "sha256": "92f8db6fc7bf8b2372535c7d31ffb7a1bfca25cbfb401c0c545a9100dff2e5ce"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-02/vienna-pg-13-cardinal-albergati-research-card.md",
+      "sha256": "81e5971c26429e8d08c2067c7134a5e1ee4f4a289683cea20e127e57597eb63d"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-02/vienna-pg-14-madonna-with-the-pear-research-card.md",
+      "sha256": "9d9af060449aba3ef9f576c540f1d17f6b6500787d73be4e058c3f6763036f62"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-02/vienna-pg-15-summer-research-card.md",
+      "sha256": "89da0e76078fb3fb5cf394d1627c53edfa7709e46b3851b88964eb2d24372668"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-02/vienna-pg-16-parmigianino-convex-self-portrait-research-card.md",
+      "sha256": "8ffb0d74108fd9aad4b18c0b2b008fd0cbc0980a6b1ab9da37e4317e7c075431"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-02/vienna-kk-01-saliera-research-card.md",
+      "sha256": "6a645271939643531d8395b6afb508014e3347b6da7613058e74749e84528bce"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-02/vienna-kk-02-krumau-madonna-research-card.md",
+      "sha256": "ac0901f3a09236394684d1280e881a1f9e7f25bfaa5b87c0592cf47422bde97c"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-02/vienna-kk-03-automaton-ship-research-card.md",
+      "sha256": "78808ed76022c996af129efe241ebc8293ec06f5e1fda77a3a8747c197c4519e"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-02/vienna-kk-04-cittern-player-research-card.md",
+      "sha256": "19285e4740488388596456e2598c1fad067e931a2033dad5d8b254d3d8864491"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-03/vienna-kk-05-rudolf-ii-bust-research-card.md",
+      "sha256": "33376031fcccf10bc9836242ac6d55f9fa51b7a041a4846b7fd18523bcb847f4"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-03/vienna-kk-06-dragon-bowl-research-card.md",
+      "sha256": "d14ad82e794aa73988742070861146261c8dd5906f045dc95e8509fed9673e21"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-03/vienna-kk-07-rock-crystal-pyramid-research-card.md",
+      "sha256": "9beb7b4094bd3240ce00c4c1b48ac01ce9e04d186d3e8b8b878f06a838c6e82f"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-03/vienna-kk-08-bellerophon-pegasus-research-card.md",
+      "sha256": "c358f5c0f17df9b396ee5b4adac04cd24ea7889fd88a9d6bb50b564d64c5c14a"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-03/vienna-ant-01-gemma-augustea-research-card.md",
+      "sha256": "08eeb634109391956836d993da1c569415bf3c1cd77eba4d95182fe7c3fcd8dd"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-03/vienna-ant-02-nagyszentmiklos-treasure-research-card.md",
+      "sha256": "eb5a46121c34f67bcd46742490c517a26939fd82b79bd2e3194ac8d82778bcdf"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-03/vienna-ant-03-brygos-skyphos-research-card.md",
+      "sha256": "014ec617698e800f7cf48684acfdb8a6a8b0d12562d03d99ae984d4c2ee2f3dc"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-03/vienna-ant-04-bacchanalia-decree-research-card.md",
+      "sha256": "e6dfe23d5bb9cad3b368029d26dcf83a5e6891f4541e1eea8a4e57402cea2232"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-03/vienna-ant-05-amazon-sarcophagus-research-card.md",
+      "sha256": "b3ef70785f7f45a60e4919da11df925b09ab8dc5c900e74555a359e9643662cb"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-03/vienna-ant-06-theseus-mosaic-research-card.md",
+      "sha256": "600cbb98ade4d0363fc7186febb62ca2dda044a8f6a2841f59fd8cf5392c515c"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-04/vienna-egy-01-ka-ni-nisut-chapel-research-card.md",
+      "sha256": "b4fd982dc594ac632e598ca46cd504bfc2955e12a392f5bd6a7be853a47e3caf"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-04/vienna-egy-02-reserve-head-research-card.md",
+      "sha256": "0602a2b28b993de91452e4ad46c93ee508995c435f958e6958ad48d3b1fe2438"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-04/vienna-egy-03-babylon-lion-research-card.md",
+      "sha256": "17b1cac774d587f48c5740ea46cd7cf7ce00d5a41beab762de84b87bb962ec25"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-04/vienna-egy-04-kai-pu-ptah-ipep-research-card.md",
+      "sha256": "ba13a6e8bf861f6d270e48df831cf933ba485e11b590f5fe4c57e7efb1acf005"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-04/vienna-egy-05-gem-nef-hor-bak-research-card.md",
+      "sha256": "e13611c63aeaffc89df0a9af6b5688309b7e0e3e6a16e12c9f614eac02bdcba0"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-04/vienna-coin-01-sigismund-guldiner-research-card.md",
+      "sha256": "913294e7b12a2d13439e0018becc50fceec693e6e9ee6a116a9eff3c42b90fbe"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-04/vienna-coin-02-charles-v-dedication-medal-research-card.md",
+      "sha256": "147c8d145b33f434c2bd569da0e5284d4beda985f6f959296b7b248c4c9b0218"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-04/vienna-space-01-museum-building-research-card.md",
+      "sha256": "089413fc36647913502de0e0622d431233b4637d83834a26bdef839af6f94ed8"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-04/vienna-space-02-grand-staircase-ensemble-research-card.md",
+      "sha256": "680090b51d751e47d75293fee869db20884db3ecace4d048c7f787f072bbdf2b"
+    },
+    {
+      "path": "research/m28-6/vienna/research-batch-04/vienna-space-03-cupola-hall-research-card.md",
+      "sha256": "1a967f4fc4ae95ea85a17341590e2fb0208bbfe3a944ff0af5bf79c6a2ed9aab"
+    }
+  ],
+  "outputs": [
+    "museum-plan.json",
+    "museum-copy.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "whole_museum_candidate_no_production_write"
+}
