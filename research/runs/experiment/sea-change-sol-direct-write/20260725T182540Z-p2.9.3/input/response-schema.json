@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "draft",
+    "evidenceJson"
+  ],
+  "properties": {
+    "draft": {
+      "type": "string"
+    },
+    "evidenceJson": {
+      "type": "string"
+    }
+  }
+}

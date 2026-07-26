@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "modelCalls": 0,
+  "cardRule": "first non-empty paragraph under ## 一分钟看懂; no rewriting or model call",
+  "draftRule": "byte-for-byte copy of output/article.md",
+  "displayMetadataRule": "deterministic mapping from input/locked-metadata.json",
+  "sourcesRule": "validated structural copy of output/sources.json",
+  "outputHashes": {
+    "card": "301b47dab7d5a2469944a79e7d3780e217aa7fb367f21775bf49786bf277482f",
+    "draft": "3f0736aad1aa5f1465275542f884ca35a579b2e3d1666876f2ecf43487849a70",
+    "displayMetadata": "77ee662791a088c136cb407bd9d956282bb3b24ffdf1f1d29d64df7a0a40321f",
+    "sources": "af1ec74243b914e5568fe22573627639bc2543e0a11620ed4064224e4c502f3a"
+  }
+}

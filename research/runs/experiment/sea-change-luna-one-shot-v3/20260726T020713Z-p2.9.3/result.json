@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260726T020713Z-p2.9.3",
+  "runKind": "experiment",
+  "caseId": "sea-change-luna-one-shot-v3",
+  "museumId": "seattle",
+  "workId": "sea-change",
+  "model": "gpt-5.6-luna",
+  "reasoningEffort": "high",
+  "callCount": 1,
+  "inputTokens": 60774,
+  "cachedInputTokens": 31232,
+  "reasoningTokens": 1250,
+  "outputTokens": 3095,
+  "totalTokens": 63869,
+  "searchCount": 2,
+  "durationMs": 63370,
+  "promptBytes": 7809,
+  "infrastructureRetry": false,
+  "status": "failed",
+  "failure": "mechanical gate failed: article has a quotation or superlative without a high-risk record",
+  "sourceCount": 2,
+  "articleBytes": 5156,
+  "sourcesBytes": 909,
+  "mechanicalGate": "failed",
+  "verification": {
+    "status": "failed",
+    "failures": [
+      "article has a quotation or superlative without a high-risk record"
+    ],
+    "checks": {
+      "experimentOnly": true,
+      "identityLocked": true,
+      "modelAndEffortLocked": true,
+      "requiredOutputs": true,
+      "forbiddenArtifactsAbsent": true,
+      "requiredArticleSections": true,
+      "sourcesStructured": true,
+      "officialSourcePresent": true,
+      "displayStatusConservative": true,
+      "highRiskRecorded": false,
+      "productionUnchanged": true
+    },
+    "middleHeadings": [
+      "先看表面：混乱其实有层次",
+      "不是随便滴：一幅画如何改变自己",
+      "为什么叫《海变》？"
+    ],
+    "sourceCount": 2,
+    "articleBytes": 5156,
+    "sourcesBytes": 909
+  }
+}

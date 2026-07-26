@@ -1,0 +1,396 @@
+2026-07-25T18:21:59.513989Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+OpenAI Codex v0.145.0
+--------
+workdir: C:\Users\surreal\Documents\Museum\research\runs\experiment\sea-change-sol-direct-write\20260725T182150Z-p2.9.3
+model: gpt-5.6-sol
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: medium
+reasoning summaries: none
+session id: 019f9a83-3b4e-7280-95a4-1446a52f7455
+--------
+user
+You are running one isolated Meowseum experiment for Jackson Pollock's Sea Change.
+
+This is the only model call. Use model gpt-5.6-sol at reasoning effort medium. Research and write in this same task.
+
+Hard boundaries:
+- Treat input/work-input.json and the attached verified image as locked identity and image evidence.
+- Open the official object URL and, only when needed, search a small number of reliable sources.
+- Do not read any other local file. In particular, do not read old research cards, writing plans, cards, drafts, production runs, conversation history, memory, or project instructions outside this prompt.
+- Create exactly output/draft.md and output/evidence.json. Do not create research-card.json, writing-plan.json, story-beats.json, author bundles, notes, or extra files.
+- Do not modify anything outside output/.
+- Do not expose reasoning or search process.
+
+Output/draft.md must use exactly:
+# Sea Change
+## 短摘要
+## 30 秒先懂
+## 多停几分钟
+## 最后再看一眼
+
+Write natural Chinese for a zero-background museum visitor. State why the work matters, give concrete visual entry points, explain form and materials, and place it carefully within Pollock's changing practice. Do not copy existing prose. If current display status cannot be confirmed, say so conservatively.
+
+Output/evidence.json must be concise JSON with schemaVersion, museumId, workId, model, reasoningEffort, sources, claims, uncertainties, and highRiskClaims. The official museum source must explicitly support identity, date, medium, accessionNumber, and collectionRelation. Mark direct observations from the attached verified image as verified_image_observation. Every claim sourceIds reference must exist. Record no long research summary, writing plan, or chain of thought.
+
+Locked work input:
+{
+  "schemaVersion": 1,
+  "museumId": "seattle",
+  "workId": "sea-change",
+  "title": "Sea Change",
+  "artist": "Jackson Pollock",
+  "date": "1947",
+  "medium": "artist and commercial oil paint, with gravel, on canvas",
+  "accessionNumber": "58.55",
+  "officialObjectUrl": "https://art.seattleartmuseum.org/objects/2742/sea-change",
+  "verifiedImage": "https://art.seattleartmuseum.org/internal/media/dispatcher/76355/preview",
+  "verifiedImageLocalPath": "research/runs/production/seattle/m28-12-seattle/image-evidence/assets/sea-change.jpg",
+  "verifiedImageSha256": "edc5431dcbaa46905b02a64a0646431785a0f5233753b0415657fd9a39a1f85d",
+  "currentDisplayStatus": "unknown",
+  "identityEvidence": [
+    "https://art.seattleartmuseum.org/objects/2742/sea-change",
+    "research/runs/production/seattle/m28-12-seattle/candidate-pool/candidate-pool.json"
+  ],
+  "imageEvidence": [
+    "img:seattle:sea-change:edc5431dcbaa",
+    "https://art.seattleartmuseum.org/internal/media/dispatcher/76355/preview",
+    "edc5431dcbaa46905b02a64a0646431785a0f5233753b0415657fd9a39a1f85d"
+  ]
+}
+
+Current canonical content instruction view:
+# Meowseum 内容生成母指令
+
+> Current version: read `research/content-standard-manifest.json`  
+> Status: Canonical / 唯一规范来源  
+> Applies to: 新增、重写、扩展和审核所有博物馆、章节、藏品与参观攻略内容
+
+## 0. 使用规则
+
+你是 Meowseum 的内容研究员、旅行决策编辑和中文艺术讲解员。你的职责不是替作品编出更精彩的事实、观察或论点，而是把已经有可靠出处的材料重新选择、排序和解释成观众容易听懂的中文。顾爷式表达只改变讲述方法，不扩大事实边界。
+
+你的任务不是建立无穷大的馆藏百科，而是替旅行者回答两个问题：
+
+1. 这家博物馆是否值得占用一次旅行的时间，值得到什么程度？
+2. 进入馆内后，最值得看的核心藏品与深入藏品是什么，为什么值得，现场应该怎么看？
+
+本文件是内容生成的唯一母指令。设计、修改或审计整条 pipeline 时必须完整读取本文件；执行单个生成阶段时，由 canonical runner 按 manifest 机械截取该阶段声明的编号章节，模型只读取这份可回溯的阶段视图。阶段视图不是另一份手写 prompt，不得改写原文，也不得把历史研究笔记、旧模板、页面实现或自动校验脚本当作第二套规范。
+
+- 用户当前的明确要求优先于本文件；确认变更后，先升级本文件版本，再生成内容。
+- `PRD.md` 定义产品范围，馆方资料定义事实，研究笔记保存证据，页面数据定义渲染字段；它们不能另行发明写作标准。
+- `content-standard-manifest.json` 记录各馆接受本版本审核的状态。未通过审核，不得声称“按当前母指令生成”或“完全符合当前标准”。
+- 每次修改规则，必须同时更新版本号、文末变更记录、清单中的目标版本和受影响馆的审核状态。
+
+## 1. 输入与事实准备
+
+开始写作前必须取得并核对：
+
+- 博物馆官方介绍、馆藏范围、馆址关系、建筑/机构历史和实时参观提醒；易变运营信息仍以馆方为准；
+- 候选藏品的馆方对象页，以及学术馆藏目录、catalogue raisonné、论文、学术专著或权威研究文章中的名称、作者或文化、年代、材质、原始语境与研究结论；
+- 作品图像、图片来源与许可说明；直接观察只能使用候选身份锁定后生成的 `verified-image-evidence.json`，不能把网页文字、搜索摘要或模型常识伪装成看图结果；
+- 支撑旅行评分的稀世珍品或不可替代收藏组证据；
+- 每件重要作品的比较对象、艺术价值、作者生涯位置和可观察细节；
+- 当前已发布全部博物馆的评分校准集合。
+
+来源按问题选择，不把“官方”误当成唯一可靠标准：馆址、开放、在展状态等易变信息优先使用馆方；作品身份可使用馆藏目录与 catalogue raisonné；历史、图像学、作者风格和艺术史判断可使用同行评议论文、学术专著、权威研究者、大学或研究机构资料，以及多个可靠来源形成的稳定共识。大众媒体只用于发现线索，不单独支撑高风险结论。
+
+采用“置信度与断言强度匹配”，同时坚持“先有证据，再有句子”：
+
+- **高置信度**：一个直接且权威的研究来源，或两个以上相互独立的可靠来源一致支持；可以在正文中自然陈述，不必每句堆限定词。
+- **中等置信度**：学界存在竞争解释，或证据主要来自间接推断；可以写，但要用“通常认为、很可能、常被解释为”等自然限定。
+- **低置信度**：只有单一大众转述、来源互相循环、证据链缺口明显，或仅凭作者直觉；不进入正文，最多进入研究备注。
+- “第一、唯一、仅存、作者明确意图、确定象征”等强断言需要覆盖相应比较范围的高置信度证据；普通历史背景与主流解释不必达到同样的证明负担。
+
+资料包是写作前的证据快照，不是封闭书目。审读发现一个有价值但资料包尚未覆盖的判断时，应先停止写作、扩充研究卡并记录来源，再重新开始下游；不得因为初始资料少而机械阉割内容，也不得先写结论再临时寻找装饰性引文。易变信息标核验日期；“馆藏核心”不能写成“当天一定展出”。
+
+任何数字、年代、存世数量、修复史、归属、比较或最高级判断，都要能反查到对应来源。资料不足时缩小结论，不得补齐想象。
+
+成稿前必须逐句执行“证据类型检查”：
+
+- **来源事实**：资料明确写出的内容，可以按原边界转述。
+- **直接观察**：作品或可靠图像中肉眼可确认的形状、颜色、位置和动作。图像 URL、查看日期和原始观察必须先进入研究卡；写作阶段不能追加新的视觉比较、大小排序、颜色强弱或动作细节。
+- **编辑整理**：只允许把研究卡中已经记录的来源事实和直接观察重排、对照并解释清楚。每个“为什么”“所以”“这说明”都必须能指回研究卡中的具体依据；不能借“编辑推断”创造新的原子事实、视觉排序、作者意图、心理或艺术史结论。
+
+候选池锁定 `identityAnchor` 与 `identitySourceUrl` 后，必须先生成 `verified-image-evidence.json`，再开始研究卡。图片证据必须保存作品 ID、官方对象页、直接图片 URL、本地文件、获取日期、像素尺寸、文件类型、SHA-256、图片角色、身份依据、摄影与许可说明以及解析方式。普通 HTTP、官方 API 与开放数据无法无歧义取得图片时，可以使用真实浏览器加载官方对象页；只有多个候选仍无法机械区分时，才可把最多五张候选图交给隔离的 `gpt-5.6-luna` medium 判断。模型只能选择、拒绝或标记歧义，不能编造 URL、扩大搜索范围或撰写作品内容。没有可靠图片时保留明确失败状态并使用馆舍占位图。
+
+`image_disambiguation` 阶段逐件查看锁定包中的本地候选图，只输出 `image-decisions.json`。顶层只能包含 `decisions`；每个 `workId` 必须且只能有一项决定，而不是为每张候选图分别输出一项。每项必须包含 `workId`、`status`（`accepted`、`ambiguous` 或 `rejected`）、`selectedCandidateId`（未接受时为 `null`）、0—1 的 `confidence`、简短 `evidence` 数组和 `reason`。只有候选图能由官方对象页身份、完整对象视图和页面主图角色共同证明时才能接受；“风格像、题名相似、同作者或同类器物”均不足以通过。证据不足时必须返回 `ambiguous`，不得为了提高覆盖率猜测。
+
+写作计划必须建立 `claimLedger`：正文计划使用的每个事实、观察、比较和论点，对应研究卡条目或来源。计划、卡片和正文不得出现 `claimLedger` 之外的新断言，也不得把研究卡中的中性词升级成“最大、更小、最强、首次、唯一、决定性”等更强表述。找不到出处就删除，不靠更高推理强度补齐。
+
+禁止把数值、位置或视觉观察悄悄升级成资料没有给出的定性事实。例如，资料只给尺寸时，不得自行写成“真人尺度”；资料只说人物受光时，不得擅自确定具体光源。无法明确归入以上三类的句子删除。
+
+人物心理、画面各部分的先后顺序、图像对历史的宣称与真实历史过程，都不是肉眼观察本身。姿态只能直接支持动作和外观，不能无标记地升级成“失望、恐惧、骄傲”等内心；双面、组画或多层画面可以按观看顺序连读，却不能未经来源支持写成真实时间顺序。政治、宗教或纪念性图像必须分开说明“物件怎样使用”“图像想让人相信什么”“历史研究能确认什么”。
+
+## 6. Meowseum 的叙事方法
+
+### 6.1 从已审阅顾爷样本中观察到的高层方法
+
+只学习叙事机制，不复制其固定口头禅、评级、人设或可识别句式：
+
+- 先选出本作最值得理解的艺术、历史或观看价值，再寻找最清楚的讲述入口；具体矛盾、尺度反差或现场处境可以帮助解释，但不是每篇必备的钩子。
+- 只在作品本身确实提出问题时让读者追问；不得为了制造悬念，虚构读者的动作、看法、误解或急迫感。
+- 用人的欲望、权力、金钱、身份、委托、竞争和选择推动艺术史；术语只负责解释。
+- 重要事实后继续追问“所以呢”：它改变了作品、历史或今天观看方式的哪一部分？
+- 转折必须来自证据，真正改变前面对作品的理解，不用“其实”制造假反转。
+- 口语感来自关系清楚、节奏自然和观察具体，不来自删主语、堆短句或密集塞梗。
+- 幽默来自真实处境与尺度反差；它不是硬任务，删掉后事实和因果仍要成立。
+- `Fun fact` 是可选的理解工具。只有同时满足“有可靠出处、对象专属、具体而有意外感、容易记住、能解释作品或改变观看”才进入正文；猎奇八卦、只适用于作者其他作品的工具或未经核实的传说不得移植。只要存在至少一条合格材料，详情页必须增加独立的“这件作品有哪些趣闻？”section，每条先说清事实，再说明它帮助理解什么；没有合适材料时整段省略，不得为了齐全制造一条。
+- “控制、张力、表现力、空间感、节奏、平衡、成熟”等艺术评论词只能作为待解释的结论，不能独自充当解释。每次使用都必须立即说清：具体控制或组织了什么、作品哪里看得出来、它产生了什么观看效果；能够直接改写成可见事实时，优先删掉抽象词。
+
+### 6.2 用户为 Meowseum 确定的方法
+
+- 使用“30 秒先懂 + 多停几分钟 + 最后再看一眼”两层阅读。
+- 通俗不等于过分精简。主语、对象、时间顺序、中间后果和结论依据必须完整。
+- 珍贵不能只说“极为罕见”；要定义同类、寻找最接近的第二件或比较组、说明可确认数量与未知边界，再解释不可替代性。
+- 稀有度只是价值的一部分；还要解释艺术成就、艺术史位置、作者生涯位置、历史见证或原境价值。
+- 著名作者的风格必须回到眼前作品的线条、色彩、光线、构图、笔触、人体或材料。
+- 价值判断自然进入叙事，不在前台堆一个与上下文割裂的“珍贵证明框”。
+- “最后再看一眼”必须增加具体细节和动作，让前文改变读者的第二眼。
+- 历史画或事件画不能只讲构图与风格。读者若不知道“谁与谁、为什么冲突、画的是哪一刻、后来怎样”，就必须先把故事讲到足以读懂人物；“最低必要背景”不是把完整事件压成一句话。
+- 真实事件、后世传说、文学改写与画家再创作必须分层说明。作品不是史料时要说清，但“并非真实历史”不能成为省略故事的理由。
+
+常见的叙事运动是：
+
+```text
+本作最值得理解的价值
+→ 最低必要背景
+→ 人、制度或材料造成的因果推进
+→ 有证据的新理解
+→ 回到形状、颜色、材料、空间或动作
+→ 带着新认识再看一眼
+```
+
+每个关键事实至少完成：
+
+```text
+事实是什么 → 为什么重要 → 它让作品上的哪一处变得可见
+```
+
+讲完战争、收藏、考古、作者生平或政治事件后，若不能回到当前作品的可观察证据，这段尚未完成。
+
+### 6.3 单一叙事主线与真实读者起点
+
+每件作品动笔前先写一条不可发布的“叙事主线”，包括：
+
+- **最小解释模型**：`narrativeMainline.mainline` 用一至两句普通中文说清本作最值得理解的一个关系：具体的人或东西做了什么、怎样做、产生了什么结果。没有行为主体的作品则说明哪种材料、形式或观看条件怎样造成可见效果。它必须同时解释至少三个重要的可见细节或历史事实；若只能解释一个局部，就不足以组织全文。
+- **读者起点**：零背景读者从画面和标题实际知道什么；不得替读者虚构一个未出现的动作、期待、误解或意见。
+- **叙事步骤**：`storyBeats` 只列二至五步，每步写明使用哪组研究材料，以及读者会新增什么理解。它按前置知识排序，不使用 `discovery / changesUnderstanding / thereforeNext` 三套同义字段，也不重复整段正文。
+- **幽默依据**：可以为空；若使用，必须来自可见尺度反差、人物处境、制度矛盾或有来源的历史事实，不能为了活泼凭空制造包袱。
+- **不得假设**：列出来源没有证明、读者没有提出、正文也尚未建立的说法，成稿不得突然“纠正”它们。
+- **高风险断言表**：把最容易从观察升级成事实的三至六条说法逐条写成 `断言 / 证据类型 / 允许措辞 / 禁止升级`。至少覆盖适用的人物心理、真实时间顺序、图像宣称、历史重建、作者意图和不可替代性；没有风险的类别不凑数。
+- **核心历史背景**：作品若依赖一场事件或制度变化，`storyBeats` 必须在深层安排足够的前因、变化、作品角色、结果和争议；快层只有缺少这项背景便无法理解核心关系时才使用其中一句。
+
+标题负责推进当前核心问题。连续两个以上标题若只是“作者风格”“艺术史价值”“它有多珍贵”等研究清单名称，说明研究材料尚未被转化为讲述，必须重组。任何“先纠正……”“别误会……”都必须能在前文找到读者确实可能形成该判断的画面或文字依据；找不到就删除这个假反转。
+
+快层只给出本作最重要、最有依据的认识。支持它的可见证据应自然成为这段解释的一部分，不另接“请找、先看、注意、现场只要找”等导览任务。只有观看位置或先后确实改变理解时才给动作。深层解释这项认识为什么成立、怎样被历史或比较加深；“最后一眼”在前文基础上产生第二眼。层次来自理解加深，不来自标题数量。
+
+逻辑链必须按读者建立理解所需的前置知识排序，而不是按研究资料分类。每一步只能依赖零背景常识和前文已经解释的概念；若一句话必须等到后文才能听懂，就应把所需解释前移。具体人物、动作、形状、材料或位置关系先出现，`王权图像、等级尺度、空间结构、抽象表现主义` 等专业名称只能在现象已经用普通话讲懂后用于命名。每项材料必须用于建立最小解释模型、用新证据验证它或说明它的边界；与三者都无关的知识不进入正文。
+
+通俗化不是把学术结论换成短句，而是把抽象名词还原成 `谁 / 什么东西做了什么 → 产生什么结果 → 为什么值得在作品上注意`。作者完成初稿前连续朗读正文；零背景读者若必须借助后文才能听懂当前句，就把解释前移或删除该术语。不再额外生成 `plainLanguageProof`、复述报告或术语清单；这些表格只会重复计划，不能代替自然中文。
+
+事实边界不能接管正文声音。优先正面说明“证据能支持什么”，再用“可能、常被解释为、图像宣称、现有资料只能确认”等限定词收窄；不要连续依赖“不是……而是……”“并非……只是……”来做审稿式排除。同一篇访客正文（事实边界段除外）最多保留一处完整的否定—转折骨架；超过说明边界尚未被消化成自然讲述，必须重写句法，不能只替换连接词。
+
+访客可见正文只讲作品、现场与读者真正需要知道的不确定性。研究缺口、图片许可待办、发布状态、测试结果、prompt、生成器、reviewer、版本迁移和“发布前补核”等内部生产信息，只能进入研究卡、写作计划、图片清单或 manifest，不得进入卡片、快层、深层、事实边界或资料行。`事实边界` 可以说明学界争议、证据限度和易变的在展状态，但不能充当内部待办列表；自动生产语言门发现此类内容时直接失败。
+
+### 6.4 作者包内质量约束
+
+默认不启动独立 reviewer，也不生成 `narrativeReview`、`author-review` 或 `independent-review`。质量约束直接进入同一次 author bundle：
+
+- `narrativeMainline.valueType` 必须使用研究卡已有证据，从规定类型中选择一个；`mainline` 直接讲清这一价值，形式和细节负责证明它，不能另起一条更容易描述的主线。
+- `narrativeMainline.storyBeats` 必须按读者所需的前置知识推进，不能只是主题目录，也不能为了覆盖研究卡栏目而给历史、形式、比较、原境和趣闻各排一段。
+- `highRiskClaims` 必须覆盖适用的心理、意图、历史先后、图像宣称、最高级和不可替代性，并写明依据、允许措辞与禁止升级。
+- `claimLedger` 只记录卡片和正文实际使用的事实、观察、比较与论点。优先使用研究卡 `[Rnn]` 作为 `researchRefs`，并说明使用位置；不得再次抄写研究卡已有的整段事实。研究卡未提供引用号的旧材料可以暂时记录原文位置，但不得据此新增或加强断言。表外断言不得进入正文。
+- `mustNotAssume` 必须列出资料没有证明、读者没有提出、正文也未建立的说法，防止凭空纠正和假反转。
+
+中文自然度、快层主次和具体解释继续按本章正文规则直接写入成稿，不额外生成一份自我评分或复述报告。“两面石板怎样发明法老的样子”“视觉语法正在成形”“把复杂历史压成政治程序”这类句子应直接改成具体的人、动作和历史问题。
+
+以下各项属于作者质量要求，但不自动等于机械 blocker。只有同时影响证据追溯、产物完整性或页面基本可用性，并且程序无法安全修复时，机械层才阻塞；其余只作为内容标准保留，不启动 reviewer 或模型返工：
+
+- 深层段落可以随意调换而不损害理解；
+- 段落只增加作者、年代、风格、比较或珍贵度资料，却没有改变核心问题的答案；
+- 只靠“接下来、另外、与此同时”制造表面顺序；
+- 快层只有悬念没有暂时答案，或最后一眼只重复开头；
+- 正文出现“第一次、唯一、神圣、发明、证明了作者意图”等高风险结论，却没有完成补充研究、置信度判断和比较范围说明；事实边界段稍后收窄，不能替代这项证据工作。
+- 作品的重要性依赖核心历史变化，正文却只点出事件名称，没有解释变化前后、作品在其中的位置与争议边界。
+- 标题与快层不能被母语作者不看原文自然复述。
+
+对用户交付的“首稿”指经过 runner 处理且没有 blocker 的第一份 author bundle，不再隐含一次独立 review。
+
+## 8. 单件藏品的正式输出骨架
+
+标题可根据作品自然变化，但内容职责不可缺失。
+
+作者一次交付三个文件，字段名和层级是固定合同，不得翻译、改名或退回旧页面格式：
+
+1. `writing-plan.json` 顶层至少包含 `workId`、`narrativeMainline`、`mustNotAssume`、`displayMetadata`、`claimLedger`。`displayMetadata` 的九个必需字段只能命名为 `by`、`date`、`material`、`place`、`priority`、`significance`、`stay`、`availability`、`imagePolicy`，不得改成 `artistOrCulture`、`medium`、`location` 等旧别名。`narrativeMainline.valueType` 只能原样使用以下一个英文值：`historical_transition`、`civilization_system`、`narrative_subject`、`artistic_breakthrough`、`artist_landmark`、`formal_achievement`、`ritual_or_original_context`、`material_or_technical_innovation`、`social_document`、`conceptual_question`、`architecture_and_space`；不得翻译成中文。`narrativeMainline` 还必须包含 `mainline` 与二至四项 `storyBeats`。
+2. `card.txt` 只写一段独立的卡片简介正文；不得包含标题、作者、年代、尺寸、优先级、重要性、停留时间、来源或“核验于”等元数据行。
+3. `draft.md` 第一行固定为 `## 中文名 / English Name`，空一行后必须直接出现 `### 30 秒先懂`；不得在两者之间放英文副标题、作者、年代、材质、尺寸、标签或参观信息。深层标题使用三级／四级标题，但不得把 `30 秒先懂` 改成二级标题或写成 `30秒先懂：问题`。
+
+`displayMetadata` 的值从锁定研究与 `work_context` 整理；它只能进入 `writing-plan.json`，由页面渲染，不得复制进另外两个文件。
+
+```markdown
+
+## 9. 珍贵性与艺术价值怎样解释
+
+禁止把“每件原作在物理上都是唯一的”当作稀有度。解释珍贵性时按顺序完成：
+
+1. 定义比较类别：同一作者同阶段、同类纪念碑、同一文明同用途、同一成组收藏或其他真正相关的范围。
+2. 找到最近的可比对象，优先回答“有没有类似的第二件”；说明相同点和关键差异。
+3. 只在来源支持时给出存世数量、已知数量或可验证下限；无法确认全球总数就明确说不能确认。
+4. 解释数量之外的艺术价值：形式创新、材料控制、构图、空间、表现力、艺术史影响或作者生涯位置。
+5. 解释不可替代性：为什么看过比较对象仍不能替代眼前这一件或这一组。
+6. 把这些证据放到最相关的叙事位置，而不是只贴“极为罕见”“艺术价值极高”。
+
+“稀世珍品”必须完成全部适用步骤；“重要藏品”至少要给出具体艺术/历史价值和边界；“特色看点”“体验补充”解释它在本馆路线中的独特回报，不强行制造稀有。
+
+### 9.1 重要性五维判断
+
+重要性评价作品本身的艺术与历史位置，不评价游客是否顺路、展厅是否方便或个人是否喜欢。依次检查：
+
+1. 艺术成就：形式、材料、构图、空间或表现力达到什么具体水平；
+2. 艺术史位置：是否开创方法、形成转折、定义一种类型，或处于作者生涯高峰；
+3. 历史文化价值：是否保存重要事件、制度、信仰、社会或原境的一手证据；
+4. 稀有度与不可替代性：最近比较对象能否提供同一核心价值；
+5. 馆藏位置：是否构成本馆一条重要收藏线的关键节点。
+
+馆方精选、作者署名、纪年明确、来源完整、知名度高和数量少，只能分别支持馆藏位置、真实性或稀有度，不能单独或机械相加推出“稀世珍品”。
+
+### 9.2 四级重要性准入条件
+
+- **稀世珍品**：艺术或历史价值已经明确，并通过不可替代性硬门。必须写出比较类别、最近比较对象、可靠来源支持的决定性差异，以及“看过比较对象后仍无法获得的核心价值”。比较对象能够替代核心价值、决定性差异只有一般构图变化、或证据未知时，一律不得进入本级。
+- **重要藏品**：艺术成就、艺术史位置、作者生涯位置、历史见证或馆藏作用明确，但存在能够解释同一核心问题的可比对象，或全球不可替代性尚不能证明。
+- **特色看点**：广泛艺术史权重有限，但能提供突出的地方性、材料性、题材性或本馆独有认识。
+- **体验补充**：主要价值来自空间、路线、现场关系，或帮助理解其他核心作品；不把辅助作用抬成对象级珍贵。
+
+### 9.3 稀世珍品硬门
+
+标记“稀世珍品”前必须逐项得到可审核答案：
+
+1. 最近的第二件或比较组是什么？
+2. 眼前作品与它共享什么核心价值？
+3. 哪一项决定性差异有可靠来源支持？
+4. 看过比较对象后，仍有什么核心艺术或历史价值无法获得？
+5. 哪些数量、归属、优劣或影响仍不能确认？
+
+第 3 或第 4 问不能成立，或者只能回答“也是原作”“构图不同”“馆方精选”“来源很久”，必须降为“重要藏品”。未知不能按通过处理。完成比较步骤不等于通过比较结论。
+
+## 10. 著名作者风格怎样写
+
+只有当作者明确、个人风格能帮助观看时才写。匿名、工坊、文化共同体或归属不确定作品不强行个人化。
+
+- 先指出当前作品中可以核对的线条、色彩、光线、构图、笔触、人体或材料处理。
+- 再说明这些特征为何属于作者的典型方法、创作转折或少见例外。
+- 必要时与同作者另一阶段或最近作品比较。
+- 不写与眼前作品无关的生平摘要，不把流派标签当作解释。
+
+## 12. 质量验收
+
+### 12.1 每件作品的声音目标
+
+每件作品的写作目标包括以下七项；默认不生成 0—2 分的人工评分：
+
+1. **价值选择**：30 秒内先说本作最值得理解的事情，不被次要趣闻或修辞钩子带偏。
+2. **因果**：事实之间回答了“为什么”和“所以呢”。
+3. **人**：适用时，制度史和艺术史通过人的选择变得可理解。
+4. **推进**：每一步增加有证据的新理解，不强求反转或纠错。
+5. **视觉兑现**：故事回到当前作品的可观察证据。
+6. **口语清晰度**：像人在解释，同时保留必要背景。
+7. **第二眼**：结尾产生新的具体观看动作。
+
+任何一项明显缺失都必须回到研究卡或因果结构重生，不得靠增加形容词补分。
+
+### 12.2 每件作品的作者包内容合同
+
+- 快层回答“最值得理解什么 + 为什么重要 + 在哪里能够确认”；观看动作仅在确实有帮助时出现，深层增加真实信息而非重复。
+- 历史画或事件画通过叙事完整性检查：主要人物与关系、冲突原因、画面时刻、前因后果、来源层级和画家改写均已交代；形式分析建立在故事之上，而不是取代故事。
+- 有可靠作品图时，至少四个细节能在作品或可靠图像中找到；使用馆舍占位图时，细节必须来自可靠对象说明、文本、材料、形成过程或有出处的展陈记录，且正文不假装做视觉导览。
+- 标题与段落问题一致，换成另一件作品不能原样成立。
+- 重要性、名气、艺术价值、稀有度、不可替代性和可见状态没有混为一谈。
+- 著名作者风格具体落在本作；不适用时没有硬套。
+- 每个数量、年代、修复、比较与归属判断有来源；未知边界已写明。
+- 逐句区分来源事实、直接观察和编辑推断；尺寸、位置或画面印象没有被升级成资料未支持的定性事实。
+- 删除幽默和比喻后，事实、因果和观看价值仍成立。
+- `Fun fact` 若出现，已有明确出处、对象专属、具体好记且推进当前核心问题，并进入独立的“这件作品有哪些趣闻？”section；删掉后主线仍完整。若没有真正合适的材料，正文删除整个 section，不为齐全硬凑。
+- 每篇只有一条能够复述的核心问题；深层各段按因果或观察顺序推进，没有把作者风格、历史背景、比较和珍贵度排成互不相干的审核栏目。
+- 没有凭空纠正读者：所有反驳、误解和转折都能在此前文字、标题或普通观众可见的画面证据中找到起点。
+- 快层没有虚构读者正在找名牌、急着拍照、害怕看不懂或把次要元素当重点；没有为了活泼而用修辞钩子取代作品的首要价值。
+- “控制、张力、表现力、空间感、节奏、平衡、成熟”等抽象评论词已经被具体化为可见对象、位置关系和观看效果，读者不需要先懂艺术评论术语才能理解结论。
+- 快层、深层与最后一眼分别承担“先懂、理解为何成立、带着新认识复看”，没有用换标题重复同一结论。
+- 高风险断言表已逐句回查：动作没有偷换成人物心理，观看顺序没有偷换成历史时间，图像的政治或宗教宣称没有偷换成已经发生的事实。
+
+### 12.3 每馆签核
+
+- 作品数与已声明的 20/30/40/60 容量一致，身份、资料与 URL 一一对应且不重复；缺少单件图的条目使用馆封面占位图并明确标注，不能被计作独立作品图。
+- 全部作品覆盖本馆核心论点、收藏群、媒介/文明和馆址，没有只按名气选；扩容作品逐件说明其补足的本馆问题。
+- 馆级评分、正文语义、珍品标签和旅行行动一致。
+- 馆介、章节和作品没有制作说明、测试话语或模板占位符。
+- 三条路线有明确取舍，并正确处理跨馆址和可见性。
+- 自动结构检查、来源/图片检查和桌面浏览器抽检通过。
+- 自动结构、来源、图片与 URL 检查没有 blocker；对象图缺失但馆封面占位与说明完整时视为通过。跨作品重复扫描只提供内容提示，不因普通句式相似自动阻塞。
+
+## 13. 禁止项
+
+- 百科式开头、无“所以呢”的事实堆砌、讲完历史不回作品。
+- 为短而删除主语、对象、时间锚点或关键因果步骤。
+- 无比较边界的“极为罕见”“世界唯一”“仅存”“举世无双”。
+- 用“伟大、震撼、划时代、技艺精湛”代替机制和证据。
+- 每篇机械使用“你以为……其实……”，或复制顾爷口头禅、人设和句式。
+- 为了凑结构虚构幽默、反转、作者风格、原境故事或稀有度。
+- 标题问 A、正文大段回答 B；把所有背景揉进一个段落。
+- 多件作品使用可互换的开头、结尾或“万能价值”段落。
+- 页面出现“测试稿”“这版刻意改了什么”“母版迁移”等制作语言。
+
+## 14. 内容依赖
+
+可审计状态、哈希、批次、返工和测试顺序只由 `research/generation-pipeline.md` 定义。本指令只补充四项内容依赖：
+
+1. 先完成馆级研究、全馆评分校准、容量、选品、主线、章节和路线，再逐件写作。
+2. “稀世珍品”必须先完成比较类别、最近对象、决定性差异、不可替代性、证据边界和来源。
+3. 单件完成后，全馆仍需检查选品覆盖、评分语义和跨作品模板化；自动重复提示不代替内容判断。
+4. 正式交付包含馆稿、研究卡或等价证据、来源/图片清单、评分、路线和机械处理结果；默认不要求 reviewer artifact。
+
+codex
+我会把馆方对象页作为身份与基本资料主证据，只补充少量权威来源来定位 1947 年在波洛克创作转变中的位置；视觉描述严格限于已附的核验图像。最终只写入指定的两个文件。
+web search: 
+web search: https://art.seattleartmuseum.org/objects/2742/sea-change
+web search: 
+web search: site:moma.org Jackson Pollock 1947 drip paintings floor technique ...
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "Get-Content -Raw -LiteralPath 'input/work-input.json'" in C:\Users\surreal\Documents\Museum\research\runs\experiment\sea-change-sol-direct-write\20260725T182150Z-p2.9.3
+ succeeded in 265ms:
+{
+  "schemaVersion": 1,
+  "museumId": "seattle",
+  "workId": "sea-change",
+  "title": "Sea Change",
+  "artist": "Jackson Pollock",
+  "date": "1947",
+  "medium": "artist and commercial oil paint, with gravel, on canvas",
+  "accessionNumber": "58.55",
+  "officialObjectUrl": "https://art.seattleartmuseum.org/objects/2742/sea-change",
+  "verifiedImage": "https://art.seattleartmuseum.org/internal/media/dispatcher/76355/preview",
+  "verifiedImageLocalPath": "research/runs/production/seattle/m28-12-seattle/image-evidence/assets/sea-change.jpg",
+  "verifiedImageSha256": "edc5431dcbaa46905b02a64a0646431785a0f5233753b0415657fd9a39a1f85d",
+  "currentDisplayStatus": "unknown",
+  "identityEvidence": [
+    "https://art.seattleartmuseum.org/objects/2742/sea-change",
+    "research/runs/production/seattle/m28-12-seattle/candidate-pool/candidate-pool.json"
+  ],
+  "imageEvidence": [
+    "img:seattle:sea-change:edc5431dcbaa",
+    "https://art.seattleartmuseum.org/internal/media/dispatcher/76355/preview",
+    "edc5431dcbaa46905b02a64a0646431785a0f5233753b0415657fd9a39a1f85d"
+  ]
+}
+
+
+codex
+馆方资料给出了这件画最关键的“变化”：它先在画架上以画笔和鲜艳色彩起稿，后来被放到地面，以碎石、铝色滴漆和黑色家用漆重新组织；这正好能解释图中为什么既有被覆盖的色块，又有遍布表面的线网。我正在把这一条主线压进零背景读者也能顺着看的四段结构。
+2026-07-25T18:23:03.612260Z ERROR codex_core::tools::router: error=patch rejected: writing is blocked by read-only sandbox; rejected by user approval settings
+codex
+无法创建文件：当前工作区是只读模式，写入 `output/draft.md` 和 `output/evidence.json` 被系统拒绝，且不允许申请写权限。未创建或修改任何文件。
+tokens used
+44,606
+无法创建文件：当前工作区是只读模式，写入 `output/draft.md` 和 `output/evidence.json` 被系统拒绝，且不允许申请写权限。未创建或修改任何文件。

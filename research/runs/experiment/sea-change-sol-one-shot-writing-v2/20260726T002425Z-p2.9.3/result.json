@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260726T002425Z-p2.9.3",
+  "runKind": "experiment",
+  "caseId": "sea-change-sol-one-shot-writing-v2",
+  "museumId": "seattle",
+  "workId": "sea-change",
+  "model": "gpt-5.6-sol",
+  "reasoningEffort": "medium",
+  "callCount": 1,
+  "startedAt": "2026-07-26T00:24:33.152Z",
+  "completedAt": "2026-07-26T00:25:57.984Z",
+  "durationMs": 84832,
+  "inputTokens": 149435,
+  "cachedInputTokens": 93440,
+  "reasoningTokens": 460,
+  "outputTokens": 2648,
+  "totalTokens": 152083,
+  "searchCount": 4,
+  "promptBytes": 7809,
+  "sourceCount": 4,
+  "articleBytes": 4278,
+  "sourcesBytes": 2084,
+  "infrastructureRetry": false,
+  "adapterModelCalls": 0,
+  "mechanicalGate": "passed",
+  "status": "accepted",
+  "outputs": [
+    "output/article.md",
+    "output/sources.json",
+    "integration/card.txt",
+    "integration/draft.md",
+    "integration/display-metadata.json",
+    "integration/sources.json"
+  ],
+  "verification": {
+    "status": "passed",
+    "failures": [],
+    "checks": {
+      "experimentOnly": true,
+      "identityLocked": true,
+      "modelAndEffortLocked": true,
+      "requiredOutputs": true,
+      "forbiddenArtifactsAbsent": true,
+      "requiredArticleSections": true,
+      "sourcesStructured": true,
+      "officialSourcePresent": true,
+      "displayStatusConservative": true,
+      "highRiskRecorded": true,
+      "productionUnchanged": true
+    },
+    "middleHeadings": [
+      "一幅画，经历了两次出发",
+      "不是海景，而是一场表面事件",
+      "砂砾让绘画有了重量",
+      "从佩姬·古根海姆来到西雅图"
+    ],
+    "sourceCount": 4,
+    "articleBytes": 4278,
+    "sourcesBytes": 2084
+  }
+}

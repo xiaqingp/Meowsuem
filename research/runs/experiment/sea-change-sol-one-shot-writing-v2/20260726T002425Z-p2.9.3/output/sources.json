@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "museumId": "seattle",
+  "workId": "sea-change",
+  "sources": [
+    {
+      "title": "Sea Change – Works – eMuseum",
+      "publisher": "Seattle Art Museum",
+      "url": "https://art.seattleartmuseum.org/objects/2742/sea-change",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "makingProcess",
+        "historicalContext",
+        "collectionHistory",
+        "quotation"
+      ]
+    },
+    {
+      "title": "Pollock Sea Change: How Pollock Painted",
+      "publisher": "Seattle Art Museum",
+      "url": "https://collections.site.seattleartmuseum.org/pollock-sea-change-pollock-painted/",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "makingProcess"
+      ]
+    },
+    {
+      "title": "Pollock Sea Change: Conservation History",
+      "publisher": "Seattle Art Museum",
+      "url": "https://collections.site.seattleartmuseum.org/pollock-sea-change-conservation-history/",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "makingProcess",
+        "historicalContext"
+      ]
+    },
+    {
+      "title": "Pollock Sea Change: SAM Treatment",
+      "publisher": "Seattle Art Museum",
+      "url": "https://collections.site.seattleartmuseum.org/pollock-sea-change-sam-treatment/",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "makingProcess",
+        "historicalContext"
+      ]
+    }
+  ],
+  "uncertainties": [
+    "西雅图艺术博物馆官方对象页未说明作品当前是否在展厅展出，因此正文不作当前展出状态判断。"
+  ],
+  "highRiskClaims": [
+    "作品标注年代为1947年，但制作横跨1946—1947年。",
+    "波洛先以画笔在画架上作画，后将画布放到地面，加入砂砾、铝色漆与亮黑色商业油漆。",
+    "作品由佩姬·古根海姆赠予西雅图艺术博物馆，并于1958年进入馆藏。",
+    "1977年的保护处理将画布固定到硬板并覆盖保护涂层；2012年资助支持了后续分析与处理。"
+  ]
+}

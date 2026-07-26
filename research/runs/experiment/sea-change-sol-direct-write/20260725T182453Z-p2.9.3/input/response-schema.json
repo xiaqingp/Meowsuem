@@ -1,0 +1,57 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "draft",
+    "evidence"
+  ],
+  "properties": {
+    "draft": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "schemaVersion",
+        "museumId",
+        "workId",
+        "model",
+        "reasoningEffort",
+        "sources",
+        "claims",
+        "uncertainties",
+        "highRiskClaims"
+      ],
+      "properties": {
+        "schemaVersion": {
+          "type": "integer"
+        },
+        "museumId": {
+          "type": "string"
+        },
+        "workId": {
+          "type": "string"
+        },
+        "model": {
+          "type": "string"
+        },
+        "reasoningEffort": {
+          "type": "string"
+        },
+        "sources": {
+          "type": "array"
+        },
+        "claims": {
+          "type": "array"
+        },
+        "uncertainties": {
+          "type": "array"
+        },
+        "highRiskClaims": {
+          "type": "array"
+        }
+      }
+    }
+  }
+}

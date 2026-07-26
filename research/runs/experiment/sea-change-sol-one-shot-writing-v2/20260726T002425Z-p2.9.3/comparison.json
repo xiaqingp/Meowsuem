@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "oldPipeline": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "callsTouchingWork": 2,
+    "amortizedCalls": 1.1,
+    "researchBatch": {
+      "workCount": 10,
+      "tokens": 190910,
+      "amortizedTokens": 19091,
+      "durationMs": 508008,
+      "amortizedDurationMs": 50801
+    },
+    "author": {
+      "tokens": 34079,
+      "durationMs": 91261
+    },
+    "comparableAmortizedTokens": 53170,
+    "comparableAmortizedDurationMs": 142062,
+    "fullCallsTouchingWorkTokens": 224989,
+    "researchCardBytes": 6656,
+    "writingPlanBytes": 9026,
+    "cardBytes": 469,
+    "draftBytes": 4461
+  },
+  "oneShot": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "callCount": 1,
+    "inputTokens": 149435,
+    "cachedInputTokens": 93440,
+    "reasoningTokens": 460,
+    "outputTokens": 2648,
+    "totalTokens": 152083,
+    "promptBytes": 7809,
+    "searchCount": 4,
+    "sourceCount": 4,
+    "durationMs": 84832,
+    "articleBytes": 4278,
+    "sourcesBytes": 2084,
+    "cardBytes": 605,
+    "infrastructureRetry": false,
+    "mechanicalGate": "passed"
+  },
+  "savings": {
+    "tokensSaved": -98913,
+    "percentSaved": -186
+  }
+}

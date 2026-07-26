@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "museumId": "seattle",
+  "workId": "sea-change",
+  "model": "gpt-5.6-sol",
+  "reasoningEffort": "medium",
+  "sources": [
+    {
+      "sourceId": "S1",
+      "type": "official_museum_object_page",
+      "title": "Sea Change – Seattle Art Museum",
+      "url": "https://art.seattleartmuseum.org/objects/2742/sea-change",
+      "accessedAt": "2026-07-25",
+      "supports": [
+        "identity",
+        "date",
+        "medium",
+        "accessionNumber",
+        "collectionRelation",
+        "provenance",
+        "makingProcess",
+        "careerContext"
+      ],
+      "id": "S1",
+      "sourceType": "museum"
+    },
+    {
+      "sourceId": "I1",
+      "type": "verified_image",
+      "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/76355/preview",
+      "localPath": "research/runs/production/seattle/m28-12-seattle/image-evidence/assets/sea-change.jpg",
+      "sha256": "edc5431dcbaa46905b02a64a0646431785a0f5233753b0415657fd9a39a1f85d",
+      "id": "I1",
+      "sourceType": "verified_image"
+    }
+  ],
+  "claims": [
+    {
+      "claimId": "C1",
+      "text": "作品为杰克逊·波洛克的《Sea Change》，作于1947年，登录号58.55；媒材为艺术家用油画颜料、商业油漆和碎石，画布底。",
+      "sourceIds": [
+        "S1"
+      ],
+      "evidenceType": "official_museum_record",
+      "id": "C1",
+      "summary": "作品为杰克逊·波洛克的《Sea Change》，作于1947年，登录号58.55；媒材为艺术家用油画颜料、商业油漆和碎石，画布底。"
+    },
+    {
+      "claimId": "C2",
+      "text": "作品属于西雅图艺术博物馆馆藏，由佩姬·古根海姆于1958年捐赠。",
+      "sourceIds": [
+        "S1"
+      ],
+      "evidenceType": "official_museum_record",
+      "id": "C2",
+      "summary": "作品属于西雅图艺术博物馆馆藏，由佩姬·古根海姆于1958年捐赠。"
+    },
+    {
+      "claimId": "C3",
+      "text": "波洛克于1946年以画笔和画架开始此作，1947年把未完成画布放到工作室地面，以碎石、铝色和亮黑色商业油漆加以改造。",
+      "sourceIds": [
+        "S1"
+      ],
+      "evidenceType": "official_museum_label",
+      "id": "C3",
+      "summary": "波洛克于1946年以画笔和画架开始此作，1947年把未完成画布放到工作室地面，以碎石、铝色和亮黑色商业油漆加以改造。"
+    },
+    {
+      "claimId": "C4",
+      "text": "馆方所述分析与修复研究显示，他保留部分早期构图、遮盖另一些部分，并以直接从颜料管挤出的纯色色点作最后调整。",
+      "sourceIds": [
+        "S1"
+      ],
+      "evidenceType": "official_museum_label",
+      "id": "C4",
+      "summary": "馆方所述分析与修复研究显示，他保留部分早期构图、遮盖另一些部分，并以直接从颜料管挤出的纯色色点作最后调整。"
+    },
+    {
+      "claimId": "C5",
+      "text": "馆方将此作置于波洛克1947至1950年滴画时期的开端，并称其为创作转型时刻的作品。",
+      "sourceIds": [
+        "S1"
+      ],
+      "evidenceType": "official_museum_label",
+      "id": "C5",
+      "summary": "馆方将此作置于波洛克1947至1950年滴画时期的开端，并称其为创作转型时刻的作品。"
+    },
+    {
+      "claimId": "C6",
+      "text": "画面有密集黑色线条、灰白斑驳底面、蓝橙粉黄等零散色块，并呈现颗粒化、局部堆积的表面。",
+      "sourceIds": [
+        "I1"
+      ],
+      "evidenceType": "verified_image_observation",
+      "id": "C6",
+      "summary": "画面有密集黑色线条、灰白斑驳底面、蓝橙粉黄等零散色块，并呈现颗粒化、局部堆积的表面。"
+    },
+    {
+      "claimId": "C7",
+      "text": "画面没有单一清晰的中心形象，底层色块在覆盖层之间仍局部可见。",
+      "sourceIds": [
+        "I1"
+      ],
+      "evidenceType": "verified_image_observation",
+      "id": "C7",
+      "summary": "画面没有单一清晰的中心形象，底层色块在覆盖层之间仍局部可见。"
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "currentDisplayStatus",
+      "status": "unknown",
+      "note": "馆方对象页确认馆藏关系，但未明确标示2026-07-25的当前在展状态。"
+    },
+    {
+      "topic": "artistIntent",
+      "status": "limited",
+      "note": "正文只转述馆方关于分层制作与调整的研究，不把视觉效果扩展为未经来源证明的心理或象征意图。"
+    }
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "作品目前正在展出",
+      "assessment": "not_supported",
+      "handling": "正文明确说明馆方对象页未确认当前在展状态。"
+    },
+    {
+      "claim": "所有线条都在一次自发动作中完成",
+      "assessment": "contradicted_by_official_label",
+      "handling": "依据馆方研究写成多阶段的保留、遮盖与调整。",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "画中颜色具有确定的海洋象征意义",
+      "assessment": "not_supported",
+      "handling": "不解释题名或颜色的确定象征。"
+    },
+    {
+      "claim": "此作是波洛克第一幅或唯一一幅滴画",
+      "assessment": "not_supported",
+      "handling": "仅称其处于1947至1950年滴画时期的开端和创作转型时刻。"
+    }
+  ]
+}

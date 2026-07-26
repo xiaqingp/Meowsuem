@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "oldPipeline": {
+    "model": "Sol Medium",
+    "callsTouchingWork": 2,
+    "amortizedCalls": 1.1,
+    "sharedResearchBatch": {
+      "workCount": 10,
+      "tokens": 190910,
+      "durationMs": 508008
+    },
+    "author": {
+      "tokens": 34079,
+      "durationMs": 91261
+    },
+    "comparableAmortizedTokens": 53170,
+    "comparableAmortizedDurationMs": 142062,
+    "fullCallsTouchingWorkTokens": 224989,
+    "researchCard": true,
+    "writingPlan": true,
+    "draftBytes": 4461,
+    "evidenceBytes": 6656,
+    "searchCount": "unavailable"
+  },
+  "directWrite": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "callCount": 2,
+    "successfulCallCount": 1,
+    "retryCount": 1,
+    "retry": {
+      "runId": "20260725T182150Z-p2.9.3",
+      "reason": "read_only_sandbox_blocked_required_output_files",
+      "tokens": 44606,
+      "transportFailureRunId": "20260725T182453Z-p2.9.3",
+      "transportFailure": "invalid_response_schema_rejected_before_model_execution",
+      "transportFailureTokens": 0
+    },
+    "recoveredFrom": "20260725T182540Z-p2.9.3",
+    "inputTokens": 52016,
+    "cachedInputTokens": 22272,
+    "reasoningTokens": 1013,
+    "outputTokens": 2975,
+    "successfulAttemptTokens": 54991,
+    "totalTokens": 99597,
+    "promptBytes": 33907,
+    "searchCount": 1,
+    "sourceCount": 2,
+    "durationMs": 89637,
+    "mechanicalGate": "passed",
+    "status": "accepted",
+    "draftBytes": 2987,
+    "evidenceBytes": 5410,
+    "retried": true
+  },
+  "comparable": {
+    "steadyStateTokensSaved": -1821,
+    "steadyStatePercentSaved": -3.4,
+    "actualExperimentTokensSaved": -46427,
+    "actualExperimentPercentSaved": -87.3
+  }
+}
