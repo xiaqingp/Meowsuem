@@ -176,7 +176,7 @@ export async function reportMuseumGeneration(argv = process.argv.slice(2)) {
       + numeric(item.tokenUsage.output) / 1_000_000 * numeric(rate.outputPerMillion);
   }
   const report = {
-    museumId: descriptor.museumId ?? null,
+    museumId: descriptor.museumId ?? descriptor.targetMuseumId ?? null,
     caseId: descriptor.caseId ?? null,
     runId: descriptor.runId,
     runRoot: projectRelative(projectRoot, runRoot),

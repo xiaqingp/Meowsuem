@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 2,
+  "museumId": "chichuartmuseum",
+  "workId": "claude-monet-water-lilies-cluster-of-grass-1914-1917",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Chichu Art Museum",
+      "publisher": "Benesse Art Site Naoshima / Chichu Art Museum",
+      "url": "https://benesse-artsite.jp/en/art/chichu.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "availability",
+        "collectionRelation",
+        "displayContext"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Archive series 11st: the Claude Monet room in the Chichu Art Museum",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/story/20210611-1671.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "displayContext",
+        "naturalLight",
+        "roomDesign",
+        "Giverny",
+        "lateWaterLilies"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "地中美術館 開館5周年記念 クロード・モネ「睡蓮」新収蔵 初公開 プレスプレビューのお知らせ",
+      "publisher": "財団法人 直島福武美術館財団",
+      "url": "https://benesse-artsite.jp/contact/press/20090427_pressrelease.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "dimensions",
+        "collectionRelation",
+        "displayHistory"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Claude Monet - Water Lilies",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/437137",
+      "sourceType": "museum",
+      "usedFor": [
+        "lateStyle",
+        "Giverny",
+        "waterLiliesAndAbstraction"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Claude Monet",
+      "publisher": "The Museum of Modern Art",
+      "url": "https://www.moma.org/artists/4058-claude-monet",
+      "sourceType": "museum",
+      "usedFor": [
+        "WorldWarIContext",
+        "lateMonet"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "具体视觉细节",
+      "statement": "本次没有可靠作品图，因此不对该画的确切色彩、笔触分布、构图重心和局部细节作断言。"
+    }
+  ],
+  "upstreamConflicts": []
+}

@@ -11,6 +11,7 @@ import {discoverIiif} from "./image-providers/iiif.mjs";
 import {discoverCollectionApi} from "./image-providers/collection-api.mjs";
 import {discoverWikidataCommons, searchWikidataCommons} from "./image-providers/wikidata-commons.mjs";
 import {museumImageProviderConfig} from "./image-providers/registry.mjs";
+import {assertSafeRemoteUrl, fetchSafeImage} from "./image-providers/url-safety.mjs";
 
 const argument = name => process.argv.find(value => value.startsWith(`${name}=`))?.slice(name.length + 1);
 const projectRoot = path.resolve(argument("--project-root") || new URL("..", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"));
@@ -28,9 +29,11 @@ const {runRoot, descriptor} = await resolveCanonicalRun({
   writable: true
 });
 const pool = JSON.parse(await fs.readFile(path.join(runRoot, "candidate-pool", "candidate-pool.json"), "utf8"));
+const selection = JSON.parse(await fs.readFile(path.join(runRoot, "selection", "selection.json"), "utf8"));
+const scope = JSON.parse(await fs.readFile(path.join(runRoot, "scope", "scope.json"), "utf8"));
 const museumId = pool.museum?.id ?? pool.museumId;
 if (!/^[a-z][a-z0-9-]*$/.test(museumId || "")) throw new Error("candidate pool has no valid museum id");
-if (descriptor.museumId && museumId !== descriptor.museumId) throw new Error("Filesystem contract violation: image evidence museum identity drift");
+if (museumId !== (descriptor.museumId??descriptor.targetMuseumId)) throw new Error("Filesystem contract violation: image evidence museum identity drift");
 const evidenceRoot = path.join(runRoot, "image-evidence");
 const assetsRoot = path.join(evidenceRoot, "assets");
 const candidateAssetsRoot = path.join(evidenceRoot, "candidates");
@@ -56,7 +59,9 @@ const extension = type => ({
   "image/tiff": ".tif"
 }[String(type || "").split(";")[0].toLowerCase()] || ".img");
 const imageType = headers => String(headers["content-type"] || headers.get?.("content-type") || "").split(";")[0].toLowerCase();
-const candidates = (pool.candidates ?? []).map(record => ({
+const selectedIds = new Set((selection.selectedWorks ?? selection.works ?? []).map(record => record.workId ?? record.id));
+if (!selectedIds.size) throw new Error("image evidence requires a non-empty frozen selection");
+const candidates = (pool.candidates ?? []).filter(record => selectedIds.has(record.workId ?? record.id)).map(record => ({
   ...record,
   id: record.id ?? record.workId,
   title: record.title ?? record.identity?.titleEn ?? record.identity?.titleZh,
@@ -67,6 +72,7 @@ const candidates = (pool.candidates ?? []).map(record => ({
   identityAnchor: record.identityAnchor ?? record.accessionNumber ?? record.identity?.accessionNumber,
   identitySourceUrl: record.identitySourceUrl ?? record.officialObjectUrl ?? record.identity?.officialObjectUrl,
 }));
+if (candidates.length !== selectedIds.size) throw new Error("image evidence selection contains an unknown candidate");
 
 const moduleCandidates = [
   process.env.MEOWSEUM_NODE_MODULES,
@@ -106,6 +112,7 @@ const dispatcherIdentity = url => url.match(/\/internal\/media\/dispatcher\/(\d+
 const inspectWithBrowser = async (browser, candidate) => {
   const page = await browser.newPage({viewport: {width: 1280, height: 900}});
   try {
+    await assertSafeRemoteUrl(candidate.identitySourceUrl);
     const response = await page.goto(candidate.identitySourceUrl, {waitUntil: "domcontentloaded", timeout: 30000});
     await page.waitForTimeout(250);
     const pageData = await page.evaluate(() => ({
@@ -137,6 +144,7 @@ const inspectWithBrowser = async (browser, candidate) => {
       })).filter(image => image.url && image.width >= 180 && image.height >= 120).slice(0, 40)
     }));
     const finalUrl = page.url();
+    await assertSafeRemoteUrl(finalUrl);
     if (!response || response.status() >= 400 || /just a moment|access denied/i.test(pageData.title)) {
       return {status: "provider_unavailable", finalUrl, httpStatus: response?.status() || 0, pageTitle: pageData.title, candidates: []};
     }
@@ -210,35 +218,20 @@ const inspectWithBrowser = async (browser, candidate) => {
       let fetched;
       let usedUrl;
       for (const url of alternatives) {
-        fetched = await page.evaluate(async target => {
-          const response = await fetch(target, {credentials: "include"});
-          const blob = await response.blob();
-          const bitmap = response.ok && blob.type.startsWith("image/") ? await createImageBitmap(blob) : null;
-          const dataUrl = await new Promise((resolve, reject) => {
-            const reader = new FileReader();
-            reader.onload = () => resolve(reader.result);
-            reader.onerror = () => reject(reader.error);
-            reader.readAsDataURL(blob);
-          });
-          return {
-            status: response.status,
-            type: blob.type,
-            width: bitmap?.width || 0,
-            height: bitmap?.height || 0,
-            base64: String(dataUrl).split(",", 2)[1] || ""
-          };
-        }, url);
-        if (fetched.status < 400 && fetched.type.startsWith("image/")) {
-          usedUrl = url;
+        try {
+          fetched = await fetchSafeImage(url);
+          usedUrl = fetched.url;
           break;
-        }
+        } catch {}
       }
-      if (fetched.status >= 400) throw new Error(`image returned ${fetched.status}`);
-      const type = imageType({"content-type": fetched.type});
-      if (!type.startsWith("image/")) throw new Error(`asset is not an image: ${type || "unknown"}`);
-      const bytes = Buffer.from(fetched.base64, "base64");
-      if (!bytes.length || bytes.length > 30_000_000) throw new Error(`invalid image byte size: ${bytes.length}`);
-      const dimensions = {width: fetched.width, height: fetched.height};
+      if (!fetched) throw new Error("all safe image download attempts failed");
+      const type = fetched.type;
+      const bytes = fetched.bytes;
+      const dimensions = await page.evaluate(async ({base64,type}) => {
+        const response = await fetch(`data:${type};base64,${base64}`);
+        const bitmap = await createImageBitmap(await response.blob());
+        return {width: bitmap.width, height: bitmap.height};
+      }, {base64: bytes.toString("base64"), type});
       if (dimensions.width < 180 || dimensions.height < 120) throw new Error(`image is too small: ${dimensions.width}x${dimensions.height}`);
       const file = path.join(targetRoot, `${basename}${extension(type)}`);
       await fs.mkdir(path.dirname(file), {recursive: true});
@@ -320,6 +313,7 @@ try {
         identity: {
           title: candidate.title,
           creator: candidate.makerOrCulture,
+          identityAnchor: candidate.identityAnchor,
           accessionNumber: candidate.objectNumber || candidate.identityAnchor,
           officialObjectUrl: candidate.identitySourceUrl,
         },
@@ -353,7 +347,7 @@ if (allowModel && ambiguous.length) {
     runId: descriptor.runId,
     startedAt: new Date().toISOString(),
     stage: "image_disambiguation",
-    museumId,
+    ...(descriptor.runKind === "production" ? {museumId} : {caseId: descriptor.caseId, targetMuseumId: museumId}),
     works: ambiguous.map(record => ({museumId, workId: record.workId, workIdentity: record.identity})),
     pipelineVersion: manifest.pipelineVersion,
     instructionVersion: manifest.currentVersion,
@@ -412,6 +406,80 @@ if (allowModel && ambiguous.length) {
     durationMs: result.modelDurationMs,
     tokens: result.tokenUsage?.total || 0
   };
+}
+
+const unresolved = records.filter(record => record.status !== "accepted");
+if (unresolved.length) {
+  const heroPageUrl = scope.officialCollectionUrl;
+  if (heroPageUrl) {
+    try {
+      const sizingBrowser = await chromium.launch({
+        headless: true,
+        ...(chromePath ? {executablePath: chromePath} : {}),
+      });
+      const page = await sizingBrowser.newPage();
+      await assertSafeRemoteUrl(heroPageUrl);
+      await page.goto(heroPageUrl, {waitUntil: "domcontentloaded", timeout: 30000});
+      await assertSafeRemoteUrl(page.url());
+      const pageCandidates = await page.evaluate(() => {
+        const og = document.querySelector('meta[property="og:image"]')?.content
+          || document.querySelector('meta[name="twitter:image"]')?.content;
+        const images = Array.from(document.images).map(image => ({
+          url: image.currentSrc || image.src,
+          alt: image.alt || "",
+          width: image.naturalWidth || 0,
+          height: image.naturalHeight || 0,
+        })).filter(image => image.url && image.width >= 480 && image.height >= 280)
+          .sort((a,b) => b.width * b.height - a.width * a.height);
+        return [
+          ...(og ? [{url: og, alt: "official page social image", score: 1000}] : []),
+          ...images.slice(0, 10).map((image,index) => ({...image,score:500-index})),
+        ];
+      });
+      let saved;
+      let selectedHero;
+      for (const candidate of pageCandidates) {
+        const url = absoluteUrl(candidate.url, page.url());
+        if (!url || /logo|icon|avatar|ticket|menu/i.test(`${url} ${candidate.alt}`)) continue;
+        try {
+          saved = await fetchSafeImage(url);
+          selectedHero = candidate;
+          break;
+        } catch {}
+      }
+      if (!saved) throw new Error("official museum page exposed no safely downloadable hero image");
+      const dimensions = await page.evaluate(async ({base64,type}) => {
+        const response = await fetch(`data:${type};base64,${base64}`);
+        const bitmap = await createImageBitmap(await response.blob());
+        return {width: bitmap.width, height: bitmap.height};
+      }, {base64: saved.bytes.toString("base64"), type: saved.type});
+      await sizingBrowser.close();
+      if (dimensions.width < 180 || dimensions.height < 120) throw new Error(`museum hero is too small: ${dimensions.width}x${dimensions.height}`);
+      const heroPath = path.join(assetsRoot, `museum-hero-placeholder${extension(saved.type)}`);
+      await fs.writeFile(heroPath, saved.bytes);
+      const hash = sha256(saved.bytes);
+      for (const record of unresolved) {
+        record.warnings = [...(record.warnings ?? []), `object image unresolved: ${record.status}`];
+        record.originalStatus = record.status;
+        record.status = "accepted";
+        record.imagePolicy = "museum_hero_placeholder";
+        record.selected = {
+          url: saved.url,
+          localPath: rel(heroPath),
+          sha256: hash,
+          width: dimensions.width,
+          height: dimensions.height,
+          contentType: saved.type,
+          method: "museum_hero_placeholder",
+          provider: "locked_museum_hero",
+          identitySignals: ["museum_level_context_only", selectedHero.alt || "official_page_hero"],
+          evidenceId: `img:${museumId}:museum-hero:${hash.slice(0, 12)}`,
+        };
+      }
+    } catch (error) {
+      for (const record of unresolved) record.warnings = [...(record.warnings ?? []), `museum hero placeholder unavailable: ${error.message}`];
+    }
+  }
 }
 
 const output = {

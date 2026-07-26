@@ -106,6 +106,6 @@ attribution、date、medium、accessionNumber、availability、
 collectionRelation、rare、significance。会改变作品身份、选择、评分或
 发布判断的冲突标为 `blocking`；其他标为 `warning`。
 
-`sourceType` 只能是 `museum`、`academic`、`foundation`、`publication`、`media` 或 `other`。官方对象页必须支持 `identity`、`date`、`material`。明确人物原话记录 `quote`、`speaker`、`sourceIds`；正面强断言记录 `claim`、`type: strong_factual_claim`、`sourceIds`；确定性艺术家意图记录 `claim`、`type: artist_intent`、`sourceIds`。不要逐句映射。
+`sourceType` 只能是 `museum`、`academic`、`foundation`、`publication`、`media` 或 `other`。锁定的官方对象页必须作为 `identity` 来源；`date`、`material` 若不在该页，可由同一官方站点的其他馆方页面或馆方 PDF 补足，不得把页面没有写的信息虚标给该页。明确人物原话记录 `quote`、`speaker`、`sourceIds`；正面强断言记录 `claim`、`type: strong_factual_claim`、`sourceIds`；确定性艺术家意图记录 `claim`、`type: artist_intent`、`sourceIds`。不要逐句映射。
 
 最终只返回 response schema 要求的 `article` 和字符串化 `sourcesJson`。

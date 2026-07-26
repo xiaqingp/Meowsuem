@@ -1,0 +1,54 @@
+{
+    "runId":  "20260726T155811Z-p2.11.1",
+    "stage":  "museum_scope",
+    "museumId":  "",
+    "caseId":  "chichu-pipeline-2-11-blind",
+    "workId":  "",
+    "pipelineVersion":  "2.11.1",
+    "instructionVersion":  "2.4.0",
+    "model":  "gpt-5.6-luna",
+    "reasoningEffort":  "high",
+    "runnerStartedAt":  "2026-07-26T08:58:25.8750475-07:00",
+    "modelStartedAt":  "2026-07-26T08:58:26.1703111-07:00",
+    "modelCompletedAt":  "2026-07-26T09:00:21.5723201-07:00",
+    "completedAt":  "2026-07-26T09:00:21.5900301-07:00",
+    "runnerDurationMs":  115715,
+    "modelDurationMs":  115402,
+    "tokenUsage":  {
+                       "total":  63461,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "2",
+                                    "4",
+                                    "12",
+                                    "13"
+                                ],
+    "logPath":  "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T155811Z-p2.11.1/scope/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "d80ee1c0f28a4f21a26b3d7daefe825812b9007b3208dd80451ae13cee95fc96"
+                   },
+                   {
+                       "path":  "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T155811Z-p2.11.1/scope/request.json",
+                       "role":  "museum_request",
+                       "sha256":  "a07efc5491ffa11ee560aa4425467d625a65e6d57b40b6470695d98e1c89a5c2"
+                   },
+                   {
+                       "path":  "research/pipeline/prompts/museum-scope.md",
+                       "role":  "stage_prompt",
+                       "sha256":  "90859982c6a3de3fe61f6af09ced973ab23093a235f838851fef4733de1dc168"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "scope.json",
+                        "sha256":  "5eff7b0669c920358977ce06919f8d8f94dd17ed1391870ae0fde84cf4dba054",
+                        "bytes":  6576
+                    }
+                ]
+}

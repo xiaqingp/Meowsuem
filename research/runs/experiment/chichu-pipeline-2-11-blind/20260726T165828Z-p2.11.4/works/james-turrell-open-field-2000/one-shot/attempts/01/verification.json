@@ -1,0 +1,39 @@
+{
+  "status": "failed",
+  "errors": [
+    {
+      "code": "OFFICIAL_SOURCE_COVERAGE",
+      "message": "Official museum sources do not cover material",
+      "matches": [
+        "material"
+      ],
+      "severity": "error"
+    }
+  ],
+  "warnings": [],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": true,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "先把“墙”看成一道门",
+    "光为什么会像有厚度",
+    "作品一半是房间，另一半是你的身体",
+    "“开放”并不等于户外"
+  ],
+  "sourceCount": 5,
+  "articleBytes": 5183,
+  "sourcesBytes": 2389
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260726T163845Z-p2.11.3",
+  "runKind": "experiment",
+  "museumId": "chichuartmuseum",
+  "caseId": "chichu-pipeline-2-11-blind",
+  "until": "locked_metadata",
+  "results": [
+    {
+      "stage": "museum_scope",
+      "status": "already_complete"
+    },
+    {
+      "stage": "museum_discovery",
+      "status": "already_complete"
+    },
+    {
+      "stage": "planning_research",
+      "status": "already_complete"
+    },
+    {
+      "stage": "museum_selection",
+      "status": "already_complete"
+    },
+    {
+      "stage": "rating",
+      "status": "already_complete"
+    },
+    {
+      "stage": "museum_structure",
+      "status": "already_complete"
+    },
+    {
+      "stage": "image_evidence",
+      "status": "already_complete"
+    },
+    {
+      "stage": "locked_metadata",
+      "status": "completed"
+    }
+  ]
+}

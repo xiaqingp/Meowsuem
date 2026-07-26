@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 2,
+  "museumId": "chichuartmuseum",
+  "workId": "claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+      "publisher": "Benesse Art Site Naoshima / Chichu Art Museum",
+      "url": "https://benesse-artsite.jp/en/art/chichu.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "availability",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Chichu Art Museum Works Introduction / Benesse Art Site Media Kit",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_April2018_GenerallPress_eng.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "date",
+        "material",
+        "dimensions",
+        "displayContext"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Water lily pond",
+      "publisher": "Maison et jardins de Claude Monet – Giverny",
+      "url": "https://fondation-monet.com/en/decouvrir/water-lily-pond/",
+      "sourceType": "foundation",
+      "usedFor": [
+        "artistBackground",
+        "makingProcess",
+        "motif",
+        "reflectionContext",
+        "interpretation"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "地中美术馆官方页面将这件作品列为莫奈室五幅《睡莲》作品之一，并说明莫奈作品在馆内永久展示。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "作品绘于1916—1919年，媒材为布面油画，尺寸为100×200厘米。",
+      "type": "other",
+      "sourceIds": [
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "collectionRelation",
+      "statement": "本次核对的官方页面确认作品在地中美术馆的莫奈室中永久展示，但未说明其法律所有权、购藏史或馆藏编号。"
+    },
+    {
+      "topic": "visualEvidence",
+      "statement": "本次没有可靠的作品图，因此文章未对具体色彩、局部构图或笔触形态作确定性描述。"
+    }
+  ],
+  "upstreamConflicts": []
+}

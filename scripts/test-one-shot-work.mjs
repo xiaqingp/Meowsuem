@@ -94,6 +94,7 @@ try {
     "颜料形成近似“全覆盖”的表面。",
     "这里的“随机”只是观看感受。",
     "“行动绘画”是常见术语。",
+    "它没有说“柳树”，而说“柳树倒影”。",
     "这不是唯一答案。",
     "不能称为第一张滴画。",
     "没有证据证明它是最早的。"
@@ -144,6 +145,38 @@ try {
   await writeFixture(baseArticle("普通说明。"), {
     ...baseSources,
     highRiskClaims: [{claim: "", type: "other", sourceIds: ["S1"]}],
+  });
+  assert.equal((await verify()).status, "failed");
+
+  await writeFixture(baseArticle("普通说明。"), {
+    ...baseSources,
+    sources: [
+      {...baseSources.sources[0], usedFor: ["identity", "date"]},
+      {
+        id: "S2",
+        title: "Example Museum technical sheet",
+        publisher: "Example Museum",
+        url: "https://www.example.org/media/technical-sheet.pdf",
+        sourceType: "museum",
+        usedFor: ["material"]
+      }
+    ]
+  });
+  assert.equal((await verify()).status, "passed");
+
+  await writeFixture(baseArticle("普通说明。"), {
+    ...baseSources,
+    sources: [
+      {...baseSources.sources[0], usedFor: ["identity", "date"]},
+      {
+        id: "S2",
+        title: "Third-party technical sheet",
+        publisher: "Other Museum",
+        url: "https://other.example/material",
+        sourceType: "museum",
+        usedFor: ["material"]
+      }
+    ]
   });
   assert.equal((await verify()).status, "failed");
 

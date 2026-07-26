@@ -28,9 +28,10 @@ const {runRoot, descriptor} = await resolveCanonicalRun({
   suppliedRunRoot: argument("--run-root"),
   writable: true
 });
-if (runKind !== "production" && !(runKind === "regression" && process.argv.includes("--dry-run"))) {
-  throw new Error("Filesystem contract violation: assembly requires production or regression --dry-run");
+if (runKind !== "production" && !(["regression","experiment"].includes(runKind) && process.argv.includes("--dry-run"))) {
+  throw new Error("Filesystem contract violation: non-production assembly requires --dry-run");
 }
+const targetMuseumId=descriptor.museumId??descriptor.targetMuseumId;
 const candidateRoot = path.join(runRoot, "candidate");
 if (argument("--candidate")) {
   const suppliedCandidate = path.resolve(projectRoot, argument("--candidate"));
@@ -43,19 +44,22 @@ await assertPathInside(runRoot, candidateRoot);
 
 const readJson = async file => JSON.parse(await fs.readFile(file, "utf8"));
 const hashFile = async file => crypto.createHash("sha256").update(await fs.readFile(file)).digest("hex");
-const input = await readJson(path.join(runRoot, "structure", "assembly-input.json"));
+let input;
 if (descriptor.contentContract === "one_shot_v1") {
   const publicationPlan = await readJson(path.join(runRoot, "assembly", "publication-plan.json"));
-  if (publicationPlan.runId !== descriptor.runId || publicationPlan.museumId !== descriptor.museumId) {
+  if (publicationPlan.runId !== descriptor.runId || publicationPlan.museumId !== targetMuseumId) {
     throw new Error("publication plan identity drift");
   }
   for (const [relative, expected] of Object.entries(publicationPlan.inputHashes ?? {})) {
     const actual = await hashFile(path.join(runRoot, relative)).catch(() => null);
     if (actual !== expected) throw new Error(`publication plan input hash drift: ${relative}`);
   }
+  input = await readJson(path.join(runRoot,publicationPlan.assemblyInput));
+} else {
+  input = await readJson(path.join(runRoot,"structure","assembly-input.json"));
 }
 assertSafeIdentifier(input.museum?.id, "museum id");
-if (descriptor.museumId && input.museum.id !== descriptor.museumId) {
+if (input.museum.id !== targetMuseumId) {
   throw new Error("Filesystem contract violation: assembly museum identity does not match run.json");
 }
 const expectedContentFile = `research/content/${input.museum.id}.md`;

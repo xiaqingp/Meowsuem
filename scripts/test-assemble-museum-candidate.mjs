@@ -118,6 +118,7 @@ try {
     schemaVersion: 1,
     runId: fixtureRunId,
     museumId: "fixture",
+    assemblyInput: "structure/assembly-input.json",
     inputHashes: {"structure/assembly-input.json": crypto.createHash("sha256").update(assemblyBytes).digest("hex")},
   }, null, 2)}\n`);
   result = spawnSync(process.execPath, [script, ...identity], {encoding: "utf8"});

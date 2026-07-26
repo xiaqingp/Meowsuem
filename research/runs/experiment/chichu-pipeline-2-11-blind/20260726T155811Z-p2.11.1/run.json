@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "filesystemContractVersion": 1,
+  "runKind": "experiment",
+  "runId": "20260726T155811Z-p2.11.1",
+  "caseId": "chichu-pipeline-2-11-blind",
+  "targetMuseumId": "chichuartmuseum",
+  "milestone": "M31",
+  "pipelineVersion": "2.11.1",
+  "instructionVersion": "2.4.0",
+  "status": "superseded",
+  "createdAt": "2026-07-26T15:58:11.796Z",
+  "createdBy": "scripts/create-generation-run.mjs",
+  "layoutVersion": 1,
+  "immutable": true,
+  "contentContract": "one_shot_v1",
+  "allowLegacyAuthorBundles": false,
+  "legacyWorkIds": [],
+  "legacyImageResolutionAllowed": false,
+  "updatedAt": "2026-07-26T16:08:30.402Z"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "modelCalls": 0,
+  "previousFailure": null,
+  "rules": {
+    "card": "first non-empty paragraph under ## 一分钟看懂",
+    "draft": "byte-for-byte copy of output/article.md",
+    "displayMetadata": "deterministic mapping from input/locked-metadata.json",
+    "sources": "validated structural copy of output/sources.json"
+  },
+  "inputHashes": {
+    "lockedMetadata": "0521cab3cb605588ab5e19b734af7868015e0fc21dc3b28169f28a1976e82692",
+    "article": "cc98ecc2a5ea3edfa326d0d2731db4b140b5abcb3ca4deb4f889eba4641fe7ca",
+    "sources": "42eaf2c4d92174c38e8c132232ba390d24b3b460b8c31f69326e9c23ee717992",
+    "verification": "25033cdf30239237c9e6814417be0a0d1dce944acac755216cd9471c460ef9a8"
+  },
+  "outputHashes": {
+    "card.txt": "1d08e0d23a8d28294f0f7edeefc933ce8787c84d1af4b76b1e0facf2e5218a70",
+    "draft.md": "cc98ecc2a5ea3edfa326d0d2731db4b140b5abcb3ca4deb4f889eba4641fe7ca",
+    "display-metadata.json": "def3edecee6f6c3578672ca5fe9e38471d6d1b4703cc1f3315106260dee27dd4",
+    "sources.json": "42eaf2c4d92174c38e8c132232ba390d24b3b460b8c31f69326e9c23ee717992"
+  }
+}

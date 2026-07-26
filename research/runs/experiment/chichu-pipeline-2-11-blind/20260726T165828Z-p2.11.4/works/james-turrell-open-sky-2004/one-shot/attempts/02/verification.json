@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "errors": [],
+  "warnings": [
+    {
+      "code": "BROAD_EVALUATION",
+      "message": "Broad evaluative wording is not a hard failure",
+      "matches": [
+        "重要"
+      ],
+      "severity": "warning"
+    }
+  ],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": true,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "这里没有“画面”，但有一场观看",
+    "地中美术馆为什么是它的一半",
+    "要不要等到日落？"
+  ],
+  "sourceCount": 4,
+  "articleBytes": 4621,
+  "sourcesBytes": 1915
+}

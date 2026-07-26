@@ -13,6 +13,7 @@ const forbiddenInput = /(?:research[-_ ]?card|writing[-_ ]?plan|old[-_ ]?(?:card
 const allowedSourceTypes = new Set(["museum", "academic", "foundation", "publication", "media", "other"]);
 const sha256 = value => crypto.createHash("sha256").update(value).digest("hex");
 const exists = target => fs.access(target).then(() => true).catch(() => false);
+const officialHostKey = value => new URL(value).hostname.toLowerCase().replace(/^www\./, "");
 
 const issue = (code, message, matches = [], severity = "error") => ({code, message, matches, severity});
 
@@ -112,7 +113,7 @@ export function buildDisplayMetadata(locked) {
     by: locked.displayBy ?? `${locked.artistZh}（${locked.artistEn}）`,
     date: locked.displayDate,
     material: locked.medium,
-    place: `${locked.museumName}，馆藏号${locked.accessionNumber}`,
+    place: locked.accessionNumber ? `${locked.museumName}，馆藏号${locked.accessionNumber}` : locked.museumName,
     priority: locked.priority,
     significance: locked.significance,
     stay: locked.stay,
@@ -157,6 +158,8 @@ function sourceReferencesValid(record, sourceIds, sourceUrls) {
 
 function collectDirectQuotes(article) {
   return [...article.matchAll(/([\p{L}·]{1,30})(?:说|写道|回忆|称|表示)[，,:：]?\s*[“"]([^”"\n]{2,})[”"]/gu)]
+    .filter(match => !/(?:没有|并未|未曾|不是)\s*(?:说|写道|回忆|称|表示)/.test(match[0]))
+    .filter(match => !/^(?:而|而是|却|只是)$/.test(match[1]))
     .map(match => ({full: match[0], speaker: match[1], quote: match[2]}));
 }
 
@@ -279,8 +282,20 @@ export async function verifyOneShotWork({
     official = null;
   }
   if (!official) addError("MISSING_OFFICIAL_OBJECT_SOURCE", "Official object source is missing");
-  for (const use of ["identity", "date", "material"]) {
-    if (!new Set(official?.usedFor ?? []).has(use)) addError("OFFICIAL_SOURCE_COVERAGE", `Official object source does not cover ${use}`, [use]);
+  const officialHost = (() => {
+    try { return officialHostKey(locked.officialObjectUrl); } catch { return ""; }
+  })();
+  const officialMuseumSources = sourceRecords.filter(source => {
+    if (source.sourceType !== "museum") return false;
+    try { return officialHostKey(source.url) === officialHost; } catch { return false; }
+  });
+  if (!new Set(official?.usedFor ?? []).has("identity")) {
+    addError("OFFICIAL_SOURCE_COVERAGE", "Official object source does not cover identity", ["identity"]);
+  }
+  for (const use of ["date", "material"]) {
+    if (!officialMuseumSources.some(source => new Set(source.usedFor ?? []).has(use))) {
+      addError("OFFICIAL_SOURCE_COVERAGE", `Official museum sources do not cover ${use}`, [use]);
+    }
   }
   if (sourceRecords.length < 2) addWarning("LOW_SOURCE_COUNT", "Only one source is recorded; this may be sufficient but deserves human attention");
 

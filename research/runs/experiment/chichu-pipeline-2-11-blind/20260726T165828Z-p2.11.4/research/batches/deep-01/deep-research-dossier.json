@@ -1,0 +1,865 @@
+{
+  "schemaVersion": 1,
+  "museumId": "chichuartmuseum",
+  "researchedAt": "2026-07-26",
+  "works": [
+    {
+      "workId": "claude-monet-water-lily-pond-c-1915-1926",
+      "identityStatus": "stable",
+      "availability": "permanent_display_subject_to_museum_operations",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "地中美术馆五幅莫奈晚年《睡莲》中尺度最大的双联画；馆方把它与专门设计、仅用自然光的莫奈展室共同呈现，并明确将其联系到巴黎橘园美术馆的“大装饰画”系列。",
+      "selectionSignals": [
+        "馆方逐项列名为约1915—26年的双联画，每联200 × 300厘米。",
+        "馆方档案称这幅2 × 6米作品是地中美术馆创设的契机，也是理解本馆“作品—建筑—自然光”关系的首要莫奈候选。",
+        "五幅莫奈作品为常设展示，但入馆本身实行指定日期与时段预约，临时闭馆和开放时间变化仍应临行核验。"
+      ],
+      "sectionSignals": [
+        "莫奈晚年与沉浸式绘画",
+        "自然光与专用展室",
+        "作品如何促成馆舍"
+      ],
+      "routeSignals": [
+        "莫奈组首选",
+        "适合与建筑语境条目连续安排",
+        "不同时间与天气会改变自然光条件"
+      ],
+      "riskFlags": [
+        "site_specific",
+        "small_permanent_display",
+        "operationally_variable"
+      ],
+      "riskResolution": [
+        {
+          "riskFlag": "site_specific",
+          "finding": "场域依赖成立且是价值核心：馆方说明展室尺寸、设计和材料用于统一画作与空间；展室位于地下却仅以自然光照明。",
+          "evidence": [
+            "https://benesse-artsite.jp/en/art/chichu.html",
+            "https://benesse-artsite.jp/en/story/20210611-1671.html"
+          ],
+          "residualUncertainty": "光线随到访时刻、天气和季节变化，不能把任何单一光效写成恒定状态。"
+        },
+        {
+          "riskFlag": "small_permanent_display",
+          "finding": "小型常设馆藏不是身份缺口；馆方明确表示馆内常设莫奈五幅、特瑞尔三件及德·玛利亚一件，策展逻辑是少量作品与专门空间的整合。",
+          "evidence": [
+            "https://benesse-artsite.jp/en/art/chichu.html",
+            "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf"
+          ],
+          "residualUncertainty": "不能据此声称该画在全球同类作品中数量稀少。"
+        },
+        {
+          "riskFlag": "operationally_variable",
+          "finding": "馆方当前页面标为常设展示；但入馆需指定日期和时段预约，售罄时无当日现场票，开放日与临时调整须查馆方日历。",
+          "evidence": [
+            "https://benesse-artsite.jp/en/art/chichu.html",
+            "https://www.benesse-artsite.jp/en/calendar/monthly.html"
+          ],
+          "residualUncertainty": "研究不能保证未来某一日无维护、气象或其他运营调整。"
+        }
+      ],
+      "comparisonEvidence": {
+        "comparisonClass": "莫奈1914—26年大型《睡莲》与“大装饰画”相关画布",
+        "nearestComparators": [
+          {
+            "name": "巴黎橘园美术馆《睡莲》八组构图",
+            "evidence": "橘园馆方确认八组构图由多块画板组成，按莫奈与建筑师协作的方案置于两个椭圆展室，并由顶部日光照明。",
+            "source": "https://www.musee-orangerie.fr/en/node/33"
+          },
+          {
+            "name": "MoMA《Water Lilies》1914—26年三联画及约6米单幅",
+            "evidence": "MoMA确认晚年大型系列约有四十块大画板；其三联画总宽约12.76米，另有约5.99米宽单幅，显示大型同类作品并非仅此一件。",
+            "source": "https://www.moma.org/collection/works/80220"
+          }
+        ],
+        "sharedValue": "均以大型、无传统地平线的水面画布和展室尺度追求包围式观看。",
+        "decisiveDifference": "地中这件的决定性差异不是全球唯一性，而是它促成馆舍、并在安藤忠雄地下建筑内按自然光和白色无尖角展室重新组织观看。",
+        "nonSubstitutableValue": "比较对象可替代其作为莫奈晚年大型《睡莲》的主要艺术史问题，不能替代这件画与地中美术馆成立及专用地下展室的具体关系。",
+        "unknowns": "未取得覆盖全球全部晚年《睡莲》的数量清单，也未取得来源支持的品质排序。",
+        "conclusion": "通过重要藏品；不通过稀世珍品硬门。"
+      },
+      "scoreEvidence": [
+        "它是馆方明确的常设核心，且2 × 6米双联画直接触发馆舍项目，足以支持馆藏位置和旅行必要性。",
+        "全球仍有橘园与MoMA的大型近邻作品，故评分不能建立在唯一或仅存叙述上。"
+      ],
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html",
+        "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf",
+        "https://benesse-artsite.jp/en/story/20210611-1671.html",
+        "https://www.musee-orangerie.fr/en/node/33",
+        "https://www.moma.org/collection/works/80220",
+        "https://www.moma.org/collection/works/80298",
+        "https://www.benesse-artsite.jp/en/calendar/monthly.html"
+      ]
+    },
+    {
+      "workId": "claude-monet-water-lilies-cluster-of-grass-1914-1917",
+      "identityStatus": "stable",
+      "availability": "permanent_display_subject_to_museum_operations",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "五幅常设莫奈作品中一幅200 × 213厘米的1914—17年画布；其馆级价值在于与其余四幅共同构成晚年《睡莲》组，并共享自然光展室，而非可证明的单件稀有性。",
+      "selectionSignals": [
+        "馆方英文页面与媒体资料一致列出题名、年代、油画媒介和尺寸。",
+        "它补足同一展室中题名明确指向草丛的作品身份，适合保留为组内差异节点。",
+        "若容量有限，应服从莫奈组整体叙事，优先级低于促成馆舍的2 × 6米双联画。"
+      ],
+      "sectionSignals": [
+        "莫奈晚年《睡莲》组",
+        "同一主题的连续变化",
+        "自然光展陈"
+      ],
+      "routeSignals": [
+        "莫奈组深入项",
+        "与同组作品连续观看",
+        "不宜脱离专用展室单列为稀有性路线"
+      ],
+      "riskFlags": [
+        "site_specific",
+        "small_permanent_display",
+        "operationally_variable"
+      ],
+      "riskResolution": [
+        {
+          "riskFlag": "site_specific",
+          "finding": "馆方说明五幅画与展室尺寸、材料及自然光统一设计；现场关系属于作品在本馆的选择依据。",
+          "evidence": [
+            "https://benesse-artsite.jp/en/art/chichu.html",
+            "https://benesse-artsite.jp/en/story/20210611-1671.html"
+          ],
+          "residualUncertainty": "没有独立对象页证明这件画相对展室的固定墙位，不应预写具体观看顺序。"
+        },
+        {
+          "riskFlag": "small_permanent_display",
+          "finding": "身份由馆方五件清单稳定确认；价值应按组展而非按数量稀少解释。",
+          "evidence": [
+            "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf"
+          ],
+          "residualUncertainty": "未找到单件层面的全球稀有性或生涯代表性论证。"
+        },
+        {
+          "riskFlag": "operationally_variable",
+          "finding": "常设关系成立；实际参观仍受预约、开放日和临时调整约束。",
+          "evidence": [
+            "https://benesse-artsite.jp/en/art/chichu.html",
+            "https://www.benesse-artsite.jp/en/calendar/monthly.html"
+          ],
+          "residualUncertainty": "未来维护状态未知。"
+        }
+      ],
+      "comparisonEvidence": {
+        "comparisonClass": "莫奈1914—26年大型《睡莲》画布",
+        "nearestComparators": [
+          {
+            "name": "地中美术馆其余四幅晚年《睡莲》",
+            "evidence": "馆方将五幅作品并列常设并列出各自题名、年代与尺寸。",
+            "source": "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf"
+          },
+          {
+            "name": "MoMA晚年《睡莲》组",
+            "evidence": "MoMA称莫奈1914—26年制作了四十余块大型画板及更多较小相关画布。",
+            "source": "https://www.moma.org/calendar/galleries/5110"
+          }
+        ],
+        "sharedValue": "同属莫奈最后阶段反复处理吉维尼水园的系列。",
+        "decisiveDifference": "现有来源只稳定支持题名、日期、尺寸及地中自然光组展关系，未支持高于近邻作品的决定性单件差异。",
+        "nonSubstitutableValue": "作为地中五幅组的一员有馆址特定价值；单件核心艺术史问题可由其他晚年《睡莲》解释。",
+        "unknowns": "未确认这件画在全集目录中的精确编号、全球数量边界或品质排序。",
+        "conclusion": "按组内重要藏品保留；不通过稀世珍品硬门。"
+      },
+      "scoreEvidence": [
+        "支持莫奈常设组的完整性与馆舍自然光主线。",
+        "不单独承担全球稀有性或最高级评分。"
+      ],
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html",
+        "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf",
+        "https://benesse-artsite.jp/en/story/20210611-1671.html",
+        "https://www.moma.org/calendar/galleries/5110",
+        "https://www.benesse-artsite.jp/en/calendar/monthly.html"
+      ]
+    },
+    {
+      "workId": "claude-monet-water-lilies-1914-1917",
+      "identityStatus": "stable",
+      "availability": "permanent_display_subject_to_museum_operations",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "馆方确认的1914—17年、200 × 200厘米《睡莲》，价值主要来自五幅晚年画作在专用自然光展室中的整体关系。",
+      "selectionSignals": [
+        "馆方英文页面与媒体资料一致确认同名作品，避免与同馆两幅《睡莲池》混淆。",
+        "单件公开研究材料有限，下游应把它作为莫奈组节点而非独立最高级藏品。",
+        "常设身份稳定，但实际到访须遵守预约和当日运营信息。"
+      ],
+      "sectionSignals": [
+        "莫奈晚年《睡莲》组",
+        "系列内部差异",
+        "自然光展陈"
+      ],
+      "routeSignals": [
+        "莫奈组深入项",
+        "适合组内连续观看",
+        "容量压缩时可合并到五幅组介绍"
+      ],
+      "riskFlags": [
+        "site_specific",
+        "small_permanent_display",
+        "operationally_variable"
+      ],
+      "riskResolution": [
+        {
+          "riskFlag": "site_specific",
+          "finding": "馆方明确说明展室设计和材料用于统一五幅画与空间，且地下展室以自然光呈现。",
+          "evidence": [
+            "https://benesse-artsite.jp/en/art/chichu.html"
+          ],
+          "residualUncertainty": "无独立对象页支持单件墙位或特定光效。"
+        },
+        {
+          "riskFlag": "small_permanent_display",
+          "finding": "小型馆藏中的常设身份由馆方清单直接确认；它应作为完整收藏线的一部分评估。",
+          "evidence": [
+            "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf"
+          ],
+          "residualUncertainty": "无证据把普通组内身份升级为稀有。"
+        },
+        {
+          "riskFlag": "operationally_variable",
+          "finding": "馆方称作品常设；参观时段需预约，开放日须查实时日历。",
+          "evidence": [
+            "https://benesse-artsite.jp/en/art/chichu.html",
+            "https://www.benesse-artsite.jp/en/calendar/monthly.html"
+          ],
+          "residualUncertainty": "个别日期的维护或临时关闭不可由本次研究预判。"
+        }
+      ],
+      "comparisonEvidence": {
+        "comparisonClass": "莫奈1914—26年大型《睡莲》画布",
+        "nearestComparators": [
+          {
+            "name": "地中美术馆另外四幅《睡莲》",
+            "evidence": "五幅同属晚年系列并在一个专门设计的展室常设。",
+            "source": "https://benesse-artsite.jp/en/art/chichu.html"
+          },
+          {
+            "name": "MoMA《Water Lilies》1914—26",
+            "evidence": "MoMA藏有同阶段大型单幅和三联画，并说明此时期有四十余块大型画板。",
+            "source": "https://www.moma.org/collection/works/80298"
+          }
+        ],
+        "sharedValue": "同属晚年水园主题与大型装饰画探索。",
+        "decisiveDifference": "现有资料只支持本馆组展与尺寸差异，没有单件不可替代的决定性差异。",
+        "nonSubstitutableValue": "不能由异馆作品替代其在地中五幅常设组中的位置；但其一般晚年《睡莲》价值可由多件近邻作品解释。",
+        "unknowns": "未确认全集目录编号及全球同型画布数量。",
+        "conclusion": "重要藏品的组内节点；不通过稀世珍品硬门。"
+      },
+      "scoreEvidence": [
+        "支持本馆莫奈组的连续性。",
+        "不宜单独拉高稀有度评分。"
+      ],
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html",
+        "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf",
+        "https://www.moma.org/collection/works/80298",
+        "https://www.moma.org/calendar/galleries/5110",
+        "https://www.benesse-artsite.jp/en/calendar/monthly.html"
+      ]
+    },
+    {
+      "workId": "claude-monet-water-lily-pond-1917-1919",
+      "identityStatus": "stable",
+      "availability": "permanent_display_subject_to_museum_operations",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "馆方确认的1917—19年、100 × 200厘米《睡莲池》；必须与约1915—26年的同名双联画分开识别，其价值在于展示同馆晚年系列内部不同尺度。",
+      "selectionSignals": [
+        "馆方清单以年代和尺寸将其与同名2 × 6米双联画清楚区分。",
+        "适合用于解释五幅组内部的尺度与题名关系。",
+        "公开资料不足以证明单件层面的全球不可替代性。"
+      ],
+      "sectionSignals": [
+        "莫奈晚年《睡莲》组",
+        "同名作品身份区分",
+        "自然光展陈"
+      ],
+      "routeSignals": [
+        "莫奈组深入项",
+        "应与同名双联画并看",
+        "容量压缩时并入五幅组"
+      ],
+      "riskFlags": [
+        "site_specific",
+        "small_permanent_display",
+        "operationally_variable"
+      ],
+      "riskResolution": [
+        {
+          "riskFlag": "site_specific",
+          "finding": "馆方把五幅莫奈画和自然光专用展室作为统一设计。",
+          "evidence": [
+            "https://benesse-artsite.jp/en/art/chichu.html",
+            "https://benesse-artsite.jp/en/story/20210611-1671.html"
+          ],
+          "residualUncertainty": "未取得单件固定墙位资料。"
+        },
+        {
+          "riskFlag": "small_permanent_display",
+          "finding": "馆方媒体资料通过日期与100 × 200厘米尺寸稳定区分该作，排除与同名双联画混淆。",
+          "evidence": [
+            "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf"
+          ],
+          "residualUncertainty": "未找到支持单件稀有性的独立研究。"
+        },
+        {
+          "riskFlag": "operationally_variable",
+          "finding": "常设关系明确；实际开放仍依馆方预约与日历。",
+          "evidence": [
+            "https://benesse-artsite.jp/en/art/chichu.html",
+            "https://www.benesse-artsite.jp/en/calendar/monthly.html"
+          ],
+          "residualUncertainty": "未来临时调整未知。"
+        }
+      ],
+      "comparisonEvidence": {
+        "comparisonClass": "莫奈晚年大型《睡莲池／睡莲》画布",
+        "nearestComparators": [
+          {
+            "name": "同馆《Water-Lily Pond》约1915—26年双联画",
+            "evidence": "共享题名与晚年水园主题，但另一件为两联、每联200 × 300厘米，本件为100 × 200厘米单幅。",
+            "source": "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf"
+          },
+          {
+            "name": "MoMA《Water Lilies》1914—26",
+            "evidence": "MoMA的大型同阶段画布确认存在异馆近邻作品。",
+            "source": "https://www.moma.org/collection/works/80298"
+          }
+        ],
+        "sharedValue": "同以吉维尼水园为晚年长期主题。",
+        "decisiveDifference": "可核实差异是年代、单幅／双联与尺寸；这些不足以单独建立全球不可替代性。",
+        "nonSubstitutableValue": "本件在地中五幅组内提供不同尺度的原作节点；一般主题与艺术史价值可由近邻作品替代说明。",
+        "unknowns": "没有全球同题作品总数及单件优劣比较。",
+        "conclusion": "重要藏品；不通过稀世珍品硬门。"
+      },
+      "scoreEvidence": [
+        "对完整理解馆内五幅组有价值。",
+        "同名双联画的馆舍触发证据更强，本件不应获得同等首选优先级。"
+      ],
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html",
+        "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf",
+        "https://benesse-artsite.jp/en/story/20210611-1671.html",
+        "https://www.moma.org/collection/works/80298",
+        "https://www.benesse-artsite.jp/en/calendar/monthly.html"
+      ]
+    },
+    {
+      "workId": "claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919",
+      "identityStatus": "stable",
+      "availability": "permanent_display_subject_to_museum_operations",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "馆方确认的1916—19年、100 × 200厘米《睡莲——垂柳倒影》，为地中五幅晚年《睡莲》组中题名明确指向垂柳倒影的一件。",
+      "selectionSignals": [
+        "馆方英文页面与媒体资料一致确认题名、年代、媒介与尺寸。",
+        "可作为五幅组中明确的题材差异节点，但不能从题名推导未核实的画面细节。",
+        "单件公开证据不足时，应保留在组线而非承担稀有性结论。"
+      ],
+      "sectionSignals": [
+        "莫奈晚年《睡莲》组",
+        "水面与倒影主题",
+        "自然光展陈"
+      ],
+      "routeSignals": [
+        "莫奈组深入项",
+        "与其余四幅连续观看",
+        "容量压缩时并入五幅组"
+      ],
+      "riskFlags": [
+        "site_specific",
+        "small_permanent_display",
+        "operationally_variable"
+      ],
+      "riskResolution": [
+        {
+          "riskFlag": "site_specific",
+          "finding": "专用展室以自然光、白色材料和无尖角空间组织五幅作品的整体观看。",
+          "evidence": [
+            "https://benesse-artsite.jp/en/story/20210611-1671.html"
+          ],
+          "residualUncertainty": "不能把某种天气下的光色当作作品恒定视觉事实。"
+        },
+        {
+          "riskFlag": "small_permanent_display",
+          "finding": "馆方逐项清单确认它属于五幅常设组；组的规模明确但不等于作品稀有。",
+          "evidence": [
+            "https://benesse-artsite.jp/en/art/chichu.html",
+            "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf"
+          ],
+          "residualUncertainty": "未取得全球同题画布数量。"
+        },
+        {
+          "riskFlag": "operationally_variable",
+          "finding": "常设展示成立，入馆和开放状态仍须按馆方实时资料核验。",
+          "evidence": [
+            "https://benesse-artsite.jp/en/art/chichu.html",
+            "https://www.benesse-artsite.jp/en/calendar/monthly.html"
+          ],
+          "residualUncertainty": "未来维护安排未知。"
+        }
+      ],
+      "comparisonEvidence": {
+        "comparisonClass": "莫奈晚年垂柳倒影与《睡莲》相关画布",
+        "nearestComparators": [
+          {
+            "name": "地中美术馆其余四幅《睡莲》",
+            "evidence": "五幅由馆方作为同一晚年常设组列出。",
+            "source": "https://benesse-artsite.jp/en/art/chichu.html"
+          },
+          {
+            "name": "MoMA展览所列私人收藏《Water Lilies, Reflections of Weeping Willows》1914—26",
+            "evidence": "MoMA展览页记录一件130.2 × 200厘米的同题近邻画布，证明题名／主题并非本件独有。",
+            "source": "https://www.moma.org/calendar/exhibitions/962"
+          }
+        ],
+        "sharedValue": "均属于莫奈晚年水园及垂柳倒影相关探索。",
+        "decisiveDifference": "现有来源能确认本件在地中自然光组展中的馆址关系，但没有支持其在同题作品中唯一或最优。",
+        "nonSubstitutableValue": "同题比较物不能替代本件在地中五幅常设组的现场关系；却能替代其一般题材价值。",
+        "unknowns": "全球同题作品数量、彼此创作次序和优劣未确认。",
+        "conclusion": "重要藏品的组内节点；不通过稀世珍品硬门。"
+      },
+      "scoreEvidence": [
+        "强化五幅组内部的题材范围。",
+        "存在可靠同题近邻，不承担不可替代性评分。"
+      ],
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html",
+        "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf",
+        "https://benesse-artsite.jp/en/story/20210611-1671.html",
+        "https://www.moma.org/calendar/exhibitions/962",
+        "https://www.benesse-artsite.jp/en/calendar/monthly.html"
+      ]
+    },
+    {
+      "workId": "walter-de-maria-time-timeless-no-time-2004",
+      "identityStatus": "stable",
+      "availability": "permanent_display_subject_to_museum_operations",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "德·玛利亚把直径2.2米的花岗岩球体、27个镀金木质几何体、东西向房间和天窗自然光定义为一个整体；其核心不是孤立雕塑，而是随时间改变的房间尺度作品。",
+      "selectionSignals": [
+        "馆方明确称整个艺术空间在艺术家指导下作为作品创作。",
+        "媒体资料确认材料、2.2米球体、27件镀金木雕、东西向空间以及从日出到日落的变化。",
+        "它是馆内唯一的德·玛利亚常设空间，应进入核心选件。"
+      ],
+      "sectionSignals": [
+        "场域特定装置",
+        "时间、序列与自然光",
+        "艺术家和建筑师共同塑造空间"
+      ],
+      "routeSignals": [
+        "德·玛利亚必看项",
+        "应留出停留时间观察自然光差异",
+        "与特瑞尔和建筑条目构成光线主线"
+      ],
+      "riskFlags": [
+        "site_specific",
+        "small_permanent_display",
+        "operationally_variable"
+      ],
+      "riskResolution": [
+        {
+          "riskFlag": "site_specific",
+          "finding": "身份边界包括整个房间：馆方把球体、27个几何体、天窗和自然光共同描述为作品空间，不能拆成普通单件雕塑。",
+          "evidence": [
+            "https://benesse-artsite.jp/en/art/chichu.html",
+            "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf"
+          ],
+          "residualUncertainty": "二维图像不能完整替代空间和时间过程。"
+        },
+        {
+          "riskFlag": "small_permanent_display",
+          "finding": "馆方只列一件德·玛利亚作品，但它占据整套专门空间；小数量反映馆舍策展方式，不自动证明全球稀有。",
+          "evidence": [
+            "https://benesse-artsite.jp/en/art/chichu.html"
+          ],
+          "residualUncertainty": "没有可靠全球同类作品数量统计。"
+        },
+        {
+          "riskFlag": "operationally_variable",
+          "finding": "作品为常设，实际观看受博物馆预约、开放日及自然光时段影响。",
+          "evidence": [
+            "https://benesse-artsite.jp/en/art/chichu.html",
+            "https://www.benesse-artsite.jp/en/calendar/monthly.html"
+          ],
+          "residualUncertainty": "特定日期、时刻的采光不可预先保证。"
+        }
+      ],
+      "comparisonEvidence": {
+        "comparisonClass": "沃尔特·德·玛利亚长期场域特定、房间尺度或环境尺度作品",
+        "nearestComparators": [
+          {
+            "name": "The Lightning Field，1977",
+            "evidence": "Dia确认该作由400根不锈钢杆组成一英里乘一公里的环境作品，须步行并长时间体验，尤其鼓励经历日落与日出。",
+            "source": "https://www.diaart.org/visit/visit-our-locations-sites/walter-de-maria-the-lightning-field/"
+          },
+          {
+            "name": "The New York Earth Room、The Broken Kilometer、The Vertical Earth Kilometer",
+            "evidence": "Dia长期维护这些德·玛利亚场域项目，说明依赖地点和持续展陈是其创作中有可靠近邻的一条线。",
+            "source": "https://www.diaart.org/exhibition/exhibitions-projects/walter-de-maria-360-i-ching-exhibition/period/2024-09-06/type/book-launch"
+          }
+        ],
+        "sharedValue": "均把尺度、地点、序列和延长的观看时间纳入作品。",
+        "decisiveDifference": "地中作品以花岗岩球、27个镀金木质几何体和东西向天窗房间形成特定组合；Dia近邻以土地、金属杆、土或金属序列形成不同机制。",
+        "nonSubstitutableValue": "Dia作品可解释德·玛利亚的场域与时间方法，却不能替代地中这套材料、数列、建筑和自然光的具体组合。",
+        "unknowns": "未确认这种球体加27个镀金形体的全球版本数量，也无来源支持其为艺术家唯一或最高成就。",
+        "conclusion": "重要藏品；现有证据不足以通过稀世珍品硬门。"
+      },
+      "scoreEvidence": [
+        "作为馆内唯一德·玛利亚空间和三条核心收藏线之一，馆藏位置强。",
+        "场域机制不可由平面复制，但艺术家另有多件长期场域作品，不能以“site-specific”直接推出全球唯一。"
+      ],
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html",
+        "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf",
+        "https://www.diaart.org/visit/visit-our-locations-sites/walter-de-maria-the-lightning-field/",
+        "https://www.diaart.org/exhibition/exhibitions-projects/walter-de-maria-360-i-ching-exhibition/period/2024-09-06/type/book-launch",
+        "https://www.benesse-artsite.jp/en/calendar/monthly.html"
+      ]
+    },
+    {
+      "workId": "james-turrell-afrum-pale-blue-1968",
+      "identityStatus": "stable",
+      "availability": "permanent_display_subject_to_museum_operations",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "1968年的投影作品，是馆方三件特瑞尔常设作品中最早的年代节点；它让路线从早期角落投影开始，再进入2000与2004年的空间化光作品。",
+      "selectionSignals": [
+        "馆方确认题名、年代和投影机媒介，并把三件作品定义为跨越艺术家生涯的重要系列样本。",
+        "古根海姆资料把1967年的《Afrum I (White)》列为早期Cross Corner Projection近邻，可支持该作的早期系列位置。",
+        "应作为特瑞尔三件组的起点，而不是因年代早就声称首次或唯一。"
+      ],
+      "sectionSignals": [
+        "光作为媒介",
+        "特瑞尔生涯早期投影",
+        "感知与空间"
+      ],
+      "routeSignals": [
+        "特瑞尔组三件按年代观看的起点",
+        "与Open Field和Open Sky连续安排",
+        "不宜只用照片替代现场感知"
+      ],
+      "riskFlags": [
+        "site_specific",
+        "small_permanent_display",
+        "operationally_variable"
+      ],
+      "riskResolution": [
+        {
+          "riskFlag": "site_specific",
+          "finding": "馆方媒体资料明确指出特瑞尔作品配有使观看成立的专门空间，艺术家亲自设计形状与尺寸。",
+          "evidence": [
+            "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf"
+          ],
+          "residualUncertainty": "现有公开页未给出本件投影空间的全部尺寸。"
+        },
+        {
+          "riskFlag": "small_permanent_display",
+          "finding": "三件作品被馆方有意选为跨越其生涯的常设组；小数量不妨碍它承担年代序列起点。",
+          "evidence": [
+            "https://benesse-artsite.jp/en/art/chichu.html"
+          ],
+          "residualUncertainty": "不支持把三件组描述为艺术家全部类型的完整回顾。"
+        },
+        {
+          "riskFlag": "operationally_variable",
+          "finding": "作品常设但受博物馆指定时段预约和开放日约束。",
+          "evidence": [
+            "https://benesse-artsite.jp/en/art/chichu.html",
+            "https://www.benesse-artsite.jp/en/calendar/monthly.html"
+          ],
+          "residualUncertainty": "未来维护未知。"
+        }
+      ],
+      "comparisonEvidence": {
+        "comparisonClass": "詹姆斯·特瑞尔1960年代Cross Corner Projections",
+        "nearestComparators": [
+          {
+            "name": "Afrum I (White)，1967，古根海姆",
+            "evidence": "古根海姆把它列为最早期Cross Corner Projections之一：投射到房间角落的光看似悬浮立方体，近看可理解为光平面。",
+            "source": "https://web.guggenheim.org/exhibitions/turrell/"
+          },
+          {
+            "name": "First Light投影方案组",
+            "evidence": "MoMA说明二十幅版画回顾艺术家1966—67年的计划投影装置，证明Afrum所属视觉机制有一组近邻。",
+            "source": "https://www.moma.org/collection/works/160112"
+          }
+        ],
+        "sharedValue": "均用隐藏或退居幕后的投影装置改变观众对房间角落、平面与体积的判断。",
+        "decisiveDifference": "地中本件是1968年浅蓝版本，并作为三件常设年代序列的一端；现有来源未证明它是该机制唯一存例。",
+        "nonSubstitutableValue": "古根海姆近邻可替代早期角落投影的核心问题，但不能替代本件与地中后两件作品构成的现场生涯序列。",
+        "unknowns": "未确认Afrum各版本总数、先后完整清单或本件相对优劣。",
+        "conclusion": "重要藏品；不通过稀世珍品硬门。"
+      },
+      "scoreEvidence": [
+        "对馆内特瑞尔三件年代序列不可缺。",
+        "存在明确同系列近邻，稀有度不可作评分支柱。"
+      ],
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html",
+        "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf",
+        "https://web.guggenheim.org/exhibitions/turrell/",
+        "https://www.moma.org/collection/works/160112",
+        "https://www.benesse-artsite.jp/en/calendar/monthly.html"
+      ]
+    },
+    {
+      "workId": "james-turrell-open-field-2000",
+      "identityStatus": "stable",
+      "availability": "permanent_display_subject_to_museum_operations",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "以荧光灯和霓虹灯构成的2000年空间作品，是地中三件特瑞尔常设组的中间年代节点，连接早期角落投影与2004年面向天空的建筑观看空间。",
+      "selectionSignals": [
+        "馆方确认题名、年代、媒介，并称三件作品跨越艺术家的工作历程。",
+        "其选择价值首先是馆内三件组的结构作用；现有公开资料不足以建立全球稀有性。",
+        "应与Afrum和Open Sky连续选择，避免拆散馆方明确的年代体验。"
+      ],
+      "sectionSignals": [
+        "光作为空间",
+        "特瑞尔三件年代序列",
+        "人工光与感知"
+      ],
+      "routeSignals": [
+        "特瑞尔组中段",
+        "连接投影作品与天空空间",
+        "需在专门空间中体验"
+      ],
+      "riskFlags": [
+        "site_specific",
+        "small_permanent_display",
+        "operationally_variable"
+      ],
+      "riskResolution": [
+        {
+          "riskFlag": "site_specific",
+          "finding": "馆方资料将前室楼梯、主空间、墙面与光源材料分别列出，说明空间不是可忽略的容器。",
+          "evidence": [
+            "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf"
+          ],
+          "residualUncertainty": "公开资料未给出完整空间尺寸和现场动线细节。"
+        },
+        {
+          "riskFlag": "small_permanent_display",
+          "finding": "馆方将三件特瑞尔作品选作代表系列、按年代体验；本件的中介作用可由馆方直接支持。",
+          "evidence": [
+            "https://benesse-artsite.jp/en/art/chichu.html"
+          ],
+          "residualUncertainty": "不能把三件组称为完整生涯回顾。"
+        },
+        {
+          "riskFlag": "operationally_variable",
+          "finding": "常设展示成立，但实际可见性受博物馆预约和开放日约束。",
+          "evidence": [
+            "https://benesse-artsite.jp/en/art/chichu.html",
+            "https://www.benesse-artsite.jp/en/calendar/monthly.html"
+          ],
+          "residualUncertainty": "未来维护未知。"
+        }
+      ],
+      "comparisonEvidence": {
+        "comparisonClass": "詹姆斯·特瑞尔以光造成平面／开口／空间歧义的室内装置",
+        "nearestComparators": [
+          {
+            "name": "Iltar，1976，Space Division Construction",
+            "evidence": "古根海姆说明该类作品可交替被看成墙上色面、雾状虚空或通向另一空间的开口。",
+            "source": "https://web.guggenheim.org/exhibitions/turrell/"
+          },
+          {
+            "name": "地中美术馆Afrum, Pale Blue与Open Sky",
+            "evidence": "馆方把三件作品按1968、2000、2004列为可按年代体验的常设组。",
+            "source": "https://benesse-artsite.jp/en/art/chichu.html"
+          }
+        ],
+        "sharedValue": "均把光和专门空间用于改变观众对实体表面、深度与开口的判断。",
+        "decisiveDifference": "本件的馆级决定性差异是它在地中三件序列中连接1968与2004；现有来源未证明其机制无第二例。",
+        "nonSubstitutableValue": "其他特瑞尔空间可解释相似感知问题，但不能替代本件在地中常设三部序列中的中间位置。",
+        "unknowns": "未确认同型Open Field版本数量或本件全球排名。",
+        "conclusion": "重要藏品；不通过稀世珍品硬门。"
+      },
+      "scoreEvidence": [
+        "对特瑞尔常设组的年代推进有明确结构价值。",
+        "重要性来自组线与现场机制，而非数量或最高级。"
+      ],
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html",
+        "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf",
+        "https://web.guggenheim.org/exhibitions/turrell/",
+        "https://www.benesse-artsite.jp/en/calendar/monthly.html"
+      ]
+    },
+    {
+      "workId": "james-turrell-open-sky-2004",
+      "identityStatus": "stable",
+      "availability": "regular_hours_permanent_display_with_separate_reservation_sunset_program",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "2004年的建筑观看空间以LED、氙灯、天花开口和座席组织对天空的观看；常规开放可见，另有周五、周六预约制日落项目，必须把两种可见边界分开。",
+      "selectionSignals": [
+        "馆方确认它是三件特瑞尔常设作品之一，且常规开放时间可见。",
+        "馆方另设45分钟日落观看，需购买含Night Program的门票；日落项目期间不能看其他作品。",
+        "它把特瑞尔作品、安藤建筑和真实天空直接连接，是本馆光线主线的核心选件。"
+      ],
+      "sectionSignals": [
+        "天空作为观看对象",
+        "自然光、人工光与建筑开口",
+        "常规参观和日落项目的边界"
+      ],
+      "routeSignals": [
+        "特瑞尔组三件终点",
+        "普通路线可在日间观看",
+        "日落路线需单独预约且提前看完其他作品"
+      ],
+      "riskFlags": [
+        "site_specific",
+        "small_permanent_display",
+        "operationally_variable"
+      ],
+      "riskResolution": [
+        {
+          "riskFlag": "site_specific",
+          "finding": "作品材料清单包括LED、氙灯、石材地面、灰泥墙顶和石材座椅；天花开口与观看空间是身份不可分部分。",
+          "evidence": [
+            "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf",
+            "https://benesse-artsite.jp/en/art/chichu.html"
+          ],
+          "residualUncertainty": "天空和气象条件变化，不能保证固定色彩或感知效果。"
+        },
+        {
+          "riskFlag": "small_permanent_display",
+          "finding": "它是馆方三件特瑞尔常设年代序列的2004年节点；价值来自组线和建筑整合，不以数量少证明稀有。",
+          "evidence": [
+            "https://benesse-artsite.jp/en/art/chichu.html"
+          ],
+          "residualUncertainty": "全球存在其他Skyspace，未取得完整数量。"
+        },
+        {
+          "riskFlag": "operationally_variable",
+          "finding": "常规开放时可看；Night Program为周五、周六、预约制的45分钟日落观看，行程连集合往返约80分钟，且仅观看本件。",
+          "evidence": [
+            "https://benesse-artsite.jp/en/art/chichu.html",
+            "https://www.benesse-artsite.jp/en/calendar/monthly.html"
+          ],
+          "residualUncertainty": "具体开始时刻随日落变化，日期和票务须实时查询。"
+        }
+      ],
+      "comparisonEvidence": {
+        "comparisonClass": "詹姆斯·特瑞尔Skyspace及永久天空观看空间",
+        "nearestComparators": [
+          {
+            "name": "Meeting，1980—86／2016，MoMA PS1",
+            "evidence": "MoMA称其为永久场域特定装置，是带大型矩形天窗的冥想式房间。",
+            "source": "https://www.moma.org/collection/works/160112"
+          },
+          {
+            "name": "地中美术馆Afrum, Pale Blue与Open Field",
+            "evidence": "馆方把三件作品组织成从1968到2004的年代体验。",
+            "source": "https://benesse-artsite.jp/en/art/chichu.html"
+          }
+        ],
+        "sharedValue": "均以专门房间和天花开口把真实天空与光线变化纳入作品。",
+        "decisiveDifference": "地中本件与安藤地下馆舍、馆内三件特瑞尔序列及独立日落项目结合；但Skyspace机制有明确近邻。",
+        "nonSubstitutableValue": "Meeting可替代一般Skyspace核心问题，不能替代地中本件与地下建筑、另外两件特瑞尔作品和Night Program的具体关系。",
+        "unknowns": "未确认全球Skyspace数量或本件在其中的唯一性、首创性和优劣。",
+        "conclusion": "重要藏品；不通过稀世珍品硬门。"
+      },
+      "scoreEvidence": [
+        "同时承担作品、建筑和旅行时段决策，是本馆不可省略的结构节点。",
+        "日落项目提供额外现场回报，但属于预约体验，不应写成普通门票自动包含。"
+      ],
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html",
+        "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf",
+        "https://www.moma.org/collection/works/160112",
+        "https://www.benesse-artsite.jp/en/calendar/monthly.html"
+      ]
+    },
+    {
+      "workId": "chichu-art-museum-underground-architecture-and-site-context",
+      "identityStatus": "stable_museum_context_not_collection_object",
+      "availability": "accessible_with_museum_admission_subject_to_route_and_operations",
+      "importanceCandidate": "体验补充",
+      "rareCandidate": false,
+      "coreValue": "安藤忠雄把美术馆几乎全部埋入地下，以混凝土、钢、玻璃、木材、几何庭院和自然光组织作品空间；馆方称整馆可被看作大型场域特定作品，但该条目是馆级语境，不是独立馆藏对象。",
+      "selectionSignals": [
+        "馆方明确区分艺术家作品与建筑师，并说明建筑2004年建成、几乎全部地下，以避免影响濑户内海景观。",
+        "自然光随一天和四季改变作品与空间，是连接莫奈、德·玛利亚和特瑞尔的馆级核心论点。",
+        "下游可用于馆介、章节和路线，不得计入作品数量或标为稀世珍品。"
+      ],
+      "sectionSignals": [
+        "地下建筑与自然光",
+        "作品和空间共同设计",
+        "人、自然与濑户内海场域"
+      ],
+      "routeSignals": [
+        "贯穿全馆而非单一停靠点",
+        "用于连接三位艺术家的空间",
+        "路线需考虑部分区域无障碍限制"
+      ],
+      "riskFlags": [
+        "site_specific",
+        "operationally_variable"
+      ],
+      "riskResolution": [
+        {
+          "riskFlag": "site_specific",
+          "finding": "场域性由馆方直接定义：建筑几乎完全地下、自然光随时段季节变化，艺术家与建筑师协商形成，整馆可视为大型site-specific artwork。",
+          "evidence": [
+            "https://benesse-artsite.jp/en/art/chichu.html",
+            "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf"
+          ],
+          "residualUncertainty": "“可视为作品”是馆方的建筑定位，不应机械转成独立馆藏对象身份。"
+        },
+        {
+          "riskFlag": "operationally_variable",
+          "finding": "建筑随博物馆开放；指定时段预约、临时闭馆和部分区域无障碍限制均影响实际路线。",
+          "evidence": [
+            "https://benesse-artsite.jp/en/art/chichu.html",
+            "https://www.benesse-artsite.jp/en/calendar/monthly.html"
+          ],
+          "residualUncertainty": "具体到访日的关闭、维护和可达路径须实时确认。"
+        }
+      ],
+      "comparisonEvidence": {
+        "comparisonClass": "安藤忠雄在直岛的地下化或低干预美术馆建筑，以及作品—建筑一体化场域",
+        "nearestComparators": [
+          {
+            "name": "Benesse House Museum及其Annex",
+            "evidence": "馆方媒体资料中的安藤自述把地中美术馆视为其1988年以来直岛项目的延伸，并说明此前已采取埋置建筑、不破坏景观的方针。",
+            "source": "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf"
+          },
+          {
+            "name": "地中馆内莫奈、德·玛利亚、特瑞尔专用空间",
+            "evidence": "馆方逐项说明自然光、房间尺度和材料如何与各艺术家作品共同设计。",
+            "source": "https://benesse-artsite.jp/en/art/chichu.html"
+          }
+        ],
+        "sharedValue": "以建筑嵌入场地，并通过光、几何和路线调节作品经验。",
+        "decisiveDifference": "地中美术馆把三位艺术家的少量常设作品全部置于专门空间，并把几乎全地下的建筑和自然光作为整馆统一机制。",
+        "nonSubstitutableValue": "其他安藤直岛建筑可解释其低干预场地方针，却不能替代地中馆三条特定收藏线及其专用光环境。",
+        "unknowns": "没有必要也没有依据给出全球同类建筑数量或“唯一”排名；该条目不是馆藏对象。",
+        "conclusion": "作为体验补充和馆级结构证据保留；不参与对象级珍品判断。"
+      },
+      "scoreEvidence": [
+        "建筑不是收藏数量加分项，却是该馆旅行价值和不可由普通白盒展厅替代的主要证据。",
+        "馆级评分可使用三位艺术家的作品与建筑共同设计、自然光随时间变化等事实，但不得把建筑语境重复计作第十件藏品。"
+      ],
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html",
+        "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf",
+        "https://benesse-artsite.jp/en/story/20210611-1671.html",
+        "https://www.benesse-artsite.jp/en/calendar/monthly.html"
+      ]
+    }
+  ]
+}

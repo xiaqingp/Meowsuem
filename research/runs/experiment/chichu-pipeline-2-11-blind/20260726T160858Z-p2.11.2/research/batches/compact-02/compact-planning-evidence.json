@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "museumId": "chichuartmuseum",
+  "works": [
+    {
+      "workId": "chichu-garden-museum-level-context",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "体验补充",
+      "rareCandidate": false,
+      "coreValue": "地中庭院以近二百种参考吉维尼配置的花木，把莫奈晚年所画的睡莲、柳树与鸢尾等自然母题连接到地中美术馆的观看环境；它是莫奈观看语境与馆舍路线节点，不是独立收藏对象。",
+      "selectionSignals": [
+        "官方将 Chichu Garden 列在 Chichu Cafe、Store＆Garden 的场地设施中，而非艺术家作品或独立馆藏对象。",
+        "保留它是为了补足地中美术馆的自然—建筑—绘画关系，不计入独立藏品数量或独立作品容量。",
+        "其与莫奈《睡莲》系列的关联具有明确馆方说明，适合作为场地语境而非稀有性候选。"
+      ],
+      "sectionSignals": [
+        "场地与观看语境",
+        "莫奈《睡莲》系列的花园关联",
+        "不作为独立藏品章节"
+      ],
+      "routeSignals": [
+        "作为参观地中美术馆时的花园—莫奈观看关系节点安排。",
+        "可与馆内自然光、建筑和莫奈作品的整体空间路线相连，但不能替代馆内作品观看。",
+        "路线呈现需随本馆开放日、预约时段及临时关闭信息核验。"
+      ],
+      "riskFlags": [
+        "display_status_can_change",
+        "timed_reservation_required",
+        "temporary_closure_possible"
+      ],
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html",
+        "https://benesse-artsite.jp/en/general-information.html",
+        "https://benesse-artsite.jp/en/calendar/"
+      ]
+    }
+  ]
+}

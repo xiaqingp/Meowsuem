@@ -39,7 +39,15 @@ if (publish && runKind !== "production") {
 if (publish && descriptor.status !== "verified") {
   throw new Error("Filesystem contract violation: real publish requires verified status");
 }
-const input = JSON.parse(await fs.readFile(path.join(runRoot, "structure", "assembly-input.json"), "utf8"));
+const publicationPlan = descriptor.contentContract === "one_shot_v1"
+  ? JSON.parse(await fs.readFile(path.join(runRoot, "assembly", "publication-plan.json"), "utf8"))
+  : null;
+const input = JSON.parse(await fs.readFile(
+  descriptor.contentContract === "one_shot_v1"
+    ? path.join(runRoot, publicationPlan.assemblyInput)
+    : path.join(runRoot, "structure", "assembly-input.json"),
+  "utf8",
+));
 const concurrency = argument("--concurrency");
 const identityArgs = [
   `--kind=${runKind}`,
@@ -63,7 +71,7 @@ const run = async (name, script, args = []) => {
 };
 
 const totalStarted = performance.now();
-await run("assembly", "scripts/assemble-museum-candidate.mjs", runKind === "regression" ? ["--dry-run"] : []);
+await run("assembly", "scripts/assemble-museum-candidate.mjs", runKind === "production" ? [] : ["--dry-run"]);
 if (descriptor.contentContract === "one_shot_v1") {
   await run("causality-prepublish", "scripts/verify-run-causality.mjs");
 }

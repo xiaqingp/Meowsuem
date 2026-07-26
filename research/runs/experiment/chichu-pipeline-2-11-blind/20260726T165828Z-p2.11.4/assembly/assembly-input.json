@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "museum": {
+    "id": "chichuartmuseum",
+    "editorialCapacity": 10,
+    "city": "直岛 / Naoshima，日本 / Japan",
+    "zh": "地中美术馆",
+    "en": "Chichu Art Museum",
+    "verdict": "70–79 · 可去可不去",
+    "hero": "./assets/chichuartmuseum/chichu-art-museum-underground-architecture-and-site-context.jpg",
+    "contentFile": "research/content/chichuartmuseum.md",
+    "official": "https://benesse-artsite.jp/en/art/chichu.html",
+    "visit": "https://benesse-artsite.jp/en/art/chichu.html",
+    "contentUpdatedAt": "2026-07-26",
+    "intro": [],
+    "routes": {
+      "90": {
+        "title": "90分钟：先看决定性关系",
+        "note": "按建筑语境进入，优先看莫奈双联画、德·玛利亚和Open Sky；主动跳过莫奈组内其余四幅与Afrum、Open Field的深入对照。Open Sky按普通开放时段安排，日落项目另计且不可默认使用。",
+        "workIds": [
+          "chichu-art-museum-underground-architecture-and-site-context",
+          "claude-monet-water-lily-pond-c-1915-1926",
+          "walter-de-maria-time-timeless-no-time-2004",
+          "james-turrell-open-sky-2004"
+        ]
+      },
+      "half": {
+        "title": "半天：看懂三条收藏线",
+        "note": "保留建筑语境，完整观看莫奈双联画并加入一件组内对照；德·玛利亚完整停留；特瑞尔按年代看三件。其余三幅莫奈作品留给完整浏览，避免在小馆址内把同一组作品看成重复打卡。",
+        "workIds": [
+          "chichu-art-museum-underground-architecture-and-site-context",
+          "claude-monet-water-lily-pond-c-1915-1926",
+          "claude-monet-water-lilies-cluster-of-grass-1914-1917",
+          "walter-de-maria-time-timeless-no-time-2004",
+          "james-turrell-afrum-pale-blue-1968",
+          "james-turrell-open-field-2000",
+          "james-turrell-open-sky-2004"
+        ]
+      },
+      "all": {
+        "title": "完整浏览：十个条目的连续观看",
+        "note": "覆盖建筑语境、五幅莫奈、德·玛利亚和三件特瑞尔。应依馆方当日动线与开放状态分配停留；五幅莫奈连续比较题名、年代和尺寸，特瑞尔按1968—2000—2004推进。若参加Open Sky日落Night Program，须先完成其他作品并以当日项目规则为准。",
+        "workIds": [
+          "chichu-art-museum-underground-architecture-and-site-context",
+          "claude-monet-water-lily-pond-c-1915-1926",
+          "claude-monet-water-lilies-cluster-of-grass-1914-1917",
+          "claude-monet-water-lilies-1914-1917",
+          "claude-monet-water-lily-pond-1917-1919",
+          "claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919",
+          "walter-de-maria-time-timeless-no-time-2004",
+          "james-turrell-afrum-pale-blue-1968",
+          "james-turrell-open-field-2000",
+          "james-turrell-open-sky-2004"
+        ]
+      }
+    },
+    "rareAssets": []
+  },
+  "chapters": [
+    {
+      "id": "ch-01",
+      "number": 1,
+      "title": "为什么这座馆要把自己藏进地下？",
+      "intro": "先把地中美术馆当作一条观看条件来理解：安藤忠雄的地下建筑、几何空间和自然光不是作品之外的背景，而是连接三位艺术家常设展示的馆级语境。"
+    },
+    {
+      "id": "ch-02",
+      "number": 2,
+      "title": "莫奈的《睡莲》为什么要在一间专门展室里看？",
+      "intro": "五幅晚年《睡莲》应作为一个常设组观看。先看促成馆舍的2×6米双联画，再用其余作品的题名、年代和尺寸差异理解同一水园主题如何在自然光中展开；不要把组展价值误写成单件稀有性。"
+    },
+    {
+      "id": "ch-03",
+      "number": 3,
+      "title": "当雕塑变成一间房，时间怎样进入作品？",
+      "intro": "德·玛利亚的作品不能拆成一颗球或一组金色几何体：球体、27件镀金木质形体、东西向房间和天窗自然光共同构成一个随时刻改变的空间。"
+    },
+    {
+      "id": "ch-04",
+      "number": 4,
+      "title": "特瑞尔如何让光从照明变成观看对象？",
+      "intro": "按1968、2000、2004的年代推进观看三件特瑞尔作品：从投影光的早期空间实验，经过人工光构成的空间，再到把天空和建筑开口纳入作品的Open Sky。三件作品的价值来自现场序列，不等于完整生涯回顾。"
+    },
+    {
+      "id": "ch-05",
+      "number": 5,
+      "title": "同一座馆，为什么必须按时间和状态来安排？",
+      "intro": "地中美术馆的观看效果不能完全预先固定：自然光随时刻、天气和季节变化，入馆需指定日期与时段预约，Open Sky的日落Night Program又有独立票务和观看边界。因此路线应按当日开放信息调整，而不是当作实时导航清单。"
+    }
+  ],
+  "routes": {
+    "90": {
+      "title": "90分钟：先看决定性关系",
+      "note": "按建筑语境进入，优先看莫奈双联画、德·玛利亚和Open Sky；主动跳过莫奈组内其余四幅与Afrum、Open Field的深入对照。Open Sky按普通开放时段安排，日落项目另计且不可默认使用。",
+      "workIds": [
+        "chichu-art-museum-underground-architecture-and-site-context",
+        "claude-monet-water-lily-pond-c-1915-1926",
+        "walter-de-maria-time-timeless-no-time-2004",
+        "james-turrell-open-sky-2004"
+      ]
+    },
+    "half": {
+      "title": "半天：看懂三条收藏线",
+      "note": "保留建筑语境，完整观看莫奈双联画并加入一件组内对照；德·玛利亚完整停留；特瑞尔按年代看三件。其余三幅莫奈作品留给完整浏览，避免在小馆址内把同一组作品看成重复打卡。",
+      "workIds": [
+        "chichu-art-museum-underground-architecture-and-site-context",
+        "claude-monet-water-lily-pond-c-1915-1926",
+        "claude-monet-water-lilies-cluster-of-grass-1914-1917",
+        "walter-de-maria-time-timeless-no-time-2004",
+        "james-turrell-afrum-pale-blue-1968",
+        "james-turrell-open-field-2000",
+        "james-turrell-open-sky-2004"
+      ]
+    },
+    "all": {
+      "title": "完整浏览：十个条目的连续观看",
+      "note": "覆盖建筑语境、五幅莫奈、德·玛利亚和三件特瑞尔。应依馆方当日动线与开放状态分配停留；五幅莫奈连续比较题名、年代和尺寸，特瑞尔按1968—2000—2004推进。若参加Open Sky日落Night Program，须先完成其他作品并以当日项目规则为准。",
+      "workIds": [
+        "chichu-art-museum-underground-architecture-and-site-context",
+        "claude-monet-water-lily-pond-c-1915-1926",
+        "claude-monet-water-lilies-cluster-of-grass-1914-1917",
+        "claude-monet-water-lilies-1914-1917",
+        "claude-monet-water-lily-pond-1917-1919",
+        "claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919",
+        "walter-de-maria-time-timeless-no-time-2004",
+        "james-turrell-afrum-pale-blue-1968",
+        "james-turrell-open-field-2000",
+        "james-turrell-open-sky-2004"
+      ]
+    }
+  },
+  "rating": {
+    "museumId": "chichuartmuseum",
+    "score": 79,
+    "scoreBand": "70–79 · 可去可不去",
+    "withinBandAnchor": "78–79",
+    "scoreReason": "馆内以五幅莫奈晚年《睡莲》、一件Walter De Maria房间尺度装置和三件跨越James Turrell生涯的光作品，结合安藤忠雄地下建筑与自然光，形成高度完整且难由普通展厅复制的整体体验；但锁定证据明确显示所有对象均未通过“稀世珍品”不可替代性硬门，因此评分不得进入80档。",
+    "withinBandReason": "落在70档上限，是因为少量常设作品全部与专用空间、自然光和整馆路线深度结合，三条艺术家收藏线彼此互补，整体现场经验高度不可复制；未达到80分，是因为莫奈大型《睡莲》、De Maria场域作品和Turrell各类光空间均有可靠近邻，现有证据无法建立任何一条通过硬门的稀世珍品线。",
+    "rareAssets": [],
+    "independentRareLines": [],
+    "dedicatedTrip": false,
+    "worldDominantConcentration": false,
+    "worldDominantConcentrationEvidence": []
+  },
+  "works": [
+    {
+      "id": "chichu-art-museum-underground-architecture-and-site-context",
+      "ch": "ch-01",
+      "significance": "体验补充",
+      "image": "./assets/chichuartmuseum/chichu-art-museum-underground-architecture-and-site-context.jpg",
+      "imageSource": "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+      "imageCaption": "地中美术馆地下建筑与场域语境 / Chichu Art Museum underground architecture and site context",
+      "source": "https://benesse-artsite.jp/en/art/chichu.html",
+      "localAssetSource": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/image-evidence/assets/museum-hero-placeholder.jpg",
+      "imageKind": "museum-placeholder",
+      "availabilityTag": ""
+    },
+    {
+      "id": "claude-monet-water-lily-pond-c-1915-1926",
+      "ch": "ch-02",
+      "significance": "重要藏品",
+      "image": "./assets/chichuartmuseum/claude-monet-water-lily-pond-c-1915-1926.jpg",
+      "imageSource": "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+      "imageCaption": "睡莲池 / Water-Lily Pond",
+      "source": "https://benesse-artsite.jp/en/art/chichu.html",
+      "localAssetSource": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/image-evidence/assets/museum-hero-placeholder.jpg",
+      "imageKind": "museum-placeholder",
+      "availabilityTag": ""
+    },
+    {
+      "id": "claude-monet-water-lilies-cluster-of-grass-1914-1917",
+      "ch": "ch-02",
+      "significance": "重要藏品",
+      "image": "./assets/chichuartmuseum/claude-monet-water-lilies-cluster-of-grass-1914-1917.jpg",
+      "imageSource": "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+      "imageCaption": "睡莲——草丛 / Water Lilies, Cluster of Grass",
+      "source": "https://benesse-artsite.jp/en/art/chichu.html",
+      "localAssetSource": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/image-evidence/assets/museum-hero-placeholder.jpg",
+      "imageKind": "museum-placeholder",
+      "availabilityTag": ""
+    },
+    {
+      "id": "claude-monet-water-lilies-1914-1917",
+      "ch": "ch-02",
+      "significance": "重要藏品",
+      "image": "./assets/chichuartmuseum/claude-monet-water-lilies-1914-1917.jpg",
+      "imageSource": "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+      "imageCaption": "睡莲 / Water Lilies",
+      "source": "https://benesse-artsite.jp/en/art/chichu.html",
+      "localAssetSource": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/image-evidence/assets/museum-hero-placeholder.jpg",
+      "imageKind": "museum-placeholder",
+      "availabilityTag": ""
+    },
+    {
+      "id": "claude-monet-water-lily-pond-1917-1919",
+      "ch": "ch-02",
+      "significance": "重要藏品",
+      "image": "./assets/chichuartmuseum/claude-monet-water-lily-pond-1917-1919.jpg",
+      "imageSource": "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+      "imageCaption": "睡莲池 / Water-Lily Pond",
+      "source": "https://benesse-artsite.jp/en/art/chichu.html",
+      "localAssetSource": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/image-evidence/assets/museum-hero-placeholder.jpg",
+      "imageKind": "museum-placeholder",
+      "availabilityTag": ""
+    },
+    {
+      "id": "claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919",
+      "ch": "ch-02",
+      "significance": "重要藏品",
+      "image": "./assets/chichuartmuseum/claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919.jpg",
+      "imageSource": "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+      "imageCaption": "睡莲——垂柳倒影 / Water Lilies, Reflections of Weeping Willows",
+      "source": "https://benesse-artsite.jp/en/art/chichu.html",
+      "localAssetSource": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/image-evidence/assets/museum-hero-placeholder.jpg",
+      "imageKind": "museum-placeholder",
+      "availabilityTag": ""
+    },
+    {
+      "id": "walter-de-maria-time-timeless-no-time-2004",
+      "ch": "ch-03",
+      "significance": "重要藏品",
+      "image": "./assets/chichuartmuseum/walter-de-maria-time-timeless-no-time-2004.jpg",
+      "imageSource": "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+      "imageCaption": "时间／无时／无时间 / Time/Timeless/No Time",
+      "source": "https://benesse-artsite.jp/en/art/chichu.html",
+      "localAssetSource": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/image-evidence/assets/museum-hero-placeholder.jpg",
+      "imageKind": "museum-placeholder",
+      "availabilityTag": ""
+    },
+    {
+      "id": "james-turrell-afrum-pale-blue-1968",
+      "ch": "ch-04",
+      "significance": "重要藏品",
+      "image": "./assets/chichuartmuseum/james-turrell-afrum-pale-blue-1968.jpg",
+      "imageSource": "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+      "imageCaption": "Afrum，浅蓝 / Afrum, Pale Blue",
+      "source": "https://benesse-artsite.jp/en/art/chichu.html",
+      "localAssetSource": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/image-evidence/assets/museum-hero-placeholder.jpg",
+      "imageKind": "museum-placeholder",
+      "availabilityTag": ""
+    },
+    {
+      "id": "james-turrell-open-field-2000",
+      "ch": "ch-04",
+      "significance": "重要藏品",
+      "image": "./assets/chichuartmuseum/james-turrell-open-field-2000.jpg",
+      "imageSource": "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+      "imageCaption": "开放场域 / Open Field",
+      "source": "https://benesse-artsite.jp/en/art/chichu.html",
+      "localAssetSource": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/image-evidence/assets/museum-hero-placeholder.jpg",
+      "imageKind": "museum-placeholder",
+      "availabilityTag": ""
+    },
+    {
+      "id": "james-turrell-open-sky-2004",
+      "ch": "ch-04",
+      "significance": "重要藏品",
+      "image": "./assets/chichuartmuseum/james-turrell-open-sky-2004.jpg",
+      "imageSource": "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+      "imageCaption": "开放天空 / Open Sky",
+      "source": "https://benesse-artsite.jp/en/art/chichu.html",
+      "localAssetSource": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/image-evidence/assets/museum-hero-placeholder.jpg",
+      "imageKind": "museum-placeholder",
+      "availabilityTag": ""
+    }
+  ],
+  "integration": {
+    "coordinates": [
+      34.44778,
+      133.98488
+    ]
+  },
+  "publication": {
+    "dataFile": "chichuartmuseum.js",
+    "cacheKey": "chichuartmuseum-p2-11-4",
+    "cachePages": []
+  }
+}

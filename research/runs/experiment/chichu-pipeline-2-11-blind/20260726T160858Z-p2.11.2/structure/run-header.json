@@ -1,0 +1,42 @@
+{
+  "runId": "20260726T160858Z-p2.11.2",
+  "startedAt": "2026-07-26T16:27:31.943Z",
+  "stage": "museum_structure",
+  "caseId": "chichu-pipeline-2-11-blind",
+  "pipelineVersion": "2.11.2",
+  "instructionVersion": "2.4.0",
+  "executionProfile": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "high",
+    "runner": "scripts/run-isolated-generation.ps1"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "d80ee1c0f28a4f21a26b3d7daefe825812b9007b3208dd80451ae13cee95fc96"
+    },
+    {
+      "path": "research/pipeline/prompts/museum-structure.md",
+      "role": "stage_prompt",
+      "sha256": "4fe1be7a5abf83749c33a4866a0d9ea6254171f4c41788d9544863bd294a04dc"
+    },
+    {
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T160858Z-p2.11.2/selection/selection.json",
+      "role": "museum_selection",
+      "sha256": "a379e6986407403c8938ec11f2095641a3c72ab5adafa710503e59540c26772b"
+    },
+    {
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T160858Z-p2.11.2/rating/rating-result.json",
+      "role": "museum_rating",
+      "sha256": "3d8878f835d012aef4bb02c04a343193a8f872380b84492b4c0a0efa2a6b5426"
+    }
+  ],
+  "outputs": [
+    "structure.json",
+    "assembly-input.json"
+  ],
+  "reviewer": "disabled",
+  "retry": "explicit_only",
+  "publicationBoundary": "run_only"
+}

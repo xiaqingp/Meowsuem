@@ -1,0 +1,39 @@
+{
+  "status": "failed",
+  "errors": [
+    {
+      "code": "OFFICIAL_SOURCE_COVERAGE",
+      "message": "Official object source does not cover material",
+      "matches": [
+        "material"
+      ],
+      "severity": "error"
+    }
+  ],
+  "warnings": [],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": true,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "一间把天空请进来的房间",
+    "天空的颜色由谁负责",
+    "这件作品为什么需要时间",
+    "在地中美术馆中，它还有一层对话"
+  ],
+  "sourceCount": 3,
+  "articleBytes": 4959,
+  "sourcesBytes": 1309
+}

@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "status": "failed",
+  "failureStage": "browser_launch",
+  "failureCode": "PLAYWRIGHT_BUNDLED_BROWSER_MISSING",
+  "message": "Playwright Chromium headless shell executable was not installed in the expected local cache.",
+  "contentArtifactsProduced": false,
+  "retryPolicy": "infrastructure_retry_once_with_existing_optional_chrome_override"
+}

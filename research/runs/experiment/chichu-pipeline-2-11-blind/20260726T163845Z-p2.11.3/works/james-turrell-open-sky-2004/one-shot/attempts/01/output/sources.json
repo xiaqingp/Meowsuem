@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 2,
+  "museumId": "chichuartmuseum",
+  "workId": "james-turrell-open-sky-2004",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Chichu Art Museum",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/art/chichu.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "availability"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Benesse Art Site Naoshima Media Kit: General Press, April 2018",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://www.benesse-artsite.jp/en/contact/press/BASN_MediaKit_April2018_GenerallPress_eng.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "installationDesign",
+        "artistPractice"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Naoshima Note",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/uploads/about/note/naoshima_note_2015_10.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "viewingMechanism",
+        "perception",
+        "nightProgram"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [],
+  "upstreamConflicts": []
+}

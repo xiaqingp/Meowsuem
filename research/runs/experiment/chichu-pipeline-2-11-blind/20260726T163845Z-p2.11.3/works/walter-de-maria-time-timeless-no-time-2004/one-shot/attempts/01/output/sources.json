@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "museumId": "chichuartmuseum",
+  "workId": "walter-de-maria-time-timeless-no-time-2004",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/art/chichu.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "availability",
+        "collectionRelation",
+        "siteContext",
+        "spatialDescription"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Chichu Art Museum Works Introduction / Benesse Art Site Media Kit",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "makingProcess",
+        "spatialDescription",
+        "siteSpecificity"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Chichu Art Museum: Invisible Architecture",
+      "publisher": "Google Arts & Culture; original source Tadao Ando Architect & Associates",
+      "url": "https://artsandculture.google.com/story/kgUBINjNbw6Nfg",
+      "sourceType": "publication",
+      "usedFor": [
+        "architecture",
+        "naturalLight",
+        "collaboration",
+        "viewingContext"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Walter De Maria: The 5-7-9 Series",
+      "publisher": "Gagosian Gallery",
+      "url": "https://gagosian.com/media/exhibitions/2012/walter-de-maria-the-5-7-9-series/Gagosian_Walter_De_Maria_The_5_7_9_Series_2012_Press_Release.pdf",
+      "sourceType": "publication",
+      "usedFor": [
+        "artistContext",
+        "collectionRelation",
+        "permanentDisplay"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "作品整体包含直径2.2米的球体、27件覆金箔的木制几何形体，并将艺术空间本身纳入作品构成。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "claim": "Time/Timeless/No Time自2004年起在地中美术馆长期或常设展示。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S2",
+        "S4"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "collectionRelation",
+      "statement": "本次来源确认作品在地中美术馆长期或常设展示，但未核实具体所有权、取得方式或馆藏登记信息，因此文章使用‘常设展示’等保守表述。"
+    },
+    {
+      "topic": "visualEvidence",
+      "statement": "本次没有可靠的作品图，文章未依据图片判断具体表面状态、光影瞬间或未被文字来源支持的细部布置。"
+    },
+    {
+      "topic": "viewingConditions",
+      "statement": "作品的光影效果会随时刻、季节、天气和现场条件变化，本次未核对某个具体参观日期的现场光线。"
+    }
+  ],
+  "upstreamConflicts": []
+}

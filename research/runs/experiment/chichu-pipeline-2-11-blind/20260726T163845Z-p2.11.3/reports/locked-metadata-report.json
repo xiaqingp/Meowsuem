@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260726T163845Z-p2.11.3",
+  "museumId": "chichuartmuseum",
+  "upstreamHashes": {
+    "candidates": {
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/candidate-pool/candidate-pool.json",
+      "sha256": "4f5fe8eb0791c4fdf3c0051fdce5ea51989e02c5c739d63a54ccd256143436a5"
+    },
+    "selection": {
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/selection/selection.json",
+      "sha256": "7de20d7272c0ef371088f042589e5ba90c743b146f27d13de11761f7ec9584ed"
+    },
+    "structure": {
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/structure/structure.json",
+      "sha256": "6d4f4e3b96ce8a8c4e1c283bdddd9e917c6f15f4650e3a0ed661843689a05e33"
+    },
+    "images": {
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/image-evidence/verified-image-evidence.json",
+      "sha256": "1e12c5f0db37040a038a3a7f65bb0bea30fd8cc798d6652c6c792cf9f0ee69f9"
+    }
+  },
+  "works": [
+    {
+      "workId": "claude-monet-water-lily-pond-c1915-26",
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/works/claude-monet-water-lily-pond-c1915-26/one-shot/input/locked-metadata.json",
+      "sha256": "73c741d99fef7473c622f97299d5e7f3d78f1b27a52bdaca3f6ec7f4f661181d"
+    },
+    {
+      "workId": "claude-monet-water-lilies-cluster-of-grass-1914-17",
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/works/claude-monet-water-lilies-cluster-of-grass-1914-17/one-shot/input/locked-metadata.json",
+      "sha256": "1425d702a4ba0a6a9ab69937297e3f0bbd2ec729ffb705f30680c7bd687da276"
+    },
+    {
+      "workId": "claude-monet-water-lilies-1914-17",
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/works/claude-monet-water-lilies-1914-17/one-shot/input/locked-metadata.json",
+      "sha256": "9e019a889c3ae800eab0803184ede82317f1ee899fcb80e5fc9961397bc64658"
+    },
+    {
+      "workId": "claude-monet-water-lily-pond-1917-19",
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/works/claude-monet-water-lily-pond-1917-19/one-shot/input/locked-metadata.json",
+      "sha256": "1d22f6a0a9d6dc2f152724553fcd751c60cd8facd56afaa980a15b0164268730"
+    },
+    {
+      "workId": "claude-monet-water-lilies-reflections-of-weeping-willows-1916-19",
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/works/claude-monet-water-lilies-reflections-of-weeping-willows-1916-19/one-shot/input/locked-metadata.json",
+      "sha256": "8f3a3feeb1c017c1461fc9fc6d6e868bedc0349a7f6220645989b1f9a58a52d0"
+    },
+    {
+      "workId": "walter-de-maria-time-timeless-no-time-2004",
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/works/walter-de-maria-time-timeless-no-time-2004/one-shot/input/locked-metadata.json",
+      "sha256": "0b69c67e2a78e614d9c6b0560436d42b6488807fe36406f4b7b6087c305684c5"
+    },
+    {
+      "workId": "james-turrell-afrum-pale-blue-1968",
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/works/james-turrell-afrum-pale-blue-1968/one-shot/input/locked-metadata.json",
+      "sha256": "fdf07de69ba4fe45c3be6ed2731680754eea18b73d416851ee296125fd58ccb6"
+    },
+    {
+      "workId": "james-turrell-open-field-2000",
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/works/james-turrell-open-field-2000/one-shot/input/locked-metadata.json",
+      "sha256": "a3f525eaedcf1d6abe3b08876f7588d7db6a64631fa1afe664e4d5b3baee4336"
+    },
+    {
+      "workId": "james-turrell-open-sky-2004",
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/works/james-turrell-open-sky-2004/one-shot/input/locked-metadata.json",
+      "sha256": "4459a80a9f1b4f7bc5ffec68f651bef4e3f9ef222fb5bece79bcdca257f9b012"
+    }
+  ]
+}

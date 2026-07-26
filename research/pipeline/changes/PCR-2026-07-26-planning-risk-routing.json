@@ -1,0 +1,30 @@
+{
+  "id": "PCR-2026-07-26-planning-risk-routing",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-26",
+  "ownerInstruction": "During the authorized Chichu blind run, repair generalized execution defects without adding museum-specific answers and preserve failed attempts.",
+  "baseRelease": "research/pipeline/releases/v2.11.1.json",
+  "targetVersion": "2.11.2",
+  "implementationStatus": "completed",
+  "scope": [
+    "trigger deep planning research from compact evidence risk output",
+    "preserve and reuse completed compact planning artifacts on resume",
+    "restart the blind experiment from an empty canonical run after the runtime contract patch"
+  ],
+  "outOfScope": [
+    "changing candidate identities",
+    "manually selecting deep-research works",
+    "editing model research output",
+    "changing production content"
+  ],
+  "allowedCanonicalFiles": [
+    "scripts/run-museum-pipeline.mjs"
+  ],
+  "verification": {
+    "status": "passed",
+    "commands": [
+      "node scripts/test-museum-pipeline-e2e.mjs"
+    ]
+  }
+}

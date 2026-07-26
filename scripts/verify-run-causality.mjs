@@ -17,12 +17,13 @@ export async function verifyRunCausality({projectRoot, kind, museum, caseId, run
   const {runRoot, descriptor} = await resolveCanonicalRun({
     projectRoot, manifest, runKind: kind, museumId: museum, caseId, runId, writable: false,
   });
+  const museumId=descriptor.museumId??descriptor.targetMuseumId;
   const failures = [];
   const ratingPath = path.join(runRoot, "rating", "rating-result.json");
   const ratingInputPath = path.join(runRoot, "selection", "rating-input.json");
   if (await exists(ratingPath)) {
     const rating = JSON.parse(await fs.readFile(ratingPath, "utf8"));
-    if (rating.runId !== descriptor.runId || rating.museumId !== descriptor.museumId) {
+    if (rating.runId !== descriptor.runId || rating.museumId !== museumId) {
       failures.push("rating run identity drift");
     }
     if (rating.inputSha256 !== await hashFile(ratingInputPath)) failures.push("selection to rating input drift");
@@ -78,7 +79,7 @@ export async function verifyRunCausality({projectRoot, kind, museum, caseId, run
       }
     }
   }
-  return {status: failures.length ? "failed" : "passed", runId, museumId: descriptor.museumId, failures};
+  return {status: failures.length ? "failed" : "passed", runId, museumId, failures};
 }
 
 async function main() {

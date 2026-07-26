@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 2,
+  "museumId": "chichuartmuseum",
+  "workId": "walter-de-maria-time-timeless-no-time-2004",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Chichu Art Museum | Art",
+      "publisher": "Benesse Art Site Naoshima / 地中美术馆",
+      "url": "https://benesse-artsite.jp/en/art/chichu.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "artist",
+        "availability",
+        "museumContext"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Benesse Art Site Naoshima Media Kit, Chichu Art Museum Works Introduction",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "date",
+        "material",
+        "dimensions",
+        "process",
+        "spatialArrangement",
+        "design",
+        "light"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Right Place, Right Action, Right Time: Tadao Ando and Walter De Maria",
+      "publisher": "Los Angeles County Museum of Art (LACMA), Unframed",
+      "url": "https://unframed.lacma.org/2013/12/12/right-place-right-action-right-time-tadao-ando-and-walter-de-maria",
+      "sourceType": "museum",
+      "usedFor": [
+        "creationHistory",
+        "siteRelation",
+        "artistHistory",
+        "artistArchitectRelation"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "这件作品为地中美术馆这一具体建筑空间创作，并在2004年随该馆的建立而完成展示关系。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S2",
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "当前可见性",
+      "statement": "馆方对象页目前将作品列为常设展示，但具体开放日、预约和现场可见性仍可能随馆方安排变化。"
+    },
+    {
+      "topic": "标题含义与艺术家意图",
+      "statement": "正文对“时间／无时／无时间”的解释是根据作品的光线、材料和空间关系提出的观看性理解，不表述为艺术家明确意图。"
+    }
+  ],
+  "upstreamConflicts": []
+}

@@ -1,0 +1,47 @@
+{
+  "status": "failed",
+  "errors": [
+    {
+      "code": "UNSUPPORTED_HIGH_RISK_CLAIM",
+      "message": "Strong factual claim lacks a valid source record",
+      "matches": [
+        "画名中的“草丛”也很重要——它把注意力从名气最大的睡莲花朵，拉回到水面上更密集、更暧昧的植物关系"
+      ],
+      "severity": "error"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "BROAD_EVALUATION",
+      "message": "Broad evaluative wording is not a hard failure",
+      "matches": [
+        "重要"
+      ],
+      "severity": "warning"
+    }
+  ],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": false,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "这不是一座偶然遇见的池塘",
+    "“草丛”让睡莲变得不那么好认",
+    "从画框里的风景，到可以进入的环境"
+  ],
+  "sourceCount": 6,
+  "articleBytes": 4791,
+  "sourcesBytes": 3079
+}

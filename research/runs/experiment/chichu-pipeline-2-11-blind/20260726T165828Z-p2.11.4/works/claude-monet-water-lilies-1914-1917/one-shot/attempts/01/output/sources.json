@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 2,
+  "museumId": "chichuartmuseum",
+  "workId": "claude-monet-water-lilies-1914-1917",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Chichu Art Museum | Art",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/art/chichu.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "availability",
+        "displayContext"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Chichu Art Museum Works Introduction / Media Kit",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "medium",
+        "dimensions",
+        "collectionRelation",
+        "displayContext"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Claude Monet - Water Lilies",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/437137",
+      "sourceType": "museum",
+      "usedFor": [
+        "seriesContext",
+        "process",
+        "lateStyle"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Claude Monet",
+      "publisher": "National Gallery of Art",
+      "url": "https://www.nga.gov/artists/1726-claude-monet",
+      "sourceType": "museum",
+      "usedFor": [
+        "artistContext",
+        "gardenContext",
+        "seriesContext"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Claude Monet - The Manneporte / Monet essay context",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/ko/met-essays/claude-monet-1840-1926",
+      "sourceType": "museum",
+      "usedFor": [
+        "seriesContext",
+        "lateStyle"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "单件馆藏号与收藏史",
+      "statement": "本次核对的官方对象页和馆方公开资料未提供该件《睡莲》的 accession number 或完整 provenance，本文未补写。"
+    },
+    {
+      "topic": "当前观看安排",
+      "statement": "馆方页面将五幅《睡莲》列为在馆内永久展示；实际开放与单件作品可见性仍可能因维护或现场安排变化。"
+    }
+  ],
+  "upstreamConflicts": []
+}

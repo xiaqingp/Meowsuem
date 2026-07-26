@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 2,
+  "museumId": "chichuartmuseum",
+  "workId": "james-turrell-open-field-2000",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Chichu Art Museum",
+      "publisher": "Benesse Art Site Naoshima / 地中美术馆",
+      "url": "https://benesse-artsite.jp/en/art/chichu.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "availability",
+        "museumContext"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Benesse Art Site Naoshima General Press Media Kit",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://www.benesse-artsite.jp/en/contact/press/BASN_MediaKit_April2018_GenerallPress_eng.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "installationContext",
+        "artistAndArchitectRelation"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Conference by Michael Govan",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/story/20170215-770.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "artistPractice",
+        "lightAndGeometry",
+        "workContext"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Sublime Experience for Sustainable Underground Space: Integration of the Artists’ Works in Chichu Art Museum",
+      "publisher": "MDPI / Sustainability",
+      "url": "https://www.mdpi.com/2071-1050/13/12/6653",
+      "sourceType": "academic",
+      "usedFor": [
+        "makingProcess",
+        "spatialOrganization",
+        "viewingExperience",
+        "dimensions",
+        "movementAndPerception"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "收藏史与馆藏号",
+      "statement": "本次核对到的馆方公开页面确认作品的展示关系，但未提供独立收藏史或馆藏号；文章未对此作推断。"
+    },
+    {
+      "topic": "艺术家明确意图",
+      "statement": "来源支持对作品观看机制、空间组织和知觉效果的解释，但文章没有把这些解释写成詹姆斯·特瑞尔的确定意图。"
+    }
+  ],
+  "upstreamConflicts": []
+}

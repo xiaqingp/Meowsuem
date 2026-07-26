@@ -23,7 +23,9 @@ const approvedNonProseWriters = new Set([
   "run-one-shot-work.mjs",
   "verify-one-shot-work.mjs",
   "adapt-one-shot-work.mjs",
-  "prepare-one-shot-work-patch.mjs"
+  "prepare-one-shot-work-patch.mjs",
+  "verify-blind-run-protection.mjs",
+  "freeze-blind-run.mjs"
 ]);
 const failures = [];
 

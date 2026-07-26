@@ -1,0 +1,48 @@
+{
+  "id": "PCR-2026-07-26-blind-experiment-runtime",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-26",
+  "ownerInstruction": "Run a from-zero Chichu blind experiment through Pipeline 2.11 and repair only generalized execution, schema, safety, resume, causality, reporting, or publish dry-run defects encountered before or during the run.",
+  "baseRelease": "research/pipeline/releases/v2.11.0.json",
+  "targetVersion": "2.11.1",
+  "implementationStatus": "in_progress",
+  "scope": [
+    "experiment run orchestration",
+    "experiment target museum identity",
+    "non-production publish dry-run",
+    "official identity without accession numbers",
+    "selected-work image resolution",
+    "locked museum placeholder policy",
+    "remote image URL safety",
+    "cross-PowerShell SHA-256 validation",
+    "blind-run mechanical verification and reporting"
+  ],
+  "outOfScope": [
+    "hard-coding Chichu works or artists",
+    "editing discovered candidates or selection",
+    "changing museum prose, score, routes, or production UI",
+    "publishing the experiment to production"
+  ],
+  "allowedCanonicalFiles": [
+    "research/pipeline/prompts/museum-scope.md",
+    "research/pipeline/prompts/museum-discovery.md",
+    "scripts/run-isolated-generation.ps1",
+    "scripts/run-museum-pipeline.mjs",
+    "scripts/prepare-one-shot-work-inputs.mjs",
+    "scripts/schemas/one-shot-locked-metadata.schema.json",
+    "scripts/schemas/verified-image-evidence.schema.json",
+    "scripts/verify-one-shot-work.mjs",
+    "scripts/resolve-museum-image-evidence.mjs",
+    "scripts/image-providers/url-safety.mjs",
+    "scripts/prepare-museum-publication-plan.mjs",
+    "scripts/assemble-museum-candidate.mjs",
+    "scripts/finalize-museum.mjs",
+    "scripts/verify-run-causality.mjs",
+    "scripts/report-museum-generation.mjs"
+  ],
+  "verification": {
+    "status": "in_progress",
+    "record": "research/pipeline/tests/pipeline-2.11.1/result.json"
+  }
+}

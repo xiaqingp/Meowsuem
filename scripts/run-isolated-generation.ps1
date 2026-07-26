@@ -7,6 +7,23 @@ param(
 )
 
 $ErrorActionPreference = 'Stop'
+
+function Get-Sha256Hex {
+    param([Parameter(Mandatory = $true)][string]$LiteralPath)
+    $stream = [IO.File]::OpenRead($LiteralPath)
+    try {
+        $algorithm = [Security.Cryptography.SHA256]::Create()
+        try {
+            return ([BitConverter]::ToString($algorithm.ComputeHash($stream))).Replace('-', '').ToLowerInvariant()
+        }
+        finally {
+            $algorithm.Dispose()
+        }
+    }
+    finally {
+        $stream.Dispose()
+    }
+}
 $runnerStartedAt = [DateTimeOffset]::Now
 $modelStartedAt = $null
 $modelCompletedAt = $null
@@ -138,7 +155,7 @@ $imageCandidatePacketText = $null
 $blocks = foreach ($input in $header.allowedInputs) {
     $full = [IO.Path]::GetFullPath((Join-Path $project $input.path))
     if (-not [IO.File]::Exists($full)) { throw "missing input: $($input.path)" }
-    $actual = (Get-FileHash -Algorithm SHA256 -LiteralPath $full).Hash.ToLowerInvariant()
+    $actual = Get-Sha256Hex -LiteralPath $full
     if ($actual -ne $input.sha256) { throw "input hash mismatch: $($input.path)" }
     $inputText = [IO.File]::ReadAllText($full, [Text.Encoding]::UTF8)
     if ([string]$header.pipelineVersion -eq [string]$manifest.pipelineVersion -and [string]$header.stage -eq 'research' -and [string]$input.role -eq 'candidate_packet') {
@@ -219,7 +236,7 @@ if ($manifest -and [string]$header.pipelineVersion -eq [string]$manifest.pipelin
                 throw 'image candidate escaped project root'
             }
             if (-not [IO.File]::Exists($candidatePath)) { throw "missing image candidate: $($candidate.localPath)" }
-            $candidateHash = (Get-FileHash -Algorithm SHA256 -LiteralPath $candidatePath).Hash.ToLowerInvariant()
+            $candidateHash = Get-Sha256Hex -LiteralPath $candidatePath
             if ($candidateHash -ne [string]$candidate.sha256) { throw "image candidate hash mismatch: $($candidate.localPath)" }
         }
     }
@@ -298,7 +315,7 @@ $recordedOutputs = foreach ($output in $outputPaths) {
     if (-not [IO.File]::Exists($output.FullPath)) { throw "missing output after generation: $($output.Name)" }
     [ordered]@{
         path = $output.Name
-        sha256 = (Get-FileHash -Algorithm SHA256 -LiteralPath $output.FullPath).Hash.ToLowerInvariant()
+        sha256 = Get-Sha256Hex -LiteralPath $output.FullPath
         bytes = (Get-Item -LiteralPath $output.FullPath).Length
     }
 }

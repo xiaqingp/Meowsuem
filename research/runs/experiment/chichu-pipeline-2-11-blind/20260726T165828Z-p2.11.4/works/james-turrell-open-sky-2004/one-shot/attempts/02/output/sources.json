@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 2,
+  "museumId": "chichuartmuseum",
+  "workId": "james-turrell-open-sky-2004",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Chichu Art Museum",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/art/chichu.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "availability",
+        "collectionRelation",
+        "museumContext",
+        "artistBackground"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Benesse Art Site Naoshima Media Kit: General Press Information",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://www.benesse-artsite.jp/en/contact/press/BASN_MediaKit_April2018_GenerallPress_eng.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "collectionRelation",
+        "designRelation"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Sublime Experience for Sustainable Underground Space: Integration of the Artists’ Works in Chichu Art Museum",
+      "publisher": "Sustainability / MDPI",
+      "url": "https://www.mdpi.com/2071-1050/13/12/6653",
+      "sourceType": "academic",
+      "usedFor": [
+        "architecture",
+        "viewingExperience",
+        "spatialOrganization"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Conference by Michael Govan",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/story/20170215-770.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "colorLight",
+        "perceptionInterpretation"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "imageEvidence",
+      "statement": "本次没有可靠的作品图，因此文章未对具体外观、色彩瞬间或观众视角作基于图片的判断。"
+    }
+  ],
+  "upstreamConflicts": []
+}

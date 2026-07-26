@@ -1,0 +1,43 @@
+{
+  "id": "PCR-2026-07-26-blind-run-mechanical-hotfixes",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-26",
+  "ownerInstruction": "During the authorized Chichu blind run, repair only generalized execution, verifier, resume, finalization, release-scope and freeze bugs; add regression tests without changing museum answers or production content.",
+  "baseRelease": "research/pipeline/releases/v2.11.4.json",
+  "targetVersion": "2.11.5",
+  "implementationStatus": "completed",
+  "scope": [
+    "normalize optional www prefix for same-site official metadata evidence",
+    "consume publication-plan-owned assembly input in finalizer and future contract verification",
+    "scope non-publish experiment release verification to the run target museum",
+    "keep the production significance gate on production release paths while excluding unrelated global production debt from non-publish experiments",
+    "make orchestrator retry-failed bypass a stale completed batch report",
+    "freeze blind-run artifacts and verify production-tree and temporary-mutation protection"
+  ],
+  "outOfScope": [
+    "changing model-generated articles or sources",
+    "changing candidate discovery, selection, rating or structure",
+    "changing production significance baseline",
+    "weakening production publish gates",
+    "production publication"
+  ],
+  "allowedCanonicalFiles": [
+    "scripts/verify-one-shot-work.mjs",
+    "scripts/finalize-museum.mjs",
+    "scripts/verify-future-museum-contract.mjs",
+    "scripts/verify-release-candidate.mjs",
+    "scripts/run-museum-pipeline.mjs",
+    "scripts/verify-content-pipeline.mjs",
+    "scripts/verify-blind-run-protection.mjs",
+    "scripts/freeze-blind-run.mjs"
+  ],
+  "verification": {
+    "status": "passed",
+    "commands": [
+      "node scripts/test-one-shot-work.mjs",
+      "node scripts/test-experiment-orchestrator.mjs",
+      "node scripts/test-museum-pipeline-e2e.mjs"
+    ]
+  }
+}

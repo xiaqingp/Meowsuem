@@ -1,0 +1,63 @@
+{
+  "status": "failed",
+  "errors": [
+    {
+      "code": "OFFICIAL_SOURCE_COVERAGE",
+      "message": "Official object source does not cover material",
+      "matches": [
+        "material"
+      ],
+      "severity": "error"
+    },
+    {
+      "code": "UNSUPPORTED_DIRECT_QUOTE",
+      "message": "Direct quotation lacks a valid source record",
+      "matches": [
+        "它没有说“柳树”"
+      ],
+      "severity": "error"
+    },
+    {
+      "code": "UNSUPPORTED_DIRECT_QUOTE",
+      "message": "Direct quotation lacks a valid source record",
+      "matches": [
+        "而说“柳树倒影”"
+      ],
+      "severity": "error"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "BROAD_EVALUATION",
+      "message": "Broad evaluative wording is not a hard failure",
+      "matches": [
+        "重要"
+      ],
+      "severity": "warning"
+    }
+  ],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": false,
+    "strongClaimsRecorded": true,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "柳树没有出现，却占据了画面",
+    "从花园到画布：莫奈为什么反复画池塘",
+    "作品和建筑一起改变观看"
+  ],
+  "sourceCount": 4,
+  "articleBytes": 4543,
+  "sourcesBytes": 2398
+}

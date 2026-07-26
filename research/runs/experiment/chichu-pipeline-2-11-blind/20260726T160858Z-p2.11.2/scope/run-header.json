@@ -1,0 +1,36 @@
+{
+  "runId": "20260726T160858Z-p2.11.2",
+  "startedAt": "2026-07-26T16:09:13.606Z",
+  "stage": "museum_scope",
+  "caseId": "chichu-pipeline-2-11-blind",
+  "pipelineVersion": "2.11.2",
+  "instructionVersion": "2.4.0",
+  "executionProfile": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "high",
+    "runner": "scripts/run-isolated-generation.ps1"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "d80ee1c0f28a4f21a26b3d7daefe825812b9007b3208dd80451ae13cee95fc96"
+    },
+    {
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T160858Z-p2.11.2/scope/request.json",
+      "role": "museum_request",
+      "sha256": "a07efc5491ffa11ee560aa4425467d625a65e6d57b40b6470695d98e1c89a5c2"
+    },
+    {
+      "path": "research/pipeline/prompts/museum-scope.md",
+      "role": "stage_prompt",
+      "sha256": "90859982c6a3de3fe61f6af09ced973ab23093a235f838851fef4733de1dc168"
+    }
+  ],
+  "outputs": [
+    "scope.json"
+  ],
+  "reviewer": "disabled",
+  "retry": "explicit_only",
+  "publicationBoundary": "run_only"
+}

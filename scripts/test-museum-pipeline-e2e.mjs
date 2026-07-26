@@ -31,7 +31,7 @@ try {
     "--kind=production",`--museum=${museumId}`,"--milestone=M31",`--now=${fixedNow}`,
   ]);
   const request={schemaVersion:1,museumId,museumName:"Micro Museum",city:"Test City",country:"Test Country",officialCollectionUrl:"https://example.org/collection",editorialCapacity:3};
-  const scope={...request,collectionBoundaries:["fixture"],exclusions:[],riskFlags:[],sourcePointers:["https://example.org/collection"]};
+  const scope={...request,coordinates:[1,2],collectionBoundaries:["fixture"],exclusions:[],riskFlags:[],sourcePointers:["https://example.org/collection"]};
   await writeJson("scope/request.json",request);
   await writeJson("scope/scope.json",scope);
 
@@ -64,7 +64,19 @@ try {
   await writeJson("selection/selection.json",{schemaVersion:1,museumId,museumName:"Micro Museum",selectedWorks});
   await writeJson("selection/rating-input.json",ratingInput);
   const placements=identities.map((item,index)=>({workId:item.workId,sectionId:index===2?"rare":"main",stay:index===2?"8分钟":"5分钟",routeRole:["all"]}));
-  await writeJson("structure/structure.json",{schemaVersion:1,museumId,works:placements,chapters:[{id:"main"},{id:"rare"}],routes:{}});
+  const allWorkIds=identities.map(item=>item.workId);
+  await writeJson("structure/structure.json",{
+    schemaVersion:1,museumId,works:placements,
+    chapters:[
+      {id:"main",number:"01",title:"主要作品",intro:"fixture",workIds:allWorkIds.slice(0,2)},
+      {id:"rare",number:"02",title:"珍品",intro:"fixture",workIds:allWorkIds.slice(2)},
+    ],
+    routes:{
+      "90":{title:"90分钟",note:"",workIds:allWorkIds},
+      half:{title:"半天",note:"",workIds:allWorkIds},
+      all:{title:"完整",note:"",workIds:allWorkIds},
+    },
+  });
 
   const imageSource=path.join(projectRoot,"assets","enoura","winter-tunnel.jpg");
   const evidenceWorks=[];

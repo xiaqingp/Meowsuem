@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 2,
+  "museumId": "chichuartmuseum",
+  "workId": "claude-monet-water-lily-pond-1917-1919",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "地中美术馆",
+      "publisher": "Benesse Art Site Naoshima / Chichu Art Museum",
+      "url": "https://benesse-artsite.jp/en/art/chichu.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "currentDisplay",
+        "collectionRelation",
+        "museumContext"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "地中美术馆作品介绍：睡莲系列",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/contact/press/BASN_%E3%83%97%E3%83%AC%E3%82%B9%E3%82%AD%E3%83%83%E3%83%88_2018.4%E6%9C%88_%E4%B8%80%E8%88%AC%E3%83%97%E3%83%AC%E3%82%B9%E7%94%A8.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "dimensions"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Cat. 47. Water Lily Pond, 1917/19",
+      "publisher": "Art Institute of Chicago",
+      "url": "https://publications.artic.edu/api/epub/monet/135623/print_view",
+      "sourceType": "academic",
+      "usedFor": [
+        "seriesContext",
+        "makingProcess",
+        "historicalContext",
+        "composition"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "地中美术馆官方页面将1917—1919年的《Water-Lily Pond》列为馆内自然光莫奈作品之一；该馆长期呈现五幅莫奈《睡莲》系列作品。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "芝加哥艺术博物馆学术目录将1917—1919年的《Water Lily Pond》置于一组以池面、睡莲和倒影为主题的十九幅作品中，并说明其与莫奈的大型装饰画计划有关。",
+      "type": "other",
+      "sourceIds": [
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "收藏史与馆藏号",
+      "statement": "本次核对的地中美术馆官方对象页面及相关馆方资料未公开该单件作品的完整收藏史或馆藏号，因此不作补充推断。"
+    },
+    {
+      "topic": "制作细节",
+      "statement": "本次未找到地中美术馆这幅单件作品的专属技术检测报告；关于反复调整、分层绘制等细节，文章仅依据同一时期同题材作品的学术技术研究，用于说明创作方法的背景，不将其全部视为本作专属检测结论。"
+    }
+  ],
+  "upstreamConflicts": []
+}

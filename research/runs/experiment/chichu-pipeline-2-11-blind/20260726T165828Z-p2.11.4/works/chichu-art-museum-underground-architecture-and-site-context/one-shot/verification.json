@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "errors": [],
+  "warnings": [
+    {
+      "code": "BROAD_EVALUATION",
+      "message": "Broad evaluative wording is not a hard failure",
+      "matches": [
+        "重要"
+      ],
+      "severity": "warning"
+    }
+  ],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": true,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "为什么要把美术馆藏进地下",
+    "这里展出的不是三位艺术家加一栋楼",
+    "光线不是照明，而是会流动的材料",
+    "直岛上的一座场域锚点"
+  ],
+  "sourceCount": 4,
+  "articleBytes": 5075,
+  "sourcesBytes": 2056
+}

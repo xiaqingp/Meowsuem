@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260726T165828Z-p2.11.4",
+  "runKind": "experiment",
+  "status": "passed",
+  "liveVerification": false,
+  "publicationMode": "dry-run",
+  "productionSignificanceGate": "not_applicable_to_non_publish_experiment",
+  "preexistingProductionBaseline": {
+    "status": "passed_with_preexisting_significance_baseline",
+    "record": "research/pipeline/tests/filesystem-contract-v1/result.json",
+    "failureCount": 145,
+    "failureCategory": "significance_audit_pending",
+    "failureSetSha256": "de674ef30690a5b7351d86fe2440b20d733a8568e7f54a049a1e59a8f8e188d0",
+    "filesystemRelatedFailures": 0
+  }
+}

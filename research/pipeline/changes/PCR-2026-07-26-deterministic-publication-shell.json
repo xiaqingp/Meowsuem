@@ -1,0 +1,43 @@
+{
+  "id": "PCR-2026-07-26-deterministic-publication-shell",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-26",
+  "ownerInstruction": "During the authorized Chichu blind run, close generalized image-placeholder and deterministic publication-shell gaps without adding museum-specific answers.",
+  "baseRelease": "research/pipeline/releases/v2.11.2.json",
+  "targetVersion": "2.11.3",
+  "implementationStatus": "completed",
+  "scope": [
+    "scope coordinates as locked location evidence",
+    "structure consumes all frozen planning inputs",
+    "structure emits narrative structure rather than frontend publication internals",
+    "deterministic publication plan creates the exact assembly shell",
+    "candidate identity normalization without invented accession numbers",
+    "official-page museum hero placeholder resolution",
+    "assembler consumes the publication-plan-owned assembly input"
+  ],
+  "outOfScope": [
+    "changing discovered candidates or selected works",
+    "manual image mapping",
+    "museum-specific provider code",
+    "production publication"
+  ],
+  "allowedCanonicalFiles": [
+    "research/pipeline/prompts/museum-scope.md",
+    "research/pipeline/prompts/museum-structure.md",
+    "scripts/run-museum-pipeline.mjs",
+    "scripts/prepare-one-shot-work-inputs.mjs",
+    "scripts/schemas/one-shot-locked-metadata.schema.json",
+    "scripts/image-providers/url-safety.mjs",
+    "scripts/resolve-museum-image-evidence.mjs",
+    "scripts/prepare-museum-publication-plan.mjs",
+    "scripts/assemble-museum-candidate.mjs"
+  ],
+  "verification": {
+    "status": "passed",
+    "commands": [
+      "node scripts/test-image-url-safety.mjs",
+      "node scripts/test-museum-pipeline-e2e.mjs"
+    ]
+  }
+}

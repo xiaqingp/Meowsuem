@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "errors": [],
+  "warnings": [
+    {
+      "code": "BROAD_EVALUATION",
+      "message": "Broad evaluative wording is not a hard failure",
+      "matches": [
+        "重要"
+      ],
+      "severity": "warning"
+    }
+  ],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": true,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "从花园到一整片水面",
+    "晚年的巨大实验"
+  ],
+  "sourceCount": 3,
+  "articleBytes": 4479,
+  "sourcesBytes": 1918
+}

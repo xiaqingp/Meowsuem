@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "stage": "verified_image_evidence",
+  "museumId": "chichuartmuseum",
+  "pipelineVersion": "2.11.2",
+  "generatedAt": "2026-07-26T16:32:23.012Z",
+  "fresh": true,
+  "legacyAssetInputsRead": false,
+  "resolver": {
+    "version": 4,
+    "browser": "optional Chrome override via Playwright",
+    "modelPolicy": "ambiguity_only",
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium"
+  },
+  "summary": {
+    "works": 11,
+    "accepted": 0,
+    "ambiguous": 0,
+    "unresolved": 11,
+    "wallClockMs": 8099,
+    "modelCalls": 0,
+    "modelTokens": 0
+  },
+  "modelRun": null,
+  "works": [
+    {
+      "workId": "claude-monet-water-lilies-reflections-of-weeping-willows-1916-19",
+      "identity": {
+        "identityAnchor": "chichu-monet-water-lilies-reflections-of-weeping-willows-1916-19",
+        "accessionNumber": "chichu-monet-water-lilies-reflections-of-weeping-willows-1916-19",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "status": "identity_conflict",
+      "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "httpStatus": 200,
+      "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+      "candidates": [],
+      "resolver": "provider_adapters_v1",
+      "durationMs": 2850
+    },
+    {
+      "workId": "claude-monet-water-lilies-1914-17",
+      "identity": {
+        "identityAnchor": "chichu-monet-water-lilies-1914-17",
+        "accessionNumber": "chichu-monet-water-lilies-1914-17",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "status": "identity_conflict",
+      "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "httpStatus": 200,
+      "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+      "candidates": [],
+      "resolver": "provider_adapters_v1",
+      "durationMs": 3164
+    },
+    {
+      "workId": "claude-monet-water-lily-pond-1917-19",
+      "identity": {
+        "identityAnchor": "chichu-monet-water-lily-pond-1917-19",
+        "accessionNumber": "chichu-monet-water-lily-pond-1917-19",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "status": "identity_conflict",
+      "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "httpStatus": 200,
+      "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+      "candidates": [],
+      "resolver": "provider_adapters_v1",
+      "durationMs": 3388
+    },
+    {
+      "workId": "james-turrell-afrum-pale-blue-1968",
+      "identity": {
+        "identityAnchor": "chichu-turrell-afrum-pale-blue-1968",
+        "accessionNumber": "chichu-turrell-afrum-pale-blue-1968",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "status": "identity_conflict",
+      "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "httpStatus": 200,
+      "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+      "candidates": [],
+      "resolver": "provider_adapters_v1",
+      "durationMs": 4562
+    },
+    {
+      "workId": "claude-monet-water-lily-pond-c1915-26",
+      "identity": {
+        "identityAnchor": "chichu-monet-water-lily-pond-c1915-26",
+        "accessionNumber": "chichu-monet-water-lily-pond-c1915-26",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "status": "identity_conflict",
+      "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "httpStatus": 200,
+      "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+      "candidates": [],
+      "resolver": "provider_adapters_v1",
+      "durationMs": 5346
+    },
+    {
+      "workId": "james-turrell-open-sky-2004",
+      "identity": {
+        "identityAnchor": "chichu-turrell-open-sky-2004",
+        "accessionNumber": "chichu-turrell-open-sky-2004",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "status": "identity_conflict",
+      "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "httpStatus": 200,
+      "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+      "candidates": [],
+      "resolver": "provider_adapters_v1",
+      "durationMs": 2193
+    },
+    {
+      "workId": "claude-monet-water-lilies-cluster-of-grass-1914-17",
+      "identity": {
+        "identityAnchor": "chichu-monet-water-lilies-cluster-of-grass-1914-17",
+        "accessionNumber": "chichu-monet-water-lilies-cluster-of-grass-1914-17",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "status": "identity_conflict",
+      "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "httpStatus": 200,
+      "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+      "candidates": [],
+      "resolver": "provider_adapters_v1",
+      "durationMs": 5592
+    },
+    {
+      "workId": "james-turrell-open-field-2000",
+      "identity": {
+        "identityAnchor": "chichu-turrell-open-field-2000",
+        "accessionNumber": "chichu-turrell-open-field-2000",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "status": "identity_conflict",
+      "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "httpStatus": 200,
+      "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+      "candidates": [],
+      "resolver": "provider_adapters_v1",
+      "durationMs": 2766
+    },
+    {
+      "workId": "walter-de-maria-time-timeless-no-time-2004",
+      "identity": {
+        "identityAnchor": "chichu-de-maria-time-timeless-no-time-2004",
+        "accessionNumber": "chichu-de-maria-time-timeless-no-time-2004",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "status": "identity_conflict",
+      "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "httpStatus": 200,
+      "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+      "candidates": [],
+      "resolver": "provider_adapters_v1",
+      "durationMs": 3124
+    },
+    {
+      "workId": "chichu-art-museum-architecture-2004",
+      "identity": {
+        "identityAnchor": "chichu-art-museum-architecture-tadao-ando-2004",
+        "accessionNumber": "chichu-art-museum-architecture-tadao-ando-2004",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "status": "identity_conflict",
+      "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "httpStatus": 200,
+      "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+      "candidates": [],
+      "resolver": "provider_adapters_v1",
+      "durationMs": 2813
+    },
+    {
+      "workId": "chichu-garden-museum-level-context",
+      "identity": {
+        "identityAnchor": "chichu-garden-museum-level-context",
+        "accessionNumber": "chichu-garden-museum-level-context",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "status": "identity_conflict",
+      "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "httpStatus": 200,
+      "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+      "candidates": [],
+      "resolver": "provider_adapters_v1",
+      "durationMs": 2117
+    }
+  ]
+}

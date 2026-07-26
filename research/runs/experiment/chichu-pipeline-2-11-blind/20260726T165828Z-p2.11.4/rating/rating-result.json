@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "failures": [],
+  "summary": {
+    "museumId": "chichuartmuseum",
+    "workCount": 10,
+    "significanceCounts": {
+      "稀世珍品": 0,
+      "重要藏品": 9,
+      "特色看点": 0,
+      "体验补充": 1
+    },
+    "rareAssets": [],
+    "independentRareLines": [],
+    "score": 79,
+    "scoreBand": "70–79 · 可去可不去",
+    "withinBandAnchor": "78–79"
+  },
+  "runId": "20260726T165828Z-p2.11.4",
+  "museumId": "chichuartmuseum",
+  "inputSha256": "2fbbc564f08809916d5f06d36b875629af7c9d1bcfb24239467199ba9717d323",
+  "inputPath": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/selection/rating-input.json"
+}

@@ -1,0 +1,47 @@
+{
+  "status": "failed",
+  "errors": [
+    {
+      "code": "OFFICIAL_SOURCE_COVERAGE",
+      "message": "Official museum sources do not cover material",
+      "matches": [
+        "material"
+      ],
+      "severity": "error"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "BROAD_EVALUATION",
+      "message": "Broad evaluative wording is not a hard failure",
+      "matches": [
+        "重要"
+      ],
+      "severity": "warning"
+    }
+  ],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": true,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "莫奈先造了一座花园，再把花园变成画",
+    "方形画幅里的不稳定感",
+    "地中美术馆也参与了这幅画的观看"
+  ],
+  "sourceCount": 5,
+  "articleBytes": 4665,
+  "sourcesBytes": 2393
+}

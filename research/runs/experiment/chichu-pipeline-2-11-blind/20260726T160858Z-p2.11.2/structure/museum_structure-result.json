@@ -1,0 +1,64 @@
+{
+    "runId":  "20260726T160858Z-p2.11.2",
+    "stage":  "museum_structure",
+    "museumId":  "",
+    "caseId":  "chichu-pipeline-2-11-blind",
+    "workId":  "",
+    "pipelineVersion":  "2.11.2",
+    "instructionVersion":  "2.4.0",
+    "model":  "gpt-5.6-luna",
+    "reasoningEffort":  "high",
+    "runnerStartedAt":  "2026-07-26T09:27:32.1907226-07:00",
+    "modelStartedAt":  "2026-07-26T09:27:32.4781695-07:00",
+    "modelCompletedAt":  "2026-07-26T09:31:07.5682998-07:00",
+    "completedAt":  "2026-07-26T09:31:07.5879418-07:00",
+    "runnerDurationMs":  215397,
+    "modelDurationMs":  215090,
+    "tokenUsage":  {
+                       "total":  42019,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "2",
+                                    "7",
+                                    "11",
+                                    "12",
+                                    "13"
+                                ],
+    "logPath":  "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T160858Z-p2.11.2/structure/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "d80ee1c0f28a4f21a26b3d7daefe825812b9007b3208dd80451ae13cee95fc96"
+                   },
+                   {
+                       "path":  "research/pipeline/prompts/museum-structure.md",
+                       "role":  "stage_prompt",
+                       "sha256":  "4fe1be7a5abf83749c33a4866a0d9ea6254171f4c41788d9544863bd294a04dc"
+                   },
+                   {
+                       "path":  "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T160858Z-p2.11.2/selection/selection.json",
+                       "role":  "museum_selection",
+                       "sha256":  "a379e6986407403c8938ec11f2095641a3c72ab5adafa710503e59540c26772b"
+                   },
+                   {
+                       "path":  "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T160858Z-p2.11.2/rating/rating-result.json",
+                       "role":  "museum_rating",
+                       "sha256":  "3d8878f835d012aef4bb02c04a343193a8f872380b84492b4c0a0efa2a6b5426"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "structure.json",
+                        "sha256":  "93378c716f0ff9989202002ae2f9718096dbe774a3d2543df39f95d9487aff4e",
+                        "bytes":  12684
+                    },
+                    {
+                        "path":  "assembly-input.json",
+                        "sha256":  "84b9eca598488bd6da2a47c6e1a6b5622d8c9f411dd85a82bff8671e14b7575d",
+                        "bytes":  14893
+                    }
+                ]
+}

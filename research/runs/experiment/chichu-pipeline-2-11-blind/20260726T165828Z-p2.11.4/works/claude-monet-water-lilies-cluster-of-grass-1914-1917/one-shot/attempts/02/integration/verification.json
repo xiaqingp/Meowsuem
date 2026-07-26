@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "errors": [],
+  "warnings": [
+    {
+      "code": "BROAD_EVALUATION",
+      "message": "Broad evaluative wording is not a hard failure",
+      "matches": [
+        "重要"
+      ],
+      "severity": "warning"
+    }
+  ],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": true,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "从吉维尼的一座水园开始",
+    "画的是水面，也是在拆掉风景的边框",
+    "一幅画，为什么需要一间特别的房间"
+  ],
+  "sourceCount": 5,
+  "articleBytes": 4393,
+  "sourcesBytes": 2377
+}

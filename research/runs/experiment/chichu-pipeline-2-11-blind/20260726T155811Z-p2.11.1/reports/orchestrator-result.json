@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260726T155811Z-p2.11.1",
+  "runKind": "experiment",
+  "museumId": "chichuartmuseum",
+  "caseId": "chichu-pipeline-2-11-blind",
+  "until": "planning_research",
+  "results": [
+    {
+      "stage": "museum_scope",
+      "status": "already_complete"
+    },
+    {
+      "stage": "museum_discovery",
+      "status": "already_complete"
+    },
+    {
+      "stage": "planning_research",
+      "status": "completed"
+    }
+  ]
+}

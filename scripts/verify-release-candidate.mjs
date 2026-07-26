@@ -4,7 +4,6 @@ import {pathToFileURL} from "node:url";
 import vm from "node:vm";
 import {loadManifest, resolveCanonicalRun} from "./lib/filesystem-contract.mjs";
 import "./verify-content-pipeline.mjs";
-import "./verify-significance-evidence.mjs";
 
 const root = new URL("../", import.meta.url);
 const appFile = name => new URL(name, root);
@@ -12,7 +11,13 @@ const baseDataFiles = ["ratings.js", "muxin.js", "museums.js", "louvre.js", "mus
 const argument = name => process.argv.find(value => value.startsWith(`${name}=`))?.slice(name.length + 1);
 const projectRoot = path.resolve(argument("--project-root") || new URL("..", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"));
 const runKind = argument("--kind");
+if (!runKind || runKind === "production") {
+  await import("./verify-significance-evidence.mjs");
+} else {
+  console.log(`production significance gate not applied to non-publish ${runKind} candidate; rating and run causality remain required`);
+}
 let candidateRoot = null;
+let runMuseumId = null;
 if (runKind) {
   const contractManifest = await loadManifest(projectRoot);
   const resolved = await resolveCanonicalRun({
@@ -25,6 +30,7 @@ if (runKind) {
     suppliedRunRoot: argument("--run-root"),
     writable: true
   });
+  runMuseumId = resolved.descriptor.museumId ?? resolved.descriptor.targetMuseumId;
   candidateRoot = pathToFileURL(`${path.join(resolved.runRoot, "candidate")}${path.sep}`);
 } else if (argument("--candidate")) {
   throw new Error("Filesystem contract violation: --candidate requires canonical run identity");
@@ -57,7 +63,7 @@ vm.runInContext("globalThis.__museumData=museumData", context);
 const museums = context.__museumData;
 const failures = [];
 const quiet = process.argv.includes("--quiet");
-const museumArg = process.argv.find(argument => argument.startsWith("--museum="))?.slice(9);
+const museumArg = process.argv.find(argument => argument.startsWith("--museum="))?.slice(9) ?? runMuseumId;
 const concurrencyArg = Number(process.argv.find(argument => argument.startsWith("--concurrency="))?.slice(14) || 8);
 const pageUrls = new Set(["index.html"]);
 const imageUrls = new Map();

@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 2,
+  "museumId": "chichuartmuseum",
+  "workId": "claude-monet-water-lilies-1914-17",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Chichu Art Museum",
+      "publisher": "Benesse Art Site Naoshima / Chichu Art Museum",
+      "url": "https://benesse-artsite.jp/en/art/chichu.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "collectionRelation",
+        "availability",
+        "artist"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "地中美術館 作品紹介 Press Kit",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/contact/press/BASN_%E3%83%97%E3%83%AC%E3%82%B9%E3%82%AD%E3%83%83%E3%83%88_2018.4%E6%9C%88_%E4%B8%80%E8%88%AC%E7%94%A8.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "dimensions"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Claude Monet - Water Lilies",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/437137",
+      "sourceType": "museum",
+      "usedFor": [
+        "series",
+        "late_style",
+        "abstract_interpretation"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Monet's Waterscapes",
+      "publisher": "National Gallery of Art",
+      "url": "https://www.nga.gov/educational-resources/sense-place-france/monets-waterscapes",
+      "sourceType": "museum",
+      "usedFor": [
+        "Giverny",
+        "water_garden",
+        "series_context"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Water lily pond",
+      "publisher": "Fondation Claude Monet",
+      "url": "https://fondation-monet.com/en/decouvrir/water-lily-pond/",
+      "sourceType": "foundation",
+      "usedFor": [
+        "Giverny",
+        "water_lilies",
+        "abstract_interpretation"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "收藏史",
+      "statement": "本次核到的馆方对象资料与公开作品表未提供本作完整收藏或转藏链条，文章未作相关断言。"
+    }
+  ],
+  "upstreamConflicts": []
+}

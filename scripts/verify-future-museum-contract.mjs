@@ -59,8 +59,14 @@ async function main() {
     writable: true
   });
   const candidateRoot = path.join(runRoot, "candidate");
+  const publicationPlan = descriptor.contentContract === "one_shot_v1"
+    ? JSON.parse(await fs.readFile(path.join(runRoot, "assembly", "publication-plan.json"), "utf8"))
+    : null;
+  const assemblyInputPath = descriptor.contentContract === "one_shot_v1"
+    ? path.join(runRoot, publicationPlan.assemblyInput)
+    : path.join(runRoot, "structure", "assembly-input.json");
   const [input, publication, indexHtml, museumHtml, entries] = await Promise.all([
-    fs.readFile(path.join(runRoot, "structure", "assembly-input.json"), "utf8")
+    fs.readFile(assemblyInputPath, "utf8")
       .catch(() => fs.readFile(path.join(runRoot, "assembly-input.json"), "utf8"))
       .then(JSON.parse),
     fs.readFile(path.join(candidateRoot, "publication.json"), "utf8").then(JSON.parse),

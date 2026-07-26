@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 2,
+  "museumId": "chichuartmuseum",
+  "workId": "claude-monet-water-lilies-cluster-of-grass-1914-17",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Chichu Art Museum",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/art/chichu.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "availability",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "地中美術館開館5周年記念 クロード・モネ「睡蓮」新収蔵 初公開 プレスプレビューのお知らせ",
+      "publisher": "Benesse Art Site Naoshima / 地中美術館",
+      "url": "https://benesse-artsite.jp/contact/press/20090427_pressrelease.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "dimensions",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Benesse Art Site Naoshima Media Kit",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "dimensions",
+        "collectionRelation",
+        "availability",
+        "conservation"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "History of the Water Lilies cycle",
+      "publisher": "Musée de l'Orangerie",
+      "url": "https://www.musee-orangerie.fr/en/node/33",
+      "sourceType": "museum",
+      "usedFor": [
+        "seriesContext",
+        "date",
+        "makingProcess",
+        "historicalContext",
+        "significance"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Claude Monet",
+      "publisher": "National Gallery of Art",
+      "url": "https://www.nga.gov/artists/1726-claude-monet",
+      "sourceType": "museum",
+      "usedFor": [
+        "seriesContext",
+        "Giverny",
+        "historicalContext"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "accessionNumber",
+      "statement": "本次核对的官方对象页、官方新闻稿和馆方媒体资料均未公开该作馆藏号，因此不作补写。"
+    },
+    {
+      "topic": "visualAnalysis",
+      "statement": "本次没有可靠的作品图；文章未依据馆舍占位图判断具体色彩、笔触或构图细节。"
+    }
+  ],
+  "upstreamConflicts": []
+}

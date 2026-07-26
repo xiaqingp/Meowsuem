@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "museumId": "chichuartmuseum",
+  "researchedAt": "2026-07-26",
+  "works": [
+    {
+      "workId": "chichu-garden-museum-level-context",
+      "identityStatus": "stable",
+      "identity": {
+        "objectType": "museum_level_context",
+        "title": {
+          "zh": "地中庭院",
+          "en": "Chichu Garden"
+        },
+        "artistOrCulture": "Museum site context / 本馆场地语境",
+        "displayDate": "current site context",
+        "medium": "garden and plantings / 庭园与植物配置",
+        "identityAnchor": "chichu-garden-museum-level-context",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "availability": "museum_site_context; garden-specific access hours are not separately stated on the official museum page; access must be checked against the museum's dated admission slot, open-days calendar, and current closure notices",
+      "importanceCandidate": "体验补充",
+      "rareCandidate": false,
+      "coreValue": "馆方把地中庭院列为地中美术馆的附属设施，并说明其配置近200种与莫奈吉维尼花园所植品种相近的花木，包括睡莲、柳树和鸢尾；它为馆内莫奈晚年《睡莲》系列提供场地语境，但不是独立收藏对象。",
+      "selectionSignals": [
+        "仅作为馆级场地语境保留，不计入独立藏品数量。",
+        "其选择价值来自连接馆内莫奈作品与吉维尼水园植物环境，而非对象级稀有度。",
+        "官方页面将其置于“Café, Store & Garden”设施部分，可支持附属设施身份，不能据此升级为独立艺术品或收藏部门。"
+      ],
+      "sectionSignals": [
+        "Chichu Garden and Monet viewing context",
+        "architecture_and_space",
+        "ritual_or_original_context"
+      ],
+      "routeSignals": [
+        "可作为莫奈观看线的场地背景或收束节点。",
+        "不可替代馆内五幅莫奈《睡莲》系列作品，也不应占用独立藏品名额。",
+        "路线说明须将庭院可见性绑定到参观日期的开放日历、预约时段和临时通知。"
+      ],
+      "riskFlags": [
+        "display_status_can_change",
+        "timed_reservation_required",
+        "temporary_closure_possible"
+      ],
+      "riskResolutions": [
+        {
+          "riskFlag": "display_status_can_change",
+          "status": "resolved_with_boundary",
+          "evidence": [
+            "馆方当前地中美术馆页仍设有独立的 Chichu Garden 条目，并说明全年可见随季节变化的植物景观。",
+            "同页没有为庭院单列开放时间或保证任一日期均可进入，因此不能写成无条件、恒定可见。",
+            "馆方要求参观者按开放日历核对日期；庭院作为馆级附属语境，应沿用现场运营边界。"
+          ],
+          "downstreamRule": "可纳入馆级结构与路线，但状态必须表述为“随美术馆开放与现场运营核验”，不得承诺当天必然可见。",
+          "sourceUrls": [
+            "https://benesse-artsite.jp/en/art/chichu.html"
+          ]
+        },
+        {
+          "riskFlag": "timed_reservation_required",
+          "status": "confirmed_for_museum_admission",
+          "evidence": [
+            "地中美术馆官方页明确要求按日期和时间提前预约。",
+            "同页说明线上票售罄时当日不再现场售票。",
+            "官方 FAQ 说明预约时段以15分钟为间隔；如目标时段售罄，访客须等待空位，且可能无法入馆。",
+            "官方资料没有为 Chichu Garden 声明一套独立于美术馆入场的预约制度。"
+          ],
+          "downstreamRule": "路线规划应把庭院放在地中美术馆预约参观中处理；不得暗示可脱离预约时段单独进入庭院。",
+          "sourceUrls": [
+            "https://benesse-artsite.jp/en/art/chichu.html",
+            "https://benesse-artsite.jp/en/faq/chichu_art_museumonline_tickets.html"
+          ]
+        },
+        {
+          "riskFlag": "temporary_closure_possible",
+          "status": "confirmed",
+          "evidence": [
+            "官方 FAQ 说明恶劣天气或设施原因可能导致临时关闭，突发关闭信息会在馆方网站首页发布。",
+            "2026年6月2日至3日的官方通知记录了台风期间地中美术馆缩短开放时间，并注明时间可能随台风路径变化。",
+            "馆方已公告地中美术馆将于2027年1月12日至3月19日因年度维护关闭。"
+          ],
+          "downstreamRule": "任何参观建议都须提示临行核对官网首页、开放日历和票务状态；2027年1月12日至3月19日不得规划入馆或庭院参观。",
+          "sourceUrls": [
+            "https://benesse-artsite.jp/en/faq/chichu_art_museumonline_tickets.html",
+            "https://benesse-artsite.jp/en/news/20260601-3537.html",
+            "https://benesse-artsite.jp/en/news/20260630-3559.html"
+          ]
+        }
+      ],
+      "comparisonEvidence": {
+        "required": false,
+        "reason": "本候选是馆级场地语境，不是稀世珍品候选或独立收藏对象；不以全球比较或不可替代性支撑等级。"
+      },
+      "attributionEvidence": {
+        "required": false,
+        "reason": "候选身份由馆方本馆页的 Chichu Garden 设施条目直接锚定，不涉及作者归属或年代争议。"
+      },
+      "superlativeEvidence": {
+        "supportedClaims": [],
+        "rejectedClaims": [
+          "世界唯一",
+          "仅存",
+          "最早",
+          "独立艺术品"
+        ],
+        "boundary": "馆方给出的“近200种”是庭院花木种类的近似规模，不支持任何稀有度、唯一性或艺术品身份结论。"
+      },
+      "scoreEvidence": {
+        "supportsMuseumScore": false,
+        "supportsContextualExperience": true,
+        "evidence": [
+          "庭院把馆内莫奈晚年《睡莲》系列与吉维尼水园的植物环境建立可理解的场地联系。",
+          "该价值属于路线和观看语境补充，不构成独立稀世珍品、收藏深度或不可替代收藏组证据。"
+        ]
+      },
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html",
+        "https://benesse-artsite.jp/en/faq/chichu_art_museumonline_tickets.html",
+        "https://benesse-artsite.jp/en/news/20260601-3537.html",
+        "https://benesse-artsite.jp/en/news/20260630-3559.html"
+      ],
+      "sources": [
+        {
+          "url": "https://benesse-artsite.jp/en/art/chichu.html",
+          "publisher": "Benesse Art Site Naoshima",
+          "sourceType": "official_museum_page",
+          "supports": [
+            "Chichu Garden 的馆级附属设施身份",
+            "近200种与吉维尼花园所植品种相近的花木",
+            "睡莲、柳树、鸢尾等植物及四季语境",
+            "地中美术馆按日期和时间预约及售罄边界"
+          ]
+        },
+        {
+          "url": "https://benesse-artsite.jp/en/faq/chichu_art_museumonline_tickets.html",
+          "publisher": "Benesse Art Site Naoshima",
+          "sourceType": "official_ticket_faq",
+          "supports": [
+            "地中美术馆预约制度与15分钟时段",
+            "售罄或无空位时的入馆限制",
+            "恶劣天气或设施原因导致临时关闭及官网通知机制"
+          ]
+        },
+        {
+          "url": "https://benesse-artsite.jp/en/news/20260601-3537.html",
+          "publisher": "Benesse Art Site Naoshima",
+          "sourceType": "official_operational_notice",
+          "publishedOrUpdated": "2026-06-03",
+          "supports": [
+            "台风期间地中美术馆开放时间可临时缩短",
+            "运营时间可能随天气变化"
+          ]
+        },
+        {
+          "url": "https://benesse-artsite.jp/en/news/20260630-3559.html",
+          "publisher": "Benesse Art Site Naoshima",
+          "sourceType": "official_maintenance_notice",
+          "publishedOrUpdated": "2026-06-30",
+          "supports": [
+            "地中美术馆2027年1月12日至3月19日年度维护闭馆"
+          ]
+        }
+      ]
+    }
+  ]
+}

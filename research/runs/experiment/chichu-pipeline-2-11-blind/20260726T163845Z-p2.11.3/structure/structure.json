@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "1.0",
+  "museumId": "chichuartmuseum",
+  "museum": {
+    "name": "地中美術館",
+    "nameEn": "Chichu Art Museum",
+    "city": "直岛 / Naoshima",
+    "country": "日本 / Japan",
+    "address": "日本香川县直岛3449-1",
+    "score": 79,
+    "scoreBand": "70–79 · 可去可不去",
+    "recommendation": "值得为莫奈五件晚年《睡莲》、德·玛利亚的整体性空间装置和特瑞尔三件光装置安排一次有明确重点的到访；它更适合艺术、建筑与现场光线经验的旅行者，而不是只追逐稀世名作的行程。",
+    "thesis": "地中美术馆的价值不在单件藏品的全球稀有性，而在安藤忠雄的地下建筑把绘画、装置、自然光、天空与观看时间组织成一条不可拆开的现场叙事。",
+    "limits": "本馆永久展示范围紧凑，但作品的意义高度依赖现场空间与当日光线；五件莫奈应作为一组理解，特瑞尔《开放天空》的常规观看也不能与另行预约的Night Program混同。",
+    "visitBoundary": "本结构只覆盖直岛地中美术馆本馆及其永久展示作品，不并入Benesse House Museum、Lee Ufan Museum、其他直岛项目、其他岛屿设施或临时项目。永久展示和当前可见性仍需在到访前核对官方日历、新闻与票务信息。",
+    "routePrinciple": "先在莫奈室建立自然光与晚年水园的观看基准，再进入德·玛利亚的整体空间，最后按1968—2000—2004的时间顺序观看特瑞尔；90分钟只取最高回报节点，半天与完整路线覆盖全部九件入选作品。"
+  },
+  "chapters": [
+    {
+      "id": "monet-diptych-and-natural-light",
+      "number": 1,
+      "title": "为什么要从一幅双联画开始看地中美术馆？",
+      "intro": "莫奈的《睡莲池》是莫奈室的主锚点：双联画的巨大尺度先让人意识到，这里展示的不是可脱离房间独立消费的名画，而是画作、自然光与展厅共同形成的观看条件。先看整体画幅，再进入同室四件作品的比较。",
+      "workIds": [
+        "claude-monet-water-lily-pond-c1915-26"
+      ]
+    },
+    {
+      "id": "monet-five-views",
+      "number": 2,
+      "title": "同一个水园，为什么要连续看五次？",
+      "intro": "其余四件《睡莲》把同一收藏组拆成可比较的尺度、年代与题名线索：草丛、池面和柳树倒影各自提供不同的观看入口。不要把它们排成名次，而要在同室自然光下比较画幅如何改变水面与反射的注意力。",
+      "workIds": [
+        "claude-monet-water-lilies-cluster-of-grass-1914-17",
+        "claude-monet-water-lilies-1914-17",
+        "claude-monet-water-lily-pond-1917-19",
+        "claude-monet-water-lilies-reflections-of-weeping-willows-1916-19"
+      ]
+    },
+    {
+      "id": "de-maria-whole-space",
+      "number": 3,
+      "title": "什么时候，房间本身才是作品？",
+      "intro": "德·玛利亚的《时间／无时间／无时》把2.2米花岗岩球体、27件镀金木质几何体、房间和天窗自然光纳入同一个艺术空间。由莫奈的自然光绘画转入这里，观看重点从画面表面移到数量、间距、尺度和光线随时刻的变化。",
+      "workIds": [
+        "walter-de-maria-time-timeless-no-time-2004"
+      ]
+    },
+    {
+      "id": "turrell-light-becomes-space",
+      "number": 4,
+      "title": "光怎样从投影变成可以进入的空间？",
+      "intro": "特瑞尔三件作品应按1968、2000、2004的顺序看。先从投影媒介建立“光是材料”的起点，再观察人工光与建筑表面的关系，最后把问题推进到真实天空、天气与时间进入作品的方式。",
+      "workIds": [
+        "james-turrell-afrum-pale-blue-1968",
+        "james-turrell-open-field-2000"
+      ]
+    },
+    {
+      "id": "turrell-open-sky-and-time",
+      "number": 5,
+      "title": "当天空进入室内，作品还由谁来完成？",
+      "intro": "《开放天空》是特瑞尔时间序列的终点，也是地中美术馆建筑、自然与光线主线的汇合处。常规开放时段与周五、周六另行预约的日落Night Program属于不同观看安排；行程应先完成其他作品，再按官方票务和当日条件决定是否参加特别项目。",
+      "workIds": [
+        "james-turrell-open-sky-2004"
+      ]
+    }
+  ],
+  "routes": {
+    "90": {
+      "title": "90分钟：先抓住地中美术馆的三条主线",
+      "note": "按莫奈室—德·玛利亚—特瑞尔的顺序观看：先看大型双联画，再看整体空间，最后看特瑞尔三件组中的早期投影、人工光空间与天空空间。主动跳过其余四件莫奈，以保留组内比较的最小骨架；不把Night Program当作常规90分钟路线的一部分。",
+      "workIds": [
+        "claude-monet-water-lily-pond-c1915-26",
+        "walter-de-maria-time-timeless-no-time-2004",
+        "james-turrell-afrum-pale-blue-1968",
+        "james-turrell-open-field-2000",
+        "james-turrell-open-sky-2004"
+      ]
+    },
+    "half": {
+      "title": "半天：把收藏组看完整",
+      "note": "先完整观看莫奈五件《睡莲》，再依次进入德·玛利亚和特瑞尔三件作品。把同室作品作为比较组而非打卡清单；《开放天空》的常规开放与预约制Night Program须分开核对，且本路线不包含其他直岛馆址。",
+      "workIds": [
+        "claude-monet-water-lily-pond-c1915-26",
+        "claude-monet-water-lilies-cluster-of-grass-1914-17",
+        "claude-monet-water-lilies-1914-17",
+        "claude-monet-water-lily-pond-1917-19",
+        "claude-monet-water-lilies-reflections-of-weeping-willows-1916-19",
+        "walter-de-maria-time-timeless-no-time-2004",
+        "james-turrell-afrum-pale-blue-1968",
+        "james-turrell-open-field-2000",
+        "james-turrell-open-sky-2004"
+      ]
+    },
+    "all": {
+      "title": "完整浏览：用一次完整现场经验读懂地中美术馆",
+      "note": "覆盖全部九件入选作品，顺序保持莫奈五件组、德·玛利亚整体空间、特瑞尔三件时间序列。建议在莫奈室和德·玛利亚空间各留出回看时间；若参加《开放天空》日落Night Program，须另行预约并在特别项目开始前完成其他作品，具体日期、天气、票务和可见性以官方信息为准。",
+      "workIds": [
+        "claude-monet-water-lily-pond-c1915-26",
+        "claude-monet-water-lilies-cluster-of-grass-1914-17",
+        "claude-monet-water-lilies-1914-17",
+        "claude-monet-water-lily-pond-1917-19",
+        "claude-monet-water-lilies-reflections-of-weeping-willows-1916-19",
+        "walter-de-maria-time-timeless-no-time-2004",
+        "james-turrell-afrum-pale-blue-1968",
+        "james-turrell-open-field-2000",
+        "james-turrell-open-sky-2004"
+      ]
+    }
+  },
+  "works": [
+    {
+      "workId": "claude-monet-water-lily-pond-c1915-26",
+      "sectionId": "monet-diptych-and-natural-light",
+      "stay": "12—15分钟",
+      "routeRole": ["90-anchor", "half-anchor", "all-anchor"]
+    },
+    {
+      "workId": "claude-monet-water-lilies-cluster-of-grass-1914-17",
+      "sectionId": "monet-five-views",
+      "stay": "4—6分钟",
+      "routeRole": ["half-context", "all-context"]
+    },
+    {
+      "workId": "claude-monet-water-lilies-1914-17",
+      "sectionId": "monet-five-views",
+      "stay": "4—6分钟",
+      "routeRole": ["half-context", "all-context"]
+    },
+    {
+      "workId": "claude-monet-water-lily-pond-1917-19",
+      "sectionId": "monet-five-views",
+      "stay": "4—6分钟",
+      "routeRole": ["half-context", "all-context"]
+    },
+    {
+      "workId": "claude-monet-water-lilies-reflections-of-weeping-willows-1916-19",
+      "sectionId": "monet-five-views",
+      "stay": "4—6分钟",
+      "routeRole": ["half-context", "all-context"]
+    },
+    {
+      "workId": "walter-de-maria-time-timeless-no-time-2004",
+      "sectionId": "de-maria-whole-space",
+      "stay": "10—15分钟",
+      "routeRole": ["90-anchor", "half-anchor", "all-anchor", "site-specific"]
+    },
+    {
+      "workId": "james-turrell-afrum-pale-blue-1968",
+      "sectionId": "turrell-light-becomes-space",
+      "stay": "6—8分钟",
+      "routeRole": ["90-sequence", "half-sequence", "all-sequence", "site-specific"]
+    },
+    {
+      "workId": "james-turrell-open-field-2000",
+      "sectionId": "turrell-light-becomes-space",
+      "stay": "8—10分钟",
+      "routeRole": ["90-anchor", "half-sequence", "all-sequence", "site-specific"]
+    },
+    {
+      "workId": "james-turrell-open-sky-2004",
+      "sectionId": "turrell-open-sky-and-time",
+      "stay": "10—15分钟",
+      "routeRole": ["90-anchor", "half-anchor", "all-anchor", "site-specific", "night-program-boundary"]
+    }
+  ]
+}

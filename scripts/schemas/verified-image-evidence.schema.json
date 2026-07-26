@@ -15,10 +15,11 @@
           "workId": {"type": "string", "pattern": "^[a-z][a-z0-9-]*$"},
           "identity": {
             "type": "object",
-            "required": ["title", "accessionNumber", "officialObjectUrl"],
+            "required": ["title", "identityAnchor", "officialObjectUrl"],
             "properties": {
               "title": {"type": "string", "minLength": 1},
               "creator": {"type": "string"},
+              "identityAnchor": {"type": "string", "minLength": 1},
               "accessionNumber": {"type": "string", "minLength": 1},
               "officialObjectUrl": {"type": "string", "format": "uri"}
             }

@@ -1,0 +1,36 @@
+{
+  "runId": "20260726T160858Z-p2.11.2",
+  "startedAt": "2026-07-26T16:22:28.753Z",
+  "stage": "deep_planning_research",
+  "caseId": "chichu-pipeline-2-11-blind",
+  "pipelineVersion": "2.11.2",
+  "instructionVersion": "2.4.0",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "d80ee1c0f28a4f21a26b3d7daefe825812b9007b3208dd80451ae13cee95fc96"
+    },
+    {
+      "path": "research/pipeline/prompts/planning-research.md",
+      "role": "stage_prompt",
+      "sha256": "f82cdd4578690962ec8167ca664ae8c6945687c4e2c55a466925391f20feb97a"
+    },
+    {
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T160858Z-p2.11.2/research/batches/deep-02/candidate-packet.json",
+      "role": "candidate_packet",
+      "sha256": "1469119837f0f97eaf208056f3561217ecd5811b4af192025983ed4eab481dbd"
+    }
+  ],
+  "outputs": [
+    "deep-research-dossier.json"
+  ],
+  "reviewer": "disabled",
+  "retry": "explicit_only",
+  "publicationBoundary": "run_only"
+}

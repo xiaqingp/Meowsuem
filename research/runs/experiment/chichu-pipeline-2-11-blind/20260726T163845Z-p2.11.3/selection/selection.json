@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.0",
+  "museumId": "chichuartmuseum",
+  "museumName": "地中美術館 / Chichu Art Museum",
+  "selectedWorks": [
+    {
+      "workId": "claude-monet-water-lily-pond-c1915-26",
+      "significance": "重要藏品",
+      "priority": "绝对不可错过",
+      "availability": "confirmed_on_view",
+      "imagePolicy": "museum_hero_placeholder",
+      "rareGatePassed": false,
+      "nearestComparator": "同室其余四件莫奈晚年《睡莲》，尤其同题但为100 × 200厘米单幅的《睡莲池》(1917–19)",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "collection_member",
+      "identityStable": true,
+      "sourcePointers": [
+        "research/batches/deep-01/deep-research-dossier.json#/works/0",
+        "research/batches/compact-01/compact-planning-evidence.json#/works/0"
+      ]
+    },
+    {
+      "workId": "claude-monet-water-lilies-cluster-of-grass-1914-17",
+      "significance": "特色看点",
+      "priority": "强烈推荐",
+      "availability": "confirmed_on_view",
+      "imagePolicy": "museum_hero_placeholder",
+      "rareGatePassed": false,
+      "nearestComparator": "同为1914–17年的200 × 200厘米《睡莲》及同室其余三件晚年《睡莲》",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "collection_member",
+      "identityStable": true,
+      "sourcePointers": [
+        "research/batches/deep-01/deep-research-dossier.json#/works/1",
+        "research/batches/compact-01/compact-planning-evidence.json#/works/1"
+      ]
+    },
+    {
+      "workId": "claude-monet-water-lilies-1914-17",
+      "significance": "特色看点",
+      "priority": "强烈推荐",
+      "availability": "confirmed_on_view",
+      "imagePolicy": "museum_hero_placeholder",
+      "rareGatePassed": false,
+      "nearestComparator": "同为1914–17年的200 × 213厘米《睡莲—草丛》及同室其余三件晚年《睡莲》",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "collection_member",
+      "identityStable": true,
+      "sourcePointers": [
+        "research/batches/deep-01/deep-research-dossier.json#/works/2",
+        "research/batches/compact-01/compact-planning-evidence.json#/works/2"
+      ]
+    },
+    {
+      "workId": "claude-monet-water-lily-pond-1917-19",
+      "significance": "特色看点",
+      "priority": "强烈推荐",
+      "availability": "confirmed_on_view",
+      "imagePolicy": "museum_hero_placeholder",
+      "rareGatePassed": false,
+      "nearestComparator": "同尺寸的《睡莲—柳树倒影》(1916–19)，以及同题但为大型双联画的《睡莲池》(c.1915–26)",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "collection_member",
+      "identityStable": true,
+      "sourcePointers": [
+        "research/batches/deep-01/deep-research-dossier.json#/works/3",
+        "research/batches/compact-01/compact-planning-evidence.json#/works/3"
+      ]
+    },
+    {
+      "workId": "claude-monet-water-lilies-reflections-of-weeping-willows-1916-19",
+      "significance": "特色看点",
+      "priority": "强烈推荐",
+      "availability": "confirmed_on_view",
+      "imagePolicy": "museum_hero_placeholder",
+      "rareGatePassed": false,
+      "nearestComparator": "同尺寸的《睡莲池》(1917–19)及同室其余三件晚年《睡莲》",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "collection_member",
+      "identityStable": true,
+      "sourcePointers": [
+        "research/batches/deep-01/deep-research-dossier.json#/works/4",
+        "research/batches/compact-01/compact-planning-evidence.json#/works/4"
+      ]
+    },
+    {
+      "workId": "walter-de-maria-time-timeless-no-time-2004",
+      "significance": "重要藏品",
+      "priority": "绝对不可错过",
+      "availability": "confirmed_on_view",
+      "imagePolicy": "museum_hero_placeholder",
+      "rareGatePassed": false,
+      "nearestComparator": "Walter De Maria《闪电原野》(1977)：同样依靠场所、持续时间和变化光线成立，但为户外杆阵而非室内整体空间",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "whole_site",
+      "identityStable": true,
+      "sourcePointers": [
+        "research/batches/deep-01/deep-research-dossier.json#/works/5",
+        "research/batches/compact-01/compact-planning-evidence.json#/works/5"
+      ]
+    },
+    {
+      "workId": "james-turrell-afrum-pale-blue-1968",
+      "significance": "重要藏品",
+      "priority": "强烈推荐",
+      "availability": "confirmed_on_view",
+      "imagePolicy": "museum_hero_placeholder",
+      "rareGatePassed": false,
+      "nearestComparator": "James Turrell《Afrum I (White)》(1967)与《Afrum (White)》(1966)等早期墙角投影作品",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "identityStable": true,
+      "sourcePointers": [
+        "research/batches/deep-01/deep-research-dossier.json#/works/6",
+        "research/batches/compact-01/compact-planning-evidence.json#/works/6"
+      ]
+    },
+    {
+      "workId": "james-turrell-open-field-2000",
+      "significance": "重要藏品",
+      "priority": "绝对不可错过",
+      "availability": "confirmed_on_view",
+      "imagePolicy": "museum_hero_placeholder",
+      "rareGatePassed": false,
+      "nearestComparator": "同馆《Afrum, Pale Blue》与《Open Sky》，以及特瑞尔其他Ganzfeld和Space Division空间作品",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "independent_object",
+      "identityStable": true,
+      "sourcePointers": [
+        "research/batches/deep-01/deep-research-dossier.json#/works/7",
+        "research/batches/compact-01/compact-planning-evidence.json#/works/7"
+      ]
+    },
+    {
+      "workId": "james-turrell-open-sky-2004",
+      "significance": "重要藏品",
+      "priority": "绝对不可错过",
+      "availability": "confirmed_on_view",
+      "imagePolicy": "museum_hero_placeholder",
+      "rareGatePassed": false,
+      "nearestComparator": "德州大学James Turrell Skyspace《The Color Inside》及同系列其他永久Skyspace",
+      "independenceKey": null,
+      "parentOrWholeWorkId": null,
+      "ratingRole": "whole_site",
+      "identityStable": true,
+      "sourcePointers": [
+        "research/batches/deep-01/deep-research-dossier.json#/works/8",
+        "research/batches/compact-01/compact-planning-evidence.json#/works/8"
+      ]
+    }
+  ],
+  "researchGaps": [
+    "所有候选的官方页或展厅图可用，但锁定证据未确认可无歧义对应单件的直接对象图，因此全部采用馆舍主图占位策略。",
+    "馆方当前称作品永久展示，但未来实际到访仍需核对官方日历、临时新闻、维护与票务状态；《Open Sky》的常规观看与预约制Night Program不得混同。",
+    "现有比较证据均不足以建立全球不可替代性，故没有作品通过“稀世珍品”硬门。"
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "museumId": "chichuartmuseum",
+  "museumName": "地中美術館 / Chichu Art Museum",
+  "city": "直岛 / Naoshima",
+  "country": "日本 / Japan",
+  "officialCollectionUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+  "editorialCapacity": 20,
+  "editorialCapacityReason": "暂定20件。官方资料显示，地中美术馆的稳定核心由莫奈《睡莲》系列5件、Walter De Maria的1件整体性装置以及James Turrell的3件装置构成，并与安藤忠雄建筑及地中花园形成不可分割的现场叙事。馆藏规模本身紧凑，不适合按大型综合馆扩展到30件以上；20件足以覆盖永久展示作品、建筑—自然关系和首次参观主线，同时为后续研究保留少量发现性条目。",
+  "collectionBoundaries": [
+    {
+      "name": "Claude Monet：晚年《睡莲》系列",
+      "location": "地中美术馆内的Claude Monet Space，直岛3449-1",
+      "candidatePool": true,
+      "boundary": "官方页面列明5件永久展示的《睡莲》系列绘画；进入候选池，后续逐件核对官方对象信息。",
+      "sourceIds": ["official_chichu_page", "official_art_overview"]
+    },
+    {
+      "name": "Walter De Maria：Time/Timeless/No Time",
+      "location": "地中美术馆内，直岛3449-1",
+      "candidatePool": true,
+      "boundary": "官方页面将其列为永久展示作品，并以包含球体和镀金木质几何体的整体艺术空间介绍；进入候选池，后续按官方对象身份处理为一件现场装置。",
+      "sourceIds": ["official_chichu_page"]
+    },
+    {
+      "name": "James Turrell：Afrum, Pale Blue；Open Field；Open Sky",
+      "location": "地中美术馆内，直岛3449-1",
+      "candidatePool": true,
+      "boundary": "官方页面列明3件跨越艺术家生涯阶段的永久展示装置；进入候选池，后续逐件核对官方对象信息。",
+      "sourceIds": ["official_chichu_page"]
+    },
+    {
+      "name": "Tadao Ando：地中美术馆建筑",
+      "location": "地中美术馆建筑及其地下空间，直岛3449-1",
+      "candidatePool": false,
+      "boundary": "官方将建筑描述为由艺术家与建筑家共同构想、整体可视为大型现场特定作品的场所；纳入馆级结构与观看语境，不作为藏品候选单件计数。",
+      "sourceIds": ["official_chichu_page"]
+    },
+    {
+      "name": "Chichu Garden及馆内附属设施",
+      "location": "地中美术馆场地及其入口、咖啡馆、商店、票务中心相关空间",
+      "candidatePool": false,
+      "boundary": "官方将花园、咖啡馆、商店和票务中心列为设施或参观服务；保留为参观语境，不作为馆藏作品进入候选池。",
+      "sourceIds": ["official_chichu_page"]
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Benesse House Museum",
+      "reason": "位于直岛Benesse Art Site的独立馆址，官方艺术设施总览单列，不属于地中美术馆本馆边界。",
+      "sourceIds": ["official_art_overview", "official_naoshima_access"]
+    },
+    {
+      "name": "Lee Ufan Museum",
+      "reason": "位于直岛的独立美术馆，官方总览和接驳路线均与地中美术馆分列；不并入本馆候选池。",
+      "sourceIds": ["official_art_overview", "official_naoshima_access"]
+    },
+    {
+      "name": "Naoshima New Museum of Art、Hiroshi Sugimoto Gallery: Time Corridors、ANDO MUSEUM、Art House Project及其他直岛设施",
+      "reason": "均为Benesse Art Site或直岛的其他独立项目／馆址，官方页面逐项分列；本轮只研究地中美术馆。",
+      "sourceIds": ["official_art_overview", "official_naoshima_access"]
+    },
+    {
+      "name": "Teshima、Inujima及Megijima上的艺术设施",
+      "reason": "属于其他岛屿或其他场地，官方导航按岛屿和设施分别组织；不属于直岛地中美术馆边界。",
+      "sourceIds": ["official_naoshima_access"]
+    },
+    {
+      "name": "临时展览、特别项目及Night Program",
+      "reason": "本轮范围锁定稳定的永久展示与场地；官方将Night Program等列为预约项目，不能当作稳定馆藏部门或永久作品扩展。",
+      "sourceIds": ["official_chichu_page"]
+    }
+  ],
+  "riskFlags": [
+    "site_specific_works",
+    "current_display_status_requires_recheck",
+    "cross_facility_boundary"
+  ],
+  "sourcePointers": [
+    {
+      "sourceId": "official_chichu_page",
+      "title": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/art/chichu.html",
+      "accessedAt": "2026-07-26",
+      "supports": "地中美术馆身份、地址3449-1 Naoshima、2004年建馆、永久展示的Claude Monet五件《睡莲》、Walter De Maria的Time/Timeless/No Time、James Turrell三件作品、安藤忠雄建筑、Chichu Garden及附属设施；同时支持临时／预约项目与当前参观边界需另行核验。"
+    },
+    {
+      "sourceId": "official_art_overview",
+      "title": "Art & Architecture | Benesse Art Site Naoshima",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/art/",
+      "accessedAt": "2026-07-26",
+      "supports": "将Chichu Art Museum与Benesse House Museum、Lee Ufan Museum、Naoshima New Museum of Art、Art House Project等其他独立设施分列，并确认地中美术馆的基本身份与永久展示艺术家范围。"
+    },
+    {
+      "sourceId": "official_naoshima_access",
+      "title": "Getting around on Naoshima | Access | Benesse Art Site Naoshima",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/access/naoshima/",
+      "accessedAt": "2026-07-26",
+      "supports": "直岛各独立艺术设施的空间分列、地中美术馆与Benesse House Museum及Lee Ufan Museum之间的接驳关系，以及Benesse Art Site不同场地边界。"
+    },
+    {
+      "sourceId": "osm_chichu_way",
+      "title": "Way: Chichu Art Museum (401738807)",
+      "publisher": "OpenStreetMap contributors",
+      "url": "https://www.openstreetmap.org/way/401738807",
+      "accessedAt": "2026-07-26",
+      "supports": "地图上标注的地中美术馆建筑位置；对象标签注明地中美术馆及其公共设施来源记录。"
+    },
+    {
+      "sourceId": "mapcarta_chichu",
+      "title": "Chichu Art Museum Map - Naoshima, Kagawa, Japan",
+      "publisher": "Mapcarta（基于OpenStreetMap等开放地图数据）",
+      "url": "https://mapcarta.com/36389894",
+      "accessedAt": "2026-07-26",
+      "supports": "地中美术馆地图坐标：纬度34.44778、经度133.98488。"
+    }
+  ],
+  "coordinates": [34.44778, 133.98488]
+}

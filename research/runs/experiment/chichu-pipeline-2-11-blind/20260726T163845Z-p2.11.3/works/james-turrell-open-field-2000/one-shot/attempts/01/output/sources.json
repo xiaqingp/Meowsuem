@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 2,
+  "museumId": "chichuartmuseum",
+  "workId": "james-turrell-open-field-2000",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Chichu Art Museum",
+      "publisher": "Benesse Art Site Naoshima / 地中美術館",
+      "url": "https://benesse-artsite.jp/en/art/chichu.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Conference by Michael Govan",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/story/20170215-770.html",
+      "sourceType": "publication",
+      "usedFor": [
+        "artistic_context",
+        "process_interpretation",
+        "materiality_interpretation"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Benesse Art Site Naoshima Media Kit, April 2018",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_April2018_GenerallPress_eng.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "space_design",
+        "collectionRelation"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "availability",
+      "statement": "馆方当前页面列出《开放场域》并说明地中美術館长期展示詹姆斯·特瑞尔作品，但页面未单独说明该作品当天是否可能因维护或运营安排暂停开放，实际参观状态应以当日馆方公告为准。"
+    }
+  ],
+  "upstreamConflicts": []
+}

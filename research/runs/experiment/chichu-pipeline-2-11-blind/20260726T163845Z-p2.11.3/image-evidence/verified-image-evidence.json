@@ -1,0 +1,343 @@
+{
+  "schemaVersion": 1,
+  "stage": "verified_image_evidence",
+  "museumId": "chichuartmuseum",
+  "pipelineVersion": "2.11.3",
+  "generatedAt": "2026-07-26T16:52:50.018Z",
+  "fresh": true,
+  "legacyAssetInputsRead": false,
+  "resolver": {
+    "version": 4,
+    "browser": "optional Chrome override via Playwright",
+    "modelPolicy": "ambiguity_only",
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium"
+  },
+  "summary": {
+    "works": 9,
+    "accepted": 9,
+    "ambiguous": 0,
+    "unresolved": 0,
+    "wallClockMs": 12208,
+    "modelCalls": 0,
+    "modelTokens": 0
+  },
+  "modelRun": null,
+  "works": [
+    {
+      "workId": "claude-monet-water-lilies-cluster-of-grass-1914-17",
+      "identity": {
+        "identityAnchor": "Claude Monet, Water Lilies, Cluster of Grass, 1914–17",
+        "accessionNumber": "Claude Monet, Water Lilies, Cluster of Grass, 1914–17",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "status": "accepted",
+      "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "httpStatus": 200,
+      "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+      "candidates": [],
+      "resolver": "provider_adapters_v1",
+      "durationMs": 2918,
+      "warnings": [
+        "object image unresolved: identity_conflict"
+      ],
+      "originalStatus": "identity_conflict",
+      "imagePolicy": "museum_hero_placeholder",
+      "selected": {
+        "url": "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+        "localPath": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/image-evidence/assets/museum-hero-placeholder.jpg",
+        "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1",
+        "width": 1366,
+        "height": 550,
+        "contentType": "image/jpeg",
+        "method": "museum_hero_placeholder",
+        "provider": "locked_museum_hero",
+        "identitySignals": [
+          "museum_level_context_only",
+          "official page social image"
+        ],
+        "evidenceId": "img:chichuartmuseum:museum-hero:80777d74d16d"
+      }
+    },
+    {
+      "workId": "walter-de-maria-time-timeless-no-time-2004",
+      "identity": {
+        "identityAnchor": "Walter De Maria, Time/Timeless/No Time, 2004",
+        "accessionNumber": "Walter De Maria, Time/Timeless/No Time, 2004",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "status": "accepted",
+      "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "httpStatus": 200,
+      "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+      "candidates": [],
+      "resolver": "provider_adapters_v1",
+      "durationMs": 3118,
+      "warnings": [
+        "object image unresolved: identity_conflict"
+      ],
+      "originalStatus": "identity_conflict",
+      "imagePolicy": "museum_hero_placeholder",
+      "selected": {
+        "url": "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+        "localPath": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/image-evidence/assets/museum-hero-placeholder.jpg",
+        "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1",
+        "width": 1366,
+        "height": 550,
+        "contentType": "image/jpeg",
+        "method": "museum_hero_placeholder",
+        "provider": "locked_museum_hero",
+        "identitySignals": [
+          "museum_level_context_only",
+          "official page social image"
+        ],
+        "evidenceId": "img:chichuartmuseum:museum-hero:80777d74d16d"
+      }
+    },
+    {
+      "workId": "james-turrell-open-field-2000",
+      "identity": {
+        "identityAnchor": "James Turrell, Open Field, 2000",
+        "accessionNumber": "James Turrell, Open Field, 2000",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "status": "accepted",
+      "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "httpStatus": 200,
+      "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+      "candidates": [],
+      "resolver": "provider_adapters_v1",
+      "durationMs": 2100,
+      "warnings": [
+        "object image unresolved: identity_conflict"
+      ],
+      "originalStatus": "identity_conflict",
+      "imagePolicy": "museum_hero_placeholder",
+      "selected": {
+        "url": "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+        "localPath": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/image-evidence/assets/museum-hero-placeholder.jpg",
+        "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1",
+        "width": 1366,
+        "height": 550,
+        "contentType": "image/jpeg",
+        "method": "museum_hero_placeholder",
+        "provider": "locked_museum_hero",
+        "identitySignals": [
+          "museum_level_context_only",
+          "official page social image"
+        ],
+        "evidenceId": "img:chichuartmuseum:museum-hero:80777d74d16d"
+      }
+    },
+    {
+      "workId": "claude-monet-water-lily-pond-c1915-26",
+      "identity": {
+        "identityAnchor": "Claude Monet, Water-Lily Pond, c. 1915–26, diptych",
+        "accessionNumber": "Claude Monet, Water-Lily Pond, c. 1915–26, diptych",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "status": "accepted",
+      "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "httpStatus": 200,
+      "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+      "candidates": [],
+      "resolver": "provider_adapters_v1",
+      "durationMs": 6041,
+      "warnings": [
+        "object image unresolved: identity_conflict"
+      ],
+      "originalStatus": "identity_conflict",
+      "imagePolicy": "museum_hero_placeholder",
+      "selected": {
+        "url": "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+        "localPath": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/image-evidence/assets/museum-hero-placeholder.jpg",
+        "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1",
+        "width": 1366,
+        "height": 550,
+        "contentType": "image/jpeg",
+        "method": "museum_hero_placeholder",
+        "provider": "locked_museum_hero",
+        "identitySignals": [
+          "museum_level_context_only",
+          "official page social image"
+        ],
+        "evidenceId": "img:chichuartmuseum:museum-hero:80777d74d16d"
+      }
+    },
+    {
+      "workId": "claude-monet-water-lilies-reflections-of-weeping-willows-1916-19",
+      "identity": {
+        "identityAnchor": "Claude Monet, Water Lilies, Reflections of Weeping Willows, 1916–19",
+        "accessionNumber": "Claude Monet, Water Lilies, Reflections of Weeping Willows, 1916–19",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "status": "accepted",
+      "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "httpStatus": 200,
+      "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+      "candidates": [],
+      "resolver": "provider_adapters_v1",
+      "durationMs": 7048,
+      "warnings": [
+        "object image unresolved: identity_conflict"
+      ],
+      "originalStatus": "identity_conflict",
+      "imagePolicy": "museum_hero_placeholder",
+      "selected": {
+        "url": "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+        "localPath": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/image-evidence/assets/museum-hero-placeholder.jpg",
+        "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1",
+        "width": 1366,
+        "height": 550,
+        "contentType": "image/jpeg",
+        "method": "museum_hero_placeholder",
+        "provider": "locked_museum_hero",
+        "identitySignals": [
+          "museum_level_context_only",
+          "official page social image"
+        ],
+        "evidenceId": "img:chichuartmuseum:museum-hero:80777d74d16d"
+      }
+    },
+    {
+      "workId": "claude-monet-water-lilies-1914-17",
+      "identity": {
+        "identityAnchor": "Claude Monet, Water Lilies, 1914–17, 200 × 200 cm",
+        "accessionNumber": "Claude Monet, Water Lilies, 1914–17, 200 × 200 cm",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "status": "accepted",
+      "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "httpStatus": 200,
+      "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+      "candidates": [],
+      "resolver": "provider_adapters_v1",
+      "durationMs": 7061,
+      "warnings": [
+        "object image unresolved: identity_conflict"
+      ],
+      "originalStatus": "identity_conflict",
+      "imagePolicy": "museum_hero_placeholder",
+      "selected": {
+        "url": "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+        "localPath": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/image-evidence/assets/museum-hero-placeholder.jpg",
+        "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1",
+        "width": 1366,
+        "height": 550,
+        "contentType": "image/jpeg",
+        "method": "museum_hero_placeholder",
+        "provider": "locked_museum_hero",
+        "identitySignals": [
+          "museum_level_context_only",
+          "official page social image"
+        ],
+        "evidenceId": "img:chichuartmuseum:museum-hero:80777d74d16d"
+      }
+    },
+    {
+      "workId": "claude-monet-water-lily-pond-1917-19",
+      "identity": {
+        "identityAnchor": "Claude Monet, Water-Lily Pond, 1917–19, 100 × 200 cm",
+        "accessionNumber": "Claude Monet, Water-Lily Pond, 1917–19, 100 × 200 cm",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "status": "accepted",
+      "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "httpStatus": 200,
+      "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+      "candidates": [],
+      "resolver": "provider_adapters_v1",
+      "durationMs": 7773,
+      "warnings": [
+        "object image unresolved: identity_conflict"
+      ],
+      "originalStatus": "identity_conflict",
+      "imagePolicy": "museum_hero_placeholder",
+      "selected": {
+        "url": "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+        "localPath": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/image-evidence/assets/museum-hero-placeholder.jpg",
+        "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1",
+        "width": 1366,
+        "height": 550,
+        "contentType": "image/jpeg",
+        "method": "museum_hero_placeholder",
+        "provider": "locked_museum_hero",
+        "identitySignals": [
+          "museum_level_context_only",
+          "official page social image"
+        ],
+        "evidenceId": "img:chichuartmuseum:museum-hero:80777d74d16d"
+      }
+    },
+    {
+      "workId": "james-turrell-afrum-pale-blue-1968",
+      "identity": {
+        "identityAnchor": "James Turrell, Afrum, Pale Blue, 1968",
+        "accessionNumber": "James Turrell, Afrum, Pale Blue, 1968",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "status": "accepted",
+      "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "httpStatus": 200,
+      "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+      "candidates": [],
+      "resolver": "provider_adapters_v1",
+      "durationMs": 4985,
+      "warnings": [
+        "object image unresolved: identity_conflict"
+      ],
+      "originalStatus": "identity_conflict",
+      "imagePolicy": "museum_hero_placeholder",
+      "selected": {
+        "url": "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+        "localPath": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/image-evidence/assets/museum-hero-placeholder.jpg",
+        "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1",
+        "width": 1366,
+        "height": 550,
+        "contentType": "image/jpeg",
+        "method": "museum_hero_placeholder",
+        "provider": "locked_museum_hero",
+        "identitySignals": [
+          "museum_level_context_only",
+          "official page social image"
+        ],
+        "evidenceId": "img:chichuartmuseum:museum-hero:80777d74d16d"
+      }
+    },
+    {
+      "workId": "james-turrell-open-sky-2004",
+      "identity": {
+        "identityAnchor": "James Turrell, Open Sky, 2004",
+        "accessionNumber": "James Turrell, Open Sky, 2004",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "status": "accepted",
+      "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "httpStatus": 200,
+      "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+      "candidates": [],
+      "resolver": "provider_adapters_v1",
+      "durationMs": 2840,
+      "warnings": [
+        "object image unresolved: identity_conflict"
+      ],
+      "originalStatus": "identity_conflict",
+      "imagePolicy": "museum_hero_placeholder",
+      "selected": {
+        "url": "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+        "localPath": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/image-evidence/assets/museum-hero-placeholder.jpg",
+        "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1",
+        "width": 1366,
+        "height": 550,
+        "contentType": "image/jpeg",
+        "method": "museum_hero_placeholder",
+        "provider": "locked_museum_hero",
+        "identitySignals": [
+          "museum_level_context_only",
+          "official page social image"
+        ],
+        "evidenceId": "img:chichuartmuseum:museum-hero:80777d74d16d"
+      }
+    }
+  ]
+}

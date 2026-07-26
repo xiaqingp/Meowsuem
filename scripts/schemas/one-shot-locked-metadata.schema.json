@@ -5,7 +5,7 @@
   "additionalProperties": true,
   "required": [
     "schemaVersion", "museumId", "workId", "objectType", "titleZh", "titleEn",
-    "artistZh", "artistEn", "displayDate", "medium", "accessionNumber",
+    "displayBy", "displayDate", "medium", "identityAnchor",
     "museumName", "officialObjectUrl", "significance", "priority",
     "sectionId", "stay", "availability", "imagePolicy",
     "verifiedImageUrl", "verifiedImageLocalPath", "verifiedImageSha256", "imageEvidencePath"
@@ -24,6 +24,7 @@
     "displayBy": {"type": "string", "minLength": 1},
     "displayDate": {"type": "string", "minLength": 1},
     "medium": {"type": "string", "minLength": 1},
+    "identityAnchor": {"type": "string", "minLength": 1},
     "accessionNumber": {"type": "string", "minLength": 1},
     "museumName": {"type": "string", "minLength": 1},
     "officialObjectUrl": {"type": "string", "format": "uri"},

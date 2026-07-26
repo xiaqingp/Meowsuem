@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260726T165828Z-p2.11.4",
+  "museumId": "chichuartmuseum",
+  "upstreamHashes": {
+    "candidates": {
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/candidate-pool/candidate-pool.json",
+      "sha256": "800feb8492d3cd4fc8422343026c97ef253d52304a9a0ed4f3ffec8e8fe48d35"
+    },
+    "selection": {
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/selection/selection.json",
+      "sha256": "bc9031718ad01e9de2d873994e19132159a04ab1c2e51b3c03c994c3b08e3036"
+    },
+    "structure": {
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/structure/structure.json",
+      "sha256": "227bed06ec7d1bde3d3680537fef698b729456ae4e8d379ff7ce715397c2b5a3"
+    },
+    "images": {
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/image-evidence/verified-image-evidence.json",
+      "sha256": "3ba9f80fed08f1a4934d45d622a4d23200b401d8afe63d27d84c242f12661594"
+    }
+  },
+  "works": [
+    {
+      "workId": "chichu-art-museum-underground-architecture-and-site-context",
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/works/chichu-art-museum-underground-architecture-and-site-context/one-shot/input/locked-metadata.json",
+      "sha256": "39341002804421a1301bd0d750386a82d9138d7db0471d28c2d98ea52a208318"
+    },
+    {
+      "workId": "claude-monet-water-lily-pond-c-1915-1926",
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/works/claude-monet-water-lily-pond-c-1915-1926/one-shot/input/locked-metadata.json",
+      "sha256": "a788bc726d407c1691dc7c17a5d579c96ade70b68c2eda4ae22c99ae162d3c41"
+    },
+    {
+      "workId": "claude-monet-water-lilies-cluster-of-grass-1914-1917",
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/input/locked-metadata.json",
+      "sha256": "4f5804cd82d6749659feb93cd1007e12e9e0c0f305c53c6114bb8a9b79c94639"
+    },
+    {
+      "workId": "claude-monet-water-lilies-1914-1917",
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/works/claude-monet-water-lilies-1914-1917/one-shot/input/locked-metadata.json",
+      "sha256": "0521cab3cb605588ab5e19b734af7868015e0fc21dc3b28169f28a1976e82692"
+    },
+    {
+      "workId": "claude-monet-water-lily-pond-1917-1919",
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/works/claude-monet-water-lily-pond-1917-1919/one-shot/input/locked-metadata.json",
+      "sha256": "65a94901eb2adaa1e81ce0b61001c3bf129160b6284fd96ca0d3051d371401df"
+    },
+    {
+      "workId": "claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919",
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/works/claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919/one-shot/input/locked-metadata.json",
+      "sha256": "fbed80122eaa06e8cdeac34b6455f2fa5cde9dbfcd4e00e837f821f37ea273b6"
+    },
+    {
+      "workId": "walter-de-maria-time-timeless-no-time-2004",
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/works/walter-de-maria-time-timeless-no-time-2004/one-shot/input/locked-metadata.json",
+      "sha256": "71a7031fe2ac150ef6b14800a43de4dab4aba3b23e5194b3d48214dac7fe2820"
+    },
+    {
+      "workId": "james-turrell-afrum-pale-blue-1968",
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/works/james-turrell-afrum-pale-blue-1968/one-shot/input/locked-metadata.json",
+      "sha256": "0c7182fd8ab2f0f4aaaf623fba24a899baed62d12d2f3c30d90f91a17ffa5b36"
+    },
+    {
+      "workId": "james-turrell-open-field-2000",
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/works/james-turrell-open-field-2000/one-shot/input/locked-metadata.json",
+      "sha256": "b5c465b93aa6a60878e4e24c5f3151a7baa3a738e98634329ed22b0fce19158a"
+    },
+    {
+      "workId": "james-turrell-open-sky-2004",
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/works/james-turrell-open-sky-2004/one-shot/input/locked-metadata.json",
+      "sha256": "b29333ba744933632a855d652ec1c5c8040e3b66cf306ca8a77417e3d04c5246"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "museumId": "chichuartmuseum",
+  "museumName": "地中美術館 / Chichu Art Museum",
+  "city": "直岛 / Naoshima",
+  "country": "日本 / Japan",
+  "officialCollectionUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+  "editorialCapacity": {
+    "count": 20,
+    "reason": "按母指令的最小编辑容量纳入本馆完整主线：这是一个单一、紧密策划的地下建筑与三组永久展示构成的场馆，而不是跨馆址的大型综合收藏。20件是后续候选与研究的规划上限/容器，不是声称馆内有20件彼此独立的永久作品；若可靠对象身份不足，后续阶段应保留较少条目，不得凑数。"
+  },
+  "collectionBoundaries": [
+    {
+      "name": "Chichu Art Museum 本馆建筑与馆内永久展示",
+      "location": "3449-1 Naoshima, Kagawa 7613110 Japan；直岛本馆，主要为地下建筑",
+      "status": "included",
+      "scope": "以官方本馆页面列出的永久展示为核心：Claude Monet 的《睡莲》系列五幅画、James Turrell 的三件作品，以及 Walter De Maria 的《Time/Timeless/No Time》。本馆由 Tadao Ando 设计，官方同时将建筑整体描述为大型场域特定作品，因此建筑—自然光—作品关系进入研究边界，但不预先把建筑拆成藏品。",
+      "sourceIds": ["chichu-official", "chichu-art-overview"]
+    },
+    {
+      "name": "Chichu Garden 与本馆附属访客设施",
+      "location": "Chichu Art Museum premises, Naoshima",
+      "status": "included_as_site_context_only",
+      "scope": "Chichu Garden、Chichu Cafe、Chichu Store 和 Ticket Center/Shop 只作为本馆参观边界、馆址关系与观看语境记录，不作为独立收藏部门或独立馆址；花园与 Monet 馆藏的关系可进入馆级结构研究。",
+      "sourceIds": ["chichu-official", "naoshima-access"]
+    },
+    {
+      "name": "Claude Monet permanent-display group",
+      "location": "Chichu Art Museum, Naoshima",
+      "status": "enters_candidate_pool",
+      "scope": "官方页面明确为后期《睡莲》系列五幅画，并列出五个题名/年代条目；后续阶段仍须逐件核对对象身份与官方对象页。",
+      "sourceIds": ["chichu-official"]
+    },
+    {
+      "name": "James Turrell permanent-display group",
+      "location": "Chichu Art Museum, Naoshima",
+      "status": "enters_candidate_pool",
+      "scope": "官方页面明确列出 Afrum, Pale Blue（1968）、Open Field（2000）和 Open Sky（2004）三件作品；Open Sky 的 Night Program 是附加观看项目，不改变其作为本馆永久展示作品的边界。",
+      "sourceIds": ["chichu-official"]
+    },
+    {
+      "name": "Walter De Maria permanent-display group",
+      "location": "Chichu Art Museum, Naoshima",
+      "status": "enters_candidate_pool",
+      "scope": "官方页面将包含直径2.2米球体与27个镀金木质几何体的整个艺术空间作为作品，并列出《Time/Timeless/No Time》（2004）；后续阶段应按馆方对象身份处理整体装置，不将构成元素未经证据拆为独立作品。",
+      "sourceIds": ["chichu-official"]
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Benesse Art Site Naoshima 的其他独立设施",
+      "items": [
+        "Benesse House Museum（包括 Valley Gallery）",
+        "Lee Ufan Museum",
+        "Naoshima New Museum of Art",
+        "Hiroshi Sugimoto Gallery: Time Corridors",
+        "Art House Project",
+        "ANDO MUSEUM",
+        "Ring of Fire - Solar Yang & Lunar Weerasethakul",
+        "Naoshima Bath 'I♥湯'",
+        "Setouchi Archive / Miyanoura Gallery 6"
+      ],
+      "reason": "官方艺术总览与预约说明将这些列为与 Chichu Art Museum 分开的 Naoshima 设施；它们不并入本馆的馆藏、馆址或候选池。",
+      "sourceIds": ["art-architecture-overview", "reservation-facilities"]
+    },
+    {
+      "name": "其他岛屿与其他馆址设施",
+      "items": [
+        "Teshima Art Museum 及 Teshima 相关设施",
+        "Inujima Seirensho Art Museum、Inujima Art House Project 及 Inujima 相关设施",
+        "Megijima 相关设施"
+      ],
+      "reason": "本轮请求明确为直岛的 Chichu Art Museum；官方站点按岛屿和设施分别列示，其他岛屿不属于本馆边界。",
+      "sourceIds": ["naoshima-access", "art-architecture-overview"]
+    },
+    {
+      "name": "临时展览、未被官方本馆页面列入永久展示的轮换内容及独立特别项目",
+      "reason": "本轮只建立稳定收藏与本馆建筑的研究边界；官方本馆页面以 permanent display 列出三组核心展示，临展和未锁定对象身份的特别项目留待后续证据阶段，不进入本轮范围。Open Sky Night Program 作为本馆作品的预约观看项目记录为运营风险，不作为新增收藏群。",
+      "sourceIds": ["chichu-official", "maintenance-notice"]
+    }
+  ],
+  "riskFlags": [
+    "display_status_can_change",
+    "timed_reservation_required",
+    "temporary_closure_possible",
+    "night_program_is_separate"
+  ],
+  "sourcePointers": [
+    {
+      "id": "chichu-official",
+      "title": "Chichu Art Museum",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/art/chichu.html",
+      "accessDate": "2026-07-26",
+      "supports": "本馆身份、地址、地下建筑与 Tadao Ando、Claude Monet/James Turrell/Walter De Maria 的永久展示、五幅 Monet 作品、三件 Turrell 作品、De Maria 整体艺术空间及《Time/Timeless/No Time》、Chichu Garden 与附属设施、Night Program 边界。"
+    },
+    {
+      "id": "chichu-art-overview",
+      "title": "Art & Architecture",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/art/",
+      "accessDate": "2026-07-26",
+      "supports": "将 Chichu Art Museum 作为 Naoshima 的独立艺术设施列出，并概述其 2004 年建馆、地下建筑与三位艺术家的永久展示；同时与 Benesse House Museum 等设施分列。"
+    },
+    {
+      "id": "naoshima-access",
+      "title": "Getting around on Naoshima",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/access/naoshima/",
+      "accessDate": "2026-07-26",
+      "supports": "直岛设施地图式分列、Chichu Art Museum 与 Benesse House Museum/Lee Ufan Museum 的独立性、通往 Chichu 的岛上交通与相关场地边界。"
+    },
+    {
+      "id": "art-architecture-overview",
+      "title": "Art & Architecture — Naoshima facilities",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/art/",
+      "accessDate": "2026-07-26",
+      "supports": "Naoshima 各独立设施的名称、分列关系，以及 Art House Project、ANDO MUSEUM、Lee Ufan Museum、Benesse House Museum 等不属于 Chichu 本馆的范围。"
+    },
+    {
+      "id": "reservation-facilities",
+      "title": "Are all facilities at Benesse Art Site Naoshima reservation-based?",
+      "publisher": "Benesse Art Site Naoshima Support",
+      "url": "https://support.benesse-artsite.jp/hc/en-us/articles/42250744415001-Are-all-facilities-at-Benesse-Art-Site-Naoshima-reservation-based",
+      "accessDate": "2026-07-26",
+      "supports": "官方预约系统将 Chichu Art Museum 与 Benesse House Museum（包括 Valley Gallery）、Hiroshi Sugimoto Gallery、Lee Ufan Museum、Art House Project、ANDO MUSEUM 等列为不同设施；支持独立票务/运营边界。"
+    },
+    {
+      "id": "maintenance-notice",
+      "title": "Notice of Extended Maintenance Closure Chichu Art Museum",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/news/20260525-3517.html",
+      "accessDate": "2026-07-26",
+      "supports": "本馆运营状态存在阶段性维护闭馆，官方公告说明 2027 年 1 月 12 日至 3 月 19 日维护闭馆；用于风险记录，不改变稳定收藏边界。"
+    }
+  ],
+  "uncertainties": [
+    "官方本馆页面提供稳定展示群及部分作品题名，但本轮没有锁定每件作品的唯一馆藏号或独立官方对象页；候选阶段必须逐件建立 identityAnchor 与 identitySourceUrl。",
+    "官方页面把建筑整体描述为大型场域特定作品，同时把 Chichu Garden、Cafe、Store 和 Ticket Center 分列为附属设施；后续结构阶段应区分收藏对象、建筑体验与参观服务，不能把附属设施当作独立藏品。",
+    "永久展示、可见状态、开放时间、预约与维护闭馆均可能变化；本 scope 只记录截至 2026-07-26 的官方边界证据，不把永久展示等同于某一参观日必然可见。"
+  ]
+}

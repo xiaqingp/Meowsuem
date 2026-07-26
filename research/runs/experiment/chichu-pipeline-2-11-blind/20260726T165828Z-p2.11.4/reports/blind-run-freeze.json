@@ -1,0 +1,1332 @@
+{
+  "schemaVersion": 1,
+  "status": "frozen",
+  "runId": "20260726T165828Z-p2.11.4",
+  "runKind": "experiment",
+  "museumId": "chichuartmuseum",
+  "pipelineVersion": "2.11.4",
+  "frozenAt": "2026-07-26T17:37:53.175Z",
+  "contentAuditStatus": "not_performed",
+  "categories": {
+    "scope": [
+      {
+        "path": "scope/museum_scope-result.json",
+        "sha256": "1df00cca458de55149dd62fc14d964758b2b9e503128bd49e81b7152ac4b83be"
+      },
+      {
+        "path": "scope/request.json",
+        "sha256": "a07efc5491ffa11ee560aa4425467d625a65e6d57b40b6470695d98e1c89a5c2"
+      },
+      {
+        "path": "scope/run-header.json",
+        "sha256": "01ea23f0f17b682184f1cf974eb5778db829195b7ebd2d00004eafe26ea5dfd2"
+      },
+      {
+        "path": "scope/runner.log",
+        "sha256": "3eda082ff69217265f97c7103f8dcf0869e19e3e3d5e1680ffb942e12c2055ca"
+      },
+      {
+        "path": "scope/scope.json",
+        "sha256": "e4941a39af43869e418dab51d4e9e2a53f7ce18550a93595fc34594c2a8317d0"
+      }
+    ],
+    "candidatePool": [
+      {
+        "path": "candidate-pool/candidate-pool.json",
+        "sha256": "800feb8492d3cd4fc8422343026c97ef253d52304a9a0ed4f3ffec8e8fe48d35"
+      },
+      {
+        "path": "candidate-pool/museum_candidate_pool-result.json",
+        "sha256": "061af8f5e568015784933b69d9e75127915dc914697246305e7da47ff288c945"
+      },
+      {
+        "path": "candidate-pool/run-header.json",
+        "sha256": "d2e68aea3041326b25ddeb77ed95eb54a3fd2001db02158236271acad4e0412a"
+      },
+      {
+        "path": "candidate-pool/runner.log",
+        "sha256": "bdec5f34ad48bea5d4a0e6b00d8efdd9565de3d321fe5787acf00df39064b6ec"
+      }
+    ],
+    "planningEvidence": [
+      {
+        "path": "research/batches/compact-01/candidate-packet.json",
+        "sha256": "c06a19ef0f1514fc5d9d62fbd1c9513bf47551967ec543a0d7dee5ef49ff70a4"
+      },
+      {
+        "path": "research/batches/compact-01/compact_planning_research-result.json",
+        "sha256": "467208b80016bd49afb83f189c9ceca2495f0aa286df745939581731b43a71e6"
+      },
+      {
+        "path": "research/batches/compact-01/compact-planning-evidence.json",
+        "sha256": "588e581d8a68ad2de9f5745bee31d4d17e9c0422cb8bbafcccdf45cb2059fbc6"
+      },
+      {
+        "path": "research/batches/compact-01/run-header.json",
+        "sha256": "98c10321efea35dfcb7768f6973c9cb18e1683e720e41efa36c764d6664acf3d"
+      },
+      {
+        "path": "research/batches/compact-01/runner.log",
+        "sha256": "5fa7861f706204c71010cf6dcaa47692c2b655b8268327fd81dd8b090c2cd9f4"
+      },
+      {
+        "path": "research/batches/deep-01/candidate-packet.json",
+        "sha256": "c06a19ef0f1514fc5d9d62fbd1c9513bf47551967ec543a0d7dee5ef49ff70a4"
+      },
+      {
+        "path": "research/batches/deep-01/deep_planning_research-result.json",
+        "sha256": "c5d6682a5154a6c8de0941c46b38ab1ff92df74a4477c3c6c5628a00cfe6755f"
+      },
+      {
+        "path": "research/batches/deep-01/deep-research-dossier.json",
+        "sha256": "751dd4ceeada54606fd78043a7ca93852ac2def636851b52edc8f416615f6572"
+      },
+      {
+        "path": "research/batches/deep-01/run-header.json",
+        "sha256": "b31dedb977f0147e000a1235ad8467b81695682103942fdf0cff25077d76caf5"
+      },
+      {
+        "path": "research/batches/deep-01/runner.log",
+        "sha256": "9250e5f06715154ac823fad4749b16d6d9c33038436a755c3359c07b2d3bf931"
+      },
+      {
+        "path": "research/planning-index.json",
+        "sha256": "6ee0b12989c689e7ce0ba300b7ed114c99f112d8307e928d9206da62b121d8a4"
+      }
+    ],
+    "selection": [
+      {
+        "path": "selection/museum_selection-result.json",
+        "sha256": "3bbd92f84242b53ca75e0e0a9ba5f5a7c6f4b9df04dd3eb86949a71a402cd66c"
+      },
+      {
+        "path": "selection/rating-input.json",
+        "sha256": "2fbbc564f08809916d5f06d36b875629af7c9d1bcfb24239467199ba9717d323"
+      },
+      {
+        "path": "selection/run-header.json",
+        "sha256": "a03280da13ceb1269eb856b0f35f6e573f16f230965af6c840b82cb86b532d8e"
+      },
+      {
+        "path": "selection/runner.log",
+        "sha256": "12206de13041cea7d57c50d93ef6e66652725bfb419024dd18cb2bea0c4026a9"
+      },
+      {
+        "path": "selection/selection.json",
+        "sha256": "bc9031718ad01e9de2d873994e19132159a04ab1c2e51b3c03c994c3b08e3036"
+      }
+    ],
+    "rating": [
+      {
+        "path": "rating/rating-result.json",
+        "sha256": "f82a050b99b7e2f1c6884754a24fde416025e4e348968b807722eeac7185a5a2"
+      }
+    ],
+    "structure": [
+      {
+        "path": "structure/museum_structure-result.json",
+        "sha256": "66d514eb5cbb429379cf7e3ddc539b74a38439d75818c867400e8ba1d693ffbf"
+      },
+      {
+        "path": "structure/run-header.json",
+        "sha256": "3abc085ce4f2398d6e0804b43351b2e8da538ee9809c399c4edc33918232de7a"
+      },
+      {
+        "path": "structure/runner.log",
+        "sha256": "ecb03a2e528de1b8030486b41f446cd1bd3d30af06a97a56268d8f173bf908ca"
+      },
+      {
+        "path": "structure/structure.json",
+        "sha256": "227bed06ec7d1bde3d3680537fef698b729456ae4e8d379ff7ce715397c2b5a3"
+      }
+    ],
+    "imageEvidence": [
+      {
+        "path": "image-evidence/assets/museum-hero-placeholder.jpg",
+        "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1"
+      },
+      {
+        "path": "image-evidence/verified-image-evidence.json",
+        "sha256": "3ba9f80fed08f1a4934d45d622a4d23200b401d8afe63d27d84c242f12661594"
+      }
+    ],
+    "lockedMetadata": [
+      {
+        "path": "works/chichu-art-museum-underground-architecture-and-site-context/one-shot/input/locked-metadata.json",
+        "sha256": "39341002804421a1301bd0d750386a82d9138d7db0471d28c2d98ea52a208318"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/input/locked-metadata.json",
+        "sha256": "0521cab3cb605588ab5e19b734af7868015e0fc21dc3b28169f28a1976e82692"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/input/locked-metadata.json",
+        "sha256": "4f5804cd82d6749659feb93cd1007e12e9e0c0f305c53c6114bb8a9b79c94639"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919/one-shot/input/locked-metadata.json",
+        "sha256": "fbed80122eaa06e8cdeac34b6455f2fa5cde9dbfcd4e00e837f821f37ea273b6"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-1917-1919/one-shot/input/locked-metadata.json",
+        "sha256": "65a94901eb2adaa1e81ce0b61001c3bf129160b6284fd96ca0d3051d371401df"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-c-1915-1926/one-shot/input/locked-metadata.json",
+        "sha256": "a788bc726d407c1691dc7c17a5d579c96ade70b68c2eda4ae22c99ae162d3c41"
+      },
+      {
+        "path": "works/james-turrell-afrum-pale-blue-1968/one-shot/input/locked-metadata.json",
+        "sha256": "0c7182fd8ab2f0f4aaaf623fba24a899baed62d12d2f3c30d90f91a17ffa5b36"
+      },
+      {
+        "path": "works/james-turrell-open-field-2000/one-shot/input/locked-metadata.json",
+        "sha256": "b5c465b93aa6a60878e4e24c5f3151a7baa3a738e98634329ed22b0fce19158a"
+      },
+      {
+        "path": "works/james-turrell-open-sky-2004/one-shot/input/locked-metadata.json",
+        "sha256": "b29333ba744933632a855d652ec1c5c8040e3b66cf306ca8a77417e3d04c5246"
+      },
+      {
+        "path": "works/walter-de-maria-time-timeless-no-time-2004/one-shot/input/locked-metadata.json",
+        "sha256": "71a7031fe2ac150ef6b14800a43de4dab4aba3b23e5194b3d48214dac7fe2820"
+      }
+    ],
+    "acceptedAttempts": [
+      {
+        "path": "works/chichu-art-museum-underground-architecture-and-site-context/one-shot/attempts/01/input/locked-metadata.json",
+        "sha256": "39341002804421a1301bd0d750386a82d9138d7db0471d28c2d98ea52a208318"
+      },
+      {
+        "path": "works/chichu-art-museum-underground-architecture-and-site-context/one-shot/attempts/01/input/production-snapshot.json",
+        "sha256": "61b1c58e883c43b953c8bb229d457d5add950f795937136c2218dfee1d8676c0"
+      },
+      {
+        "path": "works/chichu-art-museum-underground-architecture-and-site-context/one-shot/attempts/01/input/response-schema.json",
+        "sha256": "66385678d7cb6dd0d684f7a0758e47a0b6f2c655170e7560c2366440bb349459"
+      },
+      {
+        "path": "works/chichu-art-museum-underground-architecture-and-site-context/one-shot/attempts/01/integration/adapter-result.json",
+        "sha256": "5e9e7b424ca0d8c0ceec15ac091f923ccb3b3b4ccfbf66df0eea3bf6f6ccbe6b"
+      },
+      {
+        "path": "works/chichu-art-museum-underground-architecture-and-site-context/one-shot/attempts/01/integration/card.txt",
+        "sha256": "90dc9246bbe180d84e97b83e71606ed43ed2723a968e63e9c92748cc590de288"
+      },
+      {
+        "path": "works/chichu-art-museum-underground-architecture-and-site-context/one-shot/attempts/01/integration/display-metadata.json",
+        "sha256": "11c337b9a5d9e98c21d6b68442d24ac461a0a262c545a40ba9368ea5e55a47a6"
+      },
+      {
+        "path": "works/chichu-art-museum-underground-architecture-and-site-context/one-shot/attempts/01/integration/draft.md",
+        "sha256": "d38e01af5a868c8d17517a2543b2c5ded3d885fcb74e6d9eae7d7476c0738029"
+      },
+      {
+        "path": "works/chichu-art-museum-underground-architecture-and-site-context/one-shot/attempts/01/integration/sources.json",
+        "sha256": "142e39278e2e46fa43ae0c12a8dd8986403ee55b4b40c192b3f8a717b5ebabfb"
+      },
+      {
+        "path": "works/chichu-art-museum-underground-architecture-and-site-context/one-shot/attempts/01/integration/verification.json",
+        "sha256": "b25db0a6741afaac4da7e155757cd9368fc11b83d7caf476d23e790f0f08965a"
+      },
+      {
+        "path": "works/chichu-art-museum-underground-architecture-and-site-context/one-shot/attempts/01/output/article.md",
+        "sha256": "d38e01af5a868c8d17517a2543b2c5ded3d885fcb74e6d9eae7d7476c0738029"
+      },
+      {
+        "path": "works/chichu-art-museum-underground-architecture-and-site-context/one-shot/attempts/01/output/sources.json",
+        "sha256": "142e39278e2e46fa43ae0c12a8dd8986403ee55b4b40c192b3f8a717b5ebabfb"
+      },
+      {
+        "path": "works/chichu-art-museum-underground-architecture-and-site-context/one-shot/attempts/01/result.json",
+        "sha256": "7ef5afbfa13da0162bd6d79f7efe416d9b104d4b756902135981aab7fb6a4d34"
+      },
+      {
+        "path": "works/chichu-art-museum-underground-architecture-and-site-context/one-shot/attempts/01/runner.log",
+        "sha256": "ac49d1fbce966cd6e5ba2fd2980a2aa19c1039cf4d69446660023f0b78f86bfd"
+      },
+      {
+        "path": "works/chichu-art-museum-underground-architecture-and-site-context/one-shot/attempts/01/verification.json",
+        "sha256": "b25db0a6741afaac4da7e155757cd9368fc11b83d7caf476d23e790f0f08965a"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/attempts/01/input/locked-metadata.json",
+        "sha256": "0521cab3cb605588ab5e19b734af7868015e0fc21dc3b28169f28a1976e82692"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/attempts/01/input/production-snapshot.json",
+        "sha256": "61b1c58e883c43b953c8bb229d457d5add950f795937136c2218dfee1d8676c0"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/attempts/01/input/response-schema.json",
+        "sha256": "66385678d7cb6dd0d684f7a0758e47a0b6f2c655170e7560c2366440bb349459"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/attempts/01/output/article.md",
+        "sha256": "07fdc57e0c27266d4941f5ea62d400ed2d3d1a9d567a9d3e43d8dbfddc3ef422"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/attempts/01/output/sources.json",
+        "sha256": "e2671db16ed15c148df0819f2a210f7bb53321cdf9aab8cc738e93e28aa87139"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/attempts/01/result.json",
+        "sha256": "d9a1c5ed69765e83b8ad12bab3f2d54229a6af9d6e7f3a422addf322ed1905e9"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/attempts/01/runner.log",
+        "sha256": "80550e33302f79aa1c1b0d0508a7858f5e8b55c29bbb805fa4622ea70e7b00c7"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/attempts/01/verification.json",
+        "sha256": "30ceb633d6d45225ff7889a492c1e7febfd451718db62882bd8b2c59651a6243"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/attempts/02/input/locked-metadata.json",
+        "sha256": "0521cab3cb605588ab5e19b734af7868015e0fc21dc3b28169f28a1976e82692"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/attempts/02/input/production-snapshot.json",
+        "sha256": "61b1c58e883c43b953c8bb229d457d5add950f795937136c2218dfee1d8676c0"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/attempts/02/input/response-schema.json",
+        "sha256": "66385678d7cb6dd0d684f7a0758e47a0b6f2c655170e7560c2366440bb349459"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/attempts/02/integration/adapter-result.json",
+        "sha256": "1d268d1b8c25b68585e6b67774c3735c959642683f6014553aecb9d21e35b399"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/attempts/02/integration/card.txt",
+        "sha256": "1d08e0d23a8d28294f0f7edeefc933ce8787c84d1af4b76b1e0facf2e5218a70"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/attempts/02/integration/display-metadata.json",
+        "sha256": "def3edecee6f6c3578672ca5fe9e38471d6d1b4703cc1f3315106260dee27dd4"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/attempts/02/integration/draft.md",
+        "sha256": "cc98ecc2a5ea3edfa326d0d2731db4b140b5abcb3ca4deb4f889eba4641fe7ca"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/attempts/02/integration/sources.json",
+        "sha256": "42eaf2c4d92174c38e8c132232ba390d24b3b460b8c31f69326e9c23ee717992"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/attempts/02/integration/verification.json",
+        "sha256": "25033cdf30239237c9e6814417be0a0d1dce944acac755216cd9471c460ef9a8"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/attempts/02/output/article.md",
+        "sha256": "cc98ecc2a5ea3edfa326d0d2731db4b140b5abcb3ca4deb4f889eba4641fe7ca"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/attempts/02/output/sources.json",
+        "sha256": "42eaf2c4d92174c38e8c132232ba390d24b3b460b8c31f69326e9c23ee717992"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/attempts/02/result.json",
+        "sha256": "a858a4256c07008fc9e4d2656c314a0784415a6cdb43d31e1fa735b37b3db432"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/attempts/02/runner.log",
+        "sha256": "22b7e7ec138a1c0cdabf116991d246007ee9d82552e94d166ce62ae353cef313"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/attempts/02/verification.json",
+        "sha256": "25033cdf30239237c9e6814417be0a0d1dce944acac755216cd9471c460ef9a8"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/attempts/01/input/locked-metadata.json",
+        "sha256": "4f5804cd82d6749659feb93cd1007e12e9e0c0f305c53c6114bb8a9b79c94639"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/attempts/01/input/production-snapshot.json",
+        "sha256": "61b1c58e883c43b953c8bb229d457d5add950f795937136c2218dfee1d8676c0"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/attempts/01/input/response-schema.json",
+        "sha256": "66385678d7cb6dd0d684f7a0758e47a0b6f2c655170e7560c2366440bb349459"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/attempts/01/output/article.md",
+        "sha256": "133cdf52bbf59ced19d823d0ada6fcce53d2310481a2e918f5c4a1bac840d9d7"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/attempts/01/output/sources.json",
+        "sha256": "d4781a53437d039cbaba9795f7a44e5982d88df4c224cd0c1afc59400614dae5"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/attempts/01/result.json",
+        "sha256": "43bfceb37d93f9ca4b781d074b686dcb6090af0cf1072d5f157ec1c3bba8bfe4"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/attempts/01/runner.log",
+        "sha256": "29d47aaca8f0cfb1b81ab7199de70707a7dece8d731c352710e56cb155d22c2a"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/attempts/01/verification.json",
+        "sha256": "64ecc23ddad94a962d3e93dbc58d55d30ab0c69a6435b9258c92f34e2a9ab255"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/attempts/02/input/locked-metadata.json",
+        "sha256": "4f5804cd82d6749659feb93cd1007e12e9e0c0f305c53c6114bb8a9b79c94639"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/attempts/02/input/production-snapshot.json",
+        "sha256": "61b1c58e883c43b953c8bb229d457d5add950f795937136c2218dfee1d8676c0"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/attempts/02/input/response-schema.json",
+        "sha256": "66385678d7cb6dd0d684f7a0758e47a0b6f2c655170e7560c2366440bb349459"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/attempts/02/integration/adapter-result.json",
+        "sha256": "22052d2853da5f53515452e6ccb9ee8ac765638f2c9befe693680f18595531a7"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/attempts/02/integration/card.txt",
+        "sha256": "670cff41882a567c70456fd2848c1ec1e9db8ae2ca85282b9b40eb7995988bc0"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/attempts/02/integration/display-metadata.json",
+        "sha256": "ec48fb0577309d61faaceb46f66d5cc6d65a4aa3a1c028d2217c3da1b6966ff1"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/attempts/02/integration/draft.md",
+        "sha256": "ab3c6af0198c111193d57b747fa3058be2adb9dfd29de1848595f9453d38f3d7"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/attempts/02/integration/sources.json",
+        "sha256": "af5604d244a92adef56d60642d238139b4e52f1546cbb5457257540149fecf61"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/attempts/02/integration/verification.json",
+        "sha256": "52c97b09d2c3f314e60d3c9b6fee92bd16fe06afac4b385862c131c25a48d0cc"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/attempts/02/output/article.md",
+        "sha256": "ab3c6af0198c111193d57b747fa3058be2adb9dfd29de1848595f9453d38f3d7"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/attempts/02/output/sources.json",
+        "sha256": "af5604d244a92adef56d60642d238139b4e52f1546cbb5457257540149fecf61"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/attempts/02/result.json",
+        "sha256": "374caded1de5273df326bb308ad98eebcb100112e6b8c58d76a7414e86a9bf32"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/attempts/02/runner.log",
+        "sha256": "791a928653e81e97ca4cc0e757fd4ff27242977de8e356c7d6da52a683de6f1c"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/attempts/02/verification.json",
+        "sha256": "52c97b09d2c3f314e60d3c9b6fee92bd16fe06afac4b385862c131c25a48d0cc"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919/one-shot/attempts/01/input/locked-metadata.json",
+        "sha256": "fbed80122eaa06e8cdeac34b6455f2fa5cde9dbfcd4e00e837f821f37ea273b6"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919/one-shot/attempts/01/input/production-snapshot.json",
+        "sha256": "61b1c58e883c43b953c8bb229d457d5add950f795937136c2218dfee1d8676c0"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919/one-shot/attempts/01/input/response-schema.json",
+        "sha256": "66385678d7cb6dd0d684f7a0758e47a0b6f2c655170e7560c2366440bb349459"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919/one-shot/attempts/01/integration/adapter-result.json",
+        "sha256": "398dd2ee6eb648bef128afceeb2d2560e2c8e51f23a9e213718cb7f97db495eb"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919/one-shot/attempts/01/integration/card.txt",
+        "sha256": "6f289dc9d215fc61d6a37a04060125fb80f1c371ac403f0d54a2a8521cc2df10"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919/one-shot/attempts/01/integration/display-metadata.json",
+        "sha256": "992bad63578607fe16d74e64b711ad0a882ab6c58fe09dc5add2d6d7b0b1716f"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919/one-shot/attempts/01/integration/draft.md",
+        "sha256": "a1b9e56f3d011855ead43221584d70ac9bf0e62c96b36eef52b00bd602eaae7e"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919/one-shot/attempts/01/integration/sources.json",
+        "sha256": "705e1ea043088259109fd97ab2ff52baf624f160e59ac35c385d32b5cd3463e5"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919/one-shot/attempts/01/integration/verification.json",
+        "sha256": "4bd49e876bb1488ebabbaa1f6b385c95d5d3e9b983ae16c704402e7ff3aa4257"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919/one-shot/attempts/01/output/article.md",
+        "sha256": "a1b9e56f3d011855ead43221584d70ac9bf0e62c96b36eef52b00bd602eaae7e"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919/one-shot/attempts/01/output/sources.json",
+        "sha256": "705e1ea043088259109fd97ab2ff52baf624f160e59ac35c385d32b5cd3463e5"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919/one-shot/attempts/01/result.json",
+        "sha256": "a95bac0060112e02108e4216abab9cc1eb8770fc9cd96228fa7e63642d4b2652"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919/one-shot/attempts/01/runner.log",
+        "sha256": "512c3cc7a197e5590d13dfe366db3ff54b1007cecd06ce7753261640927ef5a6"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919/one-shot/attempts/01/verification.json",
+        "sha256": "4bd49e876bb1488ebabbaa1f6b385c95d5d3e9b983ae16c704402e7ff3aa4257"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-1917-1919/one-shot/attempts/01/input/locked-metadata.json",
+        "sha256": "65a94901eb2adaa1e81ce0b61001c3bf129160b6284fd96ca0d3051d371401df"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-1917-1919/one-shot/attempts/01/input/production-snapshot.json",
+        "sha256": "61b1c58e883c43b953c8bb229d457d5add950f795937136c2218dfee1d8676c0"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-1917-1919/one-shot/attempts/01/input/response-schema.json",
+        "sha256": "66385678d7cb6dd0d684f7a0758e47a0b6f2c655170e7560c2366440bb349459"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-1917-1919/one-shot/attempts/01/integration/adapter-result.json",
+        "sha256": "47f4bf89ba03fedd7e254938178023da9f7478fdf8e90e3acee9021bb5e539e8"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-1917-1919/one-shot/attempts/01/integration/card.txt",
+        "sha256": "f5166bd1e3159653b938ca9af458eac82c498f99d90b4ee0af4043ec894423bc"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-1917-1919/one-shot/attempts/01/integration/display-metadata.json",
+        "sha256": "d7d706fee8a69710bbf0612d1fba25f5c97dfcf3252c1cc9ae6ae4bc077b8a96"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-1917-1919/one-shot/attempts/01/integration/draft.md",
+        "sha256": "71c1939f982aef52fc0321fc1d6c570cc87bb5446211b64beebed547746f22bf"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-1917-1919/one-shot/attempts/01/integration/sources.json",
+        "sha256": "0aa9cdedcee34b2b6530c2ec348cc9340f29dc90274dd4d57db665058961a3a1"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-1917-1919/one-shot/attempts/01/integration/verification.json",
+        "sha256": "3e5f15f0ab9a5332a580fad2514ad08f6eb1d816d0d89e24080e716649d6c6d5"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-1917-1919/one-shot/attempts/01/output/article.md",
+        "sha256": "71c1939f982aef52fc0321fc1d6c570cc87bb5446211b64beebed547746f22bf"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-1917-1919/one-shot/attempts/01/output/sources.json",
+        "sha256": "0aa9cdedcee34b2b6530c2ec348cc9340f29dc90274dd4d57db665058961a3a1"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-1917-1919/one-shot/attempts/01/result.json",
+        "sha256": "4a5fc4a3b31561f5fef2e6c53e36428dfdb782d71cea2500a33d40cd5fc04f03"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-1917-1919/one-shot/attempts/01/runner.log",
+        "sha256": "d31d6b7e35526f521f70ca88921b373895aa4bde77eaf77338a636e2b883a24a"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-1917-1919/one-shot/attempts/01/verification.json",
+        "sha256": "3e5f15f0ab9a5332a580fad2514ad08f6eb1d816d0d89e24080e716649d6c6d5"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-c-1915-1926/one-shot/attempts/01/input/locked-metadata.json",
+        "sha256": "a788bc726d407c1691dc7c17a5d579c96ade70b68c2eda4ae22c99ae162d3c41"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-c-1915-1926/one-shot/attempts/01/input/production-snapshot.json",
+        "sha256": "61b1c58e883c43b953c8bb229d457d5add950f795937136c2218dfee1d8676c0"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-c-1915-1926/one-shot/attempts/01/input/response-schema.json",
+        "sha256": "66385678d7cb6dd0d684f7a0758e47a0b6f2c655170e7560c2366440bb349459"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-c-1915-1926/one-shot/attempts/01/integration/adapter-result.json",
+        "sha256": "f126a8cf02b0e6070db9e01dfc0d3a29cc1bf62a216acabcf62291d87cdc5938"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-c-1915-1926/one-shot/attempts/01/integration/card.txt",
+        "sha256": "65d694d4fc3c90198e1f7e10eba60f8dec4ebd34c8f56e1ce07fc142691b6bb7"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-c-1915-1926/one-shot/attempts/01/integration/display-metadata.json",
+        "sha256": "408211a869a9c5602adfbee419c18f79da08749e46cd094eb40ff88739f5f07f"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-c-1915-1926/one-shot/attempts/01/integration/draft.md",
+        "sha256": "7c21a061ff512b3a4d6c849c5785c31f72264fa9a05cc71123885f88b4da0faf"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-c-1915-1926/one-shot/attempts/01/integration/sources.json",
+        "sha256": "9434c35d4686327ccfa7fe5c0b2e9ef013d426c667aba114f9bf63566e29d92a"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-c-1915-1926/one-shot/attempts/01/integration/verification.json",
+        "sha256": "ac7bf5acfdab51a7418b8f2e187e78eb3141d1e8cb5b18d2641db34f8c8d7153"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-c-1915-1926/one-shot/attempts/01/output/article.md",
+        "sha256": "7c21a061ff512b3a4d6c849c5785c31f72264fa9a05cc71123885f88b4da0faf"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-c-1915-1926/one-shot/attempts/01/output/sources.json",
+        "sha256": "9434c35d4686327ccfa7fe5c0b2e9ef013d426c667aba114f9bf63566e29d92a"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-c-1915-1926/one-shot/attempts/01/result.json",
+        "sha256": "701505b627e886656aa2f814f2720298f47f11f6fdaf0ab8b40f13295b515b97"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-c-1915-1926/one-shot/attempts/01/runner.log",
+        "sha256": "930c22e2489be66c1fa78d77258229b951cb042339d337cfe0aada6192764515"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-c-1915-1926/one-shot/attempts/01/verification.json",
+        "sha256": "ac7bf5acfdab51a7418b8f2e187e78eb3141d1e8cb5b18d2641db34f8c8d7153"
+      },
+      {
+        "path": "works/james-turrell-afrum-pale-blue-1968/one-shot/attempts/01/input/locked-metadata.json",
+        "sha256": "0c7182fd8ab2f0f4aaaf623fba24a899baed62d12d2f3c30d90f91a17ffa5b36"
+      },
+      {
+        "path": "works/james-turrell-afrum-pale-blue-1968/one-shot/attempts/01/input/production-snapshot.json",
+        "sha256": "61b1c58e883c43b953c8bb229d457d5add950f795937136c2218dfee1d8676c0"
+      },
+      {
+        "path": "works/james-turrell-afrum-pale-blue-1968/one-shot/attempts/01/input/response-schema.json",
+        "sha256": "66385678d7cb6dd0d684f7a0758e47a0b6f2c655170e7560c2366440bb349459"
+      },
+      {
+        "path": "works/james-turrell-afrum-pale-blue-1968/one-shot/attempts/01/integration/adapter-result.json",
+        "sha256": "70a4be892e072315e81eb4771e07828c51f9fd2b92608fb059f0961e584360ab"
+      },
+      {
+        "path": "works/james-turrell-afrum-pale-blue-1968/one-shot/attempts/01/integration/card.txt",
+        "sha256": "bad2e594c241157791f1cd265237ee289518bf455061af2be4de7a055d122d50"
+      },
+      {
+        "path": "works/james-turrell-afrum-pale-blue-1968/one-shot/attempts/01/integration/display-metadata.json",
+        "sha256": "8142a77cb75401742c9bddaff3a1d3edfacbf8d468c19d1b780f280954442e04"
+      },
+      {
+        "path": "works/james-turrell-afrum-pale-blue-1968/one-shot/attempts/01/integration/draft.md",
+        "sha256": "d97dbb2e4be8262ed508db4fa3aa43c57a763338c761be429c75a812f0110f24"
+      },
+      {
+        "path": "works/james-turrell-afrum-pale-blue-1968/one-shot/attempts/01/integration/sources.json",
+        "sha256": "808a917a180e72fa3cad1ac233921289c85b41b283dacf9de7ee51103b514d92"
+      },
+      {
+        "path": "works/james-turrell-afrum-pale-blue-1968/one-shot/attempts/01/integration/verification.json",
+        "sha256": "257ea325d682c970bf0bc568c98f7ee00a0eb20f5cdc229bcb8601e573a1d3e6"
+      },
+      {
+        "path": "works/james-turrell-afrum-pale-blue-1968/one-shot/attempts/01/output/article.md",
+        "sha256": "d97dbb2e4be8262ed508db4fa3aa43c57a763338c761be429c75a812f0110f24"
+      },
+      {
+        "path": "works/james-turrell-afrum-pale-blue-1968/one-shot/attempts/01/output/sources.json",
+        "sha256": "808a917a180e72fa3cad1ac233921289c85b41b283dacf9de7ee51103b514d92"
+      },
+      {
+        "path": "works/james-turrell-afrum-pale-blue-1968/one-shot/attempts/01/result.json",
+        "sha256": "45346f39d27effb443ad4081f1aac2e1ffb9099a5db012875fbbf77d5d1efb8b"
+      },
+      {
+        "path": "works/james-turrell-afrum-pale-blue-1968/one-shot/attempts/01/runner.log",
+        "sha256": "adfc2f4606a34e378d2271a2305be7e2eff89bc7698d4c518e50d20b60eb0003"
+      },
+      {
+        "path": "works/james-turrell-afrum-pale-blue-1968/one-shot/attempts/01/verification.json",
+        "sha256": "257ea325d682c970bf0bc568c98f7ee00a0eb20f5cdc229bcb8601e573a1d3e6"
+      },
+      {
+        "path": "works/james-turrell-open-field-2000/one-shot/attempts/01/input/locked-metadata.json",
+        "sha256": "b5c465b93aa6a60878e4e24c5f3151a7baa3a738e98634329ed22b0fce19158a"
+      },
+      {
+        "path": "works/james-turrell-open-field-2000/one-shot/attempts/01/input/production-snapshot.json",
+        "sha256": "61b1c58e883c43b953c8bb229d457d5add950f795937136c2218dfee1d8676c0"
+      },
+      {
+        "path": "works/james-turrell-open-field-2000/one-shot/attempts/01/input/response-schema.json",
+        "sha256": "66385678d7cb6dd0d684f7a0758e47a0b6f2c655170e7560c2366440bb349459"
+      },
+      {
+        "path": "works/james-turrell-open-field-2000/one-shot/attempts/01/output/article.md",
+        "sha256": "04871e1aa84a169df268459bae08d7d31f392539708e6ae6794ae781768945c6"
+      },
+      {
+        "path": "works/james-turrell-open-field-2000/one-shot/attempts/01/output/sources.json",
+        "sha256": "6a01d164e6a3d168db37cfdf194b779f8d123334c40a41f1e1a0292b004c6fd7"
+      },
+      {
+        "path": "works/james-turrell-open-field-2000/one-shot/attempts/01/result.json",
+        "sha256": "41924827270a76c943e7877057e11c7bb93fa8d17dc4b0580ddd4466c4ad9f46"
+      },
+      {
+        "path": "works/james-turrell-open-field-2000/one-shot/attempts/01/runner.log",
+        "sha256": "1f2783f3409363a8354eb7f146cf21dd60b3e07da7bec30d1bb42fdab8f5a992"
+      },
+      {
+        "path": "works/james-turrell-open-field-2000/one-shot/attempts/01/verification.json",
+        "sha256": "4dc5a604e80846a326f0aa20a7b45eff555b7beeb1a3e281404f6574dea183a2"
+      },
+      {
+        "path": "works/james-turrell-open-field-2000/one-shot/attempts/02/input/locked-metadata.json",
+        "sha256": "b5c465b93aa6a60878e4e24c5f3151a7baa3a738e98634329ed22b0fce19158a"
+      },
+      {
+        "path": "works/james-turrell-open-field-2000/one-shot/attempts/02/input/production-snapshot.json",
+        "sha256": "61b1c58e883c43b953c8bb229d457d5add950f795937136c2218dfee1d8676c0"
+      },
+      {
+        "path": "works/james-turrell-open-field-2000/one-shot/attempts/02/input/response-schema.json",
+        "sha256": "66385678d7cb6dd0d684f7a0758e47a0b6f2c655170e7560c2366440bb349459"
+      },
+      {
+        "path": "works/james-turrell-open-field-2000/one-shot/attempts/02/output/article.md",
+        "sha256": "053e44af16fde317b60b86f4882ec9638efc3b8d1b9cf8e55b2c7aad2b057c08"
+      },
+      {
+        "path": "works/james-turrell-open-field-2000/one-shot/attempts/02/output/sources.json",
+        "sha256": "4289450e47ffcb08cfb63ecb3be86bdef70588b1c97492771232b4017dbc92f4"
+      },
+      {
+        "path": "works/james-turrell-open-field-2000/one-shot/attempts/02/result.json",
+        "sha256": "ce8201e6adc19945a86952c4b5fc60b002273fb0cdf7912196ad8565ba560150"
+      },
+      {
+        "path": "works/james-turrell-open-field-2000/one-shot/attempts/02/runner.log",
+        "sha256": "bec92af2f5710cf3e7457da35533025bdcd7ecc46d54d2f1b35c8fd4e2ea9c82"
+      },
+      {
+        "path": "works/james-turrell-open-field-2000/one-shot/attempts/02/verification.json",
+        "sha256": "dc709900a48105a08eb7a6668af3e893763a5959fcc9ca04b96b8f1f57f898dd"
+      },
+      {
+        "path": "works/james-turrell-open-sky-2004/one-shot/attempts/01/input/locked-metadata.json",
+        "sha256": "b29333ba744933632a855d652ec1c5c8040e3b66cf306ca8a77417e3d04c5246"
+      },
+      {
+        "path": "works/james-turrell-open-sky-2004/one-shot/attempts/01/input/production-snapshot.json",
+        "sha256": "61b1c58e883c43b953c8bb229d457d5add950f795937136c2218dfee1d8676c0"
+      },
+      {
+        "path": "works/james-turrell-open-sky-2004/one-shot/attempts/01/input/response-schema.json",
+        "sha256": "66385678d7cb6dd0d684f7a0758e47a0b6f2c655170e7560c2366440bb349459"
+      },
+      {
+        "path": "works/james-turrell-open-sky-2004/one-shot/attempts/01/output/article.md",
+        "sha256": "662bcce16048faa0cc2ded224e9b0c50c49dba203086f4d4bee969115ffcb5e3"
+      },
+      {
+        "path": "works/james-turrell-open-sky-2004/one-shot/attempts/01/output/sources.json",
+        "sha256": "0a20879788417c17f405b1c65ca80ba6fc7c68885abacc1db7fc9d96fc74053b"
+      },
+      {
+        "path": "works/james-turrell-open-sky-2004/one-shot/attempts/01/result.json",
+        "sha256": "9efce2944b1dc1565e2ee66c51db5b2025dae06d86fdf79e5ab8f38875676cf7"
+      },
+      {
+        "path": "works/james-turrell-open-sky-2004/one-shot/attempts/01/runner.log",
+        "sha256": "d05654d9ed96a69c1f11cdf4263ff5c79a75544858ba7ae2fb2faf397f08df39"
+      },
+      {
+        "path": "works/james-turrell-open-sky-2004/one-shot/attempts/01/verification.json",
+        "sha256": "4a2dbe6016c0dae141bc9f318d2ee62819e4595e0fb4a5bd13d3eb3b6e320ab5"
+      },
+      {
+        "path": "works/james-turrell-open-sky-2004/one-shot/attempts/02/input/locked-metadata.json",
+        "sha256": "b29333ba744933632a855d652ec1c5c8040e3b66cf306ca8a77417e3d04c5246"
+      },
+      {
+        "path": "works/james-turrell-open-sky-2004/one-shot/attempts/02/input/production-snapshot.json",
+        "sha256": "61b1c58e883c43b953c8bb229d457d5add950f795937136c2218dfee1d8676c0"
+      },
+      {
+        "path": "works/james-turrell-open-sky-2004/one-shot/attempts/02/input/response-schema.json",
+        "sha256": "66385678d7cb6dd0d684f7a0758e47a0b6f2c655170e7560c2366440bb349459"
+      },
+      {
+        "path": "works/james-turrell-open-sky-2004/one-shot/attempts/02/output/article.md",
+        "sha256": "f5aa22c0f40c7276ad13f38a0ee2740f199eb4629022669a912c6e86e1e3ea16"
+      },
+      {
+        "path": "works/james-turrell-open-sky-2004/one-shot/attempts/02/output/sources.json",
+        "sha256": "b3fb7740b90787087e95b121a4f94169c438a28de95464206b7a6e0f72286357"
+      },
+      {
+        "path": "works/james-turrell-open-sky-2004/one-shot/attempts/02/result.json",
+        "sha256": "1295c256faf6ab07900c1f02050d5e453a55d40d536ea03e00a3531383d633cf"
+      },
+      {
+        "path": "works/james-turrell-open-sky-2004/one-shot/attempts/02/runner.log",
+        "sha256": "02006233cce3c44271793b6881577c01b484394b375ae98feef8203ad7606aa3"
+      },
+      {
+        "path": "works/james-turrell-open-sky-2004/one-shot/attempts/02/verification.json",
+        "sha256": "093fec4dcf38f5badd9284fec62edadbabcecba7a299ff0646aad10f24eb62cb"
+      },
+      {
+        "path": "works/walter-de-maria-time-timeless-no-time-2004/one-shot/attempts/01/input/locked-metadata.json",
+        "sha256": "71a7031fe2ac150ef6b14800a43de4dab4aba3b23e5194b3d48214dac7fe2820"
+      },
+      {
+        "path": "works/walter-de-maria-time-timeless-no-time-2004/one-shot/attempts/01/input/production-snapshot.json",
+        "sha256": "61b1c58e883c43b953c8bb229d457d5add950f795937136c2218dfee1d8676c0"
+      },
+      {
+        "path": "works/walter-de-maria-time-timeless-no-time-2004/one-shot/attempts/01/input/response-schema.json",
+        "sha256": "66385678d7cb6dd0d684f7a0758e47a0b6f2c655170e7560c2366440bb349459"
+      },
+      {
+        "path": "works/walter-de-maria-time-timeless-no-time-2004/one-shot/attempts/01/integration/adapter-result.json",
+        "sha256": "e813f41bdc3fab572535881d1209f199b4b2ac48eb7b89087c62226e645cda95"
+      },
+      {
+        "path": "works/walter-de-maria-time-timeless-no-time-2004/one-shot/attempts/01/integration/card.txt",
+        "sha256": "9c56d60f862bcb9aeed4a4c0bda663a1d49bec85045c06072de2e4494d6b59f3"
+      },
+      {
+        "path": "works/walter-de-maria-time-timeless-no-time-2004/one-shot/attempts/01/integration/display-metadata.json",
+        "sha256": "12d903c7e6538d935fea006dc588d050afeba3d595fab464c4d63de56213df75"
+      },
+      {
+        "path": "works/walter-de-maria-time-timeless-no-time-2004/one-shot/attempts/01/integration/draft.md",
+        "sha256": "345703209b09ffdb43e76196a9d5374d079d5c876995d3f88d1ded48405455a9"
+      },
+      {
+        "path": "works/walter-de-maria-time-timeless-no-time-2004/one-shot/attempts/01/integration/sources.json",
+        "sha256": "47f7fe642317e694aa383714b2b6e4970b4afb8d81f1e7c793a4173140005c6a"
+      },
+      {
+        "path": "works/walter-de-maria-time-timeless-no-time-2004/one-shot/attempts/01/integration/verification.json",
+        "sha256": "93e3bd1b0121f1c5ee8c9d0d960c78d36937faaad9353cec3e366e40b95a974c"
+      },
+      {
+        "path": "works/walter-de-maria-time-timeless-no-time-2004/one-shot/attempts/01/output/article.md",
+        "sha256": "345703209b09ffdb43e76196a9d5374d079d5c876995d3f88d1ded48405455a9"
+      },
+      {
+        "path": "works/walter-de-maria-time-timeless-no-time-2004/one-shot/attempts/01/output/sources.json",
+        "sha256": "47f7fe642317e694aa383714b2b6e4970b4afb8d81f1e7c793a4173140005c6a"
+      },
+      {
+        "path": "works/walter-de-maria-time-timeless-no-time-2004/one-shot/attempts/01/result.json",
+        "sha256": "88bf163a88cb76ac9d190f3c819f1fcd715d658f00f4116490a1124cbca2bcac"
+      },
+      {
+        "path": "works/walter-de-maria-time-timeless-no-time-2004/one-shot/attempts/01/runner.log",
+        "sha256": "08c4a86ac58c43cf50280b4186294ab2b565c04f1e3a0eda932044e5fee474ea"
+      },
+      {
+        "path": "works/walter-de-maria-time-timeless-no-time-2004/one-shot/attempts/01/verification.json",
+        "sha256": "93e3bd1b0121f1c5ee8c9d0d960c78d36937faaad9353cec3e366e40b95a974c"
+      }
+    ],
+    "verification": [
+      {
+        "path": "works/chichu-art-museum-underground-architecture-and-site-context/one-shot/attempts/01/integration/verification.json",
+        "sha256": "b25db0a6741afaac4da7e155757cd9368fc11b83d7caf476d23e790f0f08965a"
+      },
+      {
+        "path": "works/chichu-art-museum-underground-architecture-and-site-context/one-shot/integration/verification.json",
+        "sha256": "b25db0a6741afaac4da7e155757cd9368fc11b83d7caf476d23e790f0f08965a"
+      },
+      {
+        "path": "works/chichu-art-museum-underground-architecture-and-site-context/one-shot/verification.json",
+        "sha256": "b25db0a6741afaac4da7e155757cd9368fc11b83d7caf476d23e790f0f08965a"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/attempts/02/integration/verification.json",
+        "sha256": "25033cdf30239237c9e6814417be0a0d1dce944acac755216cd9471c460ef9a8"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/integration/verification.json",
+        "sha256": "25033cdf30239237c9e6814417be0a0d1dce944acac755216cd9471c460ef9a8"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/verification.json",
+        "sha256": "25033cdf30239237c9e6814417be0a0d1dce944acac755216cd9471c460ef9a8"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/attempts/02/integration/verification.json",
+        "sha256": "52c97b09d2c3f314e60d3c9b6fee92bd16fe06afac4b385862c131c25a48d0cc"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/integration/verification.json",
+        "sha256": "52c97b09d2c3f314e60d3c9b6fee92bd16fe06afac4b385862c131c25a48d0cc"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/verification.json",
+        "sha256": "52c97b09d2c3f314e60d3c9b6fee92bd16fe06afac4b385862c131c25a48d0cc"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919/one-shot/attempts/01/integration/verification.json",
+        "sha256": "4bd49e876bb1488ebabbaa1f6b385c95d5d3e9b983ae16c704402e7ff3aa4257"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919/one-shot/integration/verification.json",
+        "sha256": "4bd49e876bb1488ebabbaa1f6b385c95d5d3e9b983ae16c704402e7ff3aa4257"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919/one-shot/verification.json",
+        "sha256": "4bd49e876bb1488ebabbaa1f6b385c95d5d3e9b983ae16c704402e7ff3aa4257"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-1917-1919/one-shot/attempts/01/integration/verification.json",
+        "sha256": "3e5f15f0ab9a5332a580fad2514ad08f6eb1d816d0d89e24080e716649d6c6d5"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-1917-1919/one-shot/integration/verification.json",
+        "sha256": "3e5f15f0ab9a5332a580fad2514ad08f6eb1d816d0d89e24080e716649d6c6d5"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-1917-1919/one-shot/verification.json",
+        "sha256": "3e5f15f0ab9a5332a580fad2514ad08f6eb1d816d0d89e24080e716649d6c6d5"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-c-1915-1926/one-shot/attempts/01/integration/verification.json",
+        "sha256": "ac7bf5acfdab51a7418b8f2e187e78eb3141d1e8cb5b18d2641db34f8c8d7153"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-c-1915-1926/one-shot/integration/verification.json",
+        "sha256": "ac7bf5acfdab51a7418b8f2e187e78eb3141d1e8cb5b18d2641db34f8c8d7153"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-c-1915-1926/one-shot/verification.json",
+        "sha256": "ac7bf5acfdab51a7418b8f2e187e78eb3141d1e8cb5b18d2641db34f8c8d7153"
+      },
+      {
+        "path": "works/james-turrell-afrum-pale-blue-1968/one-shot/attempts/01/integration/verification.json",
+        "sha256": "257ea325d682c970bf0bc568c98f7ee00a0eb20f5cdc229bcb8601e573a1d3e6"
+      },
+      {
+        "path": "works/james-turrell-afrum-pale-blue-1968/one-shot/integration/verification.json",
+        "sha256": "257ea325d682c970bf0bc568c98f7ee00a0eb20f5cdc229bcb8601e573a1d3e6"
+      },
+      {
+        "path": "works/james-turrell-afrum-pale-blue-1968/one-shot/verification.json",
+        "sha256": "257ea325d682c970bf0bc568c98f7ee00a0eb20f5cdc229bcb8601e573a1d3e6"
+      },
+      {
+        "path": "works/james-turrell-open-field-2000/one-shot/integration/verification.json",
+        "sha256": "dc709900a48105a08eb7a6668af3e893763a5959fcc9ca04b96b8f1f57f898dd"
+      },
+      {
+        "path": "works/james-turrell-open-field-2000/one-shot/verification.json",
+        "sha256": "dc709900a48105a08eb7a6668af3e893763a5959fcc9ca04b96b8f1f57f898dd"
+      },
+      {
+        "path": "works/james-turrell-open-sky-2004/one-shot/integration/verification.json",
+        "sha256": "093fec4dcf38f5badd9284fec62edadbabcecba7a299ff0646aad10f24eb62cb"
+      },
+      {
+        "path": "works/james-turrell-open-sky-2004/one-shot/verification.json",
+        "sha256": "093fec4dcf38f5badd9284fec62edadbabcecba7a299ff0646aad10f24eb62cb"
+      },
+      {
+        "path": "works/walter-de-maria-time-timeless-no-time-2004/one-shot/attempts/01/integration/verification.json",
+        "sha256": "93e3bd1b0121f1c5ee8c9d0d960c78d36937faaad9353cec3e366e40b95a974c"
+      },
+      {
+        "path": "works/walter-de-maria-time-timeless-no-time-2004/one-shot/integration/verification.json",
+        "sha256": "93e3bd1b0121f1c5ee8c9d0d960c78d36937faaad9353cec3e366e40b95a974c"
+      },
+      {
+        "path": "works/walter-de-maria-time-timeless-no-time-2004/one-shot/verification.json",
+        "sha256": "93e3bd1b0121f1c5ee8c9d0d960c78d36937faaad9353cec3e366e40b95a974c"
+      }
+    ],
+    "integration": [
+      {
+        "path": "works/chichu-art-museum-underground-architecture-and-site-context/one-shot/integration/adapter-result.json",
+        "sha256": "5e9e7b424ca0d8c0ceec15ac091f923ccb3b3b4ccfbf66df0eea3bf6f6ccbe6b"
+      },
+      {
+        "path": "works/chichu-art-museum-underground-architecture-and-site-context/one-shot/integration/card.txt",
+        "sha256": "90dc9246bbe180d84e97b83e71606ed43ed2723a968e63e9c92748cc590de288"
+      },
+      {
+        "path": "works/chichu-art-museum-underground-architecture-and-site-context/one-shot/integration/display-metadata.json",
+        "sha256": "11c337b9a5d9e98c21d6b68442d24ac461a0a262c545a40ba9368ea5e55a47a6"
+      },
+      {
+        "path": "works/chichu-art-museum-underground-architecture-and-site-context/one-shot/integration/draft.md",
+        "sha256": "d38e01af5a868c8d17517a2543b2c5ded3d885fcb74e6d9eae7d7476c0738029"
+      },
+      {
+        "path": "works/chichu-art-museum-underground-architecture-and-site-context/one-shot/integration/sources.json",
+        "sha256": "142e39278e2e46fa43ae0c12a8dd8986403ee55b4b40c192b3f8a717b5ebabfb"
+      },
+      {
+        "path": "works/chichu-art-museum-underground-architecture-and-site-context/one-shot/integration/verification.json",
+        "sha256": "b25db0a6741afaac4da7e155757cd9368fc11b83d7caf476d23e790f0f08965a"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/integration/adapter-result.json",
+        "sha256": "1d268d1b8c25b68585e6b67774c3735c959642683f6014553aecb9d21e35b399"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/integration/card.txt",
+        "sha256": "1d08e0d23a8d28294f0f7edeefc933ce8787c84d1af4b76b1e0facf2e5218a70"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/integration/display-metadata.json",
+        "sha256": "def3edecee6f6c3578672ca5fe9e38471d6d1b4703cc1f3315106260dee27dd4"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/integration/draft.md",
+        "sha256": "cc98ecc2a5ea3edfa326d0d2731db4b140b5abcb3ca4deb4f889eba4641fe7ca"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/integration/sources.json",
+        "sha256": "42eaf2c4d92174c38e8c132232ba390d24b3b460b8c31f69326e9c23ee717992"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-1914-1917/one-shot/integration/verification.json",
+        "sha256": "25033cdf30239237c9e6814417be0a0d1dce944acac755216cd9471c460ef9a8"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/integration/adapter-result.json",
+        "sha256": "22052d2853da5f53515452e6ccb9ee8ac765638f2c9befe693680f18595531a7"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/integration/card.txt",
+        "sha256": "670cff41882a567c70456fd2848c1ec1e9db8ae2ca85282b9b40eb7995988bc0"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/integration/display-metadata.json",
+        "sha256": "ec48fb0577309d61faaceb46f66d5cc6d65a4aa3a1c028d2217c3da1b6966ff1"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/integration/draft.md",
+        "sha256": "ab3c6af0198c111193d57b747fa3058be2adb9dfd29de1848595f9453d38f3d7"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/integration/sources.json",
+        "sha256": "af5604d244a92adef56d60642d238139b4e52f1546cbb5457257540149fecf61"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-cluster-of-grass-1914-1917/one-shot/integration/verification.json",
+        "sha256": "52c97b09d2c3f314e60d3c9b6fee92bd16fe06afac4b385862c131c25a48d0cc"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919/one-shot/integration/adapter-result.json",
+        "sha256": "398dd2ee6eb648bef128afceeb2d2560e2c8e51f23a9e213718cb7f97db495eb"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919/one-shot/integration/card.txt",
+        "sha256": "6f289dc9d215fc61d6a37a04060125fb80f1c371ac403f0d54a2a8521cc2df10"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919/one-shot/integration/display-metadata.json",
+        "sha256": "992bad63578607fe16d74e64b711ad0a882ab6c58fe09dc5add2d6d7b0b1716f"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919/one-shot/integration/draft.md",
+        "sha256": "a1b9e56f3d011855ead43221584d70ac9bf0e62c96b36eef52b00bd602eaae7e"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919/one-shot/integration/sources.json",
+        "sha256": "705e1ea043088259109fd97ab2ff52baf624f160e59ac35c385d32b5cd3463e5"
+      },
+      {
+        "path": "works/claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919/one-shot/integration/verification.json",
+        "sha256": "4bd49e876bb1488ebabbaa1f6b385c95d5d3e9b983ae16c704402e7ff3aa4257"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-1917-1919/one-shot/integration/adapter-result.json",
+        "sha256": "47f4bf89ba03fedd7e254938178023da9f7478fdf8e90e3acee9021bb5e539e8"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-1917-1919/one-shot/integration/card.txt",
+        "sha256": "f5166bd1e3159653b938ca9af458eac82c498f99d90b4ee0af4043ec894423bc"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-1917-1919/one-shot/integration/display-metadata.json",
+        "sha256": "d7d706fee8a69710bbf0612d1fba25f5c97dfcf3252c1cc9ae6ae4bc077b8a96"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-1917-1919/one-shot/integration/draft.md",
+        "sha256": "71c1939f982aef52fc0321fc1d6c570cc87bb5446211b64beebed547746f22bf"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-1917-1919/one-shot/integration/sources.json",
+        "sha256": "0aa9cdedcee34b2b6530c2ec348cc9340f29dc90274dd4d57db665058961a3a1"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-1917-1919/one-shot/integration/verification.json",
+        "sha256": "3e5f15f0ab9a5332a580fad2514ad08f6eb1d816d0d89e24080e716649d6c6d5"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-c-1915-1926/one-shot/integration/adapter-result.json",
+        "sha256": "f126a8cf02b0e6070db9e01dfc0d3a29cc1bf62a216acabcf62291d87cdc5938"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-c-1915-1926/one-shot/integration/card.txt",
+        "sha256": "65d694d4fc3c90198e1f7e10eba60f8dec4ebd34c8f56e1ce07fc142691b6bb7"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-c-1915-1926/one-shot/integration/display-metadata.json",
+        "sha256": "408211a869a9c5602adfbee419c18f79da08749e46cd094eb40ff88739f5f07f"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-c-1915-1926/one-shot/integration/draft.md",
+        "sha256": "7c21a061ff512b3a4d6c849c5785c31f72264fa9a05cc71123885f88b4da0faf"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-c-1915-1926/one-shot/integration/sources.json",
+        "sha256": "9434c35d4686327ccfa7fe5c0b2e9ef013d426c667aba114f9bf63566e29d92a"
+      },
+      {
+        "path": "works/claude-monet-water-lily-pond-c-1915-1926/one-shot/integration/verification.json",
+        "sha256": "ac7bf5acfdab51a7418b8f2e187e78eb3141d1e8cb5b18d2641db34f8c8d7153"
+      },
+      {
+        "path": "works/james-turrell-afrum-pale-blue-1968/one-shot/integration/adapter-result.json",
+        "sha256": "70a4be892e072315e81eb4771e07828c51f9fd2b92608fb059f0961e584360ab"
+      },
+      {
+        "path": "works/james-turrell-afrum-pale-blue-1968/one-shot/integration/card.txt",
+        "sha256": "bad2e594c241157791f1cd265237ee289518bf455061af2be4de7a055d122d50"
+      },
+      {
+        "path": "works/james-turrell-afrum-pale-blue-1968/one-shot/integration/display-metadata.json",
+        "sha256": "8142a77cb75401742c9bddaff3a1d3edfacbf8d468c19d1b780f280954442e04"
+      },
+      {
+        "path": "works/james-turrell-afrum-pale-blue-1968/one-shot/integration/draft.md",
+        "sha256": "d97dbb2e4be8262ed508db4fa3aa43c57a763338c761be429c75a812f0110f24"
+      },
+      {
+        "path": "works/james-turrell-afrum-pale-blue-1968/one-shot/integration/sources.json",
+        "sha256": "808a917a180e72fa3cad1ac233921289c85b41b283dacf9de7ee51103b514d92"
+      },
+      {
+        "path": "works/james-turrell-afrum-pale-blue-1968/one-shot/integration/verification.json",
+        "sha256": "257ea325d682c970bf0bc568c98f7ee00a0eb20f5cdc229bcb8601e573a1d3e6"
+      },
+      {
+        "path": "works/james-turrell-open-field-2000/one-shot/integration/adapter-result.json",
+        "sha256": "cc0715377f542de67e490e3c84eca1758ff5daff665005bc8b72db1251d36f58"
+      },
+      {
+        "path": "works/james-turrell-open-field-2000/one-shot/integration/card.txt",
+        "sha256": "3e9a1ea3d0ad93668c0b98c50cf757e38f64bd79b1a25c0c3f59d048dbf515b6"
+      },
+      {
+        "path": "works/james-turrell-open-field-2000/one-shot/integration/display-metadata.json",
+        "sha256": "8aa5e8c30a9ba8aa382300228176f2b95b35b1bf302ea3897ce8c2b5225c7632"
+      },
+      {
+        "path": "works/james-turrell-open-field-2000/one-shot/integration/draft.md",
+        "sha256": "053e44af16fde317b60b86f4882ec9638efc3b8d1b9cf8e55b2c7aad2b057c08"
+      },
+      {
+        "path": "works/james-turrell-open-field-2000/one-shot/integration/sources.json",
+        "sha256": "4289450e47ffcb08cfb63ecb3be86bdef70588b1c97492771232b4017dbc92f4"
+      },
+      {
+        "path": "works/james-turrell-open-field-2000/one-shot/integration/verification.json",
+        "sha256": "dc709900a48105a08eb7a6668af3e893763a5959fcc9ca04b96b8f1f57f898dd"
+      },
+      {
+        "path": "works/james-turrell-open-sky-2004/one-shot/integration/adapter-result.json",
+        "sha256": "da8073b9a040dc73eb5081eb6e41214421b7601961c2e7788a12a56d4226d6ae"
+      },
+      {
+        "path": "works/james-turrell-open-sky-2004/one-shot/integration/card.txt",
+        "sha256": "5ea56298328d2489864876ad1ccd049bf86dbb2259f839b5031961409cd8c05c"
+      },
+      {
+        "path": "works/james-turrell-open-sky-2004/one-shot/integration/display-metadata.json",
+        "sha256": "71b322947edc7aaad96ab9796e329331b103e31299e8b9f2bad8e66c0062c81d"
+      },
+      {
+        "path": "works/james-turrell-open-sky-2004/one-shot/integration/draft.md",
+        "sha256": "f5aa22c0f40c7276ad13f38a0ee2740f199eb4629022669a912c6e86e1e3ea16"
+      },
+      {
+        "path": "works/james-turrell-open-sky-2004/one-shot/integration/sources.json",
+        "sha256": "b3fb7740b90787087e95b121a4f94169c438a28de95464206b7a6e0f72286357"
+      },
+      {
+        "path": "works/james-turrell-open-sky-2004/one-shot/integration/verification.json",
+        "sha256": "093fec4dcf38f5badd9284fec62edadbabcecba7a299ff0646aad10f24eb62cb"
+      },
+      {
+        "path": "works/walter-de-maria-time-timeless-no-time-2004/one-shot/integration/adapter-result.json",
+        "sha256": "e813f41bdc3fab572535881d1209f199b4b2ac48eb7b89087c62226e645cda95"
+      },
+      {
+        "path": "works/walter-de-maria-time-timeless-no-time-2004/one-shot/integration/card.txt",
+        "sha256": "9c56d60f862bcb9aeed4a4c0bda663a1d49bec85045c06072de2e4494d6b59f3"
+      },
+      {
+        "path": "works/walter-de-maria-time-timeless-no-time-2004/one-shot/integration/display-metadata.json",
+        "sha256": "12d903c7e6538d935fea006dc588d050afeba3d595fab464c4d63de56213df75"
+      },
+      {
+        "path": "works/walter-de-maria-time-timeless-no-time-2004/one-shot/integration/draft.md",
+        "sha256": "345703209b09ffdb43e76196a9d5374d079d5c876995d3f88d1ded48405455a9"
+      },
+      {
+        "path": "works/walter-de-maria-time-timeless-no-time-2004/one-shot/integration/sources.json",
+        "sha256": "47f7fe642317e694aa383714b2b6e4970b4afb8d81f1e7c793a4173140005c6a"
+      },
+      {
+        "path": "works/walter-de-maria-time-timeless-no-time-2004/one-shot/integration/verification.json",
+        "sha256": "93e3bd1b0121f1c5ee8c9d0d960c78d36937faaad9353cec3e366e40b95a974c"
+      }
+    ],
+    "publicationPlan": [
+      {
+        "path": "assembly/assembly-input.json",
+        "sha256": "7451b17674e101c579de2fe76290e8b80d1e2c8e099ed9ee88459435f82f5841"
+      },
+      {
+        "path": "assembly/publication-plan.json",
+        "sha256": "7a7d16a46005c6b4e57deb3c3a80698f03a6a0798de1114d47a2dbdbdc41d2b3"
+      }
+    ],
+    "candidate": [
+      {
+        "path": "candidate/assembly-result.json",
+        "sha256": "51b14efe89594af412248d9fc775e19bacf495e0b162393e5643ba8e53291eff"
+      },
+      {
+        "path": "candidate/assets/chichuartmuseum/chichu-art-museum-underground-architecture-and-site-context.jpg",
+        "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1"
+      },
+      {
+        "path": "candidate/assets/chichuartmuseum/claude-monet-water-lilies-1914-1917.jpg",
+        "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1"
+      },
+      {
+        "path": "candidate/assets/chichuartmuseum/claude-monet-water-lilies-cluster-of-grass-1914-1917.jpg",
+        "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1"
+      },
+      {
+        "path": "candidate/assets/chichuartmuseum/claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919.jpg",
+        "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1"
+      },
+      {
+        "path": "candidate/assets/chichuartmuseum/claude-monet-water-lily-pond-1917-1919.jpg",
+        "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1"
+      },
+      {
+        "path": "candidate/assets/chichuartmuseum/claude-monet-water-lily-pond-c-1915-1926.jpg",
+        "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1"
+      },
+      {
+        "path": "candidate/assets/chichuartmuseum/james-turrell-afrum-pale-blue-1968.jpg",
+        "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1"
+      },
+      {
+        "path": "candidate/assets/chichuartmuseum/james-turrell-open-field-2000.jpg",
+        "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1"
+      },
+      {
+        "path": "candidate/assets/chichuartmuseum/james-turrell-open-sky-2004.jpg",
+        "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1"
+      },
+      {
+        "path": "candidate/assets/chichuartmuseum/walter-de-maria-time-timeless-no-time-2004.jpg",
+        "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1"
+      },
+      {
+        "path": "candidate/chichuartmuseum.js",
+        "sha256": "599f70b4fe2c44de9e51972bf2d248da6c10e3f11acd6ccf12e9525812b0cfeb"
+      },
+      {
+        "path": "candidate/chichuartmuseum.md",
+        "sha256": "9277d495de534b055f2da7faa43e23255731b289d63f4d25596380f093722a00"
+      },
+      {
+        "path": "candidate/image-manifest.json",
+        "sha256": "e7fd23eceb9fe076adf4f16478b06844a16984650fbb379e001b7328aebf0a62"
+      },
+      {
+        "path": "candidate/index.html",
+        "sha256": "7e455da012e4b4b145bff672cc5f845840b16c815ced68c550b6d45d04aba5b1"
+      },
+      {
+        "path": "candidate/museum.html",
+        "sha256": "4a10d4a2f3c5757827b50251a24e1a6aa68d985788933939c7e653666a5b1bd6"
+      },
+      {
+        "path": "candidate/publication.json",
+        "sha256": "e5f902e1e2f329706818807fe286e52d555fbcf3813a369c0971ec7b53530218"
+      },
+      {
+        "path": "candidate/rating-fragment.json",
+        "sha256": "905eae52812ab85206c3bf7c7513ea22ed58be631881f51ce32012eee76d68f3"
+      },
+      {
+        "path": "candidate/ratings.js",
+        "sha256": "780a3a404f28c4592ec8e73bdc5dfb42467ef4b7b3533f42d4ddcdd67ea168e3"
+      },
+      {
+        "path": "candidate/routes-fragment.json",
+        "sha256": "a7080618cc1037d9ba66980f76b32b7f45ce64d5e50763f9edb74d0191e65417"
+      },
+      {
+        "path": "candidate/routes.js",
+        "sha256": "2ff4d93a715aa4cab94aa02f6f8ab2d80d90616e1cb2d7cad37ba73db535cd16"
+      }
+    ],
+    "causality": [
+      {
+        "path": "reports/causality-negative-test.json",
+        "sha256": "1d30659ceef142626ceb3c5b86dccbbd9f09508f2f58aaa04cb1c2105259cde9"
+      },
+      {
+        "path": "reports/finalization-report.json",
+        "sha256": "f1c98c7c9bcd11ca688d19dbe566ae0672d9dd0296d80beefd17eaee372062d6"
+      }
+    ],
+    "releaseVerification": [
+      {
+        "path": "reports/release-verification.json",
+        "sha256": "d055d3ef3cd823ba5b5292cbbbfcfdbbe5b8830c8bf077103a0f69d0e3f07026"
+      }
+    ],
+    "publishDryRun": [
+      {
+        "path": "reports/publication-dry-run.json",
+        "sha256": "8d1f7e7cce9e5eff90906e5ccd0e0036d8fcc8b3fad6602c3693f40193fad7d9"
+      }
+    ],
+    "generationReport": [
+      {
+        "path": "reports/generation-report.json",
+        "sha256": "767b01597197e3b9231891eae1fbb706d14a47d80a973d861d34615764fe43a2"
+      },
+      {
+        "path": "reports/generation-report.md",
+        "sha256": "58cca320470fea55a3c270ebfb56ff82b7b6b62452ed31782397869019d23ced"
+      }
+    ],
+    "productionProtection": [
+      {
+        "path": "reports/production-tree-after.json",
+        "sha256": "19e469fed58a1c6184c9f39a775b4aac5e14246e58057e856118fb1742344541"
+      },
+      {
+        "path": "reports/production-tree-before.json",
+        "sha256": "64083242c1c1e03e5fdbc82823646b9cf9b2f5ae155fef093032131252dfc00e"
+      }
+    ]
+  }
+}

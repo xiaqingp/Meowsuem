@@ -1,0 +1,116 @@
+{
+  "museumId": "chichuartmuseum",
+  "museumName": "地中美术馆 / Chichu Art Museum",
+  "city": "直岛 / Naoshima",
+  "country": "日本 / Japan",
+  "officialCollectionUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+  "editorialCapacity": {
+    "count": 20,
+    "reason": "官方馆方页面将地中美术馆的稳定展示范围明确为三组恒久展示：克劳德·莫奈晚年《睡莲》系列五件、詹姆斯·特瑞尔三件作品、沃尔特·德·玛丽亚的《Time/Timeless/No Time》；同时将安藤忠雄设计的馆体整体定义为大型场所特定作品。馆藏没有显示出跨文明、多馆址或多个独立部门的广度，因此以 20 件作为覆盖三组展示、建筑与少量场所语境的上限规划容量，不扩为 30、40 或 60 件。"
+  },
+  "collectionBoundaries": {
+    "includedSite": {
+      "name": "地中美术馆本馆及其馆内恒久展示空间",
+      "address": "3449-1 Naoshima, Kagawa 7613110 Japan",
+      "boundary": "纳入直岛 3449-1 的地中美术馆单一馆址；包含馆体建筑、馆内恒久展示及理解这些作品所必需的馆内自然光与空间关系。"
+    },
+    "stableCollectionGroups": [
+      {
+        "name": "Claude Monet／克劳德·莫奈：晚年《睡莲》系列",
+        "location": "地中美术馆本馆莫奈展厅",
+        "candidatePool": true,
+        "boundary": "官方页面明确列出五件晚年《睡莲》系列绘画，并说明其在馆内以自然光展示。"
+      },
+      {
+        "name": "James Turrell／詹姆斯·特瑞尔：光作品组",
+        "location": "地中美术馆本馆特瑞尔展厅",
+        "candidatePool": true,
+        "boundary": "官方页面明确列出 Afrum, Pale Blue（1968）、Open Field（2000）与 Open Sky（2004）三件馆内作品；Open Sky 的日落 Night Program 是观看项目变体，不作为独立收藏对象追加。"
+      },
+      {
+        "name": "Walter De Maria／沃尔特·德·玛丽亚：《Time/Timeless/No Time》",
+        "location": "地中美术馆本馆德·玛丽亚展厅",
+        "candidatePool": true,
+        "boundary": "官方页面将包含球体与 27 个镀金木质几何体的完整空间作为作品，并列出作品名与 2004 年。"
+      },
+      {
+        "name": "Tadao Ando／安藤忠雄：地中美术馆建筑",
+        "location": "地中美术馆本馆建筑及其地下空间",
+        "candidatePool": true,
+        "boundary": "官方页面将馆体建筑列为建筑师条目，并说明建筑几乎完全位于地下，且地中美术馆整体可被视为大型场所特定作品。"
+      }
+    ],
+    "contextOnly": [
+      {
+        "name": "Chichu Garden／地中花园",
+        "candidatePool": false,
+        "boundary": "纳入现场语境与参观边界说明，不作为独立馆藏作品；官方页面将其列在 Other Facilities，并说明其植物与莫奈吉维尼花园的关系。"
+      }
+    ]
+  },
+  "exclusions": [
+    {
+      "item": "直岛其他独立艺术设施",
+      "boundary": "排除 Benesse House Museum、Lee Ufan Museum、Naoshima New Museum of Art、ANDO MUSEUM、Art House Project、Hiroshi Sugimoto Gallery: Time Corridors、Ring of Fire - Solar Yang & Lunar Weerasethakul、Naoshima Bath、Miyanoura Gallery 6 及 The Naoshima Plan；它们在官方站点的直岛设施导航中作为独立设施列出。"
+    },
+    {
+      "item": "其他岛屿设施",
+      "boundary": "排除丰岛、犬岛和女木岛的设施；它们不属于直岛地中美术馆馆址。"
+    },
+    {
+      "item": "票务与服务设施",
+      "boundary": "排除地中美术馆 Ticket Center、Ticket Center Shop、Chichu Cafe 与 Chichu Store 作为独立收藏对象或独立馆址；它们是入馆、餐饮或商店服务。"
+    },
+    {
+      "item": "临时展览、临时借展及未被稳定展示页确认的对象",
+      "boundary": "本轮不将未被官方地中美术馆页面列入上述恒久展示边界的临展、轮换或借展纳入候选池；如后续阶段发现对象级官方证据，应按独立展示状态另行核实。"
+    }
+  ],
+  "riskFlags": [],
+  "sourcePointers": [
+    {
+      "id": "source_chichu_official_collection",
+      "title": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/art/chichu.html",
+      "accessedAt": "2026-07-26",
+      "supports": [
+        "地中美术馆身份、2004 年建成、地下建筑与安藤忠雄关系",
+        "莫奈五件晚年《睡莲》作品及其展厅关系",
+        "特瑞尔三件作品及 Open Sky 的 Night Program 区分",
+        "德·玛丽亚《Time/Timeless/No Time》及其完整空间构成",
+        "地中美术馆建筑作为场所特定作品的整体性",
+        "官方地址 3449-1 Naoshima, Kagawa 7613110 Japan",
+        "Chichu Cafe、Chichu Store、Ticket Center Shop 与 Chichu Garden 的附属设施分类"
+      ]
+    },
+    {
+      "id": "source_naoshima_official_access",
+      "title": "Getting around on Naoshima | Access | Benesse Art Site Naoshima",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/access/naoshima/",
+      "accessedAt": "2026-07-26",
+      "supports": [
+        "地中美术馆在直岛 Benesse House Area 的独立设施身份",
+        "地中美术馆与 Benesse House Museum、Lee Ufan Museum 的分列及接驳关系",
+        "直岛其他艺术设施的独立馆址边界",
+        "地中美术馆 Ticket Center 作为停车与到馆节点，而非另一座博物馆"
+      ]
+    },
+    {
+      "id": "source_benesse_official_art_index",
+      "title": "Art | Benesse Art Site Naoshima",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/art/",
+      "accessedAt": "2026-07-26",
+      "supports": [
+        "地中美术馆与直岛、丰岛、犬岛、女木岛其他艺术设施的官方分类边界"
+      ]
+    }
+  ],
+  "uncertainties": [
+    "本 scope 只锁定官方稳定展示与馆址边界，不等同于某一参观日所有作品必然可见；开放日、临时维护、项目安排与现场可见性须由后续阶段按当时官方信息核验。",
+    "官方页面把地中花园列为附属设施而非艺术家作品条目，因此本轮只保留为场所语境，不把它计入馆藏容量。",
+    "正式候选池仍需为单件对象建立唯一的官方身份锚点与对象页；本 scope 不预选具体作品，也不替代对象级核验。"
+  ]
+}

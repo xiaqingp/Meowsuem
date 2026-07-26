@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "museumId": "chichuartmuseum",
+  "batches": [
+    {
+      "kind": "compact",
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/research/batches/compact-01/compact-planning-evidence.json",
+      "sha256": "588e581d8a68ad2de9f5745bee31d4d17e9c0422cb8bbafcccdf45cb2059fbc6"
+    },
+    {
+      "kind": "deep",
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/research/batches/deep-01/deep-research-dossier.json",
+      "sha256": "751dd4ceeada54606fd78043a7ca93852ac2def636851b52edc8f416615f6572"
+    }
+  ]
+}

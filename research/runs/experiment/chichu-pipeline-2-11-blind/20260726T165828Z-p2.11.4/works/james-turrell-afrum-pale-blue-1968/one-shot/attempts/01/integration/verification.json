@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "errors": [],
+  "warnings": [],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": true,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "一只没有重量的立方体",
+    "从投影光到天空之光"
+  ],
+  "sourceCount": 5,
+  "articleBytes": 4283,
+  "sourcesBytes": 2445
+}

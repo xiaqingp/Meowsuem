@@ -1,0 +1,34 @@
+{
+  "id": "PCR-2026-07-26-official-source-coverage",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-26",
+  "ownerInstruction": "During the authorized Chichu blind run, fix generalized verifier contract bugs, preserve failed attempts, add regression tests, and rerun from a clean experiment without changing museum answers.",
+  "baseRelease": "research/pipeline/releases/v2.11.3.json",
+  "targetVersion": "2.11.4",
+  "implementationStatus": "completed",
+  "scope": [
+    "allow date and material coverage from same-host official museum sources when the locked official page is an umbrella collection page",
+    "keep the locked official page mandatory for identity",
+    "reject third-party sources as substitutes for official metadata coverage",
+    "prevent negative or contrastive title wording from being misclassified as a direct quotation",
+    "document the official-source coverage contract"
+  ],
+  "outOfScope": [
+    "changing model-generated articles or sources",
+    "changing discovered candidates or selected works",
+    "lowering high-risk claim or direct quotation gates",
+    "museum-specific verifier behavior",
+    "production publication"
+  ],
+  "allowedCanonicalFiles": [
+    "research/pipeline/prompts/single-work-one-shot.md",
+    "scripts/verify-one-shot-work.mjs"
+  ],
+  "verification": {
+    "status": "passed",
+    "commands": [
+      "node scripts/test-one-shot-work.mjs"
+    ]
+  }
+}

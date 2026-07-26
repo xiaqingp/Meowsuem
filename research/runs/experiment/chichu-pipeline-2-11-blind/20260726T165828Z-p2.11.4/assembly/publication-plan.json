@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260726T165828Z-p2.11.4",
+  "museumId": "chichuartmuseum",
+  "contentContract": "one_shot_v1",
+  "workIds": [
+    "chichu-art-museum-underground-architecture-and-site-context",
+    "claude-monet-water-lily-pond-c-1915-1926",
+    "claude-monet-water-lilies-cluster-of-grass-1914-1917",
+    "claude-monet-water-lilies-1914-1917",
+    "claude-monet-water-lily-pond-1917-1919",
+    "claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919",
+    "walter-de-maria-time-timeless-no-time-2004",
+    "james-turrell-afrum-pale-blue-1968",
+    "james-turrell-open-field-2000",
+    "james-turrell-open-sky-2004"
+  ],
+  "inputHashes": {
+    "scope/scope.json": "e4941a39af43869e418dab51d4e9e2a53f7ce18550a93595fc34594c2a8317d0",
+    "candidate-pool/candidate-pool.json": "800feb8492d3cd4fc8422343026c97ef253d52304a9a0ed4f3ffec8e8fe48d35",
+    "selection/selection.json": "bc9031718ad01e9de2d873994e19132159a04ab1c2e51b3c03c994c3b08e3036",
+    "selection/rating-input.json": "2fbbc564f08809916d5f06d36b875629af7c9d1bcfb24239467199ba9717d323",
+    "rating/rating-result.json": "f82a050b99b7e2f1c6884754a24fde416025e4e348968b807722eeac7185a5a2",
+    "structure/structure.json": "227bed06ec7d1bde3d3680537fef698b729456ae4e8d379ff7ce715397c2b5a3",
+    "image-evidence/verified-image-evidence.json": "3ba9f80fed08f1a4934d45d622a4d23200b401d8afe63d27d84c242f12661594",
+    "reports/locked-metadata-report.json": "c5701ca74cdf43526273c8e38748beef601c8a4383d8951ea05d9b6e149d9cd8",
+    "assembly/assembly-input.json": "7451b17674e101c579de2fe76290e8b80d1e2c8e099ed9ee88459435f82f5841"
+  },
+  "assemblyInput": "assembly/assembly-input.json",
+  "candidateRoot": "candidate",
+  "proseInputsRead": false,
+  "networkCalls": 0
+}

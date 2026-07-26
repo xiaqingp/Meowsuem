@@ -1,0 +1,316 @@
+{
+  "schemaVersion": "2.11.4",
+  "museumId": "chichuartmuseum",
+  "museumName": "地中美术馆 / Chichu Art Museum",
+  "candidates": [
+    {
+      "workId": "claude-monet-water-lily-pond-c-1915-1926",
+      "identity": {
+        "objectType": "single_work",
+        "title": {
+          "en": "Water-Lily Pond",
+          "zh": "睡莲池"
+        },
+        "artistOrCulture": "Claude Monet / 克洛德·莫奈",
+        "displayDate": "c.1915-26",
+        "medium": "Oil on canvas, diptych; each panel 200 × 300 cm",
+        "identityAnchor": "claude-monet-water-lily-pond-c-1915-1926",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "identityAnchor": "claude-monet-water-lily-pond-c-1915-1926",
+      "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "collectionGroup": "Claude Monet permanent Water Lilies group",
+      "selectionRationale": "官方列出的五幅莫奈晚年《睡莲》之一；其双联画尺度和与自然光共构的展示方式，是理解本馆核心观看逻辑的必要候选。",
+      "riskFlags": [
+        "site_specific",
+        "small_permanent_display",
+        "operationally_variable"
+      ],
+      "riskRationale": "作品的现场价值依赖本馆专门设计的莫奈展室与自然光，且常设展示的开放状态仍需按馆方实时信息核验。",
+      "imageAvailability": {
+        "status": "official_group_page_and_press_materials",
+        "directImageUrl": null,
+        "note": "官方馆页确认身份并展示莫奈组；未发现独立单件对象页或单件直链。"
+      }
+    },
+    {
+      "workId": "claude-monet-water-lilies-cluster-of-grass-1914-1917",
+      "identity": {
+        "objectType": "single_work",
+        "title": {
+          "en": "Water Lilies, Cluster of Grass",
+          "zh": "睡莲——草丛"
+        },
+        "artistOrCulture": "Claude Monet / 克洛德·莫奈",
+        "displayDate": "1914-17",
+        "medium": "Oil on canvas, 200 × 213 cm",
+        "identityAnchor": "claude-monet-water-lilies-cluster-of-grass-1914-1917",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "identityAnchor": "claude-monet-water-lilies-cluster-of-grass-1914-1917",
+      "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "collectionGroup": "Claude Monet permanent Water Lilies group",
+      "selectionRationale": "官方列出的五幅莫奈作品之一，补足同一晚年系列中以水面与草丛为题的观看对象。",
+      "riskFlags": [
+        "site_specific",
+        "small_permanent_display",
+        "operationally_variable"
+      ],
+      "riskRationale": "作品的观看依赖本馆专门设计的莫奈展室与自然光，具体开放状态需实时核验。",
+      "imageAvailability": {
+        "status": "official_group_page_and_press_materials",
+        "directImageUrl": null,
+        "note": "官方馆页确认身份并展示莫奈组；未发现独立单件对象页或单件直链。"
+      }
+    },
+    {
+      "workId": "claude-monet-water-lilies-1914-1917",
+      "identity": {
+        "objectType": "single_work",
+        "title": {
+          "en": "Water Lilies",
+          "zh": "睡莲"
+        },
+        "artistOrCulture": "Claude Monet / 克洛德·莫奈",
+        "displayDate": "1914-17",
+        "medium": "Oil on canvas, 200 × 200 cm",
+        "identityAnchor": "claude-monet-water-lilies-1914-1917",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "identityAnchor": "claude-monet-water-lilies-1914-1917",
+      "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "collectionGroup": "Claude Monet permanent Water Lilies group",
+      "selectionRationale": "官方列出的五幅莫奈作品之一，作为系列内部的同名核心身份保留，避免把组展压缩成单一代表作。",
+      "riskFlags": [
+        "site_specific",
+        "small_permanent_display",
+        "operationally_variable"
+      ],
+      "riskRationale": "作品的观看依赖本馆专门设计的莫奈展室与自然光，具体开放状态需实时核验。",
+      "imageAvailability": {
+        "status": "official_group_page_and_press_materials",
+        "directImageUrl": null,
+        "note": "官方馆页确认身份并展示莫奈组；未发现独立单件对象页或单件直链。"
+      }
+    },
+    {
+      "workId": "claude-monet-water-lily-pond-1917-1919",
+      "identity": {
+        "objectType": "single_work",
+        "title": {
+          "en": "Water-Lily Pond",
+          "zh": "睡莲池"
+        },
+        "artistOrCulture": "Claude Monet / 克洛德·莫奈",
+        "displayDate": "1917-19",
+        "medium": "Oil on canvas, 100 × 200 cm",
+        "identityAnchor": "claude-monet-water-lily-pond-1917-1919",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "identityAnchor": "claude-monet-water-lily-pond-1917-1919",
+      "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "collectionGroup": "Claude Monet permanent Water Lilies group",
+      "selectionRationale": "官方列出的五幅莫奈晚年《睡莲》之一，与同名的约1915-26年双联画以不同身份并列保留。",
+      "riskFlags": [
+        "site_specific",
+        "small_permanent_display",
+        "operationally_variable"
+      ],
+      "riskRationale": "作品的现场价值依赖本馆专门设计的莫奈展室与自然光，且常设展示的开放状态仍需实时核验。",
+      "imageAvailability": {
+        "status": "official_group_page_and_press_materials",
+        "directImageUrl": null,
+        "note": "官方馆页确认身份并展示莫奈组；未发现独立单件对象页或单件直链。"
+      }
+    },
+    {
+      "workId": "claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919",
+      "identity": {
+        "objectType": "single_work",
+        "title": {
+          "en": "Water Lilies, Reflections of Weeping Willows",
+          "zh": "睡莲——垂柳倒影"
+        },
+        "artistOrCulture": "Claude Monet / 克洛德·莫奈",
+        "displayDate": "1916-19",
+        "medium": "Oil on canvas, 100 × 200 cm",
+        "identityAnchor": "claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "identityAnchor": "claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919",
+      "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "collectionGroup": "Claude Monet permanent Water Lilies group",
+      "selectionRationale": "官方列出的五幅莫奈晚年作品之一，补足系列中以垂柳倒影为标题的明确身份。",
+      "riskFlags": [
+        "site_specific",
+        "small_permanent_display",
+        "operationally_variable"
+      ],
+      "riskRationale": "作品的观看依赖本馆专门设计的莫奈展室与自然光，具体开放状态需实时核验。",
+      "imageAvailability": {
+        "status": "official_group_page_and_press_materials",
+        "directImageUrl": null,
+        "note": "官方馆页确认身份并展示莫奈组；未发现独立单件对象页或单件直链。"
+      }
+    },
+    {
+      "workId": "walter-de-maria-time-timeless-no-time-2004",
+      "identity": {
+        "objectType": "room_scale_installation",
+        "title": {
+          "en": "Time/Timeless/No Time",
+          "zh": "时间／无时／无时间"
+        },
+        "artistOrCulture": "Walter De Maria / 沃尔特·德·玛利亚",
+        "displayDate": "2004",
+        "medium": "Granite, mahogany, gold leaf, concrete; sphere and 27 gilded wooden geometric forms",
+        "identityAnchor": "walter-de-maria-time-timeless-no-time-2004",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "identityAnchor": "walter-de-maria-time-timeless-no-time-2004",
+      "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "collectionGroup": "Walter De Maria permanent installation",
+      "selectionRationale": "官方列出的德·玛利亚常设作品；作品把球体、镀金几何体、房间与天窗自然光作为一个整体，是本馆场域性收藏的核心候选。",
+      "riskFlags": [
+        "site_specific",
+        "small_permanent_display",
+        "operationally_variable"
+      ],
+      "riskRationale": "作品必须在专门空间中体验，光线与现场开放条件会影响观看，且无法用普通平面图像完整替代现场。",
+      "imageAvailability": {
+        "status": "official_group_page_and_press_materials",
+        "directImageUrl": null,
+        "note": "官方馆页确认整体作品身份，官方媒体资料补充材料；未发现独立单件对象页或单件直链。"
+      }
+    },
+    {
+      "workId": "james-turrell-afrum-pale-blue-1968",
+      "identity": {
+        "objectType": "room_scale_installation",
+        "title": {
+          "en": "Afrum, Pale Blue",
+          "zh": "Afrum，浅蓝"
+        },
+        "artistOrCulture": "James Turrell / 詹姆斯·特瑞尔",
+        "displayDate": "1968",
+        "medium": "Projector",
+        "identityAnchor": "james-turrell-afrum-pale-blue-1968",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "identityAnchor": "james-turrell-afrum-pale-blue-1968",
+      "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "collectionGroup": "James Turrell permanent light installation group",
+      "selectionRationale": "官方列出的三件特瑞尔常设作品之一，代表该组以光本身为媒介的早期身份节点。",
+      "riskFlags": [
+        "site_specific",
+        "small_permanent_display",
+        "operationally_variable"
+      ],
+      "riskRationale": "作品依赖特定投影空间与现场观看条件，不能只凭题名或普通图像替代身份与体验核验。",
+      "imageAvailability": {
+        "status": "official_group_page_and_press_materials",
+        "directImageUrl": null,
+        "note": "官方馆页确认作品身份，官方媒体资料列出媒介；未发现独立单件对象页或单件直链。"
+      }
+    },
+    {
+      "workId": "james-turrell-open-field-2000",
+      "identity": {
+        "objectType": "room_scale_installation",
+        "title": {
+          "en": "Open Field",
+          "zh": "开放场域"
+        },
+        "artistOrCulture": "James Turrell / 詹姆斯·特瑞尔",
+        "displayDate": "2000",
+        "medium": "Fluorescent light, neon tube",
+        "identityAnchor": "james-turrell-open-field-2000",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "identityAnchor": "james-turrell-open-field-2000",
+      "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "collectionGroup": "James Turrell permanent light installation group",
+      "selectionRationale": "官方列出的三件特瑞尔常设作品之一，连接早期投影作品与后来的空间化光体验。",
+      "riskFlags": [
+        "site_specific",
+        "small_permanent_display",
+        "operationally_variable"
+      ],
+      "riskRationale": "作品依赖特定空间、光源和现场观看条件，具体开放状态需按馆方实时信息核验。",
+      "imageAvailability": {
+        "status": "official_group_page_and_press_materials",
+        "directImageUrl": null,
+        "note": "官方馆页确认作品身份，官方媒体资料列出媒介；未发现独立单件对象页或单件直链。"
+      }
+    },
+    {
+      "workId": "james-turrell-open-sky-2004",
+      "identity": {
+        "objectType": "architectural_viewing_node",
+        "title": {
+          "en": "Open Sky",
+          "zh": "开放天空"
+        },
+        "artistOrCulture": "James Turrell / 詹姆斯·特瑞尔",
+        "displayDate": "2004",
+        "medium": "LED, xenon lamps; architectural viewing space",
+        "identityAnchor": "james-turrell-open-sky-2004",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "identityAnchor": "james-turrell-open-sky-2004",
+      "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "collectionGroup": "James Turrell permanent light installation group",
+      "selectionRationale": "官方列出的三件特瑞尔常设作品之一，并有馆方另行说明的日落 Night Program；其天窗与观看座位使建筑节点本身成为身份不可分的部分。",
+      "riskFlags": [
+        "site_specific",
+        "small_permanent_display",
+        "operationally_variable"
+      ],
+      "riskRationale": "作品与建筑开口、自然天空及特定观看时段密切相关，常规开放与日落项目的可见性需要实时核验。",
+      "imageAvailability": {
+        "status": "official_group_page_and_press_materials",
+        "directImageUrl": null,
+        "note": "官方馆页确认作品身份并说明常规开放及日落项目，官方媒体资料列出媒介；未发现独立单件对象页或单件直链。"
+      }
+    },
+    {
+      "workId": "chichu-art-museum-underground-architecture-and-site-context",
+      "identity": {
+        "objectType": "museum_level_context",
+        "title": {
+          "en": "Chichu Art Museum underground architecture and site context",
+          "zh": "地中美术馆地下建筑与场域语境"
+        },
+        "artistOrCulture": "Tadao Ando / 安藤忠雄；与 Claude Monet、James Turrell、Walter De Maria 的场域协作",
+        "displayDate": "2004",
+        "medium": "Underground museum architecture using concrete, steel, glass, and wood",
+        "identityAnchor": "chichu-art-museum-underground-architecture-and-site-context",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "identityAnchor": "chichu-art-museum-underground-architecture-and-site-context",
+      "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "collectionGroup": "Chichu Art Museum architectural and site-specific context; not a collection object",
+      "selectionRationale": "官方将建筑描述为几乎完全地下、以自然光连接作品与空间，并指出整座建筑可视为大型场域特定作品；作为语境条目纳入，供下游解释馆舍而不计作馆藏对象。",
+      "riskFlags": [
+        "site_specific",
+        "operationally_variable"
+      ],
+      "riskRationale": "这是馆级建筑语境而非独立馆藏对象，现场路线、开放边界和自然光条件会影响其可见性。",
+      "imageAvailability": {
+        "status": "official_museum_page",
+        "directImageUrl": null,
+        "note": "官方馆页提供建筑与场域身份说明；未将建筑照片当作独立馆藏对象图像。"
+      }
+    }
+  ]
+}

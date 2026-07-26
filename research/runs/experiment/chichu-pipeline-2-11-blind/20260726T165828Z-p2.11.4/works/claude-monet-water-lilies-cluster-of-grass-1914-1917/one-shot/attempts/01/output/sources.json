@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "museumId": "chichuartmuseum",
+  "workId": "claude-monet-water-lilies-cluster-of-grass-1914-1917",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/art/chichu.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "availability",
+        "museumArchitecture",
+        "displayContext"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Benesse Art Site Naoshima Media Kit: Chichu Art Museum",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "dimensions",
+        "displayContext",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "地中美術館 新収蔵作品公開 press release",
+      "publisher": "直島福武美術館財団",
+      "url": "https://benesse-artsite.jp/contact/press/20090427_pressrelease.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "dimensions",
+        "displayHistory"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Claude Monet. Water Lilies. 1914-26",
+      "publisher": "The Museum of Modern Art",
+      "url": "https://www.moma.org/collection/works/80220",
+      "sourceType": "museum",
+      "usedFor": [
+        "lateCareerContext",
+        "largeScaleComposition",
+        "productionContext"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Cat. 47. Water Lily Pond, 1917/19 | Monet | Online Scholarly Catalogues",
+      "publisher": "The Art Institute of Chicago",
+      "url": "https://publications.artic.edu/node/135623",
+      "sourceType": "academic",
+      "usedFor": [
+        "grandDecorationContext",
+        "productionContext",
+        "lateSeriesContext"
+      ]
+    },
+    {
+      "id": "S6",
+      "title": "Claude Monet: Water Lilies",
+      "publisher": "Museum Barberini",
+      "url": "https://sammlung.museum-barberini.de/en/MB-Mon-33_claude-monet-water-lilies",
+      "sourceType": "museum",
+      "usedFor": [
+        "GivernyGarden",
+        "waterGarden",
+        "lateSeriesContext",
+        "paintingProcess"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "provenance",
+      "statement": "本次核验到的可靠公开来源确认了作品身份、年代、材质、尺寸及其在地中美术馆的展示关系，但未提供本作完整的逐项收藏史，因此文章未展开收藏经过。"
+    },
+    {
+      "topic": "visualEvidence",
+      "statement": "本次没有可靠的作品图，文章未依据占位图描述具体色彩、笔触位置或局部构图；相关观看建议保持在现场观察层面。"
+    }
+  ],
+  "upstreamConflicts": []
+}

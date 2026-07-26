@@ -1,0 +1,38 @@
+{
+  "status": "failed",
+  "errors": [
+    {
+      "code": "OFFICIAL_SOURCE_COVERAGE",
+      "message": "Official museum sources do not cover material",
+      "matches": [
+        "material"
+      ],
+      "severity": "error"
+    }
+  ],
+  "warnings": [],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": true,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "一扇天窗，为什么会变成艺术",
+    "光不是照明，而是材料",
+    "时间也进入了作品"
+  ],
+  "sourceCount": 4,
+  "articleBytes": 4703,
+  "sourcesBytes": 1907
+}

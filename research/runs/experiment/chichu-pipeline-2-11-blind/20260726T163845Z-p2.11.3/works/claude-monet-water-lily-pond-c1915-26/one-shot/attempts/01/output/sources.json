@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 2,
+  "museumId": "chichuartmuseum",
+  "workId": "claude-monet-water-lily-pond-c1915-26",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Chichu Art Museum",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/art/chichu.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "availability",
+        "museumContext"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "地中美術館 作品紹介／プレスキット",
+      "publisher": "ベネッセアートサイト直島",
+      "url": "https://benesse-artsite.jp/contact/press/BASN_%E3%83%97%E3%83%AC%E3%82%B9%E3%82%AD%E3%83%83%E3%83%88_2018.4%E6%9C%88_%E4%B8%80%E8%88%AC%E3%83%97%E3%83%AC%E3%82%B9%E7%94%A8.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "dimensions"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "本当の豊かさとは何かを考える場所　地中美術館「クロード・モネ室」",
+      "publisher": "ベネッセアートサイト直島",
+      "url": "https://benesse-artsite.jp/story/20201030-1494.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "dimensions",
+        "museumContext",
+        "displayDesign",
+        "naturalLight",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Water lily pond",
+      "publisher": "Fondation Claude Monet, Giverny",
+      "url": "https://fondation-monet.com/en/decouvrir/water-lily-pond/",
+      "sourceType": "foundation",
+      "usedFor": [
+        "subjectContext",
+        "gardenHistory",
+        "process",
+        "dateContext"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "accessionNumber",
+      "statement": "本次核对的地中美术馆官方对象页及其公开官方资料未列出该作馆藏号，因此不补填编号。"
+    }
+  ],
+  "upstreamConflicts": []
+}

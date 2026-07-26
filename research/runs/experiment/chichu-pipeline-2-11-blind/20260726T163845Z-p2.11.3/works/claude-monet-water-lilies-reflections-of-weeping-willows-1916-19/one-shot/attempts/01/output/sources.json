@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 2,
+  "museumId": "chichuartmuseum",
+  "workId": "claude-monet-water-lilies-reflections-of-weeping-willows-1916-19",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Chichu Art Museum | Art",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/art/chichu.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "availability",
+        "museumContext"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Benesse Art Site Naoshima Media Kit",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "dimensions",
+        "collectionRelation",
+        "museumContext"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Claude Monet | Water-Lilies | NG6343",
+      "publisher": "The National Gallery, London",
+      "url": "https://www.nationalgallery.org.uk/paintings/claude-monet-water-lilies",
+      "sourceType": "museum",
+      "usedFor": [
+        "seriesContext",
+        "makingProcess",
+        "historicalContext"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Exploring Late Monet with Art Historian Kathryn Calley Galitz",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/fr/perspectives/monet-conversation",
+      "sourceType": "museum",
+      "usedFor": [
+        "makingProcess",
+        "latePeriodContext"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "visual_analysis",
+      "statement": "本次没有可靠的作品图，因此文章未对具体色彩、笔触、构图细节作断言，只提供基于标题、材质、系列背景和现场观看的引导。"
+    },
+    {
+      "topic": "accession_number",
+      "statement": "本次核对的官方页面与官方媒体资料未公开该件作品的馆藏号。"
+    },
+    {
+      "topic": "collection_relation",
+      "statement": "官方资料确认该作在地中美术馆与其他莫奈作品一同长期展示，但本次来源未明确说明单件作品的购藏来历或所有权法律细节。"
+    }
+  ],
+  "upstreamConflicts": []
+}

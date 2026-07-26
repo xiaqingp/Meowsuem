@@ -1,0 +1,37 @@
+{
+  "museumId": "chichuartmuseum",
+  "runId": "20260726T165828Z-p2.11.4",
+  "runKind": "experiment",
+  "completedAt": "2026-07-26T17:35:44.170Z",
+  "stages": [
+    {
+      "name": "assembly",
+      "seconds": 0.203
+    },
+    {
+      "name": "causality-prepublish",
+      "seconds": 0.205
+    },
+    {
+      "name": "future-contract",
+      "seconds": 0.091
+    },
+    {
+      "name": "verification",
+      "seconds": 0.169
+    },
+    {
+      "name": "publication-dry-run",
+      "seconds": 0.155
+    },
+    {
+      "name": "causality-postpublish",
+      "seconds": 0.2
+    }
+  ],
+  "totalSeconds": 1.024,
+  "modelCalls": 0,
+  "modelTokens": 0,
+  "liveVerification": false,
+  "publicationMode": "dry-run"
+}

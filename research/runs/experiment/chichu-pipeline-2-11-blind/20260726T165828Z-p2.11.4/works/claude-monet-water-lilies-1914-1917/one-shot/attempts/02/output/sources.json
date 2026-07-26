@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 2,
+  "museumId": "chichuartmuseum",
+  "workId": "claude-monet-water-lilies-1914-1917",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/art/chichu.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "displayContext",
+        "museumContext"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Benesse Art Site Naoshima Media Kit, January 2016",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "dimensions",
+        "displayContext",
+        "seriesContext",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Claude Monet. Water Lilies. 1914–26",
+      "publisher": "The Museum of Modern Art",
+      "url": "https://www.moma.org/collection/works/80298",
+      "sourceType": "museum",
+      "usedFor": [
+        "artistContext",
+        "seriesContext",
+        "process"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Water Lilies | Claude Monet",
+      "publisher": "The National Museum of Western Art, Tokyo",
+      "url": "https://collection.nmwa.go.jp/en/P.1959-0151.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "artistContext",
+        "seriesContext",
+        "visualContext"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "collectionHistory",
+      "statement": "本次核查到的馆方公开资料确认了作品的身份、尺寸、媒材及在地中美术馆的长期展示关系，但未提供该单件作品完整的收藏流传时间线，因此文章不作具体收藏史断言。"
+    }
+  ],
+  "upstreamConflicts": []
+}

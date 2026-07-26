@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 2,
+  "museumId": "chichuartmuseum",
+  "workId": "claude-monet-water-lily-pond-1917-19",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Chichu Art Museum | Art",
+      "publisher": "Benesse Art Site Naoshima / Chichu Art Museum",
+      "url": "https://benesse-artsite.jp/en/art/chichu.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "availability"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Benesse Art Site Naoshima Media Kit, April 2018",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_April2018_GenerallPress_eng.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Archive series 11st: the Claude Monet room in the Chichu Art Museum",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/story/20210611-1671.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "collectionRelation",
+        "displayContext",
+        "museumArchitecture",
+        "naturalLight"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Cat. 47. Water Lily Pond, 1917/19 | Monet | Online Scholarly Catalogues",
+      "publisher": "The Art Institute of Chicago",
+      "url": "https://publications.artic.edu/node/135623",
+      "sourceType": "academic",
+      "usedFor": [
+        "lateWaterLiliesContext",
+        "seriesContext",
+        "paintingProcessContext",
+        "largeDecorationContext"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "accessionNumber",
+      "statement": "地中美术馆官方公开页面与本次核对来源未提供本作馆藏号，因此文章未填写或推断馆藏号。"
+    },
+    {
+      "topic": "currentDisplay",
+      "statement": "官方页面列出该作并说明地中美术馆展示莫奈晚年睡莲作品；由于展陈可能随维护或借展调整，文章采用“作为作品空间中的一件作品展出”等保守表述。"
+    }
+  ],
+  "upstreamConflicts": []
+}

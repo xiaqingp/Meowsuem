@@ -1,0 +1,36 @@
+{
+  "runId": "20260726T163845Z-p2.11.3",
+  "startedAt": "2026-07-26T16:42:51.731Z",
+  "stage": "compact_planning_research",
+  "caseId": "chichu-pipeline-2-11-blind",
+  "pipelineVersion": "2.11.3",
+  "instructionVersion": "2.4.0",
+  "executionProfile": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "high",
+    "runner": "scripts/run-isolated-generation.ps1"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "d80ee1c0f28a4f21a26b3d7daefe825812b9007b3208dd80451ae13cee95fc96"
+    },
+    {
+      "path": "research/pipeline/prompts/planning-research.md",
+      "role": "stage_prompt",
+      "sha256": "f82cdd4578690962ec8167ca664ae8c6945687c4e2c55a466925391f20feb97a"
+    },
+    {
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/research/batches/compact-01/candidate-packet.json",
+      "role": "candidate_packet",
+      "sha256": "e7d9d7e6462ff49b7b9a114398c88c24a04a8422ee5ecac6862c5c649c97d6c9"
+    }
+  ],
+  "outputs": [
+    "compact-planning-evidence.json"
+  ],
+  "reviewer": "disabled",
+  "retry": "explicit_only",
+  "publicationBoundary": "run_only"
+}

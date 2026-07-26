@@ -1,0 +1,79 @@
+{
+    "runId":  "20260726T163845Z-p2.11.3",
+    "stage":  "museum_structure",
+    "museumId":  "",
+    "caseId":  "chichu-pipeline-2-11-blind",
+    "workId":  "",
+    "pipelineVersion":  "2.11.3",
+    "instructionVersion":  "2.4.0",
+    "model":  "gpt-5.6-luna",
+    "reasoningEffort":  "high",
+    "runnerStartedAt":  "2026-07-26T09:49:50.1720963-07:00",
+    "modelStartedAt":  "2026-07-26T09:49:50.4569899-07:00",
+    "modelCompletedAt":  "2026-07-26T09:51:23.5536634-07:00",
+    "completedAt":  "2026-07-26T09:51:23.5800971-07:00",
+    "runnerDurationMs":  93408,
+    "modelDurationMs":  93097,
+    "tokenUsage":  {
+                       "total":  44126,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "2",
+                                    "7",
+                                    "11",
+                                    "12",
+                                    "13"
+                                ],
+    "logPath":  "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/structure/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "d80ee1c0f28a4f21a26b3d7daefe825812b9007b3208dd80451ae13cee95fc96"
+                   },
+                   {
+                       "path":  "research/pipeline/prompts/museum-structure.md",
+                       "role":  "stage_prompt",
+                       "sha256":  "13842159a36a7c93e1092646f54abcac6117fac3f8d3092ac416fa5ec1a325a3"
+                   },
+                   {
+                       "path":  "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/scope/scope.json",
+                       "role":  "museum_scope",
+                       "sha256":  "52d4d31f6856030f4c9b74cfe4a2d1ce705dfff76e8ead69633e0322bb4b1dcf"
+                   },
+                   {
+                       "path":  "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/candidate-pool/candidate-pool.json",
+                       "role":  "candidate_pool",
+                       "sha256":  "4f5fe8eb0791c4fdf3c0051fdce5ea51989e02c5c739d63a54ccd256143436a5"
+                   },
+                   {
+                       "path":  "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/selection/selection.json",
+                       "role":  "museum_selection",
+                       "sha256":  "7de20d7272c0ef371088f042589e5ba90c743b146f27d13de11761f7ec9584ed"
+                   },
+                   {
+                       "path":  "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/rating/rating-result.json",
+                       "role":  "museum_rating",
+                       "sha256":  "b7b5acea163a83319a22654299d10284e3873e1f3ab7afb2a486e886c95c05db"
+                   },
+                   {
+                       "path":  "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/research/batches/compact-01/compact-planning-evidence.json",
+                       "role":  "compact_planning_evidence",
+                       "sha256":  "a114b627cecb0ff879970d2ea3429c42bf95784577fef52136d6b2c9c31cc54a"
+                   },
+                   {
+                       "path":  "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/research/batches/deep-01/deep-research-dossier.json",
+                       "role":  "deep_research_dossier",
+                       "sha256":  "39e5d6752cf7ef3e1bc69bd7139d699f4076271ce55db59e6d921de14e78a939"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "structure.json",
+                        "sha256":  "6d4f4e3b96ce8a8c4e1c283bdddd9e917c6f15f4650e3a0ed661843689a05e33",
+                        "bytes":  8883
+                    }
+                ]
+}

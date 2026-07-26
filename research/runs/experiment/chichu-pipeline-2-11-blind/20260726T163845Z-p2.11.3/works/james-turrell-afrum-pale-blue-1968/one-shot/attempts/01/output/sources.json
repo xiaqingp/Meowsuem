@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 2,
+  "museumId": "chichuartmuseum",
+  "workId": "james-turrell-afrum-pale-blue-1968",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/art/chichu.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "collectionRelation",
+        "availability",
+        "artist",
+        "museumContext"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Benesse Art Site Naoshima Media Kit, January 2016",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "installationStructure",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "James Turrell, Afrum (White), 1966 | LACMA Collections",
+      "publisher": "Los Angeles County Museum of Art",
+      "url": "https://collections.lacma.org/object/140816?classification=Conceptual+Art",
+      "sourceType": "museum",
+      "usedFor": [
+        "context",
+        "process",
+        "visualAnalysis"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "James Turrell",
+      "publisher": "Solomon R. Guggenheim Museum and Foundation",
+      "url": "https://web.guggenheim.org/exhibitions/turrell/",
+      "sourceType": "foundation",
+      "usedFor": [
+        "context",
+        "visualAnalysis",
+        "perception"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "imageEvidence",
+      "statement": "本次没有可靠的作品图；文章未依据馆舍占位图进行视觉分析。"
+    },
+    {
+      "topic": "availability",
+      "statement": "官方页面将作品列在地中美术馆詹姆斯·特瑞尔作品组的常设展示中；具体开放日、预约要求及临时维护安排仍应以访日前官方信息为准。"
+    }
+  ],
+  "upstreamConflicts": []
+}

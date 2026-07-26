@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "museumId": "chichuartmuseum",
+  "works": [
+    {
+      "workId": "claude-monet-water-lily-pond-c-1915-1926",
+      "identityStatus": "stable",
+      "availability": "permanent_display; current access and operating conditions require date/time admission reservation and day-of verification",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "莫奈晚年《睡莲》系列中的双联画节点；其馆内价值来自绘画、专门展室与随时间变化的自然光被组织为同一观看条件。",
+      "selectionSignals": [
+        "官方列为馆内五幅莫奈晚年《睡莲》之一",
+        "双联画及其尺度补足莫奈组展的空间观看维度",
+        "与馆内其他四幅共同构成系列收藏线，不能压缩为单一代表作"
+      ],
+      "sectionSignals": [
+        "莫奈晚年《睡莲》系列",
+        "绘画、展室与自然光的共同观看",
+        "组展内部的尺度与空间关系"
+      ],
+      "routeSignals": [
+        "莫奈专门展室的核心停留",
+        "与地中美术馆自然光和建筑路线相连",
+        "安排在确认当日开放后"
+      ],
+      "riskFlags": ["architecture_or_site", "availability_ambiguity"],
+      "sourcePointers": ["https://benesse-artsite.jp/en/art/chichu.html"]
+    },
+    {
+      "workId": "claude-monet-water-lilies-cluster-of-grass-1914-1917",
+      "identityStatus": "stable",
+      "availability": "permanent_display; current access and operating conditions require date/time admission reservation and day-of verification",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "莫奈晚年《睡莲》系列中以草丛为题的独立节点；适合用来理解馆内如何以五幅作品共同建立自然、画面与空间的观看关系。",
+      "selectionSignals": [
+        "官方列为馆内五幅莫奈晚年《睡莲》之一",
+        "明确的草丛题名补足系列内部的题材范围",
+        "作为系列成员保留，避免将组展价值误归给单一名作"
+      ],
+      "sectionSignals": [
+        "莫奈晚年《睡莲》系列",
+        "系列内部题材差异",
+        "自然光下的组展观看"
+      ],
+      "routeSignals": [
+        "莫奈专门展室的系列性停留",
+        "与同室其他作品对照观看",
+        "安排在确认当日开放后"
+      ],
+      "riskFlags": ["architecture_or_site", "availability_ambiguity"],
+      "sourcePointers": ["https://benesse-artsite.jp/en/art/chichu.html"]
+    },
+    {
+      "workId": "claude-monet-water-lilies-1914-1917",
+      "identityStatus": "stable",
+      "availability": "permanent_display; current access and operating conditions require date/time admission reservation and day-of verification",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "莫奈晚年《睡莲》系列中日期为1914—17年的独立作品；它的主要馆级价值是作为五幅作品构成的系列身份之一，参与绘画与展室自然光的整体观看。",
+      "selectionSignals": [
+        "官方列为馆内五幅莫奈晚年《睡莲》之一",
+        "保留同名但身份独立的系列成员，避免与另一幅《睡莲池》混淆",
+        "是莫奈常设收藏组的基础节点"
+      ],
+      "sectionSignals": [
+        "莫奈晚年《睡莲》系列",
+        "同题作品的身份区分",
+        "绘画与专门空间的关系"
+      ],
+      "routeSignals": [
+        "莫奈展室的系列内部对照",
+        "不应仅以题名将其与其他《睡莲》合并",
+        "安排在确认当日开放后"
+      ],
+      "riskFlags": ["architecture_or_site", "availability_ambiguity"],
+      "sourcePointers": ["https://benesse-artsite.jp/en/art/chichu.html"]
+    },
+    {
+      "workId": "claude-monet-water-lily-pond-1917-1919",
+      "identityStatus": "stable",
+      "availability": "permanent_display; current access and operating conditions require date/time admission reservation and day-of verification",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "莫奈晚年《睡莲》系列中日期为1917—19年的《睡莲池》；其馆级作用是与其他四幅共同呈现常设系列，而不是单独承担未经比较支持的稀有性结论。",
+      "selectionSignals": [
+        "官方列为馆内五幅莫奈晚年《睡莲》之一",
+        "与约1915—26年的双联画同名但身份独立，需保留为单件记录",
+        "补足莫奈系列的年代与作品组覆盖"
+      ],
+      "sectionSignals": [
+        "莫奈晚年《睡莲》系列",
+        "同名作品的身份与年代区分",
+        "系列组展与自然光"
+      ],
+      "routeSignals": [
+        "莫奈专门展室的组展观看",
+        "适合与同名双联画作身份对照",
+        "安排在确认当日开放后"
+      ],
+      "riskFlags": ["architecture_or_site", "availability_ambiguity"],
+      "sourcePointers": ["https://benesse-artsite.jp/en/art/chichu.html"]
+    },
+    {
+      "workId": "claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919",
+      "identityStatus": "stable",
+      "availability": "permanent_display; current access and operating conditions require date/time admission reservation and day-of verification",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "莫奈晚年《睡莲》系列中以垂柳倒影为明确题名的节点；它帮助结构化理解馆内五幅作品如何以不同题名共同进入自然光与空间的观看系统。",
+      "selectionSignals": [
+        "官方列为馆内五幅莫奈晚年《睡莲》之一",
+        "垂柳倒影这一明确题名补足系列内部的主题信号",
+        "作为独立系列成员保留，不以组展概念替代作品身份"
+      ],
+      "sectionSignals": [
+        "莫奈晚年《睡莲》系列",
+        "水面、倒影与自然题名",
+        "作品组与自然光"
+      ],
+      "routeSignals": [
+        "莫奈专门展室的系列性停留",
+        "与其他题名作品并置理解",
+        "安排在确认当日开放后"
+      ],
+      "riskFlags": ["architecture_or_site", "availability_ambiguity"],
+      "sourcePointers": ["https://benesse-artsite.jp/en/art/chichu.html"]
+    },
+    {
+      "workId": "walter-de-maria-time-timeless-no-time-2004",
+      "identityStatus": "stable",
+      "availability": "permanent_display; current access and operating conditions require date/time admission reservation and day-of verification",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "作品不是可从房间剥离的单一物件：2.2米球体、27件镀金木质几何体、专门空间与顶部自然光共同构成作品，并使照明随时刻变化。",
+      "selectionSignals": [
+        "官方将包含球体与27件镀金几何体的整个艺术空间视为作品",
+        "材料、几何构成与自然光共同承担现场价值",
+        "是本馆场域性装置收藏的核心节点"
+      ],
+      "sectionSignals": [
+        "场域性装置",
+        "材料与几何构成",
+        "自然光改变空间照明"
+      ],
+      "routeSignals": [
+        "德·玛利亚专门空间的完整停留",
+        "作为绘画展室与光装置之间的空间转换节点",
+        "需按馆方当日开放条件安排"
+      ],
+      "riskFlags": ["architecture_or_site", "availability_ambiguity"],
+      "sourcePointers": ["https://benesse-artsite.jp/en/art/chichu.html"]
+    },
+    {
+      "workId": "james-turrell-afrum-pale-blue-1968",
+      "identityStatus": "stable",
+      "availability": "permanent_display; current access and operating conditions require date/time admission reservation and day-of verification",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "特瑞尔三件常设作品中1968年的节点；馆方以三件代表性系列作品跨越艺术家生涯来组织观看，核心价值是把光本身作为艺术媒介。",
+      "selectionSignals": [
+        "官方列为馆内三件特瑞尔常设作品之一",
+        "1968年的日期使其成为跨生涯组展中的早期时间节点",
+        "与同组作品共同支撑光作为媒介的馆级收藏线"
+      ],
+      "sectionSignals": [
+        "特瑞尔跨生涯作品组",
+        "光本身作为艺术媒介",
+        "现场空间而非平面图像的观看"
+      ],
+      "routeSignals": [
+        "特瑞尔光作品路线的起始或早期节点",
+        "需在专门空间中现场观看",
+        "安排在确认当日开放后"
+      ],
+      "riskFlags": ["architecture_or_site", "availability_ambiguity"],
+      "sourcePointers": ["https://benesse-artsite.jp/en/art/chichu.html"]
+    },
+    {
+      "workId": "james-turrell-open-field-2000",
+      "identityStatus": "stable",
+      "availability": "permanent_display; current access and operating conditions require date/time admission reservation and day-of verification",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "特瑞尔三件常设作品中2000年的节点；它与同组作品共同让馆方所强调的‘光本身作为艺术’成为一条跨生涯、依赖现场空间的观看线索。",
+      "selectionSignals": [
+        "官方列为馆内三件特瑞尔常设作品之一",
+        "2000年的日期补足跨生涯组展的时间跨度",
+        "保留为独立作品，避免把三件不同身份的光作品合并"
+      ],
+      "sectionSignals": [
+        "特瑞尔跨生涯作品组",
+        "光与空间",
+        "常设装置的现场观看"
+      ],
+      "routeSignals": [
+        "特瑞尔作品组的中段对照节点",
+        "需在专门空间中现场观看",
+        "安排在确认当日开放后"
+      ],
+      "riskFlags": ["architecture_or_site", "availability_ambiguity"],
+      "sourcePointers": ["https://benesse-artsite.jp/en/art/chichu.html"]
+    },
+    {
+      "workId": "james-turrell-open-sky-2004",
+      "identityStatus": "stable",
+      "availability": "permanent_display during regular museum hours; optional sunset Night Program requires separate reservation and has distinct viewing conditions",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "特瑞尔三件常设作品中2004年的建筑观看节点；馆方确认其常规开放时段可见，并另设日落时段、45分钟、坐姿观看的 Night Program。",
+      "selectionSignals": [
+        "官方列为馆内三件特瑞尔常设作品之一",
+        "作品与天窗、天空和建筑观看空间不可分地承担路线价值",
+        "Night Program 为可选的运营与时段信号，不能默认写成每次访问都可用"
+      ],
+      "sectionSignals": [
+        "特瑞尔跨生涯作品组",
+        "光、天空与建筑开口",
+        "常规观看与日落项目的边界"
+      ],
+      "routeSignals": [
+        "特瑞尔路线的建筑观看节点",
+        "常规参观可安排；日落体验需另行预订",
+        "按馆方实时日历和项目条件核验"
+      ],
+      "riskFlags": ["architecture_or_site", "availability_ambiguity"],
+      "sourcePointers": ["https://benesse-artsite.jp/en/art/chichu.html"]
+    },
+    {
+      "workId": "chichu-art-museum-underground-architecture-and-site-context",
+      "identityStatus": "stable",
+      "availability": "museum_context; access follows museum admission and route conditions; this is not a collection object",
+      "importanceCandidate": "体验补充",
+      "rareCandidate": false,
+      "coreValue": "地中美术馆几乎完全地下的建筑以混凝土、钢、玻璃和木材组织自然光；馆方将建筑与艺术家协作形成的整体视为大型场域特定作品语境。",
+      "selectionSignals": [
+        "官方确认其为2004年建成、主要位于地下的地中美术馆建筑",
+        "自然光会随时间与季节改变作品外观及空间氛围",
+        "明确标记为馆级语境而非独立馆藏对象，供下游解释路线与场域关系"
+      ],
+      "sectionSignals": [
+        "安藤忠雄建筑与场域",
+        "地下空间与自然光",
+        "建筑、艺术家与作品的协作关系"
+      ],
+      "routeSignals": [
+        "整馆路线的总览语境",
+        "连接莫奈、德·玛利亚与特瑞尔的共同观看条件",
+        "不计入馆藏作品数量或独立作品图覆盖"
+      ],
+      "riskFlags": ["architecture_or_site", "availability_ambiguity"],
+      "sourcePointers": ["https://benesse-artsite.jp/en/art/chichu.html"]
+    }
+  ]
+}

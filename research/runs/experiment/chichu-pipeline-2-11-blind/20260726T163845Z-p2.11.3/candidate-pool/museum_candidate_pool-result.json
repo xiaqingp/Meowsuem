@@ -1,0 +1,55 @@
+{
+    "runId":  "20260726T163845Z-p2.11.3",
+    "stage":  "museum_candidate_pool",
+    "museumId":  "",
+    "caseId":  "chichu-pipeline-2-11-blind",
+    "workId":  "",
+    "pipelineVersion":  "2.11.3",
+    "instructionVersion":  "2.4.0",
+    "model":  "gpt-5.6-luna",
+    "reasoningEffort":  "high",
+    "runnerStartedAt":  "2026-07-26T09:40:48.4517890-07:00",
+    "modelStartedAt":  "2026-07-26T09:40:48.7198220-07:00",
+    "modelCompletedAt":  "2026-07-26T09:42:51.6454630-07:00",
+    "completedAt":  "2026-07-26T09:42:51.6632519-07:00",
+    "runnerDurationMs":  123211,
+    "modelDurationMs":  122926,
+    "tokenUsage":  {
+                       "total":  50122,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "2",
+                                    "4",
+                                    "9",
+                                    "12",
+                                    "13"
+                                ],
+    "logPath":  "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/candidate-pool/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "d80ee1c0f28a4f21a26b3d7daefe825812b9007b3208dd80451ae13cee95fc96"
+                   },
+                   {
+                       "path":  "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T163845Z-p2.11.3/scope/scope.json",
+                       "role":  "museum_scope",
+                       "sha256":  "52d4d31f6856030f4c9b74cfe4a2d1ce705dfff76e8ead69633e0322bb4b1dcf"
+                   },
+                   {
+                       "path":  "research/pipeline/prompts/museum-discovery.md",
+                       "role":  "stage_prompt",
+                       "sha256":  "45e7e5a1e7d00b9e463dd18e438cf364dffd2d8a61ec810fcfc59bb6dfd044f7"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "candidate-pool.json",
+                        "sha256":  "4f5fe8eb0791c4fdf3c0051fdce5ea51989e02c5c739d63a54ccd256143436a5",
+                        "bytes":  12890
+                    }
+                ]
+}

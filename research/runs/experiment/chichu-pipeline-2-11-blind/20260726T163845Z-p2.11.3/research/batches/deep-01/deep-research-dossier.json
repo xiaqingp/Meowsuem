@@ -1,0 +1,383 @@
+{
+  "schemaVersion": 1,
+  "museumId": "chichuartmuseum",
+  "researchedAt": "2026-07-26",
+  "researchBoundary": "Museum-planning evidence only; current official permanent-display statements do not guarantee uninterrupted access on a future visit date.",
+  "works": [
+    {
+      "workId": "claude-monet-water-lily-pond-c1915-26",
+      "identityStatus": "stable",
+      "identityAnchor": "Claude Monet, Water-Lily Pond, c. 1915–26, diptych",
+      "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "availability": "permanent_display_officially_confirmed; visit_date_recheck_required",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "莫奈晚年《睡莲》五件组中的大型双联画；馆方档案称其购藏促成了地中美术馆的创建设想，且展厅以自然光和整体空间统筹五幅画。",
+      "selectionSignals": [
+        "五件组的机构叙事起点",
+        "每联200 × 300厘米，合计横向6米，是组内尺度与双联结构最突出的对象",
+        "应与同室其余四件共同选择，避免把展厅价值误写成孤立名画价值"
+      ],
+      "sectionSignals": [
+        "Claude Monet：晚年《睡莲》与自然光展厅",
+        "建筑、光线与绘画的共同观看条件"
+      ],
+      "routeSignals": [
+        "莫奈室主锚点",
+        "适合在其余四幅之前建立整组与展厅关系"
+      ],
+      "riskFlags": [
+        "current_display_status_requires_recheck"
+      ],
+      "riskResolution": {
+        "status": "resolved_for_planning",
+        "currentDisplayEvidence": "馆方当前页面称莫奈、特瑞尔与德·玛利亚作品在馆内永久展示，并在莫奈项下逐件列出本作；2026年7月官方开放日历没有本馆临时闭馆提示。",
+        "operationalBoundary": "永久展示是稳定的展陈关系，不保证任一未来日期无维护、灾害或临时限制；行前仍须核对官方日历与新闻。",
+        "comparisonClass": "地中美术馆同室展出的五幅莫奈晚年《睡莲》",
+        "nearestComparators": "同室的《睡莲—草丛》(1914–17)、《睡莲》(1914–17)、《睡莲池》(1917–19)与《睡莲—柳树倒影》(1916–19)。",
+        "decisiveDifference": "本作为双联画，每联200 × 300厘米；其余四件为单幅，尺寸分别为200 × 213、200 × 200、100 × 200和100 × 200厘米。馆方档案另将这件2 × 6米作品的购藏明确写为建馆构想的催化剂。",
+        "rarityConclusion": "这些证据支持本馆馆藏与建馆叙事中的关键地位，但没有覆盖全球存世范围，不能支持“稀世珍品”或全球唯一性。"
+      },
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html",
+        "https://benesse-artsite.jp/en/story/20210611-1671.html",
+        "https://www.benesse-artsite.jp/en/calendar/monthly.html"
+      ]
+    },
+    {
+      "workId": "claude-monet-water-lilies-cluster-of-grass-1914-17",
+      "identityStatus": "stable",
+      "identityAnchor": "Claude Monet, Water Lilies, Cluster of Grass, 1914–17",
+      "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "availability": "permanent_display_officially_confirmed; visit_date_recheck_required",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "莫奈晚年《睡莲》五件组的一部分；其价值主要来自与同室作品及为自然光观看定制的整体展厅共同构成收藏线。",
+      "selectionSignals": [
+        "官方逐件列入五幅永久展示的《睡莲》",
+        "200 × 213厘米的近方幅单画，与大型双联画和两幅100 × 200厘米横幅形成组内尺度对照",
+        "题名明确提供草丛这一组内区分线索"
+      ],
+      "sectionSignals": [
+        "Claude Monet：晚年《睡莲》与自然光展厅"
+      ],
+      "routeSignals": [
+        "莫奈室组内比较节点",
+        "与200 × 200厘米《睡莲》相邻理解近方幅变化"
+      ],
+      "riskFlags": [
+        "current_display_status_requires_recheck"
+      ],
+      "riskResolution": {
+        "status": "resolved_for_planning",
+        "currentDisplayEvidence": "馆方当前页面称三位艺术家的作品为永久展示，并在莫奈项下以题名和1914–17年代列出本作；2026年7月官方日历未提示本馆临时闭馆。",
+        "operationalBoundary": "未来到访仍需核对官方日历和临时新闻；馆方页面没有提供逐日、逐画的运行状态。",
+        "comparisonClass": "地中美术馆同室展出的五幅莫奈晚年《睡莲》",
+        "nearestComparators": "同为1914–17年的200 × 200厘米《睡莲》，以及同组其余三件。",
+        "decisiveDifference": "本作200 × 213厘米且题名锁定“Cluster of Grass”；现有来源没有证明这种差异构成全球不可替代性。",
+        "rarityConclusion": "按单件暂列特色看点；整组可承担更高的馆藏重要性。"
+      },
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html",
+        "https://benesse-artsite.jp/en/story/20210611-1671.html",
+        "https://www.benesse-artsite.jp/en/calendar/monthly.html"
+      ]
+    },
+    {
+      "workId": "claude-monet-water-lilies-1914-17",
+      "identityStatus": "stable",
+      "identityAnchor": "Claude Monet, Water Lilies, 1914–17, 200 × 200 cm",
+      "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "availability": "permanent_display_officially_confirmed; visit_date_recheck_required",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "莫奈晚年《睡莲》五件组中的200 × 200厘米方幅作品，用于建立同一展厅内画幅、年代与自然光条件的比较。",
+      "selectionSignals": [
+        "官方逐件列入五幅永久展示的《睡莲》",
+        "组内唯一标为200 × 200厘米的正方形画幅",
+        "单件价值证据不足以脱离五件组独立升格"
+      ],
+      "sectionSignals": [
+        "Claude Monet：晚年《睡莲》与自然光展厅"
+      ],
+      "routeSignals": [
+        "莫奈室组内画幅比较节点"
+      ],
+      "riskFlags": [
+        "current_display_status_requires_recheck"
+      ],
+      "riskResolution": {
+        "status": "resolved_for_planning",
+        "currentDisplayEvidence": "馆方当前页面称三位艺术家的作品为永久展示，并以1914–17年、200 × 200厘米列出本作；2026年7月官方日历未提示本馆临时闭馆。",
+        "operationalBoundary": "未来到访仍需核对官方日历和临时新闻；馆方页面没有提供逐日、逐画状态。",
+        "comparisonClass": "地中美术馆同室展出的五幅莫奈晚年《睡莲》",
+        "nearestComparators": "同为1914–17年的200 × 213厘米《睡莲—草丛》，以及同组其余三件。",
+        "decisiveDifference": "本作为200 × 200厘米方幅；现有来源只足以支持组内形式差异，不能支持全球稀有性。",
+        "rarityConclusion": "按单件暂列特色看点；其选择理由依赖完整五件组。"
+      },
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html",
+        "https://benesse-artsite.jp/en/story/20210611-1671.html",
+        "https://www.benesse-artsite.jp/en/calendar/monthly.html"
+      ]
+    },
+    {
+      "workId": "claude-monet-water-lily-pond-1917-19",
+      "identityStatus": "stable",
+      "identityAnchor": "Claude Monet, Water-Lily Pond, 1917–19, 100 × 200 cm",
+      "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "availability": "permanent_display_officially_confirmed; visit_date_recheck_required",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "莫奈晚年《睡莲》五件组中的100 × 200厘米横幅，补足同室作品在1914–26年间的年代与比例变化。",
+      "selectionSignals": [
+        "官方逐件列入五幅永久展示的《睡莲》",
+        "与《睡莲—柳树倒影》同为100 × 200厘米，可构成最直接的组内比较",
+        "与c.1915–26同题双联画共享《睡莲池》题名但尺度和结构不同"
+      ],
+      "sectionSignals": [
+        "Claude Monet：晚年《睡莲》与自然光展厅"
+      ],
+      "routeSignals": [
+        "莫奈室横幅对子之一",
+        "连接同题《睡莲池》的不同画幅"
+      ],
+      "riskFlags": [
+        "current_display_status_requires_recheck"
+      ],
+      "riskResolution": {
+        "status": "resolved_for_planning",
+        "currentDisplayEvidence": "馆方当前页面称三位艺术家的作品为永久展示，并以1917–19年、100 × 200厘米列出本作；2026年7月官方日历未提示本馆临时闭馆。",
+        "operationalBoundary": "未来到访仍需核对官方日历和临时新闻；馆方页面没有提供逐日、逐画状态。",
+        "comparisonClass": "地中美术馆同室展出的五幅莫奈晚年《睡莲》",
+        "nearestComparators": "同尺寸的《睡莲—柳树倒影》(1916–19)，以及同题但为大型双联结构的c.1915–26《睡莲池》。",
+        "decisiveDifference": "本作是1917–19年的100 × 200厘米单幅《睡莲池》；现有证据未证明其超越组内差异的全球不可替代性。",
+        "rarityConclusion": "按单件暂列特色看点；不可将同题作品的尺寸差异直接升级为稀有结论。"
+      },
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html",
+        "https://benesse-artsite.jp/en/story/20210611-1671.html",
+        "https://www.benesse-artsite.jp/en/calendar/monthly.html"
+      ]
+    },
+    {
+      "workId": "claude-monet-water-lilies-reflections-of-weeping-willows-1916-19",
+      "identityStatus": "stable",
+      "identityAnchor": "Claude Monet, Water Lilies, Reflections of Weeping Willows, 1916–19",
+      "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "availability": "permanent_display_officially_confirmed; visit_date_recheck_required",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "莫奈晚年《睡莲》五件组中的100 × 200厘米横幅；官方题名使柳树倒影成为组内明确而可核验的题材分支。",
+      "selectionSignals": [
+        "官方逐件列入五幅永久展示的《睡莲》",
+        "与1917–19《睡莲池》同尺寸，可比较相同画幅中的题名分化",
+        "其意义首先属于五件组和自然光展厅，不宜仅凭题材独立升格"
+      ],
+      "sectionSignals": [
+        "Claude Monet：晚年《睡莲》与自然光展厅"
+      ],
+      "routeSignals": [
+        "莫奈室横幅对子之一",
+        "以官方题名区分柳树倒影线索"
+      ],
+      "riskFlags": [
+        "current_display_status_requires_recheck"
+      ],
+      "riskResolution": {
+        "status": "resolved_for_planning",
+        "currentDisplayEvidence": "馆方当前页面称三位艺术家的作品为永久展示，并以1916–19年及完整题名列出本作；2026年7月官方日历未提示本馆临时闭馆。",
+        "operationalBoundary": "未来到访仍需核对官方日历和临时新闻；馆方页面没有提供逐日、逐画状态。",
+        "comparisonClass": "地中美术馆同室展出的五幅莫奈晚年《睡莲》",
+        "nearestComparators": "同尺寸的《睡莲池》(1917–19)，以及同组其余三件。",
+        "decisiveDifference": "本作100 × 200厘米且官方题名明确“Reflections of Weeping Willows”；题名和尺寸差异不能单独证明稀有或不可替代。",
+        "rarityConclusion": "按单件暂列特色看点；整组价值高于现有证据可支持的单件稀有性。"
+      },
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html",
+        "https://benesse-artsite.jp/en/story/20210611-1671.html",
+        "https://www.benesse-artsite.jp/en/calendar/monthly.html"
+      ]
+    },
+    {
+      "workId": "walter-de-maria-time-timeless-no-time-2004",
+      "identityStatus": "stable",
+      "identityAnchor": "Walter De Maria, Time/Timeless/No Time, 2004",
+      "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "availability": "permanent_display_officially_confirmed; visit_date_recheck_required",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "由艺术家指导形成的整体艺术空间：直径2.2米球体、27件镀金木质几何体、房间与天窗自然光共同构成作品，照明随时刻改变。",
+      "selectionSignals": [
+        "对象边界明确包括整个艺术空间而非仅花岗岩球体",
+        "自然光随时刻改变室内照明，是馆方明确的作品机制",
+        "直接体现地中美术馆把艺术、建筑和自然条件结合的核心论点"
+      ],
+      "sectionSignals": [
+        "Walter De Maria：时间、数量与整体空间",
+        "建筑、光线与作品不可拆分的现场艺术"
+      ],
+      "routeSignals": [
+        "全馆现场性主锚点",
+        "宜安排足够停留时间观察自然光条件"
+      ],
+      "riskFlags": [
+        "site_specific_works",
+        "current_display_status_requires_recheck"
+      ],
+      "riskResolution": {
+        "status": "resolved_for_planning",
+        "siteSpecificEvidence": "馆方明确称整个艺术空间均由德·玛利亚指导创作为作品，并把球体、27件镀金木质几何体和天花自然光共同纳入描述；因此作品身份不能缩减成可搬移的单一雕塑。",
+        "currentDisplayEvidence": "馆方当前页面称德·玛利亚作品在馆内永久展示；2026年7月官方日历未提示本馆临时闭馆。",
+        "operationalBoundary": "未来到访仍须核对官方日历和临时新闻。",
+        "comparisonClass": "德·玛利亚依靠整体场所、持续时间与变化光线成立的长期装置",
+        "nearestComparators": "Dia维护的《闪电原野》(1977)同样要求在场所中移动并经历长时间与变化光线；其构成为新墨西哥荒漠中的400根不锈钢杆，并要求过夜观看。",
+        "decisiveDifference": "本作是地中美术馆室内整体空间，以2.2米球体、27件镀金木质几何体和天窗光线成立；《闪电原野》则是户外一英里乘一公里的杆阵。比较证明两者共享现场与时间机制，却不能互换其具体空间经验。",
+        "rarityConclusion": "支持重要藏品与现场性主锚点；未检索到全球数量边界或唯一性证明，故不升为稀世珍品。"
+      },
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html",
+        "https://www.benesse-artsite.jp/en/calendar/monthly.html",
+        "https://www.diaart.org/visit/visit-our-locations-sites/walter-de-maria-the-lightning-field/"
+      ]
+    },
+    {
+      "workId": "james-turrell-afrum-pale-blue-1968",
+      "identityStatus": "stable",
+      "identityAnchor": "James Turrell, Afrum, Pale Blue, 1968",
+      "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "availability": "permanent_display_officially_confirmed; visit_date_recheck_required",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "特瑞尔三件组的早期端点；投影光与为其配置的墙角空间共同制造对实体和光平面的知觉判断。",
+      "selectionSignals": [
+        "1968年作品为馆内三件特瑞尔作品的时间序列起点",
+        "媒介与空间配置共同成立，不能按传统可搬移物件理解",
+        "古根海姆对同类早期Afrum交叉墙角投影的解释可支持其系列机制，但不能替代本作身份来源"
+      ],
+      "sectionSignals": [
+        "James Turrell：从投影到沉浸空间再到天空",
+        "光作为材料与知觉对象"
+      ],
+      "routeSignals": [
+        "特瑞尔三件组第一站",
+        "建立早期投影作品与后续沉浸空间的时间对照"
+      ],
+      "riskFlags": [
+        "site_specific_works",
+        "current_display_status_requires_recheck"
+      ],
+      "riskResolution": {
+        "status": "resolved_for_planning",
+        "siteSpecificEvidence": "馆方把本作列为馆内永久展示的特瑞尔作品，并给出投影器、混凝土地面及石膏板墙顶等完整媒介边界；馆方同时说明整座美术馆在艺术家与建筑师互动中成形，可视为大型现场作品。",
+        "currentDisplayEvidence": "馆方当前页面将本作列在永久展示项目中；2026年7月官方日历未提示本馆临时闭馆。",
+        "operationalBoundary": "未来到访仍须核对官方日历和临时新闻。",
+        "comparisonClass": "特瑞尔早期Cross Corner Projection／Afrum投影作品",
+        "nearestComparators": "古根海姆藏《Afrum I (White)》(1967)与LACMA藏《Afrum (White)》(1966)均为早期Afrum墙角投影。",
+        "decisiveDifference": "可靠资料证明该机制并非仅此一件；本作的淡蓝色版本、1968年身份及地中美术馆具体空间配置构成馆内选择价值，但现有证据没有建立全球不可替代性。",
+        "rarityConclusion": "按早期系列代表与馆内时间序列列为重要藏品，不作唯一、最早或稀世珍品判断。"
+      },
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html",
+        "https://www.benesse-artsite.jp/en/calendar/monthly.html",
+        "https://web.guggenheim.org/exhibitions/turrell/",
+        "https://collections.lacma.org/object/140816"
+      ]
+    },
+    {
+      "workId": "james-turrell-open-field-2000",
+      "identityStatus": "stable",
+      "identityAnchor": "James Turrell, Open Field, 2000",
+      "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "availability": "permanent_display_officially_confirmed; visit_date_recheck_required",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "特瑞尔三件组的沉浸式中段：荧光灯、霓虹灯与大理石、石膏板空间共同把光场和建筑边界变成观看对象。",
+      "selectionSignals": [
+        "在1968年投影作品与2004年天空空间之间建立媒介和时间过渡",
+        "作品材料清单明确包含建筑表面，选择时须保留房间尺度边界",
+        "对全馆光线与空间主线的覆盖不可由莫奈室或《开放天空》完全替代"
+      ],
+      "sectionSignals": [
+        "James Turrell：从投影到沉浸空间再到天空",
+        "光作为材料与知觉对象"
+      ],
+      "routeSignals": [
+        "特瑞尔三件组第二站",
+        "连接早期投影与开放天窗作品"
+      ],
+      "riskFlags": [
+        "site_specific_works",
+        "current_display_status_requires_recheck"
+      ],
+      "riskResolution": {
+        "status": "resolved_for_planning",
+        "siteSpecificEvidence": "馆方把荧光灯、霓虹灯、大理石和石膏板共同列为作品媒介；馆方对美术馆整体的说明又明确艺术空间是在艺术家与建筑师互动中形成，故空间配置属于作品证据边界。",
+        "currentDisplayEvidence": "馆方当前页面将本作列在永久展示项目中；2026年7月官方日历未提示本馆临时闭馆。",
+        "operationalBoundary": "未来到访仍须核对官方日历和临时新闻。",
+        "comparisonClass": "特瑞尔利用封闭建筑空间和人工光改变空间知觉的沉浸装置",
+        "nearestComparators": "同馆《Afrum, Pale Blue》提供投影式前例，《Open Sky》提供天窗与自然天空的后续端点；古根海姆资料中的Ganzfeld与Space Division作品说明特瑞尔存在多个相关空间类别。",
+        "decisiveDifference": "本作在馆内序列中以2000年的人工光沉浸空间居中，既不同于墙角投影，也不同于直接向天空开放的空间；来源不足以宣称该类型仅此一件。",
+        "rarityConclusion": "按馆内跨生涯序列和独立空间机制列为重要藏品，不作稀有或唯一判断。"
+      },
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html",
+        "https://www.benesse-artsite.jp/en/calendar/monthly.html",
+        "https://web.guggenheim.org/exhibitions/turrell/"
+      ]
+    },
+    {
+      "workId": "james-turrell-open-sky-2004",
+      "identityStatus": "stable",
+      "identityAnchor": "James Turrell, Open Sky, 2004",
+      "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "availability": "permanent_display_officially_confirmed_during_regular_hours; night_program_friday_and_saturday_reservation_required; visit_date_recheck_required",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "特瑞尔三件组的天空空间端点；LED、氙灯、大理石、日本灰泥、天花开口与真实天空共同构成随时刻和天气变化的观看条件。",
+      "selectionSignals": [
+        "馆方明确区分常规开放时段可看与日落Night Program特别观看",
+        "日落项目为45分钟、周五和周六举行并需购买含项目的预约票",
+        "直接连接本馆自然、时间、光线与建筑的核心论点"
+      ],
+      "sectionSignals": [
+        "James Turrell：从投影到沉浸空间再到天空",
+        "自然光、人工光与时间条件",
+        "常规参观和日落项目的边界"
+      ],
+      "routeSignals": [
+        "特瑞尔三件组终点",
+        "常规路线可看；日落路线须单独按预约与星期安排",
+        "Night Program期间不能观看馆内其他作品，应在闭馆前完成其余路线"
+      ],
+      "riskFlags": [
+        "site_specific_works",
+        "current_display_status_requires_recheck"
+      ],
+      "riskResolution": {
+        "status": "resolved_for_planning",
+        "siteSpecificEvidence": "馆方把LED、氙灯、大理石和日本灰泥列为作品媒介，并明确日落观看会暴露于天花开口带来的室外气候；真实天空、房间、灯光和时刻均属于观看条件。",
+        "currentDisplayEvidence": "馆方当前页面明确《Open Sky》在博物馆常规开放时段可看；Night Program为周五、周六的预约制特别观看。2026年7月官方日历同时列出本馆开放安排和该项目。",
+        "operationalBoundary": "常规可见性不能与日落项目混同；未来日期仍须核对天气、官方日历、票务和临时新闻。",
+        "comparisonClass": "James Turrell Skyspace",
+        "nearestComparators": "德州大学《The Color Inside》也是通过天花开口观看天空、在日出日落以彩色灯光改变天空知觉的永久Skyspace；该校资料称其为第84件Skyspace，且每件配置不同。",
+        "decisiveDifference": "《Open Sky》是2004年为地中美术馆现场配置的Skyspace，并有本馆特定的常规观看与Night Program制度；比较对象证明Skyspace是多件系列，不能据现场依赖性推导全球唯一。",
+        "rarityConclusion": "按全馆空间与时间主线列为重要藏品；没有通过稀世珍品的全球不可替代性硬门。"
+      },
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html",
+        "https://www.benesse-artsite.jp/en/calendar/monthly.html",
+        "https://turrell.utexas.edu/"
+      ]
+    }
+  ]
+}

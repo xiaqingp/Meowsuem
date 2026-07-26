@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260726T165828Z-p2.11.4",
+  "museumId": "chichuartmuseum",
+  "mode": "dry-run",
+  "candidateAssemblyResultSha256": "51b14efe89594af412248d9fc775e19bacf495e0b162393e5643ba8e53291eff",
+  "files": {
+    "chichuartmuseum.js": {
+      "sha256": "599f70b4fe2c44de9e51972bf2d248da6c10e3f11acd6ccf12e9525812b0cfeb",
+      "changed": true
+    },
+    "research/content/chichuartmuseum.md": {
+      "sha256": "9277d495de534b055f2da7faa43e23255731b289d63f4d25596380f093722a00",
+      "changed": true
+    },
+    "ratings.js": {
+      "sha256": "780a3a404f28c4592ec8e73bdc5dfb42467ef4b7b3533f42d4ddcdd67ea168e3",
+      "changed": true
+    },
+    "routes.js": {
+      "sha256": "2ff4d93a715aa4cab94aa02f6f8ab2d80d90616e1cb2d7cad37ba73db535cd16",
+      "changed": true
+    },
+    "assets/chichuartmuseum/chichu-art-museum-underground-architecture-and-site-context.jpg": {
+      "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1",
+      "changed": true
+    },
+    "assets/chichuartmuseum/claude-monet-water-lily-pond-c-1915-1926.jpg": {
+      "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1",
+      "changed": true
+    },
+    "assets/chichuartmuseum/claude-monet-water-lilies-cluster-of-grass-1914-1917.jpg": {
+      "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1",
+      "changed": true
+    },
+    "assets/chichuartmuseum/claude-monet-water-lilies-1914-1917.jpg": {
+      "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1",
+      "changed": true
+    },
+    "assets/chichuartmuseum/claude-monet-water-lily-pond-1917-1919.jpg": {
+      "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1",
+      "changed": true
+    },
+    "assets/chichuartmuseum/claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919.jpg": {
+      "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1",
+      "changed": true
+    },
+    "assets/chichuartmuseum/walter-de-maria-time-timeless-no-time-2004.jpg": {
+      "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1",
+      "changed": true
+    },
+    "assets/chichuartmuseum/james-turrell-afrum-pale-blue-1968.jpg": {
+      "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1",
+      "changed": true
+    },
+    "assets/chichuartmuseum/james-turrell-open-field-2000.jpg": {
+      "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1",
+      "changed": true
+    },
+    "assets/chichuartmuseum/james-turrell-open-sky-2004.jpg": {
+      "sha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1",
+      "changed": true
+    },
+    "index.html": {
+      "sha256": "7e455da012e4b4b145bff672cc5f845840b16c815ced68c550b6d45d04aba5b1",
+      "changed": true
+    },
+    "museum.html": {
+      "sha256": "4a10d4a2f3c5757827b50251a24e1a6aa68d985788933939c7e653666a5b1bd6",
+      "changed": true
+    }
+  }
+}

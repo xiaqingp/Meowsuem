@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260726T165828Z-p2.11.4",
+  "museumId": "chichuartmuseum",
+  "caseId": "chichu-pipeline-2-11-blind",
+  "stage": "single_work",
+  "runs": 0,
+  "accepted": [
+    "chichu-art-museum-underground-architecture-and-site-context",
+    "claude-monet-water-lilies-1914-1917",
+    "claude-monet-water-lilies-cluster-of-grass-1914-1917",
+    "claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919",
+    "claude-monet-water-lily-pond-1917-1919",
+    "claude-monet-water-lily-pond-c-1915-1926",
+    "james-turrell-afrum-pale-blue-1968",
+    "james-turrell-open-field-2000",
+    "james-turrell-open-sky-2004",
+    "walter-de-maria-time-timeless-no-time-2004"
+  ],
+  "failed": [],
+  "blocked": [],
+  "skippedAccepted": [
+    "chichu-art-museum-underground-architecture-and-site-context",
+    "claude-monet-water-lilies-1914-1917",
+    "claude-monet-water-lilies-cluster-of-grass-1914-1917",
+    "claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919",
+    "claude-monet-water-lily-pond-1917-1919",
+    "claude-monet-water-lily-pond-c-1915-1926",
+    "james-turrell-afrum-pale-blue-1968",
+    "james-turrell-open-field-2000",
+    "james-turrell-open-sky-2004",
+    "walter-de-maria-time-timeless-no-time-2004"
+  ],
+  "concurrency": 10,
+  "seconds": 0
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260726T163845Z-p2.11.3",
+  "museumId": "chichuartmuseum",
+  "caseId": "chichu-pipeline-2-11-blind",
+  "stage": "single_work",
+  "runs": 9,
+  "accepted": [],
+  "failed": [
+    "james-turrell-afrum-pale-blue-1968",
+    "claude-monet-water-lilies-1914-17",
+    "claude-monet-water-lily-pond-1917-19",
+    "claude-monet-water-lilies-cluster-of-grass-1914-17",
+    "james-turrell-open-field-2000",
+    "claude-monet-water-lilies-reflections-of-weeping-willows-1916-19",
+    "walter-de-maria-time-timeless-no-time-2004",
+    "claude-monet-water-lily-pond-c1915-26",
+    "james-turrell-open-sky-2004"
+  ],
+  "blocked": [
+    "james-turrell-afrum-pale-blue-1968",
+    "claude-monet-water-lilies-1914-17",
+    "claude-monet-water-lily-pond-1917-19",
+    "claude-monet-water-lilies-cluster-of-grass-1914-17",
+    "james-turrell-open-field-2000",
+    "claude-monet-water-lilies-reflections-of-weeping-willows-1916-19",
+    "walter-de-maria-time-timeless-no-time-2004",
+    "claude-monet-water-lily-pond-c1915-26",
+    "james-turrell-open-sky-2004"
+  ],
+  "skippedAccepted": [],
+  "concurrency": 10,
+  "seconds": 134.35
+}

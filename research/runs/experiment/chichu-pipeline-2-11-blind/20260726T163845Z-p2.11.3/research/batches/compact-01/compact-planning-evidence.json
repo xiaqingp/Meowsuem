@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "museumId": "chichuartmuseum",
+  "works": [
+    {
+      "workId": "claude-monet-water-lily-pond-c1915-26",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "莫奈晚年《睡莲》系列的大型双联画；其尺度、双联画形式与地中美术馆为画作配置的自然光空间共同构成馆方莫奈室的核心节点。",
+      "selectionSignals": [
+        "官方五件晚年《睡莲》组的最大画幅节点",
+        "双联画、c.1915–26、每幅200×300cm",
+        "代表馆藏的莫奈晚年系列与自然光观看主线"
+      ],
+      "sectionSignals": [
+        "莫奈晚年水园系列",
+        "画幅与展厅空间的整体关系",
+        "自然光改变画作与空间的观看条件"
+      ],
+      "routeSignals": [
+        "莫奈室的首要停留节点",
+        "与其余四件睡莲按组观看",
+        "官方称永久展示；当日展出状态仍需核验"
+      ],
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html",
+        "https://www.moma.org/artists/4058-claude-monet"
+      ]
+    },
+    {
+      "workId": "claude-monet-water-lilies-cluster-of-grass-1914-17",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "莫奈1914–17年的晚年水园作品，以“草丛”这一题名线索补足地中美术馆五件《睡莲》组中不只围绕池面与花朵的母题范围。",
+      "selectionSignals": [
+        "官方五件晚年《睡莲》组成员",
+        "1914–17年、200×213cm",
+        "题名明确提供草丛主题线索，补足组内题材关系"
+      ],
+      "sectionSignals": [
+        "莫奈晚年水园系列",
+        "草丛与水面母题",
+        "自然光下的同组比较"
+      ],
+      "routeSignals": [
+        "与同室四件作品连续比较",
+        "可作为早期晚年作品与1917–19年作品的年代对照",
+        "官方称永久展示；当日展出状态仍需核验"
+      ],
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html",
+        "https://www.metmuseum.org/art/collection/search/438008"
+      ]
+    },
+    {
+      "workId": "claude-monet-water-lilies-1914-17",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "莫奈1914–17年的方幅《睡莲》，把馆方晚年水园系列的时间节点与画面表面、反射和母题持续性连接起来，是同室作品组的基础比较项。",
+      "selectionSignals": [
+        "官方五件晚年《睡莲》组成员",
+        "1914–17年、200×200cm",
+        "方幅尺度可与双联画及横幅作品形成组内比较"
+      ],
+      "sectionSignals": [
+        "莫奈晚年水园系列",
+        "同一母题在不同画幅中的变化",
+        "晚年绘画向近乎抽象的表面关注可作比较线索"
+      ],
+      "routeSignals": [
+        "作为莫奈室组内尺度比较的基准作品",
+        "与1917–19年横幅作品并看",
+        "官方称永久展示；当日展出状态仍需核验"
+      ],
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html",
+        "https://www.moma.org/artists/4058-claude-monet",
+        "https://www.metmuseum.org/art/collection/search/438008"
+      ]
+    },
+    {
+      "workId": "claude-monet-water-lily-pond-1917-19",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "莫奈1917–19年的横幅《睡莲池》，为地中美术馆晚年《睡莲》组提供较晚年代与100×200cm横向尺度的对照节点。",
+      "selectionSignals": [
+        "官方五件晚年《睡莲》组成员",
+        "1917–19年、100×200cm",
+        "与c.1915–26双联画及1914–17作品形成年代、尺度对照"
+      ],
+      "sectionSignals": [
+        "莫奈晚年水园系列",
+        "同一池塘题材的年代变化",
+        "画幅尺度与自然光展厅关系"
+      ],
+      "routeSignals": [
+        "莫奈室内的晚期横幅比较节点",
+        "适合与同尺寸的柳树倒影作品并看",
+        "官方称永久展示；当日展出状态仍需核验"
+      ],
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html",
+        "https://www.moma.org/artists/4058-claude-monet"
+      ]
+    },
+    {
+      "workId": "claude-monet-water-lilies-reflections-of-weeping-willows-1916-19",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "莫奈1916–19年的《睡莲—柳树倒影》，以“柳树倒影”这一官方题名明确的水面反射线索，扩展地中美术馆晚年《睡莲》组的主题范围。",
+      "selectionSignals": [
+        "官方五件晚年《睡莲》组成员",
+        "1916–19年、100×200cm",
+        "柳树倒影是组内明确的题材与反射线索"
+      ],
+      "sectionSignals": [
+        "莫奈晚年水园系列",
+        "倒影与水面观看",
+        "自然光条件下的横幅作品比较"
+      ],
+      "routeSignals": [
+        "与1917–19年《睡莲池》构成同尺寸、相近年代对照",
+        "作为莫奈室主题线索的柳树倒影节点",
+        "官方称永久展示；当日展出状态仍需核验"
+      ],
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html",
+        "https://www.metmuseum.org/art/collection/search/438008"
+      ]
+    },
+    {
+      "workId": "walter-de-maria-time-timeless-no-time-2004",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "这不是可从房间中抽离的单件雕塑：2.2米花岗岩球体、27件镀金木质几何体、展厅与天窗自然光共同构成作品，光线随时刻变化而改变空间。",
+      "selectionSignals": [
+        "官方按整体艺术空间介绍",
+        "2.2米球体与27件镀金木质几何体",
+        "2004年、为地中美术馆委托制作的场域性作品"
+      ],
+      "sectionSignals": [
+        "空间即作品",
+        "几何秩序与自然光变化",
+        "当代装置对建筑观看的依赖"
+      ],
+      "routeSignals": [
+        "从莫奈自然光绘画转入整体性装置",
+        "需按现场空间而非单件物件理解",
+        "官方称永久展示；当日展出状态仍需核验"
+      ],
+      "riskFlags": [
+        "architecture_or_site",
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html",
+        "https://gagosian.com/quarterly/2022/10/26/interview-walter-de-maria-the-object-the-action-the-aesthetic-feeling/"
+      ]
+    },
+    {
+      "workId": "james-turrell-afrum-pale-blue-1968",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "1968年的早期光装置，以投影媒介进入地中美术馆特瑞尔三件组；作品被置于“光本身作为艺术”的跨生涯时间序列起点。",
+      "selectionSignals": [
+        "官方三件特瑞尔组中最早的1968年作品",
+        "媒介为projector",
+        "构成特瑞尔早期至晚期代表系列的年代入口"
+      ],
+      "sectionSignals": [
+        "光作为艺术材料",
+        "特瑞尔跨生涯时间序列",
+        "投影与空间感知"
+      ],
+      "routeSignals": [
+        "特瑞尔三件组的第一站",
+        "与2000年、2004年作品按年代并看",
+        "官方称永久展示；当日展出状态仍需核验"
+      ],
+      "riskFlags": [
+        "architecture_or_site",
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html"
+      ]
+    },
+    {
+      "workId": "james-turrell-open-field-2000",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "2000年的特瑞尔光装置，是地中美术馆三件跨生涯作品中的中段节点；荧光灯与霓虹管媒介使观看重点从物体转向光与空间的关系。",
+      "selectionSignals": [
+        "官方三件特瑞尔组中的2000年中段作品",
+        "媒介为荧光灯、霓虹管",
+        "补足早期投影与2004年作品之间的时间序列"
+      ],
+      "sectionSignals": [
+        "光作为艺术材料",
+        "特瑞尔跨生涯时间序列",
+        "光源、空间与感知关系"
+      ],
+      "routeSignals": [
+        "按官方年代序列作为第二站",
+        "与Afrum, Pale Blue和Open Sky组成连续观看",
+        "官方称永久展示；当日展出状态仍需核验"
+      ],
+      "riskFlags": [
+        "architecture_or_site",
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html"
+      ]
+    },
+    {
+      "workId": "james-turrell-open-sky-2004",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "2004年的特瑞尔现场光装置，完成地中美术馆三件作品的跨生涯序列；常规开放时段可见，另有闭馆后、日落时段的预约Night Program。",
+      "selectionSignals": [
+        "官方三件特瑞尔组中最晚的2004年作品",
+        "媒介为LED、氙灯",
+        "同时连接常规展览与有独立预约边界的日落项目"
+      ],
+      "sectionSignals": [
+        "光作为艺术材料",
+        "特瑞尔跨生涯时间序列的终点",
+        "自然天空、时间与观看条件"
+      ],
+      "routeSignals": [
+        "特瑞尔三件组的最后一站",
+        "常规开放时段与Night Program需分开规划",
+        "官方称永久展示；当日展出及特别项目状态均需核验"
+      ],
+      "riskFlags": [
+        "architecture_or_site",
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://benesse-artsite.jp/en/art/chichu.html"
+      ]
+    }
+  ]
+}

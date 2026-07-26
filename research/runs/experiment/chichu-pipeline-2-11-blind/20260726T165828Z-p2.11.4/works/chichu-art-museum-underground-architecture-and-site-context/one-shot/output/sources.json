@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 2,
+  "museumId": "chichuartmuseum",
+  "workId": "chichu-art-museum-underground-architecture-and-site-context",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Chichu Art Museum",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/art/chichu.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "collectionRelation",
+        "availability",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Archive series 11st: the Claude Monet room in the Chichu Art Museum",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/story/20210611-1671.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "makingProcess",
+        "material",
+        "significance"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Naoshima New Museum of Art Pre-Talk Vol.1: Benesse Art Site Naoshima and Tadao Ando",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/nnmoa/talk20231028-03.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "siteContext",
+        "history",
+        "architecturalInterpretation"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Notice for Closing Time Change of Chichu Art Museum: August 2026",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/news/20260526-3521.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "availability"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "地中美术馆整体可视为一个大型的场域特定艺术作品。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "地中美术馆大部分建于地下，以尽量避免影响濑户内海的自然景观。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "upstreamConflicts": []
+}

@@ -1,0 +1,36 @@
+{
+  "museumId": "chichuartmuseum",
+  "works": [
+    {
+      "workId": "chichu-garden-museum-level-context",
+      "identity": {
+        "objectType": "museum_level_context",
+        "title": {
+          "zh": "地中庭院",
+          "en": "Chichu Garden"
+        },
+        "artistOrCulture": "Museum site context / 本馆场地语境",
+        "displayDate": "current site context",
+        "medium": "garden and plantings / 庭园与植物配置",
+        "identityAnchor": "chichu-garden-museum-level-context",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html"
+      },
+      "identityAnchor": "chichu-garden-museum-level-context",
+      "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+      "collectionGroup": "Chichu Garden and Monet viewing context",
+      "selectionRationale": "官方将 Chichu Garden 作为附属场地语境，并说明其植物配置参考莫奈在吉维尼的花园；作为馆级观看背景保留，不计作独立藏品。",
+      "riskFlags": [
+        "display_status_can_change",
+        "timed_reservation_required",
+        "temporary_closure_possible"
+      ],
+      "riskRationale": "庭院属于本馆场地语境而非独立收藏部门，其可见性受本馆开放与现场运营影响。",
+      "imageAvailability": {
+        "status": "official_page_context_image_present",
+        "sourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "note": "官方本馆页提供地中庭院的场地说明与图像；这不是单件收藏对象图。"
+      }
+    }
+  ]
+}

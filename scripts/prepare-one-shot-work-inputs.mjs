@@ -19,6 +19,7 @@ const parseArgs = argv => Object.fromEntries(argv.map(arg => {
 }));
 const readJson = async file => JSON.parse(await fs.readFile(file, "utf8"));
 const byId = value => new Map((value?.works ?? value?.candidates ?? value?.selectedWorks ?? []).map(item => [item.workId ?? item.id, item]));
+const identityValue = (identity, direct, nested) => identity?.[direct] ?? identity?.[nested]?.[direct === "titleZh" ? "zh" : "en"];
 const required = (value, label, owner) => {
   if (value === undefined || value === null || value === "") throw new Error(`${label} is missing; authoritative owner stage: ${owner}`);
   return value;
@@ -44,7 +45,11 @@ export async function prepareOneShotWorkInputs({projectRoot, kind, museum, caseI
   const selected = byId(selectionDoc);
   const structured = byId(structureDoc);
   const images = byId(imageDoc);
-  const ids = [...selected.keys()].filter(id => !onlyWork || id === onlyWork);
+  const structuredOrder = (structureDoc.works ?? []).map(item => item.workId ?? item.id);
+  if (structuredOrder.length !== selected.size || structuredOrder.some(id => !selected.has(id))) {
+    throw new Error("structure work IDs must exactly match frozen selection");
+  }
+  const ids = structuredOrder.filter(id => !onlyWork || id === onlyWork);
   if (!ids.length) throw new Error(onlyWork ? `selected work not found: ${onlyWork}` : "selection contains no works");
   const outputs = [];
   for (const workId of ids) {
@@ -68,19 +73,27 @@ export async function prepareOneShotWorkInputs({projectRoot, kind, museum, caseI
     if (actualSha !== required(picked.sha256, `${workId}.verifiedImageSha256`, "image_evidence")) {
       throw new Error(`${workId}: verified image SHA-256 mismatch`);
     }
-    const imagePolicy = choice.imagePolicy ?? evidence.imagePolicy ?? "object_image";
+    const imagePolicy = evidence.imagePolicy ?? choice.imagePolicy ?? "object_image";
+    const displayBy = identity.displayBy ?? identity.artistOrCulture
+      ?? [identity.artistZh ?? identity.cultureZh, identity.artistEn ?? identity.cultureEn].filter(Boolean).join(" / ");
     const locked = {
       schemaVersion: 2,
       museumId: targetMuseumId,
       workId,
       objectType: required(identity.objectType, `${workId}.objectType`, "museum_discovery"),
-      titleZh: required(identity.titleZh, `${workId}.titleZh`, "museum_discovery"),
-      titleEn: required(identity.titleEn, `${workId}.titleEn`, "museum_discovery"),
-      artistZh: identity.artistZh ?? identity.cultureZh ?? "",
-      artistEn: identity.artistEn ?? identity.cultureEn ?? "",
+      titleZh: required(identityValue(identity, "titleZh", "title"), `${workId}.titleZh`, "museum_discovery"),
+      titleEn: required(identityValue(identity, "titleEn", "title"), `${workId}.titleEn`, "museum_discovery"),
+      displayBy: required(displayBy, `${workId}.displayBy`, "museum_discovery"),
+      ...(identity.artistZh || identity.cultureZh ? {artistZh: identity.artistZh ?? identity.cultureZh} : {}),
+      ...(identity.artistEn || identity.cultureEn ? {artistEn: identity.artistEn ?? identity.cultureEn} : {}),
       displayDate: required(identity.displayDate, `${workId}.displayDate`, "museum_discovery"),
       medium: required(identity.medium, `${workId}.medium`, "museum_discovery"),
-      accessionNumber: required(identity.accessionNumber, `${workId}.accessionNumber`, "museum_discovery"),
+      identityAnchor: required(
+        identity.identityAnchor ?? candidateRecord.identityAnchor ?? identity.accessionNumber,
+        `${workId}.identityAnchor`,
+        "museum_discovery",
+      ),
+      ...(identity.accessionNumber ? {accessionNumber: identity.accessionNumber} : {}),
       museumName: required(candidateDoc.museumName ?? selectionDoc.museumName, "museumName", "museum_discovery"),
       officialObjectUrl: required(identity.officialObjectUrl, `${workId}.officialObjectUrl`, "museum_discovery"),
       significance: required(choice.significance, `${workId}.significance`, "museum_selection"),

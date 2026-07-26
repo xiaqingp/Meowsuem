@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 2,
+  "museumId": "chichuartmuseum",
+  "workId": "james-turrell-open-sky-2004",
+  "objectType": "architectural_viewing_node",
+  "titleZh": "开放天空",
+  "titleEn": "Open Sky",
+  "displayBy": "James Turrell / 詹姆斯·特瑞尔",
+  "displayDate": "2004",
+  "medium": "LED, xenon lamps; architectural viewing space",
+  "identityAnchor": "james-turrell-open-sky-2004",
+  "museumName": "地中美术馆 / Chichu Art Museum",
+  "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+  "significance": "重要藏品",
+  "priority": "绝对不可错过",
+  "availability": "confirmed_on_view",
+  "sectionId": "ch-04",
+  "stay": "10—15分钟；日落项目另计45分钟",
+  "routeRole": [
+    "absolute_must_see",
+    "sequence_end",
+    "time_sensitive"
+  ],
+  "imagePolicy": "museum_hero_placeholder",
+  "verifiedImageUrl": "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+  "verifiedImageLocalPath": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/image-evidence/assets/museum-hero-placeholder.jpg",
+  "verifiedImageSha256": "80777d74d16d372948c583fb98707310c78dede8eb3fde3a35af0fae105672a1",
+  "imageEvidencePath": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/image-evidence/verified-image-evidence.json"
+}

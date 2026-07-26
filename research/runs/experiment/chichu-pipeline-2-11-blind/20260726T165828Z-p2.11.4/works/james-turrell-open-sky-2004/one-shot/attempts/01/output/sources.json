@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 2,
+  "museumId": "chichuartmuseum",
+  "workId": "james-turrell-open-sky-2004",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Chichu Art Museum",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/art/chichu.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "availability",
+        "architecture",
+        "program"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Conference by Michael Govan",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/story/20170215-770.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "process",
+        "interpretation",
+        "lightAndPerception"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Sublime Experience for Sustainable Underground Space: Integration of the Artists’ Works in Chichu Art Museum",
+      "publisher": "Sustainability / MDPI",
+      "url": "https://www.mdpi.com/2071-1050/13/12/6653",
+      "sourceType": "academic",
+      "usedFor": [
+        "architecture",
+        "viewingExperience",
+        "spatialProcess"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Benesse Art Site Naoshima Media Kit, April 2018",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://www.benesse-artsite.jp/en/contact/press/BASN_MediaKit_April2018_GenerallPress_eng.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "date"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "灯光程序",
+      "statement": "公开馆方资料说明了 LED、氙灯及其对观看的影响，但未完整公开每日灯光变化的具体程序；文章因此未描述固定的色彩顺序。"
+    }
+  ],
+  "upstreamConflicts": []
+}

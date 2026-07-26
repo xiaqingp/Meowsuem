@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 2,
+  "museumId": "chichuartmuseum",
+  "workId": "claude-monet-water-lily-pond-c-1915-1926",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Chichu Art Museum",
+      "publisher": "Benesse Art Site Naoshima / 地中美术馆",
+      "url": "https://benesse-artsite.jp/en/art/chichu.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "availability",
+        "museumContext"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Benesse Art Site Naoshima Media Kit: Chichu Art Museum",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/contact/press/BASN_MediaKit_Jan2016_GenegalPress_eng.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "dimensions",
+        "diptych",
+        "displayContext",
+        "conservation"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Claude Monet: Water-lilies",
+      "publisher": "The National Gallery, London",
+      "url": "https://www.nationalgallery.org.uk/paintings/claude-monet-water-lilies-1",
+      "sourceType": "museum",
+      "usedFor": [
+        "Giverny",
+        "water_garden",
+        "late_period_process",
+        "World_War_I_context",
+        "large_scale_decorations"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "collectionHistory",
+      "statement": "地中美术馆公开对象页与馆方媒体资料确认该作品属于地中美术馆作品体系并在馆内永久展示，但未公开该幅作品的购藏年份、前藏者、馆藏号或完整收藏史。"
+    },
+    {
+      "topic": "currentAvailability",
+      "statement": "馆方页面将莫奈作品列为永久展示；具体参观日仍可能受闭馆、预约或展陈调整影响。"
+    }
+  ],
+  "upstreamConflicts": []
+}
