@@ -54,6 +54,7 @@ async function fixture({ collision = false } = {}) {
   }
   const content = Buffer.from("# Seattle fixture\n");
   await fs.writeFile(path.join(root, "research", "seattle-content-v3.md"), content);
+  await fs.writeFile(path.join(root, "research", "louvre-content-prototype.md"), "# Historical fixture\n");
   await fs.writeFile(path.join(root, "seattle.js"), 'museumData.seattle={contentFile:"./research/content/seattle.md"};\n');
   if (collision) {
     await fs.mkdir(path.join(root, "research", "content"), { recursive: true });
@@ -93,8 +94,12 @@ try {
   assert.deepEqual(after, before);
   await fs.writeFile(destination, "tampered");
   result = run(positive.root, "--verify");
+  assert.equal(result.status, 0, result.stderr);
+  const archived = path.join(positive.root, "research", "archive", "content", "louvre-content-prototype.md");
+  await fs.writeFile(archived, "tampered");
+  result = run(positive.root, "--verify");
   assert.notEqual(result.status, 0);
-  assert.match(result.stderr, /hash drift/);
+  assert.match(result.stderr, /archive provenance drift/);
 } finally {
   await fs.rm(positive.root, { recursive: true, force: true });
 }

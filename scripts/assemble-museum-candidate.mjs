@@ -77,24 +77,50 @@ for (const [index, record] of input.works.entries()) {
   if (!chapterIds.has(record.ch)) throw new Error(`unknown chapter for ${record.id}: ${record.ch}`);
   seen.add(record.id);
   const workRoot = path.join(runRoot, "works", record.id);
-  const [draft, card, writingPlan, mechanical] = await Promise.all([
-    fs.readFile(path.join(workRoot, "author", "draft.md"), "utf8"),
-    fs.readFile(path.join(workRoot, "author", "card.txt"), "utf8"),
-    readJson(path.join(workRoot, "author", "writing-plan.json")),
-    readJson(path.join(workRoot, "mechanical", "mechanical-result.json"))
-  ]);
-  if (mechanical.status !== "passed" && mechanical.result !== "passed" && mechanical.blockers?.length) {
-    throw new Error(`mechanical gate did not pass: ${record.id}`);
+  const oneShotRoot = path.join(workRoot, "one-shot", "integration");
+  const usesOneShot = await fs.access(path.join(oneShotRoot, "verification.json")).then(() => true).catch(() => false);
+  let draft;
+  let card;
+  let metadata;
+  if (usesOneShot) {
+    const [verification, adapter] = await Promise.all([
+      readJson(path.join(oneShotRoot, "verification.json")),
+      readJson(path.join(oneShotRoot, "adapter-result.json"))
+    ]);
+    if (verification.status !== "passed" || verification.errors?.length || adapter.status !== "passed") {
+      throw new Error(`one-shot integration gate did not pass: ${record.id}`);
+    }
+    [draft, card, metadata] = await Promise.all([
+      fs.readFile(path.join(oneShotRoot, "draft.md"), "utf8"),
+      fs.readFile(path.join(oneShotRoot, "card.txt"), "utf8"),
+      readJson(path.join(oneShotRoot, "display-metadata.json"))
+    ]);
+  } else {
+    const [legacyDraft, legacyCard, writingPlan, mechanical] = await Promise.all([
+      fs.readFile(path.join(workRoot, "author", "draft.md"), "utf8"),
+      fs.readFile(path.join(workRoot, "author", "card.txt"), "utf8"),
+      readJson(path.join(workRoot, "author", "writing-plan.json")),
+      readJson(path.join(workRoot, "mechanical", "mechanical-result.json"))
+    ]);
+    if (mechanical.status !== "passed" && mechanical.result !== "passed" && mechanical.blockers?.length) {
+      throw new Error(`mechanical gate did not pass: ${record.id}`);
+    }
+    draft = legacyDraft;
+    card = legacyCard;
+    metadata = writingPlan.displayMetadata;
   }
-  const heading = draft.match(/^##\s+(?:\d+\.\s*)?(.+?)\s+\/\s+(.+)$/m);
+  const heading = usesOneShot
+    ? draft.match(/^#\s+《(.+?)》\s+\/\s+(.+)$/m)
+    : draft.match(/^##\s+(?:\d+\.\s*)?(.+?)\s+\/\s+(.+)$/m);
   if (!heading) throw new Error(`missing bilingual heading: ${record.id}`);
   let body = draft.slice(heading.index + heading[0].length);
   if (input.proseTransforms?.removeLegacyDetailHeading) {
     body = body.replace(/^\*\*再看这些容易错过的细节\*\*\s*$/gm, "");
   }
   body = body.replace(/\n{3,}/g, "\n\n").trim();
-  if (!body.startsWith("### 30 秒先懂")) throw new Error(`invalid draft body: ${record.id}`);
-  const metadata = writingPlan.displayMetadata;
+  if (usesOneShot ? !body.startsWith("## 一分钟看懂") : !body.startsWith("### 30 秒先懂")) {
+    throw new Error(`invalid draft body: ${record.id}`);
+  }
   const tag = priorities.find(value => metadata.priority?.startsWith(value));
   const significance = significances.find(value => metadata.significance?.startsWith(value));
   if (!tag || !significance || significance !== record.significance) throw new Error(`metadata drift: ${record.id}`);
@@ -109,12 +135,14 @@ for (const [index, record] of input.works.entries()) {
     await assertPathInside(candidateRoot, destination, {allowEqual: false});
     localAssets.push({source, destination, relative: destinationRelative});
   }
-  markdown.push(`## ${index + 1}. ${heading[1]} / ${heading[2]}\n\n${body}`);
+  const displayTitleZh = metadata.titleZh ?? heading[1];
+  const displayTitleEn = metadata.titleEn ?? heading[2];
+  markdown.push(`## ${index + 1}. ${displayTitleZh} / ${displayTitleEn}\n\n${body}`);
   works.push({
     id: record.id,
     ch: record.ch,
-    zh: heading[1],
-    en: heading[2],
+    zh: displayTitleZh,
+    en: displayTitleEn,
     by: metadata.by,
     date: metadata.date,
     ...(input.metadataFields?.includeMaterial !== false && metadata.material ? {material: metadata.material} : {}),

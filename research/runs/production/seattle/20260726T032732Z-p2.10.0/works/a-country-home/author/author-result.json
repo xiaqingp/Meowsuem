@@ -1,0 +1,66 @@
+{
+    "runId":  "m28-12-v2.7.2-seattle-author-a-country-home-2026-07-24",
+    "stage":  "author",
+    "museumId":  "seattle",
+    "workId":  "a-country-home",
+    "pipelineVersion":  "2.7.2",
+    "instructionVersion":  "2.1.1",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-07-24T23:16:48.3876723-07:00",
+    "modelStartedAt":  "2026-07-24T23:16:48.9970636-07:00",
+    "modelCompletedAt":  "2026-07-24T23:18:36.5910430-07:00",
+    "completedAt":  "2026-07-24T23:18:36.6165510-07:00",
+    "runnerDurationMs":  108229,
+    "modelDurationMs":  107594,
+    "tokenUsage":  {
+                       "total":  34977,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "6",
+                                    "8",
+                                    "9",
+                                    "10",
+                                    "12",
+                                    "13",
+                                    "14"
+                                ],
+    "logPath":  "research/m28-12/seattle/works/a-country-home/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "8c08c30f9d915a8942ed605287f7993a6514742c8f895b427876a6ffabb3fda2"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/research-batch-01/a-country-home-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "306bb957fa527c2e1b7e5466fa6678e1dc61ceeffb8a3960202b1484575918e9"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/works/a-country-home/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "5f2f74f846fc35b1e8db137fff42b82334cd334f446ab3cb1bb07bac82704709"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "df8e7b1a7c3f961e165e98708c40c58018960ff255ea76d48d50175280484e41",
+                        "bytes":  11149
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "ce2b1363dc2d1e0c659871ff83f4bee80432ba5a2803036fbb9590fca36b5f8a",
+                        "bytes":  530
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "1a93ebb0e35dc081ae20e57521364d1c3c3f86d7ed6cd17c54d6166fbe2d3756",
+                        "bytes":  3861
+                    }
+                ]
+}

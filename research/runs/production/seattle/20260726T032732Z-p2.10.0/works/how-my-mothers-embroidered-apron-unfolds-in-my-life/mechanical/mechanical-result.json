@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.7.2",
+  "runId": "m28-12-v2.7.2-seattle-author-how-my-mothers-embroidered-apron-unfolds-in-my-life-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-25T06:24:43.963Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_availability_from_locked_work_context",
+    "derived_imagePolicy_from_locked_work_context"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "9ea51939f923066bbe151871772ff61c97818e262d840accd8548d0276f64b42",
+      "bytes": 10026
+    },
+    {
+      "path": "card.txt",
+      "sha256": "b45d6bc593437afd97445eddaca20df34514b4357b287ca3d6909476f8d6444f",
+      "bytes": 532
+    },
+    {
+      "path": "draft.md",
+      "sha256": "208c8ed06dae358839256acf6a4d48b2e24cbdb36e74a1226ddbed5208184fc5",
+      "bytes": 5128
+    }
+  ]
+}

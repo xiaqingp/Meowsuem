@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "modelCalls": 0,
+  "previousFailure": "verifier false positive",
+  "rules": {
+    "card": "first non-empty paragraph under ## 一分钟看懂",
+    "draft": "byte-for-byte copy of output/article.md",
+    "displayMetadata": "deterministic mapping from input/locked-metadata.json",
+    "sources": "validated structural copy of output/sources.json"
+  },
+  "outputHashes": {
+    "card.txt": "ed72dd6c8dfed10fd46302fe8e23ba260281f865ef4d0c26e68a1daa2ca93afd",
+    "draft.md": "04c11bfd663290a2c4aaa8ec725041c03a4b173dae11091be52f34db31825500",
+    "display-metadata.json": "77ee662791a088c136cb407bd9d956282bb3b24ffdf1f1d29d64df7a0a40321f",
+    "sources.json": "601f5e9ff7e6e95953fb1850ef11011c655a575342a8d1bfcb377f379a067516"
+  }
+}

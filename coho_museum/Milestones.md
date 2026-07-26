@@ -1,11 +1,30 @@
 # Meowseum 当前里程碑
 
-> Current: M28（项目权威与可复现 pipeline）  
-> Active amendment: M28.5（作者输入成本与 pipeline 变更控制）  
-> Paused: M26（除地中美术馆外的十四馆整馆重生）  
+> Current: M30（Luna High 单件 One-shot）
+> Active amendment: M28.5（作者输入成本与 pipeline 变更控制）
+> Paused: M26（除地中美术馆外的十四馆整馆重生）
 > Awaiting owner acceptance: M27（Frye Art Museum）
 
 完整的 M1–M28.1 历史、逐次 checkpoint 和测试数字保存在 `coho_museum/archive/Milestones-M1-M28.1-full.md`。本文件只保存当前执行范围。
+
+## M30：Luna High 单件 One-shot Search & Write
+
+Status: Complete — Pipeline 2.10.0 frozen 2026-07-26
+
+Scope：
+
+- 新单件正文固定使用 Luna High，一次自主搜索并直接输出 article 与 sources；无 Sol/Terra fallback、无默认 reviewer。
+- Research Card 只保留馆级 selection、rating、structure 用途，不再进入单件写作；取消新路径中的 Writing Plan、claim ledger、story beats、valueType、mustNotAssume 和模型 display metadata。
+- 通用 verifier 分开检查 direct quote、strong factual claim 与 artist intent，只让结构化 errors 阻塞；普通引号和否定式最高级不误报。
+- 程序确定性生成 card、draft、display metadata 与 integration sources；assembler 同时兼容新 one-shot bundle 和历史 author bundle。
+- 不重跑模型，重新验证既有 Luna v3《海变》并通过 canonical atomic publish 替换该件，Seattle 其他内容、评分和路线保持不变。
+
+Completion gate：
+
+- One-shot 正反夹具、历史 v2/v3 夹具、filesystem、authority、causality、assembler、publisher 与内容门通过。
+- Luna v3 原 article / sources 哈希不变，原失败记录保留，并新增 `previousFailure: verifier false positive` 的复验记录。
+- Production diff 仅包含《海变》卡片、正文与必要更新时间／缓存引用；其他 19 件、评分和路线无漂移。
+- Pipeline 2.10.0 frozen。
 
 ## M29：Research 目录重构与文件系统契约
 

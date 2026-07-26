@@ -1,0 +1,66 @@
+{
+    "runId":  "m28-12-v2.7.2-seattle-author-barcelona-2026-07-24",
+    "stage":  "author",
+    "museumId":  "seattle",
+    "workId":  "barcelona",
+    "pipelineVersion":  "2.7.2",
+    "instructionVersion":  "2.1.1",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-07-24T23:16:48.3587501-07:00",
+    "modelStartedAt":  "2026-07-24T23:16:48.9707864-07:00",
+    "modelCompletedAt":  "2026-07-24T23:18:34.5098253-07:00",
+    "completedAt":  "2026-07-24T23:18:34.5348827-07:00",
+    "runnerDurationMs":  106176,
+    "modelDurationMs":  105539,
+    "tokenUsage":  {
+                       "total":  36106,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "6",
+                                    "8",
+                                    "9",
+                                    "10",
+                                    "12",
+                                    "13",
+                                    "14"
+                                ],
+    "logPath":  "research/m28-12/seattle/works/barcelona/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "8c08c30f9d915a8942ed605287f7993a6514742c8f895b427876a6ffabb3fda2"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/research-batch-01/barcelona-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "bde22e647c3074a86d7b57fb5b970d0b005482d04ee685dd45b89f8c133e152b"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/works/barcelona/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "92f26d612849aec94515a2b28902169cb28a24e74a8b2aa41e241e50a4999fd3"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "76c67b8a2c3150d42bc50aefb6b382536f5d268e692ba300369a3da9aac026b6",
+                        "bytes":  7432
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "630cae3f86f889bc34056fbeb77248c88cc43df0538ddf7755c3d193ac4fc0fc",
+                        "bytes":  406
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "fc7cae0ffffae888053a7f916b352c97b09b7304218656614ead3b687d4861be",
+                        "bytes":  4387
+                    }
+                ]
+}

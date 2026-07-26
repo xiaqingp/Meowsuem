@@ -1,0 +1,66 @@
+{
+    "runId":  "m28-12-v2.7.2-seattle-author-reliquary-casket-2026-07-24",
+    "stage":  "author",
+    "museumId":  "seattle",
+    "workId":  "reliquary-casket",
+    "pipelineVersion":  "2.7.2",
+    "instructionVersion":  "2.1.1",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-07-24T23:18:34.8437334-07:00",
+    "modelStartedAt":  "2026-07-24T23:18:35.1608271-07:00",
+    "modelCompletedAt":  "2026-07-24T23:19:59.8267735-07:00",
+    "completedAt":  "2026-07-24T23:19:59.8463046-07:00",
+    "runnerDurationMs":  85003,
+    "modelDurationMs":  84666,
+    "tokenUsage":  {
+                       "total":  20015,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "6",
+                                    "8",
+                                    "9",
+                                    "10",
+                                    "12",
+                                    "13",
+                                    "14"
+                                ],
+    "logPath":  "research/m28-12/seattle/works/reliquary-casket/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "8c08c30f9d915a8942ed605287f7993a6514742c8f895b427876a6ffabb3fda2"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/research-batch-02/reliquary-casket-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "2a4d4a08d29a9942cf3c48d0dc0aa97cd78b8af9c326d5d30169dc3058906249"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/works/reliquary-casket/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "7b0edca815610187333d0ec0ae8bde38accb170cb720ff0cc28d79ddbc81c8a2"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "9e3189b8c047c44b7a97f896dc776b84e5acbb48c235c9cc3bddaf9a5940ab17",
+                        "bytes":  8556
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "4652dacc3a55424809384b952d9d910a5bebf2127d5d954a838c3f100fc0477e",
+                        "bytes":  544
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "a814f1ae015ae80b3cdbeb0afb0c879beaa13c1a5739ab07369b76575b3c07f9",
+                        "bytes":  3707
+                    }
+                ]
+}

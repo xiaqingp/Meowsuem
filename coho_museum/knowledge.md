@@ -34,13 +34,13 @@
 - 每馆完成报告：`node scripts/report-museum-generation.mjs --kind=production --museum=<museum-id> --run-id=<run-id>`；报告固定写入该 run 的 `reports/`。
 - 候选正式门与发布都使用 `kind + museum + run-id`；candidate 固定为该 run 的 `candidate/`，调用者不得另选目录。相同候选重跑必须为零改动。
 - 模型和 reasoning effort 读取当前 release / run header，不靠 CLI 默认值。
-- 研究最多 10 件一批；每件作品独立生成 `writing-plan.json`、`card.txt`、`draft.md`。
-- 作者输入合同：`content_instruction + research_card + work_context + optional research_supplement`；每类最多一份，总计不得超过 manifest 字节预算。
-- `work_context` 只包含当前作品选择字段；整馆计划、pipeline 全文、预处理 / 哈希记录和其他作品不得进入作者 prompt。
+- 馆级 Research Card 最多 10 件一批，只供 selection、rating 与 structure；新单件写作不读取它。
+- 每件作品由 Luna High one-shot 自主搜索并只输出 article 与 sources；输入只有 canonical prompt、locked metadata 和已验证图片。
+- 程序确定性生成 card、draft 与 display metadata；单件 verifier 只阻塞身份、结构、来源风险与 production 安全。
 - Pipeline release 只能由 manifest 指向的 owner-approved change record 冻结；越过授权 canonical 文件范围会失败；已冻结版本不可覆盖。
 - reviewer 默认状态读取 manifest。
 - 机械层输出提示、确定性修复和 blocker；不自动调用模型返工。
-- 阶段模型路由：Scope 与无风险 standard research 使用 Terra medium；候选、复杂 research、评分、结构和作者使用 Sol medium。
+- 阶段模型路由：Scope 与无风险 standard research 使用 Terra medium；候选、复杂 research、评分和结构使用 Sol medium；单件正文使用 Luna high。
 - 内容母指令按 manifest 机械生成阶段视图；pipeline、manifest、PRD 和管理文件不进入模型。研究 candidate packet 必须先锁定官方身份锚点与风险，不能混合 standard / complex。
 - 研究卡保留完整证据并输出 `[Rnn]` 与下游 evidence block；评分、结构默认只读紧凑索引。研究并发上限 4，作者并发上限 10，作者任务仍逐件隔离。
 

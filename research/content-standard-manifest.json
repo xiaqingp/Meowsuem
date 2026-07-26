@@ -23,12 +23,19 @@
   "canonicalRunCreator": "scripts/create-generation-run.mjs",
   "canonicalRunValidator": "scripts/validate-run-directory.mjs",
   "canonicalFilesystemMigration": "scripts/migrate-filesystem-contract-v1.mjs",
-  "pipelineVersion": "2.9.3",
-  "currentVersion": "2.2.0",
-  "currentRelease": "research/pipeline/releases/v2.9.3.json",
-  "activePipelineChange": "research/pipeline/changes/PCR-2026-07-25-filesystem-contract-v1-authority-self-scan.json",
+  "canonicalOneShotRunner": "scripts/run-one-shot-work.mjs",
+  "canonicalOneShotVerifier": "scripts/verify-one-shot-work.mjs",
+  "canonicalOneShotAdapter": "scripts/adapt-one-shot-work.mjs",
+  "canonicalOneShotPrompt": "research/pipeline/prompts/single-work-one-shot.md",
+  "canonicalOneShotLockedMetadataSchema": "scripts/schemas/one-shot-locked-metadata.schema.json",
+  "canonicalOneShotSourcesSchema": "scripts/schemas/one-shot-sources.schema.json",
+  "canonicalOneShotVerifierResultSchema": "scripts/schemas/one-shot-verifier-result.schema.json",
+  "pipelineVersion": "2.10.0",
+  "currentVersion": "2.3.0",
+  "currentRelease": "research/pipeline/releases/v2.10.0.json",
+  "activePipelineChange": "research/pipeline/changes/PCR-2026-07-25-luna-high-one-shot-single-work.json",
   "releaseStatus": "active",
-  "activeMilestone": "M29",
+  "activeMilestone": "M30",
   "filesystemContract": {
     "version": 1,
     "activeContentRoot": "research/content",
@@ -57,10 +64,11 @@
   },
   "reviewerMode": "disabled",
   "causalityStages": [
-    "verified_image_evidence",
-    "research_card",
-    "author_bundle",
-    "mechanical_processed"
+    "locked_identity_and_metadata",
+    "one_shot_search_and_write",
+    "risk_verification",
+    "deterministic_integration",
+    "integration_ready"
   ],
   "museumRatingStages": [
     "museum_selection",
@@ -83,11 +91,13 @@
     "imageResolverReasoningEffort": "medium",
     "futureMuseumContractVersion": 1,
     "researchBatchConcurrency": 4,
-    "authorConcurrency": 10,
-    "authorBundleOutputs": [
-      "writing-plan.json",
-      "card.txt",
-      "draft.md"
+    "singleWorkConcurrency": 10,
+    "singleWorkModel": "gpt-5.6-luna",
+    "singleWorkReasoningEffort": "high",
+    "singleWorkFallback": "disabled",
+    "singleWorkOutputs": [
+      "article.md",
+      "sources.json"
     ]
   },
   "modelRouting": {
@@ -121,7 +131,14 @@
       "model": "gpt-5.6-sol",
       "reasoningEffort": "medium"
     },
+    "single_work": {
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high",
+      "fallback": null,
+      "reviewer": "disabled"
+    },
     "author": {
+      "status": "legacy_only",
       "model": "gpt-5.6-sol",
       "reasoningEffort": "medium"
     }
@@ -197,6 +214,7 @@
     },
     "author": {
       "version": 2,
+      "status": "legacy_only",
       "requiredRoles": [
         "content_instruction",
         "research_card",
@@ -212,6 +230,28 @@
         "research_supplement": 1
       },
       "maxTotalBytes": 90000
+    },
+    "singleWork": {
+      "version": 1,
+      "requiredRoles": [
+        "locked_metadata",
+        "verified_image"
+      ],
+      "forbiddenRoles": [
+        "research_card",
+        "writing_plan",
+        "old_card",
+        "old_draft",
+        "old_article",
+        "claim_ledger",
+        "reviewer_output"
+      ],
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high",
+      "outputs": [
+        "article.md",
+        "sources.json"
+      ]
     },
     "research": {
       "version": 1,
@@ -252,7 +292,7 @@
         "museum_structure",
         "museum_rating",
         "museum_selection",
-        "author_bundles",
+        "one_shot_integrations_or_legacy_author_bundles",
         "verified_assets"
       ],
       "modelCalls": "zero_during_assembly",
@@ -289,7 +329,7 @@
     ],
     "museumSpecificBuilderAllowed": false
   },
-  "updatedAt": "2026-07-25",
+  "updatedAt": "2026-07-26",
   "globalMigration": {
     "targetVersion": "1.8.1",
     "status": "pending_all_published_museums_native_chinese_and_core_history_audit",
@@ -617,23 +657,23 @@
     },
     "seattle": {
       "contentFile": "research/content/seattle.md",
-      "origin": "full_isolated_generation_under_pipeline_2.7.2_with_verified_image_evidence_regenerated_under_2.8.0",
-      "targetVersion": "2.2.0",
+      "origin": "full_isolated_generation_under_pipeline_2.7.2_with_verified_image_evidence_regenerated_under_2.8.0; sea-change replaced by accepted Luna High one-shot under pipeline 2.10.0",
+      "targetVersion": "2.3.0",
       "ratingCalibration": "passed_2026-07-24_score_75_anchor_73_75",
       "status": "compliant",
       "declaredCapacity": 20,
       "capacityCompatibilityAudit": "passed_2026-07-24_downtown_only_20",
       "structuralGate": "passed_2026-07-24_20_of_20",
       "humanVoiceAudit": "pipeline_author_contract_passed_reviewer_disabled",
-      "factAndComparisonAudit": "research_cards_and_claim_ledgers_present_20_of_20",
-      "auditRecord": "research/runs/production/seattle/m28-12-seattle/candidate/finalization-report.json",
+      "factAndComparisonAudit": "19 legacy research-card bundles plus sea-change structured sources and risk verifier passed",
+      "auditRecord": "research/runs/production/seattle/20260726T032732Z-p2.10.0/reports/finalization-report.json",
       "contentGate": "passed_2026-07-24_20_of_20",
       "siteBoundaryGate": "passed_2026-07-24_downtown_only",
-      "browserGate": "passed_2026-07-25_8094_20_of_20_unique_local_work_images_loaded_zero_placeholders_and_four_deep_links",
+      "browserGate": "passed_2026-07-26_8094_sea_change_overview_half_route_and_legacy_work_zero_console_errors",
       "assetResolverGate": "passed_2026-07-25_v4_browser_official_object_identity_20_of_20_zero_model_zero_legacy_inputs",
-      "generationReport": "research/runs/production/seattle/m28-12-seattle/generation-report.json",
+      "generationReport": "research/runs/production/seattle/20260726T032732Z-p2.10.0/reports/finalization-report.json",
       "publishedDataFile": "seattle.js",
-      "publishedAt": "2026-07-25"
+      "publishedAt": "2026-07-26"
     },
     "glyptotek": {
       "contentFile": "research/content/glyptotek.md",
@@ -701,10 +741,12 @@
     }
   },
   "validation": {
-    "status": "m29_filesystem_contract_completed",
+    "status": "m30_luna_high_one_shot_completed",
     "filesystemContractGate": "passed",
     "authorityGate": "passed",
     "causalityGate": "passed",
+    "oneShotGate": "passed",
+    "oneShotRecord": "research/pipeline/tests/one-shot-work-v1/result.json",
     "significanceEvidenceGate": "passed_with_preexisting_significance_baseline",
     "significanceBaselineRecord": "research/pipeline/tests/filesystem-contract-v1/result.json",
     "causalityFixture": "passed_valid_accepted_backfill_rejected",
@@ -719,6 +761,14 @@
     "filesystemContract": {
       "status": "passed",
       "record": "research/pipeline/tests/filesystem-contract-v1/result.json"
+    },
+    "oneShotWork": {
+      "status": "passed",
+      "record": "research/pipeline/tests/one-shot-work-v1/result.json",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high",
+      "fallback": null,
+      "reviewer": "disabled"
     },
     "significanceEvidence": {
       "status": "passed_with_preexisting_significance_baseline",

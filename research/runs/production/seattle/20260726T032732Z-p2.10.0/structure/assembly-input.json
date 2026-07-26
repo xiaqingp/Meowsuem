@@ -1,0 +1,460 @@
+{
+  "schemaVersion": 1,
+  "proseTransforms": {
+    "removeLegacyDetailHeading": false
+  },
+  "metadataFields": {
+    "includeMaterial": true
+  },
+  "museum": {
+    "id": "seattle",
+    "editorialCapacity": 20,
+    "city": "西雅图 · 美国",
+    "zh": "西雅图艺术博物馆",
+    "en": "Seattle Art Museum",
+    "verdict": "",
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Albert_Bierstadt_-_Puget_Sound_on_the_Pacific_Coast_%281870%29.jpg/1920px-Albert_Bierstadt_-_Puget_Sound_on_the_Pacific_Coast_%281870%29.jpg",
+    "contentFile": "research/content/seattle.md",
+    "official": "https://www.seattleartmuseum.org/art-and-artists/sams-collection",
+    "visit": "https://www.seattleartmuseum.org/visit",
+    "cardCopyContract": "independent-v1",
+    "contentUpdatedAt": "2026-07-26",
+    "intro": [
+      "这家馆最值得看的不是一条从古代到现代的完整名作年表，而是同一栋主馆如何让绘画、纺织、书写与器物重新接回它们曾经参与的身体动作、社会制度和收藏过程。"
+    ],
+    "routes": {
+      "90": {
+        "title": "90 分钟｜只看决定 75 分判断的节点",
+        "note": "入馆先核对当日展厅；按现场可见项依次完成，缺一件就转到下一件，不为状态未知作品折返。",
+        "workIds": [
+          "sea-change",
+          "double-elvis",
+          "naaxein",
+          "cylinder-vase-depicting-scribes-in-the-underworld",
+          "belt-mask-of-iyoba-idia",
+          "salt-cellar",
+          "dr-silvester-gardiner",
+          "still-life-with-strawberries-and-ostrich-egg-cup"
+        ]
+      },
+      "half": {
+        "title": "半天｜看懂主馆为何是跨文化综合馆",
+        "note": "先看现代艺术的制作过程，再看美国艺术的身份与物质文化，休息后进入西北海岸、古代美洲、非洲与地中海器物；以实际开放展厅调整同组顺序。",
+        "workIds": [
+          "sea-change",
+          "double-elvis",
+          "how-my-mothers-embroidered-apron-unfolds-in-my-life",
+          "barcelona",
+          "dr-silvester-gardiner",
+          "still-life-with-strawberries-and-ostrich-egg-cup",
+          "a-country-home",
+          "narragansett-bay",
+          "naaxein",
+          "swan-rattle",
+          "cylinder-vase-depicting-scribes-in-the-underworld",
+          "belt-mask-of-iyoba-idia",
+          "salt-cellar",
+          "funerary-portrait",
+          "posthumous-portrait-head-of-the-emperor-claudius"
+        ]
+      },
+      "all": {
+        "title": "完整浏览｜20 件内容库，建议分两次核验式参观",
+        "note": "第一次以市中心主馆当日可见的 17 件为范围；第二次只在状态改变后补看缺席项。完整路线是编辑覆盖，不承诺 20 件能在同一天、同一馆址兑现。",
+        "workIds": [
+          "sea-change",
+          "double-elvis",
+          "how-my-mothers-embroidered-apron-unfolds-in-my-life",
+          "barcelona",
+          "dr-silvester-gardiner",
+          "still-life-with-strawberries-and-ostrich-egg-cup",
+          "a-country-home",
+          "narragansett-bay",
+          "naaxein",
+          "four-cornered-hat-with-birds",
+          "swan-rattle",
+          "cylinder-vase-depicting-scribes-in-the-underworld",
+          "canoe-prow-figure-nguzu-nguzu",
+          "funerary-portrait",
+          "posthumous-portrait-head-of-the-emperor-claudius",
+          "belt-mask-of-iyoba-idia",
+          "salt-cellar"
+        ]
+      }
+    }
+  },
+  "chapters": [
+    {
+      "id": "making-visible",
+      "number": "01",
+      "title": "一张画怎样把“创作发生过什么”留在表面？",
+      "intro": "从波洛克保留又遮蔽的两阶段画层开始，经沃霍尔由 SAM 委托加入的空白板，再到戈尔基拒绝把题名画成插图、皮卡比亚让文字和图像互相干扰，观看重点从辨认题材转向理解作品怎样形成。"
+    },
+    {
+      "id": "status-in-america",
+      "number": "02",
+      "title": "美国图像如何制造身份，又怎样被历史改写？",
+      "intro": "Copley 的服饰与家具建构殖民精英身份，作品来源史却穿过革命时期的财产重分配；Peale 用跨地区器物和家族农场草莓保存物质世界；Church 与 Kensett 则以两种不同的大气和事件密度处理十九世纪美国景观。"
+    },
+    {
+      "id": "body-and-ceremony",
+      "number": "03",
+      "title": "展柜里的静物，原来怎样被身体启动？",
+      "intro": "Naaxein 的织造、身份权利和舞动不可分开；鸟纹四角帽需要和整套 Wari 装束一起理解；天鹅响器的雕刻意义还包括声音、持握与仪式，但其具体用途和双重文化著录必须保留边界。"
+    },
+    {
+      "id": "objects-in-action",
+      "number": "04",
+      "title": "杯、舟艏像与圣物匣，为什么不能只看正面？",
+      "intro": "玛雅圆筒杯要随器身转动，文字、饮用与冥界图像才会相遇；Nguzu Nguzu 必须接回水线、船体与乘员；中世纪圣物匣则用鎏金铜和珐琅把不可见的圣物转为可展示的崇敬对象。"
+    },
+    {
+      "id": "power-afterlife",
+      "number": "05",
+      "title": "一张脸在死后替谁工作？",
+      "intro": "罗马埃及木板肖像原属木乃伊系统；克劳狄乌斯头像通过可复制、可嵌装的帝王形象延续神化统治者；伊迪娅腰饰面具既进入 Oba 仪式，也留下 1897 年王宫掠夺的精确来源链。"
+    },
+    {
+      "id": "crossing-systems",
+      "number": "06",
+      "title": "跨越地区之后，谁仍在决定作品的意义？",
+      "intro": "Sapi 象牙盐罐说明欧洲委托不等于欧洲制造；《蓝色古兰经》书叶把熟悉经文的诵读与金字蓝底排版结合，却也是分散父手稿的一页；Lin Onus 则把同一水潭的时间观察与 clan 身体彩绘图案置于同一水面。"
+    }
+  ],
+  "routes": {
+    "90": {
+      "title": "90 分钟｜只看决定 75 分判断的节点",
+      "note": "入馆先核对当日展厅；按现场可见项依次完成，缺一件就转到下一件，不为状态未知作品折返。",
+      "workIds": [
+        "sea-change",
+        "double-elvis",
+        "naaxein",
+        "cylinder-vase-depicting-scribes-in-the-underworld",
+        "belt-mask-of-iyoba-idia",
+        "salt-cellar",
+        "dr-silvester-gardiner",
+        "still-life-with-strawberries-and-ostrich-egg-cup"
+      ]
+    },
+    "half": {
+      "title": "半天｜看懂主馆为何是跨文化综合馆",
+      "note": "先看现代艺术的制作过程，再看美国艺术的身份与物质文化，休息后进入西北海岸、古代美洲、非洲与地中海器物；以实际开放展厅调整同组顺序。",
+      "workIds": [
+        "sea-change",
+        "double-elvis",
+        "how-my-mothers-embroidered-apron-unfolds-in-my-life",
+        "barcelona",
+        "dr-silvester-gardiner",
+        "still-life-with-strawberries-and-ostrich-egg-cup",
+        "a-country-home",
+        "narragansett-bay",
+        "naaxein",
+        "swan-rattle",
+        "cylinder-vase-depicting-scribes-in-the-underworld",
+        "belt-mask-of-iyoba-idia",
+        "salt-cellar",
+        "funerary-portrait",
+        "posthumous-portrait-head-of-the-emperor-claudius"
+      ]
+    },
+    "all": {
+      "title": "完整浏览｜20 件内容库，建议分两次核验式参观",
+      "note": "第一次以市中心主馆当日可见的 17 件为范围；第二次只在状态改变后补看缺席项。完整路线是编辑覆盖，不承诺 20 件能在同一天、同一馆址兑现。",
+      "workIds": [
+        "sea-change",
+        "double-elvis",
+        "how-my-mothers-embroidered-apron-unfolds-in-my-life",
+        "barcelona",
+        "dr-silvester-gardiner",
+        "still-life-with-strawberries-and-ostrich-egg-cup",
+        "a-country-home",
+        "narragansett-bay",
+        "naaxein",
+        "four-cornered-hat-with-birds",
+        "swan-rattle",
+        "cylinder-vase-depicting-scribes-in-the-underworld",
+        "canoe-prow-figure-nguzu-nguzu",
+        "funerary-portrait",
+        "posthumous-portrait-head-of-the-emperor-claudius",
+        "belt-mask-of-iyoba-idia",
+        "salt-cellar"
+      ]
+    }
+  },
+  "rating": {
+    "score": 75,
+    "scoreBand": "70–79 · 可去可不去",
+    "shortAction": "可去可不去",
+    "travelAction": "如果行程已到西雅图、愿意用半天看跨文化馆藏，值得安排；不建议仅凭本馆专程改变城市或跨城行程。",
+    "scoreReason": "20 件候选覆盖现代绘画、美国艺术、西北海岸原住民艺术、非洲与大洋洲器物、古代美洲及地中海艺术。《海变》保存波洛克由画架作业转向地面滴洒的两阶段技术证据，《双重猫王》的 1976 年空白面板把 SAM 的委托行为纳入作品结构；Naaxein、伊迪娅腰饰面具、玛雅圆筒杯与 Sapi 象牙盐罐又提供材料、仪式、文字和跨洲交换等不同观看问题。可是全部候选都有能够解释其核心价值的近似对象，或缺少对象级决定性差异证据，没有一件通过稀世珍品不可替代性硬门，因此基础档位只能是 70—79。",
+    "withinBandReason": "落在 73—75 锚点的上沿：16 件重要藏品与 4 件特色看点足以组成完整半日路线，现代艺术、美国艺术和跨文化器物三条方向均有明确节点，整体高于亮点零散的 70—72；但馆藏强项尚未形成足以改变城市行程的珍品核心，多件重要作品处于轮换、既往展出或状态未知，Blue Qur'an 书叶并非市中心主馆确定展品，《风暴将至》正在外借，《圣物匣》明确不在展，现场兑现率限制它进入 76—77，更不能跨入 80 档。",
+    "rareAssets": [],
+    "independentRareLines": [],
+    "worldDominantConcentration": false,
+    "worldDominantConcentrationEvidence": [],
+    "dedicatedTrip": false,
+    "calibratedAgainst": [
+      "glyptotek",
+      "louvre",
+      "met",
+      "muxin",
+      "seattle"
+    ],
+    "sources": [
+      "https://www.seattleartmuseum.org/info/contact",
+      "https://www.seattleartmuseum.org/",
+      "https://www.seattleartmuseum.org/art-and-artists/sams-collection",
+      "https://art.seattleartmuseum.org/collections"
+    ]
+  },
+  "works": [
+    {
+      "id": "sea-change",
+      "ch": "making-visible",
+      "significance": "重要藏品",
+      "availabilityTag": "当前展出状态未知，到馆核验",
+      "image": "./assets/museums/seattle/sea-change.jpg",
+      "imageSource": "https://art.seattleartmuseum.org/internal/media/dispatcher/76355/preview",
+      "imageCaption": "《海变》，杰克逊·波洛克（Jackson Pollock），1947年（创作横跨1946—1947年）。",
+      "imageKind": "work",
+      "source": "https://art.seattleartmuseum.org/objects/2742/sea-change",
+      "localAssetSource": "research/runs/production/seattle/20260726T032732Z-p2.10.0/image-evidence/assets/sea-change.jpg"
+    },
+    {
+      "id": "double-elvis",
+      "ch": "making-visible",
+      "significance": "重要藏品",
+      "availabilityTag": "馆方列入持续展览，但当天位置仍需核验",
+      "image": "./assets/museums/seattle/double-elvis.jpg",
+      "imageSource": "https://art.seattleartmuseum.org/internal/media/dispatcher/29806/preview",
+      "imageCaption": "《双重猫王》，安迪·沃霍尔（Andy Warhol），1963／1976（两个面板分别制作）。",
+      "imageKind": "work",
+      "source": "https://art.seattleartmuseum.org/objects/3307/double-elvis",
+      "localAssetSource": "research/runs/production/seattle/20260726T032732Z-p2.10.0/image-evidence/assets/double-elvis.jpg"
+    },
+    {
+      "id": "how-my-mothers-embroidered-apron-unfolds-in-my-life",
+      "ch": "making-visible",
+      "significance": "重要藏品",
+      "availabilityTag": "当前展出状态未知",
+      "image": "./assets/museums/seattle/how-my-mothers-embroidered-apron-unfolds-in-my-life.jpg",
+      "imageSource": "https://art.seattleartmuseum.org/internal/media/dispatcher/95371/preview",
+      "imageCaption": "《母亲的刺绣围裙如何在我的生命中展开》，Arshile Gorky（阿希尔·戈尔基），1944。",
+      "imageKind": "work",
+      "source": "https://art.seattleartmuseum.org/objects/5816/how-my-mothers-embroidered-apron-unfolds-in-my-life",
+      "localAssetSource": "research/runs/production/seattle/20260726T032732Z-p2.10.0/image-evidence/assets/how-my-mothers-embroidered-apron-unfolds-in-my-life.jpg"
+    },
+    {
+      "id": "barcelona",
+      "ch": "making-visible",
+      "significance": "重要藏品",
+      "availabilityTag": "当前展出状态未知",
+      "image": "./assets/museums/seattle/barcelona.jpg",
+      "imageSource": "https://art.seattleartmuseum.org/internal/media/dispatcher/42601/preview",
+      "imageCaption": "《巴塞罗那》，Francis Picabia（弗朗西斯·皮卡比亚），1924。",
+      "imageKind": "work",
+      "source": "https://art.seattleartmuseum.org/objects/14283/barcelona",
+      "localAssetSource": "research/runs/production/seattle/20260726T032732Z-p2.10.0/image-evidence/assets/barcelona.jpg"
+    },
+    {
+      "id": "dr-silvester-gardiner",
+      "ch": "status-in-america",
+      "significance": "重要藏品",
+      "availabilityTag": "馆方列入持续展览，但当天位置仍需核验",
+      "image": "./assets/museums/seattle/dr-silvester-gardiner.jpg",
+      "imageSource": "https://art.seattleartmuseum.org/internal/media/dispatcher/27736/preview",
+      "imageCaption": "西尔维斯特·加德纳医生，约翰·辛格尔顿·科普（John Singleton Copley），很可能为1772年。",
+      "imageKind": "work",
+      "source": "https://art.seattleartmuseum.org/objects/34531/dr-silvester-gardiner-17081786",
+      "localAssetSource": "research/runs/production/seattle/20260726T032732Z-p2.10.0/image-evidence/assets/dr-silvester-gardiner.jpg"
+    },
+    {
+      "id": "still-life-with-strawberries-and-ostrich-egg-cup",
+      "ch": "status-in-america",
+      "significance": "重要藏品",
+      "availabilityTag": "馆方列入持续展览，但当天位置仍需核验",
+      "image": "./assets/museums/seattle/still-life-with-strawberries-and-ostrich-egg-cup.jpg",
+      "imageSource": "https://art.seattleartmuseum.org/internal/media/dispatcher/58957/preview",
+      "imageCaption": "《草莓与鸵鸟蛋杯静物》，拉斐尔·皮尔（Raphaelle Peale），1814。",
+      "imageKind": "work",
+      "source": "https://art.seattleartmuseum.org/objects/8386/still-life-with-strawberries-and-ostrich-egg-cup",
+      "localAssetSource": "research/runs/production/seattle/20260726T032732Z-p2.10.0/image-evidence/assets/still-life-with-strawberries-and-ostrich-egg-cup.jpg"
+    },
+    {
+      "id": "a-country-home",
+      "ch": "status-in-america",
+      "significance": "重要藏品",
+      "availabilityTag": "馆方列入持续展览，但当天位置仍需核验",
+      "image": "./assets/museums/seattle/a-country-home.jpg",
+      "imageSource": "https://art.seattleartmuseum.org/internal/media/dispatcher/29491/preview",
+      "imageCaption": "《乡间之家》，Frederic Edwin Church（弗雷德里克·埃德温·丘奇），1854。",
+      "imageKind": "work",
+      "source": "https://art.seattleartmuseum.org/objects/12074/a-country-home",
+      "localAssetSource": "research/runs/production/seattle/20260726T032732Z-p2.10.0/image-evidence/assets/a-country-home.jpg"
+    },
+    {
+      "id": "narragansett-bay",
+      "ch": "status-in-america",
+      "significance": "重要藏品",
+      "availabilityTag": "馆方列入持续展览，但当天位置仍需核验",
+      "image": "./assets/museums/seattle/narragansett-bay.jpg",
+      "imageSource": "https://art.seattleartmuseum.org/internal/media/dispatcher/37767/preview",
+      "imageCaption": "《纳拉甘西特湾》，John Frederick Kensett（约翰·弗雷德里克·肯塞特），1861。",
+      "imageKind": "work",
+      "source": "https://art.seattleartmuseum.org/objects/28103/narragansett-bay",
+      "localAssetSource": "research/runs/production/seattle/20260726T032732Z-p2.10.0/image-evidence/assets/narragansett-bay.jpg"
+    },
+    {
+      "id": "naaxein",
+      "ch": "body-and-ceremony",
+      "significance": "重要藏品",
+      "availabilityTag": "当前展出状态未知",
+      "image": "./assets/museums/seattle/naaxein.jpg",
+      "imageSource": "https://art.seattleartmuseum.org/internal/media/dispatcher/49410/preview",
+      "imageCaption": "Naaxein，Tlingit，约 1880。",
+      "imageKind": "work",
+      "source": "https://art.seattleartmuseum.org/objects/13497/naaxein",
+      "localAssetSource": "research/runs/production/seattle/20260726T032732Z-p2.10.0/image-evidence/assets/naaxein.jpg"
+    },
+    {
+      "id": "four-cornered-hat-with-birds",
+      "ch": "body-and-ceremony",
+      "significance": "特色看点",
+      "availabilityTag": "当前展出状态未知",
+      "image": "./assets/museums/seattle/four-cornered-hat-with-birds.jpg",
+      "imageSource": "https://art.seattleartmuseum.org/internal/media/dispatcher/27700/preview",
+      "imageCaption": "鸟纹四角帽，Peruvian；Seattle Art Museum 进一步归为 Wari，约 500–800。",
+      "imageKind": "work",
+      "source": "https://art.seattleartmuseum.org/objects/21167/fourcornered-hat-with-birds",
+      "localAssetSource": "research/runs/production/seattle/20260726T032732Z-p2.10.0/image-evidence/assets/four-cornered-hat-with-birds.jpg"
+    },
+    {
+      "id": "swan-rattle",
+      "ch": "body-and-ceremony",
+      "significance": "特色看点",
+      "availabilityTag": "当前展出状态未知",
+      "image": "./assets/museums/seattle/swan-rattle.jpg",
+      "imageSource": "https://art.seattleartmuseum.org/internal/media/dispatcher/5408/preview",
+      "imageCaption": "天鹅响器，Tlingit／Tsimshian（馆方并列著录），19 世纪。",
+      "imageKind": "work",
+      "source": "https://art.seattleartmuseum.org/objects/12808/swan-rattle",
+      "localAssetSource": "research/runs/production/seattle/20260726T032732Z-p2.10.0/image-evidence/assets/swan-rattle.jpg"
+    },
+    {
+      "id": "cylinder-vase-depicting-scribes-in-the-underworld",
+      "ch": "objects-in-action",
+      "significance": "重要藏品",
+      "availabilityTag": "馆方列入持续展览，但当天位置仍需核验",
+      "image": "./assets/museums/seattle/cylinder-vase-depicting-scribes-in-the-underworld.jpg",
+      "imageSource": "https://art.seattleartmuseum.org/internal/media/dispatcher/28461/preview",
+      "imageCaption": "描绘冥界书吏的圆筒杯，Maya，约 600–900。",
+      "imageKind": "work",
+      "source": "https://art.seattleartmuseum.org/objects/10224/cylinder-vase-depicting-scribes-in-the-underworld",
+      "localAssetSource": "research/runs/production/seattle/20260726T032732Z-p2.10.0/image-evidence/assets/cylinder-vase-depicting-scribes-in-the-underworld.jpg"
+    },
+    {
+      "id": "canoe-prow-figure-nguzu-nguzu",
+      "ch": "objects-in-action",
+      "significance": "特色看点",
+      "availabilityTag": "当前展出状态未知",
+      "image": "./assets/museums/seattle/canoe-prow-figure-nguzu-nguzu.jpg",
+      "imageSource": "https://art.seattleartmuseum.org/internal/media/dispatcher/49637/preview",
+      "imageCaption": "独木舟艏像（Nguzu Nguzu），Melanesian；Solomon Islands，19 世纪末。",
+      "imageKind": "work",
+      "source": "https://art.seattleartmuseum.org/objects/5847/canoe-prow-figure-nguzu-nguzu",
+      "localAssetSource": "research/runs/production/seattle/20260726T032732Z-p2.10.0/image-evidence/assets/canoe-prow-figure-nguzu-nguzu.jpg"
+    },
+    {
+      "id": "reliquary-casket",
+      "ch": "objects-in-action",
+      "significance": "特色看点",
+      "availabilityTag": "明确不在展",
+      "image": "./assets/museums/seattle/reliquary-casket.jpg",
+      "imageSource": "https://art.seattleartmuseum.org/internal/media/dispatcher/3502/preview",
+      "imageCaption": "圣物匣，可能为法国制作，可能来自 Limoges，约 1200—1225。",
+      "imageKind": "work",
+      "source": "https://art.seattleartmuseum.org/objects/5988/reliquary-casket",
+      "localAssetSource": "research/runs/production/seattle/20260726T032732Z-p2.10.0/image-evidence/assets/reliquary-casket.jpg"
+    },
+    {
+      "id": "funerary-portrait",
+      "ch": "power-afterlife",
+      "significance": "重要藏品",
+      "availabilityTag": "当前展出状态未知",
+      "image": "./assets/museums/seattle/funerary-portrait.jpg",
+      "imageSource": "https://art.seattleartmuseum.org/internal/media/dispatcher/33979/preview",
+      "imageCaption": "丧葬肖像，Egyptian（罗马时期埃及语境），1–2 世纪。",
+      "imageKind": "work",
+      "source": "https://art.seattleartmuseum.org/objects/11852/funerary-portrait",
+      "localAssetSource": "research/runs/production/seattle/20260726T032732Z-p2.10.0/image-evidence/assets/funerary-portrait.jpg"
+    },
+    {
+      "id": "posthumous-portrait-head-of-the-emperor-claudius",
+      "ch": "power-afterlife",
+      "significance": "重要藏品",
+      "availabilityTag": "当前展出状态未知",
+      "image": "./assets/museums/seattle/posthumous-portrait-head-of-the-emperor-claudius.jpg",
+      "imageSource": "https://art.seattleartmuseum.org/internal/media/dispatcher/27631/preview",
+      "imageCaption": "克劳狄乌斯皇帝死后肖像头像，Roman，54–68 CE。",
+      "imageKind": "work",
+      "source": "https://art.seattleartmuseum.org/objects/9184/posthumous-portrait-head-of-the-emperor-claudius",
+      "localAssetSource": "research/runs/production/seattle/20260726T032732Z-p2.10.0/image-evidence/assets/posthumous-portrait-head-of-the-emperor-claudius.jpg"
+    },
+    {
+      "id": "belt-mask-of-iyoba-idia",
+      "ch": "power-afterlife",
+      "significance": "重要藏品",
+      "availabilityTag": "当前展出状态未知",
+      "image": "./assets/museums/seattle/belt-mask-of-iyoba-idia.jpg",
+      "imageSource": "https://art.seattleartmuseum.org/internal/media/dispatcher/27411/preview",
+      "imageCaption": "伊约巴（王母）伊迪娅腰饰面具，Benin Kingdom，Nigerian，约 1517–1550。",
+      "imageKind": "work",
+      "source": "https://art.seattleartmuseum.org/objects/8251/belt-mask-of-iyoba-mother-of-the-oba-idia",
+      "localAssetSource": "research/runs/production/seattle/20260726T032732Z-p2.10.0/image-evidence/assets/belt-mask-of-iyoba-idia.jpg"
+    },
+    {
+      "id": "salt-cellar",
+      "ch": "crossing-systems",
+      "significance": "重要藏品",
+      "availabilityTag": "馆方列入持续展览，但当天位置仍需核验",
+      "image": "./assets/museums/seattle/salt-cellar.jpg",
+      "imageSource": "https://art.seattleartmuseum.org/internal/media/dispatcher/48930/preview",
+      "imageCaption": "盐罐，Sapi，Sierra Leone，约 1490—1530。",
+      "imageKind": "work",
+      "source": "https://art.seattleartmuseum.org/objects/7058/salt-cellar",
+      "localAssetSource": "research/runs/production/seattle/20260726T032732Z-p2.10.0/image-evidence/assets/salt-cellar.jpg"
+    },
+    {
+      "id": "folio-from-the-dispersed-blue-quran",
+      "ch": "crossing-systems",
+      "significance": "重要藏品",
+      "availabilityTag": "当前未知；既往展出地为 Seattle Asian Art Museum，不能列作市中心主馆现场节点",
+      "image": "./assets/museums/seattle/folio-from-the-dispersed-blue-quran.jpg",
+      "imageSource": "https://art.seattleartmuseum.org/internal/media/dispatcher/130907/preview",
+      "imageCaption": "散佚《蓝色古兰经》书叶，North African，9 世纪；同手稿比较馆藏断为 9 世纪后半至 10 世纪中叶。",
+      "imageKind": "work",
+      "source": "https://art.seattleartmuseum.org/objects/5815/folio-from-the-dispersed-blue-quran",
+      "localAssetSource": "research/runs/production/seattle/20260726T032732Z-p2.10.0/image-evidence/assets/folio-from-the-dispersed-blue-quran.jpg"
+    },
+    {
+      "id": "gathering-storm",
+      "ch": "crossing-systems",
+      "significance": "重要藏品",
+      "availabilityTag": "截至 2026-07-24 正在 Nevada Museum of Art 借展，不在 SAM",
+      "image": "./assets/museums/seattle/gathering-storm.jpg",
+      "imageSource": "https://art.seattleartmuseum.org/internal/media/dispatcher/33890/preview",
+      "imageCaption": "风暴将至，Lin Onus，1993。",
+      "imageKind": "work",
+      "source": "https://art.seattleartmuseum.org/objects/33432/gathering-storm",
+      "localAssetSource": "research/runs/production/seattle/20260726T032732Z-p2.10.0/image-evidence/assets/gathering-storm.jpg"
+    }
+  ],
+  "publication": {
+    "dataFile": "seattle.js",
+    "cacheKey": "20260726-p2.10.0-seattle",
+    "cachePages": [
+      "index.html",
+      "museum.html"
+    ]
+  }
+}

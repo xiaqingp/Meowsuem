@@ -19,7 +19,11 @@ const approvedNonProseWriters = new Set([
   "migrate-filesystem-contract-v1.mjs",
   "test-image-disambiguation-contract.mjs",
   "prepare-museum-stage-inputs.mjs",
-  "finalize-museum.mjs"
+  "finalize-museum.mjs",
+  "run-one-shot-work.mjs",
+  "verify-one-shot-work.mjs",
+  "adapt-one-shot-work.mjs",
+  "prepare-one-shot-work-patch.mjs"
 ]);
 const failures = [];
 

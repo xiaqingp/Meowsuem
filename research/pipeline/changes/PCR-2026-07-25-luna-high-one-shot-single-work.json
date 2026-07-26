@@ -1,0 +1,74 @@
+{
+  "id": "PCR-2026-07-25-luna-high-one-shot-single-work",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-25",
+  "ownerInstruction": "Finalize Luna High One-shot Search & Write as the canonical single-work pipeline, redesign the verifier to block only real risks, and publish the already-generated Luna v3 Sea Change article without another model call.",
+  "baseRelease": "research/pipeline/releases/v2.9.3.json",
+  "targetVersion": "2.10.0",
+  "implementationStatus": "completed",
+  "scope": [
+    "canonical Luna High single-work search and write",
+    "locked metadata and two-file model output contract",
+    "deterministic integration adapter",
+    "generic risk-based one-shot verifier",
+    "assembler compatibility with one-shot integration bundles",
+    "Sea Change Luna v3 deterministic re-verification and publication",
+    "pipeline documentation, regression tests and release freeze"
+  ],
+  "outOfScope": [
+    "changing museum-level candidate research, selection, rating, structure or routes",
+    "regenerating any model content",
+    "rewriting the existing Luna v3 Sea Change article",
+    "changing Seattle score, selection, routes or other works",
+    "migrating or deleting historical runs"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "research/meowseum-content-instruction.md",
+    "research/pipeline/prompts/single-work-one-shot.md",
+    "scripts/run-one-shot-work.mjs",
+    "scripts/verify-one-shot-work.mjs",
+    "scripts/adapt-one-shot-work.mjs",
+    "scripts/schemas/one-shot-locked-metadata.schema.json",
+    "scripts/schemas/one-shot-sources.schema.json",
+    "scripts/schemas/one-shot-verifier-result.schema.json",
+    "scripts/assemble-museum-candidate.mjs",
+    "scripts/verify-release-candidate.mjs",
+    "scripts/verify-content-pipeline.mjs",
+    "scripts/verify-future-museum-contract.mjs",
+    "scripts/freeze-pipeline-release.mjs",
+    "scripts/migrate-filesystem-contract-v1.mjs"
+  ],
+  "allowedManagementFiles": [
+    "research/content-standard-manifest.json",
+    "research/README.md",
+    "coho_museum/TechDesign.md",
+    "coho_museum/Milestones.md",
+    "coho_museum/knowledge.md",
+    "scripts/test-one-shot-work.mjs",
+    "scripts/test-assemble-museum-candidate.mjs",
+    "scripts/test-sea-change-one-shot-v2.mjs",
+    "scripts/test-sea-change-one-shot-v3.mjs",
+    "scripts/prepare-one-shot-work-patch.mjs",
+    "scripts/test-filesystem-migration.mjs",
+    "scripts/verify-pipeline-causality.mjs",
+    "research/pipeline/tests/causality-fixtures.json",
+    "research/pipeline/tests/one-shot-work-v1/result.json"
+  ],
+  "verification": {
+    "status": "passed_with_preexisting_significance_baseline",
+    "record": "research/pipeline/tests/one-shot-work-v1/result.json",
+    "seaChangeReverification": "passed",
+    "canonicalPublish": "passed",
+    "productionRun": "research/runs/production/seattle/20260726T032732Z-p2.10.0",
+    "modelCallsDuringFinalization": 0,
+    "significanceBaseline": {
+      "failureCount": 145,
+      "failureCategory": "significance_audit_pending",
+      "preExisting": true,
+      "newOneShotRegressions": 0,
+      "filesystemRelatedFailures": 0
+    }
+  }
+}

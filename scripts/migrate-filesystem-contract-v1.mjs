@@ -568,6 +568,9 @@ async function verifyMigration(projectRoot) {
   const result = JSON.parse(await fs.readFile(path.join(projectRoot, ...RESULT_PATH.split("/")), "utf8"));
   const inventory = JSON.parse(await fs.readFile(path.join(projectRoot, ...INVENTORY_PATH.split("/")), "utf8"));
   const failures = [];
+  const isMutableDestination = (relativePath) =>
+    relativePath.startsWith(`${manifest.filesystemContract.activeContentRoot}/`) ||
+    relativePath.startsWith(`${manifest.filesystemContract.pipelineRoot}/tests/`);
   for (const move of result.moves) {
     if (await exists(path.join(projectRoot, ...move.oldPath.split("/")))) failures.push(`old path remains: ${move.oldPath}`);
     const destination = path.join(projectRoot, ...move.newPath.split("/"));
@@ -592,7 +595,7 @@ async function verifyMigration(projectRoot) {
         ) {
           failures.push(`archive provenance drift: ${targetRelative}`);
         }
-      } else if (sha256(bytes) !== original.sha256) {
+      } else if (!isMutableDestination(targetRelative) && sha256(bytes) !== original.sha256) {
         failures.push(`hash drift: ${targetRelative}`);
       }
     }

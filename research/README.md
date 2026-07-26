@@ -64,3 +64,5 @@ node scripts/create-generation-run.mjs --kind=regression --case=filesystem-contr
 运行 `node scripts/verify-project-authority.mjs` 可检查当前权威入口、正式内容引用和退休脚本边界。
 
 馆级评分在写馆介和逐件正文前由 `scripts/process-museum-rating.mjs` 检查证据表、档位、档内锚点、独立珍品线和重复计数；失败时不得继续下游。
+
+新单件正文入口是 `scripts/run-one-shot-work.mjs`：Luna High 只读取 locked metadata、已验证图片和 canonical one-shot prompt，自主搜索后直接输出 article 与 sources。Research Card 仍可用于馆级 selection、rating 和 structure，但不得进入单件写作。通用 verifier 与确定性 adapter 分别由 `scripts/verify-one-shot-work.mjs`、`scripts/adapt-one-shot-work.mjs` 执行。

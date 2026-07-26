@@ -1,0 +1,66 @@
+{
+    "runId":  "m28-12-v2.7.2-seattle-author-salt-cellar-2026-07-24",
+    "stage":  "author",
+    "museumId":  "seattle",
+    "workId":  "salt-cellar",
+    "pipelineVersion":  "2.7.2",
+    "instructionVersion":  "2.1.1",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-07-24T23:18:35.1259294-07:00",
+    "modelStartedAt":  "2026-07-24T23:18:35.4827075-07:00",
+    "modelCompletedAt":  "2026-07-24T23:20:53.2609171-07:00",
+    "completedAt":  "2026-07-24T23:20:53.2814409-07:00",
+    "runnerDurationMs":  138156,
+    "modelDurationMs":  137778,
+    "tokenUsage":  {
+                       "total":  36609,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "6",
+                                    "8",
+                                    "9",
+                                    "10",
+                                    "12",
+                                    "13",
+                                    "14"
+                                ],
+    "logPath":  "research/m28-12/seattle/works/salt-cellar/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "8c08c30f9d915a8942ed605287f7993a6514742c8f895b427876a6ffabb3fda2"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/research-batch-02/salt-cellar-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "20eb1efa57dedbdbbfb318636e3552e26a6b4abe667bd6b28d87e048738f7251"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/works/salt-cellar/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "8512a275a806593125bdffe58069354295021c1a58c3728ec25c8d70d7fc98c9"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "b195e4bb2736f1208029cf1af8a66af325601522970cdafd8e315b4cb494c082",
+                        "bytes":  10473
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "6135987234901d0abcf4b62d4b32ed948ce641f368d2a2c0831bc4e2442f8b8d",
+                        "bytes":  460
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "9845c2464e427c370145441d39b67df6d24cc6693e3fc3c9105f4dc41de238fb",
+                        "bytes":  3389
+                    }
+                ]
+}

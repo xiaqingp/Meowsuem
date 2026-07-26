@@ -1,0 +1,66 @@
+{
+    "runId":  "m28-12-v2.7.2-seattle-author-canoe-prow-figure-nguzu-nguzu-2026-07-24",
+    "stage":  "author",
+    "museumId":  "seattle",
+    "workId":  "canoe-prow-figure-nguzu-nguzu",
+    "pipelineVersion":  "2.7.2",
+    "instructionVersion":  "2.1.1",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-07-24T23:16:48.3396459-07:00",
+    "modelStartedAt":  "2026-07-24T23:16:48.9485773-07:00",
+    "modelCompletedAt":  "2026-07-24T23:18:26.5589882-07:00",
+    "completedAt":  "2026-07-24T23:18:26.6163078-07:00",
+    "runnerDurationMs":  98277,
+    "modelDurationMs":  97610,
+    "tokenUsage":  {
+                       "total":  21640,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "6",
+                                    "8",
+                                    "9",
+                                    "10",
+                                    "12",
+                                    "13",
+                                    "14"
+                                ],
+    "logPath":  "research/m28-12/seattle/works/canoe-prow-figure-nguzu-nguzu/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "8c08c30f9d915a8942ed605287f7993a6514742c8f895b427876a6ffabb3fda2"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/research-batch-02/canoe-prow-figure-nguzu-nguzu-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "50e3537ec9a7dd183249a97eb0c275d1f1227eb3abf37282697162aeb0fbd8e3"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/works/canoe-prow-figure-nguzu-nguzu/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "994bd0acfee1b2f456c9aa8af0304d5d2a3fb658cb2ee30e2950757367361040"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "58871d8c853c62f28d6ee38c2e12c232d1946b42c53400bf62aacf1b31cfefa2",
+                        "bytes":  8799
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "3cbcb477c1ed895566131dfa0fa47a1ebf92e611fb3ed4390264cd96c1a67cf8",
+                        "bytes":  436
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "ff013769884f296df7ace95e75ccd9723bca74c91ca0d870391276d0e55e69f2",
+                        "bytes":  4283
+                    }
+                ]
+}

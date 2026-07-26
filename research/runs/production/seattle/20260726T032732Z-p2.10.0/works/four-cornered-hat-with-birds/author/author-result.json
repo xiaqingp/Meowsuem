@@ -1,0 +1,66 @@
+{
+    "runId":  "m28-12-v2.7.2-seattle-author-four-cornered-hat-with-birds-2026-07-24",
+    "stage":  "author",
+    "museumId":  "seattle",
+    "workId":  "four-cornered-hat-with-birds",
+    "pipelineVersion":  "2.7.2",
+    "instructionVersion":  "2.1.1",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-07-24T23:16:48.4976883-07:00",
+    "modelStartedAt":  "2026-07-24T23:16:49.0831523-07:00",
+    "modelCompletedAt":  "2026-07-24T23:18:26.2849330-07:00",
+    "completedAt":  "2026-07-24T23:18:26.3168405-07:00",
+    "runnerDurationMs":  97819,
+    "modelDurationMs":  97202,
+    "tokenUsage":  {
+                       "total":  32825,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "6",
+                                    "8",
+                                    "9",
+                                    "10",
+                                    "12",
+                                    "13",
+                                    "14"
+                                ],
+    "logPath":  "research/m28-12/seattle/works/four-cornered-hat-with-birds/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "8c08c30f9d915a8942ed605287f7993a6514742c8f895b427876a6ffabb3fda2"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/research-batch-02/four-cornered-hat-with-birds-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "b55eb3bfc767f02cc31c37d2e9594dfcfc0fe0e782bb3492f5939ad30b58838c"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/works/four-cornered-hat-with-birds/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "d498afe77962078dbc18412c99b3057eb386d8e0bf723ff881be9c69a89e0ded"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "0ad540ee31eefc24ad17f93323be65df14a6509b3489c36e4a05a1901dd73e1d",
+                        "bytes":  8409
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "f8ceb82c461a1ea1219f9cd54a29a64f37af9da0329849b7d82f960947bca8a7",
+                        "bytes":  515
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "30bf377907da034fc149737b495f85bb836bea45976904c2cae17d98059b4d13",
+                        "bytes":  3627
+                    }
+                ]
+}

@@ -1,0 +1,308 @@
+{
+  "workId": "cylinder-vase-depicting-scribes-in-the-underworld",
+  "narrativeMainline": {
+    "valueType": "ritual_or_original_context",
+    "mainline": "这只玛雅圆筒杯把饮用器、文字载体和冥界图像合在同一圈器壁上：杯的形状既服务于使用，也要求观看者转动它，才能把器沿文字、十位书吏、坐姿神祇与蛇形怪物逐步连起来。",
+    "readerStartingPoint": "零背景读者从标题和器面可以知道这是一只圆筒形器物，上方有文字，器身排列着多位人物和怪物；尚不知道这些形象怎样与饮用、书写和冥界解释相连。",
+    "storyBeats": [
+      {
+        "beat": "先由直壁圆筒、器沿文字和环绕人物说明：这件器物必须边转边看，文字与图像共享同一条观看路径。",
+        "researchRefs": [
+          "R09",
+          "R10",
+          "R11",
+          "R12"
+        ],
+        "readerGain": "理解形状并非中性的外壳，而是同时组织使用、阅读与观看。"
+      },
+      {
+        "beat": "再交代馆方对冥界队列的解释，并把可能的竞赛和《波波尔·乌》背景保持为有限度的解释。",
+        "researchRefs": [
+          "R02",
+          "R03",
+          "R04",
+          "R13"
+        ],
+        "readerGain": "能辨认主要角色，同时知道公开资料尚未把器面锁定为唯一情节。"
+      },
+      {
+        "beat": "随后用同类玛雅饮杯的铭文制度解释器沿文字可能承担的功能，并明确本件铭文尚未公开释读、是否盛过可可也不能确认。",
+        "researchRefs": [
+          "R05",
+          "R06"
+        ],
+        "readerGain": "理解文字可能把器型、内容物、主人和图像世界连到实际使用，但不会把同类背景误写成本件定论。"
+      },
+      {
+        "beat": "最后与 Met 近似圆筒器比较，并回到本作连续十位书吏、坐姿主宰和怪物构成的环绕队列。",
+        "researchRefs": [
+          "R07",
+          "R09",
+          "R11",
+          "R12",
+          "R13"
+        ],
+        "readerGain": "明白本作的具体价值来自文字、饮用功能与复杂冥界队列的结合，而非未经证明的世界唯一性。"
+      }
+    ],
+    "humorBasis": "器沿文字可能像器物自带的标签，说明杯的种类、内容物和主人；趣味建立在古典期玛雅同类铭文制度上，并明确本件文字尚未释读。",
+    "highRiskClaims": [
+      {
+        "claim": "器面人物就是《波波尔·乌》英雄双胞胎故事中的确定角色",
+        "evidenceType": "来源解释及边界",
+        "basis": [
+          "R03",
+          "R04"
+        ],
+        "allowedWording": "馆方以《波波尔·乌》的冥界试炼提供理解背景；器面场景可能表现一场竞赛。",
+        "forbiddenUpgrade": "不得把背景文本与每个人物逐一等同，也不得声称情节已经完成唯一识读。"
+      },
+      {
+        "claim": "器沿铭文说明了器主、内容物或艺术家",
+        "evidenceType": "来源事实及同类制度背景",
+        "basis": [
+          "R05",
+          "R06"
+        ],
+        "allowedWording": "同类铭文常可命名器型、内容物和所有者；馆方列出本件文字可能涉及的几种内容。",
+        "forbiddenUpgrade": "不得给出本件铭文的具体译文、器主或艺术家。"
+      },
+      {
+        "claim": "这只杯确实用于盛放可可",
+        "evidenceType": "形制与来源联系",
+        "basis": [
+          "R06"
+        ],
+        "allowedWording": "圆筒形制支持饮杯判断，馆方把它联系到起泡的苦味可可饮料。",
+        "forbiddenUpgrade": "不得断言本件确实盛过可可。"
+      },
+      {
+        "claim": "沿器身观看的次序就是故事发生的时间顺序",
+        "evidenceType": "编辑边界",
+        "basis": [
+          "R09"
+        ],
+        "allowedWording": "转动器身会依次看见文字、人物、主宰与怪物。",
+        "forbiddenUpgrade": "不得据观看顺序重建事件先后。"
+      },
+      {
+        "claim": "人物的动作或外观证明其心理状态及怪物下一步行动",
+        "evidenceType": "来源解释与直接观察",
+        "basis": [
+          "R02",
+          "R12",
+          "R13"
+        ],
+        "allowedWording": "馆方将人物解释为向坐姿神祇行进的无齿书吏；可见重复坐姿、高头饰、羽毛状物和张口怪物。",
+        "forbiddenUpgrade": "不得断言人物恐惧、顺从或受祝福，也不得断言怪物即将吞食人物。"
+      },
+      {
+        "claim": "本作是同类中唯一或不可替代的作品",
+        "evidenceType": "比较证据",
+        "basis": [
+          "R07",
+          "R09"
+        ],
+        "allowedWording": "与 Met 近似器相比，本作以十位书吏、坐姿主宰和冥界怪物形成不同的连续队列；重要性定位为重要藏品。",
+        "forbiddenUpgrade": "不得写成世界唯一、仅存、最高成就或已经证明全球不可替代。"
+      }
+    ]
+  },
+  "mustNotAssume": [
+    "不得假定具体产地、出土地、墓葬或宴饮语境。",
+    "不得假定本件铭文已经释读，或已知器主、赞助者与艺术家。",
+    "不得假定本件确实盛过可可。",
+    "不得把《波波尔·乌》的英雄双胞胎直接认定为器面人物。",
+    "不得把旋转观看的顺序写成故事真实发生的时间顺序。",
+    "不得由姿态推断人物心理，或断言张口怪物将要吞食人物。",
+    "不得声称作品当前一定在展。",
+    "不得声称本作世界唯一、仅存或没有可比对象。"
+  ],
+  "displayMetadata": {
+    "by": "Maya",
+    "date": "约 600–900",
+    "material": "施彩化妆土陶",
+    "place": "Seattle Art Museum，馆藏号 81.109",
+    "priority": "绝对不可错过",
+    "significance": "重要藏品",
+    "stay": "8—12 分钟",
+    "availability": "collection_rotation",
+    "imagePolicy": "object_image"
+  },
+  "claimLedger": [
+    {
+      "claimId": "C01",
+      "claim": "作品为玛雅文化约 600–900 年的施彩化妆土陶器。",
+      "researchRefs": [
+        "R01"
+      ],
+      "usedIn": [
+        "displayMetadata"
+      ]
+    },
+    {
+      "claimId": "C02",
+      "claim": "器物为直壁圆筒，上沿有橙红色环带。",
+      "researchRefs": [
+        "R10"
+      ],
+      "usedIn": [
+        "draft:30 秒先懂",
+        "draft:最后再看一眼"
+      ]
+    },
+    {
+      "claimId": "C03",
+      "claim": "黑色轮廓文字沿器沿下方横向延伸。",
+      "researchRefs": [
+        "R11"
+      ],
+      "usedIn": [
+        "card",
+        "draft:30 秒先懂",
+        "draft:一只杯怎样同时被用、被读、被观看",
+        "draft:最后再看一眼"
+      ]
+    },
+    {
+      "claimId": "C04",
+      "claim": "多位坐姿人物首尾连续分布，戴珠链并呈重复姿势。",
+      "researchRefs": [
+        "R12"
+      ],
+      "usedIn": [
+        "card",
+        "draft:30 秒先懂",
+        "draft:一圈人物不是已经解完的故事",
+        "draft:最后再看一眼"
+      ]
+    },
+    {
+      "claimId": "C05",
+      "claim": "馆方将环绕场景解释为 Xibalba 冥界，包含十位无齿、戴珠链的书吏、持羽毛刷的坐姿神祇，以及张口、带角和卷须的蛇形龙。",
+      "researchRefs": [
+        "R02"
+      ],
+      "usedIn": [
+        "card",
+        "draft:30 秒先懂",
+        "draft:一圈人物不是已经解完的故事"
+      ]
+    },
+    {
+      "claimId": "C06",
+      "claim": "场景可能是一场与坐姿主宰的竞赛，但公开解释没有把它锁定为唯一情节。",
+      "researchRefs": [
+        "R03"
+      ],
+      "usedIn": [
+        "draft:一圈人物不是已经解完的故事",
+        "draft:事实边界"
+      ]
+    },
+    {
+      "claimId": "C07",
+      "claim": "馆方以《波波尔·乌》中英雄双胞胎接受冥界诸神试炼为解释背景，不能据此自动认定器面人物身份。",
+      "researchRefs": [
+        "R04"
+      ],
+      "usedIn": [
+        "draft:一圈人物不是已经解完的故事",
+        "draft:事实边界"
+      ]
+    },
+    {
+      "claimId": "C08",
+      "claim": "馆方未公开释读本件器沿文字，只列出器主或赞助者、原装物、图像场景或艺术家等可能内容。",
+      "researchRefs": [
+        "R05"
+      ],
+      "usedIn": [
+        "card",
+        "draft:文字把神话世界接回现实使用",
+        "draft:这件作品有哪些趣闻？",
+        "draft:事实边界"
+      ]
+    },
+    {
+      "claimId": "C09",
+      "claim": "圆筒形制支持饮杯判断；馆方将其联系到起泡的苦味可可饮料，而同类古典期玛雅器皿的 Primary Standard Sequence 常命名器型、内容物和所有者。",
+      "researchRefs": [
+        "R06"
+      ],
+      "usedIn": [
+        "card",
+        "draft:一只杯怎样同时被用、被读、被观看",
+        "draft:文字把神话世界接回现实使用",
+        "draft:这件作品有哪些趣闻？",
+        "draft:事实边界"
+      ]
+    },
+    {
+      "claimId": "C10",
+      "claim": "Met 314311 是最近比较对象；两者都有红色边带、器沿文字和坐姿神祇，但比较器仅有两位神且题材识别不同，本作则有十位书吏与冥界怪物组成的连续队列。",
+      "researchRefs": [
+        "R07"
+      ],
+      "usedIn": [
+        "draft:为什么这条长队值得多看几分钟"
+      ]
+    },
+    {
+      "claimId": "C11",
+      "claim": "作品来源链可追至 André Emmerich Gallery、John H. Hauberg，1981 年入藏 SAM；因缺乏考古出土语境，具体地域不能确认。",
+      "researchRefs": [
+        "R08"
+      ],
+      "usedIn": [
+        "draft:事实边界"
+      ]
+    },
+    {
+      "claimId": "C12",
+      "claim": "作品把书写、宴饮器皿和冥界图像放到必须旋转观看的圆周表面；观看顺序不能冒充事件时间顺序。",
+      "researchRefs": [
+        "R09"
+      ],
+      "usedIn": [
+        "card",
+        "draft:30 秒先懂",
+        "draft:一只杯怎样同时被用、被读、被观看",
+        "draft:为什么这条长队值得多看几分钟",
+        "draft:最后再看一眼"
+      ]
+    },
+    {
+      "claimId": "C13",
+      "claim": "一端可见戴高头饰、持羽毛状物的坐姿人物，邻近有张口的蛇形怪物。",
+      "researchRefs": [
+        "R13"
+      ],
+      "usedIn": [
+        "draft:30 秒先懂",
+        "draft:一圈人物不是已经解完的故事",
+        "draft:最后再看一眼"
+      ]
+    },
+    {
+      "claimId": "C14",
+      "claim": "馆方展史列出 2018 年开始的 ongoing 展览，但未提供明确当前展厅字段。",
+      "researchRefs": [
+        "research-card:基本信息与状态"
+      ],
+      "usedIn": [
+        "displayMetadata"
+      ]
+    },
+    {
+      "claimId": "C15",
+      "claim": "作品在馆级规划中的优先级为绝对不可错过、重要性为重要藏品、建议停留 8—12 分钟，采用对象图片策略。",
+      "researchRefs": [
+        "work-context:selection"
+      ],
+      "usedIn": [
+        "displayMetadata"
+      ]
+    }
+  ]
+}

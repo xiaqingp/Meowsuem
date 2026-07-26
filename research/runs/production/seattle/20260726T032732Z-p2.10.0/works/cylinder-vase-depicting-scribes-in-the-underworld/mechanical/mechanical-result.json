@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.7.2",
+  "runId": "m28-12-v2.7.2-seattle-author-cylinder-vase-depicting-scribes-in-the-underworld-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-25T06:24:43.439Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_availability_from_locked_work_context",
+    "derived_imagePolicy_from_locked_work_context"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "b1ff9219a0efa3cbb42a7de166256aa0ece0ab972dbfac203888e4771bb5a01f",
+      "bytes": 11330
+    },
+    {
+      "path": "card.txt",
+      "sha256": "39aa61a297574839d0e0d541b6b79b2e119bdd5f7e2adcb32b8e90d74bd5534a",
+      "bytes": 544
+    },
+    {
+      "path": "draft.md",
+      "sha256": "20bc2a189daf36a9788455ba70b8fa0a8ece238cd45f5fe0dcd65d099c35817c",
+      "bytes": 4933
+    }
+  ]
+}

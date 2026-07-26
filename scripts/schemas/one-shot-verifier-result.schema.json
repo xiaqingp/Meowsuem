@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "meowseum://one-shot-verifier-result/v1",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["status", "errors", "warnings", "checks"],
+  "properties": {
+    "status": {"enum": ["passed", "failed"]},
+    "errors": {"type": "array"},
+    "warnings": {"type": "array"},
+    "checks": {"type": "object"}
+  }
+}

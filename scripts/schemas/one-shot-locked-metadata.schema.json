@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "meowseum://one-shot-locked-metadata/v1",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schemaVersion", "museumId", "workId", "objectType", "titleZh", "titleEn",
+    "artistZh", "artistEn", "displayDate", "medium", "accessionNumber",
+    "museumName", "officialObjectUrl", "verifiedImage", "significance", "priority",
+    "sectionId", "stay", "availability", "imagePolicy"
+  ],
+  "properties": {
+    "schemaVersion": {"type": "integer", "minimum": 1},
+    "museumId": {"type": "string", "pattern": "^[a-z][a-z0-9-]*$"},
+    "workId": {"type": "string", "pattern": "^[a-z][a-z0-9-]*$"},
+    "objectType": {"type": "string", "minLength": 1},
+    "titleZh": {"type": "string", "minLength": 1},
+    "titleEn": {"type": "string", "minLength": 1},
+    "displayTitleZh": {"type": "string", "minLength": 1},
+    "displayTitleEn": {"type": "string", "minLength": 1},
+    "artistZh": {"type": "string", "minLength": 1},
+    "artistEn": {"type": "string", "minLength": 1},
+    "displayBy": {"type": "string", "minLength": 1},
+    "displayDate": {"type": "string", "minLength": 1},
+    "medium": {"type": "string", "minLength": 1},
+    "accessionNumber": {"type": "string", "minLength": 1},
+    "museumName": {"type": "string", "minLength": 1},
+    "officialObjectUrl": {"type": "string", "format": "uri"},
+    "verifiedImage": {"type": "string", "format": "uri"},
+    "verifiedImageSha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "significance": {"type": "string", "minLength": 1},
+    "priority": {"type": "string", "minLength": 1},
+    "sectionId": {"type": "string", "minLength": 1},
+    "stay": {"type": "string", "minLength": 1},
+    "availability": {
+      "enum": ["confirmed_on_view", "collection_rotation", "previously_exhibited_current_unknown", "display_status_unknown"]
+    },
+    "imagePolicy": {"enum": ["object_image", "museum_hero_placeholder"]}
+  }
+}

@@ -56,7 +56,14 @@ const canonicalFiles = [
   { path: manifest.canonicalFilesystemContract },
   { path: manifest.canonicalRunCreator },
   { path: manifest.canonicalRunValidator },
-  { path: manifest.canonicalFilesystemMigration }
+  { path: manifest.canonicalFilesystemMigration },
+  { path: manifest.canonicalOneShotRunner },
+  { path: manifest.canonicalOneShotVerifier },
+  { path: manifest.canonicalOneShotAdapter },
+  { path: manifest.canonicalOneShotPrompt },
+  { path: manifest.canonicalOneShotLockedMetadataSchema },
+  { path: manifest.canonicalOneShotSourcesSchema },
+  { path: manifest.canonicalOneShotVerifierResultSchema }
 ];
 for (const file of canonicalFiles) file.sha256 = await hashFile(file.path);
 const baseHashes = new Map(baseRelease.canonicalFiles.map(file => [file.path, file.sha256]));

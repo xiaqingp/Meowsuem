@@ -1,0 +1,42 @@
+{
+  "runId": "m28-12-v2.7.2-seattle-author-gathering-storm-2026-07-24",
+  "startedAt": "2026-07-24T00:00:00-07:00",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card",
+  "museumId": "seattle",
+  "workId": "gathering-storm",
+  "inputContractVersion": 2,
+  "pipelineVersion": "2.7.2",
+  "instructionVersion": "2.1.1",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c7931d34e1f54dde5c43336acc50f7fb7ac380cfe7bed7ca27ea0e01f2cf4aa6"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "8c08c30f9d915a8942ed605287f7993a6514742c8f895b427876a6ffabb3fda2"
+    },
+    {
+      "path": "research/m28-12/seattle/research-batch-02/gathering-storm-research-card.md",
+      "role": "research_card",
+      "sha256": "99186207a4c9371b9e399b519ddd54224328b4db0cad18f3a6a6e3f531f0b594"
+    },
+    {
+      "path": "research/m28-12/seattle/works/gathering-storm/work-context.json",
+      "role": "work_context",
+      "sha256": "026898ffb379259f035ce5bfeb679cf4521c494de5b9419dac3a3fc4e325a415"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "candidate_then_atomic_production_write"
+}

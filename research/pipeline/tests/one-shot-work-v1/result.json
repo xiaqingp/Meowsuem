@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "pipelineVersion": "2.10.0",
+  "instructionVersion": "2.3.0",
+  "testedAt": "2026-07-26T03:45:00.000Z",
+  "status": "passed_with_preexisting_significance_baseline",
+  "canonicalRoute": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "high",
+    "fallback": null,
+    "reviewer": "disabled",
+    "modelOutputs": [
+      "article.md",
+      "sources.json"
+    ]
+  },
+  "seaChangeReverification": {
+    "experimentRun": "research/runs/experiment/sea-change-luna-one-shot-v3/20260726T020713Z-p2.9.3",
+    "record": "research/runs/experiment/sea-change-luna-one-shot-v3/20260726T020713Z-p2.9.3/reports/reverification-v2.10.0.json",
+    "status": "passed",
+    "previousFailure": "verifier false positive",
+    "modelCallsDuringReverification": 0,
+    "articleSha256": "04c11bfd663290a2c4aaa8ec725041c03a4b173dae11091be52f34db31825500",
+    "sourcesSha256": "601f5e9ff7e6e95953fb1850ef11011c655a575342a8d1bfcb377f379a067516",
+    "originalResultSha256": "59b2f7f9286423881e00f416bfb74b45bfb56181d6e988c2b22f7ec3f3534c0c",
+    "warnings": [
+      "BROAD_EVALUATION"
+    ],
+    "hardErrors": []
+  },
+  "production": {
+    "run": "research/runs/production/seattle/20260726T032732Z-p2.10.0",
+    "status": "published",
+    "immutable": true,
+    "modelCalls": 0,
+    "modelTokens": 0,
+    "finalizationSeconds": 2.784,
+    "changedWork": "seattle/sea-change",
+    "otherSeattleWorksUnchanged": 19,
+    "ratingUnchanged": true,
+    "routesUnchanged": true,
+    "browser": {
+      "baseUrl": "http://127.0.0.1:8094",
+      "seaChangeDetail": "passed",
+      "museumOverview": "passed",
+      "halfRoute": "passed",
+      "representativeLegacyWork": "double-elvis",
+      "representativeLegacyWorkStatus": "passed",
+      "seaChangeImageLoaded": true,
+      "legacyWorkImageLoaded": true,
+      "consoleErrors": 0
+    }
+  },
+  "significanceBaseline": {
+    "command": "node scripts/verify-significance-evidence.mjs",
+    "status": "passed_with_preexisting_significance_baseline",
+    "exitCode": 1,
+    "rareWorks": 155,
+    "auditRecords": 166,
+    "failureCount": 145,
+    "failureCategory": "significance_audit_pending",
+    "filesystemRelatedFailures": 0,
+    "oneShotRelatedNewFailures": 0
+  },
+  "commands": [
+    {"command": "node scripts/test-one-shot-work.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/test-sea-change-one-shot-v2.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/test-sea-change-one-shot-v3.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/test-filesystem-contract.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/test-create-generation-run.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/test-filesystem-migration.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/test-run-generation-batch.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -File scripts/test-run-isolated-generation.ps1", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/test-museum-generation-report.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/test-assemble-museum-candidate.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/test-publish-museum-candidate.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/test-future-museum-contract.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/test-author-input-regression.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/test-museum-rating-gate.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/test-project-authority.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/verify-project-authority.mjs", "exitCode": 0, "status": "passed", "result": "15 active content files; pipeline 2.10.0"},
+    {"command": "node scripts/verify-pipeline-causality.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/verify-content-pipeline.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/migrate-filesystem-contract-v1.mjs --verify", "exitCode": 0, "status": "passed", "result": "70 moves verified"},
+    {"command": "node scripts/test-image-disambiguation-contract.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/test-prepare-museum-stage-inputs.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/freeze-pipeline-release.mjs --self-test", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/freeze-pipeline-release.mjs", "exitCode": 0, "status": "passed", "result": "v2.10.0 frozen and immutable"},
+    {"command": "node scripts/verify-significance-evidence.mjs", "exitCode": 1, "status": "passed_with_preexisting_significance_baseline", "result": "145 significance_audit_pending; 0 new one-shot or filesystem failures"}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.7.2",
+  "runId": "m28-12-v2.7.2-seattle-author-funerary-portrait-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-25T06:24:43.805Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_availability_from_locked_work_context",
+    "derived_imagePolicy_from_locked_work_context"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "6a4b9f6b109d6aff32b39bef05db1375bc537c80335a4d4fb952de248e21d145",
+      "bytes": 8091
+    },
+    {
+      "path": "card.txt",
+      "sha256": "75ed47370c298c7e292660fa932b5f435d90dfd17c6368c730f82798f2ee3af1",
+      "bytes": 538
+    },
+    {
+      "path": "draft.md",
+      "sha256": "05d54ced1aa6549ae1fdaa51eb9ccccc7de89d3c6fa73981eb05cda8288f1a21",
+      "bytes": 3111
+    }
+  ]
+}

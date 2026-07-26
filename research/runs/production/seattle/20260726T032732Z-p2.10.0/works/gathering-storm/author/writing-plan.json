@@ -1,0 +1,260 @@
+{
+  "workId": "gathering-storm",
+  "narrativeMainline": {
+    "valueType": "artist_landmark",
+    "mainline": "Lin Onus 把 Barmah Forest 的同一处水潭画成十二个不同时刻；在《风暴将至》中，黄昏的云树倒影与带有其 clan 身体彩绘图案的鱼相遇，使地点、时间与文化身份同时进入一幅风景。",
+    "storyBeats": [
+      {
+        "beat": "先从黄昏水潭、深色倒影与触及水面的鱼建立本作的观看核心。",
+        "researchRefs": [
+          "R02",
+          "R10",
+          "R11",
+          "R12",
+          "R13"
+        ],
+        "readerGain": "读者知道画面同时容纳水面、水上倒影和水下生命，而鱼是暗色水域中的局部焦点。"
+      },
+      {
+        "beat": "再说明这不是孤立风景，而是同一水潭十二个昼夜时刻中的一幅。",
+        "researchRefs": [
+          "R04",
+          "R07"
+        ],
+        "readerGain": "读者把黄昏和将至的风暴理解为一项持续观察地点如何随时间改变的工作。"
+      },
+      {
+        "beat": "最后解释鱼身纹样与艺术家 clan 身体彩绘的联系，并回到水上、水下两个视域。",
+        "researchRefs": [
+          "R03",
+          "R05",
+          "R09",
+          "R12",
+          "R13"
+        ],
+        "readerGain": "读者明白文化联系落在具体可见的鱼身纹样上，但不把标题或所有画面元素升级成确定的政治寓意。"
+      }
+    ],
+    "humorBasis": "同一处水潭被画成十二个昼夜时刻，可把整组理解为一座由十二幅画组成的地点时间钟；该比喻只解释系列方法。",
+    "highRiskClaims": [
+      {
+        "claim": "鱼的图案与艺术家的 clan 身份有关。",
+        "evidenceType": "来源事实",
+        "researchRefs": [
+          "R03"
+        ],
+        "allowedWording": "馆方说明，鱼身图案依据艺术家为表示其 clan 而穿戴的身体彩绘。",
+        "forbiddenUpgrade": "不得补写具体 clan 名称，也不得说鱼象征某种确定的政治立场。"
+      },
+      {
+        "claim": "十二幅画构成同一地点的时间研究。",
+        "evidenceType": "来源事实",
+        "researchRefs": [
+          "R04",
+          "R07"
+        ],
+        "allowedWording": "本作属于描绘同一水潭不同昼夜时刻的十二件系列。",
+        "forbiddenUpgrade": "不得虚构十二幅的固定观看顺序、逐件位置或真实事件的时间先后。"
+      },
+      {
+        "claim": "标题中的风暴具有确定的心理或政治寓意。",
+        "evidenceType": "证据不足",
+        "researchRefs": [
+          "R02",
+          "R05"
+        ],
+        "allowedWording": "只说明标题、黄昏、云层与深色倒影共同构成本作的特定时刻。",
+        "forbiddenUpgrade": "不得把风暴解释为艺术家的心理状态、明确意图或确定政治寓意。"
+      },
+      {
+        "claim": "本作在同组中不可替代。",
+        "evidenceType": "比较与编辑整理",
+        "researchRefs": [
+          "R07",
+          "R08",
+          "R09"
+        ],
+        "allowedWording": "本作保存了黄昏、风暴将至、云树倒影与单鱼触水的具体组合；同组其余作品仍能解释同地异时的核心方法。",
+        "forbiddenUpgrade": "不得称为唯一、最高成就或稀世珍品。"
+      },
+      {
+        "claim": "画中鱼表现出某种心理。",
+        "evidenceType": "直接观察",
+        "researchRefs": [
+          "R02",
+          "R12"
+        ],
+        "allowedWording": "一条带明亮重复纹样的鱼靠近并触及水面。",
+        "forbiddenUpgrade": "不得写鱼在恐惧、试探、逃离或等待风暴。"
+      }
+    ]
+  },
+  "mustNotAssume": [
+    "不能假定标题中的风暴代表艺术家的心理状态或确定政治寓意。",
+    "不能补写鱼的物种、具体 clan 名称或纹样的额外象征。",
+    "不能假定十二幅系列存在固定观看顺序，也不能补写其他十一幅的现藏地点。",
+    "不能把水上与水下的观看关系写成真实历史事件的先后顺序。",
+    "不能把本作称为稀世珍品、世界唯一或全国艺术史上的最高成就。",
+    "不能声称作品目前在 Seattle Art Museum 展出。"
+  ],
+  "displayMetadata": {
+    "by": "Lin Onus",
+    "date": "1993",
+    "material": "亚麻布油画",
+    "place": "Seattle Art Museum 馆藏；截至 2026-07-24 借展于 Nevada Museum of Art（Reno）",
+    "priority": "时间充裕再看",
+    "significance": "重要藏品",
+    "stay": "3—5 分钟",
+    "availability": "previously_exhibited_current_unknown",
+    "imagePolicy": "object_image"
+  },
+  "claimLedger": [
+    {
+      "claimId": "C01",
+      "claim": "作品由 Lin Onus 创作于 1993 年，材质为亚麻布油画。",
+      "researchRefs": [
+        "R01"
+      ],
+      "usedIn": [
+        "displayMetadata"
+      ]
+    },
+    {
+      "claimId": "C02",
+      "claim": "场景是 Barmah Forest 的 billabong，时间为黄昏；树与云的倒影转为深蓝和黑，一条鱼触及水面。",
+      "researchRefs": [
+        "R02"
+      ],
+      "usedIn": [
+        "card.txt",
+        "draft.md"
+      ]
+    },
+    {
+      "claimId": "C03",
+      "claim": "鱼身图案依据艺术家为表示其 clan 而穿戴的身体彩绘。",
+      "researchRefs": [
+        "R03"
+      ],
+      "usedIn": [
+        "card.txt",
+        "draft.md"
+      ]
+    },
+    {
+      "claimId": "C04",
+      "claim": "本作属于描绘同一水潭十二个不同昼夜时刻的《24 Hours at Numerili Suite》系列。",
+      "researchRefs": [
+        "R04"
+      ],
+      "usedIn": [
+        "card.txt",
+        "draft.md"
+      ]
+    },
+    {
+      "claimId": "C05",
+      "claim": "Onus 的母亲是 Scottish，父亲是 Aboriginal rights leader；馆方概括其贡献为融合多种视觉来源。",
+      "researchRefs": [
+        "R05"
+      ],
+      "usedIn": [
+        "draft.md"
+      ]
+    },
+    {
+      "claimId": "C06",
+      "claim": "最近比较对象是同组其余十一幅，它们共享地点、视角与时间研究；逐件现藏与图像未锁定。",
+      "researchRefs": [
+        "R07"
+      ],
+      "usedIn": [
+        "draft.md"
+      ]
+    },
+    {
+      "claimId": "C07",
+      "claim": "本作的具体差异是黄昏、风暴将至、云树倒影与单鱼触水的组合，但同组作品可以替代同地异时的核心方法。",
+      "researchRefs": [
+        "R08"
+      ],
+      "usedIn": [
+        "draft.md"
+      ]
+    },
+    {
+      "claimId": "C08",
+      "claim": "本作把欧洲油画式水面观察与 Aboriginal clan 标记并置在一个真实地点和十二时段序列中，适合作为重要藏品和艺术家节点。",
+      "researchRefs": [
+        "R09"
+      ],
+      "usedIn": [
+        "card.txt",
+        "draft.md",
+        "displayMetadata"
+      ]
+    },
+    {
+      "claimId": "C09",
+      "claim": "横向画面大部分由水面与倒影占据，竖向深色树干进入水中。",
+      "researchRefs": [
+        "R10"
+      ],
+      "usedIn": [
+        "draft.md"
+      ]
+    },
+    {
+      "claimId": "C10",
+      "claim": "深蓝、黑色倒影与较亮的天空和云层相接。",
+      "researchRefs": [
+        "R11"
+      ],
+      "usedIn": [
+        "draft.md"
+      ]
+    },
+    {
+      "claimId": "C11",
+      "claim": "带明亮重复纹样的鱼靠近水面，成为大面积暗色中的局部焦点。",
+      "researchRefs": [
+        "R12"
+      ],
+      "usedIn": [
+        "card.txt",
+        "draft.md"
+      ]
+    },
+    {
+      "claimId": "C12",
+      "claim": "水上与水下视域同时出现，画面不能只被看作镜面风景。",
+      "researchRefs": [
+        "R13"
+      ],
+      "usedIn": [
+        "card.txt",
+        "draft.md"
+      ]
+    },
+    {
+      "claimId": "C13",
+      "claim": "截至 2026-07-24，作品不在 SAM，而在 Nevada Museum of Art 借展。",
+      "researchRefs": [
+        "基本信息与状态"
+      ],
+      "usedIn": [
+        "displayMetadata"
+      ]
+    },
+    {
+      "claimId": "C14",
+      "claim": "作品图采用 SAM 对象页 Elizabeth Mann 照片，许可需在发布前核验。",
+      "researchRefs": [
+        "基本信息与状态"
+      ],
+      "usedIn": [
+        "displayMetadata"
+      ]
+    }
+  ]
+}

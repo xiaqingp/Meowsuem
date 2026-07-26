@@ -1,0 +1,308 @@
+{
+  "workId": "salt-cellar",
+  "narrativeMainline": {
+    "valueType": "civilization_system",
+    "mainline": "葡萄牙航海者提出器物需求并提供图样，塞拉利昂的非洲雕工则把这些要求雕成一件会进入欧洲贵族生活的象牙盐罐。器身上的欧洲服饰、钥匙与装饰带，以及围绕立体器身展开的人物和纹样，共同保存了委托、制作与跨洲流通并不属于同一方的历史关系。",
+    "readerStartingPoint": "读者从标题可以知道这是一只盐罐，从作品图可以看到它是有盖的立体容器，人物与装饰分布在器身周围；读者尚不知道这些欧洲元素为何由西非雕工制作，也不知道器物后来怎样进入欧洲收藏。",
+    "storyBeats": [
+      {
+        "beat": "先从器身可见的服装、钥匙、装饰带、人物浮雕与重复纹样说明：这件器物同时容纳了欧洲要求与非洲制作。",
+        "researchRefs": [
+          "R02",
+          "R10",
+          "R11",
+          "R12"
+        ],
+        "newUnderstanding": "读者先获得核心答案：欧洲元素并不等于欧洲制造。"
+      },
+      {
+        "beat": "再交代葡萄牙航海者委托、提供图样，以及器物作为纪念品或礼物进入贵族餐桌与珍奇柜的过程。",
+        "researchRefs": [
+          "R03",
+          "R04",
+          "R05"
+        ],
+        "newUnderstanding": "读者理解这些图案为何会出现在器身上，也理解这件盐罐在早期跨洲交换中的角色。"
+      },
+      {
+        "beat": "最后用同馆和 Met 的近似盐罐限定稀有度，再回到绕器一周才能看全的人物、钥匙、装饰带与表面雕刻。",
+        "researchRefs": [
+          "R06",
+          "R07",
+          "R09",
+          "R10",
+          "R11",
+          "R12",
+          "R13"
+        ],
+        "newUnderstanding": "读者知道它的重要性来自保存制造关系，而不是来自未经证明的唯一性，并能用绕行观看验证这条主线。"
+      }
+    ],
+    "humorBasis": "",
+    "highRiskClaims": [
+      {
+        "claim": "器身人物具有某种明确心理或身份。",
+        "evidenceType": "资料未证明",
+        "allowedWording": "只描述人物围绕器身分层排列，以及可辨的服装和钥匙。",
+        "forbiddenUpgrade": "不得指定人物身份，也不得由姿态推断服从、骄傲、恐惧等心理。",
+        "researchRefs": [
+          "R10",
+          "R11",
+          "边界与待核验：不能确认每个人物身份"
+        ]
+      },
+      {
+        "claim": "葡萄牙委托等于葡萄牙制造。",
+        "evidenceType": "来源事实",
+        "allowedWording": "葡萄牙航海者提出委托并可提供图样，完成雕刻的是西非雕工。",
+        "forbiddenUpgrade": "不得把欧洲题样写成欧洲工匠制作，也不得声称已知具体委托人或雕工。",
+        "researchRefs": [
+          "R02",
+          "R03",
+          "R04",
+          "边界与待核验：不能确认具体雕工、葡萄牙委托人"
+        ]
+      },
+      {
+        "claim": "本作是同类唯一、最优或极罕见的一件。",
+        "evidenceType": "比较事实与证据边界",
+        "allowedWording": "SAM 与 Met 均有近似盐罐；本作可确认的具体差异是人物、钥匙与 Manueline 装饰在这一器形上的组合。",
+        "forbiddenUpgrade": "不得写唯一、仅存、同类最佳或确定全球存世数。",
+        "researchRefs": [
+          "R06",
+          "R07"
+        ]
+      },
+      {
+        "claim": "Sapi 是已确认的单一族群或具体个人作者。",
+        "evidenceType": "命名史边界",
+        "allowedWording": "Sapi 是研究沿用的历史集合标签；近年也有机构采用 Temne or Bullom artist(s) 的标注。",
+        "forbiddenUpgrade": "不得把集合标签收紧为已确认的个人作者或无争议的单一身份。",
+        "researchRefs": [
+          "边界与待核验：Sapi 命名差异"
+        ]
+      },
+      {
+        "claim": "作品完整证明了一条连续的早期流传史。",
+        "evidenceType": "来源事实与缺口",
+        "allowedWording": "只在需要时说明现有来源链及其空白。",
+        "forbiddenUpgrade": "不得补写 1490 年代至 20 世纪中叶的所有者或流传路径。",
+        "researchRefs": [
+          "R08"
+        ]
+      }
+    ]
+  },
+  "mustNotAssume": [
+    "不能假定具体雕工、葡萄牙委托人或最初的欧洲所有者已经确认。",
+    "不能替器身人物指定身份、心理或叙事先后。",
+    "不能把观看时绕器一周的顺序写成真实历史发生顺序。",
+    "不能把 Sapi 集合标签写成已确认的个人作者或无争议的单一族群归属。",
+    "不能确认象牙的具体物种。",
+    "不能声称本作是同类唯一、最优、最早或全球仅存若干件。",
+    "不能把展史中的 ongoing 直接写成当天必然在展。",
+    "不能补齐 1490 年代至 20 世纪中叶的流传空白。",
+    "不能假定读者原本认为欧洲委托必然等于欧洲制造。"
+  ],
+  "displayMetadata": {
+    "by": "Sapi，Sierra Leone",
+    "date": "约 1490—1530",
+    "material": "象牙",
+    "place": "Seattle Art Museum，馆藏号 81.17.189",
+    "priority": "绝对不可错过",
+    "significance": "重要藏品",
+    "stay": "8—12 分钟",
+    "availability": "collection_rotation",
+    "imagePolicy": "object_image"
+  },
+  "claimLedger": [
+    {
+      "claimId": "C01",
+      "claim": "作品身份为 Sapi、Sierra Leone 的象牙盐罐，约作于 1490—1530，现藏 SAM，馆藏号 81.17.189。",
+      "evidenceType": "来源事实",
+      "researchRefs": [
+        "R01"
+      ],
+      "usedIn": [
+        "displayMetadata"
+      ]
+    },
+    {
+      "claimId": "C02",
+      "claim": "器物由非洲雕工制作，衣服、钥匙和装饰带含欧洲元素，装饰与 Manuel I 时期建筑相联系。",
+      "evidenceType": "来源事实",
+      "researchRefs": [
+        "R02"
+      ],
+      "usedIn": [
+        "card.txt",
+        "draft.md：30 秒先懂",
+        "draft.md：谁提出要求，谁完成雕刻？"
+      ]
+    },
+    {
+      "claimId": "C03",
+      "claim": "早期葡萄牙报告称 Sierra Leone 雕工能按葡萄牙人提供的图样雕刻象牙，完成品会进入文艺复兴贵族餐桌。",
+      "evidenceType": "来源事实",
+      "researchRefs": [
+        "R03"
+      ],
+      "usedIn": [
+        "draft.md：谁提出要求，谁完成雕刻？",
+        "draft.md：它怎样从委托品变成收藏品？"
+      ]
+    },
+    {
+      "claimId": "C04",
+      "claim": "同类 Sapi-Portuguese 象牙器属于早期撒哈拉以南非洲与欧洲直接交换；葡萄牙航海者委托西非雕工，器物可作旅行纪念或送给资助航行的贵族。",
+      "evidenceType": "来源事实",
+      "researchRefs": [
+        "R04"
+      ],
+      "usedIn": [
+        "draft.md：谁提出要求，谁完成雕刻？"
+      ]
+    },
+    {
+      "claimId": "C05",
+      "claim": "同类器物常进入欧洲王公珍奇柜，其非洲来源一度被遗忘，现代研究借助与 Sapi 和 Benin 其他媒介的图像和风格比较重建归属。",
+      "evidenceType": "来源事实",
+      "researchRefs": [
+        "R05"
+      ],
+      "usedIn": [
+        "draft.md：它怎样从委托品变成收藏品？"
+      ]
+    },
+    {
+      "claimId": "C06",
+      "claim": "SAM 68.30、68.31 与 Met 1991.435a,b 是近似盐罐，同类明确存在。",
+      "evidenceType": "比较事实",
+      "researchRefs": [
+        "R06"
+      ],
+      "usedIn": [
+        "card.txt",
+        "draft.md：为什么重要，却不能叫“唯一”？"
+      ]
+    },
+    {
+      "claimId": "C07",
+      "claim": "本作可确认的具体差异是人物、钥匙与 Manueline 装饰在这一器形上的组合；公开资料不足以证明同类优劣或全球稀有数量。",
+      "evidenceType": "来源事实与证据边界",
+      "researchRefs": [
+        "R07"
+      ],
+      "usedIn": [
+        "draft.md：为什么重要，却不能叫“唯一”？"
+      ]
+    },
+    {
+      "claimId": "C08",
+      "claim": "本作的重要性在于说明欧洲委托并不等于欧洲制造，并保存了非洲雕工将跨洲贸易要求转化为雕刻语言的证据。",
+      "evidenceType": "研究结论",
+      "researchRefs": [
+        "R09"
+      ],
+      "usedIn": [
+        "card.txt",
+        "draft.md：30 秒先懂",
+        "draft.md：为什么重要，却不能叫“唯一”？"
+      ]
+    },
+    {
+      "claimId": "C09",
+      "claim": "器物是高耸的有盖容器，人物围绕立体器身分层排列。",
+      "evidenceType": "直接观察",
+      "researchRefs": [
+        "R10"
+      ],
+      "usedIn": [
+        "draft.md：30 秒先懂",
+        "draft.md：最后再看一眼"
+      ]
+    },
+    {
+      "claimId": "C10",
+      "claim": "器身可辨服装、钥匙和连续装饰带。",
+      "evidenceType": "直接观察",
+      "researchRefs": [
+        "R11"
+      ],
+      "usedIn": [
+        "card.txt",
+        "draft.md：30 秒先懂",
+        "draft.md：最后再看一眼"
+      ]
+    },
+    {
+      "claimId": "C11",
+      "claim": "象牙表面同时可见高浮雕人物与细密重复纹样。",
+      "evidenceType": "直接观察",
+      "researchRefs": [
+        "R12"
+      ],
+      "usedIn": [
+        "card.txt",
+        "draft.md：30 秒先懂",
+        "draft.md：最后再看一眼"
+      ]
+    },
+    {
+      "claimId": "C12",
+      "claim": "单一正面不能覆盖全部人物与装饰，观看需要绕器一周。",
+      "evidenceType": "直接观察",
+      "researchRefs": [
+        "R13"
+      ],
+      "usedIn": [
+        "card.txt",
+        "draft.md：最后再看一眼"
+      ]
+    },
+    {
+      "claimId": "C13",
+      "claim": "Sapi 是历史集合标签，近年也有机构使用 Temne or Bullom artist(s)；具体雕工、委托人、最初所有者、人物身份和全球存世数不能确认。",
+      "evidenceType": "研究边界",
+      "researchRefs": [
+        "边界与待核验：身份、命名与数量边界"
+      ],
+      "usedIn": [
+        "draft.md：名字能说到哪里？"
+      ]
+    },
+    {
+      "claimId": "C14",
+      "claim": "对象展史列入 American Art: The Stories We Carry 的 ongoing 展览，但没有明确 currently on view 字段。",
+      "evidenceType": "来源事实与易变状态",
+      "researchRefs": [
+        "基本信息与状态：可见状态"
+      ],
+      "usedIn": [
+        "displayMetadata"
+      ]
+    },
+    {
+      "claimId": "C15",
+      "claim": "SAM 对象页提供单件图，照片许可需在发布前核验。",
+      "evidenceType": "研究记录",
+      "researchRefs": [
+        "基本信息与状态：图片策略"
+      ],
+      "usedIn": [
+        "displayMetadata"
+      ]
+    },
+    {
+      "claimId": "C16",
+      "claim": "路线优先级、重要性等级与建议停留时间由锁定工作上下文给出。",
+      "evidenceType": "锁定工作上下文",
+      "researchRefs": [
+        "work-context/2.0：selection"
+      ],
+      "usedIn": [
+        "displayMetadata"
+      ]
+    }
+  ]
+}

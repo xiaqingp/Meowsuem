@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.7.2",
+  "runId": "m28-12-v2.7.2-seattle-author-gathering-storm-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-25T06:24:43.878Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_availability_from_locked_work_context",
+    "derived_imagePolicy_from_locked_work_context"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "2c972de740b4fc1f0e529be17e6ebfcb2ba203324f9c654edb2fa3620d7caa5e",
+      "bytes": 8401
+    },
+    {
+      "path": "card.txt",
+      "sha256": "eb3a18a5dcc00e9aea4b5d133ffb304d9285e162be508c6a4a79e61c57620ca7",
+      "bytes": 586
+    },
+    {
+      "path": "draft.md",
+      "sha256": "f3da5a0d7fc1e29feb0e3c311822ded46830eeb59a87307caf4d09d8293eb701",
+      "bytes": 4249
+    }
+  ]
+}

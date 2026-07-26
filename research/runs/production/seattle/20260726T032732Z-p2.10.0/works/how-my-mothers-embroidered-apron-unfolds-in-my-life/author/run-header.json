@@ -1,0 +1,42 @@
+{
+  "runId": "m28-12-v2.7.2-seattle-author-how-my-mothers-embroidered-apron-unfolds-in-my-life-2026-07-24",
+  "startedAt": "2026-07-24T00:00:00-07:00",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card",
+  "museumId": "seattle",
+  "workId": "how-my-mothers-embroidered-apron-unfolds-in-my-life",
+  "inputContractVersion": 2,
+  "pipelineVersion": "2.7.2",
+  "instructionVersion": "2.1.1",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c7931d34e1f54dde5c43336acc50f7fb7ac380cfe7bed7ca27ea0e01f2cf4aa6"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "8c08c30f9d915a8942ed605287f7993a6514742c8f895b427876a6ffabb3fda2"
+    },
+    {
+      "path": "research/m28-12/seattle/research-batch-01/how-my-mothers-embroidered-apron-unfolds-in-my-life-research-card.md",
+      "role": "research_card",
+      "sha256": "2982511dae4163b08ff3abda5a62498941aebef34e27120a1bf464fd17fd63ab"
+    },
+    {
+      "path": "research/m28-12/seattle/works/how-my-mothers-embroidered-apron-unfolds-in-my-life/work-context.json",
+      "role": "work_context",
+      "sha256": "162cc89d7ee623cf6cddeb6b99043990e1890d48ffffef2005be3c630bdbc643"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "candidate_then_atomic_production_write"
+}

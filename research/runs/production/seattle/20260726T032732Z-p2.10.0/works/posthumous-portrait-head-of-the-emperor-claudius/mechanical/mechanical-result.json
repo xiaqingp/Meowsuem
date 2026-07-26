@@ -1,0 +1,29 @@
+{
+  "pipelineVersion": "2.7.2",
+  "runId": "m28-12-v2.7.2-seattle-author-posthumous-portrait-head-of-the-emperor-claudius-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-25T06:24:44.221Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_availability_from_locked_work_context"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "7ef81333742a7e10e4975451529fc934e6899a33329b9f78f9a67affe27088e0",
+      "bytes": 10148
+    },
+    {
+      "path": "card.txt",
+      "sha256": "e9c950bc55c4751291ce09bdcaf441c3ca00e93129281735667dc24e37abb8c5",
+      "bytes": 433
+    },
+    {
+      "path": "draft.md",
+      "sha256": "80c4ec41e3c163105f5beb420360e89343d8b904f31f1aa882acb699597c86ff",
+      "bytes": 4022
+    }
+  ]
+}

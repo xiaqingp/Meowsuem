@@ -60,7 +60,9 @@ async function main() {
   });
   const candidateRoot = path.join(runRoot, "candidate");
   const [input, publication, indexHtml, museumHtml, entries] = await Promise.all([
-    fs.readFile(path.join(runRoot, "assembly-input.json"), "utf8").then(JSON.parse),
+    fs.readFile(path.join(runRoot, "structure", "assembly-input.json"), "utf8")
+      .catch(() => fs.readFile(path.join(runRoot, "assembly-input.json"), "utf8"))
+      .then(JSON.parse),
     fs.readFile(path.join(candidateRoot, "publication.json"), "utf8").then(JSON.parse),
     fs.readFile(path.join(candidateRoot, "index.html"), "utf8").catch(() => fs.readFile(path.join(projectRoot, "index.html"), "utf8")),
     fs.readFile(path.join(candidateRoot, "museum.html"), "utf8").catch(() => fs.readFile(path.join(projectRoot, "museum.html"), "utf8")),

@@ -8,7 +8,7 @@ import "./verify-significance-evidence.mjs";
 
 const root = new URL("../", import.meta.url);
 const appFile = name => new URL(name, root);
-const baseDataFiles = ["ratings.js", "muxin.js", "museums.js", "seattle.js", "louvre.js", "museum-expansions.js", "vienna.js", "enoura.js", "british.js", "anchorage.js", "getty.js", "chichu.js", "egyptian.js", "alhambra.js", "smk.js", "frye.js", "routes.js"];
+const baseDataFiles = ["ratings.js", "muxin.js", "museums.js", "louvre.js", "museum-expansions.js", "seattle.js", "vienna.js", "enoura.js", "british.js", "anchorage.js", "getty.js", "chichu.js", "egyptian.js", "alhambra.js", "smk.js", "frye.js", "routes.js"];
 const argument = name => process.argv.find(value => value.startsWith(`${name}=`))?.slice(name.length + 1);
 const projectRoot = path.resolve(argument("--project-root") || new URL("..", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"));
 const runKind = argument("--kind");

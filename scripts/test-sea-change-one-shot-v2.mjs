@@ -100,7 +100,8 @@ try {
   });
 
   await writeFixture();
-  assert.equal((await verify()).status, "passed");
+  const initialVerification = await verify();
+  assert.equal(initialVerification.status, "passed", JSON.stringify(initialVerification.errors));
   assert.equal(extractCard(validArticle).startsWith("这张画把波洛克"), true);
   assert.equal(buildDisplayMetadata(locked).accessionNumber, undefined);
   assert.equal(buildDisplayMetadata(locked).place.includes("58.55"), true);

@@ -1,0 +1,29 @@
+{
+  "museumId": "seattle",
+  "runId": "20260726T032732Z-p2.10.0",
+  "runKind": "production",
+  "completedAt": "2026-07-26T03:39:56.270Z",
+  "stages": [
+    {
+      "name": "assembly",
+      "seconds": 0.145
+    },
+    {
+      "name": "future-contract",
+      "seconds": 0.087
+    },
+    {
+      "name": "verification",
+      "seconds": 2.4
+    },
+    {
+      "name": "publication",
+      "seconds": 0.151
+    }
+  ],
+  "totalSeconds": 2.784,
+  "modelCalls": 0,
+  "modelTokens": 0,
+  "liveVerification": true,
+  "publicationMode": "publish"
+}

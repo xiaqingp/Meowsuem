@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.7.2",
+  "runId": "m28-12-v2.7.2-seattle-author-dr-silvester-gardiner-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-25T06:24:43.593Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_availability_from_locked_work_context",
+    "derived_imagePolicy_from_locked_work_context"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "688d1a40dc2af5d3bef8c9ab041c3651bd4daddff79e943ab41339efe67beee4",
+      "bytes": 10023
+    },
+    {
+      "path": "card.txt",
+      "sha256": "fbe51bf28d1614fed07996e34c251dc8b1f1b79a552c8c8707819c7467408224",
+      "bytes": 502
+    },
+    {
+      "path": "draft.md",
+      "sha256": "593dc9c313cbd9e8236379a99ab9ecd4fd680b2719f2949a6f7d61abb34d7550",
+      "bytes": 4912
+    }
+  ]
+}

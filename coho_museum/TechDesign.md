@@ -30,11 +30,13 @@
 ```text
 museum scope and selection
   -> verified image evidence (browser; Luna medium only for ambiguity)
-  -> research cards (up to 10 per research context)
+  -> museum-level research cards (up to 10 per context; selection/rating/structure only)
   -> museum evidence and rating
   -> deterministic rating gate
-  -> one author bundle per work
-  -> mechanical processing
+  -> locked metadata per work
+  -> Luna High one-shot search and write (article + sources)
+  -> generic risk verifier
+  -> deterministic integration adapter
   -> museum integration
   -> data/image/URL/browser verification
   -> atomic publication
@@ -47,13 +49,12 @@ museum scope and selection
 - Run root、candidate、reports 和 active content destination 都由 `scripts/lib/filesystem-contract.mjs` 计算。调用者不得另选目录；兼容的 `--run-root` 只有在精确等于 canonical root 时才通过。新 run 由 `scripts/create-generation-run.mjs` 创建，Milestone 仅是 `run.json` metadata。
 - Manifest 中现有 15 馆保留为 legacy baseline。未来新馆只采用 `museumData.<id>` 运行时赋值，并在 assembly 输入中提供地图坐标；装配器自动生成包含新馆脚本、地图坐标与排名注册的候选 `index.html` / `museum.html`。`scripts/verify-future-museum-contract.mjs` 在发布门之前机械检查绑定、加载顺序、页面注册与禁用馆专用 builder，避免依赖人工记忆或逐馆代码。
 - `scripts/freeze-pipeline-release.mjs` 只根据 manifest 写入 release 哈希锁，不接触博物馆正文。
-- author bundle 一次生成 `writing-plan.json`、`card.txt` 和 `draft.md`。
-- author prompt 只允许一份内容指令、一份本件研究卡、一份本件 `work_context` 和可选的一份研究补充；runner 按角色、数量和总字节上限拒绝整馆计划、pipeline 全文、审计记录及其他作品材料。
-- 所有生成阶段只读取 manifest 声明的母指令章节视图，不读取 pipeline、manifest 或项目管理全文。Scope 与 standard research 使用 Terra medium；候选、复杂研究、评分、结构和作者保持 Sol medium。
+- 新单件 runner 只输入 canonical one-shot prompt、程序锁定的 metadata 和已验证图片；不得读取 Research Card、Writing Plan、旧正文、聊天或 reviewer 产物。
+- 单件模型固定为 `gpt-5.6-luna` high，无 fallback；只输出 `article.md` 和 `sources.json`。馆级 Scope 与 standard research 使用 Terra medium；候选、复杂研究、评分和结构保持 Sol medium。
 - candidate packet 在模型启动前必须锁定官方身份锚点和风险字段；研究最多 10 件同复杂度一批，研究并发 4、作者并发 10。评分与结构默认读取 `museum-work-index.json`，仅按 `requiresFullCard` 定向补完整卡。
 - 新生成馆可在作品对象内直接携带 `significance` 与 `preciousWhy`；`museums.js` 的集中映射只为旧馆提供覆盖和兼容，不再是唯一数据源。
 - `scripts/process-museum-rating.mjs` 在馆介、路线和逐件正文之前校验珍品证据、档位、档内锚点、独立珍品线与父子重复计数；失败时停止下游。
-- `writing-plan.json.displayMetadata` 映射统一作品数据与标题区 / 侧栏；`draft.md` 只承载作品标题后的讲解正文，并直接从“30 秒先懂”开始。集成不得把两层重新拼成正文段落。
+- 程序从 locked metadata 生成 `display-metadata.json`，从“一分钟看懂”第一段抽取 card，并把 article 原样复制为 draft；集成不得让正文反向覆盖 metadata。
 - reviewer 默认停用；启停状态读取 manifest。
 - 机械处理只分提示、确定性程序修复和 blocker；不因小型风格警告调用模型。
 - 运行时和构建脚本只搬运已批准正文，不创作或改写正文。
@@ -74,6 +75,7 @@ museum scope and selection
 - `node scripts/test-prepare-museum-stage-inputs.mjs`
 - `node scripts/test-run-generation-batch.mjs`
 - `node scripts/test-author-input-regression.mjs`
+- `node scripts/test-one-shot-work.mjs`
 - 受影响馆的数据、图片、URL、结构和浏览器深链检查
 
 测试按影响范围选择；pipeline 管理变更不重跑整馆内容，整馆内容变更不省略该馆真实页面检查。

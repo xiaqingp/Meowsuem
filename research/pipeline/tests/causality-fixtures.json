@@ -2,19 +2,21 @@
   "valid": {
     "pipelineVersion": "$CURRENT",
     "stages": [
-      {"name":"verified_image_evidence","artifact":"verified-image-evidence.json","payload":"images-v1","createdAt":"2026-07-22T09:59:00-07:00","inputSha256":null},
-      {"name":"research_card","artifact":"card.json","payload":"facts-v1","createdAt":"2026-07-22T10:00:00-07:00","inputSha256":"ad1ed153055eec2e7a46a2063a2ca0f5c652bdaf11937813cbbf99e4253fc00b"},
-      {"name":"author_bundle","artifact":"author-result.json","payload":"author-bundle-v1","createdAt":"2026-07-22T10:01:00-07:00","inputSha256":"640a36961d7716d94bd3ae63af2ff6b60c9c92ac8c49c3e27ff47aa0ceff3707"},
-      {"name":"mechanical_processed","artifact":"mechanical-result.json","payload":"mechanical-processed-v1","createdAt":"2026-07-22T10:02:00-07:00","inputSha256":"030bd9cd6e361bf8b11f1f1893e867c1f2acb74e512423d606612f17f834af73"}
+      {"name":"locked_identity_and_metadata","artifact":"locked-metadata.json","payload":"locked-v1","createdAt":"2026-07-25T10:00:00-07:00","inputSha256":null},
+      {"name":"one_shot_search_and_write","artifact":"article-and-sources","payload":"article-sources-v1","createdAt":"2026-07-25T10:01:00-07:00","inputSha256":"f38c69c143ab31c31312c3fc84e018c40dadab8504fd5e5b7355a106908eea8e"},
+      {"name":"risk_verification","artifact":"verification.json","payload":"verification-v1","createdAt":"2026-07-25T10:02:00-07:00","inputSha256":"5ef39368a9b78892d21808d17233c66b7a54dbd5d10f1bb710eded20a7ee9a2f"},
+      {"name":"deterministic_integration","artifact":"integration","payload":"integration-v1","createdAt":"2026-07-25T10:03:00-07:00","inputSha256":"4ac6b4e5c68b525f5323f94611a46f97dd287d84761f149bc34725ecef2d39eb"},
+      {"name":"integration_ready","artifact":"adapter-result.json","payload":"ready-v1","createdAt":"2026-07-25T10:04:00-07:00","inputSha256":"80ba56186aef08eee6b033bcdbf8ee52ddeeb1ce3a8d680c4c334e2348b34f3d"}
     ]
   },
   "backfill": {
     "pipelineVersion": "$CURRENT",
     "stages": [
-      {"name":"verified_image_evidence","artifact":"verified-image-evidence.json","payload":"images-v1","createdAt":"2026-07-22T10:00:00-07:00","inputSha256":null},
-      {"name":"research_card","artifact":"card.json","payload":"facts-v1","createdAt":"2026-07-22T10:03:00-07:00","inputSha256":"ad1ed153055eec2e7a46a2063a2ca0f5c652bdaf11937813cbbf99e4253fc00b"},
-      {"name":"author_bundle","artifact":"author-result.json","payload":"author-bundle-v1","createdAt":"2026-07-22T10:01:00-07:00","inputSha256":"640a36961d7716d94bd3ae63af2ff6b60c9c92ac8c49c3e27ff47aa0ceff3707"},
-      {"name":"mechanical_processed","artifact":"mechanical-result.json","payload":"mechanical-processed-v1","createdAt":"2026-07-22T10:05:00-07:00","inputSha256":"wrong-backfilled-hash"}
+      {"name":"locked_identity_and_metadata","artifact":"locked-metadata.json","payload":"locked-v1","createdAt":"2026-07-25T10:00:00-07:00","inputSha256":null},
+      {"name":"one_shot_search_and_write","artifact":"article-and-sources","payload":"article-sources-v1","createdAt":"2026-07-25T10:03:00-07:00","inputSha256":"f38c69c143ab31c31312c3fc84e018c40dadab8504fd5e5b7355a106908eea8e"},
+      {"name":"risk_verification","artifact":"verification.json","payload":"verification-v1","createdAt":"2026-07-25T10:01:00-07:00","inputSha256":"5ef39368a9b78892d21808d17233c66b7a54dbd5d10f1bb710eded20a7ee9a2f"},
+      {"name":"deterministic_integration","artifact":"integration","payload":"integration-v1","createdAt":"2026-07-25T10:04:00-07:00","inputSha256":"wrong-backfilled-hash"},
+      {"name":"integration_ready","artifact":"adapter-result.json","payload":"ready-v1","createdAt":"2026-07-25T10:05:00-07:00","inputSha256":"80ba56186aef08eee6b033bcdbf8ee52ddeeb1ce3a8d680c4c334e2348b34f3d"}
     ]
   }
 }

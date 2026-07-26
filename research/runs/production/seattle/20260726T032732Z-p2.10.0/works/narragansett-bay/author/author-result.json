@@ -1,0 +1,66 @@
+{
+    "runId":  "m28-12-v2.7.2-seattle-author-narragansett-bay-2026-07-24",
+    "stage":  "author",
+    "museumId":  "seattle",
+    "workId":  "narragansett-bay",
+    "pipelineVersion":  "2.7.2",
+    "instructionVersion":  "2.1.1",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-07-24T23:18:26.9880730-07:00",
+    "modelStartedAt":  "2026-07-24T23:18:27.5279065-07:00",
+    "modelCompletedAt":  "2026-07-24T23:20:35.6659922-07:00",
+    "completedAt":  "2026-07-24T23:20:35.6969055-07:00",
+    "runnerDurationMs":  128709,
+    "modelDurationMs":  128138,
+    "tokenUsage":  {
+                       "total":  9491,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "6",
+                                    "8",
+                                    "9",
+                                    "10",
+                                    "12",
+                                    "13",
+                                    "14"
+                                ],
+    "logPath":  "research/m28-12/seattle/works/narragansett-bay/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "8c08c30f9d915a8942ed605287f7993a6514742c8f895b427876a6ffabb3fda2"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/research-batch-01/narragansett-bay-research-card.md",
+                       "role":  "research_card",
+                       "sha256":  "ff9c497f0ca53a1dc29d2e20cb4d1db8a6c10c7575837667882df757086fb31a"
+                   },
+                   {
+                       "path":  "research/m28-12/seattle/works/narragansett-bay/work-context.json",
+                       "role":  "work_context",
+                       "sha256":  "50c6d608ec7c4e94d98ccc4d908bc58d08e95c77f3d626f74f6369e3480b8bf4"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "writing-plan.json",
+                        "sha256":  "c8587cecbaff853f7bafa2ef9a063e826af9f4b2a76a124b3a72aa6e35b1cb45",
+                        "bytes":  8284
+                    },
+                    {
+                        "path":  "card.txt",
+                        "sha256":  "4cb3837ecbc034d564d23bccfac39c4151511387d6fbc2d406ce1b2b112c61cd",
+                        "bytes":  586
+                    },
+                    {
+                        "path":  "draft.md",
+                        "sha256":  "4f26df4f4a3f4db0bd2c6f6aa35b58be3fd13d0a93feefeb40197f0cd294a623",
+                        "bytes":  3854
+                    }
+                ]
+}

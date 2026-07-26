@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.7.2",
+  "runId": "m28-12-v2.7.2-seattle-author-folio-from-the-dispersed-blue-quran-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-25T06:24:43.664Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_availability_from_locked_work_context",
+    "derived_imagePolicy_from_locked_work_context"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "d8ec5eadcbb108e61efb3db4e20fc8c87c67e1d2419166c88c3316f80727d1a8",
+      "bytes": 10599
+    },
+    {
+      "path": "card.txt",
+      "sha256": "59ea8a0b5fa20bc1100973c79661ec65b78b080a79157bfef5739b8cef0a6916",
+      "bytes": 478
+    },
+    {
+      "path": "draft.md",
+      "sha256": "f707a42a4afb05efaec616b39fe6fed0c78298fee38e125657b2828f00908fa9",
+      "bytes": 4775
+    }
+  ]
+}

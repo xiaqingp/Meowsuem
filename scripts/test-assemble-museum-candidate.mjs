@@ -102,6 +102,27 @@ try {
     publication.files.find((item) => item.source === "fixture.md").destination,
     "research/content/fixture.md",
   );
+  await fs.rm(candidate, {recursive: true, force: true});
+  const integrationRoot = path.join(workRoot, "one-shot", "integration");
+  await fs.mkdir(integrationRoot, {recursive: true});
+  await fs.writeFile(path.join(integrationRoot, "draft.md"), "# 《作品一》 / Work One\n\n## 一分钟看懂\n\nOne-shot 正文。\n\n## 中间\n\n解释。\n\n## 最后再看一眼\n\n再看。\n");
+  await fs.writeFile(path.join(integrationRoot, "card.txt"), "One-shot 卡片。");
+  await fs.writeFile(path.join(integrationRoot, "display-metadata.json"), JSON.stringify({
+    titleZh: "《作品一》",
+    titleEn: "Work One",
+    by: "作者 · 国家",
+    date: "1900",
+    material: "布面油画",
+    place: "测试馆",
+    priority: "绝对不可错过",
+    significance: "稀世珍品",
+    stay: "建议停留 3 分钟"
+  }));
+  await fs.writeFile(path.join(integrationRoot, "verification.json"), '{"status":"passed","errors":[],"warnings":[],"checks":{}}');
+  await fs.writeFile(path.join(integrationRoot, "adapter-result.json"), '{"status":"passed"}');
+  result = spawnSync(process.execPath, [script, ...identity], {encoding: "utf8"});
+  if (result.status !== 0) throw new Error(result.stderr || result.stdout);
+  assert.match(await fs.readFile(path.join(candidate, "fixture.md"), "utf8"), /## 一分钟看懂/);
   result = spawnSync(process.execPath, [script, ...identity, `--candidate=${root}`], { encoding: "utf8" });
   if (result.status === 0 || !result.stderr.includes("--candidate must exactly equal")) {
     throw new Error("assembler accepted candidate output outside the run");

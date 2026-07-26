@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "museumId": "seattle",
+  "workId": "sea-change",
+  "sources": [
+    {
+      "title": "Sea Change",
+      "publisher": "Seattle Art Museum",
+      "url": "https://art.seattleartmuseum.org/objects/2742/sea-change",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "makingProcess",
+        "historicalContext",
+        "collectionHistory",
+        "quotation"
+      ]
+    },
+    {
+      "title": "Jackson Pollock",
+      "publisher": "The Museum of Modern Art",
+      "url": "https://www.moma.org/artists/4675-jackson-pollock",
+      "sourceType": "museum",
+      "usedFor": [
+        "date",
+        "makingProcess",
+        "historicalContext"
+      ]
+    }
+  ],
+  "uncertainties": [
+    "本次核对未确认《海变》当前是否正在展出，因此正文未作展出状态判断。"
+  ],
+  "highRiskClaims": []
+}

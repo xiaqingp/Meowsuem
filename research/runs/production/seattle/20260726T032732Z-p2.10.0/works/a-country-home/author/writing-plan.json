@@ -1,0 +1,315 @@
+{
+  "workId": "a-country-home",
+  "narrativeMainline": {
+    "valueType": "artist_landmark",
+    "mainline": "丘奇没有靠瀑布、雪峰或剧烈夕阳制造中心，而是让家屋、水、树木与天空共享柔和的光色和空气，由此把普通的新英格兰家园组织成统一整体。这种安静的统一，既是他早期方法的提炼，也让人看见他转向南美题材和后来巨幅奇观之前的生涯节点。",
+    "readerStartingPoint": "零背景读者从标题和画面能够知道：这是一幅横向乡间风景，天空、远山或水面、近岸、房屋与树木同时出现；仅凭这些不能确认具体地点，也不能知道它在丘奇生涯中的位置。",
+    "storyBeats": [
+      {
+        "beat": "先说明作品最突出的成就不是题材惊险，而是普通元素共享同一空气，并用天空、建筑、水与植被之间反复出现的柔和光色落实这一点。",
+        "researchRefs": [
+          "R66",
+          "R73"
+        ],
+        "readerGain": "读者得到快层答案，并知道可以从哪些画面区域确认。"
+      },
+      {
+        "beat": "再把这种统一放回1854年的生涯位置：作品提炼了丘奇自1849年以来的观念，处在1853年南美旅行之后、后来公共奇观式巨幅风景之前。",
+        "researchRefs": [
+          "R67",
+          "R68",
+          "R71"
+        ],
+        "readerGain": "读者理解画面的安静不是次要或未成熟，而是丘奇早期方法受到称赞的成熟节点。"
+      },
+      {
+        "beat": "接着解释家屋为何能够自然进入风景：1850年代同期文字把人的存在视为对风景的改善；这里只把它作为语境，不升级为丘奇明确遵循的宣言。",
+        "researchRefs": [
+          "R69",
+          "R73"
+        ],
+        "readerGain": "读者理解建筑没有占满画面，却参与了当时关于家园化自然的观看方式。"
+      },
+      {
+        "beat": "最后用同期作品与后来的《尼亚加拉瀑布》《安第斯山之心》划清价值边界，再回到水边、树丛和开阔天空的空间延伸。",
+        "researchRefs": [
+          "R71",
+          "R72",
+          "R73"
+        ],
+        "readerGain": "读者既明白本作不可被后来奇观名作简单取代，也不会把它误升为全球不可替代的稀世珍品；第二眼转向空气如何跨越各区域。"
+      }
+    ],
+    "humorBasis": "评论者称赞的不是惊人题材，而是普通元素被同一空气统合；这种评价与丘奇后来以巨幅自然奇观闻名形成真实反差。",
+    "highRiskClaims": [
+      {
+        "claim": "作品表达了人物或居住者的具体心理。",
+        "evidenceType": "无支持证据",
+        "allowedWording": "只描述房屋、树木、水、天空的位置及共享的光色。",
+        "forbiddenUpgrade": "不得写宁静、满足、乡愁等人物或居住者心理。"
+      },
+      {
+        "claim": "丘奇有意用本作发表关于人与自然的政治或社会宣言。",
+        "evidenceType": "同期思想语境",
+        "researchRefs": [
+          "R69"
+        ],
+        "allowedWording": "同期文字把人的存在视为对风景的改善，这为画中的家园化景观提供语境。",
+        "forbiddenUpgrade": "不得写丘奇明确采用该文本、逐句据此作画或有确定政治意图。"
+      },
+      {
+        "claim": "本作是丘奇早期观念的总结。",
+        "evidenceType": "馆方带限定的判断",
+        "researchRefs": [
+          "R67"
+        ],
+        "allowedWording": "馆方推测它或许是丘奇自1849年以来观念的总结性陈述；正文优先写成早期提炼。",
+        "forbiddenUpgrade": "不得写成确定的最终总结、突然转向或唯一成熟节点。"
+      },
+      {
+        "claim": "本作中的观看顺序等于真实历史或创作时间顺序。",
+        "evidenceType": "直接观察只能支持空间关系",
+        "researchRefs": [
+          "R73"
+        ],
+        "allowedWording": "可按近岸、水边、树丛、远处与天空的空间关系观看。",
+        "forbiddenUpgrade": "不得把视觉移动写成事件发生或作品绘制的先后。"
+      },
+      {
+        "claim": "本作比所有可比作品更好，或具有全球不可替代性。",
+        "evidenceType": "比较证据明确否定最高级",
+        "researchRefs": [
+          "R71",
+          "R72"
+        ],
+        "allowedWording": "它以统一空气区别于更戏剧化、景物更丰富的同期作品，也保存后来奇观名作不能替代的早期家园尺度与生涯位置。",
+        "forbiddenUpgrade": "不得写世界唯一、最佳、仅存、无可替代或稀世珍品。"
+      },
+      {
+        "claim": "画面对应一处可以命名的真实庄园。",
+        "evidenceType": "地点未确认",
+        "researchRefs": [
+          "R64",
+          "R73"
+        ],
+        "allowedWording": "写乡间家园或新英格兰家园题材，不指定庄园名称。",
+        "forbiddenUpgrade": "不得虚构或推定具体地点。"
+      }
+    ]
+  },
+  "mustNotAssume": [
+    "不得假定读者认为普通题材不重要，或先替读者纠正这种看法。",
+    "不得确认画中家园的具体地点或庄园名称。",
+    "不得把柔和光色解释为未经来源支持的具体天气、时刻或光源。",
+    "不得把同期家园化风景观念写成丘奇明确采用的创作纲领。",
+    "不得把房屋或景观外观升级为居住者的心理、身份或生活故事。",
+    "不得声称作品当天必然展出或位于某一固定展厅。",
+    "不得把本作标为稀世珍品、世界唯一或丘奇最重要的作品。"
+  ],
+  "displayMetadata": {
+    "by": "Frederic Edwin Church（弗雷德里克·埃德温·丘奇）",
+    "date": "1854",
+    "material": "布面油画，81.3 × 129.5 厘米",
+    "place": "Seattle Art Museum，馆藏号 65.80",
+    "priority": "强烈推荐",
+    "significance": "重要藏品",
+    "stay": "5—8 分钟",
+    "availability": "collection_rotation",
+    "imagePolicy": "object_image"
+  },
+  "claimLedger": [
+    {
+      "id": "C01",
+      "claim": "作品由Frederic Edwin Church创作于1854年，为布面油画，尺寸81.3 × 129.5厘米，藏于Seattle Art Museum，馆藏号65.80。",
+      "type": "来源事实",
+      "researchRefs": [
+        "R64"
+      ],
+      "usedIn": [
+        "displayMetadata",
+        "draft标题"
+      ]
+    },
+    {
+      "id": "C02",
+      "claim": "馆方将作品列入2022年10月20日开始并标为ongoing的“American Art: The Stories We Carry”，但当天位置仍需核验。",
+      "type": "来源事实",
+      "researchRefs": [
+        "R65"
+      ],
+      "usedIn": [
+        "displayMetadata"
+      ]
+    },
+    {
+      "id": "C03",
+      "claim": "1854年的评论认为，相比《暴风雨后的黄昏》和《新英格兰风景》，本作的突出之处在于各部分处于同一空气下，形成更统一的整体，而不在于更戏剧化或景物更多。",
+      "type": "来源事实与比较",
+      "researchRefs": [
+        "R66"
+      ],
+      "usedIn": [
+        "narrativeMainline",
+        "card",
+        "draft快层",
+        "draft深层",
+        "draft趣闻"
+      ]
+    },
+    {
+      "id": "C04",
+      "claim": "馆方认为本作是丘奇自1849年以来观念的提炼，并推测它或许是总结性陈述；它也是其早期生涯最受称赞的画作之一。",
+      "type": "来源事实与有限定的判断",
+      "researchRefs": [
+        "R67"
+      ],
+      "usedIn": [
+        "narrativeMainline",
+        "card",
+        "draft生涯段"
+      ]
+    },
+    {
+      "id": "C05",
+      "claim": "丘奇1853年到过南美，此后声名与不同类型的新世界景观相连；本作处于这次旅行之后、后来巨幅奇观之前。",
+      "type": "来源事实与编辑整理",
+      "researchRefs": [
+        "R68",
+        "R71"
+      ],
+      "usedIn": [
+        "narrativeMainline",
+        "card",
+        "draft生涯段"
+      ]
+    },
+    {
+      "id": "C06",
+      "claim": "1851年的同期文字主张人的存在会改善风景，并把人视为自然存在于伊甸园中；这可作为家园化景观的思想语境，但不能证明丘奇逐句据此作画。",
+      "type": "来源事实与证据边界",
+      "researchRefs": [
+        "R69"
+      ],
+      "usedIn": [
+        "draft家屋段",
+        "draft事实边界"
+      ]
+    },
+    {
+      "id": "C07",
+      "claim": "作品来源链由General Joseph Gardner Swift开始，经家族传承，最终由Anna Robeson Baker Carmichael于1965年赠予SAM。",
+      "type": "来源事实",
+      "researchRefs": [
+        "R70"
+      ],
+      "usedIn": []
+    },
+    {
+      "id": "C08",
+      "claim": "最近的同期比较对象是《暴风雨后的黄昏》和《新英格兰风景》；前者提供更戏剧化的落日，后者包含更丰富的景物，而本作以统一的大气效果见长。",
+      "type": "来源事实与比较",
+      "researchRefs": [
+        "R66",
+        "R71"
+      ],
+      "usedIn": [
+        "draft比较段"
+      ]
+    },
+    {
+      "id": "C09",
+      "claim": "丘奇1857年的《尼亚加拉瀑布》和1859年的《安第斯山之心》成为单画展览的公共奇观；它们能解释丘奇如何制造公共奇观，却不能替代本作保存的早期家园尺度与统一空气。",
+      "type": "来源事实与比较结论",
+      "researchRefs": [
+        "R71",
+        "R72"
+      ],
+      "usedIn": [
+        "narrativeMainline",
+        "card",
+        "draft生涯段",
+        "draft比较段"
+      ]
+    },
+    {
+      "id": "C10",
+      "claim": "丘奇早期和成熟期都有可比名作，因此本作的全球不可替代性不能成立；其重要性在于早期提炼与后来奇观风景之间的清楚生涯位置。",
+      "type": "比较结论",
+      "researchRefs": [
+        "R72"
+      ],
+      "usedIn": [
+        "displayMetadata",
+        "draft比较段",
+        "draft事实边界"
+      ]
+    },
+    {
+      "id": "C11",
+      "claim": "横幅画面由大面积天空、远山或水面与近景岸地分层，房屋和树木位于中近景，人造建筑没有占满画面。",
+      "type": "直接观察",
+      "researchRefs": [
+        "R73"
+      ],
+      "usedIn": [
+        "narrativeMainline",
+        "card",
+        "draft快层",
+        "draft家屋段"
+      ]
+    },
+    {
+      "id": "C12",
+      "claim": "云层与地面受到同一柔和光色统合，水边、树丛和开阔天空形成从近处向远处延伸的空间。",
+      "type": "直接观察",
+      "researchRefs": [
+        "R73"
+      ],
+      "usedIn": [
+        "narrativeMainline",
+        "card",
+        "draft快层",
+        "draft深层",
+        "draft最后一眼"
+      ]
+    },
+    {
+      "id": "C13",
+      "claim": "作品没有依靠单一瀑布、雪峰或剧烈夕阳，而是让天空、建筑、水与植被共享大气；统一可在跨区域反复出现的光色中核对。",
+      "type": "来源事实、直接观察与编辑整理",
+      "researchRefs": [
+        "R66",
+        "R73"
+      ],
+      "usedIn": [
+        "narrativeMainline",
+        "card",
+        "draft快层",
+        "draft深层"
+      ]
+    },
+    {
+      "id": "C14",
+      "claim": "馆方资料没有确认具体地点，因此不能把画面命名为某一真实庄园。",
+      "type": "证据边界",
+      "researchRefs": [
+        "R64",
+        "R73"
+      ],
+      "usedIn": [
+        "draft事实边界"
+      ]
+    },
+    {
+      "id": "C15",
+      "claim": "对象图摄影署名Paul Macapia，开放许可未注明。",
+      "type": "来源事实",
+      "researchRefs": [
+        "R74"
+      ],
+      "usedIn": [
+        "displayMetadata"
+      ]
+    }
+  ]
+}

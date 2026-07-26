@@ -1,0 +1,270 @@
+{
+  "workId": "naaxein",
+  "narrativeMainline": {
+    "valueType": "civilization_system",
+    "mainline": "Naaxein 的意义不是停在一块平展的纺织物上：雪松树皮与山羊毛被织成镜像曲线，图案又与穿着资格、礼仪场合和身体运动相连。材料、织工的知识、氏族权利与舞动共同构成了这类礼仪袍的完整意义。",
+    "readerStartingPoint": "零背景读者从名称与对象图只能确认这是一件横向展开、带长流苏、具有对称曲线纹样的纺织物；尚不知道材料怎样形成纹样，也不知道这类袍服与身份、礼仪和舞动的关系。",
+    "storyBeats": [
+      {
+        "beat": "先从展开状态下可见的长流苏、黄黑浅色曲线与左右呼应的纹样入手，说明纹样由织造结构形成，而非印在表面。",
+        "researchRefs": [
+          "R106"
+        ],
+        "readerGain": "读者先获得可核对的观看入口，并理解这是一件结构本身生成图案的纺织物。"
+      },
+      {
+        "beat": "解释软化的雪松树皮与山羊毛怎样组成结构，并用半幅 pattern board 与织工完成镜像的做法说明技术知识和判断。",
+        "researchRefs": [
+          "R100",
+          "R101",
+          "R102"
+        ],
+        "readerGain": "读者理解曲线与对称来自逐段织造，也理解织工并非机械照图复制。"
+      },
+      {
+        "beat": "把织造知识放回身份制度：这类袍服的图案可能承载家族 crest 或口述历史，通常由高身份者在 potlatch 或宴会等场合穿着。",
+        "researchRefs": [
+          "R99",
+          "R100"
+        ],
+        "readerGain": "读者理解图案、知识、穿着资格和礼仪场合共同决定意义。"
+      },
+      {
+        "beat": "最后把平展的馆藏图重新理解为舞袍的静止状态，以长流苏和柔软边缘作为第二眼入口，同时说明本作具体 crest、穿着者及制作者仍无法确认。",
+        "researchRefs": [
+          "R103",
+          "R106",
+          "R107"
+        ],
+        "readerGain": "读者能想见这类作品在身体运动中的观看方式，同时不把比较袍的具体身份套到本作。"
+      }
+    ],
+    "humorBasis": "半幅 pattern board 与完整镜像之间的真实劳动反差可形成轻微的口语意外感，但不把织造简化成笑料。",
+    "highRiskClaims": [
+      {
+        "claim": "本作纹样代表某种具体动物、氏族 crest 或口述历史",
+        "evidenceType": "来源边界与类别比较",
+        "basis": [
+          "R100",
+          "R103",
+          "R104",
+          "R107"
+        ],
+        "allowedWording": "这类袍服的曲线图案可以承载家族 crest 或口述历史；本作具体纹样身份无法仅凭现有资料确认。",
+        "forbiddenUpgrade": "不得把比较袍的鹰、坐鸟或任何具体氏族身份套到 68.194。"
+      },
+      {
+        "claim": "本作由某位女性织工制作，或织造知识在所有时期都由母女秘密传承",
+        "evidenceType": "类别来源与具名织工说明",
+        "basis": [
+          "R99",
+          "R100",
+          "R107"
+        ],
+        "allowedWording": "相关传统中，织造多由女性承担并可由母女传承；Dorica Jackson 说明这项知识曾高度保密，掌握技能带来很高声望。",
+        "forbiddenUpgrade": "不得确认本作制作者的性别、姓名、传承关系，或把特定时间经验写成无时间边界的定律。"
+      },
+      {
+        "claim": "本作曾由高身份者在 potlatch 中舞动",
+        "evidenceType": "类别用途与比较对象",
+        "basis": [
+          "R100",
+          "R103",
+          "R106",
+          "R107"
+        ],
+        "allowedWording": "Naaxein 这类袍服通常由高身份者在 potlatch 或宴会等特别场合穿着，并可作为舞袍在身体运动中被观看。",
+        "forbiddenUpgrade": "不得确认 68.194 的原穿着者、具体仪式、舞蹈事件或真实历史先后。"
+      },
+      {
+        "claim": "本作的织造耗时一年半至两年",
+        "evidenceType": "具体比较袍教育资料",
+        "basis": [
+          "R101"
+        ],
+        "allowedWording": "比较资料显示，从备料、设计到织造，一件具体 Naaxein 至少可能耗时一年半至两年。",
+        "forbiddenUpgrade": "不得把该工时写成本作的确切制作时长。"
+      },
+      {
+        "claim": "本作全球唯一、最稀有或不可替代",
+        "evidenceType": "馆内比较组与数量边界",
+        "basis": [
+          "R102",
+          "R104",
+          "R105"
+        ],
+        "allowedWording": "本作是 SAM 西北海岸历史纺织收藏群中的重要节点；同馆和其他馆藏有可比作品，全球存世总数未知。",
+        "forbiddenUpgrade": "不得称为稀世珍品、世界唯一、仅存或已证实全球不可替代。"
+      },
+      {
+        "claim": "对象图显示的观看顺序等于作品的历史时间顺序或作者意图",
+        "evidenceType": "直接观察边界",
+        "basis": [
+          "R106",
+          "R107"
+        ],
+        "allowedWording": "只能描述平展状态下可见的形状、颜色、位置与流苏，并结合类别资料解释动态观看。",
+        "forbiddenUpgrade": "不得从图形位置推断故事先后、人物心理、作者意图或历史事件。"
+      }
+    ]
+  },
+  "mustNotAssume": [
+    "不得假设读者把它当作普通毯子，正文应直接建立礼仪袍的用途与观看方式。",
+    "不得确认本作制作者、原穿着者、氏族、具体 crest、生物身份或每种染料成分。",
+    "不得把 SAM 83.229 的坐鸟图案或 AMNH 比较袍可能呈现的鹰 crest 套到本作。",
+    "不得把比较对象的一年半至两年工时写成本作确切工期。",
+    "不得假设两组尺寸分别是否包含流苏；馆方没有解释测量口径。",
+    "不得假设本作当前在展，或给出具体展厅位置。",
+    "不得把图像中的空间次序、视觉中心或左右关系写成真实历史先后、作者意图或人物心理。",
+    "不得宣称本作全球唯一、仅存、最优或具有已证实的全球不可替代性。"
+  ],
+  "displayMetadata": {
+    "by": "Tlingit",
+    "date": "约 1880",
+    "material": "山羊毛、黄雪松树皮、染料",
+    "place": "Seattle Art Museum，馆藏号 68.194",
+    "priority": "绝对不可错过",
+    "significance": "重要藏品",
+    "stay": "8—12 分钟",
+    "availability": "display_status_unknown",
+    "imagePolicy": "object_image"
+  },
+  "claimLedger": [
+    {
+      "id": "C01",
+      "claim": "本作题名为 Naaxein，文化归属 Tlingit，约 1880 年，材质为山羊毛、黄雪松树皮与染料，馆藏号 68.194。",
+      "researchRefs": [
+        "R97"
+      ],
+      "usedIn": [
+        "displayMetadata",
+        "draft 标题与资料来源"
+      ]
+    },
+    {
+      "id": "C02",
+      "claim": "对象页未提供展史或当前展厅字段，展出状态未知。",
+      "researchRefs": [
+        "R98"
+      ],
+      "usedIn": [
+        "displayMetadata",
+        "draft 事实边界"
+      ]
+    },
+    {
+      "id": "C03",
+      "claim": "当代 Chilkat 织工 Dorica Jackson 说明织造知识曾高度保密，掌握该技能带来很高声望。",
+      "researchRefs": [
+        "R99"
+      ],
+      "usedIn": [
+        "draft 深层段落"
+      ]
+    },
+    {
+      "id": "C04",
+      "claim": "Naaxiin／Chilkat 袍由 Tsimshian、Tlingit 与 Haida 社群实践；传统上织造多由女性承担并由母女传承，图案可承载家族 crest 或口述历史，通常由高身份者在 potlatch 或宴会等特别场合穿着。",
+      "researchRefs": [
+        "R100"
+      ],
+      "usedIn": [
+        "draft 30 秒先懂",
+        "draft 深层段落",
+        "card"
+      ]
+    },
+    {
+      "id": "C05",
+      "claim": "典型 pattern board 只显示半边图案，织工完成另一半镜像；比较对象从备料到织造至少可能需一年半至两年，但该工时不能套成本作确切工期。",
+      "researchRefs": [
+        "R101"
+      ],
+      "usedIn": [
+        "draft 工艺段落",
+        "draft 趣闻段落",
+        "card"
+      ]
+    },
+    {
+      "id": "C06",
+      "claim": "同类晚十九世纪 Tlingit Naaxein 以山羊毛包裹雪松树皮并采用纬线缠织，具有五边形、流苏、黄底及黑白对称纹样。",
+      "researchRefs": [
+        "R102"
+      ],
+      "usedIn": [
+        "draft 工艺段落"
+      ]
+    },
+    {
+      "id": "C07",
+      "claim": "AMNH 比较袍是为领袖制作的舞袍，说明此类别与舞蹈及氏族权利的联系，但其具体鹰身份不适用于本作。",
+      "researchRefs": [
+        "R103"
+      ],
+      "usedIn": [
+        "draft 动态观看段落",
+        "draft 事实边界"
+      ]
+    },
+    {
+      "id": "C08",
+      "claim": "SAM 至少另藏三件年代相近的 Naaxein，其中 83.229 的袍面复制相邻 pattern board 的坐鸟设计。",
+      "researchRefs": [
+        "R104"
+      ],
+      "usedIn": [
+        "draft 馆藏与比较段落"
+      ]
+    },
+    {
+      "id": "C09",
+      "claim": "同馆及其他馆藏有可比 Naaxein，全球存世数未知，因此本作不能标为稀世珍品；其价值在材料、技术、身份制度及馆藏群位置。",
+      "researchRefs": [
+        "R100",
+        "R102",
+        "R104",
+        "R105"
+      ],
+      "usedIn": [
+        "draft 馆藏与比较段落",
+        "displayMetadata"
+      ]
+    },
+    {
+      "id": "C10",
+      "claim": "对象图中作品横向展开，底边与两侧有长流苏；黄、黑、浅色构成对称曲线，中央与两侧有眼形、卵形和折曲轮廓；上缘较直，下缘因流苏形成柔软、活动的边界；纹样由织造结构形成。",
+      "researchRefs": [
+        "R106"
+      ],
+      "usedIn": [
+        "draft 30 秒先懂",
+        "draft 最后一眼",
+        "card"
+      ]
+    },
+    {
+      "id": "C11",
+      "claim": "现有资料不能确认本作的具体 crest、生物身份、原穿着者、氏族、制作者或每种染料成分。",
+      "researchRefs": [
+        "R97",
+        "R103",
+        "R106",
+        "R107"
+      ],
+      "usedIn": [
+        "draft 事实边界"
+      ]
+    },
+    {
+      "id": "C12",
+      "claim": "图片开放许可与摄影署名未列明，且图案可能涉及氏族权利。",
+      "researchRefs": [
+        "R108"
+      ],
+      "usedIn": [
+        "displayMetadata 的 imagePolicy 决策依据"
+      ]
+    }
+  ]
+}

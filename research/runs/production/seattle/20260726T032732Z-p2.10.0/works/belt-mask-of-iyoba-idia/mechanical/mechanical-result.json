@@ -1,0 +1,30 @@
+{
+  "pipelineVersion": "2.7.2",
+  "runId": "m28-12-v2.7.2-seattle-author-belt-mask-of-iyoba-idia-2026-07-24",
+  "stage": "mechanical_processed",
+  "processedAt": "2026-07-25T06:24:43.275Z",
+  "status": "passed",
+  "blockers": [],
+  "advisories": [],
+  "deterministicFixes": [
+    "derived_availability_from_locked_work_context",
+    "derived_imagePolicy_from_locked_work_context"
+  ],
+  "outputs": [
+    {
+      "path": "writing-plan.json",
+      "sha256": "ac5c15353bbb18781fb3d187cf770caee49c2991676e53b186ac42f2f988cfb4",
+      "bytes": 8432
+    },
+    {
+      "path": "card.txt",
+      "sha256": "dbe64c713002f910744da2823df11a431a32979450cc7ff87b502ecfa4a03196",
+      "bytes": 670
+    },
+    {
+      "path": "draft.md",
+      "sha256": "b36c1f867a0671ee9068f7ce93e22a7c53fe538d42d8db0ecfa8945006175160",
+      "bytes": 4978
+    }
+  ]
+}

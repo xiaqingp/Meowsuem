@@ -16,7 +16,7 @@ const verify = run => {
     if (previous) {
       if (stage.inputSha256 !== hash(previous.payload)) failures.push(`${stage.name}: upstream hash mismatch`);
       if (Date.parse(stage.createdAt) < Date.parse(previous.createdAt)) failures.push(`${stage.name}: created before its upstream artifact`);
-    } else if (stage.inputSha256 !== null) failures.push("research_card: must not claim a generated upstream artifact");
+    } else if (stage.inputSha256 !== null) failures.push("locked_identity_and_metadata: must not claim a generated upstream artifact");
   }
   return failures;
 };

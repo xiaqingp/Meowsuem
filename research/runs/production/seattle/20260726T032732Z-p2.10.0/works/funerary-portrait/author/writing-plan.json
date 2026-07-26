@@ -1,0 +1,238 @@
+{
+  "workId": "funerary-portrait",
+  "narrativeMainline": {
+    "valueType": "ritual_or_original_context",
+    "mainline": "这块正面胸像板画原本固定在木乃伊面部上方，把希腊—罗马式的个人肖像方式嵌入埃及的木乃伊葬俗。它今天虽以独立板画出现，窄长木板、正面人物与残损边缘仍能把观看重新带回身体和裹尸系统。",
+    "readerStartingPoint": "读者从标题和图像可以知道这是一幅窄长木板上的正面人物肖像，但尚不知道它原本怎样使用，也不知道画中人物是谁。",
+    "storyBeats": [
+      {
+        "beat": "先说明板画原本固定在木乃伊面部上方，使独立肖像重新回到身体与裹尸系统。",
+        "researchRefs": [
+          "R05",
+          "R10",
+          "R13"
+        ],
+        "readerGain": "理解作品的原始用途，并知道窄长板形与残损边缘为何值得看。"
+      },
+      {
+        "beat": "再解释罗马埃及丧葬肖像把希腊—罗马的自然主义肖像习惯带入埃及木乃伊传统。",
+        "researchRefs": [
+          "R03",
+          "R04",
+          "R09",
+          "R11",
+          "R12"
+        ],
+        "readerGain": "理解正面胸像、直视双眼和衣服色块不仅呈现个人面貌，也服务于更古老的丧葬制度。"
+      },
+      {
+        "beat": "最后用同类存世数量、馆内比较对象和身份未知的边界，说明本作为什么重要但不能被写成唯一实例或人物真实相貌的证明。",
+        "researchRefs": [
+          "R07",
+          "R08",
+          "R09"
+        ],
+        "readerGain": "把具体人物形象的不可替代与同类制度已有其他实例区分开，并带着这一边界复看双眼和板边。"
+      }
+    ],
+    "humorBasis": "",
+    "highRiskClaims": [
+      {
+        "claim": "画中人物的心理状态",
+        "evidenceType": "直接观察只能确认正面胸像与双眼朝向观看者",
+        "allowedWording": "人物双眼正向画外观看者",
+        "forbiddenUpgrade": "人物凝视、期待、恐惧或坦然面对死亡"
+      },
+      {
+        "claim": "肖像与本人真实长相的关系",
+        "evidenceType": "研究卡明确限定肖像相似度未知",
+        "allowedWording": "这幅画以个人面貌进入丧葬装置；是否准确还原本人无法确认",
+        "forbiddenUpgrade": "这是死者的真实容貌或精确写生"
+      },
+      {
+        "claim": "作者或委托者的意图",
+        "evidenceType": "同类原始用途与跨文化语境的来源事实",
+        "allowedWording": "这类板画固定在木乃伊面部上方，并结合两种传统",
+        "forbiddenUpgrade": "作者明确想融合文明或为死者追求永生"
+      },
+      {
+        "claim": "作品来源地点",
+        "evidenceType": "SAM 仅记录 possibly from Mazghuna",
+        "allowedWording": "可能来自埃及 Mazghuna",
+        "forbiddenUpgrade": "出土于 Mazghuna"
+      },
+      {
+        "claim": "材料配方",
+        "evidenceType": "SAM 媒材字段与同类材料研究；没有本板检测",
+        "allowedWording": "木板上的水性黏结媒介绘画；馆藏字段记作 tempera",
+        "forbiddenUpgrade": "确定为蛋黄蛋彩、动物胶或植物胶"
+      },
+      {
+        "claim": "稀有度与不可替代性",
+        "evidenceType": "全球约一千件同类概述及 SAM 馆内比较对象",
+        "allowedWording": "本作是重要藏品；其他同类可以解释同一丧葬制度，但不能替代这块板上的具体人物形象与表面",
+        "forbiddenUpgrade": "世界唯一、仅存、无可比较或稀世珍品"
+      }
+    ]
+  },
+  "mustNotAssume": [
+    "画中人物的姓名、年龄、社会身份或心理状态",
+    "肖像准确记录了本人的真实长相",
+    "作品确定出土于 Mazghuna",
+    "本板使用蛋黄、动物胶、植物胶中的任何一种确定黏结剂",
+    "具体木种、颜料、修复史或原始装配细节",
+    "作者或委托者明确意图融合希腊、罗马与埃及文化",
+    "作品是世界唯一、仅存实例或当前必定展出",
+    "观看者会把它误认成普通室内肖像"
+  ],
+  "displayMetadata": {
+    "by": "Egyptian（罗马时期埃及语境）",
+    "date": "1–2 世纪",
+    "material": "木板蛋彩",
+    "place": "Seattle Art Museum",
+    "priority": "强烈推荐",
+    "significance": "重要藏品",
+    "stay": "5—8 分钟",
+    "availability": "display_status_unknown",
+    "imagePolicy": "object_image"
+  },
+  "claimLedger": [
+    {
+      "claimId": "C01",
+      "claim": "作品题名为 Funerary Portrait，归为 Egyptian，年代为 1–2 世纪，材质字段为 tempera on wood，馆藏号 50.62。",
+      "researchRefs": [
+        "R01"
+      ],
+      "usedIn": [
+        "displayMetadata",
+        "draft 标题与资料来源"
+      ]
+    },
+    {
+      "claimId": "C02",
+      "claim": "作品可能来自 Mazghuna，但地点并不确定。",
+      "researchRefs": [
+        "R02"
+      ],
+      "usedIn": [
+        "draft 事实边界"
+      ]
+    },
+    {
+      "claimId": "C03",
+      "claim": "本作可靠属于罗马埃及丧葬肖像比较域，但人物姓名未知。",
+      "researchRefs": [
+        "R03"
+      ],
+      "usedIn": [
+        "draft 深层与事实边界"
+      ]
+    },
+    {
+      "claimId": "C04",
+      "claim": "罗马埃及木板丧葬肖像主要流行于 1–3 世纪，被嵌入埃及木乃伊传统，同时回应希腊—罗马的自然主义肖像习惯。",
+      "researchRefs": [
+        "R04"
+      ],
+      "usedIn": [
+        "card",
+        "draft 快层与深层"
+      ]
+    },
+    {
+      "claimId": "C05",
+      "claim": "这类木板通常固定在木乃伊面部上方，是身体与裹尸系统的一部分。",
+      "researchRefs": [
+        "R05"
+      ],
+      "usedIn": [
+        "card",
+        "draft 快层与深层"
+      ]
+    },
+    {
+      "claimId": "C06",
+      "claim": "tempera 是水性黏结媒介类别；本板没有材料检测足以确定具体胶种或蛋黄配方。",
+      "researchRefs": [
+        "R06"
+      ],
+      "usedIn": [
+        "draft 事实边界"
+      ]
+    },
+    {
+      "claimId": "C07",
+      "claim": "现存罗马埃及木乃伊肖像约一千件，本作不能据此称为没有第二件的稀世珍品。",
+      "researchRefs": [
+        "R07"
+      ],
+      "usedIn": [
+        "draft 深层"
+      ]
+    },
+    {
+      "claimId": "C08",
+      "claim": "SAM 馆内有 46.52、46.51 和 56.153 等同类；它们可以解释同一丧葬板画问题，但不能替代本作具体人物形象与蛋彩表面。",
+      "researchRefs": [
+        "R08"
+      ],
+      "usedIn": [
+        "draft 深层"
+      ]
+    },
+    {
+      "claimId": "C09",
+      "claim": "本作的重要性在于希腊—罗马式个人肖像进入埃及木乃伊葬俗；写实外观不能证明真实长相或身份。",
+      "researchRefs": [
+        "R09"
+      ],
+      "usedIn": [
+        "card",
+        "draft 全文"
+      ]
+    },
+    {
+      "claimId": "C10",
+      "claim": "木板纵向窄长，人物是正面胸像。",
+      "researchRefs": [
+        "R10"
+      ],
+      "usedIn": [
+        "card",
+        "draft 快层与最后一眼"
+      ]
+    },
+    {
+      "claimId": "C11",
+      "claim": "深色头发围住额头与面部两侧，双眼正向画外观看者。",
+      "researchRefs": [
+        "R11"
+      ],
+      "usedIn": [
+        "card",
+        "draft 快层、深层与最后一眼"
+      ]
+    },
+    {
+      "claimId": "C12",
+      "claim": "肩胸衣服形成深浅不同的色块，背景较平整。",
+      "researchRefs": [
+        "R12"
+      ],
+      "usedIn": [
+        "draft 深层"
+      ]
+    },
+    {
+      "claimId": "C13",
+      "claim": "板边与下端有不规则保存痕迹，提示它曾属于更大的丧葬装置。",
+      "researchRefs": [
+        "R13"
+      ],
+      "usedIn": [
+        "card",
+        "draft 快层、深层与最后一眼"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "workId": "narragansett-bay",
+  "narrativeMainline": {
+    "valueType": "artist_landmark",
+    "mainline": "肯塞特约在 1860 年从森林内部景观转向大西洋海岸的透明光线研究；《纳拉甘西特湾》把人物和事件压到很小，让天空、水面与低岸线承担主要结构，具体呈现了这次生涯转向。",
+    "readerStart": "零背景读者从标题和画面可以知道：这是一处海湾，天空与水面占据大区域，低岸线横过中部，近岸有占比很小的野餐人物。",
+    "storyBeats": [
+      {
+        "beat": "先用天空、水面、低岸线和小人物说明画面的主要关系。",
+        "researchRefs": [
+          "R83"
+        ],
+        "readerGain": "读者理解本作的观看重心不在人物情节，而在开阔水天与水平延展。"
+      },
+      {
+        "beat": "再交代肯塞特约在 1860 年由森林内部景观转向大西洋海岸光线研究。",
+        "researchRefs": [
+          "R77"
+        ],
+        "readerGain": "读者知道眼前的形式选择对应作者生涯中的明确阶段变化。"
+      },
+      {
+        "beat": "把 1861 年的安静野餐图像与内战正在发生的历史背景并置，同时限定图像能证明的范围。",
+        "researchRefs": [
+          "R78",
+          "R85"
+        ],
+        "readerGain": "读者能够区分作品保存的一种生活景象与当时美国的完整历史现实。"
+      },
+      {
+        "beat": "以同馆 Church 的《乡间之家》作近邻比较，再回到低岸线、小人物和开阔水天。",
+        "researchRefs": [
+          "R81",
+          "R82",
+          "R83"
+        ],
+        "readerGain": "读者理解本作在十九世纪美国风景线中的独特观看回报，也知道它不能被升级为唯一或稀世珍品。"
+      }
+    ],
+    "humorBasis": "",
+    "highRiskClaims": [
+      {
+        "claim": "野餐者的情绪或身份",
+        "evidenceType": "直接观察与来源事实仅支持人物群和野餐活动",
+        "allowedWording": "近岸有占比很小的人物群与野餐活动",
+        "forbiddenUpgrade": "不得描述人物的安宁、喜悦、焦虑等心理，也不得指定身份",
+        "researchRefs": [
+          "R78",
+          "R83"
+        ]
+      },
+      {
+        "claim": "画家在内战期间选择安静海湾题材的意图",
+        "evidenceType": "来源事实支持年代、内战背景及画面未直接呈现战争",
+        "allowedWording": "画家在 1861 年呈现了安静的野餐海湾，画面没有直接呈现战争",
+        "forbiddenUpgrade": "不得声称画家有意逃避、反对、遗忘或评论内战",
+        "researchRefs": [
+          "R78"
+        ]
+      },
+      {
+        "claim": "和平图像与历史现实的关系",
+        "evidenceType": "来源事实与证据边界",
+        "allowedWording": "作品保存了内战时期美国经验的一个切面，不能代表当时历史现实的全貌",
+        "forbiddenUpgrade": "不得把画面安静升级为内战没有影响或社会普遍和平",
+        "researchRefs": [
+          "R78"
+        ]
+      },
+      {
+        "claim": "作品的唯一性与不可替代性",
+        "evidenceType": "比较事实与明确的不确定性",
+        "allowedWording": "本作是重要藏品；其价值来自生涯转向、历史并置与馆内风景对照",
+        "forbiddenUpgrade": "不得称为唯一、最佳、仅存或稀世珍品",
+        "researchRefs": [
+          "R81",
+          "R82"
+        ]
+      },
+      {
+        "claim": "画面各部分的观看顺序",
+        "evidenceType": "编辑安排的观看动作",
+        "allowedWording": "最后一眼可从近岸人物移向低岸线，再看两侧不同的景物密度",
+        "forbiddenUpgrade": "不得把观看顺序写成野餐或历史事件的真实时间顺序",
+        "researchRefs": [
+          "R83"
+        ]
+      }
+    ]
+  },
+  "mustNotAssume": [
+    "不得假定野餐者的具体身份、情绪或精确地点。",
+    "不得假定肯塞特为何在内战期间没有直接画战争。",
+    "不得把安静画面当作当时美国社会和平的证据。",
+    "不得假定本作优于肯塞特其他海岸画，或确认该题材的全球存世数量。",
+    "不得承诺作品当天一定展出或位于固定展厅。",
+    "不得假定对象图已经获得开放复用许可。"
+  ],
+  "displayMetadata": {
+    "by": "John Frederick Kensett（约翰·弗雷德里克·肯塞特）",
+    "date": "1861",
+    "material": "布面油画，35.6 × 61 厘米",
+    "place": "Seattle Art Museum，馆藏号 2001.1054",
+    "priority": "强烈推荐",
+    "significance": "重要藏品",
+    "stay": "5—8 分钟",
+    "availability": "collection_rotation",
+    "imagePolicy": "object_image"
+  },
+  "claimLedger": [
+    {
+      "id": "C01",
+      "claim": "作品由 John Frederick Kensett 创作于 1861 年，为布面油画，尺寸 35.6 × 61 厘米，馆藏号 2001.1054。",
+      "researchRefs": [
+        "R75"
+      ],
+      "usedIn": [
+        "displayMetadata"
+      ]
+    },
+    {
+      "id": "C02",
+      "claim": "天空和水面构成大区域，低矮岸线横贯中部。",
+      "researchRefs": [
+        "R83"
+      ],
+      "usedIn": [
+        "card",
+        "30 秒先懂",
+        "为什么人物这么小？",
+        "最后再看一眼"
+      ]
+    },
+    {
+      "id": "C03",
+      "claim": "近岸有小人物群与野餐活动，人物占比很小。",
+      "researchRefs": [
+        "R78",
+        "R83"
+      ],
+      "usedIn": [
+        "card",
+        "30 秒先懂",
+        "为什么人物这么小？",
+        "最后再看一眼"
+      ]
+    },
+    {
+      "id": "C04",
+      "claim": "水面较平，远景细节减弱；树木与岩岸集中在一侧，另一侧保持更开阔的水天关系。",
+      "researchRefs": [
+        "R83"
+      ],
+      "usedIn": [
+        "为什么人物这么小？",
+        "最后再看一眼"
+      ]
+    },
+    {
+      "id": "C05",
+      "claim": "人物和事件被压到小尺度后，天空、水面和岸线成为主要结构，空间主要通过水平延展与细微明暗来辨认。",
+      "researchRefs": [
+        "R77",
+        "R83"
+      ],
+      "usedIn": [
+        "narrativeMainline",
+        "card",
+        "30 秒先懂",
+        "为什么人物这么小？"
+      ]
+    },
+    {
+      "id": "C06",
+      "claim": "肯塞特在 1850 年代以精致森林内部景观建立声誉，约在 1860 年转向大西洋海滩夏日清澈光线的研究，常画 Newport 与 Narragansett Bay。",
+      "researchRefs": [
+        "R77"
+      ],
+      "usedIn": [
+        "narrativeMainline",
+        "card",
+        "30 秒先懂",
+        "从森林内部走向海岸"
+      ]
+    },
+    {
+      "id": "C07",
+      "claim": "作品创作于美国内战期间，画面呈现安静海湾的野餐场景，没有直接呈现战争。",
+      "researchRefs": [
+        "R78"
+      ],
+      "usedIn": [
+        "card",
+        "1861 年，画面保存了什么？",
+        "这件作品有哪些趣闻？"
+      ]
+    },
+    {
+      "id": "C08",
+      "claim": "和平画面只支持画家在 1861 年呈现了另一种美国经验，不能证明内战没有影响。",
+      "researchRefs": [
+        "R78"
+      ],
+      "usedIn": [
+        "1861 年，画面保存了什么？",
+        "事实边界"
+      ]
+    },
+    {
+      "id": "C09",
+      "claim": "Church 的《乡间之家》以家屋、树、水和天空的统一大气组织较多景物；本作则以开阔水天和较低事件密度形成不同观看节奏。",
+      "researchRefs": [
+        "R81"
+      ],
+      "usedIn": [
+        "同样是风景，为什么观看节奏不同？"
+      ]
+    },
+    {
+      "id": "C10",
+      "claim": "本作不是唯一的 Narragansett Bay 题材，也没有存世数量证据；应定为重要藏品而非稀世珍品。",
+      "researchRefs": [
+        "R82"
+      ],
+      "usedIn": [
+        "displayMetadata",
+        "同样是风景，为什么观看节奏不同？"
+      ]
+    },
+    {
+      "id": "C11",
+      "claim": "作品列入 2022 年 10 月 20 日开始并标为 ongoing 的展览，但当天位置仍需核验。",
+      "researchRefs": [
+        "R76"
+      ],
+      "usedIn": [
+        "displayMetadata",
+        "事实边界"
+      ]
+    },
+    {
+      "id": "C12",
+      "claim": "对象页图像没有摄影署名，也未注明开放许可。",
+      "researchRefs": [
+        "R84"
+      ],
+      "usedIn": [
+        "displayMetadata"
+      ]
+    },
+    {
+      "id": "C13",
+      "claim": "参观优先级为强烈推荐，建议停留 5—8 分钟。",
+      "researchRefs": [
+        "work_context.selection.priority",
+        "work_context.selection.stay"
+      ],
+      "usedIn": [
+        "displayMetadata"
+      ]
+    }
+  ]
+}

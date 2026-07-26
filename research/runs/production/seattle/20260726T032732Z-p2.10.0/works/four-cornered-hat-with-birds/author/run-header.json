@@ -1,0 +1,42 @@
+{
+  "runId": "m28-12-v2.7.2-seattle-author-four-cornered-hat-with-birds-2026-07-24",
+  "startedAt": "2026-07-24T00:00:00-07:00",
+  "stage": "author",
+  "researchMode": "fresh_locked_research_card",
+  "museumId": "seattle",
+  "workId": "four-cornered-hat-with-birds",
+  "inputContractVersion": 2,
+  "pipelineVersion": "2.7.2",
+  "instructionVersion": "2.1.1",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1",
+    "runnerSha256": "c7931d34e1f54dde5c43336acc50f7fb7ac380cfe7bed7ca27ea0e01f2cf4aa6"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "8c08c30f9d915a8942ed605287f7993a6514742c8f895b427876a6ffabb3fda2"
+    },
+    {
+      "path": "research/m28-12/seattle/research-batch-02/four-cornered-hat-with-birds-research-card.md",
+      "role": "research_card",
+      "sha256": "b55eb3bfc767f02cc31c37d2e9594dfcfc0fe0e782bb3492f5939ad30b58838c"
+    },
+    {
+      "path": "research/m28-12/seattle/works/four-cornered-hat-with-birds/work-context.json",
+      "role": "work_context",
+      "sha256": "d498afe77962078dbc18412c99b3057eb386d8e0bf723ff881be9c69a89e0ded"
+    }
+  ],
+  "outputs": [
+    "writing-plan.json",
+    "card.txt",
+    "draft.md"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "candidate_then_atomic_production_write"
+}

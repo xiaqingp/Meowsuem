@@ -22,7 +22,7 @@ Run ID 固定为 UTC `YYYYMMDDTHHMMSSZ-p<major>.<minor>.<patch>`。Milestone 只
 
 调用者只提供 `kind + museum/case + runId`。Batch runner、reporter、assembler、finalizer 和 publisher 全部通过 `scripts/lib/filesystem-contract.mjs` 计算同一个 run root；任意 `--run-root`、`--out-dir` 或 `--candidate` 不能改变路径。兼容参数若保留，只在它精确等于 contract 计算结果时接受，并输出 deprecation warning。
 
-每个 stage 只能写自己的目录：研究批次写入 `research/batches/`，逐件作者与机械产物写入 `works/<workId>/author/` 和 `works/<workId>/mechanical/`，组装输入写入 `structure/`，图片证据写入 `image-evidence/`，候选固定在 `candidate/`，报告固定在 `reports/`。`run-isolated-generation.ps1` 在读取 header 前调用 `validate-run-directory.mjs`；Node validator 是路径与 filesystem contract 的唯一实现。
+每个 stage 只能写自己的目录：馆级研究批次写入 `research/batches/`；新单件写作固定写入 `works/<workId>/one-shot/{input,output,integration}`；历史 author bundle 只在旧 run 中保留。组装输入写入 `structure/`，图片证据写入 `image-evidence/`，候选固定在 `candidate/`，报告固定在 `reports/`。Node validator 是路径与 filesystem contract 的唯一实现。
 
 正式正文固定为 `research/content/<museumId>.md`，不使用文件名版本号。失败 run 保留证据，但不得作为新稿输入；archive 和 evidence 均不构成生成指令或 fallback。发布仍使用临时文件与 rename 原子替换，发布失败不得把 run 写成 `published`。
 
@@ -34,7 +34,7 @@ Run ID 固定为 UTC `YYYYMMDDTHHMMSSZ-p<major>.<minor>.<patch>`。Milestone 只
 
 Pipeline 外不得创建 `research-task.md`、`author-task.md`、临时 `test-spec` 或其他内容 prompt 来补充写法、对象重点、应找到的事实、趣闻答案或验收标准。若某个阶段离开额外说明便无法执行，先停止并补全 canonical pipeline。
 
-标准入口为 `scripts/run-isolated-generation.ps1`。Runner 在模型外解析 `run-header.json`、校验允许输入的路径与 SHA-256，并把 run header 与锁定文件的原文各装载一次，通过 stdin 交给模型；固定启动说明不得追加作品知识、候选趣闻、用户反馈或质量答案。模型不得再次读取、搜索或枚举本地文件。`museum_scope`、`museum_candidate_pool` 与 `research` 允许按 canonical 停止条件批量查询网络；`museum_selection`、`museum_structure` 与 `author` 只读锁定证据，不得联网。
+馆级阶段入口仍为 `scripts/run-isolated-generation.ps1`；新单件写作入口为 `scripts/run-one-shot-work.mjs`。两者都在模型外解析身份、校验路径与 SHA-256。单件 runner 只装载 canonical one-shot prompt、`locked-metadata.json` 和已验证图片，允许 Luna 自主联网搜索；不得追加作品答案、用户反馈、旧研究卡、旧文章或 reviewer 记录。`museum_scope`、`museum_candidate_pool` 与馆级 `research` 继续按原规则联网；`museum_selection` 与 `museum_structure` 只读锁定证据。
 
 `generation-pipeline.md`、manifest、PRD 和项目管理文件是 orchestrator 与校验器的执行合同，不进入生成模型。各阶段只读取下列语义材料；内容母指令由 runner 从唯一 canonical 文件机械截取 manifest 声明的章节：
 
@@ -45,19 +45,19 @@ Pipeline 外不得创建 `research-task.md`、`author-task.md`、临时 `test-sp
 | `research` | run header + 研究指令视图 + 最多 10 件同复杂度 candidate packet |
 | `museum_selection` | run header + 评分／选品指令视图 + `museum-work-index.json` + 仅被标记的完整卡 |
 | `museum_structure` | run header + 馆介／路线指令视图 + 紧凑索引 + 已冻结评分／选择结果 + 仅被标记的完整卡 |
-| `author` | run header + 作者指令视图 + 一件研究卡 + 一件 work context + 可选一件研究补充 |
+| `single_work` | canonical one-shot prompt + 一件 `locked-metadata.json` + 一张已验证图片；Luna 自主搜索 |
 
 路径解析、哈希校验、输出存在性、输出哈希和 token 记录都属于 runner / orchestrator 的机械职责。模型不得为了这些工作分段读取后再全文重读、在写入后打印完整 diff、重新读取成稿或自行运行 reviewer。模型只负责需要语义判断的研究、计划与写作；尽量在一次写入中交付本 stage 声明的输出。Runner 在阶段完成后生成 `<stage>-result.json`，统一记录本次输入和全部输出的 SHA-256；哈希不写入游客正文。
 
 馆级 orchestrator 在一次 run 开始时完整读取权威入口列出的五个文件，并锁定版本与哈希；不让每件作品重复吞入 PRD、TechDesign 和全量 manifest。它再为本馆建立一个不可发布的 run header，写明范围、内容版本、pipeline 版本、全局文件哈希和允许来源。
 
-同一 run 中的作者任务只允许四种输入角色：一份 `content_instruction`、一份 `research_card`、一份不超过本作品范围的 `work_context`，以及可选的一份 `research_supplement`。`work_context` 只保存当前作品的 `workId`、身份边界、展出状态、图片策略、重要性与评分角色；不得包含整馆计划、其他作品、路线或馆级全文。Pipeline 全文、manifest、PRD、TechDesign、预处理记录、哈希记录、review 记录和其他作品材料一律不得进入作者 prompt。Runner 按 manifest 中的角色白名单、每类数量和总字节上限机械拒绝额外输入。
+新单件写作只允许 `locked_metadata` 与 `verified_image` 两类对象输入。`locked-metadata.json` 由程序从 candidate identity、museum selection、museum structure、verified image evidence 与当前 work context 合并；模型不得生成或修改其中字段。旧 Research Card、Writing Plan、card、draft、article、claim ledger 与 reviewer output 一律不得进入 prompt。Pipeline 全文、manifest、PRD、TechDesign、其他作品和馆级全文同样不得进入模型。
 
 Runner 对内容母指令先验证完整文件哈希，再按 manifest 的 `stageInstructionViews` 机械截取当前阶段所需的编号章节。阶段视图不是第二份 prompt，不得手写摘要或加入对象答案；母指令仍是唯一真源。result 必须记录实际装载的章节号。
 
-“一件作品一个任务”是独立 author bundle 单位，不等于必须启动一个全新模型会话。最多十件研究卡可以在同一上下文准备，随后作品仍逐件计划、写作和封存；上一件正文不得成为下一件输入。
+“一件作品一个任务”是独立 one-shot 单位。馆级研究仍可最多十件一批准备供 selection、rating 与 structure 使用，但单件 Luna 不读取这些 Research Card；上一件正文不得成为下一件输入。
 
-旧研究卡可能保存生成当时的流程结论，例如“缺少对象图，因此作者阶段阻塞”。这类句子不是作品事实，也不能凌驾于当前 pipeline。进入作者阶段前必须机械生成一份 author-input 副本：保留身份、来源、未知边界和所有事实；仅移除或改写已经被当前 `museum_selection` 明确取代的旧流程控制语句。若当前选择结果为 `identityStable: true` 且 `imagePolicy: museum_hero_placeholder`，旧卡中仅由缺少对象图、四项视觉观察不足或当前展出未知造成的“阻塞”必须改成“不得伪造视觉观察，按占位图与可见性标签继续”。原研究卡不可改写，author-input 副本必须记录原文件和哈希。对象身份不稳定、来源为空或组界冲突不能通过这条规则绕过。
+旧研究卡与旧 author-input 清理逻辑只为历史 run 保留，不得成为新单件 Luna 的输入或 fallback。对象身份不稳定、官方对象页缺失或图片身份冲突必须在生成前阻塞。
 
 最小输入包只能删除与该件无关的全局数据，不能摘要掉会改变成稿的禁止项或通过门槛。项目规则改变时先补入 canonical 内容指令，旧稿封存，再按新版本生成。
 
@@ -67,7 +67,7 @@ Runner 对内容母指令先验证完整文件哈希，再按 manifest 的 `stag
 
 生成必须在 run header 中显式锁定 manifest `executionProfile` 声明的模型和推理强度，不得依赖用户配置或 CLI 默认值。启动日志若缺失或与 run header 不符，该次产物只能作为失败样本。
 
-研究卡字段、证据强度和停止条件只由内容指令第 1、5 节定义。Pipeline 只增加执行边界：一次研究上下文不超过 manifest 声明的数量；`researchMode: fresh` 不读取该对象的旧研究、正文、计划、测试或 review；研究卡只保留预计进入成稿的原子材料，通常超过 4,000 个可见字符时先删无关材料而不是继续扩张。
+馆级 Research Card 的字段、证据强度和停止条件仍由内容指令第 1、5 节定义，用于 selection、rating 与 structure；它不再进入单件写作。单件 `researchMode: fresh` 只使用锁定 metadata、图片和本次 web search。
 
 run header 只能包含结构化执行数据：`runId`、`stage`、`researchMode`、版本、对象身份、manifest 执行档、允许输入及哈希、输出文件名、reviewer 状态、retry 开关和发布边界。不得包含正文要求、作品重点、候选趣闻、用户反馈或该对象的验收答案。
 
@@ -93,32 +93,30 @@ scoped -> image_evidence -> researched -> museum_selection -> rating_verified ->
 ## 3. 单件状态机
 
 ```text
-verified_image_evidence -> research_card -> author_bundle(writing_plan + card + draft) -> mechanical_processed
-                                                                                     \-> blocked
+locked_identity_and_metadata
+  -> Luna_High_one_shot_search_and_write(article + sources)
+  -> risk_verification
+  -> deterministic_integration(card + draft + display_metadata + sources)
+  -> integration_ready
+  \-> blocked
 ```
 
-1. `verified_image_evidence`：每件作品先由确定性解析器尝试官方元数据、官方 API、IIIF 与开放数据；普通请求失败时改用真实浏览器加载当前官方对象页。题名、馆藏号、最终页面和主图信号一致后下载图片并记录远程 URL、本地路径、像素、文件类型、SHA-256、摄影／许可与证据 ID。只有多个候选仍无法机械区分时才生成最多五张候选的隔离包，由 `gpt-5.6-luna` medium 查看候选并输出固定 JSON；模型不得搜索旧数据、读取聊天或写正文。没有合格图片时记录失败原因并允许馆舍占位图。
-2. `research_card`：事实、局部因果、比较、观察、来源与不确定性；按内容母指令的价值类型分别收集适用的候选证据，并准确区分“首次 / 最早 / 统一 / 奠基 / 转折”究竟指事件、图像表达还是现存证据。它不得含可发布正文，也不得预写 `primaryValue`、`coreQuestion`、叙事主线、整篇逻辑链、开场或结尾。作者必须从候选价值证据中自行完成写作选择。复用旧卡时只机械删除混入的写作方案，不改事实；若最高层级价值缺少证据，不得让作者自行补齐。馆藏或长期保管关系已有可靠证据、但当天是否展出无法确认时，可以继续进入作者阶段，必须把展示状态标为不确定；“曾在本馆临展出现”不能据此升级为馆藏。缺少单件图片时允许声明使用馆封面占位图，不因此阻塞研究。任何“直接观察”必须引用当前 `image-evidence/verified-image-evidence.json` 的证据 ID；只有对象页文字或搜索摘要时只能记为来源事实。
-   每个 candidate packet 必须先锁定 `identityAnchor` 与官方 `identitySourceUrl`，并显式给出 `riskFlags`。Runner 在模型启动前拒绝缺少身份锚点、非法风险、standard／complex 混批或 run header 与风险不一致的批次。研究中新发现风险时保留研究卡并退回正确档位，不能删风险换取低档模型。
-   每张新研究卡必须用 `[Rnn]` 标记下游原子证据，并内嵌 `meowseum-downstream-evidence/1.0`。`scripts/prepare-museum-stage-inputs.mjs` 只解析和校验该块，生成 `museum-work-index.json`；它不得摘要或创作事实。评分与结构默认只读取该索引；`requiresFullCard: true` 的对象才把对应完整卡作为定向补充。
-3. `research_gap`：研究卡其余部分仍有效、只缺一个明确价值类型或断言边界时，可以用原研究卡、当前权威文件和 run header 中的结构化 `missingDimensions` 做一次定向补证据，输出独立 `research-supplement.md`。它只能补事实、来源、置信度与边界，不能写主线或正文；不得为了一个缺口重跑整张研究卡。作者随后同时读取原研究卡与 supplement。
-4. `author_bundle`：一件作品一个任务、一次作者调用，同时交付 `writing-plan.json`、`card.txt` 与 `draft.md`。写作计划只保留读者起点、`narrativeMainline.valueType`、`narrativeMainline.mainline`、二至四项真正改变理解的 `storyBeats`、必要的断言边界、`displayMetadata` 与精简 `claimLedger`；不生成 `primaryValue / whyItMatters / visualAnchor` 的重复承诺、`plainLanguageProof`、复述报告或逐段三联表。`valueType` 只能从内容母指令规定类型中选一个。有来源支持的决定性历史或艺术转折，优先于更容易描述的构图机制、材料技巧和趣闻；形式证据用于说明首要价值怎样成立。快层第一句必须直接给出与 `valueType` 对应的最大价值结论，不得先铺背景或抽象机制。深入层不覆盖研究卡栏目；每个 beat 必须让核心答案发生变化，同一事实不得在主体、细节、结尾和事实边界中重复。最小解释模型必须用普通中文说明一个能同时解释至少三个重要细节的关系，不能只是主题或栏目。Ledger 中每项必须指向研究卡、supplement 或已记录图像观察。`displayMetadata` 保存页面标题区与侧栏需要的结构化字段，并必须包含 `availability` 与 `imagePolicy`；`availability` 只能是 `confirmed_on_view`、`collection_rotation`、`previously_exhibited_current_unknown` 或 `display_status_unknown`，`imagePolicy` 只能是 `object_image` 或 `museum_hero_placeholder`。`draft.md` 的作品标题后必须直接进入 `### 30 秒先懂`，不得重复元数据。卡片和正文彼此独立，只能使用 Ledger 已登记内容；具体事实先于专业名称，任何新概念只能依赖零背景常识或前文已经解释的概念。作者允许改变顺序、解释术语和改写成自然中文，不允许补充或强化断言。
-   - 作者输入若经过旧流程语句清理，必须读取清理后的 author-input 副本，不再同时读取原卡；清理记录只证明哪些流程词被替换，留在机械审计层，不得作为模型输入。当前作品的 `work_context` 必须来自已通过评分门的冻结选择结果；已通过身份门且采用馆舍占位图的作品必须交付作者包，不能因原卡缺少视觉观察再次自行阻塞。
-5. `mechanical_processed`：程序只做确定性处理，并把结果分为三类：
-   - **提示，不阻塞也不修复**：可选段落缺失、轻微字数偏差、语气或节奏警告、重复句式提示、卡片与详情的普通词汇重合、标点风格差异。它们写入报告供查看，不触发模型，也不阻止进入下一步。
-   - **程序直接修复**：行尾、空白、末尾换行、作品标题与 `### 30 秒先懂` 之间完全匹配已知字段名的重复元数据、可从已锁定 run header 无歧义恢复的 `workId`、确定性的 slug / URL 编码、编号、派生计数和结果哈希。修复后重新运行同一检查，不调用模型。
-   - **阻塞**：只有影响事实可追溯、产物完整性或页面基本可用性，而且程序无法安全修复的问题才阻塞。包括输入或输出哈希不符、必需文件缺失 / 为空 / 无法解析、必需 `displayMetadata`、叙事主线、`storyBeats` 或 `claimLedger` 结构缺失、正文在作品标题后没有直接进入 `### 30 秒先懂`、正文混入内部生产语言、卡片与详情完全相同、作品身份无法无歧义成立，以及无法无歧义解决的 URL 冲突。单件图片不可用不再阻塞：集成层必须改用该馆封面图，并在卡片与详情明确标注“馆舍占位图 · 非作品图”。当天展出状态无法确认也不阻塞，但必须显示不确定性标签。阻塞时保留原 author bundle；pipeline 不自动启动模型返工。
+1. `locked_identity_and_metadata`：上游确定性合并 candidate identity、museum selection、museum structure、verified image evidence 与 work context，生成 `locked-metadata.json`。它至少锁定馆／作品 ID、中英文题名、作者或文化、年代、材质、馆藏号、官方对象页、已验证图片、重要性、优先级、章节、停留时间、可见状态和图片策略。模型不得生成、修改或覆盖这些字段。
+2. `one_shot_search_and_write`：唯一模型为 `gpt-5.6-luna`，reasoning effort `high`，无 Sol／Terra fallback、无第二模型、无默认 reviewer。Luna 先核对官方对象页，再按文章需要自主搜索，直接只输出 `article.md` 与 `sources.json`。失败即记录并阻塞；只有基础设施错误可按明确规则重试，不得靠换模型或降低 gate 继续。
+3. `risk_verification`：`scripts/verify-one-shot-work.mjs` 只检查身份、结构、来源记录、高风险断言、展出状态边界与 production 保护。结果固定为 `{status, errors, warnings, checks}`；只有 `errors` 阻塞。普通引号、否定式“第一／唯一”、字数、趣闻、幽默、段落数量与写作品味不得成为 hard gate。
+4. `deterministic_integration`：`scripts/adapt-one-shot-work.mjs` 从“一分钟看懂”第一段机械抽取 `card.txt`，把 article 原样复制为 `draft.md`，只从 locked metadata 生成 `display-metadata.json`，验证并复制 `sources.json`。该阶段零模型调用，不允许文章反向修改 metadata。
+5. `integration_ready`：assembler 优先读取 `works/<workId>/one-shot/integration/`；历史 run 仍可读取旧 author bundle，但不得把旧路径作为新 run fallback。
 
-研究阶段和作者阶段分别由 runner 生成阶段结果文件。`author-result.json` 记录研究卡输入哈希以及写作计划、卡片和正文三个输出哈希；机械处理只处理与该记录相符的文件。正文和卡片不承担 provenance 元数据。哈希证明“用的是哪份输入、处理的是哪份输出、后来是否被修改”，不证明内容质量，也不证明模型内部先想了哪一句。
+单件 result 记录输入、article、sources、integration 的哈希与真实 token 使用。哈希只证明产物身份和是否被修改，不宣称正文事实已被机械验证。
 
 馆级评分不是作者包的事后汇总。`museum_selection` 必须发生在 `structured` 和 `writing` 之前；它只读取已锁定研究卡、全站校准集合和权威规则，不读取旧馆稿或对话。`museum-evidence.json` 与 `museum-rating.json` 通过机械评分门后冻结；后续馆介、章节、路线和单件正文只能解释该结果，不能悄悄改分、改档或改珍品集合。
 
 ## 4. 批量边界
 
-- 可以一起做：最多 10 件研究卡、自动机械检查和重复扫描。
-- 必须逐件做：作者包和失败返工。
-- 不同研究批次可由 `scripts/run-generation-batch.mjs --stage=research` 按 manifest 上限有界并行；作者目录可用同一入口按作者并发上限调度。并发只改变墙钟时间，不共享作品正文或放宽输入哈希。
-- 不要求十件全部研究完才开始第一件写作；研究批次只是减少资料切换，不是正文批次。
+- 可以一起做：馆级最多 10 件 Research Card、自动机械检查和重复扫描。
+- 必须逐件做：Luna one-shot 与失败处理。
+- 馆级研究批次仍由 `scripts/run-generation-batch.mjs --stage=research` 有界并行；新单件任务由 `scripts/run-one-shot-work.mjs` 逐件隔离执行。并发只改变墙钟时间，不共享作品正文或放宽输入哈希。
+- 不要求十件馆级研究全部完成才开始已锁定作品的写作；研究批次只是馆级证据准备，不是正文批次。
 - 不在每件作品后运行全站检查。单件通过后冻结；全馆集成完成再运行馆级与发布级门禁。
 
 ## 5. 测试阶梯
@@ -139,7 +137,7 @@ verified_image_evidence -> research_card -> author_bundle(writing_plan + card + 
 上一级测试通过不代替受影响的下一级测试；没有受影响的层级不为形式主义浪费 token。
 
 1. **权威检查**：文档、版本、正式内容引用和退休脚本一致。
-2. **因果夹具**：一个合规的微型 run 必须通过；一个先写正文、后补研究卡的 backfill run 必须被拒绝。
+2. **因果夹具**：一个合规的 one-shot 微型 run 必须通过；旧文章、旧 Research Card、旧 Writing Plan 或漂移 metadata 进入输入必须被拒绝。
 3. **两件隔离盲测**：一件叙事型绘画 + 一件历史/跨媒介对象；只给当前权威文件和资料包，不给对话或旧正文。首稿封存后再与已接受样本比较。
 4. **单馆试点**：只有前三层通过后，才选一座小馆；不得直接拿 40/60 件馆调 pipeline。
 5. **批次生产**：试点由 owner 接受后才恢复整馆队列。
@@ -148,16 +146,16 @@ verified_image_evidence -> research_card -> author_bundle(writing_plan + card + 
 
 ## 6. 发布边界
 
-只有整馆全部作品完成 `mechanical_processed` 且没有 blocker，评分、卡片、图片、路线、正文和页面门全部通过，并由 owner 明确接受该馆，才能原子替换正式馆。集成只把 `displayMetadata` 写入统一作品数据，把处理后的 `draft.md` 写入正文；不得把两者串成可见段落。`availability` 必须映射为卡片和详情可见标签；`museum_hero_placeholder` 必须映射为馆封面图、馆方链接和“馆舍占位图 · 非作品图”说明。占位图只解决图像缺失，不能作为作品的视觉证据。部分新稿不得混入生产。
+只有整馆全部作品达到 `integration_ready` 且没有 verifier errors，评分、卡片、图片、路线、正文和页面门全部通过，并由 owner 明确接受该馆，才能原子替换正式馆。集成只把确定性 `display-metadata.json` 写入统一作品数据，把 `draft.md` 写入正文；不得把两者串成可见段落。历史已通过的 author bundle 可继续组装旧 run，但不是新单件生成合同。`availability` 必须映射为卡片和详情可见标签；`museum_hero_placeholder` 必须映射为馆封面图、馆方链接和“馆舍占位图 · 非作品图”说明。占位图只解决图像缺失，不能作为作品的视觉证据。部分新稿不得混入生产。
 
 馆页主卡是固定产品结构，不由每馆自由生成：只显示封面、馆名、城市、评分数字与档位、路线入口、官方链接和更新时间。共享渲染器不得在主卡显示 `verdict`、`travelAction` 或 `limitations`，也不得为删掉的段落生成替代文案；评分理由、边界和馆级主线进入下方对应正文。缓存版本必须随共享 HTML / JavaScript 同步更新，并在真实浏览器刷新后检查首屏、控制台和主要内容，静态字符串检查不能代替页面回归。
 
 当 owner 在执行前明确批准一组既有正式作品作为**作品级内容补丁**时，可以不触发整馆重生，但必须同时满足：
 
-- 每件作品从研究卡开始完整走过当前 pipeline，不读取旧研究或旧正文；
+- 每件作品从 locked metadata 开始完整走过当前 one-shot pipeline，不读取旧研究、旧计划或旧正文；
 - 卡片简介与详情正文作为同一个补丁一起替换，不只改其中一层；
 - 不改变馆级评分、选品、路线、图片或作品 ID；若新研究证明这些字段有误，停止补丁并重新确认范围；
-- 每件完成 `mechanical_processed` 且无 blocker；
+- 每件 verifier 无 errors 且 deterministic integration 完成；
 - 对每个受影响馆分别运行数据、图片、URL 和真实深链页面检查；
 - run header 与 manifest 明确记录 owner 批准的补丁边界。
 
@@ -178,7 +176,7 @@ Pipeline、内容指令、runner、机械处理器、评分处理器、作者输
 ## 9. 生成入口与整馆成本报告
 
 - 唯一允许的模型启动方式是 `powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -File scripts/run-isolated-generation.ps1 -RunDirectory <run-dir>`。Runner 从自身位置推导项目根目录；不得手写底层 `codex exec` 命令，也不得依赖 PowerShell 的交互式必填参数提示。缺少 `RunDirectory` 必须立即失败。
-- 模型路由由 manifest 与 runner 强制执行：`museum_scope` 使用 `gpt-5.6-terra` medium；`research` 仅在风险字段为空的 standard 批次使用 Terra medium，complex 批次使用 `gpt-5.6-sol` medium；候选、评分、结构和作者全部保持 Sol medium。一个研究批次不得混合两种复杂度。
+- 模型路由由 manifest 与 runner 强制执行：`museum_scope` 使用 `gpt-5.6-terra` medium；馆级 `research` 仅在风险字段为空的 standard 批次使用 Terra medium，complex 批次使用 `gpt-5.6-sol` medium；候选、评分和结构保持 Sol medium。新单件正文固定使用 `gpt-5.6-luna` high，无 fallback。一个馆级研究批次不得混合两种复杂度。
 - 每次真实模型运行由 runner 自动写入 `runnerStartedAt`、`modelStartedAt`、`modelCompletedAt`、`completedAt`、runner / model 用时、CLI 日志和 `tokenUsage.total`。预填的 `run-header.startedAt` 不是计时依据。
 - 一座博物馆完成生成、校验和获准发布后，最后执行 `node scripts/report-museum-generation.mjs --kind=production --museum=<museumId> --run-id=<runId>`。报告固定写入 `<runRoot>/reports/generation-report.json` 与 `<runRoot>/reports/generation-report.md`，列出整馆实际用时、模型调用数、总 token，以及各阶段的墙钟用时、模型累计用时和 token。
 - 并行任务按最早开始至最晚结束计算阶段墙钟时间，不把并行时段重复相加。任何真实模型 result 缺少时间或 token，报告器必须阻断，整馆不能标记完成。
@@ -186,7 +184,7 @@ Pipeline、内容指令、runner、机械处理器、评分处理器、作者输
 ## 10. 整馆机械收尾
 
 - 内容阶段结束时必须在 `<runRoot>/structure/assembly-input.json` 交付馆身份、馆介、章节、三档路线、评分结果、作品顺序、重要性、展出标签、已核验图片与来源以及发布目标。缺少这些语义输入时停止并退回上游，不允许装配器搜索、猜测或补写。
-- 候选组装统一执行 `node scripts/assemble-museum-candidate.mjs --kind=production --museum=<museumId> --run-id=<runId>`。候选固定写入 `<runRoot>/candidate/`。它一次读取每件已经通过的 author bundle 和 `structure/assembly-input.json`，只搬运正文与结构化数据；不得使用馆专用 builder、不得联网找图、不得重新调用模型。
+- 候选组装统一执行 `node scripts/assemble-museum-candidate.mjs --kind=production --museum=<museumId> --run-id=<runId>`。候选固定写入 `<runRoot>/candidate/`。它优先读取每件已经通过的 one-shot integration bundle；历史 run 可读取旧 author bundle。它与 `structure/assembly-input.json` 只搬运正文与结构化数据，不得使用馆专用 builder、不得联网找图、不得重新调用模型。
 - `image-evidence/verified-image-evidence.json` 由 `node scripts/resolve-museum-image-evidence.mjs --kind=production --museum=<museumId> --run-id=<runId> --fresh [--allow-model]` 在研究前生成；它只读取当前 scope、候选池和官方对象页，不读取旧网页、旧图片映射或旧资产缓存。普通请求失败时使用真实浏览器；机械信号冲突时才由标准 isolated runner 调用 Luna medium。`structure/assembly-input.json` 与兼容层 `image-evidence/verified-assets.json` 随后由 `prepare-museum-assembly.mjs` 读取已经锁定的图片证据，不再重复联网搜图。历史 run 缺少前置图片证据时只作为 `legacyLayout` 证据保留，不得成为未来新馆的正常路径。
 - 当前 manifest 登记的 15 馆是 legacy baseline，不因本合同迁移。未来新馆必须在 `assembly-input.json` 提供 `integration.coordinates`，馆 ID 必须可直接作为小写 JavaScript 标识符，且只能生成 `museumData.<id> = {...}`。通用装配器自动把新馆脚本登记到候选 `index.html` 与 `museum.html` 的 `museums.js` 之后（馆页同时在 `routes.js` 之前），并自动加入首页地图坐标和排名集合；禁止任何 `binding` 配置或馆专用 builder。
 - `node scripts/verify-future-museum-contract.mjs --kind=production --museum=<museumId> --run-id=<runId>` 是组装后的强制门。它检查 schema、唯一运行时绑定、两页真实脚本顺序、地图与排名注册、发布文件清单以及馆专用 builder；失败时不得进入发布验证。`finalize-museum.mjs` 固定在 assembly 与 release verification 之间执行该门。
