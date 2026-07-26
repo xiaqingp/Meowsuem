@@ -1,0 +1,46 @@
+{
+  "runId": "20260726T074634Z-p2.11.0",
+  "caseId": "pipeline-2-11-real-benchmark",
+  "startedAt": "2026-07-26T07:51:49.881Z",
+  "stage": "museum_selection",
+  "pipelineVersion": "2.11.0",
+  "instructionVersion": "2.4.0",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "d80ee1c0f28a4f21a26b3d7daefe825812b9007b3208dd80451ae13cee95fc96"
+    },
+    {
+      "path": "research/pipeline/prompts/museum-selection.md",
+      "role": "stage_prompt",
+      "sha256": "af023dc4c27bc28d3e1e0902764d7d7ef517b662b8c73de0601f0993cb1e5baa"
+    },
+    {
+      "path": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/candidate-pool/candidate-pool.json",
+      "role": "candidate_pool",
+      "sha256": "a850d5845e38fa383b73e690e1b23912de99597f9390cb3d1f9478919ea95056"
+    },
+    {
+      "path": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/research/batches/compact-01/compact-planning-evidence.json",
+      "role": "compact_planning_evidence",
+      "sha256": "a5f5f18a97de28ebfb67b83c0cc67d7222c1057e2399b85ca72b1cc7a3992870"
+    },
+    {
+      "path": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/research/batches/deep-01/deep-research-dossier.json",
+      "role": "deep_research_dossier",
+      "sha256": "ee17543f93801c672ace864b086ef95959be1f631e78d301b7590ebf3549a789"
+    }
+  ],
+  "outputs": [
+    "selection.json",
+    "rating-input.json"
+  ],
+  "reviewer": "disabled",
+  "retry": "explicit_only",
+  "publicationBoundary": "experiment_only"
+}

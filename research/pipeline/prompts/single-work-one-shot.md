@@ -88,9 +88,23 @@
   ],
   "directQuotes": [],
   "highRiskClaims": [],
-  "uncertainties": []
+  "uncertainties": [],
+  "upstreamConflicts": []
 }
 ```
+
+`highRiskClaims[].claim` 不能为空；`type` 只能是
+`first_or_earliest`、`only_or_unique`、`largest_or_most`、`foundational`、
+`artist_intent`、`attribution` 或 `other`。每条高风险断言必须用
+`sourceIds` 或 `sourceUrls` 指向实际来源。`directQuotes` 每项必须包含
+`quote`、`speaker`，并用 `sourceId` 或 `sourceUrl` 指向来源。
+`uncertainties` 每项包含 `topic` 与 `statement`。
+
+搜索中若发现 locked metadata 与可靠来源冲突，不得擅自改写 locked
+metadata。把冲突写入 `upstreamConflicts`，字段仅限 identity、creator、
+attribution、date、medium、accessionNumber、availability、
+collectionRelation、rare、significance。会改变作品身份、选择、评分或
+发布判断的冲突标为 `blocking`；其他标为 `warning`。
 
 `sourceType` 只能是 `museum`、`academic`、`foundation`、`publication`、`media` 或 `other`。官方对象页必须支持 `identity`、`date`、`material`。明确人物原话记录 `quote`、`speaker`、`sourceIds`；正面强断言记录 `claim`、`type: strong_factual_claim`、`sourceIds`；确定性艺术家意图记录 `claim`、`type: artist_intent`、`sourceIds`。不要逐句映射。
 

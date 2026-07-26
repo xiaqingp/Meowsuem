@@ -50,7 +50,9 @@ export async function createGenerationRun({
     filesystemContractVersion: 1,
     runKind: kind,
     runId,
-    ...(kind === "production" ? { museumId: museum } : { caseId: caseId ?? museum }),
+    ...(kind === "production"
+      ? {museumId: museum}
+      : {caseId: caseId ?? museum, ...(museum && caseId ? {targetMuseumId: museum} : {})}),
     milestone: milestone ?? null,
     pipelineVersion: manifest.pipelineVersion,
     instructionVersion: manifest.currentVersion,
@@ -59,6 +61,10 @@ export async function createGenerationRun({
     createdBy: "scripts/create-generation-run.mjs",
     layoutVersion: 1,
     immutable: false,
+    contentContract: "one_shot_v1",
+    allowLegacyAuthorBundles: false,
+    legacyWorkIds: [],
+    legacyImageResolutionAllowed: false,
   };
   await fs.mkdir(path.dirname(runRoot), { recursive: true });
   try {
@@ -78,6 +84,7 @@ export async function createGenerationRun({
       "selection",
       "rating",
       "structure",
+      "assembly",
       "works",
       "candidate",
       "reports",

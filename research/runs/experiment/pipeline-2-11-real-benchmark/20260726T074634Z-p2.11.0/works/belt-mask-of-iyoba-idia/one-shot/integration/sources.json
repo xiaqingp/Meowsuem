@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "museumId": "seattle",
+  "workId": "belt-mask-of-iyoba-idia",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Belt mask of Iyoba (Mother of the Oba) Idia",
+      "publisher": "Seattle Art Museum",
+      "url": "https://art.seattleartmuseum.org/objects/8251/belt-mask-of-iyoba-mother-of-the-oba-idia",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "accessionNumber",
+        "ritualUse",
+        "provenance",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Women Leaders in African History: Idia, First Queen Mother of Benin",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/fr/essays/idia-the-first-queen-mother-of-benin",
+      "sourceType": "museum",
+      "usedFor": [
+        "historicalContext",
+        "person",
+        "politicalRole",
+        "ritualUse",
+        "significance"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "pendant-mask; regalia",
+      "publisher": "The British Museum",
+      "url": "https://www.britishmuseum.org/collection/object/E_Af1910-0513-1",
+      "sourceType": "museum",
+      "usedFor": [
+        "comparativeContext",
+        "hipUse",
+        "motifs",
+        "1897Context",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Queen Mother Pendant Mask (Iyoba) (Edo peoples)",
+      "publisher": "Smarthistory",
+      "url": "https://smarthistory.org/queen-mother-pendant-mask-iyoba/",
+      "sourceType": "academic",
+      "usedFor": [
+        "comparativeContext",
+        "motifs",
+        "symbolism",
+        "carving"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "西雅图艺术博物馆记录，这件面具于1897年2月16日由英国惩罚性远征中的首席医疗官罗伯特·奥尔曼博士从贝宁城王宫奥巴卧室的箱子中取走，后经1960年伦敦苏富比拍卖，并于1981年遗赠入藏西雅图艺术博物馆。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "埃西吉为纪念并表彰母亲伊迪娅而设立伊约巴这一王母职位，并赋予其独立居所和侍从等政治特权。",
+      "type": "other",
+      "sourceIds": [
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "人物肖像归属",
+      "statement": "官方对象页将作品标题与伊迪娅关联；文章使用“表现或纪念”这样的谨慎说法，不把它当作可核验的写实肖像。"
+    },
+    {
+      "topic": "具体制作者",
+      "statement": "官方对象页将制作者列为贝宁王国/尼日利亚，未指明个人姓名；文章因此使用宫廷工匠和贝宁王室艺术传统的表述。"
+    },
+    {
+      "topic": "当前展出状态",
+      "statement": "官方对象页提供了过往展览记录，但未确认截至本次写作时的当前展出状态；文章未声称作品目前正在展出。"
+    }
+  ],
+  "upstreamConflicts": []
+}

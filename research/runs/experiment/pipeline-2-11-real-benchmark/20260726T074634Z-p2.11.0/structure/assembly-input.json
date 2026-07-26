@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "museum": {
+    "museumId": "seattle",
+    "museumName": "Seattle Art Museum benchmark",
+    "score": 74,
+    "scoreBand": "70–79 · 可去可不去",
+    "withinBandAnchor": "73–75",
+    "travelConclusion": "如果行程已在西雅图，值得安排一次有取舍的参观；不宜仅为这四件作品专程改动整个行程。",
+    "narrative": {
+      "coreQuestion": "在同一条观看线上，作品如何把材料、复制、文字与王权变成可见的制度和历史？",
+      "whatIsSpecial": "这组精选藏品把“making-visible”“crossing-systems”和“power-afterlife”连成一条跨媒介路线：波洛克让颜料成为画布上的事件，沃霍尔让复制与博物馆的收藏行为进入作品结构，蓝色古兰经书叶把书写、材料和阅读节奏合在一页中，伊迪娅腰饰面具则把王权仪式与殖民掠夺的后续历史同时带到眼前。",
+      "scoreBasis": "四件入选作品均为重要藏品，其中《海变》和《双重猫王》是绝对不可错过的核心节点；蓝色古兰经书叶与伊迪娅腰饰面具补足跨文化、宗教书写、王权和殖民来源等观看问题。现有证据未使任何作品通过稀世珍品硬门，因此评分保持在74分。",
+      "limits": [
+        "四件作品当前展出状态均为 display_status_unknown，行前必须向馆方核验。",
+        "锁定证据只覆盖四件候选，不能据此宣称完成全馆范围的稀世珍品排查。",
+        "完整路线覆盖的是本轮入选作品，不等同于一天看完博物馆全部馆藏。"
+      ]
+    }
+  },
+  "chapters": [
+    {"sectionId": "orientation-and-decision", "order": 1, "title": "先问：这趟参观的回报在哪里？", "question": "四件重要藏品能否组成一次值得安排的观看？", "collectionGroups": ["making-visible", "crossing-systems", "power-afterlife"], "workIds": ["sea-change", "double-elvis", "folio-from-the-dispersed-blue-quran", "belt-mask-of-iyoba-idia"], "purpose": "用评分、核心节点、展出不确定性和时间成本确定参观预期。"},
+    {"sectionId": "material-becomes-event", "order": 2, "title": "颜料怎样从画面变成一场事件？", "question": "《海变》为什么不是一幅画海的画？", "collectionGroups": ["making-visible"], "workIds": ["sea-change"], "purpose": "从画架绘画到铺地作画的转变，观看线条、色块、砂砾和商业油漆如何共同构成全画面的网络。"},
+    {"sectionId": "copy-and-collection", "order": 3, "title": "复制的图像何时变成博物馆的自画像？", "question": "《双重猫王》为什么必须连同那块空白面板一起看？", "collectionGroups": ["making-visible"], "workIds": ["double-elvis"], "purpose": "把两个面板的视觉反差、两次制作和西雅图艺术博物馆的委托行为放回同一作品结构。"},
+    {"sectionId": "reading-materialized", "order": 4, "title": "当文字被写在蓝色皮纸上，读者究竟在看什么？", "question": "蓝色、金银与库法体如何同时影响辨读和观看？", "collectionGroups": ["crossing-systems"], "workIds": ["folio-from-the-dispersed-blue-quran"], "purpose": "以书叶的材料、横向书写、字母点号和空隙说明文字系统如何形成页面节奏，并保留其散佚手稿的边界。"},
+    {"sectionId": "royal-object-afterlife", "order": 5, "title": "一件王室饰件经历了怎样的权力转移？", "question": "为什么这件“面具”不能只按脸部来理解？", "collectionGroups": ["power-afterlife"], "workIds": ["belt-mask-of-iyoba-idia"], "purpose": "先看腰饰的用途、伊迪娅形象的通常归属与王权仪式，再进入1897年英国行动造成的掠夺与流转。"},
+    {"sectionId": "leave-with-a-second-look", "order": 6, "title": "离开前：把四件作品重新连起来", "question": "材料、制度与历史如何在现场重新变得可见？", "collectionGroups": ["making-visible", "crossing-systems", "power-afterlife"], "workIds": ["sea-change", "double-elvis", "folio-from-the-dispersed-blue-quran", "belt-mask-of-iyoba-idia"], "purpose": "回看四件作品各自的观看证据，同时区分作品重要性、稀有状态和当日可见状态。"}
+  ],
+  "routes": [
+    {"routeId": "90-minute", "order": 1, "title": "90分钟：四个高回报节点", "durationMinutes": 90, "workIds": ["sea-change", "double-elvis", "folio-from-the-dispersed-blue-quran", "belt-mask-of-iyoba-idia"], "stops": [{"workId": "sea-change", "minutes": 25, "instruction": "先建立材料成为事件的观看基准。"}, {"workId": "double-elvis", "minutes": 20, "instruction": "紧接着比较重复影像与空白面板。"}, {"workId": "folio-from-the-dispersed-blue-quran", "minutes": 15, "instruction": "观察材料和文字节奏，不展开散佚手稿的外围谱系。"}, {"workId": "belt-mask-of-iyoba-idia", "minutes": 25, "instruction": "以用途、王权仪式和殖民来源收束主线。"}], "tradeoffs": "主动跳过本轮四件作品之外的馆藏与外围比较；每件作品只保留能支撑旅行判断的观看时间。", "visibilityNote": "四件作品当前展出状态均未知；只有在行前核验可见后，才能把此顺序作为现场安排。"},
+    {"routeId": "half-day", "order": 2, "title": "半天：从制作到制度", "durationMinutes": 210, "workIds": ["sea-change", "double-elvis", "folio-from-the-dispersed-blue-quran", "belt-mask-of-iyoba-idia"], "stops": [{"workId": "sea-change", "minutes": 40, "instruction": "从制作过程进入画面网络。"}, {"workId": "double-elvis", "minutes": 35, "instruction": "把图像复制、两个面板和收藏行为放在一起看。"}, {"workId": "folio-from-the-dispersed-blue-quran", "minutes": 35, "instruction": "慢看靛蓝皮纸、金银和横向库法体。"}, {"workId": "belt-mask-of-iyoba-idia", "minutes": 45, "instruction": "从腰饰结构进入王权记忆与殖民掠夺的双重历史。"}], "breaks": ["在第二件与第三件作品之间安排休息；不以连续站立完成全程。"], "tradeoffs": "保留四件核心作品的完整解释，仍不承诺覆盖未经本轮锁定的其他馆藏。", "visibilityNote": "路线顺序是编辑安排，不是实时馆内导航；可见性需行前向馆方确认。"},
+    {"routeId": "complete-browsing", "order": 3, "title": "完整浏览：分两次完成本轮精选", "durationMinutes": 330, "visitPlan": [{"visit": 1, "title": "制作与复制", "workIds": ["sea-change", "double-elvis"], "minutes": 150, "order": ["sea-change", "double-elvis"]}, {"visit": 2, "title": "书写与王权的后世", "workIds": ["folio-from-the-dispersed-blue-quran", "belt-mask-of-iyoba-idia"], "minutes": 150, "order": ["folio-from-the-dispersed-blue-quran", "belt-mask-of-iyoba-idia"]}], "workIds": ["sea-change", "double-elvis", "folio-from-the-dispersed-blue-quran", "belt-mask-of-iyoba-idia"], "tradeoffs": "完整浏览在本阶段指覆盖全部四件入选作品，并允许分两次完成；不把四件作品外的未知馆藏或未知展厅顺序写成确定路线。", "visibilityNote": "任何作品若当日不可见，应从路线中移除或改为行前核验后的替代安排；本阶段不指定未经锁定的替代作品。"}
+  ],
+  "rating": {
+    "ok": true,
+    "failures": [],
+    "summary": {"museumId": "seattle", "workCount": 4, "significanceCounts": {"稀世珍品": 0, "重要藏品": 4, "特色看点": 0, "体验补充": 0}, "rareAssets": [], "independentRareLines": [], "score": 74, "scoreBand": "70–79 · 可去可不去", "withinBandAnchor": "73–75"},
+    "runId": "20260726T074634Z-p2.11.0",
+    "museumId": "seattle",
+    "inputSha256": "9726bb2ff258a187731c4ce9c44e6cc023564138039128c91a3ac174a92e1432",
+    "inputPath": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/selection/rating-input.json"
+  },
+  "works": [
+    {"workId": "sea-change", "identity": {"workId": "sea-change", "objectType": "painting", "titleZh": "海变", "titleEn": "Sea Change", "artistZh": "杰克逊·波洛克", "artistEn": "Jackson Pollock", "displayDate": "1947年（创作横跨1946—1947年）", "medium": "艺术家用油画颜料、商业油漆、砂砾、画布", "accessionNumber": "58.55", "officialObjectUrl": "https://art.seattleartmuseum.org/objects/2742/sea-change"}, "collectionGroup": "making-visible", "significance": "重要藏品", "priority": "绝对不可错过", "availability": "display_status_unknown", "imagePolicy": "object_image", "sectionId": "material-becomes-event", "stay": 25, "routeRole": "opening_anchor", "imageEvidence": {"status": "accepted", "imagePolicy": "object_image", "selected": {"url": "https://art.seattleartmuseum.org/internal/media/dispatcher/76355/preview", "localPath": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/image-evidence/assets/sea-change.jpg", "sha256": "edc5431dcbaa46905b02a64a0646431785a0f5233753b0415657fd9a39a1f85d", "width": 0, "height": 0, "contentType": "image/jpeg", "method": "existing_verified_production_asset", "provider": "benchmark_locked_asset", "identitySignals": ["production_object_identity", "official_object_url"]}, "warnings": ["benchmark reuses the currently verified production image without changing production"]}},
+    {"workId": "double-elvis", "identity": {"workId": "double-elvis", "objectType": "painting", "titleZh": "双重猫王", "titleEn": "Double Elvis", "artistZh": "安迪·沃霍尔", "artistEn": "Andy Warhol", "displayDate": "1963／1976（两个面板分别制作）", "medium": "丝网印墨与合成聚合物颜料，画布", "accessionNumber": "76.9", "officialObjectUrl": "https://art.seattleartmuseum.org/objects/3307/double-elvis"}, "collectionGroup": "making-visible", "significance": "重要藏品", "priority": "绝对不可错过", "availability": "display_status_unknown", "imagePolicy": "object_image", "sectionId": "copy-and-collection", "stay": 20, "routeRole": "core_contrast", "imageEvidence": {"status": "accepted", "imagePolicy": "object_image", "selected": {"url": "https://art.seattleartmuseum.org/internal/media/dispatcher/29806/preview", "localPath": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/image-evidence/assets/double-elvis.jpg", "sha256": "5d2ca6d3bcbff3371e49830c6501baa8bcbab7a8a51316183d20bf95f9c30057", "width": 0, "height": 0, "contentType": "image/jpeg", "method": "existing_verified_production_asset", "provider": "benchmark_locked_asset", "identitySignals": ["production_object_identity", "official_object_url"]}, "warnings": ["benchmark reuses the currently verified production image without changing production"]}},
+    {"workId": "folio-from-the-dispersed-blue-quran", "identity": {"workId": "folio-from-the-dispersed-blue-quran", "objectType": "manuscript", "titleZh": "散佚蓝色古兰经书叶", "titleEn": "Folio from the dispersed \"Blue Qur'an\"", "artistZh": "North African", "artistEn": "North African", "displayDate": "9 世纪；同手稿比较馆藏断为 9 世纪后半至 10 世纪中叶", "medium": "靛蓝染动物皮纸上的金、银", "accessionNumber": "69.37", "officialObjectUrl": "https://art.seattleartmuseum.org/objects/5815/folio-from-the-dispersed-blue-quran"}, "collectionGroup": "crossing-systems", "significance": "重要藏品", "priority": "强烈推荐", "availability": "display_status_unknown", "imagePolicy": "object_image", "sectionId": "reading-materialized", "stay": 15, "routeRole": "collection_context", "imageEvidence": {"status": "accepted", "imagePolicy": "object_image", "selected": {"url": "https://art.seattleartmuseum.org/internal/media/dispatcher/130907/preview", "localPath": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/image-evidence/assets/folio-from-the-dispersed-blue-quran.jpg", "sha256": "713f52eecc75e8d20721f1f56a050ff7d5eb965542dd8920bf43be7d2c46ff8b", "width": 0, "height": 0, "contentType": "image/jpeg", "method": "existing_verified_production_asset", "provider": "benchmark_locked_asset", "identitySignals": ["production_object_identity", "official_object_url"]}, "warnings": ["benchmark reuses the currently verified production image without changing production"]}},
+    {"workId": "belt-mask-of-iyoba-idia", "identity": {"workId": "belt-mask-of-iyoba-idia", "objectType": "historical_object", "titleZh": "伊约巴（王母）伊迪娅腰饰面具", "titleEn": "Belt mask of Iyoba (Mother of the Oba) Idia", "artistZh": "Benin Kingdom，Nigerian", "artistEn": "Benin Kingdom，Nigerian", "displayDate": "约 1517–1550", "medium": "象牙", "accessionNumber": "81.17.493", "officialObjectUrl": "https://art.seattleartmuseum.org/objects/8251/belt-mask-of-iyoba-mother-of-the-oba-idia"}, "collectionGroup": "power-afterlife", "significance": "重要藏品", "priority": "强烈推荐", "availability": "display_status_unknown", "imagePolicy": "object_image", "sectionId": "royal-object-afterlife", "stay": 25, "routeRole": "closing_anchor", "imageEvidence": {"status": "accepted", "imagePolicy": "object_image", "selected": {"url": "https://art.seattleartmuseum.org/internal/media/dispatcher/27411/preview", "localPath": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/image-evidence/assets/belt-mask-of-iyoba-idia.jpg", "sha256": "4d58d67008451aa53400e9ee1162f4c8b95805bafe660f44987ac7c09713c0c0", "width": 0, "height": 0, "contentType": "image/jpeg", "method": "existing_verified_production_asset", "provider": "benchmark_locked_asset", "identitySignals": ["production_object_identity", "official_object_url"]}, "warnings": ["benchmark reuses the currently verified production image without changing production"]}}
+  ],
+  "integration": {
+    "source": "frozen_selection_rating_verified_image_evidence",
+    "workOrder": ["sea-change", "double-elvis", "folio-from-the-dispersed-blue-quran", "belt-mask-of-iyoba-idia"],
+    "selectionOrderPreserved": true,
+    "ratingPreserved": true,
+    "imageEvidencePreserved": true,
+    "availabilityBoundary": "display_status_unknown",
+    "researchGaps": ["四件入选作品的当前展出状态均未获确认；路线与到馆承诺必须在行前向馆方核验。", "锁定证据只覆盖四件候选，不能证明它们已完整覆盖博物馆全部馆藏高峰；本次评分不得据此宣称完成全馆范围的稀世珍品排查。", "《海变》《双重猫王》和《蓝色古兰经》书叶没有完成稀世珍品硬门所需的最近比较对象、决定性差异与不可替代性论证。", "伊迪娅腰饰面具的人像身份应保留“通常认为”的限定；现有证据不能确认其为无争议的伊迪娅肖像。"]
+  },
+  "publication": {
+    "boundary": "experiment_only",
+    "status": "structure_ready",
+    "sourceRunId": "20260726T074634Z-p2.11.0",
+    "currentDisplayVerificationRequired": true,
+    "routeNavigationClaim": false
+  }
+}

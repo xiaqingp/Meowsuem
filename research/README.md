@@ -1,7 +1,7 @@
 # Meowseum 内容与生成权威入口
 
 > Status: Canonical project entrypoint  
-> Updated: 2026-07-25
+> Updated: 2026-07-26
 
 任何新增、重写、审核或自动化任务都从本文件开始。对话记录只解释决策来历，不是运行时输入。
 
@@ -65,4 +65,4 @@ node scripts/create-generation-run.mjs --kind=regression --case=filesystem-contr
 
 馆级评分在写馆介和逐件正文前由 `scripts/process-museum-rating.mjs` 检查证据表、档位、档内锚点、独立珍品线和重复计数；失败时不得继续下游。
 
-新单件正文入口是 `scripts/run-one-shot-work.mjs`：Luna High 只读取 locked metadata、已验证图片和 canonical one-shot prompt，自主搜索后直接输出 article 与 sources。Research Card 仍可用于馆级 selection、rating 和 structure，但不得进入单件写作。通用 verifier 与确定性 adapter 分别由 `scripts/verify-one-shot-work.mjs`、`scripts/adapt-one-shot-work.mjs` 执行。
+新馆入口是 `scripts/run-museum-pipeline.mjs`。普通馆级 planning research 使用 Luna High compact evidence；高风险对象使用 Sol Medium deep dossier；Selection 保持 Sol Medium，Structure 使用 Luna High。`scripts/prepare-one-shot-work-inputs.mjs` 从权威上游生成 locked metadata 后，`scripts/run-one-shot-work.mjs` 让 Luna High 只读取 locked metadata、已验证作品图和 canonical one-shot prompt，自主搜索并直接输出 article 与 sources。旧 Research Card、Writing Plan 与 Author bundle 只解释历史 run，不是新 run fallback。

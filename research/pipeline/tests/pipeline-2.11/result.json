@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "pipelineVersion": "2.11.0",
+  "status": "passed",
+  "recordedAt": "2026-07-26",
+  "endToEndFixture": {
+    "status": "passed",
+    "works": 3,
+    "modelCalls": "mocked",
+    "publication": "dry_run",
+    "command": "node scripts/test-museum-pipeline-e2e.mjs"
+  },
+  "realBenchmark": {
+    "status": "completed_owner_review_pending",
+    "run": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0",
+    "works": 4,
+    "accepted": 4,
+    "modelCalls": 9,
+    "failedSelectionAttempts": 1,
+    "failedSelectionRetryTokens": 35360,
+    "oneShotInputTokens": 450440,
+    "oneShotCachedInputTokens": 262144,
+    "oneShotReasoningTokens": 9960,
+    "oneShotOutputTokens": 19049,
+    "oneShotTotalTokens": 469489,
+    "rawAgentTokens": 718637,
+    "criticalPathModelMs": 583921,
+    "observedEndToEndMs": 747041,
+    "webSearchCount": 13,
+    "weightedCreditEstimate": "unavailable_no_rate_card",
+    "humanReview": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/reports/comparison-for-human-review.md"
+  },
+  "significanceEvidence": {
+    "status": "passed_with_preexisting_significance_baseline",
+    "failureCount": 145,
+    "failureCategory": "significance_audit_pending",
+    "filesystemRelatedFailures": 0,
+    "baselineFailureSetSha256": "de674ef30690a5b7351d86fe2440b20d733a8568e7f54a049a1e59a8f8e188d0"
+  },
+  "browserVerification": {
+    "status": "passed",
+    "baseUrl": "http://127.0.0.1:8094",
+    "museumPagesLoaded": 15,
+    "detailChecked": "museum.html?id=seattle&work=sea-change",
+    "sourceDisclosurePresent": true,
+    "consoleErrors": 0
+  },
+  "commands": [
+    {"command": "node scripts/test-filesystem-contract.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/test-create-generation-run.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/test-filesystem-migration.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/test-run-generation-batch.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -File scripts/test-run-isolated-generation.ps1", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/test-museum-generation-report.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/test-assemble-museum-candidate.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/test-publish-museum-candidate.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/test-future-museum-contract.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/test-author-input-regression.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/test-museum-rating-gate.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/test-prepare-museum-stage-inputs.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/test-one-shot-work.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/test-image-providers.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/test-image-disambiguation-contract.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/test-project-authority.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/test-museum-pipeline-e2e.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/verify-pipeline-causality.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/verify-content-pipeline.mjs", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/migrate-filesystem-contract-v1.mjs --verify", "exitCode": 0, "status": "passed"},
+    {"command": "node scripts/verify-significance-evidence.mjs", "exitCode": 1, "status": "passed_with_preexisting_significance_baseline"},
+    {"command": "node scripts/verify-project-authority.mjs", "exitCode": 0, "status": "passed", "result": "15 active content files, pipeline 2.11.0"}
+  ]
+}

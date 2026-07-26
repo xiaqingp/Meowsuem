@@ -1,0 +1,74 @@
+{
+    "runId":  "20260726T074634Z-p2.11.0",
+    "stage":  "museum_structure",
+    "museumId":  "",
+    "caseId":  "pipeline-2-11-real-benchmark",
+    "workId":  "",
+    "pipelineVersion":  "2.11.0",
+    "instructionVersion":  "2.4.0",
+    "model":  "gpt-5.6-luna",
+    "reasoningEffort":  "high",
+    "runnerStartedAt":  "2026-07-26T00:53:20.4021882-07:00",
+    "modelStartedAt":  "2026-07-26T00:53:20.7731924-07:00",
+    "modelCompletedAt":  "2026-07-26T00:56:30.0754413-07:00",
+    "completedAt":  "2026-07-26T00:56:30.0951952-07:00",
+    "runnerDurationMs":  189693,
+    "modelDurationMs":  189302,
+    "tokenUsage":  {
+                       "total":  31381,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "2",
+                                    "7",
+                                    "11",
+                                    "12",
+                                    "13"
+                                ],
+    "logPath":  "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/structure/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "d80ee1c0f28a4f21a26b3d7daefe825812b9007b3208dd80451ae13cee95fc96"
+                   },
+                   {
+                       "path":  "research/pipeline/prompts/museum-structure.md",
+                       "role":  "stage_prompt",
+                       "sha256":  "14dbb7e07f1fb913da31e9bdf14ae24406a28bb0d04d4c2d2ce38725cbdbcf99"
+                   },
+                   {
+                       "path":  "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/selection/selection.json",
+                       "role":  "museum_selection",
+                       "sha256":  "da3a5067c2f038742f0d193b762732b2df7d8f9726a67933389cffa03ac14f1b"
+                   },
+                   {
+                       "path":  "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/rating/rating-result.json",
+                       "role":  "museum_rating",
+                       "sha256":  "a54dd2ca2a4bce2fc52bb8c7a9a5d0ecf4916a3f9779d0a9d90dae01bdd46322"
+                   },
+                   {
+                       "path":  "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/candidate-pool/candidate-pool.json",
+                       "role":  "candidate_identity",
+                       "sha256":  "a850d5845e38fa383b73e690e1b23912de99597f9390cb3d1f9478919ea95056"
+                   },
+                   {
+                       "path":  "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/image-evidence/verified-image-evidence.json",
+                       "role":  "verified_image_evidence",
+                       "sha256":  "beec36a8372af3db4a5cec7f0bdd62b5ded52a85389d2a2862b207e608997ad8"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "structure.json",
+                        "sha256":  "fdd515eafdc26ec1923c18c126a4e67597f669588e631f7b652030d498f9368f",
+                        "bytes":  9619
+                    },
+                    {
+                        "path":  "assembly-input.json",
+                        "sha256":  "daa7ca2e7776ede96b4a9e0eeca3c5f15850286f669e2e2106bc1b76e7b20f5d",
+                        "bytes":  14981
+                    }
+                ]
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260726T074634Z-p2.11.0",
+  "museumId": "seattle",
+  "upstreamHashes": {
+    "candidates": {
+      "path": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/candidate-pool/candidate-pool.json",
+      "sha256": "a850d5845e38fa383b73e690e1b23912de99597f9390cb3d1f9478919ea95056"
+    },
+    "selection": {
+      "path": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/selection/selection.json",
+      "sha256": "da3a5067c2f038742f0d193b762732b2df7d8f9726a67933389cffa03ac14f1b"
+    },
+    "structure": {
+      "path": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/structure/structure.json",
+      "sha256": "fdd515eafdc26ec1923c18c126a4e67597f669588e631f7b652030d498f9368f"
+    },
+    "images": {
+      "path": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/image-evidence/verified-image-evidence.json",
+      "sha256": "beec36a8372af3db4a5cec7f0bdd62b5ded52a85389d2a2862b207e608997ad8"
+    }
+  },
+  "works": [
+    {
+      "workId": "sea-change",
+      "path": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/works/sea-change/one-shot/input/locked-metadata.json",
+      "sha256": "ace629053305623a273034a3e6389ee87b955961bfaab08a0938192e94fb88f4"
+    },
+    {
+      "workId": "double-elvis",
+      "path": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/works/double-elvis/one-shot/input/locked-metadata.json",
+      "sha256": "4361fe725e1299a83c7bebdc0d10b484f35d47a160c6f3b58bcef4704e3ae284"
+    },
+    {
+      "workId": "folio-from-the-dispersed-blue-quran",
+      "path": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/works/folio-from-the-dispersed-blue-quran/one-shot/input/locked-metadata.json",
+      "sha256": "9d6bfe2b1c709149da447c5c3367538663af765a356d6e3c431a3a57e6f9d020"
+    },
+    {
+      "workId": "belt-mask-of-iyoba-idia",
+      "path": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/works/belt-mask-of-iyoba-idia/one-shot/input/locked-metadata.json",
+      "sha256": "178895e3251d75a62a53ff851904764021e07387942d5e6fa92a8ffecd4ef842"
+    }
+  ]
+}

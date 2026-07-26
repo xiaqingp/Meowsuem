@@ -25,12 +25,46 @@ async function walk(directory) {
   for (const entry of await fs.readdir(directory, { withFileTypes: true })) {
     const full = path.join(directory, entry.name);
     if (entry.isDirectory()) files.push(...(await walk(full)));
-    else if (entry.name.endsWith("-result.json")) files.push(full);
+    else if (entry.name.endsWith("-result.json")
+      || (entry.name === "result.json" && (
+        path.basename(path.dirname(full)) === "one-shot"
+        || path.basename(path.dirname(path.dirname(full))) === "attempts"
+      ))) files.push(full);
   }
   return files;
 }
 
 const ms = (value) => new Date(value).valueOf();
+const numeric = value => Number.isFinite(value) ? value : 0;
+const retryCount = items => {
+  const attempts = new Map();
+  for (const item of items) {
+    if (!item.workId) continue;
+    attempts.set(item.workId, Math.max(attempts.get(item.workId) ?? 0, numeric(item.attempt)));
+  }
+  return [...attempts.values()].reduce((sum,attempt)=>sum+Math.max(0,attempt-1),0);
+};
+const normalizeResult = (result, file) => {
+  if (result.stage === "single_work" || path.basename(file) === "result.json") {
+    const startedAt = result.startedAt;
+    const completedAt = result.completedAt;
+    return {
+      ...result,
+      runnerStartedAt: startedAt,
+      modelStartedAt: startedAt,
+      modelCompletedAt: completedAt,
+      completedAt,
+      tokenUsage: {
+        input: numeric(result.inputTokens),
+        cachedInput: numeric(result.cachedInputTokens),
+        reasoning: numeric(result.reasoningTokens),
+        output: numeric(result.outputTokens),
+        total: numeric(result.totalTokens),
+      },
+    };
+  }
+  return result;
+};
 const summarize = (items) => {
   const firstRunner = Math.min(...items.map((item) => ms(item.runnerStartedAt)));
   const lastCompleted = Math.max(...items.map((item) => ms(item.completedAt)));
@@ -40,7 +74,15 @@ const summarize = (items) => {
     modelSecondsSum: Math.round(
       items.reduce((sum, item) => sum + ms(item.modelCompletedAt) - ms(item.modelStartedAt), 0) / 1000,
     ),
-    tokens: items.reduce((sum, item) => sum + item.tokenUsage.total, 0),
+    tokenUsage: items.reduce((sum, item) => ({
+      input: sum.input + numeric(item.tokenUsage.input ?? item.tokenUsage.inputTokens),
+      cachedInput: sum.cachedInput + numeric(item.tokenUsage.cachedInput ?? item.tokenUsage.cachedInputTokens),
+      reasoning: sum.reasoning + numeric(item.tokenUsage.reasoning ?? item.tokenUsage.reasoningTokens),
+      output: sum.output + numeric(item.tokenUsage.output ?? item.tokenUsage.outputTokens),
+      total: sum.total + numeric(item.tokenUsage.total),
+    }), {input:0,cachedInput:0,reasoning:0,output:0,total:0}),
+    searches: items.reduce((sum,item)=>sum+numeric(item.webSearchCount),0),
+    retries: retryCount(items),
   };
 };
 
@@ -83,7 +125,12 @@ export async function reportMuseumGeneration(argv = process.argv.slice(2)) {
   const results = [];
   const missingMetrics = [];
   for (const file of await walk(runRoot)) {
-    const result = JSON.parse(await fs.readFile(file, "utf8"));
+    if (path.basename(path.dirname(file)) === "one-shot"
+      && await fs.access(path.join(path.dirname(file),"attempts")).then(()=>true).catch(()=>false)) {
+      continue;
+    }
+    const parsed = JSON.parse(await fs.readFile(file, "utf8"));
+    const result = normalizeResult(parsed, file);
     if (!result.modelStartedAt) continue;
     const relative = path.relative(runRoot, file).replaceAll("\\", "/");
     const missing = ["runnerStartedAt", "modelStartedAt", "modelCompletedAt", "completedAt"].filter(
@@ -91,8 +138,10 @@ export async function reportMuseumGeneration(argv = process.argv.slice(2)) {
     );
     if (!Number.isInteger(result.tokenUsage?.total) || result.tokenUsage.total <= 0) missing.push("tokenUsage.total");
     if (result.runId !== descriptor.runId) missing.push(`runId(${result.runId})`);
-    const descriptorIdentity = descriptor.museumId ?? descriptor.caseId;
-    if ((result.museumId ?? result.caseId) !== descriptorIdentity) missing.push("run identity");
+    const identityMatches = descriptor.museumId
+      ? result.museumId === descriptor.museumId
+      : result.caseId === descriptor.caseId;
+    if (!identityMatches) missing.push("run identity");
     if (missing.length) missingMetrics.push({ file: relative, missing });
     results.push({ ...result, file: relative });
   }
@@ -110,6 +159,22 @@ export async function reportMuseumGeneration(argv = process.argv.slice(2)) {
   const stages = Object.fromEntries([...stageMap].map(([stage, items]) => [stage, summarize(items)]));
   const firstRunnerStartedAt = new Date(Math.min(...results.map((item) => ms(item.runnerStartedAt))));
   const lastModelCompletedAt = new Date(Math.max(...results.map((item) => ms(item.modelCompletedAt))));
+  const tokenUsage = results.reduce((sum,item)=>({
+    input:sum.input+numeric(item.tokenUsage.input ?? item.tokenUsage.inputTokens),
+    cachedInput:sum.cachedInput+numeric(item.tokenUsage.cachedInput ?? item.tokenUsage.cachedInputTokens),
+    reasoning:sum.reasoning+numeric(item.tokenUsage.reasoning ?? item.tokenUsage.reasoningTokens),
+    output:sum.output+numeric(item.tokenUsage.output ?? item.tokenUsage.outputTokens),
+    total:sum.total+numeric(item.tokenUsage.total),
+  }),{input:0,cachedInput:0,reasoning:0,output:0,total:0});
+  const rateCard = manifest.executionProfile?.generationCostRateCard ?? {status:"unavailable",models:{}};
+  let weightedCreditEstimate = 0;
+  let rateComplete = true;
+  for (const item of results) {
+    const rate = rateCard.models?.[item.model];
+    if (!rate) { rateComplete = false; continue; }
+    weightedCreditEstimate += numeric(item.tokenUsage.input) / 1_000_000 * numeric(rate.inputPerMillion)
+      + numeric(item.tokenUsage.output) / 1_000_000 * numeric(rate.outputPerMillion);
+  }
   const report = {
     museumId: descriptor.museumId ?? null,
     caseId: descriptor.caseId ?? null,
@@ -121,13 +186,29 @@ export async function reportMuseumGeneration(argv = process.argv.slice(2)) {
     totalWallSeconds: Math.round((completedAt - firstRunnerStartedAt) / 1000),
     postGenerationSeconds: Math.max(0, Math.round((completedAt - lastModelCompletedAt) / 1000)),
     modelRuns: results.length,
-    totalTokens: results.reduce((sum, item) => sum + item.tokenUsage.total, 0),
+    totalTokens: tokenUsage.total,
+    tokenUsage,
+    webSearchCount: results.reduce((sum,item)=>sum+numeric(item.webSearchCount),0),
+    retryCount: retryCount(results),
+    weightedCreditEstimate: rateComplete ? weightedCreditEstimate : "unavailable",
+    weightedCreditEstimateStatus: rateCard.status ?? "unavailable",
+    perModel: Object.fromEntries([...new Set(results.map(item=>item.model))].map(model=>[
+      model,
+      {runs:results.filter(item=>item.model===model).length,
+       tokens:results.filter(item=>item.model===model).reduce((sum,item)=>sum+numeric(item.tokenUsage.total),0)}
+    ])),
+    perWorkAverage: {
+      runs: results.filter(item=>item.workId).length,
+      tokens: results.filter(item=>item.workId).length
+        ? Math.round(results.filter(item=>item.workId).reduce((sum,item)=>sum+numeric(item.tokenUsage.total),0)/results.filter(item=>item.workId).length)
+        : 0,
+    },
     stages,
     missingMetrics: [],
   };
   const rows = Object.entries(stages).map(
     ([stage, item]) =>
-      `| ${stage} | ${item.runs} | ${duration(item.wallSeconds)} | ${duration(item.modelSecondsSum)} | ${item.tokens.toLocaleString("en-US")} |`,
+      `| ${stage} | ${item.runs} | ${duration(item.wallSeconds)} | ${duration(item.modelSecondsSum)} | ${item.tokenUsage.total.toLocaleString("en-US")} |`,
   );
   const markdown = `# ${descriptor.museumId ?? descriptor.caseId} 生成报告
 

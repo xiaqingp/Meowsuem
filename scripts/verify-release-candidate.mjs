@@ -89,6 +89,7 @@ for (const museum of Object.values(museums)) {
       addUrl(imageUrls, work.image, `${museum.id}/${work.id}`);
       addUrl(sourceUrls, work.source, `${museum.id}/${work.id}`);
       addUrl(sourceUrls, work.imageSource, `${museum.id}/${work.id} image`);
+      for (const source of work.sources ?? []) addUrl(sourceUrls, source.url, `${museum.id}/${work.id} reference`);
     }
   }
   if (liveInScope) {

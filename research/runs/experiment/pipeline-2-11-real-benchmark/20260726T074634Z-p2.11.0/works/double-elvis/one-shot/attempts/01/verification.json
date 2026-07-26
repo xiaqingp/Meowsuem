@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "errors": [],
+  "warnings": [],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": true,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "猫王不是在唱歌，而是在“扮演猫王”",
+    "两个猫王像电影在眨眼",
+    "空白面板：不是没画完，而是作品的一半",
+    "波普艺术为什么需要这么大的画布？"
+  ],
+  "sourceCount": 3,
+  "articleBytes": 5204,
+  "sourcesBytes": 1876
+}

@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "museumId": "seattle",
+  "works": [
+    {
+      "schemaVersion": 1,
+      "museumId": "seattle",
+      "workId": "sea-change",
+      "identity": {
+        "title": "Sea Change",
+        "creator": "杰克逊·波洛克（Jackson Pollock）",
+        "accessionNumber": "58.55",
+        "officialObjectUrl": "https://art.seattleartmuseum.org/objects/2742/sea-change"
+      },
+      "status": "accepted",
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/76355/preview",
+        "localPath": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/image-evidence/assets/sea-change.jpg",
+        "sha256": "edc5431dcbaa46905b02a64a0646431785a0f5233753b0415657fd9a39a1f85d",
+        "width": 0,
+        "height": 0,
+        "contentType": "image/jpeg",
+        "method": "existing_verified_production_asset",
+        "provider": "benchmark_locked_asset",
+        "identitySignals": [
+          "production_object_identity",
+          "official_object_url"
+        ]
+      },
+      "alternatives": [],
+      "warnings": [
+        "benchmark reuses the currently verified production image without changing production"
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "museumId": "seattle",
+      "workId": "double-elvis",
+      "identity": {
+        "title": "Double Elvis",
+        "creator": "安迪·沃霍尔（Andy Warhol）",
+        "accessionNumber": "76.9",
+        "officialObjectUrl": "https://art.seattleartmuseum.org/objects/3307/double-elvis"
+      },
+      "status": "accepted",
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/29806/preview",
+        "localPath": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/image-evidence/assets/double-elvis.jpg",
+        "sha256": "5d2ca6d3bcbff3371e49830c6501baa8bcbab7a8a51316183d20bf95f9c30057",
+        "width": 0,
+        "height": 0,
+        "contentType": "image/jpeg",
+        "method": "existing_verified_production_asset",
+        "provider": "benchmark_locked_asset",
+        "identitySignals": [
+          "production_object_identity",
+          "official_object_url"
+        ]
+      },
+      "alternatives": [],
+      "warnings": [
+        "benchmark reuses the currently verified production image without changing production"
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "museumId": "seattle",
+      "workId": "folio-from-the-dispersed-blue-quran",
+      "identity": {
+        "title": "Folio from the dispersed \"Blue Qur'an\"",
+        "creator": "North African",
+        "accessionNumber": "69.37",
+        "officialObjectUrl": "https://art.seattleartmuseum.org/objects/5815/folio-from-the-dispersed-blue-quran"
+      },
+      "status": "accepted",
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/130907/preview",
+        "localPath": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/image-evidence/assets/folio-from-the-dispersed-blue-quran.jpg",
+        "sha256": "713f52eecc75e8d20721f1f56a050ff7d5eb965542dd8920bf43be7d2c46ff8b",
+        "width": 0,
+        "height": 0,
+        "contentType": "image/jpeg",
+        "method": "existing_verified_production_asset",
+        "provider": "benchmark_locked_asset",
+        "identitySignals": [
+          "production_object_identity",
+          "official_object_url"
+        ]
+      },
+      "alternatives": [],
+      "warnings": [
+        "benchmark reuses the currently verified production image without changing production"
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "museumId": "seattle",
+      "workId": "belt-mask-of-iyoba-idia",
+      "identity": {
+        "title": "Belt mask of Iyoba (Mother of the Oba) Idia",
+        "creator": "Benin Kingdom，Nigerian",
+        "accessionNumber": "81.17.493",
+        "officialObjectUrl": "https://art.seattleartmuseum.org/objects/8251/belt-mask-of-iyoba-mother-of-the-oba-idia"
+      },
+      "status": "accepted",
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://art.seattleartmuseum.org/internal/media/dispatcher/27411/preview",
+        "localPath": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/image-evidence/assets/belt-mask-of-iyoba-idia.jpg",
+        "sha256": "4d58d67008451aa53400e9ee1162f4c8b95805bafe660f44987ac7c09713c0c0",
+        "width": 0,
+        "height": 0,
+        "contentType": "image/jpeg",
+        "method": "existing_verified_production_asset",
+        "provider": "benchmark_locked_asset",
+        "identitySignals": [
+          "production_object_identity",
+          "official_object_url"
+        ]
+      },
+      "alternatives": [],
+      "warnings": [
+        "benchmark reuses the currently verified production image without changing production"
+      ]
+    }
+  ],
+  "summary": {
+    "works": 4,
+    "accepted": 4
+  }
+}

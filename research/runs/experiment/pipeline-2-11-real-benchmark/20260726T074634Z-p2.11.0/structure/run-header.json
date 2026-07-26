@@ -1,0 +1,51 @@
+{
+  "runId": "20260726T074634Z-p2.11.0",
+  "caseId": "pipeline-2-11-real-benchmark",
+  "startedAt": "2026-07-26T07:53:11.707Z",
+  "stage": "museum_structure",
+  "pipelineVersion": "2.11.0",
+  "instructionVersion": "2.4.0",
+  "executionProfile": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "high"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "d80ee1c0f28a4f21a26b3d7daefe825812b9007b3208dd80451ae13cee95fc96"
+    },
+    {
+      "path": "research/pipeline/prompts/museum-structure.md",
+      "role": "stage_prompt",
+      "sha256": "14dbb7e07f1fb913da31e9bdf14ae24406a28bb0d04d4c2d2ce38725cbdbcf99"
+    },
+    {
+      "path": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/selection/selection.json",
+      "role": "museum_selection",
+      "sha256": "da3a5067c2f038742f0d193b762732b2df7d8f9726a67933389cffa03ac14f1b"
+    },
+    {
+      "path": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/rating/rating-result.json",
+      "role": "museum_rating",
+      "sha256": "a54dd2ca2a4bce2fc52bb8c7a9a5d0ecf4916a3f9779d0a9d90dae01bdd46322"
+    },
+    {
+      "path": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/candidate-pool/candidate-pool.json",
+      "role": "candidate_identity",
+      "sha256": "a850d5845e38fa383b73e690e1b23912de99597f9390cb3d1f9478919ea95056"
+    },
+    {
+      "path": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/image-evidence/verified-image-evidence.json",
+      "role": "verified_image_evidence",
+      "sha256": "beec36a8372af3db4a5cec7f0bdd62b5ded52a85389d2a2862b207e608997ad8"
+    }
+  ],
+  "outputs": [
+    "structure.json",
+    "assembly-input.json"
+  ],
+  "reviewer": "disabled",
+  "retry": "explicit_only",
+  "publicationBoundary": "experiment_only"
+}

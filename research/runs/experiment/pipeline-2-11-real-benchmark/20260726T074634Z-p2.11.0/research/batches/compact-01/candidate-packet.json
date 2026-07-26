@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "museumId": "seattle",
+  "works": [
+    {
+      "workId": "sea-change",
+      "identity": {
+        "workId": "sea-change",
+        "objectType": "painting",
+        "titleZh": "海变",
+        "titleEn": "Sea Change",
+        "artistZh": "杰克逊·波洛克",
+        "artistEn": "Jackson Pollock",
+        "displayDate": "1947年（创作横跨1946—1947年）",
+        "medium": "艺术家用油画颜料、商业油漆、砂砾、画布",
+        "accessionNumber": "58.55",
+        "officialObjectUrl": "https://art.seattleartmuseum.org/objects/2742/sea-change"
+      },
+      "officialObjectUrl": "https://art.seattleartmuseum.org/objects/2742/sea-change",
+      "accessionNumber": "58.55",
+      "collectionGroup": "making-visible",
+      "selectionRationale": "眼前这件《海变》不是一幅“画海的画”，而是一场发生在画布上的颜料事件。杰克逊·波洛克在1946年先以画架绘画的方式开始它，使用明亮的蓝色和粉色；到了1947年，他把未完成的画布铺到工作室地面上，加入砂砾、铝粉色颜料和有光泽的黑色商业油漆，作品于是从一幅较传统的绘画，转成了密集、遍布全画面的线条与色块网络。",
+      "riskFlags": [],
+      "imageAvailability": "verified_local_object_image",
+      "identityAnchor": "Sea Change | 58.55",
+      "identitySourceUrl": "https://art.seattleartmuseum.org/objects/2742/sea-change"
+    },
+    {
+      "workId": "double-elvis",
+      "identity": {
+        "workId": "double-elvis",
+        "objectType": "painting",
+        "titleZh": "双重猫王",
+        "titleEn": "Double Elvis",
+        "artistZh": "安迪·沃霍尔",
+        "artistEn": "Andy Warhol",
+        "displayDate": "1963／1976（两个面板分别制作）",
+        "medium": "丝网印墨与合成聚合物颜料，画布",
+        "accessionNumber": "76.9",
+        "officialObjectUrl": "https://art.seattleartmuseum.org/objects/3307/double-elvis"
+      },
+      "officialObjectUrl": "https://art.seattleartmuseum.org/objects/3307/double-elvis",
+      "accessionNumber": "76.9",
+      "collectionGroup": "making-visible",
+      "selectionRationale": "左边，两个黑色的猫王枪手形象在银灰底上重叠；右边，同尺寸画布几乎没有人物。这个反差跨越了两次制作：影像面板作于1963年，西雅图艺术博物馆在1976年购入它后，又委托安迪·沃霍尔制作空白面板。MoMA和SFMOMA的相关版本也能说明沃霍尔如何复制、重叠同一明星影像，但这件作品多出一个无法由它们替代的环节——博物馆自己的收藏行为，直接进入了作品结构。",
+      "riskFlags": [],
+      "imageAvailability": "verified_local_object_image",
+      "identityAnchor": "Double Elvis | 76.9",
+      "identitySourceUrl": "https://art.seattleartmuseum.org/objects/3307/double-elvis"
+    },
+    {
+      "workId": "folio-from-the-dispersed-blue-quran",
+      "identity": {
+        "workId": "folio-from-the-dispersed-blue-quran",
+        "objectType": "manuscript",
+        "titleZh": "散佚蓝色古兰经书叶",
+        "titleEn": "Folio from the dispersed \"Blue Qur'an\"",
+        "artistZh": "North African",
+        "artistEn": "North African",
+        "displayDate": "9 世纪；同手稿比较馆藏断为 9 世纪后半至 10 世纪中叶",
+        "medium": "靛蓝染动物皮纸上的金、银",
+        "accessionNumber": "69.37",
+        "officialObjectUrl": "https://art.seattleartmuseum.org/objects/5815/folio-from-the-dispersed-blue-quran"
+      },
+      "officialObjectUrl": "https://art.seattleartmuseum.org/objects/5815/folio-from-the-dispersed-blue-quran",
+      "accessionNumber": "69.37",
+      "collectionGroup": "crossing-systems",
+      "selectionRationale": "深蓝皮纸上的金字并不只在展示昂贵材料：横向拉长的库法体、稀少的字母点号和宽阔空隙，把经文的辨读与页面的视觉节奏连在一起。读者需要预先熟悉经文，才能在高度抽象化的字形中辨认文字。它是散佚多卷本《蓝色古兰经》的一叶；同手稿书叶也收藏于大都会博物馆等机构，因此它的价值在于保存了这套早期书写与材料系统，而不在于“世界唯一”。",
+      "riskFlags": [],
+      "imageAvailability": "verified_local_object_image",
+      "identityAnchor": "Folio from the dispersed \"Blue Qur'an\" | 69.37",
+      "identitySourceUrl": "https://art.seattleartmuseum.org/objects/5815/folio-from-the-dispersed-blue-quran"
+    }
+  ]
+}

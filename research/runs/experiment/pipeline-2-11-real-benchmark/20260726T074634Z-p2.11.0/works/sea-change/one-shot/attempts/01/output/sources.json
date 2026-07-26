@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 2,
+  "museumId": "seattle",
+  "workId": "sea-change",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Sea Change – Works – eMuseum",
+      "publisher": "Seattle Art Museum",
+      "url": "https://art.seattleartmuseum.org/objects/2742/sea-change",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "process",
+        "provenance",
+        "collectionRelation",
+        "exhibitionHistory"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Sea Change - Big Picture",
+      "publisher": "Seattle Art Museum",
+      "url": "https://bigpicture.site.seattleartmuseum.org/works/sea-change/",
+      "sourceType": "museum",
+      "usedFor": [
+        "process",
+        "conservation",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Jackson Pollock: Chronology",
+      "publisher": "Museum of Modern Art",
+      "url": "https://www.moma.org/interactives/exhibitions/1998/pollock/website100/chronology.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "historicalContext",
+        "exhibitionHistory",
+        "workingMethod"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "《海变》处在波洛克1947—1950年“滴画时期”的开端。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "availability",
+      "statement": "锁定 metadata 未提供当前展出状态；本次核对的官方对象页也未给出可据此确认的当前展厅信息。"
+    }
+  ],
+  "upstreamConflicts": []
+}

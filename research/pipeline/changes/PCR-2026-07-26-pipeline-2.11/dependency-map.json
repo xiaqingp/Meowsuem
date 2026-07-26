@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "capturedFromPipelineVersion": "2.10.0",
+  "generatedAt": "2026-07-26",
+  "stages": [
+    {"stage":"create_run","inputs":["manifest","filesystem contract"],"outputs":["run.json","standard directories"],"model":null,"network":false,"resumable":false,"legacyAuthor":false,"writingPlan":false,"reported":false},
+    {"stage":"museum_discovery","inputs":["content instruction","museum scope"],"outputs":["candidate pool"],"model":"gpt-5.6-sol/medium","network":true,"resumable":true,"legacyAuthor":false,"writingPlan":false,"reported":true},
+    {"stage":"planning_research","inputs":["candidate pool","content instruction"],"outputs":["research cards"],"model":"terra/medium or sol/medium","network":true,"resumable":true,"legacyAuthor":false,"writingPlan":false,"reported":true},
+    {"stage":"selection","inputs":["candidate pool","research cards"],"outputs":["selection","rating evidence"],"model":"gpt-5.6-sol/medium","network":false,"resumable":true,"legacyAuthor":false,"writingPlan":false,"reported":true},
+    {"stage":"rating","inputs":["arbitrary evidence path","arbitrary rating path"],"outputs":["arbitrary output path"],"model":null,"network":false,"resumable":false,"legacyAuthor":false,"writingPlan":false,"reported":true},
+    {"stage":"structure","inputs":["selection","rating","research cards"],"outputs":["structure","routes","assembly input"],"model":"gpt-5.6-sol/medium","network":false,"resumable":true,"legacyAuthor":false,"writingPlan":false,"reported":true},
+    {"stage":"image_evidence","inputs":["candidate pool","official pages"],"outputs":["verified-image-evidence.json","assets"],"model":"gpt-5.6-luna/medium for ambiguity","network":true,"resumable":false,"legacyAuthor":false,"writingPlan":false,"reported":false},
+    {"stage":"locked_metadata","inputs":["candidate identity","selection","structure","image evidence","work context"],"outputs":["locked-metadata.json"],"model":null,"network":false,"resumable":false,"legacyAuthor":false,"writingPlan":false,"reported":false},
+    {"stage":"single_work","inputs":["locked metadata","verified image","canonical prompt"],"outputs":["article.md","sources.json"],"model":"gpt-5.6-luna/high","network":true,"resumable":false,"legacyAuthor":false,"writingPlan":false,"reported":false},
+    {"stage":"verification_integration","inputs":["locked metadata","article","sources"],"outputs":["verification","card","draft","display metadata","integration sources"],"model":null,"network":false,"resumable":false,"legacyAuthor":false,"writingPlan":false,"reported":false},
+    {"stage":"assembly","inputs":["assembly-input","one-shot integration or implicit legacy author bundle","image assets"],"outputs":["candidate"],"model":null,"network":false,"resumable":true,"legacyAuthor":true,"writingPlan":true,"reported":false},
+    {"stage":"causality","inputs":["fixture only"],"outputs":["fixture verdict"],"model":null,"network":false,"resumable":false,"legacyAuthor":false,"writingPlan":false,"reported":false},
+    {"stage":"release_publish","inputs":["candidate"],"outputs":["verification report","atomic production replacement"],"model":null,"network":"optional live URL checks","resumable":true,"legacyAuthor":false,"writingPlan":false,"reported":true}
+  ],
+  "knownGaps": [
+    "no museum orchestrator",
+    "no canonical locked metadata batch preparer",
+    "single_work absent from batch runner",
+    "one-shot failures do not always produce complete attempt records",
+    "implicit legacy Author fallback",
+    "assembly preparation still reads Author and Writing Plan",
+    "image resolver starts one local Chrome per work",
+    "single-work usage absent from generation report",
+    "sources remain inside run",
+    "causality gate validates fixtures rather than real production artifacts",
+    "rating processor accepts arbitrary paths"
+  ]
+}

@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import crypto from "node:crypto";
 import fs from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
@@ -103,6 +104,36 @@ try {
     "research/content/fixture.md",
   );
   await fs.rm(candidate, {recursive: true, force: true});
+  const descriptorPath = path.join(runRoot, "run.json");
+  const legacyDescriptor = JSON.parse(await fs.readFile(descriptorPath, "utf8"));
+  await fs.writeFile(descriptorPath, `${JSON.stringify({
+    ...legacyDescriptor,
+    contentContract: "one_shot_v1",
+    allowLegacyAuthorBundles: false,
+    legacyWorkIds: [],
+  }, null, 2)}\n`);
+  await fs.mkdir(path.join(runRoot, "assembly"), {recursive: true});
+  const assemblyBytes = await fs.readFile(path.join(runRoot, "structure", "assembly-input.json"));
+  await fs.writeFile(path.join(runRoot, "assembly", "publication-plan.json"), `${JSON.stringify({
+    schemaVersion: 1,
+    runId: fixtureRunId,
+    museumId: "fixture",
+    inputHashes: {"structure/assembly-input.json": crypto.createHash("sha256").update(assemblyBytes).digest("hex")},
+  }, null, 2)}\n`);
+  result = spawnSync(process.execPath, [script, ...identity], {encoding: "utf8"});
+  if (result.status === 0 || !result.stderr.includes("legacy fallback is forbidden")) {
+    throw new Error("new one-shot run silently accepted a legacy author bundle");
+  }
+  await fs.writeFile(descriptorPath, `${JSON.stringify({
+    ...legacyDescriptor,
+    contentContract: "one_shot_v1",
+    allowLegacyAuthorBundles: true,
+    legacyWorkIds: ["work-one"],
+  }, null, 2)}\n`);
+  result = spawnSync(process.execPath, [script, ...identity], {encoding: "utf8"});
+  if (result.status !== 0) throw new Error(result.stderr || result.stdout);
+  await fs.rm(candidate, {recursive: true, force: true});
+  await fs.writeFile(descriptorPath, `${JSON.stringify(legacyDescriptor, null, 2)}\n`);
   const integrationRoot = path.join(workRoot, "one-shot", "integration");
   await fs.mkdir(integrationRoot, {recursive: true});
   await fs.writeFile(path.join(integrationRoot, "draft.md"), "# 《作品一》 / Work One\n\n## 一分钟看懂\n\nOne-shot 正文。\n\n## 中间\n\n解释。\n\n## 最后再看一眼\n\n再看。\n");

@@ -59,9 +59,14 @@ async function verifyRuns(projectRoot, manifest, failures) {
           if (descriptor.runKind !== runKind) failures.push(`run kind drift: ${projectRelative(projectRoot, runRoot)}`);
           await assertRunRootMatchesContract({ projectRoot, manifest, runRoot, runDescriptor: descriptor });
           if (descriptor.layoutVersion === manifest.filesystemContract.currentLayoutVersion) {
-            for (const fixed of ["candidate", "reports"]) {
+            const requiredDirectories = descriptor.runKind === "production"
+              ? descriptor.status === "published"
+                ? ["candidate", "reports"]
+                : ["verified", "accepted"].includes(descriptor.status) ? ["reports"] : []
+              : [];
+            for (const fixed of requiredDirectories) {
               if (!(await exists(path.join(runRoot, fixed)))) {
-                failures.push(`layout v1 run is missing ${fixed}: ${projectRelative(projectRoot, runRoot)}`);
+                failures.push(`${descriptor.runKind} ${descriptor.status} run is missing ${fixed}: ${projectRelative(projectRoot, runRoot)}`);
               }
             }
           } else if (!(descriptor.layoutVersion === 0 && descriptor.legacyLayout === true)) {
@@ -101,6 +106,11 @@ export async function verifyProjectAuthority({ projectRoot, checkRelease = true 
     "scripts/assemble-museum-candidate.mjs",
     "scripts/finalize-museum.mjs",
     "scripts/publish-museum-candidate.mjs",
+    "scripts/run-museum-pipeline.mjs",
+    "scripts/reverify-one-shot-work.mjs",
+    "scripts/prepare-one-shot-work-inputs.mjs",
+    "scripts/prepare-museum-publication-plan.mjs",
+    "scripts/verify-run-causality.mjs",
   ];
   for (const file of required) if (!(await exists(path.join(root, file)))) failures.push(`missing authority file: ${file}`);
 
@@ -127,6 +137,11 @@ export async function verifyProjectAuthority({ projectRoot, checkRelease = true 
     canonicalRunCreator: "scripts/create-generation-run.mjs",
     canonicalRunValidator: "scripts/validate-run-directory.mjs",
     canonicalFilesystemMigration: "scripts/migrate-filesystem-contract-v1.mjs",
+    canonicalMuseumOrchestrator: "scripts/run-museum-pipeline.mjs",
+    canonicalOneShotReverifier: "scripts/reverify-one-shot-work.mjs",
+    canonicalLockedMetadataPreparer: "scripts/prepare-one-shot-work-inputs.mjs",
+    canonicalAssemblyInputPreparer: "scripts/prepare-museum-publication-plan.mjs",
+    canonicalRunCausalityVerifier: "scripts/verify-run-causality.mjs",
   };
   for (const [field, expected] of Object.entries(canonicalExpectations)) {
     if (manifest[field] !== expected) failures.push(`manifest ${field} drift`);

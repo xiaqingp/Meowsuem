@@ -1,0 +1,100 @@
+{
+  "evidence": {
+    "museumId": "seattle",
+    "works": [
+      {
+        "workId": "sea-change",
+        "significance": "重要藏品",
+        "priority": "绝对不可错过",
+        "availability": "display_status_unknown",
+        "imagePolicy": "object_image",
+        "rareGatePassed": false,
+        "nearestComparator": "",
+        "independenceKey": null,
+        "parentOrWholeWorkId": null,
+        "ratingRole": "independent_object",
+        "identityStable": true,
+        "sourcePointers": [
+          "compact-planning-evidence.json#works[workId=sea-change]",
+          "https://art.seattleartmuseum.org/objects/2742/sea-change"
+        ]
+      },
+      {
+        "workId": "double-elvis",
+        "significance": "重要藏品",
+        "priority": "绝对不可错过",
+        "availability": "display_status_unknown",
+        "imagePolicy": "object_image",
+        "rareGatePassed": false,
+        "nearestComparator": "",
+        "independenceKey": null,
+        "parentOrWholeWorkId": null,
+        "ratingRole": "independent_object",
+        "identityStable": true,
+        "sourcePointers": [
+          "compact-planning-evidence.json#works[workId=double-elvis]",
+          "https://art.seattleartmuseum.org/objects/3307/double-elvis",
+          "https://www.moma.org/collection/works/82343"
+        ]
+      },
+      {
+        "workId": "folio-from-the-dispersed-blue-quran",
+        "significance": "重要藏品",
+        "priority": "强烈推荐",
+        "availability": "display_status_unknown",
+        "imagePolicy": "object_image",
+        "rareGatePassed": false,
+        "nearestComparator": "",
+        "independenceKey": null,
+        "parentOrWholeWorkId": null,
+        "ratingRole": "collection_member",
+        "identityStable": true,
+        "sourcePointers": [
+          "compact-planning-evidence.json#works[workId=folio-from-the-dispersed-blue-quran]",
+          "https://art.seattleartmuseum.org/objects/5815/folio-from-the-dispersed-blue-quran",
+          "https://www.metmuseum.org/art/collection/search/454662"
+        ]
+      },
+      {
+        "workId": "belt-mask-of-iyoba-idia",
+        "significance": "重要藏品",
+        "priority": "强烈推荐",
+        "availability": "display_status_unknown",
+        "imagePolicy": "object_image",
+        "rareGatePassed": false,
+        "nearestComparator": "大英博物馆 pendant mask/regalia（Af1910,0513.1）；另有大都会艺术博物馆 Pendant mask of Ìyọ́bà Idià（1978.412.323）等同组对象",
+        "independenceKey": null,
+        "parentOrWholeWorkId": null,
+        "ratingRole": "collection_member",
+        "identityStable": true,
+        "sourcePointers": [
+          "deep-research-dossier.json#works[workId=belt-mask-of-iyoba-idia].rareAssessment",
+          "deep-research-dossier.json#works[workId=belt-mask-of-iyoba-idia].riskResolution",
+          "https://art.seattleartmuseum.org/objects/8251/belt-mask-of-iyoba-mother-of-the-oba-idia",
+          "https://journals.openedition.org/perspective/15735",
+          "https://www.britishmuseum.org/collection/object/E_Af1910-0513-1",
+          "https://www.metmuseum.org/art/collection/search/318622"
+        ]
+      }
+    ]
+  },
+  "rating": {
+    "museumId": "seattle",
+    "score": 74,
+    "scoreBand": "70—79",
+    "withinBandAnchor": "73–75",
+    "scoreReason": "锁定证据显示四条清晰而多样的馆藏认识路径：波洛克创作方法的转折、沃霍尔影像复制与馆藏委托、早期伊斯兰书写材料系统，以及贝宁王室仪式与殖民来源史；但没有任何作品通过稀世珍品不可替代性硬门，因此不能越过79分上限。",
+    "withinBandReason": "这些作品足以形成现代艺术、伊斯兰书籍与贝宁宫廷艺术等明确收藏方向，支持“值得顺路”的完整认识框架；但锁定候选仅四件、全部当前展出状态未知，且缺少完整馆藏与跨馆校准证据，不能支持76分以上的同城高优先级判断。",
+    "rareAssets": [],
+    "independentRareLines": [],
+    "dedicatedTrip": false,
+    "worldDominantConcentration": false,
+    "worldDominantConcentrationEvidence": []
+  },
+  "researchGaps": [
+    "锁定证据只覆盖四件候选，未覆盖博物馆完整馆藏，无法验证默认20件容量或排除其他可能改变评分档位的藏品。",
+    "所有入选作品均为display_status_unknown，稳定可见性与现场兑现程度无法确认。",
+    "缺少全部已发布博物馆的评分校准集合；74分是锁定证据边界内的保守判断。",
+    "伊迪娅腰饰面具的比较研究明确支持降为重要藏品；其通常被认为表现伊迪娅，但人物身份不应写成无保留的确定事实。"
+  ]
+}

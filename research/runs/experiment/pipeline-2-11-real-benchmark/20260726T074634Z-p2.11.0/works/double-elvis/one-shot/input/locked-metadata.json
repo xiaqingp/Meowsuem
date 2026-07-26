@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "museumId": "seattle",
+  "workId": "double-elvis",
+  "objectType": "painting",
+  "titleZh": "双重猫王",
+  "titleEn": "Double Elvis",
+  "artistZh": "安迪·沃霍尔",
+  "artistEn": "Andy Warhol",
+  "displayDate": "1963／1976（两个面板分别制作）",
+  "medium": "丝网印墨与合成聚合物颜料，画布",
+  "accessionNumber": "76.9",
+  "museumName": "Seattle Art Museum benchmark",
+  "officialObjectUrl": "https://art.seattleartmuseum.org/objects/3307/double-elvis",
+  "significance": "重要藏品",
+  "priority": "绝对不可错过",
+  "availability": "display_status_unknown",
+  "sectionId": "copy-and-collection",
+  "stay": "20分钟",
+  "routeRole": [
+    "core_contrast"
+  ],
+  "imagePolicy": "object_image",
+  "verifiedImageUrl": "https://art.seattleartmuseum.org/internal/media/dispatcher/29806/preview",
+  "verifiedImageLocalPath": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/image-evidence/assets/double-elvis.jpg",
+  "verifiedImageSha256": "5d2ca6d3bcbff3371e49830c6501baa8bcbab7a8a51316183d20bf95f9c30057",
+  "imageEvidencePath": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/image-evidence/verified-image-evidence.json"
+}

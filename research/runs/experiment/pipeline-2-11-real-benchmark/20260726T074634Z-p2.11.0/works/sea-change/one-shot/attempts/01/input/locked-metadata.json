@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "museumId": "seattle",
+  "workId": "sea-change",
+  "objectType": "painting",
+  "titleZh": "海变",
+  "titleEn": "Sea Change",
+  "artistZh": "杰克逊·波洛克",
+  "artistEn": "Jackson Pollock",
+  "displayDate": "1947年（创作横跨1946—1947年）",
+  "medium": "艺术家用油画颜料、商业油漆、砂砾、画布",
+  "accessionNumber": "58.55",
+  "museumName": "Seattle Art Museum benchmark",
+  "officialObjectUrl": "https://art.seattleartmuseum.org/objects/2742/sea-change",
+  "significance": "重要藏品",
+  "priority": "绝对不可错过",
+  "availability": "display_status_unknown",
+  "sectionId": "material-becomes-event",
+  "stay": "25分钟",
+  "routeRole": [
+    "opening_anchor"
+  ],
+  "imagePolicy": "object_image",
+  "verifiedImageUrl": "https://art.seattleartmuseum.org/internal/media/dispatcher/76355/preview",
+  "verifiedImageLocalPath": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/image-evidence/assets/sea-change.jpg",
+  "verifiedImageSha256": "edc5431dcbaa46905b02a64a0646431785a0f5233753b0415657fd9a39a1f85d",
+  "imageEvidencePath": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/image-evidence/verified-image-evidence.json"
+}

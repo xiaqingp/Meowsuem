@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "errors": [],
+  "warnings": [],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": true,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "先看颜色：蓝色不是背景，金色也不只是装饰",
+    "看文字的节奏：它既像书法，也像建筑",
+    "一本完整的书，为什么只剩下许多“书叶”"
+  ],
+  "sourceCount": 4,
+  "articleBytes": 4785,
+  "sourcesBytes": 2801
+}

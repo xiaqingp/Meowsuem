@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260726T074634Z-p2.11.0",
+  "caseId": "pipeline-2-11-real-benchmark",
+  "museumId": "seattle",
+  "workIds": [
+    "sea-change",
+    "double-elvis",
+    "folio-from-the-dispersed-blue-quran",
+    "belt-mask-of-iyoba-idia"
+  ],
+  "productionChanged": false,
+  "stages": [
+    {
+      "stage": "compact_planning_research",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high",
+      "totalTokens": 57145,
+      "durationMs": 73778
+    },
+    {
+      "stage": "deep_planning_research",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "medium",
+      "totalTokens": 89261,
+      "durationMs": 134510
+    },
+    {
+      "stage": "museum_selection",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "medium",
+      "totalTokens": 36001,
+      "durationMs": 66544
+    },
+    {
+      "stage": "museum_structure",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high",
+      "totalTokens": 31381,
+      "durationMs": 189302
+    }
+  ],
+  "failedStageAttempts": [
+    {
+      "stage": "museum_selection",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "medium",
+      "totalTokens": 35360,
+      "durationMs": 71101,
+      "outcome": "rating_gate_failed",
+      "retryCause": "scoreBand enum was not exact"
+    }
+  ],
+  "works": [
+    {
+      "workId": "sea-change",
+      "status": "accepted",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high",
+      "inputTokens": 96579,
+      "cachedInputTokens": 44544,
+      "reasoningTokens": 2078,
+      "outputTokens": 4123,
+      "totalTokens": 100702,
+      "webSearchCount": 3,
+      "agentRunCount": 1,
+      "durationMs": 87410
+    },
+    {
+      "workId": "double-elvis",
+      "status": "accepted",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high",
+      "inputTokens": 118877,
+      "cachedInputTokens": 81920,
+      "reasoningTokens": 2356,
+      "outputTokens": 4540,
+      "totalTokens": 123417,
+      "webSearchCount": 3,
+      "agentRunCount": 1,
+      "durationMs": 92384
+    },
+    {
+      "workId": "folio-from-the-dispersed-blue-quran",
+      "status": "accepted",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high",
+      "inputTokens": 144609,
+      "cachedInputTokens": 78080,
+      "reasoningTokens": 1653,
+      "outputTokens": 4006,
+      "totalTokens": 148615,
+      "webSearchCount": 4,
+      "agentRunCount": 1,
+      "durationMs": 86239
+    },
+    {
+      "workId": "belt-mask-of-iyoba-idia",
+      "status": "accepted",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high",
+      "inputTokens": 90375,
+      "cachedInputTokens": 57600,
+      "reasoningTokens": 3873,
+      "outputTokens": 6380,
+      "totalTokens": 96755,
+      "webSearchCount": 3,
+      "agentRunCount": 1,
+      "durationMs": 122464
+    }
+  ],
+  "totals": {
+    "stageTokens": 213788,
+    "oneShotInputTokens": 450440,
+    "oneShotCachedInputTokens": 262144,
+    "oneShotReasoningTokens": 9960,
+    "oneShotOutputTokens": 19049,
+    "webSearchCount": 13,
+    "retryTokens": 35360
+  },
+  "comparison": {
+    "scope": "Sea Change only; older per-work cost is unavailable for the other three works",
+    "oldProduction": {
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "medium",
+      "callsTouchingWork": 2,
+      "comparableAmortizedTokens": 53170,
+      "comparableAmortizedDurationMs": 142062,
+      "fullCallsTouchingWorkTokens": 224989
+    },
+    "solOneShotV2": {
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "medium",
+      "agentRunCount": 1,
+      "inputTokens": 149435,
+      "cachedInputTokens": 93440,
+      "reasoningTokens": 460,
+      "outputTokens": 2648,
+      "totalTokens": 152083,
+      "webSearchCount": 4,
+      "durationMs": 84832
+    },
+    "lunaOneShotV211": {
+      "workId": "sea-change",
+      "status": "accepted",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high",
+      "inputTokens": 96579,
+      "cachedInputTokens": 44544,
+      "reasoningTokens": 2078,
+      "outputTokens": 4123,
+      "totalTokens": 100702,
+      "webSearchCount": 3,
+      "agentRunCount": 1,
+      "durationMs": 87410
+    }
+  },
+  "weightedCreditEstimate": "unavailable: no current rate card is configured",
+  "qualityDecision": "reserved for owner human review"
+}

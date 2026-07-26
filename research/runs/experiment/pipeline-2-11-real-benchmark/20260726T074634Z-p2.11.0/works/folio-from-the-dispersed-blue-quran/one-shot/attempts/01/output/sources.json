@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 2,
+  "museumId": "seattle",
+  "workId": "folio-from-the-dispersed-blue-quran",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Folio from the dispersed \"Blue Qur'an\"",
+      "publisher": "Seattle Art Museum",
+      "url": "https://art.seattleartmuseum.org/objects/5815/folio-from-the-dispersed-blue-quran",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "maker",
+        "accessionNumber",
+        "provenance",
+        "collectionRelation",
+        "historical_exhibition"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Scripts in Development",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/exhibitions/listings/2012/byzantium-and-islam/blog/topical-essays/posts/script",
+      "sourceType": "museum",
+      "usedFor": [
+        "kufic_script",
+        "script_history",
+        "reading_context",
+        "byzantine_comparison",
+        "manuscript_materiality"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Two folios, from a manuscript known as the ‘Blue Qur’an’, AKM477",
+      "publisher": "Aga Khan Museum",
+      "url": "https://collections.agakhanmuseum.org/collection/artifact/two-folios-from-a-manuscript-known-as-the-blue-qur-an-",
+      "sourceType": "museum",
+      "usedFor": [
+        "dating_comparison",
+        "origin_uncertainty",
+        "production_process",
+        "manuscript_structure",
+        "dispersion_history",
+        "silver_markers"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Leaf from the ‘Blue Qur’an’, Chapter 2, Al-Baqara: verses 148–150",
+      "publisher": "Caravans of Gold, Fragments in Time, Northwestern University",
+      "url": "https://caravans.library.northwestern.edu/works/32/",
+      "sourceType": "academic",
+      "usedFor": [
+        "Kairouan_history",
+        "dispersion_history",
+        "manuscript_scale",
+        "mediterranean_context"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "origin",
+      "statement": "西雅图馆方将制作者标为北非，并认为手稿可能与凯鲁万有关；其他博物馆资料指出，学者对确切产地仍有讨论，提出过突尼斯、伊拉克、伊朗、西西里和西班牙等不同归属。"
+    },
+    {
+      "topic": "date",
+      "statement": "西雅图艺术博物馆对象页标为9世纪；同一手稿的比较馆藏多将其放在9世纪后半至10世纪中叶，或约950年前后。"
+    },
+    {
+      "topic": "availability",
+      "statement": "西雅图艺术博物馆对象页列有截至2021年7月的展览记录，但未确认作品截至本次写作时的当前展出状态。"
+    }
+  ],
+  "upstreamConflicts": []
+}

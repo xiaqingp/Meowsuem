@@ -1,0 +1,35 @@
+{
+  "runId": "20260726T074634Z-p2.11.0",
+  "caseId": "pipeline-2-11-real-benchmark",
+  "startedAt": "2026-07-26T07:46:34.857Z",
+  "stage": "compact_planning_research",
+  "pipelineVersion": "2.11.0",
+  "instructionVersion": "2.4.0",
+  "executionProfile": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "high"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "d80ee1c0f28a4f21a26b3d7daefe825812b9007b3208dd80451ae13cee95fc96"
+    },
+    {
+      "path": "research/pipeline/prompts/planning-research.md",
+      "role": "stage_prompt",
+      "sha256": "f82cdd4578690962ec8167ca664ae8c6945687c4e2c55a466925391f20feb97a"
+    },
+    {
+      "path": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/research/batches/compact-01/candidate-packet.json",
+      "role": "candidate_packet",
+      "sha256": "2ef24691cf800ca927591c8a8750bba88453475733380650fb94b4ed9d2bd62a"
+    }
+  ],
+  "outputs": [
+    "compact-planning-evidence.json"
+  ],
+  "reviewer": "disabled",
+  "retry": "explicit_only",
+  "publicationBoundary": "experiment_only"
+}

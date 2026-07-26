@@ -208,7 +208,26 @@ Scope 不得只复述容量规则，也不得凭常识列部门。至少要有�
 
 重要性高通常值得更多注意力，但现场位置、尺寸、观看回报、路线成本和观众疲劳可以使两者不同。必须给出各自理由。
 
-## 5. 馆级 Research Card
+## 5. Museum Planning Research
+
+Pipeline 2.11 的馆级研究分为两层，不再要求所有普通作品生成完整
+Research Card：
+
+- 普通作品由 Luna High 生成 `compact-planning-evidence.json`，只保存稳定
+  身份、展出边界、核心价值、选件／章节／路线信号、风险和来源指针；
+- 稀世珍品候选、身份或 attribution 争议、全球比较、第一／唯一／最早等
+  强断言、评分关键证据、来源冲突、建筑遗址或复杂成组对象，由 Sol Medium
+  生成 `deep-research-dossier.json`。
+
+每批最多十件。两类材料只服务 Museum Selection、珍品判断、Rating 与
+Structure，不得成为 Luna 单件写作输入，不得预写开场、正文、结尾或卡片。
+Selection 发现证据缺口时，只补对应 compact/deep evidence 后重跑
+Selection，不得直接猜测。
+
+### 5.1 Legacy Research Card — historical only
+
+以下 Research Card 格式只解释冻结的旧 run；pipeline 2.11 不创建它，也不
+将其作为新馆或新单件的 fallback。
 
 馆级候选、selection、rating、structure 与 route 仍可使用 Research Card；每批最多十件。它不再作为新单件 Luna 写作输入。其职责是帮助馆级选件、评分和结构判断：
 
@@ -553,4 +572,5 @@ Luna 一次只交付 `article.md` 与 `sources.json`。文章使用一级标题�
 - `2.1.0`（2026-07-24）：研究卡增加可机械提取的下游证据块与原子 claim 编号；评分、整馆结构和作者阶段改用可回溯的紧凑引用；阶段指令仍只来自本文件，不新增第二份手写 prompt。
 - `2.1.1`（2026-07-24）：为 `museum_selection` 补入 canonical 评分器所需的紧凑输出合同，防止模型用可读近义字段替代机器字段。
 - `2.2.0`（2026-07-25）：把图片证据前置到研究之前；真实浏览器处理脚本 403 和动态页面，只有候选图仍有歧义时才由隔离的 Luna medium 选择；直接观察必须引用已下载、带尺寸和哈希的图片证据。
+- `2.4.0`（2026-07-26）：馆级研究改为 Luna High compact planning evidence 与 Sol Medium deep research dossier 两层；两者只服务选品、珍品、评分和结构。旧 Research Card、Writing Plan 与 Author 规则集中标记为 historical only。
 - `2.3.0`（2026-07-25）：新单件写作改为 Luna High One-shot Search & Write；只输入 locked metadata 与已验证图片，模型直接输出 article 与 sources；取消新路径中的 Research Card 写作输入、Writing Plan、claim ledger、story beats、valueType、mustNotAssume、模型 metadata、独立 Author 和默认 reviewer。

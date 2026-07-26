@@ -5,6 +5,12 @@ import crypto from "node:crypto";
 import {createRequire} from "node:module";
 import {spawnSync} from "node:child_process";
 import {assertPathInside, loadManifest, resolveCanonicalRun} from "./lib/filesystem-contract.mjs";
+import {discoverGenericHtml} from "./image-providers/generic-html.mjs";
+import {discoverEmuseum} from "./image-providers/emuseum.mjs";
+import {discoverIiif} from "./image-providers/iiif.mjs";
+import {discoverCollectionApi} from "./image-providers/collection-api.mjs";
+import {discoverWikidataCommons, searchWikidataCommons} from "./image-providers/wikidata-commons.mjs";
+import {museumImageProviderConfig} from "./image-providers/registry.mjs";
 
 const argument = name => process.argv.find(value => value.startsWith(`${name}=`))?.slice(name.length + 1);
 const projectRoot = path.resolve(argument("--project-root") || new URL("..", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"));
@@ -22,7 +28,7 @@ const {runRoot, descriptor} = await resolveCanonicalRun({
   writable: true
 });
 const pool = JSON.parse(await fs.readFile(path.join(runRoot, "candidate-pool", "candidate-pool.json"), "utf8"));
-const museumId = pool.museum?.id;
+const museumId = pool.museum?.id ?? pool.museumId;
 if (!/^[a-z][a-z0-9-]*$/.test(museumId || "")) throw new Error("candidate pool has no valid museum id");
 if (descriptor.museumId && museumId !== descriptor.museumId) throw new Error("Filesystem contract violation: image evidence museum identity drift");
 const evidenceRoot = path.join(runRoot, "image-evidence");
@@ -50,6 +56,17 @@ const extension = type => ({
   "image/tiff": ".tif"
 }[String(type || "").split(";")[0].toLowerCase()] || ".img");
 const imageType = headers => String(headers["content-type"] || headers.get?.("content-type") || "").split(";")[0].toLowerCase();
+const candidates = (pool.candidates ?? []).map(record => ({
+  ...record,
+  id: record.id ?? record.workId,
+  title: record.title ?? record.identity?.titleEn ?? record.identity?.titleZh,
+  makerOrCulture: record.makerOrCulture ?? record.identity?.artistEn ?? record.identity?.artistZh
+    ?? record.identity?.cultureEn ?? record.identity?.cultureZh,
+  date: record.date ?? record.identity?.displayDate,
+  objectNumber: record.objectNumber ?? record.accessionNumber ?? record.identity?.accessionNumber,
+  identityAnchor: record.identityAnchor ?? record.accessionNumber ?? record.identity?.accessionNumber,
+  identitySourceUrl: record.identitySourceUrl ?? record.officialObjectUrl ?? record.identity?.officialObjectUrl,
+}));
 
 const moduleCandidates = [
   process.env.MEOWSEUM_NODE_MODULES,
@@ -66,17 +83,8 @@ for (const directory of moduleCandidates) {
 }
 if (!chromium) throw new Error("Playwright is unavailable; set MEOWSEUM_NODE_MODULES to a node_modules directory containing playwright");
 
-const chromeCandidates = [
-  process.env.MEOWSEUM_CHROME,
-  "C:/Program Files/Google/Chrome/Application/chrome.exe",
-  "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe",
-  path.join(process.env.LOCALAPPDATA || "", "Google", "Chrome", "Application", "chrome.exe")
-].filter(Boolean);
-let chromePath;
-for (const candidate of chromeCandidates) {
-  try { await fs.access(candidate); chromePath = candidate; break; } catch {}
-}
-if (!chromePath) throw new Error("Google Chrome was not found; set MEOWSEUM_CHROME");
+const chromePath = process.env.MEOWSEUM_CHROME || null;
+if (chromePath) await fs.access(chromePath);
 
 const identityMatches = (candidate, page) => {
   const title = normalize(candidate.title);
@@ -95,14 +103,9 @@ const candidateScore = item => {
 };
 const dispatcherIdentity = url => url.match(/\/internal\/media\/dispatcher\/(\d+)\//i)?.[1] || url;
 
-const inspectWithBrowser = async candidate => {
-  const browser = await chromium.launch({
-    headless: false,
-    executablePath: chromePath,
-    args: ["--window-position=-32000,-32000", "--disable-notifications"]
-  });
+const inspectWithBrowser = async (browser, candidate) => {
+  const page = await browser.newPage({viewport: {width: 1280, height: 900}});
   try {
-    const page = await browser.newPage({viewport: {width: 1280, height: 900}});
     const response = await page.goto(candidate.identitySourceUrl, {waitUntil: "domcontentloaded", timeout: 30000});
     await page.waitForTimeout(250);
     const pageData = await page.evaluate(() => ({
@@ -111,6 +114,21 @@ const inspectWithBrowser = async candidate => {
       og: document.querySelector('meta[property="og:image"]')?.content
         || document.querySelector('meta[name="twitter:image"]')?.content
         || null,
+      iiifUrls: Array.from(document.querySelectorAll('link[rel="manifest"],link[rel="alternate"][type*="json"]'))
+        .map(link => link.href).filter(Boolean).slice(0, 5),
+      jsonLdImages: Array.from(document.querySelectorAll('script[type="application/ld+json"]')).flatMap(script => {
+        try {
+          const value = JSON.parse(script.textContent || "null");
+          const records = Array.isArray(value) ? value : [value];
+          return records.flatMap(record => {
+            const image = record?.image;
+            const images = Array.isArray(image) ? image : image ? [image] : [];
+            return images.map(item => typeof item === "string"
+              ? {imageUrl:item,jsonLd:true,title:record.name,creator:record.creator?.name}
+              : {imageUrl:item?.contentUrl ?? item?.url,jsonLd:true,title:record.name,creator:record.creator?.name});
+          });
+        } catch { return []; }
+      }).filter(item => item.imageUrl).slice(0, 10),
       images: Array.from(document.images).map(image => ({
         url: image.currentSrc || image.src,
         alt: image.alt || "",
@@ -125,24 +143,60 @@ const inspectWithBrowser = async candidate => {
     if (!identityMatches(candidate, pageData)) {
       return {status: "identity_conflict", finalUrl, httpStatus: response.status(), pageTitle: pageData.title, candidates: []};
     }
-    const found = [];
-    if (pageData.og) {
-      const url = absoluteUrl(pageData.og, finalUrl);
-      if (url) found.push({id: "og", url, method: "official_og_image", alt: "", width: 0, height: 0});
+    const identity = {
+      title: candidate.title,
+      creator: candidate.makerOrCulture,
+      accessionNumber: candidate.objectNumber || candidate.identityAnchor,
+    };
+    const normalizedPage = {
+      ...pageData,
+      og: pageData.og ? absoluteUrl(pageData.og, finalUrl) : null,
+      images: pageData.images.map(image => ({...image, url: absoluteUrl(image.url, finalUrl)})).filter(image => image.url),
+    };
+    const providerConfig = museumImageProviderConfig(museumId, candidate.identitySourceUrl);
+    const manifests = [];
+    for (const manifestUrl of pageData.iiifUrls ?? []) {
+      try {
+        const manifest = await page.evaluate(async url => {
+          const response = await fetch(url,{credentials:"include"});
+          if (!response.ok) return null;
+          const data = await response.json();
+          const body = data?.items?.[0]?.items?.[0]?.items?.[0]?.body;
+          const service = Array.isArray(body?.service) ? body.service[0] : body?.service;
+          return {
+            imageUrl: body?.id ?? body?.["@id"] ?? null,
+            serviceId: service?.id ?? service?.["@id"] ?? null,
+            label: typeof data?.label === "string" ? data.label : data?.label?.en?.[0],
+            width: body?.width ?? data?.width ?? 0,
+            height: body?.height ?? data?.height ?? 0,
+          };
+        }, absoluteUrl(manifestUrl,finalUrl));
+        if (manifest) manifests.push(manifest);
+      } catch {}
     }
-    for (const [index, image] of pageData.images.entries()) {
-      const url = absoluteUrl(image.url, finalUrl);
-      if (url) found.push({id: `img-${index + 1}`, ...image, url, method: "official_rendered_image"});
+    const found = [
+      ...(providerConfig.providerOrder.includes("emuseum") ? discoverEmuseum({identity, images: normalizedPage.images}) : []),
+      ...(providerConfig.providerOrder.includes("iiif") ? discoverIiif({identity, manifests}) : []),
+      ...(providerConfig.providerOrder.includes("collection-api") ? discoverCollectionApi({identity, records:pageData.jsonLdImages}) : []),
+      ...discoverGenericHtml({identity, page: normalizedPage}),
+    ];
+    const hasStrongOfficialCandidate = found.some(item =>
+      item.officialObjectRelation && (item.score ?? candidateScore(item)) >= 80);
+    if (!hasStrongOfficialCandidate && providerConfig.providerOrder.includes("wikidata-commons")) {
+      try {
+        const commonsRecords = await searchWikidataCommons({identity});
+        found.push(...discoverWikidataCommons({identity, records: commonsRecords}));
+      } catch {}
     }
     const unique = new Map();
     for (const item of found) {
       const key = dispatcherIdentity(item.url);
       const existing = unique.get(key);
-      if (!existing || candidateScore(item) > candidateScore(existing)) unique.set(key, item);
+      if (!existing || (item.score ?? candidateScore(item)) > (existing.score ?? candidateScore(existing))) unique.set(key, item);
     }
     const ranked = [...unique.values()]
-      .map(item => ({...item, score: candidateScore(item)}))
-      .filter(item => item.score >= 80)
+      .map(item => ({...item, score: item.score ?? candidateScore(item)}))
+      .filter(item => item.score >= 80 || (item.provider === "wikidata-commons" && item.score >= 50))
       .sort((a, b) => b.score - a.score)
       .slice(0, 5);
     if (!ranked.length) return {status: "not_found", finalUrl, httpStatus: response.status(), pageTitle: pageData.title, candidates: []};
@@ -242,35 +296,41 @@ const inspectWithBrowser = async candidate => {
       pageTitle: pageData.title,
       candidates: savedCandidates
     };
-  } finally {
-    await browser.close();
-  }
+  } finally { await page.close(); }
 };
 
 const records = [];
 const startedAt = new Date();
-for (const candidate of pool.candidates) {
-  const itemStarted = Date.now();
-  let result;
-  try {
-    result = await inspectWithBrowser(candidate);
-  } catch (error) {
-    result = {status: "provider_unavailable", reason: error.message, candidates: []};
-  }
-  records.push({
-    workId: candidate.id,
-    identity: {
-      title: candidate.title,
-      artistOrCulture: candidate.makerOrCulture,
-      date: candidate.date,
-      identityAnchor: candidate.objectNumber || candidate.identityAnchor,
-      identitySourceUrl: candidate.identitySourceUrl
-    },
-    ...result,
-    resolver: "official_browser_v1",
-    durationMs: Date.now() - itemStarted
-  });
-}
+const browser = await chromium.launch({
+  headless: true,
+  ...(chromePath ? {executablePath: chromePath} : {}),
+  args: ["--disable-notifications"],
+});
+try {
+  const queue = [...candidates];
+  const worker = async () => {
+    while (queue.length) {
+      const candidate = queue.shift();
+      const itemStarted = Date.now();
+      let result;
+      try { result = await inspectWithBrowser(browser, candidate); }
+      catch (error) { result = {status: "provider_unavailable", reason: error.message, candidates: []}; }
+      records.push({
+        workId: candidate.id,
+        identity: {
+          title: candidate.title,
+          creator: candidate.makerOrCulture,
+          accessionNumber: candidate.objectNumber || candidate.identityAnchor,
+          officialObjectUrl: candidate.identitySourceUrl,
+        },
+        ...result,
+        resolver: "provider_adapters_v1",
+        durationMs: Date.now() - itemStarted,
+      });
+    }
+  };
+  await Promise.all(Array.from({length: Math.min(6, queue.length || 1)}, worker));
+} finally { await browser.close(); }
 
 const ambiguous = records.filter(record => record.status === "ambiguous_identity" && record.candidates.length);
 let modelRun = null;
@@ -364,7 +424,7 @@ const output = {
   legacyAssetInputsRead: false,
   resolver: {
     version: 4,
-    browser: "Google Chrome via Playwright",
+    browser: chromePath ? "optional Chrome override via Playwright" : "Playwright bundled Chromium",
     modelPolicy: "ambiguity_only",
     model: "gpt-5.6-luna",
     reasoningEffort: "medium"

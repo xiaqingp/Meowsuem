@@ -119,7 +119,7 @@ export function buildDisplayMetadata(locked) {
     availability: locked.availability,
     imagePolicy: locked.imagePolicy,
     officialObjectUrl: locked.officialObjectUrl,
-    verifiedImage: locked.verifiedImage,
+    verifiedImage: locked.verifiedImageUrl ?? locked.verifiedImage,
     sectionId: locked.sectionId,
     titleZh: locked.displayTitleZh ?? locked.titleZh,
     titleEn: locked.displayTitleEn ?? locked.titleEn
@@ -164,9 +164,10 @@ function collectStrongClaims(article) {
   return article
     .split(/[。！？\n]/)
     .map(text => text.trim())
-    .filter(text => /(?:第一(?:件|张|幅|座|个)?|唯一|最早|最大|首次|开创了|奠定了)/.test(text))
+    .filter(text => /(?:第一(?:件|张|幅|座|个|位)|唯一|最早|最大|首次|开创了|奠定了)/.test(text))
     .filter(text => /(?:这是|是|成为|被视为|堪称|全球|世界|现存|他|她|该作|本作|作品|画)/.test(text))
-    .filter(text => !/(?:不(?:是|等于|应|能|可)|不能|并非|没有证据(?:证明|表明)?|尚无证据|无法证明|未必|不可称为|不应理解为)[^。！？\n]{0,18}(?:第一|唯一|最早|最大|首次|开创|奠定)/.test(text));
+    .filter(text => !/(?:不(?:是|等于|应|能|可|必)|不能|并非|没有证据(?:证明|表明)?|尚无证据|无法证明|未必|不可称为|不应理解为)[^。！？\n]{0,30}(?:第一|唯一|最早|最大|首次|开创|奠定)/.test(text))
+    .filter(text => !/唯一(?:答案|解释|读法|看法|含义|意义)/.test(text));
 }
 
 function collectArtistIntent(article) {
@@ -175,15 +176,28 @@ function collectArtistIntent(article) {
     .filter(text => !/(?:可以理解为|让人联想到|像是|或许|可能|一种可能的看法)/.test(text));
 }
 
-function matchingRiskRecord(records, match, type, sourceIds, sourceUrls) {
+function matchingRiskRecord(records, match, types, sourceIds, sourceUrls) {
   return records.some(record => {
-    if (record.type !== type) return false;
-    const claim = String(record.claim ?? "");
+    if (!types.includes(record.type)) return false;
+    const claim = String(record.claim ?? "").trim();
+    if (!claim) return false;
     const normalizedMatch = match.replace(/[。！？\s]/g, "");
     const normalizedClaim = claim.replace(/[。！？\s]/g, "");
     return (normalizedMatch.includes(normalizedClaim) || normalizedClaim.includes(normalizedMatch))
       && sourceReferencesValid(record, sourceIds, sourceUrls);
   });
+}
+
+function strongClaimTypes(claim) {
+  void claim;
+  return [
+    "first_or_earliest",
+    "only_or_unique",
+    "largest_or_most",
+    "foundational",
+    "other",
+    "strong_factual_claim"
+  ];
 }
 
 export async function verifyOneShotWork({
@@ -223,11 +237,14 @@ export async function verifyOneShotWork({
   if (!locked || !sources) return finalizeResult({errors, warnings, checks: {jsonParsed: false}});
 
   try { assertCleanLockedMetadata(locked); } catch (error) { addError("FORBIDDEN_METADATA_INPUT", error.message); }
-  for (const message of await validateSchema("one-shot-locked-metadata.schema.json", locked)) addError("LOCKED_METADATA_SCHEMA", message);
-  const normalizedSourcesForSchema = sources.schemaVersion === 1
-    ? {directQuotes: [], ...sources}
-    : sources;
-  for (const message of await validateSchema("one-shot-sources.schema.json", normalizedSourcesForSchema)) addError("SOURCES_SCHEMA", message);
+  const lockedSchema = locked.schemaVersion === 1
+    ? "one-shot-locked-metadata-v1.schema.json"
+    : "one-shot-locked-metadata.schema.json";
+  const sourcesSchema = sources.schemaVersion === 1
+    ? "one-shot-sources-v1.schema.json"
+    : "one-shot-sources.schema.json";
+  for (const message of await validateSchema(lockedSchema, locked)) addError("LOCKED_METADATA_SCHEMA", message);
+  for (const message of await validateSchema(sourcesSchema, sources)) addError("SOURCES_SCHEMA", message);
 
   for (const key of Object.keys(expectedMetadata ?? {})) {
     if (JSON.stringify(locked[key]) !== JSON.stringify(expectedMetadata[key])) addError("METADATA_DRIFT", `Locked metadata drift: ${key}`, [key]);
@@ -269,6 +286,12 @@ export async function verifyOneShotWork({
 
   const directQuotes = collectDirectQuotes(article);
   const quoteRecords = Array.isArray(sources.directQuotes) ? sources.directQuotes : [];
+  for (const record of quoteRecords) {
+    if (!String(record.quote ?? "").trim() || !String(record.speaker ?? "").trim()
+      || !sourceReferencesValid(record, sourceIds, sourceUrls)) {
+      addError("INVALID_DIRECT_QUOTE_RECORD", "Direct quote record is empty or references an unknown source");
+    }
+  }
   for (const quote of directQuotes) {
     const record = quoteRecords.find(item => item.quote === quote.quote
       && String(item.speaker ?? "").includes(quote.speaker)
@@ -283,17 +306,27 @@ export async function verifyOneShotWork({
   }
 
   const riskRecords = Array.isArray(sources.highRiskClaims) ? sources.highRiskClaims : [];
+  for (const record of riskRecords) {
+    if (!String(record.claim ?? "").trim() || !sourceReferencesValid(record, sourceIds, sourceUrls)) {
+      addError("INVALID_HIGH_RISK_RECORD", "High-risk claim record is empty or references an unknown source");
+    }
+  }
   const strongClaims = collectStrongClaims(article);
   for (const claim of strongClaims) {
-    if (!matchingRiskRecord(riskRecords, claim, "strong_factual_claim", sourceIds, sourceUrls)) {
+    if (!matchingRiskRecord(riskRecords, claim, strongClaimTypes(claim), sourceIds, sourceUrls)) {
       addError("UNSUPPORTED_HIGH_RISK_CLAIM", "Strong factual claim lacks a valid source record", [claim]);
     }
   }
   const intents = collectArtistIntent(article);
   for (const claim of intents) {
-    if (!matchingRiskRecord(riskRecords, claim, "artist_intent", sourceIds, sourceUrls)) {
+    if (!matchingRiskRecord(riskRecords, claim, ["artist_intent"], sourceIds, sourceUrls)) {
       addError("UNSUPPORTED_ARTIST_INTENT", "Artist intent is stated as fact without a valid source record", [claim]);
     }
+  }
+  const blockingConflicts = (sources.upstreamConflicts ?? []).filter(item => item.severity === "blocking");
+  if (blockingConflicts.length) {
+    addError("BLOCKING_UPSTREAM_CONFLICT", "One-shot research found a blocking conflict with locked upstream metadata",
+      blockingConflicts.map(item => item.field));
   }
   const broadEvaluations = [...article.matchAll(/(?:经典|重要|开创性)/g)].map(match => match[0]);
   if (broadEvaluations.length) addWarning("BROAD_EVALUATION", "Broad evaluative wording is not a hard failure", [...new Set(broadEvaluations)]);

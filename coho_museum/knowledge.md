@@ -80,7 +80,7 @@ node scripts/test-author-input-regression.mjs
 
 ## 2026-07-25 - 零模型藏品图片解析
 
-- Fact: `scripts/prepare-museum-assembly.mjs` 依次使用已验证缓存、官方对象页元数据、严格身份匹配搜索和馆封面兜底；图片 URL 必须真实返回图片字节。
+- Historical fact: `scripts/prepare-museum-assembly.mjs` 是 2.10 及更早 frozen release 的旧装配准备器。Pipeline 2.11 不调用它；新 run 由 `resolve-museum-image-evidence.mjs` 在 assembly 前锁图，由 `prepare-museum-publication-plan.mjs` 生成零联网 publication plan。
 - Boundary: 搜索 provider 不可用不等于没有作品图；结果会记录为 provider unavailable，未来可重新运行资产阶段，不影响已经通过的正文。
 - Seattle test: 20 件全部有可显示图片，其中 13 件为经身份确认的作品图、7 件为明确兜底图；装配、联网验证和原子发布共 1.984 秒，模型调用 0、模型 token 0。
 

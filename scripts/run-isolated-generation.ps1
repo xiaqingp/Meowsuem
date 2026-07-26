@@ -41,7 +41,9 @@ if ([string]$header.runId -ne [string]$runContract.runId) { throw 'run header ru
 if ([string]$header.pipelineVersion -ne [string]$runContract.pipelineVersion) { throw 'run header pipelineVersion drifted from run.json' }
 if ($runContract.museumId -and [string]$header.museumId -ne [string]$runContract.museumId) { throw 'run header museumId drifted from run.json' }
 if ($runContract.caseId -and [string]$header.caseId -ne [string]$runContract.caseId) { throw 'run header caseId drifted from run.json' }
-if ($header.executionProfile.reasoningEffort -ne 'medium') { throw 'reasoning effort must be medium' }
+if (@('low','medium','high','xhigh') -notcontains [string]$header.executionProfile.reasoningEffort) {
+    throw 'reasoning effort must be low, medium, high, or xhigh'
+}
 if (-not $header.executionProfile.model) { throw 'model is required' }
 if (-not $header.allowedInputs -or -not $header.outputs) { throw 'allowedInputs and outputs are required' }
 if ($ValidateOnly -and $RecordOutputsOnly) { throw 'ValidateOnly and RecordOutputsOnly are mutually exclusive' }
@@ -55,6 +57,12 @@ if ([IO.File]::Exists($manifestPath)) {
 }
 if ($manifest -and $manifest.modelRouting -and [string]$header.pipelineVersion -eq [string]$manifest.pipelineVersion) {
     $route = $manifest.modelRouting.PSObject.Properties[[string]$header.stage].Value
+    if ([string]$header.stage -eq 'compact_planning_research') {
+        $route = $manifest.modelRouting.planning_research.standard
+    }
+    if ([string]$header.stage -eq 'deep_planning_research') {
+        $route = $manifest.modelRouting.planning_research.deep
+    }
     if ([string]$header.stage -eq 'research') {
         $complexity = [string]$header.researchComplexity
         if (@($manifest.stageInputContracts.research.complexityValues) -notcontains $complexity) {
@@ -146,8 +154,12 @@ $blocks = foreach ($input in $header.allowedInputs) {
         $manifest.stageInstructionViews -and
         ([string]$input.path).Replace('\', '/') -eq ([string]$manifest.canonicalInstruction).Replace('\', '/')
     ) {
-        $sections = @($manifest.stageInstructionViews.PSObject.Properties[[string]$header.stage].Value)
-        if ($sections.Count -lt 1) { throw "missing stage instruction view: $($header.stage)" }
+        $viewKey = [string]$header.stage
+        if ($viewKey -in @('compact_planning_research','deep_planning_research')) { $viewKey = 'research' }
+        $viewProperty = $manifest.stageInstructionViews.PSObject.Properties | Where-Object { $_.Name -eq $viewKey } | Select-Object -First 1
+        if ($null -eq $viewProperty) { throw "missing stage instruction view: $($header.stage)" }
+        $sections = @($viewProperty.Value)
+        if ($sections.Count -lt 1 -or [string]::IsNullOrWhiteSpace([string]$sections[0])) { throw "missing stage instruction view: $($header.stage)" }
         $inputText = Select-MarkdownSections -Text $inputText -SectionIds $sections
         $appliedInstructionSections = @($sections)
         $viewAttribute = " view-sections=`"$($sections -join ',')`""
@@ -238,14 +250,14 @@ You are executing Meowseum canonical isolated generation. The standard runner ha
 
 Use only the run header and locked inputs in this message. Do not read, search, or enumerate any local file. During image_disambiguation only, you may inspect the exact local image candidate paths enumerated in the locked image_candidate_packet with the image-viewing tool; no other local files are allowed. Do not use conversation history, memory, skills, old research, old prose, or old image mappings. This is a content-production task, not a coding task.
 
-Follow the stage in the run header exactly. The museum_scope, museum_candidate_pool and research stages may use the web, but must query in batches and stop when the canonical stopping conditions are met. The image_disambiguation, museum_selection, museum_structure and author stages must use only their locked evidence inputs and must not use the web. Create only the files listed in run header.outputs, preferably in one write. After writing, do not reread outputs, print a full diff, recompute hashes, or run a reviewer; the runner performs mechanical checks externally.
+Follow the stage in the run header exactly. The museum_scope, museum_candidate_pool, compact_planning_research and deep_planning_research stages may use the web, but must query in batches and stop when the canonical stopping conditions are met. The image_disambiguation, museum_selection, museum_structure and legacy author stages must use only their locked evidence inputs and must not use the web. Create only the files listed in run header.outputs, preferably in one write. After writing, do not reread outputs, print a full diff, recompute hashes, or run a reviewer; the runner performs mechanical checks externally.
 '@
 
     $prompt = "$fixedInstruction`n<run-header>`n$headerText`n</run-header>`n$($blocks -join "`n")"
     $codex = (Get-Command codex.cmd -ErrorAction Stop).Source
     $arguments = @(
     'exec', '--model', [string]$header.executionProfile.model,
-    '--config', 'model_reasoning_effort="medium"',
+    '--config', "model_reasoning_effort=`"$([string]$header.executionProfile.reasoningEffort)`"",
     '--ignore-user-config', '--ignore-rules', '--ephemeral',
     '--dangerously-bypass-approvals-and-sandbox',
     '--disable', 'apps', '--disable', 'memories', '--disable', 'plugins',

@@ -28,18 +28,21 @@
 ## Content flow
 
 ```text
-museum scope and selection
-  -> verified image evidence (browser; Luna medium only for ambiguity)
-  -> museum-level research cards (up to 10 per context; selection/rating/structure only)
-  -> museum evidence and rating
+create canonical run
+  -> Luna High museum scope/discovery and candidate pool
+  -> Luna High compact planning evidence / Sol Medium deep dossiers
+  -> Sol Medium museum selection
   -> deterministic rating gate
+  -> Luna High structure and routes
+  -> verified image evidence (provider adapters; Luna Medium only for ambiguity)
   -> locked metadata per work
   -> Luna High one-shot search and write (article + sources)
   -> generic risk verifier
   -> deterministic integration adapter
-  -> museum integration
-  -> data/image/URL/browser verification
+  -> publication plan and deterministic assembly
+  -> real-run causality and release verification
   -> atomic publication
+  -> generation cost report
 ```
 
 - 唯一模型入口：`scripts/run-isolated-generation.ps1`。
@@ -50,7 +53,7 @@ museum scope and selection
 - Manifest 中现有 15 馆保留为 legacy baseline。未来新馆只采用 `museumData.<id>` 运行时赋值，并在 assembly 输入中提供地图坐标；装配器自动生成包含新馆脚本、地图坐标与排名注册的候选 `index.html` / `museum.html`。`scripts/verify-future-museum-contract.mjs` 在发布门之前机械检查绑定、加载顺序、页面注册与禁用馆专用 builder，避免依赖人工记忆或逐馆代码。
 - `scripts/freeze-pipeline-release.mjs` 只根据 manifest 写入 release 哈希锁，不接触博物馆正文。
 - 新单件 runner 只输入 canonical one-shot prompt、程序锁定的 metadata 和已验证图片；不得读取 Research Card、Writing Plan、旧正文、聊天或 reviewer 产物。
-- 单件模型固定为 `gpt-5.6-luna` high，无 fallback；只输出 `article.md` 和 `sources.json`。馆级 Scope 与 standard research 使用 Terra medium；候选、复杂研究、评分和结构保持 Sol medium。
+- 单件模型固定为 `gpt-5.6-luna` high，无 fallback；只输出 `article.md` 和 `sources.json`。馆级 discovery、普通 planning research 与 structure 使用 Luna High；deep research dossier 与 Museum Selection 使用 Sol Medium；图片歧义判断使用 Luna Medium；Rating、metadata、assembly、causality、report 和 publish 为纯代码。
 - candidate packet 在模型启动前必须锁定官方身份锚点和风险字段；研究最多 10 件同复杂度一批，研究并发 4、作者并发 10。评分与结构默认读取 `museum-work-index.json`，仅按 `requiresFullCard` 定向补完整卡。
 - 新生成馆可在作品对象内直接携带 `significance` 与 `preciousWhy`；`museums.js` 的集中映射只为旧馆提供覆盖和兼容，不再是唯一数据源。
 - `scripts/process-museum-rating.mjs` 在馆介、路线和逐件正文之前校验珍品证据、档位、档内锚点、独立珍品线与父子重复计数；失败时停止下游。

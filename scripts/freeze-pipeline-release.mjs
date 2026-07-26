@@ -58,16 +58,23 @@ const canonicalFiles = [
   { path: manifest.canonicalRunValidator },
   { path: manifest.canonicalFilesystemMigration },
   { path: manifest.canonicalOneShotRunner },
+  { path: manifest.canonicalOneShotReverifier },
   { path: manifest.canonicalOneShotVerifier },
   { path: manifest.canonicalOneShotAdapter },
   { path: manifest.canonicalOneShotPrompt },
   { path: manifest.canonicalOneShotLockedMetadataSchema },
   { path: manifest.canonicalOneShotSourcesSchema },
-  { path: manifest.canonicalOneShotVerifierResultSchema }
+  { path: manifest.canonicalOneShotVerifierResultSchema },
+  { path: manifest.canonicalMuseumOrchestrator },
+  { path: manifest.canonicalLockedMetadataPreparer },
+  { path: manifest.canonicalRunCausalityVerifier },
+  { path: manifest.canonicalVerifiedImageEvidenceSchema },
+  ...(manifest.releaseAdditionalCanonicalFiles ?? []).map(path => ({path}))
 ];
-for (const file of canonicalFiles) file.sha256 = await hashFile(file.path);
+const uniqueCanonicalFiles = [...new Map(canonicalFiles.map(file => [file.path, file])).values()];
+for (const file of uniqueCanonicalFiles) file.sha256 = await hashFile(file.path);
 const baseHashes = new Map(baseRelease.canonicalFiles.map(file => [file.path, file.sha256]));
-const changedCanonicalFiles = canonicalFiles
+const changedCanonicalFiles = uniqueCanonicalFiles
   .filter(file => baseHashes.get(file.path) !== file.sha256)
   .map(file => file.path);
 const unauthorized = outOfScope(changedCanonicalFiles, change.allowedCanonicalFiles);
@@ -98,7 +105,7 @@ const release = {
   status: manifest.releaseStatus,
   frozenAt: manifest.updatedAt,
   sourceManifest: "research/content-standard-manifest.json",
-  canonicalFiles,
+  canonicalFiles: uniqueCanonicalFiles,
   changeControl: {
     id: change.id,
     record: manifest.activePipelineChange,
@@ -121,7 +128,7 @@ const outputPath = path.resolve(root, manifest.currentRelease);
 await assertPathInside(releaseRoot, outputPath, {allowEqual: false});
 try {
   const existing = JSON.parse(await fs.readFile(outputPath, "utf8"));
-  const drift = releaseDrift(existing, canonicalFiles, changeRecordSha256);
+  const drift = releaseDrift(existing, uniqueCanonicalFiles, changeRecordSha256);
   if (drift) throw new Error(`frozen release is immutable; create a new owner-approved version for: ${drift}`);
   console.log(`pipeline release already frozen: ${path.relative(root, outputPath)} (${existing.version})`);
   process.exit(0);

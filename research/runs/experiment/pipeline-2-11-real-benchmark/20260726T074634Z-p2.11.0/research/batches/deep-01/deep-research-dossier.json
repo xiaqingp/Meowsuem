@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "museumId": "seattle",
+  "works": [
+    {
+      "workId": "belt-mask-of-iyoba-idia",
+      "identityStatus": "stable_with_subject_qualification",
+      "identity": {
+        "titleZh": "伊约巴（王母）伊迪娅腰饰面具",
+        "titleEn": "Belt mask of Iyoba (Mother of the Oba) Idia",
+        "maker": "Benin Kingdom, Nigerian",
+        "displayDate": "约 1517–1550",
+        "medium": "象牙",
+        "accessionNumber": "81.17.493",
+        "officialObjectUrl": "https://art.seattleartmuseum.org/objects/8251/belt-mask-of-iyoba-mother-of-the-oba-idia"
+      },
+      "identityEvidence": {
+        "stableFacts": [
+          "SAM 对象页将本件登记为 Belt mask of Iyoba (Mother of the Oba) Idia，编号 81.17.493，制作者/文化归为 Benin Kingdom、Nigerian，年代约 1517–1550，材质为象牙。",
+          "同行评议研究以同一编号 81.17.493、同一年代范围和 Seattle Art Museum 收藏信息识别本件，并将其纳入五件十六世纪象牙腰饰面具组。"
+        ],
+        "qualification": "人像与伊迪娅的联系不是同时代铭文所证实的确定身份。Felicity Bodenstein 的研究指出，这一识别由 Oba Akenzua II 在 1956 年依据贝宁宫廷口述传统提出，之后才逐渐与欧洲、美国收藏中的对象结合；大英博物馆对象页也以问号和“thought to represent”表述。因此下游应写“通常认为表现伊迪娅”或同等强度措辞，不应写成无保留的确定肖像身份。",
+        "confidence": "high_for_object_identity_medium_for_sitter_identification",
+        "sourcePointers": [
+          "https://art.seattleartmuseum.org/objects/8251/belt-mask-of-iyoba-mother-of-the-oba-idia",
+          "https://journals.openedition.org/perspective/15735",
+          "https://www.britishmuseum.org/collection/object/E_Af1910-0513-1"
+        ]
+      },
+      "availability": "display_status_unknown",
+      "availabilityEvidence": {
+        "lastConfirmedDisplay": "SAM 对象页记录本件在 Benin Art: Collecting Concerns 展览中展出至 2023-08-28；该展览页明确标为已结束。",
+        "currentBoundary": "SAM 对象页没有当前在展标识，当前展览清单也不能证明本件在展。不得把馆藏核心或既往展出写成当日可见；行前需向馆方核验。",
+        "sourcePointers": [
+          "https://art.seattleartmuseum.org/objects/8251/belt-mask-of-iyoba-mother-of-the-oba-idia",
+          "https://seattleartmuseum.org/whats-on/exhibitions/benin-art"
+        ]
+      },
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": true,
+      "rareAssessment": {
+        "decision": "rare_gate_not_passed",
+        "recommendedLevel": "重要藏品",
+        "comparisonCategory": "十六世纪贝宁王室为 Oba 仪式使用、通常与 Iyoba Idia 联系的象牙人脸腰饰/髋饰面具组",
+        "knownSetBoundary": "同行评议研究识别五件，分别在伦敦、纽约、西雅图、斯图加特及私人收藏；大英博物馆也称其对象为五件风格相近作品之一。SAM 标签所称“共四件”与这两项证据冲突，不宜沿用。这里的“五件”是该研究所辨识的现存组，不应扩大为所有贝宁象牙面具的全球总数。",
+        "nearestComparators": [
+          {
+            "name": "大英博物馆 pendant mask/regalia，Af1910,0513.1",
+            "sharedCoreValue": "同属十六世纪、为 Oba 仪式使用的五件相近象牙髋饰之一，通常被认为表现伊迪娅；同样在 1897 年英国行动中被掠走。",
+            "difference": "研究指出其装饰组合与组内其他件有差异；大英博物馆本件颈部使用交织纹，而非纽约近似件所见的葡萄牙人头像。该差异有助于辨认个体，但不足以独占整组的核心仪式、王权或殖民史价值。",
+            "sourcePointer": "https://www.britishmuseum.org/collection/object/E_Af1910-0513-1"
+          },
+          {
+            "name": "大都会艺术博物馆 Pendant mask of Ìyọ́bà Idià，1978.412.323",
+            "sharedCoreValue": "同属十六世纪贝宁宫廷象牙面具组，亦被解释为 Oba 为纪念伊迪娅而制作并在仪式中佩戴。",
+            "difference": "大都会称其与大英博物馆件构成一对近乎相同的作品；材料记录包括象牙、铁、黄铜、煤与氧化铁痕迹，尺寸 23.8 × 12.7 × 6.4 厘米。它能充分提供同组的肖像、材质象征和王室仪式核心价值。",
+            "sourcePointer": "https://www.metmuseum.org/art/collection/search/318622"
+          },
+          {
+            "name": "原 Pitt-Rivers、后斯图加特收藏的同组面具",
+            "sharedCoreValue": "同属五件组，研究认为这些面具由同一工坊、甚至可能同一只手制作，并曾共同保存在 Oba 的卧室。",
+            "difference": "研究以其珊瑚珠装饰作为辨识特征；该差异仍属组内装饰变化，不足以证明西雅图本件的核心价值不可替代。",
+            "sourcePointer": "https://journals.openedition.org/perspective/15735"
+          },
+          {
+            "name": "原 Henry Galway 家族、后私人收藏的同组面具",
+            "sharedCoreValue": "同属五件组，并与 1897 年从贝宁王宫移走后进入英国私人收藏的历史相连。",
+            "difference": "其个体流转轨迹不同，但同样承载该组被掠夺、分散和在现代重新被识别为整体的历史。",
+            "sourcePointer": "https://journals.openedition.org/perspective/15735"
+          }
+        ],
+        "decisiveDifferenceTest": {
+          "supportedDifference": "西雅图本件具有可追到 Robert Allman 的个体来源链；SAM 还记录它从王宫卧室箱中取走的具体日期、随后 1960 年拍卖和经 Katherine White 于 1981 年遗赠入馆的流转。该个体履历对殖民来源研究很重要。",
+          "whyNotDecisiveForRareGate": "可靠来源没有证明这条个体履历使西雅图本件在艺术形式、王室仪式功能、伊迪娅形象或 1897 年掠夺史方面拥有其他四件无法提供的核心价值。相反，同行评议研究将五件解释为原先共同发挥作用、后来被市场分散的一个整体。",
+          "unavailableAfterSeeingComparators": "可确认的剩余价值主要是 Allman—White—SAM 这条对象传记及其对西雅图馆藏伦理讨论的作用；这构成明确的馆藏位置与社会史价值，但不足以满足“稀世珍品”的全球不可替代性硬门。",
+          "unknowns": [
+            "无法由现有来源确认五件各自在十六世纪的精确制作次序。",
+            "无法确认具体雕工个人；研究只支持同一工坊、甚至可能同一只手的判断。",
+            "无法把“通常认为表现伊迪娅”升级为确定肖像身份。",
+            "无法确认 SAM 标签“共四件”所采用的计数口径；下游不得混用四件与五件。",
+            "无法证明西雅图本件优于组内其他件，或在核心艺术/历史价值上不可替代。"
+          ]
+        },
+        "sourcePointers": [
+          "https://journals.openedition.org/perspective/15735",
+          "https://www.britishmuseum.org/collection/object/E_Af1910-0513-1",
+          "https://www.metmuseum.org/art/collection/search/318622",
+          "https://art.seattleartmuseum.org/objects/8251/belt-mask-of-iyoba-mother-of-the-oba-idia"
+        ]
+      },
+      "coreValue": "一件十六世纪贝宁王室仪式用象牙腰饰：它把通常与首位 Iyoba 伊迪娅相联系的女性形象纳入 Oba 的王权仪式，同时其可追溯的 1897 年掠夺与跨市场流转，使它成为理解贝宁宫廷物件如何被殖民暴力截断并分散的具体证据。",
+      "selectionSignals": [
+        "可作为 SAM 贝宁收藏线的关键节点，连接王母头衔、Oba 仪式、象牙宫廷工艺与殖民来源伦理。",
+        "五件同组对象的全球分散提供清晰比较框架，但重要性应来自王权仪式、女性形象、工坊制作与对象传记，而不是把物理唯一性当稀有度。",
+        "SAM 对本件保存了异常具体的对象来源链，适合支撑馆级的收藏史与归还讨论。",
+        "因展出状态未知，不能承担“到馆必看且必定可见”的路线承诺。"
+      ],
+      "sectionSignals": [
+        "power-afterlife",
+        "benin-court-and-royal-ritual",
+        "women-and-dynastic-power",
+        "colonial-violence-and-collection-history",
+        "objects-dispersed-from-an-ensemble"
+      ],
+      "routeSignals": [
+        "若馆方确认在展，可作为贝宁宫廷艺术与殖民来源线的核心停留点。",
+        "若未确认在展，只能列为“展出状态待核验”，不得用于保证路线容量。",
+        "适合与 SAM 其他 1897 年从贝宁王宫移走的对象同段安排，以显示原有宫廷系统与后来的分散，而非孤立呈现为名作。"
+      ],
+      "riskFlags": [
+        "rare_candidate",
+        "comparative_claim",
+        "colonial_provenance"
+      ],
+      "riskResolution": {
+        "rare_candidate": {
+          "status": "resolved_downgrade",
+          "result": "五件同组对象已建立，最近比较对象能提供同一核心价值；没有可靠的决定性差异通过不可替代性硬门。建议重要性为“重要藏品”，不是“稀世珍品”。"
+        },
+        "comparative_claim": {
+          "status": "resolved_with_source_conflict",
+          "result": "采用同行评议研究与大英博物馆相互支持的“五件同组”边界；明确记录 SAM 标签“共四件”的冲突。不得写“唯一”“仅存”或无边界的“极为罕见”。"
+        },
+        "colonial_provenance": {
+          "status": "resolved_with_precise_chain_and_language",
+          "result": "SAM 记录本件于 1897-02-16 被英国惩罚性远征的首席医疗官 Robert Allman 从贝宁王宫 Oba 卧室的箱中取走，1960 年经伦敦 Sotheby's 及经销商流转给 Katherine White，1981 年遗赠 SAM。SAM 自己将该批贝宁对象的取得背景定义为极端殖民暴力，并称英国行动屠杀当地人、毁坏王宫和没收艺术品。下游可据此写“掠走/殖民暴力”，但不应在缺乏当前法律或谈判材料时断言已经作出归还决定。"
+        }
+      },
+      "scoreEvidence": {
+        "supports": [
+          "五件同组的可核查稀少性。",
+          "十六世纪贝宁宫廷王室仪式功能。",
+          "女性/王母形象进入 Oba 王权表述的文化与历史价值。",
+          "1897 年从王宫取走及其后全球分散的具体对象史。",
+          "SAM 贝宁收藏及收藏伦理叙事的关键节点。"
+        ],
+        "limits": [
+          "五件同组意味着数量少，但不能单独推出全球不可替代。",
+          "大英博物馆与大都会的近似件可以解释同一核心问题。",
+          "当前展出状态未知，不能把收藏重要性计作稳定可见性。",
+          "伊迪娅身份是基于宫廷口述传统形成的主流识别，应保留限定语。",
+          "SAM 的“四件”计数与更强比较证据冲突，不可作为评分中的数量依据。"
+        ]
+      },
+      "sourcePointers": [
+        "https://art.seattleartmuseum.org/objects/8251/belt-mask-of-iyoba-mother-of-the-oba-idia",
+        "https://seattleartmuseum.org/whats-on/exhibitions/benin-art",
+        "https://journals.openedition.org/perspective/15735",
+        "https://www.britishmuseum.org/collection/object/E_Af1910-0513-1",
+        "https://www.metmuseum.org/art/collection/search/318622"
+      ]
+    }
+  ]
+}

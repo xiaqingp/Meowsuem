@@ -29,6 +29,11 @@ try {
     canonicalRunCreator: "scripts/create-generation-run.mjs",
     canonicalRunValidator: "scripts/validate-run-directory.mjs",
     canonicalFilesystemMigration: "scripts/migrate-filesystem-contract-v1.mjs",
+    canonicalMuseumOrchestrator: "scripts/run-museum-pipeline.mjs",
+    canonicalOneShotReverifier: "scripts/reverify-one-shot-work.mjs",
+    canonicalLockedMetadataPreparer: "scripts/prepare-one-shot-work-inputs.mjs",
+    canonicalAssemblyInputPreparer: "scripts/prepare-museum-publication-plan.mjs",
+    canonicalRunCausalityVerifier: "scripts/verify-run-causality.mjs",
   };
   const manifest = fixtureManifest({
     ...canonical,
@@ -61,6 +66,21 @@ try {
 
   let result = await verifyProjectAuthority({ projectRoot: root, checkRelease: false });
   assert.deepEqual(result.failures, []);
+
+  const runId = "20260726T120000Z-p2.9.0";
+  const runDescriptorPath = `research/runs/production/fixture/${runId}/run.json`;
+  const runDescriptor = {
+    schemaVersion:1,filesystemContractVersion:1,runKind:"production",runId,museumId:"fixture",
+    milestone:"M31",pipelineVersion:"2.9.0",instructionVersion:"fixture",status:"created",
+    createdAt:"2026-07-26T12:00:00.000Z",createdBy:"fixture",layoutVersion:1,immutable:false,
+  };
+  await write(runDescriptorPath, `${JSON.stringify(runDescriptor,null,2)}\n`);
+  result = await verifyProjectAuthority({projectRoot:root,checkRelease:false});
+  assert.deepEqual(result.failures, [], "created clean-checkout run must not depend on empty candidate/reports directories");
+  await write(runDescriptorPath, `${JSON.stringify({...runDescriptor,status:"published",immutable:true},null,2)}\n`);
+  result = await verifyProjectAuthority({projectRoot:root,checkRelease:false});
+  assert(result.failures.some(failure=>failure.includes("published run is missing candidate")));
+  await fs.rm(path.join(root,"research/runs"),{recursive:true,force:true});
 
   manifest.currentRelease = "research/pipeline/releases/v2.9.1.json";
   await write("research/content-standard-manifest.json", `${JSON.stringify(manifest, null, 2)}\n`);

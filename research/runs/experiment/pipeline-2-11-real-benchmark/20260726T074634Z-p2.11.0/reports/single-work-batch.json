@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260726T074634Z-p2.11.0",
+  "museumId": "seattle",
+  "caseId": "pipeline-2-11-real-benchmark",
+  "stage": "single_work",
+  "runs": 0,
+  "accepted": [
+    "belt-mask-of-iyoba-idia",
+    "double-elvis",
+    "folio-from-the-dispersed-blue-quran",
+    "sea-change"
+  ],
+  "failed": [],
+  "blocked": [],
+  "skippedAccepted": [
+    "belt-mask-of-iyoba-idia",
+    "double-elvis",
+    "folio-from-the-dispersed-blue-quran",
+    "sea-change"
+  ],
+  "concurrency": 10,
+  "seconds": 0
+}

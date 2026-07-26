@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 2,
+  "museumId": "seattle",
+  "workId": "double-elvis",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Double Elvis – Works – eMuseum",
+      "publisher": "Seattle Art Museum",
+      "url": "https://art.seattleartmuseum.org/objects/3307/double-elvis",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "accessionNumber",
+        "provenance",
+        "blankPanel",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Warhol Double Elvis: Series",
+      "publisher": "Seattle Art Museum Collections",
+      "url": "https://collections.site.seattleartmuseum.org/warhol-double-elvis-series/",
+      "sourceType": "museum",
+      "usedFor": [
+        "process",
+        "seriesContext",
+        "blankPanel"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Andy Warhol. Double Elvis. 1963",
+      "publisher": "The Museum of Modern Art",
+      "url": "https://www.moma.org/collection/works/82343",
+      "sourceType": "museum",
+      "usedFor": [
+        "subject",
+        "process",
+        "serialRepetition",
+        "visualInterpretation"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "西雅图艺术博物馆在1976年购买第一面板后，委托安迪·沃霍尔制作第二面板。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "原始图像来源",
+      "statement": "博物馆与MoMA均表述为很可能或可能源自1960年电影《燃烧的星》的宣传照片，并非绝对确定。"
+    },
+    {
+      "topic": "当前展出状态",
+      "statement": "锁定metadata将当前展出状态标为未知；本文未据此声称作品目前正在展出。"
+    }
+  ],
+  "upstreamConflicts": []
+}

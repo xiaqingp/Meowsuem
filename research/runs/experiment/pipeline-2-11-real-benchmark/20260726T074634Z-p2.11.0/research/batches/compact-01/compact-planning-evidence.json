@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "museumId": "seattle",
+  "works": [
+    {
+      "workId": "sea-change",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "《海变》记录了波洛克从画架绘画转向地面作画与滴画方法的关键过程：他在原有蓝粉色构图上加入砂砾、铝粉色颜料和有光泽的黑色商业油漆，使材料与制作行为成为画面结构的一部分。作品作于其1947—1950年滴画时期的开端，并有佩吉·古根海姆旧藏与1958年入藏西雅图艺术博物馆的收藏线索。",
+      "selectionSignals": [
+        "可作为波洛克艺术生涯转折与滴画时期起点的馆藏节点",
+        "材料、制作过程和保留/遮蔽原构图的关系具有明确的馆方研究依据",
+        "佩吉·古根海姆旧藏强化其现代艺术收藏史位置"
+      ],
+      "sectionSignals": [
+        "artistic_breakthrough",
+        "artist_landmark",
+        "material_or_technical_innovation",
+        "making-visible"
+      ],
+      "routeSignals": [
+        "Seattle Art Museum主馆现代艺术路线候选",
+        "适合连接绘画媒介、制作过程与抽象表现主义"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://art.seattleartmuseum.org/objects/2742/sea-change"
+      ]
+    },
+    {
+      "workId": "double-elvis",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "《双重猫王》把1963年的重复明星影像面板与1976年为配对而制作的空白面板并置，集中体现沃霍尔以电影宣传图像、银色背景和重复机制处理大众媒体名望、缺席与损耗的方式。西雅图艺术博物馆先购入第一面板、再委托沃霍尔制作第二面板，收藏行为因此成为作品结构的一部分。",
+      "selectionSignals": [
+        "双面板的跨年份制作将沃霍尔的明星图像、重复与空白屏幕机制结合",
+        "西雅图艺术博物馆购入并委托补制第二面板，形成明确的馆藏史独特性",
+        "可与沃霍尔1963年猫王系列及丝网印刷的大众媒体语境相连"
+      ],
+      "sectionSignals": [
+        "artist_landmark",
+        "conceptual_question",
+        "social_document",
+        "making-visible"
+      ],
+      "routeSignals": [
+        "Seattle Art Museum主馆现代艺术/流行艺术路线候选",
+        "适合连接影像复制、明星文化与博物馆收藏行为"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://art.seattleartmuseum.org/objects/3307/double-elvis",
+        "https://www.moma.org/collection/works/82343"
+      ]
+    },
+    {
+      "workId": "folio-from-the-dispersed-blue-quran",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "这件散佚《蓝色古兰经》书叶以靛蓝染动物皮纸承载金银文字，把奢华材料、横向拉长的库法体和早期阿拉伯文字的辨读条件结合为一个页面系统；缺少区分字母的点号，也说明早期书写如何依赖熟悉经文的读者。它同时保存了早期古兰经书写、材料与宗教使用语境的证据，不能被夸大为世界唯一。",
+      "selectionSignals": [
+        "早期古兰经书写与库法体的材料/文字系统节点",
+        "靛蓝皮纸与金银书写构成鲜明的工艺和视觉价值",
+        "作为散佚多卷本的一叶，可连接早期伊斯兰书籍、朗诵与页面设计"
+      ],
+      "sectionSignals": [
+        "civilization_system",
+        "ritual_or_original_context",
+        "material_or_technical_innovation",
+        "crossing-systems"
+      ],
+      "routeSignals": [
+        "Seattle Asian Art Museum路线候选，当前具体展出状态需现场核验",
+        "适合连接文字、宗教礼仪、材料工艺与跨文明书籍形式"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://art.seattleartmuseum.org/objects/5815/folio-from-the-dispersed-blue-quran",
+        "https://www.metmuseum.org/art/collection/search/454662",
+        "https://www.metmuseum.org/exhibitions/listings/2012/byzantium-and-islam/blog/topical-essays/posts/script"
+      ]
+    }
+  ]
+}

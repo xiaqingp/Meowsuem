@@ -157,6 +157,20 @@ function openWork(index, updateUrl = true) {
   $("#richBody").innerHTML = rich
     ? markdownToHtml(rich.body)
     : '<p class="content-error">完整正文尚未载入，请稍后重试。页面不会用摘要拼接替代正文。</p>';
+  const publicSources = Array.isArray(work.sources) ? work.sources : [];
+  const sourceDetails = $("#workSources");
+  const sourceList = sourceDetails.querySelector("ul");
+  sourceList.replaceChildren(...publicSources.map(source => {
+    const item = document.createElement("li");
+    const link = document.createElement("a");
+    link.href = source.url;
+    link.target = "_blank";
+    link.rel = "noreferrer";
+    link.textContent = [source.title, source.publisher].filter(Boolean).join(" · ");
+    item.append(link);
+    return item;
+  }));
+  sourceDetails.hidden = publicSources.length === 0;
   $("#sideTag").textContent = work.tag;
   $("#sideSignificance").textContent = `重要性：${work.significance}`;
   $("#sidePlace").textContent = `地点：${work.place}`;

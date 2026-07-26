@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "museumId": "seattle",
+  "museum": {
+    "museumId": "seattle",
+    "museumName": "Seattle Art Museum benchmark",
+    "score": 74,
+    "scoreBand": "70–79 · 可去可不去",
+    "withinBandAnchor": "73–75",
+    "travelConclusion": "如果行程已在西雅图，值得安排一次有取舍的参观；不宜仅为这四件作品专程改动整个行程。",
+    "narrative": {
+      "coreQuestion": "在同一条观看线上，作品如何把材料、复制、文字与王权变成可见的制度和历史？",
+      "whatIsSpecial": "这组精选藏品把“making-visible”“crossing-systems”和“power-afterlife”连成一条跨媒介路线：波洛克让颜料成为画布上的事件，沃霍尔让复制与博物馆的收藏行为进入作品结构，蓝色古兰经书叶把书写、材料和阅读节奏合在一页中，伊迪娅腰饰面具则把王权仪式与殖民掠夺的后续历史同时带到眼前。",
+      "scoreBasis": "四件入选作品均为重要藏品，其中《海变》和《双重猫王》是绝对不可错过的核心节点；蓝色古兰经书叶与伊迪娅腰饰面具补足跨文化、宗教书写、王权和殖民来源等观看问题。现有证据未使任何作品通过稀世珍品硬门，因此评分保持在74分。",
+      "limits": [
+        "四件作品当前展出状态均为 display_status_unknown，行前必须向馆方核验。",
+        "锁定证据只覆盖四件候选，不能据此宣称完成全馆范围的稀世珍品排查。",
+        "完整路线覆盖的是本轮入选作品，不等同于一天看完博物馆全部馆藏。"
+      ],
+      "timePlan": {
+        "90分钟": "沿四个最高回报节点快速建立主线，减少每件作品的停留，不展开馆藏群的外围比较。",
+        "半天": "在四件核心作品上保留完整停留，并按三个收藏群理解材料、复制、书写与权力之间的关系。",
+        "完整浏览": "按两次参观或分段完成本轮四件作品；每次仍以作品价值和疲劳成本排序，不把内容库伪装成当日必走清单。"
+      }
+    }
+  },
+  "chapters": [
+    {
+      "sectionId": "orientation-and-decision",
+      "order": 1,
+      "title": "先问：这趟参观的回报在哪里？",
+      "question": "四件重要藏品能否组成一次值得安排的观看？",
+      "collectionGroups": ["making-visible", "crossing-systems", "power-afterlife"],
+      "workIds": ["sea-change", "double-elvis", "folio-from-the-dispersed-blue-quran", "belt-mask-of-iyoba-idia"],
+      "purpose": "用评分、核心节点、展出不确定性和时间成本确定参观预期。"
+    },
+    {
+      "sectionId": "material-becomes-event",
+      "order": 2,
+      "title": "颜料怎样从画面变成一场事件？",
+      "question": "《海变》为什么不是一幅画海的画？",
+      "collectionGroups": ["making-visible"],
+      "workIds": ["sea-change"],
+      "purpose": "从画架绘画到铺地作画的转变，观看线条、色块、砂砾和商业油漆如何共同构成全画面的网络。"
+    },
+    {
+      "sectionId": "copy-and-collection",
+      "order": 3,
+      "title": "复制的图像何时变成博物馆的自画像？",
+      "question": "《双重猫王》为什么必须连同那块空白面板一起看？",
+      "collectionGroups": ["making-visible"],
+      "workIds": ["double-elvis"],
+      "purpose": "把两个面板的视觉反差、两次制作和西雅图艺术博物馆的委托行为放回同一作品结构。"
+    },
+    {
+      "sectionId": "reading-materialized",
+      "order": 4,
+      "title": "当文字被写在蓝色皮纸上，读者究竟在看什么？",
+      "question": "蓝色、金银与库法体如何同时影响辨读和观看？",
+      "collectionGroups": ["crossing-systems"],
+      "workIds": ["folio-from-the-dispersed-blue-quran"],
+      "purpose": "以书叶的材料、横向书写、字母点号和空隙说明文字系统如何形成页面节奏，并保留其散佚手稿的边界。"
+    },
+    {
+      "sectionId": "royal-object-afterlife",
+      "order": 5,
+      "title": "一件王室饰件经历了怎样的权力转移？",
+      "question": "为什么这件“面具”不能只按脸部来理解？",
+      "collectionGroups": ["power-afterlife"],
+      "workIds": ["belt-mask-of-iyoba-idia"],
+      "purpose": "先看腰饰的用途、伊迪娅形象的通常归属与王权仪式，再进入1897年英国行动造成的掠夺与流转。"
+    },
+    {
+      "sectionId": "leave-with-a-second-look",
+      "order": 6,
+      "title": "离开前：把四件作品重新连起来",
+      "question": "材料、制度与历史如何在现场重新变得可见？",
+      "collectionGroups": ["making-visible", "crossing-systems", "power-afterlife"],
+      "workIds": ["sea-change", "double-elvis", "folio-from-the-dispersed-blue-quran", "belt-mask-of-iyoba-idia"],
+      "purpose": "回看四件作品各自的观看证据，同时区分作品重要性、稀有状态和当日可见状态。"
+    }
+  ],
+  "routes": [
+    {
+      "routeId": "90-minute",
+      "order": 1,
+      "title": "90分钟：四个高回报节点",
+      "durationMinutes": 90,
+      "workIds": ["sea-change", "double-elvis", "folio-from-the-dispersed-blue-quran", "belt-mask-of-iyoba-idia"],
+      "stops": [
+        {"workId": "sea-change", "minutes": 25, "instruction": "先建立材料成为事件的观看基准。"},
+        {"workId": "double-elvis", "minutes": 20, "instruction": "紧接着比较重复影像与空白面板。"},
+        {"workId": "folio-from-the-dispersed-blue-quran", "minutes": 15, "instruction": "观察材料和文字节奏，不展开散佚手稿的外围谱系。"},
+        {"workId": "belt-mask-of-iyoba-idia", "minutes": 25, "instruction": "以用途、王权仪式和殖民来源收束主线。"}
+      ],
+      "tradeoffs": "主动跳过本轮四件作品之外的馆藏与外围比较；每件作品只保留能支撑旅行判断的观看时间。",
+      "visibilityNote": "四件作品当前展出状态均未知；只有在行前核验可见后，才能把此顺序作为现场安排。"
+    },
+    {
+      "routeId": "half-day",
+      "order": 2,
+      "title": "半天：从制作到制度",
+      "durationMinutes": 210,
+      "workIds": ["sea-change", "double-elvis", "folio-from-the-dispersed-blue-quran", "belt-mask-of-iyoba-idia"],
+      "stops": [
+        {"workId": "sea-change", "minutes": 40, "instruction": "从制作过程进入画面网络。"},
+        {"workId": "double-elvis", "minutes": 35, "instruction": "把图像复制、两个面板和收藏行为放在一起看。"},
+        {"workId": "folio-from-the-dispersed-blue-quran", "minutes": 35, "instruction": "慢看靛蓝皮纸、金银和横向库法体。"},
+        {"workId": "belt-mask-of-iyoba-idia", "minutes": 45, "instruction": "从腰饰结构进入王权记忆与殖民掠夺的双重历史。"}
+      ],
+      "breaks": ["在第二件与第三件作品之间安排休息；不以连续站立完成全程。"],
+      "tradeoffs": "保留四件核心作品的完整解释，仍不承诺覆盖未经本轮锁定的其他馆藏。",
+      "visibilityNote": "路线顺序是编辑安排，不是实时馆内导航；可见性需行前向馆方确认。"
+    },
+    {
+      "routeId": "complete-browsing",
+      "order": 3,
+      "title": "完整浏览：分两次完成本轮精选",
+      "durationMinutes": 330,
+      "visitPlan": [
+        {
+          "visit": 1,
+          "title": "制作与复制",
+          "workIds": ["sea-change", "double-elvis"],
+          "minutes": 150,
+          "order": ["sea-change", "double-elvis"]
+        },
+        {
+          "visit": 2,
+          "title": "书写与王权的后世",
+          "workIds": ["folio-from-the-dispersed-blue-quran", "belt-mask-of-iyoba-idia"],
+          "minutes": 150,
+          "order": ["folio-from-the-dispersed-blue-quran", "belt-mask-of-iyoba-idia"]
+        }
+      ],
+      "workIds": ["sea-change", "double-elvis", "folio-from-the-dispersed-blue-quran", "belt-mask-of-iyoba-idia"],
+      "tradeoffs": "完整浏览在本阶段指覆盖全部四件入选作品，并允许分两次完成；不把四件作品外的未知馆藏或未知展厅顺序写成确定路线。",
+      "visibilityNote": "任何作品若当日不可见，应从路线中移除或改为行前核验后的替代安排；本阶段不指定未经锁定的替代作品。"
+    }
+  ],
+  "works": [
+    {
+      "workId": "sea-change",
+      "sectionId": "material-becomes-event",
+      "stay": 25,
+      "routeRole": "opening_anchor",
+      "significance": "重要藏品",
+      "priority": "绝对不可错过",
+      "availability": "display_status_unknown"
+    },
+    {
+      "workId": "double-elvis",
+      "sectionId": "copy-and-collection",
+      "stay": 20,
+      "routeRole": "core_contrast",
+      "significance": "重要藏品",
+      "priority": "绝对不可错过",
+      "availability": "display_status_unknown"
+    },
+    {
+      "workId": "folio-from-the-dispersed-blue-quran",
+      "sectionId": "reading-materialized",
+      "stay": 15,
+      "routeRole": "collection_context",
+      "significance": "重要藏品",
+      "priority": "强烈推荐",
+      "availability": "display_status_unknown"
+    },
+    {
+      "workId": "belt-mask-of-iyoba-idia",
+      "sectionId": "royal-object-afterlife",
+      "stay": 25,
+      "routeRole": "closing_anchor",
+      "significance": "重要藏品",
+      "priority": "强烈推荐",
+      "availability": "display_status_unknown"
+    }
+  ]
+}

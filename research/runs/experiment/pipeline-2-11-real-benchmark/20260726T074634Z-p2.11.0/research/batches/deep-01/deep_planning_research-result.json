@@ -1,0 +1,54 @@
+{
+    "runId":  "20260726T074634Z-p2.11.0",
+    "stage":  "deep_planning_research",
+    "museumId":  "",
+    "caseId":  "pipeline-2-11-real-benchmark",
+    "workId":  "",
+    "pipelineVersion":  "2.11.0",
+    "instructionVersion":  "2.4.0",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-07-26T00:47:17.2352983-07:00",
+    "modelStartedAt":  "2026-07-26T00:47:17.5957874-07:00",
+    "modelCompletedAt":  "2026-07-26T00:49:32.1057885-07:00",
+    "completedAt":  "2026-07-26T00:49:32.1237746-07:00",
+    "runnerDurationMs":  134888,
+    "modelDurationMs":  134510,
+    "tokenUsage":  {
+                       "total":  89261,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "5",
+                                    "9",
+                                    "12",
+                                    "13"
+                                ],
+    "logPath":  "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/research/batches/deep-01/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "d80ee1c0f28a4f21a26b3d7daefe825812b9007b3208dd80451ae13cee95fc96"
+                   },
+                   {
+                       "path":  "research/pipeline/prompts/planning-research.md",
+                       "role":  "stage_prompt",
+                       "sha256":  "f82cdd4578690962ec8167ca664ae8c6945687c4e2c55a466925391f20feb97a"
+                   },
+                   {
+                       "path":  "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/research/batches/deep-01/candidate-packet.json",
+                       "role":  "candidate_packet",
+                       "sha256":  "a76140c7464550c35ad8b06ac9dced6d59cdc4280a651828fe543425eea90ec7"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "deep-research-dossier.json",
+                        "sha256":  "ee17543f93801c672ace864b086ef95959be1f631e78d301b7590ebf3549a789",
+                        "bytes":  11800
+                    }
+                ]
+}

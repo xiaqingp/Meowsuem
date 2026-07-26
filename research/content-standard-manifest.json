@@ -7,7 +7,7 @@
   "canonicalPublisher": "scripts/publish-museum-candidate.mjs",
   "canonicalAssembler": "scripts/assemble-museum-candidate.mjs",
   "canonicalImageEvidenceResolver": "scripts/resolve-museum-image-evidence.mjs",
-  "canonicalAssemblyInputPreparer": "scripts/prepare-museum-assembly.mjs",
+  "canonicalAssemblyInputPreparer": "scripts/prepare-museum-publication-plan.mjs",
   "canonicalFinalizer": "scripts/finalize-museum.mjs",
   "canonicalContentVerifier": "scripts/verify-content-pipeline.mjs",
   "canonicalSignificanceVerifier": "scripts/verify-significance-evidence.mjs",
@@ -24,18 +24,42 @@
   "canonicalRunValidator": "scripts/validate-run-directory.mjs",
   "canonicalFilesystemMigration": "scripts/migrate-filesystem-contract-v1.mjs",
   "canonicalOneShotRunner": "scripts/run-one-shot-work.mjs",
+  "canonicalOneShotReverifier": "scripts/reverify-one-shot-work.mjs",
   "canonicalOneShotVerifier": "scripts/verify-one-shot-work.mjs",
   "canonicalOneShotAdapter": "scripts/adapt-one-shot-work.mjs",
+  "canonicalMuseumOrchestrator": "scripts/run-museum-pipeline.mjs",
+  "canonicalLockedMetadataPreparer": "scripts/prepare-one-shot-work-inputs.mjs",
+  "canonicalRunCausalityVerifier": "scripts/verify-run-causality.mjs",
   "canonicalOneShotPrompt": "research/pipeline/prompts/single-work-one-shot.md",
   "canonicalOneShotLockedMetadataSchema": "scripts/schemas/one-shot-locked-metadata.schema.json",
   "canonicalOneShotSourcesSchema": "scripts/schemas/one-shot-sources.schema.json",
   "canonicalOneShotVerifierResultSchema": "scripts/schemas/one-shot-verifier-result.schema.json",
-  "pipelineVersion": "2.10.0",
-  "currentVersion": "2.3.0",
-  "currentRelease": "research/pipeline/releases/v2.10.0.json",
-  "activePipelineChange": "research/pipeline/changes/PCR-2026-07-25-luna-high-one-shot-single-work.json",
+  "canonicalVerifiedImageEvidenceSchema": "scripts/schemas/verified-image-evidence.schema.json",
+  "releaseAdditionalCanonicalFiles": [
+    "scripts/lib/work-status.mjs",
+    "research/pipeline/prompts/museum-scope.md",
+    "research/pipeline/prompts/museum-discovery.md",
+    "research/pipeline/prompts/planning-research.md",
+    "research/pipeline/prompts/museum-selection.md",
+    "research/pipeline/prompts/museum-structure.md",
+    "scripts/image-providers/shared.mjs",
+    "scripts/image-providers/registry.mjs",
+    "scripts/image-providers/generic-html.mjs",
+    "scripts/image-providers/iiif.mjs",
+    "scripts/image-providers/emuseum.mjs",
+    "scripts/image-providers/collection-api.mjs",
+    "scripts/image-providers/browser-fallback.mjs",
+    "scripts/image-providers/wikidata-commons.mjs",
+    "scripts/experiments/pipeline-2.11-benchmark.mjs",
+    "museum-app.js",
+    "museum.html"
+  ],
+  "pipelineVersion": "2.11.0",
+  "currentVersion": "2.4.0",
+  "currentRelease": "research/pipeline/releases/v2.11.0.json",
+  "activePipelineChange": "research/pipeline/changes/PCR-2026-07-26-pipeline-2.11.json",
   "releaseStatus": "active",
-  "activeMilestone": "M30",
+  "activeMilestone": "M31",
   "filesystemContract": {
     "version": 1,
     "activeContentRoot": "research/content",
@@ -76,8 +100,8 @@
     "museum_structure"
   ],
   "executionProfile": {
-    "model": "gpt-5.6-sol",
-    "reasoningEffort": "medium",
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "high",
     "freshResearchMaxWorksPerContext": 10,
     "reviewerMode": "disabled",
     "completionReportRequired": true,
@@ -95,6 +119,11 @@
     "singleWorkModel": "gpt-5.6-luna",
     "singleWorkReasoningEffort": "high",
     "singleWorkFallback": "disabled",
+    "generationCostRateCard": {
+      "status": "estimate_only",
+      "currency": "credits",
+      "models": {}
+    },
     "singleWorkOutputs": [
       "article.md",
       "sources.json"
@@ -102,23 +131,23 @@
   },
   "modelRouting": {
     "museum_scope": {
-      "model": "gpt-5.6-terra",
-      "reasoningEffort": "medium"
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high"
     },
     "museum_candidate_pool": {
-      "model": "gpt-5.6-sol",
-      "reasoningEffort": "medium"
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high"
     },
     "image_disambiguation": {
       "model": "gpt-5.6-luna",
       "reasoningEffort": "medium"
     },
-    "research": {
+    "planning_research": {
       "standard": {
-        "model": "gpt-5.6-terra",
-        "reasoningEffort": "medium"
+        "model": "gpt-5.6-luna",
+        "reasoningEffort": "high"
       },
-      "complex": {
+      "deep": {
         "model": "gpt-5.6-sol",
         "reasoningEffort": "medium"
       }
@@ -128,8 +157,8 @@
       "reasoningEffort": "medium"
     },
     "museum_structure": {
-      "model": "gpt-5.6-sol",
-      "reasoningEffort": "medium"
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high"
     },
     "single_work": {
       "model": "gpt-5.6-luna",
@@ -202,6 +231,46 @@
     ]
   },
   "stageInputContracts": {
+    "museumScope": {
+      "version": 1,
+      "requiredRoles": [
+        "content_instruction",
+        "museum_request",
+        "stage_prompt"
+      ],
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high"
+    },
+    "museumDiscovery": {
+      "version": 1,
+      "requiredRoles": [
+        "content_instruction",
+        "museum_scope",
+        "stage_prompt"
+      ],
+      "maxCandidateRatio": 1.5,
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high"
+    },
+    "planningResearch": {
+      "version": 1,
+      "maxWorksPerContext": 10,
+      "ordinaryModel": "gpt-5.6-luna",
+      "ordinaryReasoningEffort": "high",
+      "deepModel": "gpt-5.6-sol",
+      "deepReasoningEffort": "medium",
+      "deepRiskFlags": [
+        "identity_conflict",
+        "attribution_or_date_conflict",
+        "rare_candidate",
+        "superlative_claim",
+        "composite_or_parent_child",
+        "architecture_or_site",
+        "insufficient_official_sources",
+        "availability_ambiguity",
+        "cross_source_synthesis"
+      ]
+    },
     "imageDisambiguation": {
       "version": 1,
       "requiredRoles": [
@@ -285,14 +354,14 @@
       "fullCardFallbackField": "requiresFullCard"
     },
     "assembly": {
-      "version": 2,
+      "version": 3,
       "requiredFile": "assembly-input.json",
       "requiredSources": [
         "verified_image_evidence",
         "museum_structure",
         "museum_rating",
         "museum_selection",
-        "one_shot_integrations_or_legacy_author_bundles",
+        "one_shot_integrations",
         "verified_assets"
       ],
       "modelCalls": "zero_during_assembly",
@@ -741,15 +810,18 @@
     }
   },
   "validation": {
-    "status": "m30_luna_high_one_shot_completed",
+    "status": "m31_pipeline_2_11_completed",
     "filesystemContractGate": "passed",
     "authorityGate": "passed",
     "causalityGate": "passed",
     "oneShotGate": "passed",
-    "oneShotRecord": "research/pipeline/tests/one-shot-work-v1/result.json",
+    "oneShotRecord": "research/pipeline/tests/pipeline-2.11/result.json",
     "significanceEvidenceGate": "passed_with_preexisting_significance_baseline",
     "significanceBaselineRecord": "research/pipeline/tests/filesystem-contract-v1/result.json",
-    "causalityFixture": "passed_valid_accepted_backfill_rejected",
+    "causalityFixture": "passed_real_hash_chain_and_tamper_rejected",
+    "endToEndGate": "passed",
+    "realBenchmark": "completed_owner_review_pending",
+    "pipeline211Record": "research/pipeline/tests/pipeline-2.11/result.json",
     "boundary": "M26 remains paused until M28 passes and owner explicitly resumes it"
   },
   "regressions": {
@@ -769,6 +841,12 @@
       "reasoningEffort": "high",
       "fallback": null,
       "reviewer": "disabled"
+    },
+    "pipeline211": {
+      "status": "passed",
+      "record": "research/pipeline/tests/pipeline-2.11/result.json",
+      "endToEndFixture": "passed",
+      "realBenchmark": "completed_owner_review_pending"
     },
     "significanceEvidence": {
       "status": "passed_with_preexisting_significance_baseline",

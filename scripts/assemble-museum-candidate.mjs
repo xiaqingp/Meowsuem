@@ -1,3 +1,4 @@
+import crypto from "node:crypto";
 import fs from "node:fs/promises";
 import path from "node:path";
 import {
@@ -41,7 +42,18 @@ if (argument("--candidate")) {
 await assertPathInside(runRoot, candidateRoot);
 
 const readJson = async file => JSON.parse(await fs.readFile(file, "utf8"));
+const hashFile = async file => crypto.createHash("sha256").update(await fs.readFile(file)).digest("hex");
 const input = await readJson(path.join(runRoot, "structure", "assembly-input.json"));
+if (descriptor.contentContract === "one_shot_v1") {
+  const publicationPlan = await readJson(path.join(runRoot, "assembly", "publication-plan.json"));
+  if (publicationPlan.runId !== descriptor.runId || publicationPlan.museumId !== descriptor.museumId) {
+    throw new Error("publication plan identity drift");
+  }
+  for (const [relative, expected] of Object.entries(publicationPlan.inputHashes ?? {})) {
+    const actual = await hashFile(path.join(runRoot, relative)).catch(() => null);
+    if (actual !== expected) throw new Error(`publication plan input hash drift: ${relative}`);
+  }
+}
 assertSafeIdentifier(input.museum?.id, "museum id");
 if (descriptor.museumId && input.museum.id !== descriptor.museumId) {
   throw new Error("Filesystem contract violation: assembly museum identity does not match run.json");
@@ -79,23 +91,61 @@ for (const [index, record] of input.works.entries()) {
   const workRoot = path.join(runRoot, "works", record.id);
   const oneShotRoot = path.join(workRoot, "one-shot", "integration");
   const usesOneShot = await fs.access(path.join(oneShotRoot, "verification.json")).then(() => true).catch(() => false);
+  const strictOneShot = descriptor.contentContract === "one_shot_v1";
+  const legacyAllowed = descriptor.allowLegacyAuthorBundles === true
+    && Array.isArray(descriptor.legacyWorkIds)
+    && descriptor.legacyWorkIds.includes(record.id);
+  if (!usesOneShot && strictOneShot && !legacyAllowed) {
+    throw new Error(`one-shot integration missing and legacy fallback is forbidden: ${record.id}`);
+  }
   let draft;
   let card;
   let metadata;
+  let publicSources = [];
   if (usesOneShot) {
     const [verification, adapter] = await Promise.all([
       readJson(path.join(oneShotRoot, "verification.json")),
       readJson(path.join(oneShotRoot, "adapter-result.json"))
     ]);
-    if (verification.status !== "passed" || verification.errors?.length || adapter.status !== "passed") {
+    const oneShotResult = strictOneShot
+      ? await readJson(path.join(workRoot, "one-shot", "result.json"))
+      : {status: "accepted"};
+    if (verification.status !== "passed" || verification.errors?.length || adapter.status !== "passed" || oneShotResult.status !== "accepted") {
       throw new Error(`one-shot integration gate did not pass: ${record.id}`);
+    }
+    const inputHashFiles = {
+      lockedMetadata: path.join(workRoot, "one-shot", "input", "locked-metadata.json"),
+      article: path.join(workRoot, "one-shot", "output", "article.md"),
+      sources: path.join(workRoot, "one-shot", "output", "sources.json"),
+      verification: path.join(oneShotRoot, "verification.json")
+    };
+    if (strictOneShot) {
+      for (const [name, file] of Object.entries(inputHashFiles)) {
+        if (await hashFile(file) !== adapter.inputHashes?.[name]) throw new Error(`one-shot input hash drift: ${record.id}/${name}`);
+      }
+    }
+    const outputHashFiles = {
+      "card.txt": path.join(oneShotRoot, "card.txt"),
+      "draft.md": path.join(oneShotRoot, "draft.md"),
+      "display-metadata.json": path.join(oneShotRoot, "display-metadata.json"),
+      "sources.json": path.join(oneShotRoot, "sources.json")
+    };
+    if (strictOneShot) {
+      for (const [name, file] of Object.entries(outputHashFiles)) {
+        if (await hashFile(file) !== adapter.outputHashes?.[name]) throw new Error(`one-shot integration hash drift: ${record.id}/${name}`);
+      }
     }
     [draft, card, metadata] = await Promise.all([
       fs.readFile(path.join(oneShotRoot, "draft.md"), "utf8"),
       fs.readFile(path.join(oneShotRoot, "card.txt"), "utf8"),
       readJson(path.join(oneShotRoot, "display-metadata.json"))
     ]);
+    if (await fs.access(path.join(oneShotRoot, "sources.json")).then(() => true).catch(() => false)) {
+      const sourceDoc = await readJson(path.join(oneShotRoot, "sources.json"));
+      publicSources = sourceDoc.sources.map(source => ({title: source.title, publisher: source.publisher, url: source.url}));
+    }
   } else {
+    if (strictOneShot && !legacyAllowed) throw new Error(`legacy author bundle is not authorized: ${record.id}`);
     const [legacyDraft, legacyCard, writingPlan, mechanical] = await Promise.all([
       fs.readFile(path.join(workRoot, "author", "draft.md"), "utf8"),
       fs.readFile(path.join(workRoot, "author", "card.txt"), "utf8"),
@@ -158,6 +208,7 @@ for (const [index, record] of input.works.entries()) {
     source: record.source,
     cardSummary: card.trim(),
     preciousWhy: card.trim()
+    ,...(publicSources.length ? {sources: publicSources} : {})
   });
 }
 
@@ -335,6 +386,24 @@ await fs.writeFile(
     cachePages: publicationFiles.some(file => file.destination === "index.html" || file.destination === "museum.html")
       ? []
       : input.publication.cachePages || ["index.html", "museum.html"]
+  }, null, 2)}\n`,
+  "utf8"
+);
+const assembledFiles = [...new Set([
+  ...publicationFiles.map(file => file.source),
+  "publication.json",
+  "image-manifest.json"
+])].sort();
+await fs.writeFile(
+  path.join(candidateRoot, "assembly-result.json"),
+  `${JSON.stringify({
+    schemaVersion: 1,
+    runId: descriptor.runId,
+    museumId: input.museum.id,
+    publicationPlanSha256: descriptor.contentContract === "one_shot_v1"
+      ? await hashFile(path.join(runRoot, "assembly", "publication-plan.json"))
+      : null,
+    files: Object.fromEntries(await Promise.all(assembledFiles.map(async file => [file, await hashFile(path.join(candidateRoot, file))])))
   }, null, 2)}\n`,
   "utf8"
 );

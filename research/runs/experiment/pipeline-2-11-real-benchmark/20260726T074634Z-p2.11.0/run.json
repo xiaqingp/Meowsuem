@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "filesystemContractVersion": 1,
+  "runKind": "experiment",
+  "runId": "20260726T074634Z-p2.11.0",
+  "caseId": "pipeline-2-11-real-benchmark",
+  "targetMuseumId": "seattle",
+  "milestone": "M31",
+  "pipelineVersion": "2.11.0",
+  "instructionVersion": "2.4.0",
+  "status": "created",
+  "createdAt": "2026-07-26T07:46:34.822Z",
+  "createdBy": "scripts/create-generation-run.mjs",
+  "layoutVersion": 1,
+  "immutable": false,
+  "contentContract": "one_shot_v1",
+  "allowLegacyAuthorBundles": false,
+  "legacyWorkIds": [],
+  "legacyImageResolutionAllowed": false
+}

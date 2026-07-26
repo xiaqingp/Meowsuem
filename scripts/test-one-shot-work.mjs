@@ -104,6 +104,16 @@ try {
     assert.equal(result.errors.length, 0);
   }
 
+  for (const safe of [
+    "\u535a\u7269\u9986\u8d2d\u5165\u7b2c\u4e00\u9762\u677f\u540e\uff0c\u53c8\u59d4\u6258\u827a\u672f\u5bb6\u5236\u4f5c\u7b2c\u4e8c\u9762\u677f\u3002",
+    "\u5b83\u4e0d\u5fc5\u88ab\u7406\u89e3\u6210\u53ea\u6709\u552f\u4e00\u7b54\u6848\u7684\u8c1c\u8bed\u3002",
+    "\u5bf9\u6bcf\u4e2a\u5c40\u90e8\u90fd\u4f5c\u552f\u4e00\u89e3\u91ca\u5e76\u4e0d\u7a33\u59a5\u3002",
+  ]) {
+    await writeFixture(baseArticle(safe));
+    const result = await verify();
+    assert.equal(result.status, "passed", `${safe}\n${JSON.stringify(result.errors)}`);
+  }
+
   for (const risky of [
     "这是波洛克第一张滴画。",
     "这是全球唯一的过渡作品。",
@@ -119,7 +129,7 @@ try {
     ...baseSources,
     directQuotes: [{quote: "绘画有它自己的生命。", speaker: "波洛克", sourceIds: ["S1"]}],
     highRiskClaims: [
-      {claim: "这是波洛克第一张滴画", type: "strong_factual_claim", sourceIds: ["S1"]},
+      {claim: "这是波洛克第一张滴画", type: "first_or_earliest", sourceIds: ["S1"]},
       {claim: "波洛克的明确意图是表现海洋", type: "artist_intent", sourceIds: ["S1"]}
     ]
   };
@@ -130,6 +140,18 @@ try {
   const warnings = await verify();
   assert.equal(warnings.status, "passed");
   assert.ok(warnings.warnings.length >= 1);
+
+  await writeFixture(baseArticle("普通说明。"), {
+    ...baseSources,
+    highRiskClaims: [{claim: "", type: "other", sourceIds: ["S1"]}],
+  });
+  assert.equal((await verify()).status, "failed");
+
+  await writeFixture(baseArticle("这是波洛克第一张滴画。"), {
+    ...baseSources,
+    highRiskClaims: [{claim: "这是波洛克第一张滴画", type: "first_or_earliest", sourceIds: ["UNKNOWN"]}],
+  });
+  assert.equal((await verify()).status, "failed");
 
   await writeFixture(baseArticle("这件作品目前正在馆内展出。"));
   assert.equal((await verify()).status, "failed");

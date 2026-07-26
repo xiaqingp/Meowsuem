@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "failures": [],
+  "summary": {
+    "museumId": "seattle",
+    "workCount": 4,
+    "significanceCounts": {
+      "稀世珍品": 0,
+      "重要藏品": 4,
+      "特色看点": 0,
+      "体验补充": 0
+    },
+    "rareAssets": [],
+    "independentRareLines": [],
+    "score": 74,
+    "scoreBand": "70–79 · 可去可不去",
+    "withinBandAnchor": "73–75"
+  },
+  "runId": "20260726T074634Z-p2.11.0",
+  "museumId": "seattle",
+  "inputSha256": "9726bb2ff258a187731c4ce9c44e6cc023564138039128c91a3ac174a92e1432",
+  "inputPath": "research/runs/experiment/pipeline-2-11-real-benchmark/20260726T074634Z-p2.11.0/selection/rating-input.json"
+}

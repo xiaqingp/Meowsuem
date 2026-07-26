@@ -1,6 +1,8 @@
+import crypto from "node:crypto";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { parseArgs } from "node:util";
+import {loadManifest, projectRelative, resolveCanonicalRun} from "./lib/filesystem-contract.mjs";
 
 const SIGNIFICANCE = new Set(["稀世珍品", "重要藏品", "特色看点", "体验补充"]);
 const RATING_ROLES = new Set(["independent_object", "collection_member", "whole_site", "supporting_node"]);
@@ -107,16 +109,52 @@ export function validateMuseumRating(evidence, rating) {
 async function main() {
   const { values } = parseArgs({
     options: {
+      kind: {type: "string"},
+      museum: {type: "string"},
+      case: {type: "string"},
+      "run-id": {type: "string"},
+      "project-root": {type: "string"},
+      legacy: {type: "boolean"},
       evidence: { type: "string" },
       rating: { type: "string" },
       out: { type: "string" }
     }
   });
-  if (!values.evidence || !values.rating || !values.out) throw new Error("usage: node scripts/process-museum-rating.mjs --evidence <museum-evidence.json> --rating <museum-rating.json> --out <museum-rating-result.json>");
-  const evidence = JSON.parse(await fs.readFile(values.evidence, "utf8"));
-  const rating = JSON.parse(await fs.readFile(values.rating, "utf8"));
+  let evidencePath;
+  let ratingPath;
+  let outputPath;
+  let identity = {};
+  if (values.legacy) {
+    if (!values.evidence || !values.rating || !values.out) throw new Error("legacy mode requires --evidence, --rating and --out");
+    evidencePath = path.resolve(values.evidence);
+    ratingPath = path.resolve(values.rating);
+    outputPath = path.resolve(values.out);
+  } else {
+    if (!values.kind || !values["run-id"]) throw new Error("--kind and --run-id are required");
+    const projectRoot = path.resolve(values["project-root"] ?? new URL("..", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"));
+    const manifest = await loadManifest(projectRoot);
+    const {runRoot, descriptor} = await resolveCanonicalRun({
+      projectRoot, manifest, runKind: values.kind, museumId: values.museum,
+      caseId: values.case, runId: values["run-id"], writable: true,
+    });
+    const combinedPath = path.join(runRoot, "selection", "rating-input.json");
+    const combined = JSON.parse(await fs.readFile(combinedPath, "utf8"));
+    evidencePath = combinedPath;
+    ratingPath = combinedPath;
+    outputPath = path.join(runRoot, "rating", "rating-result.json");
+    identity = {
+      runId: descriptor.runId,
+      museumId: descriptor.museumId ?? descriptor.targetMuseumId,
+      inputSha256: crypto.createHash("sha256").update(await fs.readFile(combinedPath)).digest("hex"),
+      inputPath: projectRelative(projectRoot, combinedPath),
+    };
+  }
+  const evidenceDoc = JSON.parse(await fs.readFile(evidencePath, "utf8"));
+  const ratingDoc = evidencePath === ratingPath ? evidenceDoc : JSON.parse(await fs.readFile(ratingPath, "utf8"));
+  const evidence = evidenceDoc.evidence ?? evidenceDoc;
+  const rating = ratingDoc.rating ?? ratingDoc;
   const result = validateMuseumRating(evidence, rating);
-  const outputPath = path.resolve(values.out);
+  Object.assign(result, identity);
   await fs.mkdir(path.dirname(outputPath), { recursive: true });
   await fs.writeFile(outputPath, `${JSON.stringify(result, null, 2)}\n`, "utf8");
   for (const failure of result.failures) console.error(`- ${failure}`);

@@ -107,4 +107,28 @@ if (publish && changed.length) {
     throw error;
   }
 }
+const assemblyResultPath = path.join(candidateRoot, "assembly-result.json");
+let candidateAssemblyResultSha256 = null;
+try {
+  candidateAssemblyResultSha256 = hash(await fs.readFile(assemblyResultPath));
+} catch (error) {
+  if (error.code !== "ENOENT" || descriptor.contentContract === "one_shot_v1") throw error;
+}
+const publicationReport = {
+  schemaVersion: 1,
+  runId: descriptor.runId,
+  museumId: publication.museumId,
+  mode: publish ? "publish" : "dry-run",
+  candidateAssemblyResultSha256,
+  files: Object.fromEntries(writes.map(item => [
+    projectRelative(projectRoot, item.destination),
+    {sha256: hash(item.bytes), changed: item.changed}
+  ]))
+};
+await fs.mkdir(path.join(runRoot, "reports"), {recursive: true});
+await fs.writeFile(
+  path.join(runRoot, "reports", `publication-${publish ? "publish" : "dry-run"}.json`),
+  `${JSON.stringify(publicationReport, null, 2)}\n`,
+  "utf8"
+);
 console.log(`${publication.museumId} publication ${publish ? "applied" : "dry-run"}: ${changed.length}/${writes.length} files changed`);

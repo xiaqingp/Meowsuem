@@ -64,6 +64,9 @@ const run = async (name, script, args = []) => {
 
 const totalStarted = performance.now();
 await run("assembly", "scripts/assemble-museum-candidate.mjs", runKind === "regression" ? ["--dry-run"] : []);
+if (descriptor.contentContract === "one_shot_v1") {
+  await run("causality-prepublish", "scripts/verify-run-causality.mjs");
+}
 await run("future-contract", "scripts/verify-future-museum-contract.mjs");
 await run("verification", "scripts/verify-release-candidate.mjs", [
   ...(concurrency ? [`--concurrency=${concurrency}`] : []),
@@ -72,6 +75,9 @@ await run("verification", "scripts/verify-release-candidate.mjs", [
 await run(publish ? "publication" : "publication-dry-run", "scripts/publish-museum-candidate.mjs", [
   ...(publish ? ["--publish"] : []),
 ]);
+if (descriptor.contentContract === "one_shot_v1") {
+  await run("causality-postpublish", "scripts/verify-run-causality.mjs");
+}
 
 const completedAt = new Date();
 const report = {

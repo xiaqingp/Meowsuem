@@ -61,6 +61,12 @@ export async function adaptOneShotWork({artifactRoot, verification, previousFail
       displayMetadata: "deterministic mapping from input/locked-metadata.json",
       sources: "validated structural copy of output/sources.json"
     },
+    inputHashes: {
+      lockedMetadata: sha256(lockedText),
+      article: sha256(article),
+      sources: sha256(sourcesText),
+      verification: sha256(`${JSON.stringify(verification, null, 2)}\n`)
+    },
     outputHashes: Object.fromEntries(Object.entries(outputs).map(([name, content]) => [name, sha256(content)]))
   };
   if (replace) {
