@@ -54,13 +54,15 @@
     "scripts/verify-blind-run-protection.mjs",
     "scripts/freeze-blind-run.mjs",
     "scripts/experiments/pipeline-2.11-benchmark.mjs",
+    "scripts/lib/page-image-capture.mjs",
+    "scripts/retry-failed-image-evidence.mjs",
     "museum-app.js",
     "museum.html"
   ],
-  "pipelineVersion": "2.11.5",
+  "pipelineVersion": "2.11.6",
   "currentVersion": "2.4.0",
-  "currentRelease": "research/pipeline/releases/v2.11.5.json",
-  "activePipelineChange": "research/pipeline/changes/PCR-2026-07-26-blind-run-mechanical-hotfixes.json",
+  "currentRelease": "research/pipeline/releases/v2.11.6.json",
+  "activePipelineChange": "research/pipeline/changes/PCR-2026-07-26-image-capture-contract.json",
   "releaseStatus": "active",
   "activeMilestone": "M31",
   "filesystemContract": {

@@ -26,6 +26,32 @@ Completion gate：
 - Production diff 仅包含《海变》卡片、正文与必要更新时间／缓存引用；其他 19 件、评分和路线无漂移。
 - Pipeline 2.10.0 frozen。
 
+## M31：两级图片解析试验（地中美术馆）
+
+Status: Experiment complete with unresolved images; image evidence published to local 8096 — Pipeline 2.11.5 unchanged
+
+Scope：
+
+- 只读复用冻结地中美术馆 run 的 scope、candidate pool、selection 和 structure；不重跑其他阶段，不修改冻结 run、production 或前端。
+- 新增两级图片模式：官方作品 URL 高置信度绑定先快速接受；快速路径无法证明身份时，一次交给 Luna Medium 自主搜索，再由代码执行 URL 安全、MIME、尺寸、SHA-256 和重复图片检查。
+- 作品图、建筑／馆级 context 图和 unresolved 分离；museum hero 只保留一份，不伪装成作品图。
+
+Completion gate：
+
+- [x] 10 件作品从新 experiment run 的冻结上游输入进入图片阶段。
+- [x] 快速路径未误接受综合馆页；10 件全部按规则进入一次 AI 图片研究，模型为 `gpt-5.6-luna` medium。
+- [x] AI 结果经过确定性下载和图片校验；4 件作品图、1 件建筑 context 图接受，5 件因来源返回 HTML 或 429 明确 unresolved；重复作品图 SHA 为 0。
+- [x] 生成 `reports/chichu-image-resolution-test.json` 与 `.md`；未触碰生产内容。
+- [x] 仅将 4 张作品图、1 张建筑 context 图和 5 个明确 unresolved 状态发布到本地 8096；未解析作品不再回退为馆舍封面。
+
+## M31.1：通用页面图片捕获门
+
+Status: Complete — Pipeline 2.11.6 frozen 2026-07-26
+
+- 将动态网页图片的容器裁剪、控件隐藏和捕获证据提升为共享 helper；新馆不得使用整页或原始 `<img>` 截图。
+- 扩展 verified image evidence schema，要求页面元素捕获记录 `clipped_image_container`、来源页、边界框和视口。
+- 用地中美术馆真实页面验证正式站 8094；8095/8096 仅作为测试端口并在交付后关闭。
+
 ## M29：Research 目录重构与文件系统契约
 
 Status: Complete — Pipeline 2.9.3 frozen 2026-07-25

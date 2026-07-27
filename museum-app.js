@@ -1,7 +1,8 @@
 // Shared production renderer for every museum.
 const params = new URLSearchParams(location.search);
 const requestedId = params.get("id");
-const museumId = museumData[requestedId] ? requestedId : "seattle";
+const museumAliases = { chichuartmuseum: "chichu" };
+const museumId = museumData[requestedId] ? requestedId : (museumAliases[requestedId] || "seattle");
 const museum = museumData[museumId];
 const $ = selector => document.querySelector(selector);
 let currentWorkIndex = 0;
@@ -99,7 +100,7 @@ function renderMuseum() {
   $("#chapters").innerHTML = museum.chapters.map(chapter => {
     const cards = museum.works.map((work, index) => ({work,index})).filter(item => item.work.ch === chapter.id).map(({work,index}) => `
       <a class="card ${work.unavailable ? "unavailable" : ""}" data-work="${index}" href="${workUrl(work)}">
-        <div class="thumb"><img src="${work.image || museum.hero}" alt="${work.zh}（${work.en}）" loading="lazy">${work.imageKind === "installation" ? '<span class="image-kind">展陈现场 · 非单件扫描</span>' : work.imageKind === "museum-placeholder" || !work.image ? '<span class="image-kind">馆舍占位图 · 非作品图</span>' : ""}</div>
+        <div class="thumb">${work.imageKind === "image-unresolved" ? '<div class="thumb-empty">暂无可靠作品图</div>' : `<img src="${work.image || museum.hero}" alt="${work.zh}（${work.en}）" loading="lazy">`}${work.imageKind === "installation" ? '<span class="image-kind">展陈现场 · 非单件扫描</span>' : work.imageKind === "context-image" ? '<span class="image-kind">建筑 / 场域图 · 非作品图</span>' : work.imageKind === "museum-placeholder" || !work.image ? '<span class="image-kind">馆舍占位图 · 非作品图</span>' : ""}</div>
         <div class="card-body"><div class="card-top"><span class="num">${String(index + 1).padStart(2,"0")}</span><span class="card-tags"><span class="tag significance">${work.significance}</span><span class="tag">${work.tag}</span>${work.availabilityTag ? `<span class="tag">${work.availabilityTag}</span>` : ""}</span></div>
         <h3>${work.zh}</h3><div class="work-en">${work.en}</div><div class="art-details">${work.by} · ${work.date}</div><p class="card-summary">${cardSummary(work)}</p>
         <div class="meta"><span>${work.time}</span><span>${work.unavailable ? "仅阅读" : "开始阅读 →"}</span></div></div>
@@ -149,9 +150,11 @@ function openWork(index, updateUrl = true) {
   $("#workTitle").textContent = work.zh;
   $("#workEn").textContent = work.en;
   $("#workMeta").textContent = `${work.by} · ${work.date} · ${work.place}`;
-  $("#workImage").src = work.image || museum.hero;
+  const unresolvedImage = work.imageKind === "image-unresolved";
+  $("#workImage").hidden = unresolvedImage;
+  $("#workImage").src = unresolvedImage ? "" : (work.image || museum.hero);
   $("#workImage").alt = `${work.zh}（${work.en}）`;
-  const placeholderCaption = work.imageKind === "museum-placeholder" || !work.image ? "馆舍占位图，不是本作品图。" : "";
+  const placeholderCaption = unresolvedImage ? "暂无可靠作品图。" : work.imageKind === "museum-placeholder" || !work.image ? "馆舍占位图，不是本作品图。" : work.imageKind === "context-image" ? "建筑 / 场域图，不是本作品的独立对象图。" : "";
   $("#caption").innerHTML = `${placeholderCaption || work.imageCaption || `${work.zh}。`} <a href="${work.imageSource || museum.official}" target="_blank" rel="noreferrer">图片来源与许可</a> · <a href="${work.source}" target="_blank" rel="noreferrer">作品资料</a>`;
   const rich = richSections.find(section => section.number === currentWorkIndex + 1);
   $("#richBody").innerHTML = rich

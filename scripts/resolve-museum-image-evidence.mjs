@@ -13,6 +13,13 @@ import {discoverWikidataCommons, searchWikidataCommons} from "./image-providers/
 import {museumImageProviderConfig} from "./image-providers/registry.mjs";
 import {assertSafeRemoteUrl, fetchSafeImage} from "./image-providers/url-safety.mjs";
 
+// Pipeline 2.11 two-level mode: simple official-page matches first, then AI research.
+// The legacy provider path remains available for frozen and historical runs.
+if (process.argv.includes("--two-level")) {
+  await import("./resolve-two-level-image-evidence.mjs");
+  process.exit(0);
+}
+
 const argument = name => process.argv.find(value => value.startsWith(`${name}=`))?.slice(name.length + 1);
 const projectRoot = path.resolve(argument("--project-root") || new URL("..", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"));
 const allowModel = process.argv.includes("--allow-model");

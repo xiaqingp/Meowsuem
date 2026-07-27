@@ -10,7 +10,7 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["workId", "identity", "status", "selected"],
+        "required": ["workId", "identity", "status", "objectImageResolved", "imagePolicy", "selected"],
         "properties": {
           "workId": {"type": "string", "pattern": "^[a-z][a-z0-9-]*$"},
           "identity": {
@@ -20,16 +20,21 @@
               "title": {"type": "string", "minLength": 1},
               "creator": {"type": "string"},
               "identityAnchor": {"type": "string", "minLength": 1},
-              "accessionNumber": {"type": "string", "minLength": 1},
+              "accessionNumber": {"type": ["string", "null"], "minLength": 1},
               "officialObjectUrl": {"type": "string", "format": "uri"}
             }
           },
-          "status": {"const": "accepted"},
+          "status": {"enum": ["object_image_accepted", "context_image_accepted", "object_image_unresolved", "provider_unavailable"]},
+          "objectImageResolved": {"type": "boolean"},
+          "imagePolicy": {"enum": ["object_image", "context_image", "none"]},
           "selected": {
-            "type": "object",
-            "required": ["url", "localPath", "sha256", "width", "height", "contentType", "method", "provider", "identitySignals"],
-            "properties": {
-              "url": {"type": "string", "format": "uri"},
+            "oneOf": [
+              {"type": "null"},
+              {
+                "type": "object",
+                "required": ["url", "localPath", "sha256", "width", "height", "contentType", "method", "provider", "identitySignals"],
+                "properties": {
+              "url": {"type": ["string", "null"]},
               "localPath": {"type": "string", "minLength": 1},
               "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
               "width": {"type": "integer", "minimum": 1},
@@ -37,8 +42,45 @@
               "contentType": {"enum": ["image/jpeg", "image/png", "image/webp", "image/gif", "image/tiff"]},
               "method": {"type": "string", "minLength": 1},
               "provider": {"type": "string", "minLength": 1},
-              "identitySignals": {"type": "array", "items": {"type": "string", "minLength": 1}}
-            }
+              "identitySignals": {"type": "array", "items": {"type": "string", "minLength": 1}},
+              "capture": {
+                "type": "object",
+                "required": ["captureType", "sourcePageUrl", "boundingBox", "viewport"],
+                "properties": {
+                  "captureType": {"const": "clipped_image_container"},
+                  "sourcePageUrl": {"type": "string", "format": "uri"},
+                  "boundingBox": {
+                    "type": "object",
+                    "required": ["x", "y", "width", "height"],
+                    "properties": {
+                      "x": {"type": "number", "minimum": 0},
+                      "y": {"type": "number", "minimum": 0},
+                      "width": {"type": "number", "exclusiveMinimum": 0},
+                      "height": {"type": "number", "exclusiveMinimum": 0}
+                    }
+                  },
+                  "viewport": {
+                    "type": "object",
+                    "required": ["width", "height"],
+                    "properties": {
+                      "width": {"type": "number", "exclusiveMinimum": 0},
+                      "height": {"type": "number", "exclusiveMinimum": 0}
+                    }
+                  },
+                  "selector": {"type": ["string", "null"]},
+                  "elementIndex": {"type": ["integer", "null"]}
+                }
+              }
+                },
+                "allOf": [
+                  {
+                    "if": {"properties": {"method": {"const": "ai_page_element_capture"}}, "required": ["method"]},
+                    "then": {"required": ["capture"], "properties": {"url": {"type": "null"}}},
+                    "else": {"properties": {"url": {"type": "string", "format": "uri"}}}
+                  }
+                ]
+              }
+            ]
           },
           "alternatives": {"type": "array"},
           "warnings": {"type": "array"}

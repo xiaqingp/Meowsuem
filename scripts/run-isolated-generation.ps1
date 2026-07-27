@@ -24,6 +24,17 @@ function Get-Sha256Hex {
         $stream.Dispose()
     }
 }
+function Read-RunnerText {
+    param([Parameter(Mandatory = $true)][string]$LiteralPath)
+    $bytes = [IO.File]::ReadAllBytes($LiteralPath)
+    if ($bytes.Length -ge 2 -and $bytes[0] -eq 0xff -and $bytes[1] -eq 0xfe) {
+        return [Text.Encoding]::Unicode.GetString($bytes, 2, $bytes.Length - 2)
+    }
+    if ($bytes.Length -ge 4 -and (($bytes[1] -eq 0) -or ($bytes[3] -eq 0))) {
+        return [Text.Encoding]::Unicode.GetString($bytes)
+    }
+    return [Text.Encoding]::UTF8.GetString($bytes)
+}
 $runnerStartedAt = [DateTimeOffset]::Now
 $modelStartedAt = $null
 $modelCompletedAt = $null
@@ -122,12 +133,14 @@ if ($manifest -and [string]$header.stage -eq 'author') {
 if ($manifest -and [string]$header.stage -eq 'image_disambiguation') {
     $inputContract = $manifest.stageInputContracts.imageDisambiguation
     if (-not $inputContract) { throw 'manifest is missing the image disambiguation input contract' }
+    $twoLevelImageResearch = [string]$header.imageResearchMode -in @('two_level', 'page_selection_v2')
+    $requiredImageRoles = if ($twoLevelImageResearch) { @('image_candidate_packet') } else { @($inputContract.requiredRoles) }
     $roles = @($header.allowedInputs | ForEach-Object { [string]$_.role })
-    foreach ($required in @($inputContract.requiredRoles)) {
+    foreach ($required in $requiredImageRoles) {
         if (@($roles | Where-Object { $_ -eq $required }).Count -ne 1) { throw "image disambiguation requires exactly one $required input" }
     }
     foreach ($role in $roles) {
-        if (@($inputContract.requiredRoles) -notcontains $role) { throw "undeclared image disambiguation input role: $role" }
+        if ((@($inputContract.requiredRoles) + @('image_candidate_packet')) -notcontains $role) { throw "undeclared image disambiguation input role: $role" }
     }
 }
 
@@ -227,10 +240,12 @@ if ($manifest -and [string]$header.pipelineVersion -eq [string]$manifest.pipelin
     }
     foreach ($imageWork in $imageWorks) {
         $imageCandidates = @($imageWork.candidates)
-        if ($imageCandidates.Count -lt 2 -or $imageCandidates.Count -gt [int]$inputContract.maxCandidatesPerWork) {
+        $minimumCandidates = if ([string]$header.imageResearchMode -in @('two_level', 'page_selection_v2')) { 0 } else { 2 }
+        if ($imageCandidates.Count -lt $minimumCandidates -or $imageCandidates.Count -gt [int]$inputContract.maxCandidatesPerWork) {
             throw 'each image disambiguation work must have two to five candidates'
         }
         foreach ($candidate in $imageCandidates) {
+            if ([string]$header.imageResearchMode -in @('two_level', 'page_selection_v2') -and [string]::IsNullOrWhiteSpace([string]$candidate.localPath)) { continue }
             $candidatePath = [IO.Path]::GetFullPath((Join-Path $project ([string]$candidate.localPath)))
             if (-not $candidatePath.StartsWith($project + [IO.Path]::DirectorySeparatorChar, [StringComparison]::OrdinalIgnoreCase)) {
                 throw 'image candidate escaped project root'
@@ -262,13 +277,25 @@ if ($ValidateOnly) {
 }
 
 if (-not $RecordOutputsOnly) {
-    $fixedInstruction = @'
+    $fixedInstruction = if ([string]$header.imageResearchMode -eq 'page_selection_v2') { @'
+You are executing Meowseum's page-image selection retry stage. The runner has validated a locked packet containing the exact failed works, their source pages, and mechanically enumerated page-image candidates. For every work, inspect the supplied source page with web tools when useful, then select exactly one candidateId from that work's candidate list. A sourcePageUrl is a web page, not an image; never return it as imageUrl. Select a direct_image candidate only when its candidate URL is a concrete image resource. If the best evidence is a uniquely identifiable page image element, select candidateType page_image_element and still return its candidateId. Use imageRole object_view for a direct view of the work, installation_view for a room-scale installation view, context_view or architecture_view for context, museum_only only when the image is only a generic museum image (the code will reject it for an object). Do not invent candidate IDs or URLs.
+
+Return exactly one JSON object and nothing else:
+{"schemaVersion":2,"works":[{"workId":"...","status":"candidate_found|not_found","sourcePageUrl":"...","selectedImage":{"candidateId":"...","imageUrl":"...","candidateType":"direct_image|page_image_element","imageRole":"object_view|installation_view|context_view|architecture_view|museum_only|unknown","caption":"...","identityEvidence":["..."],"confidence":0.0},"alternatives":[],"limitations":[]}]}
+Use not_found when no candidate is identity-bound enough. Do not return local paths, SHA-256, accepted status, or production metadata. The code will re-open the source page and verify the candidateId and image bytes.
+'@ } elseif ([string]$header.imageResearchMode -eq 'two_level') { @'
+You are executing Meowseum's two-level image research stage. The runner has validated the locked run header and image candidate packet. For every listed work, first use the supplied official URL and then search the web when the official page is a group or context page. You may inspect public museum, artist/foundation, Wikidata, Wikimedia Commons, and reputable publication pages. Do not read local files other than image paths explicitly listed in the packet. Do not use conversation history, memory, old research, old prose, or old image mappings.
+
+Return exactly one JSON object and nothing else:
+{"schemaVersion":1,"works":[{"workId":"...","status":"candidate_found|not_found","selectedCandidate":{"imageUrl":"...","sourcePageUrl":"...","sourceType":"official_museum|official_press|artist_foundation|wikimedia|publication|other","caption":"...","identityEvidence":["..."],"confidence":0.0},"alternatives":[],"limitations":[]}]}
+Use candidate_found only when the image is plausibly bound to this exact work (or clearly to a museum-level architecture/context item). Never invent an image URL. Use not_found when identity evidence is insufficient. Do not return localPath, SHA-256, production-ready, or accepted status.
+'@ } else { @'
 You are executing Meowseum canonical isolated generation. The standard runner has already validated the paths and SHA-256 hashes outside the model, and has loaded the run header and locked inputs exactly once in this message.
 
 Use only the run header and locked inputs in this message. Do not read, search, or enumerate any local file. During image_disambiguation only, you may inspect the exact local image candidate paths enumerated in the locked image_candidate_packet with the image-viewing tool; no other local files are allowed. Do not use conversation history, memory, skills, old research, old prose, or old image mappings. This is a content-production task, not a coding task.
 
 Follow the stage in the run header exactly. The museum_scope, museum_candidate_pool, compact_planning_research and deep_planning_research stages may use the web, but must query in batches and stop when the canonical stopping conditions are met. The image_disambiguation, museum_selection, museum_structure and legacy author stages must use only their locked evidence inputs and must not use the web. Create only the files listed in run header.outputs, preferably in one write. After writing, do not reread outputs, print a full diff, recompute hashes, or run a reviewer; the runner performs mechanical checks externally.
-'@
+'@ }
 
     $prompt = "$fixedInstruction`n<run-header>`n$headerText`n</run-header>`n$($blocks -join "`n")"
     $codex = (Get-Command codex.cmd -ErrorAction Stop).Source
@@ -305,10 +332,46 @@ Follow the stage in the run header exactly. The museum_scope, museum_candidate_p
         $ErrorActionPreference = $oldErrorActionPreference
     }
 
-    $logText = [IO.File]::ReadAllText($resolvedLog, [Text.Encoding]::UTF8)
+    $logText = Read-RunnerText -LiteralPath $resolvedLog
     $tokenMatches = [Text.RegularExpressions.Regex]::Matches($logText, 'tokens used\s*(?:\r?\n)+\s*([\d,]+)', [Text.RegularExpressions.RegexOptions]::IgnoreCase)
     if ($tokenMatches.Count -lt 1) { throw 'runner log is missing token usage' }
     $totalTokens = [int64](($tokenMatches[$tokenMatches.Count - 1].Groups[1].Value -replace ',', ''))
+}
+
+# Two-level image research asks for a single JSON response. Codex may print that
+# response instead of writing the declared file; promote only the exact image
+# research envelope, never arbitrary log text.
+if ([string]$header.imageResearchMode -in @('two_level','page_selection_v2')) {
+    $expectedImageWorks = 0
+    try { $expectedImageWorks = @((($imageCandidatePacketText | ConvertFrom-Json).works)).Count } catch { $expectedImageWorks = 0 }
+    foreach ($output in $outputPaths) {
+        if ([IO.File]::Exists($output.FullPath) -or [string]$output.Name -ne 'image-decisions.json') { continue }
+        $jsonLog = Read-RunnerText -LiteralPath $resolvedLog
+        $tokenMarker = $jsonLog.IndexOf('tokens used', [StringComparison]::OrdinalIgnoreCase)
+        if ($tokenMarker -gt 0) { $jsonLog = $jsonLog.Substring(0, $tokenMarker) }
+        $matches = [Text.RegularExpressions.Regex]::Matches($jsonLog, '(?s)\{\s*"schemaVersion"\s*:\s*[12]\s*,\s*"works"')
+        for ($index = $matches.Count - 1; $index -ge 0; $index--) {
+            $start = $matches[$index].Index
+            $candidateJson = $jsonLog.Substring($start).Trim()
+            # Codex may append a short non-JSON marker after the envelope. Try
+            # progressively shorter suffixes, always ending on a closing brace,
+            # without accepting arbitrary surrounding log text.
+            $closing = $candidateJson.LastIndexOf('}')
+            while ($closing -gt 0) {
+                $attempt = $candidateJson.Substring(0, $closing + 1)
+                try {
+                    $candidateObject = $attempt | ConvertFrom-Json
+                    if ($candidateObject.works -and @($candidateObject.works).Count -gt 0 -and ($expectedImageWorks -eq 0 -or @($candidateObject.works).Count -eq $expectedImageWorks)) {
+                        [IO.File]::WriteAllText($output.FullPath, ($candidateObject | ConvertTo-Json -Depth 20), [Text.UTF8Encoding]::new($false))
+                        break
+                    }
+                }
+                catch { }
+                $closing = $candidateJson.LastIndexOf('}', $closing - 1)
+            }
+            if ([IO.File]::Exists($output.FullPath)) { break }
+        }
+    }
 }
 
 $recordedOutputs = foreach ($output in $outputPaths) {

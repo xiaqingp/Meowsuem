@@ -155,6 +155,14 @@
 - Cause：图片只被当成发布资源，没有在作品身份锁定后形成可验证的证据产物；文件门也一度错误地从项目根而非候选根检查新图片。
 - Fix：Pipeline 2.8.0 先生成 `verified-image-evidence.json`，真实浏览器核对官方对象页身份、下载图片并保存尺寸与哈希；研究和组装只消费这份证据。只有多候选冲突时才调用隔离的 Luna medium。
 - Prevention：未来每件直接视觉观察必须引用图片证据 ID；组装不得重新搜索图片，也不得读取旧图片映射。候选发布门必须从候选目录验证本地资源，真实浏览器仍逐张确认解码。
+
+## 2026-07-26 - 页面图片不能等同于作品图片
+
+- Issue：地中美术馆《Time/Timeless/No Time》等页面曾把 Google Arts & Culture 的网页界面一起截进作品图。
+- Cause：页面候选是动态 `blob:` 图片时，旧逻辑截取 `<img>` 外框；该外框大于可见作品容器，导航和控件随之进入截图。
+- Fix：页面元素捕获统一调用 `scripts/lib/page-image-capture.mjs`，只裁剪最近的可见图片容器，隐藏重叠控件，并记录 `captureType=clipped_image_container`、边界框和视口。
+- Prevention：整页截图、原始 `<img>` 截图、来源网页 URL 和缺少捕获证据的图片均不得进入 locked metadata 或发布；回归测试必须检查共享 helper，而不是只检查某个馆的结果。
+- Affected docs：`research/generation-pipeline.md`、`research/README.md`、Pipeline 2.11.6。
 ## 2026-07-24 - M28.9 通用整馆收尾
 
 - Issue: Pipeline 在 mechanical output 之后仍依赖维也纳、地中等馆专用 builder，新馆会重复写装配代码。
@@ -202,3 +210,18 @@
 - Cause: 路径规则只写在文档和各脚本局部判断中，没有统一的 run identity、descriptor、生命周期与 root hygiene 门。
 - Fix: Pipeline 2.9.0 引入 filesystem contract v1、唯一 Node 路径模块、run creator、validator、迁移 inventory/plan/result，以及覆盖路径逃逸、身份漂移和 immutable 写入的正反测试。
 - Prevention: 新 run 只能由 creator 创建；Milestone 只进入 metadata；canonical writer 只接收 `kind + museum/case + runId`，所有路径由同一 contract 计算。历史证据可以保留旧路径，但 archive 不能成为运行时 fallback。
+
+## 2026-07-26 - 图片综合页失败后必须立即转 AI
+
+- Issue: 地中美术馆的官方综合页无法把 10 件作品绑定到单件图片，旧 resolver 却把同一张 museum hero 标成 10 件 accepted。
+- Cause: 旧流程把 provider 解析、候选歧义和 placeholder 兜底混在一起，并且只有已有 2–5 个本地候选时才调用模型。
+- Fix: 新增通用 two-level image mode；快速路径只接受作品级高置信度身份与图片绑定，否则每件 unresolved 进入一次 Luna Medium image research；代码独立负责下载、安全、尺寸、SHA 和重复图 gate。
+- Prevention: `museum_hero_placeholder` 不再是作品 accepted 状态；普通作品无可靠图片只能是 `object_image_unresolved`，建筑／馆级节点单独使用 `context_image_accepted`。
+- Affected docs: `scripts/resolve-museum-image-evidence.mjs`, `scripts/resolve-two-level-image-evidence.mjs`, `scripts/schemas/verified-image-evidence.schema.json`, `coho_museum/Milestones.md`
+
+## 2026-07-26 - 隔离图片 runner 必须兼容 stdout JSON 与 Windows 日志编码
+
+- Issue: Luna 按合同把图片研究 JSON 打到 stdout，旧 runner 只等待文件；PowerShell Tee 日志还可能是 UTF-16，导致有效结果被误报为缺少 output。
+- Cause: image stage 的文件写入假设没有覆盖 one-shot JSON 响应模式，日志读取也固定使用 UTF-8。
+- Fix: two-level mode 允许无本地候选、允许 web research，并从严格的 `schemaVersion/works` envelope 提取 stdout；runner 自动识别 UTF-16 / UTF-8 日志。原始 runner log 保留，token usage 继续记录。
+- Prevention: 新模型 stage 必须同时测试“模型写文件”和“模型 stdout JSON”两条结果通道，且不得把任意日志文本当作 JSON。

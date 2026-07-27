@@ -97,3 +97,10 @@ node scripts/test-author-input-regression.mjs
 - Boundary: 不读取旧 `asset-cache.json` 或旧网页图片映射。浏览器与确定性身份信号可以无歧义确认时为 0 模型；只有最多 5 个候选互相冲突时才用隔离的 `gpt-5.6-luna` medium，输出一件作品一项决定。
 - Seattle test: 当前官方对象页 20/20 自动确认，20 个 URL、20 个哈希均唯一，0 占位；主站 8094 的 20 张图片逐一用浏览器打开成功，4 个代表性深链通过。
 - Cost: Seattle 图片解析 40.696 秒、0 模型、0 token；通用组装、验证与发布 2.741 秒。Luna 备用合同测试单独为 1 次、17,381 token、21.494 秒，不计入 Seattle 生成成本。
+
+## 2026-07-26 - 两级图片解析 v1
+
+- Fact: `scripts/resolve-museum-image-evidence.mjs --two-level` 先访问每件作品的锁定 officialObjectUrl，只有页面身份和图片绑定同时达到高置信度才走 fast path；否则立即交给 `gpt-5.6-luna` medium。
+- Boundary: AI 只能返回候选 URL、来源页和身份依据；最终状态、下载、MIME、magic bytes、尺寸、SHA-256、重复图片和 context/object policy 都由代码决定。museum hero 不得伪装成作品图。
+- Chichu experiment: `research/runs/experiment/chichu-image-resolution-agent-test/20260726T200000Z-p2.11.5` 只读继承 `20260726T165828Z-p2.11.4` 的四份上游文件；10 件均未通过综合馆页 fast path，使用 1 次 Luna Medium，最终 4 件 object image、1 件 context image、5 件 unresolved。
+- Local publish: 8096 仅消费这 4 件作品图、1 件建筑 context 图和 5 个 unresolved 状态；未解析作品显示“暂无可靠作品图”，不回退为 museum hero。

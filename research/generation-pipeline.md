@@ -160,6 +160,22 @@ a changed image hash is a hard failure.
 `museum_hero_placeholder` is allowed when no reliable work image exists. It is
 not sent to Luna as a work image and cannot support visual analysis.
 
+When a provider returns an HTML source page instead of an image, the
+failed-image retry is isolated to `scripts/retry-failed-image-evidence.mjs`.
+It reuses the parent run's locked upstream artifacts and retries only failed
+image records. Playwright enumerates concrete image resources and uniquely
+identified page image elements; Luna Medium selects a `candidateId` and an
+`imageRole`. Code then reopens the exact page, validates that candidate, and
+downloads the resource or calls the shared
+`scripts/lib/page-image-capture.mjs` helper. Element capture always clips the
+nearest visible image container, hides overlapping page controls, records
+`captureType=clipped_image_container` plus its bounding box, and never uses a
+full-page or raw-element screenshot. A source-page URL can never be accepted
+as an image URL. Accepted parent images are referenced by hash and are not
+rerun; the retry never runs museum research, selection, structure, writing,
+assembly or publishing stages. Any capture without this evidence is rejected
+before locked metadata.
+
 ## 6. Locked metadata and one-shot writing
 
 `scripts/prepare-one-shot-work-inputs.mjs` creates:

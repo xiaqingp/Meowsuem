@@ -66,3 +66,5 @@ node scripts/create-generation-run.mjs --kind=regression --case=filesystem-contr
 馆级评分在写馆介和逐件正文前由 `scripts/process-museum-rating.mjs` 检查证据表、档位、档内锚点、独立珍品线和重复计数；失败时不得继续下游。
 
 新馆入口是 `scripts/run-museum-pipeline.mjs`。普通馆级 planning research 使用 Luna High compact evidence；高风险对象使用 Sol Medium deep dossier；Selection 保持 Sol Medium，Structure 使用 Luna High。`scripts/prepare-one-shot-work-inputs.mjs` 从权威上游生成 locked metadata 后，`scripts/run-one-shot-work.mjs` 让 Luna High 只读取 locked metadata、已验证作品图和 canonical one-shot prompt，自主搜索并直接输出 article 与 sources。旧 Research Card、Writing Plan 与 Author bundle 只解释历史 run，不是新 run fallback。
+
+图片源页面返回 HTML 时，只能建立隔离的 failed-image retry run；使用 `scripts/retry-failed-image-evidence.mjs --allow-model=true`，由页面候选 `candidateId` 驱动 Luna Medium 选择，再由代码验证下载或调用共享 `scripts/lib/page-image-capture.mjs`。页面元素只能截取最近的可见图片容器，记录 `clipped_image_container` 证据并隐藏重叠控件；整页截图、原始 `<img>` 外框截图和来源网页 URL 都会被拒绝。该 retry 不运行任何馆级研究、选品、结构、写作、组装或发布阶段。

@@ -1,0 +1,51 @@
+{
+  "id": "PCR-2026-07-26-image-capture-contract",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-26",
+  "ownerInstruction": "Update the shared image pipeline so webpage screenshots cannot be published as artwork images, publish Chichu to the formal local site, upload the related changes, and close the test port.",
+  "baseRelease": "research/pipeline/releases/v2.11.5.json",
+  "targetVersion": "2.11.6",
+  "implementationStatus": "completed",
+  "scope": [
+    "shared clipped page-image capture helper",
+    "capture evidence schema and mechanical guard",
+    "two-level image resolver and isolated image runner integration",
+    "unresolved-image frontend rendering and museum alias compatibility",
+    "future-museum image retry documentation",
+    "Chichu formal-site publication",
+    "test-port shutdown"
+  ],
+  "outOfScope": [
+    "rewriting museum prose",
+    "changing museum scores",
+    "changing work selection or routes",
+    "new museum-specific image selectors",
+    "production-wide content regeneration"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/schemas/verified-image-evidence.schema.json",
+    "scripts/lib/page-image-capture.mjs",
+    "scripts/retry-failed-image-evidence.mjs",
+    "scripts/run-isolated-generation.ps1",
+    "scripts/resolve-museum-image-evidence.mjs",
+    "scripts/verify-content-pipeline.mjs",
+    "museum-app.js",
+    "museum.html"
+  ],
+  "verification": {
+    "status": "passed",
+    "commands": [
+      "node --check scripts/lib/page-image-capture.mjs",
+      "node --check scripts/retry-failed-image-evidence.mjs",
+      "node scripts/test-retry-failed-image-evidence.mjs",
+      "node scripts/test-two-level-image-resolution.mjs",
+      "node scripts/test-image-providers.mjs",
+      "node scripts/test-image-url-safety.mjs",
+      "node scripts/test-image-disambiguation-contract.mjs",
+      "node scripts/test-future-museum-contract.mjs",
+      "node scripts/verify-content-pipeline.mjs"
+    ]
+  }
+}
