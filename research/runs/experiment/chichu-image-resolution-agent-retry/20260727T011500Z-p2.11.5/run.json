@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "filesystemContractVersion": 1,
+  "runKind": "experiment",
+  "runId": "20260727T011500Z-p2.11.5",
+  "caseId": "chichu-image-resolution-agent-retry",
+  "milestone": "M31",
+  "pipelineVersion": "2.11.5",
+  "instructionVersion": "2.4.0",
+  "status": "verified",
+  "createdAt": "2026-07-27T01:15:00.000Z",
+  "createdBy": "scripts/create-generation-run.mjs",
+  "layoutVersion": 1,
+  "immutable": false,
+  "contentContract": "one_shot_v1",
+  "allowLegacyAuthorBundles": false,
+  "legacyWorkIds": [],
+  "legacyImageResolutionAllowed": false,
+  "updatedAt": "2026-07-27T04:37:34.712Z",
+  "parentRunId": "20260726T200000Z-p2.11.5",
+  "parentRunRoot": "research/runs/experiment/chichu-image-resolution-agent-test/20260726T200000Z-p2.11.5",
+  "retryPolicy": "failed_images_only",
+  "imageStageStatus": "mechanical_image_stage_completed",
+  "retriedWorks": [
+    "walter-de-maria-time-timeless-no-time-2004",
+    "claude-monet-water-lilies-1914-1917",
+    "james-turrell-open-field-2000",
+    "james-turrell-afrum-pale-blue-1968",
+    "james-turrell-open-sky-2004"
+  ],
+  "previousAcceptedPreserved": [
+    "claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919",
+    "claude-monet-water-lily-pond-1917-1919",
+    "claude-monet-water-lilies-cluster-of-grass-1914-1917",
+    "claude-monet-water-lily-pond-c-1915-1926",
+    "chichu-art-museum-underground-architecture-and-site-context"
+  ],
+  "modelCalls": 1,
+  "modelTokens": 18601,
+  "webSearchCount": 4
+}

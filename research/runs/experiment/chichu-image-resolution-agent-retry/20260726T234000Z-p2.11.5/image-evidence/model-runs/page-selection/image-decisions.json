@@ -1,0 +1,76 @@
+{
+    "schemaVersion":  2,
+    "works":  [
+                  {
+                      "workId":  "walter-de-maria-time-timeless-no-time-2004",
+                      "status":  "not_found",
+                      "sourcePageUrl":  "https://artsandculture.google.com/asset/%E2%80%9Ctime-timeless-no-time%E2%80%9D-2004-walter-de-maria-chichu-art-museu\r\nm-tadao-ando/EwEmdBYaTmcp3g?hl=en",
+                      "selectedImage":  null,
+                      "alternatives":  [
+
+                                       ],
+                      "limitations":  [
+                                          "Supplied candidates are \r\ngeneric app assets or unrelated artwork images; none is identity-bound to Time/Timeless/No Time."
+                                      ]
+                  },
+                  {
+                      "workId":  "claude-\r\nmonet-water-lilies-1914-1917",
+                      "status":  "not_found",
+                      "sourcePageUrl":  "https://commons.wikimedia.org/wiki/File:Monet-Water\r\n-lilies-Chichu-museum.tif",
+                      "selectedImage":  null,
+                      "alternatives":  [
+
+                                       ],
+                      "limitations":  [
+                                          "Supplied candidates include a \r\ngeneric museum exterior and an artist portrait, but no image of the specified Water Lilies painting."
+                                      ]
+                  },
+                  {
+                      "workId":  "jame\r\ns-turrell-open-field-2000",
+                      "status":  "not_found",
+                      "sourcePageUrl":  "https://artsandculture.google.com/asset/open-field-200\r\n0-james-turrel-chichu-art-museum-tadao-ando/1QEVcCgYYo-G8g?hl=en",
+                      "selectedImage":  null,
+                      "alternatives":  [
+
+                                       ],
+                      "limitations":  [
+                                          "Supplied candidates are generic app assets or unrelated artwork images; none is identity-bound to Open Field."
+                                      ]
+                  },
+                  {
+                      "wo\r\nrkId":  "james-turrell-afrum-pale-blue-1968",
+                      "status":  "candidate_found",
+                      "sourcePageUrl":  "https://unpointculture.wordpress\r\n.com/2016/02/16/larchitecture-comme-paysage-et-lieu-de-loeuvre-tadao-ando-au-chichu-art-museum-de-naoshima/images-1-2/",
+                      "selectedImage":  {
+                                            "candidateId":  "page-image-004",
+                                            "imageUrl":  "https://unpointculture.wordpress.com/wp-content/uploads/20\r\n16/02/images-1.jpeg",
+                                            "candidateType":  "direct_image",
+                                            "imageRole":  "object_view",
+                                            "caption":  "James Turrell, ‘Afrum, Pale \r\nBlue’, 1968 © Fujitsuka Mitsumasa, image courtesy of Chichu Art Museum",
+                                            "identityEvidence":  [
+                                                                     "Source page title \r\nexplicitly identifies James Turrell’s ‘Afrum, Pale Blue’, 1968.",
+                                                                     "Candidate is the visible article image and its \r\nnearby caption identifies the work."
+                                                                 ],
+                                            "confidence":  0.99
+                                        },
+                      "alternatives":  [
+
+                                       ],
+                      "limitations":  [
+
+                                      ]
+                  },
+                  {
+                      "workId":  "james-turrell-o\r\npen-sky-2004",
+                      "status":  "not_found",
+                      "sourcePageUrl":  "https://artsandculture.google.com/asset/chichu-art-museum-naoshima-\r\narchitect-tadao-ando-james-turrell-and-photographer-john-barr/7QHAAu509lZDSw",
+                      "selectedImage":  null,
+                      "alternatives":  [
+
+                                       ],
+                      "l\r\nimitations":  [
+                                              "Supplied candidates are generic app assets or unrelated artwork images; none is identity-bound to Open \r\nSky."
+                                          ]
+                  }
+              ]
+}

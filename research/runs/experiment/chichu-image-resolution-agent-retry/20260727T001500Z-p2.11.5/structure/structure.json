@@ -1,0 +1,173 @@
+{
+  "schemaVersion": "2.11.4",
+  "museumId": "chichuartmuseum",
+  "museum": {
+    "name": "地中美术馆",
+    "nameEn": "Chichu Art Museum",
+    "city": "直岛 / Naoshima",
+    "country": "日本 / Japan",
+    "score": 79,
+    "scoreBand": "70–79 · 可去可不去",
+    "quickConclusion": "这是一座值得为作品—建筑—自然光关系专程安排、但不应仅为稀世名作绕行的紧凑型美术馆；若已到直岛，建议预留至少半天并提前确认预约与开放状态。",
+    "specialBecause": "馆舍几乎全部埋入地下，莫奈五幅晚年《睡莲》、德·玛利亚的房间尺度装置和特瑞尔三件光作品，分别把自然光、建筑空间与观看时间纳入作品经验。",
+    "limits": "评分由三条完整而有场域特征的常设收藏线支撑，但本轮没有通过稀世珍品硬门；馆藏规模小，作品可见性受指定时段预约、当日运营、自然光和特瑞尔日落项目条件影响。",
+    "timeAdvice": "90分钟抓住建筑语境、莫奈双联画、德·玛利亚和Open Sky；半天加入莫奈组内节点与特瑞尔年代序列；完整浏览覆盖十个结构条目。Open Sky的Night Program须单独预约，不能默认并入普通路线。"
+  },
+  "chapters": [
+    {
+      "id": "ch-01",
+      "number": 1,
+      "title": "为什么这座馆要把自己藏进地下？",
+      "intro": "先把地中美术馆当作一条观看条件来理解：安藤忠雄的地下建筑、几何空间和自然光不是作品之外的背景，而是连接三位艺术家常设展示的馆级语境。",
+      "workIds": [
+        "chichu-art-museum-underground-architecture-and-site-context"
+      ]
+    },
+    {
+      "id": "ch-02",
+      "number": 2,
+      "title": "莫奈的《睡莲》为什么要在一间专门展室里看？",
+      "intro": "五幅晚年《睡莲》应作为一个常设组观看。先看促成馆舍的2×6米双联画，再用其余作品的题名、年代和尺寸差异理解同一水园主题如何在自然光中展开；不要把组展价值误写成单件稀有性。",
+      "workIds": [
+        "claude-monet-water-lily-pond-c-1915-1926",
+        "claude-monet-water-lilies-cluster-of-grass-1914-1917",
+        "claude-monet-water-lilies-1914-1917",
+        "claude-monet-water-lily-pond-1917-1919",
+        "claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919"
+      ]
+    },
+    {
+      "id": "ch-03",
+      "number": 3,
+      "title": "当雕塑变成一间房，时间怎样进入作品？",
+      "intro": "德·玛利亚的作品不能拆成一颗球或一组金色几何体：球体、27件镀金木质形体、东西向房间和天窗自然光共同构成一个随时刻改变的空间。",
+      "workIds": [
+        "walter-de-maria-time-timeless-no-time-2004"
+      ]
+    },
+    {
+      "id": "ch-04",
+      "number": 4,
+      "title": "特瑞尔如何让光从照明变成观看对象？",
+      "intro": "按1968、2000、2004的年代推进观看三件特瑞尔作品：从投影光的早期空间实验，经过人工光构成的空间，再到把天空和建筑开口纳入作品的Open Sky。三件作品的价值来自现场序列，不等于完整生涯回顾。",
+      "workIds": [
+        "james-turrell-afrum-pale-blue-1968",
+        "james-turrell-open-field-2000",
+        "james-turrell-open-sky-2004"
+      ]
+    },
+    {
+      "id": "ch-05",
+      "number": 5,
+      "title": "同一座馆，为什么必须按时间和状态来安排？",
+      "intro": "地中美术馆的观看效果不能完全预先固定：自然光随时刻、天气和季节变化，入馆需指定日期与时段预约，Open Sky的日落Night Program又有独立票务和观看边界。因此路线应按当日开放信息调整，而不是当作实时导航清单。",
+      "workIds": [
+        "chichu-art-museum-underground-architecture-and-site-context",
+        "james-turrell-open-sky-2004"
+      ]
+    }
+  ],
+  "routes": {
+    "90": {
+      "title": "90分钟：先看决定性关系",
+      "note": "按建筑语境进入，优先看莫奈双联画、德·玛利亚和Open Sky；主动跳过莫奈组内其余四幅与Afrum、Open Field的深入对照。Open Sky按普通开放时段安排，日落项目另计且不可默认使用。",
+      "workIds": [
+        "chichu-art-museum-underground-architecture-and-site-context",
+        "claude-monet-water-lily-pond-c-1915-1926",
+        "walter-de-maria-time-timeless-no-time-2004",
+        "james-turrell-open-sky-2004"
+      ]
+    },
+    "half": {
+      "title": "半天：看懂三条收藏线",
+      "note": "保留建筑语境，完整观看莫奈双联画并加入一件组内对照；德·玛利亚完整停留；特瑞尔按年代看三件。其余三幅莫奈作品留给完整浏览，避免在小馆址内把同一组作品看成重复打卡。",
+      "workIds": [
+        "chichu-art-museum-underground-architecture-and-site-context",
+        "claude-monet-water-lily-pond-c-1915-1926",
+        "claude-monet-water-lilies-cluster-of-grass-1914-1917",
+        "walter-de-maria-time-timeless-no-time-2004",
+        "james-turrell-afrum-pale-blue-1968",
+        "james-turrell-open-field-2000",
+        "james-turrell-open-sky-2004"
+      ]
+    },
+    "all": {
+      "title": "完整浏览：十个条目的连续观看",
+      "note": "覆盖建筑语境、五幅莫奈、德·玛利亚和三件特瑞尔。应依馆方当日动线与开放状态分配停留；五幅莫奈连续比较题名、年代和尺寸，特瑞尔按1968—2000—2004推进。若参加Open Sky日落Night Program，须先完成其他作品并以当日项目规则为准。",
+      "workIds": [
+        "chichu-art-museum-underground-architecture-and-site-context",
+        "claude-monet-water-lily-pond-c-1915-1926",
+        "claude-monet-water-lilies-cluster-of-grass-1914-1917",
+        "claude-monet-water-lilies-1914-1917",
+        "claude-monet-water-lily-pond-1917-1919",
+        "claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919",
+        "walter-de-maria-time-timeless-no-time-2004",
+        "james-turrell-afrum-pale-blue-1968",
+        "james-turrell-open-field-2000",
+        "james-turrell-open-sky-2004"
+      ]
+    }
+  },
+  "works": [
+    {
+      "workId": "chichu-art-museum-underground-architecture-and-site-context",
+      "sectionId": "ch-01",
+      "stay": "8—12分钟",
+      "routeRole": ["museum_context", "route_anchor"]
+    },
+    {
+      "workId": "claude-monet-water-lily-pond-c-1915-1926",
+      "sectionId": "ch-02",
+      "stay": "12—15分钟",
+      "routeRole": ["absolute_must_see", "collection_anchor"]
+    },
+    {
+      "workId": "claude-monet-water-lilies-cluster-of-grass-1914-1917",
+      "sectionId": "ch-02",
+      "stay": "6—8分钟",
+      "routeRole": ["collection_depth", "group_comparison"]
+    },
+    {
+      "workId": "claude-monet-water-lilies-1914-1917",
+      "sectionId": "ch-02",
+      "stay": "5—7分钟",
+      "routeRole": ["collection_depth", "group_comparison"]
+    },
+    {
+      "workId": "claude-monet-water-lily-pond-1917-1919",
+      "sectionId": "ch-02",
+      "stay": "5—7分钟",
+      "routeRole": ["collection_depth", "group_comparison"]
+    },
+    {
+      "workId": "claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919",
+      "sectionId": "ch-02",
+      "stay": "5—7分钟",
+      "routeRole": ["collection_depth", "group_comparison"]
+    },
+    {
+      "workId": "walter-de-maria-time-timeless-no-time-2004",
+      "sectionId": "ch-03",
+      "stay": "12—15分钟",
+      "routeRole": ["absolute_must_see", "site_specific_anchor"]
+    },
+    {
+      "workId": "james-turrell-afrum-pale-blue-1968",
+      "sectionId": "ch-04",
+      "stay": "7—10分钟",
+      "routeRole": ["strongly_recommended", "sequence_start"]
+    },
+    {
+      "workId": "james-turrell-open-field-2000",
+      "sectionId": "ch-04",
+      "stay": "8—10分钟",
+      "routeRole": ["strongly_recommended", "sequence_middle"]
+    },
+    {
+      "workId": "james-turrell-open-sky-2004",
+      "sectionId": "ch-04",
+      "stay": "10—15分钟；日落项目另计45分钟",
+      "routeRole": ["absolute_must_see", "sequence_end", "time_sensitive"]
+    }
+  ]
+}

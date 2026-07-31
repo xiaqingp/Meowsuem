@@ -1,0 +1,39 @@
+{
+    "runId":  "20260727T005500Z-p2.11.5",
+    "stage":  "image_disambiguation",
+    "museumId":  "",
+    "caseId":  "chichu-image-resolution-agent-retry",
+    "workId":  "",
+    "pipelineVersion":  "2.11.5",
+    "instructionVersion":  "2.4.0",
+    "model":  "gpt-5.6-luna",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-07-26T21:34:42.2929419-07:00",
+    "modelStartedAt":  "2026-07-26T21:34:42.5806917-07:00",
+    "modelCompletedAt":  "2026-07-26T21:35:08.7400357-07:00",
+    "completedAt":  "2026-07-26T21:35:08.8360775-07:00",
+    "runnerDurationMs":  26543,
+    "modelDurationMs":  26159,
+    "tokenUsage":  {
+                       "total":  23257,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+
+                                ],
+    "logPath":  "research/runs/experiment/chichu-image-resolution-agent-retry/20260727T005500Z-p2.11.5/image-evidence/model-runs/page-selection/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/runs/experiment/chichu-image-resolution-agent-retry/20260727T005500Z-p2.11.5/image-evidence/model-runs/page-selection/image-research-packet.json",
+                       "role":  "image_candidate_packet",
+                       "sha256":  "0fe255cc53b661fc152d03236a22c4af3be23b0e40c268f6477ccf503fff02bd"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "image-decisions.json",
+                        "sha256":  "34d1f2a2246db2de88518b13faae611f7e4b0ade5396e2e7f78fcc022a58e58d",
+                        "bytes":  8462
+                    }
+                ]
+}

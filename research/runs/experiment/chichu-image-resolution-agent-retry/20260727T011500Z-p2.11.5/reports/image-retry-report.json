@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "stage": "image_evidence_retry",
+  "runId": "20260727T011500Z-p2.11.5",
+  "runRoot": "research/runs/experiment/chichu-image-resolution-agent-retry/20260727T011500Z-p2.11.5",
+  "parentRunRoot": "research/runs/experiment/chichu-image-resolution-agent-test/20260726T200000Z-p2.11.5",
+  "parentEvidenceSha256": "5c94e936204016b0a38d787f58908a4444a084440b3e6d1e766b83b9aa5ba7f7",
+  "failedWorksRetried": [
+    {
+      "workId": "walter-de-maria-time-timeless-no-time-2004",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "AI candidate download failed: asset is not an allowed image MIME: text/html"
+      ],
+      "sourcePageUrl": "https://artsandculture.google.com/asset/%E2%80%9Ctime-timeless-no-time%E2%80%9D-2004-walter-de-maria-chichu-art-museum-tadao-ando/EwEmdBYaTmcp3g?hl=en"
+    },
+    {
+      "workId": "claude-monet-water-lilies-1914-1917",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "AI candidate download failed: image returned 429"
+      ],
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Monet-Water-lilies-Chichu-museum.tif"
+    },
+    {
+      "workId": "james-turrell-open-field-2000",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "AI candidate download failed: asset is not an allowed image MIME: text/html"
+      ],
+      "sourcePageUrl": "https://artsandculture.google.com/asset/open-field-2000-james-turrel-chichu-art-museum-tadao-ando/1QEVcCgYYo-G8g?hl=en"
+    },
+    {
+      "workId": "james-turrell-afrum-pale-blue-1968",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "AI candidate download failed: asset is not an allowed image MIME: text/html"
+      ],
+      "sourcePageUrl": "https://unpointculture.wordpress.com/2016/02/16/larchitecture-comme-paysage-et-lieu-de-loeuvre-tadao-ando-au-chichu-art-museum-de-naoshima/images-1-2/"
+    },
+    {
+      "workId": "james-turrell-open-sky-2004",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "AI candidate download failed: asset is not an allowed image MIME: text/html"
+      ],
+      "sourcePageUrl": "https://artsandculture.google.com/asset/chichu-art-museum-naoshima-architect-tadao-ando-james-turrell-and-photographer-john-barr/7QHAAu509lZDSw"
+    }
+  ],
+  "newlyAccepted": [
+    {
+      "workId": "walter-de-maria-time-timeless-no-time-2004",
+      "sourcePageUrl": "https://artsandculture.google.com/asset/%E2%80%9Ctime-timeless-no-time%E2%80%9D-2004-walter-de-maria-chichu-art-museum-tadao-ando/EwEmdBYaTmcp3g?hl=en",
+      "imageUrl": null,
+      "localPath": "research/runs/experiment/chichu-image-resolution-agent-retry/20260727T011500Z-p2.11.5/image-evidence/assets/walter-de-maria-time-timeless-no-time-2004.png",
+      "sha256": "5fe26089456994f7cde78c9813b0bc161e9d0c2b86e2e2ddeacaef62dbace9c2",
+      "method": "ai_page_element_capture",
+      "imageRole": "installation_view",
+      "candidateId": "page-image-003"
+    },
+    {
+      "workId": "claude-monet-water-lilies-1914-1917",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Monet-Water-lilies-Chichu-museum.tif",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Monet-Water-lilies-Chichu-museum.tif/lossy-page1-960px-Monet-Water-lilies-Chichu-museum.tif.jpg?_=20181215130906",
+      "localPath": "research/runs/experiment/chichu-image-resolution-agent-retry/20260727T011500Z-p2.11.5/image-evidence/assets/claude-monet-water-lilies-1914-1917.jpg",
+      "sha256": "ef0e3ac441f882365b47736ca1039d16071af5242eabe52a2c4da21e3f8f181b",
+      "method": "ai_page_candidate_download",
+      "imageRole": "object_view",
+      "candidateId": "page-image-001"
+    },
+    {
+      "workId": "james-turrell-open-field-2000",
+      "sourcePageUrl": "https://artsandculture.google.com/asset/open-field-2000-james-turrel-chichu-art-museum-tadao-ando/1QEVcCgYYo-G8g?hl=en",
+      "imageUrl": null,
+      "localPath": "research/runs/experiment/chichu-image-resolution-agent-retry/20260727T011500Z-p2.11.5/image-evidence/assets/james-turrell-open-field-2000.png",
+      "sha256": "ac1b42351d67691d7f65b671a224d93268d75185e527a4708240e2ac0fdf335e",
+      "method": "ai_page_element_capture",
+      "imageRole": "installation_view",
+      "candidateId": "page-image-003"
+    },
+    {
+      "workId": "james-turrell-afrum-pale-blue-1968",
+      "sourcePageUrl": "https://unpointculture.wordpress.com/2016/02/16/larchitecture-comme-paysage-et-lieu-de-loeuvre-tadao-ando-au-chichu-art-museum-de-naoshima/images-1-2/",
+      "imageUrl": "https://unpointculture.wordpress.com/wp-content/uploads/2016/02/images-1.jpeg",
+      "localPath": "research/runs/experiment/chichu-image-resolution-agent-retry/20260727T011500Z-p2.11.5/image-evidence/assets/james-turrell-afrum-pale-blue-1968.jpg",
+      "sha256": "b8c37451e8253d5a3940207784d540088f70090f351a3a47ae1333d928642669",
+      "method": "ai_page_candidate_download",
+      "imageRole": "installation_view",
+      "candidateId": "page-image-002"
+    },
+    {
+      "workId": "james-turrell-open-sky-2004",
+      "sourcePageUrl": "https://artsandculture.google.com/asset/chichu-art-museum-naoshima-architect-tadao-ando-james-turrell-and-photographer-john-barr/7QHAAu509lZDSw",
+      "imageUrl": null,
+      "localPath": "research/runs/experiment/chichu-image-resolution-agent-retry/20260727T011500Z-p2.11.5/image-evidence/assets/james-turrell-open-sky-2004.png",
+      "sha256": "9f3c6dde4c1df1e64226d96d7ae74975ca540b5a09d676dd40709d91a4fa2c77",
+      "method": "ai_page_element_capture",
+      "imageRole": "architecture_view",
+      "candidateId": "page-image-003"
+    }
+  ],
+  "stillUnresolved": [],
+  "counts": {
+    "works": 10,
+    "previousAcceptedPreserved": 5,
+    "retried": 5,
+    "newlyAccepted": 5,
+    "directImageDownloads": 2,
+    "elementCaptures": 3,
+    "objectImageAccepted": 8,
+    "contextImagesAccepted": 2,
+    "unresolved": 0,
+    "duplicateObjectImageGroups": [],
+    "modelCalls": 1,
+    "modelTokens": 18601,
+    "webSearchCount": 4
+  },
+  "model": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium",
+    "calls": 1,
+    "tokens": {
+      "total": 18601,
+      "source": "codex_cli_log"
+    },
+    "webSearchCount": 4
+  },
+  "guarantees": {
+    "acceptedWorksNotRerun": [
+      "claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919",
+      "claude-monet-water-lily-pond-1917-1919",
+      "claude-monet-water-lilies-cluster-of-grass-1914-1917",
+      "claude-monet-water-lily-pond-c-1915-1926",
+      "chichu-art-museum-underground-architecture-and-site-context"
+    ],
+    "nonImageStagesRun": [],
+    "imageGenerationModelUsed": false,
+    "parentRunModified": false,
+    "assemblyNetworkAccess": false,
+    "productionModified": false
+  }
+}

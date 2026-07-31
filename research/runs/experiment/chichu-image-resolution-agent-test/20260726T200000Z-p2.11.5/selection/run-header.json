@@ -1,0 +1,52 @@
+{
+  "runId": "20260726T165828Z-p2.11.4",
+  "startedAt": "2026-07-26T17:15:56.128Z",
+  "stage": "museum_selection",
+  "caseId": "chichu-pipeline-2-11-blind",
+  "pipelineVersion": "2.11.4",
+  "instructionVersion": "2.4.0",
+  "executionProfile": {
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "runner": "scripts/run-isolated-generation.ps1"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "d80ee1c0f28a4f21a26b3d7daefe825812b9007b3208dd80451ae13cee95fc96"
+    },
+    {
+      "path": "research/pipeline/prompts/museum-selection.md",
+      "role": "stage_prompt",
+      "sha256": "af023dc4c27bc28d3e1e0902764d7d7ef517b662b8c73de0601f0993cb1e5baa"
+    },
+    {
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/candidate-pool/candidate-pool.json",
+      "role": "candidate_pool",
+      "sha256": "800feb8492d3cd4fc8422343026c97ef253d52304a9a0ed4f3ffec8e8fe48d35"
+    },
+    {
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/research/planning-index.json",
+      "role": "planning_index",
+      "sha256": "6ee0b12989c689e7ce0ba300b7ed114c99f112d8307e928d9206da62b121d8a4"
+    },
+    {
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/research/batches/compact-01/compact-planning-evidence.json",
+      "role": "compact_planning_evidence",
+      "sha256": "588e581d8a68ad2de9f5745bee31d4d17e9c0422cb8bbafcccdf45cb2059fbc6"
+    },
+    {
+      "path": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/research/batches/deep-01/deep-research-dossier.json",
+      "role": "deep_research_dossier",
+      "sha256": "751dd4ceeada54606fd78043a7ca93852ac2def636851b52edc8f416615f6572"
+    }
+  ],
+  "outputs": [
+    "selection.json",
+    "rating-input.json"
+  ],
+  "reviewer": "disabled",
+  "retry": "explicit_only",
+  "publicationBoundary": "run_only"
+}

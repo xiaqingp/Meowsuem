@@ -1,0 +1,609 @@
+{
+  "schemaVersion": 2,
+  "stage": "image_page_selection_retry",
+  "museumId": "chichuartmuseum",
+  "parentEvidencePath": "research/runs/experiment/chichu-image-resolution-agent-test/20260726T200000Z-p2.11.5/image-evidence/verified-image-evidence.json",
+  "parentEvidenceSha256": "5c94e936204016b0a38d787f58908a4444a084440b3e6d1e766b83b9aa5ba7f7",
+  "works": [
+    {
+      "workId": "walter-de-maria-time-timeless-no-time-2004",
+      "identity": {
+        "museumId": "chichuartmuseum",
+        "workId": "walter-de-maria-time-timeless-no-time-2004",
+        "objectType": "room_scale_installation",
+        "titleZh": "时间／无时／无时间",
+        "titleEn": "Time/Timeless/No Time",
+        "creator": "Walter De Maria / 沃尔特·德·玛利亚",
+        "artistOrCulture": "Walter De Maria / 沃尔特·德·玛利亚",
+        "displayDate": "2004",
+        "medium": "Granite, mahogany, gold leaf, concrete; sphere and 27 gilded wooden geometric forms",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "accessionNumber": null,
+        "collectionGroup": "Walter De Maria permanent installation",
+        "title": "Time/Timeless/No Time",
+        "identityAnchor": "walter-de-maria-time-timeless-no-time-2004"
+      },
+      "sourcePageUrl": "https://artsandculture.google.com/asset/%E2%80%9Ctime-timeless-no-time%E2%80%9D-2004-walter-de-maria-chichu-art-museum-tadao-ando/EwEmdBYaTmcp3g?hl=en",
+      "page": {
+        "sourcePageUrl": "https://artsandculture.google.com/asset/%E2%80%9Ctime-timeless-no-time%E2%80%9D-2004-walter-de-maria-chichu-art-museum-tadao-ando/EwEmdBYaTmcp3g?hl=en",
+        "finalUrl": "https://artsandculture.google.com/asset/%E2%80%9Ctime-timeless-no-time%E2%80%9D-2004-walter-de-maria-chichu-art-museum-tadao-ando/EwEmdBYaTmcp3g?hl=en",
+        "pageTitle": "“Time/Timeless/No Time” 2004, Walter de Maria / Chichu Art Museum - Tadao Ando — Google Arts & Culture",
+        "bodyText": "Celebrating 15!\nHome\nExplore\nPlay\nNearby\nFavorites\nThe Lab\nSign in\n+\n–\n\nWhere next?\n\nExplore related content\n\n“Time/Timeless/No Time” 2004, Walter de Maria / Chichu Art Museum\nTadao Ando2004\nTadao Ando Architect & Associates\nOsaka, Japan\n\nDetails\n\nTitle: “Time/Timeless/No Time” 2004, Walter de Maria / Chichu Art Museum\nCreator: Tadao Ando\nDate Created: 2004\nLocation: Naoshima, Japan\nType: Architecture\nOriginal Source: \nTadao Ando Architect & Associates\nPhotography: © Mitsuo Matsuoka\nGet the app\n\nExplore museums and play with Art Transfer, Pocket Galleries, Art Selfie, and more\n\nChichu Art Museum\nJapan\nNaoshima\nSymmetry\n\nInterested in Visual arts?\n\nGet updates with your personalized Culture Weekly\n\nNo, thanks\nSign up now\nTranslate with Google",
+        "candidateCount": 34
+      },
+      "candidates": [
+        {
+          "candidateId": "page-image-001",
+          "candidateType": "direct_image",
+          "url": "https://lh3.googleusercontent.com/ci/AL18g_QR0RPLArSyglfg7y-d7UKHg7s78s9pU-BZy0AGzaUw6s1G8hx7D7yjHaBGpKVm2VRKq4gvQgsm",
+          "selector": "div > div > div:nth-of-type(5) > div > header > a > span > img",
+          "alt": "Tadao Ando Architect & Associates",
+          "nearbyText": "Tadao Ando Architect & Associates\nOsaka, Japan",
+          "visible": true,
+          "boundingBox": {
+            "x": 1082,
+            "y": 773,
+            "width": 150,
+            "height": 27
+          },
+          "elementKind": "img",
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://artsandculture.google.com/asset/%E2%80%9Ctime-timeless-no-time%E2%80%9D-2004-walter-de-maria-chichu-art-museum-tadao-ando/EwEmdBYaTmcp3g?hl=en"
+        },
+        {
+          "candidateId": "page-image-002",
+          "candidateType": "direct_image",
+          "url": "https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png",
+          "selector": "div > div > div:nth-of-type(5) > section:nth-of-type(2) > div > div:nth-of-type(1) > a:nth-of-type(1) > img",
+          "alt": "",
+          "nearbyText": "Get the app\n\nExplore museums and play with Art Transfer, Pocket Galleries, Art Selfie, and more",
+          "visible": true,
+          "boundingBox": {
+            "x": 837,
+            "y": 1143,
+            "width": 152,
+            "height": 59
+          },
+          "elementKind": "img",
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://artsandculture.google.com/asset/%E2%80%9Ctime-timeless-no-time%E2%80%9D-2004-walter-de-maria-chichu-art-museum-tadao-ando/EwEmdBYaTmcp3g?hl=en"
+        },
+        {
+          "candidateId": "page-image-003",
+          "candidateType": "direct_image",
+          "url": "https://www.gstatic.com/culturalinstitute/stella/apple-app-store-badge-en.svg",
+          "selector": "div > div > div:nth-of-type(5) > section:nth-of-type(2) > div > div:nth-of-type(1) > a:nth-of-type(2) > img",
+          "alt": "",
+          "nearbyText": "Get the app\n\nExplore museums and play with Art Transfer, Pocket Galleries, Art Selfie, and more",
+          "visible": true,
+          "boundingBox": {
+            "x": 997,
+            "y": 1153,
+            "width": 135,
+            "height": 40
+          },
+          "elementKind": "img",
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://artsandculture.google.com/asset/%E2%80%9Ctime-timeless-no-time%E2%80%9D-2004-walter-de-maria-chichu-art-museum-tadao-ando/EwEmdBYaTmcp3g?hl=en"
+        },
+        {
+          "candidateId": "page-image-004",
+          "candidateType": "direct_image",
+          "url": "https://www.gstatic.com/culturalinstitute/stella/app-download-qr-code.png",
+          "selector": "div:nth-of-type(3) > div > div > div:nth-of-type(5) > section:nth-of-type(2) > div > div:nth-of-type(2) > img",
+          "alt": "Flash this QR Code to get the app",
+          "nearbyText": "Get the app\n\nExplore museums and play with Art Transfer, Pocket Galleries, Art Selfie, and more",
+          "visible": true,
+          "boundingBox": {
+            "x": 1152,
+            "y": 1145,
+            "width": 52,
+            "height": 52
+          },
+          "elementKind": "img",
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://artsandculture.google.com/asset/%E2%80%9Ctime-timeless-no-time%E2%80%9D-2004-walter-de-maria-chichu-art-museum-tadao-ando/EwEmdBYaTmcp3g?hl=en"
+        },
+        {
+          "candidateId": "page-image-005",
+          "candidateType": "direct_image",
+          "url": "https://lh3.googleusercontent.com/ci/AL18g_ScnSIcIm8zfxQTn2oK2h9XX8Cb363ygHTwNg_zRCOWDaM4mssNLN3TNOdIBKWcOlGpdUBrtg=h200",
+          "selector": "body#yDmH0d > div:nth-of-type(3) > div:nth-of-type(4) > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "alt": "",
+          "nearbyText": "",
+          "visible": true,
+          "boundingBox": {
+            "x": 190,
+            "y": 756,
+            "width": 107,
+            "height": 200
+          },
+          "elementKind": "css_background",
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://artsandculture.google.com/asset/%E2%80%9Ctime-timeless-no-time%E2%80%9D-2004-walter-de-maria-chichu-art-museum-tadao-ando/EwEmdBYaTmcp3g?hl=en"
+        }
+      ]
+    },
+    {
+      "workId": "claude-monet-water-lilies-1914-1917",
+      "identity": {
+        "museumId": "chichuartmuseum",
+        "workId": "claude-monet-water-lilies-1914-1917",
+        "objectType": "single_work",
+        "titleZh": "睡莲",
+        "titleEn": "Water Lilies",
+        "creator": "Claude Monet / 克洛德·莫奈",
+        "artistOrCulture": "Claude Monet / 克洛德·莫奈",
+        "displayDate": "1914-17",
+        "medium": "Oil on canvas, 200 × 200 cm",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "accessionNumber": null,
+        "collectionGroup": "Claude Monet permanent Water Lilies group",
+        "title": "Water Lilies",
+        "identityAnchor": "claude-monet-water-lilies-1914-1917"
+      },
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Monet-Water-lilies-Chichu-museum.tif",
+      "page": {
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Monet-Water-lilies-Chichu-museum.tif",
+        "finalUrl": "https://commons.wikimedia.org/wiki/File:Monet-Water-lilies-Chichu-museum.tif",
+        "pageTitle": "File:Monet-Water-lilies-Chichu-museum.tif - Wikimedia Commons",
+        "bodyText": "Jump to content\nMain menu\nSearch\nEnglish\nDonate\nCreate account\nLog in\nContents hide\nBeginning\nSummary\nLicensing\nFile:Monet-Water-lilies-Chichu-museum.tif\nFile\nDiscussion\nRead\nEdit\nView history\nTools\nAppearance hide\nText\nSmall\nStandard\nLarge\n\nThis page always uses small font size\n\nWidth\nStandard\nWide\nColor (beta)\nAutomatic\nLight\nDark\nFile File history File usage on Commons File usage on other wikis Metadata\nDownload\nall sizes\nUse this file\non the web\nUse this file\non a wiki\nEmail a link\nto this file\nInformation\nabout reusing\nSize of the above preview of this TIF file: 960 × 958 pixels. Other resolutions: 250 × 249 pixels | 500 × 499 pixels | 960 × 958 pixels | 1,280 × 1,277 pixels | 1,920 × 1,916 pixels.\nOriginal file (1,900 × 1,896 pixels, file size: 898 KB, MIME type: image/tiff)\nOpen in Media Viewer\nFile information\nStructured data\nCaptions\nEdit\nEnglish\nAdd a one-line explanation of what this file represents\nSummaryedit\nClaude Monet: Water Lilies   \nArtist\t\nClaude Monet (1840–1926)    \n \n\n\n\t \n\t\n\nTitle\t\nWater Lilies\n\nSeries title\tWater Lilies \nObject type\tpainting \nGenre\tlandscape painting \nDate\tbetween 1914 and 1917 \nMedium\toil on canvas \nDimensions\theight: 200 cm (78.7 in) ; width: 200 cm (78.7 in) \nCollection\t\nChichu Art Museum  \n\nReferences\tMonet: Catalogue Raisonné, 1812 \nSource/Photographer\tChichu Handbook\nOther versions\t\npart of the series: Water Lilies \nLicensingedit\n\t\n\nThis work is in the public domain in its country of origin and other countries and areas where the copyright term is the author's life plus 100 years or fewer.\n\n You must also include a United States public domain tag to indicate why this work is in the public domain in the United States.\n\nThis file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.\n\nFile history\n\nClick on a date/time to view the file as it appeared at that time.\n\n\tDate/Time\tThumbnail\tDimensions\tUser\tComment\ncurrent\t13:09, 15 December 2018\t\t1,900 × 1,896 (898 KB)\tChristelle Molinié (talk | contribs)\t{{Artwork |wikidata = Q56809139 |source = Chichu Handbook}} Category:Chichu Art Museum == {{int:license-header}} == {{PD-old-100}}\n\nYou cannot overwrite this file.\n\nFile usage on Commons\n\nThe following 4 pages use this file:\n\nClaude Monet catalogue raisonné, 1996 Wildenstein\nPaintings by Claude Monet\nFile:Monet-Water-lilies-Chichu-museum.tif\nCategory talk:Paintings by Claude Monet\nFile usage on other wikis\n\nThe following other wikis use this file:\n\nUsage on af.wikipedia.org\nWaterlelies (Monet-reeks)\nUsage on en.wikipedia.org\nWater Lilies (Monet series)\nUsage on fr.wikipedia.org\nLes Nymphéas\nUsage on hy.wikipedia.org\nՄասնակից:DoctorLia/Ավազարկղ112\nՉիչու արվեստի թանգարան\nUsage on ja.wikipedia.org\n睡蓮 (モネ)\n日本にあるクロード・モネ作品一覧\nUsage on ko.wikipedia.org\n수련 (모네)\nUsage on pt.wikipedia.org\nLista de pinturas de Claude Monet\nUsage on ru.wikipedia.org\nСписок картин Клода Моне (1899—1926)\nUsage on www.wikidata.org\nWikidata:WikiProject sum of all paintings/Creator/Claude Monet\nUser:LehrerLämpel\nWikidata:WikiProject sum of all paintings/Catalog/Catalogue raisonné Claude Monet\nWikidata:WikiProject sum of all paintings/Location/Japan/Missing inventory number\nQ56809139\nMetadata\n\nThis file contains additional information such as Exif metadata which may have been added by the digital camera, scanner, or software program used to create or digitize it. If the file has been modified from its original state, some details such as the timestamp may not fully reflect those of the original file. The timestamp is only as accurate as the clock in the camera, and it may be completely wrong.\n\nShow extended details\nCategory: Monet's water lilies in the Chichu Art Museum\nHidden categories: Artworks with Wikidata itemArtworks digital representation of 2D workPD-old missing SDC copyright statusCC-PD-MarkAuthor died more than 100 years ago public domain images\nThis page was last edited on 19 June 2024, at 11:12.\nFiles are available under licenses specified on their description page. All structured data from the file namespace is available under the Creative Commons CC0 License; all unstructured text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and the Privacy Policy.\nPrivacy policy\nAbout Wikimedia Commons\nDisclaimers\nLegal & safety contacts\nCode of Conduct\nDevelopers\nStatistics\nCookie statement\nMobile view",
+        "candidateCount": 95
+      },
+      "candidates": [
+        {
+          "candidateId": "page-image-001",
+          "candidateType": "direct_image",
+          "url": "https://commons.wikimedia.org/static/images/mobile/copyright/commonswiki-wordmark.svg",
+          "selector": "html > body > div:nth-of-type(2) > header > div:nth-of-type(1) > a > span > img",
+          "alt": "Wikimedia Commons",
+          "nearbyText": "",
+          "visible": true,
+          "boundingBox": {
+            "x": 144,
+            "y": 17,
+            "width": 115,
+            "height": 32
+          },
+          "elementKind": "img",
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Monet-Water-lilies-Chichu-museum.tif"
+        },
+        {
+          "candidateId": "page-image-002",
+          "candidateType": "direct_image",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Gnome-document-save.svg/60px-Gnome-document-save.svg.png",
+          "selector": "div#mw-content-text > div:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1) > img",
+          "alt": "",
+          "nearbyText": "File:Monet-Water-lilies-Chichu-museum.tif\nFile\nDiscussion\nRead\nEdit\nView history\nTools\nAppearance hide\nText\nSmall\nStandard\nLarge\n\nThis page always uses small font size\n\nWidth\nStandard\nWide\nColor (beta)\nAutomatic\nLight\nDark\nFile File history File usage on Commons File usage on other wikis Metadata\nDownload\nall sizes\nUse this file\non the web\nUse this file\non a wiki\nEmail a link\nto this file\nInformation\nabout reusing\nSize of the above preview of this TIF file: 960 × 958 pixels. Other resolutions: 250 × 249 pixels | 500 × 499 pixels | 960 × 958 pixels | 1,280 × 1,277 pixels | 1,920 × 1,916 pixels.\nOriginal file (1,900 × 1,896 pixels, file size: 898 KB, MIME type: image/tiff)\nOpen in Media Viewer\nFile information\nStructured data\nCaptions\nEdit\nEnglish\nAdd a one-line explanation of what this file",
+          "visible": true,
+          "boundingBox": {
+            "x": 915,
+            "y": 223,
+            "width": 50,
+            "height": 50
+          },
+          "elementKind": "img",
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Monet-Water-lilies-Chichu-museum.tif"
+        },
+        {
+          "candidateId": "page-image-003",
+          "candidateType": "direct_image",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Gnome-emblem-web.svg/60px-Gnome-emblem-web.svg.png",
+          "selector": "div#mw-content-text > div:nth-of-type(1) > a:nth-of-type(2) > span:nth-of-type(1) > img",
+          "alt": "",
+          "nearbyText": "File:Monet-Water-lilies-Chichu-museum.tif\nFile\nDiscussion\nRead\nEdit\nView history\nTools\nAppearance hide\nText\nSmall\nStandard\nLarge\n\nThis page always uses small font size\n\nWidth\nStandard\nWide\nColor (beta)\nAutomatic\nLight\nDark\nFile File history File usage on Commons File usage on other wikis Metadata\nDownload\nall sizes\nUse this file\non the web\nUse this file\non a wiki\nEmail a link\nto this file\nInformation\nabout reusing\nSize of the above preview of this TIF file: 960 × 958 pixels. Other resolutions: 250 × 249 pixels | 500 × 499 pixels | 960 × 958 pixels | 1,280 × 1,277 pixels | 1,920 × 1,916 pixels.\nOriginal file (1,900 × 1,896 pixels, file size: 898 KB, MIME type: image/tiff)\nOpen in Media Viewer\nFile information\nStructured data\nCaptions\nEdit\nEnglish\nAdd a one-line explanation of what this file",
+          "visible": true,
+          "boundingBox": {
+            "x": 915,
+            "y": 283,
+            "width": 50,
+            "height": 50
+          },
+          "elementKind": "img",
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Monet-Water-lilies-Chichu-museum.tif"
+        },
+        {
+          "candidateId": "page-image-004",
+          "candidateType": "direct_image",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Gnome-mail-send.svg/60px-Gnome-mail-send.svg.png",
+          "selector": "div#mw-content-text > div:nth-of-type(1) > a:nth-of-type(4) > span:nth-of-type(1) > img",
+          "alt": "",
+          "nearbyText": "File:Monet-Water-lilies-Chichu-museum.tif\nFile\nDiscussion\nRead\nEdit\nView history\nTools\nAppearance hide\nText\nSmall\nStandard\nLarge\n\nThis page always uses small font size\n\nWidth\nStandard\nWide\nColor (beta)\nAutomatic\nLight\nDark\nFile File history File usage on Commons File usage on other wikis Metadata\nDownload\nall sizes\nUse this file\non the web\nUse this file\non a wiki\nEmail a link\nto this file\nInformation\nabout reusing\nSize of the above preview of this TIF file: 960 × 958 pixels. Other resolutions: 250 × 249 pixels | 500 × 499 pixels | 960 × 958 pixels | 1,280 × 1,277 pixels | 1,920 × 1,916 pixels.\nOriginal file (1,900 × 1,896 pixels, file size: 898 KB, MIME type: image/tiff)\nOpen in Media Viewer\nFile information\nStructured data\nCaptions\nEdit\nEnglish\nAdd a one-line explanation of what this file",
+          "visible": true,
+          "boundingBox": {
+            "x": 915,
+            "y": 403,
+            "width": 50,
+            "height": 50
+          },
+          "elementKind": "img",
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Monet-Water-lilies-Chichu-museum.tif"
+        },
+        {
+          "candidateId": "page-image-005",
+          "candidateType": "direct_image",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Dialog-information_on.svg/60px-Dialog-information_on.svg.png",
+          "selector": "div#mw-content-text > div:nth-of-type(1) > a:nth-of-type(5) > span:nth-of-type(1) > img",
+          "alt": "",
+          "nearbyText": "File:Monet-Water-lilies-Chichu-museum.tif\nFile\nDiscussion\nRead\nEdit\nView history\nTools\nAppearance hide\nText\nSmall\nStandard\nLarge\n\nThis page always uses small font size\n\nWidth\nStandard\nWide\nColor (beta)\nAutomatic\nLight\nDark\nFile File history File usage on Commons File usage on other wikis Metadata\nDownload\nall sizes\nUse this file\non the web\nUse this file\non a wiki\nEmail a link\nto this file\nInformation\nabout reusing\nSize of the above preview of this TIF file: 960 × 958 pixels. Other resolutions: 250 × 249 pixels | 500 × 499 pixels | 960 × 958 pixels | 1,280 × 1,277 pixels | 1,920 × 1,916 pixels.\nOriginal file (1,900 × 1,896 pixels, file size: 898 KB, MIME type: image/tiff)\nOpen in Media Viewer\nFile information\nStructured data\nCaptions\nEdit\nEnglish\nAdd a one-line explanation of what this file",
+          "visible": true,
+          "boundingBox": {
+            "x": 915,
+            "y": 463,
+            "width": 50,
+            "height": 50
+          },
+          "elementKind": "img",
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Monet-Water-lilies-Chichu-museum.tif"
+        }
+      ]
+    },
+    {
+      "workId": "james-turrell-open-field-2000",
+      "identity": {
+        "museumId": "chichuartmuseum",
+        "workId": "james-turrell-open-field-2000",
+        "objectType": "room_scale_installation",
+        "titleZh": "开放场域",
+        "titleEn": "Open Field",
+        "creator": "James Turrell / 詹姆斯·特瑞尔",
+        "artistOrCulture": "James Turrell / 詹姆斯·特瑞尔",
+        "displayDate": "2000",
+        "medium": "Fluorescent light, neon tube",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "accessionNumber": null,
+        "collectionGroup": "James Turrell permanent light installation group",
+        "title": "Open Field",
+        "identityAnchor": "james-turrell-open-field-2000"
+      },
+      "sourcePageUrl": "https://artsandculture.google.com/asset/open-field-2000-james-turrel-chichu-art-museum-tadao-ando/1QEVcCgYYo-G8g?hl=en",
+      "page": {
+        "sourcePageUrl": "https://artsandculture.google.com/asset/open-field-2000-james-turrel-chichu-art-museum-tadao-ando/1QEVcCgYYo-G8g?hl=en",
+        "finalUrl": "https://artsandculture.google.com/asset/open-field-2000-james-turrel-chichu-art-museum-tadao-ando/1QEVcCgYYo-G8g?hl=en",
+        "pageTitle": "\"Open Field\" 2000, James Turrel / Chichu Art Museum - Tadao Ando — Google Arts & Culture",
+        "bodyText": "Celebrating 15!\nHome\nExplore\nPlay\nNearby\nFavorites\nThe Lab\nSign in\n+\n–\n\nWhere next?\n\nExplore related content\n\n\"Open Field\" 2000, James Turrel / Chichu Art Museum\nTadao Ando2004\nTadao Ando Architect & Associates\nOsaka, Japan\n\nDetails\n\nTitle: \"Open Field\" 2000, James Turrel / Chichu Art Museum\nCreator: Tadao Ando\nDate Created: 2004\nLocation: Naoshima, Japan\nType: Architecture\nOriginal Source: \nTadao Ando Architect & Associates\nGet the app\n\nExplore museums and play with Art Transfer, Pocket Galleries, Art Selfie, and more\n\nConcrete\nGlass\nJames Turrell\nJapan\nNaoshima\n\nInterested in Visual arts?\n\nGet updates with your personalized Culture Weekly\n\nNo, thanks\nSign up now\nTranslate with Google",
+        "candidateCount": 45
+      },
+      "candidates": [
+        {
+          "candidateId": "page-image-001",
+          "candidateType": "direct_image",
+          "url": "https://lh3.googleusercontent.com/ci/AL18g_S5Jv4kJuGW2qbfK0CPt77KkieogoMv1oBP4IyhwGWcQALS5zJ8HAmnWcIDp3noHRLGGDnh78B-",
+          "selector": "div > div > div:nth-of-type(5) > div > header > a > span > img",
+          "alt": "Tadao Ando Architect & Associates",
+          "nearbyText": "Tadao Ando Architect & Associates\nOsaka, Japan",
+          "visible": true,
+          "boundingBox": {
+            "x": 1082,
+            "y": 773,
+            "width": 150,
+            "height": 27
+          },
+          "elementKind": "img",
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://artsandculture.google.com/asset/open-field-2000-james-turrel-chichu-art-museum-tadao-ando/1QEVcCgYYo-G8g?hl=en"
+        },
+        {
+          "candidateId": "page-image-002",
+          "candidateType": "direct_image",
+          "url": "https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png",
+          "selector": "div > div > div:nth-of-type(5) > section:nth-of-type(2) > div > div:nth-of-type(1) > a:nth-of-type(1) > img",
+          "alt": "",
+          "nearbyText": "Get the app\n\nExplore museums and play with Art Transfer, Pocket Galleries, Art Selfie, and more",
+          "visible": true,
+          "boundingBox": {
+            "x": 837,
+            "y": 1123,
+            "width": 152,
+            "height": 59
+          },
+          "elementKind": "img",
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://artsandculture.google.com/asset/open-field-2000-james-turrel-chichu-art-museum-tadao-ando/1QEVcCgYYo-G8g?hl=en"
+        },
+        {
+          "candidateId": "page-image-003",
+          "candidateType": "direct_image",
+          "url": "https://www.gstatic.com/culturalinstitute/stella/apple-app-store-badge-en.svg",
+          "selector": "div > div > div:nth-of-type(5) > section:nth-of-type(2) > div > div:nth-of-type(1) > a:nth-of-type(2) > img",
+          "alt": "",
+          "nearbyText": "Get the app\n\nExplore museums and play with Art Transfer, Pocket Galleries, Art Selfie, and more",
+          "visible": true,
+          "boundingBox": {
+            "x": 997,
+            "y": 1133,
+            "width": 135,
+            "height": 40
+          },
+          "elementKind": "img",
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://artsandculture.google.com/asset/open-field-2000-james-turrel-chichu-art-museum-tadao-ando/1QEVcCgYYo-G8g?hl=en"
+        },
+        {
+          "candidateId": "page-image-004",
+          "candidateType": "direct_image",
+          "url": "https://www.gstatic.com/culturalinstitute/stella/app-download-qr-code.png",
+          "selector": "div:nth-of-type(3) > div > div > div:nth-of-type(5) > section:nth-of-type(2) > div > div:nth-of-type(2) > img",
+          "alt": "Flash this QR Code to get the app",
+          "nearbyText": "Get the app\n\nExplore museums and play with Art Transfer, Pocket Galleries, Art Selfie, and more",
+          "visible": true,
+          "boundingBox": {
+            "x": 1152,
+            "y": 1125,
+            "width": 52,
+            "height": 52
+          },
+          "elementKind": "img",
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://artsandculture.google.com/asset/open-field-2000-james-turrel-chichu-art-museum-tadao-ando/1QEVcCgYYo-G8g?hl=en"
+        },
+        {
+          "candidateId": "page-image-005",
+          "candidateType": "direct_image",
+          "url": "https://lh3.googleusercontent.com/ci/AL18g_ScnSIcIm8zfxQTn2oK2h9XX8Cb363ygHTwNg_zRCOWDaM4mssNLN3TNOdIBKWcOlGpdUBrtg=h200",
+          "selector": "body#yDmH0d > div:nth-of-type(3) > div:nth-of-type(4) > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "alt": "",
+          "nearbyText": "",
+          "visible": true,
+          "boundingBox": {
+            "x": 190,
+            "y": 756,
+            "width": 107,
+            "height": 200
+          },
+          "elementKind": "css_background",
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://artsandculture.google.com/asset/open-field-2000-james-turrel-chichu-art-museum-tadao-ando/1QEVcCgYYo-G8g?hl=en"
+        }
+      ]
+    },
+    {
+      "workId": "james-turrell-afrum-pale-blue-1968",
+      "identity": {
+        "museumId": "chichuartmuseum",
+        "workId": "james-turrell-afrum-pale-blue-1968",
+        "objectType": "room_scale_installation",
+        "titleZh": "Afrum，浅蓝",
+        "titleEn": "Afrum, Pale Blue",
+        "creator": "James Turrell / 詹姆斯·特瑞尔",
+        "artistOrCulture": "James Turrell / 詹姆斯·特瑞尔",
+        "displayDate": "1968",
+        "medium": "Projector",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "accessionNumber": null,
+        "collectionGroup": "James Turrell permanent light installation group",
+        "title": "Afrum, Pale Blue",
+        "identityAnchor": "james-turrell-afrum-pale-blue-1968"
+      },
+      "sourcePageUrl": "https://unpointculture.wordpress.com/2016/02/16/larchitecture-comme-paysage-et-lieu-de-loeuvre-tadao-ando-au-chichu-art-museum-de-naoshima/images-1-2/",
+      "page": {
+        "sourcePageUrl": "https://unpointculture.wordpress.com/2016/02/16/larchitecture-comme-paysage-et-lieu-de-loeuvre-tadao-ando-au-chichu-art-museum-de-naoshima/images-1-2/",
+        "finalUrl": "https://unpointculture.wordpress.com/2016/02/16/larchitecture-comme-paysage-et-lieu-de-loeuvre-tadao-ando-au-chichu-art-museum-de-naoshima/images-1-2/",
+        "pageTitle": "James Turrell, ‘Afrum, Pale Blue’, 1968 © Fujitsuka Mitsumasa, Image courtesy of Chichu Art Museum – pointculture",
+        "bodyText": "pointculture\nÉDITOS\n \nACTUALITÉS\n \nPODCASTS\n \nEXPOSITIONS\n \nFOCUS\n \nINTERVIEWS\n \nCONTACT\nJAMES TURRELL, ‘AFRUM, PALE BLUE’, 1968 © FUJITSUKA MITSUMASA, IMAGE COURTESY OF CHICHU ART MUSEUM\nPublié le 12 février 2016par Marie\nReading time less than 1 minute\n\nLAISSER UN COMMENTAIRE\nNavigation des articles\nL’ARCHITECTURE COMME PAYSAGE – ANDŌ AU CHICHŪ ART MUSEUM\nLAISSER UN COMMENTAIRE\n\nÉcrire un commentaire...\n\nConnectez-vous ou indiquez votre nom et votre adresse e-mail pour laisser un commentaire.\n\nRecevoir les nouvelles publications par e-mail\n\nImmédiatement\nQuotidiennement\nHebdomadairement\n\nM’envoyer les nouveaux commentaires par e-mail\n\nEnregistrer mon nom, mon e-mail et mon site Web dans le navigateur pour mon prochain commentaire.\n\nCommentaire\n\nPROPULSÉ PAR WORDPRESS.COM.\n\nFacebook\n \nTwiter\nCommentaire\n \nS'abonner\n ",
+        "candidateCount": 15
+      },
+      "candidates": [
+        {
+          "candidateId": "page-image-001",
+          "candidateType": "direct_image",
+          "url": "https://unpointculture.wordpress.com/wp-content/uploads/2016/02/images-1.jpeg",
+          "selector": "article#post-10271 > div > div > div > div > p > a > img",
+          "alt": "",
+          "nearbyText": "JAMES TURRELL, ‘AFRUM, PALE BLUE’, 1968 © FUJITSUKA MITSUMASA, IMAGE COURTESY OF CHICHU ART MUSEUM\nPublié le 12 février 2016par Marie\nReading time less than 1 minute\n\nLAISSER UN COMMENTAIRE",
+          "visible": true,
+          "boundingBox": {
+            "x": 345,
+            "y": 459,
+            "width": 166,
+            "height": 213
+          },
+          "elementKind": "img",
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://unpointculture.wordpress.com/2016/02/16/larchitecture-comme-paysage-et-lieu-de-loeuvre-tadao-ando-au-chichu-art-museum-de-naoshima/images-1-2/"
+        },
+        {
+          "candidateId": "page-image-002",
+          "candidateType": "direct_image",
+          "url": "https://i0.wp.com/unpointculture.wordpress.com/wp-content/uploads/2014/06/louvre-inconnu.jpg?fit=1200%2C900&ssl=1&resize=40%2C40",
+          "selector": "aside#top-posts-4 > ul > li:nth-of-type(1) > a > img",
+          "alt": "[Œuvres méconnues du Louvre] François Biard, Magdalena-Bay",
+          "nearbyText": "",
+          "visible": false,
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "elementKind": "img",
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://unpointculture.wordpress.com/2016/02/16/larchitecture-comme-paysage-et-lieu-de-loeuvre-tadao-ando-au-chichu-art-museum-de-naoshima/images-1-2/"
+        },
+        {
+          "candidateId": "page-image-003",
+          "candidateType": "direct_image",
+          "url": "https://i0.wp.com/unpointculture.wordpress.com/wp-content/uploads/2014/11/photo-16-11-2014-13-59-10.jpg?fit=1200%2C900&ssl=1&resize=40%2C40",
+          "selector": "aside#top-posts-4 > ul > li:nth-of-type(2) > a > img",
+          "alt": "Le théâtre d'ombres du cabaret du Chat noir au musée d'Orsay",
+          "nearbyText": "",
+          "visible": false,
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "elementKind": "img",
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://unpointculture.wordpress.com/2016/02/16/larchitecture-comme-paysage-et-lieu-de-loeuvre-tadao-ando-au-chichu-art-museum-de-naoshima/images-1-2/"
+        },
+        {
+          "candidateId": "page-image-004",
+          "candidateType": "direct_image",
+          "url": "https://i0.wp.com/unpointculture.wordpress.com/wp-content/uploads/2015/07/dsc_0529-111.jpg?resize=40%2C40&ssl=1",
+          "selector": "aside#top-posts-4 > ul > li:nth-of-type(3) > a > img",
+          "alt": "Florence et ses plafonds",
+          "nearbyText": "",
+          "visible": false,
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "elementKind": "img",
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://unpointculture.wordpress.com/2016/02/16/larchitecture-comme-paysage-et-lieu-de-loeuvre-tadao-ando-au-chichu-art-museum-de-naoshima/images-1-2/"
+        },
+        {
+          "candidateId": "page-image-005",
+          "candidateType": "direct_image",
+          "url": "https://i0.wp.com/unpointculture.wordpress.com/wp-content/uploads/2015/10/capture-d_c3a9cran-2015-10-23-c3a0-01-21-52.png?resize=40%2C40&ssl=1",
+          "selector": "aside#top-posts-4 > ul > li:nth-of-type(4) > a > img",
+          "alt": "Entretien : Guillaume Kientz – L'histoire de la collection des peintures espagnoles du Louvre",
+          "nearbyText": "",
+          "visible": false,
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "elementKind": "img",
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://unpointculture.wordpress.com/2016/02/16/larchitecture-comme-paysage-et-lieu-de-loeuvre-tadao-ando-au-chichu-art-museum-de-naoshima/images-1-2/"
+        }
+      ]
+    },
+    {
+      "workId": "james-turrell-open-sky-2004",
+      "identity": {
+        "museumId": "chichuartmuseum",
+        "workId": "james-turrell-open-sky-2004",
+        "objectType": "architectural_viewing_node",
+        "titleZh": "开放天空",
+        "titleEn": "Open Sky",
+        "creator": "James Turrell / 詹姆斯·特瑞尔",
+        "artistOrCulture": "James Turrell / 詹姆斯·特瑞尔",
+        "displayDate": "2004",
+        "medium": "LED, xenon lamps; architectural viewing space",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "accessionNumber": null,
+        "collectionGroup": "James Turrell permanent light installation group",
+        "title": "Open Sky",
+        "identityAnchor": "james-turrell-open-sky-2004"
+      },
+      "sourcePageUrl": "https://artsandculture.google.com/asset/chichu-art-museum-naoshima-architect-tadao-ando-james-turrell-and-photographer-john-barr/7QHAAu509lZDSw",
+      "page": {
+        "sourcePageUrl": "https://artsandculture.google.com/asset/chichu-art-museum-naoshima-architect-tadao-ando-james-turrell-and-photographer-john-barr/7QHAAu509lZDSw",
+        "finalUrl": "https://artsandculture.google.com/asset/chichu-art-museum-naoshima-architect-tadao-ando-james-turrell-and-photographer-john-barr/7QHAAu509lZDSw",
+        "pageTitle": "Chichu Art Museum, Naoshima. - Architect: Tadao Ando, James Turrell and Photographer: John Barr — Google Arts & Culture",
+        "bodyText": "Celebrating 15!\nHome\nExplore\nPlay\nNearby\nFavorites\nThe Lab\nSign in\n+\n–\n\nWhere next?\n\nExplore related content\n\nChichu Art Museum, Naoshima.\nJames Turrell2019\nRoyal Institute of British Architects\nLondon, United Kingdom\n\nKagawa Prefecture - exhibition/installation showing James Turrell's 'Open Sky'. James Turrell is an artist who specialised in light sculptures.\n\nDetails\n\nTitle: Chichu Art Museum, Naoshima.\nCreator: Architect: Tadao Ando, James Turrell, Photographer: John Barr\nDate Created: 2019\nLocation Created: Naoshima, Japan\nRights: John Barr / RIBA Collections\nMedium: Digital image\nGet the app\n\nExplore museums and play with Art Transfer, Pocket Galleries, Art Selfie, and more\n\nJames Turrell\nJapan\nNaoshima\n\nInterested in Visual arts?\n\nGet updates with your personalized Culture Weekly\n\nNo, thanks\nSign up now\nTranslate with Google",
+        "candidateCount": 42
+      },
+      "candidates": [
+        {
+          "candidateId": "page-image-001",
+          "candidateType": "direct_image",
+          "url": "https://lh3.googleusercontent.com/ci/AL18g_TYu5v92WGDAmjpexKiIQeMAXBB4eFcvLl1MsCstSgOzRQw0ZvMh5x2Pjwxd7CXOWJHA-wHyQ=fcrop64=1,00000000ffffeb60",
+          "selector": "div > div > div:nth-of-type(5) > div > header > a > span > img",
+          "alt": "Royal Institute of British Architects",
+          "nearbyText": "Royal Institute of British Architects\nLondon, United Kingdom",
+          "visible": true,
+          "boundingBox": {
+            "x": 1132,
+            "y": 773,
+            "width": 100,
+            "height": 40
+          },
+          "elementKind": "img",
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://artsandculture.google.com/asset/chichu-art-museum-naoshima-architect-tadao-ando-james-turrell-and-photographer-john-barr/7QHAAu509lZDSw"
+        },
+        {
+          "candidateId": "page-image-002",
+          "candidateType": "direct_image",
+          "url": "https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png",
+          "selector": "div > div > div:nth-of-type(5) > section:nth-of-type(3) > div > div:nth-of-type(1) > a:nth-of-type(1) > img",
+          "alt": "",
+          "nearbyText": "Get the app\n\nExplore museums and play with Art Transfer, Pocket Galleries, Art Selfie, and more",
+          "visible": true,
+          "boundingBox": {
+            "x": 837,
+            "y": 1222,
+            "width": 152,
+            "height": 59
+          },
+          "elementKind": "img",
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://artsandculture.google.com/asset/chichu-art-museum-naoshima-architect-tadao-ando-james-turrell-and-photographer-john-barr/7QHAAu509lZDSw"
+        },
+        {
+          "candidateId": "page-image-003",
+          "candidateType": "direct_image",
+          "url": "https://www.gstatic.com/culturalinstitute/stella/apple-app-store-badge-en.svg",
+          "selector": "div > div > div:nth-of-type(5) > section:nth-of-type(3) > div > div:nth-of-type(1) > a:nth-of-type(2) > img",
+          "alt": "",
+          "nearbyText": "Get the app\n\nExplore museums and play with Art Transfer, Pocket Galleries, Art Selfie, and more",
+          "visible": true,
+          "boundingBox": {
+            "x": 997,
+            "y": 1232,
+            "width": 135,
+            "height": 40
+          },
+          "elementKind": "img",
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://artsandculture.google.com/asset/chichu-art-museum-naoshima-architect-tadao-ando-james-turrell-and-photographer-john-barr/7QHAAu509lZDSw"
+        },
+        {
+          "candidateId": "page-image-004",
+          "candidateType": "direct_image",
+          "url": "https://www.gstatic.com/culturalinstitute/stella/app-download-qr-code.png",
+          "selector": "div:nth-of-type(3) > div > div > div:nth-of-type(5) > section:nth-of-type(3) > div > div:nth-of-type(2) > img",
+          "alt": "Flash this QR Code to get the app",
+          "nearbyText": "Get the app\n\nExplore museums and play with Art Transfer, Pocket Galleries, Art Selfie, and more",
+          "visible": true,
+          "boundingBox": {
+            "x": 1152,
+            "y": 1224,
+            "width": 52,
+            "height": 52
+          },
+          "elementKind": "img",
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://artsandculture.google.com/asset/chichu-art-museum-naoshima-architect-tadao-ando-james-turrell-and-photographer-john-barr/7QHAAu509lZDSw"
+        },
+        {
+          "candidateId": "page-image-005",
+          "candidateType": "direct_image",
+          "url": "https://lh3.googleusercontent.com/ci/AL18g_ScnSIcIm8zfxQTn2oK2h9XX8Cb363ygHTwNg_zRCOWDaM4mssNLN3TNOdIBKWcOlGpdUBrtg=h200",
+          "selector": "body#yDmH0d > div:nth-of-type(3) > div:nth-of-type(4) > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "alt": "",
+          "nearbyText": "",
+          "visible": true,
+          "boundingBox": {
+            "x": 190,
+            "y": 756,
+            "width": 107,
+            "height": 200
+          },
+          "elementKind": "css_background",
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://artsandculture.google.com/asset/chichu-art-museum-naoshima-architect-tadao-ando-james-turrell-and-photographer-john-barr/7QHAAu509lZDSw"
+        }
+      ]
+    }
+  ]
+}

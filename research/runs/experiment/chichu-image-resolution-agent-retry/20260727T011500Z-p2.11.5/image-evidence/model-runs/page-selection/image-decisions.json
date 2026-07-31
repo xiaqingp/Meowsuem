@@ -1,0 +1,120 @@
+{
+    "schemaVersion":  2,
+    "works":  [
+                  {
+                      "workId":  "walter-de-maria-time-timeless-no-time-2004",
+                      "status":  "candidate_found",
+                      "sourcePa\r\ngeUrl":  "https://artsandculture.google.com/asset/%E2%80%9Ctime-timeless-no-time%E2%80%9D-2004-walter-de-maria-chichu-art\r\n-museum-tadao-ando/EwEmdBYaTmcp3g?hl=en",
+                      "selectedImage":  {
+                                            "candidateId":  "page-image-003",
+                                            "imageUrl":  null,
+                                            "candidateType\r\n":  "page_image_element",
+                                            "imageRole":  "installation_view",
+                                            "caption":  "“Time/Timeless/No Time” 2004, Walter de Maria / \r\nChichu Art Museum",
+                                            "identityEvidence":  [
+                                                                     "Source page title identifies Walter De Maria’s Time/Timeless/No Time at Chichu \r\nArt Museum.",
+                                                                     "Selected candidate is the large primary page image element."
+                                                                 ],
+                                            "confidence":  0.94
+                                        },
+                      "alternatives":  [
+
+                                       ],
+                      "limit\r\nations":  [
+
+                                          ]
+                  },
+                  {
+                      "workId":  "claude-monet-water-lilies-1914-1917",
+                      "status":  "candidate_found",
+                      "sourcePageUrl":  "https://commons\r\n.wikimedia.org/wiki/File:Monet-Water-lilies-Chichu-museum.tif",
+                      "selectedImage":  {
+                                            "candidateId":  "page-image-001",
+                                            "imageUr\r\nl":  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Monet-Water-lilies-Chichu-museum.tif/lossy-page1-960px-Mo\r\nnet-Water-lilies-Chichu-museum.tif.jpg?_=20181215130906",
+                                            "candidateType":  "direct_image",
+                                            "imageRole":  "object_view",
+                                            "capt\r\nion":  "Claude Monet, Water Lilies, 1914–1917, Chichu Art Museum",
+                                            "identityEvidence":  [
+                                                                     "Wikimedia Commons page identifies \r\nthe artist, title, date, medium, dimensions, and Chichu Art Museum collection.",
+                                                                     "Selected URL is the largest supplied \r\nconcrete image resource."
+                                                                 ],
+                                            "confidence":  0.99
+                                        },
+                      "alternatives":  [
+
+                                       ],
+                      "limitations":  [
+
+                                      ]
+                  },
+                  {
+                      "workId":  "james-turrell-open-field-2\r\n000",
+                      "status":  "candidate_found",
+                      "sourcePageUrl":  "https://artsandculture.google.com/asset/open-field-2000-james-turrel-c\r\nhichu-art-museum-tadao-ando/1QEVcCgYYo-G8g?hl=en",
+                      "selectedImage":  {
+                                            "candidateId":  "page-image-003",
+                                            "imageUrl":  null,
+                                            "cand\r\nidateType":  "page_image_element",
+                                            "imageRole":  "installation_view",
+                                            "caption":  "Open Field, 2000, James Turrell / Chichu \r\nArt Museum",
+                                            "identityEvidence":  [
+                                                                     "Source page title identifies James Turrell’s Open Field, 2000, at Chichu Art \r\nMuseum.",
+                                                                     "Selected candidate is the large primary page image element."
+                                                                 ],
+                                            "confidence":  0.94
+                                        },
+                      "alternatives":  [
+
+                                       ],
+                      "limitatio\r\nns":  [
+
+                                          ]
+                  },
+                  {
+                      "workId":  "james-turrell-afrum-pale-blue-1968",
+                      "status":  "candidate_found",
+                      "sourcePageUrl":  "https://unpointcultu\r\nre.wordpress.com/2016/02/16/larchitecture-comme-paysage-et-lieu-de-loeuvre-tadao-ando-au-chichu-art-museum-de-naoshima/\r\nimages-1-2/",
+                      "selectedImage":  {
+                                            "candidateId":  "page-image-002",
+                                            "imageUrl":  "https://unpointculture.wordpress.com/wp-conten\r\nt/uploads/2016/02/images-1.jpeg",
+                                            "candidateType":  "direct_image",
+                                            "imageRole":  "installation_view",
+                                            "caption":  "James \r\nTurrell, ‘Afrum, Pale Blue’, 1968 © Fujitsuka Mitsumasa, image courtesy of Chichu Art \r\nMuseum",
+                                            "identityEvidence":  [
+                                                                     "Source page heading explicitly identifies James Turrell’s Afrum, Pale Blue, \r\n1968.",
+                                                                     "Selected image is the visible article image associated with that caption."
+                                                                 ],
+                                            "confidence":  0.99
+                                        },
+                      "alternatives":  [
+
+                                       ],
+                      "limitations":  [
+
+                                      ]
+                  },
+                  {
+                      "workId":  "james-turrell-open-sky-2004",
+                      "status":  "candidate_found",
+                      "sourcePageUrl":  "https://artsand\r\nculture.google.com/asset/chichu-art-museum-naoshima-architect-tadao-ando-james-turrell-and-photographer-john-barr/7QHAA\r\nu509lZDSw",
+                      "selectedImage":  {
+                                            "candidateId":  "page-image-003",
+                                            "imageUrl":  null,
+                                            "candidateType":  "page_image_element",
+                                            "imageR\r\nole":  "architecture_view",
+                                            "caption":  "Chichu Art Museum, Naoshima — James Turrell’s Open \r\nSky",
+                                            "identityEvidence":  [
+                                                                     "Source page description explicitly states that the image shows James Turrell’s Open Sky at \r\nChichu Art Museum.",
+                                                                     "Selected candidate is the large primary page image \r\nelement."
+                                                                 ],
+                                            "confidence":  0.91
+                                        },
+                      "alternatives":  [
+
+                                       ],
+                      "limitations":  [
+
+                                      ]
+                  }
+              ]
+}

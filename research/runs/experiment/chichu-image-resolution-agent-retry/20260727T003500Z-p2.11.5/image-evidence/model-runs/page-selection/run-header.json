@@ -1,0 +1,27 @@
+{
+  "runId": "20260727T003500Z-p2.11.5",
+  "startedAt": "2026-07-27T04:33:10.562Z",
+  "stage": "image_disambiguation",
+  "imageResearchMode": "page_selection_v2",
+  "caseId": "chichu-image-resolution-agent-retry",
+  "targetMuseumId": "chichuartmuseum",
+  "pipelineVersion": "2.11.5",
+  "instructionVersion": "2.4.0",
+  "executionProfile": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/runs/experiment/chichu-image-resolution-agent-retry/20260727T003500Z-p2.11.5/image-evidence/model-runs/page-selection/image-research-packet.json",
+      "role": "image_candidate_packet",
+      "sha256": "0fe255cc53b661fc152d03236a22c4af3be23b0e40c268f6477ccf503fff02bd"
+    }
+  ],
+  "outputs": [
+    "image-decisions.json"
+  ],
+  "reviewer": "disabled",
+  "retry": "failed_images_only",
+  "publicationBoundary": "evidence_only"
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "filesystemContractVersion": 1,
+  "runKind": "experiment",
+  "runId": "20260726T200000Z-p2.11.5",
+  "caseId": "chichu-image-resolution-agent-test",
+  "targetMuseumId": "chichuartmuseum",
+  "milestone": "M31",
+  "pipelineVersion": "2.11.5",
+  "instructionVersion": "2.4.0",
+  "status": "verified",
+  "createdAt": "2026-07-26T20:00:00.000Z",
+  "createdBy": "scripts/create-generation-run.mjs",
+  "layoutVersion": 1,
+  "immutable": false,
+  "contentContract": "one_shot_v1",
+  "allowLegacyAuthorBundles": false,
+  "legacyWorkIds": [],
+  "legacyImageResolutionAllowed": false,
+  "parentRunId": "20260726T165828Z-p2.11.4",
+  "parentRunRoot": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4",
+  "parentInputs": {
+    "scope/scope.json": {
+      "parentPath": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/scope/scope.json",
+      "sha256": "e4941a39af43869e418dab51d4e9e2a53f7ce18550a93595fc34594c2a8317d0",
+      "copiedPath": "research/runs/experiment/chichu-image-resolution-agent-test/20260726T200000Z-p2.11.5/scope/scope.json"
+    },
+    "candidate-pool/candidate-pool.json": {
+      "parentPath": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/candidate-pool/candidate-pool.json",
+      "sha256": "800feb8492d3cd4fc8422343026c97ef253d52304a9a0ed4f3ffec8e8fe48d35",
+      "copiedPath": "research/runs/experiment/chichu-image-resolution-agent-test/20260726T200000Z-p2.11.5/candidate-pool/candidate-pool.json"
+    },
+    "selection/selection.json": {
+      "parentPath": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/selection/selection.json",
+      "sha256": "bc9031718ad01e9de2d873994e19132159a04ab1c2e51b3c03c994c3b08e3036",
+      "copiedPath": "research/runs/experiment/chichu-image-resolution-agent-test/20260726T200000Z-p2.11.5/selection/selection.json"
+    },
+    "structure/structure.json": {
+      "parentPath": "research/runs/experiment/chichu-pipeline-2-11-blind/20260726T165828Z-p2.11.4/structure/structure.json",
+      "sha256": "227bed06ec7d1bde3d3680537fef698b729456ae4e8d379ff7ce715397c2b5a3",
+      "copiedPath": "research/runs/experiment/chichu-image-resolution-agent-test/20260726T200000Z-p2.11.5/structure/structure.json"
+    }
+  },
+  "completedAt": "2026-07-26T22:36:19.682Z",
+  "imageStageStatus": "mechanical_image_stage_completed_with_unresolved_images",
+  "modelCalls": 1,
+  "modelTokens": 110596
+}

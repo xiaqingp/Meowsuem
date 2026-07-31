@@ -1,0 +1,123 @@
+{
+    "schemaVersion":  2,
+    "works":  [
+                  {
+                      "workId":  "walter-de-maria-time-timeless-no-time-2004",
+                      "status":  "candidate_found",
+                      "sourcePa\r\ngeUrl":  "https://artsandculture.google.com/asset/%E2%80%9Ctime-timeless-no-time%E2%80%9D-2004-walter-de-maria-chichu-art\r\n-museum-tadao-ando/EwEmdBYaTmcp3g?hl=en",
+                      "selectedImage":  {
+                                            "candidateId":  "page-image-003",
+                                            "imageUrl":  null,
+                                            "candidateType\r\n":  "page_image_element",
+                                            "imageRole":  "installation_view",
+                                            "caption":  "“Time/Timeless/No Time” 2004, Walter de Maria / \r\nChichu Art Museum",
+                                            "identityEvidence":  [
+                                                                     "Google Arts \u0026 Culture page title identifies Time/Timeless/No Time and Walter \r\nde Maria",
+                                                                     "Large visible page image element is the primary artwork image"
+                                                                 ],
+                                            "confidence":  0.93
+                                        },
+                      "alternatives":  [
+
+                                       ],
+                      "limita\r\ntions":  [
+
+                                          ]
+                  },
+                  {
+                      "workId":  "claude-monet-water-lilies-1914-1917",
+                      "status":  "candidate_found",
+                      "sourcePageUrl":  "https://commons.\r\nwikimedia.org/wiki/File:Monet-Water-lilies-Chichu-museum.tif",
+                      "selectedImage":  {
+                                            "candidateId":  "page-image-001",
+                                            "imageUrl\r\n":  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Monet-Water-lilies-Chichu-museum.tif/lossy-page1-960px-Mon\r\net-Water-lilies-Chichu-museum.tif.jpg?_=20181215130906",
+                                            "candidateType":  "direct_image",
+                                            "imageRole":  "object_view",
+                                            "capti\r\non":  "Claude Monet: Water Lilies",
+                                            "identityEvidence":  [
+                                                                     "Wikimedia Commons page identifies Claude Monet, Water Lilies, \r\ndated 1914–1917",
+                                                                     "Page identifies the collection as Chichu Art Museum",
+                                                                     "Direct image is the 960-pixel artwork preview"
+                                                                 ],
+                                            "confidence":  0.99
+                                        },
+                      "alternatives":  [
+
+                                       ],
+                      "limitations":  [
+
+                                      ]
+                  },
+                  {
+                      "workId":  "james-turrell-open-field-2000",
+                      "status":  "candidate_f\r\nound",
+                      "sourcePageUrl":  "https://artsandculture.google.com/asset/open-field-2000-james-turrel-chichu-art-museum-tadao-and\r\no/1QEVcCgYYo-G8g?hl=en",
+                      "selectedImage":  {
+                                            "candidateId":  "page-image-003",
+                                            "imageUrl":  null,
+                                            "candidateType":  "page_image_ele\r\nment",
+                                            "imageRole":  "installation_view",
+                                            "caption":  "Open Field 2000, James Turrell / Chichu Art \r\nMuseum",
+                                            "identityEvidence":  [
+                                                                     "Google Arts \u0026 Culture page title identifies Open Field and James Turrell",
+                                                                     "Large visible \r\npage image element is the primary installation image"
+                                                                 ],
+                                            "confidence":  0.93
+                                        },
+                      "alternatives":  [
+
+                                       ],
+                      "limitations":  [
+
+                                      ]
+                  },
+                  {
+                      "workId":  "james-turrell-afrum-pale-blue-1968",
+                      "status":  "candidate_found",
+                      "sourcePageUrl":  "https://unpointculture.wordpress.com/\r\n2016/02/16/larchitecture-comme-paysage-et-lieu-de-loeuvre-tadao-ando-au-chichu-art-museum-de-naoshima/images-1-2/",
+                      "sel\r\nectedImage":  {
+                                                "candidateId":  "page-image-002",
+                                                "imageUrl":  "https://unpointculture.wordpress.com/wp-content/uploads/2016/02\r\n/images-1.jpeg",
+                                                "candidateType":  "direct_image",
+                                                "imageRole":  "installation_view",
+                                                "caption":  "James Turrell, ‘Afrum, Pale \r\nBlue’, 1968 © Fujitsuka Mitsumasa, image courtesy of Chichu Art Museum",
+                                                "identityEvidence":  [
+                                                                         "Source page title \r\nidentifies James Turrell’s Afrum, Pale Blue, 1968",
+                                                                         "Nearby page text provides the work title, artist, date, \r\nphotographer, and Chichu Art Museum courtesy",
+                                                                         "Direct image candidate is the visible article image"
+                                                                     ],
+                                                "confidence":  0.99
+                                            },
+                      "alternatives":  [
+
+                                       ],
+                      "limitations":  [
+
+                                      ]
+                  },
+                  {
+                      "workId":  "james-turrell-open-sky-2004",
+                      "status":  "candidate_found",
+                      "sourcePageUrl":  "https://artsandculture.google.com/asset/chichu-art-museum-naoshima-architect-tadao-ando-james-turrell-and-photographe\r\nr-john-barr/7QHAAu509lZDSw",
+                      "selectedImage":  {
+                                            "candidateId":  "page-image-003",
+                                            "imageUrl":  null,
+                                            "candidateType":  "page_image\r\n_element",
+                                            "imageRole":  "architecture_view",
+                                            "caption":  "Chichu Art Museum, Naoshima — showing James Turrell’s Open \r\nSky",
+                                            "identityEvidence":  [
+                                                                     "Google Arts \u0026 Culture page description explicitly states the image shows James Turrell’s \r\nOpen Sky",
+                                                                     "Large visible page image element is the primary image",
+                                                                     "Source metadata identifies Chichu Art Museum, \r\nNaoshima"
+                                                                 ],
+                                            "confidence":  0.9
+                                        },
+                      "alternatives":  [
+
+                                       ],
+                      "limitations":  [
+
+                                      ]
+                  }
+              ]
+}

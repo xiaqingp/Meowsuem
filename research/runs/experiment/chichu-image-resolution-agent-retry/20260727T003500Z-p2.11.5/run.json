@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "filesystemContractVersion": 1,
+  "runKind": "experiment",
+  "runId": "20260727T003500Z-p2.11.5",
+  "caseId": "chichu-image-resolution-agent-retry",
+  "milestone": "M31",
+  "pipelineVersion": "2.11.5",
+  "instructionVersion": "2.4.0",
+  "status": "running",
+  "createdAt": "2026-07-27T00:35:00.000Z",
+  "createdBy": "scripts/create-generation-run.mjs",
+  "layoutVersion": 1,
+  "immutable": false,
+  "contentContract": "one_shot_v1",
+  "allowLegacyAuthorBundles": false,
+  "legacyWorkIds": [],
+  "legacyImageResolutionAllowed": false,
+  "updatedAt": "2026-07-27T04:32:48.480Z"
+}

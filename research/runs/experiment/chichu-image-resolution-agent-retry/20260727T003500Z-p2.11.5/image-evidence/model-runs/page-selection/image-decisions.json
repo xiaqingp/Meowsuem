@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  2,
+    "works":  [
+                  {
+                      "workId":  "...",
+                      "status":  "candidate_found|not_found",
+                      "sourcePageUrl":  "...",
+                      "selectedImage":  {
+                                            "candidateId":  "...",
+                                            "imageUrl":  "...",
+                                            "candidateType":  "direct_image|page_image_element",
+                                            "imageRole":  "object_view|instal\r\nlation_view|context_view|architecture_view|museum_only|unknown",
+                                            "caption":  "...",
+                                            "identityEvidence":  [
+                                                                     "..."
+                                                                 ],
+                                            "confidence":  0.0
+                                        },
+                      "alternatives":  [
+
+                                       ],
+                      "limitations":  [
+
+                                      ]
+                  }
+              ]
+}

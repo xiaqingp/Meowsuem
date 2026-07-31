@@ -1,0 +1,856 @@
+{
+  "schemaVersion": 1,
+  "stage": "verified_image_evidence",
+  "museumId": "chichuartmuseum",
+  "pipelineVersion": "2.11.5",
+  "generatedAt": "2026-07-26T22:36:00.843Z",
+  "parentRunId": "20260726T165828Z-p2.11.4",
+  "resolver": {
+    "version": 1,
+    "mode": "two_level",
+    "fastPath": "official_object_url",
+    "modelPolicy": "all_unresolved_to_ai",
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium"
+  },
+  "summary": {
+    "works": 10,
+    "fastPathAccepted": 0,
+    "aiResearchTriggered": 10,
+    "aiAccepted": 5,
+    "contextImagesAccepted": 1,
+    "objectImageAccepted": 4,
+    "unresolved": 5,
+    "providerUnavailable": 0,
+    "duplicateObjectImageGroups": [],
+    "modelCalls": 1,
+    "modelTokens": 110596
+  },
+  "modelRun": {
+    "runRoot": "research/runs/experiment/chichu-image-resolution-agent-test/20260726T200000Z-p2.11.5/image-evidence/model-run",
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium",
+    "durationMs": null,
+    "tokens": 110596
+  },
+  "works": [
+    {
+      "workId": "claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919",
+      "identity": {
+        "museumId": "chichuartmuseum",
+        "workId": "claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919",
+        "objectType": "single_work",
+        "titleZh": "睡莲——垂柳倒影",
+        "titleEn": "Water Lilies, Reflections of Weeping Willows",
+        "creator": "Claude Monet / 克洛德·莫奈",
+        "artistOrCulture": "Claude Monet / 克洛德·莫奈",
+        "displayDate": "1916-19",
+        "medium": "Oil on canvas, 100 × 200 cm",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "accessionNumber": null,
+        "collectionGroup": "Claude Monet permanent Water Lilies group",
+        "title": "Water Lilies, Reflections of Weeping Willows",
+        "identityAnchor": "claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+        "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://benesse-artsite.jp/header_brand.svg",
+          "https://benesse-artsite.jp/common/img/header_brand_fixed.svg",
+          "https://benesse-artsite.jp/header_icon_nav_close.svg",
+          "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+          "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_sp.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/chichu/artist_monet.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/artist_demaria.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/chichu/artist_turrell.jpg",
+          "https://benesse-artsite.jp/en/art/chichu_architecture_thumb_01.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/cafe.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/store.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/ticketcenter.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/garden.jpg",
+          "https://benesse-artsite.jp/common/img/icon_social_facebook.png",
+          "https://benesse-artsite.jp/common/img/icon_social_youtube.png",
+          "https://benesse-artsite.jp/common/img/icon_social_instagram.png",
+          "https://benesse-artsite.jp/common/img/icon_social_twitter.png",
+          "https://benesse-artsite.jp/common/img/footer_logo_img.svg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Nympheas%2C_reflets_de_saule_-_Water-Lilies%2C_Reflections_of_Weeping_Willows_%281916-19%29_Claude_Monet_-_Chichu_Museum_of_Art_%28W_1857%29.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Nympheas,_reflets_de_saule_-_Water-Lilies,_Reflections_of_Weeping_Willows_(1916-19)_Claude_Monet_-_Chichu_Museum_of_Art_(W_1857).jpg",
+        "sourceType": "wikimedia",
+        "caption": "Claude Monet, Water Lilies, Reflections of Weeping Willows, 1916–19, Chichu Art Museum, W1857.",
+        "identityEvidence": [
+          "The Wikimedia page explicitly identifies the title, dates, dimensions, Chichu Museum collection, and catalog number W1857.",
+          "The Chichu official page lists the same work and dates."
+        ],
+        "confidence": 0.99,
+        "localPath": "research/runs/experiment/chichu-image-resolution-agent-test/20260726T200000Z-p2.11.5/image-evidence/assets/claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919.jpg",
+        "sha256": "4741918b5eed4310acc4a685f390f42d8ff7380244212b7b6be87e6ca9eefc80",
+        "width": 955,
+        "height": 487,
+        "contentType": "image/jpeg",
+        "method": "ai_image_research",
+        "provider": "wikimedia",
+        "evidenceId": "img:chichuartmuseum:claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919:4741918b5eed"
+      },
+      "warnings": [],
+      "durationMs": 3332,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "claude-monet-water-lilies-reflections-of-weeping-willows-1916-1919",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nympheas,_reflets_de_saule_-_Water-Lilies,_Reflections_of_Weeping_Willows_(1916-19)_Claude_Monet_-_Chichu_Museum_of_Art_(W_1857).jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Nympheas,_reflets_de_saule_-_Water-Lilies,_Reflections_of_Weeping_Willows_(1916-19)_Claude_Monet_-_Chichu_Museum_of_Art_(W_1857).jpg",
+          "sourceType": "wikimedia",
+          "caption": "Claude Monet, Water Lilies, Reflections of Weeping Willows, 1916–19, Chichu Art Museum, W1857.",
+          "identityEvidence": [
+            "The Wikimedia page explicitly identifies the title, dates, dimensions, Chichu Museum collection, and catalog number W1857.",
+            "The Chichu official page lists the same work and dates."
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      }
+    },
+    {
+      "workId": "claude-monet-water-lily-pond-1917-1919",
+      "identity": {
+        "museumId": "chichuartmuseum",
+        "workId": "claude-monet-water-lily-pond-1917-1919",
+        "objectType": "single_work",
+        "titleZh": "睡莲池",
+        "titleEn": "Water-Lily Pond",
+        "creator": "Claude Monet / 克洛德·莫奈",
+        "artistOrCulture": "Claude Monet / 克洛德·莫奈",
+        "displayDate": "1917-19",
+        "medium": "Oil on canvas, 100 × 200 cm",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "accessionNumber": null,
+        "collectionGroup": "Claude Monet permanent Water Lilies group",
+        "title": "Water-Lily Pond",
+        "identityAnchor": "claude-monet-water-lily-pond-1917-1919"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+        "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://benesse-artsite.jp/header_brand.svg",
+          "https://benesse-artsite.jp/common/img/header_brand_fixed.svg",
+          "https://benesse-artsite.jp/header_icon_nav_close.svg",
+          "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+          "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_sp.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/chichu/artist_monet.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/artist_demaria.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/chichu/artist_turrell.jpg",
+          "https://benesse-artsite.jp/en/art/chichu_architecture_thumb_01.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/cafe.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/store.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/ticketcenter.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/garden.jpg",
+          "https://benesse-artsite.jp/common/img/icon_social_facebook.png",
+          "https://benesse-artsite.jp/common/img/icon_social_youtube.png",
+          "https://benesse-artsite.jp/common/img/icon_social_instagram.png",
+          "https://benesse-artsite.jp/common/img/icon_social_twitter.png",
+          "https://benesse-artsite.jp/common/img/footer_logo_img.svg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/The_Water_Lily_Pond_%281917-1919%29_Claude_Monet_-_Chichu_Art_Museum_%28W1896%29.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:The_Water_Lily_Pond_(1917-1919)_Claude_Monet_-_Chichu_Art_Museum_(W1896).jpg",
+        "sourceType": "wikimedia",
+        "caption": "Claude Monet, The Water Lily Pond, 1917–19, Chichu Art Museum, W1896.",
+        "identityEvidence": [
+          "The Wikimedia page gives the title, date, dimensions, collection, and catalog number W1896.",
+          "The Chichu official page lists Water-Lily Pond, 1917–19."
+        ],
+        "confidence": 0.99,
+        "localPath": "research/runs/experiment/chichu-image-resolution-agent-test/20260726T200000Z-p2.11.5/image-evidence/assets/claude-monet-water-lily-pond-1917-1919.jpg",
+        "sha256": "1ef30027460dba6a1da98673804245a806c245a7276fcfdacf1a56ee08905ea7",
+        "width": 992,
+        "height": 500,
+        "contentType": "image/jpeg",
+        "method": "ai_image_research",
+        "provider": "wikimedia",
+        "evidenceId": "img:chichuartmuseum:claude-monet-water-lily-pond-1917-1919:1ef30027460d"
+      },
+      "warnings": [],
+      "durationMs": 3400,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "claude-monet-water-lily-pond-1917-1919",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Water_Lily_Pond_(1917-1919)_Claude_Monet_-_Chichu_Art_Museum_(W1896).jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:The_Water_Lily_Pond_(1917-1919)_Claude_Monet_-_Chichu_Art_Museum_(W1896).jpg",
+          "sourceType": "wikimedia",
+          "caption": "Claude Monet, The Water Lily Pond, 1917–19, Chichu Art Museum, W1896.",
+          "identityEvidence": [
+            "The Wikimedia page gives the title, date, dimensions, collection, and catalog number W1896.",
+            "The Chichu official page lists Water-Lily Pond, 1917–19."
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      }
+    },
+    {
+      "workId": "walter-de-maria-time-timeless-no-time-2004",
+      "identity": {
+        "museumId": "chichuartmuseum",
+        "workId": "walter-de-maria-time-timeless-no-time-2004",
+        "objectType": "room_scale_installation",
+        "titleZh": "时间／无时／无时间",
+        "titleEn": "Time/Timeless/No Time",
+        "creator": "Walter De Maria / 沃尔特·德·玛利亚",
+        "artistOrCulture": "Walter De Maria / 沃尔特·德·玛利亚",
+        "displayDate": "2004",
+        "medium": "Granite, mahogany, gold leaf, concrete; sphere and 27 gilded wooden geometric forms",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "accessionNumber": null,
+        "collectionGroup": "Walter De Maria permanent installation",
+        "title": "Time/Timeless/No Time",
+        "identityAnchor": "walter-de-maria-time-timeless-no-time-2004"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+        "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://benesse-artsite.jp/header_brand.svg",
+          "https://benesse-artsite.jp/common/img/header_brand_fixed.svg",
+          "https://benesse-artsite.jp/header_icon_nav_close.svg",
+          "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+          "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_sp.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/chichu/artist_monet.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/artist_demaria.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/chichu/artist_turrell.jpg",
+          "https://benesse-artsite.jp/en/art/chichu_architecture_thumb_01.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/cafe.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/store.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/ticketcenter.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/garden.jpg",
+          "https://benesse-artsite.jp/common/img/icon_social_facebook.png",
+          "https://benesse-artsite.jp/common/img/icon_social_youtube.png",
+          "https://benesse-artsite.jp/common/img/icon_social_instagram.png",
+          "https://benesse-artsite.jp/common/img/icon_social_twitter.png",
+          "https://benesse-artsite.jp/common/img/footer_logo_img.svg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "AI candidate download failed: asset is not an allowed image MIME: text/html"
+      ],
+      "durationMs": 3584,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "walter-de-maria-time-timeless-no-time-2004",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://artsandculture.google.com/asset/%E2%80%9Ctime-timeless-no-time%E2%80%9D-2004-walter-de-maria-chichu-art-museum-tadao-ando/EwEmdBYaTmcp3g?hl=en",
+          "sourcePageUrl": "https://artsandculture.google.com/asset/%E2%80%9Ctime-timeless-no-time%E2%80%9D-2004-walter-de-maria-chichu-art-museum-tadao-ando/EwEmdBYaTmcp3g?hl=en",
+          "sourceType": "publication",
+          "caption": "Time/Timeless/No Time, 2004, Walter De Maria, Chichu Art Museum.",
+          "identityEvidence": [
+            "Google Arts & Culture identifies the work by title, artist, date, location in Naoshima, and Chichu Art Museum context.",
+            "The official Chichu page describes the same installation as a sphere and 27 gilded wooden geometric forms."
+          ],
+          "confidence": 0.98
+        },
+        "alternatives": [],
+        "limitations": [
+          "The public source presents the image through an interactive image page rather than a simple downloadable image URL."
+        ]
+      }
+    },
+    {
+      "workId": "claude-monet-water-lilies-cluster-of-grass-1914-1917",
+      "identity": {
+        "museumId": "chichuartmuseum",
+        "workId": "claude-monet-water-lilies-cluster-of-grass-1914-1917",
+        "objectType": "single_work",
+        "titleZh": "睡莲——草丛",
+        "titleEn": "Water Lilies, Cluster of Grass",
+        "creator": "Claude Monet / 克洛德·莫奈",
+        "artistOrCulture": "Claude Monet / 克洛德·莫奈",
+        "displayDate": "1914-17",
+        "medium": "Oil on canvas, 200 × 213 cm",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "accessionNumber": null,
+        "collectionGroup": "Claude Monet permanent Water Lilies group",
+        "title": "Water Lilies, Cluster of Grass",
+        "identityAnchor": "claude-monet-water-lilies-cluster-of-grass-1914-1917"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+        "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://benesse-artsite.jp/header_brand.svg",
+          "https://benesse-artsite.jp/common/img/header_brand_fixed.svg",
+          "https://benesse-artsite.jp/header_icon_nav_close.svg",
+          "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+          "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_sp.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/chichu/artist_monet.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/artist_demaria.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/chichu/artist_turrell.jpg",
+          "https://benesse-artsite.jp/en/art/chichu_architecture_thumb_01.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/cafe.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/store.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/ticketcenter.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/garden.jpg",
+          "https://benesse-artsite.jp/common/img/icon_social_facebook.png",
+          "https://benesse-artsite.jp/common/img/icon_social_youtube.png",
+          "https://benesse-artsite.jp/common/img/icon_social_instagram.png",
+          "https://benesse-artsite.jp/common/img/icon_social_twitter.png",
+          "https://benesse-artsite.jp/common/img/footer_logo_img.svg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Monet-Water-lilies-cluster-of-grass-Chichu-museum.tif",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Monet-Water-lilies-cluster-of-grass-Chichu-museum.tif",
+        "sourceType": "wikimedia",
+        "caption": "Claude Monet, Water Lilies, Cluster of Grass, 1914–17, Chichu Art Museum.",
+        "identityEvidence": [
+          "Wikidata identifies the work as Claude Monet’s Water Lilies, Cluster of Grass, catalog code 1817, located at Chichu Art Museum.",
+          "The Wikimedia file is explicitly named for this work and museum."
+        ],
+        "confidence": 0.99,
+        "localPath": "research/runs/experiment/chichu-image-resolution-agent-test/20260726T200000Z-p2.11.5/image-evidence/assets/claude-monet-water-lilies-cluster-of-grass-1914-1917.tif",
+        "sha256": "a6a55de64ad1aee9488ee9c0a7412251c07916a5c1b001bd5b2c1c0e50d13011",
+        "width": 1969,
+        "height": 1849,
+        "contentType": "image/tiff",
+        "method": "ai_image_research",
+        "provider": "wikimedia",
+        "evidenceId": "img:chichuartmuseum:claude-monet-water-lilies-cluster-of-grass-1914-1917:a6a55de64ad1"
+      },
+      "warnings": [],
+      "durationMs": 3658,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "claude-monet-water-lilies-cluster-of-grass-1914-1917",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Monet-Water-lilies-cluster-of-grass-Chichu-museum.tif",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Monet-Water-lilies-cluster-of-grass-Chichu-museum.tif",
+          "sourceType": "wikimedia",
+          "caption": "Claude Monet, Water Lilies, Cluster of Grass, 1914–17, Chichu Art Museum.",
+          "identityEvidence": [
+            "Wikidata identifies the work as Claude Monet’s Water Lilies, Cluster of Grass, catalog code 1817, located at Chichu Art Museum.",
+            "The Wikimedia file is explicitly named for this work and museum."
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      }
+    },
+    {
+      "workId": "claude-monet-water-lily-pond-c-1915-1926",
+      "identity": {
+        "museumId": "chichuartmuseum",
+        "workId": "claude-monet-water-lily-pond-c-1915-1926",
+        "objectType": "single_work",
+        "titleZh": "睡莲池",
+        "titleEn": "Water-Lily Pond",
+        "creator": "Claude Monet / 克洛德·莫奈",
+        "artistOrCulture": "Claude Monet / 克洛德·莫奈",
+        "displayDate": "c.1915-26",
+        "medium": "Oil on canvas, diptych; each panel 200 × 300 cm",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "accessionNumber": null,
+        "collectionGroup": "Claude Monet permanent Water Lilies group",
+        "title": "Water-Lily Pond",
+        "identityAnchor": "claude-monet-water-lily-pond-c-1915-1926"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+        "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://benesse-artsite.jp/header_brand.svg",
+          "https://benesse-artsite.jp/common/img/header_brand_fixed.svg",
+          "https://benesse-artsite.jp/header_icon_nav_close.svg",
+          "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+          "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_sp.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/chichu/artist_monet.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/artist_demaria.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/chichu/artist_turrell.jpg",
+          "https://benesse-artsite.jp/en/art/chichu_architecture_thumb_01.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/cafe.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/store.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/ticketcenter.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/garden.jpg",
+          "https://benesse-artsite.jp/common/img/icon_social_facebook.png",
+          "https://benesse-artsite.jp/common/img/icon_social_youtube.png",
+          "https://benesse-artsite.jp/common/img/icon_social_instagram.png",
+          "https://benesse-artsite.jp/common/img/icon_social_twitter.png",
+          "https://benesse-artsite.jp/common/img/footer_logo_img.svg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Monet_Waterlilypond_1926.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Monet_Waterlilypond_1926.jpg",
+        "sourceType": "wikimedia",
+        "caption": "Claude Monet, Water-Lily Pond, c. 1915–26, Chichu Art Museum.",
+        "identityEvidence": [
+          "The Wikimedia file identifies the source as Chichu Art Museum and the subject as Water-Lily Pond.",
+          "The Chichu official page lists Water-Lily Pond, c.1915–26, as one of its five Monet works."
+        ],
+        "confidence": 0.96,
+        "localPath": "research/runs/experiment/chichu-image-resolution-agent-test/20260726T200000Z-p2.11.5/image-evidence/assets/claude-monet-water-lily-pond-c-1915-1926.jpg",
+        "sha256": "c6113fab801c7cf5abf2453fb15bb8016029e3308229c12b7e362cb34958e306",
+        "width": 650,
+        "height": 213,
+        "contentType": "image/jpeg",
+        "method": "ai_image_research",
+        "provider": "wikimedia",
+        "evidenceId": "img:chichuartmuseum:claude-monet-water-lily-pond-c-1915-1926:c6113fab801c"
+      },
+      "warnings": [],
+      "durationMs": 3675,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "claude-monet-water-lily-pond-c-1915-1926",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Monet_Waterlilypond_1926.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Monet_Waterlilypond_1926.jpg",
+          "sourceType": "wikimedia",
+          "caption": "Claude Monet, Water-Lily Pond, c. 1915–26, Chichu Art Museum.",
+          "identityEvidence": [
+            "The Wikimedia file identifies the source as Chichu Art Museum and the subject as Water-Lily Pond.",
+            "The Chichu official page lists Water-Lily Pond, c.1915–26, as one of its five Monet works."
+          ],
+          "confidence": 0.96
+        },
+        "alternatives": [],
+        "limitations": []
+      }
+    },
+    {
+      "workId": "claude-monet-water-lilies-1914-1917",
+      "identity": {
+        "museumId": "chichuartmuseum",
+        "workId": "claude-monet-water-lilies-1914-1917",
+        "objectType": "single_work",
+        "titleZh": "睡莲",
+        "titleEn": "Water Lilies",
+        "creator": "Claude Monet / 克洛德·莫奈",
+        "artistOrCulture": "Claude Monet / 克洛德·莫奈",
+        "displayDate": "1914-17",
+        "medium": "Oil on canvas, 200 × 200 cm",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "accessionNumber": null,
+        "collectionGroup": "Claude Monet permanent Water Lilies group",
+        "title": "Water Lilies",
+        "identityAnchor": "claude-monet-water-lilies-1914-1917"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+        "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://benesse-artsite.jp/header_brand.svg",
+          "https://benesse-artsite.jp/common/img/header_brand_fixed.svg",
+          "https://benesse-artsite.jp/header_icon_nav_close.svg",
+          "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+          "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_sp.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/chichu/artist_monet.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/artist_demaria.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/chichu/artist_turrell.jpg",
+          "https://benesse-artsite.jp/en/art/chichu_architecture_thumb_01.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/cafe.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/store.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/ticketcenter.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/garden.jpg",
+          "https://benesse-artsite.jp/common/img/icon_social_facebook.png",
+          "https://benesse-artsite.jp/common/img/icon_social_youtube.png",
+          "https://benesse-artsite.jp/common/img/icon_social_instagram.png",
+          "https://benesse-artsite.jp/common/img/icon_social_twitter.png",
+          "https://benesse-artsite.jp/common/img/footer_logo_img.svg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "AI candidate download failed: image returned 429"
+      ],
+      "durationMs": 3684,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "claude-monet-water-lilies-1914-1917",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Monet-Water-lilies-Chichu-museum.tif",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Monet-Water-lilies-Chichu-museum.tif",
+          "sourceType": "wikimedia",
+          "caption": "Claude Monet, Water Lilies, 1914–17, Chichu Art Museum.",
+          "identityEvidence": [
+            "The Wikimedia file is identified as Claude Monet’s Water Lilies and is categorized among Monet’s water lilies in the Chichu Art Museum.",
+            "The Chichu official page lists Water Lilies, 1914–17, with the matching 200 × 200 cm work identity."
+          ],
+          "confidence": 0.96
+        },
+        "alternatives": [],
+        "limitations": []
+      }
+    },
+    {
+      "workId": "james-turrell-open-field-2000",
+      "identity": {
+        "museumId": "chichuartmuseum",
+        "workId": "james-turrell-open-field-2000",
+        "objectType": "room_scale_installation",
+        "titleZh": "开放场域",
+        "titleEn": "Open Field",
+        "creator": "James Turrell / 詹姆斯·特瑞尔",
+        "artistOrCulture": "James Turrell / 詹姆斯·特瑞尔",
+        "displayDate": "2000",
+        "medium": "Fluorescent light, neon tube",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "accessionNumber": null,
+        "collectionGroup": "James Turrell permanent light installation group",
+        "title": "Open Field",
+        "identityAnchor": "james-turrell-open-field-2000"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+        "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://benesse-artsite.jp/header_brand.svg",
+          "https://benesse-artsite.jp/common/img/header_brand_fixed.svg",
+          "https://benesse-artsite.jp/header_icon_nav_close.svg",
+          "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+          "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_sp.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/chichu/artist_monet.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/artist_demaria.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/chichu/artist_turrell.jpg",
+          "https://benesse-artsite.jp/en/art/chichu_architecture_thumb_01.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/cafe.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/store.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/ticketcenter.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/garden.jpg",
+          "https://benesse-artsite.jp/common/img/icon_social_facebook.png",
+          "https://benesse-artsite.jp/common/img/icon_social_youtube.png",
+          "https://benesse-artsite.jp/common/img/icon_social_instagram.png",
+          "https://benesse-artsite.jp/common/img/icon_social_twitter.png",
+          "https://benesse-artsite.jp/common/img/footer_logo_img.svg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "AI candidate download failed: asset is not an allowed image MIME: text/html"
+      ],
+      "durationMs": 2956,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "james-turrell-open-field-2000",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://artsandculture.google.com/asset/open-field-2000-james-turrel-chichu-art-museum-tadao-ando/1QEVcCgYYo-G8g?hl=en",
+          "sourcePageUrl": "https://artsandculture.google.com/asset/open-field-2000-james-turrel-chichu-art-museum-tadao-ando/1QEVcCgYYo-G8g?hl=en",
+          "sourceType": "publication",
+          "caption": "Open Field, 2000, James Turrell, Chichu Art Museum.",
+          "identityEvidence": [
+            "Google Arts & Culture identifies the asset as Open Field, 2000, by James Turrell, at Chichu Art Museum.",
+            "The Chichu official page lists Open Field, 2000, as a permanent Turrell work."
+          ],
+          "confidence": 0.98
+        },
+        "alternatives": [],
+        "limitations": [
+          "The public source presents the image through an interactive image page rather than a simple downloadable image URL."
+        ]
+      }
+    },
+    {
+      "workId": "james-turrell-afrum-pale-blue-1968",
+      "identity": {
+        "museumId": "chichuartmuseum",
+        "workId": "james-turrell-afrum-pale-blue-1968",
+        "objectType": "room_scale_installation",
+        "titleZh": "Afrum，浅蓝",
+        "titleEn": "Afrum, Pale Blue",
+        "creator": "James Turrell / 詹姆斯·特瑞尔",
+        "artistOrCulture": "James Turrell / 詹姆斯·特瑞尔",
+        "displayDate": "1968",
+        "medium": "Projector",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "accessionNumber": null,
+        "collectionGroup": "James Turrell permanent light installation group",
+        "title": "Afrum, Pale Blue",
+        "identityAnchor": "james-turrell-afrum-pale-blue-1968"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+        "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://benesse-artsite.jp/header_brand.svg",
+          "https://benesse-artsite.jp/common/img/header_brand_fixed.svg",
+          "https://benesse-artsite.jp/header_icon_nav_close.svg",
+          "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+          "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_sp.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/chichu/artist_monet.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/artist_demaria.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/chichu/artist_turrell.jpg",
+          "https://benesse-artsite.jp/en/art/chichu_architecture_thumb_01.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/cafe.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/store.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/ticketcenter.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/garden.jpg",
+          "https://benesse-artsite.jp/common/img/icon_social_facebook.png",
+          "https://benesse-artsite.jp/common/img/icon_social_youtube.png",
+          "https://benesse-artsite.jp/common/img/icon_social_instagram.png",
+          "https://benesse-artsite.jp/common/img/icon_social_twitter.png",
+          "https://benesse-artsite.jp/common/img/footer_logo_img.svg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "AI candidate download failed: asset is not an allowed image MIME: text/html"
+      ],
+      "durationMs": 3081,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "james-turrell-afrum-pale-blue-1968",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://unpointculture.wordpress.com/2016/02/16/larchitecture-comme-paysage-et-lieu-de-loeuvre-tadao-ando-au-chichu-art-museum-de-naoshima/images-1-2/",
+          "sourcePageUrl": "https://unpointculture.wordpress.com/2016/02/16/larchitecture-comme-paysage-et-lieu-de-loeuvre-tadao-ando-au-chichu-art-museum-de-naoshima/images-1-2/",
+          "sourceType": "publication",
+          "caption": "James Turrell, Afrum, Pale Blue, 1968, Chichu Art Museum; image courtesy of Chichu Art Museum.",
+          "identityEvidence": [
+            "The publication page explicitly names Afrum, Pale Blue, dates it to 1968, and attributes the image to Chichu Art Museum.",
+            "The official Chichu page lists Afrum, Pale Blue, 1968, as a permanent Turrell work."
+          ],
+          "confidence": 0.9
+        },
+        "alternatives": [],
+        "limitations": [
+          "The public source presents the image through a publication image page rather than a direct image-file URL."
+        ]
+      }
+    },
+    {
+      "workId": "james-turrell-open-sky-2004",
+      "identity": {
+        "museumId": "chichuartmuseum",
+        "workId": "james-turrell-open-sky-2004",
+        "objectType": "architectural_viewing_node",
+        "titleZh": "开放天空",
+        "titleEn": "Open Sky",
+        "creator": "James Turrell / 詹姆斯·特瑞尔",
+        "artistOrCulture": "James Turrell / 詹姆斯·特瑞尔",
+        "displayDate": "2004",
+        "medium": "LED, xenon lamps; architectural viewing space",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "accessionNumber": null,
+        "collectionGroup": "James Turrell permanent light installation group",
+        "title": "Open Sky",
+        "identityAnchor": "james-turrell-open-sky-2004"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+        "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://benesse-artsite.jp/header_brand.svg",
+          "https://benesse-artsite.jp/common/img/header_brand_fixed.svg",
+          "https://benesse-artsite.jp/header_icon_nav_close.svg",
+          "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+          "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_sp.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/chichu/artist_monet.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/artist_demaria.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/chichu/artist_turrell.jpg",
+          "https://benesse-artsite.jp/en/art/chichu_architecture_thumb_01.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/cafe.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/store.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/ticketcenter.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/garden.jpg",
+          "https://benesse-artsite.jp/common/img/icon_social_facebook.png",
+          "https://benesse-artsite.jp/common/img/icon_social_youtube.png",
+          "https://benesse-artsite.jp/common/img/icon_social_instagram.png",
+          "https://benesse-artsite.jp/common/img/icon_social_twitter.png",
+          "https://benesse-artsite.jp/common/img/footer_logo_img.svg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "AI candidate download failed: asset is not an allowed image MIME: text/html"
+      ],
+      "durationMs": 3852,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "james-turrell-open-sky-2004",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://artsandculture.google.com/asset/chichu-art-museum-naoshima-architect-tadao-ando-james-turrell-and-photographer-john-barr/7QHAAu509lZDSw",
+          "sourcePageUrl": "https://artsandculture.google.com/asset/chichu-art-museum-naoshima-architect-tadao-ando-james-turrell-and-photographer-john-barr/7QHAAu509lZDSw",
+          "sourceType": "publication",
+          "caption": "Chichu Art Museum, Naoshima, showing James Turrell’s Open Sky installation.",
+          "identityEvidence": [
+            "Google Arts & Culture identifies the image as a Chichu Art Museum installation showing James Turrell’s Open Sky.",
+            "The official Chichu page lists Open Sky, 2004, and describes its skyspace viewing program."
+          ],
+          "confidence": 0.9
+        },
+        "alternatives": [],
+        "limitations": [
+          "The source is a museum-level installation photograph and does not expose a simple direct image-file URL."
+        ]
+      }
+    },
+    {
+      "workId": "chichu-art-museum-underground-architecture-and-site-context",
+      "identity": {
+        "museumId": "chichuartmuseum",
+        "workId": "chichu-art-museum-underground-architecture-and-site-context",
+        "objectType": "museum_level_context",
+        "titleZh": "地中美术馆地下建筑与场域语境",
+        "titleEn": "Chichu Art Museum underground architecture and site context",
+        "creator": "Tadao Ando / 安藤忠雄；与 Claude Monet、James Turrell、Walter De Maria 的场域协作",
+        "artistOrCulture": "Tadao Ando / 安藤忠雄；与 Claude Monet、James Turrell、Walter De Maria 的场域协作",
+        "displayDate": "2004",
+        "medium": "Underground museum architecture using concrete, steel, glass, and wood",
+        "officialObjectUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "identitySourceUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "accessionNumber": null,
+        "collectionGroup": "Chichu Art Museum architectural and site-specific context; not a collection object",
+        "title": "Chichu Art Museum underground architecture and site context",
+        "identityAnchor": "chichu-art-museum-underground-architecture-and-site-context"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Chichu Art Museum | Art | Benesse Art Site Naoshima",
+        "finalUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://benesse-artsite.jp/header_brand.svg",
+          "https://benesse-artsite.jp/common/img/header_brand_fixed.svg",
+          "https://benesse-artsite.jp/header_icon_nav_close.svg",
+          "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_pc.jpg",
+          "https://benesse-artsite.jp/en/art/chichu_kv_thumb_01_sp.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/chichu/artist_monet.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/artist_demaria.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/chichu/artist_turrell.jpg",
+          "https://benesse-artsite.jp/en/art/chichu_architecture_thumb_01.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/cafe.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/store.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/ticketcenter.jpg",
+          "https://benesse-artsite.jp/en/art/uploads/art/garden.jpg",
+          "https://benesse-artsite.jp/common/img/icon_social_facebook.png",
+          "https://benesse-artsite.jp/common/img/icon_social_youtube.png",
+          "https://benesse-artsite.jp/common/img/icon_social_instagram.png",
+          "https://benesse-artsite.jp/common/img/icon_social_twitter.png",
+          "https://benesse-artsite.jp/common/img/footer_logo_img.svg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "context_image_accepted",
+      "objectImageResolved": false,
+      "imagePolicy": "context_image",
+      "selected": {
+        "url": "https://benesse-artsite.jp/en/art/chichu_architecture_thumb_01.jpg",
+        "sourcePageUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+        "sourceType": "official_museum",
+        "caption": "Chichu Art Museum underground architecture and site context, designed by Tadao Ando, 2004.",
+        "identityEvidence": [
+          "The image is served directly from the official Benesse Art Site Chichu architecture page.",
+          "The official page identifies Tadao Ando as architect and describes the museum as built almost entirely underground using concrete, steel, glass, and wood."
+        ],
+        "confidence": 0.99,
+        "localPath": "research/runs/experiment/chichu-image-resolution-agent-test/20260726T200000Z-p2.11.5/image-evidence/assets/chichu-art-museum-underground-architecture-and-site-context.jpg",
+        "sha256": "a8385b47d436658d4724c2640dae7dcfcbb540f5348c41f6244227fc9cd44d38",
+        "width": 1001,
+        "height": 1990,
+        "contentType": "image/jpeg",
+        "method": "ai_image_research",
+        "provider": "official_museum",
+        "evidenceId": "img:chichuartmuseum:chichu-art-museum-underground-architecture-and-site-context:a8385b47d436"
+      },
+      "warnings": [],
+      "durationMs": 3846,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "chichu-art-museum-underground-architecture-and-site-context",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://benesse-artsite.jp/en/art/chichu_architecture_thumb_01.jpg",
+          "sourcePageUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+          "sourceType": "official_museum",
+          "caption": "Chichu Art Museum underground architecture and site context, designed by Tadao Ando, 2004.",
+          "identityEvidence": [
+            "The image is served directly from the official Benesse Art Site Chichu architecture page.",
+            "The official page identifies Tadao Ando as architect and describes the museum as built almost entirely underground using concrete, steel, glass, and wood."
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "museumId": "chichuartmuseum",
+  "museumName": "地中美术馆 / Chichu Art Museum",
+  "city": "直岛 / Naoshima",
+  "country": "日本 / Japan",
+  "officialCollectionUrl": "https://benesse-artsite.jp/en/art/chichu.html",
+  "editorialCapacity": {
+    "count": 20,
+    "reason": "本馆是单一馆址、规模紧凑且以三位艺术家的常设作品和一座与作品共同构成的建筑为核心。官方对象页明确列出莫奈五幅《睡莲》系列绘画、沃尔特·德·玛利亚一件整体性空间作品，以及詹姆斯·特瑞尔三件作品；20件容量足以覆盖这些核心作品、建筑与观看逻辑，并保留少量用于解释馆址和收藏形成的条目，不需要扩展到30件以上。"
+  },
+  "collectionBoundaries": [
+    {
+      "name": "地中美术馆主馆址与其馆内常设展示",
+      "location": "香川县香川郡直岛町3449-1，邮编761-3110；直岛南部的地中美术馆建筑",
+      "status": "included",
+      "candidatePool": true,
+      "scope": "纳入主馆建筑内部的常设艺术展示及其与作品不可分割的场域关系。"
+    },
+    {
+      "name": "Claude Monet 常设组",
+      "location": "地中美术馆主馆内",
+      "status": "included",
+      "candidatePool": true,
+      "scope": "官方列出的《睡莲》系列五幅晚年绘画。"
+    },
+    {
+      "name": "James Turrell 常设组",
+      "location": "地中美术馆主馆内",
+      "status": "included",
+      "candidatePool": true,
+      "scope": "官方列出的三件作品：Afrum, Pale Blue（1968）、Open Field（2000）、Open Sky（2004）。"
+    },
+    {
+      "name": "Walter De Maria 常设组",
+      "location": "地中美术馆主馆内",
+      "status": "included",
+      "candidatePool": true,
+      "scope": "官方列出的 Time/Timeless/No Time（2004）及其整体空间呈现。"
+    },
+    {
+      "name": "Tadao Ando 建筑与场域",
+      "location": "地中美术馆主馆址",
+      "status": "included_as_context",
+      "candidatePool": false,
+      "scope": "作为馆级建筑和场域语境纳入研究；不把建筑误列为馆藏对象。"
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Benesse House Museum",
+      "reason": "官方艺术总览列为直岛的独立馆舍，不属于地中美术馆主馆址。"
+    },
+    {
+      "name": "李禹焕美术馆、Hiroshi Sugimoto Gallery: Time Corridors、直岛新美术馆、家计划、ANDO MUSEUM、Ring of Fire、Miyanoura Gallery 6、直岛澡堂“I♥湯”及其他直岛设施",
+      "reason": "官方艺术总览将其分别列为独立设施或项目；它们不进入本馆候选池。"
+    },
+    {
+      "name": "丰岛、犬岛及其他岛屿的艺术设施",
+      "reason": "官方站点按岛屿分别组织设施；不属于直岛地中美术馆的馆址边界。"
+    },
+    {
+      "name": "地中美术馆 Ticket Center、Chichu Cafe、Chichu Store、Chichu Garden",
+      "reason": "它们是票务、餐饮、商店或附属园区，不作为独立馆藏对象；必要时只作为参观和场域背景。"
+    },
+    {
+      "name": "临时展览、轮换借展及一次性活动",
+      "reason": "本轮范围锁定馆方稳定常设收藏，不把临展或活动误计入馆藏容量。"
+    }
+  ],
+  "riskFlags": [
+    "site_specific",
+    "small_permanent_display",
+    "operationally_variable"
+  ],
+  "sourcePointers": [
+    {
+      "id": "official_chichu_page",
+      "title": "Chichu Art Museum",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/art/chichu.html",
+      "accessDate": "2026-07-26",
+      "supports": "确认地中美术馆身份、2004年建成、地下建筑、莫奈/特瑞尔/德·玛利亚常设展示、五幅莫奈作品、三件特瑞尔作品、德·玛利亚作品、安藤忠雄建筑、官方地址及主馆附属设施。"
+    },
+    {
+      "id": "official_art_architecture_overview",
+      "title": "Art & Architecture",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/art/",
+      "accessDate": "2026-07-26",
+      "supports": "确认地中美术馆是直岛艺术设施中的独立馆舍，并与Benesse House Museum、李禹焕美术馆、家计划、ANDO MUSEUM、直岛新美术馆及其他项目分列；支持排除其他馆址和项目。"
+    },
+    {
+      "id": "official_contact_location",
+      "title": "Chichu Art Museum — Information / Contact",
+      "publisher": "Benesse Art Site Naoshima",
+      "url": "https://benesse-artsite.jp/en/art/chichu.html",
+      "accessDate": "2026-07-26",
+      "supports": "确认馆址为3449-1 Naoshima, Kagawa 7613110, Japan。"
+    },
+    {
+      "id": "osm_museum_way",
+      "title": "Way: Chichu Art Museum (401738807)",
+      "publisher": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org/way/401738807",
+      "accessDate": "2026-07-26",
+      "supports": "确认地图对象为地中美术馆主建筑，并提供用于本轮坐标的馆舍地图定位。"
+    },
+    {
+      "id": "mapcarta_osm_coordinates",
+      "title": "Chichu Art Museum Map - Naoshima, Kagawa, Japan",
+      "publisher": "Mapcarta（基于OpenStreetMap等开放地理数据）",
+      "url": "https://mapcarta.com/36389894",
+      "accessDate": "2026-07-26",
+      "supports": "提供地中美术馆地图点坐标：纬度34.44778，经度133.98488；并将其对应至OpenStreetMap way 401738807。"
+    }
+  ],
+  "coordinates": [
+    34.44778,
+    133.98488
+  ],
+  "uncertainties": [
+    "本轮只确认馆方公开的稳定常设展示边界；各作品当前是否开放、临时维护或具体参观时段需在后续阶段按馆方实时信息核验。",
+    "馆方页面将Chichu Garden作为附属设施介绍，本轮不把它作为独立馆藏或独立作品对象。"
+  ]
+}
