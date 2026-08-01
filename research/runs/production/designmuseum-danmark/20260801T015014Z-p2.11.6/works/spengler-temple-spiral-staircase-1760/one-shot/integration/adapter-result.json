@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "status": "warning",
+  "publicationWarnings": [
+    {
+      "code": "SOURCES_SCHEMA",
+      "message": "$.upstreamConflicts[0].lockedValue is required",
+      "matches": []
+    },
+    {
+      "code": "SOURCES_SCHEMA",
+      "message": "$.upstreamConflicts[0].observedValue is required",
+      "matches": []
+    },
+    {
+      "code": "SOURCES_SCHEMA",
+      "message": "$.upstreamConflicts[0].explanation is required",
+      "matches": []
+    },
+    {
+      "code": "OFFICIAL_SOURCE_COVERAGE",
+      "message": "Official museum sources do not cover material",
+      "matches": [
+        "material"
+      ]
+    },
+    {
+      "code": "UNSUPPORTED_DISPLAY_STATUS",
+      "message": "Current display status is stated as certain although metadata is not confirmed",
+      "matches": []
+    }
+  ],
+  "modelCalls": 0,
+  "previousFailure": "VERIFICATION_FAILED",
+  "rules": {
+    "card": "first non-empty paragraph under ## 一分钟看懂",
+    "draft": "byte-for-byte copy of output/article.md",
+    "displayMetadata": "deterministic mapping from input/locked-metadata.json",
+    "sources": "validated structural copy of output/sources.json"
+  },
+  "inputHashes": {
+    "lockedMetadata": "9542e3cc220bdd07cb889cbd97f4621d777e30a95b1fc5089fca989a91716e12",
+    "article": "c9f5b63b6452bb6fa3a861f8ff11a770f90d751f851e00f8e50c01b9f10af01d",
+    "sources": "3982831a3d5fbdec56e84fd79b62fe49f38d594c222ed1079b5b01b85d577506",
+    "verification": "b625c3262443aa088a2c01a9ac7bce0557a91f2531f1d5c750c4503b8c44adf5"
+  },
+  "outputHashes": {
+    "card.txt": "3f16dadb19aaf534d13aee1950382adb9f1958cb5f249721ae0f27c55b7acc47",
+    "draft.md": "c9f5b63b6452bb6fa3a861f8ff11a770f90d751f851e00f8e50c01b9f10af01d",
+    "display-metadata.json": "d308973afd163f789f6f30d113ecfb84759b2b5061c0d3d9dfeb850a25af3867",
+    "sources.json": "3982831a3d5fbdec56e84fd79b62fe49f38d594c222ed1079b5b01b85d577506"
+  }
+}

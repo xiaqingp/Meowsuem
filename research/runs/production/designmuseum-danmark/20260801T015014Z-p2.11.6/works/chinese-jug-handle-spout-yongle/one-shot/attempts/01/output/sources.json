@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "chinese-jug-handle-spout-yongle",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "significance",
+        "form",
+        "culturalExchange"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Defining Yongle: Imperial Art in Early Fifteenth-Century China",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/ko/met-publications/defining-yongle-imperial-art-in-early-fifteenth-century-china",
+      "sourceType": "academic",
+      "usedFor": [
+        "historicalContext",
+        "trade",
+        "diplomaticExchange",
+        "culturalExchange",
+        "form"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "该壶的形制可以追溯到中东，尤其是波斯一带常见的金属壶。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "永乐时期中国装饰艺术中的部分器物形状受到伊斯兰玻璃器和金属器影响。",
+      "type": "other",
+      "sourceIds": [
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "medium",
+      "statement": "锁定的官方对象页没有说明这件壶的材质，因此文章未将其称为瓷器、陶器或金属器。"
+    },
+    {
+      "topic": "provenance",
+      "statement": "本次核对的官方页面未提供具体收藏史、入藏时间或来源信息。"
+    },
+    {
+      "topic": "availability",
+      "statement": "官方页面将其列入馆长之选对象目录，但本次页面内容不足以确认当前是否正在展出。"
+    },
+    {
+      "topic": "originalUse",
+      "statement": "现有来源没有说明它原本盛装何种液体，也没有确认具体使用场景。"
+    },
+    {
+      "topic": "prototype",
+      "statement": "馆方指出其形制可追溯至波斯金属壶，但没有在本次来源中指认某一件具体的波斯原型。"
+    }
+  ],
+  "upstreamConflicts": []
+}

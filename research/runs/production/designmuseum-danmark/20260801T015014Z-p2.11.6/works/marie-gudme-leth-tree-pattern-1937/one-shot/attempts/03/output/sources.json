@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "marie-gudme-leth-tree-pattern-1937",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice: Tree pattern, 1937",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Marie Gudme Leth - Pioneer of print",
+      "publisher": "Designmuseum Danmark via Google Arts & Culture",
+      "url": "https://artsandculture.google.com/story/marie-gudme-leth-pioneer-of-print-designmuseum-danmark/ygUBORBdLNlEKw?hl=en",
+      "sourceType": "museum",
+      "usedFor": [
+        "biography",
+        "technique",
+        "productionContext",
+        "significance"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Marie Gudme Leth, kunsthåndværker",
+      "publisher": "Lex / Dansk Kvindebiografisk Leksikon",
+      "url": "https://kvindebiografiskleksikon.lex.dk/Marie_Gudme_Leth",
+      "sourceType": "academic",
+      "usedFor": [
+        "biography",
+        "technique",
+        "teaching",
+        "workshopHistory"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "Marie Gudme Leth is described by Designmuseum Danmark and Lex as a pioneer who helped reintroduce textile printing as a craft in Denmark around 1930.",
+      "type": "foundational",
+      "sourceIds": [
+        "S1",
+        "S2",
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "material",
+      "statement": "The official object page identifies the work as Tree pattern, 1937, but does not specify the underlying textile material."
+    },
+    {
+      "topic": "specificTechnique",
+      "statement": "The sources document Marie Gudme Leth's transition from block printing toward screen or frame printing in the late 1930s, but do not state which exact process was used for this particular work."
+    },
+    {
+      "topic": "availability",
+      "statement": "The official page lists the work in Director's Choice but does not clearly state its current display status."
+    },
+    {
+      "topic": "accessionNumber",
+      "statement": "No accession number is provided on the locked official page or the supplementary sources consulted."
+    }
+  ],
+  "upstreamConflicts": []
+}

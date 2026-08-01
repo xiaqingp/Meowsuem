@@ -1,0 +1,36 @@
+{
+  "runId": "20260801T015014Z-p2.11.6",
+  "startedAt": "2026-08-01T02:08:15.040Z",
+  "stage": "compact_planning_research",
+  "museumId": "designmuseum-danmark",
+  "pipelineVersion": "2.11.6",
+  "instructionVersion": "2.4.0",
+  "executionProfile": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "high",
+    "runner": "scripts/run-isolated-generation.ps1"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "d80ee1c0f28a4f21a26b3d7daefe825812b9007b3208dd80451ae13cee95fc96"
+    },
+    {
+      "path": "research/pipeline/prompts/planning-research.md",
+      "role": "stage_prompt",
+      "sha256": "f82cdd4578690962ec8167ca664ae8c6945687c4e2c55a466925391f20feb97a"
+    },
+    {
+      "path": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/research/batches/compact-05/candidate-packet.json",
+      "role": "candidate_packet",
+      "sha256": "fc7c1b8ca1d6fdb84738d9e622e7e766c8976367b52c69e8c6ad6fc95c16b58a"
+    }
+  ],
+  "outputs": [
+    "compact-planning-evidence.json"
+  ],
+  "reviewer": "disabled",
+  "retry": "explicit_only",
+  "publicationBoundary": "run_only"
+}

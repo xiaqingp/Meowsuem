@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "status": "warning",
+  "publicationWarnings": [
+    {
+      "code": "OFFICIAL_SOURCE_COVERAGE",
+      "message": "Official museum sources do not cover material",
+      "matches": [
+        "material"
+      ]
+    },
+    {
+      "code": "UNSUPPORTED_DIRECT_QUOTE",
+      "message": "Direct quotation lacks a valid source record",
+      "matches": [
+        "尼采后来写道：“书写工具也帮助塑造我们的思想。”"
+      ]
+    }
+  ],
+  "modelCalls": 0,
+  "previousFailure": "VERIFICATION_FAILED",
+  "rules": {
+    "card": "first non-empty paragraph under ## 一分钟看懂",
+    "draft": "byte-for-byte copy of output/article.md",
+    "displayMetadata": "deterministic mapping from input/locked-metadata.json",
+    "sources": "validated structural copy of output/sources.json"
+  },
+  "inputHashes": {
+    "lockedMetadata": "1957f1e5110ceb4357249e3cc73d9c486bdb0f2e1aae74f45ed68b080004b570",
+    "article": "38ebd6bc85b6883d4a7295796fbcd223a2de9dbc5803603289855bc65ea442ff",
+    "sources": "d72e8a5d4d5f611ab0af977656007529412c1184f44ae96aa15b8c9ec5b18c26",
+    "verification": "2e73dd6e1ac22d006b831ab2fffbcceb82328c3d2fc73aff6f0a85e44f0cf52c"
+  },
+  "outputHashes": {
+    "card.txt": "4f333d02e61376fce70bd76827fd87fcf12895afd33bcca9f2659c464a4f670b",
+    "draft.md": "38ebd6bc85b6883d4a7295796fbcd223a2de9dbc5803603289855bc65ea442ff",
+    "display-metadata.json": "f0af4391ef1b090910f4bf61758f4a6de3f9d44316f34806ffce47a9a4bac642",
+    "sources.json": "d72e8a5d4d5f611ab0af977656007529412c1184f44ae96aa15b8c9ec5b18c26"
+  }
+}

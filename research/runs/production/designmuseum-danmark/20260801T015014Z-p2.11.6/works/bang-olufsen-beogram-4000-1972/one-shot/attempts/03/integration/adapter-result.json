@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "status": "warning",
+  "publicationWarnings": [
+    {
+      "code": "OFFICIAL_SOURCE_COVERAGE",
+      "message": "Official museum sources do not cover material",
+      "matches": [
+        "material"
+      ]
+    },
+    {
+      "code": "UNSUPPORTED_DISPLAY_STATUS",
+      "message": "Current display status is stated as certain although metadata is not confirmed",
+      "matches": []
+    }
+  ],
+  "modelCalls": 0,
+  "previousFailure": "VERIFICATION_FAILED",
+  "rules": {
+    "card": "first non-empty paragraph under ## 一分钟看懂",
+    "draft": "byte-for-byte copy of output/article.md",
+    "displayMetadata": "deterministic mapping from input/locked-metadata.json",
+    "sources": "validated structural copy of output/sources.json"
+  },
+  "inputHashes": {
+    "lockedMetadata": "71653f9a343ac0eda6446fbaf590d5da605161e1d53026aef10cde4debeafb48",
+    "article": "317b8add5e505cc6415177c11e9ae644d8eee2f803c8b91ac23aba6ebd4e28fc",
+    "sources": "5a8644c9a75829eefcf4cd63b47a0669adc63d4f688454c717f808ae674de26a",
+    "verification": "e9f5f24eb92c863596058079082ba9fbb172f23d7258b6a61d3f9d34bea48664"
+  },
+  "outputHashes": {
+    "card.txt": "e4552689b422416aa15139081c52585b9371be38e5500c92ecd57be17da4d1e6",
+    "draft.md": "317b8add5e505cc6415177c11e9ae644d8eee2f803c8b91ac23aba6ebd4e28fc",
+    "display-metadata.json": "c054d8108c0055633a9a87969d636eebe98078bff91007ef4484a60c94cb5442",
+    "sources.json": "5a8644c9a75829eefcf4cd63b47a0669adc63d4f688454c717f808ae674de26a"
+  }
+}

@@ -7,7 +7,7 @@ export function validateFutureMuseumContract({input, dataSource, indexHtml, muse
   const failures = [];
   const id = input?.museum?.id;
   if (!id || legacyMuseumIds.includes(id)) return failures;
-  if (!/^[a-z][a-z0-9]*$/.test(id)) failures.push("future museum id must be a lowercase JavaScript identifier");
+  if (!/^[a-z][a-z0-9-]*$/.test(id)) failures.push("future museum id must be a lowercase slug");
   const allowedTopLevel = new Set(["schemaVersion", "proseTransforms", "metadataFields", "integration", "museum", "chapters", "routes", "rating", "works", "publication"]);
   for (const key of Object.keys(input)) if (!allowedTopLevel.has(key)) failures.push(`unexpected assembly field: ${key}`);
   if (JSON.stringify(input).includes('"binding"')) failures.push("binding configuration is forbidden");
@@ -15,7 +15,8 @@ export function validateFutureMuseumContract({input, dataSource, indexHtml, muse
   if (input.publication?.dataFile !== `${id}.js`) failures.push("future data file must be <museumId>.js");
   if (!Array.isArray(input.integration?.coordinates) || input.integration.coordinates.length !== 2 ||
       input.integration.coordinates.some(value => !Number.isFinite(value))) failures.push("future museum requires two numeric map coordinates");
-  if (!dataSource.includes(`museumData.${id} = {`) || /\bconst\s+\w*Museum\s*=/.test(dataSource)) {
+  const assignment = dataSource.includes(`museumData.${id} = {`) || dataSource.includes(`museumData[${JSON.stringify(id)}] = {`);
+  if (!assignment || /\bconst\s+\w*Museum\s*=/.test(dataSource)) {
     failures.push("future data must use museumData.<id> assignment");
   }
 

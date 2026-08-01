@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "chinese-jug-handle-spout-yongle",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "significance",
+        "form",
+        "cross_cultural_context"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Defining Yongle: Imperial Art in Early Fifteenth-Century China",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/ko/met-publications/defining-yongle-imperial-art-in-early-fifteenth-century-china",
+      "sourceType": "museum",
+      "usedFor": [
+        "historical_context",
+        "cross_cultural_context"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "馆方将这件壶列为远东收藏中最受珍视的作品之一。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "这件壶的形制可以追溯到中东尤其是波斯地区常见的金属壶。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "material",
+      "statement": "Designmuseum Danmark官方对象页未注明材质，因此本文不将其确定为瓷器、陶器或其他具体材料。"
+    },
+    {
+      "topic": "collection_history",
+      "statement": "本次核对的官方页面未提供具体入藏年份、来源或完整收藏史。"
+    },
+    {
+      "topic": "accessibility",
+      "statement": "官方页面将作品列入Director's Choice目录，但未明确说明当前是否展出。"
+    }
+  ],
+  "upstreamConflicts": []
+}

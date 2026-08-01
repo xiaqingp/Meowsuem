@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "heron-service-wine-cooler-1885-88",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director’s Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "creator",
+        "collectionRelation",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Audioguide DIRECTOR’S CHOICE: The Heron Service",
+      "publisher": "Designmuseum Danmark / SoundCloud",
+      "url": "https://soundcloud.com/designmuseumdanmark/the-heron-service",
+      "sourceType": "museum",
+      "usedFor": [
+        "creator",
+        "design_description",
+        "japanese_influence"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Japonisme 2 (2017), pp. 170–179",
+      "publisher": "Brill, Journal of Japonisme",
+      "url": "https://brill.com/view/journals/joj/2/2/article-p170_5.pdf",
+      "sourceType": "academic",
+      "usedFor": [
+        "material",
+        "process",
+        "historical_context",
+        "japanese_influence"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Fanny Garde, keramiker",
+      "publisher": "Dansk Kvindebiografisk Leksikon / Lex.dk",
+      "url": "https://kvindebiografiskleksikon.lex.dk/Fanny_Garde",
+      "sourceType": "academic",
+      "usedFor": [
+        "creator",
+        "collaboration",
+        "process",
+        "date",
+        "exhibition_history"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "A Bing & Grøndahl porcelain ‘Heron’ pattern japonaiserie part dinner service",
+      "publisher": "Sotheby’s",
+      "url": "https://www.sothebys.com/en/buy/auction/2024/noble-private-collections/a-bing-groendahl-porcelain-heron-pattern",
+      "sourceType": "publication",
+      "usedFor": [
+        "material",
+        "process",
+        "historical_context",
+        "exhibition_history"
+      ]
+    },
+    {
+      "id": "S6",
+      "title": "CLAY Nyt nr. 5, juni 2020",
+      "publisher": "CLAY Museum of Ceramic Art Denmark",
+      "url": "https://claymuseum.dk/wp-content/uploads/2020/06/CLAY-Nyt-05-2020.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "collaboration",
+        "creator",
+        "date",
+        "exhibition_history"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "medium",
+      "statement": "Designmuseum Danmark 的锁定官方对象页没有明确填写这件酒桶的材质；关于瓷器、釉下彩和金彩的说明来自同套餐具的学术及馆方资料。"
+    },
+    {
+      "topic": "accessionNumber",
+      "statement": "本次核对到的官方精选页面没有公开这件酒桶的馆藏号。"
+    },
+    {
+      "topic": "availability",
+      "statement": "官方页面将其列入馆长精选对象，但未明确说明本次访问时该具体酒桶是否正在展出。"
+    },
+    {
+      "topic": "provenance",
+      "statement": "本次来源未提供这件 Designmuseum Danmark 酒桶的具体入藏经过。"
+    }
+  ],
+  "upstreamConflicts": []
+}

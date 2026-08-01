@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "hegermann-lindencrone-porcelain-vase-1899-1900",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Effie Hegermann-Lindencrone, Vase, Inv. no. MK 22",
+      "publisher": "The David Collection",
+      "url": "https://catalog.davidmus.dk/en/item/1890/mk-22.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "process",
+        "technique",
+        "style",
+        "material",
+        "context"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Effie Hegermann-Lindencrone",
+      "publisher": "Lex / Designmuseum Danmark",
+      "url": "https://lex.dk/Effie_Hegermann-Lindencrone",
+      "sourceType": "publication",
+      "usedFor": [
+        "biography",
+        "creator",
+        "Fanny Garde relationship",
+        "Bing & Grøndahl context",
+        "technique"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "Designmuseum Danmark记录该花瓶由博物馆购于1900年巴黎博览会。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "availability",
+      "statement": "官方对象入口将作品列入 Director's Choice 目录，但没有明确说明当前是否展出；锁定 metadata 的展出状态为 display_status_unknown。"
+    },
+    {
+      "topic": "manufacture",
+      "statement": "官方对象入口没有为这件具体花瓶列出制造厂或馆藏号；补充资料确认艺术家长期在 Bing & Grøndahl 工作，但文章未将其写成这件对象已被核实的制造归属。"
+    }
+  ],
+  "upstreamConflicts": []
+}

@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "arne-jacobsen-ant-chair-1952",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Danish Chair – An International Affair",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/the-danish-chair/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "exhibitionContext"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Arne Jacobsen, 3100, Myren, 1952",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/qr-site/20-arne-jacobsen-3100-myren-1952/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "designDetails",
+        "function",
+        "three_leg_design",
+        "significance"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "The Ant – Arne Jacobsen",
+      "publisher": "Arne Jacobsen Design",
+      "url": "https://arnejacobsen.com/works/the-ant/",
+      "sourceType": "other",
+      "usedFor": [
+        "creator",
+        "date",
+        "production",
+        "process",
+        "Novo_canteen",
+        "design_history",
+        "artist_intent"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Ant / model 3100 – Arne Jacobsen",
+      "publisher": "Design Museum Gent",
+      "url": "https://www.designmuseumgent.be/en/object/mier-model-3100",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "production",
+        "collectionContext"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Arne Jacobsen & Fritz Hansen",
+      "publisher": "Fritz Hansen",
+      "url": "https://www.fritzhansen.com/sv/about-us/arnejacobsen",
+      "sourceType": "publication",
+      "usedFor": [
+        "production",
+        "process",
+        "material",
+        "Novo_canteen",
+        "three_leg_design",
+        "design_history"
+      ]
+    },
+    {
+      "id": "S6",
+      "title": "Ant™ – Chair with focus on strength and comfort",
+      "publisher": "Fritz Hansen",
+      "url": "https://www.fritzhansen.com/en/categories/products/popular-series/ant",
+      "sourceType": "other",
+      "usedFor": [
+        "material",
+        "construction",
+        "creator",
+        "date",
+        "production"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "Designmuseum Danmark将蚂蚁椅概括为第一批工业化大规模生产、且座面与椅背一体成形的木椅之一。",
+      "type": "first_or_earliest",
+      "sourceIds": [
+        "S2",
+        "S3"
+      ]
+    },
+    {
+      "claim": "雅各布森坚持三腿方案，理由包括审美考虑以及三点支撑在不平整地面上的稳定性。",
+      "type": "artist_intent",
+      "sourceIds": [
+        "S2",
+        "S3",
+        "S5"
+      ]
+    },
+    {
+      "claim": "蚂蚁椅由座面与椅背一体的模压胶合板壳体和纤细钢腿构成。",
+      "type": "other",
+      "sourceIds": [
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "availability",
+      "statement": "锁定 metadata 将当前展出状态标为未知；官方展览页说明展览自2016年起展出，但未提供本件对象当前是否仍在展厅的对象级信息。"
+    },
+    {
+      "topic": "collectionRelation",
+      "statement": "官方展览页确认《蚂蚁椅》被列为“丹麦椅”展览代表作品，但未提供本件对象的馆藏号、入藏时间或单件馆藏记录，因此文章未补写具体收藏史。"
+    },
+    {
+      "topic": "medium",
+      "statement": "锁定的官方展览页未注明材料；胶合板、钢等材料信息来自设计师档案、制造商资料及另一家博物馆的3100型号记录，文章按该型号的一般设计构成谨慎表述。"
+    }
+  ],
+  "upstreamConflicts": []
+}

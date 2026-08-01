@@ -12,6 +12,11 @@ const forbiddenArtifact = /(?:research[-_ ]?card|writing[-_ ]?plan|claim[-_ ]?le
 const forbiddenInput = /(?:research[-_ ]?card|writing[-_ ]?plan|old[-_ ]?(?:card|draft|article)|claim[-_ ]?ledger|story[-_ ]?beats|valueType|mustNotAssume|reviewer[-_ ]?output)/i;
 const allowedSourceTypes = new Set(["museum", "academic", "foundation", "publication", "media", "other"]);
 const sha256 = value => crypto.createHash("sha256").update(value).digest("hex");
+
+export const articleTitleCandidates = locked => [
+  `# ${locked.titleZh} / ${locked.titleEn}`,
+  ...(/[《》]/.test(locked.titleZh) ? [] : [`# 《${locked.titleZh}》 / ${locked.titleEn}`]),
+];
 const exists = target => fs.access(target).then(() => true).catch(() => false);
 const officialHostKey = value => new URL(value).hostname.toLowerCase().replace(/^www\./, "");
 
@@ -255,8 +260,8 @@ export async function verifyOneShotWork({
   if (model !== allowedModel) addError("MODEL_DRIFT", `Single-work model must be ${allowedModel}`, [model]);
   if (reasoningEffort !== allowedReasoningEffort) addError("REASONING_EFFORT_DRIFT", `Single-work reasoning effort must be ${allowedReasoningEffort}`, [reasoningEffort]);
   if (sources.museumId !== locked.museumId || sources.workId !== locked.workId) addError("SOURCE_IDENTITY_DRIFT", "sources identity does not match locked metadata");
-  const expectedTitle = `# 《${locked.titleZh}》 / ${locked.titleEn}`;
-  if (!article.split(/\r?\n/).some(line => line.trim() === expectedTitle)) addError("ARTICLE_TITLE_DRIFT", "Article title does not match locked metadata", [expectedTitle]);
+  const expectedTitles = articleTitleCandidates(locked);
+  if (!article.split(/\r?\n/).some(line => expectedTitles.includes(line.trim()))) addError("ARTICLE_TITLE_DRIFT", "Article title does not match locked metadata", [expectedTitles[0]]);
   if (!sectionBody(article, "一分钟看懂")) addError("MISSING_QUICK_SECTION", "Article is missing 一分钟看懂");
   if (!sectionBody(article, "最后再看一眼")) addError("MISSING_FINAL_SECTION", "Article is missing 最后再看一眼");
   if (!middleSections(article).length) addError("MISSING_MIDDLE_SECTION", "Article has no free-form middle section");
@@ -346,10 +351,11 @@ export async function verifyOneShotWork({
   const broadEvaluations = [...article.matchAll(/(?:经典|重要|开创性)/g)].map(match => match[0]);
   if (broadEvaluations.length) addWarning("BROAD_EVALUATION", "Broad evaluative wording is not a hard failure", [...new Set(broadEvaluations)]);
 
-  const certainty = /(?:目前|当前|现正|正在)[^。！？\n]{0,28}(?:展出|在展|馆内看到)/.test(article);
+  const certaintyMatch = article.match(/(?:目前|当前|现正|正在)[^。！？\n]{0,28}(?:展出|在展|馆内看到)/)?.[0];
+  const certainty = Boolean(certaintyMatch);
   const conservative = /(?:无法确认|不能确认|尚未确认|未明确|是否在展|参观前[^。！？\n]{0,12}(?:查询|核验|确认))/.test(article);
   if (locked.availability !== "confirmed_on_view" && certainty && !conservative) {
-    addError("UNSUPPORTED_DISPLAY_STATUS", "Current display status is stated as certain although metadata is not confirmed");
+    addError("UNSUPPORTED_DISPLAY_STATUS", "Current display status is stated as certain although metadata is not confirmed", [certaintyMatch]);
   } else if (locked.availability !== "confirmed_on_view" && /(?:可能|似乎|大概)[^。！？\n]{0,12}(?:展出|在展)/.test(article)) {
     addWarning("AMBIGUOUS_DISPLAY_STATUS", "Display wording is ambiguous; metadata remains authoritative");
   }

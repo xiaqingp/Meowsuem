@@ -18,6 +18,7 @@
 - 用户当前的明确要求优先于本文件；确认变更后，先升级本文件版本，再生成内容。
 - `PRD.md` 定义产品范围，馆方资料定义事实，研究笔记保存证据，页面数据定义渲染字段；它们不能另行发明写作标准。
 - `content-standard-manifest.json` 记录各馆接受本版本审核的状态。未通过审核，不得声称“按当前母指令生成”或“完全符合当前标准”。
+- 内容校验未通过不等于页面不可见。用户批准 warning 发布后，可以发布完整草稿。资料缺口、格式问题与不确定性使用紧凑、可展开的小 warning；身份、作者、年代、归属与高风险事实问题使用大 warning；直接引语、强事实断言、艺术家意图与确定展出状态的 warning 标在正文对应陈述旁。Pipeline 完整性、安全与因果错误只在内部报告，不展示给游客。不得把 warning 改写成 passed，也不得隐藏来源缺口。缺失正文、身份错配、哈希漂移或因果链失败仍然阻止发布。
 - 每次修改规则，必须同时更新版本号、文末变更记录、清单中的目标版本和受影响馆的审核状态。
 
 ## 1. 输入与事实准备
@@ -573,4 +574,6 @@ Luna 一次只交付 `article.md` 与 `sources.json`。文章使用一级标题�
 - `2.1.1`（2026-07-24）：为 `museum_selection` 补入 canonical 评分器所需的紧凑输出合同，防止模型用可读近义字段替代机器字段。
 - `2.2.0`（2026-07-25）：把图片证据前置到研究之前；真实浏览器处理脚本 403 和动态页面，只有候选图仍有歧义时才由隔离的 Luna medium 选择；直接观察必须引用已下载、带尺寸和哈希的图片证据。
 - `2.4.0`（2026-07-26）：馆级研究改为 Luna High compact planning evidence 与 Sol Medium deep research dossier 两层；两者只服务选品、珍品、评分和结构。旧 Research Card、Writing Plan 与 Author 规则集中标记为 historical only。
+- `2.4.1`（2026-08-01）：把内容校验失败与发布阻断拆开；经用户批准可带逐件可见 warning 发布，身份、完整性、哈希与因果失败仍阻断。
+- `2.4.2`（2026-08-01）：warning 分为紧凑资料提示、大型事实风险与内部 blocker；高风险正文陈述改为就地标记。
 - `2.3.0`（2026-07-25）：新单件写作改为 Luna High One-shot Search & Write；只输入 locked metadata 与已验证图片，模型直接输出 article 与 sources；取消新路径中的 Research Card 写作输入、Writing Plan、claim ledger、story beats、valueType、mustNotAssume、模型 metadata、独立 Author 和默认 reviewer。

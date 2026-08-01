@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "stage": "image_evidence_retry",
+  "runId": "20260801T144134Z-p2.13.7",
+  "runRoot": "research/runs/experiment/designmuseum-image-v2-batch-2/20260801T144134Z-p2.13.7",
+  "parentRunRoot": "research/runs/experiment/designmuseum-image-v2-batch-1/20260801T144023Z-p2.13.7",
+  "parentEvidenceSha256": "12f21eae61d428302f664d01104a3a7fee4214bd8197754472c8db996d5c6392",
+  "failedWorksRetried": [
+    {
+      "workId": "kaare-klint-red-chair-1927",
+      "priorStatus": "accepted",
+      "priorFailure": [
+        "Related images were found, \r\nbut none could be verified as the museum’s exact Red Chair object with sufficient identity evidence."
+      ],
+      "sourcePageUrl": null
+    },
+    {
+      "workId": "marie-gudme-leth-tree-pattern-1937",
+      "priorStatus": "accepted",
+      "priorFailure": [
+        "The \r\nofficial page confirms the work identity, but no sufficiently verifiable image bound to this exact pattern was found."
+      ],
+      "sourcePageUrl": null
+    },
+    {
+      "workId": "verner-panton-panton-chair-1960-1967",
+      "priorStatus": "accepted",
+      "priorFailure": [
+        "AI candidate download failed: image returned 429"
+      ],
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Panton_Chair_by_Vern\r\ner_Panton.JPG"
+    },
+    {
+      "workId": "finn-juhl-butterfly-coffee-table-prototype-1949",
+      "priorStatus": "accepted",
+      "priorFailure": [
+        "The official page confirms the prototype’s identity, but no \r\nsufficiently verifiable direct image bound to this exact prototype was found."
+      ],
+      "sourcePageUrl": null
+    },
+    {
+      "workId": "arne-jacobsen-ant-chair-1952",
+      "priorStatus": "accepted",
+      "priorFailure": [
+        "AI candidate download failed: image returned 429"
+      ],
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Design_Museum_Danmark_-_Ant\r\n_chair.jpg"
+    },
+    {
+      "workId": "katrine-bendixen-inside-out-lamp-2019",
+      "priorStatus": "accepted",
+      "priorFailure": [
+        "The official page confirms the installation \r\nidentity, but no sufficiently verifiable image URL bound to the exact museum work was found."
+      ],
+      "sourcePageUrl": null
+    },
+    {
+      "workId": "bang-olufsen-beogram-4000-1972",
+      "priorStatus": "accepted",
+      "priorFailure": [
+        "AI candidate download failed: image returned 429"
+      ],
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:B%26O_Beogram_4000.jpg"
+    }
+  ],
+  "newlyAccepted": [
+    {
+      "workId": "kaare-klint-red-chair-1927",
+      "sourcePageUrl": "https://designmuseum.dk/en/directors-choice/",
+      "imageUrl": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2024/03/15-002_Den_danske_stole_13976_109238-Stor.jpg",
+      "localPath": "research/runs/experiment/designmuseum-image-v2-batch-2/20260801T144134Z-p2.13.7/image-evidence/assets/kaare-klint-red-chair-1927.webp",
+      "sha256": "8afb28b8e5f6adfeb9af0203ce7696c4335c3893052d75a5b9d4f77a49eecd7e",
+      "method": "ai_page_candidate_download",
+      "imageRole": "object_view",
+      "candidateId": "page-image-001"
+    },
+    {
+      "workId": "marie-gudme-leth-tree-pattern-1937",
+      "sourcePageUrl": "https://designmuseum.dk/en/directors-choice/",
+      "imageUrl": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2024/03/167_1999-Traemonster..-Designmuseum-Danmark.-Photo-Pernille-Klemp-Stor.jpg",
+      "localPath": "research/runs/experiment/designmuseum-image-v2-batch-2/20260801T144134Z-p2.13.7/image-evidence/assets/marie-gudme-leth-tree-pattern-1937.webp",
+      "sha256": "9bea47a626fd495ff3a7aa49145bb92380d63924c6b84e224875b507aee3c130",
+      "method": "ai_page_candidate_download",
+      "imageRole": "object_view",
+      "candidateId": "page-image-001"
+    },
+    {
+      "workId": "finn-juhl-butterfly-coffee-table-prototype-1949",
+      "sourcePageUrl": "https://designmuseum.dk/en/directors-choice/",
+      "imageUrl": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2024/03/409_2021_Designmuseum-Danmark_photopernilleklemp-Stor-Copy.jpg",
+      "localPath": "research/runs/experiment/designmuseum-image-v2-batch-2/20260801T144134Z-p2.13.7/image-evidence/assets/finn-juhl-butterfly-coffee-table-prototype-1949.webp",
+      "sha256": "0c9c1ef4ef4c3c5ca85d3a4716a64bf90d909f466fa50ba50ba2ff66e0d58350",
+      "method": "ai_page_candidate_download",
+      "imageRole": "object_view",
+      "candidateId": "page-image-001"
+    },
+    {
+      "workId": "katrine-bendixen-inside-out-lamp-2019",
+      "sourcePageUrl": "https://designmuseum.dk/en/directors-choice/",
+      "imageUrl": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2024/03/MG_2694-Stor.jpg",
+      "localPath": "research/runs/experiment/designmuseum-image-v2-batch-2/20260801T144134Z-p2.13.7/image-evidence/assets/katrine-bendixen-inside-out-lamp-2019.webp",
+      "sha256": "72f4b98b69aaab54dfd7de9fe731b117c9b9ffb91aa0536b2a5bfa74afc317bb",
+      "method": "ai_page_candidate_download",
+      "imageRole": "installation_view",
+      "candidateId": "page-image-001"
+    },
+    {
+      "workId": "bang-olufsen-beogram-4000-1972",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:B%26O_Beogram_4000.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/B%26O_Beogram_4000.jpg?_=20110602093117",
+      "localPath": "research/runs/experiment/designmuseum-image-v2-batch-2/20260801T144134Z-p2.13.7/image-evidence/assets/bang-olufsen-beogram-4000-1972.jpg",
+      "sha256": "a772a95dfd56b99d9f4c35fac01a8d5a853b37929941a0691cb2b48d39981f71",
+      "method": "ai_page_candidate_download",
+      "imageRole": "object_view",
+      "candidateId": "page-image-001"
+    }
+  ],
+  "stillUnresolved": [
+    {
+      "workId": "verner-panton-panton-chair-1960-1967",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Panton_Chair_by_Verner_Panton.JPG",
+      "warnings": [
+        "The supplied candidate list contains only generic Wikimedia interface icons; no identity-bound image candidate was supplied."
+      ]
+    },
+    {
+      "workId": "arne-jacobsen-ant-chair-1952",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Design_Museum_Danmark_-_Ant_chair.jpg",
+      "warnings": [
+        "The supplied candidate list contains only Wikimedia interface icons; no identity-bound chair image candidate was supplied."
+      ]
+    }
+  ],
+  "counts": {
+    "works": 20,
+    "previousAcceptedPreserved": 13,
+    "retried": 7,
+    "newlyAccepted": 5,
+    "directImageDownloads": 5,
+    "elementCaptures": 0,
+    "objectImageAccepted": 15,
+    "contextImagesAccepted": 0,
+    "unresolved": 3,
+    "duplicateObjectImageGroups": [],
+    "modelCalls": 1,
+    "modelTokens": 47347,
+    "webSearchCount": 0
+  },
+  "model": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium",
+    "calls": 1,
+    "durationMs": 27221,
+    "tokens": {
+      "total": 47347,
+      "source": "codex_cli_log"
+    },
+    "webSearchCount": 0
+  },
+  "guarantees": {
+    "acceptedWorksNotRerun": [
+      "flora-danica-four-sided-serving-dish",
+      "chinese-jug-handle-spout-yongle",
+      "portrait-pietro-krohn-1887",
+      "tsuba-sano-naoyoshi-c1775",
+      "spengler-temple-spiral-staircase-1760",
+      "malling-hansen-writing-ball-1870s",
+      "heron-service-wine-cooler-1885-88",
+      "thorvald-bindesboll-carlsberg-label-1904",
+      "gauguin-jug-self-portrait-1889",
+      "hegermann-lindencrone-porcelain-vase-1899-1900",
+      "nilfisk-l10-vacuum-cleaner-1922",
+      "poul-henningsen-table-lamp-4-3-1927",
+      "hans-wegner-wishbone-chair-1950"
+    ],
+    "nonImageStagesRun": [],
+    "imageGenerationModelUsed": false,
+    "parentRunModified": false,
+    "assemblyNetworkAccess": false,
+    "productionModified": false
+  }
+}

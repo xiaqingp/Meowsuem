@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "museumId": "designmuseum-danmark",
+  "batches": [
+    {
+      "kind": "compact",
+      "path": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/research/batches/compact-01/compact-planning-evidence.json",
+      "sha256": "17c3534324b64dad24e69eed52e07e13ea01c6ce9decc74cda1d707ca3247289"
+    },
+    {
+      "kind": "compact",
+      "path": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/research/batches/compact-02/compact-planning-evidence.json",
+      "sha256": "d819187714acf74587a530200d62ef37a1be69b2037d7afc025defa5565599cc"
+    },
+    {
+      "kind": "compact",
+      "path": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/research/batches/compact-03/compact-planning-evidence.json",
+      "sha256": "16127baa8cbc704f3d6a9704c4dd22e4ebff5802685eca8d59013a6e8777ac37"
+    },
+    {
+      "kind": "compact",
+      "path": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/research/batches/compact-04/compact-planning-evidence.json",
+      "sha256": "e53d042084139a83d59443df7baf03d2af9684ad984a6769e1e69ca5d7fc40fc"
+    },
+    {
+      "kind": "compact",
+      "path": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/research/batches/compact-05/compact-planning-evidence.json",
+      "sha256": "46bff486b27be81f9e158456549e23107ad396b8ed56b7a0c9a6e401a3b98206"
+    },
+    {
+      "kind": "deep",
+      "path": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/research/batches/deep-01/deep-research-dossier.json",
+      "sha256": "ac5fdc2df7571cd6f186bb3d9b9e0a422abde41b31939653691add62d0fc76d3"
+    }
+  ]
+}

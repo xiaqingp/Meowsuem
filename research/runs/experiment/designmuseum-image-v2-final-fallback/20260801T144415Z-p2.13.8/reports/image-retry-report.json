@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "stage": "image_evidence_retry",
+  "runId": "20260801T144415Z-p2.13.8",
+  "runRoot": "research/runs/experiment/designmuseum-image-v2-final-fallback/20260801T144415Z-p2.13.8",
+  "parentRunRoot": "research/runs/experiment/designmuseum-image-v2-batch-2/20260801T144134Z-p2.13.7",
+  "parentEvidenceSha256": "48403f42d5e92b4e284d8eb99dba1825af6fa9509a9fdc0864055c1bd798bb2e",
+  "failedWorksRetried": [
+    {
+      "workId": "thorvald-bindesboll-carlsberg-label-1904",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "The supplied source page has no mechanically enumerated page-image candidates."
+      ],
+      "sourcePageUrl": null
+    },
+    {
+      "workId": "verner-panton-panton-chair-1960-1967",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "The supplied candidate list contains only generic Wikimedia interface icons; no identity-bound image candidate was supplied."
+      ],
+      "sourcePageUrl": null
+    },
+    {
+      "workId": "arne-jacobsen-ant-chair-1952",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "The supplied candidate list contains only Wikimedia interface icons; no identity-bound chair image candidate was supplied."
+      ],
+      "sourcePageUrl": null
+    }
+  ],
+  "newlyAccepted": [],
+  "stillUnresolved": [
+    {
+      "workId": "thorvald-bindesboll-carlsberg-label-1904",
+      "sourcePageUrl": "https://designmuseum.dk/en/directors-choice/",
+      "warnings": [
+        "No candidate is identity-bound to the Carlsberg label."
+      ]
+    },
+    {
+      "workId": "verner-panton-panton-chair-1960-1967",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Panton_Chair_by_Verner_Panton.JPG",
+      "warnings": [
+        "All supplied candidates are Wikimedia interface icons, not the Panton Chair image."
+      ]
+    },
+    {
+      "workId": "arne-jacobsen-ant-chair-1952",
+      "sourcePageUrl": "https://designmuseum.dk/en/the-danish-chair/",
+      "warnings": [
+        "Supplied images are generic exhibition or unrelated Finn Juhl imagery and do not uniquely identify The Ant."
+      ]
+    }
+  ],
+  "counts": {
+    "works": 20,
+    "previousAcceptedPreserved": 17,
+    "retried": 3,
+    "newlyAccepted": 0,
+    "directImageDownloads": 0,
+    "elementCaptures": 0,
+    "objectImageAccepted": 15,
+    "contextImagesAccepted": 0,
+    "unresolved": 3,
+    "duplicateObjectImageGroups": [],
+    "modelCalls": 1,
+    "modelTokens": 14096,
+    "webSearchCount": 0
+  },
+  "model": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium",
+    "calls": 1,
+    "durationMs": 10308,
+    "tokens": {
+      "total": 14096,
+      "source": "codex_cli_log"
+    },
+    "webSearchCount": 0
+  },
+  "guarantees": {
+    "acceptedWorksNotRerun": [
+      "flora-danica-four-sided-serving-dish",
+      "chinese-jug-handle-spout-yongle",
+      "portrait-pietro-krohn-1887",
+      "tsuba-sano-naoyoshi-c1775",
+      "spengler-temple-spiral-staircase-1760",
+      "malling-hansen-writing-ball-1870s",
+      "heron-service-wine-cooler-1885-88",
+      "gauguin-jug-self-portrait-1889",
+      "hegermann-lindencrone-porcelain-vase-1899-1900",
+      "nilfisk-l10-vacuum-cleaner-1922",
+      "poul-henningsen-table-lamp-4-3-1927",
+      "kaare-klint-red-chair-1927",
+      "marie-gudme-leth-tree-pattern-1937",
+      "hans-wegner-wishbone-chair-1950",
+      "finn-juhl-butterfly-coffee-table-prototype-1949",
+      "katrine-bendixen-inside-out-lamp-2019",
+      "bang-olufsen-beogram-4000-1972"
+    ],
+    "nonImageStagesRun": [],
+    "imageGenerationModelUsed": false,
+    "parentRunModified": false,
+    "assemblyNetworkAccess": false,
+    "productionModified": false
+  }
+}

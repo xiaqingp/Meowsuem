@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "poul-henningsen-table-lamp-4-3-1927",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Objects & collections",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "availability"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "PH 4/3 Table Lamp",
+      "publisher": "Louis Poulsen",
+      "url": "https://www.louispoulsen.com/en-ie/catalog/private/table/ph-43-table",
+      "sourceType": "other",
+      "usedFor": [
+        "system",
+        "numbering",
+        "light_concept",
+        "production_history",
+        "artist_intent"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "A New Form for a New Technology",
+      "publisher": "Cooper Hewitt, Smithsonian Design Museum",
+      "url": "https://www.cooperhewitt.org/2019/05/24/a-new-form-for-a-new-technology/",
+      "sourceType": "museum",
+      "usedFor": [
+        "historical_context",
+        "light_concept",
+        "artist_intent",
+        "production_history"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "PH 4/3, table lamp",
+      "publisher": "National Gallery of Victoria",
+      "url": "https://www.ngv.vic.gov.au/explore/collection/work/114726/",
+      "sourceType": "museum",
+      "usedFor": [
+        "comparative_material",
+        "comparative_manufacture",
+        "comparative_date",
+        "comparative_model_history"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "\"PH\" Table Lamp",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/491667",
+      "sourceType": "museum",
+      "usedFor": [
+        "creator_culture",
+        "comparative_date",
+        "comparative_material",
+        "comparative_manufacturer"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "保罗·汉宁森长期追求减少眩光、把光引向需要的地方，并形成柔和阴影的照明效果。",
+      "type": "artist_intent",
+      "sourceIds": [
+        "S2",
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "material",
+      "statement": "Designmuseum Danmark 的公开对象列表没有注明这件 1927 年 4/3 台灯的具体材料；其他博物馆关于同型号早期样本的材料记录不能直接转用于本件。"
+    },
+    {
+      "topic": "manufacturer",
+      "statement": "Designmuseum Danmark 的公开对象列表没有注明本件的制作商；Louis Poulsen 的合作与产品资料用于说明 PH 系统背景，不等同于本件的专属制作记录。"
+    },
+    {
+      "topic": "variant",
+      "statement": "Louis Poulsen 现行 PH 4/3 台灯页面称其当前形式于 1966 年推出，因此不能仅凭型号名称把现行产品结构、配件或材料套用于博物馆登记的 1927 年对象。"
+    },
+    {
+      "topic": "accessionNumber",
+      "statement": "锁定的 Designmuseum Danmark 官方页面未公开本件馆藏号。"
+    },
+    {
+      "topic": "availability",
+      "statement": "馆方说明只有馆藏的一小部分在展出，但未说明这件 4/3 台灯当前是否展出；可用状态保持为未知。"
+    }
+  ],
+  "upstreamConflicts": []
+}

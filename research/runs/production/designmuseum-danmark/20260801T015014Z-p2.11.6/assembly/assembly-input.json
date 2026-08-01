@@ -1,0 +1,458 @@
+{
+  "schemaVersion": 1,
+  "museum": {
+    "id": "designmuseum-danmark",
+    "editorialCapacity": 20,
+    "city": "Copenhagen，Denmark",
+    "zh": "Designmuseum Danmark",
+    "en": "Designmuseum Danmark",
+    "verdict": "70–79 · 可去可不去",
+    "hero": "./assets/designmuseum-danmark/portrait-pietro-krohn-1887.jpg",
+    "contentFile": "research/content/designmuseum-danmark.md",
+    "official": "https://designmuseum.dk/en/",
+    "visit": "https://designmuseum.dk/en/",
+    "contentUpdatedAt": "2026-08-01",
+    "intro": [],
+    "routes": {
+      "90": {
+        "title": "90 分钟：先看这家馆为什么值得",
+        "note": "只保留能支撑本馆核心判断的节点：跨文化形式、皇家瓷器、早期工业设计、光、丹麦现代家具和塑料转向。主动跳过机构肖像、平面设计、纺织、同系列补充和当代收束；每件对象是否当天可见须先向馆方核验。",
+        "workIds": [
+          "chinese-jug-handle-spout-yongle",
+          "spengler-temple-spiral-staircase-1760",
+          "flora-danica-four-sided-serving-dish",
+          "malling-hansen-writing-ball-1870s",
+          "gauguin-jug-self-portrait-1889",
+          "poul-henningsen-table-lamp-4-3-1927",
+          "kaare-klint-red-chair-1927",
+          "hans-wegner-wishbone-chair-1950",
+          "arne-jacobsen-ant-chair-1952",
+          "verner-panton-panton-chair-1960-1967"
+        ]
+      },
+      "half": {
+        "title": "半天：看懂从工艺到丹麦现代设计的结构",
+        "note": "在核心节点外，加入日本工艺、晚十九世纪协作瓷器、穿孔瓷、平面设计、家具原型、纺织和 Beogram 4000，形成主要收藏群的代表性横切面。按章节顺序行走，遇到轮换对象时保留该章节的比较逻辑，不把不可见对象当作当天必看。",
+        "workIds": [
+          "chinese-jug-handle-spout-yongle",
+          "tsuba-sano-naoyoshi-c1775",
+          "spengler-temple-spiral-staircase-1760",
+          "flora-danica-four-sided-serving-dish",
+          "heron-service-wine-cooler-1885-88",
+          "gauguin-jug-self-portrait-1889",
+          "hegermann-lindencrone-porcelain-vase-1899-1900",
+          "malling-hansen-writing-ball-1870s",
+          "thorvald-bindesboll-carlsberg-label-1904",
+          "nilfisk-l10-vacuum-cleaner-1922",
+          "poul-henningsen-table-lamp-4-3-1927",
+          "kaare-klint-red-chair-1927",
+          "marie-gudme-leth-tree-pattern-1937",
+          "finn-juhl-butterfly-coffee-table-prototype-1949",
+          "hans-wegner-wishbone-chair-1950",
+          "arne-jacobsen-ant-chair-1952",
+          "verner-panton-panton-chair-1960-1967",
+          "bang-olufsen-beogram-4000-1972"
+        ]
+      },
+      "all": {
+        "title": "完整浏览：沿六个问题走完 20 件精选",
+        "note": "按章节顺序覆盖全部入选对象；它是研究内容的完整观看序列，不保证一天内全部可见，也不提供实时馆内导航。出发前核验轮换、借展和展厅状态；Katrine Bendixen 的对象尤其只能按曾展出且当前未知处理。全程均以 Bredgade 68 主馆址为边界。",
+        "workIds": [
+          "portrait-pietro-krohn-1887",
+          "chinese-jug-handle-spout-yongle",
+          "tsuba-sano-naoyoshi-c1775",
+          "spengler-temple-spiral-staircase-1760",
+          "flora-danica-four-sided-serving-dish",
+          "heron-service-wine-cooler-1885-88",
+          "gauguin-jug-self-portrait-1889",
+          "hegermann-lindencrone-porcelain-vase-1899-1900",
+          "malling-hansen-writing-ball-1870s",
+          "thorvald-bindesboll-carlsberg-label-1904",
+          "nilfisk-l10-vacuum-cleaner-1922",
+          "poul-henningsen-table-lamp-4-3-1927",
+          "kaare-klint-red-chair-1927",
+          "marie-gudme-leth-tree-pattern-1937",
+          "finn-juhl-butterfly-coffee-table-prototype-1949",
+          "hans-wegner-wishbone-chair-1950",
+          "arne-jacobsen-ant-chair-1952",
+          "verner-panton-panton-chair-1960-1967",
+          "bang-olufsen-beogram-4000-1972",
+          "katrine-bendixen-inside-out-lamp-2019"
+        ]
+      }
+    },
+    "rareAssets": []
+  },
+  "chapters": [
+    {
+      "id": "origins-and-crossings",
+      "number": 1,
+      "title": "设计从哪里开始：人物与跨文化形式如何进入一座馆？",
+      "intro": "先看博物馆如何把机构史和跨地域的器物联系起来：设计不是只从丹麦现代家具开始，也包括收藏、转译和使用身份。"
+    },
+    {
+      "id": "craft-and-worldmaking",
+      "number": 2,
+      "title": "器物怎样解释世界：从精密工艺到皇家瓷器？",
+      "intro": "这一段把构造、植物分类、宫廷委托和艺术／工艺边界放在一起，看手工如何从实用与陈设走向观念表达。"
+    },
+    {
+      "id": "communication-and-public-design",
+      "number": 3,
+      "title": "设计怎样服务沟通：机器与图像如何进入公共生活？",
+      "intro": "写字球和嘉士伯标签分别面对能力差异与公共传播，提示设计不仅塑造物，也塑造信息抵达人的方式。"
+    },
+    {
+      "id": "modern-life-and-materials",
+      "number": 4,
+      "title": "现代生活如何被重新安排：家务、光线、家具与图案？",
+      "intro": "进入二十世纪后，设计开始直接处理家务、电气化、坐姿和织物图案；功能并没有取消形式，而是改变了形式的任务。"
+    },
+    {
+      "id": "danish-chair-as-system",
+      "number": 5,
+      "title": "一把椅子怎样把木工变成工业语言？",
+      "intro": "从原型、系列生产到单壳和整体塑料，连续看四把椅子如何分别处理承托、制造、轻量化和材料转向。"
+    },
+    {
+      "id": "beyond-the-chair",
+      "number": 6,
+      "title": "当设计不只解决问题：技术、声音与材料还能提出什么问题？",
+      "intro": "最后从家具移向音响和当代灯具：设计既可以把技术变成日常界面，也可以主动追问材料、用途和设计博物馆的边界。"
+    }
+  ],
+  "routes": {
+    "90": {
+      "title": "90 分钟：先看这家馆为什么值得",
+      "note": "只保留能支撑本馆核心判断的节点：跨文化形式、皇家瓷器、早期工业设计、光、丹麦现代家具和塑料转向。主动跳过机构肖像、平面设计、纺织、同系列补充和当代收束；每件对象是否当天可见须先向馆方核验。",
+      "workIds": [
+        "chinese-jug-handle-spout-yongle",
+        "spengler-temple-spiral-staircase-1760",
+        "flora-danica-four-sided-serving-dish",
+        "malling-hansen-writing-ball-1870s",
+        "gauguin-jug-self-portrait-1889",
+        "poul-henningsen-table-lamp-4-3-1927",
+        "kaare-klint-red-chair-1927",
+        "hans-wegner-wishbone-chair-1950",
+        "arne-jacobsen-ant-chair-1952",
+        "verner-panton-panton-chair-1960-1967"
+      ]
+    },
+    "half": {
+      "title": "半天：看懂从工艺到丹麦现代设计的结构",
+      "note": "在核心节点外，加入日本工艺、晚十九世纪协作瓷器、穿孔瓷、平面设计、家具原型、纺织和 Beogram 4000，形成主要收藏群的代表性横切面。按章节顺序行走，遇到轮换对象时保留该章节的比较逻辑，不把不可见对象当作当天必看。",
+      "workIds": [
+        "chinese-jug-handle-spout-yongle",
+        "tsuba-sano-naoyoshi-c1775",
+        "spengler-temple-spiral-staircase-1760",
+        "flora-danica-four-sided-serving-dish",
+        "heron-service-wine-cooler-1885-88",
+        "gauguin-jug-self-portrait-1889",
+        "hegermann-lindencrone-porcelain-vase-1899-1900",
+        "malling-hansen-writing-ball-1870s",
+        "thorvald-bindesboll-carlsberg-label-1904",
+        "nilfisk-l10-vacuum-cleaner-1922",
+        "poul-henningsen-table-lamp-4-3-1927",
+        "kaare-klint-red-chair-1927",
+        "marie-gudme-leth-tree-pattern-1937",
+        "finn-juhl-butterfly-coffee-table-prototype-1949",
+        "hans-wegner-wishbone-chair-1950",
+        "arne-jacobsen-ant-chair-1952",
+        "verner-panton-panton-chair-1960-1967",
+        "bang-olufsen-beogram-4000-1972"
+      ]
+    },
+    "all": {
+      "title": "完整浏览：沿六个问题走完 20 件精选",
+      "note": "按章节顺序覆盖全部入选对象；它是研究内容的完整观看序列，不保证一天内全部可见，也不提供实时馆内导航。出发前核验轮换、借展和展厅状态；Katrine Bendixen 的对象尤其只能按曾展出且当前未知处理。全程均以 Bredgade 68 主馆址为边界。",
+      "workIds": [
+        "portrait-pietro-krohn-1887",
+        "chinese-jug-handle-spout-yongle",
+        "tsuba-sano-naoyoshi-c1775",
+        "spengler-temple-spiral-staircase-1760",
+        "flora-danica-four-sided-serving-dish",
+        "heron-service-wine-cooler-1885-88",
+        "gauguin-jug-self-portrait-1889",
+        "hegermann-lindencrone-porcelain-vase-1899-1900",
+        "malling-hansen-writing-ball-1870s",
+        "thorvald-bindesboll-carlsberg-label-1904",
+        "nilfisk-l10-vacuum-cleaner-1922",
+        "poul-henningsen-table-lamp-4-3-1927",
+        "kaare-klint-red-chair-1927",
+        "marie-gudme-leth-tree-pattern-1937",
+        "finn-juhl-butterfly-coffee-table-prototype-1949",
+        "hans-wegner-wishbone-chair-1950",
+        "arne-jacobsen-ant-chair-1952",
+        "verner-panton-panton-chair-1960-1967",
+        "bang-olufsen-beogram-4000-1972",
+        "katrine-bendixen-inside-out-lamp-2019"
+      ]
+    }
+  },
+  "rating": {
+    "museumId": "designmuseum-danmark",
+    "score": 77,
+    "scoreBand": "70–79 · 可去可不去",
+    "withinBandAnchor": "76–77",
+    "scoreReason": "馆藏能以丹麦家具、照明、工业产品、瓷器、平面与纺织设计构成连续且专业性明确的设计史路线；蚂蚁椅、潘顿椅、PH 灯具、Wishbone 椅、Flora Danica 餐盘与早期工业产品提供多件重要节点。但锁定研究没有证明任何具体馆藏实例通过全球不可替代性硬门，因此本馆不能进入 80 分以上的珍品档。",
+    "withinBandReason": "落在 76–77，是因为馆藏不只有零散名物：丹麦现代家具和产品设计具有明显领域权威，且瓷器、东亚工艺、平面、纺织与机构史能补成完整路线。未取更高分的主要限制是没有通过硬门的稀世珍品，关键对象多有同系列、同型号或近邻类型可比，且绝大多数入选对象的当前展出状态未知，现场兑现存在显著不确定性。",
+    "rareAssets": [],
+    "independentRareLines": [],
+    "dedicatedTrip": false,
+    "worldDominantConcentration": false,
+    "worldDominantConcentrationEvidence": []
+  },
+  "works": [
+    {
+      "id": "portrait-pietro-krohn-1887",
+      "ch": "origins-and-crossings",
+      "significance": "重要藏品",
+      "image": "./assets/designmuseum-danmark/portrait-pietro-krohn-1887.jpg",
+      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+      "imageCaption": "彼得罗·克龙肖像 / Portrait of Pietro Krohn",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "localAssetSource": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+      "imageKind": "museum-placeholder",
+      "availabilityTag": "不确定是否展出"
+    },
+    {
+      "id": "chinese-jug-handle-spout-yongle",
+      "ch": "origins-and-crossings",
+      "significance": "重要藏品",
+      "image": "./assets/designmuseum-danmark/chinese-jug-handle-spout-yongle.jpg",
+      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+      "imageCaption": "带把手与流口的壶 / Jug with handle and spout",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "localAssetSource": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+      "imageKind": "museum-placeholder",
+      "availabilityTag": "不确定是否展出"
+    },
+    {
+      "id": "tsuba-sano-naoyoshi-c1775",
+      "ch": "origins-and-crossings",
+      "significance": "重要藏品",
+      "image": "./assets/designmuseum-danmark/tsuba-sano-naoyoshi-c1775.jpg",
+      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+      "imageCaption": "日本刀镡 / Tsuba, Japanese sword guard",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "localAssetSource": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+      "imageKind": "museum-placeholder",
+      "availabilityTag": "不确定是否展出"
+    },
+    {
+      "id": "spengler-temple-spiral-staircase-1760",
+      "ch": "craft-and-worldmaking",
+      "significance": "重要藏品",
+      "image": "./assets/designmuseum-danmark/spengler-temple-spiral-staircase-1760.jpg",
+      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+      "imageCaption": "带螺旋楼梯的神殿 / Temple with a spiral staircase",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "localAssetSource": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+      "imageKind": "museum-placeholder",
+      "availabilityTag": "不确定是否展出"
+    },
+    {
+      "id": "flora-danica-four-sided-serving-dish",
+      "ch": "craft-and-worldmaking",
+      "significance": "重要藏品",
+      "image": "./assets/designmuseum-danmark/flora-danica-four-sided-serving-dish.jpg",
+      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+      "imageCaption": "Flora Danica 餐具中的四边形餐盘 / Four-sided serving dish from the Flora Danica service",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "localAssetSource": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+      "imageKind": "museum-placeholder",
+      "availabilityTag": "不确定是否展出"
+    },
+    {
+      "id": "heron-service-wine-cooler-1885-88",
+      "ch": "craft-and-worldmaking",
+      "significance": "重要藏品",
+      "image": "./assets/designmuseum-danmark/heron-service-wine-cooler-1885-88.jpg",
+      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+      "imageCaption": "《苍鹭餐具》酒桶 / The Heron Service, wine cooler",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "localAssetSource": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+      "imageKind": "museum-placeholder",
+      "availabilityTag": "不确定是否展出"
+    },
+    {
+      "id": "gauguin-jug-self-portrait-1889",
+      "ch": "craft-and-worldmaking",
+      "significance": "重要藏品",
+      "image": "./assets/designmuseum-danmark/gauguin-jug-self-portrait-1889.jpg",
+      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+      "imageCaption": "自画像壶 / Jug Self-portrait",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "localAssetSource": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+      "imageKind": "museum-placeholder",
+      "availabilityTag": "不确定是否展出"
+    },
+    {
+      "id": "hegermann-lindencrone-porcelain-vase-1899-1900",
+      "ch": "craft-and-worldmaking",
+      "significance": "重要藏品",
+      "image": "./assets/designmuseum-danmark/hegermann-lindencrone-porcelain-vase-1899-1900.jpg",
+      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+      "imageCaption": "瓷花瓶 / Porcelain vase",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "localAssetSource": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+      "imageKind": "museum-placeholder",
+      "availabilityTag": "不确定是否展出"
+    },
+    {
+      "id": "malling-hansen-writing-ball-1870s",
+      "ch": "communication-and-public-design",
+      "significance": "重要藏品",
+      "image": "./assets/designmuseum-danmark/malling-hansen-writing-ball-1870s.jpg",
+      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+      "imageCaption": "汉森写字球 / Hansen Writing Ball",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "localAssetSource": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+      "imageKind": "museum-placeholder",
+      "availabilityTag": "不确定是否展出"
+    },
+    {
+      "id": "thorvald-bindesboll-carlsberg-label-1904",
+      "ch": "communication-and-public-design",
+      "significance": "重要藏品",
+      "image": "./assets/designmuseum-danmark/thorvald-bindesboll-carlsberg-label-1904.jpg",
+      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+      "imageCaption": "嘉士伯标签 / Carlsberg label",
+      "source": "https://designmuseum.dk/qr-site/2-thorvald-bindesboell-carlsberg-etikette-1904/",
+      "localAssetSource": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+      "imageKind": "museum-placeholder",
+      "availabilityTag": "不确定是否展出"
+    },
+    {
+      "id": "nilfisk-l10-vacuum-cleaner-1922",
+      "ch": "modern-life-and-materials",
+      "significance": "重要藏品",
+      "image": "./assets/designmuseum-danmark/nilfisk-l10-vacuum-cleaner-1922.jpg",
+      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Nilfisk_1920_Vacuum_cleaner_img_1392.jpg",
+      "imageCaption": "Nilfisk L10 吸尘器 / Nilfisk vacuum cleaner, L10",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "localAssetSource": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/nilfisk-l10-vacuum-cleaner-1922.jpg",
+      "imageKind": "object",
+      "availabilityTag": "不确定是否展出"
+    },
+    {
+      "id": "poul-henningsen-table-lamp-4-3-1927",
+      "ch": "modern-life-and-materials",
+      "significance": "重要藏品",
+      "image": "./assets/designmuseum-danmark/poul-henningsen-table-lamp-4-3-1927.jpg",
+      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+      "imageCaption": "4/3 台灯 / Table lamp 4/3",
+      "source": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+      "localAssetSource": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+      "imageKind": "museum-placeholder",
+      "availabilityTag": "不确定是否展出"
+    },
+    {
+      "id": "kaare-klint-red-chair-1927",
+      "ch": "modern-life-and-materials",
+      "significance": "重要藏品",
+      "image": "./assets/designmuseum-danmark/kaare-klint-red-chair-1927.jpg",
+      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+      "imageCaption": "红椅 / Red Chair",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "localAssetSource": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+      "imageKind": "museum-placeholder",
+      "availabilityTag": "不确定是否展出"
+    },
+    {
+      "id": "marie-gudme-leth-tree-pattern-1937",
+      "ch": "modern-life-and-materials",
+      "significance": "特色看点",
+      "image": "./assets/designmuseum-danmark/marie-gudme-leth-tree-pattern-1937.jpg",
+      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+      "imageCaption": "树木图案 / Tree pattern",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "localAssetSource": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+      "imageKind": "museum-placeholder",
+      "availabilityTag": "不确定是否展出"
+    },
+    {
+      "id": "finn-juhl-butterfly-coffee-table-prototype-1949",
+      "ch": "danish-chair-as-system",
+      "significance": "重要藏品",
+      "image": "./assets/designmuseum-danmark/finn-juhl-butterfly-coffee-table-prototype-1949.jpg",
+      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+      "imageCaption": "蝴蝶咖啡桌（原型） / Butterfly coffee table (prototype)",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "localAssetSource": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+      "imageKind": "museum-placeholder",
+      "availabilityTag": "不确定是否展出"
+    },
+    {
+      "id": "hans-wegner-wishbone-chair-1950",
+      "ch": "danish-chair-as-system",
+      "significance": "重要藏品",
+      "image": "./assets/designmuseum-danmark/hans-wegner-wishbone-chair-1950.jpg",
+      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/5/58/Hans_J_Wegner_Wishbone_Chair.jpg",
+      "imageCaption": "Wishbone 椅 / Wishbone chair",
+      "source": "https://designmuseum.dk/en/the-danish-chair/",
+      "localAssetSource": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/hans-wegner-wishbone-chair-1950.jpg",
+      "imageKind": "object",
+      "availabilityTag": "不确定是否展出"
+    },
+    {
+      "id": "arne-jacobsen-ant-chair-1952",
+      "ch": "danish-chair-as-system",
+      "significance": "重要藏品",
+      "image": "./assets/designmuseum-danmark/arne-jacobsen-ant-chair-1952.jpg",
+      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+      "imageCaption": "蚂蚁椅 / The Ant",
+      "source": "https://designmuseum.dk/en/the-danish-chair/",
+      "localAssetSource": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+      "imageKind": "museum-placeholder",
+      "availabilityTag": "不确定是否展出"
+    },
+    {
+      "id": "verner-panton-panton-chair-1960-1967",
+      "ch": "danish-chair-as-system",
+      "significance": "重要藏品",
+      "image": "./assets/designmuseum-danmark/verner-panton-panton-chair-1960-1967.jpg",
+      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+      "imageCaption": "潘顿椅 / Panton Chair",
+      "source": "https://designmuseum.dk/qr-site/23-verner-panton-panton-chair-1960-1967-68/",
+      "localAssetSource": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+      "imageKind": "museum-placeholder",
+      "availabilityTag": "不确定是否展出"
+    },
+    {
+      "id": "bang-olufsen-beogram-4000-1972",
+      "ch": "beyond-the-chair",
+      "significance": "重要藏品",
+      "image": "./assets/designmuseum-danmark/bang-olufsen-beogram-4000-1972.jpg",
+      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+      "imageCaption": "Beogram 4000 唱片机 / Beogram 4000",
+      "source": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+      "localAssetSource": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+      "imageKind": "museum-placeholder",
+      "availabilityTag": "不确定是否展出"
+    },
+    {
+      "id": "katrine-bendixen-inside-out-lamp-2019",
+      "ch": "beyond-the-chair",
+      "significance": "特色看点",
+      "image": "./assets/designmuseum-danmark/katrine-bendixen-inside-out-lamp-2019.jpg",
+      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+      "imageCaption": "《由内而外》灯具 / Inside Out, lamp",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "localAssetSource": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+      "imageKind": "museum-placeholder",
+      "availabilityTag": "不确定是否展出"
+    }
+  ],
+  "integration": {
+    "coordinates": [
+      55.6865563,
+      12.5928422
+    ]
+  },
+  "publication": {
+    "dataFile": "designmuseum-danmark.js",
+    "cacheKey": "designmuseum-danmark-p2-11-6",
+    "cachePages": []
+  }
+}

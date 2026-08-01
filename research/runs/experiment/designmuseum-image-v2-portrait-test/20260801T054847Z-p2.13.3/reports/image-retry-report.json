@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "stage": "image_evidence_retry",
+  "runId": "20260801T054847Z-p2.13.3",
+  "runRoot": "research/runs/experiment/designmuseum-image-v2-portrait-test/20260801T054847Z-p2.13.3",
+  "parentRunRoot": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6",
+  "parentEvidenceSha256": "ae2744c0fb9c552d9e94a120c1bc6ee1f844e4589b1186bdc63aadfe16c3e71f",
+  "failedWorksRetried": [
+    {
+      "workId": "portrait-pietro-krohn-1887",
+      "priorStatus": "accepted",
+      "priorFailure": [
+        "AI candidate download failed: image dimensions are missing or too small"
+      ],
+      "sourcePageUrl": "https://designmuseu\r\nm.dk/en/directors-choice/"
+    }
+  ],
+  "newlyAccepted": [
+    {
+      "workId": "portrait-pietro-krohn-1887",
+      "sourcePageUrl": "https://designmuseum.dk/en/directors-choice/",
+      "imageUrl": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2024/03/P_S_Kroyer_-48_1969_Designmuseum-Danmark_Photo-Pernille-Klemp-Stor.jpg",
+      "localPath": "research/runs/experiment/designmuseum-image-v2-portrait-test/20260801T054847Z-p2.13.3/image-evidence/assets/portrait-pietro-krohn-1887.webp",
+      "sha256": "8a6da544f6f89a4853c435fce7971e22d351ac6c7833ea2e2a0bd71d979deeb8",
+      "method": "ai_page_candidate_download",
+      "imageRole": "object_view",
+      "candidateId": "page-image-005"
+    }
+  ],
+  "stillUnresolved": [],
+  "counts": {
+    "works": 20,
+    "previousAcceptedPreserved": 19,
+    "retried": 1,
+    "newlyAccepted": 1,
+    "directImageDownloads": 1,
+    "elementCaptures": 0,
+    "objectImageAccepted": 1,
+    "contextImagesAccepted": 0,
+    "unresolved": 0,
+    "duplicateObjectImageGroups": [],
+    "modelCalls": 1,
+    "modelTokens": 25203,
+    "webSearchCount": 0
+  },
+  "model": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium",
+    "calls": 1,
+    "durationMs": 12654,
+    "tokens": {
+      "total": 25203,
+      "source": "codex_cli_log"
+    },
+    "webSearchCount": 0
+  },
+  "guarantees": {
+    "acceptedWorksNotRerun": [
+      "flora-danica-four-sided-serving-dish",
+      "chinese-jug-handle-spout-yongle",
+      "tsuba-sano-naoyoshi-c1775",
+      "spengler-temple-spiral-staircase-1760",
+      "malling-hansen-writing-ball-1870s",
+      "heron-service-wine-cooler-1885-88",
+      "thorvald-bindesboll-carlsberg-label-1904",
+      "gauguin-jug-self-portrait-1889",
+      "hegermann-lindencrone-porcelain-vase-1899-1900",
+      "nilfisk-l10-vacuum-cleaner-1922",
+      "poul-henningsen-table-lamp-4-3-1927",
+      "kaare-klint-red-chair-1927",
+      "marie-gudme-leth-tree-pattern-1937",
+      "hans-wegner-wishbone-chair-1950",
+      "verner-panton-panton-chair-1960-1967",
+      "finn-juhl-butterfly-coffee-table-prototype-1949",
+      "arne-jacobsen-ant-chair-1952",
+      "katrine-bendixen-inside-out-lamp-2019",
+      "bang-olufsen-beogram-4000-1972"
+    ],
+    "nonImageStagesRun": [],
+    "imageGenerationModelUsed": false,
+    "parentRunModified": false,
+    "assemblyNetworkAccess": false,
+    "productionModified": false
+  }
+}

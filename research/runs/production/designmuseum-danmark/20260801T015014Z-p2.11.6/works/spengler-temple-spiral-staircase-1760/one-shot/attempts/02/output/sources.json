@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "spengler-temple-spiral-staircase-1760",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "objectDescription"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Audioguide DIRECTOR’S CHOICE: Temple with a spiral staircase",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://soundcloud.com/designmuseumdanmark/temple-with-a-spiral-staircase",
+      "sourceType": "museum",
+      "usedFor": [
+        "objectDescription",
+        "techniqueContext",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Lorenz Spengler",
+      "publisher": "Lex",
+      "url": "https://lex.dk/Lorenz_Spengler",
+      "sourceType": "publication",
+      "usedFor": [
+        "creator",
+        "biography",
+        "professionalContext"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Direktørens valg",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "title",
+        "creator",
+        "objectDescription"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "medium",
+      "statement": "锁定 metadata 与官方对象页均未给出材质；文章未作材料判断。"
+    },
+    {
+      "topic": "制作过程",
+      "statement": "官方来源强调车旋工艺及螺旋结构的视觉效果，但未提供该对象的完整制作步骤；文章未把一般工艺推测写成对象专属事实。"
+    },
+    {
+      "topic": "provenance",
+      "statement": "官方 Director's Choice 页面将该物列入馆藏精选，但未公布入藏时间、来源或完整收藏史。"
+    },
+    {
+      "topic": "availability",
+      "statement": "官方页面未明确说明该物在当前展览中的展出状态。"
+    },
+    {
+      "topic": "creator_name",
+      "statement": "官方英文页拼作 Lorentz Spengler，官方丹麦语页拼作 Lorenz Spengler；中文文章采用锁定 metadata 的 Lorentz 拼法。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "creator",
+      "severity": "warning",
+      "lockedValue": "Lorentz Spengler",
+      "sourceValue": "官方丹麦语页写作 Lorenz Spengler；英文页写作 Lorentz Spengler",
+      "sourceIds": [
+        "S1",
+        "S4"
+      ]
+    }
+  ]
+}

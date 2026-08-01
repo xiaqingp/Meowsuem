@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "bang-olufsen-beogram-4000-1972",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Genstandssamlinger / Collections",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "collectionRelation",
+        "availability"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Years of Magic - A History of B&O products",
+      "publisher": "Bang & Olufsen",
+      "url": "https://www.bang-olufsen.com/en/ie/story/years-of-magic",
+      "sourceType": "other",
+      "usedFor": [
+        "creator",
+        "date",
+        "function",
+        "design_context",
+        "process"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Jacob Jensen. Beogram 4000 Record Player. 1972",
+      "publisher": "The Museum of Modern Art",
+      "url": "https://www.moma.org/collection/works/2483",
+      "sourceType": "museum",
+      "usedFor": [
+        "creator",
+        "date",
+        "material",
+        "dimensions",
+        "comparative_object_record"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "material",
+      "statement": "Designmuseum Danmark官方收藏页面没有列出本馆这件 Beogram 4000 的具体材质；MoMA的同型号记录列出玫瑰木、铝、不锈钢和塑料，不能据此确认本馆对象的完整材料清单。"
+    },
+    {
+      "topic": "availability",
+      "statement": "Designmuseum Danmark官方页面说明馆藏中只有一小部分展出，但没有说明 Beogram 4000 当前是否展出。"
+    }
+  ],
+  "upstreamConflicts": []
+}

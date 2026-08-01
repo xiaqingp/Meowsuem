@@ -139,6 +139,93 @@ function setWorkUrl(workId, mode = "push") {
   history[`${mode}State`]({work:workId || null}, "", url);
 }
 
+const inlineWarningCodes = new Set(["UNSUPPORTED_DIRECT_QUOTE", "UNSUPPORTED_HIGH_RISK_CLAIM", "UNSUPPORTED_ARTIST_INTENT", "UNSUPPORTED_DISPLAY_STATUS"]);
+const internalWarningCodes = new Set(["MISSING_REQUIRED_FILE", "FORBIDDEN_ARTIFACT", "INVALID_LOCKED_METADATA_JSON", "INVALID_SOURCES_JSON", "FORBIDDEN_METADATA_INPUT", "LOCKED_METADATA_SCHEMA", "SOURCES_SCHEMA", "MODEL_DRIFT", "REASONING_EFFORT_DRIFT", "SOURCE_IDENTITY_DRIFT", "EXPERIMENT_PUBLISH_ATTEMPT", "PROTECTED_FILE_SET_CHANGED", "PROTECTED_FILE_CHANGED", "REFERENCE_ID_LEAK", "INTERNAL_TEXT_LEAK", "BROAD_EVALUATION"]);
+const smallWarningCodes = new Set(["LOW_SOURCE_COUNT", "INVALID_SOURCE_URL", "INVALID_SOURCE_TYPE", "ARTICLE_TITLE_DRIFT", "MISSING_QUICK_SECTION", "MISSING_FINAL_SECTION", "MISSING_MIDDLE_SECTION", "AMBIGUOUS_QUOTATION", "AMBIGUOUS_DISPLAY_STATUS"]);
+
+function warningLevel(issue) {
+  if (internalWarningCodes.has(issue.code)) return "internal";
+  if (issue.code === "OFFICIAL_SOURCE_COVERAGE" && (issue.matches ?? []).every(value => ["date", "material"].includes(value))) return "small";
+  return smallWarningCodes.has(issue.code) ? "small" : "large";
+}
+
+function warningMessage(issue) {
+  if (issue.code === "OFFICIAL_SOURCE_COVERAGE" && issue.matches?.includes("material")) return "官方资料未注明或未充分支持这件作品的材质。";
+  if (issue.code === "OFFICIAL_SOURCE_COVERAGE" && issue.matches?.includes("date")) return "官方资料未充分支持这件作品的年代。";
+  const messages = {
+    LOW_SOURCE_COUNT: "当前只记录了一个来源。",
+    ARTICLE_TITLE_DRIFT: "正文标题格式与锁定名称不完全一致。",
+    MISSING_QUICK_SECTION: "正文缺少“一分钟看懂”部分。",
+    MISSING_MIDDLE_SECTION: "正文缺少中段分析。",
+    MISSING_FINAL_SECTION: "正文缺少“最后再看一眼”部分。",
+    AMBIGUOUS_QUOTATION: "部分引号可能是强调，也可能需要补充引语来源。",
+    AMBIGUOUS_DISPLAY_STATUS: "展出状态的措辞仍不够明确。",
+    UNSUPPORTED_DIRECT_QUOTE: "这段直接引语缺少可核验的来源记录。",
+    UNSUPPORTED_HIGH_RISK_CLAIM: "这项强事实判断缺少可核验的来源记录。",
+    UNSUPPORTED_ARTIST_INTENT: "这项艺术家意图判断缺少可核验的来源记录。",
+    UNSUPPORTED_DISPLAY_STATUS: "这句话把尚未确认的展出状态写成了确定事实。",
+    MISSING_OFFICIAL_OBJECT_SOURCE: "缺少可以确认作品身份的官方对象页。",
+    BLOCKING_UPSTREAM_CONFLICT: "研究结果与锁定的作品资料存在重要冲突。"
+  };
+  return messages[issue.code] || issue.message;
+}
+
+function annotateInlineWarning(body, issue) {
+  const matches = [...(issue.matches ?? [])];
+  if (!matches.length && issue.code === "UNSUPPORTED_DISPLAY_STATUS") {
+    const match = body.textContent.match(/(?:目前|当前|现正|正在)[^。！？\n]{0,28}(?:展出|在展|馆内看到)/)?.[0];
+    if (match) matches.push(match);
+  }
+  for (const match of matches) {
+    const walker = document.createTreeWalker(body, NodeFilter.SHOW_TEXT);
+    let node;
+    while ((node = walker.nextNode())) {
+      const index = node.data.indexOf(match);
+      if (index < 0) continue;
+      const before = node.data.slice(0, index);
+      const after = node.data.slice(index + match.length);
+      const marked = document.createElement("mark");
+      marked.className = "inline-warning-claim";
+      marked.textContent = match;
+      const note = document.createElement("sup");
+      note.className = "inline-warning-note";
+      note.textContent = "⚠ 需核验";
+      note.title = warningMessage(issue);
+      node.replaceWith(document.createTextNode(before), marked, note, document.createTextNode(after));
+      return true;
+    }
+  }
+  return false;
+}
+
+function renderWorkWarnings(work, body) {
+  const warningBox = $("#workWarning");
+  const panel = warningBox.querySelector(".work-warning-panel");
+  panel.replaceChildren();
+  warningBox.open = false;
+  const visible = [];
+  for (const issue of work.contentWarning?.issues ?? []) {
+    const level = warningLevel(issue);
+    if (level === "internal") continue;
+    if (inlineWarningCodes.has(issue.code) && annotateInlineWarning(body, issue)) continue;
+    visible.push({...issue, level});
+  }
+  warningBox.hidden = visible.length === 0;
+  if (!visible.length) return;
+  const large = visible.some(issue => issue.level === "large");
+  warningBox.className = `work-warning ${large ? "large" : "small"}`;
+  warningBox.querySelector("summary").title = large ? "查看重要内容提示" : "查看资料提示";
+  const title = document.createElement("strong");
+  title.textContent = large ? "内容存在重要校验问题" : "资料提示";
+  const list = document.createElement("ul");
+  for (const issue of visible) {
+    const item = document.createElement("li");
+    item.textContent = warningMessage(issue);
+    list.append(item);
+  }
+  panel.append(title, list);
+}
+
 function openWork(index, updateUrl = true) {
   currentWorkIndex = Number(index);
   const work = museum.works[currentWorkIndex];
@@ -160,6 +247,7 @@ function openWork(index, updateUrl = true) {
   $("#richBody").innerHTML = rich
     ? markdownToHtml(rich.body)
     : '<p class="content-error">完整正文尚未载入，请稍后重试。页面不会用摘要拼接替代正文。</p>';
+  renderWorkWarnings(work, $("#richBody"));
   const publicSources = Array.isArray(work.sources) ? work.sources : [];
   const sourceDetails = $("#workSources");
   const sourceList = sourceDetails.querySelector("ul");

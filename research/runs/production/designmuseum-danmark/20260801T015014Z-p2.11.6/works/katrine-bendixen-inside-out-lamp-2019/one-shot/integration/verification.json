@@ -1,0 +1,72 @@
+{
+  "status": "failed",
+  "errors": [
+    {
+      "code": "SOURCES_SCHEMA",
+      "message": "$.upstreamConflicts[0].lockedValue is required",
+      "matches": [],
+      "severity": "error"
+    },
+    {
+      "code": "SOURCES_SCHEMA",
+      "message": "$.upstreamConflicts[0].observedValue is required",
+      "matches": [],
+      "severity": "error"
+    },
+    {
+      "code": "SOURCES_SCHEMA",
+      "message": "$.upstreamConflicts[0].explanation is required",
+      "matches": [],
+      "severity": "error"
+    },
+    {
+      "code": "ARTICLE_TITLE_DRIFT",
+      "message": "Article title does not match locked metadata",
+      "matches": [
+        "# 《《由内而外》灯具》 / Inside Out, lamp"
+      ],
+      "severity": "error"
+    },
+    {
+      "code": "UNSUPPORTED_DISPLAY_STATUS",
+      "message": "Current display status is stated as certain although metadata is not confirmed",
+      "matches": [],
+      "severity": "error"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "BROAD_EVALUATION",
+      "message": "Broad evaluative wording is not a hard failure",
+      "matches": [
+        "重要",
+        "经典"
+      ],
+      "severity": "warning"
+    }
+  ],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": false,
+    "identityLocked": false,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": true,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": false,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "先别急着问它漂不漂亮",
+    "一件灯，怎样谈起可持续性",
+    "它为什么适合放进设计博物馆"
+  ],
+  "sourceCount": 5,
+  "articleBytes": 5178,
+  "sourcesBytes": 2813
+}

@@ -1,0 +1,280 @@
+{
+  "schemaVersion": "1.0",
+  "museumId": "designmuseum-danmark",
+  "museum": {
+    "name": {
+      "zh": "丹麦设计博物馆",
+      "en": "Designmuseum Danmark"
+    },
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "venue": "Designmuseum Danmark，Bredgade 68，1260 Copenhagen K",
+    "score": 77,
+    "scoreBand": "70–79 · 可去可不去",
+    "actionConclusion": "如果你在哥本哈根停留，并且对设计、工艺或丹麦现代家具感兴趣，值得安排半天；它不靠一件已核实的稀世珍品支撑专程前往，而靠一条从历史器物、跨文化工艺到工业产品和丹麦现代家具的长线叙事取胜。",
+    "specialFocus": "这家馆真正特别的地方，是把设计放回材料、生产、使用和制度的连续关系里：中国器物与日本工艺、皇家瓷器、早期工业产品、椅子和当代灯具并不是孤立名作，而是同一问题在不同时代的回答。",
+    "fit": "适合愿意比较器物如何被制造、使用和传播的旅行者，尤其适合把丹麦现代家具放进更长的工艺史中观看的人。",
+    "limits": "本轮没有通过稀世珍品硬门；馆方说明只有少部分馆藏展出，20 件入选对象的当前持续展出状态也未获统一确认。因此路线是观看顺序与价值优先级，不是当天必然可见的实时导航。全程限于 Bredgade 68 主馆址。",
+    "timePlanning": "90 分钟抓住跨文化器物、皇家瓷器、早期工业设计、PH 灯具、丹麦现代家具和潘顿椅；半天补足晚十九世纪装饰艺术、平面设计、纺织、家具黄金时期和 Beogram 4000；完整浏览按章节顺序覆盖全部 20 件，但须预留轮换核验和休息时间。"
+  },
+  "chapters": [
+    {
+      "id": "origins-and-crossings",
+      "number": 1,
+      "title": "设计从哪里开始：人物与跨文化形式如何进入一座馆？",
+      "intro": "先看博物馆如何把机构史和跨地域的器物联系起来：设计不是只从丹麦现代家具开始，也包括收藏、转译和使用身份。",
+      "workIds": [
+        "portrait-pietro-krohn-1887",
+        "chinese-jug-handle-spout-yongle",
+        "tsuba-sano-naoyoshi-c1775"
+      ]
+    },
+    {
+      "id": "craft-and-worldmaking",
+      "number": 2,
+      "title": "器物怎样解释世界：从精密工艺到皇家瓷器？",
+      "intro": "这一段把构造、植物分类、宫廷委托和艺术／工艺边界放在一起，看手工如何从实用与陈设走向观念表达。",
+      "workIds": [
+        "spengler-temple-spiral-staircase-1760",
+        "flora-danica-four-sided-serving-dish",
+        "heron-service-wine-cooler-1885-88",
+        "gauguin-jug-self-portrait-1889",
+        "hegermann-lindencrone-porcelain-vase-1899-1900"
+      ]
+    },
+    {
+      "id": "communication-and-public-design",
+      "number": 3,
+      "title": "设计怎样服务沟通：机器与图像如何进入公共生活？",
+      "intro": "写字球和嘉士伯标签分别面对能力差异与公共传播，提示设计不仅塑造物，也塑造信息抵达人的方式。",
+      "workIds": [
+        "malling-hansen-writing-ball-1870s",
+        "thorvald-bindesboll-carlsberg-label-1904"
+      ]
+    },
+    {
+      "id": "modern-life-and-materials",
+      "number": 4,
+      "title": "现代生活如何被重新安排：家务、光线、家具与图案？",
+      "intro": "进入二十世纪后，设计开始直接处理家务、电气化、坐姿和织物图案；功能并没有取消形式，而是改变了形式的任务。",
+      "workIds": [
+        "nilfisk-l10-vacuum-cleaner-1922",
+        "poul-henningsen-table-lamp-4-3-1927",
+        "kaare-klint-red-chair-1927",
+        "marie-gudme-leth-tree-pattern-1937"
+      ]
+    },
+    {
+      "id": "danish-chair-as-system",
+      "number": 5,
+      "title": "一把椅子怎样把木工变成工业语言？",
+      "intro": "从原型、系列生产到单壳和整体塑料，连续看四把椅子如何分别处理承托、制造、轻量化和材料转向。",
+      "workIds": [
+        "finn-juhl-butterfly-coffee-table-prototype-1949",
+        "hans-wegner-wishbone-chair-1950",
+        "arne-jacobsen-ant-chair-1952",
+        "verner-panton-panton-chair-1960-1967"
+      ]
+    },
+    {
+      "id": "beyond-the-chair",
+      "number": 6,
+      "title": "当设计不只解决问题：技术、声音与材料还能提出什么问题？",
+      "intro": "最后从家具移向音响和当代灯具：设计既可以把技术变成日常界面，也可以主动追问材料、用途和设计博物馆的边界。",
+      "workIds": [
+        "bang-olufsen-beogram-4000-1972",
+        "katrine-bendixen-inside-out-lamp-2019"
+      ]
+    }
+  ],
+  "routes": {
+    "90": {
+      "title": "90 分钟：先看这家馆为什么值得",
+      "note": "只保留能支撑本馆核心判断的节点：跨文化形式、皇家瓷器、早期工业设计、光、丹麦现代家具和塑料转向。主动跳过机构肖像、平面设计、纺织、同系列补充和当代收束；每件对象是否当天可见须先向馆方核验。",
+      "workIds": [
+        "chinese-jug-handle-spout-yongle",
+        "spengler-temple-spiral-staircase-1760",
+        "flora-danica-four-sided-serving-dish",
+        "malling-hansen-writing-ball-1870s",
+        "gauguin-jug-self-portrait-1889",
+        "poul-henningsen-table-lamp-4-3-1927",
+        "kaare-klint-red-chair-1927",
+        "hans-wegner-wishbone-chair-1950",
+        "arne-jacobsen-ant-chair-1952",
+        "verner-panton-panton-chair-1960-1967"
+      ]
+    },
+    "half": {
+      "title": "半天：看懂从工艺到丹麦现代设计的结构",
+      "note": "在核心节点外，加入日本工艺、晚十九世纪协作瓷器、穿孔瓷、平面设计、家具原型、纺织和 Beogram 4000，形成主要收藏群的代表性横切面。按章节顺序行走，遇到轮换对象时保留该章节的比较逻辑，不把不可见对象当作当天必看。",
+      "workIds": [
+        "chinese-jug-handle-spout-yongle",
+        "tsuba-sano-naoyoshi-c1775",
+        "spengler-temple-spiral-staircase-1760",
+        "flora-danica-four-sided-serving-dish",
+        "heron-service-wine-cooler-1885-88",
+        "gauguin-jug-self-portrait-1889",
+        "hegermann-lindencrone-porcelain-vase-1899-1900",
+        "malling-hansen-writing-ball-1870s",
+        "thorvald-bindesboll-carlsberg-label-1904",
+        "nilfisk-l10-vacuum-cleaner-1922",
+        "poul-henningsen-table-lamp-4-3-1927",
+        "kaare-klint-red-chair-1927",
+        "marie-gudme-leth-tree-pattern-1937",
+        "finn-juhl-butterfly-coffee-table-prototype-1949",
+        "hans-wegner-wishbone-chair-1950",
+        "arne-jacobsen-ant-chair-1952",
+        "verner-panton-panton-chair-1960-1967",
+        "bang-olufsen-beogram-4000-1972"
+      ]
+    },
+    "all": {
+      "title": "完整浏览：沿六个问题走完 20 件精选",
+      "note": "按章节顺序覆盖全部入选对象；它是研究内容的完整观看序列，不保证一天内全部可见，也不提供实时馆内导航。出发前核验轮换、借展和展厅状态；Katrine Bendixen 的对象尤其只能按曾展出且当前未知处理。全程均以 Bredgade 68 主馆址为边界。",
+      "workIds": [
+        "portrait-pietro-krohn-1887",
+        "chinese-jug-handle-spout-yongle",
+        "tsuba-sano-naoyoshi-c1775",
+        "spengler-temple-spiral-staircase-1760",
+        "flora-danica-four-sided-serving-dish",
+        "heron-service-wine-cooler-1885-88",
+        "gauguin-jug-self-portrait-1889",
+        "hegermann-lindencrone-porcelain-vase-1899-1900",
+        "malling-hansen-writing-ball-1870s",
+        "thorvald-bindesboll-carlsberg-label-1904",
+        "nilfisk-l10-vacuum-cleaner-1922",
+        "poul-henningsen-table-lamp-4-3-1927",
+        "kaare-klint-red-chair-1927",
+        "marie-gudme-leth-tree-pattern-1937",
+        "finn-juhl-butterfly-coffee-table-prototype-1949",
+        "hans-wegner-wishbone-chair-1950",
+        "arne-jacobsen-ant-chair-1952",
+        "verner-panton-panton-chair-1960-1967",
+        "bang-olufsen-beogram-4000-1972",
+        "katrine-bendixen-inside-out-lamp-2019"
+      ]
+    }
+  },
+  "works": [
+    {
+      "workId": "portrait-pietro-krohn-1887",
+      "sectionId": "origins-and-crossings",
+      "stay": "5—8分钟",
+      "routeRole": ["museum-context", "all-context"]
+    },
+    {
+      "workId": "chinese-jug-handle-spout-yongle",
+      "sectionId": "origins-and-crossings",
+      "stay": "8—12分钟",
+      "routeRole": ["90-anchor", "half-core", "all-core"]
+    },
+    {
+      "workId": "tsuba-sano-naoyoshi-c1775",
+      "sectionId": "origins-and-crossings",
+      "stay": "6—8分钟",
+      "routeRole": ["half-context", "all-context"]
+    },
+    {
+      "workId": "spengler-temple-spiral-staircase-1760",
+      "sectionId": "craft-and-worldmaking",
+      "stay": "8—12分钟",
+      "routeRole": ["90-anchor", "half-core", "all-core"]
+    },
+    {
+      "workId": "flora-danica-four-sided-serving-dish",
+      "sectionId": "craft-and-worldmaking",
+      "stay": "10—15分钟",
+      "routeRole": ["90-anchor", "half-core", "all-core"]
+    },
+    {
+      "workId": "heron-service-wine-cooler-1885-88",
+      "sectionId": "craft-and-worldmaking",
+      "stay": "8—12分钟",
+      "routeRole": ["half-core", "all-core"]
+    },
+    {
+      "workId": "gauguin-jug-self-portrait-1889",
+      "sectionId": "craft-and-worldmaking",
+      "stay": "8—12分钟",
+      "routeRole": ["90-anchor", "half-core", "all-core"]
+    },
+    {
+      "workId": "hegermann-lindencrone-porcelain-vase-1899-1900",
+      "sectionId": "craft-and-worldmaking",
+      "stay": "8—12分钟",
+      "routeRole": ["half-core", "all-core"]
+    },
+    {
+      "workId": "malling-hansen-writing-ball-1870s",
+      "sectionId": "communication-and-public-design",
+      "stay": "10—15分钟",
+      "routeRole": ["90-anchor", "half-core", "all-core"]
+    },
+    {
+      "workId": "thorvald-bindesboll-carlsberg-label-1904",
+      "sectionId": "communication-and-public-design",
+      "stay": "6—8分钟",
+      "routeRole": ["half-context", "all-context"]
+    },
+    {
+      "workId": "nilfisk-l10-vacuum-cleaner-1922",
+      "sectionId": "modern-life-and-materials",
+      "stay": "8—10分钟",
+      "routeRole": ["90-anchor", "half-core", "all-core"]
+    },
+    {
+      "workId": "poul-henningsen-table-lamp-4-3-1927",
+      "sectionId": "modern-life-and-materials",
+      "stay": "10—15分钟",
+      "routeRole": ["90-anchor", "half-core", "all-core"]
+    },
+    {
+      "workId": "kaare-klint-red-chair-1927",
+      "sectionId": "modern-life-and-materials",
+      "stay": "8—10分钟",
+      "routeRole": ["90-anchor", "half-core", "all-core"]
+    },
+    {
+      "workId": "marie-gudme-leth-tree-pattern-1937",
+      "sectionId": "modern-life-and-materials",
+      "stay": "6—8分钟",
+      "routeRole": ["half-context", "all-context"]
+    },
+    {
+      "workId": "finn-juhl-butterfly-coffee-table-prototype-1949",
+      "sectionId": "danish-chair-as-system",
+      "stay": "8—12分钟",
+      "routeRole": ["half-core", "all-core"]
+    },
+    {
+      "workId": "hans-wegner-wishbone-chair-1950",
+      "sectionId": "danish-chair-as-system",
+      "stay": "10—15分钟",
+      "routeRole": ["90-anchor", "half-core", "all-core"]
+    },
+    {
+      "workId": "arne-jacobsen-ant-chair-1952",
+      "sectionId": "danish-chair-as-system",
+      "stay": "10—15分钟",
+      "routeRole": ["90-anchor", "half-core", "all-core"]
+    },
+    {
+      "workId": "verner-panton-panton-chair-1960-1967",
+      "sectionId": "danish-chair-as-system",
+      "stay": "10—15分钟",
+      "routeRole": ["90-anchor", "half-core", "all-core"]
+    },
+    {
+      "workId": "bang-olufsen-beogram-4000-1972",
+      "sectionId": "beyond-the-chair",
+      "stay": "8—10分钟",
+      "routeRole": ["half-core", "all-core"]
+    },
+    {
+      "workId": "katrine-bendixen-inside-out-lamp-2019",
+      "sectionId": "beyond-the-chair",
+      "stay": "8—12分钟",
+      "routeRole": ["all-context", "visibility-check"]
+    }
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "schemaVersion": 1,
+  "museumId": "designmuseum-danmark",
+  "works": [
+    {
+      "workId": "flora-danica-four-sided-serving-dish",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "这件餐盘把启蒙时代的植物分类知识转译为皇家瓷器装饰，是馆内瓷器收藏中连接科学图谱、宫廷委托与手工彩绘的一件明确样本。",
+      "selectionSignals": [
+        "Designmuseum Danmark 馆长精选目录明确列出该四边形餐盘，并将其归入 Flora Danica 餐具。",
+        "馆方确认其为彩绘瓷器并带金饰，装饰母本来自 1752—1803 年出版的《Flora Danica》植物图谱。",
+        "Royal Copenhagen 的工厂史把首套餐具的委托定在 1790 年，足以支撑皇家瓷器与植物分类的收藏线。"
+      ],
+      "sectionSignals": [
+        "porcelain",
+        "enlightenment-classification",
+        "royal-commission",
+        "botanical-image-transfer"
+      ],
+      "routeSignals": [
+        "porcelain_anchor",
+        "preindustrial_design_system"
+      ],
+      "riskFlags": [
+        "availability_ambiguity",
+        "cross_source_synthesis"
+      ],
+      "riskResolutionEvidence": {
+        "identity": {
+          "status": "resolved",
+          "evidence": "馆方目录给出完整对象类型、系列名、装饰说明和植物图谱日期范围。"
+        },
+        "availability": {
+          "status": "unresolved",
+          "evidence": "馆方 Director’s Choice 页面把它列入馆藏精选且未标注 NOT PART OF THE EXHIBITION，但页面没有明确承诺该件当前持续展出，因此不能升级为 confirmed_on_display。"
+        },
+        "sourceConflict": {
+          "status": "bounded",
+          "evidence": "Designmuseum Danmark 称首套餐具的原定收礼人无法确定、仅传说为叶卡捷琳娜二世；Royal Copenhagen 当前工厂史则确定称其为赠予叶卡捷琳娜二世的外交礼物。下游只能把受礼人写成存在来源强度差异的说法，不能当作无争议事实。"
+        },
+        "comparison": {
+          "comparisonCategory": "首套 Flora Danica 皇家餐具中的单件器皿，以及后来延续生产的同名餐具",
+          "nearestComparators": "同一首套餐具的其他器形，以及 Royal Copenhagen 后续制作的 Flora Danica 器皿",
+          "sharedCoreValue": "都把《Flora Danica》植物图谱转化为瓷面植物图像并使用金饰。",
+          "decisiveDifference": "现有来源只确认本件是馆藏中的四边形餐盘及其植物题材，未证明它在首套服务中具有唯一器形、唯一图样或不可替代的历史位置。",
+          "nonreplaceableValue": "未通过：现有证据不能说明观看其他首套 Flora Danica 器皿后仍缺少只有本件能提供的核心价值。",
+          "unknowns": [
+            "本件确切制作年份",
+            "首套餐具现存总件数与本件在其中的稀有度",
+            "本件当前展厅位置与展期"
+          ],
+          "rareGateResult": "fail"
+        }
+      },
+      "claims": [
+        {
+          "claimId": "FD01",
+          "claimType": "identity_and_material",
+          "statement": "馆方列名为 Flora Danica 餐具中的四边形餐盘，材质为带金饰的彩绘瓷器。",
+          "confidence": "high",
+          "sourceUrl": "https://designmuseum.dk/en/directors-choice/"
+        },
+        {
+          "claimId": "FD02",
+          "claimType": "design_source",
+          "statement": "馆方将餐具的形成与启蒙时代的系统分类愿望及《Flora Danica》图谱在 1790 年进入皇家瓷厂联系起来。",
+          "confidence": "high",
+          "sourceUrl": "https://designmuseum.dk/en/directors-choice/"
+        },
+        {
+          "claimId": "FD03",
+          "claimType": "commission_recipient",
+          "statement": "Royal Copenhagen 称首套 Flora Danica 是丹麦国王克里斯蒂安七世委托、拟赠俄国女皇叶卡捷琳娜二世的外交礼物；Designmuseum Danmark 对受礼人仅作未确定的传说处理。",
+          "confidence": "medium",
+          "sourceUrl": "https://www.royalcopenhagen.com/en-fi/our-legacy/our-history/timeline-of-the-factory-history"
+        }
+      ],
+      "sourcePointers": [
+        "https://designmuseum.dk/en/directors-choice/",
+        "https://www.royalcopenhagen.com/en-fi/our-legacy/our-history/timeline-of-the-factory-history",
+        "https://floradanica.royalcopenhagen.com/",
+        "https://www.britishmuseum.org/collection/term/BIOG77785"
+      ]
+    },
+    {
+      "workId": "heron-service-wine-cooler-1885-88",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "酒桶是《苍鹭餐具》把日本艺术影响、釉下彩与立体浮雕整合进丹麦十九世纪末瓷器革新的一个系列成员，并见证四位艺术家的协作生产。",
+      "selectionSignals": [
+        "馆方明确列出酒桶、1885—88 年、Pietro Krohn 及 Fanny Garde、Effie Hegermann-Lindencrone、Ludvig Brandstrup 的协作。",
+        "馆方把日本艺术影响、苍鹭图案、表面彩绘与浮雕共同列为该系列的识别机制。",
+        "馆方 2024 年报确认该系列曾在 1889 年巴黎世界博览会展出并在当时引起关注，且馆藏拥有多个系列部件。"
+      ],
+      "sectionSignals": [
+        "porcelain",
+        "japonisme",
+        "collaborative-production",
+        "underglaze-and-relief"
+      ],
+      "routeSignals": [
+        "porcelain_anchor",
+        "japanese_influence_on_danish_design"
+      ],
+      "riskFlags": [
+        "availability_ambiguity",
+        "cross_source_synthesis"
+      ],
+      "riskResolutionEvidence": {
+        "identity": {
+          "status": "resolved",
+          "evidence": "馆方 Director’s Choice 目录直接命名《苍鹭餐具》酒桶、年代与主设计者，并在正文给出协作者。"
+        },
+        "availability": {
+          "status": "unresolved",
+          "evidence": "该件出现在馆方精选与语音导览目录，且未标注不在展，但没有当前持续展出的明确承诺。"
+        },
+        "comparison": {
+          "comparisonCategory": "《苍鹭餐具》的不同器形与其他馆藏中的同系列部件",
+          "nearestComparators": "V&A 所藏同系列冰桶及杯碟；Designmuseum Danmark 2024 年报所示同系列撒盐器与芥末罐；CLAY 所藏 Krohn 设计水彩稿",
+          "sharedCoreValue": "共同呈现日本艺术启发的苍鹭母题、系列化器形与釉下装饰实验。",
+          "decisiveDifference": "本候选是馆方命名的 wine cooler，但公开资料没有证明它比 V&A 的同类冰桶或本馆其他部件更能独占系列的核心价值。",
+          "nonreplaceableValue": "未通过：同系列多个馆藏部件及设计稿可以解释相同的日本主义、协作与工艺问题。",
+          "unknowns": [
+            "本件具体材质与制作分工",
+            "酒桶及全套服务的已知存世数量",
+            "馆方所称 rare service 的全球比较范围",
+            "本件当前展厅位置与展期"
+          ],
+          "rareGateResult": "fail"
+        }
+      },
+      "claims": [
+        {
+          "claimId": "HS01",
+          "claimType": "identity_and_authorship",
+          "statement": "馆方将酒桶定名为《苍鹭餐具》组件，年代为 1885—88 年，设计者为 Pietro Krohn，并确认 Fanny Garde、Effie Hegermann-Lindencrone 与 Ludvig Brandstrup 参与协作。",
+          "confidence": "high",
+          "sourceUrl": "https://designmuseum.dk/en/directors-choice/"
+        },
+        {
+          "claimId": "HS02",
+          "claimType": "historical_reception",
+          "statement": "馆方年报称该系列在当时引起很大关注，并参加了 1889 年巴黎世界博览会。",
+          "confidence": "high",
+          "sourceUrl": "https://designmuseum.dk/wp-content/uploads/2025/05/Aarsrapport_2024_WEB.pdf"
+        },
+        {
+          "claimId": "HS03",
+          "claimType": "comparison_holdings",
+          "statement": "V&A 收藏同系列冰桶和杯碟，CLAY 收藏相关设计水彩，本馆则拥有多个系列部件；这些对象构成比泛称‘唯一餐具’更接近的比较组。",
+          "confidence": "medium",
+          "sourceUrl": "https://www.sothebys.com/en/buy/auction/2024/noble-private-collections/a-bing-groendahl-porcelain-heron-pattern"
+        }
+      ],
+      "sourcePointers": [
+        "https://designmuseum.dk/en/directors-choice/",
+        "https://designmuseum.dk/wp-content/uploads/2025/05/Aarsrapport_2024_WEB.pdf",
+        "https://publ.royalacademy.dk/backend/web/uploads/2020-02-14/AFL%206/SDH4_4_00_00_2014_5856/SDH4_4_00_00_2014_5856.pdf",
+        "https://brill.com/view/journals/joj/2/2/article-p170_5.pdf",
+        "https://www.sothebys.com/en/buy/auction/2024/noble-private-collections/a-bing-groendahl-porcelain-heron-pattern"
+      ]
+    },
+    {
+      "workId": "verner-panton-panton-chair-1960-1967",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "潘顿椅把椅腿、座面和靠背合并为连续的一体塑料悬臂形态，并以量产过程明确标记出丹麦设计从细木工传统转向塑料工业与波普文化的节点。",
+      "selectionSignals": [
+        "馆方独立 QR 对象页给出设计者、1960 原型、1967—68 投产及塑料材质。",
+        "馆方明确把它与六十年代消费文化、波普游戏文化和对细木工传统的突破相联系。",
+        "Vitra 的生产史区分 1967 首次公开、1968 聚氨酯泡沫量产、后续热塑性塑料试验与 1999 聚丙烯版本，能防止把不同版本混成同一技术事实。"
+      ],
+      "sectionSignals": [
+        "furniture",
+        "plastic_mass_production",
+        "pop_design",
+        "break_with_cabinetmaking"
+      ],
+      "routeSignals": [
+        "danish_modern_to_pop_transition",
+        "technical_innovation_anchor"
+      ],
+      "riskFlags": [
+        "superlative_claim",
+        "availability_ambiguity",
+        "cross_source_synthesis"
+      ],
+      "riskResolutionEvidence": {
+        "identity": {
+          "status": "resolved",
+          "evidence": "馆方 QR 页直接给出 Panton Chair、Verner Panton、1960/1967—68 与塑料。"
+        },
+        "availability": {
+          "status": "unresolved",
+          "evidence": "当前 Danish Modern 页面确认展览涵盖 Verner Panton，馆方另有对象 QR 页，但没有可审核文字确认候选对应版本当前在展。"
+        },
+        "superlative": {
+          "status": "bounded",
+          "claim": "世界首把以单件塑料将底座、座面和靠背连成一体并进入量产的椅子。",
+          "scope": "mass-produced one-piece all-plastic cantilever chair",
+          "support": "Designmuseum Danmark 直接提出世界第一的量产范围；Vitra 独立确认其为首把单件全塑料悬臂椅，并给出 1968 年量产节点。",
+          "caution": "不能缩写成‘世界第一把塑料椅’或‘第一把一体椅’；Cooper Hewitt 指出 Panton 早期 275 S 已是一体成型胶合板悬臂椅，因此材质与量产限定不可删除。"
+        },
+        "comparison": {
+          "comparisonCategory": "一体成型、单一材料的悬臂椅实验",
+          "nearestComparators": "Verner Panton 的 275 S 一体胶合板悬臂椅；Panton Chair 后续热塑性塑料和 1999 聚丙烯版本",
+          "sharedCoreValue": "都追求用连续曲线、单一材料和无独立后腿的悬臂结构重写椅子的构造。",
+          "decisiveDifference": "馆方与 Vitra 支持 1967—68 版本把这一构想首次落实为单件全塑料椅并进入量产；275 S 的材料是模压胶合板，后续版本则属于同一设计的材料迭代。",
+          "nonreplaceableValue": "作为设计类型节点具有不可替代的技术史位置，但单个馆藏实例的物理稀有性未获证明，因此只支持重要藏品，不支持稀世珍品。",
+          "unknowns": [
+            "本馆实例属于哪一具体生产批次与树脂配方",
+            "本馆实例的生产者、藏品号与来源史",
+            "当前在展版本是否为 1968 原始量产型或后期版本"
+          ],
+          "rareGateResult": "fail"
+        }
+      },
+      "claims": [
+        {
+          "claimId": "PC01",
+          "claimType": "superlative",
+          "statement": "馆方称其为世界首把把底座、座面与靠背做成单件塑料并量产的椅子。",
+          "confidence": "high",
+          "scope": "mass-produced one-piece plastic chair with base, seat and back as one form",
+          "sourceUrl": "https://designmuseum.dk/qr-site/23-verner-panton-panton-chair-1960-1967-68/"
+        },
+        {
+          "claimId": "PC02",
+          "claimType": "production_history",
+          "statement": "Vitra 称 1967 年首次公开展示，1968 年以硬质聚氨酯泡沫开始量产，1999 年才以聚丙烯重新推出较可负担的工业版本。",
+          "confidence": "high",
+          "sourceUrl": "https://www.panton.vitra.com/"
+        },
+        {
+          "claimId": "PC03",
+          "claimType": "nearest_comparator",
+          "statement": "Cooper Hewitt 将 Panton 的 275 S 称为首把以模压胶合板制成的一体悬臂椅；它证明潘顿椅的强断言必须保留‘全塑料’和‘量产’范围。",
+          "confidence": "high",
+          "sourceUrl": "https://www.cooperhewitt.org/2019/10/22/a-sinuous-seat/"
+        }
+      ],
+      "sourcePointers": [
+        "https://designmuseum.dk/qr-site/23-verner-panton-panton-chair-1960-1967-68/",
+        "https://designmuseum.dk/en/directors-choice/",
+        "https://designmuseum.dk/en/exhibition/danish-modern/",
+        "https://www.panton.vitra.com/",
+        "https://www.vitra.com/en-gb/page/panton-chair",
+        "https://www.cooperhewitt.org/2019/10/22/a-sinuous-seat/"
+      ]
+    },
+    {
+      "workId": "poul-kjaerholm-pk12-1962",
+      "identityStatus": "stable_with_date_boundary",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "PK12 可补充 Poul Kjærholm 在丹麦家具中使用钢材的路线，但馆方公开页只足以确认名称、设计者、1962 年与馆藏关系，尚不足以把它提升为该设计师的代表性技术突破。",
+      "selectionSignals": [
+        "馆方对象收藏总览明确列出 PK12、Poul Kjærholm、1962。",
+        "馆方同时声明只有馆藏的一小部分展出，因此对象出现在收藏总览不能等同于当前在展。",
+        "外部专题资料把本馆实例识别为 1962 年原型，并把一般生产年份置于 1964 年；该差异要求下游区分设计／原型日期和生产日期。"
+      ],
+      "sectionSignals": [
+        "furniture",
+        "poul_kjaerholm",
+        "steel_tube_and_cane",
+        "prototype_to_production"
+      ],
+      "routeSignals": [
+        "modern_furniture_comparison",
+        "secondary_kjaerholm_stop"
+      ],
+      "riskFlags": [
+        "attribution_or_date_conflict",
+        "insufficient_official_sources",
+        "availability_ambiguity",
+        "cross_source_synthesis"
+      ],
+      "riskResolutionEvidence": {
+        "identity": {
+          "status": "resolved_with_boundary",
+          "evidence": "馆方确认 PK12、Poul Kjærholm、1962；非馆方专题称本馆实例为 1962 原型并称文献通常把生产年份列作 1964。下游可用‘1962 年设计／原型’，不能无说明写成 1962 年已量产。"
+        },
+        "availability": {
+          "status": "unresolved",
+          "evidence": "馆方收藏页明确说仅小部分藏品展出，PK12 的缩略展示没有说明当前展厅状态。"
+        },
+        "comparison": {
+          "comparisonCategory": "Kjærholm 的金属框架座椅与丹麦弯木／弯管椅",
+          "nearestComparators": "资料提及的 Kjærholm 常用扁平实心钢框架作品，以及采用弯曲钢管的丹麦和欧洲椅型；没有权威馆方资料锁定一个最近的单件比较对象",
+          "sharedCoreValue": "共同研究工业金属结构如何承担座椅的框架与视觉表达。",
+          "decisiveDifference": "外部专题称 PK12 异常使用弯曲钢管并有意呼应弯木椅，但这一解释尚未由馆方对象记录或学术目录交叉确认。",
+          "nonreplaceableValue": "未通过：现有证据既不能证明该型号在 Kjærholm 生涯中不可替代，也不能证明本馆原型具有全球唯一性。",
+          "unknowns": [
+            "馆藏号、制造者与来源史",
+            "1962 对应设计、原型还是本件制作日期",
+            "本件确切材料组合",
+            "已制作数量与同型现存数量",
+            "当前展出状态"
+          ],
+          "rareGateResult": "fail"
+        }
+      },
+      "claims": [
+        {
+          "claimId": "PK1201",
+          "claimType": "identity",
+          "statement": "Designmuseum Danmark 收藏总览列出 PK12、Poul Kjærholm、1962。",
+          "confidence": "high",
+          "sourceUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/"
+        },
+        {
+          "claimId": "PK1202",
+          "claimType": "availability_boundary",
+          "statement": "馆方声明馆藏只有一小部分展出，因此收藏页出现该椅不能证明当前在展。",
+          "confidence": "high",
+          "sourceUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/"
+        },
+        {
+          "claimId": "PK1203",
+          "claimType": "date_and_material",
+          "statement": "专题资料把本馆实例称为 1962 年原型，称一般生产日期为 1964，并描述其钢管、钢带及部分版本的藤编／皮革构成；这些细节需视为待馆方核验。",
+          "confidence": "medium",
+          "sourceUrl": "https://danishdesignreview.com/a-danish-chair-1/2017/10/24/pk12-by-poul-kjaerholm-1962-x8c67"
+        }
+      ],
+      "sourcePointers": [
+        "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+        "https://danishdesignreview.com/a-danish-chair-1/2017/10/24/pk12-by-poul-kjaerholm-1962-x8c67",
+        "https://www.bukowskis.com/en/auctions/608/277-poul-kjaerholm-a-pk-12-chair-edition-e-kold-christensen-denmark-ca-1962"
+      ]
+    },
+    {
+      "workId": "arne-jacobsen-ant-chair-1952",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "蚂蚁椅用一片模压层压木把座面与靠背合并，服务于轻便、可堆叠和工业量产的实际需求，并成为 Arne Jacobsen 从单件建筑家具走向工业家具语言的关键节点。",
+      "selectionSignals": [
+        "馆方 QR 页确认型号 3100、1952 年、Novo 食堂委托，并提出首把座背一体的工业量产木椅这一严格范围。",
+        "Fritz Hansen 的历史材料确认九层模压木皮、三根细钢管腿、轻便堆叠需求与制造难点。",
+        "制造商资料把它定位为 Jacobsen 设计生涯转折以及随后 Series 7 系列的前身，支持作者生涯与类型演进价值。"
+      ],
+      "sectionSignals": [
+        "furniture",
+        "moulded_plywood",
+        "industrial_mass_production",
+        "danish_modern"
+      ],
+      "routeSignals": [
+        "danish_modern_anchor",
+        "shell_chair_lineage"
+      ],
+      "riskFlags": [
+        "superlative_claim",
+        "availability_ambiguity",
+        "cross_source_synthesis"
+      ],
+      "riskResolutionEvidence": {
+        "identity": {
+          "status": "resolved",
+          "evidence": "馆方 QR 页直接给出 Arne Jacobsen、3100、The Ant、1952。"
+        },
+        "availability": {
+          "status": "unresolved",
+          "evidence": "The Danish Chair 页面曾把它列为必知十椅，但相关展览资料含历史展期；当前 Danish Modern 页面只确认 Jacobsen 作品总体出现，不能确认这件具体馆藏椅当前在展。"
+        },
+        "superlative": {
+          "status": "bounded",
+          "claim": "首把将座面与靠背做成一片并进入工业量产的木椅。",
+          "scope": "industrially mass-produced wooden chair with seat and back in one piece",
+          "support": "Designmuseum Danmark 对象页直接提出该范围；Fritz Hansen 确认其九层模压木皮单壳构造与 1952 年发布。",
+          "caution": "不能扩大为‘世界第一把胶合板椅’、‘第一把壳椅’或‘第一把量产椅’。Fritz Hansen 自身指出设计受 Hvidt & Mølgaard 的模压 AX chair 启发。"
+        },
+        "comparison": {
+          "comparisonCategory": "丹麦模压胶合板壳椅与 Jacobsen 的工业化椅型",
+          "nearestComparators": "Hvidt & Mølgaard 的 AX chair；Jacobsen 1955 年 Series 7；本件后来的四腿版本",
+          "sharedCoreValue": "都利用模压木皮与工业制造减少传统框架，并追求轻便、可堆叠的座椅。",
+          "decisiveDifference": "馆方支持蚂蚁椅首次把座面和靠背作为一片木质壳体实现工业量产；Series 7 是其后续发展，四腿版是同一型号的变体。",
+          "nonreplaceableValue": "它对理解 Jacobsen 工业化转折及单壳木椅谱系不可替代，但具体馆藏实例的稀有性未获证明，因此只支持重要藏品。",
+          "unknowns": [
+            "本馆实例是三腿还是四腿版本",
+            "本馆实例的生产年份、制造批次与来源史",
+            "首件强断言在全球全部早期模压木椅中的完整检索边界",
+            "当前展出状态"
+          ],
+          "rareGateResult": "fail"
+        }
+      },
+      "claims": [
+        {
+          "claimId": "ANT01",
+          "claimType": "superlative",
+          "statement": "馆方称蚂蚁椅为首把座面与靠背由一片木材构成并实现工业量产的木椅。",
+          "confidence": "high",
+          "scope": "industrially mass-produced wooden chair with seat and back in one piece",
+          "sourceUrl": "https://designmuseum.dk/qr-site/20-arne-jacobsen-3100-myren-1952/"
+        },
+        {
+          "claimId": "ANT02",
+          "claimType": "commission_and_construction",
+          "statement": "该椅为 Novo 食堂设计，采用九层模压木皮单壳与纤细钢腿，设计目标包括轻便、堆叠及便于清洁地面。",
+          "confidence": "high",
+          "sourceUrl": "https://www.fritzhansen.com/sv/about-us/arnejacobsen"
+        },
+        {
+          "claimId": "ANT03",
+          "claimType": "career_and_comparison",
+          "statement": "Fritz Hansen 把蚂蚁椅视为 Jacobsen 转向工业生产的生涯转折、Series 7 的前身，并说明其受 Hvidt & Mølgaard 的模压 AX chair 启发。",
+          "confidence": "high",
+          "sourceUrl": "https://www.fritzhansen.com/about-us/our-story/our-heritage"
+        }
+      ],
+      "sourcePointers": [
+        "https://designmuseum.dk/qr-site/20-arne-jacobsen-3100-myren-1952/",
+        "https://designmuseum.dk/en/the-danish-chair/",
+        "https://designmuseum.dk/en/exhibition/danish-modern/",
+        "https://www.fritzhansen.com/sv/about-us/arnejacobsen",
+        "https://www.fritzhansen.com/about-us/our-story/our-heritage",
+        "https://www.fritzhansen.com/en/categories/products/popular-series/ant"
+      ]
+    }
+  ]
+}

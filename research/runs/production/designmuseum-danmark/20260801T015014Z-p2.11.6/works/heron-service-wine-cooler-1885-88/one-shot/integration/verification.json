@@ -1,0 +1,55 @@
+{
+  "status": "failed",
+  "errors": [
+    {
+      "code": "ARTICLE_TITLE_DRIFT",
+      "message": "Article title does not match locked metadata",
+      "matches": [
+        "# 《《苍鹭餐具》酒桶》 / The Heron Service, wine cooler"
+      ],
+      "severity": "error"
+    },
+    {
+      "code": "OFFICIAL_SOURCE_COVERAGE",
+      "message": "Official museum sources do not cover material",
+      "matches": [
+        "material"
+      ],
+      "severity": "error"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "BROAD_EVALUATION",
+      "message": "Broad evaluative wording is not a hard failure",
+      "matches": [
+        "重要"
+      ],
+      "severity": "warning"
+    }
+  ],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": false,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": true,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "一只酒桶，为什么会成为整套餐具的主角",
+    "日本趣味，如何变成丹麦的瓷器语言",
+    "四个人，怎样共同造出一张桌子"
+  ],
+  "sourceCount": 6,
+  "articleBytes": 5345,
+  "sourcesBytes": 3247
+}

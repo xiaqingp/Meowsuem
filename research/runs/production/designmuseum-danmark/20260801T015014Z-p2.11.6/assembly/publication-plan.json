@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260801T015014Z-p2.11.6",
+  "museumId": "designmuseum-danmark",
+  "contentContract": "one_shot_v1",
+  "workIds": [
+    "portrait-pietro-krohn-1887",
+    "chinese-jug-handle-spout-yongle",
+    "tsuba-sano-naoyoshi-c1775",
+    "spengler-temple-spiral-staircase-1760",
+    "flora-danica-four-sided-serving-dish",
+    "heron-service-wine-cooler-1885-88",
+    "gauguin-jug-self-portrait-1889",
+    "hegermann-lindencrone-porcelain-vase-1899-1900",
+    "malling-hansen-writing-ball-1870s",
+    "thorvald-bindesboll-carlsberg-label-1904",
+    "nilfisk-l10-vacuum-cleaner-1922",
+    "poul-henningsen-table-lamp-4-3-1927",
+    "kaare-klint-red-chair-1927",
+    "marie-gudme-leth-tree-pattern-1937",
+    "finn-juhl-butterfly-coffee-table-prototype-1949",
+    "hans-wegner-wishbone-chair-1950",
+    "arne-jacobsen-ant-chair-1952",
+    "verner-panton-panton-chair-1960-1967",
+    "bang-olufsen-beogram-4000-1972",
+    "katrine-bendixen-inside-out-lamp-2019"
+  ],
+  "inputHashes": {
+    "scope/scope.json": "187076650246398d02045e0ffbbf7609b3c91a560ece84abb8b00cecb1e8b318",
+    "candidate-pool/candidate-pool.json": "fd6122d6d3dcbc6fd15d0a26ca44c0206129fd5f345d14187a4d7f3193c768a3",
+    "selection/selection.json": "dafda0aa1bac5edce83b9282e4949fc08ce4450085e3dbd618850217457bc590",
+    "selection/rating-input.json": "fe8a1e294b3220529e4cc86ccd30e23d889a2b42aeb854916f6bba2fa9f87598",
+    "rating/rating-result.json": "bec9bf40579c67769041141b41f093c52b0d723aa6ae7a95d2921c027209dd22",
+    "structure/structure.json": "de0948c963c931dc163a47143ea0d98cf009624e46de63db37757b380eaf6ed6",
+    "image-evidence/verified-image-evidence.json": "ae2744c0fb9c552d9e94a120c1bc6ee1f844e4589b1186bdc63aadfe16c3e71f",
+    "reports/locked-metadata-report.json": "6dc615fc38cac7c38cb012a512a177e13d9d742d0776d1313047122a284cdd94",
+    "assembly/assembly-input.json": "734d13c2030ef293a94af1d5a0491c3882c02c71b680222e159ca150e153fba6"
+  },
+  "assemblyInput": "assembly/assembly-input.json",
+  "candidateRoot": "candidate",
+  "proseInputsRead": false,
+  "networkCalls": 0
+}

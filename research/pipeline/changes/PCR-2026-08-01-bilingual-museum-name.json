@@ -1,0 +1,33 @@
+{
+  "id": "PCR-2026-08-01-bilingual-museum-name",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-31",
+  "ownerInstruction": "Fix the pipeline so museums use the generated Chinese and English names, then update the current Designmuseum Danmark webpage.",
+  "baseRelease": "research/pipeline/releases/v2.11.8.json",
+  "targetVersion": "2.11.9",
+  "implementationStatus": "completed",
+  "scope": [
+    "require bilingual museum names from the structure stage",
+    "prefer structure name fields during publication planning",
+    "retain explicit legacy slash-separated fallback",
+    "reject an English-only fallback",
+    "hotfix the current Designmuseum Danmark published name"
+  ],
+  "outOfScope": [
+    "renaming museum IDs",
+    "rewriting work titles or prose",
+    "changing ratings, routes or images"
+  ],
+  "allowedCanonicalFiles": [
+    "research/pipeline/prompts/museum-structure.md",
+    "scripts/prepare-museum-publication-plan.mjs"
+  ],
+  "verification": {
+    "status": "passed",
+    "commands": [
+      "node scripts/test-museum-publication-intro.mjs",
+      "node scripts/verify-project-authority.mjs"
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "poul-henningsen-table-lamp-4-3-1927",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Objects & collections",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "availability"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "PH 4/3 Table",
+      "publisher": "Louis Poulsen",
+      "url": "https://www.louispoulsen.com/en/catalog/private/table/ph-43-table?v=90391-5744911120-06",
+      "sourceType": "publication",
+      "usedFor": [
+        "designSystem",
+        "purpose",
+        "numbering",
+        "artistIntent",
+        "lightControl"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "PH 4/3, table lamp",
+      "publisher": "National Gallery of Victoria",
+      "url": "https://www.ngv.vic.gov.au/explore/collection/work/114726/",
+      "sourceType": "museum",
+      "usedFor": [
+        "sameModelContext",
+        "date",
+        "manufacturingContext",
+        "materialContext",
+        "technicalHistory"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "PH-5 Lamp, Designed 1957",
+      "publisher": "Philadelphia Museum of Art",
+      "url": "https://www.philamuseum.org/objects/76343",
+      "sourceType": "museum",
+      "usedFor": [
+        "ParisExhibitionContext",
+        "designHistory"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "Poul Henningsen以减少眩光、把光导向需要处并制造柔和阴影为长期照明设计目标。",
+      "type": "artist_intent",
+      "sourceIds": [
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "material",
+      "statement": "Designmuseum Danmark 的官方对象页没有注明这件具体藏品的材质；其他博物馆的同型号记录不能直接证明本件材料。"
+    },
+    {
+      "topic": "collectionHistory",
+      "statement": "官方对象页未列出本件的收藏史、入藏信息或馆藏号。"
+    },
+    {
+      "topic": "availability",
+      "statement": "官方馆藏页说明只有少量馆藏展出，但没有明确说明这件 4/3 台灯当前是否在展厅。"
+    }
+  ],
+  "upstreamConflicts": []
+}

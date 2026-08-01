@@ -1,0 +1,17 @@
+{
+  "id": "PCR-2026-08-01-shared-official-page-fallback",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-01",
+  "ownerInstruction": "Repair the other Designmuseum Danmark works after the portrait test passed.",
+  "baseRelease": "research/pipeline/releases/v2.13.7.json",
+  "targetVersion": "2.13.8",
+  "implementationStatus": "completed",
+  "scope": ["fallback from an imageless object page to frequently referenced official collection pages only when same-card identity score passes"],
+  "outOfScope": ["rewriting museum prose"],
+  "allowedCanonicalFiles": ["scripts/retry-failed-image-evidence.mjs"],
+  "verification": {
+    "status": "pending",
+    "commands": ["node scripts/test-image-resolution-v2.mjs", "node scripts/freeze-pipeline-release.mjs"]
+  }
+}

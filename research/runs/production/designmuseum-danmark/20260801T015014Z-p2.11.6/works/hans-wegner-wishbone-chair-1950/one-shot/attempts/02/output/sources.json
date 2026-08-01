@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "hans-wegner-wishbone-chair-1950",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Danish Chair",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/the-danish-chair/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The Danish Chair - An International Affair",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/exhibition/the-danish-chair-an-international-affair/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "significance"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Behind an icon: CH24",
+      "publisher": "Carl Hansen & Søn",
+      "url": "https://www.carlhansen.com/en/en/designers/hans-j-wegner/behind-an-icon-ch24",
+      "sourceType": "other",
+      "usedFor": [
+        "creator",
+        "date",
+        "material",
+        "making_process",
+        "historical_context"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Weaving",
+      "publisher": "Carl Hansen & Søn",
+      "url": "https://www.carlhansen.com/en/en/inspiration/craftsmanship/weaving",
+      "sourceType": "other",
+      "usedFor": [
+        "material",
+        "making_process",
+        "historical_context"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "CH24 Wishbone Chair product information",
+      "publisher": "Carl Hansen & Søn",
+      "url": "https://www.carlhansen.com/en/en/collection/chairs/dining-chairs/ch24/ch24-walnut-oil-natural-cord/variant/6906",
+      "sourceType": "other",
+      "usedFor": [
+        "creator",
+        "date",
+        "material",
+        "making_process"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "Designmuseum Danmark 将 Wishbone chair 列为《The Danish Chair》展览中的图标之一，并标注设计者为 Hans J. Wegner、年代为 1950 年。",
+      "type": "other",
+      "sourceIds": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "CH24 由 Hans J. Wegner 于 1949 年为 Carl Hansen & Søn 设计，并自 1950 年推出后持续生产。",
+      "type": "other",
+      "sourceIds": [
+        "S3",
+        "S5"
+      ]
+    },
+    {
+      "claim": "一把 CH24 需要经过一百多道制作工序，手工编织座面约使用 120 米纸绳并需约一小时。",
+      "type": "other",
+      "sourceIds": [
+        "S3",
+        "S5"
+      ]
+    },
+    {
+      "claim": "Hans J. Wegner 设计 CH24 的相关椅子系列时受到中国古代皇帝宝座形制的启发。",
+      "type": "artist_intent",
+      "sourceIds": [
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "material",
+      "statement": "Designmuseum Danmark 的官方展览页面没有明确说明这件具体馆藏对象的材料；文章中关于纸绳、木材和制作流程的事实依据来自 CH24 的制造方资料，并以该型号的一般生产信息表述。"
+    },
+    {
+      "topic": "date",
+      "statement": "馆方将对象标为 1950 年；制造方资料同时区分了 1949 年的设计时间与 1950 年的推出和持续生产时间。"
+    },
+    {
+      "topic": "availability",
+      "statement": "本次来源未能确认该对象在 2026 年当前是否正在展出，因此文章未作当前展出断言。"
+    }
+  ],
+  "upstreamConflicts": []
+}

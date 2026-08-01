@@ -164,7 +164,7 @@ export async function verifyProjectAuthority({ projectRoot, checkRelease = true 
   const activeFromFrontend = new Map();
   for (const source of frontendFiles) {
     const text = await fs.readFile(path.join(root, source), "utf8");
-    for (const match of text.matchAll(/["']?contentFile["']?\s*:\s*["']\.\/(research\/[^"']+)["']/g)) {
+    for (const match of text.matchAll(/["']?contentFile["']?\s*:\s*["'](?:\.\/)?(research\/[^"']+)["']/g)) {
       if (!activeFromFrontend.has(match[1])) activeFromFrontend.set(match[1], []);
       activeFromFrontend.get(match[1]).push(source);
     }

@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "malling-hansen-writing-ball-1870s",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Designmuseum Danmark Årsberetning 2017",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/wp-content/uploads/2018/04/DesignmuseumDanmark_Aarsberetning_2017_Web.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "productionProcess",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Nyheder: Ny pop-up udstilling: Skrivekuglen",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/om/nyheder/",
+      "sourceType": "museum",
+      "usedFor": [
+        "date",
+        "availability",
+        "significance"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Hansen's Writing Ball, also known as Malling-Hansen Writing Ball",
+      "publisher": "Science Museum Group Collection",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co38206/hansens-writing-ball-also-known-as-malling-hansen-writing-ball",
+      "sourceType": "museum",
+      "usedFor": [
+        "date",
+        "material",
+        "makingProcess",
+        "function",
+        "history"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "汉森写字球通常被视为世界上第一种商业生产的打字机之一。",
+      "type": "first_or_earliest",
+      "sourceIds": [
+        "S3",
+        "S4"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "material",
+      "statement": "锁定的Designmuseum Danmark官方对象页及相关馆方年报没有列出这件馆藏模型的具体材质；Science Museum Group页面所列钢、黄铜和涂层金属属于另一件写字球馆藏，不能直接套用于本件。"
+    },
+    {
+      "topic": "accessionNumber",
+      "statement": "本次核对的Designmuseum Danmark官方页面和馆方年报未公开本件的馆藏号。"
+    },
+    {
+      "topic": "availability",
+      "statement": "馆方2026年5月6日新闻称写字球进入新的快闪展，但未在本次来源中明确该展览的结束日期或截至当前的单件展出状态。"
+    },
+    {
+      "topic": "purpose",
+      "statement": "官方导览强调帮助视力衰退者继续书写，2017年馆方年报则强调汉森在聋哑教育和沟通问题上的工作；本篇将两者并列呈现，不把其中一种说法当作唯一目的。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "creator",
+      "severity": "warning",
+      "statement": "官方英文导览在作品说明正文中有一处将发明者写作“Malling-Nielsen”，但同页标题及馆方2017年年报均明确写作Rasmus Malling-Hansen；本篇采用后者。",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "field": "availability",
+      "severity": "warning",
+      "statement": "锁定metadata将可见性标为display_status_unknown；馆方2026年5月新闻称其进入新的写字球快闪展，但未确认展览持续时间或截至当前的单件展出状态。",
+      "sourceIds": [
+        "S3"
+      ]
+    }
+  ]
+}

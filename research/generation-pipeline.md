@@ -203,10 +203,13 @@ Even a failure writes `result.json`, `runner.log`, usage, failure stage and
 failure code. `agentRunCount` is distinct from internal model rounds and web
 operations.
 
-`sources.json` can report blocking upstream conflicts. Identity/date/medium
-returns to discovery or planning; availability returns to selection/structure;
-rare/significance returns to deep research, selection and rating. Blocking
-conflicts stop integration.
+`sources.json` can report upstream conflicts. Identity/date/medium returns to
+discovery or planning; availability returns to selection/structure;
+rare/significance returns to deep research, selection and rating. The normal
+path fixes these conflicts before integration. When the owner authorizes
+warning publication, the latest complete attempt is integrated with status
+`warning`; the verifier errors remain attached to that work and are never
+relabelled as passed.
 
 ## 7. Verification and deterministic integration
 
@@ -244,8 +247,10 @@ are accepted solely when both are true:
 
 Missing one-shot output for any other work is a hard failure. Before assembly,
 all publication-plan hashes, one-shot status, verifier status, adapter status
-and integration hashes are recomputed. Assembly performs no network or model
-calls.
+and integration hashes are recomputed. An accepted work requires the passed
+status chain. A warning work requires the failed-verification / warning-adapter /
+warning-result chain and receives a public `contentWarning` with the exact
+verifier issues. Assembly performs no network or model calls.
 
 Public source records are copied to work data as `{title, publisher, url}`.
 The work page renders them in a low-weight collapsed `参考来源` section.
@@ -270,7 +275,9 @@ Fixture causality tests remain useful but cannot replace the real-run gate.
 The finalizer runs assembly, future-museum contract, real causality, release
 verification and publisher with the same run identity. Dry-run success moves a
 run to `verified`. Real publish is atomic; success moves it to `published` and
-immutable. A failure never writes `published`.
+immutable. A content verifier failure may therefore be published only through
+the explicit warning chain above; infrastructure, identity, missing-output,
+hash, assembly and causality failures remain publication blockers.
 
 ## 10. Generation report
 
@@ -312,3 +319,4 @@ legacy-only. They are not fallback instructions for pipeline 2.11.
   locked metadata preparation, batch recovery, deterministic publication plan,
   generalized image providers, strict legacy isolation, real-run causality,
   source publication and complete cost reporting.
+Pipeline 2.13 resolves images through one manifest-selected production entrypoint. The ordered tiers are: official API/IIIF; Luna planning over a mechanically enumerated official page; Wikidata/Commons; then Luna open-web search. AI may choose only enumerated candidate IDs, while code owns URLs, downloads, dimensions, hashes and identity checks. Every retry is a new immutable attempt, unresolved works remain non-blocking, and a museum hero can never be accepted as an object image.

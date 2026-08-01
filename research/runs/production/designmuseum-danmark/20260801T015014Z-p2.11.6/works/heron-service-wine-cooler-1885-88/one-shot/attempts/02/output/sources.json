@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "heron-service-wine-cooler-1885-88",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "creator",
+        "collaboration",
+        "significance",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Årsrapport 2024",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/wp-content/uploads/2025/05/Aarsrapport_2024_WEB.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "creator",
+        "process",
+        "historicalEvent",
+        "material",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "CLAY Nyt nr. 5, juni 2020",
+      "publisher": "CLAY Keramikmuseum",
+      "url": "https://claymuseum.dk/wp-content/uploads/2020/06/CLAY-Nyt-05-2020.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "process",
+        "historicalEvent",
+        "people",
+        "historicalContext"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Pietro Krohn",
+      "publisher": "Det Kongelige Danske Kunstakademi",
+      "url": "https://publ.royalacademy.dk/backend/web/uploads/2020-02-14/AFL%206/SDH4_4_00_00_2014_5856/SDH4_4_00_00_2014_5856.pdf",
+      "sourceType": "academic",
+      "usedFor": [
+        "material",
+        "process",
+        "significance",
+        "artisticContext"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "《苍鹭餐具》于1888年在哥本哈根首次呈现，并于1889年在巴黎世界博览会展出。",
+      "type": "other",
+      "sourceIds": [
+        "S2",
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "material",
+      "statement": "锁定的官方对象页未单独标注酒桶材质；相关同套餐具资料将器物记为瓷器，并说明使用釉下彩、金饰和立体塑形。"
+    },
+    {
+      "topic": "availability",
+      "statement": "官方页面将该对象列入Director's Choice，但未提供这件酒桶当前是否在馆内展出的单件状态。"
+    },
+    {
+      "topic": "maker_roles",
+      "statement": "官方资料确认四位艺术家的合作关系，但公开资料未完整说明四人在这件具体酒桶上的分工，因此文章没有对每位作者的具体工序作确定归属。"
+    }
+  ],
+  "upstreamConflicts": []
+}

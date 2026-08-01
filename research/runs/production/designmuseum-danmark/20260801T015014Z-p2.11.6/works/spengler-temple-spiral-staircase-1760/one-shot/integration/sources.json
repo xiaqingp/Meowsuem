@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "spengler-temple-spiral-staircase-1760",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "significance",
+        "availability"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Elfenben og rav (rum C)",
+      "publisher": "Den Kongelige Samling",
+      "url": "https://denkongeligesamling.dk/rosenborg-slot/sale-rum/rum-c-elfenben-og-rav/",
+      "sourceType": "museum",
+      "usedFor": [
+        "historicalContext",
+        "productionProcess",
+        "materialContext"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Lorenz Spengler",
+      "publisher": "Dansk Biografisk Leksikon / Lex",
+      "url": "https://biografiskleksikon.lex.dk/Lorenz_Spengler",
+      "sourceType": "publication",
+      "usedFor": [
+        "creator",
+        "biography",
+        "productionProcess",
+        "historicalContext"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "《带螺旋楼梯的神殿》被 Designmuseum Danmark 列入 Director's Choice，作者标为 Lorentz Spengler，年代为1760年。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "洛伦茨·施彭格勒（1720—1807）曾任宫廷车工，并在1771年起负责管理王室艺术珍藏室。",
+      "type": "other",
+      "sourceIds": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "18世纪丹麦宫廷中的车旋技艺被视为涉及数学、机械、耐心与规划的训练。",
+      "type": "other",
+      "sourceIds": [
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "medium",
+      "statement": "锁定 metadata 与官方对象页均未注明这件作品的具体材质；相关宫廷藏品和施彭格勒其他作品涉及象牙、琥珀等材料，但不能据此直接认定本作材质。"
+    },
+    {
+      "topic": "availability",
+      "statement": "官方对象页列出本作，但没有明确说明当前展出状态；locked metadata 保持 display_status_unknown。"
+    },
+    {
+      "topic": "accessionNumber",
+      "statement": "核对到的官方对象页没有公开本作馆藏号。"
+    },
+    {
+      "topic": "productionDetails",
+      "statement": "馆方和传记资料支持施彭格勒的车旋工艺背景，但没有公开本作具体制作步骤或工作室记录。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "creator",
+      "severity": "warning",
+      "statement": "锁定 metadata 与英文官方页面使用 Lorentz Spengler；丹麦官方页面和 Lex 使用 Lorenz Spengler。各来源指向同一人物，属于拼写变体，不构成身份冲突。"
+    }
+  ]
+}

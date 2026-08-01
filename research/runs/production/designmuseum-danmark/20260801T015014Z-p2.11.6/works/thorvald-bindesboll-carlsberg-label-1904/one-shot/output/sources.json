@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "thorvald-bindesboll-carlsberg-label-1904",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Thorvald Bindesbøll, Carlsberg-etikette, 1904",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/qr-site/2-thorvald-bindesboell-carlsberg-etikette-1904/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "designInterpretation",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Årsrapport 2024",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/wp-content/uploads/2025/05/Aarsrapport_2024_WEB.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "collectionRelation",
+        "significance",
+        "dateCrossCheck"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Historien bag Carlsberg",
+      "publisher": "Carlsberg Danmark",
+      "url": "https://carlsbergdanmark.dk/mod-os/historien-bag/",
+      "sourceType": "other",
+      "usedFor": [
+        "historicalContext",
+        "creator",
+        "date",
+        "brandFunction",
+        "productionContext"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Carlsberg Heritage",
+      "publisher": "Carlsberg",
+      "url": "https://www.carlsberghongkong.com.hk/en/about-us/carlsberg-heritage/",
+      "sourceType": "other",
+      "usedFor": [
+        "historicalContext",
+        "royalCourtRelation",
+        "symbolism",
+        "industrialContext"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Th. Bindesbølls etiket til Carlsberg",
+      "publisher": "Vejen Kunstmuseum",
+      "url": "https://www.vejenkunstmuseum.dk/Dansk/KOT/2016/KOT_2016_nr_2%20-%20Samlet.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "printingProcess",
+        "colorProcess",
+        "designAnalysis"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "material",
+      "statement": "Designmuseum Danmark 的官方对象页将作品识别为 graphic design / label，但没有说明纸张、油墨或具体印刷工艺；文章没有把相关标签的印刷媒介直接归属于该馆对象。"
+    },
+    {
+      "topic": "accessionNumber",
+      "statement": "本次核验到的官方对象页和馆方年度报告未显示馆藏号，文章未填写或推定馆藏号。"
+    },
+    {
+      "topic": "availability",
+      "statement": "本次来源没有确认该对象当前是否展出；文章未作当前展出状态的断言。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "date",
+      "severity": "warning",
+      "statement": "锁定 metadata 与官方对象页均指向1904年；Designmuseum Danmark《Årsrapport 2024》的图片说明却将该标签标为1903年，而同一报告正文又写作1904年。文章采用官方对象页和锁定 metadata 的1904年，并保留该馆方报告中的日期冲突。",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    }
+  ]
+}

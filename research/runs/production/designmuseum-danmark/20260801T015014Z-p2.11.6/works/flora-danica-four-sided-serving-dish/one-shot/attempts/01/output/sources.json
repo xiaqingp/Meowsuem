@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "flora-danica-four-sided-serving-dish",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "collectionRelation",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The Flora Danica encyclopedia",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-flora-danica-encyclopedia/",
+      "sourceType": "museum",
+      "usedFor": [
+        "botanical_source",
+        "historical_context",
+        "process_context"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "The story of Flora Danica",
+      "publisher": "Royal Copenhagen",
+      "url": "https://floradanica.royalcopenhagen.com/",
+      "sourceType": "other",
+      "usedFor": [
+        "commission",
+        "recipient_story",
+        "production_history",
+        "collection_relation"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "The Craft",
+      "publisher": "Royal Copenhagen",
+      "url": "https://floradanica.royalcopenhagen.com/the-craft/",
+      "sourceType": "other",
+      "usedFor": [
+        "process",
+        "material",
+        "gold_ornamentation"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Flora Danica",
+      "publisher": "The Royal House of Denmark",
+      "url": "https://www.kongehuset.dk/nyheder/flora-danica",
+      "sourceType": "other",
+      "usedFor": [
+        "production_history",
+        "royal_collection",
+        "historical_context"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "第一套 Flora Danica 餐具通常被叙述为由丹麦王室为俄国女皇叶卡捷琳娜二世订制的礼物，但 Designmuseum Danmark 的官方页面明确保留了“并不确定最初预定收件人”的说法。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S3",
+        "S5"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "intended_recipient",
+      "statement": "关于第一套餐具是否原本确定要赠予俄国女皇叶卡捷琳娜二世，不同官方叙述的确定程度不同；本文采用“通常被讲述为”而不作绝对断言。"
+    },
+    {
+      "topic": "availability",
+      "statement": "锁定的官方页面是馆方 Director's Choice 对象目录，并未在该条目中明确说明这件四边形餐盘当前是否展出，因此不判断其现场可见状态。"
+    },
+    {
+      "topic": "object_specific_use",
+      "statement": "现有来源说明的是 Flora Danica 餐具整体的订制、制作和王室使用史，未说明这件四边形餐盘本身曾在哪一场宴会中使用。"
+    }
+  ],
+  "upstreamConflicts": []
+}

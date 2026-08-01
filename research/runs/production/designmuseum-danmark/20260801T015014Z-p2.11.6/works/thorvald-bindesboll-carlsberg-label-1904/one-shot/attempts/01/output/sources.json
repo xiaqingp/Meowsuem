@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "thorvald-bindesboll-carlsberg-label-1904",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Thorvald Bindesbøll, Carlsberg-etikette, 1904",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/qr-site/2-thorvald-bindesboell-carlsberg-etikette-1904/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "significance",
+        "style",
+        "historical_context"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Design Guide — Our logo",
+      "publisher": "Carlsberg Group",
+      "url": "https://carlsberggroup.com/who-we-are/about-the-carlsberg-group/design-guide/",
+      "sourceType": "publication",
+      "usedFor": [
+        "logo_history",
+        "creator",
+        "date",
+        "visual_continuity"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "skønvirke — Dansk stilretning",
+      "publisher": "Lex / Designmuseum Danmark and Syddansk Universitet contributors",
+      "url": "https://lex.dk/sk%C3%B8nvirke",
+      "sourceType": "academic",
+      "usedFor": [
+        "style_context",
+        "flora_fauna",
+        "Danish_design_context"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Home of Carlsberg expands exhibition",
+      "publisher": "Home of Carlsberg",
+      "url": "https://homeofcarlsberg.com/press/press-release-new-exhibition/",
+      "sourceType": "museum",
+      "usedFor": [
+        "historical_context",
+        "royal_court_supplier",
+        "label_features",
+        "visual_continuity"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "1904年的标签与嘉士伯获得丹麦王室供应商资格这一事件有关。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S4"
+      ]
+    },
+    {
+      "claim": "宾德斯博尔设计的嘉士伯标志性视觉在1904年确立，并由其设计。",
+      "type": "other",
+      "sourceIds": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "标签的有机字形受到啤酒花植物启发，并体现丹麦Skønvirke风格。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S3"
+      ]
+    },
+    {
+      "claim": "后来的嘉士伯标签虽有调整，仍保留王冠和啤酒花叶片等宾德斯博尔设计特征。",
+      "type": "other",
+      "sourceIds": [
+        "S4"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "material_and_production",
+      "statement": "官方对象页确认其为标签这一图形设计对象，但未公开说明具体纸张、印刷工艺或其他物质细节。"
+    },
+    {
+      "topic": "collection_relation_and_accession_number",
+      "statement": "官方对象页未公开该对象的收藏进入经过或馆藏号，因此文章不对收藏史和馆藏号作推断。"
+    },
+    {
+      "topic": "availability",
+      "statement": "本次来源未确认该对象当前是否展出。"
+    }
+  ],
+  "upstreamConflicts": []
+}

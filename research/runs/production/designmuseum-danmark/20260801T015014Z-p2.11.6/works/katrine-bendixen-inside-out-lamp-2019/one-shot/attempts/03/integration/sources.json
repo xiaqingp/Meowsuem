@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "katrine-bendixen-inside-out-lamp-2019",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "directorChoiceContext",
+        "objectDescription"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Matters – rethinking materials",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/exhibition/matters/",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "exhibitionHistory",
+        "processContext",
+        "significance"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Årsberetning 2019",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/wp-content/uploads/2020/06/%C3%85rsberetning-2019_v10_WEB.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "date",
+        "material",
+        "exhibitionHistory"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Inside Out by Kathrine Barbro Bendixen",
+      "publisher": "Thisispaper",
+      "url": "https://www.thisispaper.com/mag/inside-out-by-kathrine-barbro-bendixen",
+      "sourceType": "publication",
+      "usedFor": [
+        "process",
+        "materialProperties",
+        "objectDescription"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Inside Out - Intestine Lighting",
+      "publisher": "Material Lab",
+      "url": "https://www.material-lab.co.uk/blog/inside-out-intestine-lighting/",
+      "sourceType": "other",
+      "usedFor": [
+        "materialLifecycle",
+        "conceptContext"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "availability",
+      "statement": "作品曾于2019年8月28日至2020年8月9日在Designmuseum Danmark的“Matters – rethinking materials”展览中展出；本次核到的公开页面未明确说明其当前是否仍在展出。"
+    },
+    {
+      "topic": "collectionRelation/accessionNumber",
+      "statement": "馆方将作品列入Director's Choice对象目录，但本次核到的公开页面未提供馆藏号或明确的入藏史，因此不据此断言其当前馆藏关系。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "creator",
+      "severity": "warning",
+      "statement": "锁定metadata与官方Director's Choice页面使用“Katrine Barbro Bendixen”；馆方“Matters”页面及2019年度报告中出现“Kathrine Barbro Bendixen”的拼写。本文沿用锁定metadata及对象页拼写。"
+    }
+  ]
+}

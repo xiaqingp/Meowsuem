@@ -1,0 +1,39 @@
+{
+    "runId":  "20260801T054847Z-p2.13.3",
+    "stage":  "image_disambiguation",
+    "museumId":  "",
+    "caseId":  "designmuseum-image-v2-portrait-test",
+    "workId":  "",
+    "pipelineVersion":  "2.13.3",
+    "instructionVersion":  "2.4.2",
+    "model":  "gpt-5.6-luna",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-07-31T22:49:02.1674786-07:00",
+    "modelStartedAt":  "2026-07-31T22:49:02.4824331-07:00",
+    "modelCompletedAt":  "2026-07-31T22:49:15.1366054-07:00",
+    "completedAt":  "2026-07-31T22:49:15.2089562-07:00",
+    "runnerDurationMs":  13041,
+    "modelDurationMs":  12654,
+    "tokenUsage":  {
+                       "total":  25203,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+
+                                ],
+    "logPath":  "research/runs/experiment/designmuseum-image-v2-portrait-test/20260801T054847Z-p2.13.3/image-evidence/attempts/01-official-page-plan/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/runs/experiment/designmuseum-image-v2-portrait-test/20260801T054847Z-p2.13.3/image-evidence/attempts/01-official-page-plan/image-research-packet.json",
+                       "role":  "image_candidate_packet",
+                       "sha256":  "93c9ed75f8b29823756afe93f1e395bfa3a006a4d435aa423aaf637cb9ba94b1"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "image-decisions.json",
+                        "sha256":  "95c4d032c21105a5f94ad9d5f4ccb2f34808d499dca036b013f1fb0796146286",
+                        "bytes":  1806
+                    }
+                ]
+}

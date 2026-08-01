@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "stage": "image_evidence_retry",
+  "runId": "20260801T144704Z-p2.13.9",
+  "runRoot": "research/runs/experiment/designmuseum-image-v2-final-fallback/20260801T144704Z-p2.13.9",
+  "parentRunRoot": "research/runs/experiment/designmuseum-image-v2-batch-2/20260801T144134Z-p2.13.7",
+  "parentEvidenceSha256": "48403f42d5e92b4e284d8eb99dba1825af6fa9509a9fdc0864055c1bd798bb2e",
+  "failedWorksRetried": [
+    {
+      "workId": "thorvald-bindesboll-carlsberg-label-1904",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "The supplied source page has no mechanically enumerated page-image candidates."
+      ],
+      "sourcePageUrl": null
+    },
+    {
+      "workId": "verner-panton-panton-chair-1960-1967",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "The supplied candidate list contains only generic Wikimedia interface icons; no identity-bound image candidate was supplied."
+      ],
+      "sourcePageUrl": null
+    },
+    {
+      "workId": "arne-jacobsen-ant-chair-1952",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "The supplied candidate list contains only Wikimedia interface icons; no identity-bound chair image candidate was supplied."
+      ],
+      "sourcePageUrl": null
+    }
+  ],
+  "newlyAccepted": [
+    {
+      "workId": "arne-jacobsen-ant-chair-1952",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Design_Museum_Danmark_-_Ant_chair.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Design_Museum_Danmark_-_Ant_chair.jpg/1920px-Design_Museum_Danmark_-_Ant_chair.jpg",
+      "localPath": "research/runs/experiment/designmuseum-image-v2-final-fallback/20260801T144704Z-p2.13.9/image-evidence/assets/arne-jacobsen-ant-chair-1952.jpg",
+      "sha256": "e61d6890925e0b7809a0a1d5e0611b22710dc3514ddbaf61129981326000358c",
+      "method": "ai_page_candidate_download",
+      "imageRole": "object_view",
+      "candidateId": "commons-001"
+    }
+  ],
+  "stillUnresolved": [
+    {
+      "workId": "thorvald-bindesboll-carlsberg-label-1904",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Carlsberg_Pilsner_1904_label_by_Thorvald_Bindesboll.png",
+      "warnings": [
+        "selected candidate processing failed: image dimensions are missing or too small"
+      ]
+    },
+    {
+      "workId": "verner-panton-panton-chair-1960-1967",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Panton_Chair_by_Verner_Panton.JPG",
+      "warnings": [
+        "Enumerated candidates are generic Wikimedia interface icons rather than the Panton Chair image; no identity-bound candidate is available in the locked list."
+      ]
+    }
+  ],
+  "counts": {
+    "works": 20,
+    "previousAcceptedPreserved": 17,
+    "retried": 3,
+    "newlyAccepted": 1,
+    "directImageDownloads": 1,
+    "elementCaptures": 0,
+    "objectImageAccepted": 16,
+    "contextImagesAccepted": 0,
+    "unresolved": 2,
+    "duplicateObjectImageGroups": [],
+    "modelCalls": 1,
+    "modelTokens": 27661,
+    "webSearchCount": 0
+  },
+  "model": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium",
+    "calls": 1,
+    "durationMs": 25956,
+    "tokens": {
+      "total": 27661,
+      "source": "codex_cli_log"
+    },
+    "webSearchCount": 0
+  },
+  "guarantees": {
+    "acceptedWorksNotRerun": [
+      "flora-danica-four-sided-serving-dish",
+      "chinese-jug-handle-spout-yongle",
+      "portrait-pietro-krohn-1887",
+      "tsuba-sano-naoyoshi-c1775",
+      "spengler-temple-spiral-staircase-1760",
+      "malling-hansen-writing-ball-1870s",
+      "heron-service-wine-cooler-1885-88",
+      "gauguin-jug-self-portrait-1889",
+      "hegermann-lindencrone-porcelain-vase-1899-1900",
+      "nilfisk-l10-vacuum-cleaner-1922",
+      "poul-henningsen-table-lamp-4-3-1927",
+      "kaare-klint-red-chair-1927",
+      "marie-gudme-leth-tree-pattern-1937",
+      "hans-wegner-wishbone-chair-1950",
+      "finn-juhl-butterfly-coffee-table-prototype-1949",
+      "katrine-bendixen-inside-out-lamp-2019",
+      "bang-olufsen-beogram-4000-1972"
+    ],
+    "nonImageStagesRun": [],
+    "imageGenerationModelUsed": false,
+    "parentRunModified": false,
+    "assemblyNetworkAccess": false,
+    "productionModified": false
+  }
+}

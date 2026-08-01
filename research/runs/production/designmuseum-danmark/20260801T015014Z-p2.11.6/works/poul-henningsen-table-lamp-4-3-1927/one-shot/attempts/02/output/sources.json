@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "poul-henningsen-table-lamp-4-3-1927",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Objects and collections",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "availability"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "PH 4/3, table lamp",
+      "publisher": "National Gallery of Victoria",
+      "url": "https://www.ngv.vic.gov.au/explore/collection/work/114726/",
+      "sourceType": "museum",
+      "usedFor": [
+        "same-model identification",
+        "date",
+        "material",
+        "design history",
+        "functionalism"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "PH 4/3 Table Lamp by Poul Henningsen",
+      "publisher": "Louis Poulsen",
+      "url": "https://www.louispoulsen.com/en-us/catalog/professional/decorative-lighting/table/ph-43-table",
+      "sourceType": "other",
+      "usedFor": [
+        "shade-system history",
+        "model-number explanation",
+        "light distribution",
+        "version history"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "A New Form for a New Technology",
+      "publisher": "Cooper Hewitt, Smithsonian Design Museum",
+      "url": "https://www.cooperhewitt.org/2019/05/24/a-new-form-for-a-new-technology/",
+      "sourceType": "museum",
+      "usedFor": [
+        "glare problem",
+        "design context",
+        "nested-shade structure",
+        "lighting function"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "material",
+      "statement": "Designmuseum Danmark 的官方对象页没有公布本件具体材质；NGV 的同型号记录列出古铜色青铜、涂漆铜、电线和瓷，但这些信息不能直接确认属于 Designmuseum Danmark 的这一件。"
+    },
+    {
+      "topic": "availability",
+      "statement": "Designmuseum Danmark 的对象页没有说明本件当前是否展出；馆方仅说明馆藏中只有一小部分在展。"
+    },
+    {
+      "topic": "version history",
+      "statement": "本馆对象记录标为1927年；Louis Poulsen 页面所说的1966年是现行4/3台灯形态的推出时间，不能等同于本馆藏品的制作年份。"
+    }
+  ],
+  "upstreamConflicts": []
+}

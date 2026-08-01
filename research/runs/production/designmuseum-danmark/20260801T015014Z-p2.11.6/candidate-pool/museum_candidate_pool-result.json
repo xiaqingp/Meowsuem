@@ -1,0 +1,55 @@
+{
+    "runId":  "20260801T015014Z-p2.11.6",
+    "stage":  "museum_candidate_pool",
+    "museumId":  "designmuseum-danmark",
+    "caseId":  "",
+    "workId":  "",
+    "pipelineVersion":  "2.11.6",
+    "instructionVersion":  "2.4.0",
+    "model":  "gpt-5.6-luna",
+    "reasoningEffort":  "high",
+    "runnerStartedAt":  "2026-07-31T18:52:20.4517087-07:00",
+    "modelStartedAt":  "2026-07-31T18:52:20.7639025-07:00",
+    "modelCompletedAt":  "2026-07-31T18:58:44.3681968-07:00",
+    "completedAt":  "2026-07-31T18:58:44.3968243-07:00",
+    "runnerDurationMs":  383945,
+    "modelDurationMs":  383604,
+    "tokenUsage":  {
+                       "total":  120638,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "2",
+                                    "4",
+                                    "9",
+                                    "12",
+                                    "13"
+                                ],
+    "logPath":  "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/candidate-pool/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "d80ee1c0f28a4f21a26b3d7daefe825812b9007b3208dd80451ae13cee95fc96"
+                   },
+                   {
+                       "path":  "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/scope/scope.json",
+                       "role":  "museum_scope",
+                       "sha256":  "187076650246398d02045e0ffbbf7609b3c91a560ece84abb8b00cecb1e8b318"
+                   },
+                   {
+                       "path":  "research/pipeline/prompts/museum-discovery.md",
+                       "role":  "stage_prompt",
+                       "sha256":  "45e7e5a1e7d00b9e463dd18e438cf364dffd2d8a61ec810fcfc59bb6dfd044f7"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "candidate-pool.json",
+                        "sha256":  "fd6122d6d3dcbc6fd15d0a26ca44c0206129fd5f345d14187a4d7f3193c768a3",
+                        "bytes":  53511
+                    }
+                ]
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "gauguin-jug-self-portrait-1889",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "collectionRelation",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Van Gogh and Gauguin: The Studio of the South — checklist",
+      "publisher": "Art Institute of Chicago",
+      "url": "https://archive.artic.edu/vangogh/vg_list.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "dimensions",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Vessel with Women and Goats — Paul Gauguin",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/239364",
+      "sourceType": "museum",
+      "usedFor": [
+        "making_process",
+        "material",
+        "ceramic_context"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Connecting Gauguin’s metaphors of the creative act",
+      "publisher": "RES: Anthropology and Aesthetics / Harvard University",
+      "url": "https://www.unige.ch/lettres/armus/unites/istar/download_file/view/251/259",
+      "sourceType": "academic",
+      "usedFor": [
+        "visual_analysis",
+        "material",
+        "interpretation",
+        "Pre-Columbian_context"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Four days after finding Van Gogh with a mutilated ear, Gauguin witnessed the guillotining of a murderer",
+      "publisher": "The Art Newspaper",
+      "url": "https://www.theartnewspaper.com/2024/10/25/four-days-after-finding-van-gogh-with-a-mutilated-ear-gauguin-witnessed-the-guillotining-of-a-murderer",
+      "sourceType": "publication",
+      "usedFor": [
+        "historical_context",
+        "visual_analysis",
+        "interpretation"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "《自画像壶》由法国艺术家保罗·高更创作，年代为1889年。",
+      "type": "attribution",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "availability",
+      "statement": "本次核对到的官方对象页未明确说明该作品在2026年7月31日是否正在展出；锁定 metadata 也将其标为 display_status_unknown。"
+    },
+    {
+      "topic": "interpretation",
+      "statement": "红色釉、闭眼、颈部中断与梵高及普拉多事件之间的关系存在多种艺术史解释；本文采用相关性较强但不宣称唯一确定的理解。"
+    },
+    {
+      "topic": "collectionHistory",
+      "statement": "可靠来源确认作品与 Designmuseum Danmark 的馆藏及历史馆名有关，但本次搜索未找到完整的入藏、转移或 provenance 时间线。"
+    }
+  ],
+  "upstreamConflicts": []
+}

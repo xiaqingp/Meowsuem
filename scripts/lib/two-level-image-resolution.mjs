@@ -94,10 +94,17 @@ export function imageDimensions(bytes, contentType) {
   if (type === "image/gif" && bytes.length >= 10 && bytes.toString("ascii", 0, 3) === "GIF") {
     return {width: bytes.readUInt16LE(6), height: bytes.readUInt16LE(8)};
   }
-  if (type === "image/webp" && bytes.length >= 30 && bytes.toString("ascii", 0, 4) === "RIFF" && bytes.toString("ascii", 8, 12) === "WEBP") {
+  if (type === "image/webp" && bytes.length >= 25 && bytes.toString("ascii", 0, 4) === "RIFF" && bytes.toString("ascii", 8, 12) === "WEBP") {
     const kind = bytes.toString("ascii", 12, 16);
     if (kind === "VP8X" && bytes.length >= 30) {
       return {width: 1 + bytes.readUIntLE(24, 3), height: 1 + bytes.readUIntLE(27, 3)};
+    }
+    if (kind === "VP8 " && bytes.length >= 30 && bytes[23] === 0x9d && bytes[24] === 0x01 && bytes[25] === 0x2a) {
+      return {width: bytes.readUInt16LE(26) & 0x3fff, height: bytes.readUInt16LE(28) & 0x3fff};
+    }
+    if (kind === "VP8L" && bytes.length >= 25 && bytes[20] === 0x2f) {
+      const bits = bytes.readUInt32LE(21);
+      return {width: 1 + (bits & 0x3fff), height: 1 + ((bits >>> 14) & 0x3fff)};
     }
   }
   if (type === "image/tiff" && bytes.length >= 16) {

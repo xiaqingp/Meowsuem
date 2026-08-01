@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "bang-olufsen-beogram-4000-1972",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Objects & collections",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "collectionRelation",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Jacob Jensen. Beogram 4000 Record Player. 1972",
+      "publisher": "The Museum of Modern Art",
+      "url": "https://www.moma.org/collection/works/2483",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "manufacturer",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Record players, still playing beautifully",
+      "publisher": "Bang & Olufsen",
+      "url": "https://www.bang-olufsen.com/en/fr/story/turntables",
+      "sourceType": "other",
+      "usedFor": [
+        "creator",
+        "material",
+        "manufacturing",
+        "technicalFeatures",
+        "historicalContext",
+        "restoration"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Twenty-Five New Acquisitions",
+      "publisher": "The Museum of Modern Art",
+      "url": "https://www.moma.org/momaorg/shared/pdfs/docs/press_archives/4941/releases/MOMA_1973_0011_1.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "creator",
+        "date",
+        "manufacturing",
+        "technicalFeatures",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Years of Magic - A History of B&O products",
+      "publisher": "Bang & Olufsen",
+      "url": "https://www.bang-olufsen.com/en/ie/story/years-of-magic",
+      "sourceType": "other",
+      "usedFor": [
+        "date",
+        "creator",
+        "technicalFeatures",
+        "historicalContext"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "Beogram 4000 的设计者是雅各布·延森，制造商是 Bang & Olufsen。",
+      "type": "attribution",
+      "sourceIds": [
+        "S2",
+        "S4",
+        "S5"
+      ]
+    },
+    {
+      "claim": "Beogram 4000 使用切向循迹唱臂、伺服驱动结构和带光电管的导臂。",
+      "type": "other",
+      "sourceIds": [
+        "S3",
+        "S4",
+        "S5"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "material",
+      "statement": "Designmuseum Danmark 的官方对象集合页面只列出名称、类别、制造者和年份，未列出材质；文章中的玫瑰木、铝、不锈钢和塑料来自 MoMA 对同名作品的馆藏记录。"
+    },
+    {
+      "topic": "availability",
+      "statement": "Designmuseum Danmark 页面说明馆藏仅有一小部分展出，但没有说明这件 Beogram 4000 当前是否展出。"
+    },
+    {
+      "topic": "collectionHistory",
+      "statement": "本次可靠来源没有提供 Designmuseum Danmark 这件具体藏品的入藏年份、捐赠者或馆藏号。"
+    }
+  ],
+  "upstreamConflicts": []
+}

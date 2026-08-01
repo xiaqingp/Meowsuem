@@ -1,0 +1,59 @@
+{
+  "status": "failed",
+  "errors": [
+    {
+      "code": "OFFICIAL_SOURCE_COVERAGE",
+      "message": "Official museum sources do not cover material",
+      "matches": [
+        "material"
+      ],
+      "severity": "error"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "AMBIGUOUS_QUOTATION",
+      "message": "Quoted wording may be emphasis or an unattributed quotation; human review may be useful",
+      "matches": [
+        "“长得经典”",
+        "“人需要怎样的光”",
+        "“名家家具”",
+        "“这盏灯照得真舒服”"
+      ],
+      "severity": "warning"
+    },
+    {
+      "code": "BROAD_EVALUATION",
+      "message": "Broad evaluative wording is not a hard failure",
+      "matches": [
+        "经典",
+        "重要"
+      ],
+      "severity": "warning"
+    }
+  ],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": true,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "把灯罩当成光学零件",
+    "从展览实验到日常用品",
+    "它为什么直到今天仍然有用"
+  ],
+  "sourceCount": 4,
+  "articleBytes": 5061,
+  "sourcesBytes": 2375
+}

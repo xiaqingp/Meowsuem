@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "kaare-klint-red-chair-1927",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director’s Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "significance",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "History & architecture",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/om-museet-2/history-architecture/",
+      "sourceType": "museum",
+      "usedFor": [
+        "museumContext",
+        "creatorContext",
+        "designHistory"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "KK37580 | Large Red Chair",
+      "publisher": "Carl Hansen & Søn",
+      "url": "https://www.carlhansen.com/en/en/collection/chairs/dining-chairs/kk37580",
+      "sourceType": "other",
+      "usedFor": [
+        "designPurpose",
+        "designHistory",
+        "date",
+        "seriesHistory",
+        "material"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "The red chair by Kaare Klint",
+      "publisher": "Möbeldesignmuseum",
+      "url": "https://www.mobeldesignmuseum.se/furniture/the-red-chair",
+      "sourceType": "museum",
+      "usedFor": [
+        "date",
+        "material",
+        "dimensions",
+        "producer"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Kaare Klint - The ‘Red Chair’ - Rud. Rasmussen",
+      "publisher": "Dansk Møbelkunst",
+      "url": "https://dmk.dk/item/kaare-klint-the-red-chair-rud-rasmussen-1927/",
+      "sourceType": "other",
+      "usedFor": [
+        "designPurpose",
+        "material",
+        "seriesHistory"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "1927年的大型《红椅》被列为红椅系列的第一款设计。",
+      "type": "first_or_earliest",
+      "sourceIds": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "将历史对象转化并适应新时代的做法，为现代丹麦家具传统奠定了基础。",
+      "type": "foundational",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "1927年的《红椅》为丹麦艺术与设计博物馆新馆讲堂设计。",
+      "type": "other",
+      "sourceIds": [
+        "S3",
+        "S5"
+      ]
+    },
+    {
+      "claim": "该型号曾在1929年巴塞罗那国际博览会的丹麦馆展示，并获得国际关注。",
+      "type": "other",
+      "sourceIds": [
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "material",
+      "statement": "Designmuseum Danmark 的官方对象页面没有列出这件具体馆藏的完整材质信息；木材、皮革及黄铜钉等信息来自同型号或相关版本的外部资料，不能完全等同于该馆藏件的现状标签。"
+    },
+    {
+      "topic": "availability",
+      "statement": "馆方页面将《红椅》列入 Director’s Choice 音频导览，但没有说明该具体对象当前是否正在实体展出，因此本文不判断其当前展出状态。"
+    }
+  ],
+  "upstreamConflicts": []
+}

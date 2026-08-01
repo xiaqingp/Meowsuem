@@ -1,0 +1,109 @@
+{
+  "museumId": "designmuseum-danmark",
+  "works": [
+    {
+      "workId": "verner-panton-s-chair-1956",
+      "identity": {
+        "objectType": "single_work",
+        "title": {
+          "en": "S Chair",
+          "zh": "S 椅"
+        },
+        "artistOrCulture": "Verner Panton",
+        "displayDate": "1956",
+        "medium": "moulded plywood",
+        "identityAnchor": "qr-site-24-verner-panton-s-chair-1956",
+        "officialObjectUrl": "https://designmuseum.dk/qr-site/24-verner-panton-s-stolen-1956/"
+      },
+      "identityAnchor": "qr-site-24-verner-panton-s-chair-1956",
+      "identitySourceUrl": "https://designmuseum.dk/qr-site/24-verner-panton-s-stolen-1956/",
+      "officialObjectUrl": "https://designmuseum.dk/qr-site/24-verner-panton-s-stolen-1956/",
+      "collectionGroup": "Furniture",
+      "selectionRationale": "A useful bridge candidate between Arne Jacobsen’s shell-chair work and Panton’s later one-piece plastic chair.",
+      "riskFlags": [],
+      "riskRationale": "The official QR object page gives a named chair, designer, date and material.",
+      "imageAvailability": {
+        "status": "needs_packet_verification",
+        "note": "The official identity page is available; direct image availability is left for the downstream image packet."
+      }
+    },
+    {
+      "workId": "thorvald-bindesboll-carlsberg-label-1904",
+      "identity": {
+        "objectType": "single_work",
+        "title": {
+          "en": "Carlsberg label",
+          "zh": "嘉士伯标签"
+        },
+        "artistOrCulture": "Thorvald Bindesbøll",
+        "displayDate": "1904",
+        "medium": "graphic design / label",
+        "identityAnchor": "qr-site-2-thorvald-bindesboell-carlsberg-label-1904",
+        "officialObjectUrl": "https://designmuseum.dk/qr-site/2-thorvald-bindesboell-carlsberg-etikette-1904/"
+      },
+      "identityAnchor": "qr-site-2-thorvald-bindesboell-carlsberg-label-1904",
+      "identitySourceUrl": "https://designmuseum.dk/qr-site/2-thorvald-bindesboell-carlsberg-etikette-1904/",
+      "officialObjectUrl": "https://designmuseum.dk/qr-site/2-thorvald-bindesboell-carlsberg-etikette-1904/",
+      "collectionGroup": "Prints and Drawings",
+      "selectionRationale": "Adds a directly identified graphic-design object and the Skønvirke strand to a pool otherwise weighted toward furniture.",
+      "riskFlags": [],
+      "riskRationale": "The official QR object page gives a named label, designer, date and design category.",
+      "imageAvailability": {
+        "status": "needs_packet_verification",
+        "note": "The official identity page is available; direct image availability is left for the downstream image packet."
+      }
+    },
+    {
+      "workId": "borge-mogensen-j39-peoples-chair-1947",
+      "identity": {
+        "objectType": "single_work",
+        "title": {
+          "en": "J39 / The People’s Chair",
+          "zh": "J39／人民椅"
+        },
+        "artistOrCulture": "Børge Mogensen",
+        "displayDate": "1947",
+        "medium": "chair; material not specified on the official exhibition page",
+        "identityAnchor": "danish-chair-j39-peoples-chair-borge-mogensen-1947",
+        "officialObjectUrl": "https://designmuseum.dk/en/the-danish-chair/"
+      },
+      "identityAnchor": "danish-chair-j39-peoples-chair-borge-mogensen-1947",
+      "identitySourceUrl": "https://designmuseum.dk/en/the-danish-chair/",
+      "officialObjectUrl": "https://designmuseum.dk/en/the-danish-chair/",
+      "collectionGroup": "Furniture",
+      "selectionRationale": "Represents the democratic, everyday-furniture side of the museum’s Danish Modern narrative.",
+      "riskFlags": [],
+      "riskRationale": "The official museum exhibition page gives the named chair, designer and date.",
+      "imageAvailability": {
+        "status": "official_page_image",
+        "note": "The named chair appears in the official Danish Chair page’s named-chair list."
+      }
+    },
+    {
+      "workId": "arne-jacobsen-ant-chair-1952",
+      "identity": {
+        "objectType": "single_work",
+        "title": {
+          "en": "The Ant",
+          "zh": "蚂蚁椅"
+        },
+        "artistOrCulture": "Arne Jacobsen",
+        "displayDate": "1952",
+        "medium": "chair; material not specified on the official exhibition page",
+        "identityAnchor": "danish-chair-ant-arne-jacobsen-1952",
+        "officialObjectUrl": "https://designmuseum.dk/en/the-danish-chair/"
+      },
+      "identityAnchor": "danish-chair-ant-arne-jacobsen-1952",
+      "identitySourceUrl": "https://designmuseum.dk/en/the-danish-chair/",
+      "officialObjectUrl": "https://designmuseum.dk/en/the-danish-chair/",
+      "collectionGroup": "Furniture",
+      "selectionRationale": "Adds Arne Jacobsen’s simplified shell-chair line and fills a central gap in the Danish Modern candidate set.",
+      "riskFlags": [],
+      "riskRationale": "The official museum exhibition page gives the named chair, designer and date.",
+      "imageAvailability": {
+        "status": "official_page_image",
+        "note": "The named chair appears in the official Danish Chair page’s named-chair list."
+      }
+    }
+  ]
+}

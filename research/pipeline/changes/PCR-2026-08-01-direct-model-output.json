@@ -1,0 +1,17 @@
+{
+  "id": "PCR-2026-08-01-direct-model-output",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-01",
+  "ownerInstruction": "Repair the other Designmuseum Danmark works after the portrait test passed.",
+  "baseRelease": "research/pipeline/releases/v2.13.6.json",
+  "targetVersion": "2.13.7",
+  "implementationStatus": "completed",
+  "scope": ["write image-stage final model output directly to its declared JSON file instead of reconstructing it from wrapped terminal logs"],
+  "outOfScope": ["rewriting museum prose"],
+  "allowedCanonicalFiles": ["scripts/run-isolated-generation.ps1"],
+  "verification": {
+    "status": "pending",
+    "commands": ["node scripts/test-image-resolution-v2.mjs", "node scripts/freeze-pipeline-release.mjs"]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "PCR-2026-08-01-commons-media-validation",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-01",
+  "ownerInstruction": "Repair the other Designmuseum Danmark works after the portrait test passed.",
+  "baseRelease": "research/pipeline/releases/v2.13.9.json",
+  "targetVersion": "2.13.10",
+  "implementationStatus": "completed",
+  "scope": ["exclude generic Commons interface icons from identity ranking", "preserve the complete PNG magic signature during byte normalization"],
+  "outOfScope": ["rewriting museum prose"],
+  "allowedCanonicalFiles": ["scripts/retry-failed-image-evidence.mjs"],
+  "verification": {
+    "status": "pending",
+    "commands": ["node scripts/test-image-resolution-v2.mjs", "node scripts/freeze-pipeline-release.mjs"]
+  }
+}

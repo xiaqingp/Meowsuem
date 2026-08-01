@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "museumId": "designmuseum-danmark",
+  "works": [
+    {
+      "workId": "portrait-pietro-krohn-1887",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "把馆藏对象与机构创建史连接起来：这幅肖像记录了Pietro Krohn作为艺术家、文化组织者和后来首任馆长的多重身份。",
+      "selectionSignals": [
+        "机构史与人物线索",
+        "艺术与设计史收藏的入口",
+        "可将博物馆的成立目标与具体人物关联"
+      ],
+      "sectionSignals": [
+        "博物馆的成立与人物",
+        "艺术、工艺与设计机构史"
+      ],
+      "routeSignals": [
+        "馆史入口",
+        "作为现代设计藏品之前的制度背景节点"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://designmuseum.dk/en/directors-choice/",
+        "https://designmuseum.dk/en/om-museet-2/history-architecture/"
+      ]
+    },
+    {
+      "workId": "tang-grave-figure-woman-long-robe",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "这件有红、绿、黑彩绘的唐代女性泥塑把馆藏的时间尺度拉回墓葬制度与来世观念；馆方同时明确说明，除其墓俑身份和年代外，关于它的具体背景所知有限。",
+      "selectionSignals": [
+        "东亚馆藏的早期历史层",
+        "墓葬器物与来世用途",
+        "材料和色彩信息明确但背景边界清楚"
+      ],
+      "sectionSignals": [
+        "唐代墓葬与社会形象",
+        "东亚历史器物"
+      ],
+      "routeSignals": [
+        "东亚收藏路线",
+        "与现代设计形成时间跨度对照"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://designmuseum.dk/en/directors-choice/",
+        "https://www.kyohaku.go.jp/eng/learn/home/dictio/touji/kasai/"
+      ]
+    },
+    {
+      "workId": "syria-glass-bottle-9th-century",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "一件仅11厘米高的叙利亚九世纪虹彩玻璃瓶，以材料和技术保存了一个已经消逝的文化线索；它的探险携回经历也显示了博物馆藏品如何进入丹麦。",
+      "selectionSignals": [
+        "玻璃材料史",
+        "跨地域流动与收藏史",
+        "小尺寸与高信息密度的物件"
+      ],
+      "sectionSignals": [
+        "历史玻璃与表面技术",
+        "旅行、发现与博物馆收藏"
+      ],
+      "routeSignals": [
+        "玻璃收藏节点",
+        "连接东地中海与丹麦收藏史"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://designmuseum.dk/en/directors-choice/",
+        "https://www.britishmuseum.org/collection/object/W_1978-1011-2"
+      ]
+    },
+    {
+      "workId": "chinese-jug-handle-spout-yongle",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "这件永乐时期中国壶的四边形流口可追溯到波斯金属壶的形式，显示外来形式如何在中国被改造、发展并转化为本土陶瓷对象；馆方将其列为远东收藏中最受重视的作品之一。",
+      "selectionSignals": [
+        "跨文化形式转译",
+        "明代永乐时期的东亚节点",
+        "形式和来源关系都由馆方明确提出"
+      ],
+      "sectionSignals": [
+        "中国器物与中东形式交流",
+        "功能形制的跨文化改造"
+      ],
+      "routeSignals": [
+        "东亚收藏核心节点",
+        "适合连接玻璃、金属与陶瓷的材料路线"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://designmuseum.dk/en/directors-choice/"
+      ]
+    },
+    {
+      "workId": "verdure-tapestry-thistles-c1500",
+      "identityStatus": "stable",
+      "availability": "not_in_current_exhibition",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "约1500年的佛兰德绿色风景挂毯把植物图景、贵族室内装饰和可移动的墙面保温功能放在同一对象中；它还是馆方所称的以花园或果园为主题的cultivated verdure。",
+      "selectionSignals": [
+        "前现代纺织与室内史",
+        "植物图景与空间装饰",
+        "馆方明确标注当前不在展览中"
+      ],
+      "sectionSignals": [
+        "挂毯作为移动壁画",
+        "植物、房间与贵族生活"
+      ],
+      "routeSignals": [
+        "历史工艺补充节点",
+        "仅在确认展陈安排后纳入现场路线"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://designmuseum.dk/en/directors-choice/",
+        "https://collections.glasgowmuseums.com/mwebcgi/mweb?request=record%3Bid%3D39120%3Btype%3D101"
+      ]
+    },
+    {
+      "workId": "nautilus-goblet-mid-17th-century",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "将鹦鹉螺壳雕刻、刻线并施墨，再配以简单杯柱和珍珠母底座，形成一个把自然材料转化为陈设器的早期现代收藏对象；年代仍只是馆方所说的约十七世纪中叶。",
+      "selectionSignals": [
+        "自然材料与人工加工",
+        "收藏文化与装饰艺术",
+        "年代保留约数而非确定纪年"
+      ],
+      "sectionSignals": [
+        "贝壳、珍奇物与陈设",
+        "材料转化与早期现代收藏"
+      ],
+      "routeSignals": [
+        "装饰艺术材料节点",
+        "可与玻璃、瓷器并置为材料比较"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://designmuseum.dk/en/directors-choice/"
+      ]
+    },
+    {
+      "workId": "meissen-rat-snuffbox-c1750",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "老鼠形鼻烟壶把十八世纪鼻烟消费的社交功能与梅森瓷器的拟真、机智造型结合起来；它的重要性在于小型奢侈品怎样同时承担身份、场合和视觉趣味。",
+      "selectionSignals": [
+        "社会使用与奢侈品",
+        "梅森瓷器与小型塑形",
+        "异常动物形制具有明确对象辨识度"
+      ],
+      "sectionSignals": [
+        "十八世纪社交物件",
+        "瓷器、趣味与身份"
+      ],
+      "routeSignals": [
+        "小型装饰艺术节点",
+        "连接器物功能与社会礼仪"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://designmuseum.dk/en/directors-choice/",
+        "https://www.metmuseum.org/art/collection/search/207234"
+      ]
+    },
+    {
+      "workId": "spengler-temple-spiral-staircase-1760",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "Lorentz Spengler在1760年制作的神殿模型把车旋工艺和螺旋楼梯变成观看对象：馆方强调其细部、内部角落以及围绕自身轴线逐渐展开的上升结构。",
+      "selectionSignals": [
+        "手工艺技术成为主题",
+        "微型建筑与空间运动",
+        "作者和年代明确"
+      ],
+      "sectionSignals": [
+        "精密工艺与构造",
+        "模型、空间与观看路径"
+      ],
+      "routeSignals": [
+        "工艺与空间节点",
+        "适合连接建筑、器物与博物馆空间"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://designmuseum.dk/en/directors-choice/"
+      ]
+    },
+    {
+      "workId": "flora-danica-four-sided-serving-dish",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "这件Flora Danica餐具成员把启蒙时代的分类欲望、植物学图像、皇家餐桌和丹麦瓷器生产连接起来；绘画瓷与金色装饰共同显示科学图谱如何进入奢侈餐具。",
+      "selectionSignals": [
+        "皇家瓷器与国家文化",
+        "植物分类、图像复制与餐桌制度",
+        "作为大型服务的一件成员，需与整体关系一起判断"
+      ],
+      "sectionSignals": [
+        "Flora Danica服务与植物学",
+        "皇家委托、瓷器和国家身份"
+      ],
+      "routeSignals": [
+        "丹麦瓷器核心节点",
+        "可连接博物馆的皇家与设计史收藏线"
+      ],
+      "riskFlags": [
+        "composite_or_parent_child"
+      ],
+      "sourcePointers": [
+        "https://designmuseum.dk/en/directors-choice/",
+        "https://floradanica.royalcopenhagen.com/",
+        "https://denkongeligesamling.dk/en/koldinghus/calendar/flora-danica-the-world-s-wildest-dinnerware/"
+      ]
+    },
+    {
+      "workId": "tsuba-sano-naoyoshi-c1775",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "这件约1775年的日本刀镡把保护手部的功能与金属装饰、武士身份和图像赋能联系起来；它也为理解博物馆所强调的日本工艺对丹麦设计的长期影响提供历史前段。",
+      "selectionSignals": [
+        "日本工艺收藏线",
+        "功能、身份与装饰的合一",
+        "作者、文化、年代和材料类别明确"
+      ],
+      "sectionSignals": [
+        "日本刀装具与武士文化",
+        "日本工艺对丹麦设计的影响前史"
+      ],
+      "routeSignals": [
+        "日本收藏核心节点",
+        "连接东亚传统工艺与现代丹麦设计"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://designmuseum.dk/en/directors-choice/",
+        "https://designmuseum.dk/en/om-museet-2/history-architecture/"
+      ]
+    }
+  ]
+}

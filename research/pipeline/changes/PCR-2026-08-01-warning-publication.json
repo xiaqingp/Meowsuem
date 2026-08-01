@@ -1,0 +1,46 @@
+{
+  "id": "PCR-2026-08-01-warning-publication",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-31",
+  "ownerInstruction": "Do not block publication for work-level content problems; publish the museum and show a visible warning on each affected work explaining the exact issue.",
+  "baseRelease": "research/pipeline/releases/v2.11.6.json",
+  "targetVersion": "2.11.7",
+  "implementationStatus": "completed",
+  "scope": [
+    "warning publication status chain",
+    "visible per-work verifier warnings",
+    "hyphenated future museum slugs",
+    "two-level image evidence production-run compatibility",
+    "Designmuseum Danmark formal local publication"
+  ],
+  "outOfScope": [
+    "silently treating failed verification as passed",
+    "publishing missing prose",
+    "bypassing identity, hash or causality failures",
+    "changing the Designmuseum Danmark rating or work selection"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "research/meowseum-content-instruction.md",
+    "scripts/adapt-one-shot-work.mjs",
+    "scripts/assemble-museum-candidate.mjs",
+    "scripts/promote-warning-works.mjs",
+    "scripts/resolve-two-level-image-evidence.mjs",
+    "scripts/verify-content-pipeline.mjs",
+    "scripts/verify-future-museum-contract.mjs",
+    "scripts/verify-project-authority.mjs",
+    "scripts/verify-run-causality.mjs",
+    "museum-app.js",
+    "museum.html"
+  ],
+  "verification": {
+    "status": "passed",
+    "commands": [
+      "node scripts/test-future-museum-contract.mjs",
+      "node scripts/verify-content-pipeline.mjs",
+      "node scripts/verify-release-candidate.mjs --kind=production --museum=designmuseum-danmark --run-id=20260801T015014Z-p2.11.6",
+      "node scripts/verify-run-causality.mjs --kind=production --museum=designmuseum-danmark --run-id=20260801T015014Z-p2.11.6"
+    ]
+  }
+}

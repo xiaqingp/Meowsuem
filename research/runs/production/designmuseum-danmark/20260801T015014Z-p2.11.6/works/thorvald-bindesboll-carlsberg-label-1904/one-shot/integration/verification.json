@@ -1,0 +1,66 @@
+{
+  "status": "failed",
+  "errors": [
+    {
+      "code": "SOURCES_SCHEMA",
+      "message": "$.upstreamConflicts[0].lockedValue is required",
+      "matches": [],
+      "severity": "error"
+    },
+    {
+      "code": "SOURCES_SCHEMA",
+      "message": "$.upstreamConflicts[0].observedValue is required",
+      "matches": [],
+      "severity": "error"
+    },
+    {
+      "code": "SOURCES_SCHEMA",
+      "message": "$.upstreamConflicts[0].explanation is required",
+      "matches": [],
+      "severity": "error"
+    },
+    {
+      "code": "OFFICIAL_SOURCE_COVERAGE",
+      "message": "Official museum sources do not cover material",
+      "matches": [
+        "material"
+      ],
+      "severity": "error"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "BROAD_EVALUATION",
+      "message": "Broad evaluative wording is not a hard failure",
+      "matches": [
+        "重要"
+      ],
+      "severity": "warning"
+    }
+  ],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": false,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": true,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "一枚标签，装下了嘉士伯的“名片”",
+    "让文字像植物一样生长",
+    "当工厂也开始认真对待美",
+    "博物馆为什么收藏一件“本来会被撕掉”的东西"
+  ],
+  "sourceCount": 5,
+  "articleBytes": 5146,
+  "sourcesBytes": 3074
+}

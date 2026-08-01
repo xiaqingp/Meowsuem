@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "gauguin-jug-self-portrait-1889",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "collectionRelation",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Paul Gauguin – Cleopatra Pot – Catalogue Contemporaries of Van Gogh 1",
+      "publisher": "Van Gogh Museum",
+      "url": "https://catalogues.vangoghmuseum.com/contemporaries-of-van-gogh-1/cat61",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "makingProcess",
+        "artistContext",
+        "peruInfluence"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Volcano equals head equals kiln equals phallus",
+      "publisher": "RES: Anthropology and Aesthetics / University of Geneva",
+      "url": "https://www.unige.ch/lettres/armus/unites/istar/download_file/view/251/259",
+      "sourceType": "academic",
+      "usedFor": [
+        "material",
+        "makingProcess",
+        "formalAnalysis",
+        "interpretation",
+        "peruInfluence"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "The Art of Paul Gauguin – Selected Checklist",
+      "publisher": "National Gallery of Art",
+      "url": "https://www.nga.gov/content/dam/ngaweb/research/gallery-archives/PressReleases/1989-1980/1987/14A11_44690_19871202.pdf",
+      "sourceType": "publication",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "artistContext"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "《自画像壶》为保罗·高更于1889年制作的陶瓷人头形自画像，现被Designmuseum Danmark列入馆藏对象选择。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "claim": "作品使用石器陶、釉和彩绘或镀金装饰，并采用深红褐色牛血红釉。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S3"
+      ]
+    },
+    {
+      "claim": "高更童年曾在利马生活，作品的人头—容器结合与前哥伦布时期秘鲁陶器有关。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "claim": "高更从1886—1887年冬季起与陶艺家欧内斯特·沙普莱合作，陶瓷成为其独立艺术媒介。",
+      "type": "other",
+      "sourceIds": [
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "accessionNumber",
+      "statement": "本次核对的Designmuseum Danmark官方页面未公布该作馆藏号；锁定metadata也未提供可核验馆藏号。"
+    },
+    {
+      "topic": "availability",
+      "statement": "官方页面将作品列入Director’s Choice目录并提供音频导览入口，但未明确当前是否在展厅；当前展出状态保持未知。"
+    },
+    {
+      "topic": "collectionHistory",
+      "statement": "本次可靠来源确认作品被纳入Designmuseum Danmark的馆藏叙事，但未找到该馆的完整收藏史或入藏年份。"
+    }
+  ],
+  "upstreamConflicts": []
+}

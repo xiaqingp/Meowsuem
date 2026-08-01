@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "thorvald-bindesboll-carlsberg-label-1904",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Thorvald Bindesbøll, Carlsberg-etikette, 1904 / Thorvald Bindesbøll, Carlsberg label, 1904",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/qr-site/2-thorvald-bindesboell-carlsberg-etikette-1904/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "design_context",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "历史：1904 年的第一款嘉士伯皮尔森及经典标签",
+      "publisher": "Carlsberg Danmark",
+      "url": "https://www.carlsbergdanmark.dk/mod-os/historien-bag/",
+      "sourceType": "other",
+      "usedFor": [
+        "date",
+        "royal_court_relation",
+        "hop_leaf_symbolism"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Carlsberg Pilsner label by Thorvald Bindesbøll",
+      "publisher": "Web Gallery of Art",
+      "url": "https://www.wga.hu/html/b/bindesbo/thorvald/16design.html",
+      "sourceType": "publication",
+      "usedFor": [
+        "material_context"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "material_and_process",
+      "statement": "官方对象页确认其为标签设计，但未说明纸张、油墨或具体印刷工艺；Web Gallery of Art 将相关的 Carlsberg Pilsner 标签记为石版印刷，但不足以据此确定 Designmuseum Danmark 这件对象的具体制作工艺。"
+    },
+    {
+      "topic": "collection_relation_and_accession",
+      "statement": "官方页面确认 Designmuseum Danmark 为该对象提供馆方条目，但检索到的页面文本未提供馆藏号、取得方式或收藏史。"
+    },
+    {
+      "topic": "availability",
+      "statement": "官方对象页未说明当前是否展出；锁定 metadata 的展出状态为未知。"
+    }
+  ],
+  "upstreamConflicts": []
+}

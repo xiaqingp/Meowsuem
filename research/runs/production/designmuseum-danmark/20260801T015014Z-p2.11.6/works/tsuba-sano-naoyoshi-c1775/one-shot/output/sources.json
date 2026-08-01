@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "tsuba-sano-naoyoshi-c1775",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "collectionRelation",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "How was it made? Tsuba",
+      "publisher": "Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/articles/how-was-it-made-tsuba",
+      "sourceType": "museum",
+      "usedFor": [
+        "function",
+        "making",
+        "metalwork_context"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Tsuba (sword guard): Geometric patterns",
+      "publisher": "Princeton University Art Museum",
+      "url": "https://artmuseum.princeton.edu/art/collections/objects/19846",
+      "sourceType": "museum",
+      "usedFor": [
+        "function",
+        "balance",
+        "metalwork_context",
+        "collecting_context"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "availability",
+      "statement": "官方页面将该对象列入Director's Choice并提供音频链接，但未明确说明其当前是否正在展出。"
+    },
+    {
+      "topic": "material_and_technique",
+      "statement": "官方页面仅明确称其为金属工艺，未公布这件作品的具体合金、装饰技法、尺寸或制作步骤。"
+    },
+    {
+      "topic": "motif",
+      "statement": "官方页面介绍了刀镡常见的装饰题材，但没有可靠地说明这件作品的具体图案；本次也没有可靠作品图。"
+    },
+    {
+      "topic": "provenance",
+      "statement": "锁定的官方页面未提供这件作品的具体入藏经过、前藏家或馆藏编号。"
+    }
+  ],
+  "upstreamConflicts": []
+}

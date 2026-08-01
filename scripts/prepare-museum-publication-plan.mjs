@@ -25,6 +25,22 @@ const bilingualName = value => {
   return {zh: parts[0] || value, en: parts[1] || parts[0] || value};
 };
 
+export const buildMuseumNames = (scope, structure) => {
+  const names = structure?.museum?.name;
+  if (names?.zh?.trim() && names?.en?.trim()) return {zh: names.zh.trim(), en: names.en.trim()};
+  if (!String(scope?.museumName || "").includes(" / ")) throw new Error("museum structure is missing bilingual name");
+  return bilingualName(scope.museumName);
+};
+
+export const buildMuseumIntro = museum => {
+  const intro = [
+    museum?.specialFocus ?? museum?.specialLine ?? museum?.narrative ?? "",
+    museum?.actionConclusion ?? museum?.travelConclusion ?? "",
+  ].filter(Boolean);
+  if (!intro.length) throw new Error("museum structure is missing publication intro");
+  return intro;
+};
+
 export async function prepareMuseumPublicationPlan({projectRoot, kind, museum, caseId, runId}) {
   const manifest = await loadManifest(projectRoot);
   const {runRoot, descriptor} = await resolveCanonicalRun({
@@ -103,7 +119,7 @@ export async function prepareMuseumPublicationPlan({projectRoot, kind, museum, c
       availabilityTag: choice.availability === "confirmed_on_view" ? "" : "不确定是否展出",
     };
   });
-  const names = bilingualName(scope.museumName);
+  const names = buildMuseumNames(scope, structure);
   const firstImage = works[0]?.image;
   const rating = ratingInput.rating;
   const museumRecord = {
@@ -118,10 +134,7 @@ export async function prepareMuseumPublicationPlan({projectRoot, kind, museum, c
     official: scope.officialCollectionUrl,
     visit: scope.officialCollectionUrl,
     contentUpdatedAt: new Date().toISOString().slice(0,10),
-    intro: [
-      structure.museum?.specialLine ?? structure.museum?.narrative ?? "",
-      structure.museum?.travelConclusion ?? "",
-    ].filter(Boolean),
+    intro: buildMuseumIntro(structure.museum),
     routes,
     rareAssets: rating.rareAssets ?? [],
   };

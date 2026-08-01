@@ -1,0 +1,28 @@
+{
+  "id": "PCR-2026-08-01-webp-vp8l-header",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-31",
+  "ownerInstruction": "Fix the image pipeline bug and validate the portrait before repairing other works.",
+  "baseRelease": "research/pipeline/releases/v2.13.2.json",
+  "targetVersion": "2.13.3",
+  "implementationStatus": "completed",
+  "scope": [
+    "accept the valid 25-byte VP8L dimension header",
+    "pass VP8 and VP8L regression tests"
+  ],
+  "outOfScope": [
+    "repairing any other Designmuseum Danmark work"
+  ],
+  "allowedCanonicalFiles": [
+    "scripts/lib/two-level-image-resolution.mjs"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/test-two-level-image-resolution.mjs",
+      "node scripts/test-image-resolution-v2.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

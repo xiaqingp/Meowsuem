@@ -1,0 +1,59 @@
+{
+  "status": "failed",
+  "errors": [
+    {
+      "code": "OFFICIAL_SOURCE_COVERAGE",
+      "message": "Official museum sources do not cover material",
+      "matches": [
+        "material"
+      ],
+      "severity": "error"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "AMBIGUOUS_QUOTATION",
+      "message": "Quoted wording may be emphasis or an unattributed quotation; human review may be useful",
+      "matches": [
+        "“丹麦设计经典”",
+        "“惊天动地”",
+        "“研究旧椅子，但不替旧椅子做复印件”",
+        "“北欧滤镜”"
+      ],
+      "severity": "warning"
+    },
+    {
+      "code": "BROAD_EVALUATION",
+      "message": "Broad evaluative wording is not a hard failure",
+      "matches": [
+        "经典",
+        "重要"
+      ],
+      "severity": "warning"
+    }
+  ],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": true,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "一把给博物馆用的椅子",
+    "旧形式怎样变成新家具",
+    "一把椅子，如何长出一条传统"
+  ],
+  "sourceCount": 5,
+  "articleBytes": 4625,
+  "sourcesBytes": 3283
+}

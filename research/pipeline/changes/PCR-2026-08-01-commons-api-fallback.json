@@ -1,0 +1,17 @@
+{
+  "id": "PCR-2026-08-01-commons-api-fallback",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-01",
+  "ownerInstruction": "Repair the other Designmuseum Danmark works after the portrait test passed.",
+  "baseRelease": "research/pipeline/releases/v2.13.8.json",
+  "targetVersion": "2.13.9",
+  "implementationStatus": "completed",
+  "scope": ["resolve exact Commons file pages through the API", "search Commons by locked title and creator after official pages fail"],
+  "outOfScope": ["rewriting museum prose"],
+  "allowedCanonicalFiles": ["scripts/retry-failed-image-evidence.mjs"],
+  "verification": {
+    "status": "pending",
+    "commands": ["node scripts/test-image-resolution-v2.mjs", "node scripts/freeze-pipeline-release.mjs"]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "portrait-pietro-krohn-1887",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "creator",
+        "collectionRelation",
+        "significance",
+        "availability",
+        "person"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Pietro Krohn",
+      "publisher": "Store norske leksikon",
+      "url": "https://snl.no/Pietro_Krohn",
+      "sourceType": "publication",
+      "usedFor": [
+        "person",
+        "creator",
+        "context"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Pietro Krohn [皇家艺术学院文献，含作品图录信息]",
+      "publisher": "Det Kongelige Danske Kunstakademi",
+      "url": "https://publ.royalacademy.dk/backend/web/uploads/2020-02-14/AFL%206/SDH4_4_00_00_2014_5856/SDH4_4_00_00_2014_5856.pdf",
+      "sourceType": "academic",
+      "usedFor": [
+        "material",
+        "date"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Udstilling af dansk Kunst [展览目录]",
+      "publisher": "Kunstbiblioteket, Det Kgl. Bibliotek",
+      "url": "https://kunstbiblioteket.kb.dk/objekter/udstillingskataloger/Udst_0488.pdf",
+      "sourceType": "academic",
+      "usedFor": [
+        "material",
+        "date"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "彼得罗·克龙于1893年成为丹麦艺术工业博物馆（Kunstindustrimuseum）的首任馆长。",
+      "type": "first_or_earliest",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "medium",
+      "statement": "Designmuseum Danmark 当前官方对象页未列出材质；皇家艺术学院文献与一份展览目录均将该作记为粉彩，因此正文采用“现有资料把它记为粉彩”的保守表述。"
+    },
+    {
+      "topic": "accessionNumber",
+      "statement": "本次核对的官方对象页未提供馆藏号。"
+    },
+    {
+      "topic": "availability",
+      "statement": "官方 Director’s Choice 页面列出该对象并提供音频导览，但未明确该作品当前是否在展厅陈列；locked metadata 亦将状态标为 display_status_unknown。"
+    },
+    {
+      "topic": "collectionRelation",
+      "statement": "官方页面将作品纳入馆长精选对象清单，但本次来源未提供更完整的收藏史或入藏时间。"
+    }
+  ],
+  "upstreamConflicts": []
+}

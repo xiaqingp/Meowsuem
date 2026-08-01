@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "stage": "image_evidence_retry",
+  "runId": "20260801T144928Z-p2.13.10",
+  "runRoot": "research/runs/experiment/designmuseum-image-v2-last-two/20260801T144928Z-p2.13.10",
+  "parentRunRoot": "research/runs/experiment/designmuseum-image-v2-final-fallback/20260801T144704Z-p2.13.9",
+  "parentEvidenceSha256": "d6711fbc461856fe5af82e1c8e93342d882db874d212b61b4a14505f427f4ac9",
+  "failedWorksRetried": [
+    {
+      "workId": "thorvald-bindesboll-carlsberg-label-1904",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "selected candidate processing failed: image dimensions are missing or too small"
+      ],
+      "sourcePageUrl": null
+    },
+    {
+      "workId": "verner-panton-panton-chair-1960-1967",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "Enumerated candidates are generic Wikimedia interface icons rather than the Panton Chair image; no identity-bound candidate is available in the locked list."
+      ],
+      "sourcePageUrl": null
+    }
+  ],
+  "newlyAccepted": [
+    {
+      "workId": "thorvald-bindesboll-carlsberg-label-1904",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Carlsberg_Pilsner_1904_label_by_Thorvald_Bindesboll.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Carlsberg_Pilsner_1904_label_by_Thorvald_Bindesboll.png",
+      "localPath": "research/runs/experiment/designmuseum-image-v2-last-two/20260801T144928Z-p2.13.10/image-evidence/assets/thorvald-bindesboll-carlsberg-label-1904.png",
+      "sha256": "3b0c2020a147439555eb43a245e46ac9fbd915dbbcb513e6967f04dad1b7c805",
+      "method": "ai_page_candidate_download",
+      "imageRole": "object_view",
+      "candidateId": "commons-001"
+    },
+    {
+      "workId": "verner-panton-panton-chair-1960-1967",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Panton_Chair_by_Verner_Panton.JPG",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Panton_Chair_by_Verner_Panton.JPG",
+      "localPath": "research/runs/experiment/designmuseum-image-v2-last-two/20260801T144928Z-p2.13.10/image-evidence/assets/verner-panton-panton-chair-1960-1967.jpg",
+      "sha256": "789238ddda022128e2e747a5d42fd06ea71fecb83b20a9655d90e7dfa2651f8a",
+      "method": "ai_page_candidate_download",
+      "imageRole": "object_view",
+      "candidateId": "commons-001"
+    }
+  ],
+  "stillUnresolved": [],
+  "counts": {
+    "works": 20,
+    "previousAcceptedPreserved": 18,
+    "retried": 2,
+    "newlyAccepted": 2,
+    "directImageDownloads": 2,
+    "elementCaptures": 0,
+    "objectImageAccepted": 18,
+    "contextImagesAccepted": 0,
+    "unresolved": 0,
+    "duplicateObjectImageGroups": [],
+    "modelCalls": 1,
+    "modelTokens": 24303,
+    "webSearchCount": 0
+  },
+  "model": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium",
+    "calls": 1,
+    "durationMs": 16883,
+    "tokens": {
+      "total": 24303,
+      "source": "codex_cli_log"
+    },
+    "webSearchCount": 0
+  },
+  "guarantees": {
+    "acceptedWorksNotRerun": [
+      "flora-danica-four-sided-serving-dish",
+      "chinese-jug-handle-spout-yongle",
+      "portrait-pietro-krohn-1887",
+      "tsuba-sano-naoyoshi-c1775",
+      "spengler-temple-spiral-staircase-1760",
+      "malling-hansen-writing-ball-1870s",
+      "heron-service-wine-cooler-1885-88",
+      "gauguin-jug-self-portrait-1889",
+      "hegermann-lindencrone-porcelain-vase-1899-1900",
+      "nilfisk-l10-vacuum-cleaner-1922",
+      "poul-henningsen-table-lamp-4-3-1927",
+      "kaare-klint-red-chair-1927",
+      "marie-gudme-leth-tree-pattern-1937",
+      "hans-wegner-wishbone-chair-1950",
+      "finn-juhl-butterfly-coffee-table-prototype-1949",
+      "arne-jacobsen-ant-chair-1952",
+      "katrine-bendixen-inside-out-lamp-2019",
+      "bang-olufsen-beogram-4000-1972"
+    ],
+    "nonImageStagesRun": [],
+    "imageGenerationModelUsed": false,
+    "parentRunModified": false,
+    "assemblyNetworkAccess": false,
+    "productionModified": false
+  }
+}

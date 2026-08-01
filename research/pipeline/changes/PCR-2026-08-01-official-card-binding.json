@@ -1,0 +1,17 @@
+{
+  "id": "PCR-2026-08-01-official-card-binding",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-01",
+  "ownerInstruction": "Repair the other Designmuseum Danmark works after the portrait test passed.",
+  "baseRelease": "research/pipeline/releases/v2.13.5.json",
+  "targetVersion": "2.13.6",
+  "implementationStatus": "completed",
+  "scope": ["preserve explicit official card title and creator relations before generic image deduplication"],
+  "outOfScope": ["rewriting museum prose"],
+  "allowedCanonicalFiles": ["scripts/retry-failed-image-evidence.mjs"],
+  "verification": {
+    "status": "pending",
+    "commands": ["node scripts/test-image-resolution-v2.mjs", "node scripts/freeze-pipeline-release.mjs"]
+  }
+}

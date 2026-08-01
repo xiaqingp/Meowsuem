@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "nilfisk-l10-vacuum-cleaner-1922",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "creator",
+        "collectionRelation",
+        "significance",
+        "officialDescription"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The history of Nilfisk | Over a century of innovation",
+      "publisher": "Nilfisk",
+      "url": "https://www.nilfisk.com/global/professional/about-nilfisk/about-nilfisk-group/the-history-of-nilfisk/",
+      "sourceType": "publication",
+      "usedFor": [
+        "companyHistory",
+        "founders",
+        "1906Workshop",
+        "1910ElectricVacuumCleaner",
+        "cleaningTechnologyContext"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Extreme free - 100 years with vacuum cleaners",
+      "publisher": "Nilfisk Consumer",
+      "url": "https://im.consumer.nilfisk.com/en/news/Pages/Extreme_Free.aspx",
+      "sourceType": "publication",
+      "usedFor": [
+        "1922ProductContext",
+        "exportContext",
+        "companyHistory"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "date",
+      "statement": "已验证图片中的铭牌可读为1920，而 Designmuseum Danmark 官方对象页将 Nilfisk L10 标为1922；本文采用官方对象页与锁定 metadata 的1922，不推断两者差异的具体原因。"
+    },
+    {
+      "topic": "material",
+      "statement": "官方对象页没有注明材质；文章仅依据图片进行外观观察，没有把深色外观等同于某一种确定材料。"
+    },
+    {
+      "topic": "availability",
+      "statement": "官方 Director's Choice 页面没有明确说明该件当前是否仍在展厅中展出，因此当前可见状态未核实。"
+    }
+  ],
+  "upstreamConflicts": []
+}

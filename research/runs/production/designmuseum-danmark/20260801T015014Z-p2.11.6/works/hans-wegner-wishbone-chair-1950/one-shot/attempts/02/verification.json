@@ -1,0 +1,69 @@
+{
+  "status": "failed",
+  "errors": [
+    {
+      "code": "OFFICIAL_SOURCE_COVERAGE",
+      "message": "Official museum sources do not cover material",
+      "matches": [
+        "material"
+      ],
+      "severity": "error"
+    },
+    {
+      "code": "UNSUPPORTED_DIRECT_QUOTE",
+      "message": "Direct quotation lacks a valid source record",
+      "matches": [
+        "昵称“Y 椅”"
+      ],
+      "severity": "error"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "AMBIGUOUS_QUOTATION",
+      "message": "Quoted wording may be emphasis or an unattributed quotation; human review may be useful",
+      "matches": [
+        "“Wishbone 椅”",
+        "“漂亮的木椅”",
+        "“有设计感”",
+        "“减法翻译”",
+        "“经典所以一直卖”"
+      ],
+      "severity": "warning"
+    },
+    {
+      "code": "BROAD_EVALUATION",
+      "message": "Broad evaluative wording is not a hard failure",
+      "matches": [
+        "重要",
+        "经典"
+      ],
+      "severity": "warning"
+    }
+  ],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": false,
+    "strongClaimsRecorded": true,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "一条曲线，承担扶手和靠背",
+    "轻，不等于脆",
+    "古老的影子，现代的语法",
+    "一把椅子，为什么能讲丹麦设计"
+  ],
+  "sourceCount": 5,
+  "articleBytes": 4528,
+  "sourcesBytes": 3505
+}

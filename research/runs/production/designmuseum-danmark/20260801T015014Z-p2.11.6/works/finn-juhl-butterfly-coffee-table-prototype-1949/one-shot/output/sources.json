@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "finn-juhl-butterfly-coffee-table-prototype-1949",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "availability",
+        "historical_context"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Designmuseum Danmark Årsberetning 2020",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/wp-content/uploads/2023/04/Designmuseum-Danmark-Aarsberetning-2020-1.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "making_process",
+        "collectionRelation",
+        "historical_context",
+        "significance"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "The Butterfly Table | Finn Juhl | 1949",
+      "publisher": "House of Finn Juhl",
+      "url": "https://finnjuhl.com/collection/coffee-tables/butterfly-table",
+      "sourceType": "other",
+      "usedFor": [
+        "material",
+        "making_process",
+        "mechanism",
+        "artist_intent",
+        "rarity",
+        "later_relaunch"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "Finn Juhl的原始水彩设计笔记把桌面形状和腿的位置与靠近沙发的便利性联系起来，并将其理解为不受单一功能约束的自由形式。",
+      "type": "artist_intent",
+      "sourceIds": [
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "material",
+      "statement": "官方对象页没有列出材质；馆方2020年年报将被购藏的1949年桌描述为柚木、俄勒冈松和黄铜，而House of Finn Juhl介绍的后期复刻版主要使用胡桃木和黄铜，因此二者不能混同。"
+    },
+    {
+      "topic": "availability",
+      "statement": "官方对象页标注“COMING MID-MAY”，但未说明具体年份、展厅或日程，当前到访日是否可见无法由该页面确认。"
+    }
+  ],
+  "upstreamConflicts": []
+}

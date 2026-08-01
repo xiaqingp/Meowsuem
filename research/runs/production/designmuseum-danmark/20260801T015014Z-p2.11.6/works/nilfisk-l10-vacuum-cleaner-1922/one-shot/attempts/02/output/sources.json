@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "nilfisk-l10-vacuum-cleaner-1922",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice: Nilfisk vacuum cleaner, L10, 1922",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Design Fortællinger: Støvsugeren",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/design-fortaellinger/",
+      "sourceType": "museum",
+      "usedFor": [
+        "form",
+        "designHistory",
+        "function"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "The history of Nilfisk",
+      "publisher": "Nilfisk",
+      "url": "https://www.nilfisk.com/global/professional/about-nilfisk/about-nilfisk-group/the-history-of-nilfisk/",
+      "sourceType": "other",
+      "usedFor": [
+        "companyHistory",
+        "founders",
+        "function"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "material",
+      "statement": "官方对象页未注明这件 L10 的具体材质；文章仅描述了已验证图片中可见的黑色表面与金属色构件。"
+    },
+    {
+      "topic": "availability",
+      "statement": "官方 Director's Choice 页面列出该对象，但未明确说明当前实物是否正在展出。"
+    },
+    {
+      "topic": "date",
+      "statement": "已验证图片中的展签可读为“année 1920”，而官方对象页将对象标为 1922；本文沿用锁定 metadata 与官方对象页的 1922。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "date",
+      "severity": "warning",
+      "statement": "图片展签显示 1920；Designmuseum Danmark 官方对象页显示 1922。此冲突不改变锁定身份，文章采用官方对象页年代。"
+    }
+  ]
+}

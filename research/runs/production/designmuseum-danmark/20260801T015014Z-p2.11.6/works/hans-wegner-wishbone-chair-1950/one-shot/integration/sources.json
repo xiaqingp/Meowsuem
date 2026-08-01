@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "hans-wegner-wishbone-chair-1950",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Danish Chair – An International Affair",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/the-danish-chair/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "CH24 | Wishbone Chair",
+      "publisher": "Carl Hansen & Søn",
+      "url": "https://www.carlhansen.com/en/en/collection/chairs/dining-chairs/ch24",
+      "sourceType": "publication",
+      "usedFor": [
+        "creator",
+        "date",
+        "material",
+        "process",
+        "manufacturer"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Behind an icon: CH24",
+      "publisher": "Carl Hansen & Søn",
+      "url": "https://www.carlhansen.com/en/en/designers/hans-j-wegner/behind-an-icon-ch24",
+      "sourceType": "publication",
+      "usedFor": [
+        "historical_context",
+        "date",
+        "process",
+        "material"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Weaving",
+      "publisher": "Carl Hansen & Søn",
+      "url": "https://www.carlhansen.com/en/en/inspiration/craftsmanship/weaving",
+      "sourceType": "publication",
+      "usedFor": [
+        "material",
+        "process",
+        "historical_context"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "CH24由Hans J. Wegner于1949年设计，并自1950年开始连续生产。",
+      "type": "other",
+      "sourceIds": [
+        "S2",
+        "S3"
+      ]
+    },
+    {
+      "claim": "Wishbone椅的制造需要一百多个步骤，纸绳座面约使用120米纸绳并由工匠手工编织。",
+      "type": "other",
+      "sourceIds": [
+        "S2",
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "availability",
+      "statement": "锁定的Designmuseum Danmark官方页面没有提供该具体对象在当前日期的展出状态，因此文章不判断其目前是否可现场观看。"
+    },
+    {
+      "topic": "material",
+      "statement": "官方展览页面确认作品身份与1950年日期，但未在该页面明确列出馆藏对象的具体木材种类或完整材质记录；文章中的木材与纸绳工艺信息来自CH24制造商资料，并以一般型号资料表述。"
+    },
+    {
+      "topic": "date",
+      "statement": "馆方页面将作品标注为1950年；制造商资料将1949年表述为设计年份、1950年表述为投入生产年份，文章保留了这一时间区分。"
+    }
+  ],
+  "upstreamConflicts": []
+}

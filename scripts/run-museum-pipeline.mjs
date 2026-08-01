@@ -220,7 +220,9 @@ export async function runMuseumPipeline(argv = process.argv.slice(2)) {
     } else if (stage === "image_evidence") {
       results.push(await executeStage(stage,path.join(runRoot,"image-evidence","verified-image-evidence.json"),async()=>{
         if (!mock) {
-          await runCommand(process.execPath,["scripts/resolve-museum-image-evidence.mjs",...identityArgs,"--allow-model"],projectRoot);
+          const resolver=manifest.canonicalImageEvidenceResolver;
+          if (!resolver) throw new Error("manifest is missing canonicalImageEvidenceResolver");
+          await runCommand(process.execPath,[resolver,...identityArgs,"--allow-model",...(args["only-work"]?[`--only-work=${args["only-work"]}`]:[])],projectRoot);
         }
       }));
     } else if (stage === "locked_metadata") {

@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "portrait-pietro-krohn-1887",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "significance",
+        "Pietro Krohn biography"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "History & architecture",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/om-museet-2/history-architecture/",
+      "sourceType": "museum",
+      "usedFor": [
+        "museum history",
+        "date",
+        "institutional context"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Pietro Krohn",
+      "publisher": "Royal Danish Academy of Fine Arts Publications",
+      "url": "https://publ.royalacademy.dk/backend/web/uploads/2020-02-14/AFL%206/SDH4_4_00_00_2014_5856/SDH4_4_00_00_2014_5856.pdf",
+      "sourceType": "academic",
+      "usedFor": [
+        "material",
+        "date",
+        "object identification"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Pietro Krohn: F. Hendriksen, Ord och Bild, 1905",
+      "publisher": "Project Runeberg",
+      "url": "https://runeberg.org/ordochbild/1905/0723.html",
+      "sourceType": "publication",
+      "usedFor": [
+        "material",
+        "date",
+        "historical identification"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Som sendt fra himlen - Pietro Krohns farvesammenstillinger",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/i-fokus/som-sendt-fra-himlen/",
+      "sourceType": "museum",
+      "usedFor": [
+        "Pietro Krohn biography",
+        "design history",
+        "color research"
+      ]
+    },
+    {
+      "id": "S6",
+      "title": "WONDER",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/exhibition/wonder/",
+      "sourceType": "museum",
+      "usedFor": [
+        "Pietro Krohn biography",
+        "collection history",
+        "Japanese collection context"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "彼得罗·克龙于1893年成为丹麦艺术工业博物馆的首任馆长。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "claim": "《彼得罗·克龙肖像》为粉彩作品。",
+      "type": "other",
+      "sourceIds": [
+        "S3",
+        "S4"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "medium",
+      "statement": "官方对象页没有注明媒材；粉彩信息来自相关学术出版物和1905年图版说明。"
+    },
+    {
+      "topic": "accessionNumber",
+      "statement": "本次核对的公开页面未提供馆藏号。"
+    },
+    {
+      "topic": "availability",
+      "statement": "官方页面将作品列入Director's Choice清单，但未明确说明当前是否在展厅展出。"
+    },
+    {
+      "topic": "visualAnalysis",
+      "statement": "本次没有可靠的作品图，因此未对具体构图、色彩、姿态或笔触作断言。"
+    }
+  ],
+  "upstreamConflicts": []
+}

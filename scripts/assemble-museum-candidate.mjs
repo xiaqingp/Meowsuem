@@ -69,9 +69,6 @@ if (input.museum.contentFile !== expectedContentFile) {
 const isFutureMuseum = !manifest.futureMuseumContract.legacyMuseumIds.includes(input.museum?.id);
 if (input.schemaVersion !== 1) throw new Error("assembly input schemaVersion must be 1");
 if (!/^[a-z][a-z0-9-]*$/.test(input.museum?.id || "")) throw new Error("invalid museum id");
-if (isFutureMuseum && !/^[a-z][a-z0-9]*$/.test(input.museum.id)) {
-  throw new Error("future museum id must be a lowercase JavaScript identifier");
-}
 if (!Array.isArray(input.chapters) || !Array.isArray(input.works) || !input.works.length) throw new Error("assembly input is incomplete");
 if (input.museum.editorialCapacity !== input.works.length) throw new Error("editorial capacity does not match work records");
 if (JSON.stringify(input).includes('"binding"')) throw new Error("binding configuration is forbidden");
@@ -106,6 +103,7 @@ for (const [index, record] of input.works.entries()) {
   let card;
   let metadata;
   let publicSources = [];
+  let contentWarning = null;
   if (usesOneShot) {
     const [verification, adapter] = await Promise.all([
       readJson(path.join(oneShotRoot, "verification.json")),
@@ -114,8 +112,20 @@ for (const [index, record] of input.works.entries()) {
     const oneShotResult = strictOneShot
       ? await readJson(path.join(workRoot, "one-shot", "result.json"))
       : {status: "accepted"};
-    if (verification.status !== "passed" || verification.errors?.length || adapter.status !== "passed" || oneShotResult.status !== "accepted") {
+    const passed = verification.status === "passed" && !verification.errors?.length
+      && adapter.status === "passed" && oneShotResult.status === "accepted";
+    const warning = verification.status === "failed" && verification.errors?.length
+      && adapter.status === "warning" && oneShotResult.status === "warning";
+    if (!passed && !warning) {
       throw new Error(`one-shot integration gate did not pass: ${record.id}`);
+    }
+    const publicationIssues = [...(verification.errors ?? []), ...(verification.warnings ?? [])];
+    if (warning || publicationIssues.length) {
+      contentWarning = {
+        title: "内容尚未通过完整校验",
+        summary: "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        issues: publicationIssues.map(({code, message, matches, severity}) => ({code, message, matches, severity}))
+      };
     }
     const inputHashFiles = {
       lockedMetadata: path.join(workRoot, "one-shot", "input", "locked-metadata.json"),
@@ -146,7 +156,8 @@ for (const [index, record] of input.works.entries()) {
     ]);
     if (await fs.access(path.join(oneShotRoot, "sources.json")).then(() => true).catch(() => false)) {
       const sourceDoc = await readJson(path.join(oneShotRoot, "sources.json"));
-      publicSources = sourceDoc.sources.map(source => ({title: source.title, publisher: source.publisher, url: source.url}));
+      publicSources = (Array.isArray(sourceDoc.sources) ? sourceDoc.sources : [])
+        .map(source => ({title: source.title, publisher: source.publisher, url: source.url}));
     }
   } else {
     if (strictOneShot && !legacyAllowed) throw new Error(`legacy author bundle is not authorized: ${record.id}`);
@@ -164,7 +175,7 @@ for (const [index, record] of input.works.entries()) {
     metadata = writingPlan.displayMetadata;
   }
   const heading = usesOneShot
-    ? draft.match(/^#\s+《(.+?)》\s+\/\s+(.+)$/m)
+    ? draft.match(/^#\s+(.+?)\s+\/\s+(.+)$/m)
     : draft.match(/^##\s+(?:\d+\.\s*)?(.+?)\s+\/\s+(.+)$/m);
   if (!heading) throw new Error(`missing bilingual heading: ${record.id}`);
   let body = draft.slice(heading.index + heading[0].length);
@@ -212,6 +223,7 @@ for (const [index, record] of input.works.entries()) {
     source: record.source,
     cardSummary: card.trim(),
     preciousWhy: card.trim()
+    ,...(contentWarning ? {contentWarning} : {})
     ,...(publicSources.length ? {sources: publicSources} : {})
   });
 }
@@ -234,7 +246,7 @@ const dataName = input.publication.dataFile;
 await fs.writeFile(
   path.join(candidateRoot, dataName),
   `// ${input.museum.en} — assembled by the deterministic Meowseum pipeline.\n` +
-    `museumData.${input.museum.id} = {\n  ...museumRatings.${input.museum.id},\n  ...${JSON.stringify(museum, null, 2)}\n};\n`,
+    `museumData[${JSON.stringify(input.museum.id)}] = {\n  ...museumRatings[${JSON.stringify(input.museum.id)}],\n  ...${JSON.stringify(museum, null, 2)}\n};\n`,
   "utf8"
 );
 
@@ -279,7 +291,7 @@ const insertObject = (source, container, key, value) => {
     else if (character === "}" && --depth === 0) {
       const prefix = source.slice(0, index).trimEnd();
       const formatted = JSON.stringify(value, null, 2).replace(/^/gm, "  ").trimStart();
-      return `${prefix},\n  ${key}: ${formatted}\n${source.slice(index)}`;
+      return `${prefix},\n  ${JSON.stringify(key)}: ${formatted}\n${source.slice(index)}`;
     }
   }
   throw new Error(`unterminated object container: ${container}`);
@@ -299,15 +311,16 @@ if (isFutureMuseum) {
 await fs.writeFile(path.join(candidateRoot, "ratings.js"), nextRatings, "utf8");
 let routesSource = await fs.readFile(path.join(projectRoot, "routes.js"), "utf8");
 routesSource = upsertObject(routesSource, "routePlans", input.museum.id, input.routes);
-if (new RegExp(`${input.museum.id}:"\\d{4}-\\d{2}-\\d{2}"`).test(routesSource)) {
+const quotedMuseumId = JSON.stringify(input.museum.id);
+if (routesSource.includes(`${quotedMuseumId}:"`)) {
   routesSource = routesSource.replace(
-    new RegExp(`${input.museum.id}:"\\d{4}-\\d{2}-\\d{2}"`),
-    `${input.museum.id}:"${input.museum.contentUpdatedAt}"`
+    new RegExp(`${quotedMuseumId.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}:"\\d{4}-\\d{2}-\\d{2}"`),
+    `${quotedMuseumId}:"${input.museum.contentUpdatedAt}"`
   );
 } else {
   routesSource = routesSource.replace(
     /(const contentUpdatedAtByMuseum = \{[\s\S]*?)(\n\};)/,
-    `$1,\n  ${input.museum.id}:"${input.museum.contentUpdatedAt}"$2`
+    `$1,\n  ${quotedMuseumId}:"${input.museum.contentUpdatedAt}"$2`
   );
 }
 await fs.writeFile(path.join(candidateRoot, "routes.js"), routesSource, "utf8");
@@ -341,7 +354,7 @@ if (isFutureMuseum) {
   const [latitude, longitude] = input.integration.coordinates;
   indexHtml = indexHtml.replace(
     /(const museumLocations=\{)([^}]*)(\};)/,
-    (_, open, entries, close) => `${open}${entries}${entries.trim() ? "," : ""}${input.museum.id}:[${latitude},${longitude}]${close}`
+    (_, open, entries, close) => `${open}${entries}${entries.trim() ? "," : ""}${quotedMuseumId}:[${latitude},${longitude}]${close}`
   );
   indexHtml = indexHtml.replace(
     /(const order=\[)([^\]]*)(\]\.sort)/,

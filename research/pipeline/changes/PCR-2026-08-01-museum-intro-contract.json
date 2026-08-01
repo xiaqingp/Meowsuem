@@ -1,0 +1,32 @@
+{
+  "id": "PCR-2026-08-01-museum-intro-contract",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-31",
+  "ownerInstruction": "Fix the pipeline bug that silently drops the museum-level introduction and publishes an empty section.",
+  "baseRelease": "research/pipeline/releases/v2.11.7.json",
+  "targetVersion": "2.11.8",
+  "implementationStatus": "completed",
+  "scope": [
+    "define museum structure intro field names",
+    "map current and legacy intro fields during publication planning",
+    "reject an empty museum publication intro",
+    "add a focused regression test"
+  ],
+  "outOfScope": [
+    "rewriting museum prose",
+    "mutating immutable published runs",
+    "changing ratings, selections, routes or images"
+  ],
+  "allowedCanonicalFiles": [
+    "research/pipeline/prompts/museum-structure.md",
+    "scripts/prepare-museum-publication-plan.mjs"
+  ],
+  "verification": {
+    "status": "passed",
+    "commands": [
+      "node scripts/test-museum-publication-intro.mjs",
+      "node scripts/verify-project-authority.mjs"
+    ]
+  }
+}

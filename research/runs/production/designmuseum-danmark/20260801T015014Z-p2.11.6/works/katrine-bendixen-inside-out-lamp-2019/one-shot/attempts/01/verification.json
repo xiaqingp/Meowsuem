@@ -1,0 +1,54 @@
+{
+  "status": "failed",
+  "errors": [
+    {
+      "code": "ARTICLE_TITLE_DRIFT",
+      "message": "Article title does not match locked metadata",
+      "matches": [
+        "# 《《由内而外》灯具》 / Inside Out, lamp"
+      ],
+      "severity": "error"
+    },
+    {
+      "code": "UNSUPPORTED_DISPLAY_STATUS",
+      "message": "Current display status is stated as certain although metadata is not confirmed",
+      "matches": [],
+      "severity": "error"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "BROAD_EVALUATION",
+      "message": "Broad evaluative wording is not a hard failure",
+      "matches": [
+        "重要"
+      ],
+      "severity": "warning"
+    }
+  ],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": false,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": true,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": false,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "一盏灯，为什么让人先问“这是什么？”",
+    "材料不是噱头：牛肠如何成为设计问题",
+    "从“功能”到“立场”：设计进入博物馆",
+    "它曾经出现在哪里？"
+  ],
+  "sourceCount": 5,
+  "articleBytes": 5334,
+  "sourcesBytes": 3138
+}

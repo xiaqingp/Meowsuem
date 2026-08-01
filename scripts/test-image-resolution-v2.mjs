@@ -1,0 +1,34 @@
+import assert from "node:assert/strict";
+import fs from "node:fs";
+
+const manifest = JSON.parse(fs.readFileSync("research/content-standard-manifest.json", "utf8"));
+const runner = fs.readFileSync("scripts/run-museum-pipeline.mjs", "utf8");
+const resolver = fs.readFileSync(manifest.canonicalImageEvidenceResolver, "utf8");
+const retry = fs.readFileSync("scripts/retry-failed-image-evidence.mjs", "utf8");
+const isolatedRunner = fs.readFileSync("scripts/run-isolated-generation.ps1", "utf8");
+
+assert.equal(manifest.pipelineVersion, "2.13.11");
+assert.equal(manifest.canonicalImageEvidenceResolver, "scripts/resolve-two-level-image-evidence.mjs");
+assert.match(runner, /manifest\.canonicalImageEvidenceResolver/);
+assert.match(resolver, /data-srcset/);
+assert.match(resolver, /data-src/);
+assert.match(resolver, /if \(false && heroMeta\)/);
+assert.match(resolver, /mode: "four_tier"/);
+assert.match(retry, /onlyWork/);
+assert.match(retry, /attempts", "01-official-page-plan/);
+assert.match(retry, /official_page_plan_v1/);
+assert.match(retry, /cleanUrlText/);
+assert.match(retry, /identityScore/);
+assert.match(retry, /only-works/);
+assert.match(retry, /pageCache/);
+assert.match(retry, /sharedOfficialPages/);
+assert.match(retry, /exactCommonsFile/);
+assert.match(retry, /searchWikidataCommons/);
+assert.match(retry, /candidate\.genericPenalty \? -1000/);
+assert.match(retry, /0x89,0x50,0x4e,0x47/);
+assert.match(retry, /identityScore \|\| 0\) >= 1000/);
+assert.match(retry, /stageInputContracts\.imageDisambiguation\.maxWorksPerContext/);
+assert.match(retry, /official_grid_card/);
+assert.ok(retry.indexOf('document.querySelectorAll(".standard__grid__item")') < retry.indexOf('document.querySelectorAll("img")'));
+assert.match(isolatedRunner, /--output-last-message/);
+console.log("image resolution v2 wiring tests passed");

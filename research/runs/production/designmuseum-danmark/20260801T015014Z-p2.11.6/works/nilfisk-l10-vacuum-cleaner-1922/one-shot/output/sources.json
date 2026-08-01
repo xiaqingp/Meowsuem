@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "nilfisk-l10-vacuum-cleaner-1922",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director’s Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "creator",
+        "collectionRelation",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Design Fortællinger",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/design-fortaellinger/",
+      "sourceType": "museum",
+      "usedFor": [
+        "historical_context",
+        "visual_form",
+        "design_history"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "The history of Nilfisk | Over a century of innovation",
+      "publisher": "Nilfisk",
+      "url": "https://www.nilfisk.com/global/professional/about-nilfisk/about-nilfisk-group/the-history-of-nilfisk/",
+      "sourceType": "other",
+      "usedFor": [
+        "company_history",
+        "founders",
+        "electric_vacuum_history"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "availability",
+      "statement": "官方 Director’s Choice 页面收录了该对象并提供音频导览入口，但未明确说明它在当前日期是否于展厅展出；当日展出状态应以馆方现场信息为准。"
+    },
+    {
+      "topic": "material",
+      "statement": "锁定 metadata 与官方对象页均未提供该对象的具体材质信息；文章仅描述经已验证图片可见的外观与结构。"
+    }
+  ],
+  "upstreamConflicts": []
+}

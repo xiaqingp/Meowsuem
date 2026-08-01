@@ -1,0 +1,54 @@
+{
+    "runId":  "20260801T015014Z-p2.11.6",
+    "stage":  "compact_planning_research",
+    "museumId":  "designmuseum-danmark",
+    "caseId":  "",
+    "workId":  "",
+    "pipelineVersion":  "2.11.6",
+    "instructionVersion":  "2.4.0",
+    "model":  "gpt-5.6-luna",
+    "reasoningEffort":  "high",
+    "runnerStartedAt":  "2026-07-31T19:03:24.7148474-07:00",
+    "modelStartedAt":  "2026-07-31T19:03:25.0034337-07:00",
+    "modelCompletedAt":  "2026-07-31T19:05:58.0977762-07:00",
+    "completedAt":  "2026-07-31T19:05:58.1223310-07:00",
+    "runnerDurationMs":  153407,
+    "modelDurationMs":  153094,
+    "tokenUsage":  {
+                       "total":  63559,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "5",
+                                    "9",
+                                    "12",
+                                    "13"
+                                ],
+    "logPath":  "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/research/batches/compact-03/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "d80ee1c0f28a4f21a26b3d7daefe825812b9007b3208dd80451ae13cee95fc96"
+                   },
+                   {
+                       "path":  "research/pipeline/prompts/planning-research.md",
+                       "role":  "stage_prompt",
+                       "sha256":  "f82cdd4578690962ec8167ca664ae8c6945687c4e2c55a466925391f20feb97a"
+                   },
+                   {
+                       "path":  "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/research/batches/compact-03/candidate-packet.json",
+                       "role":  "candidate_packet",
+                       "sha256":  "50f0ab1b289d13f9613cbf59c08809db7ab97776ad4908d184558532fb81ff8c"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "compact-planning-evidence.json",
+                        "sha256":  "16127baa8cbc704f3d6a9704c4dd22e4ebff5802685eca8d59013a6e8777ac37",
+                        "bytes":  11362
+                    }
+                ]
+}

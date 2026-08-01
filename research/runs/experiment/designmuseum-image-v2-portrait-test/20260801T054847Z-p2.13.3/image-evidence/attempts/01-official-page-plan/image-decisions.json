@@ -1,0 +1,29 @@
+{
+    "schemaVersion":  2,
+    "works":  [
+                  {
+                      "workId":  "portrait-pietro-krohn-1887",
+                      "status":  "candidate_found",
+                      "sourcePageUrl":  "https://\r\ndesignmuseum.dk/en/directors-choice/",
+                      "selectedImage":  {
+                                            "candidateId":  "page-image-005",
+                                            "imageUrl":  "https://designmuseum.\r\ndk/en/wp-content/uploads/sites/5/2024/03/P_S_Kroyer_-48_1969_Designmuseum-Danmark_Photo-Pernille-Klemp-Stor.jpg",
+                                            "candi\r\ndateType":  "direct_image",
+                                            "imageRole":  "object_view",
+                                            "caption":  "Portrait of Pietro Krohn, 1887 — Peder Severin \r\nKrøyer",
+                                            "identityEvidence":  [
+                                                                     "The source page places this image immediately under the heading “Portrait of Pietro \r\nKrohn, 1887.”",
+                                                                     "The source page identifies the creator as Peder Severin Krøyer.",
+                                                                     "The candidate filename contains \r\n“Kroyer” and references Designmuseum Danmark."
+                                                                 ],
+                                            "confidence":  0.99
+                                        },
+                      "alternatives":  [
+
+                                       ],
+                      "limitations":  [
+
+                                      ]
+                  }
+              ]
+}

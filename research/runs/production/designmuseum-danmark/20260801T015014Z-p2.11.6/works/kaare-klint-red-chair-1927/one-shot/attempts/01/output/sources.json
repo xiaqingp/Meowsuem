@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "kaare-klint-red-chair-1927",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "History & architecture",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/om-museet-2/history-architecture/",
+      "sourceType": "museum",
+      "usedFor": [
+        "creator",
+        "collectionRelation",
+        "historicalContext"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "KK37580 | Large Red Chair",
+      "publisher": "Carl Hansen & Søn",
+      "url": "https://www.carlhansen.com/en/en/collection/chairs/dining-chairs/kk37580",
+      "sourceType": "other",
+      "usedFor": [
+        "designContext",
+        "material",
+        "productionProcess",
+        "historicalSignificance"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Kaare Klint - The 'Red Chair' - Rud. Rasmussen",
+      "publisher": "Dansk Møbelkunst",
+      "url": "https://dmk.dk/item/kaare-klint-the-red-chair-rud-rasmussen-1927/",
+      "sourceType": "other",
+      "usedFor": [
+        "date",
+        "originalUse",
+        "material",
+        "manufacturer",
+        "designDevelopment"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "The Danish Chair - An International Affair",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/the-danish-chair/",
+      "sourceType": "museum",
+      "usedFor": [
+        "chairHistory",
+        "designContext"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "《红椅》于1927年为丹麦艺术与设计博物馆的讲演厅设计。",
+      "type": "other",
+      "sourceIds": [
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "claim": "克林特研究过包括奇彭代尔在内的英国历史椅子，并将相关元素重新组合进《红椅》系列。",
+      "type": "other",
+      "sourceIds": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "馆方将《红椅》视为把历史对象转化并适应新时代的典型，并认为这种方法为丹麦现代家具传统奠定基础。",
+      "type": "foundational",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "相关同款历史家具资料列出桃花心木、尼日尔皮革和黄铜钉，并注明由鲁德·拉斯穆森制作。",
+      "type": "other",
+      "sourceIds": [
+        "S4"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "medium",
+      "statement": "锁定的官方对象页只列出椅子和材质未注明；桃花心木、尼日尔皮革和黄铜钉来自同款历史家具资料，不能据此确认博物馆所藏这一件的完整材质构成。"
+    },
+    {
+      "topic": "accessionNumber",
+      "statement": "本次核对的官方对象页未提供馆藏号。"
+    },
+    {
+      "topic": "availability",
+      "statement": "官方页面将作品列入Director's Choice对象目录并提供导览入口，但未明确当前展厅或现场展出状态。"
+    },
+    {
+      "topic": "productionHistory",
+      "statement": "本次来源支持1927年设计、1930年带扶手版本及后续尺寸变化，但未确认博物馆所藏实物的具体制作年份。"
+    }
+  ],
+  "upstreamConflicts": []
+}

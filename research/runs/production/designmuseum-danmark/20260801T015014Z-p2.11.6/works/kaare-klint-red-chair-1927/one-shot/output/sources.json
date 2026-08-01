@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "kaare-klint-red-chair-1927",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Kaare Klint - 'The Red Chair' - Designed 1927",
+      "publisher": "Dansk Møbelkunst",
+      "url": "https://dmk.dk/item/kaare-klint-the-red-chair-rud-rasmussen-1927-2/",
+      "sourceType": "other",
+      "usedFor": [
+        "date",
+        "originalUse",
+        "material",
+        "manufacturer"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Den røde stol / the Red Chair by Kaare Klint 1927",
+      "publisher": "Danish Design Review",
+      "url": "https://danishdesignreview.com/a-danish-chair-1/2017/11/1/the-red-chair-by-kaare-klint-1927-w7dw5",
+      "sourceType": "publication",
+      "usedFor": [
+        "historicalInspiration",
+        "construction",
+        "material",
+        "variants",
+        "originalUse"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "Designmuseum Danmark馆方将《红椅》概括为把历史对象转化并调整以适应新时代的典型，并认为这种做法为现代丹麦家具传统奠定了基础。",
+      "type": "foundational",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "《红椅》于1927年为丹麦艺术与设计博物馆的讲演厅设计。",
+      "type": "other",
+      "sourceIds": [
+        "S2",
+        "S3"
+      ]
+    },
+    {
+      "claim": "至少有一组Red Chair使用红色尼日尔山羊皮，这一材料与名称Red Chair有关。",
+      "type": "other",
+      "sourceIds": [
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "material",
+      "statement": "官方对象页没有注明这件馆藏的具体材质；相关Red Chair版本资料提到实木、尼日尔皮革和黄铜钉，但不能直接视为本件馆藏的确认材料清单。"
+    },
+    {
+      "topic": "availability",
+      "statement": "官方页面确认该对象属于馆方Director's Choice对象，但未提供本次访问时的实际陈列位置或当前展出状态；是否现场展出需以当天馆方信息为准。"
+    }
+  ],
+  "upstreamConflicts": []
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "katrine-bendixen-inside-out-lamp-2019",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Matters – rethinking materials",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/exhibition/matters/",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "exhibitionContext",
+        "processContext",
+        "significance"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Annual Report 2019",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/wp-content/uploads/2020/06/%C3%85rsberetning-2019_v10_WEB.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "date",
+        "material",
+        "exhibitionContext"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "International presences at RDW 2020: Kathrine Barbro Bendixen",
+      "publisher": "Romanian Design Week",
+      "url": "https://romaniandesignweek.ro/article/international-presences-rdw-2020-kathrine-barbro-bendixen",
+      "sourceType": "publication",
+      "usedFor": [
+        "origin",
+        "process",
+        "artist_intent",
+        "materialContext"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Inside Out by Kathrine Barbro Bendixen",
+      "publisher": "Thisispaper",
+      "url": "https://www.thisispaper.com/mag/inside-out-by-kathrine-barbro-bendixen",
+      "sourceType": "publication",
+      "usedFor": [
+        "process",
+        "material",
+        "lighting"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "Bendixen希望把肠道从食品语境中移出，寻找新的使用方式，并改变人们对这种材料的看法。",
+      "type": "artist_intent",
+      "sourceIds": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "Inside Out（2019）的材料记录为牛肠与LED灯。",
+      "type": "other",
+      "sourceIds": [
+        "S2",
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "availability",
+      "statement": "作品曾参加2019—2020年的Matters—重新思考材料展览；官方当前对象页未明确说明它现在是否正在展出。"
+    },
+    {
+      "topic": "collectionRelation",
+      "statement": "作品被列入馆方Director's Choice对象目录，该栏目整体介绍为馆长从博物馆收藏中挑选的对象；但本次核对的页面未提供该作品的馆藏号、入藏时间或具体收藏史。"
+    },
+    {
+      "topic": "process",
+      "statement": "公开资料介绍了清洁、重新充气和晾干等处理方式，但未说明这些步骤在该馆2019年版本中的全部具体工艺细节。"
+    }
+  ],
+  "upstreamConflicts": []
+}

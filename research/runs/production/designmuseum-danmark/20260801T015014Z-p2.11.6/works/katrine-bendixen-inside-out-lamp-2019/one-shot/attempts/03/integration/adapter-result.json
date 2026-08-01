@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "status": "warning",
+  "publicationWarnings": [
+    {
+      "code": "SOURCES_SCHEMA",
+      "message": "$.upstreamConflicts[0].lockedValue is required",
+      "matches": []
+    },
+    {
+      "code": "SOURCES_SCHEMA",
+      "message": "$.upstreamConflicts[0].observedValue is required",
+      "matches": []
+    },
+    {
+      "code": "SOURCES_SCHEMA",
+      "message": "$.upstreamConflicts[0].explanation is required",
+      "matches": []
+    },
+    {
+      "code": "ARTICLE_TITLE_DRIFT",
+      "message": "Article title does not match locked metadata",
+      "matches": [
+        "# 《《由内而外》灯具》 / Inside Out, lamp"
+      ]
+    },
+    {
+      "code": "UNSUPPORTED_DISPLAY_STATUS",
+      "message": "Current display status is stated as certain although metadata is not confirmed",
+      "matches": []
+    }
+  ],
+  "modelCalls": 0,
+  "previousFailure": "VERIFICATION_FAILED",
+  "rules": {
+    "card": "first non-empty paragraph under ## 一分钟看懂",
+    "draft": "byte-for-byte copy of output/article.md",
+    "displayMetadata": "deterministic mapping from input/locked-metadata.json",
+    "sources": "validated structural copy of output/sources.json"
+  },
+  "inputHashes": {
+    "lockedMetadata": "93dd894e77e603e1541c7d31a9c2f0b6e7a81f42d9e4f643750b630d84a878c6",
+    "article": "4e16cd0d197b4f66b917a0f0fa43ba289b0af7a381931391941ba4b0a9f8bccf",
+    "sources": "4885b2d36e86f13e5e54241860e1f49e39c7c8c7f2cb32e1f32b24f1c5cef73a",
+    "verification": "adeb7dd5dcffac1f6e562a17d7e588d0e03d9af37affceb0b0509dc251b34ca8"
+  },
+  "outputHashes": {
+    "card.txt": "6fa8869b93c67adb0b59c6811ac3d918e355c198195583913ebd07801957d366",
+    "draft.md": "4e16cd0d197b4f66b917a0f0fa43ba289b0af7a381931391941ba4b0a9f8bccf",
+    "display-metadata.json": "18289f2d909abefedac93277b07427cf473dcc54e0e0c9d1e1db491a5f8a1a57",
+    "sources.json": "4885b2d36e86f13e5e54241860e1f49e39c7c8c7f2cb32e1f32b24f1c5cef73a"
+  }
+}

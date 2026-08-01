@@ -1,0 +1,37 @@
+{
+  "id": "PCR-2026-08-01-warning-severity-ui",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-31",
+  "ownerInstruction": "Use small warnings for minor requirements, large warnings for important content risks, keep pipeline failures internal, and display high-risk statement warnings beside the corresponding statement in the article.",
+  "baseRelease": "research/pipeline/releases/v2.11.9.json",
+  "targetVersion": "2.12.0",
+  "implementationStatus": "completed",
+  "scope": [
+    "three-level publication warning presentation",
+    "compact small-warning UI",
+    "inline high-risk statement annotations",
+    "publication of verifier warnings alongside errors",
+    "current Designmuseum Danmark warning UI hot update"
+  ],
+  "outOfScope": [
+    "silently changing verifier errors to passed",
+    "removing source records",
+    "rewriting museum prose"
+  ],
+  "allowedCanonicalFiles": [
+    "research/meowseum-content-instruction.md",
+    "scripts/verify-one-shot-work.mjs",
+    "scripts/assemble-museum-candidate.mjs",
+    "museum-app.js",
+    "museum.html"
+  ],
+  "verification": {
+    "status": "passed",
+    "commands": [
+      "node --check museum-app.js",
+      "node scripts/verify-content-pipeline.mjs",
+      "node scripts/verify-project-authority.mjs"
+    ]
+  }
+}

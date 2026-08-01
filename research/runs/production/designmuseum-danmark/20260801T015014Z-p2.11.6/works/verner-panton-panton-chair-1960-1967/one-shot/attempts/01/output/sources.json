@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "verner-panton-panton-chair-1960-1967",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "23. Verner Panton, Panton Chair, 1960/1967-68",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/qr-site/23-verner-panton-panton-chair-1960-1967-68/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "productionProcess",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Panton Chair - Verner Panton - Official",
+      "publisher": "Verner Panton Design AG / Verner Panton Official",
+      "url": "https://www.verner-panton.com/en/collection/panton-chair/",
+      "sourceType": "foundation",
+      "usedFor": [
+        "date",
+        "productionProcess",
+        "material",
+        "creator",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Panton Chair | Official Vitra Website",
+      "publisher": "Vitra",
+      "url": "https://www.vitra.com/fr-lp/about-vitra/original/panton-chair",
+      "sourceType": "other",
+      "usedFor": [
+        "date",
+        "productionProcess",
+        "material",
+        "creator"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Director's Choice",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "collectionRelation",
+        "creator",
+        "significance"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Chairs - 1960s",
+      "publisher": "Design Museum",
+      "url": "https://designmuseum.org/design/chairs-1960s",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "productionProcess",
+        "significance"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "Designmuseum Danmark称潘顿椅是世界上第一把量产的、由单块塑料构成的椅子，椅腿、座面和靠背为一体。",
+      "type": "first_or_earliest",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "潘顿椅于1967年首次公开呈现，并在1968年以硬质聚氨酯泡沫和新的成形工艺进入量产阶段。",
+      "type": "other",
+      "sourceIds": [
+        "S2",
+        "S3"
+      ]
+    },
+    {
+      "claim": "1967年早期生产版本采用冷模成形的玻璃纤维增强聚酯树脂，并曾以约150件的小批量形式制作。",
+      "type": "other",
+      "sourceIds": [
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "accessionNumber",
+      "statement": "锁定的Designmuseum Danmark官方对象页没有公布该件作品的馆藏号。"
+    },
+    {
+      "topic": "availability",
+      "statement": "现有官方页面没有明确确认该件潘顿椅在当前访问日期是否正在展出；锁定metadata中的display_status_unknown予以保留。"
+    },
+    {
+      "topic": "medium",
+      "statement": "官方对象页只标注为plastic；潘顿椅在不同生产阶段使用过多种塑料，因此无法据此确认该馆藏实物的具体配方或生产版本。"
+    },
+    {
+      "topic": "collectionRelation",
+      "statement": "Designmuseum Danmark的Director's Choice页面把潘顿椅列入馆方收藏叙事，但未说明该件作品的具体入藏时间、来源或购藏经过。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "date",
+      "severity": "warning",
+      "statement": "锁定的博物馆对象页采用1960/1967-68，分别对应原型与公开呈现/早期生产阶段；Verner Panton官方资料把设计追溯至1957年前后，属于不同的日期定义，不改变作品身份。"
+    }
+  ]
+}

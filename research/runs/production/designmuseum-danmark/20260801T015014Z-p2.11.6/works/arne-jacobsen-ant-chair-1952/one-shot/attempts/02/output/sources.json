@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "arne-jacobsen-ant-chair-1952",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Danish Chair – An International Affair",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/the-danish-chair/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Arne Jacobsen, 3100, Myren, 1952",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/qr-site/20-arne-jacobsen-3100-myren-1952/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "originalUse",
+        "production",
+        "artist_intent",
+        "history"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "The Ant",
+      "publisher": "Arne Jacobsen Design I/S",
+      "url": "https://arnejacobsen.com/works/the-ant/",
+      "sourceType": "other",
+      "usedFor": [
+        "creator",
+        "date",
+        "material",
+        "production",
+        "originalUse",
+        "artist_intent",
+        "history"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Ant™ – Chair with focus on strength and comfort",
+      "publisher": "Fritz Hansen",
+      "url": "https://www.fritzhansen.com/en/categories/products/popular-series/ant",
+      "sourceType": "other",
+      "usedFor": [
+        "material",
+        "production",
+        "currentProductStatus"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "Designmuseum Danmark将《蚂蚁椅》介绍为第一把工业化批量生产、座面与靠背一体的木椅。",
+      "type": "first_or_earliest",
+      "sourceIds": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "阿恩·雅各布森坚持最初的三腿方案，并认为三腿在不平整地面上更稳定，同时符合形式与材料简化的要求。",
+      "type": "artist_intent",
+      "sourceIds": [
+        "S2",
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "material",
+      "statement": "锁定的Designmuseum Danmark官方展览页没有为该馆藏对象单独注明材质；木质壳体、多层压力模塑木皮等信息来自设计方与制造商资料，不能替代该馆藏件的完整物料记录。"
+    },
+    {
+      "topic": "accessionNumber",
+      "statement": "本次核对的官方页面未提供该对象的馆藏号。"
+    },
+    {
+      "topic": "availability",
+      "statement": "官方展览页说明相关展览自2016年起展出，但本次无法据此确认该件对象在当前日期是否正在展厅展出。"
+    }
+  ],
+  "upstreamConflicts": []
+}

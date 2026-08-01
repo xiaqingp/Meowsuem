@@ -1,0 +1,1620 @@
+{
+  "schemaVersion": 1,
+  "stage": "verified_image_evidence",
+  "museumId": "designmuseum-danmark",
+  "pipelineVersion": "2.11.6",
+  "generatedAt": "2026-08-01T03:36:50.577Z",
+  "parentRunId": null,
+  "resolver": {
+    "version": 1,
+    "mode": "two_level",
+    "fastPath": "official_object_url",
+    "modelPolicy": "all_unresolved_to_ai",
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium"
+  },
+  "summary": {
+    "works": 20,
+    "fastPathAccepted": 0,
+    "aiResearchTriggered": 20,
+    "aiAccepted": 2,
+    "contextImagesAccepted": 0,
+    "objectImageAccepted": 2,
+    "unresolved": 0,
+    "providerUnavailable": 0,
+    "duplicateObjectImageGroups": [],
+    "modelCalls": 2,
+    "modelTokens": 220583,
+    "placeholderImages": 18
+  },
+  "modelRun": {
+    "runRoot": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/model-runs",
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium",
+    "durationMs": 216122,
+    "tokens": 220583,
+    "batches": 2
+  },
+  "works": [
+    {
+      "workId": "flora-danica-four-sided-serving-dish",
+      "identity": {
+        "museumId": "designmuseum-danmark",
+        "workId": "flora-danica-four-sided-serving-dish",
+        "title": "Four-sided serving dish from the Flora Danica service",
+        "objectType": "series_member",
+        "titleZh": "Flora Danica 餐具中的四边形餐盘",
+        "titleEn": "Four-sided serving dish from the Flora Danica service",
+        "creator": "Flora Danica / Royal Copenhagen Porcelain Factory",
+        "artistOrCulture": "Flora Danica / Royal Copenhagen Porcelain Factory",
+        "displayDate": "1752–1803",
+        "medium": "painted porcelain with gold ornamentation",
+        "identityAnchor": "director-choice-flora-danica-four-sided-serving-dish-1752-1803",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+        "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+        "accessionNumber": null,
+        "collectionGroup": "Porcelain"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Director's Choice - Design Museum Denmark",
+        "finalUrl": "https://designmuseum.dk/en/directors-choice/",
+        "fastCandidate": null,
+        "excludedImageUrls": [],
+        "fastPageSignals": []
+      },
+      "status": "accepted",
+      "objectImageResolved": false,
+      "imagePolicy": "museum_hero_placeholder",
+      "selected": {
+        "url": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+        "localPath": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+        "sha256": "27cc4b90591e8ea5aa77180b12e2399dd732f93b1535f2d4f6de219c10d34759",
+        "width": 1362,
+        "height": 1362,
+        "contentType": "image/jpeg",
+        "method": "museum_hero_placeholder",
+        "provider": "locked_museum_hero",
+        "identitySignals": [
+          "museum_level_context_only"
+        ],
+        "evidenceId": "img:designmuseum-danmark:museum-hero:27cc4b90591e"
+      },
+      "warnings": [
+        "No identity-bound object image found"
+      ],
+      "durationMs": 2196,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "flora-danica-four-sided-serving-dish",
+        "status": "candidate_found",
+        "selectedCandid\r\nate": {
+          "imageUrl": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2024/03/h115_1a_designmuseumdanmark_photopernil\r\nleklemp.jpg",
+          "sourcePageUrl": "https://designmuseum.dk/en/directors-choice/",
+          "sourceType": "official_museum",
+          "caption": "F\r\nour-sided serving dish from the Flora Danica service in painted porcelain with gold \r\nornamentation",
+          "identityEvidence": [
+            "Official page identifies the work as a four-sided Flora Danica serving \r\ndish",
+            "Image is presented directly with the matching official object entry"
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limi\r\ntations": []
+      },
+      "originalStatus": "object_image_unresolved"
+    },
+    {
+      "workId": "chinese-jug-handle-spout-yongle",
+      "identity": {
+        "museumId": "designmuseum-danmark",
+        "workId": "chinese-jug-handle-spout-yongle",
+        "title": "Jug with handle and spout",
+        "objectType": "single_work",
+        "titleZh": "带把手与流口的壶",
+        "titleEn": "Jug with handle and spout",
+        "creator": "Unknown artist, Ming dynasty, Yongle period, China",
+        "artistOrCulture": "Unknown artist, Ming dynasty, Yongle period, China",
+        "displayDate": "1403–24",
+        "medium": "not specified on the official object page",
+        "identityAnchor": "director-choice-chinese-jug-handle-spout-1403-24",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+        "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+        "accessionNumber": null,
+        "collectionGroup": "East Asian collections"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Director's Choice - Design Museum Denmark",
+        "finalUrl": "https://designmuseum.dk/en/directors-choice/",
+        "fastCandidate": null,
+        "excludedImageUrls": [],
+        "fastPageSignals": []
+      },
+      "status": "accepted",
+      "objectImageResolved": false,
+      "imagePolicy": "museum_hero_placeholder",
+      "selected": {
+        "url": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+        "localPath": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+        "sha256": "27cc4b90591e8ea5aa77180b12e2399dd732f93b1535f2d4f6de219c10d34759",
+        "width": 1362,
+        "height": 1362,
+        "contentType": "image/jpeg",
+        "method": "museum_hero_placeholder",
+        "provider": "locked_museum_hero",
+        "identitySignals": [
+          "museum_level_context_only"
+        ],
+        "evidenceId": "img:designmuseum-danmark:museum-hero:27cc4b90591e"
+      },
+      "warnings": [
+        "AI candidate download failed: image dimensions are missing or too small"
+      ],
+      "durationMs": 2286,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "chinese-jug-handle-spout-yongle",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "ht\r\ntps://designmuseum.dk/en/wp-content/uploads/sites/5/2024/03/038_1950_Designmuseum-Danmark_photopernilleklemp-Stor.jpg",
+          "sourcePageUrl": "https://designmuseum.dk/en/directors-choice/",
+          "sourceType": "official_museum",
+          "caption": "Jug with \r\nhandle and spout, Chinese, 1403–24",
+          "identityEvidence": [
+            "Official page identifies the jug as Chinese, Ming dynasty, \r\nYongle period",
+            "Official description notes its distinctive four-sided spout",
+            "Image is presented directly with the \r\nmatching official object entry"
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "originalStatus": "object_image_unresolved"
+    },
+    {
+      "workId": "portrait-pietro-krohn-1887",
+      "identity": {
+        "museumId": "designmuseum-danmark",
+        "workId": "portrait-pietro-krohn-1887",
+        "title": "Portrait of Pietro Krohn",
+        "objectType": "single_work",
+        "titleZh": "彼得罗·克龙肖像",
+        "titleEn": "Portrait of Pietro Krohn",
+        "creator": "Peder Severin Krøyer",
+        "artistOrCulture": "Peder Severin Krøyer",
+        "displayDate": "1887",
+        "medium": "not specified on the official object page",
+        "identityAnchor": "director-choice-portrait-pietro-krohn-1887",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+        "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+        "accessionNumber": null,
+        "collectionGroup": "Art and design history"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Director's Choice - Design Museum Denmark",
+        "finalUrl": "https://designmuseum.dk/en/directors-choice/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAYAAABXuSs3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAWqSURBVGhD7Zd9rNdTGMCLStdLmpeRaMrGrHULTS8jIUM3NeW1IrIU4eqNUtQuurGRFLbSi+TuloSSlOYuL2GlEk1vehO2TDcl133r+ny+e353Me5W84fl+2yf3/Oc5zznfM/3fM95zvnVSiWVVFJJJZVUUjkS5cCBA8dVVVU1jOLfijGQFcV/X+i8ENbBNvgCeoV/EnwF38FO+AROrqysnIJO4rGNbw43w5e8zOnoE6AQew/6Z5iCXQ89ENZCXvQ/GyZqH5bQ+HvYWlFR0Rv9Dg+pQreHxVAKuTAE+sJdUT8MWsJnMAge1I80wZ4LFdAVButE3wajkggE+0z4FD6IYRy60Hg7LNEuKiqqEx1PgAIogSIYHLHnwZaI2YgaB8djDwnflaEnGK9gnwp+hef4Qj+gd4Ff+V1YGGGHLjR24O9r88xm8eCRqDno3XAvdseoP4VyD30wy1hkBvbAsDv6Q7kw4l0ib0F3eApWQ09jEJfSbOMOS2jsLChLYC+4nk+DD+0d7Yz7Wa1PlgozNxXbF7L+FRga9lkwKWzX8PKwHfTT8Hs8c1X45yeDOByh8QCw4xfhIWgU/tthLDwPE3mOy6I+thvxdQa/CP0IZEEbeIL6E6NtbtSPhx74O6IvhxFRnw1Pwg2W/1/CWz8Os6BvlG+N8uiSkpKz0TPLy8uviLp+MI0ZrI3uCUuwVzK7LheXSQuYCW/DQvxuwHbgl3s4+miJ/1W0sY+Bz+oddX2inKTMGoWgTJbYEeXVUV5fVlbWVptUOSjq5lpGOvlDeTp0BjOF+b1b+E2l08AXcOBu8hXRR/eIuQ7Whb0h6tZHeYvlGiUar0T/Cr3gR1gBq6C1HTHwARE7neIeuAh7rzba1OZabwTXG4+YkfKTByDYP8HSsK81QM3M+9zPwaTgF9xFlb51ScOahKDtdPAs2szhzK2g8Tj0Bma8jQ9h4HdG7GTLaI9zN5una2bWnPGuYS+A6lMRly+YDBz7kojpAt9APs93knz2x/AMbEsa1iQEOdP5DC5ziIyGUbAPXLeK+fc+KA67HaEOJg9txtC/EXpFH6ZC09/LcDEsDr+n8KKwsxnwL+iR8Gj4hkI+7Ivh/bMQ7wHipmgMCyg3Q98EBdaju4FHu1cDU1w2MW7OPFjLw501rwqt0Bdow0dgG5dBZ+q8w3gV8IxYA32i7wLqbkQ3Bb+SY+iDb4b1R6bwhrewTIbxlmPgDqi+rlLn3cQL1jXh0uflyYtV0yh7gHnhOl8/7e/Wj/YO8wB4AWsSvmMp5/K8fpYVyq2j3Ri0B2Db8Hch7h7t/fv3n0H9cOhkORECduJwfZlJvNVtgsZRl7ktetlqoI+lsSx8mc2mDKfcP2zrzoGcKFruYiwDyQ2Xvg760PlRXk7fm8J2474B3k6PAa/XZdDCNolQ8JKVGUSraOglqyG6koe5WX2h+yPedb4v4szFbkq/QP/YbKY20+MLYGr9Da6OtjvA3G8WeU8f3filFb9Qkn7RbtKXwHvUm+Dmb258teCovh0q0dC7i59P29PSVLXZevQymAeLGehWtINzSXhj3AyTw2fuNkP4Iu1LS0svjP7yaJf5kg0g8xw3fznMo1gX7QlqZvNrr04Gd7Dg9B/OBsiBqXbCLHuR8h+Rb+pgdkTnl8JSMAOcq0/BdtAOfjfFTJ52ppOTF90BNUfb5UA5syRGQLJ80FeBqdEl4Wn8GjgBmTv+fFSdGHYycNOXn9AZ+ha8FV4Gpq4cY9gcpilfwMPBK21y32YQfk5f0PuNp+7XdO4d3MPMmT8JtoB1LqmxtiPGdOq1wCuz/6a24qtbXFzs8tyO7Z4ZS/9rjMc2QXiqJhs/EQr+66kn4dL3p7JiHI2z1BLuTOxRQd3w1U4qEX1gTP1wVUv0Z33STjko/ui/+J2QJEGkkkoqqaSSSiqp/HelVq0/AJlfE212p5l5AAAAAElFTkSuQmCC",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg=="
+        ],
+        "fastPageSignals": []
+      },
+      "status": "accepted",
+      "objectImageResolved": false,
+      "imagePolicy": "museum_hero_placeholder",
+      "selected": {
+        "url": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+        "localPath": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+        "sha256": "27cc4b90591e8ea5aa77180b12e2399dd732f93b1535f2d4f6de219c10d34759",
+        "width": 1362,
+        "height": 1362,
+        "contentType": "image/jpeg",
+        "method": "museum_hero_placeholder",
+        "provider": "locked_museum_hero",
+        "identitySignals": [
+          "museum_level_context_only"
+        ],
+        "evidenceId": "img:designmuseum-danmark:museum-hero:27cc4b90591e"
+      },
+      "warnings": [
+        "AI candidate download failed: image dimensions are missing or too small"
+      ],
+      "durationMs": 2295,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "portrait-pietro-krohn-1887",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://designmuseum.dk/en/wp-content/uploads/sites\r\n/5/2024/03/P_S_Kroyer_-48_1969_Designmuseum-Danmark_Photo-Pernille-Klemp-Stor.jpg",
+          "sourcePageUrl": "https://designmuseu\r\nm.dk/en/directors-choice/",
+          "sourceType": "official_museum",
+          "caption": "Portrait of Pietro Krohn, \r\n1887",
+          "identityEvidence": [
+            "Official page identifies the portrait as Pietro Krohn",
+            "Official page attributes it to \r\nPeder Severin Krøyer and dates it 1887",
+            "Image is presented directly with the matching official object entry"
+          ],
+          "confide\r\nnce": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "originalStatus": "object_image_unresolved"
+    },
+    {
+      "workId": "tsuba-sano-naoyoshi-c1775",
+      "identity": {
+        "museumId": "designmuseum-danmark",
+        "workId": "tsuba-sano-naoyoshi-c1775",
+        "title": "Tsuba, Japanese sword guard",
+        "objectType": "single_work",
+        "titleZh": "日本刀镡",
+        "titleEn": "Tsuba, Japanese sword guard",
+        "creator": "Sano Naoyoshi, Japanese",
+        "artistOrCulture": "Sano Naoyoshi, Japanese",
+        "displayDate": "c. 1775",
+        "medium": "metalwork",
+        "identityAnchor": "director-choice-tsuba-sano-naoyoshi-c1775",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+        "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+        "accessionNumber": null,
+        "collectionGroup": "Japanese crafts"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Director's Choice - Design Museum Denmark",
+        "finalUrl": "https://designmuseum.dk/en/directors-choice/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "data:image/png;base64,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",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg=="
+        ],
+        "fastPageSignals": []
+      },
+      "status": "accepted",
+      "objectImageResolved": false,
+      "imagePolicy": "museum_hero_placeholder",
+      "selected": {
+        "url": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+        "localPath": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+        "sha256": "27cc4b90591e8ea5aa77180b12e2399dd732f93b1535f2d4f6de219c10d34759",
+        "width": 1362,
+        "height": 1362,
+        "contentType": "image/jpeg",
+        "method": "museum_hero_placeholder",
+        "provider": "locked_museum_hero",
+        "identitySignals": [
+          "museum_level_context_only"
+        ],
+        "evidenceId": "img:designmuseum-danmark:museum-hero:27cc4b90591e"
+      },
+      "warnings": [],
+      "durationMs": 2792,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "tsuba-sano-naoyoshi-c1775",
+        "status": "candidate_found",
+        "select\r\nedCandidate": {
+          "imageUrl": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2024/03/B36_1910_Designmuseum-Danmark_p\r\nhotopernilleklemp-Stor.jpg",
+          "sourcePageUrl": "https://designmuseum.dk/en/directors-choice/",
+          "sourceType": "official_museu\r\nm",
+          "caption": "Tsuba, Japanese sword guard, c. 1775",
+          "identityEvidence": [
+            "Official page identifies the work as a tsuba \r\nand Japanese sword guard",
+            "Official page attributes it to Sano Naoyoshi and dates it c. 1775",
+            "Image is presented \r\ndirectly with the matching official object entry"
+          ],
+          "confidence": 0.98
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "originalStatus": "object_image_unresolved"
+    },
+    {
+      "workId": "spengler-temple-spiral-staircase-1760",
+      "identity": {
+        "museumId": "designmuseum-danmark",
+        "workId": "spengler-temple-spiral-staircase-1760",
+        "title": "Temple with a spiral staircase",
+        "objectType": "single_work",
+        "titleZh": "带螺旋楼梯的神殿",
+        "titleEn": "Temple with a spiral staircase",
+        "creator": "Lorentz Spengler",
+        "artistOrCulture": "Lorentz Spengler",
+        "displayDate": "1760",
+        "medium": "not specified on the official object page",
+        "identityAnchor": "director-choice-temple-spiral-staircase-1760",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+        "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+        "accessionNumber": null,
+        "collectionGroup": "Western crafts and decorative arts"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Director's Choice - Design Museum Denmark",
+        "finalUrl": "https://designmuseum.dk/en/directors-choice/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "data:image/png;base64,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",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg=="
+        ],
+        "fastPageSignals": []
+      },
+      "status": "accepted",
+      "objectImageResolved": false,
+      "imagePolicy": "museum_hero_placeholder",
+      "selected": {
+        "url": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+        "localPath": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+        "sha256": "27cc4b90591e8ea5aa77180b12e2399dd732f93b1535f2d4f6de219c10d34759",
+        "width": 1362,
+        "height": 1362,
+        "contentType": "image/jpeg",
+        "method": "museum_hero_placeholder",
+        "provider": "locked_museum_hero",
+        "identitySignals": [
+          "museum_level_context_only"
+        ],
+        "evidenceId": "img:designmuseum-danmark:museum-hero:27cc4b90591e"
+      },
+      "warnings": [
+        "AI candidate download failed: image dimensions are missing or too small"
+      ],
+      "durationMs": 3443,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "spengler-temple-spiral-staircase-1760",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://designmuseum.d\r\nk/en/wp-content/uploads/sites/5/2024/03/D1148_Designmuseum-Danmark_photopernilleklemp-Stor-Copy.jpg",
+          "sourcePageUrl": "h\r\nttps://designmuseum.dk/en/directors-choice/",
+          "sourceType": "official_museum",
+          "caption": "Temple with a spiral staircase, \r\n1760",
+          "identityEvidence": [
+            "Official page identifies the object as Temple with a spiral staircase",
+            "Official page \r\nattributes it to Lorentz Spengler and dates it 1760",
+            "Image is presented directly with the matching official object ent\r\nry"
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "originalStatus": "object_image_unresolved"
+    },
+    {
+      "workId": "malling-hansen-writing-ball-1870s",
+      "identity": {
+        "museumId": "designmuseum-danmark",
+        "workId": "malling-hansen-writing-ball-1870s",
+        "title": "Hansen Writing Ball",
+        "objectType": "single_work",
+        "titleZh": "汉森写字球",
+        "titleEn": "Hansen Writing Ball",
+        "creator": "Rasmus Malling-Hansen",
+        "artistOrCulture": "Rasmus Malling-Hansen",
+        "displayDate": "1870s",
+        "medium": "not specified on the official object page",
+        "identityAnchor": "director-choice-hansen-writing-ball-1870s",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+        "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+        "accessionNumber": null,
+        "collectionGroup": "Industrial design"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Director's Choice - Design Museum Denmark",
+        "finalUrl": "https://designmuseum.dk/en/directors-choice/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "data:image/png;base64,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",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg=="
+        ],
+        "fastPageSignals": []
+      },
+      "status": "accepted",
+      "objectImageResolved": false,
+      "imagePolicy": "museum_hero_placeholder",
+      "selected": {
+        "url": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+        "localPath": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+        "sha256": "27cc4b90591e8ea5aa77180b12e2399dd732f93b1535f2d4f6de219c10d34759",
+        "width": 1362,
+        "height": 1362,
+        "contentType": "image/jpeg",
+        "method": "museum_hero_placeholder",
+        "provider": "locked_museum_hero",
+        "identitySignals": [
+          "museum_level_context_only"
+        ],
+        "evidenceId": "img:designmuseum-danmark:museum-hero:27cc4b90591e"
+      },
+      "warnings": [
+        "No identity-bound object image found"
+      ],
+      "durationMs": 3755,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "malling-hansen-writing-ball-1870s",
+        "status": "can\r\ndidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2024/03/057_2017_D\r\nesignmuseum-Danmark_photopernilleklemp-Stor-Copy.jpg",
+          "sourcePageUrl": "https://designmuseum.dk/en/directors-choice/",
+          "s\r\nourceType": "official_museum",
+          "caption": "Hansen Writing Ball, 1870s",
+          "identityEvidence": [
+            "Official page identifies the \r\nobject as the Hansen Writing Ball",
+            "Official page attributes it to Rasmus Malling-Hansen and dates it to the \r\n1870s",
+            "Image is presented directly with the matching official object entry"
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "lim\r\nitations": []
+      },
+      "originalStatus": "object_image_unresolved"
+    },
+    {
+      "workId": "heron-service-wine-cooler-1885-88",
+      "identity": {
+        "museumId": "designmuseum-danmark",
+        "workId": "heron-service-wine-cooler-1885-88",
+        "title": "The Heron Service, wine cooler",
+        "objectType": "series_member",
+        "titleZh": "《苍鹭餐具》酒桶",
+        "titleEn": "The Heron Service, wine cooler",
+        "creator": "Pietro Krohn, with Fanny Garde, Effie Hegermann-Lindencrone and Ludvig Brandstrup",
+        "artistOrCulture": "Pietro Krohn, with Fanny Garde, Effie Hegermann-Lindencrone and Ludvig Brandstrup",
+        "displayDate": "1885–88",
+        "medium": "not specified on the official object page",
+        "identityAnchor": "director-choice-heron-service-wine-cooler-1885-88",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+        "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+        "accessionNumber": null,
+        "collectionGroup": "Porcelain"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Director's Choice - Design Museum Denmark",
+        "finalUrl": "https://designmuseum.dk/en/directors-choice/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "data:image/png;base64,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",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg=="
+        ],
+        "fastPageSignals": []
+      },
+      "status": "accepted",
+      "objectImageResolved": false,
+      "imagePolicy": "museum_hero_placeholder",
+      "selected": {
+        "url": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+        "localPath": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+        "sha256": "27cc4b90591e8ea5aa77180b12e2399dd732f93b1535f2d4f6de219c10d34759",
+        "width": 1362,
+        "height": 1362,
+        "contentType": "image/jpeg",
+        "method": "museum_hero_placeholder",
+        "provider": "locked_museum_hero",
+        "identitySignals": [
+          "museum_level_context_only"
+        ],
+        "evidenceId": "img:designmuseum-danmark:museum-hero:27cc4b90591e"
+      },
+      "warnings": [
+        "AI candidate download failed: image dimensions are missing or too small"
+      ],
+      "durationMs": 1914,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "heron-service-wine-cooler-1885-88",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2024/03/208ab_1992_Designmuseum-Danmark_photopernilleklemp-Stor.\r\njpg",
+          "sourcePageUrl": "https://designmuseum.dk/en/directors-choice/",
+          "sourceType": "official_museum",
+          "caption": "The \r\nHeron Service, wine cooler, 1885–88",
+          "identityEvidence": [
+            "Official page identifies the object as the Heron Service \r\nwine cooler",
+            "Official page identifies Pietro Krohn and the collaborating artists Fanny Garde, Effie \r\nHegermann-Lindencrone, and Ludvig Brandstrup",
+            "Image is presented directly with the matching official object entry"
+          ],
+          "c\r\nonfidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "originalStatus": "object_image_unresolved"
+    },
+    {
+      "workId": "thorvald-bindesboll-carlsberg-label-1904",
+      "identity": {
+        "museumId": "designmuseum-danmark",
+        "workId": "thorvald-bindesboll-carlsberg-label-1904",
+        "title": "Carlsberg label",
+        "objectType": "single_work",
+        "titleZh": "嘉士伯标签",
+        "titleEn": "Carlsberg label",
+        "creator": "Thorvald Bindesbøll",
+        "artistOrCulture": "Thorvald Bindesbøll",
+        "displayDate": "1904",
+        "medium": "graphic design / label",
+        "identityAnchor": "qr-site-2-thorvald-bindesboell-carlsberg-label-1904",
+        "officialObjectUrl": "https://designmuseum.dk/qr-site/2-thorvald-bindesboell-carlsberg-etikette-1904/",
+        "identitySourceUrl": "https://designmuseum.dk/qr-site/2-thorvald-bindesboell-carlsberg-etikette-1904/",
+        "accessionNumber": null,
+        "collectionGroup": "Prints and Drawings"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "2. Thorvald Bindesbøll, Carlsberg-etikette, 1904 - Designmuseum Danmark",
+        "finalUrl": "https://designmuseum.dk/qr-site/2-thorvald-bindesboell-carlsberg-etikette-1904/",
+        "fastCandidate": null,
+        "excludedImageUrls": [],
+        "fastPageSignals": []
+      },
+      "status": "accepted",
+      "objectImageResolved": false,
+      "imagePolicy": "museum_hero_placeholder",
+      "selected": {
+        "url": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+        "localPath": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+        "sha256": "27cc4b90591e8ea5aa77180b12e2399dd732f93b1535f2d4f6de219c10d34759",
+        "width": 1362,
+        "height": 1362,
+        "contentType": "image/jpeg",
+        "method": "museum_hero_placeholder",
+        "provider": "locked_museum_hero",
+        "identitySignals": [
+          "museum_level_context_only"
+        ],
+        "evidenceId": "img:designmuseum-danmark:museum-hero:27cc4b90591e"
+      },
+      "warnings": [],
+      "durationMs": 2092,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "thorvald-bindesboll-carlsberg-label-1904",
+        "status": "can\r\ndidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Carlsberg_Pilsner_19\r\n04_label_by_Thorvald_Bindesboll.png",
+          "sourcePageUrl": "https://designmuseum.dk/qr-site/2-thorvald-bindesboell-carlsberg-\r\netikette-1904/",
+          "sourceType": "wikimedia",
+          "caption": "Carlsberg label, 1904",
+          "identityEvidence": [
+            "Official Designmuseum \r\npage identifies the work as Thorvald Bindesbøll's Carlsberg label from 1904",
+            "Wikimedia Commons identifies the image \r\nas the 1904 Carlsberg Pilsner label designed by Thorvald Bindesbøll",
+            "The date and designer match the exact work identi\r\nty"
+          ],
+          "confidence": 0.97
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "originalStatus": "object_image_unresolved"
+    },
+    {
+      "workId": "gauguin-jug-self-portrait-1889",
+      "identity": {
+        "museumId": "designmuseum-danmark",
+        "workId": "gauguin-jug-self-portrait-1889",
+        "title": "Jug Self-portrait",
+        "objectType": "single_work",
+        "titleZh": "自画像壶",
+        "titleEn": "Jug Self-portrait",
+        "creator": "Paul Gauguin, French",
+        "artistOrCulture": "Paul Gauguin, French",
+        "displayDate": "1889",
+        "medium": "ceramic",
+        "identityAnchor": "director-choice-gauguin-jug-self-portrait-1889",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+        "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+        "accessionNumber": null,
+        "collectionGroup": "Ceramics"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Director's Choice - Design Museum Denmark",
+        "finalUrl": "https://designmuseum.dk/en/directors-choice/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "data:image/png;base64,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",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg=="
+        ],
+        "fastPageSignals": []
+      },
+      "status": "accepted",
+      "objectImageResolved": false,
+      "imagePolicy": "museum_hero_placeholder",
+      "selected": {
+        "url": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+        "localPath": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+        "sha256": "27cc4b90591e8ea5aa77180b12e2399dd732f93b1535f2d4f6de219c10d34759",
+        "width": 1362,
+        "height": 1362,
+        "contentType": "image/jpeg",
+        "method": "museum_hero_placeholder",
+        "provider": "locked_museum_hero",
+        "identitySignals": [
+          "museum_level_context_only"
+        ],
+        "evidenceId": "img:designmuseum-danmark:museum-hero:27cc4b90591e"
+      },
+      "warnings": [],
+      "durationMs": 3192,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "gauguin-jug-self-portrait-1889",
+        "status": "candid\r\nate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2024/03/962.-Designmu\r\nseum-Danmark.-Photo-Pernille-Klemp-Stor.jpg",
+          "sourcePageUrl": "https://designmuseum.dk/en/directors-choice/",
+          "sourceType\r\n": "official_museum",
+          "caption": "Jug Self-portrait, 1889",
+          "identityEvidence": [
+            "Official page identifies the object as \r\nJug Self-portrait",
+            "Official page attributes it to Paul Gauguin and dates it 1889",
+            "Image is presented directly with \r\nthe matching official object entry"
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "originalStatus": "object_image_unresolved"
+    },
+    {
+      "workId": "hegermann-lindencrone-porcelain-vase-1899-1900",
+      "identity": {
+        "museumId": "designmuseum-danmark",
+        "workId": "hegermann-lindencrone-porcelain-vase-1899-1900",
+        "title": "Porcelain vase",
+        "objectType": "single_work",
+        "titleZh": "瓷花瓶",
+        "titleEn": "Porcelain vase",
+        "creator": "Effie Hegermann-Lindencrone",
+        "artistOrCulture": "Effie Hegermann-Lindencrone",
+        "displayDate": "1899–1900",
+        "medium": "pierced porcelain",
+        "identityAnchor": "director-choice-hegermann-lindencrone-porcelain-vase-1899-1900",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+        "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+        "accessionNumber": null,
+        "collectionGroup": "Ceramics"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Director's Choice - Design Museum Denmark",
+        "finalUrl": "https://designmuseum.dk/en/directors-choice/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "data:image/png;base64,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",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg=="
+        ],
+        "fastPageSignals": []
+      },
+      "status": "accepted",
+      "objectImageResolved": false,
+      "imagePolicy": "museum_hero_placeholder",
+      "selected": {
+        "url": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+        "localPath": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+        "sha256": "27cc4b90591e8ea5aa77180b12e2399dd732f93b1535f2d4f6de219c10d34759",
+        "width": 1362,
+        "height": 1362,
+        "contentType": "image/jpeg",
+        "method": "museum_hero_placeholder",
+        "provider": "locked_museum_hero",
+        "identitySignals": [
+          "museum_level_context_only"
+        ],
+        "evidenceId": "img:designmuseum-danmark:museum-hero:27cc4b90591e"
+      },
+      "warnings": [
+        "AI candidate download failed: image dimensions are missing or too small"
+      ],
+      "durationMs": 3233,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "hegermann-lindencrone-porcelain-vase-1899-1900",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://designmuseum.dk/en/\r\nwp-content/uploads/sites/5/2024/03/1214_designmuseumdanmark_photopernilleklemp-Stor.jpg",
+          "sourcePageUrl": "https://desig\r\nnmuseum.dk/en/directors-choice/",
+          "sourceType": "official_museum",
+          "caption": "Porcelain vase, \r\n1899–1900",
+          "identityEvidence": [
+            "Official page identifies the object as a porcelain vase",
+            "Official page attributes it \r\nto Effie Hegermann-Lindencrone and dates it 1899–1900",
+            "Official description specifies pierced porcelain",
+            "Image is \r\npresented directly with the matching official object entry"
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "originalStatus": "object_image_unresolved"
+    },
+    {
+      "workId": "nilfisk-l10-vacuum-cleaner-1922",
+      "identity": {
+        "museumId": "designmuseum-danmark",
+        "workId": "nilfisk-l10-vacuum-cleaner-1922",
+        "title": "Nilfisk vacuum cleaner, L10",
+        "objectType": "single_work",
+        "titleZh": "Nilfisk L10 吸尘器",
+        "titleEn": "Nilfisk vacuum cleaner, L10",
+        "creator": "Fisker & Nielsen A/S",
+        "artistOrCulture": "Fisker & Nielsen A/S",
+        "displayDate": "1922",
+        "medium": "industrial product; material not specified on the official object page",
+        "identityAnchor": "director-choice-nilfisk-l10-vacuum-cleaner-1922",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+        "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+        "accessionNumber": null,
+        "collectionGroup": "Industrial design"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Director's Choice - Design Museum Denmark",
+        "finalUrl": "https://designmuseum.dk/en/directors-choice/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "data:image/png;base64,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",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg=="
+        ],
+        "fastPageSignals": []
+      },
+      "status": "accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Nilfisk_1920_Vacuum_cleaner_img_1392.jpg",
+        "sourcePageUrl": "https://designmuseum.dk/en/directors-choice/",
+        "sourceType": "wikimedia",
+        "localPath": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/nilfisk-l10-vacuum-cleaner-1922.jpg",
+        "sha256": "7169e0c7a87b9e6147c9ae0237701cb58d9436d2180ecc39fb1993a583bec891",
+        "width": 1931,
+        "height": 2887,
+        "contentType": "image/jpeg",
+        "method": "ai_image_research",
+        "provider": "wikimedia",
+        "evidenceId": "img:designmuseum-danmark:nilfisk-l10-vacuum-cleaner-1922:7169e0c7a87b"
+      },
+      "warnings": [],
+      "durationMs": 2665,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "nilfisk-l10-vacuum-cleaner-1922",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nilfisk_1920_Vacuum_cleaner_img_1392.jpg",
+          "sourcePageU\r\nrl": "https://commons.wikimedia.org/wiki/File:Nilfisk_1920_Vacuum_cleaner_img_1392.jpg",
+          "sourceType": "wikimedia",
+          "captio\r\nn": "Vintage Nilfisk vacuum cleaner, circa 1920.",
+          "identityEvidence": [
+            "Official museum page identifies the Nilfisk L10 \r\nvacuum cleaner as a 1922 Fisker & Nielsen A/S design.",
+            "Wikimedia Commons file is a Nilfisk vacuum cleaner dated 1920 \r\nand categorized among Nilfisk vacuum cleaners."
+          ],
+          "confidence": 0.82
+        },
+        "alternatives": [],
+        "limitations": [
+          "The Commons \r\nrecord does not explicitly identify the model as L10."
+        ]
+      },
+      "originalStatus": "object_image_accepted"
+    },
+    {
+      "workId": "poul-henningsen-table-lamp-4-3-1927",
+      "identity": {
+        "museumId": "designmuseum-danmark",
+        "workId": "poul-henningsen-table-lamp-4-3-1927",
+        "title": "Table lamp 4/3",
+        "objectType": "single_work",
+        "titleZh": "4/3 台灯",
+        "titleEn": "Table lamp 4/3",
+        "creator": "Poul Henningsen",
+        "artistOrCulture": "Poul Henningsen",
+        "displayDate": "1927",
+        "medium": "lighting product; material not specified on the official collection page",
+        "identityAnchor": "collection-product-design-table-lamp-4-3-poul-henningsen-1927",
+        "officialObjectUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+        "identitySourceUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+        "accessionNumber": null,
+        "collectionGroup": "Product design"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Objects & collections - Design Museum Denmark",
+        "finalUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+        "fastCandidate": null,
+        "excludedImageUrls": [],
+        "fastPageSignals": []
+      },
+      "status": "accepted",
+      "objectImageResolved": false,
+      "imagePolicy": "museum_hero_placeholder",
+      "selected": {
+        "url": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+        "localPath": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+        "sha256": "27cc4b90591e8ea5aa77180b12e2399dd732f93b1535f2d4f6de219c10d34759",
+        "width": 1362,
+        "height": 1362,
+        "contentType": "image/jpeg",
+        "method": "museum_hero_placeholder",
+        "provider": "locked_museum_hero",
+        "identitySignals": [
+          "museum_level_context_only"
+        ],
+        "evidenceId": "img:designmuseum-danmark:museum-hero:27cc4b90591e"
+      },
+      "warnings": [
+        "The official page confirms the work identity, but no \r\nsufficiently verifiable direct image URL for this exact 4/3 table-lamp work was found."
+      ],
+      "durationMs": 2380,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "poul-henningsen-table-lamp-4-3-1927",
+        "status": "not_\r\nfound",
+        "selectedCandidate": null,
+        "alternatives": [],
+        "limitations": [
+          "The official page confirms the work identity, but no \r\nsufficiently verifiable direct image URL for this exact 4/3 table-lamp work was found."
+        ]
+      },
+      "originalStatus": "object_image_unresolved"
+    },
+    {
+      "workId": "kaare-klint-red-chair-1927",
+      "identity": {
+        "museumId": "designmuseum-danmark",
+        "workId": "kaare-klint-red-chair-1927",
+        "title": "Red Chair",
+        "objectType": "single_work",
+        "titleZh": "红椅",
+        "titleEn": "Red Chair",
+        "creator": "Kaare Klint",
+        "artistOrCulture": "Kaare Klint",
+        "displayDate": "1927",
+        "medium": "chair; material not specified on the official object page",
+        "identityAnchor": "director-choice-kaare-klint-red-chair-1927",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+        "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+        "accessionNumber": null,
+        "collectionGroup": "Furniture"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Director's Choice - Design Museum Denmark",
+        "finalUrl": "https://designmuseum.dk/en/directors-choice/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "data:image/png;base64,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",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg=="
+        ],
+        "fastPageSignals": []
+      },
+      "status": "accepted",
+      "objectImageResolved": false,
+      "imagePolicy": "museum_hero_placeholder",
+      "selected": {
+        "url": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+        "localPath": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+        "sha256": "27cc4b90591e8ea5aa77180b12e2399dd732f93b1535f2d4f6de219c10d34759",
+        "width": 1362,
+        "height": 1362,
+        "contentType": "image/jpeg",
+        "method": "museum_hero_placeholder",
+        "provider": "locked_museum_hero",
+        "identitySignals": [
+          "museum_level_context_only"
+        ],
+        "evidenceId": "img:designmuseum-danmark:museum-hero:27cc4b90591e"
+      },
+      "warnings": [
+        "Related images were found, \r\nbut none could be verified as the museum’s exact Red Chair object with sufficient identity evidence."
+      ],
+      "durationMs": 3036,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "kaare-klint-red-chair-1927",
+        "status": "not_found",
+        "selectedCandidate": null,
+        "alternatives": [],
+        "limitations": [
+          "Related images were found, \r\nbut none could be verified as the museum’s exact Red Chair object with sufficient identity evidence."
+        ]
+      },
+      "originalStatus": "object_image_unresolved"
+    },
+    {
+      "workId": "marie-gudme-leth-tree-pattern-1937",
+      "identity": {
+        "museumId": "designmuseum-danmark",
+        "workId": "marie-gudme-leth-tree-pattern-1937",
+        "title": "Tree pattern",
+        "objectType": "single_work",
+        "titleZh": "树木图案",
+        "titleEn": "Tree pattern",
+        "creator": "Marie Gudme Leth",
+        "artistOrCulture": "Marie Gudme Leth",
+        "displayDate": "1937",
+        "medium": "textile print; material not specified on the official object page",
+        "identityAnchor": "director-choice-marie-gudme-leth-tree-pattern-1937",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+        "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+        "accessionNumber": null,
+        "collectionGroup": "Fashion and textile design"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Director's Choice - Design Museum Denmark",
+        "finalUrl": "https://designmuseum.dk/en/directors-choice/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "data:image/png;base64,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",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg=="
+        ],
+        "fastPageSignals": []
+      },
+      "status": "accepted",
+      "objectImageResolved": false,
+      "imagePolicy": "museum_hero_placeholder",
+      "selected": {
+        "url": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+        "localPath": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+        "sha256": "27cc4b90591e8ea5aa77180b12e2399dd732f93b1535f2d4f6de219c10d34759",
+        "width": 1362,
+        "height": 1362,
+        "contentType": "image/jpeg",
+        "method": "museum_hero_placeholder",
+        "provider": "locked_museum_hero",
+        "identitySignals": [
+          "museum_level_context_only"
+        ],
+        "evidenceId": "img:designmuseum-danmark:museum-hero:27cc4b90591e"
+      },
+      "warnings": [
+        "The \r\nofficial page confirms the work identity, but no sufficiently verifiable image bound to this exact pattern was found."
+      ],
+      "durationMs": 2650,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "marie-gudme-leth-tree-pattern-1937",
+        "status": "not_found",
+        "selectedCandidate": null,
+        "alternatives": [],
+        "limitations": [
+          "The \r\nofficial page confirms the work identity, but no sufficiently verifiable image bound to this exact pattern was found."
+        ]
+      },
+      "originalStatus": "object_image_unresolved"
+    },
+    {
+      "workId": "hans-wegner-wishbone-chair-1950",
+      "identity": {
+        "museumId": "designmuseum-danmark",
+        "workId": "hans-wegner-wishbone-chair-1950",
+        "title": "Wishbone chair",
+        "objectType": "single_work",
+        "titleZh": "Wishbone 椅",
+        "titleEn": "Wishbone chair",
+        "creator": "Hans J. Wegner",
+        "artistOrCulture": "Hans J. Wegner",
+        "displayDate": "1950",
+        "medium": "chair; material not specified on the official exhibition page",
+        "identityAnchor": "danish-chair-wishbone-chair-hans-wegner-1950",
+        "officialObjectUrl": "https://designmuseum.dk/en/the-danish-chair/",
+        "identitySourceUrl": "https://designmuseum.dk/en/the-danish-chair/",
+        "accessionNumber": null,
+        "collectionGroup": "Furniture"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "The Danish Chair - Design Museum Denmark",
+        "finalUrl": "https://designmuseum.dk/en/the-danish-chair/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "data:image/png;base64,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",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII="
+        ],
+        "fastPageSignals": []
+      },
+      "status": "accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Hans_J_Wegner_Wishbone_Chair.jpg",
+        "sourcePageUrl": "https://designmuseum.dk/en/directors-choice/",
+        "sourceType": "wikimedia",
+        "localPath": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/hans-wegner-wishbone-chair-1950.jpg",
+        "sha256": "cba9a06df4b3da4a195bcebc7530e0138b76759211e8680063efc2d55d31a262",
+        "width": 2308,
+        "height": 3000,
+        "contentType": "image/jpeg",
+        "method": "ai_image_research",
+        "provider": "wikimedia",
+        "evidenceId": "img:designmuseum-danmark:hans-wegner-wishbone-chair-1950:cba9a06df4b3"
+      },
+      "warnings": [],
+      "durationMs": 2129,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "hans-wegner-wishbone-chair-1950",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://commo\r\nns.wikimedia.org/wiki/Special:FilePath/Hans_J_Wegner_Wishbone_Chair.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org\r\n/wiki/File:Hans_J_Wegner_Wishbone_Chair.jpg",
+          "sourceType": "wikimedia",
+          "caption": "Hans J. Wegner Wishbone Chair, \r\ndesigned in 1949 and manufactured in 1950.",
+          "identityEvidence": [
+            "Official museum exhibition page identifies the \r\nWishbone chair by Hans J. Wegner and dates it to 1950.",
+            "Wikimedia Commons identifies the depicted chair as Hans \r\nWegner’s Wishbone Chair, manufactured in 1950."
+          ],
+          "confidence": 0.93
+        },
+        "alternatives": [],
+        "limitations": [
+          "The image \r\ndepicts the chair design but not demonstrably the Designmuseum Danmark specimen."
+        ]
+      },
+      "originalStatus": "object_image_accepted"
+    },
+    {
+      "workId": "verner-panton-panton-chair-1960-1967",
+      "identity": {
+        "museumId": "designmuseum-danmark",
+        "workId": "verner-panton-panton-chair-1960-1967",
+        "title": "Panton Chair",
+        "objectType": "single_work",
+        "titleZh": "潘顿椅",
+        "titleEn": "Panton Chair",
+        "creator": "Verner Panton",
+        "artistOrCulture": "Verner Panton",
+        "displayDate": "1960/1967–68",
+        "medium": "plastic",
+        "identityAnchor": "qr-site-23-verner-panton-panton-chair-1960-1967-68",
+        "officialObjectUrl": "https://designmuseum.dk/qr-site/23-verner-panton-panton-chair-1960-1967-68/",
+        "identitySourceUrl": "https://designmuseum.dk/qr-site/23-verner-panton-panton-chair-1960-1967-68/",
+        "accessionNumber": null,
+        "collectionGroup": "Furniture"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "23. Verner Panton, Panton Chair, 1960/1967-68 - Designmuseum Danmark",
+        "finalUrl": "https://designmuseum.dk/qr-site/23-verner-panton-panton-chair-1960-1967-68/",
+        "fastCandidate": null,
+        "excludedImageUrls": [],
+        "fastPageSignals": []
+      },
+      "status": "accepted",
+      "objectImageResolved": false,
+      "imagePolicy": "museum_hero_placeholder",
+      "selected": {
+        "url": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+        "localPath": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+        "sha256": "27cc4b90591e8ea5aa77180b12e2399dd732f93b1535f2d4f6de219c10d34759",
+        "width": 1362,
+        "height": 1362,
+        "contentType": "image/jpeg",
+        "method": "museum_hero_placeholder",
+        "provider": "locked_museum_hero",
+        "identitySignals": [
+          "museum_level_context_only"
+        ],
+        "evidenceId": "img:designmuseum-danmark:museum-hero:27cc4b90591e"
+      },
+      "warnings": [
+        "AI candidate download failed: image returned 429"
+      ],
+      "durationMs": 1652,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "verner-panton-panton-chair-1960-1967",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:Fi\r\nlePath/Panton_Chair_by_Verner_Panton.JPG",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Panton_Chair_by_Vern\r\ner_Panton.JPG",
+          "sourceType": "wikimedia",
+          "caption": "Panton Chair by Verner Panton.",
+          "identityEvidence": [
+            "Official \r\nmuseum QR page identifies Verner Panton’s Panton Chair, 1960/1967–68, as a one-piece plastic chair.",
+            "Wikimedia \r\nCommons file explicitly identifies the depicted object as a Panton Chair by Verner \r\nPanton."
+          ],
+          "confidence": 0.96
+        },
+        "alternatives": [],
+        "limitations": [
+          "The image depicts the chair design but not demonstrably \r\nthe Designmuseum Danmark specimen."
+        ]
+      },
+      "originalStatus": "object_image_unresolved"
+    },
+    {
+      "workId": "finn-juhl-butterfly-coffee-table-prototype-1949",
+      "identity": {
+        "museumId": "designmuseum-danmark",
+        "workId": "finn-juhl-butterfly-coffee-table-prototype-1949",
+        "title": "Butterfly coffee table (prototype)",
+        "objectType": "prototype",
+        "titleZh": "蝴蝶咖啡桌（原型）",
+        "titleEn": "Butterfly coffee table (prototype)",
+        "creator": "Finn Juhl",
+        "artistOrCulture": "Finn Juhl",
+        "displayDate": "1949",
+        "medium": "coffee table; material not specified on the official object page",
+        "identityAnchor": "director-choice-finn-juhl-butterfly-coffee-table-prototype-1949",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+        "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+        "accessionNumber": null,
+        "collectionGroup": "Furniture and design archive"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Director's Choice - Design Museum Denmark",
+        "finalUrl": "https://designmuseum.dk/en/directors-choice/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "data:image/png;base64,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",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg=="
+        ],
+        "fastPageSignals": []
+      },
+      "status": "accepted",
+      "objectImageResolved": false,
+      "imagePolicy": "museum_hero_placeholder",
+      "selected": {
+        "url": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+        "localPath": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+        "sha256": "27cc4b90591e8ea5aa77180b12e2399dd732f93b1535f2d4f6de219c10d34759",
+        "width": 1362,
+        "height": 1362,
+        "contentType": "image/jpeg",
+        "method": "museum_hero_placeholder",
+        "provider": "locked_museum_hero",
+        "identitySignals": [
+          "museum_level_context_only"
+        ],
+        "evidenceId": "img:designmuseum-danmark:museum-hero:27cc4b90591e"
+      },
+      "warnings": [
+        "The official page confirms the prototype’s identity, but no \r\nsufficiently verifiable direct image bound to this exact prototype was found."
+      ],
+      "durationMs": 2881,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "finn-juhl-butterfly-coffee-table-prototype-1949",
+        "status": "not_found",
+        "selectedCandidate": null,
+        "alternatives": [],
+        "limitations": [
+          "The official page confirms the prototype’s identity, but no \r\nsufficiently verifiable direct image bound to this exact prototype was found."
+        ]
+      },
+      "originalStatus": "object_image_unresolved"
+    },
+    {
+      "workId": "arne-jacobsen-ant-chair-1952",
+      "identity": {
+        "museumId": "designmuseum-danmark",
+        "workId": "arne-jacobsen-ant-chair-1952",
+        "title": "The Ant",
+        "objectType": "single_work",
+        "titleZh": "蚂蚁椅",
+        "titleEn": "The Ant",
+        "creator": "Arne Jacobsen",
+        "artistOrCulture": "Arne Jacobsen",
+        "displayDate": "1952",
+        "medium": "chair; material not specified on the official exhibition page",
+        "identityAnchor": "danish-chair-ant-arne-jacobsen-1952",
+        "officialObjectUrl": "https://designmuseum.dk/en/the-danish-chair/",
+        "identitySourceUrl": "https://designmuseum.dk/en/the-danish-chair/",
+        "accessionNumber": null,
+        "collectionGroup": "Furniture"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "The Danish Chair - Design Museum Denmark",
+        "finalUrl": "https://designmuseum.dk/en/the-danish-chair/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "data:image/png;base64,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",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII="
+        ],
+        "fastPageSignals": []
+      },
+      "status": "accepted",
+      "objectImageResolved": false,
+      "imagePolicy": "museum_hero_placeholder",
+      "selected": {
+        "url": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+        "localPath": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+        "sha256": "27cc4b90591e8ea5aa77180b12e2399dd732f93b1535f2d4f6de219c10d34759",
+        "width": 1362,
+        "height": 1362,
+        "contentType": "image/jpeg",
+        "method": "museum_hero_placeholder",
+        "provider": "locked_museum_hero",
+        "identitySignals": [
+          "museum_level_context_only"
+        ],
+        "evidenceId": "img:designmuseum-danmark:museum-hero:27cc4b90591e"
+      },
+      "warnings": [
+        "AI candidate download failed: image returned 429"
+      ],
+      "durationMs": 2740,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "arne-jacobsen-ant-chair-1952",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Desi\r\ngn_Museum_Danmark_-_Ant_chair.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Design_Museum_Danmark_-_Ant\r\n_chair.jpg",
+          "sourceType": "wikimedia",
+          "caption": "Ant chair at Design Museum Danmark, designed by Arne \r\nJacobsen.",
+          "identityEvidence": [
+            "Official museum exhibition page identifies The Ant by Arne Jacobsen, dated \r\n1952.",
+            "Wikimedia Commons file is explicitly titled Design Museum Danmark - Ant chair and depicts Arne Jacobsen’s Ant c\r\nhair."
+          ],
+          "confidence": 0.98
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "originalStatus": "object_image_unresolved"
+    },
+    {
+      "workId": "katrine-bendixen-inside-out-lamp-2019",
+      "identity": {
+        "museumId": "designmuseum-danmark",
+        "workId": "katrine-bendixen-inside-out-lamp-2019",
+        "title": "Inside Out, lamp",
+        "objectType": "installation",
+        "titleZh": "《由内而外》灯具",
+        "titleEn": "Inside Out, lamp",
+        "creator": "Katrine Barbro Bendixen",
+        "artistOrCulture": "Katrine Barbro Bendixen",
+        "displayDate": "2019",
+        "medium": "lamp; surrounding material not specified on the official object page",
+        "identityAnchor": "director-choice-katrine-bendixen-inside-out-lamp-2019",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+        "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+        "accessionNumber": null,
+        "collectionGroup": "Product design"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Director's Choice - Design Museum Denmark",
+        "finalUrl": "https://designmuseum.dk/en/directors-choice/",
+        "fastCandidate": null,
+        "excludedImageUrls": [],
+        "fastPageSignals": []
+      },
+      "status": "accepted",
+      "objectImageResolved": false,
+      "imagePolicy": "museum_hero_placeholder",
+      "selected": {
+        "url": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+        "localPath": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+        "sha256": "27cc4b90591e8ea5aa77180b12e2399dd732f93b1535f2d4f6de219c10d34759",
+        "width": 1362,
+        "height": 1362,
+        "contentType": "image/jpeg",
+        "method": "museum_hero_placeholder",
+        "provider": "locked_museum_hero",
+        "identitySignals": [
+          "museum_level_context_only"
+        ],
+        "evidenceId": "img:designmuseum-danmark:museum-hero:27cc4b90591e"
+      },
+      "warnings": [
+        "The official page confirms the installation \r\nidentity, but no sufficiently verifiable image URL bound to the exact museum work was found."
+      ],
+      "durationMs": 2102,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "katrine-bendixen-inside-out-lamp-2019",
+        "statu\r\ns": "not_found",
+        "selectedCandidate": null,
+        "alternatives": [],
+        "limitations": [
+          "The official page confirms the installation \r\nidentity, but no sufficiently verifiable image URL bound to the exact museum work was found."
+        ]
+      },
+      "originalStatus": "object_image_unresolved"
+    },
+    {
+      "workId": "bang-olufsen-beogram-4000-1972",
+      "identity": {
+        "museumId": "designmuseum-danmark",
+        "workId": "bang-olufsen-beogram-4000-1972",
+        "title": "Beogram 4000",
+        "objectType": "single_work",
+        "titleZh": "Beogram 4000 唱片机",
+        "titleEn": "Beogram 4000",
+        "creator": "B&O",
+        "artistOrCulture": "B&O",
+        "displayDate": "1972",
+        "medium": "industrial product; material not specified on the official collection page",
+        "identityAnchor": "collection-industrial-design-beogram-4000-bo-1972",
+        "officialObjectUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+        "identitySourceUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+        "accessionNumber": null,
+        "collectionGroup": "Industrial design"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Objects & collections - Design Museum Denmark",
+        "finalUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "data:image/png;base64,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",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg=="
+        ],
+        "fastPageSignals": []
+      },
+      "status": "accepted",
+      "objectImageResolved": false,
+      "imagePolicy": "museum_hero_placeholder",
+      "selected": {
+        "url": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2026/06/DSC00554-e1778065012459.jpg",
+        "localPath": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/assets/museum-hero-placeholder.jpg",
+        "sha256": "27cc4b90591e8ea5aa77180b12e2399dd732f93b1535f2d4f6de219c10d34759",
+        "width": 1362,
+        "height": 1362,
+        "contentType": "image/jpeg",
+        "method": "museum_hero_placeholder",
+        "provider": "locked_museum_hero",
+        "identitySignals": [
+          "museum_level_context_only"
+        ],
+        "evidenceId": "img:designmuseum-danmark:museum-hero:27cc4b90591e"
+      },
+      "warnings": [
+        "AI candidate download failed: image returned 429"
+      ],
+      "durationMs": 2517,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "bang-olufsen-beogram-4000-1972",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://commons.wikimedia.org/wiki/Spec\r\nial:FilePath/B%26O_Beogram_4000.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:B%26O_Beogram_4000.jpg",
+          "\r\nsourceType": "wikimedia",
+          "caption": "B&O Beogram 4000, designed by Jacob Jensen, 1972.",
+          "identityEvidence": [
+            "Official \r\nmuseum collection page identifies the Beogram 4000 by B&O, dated 1972.",
+            "Wikimedia Commons file explicitly identifies \r\na B&O Beogram 4000 and dates the design to 1972."
+          ],
+          "confidence": 0.95
+        },
+        "alternatives": [],
+        "limitations": [
+          "The image \r\ndepicts the same model but not demonstrably the Designmuseum Danmark specimen."
+        ]
+      },
+      "originalStatus": "object_image_unresolved"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "arne-jacobsen-ant-chair-1952",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Danish Chair - An International Affair",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/the-danish-chair/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "museumContext",
+        "exhibitionContext"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Arne Jacobsen, 3100, Myren, 1952",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/qr-site/20-arne-jacobsen-3100-myren-1952/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "originalUse",
+        "legConfiguration"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "The Ant",
+      "publisher": "Arne Jacobsen Design",
+      "url": "https://arnejacobsen.com/works/the-ant/",
+      "sourceType": "other",
+      "usedFor": [
+        "date",
+        "creator",
+        "originalUse",
+        "manufacture",
+        "material",
+        "productionProcess",
+        "legConfiguration",
+        "quote"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Ant™ - Chair with focus on strength and comfort",
+      "publisher": "Fritz Hansen",
+      "url": "https://www.fritzhansen.com/en/categories/products/popular-series/ant",
+      "sourceType": "other",
+      "usedFor": [
+        "material",
+        "manufacture",
+        "production",
+        "modelHistory"
+      ]
+    }
+  ],
+  "directQuotes": [
+    {
+      "quote": "Why should a chair have four legs when three are enough?",
+      "speaker": "Arne Jacobsen",
+      "sourceId": "S3"
+    }
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "《蚂蚁椅》是第一把工业化批量生产、座面与椅背一体的木椅。",
+      "type": "first_or_earliest",
+      "sourceIds": [
+        "S2",
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "馆藏编号与收藏史",
+      "statement": "锁定的 Designmuseum Danmark 官方展览页及对应 QR 页面公开了作品身份、设计者与年代，但未显示该件实物的馆藏号、入藏时间或完整收藏史。"
+    },
+    {
+      "topic": "材质归属",
+      "statement": "馆方 QR 页面将其称为木椅并说明座面与椅背为一体；九层压力模压木皮与钢腿来自 Fritz Hansen 的型号资料，未能从馆方页面确认这一具体馆藏实物的完整材料清单。"
+    },
+    {
+      "topic": "当前展出状态",
+      "statement": "馆方页面说明《丹麦椅子》展览自2016年起长期展出，但未提供本次访问时该件具体是否在场的实时状态，因此保留 display_status_unknown。"
+    }
+  ],
+  "upstreamConflicts": []
+}

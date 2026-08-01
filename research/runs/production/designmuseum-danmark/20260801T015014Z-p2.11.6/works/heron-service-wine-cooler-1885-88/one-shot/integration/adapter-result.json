@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "status": "warning",
+  "publicationWarnings": [
+    {
+      "code": "ARTICLE_TITLE_DRIFT",
+      "message": "Article title does not match locked metadata",
+      "matches": [
+        "# 《《苍鹭餐具》酒桶》 / The Heron Service, wine cooler"
+      ]
+    },
+    {
+      "code": "OFFICIAL_SOURCE_COVERAGE",
+      "message": "Official museum sources do not cover material",
+      "matches": [
+        "material"
+      ]
+    }
+  ],
+  "modelCalls": 0,
+  "previousFailure": "VERIFICATION_FAILED",
+  "rules": {
+    "card": "first non-empty paragraph under ## 一分钟看懂",
+    "draft": "byte-for-byte copy of output/article.md",
+    "displayMetadata": "deterministic mapping from input/locked-metadata.json",
+    "sources": "validated structural copy of output/sources.json"
+  },
+  "inputHashes": {
+    "lockedMetadata": "51933996bce0ce35e3ec332fb135e1a810bde670d4bff6c377d213016faaa136",
+    "article": "baac34cd550c9dcfce94e45947f7e2a92d24afaaa81ac2365a88f6a96a6e0cfd",
+    "sources": "0bfc1ed7600e0035b42a15a92dade45f9721e384fa0ad9b624007262a67e9047",
+    "verification": "870457d701c5a5ce124a78eca7eb20e43ca5e80933fa64dd835c249132a44477"
+  },
+  "outputHashes": {
+    "card.txt": "b2b3fcb82c3ceaa996f2991c71a87c0351b594c795a05d3f14a4aea9571887c9",
+    "draft.md": "baac34cd550c9dcfce94e45947f7e2a92d24afaaa81ac2365a88f6a96a6e0cfd",
+    "display-metadata.json": "f0702496032e5fe259a5db0bd244827c8b02ba993da69d77f6cd8d9e27cbe748",
+    "sources.json": "0bfc1ed7600e0035b42a15a92dade45f9721e384fa0ad9b624007262a67e9047"
+  }
+}

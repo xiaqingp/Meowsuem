@@ -1,0 +1,17 @@
+{
+  "id": "PCR-2026-08-01-image-repair-promotion",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-01",
+  "ownerInstruction": "Repair the other Designmuseum Danmark works after the portrait test passed.",
+  "baseRelease": "research/pipeline/releases/v2.13.10.json",
+  "targetVersion": "2.13.11",
+  "implementationStatus": "completed",
+  "scope": ["mechanically promote a complete verified image-repair run into museum assets and image fields"],
+  "outOfScope": ["rewriting museum prose"],
+  "allowedCanonicalFiles": ["scripts/promote-image-repair.mjs"],
+  "verification": {
+    "status": "pending",
+    "commands": ["node scripts/test-promote-image-repair.mjs", "node scripts/freeze-pipeline-release.mjs"]
+  }
+}

@@ -133,7 +133,7 @@ if ($manifest -and [string]$header.stage -eq 'author') {
 if ($manifest -and [string]$header.stage -eq 'image_disambiguation') {
     $inputContract = $manifest.stageInputContracts.imageDisambiguation
     if (-not $inputContract) { throw 'manifest is missing the image disambiguation input contract' }
-    $twoLevelImageResearch = [string]$header.imageResearchMode -in @('two_level', 'page_selection_v2')
+    $twoLevelImageResearch = [string]$header.imageResearchMode -in @('two_level', 'page_selection_v2', 'official_page_plan_v1')
     $requiredImageRoles = if ($twoLevelImageResearch) { @('image_candidate_packet') } else { @($inputContract.requiredRoles) }
     $roles = @($header.allowedInputs | ForEach-Object { [string]$_.role })
     foreach ($required in $requiredImageRoles) {
@@ -240,12 +240,12 @@ if ($manifest -and [string]$header.pipelineVersion -eq [string]$manifest.pipelin
     }
     foreach ($imageWork in $imageWorks) {
         $imageCandidates = @($imageWork.candidates)
-        $minimumCandidates = if ([string]$header.imageResearchMode -in @('two_level', 'page_selection_v2')) { 0 } else { 2 }
+        $minimumCandidates = if ([string]$header.imageResearchMode -in @('two_level', 'page_selection_v2', 'official_page_plan_v1')) { 0 } else { 2 }
         if ($imageCandidates.Count -lt $minimumCandidates -or $imageCandidates.Count -gt [int]$inputContract.maxCandidatesPerWork) {
             throw 'each image disambiguation work must have two to five candidates'
         }
         foreach ($candidate in $imageCandidates) {
-            if ([string]$header.imageResearchMode -in @('two_level', 'page_selection_v2') -and [string]::IsNullOrWhiteSpace([string]$candidate.localPath)) { continue }
+            if ([string]$header.imageResearchMode -in @('two_level', 'page_selection_v2', 'official_page_plan_v1') -and [string]::IsNullOrWhiteSpace([string]$candidate.localPath)) { continue }
             $candidatePath = [IO.Path]::GetFullPath((Join-Path $project ([string]$candidate.localPath)))
             if (-not $candidatePath.StartsWith($project + [IO.Path]::DirectorySeparatorChar, [StringComparison]::OrdinalIgnoreCase)) {
                 throw 'image candidate escaped project root'
@@ -277,7 +277,7 @@ if ($ValidateOnly) {
 }
 
 if (-not $RecordOutputsOnly) {
-    $fixedInstruction = if ([string]$header.imageResearchMode -eq 'page_selection_v2') { @'
+    $fixedInstruction = if ([string]$header.imageResearchMode -in @('page_selection_v2', 'official_page_plan_v1')) { @'
 You are executing Meowseum's page-image selection retry stage. The runner has validated a locked packet containing the exact failed works, their source pages, and mechanically enumerated page-image candidates. For every work, inspect the supplied source page with web tools when useful, then select exactly one candidateId from that work's candidate list. A sourcePageUrl is a web page, not an image; never return it as imageUrl. Select a direct_image candidate only when its candidate URL is a concrete image resource. If the best evidence is a uniquely identifiable page image element, select candidateType page_image_element and still return its candidateId. Use imageRole object_view for a direct view of the work, installation_view for a room-scale installation view, context_view or architecture_view for context, museum_only only when the image is only a generic museum image (the code will reject it for an object). Do not invent candidate IDs or URLs.
 
 Return exactly one JSON object and nothing else:
@@ -308,6 +308,9 @@ Follow the stage in the run header exactly. The museum_scope, museum_candidate_p
     '--disable', 'plugin_sharing', '--disable', 'remote_plugin',
     '--color', 'never', '-'
     )
+    if ([string]$header.imageResearchMode -in @('two_level','page_selection_v2','official_page_plan_v1')) {
+        $arguments = @($arguments[0..($arguments.Count - 2)]) + @('--output-last-message', (Join-Path $run 'image-decisions.json'), '-')
+    }
 
     $oldOutputEncoding = $OutputEncoding
     $oldErrorActionPreference = $ErrorActionPreference
@@ -341,7 +344,7 @@ Follow the stage in the run header exactly. The museum_scope, museum_candidate_p
 # Two-level image research asks for a single JSON response. Codex may print that
 # response instead of writing the declared file; promote only the exact image
 # research envelope, never arbitrary log text.
-if ([string]$header.imageResearchMode -in @('two_level','page_selection_v2')) {
+if ([string]$header.imageResearchMode -in @('two_level','page_selection_v2','official_page_plan_v1')) {
     $expectedImageWorks = 0
     try { $expectedImageWorks = @((($imageCandidatePacketText | ConvertFrom-Json).works)).Count } catch { $expectedImageWorks = 0 }
     foreach ($output in $outputPaths) {

@@ -9,7 +9,9 @@ Write only `structure.json` with `schemaVersion`, `museumId`, `museum`,
 
 Use exactly three route IDs: `90`, `half`, and `all`. Every route contains
 `title`, `note`, and `workIds`. Chapters contain `id`, `number`, `title`,
-`intro`, and `workIds`. `museum` may contain concise museum-level narrative,
-but not publication paths, image guesses, article bodies, drafts, cards,
-Research Cards, or Writing Plans. The deterministic publication plan stage,
-after verified image evidence exists, owns the final assembly shell.
+`intro`, and `workIds`. `museum` must contain `name` as non-empty `{zh, en}`,
+`specialFocus` (why this museum is distinctive), and `actionConclusion` (the visitor-facing travel conclusion).
+It may also contain `fit`, `limits`, and `timePlanning`, but not publication
+paths, image guesses, article bodies, drafts, cards, Research Cards, or Writing
+Plans. The deterministic publication plan stage, after verified image evidence
+exists, owns the final assembly shell.

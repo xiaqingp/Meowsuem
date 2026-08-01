@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "hans-wegner-wishbone-chair-1950",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Danish Chair - An International Affair",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/the-danish-chair/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "significance",
+        "collectionRelation",
+        "artist_quote"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Hans J. Wegner - Wishbone Chair",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/771289",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "manufacturer",
+        "date",
+        "material",
+        "history",
+        "production"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "CH24 | Wishbone Chair",
+      "publisher": "Carl Hansen & Søn",
+      "url": "https://www.carlhansen.com/en/en/collection/chairs/dining-chairs/ch24",
+      "sourceType": "other",
+      "usedFor": [
+        "creator",
+        "date",
+        "material",
+        "construction",
+        "making_process",
+        "production"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Armstol - Hans J. Wegner / Carl Hansen & Søn Møbelfabrikk a/s",
+      "publisher": "Nasjonalmuseet",
+      "url": "https://www.nasjonalmuseet.no/en/collection/object/OK-1978-0217A",
+      "sourceType": "museum",
+      "usedFor": [
+        "date",
+        "material",
+        "construction",
+        "production_place"
+      ]
+    }
+  ],
+  "directQuotes": [
+    {
+      "quote": "The chair is the closest thing to a human being. You can give it a personal expression.",
+      "speaker": "Hans J. Wegner",
+      "sourceId": "S1"
+    }
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "Wishbone 椅是韦格纳以明代椅上人物肖像为起点的一组椅子设计中的最后一件。",
+      "type": "other",
+      "sourceIds": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "CH24 Wishbone 椅自1950年起持续按同一设计标准生产。",
+      "type": "other",
+      "sourceIds": [
+        "S2",
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "官方对象页范围",
+      "statement": "锁定的 Designmuseum Danmark 页面是《The Danish Chair - An International Affair》的展览介绍，未提供这件 Wishbone 椅的单件馆藏号、材料字段或实时展出状态。"
+    },
+    {
+      "topic": "材料与版本",
+      "statement": "材料信息由其他博物馆的同款记录及制造商的 CH24 页面补足；具体示例的木材种类和表面处理可能因版本而异。"
+    }
+  ],
+  "upstreamConflicts": []
+}

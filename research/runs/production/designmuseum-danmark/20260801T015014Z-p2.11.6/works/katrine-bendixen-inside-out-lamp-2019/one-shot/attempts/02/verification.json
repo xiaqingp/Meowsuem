@@ -1,0 +1,80 @@
+{
+  "status": "failed",
+  "errors": [
+    {
+      "code": "SOURCES_SCHEMA",
+      "message": "$.upstreamConflicts[0].lockedValue is required",
+      "matches": [],
+      "severity": "error"
+    },
+    {
+      "code": "SOURCES_SCHEMA",
+      "message": "$.upstreamConflicts[0].observedValue is required",
+      "matches": [],
+      "severity": "error"
+    },
+    {
+      "code": "SOURCES_SCHEMA",
+      "message": "$.upstreamConflicts[0].explanation is required",
+      "matches": [],
+      "severity": "error"
+    },
+    {
+      "code": "ARTICLE_TITLE_DRIFT",
+      "message": "Article title does not match locked metadata",
+      "matches": [
+        "# 《《由内而外》灯具》 / Inside Out, lamp"
+      ],
+      "severity": "error"
+    },
+    {
+      "code": "UNSUPPORTED_HIGH_RISK_CLAIM",
+      "message": "Strong factual claim lacks a valid source record",
+      "matches": [
+        "这不一定是设计师唯一的解释，但它提供了一条很有力的观看路径"
+      ],
+      "severity": "error"
+    },
+    {
+      "code": "UNSUPPORTED_DISPLAY_STATUS",
+      "message": "Current display status is stated as certain although metadata is not confirmed",
+      "matches": [],
+      "severity": "error"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "BROAD_EVALUATION",
+      "message": "Broad evaluative wording is not a hard failure",
+      "matches": [
+        "经典"
+      ],
+      "severity": "warning"
+    }
+  ],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": false,
+    "identityLocked": false,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": false,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": false,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "一盏灯，为什么会让人先问“它是什么”",
+    "材料没有被驯服，而是参与了造型",
+    "从“被丢弃的内脏”到设计语言",
+    "它为什么属于设计博物馆"
+  ],
+  "sourceCount": 4,
+  "articleBytes": 6337,
+  "sourcesBytes": 2503
+}

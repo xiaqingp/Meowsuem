@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "filesystemContractVersion": 1,
+  "runKind": "production",
+  "runId": "20260801T015014Z-p2.11.6",
+  "museumId": "designmuseum-danmark",
+  "milestone": "2026-07-31-designmuseum-danmark-production",
+  "pipelineVersion": "2.11.6",
+  "instructionVersion": "2.4.0",
+  "status": "published",
+  "createdAt": "2026-08-01T01:50:14.839Z",
+  "createdBy": "scripts/create-generation-run.mjs",
+  "layoutVersion": 1,
+  "immutable": true,
+  "contentContract": "one_shot_v1",
+  "allowLegacyAuthorBundles": false,
+  "legacyWorkIds": [],
+  "legacyImageResolutionAllowed": false,
+  "updatedAt": "2026-08-01T05:12:00.000Z",
+  "publicationMode": "warning",
+  "publicationPipelineVersion": "2.11.7"
+}

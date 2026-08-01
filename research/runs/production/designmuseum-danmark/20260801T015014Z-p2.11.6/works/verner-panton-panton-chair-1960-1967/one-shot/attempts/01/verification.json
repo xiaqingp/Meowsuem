@@ -1,0 +1,66 @@
+{
+  "status": "failed",
+  "errors": [
+    {
+      "code": "SOURCES_SCHEMA",
+      "message": "$.upstreamConflicts[0].lockedValue is required",
+      "matches": [],
+      "severity": "error"
+    },
+    {
+      "code": "SOURCES_SCHEMA",
+      "message": "$.upstreamConflicts[0].observedValue is required",
+      "matches": [],
+      "severity": "error"
+    },
+    {
+      "code": "SOURCES_SCHEMA",
+      "message": "$.upstreamConflicts[0].explanation is required",
+      "matches": [],
+      "severity": "error"
+    },
+    {
+      "code": "UNSUPPORTED_HIGH_RISK_CLAIM",
+      "message": "Strong factual claim lacks a valid source record",
+      "matches": [
+        "潘顿椅的时间写成“1960/1967–68”，并不是日期含糊，而是它经历了从想法到产品的不同阶段：博物馆说明，潘顿在1960年制作了第一件原型，几年后才由Vitra推进生产；相关设计档案则把更早的构想追溯到20世纪50年代末"
+      ],
+      "severity": "error"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "BROAD_EVALUATION",
+      "message": "Broad evaluative wording is not a hard failure",
+      "matches": [
+        "重要",
+        "经典"
+      ],
+      "severity": "warning"
+    }
+  ],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": false,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": false,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "一把椅子，为什么要换掉木匠的老办法？",
+    "一条曲线，背后是很多次失败",
+    "从S形木椅到塑料经典"
+  ],
+  "sourceCount": 5,
+  "articleBytes": 5172,
+  "sourcesBytes": 3833
+}

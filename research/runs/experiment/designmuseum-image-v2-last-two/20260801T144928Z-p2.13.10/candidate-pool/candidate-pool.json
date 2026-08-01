@@ -1,0 +1,887 @@
+{
+  "schemaVersion": "1.0",
+  "museumId": "designmuseum-danmark",
+  "museumName": "Designmuseum Danmark",
+  "candidates": [
+    {
+      "workId": "portrait-pietro-krohn-1887",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Portrait of Pietro Krohn", "zh": "彼得罗·克龙肖像"},
+        "artistOrCulture": "Peder Severin Krøyer",
+        "displayDate": "1887",
+        "medium": "not specified on the official object page",
+        "identityAnchor": "director-choice-portrait-pietro-krohn-1887",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/"
+      },
+      "identityAnchor": "director-choice-portrait-pietro-krohn-1887",
+      "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+      "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+      "collectionGroup": "Art and design history",
+      "selectionRationale": "Connects the museum’s founding institutional history with the people who shaped Danish arts-and-crafts culture.",
+      "riskFlags": [],
+      "riskRationale": "The official museum page gives a named object, artist and date.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named object appears with an image on the official Director’s Choice page."}
+    },
+    {
+      "workId": "tang-grave-figure-woman-long-robe",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Grave figure: woman in a long robe", "zh": "长袍女性墓俑"},
+        "artistOrCulture": "Unknown artist, Tang dynasty, China",
+        "displayDate": "618–906",
+        "medium": "clay with red, green and black paint",
+        "identityAnchor": "director-choice-grave-figure-woman-long-robe-618-906",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/"
+      },
+      "identityAnchor": "director-choice-grave-figure-woman-long-robe-618-906",
+      "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+      "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+      "collectionGroup": "East Asian collections",
+      "selectionRationale": "Adds an early Chinese object and the museum’s East Asian historical depth to a route otherwise dominated by modern design.",
+      "riskFlags": [],
+      "riskRationale": "The official museum page gives a named object, culture and date.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named object appears with an image on the official Director’s Choice page."}
+    },
+    {
+      "workId": "syria-glass-bottle-9th-century",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Bottle", "zh": "瓶"},
+        "artistOrCulture": "Unknown artist, Syria",
+        "displayDate": "9th century",
+        "medium": "iridescent glass",
+        "identityAnchor": "director-choice-bottle-syria-9th-century",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/"
+      },
+      "identityAnchor": "director-choice-bottle-syria-9th-century",
+      "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+      "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+      "collectionGroup": "Glass",
+      "selectionRationale": "Provides a compact historical glass object and a material-focused counterpoint to later industrial design.",
+      "riskFlags": [],
+      "riskRationale": "The official museum page gives a named object, culture, date and material.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named object appears with an image on the official Director’s Choice page."}
+    },
+    {
+      "workId": "chinese-jug-handle-spout-yongle",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Jug with handle and spout", "zh": "带把手与流口的壶"},
+        "artistOrCulture": "Unknown artist, Ming dynasty, Yongle period, China",
+        "displayDate": "1403–24",
+        "medium": "not specified on the official object page",
+        "identityAnchor": "director-choice-chinese-jug-handle-spout-1403-24",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/"
+      },
+      "identityAnchor": "director-choice-chinese-jug-handle-spout-1403-24",
+      "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+      "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+      "collectionGroup": "East Asian collections",
+      "selectionRationale": "Represents the museum’s Chinese holdings and a documented exchange between Chinese and Middle Eastern forms.",
+      "riskFlags": [],
+      "riskRationale": "The official museum page gives a named object, culture and date.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named object appears with an image on the official Director’s Choice page."}
+    },
+    {
+      "workId": "verdure-tapestry-thistles-c1500",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Verdure tapestry with thistles", "zh": "带蓟草纹样的绿色风景挂毯"},
+        "artistOrCulture": "Flanders",
+        "displayDate": "c. 1500",
+        "medium": "tapestry",
+        "identityAnchor": "director-choice-verdure-tapestry-thistles-c1500",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/"
+      },
+      "identityAnchor": "director-choice-verdure-tapestry-thistles-c1500",
+      "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+      "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+      "collectionGroup": "Western crafts and textiles",
+      "selectionRationale": "Shows the pre-modern craft and interior-history layer behind the museum’s later design collections.",
+      "riskFlags": [],
+      "riskRationale": "The official museum page gives a named object, region and approximate date.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named object appears with an image on the official Director’s Choice page."}
+    },
+    {
+      "workId": "nautilus-goblet-mid-17th-century",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Nautilus goblet", "zh": "鹦鹉螺高脚杯"},
+        "artistOrCulture": "Unknown origin",
+        "displayDate": "probably mid-17th century",
+        "medium": "carved, engraved and ink-washed nautilus shell with mother-of-pearl base",
+        "identityAnchor": "director-choice-nautilus-goblet-mid-17th-century",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/"
+      },
+      "identityAnchor": "director-choice-nautilus-goblet-mid-17th-century",
+      "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+      "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+      "collectionGroup": "Western crafts and decorative arts",
+      "selectionRationale": "Makes collecting, natural materials and elaborate early-modern display objects part of the museum’s design story.",
+      "riskFlags": [],
+      "riskRationale": "The official museum page gives a named object, material and qualified date.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named object appears with an image on the official Director’s Choice page."}
+    },
+    {
+      "workId": "meissen-rat-snuffbox-c1750",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Snuffbox in the shape of a rat", "zh": "老鼠形鼻烟壶"},
+        "artistOrCulture": "Unknown artist, Meissen, Germany",
+        "displayDate": "c. 1750",
+        "medium": "not specified on the official object page",
+        "identityAnchor": "director-choice-meissen-rat-snuffbox-c1750",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/"
+      },
+      "identityAnchor": "director-choice-meissen-rat-snuffbox-c1750",
+      "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+      "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+      "collectionGroup": "Western crafts and decorative arts",
+      "selectionRationale": "Adds a small luxury object whose unusual form can explain how design carried social use and visual wit.",
+      "riskFlags": [],
+      "riskRationale": "The official museum page gives a named object, maker context and approximate date.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named object appears with an image on the official Director’s Choice page."}
+    },
+    {
+      "workId": "spengler-temple-spiral-staircase-1760",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Temple with a spiral staircase", "zh": "带螺旋楼梯的神殿"},
+        "artistOrCulture": "Lorentz Spengler",
+        "displayDate": "1760",
+        "medium": "not specified on the official object page",
+        "identityAnchor": "director-choice-temple-spiral-staircase-1760",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/"
+      },
+      "identityAnchor": "director-choice-temple-spiral-staircase-1760",
+      "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+      "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+      "collectionGroup": "Western crafts and decorative arts",
+      "selectionRationale": "Represents intricate handcraft and the museum’s interest in objects that make construction itself the subject.",
+      "riskFlags": [],
+      "riskRationale": "The official museum page gives a named object, maker and date.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named object appears with an image on the official Director’s Choice page."}
+    },
+    {
+      "workId": "flora-danica-four-sided-serving-dish",
+      "identity": {
+        "objectType": "series_member",
+        "title": {"en": "Four-sided serving dish from the Flora Danica service", "zh": "Flora Danica 餐具中的四边形餐盘"},
+        "artistOrCulture": "Flora Danica / Royal Copenhagen Porcelain Factory",
+        "displayDate": "1752–1803",
+        "medium": "painted porcelain with gold ornamentation",
+        "identityAnchor": "director-choice-flora-danica-four-sided-serving-dish-1752-1803",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/"
+      },
+      "identityAnchor": "director-choice-flora-danica-four-sided-serving-dish-1752-1803",
+      "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+      "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+      "collectionGroup": "Porcelain",
+      "selectionRationale": "Anchors the royal-service and botanical-classification strand of the porcelain collection.",
+      "riskFlags": [],
+      "riskRationale": "The official museum page gives the service name, object type, date and materials.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named object appears with an image on the official Director’s Choice page."}
+    },
+    {
+      "workId": "tsuba-sano-naoyoshi-c1775",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Tsuba, Japanese sword guard", "zh": "日本刀镡"},
+        "artistOrCulture": "Sano Naoyoshi, Japanese",
+        "displayDate": "c. 1775",
+        "medium": "metalwork",
+        "identityAnchor": "director-choice-tsuba-sano-naoyoshi-c1775",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/"
+      },
+      "identityAnchor": "director-choice-tsuba-sano-naoyoshi-c1775",
+      "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+      "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+      "collectionGroup": "Japanese crafts",
+      "selectionRationale": "Represents the museum’s named Japanese sword-ornament collection and the relationship between function, status and decoration.",
+      "riskFlags": [],
+      "riskRationale": "The official museum page gives a named object, maker, culture, date and material category.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named object appears with an image on the official Director’s Choice page."}
+    },
+    {
+      "workId": "michael-steen-vinaigrette-1791",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Vinaigrette", "zh": "香醋盒"},
+        "artistOrCulture": "Michael Steen, Norwegian",
+        "displayDate": "1791",
+        "medium": "silver",
+        "identityAnchor": "director-choice-michael-steen-vinaigrette-1791",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/"
+      },
+      "identityAnchor": "director-choice-michael-steen-vinaigrette-1791",
+      "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+      "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+      "collectionGroup": "Silver",
+      "selectionRationale": "Brings silverwork and the social codes of portable personal objects into the collection route.",
+      "riskFlags": [],
+      "riskRationale": "The official museum page gives a named object, maker, nationality, date and material.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named object appears with an image on the official Director’s Choice page."}
+    },
+    {
+      "workId": "malling-hansen-writing-ball-1870s",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Hansen Writing Ball", "zh": "汉森写字球"},
+        "artistOrCulture": "Rasmus Malling-Hansen",
+        "displayDate": "1870s",
+        "medium": "not specified on the official object page",
+        "identityAnchor": "director-choice-hansen-writing-ball-1870s",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/"
+      },
+      "identityAnchor": "director-choice-hansen-writing-ball-1870s",
+      "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+      "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+      "collectionGroup": "Industrial design",
+      "selectionRationale": "Provides an early Danish industrial-design object whose purpose is tied to communication and accessibility.",
+      "riskFlags": [],
+      "riskRationale": "The official museum page gives a named object, designer and approximate date.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named object appears with an image on the official Director’s Choice page."}
+    },
+    {
+      "workId": "heron-service-wine-cooler-1885-88",
+      "identity": {
+        "objectType": "series_member",
+        "title": {"en": "The Heron Service, wine cooler", "zh": "《苍鹭餐具》酒桶"},
+        "artistOrCulture": "Pietro Krohn, with Fanny Garde, Effie Hegermann-Lindencrone and Ludvig Brandstrup",
+        "displayDate": "1885–88",
+        "medium": "not specified on the official object page",
+        "identityAnchor": "director-choice-heron-service-wine-cooler-1885-88",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/"
+      },
+      "identityAnchor": "director-choice-heron-service-wine-cooler-1885-88",
+      "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+      "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+      "collectionGroup": "Porcelain",
+      "selectionRationale": "Shows collaborative production and Japanese influence within late nineteenth-century Danish decorative arts.",
+      "riskFlags": [],
+      "riskRationale": "The official museum page gives a named service component, date and credited makers.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named object appears with an image on the official Director’s Choice page."}
+    },
+    {
+      "workId": "gauguin-jug-self-portrait-1889",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Jug Self-portrait", "zh": "自画像壶"},
+        "artistOrCulture": "Paul Gauguin, French",
+        "displayDate": "1889",
+        "medium": "ceramic",
+        "identityAnchor": "director-choice-gauguin-jug-self-portrait-1889",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/"
+      },
+      "identityAnchor": "director-choice-gauguin-jug-self-portrait-1889",
+      "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+      "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+      "collectionGroup": "Ceramics",
+      "selectionRationale": "Tests the boundary between art and craft through a named ceramic work by a major modern artist.",
+      "riskFlags": [],
+      "riskRationale": "The official museum page gives a named object, artist, nationality, date and material.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named object appears with an image on the official Director’s Choice page."}
+    },
+    {
+      "workId": "lalique-pin-gold-enamel-opals-brilliants-1898-99",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Pin in gold enamel with opals and brilliants", "zh": "金珐琅、蛋白石与钻石胸针"},
+        "artistOrCulture": "René Jules Lalique, French",
+        "displayDate": "1898–99",
+        "medium": "gold enamel with opals and brilliants",
+        "identityAnchor": "director-choice-lalique-pin-gold-enamel-opals-brilliants-1898-99",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/"
+      },
+      "identityAnchor": "director-choice-lalique-pin-gold-enamel-opals-brilliants-1898-99",
+      "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+      "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+      "collectionGroup": "Jewellery and silver",
+      "selectionRationale": "Represents the museum’s jewellery holdings and its collecting history around the 1900 Paris Exposition.",
+      "riskFlags": [],
+      "riskRationale": "The official museum page gives a named object, artist, nationality, date and materials.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named object appears with an image on the official Director’s Choice page."}
+    },
+    {
+      "workId": "hegermann-lindencrone-porcelain-vase-1899-1900",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Porcelain vase", "zh": "瓷花瓶"},
+        "artistOrCulture": "Effie Hegermann-Lindencrone",
+        "displayDate": "1899–1900",
+        "medium": "pierced porcelain",
+        "identityAnchor": "director-choice-hegermann-lindencrone-porcelain-vase-1899-1900",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/"
+      },
+      "identityAnchor": "director-choice-hegermann-lindencrone-porcelain-vase-1899-1900",
+      "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+      "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+      "collectionGroup": "Ceramics",
+      "selectionRationale": "Adds an object acquired at the 1900 Paris Exposition and shows porcelain moving toward autonomous artistic form.",
+      "riskFlags": [],
+      "riskRationale": "The official museum page gives a named object, artist, date and material.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named object appears with an image on the official Director’s Choice page."}
+    },
+    {
+      "workId": "nilfisk-l10-vacuum-cleaner-1922",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Nilfisk vacuum cleaner, L10", "zh": "Nilfisk L10 吸尘器"},
+        "artistOrCulture": "Fisker & Nielsen A/S",
+        "displayDate": "1922",
+        "medium": "industrial product; material not specified on the official object page",
+        "identityAnchor": "director-choice-nilfisk-l10-vacuum-cleaner-1922",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/"
+      },
+      "identityAnchor": "director-choice-nilfisk-l10-vacuum-cleaner-1922",
+      "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+      "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+      "collectionGroup": "Industrial design",
+      "selectionRationale": "A clear bridge from Danish manufacturing history to everyday industrial design and domestic technology.",
+      "riskFlags": [],
+      "riskRationale": "The official museum page gives a named model, maker and date.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named object appears with an image on the official Director’s Choice page."}
+    },
+    {
+      "workId": "ph-lighting-system-5-5-1926",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Lamp, PH lighting system, 5/5", "zh": "PH 5/5 照明系统灯具"},
+        "artistOrCulture": "Poul Henningsen (PH)",
+        "displayDate": "1926",
+        "medium": "lighting product; material not specified on the official object page",
+        "identityAnchor": "director-choice-ph-lighting-system-5-5-1926",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/"
+      },
+      "identityAnchor": "director-choice-ph-lighting-system-5-5-1926",
+      "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+      "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+      "collectionGroup": "Product design",
+      "selectionRationale": "Links the museum building’s electrical history to a major Danish lighting-design lineage.",
+      "riskFlags": [],
+      "riskRationale": "The official museum page gives a named lamp, designer and date.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named object appears with an image on the official Director’s Choice page."}
+    },
+    {
+      "workId": "kaare-klint-red-chair-1927",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Red Chair", "zh": "红椅"},
+        "artistOrCulture": "Kaare Klint",
+        "displayDate": "1927",
+        "medium": "chair; material not specified on the official object page",
+        "identityAnchor": "director-choice-kaare-klint-red-chair-1927",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/"
+      },
+      "identityAnchor": "director-choice-kaare-klint-red-chair-1927",
+      "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+      "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+      "collectionGroup": "Furniture",
+      "selectionRationale": "Directly supports the museum’s institutional relationship with Kaare Klint and the historical-to-modern furniture transition.",
+      "riskFlags": [],
+      "riskRationale": "The official museum page gives a named chair, designer and date.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named object appears with an image on the official Director’s Choice page."}
+    },
+    {
+      "workId": "marie-gudme-leth-tree-pattern-1937",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Tree pattern", "zh": "树木图案"},
+        "artistOrCulture": "Marie Gudme Leth",
+        "displayDate": "1937",
+        "medium": "textile print; material not specified on the official object page",
+        "identityAnchor": "director-choice-marie-gudme-leth-tree-pattern-1937",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/"
+      },
+      "identityAnchor": "director-choice-marie-gudme-leth-tree-pattern-1937",
+      "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+      "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+      "collectionGroup": "Fashion and textile design",
+      "selectionRationale": "Ensures the route explains Danish textile printing and a major female practitioner, not only furniture and products.",
+      "riskFlags": [],
+      "riskRationale": "The official museum page gives a named textile pattern, designer and date.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named object appears with an image on the official Director’s Choice page."}
+    },
+    {
+      "workId": "finn-juhl-butterfly-coffee-table-prototype-1949",
+      "identity": {
+        "objectType": "prototype",
+        "title": {"en": "Butterfly coffee table (prototype)", "zh": "蝴蝶咖啡桌（原型）"},
+        "artistOrCulture": "Finn Juhl",
+        "displayDate": "1949",
+        "medium": "coffee table; material not specified on the official object page",
+        "identityAnchor": "director-choice-finn-juhl-butterfly-coffee-table-prototype-1949",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/"
+      },
+      "identityAnchor": "director-choice-finn-juhl-butterfly-coffee-table-prototype-1949",
+      "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+      "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+      "collectionGroup": "Furniture and design archive",
+      "selectionRationale": "Adds a prototype and the museum’s drawings/archive dimension to the Danish furniture narrative.",
+      "riskFlags": [],
+      "riskRationale": "The official museum page gives a named prototype, designer and date.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named object appears with an image on the official Director’s Choice page."}
+    },
+    {
+      "workId": "aage-rasmussen-no-giraffes-poster-c1950",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "No giraffes, please – but almost anything else", "zh": "请勿托运长颈鹿——其他几乎都可以"},
+        "artistOrCulture": "Aage Rasmussen",
+        "displayDate": "c. 1950",
+        "medium": "poster",
+        "identityAnchor": "director-choice-aage-rasmussen-no-giraffes-poster-c1950",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/"
+      },
+      "identityAnchor": "director-choice-aage-rasmussen-no-giraffes-poster-c1950",
+      "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+      "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+      "collectionGroup": "Poster collection",
+      "selectionRationale": "Brings commercial graphics and the museum’s poster collection into the main Danish design timeline.",
+      "riskFlags": [],
+      "riskRationale": "The official museum page gives a named poster, designer and approximate date.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named object appears with an image on the official Director’s Choice page."}
+    },
+    {
+      "workId": "riis-carstensen-finn-juhl-upholstered-easy-chair-1953",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Upholstered easy chair with free arms", "zh": "带自由扶手的软垫休闲椅"},
+        "artistOrCulture": "Marianne Riis-Carstensen and Finn Juhl",
+        "displayDate": "1953",
+        "medium": "upholstered chair; material not specified on the official object page",
+        "identityAnchor": "director-choice-riis-carstensen-finn-juhl-easy-chair-1953",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/"
+      },
+      "identityAnchor": "director-choice-riis-carstensen-finn-juhl-easy-chair-1953",
+      "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+      "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+      "collectionGroup": "Furniture",
+      "selectionRationale": "Adds collaboration, colour and interior practice to a chair story otherwise centered on solo designer names.",
+      "riskFlags": [],
+      "riskRationale": "The official museum page gives a named chair, designers and date.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named object appears with an image on the official Director’s Choice page."}
+    },
+    {
+      "workId": "margrethe-bowl-1954",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Margrethe bowl", "zh": "Margrethe 搅拌碗"},
+        "artistOrCulture": "Sigvard Bernadotte and Acton Bjørn",
+        "displayDate": "1954",
+        "medium": "melamine plastic",
+        "identityAnchor": "director-choice-margrethe-bowl-1954",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/"
+      },
+      "identityAnchor": "director-choice-margrethe-bowl-1954",
+      "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+      "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+      "collectionGroup": "Industrial design",
+      "selectionRationale": "Represents the museum’s everyday-product strand and the migration of design into ordinary domestic routines.",
+      "riskFlags": [],
+      "riskRationale": "The official museum pages give a named product, designers, date and material.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named object appears with an image on the official Director’s Choice page."}
+    },
+    {
+      "workId": "verner-panton-panton-chair-1960-1967",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Panton Chair", "zh": "潘顿椅"},
+        "artistOrCulture": "Verner Panton",
+        "displayDate": "1960/1967–68",
+        "medium": "plastic",
+        "identityAnchor": "qr-site-23-verner-panton-panton-chair-1960-1967-68",
+        "officialObjectUrl": "https://designmuseum.dk/qr-site/23-verner-panton-panton-chair-1960-1967-68/"
+      },
+      "identityAnchor": "qr-site-23-verner-panton-panton-chair-1960-1967-68",
+      "identitySourceUrl": "https://designmuseum.dk/qr-site/23-verner-panton-panton-chair-1960-1967-68/",
+      "officialObjectUrl": "https://designmuseum.dk/qr-site/23-verner-panton-panton-chair-1960-1967-68/",
+      "collectionGroup": "Furniture",
+      "selectionRationale": "A key candidate for the transition from Danish cabinetmaking to one-piece plastic production and pop-era design.",
+      "riskFlags": [],
+      "riskRationale": "The official QR object page gives a named chair, designer, dates and material.",
+      "imageAvailability": {"status": "needs_packet_verification", "note": "The official identity page is available; direct image availability is left for the downstream image packet."}
+    },
+    {
+      "workId": "grete-jalk-bow-chair-1963",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Bow Chair", "zh": "弓椅"},
+        "artistOrCulture": "Grete Jalk",
+        "displayDate": "1963",
+        "medium": "chair; material not specified on the official object page",
+        "identityAnchor": "director-choice-grete-jalk-bow-chair-1963",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/"
+      },
+      "identityAnchor": "director-choice-grete-jalk-bow-chair-1963",
+      "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+      "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+      "collectionGroup": "Furniture",
+      "selectionRationale": "Expands the chair story with laminated-shell experimentation and a female Danish designer.",
+      "riskFlags": [],
+      "riskRationale": "The official museum page gives a named chair, designer and date.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named object appears with an image on the official Director’s Choice page."}
+    },
+    {
+      "workId": "mega-mussel-plate-2002",
+      "identity": {
+        "objectType": "series_member",
+        "title": {"en": "Plate from the Mega Mussel service", "zh": "Mega Mussel 餐具中的盘子"},
+        "artistOrCulture": "Karen Kjeldgård-Larsen",
+        "displayDate": "2002",
+        "medium": "porcelain",
+        "identityAnchor": "director-choice-mega-mussel-plate-2002",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/"
+      },
+      "identityAnchor": "director-choice-mega-mussel-plate-2002",
+      "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+      "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+      "collectionGroup": "Porcelain",
+      "selectionRationale": "Connects contemporary Danish design to the long Royal Copenhagen blue-fluted tradition.",
+      "riskFlags": [],
+      "riskRationale": "The official museum page gives a named service component, designer, date and material.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named object appears with an image on the official Director’s Choice page."}
+    },
+    {
+      "workId": "karen-bennicke-urban-complex-vii-2016",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Urban Complex VII", "zh": "《城市综合体 VII》"},
+        "artistOrCulture": "Karen Bennicke",
+        "displayDate": "2016",
+        "medium": "ceramic sculpture",
+        "identityAnchor": "director-choice-karen-bennicke-urban-complex-vii-2016",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/"
+      },
+      "identityAnchor": "director-choice-karen-bennicke-urban-complex-vii-2016",
+      "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+      "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+      "collectionGroup": "Ceramics",
+      "selectionRationale": "Ensures contemporary ceramic form and spatial investigation remain part of the museum’s core route.",
+      "riskFlags": [],
+      "riskRationale": "The official museum page gives a named sculpture, artist and date.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named object appears with an image on the official Director’s Choice page."}
+    },
+    {
+      "workId": "katrine-bendixen-inside-out-lamp-2019",
+      "identity": {
+        "objectType": "installation",
+        "title": {"en": "Inside Out, lamp", "zh": "《由内而外》灯具"},
+        "artistOrCulture": "Katrine Barbro Bendixen",
+        "displayDate": "2019",
+        "medium": "lamp; surrounding material not specified on the official object page",
+        "identityAnchor": "director-choice-katrine-bendixen-inside-out-lamp-2019",
+        "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/"
+      },
+      "identityAnchor": "director-choice-katrine-bendixen-inside-out-lamp-2019",
+      "identitySourceUrl": "https://designmuseum.dk/en/directors-choice/",
+      "officialObjectUrl": "https://designmuseum.dk/en/directors-choice/",
+      "collectionGroup": "Product design",
+      "selectionRationale": "Closes the route with a contemporary object that deliberately tests what a design museum can display.",
+      "riskFlags": [],
+      "riskRationale": "The official museum page gives a named lamp, designer and date.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named object appears with an image on the official Director’s Choice page."}
+    },
+    {
+      "workId": "poul-kjaerholm-pk12-1962",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "PK12", "zh": "PK12 椅"},
+        "artistOrCulture": "Poul Kjærholm",
+        "displayDate": "1962",
+        "medium": "furniture; material not specified on the official collection page",
+        "identityAnchor": "collection-furniture-pk12-poul-kjaerholm-1962",
+        "officialObjectUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/"
+      },
+      "identityAnchor": "collection-furniture-pk12-poul-kjaerholm-1962",
+      "identitySourceUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+      "officialObjectUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+      "collectionGroup": "Furniture",
+      "selectionRationale": "Adds a named collection exemplar for Poul Kjærholm and broadens the modern furniture comparison set.",
+      "riskFlags": [],
+      "riskRationale": "The official collection overview gives the object name, designer and date.",
+      "imageAvailability": {"status": "official_collection_image", "note": "The named object appears with an image on the official collection overview."}
+    },
+    {
+      "workId": "rene-lalique-archers-vase-1920s",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "The Archers vase", "zh": "《弓箭手》花瓶"},
+        "artistOrCulture": "René Lalique",
+        "displayDate": "1920s",
+        "medium": "glass",
+        "identityAnchor": "collection-glass-archers-vase-rene-lalique-1920s",
+        "officialObjectUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/"
+      },
+      "identityAnchor": "collection-glass-archers-vase-rene-lalique-1920s",
+      "identitySourceUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+      "officialObjectUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+      "collectionGroup": "Glass",
+      "selectionRationale": "Provides a named glass-collection candidate distinct from the earlier Syrian bottle and Lalique jewellery.",
+      "riskFlags": [],
+      "riskRationale": "The official collection overview gives the object name, artist, date range and material.",
+      "imageAvailability": {"status": "official_collection_image", "note": "The named object appears with an image on the official collection overview."}
+    },
+    {
+      "workId": "bang-olufsen-beogram-4000-1972",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Beogram 4000", "zh": "Beogram 4000 唱片机"},
+        "artistOrCulture": "B&O",
+        "displayDate": "1972",
+        "medium": "industrial product; material not specified on the official collection page",
+        "identityAnchor": "collection-industrial-design-beogram-4000-bo-1972",
+        "officialObjectUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/"
+      },
+      "identityAnchor": "collection-industrial-design-beogram-4000-bo-1972",
+      "identitySourceUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+      "officialObjectUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+      "collectionGroup": "Industrial design",
+      "selectionRationale": "Adds Bang & Olufsen and a major Danish audio-product candidate to the industrial-design line.",
+      "riskFlags": [],
+      "riskRationale": "The official collection overview gives the product name, company and date.",
+      "imageAvailability": {"status": "official_collection_image", "note": "The named object appears with an image on the official collection overview."}
+    },
+    {
+      "workId": "royal-copenhagen-lidded-tureen-18th-century",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Lidded tureen", "zh": "带盖汤盘"},
+        "artistOrCulture": "Royal Copenhagen Porcelain Factory",
+        "displayDate": "end of the 18th century",
+        "medium": "porcelain",
+        "identityAnchor": "collection-porcelain-lidded-tureen-royal-copenhagen-end-18th-century",
+        "officialObjectUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/"
+      },
+      "identityAnchor": "collection-porcelain-lidded-tureen-royal-copenhagen-end-18th-century",
+      "identitySourceUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+      "officialObjectUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+      "collectionGroup": "Porcelain",
+      "selectionRationale": "Supplies a clearly named historical porcelain candidate beyond the Flora Danica and Mega Mussel examples.",
+      "riskFlags": [],
+      "riskRationale": "The official collection overview gives the object type, maker context, date range and material.",
+      "imageAvailability": {"status": "official_collection_image", "note": "The named object appears with an image on the official collection overview."}
+    },
+    {
+      "workId": "poul-henningsen-table-lamp-4-3-1927",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Table lamp 4/3", "zh": "4/3 台灯"},
+        "artistOrCulture": "Poul Henningsen",
+        "displayDate": "1927",
+        "medium": "lighting product; material not specified on the official collection page",
+        "identityAnchor": "collection-product-design-table-lamp-4-3-poul-henningsen-1927",
+        "officialObjectUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/"
+      },
+      "identityAnchor": "collection-product-design-table-lamp-4-3-poul-henningsen-1927",
+      "identitySourceUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+      "officialObjectUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+      "collectionGroup": "Product design",
+      "selectionRationale": "Provides a second precisely named PH lighting candidate for comparison with the 5/5 museum-history lamp.",
+      "riskFlags": [],
+      "riskRationale": "The official collection overview gives the product name, designer and date.",
+      "imageAvailability": {"status": "official_collection_image", "note": "The named object appears with an image on the official collection overview."}
+    },
+    {
+      "workId": "jean-voigt-dress-coat-1960s",
+      "identity": {
+        "objectType": "series_member",
+        "title": {"en": "Dress and coat", "zh": "连衣裙与外套"},
+        "artistOrCulture": "Jean Voigt",
+        "displayDate": "1960s",
+        "medium": "fashion and textile design; material not specified on the official collection page",
+        "identityAnchor": "collection-fashion-textile-dress-coat-jean-voigt-1960s",
+        "officialObjectUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/"
+      },
+      "identityAnchor": "collection-fashion-textile-dress-coat-jean-voigt-1960s",
+      "identitySourceUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+      "officialObjectUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+      "collectionGroup": "Fashion and textile design",
+      "selectionRationale": "Keeps fashion within the candidate pool as a collection group rather than treating Danish design as furniture alone.",
+      "riskFlags": [],
+      "riskRationale": "The official collection overview gives the object type, designer and decade.",
+      "imageAvailability": {"status": "official_collection_image", "note": "The named object appears with an image on the official collection overview."}
+    },
+    {
+      "workId": "bodil-manz-cylinder-1943",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Cylinder", "zh": "《圆柱体》"},
+        "artistOrCulture": "Bodil Manz",
+        "displayDate": "1943",
+        "medium": "ceramics; material not further specified on the official collection page",
+        "identityAnchor": "collection-ceramics-cylinder-bodil-manz-1943",
+        "officialObjectUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/"
+      },
+      "identityAnchor": "collection-ceramics-cylinder-bodil-manz-1943",
+      "identitySourceUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+      "officialObjectUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+      "collectionGroup": "Ceramics",
+      "selectionRationale": "Adds a named Danish ceramic candidate from the official collection overview and balances porcelain with studio ceramics.",
+      "riskFlags": [],
+      "riskRationale": "The official collection overview gives the object name, artist and date.",
+      "imageAvailability": {"status": "official_collection_image", "note": "The named object appears with an image on the official collection overview."}
+    },
+    {
+      "workId": "hans-wegner-wishbone-chair-1950",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Wishbone chair", "zh": "Wishbone 椅"},
+        "artistOrCulture": "Hans J. Wegner",
+        "displayDate": "1950",
+        "medium": "chair; material not specified on the official exhibition page",
+        "identityAnchor": "danish-chair-wishbone-chair-hans-wegner-1950",
+        "officialObjectUrl": "https://designmuseum.dk/en/the-danish-chair/"
+      },
+      "identityAnchor": "danish-chair-wishbone-chair-hans-wegner-1950",
+      "identitySourceUrl": "https://designmuseum.dk/en/the-danish-chair/",
+      "officialObjectUrl": "https://designmuseum.dk/en/the-danish-chair/",
+      "collectionGroup": "Furniture",
+      "selectionRationale": "A named chair candidate from the museum’s official Danish Chair overview, representing the Wegner branch of Danish Modern.",
+      "riskFlags": [],
+      "riskRationale": "The official museum exhibition page gives the named chair, designer and date.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named chair appears with an image on the official Danish Chair page."}
+    },
+    {
+      "workId": "finn-juhl-nv45-chair-1945",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "NV45 chair", "zh": "NV45 椅"},
+        "artistOrCulture": "Finn Juhl",
+        "displayDate": "1945",
+        "medium": "chair; material not specified on the official exhibition page",
+        "identityAnchor": "danish-chair-nv45-finn-juhl-1945",
+        "officialObjectUrl": "https://designmuseum.dk/en/the-danish-chair/"
+      },
+      "identityAnchor": "danish-chair-nv45-finn-juhl-1945",
+      "identitySourceUrl": "https://designmuseum.dk/en/the-danish-chair/",
+      "officialObjectUrl": "https://designmuseum.dk/en/the-danish-chair/",
+      "collectionGroup": "Furniture",
+      "selectionRationale": "A named chair candidate that complements the Butterfly prototype and keeps Finn Juhl’s furniture line visible.",
+      "riskFlags": [],
+      "riskRationale": "The official museum exhibition page gives the named chair, designer and date.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named chair appears with an image on the official Danish Chair page."}
+    },
+    {
+      "workId": "nicolai-abildgaard-klismos-chair-1790-92",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Klismos chair", "zh": "克里斯莫斯椅"},
+        "artistOrCulture": "Nicolai Abildgaard",
+        "displayDate": "1790–92",
+        "medium": "chair; material not specified on the official exhibition page",
+        "identityAnchor": "danish-chair-klismos-chair-nicolai-abildgaard-1790-92",
+        "officialObjectUrl": "https://designmuseum.dk/en/the-danish-chair/"
+      },
+      "identityAnchor": "danish-chair-klismos-chair-nicolai-abildgaard-1790-92",
+      "identitySourceUrl": "https://designmuseum.dk/en/the-danish-chair/",
+      "officialObjectUrl": "https://designmuseum.dk/en/the-danish-chair/",
+      "collectionGroup": "Furniture",
+      "selectionRationale": "Provides a historical chair comparison for the museum’s argument that modern Danish furniture has older and international roots.",
+      "riskFlags": [],
+      "riskRationale": "The official museum exhibition page gives the named chair, designer and date.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named chair appears with an image on the official Danish Chair page."}
+    },
+    {
+      "workId": "nanna-ditzel-trinidad-chair-1993",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Trinidad chair", "zh": "Trinidad 椅"},
+        "artistOrCulture": "Nanna Ditzel",
+        "displayDate": "1993",
+        "medium": "chair; material not specified on the official exhibition page",
+        "identityAnchor": "danish-chair-trinidad-nanna-ditzel-1993",
+        "officialObjectUrl": "https://designmuseum.dk/en/the-danish-chair/"
+      },
+      "identityAnchor": "danish-chair-trinidad-nanna-ditzel-1993",
+      "identitySourceUrl": "https://designmuseum.dk/en/the-danish-chair/",
+      "officialObjectUrl": "https://designmuseum.dk/en/the-danish-chair/",
+      "collectionGroup": "Furniture",
+      "selectionRationale": "Extends the Danish-chair sequence beyond the golden age into late twentieth-century form and production.",
+      "riskFlags": [],
+      "riskRationale": "The official museum exhibition page gives the named chair, designer and date.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named chair appears with an image on the official Danish Chair page."}
+    },
+    {
+      "workId": "verner-panton-s-chair-1956",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "S Chair", "zh": "S 椅"},
+        "artistOrCulture": "Verner Panton",
+        "displayDate": "1956",
+        "medium": "moulded plywood",
+        "identityAnchor": "qr-site-24-verner-panton-s-chair-1956",
+        "officialObjectUrl": "https://designmuseum.dk/qr-site/24-verner-panton-s-stolen-1956/"
+      },
+      "identityAnchor": "qr-site-24-verner-panton-s-chair-1956",
+      "identitySourceUrl": "https://designmuseum.dk/qr-site/24-verner-panton-s-stolen-1956/",
+      "officialObjectUrl": "https://designmuseum.dk/qr-site/24-verner-panton-s-stolen-1956/",
+      "collectionGroup": "Furniture",
+      "selectionRationale": "A useful bridge candidate between Arne Jacobsen’s shell-chair work and Panton’s later one-piece plastic chair.",
+      "riskFlags": [],
+      "riskRationale": "The official QR object page gives a named chair, designer, date and material.",
+      "imageAvailability": {"status": "needs_packet_verification", "note": "The official identity page is available; direct image availability is left for the downstream image packet."}
+    },
+    {
+      "workId": "thorvald-bindesboll-carlsberg-label-1904",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "Carlsberg label", "zh": "嘉士伯标签"},
+        "artistOrCulture": "Thorvald Bindesbøll",
+        "displayDate": "1904",
+        "medium": "graphic design / label",
+        "identityAnchor": "qr-site-2-thorvald-bindesboell-carlsberg-label-1904",
+        "officialObjectUrl": "https://designmuseum.dk/qr-site/2-thorvald-bindesboell-carlsberg-etikette-1904/"
+      },
+      "identityAnchor": "qr-site-2-thorvald-bindesboell-carlsberg-label-1904",
+      "identitySourceUrl": "https://designmuseum.dk/qr-site/2-thorvald-bindesboell-carlsberg-etikette-1904/",
+      "officialObjectUrl": "https://designmuseum.dk/qr-site/2-thorvald-bindesboell-carlsberg-etikette-1904/",
+      "collectionGroup": "Prints and Drawings",
+      "selectionRationale": "Adds a directly identified graphic-design object and the Skønvirke strand to a pool otherwise weighted toward furniture.",
+      "riskFlags": [],
+      "riskRationale": "The official QR object page gives a named label, designer, date and design category.",
+      "imageAvailability": {"status": "needs_packet_verification", "note": "The official identity page is available; direct image availability is left for the downstream image packet."}
+    },
+    {
+      "workId": "borge-mogensen-j39-peoples-chair-1947",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "J39 / The People’s Chair", "zh": "J39／人民椅"},
+        "artistOrCulture": "Børge Mogensen",
+        "displayDate": "1947",
+        "medium": "chair; material not specified on the official exhibition page",
+        "identityAnchor": "danish-chair-j39-peoples-chair-borge-mogensen-1947",
+        "officialObjectUrl": "https://designmuseum.dk/en/the-danish-chair/"
+      },
+      "identityAnchor": "danish-chair-j39-peoples-chair-borge-mogensen-1947",
+      "identitySourceUrl": "https://designmuseum.dk/en/the-danish-chair/",
+      "officialObjectUrl": "https://designmuseum.dk/en/the-danish-chair/",
+      "collectionGroup": "Furniture",
+      "selectionRationale": "Represents the democratic, everyday-furniture side of the museum’s Danish Modern narrative.",
+      "riskFlags": [],
+      "riskRationale": "The official museum exhibition page gives the named chair, designer and date.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named chair appears in the official Danish Chair page’s named-chair list."}
+    },
+    {
+      "workId": "arne-jacobsen-ant-chair-1952",
+      "identity": {
+        "objectType": "single_work",
+        "title": {"en": "The Ant", "zh": "蚂蚁椅"},
+        "artistOrCulture": "Arne Jacobsen",
+        "displayDate": "1952",
+        "medium": "chair; material not specified on the official exhibition page",
+        "identityAnchor": "danish-chair-ant-arne-jacobsen-1952",
+        "officialObjectUrl": "https://designmuseum.dk/en/the-danish-chair/"
+      },
+      "identityAnchor": "danish-chair-ant-arne-jacobsen-1952",
+      "identitySourceUrl": "https://designmuseum.dk/en/the-danish-chair/",
+      "officialObjectUrl": "https://designmuseum.dk/en/the-danish-chair/",
+      "collectionGroup": "Furniture",
+      "selectionRationale": "Adds Arne Jacobsen’s simplified shell-chair line and fills a central gap in the Danish Modern candidate set.",
+      "riskFlags": [],
+      "riskRationale": "The official museum exhibition page gives the named chair, designer and date.",
+      "imageAvailability": {"status": "official_page_image", "note": "The named chair appears in the official Danish Chair page’s named-chair list."}
+    }
+  ]
+}

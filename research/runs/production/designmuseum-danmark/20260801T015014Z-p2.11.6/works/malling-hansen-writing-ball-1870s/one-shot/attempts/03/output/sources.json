@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "malling-hansen-writing-ball-1870s",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Hansen's Writing Ball, also known as Malling-Hansen Writing Ball",
+      "publisher": "Science Museum Group Collection",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co38206/hansens-writing-ball-also-known-as-malling-hansen-writing-ball",
+      "sourceType": "museum",
+      "usedFor": [
+        "date",
+        "material",
+        "process",
+        "history",
+        "artist_intent"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Nyheder - Designmuseum Danmark",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/om/nyheder/",
+      "sourceType": "museum",
+      "usedFor": [
+        "date",
+        "significance",
+        "availability"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Friedrich Nietzsche’s writing ball",
+      "publisher": "Klassik Stiftung Weimar",
+      "url": "https://www.klassik-stiftung.de/en/home/digital/collection-highlights/friedrich-nietzsches-writing-ball/",
+      "sourceType": "foundation",
+      "usedFor": [
+        "material",
+        "process",
+        "history",
+        "directQuotes"
+      ]
+    }
+  ],
+  "directQuotes": [
+    {
+      "quote": "Our writing utensils also help shape our thoughts.",
+      "speaker": "Friedrich Nietzsche",
+      "sourceId": "S4"
+    }
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "汉森写字球通常被认为是世界上第一种商业化生产的打字机。",
+      "type": "first_or_earliest",
+      "sourceIds": [
+        "S2",
+        "S3"
+      ]
+    },
+    {
+      "claim": "历史上大约生产了180台汉森写字球，约30台留存至今。",
+      "type": "other",
+      "sourceIds": [
+        "S2",
+        "S4"
+      ]
+    },
+    {
+      "claim": "典型汉森写字球有54根带弹簧的字杆，以不同角度汇聚到共同的打字点，并配有空格、自动换行和回车、响铃、复写等机制。",
+      "type": "other",
+      "sourceIds": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "尼采因视力严重恶化使用汉森写字球，机器于1882年2月抵达热那亚。",
+      "type": "other",
+      "sourceIds": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "汉森写字球的设计背景与Malling-Hansen在哥本哈根面向聋人学生的学校工作有关，目标是让手指成为更有效的书写和交流工具。",
+      "type": "artist_intent",
+      "sourceIds": [
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "Designmuseum本件材质",
+      "statement": "官方对象页没有公布本件完整材质；其他馆藏记录描述的是相关型号，不能直接替代本件的材质标签。"
+    },
+    {
+      "topic": "当前展出状态",
+      "statement": "Designmuseum Danmark于2026年5月6日宣布推出写字球主题pop-up展览，但新闻页未公布结束日期，也未明确确认本件目前是否在展柜中。"
+    },
+    {
+      "topic": "尼采时间线",
+      "statement": "Designmuseum导览提到尼采在1881年前后购得写字球，魏玛馆藏资料记载机器于1882年2月抵达热那亚；本文采用“1881年前后购买、1882年开始使用”的保守表述。"
+    }
+  ],
+  "upstreamConflicts": []
+}

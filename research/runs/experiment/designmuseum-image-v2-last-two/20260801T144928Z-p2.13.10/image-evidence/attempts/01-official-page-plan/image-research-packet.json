@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 2,
+  "stage": "official_page_plan",
+  "resolverTier": 2,
+  "museumId": "designmuseum-danmark",
+  "parentEvidencePath": "research/runs/experiment/designmuseum-image-v2-final-fallback/20260801T144704Z-p2.13.9/image-evidence/verified-image-evidence.json",
+  "parentEvidenceSha256": "d6711fbc461856fe5af82e1c8e93342d882db874d212b61b4a14505f427f4ac9",
+  "works": [
+    {
+      "workId": "thorvald-bindesboll-carlsberg-label-1904",
+      "identity": {
+        "museumId": "designmuseum-danmark",
+        "workId": "thorvald-bindesboll-carlsberg-label-1904",
+        "title": "Carlsberg label",
+        "objectType": "single_work",
+        "titleZh": "嘉士伯标签",
+        "titleEn": "Carlsberg label",
+        "creator": "Thorvald Bindesbøll",
+        "artistOrCulture": "Thorvald Bindesbøll",
+        "displayDate": "1904",
+        "medium": "graphic design / label",
+        "identityAnchor": "qr-site-2-thorvald-bindesboell-carlsberg-label-1904",
+        "officialObjectUrl": "https://designmuseum.dk/qr-site/2-thorvald-bindesboell-carlsberg-etikette-1904/",
+        "identitySourceUrl": "https://designmuseum.dk/qr-site/2-thorvald-bindesboell-carlsberg-etikette-1904/",
+        "accessionNumber": null,
+        "collectionGroup": "Prints and Drawings"
+      },
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Carlsberg_Pilsner_1904_label_by_Thorvald_Bindesboll.png",
+      "page": {
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Carlsberg_Pilsner_1904_label_by_Thorvald_Bindesboll.png",
+        "finalUrl": "https://commons.wikimedia.org/wiki/File:Carlsberg_Pilsner_1904_label_by_Thorvald_Bindesboll.png",
+        "pageTitle": "Wikimedia Commons API",
+        "bodyText": "",
+        "candidateCount": 1
+      },
+      "candidates": [
+        {
+          "candidateId": "commons-001",
+          "candidateType": "direct_image",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Carlsberg_Pilsner_1904_label_by_Thorvald_Bindesboll.png",
+          "nearbyText": "Carlsberg Pilsner 1904 label by Thorvald Bindesboll.png",
+          "naturalWidth": 373,
+          "naturalHeight": 472,
+          "contentType": "image/png",
+          "sourceType": "wikidata-commons",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Carlsberg_Pilsner_1904_label_by_Thorvald_Bindesboll.png",
+          "identityScore": 0
+        }
+      ]
+    },
+    {
+      "workId": "verner-panton-panton-chair-1960-1967",
+      "identity": {
+        "museumId": "designmuseum-danmark",
+        "workId": "verner-panton-panton-chair-1960-1967",
+        "title": "Panton Chair",
+        "objectType": "single_work",
+        "titleZh": "潘顿椅",
+        "titleEn": "Panton Chair",
+        "creator": "Verner Panton",
+        "artistOrCulture": "Verner Panton",
+        "displayDate": "1960/1967–68",
+        "medium": "plastic",
+        "identityAnchor": "qr-site-23-verner-panton-panton-chair-1960-1967-68",
+        "officialObjectUrl": "https://designmuseum.dk/qr-site/23-verner-panton-panton-chair-1960-1967-68/",
+        "identitySourceUrl": "https://designmuseum.dk/qr-site/23-verner-panton-panton-chair-1960-1967-68/",
+        "accessionNumber": null,
+        "collectionGroup": "Furniture"
+      },
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Panton_Chair_by_Verner_Panton.JPG",
+      "page": {
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Panton_Chair_by_Verner_Panton.JPG",
+        "finalUrl": "https://commons.wikimedia.org/wiki/File:Panton_Chair_by_Verner_Panton.JPG",
+        "pageTitle": "Wikimedia Commons API",
+        "bodyText": "",
+        "candidateCount": 1
+      },
+      "candidates": [
+        {
+          "candidateId": "commons-001",
+          "candidateType": "direct_image",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Panton_Chair_by_Verner_Panton.JPG",
+          "nearbyText": "Panton Chair by Verner Panton.JPG",
+          "naturalWidth": 1896,
+          "naturalHeight": 2542,
+          "contentType": "image/jpeg",
+          "sourceType": "wikidata-commons",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Panton_Chair_by_Verner_Panton.JPG",
+          "identityScore": 0
+        }
+      ]
+    }
+  ]
+}

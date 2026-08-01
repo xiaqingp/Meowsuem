@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "marie-gudme-leth-tree-pattern-1937",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Marie Gudme Leth - Pioneer of print",
+      "publisher": "Designmuseum Danmark via Google Arts & Culture",
+      "url": "https://artsandculture.google.com/story/marie-gudme-leth-pioneer-of-print-designmuseum-danmark/ygUBORBdLNlEKw?hl=en",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "process",
+        "history",
+        "artistContext",
+        "significance"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Marie Gudme Leth, kunsthåndværker",
+      "publisher": "Lex / Dansk Kvindebiografisk Leksikon",
+      "url": "https://kvindebiografiskleksikon.lex.dk/Marie_Gudme_Leth",
+      "sourceType": "publication",
+      "usedFor": [
+        "artistContext",
+        "process",
+        "history",
+        "artistIntent"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Marie Gudme Leth – Dansk Biografisk Leksikon",
+      "publisher": "Lex",
+      "url": "https://biografiskleksikon.lex.dk/Marie_Gudme_Leth",
+      "sourceType": "publication",
+      "usedFor": [
+        "artistContext",
+        "process",
+        "history"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "Designmuseum Danmark将Marie Gudme Leth介绍为在1930年前后帮助丹麦重新发展或重新引入纺织印花工艺的重要先行者。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S2",
+        "S3"
+      ]
+    },
+    {
+      "claim": "Marie Gudme Leth把提升印花纺织品在工艺美术中的地位作为自己的职业目标。",
+      "type": "artist_intent",
+      "sourceIds": [
+        "S2",
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "material",
+      "statement": "锁定的官方对象页确认作品为textile print，但未说明具体纤维、尺寸、颜料或完整制作配方；本文未作进一步断言。"
+    },
+    {
+      "topic": "availability",
+      "statement": "官方页面将作品列入Director's Choice目录，但没有明确说明它在当前日期是否实际展出，因此当前展出状态仍未知。"
+    }
+  ],
+  "upstreamConflicts": []
+}

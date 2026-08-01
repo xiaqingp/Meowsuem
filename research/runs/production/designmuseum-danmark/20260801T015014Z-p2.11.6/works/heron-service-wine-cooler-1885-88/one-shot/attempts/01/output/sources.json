@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "heron-service-wine-cooler-1885-88",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "context"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Annual Report 2024",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/wp-content/uploads/2025/05/Aarsrapport_2024_WEB.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "process",
+        "history",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "CLAY Nyt nr. 5, juni 2020",
+      "publisher": "CLAY Museum of Ceramic Art in Denmark",
+      "url": "https://claymuseum.dk/wp-content/uploads/2020/06/CLAY-Nyt-05-2020.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "creator",
+        "process",
+        "history",
+        "date"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "CLAY Nyt 6, 2015: Fanny & Effie",
+      "publisher": "CLAY Museum of Ceramic Art in Denmark",
+      "url": "https://claymuseum.dk/wp-content/uploads/2015/12/Clay-Nyt-06.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "creator",
+        "process",
+        "history"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "An A–Z of Ceramics",
+      "publisher": "Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/articles/a-z-of-ceramics",
+      "sourceType": "museum",
+      "usedFor": [
+        "process",
+        "material"
+      ]
+    },
+    {
+      "id": "S6",
+      "title": "Learning from Japan",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/exhibition/learning-from-japan/",
+      "sourceType": "museum",
+      "usedFor": [
+        "context"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "material",
+      "statement": "锁定的官方对象页未单列本件酒桶材质；瓷器和釉下彩等信息来自同套餐具的馆方及博物馆资料，未见本件酒桶的单件技术报告。"
+    },
+    {
+      "topic": "availability",
+      "statement": "官方页面将其列入 Director’s Choice 对象目录，但未确认本件截至任务日期的当前展出位置或是否在展。"
+    },
+    {
+      "topic": "object-specific appearance",
+      "statement": "本次没有可靠作品图；关于苍鹭以平面绘饰或浮雕出现的描述来自馆方对整套餐具的介绍，不扩展为本件酒桶的逐项外观判断。"
+    }
+  ],
+  "upstreamConflicts": []
+}

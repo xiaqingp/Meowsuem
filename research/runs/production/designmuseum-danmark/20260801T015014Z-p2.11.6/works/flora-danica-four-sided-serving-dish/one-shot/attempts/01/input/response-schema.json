@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "article",
+    "sourcesJson"
+  ],
+  "properties": {
+    "article": {
+      "type": "string"
+    },
+    "sourcesJson": {
+      "type": "string"
+    }
+  }
+}

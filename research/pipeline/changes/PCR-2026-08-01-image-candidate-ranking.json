@@ -1,0 +1,28 @@
+{
+  "id": "PCR-2026-08-01-image-candidate-ranking",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-31",
+  "ownerInstruction": "Fix the pipeline image bug and validate it on portrait-pietro-krohn-1887 before repairing other works.",
+  "baseRelease": "research/pipeline/releases/v2.13.0.json",
+  "targetVersion": "2.13.1",
+  "implementationStatus": "completed",
+  "scope": [
+    "strip control characters from inherited source URLs",
+    "rank official-page candidates by same-card title and creator relation before truncation",
+    "rerun only the approved portrait test"
+  ],
+  "outOfScope": [
+    "repairing any other Designmuseum Danmark work"
+  ],
+  "allowedCanonicalFiles": [
+    "scripts/retry-failed-image-evidence.mjs"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/test-image-resolution-v2.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

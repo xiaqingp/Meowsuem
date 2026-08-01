@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "status": "warning",
+  "publicationWarnings": [
+    {
+      "code": "OFFICIAL_SOURCE_COVERAGE",
+      "message": "Official museum sources do not cover material",
+      "matches": [
+        "material"
+      ]
+    }
+  ],
+  "modelCalls": 0,
+  "previousFailure": "VERIFICATION_FAILED",
+  "rules": {
+    "card": "first non-empty paragraph under ## 一分钟看懂",
+    "draft": "byte-for-byte copy of output/article.md",
+    "displayMetadata": "deterministic mapping from input/locked-metadata.json",
+    "sources": "validated structural copy of output/sources.json"
+  },
+  "inputHashes": {
+    "lockedMetadata": "af105dd8cef25e415a3ad996cce2df7ef11608527d143e8bb87237b4c03d6d4d",
+    "article": "9e672b3e4d65cf7a7243aaa295b3ccb9e2cfc09bfbc3fb7b51552853f7a616cc",
+    "sources": "f8cf283b8d672defafca4fc7613e0c581e173d57fe358f77cd91114ca24f37c8",
+    "verification": "f49917bd370a8ce521a71ce1d0c1d6deaaf6f5644adf70d6aa260dd8e4af6c43"
+  },
+  "outputHashes": {
+    "card.txt": "e96576405fb1ed7622e8a23335c8b0d5287e6af384d65f314cdbbb277fb862a8",
+    "draft.md": "9e672b3e4d65cf7a7243aaa295b3ccb9e2cfc09bfbc3fb7b51552853f7a616cc",
+    "display-metadata.json": "be08ce491fe9d48b50e83fa49ffa20842624460c1752c249b07057d1a86a6607",
+    "sources.json": "f8cf283b8d672defafca4fc7613e0c581e173d57fe358f77cd91114ca24f37c8"
+  }
+}

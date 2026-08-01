@@ -1,0 +1,29 @@
+{
+  "id": "PCR-2026-08-01-batched-page-image-retry",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-01",
+  "ownerInstruction": "Repair the other Designmuseum Danmark works after the portrait test passed.",
+  "baseRelease": "research/pipeline/releases/v2.13.3.json",
+  "targetVersion": "2.13.4",
+  "implementationStatus": "completed",
+  "scope": [
+    "retry an explicit bounded work set",
+    "enforce the ten-work image context limit",
+    "enumerate each shared official URL once per run",
+    "bind page images with same-card text content"
+  ],
+  "outOfScope": [
+    "rewriting museum prose"
+  ],
+  "allowedCanonicalFiles": [
+    "scripts/retry-failed-image-evidence.mjs"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/test-image-resolution-v2.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "portrait-pietro-krohn-1887",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "personBiography",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "History & architecture",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/om-museet-2/history-architecture/",
+      "sourceType": "museum",
+      "usedFor": [
+        "museumHistory",
+        "historicalContext"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Pietro Krohn",
+      "publisher": "Project Runeberg, digitized from Ord och Bild, 1905",
+      "url": "https://runeberg.org/ordochbild/1905/0723.html",
+      "sourceType": "publication",
+      "usedFor": [
+        "material",
+        "historicalContext"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Rådhusudstillingen: Dansk Kunst",
+      "publisher": "Det Kgl. Bibliotek, Kunstbiblioteket",
+      "url": "https://kunstbiblioteket.kb.dk/objekter/udstillingskataloger/Udst_0488.pdf",
+      "sourceType": "publication",
+      "usedFor": [
+        "material",
+        "collectionHistory"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "Pietro Krohn became the first director of the Kunstindustrimuseum in 1893.",
+      "type": "first_or_earliest",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "Designmuseum Danmark was founded in 1890.",
+      "type": "other",
+      "sourceIds": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "Historical sources identify the work as a pastel.",
+      "type": "other",
+      "sourceIds": [
+        "S3",
+        "S4"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "material",
+      "statement": "The locked official object page does not specify the medium; two historical sources identify the work as pastel."
+    },
+    {
+      "topic": "collectionHistory",
+      "statement": "An 1887 exhibition catalogue lists a matching Pietro Krohn pastel under the ownership of Professor E. Krohn, but the complete route into Designmuseum Danmark's collection could not be established."
+    },
+    {
+      "topic": "availability",
+      "statement": "The official page lists the work in the Director's Choice catalogue but does not state whether it is currently on display."
+    },
+    {
+      "topic": "accessionNumber",
+      "statement": "No accession number was found in the official object page or the supplementary sources used in this search."
+    }
+  ],
+  "upstreamConflicts": []
+}

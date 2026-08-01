@@ -1,0 +1,65 @@
+{
+  "status": "failed",
+  "errors": [
+    {
+      "code": "OFFICIAL_SOURCE_COVERAGE",
+      "message": "Official museum sources do not cover material",
+      "matches": [
+        "material"
+      ],
+      "severity": "error"
+    },
+    {
+      "code": "UNSUPPORTED_DISPLAY_STATUS",
+      "message": "Current display status is stated as certain although metadata is not confirmed",
+      "matches": [],
+      "severity": "error"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "AMBIGUOUS_QUOTATION",
+      "message": "Quoted wording may be emphasis or an unattributed quotation; human review may be useful",
+      "matches": [
+        "“长得很经典”",
+        "“功能主义”",
+        "“1927年的设计谱系”",
+        "“后来仍在发展的产品版本”"
+      ],
+      "severity": "warning"
+    },
+    {
+      "code": "BROAD_EVALUATION",
+      "message": "Broad evaluative wording is not a hard failure",
+      "matches": [
+        "经典",
+        "重要"
+      ],
+      "severity": "warning"
+    }
+  ],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": true,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": false,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "先解决刺眼的灯泡，再谈漂亮",
+    "4/3，原来是一道关于灯罩的算术题",
+    "当一盏灯把结构直接说出来"
+  ],
+  "sourceCount": 4,
+  "articleBytes": 4607,
+  "sourcesBytes": 2472
+}

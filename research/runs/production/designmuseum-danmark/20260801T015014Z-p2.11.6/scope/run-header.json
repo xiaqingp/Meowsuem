@@ -1,0 +1,36 @@
+{
+  "runId": "20260801T015014Z-p2.11.6",
+  "startedAt": "2026-08-01T01:50:43.940Z",
+  "stage": "museum_scope",
+  "museumId": "designmuseum-danmark",
+  "pipelineVersion": "2.11.6",
+  "instructionVersion": "2.4.0",
+  "executionProfile": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "high",
+    "runner": "scripts/run-isolated-generation.ps1"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "d80ee1c0f28a4f21a26b3d7daefe825812b9007b3208dd80451ae13cee95fc96"
+    },
+    {
+      "path": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/scope/request.json",
+      "role": "museum_request",
+      "sha256": "b86403dc1279ffbb5b5ee8e508dd12c5d52c9bd0e9c898e2c507fb5867371e5f"
+    },
+    {
+      "path": "research/pipeline/prompts/museum-scope.md",
+      "role": "stage_prompt",
+      "sha256": "22fa0c00e34d960f415b983c929948bb674cc14d0a8e4238ce7f6a4aa0e09f26"
+    }
+  ],
+  "outputs": [
+    "scope.json"
+  ],
+  "reviewer": "disabled",
+  "retry": "explicit_only",
+  "publicationBoundary": "run_only"
+}

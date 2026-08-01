@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "marie-gudme-leth-tree-pattern-1937",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice - Design Museum Denmark",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Marie Gudme Leth - Pioneer of print",
+      "publisher": "Designmuseum Danmark / Google Arts & Culture",
+      "url": "https://artsandculture.google.com/story/marie-gudme-leth-pioneer-of-print-designmuseum-danmark/ygUBORBdLNlEKw?hl=en",
+      "sourceType": "museum",
+      "usedFor": [
+        "medium",
+        "technique",
+        "artistBiography",
+        "historicalContext"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "The Power of Print",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/exhibition/printing-power/",
+      "sourceType": "museum",
+      "usedFor": [
+        "medium",
+        "historicalContext",
+        "significance"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Marie Gudme Leth, kunsthåndværker",
+      "publisher": "Dansk Kvindebiografisk Leksikon / Lex",
+      "url": "https://kvindebiografiskleksikon.lex.dk/Marie_Gudme_Leth",
+      "sourceType": "academic",
+      "usedFor": [
+        "technique",
+        "artistBiography",
+        "historicalContext"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "Designmuseum Danmark及相关权威传记资料将玛丽·古德梅·莱特描述为在丹麦约1930年重新推动纺织印花手工艺的重要先驱。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S2",
+        "S4"
+      ]
+    },
+    {
+      "claim": "莱特在晚1930年代逐渐从木版印刷转向丝网或框印技术，该技术支持多色印刷和更复杂的重复单元。",
+      "type": "other",
+      "sourceIds": [
+        "S2",
+        "S4"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "material",
+      "statement": "官方对象页确认其为纺织品印花，但没有说明底布的具体材质。"
+    },
+    {
+      "topic": "technique",
+      "statement": "可靠来源说明了作品所处时期的技术转型，但没有明确确认《树木图案》这一件作品的具体印刷方法。"
+    },
+    {
+      "topic": "provenance",
+      "statement": "本次核实到作品被列入Designmuseum Danmark馆长精选及馆藏语境，但未找到对象专属的收藏史或馆藏号。"
+    },
+    {
+      "topic": "availability",
+      "statement": "官方对象页列出该作品，但本次来源不足以确认其在2026年7月31日的当前展出状态。"
+    }
+  ],
+  "upstreamConflicts": []
+}

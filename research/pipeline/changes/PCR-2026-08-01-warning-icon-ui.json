@@ -1,0 +1,32 @@
+{
+  "id": "PCR-2026-08-01-warning-icon-ui",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-31",
+  "ownerInstruction": "Replace the oversized work-page warning with a small clickable exclamation icon that reveals details only when opened.",
+  "baseRelease": "research/pipeline/releases/v2.12.1.json",
+  "targetVersion": "2.12.2",
+  "implementationStatus": "completed",
+  "scope": [
+    "compact warning icon",
+    "click-to-expand warning panel",
+    "large-versus-small icon color",
+    "current museum page hot update"
+  ],
+  "outOfScope": [
+    "changing warning classification",
+    "removing inline high-risk annotations",
+    "rewriting content"
+  ],
+  "allowedCanonicalFiles": [
+    "museum-app.js",
+    "museum.html"
+  ],
+  "verification": {
+    "status": "passed",
+    "commands": [
+      "node --check museum-app.js",
+      "node scripts/verify-project-authority.mjs"
+    ]
+  }
+}

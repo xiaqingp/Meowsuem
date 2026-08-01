@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 2,
+  "stage": "official_page_plan",
+  "resolverTier": 2,
+  "museumId": "designmuseum-danmark",
+  "parentEvidencePath": "research/runs/experiment/designmuseum-image-v2-batch-2/20260801T144134Z-p2.13.7/image-evidence/verified-image-evidence.json",
+  "parentEvidenceSha256": "48403f42d5e92b4e284d8eb99dba1825af6fa9509a9fdc0864055c1bd798bb2e",
+  "works": [
+    {
+      "workId": "thorvald-bindesboll-carlsberg-label-1904",
+      "identity": {
+        "museumId": "designmuseum-danmark",
+        "workId": "thorvald-bindesboll-carlsberg-label-1904",
+        "title": "Carlsberg label",
+        "objectType": "single_work",
+        "titleZh": "嘉士伯标签",
+        "titleEn": "Carlsberg label",
+        "creator": "Thorvald Bindesbøll",
+        "artistOrCulture": "Thorvald Bindesbøll",
+        "displayDate": "1904",
+        "medium": "graphic design / label",
+        "identityAnchor": "qr-site-2-thorvald-bindesboell-carlsberg-label-1904",
+        "officialObjectUrl": "https://designmuseum.dk/qr-site/2-thorvald-bindesboell-carlsberg-etikette-1904/",
+        "identitySourceUrl": "https://designmuseum.dk/qr-site/2-thorvald-bindesboell-carlsberg-etikette-1904/",
+        "accessionNumber": null,
+        "collectionGroup": "Prints and Drawings"
+      },
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Carlsberg_Pilsner_1904_label_by_Thorvald_Bindesboll.png",
+      "page": {
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Carlsberg_Pilsner_1904_label_by_Thorvald_Bindesboll.png",
+        "finalUrl": "https://commons.wikimedia.org/wiki/File:Carlsberg_Pilsner_1904_label_by_Thorvald_Bindesboll.png",
+        "pageTitle": "Wikimedia Commons API",
+        "bodyText": "",
+        "candidateCount": 3
+      },
+      "candidates": [
+        {
+          "candidateId": "commons-001",
+          "candidateType": "direct_image",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Carlsberg_Pilsner_1904_label_by_Thorvald_Bindesboll.png",
+          "nearbyText": "Carlsberg Pilsner 1904 label by Thorvald Bindesboll.png",
+          "naturalWidth": 373,
+          "naturalHeight": 472,
+          "contentType": "image/png",
+          "sourceType": "wikidata-commons",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Carlsberg_Pilsner_1904_label_by_Thorvald_Bindesboll.png",
+          "identityScore": 0
+        },
+        {
+          "candidateId": "commons-002",
+          "candidateType": "direct_image",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Carlsberg_Pilsner_1904_label.png",
+          "nearbyText": "Carlsberg Pilsner 1904 label.png",
+          "naturalWidth": 400,
+          "naturalHeight": 494,
+          "contentType": "image/png",
+          "sourceType": "wikidata-commons",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Carlsberg_Pilsner_1904_label.png",
+          "identityScore": 0
+        },
+        {
+          "candidateId": "commons-003",
+          "candidateType": "direct_image",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Waldemar_B%C3%B8hme_-_Thorvald_Bindesb%C3%B8ll%2C_Omslag_til_katalog%2C_Gl_Carlsberg_Udstillingen_%2C_1888%2C_KKS9709e%2C_Statens_Museum_for_Kunst.jpg/1920px-Waldemar_B%C3%B8hme_-_Thorvald_Bindesb%C3%B8ll%2C_Omslag_til_katalog%2C_Gl_Carlsberg_Udstillingen_%2C_1888%2C_KKS9709e%2C_Statens_Museum_for_Kunst.jpg",
+          "nearbyText": "Waldemar Bøhme - Thorvald Bindesbøll, Omslag til katalog, Gl Carlsberg Udstillingen , 1888, KKS9709e, Statens Museum for Kunst.jpg",
+          "naturalWidth": 1600,
+          "naturalHeight": 2182,
+          "contentType": "image/jpeg",
+          "sourceType": "wikidata-commons",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Waldemar_B%C3%B8hme_-_Thorvald_Bindesb%C3%B8ll,_Omslag_til_katalog,_Gl_Carlsberg_Udstillingen_,_1888,_KKS9709e,_Statens_Museum_for_Kunst.jpg",
+          "identityScore": 0
+        }
+      ]
+    },
+    {
+      "workId": "verner-panton-panton-chair-1960-1967",
+      "identity": {
+        "museumId": "designmuseum-danmark",
+        "workId": "verner-panton-panton-chair-1960-1967",
+        "title": "Panton Chair",
+        "objectType": "single_work",
+        "titleZh": "潘顿椅",
+        "titleEn": "Panton Chair",
+        "creator": "Verner Panton",
+        "artistOrCulture": "Verner Panton",
+        "displayDate": "1960/1967–68",
+        "medium": "plastic",
+        "identityAnchor": "qr-site-23-verner-panton-panton-chair-1960-1967-68",
+        "officialObjectUrl": "https://designmuseum.dk/qr-site/23-verner-panton-panton-chair-1960-1967-68/",
+        "identitySourceUrl": "https://designmuseum.dk/qr-site/23-verner-panton-panton-chair-1960-1967-68/",
+        "accessionNumber": null,
+        "collectionGroup": "Furniture"
+      },
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Panton_Chair_by_Verner_Panton.JPG",
+      "page": {
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Panton_Chair_by_Verner_Panton.JPG",
+        "finalUrl": "https://commons.wikimedia.org/wiki/File:Panton_Chair_by_Verner_Panton.JPG",
+        "pageTitle": "File:Panton Chair by Verner Panton.JPG - Wikimedia Commons",
+        "bodyText": "Jump to content\nMain menu\nSearch\nEnglish\nDonate\nCreate account\nLog in\nContents hide\nBeginning\nSummary\nLicensing\nFile:Panton Chair by Verner Panton.JPG\nFile\nDiscussion\nRead\nEdit\nView history\nTools\nAppearance hide\nText\nSmall\nStandard\nLarge\n\nThis page always uses small font size\n\nWidth\nStandard\nWide\nColor (beta)\nAutomatic\nLight\nDark\nFile File history File usage on Commons Metadata\nDownload\nall sizes\nUse this file\non the web\nUse this file\non a wiki\nEmail a link\nto this file\nInformation\nabout reusing\nSize of this preview: 500 × 670 pixels. Other resolutions: 250 × 335 pixels | 500 × 670 pixels | 960 × 1,287 pixels | 1,920 × 2,574 pixels.\nOriginal file (1,896 × 2,542 pixels, file size: 1.75 MB, MIME type: image/jpeg); ZoomViewer\nOpen in Media Viewer\nFile information\nStructured data\nCaptions\nEdit\nEnglish\nAdd a one-line explanation of what this file represents\nSummaryedit\nDescription\t\n日本語: パントンチェアを撮影。\n\nDate\t24 November 2014, 14:08:31\nSource\tOwn work\nAuthor\tTokumeigakarinoaoshima\nLicensingedit\nI, the copyright holder of this work, hereby publish it under the following license:\n \tThis file is made available under the Creative Commons CC0 1.0 Universal Public Domain Dedication.\nThe person who associated a work with this deed has dedicated the work to the public domain by waiving all of their rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.\n\nFile history\n\nClick on a date/time to view the file as it appeared at that time.\n\n\tDate/Time\tThumbnail\tDimensions\tUser\tComment\ncurrent\t11:59, 30 November 2014\t\t1,896 × 2,542 (1.75 MB)\tTokumeigakarinoaoshima (talk | contribs)\tUser created page with UploadWizard\n\nYou cannot overwrite this file.\n\nFile usage on Commons\n\nThere are no pages that use this file.\n\nMetadata\n\nThis file contains additional information such as Exif metadata which may have been added by the digital camera, scanner, or software program used to create or digitize it. If the file has been modified from its original state, some details such as the timestamp may not fully reflect those of the original file. The timestamp is only as accurate as the clock in the camera, and it may be completely wrong.\n\nCamera manufacturer\tPanasonic\nCamera model\tDMC-TZ40\nExposure time\t1/30 sec (0.033333333333333)\nF-number\tf/3.3\nISO speed rating\t400\nDate and time of data generation\t14:08, 24 November 2014\nLens focal length\t4.3 mm\nAltitude\t0 meters above sea level\nShow extended details\nCategories: Jidai Ga Motometa! 1970 Design TenBlue chairsPanton chair\nHidden categories: CC-ZeroSelf-published workTaken with Panasonic Lumix DMC-TZ40\nThis page was last edited on 12 June 2026, at 03:20.\nFiles are available under licenses specified on their description page. All structured data from the file namespace is available under the Creative Commons CC0 License; all unstructured text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and the Privacy Policy.\nPrivacy policy\nAbout Wikimedia Commons\nDisclaimers\nLegal & safety contacts\nCode of Conduct\nDevelopers\nStatistics\nCookie statement\nMobile view",
+        "candidateCount": 47
+      },
+      "candidates": [
+        {
+          "candidateId": "page-image-001",
+          "candidateType": "direct_image",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Gnome-document-save.svg/60px-Gnome-document-save.svg.png",
+          "selector": "div#mw-content-text > div:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1) > img",
+          "alt": "",
+          "nearbyText": "Toggle the table of contents\n\t\n\t\n\n\n\t\t\t\t\t\t\t\n\t\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\tFile:Panton Chair by Verner Panton.JPG\n\t\t\t\t\t\t\n\t\t\n\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\n\t\t\n\t\t\n\t\t\tFile\n\nDiscussion\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\t\t\t\n\n\t\n\tEnglish\n\t\n\t\n\n\n\t\t\t\t\t\n\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\n\t\n\n\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t    \n\n\t\n\t\t\n\t\t\n\t\t\tRead\n\nEdit\n\nView history\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\n\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\n\t\n\nTools\n\t\n\t\n\n\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\n\t\n\tTools\n\tmove to sidebar\n\thide\n\n\n\t\n\n\t\n\t\tActions\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\nRead\n\n\n\nEdit\n\n\n\nView history\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\n\t\n\t\tGeneral\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tWhat links hereRelated changesPermanent linkPage informationCite this pageGet shortened URLConcept URI\n\t\tNominate for deletion\n\t\t\n\t\n\n\n\n\t\n\t\tPrint/export\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tDownload as PDFPrintable version\n\t\t\n\t\t\n\t\n\n\n\n\t\n\t\tIn other projects\n\t\n\t\n\t\t\n\t\t\n\t\t\t",
+          "visible": true,
+          "boundingBox": {
+            "x": 761,
+            "y": 223,
+            "width": 50,
+            "height": 50
+          },
+          "naturalWidth": 60,
+          "naturalHeight": 60,
+          "elementKind": "img",
+          "elementIndex": 2,
+          "genericPenalty": 1,
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Panton_Chair_by_Verner_Panton.JPG",
+          "identityScore": 1320
+        },
+        {
+          "candidateId": "page-image-002",
+          "candidateType": "direct_image",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Gnome-emblem-web.svg/60px-Gnome-emblem-web.svg.png",
+          "selector": "div#mw-content-text > div:nth-of-type(1) > a:nth-of-type(2) > span:nth-of-type(1) > img",
+          "alt": "",
+          "nearbyText": "Toggle the table of contents\n\t\n\t\n\n\n\t\t\t\t\t\t\t\n\t\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\tFile:Panton Chair by Verner Panton.JPG\n\t\t\t\t\t\t\n\t\t\n\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\n\t\t\n\t\t\n\t\t\tFile\n\nDiscussion\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\t\t\t\n\n\t\n\tEnglish\n\t\n\t\n\n\n\t\t\t\t\t\n\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\n\t\n\n\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t    \n\n\t\n\t\t\n\t\t\n\t\t\tRead\n\nEdit\n\nView history\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\n\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\n\t\n\nTools\n\t\n\t\n\n\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\n\t\n\tTools\n\tmove to sidebar\n\thide\n\n\n\t\n\n\t\n\t\tActions\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\nRead\n\n\n\nEdit\n\n\n\nView history\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\n\t\n\t\tGeneral\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tWhat links hereRelated changesPermanent linkPage informationCite this pageGet shortened URLConcept URI\n\t\tNominate for deletion\n\t\t\n\t\n\n\n\n\t\n\t\tPrint/export\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tDownload as PDFPrintable version\n\t\t\n\t\t\n\t\n\n\n\n\t\n\t\tIn other projects\n\t\n\t\n\t\t\n\t\t\n\t\t\t",
+          "visible": true,
+          "boundingBox": {
+            "x": 761,
+            "y": 283,
+            "width": 50,
+            "height": 50
+          },
+          "naturalWidth": 60,
+          "naturalHeight": 60,
+          "elementKind": "img",
+          "elementIndex": 3,
+          "genericPenalty": 1,
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Panton_Chair_by_Verner_Panton.JPG",
+          "identityScore": 1320
+        },
+        {
+          "candidateId": "page-image-003",
+          "candidateType": "direct_image",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Tango_style_Wikipedia_Icon.svg/60px-Tango_style_Wikipedia_Icon.svg.png",
+          "selector": "div#mw-content-text > div:nth-of-type(1) > a:nth-of-type(3) > span:nth-of-type(1) > img",
+          "alt": "",
+          "nearbyText": "Toggle the table of contents\n\t\n\t\n\n\n\t\t\t\t\t\t\t\n\t\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\tFile:Panton Chair by Verner Panton.JPG\n\t\t\t\t\t\t\n\t\t\n\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\n\t\t\n\t\t\n\t\t\tFile\n\nDiscussion\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\t\t\t\n\n\t\n\tEnglish\n\t\n\t\n\n\n\t\t\t\t\t\n\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\n\t\n\n\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t    \n\n\t\n\t\t\n\t\t\n\t\t\tRead\n\nEdit\n\nView history\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\n\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\n\t\n\nTools\n\t\n\t\n\n\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\n\t\n\tTools\n\tmove to sidebar\n\thide\n\n\n\t\n\n\t\n\t\tActions\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\nRead\n\n\n\nEdit\n\n\n\nView history\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\n\t\n\t\tGeneral\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tWhat links hereRelated changesPermanent linkPage informationCite this pageGet shortened URLConcept URI\n\t\tNominate for deletion\n\t\t\n\t\n\n\n\n\t\n\t\tPrint/export\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tDownload as PDFPrintable version\n\t\t\n\t\t\n\t\n\n\n\n\t\n\t\tIn other projects\n\t\n\t\n\t\t\n\t\t\n\t\t\t",
+          "visible": true,
+          "boundingBox": {
+            "x": 761,
+            "y": 343,
+            "width": 50,
+            "height": 50
+          },
+          "naturalWidth": 60,
+          "naturalHeight": 60,
+          "elementKind": "img",
+          "elementIndex": 4,
+          "genericPenalty": 1,
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Panton_Chair_by_Verner_Panton.JPG",
+          "identityScore": 1320
+        },
+        {
+          "candidateId": "page-image-004",
+          "candidateType": "direct_image",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Gnome-mail-send.svg/60px-Gnome-mail-send.svg.png",
+          "selector": "div#mw-content-text > div:nth-of-type(1) > a:nth-of-type(4) > span:nth-of-type(1) > img",
+          "alt": "",
+          "nearbyText": "Toggle the table of contents\n\t\n\t\n\n\n\t\t\t\t\t\t\t\n\t\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\tFile:Panton Chair by Verner Panton.JPG\n\t\t\t\t\t\t\n\t\t\n\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\n\t\t\n\t\t\n\t\t\tFile\n\nDiscussion\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\t\t\t\n\n\t\n\tEnglish\n\t\n\t\n\n\n\t\t\t\t\t\n\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\n\t\n\n\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t    \n\n\t\n\t\t\n\t\t\n\t\t\tRead\n\nEdit\n\nView history\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\n\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\n\t\n\nTools\n\t\n\t\n\n\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\n\t\n\tTools\n\tmove to sidebar\n\thide\n\n\n\t\n\n\t\n\t\tActions\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\nRead\n\n\n\nEdit\n\n\n\nView history\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\n\t\n\t\tGeneral\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tWhat links hereRelated changesPermanent linkPage informationCite this pageGet shortened URLConcept URI\n\t\tNominate for deletion\n\t\t\n\t\n\n\n\n\t\n\t\tPrint/export\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tDownload as PDFPrintable version\n\t\t\n\t\t\n\t\n\n\n\n\t\n\t\tIn other projects\n\t\n\t\n\t\t\n\t\t\n\t\t\t",
+          "visible": true,
+          "boundingBox": {
+            "x": 761,
+            "y": 403,
+            "width": 50,
+            "height": 50
+          },
+          "naturalWidth": 60,
+          "naturalHeight": 60,
+          "elementKind": "img",
+          "elementIndex": 5,
+          "genericPenalty": 1,
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Panton_Chair_by_Verner_Panton.JPG",
+          "identityScore": 1320
+        },
+        {
+          "candidateId": "page-image-005",
+          "candidateType": "direct_image",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Dialog-information_on.svg/60px-Dialog-information_on.svg.png",
+          "selector": "div#mw-content-text > div:nth-of-type(1) > a:nth-of-type(5) > span:nth-of-type(1) > img",
+          "alt": "",
+          "nearbyText": "Toggle the table of contents\n\t\n\t\n\n\n\t\t\t\t\t\t\t\n\t\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\tFile:Panton Chair by Verner Panton.JPG\n\t\t\t\t\t\t\n\t\t\n\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\n\t\t\n\t\t\n\t\t\tFile\n\nDiscussion\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\t\t\t\n\n\t\n\tEnglish\n\t\n\t\n\n\n\t\t\t\t\t\n\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\n\t\n\n\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t    \n\n\t\n\t\t\n\t\t\n\t\t\tRead\n\nEdit\n\nView history\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\n\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\n\t\n\nTools\n\t\n\t\n\n\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\n\t\n\tTools\n\tmove to sidebar\n\thide\n\n\n\t\n\n\t\n\t\tActions\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\nRead\n\n\n\nEdit\n\n\n\nView history\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\n\t\n\t\tGeneral\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tWhat links hereRelated changesPermanent linkPage informationCite this pageGet shortened URLConcept URI\n\t\tNominate for deletion\n\t\t\n\t\n\n\n\n\t\n\t\tPrint/export\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tDownload as PDFPrintable version\n\t\t\n\t\t\n\t\n\n\n\n\t\n\t\tIn other projects\n\t\n\t\n\t\t\n\t\t\n\t\t\t",
+          "visible": true,
+          "boundingBox": {
+            "x": 761,
+            "y": 463,
+            "width": 50,
+            "height": 50
+          },
+          "naturalWidth": 60,
+          "naturalHeight": 60,
+          "elementKind": "img",
+          "elementIndex": 6,
+          "genericPenalty": 1,
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Panton_Chair_by_Verner_Panton.JPG",
+          "identityScore": 1320
+        }
+      ]
+    },
+    {
+      "workId": "arne-jacobsen-ant-chair-1952",
+      "identity": {
+        "museumId": "designmuseum-danmark",
+        "workId": "arne-jacobsen-ant-chair-1952",
+        "title": "The Ant",
+        "objectType": "single_work",
+        "titleZh": "蚂蚁椅",
+        "titleEn": "The Ant",
+        "creator": "Arne Jacobsen",
+        "artistOrCulture": "Arne Jacobsen",
+        "displayDate": "1952",
+        "medium": "chair; material not specified on the official exhibition page",
+        "identityAnchor": "danish-chair-ant-arne-jacobsen-1952",
+        "officialObjectUrl": "https://designmuseum.dk/en/the-danish-chair/",
+        "identitySourceUrl": "https://designmuseum.dk/en/the-danish-chair/",
+        "accessionNumber": null,
+        "collectionGroup": "Furniture"
+      },
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Design_Museum_Danmark_-_Ant_chair.jpg",
+      "page": {
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Design_Museum_Danmark_-_Ant_chair.jpg",
+        "finalUrl": "https://commons.wikimedia.org/wiki/File:Design_Museum_Danmark_-_Ant_chair.jpg",
+        "pageTitle": "Wikimedia Commons API",
+        "bodyText": "",
+        "candidateCount": 1
+      },
+      "candidates": [
+        {
+          "candidateId": "commons-001",
+          "candidateType": "direct_image",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Design_Museum_Danmark_-_Ant_chair.jpg/1920px-Design_Museum_Danmark_-_Ant_chair.jpg",
+          "nearbyText": "Design Museum Danmark - Ant chair.jpg",
+          "naturalWidth": 1600,
+          "naturalHeight": 2133,
+          "contentType": "image/jpeg",
+          "sourceType": "wikidata-commons",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Design_Museum_Danmark_-_Ant_chair.jpg",
+          "identityScore": 0
+        }
+      ]
+    }
+  ]
+}

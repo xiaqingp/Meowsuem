@@ -1,0 +1,75 @@
+{
+  "status": "failed",
+  "errors": [
+    {
+      "code": "SOURCES_SCHEMA",
+      "message": "$.upstreamConflicts[0].lockedValue is required",
+      "matches": [],
+      "severity": "error"
+    },
+    {
+      "code": "SOURCES_SCHEMA",
+      "message": "$.upstreamConflicts[0].observedValue is required",
+      "matches": [],
+      "severity": "error"
+    },
+    {
+      "code": "SOURCES_SCHEMA",
+      "message": "$.upstreamConflicts[0].explanation is required",
+      "matches": [],
+      "severity": "error"
+    },
+    {
+      "code": "SOURCES_SCHEMA",
+      "message": "$.upstreamConflicts[1].lockedValue is required",
+      "matches": [],
+      "severity": "error"
+    },
+    {
+      "code": "SOURCES_SCHEMA",
+      "message": "$.upstreamConflicts[1].observedValue is required",
+      "matches": [],
+      "severity": "error"
+    },
+    {
+      "code": "SOURCES_SCHEMA",
+      "message": "$.upstreamConflicts[1].explanation is required",
+      "matches": [],
+      "severity": "error"
+    },
+    {
+      "code": "OFFICIAL_SOURCE_COVERAGE",
+      "message": "Official museum sources do not cover material",
+      "matches": [
+        "material"
+      ],
+      "severity": "error"
+    }
+  ],
+  "warnings": [],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": false,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": true,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "把键盘变成一场手指的编舞",
+    "它首先关心的，不只是办公室效率",
+    "一件模型，为什么也值得进入博物馆",
+    "尼采留下的，不只是一个故事"
+  ],
+  "sourceCount": 4,
+  "articleBytes": 6083,
+  "sourcesBytes": 3633
+}

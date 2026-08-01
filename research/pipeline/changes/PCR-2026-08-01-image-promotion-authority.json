@@ -1,0 +1,24 @@
+{
+  "id": "PCR-2026-08-01-image-promotion-authority",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-01",
+  "ownerInstruction": "Publish all pipeline changes and make README the operating manual.",
+  "baseRelease": "research/pipeline/releases/v2.13.11.json",
+  "targetVersion": "2.13.12",
+  "implementationStatus": "completed",
+  "scope": [
+    "register the verified image-repair promotion tool as an approved non-prose writer",
+    "keep the content authority gate aligned with the frozen canonical file set"
+  ],
+  "outOfScope": ["changing museum prose", "weakening image identity or hash validation"],
+  "allowedCanonicalFiles": ["scripts/verify-content-pipeline.mjs"],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/test-promote-image-repair.mjs",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

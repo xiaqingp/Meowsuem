@@ -17,8 +17,9 @@ async function atomicJson(file, value) {
   await atomicWrite(file, `${JSON.stringify(value, null, 2)}\n`);
 }
 
-export async function adaptOneShotWork({artifactRoot, verification, previousFailure = null, replace = false}) {
-  if (verification?.status !== "passed" || verification.errors?.length) {
+export async function adaptOneShotWork({artifactRoot, verification, previousFailure = null, replace = false, allowWarnings = false}) {
+  const hasVerificationErrors = verification?.status !== "passed" || verification.errors?.length;
+  if (hasVerificationErrors && !allowWarnings) {
     throw new Error("one-shot integration requires a passed verifier result");
   }
   const [lockedText, article, sourcesText] = await Promise.all([
@@ -52,7 +53,8 @@ export async function adaptOneShotWork({artifactRoot, verification, previousFail
   }
   const result = {
     schemaVersion: 1,
-    status: "passed",
+    status: hasVerificationErrors ? "warning" : "passed",
+    publicationWarnings: hasVerificationErrors ? (verification.errors ?? []).map(({code, message, matches}) => ({code, message, matches})) : [],
     modelCalls: 0,
     previousFailure,
     rules: {

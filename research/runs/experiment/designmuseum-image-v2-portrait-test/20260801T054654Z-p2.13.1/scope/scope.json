@@ -1,0 +1,153 @@
+{
+  "museumId": "designmuseum-danmark",
+  "museumName": "Designmuseum Danmark",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "officialCollectionUrl": "https://designmuseum.dk/en/",
+  "editorialCapacity": {
+    "count": 30,
+    "reason": "The museum presents a broad national design collection rather than a single-period house: its official overview covers Western crafts, art and industrial design from the late Middle Ages to today, East Asian material from prehistory to the present, and focused groups including furniture, fashion, textiles, ceramics, glass, porcelain, product and industrial design. A 30-work route can establish the core Danish and international design story while adding representative objects from the museum's distinctive collection groups; 40 or 60 would risk turning the route into an inventory of a much larger research collection, of which only a small percentage is displayed."
+  },
+  "collectionBoundaries": [
+    {
+      "name": "Main museum venue and permanent exhibits",
+      "location": "Designmuseum Danmark, Bredgade 68, 1260 Copenhagen K",
+      "entersCandidatePool": true,
+      "scope": "The public museum venue housed in the former Royal Frederik's Hospital, including its ticketed exhibits and collections. This is the sole in-scope visitor venue for the run.",
+      "sourceIds": ["S1", "S2", "S3", "S8"]
+    },
+    {
+      "name": "Objects and collections",
+      "location": "Designmuseum Danmark, Bredgade 68",
+      "entersCandidatePool": true,
+      "scope": "Furniture, silver, ceramics, fashion, textiles, digital design, crafts, art and industrial design from the Western world from the late Middle Ages to today; East Asian holdings, primarily Japanese and Chinese, from prehistoric times to the present. The official overview also identifies glass, porcelain, industrial design and product design as object groups.",
+      "sourceIds": ["S3", "S4"]
+    },
+    {
+      "name": "Prints and Drawings archive",
+      "location": "Designmuseum Danmark archive/research collections, Bredgade 68",
+      "entersCandidatePool": true,
+      "scope": "Original drawings and preliminary works, printed graphic design, Japanese colour woodcuts and book crafts, Danish and international record covers, and European ornamental engravings; the group documents design processes from the Golden Age of design and craftsmanship to contemporary handicraft and industrial design.",
+      "sourceIds": ["S1", "S5"]
+    },
+    {
+      "name": "Poster collection",
+      "location": "Designmuseum Danmark collection, Bredgade 68",
+      "entersCandidatePool": true,
+      "scope": "Danish and international commercial, cultural and political posters from the nineteenth-century poster boom to today, including advertising, propaganda, concert, film, theatre, transport and tourism material. Posters are also stated to appear in the permanent collection display.",
+      "sourceIds": ["S1", "S7"]
+    },
+    {
+      "name": "Furniture Index",
+      "location": "Online research database maintained through Designmuseum Danmark",
+      "entersCandidatePool": false,
+      "scope": "A reference database of more than 12,000 pieces of furniture and interiors designed by Danish architects and designers in the twentieth and twenty-first centuries. It is a discovery and documentation resource, not a separate public venue or an automatic substitute for a uniquely identified museum object.",
+      "sourceIds": ["S1", "S6"]
+    },
+    {
+      "name": "Library, archives and design workshop study material",
+      "location": "Designmuseum Danmark, Bredgade 68",
+      "entersCandidatePool": false,
+      "scope": "Research, educational and hands-on resources supporting the museum's work; the design workshop's small study collection is not treated as an independent core object group for the 30-work candidate pool.",
+      "sourceIds": ["S3", "S8"]
+    }
+  ],
+  "exclusions": [
+    {
+      "item": "Temporary, upcoming and archived exhibitions",
+      "reason": "They are programme content rather than the stable collection boundary for this run. Objects may enter later only when independently catalogued as collection objects with a reliable identity anchor.",
+      "sourceIds": ["S1"]
+    },
+    {
+      "item": "Museum shop, Café FORMAT, museum garden, assembly/event facilities and design workshop as visitor destinations",
+      "reason": "These are visitor amenities, event or educational spaces, not separate collection venues; the garden, shop, café and library are explicitly described as free-access facilities and the workshop as a learning platform.",
+      "sourceIds": ["S3", "S8"]
+    },
+    {
+      "item": "Any separate branch or independently ticketed off-site collection venue",
+      "reason": "The official visit, about and collection pages identify the public museum and its collection resources at Bredgade 68. No separate public branch or independently ticketed collection venue is identified in the locked official site evidence; this remains a boundary check for later stages if a candidate points elsewhere.",
+      "sourceIds": ["S1", "S2", "S3", "S8"]
+    }
+  ],
+  "riskFlags": [],
+  "sourcePointers": [
+    {
+      "id": "S1",
+      "title": "Design Museum Denmark official homepage",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/",
+      "accessDate": "2026-07-31",
+      "supports": "Official site identity and entry point; Bredgade 68 address; navigation to collections and research resources; distinction between current/upcoming/archive exhibitions and collection resources."
+    },
+    {
+      "id": "S2",
+      "title": "Visit us",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/besog-os/",
+      "accessDate": "2026-07-31",
+      "supports": "The museum's official visitor address: Bredgade 68, 1260 Copenhagen K, Denmark."
+    },
+    {
+      "id": "S3",
+      "title": "History & architecture",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/om-museet-2/history-architecture/",
+      "accessDate": "2026-07-31",
+      "supports": "The museum's role as a venue for Danish and international industrial design, applied arts and craft; its collecting focus; the Bredgade 68 former Royal Frederik's Hospital site; library/archive and design-workshop context."
+    },
+    {
+      "id": "S4",
+      "title": "Objects & collections",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+      "accessDate": "2026-07-31",
+      "supports": "Object-collection breadth, chronology, East Asian scope, named categories, and the fact that only a small percentage of the collections is on display."
+    },
+    {
+      "id": "S5",
+      "title": "Prints and Drawings",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/samlinger/arkiv-dansk-design/",
+      "accessDate": "2026-07-31",
+      "supports": "Prints and Drawings archive scope, graphic-design strengths, Japanese and European holdings, and design-process documentation."
+    },
+    {
+      "id": "S6",
+      "title": "Furnitureindex",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/furnitureindex/",
+      "accessDate": "2026-07-31",
+      "supports": "Furniture Index status as an online database, its Danish twentieth- and twenty-first-century scope, and its more-than-12,000 records."
+    },
+    {
+      "id": "S7",
+      "title": "Poster collection",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/samlinger/plakatsamlingen/",
+      "accessDate": "2026-07-31",
+      "supports": "Poster collection chronology, Danish and international scope, genres, and permanent-display status."
+    },
+    {
+      "id": "S8",
+      "title": "Practical information",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/besog-os/practical-information/",
+      "accessDate": "2026-07-31",
+      "supports": "Ticket access to exhibits and collections; free-access visitor facilities; design-workshop and library context; temporarily closed porcelain collection and accessibility boundary."
+    },
+    {
+      "id": "S9",
+      "title": "Google Maps listing linked from the museum's official Getting here page",
+      "publisher": "Google Maps, link provided by Designmuseum Danmark",
+      "url": "https://www.google.dk/maps/place/Designmuseum%2BDanmark/%4055.686712%2C12.5922897%2C18z/data%3D%214m5%213m4%211s0x46525321ebc43c31%3A0xa74673481cec4ff7%218m2%213d55.6865563%214d12.5928422",
+      "accessDate": "2026-07-31",
+      "supports": "Map coordinates for Designmuseum Danmark: 55.6865563, 12.5928422."
+    }
+  ],
+  "coordinates": [55.6865563, 12.5928422],
+  "uncertainties": [
+    "The official site says the Prints and Drawings and Poster Collection databases are being migrated and are expected to return in the second half of 2026 or in a few months; candidate selection must therefore verify each object through an accessible official object record or another locked, reliable identity source.",
+    "The official practical-information page says the porcelain collection is temporarily closed and that only a small percentage of the total collections is displayed; collection membership must not be treated as proof of same-day visibility.",
+    "The official site evidence identifies the public museum at Bredgade 68 but does not provide a formal branch register; any later candidate with a different location should be held for explicit boundary confirmation."
+  ]
+}

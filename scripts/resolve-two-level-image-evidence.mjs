@@ -36,9 +36,11 @@ const structure = await readJson(path.join(runRoot, "structure", "structure.json
 const museumId = pool.museumId || pool.museum?.id || descriptor.targetMuseumId || descriptor.museumId;
 if (museumId !== (descriptor.museumId || descriptor.targetMuseumId)) throw new Error("two-level image evidence museum identity drift");
 const selectedIds = new Set((selection.selectedWorks || selection.works || []).map(item => item.workId || item.id));
+const onlyWork = arg("--only-work");
+if (onlyWork && !selectedIds.has(onlyWork)) throw new Error(`--only-work is not in frozen selection: ${onlyWork}`);
 const poolById = new Map((pool.candidates || []).map(item => [item.workId || item.id, item]));
 const structureById = new Map((structure.works || []).map(item => [item.workId || item.id, item]));
-const candidates = [...selectedIds].map(workId => {
+const candidates = [...selectedIds].filter(workId => !onlyWork || workId === onlyWork).map(workId => {
   const item = poolById.get(workId);
   if (!item) throw new Error(`selected work missing from candidate pool: ${workId}`);
   const identity = item.identity || {};
@@ -110,12 +112,17 @@ async function inspectFast(candidate) {
         title: node.querySelector("figcaption,h1,h2,h3,[data-title]")?.textContent || node.getAttribute("aria-label") || "",
         creator: node.querySelector("[data-artist],.artist,.creator")?.textContent || "",
       }));
+      const largestSrcset = value => String(value || "").split(",").map(part => {
+        const [url, descriptor = ""] = part.trim().split(/\s+/);
+        const weight = descriptor.endsWith("w") ? Number(descriptor.slice(0, -1)) : descriptor.endsWith("x") ? Number(descriptor.slice(0, -1)) * 1000 : 0;
+        return {url, weight};
+      }).filter(item => item.url).sort((a, b) => b.weight - a.weight)[0]?.url || null;
       const images = Array.from(document.images).map((image, index) => {
         const figure = image.closest("figure");
         const container = image.closest("figure,article,[data-object-id],[data-work-id]") || image.parentElement;
         return {
           id: `dom-${index + 1}`,
-          url: image.currentSrc || image.src,
+          url: largestSrcset(image.getAttribute("data-srcset")) || largestSrcset(image.srcset) || image.getAttribute("data-src") || image.getAttribute("data-lazy-src") || image.currentSrc || image.src,
           alt: image.alt || "",
           caption: figure?.querySelector("figcaption")?.textContent || "",
           nearbyText: (container?.innerText || "").slice(0, 1000),
@@ -241,49 +248,78 @@ try {
 const unresolved = records.filter(record => !record.selected);
 let modelRun = null;
 if (unresolved.length) {
-  await fs.mkdir(modelRoot, {recursive: true});
-  const packetPath = path.join(modelRoot, "image-research-packet.json");
-  const packet = {
-    schemaVersion: 1,
-    museumId,
-    works: unresolved.map(record => ({
-      workId: record.workId,
-      identity: record.identity,
-      officialObjectUrl: record.identity.officialObjectUrl,
-      collectionGroup: record.identity.collectionGroup,
-      fastPathCandidates: record.fastPath.fastCandidate ? [record.fastPath.fastCandidate] : [],
-      excludedImageUrls: record.fastPath.excludedImageUrls || [],
-    })),
-  };
-  await fs.writeFile(packetPath, `${JSON.stringify(packet, null, 2)}\n`, "utf8");
-  const header = {
-    runId: descriptor.runId,
-    startedAt: new Date().toISOString(),
-    stage: "image_disambiguation",
-    imageResearchMode: "two_level",
-    caseId: descriptor.caseId,
-    targetMuseumId: museumId,
-    pipelineVersion: manifest.pipelineVersion,
-    instructionVersion: manifest.currentVersion,
-    executionProfile: manifest.modelRouting.image_disambiguation,
-    allowedInputs: [{path: rel(packetPath), role: "image_candidate_packet", sha256: sha256(await fs.readFile(packetPath))}],
-    outputs: ["image-decisions.json"],
-    reviewer: "disabled",
-    retry: "disabled",
-    publicationBoundary: "evidence_only",
-  };
-  await fs.writeFile(path.join(modelRoot, "run-header.json"), `${JSON.stringify(header, null, 2)}\n`, "utf8");
-  const modelOutputPath = path.join(modelRoot, "image-decisions.json");
-  const reuseModelOutput = await fs.access(modelOutputPath).then(() => true).catch(() => false) && !process.argv.includes("--rerun-model");
-  if (!reuseModelOutput) {
-    const run = spawnSync("powershell.exe", ["-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-File", path.join(projectRoot, "scripts", "run-isolated-generation.ps1"), "-ProjectRoot", projectRoot, "-RunDirectory", modelRoot], {cwd: projectRoot, encoding: "utf8", timeout: 20 * 60 * 1000});
-    if (run.status !== 0) throw new Error(`two-level image research failed: ${run.stderr || run.stdout}`);
+  const batchRoot = path.join(evidenceRoot, "model-runs");
+  await fs.mkdir(batchRoot, {recursive: true});
+  const aiOutputs = [];
+  const stageResults = [];
+  for (let offset = 0; offset < unresolved.length; offset += 10) {
+    const batchWorks = unresolved.slice(offset, offset + 10);
+    const batchKey = sha256(batchWorks.map(record => record.workId).join("\n")).slice(0, 12);
+    const batchDirectory = path.join(batchRoot, `batch-${String(offset / 10 + 1).padStart(2, "0")}-${batchKey}`);
+    await fs.mkdir(batchDirectory, {recursive: true});
+    const packetPath = path.join(batchDirectory, "image-research-packet.json");
+    const packet = {
+      schemaVersion: 1,
+      museumId,
+      works: batchWorks.map(record => ({
+        workId: record.workId,
+        identity: record.identity,
+        officialObjectUrl: record.identity.officialObjectUrl,
+        collectionGroup: record.identity.collectionGroup,
+        fastPathCandidates: record.fastPath.fastCandidate ? [record.fastPath.fastCandidate] : [],
+        excludedImageUrls: record.fastPath.excludedImageUrls || [],
+      })),
+    };
+    await fs.writeFile(packetPath, `${JSON.stringify(packet, null, 2)}\n`, "utf8");
+    const header = {
+      runId: descriptor.runId,
+      startedAt: new Date().toISOString(),
+      stage: "image_disambiguation",
+      imageResearchMode: "two_level",
+      ...(descriptor.runKind === "production"
+        ? {museumId}
+        : {caseId: descriptor.caseId, targetMuseumId: museumId}),
+      pipelineVersion: manifest.pipelineVersion,
+      instructionVersion: manifest.currentVersion,
+      executionProfile: manifest.modelRouting.image_disambiguation,
+      allowedInputs: [{path: rel(packetPath), role: "image_candidate_packet", sha256: sha256(await fs.readFile(packetPath))}],
+      outputs: ["image-decisions.json"],
+      reviewer: "disabled",
+      retry: "disabled",
+      publicationBoundary: "evidence_only",
+    };
+    await fs.writeFile(path.join(batchDirectory, "run-header.json"), `${JSON.stringify(header, null, 2)}\n`, "utf8");
+    const modelOutputPath = path.join(batchDirectory, "image-decisions.json");
+    const existingModelOutput = await readJson(modelOutputPath).catch(() => null);
+    const normalizeWorkId = value => String(value || "").toLowerCase().replace(/[^a-z0-9-]/g, "");
+    const expectedWorkIds = new Set(batchWorks.map(record => normalizeWorkId(record.workId)));
+    const reuseModelOutput = Boolean(existingModelOutput)
+      && !process.argv.includes("--rerun-model")
+      && existingModelOutput.works?.length === batchWorks.length
+      && existingModelOutput.works.every(item => {
+        const workId = normalizeWorkId(item.workId);
+        return !workId || expectedWorkIds.has(workId);
+      });
+    if (!reuseModelOutput) {
+      const run = spawnSync("powershell.exe", ["-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-File", path.join(projectRoot, "scripts", "run-isolated-generation.ps1"), "-ProjectRoot", projectRoot, "-RunDirectory", batchDirectory], {cwd: projectRoot, encoding: "utf8", timeout: 20 * 60 * 1000});
+      if (run.status !== 0) throw new Error(`two-level image research failed: ${run.stderr || run.stdout}`);
+    }
+    const aiOutput = normalizeAiResult(await readJson(modelOutputPath));
+    const normalizedWorks = aiOutput.works.map((item, index) => {
+      const workId = normalizeWorkId(item.workId);
+      return {...item, workId: workId || normalizeWorkId(batchWorks[index]?.workId)};
+    });
+    if (normalizedWorks.length !== batchWorks.length || new Set(normalizedWorks.map(item => item.workId)).size !== batchWorks.length || normalizedWorks.some(item => !expectedWorkIds.has(item.workId))) throw new Error("AI image research must return exactly one result per batch");
+    aiOutputs.push(...normalizedWorks);
+    const resultFile = path.join(batchDirectory, "image_disambiguation-result.json");
+    const stageResult = await readJson(resultFile).catch(() => null);
+    if (stageResult) stageResults.push(stageResult);
   }
-  const aiOutput = normalizeAiResult(await readJson(modelOutputPath));
-  if (aiOutput.works.length !== unresolved.length || new Set(aiOutput.works.map(item => item.workId)).size !== unresolved.length) throw new Error("AI image research must return exactly one result per unresolved work");
-  for (const item of aiOutput.works) {
-    const record = records.find(value => value.workId === item.workId);
-    const candidate = candidates.find(value => value.workId === item.workId);
+  for (const item of aiOutputs) {
+    const workId = String(item.workId || "").toLowerCase().replace(/[^a-z0-9-]/g, "");
+    const record = records.find(value => String(value.workId || "").toLowerCase().replace(/[^a-z0-9-]/g, "") === workId);
+    const candidate = candidates.find(value => String(value.workId || "").toLowerCase().replace(/[^a-z0-9-]/g, "") === workId);
+    item.workId = workId;
     record.aiResult = item;
     if (item.status !== "candidate_found" || !item.selectedCandidate?.imageUrl) {
       record.warnings.push(...(item.limitations || ["No identity-bound object image found"]));
@@ -292,27 +328,68 @@ if (unresolved.length) {
     try { await saveRemoteImage(record, candidate, item.selectedCandidate, "ai_image_research"); }
     catch (error) { record.warnings.push(`AI candidate download failed: ${error.message}`); }
   }
-  const resultFile = path.join(modelRoot, "image_disambiguation-result.json");
-  const stageResult = await readJson(resultFile).catch(() => null);
-  modelRun = stageResult
-    ? {runRoot: rel(modelRoot), model: stageResult.model, reasoningEffort: stageResult.reasoningEffort, durationMs: stageResult.modelDurationMs, tokens: stageResult.tokenUsage?.total || 0}
-    : {runRoot: rel(modelRoot), model: manifest.modelRouting.image_disambiguation.model, reasoningEffort: manifest.modelRouting.image_disambiguation.reasoningEffort, durationMs: null, tokens: null, reusedOutput: true};
+  modelRun = {
+    runRoot: rel(batchRoot),
+    model: manifest.modelRouting.image_disambiguation.model,
+    reasoningEffort: manifest.modelRouting.image_disambiguation.reasoningEffort,
+    durationMs: stageResults.reduce((sum, result) => sum + (result.modelDurationMs || 0), 0) || null,
+    tokens: stageResults.reduce((sum, result) => sum + (result.tokenUsage?.total || 0), 0) || null,
+    batches: Math.ceil(unresolved.length / 10),
+  };
 }
 
 const heroPath = path.join(assetsRoot, "museum-hero-placeholder.jpg");
+let heroMeta = null;
 if (!await fs.access(heroPath).then(() => true).catch(() => false)) {
   const heroBrowser = await chromium.launch({headless: true, ...(chromePath ? {executablePath: chromePath} : {})});
   try {
     const page = await heroBrowser.newPage();
     await page.goto(scope.officialCollectionUrl, {waitUntil: "domcontentloaded", timeout: 30000});
-    const heroUrl = await page.evaluate(() => document.querySelector('meta[property="og:image"]')?.content || document.querySelector('meta[name="twitter:image"]')?.content || null);
+    const heroUrl = await page.evaluate(() => {
+      const meta = document.querySelector('meta[property="og:image"]')?.content || document.querySelector('meta[name="twitter:image"]')?.content;
+      if (meta) return meta;
+      return Array.from(document.images)
+        .map(image => ({url: image.currentSrc || image.src, alt: image.alt || "", width: image.naturalWidth || 0, height: image.naturalHeight || 0}))
+        .filter(image => image.url && image.width >= 480 && image.height >= 280 && !/logo|icon|avatar|ticket|menu/i.test(`${image.url} ${image.alt}`))
+        .sort((a, b) => b.width * b.height - a.width * a.height)[0]?.url || null;
+    });
     if (heroUrl) {
       const hero = await fetchSafeImage(new URL(heroUrl, page.url()).href);
+      const dimensions = imageDimensions(hero.bytes, hero.type);
+      if (!dimensions || dimensions.width < 180 || dimensions.height < 120) throw new Error("museum hero is too small");
       await fs.writeFile(heroPath, hero.bytes);
+      heroMeta = {url: hero.url, bytes: hero.bytes, type: hero.type, dimensions};
     }
     await page.close();
   } catch {}
   await heroBrowser.close();
+}
+if (!heroMeta && await fs.access(heroPath).then(() => true).catch(() => false)) {
+  const bytes = await fs.readFile(heroPath);
+  const type = "image/jpeg";
+  const dimensions = imageDimensions(bytes, type);
+  if (dimensions) heroMeta = {url: scope.officialCollectionUrl, bytes, type, dimensions};
+}
+// Museum-level hero images are never valid substitutes for unresolved works.
+if (false && heroMeta) {
+  const hash = sha256(heroMeta.bytes);
+  for (const record of records.filter(item => item.status === "object_image_unresolved" || item.status === "provider_unavailable")) {
+    record.originalStatus = record.status;
+    record.status = "accepted";
+    record.imagePolicy = "museum_hero_placeholder";
+    record.selected = {
+      url: heroMeta.url,
+      localPath: rel(heroPath),
+      sha256: hash,
+      width: heroMeta.dimensions.width,
+      height: heroMeta.dimensions.height,
+      contentType: heroMeta.type,
+      method: "museum_hero_placeholder",
+      provider: "locked_museum_hero",
+      identitySignals: ["museum_level_context_only"],
+      evidenceId: `img:${museumId}:museum-hero:${hash.slice(0, 12)}`,
+    };
+  }
 }
 
 const duplicateObjectImageGroups = assertNoDuplicateObjectImages(records);
@@ -323,7 +400,7 @@ const output = {
   pipelineVersion: manifest.pipelineVersion,
   generatedAt: new Date().toISOString(),
   parentRunId: descriptor.parentRunId || null,
-  resolver: {version: 1, mode: "two_level", fastPath: "official_object_url", modelPolicy: "all_unresolved_to_ai", model: manifest.modelRouting.image_disambiguation.model, reasoningEffort: manifest.modelRouting.image_disambiguation.reasoningEffort},
+  resolver: {version: 3, mode: "four_tier", tiers: ["official_api_iiif", "luna_official_page_plan", "wikidata_commons", "luna_open_web"], fastPath: "official_structured_or_identity_bound_dom", modelPolicy: "unresolved_only", model: manifest.modelRouting.image_disambiguation.model, reasoningEffort: manifest.modelRouting.image_disambiguation.reasoningEffort},
   summary: {
     works: records.length,
     fastPathAccepted: records.filter(record => record.selected?.method === "official_fast_path").length,
@@ -334,7 +411,7 @@ const output = {
     unresolved: records.filter(record => record.status === "object_image_unresolved").length,
     providerUnavailable: records.filter(record => record.status === "provider_unavailable").length,
     duplicateObjectImageGroups,
-    modelCalls: modelRun ? 1 : 0,
+    modelCalls: modelRun?.batches || 0,
     modelTokens: modelRun?.tokens || 0,
   },
   modelRun,

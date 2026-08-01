@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "gauguin-jug-self-portrait-1889",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "artist_intent"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Designmuseum Danmark Årsberetning 2013",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/wp-content/uploads/2017/03/Designmuseum-Danmark-Aarsberetning2013.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "collectionRelation",
+        "collectionHistory",
+        "accessionNumber"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Vessel with Women and Goats",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/239364",
+      "sourceType": "museum",
+      "usedFor": [
+        "makingProcess",
+        "historicalContext",
+        "material"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Paul Gauguin and The Colonial Myth of Primitivism",
+      "publisher": "Concordia University Open Textbooks",
+      "url": "https://opentextbooks.concordia.ca/creating-the-modern/chapter/7-paul-gauguin-and-the-colonial-myth-of-primitivism/",
+      "sourceType": "academic",
+      "usedFor": [
+        "material",
+        "visualAnalysis",
+        "historicalContext",
+        "culturalContext"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Gauguin: Maker of Myth — National Gallery of Art press list",
+      "publisher": "National Gallery of Art",
+      "url": "https://www.nga.gov/content/dam/ngaweb/press/exh/3011/3011-list.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "material"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "馆方将高更描述为不把陶瓷与艺术截然分开，并认为他把陶瓷视为艺术媒介。",
+      "type": "artist_intent",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "当前展出状态",
+      "statement": "官方 Director's Choice 页面确认作品属于馆方精选馆藏并提供音频导览，但未明确说明它在2026年当前是否实际陈列。"
+    },
+    {
+      "topic": "具体制作过程",
+      "statement": "Met馆方资料概述了高更陶艺实践中的手工塑形方法，但锁定的官方对象页没有单独记录这件壶是否完全采用该方法。"
+    },
+    {
+      "topic": "与梵高事件的关系",
+      "statement": "作品的截断头部与红色釉痕可引发对高更—梵高关系及艺术家受难主题的联想，但现有来源不足以证明它是对某一具体事件的直接再现。"
+    }
+  ],
+  "upstreamConflicts": []
+}

@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "stage": "image_evidence_retry",
+  "runId": "20260801T143651Z-p2.13.5",
+  "runRoot": "research/runs/experiment/designmuseum-image-v2-batch-1/20260801T143651Z-p2.13.5",
+  "parentRunRoot": "research/runs/experiment/designmuseum-image-v2-portrait-test/20260801T054847Z-p2.13.3",
+  "parentEvidenceSha256": "12e4a6de3bfec159826a71d7804d8367ec38f5bdd14778fc56d5563a3cd8fc17",
+  "failedWorksRetried": [
+    {
+      "workId": "flora-danica-four-sided-serving-dish",
+      "priorStatus": "accepted",
+      "priorFailure": [
+        "No identity-bound object image found"
+      ],
+      "sourcePageUrl": null
+    },
+    {
+      "workId": "chinese-jug-handle-spout-yongle",
+      "priorStatus": "accepted",
+      "priorFailure": [
+        "AI candidate download failed: image dimensions are missing or too small"
+      ],
+      "sourcePageUrl": "https://designmuseum.dk/en/directors-choice/"
+    },
+    {
+      "workId": "tsuba-sano-naoyoshi-c1775",
+      "priorStatus": "accepted",
+      "priorFailure": [],
+      "sourcePageUrl": null
+    },
+    {
+      "workId": "spengler-temple-spiral-staircase-1760",
+      "priorStatus": "accepted",
+      "priorFailure": [
+        "AI candidate download failed: image dimensions are missing or too small"
+      ],
+      "sourcePageUrl": "h\r\nttps://designmuseum.dk/en/directors-choice/"
+    },
+    {
+      "workId": "malling-hansen-writing-ball-1870s",
+      "priorStatus": "accepted",
+      "priorFailure": [
+        "No identity-bound object image found"
+      ],
+      "sourcePageUrl": "https://designmuseum.dk/en/directors-choice/"
+    },
+    {
+      "workId": "heron-service-wine-cooler-1885-88",
+      "priorStatus": "accepted",
+      "priorFailure": [
+        "AI candidate download failed: image dimensions are missing or too small"
+      ],
+      "sourcePageUrl": "https://designmuseum.dk/en/directors-choice/"
+    },
+    {
+      "workId": "thorvald-bindesboll-carlsberg-label-1904",
+      "priorStatus": "accepted",
+      "priorFailure": [],
+      "sourcePageUrl": "https://designmuseum.dk/qr-site/2-thorvald-bindesboell-carlsberg-\r\netikette-1904/"
+    },
+    {
+      "workId": "gauguin-jug-self-portrait-1889",
+      "priorStatus": "accepted",
+      "priorFailure": [],
+      "sourcePageUrl": "https://designmuseum.dk/en/directors-choice/"
+    },
+    {
+      "workId": "hegermann-lindencrone-porcelain-vase-1899-1900",
+      "priorStatus": "accepted",
+      "priorFailure": [
+        "AI candidate download failed: image dimensions are missing or too small"
+      ],
+      "sourcePageUrl": "https://desig\r\nnmuseum.dk/en/directors-choice/"
+    },
+    {
+      "workId": "poul-henningsen-table-lamp-4-3-1927",
+      "priorStatus": "accepted",
+      "priorFailure": [
+        "The official page confirms the work identity, but no \r\nsufficiently verifiable direct image URL for this exact 4/3 table-lamp work was found."
+      ],
+      "sourcePageUrl": null
+    }
+  ],
+  "newlyAccepted": [],
+  "stillUnresolved": [
+    {
+      "workId": "flora-danica-four-sided-serving-dish",
+      "sourcePageUrl": "https://designmuseum.dk/en/directors-choice/",
+      "warnings": [
+        "No supplied candidate is identity-bound to this work."
+      ]
+    },
+    {
+      "workId": "chinese-jug-handle-spout-yongle",
+      "sourcePageUrl": "https://designmuseum.dk/en/directors-choice/",
+      "warnings": [
+        "No supplied candidate is identity-bound to this work."
+      ]
+    },
+    {
+      "workId": "tsuba-sano-naoyoshi-c1775",
+      "sourcePageUrl": "https://designmuseum.dk/en/directors-choice/",
+      "warnings": [
+        "No supplied candidate is identity-bound to this work."
+      ]
+    },
+    {
+      "workId": "spengler-temple-spiral-staircase-1760",
+      "sourcePageUrl": "https://designmuseum.dk/en/directors-choice/",
+      "warnings": [
+        "No supplied candidate is identity-bound to this work."
+      ]
+    },
+    {
+      "workId": "malling-hansen-writing-ball-1870s",
+      "sourcePageUrl": "https://designmuseum.dk/en/directors-choice/",
+      "warnings": [
+        "No supplied candidate is identity-bound to this work."
+      ]
+    },
+    {
+      "workId": "heron-service-wine-cooler-1885-88",
+      "sourcePageUrl": "https://designmuseum.dk/en/directors-choice/",
+      "warnings": [
+        "No supplied candidate is identity-bound to this work."
+      ]
+    },
+    {
+      "workId": "thorvald-bindesboll-carlsberg-label-1904",
+      "sourcePageUrl": "https://designmuseum.dk/qr-site/2-thorvald-bindesboell-carlsberg-etikette-1904/",
+      "warnings": [
+        "The only supplied candidate is a generic favicon."
+      ]
+    },
+    {
+      "workId": "gauguin-jug-self-portrait-1889",
+      "sourcePageUrl": "https://designmuseum.dk/en/directors-choice/",
+      "warnings": [
+        "No supplied candidate is identity-bound to this work."
+      ]
+    },
+    {
+      "workId": "hegermann-lindencrone-porcelain-vase-1899-1900",
+      "sourcePageUrl": "https://designmuseum.dk/en/directors-choice/",
+      "warnings": [
+        "No supplied candidate is identity-bound to this work."
+      ]
+    },
+    {
+      "workId": "poul-henningsen-table-lamp-4-3-1927",
+      "sourcePageUrl": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
+      "warnings": [
+        "No supplied candidate is identity-bound to this work."
+      ]
+    }
+  ],
+  "counts": {
+    "works": 20,
+    "previousAcceptedPreserved": 10,
+    "retried": 10,
+    "newlyAccepted": 0,
+    "directImageDownloads": 0,
+    "elementCaptures": 0,
+    "objectImageAccepted": 1,
+    "contextImagesAccepted": 0,
+    "unresolved": 10,
+    "duplicateObjectImageGroups": [],
+    "modelCalls": 1,
+    "modelTokens": 51109,
+    "webSearchCount": 0
+  },
+  "model": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium",
+    "calls": 1,
+    "durationMs": 20836,
+    "tokens": {
+      "total": 51109,
+      "source": "codex_cli_log"
+    },
+    "webSearchCount": 0
+  },
+  "guarantees": {
+    "acceptedWorksNotRerun": [
+      "portrait-pietro-krohn-1887",
+      "nilfisk-l10-vacuum-cleaner-1922",
+      "kaare-klint-red-chair-1927",
+      "marie-gudme-leth-tree-pattern-1937",
+      "hans-wegner-wishbone-chair-1950",
+      "verner-panton-panton-chair-1960-1967",
+      "finn-juhl-butterfly-coffee-table-prototype-1949",
+      "arne-jacobsen-ant-chair-1952",
+      "katrine-bendixen-inside-out-lamp-2019",
+      "bang-olufsen-beogram-4000-1972"
+    ],
+    "nonImageStagesRun": [],
+    "imageGenerationModelUsed": false,
+    "parentRunModified": false,
+    "assemblyNetworkAccess": false,
+    "productionModified": false
+  }
+}

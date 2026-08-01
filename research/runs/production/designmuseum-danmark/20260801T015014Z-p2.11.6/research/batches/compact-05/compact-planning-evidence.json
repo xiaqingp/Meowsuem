@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "museumId": "designmuseum-danmark",
+  "works": [
+    {
+      "workId": "verner-panton-s-chair-1956",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "这件 1956 年的模压胶合板悬臂椅连接了 Arne Jacobsen 的蚂蚁椅与 Verner Panton 后来的 Panton Chair：单一椅壳、座背一体的构造把丹麦现代家具的减法设计推进到 Panton 的方向。",
+      "selectionSignals": [
+        "官方对象页明确为 Verner Panton、S Chair、1956、模压胶合板",
+        "官方对象页称其为悬臂椅，并视为 Panton Chair 的前身",
+        "官方对象页将其与 Arne Jacobsen 的蚂蚁椅及座背一体的单壳构造直接关联",
+        "可作为蚂蚁椅与 Panton Chair 之间的设计演变节点"
+      ],
+      "sectionSignals": [
+        "20 世纪丹麦现代家具",
+        "壳体与悬臂椅",
+        "从胶合板到后续整体成型家具的技术与形式过渡"
+      ],
+      "routeSignals": [
+        "家具主线",
+        "与 Arne Jacobsen 蚂蚁椅相邻比较",
+        "作为通向 Verner Panton 后期设计的桥接节点"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://designmuseum.dk/qr-site/24-verner-panton-s-stolen-1956/",
+        "https://designmuseum.dk/qr-site/20-arne-jacobsen-3100-myren-1952/",
+        "https://www.verner-panton.com/en/collection/panton-chair/"
+      ]
+    },
+    {
+      "workId": "thorvald-bindesboll-carlsberg-label-1904",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "这枚 1904 年嘉士伯标签把商业包装、王室供应商身份与丹麦 Skønvirke 的植物性装饰语言合在一个平面设计对象里；卷曲的有机字体据馆方说明受到啤酒花植物启发。",
+      "selectionSignals": [
+        "官方对象页明确为 Thorvald Bindesbøll、Carlsberg label、1904",
+        "标签为嘉士伯获得丹麦王室供应商资格而设计",
+        "卷曲的有机字体受啤酒花植物启发，反映当时对动植物的设计兴趣",
+        "官方对象页称其代表 Skønvirke，Bindesbøll 是该运动的主要代表"
+      ],
+      "sectionSignals": [
+        "Skønvirke 与新艺术风格的丹麦平面设计",
+        "商业身份与视觉品牌",
+        "动植物形态进入日常印刷品"
+      ],
+      "routeSignals": [
+        "平面设计与印刷品主线",
+        "补足以家具为重心的候选池",
+        "作为设计进入大众消费与国家声望语境的节点"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://designmuseum.dk/qr-site/2-thorvald-bindesboell-carlsberg-etikette-1904/",
+        "https://designmuseum.dk/wp-content/uploads/2025/05/Aarsrapport_2024_WEB.pdf"
+      ]
+    },
+    {
+      "workId": "borge-mogensen-j39-peoples-chair-1947",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "J39 是 1947 年 Børge Mogensen 以日常使用为方向的家具节点：它把简洁、耐用和可长期生产的椅子带入 Danish Modern 的民主化叙事，适合与博物馆的蚂蚁椅、悬臂椅等形式实验并读。",
+      "selectionSignals": [
+        "博物馆官方 Danish Chair 页面明确列出 J39／The People’s Chair、Børge Mogensen、1947",
+        "博物馆将 J39 纳入约 1920—1970 年丹麦家具黄金时期的椅子谱系",
+        "制造商资料称 J39 自 1947 年持续生产，并由 FDB 推出",
+        "制造商资料将其与 Mogensen 让优质家具面向所有人的民主化设计使命相连"
+      ],
+      "sectionSignals": [
+        "Danish Modern 与民主化日用家具",
+        "20 世纪中期木椅与长期使用",
+        "从传统家具谱系到现代生产"
+      ],
+      "routeSignals": [
+        "The Danish Chair 家具路线",
+        "作为现代丹麦椅的日常与社会面向",
+        "与蚂蚁椅和 S 椅形成‘耐用日用’与‘壳体实验’的对照"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://designmuseum.dk/en/the-danish-chair/",
+        "https://www.fredericia.com/j39-75-years-anniversary",
+        "https://www.fredericia.com/product/j39-mogensen-chair-3239-32392052510"
+      ]
+    },
+    {
+      "workId": "arne-jacobsen-ant-chair-1952",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "蚂蚁椅把座面和靠背压制成一个整体木壳，并为 Novo 食堂的使用场景服务；它是工业量产、轻量化和单壳构造汇合的关键丹麦现代家具案例，也是 S 椅所承接的直接前置节点。",
+      "selectionSignals": [
+        "官方对象页明确为 Arne Jacobsen、3100／The Ant、1952",
+        "官方对象页称其为第一件工业化量产、座背一体的木椅",
+        "作品为丹麦制药企业 Novo 的食堂设计，并很快成为标志性椅子",
+        "官方 Danish Chair 页面将 The Ant 列入应知的十件丹麦椅及其椅子谱系"
+      ],
+      "sectionSignals": [
+        "工业化量产与丹麦现代家具",
+        "单壳椅与材料／制造方式",
+        "企业使用场景如何推动设计"
+      ],
+      "routeSignals": [
+        "The Danish Chair 家具路线的核心节点",
+        "作为 S 椅的直接比较对象",
+        "连接企业委托、量产技术与丹麦现代设计品牌化"
+      ],
+      "riskFlags": [
+        "superlative_claim"
+      ],
+      "sourcePointers": [
+        "https://designmuseum.dk/qr-site/20-arne-jacobsen-3100-myren-1952/",
+        "https://designmuseum.dk/en/the-danish-chair/",
+        "https://arnejacobsen.com/works/the-ant/"
+      ]
+    }
+  ]
+}

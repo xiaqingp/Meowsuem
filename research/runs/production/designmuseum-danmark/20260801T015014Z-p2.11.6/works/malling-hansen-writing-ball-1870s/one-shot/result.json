@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "status": "warning",
+  "runId": "20260801T015014Z-p2.11.6",
+  "museumId": "designmuseum-danmark",
+  "workId": "malling-hansen-writing-ball-1870s",
+  "stage": "single_work",
+  "attempt": 3,
+  "model": "gpt-5.6-luna",
+  "reasoningEffort": "high",
+  "exitCode": 0,
+  "startedAt": "2026-08-01T03:53:45.213Z",
+  "completedAt": "2026-08-01T03:56:50.084Z",
+  "durationMs": 184871,
+  "inputTokens": 382502,
+  "cachedInputTokens": 305920,
+  "reasoningTokens": 6085,
+  "outputTokens": 9083,
+  "totalTokens": 391585,
+  "agentRunCount": 1,
+  "modelRoundCount": 1,
+  "webSearchCount": 8,
+  "webOpenCount": 0,
+  "failureCode": "VERIFICATION_FAILED",
+  "failureMessage": "one-shot verifier failed",
+  "publicationMode": "warning",
+  "warningCodes": [
+    "OFFICIAL_SOURCE_COVERAGE",
+    "UNSUPPORTED_DIRECT_QUOTE"
+  ]
+}

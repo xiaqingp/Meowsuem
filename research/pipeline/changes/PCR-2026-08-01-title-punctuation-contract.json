@@ -1,0 +1,34 @@
+{
+  "id": "PCR-2026-08-01-title-punctuation-contract",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-31",
+  "ownerInstruction": "Stop automatically adding outer Chinese book-title marks, preserve the locked title punctuation exactly, and remove the false title warnings from the current museum page.",
+  "baseRelease": "research/pipeline/releases/v2.12.0.json",
+  "targetVersion": "2.12.1",
+  "implementationStatus": "completed",
+  "scope": [
+    "canonical exact title punctuation",
+    "temporary compatibility with legacy wrapped ordinary titles",
+    "generic bilingual heading assembly",
+    "compound-title regression coverage",
+    "current Designmuseum Danmark false-warning hotfix"
+  ],
+  "outOfScope": [
+    "changing locked work names",
+    "weakening Chinese or English title identity checks",
+    "rewriting article prose"
+  ],
+  "allowedCanonicalFiles": [
+    "research/pipeline/prompts/single-work-one-shot.md",
+    "scripts/verify-one-shot-work.mjs",
+    "scripts/assemble-museum-candidate.mjs"
+  ],
+  "verification": {
+    "status": "passed",
+    "commands": [
+      "node scripts/test-one-shot-title-contract.mjs",
+      "node scripts/verify-project-authority.mjs"
+    ]
+  }
+}

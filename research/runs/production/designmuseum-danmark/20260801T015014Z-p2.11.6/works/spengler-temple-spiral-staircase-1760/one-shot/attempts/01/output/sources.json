@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "spengler-temple-spiral-staircase-1760",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "officialDescription",
+        "audioGuide"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Lorenz Spengler",
+      "publisher": "Lex / Dansk Biografisk Leksikon",
+      "url": "https://lex.dk/Lorenz_Spengler",
+      "sourceType": "publication",
+      "usedFor": [
+        "creatorBiography",
+        "courtRole",
+        "turnery",
+        "ivoryContext"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Kunstkammerforvalterne 1690-1825",
+      "publisher": "Nationalmuseet",
+      "url": "https://natmus.dk/historisk-viden/temaer/nationalmuseets-historie/kunstkammeret/kunstkammeret-1680-1825/forvalterne/",
+      "sourceType": "museum",
+      "usedFor": [
+        "creatorBiography",
+        "collectionHistory",
+        "courtCollection"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Lorentz Spengler's descriptions of chitons",
+      "publisher": "Naturalis Biodiversity Center / Zoologisk Museum, University of Copenhagen",
+      "url": "https://repository.naturalis.nl/pub/318917/ZM1992066003.pdf",
+      "sourceType": "academic",
+      "usedFor": [
+        "creatorBiography",
+        "turneryContext",
+        "ivoryContext",
+        "royalCourtContext"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Princely Splendor: The Dresden Court, 1580–1620",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/exhibitions/listings/2004/dresden-court",
+      "sourceType": "museum",
+      "usedFor": [
+        "turneryTechnique",
+        "courtCulture",
+        "technicalContext"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "medium",
+      "statement": "Designmuseum Danmark 的官方对象页没有注明这件作品的材质；施彭格勒以象牙车旋师闻名，但作者惯用材料不足以确认本件材质。"
+    },
+    {
+      "topic": "collectionHistory",
+      "statement": "官方页面未提供本件作品的具体购藏经过、原始收藏者或馆藏号。"
+    },
+    {
+      "topic": "originalFunction",
+      "statement": "现有来源没有说明这件作品是否曾具有宗教用途、实用用途或特定委托背景。"
+    },
+    {
+      "topic": "availability",
+      "statement": "官方页面将作品列入 Director’s Choice 目录并提供音频讲解，但没有明确说明它当前是否正在展厅展出。"
+    }
+  ],
+  "upstreamConflicts": []
+}

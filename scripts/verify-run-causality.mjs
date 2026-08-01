@@ -46,7 +46,7 @@ export async function verifyRunCausality({projectRoot, kind, museum, caseId, run
     const root = path.join(runRoot, "works", workId, "one-shot");
     const adapter = JSON.parse(await fs.readFile(path.join(root, "integration", "adapter-result.json"), "utf8"));
     const result = JSON.parse(await fs.readFile(path.join(root, "result.json"), "utf8"));
-    if (result.status !== "accepted") failures.push(`${workId}: one-shot result is not accepted`);
+    if (!["accepted", "warning"].includes(result.status)) failures.push(`${workId}: one-shot result is neither accepted nor warning`);
     const pairs = {
       lockedMetadata: "input/locked-metadata.json",
       article: "output/article.md",

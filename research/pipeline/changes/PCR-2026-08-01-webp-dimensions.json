@@ -1,0 +1,28 @@
+{
+  "id": "PCR-2026-08-01-webp-dimensions",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-07-31",
+  "ownerInstruction": "Fix the image pipeline bug and validate the portrait before repairing other works.",
+  "baseRelease": "research/pipeline/releases/v2.13.1.json",
+  "targetVersion": "2.13.2",
+  "implementationStatus": "completed",
+  "scope": [
+    "parse VP8 and VP8L WebP dimensions",
+    "byte-level regression coverage",
+    "rerun only portrait-pietro-krohn-1887"
+  ],
+  "outOfScope": [
+    "repairing any other Designmuseum Danmark work"
+  ],
+  "allowedCanonicalFiles": [
+    "scripts/lib/two-level-image-resolution.mjs"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/test-two-level-image-resolution.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "status": "failed",
+  "errors": [
+    {
+      "code": "OFFICIAL_SOURCE_COVERAGE",
+      "message": "Official museum sources do not cover material",
+      "matches": [
+        "material"
+      ],
+      "severity": "error"
+    },
+    {
+      "code": "UNSUPPORTED_DIRECT_QUOTE",
+      "message": "Direct quotation lacks a valid source record",
+      "matches": [
+        "尼采后来写道：“书写工具也帮助塑造我们的思想。”"
+      ],
+      "severity": "error"
+    }
+  ],
+  "warnings": [],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": false,
+    "strongClaimsRecorded": true,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "一只球，里面藏着一套完整的书写系统",
+    "让手指替眼睛和声音继续工作",
+    "尼采的机器朋友：帮助写作，也制造麻烦",
+    "它为什么来到设计博物馆"
+  ],
+  "sourceCount": 4,
+  "articleBytes": 6000,
+  "sourcesBytes": 3753
+}

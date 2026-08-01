@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "katrine-bendixen-inside-out-lamp-2019",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice - Design Museum Denmark",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "collectionRelation",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Matters – rethinking materials",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/exhibition/matters/",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "significance",
+        "exhibitionHistory",
+        "artistContext"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Annual Report 2019",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/wp-content/uploads/2020/06/%C3%85rsberetning-2019_v10_WEB.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "exhibitionHistory"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Kathrine Barbro Bendixen: Inside Out 2.0",
+      "publisher": "SVFK / Statens Værksteder for Kunst",
+      "url": "https://svfk.dk/project/kathrine-barbro-bendixen-inside-out-2-0",
+      "sourceType": "other",
+      "usedFor": [
+        "process",
+        "material",
+        "artistContext"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "currentDisplay",
+      "statement": "官方 Director's Choice 对象页列出作品，但没有说明截至本次检索时的当前展出状态；馆方可确认的历史展出记录为《Matters – rethinking materials》，展期为2019年8月28日至2020年8月9日。"
+    },
+    {
+      "topic": "collectionRelation",
+      "statement": "Director's Choice 页面将作品置于馆长精选对象目录，并在页面引言中将该目录描述为来自博物馆藏品的精选；但该作品条目未显示馆藏号，也未明确永久馆藏、借展或其他具体关系。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "creator",
+      "severity": "warning",
+      "statement": "官方 Director's Choice 英文对象条目使用“Katrine Barbro Bendixen”；同馆《Matters》页面及2019年年报部分位置写作“Kathrine”。按锁定 metadata 保留“Katrine”。"
+    }
+  ]
+}

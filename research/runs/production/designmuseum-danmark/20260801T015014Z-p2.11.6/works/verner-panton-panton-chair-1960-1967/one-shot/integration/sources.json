@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "verner-panton-panton-chair-1960-1967",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "23. Verner Panton, Panton Chair, 1960/1967-68",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/qr-site/23-verner-panton-panton-chair-1960-1967-68/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Panton Chair",
+      "publisher": "Vitra",
+      "url": "https://www.vitra.com/en-gb/page/panton-chair",
+      "sourceType": "publication",
+      "usedFor": [
+        "date",
+        "production_process",
+        "material",
+        "creator"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Panton Chair",
+      "publisher": "Verner Panton Design AG",
+      "url": "https://www.verner-panton.com/en/collection/panton-chair/",
+      "sourceType": "publication",
+      "usedFor": [
+        "date",
+        "production_process",
+        "material"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "潘顿椅是世界上第一把以单件塑料形式大规模生产的椅子。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "specific_material",
+      "statement": "馆方对象页仅写明材质为塑料，未说明本馆所藏具体样本属于哪一生产阶段或具体塑料配方。"
+    },
+    {
+      "topic": "accessionNumber",
+      "statement": "本次核对的官方对象页未显示馆藏号。"
+    },
+    {
+      "topic": "availability",
+      "statement": "本次核对的官方对象页未明确说明当前是否展出，锁定资料中的展出状态仍为未知。"
+    }
+  ],
+  "upstreamConflicts": []
+}

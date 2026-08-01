@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "malling-hansen-writing-ball-1870s",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director’s Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "creator",
+        "significance",
+        "Nietzsche"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Designmuseum Danmark Annual Report 2017",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/wp-content/uploads/2018/04/DesignmuseumDanmark_Aarsberetning_2017_Web.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "date",
+        "creator",
+        "manufacture",
+        "collectionHistory",
+        "collectionRelation",
+        "scale",
+        "historicalContext"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Hansen’s Writing Ball, also known as Malling-Hansen Writing Ball",
+      "publisher": "Science Museum Group",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co38206/hansens-writing-ball-also-known-as-malling-hansen-writing-ball",
+      "sourceType": "museum",
+      "usedFor": [
+        "mechanism",
+        "date",
+        "material",
+        "historicalContext",
+        "Nietzsche"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Who was Rasmus Malling-Hansen",
+      "publisher": "The International Rasmus Malling-Hansen Society",
+      "url": "https://www.malling-hansen.org/fileadmin/biography/biography.pdf",
+      "sourceType": "publication",
+      "usedFor": [
+        "historicalContext",
+        "intendedUsers",
+        "uncertainty"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "本件材质",
+      "statement": "Designmuseum Danmark 的官方对象页和 2017 年年报没有明确列出本件材质；Science Museum Group 对另一件约 1875 年同类实物记录为钢、黄铜和涂层金属，不能直接转用于本件。"
+    },
+    {
+      "topic": "研发初衷与目标使用者",
+      "statement": "Designmuseum 当前 Director’s Choice 页面将写字球与帮助视力衰退者联系起来；馆方 2017 年年报和 Malling-Hansen Society 资料则强调听障或言语沟通受限者、普通快速书写者等更复杂的使用背景，因此本件的单一原始目标使用者不宜确定化表述。"
+    },
+    {
+      "topic": "当前展出状态",
+      "statement": "官方对象页确认该作品属于 Designmuseum Danmark 的相关馆藏与 Director’s Choice 介绍，但本次来源没有确认它在 2026 年 7 月 31 日是否正在现场展出。"
+    }
+  ],
+  "upstreamConflicts": []
+}

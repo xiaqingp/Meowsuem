@@ -1,0 +1,39 @@
+{
+    "runId":  "20260801T015014Z-p2.11.6",
+    "stage":  "image_disambiguation",
+    "museumId":  "designmuseum-danmark",
+    "caseId":  "",
+    "workId":  "",
+    "pipelineVersion":  "2.11.6",
+    "instructionVersion":  "2.4.0",
+    "model":  "gpt-5.6-luna",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-07-31T20:01:38.2190262-07:00",
+    "modelStartedAt":  "2026-07-31T20:01:39.4315386-07:00",
+    "modelCompletedAt":  "2026-07-31T20:03:39.7985754-07:00",
+    "completedAt":  "2026-07-31T20:03:39.8755671-07:00",
+    "runnerDurationMs":  121657,
+    "modelDurationMs":  120367,
+    "tokenUsage":  {
+                       "total":  111929,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+
+                                ],
+    "logPath":  "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/model-runs/batch-01/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/image-evidence/model-runs/batch-01/image-research-packet.json",
+                       "role":  "image_candidate_packet",
+                       "sha256":  "aff1c6365289ef88c8fa547f9105190a98d1d541665287e1f40956d1f4854875"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "image-decisions.json",
+                        "sha256":  "4405394f10ff49bd4c07685db973519d4719d0d65ccc128d312429d3f15eb4c6",
+                        "bytes":  13539
+                    }
+                ]
+}

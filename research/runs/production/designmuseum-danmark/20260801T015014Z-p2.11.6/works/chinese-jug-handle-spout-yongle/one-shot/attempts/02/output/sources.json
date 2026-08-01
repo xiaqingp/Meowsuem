@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 2,
+  "museumId": "designmuseum-danmark",
+  "workId": "chinese-jug-handle-spout-yongle",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/directors-choice/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "form",
+        "significance",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Ewer, 2022,3034.7",
+      "publisher": "The British Museum",
+      "url": "https://www.britishmuseum.org/collection/object/A_2022-3034-7",
+      "sourceType": "museum",
+      "usedFor": [
+        "periodContext",
+        "comparableObject",
+        "materialOfComparableObject",
+        "formInfluence"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Art Object: Ewer with Silver Fittings",
+      "publisher": "University of Michigan Museum of Art",
+      "url": "https://umma.umich.edu/objects/ewer-with-silver-fittings-1968-1-50/",
+      "sourceType": "museum",
+      "usedFor": [
+        "periodContext",
+        "comparableObject",
+        "WestAsianMetalworkInfluence",
+        "JingdezhenContext",
+        "diplomaticContext"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "馆方指出，这件壶的形制可追溯至中东、尤其是波斯，类似壶在当地常以金属制作。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "同一永乐时期的相关壶形也被其他博物馆说明为借鉴伊朗或西亚金属器，并加入中国工艺或细节。",
+      "type": "other",
+      "sourceIds": [
+        "S2",
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "medium",
+      "statement": "Designmuseum Danmark 的官方对象页没有明确列出这件作品的材质，因此文章未将其确定为瓷器或其他具体材料。"
+    },
+    {
+      "topic": "availability",
+      "statement": "官方页面将其列入 Director's Choice 目录，但没有明确说明该对象当前是否在展柜中。"
+    },
+    {
+      "topic": "provenance",
+      "statement": "官方对象页未提供这件作品的具体收藏、购藏或流传经过。"
+    }
+  ],
+  "upstreamConflicts": []
+}
