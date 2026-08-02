@@ -4,6 +4,7 @@ import {
   assertNoDuplicateObjectImages,
   imageDimensions,
   normalizeAiResult,
+  officialObjectOgTitleMatch,
 } from "./lib/two-level-image-resolution.mjs";
 
 const identity = {titleEn: "Water Lilies", titleZh: "睡莲", creator: "Claude Monet", displayDate: "1914-17", objectType: "single_work"};
@@ -14,6 +15,25 @@ assert.ok(acceptFastCandidate(identity, page, {url: "https://example.org/iiif.jp
 assert.equal(acceptFastCandidate(identity, {...page, jsonLdRecords: [], title: "Chichu Art Museum"}, {url: "https://example.org/hero.jpg", alt: "Chichu Art Museum", jsonLdObjectRelation: true}), null);
 assert.equal(acceptFastCandidate(identity, page, {url: "https://example.org/hero.jpg", title: "Water Lilies", creator: "Claude Monet", jsonLdObjectRelation: true, alt: "museum hero"}), null);
 assert.equal(acceptFastCandidate(identity, page, {url: "https://example.org/object.jpg", title: "Water Lilies", creator: "Claude Monet", figureCaptionRelation: true})?.method, "official_object_image");
+const anonymousSet = {titleEn: "The Rose-Cut Diamond Set", titleZh: "玫瑰式切割钻石套饰", creator: "", accessionNumber: "5564"};
+assert.equal(officialObjectOgTitleMatch(anonymousSet, "The Rose-Cut Diamond Set | The Royal Danish Collection", {officialOgImage: true}), true);
+assert.equal(officialObjectOgTitleMatch(anonymousSet, "The Emerald Set | The Royal Danish Collection", {officialOgImage: true}), false);
+assert.deepEqual(
+  acceptFastCandidate(anonymousSet, {title: "The Rose-Cut Diamond Set | The Royal Danish Collection", body: ""}, {
+    url: "https://example.org/rose-cut.jpg",
+    officialOgImage: true,
+  })?.identitySignals,
+  ["official_object_page_title_match", "official_object_page_og_relation"],
+);
+assert.equal(acceptFastCandidate(anonymousSet, {title: "The Emerald Set | The Royal Danish Collection", body: ""}, {
+  url: "https://example.org/emerald.jpg",
+  officialOgImage: true,
+}), null);
+assert.equal(acceptFastCandidate(anonymousSet, {title: "The Rose-Cut Diamond Set | The Royal Danish Collection", body: ""}, {
+  url: "https://example.org/museum-hero.jpg",
+  alt: "museum hero",
+  officialOgImage: true,
+}), null);
 
 const png = Buffer.alloc(24);
 png.write("\x89PNG\r\n\x1a\n", 0, "binary");

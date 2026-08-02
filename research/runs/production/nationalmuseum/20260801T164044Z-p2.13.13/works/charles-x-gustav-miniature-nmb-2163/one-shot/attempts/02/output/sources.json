@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "charles-x-gustav-miniature-nmb-2163",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Charles X Gustav of Sweden (1622-1660)",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/26105/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "material",
+        "dimensions",
+        "accessionNumber",
+        "collectionRelation",
+        "availability",
+        "objectType"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "ABC med Nationalmuseum: X som i X",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/abc-med-nationalmuseum-x-som-i-x",
+      "sourceType": "museum",
+      "usedFor": [
+        "royalContext",
+        "regnalName",
+        "mounting",
+        "wearableUse",
+        "artistContext",
+        "setting"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "The Treasury: Miniatures",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/en/webtour/skattkammaren-miniatyrer",
+      "sourceType": "museum",
+      "usedFor": [
+        "miniatureContext",
+        "artistContext",
+        "SwedishCourtContext"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "The history of the Swedish monarchy",
+      "publisher": "The Royal Court of Sweden",
+      "url": "https://www.kungahuset.se/sveriges-monarki/monarkins-historia",
+      "sourceType": "other",
+      "usedFor": [
+        "sitterDates",
+        "reign",
+        "historicalContext",
+        "succession"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "Nationalmuseum将作品归于亚历山大·库珀。",
+      "type": "attribution",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "卡尔十世·古斯塔夫统治期间，瑞典的领土范围达到历史上的高点。",
+      "type": "largest_or_most",
+      "sourceIds": [
+        "S4"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "创作年代",
+      "statement": "官方对象记录没有给出这件作品的具体创作年份；标题中的1622—1660是人物的生卒年份，不能据此推定作品年代。"
+    },
+    {
+      "topic": "具体佩戴者与场合",
+      "statement": "馆方说明其挂环使作品可以作为吊坠或别在衣服上，但未说明具体由谁佩戴或在何种场合使用。"
+    }
+  ],
+  "upstreamConflicts": []
+}

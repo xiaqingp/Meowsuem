@@ -1,0 +1,32 @@
+{
+  "id": "PCR-2026-08-01-official-object-og-image",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-01",
+  "ownerInstruction": "用最新 pipeline 生成并发布 Rosenborg Castle；Rose-Cut Diamond Set 的精确官方对象页与 OG 主图已人工核对身份一致，允许修复匿名对象因缺少作者字段而误拒官方主图的问题。",
+  "baseRelease": "research/pipeline/releases/v2.13.35.json",
+  "targetVersion": "2.13.36",
+  "implementationStatus": "completed",
+  "scope": [
+    "accept an OG image from the exact official object page when the normalized page title contains the locked work title",
+    "retain generic museum hero rejection and add positive and negative regression coverage"
+  ],
+  "outOfScope": [
+    "accepting OG images from collection indexes or unrelated pages",
+    "weakening duplicate-image or image-byte validation",
+    "rerunning museum research or writing"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/lib/two-level-image-resolution.mjs"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/test-two-level-image-resolution.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=mock",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

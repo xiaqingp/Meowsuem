@@ -1,0 +1,38 @@
+{
+  "status": "failed",
+  "errors": [
+    {
+      "code": "UNSUPPORTED_HIGH_RISK_CLAIM",
+      "message": "Strong factual claim lacks a valid source record",
+      "matches": [
+        "于是，房间本身成了最大的“柜子”"
+      ],
+      "severity": "error"
+    }
+  ],
+  "warnings": [],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": false,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "一间房，先把“玻璃”变成宫廷景观",
+    "一份来自威尼斯的礼物，为什么要放进一整间房？",
+    "找到中轴，才能看懂这间房的秩序"
+  ],
+  "sourceCount": 4,
+  "articleBytes": 4940,
+  "sourcesBytes": 3488
+}

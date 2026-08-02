@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "failures": [],
+  "summary": {
+    "museumId": "nationalmuseum",
+    "workCount": 20,
+    "significanceCounts": {
+      "稀世珍品": 0,
+      "重要藏品": 18,
+      "特色看点": 2,
+      "体验补充": 0
+    },
+    "rareAssets": [],
+    "independentRareLines": [],
+    "score": 75,
+    "scoreBand": "70–79 · 可去可不去",
+    "withinBandAnchor": "73–75"
+  },
+  "runId": "20260801T164044Z-p2.13.13",
+  "museumId": "nationalmuseum",
+  "inputSha256": "e90bc8d1b947e18ffb691d44f940a8449154aa0a50b167036de5c360639d21db",
+  "inputPath": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/selection/rating-input.json"
+}

@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260801T164044Z-p2.13.13",
+  "museumId": "nationalmuseum",
+  "upstreamHashes": {
+    "candidates": {
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/candidate-pool/candidate-pool.json",
+      "sha256": "ab5cd919a5a7725b5cf7a290dfe51ee07ca35d62d85aaa5e2b36fd040cb5e679"
+    },
+    "selection": {
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/selection/selection.json",
+      "sha256": "815f887b5965aa682a169af640ee5f02a7595d2e3fbec5e0ec1661df021c0b8e"
+    },
+    "structure": {
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/structure/structure.json",
+      "sha256": "bb91bd56728390b08b1ce09b3d61bec4c678bd8e0a85c2904324078d8570a490"
+    },
+    "images": {
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/verified-image-evidence.json",
+      "sha256": "219ad6e5e693f897ef1825ee842b8e0372b1a4573c6a531fc5fbde1538e45737"
+    }
+  },
+  "works": [
+    {
+      "workId": "rembrandt-self-portrait-nm-5324",
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/works/rembrandt-self-portrait-nm-5324/one-shot/input/locked-metadata.json",
+      "sha256": "5114e3b2f4228e76ee771d30e66f113c626e27f02e8b0e9f1e5861f2aa2e94fd"
+    },
+    {
+      "workId": "rubens-three-graces-nm-601",
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/works/rubens-three-graces-nm-601/one-shot/input/locked-metadata.json",
+      "sha256": "2f022a8729a40ec5956d41683add4494991790f7b1c0c04feb429cda57ea011d"
+    },
+    {
+      "workId": "goya-truth-time-history-nm-5593",
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/works/goya-truth-time-history-nm-5593/one-shot/input/locked-metadata.json",
+      "sha256": "49a3c1606ace47bce8c3058b66678804c5f578020f4839f1ad7684dfee86ead0"
+    },
+    {
+      "workId": "roslin-lady-with-veil-nm-4098",
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/works/roslin-lady-with-veil-nm-4098/one-shot/input/locked-metadata.json",
+      "sha256": "1878e4c3a9ea240e54dcab7b17a879efdcd900914a9a2baf8250f1cdb7b0384d"
+    },
+    {
+      "workId": "pilo-coronation-gustav-iii-nm-1004",
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/works/pilo-coronation-gustav-iii-nm-1004/one-shot/input/locked-metadata.json",
+      "sha256": "c20a9828defcc35341eb80cf3057b13bfeeeb663b2759c646f53a4aae028ad5e"
+    },
+    {
+      "workId": "elias-martin-view-stockholm-nm-1470",
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/works/elias-martin-view-stockholm-nm-1470/one-shot/input/locked-metadata.json",
+      "sha256": "bb62020880982e525b0e675904a7d1e8fb9de20a88b06e32b771c0fe08f0230e"
+    },
+    {
+      "workId": "julius-kronberg-nymph-and-fauns-nm-1316",
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/works/julius-kronberg-nymph-and-fauns-nm-1316/one-shot/input/locked-metadata.json",
+      "sha256": "19de7ec2926cee498fb33d7f5b7c704f14c84449d60b2f844afeea6951bcaf2b"
+    },
+    {
+      "workId": "rodin-bellona-nmsk-985",
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/works/rodin-bellona-nmsk-985/one-shot/input/locked-metadata.json",
+      "sha256": "c0abd56af7717791c76f89dca6971ad86892fac085a6f7ae2837f7cecc10454c"
+    },
+    {
+      "workId": "fogelberg-odin-nmsk-392",
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/works/fogelberg-odin-nmsk-392/one-shot/input/locked-metadata.json",
+      "sha256": "80110d419f03c0f3e00cf28ad67fc7afa6d50a12d3a49e6b60bc63933462ade6"
+    },
+    {
+      "workId": "hasselberg-spring-snowflake-nmsk-746",
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/works/hasselberg-spring-snowflake-nmsk-746/one-shot/input/locked-metadata.json",
+      "sha256": "4c7ade6fbb566019273ea998e11a6d70b5bfe823d7127d3a986eef1a4cbf555a"
+    },
+    {
+      "workId": "josephson-water-sprite-nm-1905",
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/works/josephson-water-sprite-nm-1905/one-shot/input/locked-metadata.json",
+      "sha256": "3c2739f4a9cbe2eeb2341821e1200e5b20b6b3aea0c77a7eed2566139d74210b"
+    },
+    {
+      "workId": "zorn-midsummer-dance-nm-1603",
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/works/zorn-midsummer-dance-nm-1603/one-shot/input/locked-metadata.json",
+      "sha256": "dd2a944fa0ea042cabac968bf7e6685a734d3c75ea2bf543616e64fefc34526a"
+    },
+    {
+      "workId": "fanny-brate-day-of-celebration-nm-1605",
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/works/fanny-brate-day-of-celebration-nm-1605/one-shot/input/locked-metadata.json",
+      "sha256": "78e56fd080a71cc33c20ccc3df46e43374f18b9d1eef85be4596e3e5caa25661"
+    },
+    {
+      "workId": "persson-portrait-of-a-pea-nmk-169-1972",
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/works/persson-portrait-of-a-pea-nmk-169-1972/one-shot/input/locked-metadata.json",
+      "sha256": "dad5286c6fc6682b6f542d6e8c834b65a1f60a0a0913c64c6daedc135f3c59bc"
+    },
+    {
+      "workId": "stig-lindberg-bersa-bowl-nmk-60-1996",
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/works/stig-lindberg-bersa-bowl-nmk-60-1996/one-shot/input/locked-metadata.json",
+      "sha256": "b03fd816090fd077620add61b0995479c12a6c7477a2ba578c2e1a297dd69dac"
+    },
+    {
+      "workId": "mathsson-reclining-chair-36-nmk-46-2010",
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/works/mathsson-reclining-chair-36-nmk-46-2010/one-shot/input/locked-metadata.json",
+      "sha256": "9d70df43b20eecfeccf430632dca6a355972f073c4f81f8ee9c9a7967ba0f069"
+    },
+    {
+      "workId": "aalto-paimio-armchair-nmk-13-1963",
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/works/aalto-paimio-armchair-nmk-13-1963/one-shot/input/locked-metadata.json",
+      "sha256": "e8207c3c82316a0d9591cc9fd5ec15b57eaa83ce661a35d93e8d380c4700d0e5"
+    },
+    {
+      "workId": "ron-arad-rover-chair-nmk-72-2013",
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/works/ron-arad-rover-chair-nmk-72-2013/one-shot/input/locked-metadata.json",
+      "sha256": "fa1059ac056e2559b6852a12605a9b0007770379eefa14ec186a9c0e3346cc97"
+    },
+    {
+      "workId": "halds-cactus-exhibition-nmk-215-2011",
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/works/halds-cactus-exhibition-nmk-215-2011/one-shot/input/locked-metadata.json",
+      "sha256": "cf1d3aa408edd03dcd3ce078c0ec5f60969dceed26b7922f1daf6b37fc62b080"
+    },
+    {
+      "workId": "charles-x-gustav-miniature-nmb-2163",
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/works/charles-x-gustav-miniature-nmb-2163/one-shot/input/locked-metadata.json",
+      "sha256": "71e7083afc056f001ba8d5540fa3fec2efed0670043d41cc78007c120dc1e6bb"
+    }
+  ]
+}

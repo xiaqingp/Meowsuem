@@ -1,0 +1,32 @@
+{
+  "id": "PCR-2026-08-01-container-noise-json-recovery",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-01",
+  "ownerInstruction": "用最新 pipeline 生成并发布 Rosenborg Castle；图片模型已完成结果但在最后一个容器闭合前夹入非 JSON 单词，允许完成当前发布所需的最小共享解析修复并从图片阶段续跑。",
+  "baseRelease": "research/pipeline/releases/v2.13.34.json",
+  "targetVersion": "2.13.35",
+  "implementationStatus": "completed",
+  "scope": [
+    "recover trailing non-JSON noise only between a completed array or object value and its immediate container close",
+    "reuse the existing completed image model output without another model call"
+  ],
+  "outOfScope": [
+    "general permissive JSON repair",
+    "rerunning completed museum research, selection, rating or structure",
+    "mutating frozen historical releases"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/lib/model-json.mjs"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/test-model-json.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=mock",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

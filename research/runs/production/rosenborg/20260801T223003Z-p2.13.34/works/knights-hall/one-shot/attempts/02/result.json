@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "status": "accepted",
+  "runId": "20260801T223003Z-p2.13.34",
+  "museumId": "rosenborg",
+  "workId": "knights-hall",
+  "stage": "single_work",
+  "attempt": 2,
+  "model": "gpt-5.6-luna",
+  "reasoningEffort": "high",
+  "startedAt": "2026-08-02T00:00:13.675Z",
+  "completedAt": "2026-08-02T00:01:38.975Z",
+  "durationMs": 85300,
+  "inputTokens": 66747,
+  "cachedInputTokens": 35328,
+  "reasoningTokens": 1633,
+  "outputTokens": 4192,
+  "totalTokens": 70939,
+  "agentRunCount": 1,
+  "modelRoundCount": 1,
+  "webSearchCount": 2,
+  "webOpenCount": 0
+}

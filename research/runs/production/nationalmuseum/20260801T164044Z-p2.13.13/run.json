@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "filesystemContractVersion": 1,
+  "runKind": "production",
+  "runId": "20260801T164044Z-p2.13.13",
+  "museumId": "nationalmuseum",
+  "milestone": "M31",
+  "pipelineVersion": "2.13.13",
+  "instructionVersion": "2.4.2",
+  "status": "published",
+  "createdAt": "2026-08-01T16:40:44.259Z",
+  "createdBy": "scripts/create-generation-run.mjs",
+  "layoutVersion": 1,
+  "immutable": true,
+  "contentContract": "one_shot_v1",
+  "allowLegacyAuthorBundles": false,
+  "legacyWorkIds": [],
+  "legacyImageResolutionAllowed": false,
+  "updatedAt": "2026-08-01T18:33:50.309Z",
+  "pipelineContinuation": {
+    "fromVersion": "2.13.13",
+    "toVersion": "2.13.27",
+    "instructionVersion": "2.4.2",
+    "fromStage": "image_evidence",
+    "authorizedAt": "2026-08-01T18:33:38.628Z",
+    "priorTargets": [
+      "2.13.15",
+      "2.13.16",
+      "2.13.17",
+      "2.13.21",
+      "2.13.22",
+      "2.13.23",
+      "2.13.24",
+      "2.13.25",
+      "2.13.26"
+    ]
+  },
+  "publishedAt": "2026-08-01T18:33:50.309Z"
+}

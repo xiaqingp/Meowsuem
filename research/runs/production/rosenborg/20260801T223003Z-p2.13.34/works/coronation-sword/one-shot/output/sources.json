@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "coronation-sword",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Coronation Sword",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-coronation-sword/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "collectionRelation",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Treasury, Section 3 (room I)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-i-the-treasury/",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "maker",
+        "accessionNumber",
+        "availability"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "The Homage of 1660",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-homage-of-1660/",
+      "sourceType": "museum",
+      "usedFor": [
+        "historicalContext",
+        "date",
+        "significance"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "The Sceptre",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-sceptre/",
+      "sourceType": "museum",
+      "usedFor": [
+        "collectionRelation",
+        "availability",
+        "historicalContext"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "这把剑制作于1643年，并在1648年由弗雷德里克三世于加冕礼上佩带，成为丹麦王室礼器。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "1661年丹麦确立绝对王权，传统加冕礼被涂油礼取代。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S3"
+      ]
+    },
+    {
+      "claim": "剑柄和剑鞘口由汉堡金匠卢卡斯·沙勒制作。",
+      "type": "attribution",
+      "sourceIds": [
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "剑鞘纹章的制作时间",
+      "statement": "官方对象页称1648年为弗雷德里克三世加冕制作剑鞘；宝库第三展厅清单则称剑鞘上的省区珐琅纹章为克里斯蒂安五世1671年涂油礼制作。文章因此只将剑鞘与1648年的加冕联系起来，并强调其后续更新与历史叠层。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "date",
+      "lockedValue": "1643；剑鞘为1648年加冕制作",
+      "observedValue": "宝库第三展厅清单称剑鞘上的省区珐琅纹章为克里斯蒂安五世1671年涂油礼制作",
+      "sourceIds": [
+        "S2"
+      ],
+      "severity": "warning",
+      "explanation": "差异更可能涉及剑鞘整体与其省区纹章装饰的不同制作阶段，不改变作品身份、馆藏选择或文章发布判断；正文采用保守表述，并说明剑鞘后来经历更新。"
+    }
+  ]
+}

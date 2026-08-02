@@ -1,0 +1,47 @@
+{
+  "status": "failed",
+  "errors": [
+    {
+      "code": "OFFICIAL_SOURCE_COVERAGE",
+      "message": "Official museum sources do not cover material",
+      "matches": [
+        "material"
+      ],
+      "severity": "error"
+    },
+    {
+      "code": "UNSUPPORTED_HIGH_RISK_CLAIM",
+      "message": "Strong factual claim lacks a valid source record",
+      "matches": [
+        "它看上去像一束被固定住的花，但最大的花朵并没有完全僵硬地焊死，而是装在螺旋弹簧上"
+      ],
+      "severity": "error"
+    }
+  ],
+  "warnings": [],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": false,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "一套珠宝，三种佩戴方式",
+    "钻石也会“换身份”",
+    "胸针为什么会“活”起来",
+    "它为什么不是“退休的古董”"
+  ],
+  "sourceCount": 3,
+  "articleBytes": 6158,
+  "sourcesBytes": 2781
+}

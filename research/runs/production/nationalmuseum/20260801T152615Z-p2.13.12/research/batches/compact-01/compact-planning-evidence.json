@@ -1,0 +1,293 @@
+{
+  "schemaVersion": 1,
+  "museumId": "nationalmuseum",
+  "works": [
+    {
+      "workId": "rembrandt-self-portrait-nm5324",
+      "identityStatus": "stable",
+      "availability": "on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "早期 Rembrandt 自画像把自我呈现、细密笔触与铜板加金箔底材结合起来，是主馆荷兰17世纪绘画与特殊铜板基底收藏线的关键节点。",
+      "selectionSignals": [
+        "官方对象页确认作者、1630年签名、油彩铜板与 NM 5324；当前标为 On display。",
+        "可作为 Rembrandt 早期自画像、铜板绘画和主馆荷兰17世纪绘画收藏线的代表。",
+        "官方补充说明指出已知 Rembrandt 铜板绘画数量有限，并说明本作金箔底材与早期自画像比较关系；不将其升级为稀世珍品。"
+      ],
+      "sectionSignals": [
+        "荷兰17世纪绘画",
+        "自画像与身份呈现",
+        "材料：铜板、白铅底与金箔"
+      ],
+      "routeSignals": [
+        "主馆常规绘画路线优先",
+        "可与 NM 583 的 tronie、NM 584 的半身人物画和 NM 4567 的晚期作品形成 Rembrandt 跨时期对照"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/22374/",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-collections"
+      ]
+    },
+    {
+      "workId": "rembrandt-kitchen-maid-nm584",
+      "identityStatus": "stable",
+      "availability": "on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "《The Kitchen Maid》以半身人物、窗边场景、宽阔笔触和明暗对照，把日常人物题材提升为 Rembrandt 中期人物画的重要观看对象，并保留自17世纪传入瑞典后的馆藏声誉。",
+      "selectionSignals": [
+        "官方对象页确认作者、1651年、油彩画布与 NM 584；当前标为 On display。",
+        "官方描述将其列入约1650年前后半身女性画系列，并强调宽笔触、强烈明暗及红衣、白衣与深色背景的色彩关系。",
+        "馆方补充资料称其自17世纪末到达瑞典后持续被视为 Rembrandt 的杰作；适合承担主馆荷兰绘画代表作信号。"
+      ],
+      "sectionSignals": [
+        "荷兰17世纪绘画",
+        "日常人物与肖像/风俗边界",
+        "宽笔触、明暗与色彩"
+      ],
+      "routeSignals": [
+        "主馆绘画路线优先",
+        "可与 NM 5324 的早期细密画法、NM 583 的 tronie 和 NM 4567 的晚期厚重笔触组成风格变化线"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/17587/",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-collections"
+      ]
+    },
+    {
+      "workId": "rembrandt-simeon-in-the-temple-nm4567",
+      "identityStatus": "stable",
+      "availability": "on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "《Simeon in the Temple》以卢加福音中的相认场景为基础，将晚年宗教叙事压缩成黑暗中的亲密人物关系；其未完成状态、晚期宽笔触与厚涂使它成为 Rembrandt 生涯末期的重要节点。",
+      "selectionSignals": [
+        "官方对象页确认作者、约1669年、油彩画布与 NM 4567；当前标为 On display。",
+        "官方资料称作品为 Rembrandt 最后一件作品，去世时仍未完成，并明确描述 Simeon 抱住婴儿、人物被黑暗包围的场景。",
+        "补充资料把宽笔触、深色底和厚涂列为晚期风格特征；可支撑晚期绘画与未完成性章节信号。"
+      ],
+      "sectionSignals": [
+        "荷兰17世纪绘画",
+        "宗教叙事与人物关系",
+        "晚年风格与未完成性"
+      ],
+      "routeSignals": [
+        "主馆绘画路线优先",
+        "适合作为 Rembrandt 时间线的晚期终点，与 NM 5324、NM 584 形成早中晚期比较"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/21617/",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-collections"
+      ]
+    },
+    {
+      "workId": "rembrandt-young-woman-profile-nm583",
+      "identityStatus": "stable",
+      "availability": "on_display",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "《Young Woman in Profile》不是受委托肖像，而是以匿名人物和想象性服饰为核心的 tronie；它能把 Rembrandt 的人物塑造、艺术家发明性与17世纪收藏市场联系起来。",
+      "selectionSignals": [
+        "官方对象页确认作者、1632年签名、油彩画布与 NM 583；当前标为 On display。",
+        "馆方明确区分 commissioned portrait 与 tronie，并说明白色褶襟借用16世纪服饰、金线斗篷似来自艺术家想象。",
+        "补充资料指出 tronie 是匿名模特的形象而非肖像，并与当时增长中的艺术市场相关；适合补足绘画收藏中的类型问题。"
+      ],
+      "sectionSignals": [
+        "荷兰17世纪绘画",
+        "肖像与 tronie 的边界",
+        "服饰、匿名人物与收藏市场"
+      ],
+      "routeSignals": [
+        "主馆绘画路线次优先但值得与 Rembrandt 作品组联看",
+        "与 NM 5324 的自画像和 NM 584 的半身女性人物画构成身份、类型和市场的对照"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/17586/",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-collections"
+      ]
+    },
+    {
+      "workId": "rembrandt-old-scholar-nm579",
+      "identityStatus": "conflicted",
+      "availability": "on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "《Old Scholar in a Vaulted Chamber》以高拱室内、阅读者和受控明暗组织出早期 Rembrandt 式历史画候选，但其作者栏同时保留 Rembrandt 与 Circle of Rembrandt 的前归属，价值首先在于观看归属如何影响作品定位。",
+      "selectionSignals": [
+        "官方对象页确认 NM 579、1631年签名、油彩木板与当前 Rembrandt 标注，同时列出 Former attribution: Rembrandt, Circle of；当前标为 On display。",
+        "馆方描述支持高拱室内、阅读人物、右侧窗户与左侧门口的明暗关系，以及早年历史画特征。",
+        "身份冲突未在本阶段消解；不得按无争议的 Rembrandt 代表作进入最高优先级。"
+      ],
+      "sectionSignals": [
+        "荷兰17世纪绘画",
+        "作者归属与馆藏研究",
+        "早期历史画、室内空间与明暗"
+      ],
+      "routeSignals": [
+        "主馆绘画路线可作为研究型补充",
+        "选入前需由 deep planning 处理归属争议；可与 NM 5324、NM 583 的早期人物作品并置比较但不预设同一作者地位"
+      ],
+      "riskFlags": [
+        "identity_conflict"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/17582/",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-collections"
+      ]
+    },
+    {
+      "workId": "rembrandt-two-studies-women-children-nmh2039-1863",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "《Two Studies of Women with Children》把育儿与哺乳等日常互动作为 Rembrandt 纸上人物研究的核心材料，显示其如何在小幅墨笔与褐色水洗中捕捉人物关系，并延伸到蚀刻和圣经题材。",
+      "selectionSignals": [
+        "官方对象页确认作者、1640年代中期、墨水与水洗纸本、NMH 2039/1863；页面标为 Not on display。",
+        "馆方明确记录两位女性及婴儿、其中一人哺乳，并将其与 Rembrandt 1630—1640年代的女性与儿童题材及蚀刻、圣经绘画联系。",
+        "对象属于 Nationalmuseum 的荷兰素描收藏，能补足主馆绘画之外的纸上媒介线，但不应作为普通现场必看。"
+      ],
+      "sectionSignals": [
+        "纸上作品与荷兰素描",
+        "日常生活、家庭与人物关系",
+        "素描研究与绘画/版画之间的联系"
+      ],
+      "routeSignals": [
+        "仅作预约研究室路线",
+        "当前不在主馆展出；需预约并由馆方确认作品是否可提供"
+      ],
+      "riskFlags": [
+        "appointment_limited_graphics"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/36603/",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-study-room-for-drawings-and-prints",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-collections"
+      ]
+    },
+    {
+      "workId": "rembrandt-woman-nursing-baby-nmh2038-1863",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "《Woman Nursing a Baby》是 Rembrandt 女性与婴儿研究组中的一页，除正面哺乳题材外还保留背面人物与头巾人头的使用痕迹；它把工作簿、重复研究、题材发展与纸张背面信息连接起来。",
+      "selectionSignals": [
+        "官方对象页确认作者、墨水纸本、NMH 2038/1863及背面另有图稿；页面标为 Not on display。",
+        "馆方资料记录女性与婴儿研究的成组背景、可能的素描本再利用，以及关于年代和相关作品组的不同研究意见。",
+        "身份稳定但年代研究存在不同意见，compact 阶段只保留馆方对象页的身份与约1635—1643候选范围，不把争议写成确定年代。"
+      ],
+      "sectionSignals": [
+        "纸上作品与荷兰素描",
+        "素描本、正反面与工作过程",
+        "家庭题材与重复研究"
+      ],
+      "routeSignals": [
+        "仅作预约研究室路线",
+        "当前不在主馆展出；研究室预约须列明作品，馆方回复确认可见性"
+      ],
+      "riskFlags": [
+        "appointment_limited_graphics"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/154667/",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-study-room-for-drawings-and-prints",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-collections"
+      ]
+    },
+    {
+      "workId": "rembrandt-seated-old-man-nmh2651-1863",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "《Seated Old Man》展示 Rembrandt 约1630年前后以现场模特研究哲学家、先知和使徒类老者的纸上方法，也保留从早期归属 Claude Mellan 到后被归还 Rembrandt 的研究史。",
+      "selectionSignals": [
+        "官方对象页确认作者、约1630年、红黑粉笔与 NMH 2651/1863；页面标为 Not on display。",
+        "馆方资料将其与约1630年的老者、圣徒/先知题材、相关蚀刻及可能的同一模特联系起来。",
+        "补充资料记录其曾以 Claude Mellan 之作入藏、后由 Benesch 归还 Rembrandt，并指出 Rembrandt 与 Jan Lievens 早期风格辨识存在困难；compact 阶段保留为研究风险信号而不改写身份。"
+      ],
+      "sectionSignals": [
+        "纸上作品与荷兰素描",
+        "模特研究、tronie 与圣徒/先知形象",
+        "归属研究与早期工作室语境"
+      ],
+      "routeSignals": [
+        "仅作预约研究室路线",
+        "当前不在主馆展出；适合与 Rembrandt 绘画和版画组成媒介研究路线，但不属于普通游客现场必看"
+      ],
+      "riskFlags": [
+        "appointment_limited_graphics"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/40381/",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-study-room-for-drawings-and-prints",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-collections"
+      ]
+    },
+    {
+      "workId": "rembrandt-presentation-in-temple-nmgb222-1977",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "《The Presentation in the Temple (in the dark manner)》以蚀刻与干刻的单一状态补足 Rembrandt 的宗教题材版画线，能与主馆《Simeon in the Temple》形成同题材、跨媒介的收藏路线。",
+      "selectionSignals": [
+        "官方对象页确认作者、约1654年、蚀刻与干刻、only state及 NMG B 222/1977；页面标为 Not on display。",
+        "对象属于 Nationalmuseum 版画收藏，可与 NM 4567 的油画同题材形成馆藏内部的跨媒介比较。",
+        "版画页面未提供主馆常规展厅位置；按馆方研究室规则作为预约研究对象处理，不把在线图像等同于现场可见。"
+      ],
+      "sectionSignals": [
+        "版画与素描收藏",
+        "宗教题材的跨媒介对照",
+        "蚀刻、干刻与印制状态"
+      ],
+      "routeSignals": [
+        "仅作预约研究室路线",
+        "当前不在主馆展出；可与 NM 4567 组成《Presentation in the Temple》跨媒介对照"
+      ],
+      "riskFlags": [
+        "appointment_limited_graphics"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/231738/",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-study-room-for-drawings-and-prints",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-collections"
+      ]
+    },
+    {
+      "workId": "durer-portrait-young-woman-braided-hair-nmh1855-1863",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "Dürer 1515年的《Portrait of a Young Woman with braided hair》把16世纪德国纸上人物研究带入 Nationalmuseum 的跨世纪素描收藏，可承担从 Rembrandt 荷兰素描回看更早欧洲肖像实践的比较节点。",
+      "selectionSignals": [
+        "官方对象页确认作者、1515年、黑粉笔与炭笔纸本及 NMH 1855/1863；页面标为 Not on display。",
+        "对象属于馆方 Free-hand drawings，代表 Nationalmuseum 从文艺复兴至1900年的纸上作品范围，并可与 Rembrandt 素描形成跨地域、跨世纪对照。",
+        "其主要馆级价值来自德国16世纪素描与跨世纪收藏线；没有在 compact 阶段加入未经来源支持的稀有或最高级判断。"
+      ],
+      "sectionSignals": [
+        "纸上作品与欧洲素描史",
+        "16世纪德国艺术",
+        "人物研究与跨世纪比较"
+      ],
+      "routeSignals": [
+        "仅作预约研究室路线",
+        "当前不在主馆展出；作为跨世纪纸上作品补充，不与主馆在展绘画路线混列"
+      ],
+      "riskFlags": [
+        "appointment_limited_graphics"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/43163/",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-study-room-for-drawings-and-prints",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-collections"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "pearl-ruby-set",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The pearl-ruby set",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-pearl-ruby-set/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "production",
+        "collectionRelation",
+        "availability"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The crown jewels",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/the-crown-jewels/",
+      "sourceType": "museum",
+      "usedFor": [
+        "collectionRelation",
+        "history",
+        "production",
+        "date"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "The Treasury's 3rd section (room I)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-i-the-treasury/",
+      "sourceType": "museum",
+      "usedFor": [
+        "accessionNumber",
+        "identity",
+        "material",
+        "collectionRelation",
+        "date",
+        "provenance"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Perle-rubinsættet",
+      "publisher": "Kongehuset",
+      "url": "https://www.kongehuset.dk/kongelige-samlinger/smykker/perle-rubinsaettet/",
+      "sourceType": "other",
+      "usedFor": [
+        "identity",
+        "material",
+        "date",
+        "production",
+        "provenance"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "珍珠红宝石套饰的现行形式由 C.M. Weishaupt & Söhne 为卡罗琳·阿玛莉王后制作，官方对象页具体定为1842年。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "项链中的大珍珠至少可以追溯到17世纪晚期。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S2",
+        "S4"
+      ]
+    },
+    {
+      "claim": "套饰中的17枚红宝石原先来自克里斯蒂安六世的妹妹夏洛特·阿玛莉公主。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "胸针可以拆分并以不同方式佩戴。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "这套珠宝目前可供玛丽王后使用，玛格丽特二世曾在2023年佩戴项链。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "丹麦王冠珠宝制度由索菲·阿玛莉王后1746年的遗嘱确立。",
+      "type": "foundational",
+      "sourceIds": [
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "现行形式的具体年代",
+      "statement": "锁定 metadata 与官方对象页采用1842年；丹麦王室官网及罗斯堡宝库的5532条目采用1840年。本文以“19世纪40年代初”概括，并在需要精确时采用对象页的1842年，可能反映整套编制与不同部件完成时间的差异。"
+    },
+    {
+      "topic": "当前展出状态",
+      "statement": "官方对象页说明该套饰可供玛丽王后使用，但没有确认本次访问时是否正在罗斯堡展柜中；锁定 metadata 标明展陈会轮换。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "creator",
+      "lockedValue": "丹麦王室",
+      "observedValue": "C.M. Weishaupt & Söhne（哈瑙）被官方页面列为现行形式的珠宝商/制作方",
+      "sourceIds": [
+        "S1",
+        "S2",
+        "S4"
+      ],
+      "severity": "warning",
+      "explanation": "锁定值更接近王室收藏归属与展示归属，而官方来源明确指出现行套饰由珠宝商 C.M. Weishaupt & Söhne 制作或完成；这不会改变作品身份、选择、评分或发布判断。"
+    },
+    {
+      "field": "date",
+      "lockedValue": "1842；大型珍珠至少可追溯至17世纪晚期",
+      "observedValue": "1840（丹麦王室官网与罗斯堡宝库页面将现行形式或5532条目概述为1840）",
+      "sourceIds": [
+        "S3",
+        "S4"
+      ],
+      "severity": "warning",
+      "explanation": "官方对象页明确把现行形式定为1842年，而其他官方页面写1840年，可能反映整套编制与扣件等部件的不同日期；不改变作品身份、选择、评分或发布判断。"
+    }
+  ]
+}

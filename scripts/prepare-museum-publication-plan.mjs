@@ -4,6 +4,7 @@ import path from "node:path";
 import {fileURLToPath} from "node:url";
 import {loadManifest, resolveCanonicalRun} from "./lib/filesystem-contract.mjs";
 import {atomicJson} from "./lib/work-status.mjs";
+import {assertVerifiedImageEvidence} from "./lib/verified-image-evidence-contract.mjs";
 
 const parseArgs = argv => Object.fromEntries(argv.map(arg => {
   const [key, ...rest] = arg.replace(/^--/, "").split("=");
@@ -59,6 +60,10 @@ export async function prepareMuseumPublicationPlan({projectRoot, kind, museum, c
   ];
   const [scope, candidatesDoc, selectionDoc, ratingInput, ratingResult, structure, imagesDoc, lockedReport] =
     await Promise.all(sourcePaths.map(relative => readJson(path.join(runRoot,relative))));
+  assertVerifiedImageEvidence(imagesDoc);
+  const localizationRelative = "identity-localization/identity-localization.json";
+  const localizationDoc = await readJson(path.join(runRoot, localizationRelative)).catch(error => error?.code === "ENOENT" ? null : Promise.reject(error));
+  if (localizationDoc) sourcePaths.push(localizationRelative);
   if ([scope.museumId,candidatesDoc.museumId,selectionDoc.museumId,ratingResult.museumId,structure.museumId,imagesDoc.museumId,lockedReport.museumId]
     .some(value => value !== museumId)) throw new Error("publication plan identity drift");
 
@@ -66,6 +71,7 @@ export async function prepareMuseumPublicationPlan({projectRoot, kind, museum, c
   const selected = byId(selectionDoc,"selectedWorks");
   const placements = byId(structure,"works");
   const images = byId(imagesDoc,"works");
+  const localizations = byId(localizationDoc ?? {works: []}, "works");
   const workIds = (structure.works ?? []).map(item => item.workId ?? item.id);
   if (workIds.length !== selected.size || workIds.some(id => !selected.has(id))) {
     throw new Error("publication plan structure IDs must exactly match selection");
@@ -95,11 +101,11 @@ export async function prepareMuseumPublicationPlan({projectRoot, kind, museum, c
 
   const works = workIds.map(workId => {
     const candidate = candidates.get(workId);
-    const identity = candidate?.identity ? {...candidate,...candidate.identity} : candidate;
+    const identity = candidate?.identity ? {...candidate,...candidate.identity,...(localizations.get(workId) ?? {})} : candidate;
     const choice = selected.get(workId);
     const placement = placements.get(workId);
     const evidence = images.get(workId);
-    if (!identity || !choice || !placement || evidence?.status !== "accepted" || !evidence.selected) {
+    if (!identity || !choice || !placement || !["accepted", "object_image_accepted", "context_image_accepted"].includes(evidence?.status) || !evidence.selected) {
       throw new Error(`${workId}: deterministic publication input is incomplete`);
     }
     const chapterId = placement.sectionId;
@@ -111,7 +117,7 @@ export async function prepareMuseumPublicationPlan({projectRoot, kind, museum, c
       ch: chapterId,
       significance: choice.significance,
       image: `./assets/${museumId}/${workId}.${suffix}`,
-      imageSource: evidence.selected.url,
+      imageSource: evidence.selected.url ?? evidence.selected.sourcePageUrl ?? evidence.selected.capture?.sourcePageUrl,
       imageCaption: [names.zh,names.en].filter(Boolean).join(" / "),
       source: identity.officialObjectUrl,
       localAssetSource: evidence.selected.localPath,

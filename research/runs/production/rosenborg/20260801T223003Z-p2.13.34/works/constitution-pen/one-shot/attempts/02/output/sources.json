@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "constitution-pen",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The 1849 Constitution pen",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-constitution-pen/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "collectionRelation",
+        "availability",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Frederik VII’s Room (room 18)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-18-frederik-vii-s-room/",
+      "sourceType": "museum",
+      "usedFor": [
+        "displayLocation",
+        "collectionRelation",
+        "identity"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Grundlovens og folkestyrets udvikling",
+      "publisher": "Folketinget",
+      "url": "https://www.ft.dk/da/folkestyret/grundloven-og-folkestyret/grundlovens-og-folkestyrets-udvikling",
+      "sourceType": "publication",
+      "usedFor": [
+        "historicalContext",
+        "date",
+        "significance",
+        "strongClaims"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "1849年宪法是丹麦第一部宪法。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S3"
+      ]
+    },
+    {
+      "claim": "腓特烈七世于1849年6月5日签署丹麦宪法，并由此推动丹麦从绝对君主制走向宪政。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S3"
+      ]
+    },
+    {
+      "claim": "1849年宪法取代了1665年的《丹麦王国法》，后者是丹麦绝对君主制的法律基础。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "制造者与详细材质",
+      "statement": "官方对象页确认它是用于签署1849年宪法的钢笔，但未说明具体制造者、制作工坊或完整材质构成；文章未作进一步归属。"
+    },
+    {
+      "topic": "1849年宪法的民主范围",
+      "statement": "文章将其表述为走向代议政治的制度入口，而非已经完成的现代普选民主；Folketinget资料指出当时约15%的丹麦人口拥有选举权。"
+    }
+  ],
+  "upstreamConflicts": []
+}

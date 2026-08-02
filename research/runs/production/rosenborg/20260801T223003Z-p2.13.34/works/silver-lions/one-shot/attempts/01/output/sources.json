@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "silver-lions",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Silver lions",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/silver-lions/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "collectionRelation",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Historical artefacts",
+      "publisher": "The Royal House of Denmark",
+      "url": "https://www.kongehuset.dk/en/royal-collections/royal-symbols/historical-artefacts/",
+      "sourceType": "other",
+      "usedFor": [
+        "date",
+        "material",
+        "maker",
+        "artist_intent",
+        "historical_context",
+        "use"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "The Rosenborg Castle",
+      "publisher": "Parkmuseerne",
+      "url": "https://www.parkmuseerne.dk/en/museer/rosenborg/",
+      "sourceType": "museum",
+      "usedFor": [
+        "availability",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Rosenborg Castle",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/",
+      "sourceType": "museum",
+      "usedFor": [
+        "historical_context",
+        "collectionRelation"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "弗雷德里克三世希望借银狮将自己与圣经中的君王相比较。",
+      "type": "artist_intent",
+      "sourceIds": [
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "铜狮的完成情况",
+      "statement": "官方对象页说明，六只铜狮是否曾全部制作完成，今天无法确定。"
+    },
+    {
+      "topic": "罗斯堡宫与国王花园桥边的两只狮子",
+      "statement": "官方对象页称它们可能是原计划中的铜狮，但无法确定。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "creator",
+      "severity": "warning",
+      "statement": "锁定 metadata 的 artistZh/artistEn 为“丹麦王室 / Danish royal collection”；官方王室资料则明确指出，银狮由哥本哈根银匠费迪南德·屈比希制作。本文保留锁定标题与馆藏归属，同时在正文中说明具体制作人。"
+    }
+  ]
+}

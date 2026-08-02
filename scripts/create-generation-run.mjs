@@ -31,6 +31,7 @@ export async function createGenerationRun({
   caseId,
   milestone,
   now,
+  museumRequest,
 }) {
   const root = path.resolve(projectRoot);
   const manifest = await loadManifest(root);
@@ -93,6 +94,21 @@ export async function createGenerationRun({
     await fs.writeFile(path.join(runRoot, "run.json"), `${JSON.stringify(descriptor, null, 2)}\n`, {
       flag: "wx",
     });
+    if (museumRequest) {
+      for (const field of ["museumName", "city", "country"]) {
+        if (typeof museumRequest[field] !== "string" || !museumRequest[field].trim()) {
+          throw new Error(`museum request requires ${field}`);
+        }
+      }
+      await fs.writeFile(path.join(runRoot, "scope", "request.json"), `${JSON.stringify({
+        schemaVersion: 1,
+        museumId: museum ?? museumRequest.museumId,
+        museumName: museumRequest.museumName,
+        city: museumRequest.city,
+        country: museumRequest.country,
+        ...(museumRequest.officialCollectionUrl ? {officialCollectionUrl: museumRequest.officialCollectionUrl} : {}),
+      }, null, 2)}\n`, {flag: "wx"});
+    }
   } catch (error) {
     await fs.rm(runRoot, { recursive: true, force: true });
     throw error;
@@ -102,7 +118,14 @@ export async function createGenerationRun({
 
 async function main() {
   const args = parseArgs(process.argv.slice(2));
+  const allowed = new Set(["project-root", "kind", "museum", "case", "milestone", "now", "museum-name", "city", "country", "official-collection-url"]);
+  for (const key of Object.keys(args)) if (!allowed.has(key)) throw new Error(`unknown option: --${key}`);
   if ("run-root" in args) throw new Error("--run-root is not supported by the canonical run creator");
+  if (!args.kind) throw new Error("--kind is required");
+  if (args.kind === "production" && !args.museum) throw new Error("--museum is required for production runs");
+  if (["experiment", "regression"].includes(args.kind) && !args.case) throw new Error(`--case is required for ${args.kind} runs`);
+  const requestValues = [args["museum-name"], args.city, args.country];
+  if (requestValues.some(Boolean) && !requestValues.every(Boolean)) throw new Error("--museum-name, --city and --country must be provided together");
   const projectRoot = path.resolve(args["project-root"] ?? path.resolve(path.dirname(fileURLToPath(import.meta.url)), ".."));
   const result = await createGenerationRun({
     projectRoot,
@@ -111,6 +134,12 @@ async function main() {
     caseId: args.case,
     milestone: args.milestone,
     now: args.now,
+    museumRequest: args["museum-name"] ? {
+      museumName: args["museum-name"],
+      city: args.city,
+      country: args.country,
+      officialCollectionUrl: args["official-collection-url"],
+    } : undefined,
   });
   process.stdout.write(`${JSON.stringify(result, null, 2)}\n`);
 }

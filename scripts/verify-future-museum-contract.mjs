@@ -33,7 +33,8 @@ export function validateFutureMuseumContract({input, dataSource, indexHtml, muse
   const routesIndex = museumScripts.indexOf("routes.js");
   const dataIndex = museumScripts.indexOf(`${id}.js`);
   if (dataIndex >= 0 && routesIndex >= 0 && dataIndex > routesIndex) failures.push("museum.html: future data script must load before routes.js");
-  if (!new RegExp(`(?:^|[,{\\s])${id}:\\s*\\[`).test(indexHtml)) failures.push("index.html: map coordinates missing");
+  const escapedId = id.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  if (!new RegExp(`(?:^|[,{\\s])(?:["']${escapedId}["']|${escapedId}):\\s*\\[`).test(indexHtml)) failures.push("index.html: map coordinates missing");
   const order = indexHtml.match(/const order=\[([^\]]*)\]/)?.[1] || "";
   if (!order.includes(`"${id}"`)) failures.push("index.html: ranking order registration missing");
   const destinations = new Set((publication?.files || []).map(file => file.destination));

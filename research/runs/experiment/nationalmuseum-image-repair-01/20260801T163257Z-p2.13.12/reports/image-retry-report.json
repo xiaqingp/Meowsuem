@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "stage": "image_evidence_retry",
+  "runId": "20260801T163257Z-p2.13.12",
+  "runRoot": "research/runs/experiment/nationalmuseum-image-repair-01/20260801T163257Z-p2.13.12",
+  "parentRunRoot": "research/runs/production/nationalmuseum/20260801T152615Z-p2.13.12",
+  "parentEvidenceSha256": "b63f4af262a1aafdb607e9a4934800225b607a198a582e9499117b2c13ff57e5",
+  "failedWorksRetried": [
+    {
+      "workId": "roslin-lady-with-veil-nm4098",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "fast path download failed: image returned 403",
+        "AI candidate download failed: image exceeds byte limit: 31674096"
+      ],
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:The_Lady_with_the_Veil_(the_Artist%27s_Wife)_(Alexander_Roslin)_-_Nationalmuseum_-_21152.tif"
+    },
+    {
+      "workId": "durer-portrait-young-woman-braided-hair-nmh1855-1863",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "fast path download failed: image returned 403",
+        "The official object page confirms the exact drawing, but located Wikimedia imagery refers to a different Dürer painting and was excluded on identity grounds."
+      ],
+      "sourcePageUrl": null
+    },
+    {
+      "workId": "roslin-zoie-ghika-nm6872",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "AI candidate download failed: image returned 429"
+      ],
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/Category:Zoie_Ghika,_Moldavian_Princess_(Alexander_Roslin_-_Nationalmuseum_Stockholm)"
+    },
+    {
+      "workId": "corot-red-rocks-civita-castellana-nm2060",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "fast path download failed: image returned 403",
+        "The official object page confirms the exact painting, but no non-excluded image URL with sufficient exact-work identity evidence was located."
+      ],
+      "sourcePageUrl": null
+    },
+    {
+      "workId": "renoir-la-grenouillere-nm2425",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "fast path download failed: image returned 403",
+        "AI candidate download failed: image returned 429"
+      ],
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/Category:La_Grenouillère_(Nationalmuseum_Stockholm)"
+    },
+    {
+      "workId": "rembrandt-self-portrait-nm5324",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "AI candidate download failed: image returned 429"
+      ],
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_Harmensz._van_Rijn_-_Selfportrait_-_Google_Art_Project.jpg"
+    },
+    {
+      "workId": "liljefors-fox-family-nm1376",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "fast path download failed: image returned 403",
+        "AI candidate download failed: image returned 429"
+      ],
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Bruno_Liljefors_-_A_Fox_Family_-_Google_Art_Project.jpg"
+    },
+    {
+      "workId": "liljefors-jays-nm6811",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "fast path download failed: image returned 403",
+        "AI candidate download failed: image returned 429"
+      ],
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Liljefors_-_Jays.jpg"
+    },
+    {
+      "workId": "carl-larsson-swedish-fairy-tale-nm6840b",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "fast path download failed: image returned 403",
+        "AI candidate download failed: image returned 429"
+      ],
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Carl_Larsson_-_A_Swedish_Fairy_Tale_-_NM_6840b_-_Nationalmuseum.jpg"
+    },
+    {
+      "workId": "zorn-midsummer-dance-nm1603",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "AI candidate download failed: image returned 429"
+      ],
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Zorn_-_Midsummer_Dance.jpg"
+    }
+  ],
+  "newlyAccepted": [
+    {
+      "workId": "rembrandt-self-portrait-nm5324",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_Harmensz._van_Rijn_-_Selfportrait_-_Google_Art_Project.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Selfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif/lossy-page1-500px-Selfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif.jpg",
+      "localPath": "research/runs/experiment/nationalmuseum-image-repair-01/20260801T163257Z-p2.13.12/image-evidence/assets/rembrandt-self-portrait-nm5324.jpg",
+      "sha256": "65cb97953d716d8165666c7796d57c585896d30e6982b989550b2b26e67747fc",
+      "method": "ai_page_candidate_download",
+      "imageRole": "object_view",
+      "candidateId": "page-image-001"
+    },
+    {
+      "workId": "zorn-midsummer-dance-nm1603",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Zorn_-_Midsummer_Dance.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Midsummer_Dance_%28Anders_Zorn%29_-_Nationalmuseum_-_18607.tif/lossy-page1-500px-Midsummer_Dance_%28Anders_Zorn%29_-_Nationalmuseum_-_18607.tif.jpg",
+      "localPath": "research/runs/experiment/nationalmuseum-image-repair-01/20260801T163257Z-p2.13.12/image-evidence/assets/zorn-midsummer-dance-nm1603.jpg",
+      "sha256": "f80e813825b42ae17e7f10bf8b7aaf5fd9685c1929f8ff0c2053fe93b9073213",
+      "method": "ai_page_candidate_download",
+      "imageRole": "object_view",
+      "candidateId": "page-image-001"
+    }
+  ],
+  "stillUnresolved": [
+    {
+      "workId": "roslin-lady-with-veil-nm4098",
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+      "warnings": [
+        "selected candidate processing failed: image returned 403"
+      ]
+    },
+    {
+      "workId": "durer-portrait-young-woman-braided-hair-nmh1855-1863",
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/43163/",
+      "warnings": [
+        "selected candidate processing failed: image returned 403"
+      ]
+    },
+    {
+      "workId": "roslin-zoie-ghika-nm6872",
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/23921/",
+      "warnings": [
+        "selected candidate processing failed: image returned 403"
+      ]
+    },
+    {
+      "workId": "corot-red-rocks-civita-castellana-nm2060",
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/19119/",
+      "warnings": [
+        "selected candidate processing failed: image returned 403"
+      ]
+    },
+    {
+      "workId": "renoir-la-grenouillere-nm2425",
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/19486/",
+      "warnings": [
+        "selected candidate processing failed: image returned 403"
+      ]
+    },
+    {
+      "workId": "liljefors-fox-family-nm1376",
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18379/",
+      "warnings": [
+        "selected candidate processing failed: image returned 403"
+      ]
+    },
+    {
+      "workId": "liljefors-jays-nm6811",
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/23860/",
+      "warnings": [
+        "selected candidate processing failed: image returned 403"
+      ]
+    },
+    {
+      "workId": "carl-larsson-swedish-fairy-tale-nm6840b",
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/36656/",
+      "warnings": [
+        "selected candidate processing failed: image returned 403"
+      ]
+    }
+  ],
+  "counts": {
+    "works": 20,
+    "previousAcceptedPreserved": 10,
+    "retried": 10,
+    "newlyAccepted": 2,
+    "directImageDownloads": 2,
+    "elementCaptures": 0,
+    "objectImageAccepted": 4,
+    "contextImagesAccepted": 0,
+    "unresolved": 16,
+    "duplicateObjectImageGroups": [],
+    "modelCalls": 1,
+    "modelTokens": 47112,
+    "webSearchCount": 0
+  },
+  "model": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium",
+    "calls": 1,
+    "durationMs": 46142,
+    "tokens": {
+      "total": 47112,
+      "source": "codex_cli_log"
+    },
+    "webSearchCount": 0
+  },
+  "guarantees": {
+    "acceptedWorksNotRerun": [
+      "rembrandt-kitchen-maid-nm584",
+      "rembrandt-simeon-in-the-temple-nm4567",
+      "cezanne-landscape-nm1999",
+      "sergel-cupid-and-psyche-nmsk359",
+      "mathsson-reclining-chair-36-nmk46-2010",
+      "hanna-pauli-breakfast-time-nm1705",
+      "wegner-jh501-armchair-nmk262-1956",
+      "sergel-mars-and-venus-nmsk1113",
+      "bam-bam-chair-nmk148-1972",
+      "beauvais-tapestry-elephant-nmk299a-2016"
+    ],
+    "nonImageStagesRun": [],
+    "imageGenerationModelUsed": false,
+    "parentRunModified": false,
+    "assemblyNetworkAccess": false,
+    "productionModified": false
+  }
+}

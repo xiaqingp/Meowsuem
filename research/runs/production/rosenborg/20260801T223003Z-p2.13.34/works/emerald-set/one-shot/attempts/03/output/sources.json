@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "emerald-set",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Emerald Set",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-emerald-set/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "making",
+        "collectionHistory",
+        "historicalUse",
+        "currentUse",
+        "objectParts"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The Danish crown jewels",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/the-crown-jewels/",
+      "sourceType": "museum",
+      "usedFor": [
+        "collectionRelation",
+        "crownJewelsHistory",
+        "displayContext",
+        "historicalUse",
+        "currentUse"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Rosenborg Castle",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/",
+      "sourceType": "museum",
+      "usedFor": [
+        "museumContext",
+        "displayContext",
+        "currentUse"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "翡翠套饰中超过三分之一的绿色宝石可追溯至1723年索菲·玛格达莱娜王后收到的翡翠项链。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "翡翠套饰由哈瑙的 C.M. Weishaupt & Söhne 珠宝商于1840年为卡罗琳·阿玛莉娅王后制作。",
+      "type": "attribution",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "皇家丹麦收藏官网目前记载翡翠套饰由玛丽王后佩戴。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "availability",
+      "statement": "Rosenborg官方资料说明皇冠珠宝在Treasury长期展示并会在特殊王室场合使用，但对象页没有明确说明翡翠套饰在具体参观日期是否处于现场展柜中；单件展出或外借状态应以当日馆方信息为准。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "creator",
+      "lockedValue": "丹麦王室",
+      "observedValue": "C.M. Weishaupt & Söhne，哈瑙，黑森",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ],
+      "severity": "warning",
+      "explanation": "锁定metadata中的艺术家字段更像馆藏或展示归属；皇家丹麦收藏对象页明确将1840年的制作归于C.M. Weishaupt & Söhne。该差异不改变作品身份，但文章在制作史部分采用馆方明确给出的珠宝商归属，未改写locked metadata。"
+    }
+  ]
+}

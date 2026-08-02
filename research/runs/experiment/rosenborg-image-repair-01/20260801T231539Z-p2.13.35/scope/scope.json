@@ -1,0 +1,134 @@
+{
+  "museumId": "rosenborg",
+  "museumName": "Rosenborg Castle",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "officialCollectionUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/",
+  "editorialCapacity": 20,
+  "collectionBoundaries": {
+    "includedSites": [
+      {
+        "name": "Rosenborg Castle",
+        "address": "Øster Voldgade 4A, 1350 Copenhagen",
+        "scope": "The castle building and visitor-accessible historic interiors, halls, rooms, tower rooms, and the Treasury beneath the castle.",
+        "sourceIds": ["rosenborg-official", "rosenborg-visit"]
+      }
+    ],
+    "includedCollectionGroups": [
+      {
+        "name": "Historic royal interiors and objects",
+        "scope": "The furnished rooms and halls associated with the Danish kings who resided at Rosenborg, together with the royal art treasures and objects displayed in the castle.",
+        "sourceIds": ["rosenborg-official", "royal-house-rosenborg"]
+      },
+      {
+        "name": "Danish crown jewels",
+        "scope": "The crown-jewel sets displayed in the Treasury, including the Emerald Set, Rose-Cut Diamond Set, Brilliant-Cut Diamond Set, and Pearl-Ruby Set.",
+        "sourceIds": ["rosenborg-official", "royal-house-rosenborg"]
+      },
+      {
+        "name": "Royal crowns and Crown regalia",
+        "scope": "The royal crowns and regalia presented in the Treasury, including objects with a documented connection to the Danish monarchy.",
+        "sourceIds": ["rosenborg-official", "royal-house-rosenborg"]
+      },
+      {
+        "name": "Historical clothing and other royal objects",
+        "scope": "The historical clothing and other objects associated with the Rosenborg collection where they are presented at this site; current display and project status require downstream verification.",
+        "sourceIds": ["rosenborg-official"]
+      }
+    ],
+    "boundaryRationale": "Rosenborg is treated as one museum site and one editorial route: the castle, its preserved interiors, and its Treasury. The wider Royal Danish Collection is an institution with several separate castles and palaces, so institution-wide holdings are not merged into this scope."
+  },
+  "exclusions": [
+    {
+      "name": "Amalienborg Museum",
+      "reason": "Separate Royal Danish Collection venue and separate visitor site; not part of Rosenborg Castle.",
+      "sourceIds": ["royal-collection-home", "royal-house-rosenborg"]
+    },
+    {
+      "name": "Christiansborg Palace",
+      "reason": "Separate Royal Danish Collection venue and separate visitor site; not part of Rosenborg Castle.",
+      "sourceIds": ["royal-collection-home"]
+    },
+    {
+      "name": "The Hermitage Palace",
+      "reason": "Separate Royal Danish Collection venue; not part of Rosenborg Castle.",
+      "sourceIds": ["royal-collection-home"]
+    },
+    {
+      "name": "Fredensborg Palace",
+      "reason": "Separate Royal Danish Collection venue; not part of Rosenborg Castle.",
+      "sourceIds": ["royal-collection-home"]
+    },
+    {
+      "name": "Koldinghus",
+      "reason": "Separate Royal Danish Collection venue; not part of Rosenborg Castle.",
+      "sourceIds": ["royal-collection-home"]
+    },
+    {
+      "name": "Amalienborg Palace collection section for the Glücksborg monarchs",
+      "reason": "The official royal-house history distinguishes this newer section from Rosenborg's Oldenburg-focused section; it is a separate site.",
+      "sourceIds": ["royal-house-rosenborg"]
+    },
+    {
+      "name": "Temporary exhibitions and future Kingdom's Treasury project spaces",
+      "reason": "Not treated as stable collection boundaries for this run; any current exhibition or construction status must be verified downstream.",
+      "sourceIds": ["rosenborg-official"]
+    },
+    {
+      "name": "King's Garden",
+      "reason": "The garden is the castle's setting and access context, not an independent museum collection venue in this scope.",
+      "sourceIds": ["rosenborg-visit", "rosenborg-official"]
+    }
+  ],
+  "riskFlags": [
+    "current_display_status",
+    "kingdoms_treasury_project"
+  ],
+  "sourcePointers": [
+    {
+      "id": "rosenborg-official",
+      "title": "Rosenborg Castle",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/",
+      "accessedOn": "2026-08-01",
+      "supports": "Rosenborg's identity as a Renaissance castle; its historic interiors; the Treasury; crown jewels, royal crowns and Crown regalia; historical clothing and other objects; castle history; and the separate Royal Danish Collection venue links."
+    },
+    {
+      "id": "rosenborg-visit",
+      "title": "Plan your visit to Rosenborg Castle",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/plan-your-visit/",
+      "accessedOn": "2026-08-01",
+      "supports": "The precise entrance address, location in Kongens Have, the single-site visitor boundary, and the castle's compact multi-level access conditions."
+    },
+    {
+      "id": "royal-collection-home",
+      "title": "The Royal Danish Collection",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/",
+      "accessedOn": "2026-08-01",
+      "supports": "The institution's separate venue list and the distinction between Rosenborg Castle and the other castles and palaces."
+    },
+    {
+      "id": "royal-house-rosenborg",
+      "title": "Rosenborg Palace",
+      "publisher": "The Official Website of the Danish Monarchy",
+      "url": "https://www.kongehuset.dk/en/palaces-and-the-royal-yacht/rosenborg-palace/",
+      "accessedOn": "2026-08-01",
+      "supports": "Rosenborg's royal-history and furnished-interior scope, its crown jewels and royal-crown context, and the division between Rosenborg's Oldenburg section and Amalienborg's newer Glücksborg section."
+    },
+    {
+      "id": "rosenborg-map",
+      "title": "Rosenborg Slot",
+      "publisher": "Wikimedia Commons, structured location data",
+      "url": "https://commons.wikimedia.org/wiki/Rosenborg_Slot",
+      "accessedOn": "2026-08-01",
+      "supports": "Map coordinates for the Rosenborg Castle building, cross-checked against the official address and site location."
+    }
+  ],
+  "coordinates": [55.685661, 12.577481],
+  "uncertainties": [
+    "The official site describes an ongoing Kingdom's Treasury project and a planned exhibition space for historical clothing and other objects; the exact objects and galleries visible on a given visit require downstream current-display verification.",
+    "The scope identifies official collection groups rather than enumerating every object or formal curatorial department; individual object identities and candidate-pool boundaries require later official object-page research."
+  ]
+}

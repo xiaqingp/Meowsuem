@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "rosenborg-wine",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Rosenborg Wine",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-rosenborg-wine/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "historicalUse",
+        "collectionHistory",
+        "currentPractice",
+        "conservation"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The Rosenborg Wine (room D)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-d-the-rosenborg-wine/",
+      "sourceType": "museum",
+      "usedFor": [
+        "date",
+        "currentDisplay",
+        "collectionHistory",
+        "currentPractice",
+        "conservation"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "Rosenborg葡萄酒最早于1598年供应王室新年宴会。",
+      "type": "first_or_earliest",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "三只最老酒桶的年代分别为1598年、1599年和1615年。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "claim": "1659年瑞典军队将酒桶作为战争战利品带走，途中被丹麦私掠船夺回。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "claim": "1982年酒液从老木桶转移到钢罐和瓶中，老木桶随后作为历史见证保留。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "葡萄酒产地",
+      "statement": "酒以莱茵葡萄酒为基础，传统上被认为来自德国莱茵河畔的巴哈拉赫；馆方使用的是传统说法。"
+    },
+    {
+      "topic": "年份与连续性",
+      "statement": "1598、1599和1615首先指向最老酒桶的年代；1982年后酒液已转移至钢罐和瓶中，因此不能把它理解为同一容器内未曾变化的原液。"
+    }
+  ],
+  "upstreamConflicts": []
+}

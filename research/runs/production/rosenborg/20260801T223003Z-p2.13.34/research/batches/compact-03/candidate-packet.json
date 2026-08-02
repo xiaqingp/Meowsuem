@@ -1,0 +1,295 @@
+{
+  "museumId": "rosenborg",
+  "works": [
+    {
+      "workId": "wetting-trap-chair",
+      "identity": {
+        "objectType": "object",
+        "title": {
+          "zh": "国王恶作剧湿裤椅",
+          "en": "The King’s wetting trap chair"
+        },
+        "cultureZh": "丹麦王室珍奇柜",
+        "cultureEn": "Danish royal cabinet of curiosities",
+        "displayDate": "17世纪；1752年进入皇家珍奇柜",
+        "medium": "带隐藏机械装置的椅子",
+        "identityAnchor": "official-object:wetting-trap-chair",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/wetting-trap-chair/"
+      },
+      "identityAnchor": "official-object:wetting-trap-chair",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/wetting-trap-chair/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/wetting-trap-chair/",
+      "collectionGroup": "Historic royal interiors and objects",
+      "selectionRationale": "官方页面说明它以隐藏机制和宫廷恶作剧进入珍奇柜，可检验Rosenborg叙事是否只剩礼仪与宏大权力。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方对象页明确其现存身份与可能的使用年代；具体访问日可见性仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "golden-egg-with-hen",
+      "identity": {
+        "objectType": "object",
+        "title": {
+          "zh": "带母鸡的金蛋",
+          "en": "Golden egg with hen"
+        },
+        "cultureZh": "欧洲宫廷珍奇收藏",
+        "cultureEn": "European court curiosity collection",
+        "displayDate": "约1720年",
+        "medium": "象牙、黄金与可拆分的香盒结构",
+        "identityAnchor": "official-object:golden-egg-with-hen",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/golden-egg-with-hen/"
+      },
+      "identityAnchor": "official-object:golden-egg-with-hen",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/golden-egg-with-hen/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/golden-egg-with-hen/",
+      "collectionGroup": "Historic royal interiors and objects",
+      "selectionRationale": "官方对象页记录其五重可拆分结构、香盒功能与跨王室传递史，代表宫廷物件的隐蔽性和便携性。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方对象身份明确；该对象在本次访问中的具体展示状态仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "champagne-cooler",
+      "identity": {
+        "objectType": "object",
+        "title": {
+          "zh": "香槟冰桶",
+          "en": "Champagne cooler"
+        },
+        "artistZh": "法贝热工坊",
+        "artistEn": "Fabergé",
+        "displayDate": "1892",
+        "medium": "鎏银；俄罗斯与丹麦象征装饰",
+        "identityAnchor": "official-object:champagne-cooler",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/champagne-cooler/"
+      },
+      "identityAnchor": "official-object:champagne-cooler",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/champagne-cooler/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/champagne-cooler/",
+      "collectionGroup": "Historic royal interiors and objects",
+      "selectionRationale": "官方页面把法贝热工艺、俄丹王室亲属关系和1892年金婚赠礼结合起来，扩展收藏的国际外交维度。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方对象身份与制作者明确；具体访问日可见性仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "faberge-coronation-brooch",
+      "identity": {
+        "objectType": "object",
+        "title": {
+          "zh": "法贝热加冕胸针",
+          "en": "Fabergé's coronation brooch"
+        },
+        "artistZh": "法贝热工坊",
+        "artistEn": "Fabergé",
+        "displayDate": "1896",
+        "medium": "钻石镶嵌胸针，俄罗斯帝国王冠形制",
+        "identityAnchor": "official-object:faberges-coronation-brooch",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/faberges-coronation-brooch/"
+      },
+      "identityAnchor": "official-object:faberges-coronation-brooch",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/faberges-coronation-brooch/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/faberges-coronation-brooch/",
+      "collectionGroup": "Historic royal interiors and objects",
+      "selectionRationale": "官方页面明确其为1896年尼古拉二世加冕相关的18枚胸针之一，补足Rosenborg的跨王室网络。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方对象身份与事件背景明确；具体访问日可见性仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "flora-danica-encyclopedia",
+      "identity": {
+        "objectType": "single_work",
+        "title": {
+          "zh": "《丹麦植物志》百科全书",
+          "en": "The Flora Danica encyclopedia"
+        },
+        "artistZh": "格奥尔格·克里斯蒂安·奥德尔主导的编纂项目",
+        "artistEn": "Project directed by Georg Christian Oeder",
+        "displayDate": "1766；项目持续122年",
+        "medium": "纸本百科全书与铜版植物图",
+        "identityAnchor": "official-object:the-flora-danica-encyclopedia",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-flora-danica-encyclopedia/"
+      },
+      "identityAnchor": "official-object:the-flora-danica-encyclopedia",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-flora-danica-encyclopedia/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-flora-danica-encyclopedia/",
+      "collectionGroup": "Historic royal interiors and objects",
+      "selectionRationale": "官方页面把植物采集、国家范围、科学团队和铜版印刷放在同一项目中，扩展王室收藏从奢华物件到知识生产。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方对象身份与项目背景明确；具体访问日可见性仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "chess-set",
+      "identity": {
+        "objectType": "set",
+        "title": {
+          "zh": "丹麦—瑞典王室象棋套装",
+          "en": "Chess set"
+        },
+        "cultureZh": "丹麦王室",
+        "cultureEn": "Danish royal collection",
+        "displayDate": "约1660年",
+        "medium": "石灰岩棋子",
+        "identityAnchor": "official-object:chess-set",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/chess-set/"
+      },
+      "identityAnchor": "official-object:chess-set",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/chess-set/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/chess-set/",
+      "collectionGroup": "Historic royal interiors and objects",
+      "selectionRationale": "官方页面把丹麦—瑞典战争、围城和棋子角色结合起来，提供一件尺度亲近且带政治寓意的王室物件。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方对象身份明确；该对象在本次访问中的具体展示状态仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "constitution-pen",
+      "identity": {
+        "objectType": "object",
+        "title": {
+          "zh": "1849年宪法笔",
+          "en": "The 1849 Constitution pen"
+        },
+        "cultureZh": "丹麦王室",
+        "cultureEn": "Danish royal collection",
+        "displayDate": "1849",
+        "medium": "签署宪法所用钢笔",
+        "identityAnchor": "official-object:the-constitution-pen",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-constitution-pen/"
+      },
+      "identityAnchor": "official-object:the-constitution-pen",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-constitution-pen/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-constitution-pen/",
+      "collectionGroup": "Historical clothing and other royal objects",
+      "selectionRationale": "官方页面明确其在1849年签署首部丹麦宪法时使用，并定位于弗雷德里克七世房间，连接王权空间与宪政转型。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方页面明确其展示于Rosenborg的弗雷德里克七世房间；具体访问日可见性仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "margrethe-abdication-pen",
+      "identity": {
+        "objectType": "object",
+        "title": {
+          "zh": "玛格丽特二世退位笔",
+          "en": "HM Queen Margrethe II’s abdication pen"
+        },
+        "cultureZh": "丹麦王室",
+        "cultureEn": "Danish royal collection",
+        "displayDate": "2024年1月14日",
+        "medium": "绿色签字笔",
+        "identityAnchor": "official-object:hm-queen-margrethe-iis-abdication-pen",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/hm-queen-margrethe-ii-s-abdication-pen/"
+      },
+      "identityAnchor": "official-object:hm-queen-margrethe-iis-abdication-pen",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/hm-queen-margrethe-ii-s-abdication-pen/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/hm-queen-margrethe-ii-s-abdication-pen/",
+      "collectionGroup": "Historical clothing and other royal objects",
+      "selectionRationale": "官方页面记录其在2024年退位文件上的具体使用，作为王室制度记忆延伸的候选，而非古代珍宝重复。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方对象身份与事件日期明确；具体访问日可见性仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "rosenborg-wine",
+      "identity": {
+        "objectType": "group",
+        "title": {
+          "zh": "Rosenborg葡萄酒与酒桶",
+          "en": "The Rosenborg wine"
+        },
+        "cultureZh": "丹麦王室",
+        "cultureEn": "Danish royal collection",
+        "displayDate": "1598、1599、1615（最古老酒桶）",
+        "medium": "莱茵葡萄酒与木制酒桶",
+        "identityAnchor": "official-object:the-rosenborg-wine",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rosenborg-wine/"
+      },
+      "identityAnchor": "official-object:the-rosenborg-wine",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rosenborg-wine/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rosenborg-wine/",
+      "collectionGroup": "Historic royal interiors and objects",
+      "selectionRationale": "官方页面把酒桶、1598年新年宴会传统和Rosenborg地下酒窖联系起来，补足宫廷日常与仪式饮食线。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方对象页确认最古老酒桶位于Rosenborg；具体访问日可见性仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "winter-room",
+      "identity": {
+        "objectType": "architectural_viewing_node",
+        "title": {
+          "zh": "冬室（1号房）",
+          "en": "The Winter Room (room 1)"
+        },
+        "cultureZh": "丹麦王室建筑与历史室内",
+        "cultureEn": "Danish royal historic interior",
+        "displayDate": "克里斯蒂安四世时期；墙板约1620年",
+        "medium": "历史室内、木作、嵌画与隐藏声道",
+        "identityAnchor": "rosenborg-room-1",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-1-the-winter-room/"
+      },
+      "identityAnchor": "rosenborg-room-1",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-1-the-winter-room/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-1-the-winter-room/",
+      "collectionGroup": "Historic royal interiors and objects",
+      "selectionRationale": "官方空间页将其称为保存最好的克里斯蒂安四世时期房间之一，并记录隐藏声道、传声管与修复信息。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方页面明确标明该房间目前因修复关闭；重新开放状态需下游按访问日期核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    }
+  ]
+}

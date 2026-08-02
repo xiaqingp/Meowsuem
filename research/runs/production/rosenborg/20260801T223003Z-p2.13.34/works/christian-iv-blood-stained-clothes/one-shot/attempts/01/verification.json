@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "errors": [],
+  "warnings": [],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": true,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "一件衣服，带着一场海战的现场证据",
+    "先看华丽，再看破损",
+    "英雄叙事，也需要看它的缺口"
+  ],
+  "sourceCount": 5,
+  "articleBytes": 4553,
+  "sourcesBytes": 2959
+}

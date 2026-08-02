@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "constitution-pen",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The 1849 Constitution pen",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-constitution-pen/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "medium",
+        "collectionRelation",
+        "availability",
+        "historical_context"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Grundlovens og folkestyrets udvikling",
+      "publisher": "Folketinget",
+      "url": "https://www.ft.dk/da/folkestyret/grundloven-og-folkestyret/grundlovens-og-folkestyrets-udvikling",
+      "sourceType": "other",
+      "usedFor": [
+        "date",
+        "historical_context",
+        "significance"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "这支笔由弗雷德里克七世用于签署丹麦第一部宪法，签署日期为1849年6月5日。",
+      "type": "attribution",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "1849年宪法是丹麦第一部宪法。",
+      "type": "first_or_earliest",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "claim": "1849年宪法取代了1665年的《国王法》，丹麦由绝对王权转向宪政君主制。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "claim": "1849年约有15%的丹麦人口拥有选举权。",
+      "type": "other",
+      "sourceIds": [
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "制作与收藏细节",
+      "statement": "馆方对象页说明了这支笔的历史用途和现存展出关系，但未公布制造者、具体制作工艺或完整收藏入藏经过；本文未对这些内容作确定推断。"
+    }
+  ],
+  "upstreamConflicts": []
+}

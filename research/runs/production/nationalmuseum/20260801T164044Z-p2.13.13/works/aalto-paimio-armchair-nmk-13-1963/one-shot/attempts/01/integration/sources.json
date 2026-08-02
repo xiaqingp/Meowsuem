@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "aalto-paimio-armchair-nmk-13-1963",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Armchair Paimio Sanatorium",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/920/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "accessionNumber",
+        "availability",
+        "collectionRelation",
+        "technique",
+        "historicalContext"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Paimio chair",
+      "publisher": "Alvar Aalto Foundation",
+      "url": "https://www.alvaraalto.fi/en/work/paimio-chair/",
+      "sourceType": "foundation",
+      "usedFor": [
+        "designContext",
+        "originalUse",
+        "construction",
+        "date"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "History - Paimio Sanatorium",
+      "publisher": "Paimio Sanatorium Foundation",
+      "url": "https://paimiosanatorium.com/sanatorium/history/",
+      "sourceType": "foundation",
+      "usedFor": [
+        "sanatoriumContext",
+        "originalUse",
+        "AinoRelation",
+        "historicalContext"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Armchair 41 “Paimio”",
+      "publisher": "Artek",
+      "url": "https://www.artek.fi/en/products/armchair-41-paimio",
+      "sourceType": "publication",
+      "usedFor": [
+        "construction",
+        "structuralDescription",
+        "productIdentity"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "这把椅子在1939年纽约世界博览会的芬兰馆中展出，并获得国际关注。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "收藏史",
+      "statement": "Nationalmuseum对象页提供了馆藏号NMK 13/1963，但未在该页说明购藏时间或来源；本文未对收藏史作推断。"
+    }
+  ],
+  "upstreamConflicts": []
+}

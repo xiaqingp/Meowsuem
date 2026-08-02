@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "narwhal-throne",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The narwhal throne",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-narwhal-throne/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "iconography",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The Knights’ Hall (room 21)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/",
+      "sourceType": "museum",
+      "usedFor": [
+        "creator",
+        "maker",
+        "material",
+        "date",
+        "displayContext",
+        "availability",
+        "pairedObject"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Historical artefacts",
+      "publisher": "The Royal House of Denmark",
+      "url": "https://www.kongehuset.dk/en/royal-collections/royal-symbols/historical-artefacts/",
+      "sourceType": "museum",
+      "usedFor": [
+        "useHistory",
+        "politicalContext",
+        "silverLions",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "The History Behind the Anointing Throne",
+      "publisher": "The Royal House of Denmark",
+      "url": "https://www.kongehuset.dk/en/menu/news/the-history-behind-the-anointing-throne",
+      "sourceType": "museum",
+      "usedFor": [
+        "useHistory",
+        "politicalContext",
+        "date",
+        "historicalFunction"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Narwhal Ivory as the Arctic Colonial Speciality of the Kingdom of Denmark-Norway",
+      "publisher": "Journal18",
+      "url": "https://www.journal18.org/16-cold/narwhal-ivory-as-the-arctic-colonial-speciality-of-the-kingdom-of-denmark-norway/",
+      "sourceType": "academic",
+      "usedFor": [
+        "materialHistory",
+        "ArcticContext",
+        "colonialContext",
+        "interpretation"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "王座于1671年首次用于克里斯蒂安五世的涂油礼，并于1840年最后用于克里斯蒂安八世的涂油礼。",
+      "type": "other",
+      "sourceIds": [
+        "S2",
+        "S3",
+        "S4"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "upstreamConflicts": [
+    {
+      "field": "creator",
+      "lockedValue": "丹麦王室",
+      "observedValue": "本迪克斯·格罗德奇灵制作王座；镀金人物由 J. Kohlmann 制作，并在克里斯蒂安五世时期加上",
+      "sourceIds": [
+        "S2"
+      ],
+      "severity": "warning",
+      "explanation": "锁定 metadata 将馆藏展示归属写入 artist 字段；馆方展厅页面同时提供了更具体的制作归属。这一差异补充了作者信息，但不改变作品身份、馆藏选择或发布判断。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "PCR-2026-08-01-single-work-state-and-cost-guards",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-01",
+  "ownerInstruction": "在生成下个博物馆前执行批次报告聚合、warning 累积、发布 manifest 预检和生成成本保护；暂不修改 warning 内容政策。",
+  "baseRelease": "research/pipeline/releases/v2.13.40.json",
+  "targetVersion": "2.13.41",
+  "implementationStatus": "completed",
+  "scope": [
+    "rebuild single-work batch reports from every locked work after partial retries",
+    "make warning promotion cumulative and idempotent across retry batches",
+    "require manifest museum registration before a real publication write",
+    "pause repeated or over-budget single-work retries before another model call",
+    "report aggregate failure-code and retry-guard state"
+  ],
+  "outOfScope": [
+    "changing visitor-facing warning policy or prose",
+    "changing initial model routing or concurrency",
+    "mutating frozen releases or completed generation attempts"
+  ],
+  "allowedCanonicalFiles": [
+    "scripts/lib/work-status.mjs",
+    "scripts/run-generation-batch.mjs",
+    "scripts/run-one-shot-work.mjs",
+    "scripts/promote-warning-works.mjs",
+    "scripts/publish-museum-candidate.mjs"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/test-run-generation-batch.mjs",
+      "node scripts/test-one-shot-work.mjs",
+      "node scripts/test-publish-museum-candidate.mjs",
+      "node scripts/run-pipeline-tests.mjs",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

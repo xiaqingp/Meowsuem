@@ -36,13 +36,13 @@ try {
   await writeJson("scope/scope.json",scope);
 
   const identities=[
-    {workId:"ordinary-painting",objectType:"painting",titleZh:"普通绘画",titleEn:"Ordinary Painting",artistZh:"测试画家",artistEn:"Test Painter",displayDate:"1900年",medium:"布面油画",accessionNumber:"P.1",officialObjectUrl:"https://example.org/object/p1",riskFlags:[]},
-    {workId:"historical-object",objectType:"historical_object",titleZh:"历史文物",titleEn:"Historical Object",cultureZh:"测试文化",cultureEn:"Test Culture",displayDate:"约公元前500年",medium:"石",accessionNumber:"H.1",officialObjectUrl:"https://example.org/object/h1",riskFlags:[]},
-    {workId:"rare-candidate",objectType:"sculpture",titleZh:"珍品候选",titleEn:"Rare Candidate",artistZh:"测试雕塑家",artistEn:"Test Sculptor",displayDate:"1500年",medium:"青铜",accessionNumber:"R.1",officialObjectUrl:"https://example.org/object/r1",riskFlags:["rare_candidate","superlative_claim"]},
+    {workId:"ordinary-painting",objectType:"painting",title:{zh:"普通绘画",en:"Ordinary Painting"},titleZh:"普通绘画",titleEn:"Ordinary Painting",artistZh:"测试画家",artistEn:"Test Painter",displayDate:"1900年",medium:"布面油画",identityAnchor:"P.1",accessionNumber:"P.1",officialObjectUrl:"https://example.org/object/p1",riskFlags:[]},
+    {workId:"historical-object",objectType:"historical_object",title:{zh:"历史文物",en:"Historical Object"},titleZh:"历史文物",titleEn:"Historical Object",cultureZh:"测试文化",cultureEn:"Test Culture",displayDate:"约公元前500年",medium:"石",identityAnchor:"H.1",accessionNumber:"H.1",officialObjectUrl:"https://example.org/object/h1",riskFlags:[]},
+    {workId:"rare-candidate",objectType:"sculpture",title:{zh:"珍品候选",en:"Rare Candidate"},titleZh:"珍品候选",titleEn:"Rare Candidate",artistZh:"测试雕塑家",artistEn:"Test Sculptor",displayDate:"1500年",medium:"青铜",identityAnchor:"R.1",accessionNumber:"R.1",officialObjectUrl:"https://example.org/object/r1",riskFlags:["rare_candidate","superlative_claim"]},
   ];
   await writeJson("candidate-pool/candidate-pool.json",{
     schemaVersion:1,museumId,museumName:"Micro Museum",
-    candidates:identities.map(item=>({workId:item.workId,identity:item,officialObjectUrl:item.officialObjectUrl,accessionNumber:item.accessionNumber,collectionGroup:"fixture",selectionRationale:"fixture",riskFlags:item.riskFlags,imageAvailability:"fixture"})),
+    candidates:identities.map(item=>({workId:item.workId,identity:item,identitySourceUrl:item.officialObjectUrl,officialObjectUrl:item.officialObjectUrl,accessionNumber:item.accessionNumber,collectionGroup:"fixture",selectionRationale:"fixture",riskFlags:item.riskFlags,imageAvailability:"fixture"})),
   });
   await writeJson("research/batches/compact-01/compact-planning-evidence.json",{
     museumId,works:identities.slice(0,2).map(item=>({workId:item.workId,identityStatus:"stable",availability:"display_status_unknown",importanceCandidate:"重要藏品",rareCandidate:false,coreValue:"fixture",selectionSignals:[],sectionSignals:[],routeSignals:[],riskFlags:[],sourcePointers:[item.officialObjectUrl]})),
@@ -67,6 +67,7 @@ try {
   const allWorkIds=identities.map(item=>item.workId);
   await writeJson("structure/structure.json",{
     schemaVersion:1,museumId,works:placements,
+    museum:{name:{zh:"微型测试馆",en:"Micro Museum"},specialFocus:"fixture focus",actionConclusion:"fixture conclusion"},
     chapters:[
       {id:"main",number:"01",title:"主要作品",intro:"fixture",workIds:allWorkIds.slice(0,2)},
       {id:"rare",number:"02",title:"珍品",intro:"fixture",workIds:allWorkIds.slice(2)},
@@ -85,13 +86,13 @@ try {
     await fs.mkdir(path.dirname(asset),{recursive:true});
     await fs.copyFile(imageSource,asset);
     evidenceWorks.push({
-      schemaVersion:1,museumId,workId:identity.workId,identity:{title:identity.titleEn,creator:identity.artistEn??identity.cultureEn,accessionNumber:identity.accessionNumber,officialObjectUrl:identity.officialObjectUrl},
-      status:"accepted",imagePolicy:"object_image",
-      selected:{url:`https://example.org/image/${identity.workId}.jpg`,localPath:relative(asset),sha256:await sha(asset),width:800,height:533,contentType:"image/jpeg",method:"fixture",provider:"fixture",identitySignals:["accession_number_match"]},
+      workId:identity.workId,identity:{title:identity.titleEn,creator:identity.artistEn??identity.cultureEn,identityAnchor:identity.identityAnchor,accessionNumber:identity.accessionNumber,officialObjectUrl:identity.officialObjectUrl},
+      status:"object_image_accepted",objectImageResolved:true,imagePolicy:"object_image",
+      selected:{url:`https://example.org/image/${identity.workId}.jpg`,sourcePageUrl:identity.officialObjectUrl,localPath:relative(asset),sha256:await sha(asset),width:800,height:533,contentType:"image/jpeg",method:"fixture",provider:"fixture",identityEvidence:["accession_number_match"]},
       alternatives:[],warnings:[],
     });
   }
-  await writeJson("image-evidence/verified-image-evidence.json",{schemaVersion:1,museumId,works:evidenceWorks,summary:{works:3,accepted:3}});
+  await writeJson("image-evidence/verified-image-evidence.json",{schemaVersion:2,museumId,works:evidenceWorks,summary:{works:3,accepted:3}});
 
   const assemblyInput={
     schemaVersion:1,
@@ -155,5 +156,5 @@ try {
   console.log("museum pipeline E2E fixture passed: 3 works, deterministic orchestration through publish dry-run");
 } finally {
   await fs.rm(runRoot,{recursive:true,force:true});
-  await fs.rm(path.dirname(runRoot),{recursive:false,force:true}).catch(()=>{});
+  await fs.rmdir(path.dirname(runRoot)).catch(()=>{});
 }

@@ -1,0 +1,36 @@
+{
+  "runId": "20260801T223003Z-p2.13.34",
+  "startedAt": "2026-08-01T22:41:26.871Z",
+  "stage": "compact_planning_research",
+  "museumId": "rosenborg",
+  "pipelineVersion": "2.13.34",
+  "instructionVersion": "2.4.2",
+  "executionProfile": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "high",
+    "runner": "scripts/run-isolated-generation.ps1"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "e2d6e331f53fb1d7c4b078c0aabc1b03548e4d4504ea218d1a08e09929adc2cc"
+    },
+    {
+      "path": "research/pipeline/prompts/planning-research.md",
+      "role": "stage_prompt",
+      "sha256": "f82cdd4578690962ec8167ca664ae8c6945687c4e2c55a466925391f20feb97a"
+    },
+    {
+      "path": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/research/batches/compact-02/candidate-packet.json",
+      "role": "candidate_packet",
+      "sha256": "a433ec5e9a122806ed23a48c70e5d9dc896433799ea9ff2bff60e72be9b619d5"
+    }
+  ],
+  "outputs": [
+    "compact-planning-evidence.json"
+  ],
+  "reviewer": "disabled",
+  "retry": "explicit_only",
+  "publicationBoundary": "run_only"
+}

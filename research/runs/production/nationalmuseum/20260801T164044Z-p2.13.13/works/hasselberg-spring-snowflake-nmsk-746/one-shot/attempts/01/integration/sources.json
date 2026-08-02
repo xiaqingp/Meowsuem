@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "hasselberg-spring-snowflake-nmsk-746",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Spring Snowflake | Nationalmuseum",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/27068/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "dimensions",
+        "accessionNumber",
+        "acquisition",
+        "availability",
+        "collectionRelation",
+        "interpretation",
+        "artistRelation"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The Sculpture Courtyard | Nationalmuseum English Webtour",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/en/webtour/skulpturg%C3%A5rden",
+      "sourceType": "museum",
+      "usedFor": [
+        "availability",
+        "displayLocation",
+        "interpretation",
+        "artistBiography"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Petter (Per) Hasselberg | Svenskt Biografiskt Lexikon",
+      "publisher": "Riksarkivet",
+      "url": "https://sok.riksarkivet.se/sbl/Artikel/12632",
+      "sourceType": "academic",
+      "usedFor": [
+        "artistBiography",
+        "1881Salon",
+        "artistCareer",
+        "patronRelation"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "哈塞尔贝里凭借《春雪花》于1881年在巴黎沙龙展出并获得荣誉提名，从而取得艺术生涯突破。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S3"
+      ]
+    },
+    {
+      "claim": "Nationalmuseum订购并于1883年购入这件大理石版本；庞图斯·富尔斯滕贝里也订制了另一个大理石版本。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "卡尔·拉尔松与哈塞尔贝里是私人朋友，并共同反对学院的艺术权威；哈塞尔贝里去世后，拉尔松曾为其墓碑提出设计方案。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "作品寓意与艺术家意图",
+      "statement": "春天、女性青春期和性意识觉醒属于Nationalmuseum当前展签提供的解释框架；现有来源没有证明这是哈塞尔贝里留下的明确艺术家意图。"
+    },
+    {
+      "topic": "早期版本与现存版本的关系",
+      "statement": "来源说明作品在1881年展出、之后制作了不同材料和尺寸的多个版本，但未在对象页中完整说明所有版本的制作顺序、现存地点和相互关系。"
+    }
+  ],
+  "upstreamConflicts": []
+}

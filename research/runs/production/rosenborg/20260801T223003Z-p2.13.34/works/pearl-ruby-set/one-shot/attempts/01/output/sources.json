@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "pearl-ruby-set",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The pearl-ruby set",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-pearl-ruby-set/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "provenance",
+        "collectionRelation",
+        "availability"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The Treasury's 3rd section (room I)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-i-the-treasury/",
+      "sourceType": "museum",
+      "usedFor": [
+        "accessionNumber",
+        "date",
+        "material",
+        "provenance",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "The Danish crown jewels",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/the-crown-jewels/",
+      "sourceType": "museum",
+      "usedFor": [
+        "date",
+        "collectionRelation",
+        "availability",
+        "history"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "现有珍珠红宝石套饰在1842年为卡罗琳·阿玛莉王后制作，由C. M. Weishaupt & Söhne完成。",
+      "type": "attribution",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "项链中的大珍珠至少可以追溯到17世纪晚期。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S3"
+      ]
+    },
+    {
+      "claim": "项链曾属于克里斯蒂安五世的王后夏洛特·阿玛莉。",
+      "type": "other",
+      "sourceIds": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "这套首饰目前供玛丽王后使用。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "珍珠与王室肖像的对应关系",
+      "statement": "馆方表示索菲·阿玛莉王后肖像中的项链可能就是本套项链；夏洛特·阿玛莉和莱奥诺拉·克里斯蒂娜的肖像则只能作为相似性线索，不能据此确认同一件实物。"
+    },
+    {
+      "topic": "制作年份",
+      "statement": "对象页将现有组合记为1842年，宝库藏品清单则记为1840年，并指出锁扣和两枚红宝石加接部件来自1840年；现有来源未完全区分制作、改制与重新组合的具体工序。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "date",
+      "severity": "warning",
+      "lockedValue": "1842；大型珍珠至少可追溯至17世纪晚期",
+      "sourceValue": "宝库藏品清单将5532记为1840年制作，并说明锁扣及两枚红宝石加接部件来自1840年",
+      "sourceIds": [
+        "S2",
+        "S3"
+      ]
+    }
+  ]
+}

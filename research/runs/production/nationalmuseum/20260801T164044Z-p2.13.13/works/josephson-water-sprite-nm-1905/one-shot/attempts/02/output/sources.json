@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "josephson-water-sprite-nm-1905",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Water Sprite | Nationalmuseum",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/18910/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "accessionNumber",
+        "acquisition",
+        "availability",
+        "description",
+        "artistContext",
+        "versions"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Nordic Myths | Nationalmuseum",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/en/webtour/nordiska-myter",
+      "sourceType": "museum",
+      "usedFor": [
+        "historical_context",
+        "mythology_context",
+        "national_romanticism"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "Nationalmuseum将水妖解释为约瑟夫松的自我投影或艺术家角色的象征。",
+      "type": "artist_intent",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "作品强烈的感官性曾令当时观众感到震动。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "Nationalmuseum在19世纪90年代拒绝过这一题材的一个版本，该版本后来由尤金亲王购得。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "制作年代",
+      "statement": "官方对象页的主要字段记为1882年，但补充说明中又写作1882—1883年；本文按锁定metadata及主要目录字段使用1882年。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "date",
+      "lockedValue": "1882",
+      "sourceValue": "官方补充说明另记为1882—1883",
+      "severity": "warning"
+    }
+  ]
+}

@@ -1,12 +1,14 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import {loadManifest, resolveCanonicalRun, projectRelative} from "./lib/filesystem-contract.mjs";
+import {assertVerifiedImageEvidence} from "./lib/verified-image-evidence-contract.mjs";
 
 const arg = name => process.argv.find(value => value.startsWith(`${name}=`))?.slice(name.length + 1);
 const projectRoot = path.resolve(arg("--project-root") || new URL("..", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"));
 const manifest = await loadManifest(projectRoot);
 const {runRoot, descriptor} = await resolveCanonicalRun({projectRoot, manifest, runKind: arg("--kind"), museumId: arg("--museum"), caseId: arg("--case"), runId: arg("--run-id"), writable: true});
 const evidence = JSON.parse(await fs.readFile(path.join(runRoot, "image-evidence", "verified-image-evidence.json"), "utf8"));
+assertVerifiedImageEvidence(evidence);
 const report = {
   schemaVersion: 1,
   caseId: descriptor.caseId,

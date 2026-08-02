@@ -1,0 +1,54 @@
+{
+    "runId":  "20260801T152615Z-p2.13.12",
+    "stage":  "deep_planning_research",
+    "museumId":  "nationalmuseum",
+    "caseId":  "",
+    "workId":  "",
+    "pipelineVersion":  "2.13.12",
+    "instructionVersion":  "2.4.2",
+    "model":  "gpt-5.6-sol",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-08-01T08:56:24.2820402-07:00",
+    "modelStartedAt":  "2026-08-01T08:56:24.5405546-07:00",
+    "modelCompletedAt":  "2026-08-01T09:00:12.3436182-07:00",
+    "completedAt":  "2026-08-01T09:00:12.3684787-07:00",
+    "runnerDurationMs":  228086,
+    "modelDurationMs":  227803,
+    "tokenUsage":  {
+                       "total":  72248,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "5",
+                                    "9",
+                                    "12",
+                                    "13"
+                                ],
+    "logPath":  "research/runs/production/nationalmuseum/20260801T152615Z-p2.13.12/research/batches/deep-03/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "e2d6e331f53fb1d7c4b078c0aabc1b03548e4d4504ea218d1a08e09929adc2cc"
+                   },
+                   {
+                       "path":  "research/pipeline/prompts/planning-research.md",
+                       "role":  "stage_prompt",
+                       "sha256":  "f82cdd4578690962ec8167ca664ae8c6945687c4e2c55a466925391f20feb97a"
+                   },
+                   {
+                       "path":  "research/runs/production/nationalmuseum/20260801T152615Z-p2.13.12/research/batches/deep-03/candidate-packet.json",
+                       "role":  "candidate_packet",
+                       "sha256":  "ad4044722100005e0c1bc5a52c5e74ec6c77afdf1331006d3d08ae6e67bde260"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "deep-research-dossier.json",
+                        "sha256":  "133d2ebcb24e5a9724ff7da4549c408748c9f7763d4fc3eb45cac74966c0d8ab",
+                        "bytes":  26462
+                    }
+                ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "PCR-2026-08-01-model-json-native-prefix",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-01",
+  "ownerInstruction": "修复并保证以后 pipeline 不会再碰到这个问题，然后继续现在的 pipeline；不得重跑无关阶段。",
+  "baseRelease": "research/pipeline/releases/v2.13.18.json",
+  "targetVersion": "2.13.19",
+  "implementationStatus": "completed",
+  "scope": [
+    "use native JSON parsing to recover a complete root value before trailing model text",
+    "recover a root object only when its final brace is missing after a complete array value",
+    "avoid custom bracket parsing of JSON string contents",
+    "allow an explicitly authorized patched continuation to resume its own failed writable run"
+  ],
+  "outOfScope": [
+    "rerunning completed model output",
+    "reopening immutable accepted or published runs",
+    "automatic retry without explicit continuation authorization"
+  ],
+  "allowedCanonicalFiles": [
+    "scripts/lib/model-json.mjs",
+    "scripts/lib/filesystem-contract.mjs"
+  ],
+  "verification": {
+    "status": "passed",
+    "record": "scripts/test-model-json.mjs",
+    "commands": [
+      "node scripts/test-model-json.mjs",
+      "node scripts/test-filesystem-contract.mjs",
+      "node scripts/test-retry-failed-image-evidence.mjs",
+      "node scripts/test-image-resolution-v2.mjs",
+      "node scripts/verify-content-pipeline.mjs",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

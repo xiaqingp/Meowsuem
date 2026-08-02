@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "status": "accepted",
+  "runId": "20260801T164044Z-p2.13.13",
+  "museumId": "nationalmuseum",
+  "workId": "roslin-lady-with-veil-nm-4098",
+  "stage": "single_work",
+  "attempt": 1,
+  "model": "gpt-5.6-luna",
+  "reasoningEffort": "high",
+  "startedAt": "2026-08-01T18:19:31.403Z",
+  "completedAt": "2026-08-01T18:21:41.932Z",
+  "durationMs": 130529,
+  "inputTokens": 124741,
+  "cachedInputTokens": 61440,
+  "reasoningTokens": 3917,
+  "outputTokens": 6570,
+  "totalTokens": 131311,
+  "agentRunCount": 1,
+  "modelRoundCount": 1,
+  "webSearchCount": 5,
+  "webOpenCount": 0
+}

@@ -1,0 +1,299 @@
+{
+  "schemaVersion": "2.13.12",
+  "museumId": "nationalmuseum",
+  "museum": {
+    "name": {
+      "zh": "瑞典国家博物馆",
+      "en": "Nationalmuseum"
+    },
+    "specialFocus": "这座斯德哥尔摩主馆的独特之处，不只是同时拥有绘画、雕塑、版画和设计，而是能把它们串成一条连续的问题线：作品如何在宫廷、家庭、公共生活和国际艺术网络中获得意义。Rembrandt 的早期到晚期绘画、Roslin 的跨地域宫廷肖像、法国现代绘画、瑞典世纪之交艺术，以及从挂毯到人体工学家具的设计收藏，共同构成这条线。",
+    "actionConclusion": "77 分，属于“可去可不去”：在斯德哥尔摩安排半天，值得把主馆作为一站，优先看当前确认展出的 Rembrandt、Roslin、Cézanne、Sergel 和现代设计节点；如果专程为 Renoir、Zorn 或某件纸上作品而来，必须临行复核轮换、借展与预约条件。",
+    "fit": "适合想一次看懂瑞典艺术如何与法国、荷兰及北欧设计互相连接的旅行者，也适合愿意在名画之外看材料、制度和日常生活的人。",
+    "limits": "本轮边界是 Stockholm 主馆，不包含 Gustavsberg、皇家城堡与其他异地收藏。20 件精选中有轮换、借展或研究室预约对象；纸上作品研究室在本次研究日处于夏季关闭期。馆内路线应以当天展厅和作品状态为准。",
+    "timePlanning": "90 分钟只看高回报的在展节点；半天补齐主馆的绘画、雕塑与应用艺术结构；完整浏览覆盖 20 件编辑精选，但应拆成主馆现场路线与轮换／预约研究支线，不把内容库伪装成一天内全部可见。"
+  },
+  "chapters": [
+    {
+      "id": "ch-rembrandt",
+      "number": 1,
+      "title": "同一个 Rembrandt，为什么会有三种观看方式？",
+      "intro": "先用三幅在展绘画看 Rembrandt 如何从自我呈现、日常人物走到晚年宗教叙事：材质、笔触和人物关系的变化，比单独记住画名更能说明主馆荷兰绘画的价值。",
+      "workIds": [
+        "rembrandt-self-portrait-nm5324",
+        "rembrandt-kitchen-maid-nm584",
+        "rembrandt-simeon-in-the-temple-nm4567"
+      ]
+    },
+    {
+      "id": "ch-portrait-identity",
+      "number": 2,
+      "title": "画中的人是在留下身份，还是在扮演身份？",
+      "intro": "从 Dürer 的纸上人物研究，到 Roslin 把妻子、公主与王室成员置入不同的服饰和宫廷网络，观察肖像怎样同时记录一个人，又制造一个可以被社会辨认的形象。",
+      "workIds": [
+        "durer-portrait-young-woman-braided-hair-nmh1855-1863",
+        "roslin-lady-with-veil-nm4098",
+        "roslin-zoie-ghika-nm6872"
+      ]
+    },
+    {
+      "id": "ch-light-modern-painting",
+      "number": 3,
+      "title": "光线什么时候不再只是风景里的光线？",
+      "intro": "Corot 的现场工作材料、Renoir 对现代休闲的观察和 Cézanne 的构图结构，组成一条从自然现场到现代绘画方法的观看线；其中 Renoir 作品当前不在展，不能当作当天停留保证。",
+      "workIds": [
+        "corot-red-rocks-civita-castellana-nm2060",
+        "renoir-la-grenouillere-nm2425",
+        "cezanne-landscape-nm1999"
+      ]
+    },
+    {
+      "id": "ch-swedish-modern-life",
+      "number": 4,
+      "title": "瑞典艺术如何把地方生活变成共同记忆？",
+      "intro": "Zorn 的节庆与家庭记忆、Larsson 的民间故事构成和 Pauli 的户外餐桌，把地方经验、跨国训练与现代技法放到同一条瑞典艺术主线上；其中 Zorn 与 Pauli 作品需核对轮换状态。",
+      "workIds": [
+        "zorn-midsummer-dance-nm1603",
+        "carl-larsson-swedish-fairy-tale-nm6840b",
+        "hanna-pauli-breakfast-time-nm1705"
+      ]
+    },
+    {
+      "id": "ch-nature-and-composition",
+      "number": 5,
+      "title": "动物画是在讲自然，还是在重新安排画面？",
+      "intro": "Liljefors 把动物行为、栖息环境、日本版画式的不对称构图和人的狩猎视线放进不同作品中。它们当前都不能直接承诺为主馆现场节点，适合在展出时或作为收藏深度线阅读。",
+      "workIds": [
+        "liljefors-fox-family-nm1376",
+        "liljefors-jays-nm6811"
+      ]
+    },
+    {
+      "id": "ch-sergel-sculpture",
+      "number": 6,
+      "title": "雕塑要先看故事，还是先绕到侧面？",
+      "intro": "Sergel 的两组卡拉拉大理石神话雕塑提供两种现场动作：辨认被截取的叙事时刻，并绕行确认圆雕如何从不同角度改变性格。两件作品的当前展厅属于临时展览安排，需当天复核。",
+      "workIds": [
+        "sergel-cupid-and-psyche-nmsk359",
+        "sergel-mars-and-venus-nmsk1113"
+      ]
+    },
+    {
+      "id": "ch-design-and-institutions",
+      "number": 7,
+      "title": "一件器物怎样从宫廷陈设变成公共设计？",
+      "intro": "从 Beauvais 挂毯的跨国订制，到 Mathsson、Wegner 和 BAM-BAM 对身体、传播与使用者的回应，应用艺术和设计不再是绘画旁的装饰，而是制度、材料和生活方式的证据。",
+      "workIds": [
+        "beauvais-tapestry-elephant-nmk299a-2016",
+        "mathsson-reclining-chair-36-nmk46-2010",
+        "wegner-jh501-armchair-nmk262-1956",
+        "bam-bam-chair-nmk148-1972"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "90",
+      "title": "90 分钟：先确认这家馆值不值得",
+      "note": "只走当前研究日确认在展、且能代表评分核心的节点：荷兰绘画、18 世纪肖像、法国现代绘画、雕塑和现代设计各取最高回报对象。Sergel 当前位于临时展厅，所有展厅位置与可见状态仍需当天核对；主动跳过轮换、借展和纸上作品预约线。",
+      "workIds": [
+        "rembrandt-kitchen-maid-nm584",
+        "rembrandt-simeon-in-the-temple-nm4567",
+        "roslin-lady-with-veil-nm4098",
+        "cezanne-landscape-nm1999",
+        "sergel-mars-and-venus-nmsk1113",
+        "mathsson-reclining-chair-36-nmk46-2010",
+        "bam-bam-chair-nmk148-1972"
+      ]
+    },
+    {
+      "id": "half",
+      "title": "半天：看懂主馆的收藏结构",
+      "note": "在 90 分钟核心之外，补入早期 Rembrandt 自画像、Roslin 的跨地域宫廷肖像、Corot、Larsson、Sergel 的另一组雕塑、Beauvais 挂毯和北欧设计。按当天展厅顺序调整，不把临时展厅或轮换对象当作固定导航。",
+      "workIds": [
+        "rembrandt-self-portrait-nm5324",
+        "rembrandt-kitchen-maid-nm584",
+        "rembrandt-simeon-in-the-temple-nm4567",
+        "roslin-lady-with-veil-nm4098",
+        "roslin-zoie-ghika-nm6872",
+        "corot-red-rocks-civita-castellana-nm2060",
+        "cezanne-landscape-nm1999",
+        "carl-larsson-swedish-fairy-tale-nm6840b",
+        "sergel-cupid-and-psyche-nmsk359",
+        "sergel-mars-and-venus-nmsk1113",
+        "beauvais-tapestry-elephant-nmk299a-2016",
+        "mathsson-reclining-chair-36-nmk46-2010",
+        "wegner-jh501-armchair-nmk262-1956",
+        "bam-bam-chair-nmk148-1972"
+      ]
+    },
+    {
+      "id": "all",
+      "title": "完整浏览：主馆现场加收藏深度支线",
+      "note": "覆盖 20 件精选藏品，但这是编辑上的完整浏览，不是一天内全部可见的承诺。第一段按当天状态走主馆在展节点；第二段再处理 Dürer、Renoir、Zorn、Liljefors 和 Hanna Pauli 等轮换或不在展作品；纸上作品还需研究室预约、逐件确认，并在本次研究日面对夏季关闭。建议拆成两次或多次访问。",
+      "workIds": [
+        "rembrandt-self-portrait-nm5324",
+        "rembrandt-kitchen-maid-nm584",
+        "rembrandt-simeon-in-the-temple-nm4567",
+        "durer-portrait-young-woman-braided-hair-nmh1855-1863",
+        "roslin-lady-with-veil-nm4098",
+        "roslin-zoie-ghika-nm6872",
+        "corot-red-rocks-civita-castellana-nm2060",
+        "renoir-la-grenouillere-nm2425",
+        "cezanne-landscape-nm1999",
+        "zorn-midsummer-dance-nm1603",
+        "carl-larsson-swedish-fairy-tale-nm6840b",
+        "liljefors-fox-family-nm1376",
+        "liljefors-jays-nm6811",
+        "hanna-pauli-breakfast-time-nm1705",
+        "sergel-cupid-and-psyche-nmsk359",
+        "sergel-mars-and-venus-nmsk1113",
+        "beauvais-tapestry-elephant-nmk299a-2016",
+        "mathsson-reclining-chair-36-nmk46-2010",
+        "wegner-jh501-armchair-nmk262-1956",
+        "bam-bam-chair-nmk148-1972"
+      ]
+    }
+  ],
+  "works": [
+    {
+      "workId": "rembrandt-self-portrait-nm5324",
+      "sectionId": "ch-rembrandt",
+      "stay": "8—12分钟",
+      "routeRole": ["half", "all"],
+      "priority": "强烈推荐"
+    },
+    {
+      "workId": "rembrandt-kitchen-maid-nm584",
+      "sectionId": "ch-rembrandt",
+      "stay": "10—15分钟",
+      "routeRole": ["90", "half", "all"],
+      "priority": "绝对不可错过"
+    },
+    {
+      "workId": "rembrandt-simeon-in-the-temple-nm4567",
+      "sectionId": "ch-rembrandt",
+      "stay": "10—15分钟",
+      "routeRole": ["90", "half", "all"],
+      "priority": "绝对不可错过"
+    },
+    {
+      "workId": "durer-portrait-young-woman-braided-hair-nmh1855-1863",
+      "sectionId": "ch-portrait-identity",
+      "stay": "8—12分钟（预约且馆方提供时）",
+      "routeRole": ["all"],
+      "priority": "时间充裕再看"
+    },
+    {
+      "workId": "roslin-lady-with-veil-nm4098",
+      "sectionId": "ch-portrait-identity",
+      "stay": "10—15分钟",
+      "routeRole": ["90", "half", "all"],
+      "priority": "绝对不可错过"
+    },
+    {
+      "workId": "roslin-zoie-ghika-nm6872",
+      "sectionId": "ch-portrait-identity",
+      "stay": "8—12分钟",
+      "routeRole": ["half", "all"],
+      "priority": "强烈推荐"
+    },
+    {
+      "workId": "corot-red-rocks-civita-castellana-nm2060",
+      "sectionId": "ch-light-modern-painting",
+      "stay": "8—12分钟",
+      "routeRole": ["half", "all"],
+      "priority": "强烈推荐"
+    },
+    {
+      "workId": "renoir-la-grenouillere-nm2425",
+      "sectionId": "ch-light-modern-painting",
+      "stay": "10—15分钟（回展后）",
+      "routeRole": ["all"],
+      "priority": "强烈推荐"
+    },
+    {
+      "workId": "cezanne-landscape-nm1999",
+      "sectionId": "ch-light-modern-painting",
+      "stay": "10—15分钟",
+      "routeRole": ["90", "half", "all"],
+      "priority": "绝对不可错过"
+    },
+    {
+      "workId": "zorn-midsummer-dance-nm1603",
+      "sectionId": "ch-swedish-modern-life",
+      "stay": "8—12分钟（轮换可见时）",
+      "routeRole": ["all"],
+      "priority": "强烈推荐"
+    },
+    {
+      "workId": "carl-larsson-swedish-fairy-tale-nm6840b",
+      "sectionId": "ch-swedish-modern-life",
+      "stay": "10—15分钟",
+      "routeRole": ["half", "all"],
+      "priority": "强烈推荐"
+    },
+    {
+      "workId": "liljefors-fox-family-nm1376",
+      "sectionId": "ch-nature-and-composition",
+      "stay": "8—12分钟（回展后）",
+      "routeRole": ["all"],
+      "priority": "强烈推荐"
+    },
+    {
+      "workId": "liljefors-jays-nm6811",
+      "sectionId": "ch-nature-and-composition",
+      "stay": "6—10分钟（轮换可见时）",
+      "routeRole": ["all"],
+      "priority": "时间充裕再看"
+    },
+    {
+      "workId": "hanna-pauli-breakfast-time-nm1705",
+      "sectionId": "ch-swedish-modern-life",
+      "stay": "8—12分钟（轮换可见时）",
+      "routeRole": ["all"],
+      "priority": "强烈推荐"
+    },
+    {
+      "workId": "sergel-cupid-and-psyche-nmsk359",
+      "sectionId": "ch-sergel-sculpture",
+      "stay": "8—12分钟",
+      "routeRole": ["half", "all"],
+      "priority": "强烈推荐"
+    },
+    {
+      "workId": "sergel-mars-and-venus-nmsk1113",
+      "sectionId": "ch-sergel-sculpture",
+      "stay": "10—15分钟",
+      "routeRole": ["90", "half", "all"],
+      "priority": "绝对不可错过"
+    },
+    {
+      "workId": "beauvais-tapestry-elephant-nmk299a-2016",
+      "sectionId": "ch-design-and-institutions",
+      "stay": "8—12分钟",
+      "routeRole": ["half", "all"],
+      "priority": "强烈推荐"
+    },
+    {
+      "workId": "mathsson-reclining-chair-36-nmk46-2010",
+      "sectionId": "ch-design-and-institutions",
+      "stay": "8—12分钟",
+      "routeRole": ["90", "half", "all"],
+      "priority": "绝对不可错过"
+    },
+    {
+      "workId": "wegner-jh501-armchair-nmk262-1956",
+      "sectionId": "ch-design-and-institutions",
+      "stay": "6—10分钟",
+      "routeRole": ["half", "all"],
+      "priority": "强烈推荐"
+    },
+    {
+      "workId": "bam-bam-chair-nmk148-1972",
+      "sectionId": "ch-design-and-institutions",
+      "stay": "8—12分钟",
+      "routeRole": ["90", "half", "all"],
+      "priority": "强烈推荐"
+    }
+  ]
+}

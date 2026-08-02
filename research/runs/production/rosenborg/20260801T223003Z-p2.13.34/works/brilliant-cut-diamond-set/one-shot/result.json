@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "status": "warning",
+  "runId": "20260801T223003Z-p2.13.34",
+  "museumId": "rosenborg",
+  "workId": "brilliant-cut-diamond-set",
+  "stage": "single_work",
+  "attempt": 3,
+  "model": "gpt-5.6-luna",
+  "reasoningEffort": "high",
+  "exitCode": 0,
+  "startedAt": "2026-08-02T00:04:34.776Z",
+  "completedAt": "2026-08-02T00:07:05.607Z",
+  "durationMs": 150831,
+  "inputTokens": 184191,
+  "cachedInputTokens": 143872,
+  "reasoningTokens": 3851,
+  "outputTokens": 7159,
+  "totalTokens": 191350,
+  "agentRunCount": 1,
+  "modelRoundCount": 1,
+  "webSearchCount": 5,
+  "webOpenCount": 0,
+  "failureCode": "VERIFICATION_FAILED",
+  "failureMessage": "one-shot verifier failed",
+  "publicationMode": "warning",
+  "warningCodes": [
+    "OFFICIAL_SOURCE_COVERAGE"
+  ]
+}

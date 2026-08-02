@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "museumId": "nationalmuseum",
+  "works": [
+    {
+      "workId": "carl-larsson-kitchen-maid-washer-woman-nmg151a-1902",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "官方对象页确认的1901年线蚀刻，描绘Carl与Karin Larsson家中两名受雇女性，并以职业文字标注人物；下方的小型讽刺自画像替代签名。它为家庭图像、家务劳动、作者自我标记和瑞典版画收藏提供交叉节点。",
+      "selectionSignals": [
+        "补足主馆绘画之外的纸上作品与瑞典版画线",
+        "提供家庭内部雇佣劳动的具体图像证据",
+        "职业文字与自画像替代签名构成明确的身份和观看线索"
+      ],
+      "sectionSignals": [
+        "家庭、劳动与现代生活",
+        "版画与素描／纸上作品"
+      ],
+      "routeSignals": [
+        "版画与素描收藏；访问前核对图形艺术的可见或查阅条件",
+        "与Larsson家庭图像作品形成媒介和劳动主题对照"
+      ],
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/sv/collection/item/150107/"
+      ]
+    },
+    {
+      "workId": "liljefors-fox-family-nm1376",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "官方对象页把狐崽的发育阶段与初夏植物状态联系起来，显示Liljefors以动物及其栖息环境的细节知识组织画面；馆方还记录近期研究发现画面下存在另一幅画。作品适合承担自然观察、非理想化动物图像和绘画层叠的世纪之交绘画价值。",
+      "selectionSignals": [
+        "馆方称其为Liljefors最著名的作品之一",
+        "把动物行为、季节生态和绘画观察连接起来",
+        "补足以动物为主体但具有叙事和材料研究层次的馆藏节点"
+      ],
+      "sectionSignals": [
+        "世纪之交的自然观察",
+        "动物图像：生态细节与非理想化叙事"
+      ],
+      "routeSignals": [
+        "主馆绘画路线中的Liljefors核心节点",
+        "可与《Jays》及《A Poacher》比较动物、环境和人的关系"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/18379/"
+      ]
+    },
+    {
+      "workId": "liljefors-jays-nm6811",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "官方对象页描述一只鸟将要起飞、另一只与观看者相遇的冻结瞬间；枝条偏置于左侧，背景较松散，整体采用不对称构图。馆方明确指出其借鉴日本木刻的平面构图与大胆使用画面表面，同时保留Liljefors的写实观察。",
+      "selectionSignals": [
+        "提供日本木刻构图影响与瑞典自然写实之间的具体交汇",
+        "以小尺度、非中心构图区别于大型动物叙事画",
+        "适合支撑世纪之交绘画中的观看瞬间与空间处理"
+      ],
+      "sectionSignals": [
+        "自然观察与现代构图",
+        "日本木刻影响和北欧写实的结合"
+      ],
+      "routeSignals": [
+        "与《A Fox Family》并看可形成尺度和构图对照",
+        "进入路线前核对馆藏轮换状态"
+      ],
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/23860/"
+      ]
+    },
+    {
+      "workId": "liljefors-cat-flowery-meadow-nm7128",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "官方对象页确认这幅1887年作品与馆藏《红背伯劳雏鸟》原属同一共同画框；2013年购入后，两幅被重新组合，馆方并说明原整体还包括另外四幅画。它的主要价值在于恢复Liljefors成组构图的形式关系与收藏史，而非单幅动物题材本身。",
+      "selectionSignals": [
+        "提供馆内重新组合原始成组作品的收藏史证据",
+        "可把单件观看扩展为形式与色彩关系的组合观看",
+        "补足跨作品、跨对象组的馆藏结构问题"
+      ],
+      "sectionSignals": [
+        "作品如何成为一组",
+        "收藏、分离与重新组合"
+      ],
+      "routeSignals": [
+        "只有在组合展示或相关构件可见时才发挥完整路线价值",
+        "与《A Fox Family》和《Jays》区分单幅自然观察与成组构图"
+      ],
+      "riskFlags": [
+        "composite_or_parent_child",
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/149858/"
+      ]
+    },
+    {
+      "workId": "liljefors-poacher-nm1886",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "官方对象页说明Liljefors画的是猎捕松鸡的男子：猎人把手放在耳后聆听，人物被处理得仿佛与松树树干融合；模特是艺术家经常一起打猎的朋友，创作还使用了照片。作品因此把动物绘画扩展为狩猎实践、人物与环境伪装的关系。",
+      "selectionSignals": [
+        "扩展Liljefors候选，不把其价值限定为动物本身",
+        "提供人、狩猎活动和森林环境互相嵌合的题材",
+        "可讨论现场观察与摄影辅助在创作中的关系"
+      ],
+      "sectionSignals": [
+        "人与自然：狩猎、聆听与伪装",
+        "动物画家如何处理人物"
+      ],
+      "routeSignals": [
+        "与Liljefors动物作品组成作者内部比较",
+        "当前对象页标为未展出，访问前核对轮换状态"
+      ],
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/18891/"
+      ]
+    },
+    {
+      "workId": "hanna-pauli-breakfast-time-nm1705",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "官方对象页将画面的斑驳光线、花园餐桌和家庭生活联系起来，并记录Pauli刚在巴黎学习、参加1887年沙龙；瑞典评论家认为桌布上的光斑过于现代，甚至误以为是擦拭画笔留下的。作品可作为女性艺术家、跨国训练、户外光色和现代技法接受史的交汇点。",
+      "selectionSignals": [
+        "补足瑞典女性艺术家的现代绘画线",
+        "把巴黎训练和本地评论中的现代性争议联系起来",
+        "以日常餐桌场景承载光色技法与家庭生活主题"
+      ],
+      "sectionSignals": [
+        "女性艺术家与现代绘画",
+        "户外光线、家庭生活与技法接受"
+      ],
+      "routeSignals": [
+        "世纪之交绘画路线的重要女性艺术家节点",
+        "访问前核对当前是否因轮换可见"
+      ],
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/18709/"
+      ]
+    },
+    {
+      "workId": "ernst-josephson-spanish-smiths-nm2398",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "官方对象页确认Josephson于1881年赴西班牙研究西班牙古典大师并描绘当地民间生活；作品在塞维利亚Triana、以罗姆人为主的地区完成，铁匠据馆方记录曾邀请艺术家在锻造铺外为他们画像。人物有力的身体姿态被明确置于对当时风俗画的反差中。",
+      "selectionSignals": [
+        "呈现瑞典艺术家的西班牙旅行、古典大师研究与现实观察",
+        "把劳动人物和跨文化观看带入世纪之交绘画主线",
+        "馆方记录奥斯陆国家美术馆有后来的版本，可形成比较线索"
+      ],
+      "sectionSignals": [
+        "旅行、劳动与现实主义观察",
+        "瑞典艺术家与西班牙古典传统"
+      ],
+      "routeSignals": [
+        "作为人物和国际旅行线，平衡Liljefors自然题材群",
+        "当前对象页标为未展出，需单独核对可见状态"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/19459/"
+      ]
+    },
+    {
+      "workId": "breslau-ernst-josephson-portrait-nmgrh2322",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "官方对象页确认Marie-Louise-Catherine Breslau于1886年绘制Josephson肖像，并以红脸、手中香烟和桌上饮品等细节塑造一个巴黎艺术家形象；页面还说明她是当时在巴黎颇受欢迎的肖像画家。作品提供女性艺术家、跨国艺术社群和肖像角色化之间的具体节点。",
+      "selectionSignals": [
+        "拓展主馆19世纪艺术家网络与跨国社群收藏线",
+        "提供女性艺术家所作男性艺术家肖像的对照",
+        "可与Josephson的《Spanish Smiths》形成同一人物的媒介与身份比较"
+      ],
+      "sectionSignals": [
+        "艺术家画艺术家",
+        "巴黎、女性肖像画家与跨国社群"
+      ],
+      "routeSignals": [
+        "与《Spanish Smiths》配对可形成明确人物路线",
+        "访问前核对馆藏轮换状态"
+      ],
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/18651/"
+      ]
+    },
+    {
+      "workId": "sergel-cupid-and-psyche-nmsk359",
+      "identityStatus": "stable",
+      "availability": "on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "官方对象页确认Sergel的卡拉拉大理石《Cupid and Psyche》完成于1787年；雕塑截取阿普列尤斯故事中Psyche发现熟睡的Cupid身份后、Cupid被惊醒并将要离开的戏剧时刻。对象页同时把其地理来源联系到瑞典与罗马，并记录新研究确定的完成年份。",
+      "selectionSignals": [
+        "代表Sergel以古代文学和神话为题材的雕塑实践",
+        "以大理石、身体动作和叙事瞬间构成新古典主义雕塑节点",
+        "官方对象页当前标为在展，具备稳定现场路线价值"
+      ],
+      "sectionSignals": [
+        "新古典主义、罗马训练与古代神话",
+        "雕塑如何冻结叙事瞬间"
+      ],
+      "routeSignals": [
+        "主馆雕塑路线的可现场观看节点",
+        "可与Sergel的《Mars and Venus》比较神话叙事和空间动作"
+      ],
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/26739/"
+      ]
+    },
+    {
+      "workId": "sergel-mars-and-venus-nmsk1113",
+      "identityStatus": "stable",
+      "availability": "on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "官方对象页说明Sergel以《伊利亚特》中的受伤Venus获Mars救助为题材，1775年在罗马开始、1804年在斯德哥尔摩完成；作品有意从四面观看，不同角度呈现不同性格的构图。其价值集中在跨地制作时间、神话叙事和圆雕观看方式的结合。",
+      "selectionSignals": [
+        "支撑Sergel从罗马到斯德哥尔摩的长期创作线",
+        "提供明确的全方位观看机制，不只是正面神话图像",
+        "与《Cupid and Psyche》构成同作者、同材质、不同空间叙事的比较"
+      ],
+      "sectionSignals": [
+        "圆雕与多角度观看",
+        "古典神话、罗马起稿与瑞典完成"
+      ],
+      "routeSignals": [
+        "主馆雕塑路线的空间观看锚点",
+        "现场需保留绕行位置，以检验不同角度的构图变化"
+      ],
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/27403/"
+      ]
+    }
+  ]
+}

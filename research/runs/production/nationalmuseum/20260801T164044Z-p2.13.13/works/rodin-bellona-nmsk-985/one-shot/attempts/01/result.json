@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "status": "accepted",
+  "runId": "20260801T164044Z-p2.13.13",
+  "museumId": "nationalmuseum",
+  "workId": "rodin-bellona-nmsk-985",
+  "stage": "single_work",
+  "attempt": 1,
+  "model": "gpt-5.6-luna",
+  "reasoningEffort": "high",
+  "startedAt": "2026-08-01T18:19:21.929Z",
+  "completedAt": "2026-08-01T18:20:56.937Z",
+  "durationMs": 95008,
+  "inputTokens": 125558,
+  "cachedInputTokens": 96000,
+  "reasoningTokens": 2330,
+  "outputTokens": 4623,
+  "totalTokens": 130181,
+  "agentRunCount": 1,
+  "modelRoundCount": 1,
+  "webSearchCount": 4,
+  "webOpenCount": 0
+}

@@ -1,0 +1,27 @@
+{
+  "runId": "20260801T231743Z-p2.13.35",
+  "startedAt": "2026-08-01T23:17:55.213Z",
+  "stage": "image_disambiguation",
+  "imageResearchMode": "official_page_plan_v1",
+  "caseId": "rosenborg-image-repair-02",
+  "targetMuseumId": "rosenborg",
+  "pipelineVersion": "2.13.35",
+  "instructionVersion": "2.4.2",
+  "executionProfile": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/runs/experiment/rosenborg-image-repair-02/20260801T231743Z-p2.13.35/image-evidence/attempts/01-official-page-plan/image-research-packet.json",
+      "role": "image_candidate_packet",
+      "sha256": "e7d0f635e794f822b82af0e39c203e07904dea6bc39f3e9785e292e2b69d2f9a"
+    }
+  ],
+  "outputs": [
+    "image-decisions.json"
+  ],
+  "reviewer": "disabled",
+  "retry": "failed_images_only",
+  "publicationBoundary": "evidence_only"
+}

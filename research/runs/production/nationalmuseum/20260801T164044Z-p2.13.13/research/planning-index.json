@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "museumId": "nationalmuseum",
+  "batches": [
+    {
+      "kind": "compact",
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/research/batches/compact-01/compact-planning-evidence.json",
+      "sha256": "c3db6ad91dec89cb2c567cd572e32b03bb926ba166bf88b7c08c20b1740f9bbf"
+    },
+    {
+      "kind": "compact",
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/research/batches/compact-02/compact-planning-evidence.json",
+      "sha256": "2e71a4da5400495db95930aa4c9abe117fdbce31458d5328d81638f0d521fb18"
+    },
+    {
+      "kind": "compact",
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/research/batches/compact-03/compact-planning-evidence.json",
+      "sha256": "914b2ee45971478299c282db01c598c805063c9061bab81a61710d670c286013"
+    },
+    {
+      "kind": "compact",
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/research/batches/compact-04/compact-planning-evidence.json",
+      "sha256": "eed8a4573df8734ab84ff96847f46cb898c95678ebd487d14734a9f13a26b9fb"
+    },
+    {
+      "kind": "compact",
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/research/batches/compact-05/compact-planning-evidence.json",
+      "sha256": "aac79fdb22824b22cdbd9e82b8b4cc55bf11131cf991736fe72512ae0fa63f4c"
+    },
+    {
+      "kind": "deep",
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/research/batches/deep-01/deep-research-dossier.json",
+      "sha256": "07f92b410c91c582f343f398db263c8c54298052ec7cebbfcb96fe6b7946b4b1"
+    }
+  ]
+}

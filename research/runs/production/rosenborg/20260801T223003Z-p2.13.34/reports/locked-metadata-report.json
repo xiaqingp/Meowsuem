@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260801T223003Z-p2.13.34",
+  "museumId": "rosenborg",
+  "upstreamHashes": {
+    "candidates": {
+      "path": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/candidate-pool/candidate-pool.json",
+      "sha256": "973121f6c700394d351d7804135581daf801db290c78e8b77117208d8201a47a"
+    },
+    "selection": {
+      "path": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/selection/selection.json",
+      "sha256": "4e7640b17d0c2c6f6821e6b9d705287b0a66f1535eec1b755bddae516f06bdb5"
+    },
+    "structure": {
+      "path": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/structure/structure.json",
+      "sha256": "7f1caf33fa3113628cc8cb9f2fb019738557c304f9ee0c0f8cb5043f5f6df5d4"
+    },
+    "images": {
+      "path": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/verified-image-evidence.json",
+      "sha256": "49790096e1f092e3ce39bd8dca4d446eb25e8b857863ac5dc58d0f0298578b51"
+    }
+  },
+  "works": [
+    {
+      "workId": "christian-iv-blood-stained-clothes",
+      "path": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/works/christian-iv-blood-stained-clothes/one-shot/input/locked-metadata.json",
+      "sha256": "b93fb0d16e7ef78c9c51b6bd9556c21d559c29394e445a1aac9c0857d9a23edc"
+    },
+    {
+      "workId": "shrapnel-earrings",
+      "path": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/works/shrapnel-earrings/one-shot/input/locked-metadata.json",
+      "sha256": "fc0a0bebbd20bf164a11af604dc1799cad1bc273c1c7b7e78f6e823303514081"
+    },
+    {
+      "workId": "christian-iii-sword-of-state",
+      "path": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/works/christian-iii-sword-of-state/one-shot/input/locked-metadata.json",
+      "sha256": "2ae3ebd2bda27a12fc781d7874287170ec6ff5e63e370927bbaf3d54b843b44c"
+    },
+    {
+      "workId": "christian-iv-crown",
+      "path": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/works/christian-iv-crown/one-shot/input/locked-metadata.json",
+      "sha256": "3f4dfd3c48baf44c72770071130304167f8c4c3887500f77cdfc6262e37fbe08"
+    },
+    {
+      "workId": "coronation-sword",
+      "path": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/works/coronation-sword/one-shot/input/locked-metadata.json",
+      "sha256": "1eca7a0e494a021c47b17f679fbfc9a960b89fe8e9203d5df428c36a3b54421d"
+    },
+    {
+      "workId": "ampulla",
+      "path": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/works/ampulla/one-shot/input/locked-metadata.json",
+      "sha256": "f35311b1c4b03843ba86fe6b29300d17e24c181eb66d67eb8f8abaa14d721460"
+    },
+    {
+      "workId": "christian-v-crown",
+      "path": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/works/christian-v-crown/one-shot/input/locked-metadata.json",
+      "sha256": "98230e864a2293c44aa39359e890bef9daeef262c93c31824c8d1ff256822302"
+    },
+    {
+      "workId": "constitution-pen",
+      "path": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/works/constitution-pen/one-shot/input/locked-metadata.json",
+      "sha256": "ead01599ea26b9da68fa4bc6fbf9cd95a92bf692f428b8c32eb2c1088583b2a6"
+    },
+    {
+      "workId": "knights-hall",
+      "path": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/works/knights-hall/one-shot/input/locked-metadata.json",
+      "sha256": "4478d756e9b3f94540c35d5e447f705d92d9c2a69fbd15d058945b0d2b68e51d"
+    },
+    {
+      "workId": "narwhal-throne",
+      "path": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/works/narwhal-throne/one-shot/input/locked-metadata.json",
+      "sha256": "e9c86d353e0d30bd70d9266e8852adc70790755548b297e37adf8374969270ae"
+    },
+    {
+      "workId": "silver-lions",
+      "path": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/works/silver-lions/one-shot/input/locked-metadata.json",
+      "sha256": "5e0c51fe812c736f75b2a135f7653fc9dea8077dc0681439b2fe1c25ee43f700"
+    },
+    {
+      "workId": "oldenborg-horn",
+      "path": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/works/oldenborg-horn/one-shot/input/locked-metadata.json",
+      "sha256": "6d8e76b31dd2d1fe3b7a4778368630955fc5ec53ec9a4e264fe2cc39f1a721fc"
+    },
+    {
+      "workId": "pomander",
+      "path": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/works/pomander/one-shot/input/locked-metadata.json",
+      "sha256": "219b111f7cb76ce28b4cd83cffc7b1df028b2adfaeb8b99e4e25450a77693622"
+    },
+    {
+      "workId": "wetting-trap-chair",
+      "path": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/works/wetting-trap-chair/one-shot/input/locked-metadata.json",
+      "sha256": "f470b144716ac9d64cda72f06f4cd6cbddcd79c8a46d359920ef7946e49de74a"
+    },
+    {
+      "workId": "emerald-set",
+      "path": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/works/emerald-set/one-shot/input/locked-metadata.json",
+      "sha256": "fb046d29674e1f15f61845dd641eb3b806af15eb49856b4a21e2a315f5b579bc"
+    },
+    {
+      "workId": "pearl-ruby-set",
+      "path": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/works/pearl-ruby-set/one-shot/input/locked-metadata.json",
+      "sha256": "50094c6eae6e63a763011518b1a59c002cfc7e139265c577c9345fbe0b068e5d"
+    },
+    {
+      "workId": "brilliant-cut-diamond-set",
+      "path": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/works/brilliant-cut-diamond-set/one-shot/input/locked-metadata.json",
+      "sha256": "783d6a9ddceddbf1ae4312fdf3aa839566f977d0eef6da2fb0f3f5e38f6c6553"
+    },
+    {
+      "workId": "rose-cut-diamond-set",
+      "path": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/works/rose-cut-diamond-set/one-shot/input/locked-metadata.json",
+      "sha256": "5895d55daa9706f6cd89b3f54a57c4905de42f079bb6eedf65ead6b14784cbdc"
+    },
+    {
+      "workId": "glass-cabinet",
+      "path": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/works/glass-cabinet/one-shot/input/locked-metadata.json",
+      "sha256": "6d8d8d0a3294740b3d1f43ac70ddf7329cb6c287e30ffd1c274281f7c22983a8"
+    },
+    {
+      "workId": "rosenborg-wine",
+      "path": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/works/rosenborg-wine/one-shot/input/locked-metadata.json",
+      "sha256": "2741801ba6bec9a94dd6466a456f8f68e2dae01dfa7f4f07d7ee5f4553c90fdb"
+    }
+  ]
+}

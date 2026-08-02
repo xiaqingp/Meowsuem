@@ -1,0 +1,33 @@
+{
+  "id": "PCR-2026-08-01-rosenborg-publication",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-01",
+  "ownerInstruction": "用最新 pipeline 生成并发布 Rosenborg Castle，并按显式选择将三件未通过的小范围证据项作为可见 warning 发布。",
+  "baseRelease": "research/pipeline/releases/v2.13.39.json",
+  "targetVersion": "2.13.40",
+  "implementationStatus": "completed",
+  "scope": [
+    "freeze the published Rosenborg museum page in the canonical release",
+    "register Rosenborg and its three visible warning items in the authority manifest"
+  ],
+  "outOfScope": [
+    "changing pipeline behavior or verification thresholds",
+    "removing or disguising publication warnings",
+    "mutating earlier frozen releases"
+  ],
+  "allowedCanonicalFiles": [
+    "museum.html"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/run-pipeline-tests.mjs",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/verify-pipeline-causality.mjs",
+      "node scripts/verify-significance-evidence.mjs --museum=rosenborg",
+      "node scripts/verify-release-candidate.mjs --museum=rosenborg",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

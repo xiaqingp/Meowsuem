@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "narwhal-throne",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The narwhal throne",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-narwhal-throne/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The Knights’ Hall (room 21)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "attribution",
+        "historicalUse",
+        "availability",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Historical artefacts",
+      "publisher": "Kongehuset, The Royal House of Denmark",
+      "url": "https://www.kongehuset.dk/en/royal-collections/royal-symbols/historical-artefacts/",
+      "sourceType": "other",
+      "usedFor": [
+        "historicalContext",
+        "historicalUse",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "The Orb",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-orb/",
+      "sourceType": "museum",
+      "usedFor": [
+        "historicalUse",
+        "collectionRelation"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "王座由本迪克斯·格罗德茨希灵制作，鎏金人物由 J. Kohlmann 制作并在克里斯蒂安五世时期加入。",
+      "type": "attribution",
+      "sourceIds": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "王座首次用于1671年克里斯蒂安五世的涂油典礼，最后用于1840年克里斯蒂安八世的涂油典礼。",
+      "type": "other",
+      "sourceIds": [
+        "S2",
+        "S3"
+      ]
+    },
+    {
+      "claim": "王座以《圣经》中所罗门王的象牙王座为设计模型，弗雷德里克三世选择了当时被称作独角兽角的独角鲸牙，并且知道这些材料实际来自独角鲸。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "天篷",
+      "statement": "馆方将照片所见天篷说明为由两件便携式天篷重构而成，不能把整座天篷都视为1662—1671年王座原件。",
+      "sourceIds": [
+        "S2"
+      ]
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "creator",
+      "severity": "warning",
+      "statement": "locked metadata将 artist 标为丹麦王室（Danish royal collection）；官方房间页则提供了更具体的制作归属：王座归于本迪克斯·格罗德茨希灵，鎏金人物为 J. Kohlmann，并在克里斯蒂安五世时期加入。该差异不改变作品身份。",
+      "sourceIds": [
+        "S2"
+      ]
+    },
+    {
+      "field": "date",
+      "severity": "warning",
+      "statement": "锁定 metadata 与对象页、房间页采用1662—1671年；王室官网另一页面将其概括为1660年制作。本文采用锁定 metadata 及对象专页、房间页的1662—1671年表述。",
+      "sourceIds": [
+        "S1",
+        "S2",
+        "S3"
+      ]
+    }
+  ]
+}

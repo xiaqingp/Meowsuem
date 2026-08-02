@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "shrapnel-earrings",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Shrapnel earrings",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/shrapnel-earrings/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "makingProcess",
+        "historicalContext",
+        "collectionRelation",
+        "availability"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Christian 4. og brugen af historien",
+      "publisher": "Danmarkshistorien / Aarhus Universitet",
+      "url": "https://danmarkshistorien.lex.dk/Christian_4._og_brugen_af_historien",
+      "sourceType": "academic",
+      "usedFor": [
+        "historicalContext",
+        "significance"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "这对耳环由从克里斯蒂安四世头部取出的两块弹片改制而成，并赠给维贝克·克鲁泽。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "耳环由珐琅金制成，手形构件托住来自爆炸炮弹的碎片和一枚瑞典子弹。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "克里斯蒂安四世在1644年的科尔贝格海德海战中受伤，并失去右眼视力。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "制作信息",
+      "statement": "所查对象页说明了材质和改制内容，但没有明确记录具体珠宝匠、制作地点或精确制作日期，本文未作推断。"
+    }
+  ],
+  "upstreamConflicts": []
+}

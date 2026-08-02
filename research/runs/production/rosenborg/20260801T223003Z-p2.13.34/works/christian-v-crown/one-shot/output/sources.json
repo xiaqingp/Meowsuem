@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "christian-v-crown",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Christian V’s Crown",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/christian-v-s-crown/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "historicalEvent",
+        "creationProcess",
+        "material",
+        "collectionHistory",
+        "availability",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Treasury, Section 3 (room I)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-i-the-treasury/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "accessionNumber",
+        "creationProcess",
+        "collectionHistory",
+        "availability"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Project ‘The Kingdom’s Treasury’",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/project-the-kingdom-s-treasury/",
+      "sourceType": "museum",
+      "usedFor": [
+        "creationProcess",
+        "creator",
+        "historicalEvent",
+        "availability"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "克里斯蒂安五世是丹麦第一位以绝对君主身份开始统治的国王。",
+      "type": "first_or_earliest",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "这顶王冠由哥本哈根宫廷珠宝匠保罗·库尔茨于1670—1671年制作。",
+      "type": "attribution",
+      "sourceIds": [
+        "S2",
+        "S3"
+      ]
+    },
+    {
+      "claim": "王冠正面的巨大蓝宝石可追溯到腓特烈一世时代，并可能于1474年由米兰公爵赠给克里斯蒂安一世。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "宝石来源",
+      "statement": "馆方对正面蓝宝石的1474年赠礼说法使用了‘可能’或‘推测’措辞，正文保留了这种不确定性。"
+    },
+    {
+      "topic": "已验证图片与对象身份",
+      "statement": "本次提供的图片呈现的是王室受膏礼肖像而非王冠本体；正文未把图片中的人物肖像细节当作王冠本体的直接证据，而依据官方对象页与宝库页面写作。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "creator",
+      "lockedValue": "丹麦王室 / Danish royal collection",
+      "observedValue": "保罗·库尔茨（Paul Kurtz），哥本哈根宫廷珠宝匠",
+      "sourceIds": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "severity": "warning",
+      "explanation": "锁定 metadata 的 artist 字段记录的是丹麦王室收藏归属或展示归类；官方对象页与宝库对象说明则明确指出实际制作者为保罗·库尔茨。该差异不改变作品身份，但会影响制作者归属的准确表述。"
+    }
+  ]
+}

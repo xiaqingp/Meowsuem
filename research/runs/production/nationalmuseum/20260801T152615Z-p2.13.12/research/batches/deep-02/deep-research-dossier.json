@@ -1,0 +1,334 @@
+{
+  "schemaVersion": 1,
+  "museumId": "nationalmuseum",
+  "researchDate": "2026-08-01",
+  "researchScope": "Museum planning only: selection, rating, structure, routes, availability and risk resolution.",
+  "works": [
+    {
+      "workId": "renoir-mother-antonys-tavern-nm2544",
+      "identityStatus": "stable",
+      "identityEvidence": "Nationalmuseum object NM 2544 is Mother Antony's Tavern by Auguste Renoir, signed 1866, oil on canvas; the museum records it as a 1926 gift from Nationalmusei Vänner.",
+      "availability": "not_on_display",
+      "availabilityCheckedAt": "2026-08-01",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "A large early Renoir group scene that documents the artist milieu at Marlotte before Impressionism cohered as a named group: the museum identifies Alfred Sisley, the artists' tavern, an issue of L’événement associated with Zola's criticism, and a collaborative wall painting.",
+      "selectionSignals": [
+        "Adds a pre-Impressionist social network and modern-life subject rather than another landscape.",
+        "Connects Renoir and Sisley to artists working around the Forest of Fontainebleau.",
+        "Supports discussion of how male artist groups represented and promoted themselves; this framing is supplied by the museum, not inferred from the image."
+      ],
+      "sectionSignals": ["French modern life before Impressionism", "artist communities and self-fashioning", "painting and criticism"],
+      "routeSignals": ["Use only on a collection-depth route unless the object page changes to on display.", "Pairs conceptually with later French and Swedish modern painting, but not as a guaranteed gallery stop."],
+      "riskFlags": ["display_rotation"],
+      "riskResolution": [
+        {
+          "flag": "display_rotation",
+          "status": "resolved_point_in_time",
+          "evidence": "The official object page explicitly states 'Not on display'.",
+          "residualRisk": "Display status is dynamic; recheck the official object page immediately before publication or visit."
+        }
+      ],
+      "scoreEvidence": {
+        "supports": ["Recognizable artist and a specific early modern-life/artist-community argument", "Distinct subject contribution to the museum's French nineteenth-century line"],
+        "limits": ["No evidence gathered for global rarity or irreplaceability", "Currently not available as a normal gallery stop"]
+      },
+      "sourcePointers": ["https://collection.nationalmuseum.se/en/collection/item/19605/"]
+    },
+    {
+      "workId": "degas-woman-drying-herself-nmh502-1921",
+      "identityStatus": "stable",
+      "identityEvidence": "Nationalmuseum object NMH 502/1921 is Woman drying herself by Edgar Degas, a monotype on paper measuring 46.5 by 32.5 cm; the object page records no date.",
+      "availability": "appointment_only_currently_closed",
+      "availabilityCheckedAt": "2026-08-01",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "A Degas monotype that broadens the candidate set from oil painting to a single-impression print process and an intimate modern body subject; the available official record does not support a date, edition-size claim or landmark status.",
+      "selectionSignals": [
+        "Provides a medium contrast within French nineteenth-century art.",
+        "Useful for a focused prints-and-drawings collection line, but the official object record supplies identity and medium rather than a developed significance argument.",
+        "Do not infer rarity from the word monotype or from physical uniqueness."
+      ],
+      "sectionSignals": ["Degas on paper", "monotype and experimental printmaking", "private body and modern subject"],
+      "routeSignals": ["Exclude from ordinary walk-in routes.", "Eligible only for a prearranged study-room/research route after the museum confirms availability."],
+      "riskFlags": ["appointment_limited_graphics", "display_rotation"],
+      "riskResolution": [
+        {
+          "flag": "appointment_limited_graphics",
+          "status": "confirmed",
+          "evidence": "Nationalmuseum states that its study room for drawings and prints is appointment-only, requires a requested work list, and confirms which requested works are available. The study room is not in the museum building. It is closed 30 June–10 August, which includes the research date.",
+          "residualRisk": "Even after summer closure, access requires advance confirmation for this specific sheet."
+        },
+        {
+          "flag": "display_rotation",
+          "status": "resolved_point_in_time",
+          "evidence": "The official object page explicitly states 'Not on display'.",
+          "residualRisk": "The status can change; the study room policy does not itself guarantee this object's availability."
+        }
+      ],
+      "scoreEvidence": {
+        "supports": ["Major artist represented in a medium distinct from painting", "The museum's prints-and-drawings collection is a substantial independent collection line"],
+        "limits": ["No official significance text or date on the object record", "Not accessible on a standard visit", "No evidence for rarity or irreplaceability"]
+      },
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/69010/",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-study-room-for-drawings-and-prints",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-collections"
+      ]
+    },
+    {
+      "workId": "cezanne-landscape-nm1999",
+      "identityStatus": "stable",
+      "identityEvidence": "Nationalmuseum object NM 1999 is Landscape by Paul Cézanne, oil on canvas, 73 by 92 cm, given by Nationalmusei Vänner in 1916. The official page does not record a date for the painting.",
+      "availability": "on_display",
+      "availabilityCheckedAt": "2026-08-01",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "A characteristic Oise Valley landscape in which Cézanne organizes a distant valley through framing trees and an architectonic picture structure; the museum connects this structural priority, rather than a sketch-like instant, to his later importance for Cubism.",
+      "selectionSignals": [
+        "Strong bridge from Impressionism to the structural concerns that mattered to early Cubism.",
+        "The museum explicitly calls the work typical of Cézanne's landscape composition.",
+        "Currently the only confirmed on-display object in this batch."
+      ],
+      "sectionSignals": ["from Impressionism toward Cubism", "landscape as constructed pictorial structure", "French painting in the Oise Valley"],
+      "routeSignals": ["High-priority physical stop for French modern painting.", "Official page locates it at Nationalmuseum, room 1434, Östra salen; recheck before routing."],
+      "riskFlags": ["display_rotation"],
+      "riskResolution": [
+        {
+          "flag": "display_rotation",
+          "status": "resolved_point_in_time",
+          "evidence": "The official object page states that the painting is displayed at Nationalmuseum in room 1434, Östra salen.",
+          "residualRisk": "Room and display status remain dynamic and require a pre-visit recheck."
+        }
+      ],
+      "scoreEvidence": {
+        "supports": ["Clear art-historical bridge in the museum's own account", "Characteristic example of a major artist's compositional method", "Confirmed physical availability"],
+        "limits": ["No date is recorded on the object page", "No evidence for global rarity or irreplaceability"]
+      },
+      "sourcePointers": ["https://collection.nationalmuseum.se/sv/collection/item/19003/"]
+    },
+    {
+      "workId": "carl-larsson-convalescence-nmb505",
+      "identityStatus": "stable",
+      "identityEvidence": "Nationalmuseum object NMB 505 is Carl Larsson's signed 1899–1902 Convalescence, watercolor on paper, acquired in 1928 from Herman Lamm's estate.",
+      "availability": "not_on_display",
+      "availabilityCheckedAt": "2026-08-01",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "A biographically specific image of Karin Larsson recovering after severe pneumonia that also belongs to a broader nineteenth-century convention of portraying women as sick, fragile and inactive.",
+      "selectionSignals": [
+        "Complicates the familiar Larsson domestic-world line through illness and gendered representation.",
+        "The museum supplies both the specific 1899 illness context and the wider sickbed convention.",
+        "Watercolor adds medium breadth, but current gallery access is absent."
+      ],
+      "sectionSignals": ["Carl Larsson's domestic world", "illness and gender conventions", "watercolor at the turn of the century"],
+      "routeSignals": ["Use as a thematic research entry, not a promised stop.", "Can pair with Larsson's household-worker etching to challenge an idealized domestic narrative."],
+      "riskFlags": ["display_rotation"],
+      "riskResolution": [
+        {
+          "flag": "display_rotation",
+          "status": "resolved_point_in_time",
+          "evidence": "The official object page explicitly states 'Inte utställd' (not on display).",
+          "residualRisk": "Display status is dynamic; the watercolor's paper support makes future rotation plausible but no rotation schedule was established."
+        }
+      ],
+      "scoreEvidence": {
+        "supports": ["Specific biographical event tied to a documented period convention", "Distinct corrective within a major Swedish artist's domestic imagery"],
+        "limits": ["Not currently on display", "No rarity or artist-landmark evidence gathered"]
+      },
+      "sourcePointers": ["https://collection.nationalmuseum.se/sv/collection/item/24445/"]
+    },
+    {
+      "workId": "carl-larsson-kitchen-maid-washer-woman-nmg151a-1902",
+      "identityStatus": "stable",
+      "identityEvidence": "Nationalmuseum object NMG 151a/1902 is Carl Larsson's My Kitchen Maid and My Washer Woman, executed in 1901 as a line etching and given in 1902 by Föreningen för grafisk konst.",
+      "availability": "appointment_only_currently_closed",
+      "availabilityCheckedAt": "2026-08-01",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "An etching that makes paid household labor visible inside the Larssons' celebrated domestic world while preserving an asymmetry: the two women are identified only by their jobs, whereas Larsson inserts a caricatured self-portrait as his signature.",
+      "selectionSignals": [
+        "Adds labor and household hierarchy to the Carl Larsson collection line.",
+        "The museum explicitly notes that several employees worked in the household and appeared frequently in Sundborn imagery.",
+        "The inscription and caricature-signature make this more specific than a generic domestic scene."
+      ],
+      "sectionSignals": ["the labor behind the Larsson home", "Swedish printmaking", "names, roles and authorship"],
+      "routeSignals": ["Exclude from ordinary walk-in routes.", "Use only in a prearranged study-room route after work-specific confirmation.", "Strong thematic pairing with Convalescence, but neither is currently a normal gallery stop."],
+      "riskFlags": ["appointment_limited_graphics"],
+      "riskResolution": [
+        {
+          "flag": "appointment_limited_graphics",
+          "status": "confirmed",
+          "evidence": "The object page says the work is not displayed. Nationalmuseum's study room for drawings and prints is appointment-only, confirms requested works individually, is outside the museum building, and is closed 30 June–10 August, including the research date.",
+          "residualRisk": "Access after reopening still depends on advance confirmation for this exact etching."
+        }
+      ],
+      "scoreEvidence": {
+        "supports": ["Specific social-history contribution to an important Swedish collection line", "Distinctive relationship among depicted labor, written roles and the artist's self-signature"],
+        "limits": ["Not accessible on a standard visit", "No evidence for rarity or high art-historical rank"]
+      },
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/sv/collection/item/150107/",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-study-room-for-drawings-and-prints"
+      ]
+    },
+    {
+      "workId": "liljefors-jays-nm6811",
+      "identityStatus": "stable",
+      "identityEvidence": "Nationalmuseum object NM 6811 is Bruno Liljefors's signed 1886 Jays, oil on canvas, given by the Friends of Nationalmuseum in 1986.",
+      "availability": "not_on_display",
+      "availabilityCheckedAt": "2026-08-01",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "A compact demonstration of Liljefors combining Japanese-print-inspired asymmetry, surface use and stylization with his own naturalistic bird painting, rather than simply copying a Japanese model.",
+      "selectionSignals": [
+        "The museum identifies a specific cross-cultural compositional mechanism: off-center branch, asymmetry, foreground/background contrast and a synthesis with realism.",
+        "Supports an artistic-method argument within Swedish animal painting.",
+        "More useful for formal and cross-cultural structure than another generalized wildlife entry."
+      ],
+      "sectionSignals": ["Japanese prints and Nordic painting", "Liljefors's synthesis of stylization and realism", "the frozen instant in animal art"],
+      "routeSignals": ["Use as a high-value thematic entry but not a promised physical stop while off display.", "If returned to display, pair with another Liljefors to contrast compositional experiment with narrative hunting subjects."],
+      "riskFlags": ["display_rotation"],
+      "riskResolution": [
+        {
+          "flag": "display_rotation",
+          "status": "resolved_point_in_time",
+          "evidence": "The official object page explicitly states 'Not on display'.",
+          "residualRisk": "Display status can change and must be rechecked."
+        }
+      ],
+      "scoreEvidence": {
+        "supports": ["Museum-supported account of a concrete formal synthesis", "Representative mechanism for a major Swedish animal painter"],
+        "limits": ["Currently unavailable as a gallery stop", "No evidence of rarity or irreplaceability"]
+      },
+      "sourcePointers": ["https://collection.nationalmuseum.se/en/collection/item/23860/"]
+    },
+    {
+      "workId": "liljefors-cat-flowery-meadow-nm7128",
+      "identityStatus": "stable_composite_context_confirmed",
+      "identityEvidence": "Nationalmuseum object NM 7128 is Bruno Liljefors's 1887 Cat on a Flowery Meadow, oil on canvas, purchased in 2013. The museum states that it was originally composed with Nestlings of Red-Backed Shrike in a common frame and belonged to a larger original whole that also included four bird studies.",
+      "availability": "not_on_display",
+      "availabilityCheckedAt": "2026-08-01",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "Its planning value lies in reconstruction: the 2013 acquisition allowed Nationalmuseum to reunite the cat canvas with Nestlings of Red-Backed Shrike in their original common-frame relationship and to restore the interpretive force of a larger six-painting conception.",
+      "selectionSignals": [
+        "Strong collection-history and composite-object case: the single accession should not be presented as a fully independent visual unit.",
+        "The museum says form and color balance between the cat and nestlings canvases becomes clear only when they are seen together.",
+        "Useful for explaining how acquisition and reframing can change understanding of an existing collection object."
+      ],
+      "sectionSignals": ["reuniting a dispersed artwork", "Liljefors as a composer of ensembles", "acquisition changes interpretation"],
+      "routeSignals": ["Do not route or caption this as a standalone masterpiece without naming its companion context.", "Currently not a physical stop; if redisplayed, treat the common-frame pair or reconstructed ensemble as the route unit."],
+      "riskFlags": ["multi_part_work"],
+      "riskResolution": [
+        {
+          "flag": "multi_part_work",
+          "status": "confirmed_and_bounded",
+          "evidence": "The official catalogue text says Cat on a Flowery Meadow and Nestlings of Red-Backed Shrike originally belonged together in a common frame. It also identifies four bird studies as further parts of the original whole, yielding a six-painting conception. The page separately identifies NM 7128 as the cat canvas.",
+          "residualRisk": "The current object page says 'Not on display'; its older text that the works 'can now be seen' describes an earlier display and must not be treated as current availability. The accession identities of every companion panel were not needed for this risk resolution and were not expanded."
+        }
+      ],
+      "scoreEvidence": {
+        "supports": ["Museum-documented reconstruction of an ambitious dispersed ensemble", "Acquisition materially restores a composition and changes interpretation of a work already in the collection"],
+        "limits": ["Not currently on display", "The museum's phrase 'one of the artist's most ambitious works' does not establish global rarity or irreplaceability"]
+      },
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/149858/",
+        "http://nationalmuseum.diva-portal.org/smash/get/diva2:724876/FULLTEXT01.pdf"
+      ]
+    },
+    {
+      "workId": "liljefors-poacher-nm1886",
+      "identityStatus": "stable",
+      "identityEvidence": "Nationalmuseum object NM 1886 is Bruno Liljefors's signed 1894 A Poacher, oil on canvas, given in 1915 by Friends of Art through Richard Bergh.",
+      "availability": "not_on_display",
+      "availabilityCheckedAt": "2026-08-01",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "A hunting subject that integrates a human figure with Liljefors's natural environment: the museum explains that the hunter listens for lekking capercaillies, visually merges with pine trunks, was based on a hunting companion, and was developed with photographic aid.",
+      "selectionSignals": [
+        "Extends Liljefors beyond autonomous animal imagery into human hunting practice.",
+        "Supports a concrete method-and-subject discussion through model use, photography and camouflage-like integration.",
+        "Less distinctive for a limited selection than Jays or the reconstructed cat ensemble unless a hunting theme needs coverage."
+      ],
+      "sectionSignals": ["humans inside Liljefors's nature", "hunting and listening", "photography as an artist's aid"],
+      "routeSignals": ["Reserve for an expanded Liljefors or hunting route; not a promised stop while off display."],
+      "riskFlags": ["display_rotation"],
+      "riskResolution": [
+        {
+          "flag": "display_rotation",
+          "status": "resolved_point_in_time",
+          "evidence": "The official object page explicitly states 'Not on display'.",
+          "residualRisk": "Display status can change and must be rechecked."
+        }
+      ],
+      "scoreEvidence": {
+        "supports": ["Distinct human/nature subject within Liljefors's oeuvre", "Museum-supported evidence for working method"],
+        "limits": ["Currently not on display", "No evidence for rarity, landmark status or irreplaceability"]
+      },
+      "sourcePointers": ["https://collection.nationalmuseum.se/en/collection/item/18891/"]
+    },
+    {
+      "workId": "hanna-pauli-breakfast-time-nm1705",
+      "identityStatus": "stable",
+      "identityEvidence": "Nationalmuseum object NM 1705 is Hanna Pauli's signed 1887 Breakfast Time, oil on canvas, purchased with government funding in 1910.",
+      "availability": "not_on_display",
+      "availabilityCheckedAt": "2026-08-01",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "A breakthrough-period painting that translates Pauli's Paris experience and contemporary French handling of colored light into a Swedish outdoor domestic scene; hostile criticism of its lively brushwork and thick paint documents how modern the technique appeared locally.",
+      "selectionSignals": [
+        "The museum states that the work played a major role in Pauli's breakthrough in the late 1880s.",
+        "Connects a Swedish woman artist, Paris training, Salon participation and the reception of modern French technique in Sweden.",
+        "Offers a documented critical-reception story tied to visible technique rather than fame alone."
+      ],
+      "sectionSignals": ["Swedish artists and Paris", "women artists at the modern breakthrough", "colored light, brushwork and hostile reception"],
+      "routeSignals": ["High thematic priority but not a guaranteed stop while the official page says off display.", "Pairs well with Cézanne or Renoir for different transfers and transformations of French modern painting."],
+      "riskFlags": ["display_rotation"],
+      "riskResolution": [
+        {
+          "flag": "display_rotation",
+          "status": "resolved_point_in_time",
+          "evidence": "The official object page explicitly states 'Not on display'.",
+          "residualRisk": "Display status is dynamic and should be rechecked; historical exhibition text on the page is not evidence of current display."
+        }
+      ],
+      "scoreEvidence": {
+        "supports": ["Museum explicitly assigns the work a major role in the artist's breakthrough", "Clear transnational art-history and reception evidence", "Strong representation signal for Swedish women artists"],
+        "limits": ["Currently not on display", "No evidence for rarity or global irreplaceability"]
+      },
+      "sourcePointers": ["https://collection.nationalmuseum.se/en/collection/item/18709/"]
+    },
+    {
+      "workId": "breslau-ernst-josephson-portrait-nmgrh2322",
+      "identityStatus": "stable",
+      "identityEvidence": "Nationalmuseum object NMGrh 2322 is Marie Louise Catherine Breslau's signed 1886 oil portrait of Ernst Josephson, purchased in 1907; the depicted person is explicitly identified by the museum.",
+      "availability": "not_on_display",
+      "availabilityCheckedAt": "2026-08-01",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "A cross-national artist portrait in which a successful Paris portraitist presents the Swedish painter-poet Josephson through the role of a bohemian artist; the museum cautiously says it may have been made during a visit to their mutual colleague Allan Österlind.",
+      "selectionSignals": [
+        "Adds a woman portraitist active in Paris and a network among Breslau, Josephson and possibly Österlind.",
+        "Useful for examining artist identity as a constructed social role rather than only as likeness.",
+        "The possible visit context must remain qualified; the official page does not make it certain."
+      ],
+      "sectionSignals": ["cross-national artist networks", "the bohemian role portrait", "women portraitists in Paris"],
+      "routeSignals": ["Use on an expanded portrait or artist-network route only if display is reconfirmed; currently a research entry, not a physical stop."],
+      "riskFlags": ["display_rotation"],
+      "riskResolution": [
+        {
+          "flag": "display_rotation",
+          "status": "resolved_point_in_time",
+          "evidence": "The official object page explicitly states 'Not on display'.",
+          "residualRisk": "Display status is dynamic and should be rechecked."
+        }
+      ],
+      "scoreEvidence": {
+        "supports": ["Distinct cross-national network and representation argument", "Named female artist and named sitter with stable museum identity"],
+        "limits": ["Currently not on display", "Execution during the Österlind visit is only a museum-stated possibility", "No rarity or landmark evidence"]
+      },
+      "sourcePointers": ["https://collection.nationalmuseum.se/en/collection/item/18651/"]
+    }
+  ]
+}

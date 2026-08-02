@@ -1,0 +1,39 @@
+{
+    "runId":  "20260801T164044Z-p2.13.13",
+    "stage":  "image_disambiguation",
+    "museumId":  "nationalmuseum",
+    "caseId":  "",
+    "workId":  "",
+    "pipelineVersion":  "2.13.13",
+    "instructionVersion":  "2.4.2",
+    "model":  "gpt-5.6-luna",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-08-01T10:10:39.3383612-07:00",
+    "modelStartedAt":  "2026-08-01T10:10:39.6347779-07:00",
+    "modelCompletedAt":  "2026-08-01T10:12:04.8174811-07:00",
+    "completedAt":  "2026-08-01T10:12:04.8465206-07:00",
+    "runnerDurationMs":  85508,
+    "modelDurationMs":  85183,
+    "tokenUsage":  {
+                       "total":  81948,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+
+                                ],
+    "logPath":  "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/model-runs/batch-01-c394ac7d2b27/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/model-runs/batch-01-c394ac7d2b27/image-research-packet.json",
+                       "role":  "image_candidate_packet",
+                       "sha256":  "c531e6b1542e8e3a5868ec85d97b82b840281d074a5f16bb84498813c55fa614"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "image-decisions.json",
+                        "sha256":  "9a551fa107aa7cc357b9bcc527a46fe908c780669f4548b932fee612b44da1ea",
+                        "bytes":  7168
+                    }
+                ]
+}

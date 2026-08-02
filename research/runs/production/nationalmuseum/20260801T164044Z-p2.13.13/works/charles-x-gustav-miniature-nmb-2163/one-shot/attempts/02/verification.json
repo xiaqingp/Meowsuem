@@ -1,0 +1,46 @@
+{
+  "status": "failed",
+  "errors": [
+    {
+      "code": "ARTICLE_TITLE_DRIFT",
+      "message": "Article title does not match locked metadata",
+      "matches": [
+        "# 瑞典国王卡尔十世·古斯塔夫（1622–1660） / Charles X Gustav of Sweden (1622–1660)"
+      ],
+      "severity": "error"
+    },
+    {
+      "code": "OFFICIAL_SOURCE_COVERAGE",
+      "message": "Official museum sources do not cover date",
+      "matches": [
+        "date"
+      ],
+      "severity": "error"
+    }
+  ],
+  "warnings": [],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": false,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": true,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "一幅肖像，还是一件可佩戴的王权物件？",
+    "“十世”从何而来？",
+    "画家与宫廷的流动"
+  ],
+  "sourceCount": 4,
+  "articleBytes": 4784,
+  "sourcesBytes": 2519
+}

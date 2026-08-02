@@ -1,0 +1,64 @@
+{
+  "status": "failed",
+  "errors": [
+    {
+      "code": "SOURCES_SCHEMA",
+      "message": "$.upstreamConflicts[0].lockedValue is required",
+      "matches": [],
+      "severity": "error"
+    },
+    {
+      "code": "SOURCES_SCHEMA",
+      "message": "$.upstreamConflicts[0].observedValue is required",
+      "matches": [],
+      "severity": "error"
+    },
+    {
+      "code": "SOURCES_SCHEMA",
+      "message": "$.upstreamConflicts[0].explanation is required",
+      "matches": [],
+      "severity": "error"
+    },
+    {
+      "code": "UNSUPPORTED_HIGH_RISK_CLAIM",
+      "message": "Strong factual claim lacks a valid source record",
+      "matches": [
+        "1723年，王储克里斯蒂安，也就是后来加冕的克里斯蒂安六世，把它送给索菲·玛格达琳王后，以纪念他们第一个孩子弗雷德里克出生"
+      ],
+      "severity": "error"
+    },
+    {
+      "code": "UNSUPPORTED_HIGH_RISK_CLAIM",
+      "message": "Strong factual claim lacks a valid source record",
+      "matches": [
+        "先找一块最大的翡翠，看它的绿色是否从中心向边缘变深；再沿着周围的钻石移动视线，观察那些弧线如何把宝石从“静止的方块”变成“正在摆动的装饰”"
+      ],
+      "severity": "error"
+    }
+  ],
+  "warnings": [],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": false,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": false,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "一套珠宝，两个时代的叠影",
+    "祖母绿为什么会和出生礼物联系在一起？",
+    "博物馆里的珠宝，礼仪场上的珠宝"
+  ],
+  "sourceCount": 3,
+  "articleBytes": 4865,
+  "sourcesBytes": 2648
+}

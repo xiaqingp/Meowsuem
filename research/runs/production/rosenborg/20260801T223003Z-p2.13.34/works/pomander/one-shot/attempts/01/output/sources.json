@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "pomander",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Pomander",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/pomander/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "use",
+        "collectionRelation",
+        "displayStatus",
+        "inscriptions",
+        "mementoMori",
+        "EllenMarsvinContext"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Pomander",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/196980",
+      "sourceType": "museum",
+      "usedFor": [
+        "historicalContext",
+        "use",
+        "healthBeliefs",
+        "functionalJewelry"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Pandemic Objects: Hand Sanitiser",
+      "publisher": "Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/blog/projects/pandemic-objects-hand-sanitiser",
+      "sourceType": "museum",
+      "usedFor": [
+        "historicalContext",
+        "scent",
+        "healthBeliefs",
+        "miasmaTheory"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "这件香球曾属于腓特烈三世的王后索菲·阿玛莉等人。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "upstreamConflicts": []
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "halds-cactus-exhibition-nmk-215-2011",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Cactus Exhibition",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/137663/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "technique",
+        "dimensions",
+        "availability",
+        "rare",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "New acquisition: Cactus Exhibition vase by Edward Hald",
+      "publisher": "Nationalmuseum Sweden",
+      "url": "https://www.mynewsdesk.com/nationalmuseum/pressreleases/new-acquisition-vase-by-edward-hald-963275",
+      "sourceType": "museum",
+      "usedFor": [
+        "productionDate",
+        "collectionRelation",
+        "rare",
+        "motif",
+        "historicalContext"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Checklist - The Brilliance of Swedish Glass, 1918-1939",
+      "publisher": "Bard Graduate Center",
+      "url": "https://www.bgc.bard.edu/files/Checklist_-_The_Brilliance_of_Swedish_Glass%2C_1918-1939.pdf",
+      "sourceType": "academic",
+      "usedFor": [
+        "technique",
+        "comparativeObjectRecord",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "History – Orrefors",
+      "publisher": "Orrefors",
+      "url": "https://orrefors.us/pages/history",
+      "sourceType": "foundation",
+      "usedFor": [
+        "historicalContext",
+        "makerContext",
+        "industrialCollaboration"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Edward Hald",
+      "publisher": "Orrefors Museum - Glasrikets Skatter",
+      "url": "https://www.orreforsmuseum.se/glaskonstnarer/edward-hald/",
+      "sourceType": "museum",
+      "usedFor": [
+        "artistBiography",
+        "makerContext"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "目前已知只有四个实例。",
+      "type": "only_or_unique",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "availability",
+      "statement": "国家博物馆对象页目前标为 On display，但展厅安排和开放状态可能随时间调整。"
+    }
+  ],
+  "upstreamConflicts": []
+}

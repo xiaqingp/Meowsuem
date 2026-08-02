@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "status": "accepted",
+  "runId": "20260801T223003Z-p2.13.34",
+  "museumId": "rosenborg",
+  "workId": "silver-lions",
+  "stage": "single_work",
+  "attempt": 2,
+  "model": "gpt-5.6-luna",
+  "reasoningEffort": "high",
+  "startedAt": "2026-08-02T00:01:52.147Z",
+  "completedAt": "2026-08-02T00:03:56.523Z",
+  "durationMs": 124376,
+  "inputTokens": 97270,
+  "cachedInputTokens": 41472,
+  "reasoningTokens": 3146,
+  "outputTokens": 6149,
+  "totalTokens": 103419,
+  "agentRunCount": 1,
+  "modelRoundCount": 1,
+  "webSearchCount": 3,
+  "webOpenCount": 0
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "status": "accepted",
+  "runId": "20260801T223003Z-p2.13.34",
+  "museumId": "rosenborg",
+  "workId": "shrapnel-earrings",
+  "stage": "single_work",
+  "attempt": 2,
+  "model": "gpt-5.6-luna",
+  "reasoningEffort": "high",
+  "startedAt": "2026-08-02T00:01:51.146Z",
+  "completedAt": "2026-08-02T00:03:22.486Z",
+  "durationMs": 91340,
+  "inputTokens": 97778,
+  "cachedInputTokens": 64512,
+  "reasoningTokens": 1964,
+  "outputTokens": 3839,
+  "totalTokens": 101617,
+  "agentRunCount": 1,
+  "modelRoundCount": 1,
+  "webSearchCount": 3,
+  "webOpenCount": 0
+}

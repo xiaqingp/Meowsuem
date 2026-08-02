@@ -1,0 +1,1489 @@
+{
+  "schemaVersion": 1,
+  "stage": "verified_image_evidence",
+  "museumId": "nationalmuseum",
+  "pipelineVersion": "2.13.17",
+  "generatedAt": "2026-08-01T17:41:51.991Z",
+  "parentRunId": null,
+  "resolver": {
+    "version": 3,
+    "mode": "four_tier",
+    "tiers": [
+      "official_api_iiif",
+      "luna_official_page_plan",
+      "wikidata_commons",
+      "luna_open_web"
+    ],
+    "fastPath": "official_structured_or_identity_bound_dom",
+    "modelPolicy": "unresolved_only",
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium"
+  },
+  "summary": {
+    "works": 20,
+    "fastPathAccepted": 0,
+    "aiResearchTriggered": 20,
+    "aiAccepted": 3,
+    "contextImagesAccepted": 0,
+    "objectImageAccepted": 3,
+    "unresolved": 17,
+    "providerUnavailable": 0,
+    "duplicateObjectImageGroups": [],
+    "modelCalls": 2,
+    "modelTokens": 234946
+  },
+  "modelRun": {
+    "runRoot": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/model-runs",
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium",
+    "durationMs": 230934,
+    "tokens": 234946,
+    "batches": 2
+  },
+  "works": [
+    {
+      "workId": "elias-martin-view-stockholm-nm-1470",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "elias-martin-view-stockholm-nm-1470",
+        "title": "View of Stockholm",
+        "objectType": "painting",
+        "titleZh": "",
+        "titleEn": "View of Stockholm",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "not dated in object record",
+        "medium": "Oil on canvas",
+        "identityAnchor": "NM 1470",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/18473/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/18473/",
+        "accessionNumber": "NM 1470",
+        "collectionGroup": "Paintings"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "View of Stockholm | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/18473/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-179664.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/0/multimedia-975100.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-179664.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/3/multimedia-7623.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/0/multimedia-975100.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-179664.large.jpg",
+          "https://collection.nationalmuseum.se/icons/bigLeftArrow.svg",
+          "https://collection.nationalmuseum.se/icons/bigRightArrow.svg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-179664.small.jpg",
+          "https://collection.nationalmuseum.se/multimedia/3/multimedia-7623.small.jpg",
+          "https://collection.nationalmuseum.se/multimedia/0/multimedia-975100.small.jpg",
+          "https://collection.nationalmuseum.se/wikimedia.png"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "No non-excluded image was found with sufficient evidence for accession NM 1470."
+      ],
+      "durationMs": 3494,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "elias-martin-view-stockholm-nm-1470",
+        "status": "not_found",
+        "selectedCandidate": null,
+        "alternatives": [],
+        "limitations": [
+          "No non-excluded image was found with sufficient evidence for accession NM 1470."
+        ]
+      }
+    },
+    {
+      "workId": "rubens-three-graces-nm-601",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "rubens-three-graces-nm-601",
+        "title": "The Three Graces with a Basket of Roses",
+        "objectType": "painting",
+        "titleZh": "",
+        "titleEn": "The Three Graces with a Basket of Roses",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "ca. 1620–1625",
+        "medium": "Oil on canvas",
+        "identityAnchor": "NM 601",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/17604/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/17604/",
+        "accessionNumber": "NM 601",
+        "collectionGroup": "Paintings"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "The Three Graces with a Basket of Roses | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/17604/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/3/multimedia-748863.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/6/multimedia-1008706.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/3/multimedia-748863.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-7298.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-178378.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-224618.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-944471.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/6/multimedia-1008706.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/3/multimedia-748863.large.jpg",
+          "https://collection.nationalmuseum.se/icons/bigLeftArrow.svg",
+          "https://collection.nationalmuseum.se/icons/bigRightArrow.svg",
+          "https://collection.nationalmuseum.se/multimedia/3/multimedia-748863.small.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-7298.small.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-178378.small.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-224618.small.jpg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Rubens_The_Three_Graces.JPG",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File%3ARubens_The_Three_Graces.JPG",
+        "sourceType": "wikimedia",
+        "caption": "The Three Graces with a Basket of Roses, workshop of Peter Paul Rubens and Jan Brueghel the Younger, Nationalmuseum, NM 601.",
+        "identityEvidence": [
+          "Wikimedia page identifies Nationalmuseum, accession NM 601.",
+          "Dimensions 111 × 64 cm match the official object record.",
+          "Wikimedia structured data identifies the work as The Three Graces and the Nationalmuseum collection."
+        ],
+        "confidence": 0.99,
+        "localPath": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/assets/rubens-three-graces-nm-601.jpg",
+        "sha256": "fb9fc073223b09dc6d5d926739cfb61b3207d903e9329529fea092a019479400",
+        "width": 1544,
+        "height": 2657,
+        "contentType": "image/jpeg",
+        "method": "ai_image_research",
+        "provider": "wikimedia",
+        "evidenceId": "img:nationalmuseum:rubens-three-graces-nm-601:fb9fc073223b"
+      },
+      "warnings": [],
+      "durationMs": 3683,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "rubens-three-graces-nm-601",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Rubens_The_Three_Graces.JPG",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File%3ARubens_The_Three_Graces.JPG",
+          "sourceType": "wikimedia",
+          "caption": "The Three Graces with a Basket of Roses, workshop of Peter Paul Rubens and Jan Brueghel the Younger, Nationalmuseum, NM 601.",
+          "identityEvidence": [
+            "Wikimedia page identifies Nationalmuseum, accession NM 601.",
+            "Dimensions 111 × 64 cm match the official object record.",
+            "Wikimedia structured data identifies the work as The Three Graces and the Nationalmuseum collection."
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      }
+    },
+    {
+      "workId": "roslin-lady-with-veil-nm-4098",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "roslin-lady-with-veil-nm-4098",
+        "title": "The Lady with the Veil. The Artist's Wife Marie Suzanne Giroust",
+        "objectType": "painting",
+        "titleZh": "",
+        "titleEn": "The Lady with the Veil. The Artist's Wife Marie Suzanne Giroust",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "signed 1768",
+        "medium": "Oil on canvas",
+        "identityAnchor": "NM 4098",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+        "accessionNumber": "NM 4098",
+        "collectionGroup": "Paintings"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "The Lady with the Veil. The Artist's Wife Marie Suzanne Giroust | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-490391.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-1030862.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-490391.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-8149.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/5/multimedia-184495.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-225767.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-248371.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-930968.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-946122.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-995107.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-1030862.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-490391.large.jpg",
+          "https://collection.nationalmuseum.se/icons/bigLeftArrow.svg",
+          "https://collection.nationalmuseum.se/icons/bigRightArrow.svg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-490391.small.jpg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "AI candidate download failed: image returned 400"
+      ],
+      "durationMs": 3866,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "roslin-lady-with-veil-nm-4098",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/The_Lady_with_the_Veil_%28the_Artist%27s_Wife%29_%28Alexander_Roslin%29_-_Nationalmuseum_-_21152.tif/lossy-page1-2966px-The_Lady_with_the_Veil_%28the_Artist%27s_Wife%29_%28Alexander_Roslin%29_-_Nationalmuseum_-_21152.tif.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File%3AThe_Lady_with_the_Veil_%28the_Artist%27s_Wife%29_%28Alexander_Roslin%29_-_Nationalmuseum_-_21152.tif",
+          "sourceType": "wikimedia",
+          "caption": "The Lady with the Veil, Alexander Roslin, Nationalmuseum.",
+          "identityEvidence": [
+            "Wikimedia page identifies Alexander Roslin and the Nationalmuseum work.",
+            "Wikimedia page records accession NM 4098.",
+            "Title, date 1768, dimensions, and depicted sitter match the official record."
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      }
+    },
+    {
+      "workId": "goya-truth-time-history-nm-5593",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "goya-truth-time-history-nm-5593",
+        "title": "Truth, Time and History",
+        "objectType": "painting",
+        "titleZh": "",
+        "titleEn": "Truth, Time and History",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "1804–1808",
+        "medium": "Oil on canvas",
+        "identityAnchor": "NM 5593",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/22643/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/22643/",
+        "accessionNumber": "NM 5593",
+        "collectionGroup": "Paintings"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Truth, Time and History | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/22643/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-563271.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-1084418.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-563271.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/5/multimedia-201045.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-346148.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-490397.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/6/multimedia-544356.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-1029097.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-1029098.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/6/multimedia-1044376.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-1074384.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-1084418.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-563271.large.jpg",
+          "https://collection.nationalmuseum.se/icons/bigLeftArrow.svg",
+          "https://collection.nationalmuseum.se/icons/bigRightArrow.svg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "AI candidate download failed: image exceeds byte limit: 30290860"
+      ],
+      "durationMs": 4927,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "goya-truth-time-history-nm-5593",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Truth%2C_Time_and_History_%28Francisco_Goya_Y_Lucientes%29_-_Nationalmuseum_-_22643.tif",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File%3ATruth%2C_Time_and_History_%28Francisco_Goya_Y_Lucientes%29_-_Nationalmuseum_-_22643.tif",
+          "sourceType": "wikimedia",
+          "caption": "Truth, Time and History, Francisco Goya, Nationalmuseum, NM 5593.",
+          "identityEvidence": [
+            "Wikimedia file title identifies Truth, Time and History by Francisco Goya and Nationalmuseum.",
+            "The file metadata identifies the Nationalmuseum source and accession-related object.",
+            "Title, artist, date range, and dimensions match the official record."
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      }
+    },
+    {
+      "workId": "rembrandt-self-portrait-nm-5324",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "rembrandt-self-portrait-nm-5324",
+        "title": "Self-Portrait",
+        "objectType": "painting",
+        "titleZh": "",
+        "titleEn": "Self-Portrait",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "signed 1630",
+        "medium": "Oil on copper",
+        "identityAnchor": "NM 5324",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/22374/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/22374/",
+        "accessionNumber": "NM 5324",
+        "collectionGroup": "Paintings"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Self-Portrait | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/22374/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-492381.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/3/multimedia-1079373.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-492381.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/5/multimedia-178605.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/6/multimedia-178606.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-178607.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-178608.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-178609.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/0/multimedia-178610.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/3/multimedia-201033.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-201034.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/6/multimedia-422076.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-422102.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-524631.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/3/multimedia-524633.large.jpg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "AI candidate download failed: image returned 429"
+      ],
+      "durationMs": 6248,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "rembrandt-self-portrait-nm-5324",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Selfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif/lossy-page1-960px-Selfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File%3ASelfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif",
+          "sourceType": "wikimedia",
+          "caption": "Self-Portrait, Rembrandt, 1630, Nationalmuseum, NM 5324.",
+          "identityEvidence": [
+            "Wikimedia page identifies the work as Rembrandt's 1630 self-portrait at Nationalmuseum.",
+            "File title identifies Nationalmuseum object 22374, corresponding to the official record.",
+            "Medium oil on copper and the official dimensions match."
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      }
+    },
+    {
+      "workId": "fanny-brate-day-of-celebration-nm-1605",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "fanny-brate-day-of-celebration-nm-1605",
+        "title": "A Day of Celebration",
+        "objectType": "painting",
+        "titleZh": "",
+        "titleEn": "A Day of Celebration",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "signed 1902",
+        "medium": "Oil on canvas",
+        "identityAnchor": "NM 1605",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/18609/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/18609/",
+        "accessionNumber": "NM 1605",
+        "collectionGroup": "Paintings"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "A Day of Celebration | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/18609/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-487822.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-1015769.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-487822.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/3/multimedia-7683.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-224467.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-936174.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-1015769.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-487822.large.jpg",
+          "https://collection.nationalmuseum.se/icons/bigLeftArrow.svg",
+          "https://collection.nationalmuseum.se/icons/bigRightArrow.svg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-487822.small.jpg",
+          "https://collection.nationalmuseum.se/multimedia/3/multimedia-7683.small.jpg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-224467.small.jpg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-936174.small.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-1015769.small.jpg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "AI candidate download failed: image returned 429"
+      ],
+      "durationMs": 3747,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "fanny-brate-day-of-celebration-nm-1605",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/A_Day_of_Celebration_%28Fanny_Brate%29_-_Nationalmuseum_-_18609.tif/lossy-page1-1920px-A_Day_of_Celebration_%28Fanny_Brate%29_-_Nationalmuseum_-_18609.tif.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File%3AA_Day_of_Celebration_%28Fanny_Brate%29_-_Nationalmuseum_-_18609.tif",
+          "sourceType": "wikimedia",
+          "caption": "A Day of Celebration, Fanny Brate, 1902, Nationalmuseum, NM 1605.",
+          "identityEvidence": [
+            "Wikimedia page identifies Fanny Brate's A Day of Celebration at Nationalmuseum.",
+            "File title identifies Nationalmuseum object 18609, corresponding to the official record.",
+            "Date and dimensions match the official object record."
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      }
+    },
+    {
+      "workId": "josephson-water-sprite-nm-1905",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "josephson-water-sprite-nm-1905",
+        "title": "The Water Sprite",
+        "objectType": "painting",
+        "titleZh": "",
+        "titleEn": "The Water Sprite",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "1882",
+        "medium": "Oil on canvas",
+        "identityAnchor": "NM 1905",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/18910/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/18910/",
+        "accessionNumber": "NM 1905",
+        "collectionGroup": "Paintings"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "The Water Sprite | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/18910/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/0/multimedia-758510.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-1100501.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/0/multimedia-758510.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/5/multimedia-7795.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-181977.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-224344.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/0/multimedia-422000.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/3/multimedia-491123.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-684991.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-745561.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-1030289.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-1100501.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/0/multimedia-758510.large.jpg",
+          "https://collection.nationalmuseum.se/icons/bigLeftArrow.svg",
+          "https://collection.nationalmuseum.se/icons/bigRightArrow.svg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://www.album-online.com/photos/prev/MWE2ZTZjMA/album_alb3902651.jpg",
+        "sourcePageUrl": "https://www.album-online.com/detail/en/MWE2ZTZjMA/ernst-josephson-nacken-water-sprite-date-period-1882-painting-oil-alb3902651",
+        "sourceType": "publication",
+        "caption": "The Water Sprite (Näcken), Ernst Josephson, 1882, Nationalmuseum.",
+        "identityEvidence": [
+          "Publication page identifies Ernst Josephson, The Water Sprite, dated 1882.",
+          "Publication metadata identifies Nationalmuseum as the location.",
+          "Dimensions 144 × 114 cm match the official NM 1905 record."
+        ],
+        "confidence": 0.96,
+        "localPath": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/assets/josephson-water-sprite-nm-1905.jpg",
+        "sha256": "6f89851d838e271b4617c24528dc59e62d1a942078051cc2cdfecf97057cdd7a",
+        "width": 811,
+        "height": 1077,
+        "contentType": "image/jpeg",
+        "method": "ai_image_research",
+        "provider": "publication",
+        "evidenceId": "img:nationalmuseum:josephson-water-sprite-nm-1905:6f89851d838e"
+      },
+      "warnings": [],
+      "durationMs": 4299,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "josephson-water-sprite-nm-1905",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://www.album-online.com/photos/prev/MWE2ZTZjMA/album_alb3902651.jpg",
+          "sourcePageUrl": "https://www.album-online.com/detail/en/MWE2ZTZjMA/ernst-josephson-nacken-water-sprite-date-period-1882-painting-oil-alb3902651",
+          "sourceType": "publication",
+          "caption": "The Water Sprite (Näcken), Ernst Josephson, 1882, Nationalmuseum.",
+          "identityEvidence": [
+            "Publication page identifies Ernst Josephson, The Water Sprite, dated 1882.",
+            "Publication metadata identifies Nationalmuseum as the location.",
+            "Dimensions 144 × 114 cm match the official NM 1905 record."
+          ],
+          "confidence": 0.96
+        },
+        "alternatives": [],
+        "limitations": [
+          "Publication image is archival/stock-sourced rather than a museum-hosted file."
+        ]
+      }
+    },
+    {
+      "workId": "julius-kronberg-nymph-and-fauns-nm-1316",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "julius-kronberg-nymph-and-fauns-nm-1316",
+        "title": "Nymph and Fauns",
+        "objectType": "painting",
+        "titleZh": "",
+        "titleEn": "Nymph and Fauns",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "signed 1875",
+        "medium": "Oil on canvas",
+        "identityAnchor": "NM 1316",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/18319/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/18319/",
+        "accessionNumber": "NM 1316",
+        "collectionGroup": "Paintings"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Nymph and Fauns | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/18319/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-724317.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-1069244.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-724317.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/6/multimedia-224396.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-492778.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/6/multimedia-558576.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-586852.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-983404.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-1018934.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-1023777.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-1069244.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-724317.large.jpg",
+          "https://collection.nationalmuseum.se/icons/bigLeftArrow.svg",
+          "https://collection.nationalmuseum.se/icons/bigRightArrow.svg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-724317.small.jpg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "AI candidate download failed: image returned 429"
+      ],
+      "durationMs": 3838,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "julius-kronberg-nymph-and-fauns-nm-1316",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Nymph_and_Fauns%2C_1875%2C_by_Julius_Kronberg._Nationalmuseum%2C_Stockholm%2C_Sweden.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File%3ANymph_and_Fauns%2C_1875%2C_by_Julius_Kronberg._Nationalmuseum%2C_Stockholm%2C_Sweden.jpg",
+          "sourceType": "wikimedia",
+          "caption": "Nymph and Fauns, Julius Kronberg, 1875, Nationalmuseum, NM 1316.",
+          "identityEvidence": [
+            "Wikimedia page identifies Julius Kronberg's Nymph and Fauns at Nationalmuseum.",
+            "Page description explicitly records NM 1316.",
+            "Title, date, medium, and dimensions match the official record."
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      }
+    },
+    {
+      "workId": "fogelberg-odin-nmsk-392",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "fogelberg-odin-nmsk-392",
+        "title": "Odin",
+        "objectType": "sculpture",
+        "titleZh": "",
+        "titleEn": "Odin",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "1830",
+        "medium": "Carrara marble",
+        "identityAnchor": "NMSk 392",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/26781/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/26781/",
+        "accessionNumber": "NMSk 392",
+        "collectionGroup": "Sculpture"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Odin | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/26781/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-507399.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-1043278.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-507399.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-177181.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-190887.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-190888.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-327828.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/3/multimedia-657553.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-659269.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-659302.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/5/multimedia-879375.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-923554.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-982344.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-1023147.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-1043278.large.jpg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "A Wikimedia image of a Fogelberg Odin drawing was found, but it is NMH A 113/1974 rather than the requested NMSk 392 marble sculpture."
+      ],
+      "durationMs": 3170,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "fogelberg-odin-nmsk-392",
+        "status": "not_found",
+        "selectedCandidate": null,
+        "alternatives": [],
+        "limitations": [
+          "A Wikimedia image of a Fogelberg Odin drawing was found, but it is NMH A 113/1974 rather than the requested NMSk 392 marble sculpture."
+        ]
+      }
+    },
+    {
+      "workId": "rodin-bellona-nmsk-985",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "rodin-bellona-nmsk-985",
+        "title": "Bellona",
+        "objectType": "sculpture",
+        "titleZh": "",
+        "titleEn": "Bellona",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "1879",
+        "medium": "Bronze",
+        "identityAnchor": "NMSk 985",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/27289/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/27289/",
+        "accessionNumber": "NMSk 985",
+        "collectionGroup": "Sculpture"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Bellona | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/27289/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-180244.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-903834.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-180244.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-9572.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-661061.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/6/multimedia-662166.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-662168.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/0/multimedia-662170.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-662172.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-662174.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-903834.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-180244.large.jpg",
+          "https://collection.nationalmuseum.se/icons/bigLeftArrow.svg",
+          "https://collection.nationalmuseum.se/icons/bigRightArrow.svg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-180244.small.jpg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://svd.vgc.no/v2/images/f108ebca-bfdc-42c9-b77b-425d14c8388e?fit=crop&format=auto&h=551&q=80&s=b596b67f640cdefc6af533e0a54cc9aef1573647&upscale=true&w=980",
+        "sourcePageUrl": "https://www.svd.se/a/4aaf6b49-ca41-4c1f-b8c3-2f02e4497a03/rodin-var-de-starka-kanslornas-mastare",
+        "sourceType": "publication",
+        "caption": "Auguste Rodin, Bellona; photographed by Linn Ahlgren/Nationalmuseum.",
+        "identityEvidence": [
+          "Publication page captions the image as Auguste Rodin's Bellona.",
+          "The image credit is Linn Ahlgren/Nationalmuseum.",
+          "The official record identifies the requested work as Rodin's 1879 bronze Bellona, NMSk 985."
+        ],
+        "confidence": 0.94,
+        "localPath": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/assets/rodin-bellona-nmsk-985.webp",
+        "sha256": "fb824571d1758b0c996dce1974d2c9acece238cd7ba1e92b3022bc87d860ac7c",
+        "width": 980,
+        "height": 551,
+        "contentType": "image/webp",
+        "method": "ai_image_research",
+        "provider": "publication",
+        "evidenceId": "img:nationalmuseum:rodin-bellona-nmsk-985:fb824571d175"
+      },
+      "warnings": [],
+      "durationMs": 5321,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "rodin-bellona-nmsk-985",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://svd.vgc.no/v2/images/f108ebca-bfdc-42c9-b77b-425d14c8388e?fit=crop&format=auto&h=551&q=80&s=b596b67f640cdefc6af533e0a54cc9aef1573647&upscale=true&w=980",
+          "sourcePageUrl": "https://www.svd.se/a/4aaf6b49-ca41-4c1f-b8c3-2f02e4497a03/rodin-var-de-starka-kanslornas-mastare",
+          "sourceType": "publication",
+          "caption": "Auguste Rodin, Bellona; photographed by Linn Ahlgren/Nationalmuseum.",
+          "identityEvidence": [
+            "Publication page captions the image as Auguste Rodin's Bellona.",
+            "The image credit is Linn Ahlgren/Nationalmuseum.",
+            "The official record identifies the requested work as Rodin's 1879 bronze Bellona, NMSk 985."
+          ],
+          "confidence": 0.94
+        },
+        "alternatives": [],
+        "limitations": [
+          "Publication image does not visibly expose the museum accession number, but the caption and Nationalmuseum credit bind it to the exact titled sculpture."
+        ]
+      }
+    },
+    {
+      "workId": "persson-portrait-of-a-pea-nmk-169-1972",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "persson-portrait-of-a-pea-nmk-169-1972",
+        "title": "Sculpture Portrait of a Pea",
+        "objectType": "design_object",
+        "titleZh": "",
+        "titleEn": "Sculpture Portrait of a Pea",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "1971",
+        "medium": "Silver and wood",
+        "identityAnchor": "NMK 169/1972",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/8717/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/8717/",
+        "accessionNumber": "NMK 169/1972",
+        "collectionGroup": "Metalwork and design"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Sculpture ”Portrait of a pea” | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/8717/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-3957.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-3961.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-3957.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-3958.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-3959.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/0/multimedia-3960.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-3961.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-3957.large.jpg",
+          "https://collection.nationalmuseum.se/icons/bigLeftArrow.svg",
+          "https://collection.nationalmuseum.se/icons/bigRightArrow.svg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-3957.small.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-3958.small.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-3959.small.jpg",
+          "https://collection.nationalmuseum.se/multimedia/0/multimedia-3960.small.jpg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-3961.small.jpg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "No non-excluded image with sufficient exact-work identity evidence found."
+      ],
+      "durationMs": 3756,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "persson-portrait-of-a-pea-nmk-169-1972",
+        "status": "not_found",
+        "selectedCandidate": null,
+        "alternatives": [],
+        "limitations": [
+          "No non-excluded image with sufficient exact-work identity evidence found."
+        ]
+      }
+    },
+    {
+      "workId": "stig-lindberg-bersa-bowl-nmk-60-1996",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "stig-lindberg-bersa-bowl-nmk-60-1996",
+        "title": "Bowl Berså, model LL",
+        "objectType": "design_object",
+        "titleZh": "",
+        "titleEn": "Bowl Berså, model LL",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "1960",
+        "medium": "Earthenware with printed green and black decoration",
+        "identityAnchor": "NMK 60/1996",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/136848/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/136848/",
+        "accessionNumber": "NMK 60/1996",
+        "collectionGroup": "Industrial design"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Bowl ”Berså”, model LL | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/136848/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/0/multimedia-177570.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/0/multimedia-177570.large.jpg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "Available Berså images depict related objects, not clearly this museum accession."
+      ],
+      "durationMs": 2529,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "stig-lindberg-bersa-bowl-nmk-60-1996",
+        "status": "not_found",
+        "selectedCandidate": null,
+        "alternatives": [],
+        "limitations": [
+          "Available Berså images depict related objects, not clearly this museum accession."
+        ]
+      }
+    },
+    {
+      "workId": "mathsson-reclining-chair-36-nmk-46-2010",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "mathsson-reclining-chair-36-nmk-46-2010",
+        "title": "Reclining Chair No. 36",
+        "objectType": "design_object",
+        "titleZh": "",
+        "titleEn": "Reclining Chair No. 36",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "designed 1936; manufactured 1939",
+        "medium": "Bent-laminated birch, plywood and plaited webbing",
+        "identityAnchor": "NMK 46/2010",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/134846/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/134846/",
+        "accessionNumber": "NMK 46/2010",
+        "collectionGroup": "Furniture and design"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "”Reclining chair no 36” | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/134846/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/3/multimedia-273503.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/3/multimedia-273503.large.jpg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "No image clearly bound to Nationalmuseum accession NMK 46/2010 found."
+      ],
+      "durationMs": 2673,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "mathsson-reclining-chair-36-nmk-46-2010",
+        "status": "not_found",
+        "selectedCandidate": null,
+        "alternatives": [],
+        "limitations": [
+          "No image clearly bound to Nationalmuseum accession NMK 46/2010 found."
+        ]
+      }
+    },
+    {
+      "workId": "zorn-midsummer-dance-nm-1603",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "zorn-midsummer-dance-nm-1603",
+        "title": "Midsummer Dance",
+        "objectType": "painting",
+        "titleZh": "",
+        "titleEn": "Midsummer Dance",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "signed 1897",
+        "medium": "Oil on canvas",
+        "identityAnchor": "NM 1603",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/18607/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/18607/",
+        "accessionNumber": "NM 1603",
+        "collectionGroup": "Paintings"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Midsummer Dance | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/18607/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-224318.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-1025102.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-224318.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/3/multimedia-179863.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-224262.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/5/multimedia-428845.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-428848.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-428852.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/5/multimedia-428855.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-428861.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/6/multimedia-428866.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-428869.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-428872.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/6/multimedia-428876.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/0/multimedia-428880.large.jpg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "AI candidate download failed: image returned 429"
+      ],
+      "durationMs": 12052,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "zorn-midsummer-dance-nm-1603",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Midsummer_Dance_%28Anders_Zorn%29_-_Nationalmuseum_-_18607.tif",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File%3AMidsummer_Dance_%28Anders_Zorn%29_-_Nationalmuseum_-_18607.tif",
+          "sourceType": "wikimedia",
+          "caption": "Midsummer Dance, Anders Zorn, 1897, Nationalmuseum accession NM 1603.",
+          "identityEvidence": [
+            "Wikimedia file title identifies Nationalmuseum and object number 18607.",
+            "File metadata identifies Anders Zorn, Midsummer Dance, 1897, oil on canvas, and Nationalmuseum collection.",
+            "Official Nationalmuseum record identifies the work as Midsummer Dance, signed 1897, accession NM 1603."
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      }
+    },
+    {
+      "workId": "aalto-paimio-armchair-nmk-13-1963",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "aalto-paimio-armchair-nmk-13-1963",
+        "title": "Armchair Paimio Sanatorium",
+        "objectType": "design_object",
+        "titleZh": "",
+        "titleEn": "Armchair Paimio Sanatorium",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "1932",
+        "medium": "Birch",
+        "identityAnchor": "NMK 13/1963",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/920/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/920/",
+        "accessionNumber": "NMK 13/1963",
+        "collectionGroup": "Furniture and design"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Armchair Paimio Sanatorium | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/920/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/5/multimedia-688775.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/5/multimedia-688775.large.jpg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "Available images depict the Paimio chair model generally, but are not clearly bound to Nationalmuseum accession NMK 13/1963."
+      ],
+      "durationMs": 3323,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "aalto-paimio-armchair-nmk-13-1963",
+        "status": "not_found",
+        "selectedCandidate": null,
+        "alternatives": [],
+        "limitations": [
+          "Available images depict the Paimio chair model generally, but are not clearly bound to Nationalmuseum accession NMK 13/1963."
+        ]
+      }
+    },
+    {
+      "workId": "ron-arad-rover-chair-nmk-72-2013",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "ron-arad-rover-chair-nmk-72-2013",
+        "title": "Easy Chair Rover Chair",
+        "objectType": "design_object",
+        "titleZh": "",
+        "titleEn": "Easy Chair Rover Chair",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "designed 1981; manufactured 1981–1989",
+        "medium": "Leather and metal",
+        "identityAnchor": "NMK 72/2013",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/151064/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/151064/",
+        "accessionNumber": "NMK 72/2013",
+        "collectionGroup": "Furniture and design"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Easy chair ”Rover Chair” | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/151064/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-211937.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-211937.large.jpg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "Available Rover Chair images are contextual or depict other holdings; exact Nationalmuseum accession identity is insufficient."
+      ],
+      "durationMs": 2665,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "ron-arad-rover-chair-nmk-72-2013",
+        "status": "not_found",
+        "selectedCandidate": null,
+        "alternatives": [],
+        "limitations": [
+          "Available Rover Chair images are contextual or depict other holdings; exact Nationalmuseum accession identity is insufficient."
+        ]
+      }
+    },
+    {
+      "workId": "hasselberg-spring-snowflake-nmsk-746",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "hasselberg-spring-snowflake-nmsk-746",
+        "title": "The Spring Snowflake",
+        "objectType": "sculpture",
+        "titleZh": "",
+        "titleEn": "The Spring Snowflake",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "signed 1883",
+        "medium": "Marble",
+        "identityAnchor": "NMSk 746",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/27068/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/27068/",
+        "accessionNumber": "NMSk 746",
+        "collectionGroup": "Sculpture"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "The Spring Snowflake | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/27068/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-544369.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-1007624.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-544369.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/3/multimedia-237003.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-658182.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/3/multimedia-659923.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/5/multimedia-659925.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-659927.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/5/multimedia-659975.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-945698.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-1007624.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-544369.large.jpg",
+          "https://collection.nationalmuseum.se/icons/bigLeftArrow.svg",
+          "https://collection.nationalmuseum.se/icons/bigRightArrow.svg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-544369.small.jpg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "AI candidate download failed: image returned 429"
+      ],
+      "durationMs": 8851,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "hasselberg-spring-snowflake-nmsk-746",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Statue._The_Spring_Snowflake%2C_1883%2C_by_Per_Hasselberg._Nationalmuseum%2C_Stockholm%2C_Sweden.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File%3AStatue._The_Spring_Snowflake%2C_1883%2C_by_Per_Hasselberg._Nationalmuseum%2C_Stockholm%2C_Sweden.jpg",
+          "sourceType": "wikimedia",
+          "caption": "The Spring Snowflake, Per Hasselberg, 1883, marble, Nationalmuseum accession NMSk 746.",
+          "identityEvidence": [
+            "Wikimedia file description explicitly identifies The Spring Snowflake, Per Hasselberg, Nationalmuseum, and NMSk 746.",
+            "Official Nationalmuseum record identifies The Spring Snowflake, signed 1883, marble, accession NMSk 746."
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      }
+    },
+    {
+      "workId": "halds-cactus-exhibition-nmk-215-2011",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "halds-cactus-exhibition-nmk-215-2011",
+        "title": "The Cactus Exhibition",
+        "objectType": "design_object",
+        "titleZh": "",
+        "titleEn": "The Cactus Exhibition",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "designed 1926",
+        "medium": "Engraved glass",
+        "identityAnchor": "NMK 215/2011",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/137663/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/137663/",
+        "accessionNumber": "NMK 215/2011",
+        "collectionGroup": "Glass and design"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "The Cactus Exhibition | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/137663/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-487059.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/3/multimedia-487073.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-487059.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/6/multimedia-188416.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/3/multimedia-487063.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/5/multimedia-487065.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-487067.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-487069.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-487071.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/3/multimedia-487073.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-487059.large.jpg",
+          "https://collection.nationalmuseum.se/icons/bigLeftArrow.svg",
+          "https://collection.nationalmuseum.se/icons/bigRightArrow.svg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-487059.small.jpg",
+          "https://collection.nationalmuseum.se/multimedia/6/multimedia-188416.small.jpg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "No non-excluded image with sufficient exact-work identity evidence found."
+      ],
+      "durationMs": 3165,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "halds-cactus-exhibition-nmk-215-2011",
+        "status": "not_found",
+        "selectedCandidate": null,
+        "alternatives": [],
+        "limitations": [
+          "No non-excluded image with sufficient exact-work identity evidence found."
+        ]
+      }
+    },
+    {
+      "workId": "pilo-coronation-gustav-iii-nm-1004",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "pilo-coronation-gustav-iii-nm-1004",
+        "title": "The Coronation of King Gustav III of Sweden. Uncompleted",
+        "objectType": "painting",
+        "titleZh": "",
+        "titleEn": "The Coronation of King Gustav III of Sweden. Uncompleted",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "1782–1793",
+        "medium": "Oil on canvas",
+        "identityAnchor": "NM 1004",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/18007/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/18007/",
+        "accessionNumber": "NM 1004",
+        "collectionGroup": "Paintings"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "The Coronation of King Gustav III of Sweden. Uncompleted | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/18007/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-544332.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/6/multimedia-1081016.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-544332.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-178508.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-178938.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-178939.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-544337.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-544339.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-544342.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-544347.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/0/multimedia-178940.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/0/multimedia-421800.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-7438.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-492774.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-544329.large.jpg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "AI candidate download failed: image returned 429"
+      ],
+      "durationMs": 18010,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "pilo-coronation-gustav-iii-nm-1004",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Carl_Gustav_Pilo_-_The_Coronation_of_King_Gustav_III_of_Sweden._Uncompleted_-_Google_Art_Project.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File%3ACarl_Gustav_Pilo_-_The_Coronation_of_King_Gustav_III_of_Sweden._Uncompleted_-_Google_Art_Project.jpg",
+          "sourceType": "wikimedia",
+          "caption": "The Coronation of King Gustav III of Sweden. Uncompleted, Carl Gustaf Pilo, 1782–1793, Nationalmuseum accession NM 1004.",
+          "identityEvidence": [
+            "Wikimedia file metadata identifies Carl Gustaf Pilo, the exact English title, Nationalmuseum, and accession NM 1004.",
+            "Official Nationalmuseum record identifies the same title, date range, oil-on-canvas medium, and accession NM 1004."
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      }
+    },
+    {
+      "workId": "charles-x-gustav-miniature-nmb-2163",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "charles-x-gustav-miniature-nmb-2163",
+        "title": "Charles X Gustav of Sweden (1622–1660)",
+        "objectType": "miniature",
+        "titleZh": "",
+        "titleEn": "Charles X Gustav of Sweden (1622–1660)",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "not dated in object record",
+        "medium": "Watercolour on vellum",
+        "identityAnchor": "NMB 2163",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/26105/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/26105/",
+        "accessionNumber": "NMB 2163",
+        "collectionGroup": "Miniatures and the Treasury"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Charles X Gustav of Sweden (1622-1660) | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/26105/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-328394.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-1104541.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-328394.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-9362.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-228559.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-1104541.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-328394.large.jpg",
+          "https://collection.nationalmuseum.se/icons/bigLeftArrow.svg",
+          "https://collection.nationalmuseum.se/icons/bigRightArrow.svg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-328394.small.jpg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-9362.small.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-228559.small.jpg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-1104541.small.jpg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "AI candidate download failed: image returned 429"
+      ],
+      "durationMs": 3011,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "charles-x-gustav-miniature-nmb-2163",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Karl_X_Gustav_%28Alexander_Cooper%29_-_Nationalmuseum_-_26105.tif",
+          "sourcePageUrl": "https://www.wikidata.org/wiki/Q18542588",
+          "sourceType": "wikimedia",
+          "caption": "Charles X Gustav of Sweden, Alexander Cooper, Nationalmuseum accession NMB 2163.",
+          "identityEvidence": [
+            "Wikidata item Q18542588 identifies the image file Karl X Gustav (Alexander Cooper) - Nationalmuseum - 26105.tif.",
+            "Wikidata references the Nationalmuseum object record for object 26105 and identifies the work as a painting by Alexander Cooper depicting Charles X Gustav.",
+            "The official Nationalmuseum record identifies the work as Charles X Gustav of Sweden, accession NMB 2163."
+          ],
+          "confidence": 0.98
+        },
+        "alternatives": [],
+        "limitations": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260801T223003Z-p2.13.34",
+  "museumId": "rosenborg",
+  "caseId": null,
+  "stage": "single_work",
+  "runs": 20,
+  "accepted": [
+    "ampulla",
+    "christian-iii-sword-of-state",
+    "christian-iv-blood-stained-clothes",
+    "christian-iv-crown",
+    "christian-v-crown",
+    "coronation-sword",
+    "emerald-set",
+    "glass-cabinet",
+    "knights-hall",
+    "narwhal-throne",
+    "oldenborg-horn",
+    "pearl-ruby-set",
+    "pomander",
+    "rose-cut-diamond-set",
+    "rosenborg-wine",
+    "shrapnel-earrings",
+    "silver-lions",
+    "wetting-trap-chair",
+    "brilliant-cut-diamond-set",
+    "constitution-pen"
+  ],
+  "failed": [],
+  "blocked": [],
+  "skippedAccepted": [],
+  "concurrency": 10,
+  "seconds": 102.28,
+  "warning": [
+    "emerald-set",
+    "brilliant-cut-diamond-set",
+    "constitution-pen"
+  ]
+}

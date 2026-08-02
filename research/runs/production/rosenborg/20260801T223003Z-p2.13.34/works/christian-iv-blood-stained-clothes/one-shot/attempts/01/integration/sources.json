@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "christian-iv-blood-stained-clothes",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Christian IV’s blood-stained clothes",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/christian-ivs-blood-stained-clothes/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "historical_context",
+        "collection_relation",
+        "display",
+        "material"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Christian 4.s Sovekammer (rum 4)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/rosenborg-slot/sale-rum/rum-3-christian-4s-sengekammer/",
+      "sourceType": "museum",
+      "usedFor": [
+        "display",
+        "material",
+        "object_components",
+        "damage",
+        "inscriptions",
+        "collection_relation"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Kongelige dragter",
+      "publisher": "The Danish Royal House",
+      "url": "https://www.kongehuset.dk/nyheder/kongelige-dragter",
+      "sourceType": "museum",
+      "usedFor": [
+        "display",
+        "collection_relation",
+        "historical_context"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Heltedyrkelse af kongemagten: ‘Kong Kristian stod ved højen mast’",
+      "publisher": "Vikingeskibsmuseet",
+      "url": "https://www.vikingeskibsmuseet.dk/fagligt/marinarkaeologi/marinarkaeologiske-undersoegelser/det-sidste-krigsskib-fra-slaget-i-femern-baelt-1644",
+      "sourceType": "museum",
+      "usedFor": [
+        "historical_context",
+        "battle_outcome",
+        "memory"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Christian 4., 1577-1648",
+      "publisher": "Danmarkshistorien / Lex",
+      "url": "https://danmarkshistorien.lex.dk/Christian_4.%2C_1577-1648",
+      "sourceType": "publication",
+      "usedFor": [
+        "historical_context",
+        "biography",
+        "memory"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "克里斯蒂安四世亲自决定保存染血服装，并将其作为展示勇敢与幸存的纪念物。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "眼罩",
+      "statement": "馆方表示，后世常见的眼罩形象并不能证明克里斯蒂安四世在战场上确实佩戴过黑色眼罩；展品中的带垂布帽子可能与遮挡失明的右眼有关，但具体使用方式不宜断言。"
+    },
+    {
+      "topic": "海战结果",
+      "statement": "科尔贝格海德海战没有明确、无争议的胜者；不同叙述可能强调丹麦方面的战术成功或英雄形象，但不能将其简化为一场彻底的丹麦胜利。"
+    }
+  ],
+  "upstreamConflicts": []
+}

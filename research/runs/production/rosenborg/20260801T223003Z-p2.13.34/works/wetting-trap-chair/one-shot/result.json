@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "status": "accepted",
+  "runId": "20260801T223003Z-p2.13.34",
+  "museumId": "rosenborg",
+  "workId": "wetting-trap-chair",
+  "stage": "single_work",
+  "attempt": 2,
+  "model": "gpt-5.6-luna",
+  "reasoningEffort": "high",
+  "startedAt": "2026-08-02T00:02:04.863Z",
+  "completedAt": "2026-08-02T00:03:40.937Z",
+  "durationMs": 96074,
+  "inputTokens": 132019,
+  "cachedInputTokens": 77056,
+  "reasoningTokens": 2334,
+  "outputTokens": 4583,
+  "totalTokens": 136602,
+  "agentRunCount": 1,
+  "modelRoundCount": 1,
+  "webSearchCount": 4,
+  "webOpenCount": 0
+}

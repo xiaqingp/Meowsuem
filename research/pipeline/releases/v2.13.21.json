@@ -1,0 +1,931 @@
+{
+  "name": "Meowseum Generation Pipeline",
+  "version": "2.13.21",
+  "status": "active",
+  "frozenAt": "2026-08-01",
+  "sourceManifest": "research/content-standard-manifest.json",
+  "canonicalFiles": [
+    {
+      "path": "research/generation-pipeline.md",
+      "sha256": "b6eb42fbf694bec6be61b6061331dd2d7e7deaa8f2f688bee618513858f6411b"
+    },
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "version": "2.4.2",
+      "sha256": "e2d6e331f53fb1d7c4b078c0aabc1b03548e4d4504ea218d1a08e09929adc2cc"
+    },
+    {
+      "path": "scripts/run-isolated-generation.ps1",
+      "sha256": "9e5f0c8ff231c42e821ace5f17aa73ff4d33c629813232a510a47d82446a2ed2"
+    },
+    {
+      "path": "scripts/report-museum-generation.mjs",
+      "sha256": "d0f241bc4a9b0cf14a0643ce7f88150bfc56a8c3ee3f5284ce535989f60deaa2"
+    },
+    {
+      "path": "scripts/verify-release-candidate.mjs",
+      "sha256": "9809c388cb614976ff65902ead3bb08d3ae13bcf78e998d993e93c6ef8ea347e"
+    },
+    {
+      "path": "scripts/publish-museum-candidate.mjs",
+      "sha256": "f25ecfa557b3e28ecc8c63d379279b3900a793e833713f8e9f48f8a90370c7b3"
+    },
+    {
+      "path": "scripts/assemble-museum-candidate.mjs",
+      "sha256": "54f02820ebdb60516e382e29762bd332791e4239c4d0edf7459286727e4d554f"
+    },
+    {
+      "path": "scripts/resolve-two-level-image-evidence.mjs",
+      "sha256": "3d66ecc961f91a8fe438cf6b236f517d0215a7653bf9eb1b75fb40538e144335"
+    },
+    {
+      "path": "scripts/prepare-museum-publication-plan.mjs",
+      "sha256": "4f944d9d34ea8148a21ee0fe415a2a398675d95b6054343cbe0f8919c2c5ca5a"
+    },
+    {
+      "path": "scripts/finalize-museum.mjs",
+      "sha256": "716b6b2930e72394f79dd246818711c95f7796da48eb476509836f6a8f1829ca"
+    },
+    {
+      "path": "scripts/verify-content-pipeline.mjs",
+      "sha256": "511d4577da0bfd34bb260a477ebb853afee8e1695e349c8b922831e248e23563"
+    },
+    {
+      "path": "scripts/verify-significance-evidence.mjs",
+      "sha256": "dfaab45c78f84c8d3fc3ba500b1e65033513a84322ac634abb4742c6f30fb5e7"
+    },
+    {
+      "path": "scripts/verify-future-museum-contract.mjs",
+      "sha256": "87882dc5855d589ad5e58c56664804760ad7a209e84471b27b8cde174165ca5a"
+    },
+    {
+      "path": "scripts/prepare-museum-stage-inputs.mjs",
+      "sha256": "05cca47729f8e5038d904285f90b5587009631248b5e875d5f6d03d60fb58f14"
+    },
+    {
+      "path": "scripts/run-generation-batch.mjs",
+      "sha256": "3929c69b1a6f93f8da8eafed6b5833450367da2fea86b320f72a1c42b5b4bb15"
+    },
+    {
+      "path": "scripts/prepare-author-research-input.mjs",
+      "sha256": "ff09bdd2e4b2d292308798ef3e210dd2d801dab5eed936bd698846768dab608d"
+    },
+    {
+      "path": "scripts/process-author-bundle.mjs",
+      "sha256": "6d51f222be4efca0d02132150e188f2be1c5b870ee537e00986094c184b53455"
+    },
+    {
+      "path": "scripts/process-museum-rating.mjs",
+      "sha256": "c64d3cb1d7919855e07d252d038b6d85f8d3ecfcac72f10c954ff35213ed0dbe"
+    },
+    {
+      "path": "scripts/freeze-pipeline-release.mjs",
+      "sha256": "39bdfce2e11e20bdc110338071a59622ca9af29e1538df7ebd424dc2d8991c46"
+    },
+    {
+      "path": "scripts/verify-project-authority.mjs",
+      "sha256": "16b47ce69481dd632c851e4cbf2594573b0f656dc2f23262046e4085cae1b830"
+    },
+    {
+      "path": "scripts/lib/filesystem-contract.mjs",
+      "sha256": "a4acbfbaa308df2066bda466c118c149ef55da01dab7d5c0b6f9174750fcb388"
+    },
+    {
+      "path": "scripts/create-generation-run.mjs",
+      "sha256": "f2f6acd6e171d0e0d81b94e8ae825bb8e832af1c8a4d80427b99ee9dca654d4b"
+    },
+    {
+      "path": "scripts/validate-run-directory.mjs",
+      "sha256": "f07f3ed371ecd5172be7b5cdc16f78c9afb40412ca76ec28f7a5034aa221b45e"
+    },
+    {
+      "path": "scripts/migrate-filesystem-contract-v1.mjs",
+      "sha256": "d580d776532168d1a236361e90959a1ab4545e6b9590c0daf13b475a2ac927a7"
+    },
+    {
+      "path": "scripts/run-one-shot-work.mjs",
+      "sha256": "4ec152eaae224736fa3033b061e3dc4650cf75e8d05f01eef15b2d9039bb6eb7"
+    },
+    {
+      "path": "scripts/reverify-one-shot-work.mjs",
+      "sha256": "c625bc2da86970a464faa84d8be60cf65bba6c3c9265893f43a640fea042667c"
+    },
+    {
+      "path": "scripts/verify-one-shot-work.mjs",
+      "sha256": "68b1f7a160fd14941a12f31cddbc424475d7abcd7848a987804615ecd4ce3b22"
+    },
+    {
+      "path": "scripts/adapt-one-shot-work.mjs",
+      "sha256": "638e4259f6abd8e0e6522c181f1bdb75f59b8d27894272372ce1e2957ca29b4d"
+    },
+    {
+      "path": "research/pipeline/prompts/single-work-one-shot.md",
+      "sha256": "34c46af21278e3b01a98728ddd1e853da858506c6cf71309c40f3029b224bd75"
+    },
+    {
+      "path": "scripts/schemas/one-shot-locked-metadata.schema.json",
+      "sha256": "a7faacfe7f72f74beceab845cf6c96eebc434cb2f73d96eba092365ae131e43a"
+    },
+    {
+      "path": "scripts/schemas/one-shot-sources.schema.json",
+      "sha256": "a4b752469d502f647c370a954f80dd085be094389f36e4cdf2e8ae7fc8a9cd15"
+    },
+    {
+      "path": "scripts/schemas/one-shot-verifier-result.schema.json",
+      "sha256": "49c09640f3418b5b4b55ba0e1fca230fcaa715d3d6b45600241a89898822e8ca"
+    },
+    {
+      "path": "scripts/run-museum-pipeline.mjs",
+      "sha256": "a22fd1c6fff646b18a09ca5f5e487b76a06e276d82a58bc598979ab78d68f4c1"
+    },
+    {
+      "path": "scripts/prepare-one-shot-work-inputs.mjs",
+      "sha256": "2a3274dd1369f90f088a072fec900fd8eb38b667f77b6513e7be7d8e205712fb"
+    },
+    {
+      "path": "scripts/verify-run-causality.mjs",
+      "sha256": "a1022e15bcbab091540ec82cb23c4ee02f84d1d31a1fb5ad5874573ec5606268"
+    },
+    {
+      "path": "scripts/schemas/verified-image-evidence.schema.json",
+      "sha256": "fd05b462d3c98740af11baded37428aeab12bf7d216e61f6786efc5bb8715429"
+    },
+    {
+      "path": "scripts/lib/work-status.mjs",
+      "sha256": "c10192d80d544277d5313164027df513e9b09eaf086a1c25d77725b1bda5c76c"
+    },
+    {
+      "path": "research/pipeline/prompts/museum-scope.md",
+      "sha256": "22fa0c00e34d960f415b983c929948bb674cc14d0a8e4238ce7f6a4aa0e09f26"
+    },
+    {
+      "path": "research/pipeline/prompts/museum-discovery.md",
+      "sha256": "45e7e5a1e7d00b9e463dd18e438cf364dffd2d8a61ec810fcfc59bb6dfd044f7"
+    },
+    {
+      "path": "research/pipeline/prompts/planning-research.md",
+      "sha256": "f82cdd4578690962ec8167ca664ae8c6945687c4e2c55a466925391f20feb97a"
+    },
+    {
+      "path": "research/pipeline/prompts/museum-selection.md",
+      "sha256": "af023dc4c27bc28d3e1e0902764d7d7ef517b662b8c73de0601f0993cb1e5baa"
+    },
+    {
+      "path": "research/pipeline/prompts/museum-structure.md",
+      "sha256": "f7181dcb2e0ec52acc20fd76f7525d7692d063adf8c9f7f5cc13f4284f5a7937"
+    },
+    {
+      "path": "scripts/image-providers/shared.mjs",
+      "sha256": "b0562d66199bf6475934b0b1179e69c45c980350ca1b692dec8a2e2f63b501ee"
+    },
+    {
+      "path": "scripts/image-providers/registry.mjs",
+      "sha256": "5a1a2a3a3c83328a36e0463927e23dfbe538dff3a2ac5312fb112917adc14086"
+    },
+    {
+      "path": "scripts/image-providers/generic-html.mjs",
+      "sha256": "b15cf2bf6ae88622d9d7bc3258dedc0f3b4aeaa4dd26bceafa89d4e217098311"
+    },
+    {
+      "path": "scripts/image-providers/iiif.mjs",
+      "sha256": "29c2be60eab861d40b8a785cb0899967ddbe65fa41c9ed890416d95e1839fda2"
+    },
+    {
+      "path": "scripts/image-providers/emuseum.mjs",
+      "sha256": "9b2e068ec0599798c30a49a053580007ec2a2bc24fc2e22e7b62fa4e9b0d4ea8"
+    },
+    {
+      "path": "scripts/image-providers/collection-api.mjs",
+      "sha256": "e9bdd8ba90c59e4128c3816747fd67027aa8395d93be3c640435bd33421cc395"
+    },
+    {
+      "path": "scripts/image-providers/browser-fallback.mjs",
+      "sha256": "94663fe72307ffa7b1dda494023703f13554430a4d73e3808cff6a6fe75f9cc6"
+    },
+    {
+      "path": "scripts/image-providers/wikidata-commons.mjs",
+      "sha256": "cea501dcbaf2af3a96ceb70da4dcac01bc868e29a58ba662e972b18ca288381c"
+    },
+    {
+      "path": "scripts/image-providers/url-safety.mjs",
+      "sha256": "e20a2b0aa3530592a0b873e03cb207ce409d95099f4e02ffaa4a9b75557deef7"
+    },
+    {
+      "path": "scripts/verify-blind-run-protection.mjs",
+      "sha256": "9dbd5b7eafff722aebeb7e23418e5ab807f782337b035ed7f33f5a4b1142c025"
+    },
+    {
+      "path": "scripts/freeze-blind-run.mjs",
+      "sha256": "799d617f94e69866db6769d487d154abce1a5ac3484b13afa52f98e3693566dc"
+    },
+    {
+      "path": "scripts/experiments/pipeline-2.11-benchmark.mjs",
+      "sha256": "f12f4867f244524739fea5f2189fa1bc006379a2f78472377bd8ff242cae3157"
+    },
+    {
+      "path": "scripts/lib/page-image-capture.mjs",
+      "sha256": "40f34cbc25cd4bed3d77061d7c9a1776d42c79693f45a8a302ed5e1b5ba2ddf2"
+    },
+    {
+      "path": "scripts/lib/browser-executable.mjs",
+      "sha256": "92a5f20d6398798e6d42e71921627ff9b568c81149eceb23db15231dc5c5473a"
+    },
+    {
+      "path": "scripts/lib/model-json.mjs",
+      "sha256": "d0610392ecc5632c9895aa5f11a9712caaaaac119d4b5a2377a0d07af201bfb2"
+    },
+    {
+      "path": "scripts/lib/two-level-image-resolution.mjs",
+      "sha256": "2e8cd5bf4d2305bcb4ca5f24f4094a6754ad88ee0d746bc803baf052e1a89f6a"
+    },
+    {
+      "path": "scripts/retry-failed-image-evidence.mjs",
+      "sha256": "4c532fa0943c191725a009f2c55501eae0390d62dee8f49ba832898c2691d4f2"
+    },
+    {
+      "path": "scripts/promote-image-repair.mjs",
+      "sha256": "ddbe177c98a2c4a29ad211c4fccbc3419fcfb3ea583f51c5748eaa5fb7dd3fed"
+    },
+    {
+      "path": "scripts/promote-image-retry-to-parent.mjs",
+      "sha256": "3b0670127267e2dcd6d058b6b6a86790b8c01016c68cc66d6b3ceea1dd8d66f8"
+    },
+    {
+      "path": "scripts/promote-warning-works.mjs",
+      "sha256": "12185a92c85e274632c8aa684bf082401c51d4d7d468b6e881ec51ecd284e8ce"
+    },
+    {
+      "path": "museum-app.js",
+      "sha256": "2853d902be3e144896a254e262edd33d58c0481192c89ff37450003bb4e774f8"
+    },
+    {
+      "path": "museum.html",
+      "sha256": "20193545fb1ac86b7b8fb8f357758542c9e7cc217d49fe9b2edb6bda113f3387"
+    }
+  ],
+  "changeControl": {
+    "id": "PCR-2026-08-01-image-retry-promotion",
+    "record": "research/pipeline/changes/PCR-2026-08-01-image-retry-promotion.json",
+    "recordSha256": "bda4e4279576e6a1b644cb66c722cf2a32915249c014c327537a775955161c0c",
+    "baseRelease": "research/pipeline/releases/v2.13.20.json",
+    "changedCanonicalFiles": [
+      "research/generation-pipeline.md",
+      "scripts/verify-content-pipeline.mjs",
+      "scripts/promote-image-retry-to-parent.mjs"
+    ]
+  },
+  "executionProfile": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "high",
+    "freshResearchMaxWorksPerContext": 10,
+    "reviewerMode": "disabled",
+    "completionReportRequired": true,
+    "postGenerationLiveScope": "current_museum",
+    "postGenerationNetworkConcurrency": 8,
+    "postGenerationModelCalls": 0,
+    "postGenerationModelTokens": 0,
+    "imageResolverVersion": 7,
+    "imageResolverModelPolicy": "four_tier_unresolved_only",
+    "imageResolverModel": "gpt-5.6-luna",
+    "imageResolverReasoningEffort": "medium",
+    "futureMuseumContractVersion": 1,
+    "researchBatchConcurrency": 4,
+    "singleWorkConcurrency": 10,
+    "singleWorkModel": "gpt-5.6-luna",
+    "singleWorkReasoningEffort": "high",
+    "singleWorkFallback": "disabled",
+    "generationCostRateCard": {
+      "status": "estimate_only",
+      "currency": "credits",
+      "models": {}
+    },
+    "singleWorkOutputs": [
+      "article.md",
+      "sources.json"
+    ]
+  },
+  "modelRouting": {
+    "museum_scope": {
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high"
+    },
+    "museum_candidate_pool": {
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high"
+    },
+    "image_disambiguation": {
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "medium"
+    },
+    "planning_research": {
+      "standard": {
+        "model": "gpt-5.6-luna",
+        "reasoningEffort": "high"
+      },
+      "deep": {
+        "model": "gpt-5.6-sol",
+        "reasoningEffort": "medium"
+      }
+    },
+    "museum_selection": {
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "medium"
+    },
+    "museum_structure": {
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high"
+    },
+    "single_work": {
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high",
+      "fallback": null,
+      "reviewer": "disabled"
+    },
+    "author": {
+      "status": "legacy_only",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "medium"
+    }
+  },
+  "stageInstructionViews": {
+    "museum_scope": [
+      "0",
+      "1",
+      "2",
+      "4",
+      "12",
+      "13"
+    ],
+    "museum_candidate_pool": [
+      "0",
+      "1",
+      "2",
+      "4",
+      "9",
+      "12",
+      "13"
+    ],
+    "image_disambiguation": [
+      "1"
+    ],
+    "research": [
+      "0",
+      "1",
+      "5",
+      "9",
+      "12",
+      "13"
+    ],
+    "museum_selection": [
+      "0",
+      "1",
+      "3",
+      "4",
+      "9",
+      "12",
+      "13"
+    ],
+    "museum_structure": [
+      "0",
+      "2",
+      "7",
+      "11",
+      "12",
+      "13"
+    ],
+    "author": [
+      "0",
+      "1",
+      "6",
+      "8",
+      "9",
+      "10",
+      "12",
+      "13",
+      "14"
+    ]
+  },
+  "stageInputContracts": {
+    "museumScope": {
+      "version": 1,
+      "requiredRoles": [
+        "content_instruction",
+        "museum_request",
+        "stage_prompt"
+      ],
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high"
+    },
+    "museumDiscovery": {
+      "version": 1,
+      "requiredRoles": [
+        "content_instruction",
+        "museum_scope",
+        "stage_prompt"
+      ],
+      "maxCandidateRatio": 1.5,
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high"
+    },
+    "planningResearch": {
+      "version": 1,
+      "maxWorksPerContext": 10,
+      "ordinaryModel": "gpt-5.6-luna",
+      "ordinaryReasoningEffort": "high",
+      "deepModel": "gpt-5.6-sol",
+      "deepReasoningEffort": "medium",
+      "deepRiskFlags": [
+        "identity_conflict",
+        "attribution_or_date_conflict",
+        "rare_candidate",
+        "superlative_claim",
+        "composite_or_parent_child",
+        "architecture_or_site",
+        "insufficient_official_sources",
+        "availability_ambiguity",
+        "cross_source_synthesis"
+      ]
+    },
+    "imageDisambiguation": {
+      "version": 1,
+      "requiredRoles": [
+        "content_instruction",
+        "image_candidate_packet"
+      ],
+      "maxWorksPerContext": 10,
+      "maxCandidatesPerWork": 5,
+      "output": "image-decisions.json"
+    },
+    "author": {
+      "version": 2,
+      "status": "legacy_only",
+      "requiredRoles": [
+        "content_instruction",
+        "research_card",
+        "work_context"
+      ],
+      "optionalRoles": [
+        "research_supplement"
+      ],
+      "maxInputsByRole": {
+        "content_instruction": 1,
+        "research_card": 1,
+        "work_context": 1,
+        "research_supplement": 1
+      },
+      "maxTotalBytes": 90000
+    },
+    "singleWork": {
+      "version": 1,
+      "requiredRoles": [
+        "locked_metadata",
+        "verified_image"
+      ],
+      "forbiddenRoles": [
+        "research_card",
+        "writing_plan",
+        "old_card",
+        "old_draft",
+        "old_article",
+        "claim_ledger",
+        "reviewer_output"
+      ],
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high",
+      "outputs": [
+        "article.md",
+        "sources.json"
+      ]
+    },
+    "research": {
+      "version": 1,
+      "maxWorksPerContext": 10,
+      "requiredEvidenceBlock": "meowseum-downstream-evidence/1.0",
+      "requiredCandidateFields": [
+        "identityAnchor",
+        "identitySourceUrl",
+        "riskFlags",
+        "riskRationale"
+      ],
+      "complexityValues": [
+        "standard",
+        "complex"
+      ],
+      "riskFlags": [
+        "identity_conflict",
+        "attribution_or_date_conflict",
+        "rare_candidate",
+        "superlative_claim",
+        "composite_or_parent_child",
+        "architecture_or_site",
+        "insufficient_official_sources",
+        "availability_ambiguity",
+        "cross_source_synthesis"
+      ]
+    },
+    "museumPlanning": {
+      "version": 1,
+      "requiredIndex": "museum-work-index.json",
+      "fullCardFallbackField": "requiresFullCard"
+    },
+    "assembly": {
+      "version": 3,
+      "requiredFile": "assembly-input.json",
+      "requiredSources": [
+        "verified_image_evidence",
+        "museum_structure",
+        "museum_rating",
+        "museum_selection",
+        "one_shot_integrations",
+        "verified_assets"
+      ],
+      "modelCalls": "zero_during_assembly",
+      "futureRequiredFields": [
+        "integration.coordinates"
+      ]
+    }
+  },
+  "filesystemContract": {
+    "version": 1,
+    "activeContentRoot": "research/content",
+    "evidenceRoot": "research/evidence",
+    "productionRunRoot": "research/runs/production",
+    "regressionRunRoot": "research/runs/regression",
+    "experimentRunRoot": "research/runs/experiment",
+    "pipelineRoot": "research/pipeline",
+    "archiveRoot": "research/archive",
+    "migrationRoot": "research/migrations",
+    "allowedRunKinds": [
+      "production",
+      "regression",
+      "experiment"
+    ],
+    "runIdPattern": "^[0-9]{8}T[0-9]{6}Z-p[0-9]+\\.[0-9]+\\.[0-9]+$",
+    "activeContentPattern": "^research/content/[a-z][a-z0-9-]*\\.md$",
+    "generatedFilesForbiddenInResearchRoot": true,
+    "runDescriptor": "run.json",
+    "currentLayoutVersion": 1,
+    "immutableStatuses": [
+      "accepted",
+      "published",
+      "superseded"
+    ]
+  },
+  "regressions": {
+    "acceptedAuthorBundle": {
+      "status": "passed",
+      "record": "research/pipeline/tests/v2.0.9-autumn-rhythm-single-load-clean3/author-result.json",
+      "successfulRunTokens": 128408
+    },
+    "filesystemContract": {
+      "status": "passed",
+      "record": "research/pipeline/tests/filesystem-contract-v1/result.json"
+    },
+    "oneShotWork": {
+      "status": "passed",
+      "record": "research/pipeline/tests/one-shot-work-v1/result.json",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high",
+      "fallback": null,
+      "reviewer": "disabled"
+    },
+    "pipeline211": {
+      "status": "passed",
+      "record": "research/pipeline/tests/pipeline-2.11/result.json",
+      "endToEndFixture": "passed",
+      "realBenchmark": "completed_owner_review_pending"
+    },
+    "significanceEvidence": {
+      "status": "passed_with_preexisting_significance_baseline",
+      "record": "research/pipeline/tests/filesystem-contract-v1/result.json",
+      "failureCount": 145,
+      "failureCategory": "significance_audit_pending",
+      "failureSetSha256": "de674ef30690a5b7351d86fe2440b20d733a8568e7f54a049a1e59a8f8e188d0",
+      "filesystemRelatedFailures": 0
+    }
+  },
+  "stateMachine": [
+    "locked_identity_and_metadata",
+    "one_shot_search_and_write",
+    "risk_verification",
+    "deterministic_integration",
+    "integration_ready"
+  ],
+  "historicalReleaseHashes": [
+    {
+      "path": "research/pipeline/releases/v2.1.0.json",
+      "sha256": "e9d0eda2535e4b6bbc49ac862e7e712e9c678dcb6b232f9afbf77827d080d6b9"
+    },
+    {
+      "path": "research/pipeline/releases/v2.10.0.json",
+      "sha256": "d52182665e0fe6fbae541e4cc925f7786fdfae0b1739e7b41d287c25d71d91f2"
+    },
+    {
+      "path": "research/pipeline/releases/v2.11.0.json",
+      "sha256": "c9ddec04b4239db6c815c96c80770f7bcbc5fa5cbfce49c1333128184506f51e"
+    },
+    {
+      "path": "research/pipeline/releases/v2.11.1.json",
+      "sha256": "f45579ef2681692249109fd24a57d0a81057d15f7d513e681006246c799ca244"
+    },
+    {
+      "path": "research/pipeline/releases/v2.11.2.json",
+      "sha256": "9d186cd5b858ddb083aad3a104ae6a86c295b165801298dd281c7b29e981b176"
+    },
+    {
+      "path": "research/pipeline/releases/v2.11.3.json",
+      "sha256": "c2687347c70149324957138ed894a18e195692410999af7728587c2081b9818b"
+    },
+    {
+      "path": "research/pipeline/releases/v2.11.4.json",
+      "sha256": "878a4f6ad990b92a7818c83c566743a1c26bf685e95b81dcff9696658f56716a"
+    },
+    {
+      "path": "research/pipeline/releases/v2.11.5.json",
+      "sha256": "4bb10edf8317135243b195c69ba7e0be5be88e353260dc4e8e53e084b0bc4e08"
+    },
+    {
+      "path": "research/pipeline/releases/v2.11.6.json",
+      "sha256": "cb9043110dd630a8d7b0320c3b1751475a9c42b09e6b4b8672c726e63d0c4637"
+    },
+    {
+      "path": "research/pipeline/releases/v2.11.7.json",
+      "sha256": "c35fc742f0adf325ed88bc662f766e23a5e3af20216409721c55ca04a5d1f209"
+    },
+    {
+      "path": "research/pipeline/releases/v2.11.8.json",
+      "sha256": "d65621c48fa3e53c834f1522b5dd6d2d60e831b08a57e94015107b63ff838eab"
+    },
+    {
+      "path": "research/pipeline/releases/v2.11.9.json",
+      "sha256": "4e947edd47f8dd984c753e9b0bc9ebe5363173fd5d7a9bb0eb602bb6d1a70875"
+    },
+    {
+      "path": "research/pipeline/releases/v2.12.0.json",
+      "sha256": "78b08b520c2526d738d75ab6f1f66714ad80dfdff471d7851324cab1d906ecdf"
+    },
+    {
+      "path": "research/pipeline/releases/v2.12.1.json",
+      "sha256": "645ea77323def951ce26141bc1fb8e761cabc0f6bc456999680eac1538305f53"
+    },
+    {
+      "path": "research/pipeline/releases/v2.12.2.json",
+      "sha256": "2fe653d8abf62fca6c7f57bb694a9ad90ba848dff0531a5aa5b1daeab63addac"
+    },
+    {
+      "path": "research/pipeline/releases/v2.13.0.json",
+      "sha256": "75372499bf163ace2ae080cd6d0edbdf55e3e8d405c7344e1d7027bad7466969"
+    },
+    {
+      "path": "research/pipeline/releases/v2.13.1.json",
+      "sha256": "fa956b7c04fab7eab047ee0223eb4dbaf64bc80bb8b1501af0685a2438fd6d8b"
+    },
+    {
+      "path": "research/pipeline/releases/v2.13.10.json",
+      "sha256": "4d90e3f9b45a0bcb245c5e80d203e3e6d299085e6bb2867421b8023f5452a602"
+    },
+    {
+      "path": "research/pipeline/releases/v2.13.11.json",
+      "sha256": "8dfdda6e562ea7c8b66f2e3c1625ae7a6b70ca74404dca60c2eb010d486dcc6c"
+    },
+    {
+      "path": "research/pipeline/releases/v2.13.12.json",
+      "sha256": "842bfc0a5a96f499b4c2dbc980b999bc81e6f6fac561ca795407a30d4be6edbd"
+    },
+    {
+      "path": "research/pipeline/releases/v2.13.13.json",
+      "sha256": "00a78e93f413dae705aa1cb8f46a4a7878efe2d79fc22e7919d3356d80474ac1"
+    },
+    {
+      "path": "research/pipeline/releases/v2.13.14.json",
+      "sha256": "6ce4d2974515e3d7437b23679c7d02fee4ca3a25e705630e81a52c3eb631a4db"
+    },
+    {
+      "path": "research/pipeline/releases/v2.13.15.json",
+      "sha256": "113995c5c012c87bd58ff9edbc0003cbc0a848743513e6ee5fc85b4f31ce9108"
+    },
+    {
+      "path": "research/pipeline/releases/v2.13.16.json",
+      "sha256": "52c233f76577005255a6aea9e26bbc79a2e628833e27df49b2db8ece3c928907"
+    },
+    {
+      "path": "research/pipeline/releases/v2.13.17.json",
+      "sha256": "f158371aa645e74b4d01d340b997a74fec9466b7e9a17dc56ff735ff5c832ca8"
+    },
+    {
+      "path": "research/pipeline/releases/v2.13.18.json",
+      "sha256": "95a101304ff617066349bfe8fb2a6e713dd0da26ceb901041cfd646c0b143bdc"
+    },
+    {
+      "path": "research/pipeline/releases/v2.13.19.json",
+      "sha256": "7bb4133bbd91753856c8be03340c6ecd0a03fed395225562f23e7201076972e1"
+    },
+    {
+      "path": "research/pipeline/releases/v2.13.2.json",
+      "sha256": "15b93d5fe3485401ec39f4a92381592628c4c58f9195c74211612f5df3920e32"
+    },
+    {
+      "path": "research/pipeline/releases/v2.13.20.json",
+      "sha256": "ca1a5606138c037e127c34e220aa1901a3e74532b00dea8c1c5c82cb3801b76b"
+    },
+    {
+      "path": "research/pipeline/releases/v2.13.3.json",
+      "sha256": "85f5dcfb198cf2f0199521030fb2426bbaf45e73b2e40e0605dd0a4f47dce7aa"
+    },
+    {
+      "path": "research/pipeline/releases/v2.13.4.json",
+      "sha256": "59531134f87272465e9fdf1e5aa375d80f0783f2fde1b8193b7fe91551c55eba"
+    },
+    {
+      "path": "research/pipeline/releases/v2.13.5.json",
+      "sha256": "7dd4f5d67038239254459ee74209df7d715bd3088469c62d5f556d4cbf90af89"
+    },
+    {
+      "path": "research/pipeline/releases/v2.13.6.json",
+      "sha256": "fe17fe32274507f108bed85bd0b8734d947cb94b495d3a5eefeac48e391366f1"
+    },
+    {
+      "path": "research/pipeline/releases/v2.13.7.json",
+      "sha256": "4978e8f9f309234ded5000a8744bdf0e9b932da414f6942663448abf1ddf0463"
+    },
+    {
+      "path": "research/pipeline/releases/v2.13.8.json",
+      "sha256": "49217f65c67c16f071ceaf58758505ae3da3aab3e9c7cd2ea8fb4f22eb4ae004"
+    },
+    {
+      "path": "research/pipeline/releases/v2.13.9.json",
+      "sha256": "355a5c98dffa50fac9e049a6318529e671959bfc588cf2f70635f4a3ffbeac54"
+    },
+    {
+      "path": "research/pipeline/releases/v2.2.0.json",
+      "sha256": "c5613a609f7ee37659e63f0d6876491d93bb33dcaeb8dcc63217d4f1ffb6bfe3"
+    },
+    {
+      "path": "research/pipeline/releases/v2.2.1.json",
+      "sha256": "8b17794573cca2a36d76e26ba74d47f7eab98a5a795b4311843bceb59922fc86"
+    },
+    {
+      "path": "research/pipeline/releases/v2.2.2.json",
+      "sha256": "7c972d0921a018547da7d4be78098ee5d8d0bc46b751860e3481fd0e678dcbb9"
+    },
+    {
+      "path": "research/pipeline/releases/v2.2.3.json",
+      "sha256": "c67cc8c36c611d67cdfdfd2716619a5141b36cf58a5b6e8dde750afe5aaca888"
+    },
+    {
+      "path": "research/pipeline/releases/v2.2.4.json",
+      "sha256": "3f274726ba7fd1a397d1ca0823c84042bcb88154c84f91fba759ded7afae9379"
+    },
+    {
+      "path": "research/pipeline/releases/v2.2.5.json",
+      "sha256": "660ead887c43162e4a205098ae66684f111eaf02b1d54b5738ded257dbd6e347"
+    },
+    {
+      "path": "research/pipeline/releases/v2.2.6.json",
+      "sha256": "b71a744e5e53417d52897282c750f9522462cf6a00459ef88246bb9749ffa1ca"
+    },
+    {
+      "path": "research/pipeline/releases/v2.3.0.json",
+      "sha256": "5a0c4870df31ae0effc0a75891d5b674bc06f4d6fb0dfab9fb55cda11c025f87"
+    },
+    {
+      "path": "research/pipeline/releases/v2.3.1.json",
+      "sha256": "9a61bc4aa0cafd5355be508d07aa306df1817c5bf10c2cca8973cd6d4b2d833b"
+    },
+    {
+      "path": "research/pipeline/releases/v2.3.2.json",
+      "sha256": "484d448cbb13c88f8d57eb9426629312fde767d2cdc24392023c50cf3b08e152"
+    },
+    {
+      "path": "research/pipeline/releases/v2.4.0.json",
+      "sha256": "c379a7f55b1c21bc4bb3a258e4505dc938ee166a5c42ee2af52fa28852cbf5ca"
+    },
+    {
+      "path": "research/pipeline/releases/v2.4.1.json",
+      "sha256": "03e1c6445448bcbfbb1e57bf2d64af9a633a3d4456164cb6c40ddf00f70ba8ae"
+    },
+    {
+      "path": "research/pipeline/releases/v2.4.2.json",
+      "sha256": "ce3c430b969010a53716db22d3c2308f5f9eb984f01b272b8e7e4b11dd891970"
+    },
+    {
+      "path": "research/pipeline/releases/v2.4.3.json",
+      "sha256": "d902104666915647a880ff1f55eb0173846c44d4b829d3ce1b2c62846d6f715e"
+    },
+    {
+      "path": "research/pipeline/releases/v2.4.4.json",
+      "sha256": "b5c24050ada0aab3c733344538b070acf12015471faf98d810de01eaf466b5e4"
+    },
+    {
+      "path": "research/pipeline/releases/v2.4.5.json",
+      "sha256": "4becfa149e19bd9a49fe286d7f2fbb38087375ead6fb8a54aebf30f987c7bba3"
+    },
+    {
+      "path": "research/pipeline/releases/v2.4.6.json",
+      "sha256": "a556fb7eff21070bd2c9993a1cdc09d6090685e43c64ac4e9b65943ca8725718"
+    },
+    {
+      "path": "research/pipeline/releases/v2.4.7.json",
+      "sha256": "b26a84bae14d4c7fbec27fa87df6af3bd131dd44a2fc58648b907d1fc462714c"
+    },
+    {
+      "path": "research/pipeline/releases/v2.4.8.json",
+      "sha256": "77f90e967957b5a70f086a5b7ee04c7f3c60a34911b6e7b464bacf1aa3293335"
+    },
+    {
+      "path": "research/pipeline/releases/v2.4.9.json",
+      "sha256": "6de3e4b6c2fa725ae134e775c3543f91afbcd788d31d246dc5505521e0763512"
+    },
+    {
+      "path": "research/pipeline/releases/v2.5.0.json",
+      "sha256": "5fab2d7aaa536b6f65335aa9526037c0d5d733c0d68560ebebf16a7b924ea6ad"
+    },
+    {
+      "path": "research/pipeline/releases/v2.6.0.json",
+      "sha256": "cb0b959bf9c815ba69c6ae8eb164fe7c80a5dcece16411e3cf25747d644c53d8"
+    },
+    {
+      "path": "research/pipeline/releases/v2.6.1.json",
+      "sha256": "ce9f3ef88457cc98f5832e720a1b17ee6da5c0c1e781c31365040ac893cc2fe4"
+    },
+    {
+      "path": "research/pipeline/releases/v2.7.0.json",
+      "sha256": "fc63d1193bee26b0b4fd96212995d367aeb462d8405588ed59f526188119fde2"
+    },
+    {
+      "path": "research/pipeline/releases/v2.7.1.json",
+      "sha256": "8ffaaddb1639e91591b7d4b4ddf3f8f03372d6c6cc8d9dbdb6df6e2315dccdc3"
+    },
+    {
+      "path": "research/pipeline/releases/v2.7.10.json",
+      "sha256": "24f74d545ffd1dd41e9fab2550dca575ecb01293b8497bbf2c224c8bd2e4358a"
+    },
+    {
+      "path": "research/pipeline/releases/v2.7.11.json",
+      "sha256": "ad19acf8943ba257be74df3244ff5e4cfc7f4426a0014fe3965cc8ef09700389"
+    },
+    {
+      "path": "research/pipeline/releases/v2.7.12.json",
+      "sha256": "592473a10044b5a9fdbcc9e8ebaba93bc791599813488b6397cfaf2fc461aedb"
+    },
+    {
+      "path": "research/pipeline/releases/v2.7.2.json",
+      "sha256": "b7adfa01efaf8332c23c90cd36a3f1de7f77bc41493d1d085138d4c126eb935f"
+    },
+    {
+      "path": "research/pipeline/releases/v2.7.3.json",
+      "sha256": "c242c749d73ae29aebf799dd8f9f797ec4eb18ece2ea92b6a97abd3e35c5c3d4"
+    },
+    {
+      "path": "research/pipeline/releases/v2.7.4.json",
+      "sha256": "d926e84c2ed8a0669ee8b715248f97e702c8e5c912852fb441f8450f2b5e5390"
+    },
+    {
+      "path": "research/pipeline/releases/v2.7.5.json",
+      "sha256": "b0fb15dbbdceb359964f1d8e90d90a02209b885886442363249808dc87b00510"
+    },
+    {
+      "path": "research/pipeline/releases/v2.7.6.json",
+      "sha256": "b34d6583486713d99d27201a47544d1dc38cdf444d14c4983cc09e9bbdd8eb67"
+    },
+    {
+      "path": "research/pipeline/releases/v2.7.7.json",
+      "sha256": "ab5b2bccf6eeef08cbf8e0ac1d633cafbab0d5ab31895af7fa43cd628757ead4"
+    },
+    {
+      "path": "research/pipeline/releases/v2.7.8.json",
+      "sha256": "fa2ae42bf0f76ed8d0ea09658f7d28311f2965b78c11c21cdcbca46bb6f1e710"
+    },
+    {
+      "path": "research/pipeline/releases/v2.7.9.json",
+      "sha256": "e9c0c417e24a5f3b4fcffa2b307cca39ee878d8ead7e1a27645bd5fe66aa4078"
+    },
+    {
+      "path": "research/pipeline/releases/v2.8.0.json",
+      "sha256": "67cfeff66b60644615744155699a884c36aaa2cbf1d981f6ae634dec05775538"
+    },
+    {
+      "path": "research/pipeline/releases/v2.9.0.json",
+      "sha256": "74366a538e28fe719effba740930423717690a583c30a20fef7a6a9422b1034b"
+    },
+    {
+      "path": "research/pipeline/releases/v2.9.1.json",
+      "sha256": "c6db7b816156f9e13e6471b7eef9fc513dc4fa00ab8d849916776d410677cbba"
+    },
+    {
+      "path": "research/pipeline/releases/v2.9.2.json",
+      "sha256": "92c442a0b4fbfe7c341e87a5246965bc7f7603b81cd30334b4802338c02ba28c"
+    },
+    {
+      "path": "research/pipeline/releases/v2.9.3.json",
+      "sha256": "4289d4e0d075bcf2d3d24368b382c09659b6911d4b464444e454cdc15d7fbfdc"
+    }
+  ],
+  "acceptedRegression": {
+    "authorBundleResult": "research/pipeline/tests/v2.0.9-autumn-rhythm-single-load-clean3/author-result.json",
+    "authorBundleResultSha256": "2e0ff07959cddb0f91ac9bf768e69fcc1aa892da380707e8797b41563ea5555a",
+    "successfulRunTokens": 128408,
+    "reviewerRun": false,
+    "productionWrite": false
+  }
+}

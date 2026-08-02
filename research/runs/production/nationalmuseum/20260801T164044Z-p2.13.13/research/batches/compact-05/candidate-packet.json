@@ -1,0 +1,123 @@
+{
+  "museumId": "nationalmuseum",
+  "works": [
+    {
+      "workId": "charles-x-gustav-miniature-nmb-2163",
+      "identity": {
+        "objectType": "miniature",
+        "title": {
+          "en": "Charles X Gustav of Sweden (1622–1660)",
+          "sv": "Karl X Gustav (1622–1660)"
+        },
+        "artist": "Alexander Cooper",
+        "displayDate": "not dated in object record",
+        "medium": "Watercolour on vellum",
+        "accessionNumber": "NMB 2163",
+        "identityAnchor": "NMB 2163",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/26105/"
+      },
+      "identityAnchor": "NMB 2163",
+      "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/26105/",
+      "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/26105/",
+      "accessionNumber": "NMB 2163",
+      "collectionGroup": "Miniatures and the Treasury",
+      "selectionRationale": "A display-confirmed Treasury object that represents the museum’s internationally important miniature holdings and royal portrait culture.",
+      "riskFlags": [],
+      "riskRationale": "No additional risk flagged at discovery.",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official object page"
+      }
+    },
+    {
+      "workId": "rembrandt-seated-old-man-nmh-2651-1863",
+      "identity": {
+        "objectType": "drawing",
+        "title": {
+          "en": "Seated Old Man",
+          "sv": "Sittande gammal man"
+        },
+        "artist": "Rembrandt Harmensz. van Rijn",
+        "displayDate": "ca. 1630",
+        "medium": "Red and black chalk on paper",
+        "accessionNumber": "NMH 2651/1863",
+        "identityAnchor": "NMH 2651/1863",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/40381/"
+      },
+      "identityAnchor": "NMH 2651/1863",
+      "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/40381/",
+      "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/40381/",
+      "accessionNumber": "NMH 2651/1863",
+      "collectionGroup": "Drawings",
+      "selectionRationale": "Represents the Tessin-linked Dutch master drawing holdings and gives the graphic-art group a specific research candidate.",
+      "riskFlags": [
+        "display_status_uncertain"
+      ],
+      "riskRationale": "The official record supplies a full identity and image-free object page but does not state a current Stockholm display location.",
+      "imageAvailability": {
+        "status": "uncertain",
+        "source": "official object page; image not confirmed in discovery result"
+      }
+    },
+    {
+      "workId": "seurat-study-bathers-asnieres-nmh-50-2014",
+      "identity": {
+        "objectType": "drawing",
+        "title": {
+          "en": "Study for the Painting Bathers at Asnières 1884",
+          "sv": "Studie för målningen Badarna i Asnières 1884"
+        },
+        "artist": "Georges Seurat",
+        "displayDate": "1883–1884",
+        "medium": "Conté-crayon drawing on paper",
+        "accessionNumber": "NMH 50/2014",
+        "identityAnchor": "NMH 50/2014",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/157820/"
+      },
+      "identityAnchor": "NMH 50/2014",
+      "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/157820/",
+      "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/157820/",
+      "accessionNumber": "NMH 50/2014",
+      "collectionGroup": "Drawings",
+      "selectionRationale": "A documented French drawing candidate that connects the museum’s historical graphic-art collecting to a modern European master and a known painted source.",
+      "riskFlags": [
+        "display_status_uncertain"
+      ],
+      "riskRationale": "The official record documents the object and image but marks it not on display, so a visitor-facing presentation requires confirmation.",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official object page"
+      }
+    },
+    {
+      "workId": "estenberg-hall-of-state-design-nmh-243-1919",
+      "identity": {
+        "objectType": "drawing",
+        "title": {
+          "en": "Design for Decoration for the Hall of State, the Royal Palace, with the Royal Throne",
+          "sv": "Ritning till kortsidan av Rikssalen, Stockholms slott med den kungliga tronen"
+        },
+        "artist": "Pehr Estenberg, after Louis Jean Desprez",
+        "displayDate": "1797",
+        "medium": "Pen and grey-black ink with wash on paper",
+        "accessionNumber": "NMH 243/1919",
+        "identityAnchor": "NMH 243/1919",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/234595/"
+      },
+      "identityAnchor": "NMH 243/1919",
+      "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/234595/",
+      "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/234595/",
+      "accessionNumber": "NMH 243/1919",
+      "collectionGroup": "Drawings and architecture",
+      "selectionRationale": "A research candidate for the graphic-art and architectural-design dimension, tying museum holdings to Stockholm Palace and theatre-influenced Neoclassicism.",
+      "riskFlags": [
+        "display_status_uncertain"
+      ],
+      "riskRationale": "The official record marks the drawing not on display; its inclusion is contingent on a later main-building presentation check.",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official object page"
+      }
+    }
+  ]
+}

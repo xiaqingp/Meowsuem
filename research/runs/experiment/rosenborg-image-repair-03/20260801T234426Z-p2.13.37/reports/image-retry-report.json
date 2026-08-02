@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "stage": "image_evidence_retry",
+  "runId": "20260801T234426Z-p2.13.37",
+  "runRoot": "research/runs/experiment/rosenborg-image-repair-03/20260801T234426Z-p2.13.37",
+  "parentRunRoot": "research/runs/experiment/rosenborg-image-repair-02/20260801T231743Z-p2.13.35",
+  "parentEvidenceSha256": "a29a0fb685dcaa2fa24e4c2fb0a3f256637272f5b17509490a5de04b244e9e0e",
+  "failedWorksRetried": [
+    {
+      "workId": "rose-cut-diamond-set",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "All enumerated candidates are related-object or portrait images and none is identity-bound to The Rose-Cut Diamond Set."
+      ],
+      "sourcePageUrl": null
+    }
+  ],
+  "newlyAccepted": [
+    {
+      "workId": "rose-cut-diamond-set",
+      "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/",
+      "imageUrl": "https://denkongeligesamling.dk/media/rqpe2rzf/rosenstensaettet.jpg",
+      "localPath": "research/runs/experiment/rosenborg-image-repair-03/20260801T234426Z-p2.13.37/image-evidence/assets/rose-cut-diamond-set.jpg",
+      "sha256": "4dd8420cc3d6e6d3b509224f321c5b95703821e7187de241cb8d9190702a4489",
+      "method": "ai_page_candidate_download",
+      "imageRole": "object_view",
+      "candidateId": "page-image-001"
+    }
+  ],
+  "stillUnresolved": [],
+  "counts": {
+    "works": 20,
+    "previousAcceptedPreserved": 19,
+    "retried": 1,
+    "newlyAccepted": 1,
+    "directImageDownloads": 1,
+    "elementCaptures": 0,
+    "objectImageAccepted": 18,
+    "contextImagesAccepted": 2,
+    "unresolved": 0,
+    "duplicateObjectImageGroups": [],
+    "modelCalls": 1,
+    "modelTokens": 19396,
+    "webSearchCount": 0
+  },
+  "model": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium",
+    "calls": 1,
+    "durationMs": 17337,
+    "tokens": {
+      "total": 19396,
+      "source": "codex_cli_log"
+    },
+    "webSearchCount": 0
+  },
+  "guarantees": {
+    "acceptedWorksNotRerun": [
+      "pearl-ruby-set",
+      "christian-iv-crown",
+      "brilliant-cut-diamond-set",
+      "christian-v-crown",
+      "emerald-set",
+      "ampulla",
+      "coronation-sword",
+      "christian-iv-blood-stained-clothes",
+      "narwhal-throne",
+      "shrapnel-earrings",
+      "christian-iii-sword-of-state",
+      "oldenborg-horn",
+      "silver-lions",
+      "pomander",
+      "constitution-pen",
+      "knights-hall",
+      "glass-cabinet",
+      "wetting-trap-chair",
+      "rosenborg-wine"
+    ],
+    "nonImageStagesRun": [],
+    "imageGenerationModelUsed": false,
+    "parentRunModified": false,
+    "assemblyNetworkAccess": false,
+    "productionModified": false
+  }
+}

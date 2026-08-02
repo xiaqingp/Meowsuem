@@ -1,0 +1,208 @@
+{
+  "museumId": "rosenborg",
+  "works": [
+    {
+      "workId": "christian-iv-writing-room",
+      "identity": {
+        "objectType": "architectural_viewing_node",
+        "title": {
+          "zh": "克里斯蒂安四世书房（2号房）",
+          "en": "Christian IV’s Writing Room (room 2)"
+        },
+        "cultureZh": "丹麦王室建筑与历史室内",
+        "cultureEn": "Danish royal historic interior",
+        "displayDate": "克里斯蒂安四世时期；墙面织物约1700年",
+        "medium": "历史室内、天顶画、嵌画、木作与暗门",
+        "identityAnchor": "rosenborg-room-2",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-2-christian-iv-s-writing-room/"
+      },
+      "identityAnchor": "rosenborg-room-2",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-2-christian-iv-s-writing-room/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-2-christian-iv-s-writing-room/",
+      "collectionGroup": "Historic royal interiors and objects",
+      "selectionRationale": "官方空间页强调室内保存、克里斯蒂安四世书信活动与隐藏升降椅，能把建筑从背景转为王室工作工具。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方页面明确标明该房间目前因修复关闭；重新开放状态需下游按访问日期核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "marble-room",
+      "identity": {
+        "objectType": "architectural_viewing_node",
+        "title": {
+          "zh": "大理石厅（5号房）",
+          "en": "The Marble Room (room 5)"
+        },
+        "cultureZh": "丹麦王室建筑与历史室内",
+        "cultureEn": "Danish royal historic interior",
+        "displayDate": "1668；1671年用于丹纳布洛格勋章授予",
+        "medium": "仿大理石墙面、灰泥、天顶画与历史室内",
+        "identityAnchor": "rosenborg-room-5",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-5-the-marble-room/"
+      },
+      "identityAnchor": "rosenborg-room-5",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-5-the-marble-room/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-5-the-marble-room/",
+      "collectionGroup": "Historic royal interiors and objects",
+      "selectionRationale": "官方空间页明确说明其仿大理石材料和1671年勋章授予场景，能解释绝对王权如何被做成室内视觉秩序。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方身份与空间历史明确；具体访问日可见性仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "christian-v-hall",
+      "identity": {
+        "objectType": "architectural_viewing_node",
+        "title": {
+          "zh": "克里斯蒂安五世大厅（6号房）",
+          "en": "Christian V’s Hall (room 6)"
+        },
+        "cultureZh": "丹麦王室建筑与历史室内",
+        "cultureEn": "Danish royal historic interior",
+        "displayDate": "克里斯蒂安五世时期",
+        "medium": "历史大厅、王室织毯与装饰室内",
+        "identityAnchor": "rosenborg-room-6",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-6-christian-v-s-hall/"
+      },
+      "identityAnchor": "rosenborg-room-6",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-6-christian-v-s-hall/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-6-christian-v-s-hall/",
+      "collectionGroup": "Historic royal interiors and objects",
+      "selectionRationale": "官方空间索引与导览页将此区域和克里斯蒂安五世的十二幅织毯相连，是理解征服性王权图像的空间候选。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方空间身份明确；具体访问日可见性与织毯轮换仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "frederik-iv-hall",
+      "identity": {
+        "objectType": "architectural_viewing_node",
+        "title": {
+          "zh": "弗雷德里克四世大厅（10号房）",
+          "en": "Frederik IV’s Hall (room 10)"
+        },
+        "cultureZh": "丹麦王室建筑与历史室内",
+        "cultureEn": "Danish royal historic interior",
+        "displayDate": "弗雷德里克四世时期",
+        "medium": "历史大厅与宫廷陈设",
+        "identityAnchor": "rosenborg-room-10",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-10-frederik-iv-s-hall/"
+      },
+      "identityAnchor": "rosenborg-room-10",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-10-frederik-iv-s-hall/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-10-frederik-iv-s-hall/",
+      "collectionGroup": "Historic royal interiors and objects",
+      "selectionRationale": "官方导览把弗雷德里克四世作为Rosenborg最后一位居住君主，并以其带回的玻璃收藏作为本空间线索。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方空间身份明确；具体访问日可见性与陈设轮换仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "knights-hall",
+      "identity": {
+        "objectType": "architectural_viewing_node",
+        "title": {
+          "zh": "骑士大厅（21号房）",
+          "en": "The Knights’ Hall (room 21)"
+        },
+        "cultureZh": "丹麦王室建筑与历史室内",
+        "cultureEn": "Danish royal historic interior",
+        "displayDate": "王室博物馆历史陈设",
+        "medium": "历史大厅、王座与王室陈设",
+        "identityAnchor": "rosenborg-room-21",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/"
+      },
+      "identityAnchor": "rosenborg-room-21",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/",
+      "collectionGroup": "Historic royal interiors and objects",
+      "selectionRationale": "官方空间索引将其列为核心大厅，适合候选阶段保留其作为王座、仪式与博物馆化展示的整体观看节点。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方空间身份明确；具体访问日可见性与陈设轮换仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "glass-cabinet",
+      "identity": {
+        "objectType": "architectural_viewing_node",
+        "title": {
+          "zh": "玻璃柜（22号房）",
+          "en": "The Glass Cabinet (room 22)"
+        },
+        "cultureZh": "丹麦王室建筑与历史室内",
+        "cultureEn": "Danish royal historic interior",
+        "displayDate": "弗雷德里克四世时期收藏线",
+        "medium": "历史陈列室与玻璃器收藏",
+        "identityAnchor": "rosenborg-room-22",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-22-the-glass-cabinet/"
+      },
+      "identityAnchor": "rosenborg-room-22",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-22-the-glass-cabinet/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-22-the-glass-cabinet/",
+      "collectionGroup": "Historic royal interiors and objects",
+      "selectionRationale": "官方导览特别强调弗雷德里克四世带回且保存至今的玻璃收藏，保留此空间可避免候选池只剩珠宝与礼器。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方空间身份明确；具体访问日可见性与玻璃器陈设轮换仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "regalia-room",
+      "identity": {
+        "objectType": "architectural_viewing_node",
+        "title": {
+          "zh": "礼器室（24号房）",
+          "en": "The Regalia Room (room 24)"
+        },
+        "cultureZh": "丹麦王室建筑与历史室内",
+        "cultureEn": "Danish royal historic interior",
+        "displayDate": "18世纪改造；天花板1762年",
+        "medium": "塔楼历史室内、王权礼器与珍宝柜",
+        "identityAnchor": "rosenborg-room-24",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-24-the-regalia-room/"
+      },
+      "identityAnchor": "rosenborg-room-24",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-24-the-regalia-room/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-24-the-regalia-room/",
+      "collectionGroup": "Royal crowns and Crown regalia",
+      "selectionRationale": "官方空间页把它定义为绝对君主制 Treasury 的房间，并记录其后来的湿裤椅展示，能连接制度宝物与珍奇柜趣味。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方空间身份明确；具体访问日可见性与陈设轮换仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    }
+  ]
+}

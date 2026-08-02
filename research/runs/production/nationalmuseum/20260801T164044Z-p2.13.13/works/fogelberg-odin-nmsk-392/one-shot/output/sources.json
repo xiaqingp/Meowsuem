@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "fogelberg-odin-nmsk-392",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Odin",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/26781/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "dimensions",
+        "accessionNumber",
+        "acquisition",
+        "collectionRelation",
+        "availability",
+        "iconography"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The Sculpture Courtyard: Three Ancient Norse Gods",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/en/webtour/skulpturg%C3%A5rden",
+      "sourceType": "museum",
+      "usedFor": [
+        "arrivalDate",
+        "commission",
+        "collectionHistory",
+        "displayHistory",
+        "nationalSelfImage",
+        "historicalContext"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Bengt E Fogelberg",
+      "publisher": "Svenskt Biografiskt Lexikon / Riksarkivet",
+      "url": "https://sok.riksarkivet.se/sbl/Artikel/14284",
+      "sourceType": "academic",
+      "usedFor": [
+        "artistBiography",
+        "GotiskaForbundet",
+        "1817Sketches",
+        "commissionHistory",
+        "seatedOrStandingChoice",
+        "classicalSources",
+        "reception"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "卡尔十四世·约翰偏好把奥丁表现为站立的战神，而福格尔贝里早期曾设想坐姿奥丁以象征智慧。",
+      "type": "other",
+      "sourceIds": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "19世纪瑞典使用古代北欧题材强化国家自我形象，相关背景包括1809年失去芬兰。",
+      "type": "other",
+      "sourceIds": [
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "upstreamConflicts": []
+}

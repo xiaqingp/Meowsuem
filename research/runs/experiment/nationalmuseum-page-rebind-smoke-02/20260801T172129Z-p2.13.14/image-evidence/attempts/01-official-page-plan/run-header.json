@@ -1,0 +1,27 @@
+{
+  "runId": "20260801T172129Z-p2.13.14",
+  "startedAt": "2026-08-01T17:21:44.033Z",
+  "stage": "image_disambiguation",
+  "imageResearchMode": "official_page_plan_v1",
+  "caseId": "nationalmuseum-page-rebind-smoke-02",
+  "targetMuseumId": "nationalmuseum",
+  "pipelineVersion": "2.13.14",
+  "instructionVersion": "2.4.2",
+  "executionProfile": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/runs/experiment/nationalmuseum-page-rebind-smoke-02/20260801T172129Z-p2.13.14/image-evidence/attempts/01-official-page-plan/image-research-packet.json",
+      "role": "image_candidate_packet",
+      "sha256": "15d0607f50284dcb06ecdc442cf2f67289252e4244de901e0a0ec0b2dd1ed1c3"
+    }
+  ],
+  "outputs": [
+    "image-decisions.json"
+  ],
+  "reviewer": "disabled",
+  "retry": "failed_images_only",
+  "publicationBoundary": "evidence_only"
+}

@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "oldenborg-horn",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Oldenborg Horn",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-oldenborg-horn/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "collectionRelation",
+        "availability",
+        "legend",
+        "historicalContext"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The Treasury's 1st section (room G)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-g-the-treasury/",
+      "sourceType": "museum",
+      "usedFor": [
+        "date",
+        "material",
+        "collectionRelation",
+        "availability",
+        "historicalContext",
+        "possibleChristianIFunction"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Tronskiftet",
+      "publisher": "Gyldendal og Politikens Danmarkshistorie / Lex",
+      "url": "https://gyldendalogpolitikensdanmarkshistorie.lex.dk/Tronskiftet",
+      "sourceType": "publication",
+      "usedFor": [
+        "historicalContext",
+        "use",
+        "royalSymbolism",
+        "possibleGiftContext"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "奥尔登堡号角并非989年的实物，而是中世纪晚期制作的器物。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "claim": "馆方藏宝室条目将号角的制作年代细化为约1465年，并认为它可能由克里斯蒂安一世赠予科隆大教堂。",
+      "type": "other",
+      "sourceIds": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "奥尔登堡号角自17世纪后期进入丹麦王室收藏体系，并于1690年转入皇家珍奇柜。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "制作年代",
+      "statement": "馆方对象页概写约1400年，藏宝室条目写约1465年；本文采用15世纪中叶前后的保守理解。"
+    },
+    {
+      "topic": "工匠与产地",
+      "statement": "本次核对的官方对象页没有给出具体工匠姓名；关于它可能由克里斯蒂安一世赠予科隆大教堂，馆方使用了可能性表述，不能视为定论。"
+    },
+    {
+      "topic": "传说",
+      "statement": "989年伯爵奥托遇到精灵少女的故事属于传统传说，不能作为实物年代或历史事件的确定证据。"
+    },
+    {
+      "topic": "收藏年份",
+      "statement": "官方对象页写自1663年起归丹麦王冠，藏宝室条目写1667年由奥尔登堡公爵支系传至丹麦王室；两者不改变其现属丹麦王室收藏的判断。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "date",
+      "lockedValue": "约1400年制作",
+      "observedValue": "约1465年制作",
+      "sourceIds": [
+        "S2"
+      ],
+      "severity": "warning",
+      "explanation": "同一官方站点的对象页与藏宝室条目给出不同精度的年代；不改变作品身份，正文采用15世纪中叶的保守表述并保留差异。"
+    },
+    {
+      "field": "collectionRelation",
+      "lockedValue": "1663年起归丹麦王冠",
+      "observedValue": "1667年由奥尔登堡公爵支系传至丹麦王室",
+      "sourceIds": [
+        "S2"
+      ],
+      "severity": "warning",
+      "explanation": "官方对象页与藏宝室条目的收藏年份相差数年；不改变馆藏关系、作品选择或发布判断，正文以锁定值为主并提示页面差异。"
+    }
+  ]
+}

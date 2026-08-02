@@ -50,6 +50,7 @@ const validSources = {
     sourceType: "museum",
     usedFor: ["identity", "date", "material"],
   }],
+  directQuotes: [],
   uncertainties: ["当前是否展出尚未确认"],
   highRiskClaims: [],
 };

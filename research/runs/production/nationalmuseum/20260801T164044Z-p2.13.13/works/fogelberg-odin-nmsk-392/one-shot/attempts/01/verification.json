@@ -1,0 +1,39 @@
+{
+  "status": "failed",
+  "errors": [
+    {
+      "code": "UNSUPPORTED_HIGH_RISK_CLAIM",
+      "message": "Strong factual claim lacks a valid source record",
+      "matches": [
+        "观看这尊雕像时，脸部很容易成为唯一焦点"
+      ],
+      "severity": "error"
+    }
+  ],
+  "warnings": [],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": false,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "一位被请来证明王权的北方之神",
+    "古典身体，北方身份",
+    "不要错过盾牌和靴子",
+    "一块大理石的王室旅程"
+  ],
+  "sourceCount": 4,
+  "articleBytes": 4432,
+  "sourcesBytes": 2747
+}

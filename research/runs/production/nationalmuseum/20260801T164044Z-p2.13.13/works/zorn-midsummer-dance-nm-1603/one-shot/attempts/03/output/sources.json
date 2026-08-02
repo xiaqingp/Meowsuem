@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "zorn-midsummer-dance-nm-1603",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Midsummer Dance",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/18607/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "dimensions",
+        "accessionNumber",
+        "collectionRelation",
+        "availability",
+        "artistStatement",
+        "description"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Måleri i urval / Painting in Selected Works: Midsommardans",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/webbtur/m%C3%A5leri-i-urval",
+      "sourceType": "museum",
+      "usedFor": [
+        "staging",
+        "historicalContext",
+        "date",
+        "exhibitionContext"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Anders Zorn",
+      "publisher": "Zorn Museum",
+      "url": "https://zorn.se/en/about-us/anders-zorn/",
+      "sourceType": "museum",
+      "usedFor": [
+        "artistBiography",
+        "returnToMora",
+        "DalarnaContext",
+        "folkLife"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "作品为1897年斯德哥尔摩展览创作；此前佐恩曾在莫拉安排五月柱并请当地年轻人跳舞。",
+      "type": "other",
+      "sourceIds": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "佐恩在自传笔记中将作品的重点关联到舞蹈体验、夏夜气息与光线。",
+      "type": "artist_intent",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "人物身份",
+      "statement": "馆方没有逐一说明画中人物的姓名或具体关系，因此不将前景舞者认定为特定人物。"
+    },
+    {
+      "topic": "现场与重构的边界",
+      "statement": "馆方资料说明作品包含经过安排的场景，但没有进一步说明每位人物、动作或构图细节的具体安排过程。"
+    }
+  ],
+  "upstreamConflicts": []
+}

@@ -3,9 +3,11 @@ import fs from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
 import {
+  authorizePipelineContinuation,
   assertPathInside,
   assertResearchRootHygiene,
   assertWritableRun,
+  isRunPipelineVersionAllowed,
   loadManifest,
   readAndValidateRunDescriptor,
   resolveRunRoot,
@@ -68,6 +70,44 @@ try {
   assert.equal((await readAndValidateRunDescriptor(runRoot, loaded, root)).museumId, "seattle");
   assert.equal(assertWritableRun(descriptor, loaded).status, "running");
   assert.throws(() => assertWritableRun({ ...descriptor, status: "accepted" }, loaded), /immutable/);
+  const patchedManifest = {...loaded, pipelineVersion: "2.9.1"};
+  await assert.rejects(() => readAndValidateRunDescriptor(runRoot, patchedManifest, root), /does not match/);
+  const continued = await authorizePipelineContinuation({
+    projectRoot: root,
+    manifest: patchedManifest,
+    runKind: "production",
+    museumId: "seattle",
+    runId,
+    fromStage: "image_evidence",
+    timestamp: new Date("2026-07-25T15:20:30.000Z"),
+  });
+  assert.equal(continued.descriptor.pipelineContinuation.fromVersion, "2.9.0");
+  assert.equal(continued.descriptor.pipelineContinuation.toVersion, "2.9.1");
+  assert.equal(
+    (await readAndValidateRunDescriptor(runRoot, patchedManifest, root)).pipelineContinuation.fromStage,
+    "image_evidence",
+  );
+  assert.equal(isRunPipelineVersionAllowed("2.9.1", continued.descriptor), true);
+  assert.equal(isRunPipelineVersionAllowed("9.9.9", continued.descriptor), false);
+  const repatched = await authorizePipelineContinuation({
+    projectRoot: root,
+    manifest: {...patchedManifest, pipelineVersion: "2.9.2"},
+    runKind: "production",
+    museumId: "seattle",
+    runId,
+    fromStage: "image_evidence",
+  });
+  assert.deepEqual(repatched.descriptor.pipelineContinuation.priorTargets, ["2.9.1"]);
+  await fs.writeFile(path.join(runRoot, "run.json"), `${JSON.stringify({...repatched.descriptor, status: "failed"}, null, 2)}\n`);
+  const resumedFailure = await authorizePipelineContinuation({
+    projectRoot: root,
+    manifest: {...patchedManifest, pipelineVersion: "2.9.2"},
+    runKind: "production",
+    museumId: "seattle",
+    runId,
+    fromStage: "image_evidence",
+  });
+  assert.equal(resumedFailure.descriptor.status, "running");
   const verified = await transitionRunStatus({
     projectRoot: root,
     runRoot,

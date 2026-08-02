@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "filesystemContractVersion": 1,
+  "runKind": "production",
+  "runId": "20260801T223003Z-p2.13.34",
+  "museumId": "rosenborg",
+  "milestone": "M31",
+  "pipelineVersion": "2.13.34",
+  "instructionVersion": "2.4.2",
+  "status": "published",
+  "createdAt": "2026-08-01T22:30:03.530Z",
+  "createdBy": "scripts/create-generation-run.mjs",
+  "layoutVersion": 1,
+  "immutable": true,
+  "contentContract": "one_shot_v1",
+  "allowLegacyAuthorBundles": false,
+  "legacyWorkIds": [],
+  "legacyImageResolutionAllowed": false,
+  "updatedAt": "2026-08-02T00:42:10.874Z",
+  "pipelineContinuation": {
+    "fromVersion": "2.13.34",
+    "toVersion": "2.13.39",
+    "instructionVersion": "2.4.2",
+    "fromStage": "image_evidence",
+    "authorizedAt": "2026-08-01T23:55:58.473Z",
+    "priorTargets": [
+      "2.13.35",
+      "2.13.38"
+    ]
+  },
+  "publishedAt": "2026-08-02T00:42:10.874Z"
+}

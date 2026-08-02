@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "status": "accepted",
+  "runId": "20260801T164044Z-p2.13.13",
+  "museumId": "nationalmuseum",
+  "workId": "aalto-paimio-armchair-nmk-13-1963",
+  "stage": "single_work",
+  "attempt": 1,
+  "model": "gpt-5.6-luna",
+  "reasoningEffort": "high",
+  "startedAt": "2026-08-01T18:17:45.628Z",
+  "completedAt": "2026-08-01T18:19:31.250Z",
+  "durationMs": 105622,
+  "inputTokens": 98723,
+  "cachedInputTokens": 58624,
+  "reasoningTokens": 3263,
+  "outputTokens": 5074,
+  "totalTokens": 103797,
+  "agentRunCount": 1,
+  "modelRoundCount": 1,
+  "webSearchCount": 3,
+  "webOpenCount": 0
+}

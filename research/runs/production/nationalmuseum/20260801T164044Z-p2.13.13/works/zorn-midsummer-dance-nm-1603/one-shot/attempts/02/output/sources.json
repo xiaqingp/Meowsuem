@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "zorn-midsummer-dance-nm-1603",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Midsummer Dance",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/18607/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "dimensions",
+        "accessionNumber",
+        "collectionRelation",
+        "acquisition",
+        "availability",
+        "artistDescription"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Måleri i urval（精选绘画线上导览）",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/webbtur/m%C3%A5leri-i-urval",
+      "sourceType": "museum",
+      "usedFor": [
+        "historical_context",
+        "staging",
+        "Stockholm_exhibition_1897",
+        "Dalarna_context",
+        "midsummer_context"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Anders Zorn (1860–1920)",
+      "publisher": "Zorn Museum",
+      "url": "https://zorn.se/en/about-us/anders-zorn/",
+      "sourceType": "foundation",
+      "usedFor": [
+        "artist_biography",
+        "move_to_Mora_1896",
+        "folk_life_subjects"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "作品为1897年的斯德哥尔摩展览创作；在此前一年，佐恩曾在莫拉设置五月柱并请当地年轻人跳舞，以安排相关场景。",
+      "type": "other",
+      "sourceIds": [
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "当前展出状态",
+      "statement": "Nationalmuseum官方对象页目前标示作品为“Not on display”；其未来是否展出可能随馆藏轮换安排变化。"
+    }
+  ],
+  "upstreamConflicts": []
+}

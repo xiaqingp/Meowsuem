@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "mathsson-reclining-chair-36-nmk-46-2010",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Reclining chair no 36",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/134846/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "technique",
+        "dimensions",
+        "accessionNumber",
+        "collectionRelation",
+        "availability",
+        "quote"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "'Model 36' chaise longue 864326",
+      "publisher": "National Trust Collections",
+      "url": "https://www.nationaltrustcollections.org.uk/object/864326",
+      "sourceType": "museum",
+      "usedFor": [
+        "historical_context",
+        "model36",
+        "exhibition_history",
+        "international_reception"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Bruno Mathsson. Chaise Longue. 1936",
+      "publisher": "The Museum of Modern Art",
+      "url": "https://www.moma.org/collection/works/1957",
+      "sourceType": "museum",
+      "usedFor": [
+        "related_work",
+        "manufacturer",
+        "material",
+        "international_context"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Bruno Mathsson: Architect and Designer",
+      "publisher": "Bard Graduate Center",
+      "url": "https://www.bgc.bard.edu/exhibitions/exhibitions/32/bruno-mathsson",
+      "sourceType": "academic",
+      "usedFor": [
+        "biography",
+        "design_context",
+        "functionalism",
+        "international_reception"
+      ]
+    }
+  ],
+  "directQuotes": [
+    {
+      "quote": "furniture should be designed with such skill that sitting in them requires none at all.",
+      "speaker": "Bruno Mathsson",
+      "sourceId": "S1"
+    }
+  ],
+  "highRiskClaims": [
+    {
+      "claim": "Model 36 was shown in Bruno Mathsson's 1936 solo exhibition and his furniture subsequently appeared at the 1937 Paris World Exposition.",
+      "type": "other",
+      "sourceIds": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "A 1936 Bruno Mathsson chaise longue made by Firma Karl Mathsson is held by the Museum of Modern Art.",
+      "type": "other",
+      "sourceIds": [
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "upstreamConflicts": []
+}

@@ -1,0 +1,39 @@
+{
+    "runId":  "20260801T175559Z-p2.13.19",
+    "stage":  "image_disambiguation",
+    "museumId":  "",
+    "caseId":  "nationalmuseum-image-repair-final-03",
+    "workId":  "",
+    "pipelineVersion":  "2.13.19",
+    "instructionVersion":  "2.4.2",
+    "model":  "gpt-5.6-luna",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-08-01T10:56:16.8106833-07:00",
+    "modelStartedAt":  "2026-08-01T10:56:17.1263282-07:00",
+    "modelCompletedAt":  "2026-08-01T10:56:23.2375797-07:00",
+    "completedAt":  "2026-08-01T10:56:23.2728829-07:00",
+    "runnerDurationMs":  6462,
+    "modelDurationMs":  6111,
+    "tokenUsage":  {
+                       "total":  13127,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+
+                                ],
+    "logPath":  "research/runs/experiment/nationalmuseum-image-repair-final-03/20260801T175559Z-p2.13.19/image-evidence/attempts/01-official-page-plan/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/runs/experiment/nationalmuseum-image-repair-final-03/20260801T175559Z-p2.13.19/image-evidence/attempts/01-official-page-plan/image-research-packet.json",
+                       "role":  "image_candidate_packet",
+                       "sha256":  "10820155c73924a6eb40cceefd3a3647518b986f0fe9d93207d8345bab3e2d35"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "image-decisions.json",
+                        "sha256":  "9a2445168013eef26b66919bb8888b245aa92791449f5a6e9a0af89f5bd22902",
+                        "bytes":  367
+                    }
+                ]
+}

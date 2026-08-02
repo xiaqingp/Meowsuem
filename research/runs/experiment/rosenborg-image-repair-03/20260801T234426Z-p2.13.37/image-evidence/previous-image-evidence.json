@@ -1,0 +1,2621 @@
+{
+  "schemaVersion": 2,
+  "stage": "verified_image_evidence",
+  "museumId": "rosenborg",
+  "pipelineVersion": "2.13.35",
+  "generatedAt": "2026-08-01T23:18:05.118Z",
+  "parentRunId": "20260801T231539Z-p2.13.35",
+  "parentEvidencePath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/verified-image-evidence.json",
+  "parentEvidenceSha256": "a1fffe95f8254ace77079d2698f020fc3ce0bb2f2ea73075a0b97744f8c97fad",
+  "resolver": {
+    "version": 3,
+    "mode": "four_tier",
+    "tierUsed": "luna_official_page_plan",
+    "modelPolicy": "failed_images_only",
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium"
+  },
+  "summary": {
+    "works": 20,
+    "previousAcceptedPreserved": 19,
+    "retried": 1,
+    "newlyAccepted": 0,
+    "directImageDownloads": 0,
+    "elementCaptures": 0,
+    "objectImageAccepted": 17,
+    "contextImagesAccepted": 2,
+    "unresolved": 1,
+    "duplicateObjectImageGroups": [],
+    "modelCalls": 1,
+    "modelTokens": 16120,
+    "webSearchCount": 0
+  },
+  "modelRun": {
+    "runRoot": "research/runs/experiment/rosenborg-image-repair-02/20260801T231743Z-p2.13.35/image-evidence/attempts/01-official-page-plan",
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium",
+    "durationMs": 9031,
+    "tokens": 16120,
+    "webSearchCount": 0
+  },
+  "works": [
+    {
+      "workId": "pearl-ruby-set",
+      "identity": {
+        "museumId": "rosenborg",
+        "workId": "pearl-ruby-set",
+        "title": "The Pearl-Ruby Set",
+        "objectType": "set",
+        "titleZh": "珍珠红宝石套饰",
+        "titleEn": "The Pearl-Ruby Set",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "1842；大型珍珠至少可追溯至17世纪晚期",
+        "medium": "珍珠、红宝石、钻石与黄金",
+        "identityAnchor": "official-object:the-pearl-ruby-set",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-pearl-ruby-set/",
+        "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-pearl-ruby-set/",
+        "accessionNumber": "5532",
+        "collectionGroup": "Danish crown jewels"
+      },
+      "fastPath": {
+        "status": "fast_candidate_found",
+        "pageTitle": "The pearl-ruby set | The Royal Danish Collection",
+        "finalUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-pearl-ruby-set/",
+        "fastCandidate": {
+          "id": "dom-4",
+          "url": "https://denkongeligesamling.dk/media/l5fb4rss/a0620002-a-dig-ibk.png?width=960&height=540&v=1db94c314c63830",
+          "alt": "Pearl necklace",
+          "caption": "\n                                            \n                                                Pearl necklace\n                                            \n                                            \n                                                Photographer: Iben Kaufmann\n                                            \n                                        ",
+          "nearbyText": "Pearl necklace\n\nPhotographer: Iben Kaufmann",
+          "width": 0,
+          "height": 0,
+          "figureCaptionRelation": true,
+          "identitySignals": [
+            "explicit_record_title_and_artist_match",
+            "figure_caption_relation"
+          ],
+          "method": "official_object_image",
+          "provider": "generic-html"
+        },
+        "excludedImageUrls": [
+          "https://denkongeligesamling.dk/media/qgsoi5hs/perle-rubinsaettet.jpg",
+          "https://denkongeligesamling.dk/media/onnfcsql/charlotte-amalie-og-elsgen.jpg?rxy=0.5125313283208021,0.3027930044374837&width=720&height=405&v=1db9ca1c88dde50",
+          "https://denkongeligesamling.dk/media/1fjbo5en/sophie-amalie-1680.jpg?rxy=0.47368421052631576,0.4115066578671533&width=720&height=405&v=1db9ca1c872dc40",
+          "https://denkongeligesamling.dk/media/b3njlry1/a0030154_leonora-christina.jpg?rxy=0.4573934837092732,0.3750011777675181&width=720&height=405&v=1db9ca298b279b0",
+          "https://denkongeligesamling.dk/media/l5fb4rss/a0620002-a-dig-ibk.png?width=960&height=540&v=1db94c314c63830",
+          "https://denkongeligesamling.dk/media/edtcquwx/a0620003-a-1-dig-ibk.png?width=960&height=1440&v=1db94c315f1e6f0",
+          "https://denkongeligesamling.dk/media/bgzlwopg/a0620002-b-dig-ibk.png?width=960&height=960&v=1db94c314842620",
+          "https://denkongeligesamling.dk/media/oajltauk/a0620002-c-dig-ibk.png?width=960&height=540&v=1db94c3145770d0",
+          "https://denkongeligesamling.dk/media/rkemgtkf/a0620003-bc-dig-ibk.png?width=960&height=1440&v=1db94c314a3bc10",
+          "https://denkongeligesamling.dk/media/vvghyj2s/a0330282-1521-samlet.jpg?width=720&height=720&v=1db9d835093c620",
+          "https://denkongeligesamling.dk/media/iullnu5n/1-fototheroyaldanishcollection.jpg?width=720&height=720&v=1db8e912e0d0950",
+          "https://denkongeligesamling.dk/media/03cnhacb/rosenborgslot_17112024_21.jpg?width=720&height=720&v=1dba541147d39d0",
+          "https://denkongeligesamling.dk/media/ehmjuhwm/smaragdsaettet-collier-broche-og-oereringe-62-6abd.jpg?width=720&height=720&v=1db9d88175f5b80",
+          "https://denkongeligesamling.dk/media/ryrjuheo/a0620002-m40.jpg?width=720&height=720&v=1db8e89f71a6ed0",
+          "https://denkongeligesamling.dk/media/sbmnuzfv/brillantkaede2.jpg?rxy=0.5050125313283208,0.7905774690815182&width=720&height=720&v=1db8e8a3309c170",
+          "https://denkongeligesamling.dk/media/hkvl0l5h/caroline-amalie.jpg?rxy=0.4999998182206939,0.3533363827957821&width=720&height=720&v=1db9ca17669bb30",
+          "https://denkongeligesamling.dk/media/b3njlry1/a0030154_leonora-christina.jpg?rxy=0.4573934837092732,0.3750011777675181&width=720&height=720&v=1db9ca298b279b0",
+          "https://denkongeligesamling.dk/media/1fjbo5en/sophie-amalie-1680.jpg?rxy=0.47368421052631576,0.4115066578671533&width=720&height=720&v=1db9ca1c872dc40",
+          "https://denkongeligesamling.dk/media/onnfcsql/charlotte-amalie-og-elsgen.jpg?rxy=0.5125313283208021,0.3027930044374837&width=720&height=720&v=1db9ca1c88dde50"
+        ],
+        "fastPageSignals": [
+          "explicit_record_title_and_artist_match",
+          "figure_caption_relation"
+        ]
+      },
+      "status": "object_image_accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://denkongeligesamling.dk/media/l5fb4rss/a0620002-a-dig-ibk.png?width=960&height=540&v=1db94c314c63830",
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-pearl-ruby-set/",
+        "sourceType": "official_museum",
+        "caption": "\n                                            \n                                                Pearl necklace\n                                            \n                                            \n                                                Photographer: Iben Kaufmann\n                                            \n                                        ",
+        "identityEvidence": [
+          "explicit_record_title_and_artist_match",
+          "figure_caption_relation"
+        ],
+        "confidence": null,
+        "localPath": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/pearl-ruby-set.webp",
+        "sha256": "f3c9e0f0e805ba616bff340dd9fa8b16524588b809eb95573c8be3c0cdc0a897",
+        "width": 960,
+        "height": 540,
+        "contentType": "image/webp",
+        "method": "official_fast_path",
+        "provider": "official_museum",
+        "evidenceId": "img:rosenborg:pearl-ruby-set:f3c9e0f0e805"
+      },
+      "warnings": [],
+      "durationMs": 1391,
+      "aiRequired": false,
+      "reusedFromParent": true,
+      "parentEvidencePath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/verified-image-evidence.json",
+      "parentEvidenceSha256": "a1fffe95f8254ace77079d2698f020fc3ce0bb2f2ea73075a0b97744f8c97fad"
+    },
+    {
+      "workId": "rose-cut-diamond-set",
+      "identity": {
+        "museumId": "rosenborg",
+        "workId": "rose-cut-diamond-set",
+        "title": "The Rose-Cut Diamond Set",
+        "objectType": "set",
+        "titleZh": "玫瑰式切割钻石套饰",
+        "titleEn": "The Rose-Cut Diamond Set",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "1840—1842",
+        "medium": "玫瑰式切割钻石、金属镶座；腰链与胸针组合",
+        "identityAnchor": "official-object:the-rose-cut-diamond-set",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/",
+        "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/",
+        "accessionNumber": "5564",
+        "collectionGroup": "Danish crown jewels"
+      },
+      "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/",
+      "page": {
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/",
+        "finalUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/",
+        "pageTitle": "The Rose-Cut Diamond Set | The Royal Danish Collection",
+        "bodyText": "You control your data\n\n\nWe and our business partners use technologies, including cookies, to collect information about you for various purposes, including: personalization of content and ads, analyzing our traffic, and providing access to social media features.\n\nBy clicking ‘Accept’, you give your consent for all these purposes. You can also choose to specify the purposes you consent to by ticking the checkbox next to the purpose and clicking ‘Save settings’.\n\nYou may withdraw your consent at any time by clicking the small icon at the bottom left corner of the website.\n\nYou can read more about how we use cookies and other technologies and how we collect and process personal data by clicking the link.\n\nRead more about cookies\n\n\nShow details\nDECLINE ALL\nACCEPT ALL\nNecessary\nFunctional\nStatistical\nMarketing\nThe Rose-Cut Diamond Set\n\nThe mysterious crown-jewel set with a brand-new tiara\n\nThe Rose-Cut Diamond Set has long been shrouded in mystery – how was the impressive jewellery set worn?\n\nThe necklace is a belt \n\nThe Rose-Cut Diamond Set does not appear to show up in the preserved bills from the jewellery firm C.M. Weisshaupt und Söhne, which in 1840–42 mounted the Danish crown jewels in their current fittings.\n\nFor decades, the set was viewed as a long necklace with a corsage (brooch). Finally, however, it was linked to a bill from the jewellery firm, dated 29 March 1842. The bill mentions a belt, which turns out to be the actual purpose of the presumed necklace.\n\nThe Rose-Cut Diamond Set is intended as a chain to be worn around a woman’s corseted waist with the large pendant, the corsage, in the centre. The pendant can be broken up and worn as two separate pieces. \n\nStitched onto the dress\n\nRight up to the time of the First World War, Danish queens wore a corset to achieve the fashionable hourglass figure. Even so, however, the belt was not intended to go all the way around the waist. Tiny loops distributed along the length of the belt and at the ends reveal that it was probably stitched onto the dress. \n\nIn Queen Caroline Amalie’s time, in addition to the narrow waist, fashionable dresses often included a long train. Fastened on the back, the train would cover this part of the waist, so the belt was only meant to decorate the front of the dress.\n\nQueen Lovisa knew that the chain was intended as a belt. We can see this in a large portrait that shows her wearing it around her waist. Lovisa took great interest in the crown jewels and used loose pearls and precious stones to create additional pieces for the collection. Today, this jewellery is on display at the Amalienborg Museum.\n\nCreated for Caroline Amalie\n\nThe set was created in 1840 by the jewellery firm C.M. Weishaupt & Söhne in Hanau, for Christian VIII’s consort, Queen Caroline Amalie (1796–1881).\n\nDiamonds like rosebuds\n\nThe rose cut creates facets on the diamonds that catch the light and produce a soft glow reminiscent of rosebuds.\n\nStones from Christian VI’s unmarried sister\n\nPrincess Charlotte Amalie (1706–1782) wanted for her brilliant-cut and rose-cut diamonds to be included in the crown jewels.\n\nPhoto: Iben Kaumann\nPhoto: Iben Kaufmann\nThe Rose-Cut Diamond Set today\nIn 2024, in collaboration with the Royal Danish Collection, HM Queen Mary had a new frame created for mounting parts of the Rose-Cut Diamond Set.\n\nDiamonds from the belt are used to create a tiara \n\nThe tiara is designed as so-called bandeau – a head band to be worn as a hair accessory – consisting of a single row of rose-cut diamonds. Thus, Queen Mary can now also wear the beautiful rose-cut diamonds from the belt in a tiara: the rose-cut diamond tiara.\n\nContinuing the tradition\n\nWith this new design, Queen Mary continues the tradition initiated by previous queens of adapting the Danish crown jewels to contemporary fashion. This makes the Rose-Cut Diamond Set more versatile and more likely to be worn on royal occasions, which was exactly the point when the Danish crown jewels were created through the last will and testament of Queen Dowager Sophie Magdalene in 1746. \n\nExplore history\nThe collection\nThe crown jewels\n\nThe Danish crown jewels are the only crown jewels in the world that are both on public display, as museum exhibits, and worn by the country’s sitting queen. Here you can explore the beautiful crown jewels and their fascinating history.\n\nThe crown jewels\nThe rose-cut diamond tiara\n\nIn collaboration with the Royal Danish Collection, HM Queen Mary has had a new frame created for mounting parts of the Rose-Cut Diamond Set – one of the four iconic jewellery sets that make up the Danish crown jewels – so the beautiful rose-cut diamonds can be worn as a tiara.\n\nThe crown jewels\nThe Emerald Set\n\nThe Emerald Set was created in 1840 for Caroline Amalie (1796–1881) by the jewellery firm C.M. Weishaupt & Söhne in Hanau, Hessen.\n\nThe crown jewels\nThe Pearl-Ruby Set\n\nIn its current form, the Pearl-Ruby Set was created in 1842 for Caroline Amalie by the jewellery firm C.M. Weishaupt & Söhne in Hanau, Hessen.\n\nThe crown jewels\nThe Brilliant-Cut Diamond Set\n\nThe Brilliant-Cut Diamond Set consists of a necklace, a corsage and a pair of earrings.\n\n1796-1881\nQueen Caroline Amalie\n\nThe set was created in 1840 by the jewellery firm C.M. Weishaupt & Söhne in Hanau, Hessen, for Caroline Amalie (1796–1881).\n\nHome\n→\nThe collection\n→\nObjects\n→\nThe Rose-Cut Diamond Set\nAmalienborg Museum\nChristiansborg Palace\nThe Hermitage Palace\nFredensborg Palace\nKoldinghus\nRosenborg Castle\nINFO\nContact us\nAbout us\nPress\nLogin for business customers\nTERMS\nData Protection Policy\nCookie consent\nWebsite Terms\nPrivacy statement\nTerms and conditions\nThe Royal Danish Collection\nØster Voldgade 4A 1350 Copenhagen K\nLINKEDIN",
+        "candidateCount": 23,
+        "candidates": [
+          {
+            "candidateId": "page-image-001",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/vvghyj2s/a0330282-1521-samlet.jpg?width=640&height=640&v=1db9d835093c620",
+            "selector": "div > div > div:nth-of-type(1) > a > article > div:nth-of-type(1) > picture > img",
+            "alt": "",
+            "nearbyText": "The collection \n                                        \n                                        \n                                            \n                                                The crown jewels  \n                                            \n                                        \n                                        The Danish crown jewels are the only crown jewels in the world that are both on public display, as museum exhibits, and worn by the country’s sitting queen. Here you can explore the beautiful crown jewels and their fascinating history.",
+            "visible": true,
+            "boundingBox": {
+              "x": 20,
+              "y": 5518,
+              "width": 453,
+              "height": 453
+            },
+            "naturalWidth": 640,
+            "naturalHeight": 640,
+            "elementKind": "img",
+            "elementIndex": 4,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-002",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/ehmjuhwm/smaragdsaettet-collier-broche-og-oereringe-62-6abd.jpg?width=640&height=640&v=1db9d88175f5b80",
+            "selector": "div > div > div:nth-of-type(3) > a > article > div:nth-of-type(1) > picture > img",
+            "alt": "",
+            "nearbyText": "The crown jewels  \n                                        \n                                        \n                                            \n                                                The Emerald Set  \n                                            \n                                        \n                                        The Emerald Set was created in 1840 for Caroline Amalie (1796–1881) by the jewellery firm C.M. Weishaupt & Söhne in Hanau, Hessen.",
+            "visible": true,
+            "boundingBox": {
+              "x": 967,
+              "y": 5518,
+              "width": 453,
+              "height": 453
+            },
+            "naturalWidth": 640,
+            "naturalHeight": 640,
+            "elementKind": "img",
+            "elementIndex": 6,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-003",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/ryrjuheo/a0620002-m40.jpg?width=640&height=640&v=1db8e89f71a6ed0",
+            "selector": "div > div > div:nth-of-type(4) > a > article > div:nth-of-type(1) > picture > img",
+            "alt": "",
+            "nearbyText": "The crown jewels  \n                                        \n                                        \n                                            \n                                                The Pearl-Ruby Set \n                                            \n                                        \n                                        In its current form, the Pearl-Ruby Set was created in 1842 for Caroline Amalie by the jewellery firm C.M. Weishaupt & Söhne in Hanau, Hessen.",
+            "visible": true,
+            "boundingBox": {
+              "x": 20,
+              "y": 5991,
+              "width": 453,
+              "height": 453
+            },
+            "naturalWidth": 640,
+            "naturalHeight": 640,
+            "elementKind": "img",
+            "elementIndex": 7,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-004",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/sbmnuzfv/brillantkaede2.jpg?rxy=0.5050125313283208,0.7905774690815182&width=640&height=640&v=1db8e8a3309c170",
+            "selector": "div > div > div:nth-of-type(5) > a > article > div:nth-of-type(1) > picture > img",
+            "alt": "",
+            "nearbyText": "The crown jewels  \n                                        \n                                        \n                                            \n                                                The Brilliant-Cut Diamond Set \n                                            \n                                        \n                                        The Brilliant-Cut Diamond Set consists of a necklace, a corsage and a pair of earrings.",
+            "visible": true,
+            "boundingBox": {
+              "x": 493,
+              "y": 5991,
+              "width": 453,
+              "height": 453
+            },
+            "naturalWidth": 640,
+            "naturalHeight": 640,
+            "elementKind": "img",
+            "elementIndex": 8,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-005",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/hkvl0l5h/caroline-amalie.jpg?rxy=0.4999998182206939,0.3533363827957821&width=640&height=640&v=1db9ca17669bb30",
+            "selector": "div > div > div:nth-of-type(6) > a > article > div:nth-of-type(1) > picture > img",
+            "alt": "",
+            "nearbyText": "1796-1881\n                                        \n                                        \n                                            \n                                                Queen Caroline Amalie\n                                            \n                                        \n                                        The set was created in 1840 by the jewellery firm C.M. Weishaupt & Söhne in Hanau, Hessen, for Caroline Amalie (1796–1881).",
+            "visible": true,
+            "boundingBox": {
+              "x": 967,
+              "y": 5991,
+              "width": 453,
+              "height": 453
+            },
+            "naturalWidth": 640,
+            "naturalHeight": 640,
+            "elementKind": "img",
+            "elementIndex": 9,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/",
+            "identityScore": 20
+          }
+        ]
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "aiDecision": {
+        "workId": "rose-cut-diamond-set",
+        "status": "not_found",
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/",
+        "selectedImage": null,
+        "alternatives": [],
+        "limitations": [
+          "All enumerated candidates are related-object or portrait images and none is identity-bound to The Rose-Cut Diamond Set."
+        ]
+      },
+      "warnings": [
+        "All enumerated candidates are related-object or portrait images and none is identity-bound to The Rose-Cut Diamond Set."
+      ],
+      "retried": true
+    },
+    {
+      "workId": "christian-iv-crown",
+      "identity": {
+        "museumId": "rosenborg",
+        "workId": "christian-iv-crown",
+        "title": "Christian IV’s crown",
+        "objectType": "object",
+        "titleZh": "克里斯蒂安四世王冠",
+        "titleEn": "Christian IV’s crown",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "1596",
+        "medium": "黄金、珐琅、切割宝石与珍珠",
+        "identityAnchor": "official-object:christian-ivs-crown",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/christian-iv-s-crown/",
+        "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/christian-iv-s-crown/",
+        "accessionNumber": null,
+        "collectionGroup": "Royal crowns and Crown regalia"
+      },
+      "fastPath": {
+        "status": "fast_candidate_found",
+        "pageTitle": "Christian IV’s crown | The Royal Danish Collection",
+        "finalUrl": "https://denkongeligesamling.dk/en/the-collection/objects/christian-iv-s-crown/",
+        "fastCandidate": {
+          "id": "dom-2",
+          "url": "https://denkongeligesamling.dk/media/qzoczy1v/christian-4-profil.jpg?rxy=0.45864661654135336,0.20479833417236754&width=640&height=960&v=1dc9f413a4d3020",
+          "alt": "Pawned in Hamburg",
+          "caption": "\n                                            \n                                                Pawned in Hamburg\n                                            \n                                            \n                                                According to tradition, a crown was only worn once. After the king’s death, it was stripped of its precious stones and remelted. However, in 1644, Christian IV had to pawn his crown with a merchant in Hamburg to raise money for war against Sweden.\n                                            \n                                        ",
+          "nearbyText": "Pawned in Hamburg\n\nAccording to tradition, a crown was only worn once. After the king’s death, it was stripped of its precious stones and remelted. However, in 1644, Christian IV had to pawn his crown with a merchant in Hamburg to raise money for war against Sweden.",
+          "width": 640,
+          "height": 960,
+          "figureCaptionRelation": true,
+          "identitySignals": [
+            "explicit_record_title_and_artist_match",
+            "figure_caption_relation"
+          ],
+          "method": "official_object_image",
+          "provider": "generic-html"
+        },
+        "excludedImageUrls": [
+          "https://denkongeligesamling.dk/media/uwwn3voh/christian-4s-krone-fotograf-iben-kaufmann-jpeg.jpg",
+          "https://denkongeligesamling.dk/media/x2wnfvjr/christian-4s-krone-kongernes-samling-rosenborg-fotograf-iben-kaufmann-jpeg.jpg?width=1920&height=1080&v=1db9e5189c28d90",
+          "https://denkongeligesamling.dk/media/qzoczy1v/christian-4-profil.jpg?rxy=0.45864661654135336,0.20479833417236754&width=640&height=960&v=1dc9f413a4d3020",
+          "https://denkongeligesamling.dk/media/03sp24t0/frederik-3-der-gerne-maa-drikke-te.jpg?rxy=0.5037593984962406,0.3070194675405234&width=640&height=960&v=1dba49d3d8c7ec0",
+          "https://denkongeligesamling.dk/media/xcgef0r0/christian-4s-krone-naerfoto-kongernes-samling-rosenborg-fotograf-iben-kaufmann.jpg?width=640&height=960&v=1dbb9b2c04116d0",
+          "https://denkongeligesamling.dk/media/ndqcq0hj/christian-5s-krone-naerfoto-kongernes-samling-rosenborg-fotograf-iben-kaufmann.jpg?width=640&height=960&v=1dbb9b3039c6fb0",
+          "https://denkongeligesamling.dk/media/ymcdlivi/skatkammer_mar22_henning_brandt_004_50.jpg?width=960&height=1440&v=1dbb9b358c01730",
+          "https://denkongeligesamling.dk/media/qzoczy1v/christian-4-profil.jpg?rxy=0.45864661654135336,0.20479833417236754&width=720&height=720&v=1dc9f413a4d3020",
+          "https://denkongeligesamling.dk/media/03sp24t0/frederik-3-der-gerne-maa-drikke-te.jpg?rxy=0.5037593984962406,0.3070194675405234&width=720&height=720&v=1dba49d3d8c7ec0",
+          "https://denkongeligesamling.dk/media/fwrlipkt/christian-5-profilny.jpg?rxy=0.49624060150375937,0.22379885647391992&width=720&height=720&v=1dba47c8b7da990",
+          "https://denkongeligesamling.dk/media/vvlblb3l/christian-5s-krone-iben-kaufman_kongernes-samling-250pct.jpg?width=720&height=720&v=1dba94d08549b20",
+          "https://denkongeligesamling.dk/media/sldjkeji/rosenborg_basement08_06_web.jpg?width=720&height=720&v=1dba54a235186b0"
+        ],
+        "fastPageSignals": [
+          "explicit_record_title_and_artist_match",
+          "figure_caption_relation"
+        ]
+      },
+      "status": "object_image_accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Crown_of_King_Christian_IV_of_Denmark.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Crown_of_King_Christian_IV_of_Denmark.jpg",
+        "sourceType": "wikimedia",
+        "caption": "Crown of King Christian IV of Denmark in the Schatzkammer of Rosenborg Castle, Copenhagen, Denmark.",
+        "identityEvidence": [
+          "Wikimedia Commons caption explicitly identifies Christian IV’s crown.",
+          "Image is identified as located in Rosenborg Castle.",
+          "Official museum page identifies Christian IV’s crown as displayed in the Treasury under Rosenborg Castle."
+        ],
+        "confidence": 0.98,
+        "localPath": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/christian-iv-crown.jpg",
+        "sha256": "44ad6a9c5bcbaf328a356db01b07ba2c25dfeca8b03c010336f716a1d778b374",
+        "width": 4928,
+        "height": 3264,
+        "contentType": "image/jpeg",
+        "method": "ai_image_research",
+        "provider": "wikimedia",
+        "evidenceId": "img:rosenborg:christian-iv-crown:44ad6a9c5bcb"
+      },
+      "warnings": [
+        "fast path download failed: asset collision for christian-iv-crown"
+      ],
+      "durationMs": 2071,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "christian-iv-crown",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Crown_of_King_Christian_IV_of_Denmark.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Crown_of_King_Christian_IV_of_Denmark.jpg",
+          "sourceType": "wikimedia",
+          "caption": "Crown of King Christian IV of Denmark in the Schatzkammer of Rosenborg Castle, Copenhagen, Denmark.",
+          "identityEvidence": [
+            "Wikimedia Commons caption explicitly identifies Christian IV’s crown.",
+            "Image is identified as located in Rosenborg Castle.",
+            "Official museum page identifies Christian IV’s crown as displayed in the Treasury under Rosenborg Castle."
+          ],
+          "confidence": 0.98
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "reusedFromParent": true,
+      "parentEvidencePath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/verified-image-evidence.json",
+      "parentEvidenceSha256": "a1fffe95f8254ace77079d2698f020fc3ce0bb2f2ea73075a0b97744f8c97fad"
+    },
+    {
+      "workId": "brilliant-cut-diamond-set",
+      "identity": {
+        "museumId": "rosenborg",
+        "workId": "brilliant-cut-diamond-set",
+        "title": "The Brilliant-Cut Diamond Set",
+        "objectType": "set",
+        "titleZh": "明亮式切割钻石套饰",
+        "titleEn": "The Brilliant-Cut Diamond Set",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "1840",
+        "medium": "钻石、黄金与白银镶座；项链、胸针和耳坠",
+        "identityAnchor": "official-object:the-brilliant-cut-diamond-set",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-brillant-cut-diamond-set/",
+        "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-brillant-cut-diamond-set/",
+        "accessionNumber": "5560",
+        "collectionGroup": "Danish crown jewels"
+      },
+      "fastPath": {
+        "status": "fast_candidate_found",
+        "pageTitle": "The Brillant-Cut Diamond Set | The Royal Danish Collection",
+        "finalUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-brillant-cut-diamond-set/",
+        "fastCandidate": {
+          "id": "dom-1",
+          "url": "https://denkongeligesamling.dk/media/frmdpmrf/1-brillantsaettet-collier-62-5a-3-ibk.jpg?width=960&height=960&v=1dba53ddcc13800",
+          "alt": "Brilliants side by side",
+          "caption": "\n                                            \n                                                Brilliants side by side\n                                            \n                                            \n                                                The large brilliant-cut diamond at the centre of the chain was previously mounted on a ring given by the newly married Christian VII to his English bride, Caroline Mathilde. The six other large brilliants were also worn by Caroline Mathilde.\n                                            \n                                        ",
+          "nearbyText": "Brilliants side by side\n\nThe large brilliant-cut diamond at the centre of the chain was previously mounted on a ring given by the newly married Christian VII to his English bride, Caroline Mathilde. The six other large brilliants were also worn by Caroline Mathilde.",
+          "width": 0,
+          "height": 0,
+          "figureCaptionRelation": true,
+          "identitySignals": [
+            "explicit_record_title_and_artist_match",
+            "figure_caption_relation"
+          ],
+          "method": "official_object_image",
+          "provider": "generic-html"
+        },
+        "excludedImageUrls": [
+          "https://denkongeligesamling.dk/media/k4fjsngn/brillantsaettet-collier-62-5a-1-ibk.jpg",
+          "https://denkongeligesamling.dk/media/frmdpmrf/1-brillantsaettet-collier-62-5a-3-ibk.jpg?width=960&height=960&v=1dba53ddcc13800",
+          "https://denkongeligesamling.dk/media/uzzjq2ye/brillantkaede3.jpg?rxy=0.40726817042606517,0.8336234220699512&width=960&height=1440&v=1db8e92052a0190",
+          "https://denkongeligesamling.dk/media/sbmnuzfv/brillantkaede2.jpg?rxy=0.5050125313283208,0.7905774690815182&width=960&height=960&v=1db8e8a3309c170",
+          "https://denkongeligesamling.dk/media/fpnopvnn/brillantsaettet-oerenringe-62-5b-1-ibk.jpg?width=960&height=960&v=1dba53ddc92fc10",
+          "https://denkongeligesamling.dk/media/1eidwath/a0620004-1-dig-ibk.jpg?width=960&height=960&v=1db8e9299226860",
+          "https://denkongeligesamling.dk/media/srshdnie/brillantsaettet-brystbuket-62-4-4-ibk.jpg?width=960&height=960&v=1dba53f0b422ad0",
+          "https://denkongeligesamling.dk/media/cb0nnun0/beskaaret-maleri-af-dronning-caroline-mathilde-kopi-efter-jens-juel-udfoert-af-wa-mueller-efter-1772.jpg?rxy=0.5388578226218634,0.3943223356860601&width=960&height=960&v=1db9ca29f6282f0",
+          "https://denkongeligesamling.dk/media/uzzjq2ye/brillantkaede3.jpg?rxy=0.40726817042606517,0.8336234220699512&width=960&height=960&v=1db8e92052a0190",
+          "https://denkongeligesamling.dk/media/vvghyj2s/a0330282-1521-samlet.jpg?width=720&height=720&v=1db9d835093c620",
+          "https://denkongeligesamling.dk/media/ehmjuhwm/smaragdsaettet-collier-broche-og-oereringe-62-6abd.jpg?width=720&height=720&v=1db9d88175f5b80",
+          "https://denkongeligesamling.dk/media/ryrjuheo/a0620002-m40.jpg?width=720&height=720&v=1db8e89f71a6ed0",
+          "https://denkongeligesamling.dk/media/iullnu5n/1-fototheroyaldanishcollection.jpg?width=720&height=720&v=1db8e912e0d0950",
+          "https://denkongeligesamling.dk/media/03cnhacb/rosenborgslot_17112024_21.jpg?width=720&height=720&v=1dba541147d39d0",
+          "https://denkongeligesamling.dk/media/hkvl0l5h/caroline-amalie.jpg?rxy=0.4999998182206939,0.3533363827957821&width=720&height=720&v=1db9ca17669bb30",
+          "https://denkongeligesamling.dk/media/o5zploqi/dronning-sophie-magdalene-profil.jpg?width=720&height=720&v=1dba5329e504490",
+          "https://denkongeligesamling.dk/media/fynpmkxt/a0210060-2242red.jpg?width=720&height=720&v=1dba534458ad350",
+          "https://denkongeligesamling.dk/media/cb0nnun0/beskaaret-maleri-af-dronning-caroline-mathilde-kopi-efter-jens-juel-udfoert-af-wa-mueller-efter-1772.jpg?rxy=0.5388578226218634,0.3943223356860601&width=720&height=720&v=1db9ca29f6282f0",
+          "https://denkongeligesamling.dk/media/q10l1g5e/a0210025-807-christian-7.jpg?rxy=0.47619047619047616,0.3703958336914113&width=720&height=720&v=1db9ca13d99f810"
+        ],
+        "fastPageSignals": [
+          "explicit_record_title_and_artist_match",
+          "figure_caption_relation"
+        ]
+      },
+      "status": "object_image_accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://denkongeligesamling.dk/media/frmdpmrf/1-brillantsaettet-collier-62-5a-3-ibk.jpg?width=960&height=960&v=1dba53ddcc13800",
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-brillant-cut-diamond-set/",
+        "sourceType": "official_museum",
+        "caption": "\n                                            \n                                                Brilliants side by side\n                                            \n                                            \n                                                The large brilliant-cut diamond at the centre of the chain was previously mounted on a ring given by the newly married Christian VII to his English bride, Caroline Mathilde. The six other large brilliants were also worn by Caroline Mathilde.\n                                            \n                                        ",
+        "identityEvidence": [
+          "explicit_record_title_and_artist_match",
+          "figure_caption_relation"
+        ],
+        "confidence": null,
+        "localPath": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/brilliant-cut-diamond-set.webp",
+        "sha256": "4727189f51561b7d7de224f0a387082d8b8b18e4645b480118d0fd6241742d9d",
+        "width": 960,
+        "height": 960,
+        "contentType": "image/webp",
+        "method": "official_fast_path",
+        "provider": "official_museum",
+        "evidenceId": "img:rosenborg:brilliant-cut-diamond-set:4727189f5156"
+      },
+      "warnings": [],
+      "durationMs": 2297,
+      "aiRequired": false,
+      "reusedFromParent": true,
+      "parentEvidencePath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/verified-image-evidence.json",
+      "parentEvidenceSha256": "a1fffe95f8254ace77079d2698f020fc3ce0bb2f2ea73075a0b97744f8c97fad"
+    },
+    {
+      "workId": "christian-v-crown",
+      "identity": {
+        "museumId": "rosenborg",
+        "workId": "christian-v-crown",
+        "title": "Christian V’s Crown",
+        "objectType": "object",
+        "titleZh": "克里斯蒂安五世王冠",
+        "titleEn": "Christian V’s Crown",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "1670—1671",
+        "medium": "黄金、白钻、蓝宝石、石榴石与珐琅",
+        "identityAnchor": "official-object:christian-vs-crown",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/christian-v-s-crown/",
+        "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/christian-v-s-crown/",
+        "accessionNumber": "5592",
+        "collectionGroup": "Royal crowns and Crown regalia"
+      },
+      "fastPath": {
+        "status": "fast_candidate_found",
+        "pageTitle": "Christian V’s Crown | The Royal Danish Collection",
+        "finalUrl": "https://denkongeligesamling.dk/en/the-collection/objects/christian-v-s-crown/",
+        "fastCandidate": {
+          "id": "dom-2",
+          "url": "https://denkongeligesamling.dk/media/dz4ddzmu/christian_viii_og_caroline_amalie_i_salvingsdragt-1841.jpg?width=640&height=360&v=1db9ca17fe344b0",
+          "alt": "Christian VIII’s anointing",
+          "caption": "\n                                            \n                                                Christian VIII’s anointing\n                                            \n                                            \n                                                Christian V’s crown was last used at the anointing of Christian VIII in 1840.\n                                            \n                                        ",
+          "nearbyText": "Christian VIII’s anointing\n\nChristian V’s crown was last used at the anointing of Christian VIII in 1840.",
+          "width": 640,
+          "height": 360,
+          "figureCaptionRelation": true,
+          "identitySignals": [
+            "explicit_record_title_and_artist_match",
+            "title_match",
+            "figure_caption_relation"
+          ],
+          "method": "official_object_image",
+          "provider": "generic-html"
+        },
+        "excludedImageUrls": [
+          "https://denkongeligesamling.dk/media/yxyl2f2q/christian-5s-krone-iben-kaufman.jpg",
+          "https://denkongeligesamling.dk/media/vvlblb3l/christian-5s-krone-iben-kaufman_kongernes-samling-250pct.jpg?width=1920&height=1080&v=1dba94d08549b20",
+          "https://denkongeligesamling.dk/media/dz4ddzmu/christian_viii_og_caroline_amalie_i_salvingsdragt-1841.jpg?width=640&height=360&v=1db9ca17fe344b0",
+          "https://denkongeligesamling.dk/media/k4onf4po/c7-i-salvingsdragt.jpg?width=640&height=960&v=1dba94ea9255160",
+          "https://denkongeligesamling.dk/media/kj0ejbqq/a0130333-386.jpg?width=640&height=640&v=1dba94ff39684c0",
+          "https://denkongeligesamling.dk/media/5e4aiaas/stemning_mads_holm_012_50.jpg?width=640&height=360&v=1dbc009ccd34c80"
+        ],
+        "fastPageSignals": [
+          "explicit_record_title_and_artist_match",
+          "title_match",
+          "figure_caption_relation"
+        ]
+      },
+      "status": "object_image_accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://denkongeligesamling.dk/media/dz4ddzmu/christian_viii_og_caroline_amalie_i_salvingsdragt-1841.jpg?width=640&height=360&v=1db9ca17fe344b0",
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/christian-v-s-crown/",
+        "sourceType": "official_museum",
+        "caption": "\n                                            \n                                                Christian VIII’s anointing\n                                            \n                                            \n                                                Christian V’s crown was last used at the anointing of Christian VIII in 1840.\n                                            \n                                        ",
+        "identityEvidence": [
+          "explicit_record_title_and_artist_match",
+          "title_match",
+          "figure_caption_relation"
+        ],
+        "confidence": null,
+        "localPath": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/christian-v-crown.jpg",
+        "sha256": "66fad2d5a568322f38d4f90cf543687fd8a706343c867bb204584cbdd0736183",
+        "width": 640,
+        "height": 360,
+        "contentType": "image/jpeg",
+        "method": "official_fast_path",
+        "provider": "official_museum",
+        "evidenceId": "img:rosenborg:christian-v-crown:66fad2d5a568"
+      },
+      "warnings": [],
+      "durationMs": 2079,
+      "aiRequired": false,
+      "reusedFromParent": true,
+      "parentEvidencePath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/verified-image-evidence.json",
+      "parentEvidenceSha256": "a1fffe95f8254ace77079d2698f020fc3ce0bb2f2ea73075a0b97744f8c97fad"
+    },
+    {
+      "workId": "emerald-set",
+      "identity": {
+        "museumId": "rosenborg",
+        "workId": "emerald-set",
+        "title": "The Emerald Set",
+        "objectType": "set",
+        "titleZh": "翡翠套饰",
+        "titleEn": "The Emerald Set",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "1840；部分宝石可追溯至1723年",
+        "medium": "黄金、白银、翡翠与明亮式切割钻石",
+        "identityAnchor": "official-object:the-emerald-set",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-emerald-set/",
+        "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-emerald-set/",
+        "accessionNumber": "5528",
+        "collectionGroup": "Danish crown jewels"
+      },
+      "fastPath": {
+        "status": "fast_candidate_found",
+        "pageTitle": "The Emerald Set | The Royal Danish Collection",
+        "finalUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-emerald-set/",
+        "fastCandidate": {
+          "id": "dom-1",
+          "url": "https://denkongeligesamling.dk/media/ti4bywca/smaragdsaettet-collier-62-6a-3-ibk.jpg?width=960&height=1440&v=1dba52b91091570",
+          "alt": "Gold, silver, emeralds and brilliant-cut diamonds  ",
+          "caption": "\n                                            \n                                                Gold, silver, emeralds and brilliant-cut diamonds  \n                                            \n                                            \n                                                The Emerald Set consists of a delicate gold frame with brilliant-cut diamonds set in silver mounts and large emeralds set in open mounts to allow the light to pass through the stones from both front and back. \n                                            \n                                        ",
+          "nearbyText": "Gold, silver, emeralds and brilliant-cut diamonds\n\nThe Emerald Set consists of a delicate gold frame with brilliant-cut diamonds set in silver mounts and large emeralds set in open mounts to allow the light to pass through the stones from both front and back.",
+          "width": 0,
+          "height": 0,
+          "figureCaptionRelation": true,
+          "identitySignals": [
+            "explicit_record_title_and_artist_match",
+            "title_match",
+            "figure_caption_relation"
+          ],
+          "method": "official_object_image",
+          "provider": "generic-html"
+        },
+        "excludedImageUrls": [
+          "https://denkongeligesamling.dk/media/5w1pqkl4/a0620006-a-1-dig-ibk.jpg",
+          "https://denkongeligesamling.dk/media/ti4bywca/smaragdsaettet-collier-62-6a-3-ibk.jpg?width=960&height=1440&v=1dba52b91091570",
+          "https://denkongeligesamling.dk/media/zp4o3fl2/smaragdsaettet-oereringe-62-6b-2-ibk.jpg?rxy=0.5050125313283208,0.7234753550543024&width=960&height=960&v=1dba52d4b433a50",
+          "https://denkongeligesamling.dk/media/ehmjuhwm/smaragdsaettet-collier-broche-og-oereringe-62-6abd.jpg?width=960&height=540&v=1db9d88175f5b80",
+          "https://denkongeligesamling.dk/media/24fbo3kt/smaragdsaettet-broche-62-6d-1-ibk.jpg?width=960&height=1440&v=1dba52b1dc220c0",
+          "https://denkongeligesamling.dk/media/mugm5o0q/6-smaragdsaettet-diadem-62-6c-1-ibk.jpg?rxy=0.49874686716791977,0.5272547254455826&width=960&height=540&v=1dc9b5b0d268630",
+          "https://denkongeligesamling.dk/media/rhobzoh2/a0620006-a-1-dig-ibk.jpg",
+          "https://denkongeligesamling.dk/media/vvghyj2s/a0330282-1521-samlet.jpg?width=720&height=720&v=1db9d835093c620",
+          "https://denkongeligesamling.dk/media/eonhwecm/brillantsaettet-brystbuket-62-4-1.jpg?width=720&height=720&v=1db9d882492b8b0",
+          "https://denkongeligesamling.dk/media/ryrjuheo/a0620002-m40.jpg?width=720&height=720&v=1db8e89f71a6ed0",
+          "https://denkongeligesamling.dk/media/iullnu5n/1-fototheroyaldanishcollection.jpg?width=720&height=720&v=1db8e912e0d0950",
+          "https://denkongeligesamling.dk/media/03cnhacb/rosenborgslot_17112024_21.jpg?width=720&height=720&v=1dba541147d39d0",
+          "https://denkongeligesamling.dk/media/hkvl0l5h/caroline-amalie.jpg?rxy=0.4999998182206939,0.3533363827957821&width=720&height=720&v=1db9ca17669bb30",
+          "https://denkongeligesamling.dk/media/o5zploqi/dronning-sophie-magdalene-profil.jpg?width=720&height=720&v=1dba5329e504490",
+          "https://denkongeligesamling.dk/media/fynpmkxt/a0210060-2242red.jpg?width=720&height=720&v=1dba534458ad350",
+          "https://denkongeligesamling.dk/media/v1imoii3/f5-a0130017.jpg?width=720&height=720&v=1dba5390c7d0380"
+        ],
+        "fastPageSignals": [
+          "explicit_record_title_and_artist_match",
+          "title_match",
+          "figure_caption_relation"
+        ]
+      },
+      "status": "object_image_accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://denkongeligesamling.dk/media/ti4bywca/smaragdsaettet-collier-62-6a-3-ibk.jpg?width=960&height=1440&v=1dba52b91091570",
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-emerald-set/",
+        "sourceType": "official_museum",
+        "caption": "\n                                            \n                                                Gold, silver, emeralds and brilliant-cut diamonds  \n                                            \n                                            \n                                                The Emerald Set consists of a delicate gold frame with brilliant-cut diamonds set in silver mounts and large emeralds set in open mounts to allow the light to pass through the stones from both front and back. \n                                            \n                                        ",
+        "identityEvidence": [
+          "explicit_record_title_and_artist_match",
+          "title_match",
+          "figure_caption_relation"
+        ],
+        "confidence": null,
+        "localPath": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/emerald-set.webp",
+        "sha256": "bd46b1b0c85f827b6fa01222ea9b826c36042731d88f69a94dd879447f80b1d2",
+        "width": 960,
+        "height": 1440,
+        "contentType": "image/webp",
+        "method": "official_fast_path",
+        "provider": "official_museum",
+        "evidenceId": "img:rosenborg:emerald-set:bd46b1b0c85f"
+      },
+      "warnings": [],
+      "durationMs": 2108,
+      "aiRequired": false,
+      "reusedFromParent": true,
+      "parentEvidencePath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/verified-image-evidence.json",
+      "parentEvidenceSha256": "a1fffe95f8254ace77079d2698f020fc3ce0bb2f2ea73075a0b97744f8c97fad"
+    },
+    {
+      "workId": "ampulla",
+      "identity": {
+        "museumId": "rosenborg",
+        "workId": "ampulla",
+        "title": "The Ampulla",
+        "objectType": "object",
+        "titleZh": "涂油壶",
+        "titleEn": "The Ampulla",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "1648",
+        "medium": "黄金、珐琅花饰与桌切钻石",
+        "identityAnchor": "official-object:ampulla",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/ampulla/",
+        "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/ampulla/",
+        "accessionNumber": "5538",
+        "collectionGroup": "Royal crowns and Crown regalia"
+      },
+      "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/ampulla/",
+      "page": {
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/ampulla/",
+        "finalUrl": "https://denkongeligesamling.dk/en/the-collection/objects/ampulla/",
+        "pageTitle": "Ampulla | The Royal Danish Collection",
+        "bodyText": "You control your data\n\n\nWe and our business partners use technologies, including cookies, to collect information about you for various purposes, including: personalization of content and ads, analyzing our traffic, and providing access to social media features.\n\nBy clicking ‘Accept’, you give your consent for all these purposes. You can also choose to specify the purposes you consent to by ticking the checkbox next to the purpose and clicking ‘Save settings’.\n\nYou may withdraw your consent at any time by clicking the small icon at the bottom left corner of the website.\n\nYou can read more about how we use cookies and other technologies and how we collect and process personal data by clicking the link.\n\nRead more about cookies\n\n\nShow details\nDECLINE ALL\nACCEPT ALL\nNecessary\nFunctional\nStatistical\nMarketing\nThe ampulla\n\nThis small beautiful container was created for the coronation of Frederik III, in 1648. It contained the anointing oil, which manifested that the king derived his power from God.\n\nPhoto Iben Kaufmann\nThe ampulla is a gold tin with a screw cap. The gold is decorated with hatching and colourful enamel flowers. Among the flowers, there are beautifully mounted table-cut diamonds.\n\nAnointing of Danish kings \n\nWe know that the tradition of anointing Danish kings goes back all the way to the first known coronation in Denmark with Knud VI’s accession to the throne in 1182, while Denmark was still a Catholic nation. With the Reformation, in 1536, Denmark abandoned Catholicism and became a Lutheran country, but the Catholic coronation ceremony was maintained. The first Lutheran king of Denmark, Christian III, and his consort, Queen Dorothea, were crowned and anointed in 1537 by Johan Bugenhagen of Wittenberg, one of Martin Luther's close associates. \n\nFor the anointing, the king kneeled in front of the bishop, who dabbed fragrant oil from the small ampulla on the king's forehead, wrist and chest – the locations matching Christ's wounds from the crown of thorns, the nails and the lance in his side. If the king was married, the queen was also anointed but only on her forehead and wrist. For reasons of propriety, the bishop did not apply oil to the queen's chest.\n\nImportant role during absolutism \n\nThe ampulla took on special significance during absolutism, when the king was no longer crowned but only anointed. The first time the ampulla was used was in connection with Christian V's accession to the throne, in 1670. This was the first royal anointing ceremony after the introduction of absolutism, in 1661, when the coronation was abolished. The king now placed the crown on his own head, and the anointing was the essential ceremonial act which proved that the king derived his power from God. \n\nHome\n→\nThe collection\n→\nObjects\n→\nAmpulla\nAmalienborg Museum\nChristiansborg Palace\nThe Hermitage Palace\nFredensborg Palace\nKoldinghus\nRosenborg Castle\nINFO\nContact us\nAbout us\nPress\nLogin for business customers\nTERMS\nData Protection Policy\nCookie consent\nWebsite Terms\nPrivacy statement\nTerms and conditions\nThe Royal Danish Collection\nØster Voldgade 4A 1350 Copenhagen K\nLINKEDIN",
+        "candidateCount": 8,
+        "candidates": [
+          {
+            "candidateId": "page-image-001",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/h0gjtxr1/buddike-2.jpg?rxy=0.5024077046548957,0.44640434192673&width=1920&height=1080&v=1dc83a7c0143880",
+            "selector": "div > div:nth-of-type(1) > div > div > div:nth-of-type(3) > figure > picture > img",
+            "alt": "Salvebuddiken, Siden middelalderen er kongen blevet salvet som indvielse til selve kroningen | Rosenborg Slot",
+            "nearbyText": "Photo Iben Kaufmann",
+            "visible": true,
+            "boundingBox": {
+              "x": 20,
+              "y": 316,
+              "width": 1400,
+              "height": 748
+            },
+            "naturalWidth": 1920,
+            "naturalHeight": 1080,
+            "elementKind": "img",
+            "elementIndex": 2,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/ampulla/",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-002",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/nembb5jn/salvebuddike.jpeg",
+            "selector": null,
+            "alt": "",
+            "nearbyText": "",
+            "visible": false,
+            "boundingBox": null,
+            "naturalWidth": 0,
+            "naturalHeight": 0,
+            "elementKind": "meta",
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/ampulla/",
+            "identityScore": 0
+          },
+          {
+            "candidateId": "page-image-003",
+            "url": "https://denkongeligesamling.dk/media/h0gjtxr1/buddike-2.jpg?rxy=0.5024077046548957,0.44640434192673&width=1920&height=1080&v=1dc83a7c0143880",
+            "contentType": "image/webp",
+            "sourceType": "network_image",
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/ampulla/",
+            "identityScore": -10
+          },
+          {
+            "candidateId": "page-image-004",
+            "url": "https://analytics.sleeknote.com/",
+            "contentType": "image/gif",
+            "sourceType": "network_image",
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/ampulla/",
+            "identityScore": -10
+          },
+          {
+            "candidateId": "page-image-005",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/0jwnzwy3/kgl-logo-01-sort.png",
+            "selector": "div#coiPage-1 > div:nth-of-type(1) > div > img",
+            "alt": "logo",
+            "nearbyText": "You control your data\n          \n          \n            We and our business partners use technologies, including cookies, to collect information about you for various purposes, including: personalization of content and ads, analyzing our traffic, and providing access to social media features.\nBy clicking ‘Accept’, you give your consent for all these purposes. You can also choose to specify the purposes you consent to by ticking the checkbox next to the purpose and clicking ‘Save settings’.\nYou may withdraw your consent at any time by clicking the small icon at the bottom left corner of the website.\nYou can read more about how we use cookies and other technologies and how we collect and process personal data by clicking the link.\n            Read more about cookies\n          \n          \n   ",
+            "visible": true,
+            "boundingBox": {
+              "x": 60,
+              "y": 60,
+              "width": 180,
+              "height": 33
+            },
+            "naturalWidth": 1236,
+            "naturalHeight": 155,
+            "elementKind": "img",
+            "elementIndex": 0,
+            "genericPenalty": 1,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/ampulla/",
+            "identityScore": -1000
+          }
+        ]
+      },
+      "status": "object_image_accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://denkongeligesamling.dk/media/h0gjtxr1/buddike-2.jpg?rxy=0.5024077046548957,0.44640434192673&width=1920&height=1080&v=1dc83a7c0143880",
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/ampulla/",
+        "sourceType": "page_image",
+        "caption": "The ampulla, a gold container decorated with enamel flowers and table-cut diamonds.",
+        "identityEvidence": [
+          "Official page title is Ampulla.",
+          "Image is the visible primary figure on the official Ampulla object page.",
+          "Alt text identifies the object as Salvebuddiken, the ampulla."
+        ],
+        "confidence": 0.99,
+        "localPath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/assets/ampulla.webp",
+        "sha256": "40279f026d4afd1dd9117380582d613923d614caf6b6b0334fdccf14a203e627",
+        "width": 1920,
+        "height": 1080,
+        "contentType": "image/webp",
+        "method": "ai_page_candidate_download",
+        "provider": "page-image-candidate",
+        "imageRole": "object_view",
+        "candidateId": "page-image-001"
+      },
+      "aiDecision": {
+        "workId": "ampulla",
+        "status": "candidate_found",
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/ampulla/",
+        "selectedImage": {
+          "candidateId": "page-image-001",
+          "imageUrl": "https://denkongeligesamling.dk/media/h0gjtxr1/buddike-2.jpg?rxy=0.5024077046548957,0.44640434192673&width=1920&height=1080&v=1dc83a7c0143880",
+          "candidateType": "direct_image",
+          "imageRole": "object_view",
+          "caption": "The ampulla, a gold container decorated with enamel flowers and table-cut diamonds.",
+          "identityEvidence": [
+            "Official page title is Ampulla.",
+            "Image is the visible primary figure on the official Ampulla object page.",
+            "Alt text identifies the object as Salvebuddiken, the ampulla."
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "warnings": [],
+      "retried": true,
+      "reusedFromParent": true,
+      "parentEvidencePath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/verified-image-evidence.json",
+      "parentEvidenceSha256": "a1fffe95f8254ace77079d2698f020fc3ce0bb2f2ea73075a0b97744f8c97fad"
+    },
+    {
+      "workId": "coronation-sword",
+      "identity": {
+        "museumId": "rosenborg",
+        "workId": "coronation-sword",
+        "title": "The Coronation Sword",
+        "objectType": "object",
+        "titleZh": "加冕剑",
+        "titleEn": "The Coronation Sword",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "1643；剑鞘为1648年加冕制作",
+        "medium": "金属剑身；钻石、珐琅与纹章装饰的剑柄和剑鞘",
+        "identityAnchor": "official-object:the-coronation-sword",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-coronation-sword/",
+        "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-coronation-sword/",
+        "accessionNumber": "5540",
+        "collectionGroup": "Royal crowns and Crown regalia"
+      },
+      "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-coronation-sword/",
+      "page": {
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-coronation-sword/",
+        "finalUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-coronation-sword/",
+        "pageTitle": "The Coronation Sword | The Royal Danish Collection",
+        "bodyText": "You control your data\n\n\nWe and our business partners use technologies, including cookies, to collect information about you for various purposes, including: personalization of content and ads, analyzing our traffic, and providing access to social media features.\n\nBy clicking ‘Accept’, you give your consent for all these purposes. You can also choose to specify the purposes you consent to by ticking the checkbox next to the purpose and clicking ‘Save settings’.\n\nYou may withdraw your consent at any time by clicking the small icon at the bottom left corner of the website.\n\nYou can read more about how we use cookies and other technologies and how we collect and process personal data by clicking the link.\n\nRead more about cookies\n\n\nShow details\nDECLINE ALL\nACCEPT ALL\nNecessary\nFunctional\nStatistical\nMarketing\nThe coronation sword\n\nThe coronation sword was used in the anointing of Danish kings and is part of the regalia of the Kingdom of Denmark.\n\nIben Kaufmann\nUntil the introduction of absolutism, in 1661, Danish kings were crowned and anointed in a solemn and elaborate ceremony.\n\nThe coronation sword was made in 1643 and became part of the Danish regalia when Frederik III carried it at his coronation, in 1648. For this reason, it is still known as the coronation sword, even through it was subsequently only used in anointing ceremonies. The hilt is a magnificent work of jewellery, closely set with diamonds and enamelled sections with colourful flowers.\n\nFor the coronation of Frederik III, in 1648, a scabbard was created for the sword, decorated with the coats of arms of all the countries and provinces in the Danish kingdom. In 1840, the Lauenburg coat of arms was added to bring the scabbard up to date for the anointing of Christian VIII. The Duchy of Lauenburg had been a part of Denmark since 1815. On the same occasion, it would, arguably, have been appropriate to remove Norway’s coat of arms, since Norway had not been part of the Danish kingdom since 1814, but that did not happen. \n\nDetails\nDetail\n\nPhoto: Iben Kaufmann\n\nDetail\n\nPhoto: Iben Kaufmann\n\nDetail\n\nPhoto: Iben Kaufmann\n\nDetail\n\nPhoto: Iben Kaufmann\n\nIn addition to the coronation sword, the Danish regalia consist of\nObject\nThe orb\n\nThe orb is a part of the regalia. It was used in coronation and anointing ceremonies until the end of absolutism, in 1848.\n\nObject\nThe sceptre\n\nThe sceptre is a part of the regalia, which are kept in the Treasury under Rosenborg Castle.\n\nObject\nChristian V’s crown\n\nWhen Christian V took to the throne, in 1670, as the first absolute king of Denmark, he wore the crown of the absolute monarchy.\n\nHome\n→\nThe collection\n→\nObjects\n→\nThe Coronation Sword\nAmalienborg Museum\nChristiansborg Palace\nThe Hermitage Palace\nFredensborg Palace\nKoldinghus\nRosenborg Castle\nINFO\nContact us\nAbout us\nPress\nLogin for business customers\nTERMS\nData Protection Policy\nCookie consent\nWebsite Terms\nPrivacy statement\nTerms and conditions\nThe Royal Danish Collection\nØster Voldgade 4A 1350 Copenhagen K\nLINKEDIN",
+        "candidateCount": 22,
+        "candidates": [
+          {
+            "candidateId": "page-image-001",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/ny0ishuq/frederik-3-kronings-kaarde.jpg?width=1920&height=1080&v=1dcb3e6f8ff4080",
+            "selector": "div > div:nth-of-type(1) > div > div > div:nth-of-type(3) > figure > picture > img",
+            "alt": "Kroningskården",
+            "nearbyText": "Iben Kaufmann",
+            "visible": true,
+            "boundingBox": {
+              "x": 20,
+              "y": 316,
+              "width": 1400,
+              "height": 748
+            },
+            "naturalWidth": 1920,
+            "naturalHeight": 1080,
+            "elementKind": "img",
+            "elementIndex": 2,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-coronation-sword/",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-002",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/cljhm45z/a0610008-1-dig-ibk.png?width=640&height=960&v=1dcb60b303f69f0",
+            "selector": "div:nth-of-type(2) > div > div > div:nth-of-type(1) > figure > a > picture > img",
+            "alt": "Detail",
+            "nearbyText": "Detail\n                                            \n                                            \n                                                Photo: Iben Kaufmann",
+            "visible": true,
+            "boundingBox": {
+              "x": 20,
+              "y": 1920,
+              "width": 453,
+              "height": 680
+            },
+            "naturalWidth": 640,
+            "naturalHeight": 960,
+            "elementKind": "img",
+            "elementIndex": 3,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-coronation-sword/",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-003",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/ow5nv5o1/a0610008-5-dig-ibk.png?width=640&height=960&v=1dcb60aecec2760",
+            "selector": "div:nth-of-type(2) > div > div > div:nth-of-type(2) > figure > a > picture > img",
+            "alt": "Detail",
+            "nearbyText": "Detail\n                                            \n                                            \n                                                Photo: Iben Kaufmann",
+            "visible": true,
+            "boundingBox": {
+              "x": 493,
+              "y": 1920,
+              "width": 453,
+              "height": 680
+            },
+            "naturalWidth": 640,
+            "naturalHeight": 960,
+            "elementKind": "img",
+            "elementIndex": 4,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-coronation-sword/",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-004",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/dgwa0xbi/a0610008-17-dig-ibk.png?width=640&height=960&v=1dcb60aea990fa0",
+            "selector": "div:nth-of-type(2) > div > div > div:nth-of-type(3) > figure > a > picture > img",
+            "alt": "Detail",
+            "nearbyText": "Detail\n                                            \n                                            \n                                                Photo: Iben Kaufmann",
+            "visible": true,
+            "boundingBox": {
+              "x": 967,
+              "y": 1920,
+              "width": 453,
+              "height": 680
+            },
+            "naturalWidth": 640,
+            "naturalHeight": 960,
+            "elementKind": "img",
+            "elementIndex": 5,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-coronation-sword/",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-005",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/b0enxywd/rigsaeblet_ibenkaufmann.jpg?width=640&height=640&v=1dbe73e9500ae40",
+            "selector": "div > div > div:nth-of-type(1) > a > article > div:nth-of-type(1) > picture > img",
+            "alt": "",
+            "nearbyText": "Object\n                                        \n                                        \n                                            \n                                                The orb\n                                            \n                                        \n                                        The orb is a part of the regalia. It was used in coronation and anointing ceremonies until the end of absolutism, in 1848.",
+            "visible": true,
+            "boundingBox": {
+              "x": 20,
+              "y": 2869,
+              "width": 453,
+              "height": 453
+            },
+            "naturalWidth": 640,
+            "naturalHeight": 640,
+            "elementKind": "img",
+            "elementIndex": 7,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-coronation-sword/",
+            "identityScore": 20
+          }
+        ]
+      },
+      "status": "object_image_accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://denkongeligesamling.dk/media/ny0ishuq/frederik-3-kronings-kaarde.jpg?width=1920&height=1080&v=1dcb3e6f8ff4080",
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-coronation-sword/",
+        "sourceType": "page_image",
+        "caption": "The Coronation Sword.",
+        "identityEvidence": [
+          "Official page title is The Coronation Sword.",
+          "Image is the visible primary figure on the official object page.",
+          "Alt text identifies the image as Kroningskården."
+        ],
+        "confidence": 0.99,
+        "localPath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/assets/coronation-sword.webp",
+        "sha256": "c2ee703fe904173e7d8b62ac99e0fd3b4de15412a96310ac0bd8d9e7bf20cf97",
+        "width": 1920,
+        "height": 1080,
+        "contentType": "image/webp",
+        "method": "ai_page_candidate_download",
+        "provider": "page-image-candidate",
+        "imageRole": "object_view",
+        "candidateId": "page-image-001"
+      },
+      "aiDecision": {
+        "workId": "coronation-sword",
+        "status": "candidate_found",
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-coronation-sword/",
+        "selectedImage": {
+          "candidateId": "page-image-001",
+          "imageUrl": "https://denkongeligesamling.dk/media/ny0ishuq/frederik-3-kronings-kaarde.jpg?width=1920&height=1080&v=1dcb3e6f8ff4080",
+          "candidateType": "direct_image",
+          "imageRole": "object_view",
+          "caption": "The Coronation Sword.",
+          "identityEvidence": [
+            "Official page title is The Coronation Sword.",
+            "Image is the visible primary figure on the official object page.",
+            "Alt text identifies the image as Kroningskården."
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "warnings": [],
+      "retried": true,
+      "reusedFromParent": true,
+      "parentEvidencePath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/verified-image-evidence.json",
+      "parentEvidenceSha256": "a1fffe95f8254ace77079d2698f020fc3ce0bb2f2ea73075a0b97744f8c97fad"
+    },
+    {
+      "workId": "christian-iv-blood-stained-clothes",
+      "identity": {
+        "museumId": "rosenborg",
+        "workId": "christian-iv-blood-stained-clothes",
+        "title": "Christian IV’s blood-stained clothes",
+        "objectType": "object",
+        "titleZh": "克里斯蒂安四世染血服装",
+        "titleEn": "Christian IV’s blood-stained clothes",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "1644",
+        "medium": "染血服装与王室纪念物",
+        "identityAnchor": "official-object:christian-ivs-blood-stained-clothes",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/christian-ivs-blood-stained-clothes/",
+        "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/christian-ivs-blood-stained-clothes/",
+        "accessionNumber": null,
+        "collectionGroup": "Historical clothing and other royal objects"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Christian IV's blood stained clothes | The Royal Danish Collection",
+        "finalUrl": "https://denkongeligesamling.dk/en/the-collection/objects/christian-ivs-blood-stained-clothes/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://denkongeligesamling.dk/media/jgndagf3/christian-4s-blodplettede-toej.jpg",
+          "https://denkongeligesamling.dk/media/fl5p3pnf/44282a.jpg?width=1920&height=1080&v=1db97eb37733f10",
+          "https://denkongeligesamling.dk/media/5dzdqitd/blodigt-toej.jpg?rxy=0.5050125313283208,0.285971599178792&width=960&height=1440&v=1db94bb59ee0d50",
+          "https://denkongeligesamling.dk/media/xbso04fu/blodig-krave.jpg?width=960&height=520&v=1db9422d96ba130",
+          "https://denkongeligesamling.dk/media/qzoczy1v/christian-4-profil.jpg?rxy=0.45864661654135336,0.20479833417236754&width=720&height=720&v=1dc9f413a4d3020",
+          "https://denkongeligesamling.dk/media/rmundqvb/c4-kammer-jens-ole-jacobsen-005-50.jpg?width=720&height=720&v=1dc9167b4920640"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://kongegrave.dk/wp-content/uploads/2020/12/christian-4-blod-1-679x1024.jpg",
+        "sourcePageUrl": "https://kongegrave.dk/?page_id=7835",
+        "sourceType": "other",
+        "caption": "Christian IV’s blood-stained clothes from the Battle of Kolberger Heide, Rosenborg.",
+        "identityEvidence": [
+          "Publication page caption explicitly identifies the image as Christian IV’s blood-stained clothes.",
+          "Caption identifies Rosenborg as the location.",
+          "Official museum page identifies the work as Christian IV’s blood-stained clothes from the 1644 battle context."
+        ],
+        "confidence": 0.94,
+        "localPath": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/christian-iv-blood-stained-clothes.jpg",
+        "sha256": "45a20b52f5c97e5aacc1a87df55eca2416f4e4f1af284b80121bf07a2e7f6437",
+        "width": 679,
+        "height": 1024,
+        "contentType": "image/jpeg",
+        "method": "ai_image_research",
+        "provider": "other",
+        "evidenceId": "img:rosenborg:christian-iv-blood-stained-clothes:45a20b52f5c9"
+      },
+      "warnings": [],
+      "durationMs": 930,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "christian-iv-blood-stained-clothes",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://kongegrave.dk/wp-content/uploads/2020/12/christian-4-blod-1-679x1024.jpg",
+          "sourcePageUrl": "https://kongegrave.dk/?page_id=7835",
+          "sourceType": "other",
+          "caption": "Christian IV’s blood-stained clothes from the Battle of Kolberger Heide, Rosenborg.",
+          "identityEvidence": [
+            "Publication page caption explicitly identifies the image as Christian IV’s blood-stained clothes.",
+            "Caption identifies Rosenborg as the location.",
+            "Official museum page identifies the work as Christian IV’s blood-stained clothes from the 1644 battle context."
+          ],
+          "confidence": 0.94
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "reusedFromParent": true,
+      "parentEvidencePath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/verified-image-evidence.json",
+      "parentEvidenceSha256": "a1fffe95f8254ace77079d2698f020fc3ce0bb2f2ea73075a0b97744f8c97fad"
+    },
+    {
+      "workId": "narwhal-throne",
+      "identity": {
+        "museumId": "rosenborg",
+        "workId": "narwhal-throne",
+        "title": "The narwhal throne",
+        "objectType": "object",
+        "titleZh": "独角鲸牙王座",
+        "titleEn": "The narwhal throne",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "1662—1671",
+        "medium": "独角鲸牙、镀金金属与王座结构",
+        "identityAnchor": "official-object:the-narwhal-throne",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-narwhal-throne/",
+        "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-narwhal-throne/",
+        "accessionNumber": null,
+        "collectionGroup": "Historic royal interiors and objects"
+      },
+      "fastPath": {
+        "status": "fast_candidate_found",
+        "pageTitle": "The narwhal throne | The Royal Danish Collection",
+        "finalUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-narwhal-throne/",
+        "fastCandidate": {
+          "id": "dom-2",
+          "url": "https://denkongeligesamling.dk/media/a4glwlzz/trone-riddersal_rasmus_t_rosenberg.jpg?width=960&height=1440&v=1dc31182b000530",
+          "alt": "Frederik III wanted a throne made of gold and ivory. However, the actual throne is not made of gold but does have figures of gilded metal.",
+          "caption": "Frederik III wanted a throne made of gold and ivory. However, the actual throne is not made of gold but does have figures of gilded metal.",
+          "nearbyText": "Frederik III wanted a throne made of gold and ivory. However, the actual throne is not made of gold but does have figures of gilded metal.",
+          "width": 960,
+          "height": 1440,
+          "figureCaptionRelation": true,
+          "identitySignals": [
+            "explicit_record_title_and_artist_match",
+            "figure_caption_relation"
+          ],
+          "method": "official_object_image",
+          "provider": "generic-html"
+        },
+        "excludedImageUrls": [
+          "https://denkongeligesamling.dk/media/hpxlgmnq/narvhalstronen.jpg",
+          "https://denkongeligesamling.dk/media/ebmn34me/soelvloever.jpg?width=1920&height=1080&v=1dc31182b72eb40",
+          "https://denkongeligesamling.dk/media/a4glwlzz/trone-riddersal_rasmus_t_rosenberg.jpg?width=960&height=1440&v=1dc31182b000530",
+          "https://denkongeligesamling.dk/media/tlpbtis3/narhvalstronen.jpg?width=960&height=1440&v=1dc690218c83fa0"
+        ],
+        "fastPageSignals": [
+          "explicit_record_title_and_artist_match",
+          "figure_caption_relation"
+        ]
+      },
+      "status": "object_image_accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://denkongeligesamling.dk/media/a4glwlzz/trone-riddersal_rasmus_t_rosenberg.jpg?width=960&height=1440&v=1dc31182b000530",
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-narwhal-throne/",
+        "sourceType": "official_museum",
+        "caption": "Frederik III wanted a throne made of gold and ivory. However, the actual throne is not made of gold but does have figures of gilded metal.",
+        "identityEvidence": [
+          "explicit_record_title_and_artist_match",
+          "figure_caption_relation"
+        ],
+        "confidence": null,
+        "localPath": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/narwhal-throne.webp",
+        "sha256": "7646874e1b7cc88837a3cfd6aafdf1c8b4fba41eb59c78f7291622c38db506dd",
+        "width": 960,
+        "height": 1440,
+        "contentType": "image/webp",
+        "method": "official_fast_path",
+        "provider": "official_museum",
+        "evidenceId": "img:rosenborg:narwhal-throne:7646874e1b7c"
+      },
+      "warnings": [],
+      "durationMs": 1058,
+      "aiRequired": false,
+      "reusedFromParent": true,
+      "parentEvidencePath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/verified-image-evidence.json",
+      "parentEvidenceSha256": "a1fffe95f8254ace77079d2698f020fc3ce0bb2f2ea73075a0b97744f8c97fad"
+    },
+    {
+      "workId": "shrapnel-earrings",
+      "identity": {
+        "museumId": "rosenborg",
+        "workId": "shrapnel-earrings",
+        "title": "Shrapnel earrings",
+        "objectType": "pair",
+        "titleZh": "弹片耳环",
+        "titleEn": "Shrapnel earrings",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "1644年战伤之后",
+        "medium": "战场弹片改制的耳环",
+        "identityAnchor": "official-object:shrapnel-earrings",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/shrapnel-earrings/",
+        "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/shrapnel-earrings/",
+        "accessionNumber": null,
+        "collectionGroup": "Historical clothing and other royal objects"
+      },
+      "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/shrapnel-earrings/",
+      "page": {
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/shrapnel-earrings/",
+        "finalUrl": "https://denkongeligesamling.dk/en/the-collection/objects/shrapnel-earrings/",
+        "pageTitle": "Shrapnel earrings | The Royal Danish Collection",
+        "bodyText": "You control your data\n\n\nWe and our business partners use technologies, including cookies, to collect information about you for various purposes, including: personalization of content and ads, analyzing our traffic, and providing access to social media features.\n\nBy clicking ‘Accept’, you give your consent for all these purposes. You can also choose to specify the purposes you consent to by ticking the checkbox next to the purpose and clicking ‘Save settings’.\n\nYou may withdraw your consent at any time by clicking the small icon at the bottom left corner of the website.\n\nYou can read more about how we use cookies and other technologies and how we collect and process personal data by clicking the link.\n\nRead more about cookies\n\n\nShow details\nDECLINE ALL\nACCEPT ALL\nNecessary\nFunctional\nStatistical\nMarketing\nShrapnel earrings\n\nTwo of the pieces of shrapnel that were removed from Christian IV's head were used to make a pair of earrings that he gave to his mistress for 14 years, Vibeke Kruse.\n\nDid you know that Christian IV had shrapnel removed from his brow and his eye and had the fragments turned into jewellery for his mistress Vibeke Kruse?\n\nA romantic gift to the King's mistress\n\nDuring the large naval battle against the Swedes at Kolberger Heide, in 1644, Christian IV's flagship 'Trefoldigheden' [Trinity] was struck by a hail of Swedish bullets. Several of the men on board the King's ship were killed, and the King himself was struck by several pieces of shrapnel. The aging Christian IV almost lost his life, but his men were able to bring him round. Among his many injuries, the King lost sight in his right eye. Two of the pieces of shrapnel that were removed from Christian IV's head were mounted in a pair of earrings that he gave to his mistress for 14 years, Vibeke Kruse. \n\nThe earrings are made of enamelled gold and are shaped like a pair of hands, which hold fragments from an exploded cannon and a Swedish bullet. After the battle, surgeons removed the shrapnel from the King's brow and injured eye. The jewellery shows the warmth of Christian IV's feelings for his mistress, even though she was initially merely a distraction and a comfort for the lovesick Christian, after he was abandoned by the love of his life, Kirsten Munk. Christian IV and Vibeke Kruse stayed together until the King's death, in 1648, four years after the naval battle.  \n\nObsessed with his posthumous reputation\n\nIt is quite remarkable that Christian IV parted with the shrapnel, rather than adding them to his collection of personal war mementos, as he did with his blood-stained clothes from the explosion. Christian IV was obsessed with shaping his posthumous reputation and collected tangible mementos from his heroic exploits. \n\nToday, the earrings and the blood-stained clothes are on display in Christian IV's Bedchamber at Rosenborg Castle.\n\nExplore history\nHalls and rooms\nChristian IV's Bedchamber\n\nThe earrings and Christian IV's blood-stained clothes are on display in Christian IV's Bedchamber at Rosenborg Castle.\n\nGenstand\nChristian IV's blood-stained clothes\n\nChristian IV's blood-stained clothes are on display at Rosenborg Castle.\n\n1577–1648\nChristian IV\n\nChristian IV was the son of Frederik II. He is remembered especially for his many building projects, including Rosenborg Castle, the Round Tower and the Old Copenhagen Stock Exchange.\n\nHome\n→\nThe collection\n→\nObjects\n→\nShrapnel earrings\nAmalienborg Museum\nChristiansborg Palace\nThe Hermitage Palace\nFredensborg Palace\nKoldinghus\nRosenborg Castle\nINFO\nContact us\nAbout us\nPress\nLogin for business customers\nTERMS\nData Protection Policy\nCookie consent\nWebsite Terms\nPrivacy statement\nTerms and conditions\nThe Royal Danish Collection\nØster Voldgade 4A 1350 Copenhagen K\nLINKEDIN",
+        "candidateCount": 14,
+        "candidates": [
+          {
+            "candidateId": "page-image-001",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/zd1mou2u/splinter-oeresmykker.jpg?width=1920&height=1080&v=1dc630086d29610",
+            "selector": "div > div:nth-of-type(1) > div > div > div:nth-of-type(3) > figure > picture > img",
+            "alt": "",
+            "nearbyText": "",
+            "visible": true,
+            "boundingBox": {
+              "x": 20,
+              "y": 316,
+              "width": 1400,
+              "height": 748
+            },
+            "naturalWidth": 1920,
+            "naturalHeight": 1080,
+            "elementKind": "img",
+            "elementIndex": 2,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/shrapnel-earrings/",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-002",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/jo0lxa4n/rosenborg_room3_03_web.jpg?width=640&height=640&v=1db932bbce20f10",
+            "selector": "div > div > div:nth-of-type(1) > a > article > div:nth-of-type(1) > picture > img",
+            "alt": "",
+            "nearbyText": "Halls and rooms\n                                        \n                                        \n                                            \n                                                Christian IV's Bedchamber\n                                            \n                                        \n                                        The earrings and Christian IV's blood-stained clothes are on display in Christian IV's Bedchamber at Rosenborg Castle.",
+            "visible": true,
+            "boundingBox": {
+              "x": 20,
+              "y": 2278,
+              "width": 453,
+              "height": 453
+            },
+            "naturalWidth": 640,
+            "naturalHeight": 640,
+            "elementKind": "img",
+            "elementIndex": 3,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/shrapnel-earrings/",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-003",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/5dzdqitd/blodigt-toej.jpg?rxy=0.5050125313283208,0.285971599178792&width=640&height=640&v=1db94bb59ee0d50",
+            "selector": "div > div > div:nth-of-type(2) > a > article > div:nth-of-type(1) > picture > img",
+            "alt": "",
+            "nearbyText": "Genstand\n                                        \n                                        \n                                            \n                                                Christian IV's blood-stained clothes\n                                            \n                                        \n                                        Christian IV's blood-stained clothes are on display at Rosenborg Castle.",
+            "visible": true,
+            "boundingBox": {
+              "x": 493,
+              "y": 2278,
+              "width": 453,
+              "height": 453
+            },
+            "naturalWidth": 640,
+            "naturalHeight": 640,
+            "elementKind": "img",
+            "elementIndex": 4,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/shrapnel-earrings/",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-004",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/qzoczy1v/christian-4-profil.jpg?rxy=0.45864661654135336,0.20479833417236754&width=640&height=640&v=1dc9f413a4d3020",
+            "selector": "div > div > div:nth-of-type(3) > a > article > div:nth-of-type(1) > picture > img",
+            "alt": "",
+            "nearbyText": "1577–1648\n                                        \n                                        \n                                            \n                                                Christian IV\n                                            \n                                        \n                                        Christian IV was the son of Frederik II. He is remembered especially for his many building projects, including Rosenborg Castle, the Round Tower and the Old Copenhagen Stock Exchange.",
+            "visible": true,
+            "boundingBox": {
+              "x": 967,
+              "y": 2278,
+              "width": 453,
+              "height": 453
+            },
+            "naturalWidth": 640,
+            "naturalHeight": 640,
+            "elementKind": "img",
+            "elementIndex": 5,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/shrapnel-earrings/",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-005",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/tylhmvat/splinter-oeresmykker.jpg",
+            "selector": null,
+            "alt": "",
+            "nearbyText": "",
+            "visible": false,
+            "boundingBox": null,
+            "naturalWidth": 0,
+            "naturalHeight": 0,
+            "elementKind": "meta",
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/shrapnel-earrings/",
+            "identityScore": 0
+          }
+        ]
+      },
+      "status": "object_image_accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://denkongeligesamling.dk/media/zd1mou2u/splinter-oeresmykker.jpg?width=1920&height=1080&v=1dc630086d29610",
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/shrapnel-earrings/",
+        "sourceType": "page_image",
+        "caption": "Shrapnel earrings made from fragments removed from Christian IV’s head.",
+        "identityEvidence": [
+          "Official page title is Shrapnel earrings.",
+          "Image is the visible primary figure on the official object page.",
+          "Image filename identifies splinter earrings."
+        ],
+        "confidence": 0.99,
+        "localPath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/assets/shrapnel-earrings.webp",
+        "sha256": "7b024eddba2d683f7c69b7f05249944a3fbaa4cc6b378b56dbc5a10e5a0824c0",
+        "width": 1920,
+        "height": 1080,
+        "contentType": "image/webp",
+        "method": "ai_page_candidate_download",
+        "provider": "page-image-candidate",
+        "imageRole": "object_view",
+        "candidateId": "page-image-001"
+      },
+      "aiDecision": {
+        "workId": "shrapnel-earrings",
+        "status": "candidate_found",
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/shrapnel-earrings/",
+        "selectedImage": {
+          "candidateId": "page-image-001",
+          "imageUrl": "https://denkongeligesamling.dk/media/zd1mou2u/splinter-oeresmykker.jpg?width=1920&height=1080&v=1dc630086d29610",
+          "candidateType": "direct_image",
+          "imageRole": "object_view",
+          "caption": "Shrapnel earrings made from fragments removed from Christian IV’s head.",
+          "identityEvidence": [
+            "Official page title is Shrapnel earrings.",
+            "Image is the visible primary figure on the official object page.",
+            "Image filename identifies splinter earrings."
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "warnings": [],
+      "retried": true,
+      "reusedFromParent": true,
+      "parentEvidencePath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/verified-image-evidence.json",
+      "parentEvidenceSha256": "a1fffe95f8254ace77079d2698f020fc3ce0bb2f2ea73075a0b97744f8c97fad"
+    },
+    {
+      "workId": "christian-iii-sword-of-state",
+      "identity": {
+        "museumId": "rosenborg",
+        "workId": "christian-iii-sword-of-state",
+        "title": "Christian III's sword of state",
+        "objectType": "object",
+        "titleZh": "克里斯蒂安三世国剑",
+        "titleEn": "Christian III's sword of state",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "1551",
+        "medium": "国剑；金属、宝石与珐琅装饰",
+        "identityAnchor": "official-object:chr-iii-s-sword-of-state",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/chr-iii-s-sword-of-state/",
+        "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/chr-iii-s-sword-of-state/",
+        "accessionNumber": null,
+        "collectionGroup": "Royal crowns and Crown regalia"
+      },
+      "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/chr-iii-s-sword-of-state/",
+      "page": {
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/chr-iii-s-sword-of-state/",
+        "finalUrl": "https://denkongeligesamling.dk/en/the-collection/objects/chr-iii-s-sword-of-state/",
+        "pageTitle": "Chr. III’s Sword of State | The Royal Danish Collection",
+        "bodyText": "You control your data\n\n\nWe and our business partners use technologies, including cookies, to collect information about you for various purposes, including: personalization of content and ads, analyzing our traffic, and providing access to social media features.\n\nBy clicking ‘Accept’, you give your consent for all these purposes. You can also choose to specify the purposes you consent to by ticking the checkbox next to the purpose and clicking ‘Save settings’.\n\nYou may withdraw your consent at any time by clicking the small icon at the bottom left corner of the website.\n\nYou can read more about how we use cookies and other technologies and how we collect and process personal data by clicking the link.\n\nRead more about cookies\n\n\nShow details\nDECLINE ALL\nACCEPT ALL\nNecessary\nFunctional\nStatistical\nMarketing\nChristian III's sword of state\n\nIn 1551, Christian III commissioned an imposing sword of state to be used in the coronations of Danish kings. \n\nIn 1551, Christian III commissioned a truly imposing sword of state. The sword is more than one metre long and so heavy that it takes two hands to wield it.\n\nFirst, the King is handed the sword of state  \n\nAt this time in history – before the introduction of absolutism in 1661 – the Danish monarch was crowned in a religious ceremony. During this event, the King was handed the sceptre, the orb and the sword of state. The ceremony culminated when the crown was placed on the King's head. The sword of state was the first of the regalia to be handed to the King, who immediately drew the heavy sword and pointed it towards the four corners of the world. With this ritual act, the King demonstrated his determination to defend his realm. \n\nThe sword of state is one metre long and so heavy that it takes two hands to wield. The hilt and the scabbard are made of silver-gilt and lavishly decorated with diamonds and the Danish coat of arms in enamel. \n\nThe sword of state in use\n\nThe sword of state was first used at the coronation of Christian III's son Frederik II, in 1559. The last time it was used was just under 100 years later, at the coronation of Frederik III, in 1648. When the first absolute king, Christian V, took to the throne, in 1671, Denmark had become a hereditary monarchy, and the coronation ceremony was no longer necessary. However, new kings were still anointed with consecrated oil as a sign that his reign was blessed by God. \n\nToday, the sword of state is on display in the Treasury under Rosenborg Castle.\n\nHome\n→\nThe collection\n→\nObjects\n→\nChr. III’s Sword of State\nAmalienborg Museum\nChristiansborg Palace\nThe Hermitage Palace\nFredensborg Palace\nKoldinghus\nRosenborg Castle\nINFO\nContact us\nAbout us\nPress\nLogin for business customers\nTERMS\nData Protection Policy\nCookie consent\nWebsite Terms\nPrivacy statement\nTerms and conditions\nThe Royal Danish Collection\nØster Voldgade 4A 1350 Copenhagen K\nLINKEDIN",
+        "candidateCount": 16,
+        "candidates": [
+          {
+            "candidateId": "page-image-001",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/i1deqjce/a0610001-7-dig-ibk.jpg?width=1920&height=1080&v=1dbb9be723d33e0",
+            "selector": "div > div:nth-of-type(1) > div > div > div:nth-of-type(3) > figure > picture > img",
+            "alt": "",
+            "nearbyText": "",
+            "visible": true,
+            "boundingBox": {
+              "x": 20,
+              "y": 316,
+              "width": 1400,
+              "height": 748
+            },
+            "naturalWidth": 1920,
+            "naturalHeight": 1080,
+            "elementKind": "img",
+            "elementIndex": 2,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/chr-iii-s-sword-of-state/",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-002",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/z2kba5zu/a0610001.jpg?width=960&height=1440&v=1dbb9be56a2db80",
+            "selector": "div:nth-of-type(3) > div > div > div:nth-of-type(1) > figure > a > picture > img",
+            "alt": "",
+            "nearbyText": "",
+            "visible": true,
+            "boundingBox": {
+              "x": 20,
+              "y": 2012,
+              "width": 690,
+              "height": 1035
+            },
+            "naturalWidth": 960,
+            "naturalHeight": 1440,
+            "elementKind": "img",
+            "elementIndex": 3,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/chr-iii-s-sword-of-state/",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-003",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/eddlgotw/a0610001-6-dig-ibk.jpg?width=960&height=1440&v=1dbb9be5909c960",
+            "selector": "div:nth-of-type(3) > div > div > div:nth-of-type(2) > figure > a > picture > img",
+            "alt": "",
+            "nearbyText": "",
+            "visible": true,
+            "boundingBox": {
+              "x": 730,
+              "y": 2012,
+              "width": 690,
+              "height": 1035
+            },
+            "naturalWidth": 960,
+            "naturalHeight": 1440,
+            "elementKind": "img",
+            "elementIndex": 4,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/chr-iii-s-sword-of-state/",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-004",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/1qgb3xzd/a0610001-3-dig-ibk.jpg?width=960&height=1440&v=1dbb9be57598150",
+            "selector": "div:nth-of-type(4) > div > div > div:nth-of-type(1) > figure > a > picture > img",
+            "alt": "",
+            "nearbyText": "",
+            "visible": true,
+            "boundingBox": {
+              "x": 20,
+              "y": 3207,
+              "width": 690,
+              "height": 1035
+            },
+            "naturalWidth": 960,
+            "naturalHeight": 1440,
+            "elementKind": "img",
+            "elementIndex": 5,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/chr-iii-s-sword-of-state/",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-005",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/2x3plkpe/a0610001-8-dig-ibk.jpg?width=960&height=1440&v=1dbb9be58cd3590",
+            "selector": "div:nth-of-type(4) > div > div > div:nth-of-type(2) > figure > a > picture > img",
+            "alt": "",
+            "nearbyText": "",
+            "visible": true,
+            "boundingBox": {
+              "x": 730,
+              "y": 3207,
+              "width": 690,
+              "height": 1035
+            },
+            "naturalWidth": 960,
+            "naturalHeight": 1440,
+            "elementKind": "img",
+            "elementIndex": 6,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/chr-iii-s-sword-of-state/",
+            "identityScore": 20
+          }
+        ]
+      },
+      "status": "object_image_accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://denkongeligesamling.dk/media/i1deqjce/a0610001-7-dig-ibk.jpg?width=1920&height=1080&v=1dbb9be723d33e0",
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/chr-iii-s-sword-of-state/",
+        "sourceType": "page_image",
+        "caption": "Christian III’s sword of state.",
+        "identityEvidence": [
+          "Official page title is Christian III's sword of state.",
+          "Image is the visible primary figure on the official object page.",
+          "Page text identifies the sword as a one-metre-long state sword with silver-gilt, diamond and enamel decoration."
+        ],
+        "confidence": 0.99,
+        "localPath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/assets/christian-iii-sword-of-state.webp",
+        "sha256": "2825e0713db9ac0448192822cbdd4649bc77ba4083aee731b6b4a838c8c41912",
+        "width": 1920,
+        "height": 1080,
+        "contentType": "image/webp",
+        "method": "ai_page_candidate_download",
+        "provider": "page-image-candidate",
+        "imageRole": "object_view",
+        "candidateId": "page-image-001"
+      },
+      "aiDecision": {
+        "workId": "christian-iii-sword-of-state",
+        "status": "candidate_found",
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/chr-iii-s-sword-of-state/",
+        "selectedImage": {
+          "candidateId": "page-image-001",
+          "imageUrl": "https://denkongeligesamling.dk/media/i1deqjce/a0610001-7-dig-ibk.jpg?width=1920&height=1080&v=1dbb9be723d33e0",
+          "candidateType": "direct_image",
+          "imageRole": "object_view",
+          "caption": "Christian III’s sword of state.",
+          "identityEvidence": [
+            "Official page title is Christian III's sword of state.",
+            "Image is the visible primary figure on the official object page.",
+            "Page text identifies the sword as a one-metre-long state sword with silver-gilt, diamond and enamel decoration."
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "warnings": [],
+      "retried": true,
+      "reusedFromParent": true,
+      "parentEvidencePath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/verified-image-evidence.json",
+      "parentEvidenceSha256": "a1fffe95f8254ace77079d2698f020fc3ce0bb2f2ea73075a0b97744f8c97fad"
+    },
+    {
+      "workId": "oldenborg-horn",
+      "identity": {
+        "museumId": "rosenborg",
+        "workId": "oldenborg-horn",
+        "title": "The Oldenborg Horn",
+        "objectType": "object",
+        "titleZh": "奥尔登堡号角",
+        "titleEn": "The Oldenborg Horn",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "约1400年制作；1663年起归丹麦王冠",
+        "medium": "饮酒角与金属装饰",
+        "identityAnchor": "official-object:the-oldenborg-horn",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-oldenborg-horn/",
+        "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-oldenborg-horn/",
+        "accessionNumber": null,
+        "collectionGroup": "Historic royal interiors and objects"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "The Oldenborg Horn | The Royal Danish Collection",
+        "finalUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-oldenborg-horn/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://denkongeligesamling.dk/media/aaipnndh/det-oldenborgske-horn.jpg",
+          "https://denkongeligesamling.dk/media/rtdgmnuh/img_9968.jpg?width=1920&height=1080&v=1dc3ae90ed2f6d0",
+          "https://denkongeligesamling.dk/media/vfihhesc/det-oldenborgske-horn.tif?width=960&height=1440&v=1dbb9abc3be33d0",
+          "https://denkongeligesamling.dk/media/ziqo4jed/oldenborgske-horn.jpg?width=960&height=1440&v=1dbb9ae2cce5790"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Det_Oldenborgske_Horn_01.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Det_Oldenborgske_Horn_01.jpg",
+        "sourceType": "wikimedia",
+        "caption": "The Oldenborg Horn, a drinking horn from the fifteenth century, now on display in Rosenborg Castle, Copenhagen, Denmark.",
+        "identityEvidence": [
+          "Wikimedia Commons caption explicitly identifies the Oldenborg Horn.",
+          "Image description states that it is on display in Rosenborg Castle.",
+          "Official museum page identifies the Oldenborg Horn as held in the Treasury under Rosenborg Castle."
+        ],
+        "confidence": 0.98,
+        "localPath": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/oldenborg-horn.jpg",
+        "sha256": "ddc573d6035a7352bae5d82fd9b7d60e9f6d0a5b75b83389a1a2c1a006a698d8",
+        "width": 3254,
+        "height": 4724,
+        "contentType": "image/jpeg",
+        "method": "ai_image_research",
+        "provider": "wikimedia",
+        "evidenceId": "img:rosenborg:oldenborg-horn:ddc573d6035a"
+      },
+      "warnings": [],
+      "durationMs": 988,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "oldenborg-horn",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Det_Oldenborgske_Horn_01.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Det_Oldenborgske_Horn_01.jpg",
+          "sourceType": "wikimedia",
+          "caption": "The Oldenborg Horn, a drinking horn from the fifteenth century, now on display in Rosenborg Castle, Copenhagen, Denmark.",
+          "identityEvidence": [
+            "Wikimedia Commons caption explicitly identifies the Oldenborg Horn.",
+            "Image description states that it is on display in Rosenborg Castle.",
+            "Official museum page identifies the Oldenborg Horn as held in the Treasury under Rosenborg Castle."
+          ],
+          "confidence": 0.98
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "reusedFromParent": true,
+      "parentEvidencePath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/verified-image-evidence.json",
+      "parentEvidenceSha256": "a1fffe95f8254ace77079d2698f020fc3ce0bb2f2ea73075a0b97744f8c97fad"
+    },
+    {
+      "workId": "silver-lions",
+      "identity": {
+        "museumId": "rosenborg",
+        "workId": "silver-lions",
+        "title": "Silver lions",
+        "objectType": "group",
+        "titleZh": "银狮",
+        "titleEn": "Silver lions",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "17世纪；弗雷德里克三世去世时已有三只完成",
+        "medium": "银制王座守护狮",
+        "identityAnchor": "official-object:silver-lions",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/silver-lions/",
+        "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/silver-lions/",
+        "accessionNumber": null,
+        "collectionGroup": "Historic royal interiors and objects"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Silver lions | The Royal Danish Collection",
+        "finalUrl": "https://denkongeligesamling.dk/en/the-collection/objects/silver-lions/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://denkongeligesamling.dk/media/auxfyzxz/soelvloeve.jpg",
+          "https://denkongeligesamling.dk/media/auxfyzxz/soelvloeve.jpg?width=1920&height=1080&v=1dc31182ac37160",
+          "https://denkongeligesamling.dk/media/ebmn34me/soelvloever.jpg?width=1920&height=1080&v=1dc31182b72eb40"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://live.staticflickr.com/5592/15159647055_46a0fb6a96_o.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Rosenborg_-_silver_lions.jpg",
+        "sourceType": "wikimedia",
+        "caption": "Silver lions in the Long Hall at Rosenborg Castle.",
+        "identityEvidence": [
+          "Wikimedia Commons file is titled “Rosenborg - silver lions.”",
+          "Commons categorizes the image under Frederick III’s silver lions.",
+          "Image metadata identifies the photographed location as Rosenborg Castle."
+        ],
+        "confidence": 0.93,
+        "localPath": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/silver-lions.jpg",
+        "sha256": "4a6723074bf5b84ab07e91cf03f152def9499d81eabadf7cf1e7be24e32ad0e0",
+        "width": 3648,
+        "height": 2736,
+        "contentType": "image/jpeg",
+        "method": "ai_image_research",
+        "provider": "wikimedia",
+        "evidenceId": "img:rosenborg:silver-lions:4a6723074bf5"
+      },
+      "warnings": [],
+      "durationMs": 1781,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "silver-lions",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://live.staticflickr.com/5592/15159647055_46a0fb6a96_o.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Rosenborg_-_silver_lions.jpg",
+          "sourceType": "wikimedia",
+          "caption": "Silver lions in the Long Hall at Rosenborg Castle.",
+          "identityEvidence": [
+            "Wikimedia Commons file is titled “Rosenborg - silver lions.”",
+            "Commons categorizes the image under Frederick III’s silver lions.",
+            "Image metadata identifies the photographed location as Rosenborg Castle."
+          ],
+          "confidence": 0.93
+        },
+        "alternatives": [],
+        "limitations": [
+          "The image is a museum-context view rather than an isolated object photograph."
+        ]
+      },
+      "reusedFromParent": true,
+      "parentEvidencePath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/verified-image-evidence.json",
+      "parentEvidenceSha256": "a1fffe95f8254ace77079d2698f020fc3ce0bb2f2ea73075a0b97744f8c97fad"
+    },
+    {
+      "workId": "pomander",
+      "identity": {
+        "museumId": "rosenborg",
+        "workId": "pomander",
+        "title": "Pomander",
+        "objectType": "object",
+        "titleZh": "香球",
+        "titleEn": "Pomander",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "约1600年",
+        "medium": "黄金、白色珐琅、红宝石、珊瑚与香料隔间",
+        "identityAnchor": "official-object:pomander",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/pomander/",
+        "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/pomander/",
+        "accessionNumber": null,
+        "collectionGroup": "Historic royal interiors and objects"
+      },
+      "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/pomander/",
+      "page": {
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/pomander/",
+        "finalUrl": "https://denkongeligesamling.dk/en/the-collection/objects/pomander/",
+        "pageTitle": "Pomander | The Royal Danish Collection",
+        "bodyText": "You control your data\n\n\nWe and our business partners use technologies, including cookies, to collect information about you for various purposes, including: personalization of content and ads, analyzing our traffic, and providing access to social media features.\n\nBy clicking ‘Accept’, you give your consent for all these purposes. You can also choose to specify the purposes you consent to by ticking the checkbox next to the purpose and clicking ‘Save settings’.\n\nYou may withdraw your consent at any time by clicking the small icon at the bottom left corner of the website.\n\nYou can read more about how we use cookies and other technologies and how we collect and process personal data by clicking the link.\n\nRead more about cookies\n\n\nShow details\nDECLINE ALL\nACCEPT ALL\nNecessary\nFunctional\nStatistical\nMarketing\nPomander\n\nPhoto: Iben Kaufmann and the Royal Danish Collection\nMemento Mori: Remember you must die\n\nIt will have been a piquant experience for Renaissance queens to inhale the fragrance of death from this small pomander in the shape of a human skull – a symbol of human vanity and mortality.  \n\nThe skull opens to reveal six small compartments in the back of the head, each with a small inscription describing the contents: smelling salts, cinnamon, lemon, marjoram, rose and clove. All these substances were believed to have medicinal properties. Behind the eyes, there is a small sponge that could be moistened with one of the six scents, which would then emanate from the eye sockets. \n\nThe pomander is made of gold and white enamel with rubies. It was made around 1600 and has belonged to Frederik III’s consort, Queen Sophie Amalie, among others. The chain is decorated with four skulls made of coral and two crowned female heads, each with a skull on the back. These so-called memento mori objects were created to remind the owner of the transitory nature of life.\n\nThe pomander was worn on a chain hanging from the wearer's belt. If you look closely at the large portrait of Ellen Marsvin on display at Rosenborg, you can see that Christian IV's mother-in-law wore a similar pomander hanging from a chain. \n\nThe pomander is on display in the Treasury under Rosenborg Castle. \n\nDetail photos\nChain\n\nThe pomander was worn on a chain hanging from the wearer's belt.\n\nSix small compartments\n\nThe skull opens to reveal six small compartments in the back of the head. Each compartment has an inscription describing the contents: smelling salts, cinnamon, lemon, marjoram, rose and clove.\n\nGold and white enamel\n\nThe pomander is made of gold and white enamel with rubies.\n\nMemento mori\n\nSo-called memento mori objects were intended to remind the owner of the transitory nature of life.\n\nPortrait of Ellen Marsvin\n\nIf you look closely at the large portrait of Ellen Marsvin on display at Rosenborg, you will see that Christian IV's mother-in-law wore a similar pomander on a chain.\n\nHome\n→\nThe collection\n→\nObjects\n→\nPomander\nAmalienborg Museum\nChristiansborg Palace\nThe Hermitage Palace\nFredensborg Palace\nKoldinghus\nRosenborg Castle\nINFO\nContact us\nAbout us\nPress\nLogin for business customers\nTERMS\nData Protection Policy\nCookie consent\nWebsite Terms\nPrivacy statement\nTerms and conditions\nThe Royal Danish Collection\nØster Voldgade 4A 1350 Copenhagen K\nLINKEDIN",
+        "candidateCount": 17,
+        "candidates": [
+          {
+            "candidateId": "page-image-001",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/znvfz2xd/a0010033-1-dig-ibk.png?width=640&height=960&v=1dc2c7b9c903bd0",
+            "selector": "div:nth-of-type(2) > div > div > div:nth-of-type(1) > figure > a > picture > img",
+            "alt": "Chain ",
+            "nearbyText": "Chain \n                                            \n                                            \n                                                The pomander was worn on a chain hanging from the wearer's belt.",
+            "visible": true,
+            "boundingBox": {
+              "x": 20,
+              "y": 2112,
+              "width": 453,
+              "height": 680
+            },
+            "naturalWidth": 640,
+            "naturalHeight": 960,
+            "elementKind": "img",
+            "elementIndex": 3,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/pomander/",
+            "identityScore": 1020
+          },
+          {
+            "candidateId": "page-image-002",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/1eiclvrr/a0010033-8-dig-ibk.png?width=640&height=640&v=1dc2c7e07b6e380",
+            "selector": "div:nth-of-type(2) > div > div > div:nth-of-type(3) > figure > a > picture > img",
+            "alt": "Gold and white enamel",
+            "nearbyText": "Gold and white enamel\n                                            \n                                            \n                                                The pomander is made of gold and white enamel with rubies.",
+            "visible": true,
+            "boundingBox": {
+              "x": 967,
+              "y": 2112,
+              "width": 453,
+              "height": 453
+            },
+            "naturalWidth": 640,
+            "naturalHeight": 640,
+            "elementKind": "img",
+            "elementIndex": 5,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/pomander/",
+            "identityScore": 1020
+          },
+          {
+            "candidateId": "page-image-003",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/25wdpuhs/ellen-marsvin-portraet.jpg?width=960&height=1440&v=1dc2c7d2eb832f0",
+            "selector": "div:nth-of-type(2) > div > div > div:nth-of-type(5) > figure > a > picture > img",
+            "alt": "Portrait of Ellen Marsvin",
+            "nearbyText": "Portrait of Ellen Marsvin\n                                            \n                                            \n                                                If you look closely at the large portrait of Ellen Marsvin on display at Rosenborg, you will see that Christian IV's mother-in-law wore a similar pomander on a chain.",
+            "visible": true,
+            "boundingBox": {
+              "x": 1913,
+              "y": 2112,
+              "width": 453,
+              "height": 680
+            },
+            "naturalWidth": 0,
+            "naturalHeight": 0,
+            "elementKind": "img",
+            "elementIndex": 7,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/pomander/",
+            "identityScore": 1020
+          },
+          {
+            "candidateId": "page-image-004",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/1eiclvrr/a0010033-8-dig-ibk.png?width=1920&height=1080&v=1dc2c7e07b6e380",
+            "selector": "div > div:nth-of-type(1) > div > div > div:nth-of-type(3) > figure > picture > img",
+            "alt": "Photo: Iben Kaufmann and the Royal Danish Collection ",
+            "nearbyText": "Photo: Iben Kaufmann and the Royal Danish Collection",
+            "visible": true,
+            "boundingBox": {
+              "x": 20,
+              "y": 256,
+              "width": 1400,
+              "height": 748
+            },
+            "naturalWidth": 1920,
+            "naturalHeight": 1080,
+            "elementKind": "img",
+            "elementIndex": 2,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/pomander/",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-005",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/cwzdzuwj/a0010033-3-dig-ibk.png?width=640&height=640&v=1dc2c7b9d5eaf60",
+            "selector": "div:nth-of-type(2) > div > div > div:nth-of-type(2) > figure > a > picture > img",
+            "alt": "Six small compartments ",
+            "nearbyText": "Six small compartments \n                                            \n                                            \n                                                The skull opens to reveal six small compartments in the back of the head. Each compartment has an inscription describing the contents: smelling salts, cinnamon, lemon, marjoram, rose and clove.",
+            "visible": true,
+            "boundingBox": {
+              "x": 493,
+              "y": 2112,
+              "width": 453,
+              "height": 453
+            },
+            "naturalWidth": 640,
+            "naturalHeight": 640,
+            "elementKind": "img",
+            "elementIndex": 4,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/pomander/",
+            "identityScore": 20
+          }
+        ]
+      },
+      "status": "object_image_accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://denkongeligesamling.dk/media/1eiclvrr/a0010033-8-dig-ibk.png?width=640&height=640&v=1dc2c7e07b6e380",
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/pomander/",
+        "sourceType": "page_image",
+        "caption": "Gold and white enamel pomander with rubies.",
+        "identityEvidence": [
+          "Official page title is Pomander.",
+          "Caption identifies the image as Gold and white enamel.",
+          "Nearby text states that the pomander is made of gold and white enamel with rubies."
+        ],
+        "confidence": 0.99,
+        "localPath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/assets/pomander.webp",
+        "sha256": "e54ec911e730d7e20ad6d40088b62e6041af6af3b4457aaa0578f67826c04eb6",
+        "width": 640,
+        "height": 640,
+        "contentType": "image/webp",
+        "method": "ai_page_candidate_download",
+        "provider": "page-image-candidate",
+        "imageRole": "object_view",
+        "candidateId": "page-image-002"
+      },
+      "aiDecision": {
+        "workId": "pomander",
+        "status": "candidate_found",
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/pomander/",
+        "selectedImage": {
+          "candidateId": "page-image-002",
+          "imageUrl": "https://denkongeligesamling.dk/media/1eiclvrr/a0010033-8-dig-ibk.png?width=640&height=640&v=1dc2c7e07b6e380",
+          "candidateType": "direct_image",
+          "imageRole": "object_view",
+          "caption": "Gold and white enamel pomander with rubies.",
+          "identityEvidence": [
+            "Official page title is Pomander.",
+            "Caption identifies the image as Gold and white enamel.",
+            "Nearby text states that the pomander is made of gold and white enamel with rubies."
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "warnings": [],
+      "retried": true,
+      "reusedFromParent": true,
+      "parentEvidencePath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/verified-image-evidence.json",
+      "parentEvidenceSha256": "a1fffe95f8254ace77079d2698f020fc3ce0bb2f2ea73075a0b97744f8c97fad"
+    },
+    {
+      "workId": "constitution-pen",
+      "identity": {
+        "museumId": "rosenborg",
+        "workId": "constitution-pen",
+        "title": "The 1849 Constitution pen",
+        "objectType": "object",
+        "titleZh": "1849年宪法笔",
+        "titleEn": "The 1849 Constitution pen",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "1849",
+        "medium": "签署宪法所用钢笔",
+        "identityAnchor": "official-object:the-constitution-pen",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-constitution-pen/",
+        "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-constitution-pen/",
+        "accessionNumber": null,
+        "collectionGroup": "Historical clothing and other royal objects"
+      },
+      "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-constitution-pen/",
+      "page": {
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-constitution-pen/",
+        "finalUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-constitution-pen/",
+        "pageTitle": "The Constitution pen | The Royal Danish Collection",
+        "bodyText": "You control your data\n\n\nWe and our business partners use technologies, including cookies, to collect information about you for various purposes, including: personalization of content and ads, analyzing our traffic, and providing access to social media features.\n\nBy clicking ‘Accept’, you give your consent for all these purposes. You can also choose to specify the purposes you consent to by ticking the checkbox next to the purpose and clicking ‘Save settings’.\n\nYou may withdraw your consent at any time by clicking the small icon at the bottom left corner of the website.\n\nYou can read more about how we use cookies and other technologies and how we collect and process personal data by clicking the link.\n\nRead more about cookies\n\n\nShow details\nDECLINE ALL\nACCEPT ALL\nNecessary\nFunctional\nStatistical\nMarketing\nThe 1849 Constitution pen\n\nIn 1849, Frederik VII signed the first Danish Constitution – using this very pen\n\nToday, the pen that was used to sign the 1849 Constitution is on display at Rosenborg Castle\nThe Danish Constitution and the end of absolutism\n\nFrederik VII signed the Danish Constitution into law on 5 June 1849. As a result, during his own time, Frederik VII was regarded as the king who gave Denmark its democratic system of governance. However, credit is equally due to his father, Christian VIII. Before his death, he asked his son to give the Kingdom of Denmark its first constitution when he became king. \n\nThe Constitution pen – one of the many objects in the Royal Danish Collection \n\nThe 1849 Constitution pen is one of the many objects in the Royal Danish Collection. You can see the pen at Rosenborg Castle, where it is on display in the room named after Frederik VII. Although Frederik VII never resided at Rosenborg Castle, the room is named after him because it is decorated with personal belongings and official objects from the time of his reign. \n\nNaturally, the display in this room includes the pen that he used to sign the Danish Constitution. The 1849 Constitution replaced the Danish Act of Succession of 1665, which was the legal basis of the absolute monarchy in Denmark. The Danish Act of Succession of 1665, also known as Lex Regia, is also on display at Rosenborg Castle. You find it in the castle’s underground Treasury. \n\n\nHome\n→\nThe collection\n→\nObjects\n→\nThe Constitution pen\nAmalienborg Museum\nChristiansborg Palace\nThe Hermitage Palace\nFredensborg Palace\nKoldinghus\nRosenborg Castle\nINFO\nContact us\nAbout us\nPress\nLogin for business customers\nTERMS\nData Protection Policy\nCookie consent\nWebsite Terms\nPrivacy statement\nTerms and conditions\nThe Royal Danish Collection\nØster Voldgade 4A 1350 Copenhagen K\nLINKEDIN",
+        "candidateCount": 8,
+        "candidates": [
+          {
+            "candidateId": "page-image-001",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/ub5dmscv/billede.jpg?rxy=0.3358853601934988,0.6139827957585555&width=1920&height=1080&v=1dc630086b98fd0",
+            "selector": "div > div:nth-of-type(1) > div > div > div:nth-of-type(3) > figure > picture > img",
+            "alt": "Grundlovspennen 1849",
+            "nearbyText": "Today, the pen that was used to sign the 1849 Constitution is on display at Rosenborg Castle",
+            "visible": true,
+            "boundingBox": {
+              "x": 20,
+              "y": 286,
+              "width": 1400,
+              "height": 748
+            },
+            "naturalWidth": 1920,
+            "naturalHeight": 1080,
+            "elementKind": "img",
+            "elementIndex": 2,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-constitution-pen/",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-002",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/pz1ke4nz/grundlovspennen_1849.jpeg",
+            "selector": null,
+            "alt": "",
+            "nearbyText": "",
+            "visible": false,
+            "boundingBox": null,
+            "naturalWidth": 0,
+            "naturalHeight": 0,
+            "elementKind": "meta",
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-constitution-pen/",
+            "identityScore": 0
+          },
+          {
+            "candidateId": "page-image-003",
+            "url": "https://denkongeligesamling.dk/media/ub5dmscv/billede.jpg?rxy=0.3358853601934988,0.6139827957585555&width=1920&height=1080&v=1dc630086b98fd0",
+            "contentType": "image/webp",
+            "sourceType": "network_image",
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-constitution-pen/",
+            "identityScore": -10
+          },
+          {
+            "candidateId": "page-image-004",
+            "url": "https://analytics.sleeknote.com/",
+            "contentType": "image/gif",
+            "sourceType": "network_image",
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-constitution-pen/",
+            "identityScore": -10
+          },
+          {
+            "candidateId": "page-image-005",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/0jwnzwy3/kgl-logo-01-sort.png",
+            "selector": "div#coiPage-1 > div:nth-of-type(1) > div > img",
+            "alt": "logo",
+            "nearbyText": "You control your data\n          \n          \n            We and our business partners use technologies, including cookies, to collect information about you for various purposes, including: personalization of content and ads, analyzing our traffic, and providing access to social media features.\nBy clicking ‘Accept’, you give your consent for all these purposes. You can also choose to specify the purposes you consent to by ticking the checkbox next to the purpose and clicking ‘Save settings’.\nYou may withdraw your consent at any time by clicking the small icon at the bottom left corner of the website.\nYou can read more about how we use cookies and other technologies and how we collect and process personal data by clicking the link.\n            Read more about cookies\n          \n          \n   ",
+            "visible": true,
+            "boundingBox": {
+              "x": 60,
+              "y": 60,
+              "width": 180,
+              "height": 33
+            },
+            "naturalWidth": 1236,
+            "naturalHeight": 155,
+            "elementKind": "img",
+            "elementIndex": 0,
+            "genericPenalty": 1,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-constitution-pen/",
+            "identityScore": -1000
+          }
+        ]
+      },
+      "status": "object_image_accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://denkongeligesamling.dk/media/ub5dmscv/billede.jpg?rxy=0.3358853601934988,0.6139827957585555&width=1920&height=1080&v=1dc630086b98fd0",
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-constitution-pen/",
+        "sourceType": "page_image",
+        "caption": "The 1849 Constitution pen.",
+        "identityEvidence": [
+          "Official page title is The Constitution pen.",
+          "Image is the visible primary figure on the official object page.",
+          "Alt text identifies the object as Grundlovspennen 1849."
+        ],
+        "confidence": 0.99,
+        "localPath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/assets/constitution-pen.webp",
+        "sha256": "6c6718c43c17f0c3ebb2758e3a7230b7bf9e7daa5b146ad0af724dce30909821",
+        "width": 1920,
+        "height": 1080,
+        "contentType": "image/webp",
+        "method": "ai_page_candidate_download",
+        "provider": "page-image-candidate",
+        "imageRole": "object_view",
+        "candidateId": "page-image-001"
+      },
+      "aiDecision": {
+        "workId": "constitution-pen",
+        "status": "candidate_found",
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-constitution-pen/",
+        "selectedImage": {
+          "candidateId": "page-image-001",
+          "imageUrl": "https://denkongeligesamling.dk/media/ub5dmscv/billede.jpg?rxy=0.3358853601934988,0.6139827957585555&width=1920&height=1080&v=1dc630086b98fd0",
+          "candidateType": "direct_image",
+          "imageRole": "object_view",
+          "caption": "The 1849 Constitution pen.",
+          "identityEvidence": [
+            "Official page title is The Constitution pen.",
+            "Image is the visible primary figure on the official object page.",
+            "Alt text identifies the object as Grundlovspennen 1849."
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "warnings": [],
+      "retried": true,
+      "reusedFromParent": true,
+      "parentEvidencePath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/verified-image-evidence.json",
+      "parentEvidenceSha256": "a1fffe95f8254ace77079d2698f020fc3ce0bb2f2ea73075a0b97744f8c97fad"
+    },
+    {
+      "workId": "knights-hall",
+      "identity": {
+        "museumId": "rosenborg",
+        "workId": "knights-hall",
+        "title": "The Knights’ Hall (room 21)",
+        "objectType": "architectural_viewing_node",
+        "titleZh": "骑士大厅（21号房）",
+        "titleEn": "The Knights’ Hall (room 21)",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "王室博物馆历史陈设",
+        "medium": "历史大厅、王座与王室陈设",
+        "identityAnchor": "rosenborg-room-21",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/",
+        "identitySourceUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/",
+        "accessionNumber": null,
+        "collectionGroup": "Historic royal interiors and objects"
+      },
+      "sourcePageUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/",
+      "page": {
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/",
+        "finalUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/",
+        "pageTitle": "The Knights’ Hall (room 21) | The Royal Danish Collection",
+        "bodyText": "You control your data\n\n\nWe and our business partners use technologies, including cookies, to collect information about you for various purposes, including: personalization of content and ads, analyzing our traffic, and providing access to social media features.\n\nBy clicking ‘Accept’, you give your consent for all these purposes. You can also choose to specify the purposes you consent to by ticking the checkbox next to the purpose and clicking ‘Save settings’.\n\nYou may withdraw your consent at any time by clicking the small icon at the bottom left corner of the website.\n\nYou can read more about how we use cookies and other technologies and how we collect and process personal data by clicking the link.\n\nRead more about cookies\n\n\nShow details\nDECLINE ALL\nACCEPT ALL\nNecessary\nFunctional\nStatistical\nMarketing\nThe Knights’ Hall (room 21)\n\nThe beautiful Knights’ Hall was completed in 1624. The hall was designed as a ballroom and was originally called ‘the long hall’. It saw fairly limited used after 1700. It was not until the Romantic era – the period from the late 18th century – that the hall became known as the Knights’ Hall.\n\nThe most beautiful room at Rosenborg\n\nThe presence of history\n\n\n\nWhen you enter the beautiful Knights’ Hall, you can feel the presence of history.   The magnificent hall extends in the full length of the castle, and you should remember to look up to see the many details in the beautiful ceiling. The ceiling you see in the Knights’ Hall today dates from the early 18th century and was created as part of the modernisation undertaken by Frederik IV.\n\nDuring the 1690s, Christian V undertook a partial renovation of the hall, including the hanging of 12 tapestries, known as the Rosenborg tapestries, which show Christian V’s victories during the Scanian War (1675–1679). Not surprisingly, there is a similar series of tapestries in Sweden depicting the Swedish victories in the same war. During the 1920s, the tapestries were moved to Christiansborg Palace, but they were returned to Rosenborg in 1999. Instead, the Great Hall at Christiansborg was decorated with a series of tapestries with scenes from Danish history, drawn by Bjørn Nørgaard. The Christiansborg tapestries were a birthday gift to HM Queen Margrethe II, and they have hung at Christiansborg Palace since 2000.\n\n \n\n \n\nThe national coat of arms and the anointing throne\n\nIn the middle of the ceiling in the Knights’ Hall, which was installed in 1709, you can see the national coat of arms encircled y the Orders of the Elephant and Dannebrog. Along the sides are depictions of political events during the early years of the reign of Frederik IV, including the abolition of serfdom and the establishment of the dragoons and the militia. The monumental ceiling paintings showing the crown, the orb, the sword and the sceptre were created by Hendrik Krock, court painter to Frederik IV and Christian VI. \n\nThe end walls feature symbols of the four continents of Europe, the Americas, Asia and Africa.\n\nIn the Knights’ Hall, you can see the anointing throne of the absolute kings. In its time, it was said to be made of unicorn horn, but in fact, the material is narwhal tooth. Next to it stands the queen’s throne in silver. \n\nprevious room <- | -> next room\n\nObjects in the room\n\nIf you are at the museum, you can admire the fascinating objects in the room and read more about them below. \n\nThe descriptions are brief and generally do not include images. They are intended as an added resource if you would like more detailed information about an item, such as who made it, its origin and its meaning. \n\n2100 - 2109\n2101\nThe coronation chair of the Danish kings, made of narwhal tusks by Bendix Grodtschilling 1662 1671: the gilt figures were made by J. Kohlmann and added in Christian V's time. Used at coronations from 1671-1840.\n2102\nThe silver coronation chair of the Danish queens; made for Queen Sophie Magdalene by Niels Jonsen of Copenhagen in 1731.\n2103\nVelvet canopy. Reconstruction with gold tassels and fringes from two portable canopies, used in connection with the anointing ceremonies in the 18th century.\n2104\nThree lions of chased silver, made l665 1670 in Copenhagen by Ferdinand Küblich. Used on solemn occasions right up to the present time as guards around the throne and the Royal catafalque.\n2105\n2110 - 2119\n2111\nSilver baptismal font, partly gilt. At the bottom there is a relief representing the baptism of Christ. Since 1671 used at the baptism of all the Royal princes and princesses. Hamburg work, made by Christian Mundt II, and foot by Gödert Botstede.\n2112\nTable on stand of carved, gilded wood with Frederik III's monogram from c. 1650. The top is of imitation marble with indistinct signature: BN, possibly for Franciscus Bruno Napolitanus?\n2113\nSilver cup representing the celestial globe, crowned by Zeus and borne by Neptune. Hinrich Lambrecht II, Hamburg c. 1650.\n2116\nSilver guéridons: * Silver guéridons: Four tall guéridons made in Augsburg 1739-40 by Philipp Jacob (VI) Drentwett and Bernhard Heinrich Weye, after J.F. Blondel, 1735. Stood in Christian VI's Audience Chamber at Christiansborg. * To these belong the four ten armed candelabra, altered in 1752 by Nicolai Langermann in Copenhagen. * Four guéridons, marked with the monogram of Princess Sophie Caroline of Ostfriesland, sister of Queen Sophie Magdalene, made in 1733 and 1736 by Ole Flores Wilcken in Copenhagen. * Four guéridons with the crowned monogram of Princess Charlotte Amalie, made in Copenhagen, two by Carsten Hufnagel in 1732 and two by Ole Flores Wilcken in 1736.\n2117\nSix armchairs and twelve high backed chairs with monogram of Frederik IV; made to this room in 1718 by Johan Weys; the covers were embroidered by Queen Charlotte Amalie and her ladies. Two of the covers are signed: F.E. 1699 and 1700.\n2118\nThe battle at Øland on 1 June 1676, where the Swedish fleet lost its three largest men-of-war. In the centre the flagship “Kronan” is sinking, while being shelled by the “Christianus Quintus”. To the right the “Svärdet” surrenders and to the left “Äpplet” runs aground.\n2119\nThe landing at Raa (south of Helsingborg), 29 June 1676. In the foreground, the transport fleet, and close to the coast of Scania, the escorting warships.\n2120 - 2129\n2120\nThe conquest of Marstrand and the fortress Karlsten (north of Gothenburg) on 23 July 1677. I the foreground Ulrik Frederik Gyldenløve, Christian V’s half-brother and Norway’s governor receiving the letter of surrender.\n2121\nThe battle at Møen on 1 June 1677. In the foreground two small warships, a Danish ship with a sharpshooter approaching the survivors of the “Calmar Castel” which the Swedes, contrary to the rules of law, had tried to sink.\n2122\nThe capture of Landskrona’s citadel on 4 August 1676. In the centre Christian V and the commander-in-chief Johan Adolf of Plöen. In the background the fortress and to the left the silhouette of Copenhagen under which two gentlemen enjoy a pinch of snuff.\n2123\nThe conquest of Wismar on 13 December 1675. In the foreground to the left Christian V accepts the surrender of the city. To the right, below the hill, Queen Charlotte Amalie in a carriage.\n2124\nThe capture of Helsingborg on 3 July 1676. Christian V is seen in the foreground (wearing a hat); on his right, his brother Prince Jørgen. The tower of the Helsinborg Castle is seen through the smoke and Kronborg just visible on the other side of the Sound.\n2125\nThe conquest of Christianstad in 15 August 1676. To the right Christian V on horseback followed by Prince Jørgen. In the background the city with the Trinity Church, built by Christian IV.\n2126\nThe descent on Rügen on 17 September 1677. In the centre to the right Christian V’s “Fridericus Tertius”, to the left the Dutch admiral general Tromp’s pennant.\n2127\nThe conquest of Damgarten on 6 October 1675. To the left Christian V pointing towards Damgarten with his fieldmarshal’s baton. Damgarten used to control the entrance to the Swedish possessions in Pomerania. To the right Prince Jørgen.\n2128\nThe battle in Køge Bay on 1 July 1676 where admiral Niels Juel conquered a superior Swedish fleet through a bold manoeuvre. To the right the symbolic fight between the Swedish ship “Mars” and the Danish “Tre Løver”.\n2129\nThe conquest of Landskrona on 11 July 1676. In the centre Christian V, to the right Prince Jørgen and to the left commander-in-chief of the army Frederik Arenstorff. In the background Landskrona.\n2130 - 2139\n2130\nArmchair with chased silver covering; made by A.F. Holling in Copenhagen, 1740, for Christian VI's Audience Chamber at Christiansborg Palace.\n2131\nMatching canopy of velvet embroidered with gold, presumably made by Johan Harras.\n2132\nTwo mirrors in silver frames with matching console tables of silver from Christian VI’s Audience Chamber at Christiansborg Palace. Made from designs by Court Sculptor Louis-Augustin le Clerc? The mirrors are Augsburg work by Philipp Jacob (VI) Drentwett and Bernhard Heinrich Weye 1739-40. One of the console tables by P.J. (VI) Drentwett 1739, the other by Ole Flores Wilcken in Copenhagen 1740. Mirrors renewed in 1863.\n2134\nTwo lantern clocks with musical works, silver mounted, from Frederik IV's time. Signed: Claudius du Chesne Londini and: J. Mitchell, London. The silver mounting of the consoles made in Copenhagen 1738 by J. Schowert. The clocks originate from Christian VI’s Audience Chamber at Christiansborg.\n2135\nTable and two guéridons covered with chased silver plates. The tabletop made by Johann Heinrich Mannlich, the table foot and guéridons by Johann I Bartermann, Augsburg, 1708-10.\n2136\nSilver firescreen, with relief depicting Mars, Venus and Cupid. Augsburg work from 1732-33 by P.J. (VI) Drentwett. Centre relief by J.A. Thelott.\n2137\nOctagonal table top with silver edge. In the centre, an embroidery with playing cards, probably made by Queen Charlotte Amalie and Princess Sophie Hedevig. Originally placed on a table base with the Elephant and Dannebrog Orders in the Marble Room (see no. 500).\n2138\nCabinet covered with richly ornamented and chased silver plates, c. 1680. Made in Copenhagen by Jean Henri de Moor? Carved, gilt stand, c. 1740.\n2139\nTwo Chinese porcelain vases, from the K'ang-hsi period with mounting of gilt silver bearing the monogram of Queen Louise. By G. Bolch in Copenhagen, 1704.\nHome\n→\nRosenborg Castle\n→\nInterior and objects\n→\nRoom 21: The Knights’ Hall\nAmalienborg Museum\nChristiansborg Palace\nThe Hermitage Palace\nFredensborg Palace\nKoldinghus\nRosenborg Castle\nINFO\nContact us\nAbout us\nPress\nLogin for business customers\nTERMS\nData Protection Policy\nCookie consent\nWebsite Terms\nPrivacy statement\nTerms and conditions\nThe Royal Danish Collection\nRosenborg Slot - Øster Voldgade 4A 1350 København K\nFACEBOOK\nINSTAGRAM\nLINKEDIN",
+        "candidateCount": 18,
+        "candidates": [
+          {
+            "candidateId": "page-image-001",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/t04jssmk/riddersal_rasmus_t_rosenberg-1.jpg?width=1920&height=1080&v=1dba5481ca16850",
+            "selector": "div > div:nth-of-type(1) > div > div > div:nth-of-type(3) > figure > picture > img",
+            "alt": "",
+            "nearbyText": "",
+            "visible": true,
+            "boundingBox": {
+              "x": 20,
+              "y": 346,
+              "width": 1400,
+              "height": 748
+            },
+            "naturalWidth": 1920,
+            "naturalHeight": 1080,
+            "elementKind": "img",
+            "elementIndex": 2,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-002",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/zjwiupkz/dronningens-soelvtrone.png?width=960&height=540&v=1dba9ea3e4f7e00",
+            "selector": "div > ul > li:nth-of-type(2) > div > div:nth-of-type(2) > figure > picture > img",
+            "alt": "2102_De danske dronningers tronstol af sølv",
+            "nearbyText": "",
+            "visible": true,
+            "boundingBox": {
+              "x": 848,
+              "y": 2779,
+              "width": 572,
+              "height": 322
+            },
+            "naturalWidth": 960,
+            "naturalHeight": 540,
+            "elementKind": "img",
+            "elementIndex": 3,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-003",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/wqelsar1/soelvloever.png?width=960&height=540&v=1dba9ea504481f0",
+            "selector": "div > ul > li:nth-of-type(4) > div > div:nth-of-type(2) > figure > picture > img",
+            "alt": "2104_Tre løver af drevet sølv",
+            "nearbyText": "",
+            "visible": true,
+            "boundingBox": {
+              "x": 848,
+              "y": 3302,
+              "width": 572,
+              "height": 322
+            },
+            "naturalWidth": 960,
+            "naturalHeight": 540,
+            "elementKind": "img",
+            "elementIndex": 4,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-004",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/sj5nfyiq/doebefont-af-soelv.png?width=960&height=540&v=1dba9ea3aba7060",
+            "selector": "div > ul > li:nth-of-type(1) > div > div:nth-of-type(2) > figure > picture > img",
+            "alt": "2111_Døbefont af sølv til dels forgyldt",
+            "nearbyText": "",
+            "visible": true,
+            "boundingBox": {
+              "x": 848,
+              "y": 2815,
+              "width": 572,
+              "height": 322
+            },
+            "naturalWidth": 960,
+            "naturalHeight": 540,
+            "elementKind": "img",
+            "elementIndex": 5,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-005",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/4lhl4muc/rosenborg-tapeterne.png?width=960&height=540&v=1dba9ea557712f0",
+            "selector": "div > ul > li:nth-of-type(3) > div > div:nth-of-type(2) > figure > picture > img",
+            "alt": "2122_Erobringen af Landskronas kastel 4. aug. 1676. I midten Christian 5. og den øverstbefalende Joh",
+            "nearbyText": "",
+            "visible": true,
+            "boundingBox": {
+              "x": 848,
+              "y": 3134,
+              "width": 572,
+              "height": 322
+            },
+            "naturalWidth": 960,
+            "naturalHeight": 540,
+            "elementKind": "img",
+            "elementIndex": 6,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/",
+            "identityScore": 20
+          }
+        ]
+      },
+      "status": "context_image_accepted",
+      "objectImageResolved": false,
+      "imagePolicy": "context_image",
+      "selected": {
+        "url": "https://denkongeligesamling.dk/media/t04jssmk/riddersal_rasmus_t_rosenberg-1.jpg?width=1920&height=1080&v=1dba5481ca16850",
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/",
+        "sourceType": "page_image",
+        "caption": "The Knights’ Hall at Rosenborg Castle, room 21.",
+        "identityEvidence": [
+          "Official page title is The Knights’ Hall (room 21).",
+          "Image is the visible primary figure on the official room page.",
+          "Image filename identifies the Knights’ Hall."
+        ],
+        "confidence": 0.99,
+        "localPath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/assets/knights-hall.webp",
+        "sha256": "742a72ad9a0af16a032a22f661156cfce1331687469248e28e208524777f7e67",
+        "width": 1920,
+        "height": 1080,
+        "contentType": "image/webp",
+        "method": "ai_page_candidate_download",
+        "provider": "page-image-candidate",
+        "imageRole": "architecture_view",
+        "candidateId": "page-image-001"
+      },
+      "aiDecision": {
+        "workId": "knights-hall",
+        "status": "candidate_found",
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/",
+        "selectedImage": {
+          "candidateId": "page-image-001",
+          "imageUrl": "https://denkongeligesamling.dk/media/t04jssmk/riddersal_rasmus_t_rosenberg-1.jpg?width=1920&height=1080&v=1dba5481ca16850",
+          "candidateType": "direct_image",
+          "imageRole": "architecture_view",
+          "caption": "The Knights’ Hall at Rosenborg Castle, room 21.",
+          "identityEvidence": [
+            "Official page title is The Knights’ Hall (room 21).",
+            "Image is the visible primary figure on the official room page.",
+            "Image filename identifies the Knights’ Hall."
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "warnings": [],
+      "retried": true,
+      "reusedFromParent": true,
+      "parentEvidencePath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/verified-image-evidence.json",
+      "parentEvidenceSha256": "a1fffe95f8254ace77079d2698f020fc3ce0bb2f2ea73075a0b97744f8c97fad"
+    },
+    {
+      "workId": "glass-cabinet",
+      "identity": {
+        "museumId": "rosenborg",
+        "workId": "glass-cabinet",
+        "title": "The Glass Cabinet (room 22)",
+        "objectType": "architectural_viewing_node",
+        "titleZh": "玻璃柜（22号房）",
+        "titleEn": "The Glass Cabinet (room 22)",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "弗雷德里克四世时期收藏线",
+        "medium": "历史陈列室与玻璃器收藏",
+        "identityAnchor": "rosenborg-room-22",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-22-the-glass-cabinet/",
+        "identitySourceUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-22-the-glass-cabinet/",
+        "accessionNumber": null,
+        "collectionGroup": "Historic royal interiors and objects"
+      },
+      "sourcePageUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-22-the-glass-cabinet/",
+      "page": {
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-22-the-glass-cabinet/",
+        "finalUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-22-the-glass-cabinet/",
+        "pageTitle": "The Glass Cabinet (room 22) | The Royal Danish Collection",
+        "bodyText": "You control your data\n\n\nWe and our business partners use technologies, including cookies, to collect information about you for various purposes, including: personalization of content and ads, analyzing our traffic, and providing access to social media features.\n\nBy clicking ‘Accept’, you give your consent for all these purposes. You can also choose to specify the purposes you consent to by ticking the checkbox next to the purpose and clicking ‘Save settings’.\n\nYou may withdraw your consent at any time by clicking the small icon at the bottom left corner of the website.\n\nYou can read more about how we use cookies and other technologies and how we collect and process personal data by clicking the link.\n\nRead more about cookies\n\n\nShow details\nDECLINE ALL\nACCEPT ALL\nNecessary\nFunctional\nStatistical\nMarketing\nThe Glass Cabinet (room 22)\n\nThe Glass Cabinet is one of the oldest museum rooms in Europe that dates all the way back to 1713–1714. At the time, porcelain rooms were a well-known phenomenon at European royal or princely courts, but the Glass Cabinet is unique.\n\nFrederik IV's unique glass cabinet\n\nIn 1713–1714, Frederik IV had this room turned into a showcase for the exquisite collection of glassware that Frederik IV had been gifted by the City of Venice, the leading venue of European glassmaking, during his visit their in 1709.\n\nThe inspiration for the room was the porcelain room at Charlottenburg in Berlin. Chief Fire Brigade Officer Gottfried Fuchs was responsible for the design and execution. The display included bespoke pyramid-shaped consoles decorated with gilded lead garlands. The walls are covered with silk, and in the ceiling, you can see a painting of Bacchus, the god of wine, painted by Lorenz and Marcus Cardes.\n\nThe fireplace in the Glass Cabinet dates from the time of Christian IV. Later, Frederik III’s monogram was added. Before the Glass Cabinet was established, this room was used to display small paintings.\n\nprevious room <- | -> next room\n\n\nObjects in the room\n\nIf you are at the museum, you can admire the fascinating objects in the room and read more about them below. \n\nThe descriptions are brief and generally do not include images. They are intended as an added resource if you would like more detailed information about an item, such as who made it, its origin and its meaning. \n\nHome\n→\nRosenborg Castle\n→\nInterior and objects\n→\nRoom 22: The Glass Cabinet\nAmalienborg Museum\nChristiansborg Palace\nThe Hermitage Palace\nFredensborg Palace\nKoldinghus\nRosenborg Castle\nINFO\nContact us\nAbout us\nPress\nLogin for business customers\nTERMS\nData Protection Policy\nCookie consent\nWebsite Terms\nPrivacy statement\nTerms and conditions\nThe Royal Danish Collection\nRosenborg Slot - Øster Voldgade 4A 1350 København K\nFACEBOOK\nINSTAGRAM\nLINKEDIN",
+        "candidateCount": 10,
+        "candidates": [
+          {
+            "candidateId": "page-image-001",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/l4cbibny/rosenborg_room22_01_web.jpg?width=1920&height=1080&v=1dba549c97957d0",
+            "selector": "div > div:nth-of-type(1) > div > div > div:nth-of-type(3) > figure > picture > img",
+            "alt": "",
+            "nearbyText": "",
+            "visible": true,
+            "boundingBox": {
+              "x": 20,
+              "y": 346,
+              "width": 1400,
+              "height": 748
+            },
+            "naturalWidth": 1920,
+            "naturalHeight": 1080,
+            "elementKind": "img",
+            "elementIndex": 2,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-22-the-glass-cabinet/",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-002",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/l4cbibny/rosenborg_room22_01_web.jpg",
+            "selector": null,
+            "alt": "",
+            "nearbyText": "",
+            "visible": false,
+            "boundingBox": null,
+            "naturalWidth": 0,
+            "naturalHeight": 0,
+            "elementKind": "meta",
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-22-the-glass-cabinet/",
+            "identityScore": 0
+          },
+          {
+            "candidateId": "page-image-003",
+            "url": "https://denkongeligesamling.dk/media/l4cbibny/rosenborg_room22_01_web.jpg?width=1920&height=1080&v=1dba549c97957d0",
+            "contentType": "image/webp",
+            "sourceType": "network_image",
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-22-the-glass-cabinet/",
+            "identityScore": -10
+          },
+          {
+            "candidateId": "page-image-004",
+            "url": "https://sleeknotestaticcontent.sleeknote.com/campaignassets/220255/a2ce1220-bc7c-45b1-bb7a-4e472357b47a.avif?timestamp=1785626191463",
+            "contentType": "image/avif",
+            "sourceType": "network_image",
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-22-the-glass-cabinet/",
+            "identityScore": -10
+          },
+          {
+            "candidateId": "page-image-005",
+            "url": "https://analytics.sleeknote.com/",
+            "contentType": "image/gif",
+            "sourceType": "network_image",
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-22-the-glass-cabinet/",
+            "identityScore": -10
+          }
+        ]
+      },
+      "status": "context_image_accepted",
+      "objectImageResolved": false,
+      "imagePolicy": "context_image",
+      "selected": {
+        "url": "https://denkongeligesamling.dk/media/l4cbibny/rosenborg_room22_01_web.jpg?width=1920&height=1080&v=1dba549c97957d0",
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-22-the-glass-cabinet/",
+        "sourceType": "page_image",
+        "caption": "The Glass Cabinet at Rosenborg Castle, room 22.",
+        "identityEvidence": [
+          "Official page title is The Glass Cabinet (room 22).",
+          "Image is the visible primary figure on the official room page.",
+          "Image filename identifies Rosenborg room 22."
+        ],
+        "confidence": 0.99,
+        "localPath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/assets/glass-cabinet.webp",
+        "sha256": "dfbbbb23e94876d3e53a4ee66755c9bb45aaba87425cd1d5cc2f7f90c5ea5d1b",
+        "width": 1920,
+        "height": 1080,
+        "contentType": "image/webp",
+        "method": "ai_page_candidate_download",
+        "provider": "page-image-candidate",
+        "imageRole": "architecture_view",
+        "candidateId": "page-image-001"
+      },
+      "aiDecision": {
+        "workId": "glass-cabinet",
+        "status": "candidate_found",
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-22-the-glass-cabinet/",
+        "selectedImage": {
+          "candidateId": "page-image-001",
+          "imageUrl": "https://denkongeligesamling.dk/media/l4cbibny/rosenborg_room22_01_web.jpg?width=1920&height=1080&v=1dba549c97957d0",
+          "candidateType": "direct_image",
+          "imageRole": "architecture_view",
+          "caption": "The Glass Cabinet at Rosenborg Castle, room 22.",
+          "identityEvidence": [
+            "Official page title is The Glass Cabinet (room 22).",
+            "Image is the visible primary figure on the official room page.",
+            "Image filename identifies Rosenborg room 22."
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "warnings": [],
+      "retried": true,
+      "reusedFromParent": true,
+      "parentEvidencePath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/verified-image-evidence.json",
+      "parentEvidenceSha256": "a1fffe95f8254ace77079d2698f020fc3ce0bb2f2ea73075a0b97744f8c97fad"
+    },
+    {
+      "workId": "wetting-trap-chair",
+      "identity": {
+        "museumId": "rosenborg",
+        "workId": "wetting-trap-chair",
+        "title": "The King’s wetting trap chair",
+        "objectType": "object",
+        "titleZh": "国王恶作剧湿裤椅",
+        "titleEn": "The King’s wetting trap chair",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "17世纪；1752年进入皇家珍奇柜",
+        "medium": "带隐藏机械装置的椅子",
+        "identityAnchor": "official-object:wetting-trap-chair",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/wetting-trap-chair/",
+        "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/wetting-trap-chair/",
+        "accessionNumber": null,
+        "collectionGroup": "Historic royal interiors and objects"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "The wetting trap chair | The Royal Danish Collection",
+        "finalUrl": "https://denkongeligesamling.dk/en/the-collection/objects/wetting-trap-chair/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://denkongeligesamling.dk/media/ppnao3lw/buksevandsstolen_fritlagt_hvid-bagggrund.jpg",
+          "https://denkongeligesamling.dk/media/5hcn0v22/buksevandsstol-henning-brandt-008.jpg?width=960&height=1440&v=1dc6369c3660030",
+          "https://denkongeligesamling.dk/media/ffjl02ex/buksevandsstol-henning-brandt-005.jpg?width=960&height=960&v=1dc6369eb6b5cb0",
+          "https://denkongeligesamling.dk/media/1uep0vy5/buksevandsstol-henning-brandt-007.jpg?rxy=0.05148066779608222,0.33509948409813317&width=960&height=960&v=1dc6369fa8c8020",
+          "https://denkongeligesamling.dk/media/rbpkri4t/buksevandsstol-henning-brandt-001.jpg?width=960&height=1440&v=1dc636a09d15830"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://media.lex.dk/media/206984/standard_Sk%C3%A6rmbillede_2025-04-09_kl._14.09.40.png",
+        "sourcePageUrl": "https://lex.dk/buksevandsstolen",
+        "sourceType": "publication",
+        "caption": "The King’s wetting trap chair, viewed from the front.",
+        "identityEvidence": [
+          "Lex identifies the pictured object as Buksevandsstolen (the wetting trap chair).",
+          "Lex states that the chair is part of the collection displayed at Rosenborg Castle.",
+          "The official museum page describes the same concealed water and trapping mechanisms."
+        ],
+        "confidence": 0.96,
+        "localPath": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/wetting-trap-chair.png",
+        "sha256": "3f7b7715bfd7a8e3da6fd100c576a5835e0164d5b5671d983a868d325d29e37d",
+        "width": 861,
+        "height": 1200,
+        "contentType": "image/png",
+        "method": "ai_image_research",
+        "provider": "publication",
+        "evidenceId": "img:rosenborg:wetting-trap-chair:3f7b7715bfd7"
+      },
+      "warnings": [],
+      "durationMs": 1661,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "wetting-trap-chair",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://media.lex.dk/media/206984/standard_Sk%C3%A6rmbillede_2025-04-09_kl._14.09.40.png",
+          "sourcePageUrl": "https://lex.dk/buksevandsstolen",
+          "sourceType": "publication",
+          "caption": "The King’s wetting trap chair, viewed from the front.",
+          "identityEvidence": [
+            "Lex identifies the pictured object as Buksevandsstolen (the wetting trap chair).",
+            "Lex states that the chair is part of the collection displayed at Rosenborg Castle.",
+            "The official museum page describes the same concealed water and trapping mechanisms."
+          ],
+          "confidence": 0.96
+        },
+        "alternatives": [],
+        "limitations": [
+          "The source page indicates limited reuse permissions."
+        ]
+      },
+      "reusedFromParent": true,
+      "parentEvidencePath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/verified-image-evidence.json",
+      "parentEvidenceSha256": "a1fffe95f8254ace77079d2698f020fc3ce0bb2f2ea73075a0b97744f8c97fad"
+    },
+    {
+      "workId": "rosenborg-wine",
+      "identity": {
+        "museumId": "rosenborg",
+        "workId": "rosenborg-wine",
+        "title": "The Rosenborg wine",
+        "objectType": "group",
+        "titleZh": "Rosenborg葡萄酒与酒桶",
+        "titleEn": "The Rosenborg wine",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "1598、1599、1615（最古老酒桶）",
+        "medium": "莱茵葡萄酒与木制酒桶",
+        "identityAnchor": "official-object:the-rosenborg-wine",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rosenborg-wine/",
+        "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rosenborg-wine/",
+        "accessionNumber": null,
+        "collectionGroup": "Historic royal interiors and objects"
+      },
+      "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rosenborg-wine/",
+      "page": {
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rosenborg-wine/",
+        "finalUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rosenborg-wine/",
+        "pageTitle": "The Rosenborg Wine | The Royal Danish Collection",
+        "bodyText": "You control your data\n\n\nWe and our business partners use technologies, including cookies, to collect information about you for various purposes, including: personalization of content and ads, analyzing our traffic, and providing access to social media features.\n\nBy clicking ‘Accept’, you give your consent for all these purposes. You can also choose to specify the purposes you consent to by ticking the checkbox next to the purpose and clicking ‘Save settings’.\n\nYou may withdraw your consent at any time by clicking the small icon at the bottom left corner of the website.\n\nYou can read more about how we use cookies and other technologies and how we collect and process personal data by clicking the link.\n\nRead more about cookies\n\n\nShow details\nDECLINE ALL\nACCEPT ALL\nNecessary\nFunctional\nStatistical\nMarketing\nThe Rosenborg wine\n\nThe Rosenborg wine is always served at the royal New Year's banquet. Those who have tasted it typically describe the taste as somewhat peculiar. But that matters less when you know the history behind the infamous wine, which has been served at royal events for centuries.\n\nToday, the old wine casks have been renovated and stand in the wine cellar under Rosenborg Castle.\nThe Rosenborg wine was first served at the royal New Year's banquet in 1598. The Rosenborg wine served today is still based on Christian IV's Rhine wine from the late 1500s.\n\nGolden drops on the move \n\nThe Rosenborg wine was originally bought by Christian iv and placed in the cellar of Nykøbing Castle, the residence of his mother, Queen Dowager Sophie. He enjoyed having a good glass of wine when he visited. Today, the three oldest wine casks – dating from 1598, 1599 and 1615 – are on display at Rosenborg Castle. The base of the wine is Rhine wine; according to tradition, it comes from Bacharach on the Rhine river in Germany. Christian IV's wine remained at Nykøbing Castle after the death of Queen Dowager Sophie, in 1631, and after the death of Christian IV, in 1648. \n\nCarried off by the Swedes  \n\nThis changed in the summer of 1659, when the Swedes heard of the excellent wine and carried off the casks as spoils of war. However, the golden drops were not destined to be enjoyed by Denmark's arch enemy, Sweden: enroute to Stockholm, the wine was recovered by a Danish privateer, crewed by Copenhagen citizens, and brought back to Denmark.\n\nAfter the casks had been recaptured, they placed in the wine cellar under Copenhagen Castle. In 1731, they were moved to Christian IV's favourite residence, Rosenborg Castle. By 1982, the old wooden casks had become so battered that the wine was transferred to steel tanks and bottles. Thus, the old wooden casks from the 16th century, which were briefly in the possession of the Swedes, are now empty.\n\nFamous and infamous\n\nFor several hundred years, the Rhine wine in the casks was replenished with other sugar-free wines to ensure that the character of the original wine was maintained, until it finally became so tart that it had to be served with a bowl of castor sugar to take the edge off. Later, Prince Henrik developed the wine, and today, reportedly, the taste of the Rosenborg wine has improved. It is still somewhat peculiar but drinkable – a little like a dry sherry. Even though it is served every year at the New Year's banquet and other very special royal occasions, the Rosenborg wine will easily last for another 300 years.\n\nHome\n→\nThe collection\n→\nObjects\n→\nThe Rosenborg Wine\nAmalienborg Museum\nChristiansborg Palace\nThe Hermitage Palace\nFredensborg Palace\nKoldinghus\nRosenborg Castle\nINFO\nContact us\nAbout us\nPress\nLogin for business customers\nTERMS\nData Protection Policy\nCookie consent\nWebsite Terms\nPrivacy statement\nTerms and conditions\nThe Royal Danish Collection\nØster Voldgade 4A 1350 Copenhagen K\nLINKEDIN",
+        "candidateCount": 10,
+        "candidates": [
+          {
+            "candidateId": "page-image-001",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/nwcf3ht5/dscn6471.jpg?width=1920&height=1080&v=1dc630086b1eeb0",
+            "selector": "div > div:nth-of-type(1) > div > div > div:nth-of-type(3) > figure > picture > img",
+            "alt": "Today, the old wine casks have been renovated and stand in the wine cellar under Rosenborg Castle.",
+            "nearbyText": "Today, the old wine casks have been renovated and stand in the wine cellar under Rosenborg Castle.",
+            "visible": true,
+            "boundingBox": {
+              "x": 20,
+              "y": 346,
+              "width": 1400,
+              "height": 748
+            },
+            "naturalWidth": 1920,
+            "naturalHeight": 1080,
+            "elementKind": "img",
+            "elementIndex": 2,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rosenborg-wine/",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-002",
+            "candidateType": "direct_image",
+            "url": "https://denkongeligesamling.dk/media/3ufilw0m/rosenborgvin.jpg",
+            "selector": null,
+            "alt": "",
+            "nearbyText": "",
+            "visible": false,
+            "boundingBox": null,
+            "naturalWidth": 0,
+            "naturalHeight": 0,
+            "elementKind": "meta",
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rosenborg-wine/",
+            "identityScore": 0
+          },
+          {
+            "candidateId": "page-image-003",
+            "url": "https://denkongeligesamling.dk/media/nwcf3ht5/dscn6471.jpg?width=1920&height=1080&v=1dc630086b1eeb0",
+            "contentType": "image/webp",
+            "sourceType": "network_image",
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rosenborg-wine/",
+            "identityScore": -10
+          },
+          {
+            "candidateId": "page-image-004",
+            "url": "https://sleeknotestaticcontent.sleeknote.com/campaignassets/220255/a2ce1220-bc7c-45b1-bb7a-4e472357b47a.avif?timestamp=1785626199131",
+            "contentType": "image/avif",
+            "sourceType": "network_image",
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rosenborg-wine/",
+            "identityScore": -10
+          },
+          {
+            "candidateId": "page-image-005",
+            "url": "https://analytics.sleeknote.com/",
+            "contentType": "image/gif",
+            "sourceType": "network_image",
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rosenborg-wine/",
+            "identityScore": -10
+          }
+        ]
+      },
+      "status": "object_image_accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://denkongeligesamling.dk/media/nwcf3ht5/dscn6471.jpg?width=1920&height=1080&v=1dc630086b1eeb0",
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rosenborg-wine/",
+        "sourceType": "page_image",
+        "caption": "The historic Rosenborg wine casks in the wine cellar under Rosenborg Castle.",
+        "identityEvidence": [
+          "Official page title is The Rosenborg Wine.",
+          "Image is the visible primary figure on the official object page.",
+          "Nearby text states that the old wine casks stand in the wine cellar under Rosenborg Castle."
+        ],
+        "confidence": 0.99,
+        "localPath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/assets/rosenborg-wine.webp",
+        "sha256": "da25a4901121034858a037263908dcda2c1353f5708ba6b866ec0cf876d060a9",
+        "width": 1920,
+        "height": 1080,
+        "contentType": "image/webp",
+        "method": "ai_page_candidate_download",
+        "provider": "page-image-candidate",
+        "imageRole": "object_view",
+        "candidateId": "page-image-001"
+      },
+      "aiDecision": {
+        "workId": "rosenborg-wine",
+        "status": "candidate_found",
+        "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rosenborg-wine/",
+        "selectedImage": {
+          "candidateId": "page-image-001",
+          "imageUrl": "https://denkongeligesamling.dk/media/nwcf3ht5/dscn6471.jpg?width=1920&height=1080&v=1dc630086b1eeb0",
+          "candidateType": "direct_image",
+          "imageRole": "object_view",
+          "caption": "The historic Rosenborg wine casks in the wine cellar under Rosenborg Castle.",
+          "identityEvidence": [
+            "Official page title is The Rosenborg Wine.",
+            "Image is the visible primary figure on the official object page.",
+            "Nearby text states that the old wine casks stand in the wine cellar under Rosenborg Castle."
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "warnings": [],
+      "retried": true,
+      "reusedFromParent": true,
+      "parentEvidencePath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/verified-image-evidence.json",
+      "parentEvidenceSha256": "a1fffe95f8254ace77079d2698f020fc3ce0bb2f2ea73075a0b97744f8c97fad"
+    }
+  ]
+}

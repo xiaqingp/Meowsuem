@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "museumId": "rosenborg",
+  "works": [
+    {
+      "workId": "coronation-sword",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "1643年制剑在1648年成为王室礼器，原用于加冕与受膏；其剑鞘汇集丹麦王国各地纹章，并保留后来领土变化留下的矛盾痕迹，能说明礼器如何随王权制度和疆域叙事改变。",
+      "selectionSignals": [
+        "王室礼器身份明确，适合与克里斯蒂安三世国剑并置，形成1661年前后加冕礼制的时间对照。",
+        "剑身、珠宝剑柄和带有领土纹章的剑鞘同时承载仪式功能与政治地理信息。"
+      ],
+      "sectionSignals": [
+        "加冕礼器与绝对王权前后的制度转型",
+        "王冠礼仪中的领土纹章与记忆"
+      ],
+      "routeSignals": [
+        "Rosenborg Treasury王室礼器路线",
+        "与克里斯蒂安三世国剑组成礼器对照节点"
+      ],
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-coronation-sword/"
+      ]
+    },
+    {
+      "workId": "christian-iii-sword-of-state",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "1551年为克里斯蒂安三世委制的国剑，是1661年前加冕仪式中最先交给君主的礼器；君主拔剑并指向四方的仪式，把统治者保卫王国的责任转化为可执行的动作。",
+      "selectionSignals": [
+        "年代和仪式顺序明确，为理解加冕礼中权力如何被授予提供基线。",
+        "1559年至1648年间实际使用，能与加冕剑共同说明从宗教加冕到受膏仪式的转变。"
+      ],
+      "sectionSignals": [
+        "1661年前的加冕礼与王权职责",
+        "礼器动作：授剑、拔剑与守卫疆域"
+      ],
+      "routeSignals": [
+        "Rosenborg Treasury王室礼器路线",
+        "作为加冕剑前的历史基线节点"
+      ],
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/chr-iii-s-sword-of-state/"
+      ]
+    },
+    {
+      "workId": "narwhal-throne",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "弗雷德里克三世在1662—1671年制作的王座以《圣经》所罗门王叙事为模型，实际使用明知是独角鲸牙的材料，并以镀金金属代替黄金，显示王权如何借古代智慧、自然珍奇和材料选择制造合法性。",
+      "selectionSignals": [
+        "王座、所罗门王典故、独角鲸牙和镀金装饰构成一条完整的王权展示逻辑。",
+        "可与银狮组合作为王座计划的主体与附属构件，解释预想形象与实际制作之间的关系。"
+      ],
+      "sectionSignals": [
+        "所罗门王范本与王权展示",
+        "珍奇材料、自然知识与宫廷收藏"
+      ],
+      "routeSignals": [
+        "Rosenborg历史王室内饰与王座路线",
+        "与银狮作为同一王座计划的连续节点"
+      ],
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-narwhal-throne/"
+      ]
+    },
+    {
+      "workId": "silver-lions",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "弗雷德里克三世原计划制作十二只守护王座的狮子，但预算使方案从黄金改为银与铜，国王去世时只完成三只银狮；这组对象把王权图像、预算约束和未完成工程同时保存下来。",
+      "selectionSignals": [
+        "成组三只银狮的身份和完成状态明确，能补充独角鲸牙王座的制作与计划背景。",
+        "十二只、银铜折衷、三只完成及第四只材料改作王室棺椁等信息，提供王权工程被现实改写的具体证据。"
+      ],
+      "sectionSignals": [
+        "王座计划：理想数量与实际完成",
+        "王权形象、材料预算与未完成性"
+      ],
+      "routeSignals": [
+        "与独角鲸牙王座组成王座及其附属构件路线",
+        "适合作为王室工程细节节点，不单独承担整馆核心"
+      ],
+      "riskFlags": [
+        "availability_ambiguity",
+        "composite_or_parent_child"
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/silver-lions/"
+      ]
+    },
+    {
+      "workId": "homage-of-1660",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "海姆巴赫描绘1660年10月18日弗雷德里克三世在哥本哈根城堡前接受致敬的场面，画面把丹麦从战争与政治危机中走向世袭君主制、继而走向绝对王权的转折固定为一场公开仪式。",
+      "selectionSignals": [
+        "直接连接1660年世袭君主确立、1661年绝对王权法案与1849年宪政终结，补足礼器之外的政治图像证据。",
+        "画面包含国王、贵族、普通人和象征新权力的太阳，适合承担制度转折的可视化节点。"
+      ],
+      "sectionSignals": [
+        "1660年政治危机与世袭君主制",
+        "王权转折的公开仪式与图像表达"
+      ],
+      "routeSignals": [
+        "Rosenborg历史王室内饰与政治图像路线",
+        "连接礼器节点与绝对王权叙事"
+      ],
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-homage-of-1660/"
+      ]
+    },
+    {
+      "workId": "christian-iv-blood-stained-clothes",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "这些服装保留了克里斯蒂安四世在1644年科尔贝格海德海战中受伤时留下的血迹；君主主动保存它们，说明身体创伤如何被转化为本人参与塑造的英雄纪念物。",
+      "selectionSignals": [
+        "对象把海战、君主受伤、船员继续作战和王室纪念行为连成一条可核查的个人政治记忆线。",
+        "与弹片耳环形成同一事件的两种物质转化：服装被保存为战争遗物，弹片被改制为私人礼物。"
+      ],
+      "sectionSignals": [
+        "战争、身体创伤与王室记忆",
+        "君主如何保存并塑造自己的身后形象"
+      ],
+      "routeSignals": [
+        "Rosenborg Christian IV卧室路线",
+        "与弹片耳环组成同一战事的成对观看节点"
+      ],
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/christian-ivs-blood-stained-clothes/"
+      ]
+    },
+    {
+      "workId": "shrapnel-earrings",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "1644年从克里斯蒂安四世头部取出的两块弹片被制成一对珐琅金耳环，作为礼物送给维贝克·克鲁塞；手形构件托住战场残片，使战争遗物进入亲密关系和王室记忆。",
+      "selectionSignals": [
+        "官方对象页明确说明弹片来源、改制方式、赠予对象和与血染服装的关系。",
+        "适合用来比较同一君主对战争遗物的两种处理：保存血染服装与转赠弹片首饰。"
+      ],
+      "sectionSignals": [
+        "战场材料的再用途：从弹片到首饰",
+        "王室私人关系与公共英雄形象"
+      ],
+      "routeSignals": [
+        "Rosenborg Christian IV卧室路线",
+        "应与血染服装连续观看"
+      ],
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/shrapnel-earrings/"
+      ]
+    },
+    {
+      "workId": "oldenborg-horn",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "奥尔登堡号角约1400年制作，1663年进入丹麦王冠，1690年转入皇家珍奇柜；它同时保留989年精灵诅咒传说与较晚的物证记录，展示王室珍藏如何叠合家族谱系、传说和收藏制度。",
+      "selectionSignals": [
+        "对象的实际制作年代与传说中的起源年代清楚分离，适合说明传说不能替代物证。",
+        "从奥尔登堡家族、丹麦王冠到皇家珍奇柜的迁移，提供跨时期收藏线索。"
+      ],
+      "sectionSignals": [
+        "王室珍藏中的家族记忆与传说",
+        "珍奇柜制度：传说、物证与收藏迁移"
+      ],
+      "routeSignals": [
+        "Rosenborg Treasury珍奇与王室旧藏路线",
+        "适合连接王室礼器与珍奇柜对象"
+      ],
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-oldenborg-horn/"
+      ]
+    },
+    {
+      "workId": "snake-head-with-coin",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "干蛇头与萨尔茨堡古尔登金币的组合没有单一可靠的来源故事：珍奇柜目录说它由弗雷德里克三世在瑞典围城后发现，另一说法则归于克里斯蒂安四世遗失金币；对象的价值在于把不确定性本身保存为收藏内容。",
+      "selectionSignals": [
+        "官方对象页明确并列两种相互竞争的来源叙事，适合表现珍奇柜并不总是消除不确定性。",
+        "可作为王室珍奇柜中‘来源故事与可确认事实分开’的风险示例，避免把传说当作确定历史。"
+      ],
+      "sectionSignals": [
+        "珍奇柜中的不确定性与竞争来源",
+        "物件、金币与王室传说的拼接"
+      ],
+      "routeSignals": [
+        "Rosenborg历史王室对象与珍奇柜路线",
+        "作为珍奇柜叙事方法的补充节点"
+      ],
+      "riskFlags": [
+        "availability_ambiguity",
+        "cross_source_synthesis"
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/snake-s-head-with-coin/"
+      ]
+    },
+    {
+      "workId": "pomander",
+      "identityStatus": "stable",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "约1600年的骷髅形香球由黄金、白色珐琅和红宝石制成，打开后有六个香料隔间，既是佩戴在腰带上的实用物，也是提醒死亡的memento mori，并与弗雷德里克三世王后索菲·阿玛莉及肖像中的相似佩饰相连。",
+      "selectionSignals": [
+        "材料、六个隔间、气味从眼窝散出和腰带佩戴方式均有对象页支持，能把小型器物的功能与象征放在同一观察线上。",
+        "与埃伦·马斯文肖像中的相似香球形成馆内跨对象关联，补足王室日常佩饰与死亡意识。"
+      ],
+      "sectionSignals": [
+        "文艺复兴宫廷中的气味、医疗与死亡意识",
+        "小型佩饰如何连接身体、身份与肖像"
+      ],
+      "routeSignals": [
+        "Rosenborg Treasury小型王室珍品路线",
+        "可与相关肖像及珍奇柜对象形成跨对象观看"
+      ],
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/pomander/"
+      ]
+    }
+  ]
+}

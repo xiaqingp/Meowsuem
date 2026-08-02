@@ -1,0 +1,465 @@
+{
+  "schemaVersion": 1,
+  "museum": {
+    "id": "rosenborg",
+    "editorialCapacity": 20,
+    "city": "Copenhagen，Denmark",
+    "zh": "罗森堡城堡",
+    "en": "Rosenborg Castle",
+    "verdict": "70–79 · 可去可不去",
+    "hero": "./assets/rosenborg/christian-iv-blood-stained-clothes.jpg",
+    "contentFile": "research/content/rosenborg.md",
+    "official": "https://denkongeligesamling.dk/en/rosenborg-castle/",
+    "visit": "https://denkongeligesamling.dk/en/rosenborg-castle/",
+    "contentUpdatedAt": "2026-08-02",
+    "intro": [
+      "罗森堡的独特性不只在王冠和珠宝，而在于一座保存王室居室、王权礼器、珍奇柜、宫廷日常与收藏展示空间的城堡，把丹麦王权从克里斯蒂安四世的身体与房间，一路连接到绝对君主制的仪式、战争图像、宪政记忆和仍在使用的王室珠宝。",
+      "评分 79，属于“可去可不去”：如果你在哥本哈根想集中理解丹麦王权如何被房间、礼器和珍宝做成可见秩序，罗森堡值得安排半天；若只有 90 分钟，应直奔骑士大厅与地下 Treasury，并接受部分王冠珠宝可能因王室使用而暂离展柜。它是高密度的王室历史现场，但不是凭单件稀世珍品就必须专程前往的博物馆。"
+    ],
+    "routes": {
+      "90": {
+        "title": "90分钟：先看王权舞台，再下到 Treasury",
+        "note": "按高回报节点取舍：优先骑士大厅、两把王冠、克里斯蒂安三世国剑、加冕剑与一件珍奇对象。跳过四套珠宝的逐套比较、玻璃柜和战争记忆组；地下 Treasury 的入口与参观边界以现场馆方安排为准。",
+        "workIds": [
+          "knights-hall",
+          "narwhal-throne",
+          "silver-lions",
+          "christian-iii-sword-of-state",
+          "oldenborg-horn",
+          "christian-iv-crown",
+          "christian-v-crown",
+          "coronation-sword",
+          "ampulla",
+          "pomander"
+        ]
+      },
+      "half": {
+        "title": "半天：从克里斯蒂安四世到宪政转折",
+        "note": "在90分钟核心线上加入克里斯蒂安四世的染血服装与弹片耳环、四套王冠珠宝的比较、玻璃柜和葡萄酒。玫瑰式切割钻石套饰属于通常王冠珠宝语境，但具体陈列和是否因王室使用暂离须提前核验；宪法笔在弗雷德里克七世房间观看。",
+        "workIds": [
+          "christian-iv-blood-stained-clothes",
+          "shrapnel-earrings",
+          "knights-hall",
+          "narwhal-throne",
+          "silver-lions",
+          "glass-cabinet",
+          "christian-iii-sword-of-state",
+          "oldenborg-horn",
+          "pomander",
+          "christian-iv-crown",
+          "christian-v-crown",
+          "coronation-sword",
+          "ampulla",
+          "emerald-set",
+          "pearl-ruby-set",
+          "brilliant-cut-diamond-set",
+          "rose-cut-diamond-set",
+          "constitution-pen",
+          "rosenborg-wine",
+          "wetting-trap-chair"
+        ]
+      },
+      "all": {
+        "title": "完整浏览：按楼层、制度与收藏线分段看",
+        "note": "完整路线覆盖全部20件入选对象。建议先看城堡室内和骑士大厅，再进入地下 Treasury，最后用王冠珠宝和葡萄酒收束；多层楼梯、休息和地下室独立入口会增加时间。所有对象的现场状态仍以访问日馆方通知为准，尤其是轮换珠宝；完整浏览不把关闭或未确认对象伪装成必然可见。",
+        "workIds": [
+          "christian-iv-blood-stained-clothes",
+          "shrapnel-earrings",
+          "knights-hall",
+          "narwhal-throne",
+          "silver-lions",
+          "glass-cabinet",
+          "wetting-trap-chair",
+          "christian-iii-sword-of-state",
+          "oldenborg-horn",
+          "pomander",
+          "christian-iv-crown",
+          "coronation-sword",
+          "ampulla",
+          "christian-v-crown",
+          "emerald-set",
+          "pearl-ruby-set",
+          "brilliant-cut-diamond-set",
+          "rose-cut-diamond-set",
+          "constitution-pen",
+          "rosenborg-wine"
+        ]
+      }
+    },
+    "rareAssets": []
+  },
+  "chapters": [
+    {
+      "id": "christian-iv-body-and-memory",
+      "number": 1,
+      "title": "一个国王怎样把受伤的身体变成王室记忆？",
+      "intro": "先从克里斯蒂安四世的身体和私人关系进入罗森堡：这里保存的不只是战争史，而是君主如何主动留下可被后人观看的纪念物，以及战场材料如何进入亲密赠礼。"
+    },
+    {
+      "id": "from-election-to-absolutism",
+      "number": 2,
+      "title": "王冠和剑，怎样把制度变化变成一连串动作？",
+      "intro": "沿着地下 Treasury 的礼器线索，把1661年前的选举君主制、1596年的开放式王冠、1648年的礼器重组、1670—1671年的绝对君主王冠，以及1849年的宪政转折连起来看。对象不是抽象制度的插图，而是制度改变后被重新使用的器物。"
+    },
+    {
+      "id": "the-throne-as-political-stage",
+      "number": 3,
+      "title": "王座为什么要同时像圣经范本、北方珍奇和一项未完成工程？",
+      "intro": "在骑士大厅，把独角鲸牙王座和银狮作为一个王权工程观看：所罗门王的范本、北方材料、预算约束和三只已完成的银狮，共同说明宏大政治形象总要经过材料与现实的改写。"
+    },
+    {
+      "id": "cabinet-of-curiosities",
+      "number": 4,
+      "title": "王室收藏为什么要保存传说、气味和恶作剧？",
+      "intro": "从奥尔登堡号角和香球看到珍奇柜如何叠放物证、家族记忆、传说与感官经验，再以湿裤椅收束：王室展示并不只有庄严礼仪，也容纳不确定性、死亡意识和隐藏机械。"
+    },
+    {
+      "id": "jewels-inheritance-and-use",
+      "number": 5,
+      "title": "王冠珠宝保存的到底是宝石，还是一条仍在变化的继承史？",
+      "intro": "把四套珠宝放在一起比较：翡翠套饰强调旧宝石与完整配置，珍珠红宝石套饰保留更早材料线索，明亮式与玫瑰式切割钻石则显示旧物如何重新组合、改变用途并继续进入王室佩戴。"
+    },
+    {
+      "id": "collection-as-lived-institution",
+      "number": 6,
+      "title": "一座王室收藏怎样同时保存展示制度和日常延续？",
+      "intro": "玻璃柜把一次威尼斯赠礼变成专门的早期收藏展示空间，Rosenborg 葡萄酒则把宴饮、迁移、战争和持续使用带入地下室；两者提醒我们，这座城堡既是政治舞台，也是会被使用、整理和重新陈列的制度。"
+    }
+  ],
+  "routes": {
+    "90": {
+      "title": "90分钟：先看王权舞台，再下到 Treasury",
+      "note": "按高回报节点取舍：优先骑士大厅、两把王冠、克里斯蒂安三世国剑、加冕剑与一件珍奇对象。跳过四套珠宝的逐套比较、玻璃柜和战争记忆组；地下 Treasury 的入口与参观边界以现场馆方安排为准。",
+      "workIds": [
+        "knights-hall",
+        "narwhal-throne",
+        "silver-lions",
+        "christian-iii-sword-of-state",
+        "oldenborg-horn",
+        "christian-iv-crown",
+        "christian-v-crown",
+        "coronation-sword",
+        "ampulla",
+        "pomander"
+      ]
+    },
+    "half": {
+      "title": "半天：从克里斯蒂安四世到宪政转折",
+      "note": "在90分钟核心线上加入克里斯蒂安四世的染血服装与弹片耳环、四套王冠珠宝的比较、玻璃柜和葡萄酒。玫瑰式切割钻石套饰属于通常王冠珠宝语境，但具体陈列和是否因王室使用暂离须提前核验；宪法笔在弗雷德里克七世房间观看。",
+      "workIds": [
+        "christian-iv-blood-stained-clothes",
+        "shrapnel-earrings",
+        "knights-hall",
+        "narwhal-throne",
+        "silver-lions",
+        "glass-cabinet",
+        "christian-iii-sword-of-state",
+        "oldenborg-horn",
+        "pomander",
+        "christian-iv-crown",
+        "christian-v-crown",
+        "coronation-sword",
+        "ampulla",
+        "emerald-set",
+        "pearl-ruby-set",
+        "brilliant-cut-diamond-set",
+        "rose-cut-diamond-set",
+        "constitution-pen",
+        "rosenborg-wine",
+        "wetting-trap-chair"
+      ]
+    },
+    "all": {
+      "title": "完整浏览：按楼层、制度与收藏线分段看",
+      "note": "完整路线覆盖全部20件入选对象。建议先看城堡室内和骑士大厅，再进入地下 Treasury，最后用王冠珠宝和葡萄酒收束；多层楼梯、休息和地下室独立入口会增加时间。所有对象的现场状态仍以访问日馆方通知为准，尤其是轮换珠宝；完整浏览不把关闭或未确认对象伪装成必然可见。",
+      "workIds": [
+        "christian-iv-blood-stained-clothes",
+        "shrapnel-earrings",
+        "knights-hall",
+        "narwhal-throne",
+        "silver-lions",
+        "glass-cabinet",
+        "wetting-trap-chair",
+        "christian-iii-sword-of-state",
+        "oldenborg-horn",
+        "pomander",
+        "christian-iv-crown",
+        "coronation-sword",
+        "ampulla",
+        "christian-v-crown",
+        "emerald-set",
+        "pearl-ruby-set",
+        "brilliant-cut-diamond-set",
+        "rose-cut-diamond-set",
+        "constitution-pen",
+        "rosenborg-wine"
+      ]
+    }
+  },
+  "rating": {
+    "museumId": "rosenborg",
+    "score": 79,
+    "scoreBand": "70–79 · 可去可不去",
+    "withinBandAnchor": "78–79",
+    "scoreReason": "锁定证据支持一条高度连贯且现场性很强的丹麦王权路线：两顶制度含义不同的国王王冠、成组礼器与国剑、独角鲸牙王座及银狮、仍在历史空间中展示的战伤纪念物、王冠珠宝，以及骑士大厅和整体保存的玻璃柜，共同把宫殿、仪式、收藏和制度转折连成不可由普通装饰艺术馆替代的体验。然而全部候选均未完成稀世珍品不可替代性硬门，故不得进入80分档。",
+    "withinBandReason": "在70分档内取上限，是因为重要对象密度、历史室内与原有收藏展示关系同时成立，且多条观看线可支撑一次完整参观；它接近80分所需的珍品门槛，但现有研究对王冠、礼器、王座及玻璃柜均缺少足以证明全球不可替代性的最近比较对象与决定性差异，因此止于79分。",
+    "rareAssets": [],
+    "independentRareLines": [],
+    "dedicatedTrip": false,
+    "worldDominantConcentration": false,
+    "worldDominantConcentrationEvidence": []
+  },
+  "works": [
+    {
+      "id": "christian-iv-blood-stained-clothes",
+      "ch": "christian-iv-body-and-memory",
+      "significance": "重要藏品",
+      "image": "./assets/rosenborg/christian-iv-blood-stained-clothes.jpg",
+      "imageSource": "https://kongegrave.dk/wp-content/uploads/2020/12/christian-4-blod-1-679x1024.jpg",
+      "imageCaption": "克里斯蒂安四世染血服装 / Christian IV’s blood-stained clothes",
+      "source": "https://denkongeligesamling.dk/en/the-collection/objects/christian-ivs-blood-stained-clothes/",
+      "localAssetSource": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/christian-iv-blood-stained-clothes.jpg",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "shrapnel-earrings",
+      "ch": "christian-iv-body-and-memory",
+      "significance": "特色看点",
+      "image": "./assets/rosenborg/shrapnel-earrings.webp",
+      "imageSource": "https://denkongeligesamling.dk/media/zd1mou2u/splinter-oeresmykker.jpg?width=1920&height=1080&v=1dc630086d29610",
+      "imageCaption": "弹片耳环 / Shrapnel earrings",
+      "source": "https://denkongeligesamling.dk/en/the-collection/objects/shrapnel-earrings/",
+      "localAssetSource": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/shrapnel-earrings.webp",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "christian-iii-sword-of-state",
+      "ch": "from-election-to-absolutism",
+      "significance": "重要藏品",
+      "image": "./assets/rosenborg/christian-iii-sword-of-state.webp",
+      "imageSource": "https://denkongeligesamling.dk/media/i1deqjce/a0610001-7-dig-ibk.jpg?width=1920&height=1080&v=1dbb9be723d33e0",
+      "imageCaption": "克里斯蒂安三世国剑 / Christian III's sword of state",
+      "source": "https://denkongeligesamling.dk/en/the-collection/objects/chr-iii-s-sword-of-state/",
+      "localAssetSource": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/christian-iii-sword-of-state.webp",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "christian-iv-crown",
+      "ch": "from-election-to-absolutism",
+      "significance": "重要藏品",
+      "image": "./assets/rosenborg/christian-iv-crown.jpg",
+      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/6/61/Crown_of_King_Christian_IV_of_Denmark.jpg",
+      "imageCaption": "克里斯蒂安四世王冠 / Christian IV’s crown",
+      "source": "https://denkongeligesamling.dk/en/the-collection/objects/christian-iv-s-crown/",
+      "localAssetSource": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/christian-iv-crown.jpg",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "coronation-sword",
+      "ch": "from-election-to-absolutism",
+      "significance": "重要藏品",
+      "image": "./assets/rosenborg/coronation-sword.webp",
+      "imageSource": "https://denkongeligesamling.dk/media/ny0ishuq/frederik-3-kronings-kaarde.jpg?width=1920&height=1080&v=1dcb3e6f8ff4080",
+      "imageCaption": "加冕剑 / The Coronation Sword",
+      "source": "https://denkongeligesamling.dk/en/the-collection/objects/the-coronation-sword/",
+      "localAssetSource": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/coronation-sword.webp",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "ampulla",
+      "ch": "from-election-to-absolutism",
+      "significance": "重要藏品",
+      "image": "./assets/rosenborg/ampulla.webp",
+      "imageSource": "https://denkongeligesamling.dk/media/h0gjtxr1/buddike-2.jpg?rxy=0.5024077046548957,0.44640434192673&width=1920&height=1080&v=1dc83a7c0143880",
+      "imageCaption": "涂油壶 / The Ampulla",
+      "source": "https://denkongeligesamling.dk/en/the-collection/objects/ampulla/",
+      "localAssetSource": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/ampulla.webp",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "christian-v-crown",
+      "ch": "from-election-to-absolutism",
+      "significance": "重要藏品",
+      "image": "./assets/rosenborg/christian-v-crown.jpg",
+      "imageSource": "https://denkongeligesamling.dk/media/dz4ddzmu/christian_viii_og_caroline_amalie_i_salvingsdragt-1841.jpg?width=640&height=360&v=1db9ca17fe344b0",
+      "imageCaption": "克里斯蒂安五世王冠 / Christian V’s Crown",
+      "source": "https://denkongeligesamling.dk/en/the-collection/objects/christian-v-s-crown/",
+      "localAssetSource": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/christian-v-crown.jpg",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "constitution-pen",
+      "ch": "from-election-to-absolutism",
+      "significance": "重要藏品",
+      "image": "./assets/rosenborg/constitution-pen.webp",
+      "imageSource": "https://denkongeligesamling.dk/media/ub5dmscv/billede.jpg?rxy=0.3358853601934988,0.6139827957585555&width=1920&height=1080&v=1dc630086b98fd0",
+      "imageCaption": "1849年宪法笔 / The 1849 Constitution pen",
+      "source": "https://denkongeligesamling.dk/en/the-collection/objects/the-constitution-pen/",
+      "localAssetSource": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/constitution-pen.webp",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "knights-hall",
+      "ch": "the-throne-as-political-stage",
+      "significance": "重要藏品",
+      "image": "./assets/rosenborg/knights-hall.webp",
+      "imageSource": "https://denkongeligesamling.dk/media/t04jssmk/riddersal_rasmus_t_rosenberg-1.jpg?width=1920&height=1080&v=1dba5481ca16850",
+      "imageCaption": "骑士大厅（21号房） / The Knights’ Hall (room 21)",
+      "source": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/",
+      "localAssetSource": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/knights-hall.webp",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "narwhal-throne",
+      "ch": "the-throne-as-political-stage",
+      "significance": "重要藏品",
+      "image": "./assets/rosenborg/narwhal-throne.webp",
+      "imageSource": "https://denkongeligesamling.dk/media/a4glwlzz/trone-riddersal_rasmus_t_rosenberg.jpg?width=960&height=1440&v=1dc31182b000530",
+      "imageCaption": "独角鲸牙王座 / The narwhal throne",
+      "source": "https://denkongeligesamling.dk/en/the-collection/objects/the-narwhal-throne/",
+      "localAssetSource": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/narwhal-throne.webp",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "silver-lions",
+      "ch": "the-throne-as-political-stage",
+      "significance": "特色看点",
+      "image": "./assets/rosenborg/silver-lions.jpg",
+      "imageSource": "https://live.staticflickr.com/5592/15159647055_46a0fb6a96_o.jpg",
+      "imageCaption": "银狮 / Silver lions",
+      "source": "https://denkongeligesamling.dk/en/the-collection/objects/silver-lions/",
+      "localAssetSource": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/silver-lions.jpg",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "oldenborg-horn",
+      "ch": "cabinet-of-curiosities",
+      "significance": "特色看点",
+      "image": "./assets/rosenborg/oldenborg-horn.jpg",
+      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Det_Oldenborgske_Horn_01.jpg",
+      "imageCaption": "奥尔登堡号角 / The Oldenborg Horn",
+      "source": "https://denkongeligesamling.dk/en/the-collection/objects/the-oldenborg-horn/",
+      "localAssetSource": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/oldenborg-horn.jpg",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "pomander",
+      "ch": "cabinet-of-curiosities",
+      "significance": "特色看点",
+      "image": "./assets/rosenborg/pomander.webp",
+      "imageSource": "https://denkongeligesamling.dk/media/1eiclvrr/a0010033-8-dig-ibk.png?width=640&height=640&v=1dc2c7e07b6e380",
+      "imageCaption": "香球 / Pomander",
+      "source": "https://denkongeligesamling.dk/en/the-collection/objects/pomander/",
+      "localAssetSource": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/pomander.webp",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "wetting-trap-chair",
+      "ch": "cabinet-of-curiosities",
+      "significance": "重要藏品",
+      "image": "./assets/rosenborg/wetting-trap-chair.png",
+      "imageSource": "https://media.lex.dk/media/206984/standard_Sk%C3%A6rmbillede_2025-04-09_kl._14.09.40.png",
+      "imageCaption": "国王恶作剧湿裤椅 / The King’s wetting trap chair",
+      "source": "https://denkongeligesamling.dk/en/the-collection/objects/wetting-trap-chair/",
+      "localAssetSource": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/wetting-trap-chair.png",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "emerald-set",
+      "ch": "jewels-inheritance-and-use",
+      "significance": "重要藏品",
+      "image": "./assets/rosenborg/emerald-set.webp",
+      "imageSource": "https://denkongeligesamling.dk/media/ti4bywca/smaragdsaettet-collier-62-6a-3-ibk.jpg?width=960&height=1440&v=1dba52b91091570",
+      "imageCaption": "翡翠套饰 / The Emerald Set",
+      "source": "https://denkongeligesamling.dk/en/the-collection/objects/the-emerald-set/",
+      "localAssetSource": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/emerald-set.webp",
+      "imageKind": "object",
+      "availabilityTag": "不确定是否展出"
+    },
+    {
+      "id": "pearl-ruby-set",
+      "ch": "jewels-inheritance-and-use",
+      "significance": "重要藏品",
+      "image": "./assets/rosenborg/pearl-ruby-set.webp",
+      "imageSource": "https://denkongeligesamling.dk/media/l5fb4rss/a0620002-a-dig-ibk.png?width=960&height=540&v=1db94c314c63830",
+      "imageCaption": "珍珠红宝石套饰 / The Pearl-Ruby Set",
+      "source": "https://denkongeligesamling.dk/en/the-collection/objects/the-pearl-ruby-set/",
+      "localAssetSource": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/pearl-ruby-set.webp",
+      "imageKind": "object",
+      "availabilityTag": "不确定是否展出"
+    },
+    {
+      "id": "brilliant-cut-diamond-set",
+      "ch": "jewels-inheritance-and-use",
+      "significance": "特色看点",
+      "image": "./assets/rosenborg/brilliant-cut-diamond-set.webp",
+      "imageSource": "https://denkongeligesamling.dk/media/frmdpmrf/1-brillantsaettet-collier-62-5a-3-ibk.jpg?width=960&height=960&v=1dba53ddcc13800",
+      "imageCaption": "明亮式切割钻石套饰 / The Brilliant-Cut Diamond Set",
+      "source": "https://denkongeligesamling.dk/en/the-collection/objects/the-brillant-cut-diamond-set/",
+      "localAssetSource": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/brilliant-cut-diamond-set.webp",
+      "imageKind": "object",
+      "availabilityTag": "不确定是否展出"
+    },
+    {
+      "id": "rose-cut-diamond-set",
+      "ch": "jewels-inheritance-and-use",
+      "significance": "重要藏品",
+      "image": "./assets/rosenborg/rose-cut-diamond-set.jpg",
+      "imageSource": "https://denkongeligesamling.dk/media/rqpe2rzf/rosenstensaettet.jpg",
+      "imageCaption": "玫瑰式切割钻石套饰 / The Rose-Cut Diamond Set",
+      "source": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/",
+      "localAssetSource": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/rose-cut-diamond-set.jpg",
+      "imageKind": "object",
+      "availabilityTag": "不确定是否展出"
+    },
+    {
+      "id": "glass-cabinet",
+      "ch": "collection-as-lived-institution",
+      "significance": "重要藏品",
+      "image": "./assets/rosenborg/glass-cabinet.webp",
+      "imageSource": "https://denkongeligesamling.dk/media/l4cbibny/rosenborg_room22_01_web.jpg?width=1920&height=1080&v=1dba549c97957d0",
+      "imageCaption": "玻璃柜（22号房） / The Glass Cabinet (room 22)",
+      "source": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-22-the-glass-cabinet/",
+      "localAssetSource": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/glass-cabinet.webp",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "rosenborg-wine",
+      "ch": "collection-as-lived-institution",
+      "significance": "特色看点",
+      "image": "./assets/rosenborg/rosenborg-wine.webp",
+      "imageSource": "https://denkongeligesamling.dk/media/nwcf3ht5/dscn6471.jpg?width=1920&height=1080&v=1dc630086b1eeb0",
+      "imageCaption": "Rosenborg葡萄酒与酒桶 / The Rosenborg wine",
+      "source": "https://denkongeligesamling.dk/en/the-collection/objects/the-rosenborg-wine/",
+      "localAssetSource": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/rosenborg-wine.webp",
+      "imageKind": "object",
+      "availabilityTag": ""
+    }
+  ],
+  "integration": {
+    "coordinates": [
+      55.685661,
+      12.577481
+    ]
+  },
+  "publication": {
+    "dataFile": "rosenborg.js",
+    "cacheKey": "rosenborg-p2-13-39",
+    "cachePages": []
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "status": "accepted",
+  "runId": "20260801T223003Z-p2.13.34",
+  "museumId": "rosenborg",
+  "workId": "christian-iv-crown",
+  "stage": "single_work",
+  "attempt": 2,
+  "model": "gpt-5.6-luna",
+  "reasoningEffort": "high",
+  "startedAt": "2026-08-02T00:00:13.500Z",
+  "completedAt": "2026-08-02T00:01:50.827Z",
+  "durationMs": 97327,
+  "inputTokens": 100070,
+  "cachedInputTokens": 42496,
+  "reasoningTokens": 1807,
+  "outputTokens": 4088,
+  "totalTokens": 104158,
+  "agentRunCount": 1,
+  "modelRoundCount": 1,
+  "webSearchCount": 3,
+  "webOpenCount": 0
+}

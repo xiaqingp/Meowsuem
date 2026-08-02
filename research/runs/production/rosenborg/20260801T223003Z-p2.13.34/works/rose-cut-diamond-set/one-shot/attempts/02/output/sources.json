@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "rose-cut-diamond-set",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Rose-Cut Diamond Set",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "collectionRelation",
+        "makingProcess",
+        "history",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The rose-cut diamond tiara",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-tiara/",
+      "sourceType": "museum",
+      "usedFor": [
+        "2024 redesign",
+        "rose-cut technique",
+        "wearing history",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "The Danish crown jewels",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/the-crown-jewels/",
+      "sourceType": "museum",
+      "usedFor": [
+        "crown-jewel history",
+        "collection relation",
+        "1840-1842 reorganisation",
+        "use by successive queens"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "The Rose-cut Diamond Set",
+      "publisher": "The Royal House of Denmark",
+      "url": "https://www.kongehuset.dk/en/royal-collections/jewellery/the-rose-cut-diamond-set/",
+      "sourceType": "other",
+      "usedFor": [
+        "identity",
+        "use",
+        "maker",
+        "date",
+        "diamond provenance",
+        "rose-cut technique"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "这套珠宝由 C. M. Weishaupt & Söhne 为王后卡罗琳·阿玛莉娅制作于1840年。",
+      "type": "attribution",
+      "sourceIds": [
+        "S1",
+        "S4"
+      ]
+    },
+    {
+      "claim": "这套珠宝的大部分钻石来自克里斯蒂安六世的妹妹夏洛特·阿玛莉娅公主。",
+      "type": "other",
+      "sourceIds": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "2024年，王后玛丽与丹麦王室收藏合作，为部分钻石制作了新的发带冠框架。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "即时展出状态",
+      "statement": "锁定 metadata 标示为 collection_rotation；本次检索未找到该对象当前具体展柜或展厅的即时状态，因此不能断言参观当天一定可见。"
+    },
+    {
+      "topic": "原始佩戴方式",
+      "statement": "1842年账单、小环和末端环扣支持其作为礼服正面腰饰使用；关于具体缝制方式和完整礼服组合，馆方使用了推测性表述。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "creator",
+      "lockedValue": "丹麦王室 / Danish royal collection",
+      "observedValue": "C. M. Weishaupt & Söhne 制作；卡罗琳·阿玛莉娅委托或使用",
+      "sourceIds": [
+        "S1",
+        "S4"
+      ],
+      "severity": "warning",
+      "explanation": "锁定 metadata 的 artist 字段更像馆藏或王室归属标签，而官方来源明确指出珠宝商和委托对象。该差异不改变作品身份，但若将丹麦王室理解为实际制作者会造成归属误读；文章因此将丹麦王室作为收藏关系处理。"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "status": "failed",
+  "errors": [
+    {
+      "code": "OFFICIAL_SOURCE_COVERAGE",
+      "message": "Official museum sources do not cover date",
+      "matches": [
+        "date"
+      ],
+      "severity": "error"
+    },
+    {
+      "code": "UNSUPPORTED_HIGH_RISK_CLAIM",
+      "message": "Strong factual claim lacks a valid source record",
+      "matches": [
+        "这里还有一个值得保留的空白：我们知道它是谁、由谁绘制、用什么材料完成，也知道它后来从哪一收藏转入博物馆；但现有对象记录没有说明最初的委托人、第一位佩戴者或确切制作年份"
+      ],
+      "severity": "error"
+    }
+  ],
+  "warnings": [],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": false,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "一幅可以佩戴的王权肖像",
+    "把一张脸放进一套制度",
+    "小画不是大画的缩小版",
+    "从珍宝收藏到博物馆展柜"
+  ],
+  "sourceCount": 5,
+  "articleBytes": 5721,
+  "sourcesBytes": 2840
+}

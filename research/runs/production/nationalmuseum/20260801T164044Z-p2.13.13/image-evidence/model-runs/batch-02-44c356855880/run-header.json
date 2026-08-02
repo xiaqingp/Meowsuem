@@ -1,0 +1,26 @@
+{
+  "runId": "20260801T164044Z-p2.13.13",
+  "startedAt": "2026-08-01T17:40:04.563Z",
+  "stage": "image_disambiguation",
+  "imageResearchMode": "two_level",
+  "museumId": "nationalmuseum",
+  "pipelineVersion": "2.13.17",
+  "instructionVersion": "2.4.2",
+  "executionProfile": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/model-runs/batch-02-44c356855880/image-research-packet.json",
+      "role": "image_candidate_packet",
+      "sha256": "b02b93447a507cbb4ea28d6c675cdf378b80b6142346d796d1149a6293f251c0"
+    }
+  ],
+  "outputs": [
+    "image-decisions.json"
+  ],
+  "reviewer": "disabled",
+  "retry": "disabled",
+  "publicationBoundary": "evidence_only"
+}

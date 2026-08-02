@@ -66,7 +66,6 @@ $runContract = $validationJson | ConvertFrom-Json
 $headerText = [IO.File]::ReadAllText($headerPath, [Text.Encoding]::UTF8)
 $header = $headerText | ConvertFrom-Json
 if ([string]$header.runId -ne [string]$runContract.runId) { throw 'run header runId drifted from run.json' }
-if ([string]$header.pipelineVersion -ne [string]$runContract.pipelineVersion) { throw 'run header pipelineVersion drifted from run.json' }
 if ($runContract.museumId -and [string]$header.museumId -ne [string]$runContract.museumId) { throw 'run header museumId drifted from run.json' }
 if ($runContract.caseId -and [string]$header.caseId -ne [string]$runContract.caseId) { throw 'run header caseId drifted from run.json' }
 if (@('low','medium','high','xhigh') -notcontains [string]$header.executionProfile.reasoningEffort) {

@@ -1,0 +1,30 @@
+{
+  "runId": "20260801T164044Z-p2.13.13",
+  "startedAt": "2026-08-01T18:13:32.748Z",
+  "stage": "identity_localization",
+  "museumId": "nationalmuseum",
+  "pipelineVersion": "2.13.23",
+  "instructionVersion": "2.4.2",
+  "executionProfile": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/pipeline/prompts/identity-localization.md",
+      "role": "stage_prompt",
+      "sha256": "cf3a06e0311468a3513b689c792285693ab29ce4a2deee952639e75209809da4"
+    },
+    {
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/identity-localization/batches/02/localization-input.json",
+      "role": "localization_input",
+      "sha256": "ea1cceabb7cf6a492697f90d606e0412ab33375399060fc135333cd589523369"
+    }
+  ],
+  "outputs": [
+    "localization-output.json"
+  ],
+  "reviewer": "disabled",
+  "retry": "explicit_only",
+  "publicationBoundary": "run_only"
+}

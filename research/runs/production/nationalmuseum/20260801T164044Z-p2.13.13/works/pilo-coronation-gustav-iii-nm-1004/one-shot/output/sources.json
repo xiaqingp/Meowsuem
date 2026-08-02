@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "pilo-coronation-gustav-iii-nm-1004",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Coronation of King Gustav III of Sweden. Uncompleted",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/18007/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "dimensions",
+        "accessionNumber",
+        "subject",
+        "depictedPersons",
+        "collectionRelation",
+        "technique",
+        "conservation",
+        "availability"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The 1770–1800 timeline",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/en/webtour/tidslinjen-1770-1800",
+      "sourceType": "museum",
+      "usedFor": [
+        "historical_context",
+        "commission",
+        "original_display_plan",
+        "artist_context"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Storkyrkan – Stockholm Cathedral",
+      "publisher": "Stockholms domkyrkoförsamling, Svenska kyrkan",
+      "url": "https://www.svenskakyrkan.se/stockholmsdomkyrkoforsamling/storkyrkan",
+      "sourceType": "other",
+      "usedFor": [
+        "venue",
+        "coronation_context"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "画面描绘的是1772年5月29日古斯塔夫三世在斯德哥尔摩大教堂接受加冕的场面。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S3"
+      ]
+    },
+    {
+      "claim": "作品由古斯塔夫三世于1777年委托，皮洛于1782年开始创作，并原计划在多特宁霍姆宫与埃伦斯特拉尔的卡尔十一世加冕礼相对悬挂。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "claim": "皮洛把自己画在右上方人群中，向伊莱亚斯·马丁递鼻烟。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "画面中的沥青底层因受热起泡并导致颜料移动、底层颜色穿透和脸部重影。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "画面损伤原因",
+      "statement": "馆方指出画面曾暴露于阳光或其他热源，并将此与沥青层起泡和颜料移动联系起来；对象页没有确定具体热源。"
+    },
+    {
+      "topic": "未完成的具体中止节点",
+      "statement": "馆方确认作品在皮洛1793年去世时仍未完成，但对象页没有说明最后一次具体作画的日期或中止原因。"
+    }
+  ],
+  "upstreamConflicts": []
+}

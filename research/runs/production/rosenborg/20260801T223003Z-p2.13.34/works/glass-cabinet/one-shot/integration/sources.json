@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "glass-cabinet",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Glass Cabinet (room 22)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-22-the-glass-cabinet/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "collectionRelation",
+        "design",
+        "historicalContext",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Interior and objects | Rosenborg Castle",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "availability",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "The Glass Cabinet at Rosenborg Palace: Gottfried Fuchs's arrangement of 1714 rediscovered during restoration",
+      "publisher": "Journal of the History of Collections / Oxford Academic",
+      "url": "https://academic.oup.com/jhc/article-abstract/3/1/1/823057",
+      "sourceType": "academic",
+      "usedFor": [
+        "scale",
+        "restoration",
+        "arrangement",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Wineglass (vetro a retortoli)",
+      "publisher": "The Corning Museum of Glass",
+      "url": "https://glasscollection.cmog.org/objects/47182",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "technique",
+        "VenetianGlassContext",
+        "date"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "馆方将玻璃柜介绍为欧洲最早一批博物馆式房间之一，年代可追溯到1713—1714年。",
+      "type": "first_or_earliest",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "戈特弗里德·福克斯负责玻璃柜的设计与施工。",
+      "type": "attribution",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "1714年的陈列约容纳一千件玻璃器。",
+      "type": "other",
+      "sourceIds": [
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "individualObjectIdentification",
+      "statement": "已验证图片展示的是22号玻璃柜整体，但没有逐件对象目录，文中不把画面中的具体器物指认为某一件有独立馆藏号的玻璃器。"
+    },
+    {
+      "topic": "glassTechnique",
+      "statement": "S4说明的是与弗雷德里克四世威尼斯礼赠相关的Rosenborg-type filigrana玻璃及其工艺，不能据此断定图片中每一件器物都使用完全相同的方法。"
+    },
+    {
+      "topic": "currentOpening",
+      "statement": "官方房间目录列出22号房，但对象页未提供特定日期的开放时段；实际参观仍应以当天开放信息为准。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "creator",
+      "lockedValue": "丹麦王室建筑与历史室内",
+      "observedValue": "Gottfried Fuchs（负责设计与施工）",
+      "sourceIds": [
+        "S1"
+      ],
+      "severity": "warning",
+      "explanation": "锁定metadata将作者栏作为历史室内与陈列节点的策展性类别，而官方页面另行指出Gottfried Fuchs负责具体设计与施工；这一补充不改变作品身份、选择、评分或发布判断。"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "status": "accepted",
+  "runId": "20260801T223003Z-p2.13.34",
+  "museumId": "rosenborg",
+  "workId": "rosenborg-wine",
+  "stage": "single_work",
+  "attempt": 1,
+  "model": "gpt-5.6-luna",
+  "reasoningEffort": "high",
+  "startedAt": "2026-08-01T23:50:47.396Z",
+  "completedAt": "2026-08-01T23:52:32.829Z",
+  "durationMs": 105433,
+  "inputTokens": 61356,
+  "cachedInputTokens": 43264,
+  "reasoningTokens": 3160,
+  "outputTokens": 5558,
+  "totalTokens": 66914,
+  "agentRunCount": 1,
+  "modelRoundCount": 1,
+  "webSearchCount": 2,
+  "webOpenCount": 0
+}

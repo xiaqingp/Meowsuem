@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "shrapnel-earrings",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Shrapnel earrings",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/shrapnel-earrings/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "historical_event",
+        "relationship",
+        "availability",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Christian IV’s Bedchamber (room 3)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-3-christian-iv-s-bedchamber/",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "date",
+        "display_context",
+        "collection_relation",
+        "historical_event"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Christian IV’s blood-stained clothes",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/christian-ivs-blood-stained-clothes/",
+      "sourceType": "museum",
+      "usedFor": [
+        "historical_event",
+        "date",
+        "material",
+        "significance"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Christian IV (1577–1648)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/persons/christian-iv-1577-1648/",
+      "sourceType": "museum",
+      "usedFor": [
+        "historical_context",
+        "significance",
+        "collection_relation"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "克里斯蒂安四世在1644年科尔贝格海德海战中失去右眼，医生从其眉部和受伤眼睛附近取出弹片。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S3"
+      ]
+    },
+    {
+      "claim": "耳环中的两块金属残片被制成首饰并送给维贝克·克鲁瑟；两人相伴十四年，直到国王于1648年去世。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "claim": "耳环由珐琅金制成，所托残片包括爆裂丹麦大炮的碎片和一枚瑞典子弹。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "claim": "这对耳环目前与克里斯蒂安四世的血衣等物品一起在Rosenborg Castle的克里斯蒂安四世寝室展出。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S2",
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "accessionNumber",
+      "statement": "锁定的官方对象页及本次核对的馆方相关页面未显示馆藏号，本文未补写。"
+    },
+    {
+      "topic": "creator",
+      "statement": "馆方页面说明了耳环的材料、来源和佩戴者，但未署名具体制作工匠；本文将其作为历史物件讨论，没有推定个人作者。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "creator",
+      "severity": "warning",
+      "statement": "锁定metadata将artist标为Danish royal collection；本次核对的官方页面未提供个人工匠署名，因此文章未把Danish royal collection表述为具体制作人。"
+    }
+  ]
+}

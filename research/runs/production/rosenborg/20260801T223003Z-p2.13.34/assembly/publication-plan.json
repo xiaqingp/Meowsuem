@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260801T223003Z-p2.13.34",
+  "museumId": "rosenborg",
+  "contentContract": "one_shot_v1",
+  "workIds": [
+    "christian-iv-blood-stained-clothes",
+    "shrapnel-earrings",
+    "christian-iii-sword-of-state",
+    "christian-iv-crown",
+    "coronation-sword",
+    "ampulla",
+    "christian-v-crown",
+    "constitution-pen",
+    "knights-hall",
+    "narwhal-throne",
+    "silver-lions",
+    "oldenborg-horn",
+    "pomander",
+    "wetting-trap-chair",
+    "emerald-set",
+    "pearl-ruby-set",
+    "brilliant-cut-diamond-set",
+    "rose-cut-diamond-set",
+    "glass-cabinet",
+    "rosenborg-wine"
+  ],
+  "inputHashes": {
+    "scope/scope.json": "c4ccf4d4ccc3fe648c9e076d02016ac255db403bcbb3add7eff63a692c3292db",
+    "candidate-pool/candidate-pool.json": "973121f6c700394d351d7804135581daf801db290c78e8b77117208d8201a47a",
+    "selection/selection.json": "4e7640b17d0c2c6f6821e6b9d705287b0a66f1535eec1b755bddae516f06bdb5",
+    "selection/rating-input.json": "df1581f47065a04aaf9efe61adbbd04ae10d492e0478b5b922cd1d8a2117ebee",
+    "rating/rating-result.json": "5bf2a98b7488d931902dce84deefbf5543bec2ee1fc68f27952fe499c9b6abbd",
+    "structure/structure.json": "7f1caf33fa3113628cc8cb9f2fb019738557c304f9ee0c0f8cb5043f5f6df5d4",
+    "image-evidence/verified-image-evidence.json": "49790096e1f092e3ce39bd8dca4d446eb25e8b857863ac5dc58d0f0298578b51",
+    "reports/locked-metadata-report.json": "5839e0a787217f063278477eee03f0f95641b172f5aba8c23c60b19d983cb8c5",
+    "assembly/assembly-input.json": "577d757ef15bc23997f1458837a0e894f09813e444e1a7aefacb876710a2b139"
+  },
+  "assemblyInput": "assembly/assembly-input.json",
+  "candidateRoot": "candidate",
+  "proseInputsRead": false,
+  "networkCalls": 0
+}

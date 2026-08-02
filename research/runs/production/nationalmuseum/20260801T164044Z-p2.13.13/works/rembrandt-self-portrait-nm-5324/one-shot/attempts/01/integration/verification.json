@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "errors": [],
+  "warnings": [
+    {
+      "code": "LOW_SOURCE_COUNT",
+      "message": "Only one source is recorded; this may be sufficient but deserves human attention",
+      "matches": [],
+      "severity": "warning"
+    }
+  ],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": true,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "一块会发光的铜板",
+    "年轻人，也是一位正在试探自己的画家"
+  ],
+  "sourceCount": 1,
+  "articleBytes": 3861,
+  "sourcesBytes": 911
+}

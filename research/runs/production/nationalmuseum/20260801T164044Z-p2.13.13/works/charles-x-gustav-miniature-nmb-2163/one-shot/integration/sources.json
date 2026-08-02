@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "charles-x-gustav-miniature-nmb-2163",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Charles X Gustav of Sweden (1622-1660)",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/26105/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "dimensions",
+        "accessionNumber",
+        "collectionRelation",
+        "availability"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The Treasury: Miniatures",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/en/webtour/skattkammaren-miniatyrer",
+      "sourceType": "museum",
+      "usedFor": [
+        "miniature_function",
+        "artist_context",
+        "collection_context"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Pigments in Early-Modern Portrait Miniature Painting in Sweden",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/en/pigments-used-in-early-modern-portrait-miniature-painting-in-sweden",
+      "sourceType": "museum",
+      "usedFor": [
+        "technique_context",
+        "material_context",
+        "history_of_miniature_painting"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "King Karl X Gustav",
+      "publisher": "The Royal Palaces of Sweden",
+      "url": "https://www.kungligaslotten.se/english/list-of-swedish-monarchs/karl-x-gustav.html",
+      "sourceType": "museum",
+      "usedFor": [
+        "person_identity",
+        "reign",
+        "historical_context"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "他在表姐克里斯蒂娜女王退位后继承王位，统治时期大部分时间都在战争中度过；1658年《罗斯基勒和约》后，瑞典达到当时最大的领土范围。",
+      "type": "other",
+      "sourceIds": [
+        "S4"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "date",
+      "statement": "Nationalmuseum官方对象页没有给出本件作品的制作年代，文章没有据人物生卒年推定创作时间。"
+    },
+    {
+      "topic": "original_use",
+      "statement": "馆方说明肖像微型画这一类型可作为赠礼、名片或贴身纪念物，但没有说明NMB 2163具体由谁佩戴、赠送或使用。"
+    },
+    {
+      "topic": "mount_materials",
+      "statement": "对象页记录了挂坠框尺寸，但没有逐项说明外框、红色装饰与顶部十字形装饰的具体材质；文章将其作为视觉描述处理。"
+    }
+  ],
+  "upstreamConflicts": []
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "coronation-sword",
+  "objectType": "object",
+  "titleZh": "加冕剑",
+  "titleEn": "The Coronation Sword",
+  "displayBy": "丹麦王室 / Danish royal collection",
+  "artistZh": "丹麦王室",
+  "artistEn": "Danish royal collection",
+  "displayDate": "1643；剑鞘为1648年加冕制作",
+  "medium": "金属剑身；钻石、珐琅与纹章装饰的剑柄和剑鞘",
+  "identityAnchor": "official-object:the-coronation-sword",
+  "accessionNumber": "5540",
+  "museumName": "Rosenborg Castle",
+  "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-coronation-sword/",
+  "significance": "重要藏品",
+  "priority": "强烈推荐",
+  "availability": "confirmed_on_view",
+  "sectionId": "from-election-to-absolutism",
+  "stay": "6—8分钟",
+  "routeRole": [
+    "90-core",
+    "half-core",
+    "all-core",
+    "transition-object"
+  ],
+  "imagePolicy": "object_image",
+  "verifiedImageUrl": "https://denkongeligesamling.dk/media/ny0ishuq/frederik-3-kronings-kaarde.jpg?width=1920&height=1080&v=1dcb3e6f8ff4080",
+  "verifiedImageLocalPath": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/coronation-sword.webp",
+  "verifiedImageSha256": "c2ee703fe904173e7d8b62ac99e0fd3b4de15412a96310ac0bd8d9e7bf20cf97",
+  "imageEvidencePath": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/verified-image-evidence.json"
+}

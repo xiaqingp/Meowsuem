@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "status": "accepted",
+  "runId": "20260801T223003Z-p2.13.34",
+  "museumId": "rosenborg",
+  "workId": "glass-cabinet",
+  "stage": "single_work",
+  "attempt": 3,
+  "model": "gpt-5.6-luna",
+  "reasoningEffort": "high",
+  "startedAt": "2026-08-02T00:04:34.799Z",
+  "completedAt": "2026-08-02T00:06:36.722Z",
+  "durationMs": 121923,
+  "inputTokens": 96569,
+  "cachedInputTokens": 57600,
+  "reasoningTokens": 3515,
+  "outputTokens": 5980,
+  "totalTokens": 102549,
+  "agentRunCount": 1,
+  "modelRoundCount": 1,
+  "webSearchCount": 3,
+  "webOpenCount": 0
+}

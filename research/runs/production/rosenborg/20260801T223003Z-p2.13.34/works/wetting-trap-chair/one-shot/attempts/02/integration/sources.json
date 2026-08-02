@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "wetting-trap-chair",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The wetting trap chair",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/wetting-trap-chair/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "mechanism",
+        "collectionRelation",
+        "historical_context"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The Regalia Room (room 24)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-24-the-regalia-room/",
+      "sourceType": "museum",
+      "usedFor": [
+        "availability",
+        "display_context"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Wet Trousers, Entrapment and Good Sports: The Wetting Trap Chair at Rosenborg Castle and Other Trap Chairs in Early Modern Europe",
+      "publisher": "The Court Historian / Taylor & Francis",
+      "url": "https://doi.org/10.1080/14629712.2025.2467604",
+      "sourceType": "academic",
+      "usedFor": [
+        "provenance",
+        "court_context",
+        "historical_interpretation"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "原始制作时间与来源",
+      "statement": "官方资料将椅子大致置于17世纪，并认为它可能在克里斯蒂安五世时期的丹麦王室宫廷使用，但具体制作年代、制作者和1752年前的来源仍不确定。"
+    },
+    {
+      "topic": "具体恶作剧事件",
+      "statement": "椅子的磨损、换装和机关结构支持其曾被使用或演示的判断，但没有足够证据确认某一次具体恶作剧、受害者或现场情形。"
+    }
+  ],
+  "upstreamConflicts": []
+}

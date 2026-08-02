@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "emerald-set",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Emerald Set",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-emerald-set/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "design",
+        "production",
+        "collectionHistory",
+        "familyHistory",
+        "currentUse"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The Danish crown jewels",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/the-crown-jewels/",
+      "sourceType": "museum",
+      "usedFor": [
+        "collectionRelation",
+        "royalUse",
+        "historicalContext",
+        "currentUse"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Treasury, Section 3 (room I)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-i-the-treasury/",
+      "sourceType": "museum",
+      "usedFor": [
+        "museumDisplay",
+        "collectionRelation"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "翡翠套饰于1840年为卡罗琳·阿玛莉娅王后制作，由哈瑙的 C.M. Weishaupt & Söhne 珠宝公司完成。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "claim": "套饰中超过三分之一的绿色宝石可追溯至1723年送给索菲·玛格达琳王后的祖母绿项链和十字架。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "今天翡翠套饰可由玛丽王后佩戴。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "当前展柜状态",
+      "statement": "馆方资料说明王冠珠宝可在罗斯堡宫宝库展出，也会在特殊礼仪场合被佩戴；对象页未提供实时展柜或当日是否在柜内的信息，因此本文未断言其在具体参观日期一定展出。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "creator",
+      "severity": "warning",
+      "statement": "锁定 metadata 将 artistZh/artistEn 写为丹麦王室/Danish royal collection；馆方对象页则明确称翡翠套饰由 C.M. Weishaupt & Söhne 于1840年制作。本文保留锁定标题与馆藏归属，同时将实际制作归于该珠宝公司。"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "josephson-water-sprite-nm-1905",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Water Sprite | Nationalmuseum",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/18910/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "technique",
+        "accessionNumber",
+        "acquisition",
+        "availability",
+        "mythology",
+        "description",
+        "artist_context",
+        "comparative_versions"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Ernst Josephson | Näcken | Nationalmuseum",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/sv/collection/item/18910/",
+      "sourceType": "museum",
+      "usedFor": [
+        "Norway_trip",
+        "long_term_subject_development",
+        "comparative_versions"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "The Magic North",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/en/the-magic-north",
+      "sourceType": "museum",
+      "usedFor": [
+        "Nordic_Romanticism",
+        "mythology_context",
+        "nature_context"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "创作年代",
+      "statement": "官方对象页的主要字段标注为1882年，但同页补充说明将这件作品写作1882—1883年；本文沿用锁定 metadata 的1882年，同时保留这一馆方记录差异。"
+    }
+  ],
+  "upstreamConflicts": []
+}

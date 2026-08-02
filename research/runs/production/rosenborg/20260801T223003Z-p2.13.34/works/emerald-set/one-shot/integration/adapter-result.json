@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "status": "warning",
+  "publicationWarnings": [
+    {
+      "code": "UNSUPPORTED_HIGH_RISK_CLAIM",
+      "message": "Strong factual claim lacks a valid source record",
+      "matches": [
+        "1723年，索菲·玛格达琳王后从丈夫、当时的克里斯蒂安王储那里收到这份礼物，纪念他们第一个孩子弗雷德里克五世出生"
+      ]
+    }
+  ],
+  "modelCalls": 0,
+  "previousFailure": "VERIFICATION_FAILED",
+  "rules": {
+    "card": "first non-empty paragraph under ## 一分钟看懂",
+    "draft": "byte-for-byte copy of output/article.md",
+    "displayMetadata": "deterministic mapping from input/locked-metadata.json",
+    "sources": "validated structural copy of output/sources.json"
+  },
+  "inputHashes": {
+    "lockedMetadata": "fb046d29674e1f15f61845dd641eb3b806af15eb49856b4a21e2a315f5b579bc",
+    "article": "2fe19cad76f4bb3620df61013481c35bfa5f8383f6867f65459659c8a1be85a1",
+    "sources": "2b06a4ecc2302ef7a5fbf1e0553a6638a178270de6042dd742be05bf4f4b3141",
+    "verification": "722077c7663e255d43e527095408d2903bc4d501253af1a850358d89a63f067d"
+  },
+  "outputHashes": {
+    "card.txt": "e9af8372d1a01fc992f98e9da8bc55947bf05bf1d44eb7e622b0acdb686898b0",
+    "draft.md": "2fe19cad76f4bb3620df61013481c35bfa5f8383f6867f65459659c8a1be85a1",
+    "display-metadata.json": "5c4126a054cdda3d6e744a594082f5ee0de04fa117ce13b5697f7bdf83d2d2b6",
+    "sources.json": "2b06a4ecc2302ef7a5fbf1e0553a6638a178270de6042dd742be05bf4f4b3141"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "roslin-lady-with-veil-nm-4098",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Lady with the Veil. The Artist's Wife Marie Suzanne Giroust",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "technique",
+        "dimensions",
+        "depictedPerson",
+        "historicalContext",
+        "exhibitionHistory",
+        "collectionHistory",
+        "accessionNumber",
+        "availability",
+        "fanInterpretation"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Damen med slöjan – Vem var hon egentligen?",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/assets/Dokument/Skolan/L%C3%A4rarhandledning-Damen-med-sl%C3%B6jan.pdf",
+      "sourceType": "museum",
+      "usedFor": [
+        "artistBiography",
+        "MarieSuzanneGiroust",
+        "pastelPractice",
+        "academy",
+        "ParisSalon",
+        "BologneseCostume"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "作品签名于1768年，材质为布面油画。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "画中人玛丽·苏珊娜·吉鲁斯特是亚历山大·罗林的妻子，并且本身是一位法国艺术家。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "claim": "作品于1769年在巴黎展出。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "作品于1945年由Kooperativa Förbundet与Hildegard Tamm赠予Nationalmuseum。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "Nationalmuseum官方对象页目前将作品标为展出中。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "扇子手势的含义",
+      "statement": "馆方将合拢扇子贴近面颊解读为可能的示爱暗号；这属于历史语境中的一种解释，不能据此确定艺术家的意图。"
+    },
+    {
+      "topic": "视觉与心理解释",
+      "statement": "关于亲密与不可接近、诱惑与保留的判断属于基于画面组织的艺术史解读，不是艺术家留下的明确意图声明。"
+    }
+  ],
+  "upstreamConflicts": []
+}

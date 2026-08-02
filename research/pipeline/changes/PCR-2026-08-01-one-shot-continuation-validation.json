@@ -1,0 +1,35 @@
+{
+  "id": "PCR-2026-08-01-one-shot-continuation-validation",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-01",
+  "ownerInstruction": "修复当前 pipeline 并发布 Nationalmuseum，不重跑已完成阶段。",
+  "baseRelease": "research/pipeline/releases/v2.13.24.json",
+  "targetVersion": "2.13.25",
+  "implementationStatus": "completed",
+  "scope": [
+    "remove the redundant original-version equality check from single-work generation",
+    "trust the canonical descriptor validation for explicitly authorized continuation versions",
+    "keep immutable and identity checks unchanged"
+  ],
+  "outOfScope": [
+    "rerunning accepted work attempts",
+    "accepting unauthorized pipeline versions",
+    "changing locked metadata"
+  ],
+  "allowedCanonicalFiles": [
+    "scripts/run-one-shot-work.mjs"
+  ],
+  "verification": {
+    "status": "passed",
+    "record": "scripts/test-filesystem-contract.mjs",
+    "commands": [
+      "node --check scripts/run-one-shot-work.mjs",
+      "node scripts/test-filesystem-contract.mjs",
+      "node scripts/test-run-generation-batch.mjs",
+      "node scripts/verify-content-pipeline.mjs",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

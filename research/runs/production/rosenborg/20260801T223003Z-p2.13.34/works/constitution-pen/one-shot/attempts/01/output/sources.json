@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "constitution-pen",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The 1849 Constitution pen",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-constitution-pen/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "creator",
+        "collectionRelation",
+        "availability",
+        "historicalContext"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Frederik 7.s Værelse (rum 18)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/rosenborg-slot/sale-rum/rum-18-frederik-7s-vaerelse/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "collectionRelation",
+        "displayContext"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Junigrundloven - Danmarks første forfatning",
+      "publisher": "Lex; authored by researchers affiliated with Aarhus University",
+      "url": "https://lex.dk/Junigrundloven",
+      "sourceType": "academic",
+      "usedFor": [
+        "date",
+        "historicalContext",
+        "significance",
+        "politicalLimitations"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "1849年宪法是丹麦第一部自由宪法，并标志着从绝对君主制向代议制民主体制的转变。",
+      "type": "first_or_earliest",
+      "sourceIds": [
+        "S3"
+      ]
+    },
+    {
+      "claim": "这支笔由弗雷德里克七世用于1849年6月5日签署丹麦宪法。",
+      "type": "attribution",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "material_and_making",
+      "statement": "官方对象页未公布笔的具体材质构成、制作者或制作过程；文章仅依据已验证图像描述可见的外观，不将外观直接当作材质鉴定。"
+    }
+  ],
+  "upstreamConflicts": []
+}

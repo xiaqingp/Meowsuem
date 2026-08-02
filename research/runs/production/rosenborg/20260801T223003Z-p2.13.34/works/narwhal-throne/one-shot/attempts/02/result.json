@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "status": "accepted",
+  "runId": "20260801T223003Z-p2.13.34",
+  "museumId": "rosenborg",
+  "workId": "narwhal-throne",
+  "stage": "single_work",
+  "attempt": 2,
+  "model": "gpt-5.6-luna",
+  "reasoningEffort": "high",
+  "startedAt": "2026-08-02T00:01:26.403Z",
+  "completedAt": "2026-08-02T00:03:13.504Z",
+  "durationMs": 107101,
+  "inputTokens": 92774,
+  "cachedInputTokens": 66560,
+  "reasoningTokens": 3095,
+  "outputTokens": 5345,
+  "totalTokens": 98119,
+  "agentRunCount": 1,
+  "modelRoundCount": 1,
+  "webSearchCount": 3,
+  "webOpenCount": 0
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "goya-truth-time-history-nm-5593",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Truth, Time and History | Nationalmuseum",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/22643/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "accessionNumber",
+        "availability",
+        "collectionRelation",
+        "description"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Truth, Time and History (La Verdad, el Tiempo y la Historia)",
+      "publisher": "Fundación Goya en Aragón",
+      "url": "https://fundaciongoyaenaragon.es/eng/obra/la-verdad-el-tiempo-y-la-historia/165",
+      "sourceType": "foundation",
+      "usedFor": [
+        "interpretation",
+        "date",
+        "iconography",
+        "artisticAnalysis",
+        "interpretiveUncertainty",
+        "relatedWorkHistory"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Constitución de 1812",
+      "publisher": "Congreso de los Diputados de España",
+      "url": "https://www.congreso.es/en/web/guest/cem/const1812",
+      "sourceType": "other",
+      "usedFor": [
+        "historicalContext",
+        "constitutionalHistory",
+        "warContext",
+        "politicalSignificance"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "Nationalmuseum将画中白衣女子手中的小书解释为西班牙在1812年通过的宪法，并认为她同时象征西班牙与真理。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "这幅画后来被解释为1812年宪法的寓意画，早期传统解释则曾把它视为《诗》的配画。",
+      "type": "other",
+      "sourceIds": [
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "exact dating",
+      "statement": "Nationalmuseum给出的锁定年代为1804—1808年；Fundación Goya en Aragón的目录列为约1812年，并明确指出作品的创作年代与寓意解释存在关联和争议。"
+    },
+    {
+      "topic": "original purpose and pairing",
+      "statement": "过去有观点认为作品可能是《诗》的配画，并可能用于戈多伊的宫殿，但相关配对和原始用途缺乏充分证据。"
+    },
+    {
+      "topic": "figure identities",
+      "statement": "画中人物的具体身份存在多种艺术史解释；本文以Nationalmuseum关于真理、西班牙、时间与历史的说明为主，同时保留其他解释的可能性。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "date",
+      "severity": "warning",
+      "lockedValue": "1804–1808",
+      "sourceValue": "ca. 1812",
+      "sourceIds": [
+        "S2"
+      ],
+      "statement": "可靠的戈雅研究目录给出约1812年的不同日期，但不影响作品身份、作者、材质或馆藏号。"
+    }
+  ]
+}

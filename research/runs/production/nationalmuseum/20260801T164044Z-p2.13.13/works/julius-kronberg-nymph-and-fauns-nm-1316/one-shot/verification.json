@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "errors": [],
+  "warnings": [],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": true,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "一片森林，几种目光",
+    "为什么这幅画在当时引起轰动",
+    "一件大画，如何把观众拉进来"
+  ],
+  "sourceCount": 3,
+  "articleBytes": 4491,
+  "sourcesBytes": 2550
+}

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260801T223003Z-p2.13.34",
+  "museumId": "rosenborg",
+  "mode": "publish",
+  "candidateAssemblyResultSha256": "eadbcfa97c5279140c7402a69471dfbaf0053e6f5c17dcb9c24da6c8ca80def1",
+  "files": {
+    "rosenborg.js": {
+      "sha256": "d05fbc305dc79336cc299ef8986384d18535ae73eaac9c0e769d3edf8c604f3e",
+      "changed": false
+    },
+    "research/content/rosenborg.md": {
+      "sha256": "556befe4f38cee88433c8209d04e2706299af29b89174953f5aae110b3a5f001",
+      "changed": false
+    },
+    "ratings.js": {
+      "sha256": "7e4d0469c05e0928d13002096ff0053d2bb6145946eb88d26ff8fb13a0790217",
+      "changed": false
+    },
+    "routes.js": {
+      "sha256": "64ca5f9299a0bfca60c87b8fdd7c4709bf8adff961f434ecf23b5e3537be9c9b",
+      "changed": false
+    },
+    "assets/rosenborg/christian-iv-blood-stained-clothes.jpg": {
+      "sha256": "45a20b52f5c97e5aacc1a87df55eca2416f4e4f1af284b80121bf07a2e7f6437",
+      "changed": false
+    },
+    "assets/rosenborg/shrapnel-earrings.webp": {
+      "sha256": "7b024eddba2d683f7c69b7f05249944a3fbaa4cc6b378b56dbc5a10e5a0824c0",
+      "changed": false
+    },
+    "assets/rosenborg/christian-iii-sword-of-state.webp": {
+      "sha256": "2825e0713db9ac0448192822cbdd4649bc77ba4083aee731b6b4a838c8c41912",
+      "changed": false
+    },
+    "assets/rosenborg/christian-iv-crown.jpg": {
+      "sha256": "44ad6a9c5bcbaf328a356db01b07ba2c25dfeca8b03c010336f716a1d778b374",
+      "changed": false
+    },
+    "assets/rosenborg/coronation-sword.webp": {
+      "sha256": "c2ee703fe904173e7d8b62ac99e0fd3b4de15412a96310ac0bd8d9e7bf20cf97",
+      "changed": false
+    },
+    "assets/rosenborg/ampulla.webp": {
+      "sha256": "40279f026d4afd1dd9117380582d613923d614caf6b6b0334fdccf14a203e627",
+      "changed": false
+    },
+    "assets/rosenborg/christian-v-crown.jpg": {
+      "sha256": "66fad2d5a568322f38d4f90cf543687fd8a706343c867bb204584cbdd0736183",
+      "changed": false
+    },
+    "assets/rosenborg/constitution-pen.webp": {
+      "sha256": "6c6718c43c17f0c3ebb2758e3a7230b7bf9e7daa5b146ad0af724dce30909821",
+      "changed": false
+    },
+    "assets/rosenborg/knights-hall.webp": {
+      "sha256": "742a72ad9a0af16a032a22f661156cfce1331687469248e28e208524777f7e67",
+      "changed": false
+    },
+    "assets/rosenborg/narwhal-throne.webp": {
+      "sha256": "7646874e1b7cc88837a3cfd6aafdf1c8b4fba41eb59c78f7291622c38db506dd",
+      "changed": false
+    },
+    "assets/rosenborg/silver-lions.jpg": {
+      "sha256": "4a6723074bf5b84ab07e91cf03f152def9499d81eabadf7cf1e7be24e32ad0e0",
+      "changed": false
+    },
+    "assets/rosenborg/oldenborg-horn.jpg": {
+      "sha256": "ddc573d6035a7352bae5d82fd9b7d60e9f6d0a5b75b83389a1a2c1a006a698d8",
+      "changed": false
+    },
+    "assets/rosenborg/pomander.webp": {
+      "sha256": "e54ec911e730d7e20ad6d40088b62e6041af6af3b4457aaa0578f67826c04eb6",
+      "changed": false
+    },
+    "assets/rosenborg/wetting-trap-chair.png": {
+      "sha256": "3f7b7715bfd7a8e3da6fd100c576a5835e0164d5b5671d983a868d325d29e37d",
+      "changed": false
+    },
+    "assets/rosenborg/emerald-set.webp": {
+      "sha256": "bd46b1b0c85f827b6fa01222ea9b826c36042731d88f69a94dd879447f80b1d2",
+      "changed": false
+    },
+    "assets/rosenborg/pearl-ruby-set.webp": {
+      "sha256": "f3c9e0f0e805ba616bff340dd9fa8b16524588b809eb95573c8be3c0cdc0a897",
+      "changed": false
+    },
+    "assets/rosenborg/brilliant-cut-diamond-set.webp": {
+      "sha256": "4727189f51561b7d7de224f0a387082d8b8b18e4645b480118d0fd6241742d9d",
+      "changed": false
+    },
+    "assets/rosenborg/rose-cut-diamond-set.jpg": {
+      "sha256": "4dd8420cc3d6e6d3b509224f321c5b95703821e7187de241cb8d9190702a4489",
+      "changed": false
+    },
+    "assets/rosenborg/glass-cabinet.webp": {
+      "sha256": "dfbbbb23e94876d3e53a4ee66755c9bb45aaba87425cd1d5cc2f7f90c5ea5d1b",
+      "changed": false
+    },
+    "assets/rosenborg/rosenborg-wine.webp": {
+      "sha256": "da25a4901121034858a037263908dcda2c1353f5708ba6b866ec0cf876d060a9",
+      "changed": false
+    },
+    "index.html": {
+      "sha256": "641cc13a34e3139cd9c7001284816b05f6ac1a347df02c71df100094308f1136",
+      "changed": false
+    },
+    "museum.html": {
+      "sha256": "2fff61c83140aa3b315826a92a7becdfc96f22cf3c31899bfd6f60a7291162dc",
+      "changed": false
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "museumId": "nationalmuseum",
+  "works": [
+    {
+      "workId": "charles-x-gustav-miniature-nmb-2163",
+      "identityStatus": "stable",
+      "availability": "confirmed_on_display",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "Alexander Cooper以羊皮纸水彩制作的瑞典国王查理十世古斯塔夫微型肖像；其馆级价值在于把王室肖像、微型画媒介与Treasury展示语境连接起来，而非未经比较的稀有性断言。",
+      "selectionSignals": [
+        "官方对象页确认作者、题名、媒材、馆藏号NMB 2163",
+        "归入Nationalmuseum的Miniatures与Portrait miniature类别",
+        "1978年由Stockholm的Skattkammarsamlingen转入馆藏",
+        "官方对象页标注On display并指向Room 1419:3 The Treasury"
+      ],
+      "sectionSignals": [
+        "微型画",
+        "瑞典王室肖像",
+        "Treasury/宝库",
+        "17世纪肖像文化"
+      ],
+      "routeSignals": [
+        "主馆Treasury，Room 1419:3；当前在展状态有官方确认",
+        "可作为宝库与微型画收藏线的现场节点"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/26105/",
+        "https://collection.nationalmuseum.se/en/"
+      ]
+    },
+    {
+      "workId": "rembrandt-seated-old-man-nmh-2651-1863",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "约1630年的红、黑粉笔人物研究，显示Rembrandt把活模特、tronie类型和面部/胡须的粉笔效果结合起来；对象页同时保留了由Claude Mellan归为Rembrandt、以及与Jan Lievens难以区分的归因研究边界。",
+      "selectionSignals": [
+        "官方对象页确认Rembrandt、约1630年、红黑粉笔纸本及馆藏号NMH 2651/1863",
+        "Tessin于1741年购入，1863年由Kongl. Museum转入",
+        "对象页将其与1630年前后的版画、圣徒/先知系列及tronie传统联系起来",
+        "官方页面记载历史归因变化及Rembrandt/Lievens风格区分困难，需深度研究处理",
+        "Nationalmuseum官方馆藏说明将Rembrandt列为素描馆藏关键艺术家"
+      ],
+      "sectionSignals": [
+        "荷兰大师素描",
+        "Rembrandt约1630年",
+        "tronie与活模特研究",
+        "归因与收藏史"
+      ],
+      "routeSignals": [
+        "可归入主馆荷兰大师/纸上作品结构线索",
+        "当前官方标注Not on display，不应作为当日可见作品保证"
+      ],
+      "riskFlags": [
+        "attribution_or_date_conflict"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/40381/",
+        "https://www.nationalmuseum.se/en/webtour/dutch-drawings",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-collections"
+      ]
+    },
+    {
+      "workId": "seurat-study-bathers-asnieres-nmh-50-2014",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "1883–1884年Seurat为《阿涅尔的浴者》所作的Conté粉笔人物细节研究，同时是具有独立构图的黑色素描；它把法国现代素描、从局部研究到成画的媒介关系，以及Nationalmuseum补充法国素描收藏的策略连接起来。",
+      "selectionSignals": [
+        "官方对象页确认Seurat、1883–1884年、纸本研究图及馆藏号NMH 50/2014",
+        "对象页明确说明其为《Bathers at Asnières》人物细节研究，成画现藏伦敦National Gallery",
+        "官方说明记录重颗粒纸与Conté粉笔、不同压力形成黑色层次，以及对角线腿部构图",
+        "2014年由Elisabeth Peggy Bonnier遗赠；官方说明称Seurat素描长期是Nationalmuseum的收藏目标",
+        "官方页面将其置于Nationalmuseum的重要法国素描收藏背景中"
+      ],
+      "sectionSignals": [
+        "法国现代素描",
+        "研究图与成画",
+        "Conté粉笔与黑色调",
+        "从收藏史到现代欧洲艺术"
+      ],
+      "routeSignals": [
+        "可归入主馆法国素描/纸上作品结构线索",
+        "当前官方标注Not on display；若后续展出，可作为研究图与成画关系的媒介节点"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/157820/",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-collections"
+      ]
+    },
+    {
+      "workId": "estenberg-hall-of-state-design-nmh-243-1919",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "1797年为斯德哥尔摩王宫国家大厅制作的装饰设计图，以戏剧布景式的宏大构想组织王座与古典主义形式，并呈现后来浪漫主义趣味的先声；其馆级价值依赖Royal Palace建筑语境及Estenberg与Louis Jean Desprez的制作关系。",
+      "selectionSignals": [
+        "官方对象页确认Pehr Estenberg、after Louis Jean Desprez、1797年、纸本墨水与洗染及馆藏号NMH 243/1919",
+        "对象页明确关联Stockholm Palace与Hall of State",
+        "馆方展签说明指出其借鉴戏剧装饰，具有新古典主义特征、宏大戏剧性，并预示19世纪浪漫主义",
+        "1919年由museum reserve collection转入",
+        "属于建筑/场所型对象，结构与评分需保留其现场建筑语境"
+      ],
+      "sectionSignals": [
+        "建筑设计图",
+        "王宫与王权空间",
+        "戏剧装饰与新古典主义",
+        "通向浪漫主义的形式转折"
+      ],
+      "routeSignals": [
+        "可归入主馆建筑设计与王宫图纸结构线索",
+        "当前官方标注Not on display；若用于结构，应与Stockholm Palace空间史并置，不作现场展出保证"
+      ],
+      "riskFlags": [
+        "architecture_or_site"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/234595/",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/more-to-discover/transparent-design-copies-and-tracings",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-collections"
+      ]
+    }
+  ]
+}

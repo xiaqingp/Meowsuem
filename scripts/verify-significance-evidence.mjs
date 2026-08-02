@@ -3,11 +3,12 @@ import path from "node:path";
 import {pathToFileURL} from "node:url";
 import vm from "node:vm";
 import {loadManifest, resolveCanonicalRun} from "./lib/filesystem-contract.mjs";
+import {museumDataFiles} from "./lib/museum-data-files.mjs";
 
 const root = new URL("../", import.meta.url);
-const baseDataFiles = ["ratings.js", "muxin.js", "museums.js", "seattle.js", "louvre.js", "museum-expansions.js", "vienna.js", "enoura.js", "british.js", "anchorage.js", "getty.js", "chichu.js", "egyptian.js", "alhambra.js", "smk.js", "frye.js", "routes.js"];
 const argument = name => process.argv.find(value => value.startsWith(`${name}=`))?.slice(name.length + 1);
 const projectRoot = path.resolve(argument("--project-root") || new URL("..", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"));
+const baseDataFiles = await museumDataFiles(projectRoot);
 let candidateRoot = null;
 if (argument("--kind")) {
   const contractManifest = await loadManifest(projectRoot);

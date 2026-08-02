@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "christian-v-crown",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Christian V’s Crown",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/christian-v-s-crown/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "making",
+        "historicalUse",
+        "availability"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The Treasury’s 3rd section (room I)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-i-the-treasury/",
+      "sourceType": "museum",
+      "usedFor": [
+        "accessionNumber",
+        "creator",
+        "date",
+        "material",
+        "collectionRelation",
+        "currentDisplay"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "The Crown of Christian V",
+      "publisher": "The Royal House of Denmark",
+      "url": "https://www.kongehuset.dk/en/royal-collections/royal-symbols/the-crown-of-christian-v/",
+      "sourceType": "publication",
+      "usedFor": [
+        "absoluteMonarchy",
+        "design",
+        "symbolism",
+        "ceremonialUse",
+        "currentMeaning"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "3. Absolute rule and the administration",
+      "publisher": "Aarhus University",
+      "url": "https://cas.au.dk/en/danish-history/modules/module-5-absolute-monarchy-1660-1814/3-absolute-rule-and-the-administration",
+      "sourceType": "academic",
+      "usedFor": [
+        "politicalContext",
+        "anointing",
+        "constitutionalHistory"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "克里斯蒂安五世是丹麦第一位以绝对君主身份开始统治的国王。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S4"
+      ]
+    },
+    {
+      "claim": "这顶王冠由保罗·库尔茨于1670—1671年在哥本哈根制作。",
+      "type": "attribution",
+      "sourceIds": [
+        "S2",
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "前部蓝宝石的早期来源",
+      "statement": "馆方称其可追溯至腓特烈一世时期，并推测1474年可能由米兰公爵赠予克里斯蒂安一世的父亲；赠予关系使用了推测性表述。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "creator",
+      "status": "warning",
+      "lockedValue": "丹麦王室 / Danish royal collection",
+      "sourceValue": "官方馆方页面将制作归于在哥本哈根工作的宫廷金匠保罗·库尔茨。",
+      "sourceIds": [
+        "S2",
+        "S3"
+      ]
+    }
+  ]
+}

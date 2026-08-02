@@ -1,0 +1,602 @@
+{
+  "schemaVersion": 1,
+  "museumId": "nationalmuseum",
+  "researchedAt": "2026-08-01",
+  "works": [
+    {
+      "workId": "rembrandt-old-scholar-nm579",
+      "identityStatus": "conflicted",
+      "identity": {
+        "title": "Old Scholar in a Vaulted Chamber (St Anastasius)",
+        "artistOrCulture": "Rembrandt Harmensz. van Rijn（馆藏记录顶部现行字段；归属存在未消解矛盾）",
+        "displayDate": "1631（有签名纪年）",
+        "medium": "Oil on wood",
+        "accessionNumber": "NM 579",
+        "identityAnchor": "NM 579",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/17582/"
+      },
+      "availability": "confirmed_on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "一件能直接展示归属判断会随研究与展览语境变化的早期室内光线画：馆藏页现行作者栏、同页说明文字和2024年维也纳展览资料彼此并不一致。",
+      "selectionSignals": [
+        "馆藏页标为在主馆1621号厅展出，具有当前路线可达性。",
+        "作品的研究价值主要在归属史与早期室内多光源处理，不应以确定的Rembrandt真迹身份入选。"
+      ],
+      "sectionSignals": [
+        "17世纪荷兰绘画",
+        "归属与鉴定",
+        "光线与室内空间"
+      ],
+      "routeSignals": [
+        "可进入主馆常规绘画路线，但标签必须保留归属冲突。"
+      ],
+      "riskFlags": [
+        "identity_conflict"
+      ],
+      "riskResolution": {
+        "status": "unresolved_source_conflict",
+        "exactEvidence": [
+          "Nationalmuseum对象页顶部把Artist列为Rembrandt，把Former attribution列为Circle of Rembrandt，并记载Signed 1631。",
+          "同一对象页附加说明又明确称作品过去被视为Rembrandt杰作、现在被认为出自另一位艺术家之手。",
+          "Kunsthistorisches Museum 2024年Rembrandt–Hoogstraten展览手册仍以Rembrandt、1631、Nationalmuseum NM 579列出此作，并以其室内光线效果讨论。"
+        ],
+        "downstreamRule": "selection不得把作者归属写成已完全解决；可按Nationalmuseum所藏、当前展出的争议对象处理。评分不得以确定真迹或Rembrandt代表作加分。"
+      },
+      "comparisonEvidence": {
+        "comparisonClass": "早期Rembrandt及其圈子的拱顶室内学者题材",
+        "nearestComparators": "本批证据未建立足以通过稀世珍品硬门的最近第二件。",
+        "decisiveDifference": "未证明。",
+        "nonSubstitutableValue": "未证明，因此不得标为稀世珍品。",
+        "unknowns": [
+          "现行作者字段与馆藏说明冲突的编辑或研究原因",
+          "馆方最终采用的具体替代作者"
+        ]
+      },
+      "scoreEvidence": [
+        "当前展出与研究争议可支持馆藏研究价值，但不能支持Rembrandt真迹稀有度或最高级评价。"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/17582/",
+        "https://press.khm.at/fileadmin/content/KHM/Presse/2024/Rembrandt-Hoogstraten_Farbe-und-Illusion/KHM_REM_Booklet_Kern_EN_f.pdf"
+      ]
+    },
+    {
+      "workId": "rembrandt-two-studies-women-children-nmh2039-1863",
+      "identityStatus": "stable",
+      "identity": {
+        "title": "Two Studies of Women with Children",
+        "artistOrCulture": "Rembrandt Harmensz. van Rijn",
+        "displayDate": "mid-1640s",
+        "medium": "Pen and brown ink, brown wash on off-white paper; watermark",
+        "accessionNumber": "NMH 2039/1863",
+        "identityAnchor": "NMH 2039/1863",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/36603/"
+      },
+      "availability": "appointment_required_not_currently_available_summer_closure",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "以同一张纸上的两组母婴研究，代表Nationalmuseum重要的Rembrandt纸上作品收藏，并显示日常人物观察如何进入其宗教绘画与版画题材。",
+      "selectionSignals": [
+        "对象页确认Rembrandt归属、年代、材料与Royal Collection收藏标记。",
+        "对象页把妇女与儿童研究说明为Rembrandt在1630—1640年代作品中的重要部分，并指向NMH 2038/1863的相邻目录关系。"
+      ],
+      "sectionSignals": [
+        "荷兰大师素描",
+        "纸上观察与宗教题材",
+        "Royal Collection来源"
+      ],
+      "routeSignals": [
+        "不进入普通当日主馆路线；只能作为需提前预约的研究室支线。"
+      ],
+      "riskFlags": [
+        "appointment_limited_graphics"
+      ],
+      "riskResolution": {
+        "status": "resolved_as_access_limited",
+        "exactEvidence": [
+          "对象页当前标为Not on display。",
+          "馆方规定纸上作品研究室仅接受预约，申请须列出作品，馆方回复哪些作品可用；研究室不在主馆内。",
+          "研究室2026年6月30日至8月10日夏季关闭，因此在本次核验日2026-08-01不可预约到访。"
+        ],
+        "downstreamRule": "可入选收藏结构，但不得作为普通游客当天可看的主馆作品；路线必须标注提前预约、馆方确认和异址，当前还须标注夏季关闭。"
+      },
+      "comparisonEvidence": {
+        "comparisonClass": "Rembrandt约1640年前后妇女与婴儿素描",
+        "nearestComparators": "同馆NMH 2038/1863及对象页提及的相关妇幼研究群。",
+        "decisiveDifference": "本张包含两组人物研究并使用褐墨与褐洗；未证明全球不可替代性。",
+        "nonSubstitutableValue": "未通过稀世珍品硬门。",
+        "unknowns": [
+          "馆方在预约日期能否提供原作"
+        ]
+      },
+      "scoreEvidence": [
+        "馆方称纸上收藏约50万件，Rembrandt为其中关键作者；本作可支撑馆藏媒介广度，但访问限制降低普通旅行路线的兑现度。"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/36603/",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-study-room-for-drawings-and-prints",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-collections"
+      ]
+    },
+    {
+      "workId": "rembrandt-woman-nursing-baby-nmh2038-1863",
+      "identityStatus": "stable_with_date_range_debate",
+      "identity": {
+        "title": "Woman Nursing a Baby",
+        "artistOrCulture": "Rembrandt Harmensz. van Rijn",
+        "displayDate": "c. 1635–1643（目录所述研究意见范围）",
+        "medium": "Pen and brown ink on paper; verso contains additional studies",
+        "accessionNumber": "NMH 2038/1863",
+        "identityAnchor": "NMH 2038/1863",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/154667/"
+      },
+      "availability": "appointment_required_not_currently_available_summer_closure",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "一张正反两面、可能来自被重复利用的速写本纸页，把Rembrandt家庭人物研究、纸张使用和学者对约1635—1643年间年代的不同判断集中在同一对象上。",
+      "selectionSignals": [
+        "对象页确认正面哺乳母子，背面另有抱孩子的妇女及戴头巾男子头像。",
+        "对象页记录不同学者的年代判断，并将其与同馆相邻纸页、British Museum相关头像以及Madonna and Child绘画联系起来。"
+      ],
+      "sectionSignals": [
+        "荷兰大师素描",
+        "速写本与纸张再利用",
+        "年代研究"
+      ],
+      "routeSignals": [
+        "仅作预约研究室支线，不能承诺普通参观可见。"
+      ],
+      "riskFlags": [
+        "appointment_limited_graphics"
+      ],
+      "riskResolution": {
+        "status": "resolved_as_access_limited",
+        "exactEvidence": [
+          "对象页当前标为Not on display。",
+          "研究室仅预约开放，馆方逐件确认可用性，且不位于主馆。",
+          "研究室在本次核验日处于6月30日至8月10日的夏季关闭期。"
+        ],
+        "downstreamRule": "可保留为研究型候选；必须显示预约、逐件确认、异址和当前夏季关闭，不能用于当天主馆必看路线。"
+      },
+      "comparisonEvidence": {
+        "comparisonClass": "Rembrandt约1640年前后的母婴研究纸页",
+        "nearestComparators": "同馆NMH 2039/1863、对象页所述Louvre同类研究及British Museum相关背面头像。",
+        "decisiveDifference": "本页的正反面组合与可能的速写本再利用提供对象专属研究价值，但没有来源证明不可替代。",
+        "nonSubstitutableValue": "未通过稀世珍品硬门。",
+        "unknowns": [
+          "精确年代",
+          "与相邻纸页是否确来自同一速写本",
+          "预约时能否提供原作"
+        ]
+      },
+      "scoreEvidence": [
+        "可支持馆方Rembrandt素描研究深度；年代与组页关系必须保留概率措辞。"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/154667/",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-study-room-for-drawings-and-prints",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-collections"
+      ]
+    },
+    {
+      "workId": "rembrandt-seated-old-man-nmh2651-1863",
+      "identityStatus": "stable_with_documented_attribution_history",
+      "identity": {
+        "title": "Seated Old Man",
+        "artistOrCulture": "Rembrandt Harmensz. van Rijn",
+        "displayDate": "c. 1630",
+        "medium": "Red and black chalk on paper",
+        "accessionNumber": "NMH 2651/1863",
+        "identityAnchor": "NMH 2651/1863",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/40381/"
+      },
+      "availability": "appointment_required_not_currently_available_summer_closure",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "一张约1630年的红、黑粉笔人物研究，既连接Rembrandt早期老人题材的素描、版画与绘画，也保存了从Claude Mellan旧归属恢复为Rembrandt以及与Jan Lievens风格难分的鉴定史。",
+      "selectionSignals": [
+        "对象页将其与1630年的老人蚀刻及1630—31年的相似版画相联系。",
+        "对象页记录1741年购入时归Claude Mellan、后来由Benesch恢复为Rembrandt，并明确指出早期Rembrandt与Jan Lievens风格接近、区分存在困难。"
+      ],
+      "sectionSignals": [
+        "早期Rembrandt",
+        "素描—版画—绘画关系",
+        "归属史"
+      ],
+      "routeSignals": [
+        "仅作预约研究室支线；适合与NM 579的归属问题形成研究路线。"
+      ],
+      "riskFlags": [
+        "appointment_limited_graphics"
+      ],
+      "riskResolution": {
+        "status": "resolved_as_access_limited_with_attribution_context",
+        "exactEvidence": [
+          "对象页当前标为Not on display。",
+          "纸上作品研究室需预约并由馆方逐件确认，且不在主馆。",
+          "研究室在本次核验日处于6月30日至8月10日夏季关闭期。",
+          "馆藏目录保留旧归属与Rembrandt/Jan Lievens区分困难的研究背景，但页面现行作者字段为Rembrandt。"
+        ],
+        "downstreamRule": "展示身份可按馆方现行Rembrandt记录，但结构说明应保留其归属史；任何现场路线均须按预约受限处理。"
+      },
+      "comparisonEvidence": {
+        "comparisonClass": "Rembrandt约1630年的老人粉笔研究及相关蚀刻",
+        "nearestComparators": "Bartsch 309、325、260所指1630—31年相似老人版画，以及对象页所述若干不同姿态粉笔研究。",
+        "decisiveDifference": "本作的具体归属史与红、黑粉笔组合有研究价值；没有证明比相关研究不可替代。",
+        "nonSubstitutableValue": "未通过稀世珍品硬门。",
+        "unknowns": [
+          "相关研究是否使用同一模特",
+          "与圣徒和先知画作的联系程度",
+          "预约时能否提供原作"
+        ]
+      },
+      "scoreEvidence": [
+        "能支持馆方荷兰素描研究与跨媒介收藏线，但归属比较中的学术不确定性不得抹平。"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/40381/",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-study-room-for-drawings-and-prints",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-collections"
+      ]
+    },
+    {
+      "workId": "rembrandt-presentation-in-temple-nmgb222-1977",
+      "identityStatus": "stable",
+      "identity": {
+        "title": "The Presentation in the Temple (in the dark manner)",
+        "artistOrCulture": "Rembrandt Harmensz. van Rijn",
+        "displayDate": "c. 1654",
+        "medium": "Etching and drypoint",
+        "accessionNumber": "NMG B 222/1977",
+        "identityAnchor": "NMG B 222/1977",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/231738/"
+      },
+      "availability": "appointment_required_not_currently_available_summer_closure",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "以蚀刻与干刻的深暗处理补足Rembrandt在本馆跨绘画、素描和版画的媒介线；对象页所说only state指版画状态，不等于仅存一张印本。",
+      "selectionSignals": [
+        "对象页稳定确认作者、约1654年、蚀刻与干刻、only state及版画馆藏归属。",
+        "馆方总览把Rembrandt列为约50万件纸上收藏的关键作者之一。"
+      ],
+      "sectionSignals": [
+        "Rembrandt版画",
+        "蚀刻与干刻",
+        "暗调表现"
+      ],
+      "routeSignals": [
+        "只适合预约研究室的跨媒介支线。"
+      ],
+      "riskFlags": [
+        "appointment_limited_graphics"
+      ],
+      "riskResolution": {
+        "status": "resolved_as_access_limited",
+        "exactEvidence": [
+          "对象页当前标为Not on display。",
+          "纸上作品研究室仅预约开放、逐件确认可用性且不在主馆。",
+          "研究室在本次核验日处于6月30日至8月10日夏季关闭期。"
+        ],
+        "downstreamRule": "不得放入普通当日路线；only state不得转换为唯一印本或全球稀有性断言。"
+      },
+      "comparisonEvidence": {
+        "comparisonClass": "Rembrandt同题及同阶段宗教版画的不同版次与印本",
+        "nearestComparators": "本批证据未建立具体印本或版次比较组。",
+        "decisiveDifference": "only state仅说明版画状态；不足以证明印本数量或不可替代性。",
+        "nonSubstitutableValue": "未通过稀世珍品硬门。",
+        "unknowns": [
+          "该印本的纸张、印刷时序与保存状态相对其他印本的位置",
+          "预约时能否提供原作"
+        ]
+      },
+      "scoreEvidence": [
+        "可支持馆藏跨媒介广度，不支持唯一、仅存或最高级评分。"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/231738/",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-study-room-for-drawings-and-prints",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-collections"
+      ]
+    },
+    {
+      "workId": "durer-portrait-young-woman-braided-hair-nmh1855-1863",
+      "identityStatus": "stable_sitter_unidentified",
+      "identity": {
+        "title": "Portrait of a Young Woman with braided hair",
+        "artistOrCulture": "Albrecht Dürer",
+        "displayDate": "1515",
+        "medium": "Black chalk and charcoal on brownish paper; laid down; black-ink framing line; fold",
+        "accessionNumber": "NMH 1855/1863",
+        "identityAnchor": "NMH 1855/1863",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/43163/"
+      },
+      "availability": "appointment_required_not_currently_available_summer_closure",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "一件1515年的大型粉笔、木炭肖像素描；馆方旧轮换导览把它作为Dürer将人物个性与绘画性执行提升为独立纸上艺术的例证，但模特身份仍只是推测。",
+      "selectionSignals": [
+        "对象页稳定确认Dürer、1515、材料、尺寸和馆藏号。",
+        "馆方2019轮换导览强调其人物刻画强度与绘画性，并明确把模特可能为Willibald Pirckheimer之妹写成推测而非事实。"
+      ],
+      "sectionSignals": [
+        "16世纪德国素描",
+        "肖像作为独立纸上艺术",
+        "模特身份边界"
+      ],
+      "routeSignals": [
+        "当前只能作为预约研究室支线；其2019年曾轮换展出不能推出今天在展。"
+      ],
+      "riskFlags": [
+        "appointment_limited_graphics"
+      ],
+      "riskResolution": {
+        "status": "resolved_as_access_limited",
+        "exactEvidence": [
+          "对象页当前标为Not on display。",
+          "研究室仅预约开放、馆方逐件回复可用性且不在主馆。",
+          "研究室在本次核验日处于6月30日至8月10日夏季关闭期。",
+          "2019馆方页面证明作品曾参与馆内轮换，但不能证明当前展出。"
+        ],
+        "downstreamRule": "可作为纸上收藏的重要候选，但当前路线不可承诺；模特身份只能写未知或推测。"
+      },
+      "comparisonEvidence": {
+        "comparisonClass": "Dürer人物肖像素描及16世纪北方粉笔肖像",
+        "nearestComparators": "本批证据未建立足以审核的最近第二件。",
+        "decisiveDifference": "馆方强调刻画强度与绘画性，但未提供全球比较或存世数量。",
+        "nonSubstitutableValue": "未通过稀世珍品硬门。",
+        "unknowns": [
+          "模特身份",
+          "预约时能否提供原作"
+        ]
+      },
+      "scoreEvidence": [
+        "可支持馆藏从文艺复兴起的纸上作品纵深；不能据馆方修辞推出世界第一或唯一。"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/43163/",
+        "https://www.nationalmuseum.se/en/webtour/rotation-i-salarna-februari-2019",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-study-room-for-drawings-and-prints",
+        "https://www.nationalmuseum.se/en/explore-art-and-design/the-collections"
+      ]
+    },
+    {
+      "workId": "roslin-gustav-iii-and-brothers-nm1010",
+      "identityStatus": "stable",
+      "identity": {
+        "title": "King Gustav III of Sweden and his Brothers",
+        "artistOrCulture": "Alexander Roslin",
+        "displayDate": "1771（signed）",
+        "medium": "Oil on canvas",
+        "accessionNumber": "NM 1010",
+        "identityAnchor": "NM 1010",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/18013/"
+      },
+      "availability": "not_on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "Roslin在巴黎为瑞典三位王子形成的王室群像，连接1771年王位更替、国际宫廷肖像委托以及后来被大量复用的单人半身图式。",
+      "selectionSignals": [
+        "对象页确认三位被画者为Gustav III、Karl XIII与Fredrik Adolf，作品1771年签名。",
+        "Nationalmuseum提供给Google Arts & Culture的说明记录Gustav与Fredrik于1771年2月抵达巴黎、Karl此前已完成坐像，后续单人半身图式被多次重复；Gustav在巴黎收到父王去世消息。"
+      ],
+      "sectionSignals": [
+        "瑞典18世纪",
+        "王室肖像与政治形象",
+        "巴黎—斯德哥尔摩联系"
+      ],
+      "routeSignals": [
+        "当前不得列为必看；可作为未展出的国家历史收藏线候选。"
+      ],
+      "riskFlags": [
+        "display_rotation"
+      ],
+      "riskResolution": {
+        "status": "resolved_as_not_on_display",
+        "exactEvidence": [
+          "Nationalmuseum对象页在2026-08-01核验时标为Not on display。",
+          "对象页确认馆藏身份与三位被画者，但未给未来回展日期。"
+        ],
+        "downstreamRule": "可用于收藏结构和国家历史论点，不得进入承诺当天可见的路线；展出状态需临行复核。"
+      },
+      "comparisonEvidence": {
+        "comparisonClass": "Roslin的Gustav III王室肖像及由1771年坐像衍生的重复版本",
+        "nearestComparators": "三位王子的单人半身图式及Roslin其他Gustav III肖像；本批未取得逐件对象比较。",
+        "decisiveDifference": "本作把三兄弟合并为一幅群像并锚定1771年巴黎政治时刻，但未证明不可替代性。",
+        "nonSubstitutableValue": "历史组合价值明确，全球稀世珍品硬门未通过。",
+        "unknowns": [
+          "未来展出时间",
+          "各重复版本的完整数量与差异"
+        ]
+      },
+      "scoreEvidence": [
+        "能支持Nationalmuseum瑞典18世纪绘画和国家历史收藏线；当前不展出限制旅行行动价值。"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/18013/",
+        "https://artsandculture.google.com/asset/king-gustav-iii-of-sweden-and-his-brothers-alexander-roslin/dAFptsjPepSiNw?hl=en"
+      ]
+    },
+    {
+      "workId": "roslin-carl-linnaeus-nmgrh1053",
+      "identityStatus": "stable",
+      "identity": {
+        "title": "Carl Linnaeus (1707–1778), Professor and Botanist, 1775",
+        "artistOrCulture": "Alexander Roslin",
+        "displayDate": "1775",
+        "medium": "Oil on canvas",
+        "accessionNumber": "NMGrh 1053",
+        "identityAnchor": "NMGrh 1053",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/15723/"
+      },
+      "availability": "not_on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "这幅肖像的关键不是单纯记录Linnaeus容貌，而是Roslin从一开始就把原作、巴黎沙龙展示、刻版与售卖复制品组织为一套知识名人形象传播计划。",
+      "selectionSignals": [
+        "对象页确认Roslin于1775年离开瑞典前作画，Linnaeus专程到斯德哥尔摩坐像。",
+        "对象页明确说明作画具有宣传目的：Roslin计划刻版，并在原作参加巴黎Salon时销售版画；原作之后送回斯德哥尔摩，可能另有一件给Linnaeus的复制品。"
+      ],
+      "sectionSignals": [
+        "瑞典知识史",
+        "肖像传播与版画市场",
+        "National Portrait Gallery来源"
+      ],
+      "routeSignals": [
+        "当前不展出；适合作为肖像传播结构节点，不作为当天路线锚点。"
+      ],
+      "riskFlags": [
+        "display_rotation"
+      ],
+      "riskResolution": {
+        "status": "resolved_as_not_on_display",
+        "exactEvidence": [
+          "Nationalmuseum对象页在2026-08-01核验时标为Not on display。",
+          "馆藏身份稳定，1866年由Gripsholm Castle转入；页面未给未来展出日期。"
+        ],
+        "downstreamRule": "可入选收藏结构但不得承诺可见；任何巴黎展示、版画销售与复制品叙述应保持对象页的计划/可能性边界。"
+      },
+      "comparisonEvidence": {
+        "comparisonClass": "Roslin的Linnaeus肖像原作、刻版传播与可能的复制品",
+        "nearestComparators": "对象页提及可能送给Linnaeus的一件复制品及计划制作的版画。",
+        "decisiveDifference": "Nationalmuseum对象被说明为参加巴黎Salon并随后送回斯德哥尔摩的原作；复制品存在用probably限定。",
+        "nonSubstitutableValue": "原作传播史具体，但未取得足以证明全球不可替代性的完整版本比较。",
+        "unknowns": [
+          "可能复制品的确切身份与存续",
+          "版画版本和数量",
+          "未来展出时间"
+        ]
+      },
+      "scoreEvidence": [
+        "可支持国家肖像收藏与18世纪知识传播论点；当前不展出限制路线权重。"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/15723/"
+      ]
+    },
+    {
+      "workId": "monet-view-from-voorzan-nm2513",
+      "identityStatus": "stable",
+      "identity": {
+        "title": "View from Voorzan",
+        "artistOrCulture": "Claude Monet",
+        "displayDate": "1871",
+        "medium": "Oil on canvas",
+        "accessionNumber": "NM 2513",
+        "identityAnchor": "NM 2513",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/19574/"
+      },
+      "availability": "not_on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "Monet在1871年Zaandam停留期间形成约25幅当地画作的一件，适合作为他以单一地点和连续时段进行成组观察、后来发展系列工作方式的早期节点。",
+      "selectionSignals": [
+        "Nationalmuseum对象页确认作者、油画、NM 2513、Zaandam所画地点及1926年捐赠来源。",
+        "Zaans Museum确认Monet于1871年到Zaandam并创作25幅画和9件素描；当地专题资料把这25幅称为其首个来自单一地点与连续时期的大型作品组。"
+      ],
+      "sectionSignals": [
+        "1870—1900国际绘画",
+        "地点研究与系列方法",
+        "Zaandam风景"
+      ],
+      "routeSignals": [
+        "当前不展出，不可作为主馆现代绘画路线的保证节点。"
+      ],
+      "riskFlags": [
+        "display_rotation"
+      ],
+      "riskResolution": {
+        "status": "resolved_as_not_on_display",
+        "exactEvidence": [
+          "Nationalmuseum对象页在本次核验时标为Not on display。",
+          "页面没有未来回展或借展结束日期。"
+        ],
+        "downstreamRule": "可入选收藏结构，不能承诺当天可见；1871年代由Zaans Museum的Monet专题交叉支持。"
+      },
+      "comparisonEvidence": {
+        "comparisonClass": "Monet 1871年Zaandam的25幅当地画作",
+        "nearestComparators": "Zaans Museum所藏The Voorzaan and the Westerhem及分散在Van Gogh Museum、Metropolitan Museum等馆的同组Zaandam作品。",
+        "decisiveDifference": "NM 2513是同一地点研究组中的独立视角；本批证据未证明它在25幅中具有不可替代的决定性差异。",
+        "nonSubstitutableValue": "系列节点价值明确，但未通过稀世珍品硬门。",
+        "unknowns": [
+          "25幅作品逐件之间的最近构图比较",
+          "未来展出时间"
+        ]
+      },
+      "scoreEvidence": [
+        "可支持本馆国际现代绘画与Monet早期成组地点观察；同组约25幅意味着数量本身不能推出稀有。"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/19574/",
+        "https://zaansmuseum.nl/en/claude-monet/",
+        "https://monetinzaandam.nl/en/monetatelier/",
+        "https://zaansmuseum.nl/thuismuseum/op-stap-met-monet/"
+      ]
+    },
+    {
+      "workId": "renoir-la-grenouillere-nm2425",
+      "identityStatus": "stable",
+      "identity": {
+        "title": "La Grenouillère",
+        "artistOrCulture": "Auguste Renoir",
+        "displayDate": "1869",
+        "medium": "Oil on canvas",
+        "accessionNumber": "NM 2425",
+        "identityAnchor": "NM 2425",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/19486/"
+      },
+      "availability": "not_on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "Renoir与Monet在1869年并肩描绘同一现代休闲场所时形成的关键实验：短促、松动的笔触和明亮色彩用于捕捉水面光效，同时把巴黎近郊商业休闲纳入新的绘画题材。",
+      "selectionSignals": [
+        "Nationalmuseum把本作及Monet同题画视为第一批充分成形的印象派实例，并称本作为馆内国际知名度最高、经常被全球展览借用的作品之一。",
+        "Metropolitan Museum确认其Monet《La Grenouillère》与Nationalmuseum的Renoir作品构图高度相近，提供明确最近比较对象。",
+        "Musée d’Orsay把1869年La Grenouillère说明为现代休闲与两位画家新审美视野的交汇，并在2026年Renoir项目中将Stockholm本作列入其早期重要作品序列。"
+      ],
+      "sectionSignals": [
+        "印象派形成",
+        "现代生活与近郊休闲",
+        "Renoir—Monet并行比较"
+      ],
+      "routeSignals": [
+        "若回展可作为现代绘画首要节点；当前必须从当日路线移除或标为不可见。"
+      ],
+      "riskFlags": [
+        "display_rotation"
+      ],
+      "riskResolution": {
+        "status": "resolved_as_not_on_display_with_high_loan_risk",
+        "exactEvidence": [
+          "Nationalmuseum对象页在2026-08-01核验时标为Not on display。",
+          "同页称作品持续受到世界各地展览借用需求，解释了其高可见性波动风险，但没有给当前所在地或回展日期。"
+        ],
+        "downstreamRule": "作品重要性可高，但当前旅行路线不得承诺；临行必须复核对象页，不能把高借展需求写成当前正在某一特展。"
+      },
+      "comparisonEvidence": {
+        "comparisonClass": "Monet与Renoir于1869年在La Grenouillère并肩完成的同题绘画",
+        "nearestComparators": "Claude Monet, La Grenouillère, 1869, The Metropolitan Museum of Art, 29.100.112；另有Musée d’Orsay资料提及Pushkin Museum的Renoir同题pochade。",
+        "sharedCoreValue": "同一地点、同一季节的现场绘画实验，以松动笔触、明亮色彩和水面光效处理现代休闲题材。",
+        "decisiveDifference": "Met明确指出其Monet构图与Stockholm的Renoir高度相近；现有来源支持并行实验价值，却未给出Stockholm本作相对Met或Pushkin版本不可替代的决定性优越差异。",
+        "nonSubstitutableValue": "能获得Renoir在与Monet并行实验中的独立处理，但本批证据不足以通过全球不可替代性硬门，因此降为重要藏品而非稀世珍品。",
+        "unknowns": [
+          "同题全部存世画作的完整数量与状态",
+          "各版本逐项材料和构图差异的权威比较",
+          "当前外借地点及回展日期"
+        ]
+      },
+      "scoreEvidence": [
+        "馆方直接把本作列为国际知名作品并赋予印象派早期节点地位，可显著支持馆藏质量评分。",
+        "存在构图高度相近的Monet比较对象，且决定性不可替代差异未证明，所以不满足稀世珍品硬门。",
+        "当前不展出使旅行行动建议必须弱于其艺术史重要性。"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/19486/",
+        "https://www.metmuseum.org/art/collection/search/437135",
+        "https://www.metmuseum.org/essays/auguste-renoir-1841-1919",
+        "https://www.musee-orsay.fr/en/program/whats-on/exhibitions/presentation/spectacular-second-empire-1852-1870",
+        "https://www.musee-orsay.fr/en/node/343375"
+      ]
+    }
+  ]
+}

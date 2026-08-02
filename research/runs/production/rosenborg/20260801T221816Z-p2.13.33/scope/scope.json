@@ -1,0 +1,119 @@
+{
+  "museumId": "rosenborg",
+  "museumName": "Rosenborg Castle",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "officialCollectionUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/",
+  "editorialCapacity": 30,
+  "capacityRationale": "Rosenborg is a single, unusually coherent castle museum with a substantial visitor route through named royal rooms, halls, tower rooms and basement treasury areas. Thirty works can cover the castle's core royal interiors, crown jewels and regalia, and distinct historic-object groups while leaving room for the castle's own collection logic. Forty or sixty would require a broader multi-site or multi-civilizational collection than this location represents; twenty would risk underrepresenting the separate room, treasury and object-collection threads.",
+  "collectionBoundaries": {
+    "included": [
+      {
+        "boundary": "Rosenborg Castle museum building and its public visitor route at Øster Voldgade 4A, 1350 Copenhagen K, including the named halls, rooms, tower rooms and basement areas presented on the official Rosenborg site.",
+        "sourceIds": ["official_rosenborg", "official_interior_objects", "parkmuseerne_location"]
+      },
+      {
+        "boundary": "The Rosenborg-presented royal collection: the castle interiors and furnishings, the Danish crown jewels, royal crowns and Crown regalia in the Treasury, and other historical objects and collection groups documented as part of the Rosenborg route.",
+        "sourceIds": ["official_rosenborg", "official_collection_overview", "official_interior_objects"]
+      }
+    ],
+    "siteBoundaryNote": "The King's Garden is the castle's setting and access context, but the editorial collection boundary is the Rosenborg Castle museum and its displayed holdings, not the park as an independent collection venue."
+  },
+  "exclusions": [
+    {
+      "item": "Other Royal Danish Collection venues, including Amalienborg Museum, Christiansborg Palace, The Hermitage Palace, Fredensborg Palace and Koldinghus.",
+      "reason": "They are separately listed museum locations under the same institution and are not part of the Rosenborg Castle visitor site.",
+      "sourceIds": ["official_collection_overview", "official_rosenborg"]
+    },
+    {
+      "item": "Temporary exhibitions, calendar events and exhibition projects whose Rosenborg display status is not established as part of the stable visitor route.",
+      "reason": "The official site distinguishes the permanent castle experience from its calendar and describes the Kingdom's Treasury as an ongoing project.",
+      "sourceIds": ["official_rosenborg", "official_collection_overview"]
+    },
+    {
+      "item": "The King's Garden as a standalone park collection, and unrelated nearby institutions or buildings.",
+      "reason": "It is the castle's surrounding setting rather than the Rosenborg museum collection boundary.",
+      "sourceIds": ["official_rosenborg", "parkmuseerne_location"]
+    }
+  ],
+  "collectionDepartments": [
+    {
+      "name": "Rosenborg Castle halls, rooms and royal interiors",
+      "location": "Rosenborg Castle, Øster Voldgade 4A, 1350 Copenhagen K",
+      "candidatePoolStatus": "included",
+      "sourceIds": ["official_interior_objects", "official_rosenborg"]
+    },
+    {
+      "name": "The Treasury: Danish crown jewels, royal crowns and Crown regalia",
+      "location": "Treasury beneath Rosenborg Castle, Øster Voldgade 4A, 1350 Copenhagen K",
+      "candidatePoolStatus": "included",
+      "sourceIds": ["official_rosenborg", "parkmuseerne_location"]
+    },
+    {
+      "name": "Other historical objects and collection groups presented in Rosenborg's rooms and cabinets",
+      "location": "Rosenborg Castle, Øster Voldgade 4A, 1350 Copenhagen K",
+      "candidatePoolStatus": "included subject to later object-page and display verification",
+      "sourceIds": ["official_collection_overview", "official_interior_objects"]
+    },
+    {
+      "name": "Historical clothing and other objects associated with the Kingdom's Treasury expansion project",
+      "location": "Rosenborg Castle project scope; exact public display boundary not yet established",
+      "candidatePoolStatus": "excluded for the current candidate pool until current display status is confirmed",
+      "sourceIds": ["official_rosenborg"]
+    },
+    {
+      "name": "The Royal Danish Collection's other museum sites",
+      "location": "Amalienborg Museum, Christiansborg Palace, The Hermitage Palace, Fredensborg Palace and Koldinghus; separate addresses",
+      "candidatePoolStatus": "excluded",
+      "sourceIds": ["official_collection_overview", "official_rosenborg"]
+    }
+  ],
+  "riskFlags": ["display_status_uncertain", "project_in_progress"],
+  "uncertainties": [
+    "The official site describes a new underground treasury and a new exhibition space for historical clothing and other objects as an ongoing project; these future or changing displays are not treated as part of the stable candidate boundary without later confirmation.",
+    "Individual objects must be identity-anchored to official object pages in the candidate-pool stage; this scope does not preselect works or assert that every object in a named room is currently visible."
+  ],
+  "sourcePointers": [
+    {
+      "id": "official_rosenborg",
+      "title": "Rosenborg Castle",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/",
+      "accessedAt": "2026-08-01",
+      "supports": "Official Rosenborg identity, location in the King's Garden, castle visitor experience, crown jewels, royal crowns and Crown regalia in the Treasury, the ongoing Kingdom's Treasury project, and the distinction between the castle route and other institutional venues."
+    },
+    {
+      "id": "official_collection_overview",
+      "title": "The collection",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/",
+      "accessedAt": "2026-08-01",
+      "supports": "Institution-wide collection scope, the object collection and royal-history framing, exhibition-archive distinction, and the separate list of Royal Danish Collection venues."
+    },
+    {
+      "id": "official_interior_objects",
+      "title": "Interior and objects",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/",
+      "accessedAt": "2026-08-01",
+      "supports": "Rosenborg's named halls, rooms, cabinets and basement treasury areas, and the boundary of the castle's interior/object visitor route."
+    },
+    {
+      "id": "parkmuseerne_location",
+      "title": "The Rosenborg Castle",
+      "publisher": "Parkmuseerne",
+      "url": "https://www.parkmuseerne.dk/en/museer/rosenborg/",
+      "accessedAt": "2026-08-01",
+      "supports": "Public museum address, Rosenborg's location in King's Garden, and the visitor-facing distinction between the castle, its displays and the surrounding park."
+    },
+    {
+      "id": "geonames_coordinate",
+      "title": "GeoNames Fulltextsearch: Rosenborg Castle",
+      "publisher": "GeoNames",
+      "url": "https://www.geonames.org/advanced-search.html?country=DK&q=K%C3%B8benhavns",
+      "accessedAt": "2026-08-01",
+      "supports": "Map coordinate for Rosenborg Castle: 55.6856777319057, 12.5772428512573."
+    }
+  ],
+  "coordinates": [55.6856777319057, 12.5772428512573]
+}

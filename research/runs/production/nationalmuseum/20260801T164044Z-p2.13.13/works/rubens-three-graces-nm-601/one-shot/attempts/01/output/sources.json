@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "rubens-three-graces-nm-601",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Three Graces with a Basket of Roses",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/17604/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "attribution",
+        "date",
+        "material",
+        "dimensions",
+        "accessionNumber",
+        "collectionRelation",
+        "provenance",
+        "exhibitionHistory",
+        "availability",
+        "technique",
+        "conservation",
+        "mythologicalContext"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Biography of Rubens",
+      "publisher": "Rubenshuis, City of Antwerp",
+      "url": "https://rubenshuis.be/en/stories/biography-rubens",
+      "sourceType": "museum",
+      "usedFor": [
+        "workshopContext",
+        "artistBiography"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "Nationalmuseum将本作归入彼得·保罗·鲁本斯作坊，并认为花篮与风景更可能与小扬·勃鲁盖尔有关；鲁本斯本人是否亲自绘制原始版本无法确定。",
+      "type": "attribution",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "作者归属",
+      "statement": "馆方认为人物与花篮由不同画手完成，作品可能由鲁本斯最优秀的学生在大师指导下制作；鲁本斯本人是否亲自参与无法确定。"
+    },
+    {
+      "topic": "花篮与风景归属",
+      "statement": "花篮与风景更可能由小扬·勃鲁盖尔绘制，早先归于老扬·勃鲁盖尔的说法已被馆方技术与风格判断排除。"
+    }
+  ],
+  "upstreamConflicts": []
+}

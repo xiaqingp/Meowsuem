@@ -10,7 +10,7 @@ import {
   readAndValidateRunDescriptor,
   resolveRunRoot,
 } from "./lib/filesystem-contract.mjs";
-import {atomicJson, readWorkStatus, writeWorkStatus} from "./lib/work-status.mjs";
+import {atomicJson, inspectSingleWorkRetryGuard, readWorkStatus, writeWorkStatus} from "./lib/work-status.mjs";
 import {
   canonicalOneShotEffort,
   canonicalOneShotModel,
@@ -103,7 +103,6 @@ export async function runOneShotWork(argv = process.argv.slice(2)) {
     projectRoot, manifest, runKind: args.kind, museumId: args.museum, caseId: args.case, runId: args["run-id"],
   });
   const descriptor = await readAndValidateRunDescriptor(runRoot, manifest, projectRoot);
-  if (descriptor.pipelineVersion !== manifest.pipelineVersion) throw new Error("run pipeline version does not match current manifest");
   if (descriptor.immutable || manifest.filesystemContract.immutableStatuses.includes(descriptor.status)) throw new Error("run is immutable");
   if (descriptor.contentContract !== "one_shot_v1" && !args["allow-legacy-run"]) throw new Error("single-work generation requires contentContract=one_shot_v1");
 
@@ -114,6 +113,14 @@ export async function runOneShotWork(argv = process.argv.slice(2)) {
   const targetMuseumId = descriptor.museumId ?? descriptor.targetMuseumId;
   if (locked.workId !== workId || (targetMuseumId && locked.museumId !== targetMuseumId)) throw new Error("locked metadata identity drift");
   const previous = await readWorkStatus(runRoot, workId);
+  if ((previous?.attempt ?? 0) > 0) {
+    const guard = await inspectSingleWorkRetryGuard(artifactRoot, {
+      maxAttempts: manifest.executionProfile.singleWorkMaxAttempts,
+      tokenBudget: manifest.executionProfile.singleWorkTokenBudget,
+      repeatedFailureLimit: manifest.executionProfile.singleWorkRepeatedFailureLimit,
+    });
+    if (guard.blocked) throw new Error(`RETRY_GUARD_BLOCKED: ${guard.reason}`);
+  }
   const attempt = (previous?.attempt ?? 0) + 1;
   const attemptRoot = path.join(artifactRoot, "attempts", String(attempt).padStart(2, "0"));
   await fs.mkdir(path.join(attemptRoot, "input"), {recursive: true});

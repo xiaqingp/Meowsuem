@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "elias-martin-view-stockholm-nm-1470",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "View of Stockholm",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/18473/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "technique",
+        "accessionNumber",
+        "availability",
+        "displayLocation",
+        "depictedPlace",
+        "description"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Elias Martin",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/sv/artists/artist/5048/",
+      "sourceType": "museum",
+      "usedFor": [
+        "creator",
+        "biography",
+        "career",
+        "historicalContext"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Elias Martin",
+      "publisher": "Svenskt biografiskt lexikon / Riksarkivet",
+      "url": "https://sok.riksarkivet.se/sbl/Artikel/9126",
+      "sourceType": "academic",
+      "usedFor": [
+        "career",
+        "stockholmViews",
+        "historicalContext"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Elias Martin",
+      "publisher": "British Museum",
+      "url": "https://www.britishmuseum.org/collection/term/BIOG37417",
+      "sourceType": "museum",
+      "usedFor": [
+        "creator",
+        "career",
+        "Vernet",
+        "London"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "date",
+      "statement": "Nationalmuseum 的官方对象记录未注明本作的制作年代；本文未据风格或艺术家生卒年推定具体年份。"
+    }
+  ],
+  "upstreamConflicts": []
+}

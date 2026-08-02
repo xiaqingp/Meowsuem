@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "stage": "image_evidence_retry",
+  "runId": "20260801T174609Z-p2.13.17",
+  "runRoot": "research/runs/experiment/nationalmuseum-image-repair-final-02/20260801T174609Z-p2.13.17",
+  "parentRunRoot": "research/runs/experiment/nationalmuseum-image-repair-final-01/20260801T174236Z-p2.13.17",
+  "parentEvidenceSha256": "8055cb4bace955d8c797386cad9cbeed625c4975ccadfc19d032b86dfb6fb7f3",
+  "failedWorksRetried": [
+    {
+      "workId": "mathsson-reclining-chair-36-nmk-46-2010",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "All supplied candidates are unrelated Wikimedia Commons images and are not identity-bound to Reclining Chair No. 36 or accession number NMK 46/2010."
+      ],
+      "sourcePageUrl": null
+    },
+    {
+      "workId": "zorn-midsummer-dance-nm-1603",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "AI candidate download failed: image returned 429"
+      ],
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File%3AMidsummer_Dance_%28Anders_Zorn%29_-_Nationalmuseum_-_18607.tif"
+    },
+    {
+      "workId": "aalto-paimio-armchair-nmk-13-1963",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "Available images depict the Paimio chair model generally, but are not clearly bound to Nationalmuseum accession NMK 13/1963."
+      ],
+      "sourcePageUrl": null
+    },
+    {
+      "workId": "ron-arad-rover-chair-nmk-72-2013",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "Available Rover Chair images are contextual or depict other holdings; exact Nationalmuseum accession identity is insufficient."
+      ],
+      "sourcePageUrl": null
+    },
+    {
+      "workId": "hasselberg-spring-snowflake-nmsk-746",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "AI candidate download failed: image returned 429"
+      ],
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File%3AStatue._The_Spring_Snowflake%2C_1883%2C_by_Per_Hasselberg._Nationalmuseum%2C_Stockholm%2C_Sweden.jpg"
+    },
+    {
+      "workId": "halds-cactus-exhibition-nmk-215-2011",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "No non-excluded image with sufficient exact-work identity evidence found."
+      ],
+      "sourcePageUrl": null
+    },
+    {
+      "workId": "pilo-coronation-gustav-iii-nm-1004",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "AI candidate download failed: image returned 429"
+      ],
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File%3ACarl_Gustav_Pilo_-_The_Coronation_of_King_Gustav_III_of_Sweden._Uncompleted_-_Google_Art_Project.jpg"
+    },
+    {
+      "workId": "charles-x-gustav-miniature-nmb-2163",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "AI candidate download failed: image returned 429"
+      ],
+      "sourcePageUrl": "https://www.wikidata.org/wiki/Q18542588"
+    }
+  ],
+  "newlyAccepted": [
+    {
+      "workId": "zorn-midsummer-dance-nm-1603",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File%3AMidsummer_Dance_%28Anders_Zorn%29_-_Nationalmuseum_-_18607.tif",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Midsummer_Dance_%28Anders_Zorn%29_-_Nationalmuseum_-_18607.tif/lossy-page1-960px-Midsummer_Dance_%28Anders_Zorn%29_-_Nationalmuseum_-_18607.tif.jpg?_=20161007102019",
+      "localPath": "research/runs/experiment/nationalmuseum-image-repair-final-02/20260801T174609Z-p2.13.17/image-evidence/assets/zorn-midsummer-dance-nm-1603.jpg",
+      "sha256": "8e1df812654fcf3627ece8aaae89531b3f6eeecb9929089cdb2d756140bfcaa2",
+      "method": "ai_page_candidate_download",
+      "imageRole": "object_view",
+      "candidateId": "page-image-001"
+    },
+    {
+      "workId": "aalto-paimio-armchair-nmk-13-1963",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Armchair_41_%E2%80%9CPaimio%E2%80%9C_designed_by_Alvar_Aalto_(1932).jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Armchair_41_%E2%80%9CPaimio%E2%80%9C_designed_by_Alvar_Aalto_%281932%29.jpg/1920px-Armchair_41_%E2%80%9CPaimio%E2%80%9C_designed_by_Alvar_Aalto_%281932%29.jpg",
+      "localPath": "research/runs/experiment/nationalmuseum-image-repair-final-02/20260801T174609Z-p2.13.17/image-evidence/assets/aalto-paimio-armchair-nmk-13-1963.jpg",
+      "sha256": "3f8825d7a8e43d2e0949114f75875739993af089072d6e98cfa4cdabaa9a1eae",
+      "method": "ai_page_candidate_download",
+      "imageRole": "object_view",
+      "candidateId": "commons-001"
+    },
+    {
+      "workId": "ron-arad-rover-chair-nmk-72-2013",
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/151064/",
+      "imageUrl": null,
+      "localPath": "research/runs/experiment/nationalmuseum-image-repair-final-02/20260801T174609Z-p2.13.17/image-evidence/assets/ron-arad-rover-chair-nmk-72-2013.png",
+      "sha256": "c90cb556d349fc37c39710138cde37fc42a6ffb65706b2f60a0556402db11259",
+      "method": "ai_page_element_capture",
+      "imageRole": "object_view",
+      "candidateId": "page-image-001"
+    },
+    {
+      "workId": "hasselberg-spring-snowflake-nmsk-746",
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/27068/",
+      "imageUrl": null,
+      "localPath": "research/runs/experiment/nationalmuseum-image-repair-final-02/20260801T174609Z-p2.13.17/image-evidence/assets/hasselberg-spring-snowflake-nmsk-746.png",
+      "sha256": "cdfd4c3ebe7d98bdb05994f801b3033382edf4f9dd77ed291fc9d4fadc915d26",
+      "method": "ai_page_element_capture",
+      "imageRole": "object_view",
+      "candidateId": "page-image-001"
+    },
+    {
+      "workId": "halds-cactus-exhibition-nmk-215-2011",
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/137663/",
+      "imageUrl": null,
+      "localPath": "research/runs/experiment/nationalmuseum-image-repair-final-02/20260801T174609Z-p2.13.17/image-evidence/assets/halds-cactus-exhibition-nmk-215-2011.png",
+      "sha256": "a91e0a27563bd80182e89b5731b5c06818a35f35e537fdfc05ecc9d78d0c4f5b",
+      "method": "ai_page_element_capture",
+      "imageRole": "object_view",
+      "candidateId": "page-image-001"
+    },
+    {
+      "workId": "pilo-coronation-gustav-iii-nm-1004",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File%3ACarl_Gustav_Pilo_-_The_Coronation_of_King_Gustav_III_of_Sweden._Uncompleted_-_Google_Art_Project.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/The_Coronation_of_King_Gustav_III_of_Sweden._Uncompleted_%28Carl_Gustav_Pilo%29_-_Nationalmuseum_-_18007.tif/lossy-page1-500px-The_Coronation_of_King_Gustav_III_of_Sweden._Uncompleted_%28Carl_Gustav_Pilo%29_-_Nationalmuseum_-_18007.tif.jpg",
+      "localPath": "research/runs/experiment/nationalmuseum-image-repair-final-02/20260801T174609Z-p2.13.17/image-evidence/assets/pilo-coronation-gustav-iii-nm-1004.jpg",
+      "sha256": "09d108379e4fc1f6dc51e9f1df2c2766383f9ed71922f40fb6a0de03343c345f",
+      "method": "ai_page_candidate_download",
+      "imageRole": "object_view",
+      "candidateId": "page-image-001"
+    },
+    {
+      "workId": "charles-x-gustav-miniature-nmb-2163",
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/26105/",
+      "imageUrl": null,
+      "localPath": "research/runs/experiment/nationalmuseum-image-repair-final-02/20260801T174609Z-p2.13.17/image-evidence/assets/charles-x-gustav-miniature-nmb-2163.png",
+      "sha256": "8d96ddb5f5707b18385e06746b028c2eeead4a28d9b7a4d44f1c58bb70b1049c",
+      "method": "ai_page_element_capture",
+      "imageRole": "object_view",
+      "candidateId": "page-image-005"
+    }
+  ],
+  "stillUnresolved": [
+    {
+      "workId": "mathsson-reclining-chair-36-nmk-46-2010",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Joshua_Tree_-_Sweet_Band_belay.jpg",
+      "warnings": [
+        "The sole candidate is an unrelated Joshua Tree climbing photograph and is not identity-bound to Reclining Chair No. 36."
+      ]
+    }
+  ],
+  "counts": {
+    "works": 20,
+    "previousAcceptedPreserved": 12,
+    "retried": 8,
+    "newlyAccepted": 7,
+    "directImageDownloads": 3,
+    "elementCaptures": 4,
+    "objectImageAccepted": 19,
+    "contextImagesAccepted": 0,
+    "unresolved": 1,
+    "duplicateObjectImageGroups": [],
+    "modelCalls": 1,
+    "modelTokens": 36976,
+    "webSearchCount": 0
+  },
+  "model": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium",
+    "calls": 1,
+    "durationMs": 39926,
+    "tokens": {
+      "total": 36976,
+      "source": "codex_cli_log"
+    },
+    "webSearchCount": 0
+  },
+  "guarantees": {
+    "acceptedWorksNotRerun": [
+      "elias-martin-view-stockholm-nm-1470",
+      "rubens-three-graces-nm-601",
+      "roslin-lady-with-veil-nm-4098",
+      "goya-truth-time-history-nm-5593",
+      "rembrandt-self-portrait-nm-5324",
+      "fanny-brate-day-of-celebration-nm-1605",
+      "josephson-water-sprite-nm-1905",
+      "julius-kronberg-nymph-and-fauns-nm-1316",
+      "fogelberg-odin-nmsk-392",
+      "rodin-bellona-nmsk-985",
+      "persson-portrait-of-a-pea-nmk-169-1972",
+      "stig-lindberg-bersa-bowl-nmk-60-1996"
+    ],
+    "nonImageStagesRun": [],
+    "imageGenerationModelUsed": false,
+    "parentRunModified": false,
+    "assemblyNetworkAccess": false,
+    "productionModified": false
+  }
+}

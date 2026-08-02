@@ -1,0 +1,34 @@
+{
+  "id": "PCR-2026-08-01-primary-gallery-image-contract",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-01",
+  "ownerInstruction": "修复 Nationalmuseum 错误图片并保证 pipeline 不再验收连续图、细节误图或 cookie overlay。",
+  "baseRelease": "research/pipeline/releases/v2.13.29.json",
+  "targetVersion": "2.13.30",
+  "implementationStatus": "completed",
+  "scope": [
+    "treat thumbnail candidates as page-location hints and capture the official primary gallery image",
+    "dismiss cookie overlays before any page-image capture"
+  ],
+  "outOfScope": [
+    "rerunning non-image stages",
+    "changing museum prose"
+  ],
+  "allowedCanonicalFiles": [
+    "scripts/lib/page-image-capture.mjs",
+    "scripts/retry-failed-image-evidence.mjs",
+    "scripts/repair-invalid-page-captures.mjs"
+  ],
+  "verification": {
+    "status": "passed",
+    "record": "scripts/test-page-image-capture.mjs",
+    "commands": [
+      "node scripts/test-page-image-capture.mjs",
+      "node scripts/test-image-resolution-v2.mjs",
+      "node scripts/verify-content-pipeline.mjs",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

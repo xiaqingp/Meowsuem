@@ -1,0 +1,457 @@
+{
+  "schemaVersion": 1,
+  "museum": {
+    "id": "nationalmuseum",
+    "editorialCapacity": 20,
+    "city": "Stockholm，Sweden",
+    "zh": "瑞典国家博物馆",
+    "en": "Nationalmuseum",
+    "verdict": "70–79 · 可去可不去",
+    "hero": "./assets/nationalmuseum/rembrandt-self-portrait-nm-5324.jpg",
+    "contentFile": "research/content/nationalmuseum.md",
+    "official": "https://collection.nationalmuseum.se/en/",
+    "visit": "https://collection.nationalmuseum.se/en/",
+    "contentUpdatedAt": "2026-08-01",
+    "intro": [
+      "这家馆的独特之处，不只是按年代串起瑞典与欧洲艺术，而是把绘画、雕塑、家具、玻璃、陶瓷、珠宝和微型画放进同一条可步行的收藏叙事：从十七世纪的工作室与材料，到十八世纪的宫廷和城市，再到瑞典国家浪漫主义、北欧家具与当代设计。",
+      "75分，属于“可去可不去”。如果你在斯德哥尔摩有半天，并且对瑞典艺术、北欧设计或艺术与日常生活的交界感兴趣，值得专程安排；若只想看一件世界级不可替代的镇馆之宝，则不必把它列为首要目的地。"
+    ],
+    "routes": {
+      "90": {
+        "title": "90分钟：先看决定值不值得来的节点",
+        "note": "按主馆时间线从十七世纪绘画走到十八世纪，再转入转世纪艺术、雕塑庭院和设计。作品停留之外要留出楼层转换时间；主动跳过两件当前未展出的轮换作品、次要设计比较和完整 Treasury 浏览。",
+        "workIds": [
+          "rembrandt-self-portrait-nm-5324",
+          "goya-truth-time-history-nm-5593",
+          "roslin-lady-with-veil-nm-4098",
+          "pilo-coronation-gustav-iii-nm-1004",
+          "fanny-brate-day-of-celebration-nm-1605",
+          "fogelberg-odin-nmsk-392",
+          "mathsson-reclining-chair-36-nmk-46-2010",
+          "halds-cactus-exhibition-nmk-215-2011"
+        ]
+      },
+      "half": {
+        "title": "半天：看懂艺术与设计如何接成一条线",
+        "note": "以主馆现场可见的 18 件入选作品组成半日主线：先按年代看绘画，再看雕塑庭院，最后安排家具、陶瓷、玻璃和 Treasury。Josephson《水妖》和 Zorn《仲夏舞》当前不作为现场节点；若某件作品临时轮换，按同章其他作品继续，不把路线当作实时导航。",
+        "workIds": [
+          "rembrandt-self-portrait-nm-5324",
+          "rubens-three-graces-nm-601",
+          "goya-truth-time-history-nm-5593",
+          "roslin-lady-with-veil-nm-4098",
+          "pilo-coronation-gustav-iii-nm-1004",
+          "elias-martin-view-stockholm-nm-1470",
+          "julius-kronberg-nymph-and-fauns-nm-1316",
+          "rodin-bellona-nmsk-985",
+          "fogelberg-odin-nmsk-392",
+          "hasselberg-spring-snowflake-nmsk-746",
+          "fanny-brate-day-of-celebration-nm-1605",
+          "persson-portrait-of-a-pea-nmk-169-1972",
+          "stig-lindberg-bersa-bowl-nmk-60-1996",
+          "mathsson-reclining-chair-36-nmk-46-2010",
+          "aalto-paimio-armchair-nmk-13-1963",
+          "ron-arad-rover-chair-nmk-72-2013",
+          "halds-cactus-exhibition-nmk-215-2011",
+          "charles-x-gustav-miniature-nmb-2163"
+        ]
+      },
+      "all": {
+        "title": "完整浏览：分两次把主馆的收藏逻辑走完",
+        "note": "建议至少分两次：第一次完成时间线绘画、雕塑庭院与转世纪节点，第二次专看家具、Design Depot、玻璃和 Treasury。完整结构包含两件当前未展出的馆藏轮换作品，它们是收藏延伸，不是当天可见保证；遇到跨楼层或临时不可见时，以章节顺序和作品价值取舍为准。",
+        "workIds": [
+          "rembrandt-self-portrait-nm-5324",
+          "rubens-three-graces-nm-601",
+          "goya-truth-time-history-nm-5593",
+          "roslin-lady-with-veil-nm-4098",
+          "pilo-coronation-gustav-iii-nm-1004",
+          "elias-martin-view-stockholm-nm-1470",
+          "julius-kronberg-nymph-and-fauns-nm-1316",
+          "rodin-bellona-nmsk-985",
+          "fogelberg-odin-nmsk-392",
+          "hasselberg-spring-snowflake-nmsk-746",
+          "josephson-water-sprite-nm-1905",
+          "zorn-midsummer-dance-nm-1603",
+          "fanny-brate-day-of-celebration-nm-1605",
+          "persson-portrait-of-a-pea-nmk-169-1972",
+          "stig-lindberg-bersa-bowl-nmk-60-1996",
+          "mathsson-reclining-chair-36-nmk-46-2010",
+          "aalto-paimio-armchair-nmk-13-1963",
+          "ron-arad-rover-chair-nmk-72-2013",
+          "halds-cactus-exhibition-nmk-215-2011",
+          "charles-x-gustav-miniature-nmb-2163"
+        ]
+      }
+    },
+    "rareAssets": []
+  },
+  "chapters": [
+    {
+      "id": "ch-01",
+      "number": 1,
+      "title": "十七世纪的画面，为什么也是一场材料与协作实验？",
+      "intro": "先从两件都在十七世纪展厅的作品看：一件把早期伦勃朗的自画像与铜底、金箔底层连在一起；另一件把鲁本斯工作室、Jan Brueghel the Younger 与画面转移史放在同一幅画上。这里的重点不是把名家标签排队，而是看作者、工艺和收藏如何共同形成作品的价值。"
+    },
+    {
+      "id": "ch-02",
+      "number": 2,
+      "title": "十八世纪的权力，怎样在寓言、肖像、仪式与城市中显形？",
+      "intro": "这一段从戈雅的宪政寓言走向罗桑的社交肖像、皮洛的宫廷仪式和 Elias Martin 的斯德哥尔摩景观。连续观看时，城市、服饰、建筑和仪式不只是背景，而是权力如何被看见、被记住和被地方化的方式。"
+    },
+    {
+      "id": "ch-03",
+      "number": 3,
+      "title": "十九世纪的身体，谁在观看，国家又如何塑造神话？",
+      "intro": "大型神话画、纪念性雕塑和沙龙裸体把身体变成叙事与制度的交汇处：Kronberg 的裸体女性被男性 fauns 观看，Rodin 将公共寓言改写为 Bellona，Fogelberg 用古典形式塑造 Odin，而 Hasselberg 让季节寓言落在被观看的女性身体上。"
+    },
+    {
+      "id": "ch-04",
+      "number": 4,
+      "title": "瑞典经验如何进入家庭、节庆与艺术家的自我想象？",
+      "intro": "转世纪的瑞典艺术并不只有宏大民族符号，也有家庭室内、地方节庆和艺术家对民间神话的投射。Brate 的命名日室内和 Zorn 的仲夏舞把社会生活具体化；Josephson 的《水妖》则作为馆藏延伸，提醒我们国家浪漫主义也可能通过孤独的神话形象成立。"
+    },
+    {
+      "id": "ch-05",
+      "number": 5,
+      "title": "一把椅子怎样让身体、技术与国际传播同时可见？",
+      "intro": "从 Mathsson 的层压木曲线、Aalto 的 Paimio 模压木，到 Ron Arad 把汽车座椅和钢管架重新组装，家具不再只是风格样本。它们把身体尺度、材料工艺、功能和设计观念直接落到可观察的结构上，也显示北欧设计如何跨出本地语境。"
+    },
+    {
+      "id": "ch-06",
+      "number": 6,
+      "title": "从日常器物到宝库，设计如何保存社会记忆？",
+      "intro": "最后把视线从家具移到器物与收藏制度：Berså 碗把图案带进日常生活，Persson 的银与木挑战工艺和艺术的分类边界，Hald 的透明雕刻玻璃把观看变成多层深度，Treasury 的微型肖像则把王室记忆压缩到羊皮纸大小。"
+    }
+  ],
+  "routes": {
+    "90": {
+      "title": "90分钟：先看决定值不值得来的节点",
+      "note": "按主馆时间线从十七世纪绘画走到十八世纪，再转入转世纪艺术、雕塑庭院和设计。作品停留之外要留出楼层转换时间；主动跳过两件当前未展出的轮换作品、次要设计比较和完整 Treasury 浏览。",
+      "workIds": [
+        "rembrandt-self-portrait-nm-5324",
+        "goya-truth-time-history-nm-5593",
+        "roslin-lady-with-veil-nm-4098",
+        "pilo-coronation-gustav-iii-nm-1004",
+        "fanny-brate-day-of-celebration-nm-1605",
+        "fogelberg-odin-nmsk-392",
+        "mathsson-reclining-chair-36-nmk-46-2010",
+        "halds-cactus-exhibition-nmk-215-2011"
+      ]
+    },
+    "half": {
+      "title": "半天：看懂艺术与设计如何接成一条线",
+      "note": "以主馆现场可见的 18 件入选作品组成半日主线：先按年代看绘画，再看雕塑庭院，最后安排家具、陶瓷、玻璃和 Treasury。Josephson《水妖》和 Zorn《仲夏舞》当前不作为现场节点；若某件作品临时轮换，按同章其他作品继续，不把路线当作实时导航。",
+      "workIds": [
+        "rembrandt-self-portrait-nm-5324",
+        "rubens-three-graces-nm-601",
+        "goya-truth-time-history-nm-5593",
+        "roslin-lady-with-veil-nm-4098",
+        "pilo-coronation-gustav-iii-nm-1004",
+        "elias-martin-view-stockholm-nm-1470",
+        "julius-kronberg-nymph-and-fauns-nm-1316",
+        "rodin-bellona-nmsk-985",
+        "fogelberg-odin-nmsk-392",
+        "hasselberg-spring-snowflake-nmsk-746",
+        "fanny-brate-day-of-celebration-nm-1605",
+        "persson-portrait-of-a-pea-nmk-169-1972",
+        "stig-lindberg-bersa-bowl-nmk-60-1996",
+        "mathsson-reclining-chair-36-nmk-46-2010",
+        "aalto-paimio-armchair-nmk-13-1963",
+        "ron-arad-rover-chair-nmk-72-2013",
+        "halds-cactus-exhibition-nmk-215-2011",
+        "charles-x-gustav-miniature-nmb-2163"
+      ]
+    },
+    "all": {
+      "title": "完整浏览：分两次把主馆的收藏逻辑走完",
+      "note": "建议至少分两次：第一次完成时间线绘画、雕塑庭院与转世纪节点，第二次专看家具、Design Depot、玻璃和 Treasury。完整结构包含两件当前未展出的馆藏轮换作品，它们是收藏延伸，不是当天可见保证；遇到跨楼层或临时不可见时，以章节顺序和作品价值取舍为准。",
+      "workIds": [
+        "rembrandt-self-portrait-nm-5324",
+        "rubens-three-graces-nm-601",
+        "goya-truth-time-history-nm-5593",
+        "roslin-lady-with-veil-nm-4098",
+        "pilo-coronation-gustav-iii-nm-1004",
+        "elias-martin-view-stockholm-nm-1470",
+        "julius-kronberg-nymph-and-fauns-nm-1316",
+        "rodin-bellona-nmsk-985",
+        "fogelberg-odin-nmsk-392",
+        "hasselberg-spring-snowflake-nmsk-746",
+        "josephson-water-sprite-nm-1905",
+        "zorn-midsummer-dance-nm-1603",
+        "fanny-brate-day-of-celebration-nm-1605",
+        "persson-portrait-of-a-pea-nmk-169-1972",
+        "stig-lindberg-bersa-bowl-nmk-60-1996",
+        "mathsson-reclining-chair-36-nmk-46-2010",
+        "aalto-paimio-armchair-nmk-13-1963",
+        "ron-arad-rover-chair-nmk-72-2013",
+        "halds-cactus-exhibition-nmk-215-2011",
+        "charles-x-gustav-miniature-nmb-2163"
+      ]
+    }
+  },
+  "rating": {
+    "museumId": "nationalmuseum",
+    "score": 75,
+    "scoreBand": "70–79 · 可去可不去",
+    "withinBandAnchor": "73–75",
+    "scoreReason": "锁定证据显示，本馆可用十七至十九世纪欧洲与瑞典绘画、瑞典国家与家庭图像、雕塑庭院以及近现代北欧设计组成一条完整而有鲜明地域优势的参观线；但本次候选中没有任何作品通过稀世珍品的不可替代性硬门，因此不能跨入80档。",
+    "withinBandReason": "多件重要藏品当前有在展证据，绘画、雕塑、玻璃与家具之间也能形成连续路线，足以落在‘值得顺路’区间的上沿；两件瑞典名作当前不在展，且核心作品的全球不可替代性均未获证明，所以不足以进入强调同城高优先级的76–77锚点。",
+    "rareAssets": [],
+    "independentRareLines": [],
+    "dedicatedTrip": false,
+    "worldDominantConcentration": false,
+    "worldDominantConcentrationEvidence": []
+  },
+  "works": [
+    {
+      "id": "rembrandt-self-portrait-nm-5324",
+      "ch": "ch-01",
+      "significance": "重要藏品",
+      "image": "./assets/nationalmuseum/rembrandt-self-portrait-nm-5324.jpg",
+      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Selfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif/lossy-page1-1280px-Selfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif.jpg?_=20161007120243",
+      "imageCaption": "自画像 / Self-Portrait",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/22374/",
+      "localAssetSource": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/assets/rembrandt-self-portrait-nm-5324.jpg",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "rubens-three-graces-nm-601",
+      "ch": "ch-01",
+      "significance": "重要藏品",
+      "image": "./assets/nationalmuseum/rubens-three-graces-nm-601.jpg",
+      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Rubens_The_Three_Graces.JPG",
+      "imageCaption": "三美神与玫瑰花篮 / The Three Graces with a Basket of Roses",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/17604/",
+      "localAssetSource": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/assets/rubens-three-graces-nm-601.jpg",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "goya-truth-time-history-nm-5593",
+      "ch": "ch-02",
+      "significance": "重要藏品",
+      "image": "./assets/nationalmuseum/goya-truth-time-history-nm-5593.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/22643/",
+      "imageCaption": "真理、时间与历史 / Truth, Time and History",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/22643/",
+      "localAssetSource": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/assets/goya-truth-time-history-nm-5593.png",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "roslin-lady-with-veil-nm-4098",
+      "ch": "ch-02",
+      "significance": "重要藏品",
+      "image": "./assets/nationalmuseum/roslin-lady-with-veil-nm-4098.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+      "imageCaption": "戴面纱的女士——艺术家妻子玛丽·苏珊娜·吉鲁斯特 / The Lady with the Veil. The Artist's Wife Marie Suzanne Giroust",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+      "localAssetSource": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/assets/roslin-lady-with-veil-nm-4098.png",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "pilo-coronation-gustav-iii-nm-1004",
+      "ch": "ch-02",
+      "significance": "重要藏品",
+      "image": "./assets/nationalmuseum/pilo-coronation-gustav-iii-nm-1004.jpg",
+      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/The_Coronation_of_King_Gustav_III_of_Sweden._Uncompleted_%28Carl_Gustav_Pilo%29_-_Nationalmuseum_-_18007.tif/lossy-page1-500px-The_Coronation_of_King_Gustav_III_of_Sweden._Uncompleted_%28Carl_Gustav_Pilo%29_-_Nationalmuseum_-_18007.tif.jpg",
+      "imageCaption": "瑞典国王古斯塔夫三世的加冕礼（未完成） / The Coronation of King Gustav III of Sweden. Uncompleted",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/18007/",
+      "localAssetSource": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/assets/pilo-coronation-gustav-iii-nm-1004.jpg",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "elias-martin-view-stockholm-nm-1470",
+      "ch": "ch-02",
+      "significance": "特色看点",
+      "image": "./assets/nationalmuseum/elias-martin-view-stockholm-nm-1470.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/18473/",
+      "imageCaption": "斯德哥尔摩景色 / View of Stockholm",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/18473/",
+      "localAssetSource": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/assets/elias-martin-view-stockholm-nm-1470.png",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "julius-kronberg-nymph-and-fauns-nm-1316",
+      "ch": "ch-03",
+      "significance": "重要藏品",
+      "image": "./assets/nationalmuseum/julius-kronberg-nymph-and-fauns-nm-1316.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/18319/",
+      "imageCaption": "仙女与法翁 / Nymph and Fauns",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/18319/",
+      "localAssetSource": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/assets/julius-kronberg-nymph-and-fauns-nm-1316.png",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "rodin-bellona-nmsk-985",
+      "ch": "ch-03",
+      "significance": "重要藏品",
+      "image": "./assets/nationalmuseum/rodin-bellona-nmsk-985.webp",
+      "imageSource": "https://svd.vgc.no/v2/images/f108ebca-bfdc-42c9-b77b-425d14c8388e?fit=crop&format=auto&h=551&q=80&s=b596b67f640cdefc6af533e0a54cc9aef1573647&upscale=true&w=980",
+      "imageCaption": "贝罗娜 / Bellona",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/27289/",
+      "localAssetSource": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/assets/rodin-bellona-nmsk-985.webp",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "fogelberg-odin-nmsk-392",
+      "ch": "ch-03",
+      "significance": "重要藏品",
+      "image": "./assets/nationalmuseum/fogelberg-odin-nmsk-392.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/26781/",
+      "imageCaption": "奥丁 / Odin",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/26781/",
+      "localAssetSource": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/assets/fogelberg-odin-nmsk-392.png",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "hasselberg-spring-snowflake-nmsk-746",
+      "ch": "ch-03",
+      "significance": "重要藏品",
+      "image": "./assets/nationalmuseum/hasselberg-spring-snowflake-nmsk-746.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/27068/",
+      "imageCaption": "春雪花 / The Spring Snowflake",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/27068/",
+      "localAssetSource": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/assets/hasselberg-spring-snowflake-nmsk-746.png",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "josephson-water-sprite-nm-1905",
+      "ch": "ch-04",
+      "significance": "重要藏品",
+      "image": "./assets/nationalmuseum/josephson-water-sprite-nm-1905.jpg",
+      "imageSource": "https://www.album-online.com/photos/prev/MWE2ZTZjMA/album_alb3902651.jpg",
+      "imageCaption": "水妖 / The Water Sprite",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/18910/",
+      "localAssetSource": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/assets/josephson-water-sprite-nm-1905.jpg",
+      "imageKind": "object",
+      "availabilityTag": "不确定是否展出"
+    },
+    {
+      "id": "zorn-midsummer-dance-nm-1603",
+      "ch": "ch-04",
+      "significance": "重要藏品",
+      "image": "./assets/nationalmuseum/zorn-midsummer-dance-nm-1603.jpg",
+      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Midsummer_Dance_%28Anders_Zorn%29_-_Nationalmuseum_-_18607.tif/lossy-page1-960px-Midsummer_Dance_%28Anders_Zorn%29_-_Nationalmuseum_-_18607.tif.jpg?_=20161007102019",
+      "imageCaption": "仲夏舞 / Midsummer Dance",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/18607/",
+      "localAssetSource": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/assets/zorn-midsummer-dance-nm-1603.jpg",
+      "imageKind": "object",
+      "availabilityTag": "不确定是否展出"
+    },
+    {
+      "id": "fanny-brate-day-of-celebration-nm-1605",
+      "ch": "ch-04",
+      "significance": "重要藏品",
+      "image": "./assets/nationalmuseum/fanny-brate-day-of-celebration-nm-1605.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/18609/",
+      "imageCaption": "庆祝日 / A Day of Celebration",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/18609/",
+      "localAssetSource": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/assets/fanny-brate-day-of-celebration-nm-1605.png",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "persson-portrait-of-a-pea-nmk-169-1972",
+      "ch": "ch-06",
+      "significance": "重要藏品",
+      "image": "./assets/nationalmuseum/persson-portrait-of-a-pea-nmk-169-1972.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/8717/",
+      "imageCaption": "豌豆肖像雕塑 / Sculpture Portrait of a Pea",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/8717/",
+      "localAssetSource": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/assets/persson-portrait-of-a-pea-nmk-169-1972.png",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "stig-lindberg-bersa-bowl-nmk-60-1996",
+      "ch": "ch-06",
+      "significance": "重要藏品",
+      "image": "./assets/nationalmuseum/stig-lindberg-bersa-bowl-nmk-60-1996.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/136848/",
+      "imageCaption": "Berså碗，LL型号 / Bowl Berså, model LL",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/136848/",
+      "localAssetSource": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/assets/stig-lindberg-bersa-bowl-nmk-60-1996.png",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "mathsson-reclining-chair-36-nmk-46-2010",
+      "ch": "ch-05",
+      "significance": "重要藏品",
+      "image": "./assets/nationalmuseum/mathsson-reclining-chair-36-nmk-46-2010.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/134846/",
+      "imageCaption": "36号躺椅 / Reclining Chair No. 36",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/134846/",
+      "localAssetSource": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/assets/mathsson-reclining-chair-36-nmk-46-2010.png",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "aalto-paimio-armchair-nmk-13-1963",
+      "ch": "ch-05",
+      "significance": "重要藏品",
+      "image": "./assets/nationalmuseum/aalto-paimio-armchair-nmk-13-1963.jpg",
+      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Armchair_41_%E2%80%9CPaimio%E2%80%9C_designed_by_Alvar_Aalto_%281932%29.jpg/1920px-Armchair_41_%E2%80%9CPaimio%E2%80%9C_designed_by_Alvar_Aalto_%281932%29.jpg",
+      "imageCaption": "帕伊米奥疗养院扶手椅 / Armchair Paimio Sanatorium",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/920/",
+      "localAssetSource": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/assets/aalto-paimio-armchair-nmk-13-1963.jpg",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "ron-arad-rover-chair-nmk-72-2013",
+      "ch": "ch-05",
+      "significance": "重要藏品",
+      "image": "./assets/nationalmuseum/ron-arad-rover-chair-nmk-72-2013.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/151064/",
+      "imageCaption": "Rover Chair休闲椅 / Easy Chair Rover Chair",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/151064/",
+      "localAssetSource": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/assets/ron-arad-rover-chair-nmk-72-2013.png",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "halds-cactus-exhibition-nmk-215-2011",
+      "ch": "ch-06",
+      "significance": "重要藏品",
+      "image": "./assets/nationalmuseum/halds-cactus-exhibition-nmk-215-2011.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/137663/",
+      "imageCaption": "仙人掌展览 / The Cactus Exhibition",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/137663/",
+      "localAssetSource": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/assets/halds-cactus-exhibition-nmk-215-2011.png",
+      "imageKind": "object",
+      "availabilityTag": ""
+    },
+    {
+      "id": "charles-x-gustav-miniature-nmb-2163",
+      "ch": "ch-06",
+      "significance": "特色看点",
+      "image": "./assets/nationalmuseum/charles-x-gustav-miniature-nmb-2163.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/26105/",
+      "imageCaption": "瑞典国王卡尔十世·古斯塔夫（1622–1660） / Charles X Gustav of Sweden (1622–1660)",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/26105/",
+      "localAssetSource": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/assets/charles-x-gustav-miniature-nmb-2163.png",
+      "imageKind": "object",
+      "availabilityTag": ""
+    }
+  ],
+  "integration": {
+    "coordinates": [
+      59.32848,
+      18.07818
+    ]
+  },
+  "publication": {
+    "dataFile": "nationalmuseum.js",
+    "cacheKey": "nationalmuseum-p2-13-26",
+    "cachePages": []
+  }
+}

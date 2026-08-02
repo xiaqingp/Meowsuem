@@ -1,0 +1,39 @@
+{
+    "runId":  "20260801T223003Z-p2.13.34",
+    "stage":  "image_disambiguation",
+    "museumId":  "rosenborg",
+    "caseId":  "",
+    "workId":  "",
+    "pipelineVersion":  "2.13.35",
+    "instructionVersion":  "2.4.2",
+    "model":  "gpt-5.6-luna",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-08-01T16:14:07.2369166-07:00",
+    "modelStartedAt":  "2026-08-01T16:14:07.4850525-07:00",
+    "modelCompletedAt":  "2026-08-01T16:15:12.2713430-07:00",
+    "completedAt":  "2026-08-01T16:15:12.3212128-07:00",
+    "runnerDurationMs":  65084,
+    "modelDurationMs":  64786,
+    "tokenUsage":  {
+                       "total":  76949,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+
+                                ],
+    "logPath":  "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/model-runs/batch-02-68c1db22896c/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/model-runs/batch-02-68c1db22896c/image-research-packet.json",
+                       "role":  "image_candidate_packet",
+                       "sha256":  "ebed76e4b4b54547070e1399ab3525ff79b9378744318c7f99afd9e7caad7a3d"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "image-decisions.json",
+                        "sha256":  "b8d5294bde22dd49a86cc583c471242753e3bf70e46ef365c9b4e1e3b69be6fa",
+                        "bytes":  3663
+                    }
+                ]
+}

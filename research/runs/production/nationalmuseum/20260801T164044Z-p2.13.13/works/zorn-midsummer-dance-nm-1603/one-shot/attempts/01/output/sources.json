@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "zorn-midsummer-dance-nm-1603",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Midsummer Dance",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/18607/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "dimensions",
+        "accessionNumber",
+        "collectionRelation",
+        "acquisition",
+        "availability",
+        "artist_intent",
+        "context"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Anders Zorn (1860–1920)",
+      "publisher": "Zornmuseet",
+      "url": "https://zorn.se/en/about-us/anders-zorn/",
+      "sourceType": "museum",
+      "usedFor": [
+        "artist_biography",
+        "context",
+        "move_to_mora",
+        "folk_life"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "佐恩在自传笔记中将本作与仲夏夜升起五月柱后持续到日出的舞蹈联系起来；国家博物馆据此说明作品的重点在舞蹈体验、夏夜气味与光线，而非五月柱本身。",
+      "type": "artist_intent",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "人物身份",
+      "statement": "对象页没有逐一说明画中舞者和围观者的姓名或人物关系，本文仅按可见的群舞场景进行描述。"
+    }
+  ],
+  "upstreamConflicts": []
+}

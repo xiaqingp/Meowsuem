@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "brilliant-cut-diamond-set",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Brillant-Cut Diamond Set",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-brillant-cut-diamond-set/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "components",
+        "provenance",
+        "currentStatus",
+        "broochTechnique",
+        "earringConstruction"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Jewellery",
+      "publisher": "The Royal House of Denmark",
+      "url": "https://www.kongehuset.dk/en/royal-collections/jewellery/",
+      "sourceType": "museum",
+      "usedFor": [
+        "crownJewelsStatus",
+        "collectionRelation",
+        "currentStatus",
+        "museumDisplay"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "The Treasury's 3rd section (room I)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-i-the-treasury/",
+      "sourceType": "museum",
+      "usedFor": [
+        "accessionNumber",
+        "maker",
+        "date",
+        "components",
+        "provenance"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "The rose-cut diamond tiara",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-tiara/",
+      "sourceType": "museum",
+      "usedFor": [
+        "diamondCutContext"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "项链中的一颗大明亮式切割钻石据称曾是索菲·玛格达伦在1721年婚礼上送给克里斯蒂安王储（后来的克里斯蒂安六世）的戒指上的宝石。",
+      "type": "attribution",
+      "sourceIds": [
+        "S1",
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "1721年钻石来源",
+      "statement": "官方资料使用了“据称”“据报道”等谨慎措辞，因此该钻石与1721年婚戒的关联应视为传承说法，而非完全确定的宝石鉴定结论。"
+    },
+    {
+      "topic": "当前展出状态",
+      "statement": "王冠珠宝在不使用时于罗森堡城堡地下宝库展示，但其实际展出情况会随展览轮换及王室使用而变化。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "creator",
+      "lockedValue": "丹麦王室 / Danish royal collection",
+      "observedValue": "C.M. Weisshaupt（官方宝库条目所列制作人）",
+      "sourceIds": [
+        "S3"
+      ],
+      "severity": "warning",
+      "explanation": "锁定 metadata 的 artist 更像是王室收藏或展示归属；官方宝库条目另列 C.M. Weisshaupt 为1840年的制作人。两者属于收藏归属与制作人角色的区别，不改变作品身份、选择或发布判断。"
+    }
+  ]
+}

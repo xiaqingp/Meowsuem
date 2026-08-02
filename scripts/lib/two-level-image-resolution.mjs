@@ -61,17 +61,27 @@ export function isGenericContextImage(image) {
     .test(`${image.url ?? ""} ${image.alt ?? ""} ${image.caption ?? ""} ${image.nearbyText ?? ""}`);
 }
 
+export const officialObjectOgTitleMatch = (identity, pageTitle, image) => {
+  const title = normalize(identity.titleEn || identity.titleZh || identity.title);
+  return Boolean(image.officialOgImage && title && normalize(pageTitle).includes(title));
+};
+
 export function acceptFastCandidate(identity, page, image) {
   const pageSignals = pageIdentitySignals(identity, page);
   const imageSignals = imageIdentitySignals(identity, image);
   const context = isGenericContextImage(image);
-  const pageHighConfidence = pageSignals.some(signal => [
+  const exactOfficialOg = officialObjectOgTitleMatch(identity, page.title, image);
+  if (exactOfficialOg) {
+    pageSignals.push("official_object_page_title_match");
+    imageSignals.push("official_object_page_og_relation");
+  }
+  const pageHighConfidence = exactOfficialOg || pageSignals.some(signal => [
     "accession_number_match",
     "page_title_and_artist_match",
     "jsonld_title_and_artist_match",
     "explicit_record_title_and_artist_match",
   ].includes(signal));
-  const imageHighConfidence = imageSignals.some(signal => [
+  const imageHighConfidence = exactOfficialOg || imageSignals.some(signal => [
     "jsonld_object_relation",
     "iiif_manifest_relation",
     "figure_caption_relation",

@@ -1,0 +1,38 @@
+{
+  "id": "PCR-2026-08-01-stage-bounded-continuation",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-01",
+  "ownerInstruction": "只修复图片生成阶段，不需要重跑整个 pipeline；如果必须重跑，先停下来征得批准。",
+  "baseRelease": "research/pipeline/releases/v2.13.14.json",
+  "targetVersion": "2.13.15",
+  "implementationStatus": "completed",
+  "scope": [
+    "allow an explicit patched continuation on an existing writable run",
+    "record source version, target version and continuation stage in run.json",
+    "reuse every completed stage before the continuation boundary",
+    "stop for owner approval when an upstream stage output is missing"
+  ],
+  "outOfScope": [
+    "automatic full-pipeline regeneration",
+    "continuation across content instruction versions",
+    "mutating immutable accepted or published runs"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/lib/filesystem-contract.mjs",
+    "scripts/run-museum-pipeline.mjs"
+  ],
+  "verification": {
+    "status": "passed",
+    "record": "scripts/test-experiment-orchestrator.mjs",
+    "commands": [
+      "node scripts/test-filesystem-contract.mjs",
+      "node scripts/test-experiment-orchestrator.mjs",
+      "node scripts/test-image-resolution-v2.mjs",
+      "node scripts/verify-content-pipeline.mjs",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

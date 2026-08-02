@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "rodin-bellona-nmsk-985",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Bellona",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/27289/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "making_process",
+        "collection_relation",
+        "availability",
+        "artist_intent"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Bellone",
+      "publisher": "Musée Rodin",
+      "url": "https://collections.musee-rodin.fr/fr/document/bellone/6385d6c505c32181005cc157",
+      "sourceType": "museum",
+      "usedFor": [
+        "creator",
+        "date",
+        "sculptural_context"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Lost-wax bronze casting",
+      "publisher": "Musée Rodin",
+      "url": "https://www.musee-rodin.fr/en/resources/techniques/lost-wax-bronze-casting",
+      "sourceType": "museum",
+      "usedFor": [
+        "making_process"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "作品最初是为象征1870年拿破仑三世倒台后建立的法国新共和国而构想，罗丹于1879年将第一版参加巴黎某区新市政厅装饰竞赛，未获选后继续修改并改题为《贝罗娜》。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "罗丹以罗斯·贝勒为模特，并据馆方转述，将她表现为一次怒气爆发中的样子。",
+      "type": "artist_intent",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "具体铸造方法",
+      "statement": "国家博物馆确认该件作品为铸造、上色的青铜，但未说明具体采用失蜡铸造还是砂型铸造；文章仅介绍罗丹青铜制作的一般流程，没有将某一种方法断定为本件作品所用。"
+    }
+  ],
+  "upstreamConflicts": []
+}

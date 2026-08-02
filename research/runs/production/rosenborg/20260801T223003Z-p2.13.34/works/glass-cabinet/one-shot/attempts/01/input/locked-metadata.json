@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "glass-cabinet",
+  "objectType": "architectural_viewing_node",
+  "titleZh": "玻璃柜（22号房）",
+  "titleEn": "The Glass Cabinet (room 22)",
+  "displayBy": "丹麦王室建筑与历史室内 / Danish royal historic interior",
+  "artistZh": "丹麦王室建筑与历史室内",
+  "artistEn": "Danish royal historic interior",
+  "displayDate": "弗雷德里克四世时期收藏线",
+  "medium": "历史陈列室与玻璃器收藏",
+  "identityAnchor": "rosenborg-room-22",
+  "museumName": "Rosenborg Castle",
+  "officialObjectUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-22-the-glass-cabinet/",
+  "significance": "重要藏品",
+  "priority": "绝对不可错过",
+  "availability": "confirmed_on_view",
+  "sectionId": "collection-as-lived-institution",
+  "stay": "8—10分钟",
+  "routeRole": [
+    "half-core",
+    "all-core",
+    "site-anchor",
+    "collection-history"
+  ],
+  "imagePolicy": "context_image",
+  "verifiedImageUrl": "https://denkongeligesamling.dk/media/l4cbibny/rosenborg_room22_01_web.jpg?width=1920&height=1080&v=1dba549c97957d0",
+  "verifiedImageLocalPath": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/glass-cabinet.webp",
+  "verifiedImageSha256": "dfbbbb23e94876d3e53a4ee66755c9bb45aaba87425cd1d5cc2f7f90c5ea5d1b",
+  "imageEvidencePath": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/verified-image-evidence.json"
+}

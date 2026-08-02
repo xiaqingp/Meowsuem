@@ -5,6 +5,7 @@ import {
   assertPathInside,
   assertWritableRun,
   findRunRoot,
+  isRunPipelineVersionAllowed,
   loadManifest,
   projectRelative,
   readAndValidateRunDescriptor,
@@ -45,7 +46,7 @@ export async function validateRunDirectory({ projectRoot, runDirectory, mode = "
     if (
       header.runId !== descriptor.runId ||
       headerIdentity !== descriptorIdentity ||
-      header.pipelineVersion !== descriptor.pipelineVersion
+      !isRunPipelineVersionAllowed(header.pipelineVersion, descriptor)
     ) {
       throw new Error("Filesystem contract violation: run-header identity does not match run.json");
     }

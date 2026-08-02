@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "status": "accepted",
+  "runId": "20260801T223003Z-p2.13.34",
+  "museumId": "rosenborg",
+  "workId": "rose-cut-diamond-set",
+  "stage": "single_work",
+  "attempt": 2,
+  "model": "gpt-5.6-luna",
+  "reasoningEffort": "high",
+  "startedAt": "2026-08-02T00:01:45.473Z",
+  "completedAt": "2026-08-02T00:03:14.938Z",
+  "durationMs": 89465,
+  "inputTokens": 135954,
+  "cachedInputTokens": 92160,
+  "reasoningTokens": 1648,
+  "outputTokens": 4198,
+  "totalTokens": 140152,
+  "agentRunCount": 1,
+  "modelRoundCount": 1,
+  "webSearchCount": 4,
+  "webOpenCount": 0
+}

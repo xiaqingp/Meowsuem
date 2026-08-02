@@ -27,6 +27,15 @@ const valid = {
   legacyMuseumIds: [],
 };
 assert.deepEqual(validateFutureMuseumContract(valid), []);
+const quotedSlug = {
+  ...valid,
+  input: {...baseInput, museum: {id: "future-test"}, publication: {dataFile: "future-test.js"}},
+  dataSource: 'museumData["future-test"] = {works: []};',
+  indexHtml: '<script src="./museums.js"></script><script src="./future-test.js"></script><script>const museumLocations={"future-test":[1,2]};const order=["future-test"];</script>',
+  museumHtml: '<script src="./museums.js"></script><script src="./future-test.js"></script><script src="./routes.js"></script>',
+  publication: {...basePublication, files: basePublication.files.map(file => ({destination: file.destination.replaceAll("futuretest", "future-test")}))},
+};
+assert.deepEqual(validateFutureMuseumContract(quotedSlug), []);
 for (const [name, fixture, expected] of [
   ["binding", { ...valid, input: { ...baseInput, binding: "const" } }, "binding configuration is forbidden"],
   [

@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "stig-lindberg-bersa-bowl-nmk-60-1996",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Bowl “Berså”, model LL",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/136848/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "manufacturer",
+        "technique",
+        "dimensions",
+        "accessionNumber",
+        "collectionRelation",
+        "availability"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "bowl, 2000,1107.10",
+      "publisher": "The British Museum",
+      "url": "https://www.britishmuseum.org/collection/object/H_2000-1107-10",
+      "sourceType": "museum",
+      "usedFor": [
+        "seriesTechnique",
+        "comparativeMaterial",
+        "comparativeProductionDate"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Stig Lindberg",
+      "publisher": "Store norske leksikon",
+      "url": "https://snl.no/Stig_Lindberg",
+      "sourceType": "publication",
+      "usedFor": [
+        "artistBiography",
+        "GustavsbergCareer",
+        "designContext",
+        "BersaSeries"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "The joyful world of Stig Lindberg",
+      "publisher": "Gustavsbergs porslinsmuseum",
+      "url": "https://gustavsbergsporslinsmuseum.se/en/what-to-see-and-do/the-joyful-world-of-stig-lindberg",
+      "sourceType": "museum",
+      "usedFor": [
+        "artistBiography",
+        "GustavsbergCareer",
+        "designRange",
+        "BersaContext"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "specificPrintingProcess",
+      "statement": "Nationalmuseum对象页只记录为printed decor；关于釉下印刷的更具体描述来自大英博物馆收藏的另一件Berså同系列碗，因此文章将其作为系列工艺参照，而非把该细节绝对化为本件的完整技术报告。"
+    }
+  ],
+  "upstreamConflicts": []
+}

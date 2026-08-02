@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "museumId": "nationalmuseum",
+  "works": [
+    {
+      "workId": "dahlstrom-superstructure-easy-chair-nmk1-2003",
+      "identityStatus": "stable",
+      "availability": "confirmed_on_display",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "21世纪瑞典家具设计中的图形化、雕塑性座椅案例：馆方对象页确认其由Björn Dahlström于2003年设计，采用黑色染色橡木，并描述为由宽环形与L形结构共同承托榫钉的形式。",
+      "selectionSignals": [
+        "以明确的当代设计对象补足主馆从历史设计收藏延伸至当代的时间线。",
+        "官方页将其归入座椅家具、应用艺术与设计及家具收藏，身份与材质明确。"
+      ],
+      "sectionSignals": [
+        "1965年至今的当代设计",
+        "家具结构与雕塑性形式"
+      ],
+      "routeSignals": [
+        "主馆Room 1406；适合放入现代至当代设计路线的末端或当代段落。"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/98950/"
+      ]
+    },
+    {
+      "workId": "edward-hald-glass-nmk34-1983",
+      "identityStatus": "stable",
+      "availability": "confirmed_on_display",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "瑞典20世纪玻璃工艺与工业设计交汇的具体器物：馆方对象页确认Edward Hald设计、Orrefors玻璃厂制造，1925年制成，材质为刻花水晶玻璃。",
+      "selectionSignals": [
+        "以可核对的设计师—制造商关系代表主馆的瑞典玻璃与应用艺术收藏。",
+        "刻花技术和水晶玻璃材质提供区别于绘画与家具的工艺线索。"
+      ],
+      "sectionSignals": [
+        "1920至1965年的瑞典设计",
+        "玻璃材质、刻花与工业生产"
+      ],
+      "routeSignals": [
+        "主馆Room 1412；适合纳入20世纪设计与玻璃工艺路线。"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/2368/"
+      ]
+    },
+    {
+      "workId": "carl-horvik-dining-chair-nmk31-1988",
+      "identityStatus": "stable",
+      "availability": "confirmed_on_display",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "1923年斯德哥尔摩室内设计语境中的家具实例：馆方对象页确认Carl Hörvik设计并制作，属于为建筑师Carl Åkerblom设计的餐厅家具组，结合染色、雕刻和镶嵌桦木与藤编。",
+      "selectionSignals": [
+        "把20世纪家具放回建筑师住宅／餐厅成组设计的语境，补足单件家具之外的室内设计线索。",
+        "材料与工艺组合明确，且官方页确认产地为斯德哥尔摩。",
+        "官方对象页标题与标签中的建筑师姓名存在Åkerblom／Åkerblad变体；藏品编号、设计者、年代和材质稳定，但姓名需在深层研究中复核。"
+      ],
+      "sectionSignals": [
+        "1920至1965年的瑞典室内设计",
+        "家具、建筑师委托与成组空间"
+      ],
+      "routeSignals": [
+        "主馆Room 1412；适合与同时期玻璃和其他室内设计对象并置阅读。"
+      ],
+      "riskFlags": [
+        "identity_conflict"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/2178/"
+      ]
+    },
+    {
+      "workId": "rococo-splat-back-chair-nmk112-2006",
+      "identityStatus": "stable",
+      "availability": "confirmed_on_display",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "瑞典18世纪洛可可室内中常见椅型的材料与结构样本：馆方对象页确认其作者未知、约1750–1775年制作，使用雕饰桤木与黑色皮革，并说明开放式靠背、中央背板、旋木H形横撑和钥匙孔式靠背是其类型特征。",
+      "selectionSignals": [
+        "以地方性室内类型说明瑞典宫殿与庄园家具收藏，而非依赖作者名气或稀有度。",
+        "官方对象页明确将该椅型置于瑞典洛可可室内，并提供可用于比较同类家具的结构特征。"
+      ],
+      "sectionSignals": [
+        "18世纪瑞典洛可可",
+        "宫殿与庄园室内、椅型结构"
+      ],
+      "routeSignals": [
+        "主馆Room 1607；适合18世纪室内与家具路线，作为后续设计演变的早期节点。"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/129187/"
+      ]
+    }
+  ]
+}

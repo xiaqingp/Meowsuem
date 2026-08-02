@@ -1,0 +1,1315 @@
+{
+  "schemaVersion": 2,
+  "stage": "official_page_plan",
+  "resolverTier": 2,
+  "museumId": "nationalmuseum",
+  "parentEvidencePath": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/verified-image-evidence.json",
+  "parentEvidenceSha256": "7f74a5c7c3f08b114cea21cc6fa7c38bf398aef8acd1519209f2a53901386f7d",
+  "works": [
+    {
+      "workId": "elias-martin-view-stockholm-nm-1470",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "elias-martin-view-stockholm-nm-1470",
+        "title": "View of Stockholm",
+        "objectType": "painting",
+        "titleZh": "",
+        "titleEn": "View of Stockholm",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "not dated in object record",
+        "medium": "Oil on canvas",
+        "identityAnchor": "NM 1470",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/18473/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/18473/",
+        "accessionNumber": "NM 1470",
+        "collectionGroup": "Paintings"
+      },
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18473/",
+      "page": {
+        "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18473/",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/18473/",
+        "pageTitle": "View of Stockholm | Nationalmuseum",
+        "bodyText": "This website uses cookies\nWe use device identifiers to adapt the content of the site and analyse how it is used. We also forward these identifiers and other information from your device to the social media and the advertising and analysis companies that we collaborate with.  \nConsent Selection\nNecessary\nPreferences\nStatistics\nMarketing and videos\nShow details\nAllow all\nAllow selection\nDeny\nEN\nHome\nObjects\nPersons\nMy Collection\nFoto: Nationalmuseum, Public Domain\nFoto: Nationalmuseum, Public Domain\nPublic Domain\nFoto: Nationalmuseum, Public Domain\nFoto: Nationalmuseum, Public Domain\nOn display\nWikimedia Commons\nAdd to my collection\nCopy bookmarkable link\nView of Stockholm\nElias Martin (1739 - 1818)\n\nArtist/Maker\nArtist: Elias Martin (1739 - 1818)\n\nMaterial / Technique\nOil on canvas\n\nDimensions\nh x w: Mått 47 x 76 cm\nh x w x d: Ram 63 x 89 x 5 cm\n\nInventory number\nNM 1470\n\nOther titles\nTitle (sv): Utsikt över Stockholm\nTitle (en): View of Stockholm\n\nDescription\nDescription: After a period drawing the fortifications at Sveaborg for Field Marshal Augustin Ehrensvärd, Elias Martin travelled to Paris. On Alexander Roslin’s recommendation, he was accepted into the French Academy of Fine Arts in 1766. Martin was a student of Joseph Vernet and painted cityscapes and landscapes, called vedute, in the same style as his teacher. They often have a low horizon and dramatic shifts in colour and light, as in this view of Stockholm.\n\nExhibited\nNationalmuseum -> Room 1608 18th century\n\nDepicted place\nStockholm Palace (Sweden, Stockholm County, Stockholm)\n\nCollection\nPaintings (Paintings)\n\nMaterial\nDuk, Oil paint\n\nTechnique\nPainting\n\nKeyword\nStadsbild\n\nExternal links\nWikidata: http://www.wikidata.org/entity/Q18574165\n\nContact information\nTel: 08-519 543 00\nE-Mail: info@nationalmuseum.se\nContact us\nMore information\nAbout the collection\nImages and copyrights\nHow to use the online collection\nFollow us\nAbout Nationalmuseum\nOpening Hours\nExhibitions\nFree Images On Wikimedia",
+        "candidateCount": 24
+      },
+      "candidates": [
+        {
+          "candidateId": "page-image-001",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/4/multimedia-179664.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > img",
+          "alt": "",
+          "nearbyText": "Foto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkView of StockholmElias Martin (1739 - 1818)Artist/MakerArtist: Elias Martin (1739 - 1818)Material / TechniqueOil on canvasDimensionsh x w: Mått 47 x 76 cm\nh x w x d: Ram 63 x 89 x 5 cmInventory numberNM 1470Other titlesTitle (sv): Utsikt över Stockholm\nTitle (en): View of StockholmDescriptionDescription: After a period drawing the fortifications at Sveaborg for Field Marshal Augustin Ehrensvärd, Elias Martin travelled to Paris. On Alexander Roslin’s recommendation, he was accepted into the French Academy of Fine Arts in 1766. Martin was a student of Joseph Vernet and pain",
+          "visible": true,
+          "boundingBox": {
+            "x": 488,
+            "y": 862,
+            "width": 161,
+            "height": 100
+          },
+          "naturalWidth": 280,
+          "naturalHeight": 174,
+          "elementKind": "img",
+          "elementIndex": 12,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18473/",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-002",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/3/multimedia-7623.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > img",
+          "alt": "",
+          "nearbyText": "Foto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkView of StockholmElias Martin (1739 - 1818)Artist/MakerArtist: Elias Martin (1739 - 1818)Material / TechniqueOil on canvasDimensionsh x w: Mått 47 x 76 cm\nh x w x d: Ram 63 x 89 x 5 cmInventory numberNM 1470Other titlesTitle (sv): Utsikt över Stockholm\nTitle (en): View of StockholmDescriptionDescription: After a period drawing the fortifications at Sveaborg for Field Marshal Augustin Ehrensvärd, Elias Martin travelled to Paris. On Alexander Roslin’s recommendation, he was accepted into the French Academy of Fine Arts in 1766. Martin was a student of Joseph Vernet and pain",
+          "visible": true,
+          "boundingBox": {
+            "x": 659,
+            "y": 866,
+            "width": 148,
+            "height": 92
+          },
+          "naturalWidth": 280,
+          "naturalHeight": 174,
+          "elementKind": "img",
+          "elementIndex": 13,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18473/",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-003",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/0/multimedia-975100.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > img",
+          "alt": "",
+          "nearbyText": "Foto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkView of StockholmElias Martin (1739 - 1818)Artist/MakerArtist: Elias Martin (1739 - 1818)Material / TechniqueOil on canvasDimensionsh x w: Mått 47 x 76 cm\nh x w x d: Ram 63 x 89 x 5 cmInventory numberNM 1470Other titlesTitle (sv): Utsikt över Stockholm\nTitle (en): View of StockholmDescriptionDescription: After a period drawing the fortifications at Sveaborg for Field Marshal Augustin Ehrensvärd, Elias Martin travelled to Paris. On Alexander Roslin’s recommendation, he was accepted into the French Academy of Fine Arts in 1766. Martin was a student of Joseph Vernet and pain",
+          "visible": true,
+          "boundingBox": {
+            "x": 817,
+            "y": 866,
+            "width": 148,
+            "height": 92
+          },
+          "naturalWidth": 280,
+          "naturalHeight": 174,
+          "elementKind": "img",
+          "elementIndex": 14,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18473/",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-004",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/wikimedia.png",
+          "selector": "div > div > article > section:nth-of-type(1) > div > div:nth-of-type(2) > a > img",
+          "alt": "",
+          "nearbyText": "On displayWikimedia CommonsAdd to my collectionCopy bookmarkable link",
+          "visible": true,
+          "boundingBox": {
+            "x": 806,
+            "y": 1038,
+            "width": 18,
+            "height": 24
+          },
+          "naturalWidth": 1024,
+          "naturalHeight": 1376,
+          "elementKind": "img",
+          "elementIndex": 15,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18473/",
+          "identityScore": 20
+        },
+        {
+          "candidateId": "page-image-005",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/4/multimedia-179664.large.jpg",
+          "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > figure > div > img",
+          "alt": "",
+          "nearbyText": "",
+          "visible": true,
+          "boundingBox": {
+            "x": 20,
+            "y": 180,
+            "width": 1400,
+            "height": 637
+          },
+          "naturalWidth": 1159,
+          "naturalHeight": 720,
+          "elementKind": "img",
+          "elementIndex": 6,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18473/",
+          "identityScore": 20
+        }
+      ]
+    },
+    {
+      "workId": "roslin-lady-with-veil-nm-4098",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "roslin-lady-with-veil-nm-4098",
+        "title": "The Lady with the Veil. The Artist's Wife Marie Suzanne Giroust",
+        "objectType": "painting",
+        "titleZh": "",
+        "titleEn": "The Lady with the Veil. The Artist's Wife Marie Suzanne Giroust",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "signed 1768",
+        "medium": "Oil on canvas",
+        "identityAnchor": "NM 4098",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+        "accessionNumber": "NM 4098",
+        "collectionGroup": "Paintings"
+      },
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+      "page": {
+        "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+        "pageTitle": "The Lady with the Veil. The Artist's Wife Marie Suzanne Giroust | Nationalmuseum",
+        "bodyText": "This website uses cookies\nWe use device identifiers to adapt the content of the site and analyse how it is used. We also forward these identifiers and other information from your device to the social media and the advertising and analysis companies that we collaborate with.  \nConsent Selection\nNecessary\nPreferences\nStatistics\nMarketing and videos\nShow details\nAllow all\nAllow selection\nDeny\nEN\nHome\nObjects\nPersons\nMy Collection\nFoto: Nationalmuseum, Public Domain\nFoto: Linn Ahlgren / Nationalmuseum, Public Domain\nPublic Domain\nFoto: Nationalmuseum, Public Domain\nFoto: Nationalmuseum, Public Domain\nFoto: Linn Ahlgren / Nationalmuseum, Public Domain\nFoto: Linn Ahlgren / Nationalmuseum, Public Domain\nFoto: Nationalmuseum, Public Domain\nFoto: Linn Ahlgren / Nationalmuseum, Public Domain\nFoto: Nationalmuseum, Public Domain\nFoto: Linn Ahlgren / Nationalmuseum, Public Domain\nOn display\nWikimedia Commons\nAdd to my collection\nCopy bookmarkable link\nThe Lady with the Veil. The Artist's Wife Marie Suzanne Giroust\nAlexander Roslin (1718 - 1793)\n\nArtist/Maker\nArtist: Alexander Roslin (1718 - 1793)\n\nDates\nSigned: Signed 1768\n\nMaterial / Technique\nOil on canvas\n\nDimensions\nh x w: Mått 65 x 54 cm\nh x w: Ram 80 x 69 cm\n\nInventory number\nNM 4098\n\nAcqusition\nGift 1945 Kooperativa Förbundet and Ms Hildegard Tamm\n\nOther titles\nTitle (sv): Damen med slöjan. Konstnärens maka Suzanne Roslin\nTitle (en): The Lady with the Veil. The Artist's Wife Marie Suzanne Giroust\nPrevious: The Lady with the Veil (the Artist's Wife)\n\nDescription\nDescription: The veiled beauty in Alexander Roslin’s portrait is his wife, Marie Suzanne Giroust, who was herself a prominent artist. She is dressed for a fancy-dress ball, in the Bolognese style. The attraction of this image builds very much on a play of opposites, such as intimate–inaccessible and seductive–reserved. The Lady with the Veil is one of the Nationalmuseum’s best-known paintings. It was exhibited in Paris in 1769, along with another portrait by Roslin, of a woman in African costume.\n\nExhibited\nNationalmuseum -> Room 1603 18th century\n\nDepicted Person\nSuzanne Roslin (1734 - 1772)\n\nMotif category\nPortrait\n\nCollection\nPaintings (Paintings)\n\nMaterial\nDuk, Oil paint\n\nTechnique\nPainting\n\nObject category\npainting\n\nKeyword\nPorträtt\n\nExternal links\nWikidata: http://www.wikidata.org/entity/Q10466368\n\nAdditional texte\nExhibition text: The Lady With the Veil appears seductive and secretive, with her face half-hidden behind black silk and the fan she is holding. This type of portraits with masque motifs were popular in the 19th century. The portrait is of the French artist Marie Suzanne Giroust, who was married to the Swedish artist Alexander Roslin. They met in Paris in 1752. Roslin was one of the most frequently commissioned 18th-century portrait artists. His skilful rendering of textures – silk, gold, embroidery and velvet – contributed to his popularity.\n\nCatalogue text: This portrait is one of the Nationalmuseum’s most popular paintings, but few are aware that it represents a French female artist, Marie Suzanne Giroust, who was married to Alexander Roslin. In the 18th century, theatre was an important part of society life in the cities. Dressing up, disguising oneself and playing a part was a\ncommon form of entertainment, just as it is today when role-play games are so popular in social media. The fan which the figure is playing with expresses the seductiveness of a life devoted to enjoyment and pleasure, a characteristic of the elite culture of the period, but also one that is reflected in the consumer aesthetic\nof our own day. The fan acted as an extension of body language, putting the focus on hands and gestures, those varying expressions were seen as defining a person’s identity.\n\nWebbtext (Beskrivning): The Lady with the Veil is one of the Nationalmuseum’s best loved paintings. The woman in the portrait is partially hidden by a black silk veil. Beneath the veil she is dressed for a special occasion in white lace and pink silk. During the 18th century, theatre was an important part of the life of the upper classes. Dressing up, disguising oneself and playing dramatic roles was a common pastime. The Lady with the Veil shows how one could dress up à la bolonaise – in the style of Bologna.\nThe woman is smiling in a tempting fashion yet she seems to want to remain secretive. She only shows part of herself. There are many anonymous portraits of women in collections around the world. Often they have been part of a pair of portraits of man and wife – so called pendant portraits. It is not unusual for such portraits to have become separated over the years. And since the influence of the women has been underestimated in writing the history of art, their names and identities have often been forgotten. For this reason, many of Roslin’s portraits now bear the title “Unknown Woman”. But the Lady with the veil is not one of these forgotten women. For she was Alexander Roslin’s wife: the French portrait artist Marie Suzanne Giroust.\nFans were not just a practical item for social gatherings. Fans could also be used for sending secret messages. There were numerous ways of holding, opening and closing fans. Each way meant something specific. The lady with the veil has folded her fan and is using it to stroke her cheek. This might mean: I love you! It was once the artist himself who received this message while he was painting his wife. Nowadays we are the recipients as we regard the painting and perhaps we let ourselves be seduced by the veiled woman…\n\nSHOW MORE\n⌵\nContact information\nTel: 08-519 543 00\nE-Mail: info@nationalmuseum.se\nContact us\nMore information\nAbout the collection\nImages and copyrights\nHow to use the online collection\nFollow us\nAbout Nationalmuseum\nOpening Hours\nExhibitions\nFree Images On Wikimedia",
+        "candidateCount": 48
+      },
+      "candidates": [
+        {
+          "candidateId": "page-image-001",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/7/multimedia-225767.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(4) > img",
+          "alt": "",
+          "nearbyText": "Foto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkThe Lady with the Veil. The Artist's Wife Marie Suzanne GiroustAlexander Roslin (1718 - 1793)Artist/MakerArtist: Alexander Roslin (1718 - 1793)DatesSigned: Signed 1768Material / TechniqueOil on canvasDimensionsh x w: Mått 65 x 54 cm\nh x w: Ram 80 x 69 cmInventory numberNM 4098AcqusitionGift 1",
+          "visible": true,
+          "boundingBox": {
+            "x": 599,
+            "y": 866,
+            "width": 81,
+            "height": 92
+          },
+          "naturalWidth": 245,
+          "naturalHeight": 280,
+          "elementKind": "img",
+          "elementIndex": 21,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-002",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/2/multimedia-946122.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(7) > img",
+          "alt": "",
+          "nearbyText": "Foto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkThe Lady with the Veil. The Artist's Wife Marie Suzanne GiroustAlexander Roslin (1718 - 1793)Artist/MakerArtist: Alexander Roslin (1718 - 1793)DatesSigned: Signed 1768Material / TechniqueOil on canvasDimensionsh x w: Mått 65 x 54 cm\nh x w: Ram 80 x 69 cmInventory numberNM 4098AcqusitionGift 1",
+          "visible": true,
+          "boundingBox": {
+            "x": 861,
+            "y": 866,
+            "width": 80,
+            "height": 92
+          },
+          "naturalWidth": 244,
+          "naturalHeight": 280,
+          "elementKind": "img",
+          "elementIndex": 24,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-003",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/9/multimedia-8149.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > img",
+          "alt": "",
+          "nearbyText": "Foto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkThe Lady with the Veil. The Artist's Wife Marie Suzanne GiroustAlexander Roslin (1718 - 1793)Artist/MakerArtist: Alexander Roslin (1718 - 1793)DatesSigned: Signed 1768Material / TechniqueOil on canvasDimensionsh x w: Mått 65 x 54 cm\nh x w: Ram 80 x 69 cmInventory numberNM 4098AcqusitionGift 1",
+          "visible": true,
+          "boundingBox": {
+            "x": 425,
+            "y": 866,
+            "width": 77,
+            "height": 92
+          },
+          "naturalWidth": 234,
+          "naturalHeight": 280,
+          "elementKind": "img",
+          "elementIndex": 19,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-004",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/5/multimedia-184495.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > img",
+          "alt": "",
+          "nearbyText": "Foto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkThe Lady with the Veil. The Artist's Wife Marie Suzanne GiroustAlexander Roslin (1718 - 1793)Artist/MakerArtist: Alexander Roslin (1718 - 1793)DatesSigned: Signed 1768Material / TechniqueOil on canvasDimensionsh x w: Mått 65 x 54 cm\nh x w: Ram 80 x 69 cmInventory numberNM 4098AcqusitionGift 1",
+          "visible": true,
+          "boundingBox": {
+            "x": 512,
+            "y": 866,
+            "width": 77,
+            "height": 92
+          },
+          "naturalWidth": 233,
+          "naturalHeight": 280,
+          "elementKind": "img",
+          "elementIndex": 20,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-005",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/2/multimedia-1030862.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(9) > img",
+          "alt": "",
+          "nearbyText": "Foto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkThe Lady with the Veil. The Artist's Wife Marie Suzanne GiroustAlexander Roslin (1718 - 1793)Artist/MakerArtist: Alexander Roslin (1718 - 1793)DatesSigned: Signed 1768Material / TechniqueOil on canvasDimensionsh x w: Mått 65 x 54 cm\nh x w: Ram 80 x 69 cmInventory numberNM 4098AcqusitionGift 1",
+          "visible": true,
+          "boundingBox": {
+            "x": 1037,
+            "y": 866,
+            "width": 77,
+            "height": 92
+          },
+          "naturalWidth": 233,
+          "naturalHeight": 280,
+          "elementKind": "img",
+          "elementIndex": 26,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+          "identityScore": 1020
+        }
+      ]
+    },
+    {
+      "workId": "goya-truth-time-history-nm-5593",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "goya-truth-time-history-nm-5593",
+        "title": "Truth, Time and History",
+        "objectType": "painting",
+        "titleZh": "",
+        "titleEn": "Truth, Time and History",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "1804–1808",
+        "medium": "Oil on canvas",
+        "identityAnchor": "NM 5593",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/22643/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/22643/",
+        "accessionNumber": "NM 5593",
+        "collectionGroup": "Paintings"
+      },
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/22643/",
+      "page": {
+        "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/22643/",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/22643/",
+        "pageTitle": "Truth, Time and History | Nationalmuseum",
+        "bodyText": "This website uses cookies\nWe use device identifiers to adapt the content of the site and analyse how it is used. We also forward these identifiers and other information from your device to the social media and the advertising and analysis companies that we collaborate with.  \nConsent Selection\nNecessary\nPreferences\nStatistics\nMarketing and videos\nShow details\nAllow all\nAllow selection\nDeny\nEN\nHome\nObjects\nPersons\nMy Collection\nFoto: Erik Cornelius / Nationalmuseum, Public Domain\nFoto: Anna Danielsson / Nationalmuseum, Public Domain\nFoto: Erik Cornelius / Nationalmuseum, Public Domain\nFoto: Anna Danielsson / Nationalmuseum, Public Domain\nFoto: Anna Danielsson / Nationalmuseum, Public Domain\nFoto: Linn Ahlgren / Nationalmuseum, Public Domain\nFoto: Linn Ahlgren / Nationalmuseum, Public Domain\nFoto: Linn Ahlgren / Nationalmuseum, Public Domain\nFoto: Anna Danielsson / Nationalmuseum, Public Domain\nFoto: Anna Danielsson / Nationalmuseum, Public Domain\nFoto: Erik Cornelius / Nationalmuseum, Public Domain\nFoto: Anna Danielsson / Nationalmuseum, Public Domain\nOn display\nWikimedia Commons\nAdd to my collection\nCopy bookmarkable link\nTruth, Time and History\nFrancisco Goya y Lucientes (1746 - 1828)\n\nArtist/Maker\nArtist: Francisco Goya y Lucientes (1746 - 1828)\n\nDates\nMade: Made 1804 - 1808\n\nMaterial / Technique\nOil on canvas\n\nDimensions\nh x w: Mått 294 x 244 cm\nh x w x d: Ram 322 x 271 x 10 cm\n\nInventory number\nNM 5593\n\nAcqusition\nGift 1961 Nationalmusei Vänner\n\nOther titles\nTitle (sv): Sanningen, Tiden och Historien\nTitle (en): Truth, Time and History\n\nDescription\nDescription: History is a witness when Time reveals the Truth. These concepts are symbolised by a woman writing, an elderly man with an hourglass, and a woman, who is usually naked. In Goya’s painting, the standing woman represents Spain as well as Truth. She holds a sceptre, and a book, the constitution Spain adopted in 1812 during its war against Napoleon. The twofold symbolism is designed to underscore the legitimacy of the new constitution.\n\nExhibited\nNationalmuseum -> Room 1602 18th century\n\nCollection\nPaintings (Paintings)\n\nMaterial\nOil paint, Duk\n\nTechnique\nPainting\n\nExternal links\nWikidata: http://www.wikidata.org/entity/Q2837807\n\nContact information\nTel: 08-519 543 00\nE-Mail: info@nationalmuseum.se\nContact us\nMore information\nAbout the collection\nImages and copyrights\nHow to use the online collection\nFollow us\nAbout Nationalmuseum\nOpening Hours\nExhibitions\nFree Images On Wikimedia",
+        "candidateCount": 52
+      },
+      "candidates": [
+        {
+          "candidateId": "page-image-001",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/6/multimedia-544356.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(5) > img",
+          "alt": "",
+          "nearbyText": "Foto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkTruth, Time and HistoryFrancisco Goya y Lucientes (1746 - 1828)Artist/MakerArtist: Francisco Goya y Lucient",
+          "visible": true,
+          "boundingBox": {
+            "x": 642,
+            "y": 866,
+            "width": 79,
+            "height": 92
+          },
+          "naturalWidth": 241,
+          "naturalHeight": 280,
+          "elementKind": "img",
+          "elementIndex": 23,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/22643/",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-002",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/8/multimedia-1029098.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(7) > img",
+          "alt": "",
+          "nearbyText": "Foto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkTruth, Time and HistoryFrancisco Goya y Lucientes (1746 - 1828)Artist/MakerArtist: Francisco Goya y Lucient",
+          "visible": true,
+          "boundingBox": {
+            "x": 818,
+            "y": 866,
+            "width": 79,
+            "height": 92
+          },
+          "naturalWidth": 241,
+          "naturalHeight": 280,
+          "elementKind": "img",
+          "elementIndex": 25,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/22643/",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-003",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/8/multimedia-346148.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > img",
+          "alt": "",
+          "nearbyText": "Foto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkTruth, Time and HistoryFrancisco Goya y Lucientes (1746 - 1828)Artist/MakerArtist: Francisco Goya y Lucient",
+          "visible": true,
+          "boundingBox": {
+            "x": 468,
+            "y": 866,
+            "width": 78,
+            "height": 92
+          },
+          "naturalWidth": 237,
+          "naturalHeight": 280,
+          "elementKind": "img",
+          "elementIndex": 21,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/22643/",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-004",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/6/multimedia-1044376.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(8) > img",
+          "alt": "",
+          "nearbyText": "Foto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkTruth, Time and HistoryFrancisco Goya y Lucientes (1746 - 1828)Artist/MakerArtist: Francisco Goya y Lucient",
+          "visible": true,
+          "boundingBox": {
+            "x": 907,
+            "y": 866,
+            "width": 78,
+            "height": 92
+          },
+          "naturalWidth": 237,
+          "naturalHeight": 280,
+          "elementKind": "img",
+          "elementIndex": 26,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/22643/",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-005",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/1/multimedia-563271.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > img",
+          "alt": "",
+          "nearbyText": "Foto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkTruth, Time and HistoryFrancisco Goya y Lucientes (1746 - 1828)Artist/MakerArtist: Francisco Goya y Lucient",
+          "visible": true,
+          "boundingBox": {
+            "x": 289,
+            "y": 862,
+            "width": 83,
+            "height": 100
+          },
+          "naturalWidth": 233,
+          "naturalHeight": 280,
+          "elementKind": "img",
+          "elementIndex": 19,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/22643/",
+          "identityScore": 1020
+        }
+      ]
+    },
+    {
+      "workId": "rembrandt-self-portrait-nm-5324",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "rembrandt-self-portrait-nm-5324",
+        "title": "Self-Portrait",
+        "objectType": "painting",
+        "titleZh": "",
+        "titleEn": "Self-Portrait",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "signed 1630",
+        "medium": "Oil on copper",
+        "identityAnchor": "NM 5324",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/22374/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/22374/",
+        "accessionNumber": "NM 5324",
+        "collectionGroup": "Paintings"
+      },
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File%3ASelfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif",
+      "page": {
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File%3ASelfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif",
+        "finalUrl": "https://commons.wikimedia.org/wiki/File%3ASelfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif",
+        "pageTitle": "File:Selfportrait (Rembrandt Harmensz. van Rijn) - Nationalmuseum - 22374.tif - Wikimedia Commons",
+        "bodyText": "Jump to content\nMain menu\nSearch\nEnglish\nDonate\nCreate account\nLog in\nFile:Selfportrait (Rembrandt Harmensz. van Rijn) - Nationalmuseum - 22374.tif\nFile\nDiscussion\nRead\nEdit\nView history\nTools\nAppearance hide\nText\nSmall\nStandard\nLarge\n\nThis page always uses small font size\n\nWidth\nStandard\nWide\nColor (beta)\nAutomatic\nLight\nDark\nFile File history File usage on Commons File usage on other wikis Metadata\nDownload\nall sizes\nUse this file\non the web\nUse this file\non a wiki\nEmail a link\nto this file\nInformation\nabout reusing\nSize of the above preview of this TIF file: 500 × 619 pixels. Other resolutions: 250 × 310 pixels | 500 × 619 pixels | 960 × 1,189 pixels | 1,920 × 2,377 pixels | 3,840 × 4,755 pixels.\nOriginal file (3,661 × 4,533 pixels, file size: 47.51 MB, MIME type: image/tiff)\nOpen in Media Viewer\nFile information\nStructured data\nCaptions\nEdit\nEnglish\nSelf-portrait, 1630, Nationalmuseum, Stockholm\nRembrandt: Self-portrait   \nArtist\t\nRembrandt (1606–1669)    \n \n\n\n\t\n\nDepicted people\tRembrandt Harmensz. van Rijn\nTitle\t\nEnglish: Selfportrait\nSvenska: Självporträtt\n\nObject type\tpainting\nGenre\tself-portrait \nDescription\t\nEnglish: Rembrandt’s self-portrait is a relatively small painting, measuring just 12.2x15.5 cm. The base is copper plate covered with a layer of white lead completely overlaid with gold leaf. The portrait was acquired by Nationalmuseum in connection with the Rembrandt exhibition of 1956 and portrays the artist as a serious, quite melancholic young man. The face is modelled with fine, careful brushstrokes. The young man’s gaze is searching and concentrated. The portrait is dated 1630, when Rembrandt was 24 years old.\n\nThere are known to be five Rembrandt paintings on copper, three of which are on a gold leaf ground. In addition to the Nationalmuseum self-portrait, these are An Old Woman at Prayer in Salzburg and The Laughing Soldier in The Hague. The paintings are in a similar format and date from the same period.\n\nThere are major similarities in terms of lighting, expression and character between Nationalmuseum’s self-portrait and other early self-portraits. However, due to its small format and special base, this little self-portrait required more detailed brushstrokes than the larger portraits on panel and canvas.\nSvenska: Rembrandts självporträtt är en till formatet litet målning – den mäter endast 12,2x15,5 cm. Underlaget är kopparplåt täckt av ett lager blyvitt och därefter överdraget med heltäckande bladguld. Porträttet inköptes till Nationalmuseum i samband med Rembrandtutställningen år 1956 och framställer konstnären som en allvarlig, ganska dyster ung man. Ansiktet är modellerat med fina försiktiga penseldrag. Den unge mannens blick är forskande och koncentrerad. Porträttet är daterat till 1630 och Rembrandt var då 24 år.\n\nFem målningar på koppar av Rembrandt är kända och tre av dem har bladguld som grund. Förutom Nationalmuseums självporträtt är det An Old Woman at Prayer i Salzburg samt The laughing soldier i Haag. Målningarna har ungefär samma format och är daterade till samma period.\n\nDet finns stora överensstämmelser i fråga om ljusföring, uttryck och karaktär mellan Nationalmuseums självporträtt och andra tidiga självporträtt. Med sitt lilla format och sin speciella grund krävde det lilla självporträttet dock en mer detaljerad penselföring än de större porträtten på pannå och duk.\n\nDepicted people\tRembrandt \nOriginal caption\t\nEnglish: Rembrandt’s self-portrait is a relatively small painting, measuring just 12.2x15.5 cm. The base is copper plate covered with a layer of white lead completely overlaid with gold leaf. The portrait was acquired by Nationalmuseum in connection with the Rembrandt exhibition of 1956 and portrays the artist as a serious, quite melancholic young man. The face is modelled with fine, careful brushstrokes. The young man’s gaze is searching and concentrated. The portrait is dated 1630, when Rembrandt was 24 years old.\n\nThere are known to be five Rembrandt paintings on copper, three of which are on a gold leaf ground. In addition to the Nationalmuseum self-portrait, these are An Old Woman at Prayer in Salzburg and The Laughing Soldier in The Hague. The paintings are in a similar format and date from the same period.\n\nThere are major similarities in terms of lighting, expression and character between Nationalmuseum’s self-portrait and other early self-portraits. However, due to its small format and special base, this little self-portrait required more detailed brushstrokes than the larger portraits on panel and canvas.\nSvenska: Rembrandts självporträtt är en till formatet litet målning – den mäter endast 12,2x15,5 cm. Underlaget är kopparplåt täckt av ett lager blyvitt och därefter överdraget med heltäckande bladguld. Porträttet inköptes till Nationalmuseum i samband med Rembrandtutställningen år 1956 och framställer konstnären som en allvarlig, ganska dyster ung man. Ansiktet är modellerat med fina försiktiga penseldrag. Den unge mannens blick är forskande och koncentrerad. Porträttet är daterat till 1630 och Rembrandt var då 24 år.\n\nFem målningar på koppar av Rembrandt är kända och tre av dem har bladguld som grund. Förutom Nationalmuseums självporträtt är det An Old Woman at Prayer i Salzburg samt The laughing soldier i Haag. Målningarna har ungefär samma format och är daterade till samma period.\n\nDet finns stora överensstämmelser i fråga om ljusföring, uttryck och karaktär mellan Nationalmuseums självporträtt och andra tidiga självporträtt. Med sitt lilla format och sin speciella grund krävde det lilla självporträttet dock en mer detaljerad penselföring än de större porträtten på pannå och duk.\n\nDate\t1630\nMedium\t\nEnglish: Oil on copper\nSvenska: Olja på koppar\n\nDimensions\t\nheight: 15.5 cm (6.1 in); width: 12 cm (4.7 in)\nFramed: height: 37 cm (14.5 in); width: 34 cm (13.3 in); depth: 7 cm (2.7 in)\n\nCollection\t\nNationalmuseum   \n\nAccession number\t\nNM 5324\n\nInscriptions\t\nSvenska: Signerad: R...1630\n\nReferences\t\nRembrandt catalogue raisonné, 1914, 570 \nRembrandt catalogue raisonné, 1968, 44\nA Corpus of Rembrandt Paintings VI, 33\nRembrandt catalogue raisonné, 1935, 11\nRembrandt catalog raisonné, 1986, 158\nRembrandt catalogue raisonné, 1908, 28 L\nCatalogue of the 1903 portrait exhibition, The Hague, 112\nThe Complete Paintings of Rembrandt, 38\nNationalmuseum Sweden artwork ID: 22374 \nRKDimages ID: 29674 \nGoogle Arts & Culture asset ID: WAGlk3EYZbNjQQ \n\nSource/Photographer\tErik Cornelius / Nationalmuseum\nPermission\n(Reusing this file)\t\n\tThis file was provided to Wikimedia Commons by the Nationalmuseum (Stockholm) as part of a cooperation project with Wikimedia Sverige.\t\n\nThis is a faithful photographic reproduction of an original two-dimensional work of art. The work of art itself is in the public domain for the following reason:\n\n\t\n\nThe author died in 1669, so this work is in the public domain in its country of origin and other countries and areas where the copyright term is the author's life plus 100 years or fewer.\n\n You must also include a United States public domain tag to indicate why this work is in the public domain in the United States.\n\nThis file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.\n\nThis digital reproduction has been released under the following licenses:\n\n\tNationalmuseum has placed those images in the Public Domain which have been acquired exclusively by digital reproduction of those works of art that are no longer protected by copyright. Nationalmuseum does not consider that a new copyright emerges for the reproduction.\n\nNationalmuseum has stated some guidelines below what we consider best practice when using images in the Public Domain. The guidelines below are based on the Europeanas Public Domain Usage Guidelines, but there is no legal liability to comply to them.\n\nWhen you use a public domain work please credit the author or creator.\nPlease also credit Nationalmuseum and the photographer, who created the digital reproduction and made it available.\nWhen you use or modify a public domain work you should not attribute the changes to the creator or the provider of the work.\n\nYou can easily link to the object as a source, otherwise we recommend the following:\n\nArtist: Title, Date, Nationalmuseum (Photo: photographer’s name), public domain\n\n\t\nThis file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.\n\nIn many jurisdictions, faithful reproductions of two-dimensional public domain works of art are not copyrightable. The Wikimedia Foundation's position is that these works are not copyrightable in the United States (see Commons:Reuse of PD-Art photographs). In these jurisdictions, this work is actually in the public domain and the requirements of the digital reproduction's license are not compulsory.\n\n\n\n\nFile history\n\nClick on a date/time to view the file as it appeared at that time.\n\n\tDate/Time\tThumbnail\tDimensions\tUser\tComment\ncurrent\t12:02, 7 October 2016\t\t3,661 × 4,533 (47.51 MB)\tAndreCostaWMSE-bot (talk | contribs)\t{{Artwork |other_fields_1 = {{depicted person|Rembrandt Harmensz. van Rijn|style=information field}} |artist = {{Creator:Rembrandt}} |title = {{en|Selfportrait}} {{sv|Självporträtt}} |wikidata...\n\nYou cannot overwrite this file.\n\nFile usage on Commons\n\nThe following 8 pages use this file:\n\nCatalogue of the 1903 portrait exhibition, The Hague\nPaintings by Rembrandt\nCommons:Wikimedia Sverige/recent uploads/2016 October\nFile:Rembrandt Harmensz. van Rijn - Selfportrait - Google Art Project.jpg\nFile:Rembrandt auto 01.JPG\nFile:Rembrandt van Rijn 199.jpg\nFile:Selfportrait (Rembrandt Harmensz. van Rijn) - Nationalmuseum - 22374.tif\nCategory:Self-portrait (Rembrandt, 1630)\nFile usage on other wikis\n\nThe following other wikis use this file:\n\nUsage on af.wikipedia.org\nLys van werke van Rembrandt van Rijn\nUsage on av.wikipedia.org\nРембрандт\nUsage on azb.wikipedia.org\nرمبرانت\nUsage on bg.wikipedia.org\nРембранд\nUsage on ca.wikipedia.org\nUsuària:Jane023/Llista d'obres de Rembrandt\nUsage on cs.wikipedia.org\nWikipedista:Wesalius/Seznam děl Rembrandta\nUsage on cy.wikipedia.org\nRembrandt\nUsage on dag.wikipedia.org\nRembrandt\nUsage on da.wikipedia.org\nBruger:Palnatoke/Autolister/Kultur/Motiv/Rembrandts selvportrætter\nUsage on de.wikipedia.org\nBenutzerin:Jane023/Gemälde von Rembrandt van Rijn\nUsage on en.wikipedia.org\nRembrandt\nRobert King Wittman\nList of paintings by Rembrandt\nList of stolen paintings\nSelf-portraits by Rembrandt\nUser:Daniel Mietchen/Wikidata lists/Scientific journals\nUser:Jane023/Paintings by Rembrandt\nRembrandt catalogue raisonné, 1968\nRembrandt catalogue raisonné, 1986\nRembrandt catalogue raisonné, 1935\nRembrandt catalogue raisonné, 1908\nUser:Jane023/Rembrandt catalog raisonné, 1914\nOil on copper\nUser:Jane023/Rembrandt catalog raisonné, 1908\nNationalmuseum robbery\nTalk:Nationalmuseum robbery\nUser:Sean Leong (WMDE)/sandbox\nUsage on eo.wikipedia.org\nRembrandt\nMemportretoj de Rembrandt\nUsage on es.wikipedia.org\nAnexo:Obras de Rembrandt\nAnexo:Catálogo razonado de Rembrandt, 1968\nPintura sobre cobre\nUsage on eu.wikipedia.org\nZerrenda:Rembrandten margolanak\nUsage on fr.wikipedia.org\nUtilisatrice:Jane023/Liste des peintures de Rembrandt\nUtilisateur:Louis-garden/protoencours00\nListe de peintures de Rembrandt\nHuile sur cuivre\nUsage on gu.wikipedia.org\nરૅમ્બ્રાં હાર્મેન્ઝૂન વાન રીન\nUsage on hy.wikipedia.org\nՌեմբրանդ վան Ռեյն\nUsage on ko.wikipedia.org\n렘브란트의 작품 목록\nUsage on la.wikipedia.org\nRembrandus\nPictura olearia\nUsage on lt.wikipedia.org\nAliejinė tapyba\nUsage on mk.wikipedia.org\nРембрант\nМасло на бакар\nUsage on nl.wikipedia.org\nGebruiker:Jane023/schilderijen door Rembrandt\nUsage on oc.wikipedia.org\nRembrandt\nUsage on pt.wikipedia.org\nLista de pinturas de Rembrandt\nUsage on sl.wikipedia.org\nRembrandt\nOljno slikarstvo\n\nView more global usage of this file.\n\nMetadata\n\nThis file contains additional information such as Exif metadata which may have been added by the d",
+        "candidateCount": 84
+      },
+      "candidates": [
+        {
+          "candidateId": "page-image-001",
+          "candidateType": "direct_image",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Selfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif/lossy-page1-1280px-Selfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif.jpg?_=20161007120243",
+          "selector": "div#file > a > img",
+          "alt": "File:Selfportrait (Rembrandt Harmensz. van Rijn) - Nationalmuseum - 22374.tif",
+          "nearbyText": "File:Selfportrait (Rembrandt Harmensz. van Rijn) - Nationalmuseum - 22374.tif\n\t\t\t\t\t\t\n\t\t\n\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\n\t\t\n\t\t\n\t\t\tFile\n\nDiscussion\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\t\t\t\n\n\t\n\tEnglish\n\t\n\t\n\n\n\t\t\t\t\t\n\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\n\t\n\n\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t    \n\n\t\n\t\t\n\t\t\n\t\t\tRead\n\nEdit\n\nView history\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\n\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\n\t\n\nTools\n\t\n\t\n\n\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\n\t\n\tTools\n\tmove to sidebar\n\thide\n\n\n\t\n\n\t\n\t\tActions\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\nRead\n\n\n\nEdit\n\n\n\nView history\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\n\t\n\t\tGeneral\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tWhat links hereRelated changesPermanent linkPage informationCite this pageGet shortened URLConcept URI\n\t\tExpand allNominate for deletion\n\t\t\n\t\n\n\n\n\t\n\t\tPrint/export\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tDownload as PDFPrintable version\n\t\t\n\t\t\n\t\n\n\n\n\t\n\t\tIn other projects\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\n",
+          "visible": true,
+          "boundingBox": {
+            "x": 136,
+            "y": 258,
+            "width": 484,
+            "height": 599
+          },
+          "naturalWidth": 500,
+          "naturalHeight": 619,
+          "elementKind": "img",
+          "elementIndex": 8,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File%3ASelfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-002",
+          "candidateType": "direct_image",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Selfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif/lossy-page1-500px-Selfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif.jpg",
+          "selector": "td#fileinfotpl_creator_image > div > span > a > img",
+          "alt": "image of artwork listed in title parameter on this page",
+          "nearbyText": "File:Selfportrait (Rembrandt Harmensz. van Rijn) - Nationalmuseum - 22374.tif\n\t\t\t\t\t\t\n\t\t\n\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\n\t\t\n\t\t\n\t\t\tFile\n\nDiscussion\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\t\t\t\n\n\t\n\tEnglish\n\t\n\t\n\n\n\t\t\t\t\t\n\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\n\t\n\n\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t    \n\n\t\n\t\t\n\t\t\n\t\t\tRead\n\nEdit\n\nView history\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\n\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\n\t\n\nTools\n\t\n\t\n\n\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\n\t\n\tTools\n\tmove to sidebar\n\thide\n\n\n\t\n\n\t\n\t\tActions\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\nRead\n\n\n\nEdit\n\n\n\nView history\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\n\t\n\t\tGeneral\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tWhat links hereRelated changesPermanent linkPage informationCite this pageGet shortened URLConcept URI\n\t\tExpand allNominate for deletion\n\t\t\n\t\n\n\n\n\t\n\t\tPrint/export\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tDownload as PDFPrintable version\n\t\t\n\t\t\n\t\n\n\n\n\t\n\t\tIn other projects\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\n",
+          "visible": true,
+          "boundingBox": {
+            "x": 870,
+            "y": 1123,
+            "width": 202,
+            "height": 250
+          },
+          "naturalWidth": 250,
+          "naturalHeight": 310,
+          "elementKind": "img",
+          "elementIndex": 21,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File%3ASelfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-003",
+          "candidateType": "direct_image",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Selfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif/lossy-page1-120px-Selfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif.jpg?_=20161007120243",
+          "selector": "div#mw-imagepage-section-filehistory > table > tbody > tr:nth-of-type(2) > td:nth-of-type(3) > a > img",
+          "alt": "Thumbnail for version as of 12:02, 7 October 2016",
+          "nearbyText": "File:Selfportrait (Rembrandt Harmensz. van Rijn) - Nationalmuseum - 22374.tif\n\t\t\t\t\t\t\n\t\t\n\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\n\t\t\n\t\t\n\t\t\tFile\n\nDiscussion\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\t\t\t\n\n\t\n\tEnglish\n\t\n\t\n\n\n\t\t\t\t\t\n\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\n\t\n\n\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t    \n\n\t\n\t\t\n\t\t\n\t\t\tRead\n\nEdit\n\nView history\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\n\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\n\t\n\nTools\n\t\n\t\n\n\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\n\t\n\tTools\n\tmove to sidebar\n\thide\n\n\n\t\n\n\t\n\t\tActions\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\nRead\n\n\n\nEdit\n\n\n\nView history\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\n\t\n\t\tGeneral\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tWhat links hereRelated changesPermanent linkPage informationCite this pageGet shortened URLConcept URI\n\t\tExpand allNominate for deletion\n\t\t\n\t\n\n\n\n\t\n\t\tPrint/export\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tDownload as PDFPrintable version\n\t\t\n\t\t\n\t\n\n\n\n\t\n\t\tIn other projects\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\n",
+          "visible": true,
+          "boundingBox": {
+            "x": 355,
+            "y": 4470,
+            "width": 97,
+            "height": 120
+          },
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "elementKind": "img",
+          "elementIndex": 43,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File%3ASelfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-004",
+          "candidateType": "direct_image",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Selfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif/lossy-page1-1280px-Selfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif.jpg",
+          "selector": null,
+          "alt": "",
+          "nearbyText": "",
+          "visible": false,
+          "boundingBox": null,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "elementKind": "meta",
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File%3ASelfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif",
+          "identityScore": 1000
+        },
+        {
+          "candidateId": "page-image-005",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Selfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif/lossy-page1-500px-Selfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif.jpg?_=20161007120243",
+          "contentType": "image/jpeg",
+          "sourceType": "network_image",
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File%3ASelfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif",
+          "identityScore": 990
+        }
+      ]
+    },
+    {
+      "workId": "fanny-brate-day-of-celebration-nm-1605",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "fanny-brate-day-of-celebration-nm-1605",
+        "title": "A Day of Celebration",
+        "objectType": "painting",
+        "titleZh": "",
+        "titleEn": "A Day of Celebration",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "signed 1902",
+        "medium": "Oil on canvas",
+        "identityAnchor": "NM 1605",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/18609/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/18609/",
+        "accessionNumber": "NM 1605",
+        "collectionGroup": "Paintings"
+      },
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18609/",
+      "page": {
+        "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18609/",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/18609/",
+        "pageTitle": "A Day of Celebration | Nationalmuseum",
+        "bodyText": "This website uses cookies\nWe use device identifiers to adapt the content of the site and analyse how it is used. We also forward these identifiers and other information from your device to the social media and the advertising and analysis companies that we collaborate with.  \nConsent Selection\nNecessary\nPreferences\nStatistics\nMarketing and videos\nShow details\nAllow all\nAllow selection\nDeny\nEN\nHome\nObjects\nPersons\nMy Collection\nFoto: Anna Danielsson / Nationalmuseum, Public Domain\nFoto: Anna Danielsson / Nationalmuseum, Public Domain\nPublic Domain\nFoto: Nationalmuseum, Public Domain\nFoto: Nationalmuseum, Public Domain\nFoto: Anna Danielsson / Nationalmuseum, Public Domain\nFoto: Anna Danielsson / Nationalmuseum, Public Domain\nOn display\nWikimedia Commons\nAdd to my collection\nCopy bookmarkable link\nA Day of Celebration\nFanny Brate (1861 - 1940)\n\nArtist/Maker\nArtist: Fanny Brate (1861 - 1940)\n\nDates\nSigned: Signed 1902\n\nMaterial / Technique\nOil on canvas\n\nDimensions\nh x w: Mått 88 x 110 cm\nh x w x d: Ram 106 x 129,5 x 7 cm\n\nInventory number\nNM 1605\n\nAcqusition\nPurchase 1903 state acquisition funding\n\nOther titles\nTitle (sv): Namnsdag\nTitle (en): A Day of Celebration\n\nDescription\nDescription: The artist depicts her daughters, Astrid and Torun, in the Brate family home in Bergslagen in central Sweden. The image combines the fin-de-siècle dream of a happy childhood with manor-house romanticism and the meadow flowers of a Swedish summer. The light interior design ideals of today derive in part from this tradition, which in turn drew inspiration from Swedish vernacular objects, domestic crafts and the English Arts and Crafts movement.\n\nExhibited\nNationalmuseum -> Room 1434 1870-1900\n\nCollection\nPaintings (Paintings)\n\nMaterial\nOil paint, Duk\n\nTechnique\nPainting\n\nObject category\npainting\n\nKeyword\nScen\n\nExternal links\nWikidata: http://www.wikidata.org/entity/Q18574297\n\nAdditional texte\nDescription: Preparations are under way for a name-day party in the drawing room on the artist’s family estate of Brategården in Bråfors in the district of Bergslagen. The room features light furnishings and textiles – 18th-century furniture is combined with older painted wall hangings and modern window dressing. The table is decorated\nwith meadow flowers and ivy. Brate has above all attracted attention for her domestic interiors from around 1900. A Day of Celebration is her best- known work, reproduced on everything from postcards to coffee tins.\n\nDescription: Fanny Brate has become best known for her domestic interiors painted around the turn of the last century. A Day of Celebration is her most widely recognised work and has been reproduced on everything from postcards to coffee tins.\nIn A Day of Celebration Brate depicts preparations for a name’s day party in a large room at her husband’s family estate, Brategården in Bråfors in the district of Bergslagen. The room features light furniture and textiles. The off-white Gustavian 18th-century furniture is combined here with older-style painted wall hangings and modern window dressing. The table is decorated with meadow flowers and ivy. All the greenery and light of nature appears to have moved indoors. In this work, Brate thus achieves a kind of interior open-air painting.\n\nExhibition text: This picture of an interior at the artist’s family house, Brategården in the county of Västmanland, looks like it was inspired by Carl Larsson’s watercolours from Sundborn. But the case is the reverse, in some ways. Despite obvious similarities, the interiors in Brate’s paintings are not modern but based on older traditions. It is also known that preserved Gustavian interiors such as that of Brategården provided vital inspiration to Carl and Karin Larsson when they created Sundborn.\n\nSHOW MORE\n⌵\nContact information\nTel: 08-519 543 00\nE-Mail: info@nationalmuseum.se\nContact us\nMore information\nAbout the collection\nImages and copyrights\nHow to use the online collection\nFollow us\nAbout Nationalmuseum\nOpening Hours\nExhibitions\nFree Images On Wikimedia",
+        "candidateCount": 32
+      },
+      "candidates": [
+        {
+          "candidateId": "page-image-001",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/2/multimedia-487822.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > img",
+          "alt": "",
+          "nearbyText": "Foto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkA Day of CelebrationFanny Brate (1861 - 1940)Artist/MakerArtist: Fanny Brate (1861 - 1940)DatesSigned: Signed 1902Material / TechniqueOil on canvasDimensionsh x w: Mått 88 x 110 cm\nh x w x d: Ram 106 x 129,5 x 7 cmInventory numberNM 1605AcqusitionPurchase 1903 state acquisition fundingOther titlesTitle (sv): Namnsdag\nTitle (en): A Day of CelebrationDescriptionDescription: The artist depicts her daughters, Astrid and Torun, in the Br",
+          "visible": true,
+          "boundingBox": {
+            "x": 416,
+            "y": 862,
+            "width": 121,
+            "height": 100
+          },
+          "naturalWidth": 280,
+          "naturalHeight": 231,
+          "elementKind": "img",
+          "elementIndex": 14,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18609/",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-002",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/9/multimedia-1015769.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(5) > img",
+          "alt": "",
+          "nearbyText": "Foto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkA Day of CelebrationFanny Brate (1861 - 1940)Artist/MakerArtist: Fanny Brate (1861 - 1940)DatesSigned: Signed 1902Material / TechniqueOil on canvasDimensionsh x w: Mått 88 x 110 cm\nh x w x d: Ram 106 x 129,5 x 7 cmInventory numberNM 1605AcqusitionPurchase 1903 state acquisition fundingOther titlesTitle (sv): Namnsdag\nTitle (en): A Day of CelebrationDescriptionDescription: The artist depicts her daughters, Astrid and Torun, in the Br",
+          "visible": true,
+          "boundingBox": {
+            "x": 922,
+            "y": 866,
+            "width": 111,
+            "height": 92
+          },
+          "naturalWidth": 280,
+          "naturalHeight": 231,
+          "elementKind": "img",
+          "elementIndex": 18,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18609/",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-003",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/7/multimedia-224467.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > img",
+          "alt": "",
+          "nearbyText": "Foto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkA Day of CelebrationFanny Brate (1861 - 1940)Artist/MakerArtist: Fanny Brate (1861 - 1940)DatesSigned: Signed 1902Material / TechniqueOil on canvasDimensionsh x w: Mått 88 x 110 cm\nh x w x d: Ram 106 x 129,5 x 7 cmInventory numberNM 1605AcqusitionPurchase 1903 state acquisition fundingOther titlesTitle (sv): Namnsdag\nTitle (en): A Day of CelebrationDescriptionDescription: The artist depicts her daughters, Astrid and Torun, in the Br",
+          "visible": true,
+          "boundingBox": {
+            "x": 672,
+            "y": 866,
+            "width": 115,
+            "height": 92
+          },
+          "naturalWidth": 280,
+          "naturalHeight": 224,
+          "elementKind": "img",
+          "elementIndex": 16,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18609/",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-004",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/4/multimedia-936174.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(4) > img",
+          "alt": "",
+          "nearbyText": "Foto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkA Day of CelebrationFanny Brate (1861 - 1940)Artist/MakerArtist: Fanny Brate (1861 - 1940)DatesSigned: Signed 1902Material / TechniqueOil on canvasDimensionsh x w: Mått 88 x 110 cm\nh x w x d: Ram 106 x 129,5 x 7 cmInventory numberNM 1605AcqusitionPurchase 1903 state acquisition fundingOther titlesTitle (sv): Namnsdag\nTitle (en): A Day of CelebrationDescriptionDescription: The artist depicts her daughters, Astrid and Torun, in the Br",
+          "visible": true,
+          "boundingBox": {
+            "x": 797,
+            "y": 866,
+            "width": 115,
+            "height": 92
+          },
+          "naturalWidth": 280,
+          "naturalHeight": 224,
+          "elementKind": "img",
+          "elementIndex": 17,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18609/",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-005",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/3/multimedia-7683.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > img",
+          "alt": "",
+          "nearbyText": "Foto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkA Day of CelebrationFanny Brate (1861 - 1940)Artist/MakerArtist: Fanny Brate (1861 - 1940)DatesSigned: Signed 1902Material / TechniqueOil on canvasDimensionsh x w: Mått 88 x 110 cm\nh x w x d: Ram 106 x 129,5 x 7 cmInventory numberNM 1605AcqusitionPurchase 1903 state acquisition fundingOther titlesTitle (sv): Namnsdag\nTitle (en): A Day of CelebrationDescriptionDescription: The artist depicts her daughters, Astrid and Torun, in the Br",
+          "visible": true,
+          "boundingBox": {
+            "x": 547,
+            "y": 866,
+            "width": 116,
+            "height": 92
+          },
+          "naturalWidth": 280,
+          "naturalHeight": 223,
+          "elementKind": "img",
+          "elementIndex": 15,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18609/",
+          "identityScore": 1020
+        }
+      ]
+    },
+    {
+      "workId": "julius-kronberg-nymph-and-fauns-nm-1316",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "julius-kronberg-nymph-and-fauns-nm-1316",
+        "title": "Nymph and Fauns",
+        "objectType": "painting",
+        "titleZh": "",
+        "titleEn": "Nymph and Fauns",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "signed 1875",
+        "medium": "Oil on canvas",
+        "identityAnchor": "NM 1316",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/18319/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/18319/",
+        "accessionNumber": "NM 1316",
+        "collectionGroup": "Paintings"
+      },
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18319/",
+      "page": {
+        "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18319/",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/18319/",
+        "pageTitle": "Nymph and Fauns | Nationalmuseum",
+        "bodyText": "This website uses cookies\nWe use device identifiers to adapt the content of the site and analyse how it is used. We also forward these identifiers and other information from your device to the social media and the advertising and analysis companies that we collaborate with.  \nConsent Selection\nNecessary\nPreferences\nStatistics\nMarketing and videos\nShow details\nAllow all\nAllow selection\nDeny\nEN\nHome\nObjects\nPersons\nMy Collection\nFoto: Linn Ahlgren / Nationalmuseum, Public Domain\nFoto: Anna Danielsson / Nationalmuseum, CC BY SA\nFoto: Nationalmuseum, Public Domain\nFoto: Nationalmuseum, Public Domain\nFoto: Linn Ahlgren / Nationalmuseum, Public Domain\nFoto: Linn Ahlgren / Nationalmuseum, Public Domain\nFoto: Nationalmuseum, Public Domain\nFoto: Linn Ahlgren / Nationalmuseum, Public Domain\nFoto: Nationalmuseum, Public Domain\nFoto: Linn Ahlgren / Nationalmuseum, Public Domain\nFoto: Anna Danielsson / Nationalmuseum, CC BY SA\nOn display\nWikimedia Commons\nAdd to my collection\nCopy bookmarkable link\nNymph and Fauns\nJulius Kronberg (1850 - 1921)\n\nArtist/Maker\nArtist: Julius Kronberg (1850 - 1921)\n\nDates\nSigned: Signed 1875\n\nMaterial / Technique\nOil on canvas\n\nDimensions\nh x w: Mått 269 x 130 cm\nh x w x d: Trpram 281 x 141 x 6 cm\n\nInventory number\nNM 1316\n\nAcqusition\nPurchase 1876\n\nOther titles\nTitle (sv): Jaktnymf och fauner\nTitle (en): Nymph and Fauns\n\nDescription\nDescription: This nymph drew a lot of attention when it was exhibited at Nationalmuseum in 1876. The subject shows how 19th-century viewers were imbued with the tradition of ‘the male gaze’. The fauns look upon the naked female figure as a quarry, from the voyeur’s perspective. By her side is another quarry, a dead game bird. August Strindberg, who loved the painting, wrote in a contemporary review: ‘Fall to your feet and adore the triumpher of painting’.\n\nExhibited\nNationalmuseum -> Room 1442 Heading for the Industrial Age\n\nMotif category\nReligion/Mythology\n\nCollection\nPaintings (Paintings)\n\nMaterial\nDuk, Oil paint\n\nTechnique\nPainting\n\nKeyword\nReligion/Mytologi\n\nExternal links\nWikidata: http://www.wikidata.org/entity/Q18573300\n\nAdditional texte\nDescription: Nymph and Fauns, Julius Kronberg’s breakthrough work, was one of the most popular paintings in Sweden in the 1870s. Kronberg had studied in Düsseldorf and Munich and particularly admired the art of Austrian historical painter Hans Makart. Makart’s love of using colour and sumptuous props to bold effect is clearly reflected in Kronberg’s depiction of the hunting nymph secretly being watched by two fauns.\n\nThe painting had been shown in Munich to great acclaim in 1875, but when it was shown in Stockholm in 1876, it caused a sensation. Some felt the subject was far too sexually provocative. Other critics saw the painting as an absolute masterpiece that immediately had to be acquired by Nationalmuseum. One of the painting’s greatest admirers was a young August Strindberg, who at that time earned a living as an art critic. In the newspaper Dagens Nyheter, he wrote a lyrical review hailing Kronberg as a “triumphant artist”. Strindberg felt that the Munich School that Kronberg represented stood for a modern style of painting where effects of colour and light were the main feature, while the subject was of subordinate importance.\n\nSHOW MORE\n⌵\nContact information\nTel: 08-519 543 00\nE-Mail: info@nationalmuseum.se\nContact us\nMore information\nAbout the collection\nImages and copyrights\nHow to use the online collection\nFollow us\nAbout Nationalmuseum\nOpening Hours\nExhibitions\nFree Images On Wikimedia",
+        "candidateCount": 48
+      },
+      "candidates": [
+        {
+          "candidateId": "page-image-001",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/7/multimedia-724317.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > img",
+          "alt": "",
+          "nearbyText": "Foto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, CC BY SAFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, CC BY SAOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkNymph and FaunsJulius Kronberg (1850 - 1921)Artist/MakerArtist: Julius Kronberg (1850 - 1921)DatesSigned: Signed 1875Material / TechniqueOil on canvasDimensionsh x w: Mått 269 x 130 cm\nh x w x d: Trpram 281 x 141 x 6 cmInventory numberNM 1316Acq",
+          "visible": true,
+          "boundingBox": {
+            "x": 468,
+            "y": 862,
+            "width": 60,
+            "height": 100
+          },
+          "naturalWidth": 168,
+          "naturalHeight": 280,
+          "elementKind": "img",
+          "elementIndex": 18,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18319/",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-002",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/6/multimedia-224396.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > img",
+          "alt": "",
+          "nearbyText": "Foto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, CC BY SAFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, CC BY SAOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkNymph and FaunsJulius Kronberg (1850 - 1921)Artist/MakerArtist: Julius Kronberg (1850 - 1921)DatesSigned: Signed 1875Material / TechniqueOil on canvasDimensionsh x w: Mått 269 x 130 cm\nh x w x d: Trpram 281 x 141 x 6 cmInventory numberNM 1316Acq",
+          "visible": true,
+          "boundingBox": {
+            "x": 538,
+            "y": 866,
+            "width": 44,
+            "height": 92
+          },
+          "naturalWidth": 133,
+          "naturalHeight": 280,
+          "elementKind": "img",
+          "elementIndex": 19,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18319/",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-003",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/8/multimedia-492778.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > img",
+          "alt": "",
+          "nearbyText": "Foto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, CC BY SAFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, CC BY SAOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkNymph and FaunsJulius Kronberg (1850 - 1921)Artist/MakerArtist: Julius Kronberg (1850 - 1921)DatesSigned: Signed 1875Material / TechniqueOil on canvasDimensionsh x w: Mått 269 x 130 cm\nh x w x d: Trpram 281 x 141 x 6 cmInventory numberNM 1316Acq",
+          "visible": true,
+          "boundingBox": {
+            "x": 592,
+            "y": 866,
+            "width": 43,
+            "height": 92
+          },
+          "naturalWidth": 131,
+          "naturalHeight": 280,
+          "elementKind": "img",
+          "elementIndex": 20,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18319/",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-004",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/6/multimedia-558576.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(4) > img",
+          "alt": "",
+          "nearbyText": "Foto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, CC BY SAFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, CC BY SAOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkNymph and FaunsJulius Kronberg (1850 - 1921)Artist/MakerArtist: Julius Kronberg (1850 - 1921)DatesSigned: Signed 1875Material / TechniqueOil on canvasDimensionsh x w: Mått 269 x 130 cm\nh x w x d: Trpram 281 x 141 x 6 cmInventory numberNM 1316Acq",
+          "visible": true,
+          "boundingBox": {
+            "x": 645,
+            "y": 866,
+            "width": 51,
+            "height": 92
+          },
+          "naturalWidth": 155,
+          "naturalHeight": 280,
+          "elementKind": "img",
+          "elementIndex": 21,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18319/",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-005",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/2/multimedia-586852.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(5) > img",
+          "alt": "",
+          "nearbyText": "Foto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, CC BY SAFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, CC BY SAOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkNymph and FaunsJulius Kronberg (1850 - 1921)Artist/MakerArtist: Julius Kronberg (1850 - 1921)DatesSigned: Signed 1875Material / TechniqueOil on canvasDimensionsh x w: Mått 269 x 130 cm\nh x w x d: Trpram 281 x 141 x 6 cmInventory numberNM 1316Acq",
+          "visible": true,
+          "boundingBox": {
+            "x": 706,
+            "y": 866,
+            "width": 46,
+            "height": 92
+          },
+          "naturalWidth": 141,
+          "naturalHeight": 280,
+          "elementKind": "img",
+          "elementIndex": 22,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18319/",
+          "identityScore": 1020
+        }
+      ]
+    },
+    {
+      "workId": "fogelberg-odin-nmsk-392",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "fogelberg-odin-nmsk-392",
+        "title": "Odin",
+        "objectType": "sculpture",
+        "titleZh": "",
+        "titleEn": "Odin",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "1830",
+        "medium": "Carrara marble",
+        "identityAnchor": "NMSk 392",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/26781/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/26781/",
+        "accessionNumber": "NMSk 392",
+        "collectionGroup": "Sculpture"
+      },
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/26781/",
+      "page": {
+        "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/26781/",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/26781/",
+        "pageTitle": "Odin | Nationalmuseum",
+        "bodyText": "This website uses cookies\nWe use device identifiers to adapt the content of the site and analyse how it is used. We also forward these identifiers and other information from your device to the social media and the advertising and analysis companies that we collaborate with.  \nConsent Selection\nNecessary\nPreferences\nStatistics\nMarketing and videos\nShow details\nAllow all\nAllow selection\nDeny\nEN\nHome\nObjects\nPersons\nMy Collection\nFoto: Nationalmuseum, CC BY-SA\nFoto: Linn Ahlgren / Nationalmuseum, CC BY SA\n© Foto: Nationalmuseum, CC BY SA\n© Foto: Alexis Daflos / Nationalmuseum, CC BY SA\n© Foto: Alexis Daflos / Nationalmuseum, CC BY SA\n© Foto: Nationalmuseum, CC BY SA\nFoto: Erik Cornelius / Nationalmuseum, CC BY SA\nFoto: Nationalmuseum, CC BY SA\nFoto: Nationalmuseum, CC BY SA\nFoto: Linn Ahlgren / Nationalmuseum, Public Domain\nFoto: Alexis Daflos / Nationalmuseum, Public Domain\nFoto: Alexis Daflos / Nationalmuseum, Public Domain\nFoto: Nationalmuseum, Public Domain\nFoto: Nationalmuseum, CC BY-SA\nFoto: Linn Ahlgren / Nationalmuseum, CC BY SA\nOn display\nAdd to my collection\nCopy bookmarkable link\nOdin\nBengt Erland Fogelberg (1786 - 1854)\n\nArtist/Maker\nArtist: Bengt Erland Fogelberg (1786 - 1854)\n\nDates\nMade: Made 1830\n\nMaterial / Technique\nCarrara marble\n\nDimensions\nh: Mått 312 cm\nh x w x d: 175 x 89 cm\nmass: 3055 kg\n\nInventory number\nNMSk 392\n\nAcqusition\nGift of Carl XV 1865\n\nOther titles\nTitle (sv): Oden\nTitle (en): Odin\n\nDescription\nDescription: Odin was the most powerful god in Norse mythology. Sculptor Bengt Erland Fogelberg combined the antique Jupiter of Otricoli (in the Vatican) with Roman representations of Germanic warriors. Odin with Hugin (thought) and Munin (memory) on his helmet became a mixture of classic and Norse ideals. Karl XIV Johan, who ordered the sculpture, had just like Odin come to the land of the Æsir to become its ruler.\n\nExhibited\nNationalmuseum -> Room 1280 The Sculpture Courtyard\n\nCollection\nSculpture\n\nGeographical origin\nGeographical origin: Sweden\n\nMaterial\nCarrara marble (Stone, Marble)\n\nObject category\nSculpture\n\nContact information\nTel: 08-519 543 00\nE-Mail: info@nationalmuseum.se\nContact us\nMore information\nAbout the collection\nImages and copyrights\nHow to use the online collection\nFollow us\nAbout Nationalmuseum\nOpening Hours\nExhibitions\nFree Images On Wikimedia",
+        "candidateCount": 62
+      },
+      "candidates": [
+        {
+          "candidateId": "page-image-001",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/1/multimedia-177181.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > img",
+          "alt": "",
+          "nearbyText": "Foto: Nationalmuseum, CC BY-SAFoto: Linn Ahlgren / Nationalmuseum, CC BY SA© Foto: Nationalmuseum, CC BY SA© Foto: Alexis Daflos / Nationalmuseum, CC BY SA© Foto: Alexis Daflos / Nationalmuseum, CC BY SA© Foto: Nationalmuseum, CC BY SAFoto: Erik Cornelius / Nationalmuseum, CC BY SAFoto: Nationalmuseum, CC BY SAFoto: Nationalmuseum, CC BY SAFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Alexis Daflos / Nationalmuseum, Public DomainFoto: Alexis Daflos / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, CC BY-SAFoto: Linn Ahlgren / Nationalmuseum, CC BY SAOn displayAdd to my collectionCopy bookmarkable linkOdinBengt Erland Fogelberg (1786 - 1854)Artist/MakerArtist: Bengt Erland Fogelberg (1786 - 1854)DatesMade: Made 1830Material / TechniqueCarrara ",
+          "visible": true,
+          "boundingBox": {
+            "x": 164,
+            "y": 866,
+            "width": 92,
+            "height": 92
+          },
+          "naturalWidth": 280,
+          "naturalHeight": 280,
+          "elementKind": "img",
+          "elementIndex": 23,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/26781/",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-002",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/7/multimedia-190887.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > img",
+          "alt": "",
+          "nearbyText": "Foto: Nationalmuseum, CC BY-SAFoto: Linn Ahlgren / Nationalmuseum, CC BY SA© Foto: Nationalmuseum, CC BY SA© Foto: Alexis Daflos / Nationalmuseum, CC BY SA© Foto: Alexis Daflos / Nationalmuseum, CC BY SA© Foto: Nationalmuseum, CC BY SAFoto: Erik Cornelius / Nationalmuseum, CC BY SAFoto: Nationalmuseum, CC BY SAFoto: Nationalmuseum, CC BY SAFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Alexis Daflos / Nationalmuseum, Public DomainFoto: Alexis Daflos / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, CC BY-SAFoto: Linn Ahlgren / Nationalmuseum, CC BY SAOn displayAdd to my collectionCopy bookmarkable linkOdinBengt Erland Fogelberg (1786 - 1854)Artist/MakerArtist: Bengt Erland Fogelberg (1786 - 1854)DatesMade: Made 1830Material / TechniqueCarrara ",
+          "visible": true,
+          "boundingBox": {
+            "x": 266,
+            "y": 866,
+            "width": 92,
+            "height": 92
+          },
+          "naturalWidth": 280,
+          "naturalHeight": 280,
+          "elementKind": "img",
+          "elementIndex": 24,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/26781/",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-003",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/8/multimedia-190888.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(4) > img",
+          "alt": "",
+          "nearbyText": "Foto: Nationalmuseum, CC BY-SAFoto: Linn Ahlgren / Nationalmuseum, CC BY SA© Foto: Nationalmuseum, CC BY SA© Foto: Alexis Daflos / Nationalmuseum, CC BY SA© Foto: Alexis Daflos / Nationalmuseum, CC BY SA© Foto: Nationalmuseum, CC BY SAFoto: Erik Cornelius / Nationalmuseum, CC BY SAFoto: Nationalmuseum, CC BY SAFoto: Nationalmuseum, CC BY SAFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Alexis Daflos / Nationalmuseum, Public DomainFoto: Alexis Daflos / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, CC BY-SAFoto: Linn Ahlgren / Nationalmuseum, CC BY SAOn displayAdd to my collectionCopy bookmarkable linkOdinBengt Erland Fogelberg (1786 - 1854)Artist/MakerArtist: Bengt Erland Fogelberg (1786 - 1854)DatesMade: Made 1830Material / TechniqueCarrara ",
+          "visible": true,
+          "boundingBox": {
+            "x": 368,
+            "y": 866,
+            "width": 92,
+            "height": 92
+          },
+          "naturalWidth": 280,
+          "naturalHeight": 280,
+          "elementKind": "img",
+          "elementIndex": 25,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/26781/",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-004",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/4/multimedia-923554.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(10) > img",
+          "alt": "",
+          "nearbyText": "Foto: Nationalmuseum, CC BY-SAFoto: Linn Ahlgren / Nationalmuseum, CC BY SA© Foto: Nationalmuseum, CC BY SA© Foto: Alexis Daflos / Nationalmuseum, CC BY SA© Foto: Alexis Daflos / Nationalmuseum, CC BY SA© Foto: Nationalmuseum, CC BY SAFoto: Erik Cornelius / Nationalmuseum, CC BY SAFoto: Nationalmuseum, CC BY SAFoto: Nationalmuseum, CC BY SAFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Alexis Daflos / Nationalmuseum, Public DomainFoto: Alexis Daflos / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, CC BY-SAFoto: Linn Ahlgren / Nationalmuseum, CC BY SAOn displayAdd to my collectionCopy bookmarkable linkOdinBengt Erland Fogelberg (1786 - 1854)Artist/MakerArtist: Bengt Erland Fogelberg (1786 - 1854)DatesMade: Made 1830Material / TechniqueCarrara ",
+          "visible": true,
+          "boundingBox": {
+            "x": 893,
+            "y": 866,
+            "width": 92,
+            "height": 92
+          },
+          "naturalWidth": 280,
+          "naturalHeight": 280,
+          "elementKind": "img",
+          "elementIndex": 31,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/26781/",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-005",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/7/multimedia-1023147.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(12) > img",
+          "alt": "",
+          "nearbyText": "Foto: Nationalmuseum, CC BY-SAFoto: Linn Ahlgren / Nationalmuseum, CC BY SA© Foto: Nationalmuseum, CC BY SA© Foto: Alexis Daflos / Nationalmuseum, CC BY SA© Foto: Alexis Daflos / Nationalmuseum, CC BY SA© Foto: Nationalmuseum, CC BY SAFoto: Erik Cornelius / Nationalmuseum, CC BY SAFoto: Nationalmuseum, CC BY SAFoto: Nationalmuseum, CC BY SAFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Alexis Daflos / Nationalmuseum, Public DomainFoto: Alexis Daflos / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, CC BY-SAFoto: Linn Ahlgren / Nationalmuseum, CC BY SAOn displayAdd to my collectionCopy bookmarkable linkOdinBengt Erland Fogelberg (1786 - 1854)Artist/MakerArtist: Bengt Erland Fogelberg (1786 - 1854)DatesMade: Made 1830Material / TechniqueCarrara ",
+          "visible": true,
+          "boundingBox": {
+            "x": 1097,
+            "y": 866,
+            "width": 92,
+            "height": 92
+          },
+          "naturalWidth": 280,
+          "naturalHeight": 280,
+          "elementKind": "img",
+          "elementIndex": 33,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/26781/",
+          "identityScore": 1020
+        }
+      ]
+    },
+    {
+      "workId": "persson-portrait-of-a-pea-nmk-169-1972",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "persson-portrait-of-a-pea-nmk-169-1972",
+        "title": "Sculpture Portrait of a Pea",
+        "objectType": "design_object",
+        "titleZh": "",
+        "titleEn": "Sculpture Portrait of a Pea",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "1971",
+        "medium": "Silver and wood",
+        "identityAnchor": "NMK 169/1972",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/8717/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/8717/",
+        "accessionNumber": "NMK 169/1972",
+        "collectionGroup": "Metalwork and design"
+      },
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/8717/",
+      "page": {
+        "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/8717/",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/8717/",
+        "pageTitle": "Sculpture ”Portrait of a pea” | Nationalmuseum",
+        "bodyText": "This website uses cookies\nWe use device identifiers to adapt the content of the site and analyse how it is used. We also forward these identifiers and other information from your device to the social media and the advertising and analysis companies that we collaborate with.  \nConsent Selection\nNecessary\nPreferences\nStatistics\nMarketing and videos\nShow details\nAllow all\nAllow selection\nDeny\nEN\nHome\nObjects\nPersons\nMy Collection\n© Bildupphovsrätt i Sverige\n© Bildupphovsrätt i Sverige\n© Bildupphovsrätt i Sverige\n© Bildupphovsrätt i Sverige\n© Bildupphovsrätt i Sverige\n© Bildupphovsrätt i Sverige\n© Bildupphovsrätt i Sverige\nOn display\nAdd to my collection\nCopy bookmarkable link\nSculpture ”Portrait of a pea”\nSigurd Persson (1914 - 2003)\n\nArtist/Maker\nDesigned by: Sigurd Persson (1914 - 2003)\nMade by: Johann Wist (1929 - )\nManufacturer: Sigurd Perssons verkstad\n\nDates\nManufactured: Manufactured 1971\n\nMaterial / Technique\nSilver, wood\n\nDimensions\nh: Mått 17 cm\n\nInventory number\nNMK 169/1972\n\nAcqusition\nGift 1972 The Craft Association of Stockholm City\n\nOther titles\nTitle (sv): Skulptur \"Porträtt av en ärta\"\nTitle (en): Sculpture ”Portrait of a pea”\n\nDescription\nDescription: Sigurd Persson was a versatile designer who fashioned pots and brooms as well as jewellery and unique silver jugs. With Portrait of a pea he questioned why oil paintings on canvas were regarded as art while a silver jug was defined as a handicraft product. Since the traditional riposte had been that art lacked a practical function, Persson challenged that position with his sculpture.\n\nExhibited\nNationalmuseum -> Room 1409 1965-Present Day\n\nCollection\nMetal (Applied art and design)\n\nMaterial\nSilver (Metal)\n\nTechnique\nApplied art\n\nContact information\nTel: 08-519 543 00\nE-Mail: info@nationalmuseum.se\nContact us\nMore information\nAbout the collection\nImages and copyrights\nHow to use the online collection\nFollow us\nAbout Nationalmuseum\nOpening Hours\nExhibitions\nFree Images On Wikimedia",
+        "candidateCount": 30
+      },
+      "candidates": [
+        {
+          "candidateId": "page-image-001",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/8/multimedia-3958.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > img",
+          "alt": "",
+          "nearbyText": "© Bildupphovsrätt i Sverige© Bildupphovsrätt i Sverige© Bildupphovsrätt i Sverige© Bildupphovsrätt i Sverige© Bildupphovsrätt i Sverige© Bildupphovsrätt i Sverige© Bildupphovsrätt i SverigeOn displayAdd to my collectionCopy bookmarkable linkSculpture ”Portrait of a pea”Sigurd Persson (1914 - 2003)Artist/MakerDesigned by: Sigurd Persson (1914 - 2003)Made by: Johann Wist (1929 - )Manufacturer: Sigurd Perssons verkstadDatesManufactured: Manufactured 1971Material / TechniqueSilver, woodDimensionsh: Mått 17 cmInventory numberNMK 169/1972AcqusitionGift 1972 The Craft Association of Stockholm CityOther titlesTitle (sv): Skulptur \"Porträtt av en ärta\"\nTitle (en): Sculpture ”Portrait of a pea”DescriptionDescription: Sigurd Persson was a versatile designer who fashioned pots and brooms as well as je",
+          "visible": true,
+          "boundingBox": {
+            "x": 569,
+            "y": 866,
+            "width": 92,
+            "height": 92
+          },
+          "naturalWidth": 280,
+          "naturalHeight": 280,
+          "elementKind": "img",
+          "elementIndex": 15,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/8717/",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-002",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/9/multimedia-3959.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > img",
+          "alt": "",
+          "nearbyText": "© Bildupphovsrätt i Sverige© Bildupphovsrätt i Sverige© Bildupphovsrätt i Sverige© Bildupphovsrätt i Sverige© Bildupphovsrätt i Sverige© Bildupphovsrätt i Sverige© Bildupphovsrätt i SverigeOn displayAdd to my collectionCopy bookmarkable linkSculpture ”Portrait of a pea”Sigurd Persson (1914 - 2003)Artist/MakerDesigned by: Sigurd Persson (1914 - 2003)Made by: Johann Wist (1929 - )Manufacturer: Sigurd Perssons verkstadDatesManufactured: Manufactured 1971Material / TechniqueSilver, woodDimensionsh: Mått 17 cmInventory numberNMK 169/1972AcqusitionGift 1972 The Craft Association of Stockholm CityOther titlesTitle (sv): Skulptur \"Porträtt av en ärta\"\nTitle (en): Sculpture ”Portrait of a pea”DescriptionDescription: Sigurd Persson was a versatile designer who fashioned pots and brooms as well as je",
+          "visible": true,
+          "boundingBox": {
+            "x": 671,
+            "y": 866,
+            "width": 92,
+            "height": 92
+          },
+          "naturalWidth": 280,
+          "naturalHeight": 280,
+          "elementKind": "img",
+          "elementIndex": 16,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/8717/",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-003",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/0/multimedia-3960.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(4) > img",
+          "alt": "",
+          "nearbyText": "© Bildupphovsrätt i Sverige© Bildupphovsrätt i Sverige© Bildupphovsrätt i Sverige© Bildupphovsrätt i Sverige© Bildupphovsrätt i Sverige© Bildupphovsrätt i Sverige© Bildupphovsrätt i SverigeOn displayAdd to my collectionCopy bookmarkable linkSculpture ”Portrait of a pea”Sigurd Persson (1914 - 2003)Artist/MakerDesigned by: Sigurd Persson (1914 - 2003)Made by: Johann Wist (1929 - )Manufacturer: Sigurd Perssons verkstadDatesManufactured: Manufactured 1971Material / TechniqueSilver, woodDimensionsh: Mått 17 cmInventory numberNMK 169/1972AcqusitionGift 1972 The Craft Association of Stockholm CityOther titlesTitle (sv): Skulptur \"Porträtt av en ärta\"\nTitle (en): Sculpture ”Portrait of a pea”DescriptionDescription: Sigurd Persson was a versatile designer who fashioned pots and brooms as well as je",
+          "visible": true,
+          "boundingBox": {
+            "x": 773,
+            "y": 866,
+            "width": 92,
+            "height": 92
+          },
+          "naturalWidth": 280,
+          "naturalHeight": 280,
+          "elementKind": "img",
+          "elementIndex": 17,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/8717/",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-004",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/1/multimedia-3961.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(5) > img",
+          "alt": "",
+          "nearbyText": "© Bildupphovsrätt i Sverige© Bildupphovsrätt i Sverige© Bildupphovsrätt i Sverige© Bildupphovsrätt i Sverige© Bildupphovsrätt i Sverige© Bildupphovsrätt i Sverige© Bildupphovsrätt i SverigeOn displayAdd to my collectionCopy bookmarkable linkSculpture ”Portrait of a pea”Sigurd Persson (1914 - 2003)Artist/MakerDesigned by: Sigurd Persson (1914 - 2003)Made by: Johann Wist (1929 - )Manufacturer: Sigurd Perssons verkstadDatesManufactured: Manufactured 1971Material / TechniqueSilver, woodDimensionsh: Mått 17 cmInventory numberNMK 169/1972AcqusitionGift 1972 The Craft Association of Stockholm CityOther titlesTitle (sv): Skulptur \"Porträtt av en ärta\"\nTitle (en): Sculpture ”Portrait of a pea”DescriptionDescription: Sigurd Persson was a versatile designer who fashioned pots and brooms as well as je",
+          "visible": true,
+          "boundingBox": {
+            "x": 875,
+            "y": 866,
+            "width": 92,
+            "height": 92
+          },
+          "naturalWidth": 280,
+          "naturalHeight": 280,
+          "elementKind": "img",
+          "elementIndex": 18,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/8717/",
+          "identityScore": 1020
+        },
+        {
+          "candidateId": "page-image-005",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/7/multimedia-3957.small.jpg",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > img",
+          "alt": "",
+          "nearbyText": "© Bildupphovsrätt i Sverige© Bildupphovsrätt i Sverige© Bildupphovsrätt i Sverige© Bildupphovsrätt i Sverige© Bildupphovsrätt i Sverige© Bildupphovsrätt i Sverige© Bildupphovsrätt i SverigeOn displayAdd to my collectionCopy bookmarkable linkSculpture ”Portrait of a pea”Sigurd Persson (1914 - 2003)Artist/MakerDesigned by: Sigurd Persson (1914 - 2003)Made by: Johann Wist (1929 - )Manufacturer: Sigurd Perssons verkstadDatesManufactured: Manufactured 1971Material / TechniqueSilver, woodDimensionsh: Mått 17 cmInventory numberNMK 169/1972AcqusitionGift 1972 The Craft Association of Stockholm CityOther titlesTitle (sv): Skulptur \"Porträtt av en ärta\"\nTitle (en): Sculpture ”Portrait of a pea”DescriptionDescription: Sigurd Persson was a versatile designer who fashioned pots and brooms as well as je",
+          "visible": true,
+          "boundingBox": {
+            "x": 480,
+            "y": 862,
+            "width": 79,
+            "height": 100
+          },
+          "naturalWidth": 222,
+          "naturalHeight": 280,
+          "elementKind": "img",
+          "elementIndex": 14,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/8717/",
+          "identityScore": 1020
+        }
+      ]
+    },
+    {
+      "workId": "stig-lindberg-bersa-bowl-nmk-60-1996",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "stig-lindberg-bersa-bowl-nmk-60-1996",
+        "title": "Bowl Berså, model LL",
+        "objectType": "design_object",
+        "titleZh": "",
+        "titleEn": "Bowl Berså, model LL",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "1960",
+        "medium": "Earthenware with printed green and black decoration",
+        "identityAnchor": "NMK 60/1996",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/136848/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/136848/",
+        "accessionNumber": "NMK 60/1996",
+        "collectionGroup": "Industrial design"
+      },
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/136848/",
+      "page": {
+        "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/136848/",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/136848/",
+        "pageTitle": "Bowl ”Berså”, model LL | Nationalmuseum",
+        "bodyText": "This website uses cookies\nWe use device identifiers to adapt the content of the site and analyse how it is used. We also forward these identifiers and other information from your device to the social media and the advertising and analysis companies that we collaborate with.  \nConsent Selection\nNecessary\nPreferences\nStatistics\nMarketing and videos\nShow details\nAllow all\nAllow selection\nDeny\nEN\nHome\nObjects\nPersons\nMy Collection\n© Foto: Greta Lindström / Nationalmuseum, © Bildupphovsrätt i Sverige\nOn display\nAdd to my collection\nCopy bookmarkable link\nBowl ”Berså”, model LL\nStig Lindberg (1916 - 1982)\n\nArtist/Maker\nDesigner: Stig Lindberg (1916 - 1982)\nManufacturer: Gustavsberg\n\nDates\nDesigned: Designed 1960\nMade: Made 1960\n\nMaterial / Technique\nEarthenware, printed decor\n\nDimensions\nh x diam: Mått 8,5 x 17 cm\n\nInventory number\nNMK 60/1996\n\nAcqusition\nGift 1996 Superintendent Kersti Holmquist\n\nOther titles\nTitle (en): Bowl ”Berså”, model LL\nLabel (sv): Skål \"Berså\", modell LL\nService: Skål \"Berså\" modell LL\n\nExhibited\nNationalmuseum -> Sal 1222 The Design Depot\n\nCollection\nIndustrial design (Applied art and design)\n\nContact information\nTel: 08-519 543 00\nE-Mail: info@nationalmuseum.se\nContact us\nMore information\nAbout the collection\nImages and copyrights\nHow to use the online collection\nFollow us\nAbout Nationalmuseum\nOpening Hours\nExhibitions\nFree Images On Wikimedia",
+        "candidateCount": 6
+      },
+      "candidates": [
+        {
+          "candidateId": "page-image-001",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/0/multimedia-177570.large.jpg",
+          "selector": "div > div > div > div > div > figure > div > img",
+          "alt": "",
+          "nearbyText": "",
+          "visible": true,
+          "boundingBox": {
+            "x": 20,
+            "y": 180,
+            "width": 1400,
+            "height": 637
+          },
+          "naturalWidth": 1081,
+          "naturalHeight": 720,
+          "elementKind": "img",
+          "elementIndex": 5,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/136848/",
+          "identityScore": 20
+        },
+        {
+          "candidateId": "page-image-002",
+          "url": "https://collection.nationalmuseum.se/multimedia/0/multimedia-177570.large.jpg",
+          "contentType": "image/jpeg",
+          "sourceType": "network_image",
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/136848/",
+          "identityScore": -10
+        },
+        {
+          "candidateId": "page-image-003",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/icons/close.svg",
+          "selector": "header#header > div:nth-of-type(1) > div > div:nth-of-type(1) > div > button:nth-of-type(1) > img",
+          "alt": "clear input button",
+          "nearbyText": "",
+          "visible": false,
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "naturalWidth": 24,
+          "naturalHeight": 24,
+          "elementKind": "img",
+          "elementIndex": 3,
+          "genericPenalty": 1,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/136848/",
+          "identityScore": -1000
+        },
+        {
+          "candidateId": "page-image-004",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "selector": "header#header > div:nth-of-type(1) > div > div:nth-of-type(1) > div > button:nth-of-type(2) > img",
+          "alt": "Search",
+          "nearbyText": "",
+          "visible": false,
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "naturalWidth": 24,
+          "naturalHeight": 24,
+          "elementKind": "img",
+          "elementIndex": 4,
+          "genericPenalty": 1,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/136848/",
+          "identityScore": -1000
+        },
+        {
+          "candidateId": "page-image-005",
+          "url": "https://collection.nationalmuseum.se/icons/close.svg",
+          "contentType": "image/svg+xml",
+          "sourceType": "network_image",
+          "genericPenalty": 1,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/136848/",
+          "identityScore": -1000
+        }
+      ]
+    },
+    {
+      "workId": "mathsson-reclining-chair-36-nmk-46-2010",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "mathsson-reclining-chair-36-nmk-46-2010",
+        "title": "Reclining Chair No. 36",
+        "objectType": "design_object",
+        "titleZh": "",
+        "titleEn": "Reclining Chair No. 36",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "designed 1936; manufactured 1939",
+        "medium": "Bent-laminated birch, plywood and plaited webbing",
+        "identityAnchor": "NMK 46/2010",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/134846/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/134846/",
+        "accessionNumber": "NMK 46/2010",
+        "collectionGroup": "Furniture and design"
+      },
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Joshua_Tree_-_Sweet_Band_belay.jpg",
+      "page": {
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Joshua_Tree_-_Sweet_Band_belay.jpg",
+        "finalUrl": "https://commons.wikimedia.org/wiki/File:Joshua_Tree_-_Sweet_Band_belay.jpg",
+        "pageTitle": "Wikimedia Commons API",
+        "bodyText": "",
+        "candidateCount": 5
+      },
+      "candidates": [
+        {
+          "candidateId": "commons-001",
+          "candidateType": "direct_image",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Joshua_Tree_-_Sweet_Band_belay.jpg/1920px-Joshua_Tree_-_Sweet_Band_belay.jpg",
+          "nearbyText": "Joshua Tree - Sweet Band belay.jpg",
+          "naturalWidth": 1600,
+          "naturalHeight": 1858,
+          "contentType": "image/jpeg",
+          "sourceType": "wikidata-commons",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Joshua_Tree_-_Sweet_Band_belay.jpg",
+          "identityScore": 0
+        },
+        {
+          "candidateId": "commons-002",
+          "candidateType": "direct_image",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Reclining_chairs_redux_%285806088681%29.jpg/1920px-Reclining_chairs_redux_%285806088681%29.jpg",
+          "nearbyText": "Reclining chairs redux (5806088681).jpg",
+          "naturalWidth": 1600,
+          "naturalHeight": 1067,
+          "contentType": "image/jpeg",
+          "sourceType": "wikidata-commons",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Reclining_chairs_redux_(5806088681).jpg",
+          "identityScore": 0
+        },
+        {
+          "candidateId": "commons-003",
+          "candidateType": "direct_image",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Me_travel%3F_...not_this_summer._Vacation_at_home_-_DPLA_-_7a9e2ab43e8296a54d6a9a601f2b11b4.jpg/1920px-Me_travel%3F_...not_this_summer._Vacation_at_home_-_DPLA_-_7a9e2ab43e8296a54d6a9a601f2b11b4.jpg",
+          "nearbyText": "Me travel? ...not this summer. Vacation at home - DPLA - 7a9e2ab43e8296a54d6a9a601f2b11b4.jpg",
+          "naturalWidth": 1600,
+          "naturalHeight": 2212,
+          "contentType": "image/jpeg",
+          "sourceType": "wikidata-commons",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Me_travel%3F_...not_this_summer._Vacation_at_home_-_DPLA_-_7a9e2ab43e8296a54d6a9a601f2b11b4.jpg",
+          "identityScore": 0
+        },
+        {
+          "candidateId": "commons-004",
+          "candidateType": "direct_image",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/William_F._%22Buffalo_Bill%22_Cody%2C_Gordon_W._%22Pawnee_Bill%22_Lillie_and_companions_gather_for_a_meal%2C_circa_1912_-_DPLA_-_69a096940a3ffbef000d3bd753eb9e3a_%28page_2%29.jpg/1920px-thumbnail.jpg",
+          "nearbyText": "William F. \"Buffalo Bill\" Cody, Gordon W. \"Pawnee Bill\" Lillie and companions gather for a meal, circa 1912 - DPLA - 69a096940a3ffbef000d3bd753eb9e3a (page 2).jpg",
+          "naturalWidth": 1600,
+          "naturalHeight": 2147,
+          "contentType": "image/jpeg",
+          "sourceType": "wikidata-commons",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:William_F._%22Buffalo_Bill%22_Cody,_Gordon_W._%22Pawnee_Bill%22_Lillie_and_companions_gather_for_a_meal,_circa_1912_-_DPLA_-_69a096940a3ffbef000d3bd753eb9e3a_(page_2).jpg",
+          "identityScore": 0
+        },
+        {
+          "candidateId": "commons-005",
+          "candidateType": "direct_image",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Folding_Wooden_Beach_Chair_-_DPLA_-_09265a515c4f6d2989cbf9ef94ff99d9_%28page_36%29.jpg/1920px-Folding_Wooden_Beach_Chair_-_DPLA_-_09265a515c4f6d2989cbf9ef94ff99d9_%28page_36%29.jpg",
+          "nearbyText": "Folding Wooden Beach Chair - DPLA - 09265a515c4f6d2989cbf9ef94ff99d9 (page 36).jpg",
+          "naturalWidth": 1600,
+          "naturalHeight": 1067,
+          "contentType": "image/jpeg",
+          "sourceType": "wikidata-commons",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Folding_Wooden_Beach_Chair_-_DPLA_-_09265a515c4f6d2989cbf9ef94ff99d9_(page_36).jpg",
+          "identityScore": 0
+        }
+      ]
+    }
+  ]
+}

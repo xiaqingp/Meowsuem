@@ -1,0 +1,33 @@
+{
+  "id": "PCR-2026-08-01-retry-official-og-ranking",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-01",
+  "ownerInstruction": "用最新 pipeline 生成并发布 Rosenborg Castle；failed-image retry 已枚举到 Rose-Cut Diamond Set 官方 OG 图但把它排出前五，允许让 retry 复用已批准的精确对象页 OG 身份信号。",
+  "baseRelease": "research/pipeline/releases/v2.13.36.json",
+  "targetVersion": "2.13.37",
+  "implementationStatus": "completed",
+  "scope": [
+    "share the exact official-object-page OG title match helper with failed-image retry",
+    "rank that exact OG candidate above unrelated linked collection cards"
+  ],
+  "outOfScope": [
+    "accepting collection-index OG images",
+    "changing image byte, hash, duplicate or hero rejection gates",
+    "rerunning non-image stages"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/lib/two-level-image-resolution.mjs",
+    "scripts/retry-failed-image-evidence.mjs"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/test-two-level-image-resolution.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=mock",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

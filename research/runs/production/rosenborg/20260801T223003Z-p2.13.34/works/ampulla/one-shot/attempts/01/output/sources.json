@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "ampulla",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Ampulla",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/ampulla/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "use",
+        "historical_context",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Treasury, Section 3 (room I)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-i-the-treasury/",
+      "sourceType": "museum",
+      "usedFor": [
+        "accessionNumber",
+        "collectionRelation",
+        "maker",
+        "use",
+        "displayLocation",
+        "availability"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "丹麦王权涂油仪式以涂油来表明国王的权力来自上帝。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "首次使用年份",
+      "statement": "对象页将其与克里斯蒂安五世1670年的即位联系起来；宝库展厅说明则将克里斯蒂安五世的涂油仪式标为1671年。本文采用“绝对王权时期、克里斯蒂安五世时期”的保守表述。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "creator",
+      "severity": "blocking",
+      "statement": "锁定metadata将artistZh/artistEn列为“丹麦王室 / Danish royal collection”；官方宝库说明则称该器物由哥本哈根一位不知名金匠制作。本文按官方来源说明具体制作者未详，并将丹麦王室作为收藏关系处理。",
+      "sourceIds": [
+        "S2"
+      ]
+    }
+  ]
+}

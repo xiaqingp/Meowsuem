@@ -1,0 +1,54 @@
+{
+    "runId":  "20260801T164044Z-p2.13.13",
+    "stage":  "museum_scope",
+    "museumId":  "nationalmuseum",
+    "caseId":  "",
+    "workId":  "",
+    "pipelineVersion":  "2.13.13",
+    "instructionVersion":  "2.4.2",
+    "model":  "gpt-5.6-luna",
+    "reasoningEffort":  "high",
+    "runnerStartedAt":  "2026-08-01T09:41:26.2819679-07:00",
+    "modelStartedAt":  "2026-08-01T09:41:26.5443290-07:00",
+    "modelCompletedAt":  "2026-08-01T09:43:27.3135102-07:00",
+    "completedAt":  "2026-08-01T09:43:27.3337980-07:00",
+    "runnerDurationMs":  121052,
+    "modelDurationMs":  120769,
+    "tokenUsage":  {
+                       "total":  78879,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "2",
+                                    "4",
+                                    "12",
+                                    "13"
+                                ],
+    "logPath":  "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/scope/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "e2d6e331f53fb1d7c4b078c0aabc1b03548e4d4504ea218d1a08e09929adc2cc"
+                   },
+                   {
+                       "path":  "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/scope/request.json",
+                       "role":  "museum_request",
+                       "sha256":  "d7a9b6e07029762ecdfaf0e9d7bc53a2ab149e9fba69922644f0ee33b119613f"
+                   },
+                   {
+                       "path":  "research/pipeline/prompts/museum-scope.md",
+                       "role":  "stage_prompt",
+                       "sha256":  "22fa0c00e34d960f415b983c929948bb674cc14d0a8e4238ce7f6a4aa0e09f26"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "scope.json",
+                        "sha256":  "c4dcda28b872a57be3f59a84df17f8953bd090760462194493202d6932791b8b",
+                        "bytes":  8735
+                    }
+                ]
+}

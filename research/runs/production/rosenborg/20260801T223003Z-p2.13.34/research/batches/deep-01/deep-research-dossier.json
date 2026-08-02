@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 1,
+  "museumId": "rosenborg",
+  "researchedAt": "2026-08-01",
+  "works": [
+    {
+      "workId": "emerald-set",
+      "identityStatus": "stable",
+      "identityAnchor": "official-object:the-emerald-set",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-emerald-set/",
+      "availability": "normally_on_display_at_rosenborg_treasury_but_visit_day_unconfirmed",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "1840年的成套镶嵌把可追溯至1723年王室赠礼的翡翠重新组织为一套王冠珠宝，也是四套王冠珠宝中原始配置含冠冕的一套。",
+      "selectionSignals": [
+        "可解释旧宝石如何经继承与重新镶嵌成为王冠珠宝",
+        "官方确认超过三分之一的翡翠可追溯至1723年的项链与十字架",
+        "与其余三套相比，原始完整配置中的冠冕构成明确差异"
+      ],
+      "sectionSignals": ["王冠珠宝的继承与重组", "十九世纪珠宝套饰"],
+      "routeSignals": ["Treasury第3区王冠珠宝组的优先代表"],
+      "riskFlags": ["current_display_status"],
+      "riskResolution": {
+        "status": "bounded",
+        "evidence": "馆方称王冠珠宝在Rosenborg Treasury全年可见，但同时说明现任王后每年会在少数场合佩戴，故通常陈列成立，具体参观日仍须核验是否临时离柜。",
+        "requiredDownstreamHandling": "标为通常陈列；参观日前向馆方核验，不承诺当天一定可见。"
+      },
+      "comparisonEvidence": {
+        "comparisonClass": "丹麦王冠珠宝的四套现行套饰",
+        "nearestComparators": ["pearl-ruby-set", "brilliant-cut-diamond-set", "rose-cut-diamond-set"],
+        "decisiveDifference": "馆方明确称其为四套中原始配置唯一包含冠冕的一套；2024年玫瑰式切割钻石的新冠冕是后来加设的可逆镶架。",
+        "rarityBoundary": "此差异只适用于丹麦王冠珠宝四套内部，不支持全球唯一或稀世珍品结论。"
+      },
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-emerald-set/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/the-crown-jewels/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-i-the-treasury/"
+      ]
+    },
+    {
+      "workId": "pearl-ruby-set",
+      "identityStatus": "stable",
+      "identityAnchor": "official-object:the-pearl-ruby-set",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-pearl-ruby-set/",
+      "availability": "normally_on_display_at_rosenborg_treasury_but_visit_day_unconfirmed",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "1842年的套饰保留了可确定追溯至17世纪晚期的大型珍珠，把王室家传珠宝、红白配色与可拆分使用集中在同一组对象中。",
+      "selectionSignals": [
+        "馆方称红宝石和大型珍珠是王冠珠宝中年代最早的组成部分",
+        "大型珍珠可确定追溯至17世纪晚期，但更早身份仅为可能",
+        "胸针可以拆分使用，适合说明王冠珠宝不是静态组合"
+      ],
+      "sectionSignals": ["王冠珠宝的继承与重组", "可拆分珠宝与持续使用"],
+      "routeSignals": ["与翡翠套饰二选一或并看，突出材料传承"],
+      "riskFlags": ["current_display_status"],
+      "riskResolution": {
+        "status": "bounded",
+        "evidence": "馆方的Treasury房间清单列出编号5532，王冠珠宝总页称这些珠宝全年在Treasury可见，同时每年少数场合会由王后佩戴。",
+        "requiredDownstreamHandling": "标为通常陈列；参观日前核验是否因王室使用临时离柜。"
+      },
+      "comparisonEvidence": {
+        "comparisonClass": "丹麦王冠珠宝的四套现行套饰",
+        "nearestComparators": ["emerald-set", "brilliant-cut-diamond-set", "rose-cut-diamond-set"],
+        "decisiveDifference": "其大型珍珠是四套中来源年代线索最早且最明确的一组材料；但馆方未确认这些珍珠的全球数量或唯一性。",
+        "rarityBoundary": "可称王冠珠宝内部最古老组成之一，不可据此推出全球稀有或不可替代。"
+      },
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-pearl-ruby-set/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/the-crown-jewels/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-i-the-treasury/"
+      ]
+    },
+    {
+      "workId": "brilliant-cut-diamond-set",
+      "identityStatus": "stable",
+      "identityAnchor": "official-object:the-brilliant-cut-diamond-set",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-brillant-cut-diamond-set/",
+      "availability": "normally_on_display_at_rosenborg_treasury_but_visit_day_unconfirmed",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "1840年的现行组合把多位王室女性先前佩戴于发针、戒指和耳饰的钻石重组为项链、胸针与耳坠，清楚呈现王冠珠宝的再利用机制。",
+      "selectionSignals": [
+        "编号5560在Treasury第3区清单中有完整套饰记录",
+        "中央及垂坠钻石可连接不同王后、婚礼赠礼与旧镶嵌",
+        "弹簧安装的胸针花朵提供具体工艺价值"
+      ],
+      "sectionSignals": ["王冠珠宝的继承与重组", "钻石切割与活动镶嵌"],
+      "routeSignals": ["与玫瑰式切割套饰对看切割和使用方式"],
+      "riskFlags": ["current_display_status"],
+      "riskResolution": {
+        "status": "bounded",
+        "evidence": "馆方Treasury清单列出编号5560；王冠珠宝总页说明四套珠宝在Treasury全年展示，但会在王室特殊场合佩戴。",
+        "requiredDownstreamHandling": "标为通常陈列；具体参观日核验临时离柜情况。"
+      },
+      "comparisonEvidence": {
+        "comparisonClass": "丹麦王冠珠宝中的钻石套饰",
+        "nearestComparators": ["rose-cut-diamond-set"],
+        "decisiveDifference": "明亮式切割为58个切面；玫瑰式切割为平底24切面，反光表现和原始佩戴形制均不同。",
+        "rarityBoundary": "切割和来源差异足以支持并列比较，不支持稀世珍品等级。"
+      },
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-brillant-cut-diamond-set/",
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-tiara/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/the-crown-jewels/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-i-the-treasury/"
+      ]
+    },
+    {
+      "workId": "rose-cut-diamond-set",
+      "identityStatus": "stable",
+      "identityAnchor": "official-object:the-rose-cut-diamond-set",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/",
+      "availability": "normally_on_display_at_rosenborg_treasury_but_visit_day_unconfirmed",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "账单、肖像与器物上的小环共同纠正了长期误认：这条长链原是缝在紧身胸衣前部的腰带，而非项链；2024年的可逆冠冕镶架又延续了改装传统。",
+      "selectionSignals": [
+        "1842年账单把长期被视为项链的长链识别为腰带",
+        "器物小环支持其缝在礼服前部而非环绕全腰",
+        "2024年用部分旧钻石装入新发带镶架，原镶座仍保留"
+      ],
+      "sectionSignals": ["服装改变珠宝意义", "历史藏品的可逆再使用"],
+      "routeSignals": ["王冠珠宝组中承担形制辨认与当代延续的节点"],
+      "riskFlags": ["current_display_status"],
+      "riskResolution": {
+        "status": "bounded",
+        "evidence": "Treasury第3区清单列出编号5564；王冠珠宝总页称王冠珠宝全年展示，但部分钻石可因王后使用而装入2024年冠冕并离柜。",
+        "requiredDownstreamHandling": "套饰标为通常陈列；参观日前核验整组及被抽取钻石的实际状态。"
+      },
+      "comparisonEvidence": {
+        "comparisonClass": "丹麦王冠珠宝中的钻石套饰",
+        "nearestComparators": ["brilliant-cut-diamond-set", "rose-cut-diamond-tiara"],
+        "decisiveDifference": "其核心不是普通项链，而是有服装缝附证据的腰带；同批钻石又能以可逆方式形成2024年冠冕。",
+        "rarityBoundary": "馆方未提供同类腰链的全球存世比较，不能据此标为稀世珍品。"
+      },
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/",
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-tiara/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/the-crown-jewels/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-i-the-treasury/"
+      ]
+    },
+    {
+      "workId": "rose-cut-diamond-tiara",
+      "identityStatus": "stable_component_arrangement",
+      "identityAnchor": "official-object:the-rose-cut-diamond-tiara",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-tiara/",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "体验补充",
+      "rareCandidate": false,
+      "coreValue": "2024年的冠冕不是对旧套饰的永久改造，而是把玫瑰式切割钻石装到新制发带镶架上；旧镶座被保存，钻石仍可恢复腰带形制。",
+      "selectionSignals": [
+        "适合解释王冠珠宝作为仍在使用的文化遗产",
+        "新镶架与旧钻石必须区分，不能把整件冠冕误写成1840年代原物",
+        "与rose-cut-diamond-set共享材料，不应作为独立收藏线重复计分"
+      ],
+      "sectionSignals": ["历史藏品的可逆再使用", "当代王室使用"],
+      "routeSignals": ["作为玫瑰式切割钻石套饰的从属补充，不单独占用核心路线名额"],
+      "riskFlags": ["current_display_status"],
+      "riskResolution": {
+        "status": "unresolved_with_exact_boundary",
+        "evidence": "馆方对象页确认2024年新镶架及其可佩戴性，但未声明该冠冕作为独立装配在Treasury持续展出；王冠珠宝总页只支持藏品组通常全年可见。",
+        "requiredDownstreamHandling": "不得声称独立冠冕当天在展；只可标展出状态待核验，并与母套饰建立从属关系。"
+      },
+      "comparisonEvidence": {
+        "comparisonClass": "同一批玫瑰式切割钻石的历史与当代装配",
+        "nearestComparators": ["rose-cut-diamond-set"],
+        "decisiveDifference": "冠冕仅指2024年新制发带镶架上的临时组合；母套饰指1840年代腰带、垂饰及其原镶座。",
+        "rarityBoundary": "这是父项的可逆配置，不具备独立稀有度比较基础。"
+      },
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-tiara/",
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/the-crown-jewels/"
+      ]
+    },
+    {
+      "workId": "christian-iv-crown",
+      "identityStatus": "stable",
+      "identityAnchor": "official-object:christian-ivs-crown",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/christian-iv-s-crown/",
+      "availability": "confirmed_on_display_at_rosenborg_treasury_official_page_current_as_of_research",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "1596年的开放式加冕王冠用统治者美德图像和卡尔马联盟的王冠传统塑造克里斯蒂安四世的王权主张，并因被典当、赎回和改装而保留下来。",
+      "selectionSignals": [
+        "馆方对象页明确称原物现陈列于Rosenborg地下Treasury",
+        "开放式形制被馆方解释为继承统一北欧王国传统的政治表达",
+        "王冠在1644年被典当，1648年由弗雷德里克三世赎回并再次用于加冕"
+      ],
+      "sectionSignals": ["文艺复兴王权形象", "从选举王权到绝对君主制"],
+      "routeSignals": ["Treasury第2区必看，并与克里斯蒂安五世王冠连续观看"],
+      "riskFlags": ["current_display_status"],
+      "riskResolution": {
+        "status": "resolved_at_official_page_level",
+        "evidence": "馆方对象页明确使用now on display，Treasury第2区页面又称该王冠位于房间中央。",
+        "requiredDownstreamHandling": "可标馆方确认在展；仍避免保证未来任一访问日无临时调整。"
+      },
+      "comparisonEvidence": {
+        "comparisonClass": "Rosenborg保存的丹麦国王王冠",
+        "nearestComparators": ["christian-v-crown"],
+        "decisiveDifference": "本件是1596年加冕所用的开放式王冠，以统治美德与联盟继承表达选举时代王权；后者是绝对君主制的闭合拱冠。",
+        "rarityBoundary": "制度与形制差异支持最高优先级，但缺少全球同类存世比较，不能判定稀世珍品。"
+      },
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/christian-iv-s-crown/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-h-the-treasury/"
+      ]
+    },
+    {
+      "workId": "christian-v-crown",
+      "identityStatus": "stable",
+      "identityAnchor": "official-object:christian-vs-crown",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/christian-v-s-crown/",
+      "availability": "confirmed_on_display_at_rosenborg_treasury_official_page_current_as_of_research",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "1670—1671年的闭合拱冠把绝对君主制的制度变化做成可见形制：它为首位以绝对君主身份继位的克里斯蒂安五世而制，并取代开放式旧冠。",
+      "selectionSignals": [
+        "馆方称其为绝对君主王冠，并把制度转折与新王冠制作直接相连",
+        "制作使用了从克里斯蒂安四世王冠拆下的拱部黄金",
+        "Treasury第3区称其为礼器中最重要的一件，并列出编号5592"
+      ],
+      "sectionSignals": ["从选举王权到绝对君主制", "礼器与制度"],
+      "routeSignals": ["Treasury第3区核心，与克里斯蒂安四世王冠成对观看"],
+      "riskFlags": ["current_display_status"],
+      "riskResolution": {
+        "status": "resolved_at_official_page_level",
+        "evidence": "馆方对象页说明原物须在Rosenborg Treasury观看；Treasury第3区页面称可见绝对君主的王冠并列出编号5592。",
+        "requiredDownstreamHandling": "可标馆方确认在展；未来具体日期仍以馆方临时通知为准。"
+      },
+      "comparisonEvidence": {
+        "comparisonClass": "Rosenborg保存的丹麦国王王冠",
+        "nearestComparators": ["christian-iv-crown"],
+        "decisiveDifference": "本件是绝对君主制的闭合拱冠并用于傅油礼；克里斯蒂安四世王冠是较早的开放式加冕冠。",
+        "rarityBoundary": "制度原物价值明确，但未完成全球同类王冠的数量与不可替代性比较。"
+      },
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/christian-v-s-crown/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-i-the-treasury/"
+      ]
+    },
+    {
+      "workId": "sceptre",
+      "identityStatus": "stable",
+      "identityAnchor": "official-object:the-sceptre",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-sceptre/",
+      "availability": "confirmed_on_display_at_rosenborg_treasury_official_page_current_as_of_research",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "1648年权杖把君主的权威与基督教恩典合在一件加冕礼器中，并从加冕、傅油礼延续到今日君主葬仪中的castrum doloris。",
+      "selectionSignals": [
+        "为弗雷德里克三世1648年加冕制作",
+        "顶部王冠与百合把权威和恩典的象征结合",
+        "馆方说明礼器如今只在君主去世后的陈灵礼中使用"
+      ],
+      "sectionSignals": ["礼器如何构成王权仪式", "仍在使用的历史礼器"],
+      "routeSignals": ["与王球、涂油壶合并成礼器组讲解，优先级高于三件分别占位"],
+      "riskFlags": ["current_display_status"],
+      "riskResolution": {
+        "status": "resolved_at_official_page_level",
+        "evidence": "馆方对象页明确称权杖及相关礼器均陈列于Rosenborg地下Treasury，房间清单列出编号5534。",
+        "requiredDownstreamHandling": "可标馆方确认在展；若逢君主葬仪存在临时离柜可能。"
+      },
+      "comparisonEvidence": {
+        "comparisonClass": "1648年丹麦王权礼器组",
+        "nearestComparators": ["orb", "ampulla"],
+        "decisiveDifference": "权杖承担恩典与权威符号；王球表现基督教世界秩序；涂油壶承载使君权神圣化的仪式用油。",
+        "rarityBoundary": "三者应作为互补系统评价，不以单件唯一性支持稀世珍品。"
+      },
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-sceptre/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-i-the-treasury/"
+      ]
+    },
+    {
+      "workId": "orb",
+      "identityStatus": "stable",
+      "identityAnchor": "official-object:the-orb",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-orb/",
+      "availability": "confirmed_on_display_at_rosenborg_treasury_official_page_current_as_of_research",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "1648年王球用三分的金色球体与顶部十字架，把君主手中的世界权力置于基督统治之下，是王权礼器系统中最清楚的宇宙秩序模型。",
+      "selectionSignals": [
+        "为弗雷德里克三世1648年加冕制作",
+        "馆方解释三分球体对应当时欧洲、亚洲、非洲的已知世界观",
+        "与权杖同持、随后受膏和加冕，使用顺序有馆方说明"
+      ],
+      "sectionSignals": ["礼器如何构成王权仪式", "世界图像与基督教君权"],
+      "routeSignals": ["作为礼器组中的符号解释节点，不必脱离权杖单独安排"],
+      "riskFlags": ["current_display_status"],
+      "riskResolution": {
+        "status": "resolved_at_official_page_level",
+        "evidence": "馆方对象页图片说明和正文均明确王球在Rosenborg Treasury展出，并称全部礼器在该处陈列。",
+        "requiredDownstreamHandling": "可标馆方确认在展；逢君主葬仪仍可能临时离柜。"
+      },
+      "comparisonEvidence": {
+        "comparisonClass": "1648年丹麦王权礼器组",
+        "nearestComparators": ["sceptre", "ampulla"],
+        "decisiveDifference": "王球的核心是由球体、三分带与十字架表达的世界统治；其余两件分别落实权威和受膏行为。",
+        "rarityBoundary": "无全球王球存世数量证据，不支持稀世珍品。"
+      },
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-orb/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-i-the-treasury/"
+      ]
+    },
+    {
+      "workId": "ampulla",
+      "identityStatus": "stable",
+      "identityAnchor": "official-object:ampulla",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/ampulla/",
+      "availability": "confirmed_in_rosenborg_treasury_room_listing_but_visit_day_unconfirmed",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "1648年涂油壶保存的是王权仪式的关键动作：绝对君主制取消加冕后，傅油成为证明君权来自上帝的核心礼仪，因此小型容器承担了制度转折中最大的神学功能。",
+      "selectionSignals": [
+        "为弗雷德里克三世1648年加冕制作并盛放傅油",
+        "绝对君主制建立后不再由他人加冕，傅油成为核心仪式",
+        "馆方Treasury第3区页面将其列入礼器并列出编号5538"
+      ],
+      "sectionSignals": ["礼器如何构成王权仪式", "绝对君主制与权力神学"],
+      "routeSignals": ["礼器组中解释制度变化最强，若三选一可优先保留"],
+      "riskFlags": ["current_display_status"],
+      "riskResolution": {
+        "status": "bounded",
+        "evidence": "Treasury第3区现行房间页称该区可见包含涂油壶的礼器，并在对象清单列出编号5538；对象页本身未使用now on display措辞。",
+        "requiredDownstreamHandling": "可标馆方房间清单确认陈列，具体访问日仍核验；不要把房间归属升级为永久不撤展。"
+      },
+      "comparisonEvidence": {
+        "comparisonClass": "1648年丹麦王权礼器组",
+        "nearestComparators": ["sceptre", "orb"],
+        "decisiveDifference": "涂油壶直接服务傅油动作；在1661年绝对君主制后，加冕被取消而傅油成为证明神授王权的核心仪式。",
+        "rarityBoundary": "仪式功能的重要性明确，但缺少同类器物的全球比较与存世数量。"
+      },
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/ampulla/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-i-the-treasury/"
+      ]
+    }
+  ]
+}

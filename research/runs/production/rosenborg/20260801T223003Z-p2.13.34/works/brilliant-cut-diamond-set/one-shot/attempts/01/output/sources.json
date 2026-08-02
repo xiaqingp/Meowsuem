@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "brilliant-cut-diamond-set",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Brillant-Cut Diamond Set",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-brillant-cut-diamond-set/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "collectionRelation",
+        "personHistory",
+        "technique",
+        "availability"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The Danish crown jewels",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/the-crown-jewels/",
+      "sourceType": "museum",
+      "usedFor": [
+        "collectionRelation",
+        "availability",
+        "history",
+        "craft"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Queen Caroline Mathilde (1751-1775)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/persons/queen-caroline-mathilde-1751-1775/",
+      "sourceType": "museum",
+      "usedFor": [
+        "personHistory",
+        "collectionRelation"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "现有明亮式切割钻石组合于1840年为卡罗琳·阿玛莉亚王后制作，她在同年受膏成为王后时佩戴了这套珠宝。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "许多宝石来自索菲·玛格达莱娜王后1746年遗嘱中留给丹麦王冠的珠宝，项链中央的水滴形钻石原为她发针上的坠饰。",
+      "type": "attribution",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "项链中央的大颗方形明亮式钻石曾镶在克里斯蒂安七世于1766年送给卡罗琳·马蒂尔德的戒指中，戒指后来归还王冠，钻石被纳入现有套饰。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S3"
+      ]
+    },
+    {
+      "claim": "胸针最大的花朵安装在螺旋弹簧上，佩戴时会振动以增强钻石的光线效果。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "玛丽王后目前可以使用这套王冠珠宝；玛格丽特二世曾在2004年王室婚礼上佩戴项链、耳环和胸针。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "availability",
+      "statement": "这套珠宝的具体展出状态可能随馆方收藏轮换而变化，文章未断言其在当前日期必然以完整套饰展出。"
+    }
+  ],
+  "upstreamConflicts": []
+}

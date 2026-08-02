@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "filesystemContractVersion": 1,
+  "runKind": "experiment",
+  "runId": "20260801T185057Z-p2.13.30",
+  "caseId": "nationalmuseum-invalid-capture-repair-v2",
+  "targetMuseumId": "nationalmuseum",
+  "milestone": "M31",
+  "pipelineVersion": "2.13.30",
+  "instructionVersion": "2.4.2",
+  "status": "verified",
+  "createdAt": "2026-08-01T18:50:57.772Z",
+  "createdBy": "scripts/create-generation-run.mjs",
+  "layoutVersion": 1,
+  "immutable": false,
+  "contentContract": "one_shot_v1",
+  "allowLegacyAuthorBundles": false,
+  "legacyWorkIds": [],
+  "legacyImageResolutionAllowed": false,
+  "updatedAt": "2026-08-01T18:51:50.539Z"
+}

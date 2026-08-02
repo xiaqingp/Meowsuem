@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "stage": "official_page_plan",
+  "resolverTier": 2,
+  "museumId": "nationalmuseum",
+  "parentEvidencePath": "research/runs/experiment/nationalmuseum-image-repair-final-03/20260801T175559Z-p2.13.19/image-evidence/verified-image-evidence.json",
+  "parentEvidenceSha256": "b9f5a6f01274aa5358da78780885ba24c81c8060909bdd32696dd89cae1b7bf7",
+  "works": [
+    {
+      "workId": "mathsson-reclining-chair-36-nmk-46-2010",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "mathsson-reclining-chair-36-nmk-46-2010",
+        "title": "Reclining Chair No. 36",
+        "objectType": "design_object",
+        "titleZh": "",
+        "titleEn": "Reclining Chair No. 36",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "designed 1936; manufactured 1939",
+        "medium": "Bent-laminated birch, plywood and plaited webbing",
+        "identityAnchor": "NMK 46/2010",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/134846/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/134846/",
+        "accessionNumber": "NMK 46/2010",
+        "collectionGroup": "Furniture and design"
+      },
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/134846/",
+      "page": {
+        "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/134846/",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/134846/",
+        "pageTitle": "”Reclining chair no 36” | Nationalmuseum",
+        "bodyText": "This website uses cookies\nWe use device identifiers to adapt the content of the site and analyse how it is used. We also forward these identifiers and other information from your device to the social media and the advertising and analysis companies that we collaborate with.  \nConsent Selection\nNecessary\nPreferences\nStatistics\nMarketing and videos\nShow details\nAllow all\nAllow selection\nDeny\nEN\nHome\nObjects\nPersons\nMy Collection\n© Foto: Linn Ahlgren / Nationalmuseum, © Bildupphovsrätt i Sverige\nOn display\nAdd to my collection\nCopy bookmarkable link\n”Reclining chair no 36”\nBruno Mathsson (1907 - 1988)\n\nArtist/Maker\nDesigner: Bruno Mathsson (1907 - 1988)\nMade by: Firma Karl Mathsson\n\nDates\nDesigned: Designed 1936\nManufactured: Manufactured 1939\n\nMaterial / Technique\nBentlaminated birch, plywood, plaited webbing\n\nDimensions\nh x l: Mått 82 x 140 cm\nd: 50 cm\n\nInventory number\nNMK 46/2010\n\nAcqusition\nPurchase 2010 Carl Adolf Weber Fund\n\nOther titles\nTitle (sv): \"Liggstol nr 36\"\nTitle (en): ”Reclining chair no 36”\nLabel (sv): Liggstol nr 36\nLabel (en): Reclining chair no 36\n\nDescription\nDescription: Mathsson learned cabinet-making from his father and studied on his own. Inspired by the ideas of functionalism, he explored the “mechanics of sitting” by seating himself in snow, measuring the imprints made by his body, and converting the measurements into durable furniture in creative shapes with built-in springiness made of laminated wood. This resource-efficient technique consists of gluing layers of wood veneer together and inserting them into a pressing tool.\n\nExhibited\nNationalmuseum -> Room 1412 1920-1965\n\nCollection\nFurniture (Applied art and design)\n\nGeographical origin\nGeographical origin: Värnamo (Sweden, Jönköping County)\n\nMaterial\nWeave (Textiles), Birch (Wood)\n\nObject category\nChair (Furniture)\n\nAdditional texte\nDescription: Bruno Mathsson said that ’furniture should be designed with such skill that sitting in them requires none at all.’ For several decades, he came to symbolise Swedish design abroad. The first chair he designed was Gräshoppan, in 1931, and in the 1980s he made furniture for computers. Liggstol nr 36 is among his most sculptural designs, with a curvature that almost seems to hover.\n\nSHOW MORE\n⌵\nContact information\nTel: 08-519 543 00\nE-Mail: info@nationalmuseum.se\nContact us\nMore information\nAbout the collection\nImages and copyrights\nHow to use the online collection\nFollow us\nAbout Nationalmuseum\nOpening Hours\nExhibitions\nFree Images On Wikimedia",
+        "candidateCount": 6
+      },
+      "candidates": [
+        {
+          "candidateId": "page-image-001",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/multimedia/3/multimedia-273503.large.jpg",
+          "selector": "div > div > div > div > div > figure > div > img",
+          "alt": "",
+          "nearbyText": "",
+          "visible": true,
+          "boundingBox": {
+            "x": 20,
+            "y": 180,
+            "width": 1400,
+            "height": 637
+          },
+          "naturalWidth": 1200,
+          "naturalHeight": 1142,
+          "elementKind": "img",
+          "elementIndex": 5,
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/134846/",
+          "identityScore": 20
+        },
+        {
+          "candidateId": "page-image-002",
+          "url": "https://collection.nationalmuseum.se/multimedia/3/multimedia-273503.large.jpg",
+          "contentType": "image/jpeg",
+          "sourceType": "network_image",
+          "genericPenalty": 0,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/134846/",
+          "identityScore": -10
+        },
+        {
+          "candidateId": "page-image-003",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/icons/close.svg",
+          "selector": "header#header > div:nth-of-type(1) > div > div:nth-of-type(1) > div > button:nth-of-type(1) > img",
+          "alt": "clear input button",
+          "nearbyText": "",
+          "visible": false,
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "naturalWidth": 24,
+          "naturalHeight": 24,
+          "elementKind": "img",
+          "elementIndex": 3,
+          "genericPenalty": 1,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/134846/",
+          "identityScore": -1000
+        },
+        {
+          "candidateId": "page-image-004",
+          "candidateType": "direct_image",
+          "url": "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "selector": "header#header > div:nth-of-type(1) > div > div:nth-of-type(1) > div > button:nth-of-type(2) > img",
+          "alt": "Search",
+          "nearbyText": "",
+          "visible": false,
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "naturalWidth": 24,
+          "naturalHeight": 24,
+          "elementKind": "img",
+          "elementIndex": 4,
+          "genericPenalty": 1,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/134846/",
+          "identityScore": -1000
+        },
+        {
+          "candidateId": "page-image-005",
+          "url": "https://collection.nationalmuseum.se/icons/close.svg",
+          "contentType": "image/svg+xml",
+          "sourceType": "network_image",
+          "genericPenalty": 1,
+          "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/134846/",
+          "identityScore": -1000
+        }
+      ]
+    }
+  ]
+}

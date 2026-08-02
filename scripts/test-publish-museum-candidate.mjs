@@ -52,6 +52,14 @@ try {
   if (result.status !== 0 || !result.stdout.includes("0/3 files changed")) {
     throw new Error("identical publication was not a no-op");
   }
+  const manifestPath = path.join(root, "research", "content-standard-manifest.json");
+  const unregistered = JSON.parse(await fs.readFile(manifestPath, "utf8"));
+  unregistered.museums = {};
+  await fs.writeFile(manifestPath, JSON.stringify(unregistered));
+  result = call(["--publish"]);
+  if (result.status === 0 || !result.stderr.includes("publication requires manifest registration")) {
+    throw new Error("publisher accepted an unregistered museum");
+  }
   result = spawnSync(
     process.execPath,
     [script, ...identity, `--candidate=${root}`],

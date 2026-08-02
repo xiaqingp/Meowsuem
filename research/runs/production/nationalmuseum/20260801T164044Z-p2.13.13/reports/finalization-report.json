@@ -1,0 +1,37 @@
+{
+  "museumId": "nationalmuseum",
+  "runId": "20260801T164044Z-p2.13.13",
+  "runKind": "production",
+  "completedAt": "2026-08-01T18:33:50.309Z",
+  "stages": [
+    {
+      "name": "assembly",
+      "seconds": 0.257
+    },
+    {
+      "name": "causality-prepublish",
+      "seconds": 0.159
+    },
+    {
+      "name": "future-contract",
+      "seconds": 0.064
+    },
+    {
+      "name": "verification",
+      "seconds": 0.137
+    },
+    {
+      "name": "publication",
+      "seconds": 0.169
+    },
+    {
+      "name": "causality-postpublish",
+      "seconds": 0.181
+    }
+  ],
+  "totalSeconds": 0.968,
+  "modelCalls": 0,
+  "modelTokens": 0,
+  "liveVerification": false,
+  "publicationMode": "publish"
+}

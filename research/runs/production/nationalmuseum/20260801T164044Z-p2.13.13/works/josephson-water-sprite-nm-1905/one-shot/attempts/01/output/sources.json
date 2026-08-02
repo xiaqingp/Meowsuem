@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "josephson-water-sprite-nm-1905",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Water Sprite",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/18910/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "technique",
+        "dimensions",
+        "accessionNumber",
+        "collectionRelation",
+        "description",
+        "mythology",
+        "artistInterpretation",
+        "versions",
+        "acquisition",
+        "availability"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Om brev från van Gogh och Ernst Josephsons Näcken",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/om-brev-fr%C3%A5n-van-gogh-och-ernst-josephsons-n%C3%A4cken",
+      "sourceType": "museum",
+      "usedFor": [
+        "motifContext",
+        "artistInterpretation",
+        "relatedVersion"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "馆方将水妖形象解读为约瑟夫松的某种自我投射，或一种孤独创作的艺术家形象。",
+      "type": "artist_intent",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "claim": "国家博物馆在19世纪90年代拒绝过这一主题的另一个版本《水妖》，该版本后来由尤金亲王购藏。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "date",
+      "statement": "官方对象页的主字段标为1882年，但同页补充展签写作1882—1883年；本文沿用锁定 metadata 的1882年。"
+    },
+    {
+      "topic": "artistInterpretation",
+      "statement": "约瑟夫松是否有意把水妖作为明确的自画像式自我投射，来源使用了馆方的推测性表述，本文也采用审慎措辞。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "date",
+      "severity": "warning",
+      "statement": "同一官方对象页的日期字段为1882，而补充展签为1882—1883；不改变锁定身份，本文采用锁定值1882。",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ]
+}

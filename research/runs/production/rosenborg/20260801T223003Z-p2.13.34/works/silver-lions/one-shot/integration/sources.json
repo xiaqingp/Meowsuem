@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "silver-lions",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Silver lions",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/silver-lions/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "historical_context",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The Knights’ Hall (room 21)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/",
+      "sourceType": "museum",
+      "usedFor": [
+        "creator",
+        "date",
+        "material",
+        "use",
+        "availability",
+        "throne_relation"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Historical artefacts",
+      "publisher": "The Royal House of Denmark",
+      "url": "https://www.kongehuset.dk/en/royal-collections/royal-symbols/historical-artefacts/",
+      "sourceType": "other",
+      "usedFor": [
+        "material",
+        "weight",
+        "creator",
+        "historical_context",
+        "ceremonial_use"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "The narwhal throne",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-narwhal-throne/",
+      "sourceType": "museum",
+      "usedFor": [
+        "throne_relation",
+        "historical_context",
+        "date"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "弗雷德里克三世希望借银狮和王座把自己与《圣经》中的诸王联系起来。",
+      "type": "artist_intent",
+      "sourceIds": [
+        "S1",
+        "S3"
+      ]
+    },
+    {
+      "claim": "原计划制作十二只狮子，因成本问题改为银狮与铜狮的折中方案，弗雷德里克三世去世时仅完成三只银狮。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "三只银狮以全尺寸、约130公斤的锤揲银制成，制作于1665—1670年。",
+      "type": "other",
+      "sourceIds": [
+        "S2",
+        "S3"
+      ]
+    },
+    {
+      "claim": "三只银狮仍用于庄重仪式中的王座守卫，并用于王室灵柩仪式。",
+      "type": "other",
+      "sourceIds": [
+        "S2",
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "铜狮的完成情况",
+      "statement": "馆方表示无法确定原计划中的六只铜狮是否曾经完成；现今罗斯堡宫与王室花园之间桥梁附近的两只狮子是否属于这些铜狮，也不能确定。"
+    },
+    {
+      "topic": "制作者姓名拼写",
+      "statement": "两处丹麦王室官方英文资料将制作者姓名分别拼作 Ferdinand Küblich 与 Ferdinand Kübich；本文采用房间对象页中的 Ferdinand Küblich。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "attribution",
+      "lockedValue": "丹麦王室 / Danish royal collection",
+      "observedValue": "馆方房间对象页将具体制作者记为哥本哈根银匠 Ferdinand Küblich",
+      "sourceIds": [
+        "S2"
+      ],
+      "severity": "warning",
+      "explanation": "锁定值表达收藏或展示归属，馆方对象页补充了具体制作者；这不改变作品身份，但文章将王室收藏归属与银匠制作信息并列表述。"
+    }
+  ]
+}

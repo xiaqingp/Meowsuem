@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "status": "accepted",
+  "runId": "20260801T164044Z-p2.13.13",
+  "museumId": "nationalmuseum",
+  "workId": "hasselberg-spring-snowflake-nmsk-746",
+  "stage": "single_work",
+  "attempt": 1,
+  "model": "gpt-5.6-luna",
+  "reasoningEffort": "high",
+  "startedAt": "2026-08-01T18:17:45.734Z",
+  "completedAt": "2026-08-01T18:19:12.940Z",
+  "durationMs": 87206,
+  "inputTokens": 54255,
+  "cachedInputTokens": 28160,
+  "reasoningTokens": 2339,
+  "outputTokens": 4368,
+  "totalTokens": 58623,
+  "agentRunCount": 1,
+  "modelRoundCount": 1,
+  "webSearchCount": 2,
+  "webOpenCount": 0
+}

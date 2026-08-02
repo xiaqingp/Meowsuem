@@ -1,0 +1,36 @@
+{
+  "runId": "20260801T164044Z-p2.13.13",
+  "startedAt": "2026-08-01T16:50:35.356Z",
+  "stage": "compact_planning_research",
+  "museumId": "nationalmuseum",
+  "pipelineVersion": "2.13.13",
+  "instructionVersion": "2.4.2",
+  "executionProfile": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "high",
+    "runner": "scripts/run-isolated-generation.ps1"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "e2d6e331f53fb1d7c4b078c0aabc1b03548e4d4504ea218d1a08e09929adc2cc"
+    },
+    {
+      "path": "research/pipeline/prompts/planning-research.md",
+      "role": "stage_prompt",
+      "sha256": "f82cdd4578690962ec8167ca664ae8c6945687c4e2c55a466925391f20feb97a"
+    },
+    {
+      "path": "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/research/batches/compact-01/candidate-packet.json",
+      "role": "candidate_packet",
+      "sha256": "be87434179d3b3d50e1e7b5a609e71c33f98096f89d5265116253ee858270366"
+    }
+  ],
+  "outputs": [
+    "compact-planning-evidence.json"
+  ],
+  "reviewer": "disabled",
+  "retry": "explicit_only",
+  "publicationBoundary": "run_only"
+}

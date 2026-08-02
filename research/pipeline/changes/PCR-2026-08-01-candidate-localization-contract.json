@@ -1,0 +1,43 @@
+{
+  "id": "PCR-2026-08-01-candidate-localization-contract",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-01",
+  "ownerInstruction": "先修复 Nationalmuseum 缺失的中文标题和创作者字段，不重跑已有阶段，然后发布网站。",
+  "baseRelease": "research/pipeline/releases/v2.13.22.json",
+  "targetVersion": "2.13.23",
+  "implementationStatus": "completed",
+  "scope": [
+    "require explicit Chinese and English identity fields in new candidate discovery output",
+    "reject ambiguous local-language title and unscoped artist fields immediately after discovery",
+    "generate a hash-locked metadata-only localization overlay for the existing selected works",
+    "merge the overlay without modifying candidate identity anchors or upstream artifacts"
+  ],
+  "outOfScope": [
+    "rerunning discovery, research, selection, rating, structure or image evidence",
+    "changing English titles or creator strings",
+    "publishing before downstream verification passes"
+  ],
+  "allowedCanonicalFiles": [
+    "research/pipeline/prompts/museum-discovery.md",
+    "research/pipeline/prompts/identity-localization.md",
+    "scripts/lib/candidate-pool-contract.mjs",
+    "scripts/run-museum-pipeline.mjs",
+    "scripts/repair-candidate-localization.mjs",
+    "scripts/prepare-one-shot-work-inputs.mjs",
+    "scripts/verify-content-pipeline.mjs"
+  ],
+  "verification": {
+    "status": "passed",
+    "record": "scripts/test-candidate-pool-contract.mjs",
+    "commands": [
+      "node scripts/test-candidate-pool-contract.mjs",
+      "node scripts/test-filesystem-contract.mjs",
+      "node scripts/test-experiment-orchestrator.mjs",
+      "node scripts/test-image-resolution-v2.mjs",
+      "node scripts/verify-content-pipeline.mjs",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

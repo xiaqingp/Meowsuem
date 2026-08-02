@@ -9,6 +9,7 @@ import {
   resolveCanonicalRun,
 } from "./lib/filesystem-contract.mjs";
 import {atomicJson, writeWorkStatus} from "./lib/work-status.mjs";
+import {assertVerifiedImageEvidence} from "./lib/verified-image-evidence-contract.mjs";
 
 const sha256 = bytes => crypto.createHash("sha256").update(bytes).digest("hex");
 const relative = (root, target) => path.relative(root, target).replaceAll("\\", "/");
@@ -41,10 +42,20 @@ export async function prepareOneShotWorkInputs({projectRoot, kind, museum, caseI
     images: path.join(runRoot, "image-evidence", "verified-image-evidence.json"),
   };
   const [candidateDoc, selectionDoc, structureDoc, imageDoc] = await Promise.all(Object.values(files).map(readJson));
+  assertVerifiedImageEvidence(imageDoc);
+  const localizationPath = path.join(runRoot, "identity-localization", "identity-localization.json");
+  const localizationDoc = await readJson(localizationPath).catch(error => error?.code === "ENOENT" ? null : Promise.reject(error));
+  if (localizationDoc) {
+    const [candidateBytes, selectionBytes] = await Promise.all([fs.readFile(files.candidates), fs.readFile(files.selection)]);
+    if (localizationDoc.candidatePoolSha256 !== sha256(candidateBytes) || localizationDoc.selectionSha256 !== sha256(selectionBytes)) {
+      throw new Error("identity localization source hash mismatch");
+    }
+  }
   const candidates = byId(candidateDoc);
   const selected = byId(selectionDoc);
   const structured = byId(structureDoc);
   const images = byId(imageDoc);
+  const localizations = byId(localizationDoc);
   const structuredOrder = (structureDoc.works ?? []).map(item => item.workId ?? item.id);
   if (structuredOrder.length !== selected.size || structuredOrder.some(id => !selected.has(id))) {
     throw new Error("structure work IDs must exactly match frozen selection");
@@ -56,14 +67,17 @@ export async function prepareOneShotWorkInputs({projectRoot, kind, museum, caseI
     assertSafeIdentifier(workId, "work id");
     const candidateRecord = candidates.get(workId);
     const identity = candidateRecord?.identity
-      ? {...candidateRecord, ...candidateRecord.identity}
+      ? {...candidateRecord, ...candidateRecord.identity, ...(localizations.get(workId) ?? {})}
       : candidateRecord;
     const choice = selected.get(workId);
     const placement = structured.get(workId);
     const evidence = images.get(workId);
     if (!identity) throw new Error(`${workId}: identity missing; authoritative owner stage: museum_discovery`);
+    if (localizationDoc && !localizations.has(workId)) throw new Error(`${workId}: identity localization missing`);
     if (!placement) throw new Error(`${workId}: section/stay/route role missing; authoritative owner stage: museum_structure`);
-    if (!evidence || evidence.status !== "accepted") throw new Error(`${workId}: accepted image evidence missing; authoritative owner stage: image_evidence`);
+    if (!evidence || !["accepted", "object_image_accepted", "context_image_accepted"].includes(evidence.status)) {
+      throw new Error(`${workId}: accepted image evidence missing; authoritative owner stage: image_evidence`);
+    }
     const picked = evidence.selected ?? evidence;
     const localPath = required(picked.localPath, `${workId}.verifiedImageLocalPath`, "image_evidence");
     const absoluteImage = path.resolve(projectRoot, localPath);
@@ -73,7 +87,9 @@ export async function prepareOneShotWorkInputs({projectRoot, kind, museum, caseI
     if (actualSha !== required(picked.sha256, `${workId}.verifiedImageSha256`, "image_evidence")) {
       throw new Error(`${workId}: verified image SHA-256 mismatch`);
     }
-    const imagePolicy = evidence.imagePolicy ?? choice.imagePolicy ?? "object_image";
+    const imagePolicy = evidence.status === "context_image_accepted"
+      ? "object_image"
+      : evidence.imagePolicy ?? choice.imagePolicy ?? "object_image";
     const displayBy = identity.displayBy ?? identity.artistOrCulture
       ?? [identity.artistZh ?? identity.cultureZh, identity.artistEn ?? identity.cultureEn].filter(Boolean).join(" / ");
     const locked = {
@@ -107,7 +123,7 @@ export async function prepareOneShotWorkInputs({projectRoot, kind, museum, caseI
         ? placement.routeRole
         : placement.routeRole ? [placement.routeRole] : [],
       imagePolicy,
-      verifiedImageUrl: required(picked.url, `${workId}.verifiedImageUrl`, "image_evidence"),
+      verifiedImageUrl: required(picked.url ?? picked.sourcePageUrl ?? picked.capture?.sourcePageUrl, `${workId}.verifiedImageUrl`, "image_evidence"),
       verifiedImageLocalPath: localPath,
       verifiedImageSha256: actualSha,
       imageEvidencePath: relative(projectRoot, files.images),

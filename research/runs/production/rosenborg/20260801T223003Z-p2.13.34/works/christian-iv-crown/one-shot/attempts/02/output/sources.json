@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "christian-iv-crown",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Christian IV’s crown",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/christian-iv-s-crown/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "significance",
+        "collectionRelation",
+        "availability",
+        "history",
+        "symbolism"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Project ‘The Kingdom’s Treasury’",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/project-the-kingdom-s-treasury/",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "weight",
+        "availability"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Christian IV (1577–1648)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/persons/christian-iv-1577-1648/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "historical_context",
+        "person_relation"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Rosenborg Slot - Nyt kongeligt skatkammer, gode publikumsfaciliteter og genskabt voldgrav forvandler oplevelsen",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://via.ritzau.dk/pressemeddelelse/14752661/rosenborg-slot-nyt-kongeligt-skatkammer-gode-publikumsfaciliteter-og-genskabt-voldgrav-forvandler-oplevelsen?lang=da",
+      "sourceType": "museum",
+      "usedFor": [
+        "creator",
+        "material",
+        "weight",
+        "history",
+        "symbolism",
+        "collectionRelation"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [],
+  "upstreamConflicts": [
+    {
+      "field": "creator",
+      "lockedValue": "Danish royal collection",
+      "observedValue": "Didrik Fyring, a goldsmith from Odense",
+      "sourceIds": [
+        "S4"
+      ],
+      "severity": "warning",
+      "explanation": "The locked metadata uses the Danish royal collection as the displayed-by/artist attribution, while the official collection press material identifies a historical goldsmith as the maker. This does not change the object’s identity or selection; the article therefore treats it as a royal collection object and does not replace the locked attribution."
+    },
+    {
+      "field": "date",
+      "lockedValue": "1596",
+      "observedValue": "1597 in the final paragraph of the official English object page",
+      "sourceIds": [
+        "S1"
+      ],
+      "severity": "warning",
+      "explanation": "The same official page repeatedly identifies the crown and coronation as dating to 1596, and other official collection sources also give 1596. The isolated 1597 reference is treated as an editorial inconsistency and does not change the object’s identity or date."
+    }
+  ]
+}

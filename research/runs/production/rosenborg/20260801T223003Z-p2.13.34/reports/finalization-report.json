@@ -1,0 +1,37 @@
+{
+  "museumId": "rosenborg",
+  "runId": "20260801T223003Z-p2.13.34",
+  "runKind": "production",
+  "completedAt": "2026-08-02T00:42:10.874Z",
+  "stages": [
+    {
+      "name": "assembly",
+      "seconds": 0.258
+    },
+    {
+      "name": "causality-prepublish",
+      "seconds": 0.231
+    },
+    {
+      "name": "future-contract",
+      "seconds": 0.07
+    },
+    {
+      "name": "verification",
+      "seconds": 11.08
+    },
+    {
+      "name": "publication",
+      "seconds": 0.185
+    },
+    {
+      "name": "causality-postpublish",
+      "seconds": 0.233
+    }
+  ],
+  "totalSeconds": 12.058,
+  "modelCalls": 0,
+  "modelTokens": 0,
+  "liveVerification": true,
+  "publicationMode": "publish"
+}

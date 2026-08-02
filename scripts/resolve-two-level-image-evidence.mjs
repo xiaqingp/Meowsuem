@@ -4,6 +4,8 @@ import os from "node:os";
 import {createRequire} from "node:module";
 import {spawnSync} from "node:child_process";
 import {assertPathInside, loadManifest, resolveCanonicalRun, projectRelative} from "./lib/filesystem-contract.mjs";
+import {resolveBrowserExecutable} from "./lib/browser-executable.mjs";
+import {readModelJson} from "./lib/model-json.mjs";
 import {assertSafeRemoteUrl, fetchSafeImage} from "./image-providers/url-safety.mjs";
 import {
   acceptFastCandidate,
@@ -12,6 +14,7 @@ import {
   normalizeAiResult,
   sha256,
 } from "./lib/two-level-image-resolution.mjs";
+import {assertVerifiedImageEvidence} from "./lib/verified-image-evidence-contract.mjs";
 
 const arg = name => process.argv.find(value => value.startsWith(`${name}=`))?.slice(name.length + 1);
 const projectRoot = path.resolve(arg("--project-root") || new URL("..", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"));
@@ -78,8 +81,7 @@ for (const directory of modules) {
   try { ({chromium} = createRequire(import.meta.url)(path.join(directory, "playwright"))); break; } catch {}
 }
 if (!chromium) throw new Error("Playwright is unavailable; set MEOWSEUM_NODE_MODULES");
-const chromePath = process.env.MEOWSEUM_CHROME || null;
-if (chromePath) await fs.access(chromePath);
+const browserExecutable = await resolveBrowserExecutable(chromium);
 const evidenceRoot = path.join(runRoot, "image-evidence");
 const assetsRoot = path.join(evidenceRoot, "assets");
 const modelRoot = path.join(evidenceRoot, "model-run");
@@ -89,7 +91,7 @@ if (process.argv.includes("--fresh")) await fs.rm(evidenceRoot, {recursive: true
 await fs.mkdir(assetsRoot, {recursive: true});
 const ext = type => ({"image/jpeg":".jpg","image/png":".png","image/webp":".webp","image/gif":".gif","image/tiff":".tif"}[type] || ".img");
 const records = [];
-const browser = await chromium.launch({headless: true, ...(chromePath ? {executablePath: chromePath} : {})});
+const browser = await chromium.launch({headless: true, executablePath: browserExecutable});
 
 async function inspectFast(candidate) {
   const page = await browser.newPage({viewport: {width: 1280, height: 900}});
@@ -290,7 +292,7 @@ if (unresolved.length) {
     };
     await fs.writeFile(path.join(batchDirectory, "run-header.json"), `${JSON.stringify(header, null, 2)}\n`, "utf8");
     const modelOutputPath = path.join(batchDirectory, "image-decisions.json");
-    const existingModelOutput = await readJson(modelOutputPath).catch(() => null);
+    const existingModelOutput = await readModelJson(modelOutputPath).catch(() => null);
     const normalizeWorkId = value => String(value || "").toLowerCase().replace(/[^a-z0-9-]/g, "");
     const expectedWorkIds = new Set(batchWorks.map(record => normalizeWorkId(record.workId)));
     const reuseModelOutput = Boolean(existingModelOutput)
@@ -304,7 +306,7 @@ if (unresolved.length) {
       const run = spawnSync("powershell.exe", ["-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-File", path.join(projectRoot, "scripts", "run-isolated-generation.ps1"), "-ProjectRoot", projectRoot, "-RunDirectory", batchDirectory], {cwd: projectRoot, encoding: "utf8", timeout: 20 * 60 * 1000});
       if (run.status !== 0) throw new Error(`two-level image research failed: ${run.stderr || run.stdout}`);
     }
-    const aiOutput = normalizeAiResult(await readJson(modelOutputPath));
+    const aiOutput = normalizeAiResult(await readModelJson(modelOutputPath));
     const normalizedWorks = aiOutput.works.map((item, index) => {
       const workId = normalizeWorkId(item.workId);
       return {...item, workId: workId || normalizeWorkId(batchWorks[index]?.workId)};
@@ -341,7 +343,7 @@ if (unresolved.length) {
 const heroPath = path.join(assetsRoot, "museum-hero-placeholder.jpg");
 let heroMeta = null;
 if (!await fs.access(heroPath).then(() => true).catch(() => false)) {
-  const heroBrowser = await chromium.launch({headless: true, ...(chromePath ? {executablePath: chromePath} : {})});
+  const heroBrowser = await chromium.launch({headless: true, executablePath: browserExecutable});
   try {
     const page = await heroBrowser.newPage();
     await page.goto(scope.officialCollectionUrl, {waitUntil: "domcontentloaded", timeout: 30000});
@@ -394,7 +396,7 @@ if (false && heroMeta) {
 
 const duplicateObjectImageGroups = assertNoDuplicateObjectImages(records);
 const output = {
-  schemaVersion: 1,
+  schemaVersion: 2,
   stage: "verified_image_evidence",
   museumId,
   pipelineVersion: manifest.pipelineVersion,
@@ -417,5 +419,6 @@ const output = {
   modelRun,
   works: records,
 };
+assertVerifiedImageEvidence(output);
 await fs.writeFile(path.join(evidenceRoot, "verified-image-evidence.json"), `${JSON.stringify(output, null, 2)}\n`, "utf8");
 console.log(`${museumId} two-level image evidence: ${output.summary.objectImageAccepted} object images, ${output.summary.contextImagesAccepted} context images, ${output.summary.unresolved} unresolved, ${output.summary.modelCalls} model calls`);

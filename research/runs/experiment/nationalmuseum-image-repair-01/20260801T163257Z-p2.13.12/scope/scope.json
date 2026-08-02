@@ -1,0 +1,128 @@
+{
+  "museumId": "nationalmuseum",
+  "museumName": "瑞典国家博物馆",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "officialCollectionUrl": "https://collection.nationalmuseum.se/en/",
+  "editorialCapacity": {
+    "count": 40,
+    "rationale": "主馆收藏跨越六个世纪，官方主馆展陈约 5,000 件；馆方收藏总览同时明确区分绘画与雕塑、设计与应用艺术、版画与素描三组核心收藏。单一主馆足以支持 40 件以收藏机制、媒介和观看问题组织的编辑路线，但不按卢浮宫式跨文明超大型馆藏扩至 60 件。"
+  },
+  "collectionBoundaries": [
+    {
+      "name": "主馆绘画与雕塑收藏",
+      "location": "Nationalmuseum 主馆，Södra Blasieholmshamnen 2, Stockholm；部分藏品可能轮换或外借",
+      "inCandidatePool": true,
+      "boundary": "纳入主馆可解释的绘画与雕塑收藏，时间范围以馆方概述的约 1500—1900 年为主。"
+    },
+    {
+      "name": "主馆设计与应用艺术收藏",
+      "location": "Nationalmuseum 主馆，Södra Blasieholmshamnen 2, Stockholm；部分藏品可能轮换或外借",
+      "inCandidatePool": true,
+      "boundary": "纳入从晚期中世纪至今的应用艺术、工艺与设计收藏，包括馆方所列陶瓷、纺织、玻璃、金属、家具和书籍等稳定收藏群。"
+    },
+    {
+      "name": "主馆版画与素描收藏",
+      "location": "Nationalmuseum 主馆的收藏与研究体系；研究室须预约，公开展陈并非全部藏品",
+      "inCandidatePool": true,
+      "boundary": "纳入馆方正式收藏中的版画与素描，但下游必须单独核实对象页、图像可得性和现场可见性，不将收藏身份等同于当天展出。"
+    },
+    {
+      "name": "国家肖像画廊与皇家城堡收藏",
+      "location": "Gripsholm Castle 及 Drottningholm、Strömsholm、Rosersberg、Ulriksdal 等皇家宫殿或庄园",
+      "inCandidatePool": false,
+      "boundary": "这是 Nationalmuseum 管理的异地收藏，不属于本轮斯德哥尔摩主馆现场边界。"
+    },
+    {
+      "name": "Gustavsberg 收藏",
+      "location": "Gustavsberg Porcelain Museum，Gustavsberg",
+      "inCandidatePool": false,
+      "boundary": "馆方明确列为约 45,000 件的 Gustavsberg 工厂收藏；独立异地场馆不纳入本轮主馆候选池。"
+    },
+    {
+      "name": "Tessin Institute 艺术收藏",
+      "location": "Swedish Institute，Paris；由 Nationalmuseum 管理",
+      "inCandidatePool": false,
+      "boundary": "属于馆方管理的法国相关异地收藏，部分在巴黎展示，不纳入本轮 Stockholm 主馆候选池。"
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Nationalmuseum Jamtli",
+      "location": "Östersund",
+      "reason": "与 Jamtli 合作的异地展览场所，不是本轮 Stockholm 主馆；其借展或轮换展览不作为主馆现场边界。"
+    },
+    {
+      "name": "Gustavsberg Porcelain Museum",
+      "location": "Gustavsberg",
+      "reason": "独立票务与异地访问地点；尽管属于 Nationalmuseum 体系并有馆方年卡联动，本轮不纳入 Stockholm 主馆路线。"
+    },
+    {
+      "name": "Gripsholm、Drottningholm、Strömsholm、Rosersberg、Ulriksdal 等皇家城堡与庄园",
+      "location": "瑞典各地",
+      "reason": "异地管理和展示的皇家城堡收藏，不属于主馆地址边界。"
+    },
+    {
+      "name": "Tessin Institute 在巴黎的展示与收藏",
+      "location": "Paris",
+      "reason": "异地机构展示的管理收藏，不属于 Stockholm 主馆访问范围。"
+    },
+    {
+      "name": "临时展览",
+      "location": "主馆及异地合作场所",
+      "reason": "本轮是稳定收藏范围核定；临展具有日期、票务和展陈变化，不作为固定候选池边界。"
+    }
+  ],
+  "riskFlags": [
+    "multi_site_collection",
+    "display_rotation",
+    "appointment_limited_graphics",
+    "temporary_exhibition_separation"
+  ],
+  "sourcePointers": [
+    {
+      "id": "official_getting_here",
+      "title": "Getting here",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/en/visit/getting-here",
+      "accessed": "2026-08-01",
+      "supports": "主馆位于 Stockholm 的 Blasieholmen；访问地址为 Södra Blasieholmshamnen 2，并提供主馆交通与地址边界。"
+    },
+    {
+      "id": "official_visit_scope",
+      "title": "Visit",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/en/visit",
+      "accessed": "2026-08-01",
+      "supports": "主馆现场呈现绘画、雕塑、素描、版画以及应用艺术和设计；约 5,000 件沿时间线展示，覆盖从 16 世纪至今的馆方范围。"
+    },
+    {
+      "id": "official_collections_overview",
+      "title": "The collections",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/en/explore-art-and-design/the-collections",
+      "accessed": "2026-08-01",
+      "supports": "馆方核心收藏范围、绘画与雕塑、设计与应用艺术、版画与素描，以及异地管理的国家肖像画廊/皇家城堡、Gustavsberg 和 Tessin Institute 收藏边界。"
+    },
+    {
+      "id": "official_collection_portal",
+      "title": "Welcome to our Collections Online",
+      "publisher": "Nationalmuseum Collections Online",
+      "url": "https://collection.nationalmuseum.se/en/",
+      "accessed": "2026-08-01",
+      "supports": "官方收藏入口；说明在线数据库覆盖 Nationalmuseum 超过 700,000 件总收藏中的数十万件对象，并列出旧大师绘画、19 世纪绘画、缩画、雕塑、宝库及现代设计等稳定浏览入口。"
+    },
+    {
+      "id": "map_nationalmuseum_coordinates",
+      "title": "Institution:Nationalmuseum Stockholm",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/Institution%3ANationalmuseum_Stockholm",
+      "accessed": "2026-08-01",
+      "supports": "主馆地址与地图坐标 59.3286111111, 18.0780555556；用于 coordinates 字段的地理定位。"
+    }
+  ],
+  "coordinates": [
+    59.3286111111,
+    18.0780555556
+  ]
+}

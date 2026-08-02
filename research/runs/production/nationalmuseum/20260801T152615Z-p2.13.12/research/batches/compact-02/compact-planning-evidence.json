@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "museumId": "nationalmuseum",
+  "works": [
+    {
+      "workId": "durer-adam-and-eve-nmg242-1869",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "这件木刻由杜勒圈创作，是对杜勒1504年著名版画《亚当与夏娃》的自由模仿；官方描述指出它把人物在偷食禁果前就遮体的图像矛盾保留下来，适合说明图像传统如何被复制与改写。",
+      "selectionSignals": [
+        "国家博物馆对象页确认作者为 Albrecht Dürer 圈、媒介为木刻、藏品号 NMG 242/1869。",
+        "对象页明确说明其为对杜勒著名版画的自由模仿，支持德国版画与图像传播收藏线。"
+      ],
+      "sectionSignals": ["版画与素描", "德国版画", "图像传统的模仿与变体"],
+      "routeSignals": ["主馆版画收藏线", "当前对象页标示不在展，不能作为当天必见作品"],
+      "riskFlags": [],
+      "sourcePointers": ["https://collection.nationalmuseum.se/en/collection/item/91776/"]
+    },
+    {
+      "workId": "roslin-lady-with-veil-nm4098",
+      "identityStatus": "stable",
+      "availability": "on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "这幅1768年肖像把画家 Alexander Roslin 的妻子、法国艺术家 Marie Suzanne Giroust 放进面具舞会式的博洛尼亚装扮中；黑色面纱、扇子与华丽织物构成亲密和遮蔽的对照，也是国家博物馆最知名的画作之一。",
+      "selectionSignals": [
+        "对象页确认作者、签名年份1768、油画媒介、藏品号 NM 4098，并标示当前在展。",
+        "官方说明明确身份为 Roslin 的妻子且本人是重要艺术家，并记载作品1769年在巴黎展出。",
+        "对象页将其列为国家博物馆最知名／最受喜爱的画作之一，且提供 Room 1603 的展陈关系。"
+      ],
+      "sectionSignals": ["18世纪绘画", "肖像与身份", "法国—瑞典艺术网络"],
+      "routeSignals": ["主馆18世纪展厅 Room 1603", "适合作为18世纪肖像路线的核心停留点"],
+      "riskFlags": [],
+      "sourcePointers": ["https://collection.nationalmuseum.se/en/collection/item/21152/"]
+    },
+    {
+      "workId": "roslin-gustav-iii-and-brothers-nm1010",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "这幅1771年大型群像把瑞典国王古斯塔夫三世与两位兄弟作为王室肖像组呈现，连接 Roslin 的宫廷肖像实践与国家博物馆自皇家博物馆转入的瑞典王室收藏。",
+      "selectionSignals": [
+        "对象页确认作者为 Alexander Roslin、签名年份1771、油画媒介、藏品号 NM 1010，并列出古斯塔夫三世、卡尔十三世和 Fredrik Adolf。",
+        "对象页记录作品1865年由 Kongl. Museum 转入，支持瑞典王室与机构收藏史信号。"
+      ],
+      "sectionSignals": ["18世纪绘画", "王室肖像", "瑞典国家收藏"],
+      "routeSignals": ["主馆王室／18世纪收藏线", "对象页当前标示不在展；候选包另标记 display_rotation 风险"],
+      "riskFlags": ["display_rotation"],
+      "sourcePointers": ["https://collection.nationalmuseum.se/en/collection/item/18013/"]
+    },
+    {
+      "workId": "roslin-zoie-ghika-nm6872",
+      "identityStatus": "stable",
+      "availability": "on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "这幅1777年肖像记录 Roslin 在圣彼得堡为叶卡捷琳娜二世宫廷绘制的摩尔达维亚公主 Zoie Ghika；官方说明把她的流亡家庭、摩尔达维亚服饰与俄国宫廷的帝国扩张语境连接起来。",
+      "selectionSignals": [
+        "对象页确认作者、签名年份1777、油画媒介、藏品号 NM 6872，并标示当前在展于 Room 1603。",
+        "官方描述确认肖像由叶卡捷琳娜二世委托，并记录 Roslin 1775年赴俄、约两年获得大量宫廷委托的背景。",
+        "作品补足 Roslin 从瑞典／巴黎到俄国宫廷的跨地域收藏线。"
+      ],
+      "sectionSignals": ["18世纪绘画", "跨地域宫廷网络", "服饰与政治身份"],
+      "routeSignals": ["主馆18世纪展厅 Room 1603", "与 Roslin 夫人肖像并置可形成宫廷肖像的跨地域比较"],
+      "riskFlags": [],
+      "sourcePointers": ["https://collection.nationalmuseum.se/en/collection/item/23921/"]
+    },
+    {
+      "workId": "roslin-carl-linnaeus-nmgrh1053",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "Roslin 为林奈绘制这幅1775年肖像，官方说明称其最初带有宣传与复制传播目的：原作计划在巴黎沙龙展出并被刻印出售，随后送回斯德哥尔摩。它把知识人物肖像、艺术家声誉与版画传播连在一起。",
+      "selectionSignals": [
+        "对象页确认作者、制作年份1775、油画媒介、藏品号 NMGrh 1053，并记录1866年从 Gripsholm Castle 转入。",
+        "官方对象描述明确记载肖像的宣传用途、巴黎沙龙展出计划、刻印出售和原作回到斯德哥尔摩的传播链。"
+      ],
+      "sectionSignals": ["18世纪绘画", "知识人物肖像", "肖像的复制与传播"],
+      "routeSignals": ["主馆18世纪绘画与瑞典知识史收藏线", "对象页当前标示不在展；候选包另标记 display_rotation 风险"],
+      "riskFlags": ["display_rotation"],
+      "sourcePointers": ["https://collection.nationalmuseum.se/en/collection/item/15723/"]
+    },
+    {
+      "workId": "oudry-dachshund-pehr-nm864",
+      "identityStatus": "stable",
+      "availability": "on_display",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "Oudry 1740年为 Tessin 家族的腊肠犬 Pehr 所作的肖像，把宠物、狩猎战利品和枪支组织成一幅带有收藏史意味的动物画；官方还记载作品曾在巴黎沙龙展出，并由艺术家赠给 Tessin。",
+      "selectionSignals": [
+        "对象页确认作者、签名年份1740、油画媒介、藏品号 NM 864，并标示当前在展于 Room 1603。",
+        "官方描述确认 Pehr 是 Tessin 家族宠物、画中守护猎物，且作品由 Oudry 赠送给 Tessin；扩展说明记录其1740年在法国艺术学院年度沙龙展出。",
+        "作品连接动物题材、法国艺术网络与 Tessin／皇家博物馆收藏史。"
+      ],
+      "sectionSignals": ["18世纪绘画", "动物画", "Tessin收藏与法国艺术网络"],
+      "routeSignals": ["主馆18世纪展厅 Room 1603", "作为肖像主线旁的收藏史与动物题材补充"],
+      "riskFlags": [],
+      "sourcePointers": ["https://collection.nationalmuseum.se/en/collection/item/17867/"]
+    },
+    {
+      "workId": "corot-red-rocks-civita-castellana-nm2060",
+      "identityStatus": "stable",
+      "availability": "on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "Corot 约1827年直接面对自然绘制罗马附近的红色岩壁；官方说明把并置色块、油画纸上的现场习作与后来画室完成版本的工作材料联系起来，并称其意大利速写是对法国19世纪风景画有重要影响的早期户外绘画实例。",
+      "selectionSignals": [
+        "对象页确认作者、约1827年、油画纸裱于画布、藏品号 NM 2060，并标示当前在展于 Room 1449。",
+        "官方说明明确记录其现场作画、无过渡的并置色块、作为画室完成画的工作材料，以及对19世纪法国风景画的影响。"
+      ],
+      "sectionSignals": ["1800–1870年绘画", "风景画", "户外观察与工作材料"],
+      "routeSignals": ["主馆1800–1870展厅 Room 1449", "可作为从古典风景研究走向户外绘画的路线节点"],
+      "riskFlags": [],
+      "sourcePointers": ["https://collection.nationalmuseum.se/en/collection/item/19119/"]
+    },
+    {
+      "workId": "monet-view-over-sea-nm2122",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "这幅1882年 Monet 海岸风景把主馆的法国现代风景收藏延伸到 Hautot-sur-Mer 的海景观察；现有官方对象页能稳定支持作者、地点、年代与收藏关系，但没有提供足以把它升级为稀世珍品的比较证据。",
+      "selectionSignals": [
+        "对象页确认作者、签名年份1882、油画媒介、藏品号 NM 2122、描绘地点 Hautot-sur-Mer，并标示当前不在展。",
+        "作品由多位捐赠者于1919年捐入，支持其在国家博物馆法国现代绘画收藏中的馆藏关系。"
+      ],
+      "sectionSignals": ["1870–1900年绘画", "法国现代风景", "海岸观看"],
+      "routeSignals": ["主馆19世纪法国绘画收藏线", "当前对象页标示不在展，不能作为当天必见作品"],
+      "riskFlags": [],
+      "sourcePointers": ["https://collection.nationalmuseum.se/en/collection/item/19182/"]
+    },
+    {
+      "workId": "monet-view-from-voorzan-nm2513",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "这幅 Monet 荷兰 Zaandam 风景把主馆的现代风景收藏连接到艺术家的迁徙地点与早期观察；官方对象页稳定确认其作者、荷兰地点、油画媒介和馆藏关系，但当前材料不足以支持更强的稀有性或艺术史最高级判断。",
+      "selectionSignals": [
+        "对象页确认作者 Claude Monet、油画媒介、藏品号 NM 2513、描绘地点 Zaandam，并标示当前不在展。",
+        "作品由 Nationalmusei Vänner 于1926年捐入，支持其在国家博物馆现代绘画收藏线中的位置。"
+      ],
+      "sectionSignals": ["1870–1900年绘画", "法国现代风景", "地点与艺术家迁徙"],
+      "routeSignals": ["主馆19世纪法国绘画收藏线", "对象页当前标示不在展；候选包另标记 display_rotation 风险"],
+      "riskFlags": ["display_rotation"],
+      "sourcePointers": ["https://collection.nationalmuseum.se/en/collection/item/19574/"]
+    },
+    {
+      "workId": "renoir-la-grenouillere-nm2425",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "Renoir 1869年在巴黎近郊 La Grenouillère 画下公共休闲场景；官方说明将这幅画与 Monet 同地作画、未调和色彩和快速笔触联系起来，并称这组作品是最早成熟的印象派实例之一，同时把它列为国家博物馆国际上知名且常被借展的作品。",
+      "selectionSignals": [
+        "对象页确认作者、制作年份1869、油画媒介、藏品号 NM 2425，并标示当前不在展。",
+        "官方目录与展览文字明确记录 Renoir 与 Monet 于1869年在同一地点作画、快速笔触与未调和色彩，并将作品视为早期成熟印象派实例。",
+        "对象页称其为国家博物馆国际上最知名的作品之一、持续有国际展览需求，支持重要藏品候选；候选包另标记 display_rotation 风险。"
+      ],
+      "sectionSignals": ["1870–1900年绘画", "印象派", "现代生活与公共休闲"],
+      "routeSignals": ["主馆19世纪法国绘画收藏线", "当前对象页标示不在展；候选包另标记 display_rotation 风险"],
+      "riskFlags": ["display_rotation"],
+      "sourcePointers": ["https://collection.nationalmuseum.se/en/collection/item/19486/"]
+    }
+  ]
+}

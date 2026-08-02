@@ -1,0 +1,99 @@
+{
+    "runId":  "20260801T164044Z-p2.13.13",
+    "stage":  "museum_structure",
+    "museumId":  "nationalmuseum",
+    "caseId":  "",
+    "workId":  "",
+    "pipelineVersion":  "2.13.13",
+    "instructionVersion":  "2.4.2",
+    "model":  "gpt-5.6-luna",
+    "reasoningEffort":  "high",
+    "runnerStartedAt":  "2026-08-01T10:07:46.6304931-07:00",
+    "modelStartedAt":  "2026-08-01T10:07:46.9534882-07:00",
+    "modelCompletedAt":  "2026-08-01T10:10:10.6907462-07:00",
+    "completedAt":  "2026-08-01T10:10:10.7160161-07:00",
+    "runnerDurationMs":  144086,
+    "modelDurationMs":  143737,
+    "tokenUsage":  {
+                       "total":  72099,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "2",
+                                    "7",
+                                    "11",
+                                    "12",
+                                    "13"
+                                ],
+    "logPath":  "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/structure/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "e2d6e331f53fb1d7c4b078c0aabc1b03548e4d4504ea218d1a08e09929adc2cc"
+                   },
+                   {
+                       "path":  "research/pipeline/prompts/museum-structure.md",
+                       "role":  "stage_prompt",
+                       "sha256":  "f7181dcb2e0ec52acc20fd76f7525d7692d063adf8c9f7f5cc13f4284f5a7937"
+                   },
+                   {
+                       "path":  "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/scope/scope.json",
+                       "role":  "museum_scope",
+                       "sha256":  "c4dcda28b872a57be3f59a84df17f8953bd090760462194493202d6932791b8b"
+                   },
+                   {
+                       "path":  "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/candidate-pool/candidate-pool.json",
+                       "role":  "candidate_pool",
+                       "sha256":  "ab5cd919a5a7725b5cf7a290dfe51ee07ca35d62d85aaa5e2b36fd040cb5e679"
+                   },
+                   {
+                       "path":  "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/selection/selection.json",
+                       "role":  "museum_selection",
+                       "sha256":  "815f887b5965aa682a169af640ee5f02a7595d2e3fbec5e0ec1661df021c0b8e"
+                   },
+                   {
+                       "path":  "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/rating/rating-result.json",
+                       "role":  "museum_rating",
+                       "sha256":  "e997e2e06471aae1c2d9b75d1c52c1da21849e00332ba7864c17f17a5a5267aa"
+                   },
+                   {
+                       "path":  "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/research/batches/compact-01/compact-planning-evidence.json",
+                       "role":  "compact_planning_evidence",
+                       "sha256":  "c3db6ad91dec89cb2c567cd572e32b03bb926ba166bf88b7c08c20b1740f9bbf"
+                   },
+                   {
+                       "path":  "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/research/batches/compact-02/compact-planning-evidence.json",
+                       "role":  "compact_planning_evidence",
+                       "sha256":  "2e71a4da5400495db95930aa4c9abe117fdbce31458d5328d81638f0d521fb18"
+                   },
+                   {
+                       "path":  "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/research/batches/compact-03/compact-planning-evidence.json",
+                       "role":  "compact_planning_evidence",
+                       "sha256":  "914b2ee45971478299c282db01c598c805063c9061bab81a61710d670c286013"
+                   },
+                   {
+                       "path":  "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/research/batches/compact-04/compact-planning-evidence.json",
+                       "role":  "compact_planning_evidence",
+                       "sha256":  "eed8a4573df8734ab84ff96847f46cb898c95678ebd487d14734a9f13a26b9fb"
+                   },
+                   {
+                       "path":  "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/research/batches/compact-05/compact-planning-evidence.json",
+                       "role":  "compact_planning_evidence",
+                       "sha256":  "aac79fdb22824b22cdbd9e82b8b4cc55bf11131cf991736fe72512ae0fa63f4c"
+                   },
+                   {
+                       "path":  "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/research/batches/deep-01/deep-research-dossier.json",
+                       "role":  "deep_research_dossier",
+                       "sha256":  "07f92b410c91c582f343f398db263c8c54298052ec7cebbfcb96fe6b7946b4b1"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "structure.json",
+                        "sha256":  "bb91bd56728390b08b1ce09b3d61bec4c678bd8e0a85c2904324078d8570a490",
+                        "bytes":  12482
+                    }
+                ]
+}

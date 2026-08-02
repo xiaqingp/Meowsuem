@@ -4,10 +4,11 @@ import { spawn } from "node:child_process";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import {
   assertPathInside,
+  isRunPipelineVersionAllowed,
   loadManifest,
   resolveCanonicalRun,
 } from "./lib/filesystem-contract.mjs";
-import {atomicJson} from "./lib/work-status.mjs";
+import {atomicJson, inspectSingleWorkRetryGuard, summarizeSingleWorkBatch, writeWorkStatus} from "./lib/work-status.mjs";
 
 export async function runPool(items, concurrency, task) {
   if (!Number.isInteger(concurrency) || concurrency < 1) throw new Error("concurrency must be a positive integer");
@@ -88,7 +89,7 @@ export async function findStageRuns(runRoot, stage, descriptor) {
       header.stage !== stage ||
       header.runId !== descriptor.runId ||
       actualIdentity !== expectedIdentity ||
-      header.pipelineVersion !== descriptor.pipelineVersion
+      !isRunPipelineVersionAllowed(header.pipelineVersion, descriptor)
     ) {
       throw new Error(`Filesystem contract violation: run-header identity drift in ${directory}`);
     }
@@ -156,6 +157,7 @@ export async function runGenerationBatch(argv = process.argv.slice(2)) {
   let runs = await findStageRuns(runRoot, stage, descriptor);
   if (args["only-work"]) runs = runs.filter(directory => path.basename(path.dirname(directory)) === args["only-work"]);
   const skippedAccepted = [];
+  const retryGuardBlocked = [];
   if (stage === "single_work") {
     const filtered = [];
     for (const directory of runs) {
@@ -163,12 +165,22 @@ export async function runGenerationBatch(argv = process.argv.slice(2)) {
       const status = JSON.parse(await fs.readFile(statusPath, "utf8"));
       const workId = path.basename(path.dirname(directory));
       if (status.status === "accepted") skippedAccepted.push(workId);
-      else if (!argv.includes("--retry-failed")
-        || ["verification_failed", "blocked_needs_upstream_review"].includes(status.status)) filtered.push(directory);
+      else if (!argv.includes("--retry-failed")) filtered.push(directory);
+      else if (["verification_failed", "blocked_needs_upstream_review"].includes(status.status)) {
+        const guard = await inspectSingleWorkRetryGuard(directory, {
+          maxAttempts: manifest.executionProfile.singleWorkMaxAttempts,
+          tokenBudget: manifest.executionProfile.singleWorkTokenBudget,
+          repeatedFailureLimit: manifest.executionProfile.singleWorkRepeatedFailureLimit,
+        });
+        if (guard.blocked) {
+          retryGuardBlocked.push({workId, ...guard});
+          await writeWorkStatus(runRoot, workId, {status: "blocked_cost_limit", lastStage: "retry_guard", verification: "failed"});
+        } else filtered.push(directory);
+      }
     }
     runs = filtered;
   }
-  if (!runs.length && !skippedAccepted.length) throw new Error(`no ${stage} runs found`);
+  if (!runs.length && !skippedAccepted.length && !retryGuardBlocked.length) throw new Error(`no ${stage} runs found`);
   const started = Date.now();
   let accepted = [...skippedAccepted];
   let failed = [];
@@ -198,7 +210,7 @@ export async function runGenerationBatch(argv = process.argv.slice(2)) {
     );
     accepted = runs.map(directory => path.basename(directory));
   }
-  const result = {
+  let result = {
     schemaVersion: 1,
     runId: descriptor.runId,
     museumId: descriptor.museumId ?? descriptor.targetMuseumId ?? null,
@@ -213,10 +225,20 @@ export async function runGenerationBatch(argv = process.argv.slice(2)) {
     seconds: Number(((Date.now() - started) / 1000).toFixed(2)),
   };
   if (stage === "single_work") {
+    result = await summarizeSingleWorkBatch(runRoot, {
+      runId: descriptor.runId,
+      museumId: descriptor.museumId ?? descriptor.targetMuseumId ?? null,
+      caseId: descriptor.caseId ?? null,
+      attemptedThisBatch: runs.length,
+      skippedAccepted,
+      retryGuardBlocked,
+      concurrency,
+      seconds: Number(((Date.now() - started) / 1000).toFixed(2)),
+    });
     await atomicJson(path.join(runRoot, "reports", "single-work-batch.json"), result);
   }
   process.stdout.write(`${JSON.stringify(result)}\n`);
-  if (failed.length) process.exitCode = 1;
+  if (result.failed.length || result.blocked.length || result.pending?.length) process.exitCode = 1;
   return result;
 }
 

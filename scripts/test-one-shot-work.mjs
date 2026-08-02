@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import fsSync from "node:fs";
 import fs from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
@@ -203,3 +204,7 @@ try {
 } finally {
   await fs.rm(root, {recursive: true, force: true});
 }
+const oneShotPrompt = fsSync.readFileSync("research/pipeline/prompts/single-work-one-shot.md", "utf8");
+assert.match(oneShotPrompt, /"lockedValue"/);
+assert.match(oneShotPrompt, /"observedValue"/);
+assert.match(oneShotPrompt, /不得用 `statement`、`sourceValue`/);

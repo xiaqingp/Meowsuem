@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "museumId": "rosenborg",
+  "museum": {
+    "name": {
+      "zh": "罗森堡城堡",
+      "en": "Rosenborg Castle"
+    },
+    "specialFocus": "罗森堡的独特性不只在王冠和珠宝，而在于一座保存王室居室、王权礼器、珍奇柜、宫廷日常与收藏展示空间的城堡，把丹麦王权从克里斯蒂安四世的身体与房间，一路连接到绝对君主制的仪式、战争图像、宪政记忆和仍在使用的王室珠宝。",
+    "actionConclusion": "评分 79，属于“可去可不去”：如果你在哥本哈根想集中理解丹麦王权如何被房间、礼器和珍宝做成可见秩序，罗森堡值得安排半天；若只有 90 分钟，应直奔骑士大厅与地下 Treasury，并接受部分王冠珠宝可能因王室使用而暂离展柜。它是高密度的王室历史现场，但不是凭单件稀世珍品就必须专程前往的博物馆。",
+    "fit": "适合对王室制度、历史室内、礼仪器物、珍奇柜和材料故事感兴趣的旅行者；也适合希望在一座建筑内看到从16世纪至现代制度记忆连续变化的人。",
+    "limits": "精选对象集中在单一的 Rosenborg Castle 场址，但城堡多层参观有体力成本；冬室、书房和弗雷德里克四世大厅存在修复关闭记录，王冠珠宝及部分室内陈设的具体访问日可见性仍需核验。跨馆的阿美琳堡、克伦堡和其他皇家收藏不计入本路线。",
+    "timePlanning": "90分钟只看骑士大厅、地下 Treasury 的两把王冠、礼器与珍奇对象；半天再加入克里斯蒂安四世战争记忆、王座和玻璃柜；完整浏览按城堡楼层顺序与地下室顺序进行，并为王冠珠宝轮换和多层楼梯预留弹性。"
+  },
+  "chapters": [
+    {
+      "id": "christian-iv-body-and-memory",
+      "number": 1,
+      "title": "一个国王怎样把受伤的身体变成王室记忆？",
+      "intro": "先从克里斯蒂安四世的身体和私人关系进入罗森堡：这里保存的不只是战争史，而是君主如何主动留下可被后人观看的纪念物，以及战场材料如何进入亲密赠礼。",
+      "workIds": [
+        "christian-iv-blood-stained-clothes",
+        "shrapnel-earrings"
+      ]
+    },
+    {
+      "id": "from-election-to-absolutism",
+      "number": 2,
+      "title": "王冠和剑，怎样把制度变化变成一连串动作？",
+      "intro": "沿着地下 Treasury 的礼器线索，把1661年前的选举君主制、1596年的开放式王冠、1648年的礼器重组、1670—1671年的绝对君主王冠，以及1849年的宪政转折连起来看。对象不是抽象制度的插图，而是制度改变后被重新使用的器物。",
+      "workIds": [
+        "christian-iii-sword-of-state",
+        "christian-iv-crown",
+        "coronation-sword",
+        "ampulla",
+        "christian-v-crown",
+        "constitution-pen"
+      ]
+    },
+    {
+      "id": "the-throne-as-political-stage",
+      "number": 3,
+      "title": "王座为什么要同时像圣经范本、北方珍奇和一项未完成工程？",
+      "intro": "在骑士大厅，把独角鲸牙王座和银狮作为一个王权工程观看：所罗门王的范本、北方材料、预算约束和三只已完成的银狮，共同说明宏大政治形象总要经过材料与现实的改写。",
+      "workIds": [
+        "knights-hall",
+        "narwhal-throne",
+        "silver-lions"
+      ]
+    },
+    {
+      "id": "cabinet-of-curiosities",
+      "number": 4,
+      "title": "王室收藏为什么要保存传说、气味和恶作剧？",
+      "intro": "从奥尔登堡号角和香球看到珍奇柜如何叠放物证、家族记忆、传说与感官经验，再以湿裤椅收束：王室展示并不只有庄严礼仪，也容纳不确定性、死亡意识和隐藏机械。",
+      "workIds": [
+        "oldenborg-horn",
+        "pomander",
+        "wetting-trap-chair"
+      ]
+    },
+    {
+      "id": "jewels-inheritance-and-use",
+      "number": 5,
+      "title": "王冠珠宝保存的到底是宝石，还是一条仍在变化的继承史？",
+      "intro": "把四套珠宝放在一起比较：翡翠套饰强调旧宝石与完整配置，珍珠红宝石套饰保留更早材料线索，明亮式与玫瑰式切割钻石则显示旧物如何重新组合、改变用途并继续进入王室佩戴。",
+      "workIds": [
+        "emerald-set",
+        "pearl-ruby-set",
+        "brilliant-cut-diamond-set",
+        "rose-cut-diamond-set"
+      ]
+    },
+    {
+      "id": "collection-as-lived-institution",
+      "number": 6,
+      "title": "一座王室收藏怎样同时保存展示制度和日常延续？",
+      "intro": "玻璃柜把一次威尼斯赠礼变成专门的早期收藏展示空间，Rosenborg 葡萄酒则把宴饮、迁移、战争和持续使用带入地下室；两者提醒我们，这座城堡既是政治舞台，也是会被使用、整理和重新陈列的制度。",
+      "workIds": [
+        "glass-cabinet",
+        "rosenborg-wine"
+      ]
+    }
+  ],
+  "routes": {
+    "90": {
+      "title": "90分钟：先看王权舞台，再下到 Treasury",
+      "note": "按高回报节点取舍：优先骑士大厅、两把王冠、克里斯蒂安三世国剑、加冕剑与一件珍奇对象。跳过四套珠宝的逐套比较、玻璃柜和战争记忆组；地下 Treasury 的入口与参观边界以现场馆方安排为准。",
+      "workIds": [
+        "knights-hall",
+        "narwhal-throne",
+        "silver-lions",
+        "christian-iii-sword-of-state",
+        "oldenborg-horn",
+        "christian-iv-crown",
+        "christian-v-crown",
+        "coronation-sword",
+        "ampulla",
+        "pomander"
+      ]
+    },
+    "half": {
+      "title": "半天：从克里斯蒂安四世到宪政转折",
+      "note": "在90分钟核心线上加入克里斯蒂安四世的染血服装与弹片耳环、四套王冠珠宝的比较、玻璃柜和葡萄酒。玫瑰式切割钻石套饰属于通常王冠珠宝语境，但具体陈列和是否因王室使用暂离须提前核验；宪法笔在弗雷德里克七世房间观看。",
+      "workIds": [
+        "christian-iv-blood-stained-clothes",
+        "shrapnel-earrings",
+        "knights-hall",
+        "narwhal-throne",
+        "silver-lions",
+        "glass-cabinet",
+        "christian-iii-sword-of-state",
+        "oldenborg-horn",
+        "pomander",
+        "christian-iv-crown",
+        "christian-v-crown",
+        "coronation-sword",
+        "ampulla",
+        "emerald-set",
+        "pearl-ruby-set",
+        "brilliant-cut-diamond-set",
+        "rose-cut-diamond-set",
+        "constitution-pen",
+        "rosenborg-wine",
+        "wetting-trap-chair"
+      ]
+    },
+    "all": {
+      "title": "完整浏览：按楼层、制度与收藏线分段看",
+      "note": "完整路线覆盖全部20件入选对象。建议先看城堡室内和骑士大厅，再进入地下 Treasury，最后用王冠珠宝和葡萄酒收束；多层楼梯、休息和地下室独立入口会增加时间。所有对象的现场状态仍以访问日馆方通知为准，尤其是轮换珠宝；完整浏览不把关闭或未确认对象伪装成必然可见。",
+      "workIds": [
+        "christian-iv-blood-stained-clothes",
+        "shrapnel-earrings",
+        "knights-hall",
+        "narwhal-throne",
+        "silver-lions",
+        "glass-cabinet",
+        "wetting-trap-chair",
+        "christian-iii-sword-of-state",
+        "oldenborg-horn",
+        "pomander",
+        "christian-iv-crown",
+        "coronation-sword",
+        "ampulla",
+        "christian-v-crown",
+        "emerald-set",
+        "pearl-ruby-set",
+        "brilliant-cut-diamond-set",
+        "rose-cut-diamond-set",
+        "constitution-pen",
+        "rosenborg-wine"
+      ]
+    }
+  },
+  "works": [
+    {
+      "workId": "christian-iv-blood-stained-clothes",
+      "sectionId": "christian-iv-body-and-memory",
+      "stay": "8—10分钟",
+      "routeRole": ["90-core", "half-core", "all-core", "history-anchor"]
+    },
+    {
+      "workId": "shrapnel-earrings",
+      "sectionId": "christian-iv-body-and-memory",
+      "stay": "4—6分钟",
+      "routeRole": ["half-support", "all-support", "paired-object"]
+    },
+    {
+      "workId": "christian-iii-sword-of-state",
+      "sectionId": "from-election-to-absolutism",
+      "stay": "6—8分钟",
+      "routeRole": ["90-core", "half-core", "all-core", "chronology-start"]
+    },
+    {
+      "workId": "christian-iv-crown",
+      "sectionId": "from-election-to-absolutism",
+      "stay": "8—10分钟",
+      "routeRole": ["90-core", "half-core", "all-core", "must-see"]
+    },
+    {
+      "workId": "coronation-sword",
+      "sectionId": "from-election-to-absolutism",
+      "stay": "6—8分钟",
+      "routeRole": ["90-core", "half-core", "all-core", "transition-object"]
+    },
+    {
+      "workId": "ampulla",
+      "sectionId": "from-election-to-absolutism",
+      "stay": "4—6分钟",
+      "routeRole": ["90-core", "half-core", "all-core", "regalia-system"]
+    },
+    {
+      "workId": "christian-v-crown",
+      "sectionId": "from-election-to-absolutism",
+      "stay": "8—10分钟",
+      "routeRole": ["90-core", "half-core", "all-core", "must-see"]
+    },
+    {
+      "workId": "constitution-pen",
+      "sectionId": "from-election-to-absolutism",
+      "stay": "5—7分钟",
+      "routeRole": ["half-core", "all-core", "modern-transition"]
+    },
+    {
+      "workId": "knights-hall",
+      "sectionId": "the-throne-as-political-stage",
+      "stay": "12—15分钟",
+      "routeRole": ["90-core", "half-core", "all-core", "must-see", "site-anchor"]
+    },
+    {
+      "workId": "narwhal-throne",
+      "sectionId": "the-throne-as-political-stage",
+      "stay": "8—10分钟",
+      "routeRole": ["90-core", "half-core", "all-core", "must-see", "paired-object"]
+    },
+    {
+      "workId": "silver-lions",
+      "sectionId": "the-throne-as-political-stage",
+      "stay": "5—7分钟",
+      "routeRole": ["90-core", "half-support", "all-core", "paired-object"]
+    },
+    {
+      "workId": "oldenborg-horn",
+      "sectionId": "cabinet-of-curiosities",
+      "stay": "5—7分钟",
+      "routeRole": ["90-core", "half-core", "all-core", "treasury-anchor"]
+    },
+    {
+      "workId": "pomander",
+      "sectionId": "cabinet-of-curiosities",
+      "stay": "4—6分钟",
+      "routeRole": ["90-support", "half-core", "all-core", "scale-shift"]
+    },
+    {
+      "workId": "wetting-trap-chair",
+      "sectionId": "cabinet-of-curiosities",
+      "stay": "4—6分钟",
+      "routeRole": ["half-support", "all-support", "contrast-node"]
+    },
+    {
+      "workId": "emerald-set",
+      "sectionId": "jewels-inheritance-and-use",
+      "stay": "7—9分钟",
+      "routeRole": ["half-core", "all-core", "jewellery-anchor"]
+    },
+    {
+      "workId": "pearl-ruby-set",
+      "sectionId": "jewels-inheritance-and-use",
+      "stay": "6—8分钟",
+      "routeRole": ["half-core", "all-core", "jewellery-comparison"]
+    },
+    {
+      "workId": "brilliant-cut-diamond-set",
+      "sectionId": "jewels-inheritance-and-use",
+      "stay": "4—6分钟",
+      "routeRole": ["half-support", "all-core", "jewellery-comparison"]
+    },
+    {
+      "workId": "rose-cut-diamond-set",
+      "sectionId": "jewels-inheritance-and-use",
+      "stay": "6—8分钟",
+      "routeRole": ["half-core", "all-core", "jewellery-comparison", "availability-check"]
+    },
+    {
+      "workId": "glass-cabinet",
+      "sectionId": "collection-as-lived-institution",
+      "stay": "8—10分钟",
+      "routeRole": ["half-core", "all-core", "site-anchor", "collection-history"]
+    },
+    {
+      "workId": "rosenborg-wine",
+      "sectionId": "collection-as-lived-institution",
+      "stay": "5—7分钟",
+      "routeRole": ["half-support", "all-core", "地下室节点"]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "coronation-sword",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Coronation Sword",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-coronation-sword/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "use",
+        "material",
+        "history"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The Treasury's 3rd section (room I)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-i-the-treasury/",
+      "sourceType": "museum",
+      "usedFor": [
+        "accessionNumber",
+        "material",
+        "maker",
+        "provenance",
+        "date"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "The Orb",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-orb/",
+      "sourceType": "museum",
+      "usedFor": [
+        "ceremony",
+        "lastUse",
+        "availability",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "The Treasury's 1st section (room G)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-g-the-treasury/",
+      "sourceType": "museum",
+      "usedFor": [
+        "absolutism",
+        "ceremony",
+        "historicalContext"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "这件作品最初是克里斯蒂安四世在1643年送给弗雷德里克三世的婚礼礼物。",
+      "type": "other",
+      "sourceIds": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "剑柄和剑鞘口的部分由汉堡金匠卢卡斯·沙勒制作。",
+      "type": "attribution",
+      "sourceIds": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "这套王室礼器最后一次以受膏仪式使用，是1840年克里斯蒂安八世在腓特烈堡宫教堂举行的仪式。",
+      "type": "other",
+      "sourceIds": [
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "剑鞘及其纹章的制作年代",
+      "statement": "官方对象页将剑鞘的制作与1648年弗雷德里克三世加冕联系起来；同馆宝库清单则称剑鞘上的省份珐琅纹章为克里斯蒂安五世1671年受膏制作。本文因此将其理解为分阶段完成并更新的礼器。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "date",
+      "severity": "warning",
+      "statement": "锁定 metadata 将剑鞘标为1648年加冕制作；官方宝库清单将省份珐琅纹章标为1671年克里斯蒂安五世受膏时制作。"
+    },
+    {
+      "field": "creator",
+      "severity": "warning",
+      "statement": "锁定 metadata 的 artist 字段为丹麦王室；官方宝库清单则将剑柄和剑鞘口的制作归于汉堡金匠卢卡斯·沙勒。该差异不改变作品身份。"
+    }
+  ]
+}

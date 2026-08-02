@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "errors": [],
+  "warnings": [
+    {
+      "code": "AMBIGUOUS_QUOTATION",
+      "message": "Quoted wording may be emphasis or an unattributed quotation; human review may be useful",
+      "matches": [
+        "“豌豆概念”",
+        "“被观看的对象”",
+        "“我是艺术”",
+        "“艺术身份”",
+        "“自由形式”",
+        "“艺术在墙上，工艺在桌上”",
+        "“Portrait of a Pea”",
+        "“自然的圆”",
+        "“什么值得被称为艺术”"
+      ],
+      "severity": "warning"
+    }
+  ],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": true,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "一颗豌豆，为什么要用银来做",
+    "从实用器到自由形式",
+    "木座不是配角"
+  ],
+  "sourceCount": 3,
+  "articleBytes": 5698,
+  "sourcesBytes": 1913
+}

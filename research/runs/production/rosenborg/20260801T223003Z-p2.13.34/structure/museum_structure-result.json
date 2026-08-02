@@ -1,0 +1,109 @@
+{
+    "runId":  "20260801T223003Z-p2.13.34",
+    "stage":  "museum_structure",
+    "museumId":  "rosenborg",
+    "caseId":  "",
+    "workId":  "",
+    "pipelineVersion":  "2.13.34",
+    "instructionVersion":  "2.4.2",
+    "model":  "gpt-5.6-luna",
+    "reasoningEffort":  "high",
+    "runnerStartedAt":  "2026-08-01T16:06:17.5381195-07:00",
+    "modelStartedAt":  "2026-08-01T16:06:17.7914564-07:00",
+    "modelCompletedAt":  "2026-08-01T16:07:58.1692589-07:00",
+    "completedAt":  "2026-08-01T16:07:58.1969883-07:00",
+    "runnerDurationMs":  100659,
+    "modelDurationMs":  100378,
+    "tokenUsage":  {
+                       "total":  83695,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "2",
+                                    "7",
+                                    "11",
+                                    "12",
+                                    "13"
+                                ],
+    "logPath":  "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/structure/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "e2d6e331f53fb1d7c4b078c0aabc1b03548e4d4504ea218d1a08e09929adc2cc"
+                   },
+                   {
+                       "path":  "research/pipeline/prompts/museum-structure.md",
+                       "role":  "stage_prompt",
+                       "sha256":  "f7181dcb2e0ec52acc20fd76f7525d7692d063adf8c9f7f5cc13f4284f5a7937"
+                   },
+                   {
+                       "path":  "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/scope/scope.json",
+                       "role":  "museum_scope",
+                       "sha256":  "c4ccf4d4ccc3fe648c9e076d02016ac255db403bcbb3add7eff63a692c3292db"
+                   },
+                   {
+                       "path":  "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/candidate-pool/candidate-pool.json",
+                       "role":  "candidate_pool",
+                       "sha256":  "973121f6c700394d351d7804135581daf801db290c78e8b77117208d8201a47a"
+                   },
+                   {
+                       "path":  "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/selection/selection.json",
+                       "role":  "museum_selection",
+                       "sha256":  "4e7640b17d0c2c6f6821e6b9d705287b0a66f1535eec1b755bddae516f06bdb5"
+                   },
+                   {
+                       "path":  "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/rating/rating-result.json",
+                       "role":  "museum_rating",
+                       "sha256":  "5bf2a98b7488d931902dce84deefbf5543bec2ee1fc68f27952fe499c9b6abbd"
+                   },
+                   {
+                       "path":  "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/research/batches/compact-01/compact-planning-evidence.json",
+                       "role":  "compact_planning_evidence",
+                       "sha256":  "1fc771a4bfab3548ab76c0412d1827c3af672756b85e7e5518c3cb6f222b4fb2"
+                   },
+                   {
+                       "path":  "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/research/batches/compact-02/compact-planning-evidence.json",
+                       "role":  "compact_planning_evidence",
+                       "sha256":  "aa4128e6b130a1dee156252b94ada556a2016f512ea932d0c3d4af887ec26838"
+                   },
+                   {
+                       "path":  "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/research/batches/compact-03/compact-planning-evidence.json",
+                       "role":  "compact_planning_evidence",
+                       "sha256":  "296d07d0b03637b38cf0235b013900cf06dfcb279cd124f03fc4f184db350792"
+                   },
+                   {
+                       "path":  "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/research/batches/compact-04/compact-planning-evidence.json",
+                       "role":  "compact_planning_evidence",
+                       "sha256":  "e0e59cc47d2b29276c9467beee5137f80d95245a8992d30709f1b237b945752f"
+                   },
+                   {
+                       "path":  "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/research/batches/deep-01/deep-research-dossier.json",
+                       "role":  "deep_research_dossier",
+                       "sha256":  "39663b479a75e0677dd33d9cfcf45466385634bad76da9cb61b179f2755f648f"
+                   },
+                   {
+                       "path":  "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/research/batches/deep-02/deep-research-dossier.json",
+                       "role":  "deep_research_dossier",
+                       "sha256":  "196ab24b64121144eade4298588dfc5639d72adf683acdb42d1c06b917d8b242"
+                   },
+                   {
+                       "path":  "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/research/batches/deep-03/deep-research-dossier.json",
+                       "role":  "deep_research_dossier",
+                       "sha256":  "d77323dac34d2b6799e0a13f41c073161ad67d01b1f266bde3fd81848b0df71c"
+                   },
+                   {
+                       "path":  "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/research/batches/deep-04/deep-research-dossier.json",
+                       "role":  "deep_research_dossier",
+                       "sha256":  "dafafc5b102991fa784f063614b124d33b65bb1e91cb8f22b274d917aa156c80"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "structure.json",
+                        "sha256":  "7f1caf33fa3113628cc8cb9f2fb019738557c304f9ee0c0f8cb5043f5f6df5d4",
+                        "bytes":  11894
+                    }
+                ]
+}

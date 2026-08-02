@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "narwhal-throne",
+  "objectType": "object",
+  "titleZh": "独角鲸牙王座",
+  "titleEn": "The narwhal throne",
+  "displayBy": "丹麦王室 / Danish royal collection",
+  "artistZh": "丹麦王室",
+  "artistEn": "Danish royal collection",
+  "displayDate": "1662—1671",
+  "medium": "独角鲸牙、镀金金属与王座结构",
+  "identityAnchor": "official-object:the-narwhal-throne",
+  "museumName": "Rosenborg Castle",
+  "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-narwhal-throne/",
+  "significance": "重要藏品",
+  "priority": "绝对不可错过",
+  "availability": "confirmed_on_view",
+  "sectionId": "the-throne-as-political-stage",
+  "stay": "8—10分钟",
+  "routeRole": [
+    "90-core",
+    "half-core",
+    "all-core",
+    "must-see",
+    "paired-object"
+  ],
+  "imagePolicy": "object_image",
+  "verifiedImageUrl": "https://denkongeligesamling.dk/media/a4glwlzz/trone-riddersal_rasmus_t_rosenberg.jpg?width=960&height=1440&v=1dc31182b000530",
+  "verifiedImageLocalPath": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/narwhal-throne.webp",
+  "verifiedImageSha256": "7646874e1b7cc88837a3cfd6aafdf1c8b4fba41eb59c78f7291622c38db506dd",
+  "imageEvidencePath": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/verified-image-evidence.json"
+}

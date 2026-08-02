@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "persson-portrait-of-a-pea-nmk-169-1972",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Sculpture \"Portrait of a pea\"",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/8717/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "maker",
+        "date",
+        "material",
+        "dimensions",
+        "acquisition",
+        "collectionRelation",
+        "current_display",
+        "artist_intent",
+        "object_description"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The Timeline: 1965–",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/en/webtour/tidslinjen-1965-",
+      "sourceType": "museum",
+      "usedFor": [
+        "historical_context",
+        "free_form_crafts",
+        "art_craft_boundary",
+        "artist_intent"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Sigurd Persson",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/artists/artist/2961/",
+      "sourceType": "museum",
+      "usedFor": [
+        "artist_identity",
+        "artist_lifespan",
+        "nationality"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "西古德·佩尔松希望通过《豌豆肖像雕塑》摆脱仅被视为设计师或工艺创作者的身份，并被视为艺术家。",
+      "type": "artist_intent",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "制作过程",
+      "statement": "馆方对象页确认设计者、制作者、工作室、材料和尺寸，但未说明银球与木座的具体加工工艺，因此文章未对具体铸造、锻造或装配方法作确定描述。"
+    }
+  ],
+  "upstreamConflicts": []
+}

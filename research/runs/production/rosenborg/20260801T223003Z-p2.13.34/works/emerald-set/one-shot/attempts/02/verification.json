@@ -1,0 +1,39 @@
+{
+  "status": "failed",
+  "errors": [
+    {
+      "code": "UNSUPPORTED_HIGH_RISK_CLAIM",
+      "message": "Strong factual claim lacks a valid source record",
+      "matches": [
+        "翡翠套饰如今由玛丽王后使用；馆方还记录了她在王位继承后的首次正式晚宴肖像中佩戴这套珠宝的情况"
+      ],
+      "severity": "error"
+    }
+  ],
+  "warnings": [],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": false,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "一套珠宝，先有石头，后有“套饰”",
+    "让光穿过翡翠",
+    "一份出生礼物，如何变成王室记忆",
+    "今天它仍然会被佩戴"
+  ],
+  "sourceCount": 3,
+  "articleBytes": 5530,
+  "sourcesBytes": 2632
+}

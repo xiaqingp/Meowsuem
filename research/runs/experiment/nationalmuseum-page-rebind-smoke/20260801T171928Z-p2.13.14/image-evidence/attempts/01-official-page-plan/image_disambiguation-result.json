@@ -1,0 +1,39 @@
+{
+    "runId":  "20260801T171928Z-p2.13.14",
+    "stage":  "image_disambiguation",
+    "museumId":  "",
+    "caseId":  "nationalmuseum-page-rebind-smoke",
+    "workId":  "",
+    "pipelineVersion":  "2.13.14",
+    "instructionVersion":  "2.4.2",
+    "model":  "gpt-5.6-luna",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-08-01T10:19:40.0129947-07:00",
+    "modelStartedAt":  "2026-08-01T10:19:40.3312877-07:00",
+    "modelCompletedAt":  "2026-08-01T10:20:29.1174052-07:00",
+    "completedAt":  "2026-08-01T10:20:29.1439847-07:00",
+    "runnerDurationMs":  49131,
+    "modelDurationMs":  48786,
+    "tokenUsage":  {
+                       "total":  27127,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+
+                                ],
+    "logPath":  "research/runs/experiment/nationalmuseum-page-rebind-smoke/20260801T171928Z-p2.13.14/image-evidence/attempts/01-official-page-plan/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/runs/experiment/nationalmuseum-page-rebind-smoke/20260801T171928Z-p2.13.14/image-evidence/attempts/01-official-page-plan/image-research-packet.json",
+                       "role":  "image_candidate_packet",
+                       "sha256":  "15d0607f50284dcb06ecdc442cf2f67289252e4244de901e0a0ec0b2dd1ed1c3"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "image-decisions.json",
+                        "sha256":  "3e30be7e4b09b2a6cf431d242d80f5b4a8ba86b4d4318de320435f68e9985e95",
+                        "bytes":  728
+                    }
+                ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "knights-hall",
+  "objectType": "architectural_viewing_node",
+  "titleZh": "骑士大厅（21号房）",
+  "titleEn": "The Knights’ Hall (room 21)",
+  "displayBy": "丹麦王室建筑与历史室内 / Danish royal historic interior",
+  "artistZh": "丹麦王室建筑与历史室内",
+  "artistEn": "Danish royal historic interior",
+  "displayDate": "王室博物馆历史陈设",
+  "medium": "历史大厅、王座与王室陈设",
+  "identityAnchor": "rosenborg-room-21",
+  "museumName": "Rosenborg Castle",
+  "officialObjectUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/",
+  "significance": "重要藏品",
+  "priority": "绝对不可错过",
+  "availability": "confirmed_on_view",
+  "sectionId": "the-throne-as-political-stage",
+  "stay": "12—15分钟",
+  "routeRole": [
+    "90-core",
+    "half-core",
+    "all-core",
+    "must-see",
+    "site-anchor"
+  ],
+  "imagePolicy": "context_image",
+  "verifiedImageUrl": "https://denkongeligesamling.dk/media/t04jssmk/riddersal_rasmus_t_rosenberg-1.jpg?width=1920&height=1080&v=1dba5481ca16850",
+  "verifiedImageLocalPath": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/knights-hall.webp",
+  "verifiedImageSha256": "742a72ad9a0af16a032a22f661156cfce1331687469248e28e208524777f7e67",
+  "imageEvidencePath": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/verified-image-evidence.json"
+}

@@ -1,0 +1,296 @@
+{
+  "museumId": "rosenborg",
+  "works": [
+    {
+      "workId": "coronation-sword",
+      "identity": {
+        "objectType": "object",
+        "title": {
+          "zh": "加冕剑",
+          "en": "The Coronation Sword"
+        },
+        "cultureZh": "丹麦王室",
+        "cultureEn": "Danish royal collection",
+        "displayDate": "1643；剑鞘为1648年加冕制作",
+        "medium": "金属剑身；钻石、珐琅与纹章装饰的剑柄和剑鞘",
+        "accessionNumber": "5540",
+        "identityAnchor": "official-object:the-coronation-sword",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-coronation-sword/"
+      },
+      "identityAnchor": "official-object:the-coronation-sword",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-coronation-sword/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-coronation-sword/",
+      "collectionGroup": "Royal crowns and Crown regalia",
+      "selectionRationale": "官方页面说明其在宗教加冕与绝对王权受膏之间发生功能变化，能解释礼器如何随制度改变。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方页面确认其为丹麦王国礼器；具体访问日可见性仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "christian-iii-sword-of-state",
+      "identity": {
+        "objectType": "object",
+        "title": {
+          "zh": "克里斯蒂安三世国剑",
+          "en": "Christian III's sword of state"
+        },
+        "cultureZh": "丹麦王室",
+        "cultureEn": "Danish royal collection",
+        "displayDate": "1551",
+        "medium": "国剑；金属、宝石与珐琅装饰",
+        "identityAnchor": "official-object:chr-iii-s-sword-of-state",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/chr-iii-s-sword-of-state/"
+      },
+      "identityAnchor": "official-object:chr-iii-s-sword-of-state",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/chr-iii-s-sword-of-state/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/chr-iii-s-sword-of-state/",
+      "collectionGroup": "Royal crowns and Crown regalia",
+      "selectionRationale": "官方对象页把它放入1661年前的加冕仪式，提供早于Rosenborg主要王权叙事的礼仪基线。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方对象身份明确；该对象在本次访问中的具体展示状态仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "narwhal-throne",
+      "identity": {
+        "objectType": "object",
+        "title": {
+          "zh": "独角鲸牙王座",
+          "en": "The narwhal throne"
+        },
+        "cultureZh": "丹麦王室",
+        "cultureEn": "Danish royal collection",
+        "displayDate": "1662—1671",
+        "medium": "独角鲸牙、镀金金属与王座结构",
+        "identityAnchor": "official-object:the-narwhal-throne",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-narwhal-throne/"
+      },
+      "identityAnchor": "official-object:the-narwhal-throne",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-narwhal-throne/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-narwhal-throne/",
+      "collectionGroup": "Historic royal interiors and objects",
+      "selectionRationale": "官方页面将王座、所罗门王叙事、独角鲸牙和北方物产连接起来，是理解王权展示与自然珍奇交汇的关键候选。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方对象身份明确；该对象在本次访问中的具体展示状态仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "silver-lions",
+      "identity": {
+        "objectType": "group",
+        "title": {
+          "zh": "银狮",
+          "en": "Silver lions"
+        },
+        "cultureZh": "丹麦王室",
+        "cultureEn": "Danish royal collection",
+        "displayDate": "17世纪；弗雷德里克三世去世时已有三只完成",
+        "medium": "银制王座守护狮",
+        "identityAnchor": "official-object:silver-lions",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/silver-lions/"
+      },
+      "identityAnchor": "official-object:silver-lions",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/silver-lions/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/silver-lions/",
+      "collectionGroup": "Historic royal interiors and objects",
+      "selectionRationale": "官方页面记录了从十二只设想、预算限制到三只完成的过程，可解释王座计划如何被现实改写。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方对象身份明确；该对象在本次访问中的具体展示状态仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "homage-of-1660",
+      "identity": {
+        "objectType": "single_work",
+        "title": {
+          "zh": "《1660年致敬仪式》",
+          "en": "The Homage of 1660"
+        },
+        "artistZh": "沃尔夫冈·海姆巴赫",
+        "artistEn": "Wolfgang Heimbach",
+        "displayDate": "1660",
+        "medium": "绘画",
+        "identityAnchor": "official-object:the-homage-of-1660",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-homage-of-1660/"
+      },
+      "identityAnchor": "official-object:the-homage-of-1660",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-homage-of-1660/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-homage-of-1660/",
+      "collectionGroup": "Historic royal interiors and objects",
+      "selectionRationale": "官方页面将画面与1660年弗雷德里克三世成为世袭君主及专制制度转折相连，补足礼器之外的政治图像。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方对象身份与作者明确；具体访问日可见性仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "christian-iv-blood-stained-clothes",
+      "identity": {
+        "objectType": "object",
+        "title": {
+          "zh": "克里斯蒂安四世染血服装",
+          "en": "Christian IV’s blood-stained clothes"
+        },
+        "cultureZh": "丹麦王室",
+        "cultureEn": "Danish royal collection",
+        "displayDate": "1644",
+        "medium": "染血服装与王室纪念物",
+        "identityAnchor": "official-object:christian-ivs-blood-stained-clothes",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/christian-ivs-blood-stained-clothes/"
+      },
+      "identityAnchor": "official-object:christian-ivs-blood-stained-clothes",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/christian-ivs-blood-stained-clothes/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/christian-ivs-blood-stained-clothes/",
+      "collectionGroup": "Historical clothing and other royal objects",
+      "selectionRationale": "官方页面把1644年海战、君主受伤和其主动保存英雄纪念物的行为连成一条可研究的个人政治叙事。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方对象身份明确；该对象在本次访问中的具体展示状态仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "shrapnel-earrings",
+      "identity": {
+        "objectType": "pair",
+        "title": {
+          "zh": "弹片耳环",
+          "en": "Shrapnel earrings"
+        },
+        "cultureZh": "丹麦王室",
+        "cultureEn": "Danish royal collection",
+        "displayDate": "1644年战伤之后",
+        "medium": "战场弹片改制的耳环",
+        "identityAnchor": "official-object:shrapnel-earrings",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/shrapnel-earrings/"
+      },
+      "identityAnchor": "official-object:shrapnel-earrings",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/shrapnel-earrings/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/shrapnel-earrings/",
+      "collectionGroup": "Historical clothing and other royal objects",
+      "selectionRationale": "官方页面记录了弹片从战伤遗留物到赠予情人的首饰的转换，补充Rosenborg中个人记忆与王室权力的交叉。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方对象身份明确；该对象在本次访问中的具体展示状态仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "oldenborg-horn",
+      "identity": {
+        "objectType": "object",
+        "title": {
+          "zh": "奥尔登堡号角",
+          "en": "The Oldenborg Horn"
+        },
+        "cultureZh": "丹麦王室",
+        "cultureEn": "Danish royal collection",
+        "displayDate": "约1400年制作；1663年起归丹麦王冠",
+        "medium": "饮酒角与金属装饰",
+        "identityAnchor": "official-object:the-oldenborg-horn",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-oldenborg-horn/"
+      },
+      "identityAnchor": "official-object:the-oldenborg-horn",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-oldenborg-horn/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-oldenborg-horn/",
+      "collectionGroup": "Historic royal interiors and objects",
+      "selectionRationale": "官方页面同时保留了精确年代与精灵诅咒传说，能展示王室珍藏如何把家族记忆、传说与珍奇柜制度叠合。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方对象身份明确；该对象在本次访问中的具体展示状态仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "snake-head-with-coin",
+      "identity": {
+        "objectType": "object",
+        "title": {
+          "zh": "含萨尔茨堡古尔登金币的干蛇头",
+          "en": "Dried snake’s head with a Salzburg guilder in its mouth"
+        },
+        "cultureZh": "丹麦王室珍奇柜",
+        "cultureEn": "Danish royal cabinet of curiosities",
+        "displayDate": "年代未详",
+        "medium": "干制蛇头与金币",
+        "identityAnchor": "official-object:snake-s-head-with-coin",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/snake-s-head-with-coin/"
+      },
+      "identityAnchor": "official-object:snake-s-head-with-coin",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/snake-s-head-with-coin/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/snake-s-head-with-coin/",
+      "collectionGroup": "Historic royal interiors and objects",
+      "selectionRationale": "官方对象页明确保留两种互相冲突的来源故事，适合研究珍奇柜如何保存不确定性而不是只讲单一传说。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方对象身份明确且来源故事存在分歧；具体访问日可见性仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "pomander",
+      "identity": {
+        "objectType": "object",
+        "title": {
+          "zh": "香球",
+          "en": "Pomander"
+        },
+        "cultureZh": "丹麦王室",
+        "cultureEn": "Danish royal collection",
+        "displayDate": "约1600年",
+        "medium": "黄金、白色珐琅、红宝石、珊瑚与香料隔间",
+        "identityAnchor": "official-object:pomander",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/pomander/"
+      },
+      "identityAnchor": "official-object:pomander",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/pomander/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/pomander/",
+      "collectionGroup": "Historic royal interiors and objects",
+      "selectionRationale": "官方页面把骷髅形制、香料储存与文艺复兴的死亡意识并置，提供一个尺度小但观看机制清楚的珍奇柜候选。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方对象身份明确；该对象在本次访问中的具体展示状态仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    }
+  ]
+}

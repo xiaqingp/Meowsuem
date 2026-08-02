@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "glass-cabinet",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Glass Cabinet (room 22)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-22-the-glass-cabinet/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "collectionHistory",
+        "displayArrangement",
+        "roomHistory"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The Glass Cabinet at Rosenborg Palace: Gottfried Fuchs's arrangement of 1714 rediscovered during restoration",
+      "publisher": "Journal of the History of Collections / Oxford Academic",
+      "url": "https://academic.oup.com/jhc/article-abstract/3/1/1/823057",
+      "sourceType": "academic",
+      "usedFor": [
+        "date",
+        "collectionHistory",
+        "objectCount",
+        "restoration",
+        "symmetry"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "About us - The Royal Danish Collection",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/about-us/",
+      "sourceType": "museum",
+      "usedFor": [
+        "museumHistory",
+        "publicOpening",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Frederik IV",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/persons/frederik-iv-1671-1730/",
+      "sourceType": "museum",
+      "usedFor": [
+        "creatorContext",
+        "royalHistory"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "馆方将22号房称为欧洲最早的博物馆房间之一，并称其独特。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "这间房曾容纳约一千件玻璃器，修复后许多器物被放回原始位置，并呈现围绕中央轴线的对称布局。",
+      "type": "other",
+      "sourceIds": [
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "单件玻璃器的制作信息",
+      "statement": "本次核对的对象页只提供房间层面的概述，未逐件说明所有器物的作者、工坊、确切年代和材质配方，因此本文没有对单件器物作具体断定。"
+    }
+  ],
+  "upstreamConflicts": []
+}

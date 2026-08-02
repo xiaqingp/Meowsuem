@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "charles-x-gustav-miniature-nmb-2163",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Charles X Gustav of Sweden (1622-1660)",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/26105/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "material",
+        "accessionNumber",
+        "collectionRelation",
+        "availability",
+        "dimensions",
+        "undated_object_record"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "ABC med Nationalmuseum: X som i X",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/abc-med-nationalmuseum-x-som-i-x",
+      "sourceType": "museum",
+      "usedFor": [
+        "frame_material",
+        "rubies",
+        "pendant_use",
+        "crown_form",
+        "creator_context",
+        "person_context"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Portrait miniatures",
+      "publisher": "Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/collections/portrait-miniatures",
+      "sourceType": "museum",
+      "usedFor": [
+        "miniature_context",
+        "portable_portrait",
+        "social_use"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Portrait miniatures at the V&A",
+      "publisher": "Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/articles/portrait-miniatures-at-the-va/",
+      "sourceType": "museum",
+      "usedFor": [
+        "vellum_context",
+        "painting_technique",
+        "miniature_materials"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Nationalmuseum | The Treasury",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/en/exhibitions/the-treasury",
+      "sourceType": "museum",
+      "usedFor": [
+        "display_context",
+        "miniature_collection_context"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "Nationalmuseum 官方对象记录将该作品归于亚历山大·库珀。",
+      "type": "attribution",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "该作品于1978年由斯德哥尔摩的 Skattkammarsamlingen 转入 Nationalmuseum。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "制作年代",
+      "statement": "Nationalmuseum 官方对象记录没有给出制作年份，文章未将作品归入某个具体年份、加冕事件或战争。"
+    },
+    {
+      "topic": "原始委托与第一位佩戴者",
+      "statement": "现有来源确认作品具有可佩戴的吊坠结构，但没有确认最初委托人、第一位佩戴者或具体赠送关系。"
+    }
+  ],
+  "upstreamConflicts": []
+}

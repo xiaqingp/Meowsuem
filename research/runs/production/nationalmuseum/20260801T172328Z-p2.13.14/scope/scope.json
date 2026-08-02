@@ -1,0 +1,159 @@
+{
+  "museumId": "nationalmuseum",
+  "museumName": "Nationalmuseum",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "officialCollectionUrl": "https://collection.nationalmuseum.se/en/",
+  "editorialCapacity": {
+    "count": 40,
+    "reason": "The Stockholm site has a wide, internally coherent collection spanning paintings and sculpture, applied arts and design, and prints and drawings, with a strong Swedish and Nordic emphasis. Twenty works would not adequately represent those media and the museum's collection logic; forty allows a substantial core route plus works that explain the design/applied-arts and graphic-arts identities. Sixty is not justified for this run because the scope is one primary visitor building rather than a Louvre-scale, cross-civilisation museum network.",
+    "planningBoundary": "Capacity applies to the Stockholm Nationalmuseum building and its permanent collection presentation, not to the institution's dispersed external venues or temporary exhibitions."
+  },
+  "collectionBoundaries": {
+    "includedSite": {
+      "name": "Nationalmuseum Stockholm main building",
+      "location": "Blasieholmen, Södra Blasieholmshamnen 2, Stockholm",
+      "boundary": "The visitor-facing Nationalmuseum site on Blasieholmen, including the permanent collection displays and on-site sculpture courtyards. Online collection records may enter the downstream candidate pool only when later research verifies their relevance and visitor-facing status for this site.",
+      "sourceIds": ["official_about", "official_visit", "official_getting_here"]
+    },
+    "collectionGroups": [
+      {
+        "name": "Paintings and sculptures",
+        "site": "Nationalmuseum Stockholm main building",
+        "scope": "Paintings and sculpture from the late Middle Ages/Renaissance through around 1900, including Swedish, Dutch, French and other European holdings described by the museum.",
+        "candidatePool": "include",
+        "candidateCondition": "Include as a collection family; each later candidate must be tied to a unique official object record and its display or access status must be verified downstream.",
+        "sourceIds": ["official_collections", "official_visit"]
+      },
+      {
+        "name": "Design and applied arts",
+        "site": "Nationalmuseum Stockholm main building",
+        "scope": "Applied arts, design and industrial design from the late Middle Ages/14th century through the present, including ceramics, textiles, glass, metalwork, furniture and books, with priority given by the museum to Sweden and the Nordic countries.",
+        "candidatePool": "include",
+        "candidateCondition": "Include the Stockholm-displayed collection family; treat the separately located Gustavsberg collection and museum as an exclusion below.",
+        "sourceIds": ["official_collections", "official_visit"]
+      },
+      {
+        "name": "Prints and drawings",
+        "site": "Nationalmuseum collection administered from Stockholm; visitor visibility to be verified per object",
+        "scope": "Prints and drawings from the late Middle Ages to 1900, including the Tessin master-drawing holdings and other named graphic-art strengths.",
+        "candidatePool": "include",
+        "candidateCondition": "Include as a research family, but do not assume that an online record is currently on display; downstream research must verify access, display or an explicitly usable museum presentation.",
+        "sourceIds": ["official_collections", "official_online_collection"]
+      }
+    ],
+    "institutionalContext": "Nationalmuseum is both Sweden's museum of art and design and a government authority. Its collections are broader than the Stockholm building, so institutional administration is not by itself sufficient to include an external venue in this run.",
+    "sourceIds": ["official_about", "official_collections", "official_venues"]
+  },
+  "exclusions": [
+    {
+      "name": "Gustavsberg Porcelain Museum and the Gustavsberg collection",
+      "reason": "Separate museum and location; although part of Nationalmuseum institutionally and covered by some Nationalmuseum admission products, it is not part of the Stockholm Blasieholmen visit boundary.",
+      "sourceIds": ["official_collections", "official_gustavsberg"]
+    },
+    {
+      "name": "National Portrait Gallery at Gripsholm Castle and other Royal Castles collections",
+      "reason": "The portrait gallery and royal-castle holdings are displayed at separate castles outside the Stockholm main building and require a separate destination decision.",
+      "sourceIds": ["official_collections", "official_portrait_gallery"]
+    },
+    {
+      "name": "The Tessin Institute's art collection and its displays at the Swedish Institute in Paris",
+      "reason": "Separate institution/venue in Paris; administered by Nationalmuseum but outside a Stockholm museum visit.",
+      "sourceIds": ["official_collections"]
+    },
+    {
+      "name": "Other external Nationalmuseum venues, including Jamtli and Läckö Castle",
+      "reason": "Separate venues outside the defined Stockholm site boundary; excluded from this single-site scope.",
+      "sourceIds": ["official_venues"]
+    },
+    {
+      "name": "Temporary exhibitions",
+      "reason": "Excluded from the stable collection scope even when exhibited in the main building or included in admission, because this stage establishes the enduring collection boundary rather than a date-specific exhibition programme.",
+      "sourceIds": ["official_home", "official_visit"]
+    }
+  ],
+  "riskFlags": [],
+  "sourcePointers": [
+    {
+      "id": "official_about",
+      "title": "About Nationalmuseum",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/en/about-nationalmuseum",
+      "accessDate": "2026-08-01",
+      "supports": "Museum identity as Sweden's museum of art and design, institutional status, collection periods at a high level, and the Södra Blasieholmshamnen 2 address."
+    },
+    {
+      "id": "official_visit",
+      "title": "Nationalmuseum | Art museum in Stockholm",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/en/visit",
+      "accessDate": "2026-08-01",
+      "supports": "The Stockholm visitor experience, the art/design period range, and the statement that about 5,000 objects are presented chronologically through the building."
+    },
+    {
+      "id": "official_getting_here",
+      "title": "Getting here",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/en/visit/getting-here",
+      "accessDate": "2026-08-01",
+      "supports": "Nationalmuseum's location on Blasieholmen in central Stockholm, opposite the Royal Palace, and its visiting address and transport relationship."
+    },
+    {
+      "id": "official_collections",
+      "title": "The collections",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/en/explore-art-and-design/the-collections",
+      "accessDate": "2026-08-01",
+      "supports": "The stable collection families, periods, approximate collection scale, Swedish/Nordic design emphasis, Royal Castles and National Portrait Gallery holdings, Gustavsberg collection, and Tessin Institute collection."
+    },
+    {
+      "id": "official_online_collection",
+      "title": "Welcome to our Collections Online",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/",
+      "accessDate": "2026-08-01",
+      "supports": "The official collection entry point and the distinction between the online search corpus and the museum's total holdings."
+    },
+    {
+      "id": "official_portrait_gallery",
+      "title": "Statens porträttsamling",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/utforska-konst-och-design/v%C3%A5ra-samlingar/statens-portr%C3%A4ttsamling",
+      "accessDate": "2026-08-01",
+      "supports": "The National Portrait Gallery's responsibility under Nationalmuseum and its display at Gripsholm Castle."
+    },
+    {
+      "id": "official_gustavsberg",
+      "title": "AfterGlow – New Nordic Porcelain",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/en/afterglow",
+      "accessDate": "2026-08-01",
+      "supports": "The Gustavsberg Porcelain Museum as a part of Nationalmuseum and its separate venue relationship."
+    },
+    {
+      "id": "official_venues",
+      "title": "Nationalmuseum needs a budget boost",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/en/about-nationalmuseum/a-few-lines-from-the-director-general/nationalmuseum-needs-a-budget-boost",
+      "accessDate": "2026-08-01",
+      "supports": "Nationalmuseum's distinct venues at Blasieholmen, Gustavsberg, Jamtli, Läckö Castle and Gripsholm Castle, demonstrating the institution's multi-site scope."
+    },
+    {
+      "id": "official_home",
+      "title": "Nationalmuseum – Sweden's Museum of Art and Design",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/en/",
+      "accessDate": "2026-08-01",
+      "supports": "The distinction between collection exploration and the current temporary-exhibition programme at the Stockholm museum."
+    },
+    {
+      "id": "map_coordinates",
+      "title": "Institution:Nationalmuseum Stockholm",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/Institution%3ANationalmuseum_Stockholm",
+      "accessDate": "2026-08-01",
+      "supports": "Map coordinates for the Nationalmuseum building at Södra Blasieholmshamnen 2, Stockholm."
+    }
+  ],
+  "coordinates": [59.3286, 18.0781]
+}

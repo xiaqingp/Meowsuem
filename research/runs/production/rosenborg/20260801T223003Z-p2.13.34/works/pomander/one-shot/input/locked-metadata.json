@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "pomander",
+  "objectType": "object",
+  "titleZh": "香球",
+  "titleEn": "Pomander",
+  "displayBy": "丹麦王室 / Danish royal collection",
+  "artistZh": "丹麦王室",
+  "artistEn": "Danish royal collection",
+  "displayDate": "约1600年",
+  "medium": "黄金、白色珐琅、红宝石、珊瑚与香料隔间",
+  "identityAnchor": "official-object:pomander",
+  "museumName": "Rosenborg Castle",
+  "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/pomander/",
+  "significance": "特色看点",
+  "priority": "强烈推荐",
+  "availability": "confirmed_on_view",
+  "sectionId": "cabinet-of-curiosities",
+  "stay": "4—6分钟",
+  "routeRole": [
+    "90-support",
+    "half-core",
+    "all-core",
+    "scale-shift"
+  ],
+  "imagePolicy": "object_image",
+  "verifiedImageUrl": "https://denkongeligesamling.dk/media/1eiclvrr/a0010033-8-dig-ibk.png?width=640&height=640&v=1dc2c7e07b6e380",
+  "verifiedImageLocalPath": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/assets/pomander.webp",
+  "verifiedImageSha256": "e54ec911e730d7e20ad6d40088b62e6041af6af3b4457aaa0578f67826c04eb6",
+  "imageEvidencePath": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/image-evidence/verified-image-evidence.json"
+}

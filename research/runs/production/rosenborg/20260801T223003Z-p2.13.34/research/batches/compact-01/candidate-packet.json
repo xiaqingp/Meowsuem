@@ -1,0 +1,303 @@
+{
+  "museumId": "rosenborg",
+  "works": [
+    {
+      "workId": "emerald-set",
+      "identity": {
+        "objectType": "set",
+        "title": {
+          "zh": "翡翠套饰",
+          "en": "The Emerald Set"
+        },
+        "cultureZh": "丹麦王室",
+        "cultureEn": "Danish royal collection",
+        "displayDate": "1840；部分宝石可追溯至1723年",
+        "medium": "黄金、白银、翡翠与明亮式切割钻石",
+        "accessionNumber": "5528",
+        "identityAnchor": "official-object:the-emerald-set",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-emerald-set/"
+      },
+      "identityAnchor": "official-object:the-emerald-set",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-emerald-set/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-emerald-set/",
+      "collectionGroup": "Danish crown jewels",
+      "selectionRationale": "官方对象页明确记录其为四套王室珠宝之一，并能解释珠宝套饰、继承与王室使用之间的关系。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方对象身份明确；该对象在本次访问中的具体展示状态仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "pearl-ruby-set",
+      "identity": {
+        "objectType": "set",
+        "title": {
+          "zh": "珍珠红宝石套饰",
+          "en": "The Pearl-Ruby Set"
+        },
+        "cultureZh": "丹麦王室",
+        "cultureEn": "Danish royal collection",
+        "displayDate": "1842；大型珍珠至少可追溯至17世纪晚期",
+        "medium": "珍珠、红宝石、钻石与黄金",
+        "accessionNumber": "5532",
+        "identityAnchor": "official-object:the-pearl-ruby-set",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-pearl-ruby-set/"
+      },
+      "identityAnchor": "official-object:the-pearl-ruby-set",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-pearl-ruby-set/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-pearl-ruby-set/",
+      "collectionGroup": "Danish crown jewels",
+      "selectionRationale": "官方页面将其定位为王室珠宝中最古老材料线索最清楚的一组，可补足珠宝的继承史与可拆分使用。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方对象身份明确；该对象在本次访问中的具体展示状态仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "brilliant-cut-diamond-set",
+      "identity": {
+        "objectType": "set",
+        "title": {
+          "zh": "明亮式切割钻石套饰",
+          "en": "The Brilliant-Cut Diamond Set"
+        },
+        "cultureZh": "丹麦王室",
+        "cultureEn": "Danish royal collection",
+        "displayDate": "1840",
+        "medium": "钻石、黄金与白银镶座；项链、胸针和耳坠",
+        "accessionNumber": "5560",
+        "identityAnchor": "official-object:the-brilliant-cut-diamond-set",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-brillant-cut-diamond-set/"
+      },
+      "identityAnchor": "official-object:the-brilliant-cut-diamond-set",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-brillant-cut-diamond-set/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-brillant-cut-diamond-set/",
+      "collectionGroup": "Danish crown jewels",
+      "selectionRationale": "官方对象页确认其为王室珠宝套饰，并记录了由旧有王室珠宝重新编组的线索。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方对象身份明确；该对象在本次访问中的具体展示状态仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "rose-cut-diamond-set",
+      "identity": {
+        "objectType": "set",
+        "title": {
+          "zh": "玫瑰式切割钻石套饰",
+          "en": "The Rose-Cut Diamond Set"
+        },
+        "cultureZh": "丹麦王室",
+        "cultureEn": "Danish royal collection",
+        "displayDate": "1840—1842",
+        "medium": "玫瑰式切割钻石、金属镶座；腰链与胸针组合",
+        "accessionNumber": "5564",
+        "identityAnchor": "official-object:the-rose-cut-diamond-set",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/"
+      },
+      "identityAnchor": "official-object:the-rose-cut-diamond-set",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/",
+      "collectionGroup": "Danish crown jewels",
+      "selectionRationale": "官方页面揭示其原本是缝在礼服上的腰链，能提供珠宝形制、服装与当代再理解的独特问题。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方对象身份明确；该对象在本次访问中的具体展示状态仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "rose-cut-diamond-tiara",
+      "identity": {
+        "objectType": "object",
+        "title": {
+          "zh": "玫瑰式切割钻石冠冕",
+          "en": "The rose-cut diamond tiara"
+        },
+        "cultureZh": "丹麦王室",
+        "cultureEn": "Danish royal collection",
+        "displayDate": "2024",
+        "medium": "玫瑰式切割钻石与新制金属发带镶座",
+        "identityAnchor": "official-object:the-rose-cut-diamond-tiara",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-tiara/"
+      },
+      "identityAnchor": "official-object:the-rose-cut-diamond-tiara",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-tiara/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-tiara/",
+      "collectionGroup": "Danish crown jewels",
+      "selectionRationale": "官方对象页记录了2024年对旧套饰的重新装配，能连接历史藏品与王室珠宝的持续使用。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方对象身份明确；该对象在本次访问中的具体展示状态仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "christian-iv-crown",
+      "identity": {
+        "objectType": "object",
+        "title": {
+          "zh": "克里斯蒂安四世王冠",
+          "en": "Christian IV’s crown"
+        },
+        "cultureZh": "丹麦王室",
+        "cultureEn": "Danish royal collection",
+        "displayDate": "1596",
+        "medium": "黄金、珐琅、切割宝石与珍珠",
+        "identityAnchor": "official-object:christian-ivs-crown",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/christian-iv-s-crown/"
+      },
+      "identityAnchor": "official-object:christian-ivs-crown",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/christian-iv-s-crown/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/christian-iv-s-crown/",
+      "collectionGroup": "Royal crowns and Crown regalia",
+      "selectionRationale": "官方页面将其与1596年加冕和开放式王冠的政治形象直接相连，是理解Rosenborg文艺复兴王权叙事的核心候选。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方页面确认其在Rosenborg地下 Treasury 展示；具体访问日可见性仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "christian-v-crown",
+      "identity": {
+        "objectType": "object",
+        "title": {
+          "zh": "克里斯蒂安五世王冠",
+          "en": "Christian V’s Crown"
+        },
+        "cultureZh": "丹麦王室",
+        "cultureEn": "Danish royal collection",
+        "displayDate": "1670—1671",
+        "medium": "黄金、白钻、蓝宝石、石榴石与珐琅",
+        "accessionNumber": "5592",
+        "identityAnchor": "official-object:christian-vs-crown",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/christian-v-s-crown/"
+      },
+      "identityAnchor": "official-object:christian-vs-crown",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/christian-v-s-crown/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/christian-v-s-crown/",
+      "collectionGroup": "Royal crowns and Crown regalia",
+      "selectionRationale": "官方页面明确把它置于绝对君主制的制度转折中，并说明其在Treasury的原物身份。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方页面确认其在Rosenborg地下 Treasury 展示；具体访问日可见性仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "sceptre",
+      "identity": {
+        "objectType": "object",
+        "title": {
+          "zh": "权杖",
+          "en": "The Sceptre"
+        },
+        "cultureZh": "丹麦王室",
+        "cultureEn": "Danish royal collection",
+        "displayDate": "1648",
+        "medium": "黄金、珐琅与桌切钻石",
+        "accessionNumber": "5534",
+        "identityAnchor": "official-object:the-sceptre",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-sceptre/"
+      },
+      "identityAnchor": "official-object:the-sceptre",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-sceptre/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-sceptre/",
+      "collectionGroup": "Royal crowns and Crown regalia",
+      "selectionRationale": "官方页面说明其为1648年弗雷德里克三世加冕制作的礼器，并保留至今的王权与宗教象征。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方页面确认其属于Rosenborg Treasury礼器；具体访问日可见性仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "orb",
+      "identity": {
+        "objectType": "object",
+        "title": {
+          "zh": "王球",
+          "en": "The Orb"
+        },
+        "cultureZh": "丹麦王室",
+        "cultureEn": "Danish royal collection",
+        "displayDate": "1648",
+        "medium": "木芯、金箔、蓝色钻石镶带与十字架",
+        "accessionNumber": "5536",
+        "identityAnchor": "official-object:the-orb",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-orb/"
+      },
+      "identityAnchor": "official-object:the-orb",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-orb/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-orb/",
+      "collectionGroup": "Royal crowns and Crown regalia",
+      "selectionRationale": "官方页面提供了王球的形制、材料与加冕使用背景，可与王冠和权杖构成完整礼仪系统候选。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方页面确认其在Rosenborg Treasury展示；具体访问日可见性仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    },
+    {
+      "workId": "ampulla",
+      "identity": {
+        "objectType": "object",
+        "title": {
+          "zh": "涂油壶",
+          "en": "The Ampulla"
+        },
+        "cultureZh": "丹麦王室",
+        "cultureEn": "Danish royal collection",
+        "displayDate": "1648",
+        "medium": "黄金、珐琅花饰与桌切钻石",
+        "accessionNumber": "5538",
+        "identityAnchor": "official-object:ampulla",
+        "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/ampulla/"
+      },
+      "identityAnchor": "official-object:ampulla",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/ampulla/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/ampulla/",
+      "collectionGroup": "Royal crowns and Crown regalia",
+      "selectionRationale": "官方对象页把小型容器与君主受膏仪式及权力神学联系起来，能补足礼器中的宗教维度。",
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskRationale": "官方页面确认其属于Rosenborg Treasury礼器；具体访问日可见性仍需下游核验。",
+      "imageAvailability": {
+        "status": "available",
+        "source": "official_page_image"
+      }
+    }
+  ]
+}

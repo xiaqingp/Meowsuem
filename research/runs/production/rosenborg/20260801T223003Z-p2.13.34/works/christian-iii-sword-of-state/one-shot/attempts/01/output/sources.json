@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "christian-iii-sword-of-state",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Chr. III’s Sword of State",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/chr-iii-s-sword-of-state/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "use",
+        "collectionRelation",
+        "availability"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The Treasury's 1st section (room G)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-g-the-treasury/",
+      "sourceType": "museum",
+      "usedFor": [
+        "creator",
+        "attribution",
+        "material",
+        "use",
+        "collectionRelation",
+        "availability"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "这把剑由克里斯蒂安三世于1551年订制，作为丹麦国王加冕礼使用的国剑。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "国剑首次用于1559年腓特烈二世加冕礼，最后一次用于1648年腓特烈三世加冕礼。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "claim": "剑长超过一米，重到需要双手挥动。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "馆方展厅细目将1551年制作归于金匠Johann Siebe，并以带问号的形式提出设计者可能是Jakob Binck。",
+      "type": "attribution",
+      "sourceIds": [
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "maker and designer",
+      "statement": "官方展厅细目明确写Johann Siebe为金匠，但Jakob Binck以问号出现；官方对象页未在正文中给出作者信息，因此设计归属不宜视为定论。"
+    },
+    {
+      "topic": "base metal",
+      "statement": "官方对象页写剑柄与剑鞘为鎏金银，展厅细目写为金；文章采取保守表述。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "medium",
+      "severity": "warning",
+      "statement": "两处官方页面对剑柄与剑鞘的金属基底记载不同：一处为鎏金银，一处为金；关于珐琅与切面钻石的记载一致。",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    }
+  ]
+}

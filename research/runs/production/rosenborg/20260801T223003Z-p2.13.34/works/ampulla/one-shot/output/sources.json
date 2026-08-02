@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "ampulla",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Ampulla",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/ampulla/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "use",
+        "historical_context"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The Treasury's 3rd section (room I)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-i-the-treasury/",
+      "sourceType": "museum",
+      "usedFor": [
+        "accessionNumber",
+        "making",
+        "creator",
+        "collectionRelation",
+        "use",
+        "availability"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Historical artefacts",
+      "publisher": "The Royal House of Denmark",
+      "url": "https://www.kongehuset.dk/en/royal-collections/royal-symbols/historical-artefacts/",
+      "sourceType": "other",
+      "usedFor": [
+        "historical_context",
+        "use",
+        "collectionRelation",
+        "availability"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "首次使用年份",
+      "statement": "官方对象页将其与克里斯蒂安五世在1670年的登基仪式联系起来；Rosenborg宝库清单则将绝对君主制时期的涂油使用范围列为1671年至1840年。本文因此只概括为17世纪后期开始用于绝对君主制时期的涂油礼。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "creator",
+      "lockedValue": "丹麦王室 / Danish royal collection",
+      "observedValue": "an unknown goldsmith in Copenhagen",
+      "sourceIds": [
+        "S2"
+      ],
+      "severity": "warning",
+      "explanation": "锁定metadata中的artist字段表达的是丹麦王室收藏或展示归属，而官方宝库说明提供了更具体的制作信息：作品由哥本哈根一位不知名金匠制作。该差异不改变作品身份、年代、馆藏号或发布判断，因此标为warning。"
+    }
+  ]
+}

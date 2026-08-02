@@ -1,0 +1,36 @@
+{
+  "id": "PCR-2026-08-01-page-image-rebinding",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-01",
+  "ownerInstruction": "修复并且保证以后 pipeline 不会再碰到这个问题，然后继续现在的 pipeline。",
+  "baseRelease": "research/pipeline/releases/v2.13.13.json",
+  "targetVersion": "2.13.14",
+  "implementationStatus": "completed",
+  "scope": [
+    "rebind selected page image elements by verified URL after navigation",
+    "retain element index and selector as ordered fallbacks",
+    "reject duplicate cookie or placeholder captures",
+    "validate with a Nationalmuseum single-work image experiment before freezing"
+  ],
+  "outOfScope": [
+    "weakening duplicate-image rejection",
+    "accepting unbound page screenshots",
+    "mutating frozen 2.13.13 artifacts"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/retry-failed-image-evidence.mjs"
+  ],
+  "verification": {
+    "status": "passed",
+    "record": "research/runs/experiment/nationalmuseum-page-rebind-smoke-02/20260801T172129Z-p2.13.14/reports/image-retry-report.json",
+    "commands": [
+      "node scripts/test-image-resolution-v2.mjs",
+      "node scripts/test-retry-failed-image-evidence.mjs",
+      "Nationalmuseum Roslin single-work image retry",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

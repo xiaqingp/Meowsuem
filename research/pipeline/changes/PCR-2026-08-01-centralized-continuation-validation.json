@@ -1,0 +1,39 @@
+{
+  "id": "PCR-2026-08-01-centralized-continuation-validation",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-01",
+  "ownerInstruction": "只修复图片生成阶段，不需要重跑整个 pipeline；如果必须重跑，先停下来征得批准。",
+  "baseRelease": "research/pipeline/releases/v2.13.16.json",
+  "targetVersion": "2.13.17",
+  "implementationStatus": "completed",
+  "scope": [
+    "centralize original and authorized continuation version checks",
+    "reuse the canonical check in run directory and batch validation",
+    "remove the conflicting PowerShell version equality check after canonical validation"
+  ],
+  "outOfScope": [
+    "rerunning any stage before image_evidence",
+    "weakening runId or museum identity checks",
+    "accepting unregistered pipeline versions"
+  ],
+  "allowedCanonicalFiles": [
+    "scripts/lib/filesystem-contract.mjs",
+    "scripts/validate-run-directory.mjs",
+    "scripts/run-generation-batch.mjs",
+    "scripts/run-isolated-generation.ps1"
+  ],
+  "verification": {
+    "status": "passed",
+    "record": "scripts/test-filesystem-contract.mjs",
+    "commands": [
+      "node scripts/test-filesystem-contract.mjs",
+      "node scripts/test-experiment-orchestrator.mjs",
+      "node scripts/test-run-generation-batch.mjs",
+      "node scripts/test-image-resolution-v2.mjs",
+      "node scripts/verify-content-pipeline.mjs",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

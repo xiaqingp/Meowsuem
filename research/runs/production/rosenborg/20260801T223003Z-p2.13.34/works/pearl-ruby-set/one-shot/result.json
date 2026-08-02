@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "status": "accepted",
+  "runId": "20260801T223003Z-p2.13.34",
+  "museumId": "rosenborg",
+  "workId": "pearl-ruby-set",
+  "stage": "single_work",
+  "attempt": 2,
+  "model": "gpt-5.6-luna",
+  "reasoningEffort": "high",
+  "startedAt": "2026-08-02T00:01:39.210Z",
+  "completedAt": "2026-08-02T00:04:00.783Z",
+  "durationMs": 141573,
+  "inputTokens": 242587,
+  "cachedInputTokens": 184832,
+  "reasoningTokens": 3827,
+  "outputTokens": 6854,
+  "totalTokens": 249441,
+  "agentRunCount": 1,
+  "modelRoundCount": 1,
+  "webSearchCount": 6,
+  "webOpenCount": 0
+}

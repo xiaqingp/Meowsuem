@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "goya-truth-time-history-nm-5593",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Truth, Time and History",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/22643/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "dimensions",
+        "accessibility",
+        "collectionRelation",
+        "iconography"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Truth, Time and History (La Verdad, el Tiempo y la Historia)",
+      "publisher": "Fundación Goya en Aragón",
+      "url": "https://fundaciongoyaenaragon.es/eng/obra/la-verdad-el-tiempo-y-la-historia/165",
+      "sourceType": "foundation",
+      "usedFor": [
+        "date",
+        "attribution",
+        "iconography",
+        "interpretation",
+        "history",
+        "uncertainties"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Temporary Installation: Constitutional ideas in Goya's work",
+      "publisher": "Museo Nacional del Prado",
+      "url": "https://www.museodelprado.es/en/whats-on/exhibition/temporary-installation-constitutional-ideas-in/33bea82f-b1a4-40cb-9368-769863327886",
+      "sourceType": "museum",
+      "usedFor": [
+        "historicalContext",
+        "1812Constitution",
+        "PeninsularWar"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "Nationalmuseum将画中白衣女子手中的书解释为西班牙在1812年通过的宪法。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "制作年代与政治题意",
+      "statement": "Nationalmuseum官方对象页登记为1804—1808年；Fundación Goya en Aragón则列为约1812年，并指出作品可能是1804—1805年与《诗歌》成对的寓言，也可能是回应1812年宪法的较晚作品。"
+    },
+    {
+      "topic": "白衣女子的身份",
+      "statement": "Nationalmuseum将她解释为真理与西班牙的双重象征；Fundación Goya en Aragón还记录了哲学、国家寓意和宪法人格化等不同解释。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "date",
+      "status": "warning",
+      "statement": "锁定metadata与Nationalmuseum官方对象页均为1804—1808年；Fundación Goya en Aragón的专题目录将作品约定为约1812年，并明确记录了相关年代争论。",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    }
+  ]
+}

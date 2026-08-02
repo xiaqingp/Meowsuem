@@ -222,7 +222,14 @@ export async function readAndValidateRunDescriptor(runRoot, manifest, projectRoo
     throw violation(`run.json has invalid status ${JSON.stringify(descriptor.status)}`);
   }
   if (descriptor.pipelineVersion !== manifest.pipelineVersion) {
-    if (!(descriptor.layoutVersion === 0 && descriptor.legacyLayout === true)) {
+    const continuation = descriptor.pipelineContinuation;
+    const approvedContinuation =
+      continuation?.fromVersion === descriptor.pipelineVersion &&
+      continuation?.toVersion === manifest.pipelineVersion &&
+      continuation?.instructionVersion === manifest.currentVersion &&
+      descriptor.instructionVersion === manifest.currentVersion &&
+      typeof continuation?.fromStage === "string";
+    if (!approvedContinuation && !(descriptor.layoutVersion === 0 && descriptor.legacyLayout === true)) {
       throw violation(
         `run pipelineVersion ${JSON.stringify(descriptor.pipelineVersion)} does not match manifest ${manifest.pipelineVersion}`,
       );
@@ -237,6 +244,58 @@ export async function readAndValidateRunDescriptor(runRoot, manifest, projectRoo
   return descriptor;
 }
 
+export async function authorizePipelineContinuation({
+  projectRoot,
+  manifest,
+  runKind,
+  museumId,
+  caseId,
+  runId,
+  fromStage,
+  timestamp = new Date(),
+}) {
+  const runRoot = resolveRunRoot({projectRoot, manifest, runKind, museumId, caseId, runId});
+  const descriptorPath = path.join(runRoot, requireContract(manifest).runDescriptor);
+  const descriptor = JSON.parse(await fs.readFile(descriptorPath, "utf8"));
+  await assertRunRootMatchesContract({projectRoot, manifest, runRoot, runDescriptor: descriptor});
+  assertWritableRun(descriptor, manifest);
+  if (descriptor.instructionVersion !== manifest.currentVersion) {
+    throw violation("patched continuation cannot cross a content instruction version");
+  }
+  if (typeof fromStage !== "string" || !/^[a-z][a-z0-9_]*$/.test(fromStage)) {
+    throw violation(`invalid continuation stage ${JSON.stringify(fromStage)}`);
+  }
+  const existing = descriptor.pipelineContinuation;
+  if (existing && (existing.fromVersion !== descriptor.pipelineVersion || existing.fromStage !== fromStage)) {
+    throw violation("run already has a different pipeline continuation boundary");
+  }
+  if (descriptor.pipelineVersion === manifest.pipelineVersion) return {runRoot, descriptor};
+  const next = {
+    ...descriptor,
+    ...(descriptor.status === "failed" && existing ? {status: "running", updatedAt: new Date().toISOString()} : {}),
+    pipelineContinuation: {
+      ...(existing ?? {}),
+      fromVersion: descriptor.pipelineVersion,
+      toVersion: manifest.pipelineVersion,
+      instructionVersion: manifest.currentVersion,
+      fromStage,
+      ...(existing && existing.toVersion !== manifest.pipelineVersion
+        ? {priorTargets: [...(existing.priorTargets ?? []), existing.toVersion]}
+        : {}),
+      authorizedAt: timestamp instanceof Date ? timestamp.toISOString() : new Date(timestamp).toISOString(),
+    },
+  };
+  const temporary = `${descriptorPath}.tmp-${process.pid}`;
+  await fs.writeFile(temporary, `${JSON.stringify(next, null, 2)}\n`, {flag: "wx"});
+  try {
+    await fs.rename(temporary, descriptorPath);
+  } catch (error) {
+    await fs.rm(temporary, {force: true});
+    throw error;
+  }
+  return {runRoot, descriptor: next};
+}
+
 export function assertWritableRun(runDescriptor, manifest) {
   const immutableStatuses = new Set(requireContract(manifest).immutableStatuses);
   if (runDescriptor.immutable === true || immutableStatuses.has(runDescriptor.status)) {
@@ -244,6 +303,10 @@ export function assertWritableRun(runDescriptor, manifest) {
   }
   return runDescriptor;
 }
+
+export const isRunPipelineVersionAllowed = (pipelineVersion, descriptor) =>
+  pipelineVersion === descriptor.pipelineVersion ||
+  pipelineVersion === descriptor.pipelineContinuation?.toVersion;
 
 export async function transitionRunStatus({ projectRoot, runRoot, manifest, nextStatus, timestamp = new Date() }) {
   const descriptor = await readAndValidateRunDescriptor(runRoot, manifest, projectRoot);

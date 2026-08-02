@@ -1,0 +1,32 @@
+{
+  "id": "PCR-2026-08-01-candidate-schema-version-contract",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-01",
+  "ownerInstruction": "用最新 pipeline 生成并发布 Rosenborg Castle；两次独立 production discovery 均因 prompt 未明确 numeric schemaVersion 1 而被机械门禁阻断，允许完成发布所需的最小合同修复。",
+  "baseRelease": "research/pipeline/releases/v2.13.33.json",
+  "targetVersion": "2.13.34",
+  "implementationStatus": "completed",
+  "scope": [
+    "make the discovery prompt require numeric schemaVersion 1",
+    "add regression coverage for rejecting a pipeline version string in the candidate-pool schema field"
+  ],
+  "outOfScope": [
+    "changing candidate selection or research behavior",
+    "mutating the two retained failed Rosenborg runs",
+    "mutating frozen historical releases"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "research/pipeline/prompts/museum-discovery.md"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/test-candidate-pool-contract.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=mock",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

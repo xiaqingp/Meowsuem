@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "museumId": "nationalmuseum",
+  "parentRunId": "20260801T164044Z-p2.13.13",
+  "repaired": [
+    {
+      "workId": "elias-martin-view-stockholm-nm-1470",
+      "width": 1400,
+      "height": 637,
+      "sha256": "51f51aee28328e707375332559f0ffab8f888223b6c38d2d64b982bbfe7b88ba"
+    },
+    {
+      "workId": "roslin-lady-with-veil-nm-4098",
+      "width": 1400,
+      "height": 637,
+      "sha256": "d395935a57a632439c083749496d28f76d4bbf4e6471df1f5b0e4847312b888f"
+    },
+    {
+      "workId": "goya-truth-time-history-nm-5593",
+      "width": 1400,
+      "height": 637,
+      "sha256": "78c982027532373f747ec9f2229ebb1498f77d6d0d15b4994a9906c9d0b6b552"
+    },
+    {
+      "workId": "fanny-brate-day-of-celebration-nm-1605",
+      "width": 1400,
+      "height": 637,
+      "sha256": "78a491a157c6c47d5aa84082772a3da5d40526320ca22cdabc625fdd8712db27"
+    },
+    {
+      "workId": "julius-kronberg-nymph-and-fauns-nm-1316",
+      "width": 1400,
+      "height": 637,
+      "sha256": "d21cbf613a3b281942a87945183d8227beec216815372d600f906fdff2069c05"
+    },
+    {
+      "workId": "fogelberg-odin-nmsk-392",
+      "width": 1400,
+      "height": 637,
+      "sha256": "4915cd75867c9835a5ed1612eb0c4c1549946807f64f94c8b275e5b71931eb53"
+    },
+    {
+      "workId": "persson-portrait-of-a-pea-nmk-169-1972",
+      "width": 1400,
+      "height": 637,
+      "sha256": "8ba371595a9766076c20ea5a623ed4ea7c471bff8aa7b1a7e4a29d91265c09b9"
+    },
+    {
+      "workId": "hasselberg-spring-snowflake-nmsk-746",
+      "width": 1400,
+      "height": 637,
+      "sha256": "5e7bad272d44732de8ddfda5317323de04aea80d1556b9e86ffa486c5e6c826e"
+    },
+    {
+      "workId": "halds-cactus-exhibition-nmk-215-2011",
+      "width": 1400,
+      "height": 637,
+      "sha256": "4fc37b223624760d9bea2a20ef3e21f189313dd6729dc5f6e3a769b1354a6dd0"
+    }
+  ],
+  "guarantees": {
+    "modelCalls": 0,
+    "nonImageStagesRun": [],
+    "parentRunModified": false
+  }
+}

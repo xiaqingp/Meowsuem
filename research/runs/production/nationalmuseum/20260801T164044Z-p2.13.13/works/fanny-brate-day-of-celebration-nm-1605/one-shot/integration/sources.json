@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "fanny-brate-day-of-celebration-nm-1605",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "A Day of Celebration",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/18609/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "dimensions",
+        "accessionNumber",
+        "acquisition",
+        "subject",
+        "collectionRelation",
+        "availability",
+        "displayLocation",
+        "significance",
+        "reproductionHistory"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Namnsdagar i almanackan",
+      "publisher": "Institutet för språk och folkminnen",
+      "url": "https://www.isof.se/namn/personnamn/namnsdagar-i-almanackan",
+      "sourceType": "other",
+      "usedFor": [
+        "nameDayDefinition",
+        "historicalCelebrationContext"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "A Day of Celebration是芬妮·布拉特最广为人知的作品之一，并被复制到明信片、咖啡罐等物品上。",
+      "type": "largest_or_most",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "布雷特庄园保存的古斯塔维亚式室内曾为卡尔和卡琳·拉尔松营造桑德博恩提供重要灵感。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "在19世纪的瑞典，许多地方庆祝名日一度比庆祝生日更普遍。",
+      "type": "other",
+      "sourceIds": [
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "upstreamConflicts": []
+}

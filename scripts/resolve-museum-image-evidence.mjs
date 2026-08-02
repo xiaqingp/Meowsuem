@@ -5,6 +5,8 @@ import crypto from "node:crypto";
 import {createRequire} from "node:module";
 import {spawnSync} from "node:child_process";
 import {assertPathInside, loadManifest, resolveCanonicalRun} from "./lib/filesystem-contract.mjs";
+import {resolveBrowserExecutable} from "./lib/browser-executable.mjs";
+import {readModelJson} from "./lib/model-json.mjs";
 import {discoverGenericHtml} from "./image-providers/generic-html.mjs";
 import {discoverEmuseum} from "./image-providers/emuseum.mjs";
 import {discoverIiif} from "./image-providers/iiif.mjs";
@@ -96,8 +98,7 @@ for (const directory of moduleCandidates) {
 }
 if (!chromium) throw new Error("Playwright is unavailable; set MEOWSEUM_NODE_MODULES to a node_modules directory containing playwright");
 
-const chromePath = process.env.MEOWSEUM_CHROME || null;
-if (chromePath) await fs.access(chromePath);
+const browserExecutable = await resolveBrowserExecutable(chromium);
 
 const identityMatches = (candidate, page) => {
   const title = normalize(candidate.title);
@@ -303,7 +304,7 @@ const records = [];
 const startedAt = new Date();
 const browser = await chromium.launch({
   headless: true,
-  ...(chromePath ? {executablePath: chromePath} : {}),
+  executablePath: browserExecutable,
   args: ["--disable-notifications"],
 });
 try {
@@ -380,7 +381,7 @@ if (allowModel && ambiguous.length) {
     "-RunDirectory", modelRoot
   ], {cwd: projectRoot, encoding: "utf8", timeout: 10 * 60 * 1000});
   if (run.status !== 0) throw new Error(`image disambiguation failed: ${run.stderr || run.stdout}`);
-  const decisions = JSON.parse(await fs.readFile(path.join(modelRoot, "image-decisions.json"), "utf8"));
+  const decisions = await readModelJson(path.join(modelRoot, "image-decisions.json"));
   const decisionItems = decisions.decisions || [];
   if (decisionItems.length !== ambiguous.length || new Set(decisionItems.map(item => item.workId)).size !== decisionItems.length) {
     throw new Error("image disambiguation must return exactly one decision per work");
@@ -422,7 +423,7 @@ if (unresolved.length) {
     try {
       const sizingBrowser = await chromium.launch({
         headless: true,
-        ...(chromePath ? {executablePath: chromePath} : {}),
+        executablePath: browserExecutable,
       });
       const page = await sizingBrowser.newPage();
       await assertSafeRemoteUrl(heroPageUrl);

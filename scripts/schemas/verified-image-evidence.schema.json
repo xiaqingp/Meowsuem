@@ -1,10 +1,10 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "meowseum://verified-image-evidence/v1",
+  "$id": "meowseum://verified-image-evidence/v2",
   "type": "object",
   "required": ["schemaVersion", "museumId", "works"],
   "properties": {
-    "schemaVersion": {"const": 1},
+    "schemaVersion": {"const": 2},
     "museumId": {"type": "string", "pattern": "^[a-z][a-z0-9-]*$"},
     "works": {
       "type": "array",
@@ -24,17 +24,18 @@
               "officialObjectUrl": {"type": "string", "format": "uri"}
             }
           },
-          "status": {"enum": ["object_image_accepted", "context_image_accepted", "object_image_unresolved", "provider_unavailable"]},
+          "status": {"enum": ["accepted", "object_image_accepted", "context_image_accepted", "object_image_unresolved", "provider_unavailable"]},
           "objectImageResolved": {"type": "boolean"},
-          "imagePolicy": {"enum": ["object_image", "context_image", "none"]},
+          "imagePolicy": {"enum": ["object_image", "context_image", "museum_hero_placeholder", "none"]},
           "selected": {
             "oneOf": [
               {"type": "null"},
               {
                 "type": "object",
-                "required": ["url", "localPath", "sha256", "width", "height", "contentType", "method", "provider", "identitySignals"],
+                "required": ["url", "localPath", "sha256", "width", "height", "contentType", "method", "provider"],
                 "properties": {
               "url": {"type": ["string", "null"]},
+              "sourcePageUrl": {"type": "string", "format": "uri"},
               "localPath": {"type": "string", "minLength": 1},
               "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
               "width": {"type": "integer", "minimum": 1},
@@ -42,6 +43,7 @@
               "contentType": {"enum": ["image/jpeg", "image/png", "image/webp", "image/gif", "image/tiff"]},
               "method": {"type": "string", "minLength": 1},
               "provider": {"type": "string", "minLength": 1},
+              "identityEvidence": {"type": "array", "items": {"type": "string"}},
               "identitySignals": {"type": "array", "items": {"type": "string", "minLength": 1}},
               "capture": {
                 "type": "object",
@@ -73,6 +75,7 @@
               }
                 },
                 "allOf": [
+                  {"oneOf": [{"required": ["identityEvidence"]}, {"required": ["identitySignals"]}]},
                   {
                     "if": {"properties": {"method": {"const": "ai_page_element_capture"}}, "required": ["method"]},
                     "then": {"required": ["capture"], "properties": {"url": {"type": "null"}}},

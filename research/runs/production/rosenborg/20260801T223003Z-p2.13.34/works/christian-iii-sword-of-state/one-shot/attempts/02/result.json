@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "status": "accepted",
+  "runId": "20260801T223003Z-p2.13.34",
+  "museumId": "rosenborg",
+  "workId": "christian-iii-sword-of-state",
+  "stage": "single_work",
+  "attempt": 2,
+  "model": "gpt-5.6-luna",
+  "reasoningEffort": "high",
+  "startedAt": "2026-08-02T00:00:13.301Z",
+  "completedAt": "2026-08-02T00:01:28.550Z",
+  "durationMs": 75249,
+  "inputTokens": 96693,
+  "cachedInputTokens": 57600,
+  "reasoningTokens": 1483,
+  "outputTokens": 3602,
+  "totalTokens": 100295,
+  "agentRunCount": 1,
+  "modelRoundCount": 1,
+  "webSearchCount": 3,
+  "webOpenCount": 0
+}

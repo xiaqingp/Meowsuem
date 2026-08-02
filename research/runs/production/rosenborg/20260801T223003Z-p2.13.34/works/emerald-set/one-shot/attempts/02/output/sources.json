@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "emerald-set",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Emerald Set",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-emerald-set/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "maker",
+        "design",
+        "provenance",
+        "currentUse"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The crown jewels",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/the-crown-jewels/",
+      "sourceType": "museum",
+      "usedFor": [
+        "collectionRelation",
+        "historicalContext",
+        "currentUse",
+        "availability"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Queen Caroline Amalie (1796–1881)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/persons/queen-caroline-amalie-1796-1881/",
+      "sourceType": "museum",
+      "usedFor": [
+        "person",
+        "historicalContext"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "翡翠套饰的1840年现制由哈瑙的 C.M. Weishaupt & Söhne 为王后卡罗琳·阿玛莉娅制作。",
+      "type": "attribution",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "套饰中超过三分之一的绿色宝石可以追溯到苏菲·玛格达莱娜于1723年收到的翡翠项链。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "当前具体展出状态",
+      "statement": "官方资料说明丹麦王室珠宝在罗斯堡宝库展出，并仍可能由在位女王佩戴；但翡翠套饰在某一具体参观日期是否以完整套装陈列，可能随展陈轮换和王室使用安排变化。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "creator",
+      "lockedValue": "丹麦王室 / Danish royal collection",
+      "observedValue": "C.M. Weishaupt & Söhne（德国哈瑙）于1840年为王后卡罗琳·阿玛莉娅制作；作品现属丹麦王室收藏",
+      "sourceIds": [
+        "S1"
+      ],
+      "severity": "warning",
+      "explanation": "锁定值更像是在表达作品的丹麦王室收藏关系，而官方对象页明确把珠宝公司列为制作者。该差异不改变作品身份、馆藏选择或发布判断，但正文需区分收藏者、委托者与制作者。"
+    }
+  ]
+}

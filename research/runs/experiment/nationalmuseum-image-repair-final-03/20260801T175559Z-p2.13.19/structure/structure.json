@@ -1,0 +1,273 @@
+{
+  "schemaVersion": "2.4.2",
+  "museumId": "nationalmuseum",
+  "museum": {
+    "name": {
+      "zh": "瑞典国家博物馆",
+      "en": "Nationalmuseum"
+    },
+    "specialFocus": "这家馆的独特之处，不只是按年代串起瑞典与欧洲艺术，而是把绘画、雕塑、家具、玻璃、陶瓷、珠宝和微型画放进同一条可步行的收藏叙事：从十七世纪的工作室与材料，到十八世纪的宫廷和城市，再到瑞典国家浪漫主义、北欧家具与当代设计。",
+    "actionConclusion": "75分，属于“可去可不去”。如果你在斯德哥尔摩有半天，并且对瑞典艺术、北欧设计或艺术与日常生活的交界感兴趣，值得专程安排；若只想看一件世界级不可替代的镇馆之宝，则不必把它列为首要目的地。",
+    "fit": "适合想同时看瑞典艺术史与北欧设计、愿意比较材料和社会语境的旅行者；对只追逐单一名作的人，回报较不集中。",
+    "limits": "本结构只覆盖斯德哥尔摩主馆的常设展示边界，不含 Gripsholm 等外部馆址和临时展览。Josephson《水妖》和 Zorn《仲夏舞》按当前锁定证据属于馆藏轮换或未展出，不能当作当天可见保证；图纸类未入选路线。评分未由稀世珍品硬门槛支撑。",
+    "timePlanning": "90分钟看最高回报节点；半天按现场可见作品理解绘画、雕塑与设计的结构；完整浏览需把主馆绘画、雕塑庭院、Design Depot 和 Treasury 分成较慢的一次或多次参观，并把两件当前未展出的作品作为馆藏延伸阅读。"
+  },
+  "chapters": [
+    {
+      "id": "ch-01",
+      "number": 1,
+      "title": "十七世纪的画面，为什么也是一场材料与协作实验？",
+      "intro": "先从两件都在十七世纪展厅的作品看：一件把早期伦勃朗的自画像与铜底、金箔底层连在一起；另一件把鲁本斯工作室、Jan Brueghel the Younger 与画面转移史放在同一幅画上。这里的重点不是把名家标签排队，而是看作者、工艺和收藏如何共同形成作品的价值。",
+      "workIds": [
+        "rembrandt-self-portrait-nm-5324",
+        "rubens-three-graces-nm-601"
+      ]
+    },
+    {
+      "id": "ch-02",
+      "number": 2,
+      "title": "十八世纪的权力，怎样在寓言、肖像、仪式与城市中显形？",
+      "intro": "这一段从戈雅的宪政寓言走向罗桑的社交肖像、皮洛的宫廷仪式和 Elias Martin 的斯德哥尔摩景观。连续观看时，城市、服饰、建筑和仪式不只是背景，而是权力如何被看见、被记住和被地方化的方式。",
+      "workIds": [
+        "goya-truth-time-history-nm-5593",
+        "roslin-lady-with-veil-nm-4098",
+        "pilo-coronation-gustav-iii-nm-1004",
+        "elias-martin-view-stockholm-nm-1470"
+      ]
+    },
+    {
+      "id": "ch-03",
+      "number": 3,
+      "title": "十九世纪的身体，谁在观看，国家又如何塑造神话？",
+      "intro": "大型神话画、纪念性雕塑和沙龙裸体把身体变成叙事与制度的交汇处：Kronberg 的裸体女性被男性 fauns 观看，Rodin 将公共寓言改写为 Bellona，Fogelberg 用古典形式塑造 Odin，而 Hasselberg 让季节寓言落在被观看的女性身体上。",
+      "workIds": [
+        "julius-kronberg-nymph-and-fauns-nm-1316",
+        "rodin-bellona-nmsk-985",
+        "fogelberg-odin-nmsk-392",
+        "hasselberg-spring-snowflake-nmsk-746"
+      ]
+    },
+    {
+      "id": "ch-04",
+      "number": 4,
+      "title": "瑞典经验如何进入家庭、节庆与艺术家的自我想象？",
+      "intro": "转世纪的瑞典艺术并不只有宏大民族符号，也有家庭室内、地方节庆和艺术家对民间神话的投射。Brate 的命名日室内和 Zorn 的仲夏舞把社会生活具体化；Josephson 的《水妖》则作为馆藏延伸，提醒我们国家浪漫主义也可能通过孤独的神话形象成立。",
+      "workIds": [
+        "josephson-water-sprite-nm-1905",
+        "zorn-midsummer-dance-nm-1603",
+        "fanny-brate-day-of-celebration-nm-1605"
+      ]
+    },
+    {
+      "id": "ch-05",
+      "number": 5,
+      "title": "一把椅子怎样让身体、技术与国际传播同时可见？",
+      "intro": "从 Mathsson 的层压木曲线、Aalto 的 Paimio 模压木，到 Ron Arad 把汽车座椅和钢管架重新组装，家具不再只是风格样本。它们把身体尺度、材料工艺、功能和设计观念直接落到可观察的结构上，也显示北欧设计如何跨出本地语境。",
+      "workIds": [
+        "mathsson-reclining-chair-36-nmk-46-2010",
+        "aalto-paimio-armchair-nmk-13-1963",
+        "ron-arad-rover-chair-nmk-72-2013"
+      ]
+    },
+    {
+      "id": "ch-06",
+      "number": 6,
+      "title": "从日常器物到宝库，设计如何保存社会记忆？",
+      "intro": "最后把视线从家具移到器物与收藏制度：Berså 碗把图案带进日常生活，Persson 的银与木挑战工艺和艺术的分类边界，Hald 的透明雕刻玻璃把观看变成多层深度，Treasury 的微型肖像则把王室记忆压缩到羊皮纸大小。",
+      "workIds": [
+        "persson-portrait-of-a-pea-nmk-169-1972",
+        "stig-lindberg-bersa-bowl-nmk-60-1996",
+        "halds-cactus-exhibition-nmk-215-2011",
+        "charles-x-gustav-miniature-nmb-2163"
+      ]
+    }
+  ],
+  "routes": {
+    "90": {
+      "title": "90分钟：先看决定值不值得来的节点",
+      "note": "按主馆时间线从十七世纪绘画走到十八世纪，再转入转世纪艺术、雕塑庭院和设计。作品停留之外要留出楼层转换时间；主动跳过两件当前未展出的轮换作品、次要设计比较和完整 Treasury 浏览。",
+      "workIds": [
+        "rembrandt-self-portrait-nm-5324",
+        "goya-truth-time-history-nm-5593",
+        "roslin-lady-with-veil-nm-4098",
+        "pilo-coronation-gustav-iii-nm-1004",
+        "fanny-brate-day-of-celebration-nm-1605",
+        "fogelberg-odin-nmsk-392",
+        "mathsson-reclining-chair-36-nmk-46-2010",
+        "halds-cactus-exhibition-nmk-215-2011"
+      ]
+    },
+    "half": {
+      "title": "半天：看懂艺术与设计如何接成一条线",
+      "note": "以主馆现场可见的 18 件入选作品组成半日主线：先按年代看绘画，再看雕塑庭院，最后安排家具、陶瓷、玻璃和 Treasury。Josephson《水妖》和 Zorn《仲夏舞》当前不作为现场节点；若某件作品临时轮换，按同章其他作品继续，不把路线当作实时导航。",
+      "workIds": [
+        "rembrandt-self-portrait-nm-5324",
+        "rubens-three-graces-nm-601",
+        "goya-truth-time-history-nm-5593",
+        "roslin-lady-with-veil-nm-4098",
+        "pilo-coronation-gustav-iii-nm-1004",
+        "elias-martin-view-stockholm-nm-1470",
+        "julius-kronberg-nymph-and-fauns-nm-1316",
+        "rodin-bellona-nmsk-985",
+        "fogelberg-odin-nmsk-392",
+        "hasselberg-spring-snowflake-nmsk-746",
+        "fanny-brate-day-of-celebration-nm-1605",
+        "persson-portrait-of-a-pea-nmk-169-1972",
+        "stig-lindberg-bersa-bowl-nmk-60-1996",
+        "mathsson-reclining-chair-36-nmk-46-2010",
+        "aalto-paimio-armchair-nmk-13-1963",
+        "ron-arad-rover-chair-nmk-72-2013",
+        "halds-cactus-exhibition-nmk-215-2011",
+        "charles-x-gustav-miniature-nmb-2163"
+      ]
+    },
+    "all": {
+      "title": "完整浏览：分两次把主馆的收藏逻辑走完",
+      "note": "建议至少分两次：第一次完成时间线绘画、雕塑庭院与转世纪节点，第二次专看家具、Design Depot、玻璃和 Treasury。完整结构包含两件当前未展出的馆藏轮换作品，它们是收藏延伸，不是当天可见保证；遇到跨楼层或临时不可见时，以章节顺序和作品价值取舍为准。",
+      "workIds": [
+        "rembrandt-self-portrait-nm-5324",
+        "rubens-three-graces-nm-601",
+        "goya-truth-time-history-nm-5593",
+        "roslin-lady-with-veil-nm-4098",
+        "pilo-coronation-gustav-iii-nm-1004",
+        "elias-martin-view-stockholm-nm-1470",
+        "julius-kronberg-nymph-and-fauns-nm-1316",
+        "rodin-bellona-nmsk-985",
+        "fogelberg-odin-nmsk-392",
+        "hasselberg-spring-snowflake-nmsk-746",
+        "josephson-water-sprite-nm-1905",
+        "zorn-midsummer-dance-nm-1603",
+        "fanny-brate-day-of-celebration-nm-1605",
+        "persson-portrait-of-a-pea-nmk-169-1972",
+        "stig-lindberg-bersa-bowl-nmk-60-1996",
+        "mathsson-reclining-chair-36-nmk-46-2010",
+        "aalto-paimio-armchair-nmk-13-1963",
+        "ron-arad-rover-chair-nmk-72-2013",
+        "halds-cactus-exhibition-nmk-215-2011",
+        "charles-x-gustav-miniature-nmb-2163"
+      ]
+    }
+  },
+  "works": [
+    {
+      "workId": "rembrandt-self-portrait-nm-5324",
+      "sectionId": "ch-01",
+      "stay": "10—12分钟",
+      "routeRole": ["90-anchor", "half-anchor", "all-anchor"]
+    },
+    {
+      "workId": "rubens-three-graces-nm-601",
+      "sectionId": "ch-01",
+      "stay": "6—8分钟",
+      "routeRole": ["half-context", "all-context"]
+    },
+    {
+      "workId": "goya-truth-time-history-nm-5593",
+      "sectionId": "ch-02",
+      "stay": "10—12分钟",
+      "routeRole": ["90-anchor", "half-anchor", "all-anchor"]
+    },
+    {
+      "workId": "roslin-lady-with-veil-nm-4098",
+      "sectionId": "ch-02",
+      "stay": "8—10分钟",
+      "routeRole": ["90-anchor", "half-anchor", "all-anchor"]
+    },
+    {
+      "workId": "pilo-coronation-gustav-iii-nm-1004",
+      "sectionId": "ch-02",
+      "stay": "8—10分钟",
+      "routeRole": ["90-anchor", "half-anchor", "all-anchor"]
+    },
+    {
+      "workId": "elias-martin-view-stockholm-nm-1470",
+      "sectionId": "ch-02",
+      "stay": "5—7分钟",
+      "routeRole": ["half-context", "all-context"]
+    },
+    {
+      "workId": "julius-kronberg-nymph-and-fauns-nm-1316",
+      "sectionId": "ch-03",
+      "stay": "7—9分钟",
+      "routeRole": ["half-context", "all-context"]
+    },
+    {
+      "workId": "rodin-bellona-nmsk-985",
+      "sectionId": "ch-03",
+      "stay": "6—8分钟",
+      "routeRole": ["half-context", "all-context"]
+    },
+    {
+      "workId": "fogelberg-odin-nmsk-392",
+      "sectionId": "ch-03",
+      "stay": "8—10分钟",
+      "routeRole": ["90-anchor", "half-anchor", "all-anchor"]
+    },
+    {
+      "workId": "hasselberg-spring-snowflake-nmsk-746",
+      "sectionId": "ch-03",
+      "stay": "6—8分钟",
+      "routeRole": ["half-context", "all-context"]
+    },
+    {
+      "workId": "josephson-water-sprite-nm-1905",
+      "sectionId": "ch-04",
+      "stay": "不安排现场停留（当前未展出）",
+      "routeRole": ["all-collection-rotation"]
+    },
+    {
+      "workId": "zorn-midsummer-dance-nm-1603",
+      "sectionId": "ch-04",
+      "stay": "不安排现场停留（当前未展出）",
+      "routeRole": ["all-collection-rotation"]
+    },
+    {
+      "workId": "fanny-brate-day-of-celebration-nm-1605",
+      "sectionId": "ch-04",
+      "stay": "8—10分钟",
+      "routeRole": ["90-anchor", "half-anchor", "all-anchor"]
+    },
+    {
+      "workId": "persson-portrait-of-a-pea-nmk-169-1972",
+      "sectionId": "ch-06",
+      "stay": "5—7分钟",
+      "routeRole": ["half-context", "all-context"]
+    },
+    {
+      "workId": "stig-lindberg-bersa-bowl-nmk-60-1996",
+      "sectionId": "ch-06",
+      "stay": "5—7分钟",
+      "routeRole": ["half-context", "all-context"]
+    },
+    {
+      "workId": "mathsson-reclining-chair-36-nmk-46-2010",
+      "sectionId": "ch-05",
+      "stay": "8—10分钟",
+      "routeRole": ["90-anchor", "half-anchor", "all-anchor"]
+    },
+    {
+      "workId": "aalto-paimio-armchair-nmk-13-1963",
+      "sectionId": "ch-05",
+      "stay": "6—8分钟",
+      "routeRole": ["half-context", "all-context"]
+    },
+    {
+      "workId": "ron-arad-rover-chair-nmk-72-2013",
+      "sectionId": "ch-05",
+      "stay": "5—7分钟",
+      "routeRole": ["half-context", "all-context"]
+    },
+    {
+      "workId": "halds-cactus-exhibition-nmk-215-2011",
+      "sectionId": "ch-06",
+      "stay": "8—10分钟",
+      "routeRole": ["90-anchor", "half-anchor", "all-anchor"]
+    },
+    {
+      "workId": "charles-x-gustav-miniature-nmb-2163",
+      "sectionId": "ch-06",
+      "stay": "4—6分钟",
+      "routeRole": ["half-context", "all-context"]
+    }
+  ]
+}

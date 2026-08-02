@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "christian-iii-sword-of-state",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Chr. III’s Sword of State",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/chr-iii-s-sword-of-state/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "ritual",
+        "use",
+        "availability"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The Treasury's 1st section (room G)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-g-the-treasury/",
+      "sourceType": "museum",
+      "usedFor": [
+        "maker",
+        "material",
+        "accessionContext",
+        "displayLocation",
+        "use"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "这把国剑由克里斯蒂安三世于1551年订制，用于丹麦国王的加冕礼。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "这把剑第一次用于腓特烈二世1559年的加冕礼，最后一次用于腓特烈三世1648年的加冕礼。",
+      "type": "first_or_earliest",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "1661年引入君主专制后，丹麦国王不再举行传统加冕礼，1671年克里斯蒂安五世即位时改为受膏仪式。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "设计者归属",
+      "statement": "馆方对象记录称剑由金匠约翰·西贝于1551年制作；馆方房间页面另以问号提出可能依据雅各布·宾克的设计，本文未将后者写成确定事实。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "creator",
+      "lockedValue": "丹麦王室",
+      "observedValue": "约翰·西贝（制作者）；馆方另注设计可能依据雅各布·宾克",
+      "sourceIds": [
+        "S2"
+      ],
+      "severity": "warning",
+      "explanation": "锁定 metadata 的 artist 字段与 displayBy 一样更像馆藏或展示归属，而非实际制作人；馆方对象清单明确归于金匠约翰·西贝。该差异不改变作品身份，但会影响作者归属的表述。"
+    }
+  ]
+}

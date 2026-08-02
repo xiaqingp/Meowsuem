@@ -1,0 +1,38 @@
+{
+  "status": "failed",
+  "errors": [
+    {
+      "code": "UNSUPPORTED_HIGH_RISK_CLAIM",
+      "message": "Strong factual claim lacks a valid source record",
+      "matches": [
+        "1723年，索菲·玛格达琳王后从丈夫、当时的克里斯蒂安王储那里收到这份礼物，纪念他们第一个孩子弗雷德里克五世出生"
+      ],
+      "severity": "error"
+    }
+  ],
+  "warnings": [],
+  "checks": {
+    "requiredFiles": true,
+    "schemasValid": true,
+    "identityLocked": true,
+    "modelAndEffortLocked": true,
+    "requiredArticleSections": true,
+    "forbiddenArtifactsAbsent": true,
+    "sourcesStructured": true,
+    "officialSourcePresent": true,
+    "directQuotesRecorded": true,
+    "strongClaimsRecorded": false,
+    "artistIntentRecorded": true,
+    "displayStatusConservative": true,
+    "productionUnchanged": true,
+    "factsMechanicallyVerified": false
+  },
+  "middleHeadings": [
+    "一套珠宝，三段时间",
+    "让光穿过翡翠",
+    "王冠珠宝为什么还会被佩戴？"
+  ],
+  "sourceCount": 3,
+  "articleBytes": 5345,
+  "sourcesBytes": 3091
+}

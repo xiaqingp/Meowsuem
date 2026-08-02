@@ -1,0 +1,33 @@
+{
+  "id": "PCR-2026-08-01-context-image-promotion",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-01",
+  "ownerInstruction": "用最新 pipeline 生成并发布 Rosenborg Castle；最终图片 repair 已通过 18 张对象图和 2 张合法上下文图，允许把 promotion 边界对齐 verified-image v2 状态合同。",
+  "baseRelease": "research/pipeline/releases/v2.13.37.json",
+  "targetVersion": "2.13.38",
+  "implementationStatus": "completed",
+  "scope": [
+    "allow context_image_accepted records with selected verified bytes during image retry promotion",
+    "keep unresolved and missing-selected records blocked",
+    "remove a stale exact patch-version assertion from the image regression wiring test"
+  ],
+  "outOfScope": [
+    "converting context images into object images",
+    "weakening image hash or duplicate-image validation",
+    "changing museum selection or prose"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/promote-image-retry-to-parent.mjs"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/test-image-resolution-v2.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=mock",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

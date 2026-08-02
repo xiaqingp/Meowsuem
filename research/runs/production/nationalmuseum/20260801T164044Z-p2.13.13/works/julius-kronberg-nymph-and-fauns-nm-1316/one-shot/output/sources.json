@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "julius-kronberg-nymph-and-fauns-nm-1316",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Nymph and Fauns | Nationalmuseum",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/18319/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "dimensions",
+        "accessionNumber",
+        "collectionRelation",
+        "availability",
+        "description",
+        "exhibitionHistory",
+        "reception",
+        "Strindberg"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Julius Kronberg",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/sv/artists/artist/7426/",
+      "sourceType": "museum",
+      "usedFor": [
+        "creator",
+        "biography",
+        "breakthrough"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Lust & Last",
+      "publisher": "Nationalmuseum",
+      "url": "https://nationalmuseum.bokorder.se/en-us/article/1806/lust-last",
+      "sourceType": "publication",
+      "usedFor": [
+        "exhibitionHistory",
+        "reception",
+        "publicResponse"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "作品于1875年在慕尼黑展出后受到高度关注，1876年在斯德哥尔摩展出时引起轰动，并于1876年被Nationalmuseum购入。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S3"
+      ]
+    },
+    {
+      "claim": "Nationalmuseum将《仙女与法翁》称为克龙贝里的成名作，并指出它是19世纪70年代瑞典最受欢迎的画作之一。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "claim": "奥古斯特·斯特林堡在当时担任艺术评论者，是这幅画的重要支持者。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "具体神话故事",
+      "statement": "馆方将作品归入宗教/神话题材，并称其为狩猎仙女与法翁，但未指明对应某个具体神话故事；文章因此按画面关系进行解释。"
+    },
+    {
+      "topic": "仙女的状态",
+      "statement": "画面显示仙女似乎没有察觉法翁的窥视，但来源没有明确说明她是在睡眠、休息还是刻意保持沉默；文章使用了保守表述。"
+    }
+  ],
+  "upstreamConflicts": []
+}

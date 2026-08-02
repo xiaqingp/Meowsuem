@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "elias-martin-view-stockholm-nm-1470",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "View of Stockholm",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/18473/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "material",
+        "accessionNumber",
+        "dimensions",
+        "displayStatus",
+        "description",
+        "depictedPlace"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Elias Martin",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/sv/artists/artist/5048/",
+      "sourceType": "museum",
+      "usedFor": [
+        "artistBiography",
+        "career",
+        "training",
+        "landscapePainting"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Elias Martin",
+      "publisher": "Svenskt biografiskt lexikon / Riksarkivet",
+      "url": "https://sok.riksarkivet.se/sbl/Artikel/9126",
+      "sourceType": "academic",
+      "usedFor": [
+        "artistContext",
+        "cityscapePractice",
+        "StockholmViews"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "date",
+      "statement": "Nationalmuseum的官方对象记录没有标注这幅作品的创作年代。"
+    }
+  ],
+  "upstreamConflicts": []
+}

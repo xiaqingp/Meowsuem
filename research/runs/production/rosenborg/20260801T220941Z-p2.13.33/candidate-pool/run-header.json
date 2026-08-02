@@ -1,0 +1,36 @@
+{
+  "runId": "20260801T220941Z-p2.13.33",
+  "startedAt": "2026-08-01T22:11:45.010Z",
+  "stage": "museum_candidate_pool",
+  "museumId": "rosenborg",
+  "pipelineVersion": "2.13.33",
+  "instructionVersion": "2.4.2",
+  "executionProfile": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "high",
+    "runner": "scripts/run-isolated-generation.ps1"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "e2d6e331f53fb1d7c4b078c0aabc1b03548e4d4504ea218d1a08e09929adc2cc"
+    },
+    {
+      "path": "research/runs/production/rosenborg/20260801T220941Z-p2.13.33/scope/scope.json",
+      "role": "museum_scope",
+      "sha256": "9e589cb7ceb13114e038d1a2dc3a0af8edbad4ea0654bba67f5b149e022cda3f"
+    },
+    {
+      "path": "research/pipeline/prompts/museum-discovery.md",
+      "role": "stage_prompt",
+      "sha256": "1006812851efd26db2bec8dec5b707181c7198f7acb091c6ce55a2b3900cbe3f"
+    }
+  ],
+  "outputs": [
+    "candidate-pool.json"
+  ],
+  "reviewer": "disabled",
+  "retry": "explicit_only",
+  "publicationBoundary": "run_only"
+}

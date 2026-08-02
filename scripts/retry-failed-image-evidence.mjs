@@ -4,11 +4,15 @@ import crypto from "node:crypto";
 import os from "node:os";
 import {createRequire} from "node:module";
 import {spawnSync} from "node:child_process";
-import {loadManifest, projectRelative, resolveCanonicalRun, resolveRunRoot, transitionRunStatus} from "./lib/filesystem-contract.mjs";
+import {authorizePipelineContinuation, loadManifest, projectRelative, resolveCanonicalRun, resolveRunRoot, transitionRunStatus} from "./lib/filesystem-contract.mjs";
 import {assertSafeRemoteUrl, fetchSafeImage} from "./image-providers/url-safety.mjs";
 import {imageDimensions, sha256} from "./lib/two-level-image-resolution.mjs";
-import {capturePageImageElement} from "./lib/page-image-capture.mjs";
+import {capturePageImageElement, dismissPageImageOverlays, locatePageImageCandidate} from "./lib/page-image-capture.mjs";
 import {searchWikidataCommons} from "./image-providers/wikidata-commons.mjs";
+import {resolveBrowserExecutable} from "./lib/browser-executable.mjs";
+import {readModelJson} from "./lib/model-json.mjs";
+import {officialObjectOgTitleMatch} from "./lib/two-level-image-resolution.mjs";
+import {assertVerifiedImageEvidence} from "./lib/verified-image-evidence-contract.mjs";
 
 const args = Object.fromEntries(process.argv.slice(2).map(value => { if (!value.startsWith("--")) throw new Error(`Expected --key[=value], received ${value}`); const body = value.slice(2); const index = body.indexOf("="); return index < 0 ? [body, "true"] : [body.slice(0, index), body.slice(index + 1)]; }));
 const projectRoot = path.resolve(args["project-root"] || path.resolve(new URL("..", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1")));
@@ -25,6 +29,9 @@ if (parentKind === "experiment" && !parentCase) throw new Error("--parent-case i
 if (args["allow-model"] !== "true") throw new Error("image retry requires explicit --allow-model=true");
 const manifest = await loadManifest(projectRoot);
 const parentRoot = resolveRunRoot({projectRoot, manifest, runKind: parentKind, caseId: parentCase, museumId: parentMuseum, runId: parentRunId});
+if (args["continue-patched-run"] === "true") {
+  await authorizePipelineContinuation({projectRoot, manifest, runKind: "experiment", caseId: retryCase, runId: args["run-id"], fromStage: "image_evidence"});
+}
 const {runRoot, descriptor} = await resolveCanonicalRun({projectRoot, manifest, runKind: "experiment", caseId: retryCase, runId: args["run-id"], writable: true});
 const rel = target => projectRelative(projectRoot, target);
 const readJson = async file => JSON.parse(await fs.readFile(file, "utf8"));
@@ -56,7 +63,8 @@ const modules = [process.env.MEOWSEUM_NODE_MODULES, ...(process.env.NODE_PATH ||
 let chromium;
 for (const directory of modules) { try { ({chromium} = createRequire(import.meta.url)(path.join(directory, "playwright"))); break; } catch {} }
 if (!chromium) throw new Error("Playwright is unavailable; set MEOWSEUM_NODE_MODULES");
-const browser = await chromium.launch({headless: true, ...(process.env.MEOWSEUM_CHROME ? {executablePath: process.env.MEOWSEUM_CHROME} : {})});
+const browserExecutable = await resolveBrowserExecutable(chromium);
+const browser = await chromium.launch({headless: true, executablePath: browserExecutable});
 const cleanUrlText = value => String(value || "").replace(/[\u0000-\u0020\u007f]+/g, "");
 const absoluteUrl = (value, base) => { try { const url = new URL(cleanUrlText(value), cleanUrlText(base)); return /^https?:$/.test(url.protocol) ? url.href : null; } catch { return null; } };
 async function exactCommonsFile(sourcePageUrl) {
@@ -114,7 +122,8 @@ const rankForWork = (page, identity) => {
   const creator = normalize(identity.creator || identity.artistOrCulture);
   const candidates = [...page.candidates].map(candidate => {
     const text = normalize([candidate.alt, candidate.nearbyText, candidate.url].filter(Boolean).join(" "));
-    const identityScore = candidate.genericPenalty ? -1000 : (title && text.includes(title) ? 1000 : 0) + (creator && text.includes(creator) ? 300 : 0) + (candidate.selector ? 20 : 0) - (candidate.sourceType === "network_image" ? 10 : 0);
+    const exactOfficialOg = officialObjectOgTitleMatch(identity, page.pageTitle, {officialOgImage: candidate.elementKind === "meta"});
+    const identityScore = candidate.genericPenalty ? -1000 : (exactOfficialOg ? 2000 : 0) + (title && text.includes(title) ? 1000 : 0) + (creator && text.includes(creator) ? 300 : 0) + (candidate.selector ? 20 : 0) - (candidate.sourceType === "network_image" ? 10 : 0);
     return {...candidate, identityScore};
   }).sort((a, b) => b.identityScore - a.identityScore).slice(0, 5).map((candidate, index) => ({...candidate, candidateId: `page-image-${String(index + 1).padStart(3, "0")}`}));
   return {...page, candidates};
@@ -124,20 +133,27 @@ const pageCache = new Map();
 const officialPageCounts = new Map();
 for (const item of candidatePool.candidates || []) { const url = cleanUrlText(item.identitySourceUrl || item.officialObjectUrl || item.identity?.officialObjectUrl); if (url) officialPageCounts.set(url, (officialPageCounts.get(url) || 0) + 1); }
 const sharedOfficialPages = [...officialPageCounts].filter(([, count]) => count >= 2).sort((a, b) => b[1] - a[1]).map(([url]) => url);
-for (const work of retryWorks) { const sourceUrls = [...new Set([work.identity?.identitySourceUrl, work.identity?.officialObjectUrl, work.sourcePageUrl, work.aiResult?.selectedCandidate?.sourcePageUrl, work.fastPath?.finalUrl, ...sharedOfficialPages].map(cleanUrlText).filter(Boolean))]; const rankedPages = []; for (const sourceUrl of sourceUrls) { if (!pageCache.has(sourceUrl)) pageCache.set(sourceUrl, await enumeratePage(sourceUrl)); rankedPages.push({sourceUrl, page: rankForWork(pageCache.get(sourceUrl), work.identity)}); if ((rankedPages.at(-1).page.candidates[0]?.identityScore || 0) >= 1000) break; } rankedPages.sort((a, b) => (b.page.candidates[0]?.identityScore || 0) - (a.page.candidates[0]?.identityScore || 0)); if ((rankedPages[0]?.page.candidates[0]?.identityScore || 0) < 1000) { let commons = []; for (const sourceUrl of sourceUrls) commons.push(...await exactCommonsFile(sourceUrl)); if (!commons.length) commons = await searchWikidataCommons({identity:work.identity, limit:5}); if (commons.length) { const commonsPage = {sourcePageUrl:commons[0].commonsPageUrl || "https://commons.wikimedia.org/",finalUrl:commons[0].commonsPageUrl || "https://commons.wikimedia.org/",pageTitle:"Wikimedia Commons API",bodyText:"",candidateCount:commons.length,candidates:commons.slice(0,5).map((item,index)=>({candidateId:`commons-${String(index + 1).padStart(3,"0")}`,candidateType:"direct_image",url:item.imageUrl,nearbyText:[item.title,item.creator].filter(Boolean).join(" "),naturalWidth:item.width || 0,naturalHeight:item.height || 0,contentType:item.contentType || "",sourceType:"wikidata-commons",sourcePageUrl:item.commonsPageUrl || null,identityScore:0}))}; rankedPages.unshift({sourceUrl:commonsPage.sourcePageUrl,page:commonsPage}); } } const chosenPage = rankedPages[0]; enumerated.push({workId: work.workId, identity: work.identity, sourcePageUrl: chosenPage.sourceUrl, page: chosenPage.page}); }
+for (const work of retryWorks) { const sourceUrls = [...new Set([work.identity?.identitySourceUrl, work.identity?.officialObjectUrl, work.sourcePageUrl, work.aiResult?.selectedCandidate?.sourcePageUrl, work.fastPath?.finalUrl, ...sharedOfficialPages].map(cleanUrlText).filter(Boolean))]; const rankedPages = []; for (const sourceUrl of sourceUrls) { if (!pageCache.has(sourceUrl)) pageCache.set(sourceUrl, await enumeratePage(sourceUrl)); rankedPages.push({sourceUrl, page: rankForWork(pageCache.get(sourceUrl), work.identity)}); if ((rankedPages.at(-1).page.candidates[0]?.identityScore || 0) >= 1000) break; } rankedPages.sort((a, b) => (b.page.candidates[0]?.identityScore || 0) - (a.page.candidates[0]?.identityScore || 0)); if (!rankedPages.some(item => item.page.candidates.length)) { let commons = []; for (const sourceUrl of sourceUrls) commons.push(...await exactCommonsFile(sourceUrl)); if (!commons.length) commons = await searchWikidataCommons({identity:work.identity, limit:5}); if (commons.length) { const commonsPage = {sourcePageUrl:commons[0].commonsPageUrl || "https://commons.wikimedia.org/",finalUrl:commons[0].commonsPageUrl || "https://commons.wikimedia.org/",pageTitle:"Wikimedia Commons API",bodyText:"",candidateCount:commons.length,candidates:commons.slice(0,5).map((item,index)=>({candidateId:`commons-${String(index + 1).padStart(3,"0")}`,candidateType:"direct_image",url:item.imageUrl,nearbyText:[item.title,item.creator].filter(Boolean).join(" "),naturalWidth:item.width || 0,naturalHeight:item.height || 0,contentType:item.contentType || "",sourceType:"wikidata-commons",sourcePageUrl:item.commonsPageUrl || null,identityScore:0}))}; rankedPages.unshift({sourceUrl:commonsPage.sourcePageUrl,page:commonsPage}); } } const chosenPage = rankedPages[0]; enumerated.push({workId: work.workId, identity: work.identity, sourcePageUrl: chosenPage.sourceUrl, page: chosenPage.page}); }
 const packetPath = path.join(modelRoot, "image-research-packet.json");
 const packet = {schemaVersion: 2, stage: "official_page_plan", resolverTier: 2, museumId: parentEvidence.museumId, parentEvidencePath: rel(parentEvidencePath), parentEvidenceSha256: previousEvidenceHash, works: enumerated.map(item => ({workId: item.workId, identity: item.identity, sourcePageUrl: item.sourcePageUrl, page: {sourcePageUrl: item.page.sourcePageUrl, finalUrl: item.page.finalUrl, pageTitle: item.page.pageTitle, bodyText: item.page.bodyText, candidateCount: item.page.candidateCount}, candidates: item.page.candidates}))};
 await writeJson(packetPath, packet);
 await writeJson(path.join(modelRoot, "run-header.json"), {runId: descriptor.runId, startedAt: now(), stage: "image_disambiguation", imageResearchMode: "official_page_plan_v1", caseId: descriptor.caseId, targetMuseumId: parentEvidence.museumId, pipelineVersion: manifest.pipelineVersion, instructionVersion: manifest.currentVersion, executionProfile: manifest.modelRouting.image_disambiguation, allowedInputs: [{path: rel(packetPath), role: "image_candidate_packet", sha256: await hashFile(packetPath)}], outputs: ["image-decisions.json"], reviewer: "disabled", retry: "failed_images_only", publicationBoundary: "evidence_only"});
-const runner = spawnSync("powershell.exe", ["-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-File", path.join(projectRoot, "scripts", "run-isolated-generation.ps1"), "-ProjectRoot", projectRoot, "-RunDirectory", modelRoot], {cwd: projectRoot, encoding: "utf8", timeout: 30 * 60 * 1000});
-if (runner.status !== 0) { await transitionRunStatus({projectRoot, runRoot, manifest, nextStatus: "failed"}).catch(() => {}); throw new Error(`image page selection model failed: ${runner.stderr || runner.stdout}`); }
+const modelOutputPath = path.join(modelRoot, "image-decisions.json");
+const modelResultPath = path.join(modelRoot, "image_disambiguation-result.json");
+let parsedModelOutput = await readModelJson(modelOutputPath).catch(() => null);
+const reuseModelOutput = parsedModelOutput && await fs.access(modelResultPath).then(() => true).catch(() => false);
+if (!reuseModelOutput) {
+  const runner = spawnSync("powershell.exe", ["-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-File", path.join(projectRoot, "scripts", "run-isolated-generation.ps1"), "-ProjectRoot", projectRoot, "-RunDirectory", modelRoot], {cwd: projectRoot, encoding: "utf8", timeout: 30 * 60 * 1000});
+  if (runner.status !== 0) { await transitionRunStatus({projectRoot, runRoot, manifest, nextStatus: "failed"}).catch(() => {}); throw new Error(`image page selection model failed: ${runner.stderr || runner.stdout}`); }
+  parsedModelOutput = await readModelJson(modelOutputPath);
+}
 const cleanModelText = value => {
   if (typeof value === "string") return value.replace(/(?:\\r\\n|\\n|\\r|[\r\n])+/g, "").replace(/\s{2,}/g, " ");
   if (Array.isArray(value)) return value.map(cleanModelText);
   if (value && typeof value === "object") return Object.fromEntries(Object.entries(value).map(([key, item]) => [key.replace(/[\r\n]+/g, ""), cleanModelText(item)]));
   return value;
 };
-const aiOutput = cleanModelText(await readJson(path.join(modelRoot, "image-decisions.json")));
+const aiOutput = cleanModelText(parsedModelOutput);
 if (aiOutput.schemaVersion !== 2 || !Array.isArray(aiOutput.works) || aiOutput.works.length !== retryWorks.length) throw new Error("page selection model must return schemaVersion 2 and exactly one result per retried work");
 const byWork = new Map(aiOutput.works.map(item => [item.workId, item])); const retryResults = [];
 for (const item of enumerated) {
@@ -150,10 +166,9 @@ for (const item of enumerated) {
     if (decision.selectedImage.candidateType === "page_image_element" && chosen.selector) {
       const page = await browser.newPage({viewport: {width: 1440, height: 1000}, deviceScaleFactor: 1});
       await page.goto(pageInfo.finalUrl || item.sourcePageUrl, {waitUntil: "domcontentloaded", timeout: 45000});
+      await dismissPageImageOverlays(page);
       await page.waitForTimeout(1200);
-      let locator = page.locator(chosen.selector);
-      if (await locator.count() !== 1 && Number.isInteger(chosen.elementIndex)) locator = page.locator("img").nth(chosen.elementIndex);
-      if (await locator.count() !== 1) throw new Error("page image element selector was not unique");
+      const locator = await locatePageImageCandidate(page, chosen);
       await locator.scrollIntoViewIfNeeded();
       const currentUrl = await locator.evaluate(element => element.currentSrc || element.src || element.getAttribute("data-src") || null);
       if (currentUrl && /^https?:/i.test(currentUrl)) imageUrl = absoluteUrl(currentUrl, page.url());
@@ -177,7 +192,34 @@ for (const item of enumerated) {
     }
     if (!imageUrl) throw new Error("selected page candidate has no image resource"); await assertSafeRemoteUrl(imageUrl); const fetched = await fetchSafeImage(imageUrl); const bytes = (() => { const input = fetched.bytes; const signatures = [Buffer.from([0xff, 0xd8, 0xff]), Buffer.from([0x89,0x50,0x4e,0x47]), Buffer.from("GIF"), Buffer.from("RIFF"), Buffer.from("II"), Buffer.from("MM")]; const offset = signatures.map(signature => input.indexOf(signature)).filter(index => index >= 0).sort((a, b) => a - b)[0]; return offset > 0 && offset < 32 ? input.subarray(offset) : input; })(); const dimensions = imageDimensions(bytes, fetched.type); if (!dimensions || dimensions.width < 140 || dimensions.height < 120) throw new Error("image dimensions are missing or too small");
     const file = path.join(assetsRoot, `${item.workId}${fetched.type === "image/png" ? ".png" : fetched.type === "image/webp" ? ".webp" : ".jpg"}`); await fs.writeFile(file, bytes, {flag: "wx"}); const hash = sha256(bytes); const context = item.identity.objectType === "museum_level_context" || ["context_view", "architecture_view"].includes(role); result.status = context ? "context_image_accepted" : "object_image_accepted"; result.objectImageResolved = !context; result.imagePolicy = context ? "context_image" : "object_image"; result.selected = {url: fetched.url, sourcePageUrl: item.sourcePageUrl, sourceType: chosen.sourceType || "page_image", caption: decision.selectedImage.caption || "", identityEvidence: decision.selectedImage.identityEvidence || [], confidence: decision.selectedImage.confidence ?? null, localPath: rel(file), sha256: hash, width: dimensions.width, height: dimensions.height, contentType: fetched.type, method: "ai_page_candidate_download", provider: "page-image-candidate", imageRole: role, candidateId: chosen.candidateId};
-  } catch (error) { result.warnings.push(`selected candidate processing failed: ${error.message}`); }
+  } catch (error) {
+    if (chosen.selector && /image returned (?:403|429)/i.test(error.message)) {
+      try {
+        const page = await browser.newPage({viewport: {width: 1440, height: 1000}, deviceScaleFactor: 1});
+        try {
+          await page.goto(pageInfo.finalUrl || item.sourcePageUrl, {waitUntil: "domcontentloaded", timeout: 45000});
+          await dismissPageImageOverlays(page);
+          await page.waitForTimeout(1200);
+          const locator = await locatePageImageCandidate(page, chosen);
+          const captured = await capturePageImageElement(page, locator);
+          const dimensions = imageDimensions(captured.bytes, "image/png");
+          const file = path.join(assetsRoot, `${item.workId}.png`);
+          await fs.writeFile(file, captured.bytes, {flag: "wx"});
+          const context = item.identity.objectType === "museum_level_context" || ["context_view", "architecture_view"].includes(role);
+          result.status = context ? "context_image_accepted" : "object_image_accepted";
+          result.objectImageResolved = !context;
+          result.imagePolicy = context ? "context_image" : "object_image";
+          result.selected = {url: null, sourcePageUrl: page.url(), sourceType: "page_image_element", caption: decision.selectedImage.caption || "", identityEvidence: decision.selectedImage.identityEvidence || [], confidence: decision.selectedImage.confidence ?? null, localPath: rel(file), sha256: sha256(captured.bytes), width: dimensions.width, height: dimensions.height, contentType: "image/png", method: "ai_page_element_capture", provider: "browser-fallback", imageRole: role, candidateId: chosen.candidateId, capture: {...captured.capture, selector: chosen.selector, elementIndex: chosen.elementIndex ?? null, fallbackReason: error.message}};
+        } finally {
+          await page.close();
+        }
+      } catch (captureError) {
+        result.warnings.push(`selected candidate processing failed: ${error.message}; page capture fallback failed: ${captureError.message}`);
+      }
+    } else {
+      result.warnings.push(`selected candidate processing failed: ${error.message}`);
+    }
+  }
   retryResults.push(result);
 }
 await browser.close();
@@ -189,6 +231,7 @@ const modelResult = await readJson(path.join(modelRoot, "image_disambiguation-re
 const runnerLogText = await fs.readFile(path.join(modelRoot, "runner.log"), "utf8").catch(() => "");
 const webSearchCount = (runnerLogText.match(/^web search:/gim) || []).length;
 const evidence = {schemaVersion: 2, stage: "verified_image_evidence", museumId: parentEvidence.museumId, pipelineVersion: manifest.pipelineVersion, generatedAt: now(), parentRunId, parentEvidencePath: rel(parentEvidencePath), parentEvidenceSha256: previousEvidenceHash, resolver: {version: 3, mode: "four_tier", tierUsed: "luna_official_page_plan", modelPolicy: "failed_images_only", model: modelResult.model, reasoningEffort: modelResult.reasoningEffort}, summary: {works: finalWorks.length, previousAcceptedPreserved: acceptedWorks.length, retried: retryResults.length, newlyAccepted: retryResults.filter(work => work.selected).length, directImageDownloads: retryResults.filter(work => work.selected?.method === "ai_page_candidate_download").length, elementCaptures: retryResults.filter(work => work.selected?.method === "ai_page_element_capture").length, objectImageAccepted: finalWorks.filter(work => work.status === "object_image_accepted").length, contextImagesAccepted: finalWorks.filter(work => work.status === "context_image_accepted").length, unresolved: finalWorks.filter(work => work.status === "object_image_unresolved" || !work.selected).length, duplicateObjectImageGroups, modelCalls: 1, modelTokens: modelResult.tokenUsage?.total || 0, webSearchCount}, modelRun: {runRoot: rel(modelRoot), model: modelResult.model, reasoningEffort: modelResult.reasoningEffort, durationMs: modelResult.modelDurationMs, tokens: modelResult.tokenUsage?.total || 0, webSearchCount}, works: finalWorks};
+assertVerifiedImageEvidence(evidence);
 await writeJson(path.join(evidenceRoot, "verified-image-evidence.json"), evidence);
 const report = {schemaVersion: 1, stage: "image_evidence_retry", runId: descriptor.runId, runRoot: rel(runRoot), parentRunRoot: rel(parentRoot), parentEvidenceSha256: previousEvidenceHash, failedWorksRetried: retryWorks.map(work => ({workId: work.workId, priorStatus: work.status, priorFailure: work.warnings || [], sourcePageUrl: work.aiResult?.selectedCandidate?.sourcePageUrl || null})), newlyAccepted: retryResults.filter(work => work.selected).map(work => ({workId: work.workId, sourcePageUrl: work.selected.sourcePageUrl, imageUrl: work.selected.url, localPath: work.selected.localPath, sha256: work.selected.sha256, method: work.selected.method, imageRole: work.selected.imageRole, candidateId: work.selected.candidateId})), stillUnresolved: retryResults.filter(work => !work.selected).map(work => ({workId: work.workId, sourcePageUrl: work.sourcePageUrl, warnings: work.warnings})), counts: evidence.summary, model: {model: modelResult.model, reasoningEffort: modelResult.reasoningEffort, calls: 1, durationMs: modelResult.modelDurationMs, tokens: modelResult.tokenUsage || null, webSearchCount}, guarantees: {acceptedWorksNotRerun: acceptedWorks.map(work => work.workId), nonImageStagesRun: [], imageGenerationModelUsed: false, parentRunModified: false, assemblyNetworkAccess: false, productionModified: false}};
 await writeJson(path.join(runRoot, "reports", "image-retry-report.json"), report);

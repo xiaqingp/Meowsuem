@@ -1,0 +1,34 @@
+{
+  "id": "PCR-2026-08-01-captured-image-source-contract",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-01",
+  "ownerInstruction": "修复当前 pipeline 并发布 Nationalmuseum，不重跑已完成阶段。",
+  "baseRelease": "research/pipeline/releases/v2.13.23.json",
+  "targetVersion": "2.13.24",
+  "implementationStatus": "completed",
+  "scope": [
+    "use a verified source page URL for clipped-container image captures in locked metadata",
+    "retain direct image URLs for downloaded assets",
+    "preserve image hash and capture evidence requirements"
+  ],
+  "outOfScope": [
+    "accepting images without a source page",
+    "rerunning image evidence",
+    "changing captured image files"
+  ],
+  "allowedCanonicalFiles": [
+    "scripts/prepare-one-shot-work-inputs.mjs"
+  ],
+  "verification": {
+    "status": "passed",
+    "record": "scripts/test-image-resolution-v2.mjs",
+    "commands": [
+      "node scripts/test-image-resolution-v2.mjs",
+      "node scripts/test-candidate-pool-contract.mjs",
+      "node scripts/verify-content-pipeline.mjs",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

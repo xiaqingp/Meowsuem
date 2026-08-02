@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "rose-cut-diamond-set",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Rose-Cut Diamond Set",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "making_process",
+        "use",
+        "collection_relation",
+        "provenance",
+        "current_reuse"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The Danish crown jewels",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/the-crown-jewels/",
+      "sourceType": "museum",
+      "usedFor": [
+        "collection_relation",
+        "date",
+        "institutional_history",
+        "royal_use"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "The rose-cut diamond tiara",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-tiara/",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "technique",
+        "rose_cut_definition",
+        "redesign_2024",
+        "preserved_mounts"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "这套首饰由哈瑙的 C. M. Weishaupt & Söhne 于1840年为丹麦王后卡罗琳·阿玛莉埃制作。",
+      "type": "attribution",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "2024年，玛丽王后为这套珠宝的一部分制作了新的镶座，并将部分玫瑰式切割钻石组合成头饰。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "制作公司拼写",
+      "statement": "官方对象页在不同段落出现 Weisshaupt 与 Weishaupt 两种拼写；本文采用馆方明确说明制作方时使用的 Weishaupt & Söhne。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "creator",
+      "severity": "warning",
+      "statement": "锁定 metadata 将 artist 记为丹麦王室；官方对象页则明确说明该套饰由 C. M. Weishaupt & Söhne 为王后卡罗琳·阿玛莉埃制作。本文保留锁定 metadata，不改写其艺术家字段，并将王室表述理解为收藏与使用语境，将珠宝商表述为制作方。"
+    }
+  ]
+}

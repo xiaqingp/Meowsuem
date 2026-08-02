@@ -1,7 +1,7 @@
 # Meowseum Generation Pipeline
 
 > Status: Canonical  
-> Pipeline: 2.11.0  
+> Pipeline: 2.13.42
 > Filesystem contract: 1  
 > Content contract for new production runs: `one_shot_v1`
 
@@ -30,7 +30,7 @@ cannot choose arbitrary run, candidate, report or output roots. Deprecated
 path arguments pass only when they equal the canonical path exactly.
 
 `accepted`, `published` and `superseded` runs are immutable. Changes require a
-new run. A pipeline 2.11 run declares:
+new run. A current canonical run declares:
 
 ```json
 {
@@ -68,9 +68,24 @@ The canonical orchestrator is:
 node scripts/run-museum-pipeline.mjs --museum=<museumId> --run-id=<runId>
 ```
 
-It supports `--until`, `--resume`, `--dry-run`, `--only-work` and
-`--retry-failed`. It writes stage headers itself. It does not make editorial
-decisions, lower gates, switch models or silently fall back.
+It supports `--until`, `--dry-run`, `--only-work`, `--retry-failed` and
+`--continue-from`. Unknown options are rejected. `--dry-run` is read-only and
+does not change run status or write an orchestrator result. It writes stage
+headers itself. It does not make editorial decisions, lower gates, switch
+models or silently fall back.
+
+Before a live run, the orchestrator automatically executes the same environment
+checks exposed by `node scripts/check-pipeline-readiness.mjs --mode=live`.
+Node.js 20+, Windows PowerShell, `codex.cmd`, Playwright and a usable Chrome,
+Edge or Playwright browser must be available before the run status can change.
+All model-free regression tests run through `node scripts/run-pipeline-tests.mjs`.
+
+For a patch that changes only a downstream stage, use
+`--continue-from=<stage>` on the existing writable run. The runner records the
+source and target pipeline versions, requires the content instruction version
+to remain unchanged, and only re-executes the named stage and later incomplete
+stages. Every earlier stage output must already exist; if one is missing, the
+runner stops and requires owner approval instead of silently regenerating it.
 
 Run states are `created`, `running`, `blocked`, `verified`, `accepted`,
 `published`, `failed` and `superseded`. Each work has a separate
@@ -148,9 +163,10 @@ generic HTML, browser fallback and Wikidata/Commons. The registry declares
 official hosts, collection platform and provider order without museum-specific
 builders.
 
-The resolver prefers Playwright bundled Chromium. A local Chrome executable is
-an explicit optional override. One browser is reused for a museum with bounded
-page concurrency.
+The resolver uses `MEOWSEUM_CHROME` when explicitly configured, then checks the
+Playwright browser and installed Chrome/Edge executables. A missing Playwright
+browser download therefore does not block a machine that already has a usable
+browser. One browser is reused for a museum with bounded page concurrency.
 
 Accepted evidence records identity, URL, local path, hash, dimensions, MIME,
 method, provider and identity signals. Generic logos and hero images receive a
@@ -162,6 +178,11 @@ not sent to Luna as a work image and cannot support visual analysis.
 
 When a provider returns an HTML source page instead of an image, the
 failed-image retry is isolated to `scripts/retry-failed-image-evidence.mjs`.
+After a retry chain reaches complete accepted evidence,
+`scripts/promote-image-retry-to-parent.mjs` verifies every parent evidence hash,
+asset hash and duplicate-image gate before atomically replacing the writable
+production evidence. It preserves the previous evidence file and never invokes
+a model.
 It reuses the parent run's locked upstream artifacts and retries only failed
 image records. Playwright enumerates concrete image resources and uniquely
 identified page image elements; Luna Medium selects a `candidateId` and an
@@ -175,6 +196,15 @@ as an image URL. Accepted parent images are referenced by hash and are not
 rerun; the retry never runs museum research, selection, structure, writing,
 assembly or publishing stages. Any capture without this evidence is rejected
 before locked metadata.
+
+When an identity-verified page image URL returns 403 or 429, the retry may
+capture that exact selected page element through the same clipped-container
+contract. It must retain the selector, viewport, bounding box, source page and
+download failure as fallback evidence.
+Because page layout can change after navigation, capture rebinds the selected
+element by its verified image URL before using recorded index or selector
+fallbacks. A visible cookie consent layer is dismissed before capture so it
+cannot obscure the selected image container.
 
 ## 6. Locked metadata and one-shot writing
 
@@ -310,7 +340,7 @@ historical releases are never rewritten.
 The old `research_card -> writing_plan -> author -> reviewer` path exists only
 to explain frozen historical runs. Rules such as “Author only reads Research
 Card”, Writing Plan, claim ledger, story beats and `mustNotAssume` are
-legacy-only. They are not fallback instructions for pipeline 2.11.
+legacy-only. They are not fallback instructions for the current pipeline.
 
 ## 13. History
 
@@ -320,3 +350,33 @@ legacy-only. They are not fallback instructions for pipeline 2.11.
   generalized image providers, strict legacy isolation, real-run causality,
   source publication and complete cost reporting.
 Pipeline 2.13 resolves images through one manifest-selected production entrypoint. The ordered tiers are: official API/IIIF; Luna planning over a mechanically enumerated official page; Wikidata/Commons; then Luna open-web search. AI may choose only enumerated candidate IDs, while code owns URLs, downloads, dimensions, hashes and identity checks. Every retry is a new immutable attempt, unresolved works remain non-blocking, and a museum hero can never be accepted as an object image.
+
+- 2.13.33: added strict CLI validation, read-only dry runs, pre-run environment
+  readiness checks, automatic test discovery, runtime-derived release data files,
+  and complete verified-image validation at orchestration, reporting and retry
+  promotion boundaries.
+- 2.13.34: made the discovery output contract explicitly require numeric
+  `schemaVersion: 1`, preventing the pipeline release version from being emitted
+  into the candidate-pool schema field.
+- 2.13.35: extended shared model JSON recovery to remove conservative trailing
+  noise between a completed array or object value and its container close, so a
+  completed image result can be reused without another model call.
+- 2.13.36: accepts an official object page's OG image when the normalized page
+  title exactly contains the locked work title, including anonymous objects,
+  while retaining generic museum hero rejection.
+- 2.13.37: shares the exact official-page OG identity signal with failed-image
+  retry ranking, so an anonymous work's OG image is not displaced by linked
+  collection cards whose filenames happen to score higher.
+- 2.13.38: aligns image-retry promotion with verified-image schema v2 by
+  accepting both object and context accepted statuses, while unresolved records
+  remain blocked.
+- 2.13.39: makes the one-shot upstream-conflict shape explicit and maps an
+  accepted architectural context image to the single-work `object_image` input
+  policy while preserving its context status in image evidence.
+- 2.13.40: freezes the published Rosenborg page and registers its visible
+  warning-publication state.
+- 2.13.41: rebuilds batch state from every locked work, makes warning promotion
+  cumulative, requires manifest registration before real publication, and
+  pauses repeated, over-attempt, or over-budget single-work retries.
+- 2.13.42: synchronizes this canonical document with the frozen retry and
+  publication safeguards introduced in 2.13.41.

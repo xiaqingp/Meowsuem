@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "status": "accepted",
+  "runId": "20260801T223003Z-p2.13.34",
+  "museumId": "rosenborg",
+  "workId": "pomander",
+  "stage": "single_work",
+  "attempt": 1,
+  "model": "gpt-5.6-luna",
+  "reasoningEffort": "high",
+  "startedAt": "2026-08-01T23:50:39.888Z",
+  "completedAt": "2026-08-01T23:51:50.459Z",
+  "durationMs": 70571,
+  "inputTokens": 71205,
+  "cachedInputTokens": 55296,
+  "reasoningTokens": 1508,
+  "outputTokens": 3547,
+  "totalTokens": 74752,
+  "agentRunCount": 1,
+  "modelRoundCount": 1,
+  "webSearchCount": 2,
+  "webOpenCount": 0
+}

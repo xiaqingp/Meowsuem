@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "glass-cabinet",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Glass Cabinet (room 22)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-22-the-glass-cabinet/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "design",
+        "collectionHistory",
+        "roomHistory"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The Glass Cabinet at Rosenborg Palace: Gottfried Fuchs's arrangement of 1714 rediscovered during restoration",
+      "publisher": "Journal of the History of Collections, Oxford Academic",
+      "url": "https://academic.oup.com/jhc/article-abstract/3/1/1/823057",
+      "sourceType": "academic",
+      "usedFor": [
+        "collectionSize",
+        "restoration",
+        "originalArrangement",
+        "symmetry"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "An A–Z of glass",
+      "publisher": "Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/articles/a-z-of-glass",
+      "sourceType": "museum",
+      "usedFor": [
+        "VenetianGlassContext",
+        "glassmakingHistory",
+        "materialContext"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Plan your visit to Rosenborg Castle",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/plan-your-visit/",
+      "sourceType": "museum",
+      "usedFor": [
+        "visitContext"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "玻璃柜是欧洲最早的博物馆房间之一，始于1713—1714年。",
+      "type": "first_or_earliest",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "房间约容纳一千件玻璃器，1990年修复后按原位置重新布置，并显出围绕中轴的对称结构。",
+      "type": "other",
+      "sourceIds": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "Gottfried Fuchs负责玻璃柜的设计与实施。",
+      "type": "attribution",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "这批玻璃器与弗雷德里克四世1709年访问威尼斯后获得的威尼斯城礼物有关。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "作者归属",
+      "statement": "馆方对象页明确点名Gottfried Fuchs负责房间的设计与实施，但该空间包含不同年代的建筑、绘画与玻璃器，不能据此推断全部组成部分由同一制作者完成。"
+    },
+    {
+      "topic": "巴克斯天花板画的意义",
+      "statement": "巴克斯与玻璃器、饮酒主题之间的联系属于基于图像和空间关系的艺术史解读，不将其表述为艺术家或王室已被直接证实的确定意图。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "creator",
+      "lockedValue": "丹麦王室建筑与历史室内",
+      "observedValue": "Gottfried Fuchs负责房间的设计与实施",
+      "sourceIds": [
+        "S1"
+      ],
+      "severity": "warning",
+      "explanation": "锁定metadata使用的是历史室内与陈列整体的机构性归类，官方对象页则提供了具体设计与实施者姓名；该差异不改变作品作为Rosenborg第22号历史陈列室的身份，因此不构成阻断。"
+    }
+  ]
+}

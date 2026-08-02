@@ -1,0 +1,31 @@
+{
+  "id": "PCR-2026-08-01-cookie-overlay-capture-gate",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-01",
+  "ownerInstruction": "修复 Nationalmuseum 图片中的 cookie overlay，并保证 page capture 不再接受这类图片。",
+  "baseRelease": "research/pipeline/releases/v2.13.30.json",
+  "targetVersion": "2.13.31",
+  "implementationStatus": "completed",
+  "scope": [
+    "remove explicit fixed cookie and consent dialogs inside the shared capture helper"
+  ],
+  "outOfScope": [
+    "rerunning non-image stages",
+    "changing museum prose"
+  ],
+  "allowedCanonicalFiles": [
+    "scripts/lib/page-image-capture.mjs"
+  ],
+  "verification": {
+    "status": "passed",
+    "record": "scripts/test-page-image-capture.mjs",
+    "commands": [
+      "node scripts/test-page-image-capture.mjs",
+      "node scripts/test-image-resolution-v2.mjs",
+      "node scripts/verify-content-pipeline.mjs",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "christian-iv-crown",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Christian IV’s crown",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/christian-iv-s-crown/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "coronation",
+        "symbolism",
+        "collectionRelation",
+        "availability",
+        "history"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Treasury, Section 2 (room H)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-h-the-treasury/",
+      "sourceType": "museum",
+      "usedFor": [
+        "date",
+        "displayContext",
+        "openCrown",
+        "absolutismContext"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Project ‘The Kingdom’s Treasury’",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/project-the-kingdom-s-treasury/",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "weight",
+        "coronation"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "克里斯蒂安四世选择开放式王冠，是为了将自己表现为统一北欧王国传统的继承者。",
+      "type": "artist_intent",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "官方页面日期笔误",
+      "statement": "对象页开头及罗森堡珍宝库页面将制作与加冕日期明确写为1596年，但对象页结尾出现‘1597’的表述；本文采用多个官方页面一致支持的1596年。"
+    }
+  ],
+  "upstreamConflicts": []
+}

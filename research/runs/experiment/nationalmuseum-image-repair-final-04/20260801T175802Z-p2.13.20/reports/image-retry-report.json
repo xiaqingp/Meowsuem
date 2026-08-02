@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "stage": "image_evidence_retry",
+  "runId": "20260801T175802Z-p2.13.20",
+  "runRoot": "research/runs/experiment/nationalmuseum-image-repair-final-04/20260801T175802Z-p2.13.20",
+  "parentRunRoot": "research/runs/experiment/nationalmuseum-image-repair-final-03/20260801T175559Z-p2.13.19",
+  "parentEvidenceSha256": "b9f5a6f01274aa5358da78780885ba24c81c8060909bdd32696dd89cae1b7bf7",
+  "failedWorksRetried": [
+    {
+      "workId": "mathsson-reclining-chair-36-nmk-46-2010",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "The sole candidate depicts a Joshua Tree climbing scene and is unrelated to Reclining Chair No. 36 (NMK 46/2010)."
+      ],
+      "sourcePageUrl": null
+    }
+  ],
+  "newlyAccepted": [
+    {
+      "workId": "mathsson-reclining-chair-36-nmk-46-2010",
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/134846/",
+      "imageUrl": null,
+      "localPath": "research/runs/experiment/nationalmuseum-image-repair-final-04/20260801T175802Z-p2.13.20/image-evidence/assets/mathsson-reclining-chair-36-nmk-46-2010.png",
+      "sha256": "0218af74b6b6d1724896281499ce278f2660e8984b73581812836729dc057ec2",
+      "method": "ai_page_element_capture",
+      "imageRole": "object_view",
+      "candidateId": "page-image-001"
+    }
+  ],
+  "stillUnresolved": [],
+  "counts": {
+    "works": 20,
+    "previousAcceptedPreserved": 19,
+    "retried": 1,
+    "newlyAccepted": 1,
+    "directImageDownloads": 0,
+    "elementCaptures": 1,
+    "objectImageAccepted": 20,
+    "contextImagesAccepted": 0,
+    "unresolved": 0,
+    "duplicateObjectImageGroups": [],
+    "modelCalls": 1,
+    "modelTokens": 14521,
+    "webSearchCount": 0
+  },
+  "model": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium",
+    "calls": 1,
+    "durationMs": 8143,
+    "tokens": {
+      "total": 14521,
+      "source": "codex_cli_log"
+    },
+    "webSearchCount": 0
+  },
+  "guarantees": {
+    "acceptedWorksNotRerun": [
+      "elias-martin-view-stockholm-nm-1470",
+      "rubens-three-graces-nm-601",
+      "roslin-lady-with-veil-nm-4098",
+      "goya-truth-time-history-nm-5593",
+      "rembrandt-self-portrait-nm-5324",
+      "fanny-brate-day-of-celebration-nm-1605",
+      "josephson-water-sprite-nm-1905",
+      "julius-kronberg-nymph-and-fauns-nm-1316",
+      "fogelberg-odin-nmsk-392",
+      "rodin-bellona-nmsk-985",
+      "persson-portrait-of-a-pea-nmk-169-1972",
+      "stig-lindberg-bersa-bowl-nmk-60-1996",
+      "zorn-midsummer-dance-nm-1603",
+      "aalto-paimio-armchair-nmk-13-1963",
+      "ron-arad-rover-chair-nmk-72-2013",
+      "hasselberg-spring-snowflake-nmsk-746",
+      "halds-cactus-exhibition-nmk-215-2011",
+      "pilo-coronation-gustav-iii-nm-1004",
+      "charles-x-gustav-miniature-nmb-2163"
+    ],
+    "nonImageStagesRun": [],
+    "imageGenerationModelUsed": false,
+    "parentRunModified": false,
+    "assemblyNetworkAccess": false,
+    "productionModified": false
+  }
+}

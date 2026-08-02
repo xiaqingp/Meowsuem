@@ -1,0 +1,541 @@
+{
+  "schemaVersion": 1,
+  "museumId": "nationalmuseum",
+  "researchDate": "2026-08-01",
+  "works": [
+    {
+      "workId": "rembrandt-old-scholar-nm-579",
+      "identityStatus": "attribution_conflicted",
+      "availability": "on_display_room_1621",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "A signed 1631 chamber interior whose treatment of multiple light sources is associated with Rembrandt's early work, but whose present authorship is represented inconsistently by authoritative records.",
+      "selectionSignals": [
+        "Supports the seventeenth-century Dutch painting line.",
+        "Useful only if the attribution conflict is stated rather than flattened into a secure Rembrandt authorship.",
+        "Official collection page currently marks the painting on display in Room 1621."
+      ],
+      "sectionSignals": [
+        "Dutch seventeenth-century painting",
+        "attribution and connoisseurship",
+        "light in interior space"
+      ],
+      "routeSignals": [
+        "current-display candidate",
+        "pair with works that show how museum attributions change"
+      ],
+      "riskFlags": [
+        "attribution_or_date_conflict",
+        "cross_source_synthesis"
+      ],
+      "inputRiskFlags": [
+        "attribution_uncertainty"
+      ],
+      "identityEvidence": {
+        "identityAnchor": "NM 579",
+        "officialTitle": "Old Scholar in a Vaulted Chamber (St Anastasius)",
+        "officialDate": "signed 1631",
+        "officialMedium": "oil on wood",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/17582/"
+      },
+      "riskResolution": {
+        "issue": "The Nationalmuseum page's structured artist field names Rembrandt and records 'Circle of Rembrandt' as a former attribution, while the same page's extended text says the work is now considered to be by another artist. RKD's Gerson Digital uses 'Rembrandt or after Rembrandt'. A 2024 Kunsthistorisches Museum exhibition booklet labels it Rembrandt.",
+        "resolution": "The object identity, signature/date and museum location are stable, but authorship is not resolved by the available authoritative sources. Selection must retain an attribution warning and must not call it securely autograph.",
+        "residualUncertainty": "The sources found do not identify a currently accepted alternative artist or explain whether the Nationalmuseum metadata has been partly updated ahead of its prose.",
+        "evidence": [
+          {
+            "claim": "Nationalmuseum metadata names Rembrandt, records a former Circle of Rembrandt attribution, and marks the work on display; its extended description says it is now considered another artist's work.",
+            "sourceUrl": "https://collection.nationalmuseum.se/en/collection/item/17582/"
+          },
+          {
+            "claim": "RKD's Gerson Digital captions NM 579 as 'Rembrandt or after Rembrandt'.",
+            "sourceUrl": "https://gerson-digital-sweden.rkdstudies.nl/3-the-18th-century/32-art-collections-in-the-18th-century/"
+          },
+          {
+            "claim": "The Kunsthistorisches Museum's 2024 Rembrandt–Hoogstraten booklet presents NM 579 as Rembrandt, dated 1631, in a discussion of chamber light.",
+            "sourceUrl": "https://press.khm.at/fileadmin/content/KHM/Presse/2024/Rembrandt-Hoogstraten_Farbe-und-Illusion/KHM_REM_Booklet_Kern_EN_f.pdf"
+          }
+        ]
+      },
+      "comparisonEvidence": null,
+      "scoreEvidence": [
+        "The official record specifically connects the chiaroscuro and multiple light sources with Rembrandt's youthful art, supporting an artistic-method signal but not secure authorship.",
+        "The live attribution conflict prevents rarity or autograph-masterpiece claims from supporting the museum score."
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/17582/",
+        "https://gerson-digital-sweden.rkdstudies.nl/3-the-18th-century/32-art-collections-in-the-18th-century/",
+        "https://press.khm.at/fileadmin/content/KHM/Presse/2024/Rembrandt-Hoogstraten_Farbe-und-Illusion/KHM_REM_Booklet_Kern_EN_f.pdf"
+      ]
+    },
+    {
+      "workId": "rubens-three-graces-nm-601",
+      "identityStatus": "stable_with_qualified_attribution",
+      "availability": "on_display_room_1621",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "A documented workshop painting that makes division of labor visible: the figures belong to Rubens's studio production, while the flower basket and landscape are more probably associated with Jan Brueghel the Younger.",
+      "selectionSignals": [
+        "Represents Flemish Baroque workshop practice without mislabeling the painting as wholly autograph Rubens.",
+        "Technical study distinguishes the hands responsible for figures and flowers and documents transfer from oak panel to canvas around 1760.",
+        "Official collection page currently marks the painting on display in Room 1621."
+      ],
+      "sectionSignals": [
+        "Flemish Baroque",
+        "workshop collaboration",
+        "conservation and support transfer"
+      ],
+      "routeSignals": [
+        "current-display candidate",
+        "pair with NM 579 for attribution and workshop distinctions"
+      ],
+      "riskFlags": [
+        "attribution_or_date_conflict"
+      ],
+      "inputRiskFlags": [
+        "attribution_uncertainty"
+      ],
+      "identityEvidence": {
+        "identityAnchor": "NM 601",
+        "officialTitle": "The Three Graces with a Basket of Roses",
+        "officialDate": "ca. 1620–1625",
+        "officialMedium": "oil on canvas; originally on a three-board oak panel",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/17604/"
+      },
+      "riskResolution": {
+        "issue": "The work is not catalogued as an autograph Rubens: the official record assigns the figures to the Workshop of Rubens and names Jan Brueghel the Younger, with limits on both attributions.",
+        "resolution": "Use the exact qualified attribution 'Workshop of Peter Paul Rubens; Jan Brueghel the Younger' and retain probability language for Brueghel's contribution. The museum states that Rubens's own original version is not known with certainty and that the figures were probably painted by leading pupils under his guidance.",
+        "residualUncertainty": "The individual studio painters of the figures are unidentified; Jan Brueghel the Younger's hand in the basket and landscape is probable, not certain.",
+        "evidence": [
+          {
+            "claim": "Nationalmuseum catalogues the picture to the Workshop of Rubens and Jan Brueghel the Younger, and explains that different hands painted the figures and flower basket.",
+            "sourceUrl": "https://collection.nationalmuseum.se/en/collection/item/17604/"
+          },
+          {
+            "claim": "The same catalogue entry says an autograph Rubens original is not certain and rejects the earlier Jan Brueghel the Elder attribution in favor of a probable attribution to Jan Brueghel the Younger.",
+            "sourceUrl": "https://collection.nationalmuseum.se/en/collection/item/17604/"
+          }
+        ]
+      },
+      "comparisonEvidence": {
+        "comparisonClass": "versions of the Vienna–Stockholm Three Graces composition",
+        "nearestComparator": "Rubens composition on wood panel, ca. 1620–1624, Gemäldegalerie der Akademie der bildenden Künste, Vienna",
+        "sharedCoreValue": "The same three-figure composition and theme.",
+        "decisiveDifference": "Nationalmuseum states that the Vienna panel is considerably wider and treats the Stockholm work as studio production with a probable Brueghel the Younger contribution.",
+        "irreplaceableValueAfterComparison": null,
+        "unknownBoundary": "The source does not establish that the Stockholm version has a globally unique or superior core value.",
+        "sourceUrl": "https://collection.nationalmuseum.se/en/collection/item/17604/"
+      },
+      "scoreEvidence": [
+        "The painting supports a strong museum-level account of Flemish collaborative production and long Swedish collecting history.",
+        "A closely related Vienna composition and qualified studio attribution block a rare-masterpiece classification."
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/17604/"
+      ]
+    },
+    {
+      "workId": "jordaens-king-candaules-nm-602",
+      "identityStatus": "packet_accession_conflict_resolved",
+      "availability": "on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "A large Jordaens narrative painting tied by the museum catalogue to a 1648 notarized statement in which Jordaens said he had extensively overpainted and reworked a workshop-started Candaules composition.",
+      "selectionSignals": [
+        "The locked packet's accession number NM 602 is wrong for the supplied official URL; the official object is NM 1159.",
+        "The object offers unusually specific documentary evidence about workshop initiation and Jordaens's final reworking.",
+        "Official collection page currently marks it on display."
+      ],
+      "sectionSignals": [
+        "Flemish seventeenth-century narrative painting",
+        "workshop authorship and documentary evidence",
+        "Swedish aristocratic collecting"
+      ],
+      "routeSignals": [
+        "current-display candidate after accession correction",
+        "large narrative-work anchor"
+      ],
+      "riskFlags": [
+        "identity_conflict"
+      ],
+      "inputRiskFlags": [],
+      "identityEvidence": {
+        "identityAnchorInPacket": "NM 602",
+        "correctedIdentityAnchor": "NM 1159",
+        "officialTitle": "King Candaules of Lydia Showing his Wife to Gyges",
+        "officialArtist": "Jacob Jordaens",
+        "officialDate": "ca. 1646",
+        "officialMedium": "oil on canvas",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/18162/"
+      },
+      "riskResolution": {
+        "issue": "The packet assigns NM 602, but the official object page at the locked URL gives inventory number NM 1159.",
+        "resolution": "Treat NM 1159 as authoritative. The current workId should not be published as an accession-bearing identifier until an upstream correction is made.",
+        "residualUncertainty": "No evidence found connects NM 602 to this object; the mismatch is in the packet, not the official record.",
+        "evidence": [
+          {
+            "claim": "Nationalmuseum identifies object 18162 as Jacob Jordaens's Candaules painting, inventory NM 1159, and marks it on display.",
+            "sourceUrl": "https://collection.nationalmuseum.se/en/collection/item/18162/"
+          },
+          {
+            "claim": "The museum's catalogue text cites Jordaens's 1648 notarized testimony that he substantially overpainted and reworked a work he had not begun himself.",
+            "sourceUrl": "https://collection.nationalmuseum.se/en/collection/item/18162/"
+          }
+        ]
+      },
+      "comparisonEvidence": {
+        "comparisonClass": "Jordaens treatments of the Candaules subject",
+        "nearestComparator": "A reversed, broadly corresponding version formerly cited at Schloss Schleissheim; the motif also appears within a 1660s Antwerp picture-gallery painting.",
+        "sharedCoreValue": "The same uncommon Candaules subject.",
+        "decisiveDifference": "The official source does not provide enough current object data to establish an irreplaceability claim for the Stockholm painting.",
+        "irreplaceableValueAfterComparison": null,
+        "unknownBoundary": "The location, authorship status, and detailed relation of the comparison version are not resolved in the available official entry.",
+        "sourceUrl": "https://collection.nationalmuseum.se/en/collection/item/18162/"
+      },
+      "scoreEvidence": [
+        "The work supports the Flemish narrative and workshop-production lines with primary-document evidence quoted in the museum catalogue.",
+        "No global rarity or superlative is established."
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/18162/"
+      ]
+    },
+    {
+      "workId": "carl-larsson-swedish-fairy-tale-nm-6840b",
+      "identityStatus": "stable_component_of_composite",
+      "availability": "on_display_room_1413",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "One painted wing of Carl Larsson's 1897 fairy-tale ensemble, whose two canvases and gilded sculptural relief combine painting, illustration-derived narrative, and decorative art.",
+      "selectionSignals": [
+        "NM 6840b is only one component and should not stand in for the complete ensemble without its NM 6840a companion and central relief.",
+        "The official page marks the ensemble on display in Room 1413.",
+        "The official text traces the subject to a Norwegian folktale recorded by Asbjørnsen and Moe and notes Larsson's earlier illustration work."
+      ],
+      "sectionSignals": [
+        "Swedish turn of the twentieth century",
+        "painting and decorative relief",
+        "folktale and illustration"
+      ],
+      "routeSignals": [
+        "current-display candidate",
+        "select and route as one composite ensemble rather than two independent paintings"
+      ],
+      "riskFlags": [
+        "composite_or_parent_child"
+      ],
+      "inputRiskFlags": [],
+      "identityEvidence": {
+        "identityAnchor": "NM 6840b",
+        "officialTitle": "A Swedish Fairy Tale / Vallpojken, part of the diptych Prinsessan och vallpojken",
+        "officialArtist": "Carl Larsson",
+        "officialDate": "signed 1897",
+        "officialMedium": "oil on canvas; ensemble includes sculpted and gilded wood relief",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/36656/"
+      },
+      "riskResolution": {
+        "issue": "The record calls NM 6840b part of a diptych, while its exhibition text describes two oil paintings plus a gilded wooden relief as a triptych.",
+        "resolution": "Model the visitor-facing object as one three-part ensemble with two accessioned painted components, NM 6840a and NM 6840b, plus the shared relief/frame; preserve the museum's component title and avoid counting the wings as independent works.",
+        "residualUncertainty": "The official records found do not give a separate accession number for the central relief.",
+        "evidence": [
+          {
+            "claim": "The NM 6840b page identifies the shepherd-boy wing and says the two oil paintings and gilded relief create a triptych; it marks the work on display in Room 1413.",
+            "sourceUrl": "https://collection.nationalmuseum.se/en/collection/item/36656/"
+          },
+          {
+            "claim": "The companion princess wing is recorded as NM 6840a and part of the same diptych with relief and shared frame.",
+            "sourceUrl": "https://collection.nationalmuseum.se/sv/collection/item/23889/"
+          }
+        ]
+      },
+      "comparisonEvidence": null,
+      "scoreEvidence": [
+        "The ensemble adds a specifically Swedish synthesis of easel painting, book-illustration experience, carved relief and decorative framing.",
+        "The available evidence establishes route distinctiveness, not global rarity or an art-historical superlative."
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/36656/",
+        "https://collection.nationalmuseum.se/sv/collection/item/23889/"
+      ]
+    },
+    {
+      "workId": "halds-cactus-exhibition-nmk-215-2011",
+      "identityStatus": "stable",
+      "availability": "on_display_room_1412",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": true,
+      "coreValue": "A 1927 Orrefors example of Edward Hald's 1926 engraved-glass design, using transparency to make imagery on multiple panels read through the vessel in depth and movement.",
+      "selectionSignals": [
+        "Official collection page currently marks the vase on display in Room 1412.",
+        "Nationalmuseum's 2012 acquisition text called it one of four examples then known and named comparators in Düsseldorf, New York and the British royal collection.",
+        "The Met independently confirms its 1926 example, object 27.96.3ab."
+      ],
+      "sectionSignals": [
+        "Swedish Grace and 1920s design",
+        "engraved glass and transparency",
+        "Orrefors international reach"
+      ],
+      "routeSignals": [
+        "current-display design-route anchor",
+        "use after opaque objects to foreground transparency and layered engraving"
+      ],
+      "riskFlags": [
+        "rare_candidate",
+        "superlative_claim",
+        "cross_source_synthesis"
+      ],
+      "inputRiskFlags": [],
+      "identityEvidence": {
+        "identityAnchor": "NMK 215/2011",
+        "officialTitle": "The Cactus Exhibition",
+        "officialDesignerManufacturerEngraver": "Edward Hald; Orrefors; Wilhelm Eisert",
+        "officialDate": "designed 1926; Nationalmuseum text says this example was produced in 1927",
+        "officialMedium": "engraved glass",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/137663/"
+      },
+      "riskResolution": {
+        "issue": "The museum's 2012 text makes the strong numerical claim that only four examples were then known.",
+        "resolution": "Preserve this only as a dated 2012 known-count, not a current global total. A named same-design comparator at the Met is independently confirmed. The work does not pass the 稀世珍品 hard gate because the available sources do not establish a decisive, irreplaceable difference between the Stockholm and Met examples.",
+        "residualUncertainty": "The present total, the current location/ownership of all examples, and the exact differences among the Düsseldorf, royal, Met and Stockholm objects are not fully verified. The 2012 phrase 'owned by HM Queen Elizabeth II' is historical and must not be presented as current ownership.",
+        "evidence": [
+          {
+            "claim": "Nationalmuseum's 2012 acquisition text identifies its example as produced in 1927 and one of four examples then known; it names Düsseldorf, the Met and Queen Elizabeth II's collection as the other locations at that time.",
+            "sourceUrl": "https://collection.nationalmuseum.se/en/collection/item/137663/"
+          },
+          {
+            "claim": "The Met independently records a 1926 Cactus Exhibition vase and tray by Hald and Orrefors, object 27.96.3ab.",
+            "sourceUrl": "https://www.metmuseum.org/art/collection/search/487596"
+          }
+        ]
+      },
+      "comparisonEvidence": {
+        "comparisonClass": "surviving examples of Hald's Cactus Exhibition engraved-glass design",
+        "nearestComparator": "Metropolitan Museum of Art, object 27.96.3ab, dated 1926",
+        "sharedCoreValue": "The same Hald/Orrefors Cactus Exhibition design in engraved glass, including vase and tray.",
+        "decisiveDifference": "The Stockholm example is described as produced in 1927 and engraved by Wilhelm Eisert; the Met page dates its example 1926 but does not supply enough production detail to prove that this difference carries an irreplaceable artistic or historical value.",
+        "irreplaceableValueAfterComparison": null,
+        "unknownBoundary": "Current worldwide count and comparative quality are unconfirmed.",
+        "sourceUrls": [
+          "https://collection.nationalmuseum.se/en/collection/item/137663/",
+          "https://www.metmuseum.org/art/collection/search/487596"
+        ]
+      },
+      "scoreEvidence": [
+        "The object is a strong node in Nationalmuseum's Swedish art-glass collection and connects material technique, contemporary imagery and Orrefors's international reputation.",
+        "Its historical known-count supports rarity, but failure of the irreplaceability comparison limits it to 重要藏品 rather than 稀世珍品."
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/137663/",
+        "https://www.mynewsdesk.com/nationalmuseum/pressreleases/new-acquisition-cactus-exhibition-vase-by-edward-hald-963275",
+        "https://www.metmuseum.org/art/collection/search/487596"
+      ]
+    },
+    {
+      "workId": "rembrandt-seated-old-man-nmh-2651-1863",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "An early Rembrandt chalk study connected by the museum catalogue to his recurring old-man models, related etchings, and the close stylistic exchange with Jan Lievens around 1630.",
+      "selectionSignals": [
+        "Official object page explicitly says not on display; exclude from routes that promise a currently visible object.",
+        "The catalogue documents its 1741 acquisition by Tessin as Claude Mellan and later restoration to Rembrandt by Otto Benesch.",
+        "Useful for the graphic-arts collection line and for distinguishing a character study or tronie from a commissioned portrait."
+      ],
+      "sectionSignals": [
+        "Dutch drawings",
+        "Tessin and collecting history",
+        "Rembrandt and Lievens"
+      ],
+      "routeSignals": [
+        "collection-depth candidate only",
+        "not eligible for a current-display route"
+      ],
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "inputRiskFlags": [
+        "display_status_uncertain"
+      ],
+      "identityEvidence": {
+        "identityAnchor": "NMH 2651/1863",
+        "officialTitle": "Seated Old Man",
+        "officialArtist": "Rembrandt Harmensz. van Rijn",
+        "officialDate": "ca. 1630",
+        "officialMedium": "red and black chalk on paper",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/40381/"
+      },
+      "riskResolution": {
+        "issue": "The packet recorded uncertain display status.",
+        "resolution": "The current official page explicitly marks the drawing 'Not on display'. Treat that as the present visitor boundary.",
+        "residualUncertainty": "Future rotation is possible but no future display is announced on the object page.",
+        "evidence": [
+          {
+            "claim": "Nationalmuseum identifies NMH 2651/1863 as Rembrandt, ca. 1630, red and black chalk, and marks it not on display.",
+            "sourceUrl": "https://collection.nationalmuseum.se/en/collection/item/40381/"
+          },
+          {
+            "claim": "The catalogue records the former Mellan attribution, Benesch's restoration to Rembrandt, and acknowledged difficulty distinguishing some early Rembrandt and Lievens drawings.",
+            "sourceUrl": "https://collection.nationalmuseum.se/en/collection/item/40381/"
+          }
+        ]
+      },
+      "comparisonEvidence": {
+        "comparisonClass": "Rembrandt chalk studies and related old-man images around 1630",
+        "nearestComparator": "The museum cites the 1630 etching Bartsch 325 and several other chalk studies of a seated old man, some probably using the same model.",
+        "sharedCoreValue": "Closely related study of an old-man model in Rembrandt's Leiden-period practice.",
+        "decisiveDifference": "No source-backed decisive difference establishes this sheet as irreplaceable among the related studies.",
+        "irreplaceableValueAfterComparison": null,
+        "unknownBoundary": "The precise identity of the model and exact relationship among all related sheets remain uncertain.",
+        "sourceUrl": "https://collection.nationalmuseum.se/en/collection/item/40381/"
+      },
+      "scoreEvidence": [
+        "The drawing contributes materially to the museum's Dutch graphic-art and Tessin-linked collecting lines.",
+        "Its off-display status removes route value, and related drawings and prints prevent a rarity-based elevation."
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/40381/"
+      ]
+    },
+    {
+      "workId": "seurat-study-bathers-asnieres-nmh-50-2014",
+      "identityStatus": "stable_with_medium_metadata_discrepancy",
+      "availability": "not_on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "A Conté-crayon figure study for Seurat's Bathers at Asnières that demonstrates his use of pressure and grain to organize broad tonal fields before the final monumental painting.",
+      "selectionSignals": [
+        "Official object page explicitly says not on display; exclude from current visitor routes.",
+        "The museum identifies the sheet as a study of bent legs for a figure in Bathers at Asnières and as a targeted modern addition to its historic French-drawing strength.",
+        "The National Gallery confirms that about ten drawings for Bathers survive, so the relation is important but not unique."
+      ],
+      "sectionSignals": [
+        "French drawings",
+        "preparatory process",
+        "Seurat before the finished painting"
+      ],
+      "routeSignals": [
+        "collection-depth candidate only",
+        "not eligible for a current-display route"
+      ],
+      "riskFlags": [
+        "availability_ambiguity",
+        "identity_conflict",
+        "cross_source_synthesis"
+      ],
+      "inputRiskFlags": [
+        "display_status_uncertain"
+      ],
+      "identityEvidence": {
+        "identityAnchor": "NMH 50/2014",
+        "officialTitle": "Study for the painting Bathers at Asnières 1884",
+        "officialArtist": "Georges Seurat",
+        "officialDate": "1883–1884",
+        "officialMediumNarrative": "Conté crayon on heavily grained paper",
+        "officialStructuredMaterialDiscrepancy": "The page's structured material fields list paper, ink and red crayon despite the press text describing a characteristically black Conté-crayon drawing.",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/157820/"
+      },
+      "riskResolution": {
+        "issue": "The packet's display status was uncertain, and the official page contains inconsistent medium metadata.",
+        "resolution": "The present availability is definitively 'Not on display'. For planning, describe the technique only with attribution to the museum's narrative text: Conté crayon on heavily grained paper. Do not silently merge that with the page's conflicting structured material taxonomy.",
+        "residualUncertainty": "The official page does not explain why its structured fields say ink and red crayon; exact technical wording should be rechecked before publication-level identity data are finalized.",
+        "evidence": [
+          {
+            "claim": "Nationalmuseum marks NMH 50/2014 not on display and identifies it as Seurat's 1883–84 study for Bathers at Asnières.",
+            "sourceUrl": "https://collection.nationalmuseum.se/en/collection/item/157820/"
+          },
+          {
+            "claim": "The museum's press text describes compressed Conté crayon on heavily grained paper and explains the tonal effect of pressure, while the same page's structured fields list ink and red crayon.",
+            "sourceUrl": "https://collection.nationalmuseum.se/en/collection/item/157820/"
+          },
+          {
+            "claim": "The National Gallery states that some ten preparatory drawings survive for Bathers at Asnières.",
+            "sourceUrl": "https://www.nationalgallery.org.uk/paintings/georges-seurat-bathers-at-asnieres"
+          }
+        ]
+      },
+      "comparisonEvidence": {
+        "comparisonClass": "surviving preparatory works for Bathers at Asnières",
+        "nearestComparator": "Other surviving Conté drawings for individual figures and the 13 or 14 preparatory oil sketches discussed by the National Gallery",
+        "sharedCoreValue": "Evidence of Seurat's staged preparation for the final painting.",
+        "decisiveDifference": "The Stockholm sheet isolates a bent-leg detail and is a finished tonal composition in its own right, but the sources do not establish an irreplaceable historical value relative to the other surviving studies.",
+        "irreplaceableValueAfterComparison": null,
+        "unknownBoundary": "No complete current census of all related drawings was established beyond the National Gallery's approximate count.",
+        "sourceUrls": [
+          "https://collection.nationalmuseum.se/en/collection/item/157820/",
+          "https://www.nationalgallery.org.uk/paintings/georges-seurat-bathers-at-asnieres"
+        ]
+      },
+      "scoreEvidence": [
+        "The sheet fills a documented modern gap in a museum collection historically strong in older French drawings and links directly to Seurat's first large-scale painting.",
+        "Its off-display status and the survival of multiple related studies limit its route and rarity weight."
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/157820/",
+        "https://www.nationalgallery.org.uk/paintings/georges-seurat-bathers-at-asnieres"
+      ]
+    },
+    {
+      "workId": "estenberg-hall-of-state-design-nmh-243-1919",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "Pehr Estenberg's 1797 drawing after Louis Jean Desprez records a theatrical, Neoclassical proposal for the Hall of State at Stockholm Palace and connects graphic design to a specific royal interior.",
+      "selectionSignals": [
+        "Official object page explicitly says not on display; exclude from routes promising visible works.",
+        "The object broadens the collection story from autonomous art to architectural and ceremonial design.",
+        "The museum identifies Estenberg as Desprez's most prominent student and the proposal as drawing on theatre decoration."
+      ],
+      "sectionSignals": [
+        "architectural drawings",
+        "Stockholm Palace and royal ceremony",
+        "Neoclassicism, theatre and early Romantic grandeur"
+      ],
+      "routeSignals": [
+        "collection-depth candidate only",
+        "not eligible for a current-display route",
+        "contextual bridge to Stockholm's built heritage"
+      ],
+      "riskFlags": [
+        "availability_ambiguity",
+        "architecture_or_site"
+      ],
+      "inputRiskFlags": [
+        "display_status_uncertain"
+      ],
+      "identityEvidence": {
+        "identityAnchor": "NMH 243/1919",
+        "officialTitle": "Design for Decoration for the Hall of State, the Royal Palace, with the Royal Throne",
+        "officialArtistAttribution": "Pehr Estenberg, after Louis Jean Desprez",
+        "officialDate": "1797",
+        "officialMedium": "pen and grey-black ink with grey and black wash on paper",
+        "depictedPlace": "Stockholm Palace",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/234595/"
+      },
+      "riskResolution": {
+        "issue": "The packet recorded uncertain display status, and the object's value depends on its relation to an architectural site rather than on an autonomous built work.",
+        "resolution": "The current official record explicitly says 'Not on display'. Present it only as a design for the Hall of State, not as evidence that the proposal was executed or that the present room matches the drawing.",
+        "residualUncertainty": "The object page does not state which proposed features, if any, were realized at Stockholm Palace.",
+        "evidence": [
+          {
+            "claim": "Nationalmuseum records NMH 243/1919 as a 1797 drawing by Pehr Estenberg after Louis Jean Desprez, depicts Stockholm Palace, and marks it not on display.",
+            "sourceUrl": "https://collection.nationalmuseum.se/en/collection/item/234595/"
+          },
+          {
+            "claim": "The museum says the proposal uses Desprez's knowledge of theatre decoration and combines Neoclassical elements with grandeur anticipating later Romantic taste.",
+            "sourceUrl": "https://collection.nationalmuseum.se/en/collection/item/234595/"
+          }
+        ]
+      },
+      "comparisonEvidence": null,
+      "scoreEvidence": [
+        "The sheet provides a specific link between the museum's graphic holdings, Stockholm Palace and theatrical architectural design.",
+        "No evidence supports rarity, execution of the proposal, or a superlative place in architectural history."
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/234595/"
+      ]
+    }
+  ]
+}

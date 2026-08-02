@@ -3,13 +3,14 @@ import path from "node:path";
 import {pathToFileURL} from "node:url";
 import vm from "node:vm";
 import {loadManifest, resolveCanonicalRun} from "./lib/filesystem-contract.mjs";
+import {museumDataFiles} from "./lib/museum-data-files.mjs";
 import "./verify-content-pipeline.mjs";
 
 const root = new URL("../", import.meta.url);
 const appFile = name => new URL(name, root);
-const baseDataFiles = ["ratings.js", "muxin.js", "museums.js", "louvre.js", "museum-expansions.js", "seattle.js", "vienna.js", "enoura.js", "british.js", "anchorage.js", "getty.js", "chichu.js", "egyptian.js", "alhambra.js", "smk.js", "frye.js", "routes.js"];
 const argument = name => process.argv.find(value => value.startsWith(`${name}=`))?.slice(name.length + 1);
 const projectRoot = path.resolve(argument("--project-root") || new URL("..", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"));
+const baseDataFiles = await museumDataFiles(projectRoot);
 const runKind = argument("--kind");
 if (!runKind || runKind === "production") {
   await import("./verify-significance-evidence.mjs");
@@ -108,8 +109,8 @@ for (const museum of Object.values(museums)) {
 const candidateMuseumIds = [];
 for (const name of candidateDataFiles) {
   const source = await readData(name);
-  const match = source.match(/\bmuseumData\.([a-z][a-z0-9-]*)\s*=/);
-  if (match) candidateMuseumIds.push(match[1]);
+  const match = source.match(/\bmuseumData(?:\.([a-z][a-z0-9-]*)|\[["']([a-z][a-z0-9-]*)["']\])\s*=/);
+  if (match) candidateMuseumIds.push(match[1] ?? match[2]);
 }
 const expectedMuseumCount = Object.keys(manifest.museums).length
   + candidateMuseumIds.filter(id => !manifest.museums[id]).length;

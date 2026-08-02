@@ -1,0 +1,53 @@
+{
+  "id": "PCR-2026-08-01-fresh-agent-pipeline-audit",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-01",
+  "ownerInstruction": "重新审核并修复 pipeline，使新的 agent 能自动、无障碍执行；不得为验证而重跑现有博物馆内容。",
+  "baseRelease": "research/pipeline/releases/v2.13.32.json",
+  "targetVersion": "2.13.33",
+  "implementationStatus": "completed",
+  "scope": [
+    "make cold-start prerequisites executable and fail before run mutation",
+    "reject unknown CLI options and make dry-run read-only",
+    "initialize the museum request through the canonical run creator",
+    "align all active verified-image producer and consumer boundaries",
+    "derive release data scripts from the real museum page instead of a duplicate list",
+    "repair and run the complete model-free regression suite"
+  ],
+  "outOfScope": [
+    "rerunning Nationalmuseum or any museum content stage",
+    "calling live content models",
+    "mutating frozen historical releases"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/run-museum-pipeline.mjs",
+    "scripts/create-generation-run.mjs",
+    "scripts/verify-release-candidate.mjs",
+    "scripts/verify-significance-evidence.mjs",
+    "scripts/lib/museum-data-files.mjs",
+    "scripts/promote-image-retry-to-parent.mjs",
+    "scripts/report-two-level-image-resolution.mjs",
+    "scripts/check-pipeline-readiness.mjs",
+    "scripts/run-pipeline-tests.mjs"
+  ],
+  "verification": {
+    "status": "passed",
+    "results": {
+      "modelFreeTests": "33/33 passed",
+      "mockEndToEnd": "passed through publish dry-run",
+      "scriptSyntax": "112/112 passed",
+      "schemaJson": "6/6 parsed",
+      "nationalmuseumScopedRelease": "passed",
+      "globalSignificanceBaseline": "145 preexisting pending records; unchanged and out of scope"
+    },
+    "commands": [
+      "node scripts/check-pipeline-readiness.mjs --mode=mock",
+      "node scripts/run-pipeline-tests.mjs",
+      "node scripts/verify-content-pipeline.mjs",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

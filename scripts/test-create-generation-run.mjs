@@ -41,11 +41,18 @@ try {
     museum: "seattle",
     milestone: "M29",
     now,
+    museumRequest: {
+      museumName: "Seattle Art Museum",
+      city: "Seattle",
+      country: "United States",
+    },
   });
   assert.equal(production.runId, "20260725T151500Z-p2.9.0");
   const productionRoot = path.join(root, ...production.runRoot.split("/"));
   const descriptor = JSON.parse(await fs.readFile(path.join(productionRoot, "run.json"), "utf8"));
   assert.equal(descriptor.layoutVersion, 1);
+  const request = JSON.parse(await fs.readFile(path.join(productionRoot, "scope", "request.json"), "utf8"));
+  assert.equal(request.museumName, "Seattle Art Museum");
   for (const required of ["research/batches", "works", "candidate", "reports"]) {
     assert.equal((await fs.stat(path.join(productionRoot, ...required.split("/")))).isDirectory(), true);
   }

@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 1,
+  "museumId": "rosenborg",
+  "works": [
+    {
+      "workId": "emerald-set",
+      "identityStatus": "stable",
+      "availability": "officially associated with the Rosenborg Treasury; visit-day display status requires verification",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "1840年为卡罗琳·阿玛莉娅制作的王室珠宝套饰；部分祖母绿可追溯至1723年，并呈现王室珠宝如何在继承、重新编组与持续佩戴之间保持身份。",
+      "selectionSignals": [
+        "丹麦王室珠宝四套核心线索",
+        "王室继承与重新编组",
+        "套饰与可拆分佩戴",
+        "祖母绿开放式镶座与整套珠宝的形式价值"
+      ],
+      "sectionSignals": [
+        "王室珠宝与持续使用",
+        "从遗产到现代王室佩戴"
+      ],
+      "routeSignals": [
+        "Rosenborg Treasury crown-jewels route",
+        "可与珍珠红宝石套饰及两种钻石套饰并置比较",
+        "参观日须核验是否因王室使用而暂离展柜"
+      ],
+      "riskFlags": [
+        "availability_ambiguity",
+        "superlative_claim"
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-emerald-set/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/the-crown-jewels/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/"
+      ]
+    },
+    {
+      "workId": "pearl-ruby-set",
+      "identityStatus": "stable",
+      "availability": "officially associated with the Rosenborg crown-jewels display; visit-day display status requires verification",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "1842年为卡罗琳·阿玛莉娅重新组合的套饰，其中大型珍珠与红宝石保留了更早的王室财产线索；它把继承史、丹麦国旗色彩和可拆分使用连接在同一组珠宝中。",
+      "selectionSignals": [
+        "王室珠宝中最早材料线索之一",
+        "从家族财产到王冠珠宝",
+        "珍珠、红宝石与丹麦色彩政治",
+        "胸针可拆分并以多种方式使用"
+      ],
+      "sectionSignals": [
+        "王室珠宝的继承与再组合",
+        "材料年龄与现代套饰形制"
+      ],
+      "routeSignals": [
+        "Rosenborg crown-jewels route",
+        "与翡翠套饰比较不同宝石组合如何承载家族历史",
+        "参观日须核验是否因王室使用而暂离展柜"
+      ],
+      "riskFlags": [
+        "availability_ambiguity",
+        "superlative_claim"
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-pearl-ruby-set/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/the-crown-jewels/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/"
+      ]
+    },
+    {
+      "workId": "brilliant-cut-diamond-set",
+      "identityStatus": "stable",
+      "availability": "officially associated with the Rosenborg crown-jewels display; visit-day display status requires verification",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "1840年为卡罗琳·阿玛莉娅重新装配的钻石套饰，把索菲·玛格达伦遗产和卡罗琳·玛蒂尔德婚礼珠宝的跨代流转保留在项链、胸针与耳坠的组合中。",
+      "selectionSignals": [
+        "王室珠宝跨代流转",
+        "旧有宝石在新套饰中的再编组",
+        "卡罗琳·玛蒂尔德婚礼珠宝的历史线索",
+        "胸针花束与会随佩戴产生振动的弹簧结构"
+      ],
+      "sectionSignals": [
+        "珠宝如何保存王室关系史",
+        "重新装配与持续使用"
+      ],
+      "routeSignals": [
+        "Rosenborg crown-jewels route",
+        "与玫瑰式切割钻石套饰比较切割方式和形制用途",
+        "参观日须核验是否因王室使用而暂离展柜"
+      ],
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-brillant-cut-diamond-set/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/the-crown-jewels/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/"
+      ]
+    },
+    {
+      "workId": "rose-cut-diamond-set",
+      "identityStatus": "stable",
+      "availability": "official object page places the jewellery at Amalienborg Museum; Rosenborg visit visibility requires verification",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "这组1840—1842年形成的玫瑰式切割钻石并非普通项链，而是原本缝在紧身礼服前部的腰链；它让珠宝形制、服装身体和当代重新理解之间的关系成为馆藏线索。",
+      "selectionSignals": [
+        "珠宝形制与服装使用关系",
+        "由账单和肖像重新识别为腰链",
+        "可拆分的中心胸针/坠饰",
+        "玫瑰式切割与明亮式切割的材料比较"
+      ],
+      "sectionSignals": [
+        "珠宝不只是静态套饰",
+        "历史用途与当代重装"
+      ],
+      "routeSignals": [
+        "跨馆址路线：Rosenborg crown-jewels语境与Amalienborg Museum实际展陈需分开处理",
+        "不应默认在Rosenborg现场可见",
+        "可与2024年玫瑰式切割钻石冠冕形成父项—重装关系"
+      ],
+      "riskFlags": [
+        "availability_ambiguity",
+        "cross_source_synthesis"
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/",
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-tiara/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/the-crown-jewels/"
+      ]
+    },
+    {
+      "workId": "rose-cut-diamond-tiara",
+      "identityStatus": "stable",
+      "availability": "2024 redesign derived from parts of the Rose-Cut Diamond Set; independent museum display venue requires verification",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "2024年为玫瑰式切割钻石套饰部分宝石制作的新发带式镶座，显示王室珠宝在保留原始镶座的同时继续适应当代佩戴方式。",
+      "selectionSignals": [
+        "2024年当代重装",
+        "历史套饰与现任王后使用的连接",
+        "同一组宝石的多种形制",
+        "活态文化遗产线索"
+      ],
+      "sectionSignals": [
+        "王室珠宝的持续改造",
+        "历史对象如何进入当代使用"
+      ],
+      "routeSignals": [
+        "跨馆址/当代使用补充线索",
+        "必须与Rose-Cut Diamond Set作为父项关系处理",
+        "不应在未核验情况下承诺Rosenborg现场可见"
+      ],
+      "riskFlags": [
+        "availability_ambiguity",
+        "composite_or_parent_child"
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-tiara/",
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/the-crown-jewels/"
+      ]
+    },
+    {
+      "workId": "christian-iv-crown",
+      "identityStatus": "stable",
+      "availability": "officially on display in the Treasury under Rosenborg Castle; visit-day status requires verification",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "为1596年克里斯蒂安四世加冕制作的开放式王冠，把文艺复兴王权、加冕仪式和以北欧统一传统塑造统治者形象的图像语言集中在一件仍接近早期形态的礼器上。",
+      "selectionSignals": [
+        "Rosenborg文艺复兴王权核心节点",
+        "1596年加冕与开放式王冠传统",
+        "珐琅人物把统治者职责具象化",
+        "可与克里斯蒂安五世王冠比较制度转折"
+      ],
+      "sectionSignals": [
+        "文艺复兴王权与加冕仪式",
+        "从开放式王冠到绝对君主制"
+      ],
+      "routeSignals": [
+        "Rosenborg Treasury royal-crown route",
+        "与Lex Regia及克里斯蒂安五世王冠形成制度转折路线",
+        "地下Treasury现场优先"
+      ],
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/christian-iv-s-crown/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-h-the-treasury/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/"
+      ]
+    },
+    {
+      "workId": "christian-v-crown",
+      "identityStatus": "stable",
+      "availability": "officially on display in the Treasury under Rosenborg Castle; visit-day status requires verification",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "1670—1671年为克里斯蒂安五世制作的绝对君主制王冠，以从加冕到受膏的礼仪变化和受路易十四王冠影响的闭合形制，物质化丹麦制度转折。",
+      "selectionSignals": [
+        "绝对君主制的核心礼器",
+        "1661年制度变化后的新王冠",
+        "与克里斯蒂安四世王冠共享材料却改变政治形制",
+        "王冠图像进入丹麦硬币的国家记忆"
+      ],
+      "sectionSignals": [
+        "绝对君主制与王权图像",
+        "礼仪制度如何改变物件形制"
+      ],
+      "routeSignals": [
+        "Rosenborg Treasury royal-crown route",
+        "与克里斯蒂安四世王冠及Lex Regia连续观看",
+        "地下Treasury现场优先"
+      ],
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/christian-v-s-crown/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-24-the-regalia-room/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/"
+      ]
+    },
+    {
+      "workId": "sceptre",
+      "identityStatus": "stable",
+      "availability": "officially kept and displayed as regalia in the Treasury under Rosenborg Castle; visit-day status requires verification",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "1648年为弗雷德里克三世加冕制作的权杖，是一套礼器中把王权、恩典和基督教象征连接起来的垂直标志，也保留了受膏仪式与现代葬礼仪式的连续性。",
+      "selectionSignals": [
+        "丹麦王室礼器系统核心成员",
+        "1648年加冕与弗雷德里克三世",
+        "百合、王冠与权威象征",
+        "与王球、王冠和涂油壶组成礼仪系统"
+      ],
+      "sectionSignals": [
+        "受膏仪式中的王权符号",
+        "礼器从加冕到身后仪式的延续"
+      ],
+      "routeSignals": [
+        "Rosenborg Treasury regalia route",
+        "应与王球、涂油壶和克里斯蒂安五世王冠联看",
+        "地下Treasury现场优先"
+      ],
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-sceptre/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-24-the-regalia-room/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/"
+      ]
+    },
+    {
+      "workId": "orb",
+      "identityStatus": "stable",
+      "availability": "officially on display as regalia in the Treasury under Rosenborg Castle; visit-day status requires verification",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "1648年制作的王球以木芯、金箔、宝石镶带和十字架把世界与基督教统治观念压缩成一件礼器，并可解释加冕/受膏仪式中君主手持物件的分工。",
+      "selectionSignals": [
+        "丹麦王室礼器系统核心成员",
+        "世界、十字架与基督教王权图像",
+        "1648年加冕与受膏仪式",
+        "与权杖和王冠形成完整持用关系"
+      ],
+      "sectionSignals": [
+        "王权如何借物件表达世界秩序",
+        "礼器的形制与仪式动作"
+      ],
+      "routeSignals": [
+        "Rosenborg Treasury regalia route",
+        "与权杖、涂油壶和克里斯蒂安五世王冠联看",
+        "地下Treasury现场优先"
+      ],
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-orb/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-24-the-regalia-room/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/"
+      ]
+    },
+    {
+      "workId": "ampulla",
+      "identityStatus": "stable",
+      "availability": "officially associated with the Rosenborg Treasury regalia; visit-day display status requires verification",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "1648年为弗雷德里克三世加冕制作的小型金质涂油壶，连接中世纪延续的受膏仪式、路德宗王国的礼仪继承和绝对君主制下由上帝授权的权力论证。",
+      "selectionSignals": [
+        "礼器中的宗教维度",
+        "受膏油与身体仪式",
+        "宗教改革后仍保留的加冕传统",
+        "1661年后绝对君主制的权力神学"
+      ],
+      "sectionSignals": [
+        "礼仪如何赋予王权合法性",
+        "小型容器与大型政治制度"
+      ],
+      "routeSignals": [
+        "Rosenborg Treasury regalia route",
+        "作为权杖、王球和王冠之外的宗教补充",
+        "地下Treasury现场优先"
+      ],
+      "riskFlags": [
+        "availability_ambiguity"
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/ampulla/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-24-the-regalia-room/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/"
+      ]
+    }
+  ]
+}

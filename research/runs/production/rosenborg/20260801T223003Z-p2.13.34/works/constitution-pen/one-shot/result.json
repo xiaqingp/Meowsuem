@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "status": "warning",
+  "runId": "20260801T223003Z-p2.13.34",
+  "museumId": "rosenborg",
+  "workId": "constitution-pen",
+  "stage": "single_work",
+  "attempt": 3,
+  "model": "gpt-5.6-luna",
+  "reasoningEffort": "high",
+  "exitCode": 0,
+  "startedAt": "2026-08-02T00:04:34.799Z",
+  "completedAt": "2026-08-02T00:06:29.818Z",
+  "durationMs": 115019,
+  "inputTokens": 95731,
+  "cachedInputTokens": 68608,
+  "reasoningTokens": 3924,
+  "outputTokens": 5900,
+  "totalTokens": 101631,
+  "agentRunCount": 1,
+  "modelRoundCount": 1,
+  "webSearchCount": 3,
+  "webOpenCount": 0,
+  "failureCode": "VERIFICATION_FAILED",
+  "failureMessage": "one-shot verifier failed",
+  "publicationMode": "warning",
+  "warningCodes": [
+    "OFFICIAL_SOURCE_COVERAGE"
+  ]
+}

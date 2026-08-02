@@ -1,0 +1,36 @@
+{
+  "runId": "20260801T172328Z-p2.13.14",
+  "startedAt": "2026-08-01T17:23:34.495Z",
+  "stage": "museum_scope",
+  "museumId": "nationalmuseum",
+  "pipelineVersion": "2.13.14",
+  "instructionVersion": "2.4.2",
+  "executionProfile": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "high",
+    "runner": "scripts/run-isolated-generation.ps1"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/meowseum-content-instruction.md",
+      "role": "content_instruction",
+      "sha256": "e2d6e331f53fb1d7c4b078c0aabc1b03548e4d4504ea218d1a08e09929adc2cc"
+    },
+    {
+      "path": "research/runs/production/nationalmuseum/20260801T172328Z-p2.13.14/scope/request.json",
+      "role": "museum_request",
+      "sha256": "d7a9b6e07029762ecdfaf0e9d7bc53a2ab149e9fba69922644f0ee33b119613f"
+    },
+    {
+      "path": "research/pipeline/prompts/museum-scope.md",
+      "role": "stage_prompt",
+      "sha256": "22fa0c00e34d960f415b983c929948bb674cc14d0a8e4238ce7f6a4aa0e09f26"
+    }
+  ],
+  "outputs": [
+    "scope.json"
+  ],
+  "reviewer": "disabled",
+  "retry": "explicit_only",
+  "publicationBoundary": "run_only"
+}

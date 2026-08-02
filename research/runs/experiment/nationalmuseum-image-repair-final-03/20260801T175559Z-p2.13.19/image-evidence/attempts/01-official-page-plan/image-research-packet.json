@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 2,
+  "stage": "official_page_plan",
+  "resolverTier": 2,
+  "museumId": "nationalmuseum",
+  "parentEvidencePath": "research/runs/experiment/nationalmuseum-image-repair-final-02/20260801T174609Z-p2.13.17/image-evidence/verified-image-evidence.json",
+  "parentEvidenceSha256": "c54961560a961d2459e1fe37c8a2d49b7b742d861d1f2915dde77bbaf1353c8b",
+  "works": [
+    {
+      "workId": "mathsson-reclining-chair-36-nmk-46-2010",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "mathsson-reclining-chair-36-nmk-46-2010",
+        "title": "Reclining Chair No. 36",
+        "objectType": "design_object",
+        "titleZh": "",
+        "titleEn": "Reclining Chair No. 36",
+        "creator": "",
+        "artistOrCulture": "",
+        "displayDate": "designed 1936; manufactured 1939",
+        "medium": "Bent-laminated birch, plywood and plaited webbing",
+        "identityAnchor": "NMK 46/2010",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/134846/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/134846/",
+        "accessionNumber": "NMK 46/2010",
+        "collectionGroup": "Furniture and design"
+      },
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Joshua_Tree_-_Sweet_Band_belay.jpg",
+      "page": {
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Joshua_Tree_-_Sweet_Band_belay.jpg",
+        "finalUrl": "https://commons.wikimedia.org/wiki/File:Joshua_Tree_-_Sweet_Band_belay.jpg",
+        "pageTitle": "Wikimedia Commons API",
+        "bodyText": "",
+        "candidateCount": 1
+      },
+      "candidates": [
+        {
+          "candidateId": "commons-001",
+          "candidateType": "direct_image",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Joshua_Tree_-_Sweet_Band_belay.jpg/1920px-Joshua_Tree_-_Sweet_Band_belay.jpg",
+          "nearbyText": "Joshua Tree - Sweet Band belay.jpg",
+          "naturalWidth": 1600,
+          "naturalHeight": 1858,
+          "contentType": "image/jpeg",
+          "sourceType": "wikidata-commons",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Joshua_Tree_-_Sweet_Band_belay.jpg",
+          "identityScore": 0
+        }
+      ]
+    }
+  ]
+}

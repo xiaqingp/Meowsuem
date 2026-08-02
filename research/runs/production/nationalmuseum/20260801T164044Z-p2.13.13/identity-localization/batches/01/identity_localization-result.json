@@ -1,0 +1,44 @@
+{
+    "runId":  "20260801T164044Z-p2.13.13",
+    "stage":  "identity_localization",
+    "museumId":  "nationalmuseum",
+    "caseId":  "",
+    "workId":  "",
+    "pipelineVersion":  "2.13.23",
+    "instructionVersion":  "2.4.2",
+    "model":  "gpt-5.6-luna",
+    "reasoningEffort":  "medium",
+    "runnerStartedAt":  "2026-08-01T11:12:59.5921689-07:00",
+    "modelStartedAt":  "2026-08-01T11:12:59.8564916-07:00",
+    "modelCompletedAt":  "2026-08-01T11:13:32.6611701-07:00",
+    "completedAt":  "2026-08-01T11:13:32.6900782-07:00",
+    "runnerDurationMs":  33098,
+    "modelDurationMs":  32805,
+    "tokenUsage":  {
+                       "total":  17239,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+
+                                ],
+    "logPath":  "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/identity-localization/batches/01/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/pipeline/prompts/identity-localization.md",
+                       "role":  "stage_prompt",
+                       "sha256":  "cf3a06e0311468a3513b689c792285693ab29ce4a2deee952639e75209809da4"
+                   },
+                   {
+                       "path":  "research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/identity-localization/batches/01/localization-input.json",
+                       "role":  "localization_input",
+                       "sha256":  "39c49c2a3c70e8044b35ea8397f1d2ec6208d2f0978e530a6db612abf5883e0e"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "localization-output.json",
+                        "sha256":  "cf21cebcb885bfa4e44966fa2f8219b44f2e4e8311a14ca2b70c2661bf5f07ea",
+                        "bytes":  2554
+                    }
+                ]
+}

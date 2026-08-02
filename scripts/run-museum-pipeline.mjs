@@ -3,19 +3,24 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import {spawn} from "node:child_process";
 import {fileURLToPath} from "node:url";
-import {loadManifest, resolveCanonicalRun, transitionRunStatus} from "./lib/filesystem-contract.mjs";
+import {authorizePipelineContinuation, loadManifest, resolveCanonicalRun, transitionRunStatus} from "./lib/filesystem-contract.mjs";
 import {atomicJson, writeWorkStatus} from "./lib/work-status.mjs";
 import {prepareOneShotWorkInputs} from "./prepare-one-shot-work-inputs.mjs";
 import {prepareMuseumPublicationPlan} from "./prepare-museum-publication-plan.mjs";
 import {verifyOneShotWork, snapshotProtectedPaths} from "./verify-one-shot-work.mjs";
 import {adaptOneShotWork} from "./adapt-one-shot-work.mjs";
+import {validateCandidatePool} from "./lib/candidate-pool-contract.mjs";
+import {assertVerifiedImageEvidence} from "./lib/verified-image-evidence-contract.mjs";
+import {checkPipelineReadiness} from "./check-pipeline-readiness.mjs";
 
 const stages = ["museum_scope","museum_discovery","planning_research","museum_selection","rating","museum_structure","image_evidence","locked_metadata","single_work","publication_plan","assembly_publish_dry_run","generation_report"];
+const allowedArgs = new Set(["project-root","kind","museum","case","run-id","museum-name","city","country","official-collection-url","continue-from","until","only-work","retry-failed","dry-run","mock"]);
 const parseArgs = argv => {
   const values = {};
   for (const arg of argv) {
-    if (!arg.startsWith("--")) continue;
+    if (!arg.startsWith("--")) throw new Error(`unexpected positional argument: ${arg}`);
     const [key, ...rest] = arg.slice(2).split("=");
+    if (!allowedArgs.has(key)) throw new Error(`unknown option: --${key}`);
     values[key] = rest.length ? rest.join("=") : true;
   }
   return values;
@@ -30,6 +35,13 @@ const runCommand = (command, args, cwd) => new Promise((resolve, reject) => {
 const rel = (root, file) => path.relative(root, file).replaceAll("\\", "/");
 export const shouldReuseCompletedStage = ({stage, doneExists, mock, retryFailed}) =>
   doneExists && !mock && !(stage === "single_work" && retryFailed);
+export const continuationReuseStatus = ({stage, continueFrom, doneExists}) => {
+  if (!continueFrom || stages.indexOf(stage) >= stages.indexOf(continueFrom)) return null;
+  if (!doneExists) {
+    throw new Error(`${stage} is missing before --continue-from=${continueFrom}; full rerun requires owner approval`);
+  }
+  return "reused_before_continuation";
+};
 
 async function acceptMockSingleWork({projectRoot,runRoot,descriptor,manifest,workId}) {
   const museumId=descriptor.museumId??descriptor.targetMuseumId;
@@ -85,9 +97,25 @@ export async function runMuseumPipeline(argv = process.argv.slice(2)) {
   const args = parseArgs(argv);
   const projectRoot = path.resolve(args["project-root"] ?? path.resolve(path.dirname(fileURLToPath(import.meta.url)), ".."));
   const manifest = await loadManifest(projectRoot);
+  const mock = Boolean(args.mock);
+  const dryRun = Boolean(args["dry-run"]);
   const runKind=String(args.kind??"production");
   if(!["production","experiment","regression"].includes(runKind)) throw new Error(`unsupported --kind: ${runKind}`);
+  if (!args["run-id"]) throw new Error("--run-id is required");
+  if (runKind === "production" && !args.museum) throw new Error("--museum is required for production runs");
   if(runKind!=="production"&&!args.case) throw new Error(`--case is required for ${runKind} runs`);
+  if (!mock && !dryRun) {
+    const readiness = await checkPipelineReadiness({projectRoot, mode: "live"});
+    if (readiness.status !== "passed") throw new Error(`pipeline readiness failed:\n- ${readiness.failures.join("\n- ")}`);
+  }
+  const continueFrom = args["continue-from"];
+  if (continueFrom && !stages.includes(continueFrom)) throw new Error(`unknown --continue-from stage: ${continueFrom}`);
+  if (continueFrom) {
+    await authorizePipelineContinuation({
+      projectRoot, manifest, runKind, museumId: args.museum, caseId: args.case,
+      runId: args["run-id"], fromStage: continueFrom,
+    });
+  }
   const {runRoot, descriptor} = await resolveCanonicalRun({
     projectRoot, manifest, runKind, museumId:args.museum,caseId:args.case,runId: args["run-id"], writable: true,
   });
@@ -95,20 +123,22 @@ export async function runMuseumPipeline(argv = process.argv.slice(2)) {
   if(!museumId) throw new Error("run descriptor is missing museumId/targetMuseumId");
   const identityArgs=[`--kind=${runKind}`,runKind==="production"?`--museum=${museumId}`:`--case=${descriptor.caseId}`,`--run-id=${descriptor.runId}`];
   if (descriptor.contentContract !== "one_shot_v1") throw new Error("orchestrator requires contentContract=one_shot_v1");
-  if (descriptor.status === "created") await transitionRunStatus({projectRoot, runRoot, manifest, nextStatus: "running", timestamp: new Date()});
   const until = args.until ?? stages.at(-1);
   if (!stages.includes(until)) throw new Error(`unknown --until stage: ${until}`);
-  const mock = Boolean(args.mock);
+  if (!dryRun && descriptor.status === "created") await transitionRunStatus({projectRoot, runRoot, manifest, nextStatus: "running", timestamp: new Date()});
   const instruction = path.join(projectRoot, manifest.canonicalInstruction);
   const prompt = name => path.join(projectRoot, "research", "pipeline", "prompts", name);
   const executeStage = async (name, done, action) => {
+    const doneExists = await exists(done);
+    const continuationStatus = continuationReuseStatus({stage: name, continueFrom, doneExists});
+    if (continuationStatus) return {stage: name, status: continuationStatus};
     if (shouldReuseCompletedStage({
       stage: name,
-      doneExists: await exists(done),
+      doneExists,
       mock,
       retryFailed: Boolean(args["retry-failed"]),
-    })) return {stage: name, status: "already_complete"};
-    if (args["dry-run"]) return {stage: name, status: "would_run"};
+    }) && name !== continueFrom) return {stage: name, status: "already_complete"};
+    if (dryRun) return {stage: name, status: "would_run"};
     await action();
     if (!(await exists(done))) throw new Error(`${name} did not create ${rel(runRoot, done)}`);
     return {stage: name, status: "completed"};
@@ -140,6 +170,7 @@ export async function runMuseumPipeline(argv = process.argv.slice(2)) {
           inputs:[{path:instruction,role:"content_instruction"},{path:path.join(runRoot,"scope","scope.json"),role:"museum_scope"},{path:prompt("museum-discovery.md"),role:"stage_prompt"}],
           outputs:["candidate-pool.json"],mock});
         const discovered=JSON.parse(await fs.readFile(path.join(runRoot,"candidate-pool","candidate-pool.json"),"utf8"));
+        validateCandidatePool(discovered);
         for(const record of discovered.candidates??[]) await writeWorkStatus(runRoot,record.workId??record.id,{status:"identity_ready",lastStage:"museum_discovery"});
       }));
     } else if (stage === "planning_research") {
@@ -224,6 +255,9 @@ export async function runMuseumPipeline(argv = process.argv.slice(2)) {
           if (!resolver) throw new Error("manifest is missing canonicalImageEvidenceResolver");
           await runCommand(process.execPath,[resolver,...identityArgs,"--allow-model",...(args["only-work"]?[`--only-work=${args["only-work"]}`]:[])],projectRoot);
         }
+        const evidence = JSON.parse(await fs.readFile(path.join(runRoot,"image-evidence","verified-image-evidence.json"),"utf8"));
+        assertVerifiedImageEvidence(evidence);
+        if (evidence.museumId !== museumId) throw new Error("verified image evidence museum mismatch");
       }));
     } else if (stage === "locked_metadata") {
       results.push(await executeStage(stage,path.join(runRoot,"reports","locked-metadata-report.json"),async()=>{
@@ -269,8 +303,8 @@ export async function runMuseumPipeline(argv = process.argv.slice(2)) {
     }
     if (stage === until) break;
   }
-  const report={schemaVersion:1,runId:descriptor.runId,runKind,museumId,caseId:descriptor.caseId??null,until,results};
-  await atomicJson(path.join(runRoot,"reports","orchestrator-result.json"),report);
+  const report={schemaVersion:1,runId:descriptor.runId,runKind,museumId,caseId:descriptor.caseId??null,until,dryRun,results};
+  if (!dryRun) await atomicJson(path.join(runRoot,"reports","orchestrator-result.json"),report);
   return report;
 }
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

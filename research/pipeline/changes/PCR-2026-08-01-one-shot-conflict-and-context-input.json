@@ -1,0 +1,35 @@
+{
+  "id": "PCR-2026-08-01-one-shot-conflict-and-context-input",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-01",
+  "ownerInstruction": "用最新 pipeline 生成并发布 Rosenborg Castle；首轮单件生成暴露 upstreamConflicts prompt 字段缺失与 context image 输入枚举错位，允许修复后只重跑失败作品。",
+  "baseRelease": "research/pipeline/releases/v2.13.38.json",
+  "targetVersion": "2.13.39",
+  "implementationStatus": "completed",
+  "scope": [
+    "state every required upstreamConflicts field and forbid unsupported synonyms in the one-shot prompt",
+    "map context_image_accepted to the legal single-work object_image policy without changing source evidence status",
+    "regenerate locked metadata and retry only failed Rosenborg works"
+  ],
+  "outOfScope": [
+    "weakening source or high-risk claim verification",
+    "changing accepted one-shot outputs",
+    "changing selection, rating, structure, or image evidence"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "research/pipeline/prompts/single-work-one-shot.md",
+    "scripts/prepare-one-shot-work-inputs.mjs"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/test-image-resolution-v2.mjs",
+      "node scripts/test-one-shot-work.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=mock",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+    "runId":  "20260801T223003Z-p2.13.34",
+    "stage":  "compact_planning_research",
+    "museumId":  "rosenborg",
+    "caseId":  "",
+    "workId":  "",
+    "pipelineVersion":  "2.13.34",
+    "instructionVersion":  "2.4.2",
+    "model":  "gpt-5.6-luna",
+    "reasoningEffort":  "high",
+    "runnerStartedAt":  "2026-08-01T15:44:00.7263455-07:00",
+    "modelStartedAt":  "2026-08-01T15:44:00.9836551-07:00",
+    "modelCompletedAt":  "2026-08-01T15:46:36.6379234-07:00",
+    "completedAt":  "2026-08-01T15:46:36.6612811-07:00",
+    "runnerDurationMs":  155935,
+    "modelDurationMs":  155654,
+    "tokenUsage":  {
+                       "total":  69516,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "5",
+                                    "9",
+                                    "12",
+                                    "13"
+                                ],
+    "logPath":  "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/research/batches/compact-03/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "e2d6e331f53fb1d7c4b078c0aabc1b03548e4d4504ea218d1a08e09929adc2cc"
+                   },
+                   {
+                       "path":  "research/pipeline/prompts/planning-research.md",
+                       "role":  "stage_prompt",
+                       "sha256":  "f82cdd4578690962ec8167ca664ae8c6945687c4e2c55a466925391f20feb97a"
+                   },
+                   {
+                       "path":  "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/research/batches/compact-03/candidate-packet.json",
+                       "role":  "candidate_packet",
+                       "sha256":  "7faa38a51dffbf91feab9fc74c27f100b261ac0bcbea8773aac8577e7aa361f6"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "compact-planning-evidence.json",
+                        "sha256":  "296d07d0b03637b38cf0235b013900cf06dfcb279cd124f03fc4f184db350792",
+                        "bytes":  12726
+                    }
+                ]
+}

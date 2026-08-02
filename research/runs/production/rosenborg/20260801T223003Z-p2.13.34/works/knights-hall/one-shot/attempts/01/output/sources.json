@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "knights-hall",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Knights’ Hall (room 21)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "production_process",
+        "historical_event",
+        "significance",
+        "availability"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Rosenborg Castle",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/",
+      "sourceType": "museum",
+      "usedFor": [
+        "date",
+        "collectionRelation",
+        "historical_event",
+        "significance"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Halls and rooms at Rosenborg Castle",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "collectionRelation",
+        "display"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "The Treasury’s 1st section (room G)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-g-the-treasury/",
+      "sourceType": "museum",
+      "usedFor": [
+        "historical_event",
+        "significance"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Opening hours for Rosenborg Castle",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/plan-your-visit/opening-hours/",
+      "sourceType": "museum",
+      "usedFor": [
+        "availability"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "骑士大厅于1624年完成，原为舞厅，最初称为“长厅”。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "大厅中的12幅挂毯描绘克里斯蒂安五世在1675至1679年斯堪尼亚战争中的胜利，并于1999年返回Rosenborg。",
+      "type": "other",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "claim": "大厅中的国王王座实际由独角鲸牙制成，并非独角兽角。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "骑士大厅天花板上的王冠、宝球、宝剑与权杖图像由亨德里克·克罗克创作。",
+      "type": "attribution",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "availability",
+      "statement": "Rosenborg官网提醒开放时间会因季节和节假日调整，出发前应查看当周信息。"
+    }
+  ],
+  "upstreamConflicts": []
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "status": "accepted",
+  "runId": "20260801T223003Z-p2.13.34",
+  "museumId": "rosenborg",
+  "workId": "ampulla",
+  "stage": "single_work",
+  "attempt": 2,
+  "model": "gpt-5.6-luna",
+  "reasoningEffort": "high",
+  "startedAt": "2026-08-02T00:00:13.282Z",
+  "completedAt": "2026-08-02T00:01:45.346Z",
+  "durationMs": 92064,
+  "inputTokens": 96359,
+  "cachedInputTokens": 40448,
+  "reasoningTokens": 2473,
+  "outputTokens": 4668,
+  "totalTokens": 101027,
+  "agentRunCount": 1,
+  "modelRoundCount": 1,
+  "webSearchCount": 3,
+  "webOpenCount": 0
+}

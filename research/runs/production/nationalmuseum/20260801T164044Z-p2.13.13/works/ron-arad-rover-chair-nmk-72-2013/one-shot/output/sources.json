@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "ron-arad-rover-chair-nmk-72-2013",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Easy chair “Rover Chair”",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/151064/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "dimensions",
+        "productionProcess",
+        "acquisition",
+        "availability",
+        "collectionRelation"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Ron Arad. Rover Chair. 1981",
+      "publisher": "The Museum of Modern Art",
+      "url": "https://www.moma.org/collection/works/126043",
+      "sourceType": "museum",
+      "usedFor": [
+        "material",
+        "manufacturer",
+        "construction",
+        "designContext"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Ron Arad: Yes to the Uncommon!",
+      "publisher": "Vitra Design Museum",
+      "url": "https://www.design-museum.de/en/exhibitions/detailpages/ron-arad-yes-to-the-uncommon.html?cHash=bc831511723e53842bd50c85bfcaa27d&desktop=1%255C%255C",
+      "sourceType": "museum",
+      "usedFor": [
+        "designContext",
+        "productionProcess",
+        "artistCareerContext",
+        "readymadeContext"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [],
+  "upstreamConflicts": []
+}

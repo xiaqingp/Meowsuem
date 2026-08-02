@@ -1,0 +1,34 @@
+{
+  "id": "PCR-2026-08-01-image-status-contract",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-01",
+  "ownerInstruction": "只修复图片生成阶段，不需要重跑整个 pipeline；如果必须重跑，先停下来征得批准。",
+  "baseRelease": "research/pipeline/releases/v2.13.21.json",
+  "targetVersion": "2.13.22",
+  "implementationStatus": "completed",
+  "scope": [
+    "align locked metadata input acceptance with verified image evidence schema statuses",
+    "retain legacy accepted status compatibility",
+    "continue rejecting unresolved image evidence"
+  ],
+  "outOfScope": [
+    "weakening image evidence gates",
+    "rerunning upstream stages",
+    "publishing unresolved images"
+  ],
+  "allowedCanonicalFiles": [
+    "scripts/prepare-one-shot-work-inputs.mjs"
+  ],
+  "verification": {
+    "status": "passed",
+    "record": "scripts/test-image-resolution-v2.mjs",
+    "commands": [
+      "node scripts/test-image-resolution-v2.mjs",
+      "node --check scripts/prepare-one-shot-work-inputs.mjs",
+      "node scripts/verify-content-pipeline.mjs",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

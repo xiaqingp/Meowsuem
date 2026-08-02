@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "museumId": "nationalmuseum",
+  "works": [
+    {
+      "workId": "renoir-young-parisian-nm1757",
+      "identityStatus": "stable",
+      "availability": "on_display",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "以肖像形式补足馆内法国现代绘画从公共场景到人物观察的线索；官方将其归入 Portrait，并标示为约1875年、Renoir、油画布作品。",
+      "selectionSignals": [
+        "Renoir 署名与 NM 1757 身份由官方对象页确认",
+        "官方对象页标示当前在展",
+        "可作为印象派人物观察与同批 Renoir 社会场景之间的对照"
+      ],
+      "sectionSignals": [
+        "1870–1900 年法国绘画",
+        "肖像与人物观察",
+        "主馆绘画收藏"
+      ],
+      "routeSignals": [
+        "官方对象页标示 Room 1434 1870-1900",
+        "适合与同室 Cézanne Landscape 连接观看"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/18761/"
+      ]
+    },
+    {
+      "workId": "renoir-mother-antonys-tavern-nm2544",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "通过枫丹白露森林中的酒馆场景，呈现Renoir所画的Marlotte艺术家社群、现代生活和印象派自我推广；官方说明还指出画中有Sisley、报纸与墙面绘画等社会线索。",
+      "selectionSignals": [
+        "NM 2544、Renoir、1866、油画布身份由官方对象页确认",
+        "官方对象页明确标示当前不在展",
+        "现代生活、艺术家社群和性别缺席等线索可扩展印象派社会观看"
+      ],
+      "sectionSignals": [
+        "1860年代法国现代生活绘画",
+        "艺术家社群与公共室内空间",
+        "印象派形成前后的社会观看"
+      ],
+      "routeSignals": [
+        "适合作为主馆法国绘画线的展出状态待核验补充",
+        "与Renoir Young Parisian形成社群场景／人物肖像对照"
+      ],
+      "riskFlags": [
+        "display_rotation"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/19605/"
+      ]
+    },
+    {
+      "workId": "degas-woman-drying-herself-nmh502-1921",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "以Degas的单版画和身体题材，把印象派候选从油画扩展到版画媒介；官方对象页确认其为《Woman drying herself》、Monotype on paper，并归入版画收藏。",
+      "selectionSignals": [
+        "NMH 502/1921、Degas、单版画身份由官方对象页确认",
+        "官方对象页明确标示当前不在展",
+        "媒介转换和身体题材为主馆印象派线提供版画补充"
+      ],
+      "sectionSignals": [
+        "法国版画与素描",
+        "单版画技术",
+        "印象派身体题材"
+      ],
+      "routeSignals": [
+        "图像类藏品需按图像部门或预约／轮换信息核验",
+        "不应作为常规现场路线的确定停留点"
+      ],
+      "riskFlags": [
+        "appointment_limited_graphics",
+        "display_rotation"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/69010/"
+      ]
+    },
+    {
+      "workId": "cezanne-landscape-nm1999",
+      "identityStatus": "stable",
+      "availability": "on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "官方将这件Oise河谷风景定义为Cézanne典型的构图方式：以树干和枝叶框住远景，并强调他对画面建筑性结构的兴趣及其对20世纪初立体主义的影响。",
+      "selectionSignals": [
+        "NM 1999、Cézanne、油画布身份由官方对象页确认",
+        "官方对象页标示当前在展",
+        "官方说明同时提供典型构图与通向立体主义的艺术史信号"
+      ],
+      "sectionSignals": [
+        "1870–1900 年法国绘画",
+        "印象派与结构化风景",
+        "现代绘画的构图转向"
+      ],
+      "routeSignals": [
+        "官方对象页标示 Room 1434 东侧展厅",
+        "适合与同室 Renoir Young Parisian组成印象派内部差异对照"
+      ],
+      "riskFlags": [
+        "display_rotation"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/sv/collection/item/19003/"
+      ]
+    },
+    {
+      "workId": "zorn-midsummer-dance-nm1603",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "以仲夏夜舞蹈和夜间光线把Zorn迁居达拉纳后的地方传统、国家浪漫主义和个人参与连接起来；官方说明还记录了画家关于五月柱、午夜起舞和直至日出的自述。",
+      "selectionSignals": [
+        "NM 1603、Zorn、1897、油画布身份由官方对象页确认",
+        "官方对象页提供艺术家自述、达拉纳传统和夜间光线的直接研究线索",
+        "可支撑馆内瑞典艺术主线的民俗与现代绘画节点"
+      ],
+      "sectionSignals": [
+        "19世纪末瑞典绘画",
+        "达拉纳民俗与国家浪漫主义",
+        "夜景与光线"
+      ],
+      "routeSignals": [
+        "官方对象页当前标示不在展，路线需保留替代方案",
+        "可与Zorn Our Daily Bread及Bruno Liljefors肖像构成作者线索"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/18607/"
+      ]
+    },
+    {
+      "workId": "zorn-our-daily-bread-nmb184",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "把馆方鼓励的‘爱国’题目转化为达拉纳家庭记忆：Zorn借鉴法国自然主义的写实方式，使用亲属作模特，并让他们穿着旧式服装以营造童年记忆中的氛围。",
+      "selectionSignals": [
+        "NMB 184、Zorn、1886、水彩身份由官方对象页确认",
+        "官方对象页明确记录国家主题委托背景、法国自然主义影响和亲属模特",
+        "补足瑞典艺术收藏中的制度委托、媒介与地方身份关系"
+      ],
+      "sectionSignals": [
+        "19世纪末瑞典绘画与水彩",
+        "国家主题与地方记忆",
+        "法国自然主义的跨国影响"
+      ],
+      "routeSignals": [
+        "官方对象页当前标示不在展",
+        "与Midsummer Dance形成瑞典传统的节庆场景／家庭记忆对照"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/sv/collection/item/24125/"
+      ]
+    },
+    {
+      "workId": "zorn-painter-bruno-liljefors-nm1640",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "这件Zorn肖像把被画者Bruno Liljefors置于冬季风景中，并借用其动物画式的隐匿关系；官方说明同时把它连接到Larsson、Zorn和Liljefors之间的瑞典艺术家网络。",
+      "selectionSignals": [
+        "NM 1640、Zorn、1906、Liljefors肖像身份由官方对象页确认",
+        "官方对象页记录人物、冬景、遮蔽和艺术家网络线索",
+        "为瑞典艺术主线提供艺术家之间的关系节点"
+      ],
+      "sectionSignals": [
+        "世纪之交瑞典肖像",
+        "艺术家网络与互相观看",
+        "肖像与风景的结合"
+      ],
+      "routeSignals": [
+        "官方对象页当前标示不在展",
+        "可作为Zorn作者线与Carl Larsson／Liljefors关系的补充，不作为确定现场停留点"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/18644/"
+      ]
+    },
+    {
+      "workId": "carl-larsson-swedish-fairy-tale-nm6840b",
+      "identityStatus": "stable",
+      "availability": "on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "通过油画与雕刻木质浮雕的组合，呈现Larsson对挪威民间故事的改编和跨媒介构成；官方将其称为由两幅油画与镀金木浮雕组成的三联画，并确认本件为其中一部分。",
+      "selectionSignals": [
+        "NM 6840b、Larsson、1897、多部分作品身份由官方对象页确认",
+        "官方对象页明确标示当前在展并列出 Room 1413",
+        "绘画、木雕和童话叙事的组合补足世纪之交瑞典艺术的跨媒介线索"
+      ],
+      "sectionSignals": [
+        "世纪之交瑞典艺术",
+        "民间故事与儿童题材",
+        "绘画、浮雕与三联画构成"
+      ],
+      "routeSignals": [
+        "官方对象页标示 Room 1413 Turn of the 20th Century",
+        "现场路线必须按完整构成和父项关系理解，不能把NM 6840b当作独立单幅画处理"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/36656/"
+      ]
+    },
+    {
+      "workId": "carl-larsson-kitchen-nmb270",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "作为Carl Larsson《一个家》26幅水彩系列中的一件，它把主馆世纪之交瑞典艺术线延伸到家庭室内和水彩媒介；系列归属与对象身份由官方题名和馆藏记录确认。",
+      "selectionSignals": [
+        "NMB 270、Larsson、水彩纸本身份由官方对象页确认",
+        "官方对象页明确标示当前不在展",
+        "《一个家》系列和家庭室内题材补足Larsson的日常生活收藏线"
+      ],
+      "sectionSignals": [
+        "世纪之交瑞典家庭图像",
+        "水彩与室内生活",
+        "《一个家》系列"
+      ],
+      "routeSignals": [
+        "官方对象页当前标示不在展，不能作为确定现场停留点",
+        "如以Larsson为主题，可与在展的A Swedish Fairy Tale作媒介与题材对照"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/24211/"
+      ]
+    },
+    {
+      "workId": "carl-larsson-convalescence-nmb505",
+      "identityStatus": "stable",
+      "availability": "not_on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "把Carl Larsson家庭图像中的疾病经验与19世纪女性病榻图像传统连接起来：官方说明确认Karin Larsson在1899年肺炎后被画在斯德哥尔摩家中，并指出时代艺术与文学常把女性表现为脆弱而非主动。",
+      "selectionSignals": [
+        "NMB 505、Larsson、1899、水彩纸本身份由官方对象页确认",
+        "官方对象页明确标示当前不在展",
+        "家庭私密空间、身体经验和性别表现传统形成明确社会史价值"
+      ],
+      "sectionSignals": [
+        "世纪之交瑞典家庭图像",
+        "疾病、休养与身体观看",
+        "女性形象的社会与艺术传统"
+      ],
+      "routeSignals": [
+        "官方对象页当前标示不在展，需标记展出状态待核验",
+        "可作为Larsson家庭题材中从日常室内到身体脆弱性的补充节点"
+      ],
+      "riskFlags": [
+        "display_rotation"
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/sv/collection/item/24445/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "stage": "image_evidence_retry",
+  "runId": "20260801T231743Z-p2.13.35",
+  "runRoot": "research/runs/experiment/rosenborg-image-repair-02/20260801T231743Z-p2.13.35",
+  "parentRunRoot": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35",
+  "parentEvidenceSha256": "a1fffe95f8254ace77079d2698f020fc3ce0bb2f2ea73075a0b97744f8c97fad",
+  "failedWorksRetried": [
+    {
+      "workId": "rose-cut-diamond-set",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "No candidate is identity-bound to the Rose-Cut Diamond Set; supplied images are unrelated collection or biographical links."
+      ],
+      "sourcePageUrl": null
+    }
+  ],
+  "newlyAccepted": [],
+  "stillUnresolved": [
+    {
+      "workId": "rose-cut-diamond-set",
+      "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/",
+      "warnings": [
+        "All enumerated candidates are related-object or portrait images and none is identity-bound to The Rose-Cut Diamond Set."
+      ]
+    }
+  ],
+  "counts": {
+    "works": 20,
+    "previousAcceptedPreserved": 19,
+    "retried": 1,
+    "newlyAccepted": 0,
+    "directImageDownloads": 0,
+    "elementCaptures": 0,
+    "objectImageAccepted": 17,
+    "contextImagesAccepted": 2,
+    "unresolved": 1,
+    "duplicateObjectImageGroups": [],
+    "modelCalls": 1,
+    "modelTokens": 16120,
+    "webSearchCount": 0
+  },
+  "model": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium",
+    "calls": 1,
+    "durationMs": 9031,
+    "tokens": {
+      "total": 16120,
+      "source": "codex_cli_log"
+    },
+    "webSearchCount": 0
+  },
+  "guarantees": {
+    "acceptedWorksNotRerun": [
+      "pearl-ruby-set",
+      "christian-iv-crown",
+      "brilliant-cut-diamond-set",
+      "christian-v-crown",
+      "emerald-set",
+      "ampulla",
+      "coronation-sword",
+      "christian-iv-blood-stained-clothes",
+      "narwhal-throne",
+      "shrapnel-earrings",
+      "christian-iii-sword-of-state",
+      "oldenborg-horn",
+      "silver-lions",
+      "pomander",
+      "constitution-pen",
+      "knights-hall",
+      "glass-cabinet",
+      "wetting-trap-chair",
+      "rosenborg-wine"
+    ],
+    "nonImageStagesRun": [],
+    "imageGenerationModelUsed": false,
+    "parentRunModified": false,
+    "assemblyNetworkAccess": false,
+    "productionModified": false
+  }
+}

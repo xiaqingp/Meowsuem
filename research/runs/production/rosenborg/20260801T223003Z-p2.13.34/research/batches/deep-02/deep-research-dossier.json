@@ -1,0 +1,426 @@
+{
+  "schemaVersion": 1,
+  "museumId": "rosenborg",
+  "researchDate": "2026-08-01",
+  "works": [
+    {
+      "workId": "coronation-sword",
+      "identityStatus": "stable",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-coronation-sword/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-coronation-sword/",
+      "availability": "confirmed_on_display_in_treasury_section_3",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "同一把礼剑从1648年的加冕礼器转为1661年后绝对王权的受膏礼器，剑鞘纹章后来仍随王国版图更新。",
+      "selectionSignals": [
+        "1643年制，1648年弗雷德里克三世加冕时进入丹麦王权礼器体系。",
+        "绝对君主制建立后不再用于加冕而用于受膏，适合与克里斯蒂安三世国剑形成制度变化对照。",
+        "馆方现行Treasury Section 3页把编号5540列入室内对象，并将加冕剑列为该室王权礼器。"
+      ],
+      "sectionSignals": ["王权礼仪与制度转换", "王冠与王权礼器"],
+      "routeSignals": ["地下Treasury Section 3核心停留点", "可与Treasury Section 1的克里斯蒂安三世国剑前后对读"],
+      "riskFlags": [],
+      "originalRiskFlags": ["current_display_status"],
+      "riskResolution": {
+        "current_display_status": {
+          "status": "resolved_confirmed_on_display",
+          "evidence": "馆方现行Treasury Section 3页说明该室可见王权礼器，并在室内清单中列出编号5540的Anointing Rapier/Coronation Sword。",
+          "sourceUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-i-the-treasury/",
+          "boundary": "确认常设展厅陈列，不保证特定访问日不存在临时关闭或借展。"
+        }
+      },
+      "deepEvidence": [
+        {
+          "claim": "剑制于1643年；1648年为弗雷德里克三世加冕制作剑鞘，剑柄密镶钻石并饰珐琅花卉。",
+          "confidence": "high",
+          "sourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-coronation-sword/"
+        },
+        {
+          "claim": "绝对君主制建立后，该剑只用于受膏礼；1840年剑鞘增添劳恩堡纹章，但未移除1814年后已不属丹麦的挪威纹章。",
+          "confidence": "high",
+          "sourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-coronation-sword/"
+        }
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-coronation-sword/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-i-the-treasury/"
+      ]
+    },
+    {
+      "workId": "christian-iii-sword-of-state",
+      "identityStatus": "stable",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/chr-iii-s-sword-of-state/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/chr-iii-s-sword-of-state/",
+      "availability": "confirmed_on_display_in_treasury_section_1",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "这把1551年国剑保存了1661年前选举君主加冕礼中，国王接剑、拔剑并朝四方指剑的仪式环节。",
+      "selectionSignals": [
+        "1551年由克里斯蒂安三世委制，1559年首次用于弗雷德里克二世加冕，1648年最后一次使用。",
+        "馆方将朝四方指剑解释为君主保卫王国的仪式表达。",
+        "与加冕剑并选时能清楚区分1661年前的加冕和此后的受膏。"
+      ],
+      "sectionSignals": ["王权礼仪与制度转换", "宗教加冕的动作与器物"],
+      "routeSignals": ["Treasury Section 1入口正面核心对象", "适合作为王权礼器路线的起点"],
+      "riskFlags": [],
+      "originalRiskFlags": ["current_display_status"],
+      "riskResolution": {
+        "current_display_status": {
+          "status": "resolved_confirmed_on_display",
+          "evidence": "对象页明确写明今日陈列于Rosenborg地下Treasury；现行Section 1展厅页亦称入室正面可见该剑。",
+          "sourceUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-g-the-treasury/",
+          "boundary": "确认常设展厅陈列，不保证特定访问日不存在临时关闭。"
+        }
+      },
+      "deepEvidence": [
+        {
+          "claim": "国剑超过一米，需双手持握；剑柄与剑鞘为鎏金银，饰钻石和珐琅丹麦纹章。",
+          "confidence": "high",
+          "sourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/chr-iii-s-sword-of-state/"
+        },
+        {
+          "claim": "绝对君主制和世袭君主制建立后，加冕礼停止，新王仍以圣油受膏。",
+          "confidence": "high",
+          "sourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/chr-iii-s-sword-of-state/"
+        }
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/chr-iii-s-sword-of-state/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-g-the-treasury/"
+      ]
+    },
+    {
+      "workId": "narwhal-throne",
+      "identityStatus": "stable",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-narwhal-throne/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-narwhal-throne/",
+      "availability": "confirmed_on_display_in_great_hall",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "弗雷德里克三世把《圣经》中所罗门的金与象牙王座改造成镀金金属和独角鲸牙王座，用北方珍材重述公正王权。",
+      "selectionSignals": [
+        "1662至1671年制作，明确以所罗门审判和其十二狮王座为观念来源。",
+        "馆方指出国王知道所谓独角兽角实际是独角鲸牙，不能把材料选择写成误认。",
+        "与银狮共同构成一个在预算与材料条件中被改写的王座计划。"
+      ],
+      "sectionSignals": ["绝对王权的舞台", "圣经范型与北方珍材", "珍奇与政治材料"],
+      "routeSignals": ["Great Hall核心停留点", "必须与三只银狮合看但保持对象身份独立"],
+      "riskFlags": [],
+      "originalRiskFlags": ["current_display_status"],
+      "riskResolution": {
+        "current_display_status": {
+          "status": "resolved_confirmed_on_display",
+          "evidence": "馆方现行Best of Rosenborg导览页明确称路线结束于Great Hall，那里可见绝对君主王座和三只银狮。",
+          "sourceUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/calendar/the-best-of-rosenborg-guided-tour-in-english/",
+          "boundary": "确认当前公开导览所述陈列；访问日仍应核对馆方临时通知。"
+        }
+      },
+      "deepEvidence": [
+        {
+          "claim": "所罗门王座的文本范型是金、象牙、六级台阶与十二只金狮；实际王座并非金制，而用镀金金属像，并以独角鲸牙代象牙。",
+          "confidence": "high",
+          "sourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-narwhal-throne/"
+        },
+        {
+          "claim": "馆方明确说弗雷德里克三世知道‘独角兽角’是独角鲸牙。",
+          "confidence": "high",
+          "sourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-narwhal-throne/"
+        }
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-narwhal-throne/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/calendar/the-best-of-rosenborg-guided-tour-in-english/"
+      ]
+    },
+    {
+      "workId": "silver-lions",
+      "identityStatus": "stable_group_of_three",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/silver-lions/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/silver-lions/",
+      "availability": "confirmed_on_display_in_great_hall",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "现存的三只银狮不是最初十二狮计划的完整实现，而是预算、材料改用和国王去世共同留下的结果，后来又被重新解释为丹麦纹章三狮。",
+      "selectionSignals": [
+        "方案从十二只金狮降为十二只银狮，再折中为六银六铜；弗雷德里克三世去世时仅三只银狮完成。",
+        "原可制作第四只的银被用于国王石棺；六只铜狮是否做成仍不确定。",
+        "三只完成品后来从所罗门十二狮叙事转向丹麦纹章三狮叙事。"
+      ],
+      "sectionSignals": ["绝对王权的舞台", "未完成计划与意义重写"],
+      "routeSignals": ["Great Hall与王座同看", "承担从宏大方案转向物质约束的路线节点"],
+      "riskFlags": [],
+      "originalRiskFlags": ["current_display_status"],
+      "riskResolution": {
+        "current_display_status": {
+          "status": "resolved_confirmed_on_display",
+          "evidence": "馆方现行导览页明确称Great Hall可见王座及用于受膏仪式的三只银狮。",
+          "sourceUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/calendar/the-best-of-rosenborg-guided-tour-in-english/",
+          "boundary": "确认三只银狮作为一组陈列，不把未证实的铜狮计入现存组。"
+        }
+      },
+      "deepEvidence": [
+        {
+          "claim": "十二只狮的原计划未完成；国王1670年去世时只有三只银狮完成。",
+          "confidence": "high",
+          "sourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/silver-lions/"
+        },
+        {
+          "claim": "桥边两只狮可能属于铜狮方案，但馆方明确表示不能确定；不得写成已证实的同组遗存。",
+          "confidence": "high",
+          "sourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/silver-lions/"
+        }
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/silver-lions/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/calendar/the-best-of-rosenborg-guided-tour-in-english/"
+      ]
+    },
+    {
+      "workId": "homage-of-1660",
+      "identityStatus": "stable",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-homage-of-1660/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-homage-of-1660/",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "海姆巴赫把1660年10月18日对首位世袭君主的公开致敬画成政治转折的图像记录，但画中强化王权的象征表达必须与历史过程分开。",
+      "selectionSignals": [
+        "作品连接1657至1660年丹瑞战争后的财政政治危机、世袭君主制提案、1661年绝对世袭君主制法及1665年《王法》。",
+        "画中穿云阳光照向国王是馆方所述的强化新王权之象征，不能当作事件的中性实录。",
+        "画家把自己画在左下角挥帽，为作品与事件现场叙事提供对象专属细节。"
+      ],
+      "sectionSignals": ["1660年的制度转折", "政治图像与历史过程"],
+      "routeSignals": ["若在展，适合置于国剑与绝对王权礼器之间作为制度桥梁", "访问前必须核验位置与可见性"],
+      "riskFlags": ["availability_ambiguity"],
+      "originalRiskFlags": ["current_display_status"],
+      "riskResolution": {
+        "current_display_status": {
+          "status": "unresolved_display_status_unknown",
+          "evidence": "官方对象页确认作品、作者与Rosenborg馆藏语境，但本次检索未见该页或现行展厅页明确声明当前陈列。",
+          "sourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-homage-of-1660/",
+          "boundary": "不得由对象页存在推定当日或常设在展；下游应标记展出状态待核验。"
+        }
+      },
+      "deepEvidence": [
+        {
+          "claim": "画面主题为1660年10月18日哥本哈根城堡前对弗雷德里克三世作为丹麦首位世袭君主的致敬。",
+          "confidence": "high",
+          "sourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-homage-of-1660/"
+        },
+        {
+          "claim": "绝对君主制由1661年1月10日法案建立，权力在1665年Lex Regia中进一步规定；不能把1660年致敬当天简化成全部法律制度一次完成。",
+          "confidence": "high",
+          "sourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-homage-of-1660/"
+        }
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-homage-of-1660/"
+      ]
+    },
+    {
+      "workId": "christian-iv-blood-stained-clothes",
+      "identityStatus": "stable_group",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/christian-ivs-blood-stained-clothes/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/christian-ivs-blood-stained-clothes/",
+      "availability": "confirmed_on_display_in_christian_iv_bedchamber",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "1644年战伤留下的染血衣物既是事件遗物，也是克里斯蒂安四世主动保存、经营身后英雄声誉的纪念物。",
+      "selectionSignals": [
+        "衣物与1644年丹瑞海战、国王眼部等多处弹片伤相连。",
+        "馆方明确说保存决定由国王本人作出，并把它置于其经营身后名声的行为中。",
+        "馆方区分后世眼罩形象与史实边界：无法确认他是否实际佩戴眼罩。"
+      ],
+      "sectionSignals": ["克里斯蒂安四世：身体、战争与记忆", "王室纪念物的自我塑造"],
+      "routeSignals": ["Christian IV’s Bedchamber核心停留点", "可与弹片耳环连续观看"],
+      "riskFlags": [],
+      "originalRiskFlags": ["current_display_status"],
+      "riskResolution": {
+        "current_display_status": {
+          "status": "resolved_confirmed_on_display",
+          "evidence": "官方对象页明确写明染血衣物今日陈列于Rosenborg的Christian IV’s Bedchamber；现行导览页亦将其列为现场观看对象。",
+          "sourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/christian-ivs-blood-stained-clothes/",
+          "boundary": "对象为多件衣物组合；下游不应把单一局部等同于全部组项。"
+        }
+      },
+      "deepEvidence": [
+        {
+          "claim": "馆方列出可见组项包括黑紫色丝绒上衣、染血蕾丝领与袖口。",
+          "confidence": "high",
+          "sourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/christian-ivs-blood-stained-clothes/"
+        },
+        {
+          "claim": "海战结果不分胜负；国王战后取出多块弹片，是否实际戴眼罩未知。",
+          "confidence": "high",
+          "sourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/christian-ivs-blood-stained-clothes/"
+        }
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/christian-ivs-blood-stained-clothes/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/calendar/the-best-of-rosenborg-guided-tour-in-english/"
+      ]
+    },
+    {
+      "workId": "shrapnel-earrings",
+      "identityStatus": "stable_pair",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/shrapnel-earrings/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/shrapnel-earrings/",
+      "availability": "confirmed_on_display_in_christian_iv_bedchamber",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "从国王头部取出的两块战场弹片被制成一对耳环并赠予情妇维贝克·克鲁泽，使战争遗物转成私人关系中的首饰。",
+      "selectionSignals": [
+        "材料来源与克里斯蒂安四世1644年战伤直接相连。",
+        "对象页明确说明两块从头部取出的弹片被做成耳环，赠给相伴十四年的维贝克·克鲁泽。",
+        "与染血衣物同室展出，可比较公共英雄纪念与私人赠礼两种记忆路径。"
+      ],
+      "sectionSignals": ["克里斯蒂安四世：身体、战争与记忆", "战场材料的私人转化"],
+      "routeSignals": ["Christian IV’s Bedchamber与染血衣物合看", "作为小尺度高记忆点对象"],
+      "riskFlags": [],
+      "originalRiskFlags": ["current_display_status"],
+      "riskResolution": {
+        "current_display_status": {
+          "status": "resolved_confirmed_on_display",
+          "evidence": "官方对象页明确称耳环与染血衣物今日同在Christian IV’s Bedchamber展出。",
+          "sourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/shrapnel-earrings/",
+          "boundary": "确认成对对象在展；具体展柜位置仍以现场为准。"
+        }
+      },
+      "deepEvidence": [
+        {
+          "claim": "两块弹片从克里斯蒂安四世头部取出后制成耳环，赠予其相伴十四年的情妇维贝克·克鲁泽。",
+          "confidence": "high",
+          "sourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/shrapnel-earrings/"
+        }
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/shrapnel-earrings/",
+        "https://denkongeligesamling.dk/en/the-collection/objects/christian-ivs-blood-stained-clothes/"
+      ]
+    },
+    {
+      "workId": "oldenborg-horn",
+      "identityStatus": "stable",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-oldenborg-horn/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-oldenborg-horn/",
+      "availability": "confirmed_on_display_in_treasury_section_1",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "约1400年的饮酒角在1663年进入丹麦王冠收藏后，被王室收藏史与受诅咒饮角传说共同包裹，适合区分器物年代、入藏年代和传说层。",
+      "selectionSignals": [
+        "候选锁定身份给出约1400年制作、1663年起归丹麦王冠，两种年代不可混写。",
+        "馆方称其为Rosenborg收藏中的重要饮酒角，并以诅咒传说介绍；传说不应升级为历史事实。",
+        "现行Treasury Section 1页将其与克里斯蒂安三世国剑并列为该室重点。"
+      ],
+      "sectionSignals": ["珍奇柜：物证、家族记忆与传说", "王室收藏的时间叠层"],
+      "routeSignals": ["Treasury Section 1核心对象", "可在国剑之后转入珍奇收藏线"],
+      "riskFlags": [],
+      "originalRiskFlags": ["current_display_status"],
+      "riskResolution": {
+        "current_display_status": {
+          "status": "resolved_confirmed_on_display",
+          "evidence": "馆方现行Treasury Section 1页明确写明该室可见Oldenborg Horn。",
+          "sourceUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-g-the-treasury/",
+          "boundary": "确认展厅陈列；诅咒故事只作为馆方记录的传说处理。"
+        }
+      },
+      "deepEvidence": [
+        {
+          "claim": "对象的物质年代、1663年王冠入藏节点和诅咒传说属于不同证据层，selection与structure不得合并为单一历史事件。",
+          "confidence": "high",
+          "sourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-oldenborg-horn/"
+        }
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-oldenborg-horn/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-g-the-treasury/"
+      ]
+    },
+    {
+      "workId": "snake-head-with-coin",
+      "identityStatus": "stable_object_with_conflicting_provenance_stories",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/snake-s-head-with-coin/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/snake-s-head-with-coin/",
+      "availability": "display_status_unknown",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "干蛇头衔萨尔茨堡古尔登金币的对象身份明确，但馆方保留两种来源故事，核心研究价值在于珍奇柜如何容纳未决来源，而非选定一个传奇版本。",
+      "selectionSignals": [
+        "对象页标题稳定确认干蛇头与口中萨尔茨堡古尔登金币的组合。",
+        "馆方明确并列两种互相竞争的来源故事；其中一种称克里斯蒂安四世在弗雷德里克斯堡附近散步时遗失金币，被蛇衔走。",
+        "适合作为来源不确定性案例，但不可把任一故事写成已证实来历。"
+      ],
+      "sectionSignals": ["珍奇柜：物证、传说与不确定性", "来源故事的竞争版本"],
+      "routeSignals": ["若在展，适合作为珍奇柜路线中的短停留", "访问前必须核验可见性"],
+      "riskFlags": ["availability_ambiguity", "cross_source_synthesis"],
+      "originalRiskFlags": ["current_display_status"],
+      "riskResolution": {
+        "current_display_status": {
+          "status": "unresolved_display_status_unknown",
+          "evidence": "官方对象页确认馆藏对象，但本次馆方对象页与现行展厅检索未取得明确当前陈列声明。",
+          "sourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/snake-s-head-with-coin/",
+          "boundary": "下游必须标记展出状态待核验，不得因其属于Rosenborg收藏而推定在展。"
+        },
+        "provenance_stories": {
+          "status": "resolved_as_competing_unverified_stories",
+          "evidence": "馆方对象页本身保存两个来源版本，未确认其中一个为事实。",
+          "sourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/snake-s-head-with-coin/",
+          "boundary": "两说均只能标为故事或传说。"
+        }
+      },
+      "deepEvidence": [
+        {
+          "claim": "可靠结论仅到对象组合身份及馆方记录两种来源故事；具体来历未决。",
+          "confidence": "high",
+          "sourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/snake-s-head-with-coin/"
+        }
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/snake-s-head-with-coin/"
+      ]
+    },
+    {
+      "workId": "pomander",
+      "identityStatus": "stable",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/pomander/",
+      "officialObjectUrl": "https://denkongeligesamling.dk/en/the-collection/objects/pomander/",
+      "availability": "confirmed_on_display_in_treasury_section_1",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "约1600年的骷髅形香球把可开启的六格香料容器、黄金珐琅珠宝工艺与死亡易逝主题结合在同一件小型随身物中。",
+      "selectionSignals": [
+        "骷髅后部开启后有六个带铭文的小格，馆方列出嗅盐、肉桂、柠檬、墨角兰、玫瑰和丁香。",
+        "黄金、白珐琅、红宝石与珊瑚骷髅链同时支持材料工艺和memento mori主题。",
+        "现行Treasury Section 1清单列出编号5044及其六格香料结构。"
+      ],
+      "sectionSignals": ["珍奇柜：感官、材料与死亡意识", "小尺度可开启器物"],
+      "routeSignals": ["Treasury Section 1细看对象", "在大型国剑与饮酒角之后提供尺度和感官转换"],
+      "riskFlags": [],
+      "originalRiskFlags": ["current_display_status"],
+      "riskResolution": {
+        "current_display_status": {
+          "status": "resolved_confirmed_on_display",
+          "evidence": "对象页明确称香球陈列于Rosenborg地下Treasury；现行Section 1室内清单列出编号5044。",
+          "sourceUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-g-the-treasury/",
+          "boundary": "确认常设展厅清单中的对象，不保证六格在现场一定以开启状态展示。"
+        }
+      },
+      "deepEvidence": [
+        {
+          "claim": "香球为骷髅形黄金与白珐琅器，饰红宝石；内部海绵及六个香料格，年代约1600年。",
+          "confidence": "high",
+          "sourceUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-g-the-treasury/"
+        },
+        {
+          "claim": "链上有四个珊瑚骷髅与两个戴冠女性头像，头像背面亦为骷髅，馆方解释为生命无常。",
+          "confidence": "high",
+          "sourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/pomander/"
+        }
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/pomander/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-g-the-treasury/"
+      ]
+    }
+  ]
+}

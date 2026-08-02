@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "museumId": "nationalmuseum",
+  "works": [
+    {
+      "workId": "sergel-ceres-searching-proserpine-nmsk457",
+      "identityStatus": "stable",
+      "availability": "on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "晚期18世纪瑞典雕塑把古典神话、舞台式幻想与烛台功能合为一体；对象页还记录其受Louis Jean Desprez启发并可能服务于王室环境。",
+      "selectionSignals": [
+        "Johan Tobias Sergel代表性雕塑线索",
+        "神话叙事与装饰性实用功能的结合",
+        "可连接宫廷环境、舞台设计与雕塑收藏"
+      ],
+      "sectionSignals": [
+        "18世纪雕塑",
+        "宫廷与装饰艺术",
+        "古典神话的舞台化转译"
+      ],
+      "routeSignals": [
+        "主馆雕塑路线",
+        "Sergel专题或18世纪艺术段落",
+        "与应用艺术中的功能性对象形成对照"
+      ],
+      "riskFlags": ["availability_ambiguity"],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/26828/"
+      ]
+    },
+    {
+      "workId": "sergel-gustav-ii-adolf-equestrian-model-nmsk450",
+      "identityStatus": "stable",
+      "availability": "on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "纪念古斯塔夫二世·阿道夫的骑马纪念碑模型，把国家人物、公共纪念与雕塑制作过程放在同一对象中；官方对象页同时列出Sergel与Pierre Hubert L'Archevêque。",
+      "selectionSignals": [
+        "国家纪念物模型",
+        "公共雕塑与国家记忆线索",
+        "两位艺术家共同署名带来的合作制作线索"
+      ],
+      "sectionSignals": [
+        "18世纪雕塑与纪念碑",
+        "王权、战争与公共记忆",
+        "从模型理解大型雕塑的构想"
+      ],
+      "routeSignals": [
+        "主馆雕塑路线",
+        "与Sergel及瑞典国家叙事相关的节点",
+        "适合补足绘画之外的公共纪念物线索"
+      ],
+      "riskFlags": ["availability_ambiguity"],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/26821/"
+      ]
+    },
+    {
+      "workId": "beauvais-tapestry-elephant-nmk299a-2016",
+      "identityStatus": "stable",
+      "availability": "on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "1695年由Carl Piper为斯德哥尔摩住宅订制的Beauvais挂毯，把法国制造、瑞典贵族室内、设计通信与后来的跨国流通连接起来；本件是原六件套的一部分。",
+      "selectionSignals": [
+        "有明确委托人、制造地与原始住宅关系",
+        "挂毯与室内整体及配套椅套的成组线索",
+        "可见法国工艺在瑞典精英住宅中的使用与回流收藏史"
+      ],
+      "sectionSignals": [
+        "17世纪纺织与室内装饰",
+        "委托、图样与跨国生产",
+        "成组对象与收藏流转"
+      ],
+      "routeSignals": [
+        "主馆17世纪应用艺术路线",
+        "纺织品节点",
+        "可与家具、建筑室内及收藏史节点串联"
+      ],
+      "riskFlags": ["composite_or_parent_child"],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/209463/",
+        "http://nationalmuseum.diva-portal.org/smash/get/diva2:1168447/FULLTEXT01.pdf"
+      ]
+    },
+    {
+      "workId": "foreign-minister-residence-armchair-nmk110-2013",
+      "identityStatus": "stable",
+      "availability": "on_display",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "这件1830年左右的扶手椅必须放回外交部长官邸家具组理解：原始室内、法国丝绸、金色表面和外交机构迁移共同决定其收藏价值；作者目前为未知，旧归属已被标出。",
+      "selectionSignals": [
+        "外交部长官邸原始使用语境",
+        "NMK 109-115/2013家具组成员关系",
+        "未知作者与前归属Jonas Frisk工坊的归属边界",
+        "保存下来的原始丝绸及机构转藏史"
+      ],
+      "sectionSignals": [
+        "19世纪家具与室内",
+        "制度空间与成组收藏",
+        "归属修订与保存史"
+      ],
+      "routeSignals": [
+        "主馆19世纪应用艺术路线",
+        "适合与同组家具或室内重建并看",
+        "作为制度原境节点而非孤立名作"
+      ],
+      "riskFlags": ["composite_or_parent_child"],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/152510/"
+      ]
+    },
+    {
+      "workId": "mathsson-reclining-chair-36-nmk46-2010",
+      "identityStatus": "stable",
+      "availability": "on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "Bruno Mathsson以身体坐姿的测量把功能主义转成弯曲层压木结构；这件1936年设计、1939年制造的躺椅同时展示人体工学、材料节约与雕塑性外形。",
+      "selectionSignals": [
+        "瑞典现代设计的重要作者节点",
+        "身体测量与家具结构之间的直接关系",
+        "弯曲层压桦木、胶合板和编织带的材料机制"
+      ],
+      "sectionSignals": [
+        "1920—1965现代设计",
+        "功能主义与人体工学",
+        "木材技术与家具造型"
+      ],
+      "routeSignals": [
+        "主馆现代设计路线",
+        "适合与Wegner等北欧家具并看",
+        "可作为材料—身体—功能链条的核心节点"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/134846/"
+      ]
+    },
+    {
+      "workId": "wegner-jh501-armchair-nmk262-1956",
+      "identityStatus": "stable",
+      "availability": "on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "Wegner的JH 501不只是一把木椅：它通过1954—1957年巡回的Design in Scandinavia展览、美国媒体与总统辩论进入北欧设计国际传播和文化外交的历史。",
+      "selectionSignals": [
+        "北欧设计国际传播的具体个案",
+        "设计展览、媒体与政治公共空间的交叉证据",
+        "橡木与藤编构成的经典家具类型"
+      ],
+      "sectionSignals": [
+        "1920—1965现代设计",
+        "北欧设计与文化外交",
+        "家具的媒体传播"
+      ],
+      "routeSignals": [
+        "主馆现代设计路线",
+        "与Mathsson形成身体与国际传播的双节点",
+        "适合连接设计史与冷战时期公共文化交流"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/10057/"
+      ]
+    },
+    {
+      "workId": "bohlin-concrete-armchair-nmk311-1984",
+      "identityStatus": "stable",
+      "availability": "on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "Jonas Bohlin的Concrete故意把椅子的功能标准推到冲突处：混凝土与管状钢、难移动且非量产的形态，把椅子变成关于观看、使用与限量设计的观念对象。",
+      "selectionSignals": [
+        "瑞典当代设计中功能标准受到挑战的案例",
+        "材料与使用方式的明确矛盾",
+        "官方资料记录为100件编号限量生产"
+      ],
+      "sectionSignals": [
+        "1965年至今的设计",
+        "后现代设计与功能争议",
+        "限量生产与设计对象化"
+      ],
+      "routeSignals": [
+        "主馆当代设计路线",
+        "与BAM-BAM形成包容性功能和反功能的对照",
+        "作为材料观念转向的节点"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/10302/"
+      ]
+    },
+    {
+      "workId": "carl-westman-worker-chair-nmk95-1997",
+      "identityStatus": "stable",
+      "availability": "on_display",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "1899年的Arbetarserien椅子原为工人住宅展示环境设计，把简朴材料、实用而美观的家庭空间与Ellen Key圈子的社会改革议题连接起来。",
+      "selectionSignals": [
+        "工人住宅展示与社会改革语境",
+        "设计对象与日常生活制度之间的关系",
+        "Carl Westman从建筑延伸到家具设计的线索"
+      ],
+      "sectionSignals": [
+        "世纪之交家具",
+        "Arts and Crafts与瑞典家庭改革",
+        "设计、阶层与日常生活"
+      ],
+      "routeSignals": [
+        "主馆家具与设计路线",
+        "适合作为现代主义前的社会设计节点",
+        "可与后来的工业化和包容性设计并置"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/35339/",
+        "https://collection.nationalmuseum.se/sv/collection/item/35339/"
+      ]
+    },
+    {
+      "workId": "hi-group-chair-nmk50-1962",
+      "identityStatus": "stable",
+      "availability": "on_display",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "HI Group的椅子把设计、木工与软包分工清楚地保留在同一对象中；其高成本及团体后来解散，提示手工质量与家具生产经济之间的张力。",
+      "selectionSignals": [
+        "设计者Hans Johansson与两位制作者的分工关系",
+        "橡木、皮革和双前腿等制作线索",
+        "手工家具品质与成本压力的生产史"
+      ],
+      "sectionSignals": [
+        "1965年前后现代家具",
+        "设计者与工匠协作",
+        "手工生产与市场成本"
+      ],
+      "routeSignals": [
+        "主馆现代家具路线",
+        "作为作者—工匠—制造关系的补充节点",
+        "可与Mathsson的材料实验和BAM-BAM的工业生产对照"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/3425/"
+      ]
+    },
+    {
+      "workId": "bam-bam-chair-nmk148-1972",
+      "identityStatus": "stable",
+      "availability": "on_display",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "BAM-BAM把可堆叠的塑料椅与残障人士的淋浴隐私和日常辅助需求结合起来，显示工业设计如何通过功能、人体使用与尊严问题进入博物馆收藏。",
+      "selectionSignals": [
+        "面向残障使用者的辅助性日常产品",
+        "堆叠、淋浴使用与隐私需求的功能关系",
+        "A&E Design与Arjo AB之间的设计—制造关系"
+      ],
+      "sectionSignals": [
+        "1965年至今的工业设计",
+        "包容性设计与日常辅助",
+        "塑料、量产与功能设计"
+      ],
+      "routeSignals": [
+        "主馆当代设计路线",
+        "与Concrete形成功能性两端的对照",
+        "补足瑞典设计中的社会使用者维度"
+      ],
+      "riskFlags": [],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/8185/"
+      ]
+    }
+  ]
+}

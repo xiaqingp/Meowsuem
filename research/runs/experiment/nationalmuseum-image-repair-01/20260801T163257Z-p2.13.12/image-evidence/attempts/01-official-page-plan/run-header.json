@@ -1,0 +1,27 @@
+{
+  "runId": "20260801T163257Z-p2.13.12",
+  "startedAt": "2026-08-01T16:34:38.964Z",
+  "stage": "image_disambiguation",
+  "imageResearchMode": "official_page_plan_v1",
+  "caseId": "nationalmuseum-image-repair-01",
+  "targetMuseumId": "nationalmuseum",
+  "pipelineVersion": "2.13.12",
+  "instructionVersion": "2.4.2",
+  "executionProfile": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium"
+  },
+  "allowedInputs": [
+    {
+      "path": "research/runs/experiment/nationalmuseum-image-repair-01/20260801T163257Z-p2.13.12/image-evidence/attempts/01-official-page-plan/image-research-packet.json",
+      "role": "image_candidate_packet",
+      "sha256": "37103e1b685f69f704b755db98ddf0677eb99fc94644e2ab866919841f68e772"
+    }
+  ],
+  "outputs": [
+    "image-decisions.json"
+  ],
+  "reviewer": "disabled",
+  "retry": "failed_images_only",
+  "publicationBoundary": "evidence_only"
+}

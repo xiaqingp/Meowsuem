@@ -1,0 +1,2530 @@
+{
+  "schemaVersion": 2,
+  "stage": "verified_image_evidence",
+  "museumId": "nationalmuseum",
+  "pipelineVersion": "2.13.12",
+  "generatedAt": "2026-08-01T16:35:28.093Z",
+  "parentRunId": "20260801T152615Z-p2.13.12",
+  "parentEvidencePath": "research/runs/production/nationalmuseum/20260801T152615Z-p2.13.12/image-evidence/verified-image-evidence.json",
+  "parentEvidenceSha256": "b63f4af262a1aafdb607e9a4934800225b607a198a582e9499117b2c13ff57e5",
+  "resolver": {
+    "version": 3,
+    "mode": "four_tier",
+    "tierUsed": "luna_official_page_plan",
+    "modelPolicy": "failed_images_only",
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium"
+  },
+  "summary": {
+    "works": 20,
+    "previousAcceptedPreserved": 10,
+    "retried": 10,
+    "newlyAccepted": 2,
+    "directImageDownloads": 2,
+    "elementCaptures": 0,
+    "objectImageAccepted": 4,
+    "contextImagesAccepted": 0,
+    "unresolved": 16,
+    "duplicateObjectImageGroups": [],
+    "modelCalls": 1,
+    "modelTokens": 47112,
+    "webSearchCount": 0
+  },
+  "modelRun": {
+    "runRoot": "research/runs/experiment/nationalmuseum-image-repair-01/20260801T163257Z-p2.13.12/image-evidence/attempts/01-official-page-plan",
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium",
+    "durationMs": 46142,
+    "tokens": 47112,
+    "webSearchCount": 0
+  },
+  "works": [
+    {
+      "workId": "roslin-lady-with-veil-nm4098",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "roslin-lady-with-veil-nm4098",
+        "title": "The Lady with the Veil. The Artist's Wife Marie Suzanne Giroust",
+        "objectType": "painting",
+        "titleZh": "",
+        "titleEn": "The Lady with the Veil. The Artist's Wife Marie Suzanne Giroust",
+        "creator": "Alexander Roslin",
+        "artistOrCulture": "Alexander Roslin",
+        "displayDate": "1768",
+        "medium": "Oil on canvas",
+        "identityAnchor": "NM 4098",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+        "accessionNumber": "NM 4098",
+        "collectionGroup": "主馆绘画与雕塑收藏／18世纪绘画"
+      },
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+      "page": {
+        "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+        "pageTitle": "The Lady with the Veil. The Artist's Wife Marie Suzanne Giroust | Nationalmuseum",
+        "bodyText": "This website uses cookies\nWe use device identifiers to adapt the content of the site and analyse how it is used. We also forward these identifiers and other information from your device to the social media and the advertising and analysis companies that we collaborate with.  \nConsent Selection\nNecessary\nPreferences\nStatistics\nMarketing and videos\nShow details\nAllow all\nAllow selection\nDeny\nEN\nHome\nObjects\nPersons\nMy Collection\nFoto: Nationalmuseum, Public Domain\nFoto: Linn Ahlgren / Nationalmuseum, Public Domain\nPublic Domain\nFoto: Nationalmuseum, Public Domain\nFoto: Nationalmuseum, Public Domain\nFoto: Linn Ahlgren / Nationalmuseum, Public Domain\nFoto: Linn Ahlgren / Nationalmuseum, Public Domain\nFoto: Nationalmuseum, Public Domain\nFoto: Linn Ahlgren / Nationalmuseum, Public Domain\nFoto: Nationalmuseum, Public Domain\nFoto: Linn Ahlgren / Nationalmuseum, Public Domain\nOn display\nWikimedia Commons\nAdd to my collection\nCopy bookmarkable link\nThe Lady with the Veil. The Artist's Wife Marie Suzanne Giroust\nAlexander Roslin (1718 - 1793)\n\nArtist/Maker\nArtist: Alexander Roslin (1718 - 1793)\n\nDates\nSigned: Signed 1768\n\nMaterial / Technique\nOil on canvas\n\nDimensions\nh x w: Mått 65 x 54 cm\nh x w: Ram 80 x 69 cm\n\nInventory number\nNM 4098\n\nAcqusition\nGift 1945 Kooperativa Förbundet and Ms Hildegard Tamm\n\nOther titles\nTitle (sv): Damen med slöjan. Konstnärens maka Suzanne Roslin\nTitle (en): The Lady with the Veil. The Artist's Wife Marie Suzanne Giroust\nPrevious: The Lady with the Veil (the Artist's Wife)\n\nDescription\nDescription: The veiled beauty in Alexander Roslin’s portrait is his wife, Marie Suzanne Giroust, who was herself a prominent artist. She is dressed for a fancy-dress ball, in the Bolognese style. The attraction of this image builds very much on a play of opposites, such as intimate–inaccessible and seductive–reserved. The Lady with the Veil is one of the Nationalmuseum’s best-known paintings. It was exhibited in Paris in 1769, along with another portrait by Roslin, of a woman in African costume.\n\nExhibited\nNationalmuseum -> Room 1603 18th century\n\nDepicted Person\nSuzanne Roslin (1734 - 1772)\n\nMotif category\nPortrait\n\nCollection\nPaintings (Paintings)\n\nMaterial\nDuk, Oil paint\n\nTechnique\nPainting\n\nObject category\npainting\n\nKeyword\nPorträtt\n\nExternal links\nWikidata: http://www.wikidata.org/entity/Q10466368\n\nAdditional texte\nExhibition text: The Lady With the Veil appears seductive and secretive, with her face half-hidden behind black silk and the fan she is holding. This type of portraits with masque motifs were popular in the 19th century. The portrait is of the French artist Marie Suzanne Giroust, who was married to the Swedish artist Alexander Roslin. They met in Paris in 1752. Roslin was one of the most frequently commissioned 18th-century portrait artists. His skilful rendering of textures – silk, gold, embroidery and velvet – contributed to his popularity.\n\nCatalogue text: This portrait is one of the Nationalmuseum’s most popular paintings, but few are aware that it represents a French female artist, Marie Suzanne Giroust, who was married to Alexander Roslin. In the 18th century, theatre was an important part of society life in the cities. Dressing up, disguising oneself and playing a part was a\ncommon form of entertainment, just as it is today when role-play games are so popular in social media. The fan which the figure is playing with expresses the seductiveness of a life devoted to enjoyment and pleasure, a characteristic of the elite culture of the period, but also one that is reflected in the consumer aesthetic\nof our own day. The fan acted as an extension of body language, putting the focus on hands and gestures, those varying expressions were seen as defining a person’s identity.\n\nWebbtext (Beskrivning): The Lady with the Veil is one of the Nationalmuseum’s best loved paintings. The woman in the portrait is partially hidden by a black silk veil. Beneath the veil she is dressed for a special occasion in white lace and pink silk. During the 18th century, theatre was an important part of the life of the upper classes. Dressing up, disguising oneself and playing dramatic roles was a common pastime. The Lady with the Veil shows how one could dress up à la bolonaise – in the style of Bologna.\nThe woman is smiling in a tempting fashion yet she seems to want to remain secretive. She only shows part of herself. There are many anonymous portraits of women in collections around the world. Often they have been part of a pair of portraits of man and wife – so called pendant portraits. It is not unusual for such portraits to have become separated over the years. And since the influence of the women has been underestimated in writing the history of art, their names and identities have often been forgotten. For this reason, many of Roslin’s portraits now bear the title “Unknown Woman”. But the Lady with the veil is not one of these forgotten women. For she was Alexander Roslin’s wife: the French portrait artist Marie Suzanne Giroust.\nFans were not just a practical item for social gatherings. Fans could also be used for sending secret messages. There were numerous ways of holding, opening and closing fans. Each way meant something specific. The lady with the veil has folded her fan and is using it to stroke her cheek. This might mean: I love you! It was once the artist himself who received this message while he was painting his wife. Nowadays we are the recipients as we regard the painting and perhaps we let ourselves be seduced by the veiled woman…\n\nSHOW MORE\n⌵\nContact information\nTel: 08-519 543 00\nE-Mail: info@nationalmuseum.se\nContact us\nMore information\nAbout the collection\nImages and copyrights\nHow to use the online collection\nFollow us\nAbout Nationalmuseum\nOpening Hours\nExhibitions\nFree Images On Wikimedia",
+        "candidateCount": 48,
+        "candidates": [
+          {
+            "candidateId": "page-image-001",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/7/multimedia-225767.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(4) > img",
+            "alt": "",
+            "nearbyText": "Foto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkThe Lady with the Veil. The Artist's Wife Marie Suzanne GiroustAlexander Roslin (1718 - 1793)Artist/MakerArtist: Alexander Roslin (1718 - 1793)DatesSigned: Signed 1768Material / TechniqueOil on canvasDimensionsh x w: Mått 65 x 54 cm\nh x w: Ram 80 x 69 cmInventory numberNM 4098AcqusitionGift 1",
+            "visible": true,
+            "boundingBox": {
+              "x": 599,
+              "y": 866,
+              "width": 81,
+              "height": 92
+            },
+            "naturalWidth": 245,
+            "naturalHeight": 280,
+            "elementKind": "img",
+            "elementIndex": 21,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+            "identityScore": 1320
+          },
+          {
+            "candidateId": "page-image-002",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/2/multimedia-946122.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(7) > img",
+            "alt": "",
+            "nearbyText": "Foto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkThe Lady with the Veil. The Artist's Wife Marie Suzanne GiroustAlexander Roslin (1718 - 1793)Artist/MakerArtist: Alexander Roslin (1718 - 1793)DatesSigned: Signed 1768Material / TechniqueOil on canvasDimensionsh x w: Mått 65 x 54 cm\nh x w: Ram 80 x 69 cmInventory numberNM 4098AcqusitionGift 1",
+            "visible": true,
+            "boundingBox": {
+              "x": 861,
+              "y": 866,
+              "width": 80,
+              "height": 92
+            },
+            "naturalWidth": 244,
+            "naturalHeight": 280,
+            "elementKind": "img",
+            "elementIndex": 24,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+            "identityScore": 1320
+          },
+          {
+            "candidateId": "page-image-003",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/9/multimedia-8149.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > img",
+            "alt": "",
+            "nearbyText": "Foto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkThe Lady with the Veil. The Artist's Wife Marie Suzanne GiroustAlexander Roslin (1718 - 1793)Artist/MakerArtist: Alexander Roslin (1718 - 1793)DatesSigned: Signed 1768Material / TechniqueOil on canvasDimensionsh x w: Mått 65 x 54 cm\nh x w: Ram 80 x 69 cmInventory numberNM 4098AcqusitionGift 1",
+            "visible": true,
+            "boundingBox": {
+              "x": 425,
+              "y": 866,
+              "width": 77,
+              "height": 92
+            },
+            "naturalWidth": 234,
+            "naturalHeight": 280,
+            "elementKind": "img",
+            "elementIndex": 19,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+            "identityScore": 1320
+          },
+          {
+            "candidateId": "page-image-004",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/5/multimedia-184495.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > img",
+            "alt": "",
+            "nearbyText": "Foto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkThe Lady with the Veil. The Artist's Wife Marie Suzanne GiroustAlexander Roslin (1718 - 1793)Artist/MakerArtist: Alexander Roslin (1718 - 1793)DatesSigned: Signed 1768Material / TechniqueOil on canvasDimensionsh x w: Mått 65 x 54 cm\nh x w: Ram 80 x 69 cmInventory numberNM 4098AcqusitionGift 1",
+            "visible": true,
+            "boundingBox": {
+              "x": 512,
+              "y": 866,
+              "width": 77,
+              "height": 92
+            },
+            "naturalWidth": 233,
+            "naturalHeight": 280,
+            "elementKind": "img",
+            "elementIndex": 20,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+            "identityScore": 1320
+          },
+          {
+            "candidateId": "page-image-005",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/2/multimedia-1030862.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(9) > img",
+            "alt": "",
+            "nearbyText": "Foto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Linn Ahlgren / Nationalmuseum, Public DomainOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkThe Lady with the Veil. The Artist's Wife Marie Suzanne GiroustAlexander Roslin (1718 - 1793)Artist/MakerArtist: Alexander Roslin (1718 - 1793)DatesSigned: Signed 1768Material / TechniqueOil on canvasDimensionsh x w: Mått 65 x 54 cm\nh x w: Ram 80 x 69 cmInventory numberNM 4098AcqusitionGift 1",
+            "visible": true,
+            "boundingBox": {
+              "x": 1037,
+              "y": 866,
+              "width": 77,
+              "height": 92
+            },
+            "naturalWidth": 233,
+            "naturalHeight": 280,
+            "elementKind": "img",
+            "elementIndex": 26,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+            "identityScore": 1320
+          }
+        ]
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "aiDecision": {
+        "workId": "roslin-lady-with-veil-nm4098",
+        "status": "candidate_found",
+        "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+        "selectedImage": {
+          "candidateId": "page-image-001",
+          "imageUrl": "https://collection.nationalmuseum.se/multimedia/7/multimedia-225767.small.jpg",
+          "candidateType": "direct_image",
+          "imageRole": "object_view",
+          "caption": "The Lady with the Veil. The Artist's Wife Marie Suzanne Giroust",
+          "identityEvidence": [
+            "Official Nationalmuseum collection page identifies Alexander Roslin's painting as NM 4098.",
+            "Candidate is an image element on the identified object page."
+          ],
+          "confidence": 0.98
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "warnings": [
+        "selected candidate processing failed: image returned 403"
+      ],
+      "retried": true
+    },
+    {
+      "workId": "rembrandt-kitchen-maid-nm584",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "rembrandt-kitchen-maid-nm584",
+        "title": "The Kitchen Maid",
+        "objectType": "painting",
+        "titleZh": "",
+        "titleEn": "The Kitchen Maid",
+        "creator": "Rembrandt Harmensz. van Rijn",
+        "artistOrCulture": "Rembrandt Harmensz. van Rijn",
+        "displayDate": "1651",
+        "medium": "Oil on canvas",
+        "identityAnchor": "NM 584",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/17587/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/17587/",
+        "accessionNumber": "NM 584",
+        "collectionGroup": "主馆绘画与雕塑收藏／17世纪绘画"
+      },
+      "fastPath": {
+        "status": "fast_candidate_found",
+        "pageTitle": "\"The Kitchen Maid\" | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/17587/",
+        "fastCandidate": {
+          "id": "dom-21",
+          "url": "https://collection.nationalmuseum.se/multimedia/5/multimedia-487625.small.jpg",
+          "alt": "",
+          "caption": "",
+          "nearbyText": "Foto: Erik Cornelius / Nationalmuseum, Public Domain\nFoto: Anna Danielsson / Nationalmuseum, Public Domain\nFoto: Nationalmuseum, Public Domain\nFoto: Erik Cornelius / Nationalmuseum, Public Domain\nFoto: Erik Cornelius / Nationalmuseum, Public Domain\nFoto: Erik Cornelius / Nationalmuseum, Public Domain\nFoto: Magnus Mårtensson / RAÄ, CC BY SA\nFoto: Anna Danielsson / Nationalmuseum, Public Domain\nFoto: Erik Cornelius / Nationalmuseum, Public Domain\nFoto: Erik Cornelius / Nationalmuseum, Public Domain\nPublic Domain\nFoto: Erik Cornelius / Nationalmuseum, Public Domain\nFoto: Anna Danielsson / Nationalmuseum, Public Domain\nOn display\nWikimedia Commons\nAdd to my collection\nCopy bookmarkable link\n\"The Kitchen Maid\"\nRembrandt Harmensz. van Rijn (1606 - 1669)\n\nArtist/Maker\nArtist: Rembrandt Harmensz. van Rijn (1606 - 1669)\n\nDates\nMade: 1651\n\nMaterial / Technique\nOil on canvas\n\nDimensions\nh x w: Mått 78 x 64 cm\nh x w x d: Ram 105 x 91 x 8 cm\n\nInventory number\nNM 584\n\nAcqusition\nTransferred 1865 Kon",
+          "width": 229,
+          "height": 280,
+          "figureCaptionRelation": false,
+          "identitySignals": [
+            "accession_number_match",
+            "page_title_and_artist_match",
+            "title_match",
+            "creator_match"
+          ],
+          "method": "official_object_image",
+          "provider": "generic-html"
+        },
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/5/multimedia-487625.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/0/multimedia-1109670.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/5/multimedia-487625.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/6/multimedia-7286.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-168869.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/6/multimedia-174626.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-174628.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-756219.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-915921.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-984699.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-999648.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-1090561.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/0/multimedia-1109670.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/5/multimedia-487625.large.jpg",
+          "https://collection.nationalmuseum.se/icons/bigLeftArrow.svg"
+        ],
+        "fastPageSignals": [
+          "accession_number_match",
+          "page_title_and_artist_match",
+          "title_match",
+          "creator_match"
+        ]
+      },
+      "status": "object_image_accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/The_Kitchen_Maid_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_17587.tif",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:The_Kitchen_Maid_(Rembrandt_Harmensz._van_Rijn)_-_Nationalmuseum_-_17587.tif",
+        "sourceType": "wikimedia",
+        "caption": "The Kitchen Maid, Rembrandt Harmensz. van Rijn, Nationalmuseum NM 584",
+        "identityEvidence": [
+          "Commons file identifies Rembrandt and Nationalmuseum accession NM 584.",
+          "Official Nationalmuseum page confirms the title, artist, date 1651, and inventory number NM 584."
+        ],
+        "confidence": 0.99,
+        "localPath": "research/runs/production/nationalmuseum/20260801T152615Z-p2.13.12/image-evidence/assets/rembrandt-kitchen-maid-nm584.tif",
+        "sha256": "737c164d597fbb90434068d39019027f82283d7b8378ffe771c641c7e2f2e562",
+        "width": 2823,
+        "height": 3494,
+        "contentType": "image/tiff",
+        "method": "ai_image_research",
+        "provider": "wikimedia",
+        "evidenceId": "img:nationalmuseum:rembrandt-kitchen-maid-nm584:737c164d597f"
+      },
+      "warnings": [
+        "fast path download failed: image returned 403"
+      ],
+      "durationMs": 5385,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "rembrandt-kitchen-maid-nm584",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Kitchen_Maid_(Rembrandt_Harmensz._van_Rijn)_-_Nationalmuseum_-_17587.tif",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:The_Kitchen_Maid_(Rembrandt_Harmensz._van_Rijn)_-_Nationalmuseum_-_17587.tif",
+          "sourceType": "wikimedia",
+          "caption": "The Kitchen Maid, Rembrandt Harmensz. van Rijn, Nationalmuseum NM 584",
+          "identityEvidence": [
+            "Commons file identifies Rembrandt and Nationalmuseum accession NM 584.",
+            "Official Nationalmuseum page confirms the title, artist, date 1651, and inventory number NM 584."
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "reusedFromParent": true,
+      "parentEvidencePath": "research/runs/production/nationalmuseum/20260801T152615Z-p2.13.12/image-evidence/verified-image-evidence.json",
+      "parentEvidenceSha256": "b63f4af262a1aafdb607e9a4934800225b607a198a582e9499117b2c13ff57e5"
+    },
+    {
+      "workId": "durer-portrait-young-woman-braided-hair-nmh1855-1863",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "durer-portrait-young-woman-braided-hair-nmh1855-1863",
+        "title": "Portrait of a Young Woman with braided hair",
+        "objectType": "drawing",
+        "titleZh": "",
+        "titleEn": "Portrait of a Young Woman with braided hair",
+        "creator": "Albrecht Dürer",
+        "artistOrCulture": "Albrecht Dürer",
+        "displayDate": "1515",
+        "medium": "Black chalk and charcoal on paper",
+        "identityAnchor": "NMH 1855/1863",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/43163/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/43163/",
+        "accessionNumber": "NMH 1855/1863",
+        "collectionGroup": "主馆版画与素描收藏／德国素描"
+      },
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/43163/",
+      "page": {
+        "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/43163/",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/43163/",
+        "pageTitle": "Portrait of a Young Woman with braided hair | Nationalmuseum",
+        "bodyText": "This website uses cookies\nWe use device identifiers to adapt the content of the site and analyse how it is used. We also forward these identifiers and other information from your device to the social media and the advertising and analysis companies that we collaborate with.  \nConsent Selection\nNecessary\nPreferences\nStatistics\nMarketing and videos\nShow details\nAllow all\nAllow selection\nDeny\nEN\nHome\nObjects\nPersons\nMy Collection\nFoto: Erik Cornelius / Nationalmuseum, Public Domain\nFoto: Cecilia Heisser / Nationalmuseum, Public Domain\nPublic Domain\nFoto: Erik Cornelius / Nationalmuseum, Public Domain\nFoto: Cecilia Heisser / Nationalmuseum, Public Domain\nFoto: Nationalmuseum, Public Domain\nFoto: Cecilia Heisser / Nationalmuseum, Public Domain\nFoto: Cecilia Heisser / Nationalmuseum, Public Domain\nFoto: Cecilia Heisser / Nationalmuseum, Public Domain\nFoto: Erik Cornelius / Nationalmuseum, Public Domain\nFoto: Cecilia Heisser / Nationalmuseum, Public Domain\nNot on display\nAdd to my collection\nCopy bookmarkable link\nPortrait of a Young Woman with braided hair\nAlbrecht Dürer (1471 - 1528)\n\nArtist/Maker\nArtist: Albrecht Dürer (1471 - 1528)\n\nDates\nMade: 1515\n\nMaterial / Technique\nBlack chalk and charcoal on brownish paper. Laid down. Framing line in black ink. Fold.\n\nDimensions\nh x w: Mått 42,3 x 29,4 cm\nh x w: Passepartout 65 x 50 cm\nh x w x d: Ram 70 x 55 x 3,5 cm\n\nInventory number\nNMH 1855/1863\n\nAcqusition\nTransferred 1866 from Kongl. Museum\n\nOther titles\nTitle (sv): Porträtt av en ung kvinna med fläta\nTitle (en): Portrait of a Young Woman with braided hair\nTitle (fr): Portrait d'une jeune femme aux cheveux tressés\n\nCollection\nFree-hand drawings (Drawings)\n\nMaterial\nBlack chalk (Crayon), Paper\n\nTechnique\nDrawing\n\nContact information\nTel: 08-519 543 00\nE-Mail: info@nationalmuseum.se\nContact us\nMore information\nAbout the collection\nImages and copyrights\nHow to use the online collection\nFollow us\nAbout Nationalmuseum\nOpening Hours\nExhibitions\nFree Images On Wikimedia",
+        "candidateCount": 46,
+        "candidates": [
+          {
+            "candidateId": "page-image-001",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/2/multimedia-423632.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(5) > img",
+            "alt": "",
+            "nearbyText": "Foto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainPublic DomainFoto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainFoto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainNot on displayAdd to my collectionCopy bookmarkable linkPortrait of a Young Woman with braided hairAlbrecht Dürer (1471 - 1528)Artist/MakerArtist: Albrecht Dürer (1471 - 1528)DatesMade: 1515Material / TechniqueBlack chalk and charcoal on brownish paper. Laid down. Framing line ",
+            "visible": true,
+            "boundingBox": {
+              "x": 692,
+              "y": 866,
+              "width": 67,
+              "height": 92
+            },
+            "naturalWidth": 203,
+            "naturalHeight": 280,
+            "elementKind": "img",
+            "elementIndex": 22,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/43163/",
+            "identityScore": 1320
+          },
+          {
+            "candidateId": "page-image-002",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/5/multimedia-201615.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > img",
+            "alt": "",
+            "nearbyText": "Foto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainPublic DomainFoto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainFoto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainNot on displayAdd to my collectionCopy bookmarkable linkPortrait of a Young Woman with braided hairAlbrecht Dürer (1471 - 1528)Artist/MakerArtist: Albrecht Dürer (1471 - 1528)DatesMade: 1515Material / TechniqueBlack chalk and charcoal on brownish paper. Laid down. Framing line ",
+            "visible": true,
+            "boundingBox": {
+              "x": 543,
+              "y": 866,
+              "width": 65,
+              "height": 92
+            },
+            "naturalWidth": 197,
+            "naturalHeight": 280,
+            "elementKind": "img",
+            "elementIndex": 20,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/43163/",
+            "identityScore": 1320
+          },
+          {
+            "candidateId": "page-image-003",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/7/multimedia-320077.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(4) > img",
+            "alt": "",
+            "nearbyText": "Foto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainPublic DomainFoto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainFoto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainNot on displayAdd to my collectionCopy bookmarkable linkPortrait of a Young Woman with braided hairAlbrecht Dürer (1471 - 1528)Artist/MakerArtist: Albrecht Dürer (1471 - 1528)DatesMade: 1515Material / TechniqueBlack chalk and charcoal on brownish paper. Laid down. Framing line ",
+            "visible": true,
+            "boundingBox": {
+              "x": 617,
+              "y": 866,
+              "width": 65,
+              "height": 92
+            },
+            "naturalWidth": 197,
+            "naturalHeight": 280,
+            "elementKind": "img",
+            "elementIndex": 21,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/43163/",
+            "identityScore": 1320
+          },
+          {
+            "candidateId": "page-image-004",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/1/multimedia-1090571.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(8) > img",
+            "alt": "",
+            "nearbyText": "Foto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainPublic DomainFoto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainFoto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainNot on displayAdd to my collectionCopy bookmarkable linkPortrait of a Young Woman with braided hairAlbrecht Dürer (1471 - 1528)Artist/MakerArtist: Albrecht Dürer (1471 - 1528)DatesMade: 1515Material / TechniqueBlack chalk and charcoal on brownish paper. Laid down. Framing line ",
+            "visible": true,
+            "boundingBox": {
+              "x": 918,
+              "y": 866,
+              "width": 65,
+              "height": 92
+            },
+            "naturalWidth": 197,
+            "naturalHeight": 280,
+            "elementKind": "img",
+            "elementIndex": 25,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/43163/",
+            "identityScore": 1320
+          },
+          {
+            "candidateId": "page-image-005",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/9/multimedia-1095659.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(9) > img",
+            "alt": "",
+            "nearbyText": "Foto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainPublic DomainFoto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainFoto: Erik Cornelius / Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainNot on displayAdd to my collectionCopy bookmarkable linkPortrait of a Young Woman with braided hairAlbrecht Dürer (1471 - 1528)Artist/MakerArtist: Albrecht Dürer (1471 - 1528)DatesMade: 1515Material / TechniqueBlack chalk and charcoal on brownish paper. Laid down. Framing line ",
+            "visible": true,
+            "boundingBox": {
+              "x": 992,
+              "y": 866,
+              "width": 65,
+              "height": 92
+            },
+            "naturalWidth": 197,
+            "naturalHeight": 280,
+            "elementKind": "img",
+            "elementIndex": 26,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/43163/",
+            "identityScore": 1320
+          }
+        ]
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "aiDecision": {
+        "workId": "durer-portrait-young-woman-braided-hair-nmh1855-1863",
+        "status": "candidate_found",
+        "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/43163/",
+        "selectedImage": {
+          "candidateId": "page-image-001",
+          "imageUrl": "https://collection.nationalmuseum.se/multimedia/2/multimedia-423632.small.jpg",
+          "candidateType": "direct_image",
+          "imageRole": "object_view",
+          "caption": "Portrait of a Young Woman with braided hair",
+          "identityEvidence": [
+            "Official Nationalmuseum collection page identifies Albrecht Dürer's drawing as NMH 1855/1863.",
+            "Candidate is an image element on the identified object page."
+          ],
+          "confidence": 0.98
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "warnings": [
+        "selected candidate processing failed: image returned 403"
+      ],
+      "retried": true
+    },
+    {
+      "workId": "roslin-zoie-ghika-nm6872",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "roslin-zoie-ghika-nm6872",
+        "title": "Zoie Ghika, Princess of Moldau and Wallachia",
+        "objectType": "painting",
+        "titleZh": "",
+        "titleEn": "Zoie Ghika, Princess of Moldau and Wallachia",
+        "creator": "Alexander Roslin",
+        "artistOrCulture": "Alexander Roslin",
+        "displayDate": "1777",
+        "medium": "Oil on canvas",
+        "identityAnchor": "NM 6872",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/23921/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/23921/",
+        "accessionNumber": "NM 6872",
+        "collectionGroup": "主馆绘画与雕塑收藏／18世纪绘画"
+      },
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/23921/",
+      "page": {
+        "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/23921/",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/23921/",
+        "pageTitle": "Zoie Ghika (dead ca 1830), princess of Moldau and Wallachia | Nationalmuseum",
+        "bodyText": "This website uses cookies\nWe use device identifiers to adapt the content of the site and analyse how it is used. We also forward these identifiers and other information from your device to the social media and the advertising and analysis companies that we collaborate with.  \nConsent Selection\nNecessary\nPreferences\nStatistics\nMarketing and videos\nShow details\nAllow all\nAllow selection\nDeny\nEN\nHome\nObjects\nPersons\nMy Collection\nFoto: Nationalmuseum, Public Domain\nFoto: Nationalmuseum, Public Domain\nPublic Domain\nFoto: Nationalmuseum, Public Domain\nFoto: Nationalmuseum, Public Domain\nOn display\nWikimedia Commons\nAdd to my collection\nCopy bookmarkable link\nZoie Ghika (dead ca 1830), princess of Moldau and Wallachia\nAlexander Roslin (1718 - 1793)\n\nArtist/Maker\nArtist: Alexander Roslin (1718 - 1793)\n\nDates\nSigned: Signed 1777\n\nMaterial / Technique\nOil on canvas\n\nDimensions\nh x w: Mått 64,7 x 53 cm\nh x w x d: Ram 85 x 73 x 8 cm\n\nInventory number\nNM 6872\n\nAcqusition\nPurchase 1992 Nationalmusei Vänner\n\nOther titles\nTitle (sv): Zoie Ghika (död omkr. 1830), prinsessa av Moldau och Valakiet, g.m. markis Maruzzi\nTitle (en): Zoie Ghika (dead ca 1830), princess of Moldau and Wallachia\n\nDescription\nDescription: Roslin depicted the Moldavian princess Zoie Ghika in a white atlas dress with silver lace. She is wearing a headdress with roses that resembles a turban. According to contemporary descriptions she and her sister had “elongated innocent faces, wonderful dark eyes, fair skin and soft, coal-black hair that lay in a straight fringe across their brows”. The portrait was commissioned by the Empress Catherine II. Zoie Ghika was staying at her court.\n\nExhibited\nNationalmuseum -> Room 1603 18th century\n\nDepicted Person\nZoie Ghika ( - 1828)\n\nMotif category\nPortrait\n\nCollection\nPaintings (Paintings)\n\nMaterial\nDuk, Oil paint\n\nTechnique\nPainting\n\nObject category\npainting\n\nKeyword\nPorträtt\n\nExternal links\nWikidata: http://www.wikidata.org/entity/Q4373330\n\nAdditional texte\nExhibition text: Roslin’s portrait of the Moldavian princess Zoie Ghika was painted during his stay in St. Petersburg and commissioned by the Russian Empress Catherine II. After the princess’s father had been poisoned in Constantinople, his exiled family was living in Russia. The princess’s Moldavian clothes, white turban and silver lacing made an exotic impression at the Russian court. In this portrait Roslin has chosen, however, to endow his subject with an aura of refined simplicity with no conspicuous artifice.\n\nDescription: The Moldavian princess Zoie Ghika is depicted in a manner that differs from the bulk of Roslin’s portraits. The princess is shown without a wig. She is wearing Moldavian costume – a turban-like bonnet decorated with roses, a white silk dress with silver ribbons and lace edges and a sleeveless fur jacket. Her costume is elegant without suggesting excessive wealth.\nRussia had invaded Moldavia and Zoie Ghika’s father, a tributary prince of the Ottoman Sultan, was executed. His family became political pawns and were taken to the court of Catherine the Great, who also commissioned this portrait. The Moldavian princesses were an exotic addition to the Russian court. They were also a symbol of the geographic expansion of the Russian empire towards the Black Sea.\nAlexander Roslin visited Russia in 1775 to take up commissions from the Russian court. He stayed there for about two years and received 75 commissions. Many of the commissions had to be finished after he returned to Paris. The portrait of Zoie Ghika was one of the last that Roslin painted before returning to Paris. It is often cited to prove that the quality of his work did not deteriorate even when he working on numerous commissions at the same time.\n\nExhibition text: Alexander Roslin was born in Sweden, but mostly worked in Paris. His skill and reputation took him back to Stockholm and to Saint Petersburg and painting commissions for the courts. The Moldovan princess Zoie Ghika lived as a refugee in Russia, and Roslin seems to have chosen to portray her in an unusually natural way, without the coiffures and makeup that is usually associated with the 18th century.\n\nSHOW MORE\n⌵\nContact information\nTel: 08-519 543 00\nE-Mail: info@nationalmuseum.se\nContact us\nMore information\nAbout the collection\nImages and copyrights\nHow to use the online collection\nFollow us\nAbout Nationalmuseum\nOpening Hours\nExhibitions\nFree Images On Wikimedia",
+        "candidateCount": 24,
+        "candidates": [
+          {
+            "candidateId": "page-image-001",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/0/multimedia-226500.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > img",
+            "alt": "",
+            "nearbyText": "Foto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkZoie Ghika (dead ca 1830), princess of Moldau and WallachiaAlexander Roslin (1718 - 1793)Artist/MakerArtist: Alexander Roslin (1718 - 1793)DatesSigned: Signed 1777Material / TechniqueOil on canvasDimensionsh x w: Mått 64,7 x 53 cm\nh x w x d: Ram 85 x 73 x 8 cmInventory numberNM 6872AcqusitionPurchase 1992 Nationalmusei VännerOther titlesTitle (sv): Zoie Ghika (död omkr. 1830), prinsessa av Moldau och Valakiet, g.m. markis Maruzzi\nTitle (en): Zoie Ghika (dead ca 1830), princess of Moldau and WallachiaDescriptionDescription: Roslin depicted the Moldavian princess Zoie Ghika",
+            "visible": true,
+            "boundingBox": {
+              "x": 596,
+              "y": 862,
+              "width": 83,
+              "height": 100
+            },
+            "naturalWidth": 231,
+            "naturalHeight": 280,
+            "elementKind": "img",
+            "elementIndex": 12,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/23921/",
+            "identityScore": 320
+          },
+          {
+            "candidateId": "page-image-002",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/2/multimedia-983452.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > img",
+            "alt": "",
+            "nearbyText": "Foto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkZoie Ghika (dead ca 1830), princess of Moldau and WallachiaAlexander Roslin (1718 - 1793)Artist/MakerArtist: Alexander Roslin (1718 - 1793)DatesSigned: Signed 1777Material / TechniqueOil on canvasDimensionsh x w: Mått 64,7 x 53 cm\nh x w x d: Ram 85 x 73 x 8 cmInventory numberNM 6872AcqusitionPurchase 1992 Nationalmusei VännerOther titlesTitle (sv): Zoie Ghika (död omkr. 1830), prinsessa av Moldau och Valakiet, g.m. markis Maruzzi\nTitle (en): Zoie Ghika (dead ca 1830), princess of Moldau and WallachiaDescriptionDescription: Roslin depicted the Moldavian princess Zoie Ghika",
+            "visible": true,
+            "boundingBox": {
+              "x": 774,
+              "y": 866,
+              "width": 76,
+              "height": 92
+            },
+            "naturalWidth": 231,
+            "naturalHeight": 280,
+            "elementKind": "img",
+            "elementIndex": 14,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/23921/",
+            "identityScore": 320
+          },
+          {
+            "candidateId": "page-image-003",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/7/multimedia-8437.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > img",
+            "alt": "",
+            "nearbyText": "Foto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainOn displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkZoie Ghika (dead ca 1830), princess of Moldau and WallachiaAlexander Roslin (1718 - 1793)Artist/MakerArtist: Alexander Roslin (1718 - 1793)DatesSigned: Signed 1777Material / TechniqueOil on canvasDimensionsh x w: Mått 64,7 x 53 cm\nh x w x d: Ram 85 x 73 x 8 cmInventory numberNM 6872AcqusitionPurchase 1992 Nationalmusei VännerOther titlesTitle (sv): Zoie Ghika (död omkr. 1830), prinsessa av Moldau och Valakiet, g.m. markis Maruzzi\nTitle (en): Zoie Ghika (dead ca 1830), princess of Moldau and WallachiaDescriptionDescription: Roslin depicted the Moldavian princess Zoie Ghika",
+            "visible": true,
+            "boundingBox": {
+              "x": 689,
+              "y": 866,
+              "width": 75,
+              "height": 92
+            },
+            "naturalWidth": 229,
+            "naturalHeight": 280,
+            "elementKind": "img",
+            "elementIndex": 13,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/23921/",
+            "identityScore": 320
+          },
+          {
+            "candidateId": "page-image-004",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/wikimedia.png",
+            "selector": "div > div > article > section:nth-of-type(1) > div > div:nth-of-type(2) > a > img",
+            "alt": "",
+            "nearbyText": "On displayWikimedia CommonsAdd to my collectionCopy bookmarkable link",
+            "visible": true,
+            "boundingBox": {
+              "x": 806,
+              "y": 1038,
+              "width": 18,
+              "height": 24
+            },
+            "naturalWidth": 1024,
+            "naturalHeight": 1376,
+            "elementKind": "img",
+            "elementIndex": 15,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/23921/",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-005",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/0/multimedia-226500.large.jpg",
+            "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > figure > div > img",
+            "alt": "",
+            "nearbyText": "",
+            "visible": true,
+            "boundingBox": {
+              "x": 20,
+              "y": 180,
+              "width": 1400,
+              "height": 637
+            },
+            "naturalWidth": 992,
+            "naturalHeight": 1200,
+            "elementKind": "img",
+            "elementIndex": 6,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/23921/",
+            "identityScore": 20
+          }
+        ]
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "aiDecision": {
+        "workId": "roslin-zoie-ghika-nm6872",
+        "status": "candidate_found",
+        "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/23921/",
+        "selectedImage": {
+          "candidateId": "page-image-001",
+          "imageUrl": "https://collection.nationalmuseum.se/multimedia/0/multimedia-226500.small.jpg",
+          "candidateType": "direct_image",
+          "imageRole": "object_view",
+          "caption": "Zoie Ghika, Princess of Moldau and Wallachia",
+          "identityEvidence": [
+            "Official Nationalmuseum collection page identifies Alexander Roslin's portrait as NM 6872.",
+            "Candidate is an image element on the identified object page."
+          ],
+          "confidence": 0.98
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "warnings": [
+        "selected candidate processing failed: image returned 403"
+      ],
+      "retried": true
+    },
+    {
+      "workId": "corot-red-rocks-civita-castellana-nm2060",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "corot-red-rocks-civita-castellana-nm2060",
+        "title": "The Red Rocks at Cività Castellana",
+        "objectType": "painting",
+        "titleZh": "",
+        "titleEn": "The Red Rocks at Cività Castellana",
+        "creator": "Camille Jean Baptiste Corot",
+        "artistOrCulture": "Camille Jean Baptiste Corot",
+        "displayDate": "c. 1827",
+        "medium": "Oil on paper mounted on canvas",
+        "identityAnchor": "NM 2060",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/19119/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/19119/",
+        "accessionNumber": "NM 2060",
+        "collectionGroup": "主馆绘画与雕塑收藏／1800–1870年绘画"
+      },
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/19119/",
+      "page": {
+        "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/19119/",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/19119/",
+        "pageTitle": "The Red Rocks at Cività Castellana | Nationalmuseum",
+        "bodyText": "This website uses cookies\nWe use device identifiers to adapt the content of the site and analyse how it is used. We also forward these identifiers and other information from your device to the social media and the advertising and analysis companies that we collaborate with.  \nConsent Selection\nNecessary\nPreferences\nStatistics\nMarketing and videos\nShow details\nAllow all\nAllow selection\nDeny\nEN\nHome\nObjects\nPersons\nMy Collection\nFoto: Anna Danielsson / Nationalmuseum, Public Domain\nFoto: Hans Thorwid / Nationalmuseum, Public Domain\nNationalmuseum, Public Domain\nFoto: Nationalmuseum, Public Domain\nFoto: Anna Danielsson / Nationalmuseum, Public Domain\nFoto: Anna Danielsson / Nationalmuseum, Public Domain\nFoto: Anna Danielsson / Nationalmuseum, Public Domain\nFoto: Magnus Mårtensson / RAÄ, CC BY SA\nFoto: Anna Danielsson / Nationalmuseum, Public Domain\nFoto: Hans Thorwid / Nationalmuseum, Public Domain\nFoto: Anna Danielsson / Nationalmuseum, Public Domain\nFoto: Hans Thorwid / Nationalmuseum, Public Domain\nOn display\nAdd to my collection\nCopy bookmarkable link\nThe Red Rocks at Cività Castellana\nCamille Jean Baptiste Corot (1796 - 1875)\n\nArtist/Maker\nArtist: Camille Jean Baptiste Corot (1796 - 1875)\n\nDates\nMade: Made c. 1827\n\nMaterial / Technique\nOil on paper mounted on canvas\n\nDimensions\nh x w: Mått 36 x 51 cm\nh x w x d: Ram 56 x 69 x 8 cm\n\nInventory number\nNM 2060\n\nAcqusition\nPurchase 1917\n\nOther titles\nTitle (sv): Röda klippor vid Cività Castellana\nTitle (en): The Red Rocks at Cività Castellana\n\nDescription\nDescription: The landscape around Rome played an important part in the emergence of plein-air painting. Here, Camille Corot, working directly from nature, has painted dramatic rocky cliffs with a river in the foreground, bathed in bright sunlight. The colours are placed in patches side by side, with no transitions. Corot regarded this type of painting as working material for more finished versions done in the studio.\n\nExhibited\nNationalmuseum -> Room 1449 1800-1870\n\nDepicted place\nCivita Castellana\n\nMotif category\nLandscape\n\nCollection\nPaintings (Paintings)\n\nMaterial\nOil paint, Duk, Paper\n\nTechnique\nPainting\n\nObject category\npainting\n\nKeyword\nLandskap\n\nExternal links\nWikidata: http://www.wikidata.org/entity/Q18178133\nArt Bulletin of Nationalmuseum: http://nationalmuseum.diva-portal.org/smash/get/diva2:1168786/FULLTEXT01.pdf\n\nAdditional texte\nDescription: In the 1820s, Corot visited Italy to study classical landscape painting. But he did not confine his studies to the old masters. In the Sabine Hills north of Rome, he made numerous drawings and oil studies of the surroundings. It was here that he made this paintings of red sandstone cliffs, the Rocce Rosse just outside the village of Cività Castellana. Corot’s Italian sketches are early examples of the plein-air painting that would have a seminal influence on French19th century landscape painting.\n\nSHOW MORE\n⌵\nContact information\nTel: 08-519 543 00\nE-Mail: info@nationalmuseum.se\nContact us\nMore information\nAbout the collection\nImages and copyrights\nHow to use the online collection\nFollow us\nAbout Nationalmuseum\nOpening Hours\nExhibitions\nFree Images On Wikimedia",
+        "candidateCount": 50,
+        "candidates": [
+          {
+            "candidateId": "page-image-001",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/3/multimedia-492103.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(6) > img",
+            "alt": "",
+            "nearbyText": "Foto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Hans Thorwid / Nationalmuseum, Public DomainNationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Magnus Mårtensson / RAÄ, CC BY SAFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Hans Thorwid / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Hans Thorwid / Nationalmuseum, Public DomainOn displayAdd to my collectionCopy bookmarkable linkThe Red Rocks at Cività CastellanaCamille Jean Baptiste Corot (1796 - 1875)Artist/MakerArtist: Camille Jean Baptiste Corot (1796 - 1875)DatesMade: Made c. 1827Material / Techniq",
+            "visible": true,
+            "boundingBox": {
+              "x": 753,
+              "y": 866,
+              "width": 114,
+              "height": 92
+            },
+            "naturalWidth": 280,
+            "naturalHeight": 225,
+            "elementKind": "img",
+            "elementIndex": 24,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/19119/",
+            "identityScore": 1320
+          },
+          {
+            "candidateId": "page-image-002",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/2/multimedia-978312.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(8) > img",
+            "alt": "",
+            "nearbyText": "Foto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Hans Thorwid / Nationalmuseum, Public DomainNationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Magnus Mårtensson / RAÄ, CC BY SAFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Hans Thorwid / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Hans Thorwid / Nationalmuseum, Public DomainOn displayAdd to my collectionCopy bookmarkable linkThe Red Rocks at Cività CastellanaCamille Jean Baptiste Corot (1796 - 1875)Artist/MakerArtist: Camille Jean Baptiste Corot (1796 - 1875)DatesMade: Made c. 1827Material / Techniq",
+            "visible": true,
+            "boundingBox": {
+              "x": 1016,
+              "y": 866,
+              "width": 114,
+              "height": 92
+            },
+            "naturalWidth": 280,
+            "naturalHeight": 225,
+            "elementKind": "img",
+            "elementIndex": 26,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/19119/",
+            "identityScore": 1320
+          },
+          {
+            "candidateId": "page-image-003",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/5/multimedia-225135.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > img",
+            "alt": "",
+            "nearbyText": "Foto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Hans Thorwid / Nationalmuseum, Public DomainNationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Magnus Mårtensson / RAÄ, CC BY SAFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Hans Thorwid / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Hans Thorwid / Nationalmuseum, Public DomainOn displayAdd to my collectionCopy bookmarkable linkThe Red Rocks at Cività CastellanaCamille Jean Baptiste Corot (1796 - 1875)Artist/MakerArtist: Camille Jean Baptiste Corot (1796 - 1875)DatesMade: Made c. 1827Material / Techniq",
+            "visible": true,
+            "boundingBox": {
+              "x": 47,
+              "y": 862,
+              "width": 137,
+              "height": 100
+            },
+            "naturalWidth": 280,
+            "naturalHeight": 204,
+            "elementKind": "img",
+            "elementIndex": 19,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/19119/",
+            "identityScore": 1320
+          },
+          {
+            "candidateId": "page-image-004",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/1/multimedia-1003551.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(9) > img",
+            "alt": "",
+            "nearbyText": "Foto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Hans Thorwid / Nationalmuseum, Public DomainNationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Magnus Mårtensson / RAÄ, CC BY SAFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Hans Thorwid / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Hans Thorwid / Nationalmuseum, Public DomainOn displayAdd to my collectionCopy bookmarkable linkThe Red Rocks at Cività CastellanaCamille Jean Baptiste Corot (1796 - 1875)Artist/MakerArtist: Camille Jean Baptiste Corot (1796 - 1875)DatesMade: Made c. 1827Material / Techniq",
+            "visible": true,
+            "boundingBox": {
+              "x": 1140,
+              "y": 866,
+              "width": 126,
+              "height": 92
+            },
+            "naturalWidth": 280,
+            "naturalHeight": 204,
+            "elementKind": "img",
+            "elementIndex": 27,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/19119/",
+            "identityScore": 1320
+          },
+          {
+            "candidateId": "page-image-005",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/2/multimedia-490382.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(5) > img",
+            "alt": "",
+            "nearbyText": "Foto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Hans Thorwid / Nationalmuseum, Public DomainNationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Magnus Mårtensson / RAÄ, CC BY SAFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Hans Thorwid / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Hans Thorwid / Nationalmuseum, Public DomainOn displayAdd to my collectionCopy bookmarkable linkThe Red Rocks at Cività CastellanaCamille Jean Baptiste Corot (1796 - 1875)Artist/MakerArtist: Camille Jean Baptiste Corot (1796 - 1875)DatesMade: Made c. 1827Material / Techniq",
+            "visible": true,
+            "boundingBox": {
+              "x": 615,
+              "y": 866,
+              "width": 128,
+              "height": 92
+            },
+            "naturalWidth": 280,
+            "naturalHeight": 201,
+            "elementKind": "img",
+            "elementIndex": 23,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/19119/",
+            "identityScore": 1320
+          }
+        ]
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "aiDecision": {
+        "workId": "corot-red-rocks-civita-castellana-nm2060",
+        "status": "candidate_found",
+        "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/19119/",
+        "selectedImage": {
+          "candidateId": "page-image-001",
+          "imageUrl": "https://collection.nationalmuseum.se/multimedia/3/multimedia-492103.small.jpg",
+          "candidateType": "direct_image",
+          "imageRole": "object_view",
+          "caption": "The Red Rocks at Cività Castellana",
+          "identityEvidence": [
+            "Official Nationalmuseum collection page identifies Camille Corot's painting as NM 2060.",
+            "Candidate is an image element on the identified object page."
+          ],
+          "confidence": 0.98
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "warnings": [
+        "selected candidate processing failed: image returned 403"
+      ],
+      "retried": true
+    },
+    {
+      "workId": "renoir-la-grenouillere-nm2425",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "renoir-la-grenouillere-nm2425",
+        "title": "La Grenouillère",
+        "objectType": "painting",
+        "titleZh": "",
+        "titleEn": "La Grenouillère",
+        "creator": "Auguste Renoir",
+        "artistOrCulture": "Auguste Renoir",
+        "displayDate": "1869",
+        "medium": "Oil on canvas",
+        "identityAnchor": "NM 2425",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/19486/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/19486/",
+        "accessionNumber": "NM 2425",
+        "collectionGroup": "主馆绘画与雕塑收藏／1870–1900年绘画"
+      },
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/19486/",
+      "page": {
+        "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/19486/",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/19486/",
+        "pageTitle": "La Grenouillère | Nationalmuseum",
+        "bodyText": "This website uses cookies\nWe use device identifiers to adapt the content of the site and analyse how it is used. We also forward these identifiers and other information from your device to the social media and the advertising and analysis companies that we collaborate with.  \nConsent Selection\nNecessary\nPreferences\nStatistics\nMarketing and videos\nShow details\nAllow all\nAllow selection\nDeny\nEN\nHome\nObjects\nPersons\nMy Collection\nFoto: Anna Danielsson / Nationalmuseum, Public Domain\nFoto: Anna Danielsson / Nationalmuseum, CC BY SA\nFoto: Nationalmuseum, Public Domain\nFoto: Anna Danielsson / Nationalmuseum, Public Domain\nFoto: Nationalmuseum, Public Domain\nFoto: Anna Danielsson / Nationalmuseum, Public Domain\nFoto: Anna Danielsson / Nationalmuseum, CC BY SA\nNot on display\nWikimedia Commons\nAdd to my collection\nCopy bookmarkable link\nLa Grenouillère\nAuguste Renoir (1841 - 1919)\n\nArtist/Maker\nArtist: Auguste Renoir (1841 - 1919)\n\nDates\nMade: 1869\n\nMaterial / Technique\nOil on canvas\n\nDimensions\nh x w: Mått 66,5 x 81 cm\nh x w x d: utställningsram 84 x 99 x 8 cm\nh x w x d: Original ram 95,5 x 111,5 x 12 cm\n\nInventory number\nNM 2425\n\nAcqusition\nGift 1924 unknown donor through Nationalmusei Vänner\n\nOther titles\nTitle (sv): La Grenouillère\nTitle (en): La Grenouillère\n\nDescription\nDescription: In the short story, Paul’s mistress, the French author Guy de Maupassant describes the floating café La Grenouillère in a Paris suburb: “In the environs a crowd of people were strolling... prostitutes with yellow hair and protruding breasts... plastered with rouge ... rigged out in outrageous dresses ... while beside them young dandies postured in the latest fashion. In the floating establishment, the uproarious crowd made a deafening noise.”\n\nDepicted place\nParis (France)\n\nMotif category\nLandscape\n\nCollection\nPaintings (Paintings)\n\nMaterial\nDuk, Oil paint\n\nTechnique\nPainting\n\nObject category\npainting\n\nKeyword\nScen, Landskap\n\nExternal links\nWikidata: http://www.wikidata.org/entity/Q10908882\n\nAdditional texte\nCatalogue text: La Grenouillère – the Frog Pond – was a popular destination for outings, close to Paris. The artists Auguste Renoir and Claude Monet spent time there in September 1869, painting the place several times, from different perspectives. These pictures, with their unmixed colours and sketchy brushwork, are regarded as the first fully fledged examples of Impressionist art. The present painting is one of the Nationalmuseum’s internationally best-known artworks – constantly in demand for exhibitions around the world.\n\nDescription: La Grenouillère, the frog pond was a popular venue for outings from Paris and for bathing in the summer, situated outside Bougival to the west of the capital. The sun is filtered through the green leaves and it sparkles on the surface of the river Seine. People are bathing. Some are in boats, rowing or sailing on the river. A group of men in suits and women wearing crinolines have sought shade beneath a tree on the little artificial island known as Camembert or the flowerpot.\nIt is the summer of 1869 and the painter Auguste Renoir and his colleague and friend Claude Monet are spending some days together. They paint the same subject. They compete to see which of them can most rapidly capture his subjective impressions of what he sees on canvas. Renoir's painting is made up of short and quick brushstrokes using colours straight out of the tube. It is an instant impression caught in a shimmer of colours and reflections from the water. To his contemporaries the painting seemed unfinished; a mere sketch. But today we consider it a textbook example of impressionism.\nThe impressionists’ rapid, sketchy way of painting – their desire to portray their impressions directly on the canvas – was something new. They were breaking with a tradition and they challenged the artistic taste of the times. La Grenouillère represents not only a new way of painting. The subject chosen was also new. They portrayed modernity, la vie moderne, with its commercial and public life. They painted the new department stores, the cafés, the parks and theatres. The male artists were flâneurs, people who wandered randomly about the city observing it. For them, Paris and its environs was a public stage.\nThis stage was entirely segregated as to gender and class in a way that we are often hardly conscious of today. One example of this is to be found in the perspective on the city that one finds among the women impressionists; for example in paintings by Berthe Morisot and Mary Cassat. They portray the city from balconies or a box at the theatre. It was not possible for them to observe street life like the flâneurs; and there were no flâneuses. The gaze of the flâneur is an expression of masculine heterosexuality with freedom to see, to value and to own in fact or in imagination. The role of prostitution in modernity, accessibility to the women of the poorer classes, figures prominently in their paintings.\nSubjects that we can experience as idyllic today had a very different meaning to people at the time.\nIn Guy de Maupassant's short story La femme de Paul from the 1880s we find a very different picture of La Grenouillère:\nThe water-side café was terribly noisy. Rivulets of beer ran across the tables between half-empty glasses and semi-inebriated people. […] The men sat there with their hats on the back of their heads and their florid, red faces and watery eyes; […] The women, looking for the evening's catch, accepted glasses of beer or wine in the meantime […] The whole place stinks of stupidity, of the rabble, of love for sale.\n[2013-10-04] Webbtexten sv inlagd ; eng Teknik / Material och eng Förvärv inlagt. Från webbutställning Det Moderna Livet [ABD]\n\nExhibition text: When Renoir painted La Grenouillère, few would even have regarded it as art. Today, this is one of the Nationalmuseum’s best-known works – constantly in demand for exhibitions around the world. In September 1869 Renoir visited, together with Claude Monet, La Grenouillère – a popular destination for outings, close to Paris. They painted the place several times. These pictures, with their unmixed colours and sketchy brushwork, are regarded as the first fully fledged examples of Impressionist art.\n\nSHOW MORE\n⌵\nContact information\nTel: 08-519 543 00\nE-Mail: info@nationalmuseum.se\nContact us\nMore information\nAbout the collection\nImages and copyrights\nHow to use the online collection\nFollow us\nAbout Nationalmuseum\nOpening Hours\nExhibitions\nFree Images On Wikimedia",
+        "candidateCount": 32,
+        "candidates": [
+          {
+            "candidateId": "page-image-001",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/1/multimedia-746031.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > img",
+            "alt": "",
+            "nearbyText": "Foto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, CC BY SAFoto: Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, CC BY SANot on displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkLa GrenouillèreAuguste Renoir (1841 - 1919)Artist/MakerArtist: Auguste Renoir (1841 - 1919)DatesMade: 1869Material / TechniqueOil on canvasDimensionsh x w: Mått 66,5 x 81 cm\nh x w x d: utställningsram 84 x 99 x 8 cm\nh x w x d: Original ram 95,5 x 111,5 x 12 cmInventory numberNM 2425AcqusitionGift 1924 unknown donor through Nationalmusei VännerOther titlesTitle (sv): La Grenouillère\nTitle (en): La Gr",
+            "visible": true,
+            "boundingBox": {
+              "x": 418,
+              "y": 862,
+              "width": 119,
+              "height": 100
+            },
+            "naturalWidth": 280,
+            "naturalHeight": 235,
+            "elementKind": "img",
+            "elementIndex": 14,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/19486/",
+            "identityScore": 1320
+          },
+          {
+            "candidateId": "page-image-002",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/7/multimedia-969267.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(5) > img",
+            "alt": "",
+            "nearbyText": "Foto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, CC BY SAFoto: Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, CC BY SANot on displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkLa GrenouillèreAuguste Renoir (1841 - 1919)Artist/MakerArtist: Auguste Renoir (1841 - 1919)DatesMade: 1869Material / TechniqueOil on canvasDimensionsh x w: Mått 66,5 x 81 cm\nh x w x d: utställningsram 84 x 99 x 8 cm\nh x w x d: Original ram 95,5 x 111,5 x 12 cmInventory numberNM 2425AcqusitionGift 1924 unknown donor through Nationalmusei VännerOther titlesTitle (sv): La Grenouillère\nTitle (en): La Gr",
+            "visible": true,
+            "boundingBox": {
+              "x": 922,
+              "y": 866,
+              "width": 110,
+              "height": 92
+            },
+            "naturalWidth": 280,
+            "naturalHeight": 235,
+            "elementKind": "img",
+            "elementIndex": 18,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/19486/",
+            "identityScore": 1320
+          },
+          {
+            "candidateId": "page-image-003",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/1/multimedia-174191.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > img",
+            "alt": "",
+            "nearbyText": "Foto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, CC BY SAFoto: Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, CC BY SANot on displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkLa GrenouillèreAuguste Renoir (1841 - 1919)Artist/MakerArtist: Auguste Renoir (1841 - 1919)DatesMade: 1869Material / TechniqueOil on canvasDimensionsh x w: Mått 66,5 x 81 cm\nh x w x d: utställningsram 84 x 99 x 8 cm\nh x w x d: Original ram 95,5 x 111,5 x 12 cmInventory numberNM 2425AcqusitionGift 1924 unknown donor through Nationalmusei VännerOther titlesTitle (sv): La Grenouillère\nTitle (en): La Gr",
+            "visible": true,
+            "boundingBox": {
+              "x": 548,
+              "y": 866,
+              "width": 114,
+              "height": 92
+            },
+            "naturalWidth": 280,
+            "naturalHeight": 226,
+            "elementKind": "img",
+            "elementIndex": 15,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/19486/",
+            "identityScore": 1320
+          },
+          {
+            "candidateId": "page-image-004",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/6/multimedia-916026.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(4) > img",
+            "alt": "",
+            "nearbyText": "Foto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, CC BY SAFoto: Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, CC BY SANot on displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkLa GrenouillèreAuguste Renoir (1841 - 1919)Artist/MakerArtist: Auguste Renoir (1841 - 1919)DatesMade: 1869Material / TechniqueOil on canvasDimensionsh x w: Mått 66,5 x 81 cm\nh x w x d: utställningsram 84 x 99 x 8 cm\nh x w x d: Original ram 95,5 x 111,5 x 12 cmInventory numberNM 2425AcqusitionGift 1924 unknown donor through Nationalmusei VännerOther titlesTitle (sv): La Grenouillère\nTitle (en): La Gr",
+            "visible": true,
+            "boundingBox": {
+              "x": 798,
+              "y": 866,
+              "width": 114,
+              "height": 92
+            },
+            "naturalWidth": 280,
+            "naturalHeight": 226,
+            "elementKind": "img",
+            "elementIndex": 17,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/19486/",
+            "identityScore": 1320
+          },
+          {
+            "candidateId": "page-image-005",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/4/multimedia-487774.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > img",
+            "alt": "",
+            "nearbyText": "Foto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, CC BY SAFoto: Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, CC BY SANot on displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkLa GrenouillèreAuguste Renoir (1841 - 1919)Artist/MakerArtist: Auguste Renoir (1841 - 1919)DatesMade: 1869Material / TechniqueOil on canvasDimensionsh x w: Mått 66,5 x 81 cm\nh x w x d: utställningsram 84 x 99 x 8 cm\nh x w x d: Original ram 95,5 x 111,5 x 12 cmInventory numberNM 2425AcqusitionGift 1924 unknown donor through Nationalmusei VännerOther titlesTitle (sv): La Grenouillère\nTitle (en): La Gr",
+            "visible": true,
+            "boundingBox": {
+              "x": 672,
+              "y": 866,
+              "width": 116,
+              "height": 92
+            },
+            "naturalWidth": 280,
+            "naturalHeight": 222,
+            "elementKind": "img",
+            "elementIndex": 16,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/19486/",
+            "identityScore": 1320
+          }
+        ]
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "aiDecision": {
+        "workId": "renoir-la-grenouillere-nm2425",
+        "status": "candidate_found",
+        "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/19486/",
+        "selectedImage": {
+          "candidateId": "page-image-001",
+          "imageUrl": "https://collection.nationalmuseum.se/multimedia/1/multimedia-746031.small.jpg",
+          "candidateType": "direct_image",
+          "imageRole": "object_view",
+          "caption": "La Grenouillère",
+          "identityEvidence": [
+            "Official Nationalmuseum collection page identifies Auguste Renoir's painting as NM 2425.",
+            "Candidate is an image element on the identified object page."
+          ],
+          "confidence": 0.98
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "warnings": [
+        "selected candidate processing failed: image returned 403"
+      ],
+      "retried": true
+    },
+    {
+      "workId": "rembrandt-self-portrait-nm5324",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "rembrandt-self-portrait-nm5324",
+        "title": "Self-Portrait",
+        "objectType": "painting",
+        "titleZh": "",
+        "titleEn": "Self-Portrait",
+        "creator": "Rembrandt Harmensz. van Rijn",
+        "artistOrCulture": "Rembrandt Harmensz. van Rijn",
+        "displayDate": "1630",
+        "medium": "Oil on copper",
+        "identityAnchor": "NM 5324",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/22374/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/22374/",
+        "accessionNumber": "NM 5324",
+        "collectionGroup": "主馆绘画与雕塑收藏／17世纪绘画"
+      },
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_Harmensz._van_Rijn_-_Selfportrait_-_Google_Art_Project.jpg",
+      "page": {
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_Harmensz._van_Rijn_-_Selfportrait_-_Google_Art_Project.jpg",
+        "finalUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_Harmensz._van_Rijn_-_Selfportrait_-_Google_Art_Project.jpg",
+        "pageTitle": "File:Rembrandt Harmensz. van Rijn - Selfportrait - Google Art Project.jpg - Wikimedia Commons",
+        "bodyText": "Jump to content\nMain menu\nSearch\nEnglish\nDonate\nCreate account\nLog in\nContents hide\nBeginning\nSummary\nLicensing\nFile:Rembrandt Harmensz. van Rijn - Selfportrait - Google Art Project.jpg\nFile\nDiscussion\nRead\nEdit\nView history\nTools\nAppearance hide\nText\nSmall\nStandard\nLarge\n\nThis page always uses small font size\n\nWidth\nStandard\nWide\nColor (beta)\nAutomatic\nLight\nDark\nFile File history File usage on Commons File usage on other wikis\nDownload\nall sizes\nUse this file\non the web\nUse this file\non a wiki\nEmail a link\nto this file\nInformation\nabout reusing\nSize of this preview: 500 × 619 pixels. Other resolutions: 250 × 310 pixels | 500 × 619 pixels | 960 × 1,189 pixels | 1,920 × 2,377 pixels | 3,840 × 4,754 pixels.\nOriginal file (3,662 × 4,534 pixels, file size: 3.55 MB, MIME type: image/jpeg); ZoomViewer\nOpen in Media Viewer\nFile information\nStructured data\nCaptions\nEdit\nEnglish\nAdd a one-line explanation of what this file represents\nSummaryedit\nRembrandt: Self-portrait   \nArtist\t\nRembrandt (1606–1669)    \n \n\n\n\t\n\nTitle\t\nSelf-portrait\n\nObject type\tpainting \nGenre\tself-portrait \nDepicted people\tRembrandt \nDate\t1630\nMedium\toil on copper\nDimensions\theight: 15.5 cm (6.1 in); width: 12 cm (4.7 in)\nCollection\t\nNationalmuseum   \n\nAccession number\t\nNM 5324\n\nObject history\tby 1768: Elias van der Hoeven (1698-1768), Rotterdam\n\n\n20 July 1768: purchased by Johan van der Marck Aegidiusz. (1707-1772), Leiden, at the sale of the collection of Elias van der Hoeven at an unknown auction house, Rotterdam, lot no. 28, for NLG 30 (as ‘Een fraay Kopje, zeer uitvoerig, door Rembrant van Rhyn, zynde zyn eige Pourtrait’)\n25 August 1773 sqq.: purchased by Fouquet at the sale of the collection of Johan van der Marck Ægidz., Leiden, at Hendrik de Winter and Jan Yver, Amsterdam, lot no. 446, for NLG 50 (as ‘REMBRAND van Rhyn [...] 446 Dezen Kunst-held heeft zich zelve in dit Stuk verbeeld, met een Mantel om en een Fluweele Mutz op ’t Hoofd. Zeer kragtig geschilderd op Koper, h. 5¾ b. 4¾ duim’)\nUnknown date: acquired by Comte Duchatel, Paris\nUnknown date: acquired by Comtesse Henri Delaborde, Paris\nUnknown date: acquired by Frits Lugt (1884-1970), The Hague/Maartensdijk\n\n\nUnknown date: Private collection, Vienna\n1956: given to the Nationalmuseum, Stockholm, by Friends of the NM\n\nExhibition history\t\n\nRembrandt och hans tid, Nationalmuseum, Stockholm, 2 October 1992–6 January 1993, ISBN 91-7100-416-5, cat. no.  31.\n\n\nRembrandt by himself/Rembrandt zelf, 5 June 1999–5 September 1999, National Gallery, London, 25 September 1999–9 January 2000, Koninklijk Kabinet van Schilderijen Mauritshuis, The Hague, Cat.no. 18.\n\nCredit line\tGåva av NM Vänner med bidrag av Rembrandtutställningen 1956\nInscriptions\t\nMonogram and date top left:\nR[...] 1630\n\nReferences\tNationalmuseum, as Selfportrait, height: 15.5 cm (6.1 in); width: 12 cm (4.7 in).\nRKDimages, Art-work number 29674, as Self Portrait, height: 15.5 cm (6.1 in); width: 12.2 cm (4.8 in)\nSource/Photographer\tGoogle Arts & Culture — WAGlk3EYZbNjQQ\nOther versions\t\n\tFile:Rembrandt van Rijn 199.jpg\n\n\tFile:Rembrandt auto 01.JPG\nVersion by Wikimedia Commons\nLicensingedit\nThis is a faithful photographic reproduction of a two-dimensional, public domain work of art. The work of art itself is in the public domain for the following reason:\n\t\n\nThe author died in 1669, so this work is in the public domain in its country of origin and other countries and areas where the copyright term is the author's life plus 100 years or fewer.\n\nThis work is in the public domain in the United States because it was published (or registered with the U.S. Copyright Office) before January 1, 1931.\n\n\nThis file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.\nThe official position taken by the Wikimedia Foundation is that \"faithful reproductions of two-dimensional public domain works of art are public domain\".\nThis photographic reproduction is therefore also considered to be in the public domain in the United States. In other jurisdictions, re-use of this content may be restricted; see Reuse of PD-Art photographs for details.\nFile history\n\nClick on a date/time to view the file as it appeared at that time.\n\n\tDate/Time\tThumbnail\tDimensions\tUser\tComment\ncurrent\t01:43, 22 October 2012\t\t3,662 × 4,534 (3.55 MB)\tDcoetzeeBot (talk | contribs)\t=={{int:filedesc}}== {{Google Art Project |commons_artist={{Creator:Rembrandt}} |commons_title= |commons_description= |commons_date= |commons_medium= |commons_dimensions= |commons_institution= |commons_location= |commons_references= |commons_object_his...\n\nYou cannot overwrite this file.\n\nFile usage on Commons\n\nThe following 12 pages use this file:\n\nA Corpus of Rembrandt Paintings VI\nRembrandt/1624-1634\nRembrandt catalogue raisonné, 1908\nRembrandt catalogue raisonné, 1914\nRembrandt catalogue raisonné, 1935\nRembrandt catalogue raisonné, 1968\nRembrandt catalogue raisonné, 1969 Lecaldano\nRembrandt catalogue raisonné, 1986\nRembrandt catalogue raisonné, 1992 Slatkes\nFile:Rembrandt Harmensz. van Rijn - Selfportrait - Google Art Project.jpg\nFile:Rembrandt auto 01.JPG\nFile:Rembrandt van Rijn 199.jpg\nFile usage on other wikis\n\nThe following other wikis use this file:\n\nUsage on ar.wikipedia.org\nقائمة لوحات فنية مسروقة\nUsage on arz.wikipedia.org\nاللوحات الفنيه المسروقه\nUsage on as.wikipedia.org\nৰে'ম্ব্ৰেণ্ট\nUsage on bg.wikipedia.org\nМаслена живопис\nUsage on el.wikipedia.org\nΚατάλογος έργων του Ρέμπραντ\nUsage on hy.wikipedia.org\nՄասնակից:Grqaser/Ավազարկղ3\nՌեմբրանդի նկարների ցանկ\nUsage on ml.wikipedia.org\nഎണ്ണച്ചായ ചിത്രകല\nUsage on nl.wikipedia.org\nLijst van schilderijen van Rembrandt van Rijn\nUsage on ru.wikipedia.org\nУчастник:Villarreal9/Список картин Рембрандта\nСписок картин Рембрандта\nUsage on sv.wikipedia.org\nAnvändare:Jane023/Nationalmuseum samling\nAnvändare:André Costa (WMSE)/Natmus2\nUsage on uk.wikipedia.org\nСтанковий живопис\nCategory: Self-portrait (Rembrandt, 1630)\nHidden categories: Unknown dateFiles from Google Arts & CultureArtworks with known accession numberArtworks with Wikidata itemArtworks digital representation of 2D workCC-PD-MarkPD-old-100-expiredPD-Art (PD-old-100-expired)Google Art Project works by Rembrandt\nThis page was last edited on 22 March 2026, at 00:07.\nFiles are available under licenses specified on their description page. All structured data from the file namespace is available under the Creative Commons CC0 License; all unstructured text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and the Privacy Policy.\nPrivacy policy\nAbout Wikimedia Commons\nDisclaimers\nLegal & safety contacts\nCode of Conduct\nDevelopers\nStatistics\nCookie statement\nMobile view",
+        "candidateCount": 87,
+        "candidates": [
+          {
+            "candidateId": "page-image-001",
+            "candidateType": "direct_image",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Selfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif/lossy-page1-500px-Selfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif.jpg",
+            "selector": "td#fileinfotpl_creator_image > div > span > a > img",
+            "alt": "image of artwork listed in title parameter on this page",
+            "nearbyText": "Toggle the table of contents\n\t\n\t\n\n\n\t\t\t\t\t\t\t\n\t\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\tFile:Rembrandt Harmensz. van Rijn - Selfportrait - Google Art Project.jpg\n\t\t\t\t\t\t\n\t\t\n\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\n\t\t\n\t\t\n\t\t\tFile\n\nDiscussion\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\t\t\t\n\n\t\n\tEnglish\n\t\n\t\n\n\n\t\t\t\t\t\n\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\n\t\n\n\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t    \n\n\t\n\t\t\n\t\t\n\t\t\tRead\n\nEdit\n\nView history\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\n\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\n\t\n\nTools\n\t\n\t\n\n\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\n\t\n\tTools\n\tmove to sidebar\n\thide\n\n\n\t\n\n\t\n\t\tActions\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\nRead\n\n\n\nEdit\n\n\n\nView history\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\n\t\n\t\tGeneral\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tWhat links hereRelated changesPermanent linkPage informationCite this pageGet shortened URLConcept URI\n\t\tExpand allNominate for deletion\n\t\t\n\t\n\n\n\n\t\n\t\tPrint/export\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tDownload as PDFPrintable version\n\t",
+            "visible": true,
+            "boundingBox": {
+              "x": 962,
+              "y": 1177,
+              "width": 202,
+              "height": 250
+            },
+            "naturalWidth": 250,
+            "naturalHeight": 310,
+            "elementKind": "img",
+            "elementIndex": 21,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_Harmensz._van_Rijn_-_Selfportrait_-_Google_Art_Project.jpg",
+            "identityScore": 1320
+          },
+          {
+            "candidateId": "page-image-002",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Selfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif/lossy-page1-250px-Selfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif.jpg",
+            "contentType": "image/jpeg",
+            "sourceType": "network_image",
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_Harmensz._van_Rijn_-_Selfportrait_-_Google_Art_Project.jpg",
+            "identityScore": 1290
+          },
+          {
+            "candidateId": "page-image-003",
+            "candidateType": "direct_image",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Gtk-dialog-info-14px.png",
+            "selector": "div#wpImageAnnotatorWrapper > div > p:nth-of-type(4) > span:nth-of-type(3) > span > a > img",
+            "alt": "This file has annotations",
+            "nearbyText": "",
+            "visible": false,
+            "boundingBox": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "naturalWidth": 14,
+            "naturalHeight": 14,
+            "elementKind": "img",
+            "elementIndex": 40,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_Harmensz._van_Rijn_-_Selfportrait_-_Google_Art_Project.jpg",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-004",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/MediaWiki_Vector_skin_right_arrow.png",
+            "contentType": "image/png",
+            "sourceType": "network_image",
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_Harmensz._van_Rijn_-_Selfportrait_-_Google_Art_Project.jpg",
+            "identityScore": -10
+          },
+          {
+            "candidateId": "page-image-005",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Gtk-dialog-info-14px.png",
+            "contentType": "image/png",
+            "sourceType": "network_image",
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_Harmensz._van_Rijn_-_Selfportrait_-_Google_Art_Project.jpg",
+            "identityScore": -10
+          }
+        ]
+      },
+      "status": "object_image_accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Selfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif/lossy-page1-500px-Selfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_Harmensz._van_Rijn_-_Selfportrait_-_Google_Art_Project.jpg",
+        "sourceType": "page_image",
+        "caption": "Rembrandt: Self-portrait",
+        "identityEvidence": [
+          "Wikimedia Commons page identifies the work as Rembrandt's Self-portrait, dated 1630, in the Nationalmuseum collection.",
+          "The page explicitly lists accession number NM 5324.",
+          "Candidate is the artwork image shown on the file page."
+        ],
+        "confidence": 0.99,
+        "localPath": "research/runs/experiment/nationalmuseum-image-repair-01/20260801T163257Z-p2.13.12/image-evidence/assets/rembrandt-self-portrait-nm5324.jpg",
+        "sha256": "65cb97953d716d8165666c7796d57c585896d30e6982b989550b2b26e67747fc",
+        "width": 500,
+        "height": 619,
+        "contentType": "image/jpeg",
+        "method": "ai_page_candidate_download",
+        "provider": "page-image-candidate",
+        "imageRole": "object_view",
+        "candidateId": "page-image-001"
+      },
+      "aiDecision": {
+        "workId": "rembrandt-self-portrait-nm5324",
+        "status": "candidate_found",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_Harmensz._van_Rijn_-_Selfportrait_-_Google_Art_Project.jpg",
+        "selectedImage": {
+          "candidateId": "page-image-001",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Selfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif/lossy-page1-500px-Selfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif.jpg",
+          "candidateType": "direct_image",
+          "imageRole": "object_view",
+          "caption": "Rembrandt: Self-portrait",
+          "identityEvidence": [
+            "Wikimedia Commons page identifies the work as Rembrandt's Self-portrait, dated 1630, in the Nationalmuseum collection.",
+            "The page explicitly lists accession number NM 5324.",
+            "Candidate is the artwork image shown on the file page."
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "warnings": [],
+      "retried": true
+    },
+    {
+      "workId": "rembrandt-simeon-in-the-temple-nm4567",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "rembrandt-simeon-in-the-temple-nm4567",
+        "title": "Simeon in the Temple",
+        "objectType": "painting",
+        "titleZh": "",
+        "titleEn": "Simeon in the Temple",
+        "creator": "Rembrandt Harmensz. van Rijn",
+        "artistOrCulture": "Rembrandt Harmensz. van Rijn",
+        "displayDate": "c. 1669",
+        "medium": "Oil on canvas",
+        "identityAnchor": "NM 4567",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/21617/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/21617/",
+        "accessionNumber": "NM 4567",
+        "collectionGroup": "主馆绘画与雕塑收藏／17世纪绘画"
+      },
+      "fastPath": {
+        "status": "fast_candidate_found",
+        "pageTitle": "Simeon in the Temple | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/21617/",
+        "fastCandidate": {
+          "id": "dom-19",
+          "url": "https://collection.nationalmuseum.se/multimedia/7/multimedia-175027.small.jpg",
+          "alt": "",
+          "caption": "",
+          "nearbyText": "Foto: Erik Cornelius / Nationalmuseum, Public Domain\nFoto: Erik Cornelius / Nationalmuseum, Public Domain\n© Foto: Erik Cornelius / Nationalmuseum, CC BY SA\nFoto: Hans Thorwid / Nationalmuseum, Public Domain\n© Foto: Erik Cornelius / Nationalmuseum, CC BY SA\nFoto: Erik Cornelius / Nationalmuseum\nFoto: Nationalmuseum\nFoto: Erik Cornelius / Nationalmuseum, CC BY SA\nFoto: Magnus Mårtensson / RAÄ, CC BY SA\nFoto: Erik Cornelius / Nationalmuseum, Public Domain\nFoto: Erik Cornelius / Nationalmuseum, Public Domain\nOn display\nAdd to my collection\nCopy bookmarkable link\nSimeon in the Temple\nRembrandt Harmensz. van Rijn (1606 - 1669)\n\nArtist/Maker\nArtist: Rembrandt Harmensz. van Rijn (1606 - 1669)\n\nDates\nMade: Made c. 1669\n\nMaterial / Technique\nOil on canvas\n\nDimensions\nh x w: Mått 98,5 x 79,5 cm\nh x w x d: Ram 122 x 103 x 10 cm\n\nInventory number\nNM 4567\n\nAcqusition\nGift 1949 Mr Nils B. Hersloff\n\nOther titles\nTitle (sv): Simeon i templet\nTitle (en): Simeon in the Temple\n\nDescription\nDescription: Ac",
+          "width": 236,
+          "height": 280,
+          "figureCaptionRelation": false,
+          "identitySignals": [
+            "accession_number_match",
+            "page_title_and_artist_match",
+            "title_match",
+            "creator_match"
+          ],
+          "method": "official_object_image",
+          "provider": "generic-html"
+        },
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-175027.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-964247.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-175027.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-178581.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/3/multimedia-184643.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-353202.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-421781.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-421882.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/6/multimedia-698946.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-756229.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-964247.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-175027.large.jpg",
+          "https://collection.nationalmuseum.se/icons/bigLeftArrow.svg",
+          "https://collection.nationalmuseum.se/icons/bigRightArrow.svg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-175027.small.jpg"
+        ],
+        "fastPageSignals": [
+          "accession_number_match",
+          "page_title_and_artist_match",
+          "title_match",
+          "creator_match"
+        ]
+      },
+      "status": "object_image_accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Rembrandt_-_Simeon_in_the_Temple_DSC6899.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_-_Simeon_in_the_Temple_DSC6899.jpg",
+        "sourceType": "wikimedia",
+        "caption": "Simeon in the Temple, Rembrandt, Nationalmuseum NM 4567",
+        "identityEvidence": [
+          "Commons file identifies Rembrandt, Nationalmuseum accession NM 4567, and the subject Simeon in the Temple.",
+          "Official Nationalmuseum page confirms the title, artist, date c. 1669, and inventory number NM 4567."
+        ],
+        "confidence": 0.99,
+        "localPath": "research/runs/production/nationalmuseum/20260801T152615Z-p2.13.12/image-evidence/assets/rembrandt-simeon-in-the-temple-nm4567.jpg",
+        "sha256": "0aaf76a1ab53fb34279f330501769e194f65628167c7ee2e42ced57975dbbfda",
+        "width": 3479,
+        "height": 4092,
+        "contentType": "image/jpeg",
+        "method": "ai_image_research",
+        "provider": "wikimedia",
+        "evidenceId": "img:nationalmuseum:rembrandt-simeon-in-the-temple-nm4567:0aaf76a1ab53"
+      },
+      "warnings": [
+        "fast path download failed: image returned 403"
+      ],
+      "durationMs": 10834,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "rembrandt-simeon-in-the-temple-nm4567",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rembrandt_-_Simeon_in_the_Temple_DSC6899.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_-_Simeon_in_the_Temple_DSC6899.jpg",
+          "sourceType": "wikimedia",
+          "caption": "Simeon in the Temple, Rembrandt, Nationalmuseum NM 4567",
+          "identityEvidence": [
+            "Commons file identifies Rembrandt, Nationalmuseum accession NM 4567, and the subject Simeon in the Temple.",
+            "Official Nationalmuseum page confirms the title, artist, date c. 1669, and inventory number NM 4567."
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "reusedFromParent": true,
+      "parentEvidencePath": "research/runs/production/nationalmuseum/20260801T152615Z-p2.13.12/image-evidence/verified-image-evidence.json",
+      "parentEvidenceSha256": "b63f4af262a1aafdb607e9a4934800225b607a198a582e9499117b2c13ff57e5"
+    },
+    {
+      "workId": "liljefors-fox-family-nm1376",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "liljefors-fox-family-nm1376",
+        "title": "A Fox Family",
+        "objectType": "painting",
+        "titleZh": "",
+        "titleEn": "A Fox Family",
+        "creator": "Bruno Liljefors",
+        "artistOrCulture": "Bruno Liljefors",
+        "displayDate": "1886",
+        "medium": "Oil on canvas",
+        "identityAnchor": "NM 1376",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/18379/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/18379/",
+        "accessionNumber": "NM 1376",
+        "collectionGroup": "主馆绘画与雕塑收藏／世纪之交绘画"
+      },
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18379/",
+      "page": {
+        "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18379/",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/18379/",
+        "pageTitle": "A Fox Family | Nationalmuseum",
+        "bodyText": "This website uses cookies\nWe use device identifiers to adapt the content of the site and analyse how it is used. We also forward these identifiers and other information from your device to the social media and the advertising and analysis companies that we collaborate with.  \nConsent Selection\nNecessary\nPreferences\nStatistics\nMarketing and videos\nShow details\nAllow all\nAllow selection\nDeny\nEN\nHome\nObjects\nPersons\nMy Collection\nFoto: Nationalmuseum, Public Domain\nFoto: Anna Danielsson / Nationalmuseum, Public Domain\nPublic Domain\nFoto: Nationalmuseum, Public Domain\nFoto: Nationalmuseum, Public Domain\nFoto: Anna Danielsson / Nationalmuseum, Public Domain\nNot on display\nWikimedia Commons\nAdd to my collection\nCopy bookmarkable link\nA Fox Family\nBruno Liljefors (1860 - 1939)\n\nArtist/Maker\nArtist: Bruno Liljefors (1860 - 1939)\n\nDates\nMade: Sign. 1886\n\nMaterial / Technique\nOil on canvas\n\nDimensions\nh x w: Mått 112 x 218 cm\nh x w x d: Ram 125 x 228 x 6 cm\n\nInventory number\nNM 1376\n\nAcqusition\nPurchase 1886\n\nOther titles\nTitle (sv): Rävfamilj\nTitle (en): A Fox Family\n\nDescription\nDescription: Bruno Liljefors’ paintings were based on a profound knowledge of nature – of its animals and every minute detail about their habitats. The undergrowth in A Fox Family matches the fox kits’ stage of development. Sometime in early summer, they are mature enough to eat solid food instead of suckling. This is the time when cow-parsley comes into flower, whereas the dandelions have gone to seed.\n\nInventory description: Bruno Andreas Liljefors are known for his pictures of animals and nature. Sometimes it happens pretty dramatic things in the pictures. Liljefors liked to paint the animals as they really were and how they looked in their real environment. He did not want that the images should be too cute and simple. A fox family is one of his most famous paintings. Here you can see how the mother has given the fox cubs a bird to eat. The sunny meadow, the bloody bird and the fox cubs who happily playing with eachother, makes it a painting that catches the eye. It is an image that is full of movement and life.\n\nCatalogue raisonné: Recent studies has shown that the painting has got another painting underneath.\n\nCollection\nPaintings (Paintings)\n\nMaterial\nDuk, Oil paint\n\nTechnique\nPainting\n\nObject category\npainting\n\nKeyword\nDjur\n\nExternal links\nWikidata: http://www.wikidata.org/entity/Q18573418\n\nAdditional texte\nDescription: Bruno Andreas Liljefors is perhaps best known for his nature and animal motifs, especially in dramatic situations. Liljefors depicted, in contrast to the contemporary \"idyllic\" animal painting, animal life with their movements, anatomy and adaptation to the landscape. The fox family is one of his most famous works. Here you can see how the vixen just gave the fox cubs a bird to eat. The sunny meadow, the bloody bird and the fox cubs happy playing, creating a realistic and spectacular nature of narrative, full of movement and life.\n\nSHOW MORE\n⌵\nContact information\nTel: 08-519 543 00\nE-Mail: info@nationalmuseum.se\nContact us\nMore information\nAbout the collection\nImages and copyrights\nHow to use the online collection\nFollow us\nAbout Nationalmuseum\nOpening Hours\nExhibitions\nFree Images On Wikimedia",
+        "candidateCount": 28,
+        "candidates": [
+          {
+            "candidateId": "page-image-001",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/6/multimedia-674186.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > img",
+            "alt": "",
+            "nearbyText": "Foto: Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainNot on displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkA Fox FamilyBruno Liljefors (1860 - 1939)Artist/MakerArtist: Bruno Liljefors (1860 - 1939)DatesMade: Sign. 1886Material / TechniqueOil on canvasDimensionsh x w: Mått 112 x 218 cm\nh x w x d: Ram 125 x 228 x 6 cmInventory numberNM 1376AcqusitionPurchase 1886Other titlesTitle (sv): Rävfamilj\nTitle (en): A Fox FamilyDescriptionDescription: Bruno Liljefors’ paintings were based on a profound knowledge of nature – of its animals and every minute detail about their habitats. The undergrowth in A Fox Famil",
+            "visible": true,
+            "boundingBox": {
+              "x": 359,
+              "y": 862,
+              "width": 181,
+              "height": 100
+            },
+            "naturalWidth": 280,
+            "naturalHeight": 155,
+            "elementKind": "img",
+            "elementIndex": 13,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18379/",
+            "identityScore": 1320
+          },
+          {
+            "candidateId": "page-image-002",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/1/multimedia-7581.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > img",
+            "alt": "",
+            "nearbyText": "Foto: Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainNot on displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkA Fox FamilyBruno Liljefors (1860 - 1939)Artist/MakerArtist: Bruno Liljefors (1860 - 1939)DatesMade: Sign. 1886Material / TechniqueOil on canvasDimensionsh x w: Mått 112 x 218 cm\nh x w x d: Ram 125 x 228 x 6 cmInventory numberNM 1376AcqusitionPurchase 1886Other titlesTitle (sv): Rävfamilj\nTitle (en): A Fox FamilyDescriptionDescription: Bruno Liljefors’ paintings were based on a profound knowledge of nature – of its animals and every minute detail about their habitats. The undergrowth in A Fox Famil",
+            "visible": true,
+            "boundingBox": {
+              "x": 550,
+              "y": 866,
+              "width": 175,
+              "height": 92
+            },
+            "naturalWidth": 280,
+            "naturalHeight": 147,
+            "elementKind": "img",
+            "elementIndex": 14,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18379/",
+            "identityScore": 1320
+          },
+          {
+            "candidateId": "page-image-003",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/0/multimedia-224410.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > img",
+            "alt": "",
+            "nearbyText": "Foto: Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainNot on displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkA Fox FamilyBruno Liljefors (1860 - 1939)Artist/MakerArtist: Bruno Liljefors (1860 - 1939)DatesMade: Sign. 1886Material / TechniqueOil on canvasDimensionsh x w: Mått 112 x 218 cm\nh x w x d: Ram 125 x 228 x 6 cmInventory numberNM 1376AcqusitionPurchase 1886Other titlesTitle (sv): Rävfamilj\nTitle (en): A Fox FamilyDescriptionDescription: Bruno Liljefors’ paintings were based on a profound knowledge of nature – of its animals and every minute detail about their habitats. The undergrowth in A Fox Famil",
+            "visible": true,
+            "boundingBox": {
+              "x": 735,
+              "y": 866,
+              "width": 175,
+              "height": 92
+            },
+            "naturalWidth": 280,
+            "naturalHeight": 147,
+            "elementKind": "img",
+            "elementIndex": 15,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18379/",
+            "identityScore": 1320
+          },
+          {
+            "candidateId": "page-image-004",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/6/multimedia-936836.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(4) > img",
+            "alt": "",
+            "nearbyText": "Foto: Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Anna Danielsson / Nationalmuseum, Public DomainNot on displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkA Fox FamilyBruno Liljefors (1860 - 1939)Artist/MakerArtist: Bruno Liljefors (1860 - 1939)DatesMade: Sign. 1886Material / TechniqueOil on canvasDimensionsh x w: Mått 112 x 218 cm\nh x w x d: Ram 125 x 228 x 6 cmInventory numberNM 1376AcqusitionPurchase 1886Other titlesTitle (sv): Rävfamilj\nTitle (en): A Fox FamilyDescriptionDescription: Bruno Liljefors’ paintings were based on a profound knowledge of nature – of its animals and every minute detail about their habitats. The undergrowth in A Fox Famil",
+            "visible": true,
+            "boundingBox": {
+              "x": 920,
+              "y": 866,
+              "width": 175,
+              "height": 92
+            },
+            "naturalWidth": 280,
+            "naturalHeight": 147,
+            "elementKind": "img",
+            "elementIndex": 16,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18379/",
+            "identityScore": 1320
+          },
+          {
+            "candidateId": "page-image-005",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/wikimedia.png",
+            "selector": "div > div > article > section:nth-of-type(1) > div > div:nth-of-type(2) > a > img",
+            "alt": "",
+            "nearbyText": "Not on displayWikimedia CommonsAdd to my collectionCopy bookmarkable link",
+            "visible": true,
+            "boundingBox": {
+              "x": 806,
+              "y": 1038,
+              "width": 18,
+              "height": 24
+            },
+            "naturalWidth": 1024,
+            "naturalHeight": 1376,
+            "elementKind": "img",
+            "elementIndex": 17,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18379/",
+            "identityScore": 20
+          }
+        ]
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "aiDecision": {
+        "workId": "liljefors-fox-family-nm1376",
+        "status": "candidate_found",
+        "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/18379/",
+        "selectedImage": {
+          "candidateId": "page-image-001",
+          "imageUrl": "https://collection.nationalmuseum.se/multimedia/6/multimedia-674186.small.jpg",
+          "candidateType": "direct_image",
+          "imageRole": "object_view",
+          "caption": "A Fox Family",
+          "identityEvidence": [
+            "Official Nationalmuseum collection page identifies Bruno Liljefors's painting as NM 1376.",
+            "Candidate is an image element on the identified object page."
+          ],
+          "confidence": 0.98
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "warnings": [
+        "selected candidate processing failed: image returned 403"
+      ],
+      "retried": true
+    },
+    {
+      "workId": "liljefors-jays-nm6811",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "liljefors-jays-nm6811",
+        "title": "Jays",
+        "objectType": "painting",
+        "titleZh": "",
+        "titleEn": "Jays",
+        "creator": "Bruno Liljefors",
+        "artistOrCulture": "Bruno Liljefors",
+        "displayDate": "1886",
+        "medium": "Oil on canvas",
+        "identityAnchor": "NM 6811",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/23860/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/23860/",
+        "accessionNumber": "NM 6811",
+        "collectionGroup": "主馆绘画与雕塑收藏／世纪之交绘画"
+      },
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/23860/",
+      "page": {
+        "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/23860/",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/23860/",
+        "pageTitle": "Jays | Nationalmuseum",
+        "bodyText": "This website uses cookies\nWe use device identifiers to adapt the content of the site and analyse how it is used. We also forward these identifiers and other information from your device to the social media and the advertising and analysis companies that we collaborate with.  \nConsent Selection\nNecessary\nPreferences\nStatistics\nMarketing and videos\nShow details\nAllow all\nAllow selection\nDeny\nEN\nHome\nObjects\nPersons\nMy Collection\nFoto: Nationalmuseum, Public Domain\nFoto: Cecilia Heisser / Nationalmuseum 2023, Public Domain\nPublic Domain\nFoto: Nationalmuseum, Public Domain\nFoto: Cecilia Heisser / Nationalmuseum, Public Domain\nFoto: Nationalmuseum, Public Domain\nFoto: Cecilia Heisser / Nationalmuseum 2023, Public Domain\nNot on display\nWikimedia Commons\nAdd to my collection\nCopy bookmarkable link\nJays\nBruno Liljefors (1860 - 1939)\n\nArtist/Maker\nArtist: Bruno Liljefors (1860 - 1939)\n\nDates\nSigned: 1886\n\nMaterial / Technique\nOil on canvas\n\nDimensions\nh x w x d: Måleri 51 x 66 x 3 cm\nh x w x d: Ram 74 x 89 x 3,5 cm\n\nInventory number\nNM 6811\n\nAcqusition\nGift of the Friends of Nationalmuseum 1986\n\nOther titles\nTitle (sv): Nötskrikor\nTitle (en): Jays\n\nDescription\nDescription: In Bruno Liljefors painting of jays, for a second one meets a bird's gaze just before it lifts to accompany its friend over the fields. This is a frozen moment. Just as in a photograph of nature with the focus on the bird, the background is somewhat diffuse and sketchy. The beautiful and almost decorative twig that the bird is sitting on is placed to the left of the picture rather than centrally in the middle. The whole composition is asymmetrical and there is strong contrast between foreground and background.\nLiljefors borrowed inspiration to the somewhat unusual composition in Japanese woodcuts. Characteristic of these prints is the daring use of the surface, the absence of depth and the stylization they employ. But Liljefors never became as completely decorative and stylized in his painting as the Japanese. Rather, he created a synthesis of Japanese perspective and composition and his own realism.\n\nCollection\nPaintings (Paintings)\n\nMaterial\nOil paint, Duk\n\nTechnique\nPainting\n\nObject category\npainting\n\nKeyword\nDjur\n\nExternal links\nWikidata: http://www.wikidata.org/entity/Q18601565\n\nAdditional texte\nDescription: Liljefors’ paintings often give the impression of a dramatic event lit by lightning. The jays have sensed danger. One has already taken flight while the other opens its short, round beak to make its harsh warning call. Liljefors studied and drew live birds but he also used photographs and stuffed birds – which he mounted outdoors in a natural setting. The composition with the branch in the near fore-ground and the hazy forest edge in the background enhance the feeling that this is a frozen moment.\n\nSHOW MORE\n⌵\nContact information\nTel: 08-519 543 00\nE-Mail: info@nationalmuseum.se\nContact us\nMore information\nAbout the collection\nImages and copyrights\nHow to use the online collection\nFollow us\nAbout Nationalmuseum\nOpening Hours\nExhibitions\nFree Images On Wikimedia",
+        "candidateCount": 32,
+        "candidates": [
+          {
+            "candidateId": "page-image-001",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/5/multimedia-763825.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > img",
+            "alt": "",
+            "nearbyText": "Foto: Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum 2023, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum 2023, Public DomainNot on displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkJaysBruno Liljefors (1860 - 1939)Artist/MakerArtist: Bruno Liljefors (1860 - 1939)DatesSigned: 1886Material / TechniqueOil on canvasDimensionsh x w x d: Måleri 51 x 66 x 3 cm\nh x w x d: Ram 74 x 89 x 3,5 cmInventory numberNM 6811AcqusitionGift of the Friends of Nationalmuseum 1986Other titlesTitle (sv): Nötskrikor\nTitle (en): JaysDescriptionDescription: In Bruno Liljefors painting of jays, for a second one meets a bird's gaze just befor",
+            "visible": true,
+            "boundingBox": {
+              "x": 411,
+              "y": 862,
+              "width": 121,
+              "height": 100
+            },
+            "naturalWidth": 280,
+            "naturalHeight": 232,
+            "elementKind": "img",
+            "elementIndex": 14,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/23860/",
+            "identityScore": 1320
+          },
+          {
+            "candidateId": "page-image-002",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/5/multimedia-867735.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(4) > img",
+            "alt": "",
+            "nearbyText": "Foto: Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum 2023, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum 2023, Public DomainNot on displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkJaysBruno Liljefors (1860 - 1939)Artist/MakerArtist: Bruno Liljefors (1860 - 1939)DatesSigned: 1886Material / TechniqueOil on canvasDimensionsh x w x d: Måleri 51 x 66 x 3 cm\nh x w x d: Ram 74 x 89 x 3,5 cmInventory numberNM 6811AcqusitionGift of the Friends of Nationalmuseum 1986Other titlesTitle (sv): Nötskrikor\nTitle (en): JaysDescriptionDescription: In Bruno Liljefors painting of jays, for a second one meets a bird's gaze just befor",
+            "visible": true,
+            "boundingBox": {
+              "x": 800,
+              "y": 866,
+              "width": 111,
+              "height": 92
+            },
+            "naturalWidth": 280,
+            "naturalHeight": 232,
+            "elementKind": "img",
+            "elementIndex": 17,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/23860/",
+            "identityScore": 1320
+          },
+          {
+            "candidateId": "page-image-003",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/8/multimedia-226488.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > img",
+            "alt": "",
+            "nearbyText": "Foto: Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum 2023, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum 2023, Public DomainNot on displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkJaysBruno Liljefors (1860 - 1939)Artist/MakerArtist: Bruno Liljefors (1860 - 1939)DatesSigned: 1886Material / TechniqueOil on canvasDimensionsh x w x d: Måleri 51 x 66 x 3 cm\nh x w x d: Ram 74 x 89 x 3,5 cmInventory numberNM 6811AcqusitionGift of the Friends of Nationalmuseum 1986Other titlesTitle (sv): Nötskrikor\nTitle (en): JaysDescriptionDescription: In Bruno Liljefors painting of jays, for a second one meets a bird's gaze just befor",
+            "visible": true,
+            "boundingBox": {
+              "x": 672,
+              "y": 866,
+              "width": 118,
+              "height": 92
+            },
+            "naturalWidth": 280,
+            "naturalHeight": 219,
+            "elementKind": "img",
+            "elementIndex": 16,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/23860/",
+            "identityScore": 1320
+          },
+          {
+            "candidateId": "page-image-004",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/3/multimedia-940623.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(5) > img",
+            "alt": "",
+            "nearbyText": "Foto: Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum 2023, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum 2023, Public DomainNot on displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkJaysBruno Liljefors (1860 - 1939)Artist/MakerArtist: Bruno Liljefors (1860 - 1939)DatesSigned: 1886Material / TechniqueOil on canvasDimensionsh x w x d: Måleri 51 x 66 x 3 cm\nh x w x d: Ram 74 x 89 x 3,5 cmInventory numberNM 6811AcqusitionGift of the Friends of Nationalmuseum 1986Other titlesTitle (sv): Nötskrikor\nTitle (en): JaysDescriptionDescription: In Bruno Liljefors painting of jays, for a second one meets a bird's gaze just befor",
+            "visible": true,
+            "boundingBox": {
+              "x": 921,
+              "y": 866,
+              "width": 118,
+              "height": 92
+            },
+            "naturalWidth": 280,
+            "naturalHeight": 219,
+            "elementKind": "img",
+            "elementIndex": 18,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/23860/",
+            "identityScore": 1320
+          },
+          {
+            "candidateId": "page-image-005",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/0/multimedia-8410.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > img",
+            "alt": "",
+            "nearbyText": "Foto: Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum 2023, Public DomainPublic DomainFoto: Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum, Public DomainFoto: Nationalmuseum, Public DomainFoto: Cecilia Heisser / Nationalmuseum 2023, Public DomainNot on displayWikimedia CommonsAdd to my collectionCopy bookmarkable linkJaysBruno Liljefors (1860 - 1939)Artist/MakerArtist: Bruno Liljefors (1860 - 1939)DatesSigned: 1886Material / TechniqueOil on canvasDimensionsh x w x d: Måleri 51 x 66 x 3 cm\nh x w x d: Ram 74 x 89 x 3,5 cmInventory numberNM 6811AcqusitionGift of the Friends of Nationalmuseum 1986Other titlesTitle (sv): Nötskrikor\nTitle (en): JaysDescriptionDescription: In Bruno Liljefors painting of jays, for a second one meets a bird's gaze just befor",
+            "visible": true,
+            "boundingBox": {
+              "x": 542,
+              "y": 866,
+              "width": 120,
+              "height": 92
+            },
+            "naturalWidth": 280,
+            "naturalHeight": 215,
+            "elementKind": "img",
+            "elementIndex": 15,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/23860/",
+            "identityScore": 1320
+          }
+        ]
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "aiDecision": {
+        "workId": "liljefors-jays-nm6811",
+        "status": "candidate_found",
+        "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/23860/",
+        "selectedImage": {
+          "candidateId": "page-image-001",
+          "imageUrl": "https://collection.nationalmuseum.se/multimedia/5/multimedia-763825.small.jpg",
+          "candidateType": "direct_image",
+          "imageRole": "object_view",
+          "caption": "Jays",
+          "identityEvidence": [
+            "Official Nationalmuseum collection page identifies Bruno Liljefors's painting as NM 6811.",
+            "Candidate is an image element on the identified object page."
+          ],
+          "confidence": 0.98
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "warnings": [
+        "selected candidate processing failed: image returned 403"
+      ],
+      "retried": true
+    },
+    {
+      "workId": "carl-larsson-swedish-fairy-tale-nm6840b",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "carl-larsson-swedish-fairy-tale-nm6840b",
+        "title": "A Swedish Fairy Tale",
+        "objectType": "multi_part_work",
+        "titleZh": "",
+        "titleEn": "A Swedish Fairy Tale",
+        "creator": "Carl Larsson",
+        "artistOrCulture": "Carl Larsson",
+        "displayDate": "1897",
+        "medium": "Oil on canvas with carved wood relief; part of a diptych/triptych",
+        "identityAnchor": "NM 6840b",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/36656/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/36656/",
+        "accessionNumber": "NM 6840b",
+        "collectionGroup": "主馆绘画与雕塑收藏／世纪之交绘画"
+      },
+      "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/36656/",
+      "page": {
+        "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/36656/",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/36656/",
+        "pageTitle": "A Swedish Fairy Tale | Nationalmuseum",
+        "bodyText": "This website uses cookies\nWe use device identifiers to adapt the content of the site and analyse how it is used. We also forward these identifiers and other information from your device to the social media and the advertising and analysis companies that we collaborate with.  \nConsent Selection\nNecessary\nPreferences\nStatistics\nMarketing and videos\nShow details\nAllow all\nAllow selection\nDeny\nEN\nHome\nObjects\nPersons\nMy Collection\nPublic Domain\nFoto: Viktor Fordell / Nationalmuseum, Public Domain\nPublic Domain\nFoto: Viktor Fordell / Nationalmuseum, Public Domain\nOn display\nAdd to my collection\nCopy bookmarkable link\nA Swedish Fairy Tale\nCarl Larsson (1853 - 1919)\n\nArtist/Maker\nArtist: Carl Larsson (1853 - 1919)\n\nDates\nSigned: Sign. 1897\n\nMaterial / Technique\nOil on canvas. Diptych\n\nDimensions\nh x w: Mått 137 x 43 cm\nh x w x d: Ram 164 x 164,5 x 19,5 cm Ink. Trärelief\nd: Ram [med hänge] 22,5 cm totalt djup\n\nInventory number\nNM 6840b\n\nAcqusition\nGift 1989 Ernest Erickson Foundation\n\nOther titles\nTitle (sv): Vallpojken. Del av diptyken Prinsessan och vallpojken\nTitle (en): A Swedish Fairy Tale\n\nDescription\nDescription: The subject derives from a Norwegian folk tale published by Peter Christen Asbjørnsen and Jørgen Moe. The Daughter of the Mountain King, Princess Kristin, has to get married immediately when she turns 18, otherwise a troll will kidnap her. The story ends with the shepherd boy Askeladden killing the troll, marrying the princess and winning half the kingdom. Carl Larsson had in his youth worked with illustrations for an edition of Asbjørnsen's and Moe's fairy tales.\n\nExhibition text: The motif derives from a Norwegian folktale about the mountain king’s daughter, Princess Kristin. She must marry when she turns 18; otherwise, a troll will abduct her. The story ends with the shepherd boy Askeladden killing the troll, marrying the princess, and receiving half the kingdom. By combining two oil paintings with a gilded wooden relief, Larsson creates a triptych that is a striking example of his artistic versatility.\n\nExhibited\nNationalmuseum -> Room 1413 Turn of the 20th Century\n\nCollection\nPaintings (Paintings)\n\nMaterial\nWood, Oil paint, Wood\n\nTechnique\nSculpted, Painting\n\nKeyword\nBarn\n\nExternal links\nWikidata: http://www.wikidata.org/entity/Q18601633\n\nContact information\nTel: 08-519 543 00\nE-Mail: info@nationalmuseum.se\nContact us\nMore information\nAbout the collection\nImages and copyrights\nHow to use the online collection\nFollow us\nAbout Nationalmuseum\nOpening Hours\nExhibitions\nFree Images On Wikimedia",
+        "candidateCount": 18,
+        "candidates": [
+          {
+            "candidateId": "page-image-001",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/1/multimedia-11901.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > img",
+            "alt": "",
+            "nearbyText": "Public DomainFoto: Viktor Fordell / Nationalmuseum, Public DomainPublic DomainFoto: Viktor Fordell / Nationalmuseum, Public DomainOn displayAdd to my collectionCopy bookmarkable linkA Swedish Fairy TaleCarl Larsson (1853 - 1919)Artist/MakerArtist: Carl Larsson (1853 - 1919)DatesSigned: Sign. 1897Material / TechniqueOil on canvas. DiptychDimensionsh x w: Mått 137 x 43 cm\nh x w x d: Ram 164 x 164,5 x 19,5 cm Ink. Trärelief\nd: Ram [med hänge] 22,5 cm totalt djupInventory numberNM 6840bAcqusitionGift 1989 Ernest Erickson FoundationOther titlesTitle (sv): Vallpojken. Del av diptyken Prinsessan och vallpojken\nTitle (en): A Swedish Fairy TaleDescriptionDescription: The subject derives from a Norwegian folk tale published by Peter Christen Asbjørnsen and Jørgen Moe. The Daughter of the Mountain Ki",
+            "visible": true,
+            "boundingBox": {
+              "x": 733,
+              "y": 866,
+              "width": 92,
+              "height": 92
+            },
+            "naturalWidth": 280,
+            "naturalHeight": 280,
+            "elementKind": "img",
+            "elementIndex": 12,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/36656/",
+            "identityScore": 1320
+          },
+          {
+            "candidateId": "page-image-002",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/1/multimedia-680351.small.jpg",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > img",
+            "alt": "",
+            "nearbyText": "Public DomainFoto: Viktor Fordell / Nationalmuseum, Public DomainPublic DomainFoto: Viktor Fordell / Nationalmuseum, Public DomainOn displayAdd to my collectionCopy bookmarkable linkA Swedish Fairy TaleCarl Larsson (1853 - 1919)Artist/MakerArtist: Carl Larsson (1853 - 1919)DatesSigned: Sign. 1897Material / TechniqueOil on canvas. DiptychDimensionsh x w: Mått 137 x 43 cm\nh x w x d: Ram 164 x 164,5 x 19,5 cm Ink. Trärelief\nd: Ram [med hänge] 22,5 cm totalt djupInventory numberNM 6840bAcqusitionGift 1989 Ernest Erickson FoundationOther titlesTitle (sv): Vallpojken. Del av diptyken Prinsessan och vallpojken\nTitle (en): A Swedish Fairy TaleDescriptionDescription: The subject derives from a Norwegian folk tale published by Peter Christen Asbjørnsen and Jørgen Moe. The Daughter of the Mountain Ki",
+            "visible": true,
+            "boundingBox": {
+              "x": 623,
+              "y": 862,
+              "width": 101,
+              "height": 100
+            },
+            "naturalWidth": 280,
+            "naturalHeight": 278,
+            "elementKind": "img",
+            "elementIndex": 11,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/36656/",
+            "identityScore": 1320
+          },
+          {
+            "candidateId": "page-image-003",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/1/multimedia-680351.large.jpg",
+            "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > figure > div > img",
+            "alt": "",
+            "nearbyText": "",
+            "visible": true,
+            "boundingBox": {
+              "x": 20,
+              "y": 180,
+              "width": 1400,
+              "height": 637
+            },
+            "naturalWidth": 1200,
+            "naturalHeight": 1190,
+            "elementKind": "img",
+            "elementIndex": 6,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/36656/",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-004",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/1/multimedia-680351.large.jpg",
+            "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > figure > div > img",
+            "alt": "",
+            "nearbyText": "",
+            "visible": true,
+            "boundingBox": {
+              "x": 2852,
+              "y": 180,
+              "width": 1400,
+              "height": 637
+            },
+            "naturalWidth": 1200,
+            "naturalHeight": 1190,
+            "elementKind": "img",
+            "elementIndex": 8,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/36656/",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-005",
+            "candidateType": "direct_image",
+            "url": "https://collection.nationalmuseum.se/multimedia/1/multimedia-11901.large.jpg",
+            "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > figure > div > img",
+            "alt": "",
+            "nearbyText": "",
+            "visible": true,
+            "boundingBox": {
+              "x": -1396,
+              "y": 180,
+              "width": 1400,
+              "height": 637
+            },
+            "naturalWidth": 600,
+            "naturalHeight": 600,
+            "elementKind": "img",
+            "elementIndex": 5,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/36656/",
+            "identityScore": 20
+          }
+        ]
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "aiDecision": {
+        "workId": "carl-larsson-swedish-fairy-tale-nm6840b",
+        "status": "candidate_found",
+        "sourcePageUrl": "https://collection.nationalmuseum.se/en/collection/item/36656/",
+        "selectedImage": {
+          "candidateId": "page-image-001",
+          "imageUrl": "https://collection.nationalmuseum.se/multimedia/1/multimedia-11901.small.jpg",
+          "candidateType": "direct_image",
+          "imageRole": "object_view",
+          "caption": "A Swedish Fairy Tale",
+          "identityEvidence": [
+            "Official Nationalmuseum collection page identifies Carl Larsson's diptych component as NM 6840b.",
+            "The page identifies the work as A Swedish Fairy Tale and describes it as part of a diptych/triptych.",
+            "Candidate is an image element on the identified object page."
+          ],
+          "confidence": 0.96
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "warnings": [
+        "selected candidate processing failed: image returned 403"
+      ],
+      "retried": true
+    },
+    {
+      "workId": "zorn-midsummer-dance-nm1603",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "zorn-midsummer-dance-nm1603",
+        "title": "Midsummer Dance",
+        "objectType": "painting",
+        "titleZh": "",
+        "titleEn": "Midsummer Dance",
+        "creator": "Anders Zorn",
+        "artistOrCulture": "Anders Zorn",
+        "displayDate": "1897",
+        "medium": "Oil on canvas",
+        "identityAnchor": "NM 1603",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/18607/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/18607/",
+        "accessionNumber": "NM 1603",
+        "collectionGroup": "主馆绘画与雕塑收藏／1870–1900年绘画"
+      },
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Zorn_-_Midsummer_Dance.jpg",
+      "page": {
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Zorn_-_Midsummer_Dance.jpg",
+        "finalUrl": "https://commons.wikimedia.org/wiki/File:Zorn_-_Midsummer_Dance.jpg",
+        "pageTitle": "File:Zorn - Midsummer Dance.jpg - Wikimedia Commons",
+        "bodyText": "Jump to content\nMain menu\nSearch\nEnglish\nDonate\nCreate account\nLog in\nContents hide\nBeginning\nSummary\nGallery Slideshow\nFile:Zorn - Midsummer Dance.jpg\nFile\nDiscussion\nRead\nEdit\nView history\nTools\nAppearance hide\nText\nSmall\nStandard\nLarge\n\nThis page always uses small font size\n\nWidth\nStandard\nWide\nColor (beta)\nAutomatic\nLight\nDark\nFile File history File usage on Commons File usage on other wikis Metadata\nDownload\nall sizes\nUse this file\non the web\nUse this file\non a wiki\nEmail a link\nto this file\nInformation\nabout reusing\nSize of this preview: 500 × 687 pixels. Other resolutions: 250 × 343 pixels | 500 × 687 pixels | 960 × 1,319 pixels | 1,920 × 2,638 pixels.\nOriginal file (1,514 × 2,080 pixels, file size: 2.64 MB, MIME type: image/jpeg); ZoomViewer\nOpen in Media Viewer\nFile information\nStructured data\nCaptions\nEdit\nEnglish\nAdd a one-line explanation of what this file represents\nSummaryedit\nAnders Zorn: Midsummer Dance   \nArtist\t\nAnders Zorn (1860–1920)   \n \n\n\n\t\n\nTitle\t\nMidsummer Dance \n\nObject type\tpainting \nGenre\tgenre art \nDate\t1897\nMedium\toil on canvas\nDimensions\theight: 140 cm (55.1 in) ; width: 98 cm (38.5 in) \nCollection\t\nNationalmuseum   \n\nAccession number\t\n1603\n\nObject history\t1903: given to Nationalmuseum Stockholm by Konstakademien med bidrag av grosshandlare Pontus och fru Göthilda Fürstenberg\n\nExhibition history\t\nQ109467274, 28 May 1919 - 16 June 1919 \nQ109467404, 1928 - 1928 \nQ109467568, 3 June 1935 - 6 October 1935 \nQ109467852, 12 February 1948 - 31 March 1948 \nQ109468144, 2 September 1960 - 23 October 1960 \n\nInscriptions\t\nSignature and date:\nZorn 1897 \n\nReferences\t\nNationalmuseum Sweden artwork ID: 18607 \nGoogle Arts & Culture asset ID: MwGL8rWJ-ab1jQ \n\nSource/Photographer\tSelf-photographed, by Szilas in the Nationalmuseum, Stockholm\nPermission\n(Reusing this file)\t\nThis is a faithful photographic reproduction of a two-dimensional, public domain work of art. The work of art itself is in the public domain for the following reason:\n\t\n\nThe author died in 1920, so this work is in the public domain in its country of origin and other countries and areas where the copyright term is the author's life plus 100 years or fewer.\n\nThis work is in the public domain in the United States because it was published (or registered with the U.S. Copyright Office) before January 1, 1931.\n\n\nThis file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.\nThe official position taken by the Wikimedia Foundation is that \"faithful reproductions of two-dimensional public domain works of art are public domain\".\nThis photographic reproduction is therefore also considered to be in the public domain in the United States. In other jurisdictions, re-use of this content may be restricted; see Reuse of PD-Art photographs for details.\n\nOther versions\t\n \nFile history\n\nClick on a date/time to view the file as it appeared at that time.\n\n\tDate/Time\tThumbnail\tDimensions\tUser\tComment\ncurrent\t14:24, 27 September 2012\t\t1,514 × 2,080 (2.64 MB)\tSzilas (talk | contribs)\t== {{int:filedesc}} == {{Artwork |artist = {{Creator:Anders Zorn}} |title = {{title|en=Midsummer_Dance|sv=Midsommardans}} |description = |date = 1897 |medium = {{Oil on c...\n\nYou cannot overwrite this file.\n\nFile usage on Commons\n\nThe following page uses this file:\n\nFile:Zorn - Midsummer Dance.jpg\nFile usage on other wikis\n\nThe following other wikis use this file:\n\nUsage on hu.wikipedia.org\nAnders Zorn\nMetadata\n\nThis file contains additional information such as Exif metadata which may have been added by the digital camera, scanner, or software program used to create or digitize it. If the file has been modified from its original state, some details such as the timestamp may not fully reflect those of the original file. The timestamp is only as accurate as the clock in the camera, and it may be completely wrong.\n\nCamera manufacturer\tCanon\nCamera model\tCanon EOS 400D DIGITAL\nAuthor\tunknown\nExposure time\t1/50 sec (0.02)\nF-number\tf/4\nISO speed rating\t800\nDate and time of data generation\t11:32, 18 July 2009\nLens focal length\t25 mm\nShow extended details\nCategory: Midsummer Dance by Anders Zorn\nHidden categories: CC-PD-MarkPD-old-100-expiredPD-Art (PD-old-auto-expired)Artworks with known accession numberArtworks with Wikidata itemArtworks digital representation of 2D workTaken with Canon EOS 400D\nThis page was last edited on 8 May 2026, at 05:06.\nFiles are available under licenses specified on their description page. All structured data from the file namespace is available under the Creative Commons CC0 License; all unstructured text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and the Privacy Policy.\nPrivacy policy\nAbout Wikimedia Commons\nDisclaimers\nLegal & safety contacts\nCode of Conduct\nDevelopers\nStatistics\nCookie statement\nMobile view",
+        "candidateCount": 95,
+        "candidates": [
+          {
+            "candidateId": "page-image-001",
+            "candidateType": "direct_image",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Midsummer_Dance_%28Anders_Zorn%29_-_Nationalmuseum_-_18607.tif/lossy-page1-500px-Midsummer_Dance_%28Anders_Zorn%29_-_Nationalmuseum_-_18607.tif.jpg",
+            "selector": "td#fileinfotpl_creator_image > div > span > a > img",
+            "alt": "image of artwork listed in title parameter on this page",
+            "nearbyText": "Toggle the table of contents\n\t\n\t\n\n\n\t\t\t\t\t\t\t\n\t\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\tGallery SlideshowFile:Zorn - Midsummer Dance.jpg\n\t\t\t\t\t\t\n\t\t\n\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\n\t\t\n\t\t\n\t\t\tFile\n\nDiscussion\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\t\t\t\n\n\t\n\tEnglish\n\t\n\t\n\n\n\t\t\t\t\t\n\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\n\t\n\n\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t    \n\n\t\n\t\t\n\t\t\n\t\t\tRead\n\nEdit\n\nView history\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\n\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\n\t\n\nTools\n\t\n\t\n\n\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\n\t\n\tTools\n\tmove to sidebar\n\thide\n\n\n\t\n\n\t\n\t\tActions\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\nRead\n\n\n\nEdit\n\n\n\nView history\n\n\n\t\t\t\n\t\t\n\t\t\n\t\n\n\n\n\t\n\t\tGeneral\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tWhat links hereRelated changesPermanent linkPage informationCite this pageGet shortened URLConcept URI\n\t\tExpand allNominate for deletion\n\t\t\n\t\n\n\n\n\t\n\t\tPrint/export\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tDownload as PDFPrintable version\n\t\t\n\t\t\n\t\n\n\n\n\t\n\t\tIn other pr",
+            "visible": true,
+            "boundingBox": {
+              "x": 981,
+              "y": 1147,
+              "width": 183,
+              "height": 250
+            },
+            "naturalWidth": 250,
+            "naturalHeight": 341,
+            "elementKind": "img",
+            "elementIndex": 20,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Zorn_-_Midsummer_Dance.jpg",
+            "identityScore": 1320
+          },
+          {
+            "candidateId": "page-image-002",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Midsummer_Dance_%28Anders_Zorn%29_-_Nationalmuseum_-_18607.tif/lossy-page1-250px-Midsummer_Dance_%28Anders_Zorn%29_-_Nationalmuseum_-_18607.tif.jpg",
+            "contentType": "image/jpeg",
+            "sourceType": "network_image",
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Zorn_-_Midsummer_Dance.jpg",
+            "identityScore": 1290
+          },
+          {
+            "candidateId": "page-image-003",
+            "candidateType": "direct_image",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Gtk-dialog-info-14px.png",
+            "selector": "div#wpImageAnnotatorWrapper > div > p:nth-of-type(4) > span:nth-of-type(3) > span > a > img",
+            "alt": "This file has annotations",
+            "nearbyText": "",
+            "visible": false,
+            "boundingBox": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "naturalWidth": 14,
+            "naturalHeight": 14,
+            "elementKind": "img",
+            "elementIndex": 49,
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Zorn_-_Midsummer_Dance.jpg",
+            "identityScore": 20
+          },
+          {
+            "candidateId": "page-image-004",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/MediaWiki_Vector_skin_right_arrow.png",
+            "contentType": "image/png",
+            "sourceType": "network_image",
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Zorn_-_Midsummer_Dance.jpg",
+            "identityScore": -10
+          },
+          {
+            "candidateId": "page-image-005",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Gtk-dialog-info-14px.png",
+            "contentType": "image/png",
+            "sourceType": "network_image",
+            "genericPenalty": 0,
+            "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Zorn_-_Midsummer_Dance.jpg",
+            "identityScore": -10
+          }
+        ]
+      },
+      "status": "object_image_accepted",
+      "objectImageResolved": true,
+      "imagePolicy": "object_image",
+      "selected": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Midsummer_Dance_%28Anders_Zorn%29_-_Nationalmuseum_-_18607.tif/lossy-page1-500px-Midsummer_Dance_%28Anders_Zorn%29_-_Nationalmuseum_-_18607.tif.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Zorn_-_Midsummer_Dance.jpg",
+        "sourceType": "page_image",
+        "caption": "Anders Zorn: Midsummer Dance",
+        "identityEvidence": [
+          "Wikimedia Commons page identifies Anders Zorn's Midsummer Dance, dated 1897, in the Nationalmuseum collection.",
+          "The page references Nationalmuseum Sweden artwork ID 18607.",
+          "Candidate is the artwork image shown on the file page."
+        ],
+        "confidence": 0.99,
+        "localPath": "research/runs/experiment/nationalmuseum-image-repair-01/20260801T163257Z-p2.13.12/image-evidence/assets/zorn-midsummer-dance-nm1603.jpg",
+        "sha256": "f80e813825b42ae17e7f10bf8b7aaf5fd9685c1929f8ff0c2053fe93b9073213",
+        "width": 500,
+        "height": 681,
+        "contentType": "image/jpeg",
+        "method": "ai_page_candidate_download",
+        "provider": "page-image-candidate",
+        "imageRole": "object_view",
+        "candidateId": "page-image-001"
+      },
+      "aiDecision": {
+        "workId": "zorn-midsummer-dance-nm1603",
+        "status": "candidate_found",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Zorn_-_Midsummer_Dance.jpg",
+        "selectedImage": {
+          "candidateId": "page-image-001",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Midsummer_Dance_%28Anders_Zorn%29_-_Nationalmuseum_-_18607.tif/lossy-page1-500px-Midsummer_Dance_%28Anders_Zorn%29_-_Nationalmuseum_-_18607.tif.jpg",
+          "candidateType": "direct_image",
+          "imageRole": "object_view",
+          "caption": "Anders Zorn: Midsummer Dance",
+          "identityEvidence": [
+            "Wikimedia Commons page identifies Anders Zorn's Midsummer Dance, dated 1897, in the Nationalmuseum collection.",
+            "The page references Nationalmuseum Sweden artwork ID 18607.",
+            "Candidate is the artwork image shown on the file page."
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "warnings": [],
+      "retried": true
+    },
+    {
+      "workId": "cezanne-landscape-nm1999",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "cezanne-landscape-nm1999",
+        "title": "Landscape",
+        "objectType": "painting",
+        "titleZh": "",
+        "titleEn": "Landscape",
+        "creator": "Paul Cézanne",
+        "artistOrCulture": "Paul Cézanne",
+        "displayDate": "not recorded",
+        "medium": "Oil on canvas",
+        "identityAnchor": "NM 1999",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/sv/collection/item/19003/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/sv/collection/item/19003/",
+        "accessionNumber": "NM 1999",
+        "collectionGroup": "主馆绘画与雕塑收藏／1870–1900年绘画"
+      },
+      "fastPath": {
+        "status": "fast_candidate_found",
+        "pageTitle": "Paul Cézanne | Landskap | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/sv/collection/item/19003/",
+        "fastCandidate": {
+          "id": "dom-15",
+          "url": "https://collection.nationalmuseum.se/multimedia/7/multimedia-686247.small.jpg",
+          "alt": "",
+          "caption": "",
+          "nearbyText": "Foto: Cecilia Heisser / Nationalmuseum, CC BY SA\nFoto: Cecilia Heisser / Nationalmuseum, CC BY SA\nFoto: Erik Cornelius / Nationalmuseum, Public Domain\nFoto: Nationalmuseum\nFoto: Cecilia Heisser / Nationalmuseum, CC BY SA\nFoto: Cecilia Heisser / Nationalmuseum, CC BY SA\nFoto: Cecilia Heisser / Nationalmuseum, CC BY SA\nUtställd\nLägg till i min samling\nKopiera bokmärkbar länk\nLandskap\nPaul Cézanne (1839 - 1906)\n\nKonstnär/Tillverkare\nKonstnär: Paul Cézanne (1839 - 1906)\n\nMaterial / Teknik\nOlja på duk\n\nMått\nh x b: Mått 73 x 92 cm\nh x b x dj: Ram 92 x 112 x 7 cm\n\nInventarienummer\nNM 1999\n\nFörvärv\nGåva 1916 av Nationalmusei Vänner\n\nAndra titlar\nTitel (sv): Landskap\nTitel (en): Landscape\n\nBeskrivning\nBeskrivning: Cézanne hörde till impressionistgruppen och ställde ut på deras första utställning 1874. Hans målningar skilde sig emellertid från gruppens skissartade ögonblicksbilder. Cézanne var mer intresserad av bildens arkitektoniska struktur, och i början av 1900-talet fick hans måleri avgöran",
+          "width": 280,
+          "height": 222,
+          "figureCaptionRelation": false,
+          "identitySignals": [
+            "accession_number_match",
+            "title_match",
+            "creator_match"
+          ],
+          "method": "official_object_image",
+          "provider": "generic-html"
+        },
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-686247.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/0/multimedia-686980.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-686247.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/6/multimedia-174056.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-421838.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/5/multimedia-685875.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/0/multimedia-686980.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-686247.large.jpg",
+          "https://collection.nationalmuseum.se/icons/bigLeftArrow.svg",
+          "https://collection.nationalmuseum.se/icons/bigRightArrow.svg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-686247.small.jpg",
+          "https://collection.nationalmuseum.se/multimedia/6/multimedia-174056.small.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-421838.small.jpg",
+          "https://collection.nationalmuseum.se/multimedia/5/multimedia-685875.small.jpg",
+          "https://collection.nationalmuseum.se/multimedia/0/multimedia-686980.small.jpg"
+        ],
+        "fastPageSignals": [
+          "accession_number_match",
+          "title_match",
+          "creator_match"
+        ]
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "fast path download failed: image returned 403",
+        "AI candidate download failed: image returned 429"
+      ],
+      "durationMs": 9715,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "cezanne-landscape-nm1999",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Le_Hameau_des_P%C3%A2tis_%C3%A0_Pontoise%2C_encadr%C3%A9_par_des_arbres%2C_par_Paul_C%C3%A9zanne%2C_FWN_172.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Le_Hameau_des_P%C3%A2tis_%C3%A0_Pontoise%2C_encadr%C3%A9_par_des_arbres%2C_par_Paul_C%C3%A9zanne%2C_FWN_172.jpg",
+          "sourceType": "wikimedia",
+          "caption": "Paul Cézanne, Landscape, NM 1999.",
+          "identityEvidence": [
+            "Commons page identifies Paul Cézanne and the Oise Valley landscape",
+            "Accession number NM 1999 matches",
+            "Dimensions 73 × 92 cm match the museum record"
+          ],
+          "confidence": 0.98
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "reusedFromParent": true,
+      "parentEvidencePath": "research/runs/production/nationalmuseum/20260801T152615Z-p2.13.12/image-evidence/verified-image-evidence.json",
+      "parentEvidenceSha256": "b63f4af262a1aafdb607e9a4934800225b607a198a582e9499117b2c13ff57e5"
+    },
+    {
+      "workId": "sergel-cupid-and-psyche-nmsk359",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "sergel-cupid-and-psyche-nmsk359",
+        "title": "Cupid and Psyche",
+        "objectType": "sculpture",
+        "titleZh": "",
+        "titleEn": "Cupid and Psyche",
+        "creator": "Johan Tobias Sergel",
+        "artistOrCulture": "Johan Tobias Sergel",
+        "displayDate": "1787",
+        "medium": "Carrara marble",
+        "identityAnchor": "NMSk 359",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/26739/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/26739/",
+        "accessionNumber": "NMSk 359",
+        "collectionGroup": "主馆绘画与雕塑收藏／雕塑"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Cupid and Psyche | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/26739/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/0/multimedia-586780.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-953372.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/0/multimedia-586780.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-9529.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-237802.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-435811.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-435814.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/6/multimedia-435816.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-435818.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/0/multimedia-435820.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-435844.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-435919.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-435922.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-435924.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/6/multimedia-435926.large.jpg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "AI candidate download failed: image returned 429"
+      ],
+      "durationMs": 5332,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "sergel-cupid-and-psyche-nmsk359",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Sergel_-_Amor_and_Psyche_DSC6916.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Sergel_-_Amor_and_Psyche_DSC6916.jpg",
+          "sourceType": "wikimedia",
+          "caption": "Johan Tobias Sergel, Cupid and Psyche, 1787, NMSk 359.",
+          "identityEvidence": [
+            "Commons page identifies Sergel's Amor and Psyche",
+            "Accession number NMSk 359 matches",
+            "Date 1787 and Carrara marble match the museum record"
+          ],
+          "confidence": 0.98
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "reusedFromParent": true,
+      "parentEvidencePath": "research/runs/production/nationalmuseum/20260801T152615Z-p2.13.12/image-evidence/verified-image-evidence.json",
+      "parentEvidenceSha256": "b63f4af262a1aafdb607e9a4934800225b607a198a582e9499117b2c13ff57e5"
+    },
+    {
+      "workId": "mathsson-reclining-chair-36-nmk46-2010",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "mathsson-reclining-chair-36-nmk46-2010",
+        "title": "Reclining chair no 36",
+        "objectType": "furniture",
+        "titleZh": "",
+        "titleEn": "Reclining chair no 36",
+        "creator": "Bruno Mathsson",
+        "artistOrCulture": "Bruno Mathsson",
+        "displayDate": "1936/1939",
+        "medium": "Bent-laminated birch, plywood, plaited webbing",
+        "identityAnchor": "NMK 46/2010",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/134846/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/134846/",
+        "accessionNumber": "NMK 46/2010",
+        "collectionGroup": "主馆设计与应用艺术收藏／家具"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "”Reclining chair no 36” | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/134846/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/3/multimedia-273503.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/3/multimedia-273503.large.jpg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "No non-excluded image URL with sufficient exact-object identity evidence was found."
+      ],
+      "durationMs": 2652,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "mathsson-reclining-chair-36-nmk46-2010",
+        "status": "not_found",
+        "selectedCandidate": null,
+        "alternatives": [],
+        "limitations": [
+          "No non-excluded image URL with sufficient exact-object identity evidence was found."
+        ]
+      },
+      "reusedFromParent": true,
+      "parentEvidencePath": "research/runs/production/nationalmuseum/20260801T152615Z-p2.13.12/image-evidence/verified-image-evidence.json",
+      "parentEvidenceSha256": "b63f4af262a1aafdb607e9a4934800225b607a198a582e9499117b2c13ff57e5"
+    },
+    {
+      "workId": "hanna-pauli-breakfast-time-nm1705",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "hanna-pauli-breakfast-time-nm1705",
+        "title": "Breakfast Time",
+        "objectType": "painting",
+        "titleZh": "",
+        "titleEn": "Breakfast Time",
+        "creator": "Hanna Pauli",
+        "artistOrCulture": "Hanna Pauli",
+        "displayDate": "1887",
+        "medium": "Oil on canvas",
+        "identityAnchor": "NM 1705",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/18709/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/18709/",
+        "accessionNumber": "NM 1705",
+        "collectionGroup": "主馆绘画与雕塑收藏／世纪之交绘画"
+      },
+      "fastPath": {
+        "status": "fast_candidate_found",
+        "pageTitle": "Breakfast Time | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/18709/",
+        "fastCandidate": {
+          "id": "dom-19",
+          "url": "https://collection.nationalmuseum.se/multimedia/9/multimedia-561169.small.jpg",
+          "alt": "",
+          "caption": "",
+          "nearbyText": "Foto: Anna Danielsson / Nationalmuseum, Public Domain\nFoto: Anna Danielsson / Nationalmuseum, Public Domain\nPublic Domain\nFoto: Nationalmuseum, Public Domain\nFoto: Erik Cornelius / Nationalmuseum, Public Domain\nFoto: Anna Danielsson / Nationalmuseum, Public Domain\nFoto: Anna Danielsson / Nationalmuseum, Public Domain\nFoto: Erik Cornelius / Nationalmuseum, Public Domain\nPublic Domain\nFoto: Anna Danielsson / Nationalmuseum, Public Domain\nFoto: Anna Danielsson / Nationalmuseum, Public Domain\nNot on display\nWikimedia Commons\nAdd to my collection\nCopy bookmarkable link\nBreakfast Time\nHanna Pauli (1864 - 1940)\n\nArtist/Maker\nArtist: Hanna Pauli (1864 - 1940)\n\nDates\nSigned: Signed 1887\n\nMaterial / Technique\nOil on canvas\n\nDimensions\nh x w: Mått 87 x 91 cm\nh x w x d: Ram 128 x 134 x 7 cm\n\nInventory number\nNM 1705\n\nAcqusition\nPurchase 1910 Governmental funding\n\nOther titles\nTitle (sv): Frukostdags\nTitle (en): Breakfast Time\n\nDescription\nDescription: Dappled light filters through the garden’s fol",
+          "width": 280,
+          "height": 263,
+          "figureCaptionRelation": false,
+          "identitySignals": [
+            "accession_number_match",
+            "page_title_and_artist_match",
+            "title_match",
+            "creator_match"
+          ],
+          "method": "official_object_image",
+          "provider": "generic-html"
+        },
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-561169.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-1076109.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-561169.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-7724.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/6/multimedia-179986.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-224324.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/6/multimedia-558916.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-921354.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-955942.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/3/multimedia-990513.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-1076109.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-561169.large.jpg",
+          "https://collection.nationalmuseum.se/icons/bigLeftArrow.svg",
+          "https://collection.nationalmuseum.se/icons/bigRightArrow.svg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-561169.small.jpg"
+        ],
+        "fastPageSignals": [
+          "accession_number_match",
+          "page_title_and_artist_match",
+          "title_match",
+          "creator_match"
+        ]
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "fast path download failed: image returned 403",
+        "AI candidate download failed: image returned 429"
+      ],
+      "durationMs": 8071,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "hanna-pauli-breakfast-time-nm1705",
+        "status": "candidate_found",
+        "selectedCandidate": {
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Hanna_Pauli_-_Breakfast-Time_-_Google_Art_Project.jpg",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Hanna_Pauli_-_Breakfast-Time_-_Google_Art_Project.jpg",
+          "sourceType": "wikimedia",
+          "caption": "Hanna Pauli, Breakfast Time, 1887, NM 1705.",
+          "identityEvidence": [
+            "Commons page identifies Hanna Pauli's Breakfast Time",
+            "Accession number NM 1705 matches",
+            "Dimensions and date match the museum record"
+          ],
+          "confidence": 0.99
+        },
+        "alternatives": [],
+        "limitations": []
+      },
+      "reusedFromParent": true,
+      "parentEvidencePath": "research/runs/production/nationalmuseum/20260801T152615Z-p2.13.12/image-evidence/verified-image-evidence.json",
+      "parentEvidenceSha256": "b63f4af262a1aafdb607e9a4934800225b607a198a582e9499117b2c13ff57e5"
+    },
+    {
+      "workId": "wegner-jh501-armchair-nmk262-1956",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "wegner-jh501-armchair-nmk262-1956",
+        "title": "Armchair JH 501",
+        "objectType": "furniture",
+        "titleZh": "",
+        "titleEn": "Armchair JH 501",
+        "creator": "Hans J. Wegner",
+        "artistOrCulture": "Hans J. Wegner",
+        "displayDate": "1949",
+        "medium": "Oak and cane",
+        "identityAnchor": "NMK 262/1956",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/10057/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/10057/",
+        "accessionNumber": "NMK 262/1956",
+        "collectionGroup": "主馆设计与应用艺术收藏／家具"
+      },
+      "fastPath": {
+        "status": "fast_candidate_found",
+        "pageTitle": "Armchair ”JH 501” | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/10057/",
+        "fastCandidate": {
+          "id": "dom-13",
+          "url": "https://collection.nationalmuseum.se/multimedia/9/multimedia-691599.small.jpg",
+          "alt": "",
+          "caption": "",
+          "nearbyText": "Foto: Per-Åke Persson / Nationalmuseum, © Bildupphovsrätt i Sverige\nFoto: Per-Åke Persson / Nationalmuseum, CC BY SA\n© Bildupphovsrätt i Sverige\nFoto: Per-Åke Persson / Nationalmuseum, © Bildupphovsrätt i Sverige\nFoto: Per-Åke Persson / Nationalmuseum, CC BY SA\nOn display\nAdd to my collection\nCopy bookmarkable link\nArmchair ”JH 501”\nHans J Wegner (1914 - 2007)\n\nArtist/Maker\nDesigned by: Hans J Wegner (1914 - 2007)\nMade by: Johannes Hansen (1886 - 1961)\n\nDates\nDesigned: Designed 1949\n\nMaterial / Technique\nOak, cane\n\nDimensions\nh x w x d: Mått 75 x 58 x 46 cm\n\nInventory number\nNMK 262/1956\n\nAcqusition\nGift 1956 Architect Robert Berghagen\n\nOther titles\nTitle (sv): Karmstol ”JH 501”\nTitle (en): Armchair ”JH 501”\nLabel (sv): Stol JH501\nLabel (en): Chair JH501\n\nDescription\nDescription: Hans Wegner’s JH501 chair was often used in the American periodical House Beautiful and was shown in the exhibition Design in Scandinavia that toured the USA in 1954–1957. It also featured in the first televis",
+          "width": 267,
+          "height": 280,
+          "figureCaptionRelation": false,
+          "identitySignals": [
+            "accession_number_match",
+            "page_title_and_artist_match",
+            "title_match",
+            "creator_match"
+          ],
+          "method": "official_object_image",
+          "provider": "generic-html"
+        },
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-691599.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-566619.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-691599.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-4632.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-566619.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-691599.large.jpg",
+          "https://collection.nationalmuseum.se/icons/bigLeftArrow.svg",
+          "https://collection.nationalmuseum.se/icons/bigRightArrow.svg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-691599.small.jpg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-4632.small.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-566619.small.jpg"
+        ],
+        "fastPageSignals": [
+          "accession_number_match",
+          "page_title_and_artist_match",
+          "title_match",
+          "creator_match"
+        ]
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "fast path download failed: image returned 403",
+        "No non-excluded image URL with sufficient exact-object identity evidence was found."
+      ],
+      "durationMs": 3935,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "wegner-jh501-armchair-nmk262-1956",
+        "status": "not_found",
+        "selectedCandidate": null,
+        "alternatives": [],
+        "limitations": [
+          "No non-excluded image URL with sufficient exact-object identity evidence was found."
+        ]
+      },
+      "reusedFromParent": true,
+      "parentEvidencePath": "research/runs/production/nationalmuseum/20260801T152615Z-p2.13.12/image-evidence/verified-image-evidence.json",
+      "parentEvidenceSha256": "b63f4af262a1aafdb607e9a4934800225b607a198a582e9499117b2c13ff57e5"
+    },
+    {
+      "workId": "sergel-mars-and-venus-nmsk1113",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "sergel-mars-and-venus-nmsk1113",
+        "title": "Mars and Venus",
+        "objectType": "sculpture",
+        "titleZh": "",
+        "titleEn": "Mars and Venus",
+        "creator": "Johan Tobias Sergel",
+        "artistOrCulture": "Johan Tobias Sergel",
+        "displayDate": "1775–1804",
+        "medium": "Carrara marble",
+        "identityAnchor": "NMSk 1113",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/27403/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/27403/",
+        "accessionNumber": "NMSk 1113",
+        "collectionGroup": "主馆绘画与雕塑收藏／雕塑"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Mars and Venus | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/27403/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-9582.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-1073271.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-9582.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-177819.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/4/multimedia-236994.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-237001.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/6/multimedia-237006.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-237012.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/6/multimedia-453026.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-658382.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-660287.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/9/multimedia-660289.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/1/multimedia-660291.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/5/multimedia-876105.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/6/multimedia-876106.large.jpg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "A visually related Wikimedia image was found, but its metadata identifies a different collection and accession number."
+      ],
+      "durationMs": 6423,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "sergel-mars-and-venus-nmsk1113",
+        "status": "not_found",
+        "selectedCandidate": null,
+        "alternatives": [],
+        "limitations": [
+          "A visually related Wikimedia image was found, but its metadata identifies a different collection and accession number."
+        ]
+      },
+      "reusedFromParent": true,
+      "parentEvidencePath": "research/runs/production/nationalmuseum/20260801T152615Z-p2.13.12/image-evidence/verified-image-evidence.json",
+      "parentEvidenceSha256": "b63f4af262a1aafdb607e9a4934800225b607a198a582e9499117b2c13ff57e5"
+    },
+    {
+      "workId": "bam-bam-chair-nmk148-1972",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "bam-bam-chair-nmk148-1972",
+        "title": "Chair BAM-BAM",
+        "objectType": "furniture",
+        "titleZh": "",
+        "titleEn": "Chair BAM-BAM",
+        "creator": "A&E Design AB; Tom Ahlström and Hans Ehrich",
+        "artistOrCulture": "A&E Design AB; Tom Ahlström and Hans Ehrich",
+        "displayDate": "1970",
+        "medium": "Plastic",
+        "identityAnchor": "NMK 148/1972",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/8185/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/8185/",
+        "accessionNumber": "NMK 148/1972",
+        "collectionGroup": "主馆设计与应用艺术收藏／家具与工业设计"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Chair ”BAM-BAM” | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/8185/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-567032.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/2/multimedia-567032.large.jpg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "No non-excluded image URL with sufficient exact-object identity evidence was found."
+      ],
+      "durationMs": 2708,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "bam-bam-chair-nmk148-1972",
+        "status": "not_found",
+        "selectedCandidate": null,
+        "alternatives": [],
+        "limitations": [
+          "No non-excluded image URL with sufficient exact-object identity evidence was found."
+        ]
+      },
+      "reusedFromParent": true,
+      "parentEvidencePath": "research/runs/production/nationalmuseum/20260801T152615Z-p2.13.12/image-evidence/verified-image-evidence.json",
+      "parentEvidenceSha256": "b63f4af262a1aafdb607e9a4934800225b607a198a582e9499117b2c13ff57e5"
+    },
+    {
+      "workId": "beauvais-tapestry-elephant-nmk299a-2016",
+      "identity": {
+        "museumId": "nationalmuseum",
+        "workId": "beauvais-tapestry-elephant-nmk299a-2016",
+        "title": "Tapestry, Grotesques de Berain, The Elephant",
+        "objectType": "textile",
+        "titleZh": "",
+        "titleEn": "Tapestry, Grotesques de Berain, The Elephant",
+        "creator": "Jean-Baptiste Monnoyer and Jean Bérain I; Manufacture de Beauvais",
+        "artistOrCulture": "Jean-Baptiste Monnoyer and Jean Bérain I; Manufacture de Beauvais",
+        "displayDate": "1695",
+        "medium": "Wool and silk tapestry",
+        "identityAnchor": "NMK 299A/2016",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/209463/",
+        "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/209463/",
+        "accessionNumber": "NMK 299A/2016",
+        "collectionGroup": "主馆设计与应用艺术收藏／纺织"
+      },
+      "fastPath": {
+        "status": "fast_path_unresolved",
+        "pageTitle": "Tapestry, Grotesques de Berain, \"The Elephant\" | Nationalmuseum",
+        "finalUrl": "https://collection.nationalmuseum.se/en/collection/item/209463/",
+        "fastCandidate": null,
+        "excludedImageUrls": [
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-563337.small.jpg",
+          "data:,",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+          "https://collection.nationalmuseum.se/icons/close.svg",
+          "https://collection.nationalmuseum.se/icons/lupe.svg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-917288.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-563337.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/3/multimedia-346603.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-917288.large.jpg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-563337.large.jpg",
+          "https://collection.nationalmuseum.se/icons/bigLeftArrow.svg",
+          "https://collection.nationalmuseum.se/icons/bigRightArrow.svg",
+          "https://collection.nationalmuseum.se/multimedia/7/multimedia-563337.small.jpg",
+          "https://collection.nationalmuseum.se/multimedia/3/multimedia-346603.small.jpg",
+          "https://collection.nationalmuseum.se/multimedia/8/multimedia-917288.small.jpg"
+        ],
+        "fastPageSignals": []
+      },
+      "status": "object_image_unresolved",
+      "objectImageResolved": false,
+      "imagePolicy": "none",
+      "selected": null,
+      "warnings": [
+        "No non-excluded image URL with sufficient exact-object identity evidence was found."
+      ],
+      "durationMs": 6786,
+      "aiRequired": true,
+      "aiResult": {
+        "workId": "beauvais-tapestry-elephant-nmk299a-2016",
+        "status": "not_found",
+        "selectedCandidate": null,
+        "alternatives": [],
+        "limitations": [
+          "No non-excluded image URL with sufficient exact-object identity evidence was found."
+        ]
+      },
+      "reusedFromParent": true,
+      "parentEvidencePath": "research/runs/production/nationalmuseum/20260801T152615Z-p2.13.12/image-evidence/verified-image-evidence.json",
+      "parentEvidenceSha256": "b63f4af262a1aafdb607e9a4934800225b607a198a582e9499117b2c13ff57e5"
+    }
+  ]
+}

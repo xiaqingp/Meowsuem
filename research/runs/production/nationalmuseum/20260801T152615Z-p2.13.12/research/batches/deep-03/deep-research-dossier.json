@@ -1,0 +1,382 @@
+{
+  "schemaVersion": 1,
+  "museumId": "nationalmuseum",
+  "researchedAt": "2026-08-01",
+  "works": [
+    {
+      "workId": "sergel-cupid-and-psyche-nmsk359",
+      "identity": {
+        "objectType": "sculpture",
+        "title": { "en": "Cupid and Psyche", "sv": "Amor och Psyke" },
+        "artistOrCulture": "Johan Tobias Sergel",
+        "displayDate": "1787",
+        "medium": "Carrara marble",
+        "accessionNumber": "NMSk 359",
+        "identityAnchor": "NMSk 359",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/26739/"
+      },
+      "identityAnchor": "NMSk 359",
+      "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/26739/",
+      "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/26739/",
+      "accessionNumber": "NMSk 359",
+      "identityStatus": "stable",
+      "availability": "confirmed_on_display",
+      "availabilityCheckedAt": "2026-08-01",
+      "availabilityEvidence": {
+        "statusLabel": "On display",
+        "museum": "Nationalmuseum",
+        "room": "1634 Temporary exhibitions",
+        "boundary": "The official catalogue confirmed display at research time; the temporary-exhibition room assignment is mutable and must be rechecked for a future visit."
+      },
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "A dated Carrara-marble Sergel group that condenses the Cupid and Psyche narrative into the separation immediately after Psyche discovers Cupid's identity; the catalogue states that new research established completion in 1787.",
+      "selectionSignals": [
+        "Supports Johan Tobias Sergel and Swedish Neoclassical sculpture through a securely identified marble work.",
+        "The catalogue connects its subject to Apuleius and identifies the represented narrative moment, giving it a stronger narrative-subject role than a generic mythological sculpture.",
+        "Its transfer from Kongl. Museum in 1866 adds a stable institutional-collection-history signal."
+      ],
+      "sectionSignals": ["Johan Tobias Sergel", "Neoclassical sculpture", "Myth and antiquity", "Rome and Sweden"],
+      "routeSignals": ["Current room 1634 stop", "Pair with Mars and Venus for Sergel's mythological marble groups", "Temporary-gallery status requires same-day verification"],
+      "riskFlags": ["display_rotation"],
+      "riskResolution": {
+        "display_rotation": {
+          "status": "resolved_for_research_date",
+          "evidence": "The official object page labels the work On display and assigns it to Nationalmuseum, room 1634 Temporary exhibitions.",
+          "remainingUncertainty": "The catalogue does not guarantee display beyond the research date, and the named room is explicitly a temporary-exhibition room."
+        }
+      },
+      "scoreEvidence": [
+        "Secure artist, material, accession and completion date on the official object page.",
+        "The catalogue's explicit subject account and revised 1787 completion date support artistic and art-historical importance, but no global rarity or non-substitutability evidence was found."
+      ],
+      "sourcePointers": ["https://collection.nationalmuseum.se/en/collection/item/26739/"]
+    },
+    {
+      "workId": "sergel-mars-and-venus-nmsk1113",
+      "identity": {
+        "objectType": "sculpture",
+        "title": { "en": "Mars and Venus", "sv": "Mars och Venus" },
+        "artistOrCulture": "Johan Tobias Sergel",
+        "displayDate": "1775–1804",
+        "medium": "Carrara marble",
+        "accessionNumber": "NMSk 1113",
+        "identityAnchor": "NMSk 1113",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/27403/"
+      },
+      "identityAnchor": "NMSk 1113",
+      "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/27403/",
+      "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/27403/",
+      "accessionNumber": "NMSk 1113",
+      "identityStatus": "stable",
+      "availability": "confirmed_on_display",
+      "availabilityCheckedAt": "2026-08-01",
+      "availabilityEvidence": {
+        "statusLabel": "On display",
+        "museum": "Nationalmuseum",
+        "room": "1634 Temporary exhibitions",
+        "boundary": "The official catalogue confirmed display at research time; the temporary-exhibition room assignment is mutable."
+      },
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "A Carrara-marble group begun by Sergel in Rome in 1775 and completed in Stockholm in 1804, designed for viewing from all sides so that different angles give the composition different characters.",
+      "selectionSignals": [
+        "The long Rome-to-Stockholm making history supplies a concrete bridge between Sergel's Roman formation and Swedish production.",
+        "The official catalogue explicitly identifies all-around viewing as an intended property, giving the work a distinct spatial role in a sculpture route.",
+        "The subject derives from the Iliad and shows Mars rescuing the wounded Venus."
+      ],
+      "sectionSignals": ["Johan Tobias Sergel", "Neoclassical sculpture", "Rome and Stockholm", "Sculpture in the round"],
+      "routeSignals": ["Current room 1634 stop", "Use as the strongest multi-angle sculpture-viewing stop", "Pair with Cupid and Psyche", "Temporary-gallery status requires same-day verification"],
+      "riskFlags": ["display_rotation"],
+      "riskResolution": {
+        "display_rotation": {
+          "status": "resolved_for_research_date",
+          "evidence": "The official object page labels the work On display and assigns it to Nationalmuseum, room 1634 Temporary exhibitions.",
+          "remainingUncertainty": "Future display is not guaranteed."
+        }
+      },
+      "scoreEvidence": [
+        "The official account documents a 29-year making span across Rome and Stockholm and an intentional all-around composition.",
+        "These facts support artistic and artist-landmark value; no evidence establishes global rarity or an irreplaceability hard-gate."
+      ],
+      "sourcePointers": ["https://collection.nationalmuseum.se/en/collection/item/27403/"]
+    },
+    {
+      "workId": "sergel-ceres-searching-proserpine-nmsk457",
+      "identity": {
+        "objectType": "sculpture",
+        "title": { "en": "Ceres Searching for Proserpine", "sv": "Ceres sökande Proserpina" },
+        "artistOrCulture": "Johan Tobias Sergel",
+        "displayDate": "1780s",
+        "medium": "Plaster",
+        "accessionNumber": "NMSk 457",
+        "identityAnchor": "NMSk 457",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/26828/"
+      },
+      "identityAnchor": "NMSk 457",
+      "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/26828/",
+      "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/26828/",
+      "accessionNumber": "NMSk 457",
+      "identityStatus": "stable",
+      "availability": "confirmed_on_display",
+      "availabilityCheckedAt": "2026-08-01",
+      "availabilityEvidence": {
+        "statusLabel": "On display",
+        "museum": "Nationalmuseum",
+        "room": "1651 Temporary Exhibitions",
+        "boundary": "The official catalogue confirmed display at research time; the temporary-exhibition room assignment is mutable."
+      },
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "A 1780s plaster sculpture in which Sergel's mythological figure also functions as a candelabrum: the torches carried by Ceres contain holders for wax candles.",
+      "selectionSignals": [
+        "Connects sculpture, interior decoration and practical function rather than repeating the marble mythological-group role of other Sergel candidates.",
+        "The official catalogue says it was likely intended for the Opera or another royal milieu, so that original setting remains probable rather than certain.",
+        "The catalogue states that several copies were made; this weighs against a rare-work classification."
+      ],
+      "sectionSignals": ["Johan Tobias Sergel", "Sculpture and function", "Court interiors", "Myth and antiquity"],
+      "routeSignals": ["Current room 1651 stop", "Use to diversify a Sergel route beyond marble", "Temporary-gallery status requires same-day verification"],
+      "riskFlags": ["display_rotation"],
+      "riskResolution": {
+        "display_rotation": {
+          "status": "resolved_for_research_date",
+          "evidence": "The official object page labels the work On display and assigns it to Nationalmuseum, room 1651 Temporary Exhibitions.",
+          "remainingUncertainty": "Future display is not guaranteed."
+        }
+      },
+      "scoreEvidence": [
+        "The dual sculpture/candelabrum function provides a concrete material and original-context contribution to selection.",
+        "Several copies are explicitly reported, and neither a survival count nor decisive non-substitutability is established."
+      ],
+      "sourcePointers": ["https://collection.nationalmuseum.se/en/collection/item/26828/"]
+    },
+    {
+      "workId": "sergel-gustav-ii-adolf-equestrian-model-nmsk450",
+      "identity": {
+        "objectType": "sculpture",
+        "title": { "en": "Model for the equestrian statue of Gustav II Adolf", "sv": "Modell till Gustav II Adolfs ryttarmonument" },
+        "artistOrCulture": "Johan Tobias Sergel and Pierre Hubert L'Archevêque",
+        "displayDate": "1763",
+        "medium": "Model sculpture",
+        "accessionNumber": "NMSk 450",
+        "identityAnchor": "NMSk 450",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/26821/"
+      },
+      "identityAnchor": "NMSk 450",
+      "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/26821/",
+      "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/26821/",
+      "accessionNumber": "NMSk 450",
+      "identityStatus": "stable",
+      "availability": "confirmed_on_display",
+      "availabilityCheckedAt": "2026-08-01",
+      "availabilityEvidence": {
+        "statusLabel": "On display",
+        "museum": "Nationalmuseum",
+        "room": "1635 Temporary exhibitions",
+        "boundary": "The official catalogue confirmed display at research time; the temporary-exhibition room assignment is mutable."
+      },
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "A jointly credited model for the equestrian monument to Gustav II Adolf that can represent public commemoration and the model stage of monumental sculpture within the museum's sculpture line.",
+      "selectionSignals": [
+        "The official catalogue credits both Johan Tobias Sergel and Pierre Hubert L'Archevêque and identifies Gustav II Adolf as the depicted person.",
+        "Its status as a model distinguishes process evidence from the finished mythological marbles in the candidate group.",
+        "The official page gives no supporting narrative for priority, rarity or the division of labor between the two credited artists; those claims must not be inferred."
+      ],
+      "sectionSignals": ["Public monuments", "Royal memory", "Sculptural process", "Johan Tobias Sergel"],
+      "routeSignals": ["Current room 1635 stop", "Use as a process-and-public-memory stop adjacent to the Sergel sculpture cluster", "Temporary-gallery status requires same-day verification"],
+      "riskFlags": ["display_rotation"],
+      "riskResolution": {
+        "display_rotation": {
+          "status": "resolved_for_research_date",
+          "evidence": "The official object page labels the work On display and assigns it to Nationalmuseum, room 1635 Temporary exhibitions.",
+          "remainingUncertainty": "Future display is not guaranteed."
+        }
+      },
+      "scoreEvidence": [
+        "The official identity supports a public-monument and making-process role.",
+        "Evidence is insufficient for a stronger importance or rarity claim; selection should depend on structure coverage rather than score elevation."
+      ],
+      "sourcePointers": ["https://collection.nationalmuseum.se/en/collection/item/26821/"]
+    },
+    {
+      "workId": "beauvais-tapestry-elephant-nmk299a-2016",
+      "identity": {
+        "objectType": "textile",
+        "title": { "en": "Tapestry, Grotesques de Berain, The Elephant", "sv": "Tapet: Grotesques de Berain med motiv Elefanten" },
+        "artistOrCulture": "Jean-Baptiste Monnoyer and Jean Bérain I; Manufacture de Beauvais",
+        "displayDate": "1695",
+        "medium": "Wool and silk tapestry",
+        "accessionNumber": "NMK 299A/2016",
+        "identityAnchor": "NMK 299A/2016",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/209463/"
+      },
+      "identityAnchor": "NMK 299A/2016",
+      "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/209463/",
+      "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/209463/",
+      "accessionNumber": "NMK 299A/2016",
+      "identityStatus": "stable_with_date_and_role_boundary",
+      "availability": "confirmed_on_display",
+      "availabilityCheckedAt": "2026-08-01",
+      "availabilityEvidence": {
+        "statusLabel": "On display",
+        "museum": "Nationalmuseum",
+        "room": "1611 17th century",
+        "boundary": "The official catalogue confirmed display at research time; future display remains mutable."
+      },
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "One member of Nationalmuseum's four-piece NMK 299A–D/2016 group from Carl Piper's documented Beauvais tapestry order, useful for explaining French-Swedish luxury exchange, patron-specific adaptation and the later dispersal and partial reunion of an ensemble.",
+      "selectionSignals": [
+        "The object page identifies NMK 299A/2016 as part of NMK 299A–D/2016 and records four tapestries acquired by Nationalmuseum in 2016.",
+        "Nationalmuseum's Art Bulletin identifies the four museum pieces individually as The Elephant, The Offering to Bacchus, Peacock and The Offering to Pan.",
+        "Correspondence between Daniel Cronström and Nicodemus Tessin the Younger documents Piper's order and identifies Monnoyer in connection with the series; the museum account assigns Bérain a new border design.",
+        "The scholarly article says Les Grotesques was woven in variants around 50 times over more than 40 years and that more than 150 individual tapestries are known, so the motif type is not globally rare.",
+        "Its strongest value is the documented Swedish commission and surviving four-piece group, not uniqueness of the Elephant motif."
+      ],
+      "sectionSignals": ["French-Swedish exchange", "Baroque interiors", "Textiles and patronage", "Ensembles and dispersal"],
+      "routeSignals": ["Current room 1611 stop", "Anchor a 17th-century applied-arts section", "Treat as one object within a four-piece Nationalmuseum group, not as the entire original suite"],
+      "riskFlags": ["multi_part_work", "attribution_or_date_conflict", "cross_source_synthesis"],
+      "riskResolution": {
+        "multi_part_work": {
+          "status": "resolved",
+          "evidence": "NMK 299A/2016 is The Elephant and one of the four Nationalmuseum accessions NMK 299A–D/2016. The museum article names B as The Offering to Bacchus, C as Peacock and D as The Offering to Pan. The historical set was larger and later dispersed, so A must not stand for the full original suite.",
+          "remainingUncertainty": "The object-page narrative describes an original set of six, while the scholarly article reports the group traced to George Jorck as seven tapestries and a fragment; neither statement turns the four museum accessions into a complete original set."
+        },
+        "attribution_or_date_conflict": {
+          "status": "bounded_not_harmonized",
+          "evidence": "The official object record displays 1695, while the Nationalmuseum Art Bulletin captions the four works circa 1696–99 and says the tapestries arrived toward the end of 1699. The catalogue narrative treats 1695 as the commission year. The object record lists Monnoyer and Bérain as designers, while its research narrative identifies Monnoyer for the suite patterns and Bérain for the border; the Bulletin describes the work as after designs by both.",
+          "remainingUncertainty": "Use 1695 only as the catalogue display date or commission anchor; use circa 1696–99 for execution when following the Art Bulletin. Do not collapse the composition and border roles into an unsupported single attribution formula."
+        },
+        "cross_source_synthesis": {
+          "status": "resolved_with_explicit_boundaries",
+          "evidence": "The official catalogue supplies current identity, display and acquisition data; the Nationalmuseum Art Bulletin supplies the component list, comparison population, date range and provenance reconstruction.",
+          "remainingUncertainty": "The exact original-set count and exact execution year remain bounded as stated above."
+        }
+      },
+      "comparisonEvidence": {
+        "comparisonCategory": "Beauvais Les Grotesques tapestries after Monnoyer/Bérain designs",
+        "nearestComparators": "Other subjects and variants in the same widely woven Les Grotesques design family, including the three companion Nationalmuseum accessions and known complete sets and individual tapestries elsewhere.",
+        "sharedCoreValue": "They share the Beauvais grotesque design family, wool-and-silk medium and adaptable compositions.",
+        "decisiveDifference": "This example's selection value lies in its connection to Piper's unusually well-documented Swedish order and its membership in the four works acquired together by Nationalmuseum, rather than in a unique motif or singular surviving type.",
+        "knownQuantityBoundary": "The Art Bulletin reports the design woven around 50 times and more than 150 individual tapestries known; it does not establish a worldwide survival count for Piper's exact original suite.",
+        "irreplaceabilityResult": "not_met"
+      },
+      "scoreEvidence": [
+        "The documented patronage, cross-border commission, preserved ensemble relationship and correspondence support historical-cultural and collection-line importance.",
+        "The broad survival of the design family defeats a motif-level rarity claim, and exact Piper-suite survival boundaries remain incomplete; classify as important rather than rare."
+      ],
+      "sourcePointers": [
+        "https://collection.nationalmuseum.se/en/collection/item/209463/",
+        "https://nationalmuseum.diva-portal.org/smash/get/diva2%3A1168447/FULLTEXT01.pdf"
+      ]
+    },
+    {
+      "workId": "foreign-minister-residence-armchair-nmk110-2013",
+      "identity": {
+        "objectType": "furniture",
+        "title": { "en": "Armchair, Part of an Ensemble", "sv": "Armlänstol, del av möbelgrupp" },
+        "artistOrCulture": "Unknown; former attribution Jonas Frisk workshop",
+        "displayDate": "1830",
+        "medium": "Gilt and bronzed wood, silk",
+        "accessionNumber": "NMK 110/2013",
+        "identityAnchor": "NMK 110/2013",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/152510/"
+      },
+      "identityAnchor": "NMK 110/2013",
+      "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/152510/",
+      "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/152510/",
+      "accessionNumber": "NMK 110/2013",
+      "identityStatus": "stable_with_unknown_maker",
+      "availability": "confirmed_on_display",
+      "availabilityCheckedAt": "2026-08-01",
+      "availabilityEvidence": {
+        "statusLabel": "On display",
+        "museum": "Nationalmuseum",
+        "room": "1449 1800-1870",
+        "boundary": "The official catalogue confirmed display at research time; future display remains mutable."
+      },
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "A securely identified member of a seven-piece museum-held furniture group from Sweden's former foreign-minister residence, preserving institutional setting, French period silk and ensemble relationships despite an unknown maker.",
+      "selectionSignals": [
+        "The official record identifies the maker as unknown and Jonas Frisk workshop only as a former attribution; selection must not present Frisk as maker.",
+        "The original group comprised at least 13 pieces: two sofas, eight armchairs, two banquettes and a mirror.",
+        "Seven pieces transferred to Nationalmuseum are one sofa, four armchairs, one banquette and the mirror, catalogued as NMK 109–115/2013.",
+        "The building served as the foreign minister's official residence and a venue for official functions until the early 1960s; the original room retains silk wallpaper matching the upholstery's red shade.",
+        "Storage probably preserved the original upholstery; probability wording must be retained."
+      ],
+      "sectionSignals": ["Institutional interiors", "19th-century Swedish furniture", "Ensembles and preservation", "Applied art and diplomacy"],
+      "routeSignals": ["Current room 1449 stop", "Anchor the 1800–1870 furniture and institutional-interior line", "Present as one chair within a seven-piece museum group"],
+      "riskFlags": ["multi_part_work", "attribution_or_date_conflict"],
+      "riskResolution": {
+        "multi_part_work": {
+          "status": "resolved",
+          "evidence": "NMK 110/2013 is one armchair within NMK 109–115/2013, the seven pieces transferred to Nationalmuseum. The historical ensemble comprised at least 13 pieces, so neither this chair nor the seven museum pieces should be called the complete original ensemble.",
+          "remainingUncertainty": "The official page establishes a minimum original count, not a closed global survival inventory."
+        },
+        "attribution_or_date_conflict": {
+          "status": "resolved_by_current_catalogue",
+          "evidence": "The current official record says Made by: Unknown and separately records Jonas Frisk workshop as Former attribution.",
+          "remainingUncertainty": "No current maker is identified; the former attribution must remain historical and cannot be revived as authorship."
+        }
+      },
+      "comparisonEvidence": {
+        "comparisonCategory": "Swedish luxury furniture suites around 1830",
+        "nearestComparators": "The suite in the Lantern Room at Rosendal Palace, completed around 1829.",
+        "sharedCoreValue": "The official account says both suites use the same French silk and have an identical basic shape.",
+        "decisiveDifference": "Rosendal uses hand-carved ornament and real gold leaf; the foreign-minister-residence suite uses cast lead ornament and a gilt effect made with metal foil and bronzing.",
+        "knownQuantityBoundary": "At least 13 pieces in the original residence suite; seven are held by Nationalmuseum. No worldwide count is established.",
+        "irreplaceabilityResult": "not_met"
+      },
+      "scoreEvidence": [
+        "Institutional provenance, surviving ensemble structure, matching original-room context and period upholstery support historical-cultural and collection-line importance.",
+        "The Rosendal parallel supplies a close substitute for formal comparison, and no global rarity hard-gate is met."
+      ],
+      "sourcePointers": ["https://collection.nationalmuseum.se/en/collection/item/152510/"]
+    },
+    {
+      "workId": "carl-horvik-dining-chair-nmk31-1988",
+      "identity": {
+        "objectType": "furniture",
+        "title": { "en": "Chair from a dining-room set designed for architect Carl Åkerblom", "sv": "Stol, del av matsalsmöbel ritad för arkitekten Carl Åkerblom" },
+        "artistOrCulture": "Carl Hörvik",
+        "displayDate": "1923",
+        "medium": "Stained and carved birch, inlay, rattan",
+        "accessionNumber": "NMK 31/1988",
+        "identityAnchor": "NMK 31/1988",
+        "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/2178/"
+      },
+      "identityAnchor": "NMK 31/1988",
+      "identitySourceUrl": "https://collection.nationalmuseum.se/en/collection/item/2178/",
+      "officialObjectUrl": "https://collection.nationalmuseum.se/en/collection/item/2178/",
+      "accessionNumber": "NMK 31/1988",
+      "identityStatus": "stable",
+      "availability": "confirmed_on_display",
+      "availabilityCheckedAt": "2026-08-01",
+      "availabilityEvidence": {
+        "statusLabel": "On display",
+        "museum": "Nationalmuseum",
+        "room": "1412 1920-1965",
+        "boundary": "The official catalogue confirmed display at research time; future display remains mutable."
+      },
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "A 1923 Carl Hörvik chair from a dining-room set designed for architect Carl Åkerblom, combining stained and carved birch, inlay and rattan within the museum's 1920–1965 design line.",
+      "selectionSignals": [
+        "Secure official identity, designer-maker, date, materials and residential-set relationship.",
+        "Adds a documented 1920s Swedish furniture stop and material contrast to the older gilded residence ensemble.",
+        "The official object page provides no strong comparative, innovation, rarity or complete-set evidence; selection should be for period and medium coverage rather than elevated status."
+      ],
+      "sectionSignals": ["Swedish design 1920–1965", "Furniture and domestic interiors", "Wood, inlay and rattan"],
+      "routeSignals": ["Current room 1412 stop", "Use in a chronological applied-arts route", "Pair with NMK 110/2013 to contrast 1830 and 1923 Swedish interiors"],
+      "riskFlags": [],
+      "riskResolution": {},
+      "scoreEvidence": [
+        "The object is a stable period-and-medium representative with a named designer and original dining-room-set context.",
+        "Available evidence does not support rare or globally important status."
+      ],
+      "sourcePointers": ["https://collection.nationalmuseum.se/en/collection/item/2178/"]
+    }
+  ]
+}

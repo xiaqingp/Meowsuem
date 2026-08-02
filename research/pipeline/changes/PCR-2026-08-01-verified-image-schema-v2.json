@@ -1,0 +1,43 @@
+{
+  "id": "PCR-2026-08-01-verified-image-schema-v2",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-01",
+  "ownerInstruction": "审核并修复 pipeline 图片 evidence schema 在 producer、consumer 和 publisher 之间的一致性。",
+  "baseRelease": "research/pipeline/releases/v2.13.31.json",
+  "targetVersion": "2.13.32",
+  "implementationStatus": "completed",
+  "scope": [
+    "align verified image evidence schema and producers on schemaVersion 2",
+    "align identityEvidence, source URL and capture fields",
+    "enforce status, imagePolicy, objectImageResolved and selected relationships",
+    "validate evidence at resolver, retry, repair, locked metadata, publication plan and promotion boundaries"
+  ],
+  "outOfScope": [
+    "rerunning museum content stages",
+    "mutating immutable production evidence"
+  ],
+  "allowedCanonicalFiles": [
+    "scripts/schemas/verified-image-evidence.schema.json",
+    "scripts/lib/verified-image-evidence-contract.mjs",
+    "scripts/validate-verified-image-evidence.mjs",
+    "scripts/resolve-two-level-image-evidence.mjs",
+    "scripts/retry-failed-image-evidence.mjs",
+    "scripts/repair-invalid-page-captures.mjs",
+    "scripts/prepare-one-shot-work-inputs.mjs",
+    "scripts/prepare-museum-publication-plan.mjs",
+    "scripts/promote-image-repair.mjs"
+  ],
+  "verification": {
+    "status": "passed",
+    "record": "scripts/test-verified-image-evidence-contract.mjs",
+    "commands": [
+      "node scripts/test-verified-image-evidence-contract.mjs",
+      "node scripts/test-image-resolution-v2.mjs",
+      "node scripts/validate-verified-image-evidence.mjs research/runs/production/nationalmuseum/20260801T164044Z-p2.13.13/image-evidence/verified-image-evidence.json research/runs/experiment/nationalmuseum-invalid-capture-repair-v3/20260801T185322Z-p2.13.31/image-evidence/verified-image-evidence.json",
+      "node scripts/verify-content-pipeline.mjs",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

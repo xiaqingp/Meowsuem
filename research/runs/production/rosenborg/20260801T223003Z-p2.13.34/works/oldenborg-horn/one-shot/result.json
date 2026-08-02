@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "status": "accepted",
+  "runId": "20260801T223003Z-p2.13.34",
+  "museumId": "rosenborg",
+  "workId": "oldenborg-horn",
+  "stage": "single_work",
+  "attempt": 2,
+  "model": "gpt-5.6-luna",
+  "reasoningEffort": "high",
+  "startedAt": "2026-08-02T00:01:28.753Z",
+  "completedAt": "2026-08-02T00:04:08.242Z",
+  "durationMs": 159489,
+  "inputTokens": 187021,
+  "cachedInputTokens": 147968,
+  "reasoningTokens": 4846,
+  "outputTokens": 7847,
+  "totalTokens": 194868,
+  "agentRunCount": 1,
+  "modelRoundCount": 1,
+  "webSearchCount": 5,
+  "webOpenCount": 0
+}

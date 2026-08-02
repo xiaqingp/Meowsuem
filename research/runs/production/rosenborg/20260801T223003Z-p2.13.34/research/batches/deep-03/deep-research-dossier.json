@@ -1,0 +1,424 @@
+{
+  "schemaVersion": 1,
+  "museumId": "rosenborg",
+  "evidenceCheckedAt": "2026-08-01",
+  "works": [
+    {
+      "workId": "wetting-trap-chair",
+      "identityStatus": "stable",
+      "identityAnchor": "official-object:wetting-trap-chair",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/wetting-trap-chair/",
+      "availability": "confirmed_on_display_at_rosenborg",
+      "availabilityDetail": "馆方Regalia Room页面称该椅自2025年春起置于Rosenborg的24号房；本次核验未见结束日期或关闭提示。",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "隐藏水箱、风箱、铁臂与喷水机构把17世纪宫廷娱乐、机械奇观和权力不对等集中在一件可操作家具中。",
+      "selectionSignals": [
+        "补足王冠、珠宝之外的宫廷幽默与机械文化",
+        "馆方确认其约1850年代移入Rosenborg并一直留存于此",
+        "可作为珍奇柜收藏线与历史室内线之间的节点"
+      ],
+      "sectionSignals": [
+        "宫廷日常与权力",
+        "珍奇柜与机械装置"
+      ],
+      "routeSignals": [
+        "位于Regalia Room（24号房）",
+        "适合接在绝对王权陈设之后，形成制度威严与宫廷恶作剧的对照"
+      ],
+      "riskFlags": [
+        "current_display_status",
+        "superlative_claim"
+      ],
+      "riskEvidence": {
+        "current_display_status": {
+          "status": "resolved",
+          "conclusion": "confirmed_on_display_at_rosenborg",
+          "evidence": "馆方Regalia Room页面明确写明自2025年春起该椅陈列于该房间。"
+        },
+        "superlative_claim": {
+          "status": "bounded_not_rare_gate_passed",
+          "comparisonCategory": "欧洲现存机械陷阱椅",
+          "nearestComparators": "馆方称欧洲共有六把机械椅，至少另有两把也可能用于宫廷恶作剧，但未在页面逐件命名。",
+          "sharedCoreValue": "以隐藏机械制造宫廷恶作剧效果。",
+          "decisiveDifference": "馆方称此椅以三种效果的组合区别于其他实例，并称它是欧洲唯一保存下来的、具有这一特定隐藏机构组合的机械椅。",
+          "nonSubstitutableValue": "现有来源支持特定机构组合的独特性，但未提供逐件比较对象及其保存状态，因而不足以通过稀世珍品硬门。",
+          "unknownBoundary": "六把椅的逐件身份、保存完整度、三种效果的统一比较口径均未给出。"
+        }
+      },
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/wetting-trap-chair/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-24-the-regalia-room/"
+      ]
+    },
+    {
+      "workId": "golden-egg-with-hen",
+      "identityStatus": "stable",
+      "identityAnchor": "official-object:golden-egg-with-hen",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/golden-egg-with-hen/",
+      "availability": "confirmed_on_display_at_amalienborg_not_rosenborg",
+      "availabilityDetail": "馆方Amalienborg Museum及Fabergé Chamber页面均把该物列为该馆房间亮点；不能纳入Rosenborg现场路线。",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "约1720年的法国金蛋以象牙蛋壳、金蛋壳、母鸡、王冠和戒指五层可拆结构兼作香盒，并通过继承进入丹麦王室。",
+      "selectionSignals": [
+        "代表可拆分、便携且兼具气味用途的宫廷珍奇物",
+        "馆方仅以推测语气提出它可能启发后来Fabergé彩蛋，不宜升级为确定影响关系",
+        "当前馆址属于Amalienborg，不能支撑Rosenborg单馆选件"
+      ],
+      "sectionSignals": [
+        "宫廷珍奇与隐蔽功能",
+        "跨王室继承"
+      ],
+      "routeSignals": [
+        "不进入Rosenborg路线",
+        "如产品允许跨馆延伸，可归入Amalienborg的Fabergé Chamber"
+      ],
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskEvidence": {
+        "current_display_status": {
+          "status": "resolved_offsite",
+          "conclusion": "confirmed_on_display_at_amalienborg_not_rosenborg",
+          "evidence": "馆方Amalienborg馆介和Fabergé Chamber页面均把Golden Egg with Hen列为该房间可见亮点。"
+        }
+      },
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/golden-egg-with-hen/",
+        "https://denkongeligesamling.dk/en/amalienborg-museum/",
+        "https://denkongeligesamling.dk/en/amalienborg-museum/interior-and-objects/the-faberge-chamber/"
+      ]
+    },
+    {
+      "workId": "champagne-cooler",
+      "identityStatus": "stable",
+      "identityAnchor": "official-object:champagne-cooler",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/champagne-cooler/",
+      "availability": "confirmed_on_display_at_amalienborg_not_rosenborg",
+      "availabilityDetail": "馆方Amalienborg馆介和Fabergé Chamber页面将其列为该房间陈列亮点；对象为Danish Royal Property Trust借展品。",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "1892年俄国皇室为丹麦国王夫妇金婚所赠的鎏银巨型kovsh形冰桶，以俄丹纹章和象徽把亲属外交转为器物设计。",
+      "selectionSignals": [
+        "连接Fabergé工艺、俄丹王室亲缘和金婚赠礼",
+        "馆方称其为Fabergé最大且最壮观作品之一，但未给出完整尺寸排名或全球比较组",
+        "当前馆址属于Amalienborg，不能支撑Rosenborg单馆选件"
+      ],
+      "sectionSignals": [
+        "王室亲缘与外交礼物",
+        "Fabergé与俄国工艺"
+      ],
+      "routeSignals": [
+        "不进入Rosenborg路线",
+        "如产品允许跨馆延伸，可与加冕胸针、金蛋合并为Amalienborg Fabergé线"
+      ],
+      "riskFlags": [
+        "current_display_status",
+        "superlative_claim"
+      ],
+      "riskEvidence": {
+        "current_display_status": {
+          "status": "resolved_offsite",
+          "conclusion": "confirmed_on_display_at_amalienborg_not_rosenborg",
+          "evidence": "馆方Amalienborg及Fabergé Chamber页面将Champagne cooler列为房间亮点。"
+        },
+        "superlative_claim": {
+          "status": "not_resolved_for_ranking",
+          "comparisonCategory": "Fabergé大型银器",
+          "nearestComparators": "馆方仅概括为Fabergé最大且最壮观的作品之一，没有列出最近比较对象。",
+          "decisiveDifference": "可确认其kovsh造型、鎏银材料、俄丹符号和1892年金婚委托；不能确认全球尺寸或质量排名。",
+          "unknownBoundary": "比较样本、尺寸数据和排名方法均未提供。"
+        }
+      },
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/champagne-cooler/",
+        "https://denkongeligesamling.dk/en/amalienborg-museum/",
+        "https://denkongeligesamling.dk/en/amalienborg-museum/interior-and-objects/the-faberge-chamber/"
+      ]
+    },
+    {
+      "workId": "faberge-coronation-brooch",
+      "identityStatus": "stable",
+      "identityAnchor": "official-object:faberges-coronation-brooch",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/faberges-coronation-brooch/",
+      "availability": "confirmed_on_display_at_amalienborg_not_rosenborg",
+      "availabilityDetail": "馆方Amalienborg馆介和Fabergé Chamber页面均将其列为房间亮点并给出展柜条目52。",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "这枚钻石帝冠形胸针是1896年尼古拉二世加冕所制18枚之一，其继承链把俄国大公家族与丹麦王室连接起来。",
+      "selectionSignals": [
+        "事件、制作数量和跨王室继承链均有馆方明确记录",
+        "馆方房间页称现仅另知两枚加冕胸针存世，但18枚本为同型制作，可比对象承载相同核心价值，不能仅凭数量通过稀世珍品硬门",
+        "当前馆址属于Amalienborg，不能支撑Rosenborg单馆选件"
+      ],
+      "sectionSignals": [
+        "加冕仪式与纪念珠宝",
+        "俄丹王室网络"
+      ],
+      "routeSignals": [
+        "不进入Rosenborg路线",
+        "如产品允许跨馆延伸，可作为Amalienborg Fabergé Chamber的数量明确对象"
+      ],
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskEvidence": {
+        "current_display_status": {
+          "status": "resolved_offsite",
+          "conclusion": "confirmed_on_display_at_amalienborg_not_rosenborg",
+          "evidence": "馆方Fabergé Chamber页面将其列为亮点和对象52。"
+        },
+        "comparisonEvidence": {
+          "comparisonCategory": "1896年为俄罗斯大公夫人制作的18枚同型加冕胸针",
+          "nearestComparators": "馆方称除本件外目前仅知另两枚存世，但未提供其馆藏、状态或逐件差异。",
+          "sharedCoreValue": "同一加冕事件、同一帝冠形制和同批纪念功能。",
+          "decisiveDifference": "本件的特殊价值主要是从Anastasia传至Queen Alexandrine再进入Royal Danish Collection的丹麦继承链，不是同型作品中已证明的艺术差异。",
+          "nonSubstitutableValue": "比较对象仍可解释同一制作与加冕核心；丹麦继承链使其对本收藏重要，但不足以证明全球不可替代。",
+          "unknownBoundary": "另两枚的身份、保存状态和来源链未在馆方页面说明。"
+        }
+      },
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/faberges-coronation-brooch/",
+        "https://denkongeligesamling.dk/en/amalienborg-museum/",
+        "https://denkongeligesamling.dk/en/amalienborg-museum/interior-and-objects/the-faberge-chamber/"
+      ]
+    },
+    {
+      "workId": "flora-danica-encyclopedia",
+      "identityStatus": "stable",
+      "identityAnchor": "official-object:the-flora-danica-encyclopedia",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-flora-danica-encyclopedia/",
+      "availability": "display_status_unknown",
+      "availabilityDetail": "对象页确认馆藏与项目身份，但未指定Rosenborg或其他当前展厅；Koldinghus常设展明确展示Flora Danica瓷器及百科项目背景，不能据此推定此卷百科全书正在展出。",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "1766年早期卷见证一项持续122年的全国植物采集、鉴定、铜版制作与知识分发工程，使王室收藏延伸至国家知识生产。",
+      "selectionSignals": [
+        "补足奢华器物之外的启蒙时代科学与出版制度",
+        "馆方明确记录每期40幅版画、每卷由3或4期组成，以及科学家、画师、纽伦堡刻工和手工着色者的协作",
+        "当前展厅无法确认，不能作为Rosenborg必看对象承诺"
+      ],
+      "sectionSignals": [
+        "知识生产与国家工程",
+        "铜版印刷与植物分类"
+      ],
+      "routeSignals": [
+        "仅在现场状态核验后纳入Rosenborg路线",
+        "不要与Koldinghus的Flora Danica瓷器常设展混同"
+      ],
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskEvidence": {
+        "current_display_status": {
+          "status": "unresolved",
+          "conclusion": "display_status_unknown",
+          "evidence": "官方对象页未写展厅；官方Koldinghus页面证明的是瓷器常设展及百科背景，未明确此件1766年卷正在展出。"
+        }
+      },
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-flora-danica-encyclopedia/",
+        "https://denkongeligesamling.dk/en/koldinghus/calendar/flora-danica-the-world-s-wildest-dinnerware/",
+        "https://denkongeligesamling.dk/en/whats-on/exhibitions/"
+      ]
+    },
+    {
+      "workId": "chess-set",
+      "identityStatus": "stable",
+      "identityAnchor": "official-object:chess-set",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/chess-set/",
+      "availability": "display_status_unknown_after_expired_offsite_loan",
+      "availabilityDetail": "对象页称其通常在Rosenborg Marble Chamber，但又称当时借至Koldinghus的Crowning Moments；馆方总展览页把该临展日期定为2025-10-09至2026-02-22，早于本次核验日。未找到归还后的明确现状，故不能把页面上的currently解释为2026-08-01仍在Koldinghus，也不能自动推定已回Rosenborg。",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "约1660年的石灰岩棋组把丹麦与瑞典王室、1658至1660年战争和讽刺性角色安排压缩到棋盘规则中。",
+      "selectionSignals": [
+        "提供尺度亲近的战争记忆和王室政治讽刺",
+        "馆方明确把丹麦与瑞典替代常规黑白阵营，并解释若干棋子身份与贬损性安排",
+        "过期临展造成当前地点时态冲突，必须在选件前复核"
+      ],
+      "sectionSignals": [
+        "战争记忆与政治讽刺",
+        "游戏、角色与王权图像"
+      ],
+      "routeSignals": [
+        "若确认归还，通常展位为Rosenborg Marble Chamber",
+        "未确认前不得纳入确定可见路线"
+      ],
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskEvidence": {
+        "current_display_status": {
+          "status": "unresolved_temporal_conflict",
+          "conclusion": "display_status_unknown_after_expired_offsite_loan",
+          "evidence": "对象页称通常在Rosenborg、当时在Koldinghus；独立馆方展览总页确认Crowning Moments已于2026-02-22结束。本次核验未找到归还公告或新的房间页确认。"
+        }
+      },
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/chess-set/",
+        "https://denkongeligesamling.dk/en/koldinghus/calendar/crowning-moments/",
+        "https://denkongeligesamling.dk/en/whats-on/exhibitions/"
+      ]
+    },
+    {
+      "workId": "constitution-pen",
+      "identityStatus": "stable",
+      "identityAnchor": "official-object:the-constitution-pen",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-constitution-pen/",
+      "availability": "confirmed_on_display_at_rosenborg",
+      "availabilityDetail": "近期抓取的馆方对象页明确称该笔现陈列于Rosenborg的Frederik VII房间；它曾参加已于2026-02-22结束的Koldinghus临展，当前对象页提供了归馆后的明确位置。",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "弗雷德里克七世于1849年6月5日用此笔签署丹麦首部宪法，使一件书写工具成为绝对君主制转向宪政君主制的直接事件物证。",
+      "selectionSignals": [
+        "事件身份、使用者、日期和当前展厅均由馆方直接确认",
+        "可与地下Treasury陈列的1665年Lex Regia形成制度前后对照",
+        "历史价值来自参与宪法签署，不需要以材质或稀有度抬高"
+      ],
+      "sectionSignals": [
+        "绝对王权到宪政",
+        "事件物证与书写行为"
+      ],
+      "routeSignals": [
+        "Rosenborg的Frederik VII房间",
+        "可与地下Treasury的Lex Regia组成跨楼层制度转型线"
+      ],
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskEvidence": {
+        "current_display_status": {
+          "status": "resolved",
+          "conclusion": "confirmed_on_display_at_rosenborg",
+          "evidence": "馆方对象页明确写明该笔现陈列于Rosenborg的Frederik VII房间；馆方展览总页确认其Koldinghus临展已在2026-02-22结束。"
+        }
+      },
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-constitution-pen/",
+        "https://denkongeligesamling.dk/en/whats-on/exhibitions/"
+      ]
+    },
+    {
+      "workId": "margrethe-abdication-pen",
+      "identityStatus": "stable",
+      "identityAnchor": "official-object:hm-queen-margrethe-iis-abdication-pen",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/hm-queen-margrethe-ii-s-abdication-pen/",
+      "availability": "display_status_unknown_after_expired_offsite_exhibition",
+      "availabilityDetail": "该笔曾在Koldinghus的Crowning Moments展出，但馆方总展览页确认展期为2025-10-09至2026-02-22；对象页未提供展后地点，无法确认2026-08-01在Rosenborg、Koldinghus或其他馆址展出。",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "玛格丽特二世于2024年1月14日在国务会议上用这支日常惯用类型的绿色笔签署退位声明，结束52年统治并使弗雷德里克十世即位。",
+      "selectionSignals": [
+        "补足王室收藏作为持续制度记忆而非封闭古董集合的时间纵深",
+        "历史意义由具体使用事件建立，不来自笔本身的工艺或稀有度",
+        "展出位置未知，不能作为Rosenborg现场核心对象承诺"
+      ],
+      "sectionSignals": [
+        "现代王位交接",
+        "日常物件成为制度见证"
+      ],
+      "routeSignals": [
+        "未确认当前馆址前不进入Rosenborg路线",
+        "可在结构层与1849年宪法笔形成两次制度转折的对照，但不能暗示两笔同场"
+      ],
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskEvidence": {
+        "current_display_status": {
+          "status": "unresolved_after_exhibition",
+          "conclusion": "display_status_unknown_after_expired_offsite_exhibition",
+          "evidence": "馆方Crowning Moments页证明它曾在Koldinghus展出；馆方总展览页确认该展已于2026-02-22结束；对象页没有后续展厅信息。"
+        }
+      },
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/hm-queen-margrethe-ii-s-abdication-pen/",
+        "https://denkongeligesamling.dk/en/koldinghus/calendar/crowning-moments/",
+        "https://denkongeligesamling.dk/en/whats-on/exhibitions/"
+      ]
+    },
+    {
+      "workId": "rosenborg-wine",
+      "identityStatus": "stable",
+      "identityAnchor": "official-object:the-rosenborg-wine",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rosenborg-wine/",
+      "availability": "confirmed_on_display_at_rosenborg",
+      "availabilityDetail": "馆方对象页明确称1598、1599和1615年的三只最老酒桶陈列于Rosenborg；地下室Weapons and wine（room B）页面进一步描述现场位置，并说明酒桶现为空。",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "三只早期酒桶与持续补充、转移到钢罐和瓶中的酒共同保存了自1598年王室新年宴饮延续至今的使用传统，同时清楚区分原桶与现存酒液。",
+      "selectionSignals": [
+        "连接地下酒窖、宫廷饮食、战争掠夺与持续王室仪式",
+        "馆方明确最老三桶年代、1731年移入Rosenborg及1982年酒液转移；旧木桶已空，不能写成桶内仍装1598年原酒",
+        "适合补足王冠与国家仪式之外的饮食和保存实践"
+      ],
+      "sectionSignals": [
+        "宫廷饮食与延续传统",
+        "酒窖、战争与保存"
+      ],
+      "routeSignals": [
+        "地下室Weapons and wine（room B）",
+        "适合作为进入Treasury前后的地下层体验节点"
+      ],
+      "riskFlags": [
+        "current_display_status"
+      ],
+      "riskEvidence": {
+        "current_display_status": {
+          "status": "resolved",
+          "conclusion": "confirmed_on_display_at_rosenborg",
+          "evidence": "馆方对象页与room B页面一致确认三只最老木桶在Rosenborg地下室陈列。"
+        }
+      },
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/the-collection/objects/the-rosenborg-wine/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-b-weapons-and-wine/"
+      ]
+    },
+    {
+      "workId": "winter-room",
+      "identityStatus": "stable",
+      "identityAnchor": "rosenborg-room-1",
+      "identitySourceUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-1-the-winter-room/",
+      "availability": "confirmed_closed_for_restoration",
+      "availabilityDetail": "馆方房间页在本次核验时明确标示currently closed due to restoration，且未给出重开日期；不得纳入可进入路线。",
+      "importanceCandidate": "体验补充",
+      "rareCandidate": false,
+      "coreValue": "冬室是Rosenborg保存最完整的克里斯蒂安四世时期室内之一，约1620年墙板、嵌画、隐藏声道、传声管和相邻寝室关系共同记录王室空间如何服务接见、娱乐与控制。",
+      "selectionSignals": [
+        "建筑与原境价值高，且是克里斯蒂安四世三间私人房中最重要的一间",
+        "馆方明确隐藏声道依据文献于2007年重新发现并开启；现通常因安全封闭，但位置可辨",
+        "当前整室修复关闭，结构可保留为馆级论点证据，路线必须排除"
+      ],
+      "sectionSignals": [
+        "克里斯蒂安四世的私人空间",
+        "建筑机械、声音与服务网络",
+        "保存与修复"
+      ],
+      "routeSignals": [
+        "1号房当前关闭，不得列入任何可执行路线",
+        "可作为关闭提醒或未来重开后的高价值空间节点"
+      ],
+      "riskFlags": [
+        "current_display_status",
+        "architecture_or_site"
+      ],
+      "riskEvidence": {
+        "current_display_status": {
+          "status": "resolved_closed",
+          "conclusion": "confirmed_closed_for_restoration",
+          "evidence": "馆方房间页明确标示当前因修复关闭，未给出重开日。"
+        },
+        "architecture_or_site": {
+          "status": "resolved_for_structure_not_route",
+          "evidence": "馆方将其界定为克里斯蒂安四世时期保存最好的房间之一及其三间私人房中最重要者，并详述约1620年墙板、隐藏声道、传声管、后加凸窗和修复边界。"
+        }
+      },
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-1-the-winter-room/"
+      ]
+    }
+  ]
+}

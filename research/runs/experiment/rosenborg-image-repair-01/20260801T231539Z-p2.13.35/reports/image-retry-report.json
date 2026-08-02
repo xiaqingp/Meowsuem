@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "stage": "image_evidence_retry",
+  "runId": "20260801T231539Z-p2.13.35",
+  "runRoot": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35",
+  "parentRunRoot": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34",
+  "parentEvidenceSha256": "98d3ae30915d40bed78fc6812991587f8431003239ce4ae61401da60bc6cd846",
+  "failedWorksRetried": [
+    {
+      "workId": "rose-cut-diamond-set",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "No non-excluded image with sufficient exact-work identity evidence found."
+      ],
+      "sourcePageUrl": null
+    },
+    {
+      "workId": "ampulla",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "The official images were excluded and no sufficiently verified alternative image was found."
+      ],
+      "sourcePageUrl": null
+    },
+    {
+      "workId": "coronation-sword",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "The official images were excluded and no sufficiently verified alternative image was found."
+      ],
+      "sourcePageUrl": null
+    },
+    {
+      "workId": "shrapnel-earrings",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "The official images were excluded and no sufficiently verified alternative image was found."
+      ],
+      "sourcePageUrl": null
+    },
+    {
+      "workId": "christian-iii-sword-of-state",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "The official images were excluded and no sufficiently verified alternative image was found."
+      ],
+      "sourcePageUrl": null
+    },
+    {
+      "workId": "pomander",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "fast path download failed: asset collision for pomander",
+        "The official images were excluded and no sufficiently verified alternative image was found."
+      ],
+      "sourcePageUrl": null
+    },
+    {
+      "workId": "constitution-pen",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "AI candidate download failed: image returned 429"
+      ],
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:På_sporet_af_Grundloven_-_Grundlovspennen.jpg"
+    },
+    {
+      "workId": "knights-hall",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "AI candidate download failed: image returned 429"
+      ],
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Denmark_0141_-_Knight%27s_Hall.jpg"
+    },
+    {
+      "workId": "glass-cabinet",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "AI candidate download failed: image returned 403"
+      ],
+      "sourcePageUrl": "https://www.researchgate.net/figure/ew-into-the-Glass-Cabinet-Rosenborg-Castle-A-large-glass-enclosure-with-curved-walls_fig3_353799818"
+    },
+    {
+      "workId": "rosenborg-wine",
+      "priorStatus": "object_image_unresolved",
+      "priorFailure": [
+        "AI candidate download failed: image returned 429"
+      ],
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Rosenborg_castle_3.JPG"
+    }
+  ],
+  "newlyAccepted": [
+    {
+      "workId": "ampulla",
+      "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/ampulla/",
+      "imageUrl": "https://denkongeligesamling.dk/media/h0gjtxr1/buddike-2.jpg?rxy=0.5024077046548957,0.44640434192673&width=1920&height=1080&v=1dc83a7c0143880",
+      "localPath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/assets/ampulla.webp",
+      "sha256": "40279f026d4afd1dd9117380582d613923d614caf6b6b0334fdccf14a203e627",
+      "method": "ai_page_candidate_download",
+      "imageRole": "object_view",
+      "candidateId": "page-image-001"
+    },
+    {
+      "workId": "coronation-sword",
+      "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-coronation-sword/",
+      "imageUrl": "https://denkongeligesamling.dk/media/ny0ishuq/frederik-3-kronings-kaarde.jpg?width=1920&height=1080&v=1dcb3e6f8ff4080",
+      "localPath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/assets/coronation-sword.webp",
+      "sha256": "c2ee703fe904173e7d8b62ac99e0fd3b4de15412a96310ac0bd8d9e7bf20cf97",
+      "method": "ai_page_candidate_download",
+      "imageRole": "object_view",
+      "candidateId": "page-image-001"
+    },
+    {
+      "workId": "shrapnel-earrings",
+      "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/shrapnel-earrings/",
+      "imageUrl": "https://denkongeligesamling.dk/media/zd1mou2u/splinter-oeresmykker.jpg?width=1920&height=1080&v=1dc630086d29610",
+      "localPath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/assets/shrapnel-earrings.webp",
+      "sha256": "7b024eddba2d683f7c69b7f05249944a3fbaa4cc6b378b56dbc5a10e5a0824c0",
+      "method": "ai_page_candidate_download",
+      "imageRole": "object_view",
+      "candidateId": "page-image-001"
+    },
+    {
+      "workId": "christian-iii-sword-of-state",
+      "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/chr-iii-s-sword-of-state/",
+      "imageUrl": "https://denkongeligesamling.dk/media/i1deqjce/a0610001-7-dig-ibk.jpg?width=1920&height=1080&v=1dbb9be723d33e0",
+      "localPath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/assets/christian-iii-sword-of-state.webp",
+      "sha256": "2825e0713db9ac0448192822cbdd4649bc77ba4083aee731b6b4a838c8c41912",
+      "method": "ai_page_candidate_download",
+      "imageRole": "object_view",
+      "candidateId": "page-image-001"
+    },
+    {
+      "workId": "pomander",
+      "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/pomander/",
+      "imageUrl": "https://denkongeligesamling.dk/media/1eiclvrr/a0010033-8-dig-ibk.png?width=640&height=640&v=1dc2c7e07b6e380",
+      "localPath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/assets/pomander.webp",
+      "sha256": "e54ec911e730d7e20ad6d40088b62e6041af6af3b4457aaa0578f67826c04eb6",
+      "method": "ai_page_candidate_download",
+      "imageRole": "object_view",
+      "candidateId": "page-image-002"
+    },
+    {
+      "workId": "constitution-pen",
+      "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-constitution-pen/",
+      "imageUrl": "https://denkongeligesamling.dk/media/ub5dmscv/billede.jpg?rxy=0.3358853601934988,0.6139827957585555&width=1920&height=1080&v=1dc630086b98fd0",
+      "localPath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/assets/constitution-pen.webp",
+      "sha256": "6c6718c43c17f0c3ebb2758e3a7230b7bf9e7daa5b146ad0af724dce30909821",
+      "method": "ai_page_candidate_download",
+      "imageRole": "object_view",
+      "candidateId": "page-image-001"
+    },
+    {
+      "workId": "knights-hall",
+      "sourcePageUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/",
+      "imageUrl": "https://denkongeligesamling.dk/media/t04jssmk/riddersal_rasmus_t_rosenberg-1.jpg?width=1920&height=1080&v=1dba5481ca16850",
+      "localPath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/assets/knights-hall.webp",
+      "sha256": "742a72ad9a0af16a032a22f661156cfce1331687469248e28e208524777f7e67",
+      "method": "ai_page_candidate_download",
+      "imageRole": "architecture_view",
+      "candidateId": "page-image-001"
+    },
+    {
+      "workId": "glass-cabinet",
+      "sourcePageUrl": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-22-the-glass-cabinet/",
+      "imageUrl": "https://denkongeligesamling.dk/media/l4cbibny/rosenborg_room22_01_web.jpg?width=1920&height=1080&v=1dba549c97957d0",
+      "localPath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/assets/glass-cabinet.webp",
+      "sha256": "dfbbbb23e94876d3e53a4ee66755c9bb45aaba87425cd1d5cc2f7f90c5ea5d1b",
+      "method": "ai_page_candidate_download",
+      "imageRole": "architecture_view",
+      "candidateId": "page-image-001"
+    },
+    {
+      "workId": "rosenborg-wine",
+      "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rosenborg-wine/",
+      "imageUrl": "https://denkongeligesamling.dk/media/nwcf3ht5/dscn6471.jpg?width=1920&height=1080&v=1dc630086b1eeb0",
+      "localPath": "research/runs/experiment/rosenborg-image-repair-01/20260801T231539Z-p2.13.35/image-evidence/assets/rosenborg-wine.webp",
+      "sha256": "da25a4901121034858a037263908dcda2c1353f5708ba6b866ec0cf876d060a9",
+      "method": "ai_page_candidate_download",
+      "imageRole": "object_view",
+      "candidateId": "page-image-001"
+    }
+  ],
+  "stillUnresolved": [
+    {
+      "workId": "rose-cut-diamond-set",
+      "sourcePageUrl": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/",
+      "warnings": [
+        "No candidate is identity-bound to the Rose-Cut Diamond Set; supplied images are unrelated collection or biographical links."
+      ]
+    }
+  ],
+  "counts": {
+    "works": 20,
+    "previousAcceptedPreserved": 10,
+    "retried": 10,
+    "newlyAccepted": 9,
+    "directImageDownloads": 9,
+    "elementCaptures": 0,
+    "objectImageAccepted": 17,
+    "contextImagesAccepted": 2,
+    "unresolved": 1,
+    "duplicateObjectImageGroups": [],
+    "modelCalls": 1,
+    "modelTokens": 40024,
+    "webSearchCount": 0
+  },
+  "model": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "medium",
+    "calls": 1,
+    "durationMs": 40751,
+    "tokens": {
+      "total": 40024,
+      "source": "codex_cli_log"
+    },
+    "webSearchCount": 0
+  },
+  "guarantees": {
+    "acceptedWorksNotRerun": [
+      "pearl-ruby-set",
+      "christian-iv-crown",
+      "brilliant-cut-diamond-set",
+      "christian-v-crown",
+      "emerald-set",
+      "christian-iv-blood-stained-clothes",
+      "narwhal-throne",
+      "oldenborg-horn",
+      "silver-lions",
+      "wetting-trap-chair"
+    ],
+    "nonImageStagesRun": [],
+    "imageGenerationModelUsed": false,
+    "parentRunModified": false,
+    "assemblyNetworkAccess": false,
+    "productionModified": false
+  }
+}

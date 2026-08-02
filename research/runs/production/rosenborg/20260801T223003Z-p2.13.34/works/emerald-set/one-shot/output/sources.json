@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "museumId": "rosenborg",
+  "workId": "emerald-set",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Emerald Set",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-emerald-set/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "date",
+        "material",
+        "maker",
+        "history",
+        "collectionRelation",
+        "currentUse",
+        "significance"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The Treasury's 3rd section (room I)",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-i-the-treasury/",
+      "sourceType": "museum",
+      "usedFor": [
+        "accessionNumber",
+        "identity",
+        "date",
+        "maker",
+        "history"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "The Danish crown jewels",
+      "publisher": "The Royal Danish Collection",
+      "url": "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/the-crown-jewels/",
+      "sourceType": "museum",
+      "usedFor": [
+        "collectionRelation",
+        "availability",
+        "currentUse",
+        "history",
+        "fashion"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "翡翠套饰是丹麦王冠珠宝中唯一一套在原始构成中同时包含冠饰的套饰。",
+      "type": "only_or_unique",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "套饰中超过三分之一的绿色宝石可追溯至1723年索菲·玛格达琳王后收到的翡翠项链。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "当前具体陈列位置与当天可见状态",
+      "statement": "馆方页面称王冠珠宝可在罗森堡宝库常年看到，同时珠宝也会因王室正式场合而被取用；本文未把某一具体日期的陈列视为保证。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "creator",
+      "lockedValue": "丹麦王室",
+      "observedValue": "C.M. Weishaupt & Söhne（德国哈瑙，黑森）",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ],
+      "severity": "warning",
+      "explanation": "锁定值更接近王室收藏或归属语境；馆方对象页明确将实际制作归于珠宝工坊。该差异不改变作品身份，但若将creator理解为制作人，应以工坊名称表述。"
+    },
+    {
+      "field": "availability",
+      "lockedValue": "collection_rotation",
+      "observedValue": "馆方王冠珠宝页面称其可在罗森堡宝库常年看到，并会在特殊场合由在位女王佩戴",
+      "sourceIds": [
+        "S3"
+      ],
+      "severity": "warning",
+      "explanation": "官方概述同时涉及常年博物馆展示与王室使用；这可能与具体时期的轮换、借用或当天陈列安排有关，因此本文不作某一参观日期的绝对展出保证。"
+    }
+  ]
+}

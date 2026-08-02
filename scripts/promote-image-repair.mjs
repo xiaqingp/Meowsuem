@@ -2,6 +2,7 @@ import crypto from "node:crypto";
 import fs from "node:fs/promises";
 import path from "node:path";
 import {fileURLToPath} from "node:url";
+import {assertVerifiedImageEvidence} from "./lib/verified-image-evidence-contract.mjs";
 
 const args = Object.fromEntries(process.argv.slice(2).map(value => { const index = value.indexOf("="); if (!value.startsWith("--") || index < 0) throw new Error(`Expected --key=value, received ${value}`); return [value.slice(2, index), value.slice(index + 1)]; }));
 const sha256 = bytes => crypto.createHash("sha256").update(bytes).digest("hex");
@@ -21,6 +22,7 @@ async function main() {
   const runRoot = path.resolve(projectRoot, args["run-root"] || ""); const museumId = args.museum;
   if (!args["run-root"] || !museumId) throw new Error("--run-root and --museum are required");
   const evidence = JSON.parse(await fs.readFile(path.join(runRoot, "image-evidence", "verified-image-evidence.json"), "utf8"));
+  assertVerifiedImageEvidence(evidence);
   if (evidence.museumId !== museumId || evidence.works?.length < 1) throw new Error("image evidence identity is incomplete");
   const hashes = new Set(); let data = await fs.readFile(path.join(projectRoot, `${museumId}.js`), "utf8");
   for (const work of evidence.works) {

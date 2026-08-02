@@ -1,0 +1,55 @@
+{
+    "runId":  "20260801T223003Z-p2.13.34",
+    "stage":  "museum_candidate_pool",
+    "museumId":  "rosenborg",
+    "caseId":  "",
+    "workId":  "",
+    "pipelineVersion":  "2.13.34",
+    "instructionVersion":  "2.4.2",
+    "model":  "gpt-5.6-luna",
+    "reasoningEffort":  "high",
+    "runnerStartedAt":  "2026-08-01T15:31:18.6397844-07:00",
+    "modelStartedAt":  "2026-08-01T15:31:18.8986635-07:00",
+    "modelCompletedAt":  "2026-08-01T15:38:24.4692732-07:00",
+    "completedAt":  "2026-08-01T15:38:24.4934174-07:00",
+    "runnerDurationMs":  425854,
+    "modelDurationMs":  425571,
+    "tokenUsage":  {
+                       "total":  136443,
+                       "source":  "codex_cli_log"
+                   },
+    "instructionViewSections":  [
+                                    "0",
+                                    "1",
+                                    "2",
+                                    "4",
+                                    "9",
+                                    "12",
+                                    "13"
+                                ],
+    "logPath":  "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/candidate-pool/runner.log",
+    "inputs":  [
+                   {
+                       "path":  "research/meowseum-content-instruction.md",
+                       "role":  "content_instruction",
+                       "sha256":  "e2d6e331f53fb1d7c4b078c0aabc1b03548e4d4504ea218d1a08e09929adc2cc"
+                   },
+                   {
+                       "path":  "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/scope/scope.json",
+                       "role":  "museum_scope",
+                       "sha256":  "c4ccf4d4ccc3fe648c9e076d02016ac255db403bcbb3add7eff63a692c3292db"
+                   },
+                   {
+                       "path":  "research/pipeline/prompts/museum-discovery.md",
+                       "role":  "stage_prompt",
+                       "sha256":  "9f312e260a53828568ba09c95ca9a1dbdb0c9dfc39d93971ada262850c08c1d6"
+                   }
+               ],
+    "outputs":  [
+                    {
+                        "path":  "candidate-pool.json",
+                        "sha256":  "973121f6c700394d351d7804135581daf801db290c78e8b77117208d8201a47a",
+                        "bytes":  49978
+                    }
+                ]
+}

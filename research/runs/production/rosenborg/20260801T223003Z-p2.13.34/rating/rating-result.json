@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "failures": [],
+  "summary": {
+    "museumId": "rosenborg",
+    "workCount": 20,
+    "significanceCounts": {
+      "稀世珍品": 0,
+      "重要藏品": 14,
+      "特色看点": 6,
+      "体验补充": 0
+    },
+    "rareAssets": [],
+    "independentRareLines": [],
+    "score": 79,
+    "scoreBand": "70–79 · 可去可不去",
+    "withinBandAnchor": "78–79"
+  },
+  "runId": "20260801T223003Z-p2.13.34",
+  "museumId": "rosenborg",
+  "inputSha256": "df1581f47065a04aaf9efe61adbbd04ae10d492e0478b5b922cd1d8a2117ebee",
+  "inputPath": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/selection/rating-input.json"
+}

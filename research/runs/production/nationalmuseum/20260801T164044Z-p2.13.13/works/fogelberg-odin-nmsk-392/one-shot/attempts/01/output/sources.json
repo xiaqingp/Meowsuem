@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "fogelberg-odin-nmsk-392",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Odin",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/26781/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "dimensions",
+        "accessionNumber",
+        "acquisition",
+        "availability",
+        "collectionRelation",
+        "iconography"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Nordic Myths — Nationalmuseum web tour",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/en/webtour/nordiska-myter",
+      "sourceType": "museum",
+      "usedFor": [
+        "commission",
+        "politicalContext",
+        "creator",
+        "iconography",
+        "significance"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Marmorgudarnas resa till Skulpturgården",
+      "publisher": "Nationalmuseum Shop",
+      "url": "https://shop.nationalmuseum.se/blogs/inspiration/marmorskulpturernas-resa-till-skulpturgarden",
+      "sourceType": "publication",
+      "usedFor": [
+        "production",
+        "transport",
+        "displayHistory",
+        "collectionRelation",
+        "significance"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Bengt E Fogelberg — Svenskt Biografiskt Lexikon",
+      "publisher": "Riksarkivet / Svenskt biografiskt lexikon",
+      "url": "https://sok.riksarkivet.se/sbl/artikel/14284",
+      "sourceType": "academic",
+      "usedFor": [
+        "creator",
+        "commission",
+        "formalAnalysis",
+        "iconography",
+        "artistIntent"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "卡尔十四世约翰委托了这尊奥丁；由于他从法国被卡尔十三世收养，奥丁成为新国王建构王位历史语境的认同对象。",
+      "type": "other",
+      "sourceIds": [
+        "S2"
+      ]
+    },
+    {
+      "claim": "福格尔贝里将奥特里科利的朱庇特与罗马艺术中的日耳曼战士形象结合起来。",
+      "type": "other",
+      "sourceIds": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "福格尔贝里原先希望把奥丁塑造成象征智慧的坐姿形象，而卡尔十四世约翰偏好站立的战神形象。",
+      "type": "artist_intent",
+      "sourceIds": [
+        "S4"
+      ]
+    },
+    {
+      "claim": "这组三尊大理石神像在罗马雕刻后经海路运往瑞典，最初被安置在斯德哥尔摩王宫。",
+      "type": "other",
+      "sourceIds": [
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "upstreamConflicts": []
+}

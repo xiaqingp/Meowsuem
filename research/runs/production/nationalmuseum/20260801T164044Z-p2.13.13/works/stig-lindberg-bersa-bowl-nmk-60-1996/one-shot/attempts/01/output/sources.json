@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "stig-lindberg-bersa-bowl-nmk-60-1996",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Bowl ‘Berså’, model LL",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/136848/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "manufacturer",
+        "date",
+        "material",
+        "dimensions",
+        "accessionNumber",
+        "collectionRelation",
+        "availability"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Tidslinjen 1920–1965",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/webbtur/tidslinjen-1920-1965",
+      "sourceType": "museum",
+      "usedFor": [
+        "historicalContext",
+        "use",
+        "1960sReception"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Berså",
+      "publisher": "Gustafsbergs Porslinsfabrik",
+      "url": "https://gustafsberg.com/collections/stig-lindberg-bersa",
+      "sourceType": "other",
+      "usedFor": [
+        "patternHistory",
+        "attribution",
+        "seriesDate",
+        "currentProduction"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Bowl, Berså service",
+      "publisher": "British Museum",
+      "url": "https://www.britishmuseum.org/collection/object/H_2000-1107-10",
+      "sourceType": "museum",
+      "usedFor": [
+        "technique",
+        "material",
+        "productionHistory",
+        "patternDescription"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "Berså图案的署名存在层次：Nationalmuseum本件记录列Stig Lindberg为设计者，而Gustafsbergs Porslinsfabrik资料称图案由Krister Karlmark受Stig Lindberg委托设计。",
+      "type": "attribution",
+      "sourceIds": [
+        "S1",
+        "S3"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "attribution",
+      "statement": "本件对象的馆方记录以Stig Lindberg为设计者；制造商资料进一步提到Krister Karlmark的受托设计关系，本文保留两层署名，不将其简化为单一作者叙事。"
+    },
+    {
+      "topic": "date",
+      "statement": "Nationalmuseum将本件记录为1960年设计并制作；Gustafsbergs Porslinsfabrik现行系列资料将Berså概括为自1961年起，可能反映单件编目日期与系列生产时间的不同口径。"
+    }
+  ],
+  "upstreamConflicts": [
+    {
+      "field": "attribution",
+      "severity": "warning",
+      "statement": "Nationalmuseum对象页将设计者列为Stig Lindberg；Gustafsbergs Porslinsfabrik资料称Berså图案由Krister Karlmark受Stig Lindberg委托设计。",
+      "sourceIds": [
+        "S1",
+        "S3"
+      ]
+    },
+    {
+      "field": "date",
+      "severity": "warning",
+      "statement": "本件Nationalmuseum对象页记录为1960年制作；制造商现行Berså系列页以1961年作为图案年代起点。",
+      "sourceIds": [
+        "S1",
+        "S3"
+      ]
+    }
+  ]
+}

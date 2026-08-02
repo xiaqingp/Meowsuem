@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "rembrandt-self-portrait-nm-5324",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Self-Portrait",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/22374/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "process",
+        "dimensions",
+        "accessionNumber",
+        "collectionRelation",
+        "availability",
+        "description"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [],
+  "uncertainties": [
+    {
+      "topic": "artist_intent",
+      "statement": "文章将人物的凝视、严肃感与内省感作为基于画面和馆方描述的观看解释，没有把它们表述为伦勃朗已被文献确认的明确意图。"
+    }
+  ],
+  "upstreamConflicts": []
+}

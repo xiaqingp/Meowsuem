@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "museumId": "rosenborg",
+  "researchedAt": "2026-08-01",
+  "works": [
+    {
+      "workId": "christian-iv-writing-room",
+      "identityStatus": "stable",
+      "availability": "temporarily_closed_restoration",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "克里斯蒂安四世时期室内保存度高，书信活动、暗门与已消失的升降椅共同显示房间兼具工作与内部通行功能。",
+      "selectionSignals": [
+        "馆方确认天顶画、嵌画护墙板和壁炉大多保存自克里斯蒂安四世时期；约1700年的绿色丝质墙面属于后期改动。",
+        "馆方仅以‘很可能’描述国王在此处理大量书信，不应升级为确定事实。"
+      ],
+      "sectionSignals": ["克里斯蒂安四世的私人空间", "建筑作为王室工作工具"],
+      "routeSignals": ["因修复关闭，不进入依赖现场可见性的当前主路线；可作为关闭提示或历史室内备选。"],
+      "riskFlags": ["architecture_or_site", "current_display_status"],
+      "riskResolutions": [
+        {
+          "riskFlag": "architecture_or_site",
+          "status": "resolved_for_identity",
+          "evidence": "馆方独立房间页明确标识为 Rosenborg room 2，并逐项说明原室内、约1700年墙面、北墙暗门和已不存在的 ascending chair。"
+        },
+        {
+          "riskFlag": "current_display_status",
+          "status": "resolved_currently_closed",
+          "evidence": "截至2026-08-01，馆方房间页醒目标注 ‘This room is currently closed due to restoration’；未给出重开日期。",
+          "recheckRule": "任何访问日路线纳入前重新核验馆方房间页。"
+        }
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-2-christian-iv-s-writing-room/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/plan-your-visit/opening-hours/"
+      ]
+    },
+    {
+      "workId": "marble-room",
+      "identityStatus": "stable",
+      "availability": "official_room_page_not_flagged_closed_visit_date_recheck",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "1668年的巴洛克改造以仿大理石、灰泥、王权礼器图像和纹章为新确立的绝对君主制塑造室内表象，并在1671年承载丹纳布洛格勋章首次授予。",
+      "selectionSignals": [
+        "馆方说明该室原为 Kirsten Munk 的卧室，Frederik III 于1668年改造成赞颂绝对君主制的巴洛克空间。",
+        "仿大理石由碎石和胶混合、磨平并彩绘；馆方称当时它比真大理石更珍贵。",
+        "馆方将1671年 Christian V 在此首次授予丹纳布洛格勋章作为该室关键历史事件。"
+      ],
+      "sectionSignals": ["绝对君主制的室内视觉化", "材料模仿与宫廷仪式"],
+      "routeSignals": ["位于城堡地面层历史室内线，可连接克里斯蒂安四世私人空间与克里斯蒂安五世王权陈设。"],
+      "riskFlags": ["architecture_or_site", "current_display_status"],
+      "riskResolutions": [
+        {
+          "riskFlag": "architecture_or_site",
+          "status": "resolved_for_identity",
+          "evidence": "馆方独立房间页明确标识 Rosenborg room 5，并给出1668年改造、材料构成、1671年仪式和2012—13年修复。"
+        },
+        {
+          "riskFlag": "current_display_status",
+          "status": "no_current_closure_notice_but_volatile",
+          "evidence": "截至2026-08-01，馆方 room 5 页面没有2号和10号房同式的修复关闭标记；全馆开放时间页不能单独保证每个房间开放。",
+          "recheckRule": "访问日前复核房间页与馆方临时通知。"
+        }
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-5-the-marble-room/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/plan-your-visit/opening-hours/"
+      ]
+    },
+    {
+      "workId": "christian-v-hall",
+      "identityStatus": "stable",
+      "availability": "official_room_page_not_flagged_closed_visit_date_recheck",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "同一房间先后作为 Kirsten Munk 的起居室和 Frederik III 套房的前厅；晚17世纪购自荷兰、现仍在房内的 M. Wauters 织毯把空间转入 Christian V 的陈设线。",
+      "selectionSignals": [
+        "馆方确认壁炉源自克里斯蒂安四世时期，约1700年由后来的弗雷德里克四世大厅移入。",
+        "现天花形成于约1700年改造，但中央乐队画仍来自克里斯蒂安四世时期。",
+        "馆方明确说晚17世纪织毯至今仍在该室；本页并未把它们说成骑士大厅的十二幅战争织毯。"
+      ],
+      "sectionSignals": ["房间功能与陈设迁移", "王朝更替中的历史室内"],
+      "routeSignals": ["地面层过渡节点；与大理石厅相邻，可用于说明前厅与正式空间的关系。"],
+      "riskFlags": ["architecture_or_site", "current_display_status"],
+      "riskResolutions": [
+        {
+          "riskFlag": "architecture_or_site",
+          "status": "resolved_for_identity",
+          "evidence": "馆方独立房间页明确标识 Rosenborg room 6，并区分历次用途、壁炉迁移、天花分期和织毯来源。"
+        },
+        {
+          "riskFlag": "current_display_status",
+          "status": "no_current_closure_notice_but_volatile",
+          "evidence": "截至2026-08-01，room 6 页面没有修复关闭标记；馆方参观页还明确说地面层 Christian V’s Hall 设有休息座位，支持其处在当前参观动线上，但不能保证任一具体日期。",
+          "recheckRule": "访问日前复核房间页与馆方临时通知。"
+        }
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-6-christian-v-s-hall/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/plan-your-visit/"
+      ]
+    },
+    {
+      "workId": "frederik-iv-hall",
+      "identityStatus": "stable",
+      "availability": "temporarily_closed_restoration",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "房间从克里斯蒂安四世较宽的接见厅缩小为 Sophie Hedevig 的前厅，壁炉、神话天顶画与旧骑士大厅顶板的迁移保存了 Rosenborg 反复改造的证据。",
+      "selectionSignals": [
+        "馆方说明约1700年改造时房间缩小，成为 Frederik IV 的姐姐 Sophie Hedevig 的前厅，并覆以 Oudenaarde 织毯。",
+        "现有徽记顶板原属骑士大厅，馆方认为可能由 Anders Nielsen 于1623年绘制。",
+        "锁定包所称‘最后一位居住君主及带回玻璃收藏’不是本房间页的核心证据；玻璃收藏应归入22号玻璃柜。"
+      ],
+      "sectionSignals": ["宫殿空间和陈设的迁移", "弗雷德里克四世时期改造"],
+      "routeSignals": ["因修复关闭，不进入当前现场路线；仅作为空间改造史备选。"],
+      "riskFlags": ["architecture_or_site", "current_display_status", "cross_source_synthesis"],
+      "riskResolutions": [
+        {
+          "riskFlag": "architecture_or_site",
+          "status": "resolved_for_identity",
+          "evidence": "馆方独立房间页明确标识 Rosenborg room 10，并提供房间尺寸变化、用途变化与多项陈设迁移。"
+        },
+        {
+          "riskFlag": "current_display_status",
+          "status": "resolved_currently_closed",
+          "evidence": "截至2026-08-01，馆方房间页醒目标注 ‘This room is currently closed due to restoration’；未给出重开日期。",
+          "recheckRule": "任何访问日路线纳入前重新核验馆方房间页。"
+        },
+        {
+          "riskFlag": "cross_source_synthesis",
+          "status": "resolved_by_narrowing_claim",
+          "evidence": "不沿用候选理由中属于全馆或玻璃柜的叙述；本项价值只使用 room 10 官方页直接支持的空间改造与陈设迁移。"
+        }
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-10-frederik-iv-s-hall/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/plan-your-visit/opening-hours/"
+      ]
+    },
+    {
+      "workId": "knights-hall",
+      "identityStatus": "stable",
+      "availability": "official_room_page_not_flagged_closed_visit_date_recheck",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "1624年完成的长厅在1690年代与1709年前后被改造成集中呈现战争胜利、国家纹章、勋章和绝对君主制王座的仪式空间。",
+      "selectionSignals": [
+        "馆方确认该厅最初是舞厅，原称 long hall，现名 Knights’ Hall 到浪漫主义时期才形成。",
+        "十二幅 Rosenborg 织毯表现 Christian V 在1675—1679年斯科讷战争中的胜利；1920年代移至 Christiansborg，1999年返回 Rosenborg。",
+        "馆方主动指出瑞典有一套表现同一战争中瑞典胜利的相似织毯，因此这里应解释对立的王权叙事，不把织毯当中立战史。",
+        "厅内陈列绝对君主的傅油礼王座；馆方澄清所谓独角兽角实际是独角鲸牙。"
+      ],
+      "sectionSignals": ["王权仪式与战争图像", "骑士大厅、王座与织毯"],
+      "routeSignals": ["顶层核心停留点；可把建筑、成组织毯、王座与天花政治图像合并为一个空间节点。"],
+      "riskFlags": ["architecture_or_site", "composite_or_parent_child", "current_display_status"],
+      "riskResolutions": [
+        {
+          "riskFlag": "architecture_or_site",
+          "status": "resolved_for_identity",
+          "evidence": "馆方独立房间页明确标识 Rosenborg room 21，并给出1624年完工、功能、名称沿革和18世纪初天花改造。"
+        },
+        {
+          "riskFlag": "composite_or_parent_child",
+          "status": "resolved_as_room_level_node",
+          "evidence": "本候选是空间观看节点，包含十二幅织毯、天花、国王与王后王座等子对象；selection 不应把这些子对象数量误计为多个独立候选。"
+        },
+        {
+          "riskFlag": "current_display_status",
+          "status": "no_current_closure_notice_but_volatile",
+          "evidence": "截至2026-08-01，room 21 页面没有修复关闭标记，并以现在时说明厅内可见王座；馆方参观页还明确说顶层 Knights’ Hall 设有休息座位。",
+          "recheckRule": "访问日前复核房间页与馆方临时通知；具体子对象若被单列还需另核在展状态。"
+        }
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/plan-your-visit/"
+      ]
+    },
+    {
+      "workId": "glass-cabinet",
+      "identityStatus": "stable",
+      "availability": "official_room_page_not_flagged_closed_visit_date_recheck",
+      "importanceCandidate": "重要藏品",
+      "rareCandidate": false,
+      "coreValue": "1713—1714年为威尼斯赠予 Frederik IV 的玻璃收藏定制的整体陈列室，在1990年修复后按 Gottfried Fuchs 的轴线对称与成对器物关系恢复原有布置。",
+      "selectionSignals": [
+        "馆方确认 Frederik IV 于1713—1714年把房间改作玻璃收藏展示，收藏源于威尼斯城在其1709年访问时的赠礼，设计执行者为 Gottfried Fuchs。",
+        "同行评议研究说明该室1714年安装、约藏一千件玻璃，多数收藏仍完整；1990年修复后玻璃回到原位，显出围绕中央轴线的架板、器物和成对玻璃对应关系。",
+        "该价值来自房间、陈列结构与成组玻璃的整体，不应拆成无来源的单件杰作。"
+      ],
+      "sectionSignals": ["早期收藏展示史", "威尼斯玻璃与整体陈列"],
+      "routeSignals": ["顶层紧邻骑士大厅的高密度材料与博物馆史节点；适合与大型王权仪式空间形成尺度对照。"],
+      "riskFlags": ["architecture_or_site", "composite_or_parent_child", "current_display_status", "superlative_claim"],
+      "riskResolutions": [
+        {
+          "riskFlag": "architecture_or_site",
+          "status": "resolved_for_identity",
+          "evidence": "馆方独立房间页明确标识 Rosenborg room 22，并给出1713—1714年改造、设计者、材料与天花作者。"
+        },
+        {
+          "riskFlag": "composite_or_parent_child",
+          "status": "resolved_as_ensemble",
+          "evidence": "同行评议摘要将其界定为约一千件玻璃及其定制架板构成的整体，研究和selection应保留房间级组界。"
+        },
+        {
+          "riskFlag": "current_display_status",
+          "status": "no_current_closure_notice_but_volatile",
+          "evidence": "截至2026-08-01，room 22 页面没有修复关闭标记，并以馆内可观看的现在时描述该室；全馆开放不保证任一具体访问日的房间状态。",
+          "recheckRule": "访问日前复核房间页与馆方临时通知。"
+        },
+        {
+          "riskFlag": "superlative_claim",
+          "status": "bounded_not_rare_hard_gate",
+          "evidence": "馆方称其为欧洲最古老的博物馆房间之一并称其独特；2021年玻璃博物馆学参考资料更谨慎地称它‘似乎’是最早专门、排他展示玻璃收藏的实例。最近的设计先例是柏林 Charlottenburg 的瓷器室，但媒介不同。现有来源没有完成全球同类存世室内的系统比较，也没有给出最近的第二个玻璃陈列室，因此不可据此判为稀世珍品。",
+          "comparisonCategory": "18世纪初专门为玻璃收藏建立且整体保存或复原的王室陈列室",
+          "nearestComparator": "Charlottenburg 的瓷器室（馆方明确称其为设计灵感，但它是瓷器室而非玻璃室）",
+          "decisiveDifference": "Rosenborg 围绕威尼斯玻璃建立专门展示，1990年复原研究确认了1714年轴线对称和成对器物关系。",
+          "unknownBoundary": "无法由现有来源确认全球同类总数、最近的第二个玻璃陈列室或馆方‘unique’的严格比较范围。"
+        }
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-22-the-glass-cabinet/",
+        "https://academic.oup.com/jhc/article-abstract/3/1/1/823057",
+        "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781118801017.ch10.12",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/plan-your-visit/opening-hours/"
+      ]
+    },
+    {
+      "workId": "regalia-room",
+      "identityStatus": "stable",
+      "availability": "official_room_page_not_flagged_closed_visit_date_recheck",
+      "importanceCandidate": "特色看点",
+      "rareCandidate": false,
+      "coreValue": "这座塔楼小室曾是绝对君主制礼器与王冠财宝的储藏空间，但原装饰已不存、礼器现移至地下 Treasury；它的价值主要在制度空间迁移史，而非当前仍陈列王权礼器。",
+      "selectionSignals": [
+        "馆方确认 Christian V 在此保存礼器及多数 Crown 金银珠宝，财宝置于嵌入墙体的两个柜中。",
+        "原塔楼房间装饰均未保存，现天花来自1762年 C. L. Fossati 参与的改造。",
+        "1975年现地下 Treasury 开放后，礼器与王冠珠宝在地下展示；因此候选名称不能暗示24号房今天仍是主要礼器展厅。",
+        "自2025年春起，本室陈列 wetting trap chair；这是当前陈设变化，不等同于房间的原始用途。"
+      ],
+      "sectionSignals": ["礼器储藏到现代博物馆展示", "王室珍宝的空间迁移"],
+      "routeSignals": ["城堡上层参观结束、转往独立地下室入口前的过渡节点；如路线容量有限，优先级低于实际展示礼器的地下 Treasury。"],
+      "riskFlags": ["architecture_or_site", "current_display_status", "cross_source_synthesis"],
+      "riskResolutions": [
+        {
+          "riskFlag": "architecture_or_site",
+          "status": "resolved_for_identity",
+          "evidence": "馆方独立房间页明确标识 Rosenborg room 24，区分原 Treasury 用途、1762年天花、Green Room 与后来的博物馆迁移。"
+        },
+        {
+          "riskFlag": "current_display_status",
+          "status": "no_current_closure_notice_current_object_since_2025",
+          "evidence": "截至2026-08-01，room 24 页面没有修复关闭标记，并明确说 wetting trap chair 自2025年春起置于此室；该信息仍需在访问日前复核。",
+          "recheckRule": "访问日前复核房间页；不得把当前椅子陈列或历史礼器储藏状态写成永久不变。"
+        },
+        {
+          "riskFlag": "cross_source_synthesis",
+          "status": "resolved_by_separating_historic_and_current_locations",
+          "evidence": "馆方同页明确区分：历史上的礼器室、1922年的公开陈列、1975年启用的地下 Treasury，以及2025年以来24号房的椅子陈列。"
+        }
+      ],
+      "sourcePointers": [
+        "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-24-the-regalia-room/",
+        "https://denkongeligesamling.dk/en/rosenborg-castle/plan-your-visit/opening-hours/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 2,
+  "museumId": "nationalmuseum",
+  "workId": "persson-portrait-of-a-pea-nmk-169-1972",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Sculpture ‘Portrait of a pea’",
+      "publisher": "Nationalmuseum",
+      "url": "https://collection.nationalmuseum.se/en/collection/item/8717/",
+      "sourceType": "museum",
+      "usedFor": [
+        "identity",
+        "creator",
+        "date",
+        "material",
+        "dimensions",
+        "accessionNumber",
+        "collectionRelation",
+        "availability",
+        "acquisition",
+        "description"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "The Timeline: 1965–Present Day",
+      "publisher": "Nationalmuseum",
+      "url": "https://www.nationalmuseum.se/en/webtour/tidslinjen-1965-",
+      "sourceType": "museum",
+      "usedFor": [
+        "artistic_context",
+        "artist_intent",
+        "art_craft_boundary"
+      ]
+    }
+  ],
+  "directQuotes": [],
+  "highRiskClaims": [
+    {
+      "claim": "西古德·佩尔松希望被视为艺术家，并通过《豌豆肖像雕塑》质疑艺术与工艺品之间的界限。",
+      "type": "artist_intent",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "upstreamConflicts": []
+}

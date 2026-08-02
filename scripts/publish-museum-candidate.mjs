@@ -48,6 +48,13 @@ if (descriptor.museumId && publication.museumId !== descriptor.museumId) {
 }
 if (!/^[a-zA-Z0-9._-]+$/.test(publication.cacheKey || "")) throw new Error("invalid cacheKey");
 if (!Array.isArray(publication.files) || !publication.files.length) throw new Error("publication files are required");
+if (publish) {
+  const registration = manifest.museums?.[publication.museumId];
+  const expectedContentFile = `research/content/${publication.museumId}.md`;
+  if (!registration || registration.contentFile !== expectedContentFile) {
+    throw new Error(`publication requires manifest registration at museums.${publication.museumId}.contentFile=${expectedContentFile}`);
+  }
+}
 
 const inside = async (base, relative) => {
   const target = path.resolve(base, relative);
