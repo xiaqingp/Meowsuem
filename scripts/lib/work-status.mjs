@@ -46,6 +46,7 @@ export async function summarizeSingleWorkBatch(runRoot, metadata = {}) {
   const blocked = [];
   const pending = [];
   const failureCodes = {};
+  const warningCodes = {};
   for (const work of works) {
     const status = work.status?.status;
     if (work.result?.status === "warning" || status === "warning_ready") {
@@ -60,7 +61,10 @@ export async function summarizeSingleWorkBatch(runRoot, metadata = {}) {
     } else {
       pending.push(work.workId);
     }
-    if (work.result?.failureCode) failureCodes[work.result.failureCode] = (failureCodes[work.result.failureCode] ?? 0) + 1;
+    if (work.result?.status === "failed" && work.result.failureCode) {
+      failureCodes[work.result.failureCode] = (failureCodes[work.result.failureCode] ?? 0) + 1;
+    }
+    for (const code of work.result?.warningCodes ?? []) warningCodes[code] = (warningCodes[code] ?? 0) + 1;
   }
   return {
     schemaVersion: 1,
@@ -73,6 +77,7 @@ export async function summarizeSingleWorkBatch(runRoot, metadata = {}) {
     blocked,
     pending,
     failureCodes,
+    warningCodes,
   };
 }
 

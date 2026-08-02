@@ -1,0 +1,31 @@
+{
+  "id": "PCR-2026-08-01-warning-report-separation",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-01",
+  "ownerInstruction": "执行已批准的批次报告和成本保护，并确保已授权 warning 不再被报告为剩余失败。",
+  "baseRelease": "research/pipeline/releases/v2.13.42.json",
+  "targetVersion": "2.13.43",
+  "implementationStatus": "completed",
+  "scope": [
+    "count failureCodes only for currently failed work results",
+    "report accepted warning reasons separately as warningCodes"
+  ],
+  "outOfScope": [
+    "changing warning eligibility or visitor-facing content",
+    "changing retry limits or publication behavior"
+  ],
+  "allowedCanonicalFiles": [
+    "scripts/lib/work-status.mjs",
+    "research/generation-pipeline.md"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/test-run-generation-batch.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=mock",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

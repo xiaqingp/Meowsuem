@@ -47,6 +47,7 @@ try {
     await fs.writeFile(path.join(oneShot, "result.json"), JSON.stringify({
       status: status === "accepted" ? "accepted" : status === "warning_ready" ? "warning" : "failed",
       failureCode: status === "verification_failed" ? "VERIFICATION_FAILED" : undefined,
+      warningCodes: status === "warning_ready" ? ["OFFICIAL_SOURCE_COVERAGE"] : undefined,
     }));
     await writeWorkStatus(runRoot, workId, {status, attempt: 1});
   }
@@ -55,6 +56,8 @@ try {
   assert.deepEqual(summary.warning, ["warning-work"]);
   assert.deepEqual(summary.failed, ["failed-work"]);
   assert.equal(summary.runs, 3);
+  assert.deepEqual(summary.failureCodes, {VERIFICATION_FAILED: 1});
+  assert.deepEqual(summary.warningCodes, {OFFICIAL_SOURCE_COVERAGE: 1});
 
   const guarded = path.join(runRoot, "works", "failed-work", "one-shot", "attempts");
   for (const attempt of ["01", "02"]) {

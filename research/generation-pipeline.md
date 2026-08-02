@@ -1,7 +1,7 @@
 # Meowseum Generation Pipeline
 
 > Status: Canonical  
-> Pipeline: 2.13.42
+> Pipeline: 2.13.43
 > Filesystem contract: 1  
 > Content contract for new production runs: `one_shot_v1`
 
@@ -380,3 +380,5 @@ Pipeline 2.13 resolves images through one manifest-selected production entrypoin
   pauses repeated, over-attempt, or over-budget single-work retries.
 - 2.13.42: synchronizes this canonical document with the frozen retry and
   publication safeguards introduced in 2.13.41.
+- 2.13.43: separates current failure-code counts from accepted warning-code
+  counts in cumulative single-work reports.
