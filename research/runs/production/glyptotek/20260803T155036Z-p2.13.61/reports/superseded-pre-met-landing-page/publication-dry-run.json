@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260803T155036Z-p2.13.61",
+  "museumId": "glyptotek",
+  "mode": "dry-run",
+  "candidateAssemblyResultSha256": "d89daf2b08e276c67b118e78c2dad79d00861e60c99f604326e5c82232792ff5",
+  "files": {
+    "glyptotek.js": {
+      "sha256": "04842d1881c7d718a769439d3fe2a7b868de770bc8e9526b8f29d248db331e5b",
+      "changed": true
+    },
+    "research/content/glyptotek.md": {
+      "sha256": "bd1de1de98c2578352cc7964ba82b537ff545d5c51dc06a9bddeaee8a4e14c7c",
+      "changed": true
+    },
+    "ratings.js": {
+      "sha256": "6822a5933ae5499d2f4740e5da6b4d9959d819629d4a4f036519a4cb2f3d294d",
+      "changed": true
+    },
+    "routes.js": {
+      "sha256": "5a404a3fa6d53ab067df1131d3c425e06307702f19d722dd04d6bf07040f6c31",
+      "changed": true
+    },
+    "assets/glyptotek/water-mother-kai-nielsen.jpg": {
+      "sha256": "bbe418f09df967e0af9af4a99f4cdd7a4a29ba878cdc0c795496029f48680aa6",
+      "changed": true
+    },
+    "assets/glyptotek/rayet-head-in-0418.jpg": {
+      "sha256": "e90807173fcc3ffff3b780192c9de2080c3160e16dd2eb30e5213b5d99622db0",
+      "changed": true
+    },
+    "assets/glyptotek/prehistoric-egyptian-hippopotamus.jpg": {
+      "sha256": "5496e884c30f528012a03dc22d8b6e334a268b2f3fd88870491a75f10e28a0ed",
+      "changed": true
+    },
+    "assets/glyptotek/ramses-ii-ptah-colossal-dyad.jpg": {
+      "sha256": "f9a8e79e6956c74c222f36bbced211b3c5c11c022719f0c94e7b9a4d48aab6b3",
+      "changed": true
+    },
+    "assets/glyptotek/amenemhat-iii-head-aein-0924.png": {
+      "sha256": "3bbef0e59deeb5bd1c73c76138b602359dd186dea3d1498421f082051562c22c",
+      "changed": true
+    },
+    "assets/glyptotek/head-of-princess-aein-1663.jpg": {
+      "sha256": "d8d652ebc945d40f4ca4cd6e23eab3c9ed4176f5c1bb2b30d71298047e3d636d",
+      "changed": true
+    },
+    "assets/glyptotek/treasury-master-gebu.jpg": {
+      "sha256": "6288c73f843859001c9bb55b2d6a2e4b99130b2eb0616096455d9ad9b449de2e",
+      "changed": true
+    },
+    "assets/glyptotek/anubis-jackal-headed-god.jpg": {
+      "sha256": "05badc51dbc0eb91de80dfd022c10713813a1ddcd8e0e99b27d202825ab1c8ac",
+      "changed": true
+    },
+    "assets/glyptotek/gemni-e-hat-funerary-equipment.jpg": {
+      "sha256": "12ec1b8152f60af6209885c7cb55d56f6d3340df063ce2da5ec08fef459e9347",
+      "changed": true
+    },
+    "assets/glyptotek/demosthenes-in-2782.jpg": {
+      "sha256": "c5ca29f183d99fe3d2dc355496c9b50445c29594b0a5013bd3637bee6f7c1f1c",
+      "changed": true
+    },
+    "assets/glyptotek/homer-in-2818.jpg": {
+      "sha256": "8f5c94054d63c9191d2bcceb627bcadfbd721f9f5086af548eb7061bfc89d9c8",
+      "changed": true
+    },
+    "assets/glyptotek/portrait-pompey-great-official-highlight.jpg": {
+      "sha256": "75188c54c87aa3a0c77bdda986aee912ef9bf8d0de13bb4bf078b1128320f548",
+      "changed": true
+    },
+    "assets/glyptotek/sciarra-amazon-in-1568.jpg": {
+      "sha256": "5ada55ea01cae855b655a237082bb28f71d879ec798671c64c3b1f70e3ac3648",
+      "changed": true
+    },
+    "assets/glyptotek/diana-of-nemi-in-1517.jpg": {
+      "sha256": "718c8eb139c261a6d2ee7a74b763e46dd87a45a891b1b1bbd18ee2e7a3a7702e",
+      "changed": true
+    },
+    "assets/glyptotek/casali-sarcophagus-in-0843.jpg": {
+      "sha256": "b203c5fb08b58d59e264c26c5e6f6a4f074d48c210deefa16eaff397017a7b74",
+      "changed": true
+    },
+    "assets/glyptotek/beauty-of-palmyra-in-2795.jpg": {
+      "sha256": "292995c63284ce046bf26c39241aac06f61259df5fd5889ebb1d0b5ab3209e51",
+      "changed": true
+    },
+    "assets/glyptotek/palmyra-man-camel-official-media.jpg": {
+      "sha256": "1a4ac394ebb343aebca80829c872a77406e5d704e6917099268e3ea2994aa1d0",
+      "changed": true
+    },
+    "assets/glyptotek/palmyra-boy-bird-official-media.png": {
+      "sha256": "2e3938206871e862e7dd00078bf3a68711d3991e7f82eb0c48fcce9a6d399f7e",
+      "changed": true
+    },
+    "assets/glyptotek/yarhai-servant-palmyra-official-media.png": {
+      "sha256": "8a6dc4bd6b966611aa6d00aa6402a12ff02f8ca97567873681dff8082289dd96",
+      "changed": true
+    },
+    "assets/glyptotek/palmyra-sarcophagus-lid-couple-official-media.png": {
+      "sha256": "d270399df288562779345edb4ba5f18e0909bffedf85b95dddeadc464feaa066",
+      "changed": true
+    },
+    "assets/glyptotek/palmyra-altar-two-hands-official-media.png": {
+      "sha256": "ce70fe9dd3e05e07d00525f8edf4baff163732ece9fcbfa96e6ee324b5bc1b6b",
+      "changed": true
+    },
+    "assets/glyptotek/wrathful-achilles-bissen-min-0027.jpg": {
+      "sha256": "22cbaedf4898c94e0f5d061d9f4d29b51034f24694a9de27c808296949d34090",
+      "changed": true
+    },
+    "assets/glyptotek/panther-hunter-jerichau-min-0367.jpg": {
+      "sha256": "db2db5563f3d1f4059a245413114b731244d28f28f2c35b4ed425c1e7ecb2324",
+      "changed": true
+    },
+    "assets/glyptotek/burghers-of-calais-rodin-min-0608.jpg": {
+      "sha256": "f4970a39100958e206714e715013ba45649d9f027a648202addcc5f832458d65",
+      "changed": true
+    },
+    "assets/glyptotek/kiss-rodin-min-0609.jpg": {
+      "sha256": "cd6d68980f41b8d46652c1e684158a3bf7b6ed15902327ccf8f4e80feec43689",
+      "changed": true
+    },
+    "assets/glyptotek/little-dancer-degas-min-2651.jpg": {
+      "sha256": "17d30e84cd96f8d60e667913b1297110fd9c8a816be942728183a3cc40796c57",
+      "changed": true
+    },
+    "assets/glyptotek/via-sacra-eckersberg-min-2611.jpg": {
+      "sha256": "3c2962c8208d398107f44033dd884d76107adb8d1f9097f4881104949e8b63a4",
+      "changed": true
+    },
+    "assets/glyptotek/florentine-mirror-henriques.jpg": {
+      "sha256": "c13a1093346ea49dfb54ef68d849d0214b6ed22a03fecd3f5226336010a54af4",
+      "changed": true
+    },
+    "assets/glyptotek/mother-denmark-jerichau-baumann.webp": {
+      "sha256": "17a37c1246eaad8e514ec4f9b897436a1addc130af2bc0f4bacc9580e752d77f",
+      "changed": true
+    },
+    "assets/glyptotek/autumn-morning-sortedam-koebke-min-1756.png": {
+      "sha256": "b5a90dbda124e933143d0073a5c855b03c52224cd5a4160a281129253c9e5d73",
+      "changed": true
+    },
+    "assets/glyptotek/smoking-party-bendz-min-1881.jpg": {
+      "sha256": "7b63059894c99223ab10cb81557f501db35b64dc912a2aa92d70fd488f0eada5",
+      "changed": true
+    },
+    "assets/glyptotek/mont-blanc-rousseau-min-1783.jpg": {
+      "sha256": "57817f795a25c3f5794b3f707ef17d52ab957c792b13fc41a560b6c713448937",
+      "changed": true
+    },
+    "assets/glyptotek/absinthe-drinker-manet-min-1778.jpg": {
+      "sha256": "8d980f41462d6d48181922d8860db8302740ef0a51db741052fea93ae2c39eae",
+      "changed": true
+    },
+    "assets/glyptotek/flood-at-giverny-monet-min-3632.jpg": {
+      "sha256": "ac1bf384193b9ed4b85b8f1913eb113f02a045168b6d71fd339f59e506b5c160",
+      "changed": true
+    },
+    "assets/glyptotek/landscape-saint-remy-van-gogh-smk-1840.png": {
+      "sha256": "5b48d4b30d49fbbe762d560b8f4f6a078e9d2d0470ed8148539fca05a7b556c0",
+      "changed": true
+    },
+    "assets/glyptotek/skaters-frederiksberg-gauguin-min-3213.png": {
+      "sha256": "2a3b7ff2bcc0ff3b68da141f205e007f5b610d1455c3ff3750cfb53127f7e908",
+      "changed": true
+    },
+    "assets/glyptotek/double-vase-breton-girl-gauguin-min-3548.jpg": {
+      "sha256": "9cbd88b713f0fa62e8910b182b24f432b895900537ccd9e605242ca98bacd060",
+      "changed": true
+    },
+    "assets/glyptotek/breton-shepherdess-gauguin-min-1827.jpg": {
+      "sha256": "5216bfdf7e32239c690b30e4d38527950c517b06c8aa593a17126b01781d5354",
+      "changed": true
+    },
+    "assets/glyptotek/tahitian-woman-flower-gauguin-min-1828.jpg": {
+      "sha256": "0201805c86e56fafee3a4e5af6939f72add98fa85a56e23a7d692c7c21ea0446",
+      "changed": true
+    },
+    "assets/glyptotek/amusement-evil-spirit-gauguin-min-1832.jpg": {
+      "sha256": "fa739db6a77cbe5d07913f0c9a5288b933ebf7c3561e9998bc896b6129434f4e",
+      "changed": true
+    },
+    "index.html": {
+      "sha256": "47a6855c80973d106ff1dd0329f94f98d1262cedc96d38fce7b46cdf7db39aa9",
+      "changed": true
+    },
+    "museum.html": {
+      "sha256": "68b5a4cff71b133964bab49e20afd135c90ad771d9a8d9b70682537822cddee0",
+      "changed": true
+    }
+  }
+}

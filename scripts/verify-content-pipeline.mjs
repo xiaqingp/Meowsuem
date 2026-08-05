@@ -25,6 +25,7 @@ const approvedNonProseWriters = new Set([
   "prepare-museum-stage-inputs.mjs",
   "finalize-museum.mjs",
   "run-one-shot-work.mjs",
+  "reuse-prior-single-work.mjs",
   "verify-one-shot-work.mjs",
   "adapt-one-shot-work.mjs",
   "promote-image-repair.mjs",

@@ -17,11 +17,11 @@ try {
   const { runRoot } = await writeFixtureRun({ projectRoot: root });
   await fs.writeFile(
     path.join(root, "ratings.js"),
-    "const museumRatings = {\n  fixture: {\n    score: 70\n  }\n};\n",
+    "const museumRatings = {\n  \"fixture\": {\n    score: 68\n  },\n  \"fixture\": {\n    score: 69\n  }\n};\n",
   );
   await fs.writeFile(
     path.join(root, "routes.js"),
-    'const routePlans = {\n  fixture: {}\n};\nconst contentUpdatedAtByMuseum = {fixture:"2026-07-25"};\n',
+    'const routePlans = {\n  "fixture": {},\n  "fixture": {}\n};\nconst contentUpdatedAtByMuseum = {fixture:"2026-07-25"};\n',
   );
   const page = '<script src="./museums.js"></script>\n<script src="./fixture.js"></script>\n<script src="./routes.js"></script>';
   await fs.writeFile(path.join(root, "index.html"), page);
@@ -95,6 +95,8 @@ try {
   let result = spawnSync(process.execPath, [script, ...identity], { encoding: "utf8" });
   if (result.status !== 0) throw new Error(result.stderr || result.stdout);
   const candidate = path.join(runRoot, "candidate");
+  assert.equal((await fs.readFile(path.join(candidate, "ratings.js"), "utf8")).match(/"fixture": \{/g)?.length, 1);
+  assert.equal((await fs.readFile(path.join(candidate, "routes.js"), "utf8")).match(/"fixture": \{/g)?.length, 1);
   const content = await fs.readFile(path.join(candidate, "fixture.md"), "utf8");
   assert.match(content, /### 30 秒先懂/);
   assert.equal((content.match(/^##\s+\d+\./gm) ?? []).length, 1);

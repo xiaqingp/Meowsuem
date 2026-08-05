@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "filesystemContractVersion": 1,
+  "runKind": "production",
+  "runId": "20260803T155036Z-p2.13.61",
+  "museumId": "glyptotek",
+  "milestone": "M31",
+  "pipelineVersion": "2.13.61",
+  "instructionVersion": "2.4.2",
+  "status": "published",
+  "createdAt": "2026-08-03T15:50:36.953Z",
+  "createdBy": "scripts/create-generation-run.mjs",
+  "layoutVersion": 1,
+  "immutable": true,
+  "contentContract": "one_shot_v1",
+  "allowLegacyAuthorBundles": false,
+  "legacyWorkIds": [],
+  "legacyImageResolutionAllowed": false,
+  "updatedAt": "2026-08-04T01:57:13.020Z",
+  "pipelineContinuation": {
+    "fromVersion": "2.13.61",
+    "toVersion": "2.13.68",
+    "instructionVersion": "2.4.2",
+    "fromStage": "museum_selection",
+    "authorizedAt": "2026-08-03T18:08:33.887Z",
+    "priorTargets": [
+      "2.13.62",
+      "2.13.63",
+      "2.13.64",
+      "2.13.65",
+      "2.13.66",
+      "2.13.67"
+    ]
+  },
+  "publishedAt": "2026-08-04T01:57:13.020Z"
+}

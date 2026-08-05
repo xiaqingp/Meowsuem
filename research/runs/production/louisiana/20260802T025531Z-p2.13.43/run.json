@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "filesystemContractVersion": 1,
+  "runKind": "production",
+  "runId": "20260802T025531Z-p2.13.43",
+  "museumId": "louisiana",
+  "milestone": "M31",
+  "pipelineVersion": "2.13.43",
+  "instructionVersion": "2.4.2",
+  "status": "published",
+  "createdAt": "2026-08-02T02:55:31.077Z",
+  "createdBy": "scripts/create-generation-run.mjs",
+  "layoutVersion": 1,
+  "immutable": true,
+  "contentContract": "one_shot_v1",
+  "allowLegacyAuthorBundles": false,
+  "legacyWorkIds": [],
+  "legacyImageResolutionAllowed": false,
+  "updatedAt": "2026-08-02T04:12:26.141Z",
+  "publishedAt": "2026-08-02T04:12:26.141Z"
+}

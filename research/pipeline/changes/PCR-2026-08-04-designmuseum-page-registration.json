@@ -1,0 +1,17 @@
+{
+  "id": "PCR-2026-08-04-designmuseum-page-registration",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-04",
+  "ownerInstruction": "更新 README，并把当前最新更改推送到 Git。",
+  "baseRelease": "research/pipeline/releases/v2.13.79.json",
+  "targetVersion": "2.13.80",
+  "implementationStatus": "completed",
+  "scope": ["register the published Designmuseum Danmark bundle in the canonical museum page"],
+  "outOfScope": ["changing museum content", "changing image evidence", "mutating frozen releases"],
+  "allowedCanonicalFiles": ["research/generation-pipeline.md", "museum.html"],
+  "verification": {
+    "status": "pending",
+    "commands": ["node scripts/run-pipeline-tests.mjs", "node scripts/check-pipeline-readiness.mjs --mode=mock", "node scripts/verify-project-authority.mjs", "node scripts/freeze-pipeline-release.mjs"]
+  }
+}

@@ -183,6 +183,21 @@ export function normalizeAiResult(value) {
   return {schemaVersion: 1, works};
 }
 
+export function partitionImageBatchResults(items, expectedWorkIds) {
+  const normalizeWorkId = value => String(value || "").toLowerCase().replace(/[^a-z0-9-]/g, "");
+  const expected = expectedWorkIds.map(normalizeWorkId);
+  const expectedSet = new Set(expected);
+  const works = items.map((item, index) => ({
+    ...item,
+    workId: normalizeWorkId(item.workId) || expected[index] || "",
+  }));
+  const returned = works.map(item => item.workId);
+  if (new Set(returned).size !== returned.length || returned.some(workId => !expectedSet.has(workId))) {
+    throw new Error("AI image research returned duplicate or unexpected work IDs");
+  }
+  return {works, missingWorkIds: expected.filter(workId => !returned.includes(workId))};
+}
+
 export function assertNoDuplicateObjectImages(records) {
   const byHash = new Map();
   for (const record of records) {

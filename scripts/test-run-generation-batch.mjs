@@ -62,13 +62,20 @@ try {
   const guarded = path.join(runRoot, "works", "failed-work", "one-shot", "attempts");
   for (const attempt of ["01", "02"]) {
     const attemptRoot = path.join(guarded, attempt);
-    await fs.mkdir(attemptRoot, {recursive: true});
+    await fs.mkdir(path.join(attemptRoot, "input"), {recursive: true});
     await fs.writeFile(path.join(attemptRoot, "result.json"), JSON.stringify({status: "failed", failureCode: "VERIFICATION_FAILED", totalTokens: 100}));
     await fs.writeFile(path.join(attemptRoot, "verification.json"), JSON.stringify({errors: [{code: "OFFICIAL_SOURCE_COVERAGE"}]}));
+    await fs.writeFile(path.join(attemptRoot, "input", "locked-metadata.json"), JSON.stringify({image: "old"}));
   }
+  await fs.writeFile(path.join(path.dirname(guarded), "input", "locked-metadata.json"), JSON.stringify({image: "old"}));
   assert.match((await inspectSingleWorkRetryGuard(path.dirname(guarded), {
     maxAttempts: 4, tokenBudget: 1000, repeatedFailureLimit: 2,
   })).reason, /same failure repeated/);
+  await fs.writeFile(path.join(guarded, "02", "input", "locked-metadata.json"), JSON.stringify({image: "new"}));
+  await fs.writeFile(path.join(path.dirname(guarded), "input", "locked-metadata.json"), JSON.stringify({image: "new"}));
+  assert.equal((await inspectSingleWorkRetryGuard(path.dirname(guarded), {
+    maxAttempts: 4, tokenBudget: 1000, repeatedFailureLimit: 2,
+  })).blocked, false);
   assert.match((await inspectSingleWorkRetryGuard(path.dirname(guarded), {
     maxAttempts: 2, tokenBudget: 1000, repeatedFailureLimit: 0,
   })).reason, /max attempts reached/);

@@ -1,0 +1,30 @@
+{
+  "id": "PCR-2026-08-02-reuse-writer-authorization",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-02",
+  "ownerInstruction": "继续完成同馆跨 run 的图片和正文复用，并保持现有内容门禁。",
+  "baseRelease": "research/pipeline/releases/v2.13.46.json",
+  "targetVersion": "2.13.47",
+  "implementationStatus": "completed",
+  "scope": [
+    "authorize the canonical prior-work reuser as a non-authoring run-local writer"
+  ],
+  "outOfScope": [
+    "allowing arbitrary build scripts to author museum prose",
+    "bypassing current reuse verification"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/verify-content-pipeline.mjs"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/run-pipeline-tests.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

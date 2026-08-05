@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "workId": "ruscha-figure-it-on-out",
+  "correctedAt": "2026-08-02T07:15:00.000Z",
+  "reason": "Single-work research found the discovery-stage work-on-paper classification conflicts with identity-bound 2007 object records.",
+  "changes": {
+    "objectType": {"from": "work on paper", "to": "painting"},
+    "medium": {"from": "纸上作品", "to": "布面丙烯"},
+    "structureIntro": {"from": "个展留下的纸上作品", "to": "捐赠入藏的文字绘画"}
+  },
+  "evidence": [
+    {
+      "url": "https://louisiana.dk/en/exhibition/louisianas-new-works-2022-2025/",
+      "usedFor": ["museumIdentity", "title", "artist", "date", "donation"]
+    },
+    {
+      "url": "https://www.ncronline.org/opinion/ed-ruscha-most-famous-catholic-artist-few-catholics-know",
+      "usedFor": ["medium", "dimensions", "studioCredit"]
+    }
+  ]
+}

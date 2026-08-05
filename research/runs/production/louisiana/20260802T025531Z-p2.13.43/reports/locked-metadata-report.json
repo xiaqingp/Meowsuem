@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260802T025531Z-p2.13.43",
+  "museumId": "louisiana",
+  "upstreamHashes": {
+    "candidates": {
+      "path": "research/runs/production/louisiana/20260802T025531Z-p2.13.43/candidate-pool/candidate-pool.json",
+      "sha256": "ece4c6168dbdd62a8688715658d7bbb048d43d8754261aa4eab912dce74ce04e"
+    },
+    "selection": {
+      "path": "research/runs/production/louisiana/20260802T025531Z-p2.13.43/selection/selection.json",
+      "sha256": "868bb8e4e42056fa8ab0bd8ffdc522805be8acdeb5c69733a6e7e79228047520"
+    },
+    "structure": {
+      "path": "research/runs/production/louisiana/20260802T025531Z-p2.13.43/structure/structure.json",
+      "sha256": "d473b1695f5d8d930d8c973d8c812a297dc75469e8f56744bcc9cc9b82540dd2"
+    },
+    "images": {
+      "path": "research/runs/production/louisiana/20260802T025531Z-p2.13.43/image-evidence/verified-image-evidence.json",
+      "sha256": "69d476d29b5a38bd4463731b82f22a3fd71652bef48b42c208a67985440f1039"
+    }
+  },
+  "works": [
+    {
+      "workId": "david-hockney-a-closer-grand-canyon-1998",
+      "path": "research/runs/production/louisiana/20260802T025531Z-p2.13.43/works/david-hockney-a-closer-grand-canyon-1998/one-shot/input/locked-metadata.json",
+      "sha256": "5ffa81634de285706d736b6b4403748fff937e8ebfac03391cd491ef1d0ce383"
+    },
+    {
+      "workId": "alberto-giacometti-femme-qui-marche-i-1932-36",
+      "path": "research/runs/production/louisiana/20260802T025531Z-p2.13.43/works/alberto-giacometti-femme-qui-marche-i-1932-36/one-shot/input/locked-metadata.json",
+      "sha256": "5b7da6cf275992a3d0ea9b14e1ae65505ae46c5a6a1b6ca79982633b8e93ca96"
+    },
+    {
+      "workId": "alberto-giacometti-homme-qui-marche-1960",
+      "path": "research/runs/production/louisiana/20260802T025531Z-p2.13.43/works/alberto-giacometti-homme-qui-marche-1960/one-shot/input/locked-metadata.json",
+      "sha256": "8f2e082691ae32d80a5c31f81985a9e7c9a2a0f0987735ca32fe24c2586d9ed4"
+    },
+    {
+      "workId": "alberto-giacometti-grande-tete-1959-60",
+      "path": "research/runs/production/louisiana/20260802T025531Z-p2.13.43/works/alberto-giacometti-grande-tete-1959-60/one-shot/input/locked-metadata.json",
+      "sha256": "650823620af68598aca7f4a83a58b117f0340577e0867b803fb4635d2972b492"
+    },
+    {
+      "workId": "alberto-giacometti-la-foret-1950",
+      "path": "research/runs/production/louisiana/20260802T025531Z-p2.13.43/works/alberto-giacometti-la-foret-1950/one-shot/input/locked-metadata.json",
+      "sha256": "eb8847c4f4d3aec677dcd8529b3ac697508d2fd23de44d1d5a2f39d1a68e4222"
+    },
+    {
+      "workId": "asger-jorn-titania-ii-1940-41",
+      "path": "research/runs/production/louisiana/20260802T025531Z-p2.13.43/works/asger-jorn-titania-ii-1940-41/one-shot/input/locked-metadata.json",
+      "sha256": "903cbcc2f022df38e115cb11e92907c4a0daf2773d13b437eea8db0caea109fc"
+    },
+    {
+      "workId": "asger-jorn-both-worlds-1944",
+      "path": "research/runs/production/louisiana/20260802T025531Z-p2.13.43/works/asger-jorn-both-worlds-1944/one-shot/input/locked-metadata.json",
+      "sha256": "48c289420317db422785b7ae75ba2d3e1870174e8711772f74223c3412aeb0f3"
+    },
+    {
+      "workId": "asger-jorn-dead-drunk-danes-1960",
+      "path": "research/runs/production/louisiana/20260802T025531Z-p2.13.43/works/asger-jorn-dead-drunk-danes-1960/one-shot/input/locked-metadata.json",
+      "sha256": "b24f6e15c0f3b22e9dceb2ae4e56e5e2a3863126e61b72989e81a572229c8283"
+    },
+    {
+      "workId": "jackson-pollock-black-over-yellow-ca-1950",
+      "path": "research/runs/production/louisiana/20260802T025531Z-p2.13.43/works/jackson-pollock-black-over-yellow-ca-1950/one-shot/input/locked-metadata.json",
+      "sha256": "dc85b21a0e434a8a20d872a1dd51ecb5c0d92ddf0adc8c1a2802f010d739044d"
+    },
+    {
+      "workId": "francis-bacon-three-studies-of-george-dyer-1969",
+      "path": "research/runs/production/louisiana/20260802T025531Z-p2.13.43/works/francis-bacon-three-studies-of-george-dyer-1969/one-shot/input/locked-metadata.json",
+      "sha256": "ef837c0507a74bd0f97a14bea11a635212211fd908792218e48571bef86f9f42"
+    },
+    {
+      "workId": "roy-lichtenstein-figures-in-landscape-1977",
+      "path": "research/runs/production/louisiana/20260802T025531Z-p2.13.43/works/roy-lichtenstein-figures-in-landscape-1977/one-shot/input/locked-metadata.json",
+      "sha256": "d3a39c3e0600216daaee098f2a03dfcb048412c03920b0c29c4f3d9a25b3b203"
+    },
+    {
+      "workId": "andy-warhol-close-cover-before-striking-1962",
+      "path": "research/runs/production/louisiana/20260802T025531Z-p2.13.43/works/andy-warhol-close-cover-before-striking-1962/one-shot/input/locked-metadata.json",
+      "sha256": "70f74004137eb23f289fd605f4485e066217cabd7c6e974eae55b8c23958c6d4"
+    },
+    {
+      "workId": "pipilotti-rist-im-not-the-girl-who-misses-much-1986",
+      "path": "research/runs/production/louisiana/20260802T025531Z-p2.13.43/works/pipilotti-rist-im-not-the-girl-who-misses-much-1986/one-shot/input/locked-metadata.json",
+      "sha256": "fb939f27ae294b8f7dd2fca1b71b19ad4c88152eb75f025704c169b1b1bb321d"
+    },
+    {
+      "workId": "pipilotti-rist-sip-my-ocean-1996",
+      "path": "research/runs/production/louisiana/20260802T025531Z-p2.13.43/works/pipilotti-rist-sip-my-ocean-1996/one-shot/input/locked-metadata.json",
+      "sha256": "2a98ef484b15161bb4151efab56b505a4658b8b3723f0fa127f574212cbcde3d"
+    },
+    {
+      "workId": "peter-fischli-david-weiss-der-lauf-der-dinge-1985-87",
+      "path": "research/runs/production/louisiana/20260802T025531Z-p2.13.43/works/peter-fischli-david-weiss-der-lauf-der-dinge-1985-87/one-shot/input/locked-metadata.json",
+      "sha256": "36f293f6d414b18dee16b6b1cec16522cad78e6c2886aa3d770425c3b6f7f077"
+    },
+    {
+      "workId": "yayoi-kusama-gleaming-lights-of-the-souls-2008",
+      "path": "research/runs/production/louisiana/20260802T025531Z-p2.13.43/works/yayoi-kusama-gleaming-lights-of-the-souls-2008/one-shot/input/locked-metadata.json",
+      "sha256": "4dc75ead0ea06839441b63cc030381825617386729678bdcde7bc3ad1e41c611"
+    },
+    {
+      "workId": "louise-bourgeois-spider-couple-2003",
+      "path": "research/runs/production/louisiana/20260802T025531Z-p2.13.43/works/louise-bourgeois-spider-couple-2003/one-shot/input/locked-metadata.json",
+      "sha256": "42c94142a11005118a140bcebbc21879fbe8c31e8c8769d6f77cae4362e176be"
+    },
+    {
+      "workId": "richard-long-stone-circle-1980",
+      "path": "research/runs/production/louisiana/20260802T025531Z-p2.13.43/works/richard-long-stone-circle-1980/one-shot/input/locked-metadata.json",
+      "sha256": "5d7385fcd699560ecec3fb5cb7efd4fca4ae49c1c3fcfed3b2f5699be4a12442"
+    },
+    {
+      "workId": "catherine-opie-700-nimes-road",
+      "path": "research/runs/production/louisiana/20260802T025531Z-p2.13.43/works/catherine-opie-700-nimes-road/one-shot/input/locked-metadata.json",
+      "sha256": "3c481262dbf65d867a4d7752c60269d08c661bcdc21188cde9f49ca5a99e9c4e"
+    },
+    {
+      "workId": "nan-goldin-memory-lost-2019-21",
+      "path": "research/runs/production/louisiana/20260802T025531Z-p2.13.43/works/nan-goldin-memory-lost-2019-21/one-shot/input/locked-metadata.json",
+      "sha256": "040f9a7ca6c7328d8504b01294a435447d6f26691f627ffe6926c1cce4f92aaf"
+    }
+  ]
+}

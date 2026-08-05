@@ -1,0 +1,37 @@
+{
+  "museumId": "glyptotek",
+  "runId": "20260803T155036Z-p2.13.61",
+  "runKind": "production",
+  "completedAt": "2026-08-03T18:09:55.751Z",
+  "stages": [
+    {
+      "name": "assembly",
+      "seconds": 0.307
+    },
+    {
+      "name": "causality-prepublish",
+      "seconds": 0.251
+    },
+    {
+      "name": "future-contract",
+      "seconds": 0.058
+    },
+    {
+      "name": "verification",
+      "seconds": 0.132
+    },
+    {
+      "name": "publication-dry-run",
+      "seconds": 0.169
+    },
+    {
+      "name": "causality-postpublish",
+      "seconds": 0.237
+    }
+  ],
+  "totalSeconds": 1.155,
+  "modelCalls": 0,
+  "modelTokens": 0,
+  "liveVerification": false,
+  "publicationMode": "dry-run"
+}

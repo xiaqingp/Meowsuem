@@ -1,0 +1,34 @@
+{
+  "id": "PCR-2026-08-02-image-reuse-edge-cases",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-02",
+  "ownerInstruction": "继续复用同一博物馆已经确认的作品和图片，只为真正缺失的对象运行 resolver。",
+  "baseRelease": "research/pipeline/releases/v2.13.48.json",
+  "targetVersion": "2.13.49",
+  "implementationStatus": "completed",
+  "scope": [
+    "allow unique same-museum title identity matches when official page URLs drift",
+    "normalize image/jpg to image/jpeg",
+    "capture an enumerated page image when its direct MIME is unsupported"
+  ],
+  "outOfScope": [
+    "accepting ambiguous same-title matches",
+    "accepting unsupported bytes without conversion"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/lib/prior-work-identity.mjs",
+    "scripts/image-providers/url-safety.mjs",
+    "scripts/retry-failed-image-evidence.mjs"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/run-pipeline-tests.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

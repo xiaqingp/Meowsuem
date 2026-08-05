@@ -762,6 +762,8 @@ const ratingOutput = {
   withinBandReason: rating.withinBandReason,
   rareAssets: rating.rareAssets,
   independentRareLines: rating.independentRareLines,
+  peakLines: rating.peakLines,
+  independentPeakLines: rating.independentPeakLines,
   worldDominantConcentration: rating.worldDominantConcentration,
   worldDominantConcentrationEvidence: rating.worldDominantConcentrationEvidence,
   dedicatedTrip: rating.dedicatedTrip,

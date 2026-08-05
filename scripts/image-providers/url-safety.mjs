@@ -84,7 +84,8 @@ export async function fetchSafeImage(value, {
     if (!response.ok) throw new Error(`image returned ${response.status}`);
     const contentLength = Number(response.headers.get("content-length") || 0);
     if (contentLength > maxBytes) throw new Error(`image exceeds byte limit: ${contentLength}`);
-    const type = String(response.headers.get("content-type") || "").split(";")[0].toLowerCase();
+    const declaredType = String(response.headers.get("content-type") || "").split(";")[0].toLowerCase();
+    const type = declaredType === "image/jpg" ? "image/jpeg" : declaredType;
     if (!allowedImageTypes.has(type)) throw new Error(`asset is not an allowed image MIME: ${type || "unknown"}`);
     const reader = response.body?.getReader();
     if (!reader) throw new Error("image response has no body");

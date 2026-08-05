@@ -14,7 +14,8 @@ const work = (workId, significance = "重要藏品", independenceKey = null, par
   sourcePointers: [`source-${workId}`]
 });
 const evidence = works => ({ museumId: "fixture", works });
-const rating = (score, rareAssets = [], independentRareLines = [], extra = {}) => ({
+const peak = (id, type = "work", workIds = [id]) => ({id, type, label: `peak-${id}`, workIds, sourcePointers: [`source-peak-${id}`]});
+const rating = (score, rareAssets = [], independentRareLines = [], peakLines = [], extra = {}) => ({
   museumId: "fixture",
   score,
   scoreBand:
@@ -38,6 +39,8 @@ const rating = (score, rareAssets = [], independentRareLines = [], extra = {}) =
   withinBandReason: "fixture within-band reason",
   rareAssets,
   independentRareLines,
+  peakLines,
+  independentPeakLines: peakLines.map(item => item.id),
   dedicatedTrip: score >= 90,
   worldDominantConcentration: false,
   worldDominantConcentrationEvidence: [],
@@ -45,20 +48,23 @@ const rating = (score, rareAssets = [], independentRareLines = [], extra = {}) =
 });
 
 const cases = [
-  ["zero rare at 79 passes", evidence([work("a")]), rating(79), true],
-  ["zero rare at 80 fails", evidence([work("a")]), rating(80), false],
-  ["one rare at 80 passes", evidence([work("a", "稀世珍品", "line-a")]), rating(80, ["a"], ["line-a"]), true],
-  ["evidenced rare below 80 fails", evidence([work("a", "稀世珍品", "line-a")]), rating(79, ["a"], ["line-a"]), false],
-  ["two rare lines at 90 fail", evidence([work("a", "稀世珍品", "line-a"), work("b", "稀世珍品", "line-b")]), rating(90, ["a", "b"], ["line-a", "line-b"]), false],
-  ["three rare lines at 90 pass", evidence([work("a", "稀世珍品", "line-a"), work("b", "稀世珍品", "line-b"), work("c", "稀世珍品", "line-c")]), rating(90, ["a", "b", "c"], ["line-a", "line-b", "line-c"]), true],
-  ["world-dominant concentration with evidence passes", evidence([work("a", "稀世珍品", "line-a"), work("b", "稀世珍品", "line-a"), work("c", "稀世珍品", "line-a")]), rating(90, ["a", "b", "c"], ["line-a"], { worldDominantConcentration: true, worldDominantConcentrationEvidence: ["source-dominance"] }), true],
-  ["world-dominant concentration without evidence fails", evidence([work("a", "稀世珍品", "line-a"), work("b", "稀世珍品", "line-a"), work("c", "稀世珍品", "line-a")]), rating(90, ["a", "b", "c"], ["line-a"], { worldDominantConcentration: true }), false],
+  ["zero peak at 79 passes", evidence([work("a")]), rating(79), true],
+  ["zero peak at 80 fails", evidence([work("a")]), rating(80), false],
+  ["collection peak without rare work passes at 80", evidence([work("a")]), rating(80, [], [], [peak("collection-a", "collection", ["a"])]), true],
+  ["one rare at 80 passes", evidence([work("a", "稀世珍品", "line-a")]), rating(80, ["a"], ["line-a"], [peak("line-a", "work", ["a"])]), true],
+  ["evidenced peak below 80 fails", evidence([work("a")]), rating(79, [], [], [peak("site-a", "site", ["a"])]), false],
+  ["two peak lines at 90 fail", evidence([work("a"), work("b")]), rating(90, [], [], [peak("line-a", "collection", ["a"]), peak("line-b", "site", ["b"])]), false],
+  ["three peak lines at 90 pass", evidence([work("a"), work("b"), work("c")]), rating(90, [], [], [peak("line-a", "work", ["a"]), peak("line-b", "collection", ["b"]), peak("line-c", "site", ["c"])]), true],
+  ["world-dominant concentration plus another line passes", evidence([work("a"), work("b")]), rating(90, [], [], [peak("line-a", "collection", ["a"]), peak("line-b", "site", ["b"])], { worldDominantConcentration: true, worldDominantConcentrationEvidence: ["source-dominance"] }), true],
+  ["world-dominant concentration without evidence fails", evidence([work("a"), work("b")]), rating(90, [], [], [peak("line-a", "collection", ["a"]), peak("line-b", "site", ["b"])], { worldDominantConcentration: true }), false],
   ["non-rare asset declaration fails", evidence([work("a")]), rating(79, ["a"], []), false],
-  ["parent and child double count fails", evidence([work("a", "稀世珍品", "line-a"), work("b", "稀世珍品", "line-b", "a")]), rating(90, ["a", "b"], ["line-a", "line-b"]), false],
-  ["wrong within-band anchor fails", evidence([work("a")]), rating(79, [], [], { withinBandAnchor: "76–77" }), false],
+  ["parent and child double count fails", evidence([work("a", "稀世珍品", "line-a"), work("b", "稀世珍品", "line-b", "a")]), rating(90, ["a", "b"], ["line-a", "line-b"], [peak("line-a", "work", ["a"]), peak("line-b", "work", ["b"]), peak("line-c", "site", ["a"])]), false],
+  ["wrong within-band anchor fails", evidence([work("a")]), rating(79, [], [], [], { withinBandAnchor: "76–77" }), false],
   ["unstable identity fails", evidence([{...work("a"), identityStable:false}]), rating(79), false],
   ["uncertain display with placeholder passes", evidence([work("a")]), rating(79), true],
-  ["invalid image policy fails", evidence([{...work("a"), imagePolicy:"missing"}]), rating(79), false]
+  ["invalid image policy fails", evidence([{...work("a"), imagePolicy:"missing"}]), rating(79), false],
+  ["peak references missing work fails", evidence([work("a")]), rating(80, [], [], [peak("line-a", "collection", ["missing"])]), false],
+  ["independent peak declaration drift fails", evidence([work("a")]), rating(80, [], [], [peak("line-a", "collection", ["a"])], {independentPeakLines: []}), false]
 ];
 
 let failed = 0;

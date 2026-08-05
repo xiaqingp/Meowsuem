@@ -1,0 +1,153 @@
+{
+  "museumId": "smk",
+  "caseId": null,
+  "runId": "20260803T044953Z-p2.13.57",
+  "runRoot": "research/runs/production/smk/20260803T044953Z-p2.13.57",
+  "reportCompletedAt": "2026-08-03T06:51:21.522Z",
+  "firstRunnerStartedAt": "2026-08-03T04:52:30.636Z",
+  "lastModelCompletedAt": "2026-08-03T06:48:06.036Z",
+  "totalWallSeconds": 7131,
+  "postGenerationSeconds": 195,
+  "modelRuns": 69,
+  "totalTokens": 8093816,
+  "tokenUsage": {
+    "input": 6516672,
+    "cachedInput": 4564736,
+    "reasoning": 144809,
+    "output": 278553,
+    "total": 8093816
+  },
+  "webSearchCount": 199,
+  "retryCount": 14,
+  "weightedCreditEstimate": "unavailable",
+  "weightedCreditEstimateStatus": "estimate_only",
+  "perModel": {
+    "gpt-5.6-sol": {
+      "runs": 5,
+      "tokens": 472414
+    },
+    "gpt-5.6-luna": {
+      "runs": 64,
+      "tokens": 7621402
+    }
+  },
+  "perWorkAverage": {
+    "runs": 54,
+    "tokens": 125838
+  },
+  "stages": {
+    "museum_candidate_pool": {
+      "runs": 1,
+      "wallSeconds": 375,
+      "modelSecondsSum": 375,
+      "tokenUsage": {
+        "input": 0,
+        "cachedInput": 0,
+        "reasoning": 0,
+        "output": 0,
+        "total": 145547
+      },
+      "searches": 0,
+      "retries": 0
+    },
+    "image_disambiguation": {
+      "runs": 4,
+      "wallSeconds": 407,
+      "modelSecondsSum": 405,
+      "tokenUsage": {
+        "input": 0,
+        "cachedInput": 0,
+        "reasoning": 0,
+        "output": 0,
+        "total": 328347
+      },
+      "searches": 0,
+      "retries": 0
+    },
+    "compact_planning_research": {
+      "runs": 6,
+      "wallSeconds": 836,
+      "modelSecondsSum": 833,
+      "tokenUsage": {
+        "input": 0,
+        "cachedInput": 0,
+        "reasoning": 0,
+        "output": 0,
+        "total": 497830
+      },
+      "searches": 0,
+      "retries": 0
+    },
+    "deep_planning_research": {
+      "runs": 1,
+      "wallSeconds": 248,
+      "modelSecondsSum": 248,
+      "tokenUsage": {
+        "input": 0,
+        "cachedInput": 0,
+        "reasoning": 0,
+        "output": 0,
+        "total": 93992
+      },
+      "searches": 0,
+      "retries": 0
+    },
+    "museum_selection": {
+      "runs": 1,
+      "wallSeconds": 181,
+      "modelSecondsSum": 181,
+      "tokenUsage": {
+        "input": 0,
+        "cachedInput": 0,
+        "reasoning": 0,
+        "output": 0,
+        "total": 80592
+      },
+      "searches": 0,
+      "retries": 0
+    },
+    "museum_structure": {
+      "runs": 1,
+      "wallSeconds": 146,
+      "modelSecondsSum": 146,
+      "tokenUsage": {
+        "input": 0,
+        "cachedInput": 0,
+        "reasoning": 0,
+        "output": 0,
+        "total": 76932
+      },
+      "searches": 0,
+      "retries": 0
+    },
+    "museum_understanding": {
+      "runs": 1,
+      "wallSeconds": 173,
+      "modelSecondsSum": 173,
+      "tokenUsage": {
+        "input": 0,
+        "cachedInput": 0,
+        "reasoning": 0,
+        "output": 0,
+        "total": 75351
+      },
+      "searches": 0,
+      "retries": 0
+    },
+    "single_work": {
+      "runs": 54,
+      "wallSeconds": 858,
+      "modelSecondsSum": 5818,
+      "tokenUsage": {
+        "input": 6516672,
+        "cachedInput": 4564736,
+        "reasoning": 144809,
+        "output": 278553,
+        "total": 6795225
+      },
+      "searches": 199,
+      "retries": 14
+    }
+  },
+  "missingMetrics": []
+}

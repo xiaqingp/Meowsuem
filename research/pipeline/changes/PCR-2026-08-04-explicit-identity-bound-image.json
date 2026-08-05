@@ -1,0 +1,34 @@
+{
+  "id": "PCR-2026-08-04-explicit-identity-bound-image",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-04",
+  "ownerInstruction": "用最新pipeline重做并发布丹麦设计博物馆；同一作品可以复用原来的图片。",
+  "baseRelease": "research/pipeline/releases/v2.13.73.json",
+  "targetVersion": "2.13.74",
+  "implementationStatus": "completed",
+  "scope": [
+    "allow a single explicitly named image URL and evidence page to enter model selection after a shared official page misbinds adjacent works"
+  ],
+  "outOfScope": [
+    "museum-specific image parsers",
+    "automatic trust of an explicit URL",
+    "broad accepted-image reruns",
+    "weakening model, byte, hash, duplicate or identity gates",
+    "mutating frozen releases"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/retry-failed-image-evidence.mjs"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/test-retry-failed-image-evidence.mjs",
+      "node scripts/run-pipeline-tests.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

@@ -17,14 +17,18 @@ const parseArgs = argv => Object.fromEntries(argv.map(arg => {
 }));
 const exists = file => fs.access(file).then(() => true).catch(() => false);
 
-export async function reverifyOneShotWork({projectRoot, kind, museum, caseId, runId, workId}) {
+export async function reverifyOneShotWork({projectRoot, kind, museum, caseId, runId, workId, attempt}) {
   const manifest = await loadManifest(projectRoot);
   const {runRoot, descriptor} = await resolveCanonicalRun({
     projectRoot, manifest, runKind: kind, museumId: museum, caseId, runId, writable: true,
   });
   const artifactRoot = path.join(runRoot, "works", workId, "one-shot");
   const previous = JSON.parse(await fs.readFile(path.join(artifactRoot, "result.json"), "utf8"));
-  const attemptRoot = path.join(artifactRoot, "attempts", String(previous.attempt).padStart(2, "0"));
+  const attemptNumber = attempt === undefined ? previous.attempt : Number(attempt);
+  if (!Number.isInteger(attemptNumber) || attemptNumber < 1 || attemptNumber > previous.attempt) {
+    throw new Error(`invalid reverify attempt ${attempt}`);
+  }
+  const attemptRoot = path.join(artifactRoot, "attempts", String(attemptNumber).padStart(2, "0"));
   const locked = JSON.parse(await fs.readFile(path.join(artifactRoot, "input", "locked-metadata.json"), "utf8"));
   const protectedPaths = [
     `research/content/${locked.museumId}.md`,
@@ -50,13 +54,13 @@ export async function reverifyOneShotWork({projectRoot, kind, museum, caseId, ru
     fs.copyFile(path.join(attemptRoot, "output", name), path.join(artifactRoot, "output", name))));
   await atomicJson(path.join(artifactRoot, "verification.json"), verification);
   const adapter = await adaptOneShotWork({artifactRoot, verification});
-  const accepted = {...previous, status: "accepted", deterministicReverify: true, verification: "passed", adapter: adapter.status};
+  const accepted = {...previous, attempt: attemptNumber, status: "accepted", deterministicReverify: true, verification: "passed", adapter: adapter.status};
   delete accepted.failureStage;
   delete accepted.failureCode;
   delete accepted.failureMessage;
   await atomicJson(path.join(artifactRoot, "result.json"), accepted);
   await writeWorkStatus(runRoot, workId, {
-    status: "accepted", attempt: previous.attempt, lastStage: "integration",
+    status: "accepted", attempt: attemptNumber, lastStage: "integration",
     model: canonicalOneShotModel, verification: "passed",
   });
   return {status: "accepted", runId: descriptor.runId, workId, deterministicReverify: true};
@@ -67,7 +71,7 @@ async function main() {
   const projectRoot = path.resolve(args["project-root"] ?? path.resolve(path.dirname(fileURLToPath(import.meta.url)), ".."));
   const result = await reverifyOneShotWork({
     projectRoot, kind: args.kind, museum: args.museum, caseId: args.case,
-    runId: args["run-id"], workId: args["work-id"],
+    runId: args["run-id"], workId: args["work-id"], attempt: args.attempt,
   });
   process.stdout.write(`${JSON.stringify(result, null, 2)}\n`);
   if (result.status !== "accepted") process.exitCode = 1;

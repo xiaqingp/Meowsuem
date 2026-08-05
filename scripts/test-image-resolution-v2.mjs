@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import fs from "node:fs";
-import {isPromotableImageWork} from "./promote-image-retry-to-parent.mjs";
+import {compactPromotedImageEvidence, isPromotableImageWork} from "./promote-image-retry-to-parent.mjs";
+import {partitionImageBatchResults} from "./lib/two-level-image-resolution.mjs";
 
 const manifest = JSON.parse(fs.readFileSync("research/content-standard-manifest.json", "utf8"));
 const runner = fs.readFileSync("scripts/run-museum-pipeline.mjs", "utf8");
@@ -10,6 +11,7 @@ const capture = fs.readFileSync("scripts/lib/page-image-capture.mjs", "utf8");
 const evidenceContract = fs.readFileSync("scripts/lib/verified-image-evidence-contract.mjs", "utf8");
 const lockedInputs = fs.readFileSync("scripts/prepare-one-shot-work-inputs.mjs", "utf8");
 const publicationPlan = fs.readFileSync("scripts/prepare-museum-publication-plan.mjs", "utf8");
+const retryPromotion = fs.readFileSync("scripts/promote-image-retry-to-parent.mjs", "utf8");
 const isolatedRunner = fs.readFileSync("scripts/run-isolated-generation.ps1", "utf8");
 
 assert.match(manifest.pipelineVersion, /^2\.13\.(?:3[3-9]|[4-9]\d|\d{3,})$/);
@@ -19,6 +21,10 @@ assert.match(resolver, /data-srcset/);
 assert.match(resolver, /data-src/);
 assert.match(resolver, /if \(false && heroMeta\)/);
 assert.match(resolver, /mode: "four_tier"/);
+assert.match(resolver, /const modelBatchSize = 10;/);
+assert.match(resolver, /offset \+= modelBatchSize/);
+assert.match(resolver, /partition\.missingWorkIds/);
+assert.match(resolver, /supplement still omitted/);
 assert.match(retry, /onlyWork/);
 assert.match(retry, /attempts", "01-official-page-plan/);
 assert.match(retry, /official_page_plan_v1/);
@@ -30,6 +36,9 @@ assert.match(retry, /resolveBrowserExecutable/);
 assert.match(retry, /image returned \(\?:403\|429\)/);
 assert.match(retry, /fallbackReason/);
 assert.match(retry, /locatePageImageCandidate/);
+assert.match(retryPromotion, /while \(cursor\.parentEvidencePath\)/);
+assert.match(retryPromotion, /image evidence parent cycle detected/);
+assert.doesNotMatch(retryPromotion, /depth < 20/);
 assert.match(capture, /canonicalImageVariantUrl/);
 assert.match(capture, /rasterIntersections <= 1/);
 assert.match(capture, /#CybotCookiebotDialog/);
@@ -40,7 +49,6 @@ assert.match(retry, /dismissPageImageOverlays/);
 assert.match(retry, /sharedOfficialPages/);
 assert.match(retry, /exactCommonsFile/);
 assert.match(retry, /searchWikidataCommons/);
-assert.match(retry, /candidate\.genericPenalty \? -1000/);
 assert.match(retry, /0x89,0x50,0x4e,0x47/);
 assert.match(retry, /identityScore \|\| 0\) >= 1000/);
 assert.match(retry, /stageInputContracts\.imageDisambiguation\.maxWorksPerContext/);
@@ -50,11 +58,25 @@ assert.match(lockedInputs, /evidence\.status === "context_image_accepted"[\s\S]*
 assert.match(lockedInputs, /picked\.url \?\? picked\.sourcePageUrl \?\? picked\.capture\?\.sourcePageUrl/);
 assert.match(publicationPlan, /identity-localization\/identity-localization\.json/);
 assert.match(publicationPlan, /"object_image_accepted", "context_image_accepted"/);
-assert.match(publicationPlan, /selected\.url \?\? evidence\.selected\.sourcePageUrl/);
+assert.match(publicationPlan, /selected\.sourcePageUrl \?\? evidence\.selected\.capture\?\.sourcePageUrl \?\? evidence\.selected\.url/);
 assert.match(retry, /official_grid_card/);
+assert.match(retry, /img#file, \.fullImageLink img, #file img/);
+assert.match(retry, /candidate\.explicitRecordRelation \? 1500 : 0/);
+assert.match(retry, /candidate\.genericPenalty && !candidate\.explicitRecordRelation/);
 assert.ok(retry.indexOf('document.querySelectorAll(".standard__grid__item")') < retry.indexOf('document.querySelectorAll("img")'));
 assert.match(isolatedRunner, /--output-last-message/);
 assert.equal(isPromotableImageWork({status: "object_image_accepted", selected: {sha256: "a"}}), true);
 assert.equal(isPromotableImageWork({status: "context_image_accepted", selected: {sha256: "b"}}), true);
 assert.equal(isPromotableImageWork({status: "object_image_unresolved", selected: null}), false);
+const partialBatch = partitionImageBatchResults([{workId: "one"}], ["one", "two"]);
+assert.deepEqual(partialBatch.works.map(work => work.workId), ["one"]);
+assert.deepEqual(partialBatch.missingWorkIds, ["two"]);
+assert.throws(() => partitionImageBatchResults([{workId: "one"}, {workId: "one"}], ["one", "two"]), /duplicate or unexpected/);
+const compacted = compactPromotedImageEvidence({parentEvidencePath: "parent.json", parentEvidenceSha256: "hash"}, [
+  {workId: "accepted", status: "object_image_accepted", reusedFromParent: true, parentEvidencePath: "parent.json", parentEvidenceSha256: "hash", selected: {sha256: "a"}},
+  {workId: "unresolved", status: "object_image_unresolved", selected: null},
+]);
+assert.equal(compacted.parentEvidencePath, undefined);
+assert.equal(compacted.works[0].reusedFromParent, undefined);
+assert.equal(compacted.works[1].status, "object_image_unresolved");
 console.log("image resolution v2 wiring tests passed");

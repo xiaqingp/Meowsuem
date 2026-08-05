@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "museumId": "smk",
+  "sourceRunId": "20260803T044953Z-p2.13.57",
+  "patchRunId": "20260804T071253Z-p2.13.71",
+  "scope": "rating_only",
+  "selectionCount": 40,
+  "selectionOrderUnchanged": true,
+  "articleCount": 40,
+  "articleSha256Unchanged": true,
+  "articleDifferences": [],
+  "imageAssetCount": 40,
+  "imageSha256Unchanged": true,
+  "imageDifferences": [],
+  "significanceCounts": {
+    "稀世珍品": 0,
+    "重要藏品": 25,
+    "特色看点": 15,
+    "体验补充": 0
+  },
+  "adoptedWorkProseModelCalls": 0,
+  "discardedGeneratedAttempts": [
+    {
+      "workId": "therbusch-self-portrait",
+      "status": "accepted",
+      "totalTokens": 167751,
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "workId": "koebke-self-portrait",
+      "status": "failed",
+      "totalTokens": 81267,
+      "model": "gpt-5.6-luna"
+    }
+  ],
+  "discardedModelCalls": 2,
+  "discardedModelTokens": 249018,
+  "sourceAttributionRefreshed": true
+}

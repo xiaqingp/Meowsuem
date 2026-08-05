@@ -1,0 +1,37 @@
+{
+  "museumId": "designmuseum-danmark",
+  "runId": "20260805T033208Z-p2.13.72",
+  "runKind": "production",
+  "completedAt": "2026-08-05T06:03:48.174Z",
+  "stages": [
+    {
+      "name": "assembly",
+      "seconds": 0.284
+    },
+    {
+      "name": "causality-prepublish",
+      "seconds": 0.218
+    },
+    {
+      "name": "future-contract",
+      "seconds": 0.07
+    },
+    {
+      "name": "verification",
+      "seconds": 16.47
+    },
+    {
+      "name": "publication",
+      "seconds": 0.187
+    },
+    {
+      "name": "causality-postpublish",
+      "seconds": 0.228
+    }
+  ],
+  "totalSeconds": 17.458,
+  "modelCalls": 0,
+  "modelTokens": 0,
+  "liveVerification": true,
+  "publicationMode": "publish"
+}

@@ -117,7 +117,7 @@ export async function prepareMuseumPublicationPlan({projectRoot, kind, museum, c
       ch: chapterId,
       significance: choice.significance,
       image: `./assets/${museumId}/${workId}.${suffix}`,
-      imageSource: evidence.selected.url ?? evidence.selected.sourcePageUrl ?? evidence.selected.capture?.sourcePageUrl,
+      imageSource: evidence.selected.sourcePageUrl ?? evidence.selected.capture?.sourcePageUrl ?? evidence.selected.url,
       imageCaption: [names.zh,names.en].filter(Boolean).join(" / "),
       source: identity.officialObjectUrl,
       localAssetSource: evidence.selected.localPath,

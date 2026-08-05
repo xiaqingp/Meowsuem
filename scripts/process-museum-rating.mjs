@@ -8,6 +8,7 @@ const SIGNIFICANCE = new Set(["稀世珍品", "重要藏品", "特色看点", "�
 const RATING_ROLES = new Set(["independent_object", "collection_member", "whole_site", "supporting_node"]);
 const AVAILABILITY = new Set(["confirmed_on_view", "collection_rotation", "previously_exhibited_current_unknown", "display_status_unknown"]);
 const IMAGE_POLICIES = new Set(["object_image", "museum_hero_placeholder"]);
+const PEAK_TYPES = new Set(["work", "collection", "site"]);
 
 const bandFor = score =>
   score >= 90 ? "90–100 · 值得专程旅行" :
@@ -75,19 +76,31 @@ export function validateMuseumRating(evidence, rating) {
   const rareLines = [...new Set(rareWorks.map(work => work.independenceKey))].sort();
   const declaredRareIds = [...new Set((rating.rareAssets || []).map(normalizedId))].sort();
   const declaredRareLines = [...new Set(rating.independentRareLines || [])].sort();
+  const peakLines = Array.isArray(rating.peakLines) ? rating.peakLines : [];
+  const peakIds = peakLines.map(peak => peak?.id).filter(nonEmpty);
+  for (const peak of peakLines) {
+    if (!peak || !nonEmpty(peak.id) || !PEAK_TYPES.has(peak.type) || !nonEmpty(peak.label)) failures.push("rating: each peakLine requires id, valid type and label");
+    if (!Array.isArray(peak?.workIds) || peak.workIds.length === 0 || peak.workIds.some(id => !byId.has(normalizedId(id)))) failures.push(`${peak?.id || "unknown peak"}: peakLine workIds must reference selected works`);
+    if (!Array.isArray(peak?.sourcePointers) || peak.sourcePointers.length === 0 || peak.sourcePointers.some(pointer => !nonEmpty(pointer))) failures.push(`${peak?.id || "unknown peak"}: peakLine sourcePointers required`);
+  }
+  if (new Set(peakIds).size !== peakIds.length) failures.push("rating: peakLine ids must be unique");
+  const declaredPeakLines = [...new Set(rating.independentPeakLines || [])].sort();
   if (JSON.stringify(declaredRareIds) !== JSON.stringify(rareIds)) failures.push("rating: rareAssets must exactly match evidenced rare works");
   if (JSON.stringify(declaredRareLines) !== JSON.stringify(rareLines)) failures.push("rating: independentRareLines must exactly match evidenced rare lines");
+  if (JSON.stringify(declaredPeakLines) !== JSON.stringify([...peakIds].sort())) failures.push("rating: independentPeakLines must exactly match peakLines");
+  for (const rareLine of rareLines) if (!declaredPeakLines.includes(rareLine)) failures.push(`rating: rare line ${rareLine} must also be a peakLine`);
   if (rating.scoreBand !== bandFor(rating.score)) failures.push(`rating: scoreBand must be ${bandFor(rating.score)}`);
   if (rating.withinBandAnchor !== anchorFor(rating.score)) failures.push(`rating: withinBandAnchor must be ${anchorFor(rating.score)}`);
   if (!nonEmpty(rating.scoreReason) || !nonEmpty(rating.withinBandReason)) failures.push("rating: scoreReason and withinBandReason are required");
-  if (rareIds.length === 0 && rating.score >= 80) failures.push("rating: zero rare works caps score at 79");
+  if (peakIds.length === 0 && rating.score >= 80) failures.push("rating: zero peak lines caps score at 79");
+  if (peakIds.length > 0 && rating.score < 80) failures.push("rating: evidenced peak lines require the 80+ band");
   if (rareIds.length > 0 && rating.score < 80) failures.push("rating: evidenced rare works require the 80+ band");
   if (rating.score >= 90) {
     if (rating.dedicatedTrip !== true) failures.push("rating: 90+ requires dedicatedTrip");
     const concentrationEvidence = Array.isArray(rating.worldDominantConcentrationEvidence) && rating.worldDominantConcentrationEvidence.length > 0 && rating.worldDominantConcentrationEvidence.every(nonEmpty);
     if (rating.worldDominantConcentration === true && !concentrationEvidence) failures.push("rating: world-dominant concentration requires evidence pointers");
-    const concentratedException = rating.worldDominantConcentration === true && concentrationEvidence && rareIds.length >= 3 && rareLines.length >= 1;
-    if (rareLines.length < 3 && !concentratedException) failures.push("rating: 90+ requires three independent rare lines or a world-dominant concentrated collection");
+    const concentratedException = rating.worldDominantConcentration === true && concentrationEvidence && peakIds.length >= 2;
+    if (peakIds.length < 3 && !concentratedException) failures.push("rating: 90+ requires three independent peak lines or a world-dominant collection plus another peak line");
   } else if (rating.dedicatedTrip === true) failures.push("rating: dedicatedTrip conflicts with a score below 90");
 
   return {
@@ -99,6 +112,7 @@ export function validateMuseumRating(evidence, rating) {
       significanceCounts: Object.fromEntries([...SIGNIFICANCE].map(label => [label, works.filter(work => work.significance === label).length])),
       rareAssets: rareIds,
       independentRareLines: rareLines,
+      independentPeakLines: [...peakIds].sort(),
       score: rating.score,
       scoreBand: bandFor(rating.score),
       withinBandAnchor: anchorFor(rating.score)

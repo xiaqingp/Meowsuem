@@ -1,0 +1,34 @@
+{
+  "id": "PCR-2026-08-02-publication-registration-dedup",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-02",
+  "ownerInstruction": "继续生成并发布 Louisiana；修复发布后同一博物馆被重复注册的问题。",
+  "baseRelease": "research/pipeline/releases/v2.13.56.json",
+  "targetVersion": "2.13.57",
+  "implementationStatus": "completed",
+  "scope": [
+    "deduplicate quoted or unquoted museum rating and route blocks during assembly",
+    "deduplicate future-museum location and order registration",
+    "refresh an existing museum data-script cache key"
+  ],
+  "outOfScope": [
+    "changing museum content, selection, rating, or images",
+    "changing publication destinations"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/assemble-museum-candidate.mjs",
+    "scripts/test-assemble-museum-candidate.mjs",
+    "museum.html"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/run-pipeline-tests.mjs",
+      "node scripts/freeze-pipeline-release.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs"
+    ]
+  }
+}

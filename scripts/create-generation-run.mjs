@@ -79,6 +79,7 @@ export async function createGenerationRun({
   try {
     const directories = [
       "scope",
+      "understanding",
       "candidate-pool",
       "image-evidence",
       "research/batches",

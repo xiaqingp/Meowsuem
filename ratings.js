@@ -230,22 +230,68 @@ const museumRatings = {
     "calibratedAt": "2026-07-24"
   },
   glyptotek: {
-    score: 88,
-    scoreBand: "80–89 · 应主动列入行程",
-    shortAction: "在哥本哈根应主动安排",
-    travelAction: "如果已经来到哥本哈根，它值得稳定留出半天，尤其适合同时喜欢古代肖像与十九世纪法国艺术的人。",
-    scoreReason: "它没有靠一件全球游客都认识的镇馆之宝取胜，而是靠几组难以替代的收藏形成高峰：超过 400 件希腊罗马肖像和近乎完整的罗马皇帝序列、叙利亚境外规模最大的帕尔米拉墓葬雕刻群、近 60 件高更，以及世界上少数完整保存 72 件德加遗作铜像的馆藏。",
-    withinBandReason: "位于 80 档上端：强项不止一项，收藏密度与冬季花园、历史建筑共同提供很完整的半日体验；但多数高峰是收藏群而不是单件世界图标，对非艺术爱好者的城市旅行决定力仍低于卢浮宫和大都会，因此不进入 90 档。",
-    limitations: "古希腊与罗马雕塑展厅正在重排，预计持续到 2026 年 10 月；部分作品可能暂不展出、部分展厅可能关闭。高更与德加的重点作品也会随专题展和借展变化，出发前必须核验。",
-    dedicatedTrip: false,
-    rareAssets: ["pompey", "caligula", "palmyra", "grasshoppers", "little-dancer"],
-    calibratedAgainst: ["glyptotek", "louvre", "met", "muxin", "seattle"],
-    calibratedAt: "2026-07-19",
-    sources: [
-      "https://glyptoteket.com/exhibitions/permanent-exhibitions/greek-roman-sculpture",
-      "https://glyptoteket.com/exhibitions/current-exhibitions/palmyra",
-      "https://glyptoteket.com/exhibitions/permanent-exhibitions/french-art-1870"
-    ]
+    "museumId": "glyptotek",
+    "score": 86,
+    "scoreBand": "80–89 · 应主动列入行程",
+    "withinBandAnchor": "86–87",
+    "scoreReason": "本馆有三条互不重复的峰值线：帕尔米拉葬礼肖像是馆方明确认定的叙利亚境外同类最大收藏；近六十件、覆盖绘画、陶瓷、木雕与素描的高更收藏被馆方称为世界最佳之一；冬园、相连馆翼与《水之母》又构成只能在此完整兑现的场所整体。它们之外，古埃及、希腊罗马肖像、罗丹与丹麦艺术仍提供可靠的第二梯队，因此本馆应主动列入哥本哈根行程。",
+    "withinBandReason": "落在86—87档的下沿，是因为古物与法国现代艺术两条专业权威主线具有持续密度，半天参观需要取舍；没有进入88—89，是因为没有单件作品通过稀世珍品三问，希腊罗马展厅重排与多件作品展出状态未知也降低了现场兑现的稳定性。它仍未通过普通游客只为本馆专程来到哥本哈根的检验。",
+    "rareAssets": [],
+    "independentRareLines": [],
+    "peakLines": [
+      {
+        "id": "palmyra-funerary-portrait-collection",
+        "type": "collection",
+        "label": "叙利亚境外规模最大的帕尔米拉葬礼肖像收藏",
+        "workIds": [
+          "beauty-of-palmyra-in-2795",
+          "palmyra-man-camel-official-media",
+          "palmyra-boy-bird-official-media",
+          "yarhai-servant-palmyra-official-media",
+          "palmyra-sarcophagus-lid-couple-official-media",
+          "palmyra-altar-two-hands-official-media"
+        ],
+        "sourcePointers": [
+          "https://glyptoteket.com/exhibitions/current-exhibitions/palmyra"
+        ]
+      },
+      {
+        "id": "gauguin-cross-media-collection",
+        "type": "collection",
+        "label": "世界最佳之一的高更跨媒介收藏",
+        "workIds": [
+          "skaters-frederiksberg-gauguin-min-3213",
+          "double-vase-breton-girl-gauguin-min-3548",
+          "breton-shepherdess-gauguin-min-1827",
+          "tahitian-woman-flower-gauguin-min-1828",
+          "amusement-evil-spirit-gauguin-min-1832"
+        ],
+        "sourcePointers": [
+          "https://glyptoteket.com/exhibitions/current-exhibitions/gauguin-impressions",
+          "https://glyptoteket.com/exhibitions/permanent-exhibitions/french-art-1870"
+        ]
+      },
+      {
+        "id": "winter-garden-water-mother-site",
+        "type": "site",
+        "label": "冬园、自然光与《水之母》构成的场所整体",
+        "workIds": [
+          "water-mother-kai-nielsen"
+        ],
+        "sourcePointers": [
+          "deep-02:water-mother-kai-nielsen#site-specific-winter-garden",
+          "https://glyptoteket.com/about"
+        ]
+      }
+    ],
+    "independentPeakLines": [
+      "palmyra-funerary-portrait-collection",
+      "gauguin-cross-media-collection",
+      "winter-garden-water-mother-site"
+    ],
+    "dedicatedTrip": false,
+    "worldDominantConcentration": false,
+    "worldDominantConcentrationEvidence": []
   },
   frye: {
     score: 72,
@@ -266,32 +312,105 @@ const museumRatings = {
     ]
   },
   smk: {
-    score: 88,
-    scoreBand: "80–89 · 应主动列入行程",
-    shortAction: "在哥本哈根应主动安排",
-    travelAction: "如果已经来到哥本哈根，应给它稳定留出半天；偏爱绘画的人可以安排更久，但它还不足以单独成为普通游客专程飞往哥本哈根的唯一理由。",
-    scoreReason: "SMK 拥有全球规模最大的克里斯滕·科布克收藏、世界最大的哈默斯霍伊收藏之一，以及二十五件马蒂斯构成的法国境外重要收藏群，《绿线》又是 20 世纪肖像艺术的关键作品；王室旧藏与丹麦战后艺术提供了两端完整骨架。",
-    withinBandReason: "位于 80 档上端，与新嘉士伯同为 88，但高峰结构不同：SMK 的绘画史连续性、科布克／哈默斯霍伊研究密度和《绿线》单件强度更高；新嘉士伯则在古代肖像、帕尔米拉、高更与德加成组收藏上更跨媒介。两馆都有多条世界级收藏线，却都未达到普通游客可只为该馆专程来到城市的 90 档门槛，因此并列而非硬排一分。",
-    limitations: "本条目只覆盖 Sølvgade 主馆，不把 SMK Thy 等场址并入。超过二十万件馆藏不等于当天在展；纸本尤其轮换。30 件依据 2026 年 7 月 21 日官方开放馆藏的在展字段核验，借展、维护与展陈仍会变化。",
-    dedicatedTrip: false,
-    rareAssets: ["kobke-sortedam", "hammershoi-sunlight", "green-line"],
-    calibratedAgainst: [],
-    calibratedAt: "2026-07-21",
-    sources: [
-      "https://www.smk.dk/en/article/the-collection/",
-      "https://open.smk.dk/en/",
-      "https://www.smk.dk/en/article/smk-api/"
-    ]
+    "museumId": "smk",
+    "score": 87,
+    "scoreBand": "80–89 · 应主动列入行程",
+    "withinBandAnchor": "86–87",
+    "scoreReason": "SMK有两条互不重复的馆级峰值线：丹麦艺术收藏以馆方所称最重要的1750—1900年集合为主体，并拥有世界规模最大的克布克与哈默斯赫伊收藏；法国以外最重要的马蒂斯收藏之一则以25件绘画与雕塑和大量纸本作品形成另一条跨媒介高峰。王室旧藏、北欧现代主义、纸本与雕塑又提供可靠第二梯队，因此来到哥本哈根时应主动安排。",
+    "withinBandReason": "取86—87档上沿，是因为两条收藏线都具有明确的国际或国家级专业权威，40件内容仍需分次取舍，且多件核心作品有在展证据。没有进入88—89，是因为本轮没有单件作品通过稀世珍品三问，纸本与部分现代、当代作品轮换或展出状态未知；对普通游客而言，本馆仍不足以单独决定一次哥本哈根旅行。",
+    "rareAssets": [],
+    "independentRareLines": [],
+    "peakLines": [
+      {
+        "id": "danish-art-national-depth-collection",
+        "type": "collection",
+        "label": "以世界最大克布克与哈默斯赫伊馆藏为高点的丹麦艺术国家级纵深",
+        "workIds": [
+          "eckersberg-nathanson-daughters",
+          "rorbye-artists-window",
+          "bendz-young-artist-mirror",
+          "koebke-dosseringen-copenhagen",
+          "koebke-self-portrait",
+          "constantin-hansen-artists-rome",
+          "hammershoi-artemis",
+          "hammershoi-interior-easel",
+          "hammershoi-interior-artificial-light"
+        ],
+        "sourcePointers": [
+          "https://www.smk.dk/en/exhibition/danish-and-nordic-art-1750-1900/",
+          "https://www.smk.dk/en/article/the-collection/"
+        ]
+      },
+      {
+        "id": "matisse-cross-media-collection",
+        "type": "collection",
+        "label": "法国以外最重要的马蒂斯收藏之一",
+        "workIds": [
+          "matisse-green-line",
+          "matisse-collioure-joy-life-study",
+          "matisse-zulma"
+        ],
+        "sourcePointers": [
+          "https://www.smk.dk/en/article/new-exhibition-unique-collaboration-between-smk-and-moma-around-matisse-masterpiece/",
+          "https://www.smk.dk/en/article/the-collection/"
+        ]
+      }
+    ],
+    "independentPeakLines": [
+      "danish-art-national-depth-collection",
+      "matisse-cross-media-collection"
+    ],
+    "dedicatedTrip": false,
+    "worldDominantConcentration": false,
+    "worldDominantConcentrationEvidence": []
   },
   "designmuseum-danmark": {
     "museumId": "designmuseum-danmark",
-    "score": 77,
-    "scoreBand": "70–79 · 可去可不去",
-    "withinBandAnchor": "76–77",
-    "scoreReason": "馆藏能以丹麦家具、照明、工业产品、瓷器、平面与纺织设计构成连续且专业性明确的设计史路线；蚂蚁椅、潘顿椅、PH 灯具、Wishbone 椅、Flora Danica 餐盘与早期工业产品提供多件重要节点。但锁定研究没有证明任何具体馆藏实例通过全球不可替代性硬门，因此本馆不能进入 80 分以上的珍品档。",
-    "withinBandReason": "落在 76–77，是因为馆藏不只有零散名物：丹麦现代家具和产品设计具有明显领域权威，且瓷器、东亚工艺、平面、纺织与机构史能补成完整路线。未取更高分的主要限制是没有通过硬门的稀世珍品，关键对象多有同系列、同型号或近邻类型可比，且绝大多数入选对象的当前展出状态未知，现场兑现存在显著不确定性。",
+    "score": 82,
+    "scoreBand": "80–89 · 应主动列入行程",
+    "withinBandAnchor": "80–82",
+    "scoreReason": "一条不可拆分的峰值线成立：博物馆不仅集中保存从克林特、韦格纳、尤尔、克耶霍尔姆到潘顿的丹麦家具与产品设计，还以原型、档案、木匠行会展传播史和由克林特改造的馆舍，把设计的教学、制作、量产与国家品牌形成连成同一套现场叙事。日本工艺、瓷器、纺织、平面、照明与日常工业品构成可靠第二梯队，因此在哥本哈根应主动安排；但现有锁定证据没有任何单件通过稀世珍品硬门，也不足以证明多条相互独立的世界级收藏峰值。",
+    "withinBandReason": "落在80–82上端，是因为核心收藏线既有重要对象密度，也有本馆参与设计教育、展览传播和类型建构的机构性回报；未进入83–85，是因为大多数单件的当前展出状态未知，第二梯队虽广却未被证成另一条世界级收藏群，且跨馆校准集合不在锁定输入中。",
     "rareAssets": [],
     "independentRareLines": [],
+    "peakLines": [
+      {
+        "id": "peak-danish-design-infrastructure",
+        "type": "collection",
+        "label": "丹麦设计从历史类型、工艺协作与原型实验到工业量产和国际传播的连续收藏线",
+        "workIds": [
+          "royal-frederiks-hospital-museum-interiors",
+          "krohn-heron-service-wine-cooler-1885-88",
+          "bindesboll-carlsberg-label-1904",
+          "nilfisk-l10-vacuum-cleaner-1922",
+          "henningsen-ph-5-5-lighting-system-1926",
+          "kaare-klint-red-chair-1927",
+          "gudme-leth-tree-pattern-1937",
+          "wegner-round-chair-jh501-1947",
+          "finn-juhl-butterfly-coffee-table-prototype-1949",
+          "kjaerholm-pk0-prototype-1952",
+          "riis-carstensen-finn-juhl-easy-chair-1953",
+          "wegner-valet-chair-jh540-1953",
+          "bernadotte-bjorn-margrethe-bowl-1954",
+          "panton-s-chair-1956",
+          "henningsen-artichoke-lamp-1957",
+          "panton-chair-1960-1967-68",
+          "grete-jalk-bow-chair-1963",
+          "jacobsen-cylinda-line-1967",
+          "rasmus-fenhann-hikari-lamp-2005",
+          "lisbet-friis-archive-book-2021"
+        ],
+        "sourcePointers": [
+          "research/runs/production/designmuseum-danmark/20260805T033208Z-p2.13.72/understanding/museum-understanding.md#丹麦现代在这里既是馆藏主题也是馆史事件",
+          "research/runs/production/designmuseum-danmark/20260805T033208Z-p2.13.72/understanding/museum-understanding.md#真正的收藏单位不总是完成品",
+          "research/runs/production/designmuseum-danmark/20260805T033208Z-p2.13.72/research/batches/deep-01/deep-research-dossier.json#works[workId=royal-frederiks-hospital-museum-interiors]",
+          "research/runs/production/designmuseum-danmark/20260805T033208Z-p2.13.72/research/batches/deep-02/deep-research-dossier.json#works[workId=panton-chair-1960-1967-68]"
+        ]
+      }
+    ],
+    "independentPeakLines": [
+      "peak-danish-design-infrastructure"
+    ],
     "dedicatedTrip": false,
     "worldDominantConcentration": false,
     "worldDominantConcentrationEvidence": []
@@ -321,11 +440,24 @@ const museumRatings = {
     "dedicatedTrip": false,
     "worldDominantConcentration": false,
     "worldDominantConcentrationEvidence": []
+  },
+  "louisiana": {
+    "museumId": "louisiana",
+    "score": 79,
+    "scoreBand": "70–79 · 可去可不去",
+    "withinBandAnchor": "78–79",
+    "scoreReason": "现有证据支持一套高度不可复制的整体体验：Giacometti 与 Jorn 作品群、欧美战后绘画和移动影像形成多条连续收藏线，Serra 与 Trakas 的场域作品、雕塑公园、低调渐进的建筑及海峡景观又把观看组织成只有在 Louisiana 才能完整兑现的路线。但逐件比较研究没有一件作品通过稀世珍品的不可替代性硬门，因此评分不能跨入 80 档。",
+    "withinBandReason": "落在 70 档上限，是因为它同时具备重要作品密度、明确领域重心、稳定的户外场域节点和显著高于普通现代艺术馆的建筑—园林—公共空间体验；对现代雕塑、战后艺术或博物馆建筑兴趣强的旅行者，整体足以支持专门绕行。没有进入更高档，主要受三点限制：缺少通过硬门的稀世珍品，室内馆藏大量轮换，若干代表作仅能证明曾展出或当前状态未知。",
+    "rareAssets": [],
+    "independentRareLines": [],
+    "dedicatedTrip": false,
+    "worldDominantConcentration": false,
+    "worldDominantConcentrationEvidence": []
   }
 };
 
 // A rating is only current when every museum is calibrated against the same live set.
 for (const rating of Object.values(museumRatings)) {
-  rating.calibratedAgainst = ["alhambra","anchorage","british","chichu","egyptian","enoura","frye","getty","glyptotek","louvre","met","muxin","seattle","smk","vienna","designmuseum-danmark","nationalmuseum","rosenborg"];
+  rating.calibratedAgainst = ["alhambra","anchorage","british","chichu","egyptian","enoura","frye","getty","glyptotek","louvre","met","muxin","seattle","smk","vienna","designmuseum-danmark","nationalmuseum","rosenborg","louisiana"];
   rating.calibratedAt = "2026-07-23";
 }

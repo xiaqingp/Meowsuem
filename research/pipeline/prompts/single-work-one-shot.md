@@ -120,6 +120,6 @@ collectionRelation、rare、significance。会改变作品身份、选择、评�
 `explanation`；有对应来源时用 `sourceIds` 指向上面的 `sources[].id`。
 不得用 `statement`、`sourceValue` 或其他近义字段代替。
 
-`sourceType` 只能是 `museum`、`academic`、`foundation`、`publication`、`media` 或 `other`。锁定的官方对象页必须作为 `identity` 来源；`date`、`material` 若不在该页，可由同一官方站点的其他馆方页面或馆方 PDF 补足，不得把页面没有写的信息虚标给该页。明确人物原话记录 `quote`、`speaker`、`sourceIds`；正面强断言记录 `claim`、`type: strong_factual_claim`、`sourceIds`；确定性艺术家意图记录 `claim`、`type: artist_intent`、`sourceIds`。不要逐句映射。
+`sourceType` 只能是 `museum`、`academic`、`foundation`、`publication`、`media` 或 `other`。锁定的官方对象页必须作为 `identity` 来源；`date`、`material` 若不在该页，可由其他博物馆、学术机构、基金会或正式出版物补足，不得把页面没有写的信息虚标给该页。明确人物原话记录 `quote`、`speaker`、`sourceIds`；正面强断言记录 `claim`、`type: strong_factual_claim`、`sourceIds`；确定性艺术家意图记录 `claim`、`type: artist_intent`、`sourceIds`。不要逐句映射。
 
 最终只返回 response schema 要求的 `article` 和字符串化 `sourcesJson`。

@@ -1,0 +1,35 @@
+{
+  "id": "PCR-2026-08-04-input-aware-retry-guard",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-04",
+  "ownerInstruction": "用最新pipeline重做并发布丹麦设计博物馆；同一作品可以复用原来的图片。",
+  "baseRelease": "research/pipeline/releases/v2.13.75.json",
+  "targetVersion": "2.13.76",
+  "implementationStatus": "completed",
+  "scope": [
+    "include locked-input identity in repeated single-work failure detection"
+  ],
+  "outOfScope": [
+    "raising maximum attempts",
+    "raising token budgets",
+    "ignoring unchanged repeated failures",
+    "weakening verification gates",
+    "mutating frozen releases"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/lib/work-status.mjs",
+    "scripts/test-run-generation-batch.mjs"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/test-run-generation-batch.mjs",
+      "node scripts/run-pipeline-tests.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

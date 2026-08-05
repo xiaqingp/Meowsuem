@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260803T044953Z-p2.13.57",
+  "museumId": "smk",
+  "upstreamHashes": {
+    "candidates": {
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/candidate-pool/candidate-pool.json",
+      "sha256": "ee6390f845fa1f2a28977c432b220e8fc5487609836fbb2d29e83b630f07e8a8"
+    },
+    "selection": {
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/selection/selection.json",
+      "sha256": "32e5348eb14200ddc432f2c81e740c71fa4c022898065d13efe438e6bff99c1d"
+    },
+    "structure": {
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/structure/structure.json",
+      "sha256": "2de5259b2cc8440f1c9f0356e56e867a7750046ec504e596323d86f6e6eb04b4"
+    },
+    "images": {
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/image-evidence/verified-image-evidence.json",
+      "sha256": "e0ae0374c5d5fd0776cbacdadcd303fd5dd134d6d0739ed0ee60a8c2b64d96ec"
+    }
+  },
+  "works": [
+    {
+      "workId": "cecco-virgin-child-goldfinch",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/cecco-virgin-child-goldfinch/one-shot/input/locked-metadata.json",
+      "sha256": "d4a9caa0c27c0a5ca7910b94c510eaa03dadf2e53a3eb8ad7e56fdd321945fa1"
+    },
+    {
+      "workId": "cranach-electress-sibyl",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/cranach-electress-sibyl/one-shot/input/locked-metadata.json",
+      "sha256": "25399feb92a3a27c378cab08c5ff0bdec5b89aef22f1036e3b24efdb687b750d"
+    },
+    {
+      "workId": "cornelis-fall-titans",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/cornelis-fall-titans/one-shot/input/locked-metadata.json",
+      "sha256": "3e268b3c622d94ca3dfaad3721738d3bde6d7b6a08b5e5f134d978d1964ea492"
+    },
+    {
+      "workId": "rubens-judgement-solomon",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/rubens-judgement-solomon/one-shot/input/locked-metadata.json",
+      "sha256": "09a20027bee1a621ccc17804845ac7fcd35f1cd3b1f8babd0bdc042ac4edf35e"
+    },
+    {
+      "workId": "gijsbrechts-studio-wall",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/gijsbrechts-studio-wall/one-shot/input/locked-metadata.json",
+      "sha256": "52690f1a310052018f111778a426f3ea7ab497d6cf4adbd849a42b1cf46c14cc"
+    },
+    {
+      "workId": "dom-miguel-de-castro",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/dom-miguel-de-castro/one-shot/input/locked-metadata.json",
+      "sha256": "73eb96029458a98f5dd1f1ee445967310446e58a6f6e19448b5a4eb2b3642b3d"
+    },
+    {
+      "workId": "rembrandt-old-man-profile",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/rembrandt-old-man-profile/one-shot/input/locked-metadata.json",
+      "sha256": "877a91eddba4b62f0a9c60f0b0bdf48fc6c3af71ac36c0a56d7e5856d0b1eb52"
+    },
+    {
+      "workId": "rembrandt-crusader-sketch",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/rembrandt-crusader-sketch/one-shot/input/locked-metadata.json",
+      "sha256": "6003e54b0f61ea7fac74a84a89d08c57999d4afac56af2f3cc18558df9f68f23"
+    },
+    {
+      "workId": "therbusch-self-portrait",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/therbusch-self-portrait/one-shot/input/locked-metadata.json",
+      "sha256": "ec4895f57b1fa9e44d27f644cd2c783492cc6f513487f4a2ba4bae2444d486f2"
+    },
+    {
+      "workId": "juel-niels-ryberg-family",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/juel-niels-ryberg-family/one-shot/input/locked-metadata.json",
+      "sha256": "10c64677fb0bbb7da6961a097737d32031ba21eaa9130af5982bf89bd74d2772"
+    },
+    {
+      "workId": "eckersberg-nathanson-daughters",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/eckersberg-nathanson-daughters/one-shot/input/locked-metadata.json",
+      "sha256": "95a2ddc8a2570dc968a4a20ad39d061f78fab978f7ce768a8e2f6b438b83065e"
+    },
+    {
+      "workId": "rorbye-artists-window",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/rorbye-artists-window/one-shot/input/locked-metadata.json",
+      "sha256": "2a0c575f38ad2916f34dfe71b909e361943c672f7cc0251908227c719f3c8978"
+    },
+    {
+      "workId": "bendz-young-artist-mirror",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/bendz-young-artist-mirror/one-shot/input/locked-metadata.json",
+      "sha256": "cdd621a20fbca9442d3adddec9246fa3b028f1d138ffb0ff4f5e7f392c478bea"
+    },
+    {
+      "workId": "koebke-dosseringen-copenhagen",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/koebke-dosseringen-copenhagen/one-shot/input/locked-metadata.json",
+      "sha256": "da46b0504de9e660cbb7944baecc8e6bbedcf3ea7a16f1e8021cef1d71d0d1b6"
+    },
+    {
+      "workId": "koebke-self-portrait",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/koebke-self-portrait/one-shot/input/locked-metadata.json",
+      "sha256": "360bf600e074de8b03ac70344f91fc9cf43e9235f34ba7e292ec3642051da901"
+    },
+    {
+      "workId": "koebke-eckersberg-marstrand-trip",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/koebke-eckersberg-marstrand-trip/one-shot/input/locked-metadata.json",
+      "sha256": "57e32ae945c228cd85daf546638d2f4468c8db0d570aba1205baa1b326944557"
+    },
+    {
+      "workId": "constantin-hansen-artists-rome",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/constantin-hansen-artists-rome/one-shot/input/locked-metadata.json",
+      "sha256": "e573a9867f066e685506219af1047c71feaa377f4f730b0cb96addb87aca1559"
+    },
+    {
+      "workId": "friedrich-after-storm",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/friedrich-after-storm/one-shot/input/locked-metadata.json",
+      "sha256": "25c392a6a5c8a3c134872c3c21e2a45afaf599fa04deab70b09c0bb697bcaf98"
+    },
+    {
+      "workId": "marstrand-justina-antoine",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/marstrand-justina-antoine/one-shot/input/locked-metadata.json",
+      "sha256": "6db0fe69c9829e3822861674606ed802fd02a4bff416fa9df97146c06ffaee1a"
+    },
+    {
+      "workId": "wegmann-anna-seekamp",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/wegmann-anna-seekamp/one-shot/input/locked-metadata.json",
+      "sha256": "5402e7b7baab07aaa40c75d9c8643b5809d1c77428fe3d5566abd9e3726db469"
+    },
+    {
+      "workId": "jerichau-egyptian-pot-seller",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/jerichau-egyptian-pot-seller/one-shot/input/locked-metadata.json",
+      "sha256": "4b87e067953f3b394ca25b3181bbbfde136d1e436c05f7941aef2aa5748331f4"
+    },
+    {
+      "workId": "ring-french-windows",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/ring-french-windows/one-shot/input/locked-metadata.json",
+      "sha256": "d88e287c0a1f424a00849532d5da84d94ee4945a1acd91a48e165c5357e48858"
+    },
+    {
+      "workId": "munch-evening-talk",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/munch-evening-talk/one-shot/input/locked-metadata.json",
+      "sha256": "2697a36bd2efbd5c53770373d5063d86ddc0742e6737dd9a3f997193a788496c"
+    },
+    {
+      "workId": "hammershoi-artemis",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/hammershoi-artemis/one-shot/input/locked-metadata.json",
+      "sha256": "df3f7958dc55c1e7c36b4a1092acf457c263c6f222c2a68d517a3b3a8135f116"
+    },
+    {
+      "workId": "hammershoi-interior-easel",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/hammershoi-interior-easel/one-shot/input/locked-metadata.json",
+      "sha256": "d1c2fe0843a4452fe58a31dce16172f56f632f4da039dba25d75a544e4f3370c"
+    },
+    {
+      "workId": "hammershoi-interior-artificial-light",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/hammershoi-interior-artificial-light/one-shot/input/locked-metadata.json",
+      "sha256": "92e0236fde8ea40487fb638f2e231633361a38a35d4d6c04c9d6898b17e95fc9"
+    },
+    {
+      "workId": "matisse-green-line",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/matisse-green-line/one-shot/input/locked-metadata.json",
+      "sha256": "808d81e736453a2f35dcd21e63f0d4579e3dcf58c530a6a9cb6c873d0783e147"
+    },
+    {
+      "workId": "matisse-collioure-joy-life-study",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/matisse-collioure-joy-life-study/one-shot/input/locked-metadata.json",
+      "sha256": "43d14d92cb1bd5ced51749af5a03c57741871a05b0f8a9f8b40597d2789dc433"
+    },
+    {
+      "workId": "derain-woman-chemise",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/derain-woman-chemise/one-shot/input/locked-metadata.json",
+      "sha256": "eb62a37d13842d298477cd38991548b8bb75f0c35554cf52745106fe59bc3600"
+    },
+    {
+      "workId": "braque-trees-estaque",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/braque-trees-estaque/one-shot/input/locked-metadata.json",
+      "sha256": "3b6210b09d66102e033c9f7cf135f1d99b478f0e12efd739006e241c95b0b520"
+    },
+    {
+      "workId": "modigliani-alice",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/modigliani-alice/one-shot/input/locked-metadata.json",
+      "sha256": "7edc1ef31b0fdf6f3778aa48f00808c62b015a12b77d2951219a8dc795e65883"
+    },
+    {
+      "workId": "matisse-zulma",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/matisse-zulma/one-shot/input/locked-metadata.json",
+      "sha256": "3d2b72b5ececfe2d4be39e72aec34b344c073235f81bd0f1808da3ae786ce443"
+    },
+    {
+      "workId": "giersing-judgment-paris",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/giersing-judgment-paris/one-shot/input/locked-metadata.json",
+      "sha256": "9d5bcf1cc8ad196a07138cba4668d68c02f75cbb33547b244f78bb89c8dad7a2"
+    },
+    {
+      "workId": "niels-hansen-jacobsen-shadow",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/niels-hansen-jacobsen-shadow/one-shot/input/locked-metadata.json",
+      "sha256": "894ec138cc45abaf451a3f43d5384f237e05bb465b4b829ff238593a9d60f9e4"
+    },
+    {
+      "workId": "noack-standing-female-nude",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/noack-standing-female-nude/one-shot/input/locked-metadata.json",
+      "sha256": "113059dfd0114aa3e329a3f0cf78593b4684007576957767f473ce163cbb13ba"
+    },
+    {
+      "workId": "kernn-larsen-phantoms",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/kernn-larsen-phantoms/one-shot/input/locked-metadata.json",
+      "sha256": "74acadeb61755dbec2d7a3d43f527e1c196fd158391f00b1376a24fdf397b619"
+    },
+    {
+      "workId": "nolde-legend",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/nolde-legend/one-shot/input/locked-metadata.json",
+      "sha256": "d3e7dbd11575f8ad7cf45a29f434fb83b6d5778a5b69c981eee432301839a2c0"
+    },
+    {
+      "workId": "kirkeby-untitled-laesoe",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/kirkeby-untitled-laesoe/one-shot/input/locked-metadata.json",
+      "sha256": "5c9e4e75b89fcc300dc5270f998be80eb86dd7c60d974d61db547ae9cd0d5cd0"
+    },
+    {
+      "workId": "roepstorff-desolation-beast",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/roepstorff-desolation-beast/one-shot/input/locked-metadata.json",
+      "sha256": "6a0f97195aec65ea64862e955518e2ba39394116eff7f2464de8ceb6adc5ba2b"
+    },
+    {
+      "workId": "mantegna-bacchanal-wine-vat",
+      "path": "research/runs/production/smk/20260803T044953Z-p2.13.57/works/mantegna-bacchanal-wine-vat/one-shot/input/locked-metadata.json",
+      "sha256": "6dab58cba5e44d36eb09bf0e2eeea5af0ecb37efec5be9e11278f408b5bd4105"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "PCR-2026-08-03-targeted-image-supplement-and-root-compaction",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-03",
+  "ownerInstruction": "先把漏一件，和2.13.65的问题给修了。40件之后再说，先保持原样",
+  "baseRelease": "research/pipeline/releases/v2.13.68.json",
+  "targetVersion": "2.13.69",
+  "implementationStatus": "completed",
+  "scope": [
+    "retain valid image-disambiguation results and call the model once only for omitted work IDs",
+    "restore the ten-work image-disambiguation batch ceiling",
+    "promote partial accepted image repairs while preserving unresolved production records",
+    "compact promoted production image evidence back to a root while retaining hash and cycle verification",
+    "freeze the current published museum page hash without changing its Glyptotek content"
+  ],
+  "outOfScope": [
+    "changing the published Glyptotek selection or its forty-work capacity",
+    "regenerating museum content or images",
+    "relaxing image identity, asset hash, or duplicate-image gates",
+    "mutating frozen releases"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/lib/two-level-image-resolution.mjs",
+    "scripts/resolve-two-level-image-evidence.mjs",
+    "scripts/promote-image-retry-to-parent.mjs",
+    "museum.html"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/test-image-resolution-v2.mjs",
+      "node scripts/run-pipeline-tests.mjs",
+      "node scripts/freeze-pipeline-release.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "PCR-2026-08-02-medium-material-alias",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-02",
+  "ownerInstruction": "继续生成并发布 Louisiana；修复 sources usedFor 中 medium 与 material 的字段别名不一致。",
+  "baseRelease": "research/pipeline/releases/v2.13.55.json",
+  "targetVersion": "2.13.56",
+  "implementationStatus": "completed",
+  "scope": [
+    "treat medium as an alias of material in structured source coverage"
+  ],
+  "outOfScope": [
+    "changing accepted source authority classes",
+    "changing identity or date evidence rules"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/verify-one-shot-work.mjs",
+    "scripts/test-one-shot-work.mjs"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/run-pipeline-tests.mjs",
+      "node scripts/freeze-pipeline-release.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs"
+    ]
+  }
+}

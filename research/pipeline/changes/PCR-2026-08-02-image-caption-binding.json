@@ -1,0 +1,32 @@
+{
+  "id": "PCR-2026-08-02-image-caption-binding",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-02",
+  "ownerInstruction": "继续生成并发布 Louisiana；准确识别官网中的作品图片与相邻说明。",
+  "baseRelease": "research/pipeline/releases/v2.13.50.json",
+  "targetVersion": "2.13.51",
+  "implementationStatus": "completed",
+  "scope": [
+    "bind page-image candidates to the nearest image caption container before article text"
+  ],
+  "outOfScope": [
+    "manual evidence insertion",
+    "changing image acceptance thresholds"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/retry-failed-image-evidence.mjs",
+    "scripts/test-retry-failed-image-evidence.mjs"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node --check scripts/retry-failed-image-evidence.mjs",
+      "node scripts/run-pipeline-tests.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

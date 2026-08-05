@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260805T033208Z-p2.13.72",
+  "museumId": "designmuseum-danmark",
+  "mode": "dry-run",
+  "candidateAssemblyResultSha256": "6c096500a06e38597ad97e6476953d2484c1226a53fe7cb288c80796750ea6d3",
+  "files": {
+    "designmuseum-danmark.js": {
+      "sha256": "5ac4e5dceb0b9244d77aafe86967c5790dfabb3476e740dc7bf7f4c2c520d916",
+      "changed": true
+    },
+    "research/content/designmuseum-danmark.md": {
+      "sha256": "1053edfddf961ac8a8c19a64701b798b3ccb4afdc24e85744ce027698ee8b7eb",
+      "changed": true
+    },
+    "ratings.js": {
+      "sha256": "300d17463813f45664eaad2d91cc46614906a63590d793f52b192f618626ad01",
+      "changed": true
+    },
+    "routes.js": {
+      "sha256": "c401b0e6566e19847c87a73a987a76efe71c9bbaea0cc80831de8baf984582c5",
+      "changed": true
+    },
+    "assets/designmuseum-danmark/royal-frederiks-hospital-museum-interiors.webp": {
+      "sha256": "2deeb8b54fb90067844d83626531d68df59484d94e1676004d940eb42cbe8527",
+      "changed": true
+    },
+    "assets/designmuseum-danmark/kroyer-portrait-pietro-krohn-1887.webp": {
+      "sha256": "aa9869fcd9c23fb541ae6e0c97eaff58f60eb11282f25186d1202724373ed391",
+      "changed": true
+    },
+    "assets/designmuseum-danmark/henningsen-ph-5-5-lighting-system-1926.webp": {
+      "sha256": "1e98eae5e79e46f7a91423c20bf449aa69d33e8e57bb730db74d95764723f3e2",
+      "changed": true
+    },
+    "assets/designmuseum-danmark/spengler-temple-spiral-staircase-1760.webp": {
+      "sha256": "0deeec3d1efd7214bb2f85832a6ecc44ad50c1ee6f1ed255cfccce0d5e87155c",
+      "changed": false
+    },
+    "assets/designmuseum-danmark/flora-danica-four-sided-serving-dish.webp": {
+      "sha256": "8727fa88f3d1a02ab91aa0bd15ef80571a3b52103917fcc5d7a84eac9f3d1475",
+      "changed": true
+    },
+    "assets/designmuseum-danmark/ming-yongle-jug-handle-spout.jpg": {
+      "sha256": "1f5fa3e523af5e7f66e17ef17475ea9fe09e61b2c77dc9d8c0e89148264f43ee",
+      "changed": true
+    },
+    "assets/designmuseum-danmark/sano-naoyoshi-tsuba-c1775.webp": {
+      "sha256": "9c5f5d3bff199e8874d493ac52ebbdf392b2646d165c9ef7daa8f0ad5a8cef7b",
+      "changed": true
+    },
+    "assets/designmuseum-danmark/hiroshige-lake-satta-suruga-1858.png": {
+      "sha256": "9de00bac148ea20cbce5b69f4ac26bd9f61f107167deb5bc8ba58150618239c3",
+      "changed": true
+    },
+    "assets/designmuseum-danmark/krohn-heron-service-wine-cooler-1885-88.webp": {
+      "sha256": "ad6ceffd4362f54c84f86258ef565e92563f184a24c5d6328d6317b404259c9e",
+      "changed": true
+    },
+    "assets/designmuseum-danmark/rasmus-fenhann-hikari-lamp-2005.webp": {
+      "sha256": "035ec0a8464d1f6ee5319b2f69e9f0ba9a57f8e97af06133c97989145a166443",
+      "changed": true
+    },
+    "assets/designmuseum-danmark/gauguin-jug-self-portrait-1889.webp": {
+      "sha256": "8b48d74c6a5c0c43fbeaee41a96959eeb51cf142b4f67594fad16b4092ad4449",
+      "changed": true
+    },
+    "assets/designmuseum-danmark/lalique-gold-enamel-opal-pin-1898-99.webp": {
+      "sha256": "026a4b9adaa7b9c2240056e706d49363501bca345dda4e4b0c60ae40f6bd4ef1",
+      "changed": true
+    },
+    "assets/designmuseum-danmark/hegermann-lindencrone-porcelain-vase-1899-1900.webp": {
+      "sha256": "724cfd7e32cd1ba3235477e96a8778856ad8fb8b129037da6586265957767880",
+      "changed": false
+    },
+    "assets/designmuseum-danmark/bindesboll-carlsberg-label-1904.png": {
+      "sha256": "3b0c2020a147439555eb43a245e46ac9fbd915dbbcb513e6967f04dad1b7c805",
+      "changed": true
+    },
+    "assets/designmuseum-danmark/malling-hansen-writing-ball-1870s.webp": {
+      "sha256": "b2584c321367ce88385944c3365d2259786b59d61888cfadd1baf82b0f7467fe",
+      "changed": true
+    },
+    "assets/designmuseum-danmark/nilfisk-l10-vacuum-cleaner-1922.webp": {
+      "sha256": "b4ae17b361e1a5323b5d4ea7d98e0c0695a546de33a024a1379f8b140b6c5356",
+      "changed": true
+    },
+    "assets/designmuseum-danmark/bernadotte-bjorn-margrethe-bowl-1954.webp": {
+      "sha256": "cc8caaa38b8b5c584477312746d695302a8246de0853292228ca4cdfb907fabe",
+      "changed": true
+    },
+    "assets/designmuseum-danmark/jacobsen-cylinda-line-1967.webp": {
+      "sha256": "664b74f63593e61048c175ac3050e48a9ceecc1c5e33d0ea69f1b008b37d9cfe",
+      "changed": true
+    },
+    "assets/designmuseum-danmark/kaare-klint-red-chair-1927.webp": {
+      "sha256": "8afb28b8e5f6adfeb9af0203ce7696c4335c3893052d75a5b9d4f77a49eecd7e",
+      "changed": false
+    },
+    "assets/designmuseum-danmark/wegner-round-chair-jh501-1947.jpg": {
+      "sha256": "61864be4b1eb58e68ddcd912f4a88098d370a7502bbf473d8a20594f3731aa3f",
+      "changed": true
+    },
+    "assets/designmuseum-danmark/finn-juhl-butterfly-coffee-table-prototype-1949.webp": {
+      "sha256": "0c9c1ef4ef4c3c5ca85d3a4716a64bf90d909f466fa50ba50ba2ff66e0d58350",
+      "changed": false
+    },
+    "assets/designmuseum-danmark/riis-carstensen-finn-juhl-easy-chair-1953.webp": {
+      "sha256": "6b5bddd35d99b036a5adb47aec842a84765842e5166f8ef3098d4d13f0235082",
+      "changed": true
+    },
+    "assets/designmuseum-danmark/wegner-valet-chair-jh540-1953.jpg": {
+      "sha256": "2888375d42017217c1a41877589a68151ae3e01bbd5907366fd1c23dd039698a",
+      "changed": true
+    },
+    "assets/designmuseum-danmark/gudme-leth-tree-pattern-1937.webp": {
+      "sha256": "9bea47a626fd495ff3a7aa49145bb92380d63924c6b84e224875b507aee3c130",
+      "changed": true
+    },
+    "assets/designmuseum-danmark/kjaerholm-pk0-prototype-1952.jpg": {
+      "sha256": "8ee7ce903d86e92a58b5c7e3f34da782914313bd0aba34f22ba76c82b76044d3",
+      "changed": true
+    },
+    "assets/designmuseum-danmark/panton-s-chair-1956.jpg": {
+      "sha256": "196d2683a2b5eaa19e8d24517b47c8d10fb0b5796cc6762f41a5c3cab37a5ec2",
+      "changed": true
+    },
+    "assets/designmuseum-danmark/henningsen-artichoke-lamp-1957.jpg": {
+      "sha256": "b28542c3e6182b9a62f4af003abd0ae9fa13343a90b2727799b23ed01ec4bd92",
+      "changed": true
+    },
+    "assets/designmuseum-danmark/panton-chair-1960-1967-68.webp": {
+      "sha256": "fc12103fed33b8335f8685d9ff6d5aa132c76a64dc7eeea8bc819a993d9397f0",
+      "changed": true
+    },
+    "assets/designmuseum-danmark/grete-jalk-bow-chair-1963.webp": {
+      "sha256": "25f33dfce699ec12a7efc46673c7e3f5466a621182ef767435e43c9cc9963aa9",
+      "changed": true
+    },
+    "assets/designmuseum-danmark/lisbet-friis-archive-book-2021.webp": {
+      "sha256": "34fea5a2027d771851c0e542fa6f5fc80c5092406c3e91cde2adab0ce2177bc4",
+      "changed": true
+    },
+    "index.html": {
+      "sha256": "e22ad7e1a5a5438f00c5bee8d17227aead592cb36bd25a5ce849b0f31008fca5",
+      "changed": true
+    },
+    "museum.html": {
+      "sha256": "8f58a05627b205c73179e05a85cd0bb1c731f13c8400d03cdec9c0c4301ddbb9",
+      "changed": true
+    }
+  }
+}

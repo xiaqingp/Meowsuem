@@ -1,0 +1,39 @@
+{
+  "id": "PCR-2026-08-03-peak-line-rating-calibration",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-03",
+  "ownerInstruction": "可以，你更新一下pipeline，然后再现在新嘉士伯美术馆里，对作品重新评分，以及对馆级重新评分并更新文本。每件作品的文本和图片不用更新了。你figure out一下还有什么需要更新。",
+  "baseRelease": "research/pipeline/releases/v2.13.69.json",
+  "targetVersion": "2.13.70",
+  "implementationStatus": "completed",
+  "scope": [
+    "replace the zero-rare-work 79-point cap with evidence-backed work, collection, or site peak lines",
+    "retain the strict dedicated-trip threshold for scores of 90 and above",
+    "prevent collection members and site components from being split into duplicate peak lines",
+    "publish peak-line evidence through museum rating output"
+  ],
+  "outOfScope": [
+    "changing museum selection capacity",
+    "regenerating work prose or images",
+    "weakening identity, source, image, causality, or publication gates",
+    "mutating frozen releases or published runs"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "research/meowseum-content-instruction.md",
+    "research/pipeline/prompts/museum-selection.md",
+    "scripts/process-museum-rating.mjs",
+    "scripts/prepare-museum-assembly.mjs"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/test-museum-rating-gate.mjs",
+      "node scripts/run-pipeline-tests.mjs",
+      "node scripts/freeze-pipeline-release.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs"
+    ]
+  }
+}

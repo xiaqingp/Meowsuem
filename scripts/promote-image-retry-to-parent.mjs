@@ -23,6 +23,17 @@ export const isPromotableImageWork = work => Boolean(work?.selected && [
   "context_image_accepted",
 ].includes(work.status));
 
+export function compactPromotedImageEvidence(evidence, works) {
+  const {parentEvidencePath, parentEvidenceSha256, ...root} = evidence;
+  return {
+    ...root,
+    works: works.map(work => {
+      const {reusedFromParent, parentEvidencePath: workParentPath, parentEvidenceSha256: workParentSha256, ...clean} = work;
+      return clean;
+    }),
+  };
+}
+
 export async function promoteImageRetryToParent(argv = process.argv.slice(2)) {
   const args = parseArgs(argv);
   const projectRoot = path.resolve(args["project-root"] ?? path.resolve(path.dirname(fileURLToPath(import.meta.url)), ".."));
@@ -53,11 +64,15 @@ export async function promoteImageRetryToParent(argv = process.argv.slice(2)) {
   let cursorPath = sourceEvidencePath;
   let cursor = await readJson(cursorPath);
   let targetFound = false;
-  for (let depth = 0; depth < 20 && cursor.parentEvidencePath; depth += 1) {
+  const visitedEvidence = new Set([projectRelative(projectRoot, cursorPath)]);
+  while (cursor.parentEvidencePath) {
     const parentPath = path.resolve(projectRoot, cursor.parentEvidencePath);
+    const parentRelative = projectRelative(projectRoot, parentPath);
+    if (visitedEvidence.has(parentRelative)) throw new Error("image evidence parent cycle detected");
+    visitedEvidence.add(parentRelative);
     const bytes = await fs.readFile(parentPath);
     if (hash(bytes) !== cursor.parentEvidenceSha256) throw new Error("image evidence parent hash mismatch");
-    if (projectRelative(projectRoot, parentPath) === targetRelative) targetFound = true;
+    if (parentRelative === targetRelative) targetFound = true;
     cursorPath = parentPath;
     cursor = JSON.parse(bytes);
     assertVerifiedImageEvidence(cursor);
@@ -69,7 +84,10 @@ export async function promoteImageRetryToParent(argv = process.argv.slice(2)) {
   const assetsRoot = path.join(target.runRoot, "image-evidence", "assets");
   await fs.mkdir(assetsRoot, {recursive: true});
   for (const work of sourceEvidence.works ?? []) {
-    if (!isPromotableImageWork(work)) throw new Error(`${work.workId}: accepted image evidence missing`);
+    if (!isPromotableImageWork(work)) {
+      promotedWorks.push(work);
+      continue;
+    }
     if (hashes.has(work.selected.sha256)) throw new Error(`${work.workId}: duplicate accepted image hash`);
     hashes.add(work.selected.sha256);
     const sourceAsset = path.resolve(projectRoot, work.selected.localPath);
@@ -84,12 +102,11 @@ export async function promoteImageRetryToParent(argv = process.argv.slice(2)) {
     promotedWorks.push({...work, selected: {...work.selected, localPath: projectRelative(projectRoot, destination)}});
   }
   const promoted = {
-    ...sourceEvidence,
+    ...compactPromotedImageEvidence(sourceEvidence, promotedWorks),
     pipelineVersion: manifest.pipelineVersion,
     promotedAt: new Date().toISOString(),
     promotedFromRunId: source.descriptor.runId,
     promotedToRunId: target.descriptor.runId,
-    works: promotedWorks,
   };
   assertVerifiedImageEvidence(promoted);
   const previousPath = path.join(target.runRoot, "image-evidence", `verified-image-evidence.before-${source.descriptor.runId}.json`);

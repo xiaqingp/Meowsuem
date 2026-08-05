@@ -1,0 +1,38 @@
+{
+  "id": "PCR-2026-08-02-identity-evidence-reuse",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-02",
+  "ownerInstruction": "继续；同一博物馆重新生成时，已有 image evidence 不应再跑 resolver，作品复用也不能依赖变化的 workId。",
+  "baseRelease": "research/pipeline/releases/v2.13.45.json",
+  "targetVersion": "2.13.46",
+  "implementationStatus": "completed",
+  "scope": [
+    "match prior works by stable identity rather than workId",
+    "reuse valid verified image bytes and evidence from earlier published runs of the same museum",
+    "run image resolution only for new, unresolved or invalid works",
+    "adapt reused article identity wrappers before current verification"
+  ],
+  "outOfScope": [
+    "cross-museum image evidence reuse",
+    "bypassing image hash, dimension or identity validation",
+    "modifying earlier immutable runs"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/lib/prior-work-identity.mjs",
+    "scripts/resolve-two-level-image-evidence.mjs",
+    "scripts/reuse-prior-single-work.mjs",
+    "scripts/run-museum-pipeline.mjs"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/test-reuse-prior-single-work.mjs",
+      "node scripts/run-pipeline-tests.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

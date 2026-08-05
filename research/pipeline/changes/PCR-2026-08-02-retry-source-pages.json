@@ -1,0 +1,34 @@
+{
+  "id": "PCR-2026-08-02-retry-source-pages",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-02",
+  "ownerInstruction": "继续生成并发布 Louisiana；为最后缺图作品使用新找到的准确官方图片，不使用相似作品替代。",
+  "baseRelease": "research/pipeline/releases/v2.13.49.json",
+  "targetVersion": "2.13.50",
+  "implementationStatus": "completed",
+  "scope": [
+    "allow failed-image retries to receive additional official source pages",
+    "keep model disambiguation and all existing image validation gates"
+  ],
+  "outOfScope": [
+    "manual image acceptance",
+    "bypassing identity validation",
+    "modifying frozen parent evidence"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/retry-failed-image-evidence.mjs",
+    "scripts/test-retry-failed-image-evidence.mjs"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node --check scripts/retry-failed-image-evidence.mjs",
+      "node scripts/run-pipeline-tests.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

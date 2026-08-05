@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260802T052456Z-p2.13.45",
+  "museumId": "louisiana",
+  "reused": [
+    "giacometti-walking-woman-i",
+    "giacometti-walking-man",
+    "giacometti-grande-tete",
+    "giacometti-la-foret",
+    "jorn-dead-drunk-danes",
+    "jorn-both-worlds",
+    "jorn-titania-ii",
+    "kusama-gleaming-lights-of-the-souls",
+    "hockney-a-closer-grand-canyon",
+    "pollock-black-over-yellow",
+    "bacon-three-studies-george-dyer",
+    "warhol-close-cover-before-striking",
+    "rist-im-not-the-girl-who-misses-much",
+    "fischli-weiss-der-lauf-der-dinge"
+  ],
+  "rejected": [
+    "goldin-memory-lost"
+  ],
+  "notFound": [
+    "moore-reclining-figure-no-5",
+    "serra-gate-in-the-gorge",
+    "calder-little-janey-waney",
+    "heerup-granite-sculptures",
+    "kirkeby-tor-ii",
+    "trakas-self-passage",
+    "giacometti-spoon-woman",
+    "giacometti-venice-woman-viii",
+    "jorn-nocturne-iii",
+    "jorn-die-gedanken-sind-frei",
+    "majerus-weisses-bild",
+    "polke-sieht-man-ja-was-es-ist",
+    "warhol-flowers-1970",
+    "feldmann-100-years",
+    "kentridge-black-box-chambre-noire",
+    "abramovic-ulay-light-dark",
+    "superflex-flooded-mcdonalds",
+    "hill-viewer",
+    "arbus-albino-sword-swallower",
+    "ruscha-figure-it-on-out",
+    "dumas-mourning-marsyas",
+    "hughes-collide",
+    "schutz-the-public-process",
+    "ulay-she",
+    "dijkstra-ruth-drawing-picasso"
+  ],
+  "works": [
+    {
+      "workId": "moore-reclining-figure-no-5",
+      "status": "not_found"
+    },
+    {
+      "workId": "serra-gate-in-the-gorge",
+      "status": "not_found"
+    },
+    {
+      "workId": "calder-little-janey-waney",
+      "status": "not_found"
+    },
+    {
+      "workId": "heerup-granite-sculptures",
+      "status": "not_found"
+    },
+    {
+      "workId": "kirkeby-tor-ii",
+      "status": "not_found"
+    },
+    {
+      "workId": "trakas-self-passage",
+      "status": "not_found"
+    },
+    {
+      "workId": "giacometti-spoon-woman",
+      "status": "not_found"
+    },
+    {
+      "workId": "giacometti-walking-woman-i",
+      "status": "reused",
+      "priorRunId": "20260802T025531Z-p2.13.43"
+    },
+    {
+      "workId": "giacometti-walking-man",
+      "status": "reused",
+      "priorRunId": "20260802T025531Z-p2.13.43"
+    },
+    {
+      "workId": "giacometti-grande-tete",
+      "status": "reused",
+      "priorRunId": "20260802T025531Z-p2.13.43"
+    },
+    {
+      "workId": "giacometti-venice-woman-viii",
+      "status": "not_found"
+    },
+    {
+      "workId": "giacometti-la-foret",
+      "status": "reused",
+      "priorRunId": "20260802T025531Z-p2.13.43"
+    },
+    {
+      "workId": "jorn-dead-drunk-danes",
+      "status": "reused",
+      "priorRunId": "20260802T025531Z-p2.13.43"
+    },
+    {
+      "workId": "jorn-both-worlds",
+      "status": "reused",
+      "priorRunId": "20260802T025531Z-p2.13.43"
+    },
+    {
+      "workId": "jorn-nocturne-iii",
+      "status": "not_found"
+    },
+    {
+      "workId": "jorn-titania-ii",
+      "status": "reused",
+      "priorRunId": "20260802T025531Z-p2.13.43"
+    },
+    {
+      "workId": "jorn-die-gedanken-sind-frei",
+      "status": "not_found"
+    },
+    {
+      "workId": "kusama-gleaming-lights-of-the-souls",
+      "status": "reused",
+      "priorRunId": "20260802T025531Z-p2.13.43"
+    },
+    {
+      "workId": "hockney-a-closer-grand-canyon",
+      "status": "reused",
+      "priorRunId": "20260802T025531Z-p2.13.43"
+    },
+    {
+      "workId": "majerus-weisses-bild",
+      "status": "not_found"
+    },
+    {
+      "workId": "pollock-black-over-yellow",
+      "status": "reused",
+      "priorRunId": "20260802T025531Z-p2.13.43"
+    },
+    {
+      "workId": "bacon-three-studies-george-dyer",
+      "status": "reused",
+      "priorRunId": "20260802T025531Z-p2.13.43"
+    },
+    {
+      "workId": "polke-sieht-man-ja-was-es-ist",
+      "status": "not_found"
+    },
+    {
+      "workId": "warhol-flowers-1970",
+      "status": "not_found"
+    },
+    {
+      "workId": "warhol-close-cover-before-striking",
+      "status": "reused",
+      "priorRunId": "20260802T025531Z-p2.13.43"
+    },
+    {
+      "workId": "feldmann-100-years",
+      "status": "not_found"
+    },
+    {
+      "workId": "kentridge-black-box-chambre-noire",
+      "status": "not_found"
+    },
+    {
+      "workId": "rist-im-not-the-girl-who-misses-much",
+      "status": "reused",
+      "priorRunId": "20260802T025531Z-p2.13.43"
+    },
+    {
+      "workId": "abramovic-ulay-light-dark",
+      "status": "not_found"
+    },
+    {
+      "workId": "superflex-flooded-mcdonalds",
+      "status": "not_found"
+    },
+    {
+      "workId": "fischli-weiss-der-lauf-der-dinge",
+      "status": "reused",
+      "priorRunId": "20260802T025531Z-p2.13.43"
+    },
+    {
+      "workId": "hill-viewer",
+      "status": "not_found"
+    },
+    {
+      "workId": "arbus-albino-sword-swallower",
+      "status": "not_found"
+    },
+    {
+      "workId": "ruscha-figure-it-on-out",
+      "status": "not_found"
+    },
+    {
+      "workId": "goldin-memory-lost",
+      "status": "rejected",
+      "priorRunId": "20260802T025531Z-p2.13.43"
+    },
+    {
+      "workId": "dumas-mourning-marsyas",
+      "status": "not_found"
+    },
+    {
+      "workId": "hughes-collide",
+      "status": "not_found"
+    },
+    {
+      "workId": "schutz-the-public-process",
+      "status": "not_found"
+    },
+    {
+      "workId": "ulay-she",
+      "status": "not_found"
+    },
+    {
+      "workId": "dijkstra-ruth-drawing-picasso",
+      "status": "not_found"
+    }
+  ]
+}

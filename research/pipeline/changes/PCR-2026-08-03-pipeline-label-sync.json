@@ -1,0 +1,28 @@
+{
+  "id": "PCR-2026-08-03-pipeline-label-sync",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-03",
+  "ownerInstruction": "授权修复图片解析器的 Commons 主图排序 bug，并冻结新版本后继续。",
+  "baseRelease": "research/pipeline/releases/v2.13.58.json",
+  "targetVersion": "2.13.59",
+  "implementationStatus": "completed",
+  "scope": [
+    "synchronize the canonical pipeline document label and change log with the frozen image retry fix"
+  ],
+  "outOfScope": [
+    "changing executable behavior beyond the already frozen 2.13.58 fix",
+    "mutating frozen releases"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/freeze-pipeline-release.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs"
+    ]
+  }
+}

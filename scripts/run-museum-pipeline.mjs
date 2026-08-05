@@ -12,9 +12,10 @@ import {adaptOneShotWork} from "./adapt-one-shot-work.mjs";
 import {validateCandidatePool} from "./lib/candidate-pool-contract.mjs";
 import {assertVerifiedImageEvidence} from "./lib/verified-image-evidence-contract.mjs";
 import {checkPipelineReadiness} from "./check-pipeline-readiness.mjs";
+import {reusePriorSingleWorks} from "./reuse-prior-single-work.mjs";
 
-const stages = ["museum_scope","museum_discovery","planning_research","museum_selection","rating","museum_structure","image_evidence","locked_metadata","single_work","publication_plan","assembly_publish_dry_run","generation_report"];
-const allowedArgs = new Set(["project-root","kind","museum","case","run-id","museum-name","city","country","official-collection-url","continue-from","until","only-work","retry-failed","dry-run","mock"]);
+const stages = ["museum_scope","museum_understanding","museum_discovery","planning_research","museum_selection","rating","museum_structure","image_evidence","locked_metadata","single_work","publication_plan","assembly_publish_dry_run","generation_report"];
+const allowedArgs = new Set(["project-root","kind","museum","case","run-id","museum-name","city","country","official-collection-url","continue-from","until","only-work","retry-failed","reuse-prior-work","dry-run","mock"]);
 const parseArgs = argv => {
   const values = {};
   for (const arg of argv) {
@@ -163,11 +164,18 @@ export async function runMuseumPipeline(argv = process.argv.slice(2)) {
           inputs:[{path:instruction,role:"content_instruction"},{path:requestPath,role:"museum_request"},{path:prompt("museum-scope.md"),role:"stage_prompt"}],
           outputs:["scope.json"],mock});
       }));
+    } else if (stage === "museum_understanding") {
+      results.push(await executeStage(stage, path.join(runRoot,"understanding","museum-understanding.md"), async () => {
+        await writeHeader({projectRoot,runRoot,descriptor,manifest,directory:path.join(runRoot,"understanding"),stage:"museum_understanding",
+          model:manifest.modelRouting.museum_understanding.model,effort:manifest.modelRouting.museum_understanding.reasoningEffort,
+          inputs:[{path:instruction,role:"content_instruction"},{path:path.join(runRoot,"scope","scope.json"),role:"museum_scope"},{path:prompt("museum-understanding.md"),role:"stage_prompt"}],
+          outputs:["museum-understanding.md"],mock});
+      }));
     } else if (stage === "museum_discovery") {
       results.push(await executeStage(stage, path.join(runRoot,"candidate-pool","candidate-pool.json"), async () => {
         await writeHeader({projectRoot,runRoot,descriptor,manifest,directory:path.join(runRoot,"candidate-pool"),stage:"museum_candidate_pool",
           model:manifest.modelRouting.museum_candidate_pool.model,effort:manifest.modelRouting.museum_candidate_pool.reasoningEffort,
-          inputs:[{path:instruction,role:"content_instruction"},{path:path.join(runRoot,"scope","scope.json"),role:"museum_scope"},{path:prompt("museum-discovery.md"),role:"stage_prompt"}],
+          inputs:[{path:instruction,role:"content_instruction"},{path:path.join(runRoot,"scope","scope.json"),role:"museum_scope"},{path:path.join(runRoot,"understanding","museum-understanding.md"),role:"museum_understanding"},{path:prompt("museum-discovery.md"),role:"stage_prompt"}],
           outputs:["candidate-pool.json"],mock});
         const discovered=JSON.parse(await fs.readFile(path.join(runRoot,"candidate-pool","candidate-pool.json"),"utf8"));
         validateCandidatePool(discovered);
@@ -225,7 +233,7 @@ export async function runMuseumPipeline(argv = process.argv.slice(2)) {
         const evidenceInputs=planningIndex.batches.map(item=>({path:path.resolve(projectRoot,item.path),role:item.kind==="deep"?"deep_research_dossier":"compact_planning_evidence"}));
         await writeHeader({projectRoot,runRoot,descriptor,manifest,directory:path.join(runRoot,"selection"),stage:"museum_selection",
           model:manifest.modelRouting.museum_selection.model,effort:manifest.modelRouting.museum_selection.reasoningEffort,
-          inputs:[{path:instruction,role:"content_instruction"},{path:prompt("museum-selection.md"),role:"stage_prompt"},{path:path.join(runRoot,"candidate-pool","candidate-pool.json"),role:"candidate_pool"},{path:planningIndexPath,role:"planning_index"},...evidenceInputs],
+          inputs:[{path:instruction,role:"content_instruction"},{path:prompt("museum-selection.md"),role:"stage_prompt"},{path:path.join(runRoot,"scope","scope.json"),role:"museum_scope"},{path:path.join(runRoot,"understanding","museum-understanding.md"),role:"museum_understanding"},{path:path.join(runRoot,"candidate-pool","candidate-pool.json"),role:"candidate_pool"},{path:planningIndexPath,role:"planning_index"},...evidenceInputs],
           outputs:["selection.json","rating-input.json"],mock});
         const selected=JSON.parse(await fs.readFile(path.join(runRoot,"selection","selection.json"),"utf8"));
         for(const record of selected.selectedWorks??selected.works??[]) await writeWorkStatus(runRoot,record.workId??record.id,{status:"selected",lastStage:"museum_selection"});
@@ -243,6 +251,7 @@ export async function runMuseumPipeline(argv = process.argv.slice(2)) {
           model:manifest.modelRouting.museum_structure.model,effort:manifest.modelRouting.museum_structure.reasoningEffort,
           inputs:[{path:instruction,role:"content_instruction"},{path:prompt("museum-structure.md"),role:"stage_prompt"},
             {path:path.join(runRoot,"scope","scope.json"),role:"museum_scope"},
+            {path:path.join(runRoot,"understanding","museum-understanding.md"),role:"museum_understanding"},
             {path:path.join(runRoot,"candidate-pool","candidate-pool.json"),role:"candidate_pool"},
             {path:path.join(runRoot,"selection","selection.json"),role:"museum_selection"},
             {path:path.join(runRoot,"rating","rating-result.json"),role:"museum_rating"},...evidenceInputs],
@@ -253,7 +262,7 @@ export async function runMuseumPipeline(argv = process.argv.slice(2)) {
         if (!mock) {
           const resolver=manifest.canonicalImageEvidenceResolver;
           if (!resolver) throw new Error("manifest is missing canonicalImageEvidenceResolver");
-          await runCommand(process.execPath,[resolver,...identityArgs,"--allow-model",...(args["only-work"]?[`--only-work=${args["only-work"]}`]:[])],projectRoot);
+          await runCommand(process.execPath,[resolver,...identityArgs,"--allow-model",...(args["reuse-prior-work"]?["--reuse-prior-evidence"]:[]),...(args["only-work"]?[`--only-work=${args["only-work"]}`]:[])],projectRoot);
         }
         const evidence = JSON.parse(await fs.readFile(path.join(runRoot,"image-evidence","verified-image-evidence.json"),"utf8"));
         assertVerifiedImageEvidence(evidence);
@@ -266,6 +275,9 @@ export async function runMuseumPipeline(argv = process.argv.slice(2)) {
     } else if (stage === "single_work") {
       results.push(await executeStage(stage,path.join(runRoot,"reports","single-work-batch.json"),async()=>{
         const workIds=JSON.parse(await fs.readFile(path.join(runRoot,"reports","locked-metadata-report.json"),"utf8")).works.map(x=>x.workId);
+        if (!mock && args["reuse-prior-work"] && runKind === "production") {
+          await reusePriorSingleWorks({projectRoot,museum:museumId,runId:descriptor.runId});
+        }
         if (mock) {
           for (const workId of workIds) await acceptMockSingleWork({projectRoot,runRoot,descriptor,manifest,workId});
         } else {

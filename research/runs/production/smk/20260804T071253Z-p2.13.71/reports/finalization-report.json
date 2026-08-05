@@ -1,0 +1,37 @@
+{
+  "museumId": "smk",
+  "runId": "20260804T071253Z-p2.13.71",
+  "runKind": "production",
+  "completedAt": "2026-08-04T08:14:06.580Z",
+  "stages": [
+    {
+      "name": "assembly",
+      "seconds": 0.5
+    },
+    {
+      "name": "causality-prepublish",
+      "seconds": 0.398
+    },
+    {
+      "name": "future-contract",
+      "seconds": 0.061
+    },
+    {
+      "name": "verification",
+      "seconds": 20.111
+    },
+    {
+      "name": "publication",
+      "seconds": 0.4
+    },
+    {
+      "name": "causality-postpublish",
+      "seconds": 0.45
+    }
+  ],
+  "totalSeconds": 21.921,
+  "modelCalls": 0,
+  "modelTokens": 0,
+  "liveVerification": true,
+  "publicationMode": "publish"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "PCR-2026-08-04-smk-rating-publication-hash-sync",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-04",
+  "ownerInstruction": "用最新的pipeline，对作品重新评分，以及对馆级重新评分并更新文本和网页。每件作品的文本和图片不用更新了。你figure out一下还有什么需要更新。",
+  "baseRelease": "research/pipeline/releases/v2.13.71.json",
+  "targetVersion": "2.13.72",
+  "implementationStatus": "completed",
+  "scope": [
+    "freeze the post-publication museum page cache-key hash after the SMK rating release"
+  ],
+  "outOfScope": [
+    "changing ratings, work metadata, prose, images, selection, routes, or publication content",
+    "mutating the frozen 2.13.71 release"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "museum.html"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/freeze-pipeline-release.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs"
+    ]
+  }
+}

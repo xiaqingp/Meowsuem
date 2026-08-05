@@ -166,6 +166,9 @@ try {
 
     $model = New-ContractRun 'model-metrics'
     Write-AuthorHeader $model $researchHash
+    $jsonBetweenMarkerAndCount = "tokens used`r`n{`"schemaVersion`":2,`"works`":[]}`r`n1,234`r`n"
+    $tokenMatches = [Text.RegularExpressions.Regex]::Matches($jsonBetweenMarkerAndCount, '^tokens used\s*$[\s\S]*?^\s*([\d,]+)\s*$', [Text.RegularExpressions.RegexOptions]::IgnoreCase -bor [Text.RegularExpressions.RegexOptions]::Multiline)
+    if ($tokenMatches.Count -ne 1 -or $tokenMatches[0].Groups[1].Value -ne '1,234') { throw 'runner token parser rejected JSON before count' }
     $mockBin = Join-Path $testRoot 'mock-bin'
     [IO.Directory]::CreateDirectory($mockBin) | Out-Null
     Write-Utf8 (Join-Path $mockBin 'codex.cmd') "@echo off`r`necho generated>draft.md`r`necho tokens used`r`necho 1,234`r`nexit /b 0`r`n"

@@ -1,0 +1,40 @@
+{
+  "id": "PCR-2026-08-02-museum-understanding",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-02",
+  "ownerInstruction": "understanding, discovery, structure, 都用 sol medium；understanding 让 Sol 自由发挥，并作为 discovery、selection、structure 的共同指导。",
+  "baseRelease": "research/pipeline/releases/v2.13.43.json",
+  "targetVersion": "2.13.44",
+  "implementationStatus": "completed",
+  "scope": [
+    "add a free-form museum understanding stage after scope",
+    "pass the locked understanding artifact to discovery, selection and structure",
+    "route understanding, discovery and structure to Sol Medium",
+    "carry forward the already published Louisiana museum shell without editing it"
+  ],
+  "outOfScope": [
+    "prescribing a content schema for museum understanding",
+    "changing rating rules or single-work generation"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "research/pipeline/prompts/museum-understanding.md",
+    "research/pipeline/prompts/museum-discovery.md",
+    "research/pipeline/prompts/museum-selection.md",
+    "research/pipeline/prompts/museum-structure.md",
+    "scripts/create-generation-run.mjs",
+    "scripts/run-museum-pipeline.mjs",
+    "scripts/run-isolated-generation.ps1",
+    "museum.html"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/test-museum-pipeline-e2e.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=mock",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

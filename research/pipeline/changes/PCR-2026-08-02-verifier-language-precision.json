@@ -1,0 +1,32 @@
+{
+  "id": "PCR-2026-08-02-verifier-language-precision",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-02",
+  "ownerInstruction": "继续生成并发布 Louisiana；修复剩余正文的 verifier 语义误判。",
+  "baseRelease": "research/pipeline/releases/v2.13.53.json",
+  "targetVersion": "2.13.54",
+  "implementationStatus": "completed",
+  "scope": [
+    "recognize questions and explicit negation as conservative display-status language",
+    "exclude interpretive only-protagonist wording from high-risk uniqueness claims"
+  ],
+  "outOfScope": [
+    "weakening factual uniqueness checks",
+    "accepting unsupported current-display claims"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/verify-one-shot-work.mjs",
+    "scripts/test-one-shot-work.mjs"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/run-pipeline-tests.mjs",
+      "node scripts/freeze-pipeline-release.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs"
+    ]
+  }
+}

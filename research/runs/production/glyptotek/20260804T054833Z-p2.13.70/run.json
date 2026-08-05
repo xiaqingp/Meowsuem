@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "filesystemContractVersion": 1,
+  "runKind": "production",
+  "runId": "20260804T054833Z-p2.13.70",
+  "museumId": "glyptotek",
+  "milestone": "M31.2-rating-recalibration",
+  "pipelineVersion": "2.13.70",
+  "instructionVersion": "2.4.3",
+  "status": "published",
+  "createdAt": "2026-08-04T05:48:33.659Z",
+  "createdBy": "scripts/create-generation-run.mjs",
+  "layoutVersion": 1,
+  "immutable": true,
+  "contentContract": "one_shot_v1",
+  "allowLegacyAuthorBundles": false,
+  "legacyWorkIds": [],
+  "legacyImageResolutionAllowed": false,
+  "patchProvenance": {
+    "sourceRunId": "20260803T155036Z-p2.13.61",
+    "scope": "rating_only",
+    "workSelectionChanged": false,
+    "workProseChanged": false,
+    "workImagesChanged": false,
+    "modelCalls": 0
+  },
+  "updatedAt": "2026-08-04T06:59:18.373Z",
+  "publishedAt": "2026-08-04T06:59:18.373Z"
+}

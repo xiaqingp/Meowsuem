@@ -4,6 +4,7 @@ import os from "node:os";
 import {createRequire} from "node:module";
 import {spawnSync} from "node:child_process";
 import {assertPathInside, loadManifest, resolveCanonicalRun, projectRelative} from "./lib/filesystem-contract.mjs";
+import {workIdentityMatches} from "./lib/prior-work-identity.mjs";
 import {resolveBrowserExecutable} from "./lib/browser-executable.mjs";
 import {readModelJson} from "./lib/model-json.mjs";
 import {assertSafeRemoteUrl, fetchSafeImage} from "./image-providers/url-safety.mjs";
@@ -12,6 +13,7 @@ import {
   assertNoDuplicateObjectImages,
   imageDimensions,
   normalizeAiResult,
+  partitionImageBatchResults,
   sha256,
 } from "./lib/two-level-image-resolution.mjs";
 import {assertVerifiedImageEvidence} from "./lib/verified-image-evidence-contract.mjs";
@@ -56,8 +58,8 @@ const candidates = [...selectedIds].filter(workId => !onlyWork || workId === onl
       objectType: identity.objectType || item.objectType || "unknown",
       titleZh: identity.title?.zh || identity.titleZh || item.titleZh || "",
       titleEn: identity.title?.en || identity.titleEn || item.titleEn || "",
-      creator: identity.artistOrCulture || identity.creator || item.makerOrCulture || "",
-      artistOrCulture: identity.artistOrCulture || identity.creator || item.makerOrCulture || "",
+      creator: identity.artistOrCulture || identity.creator || identity.artistEn || identity.artistZh || identity.cultureEn || identity.cultureZh || item.makerOrCulture || "",
+      artistOrCulture: identity.artistOrCulture || identity.creator || identity.artistEn || identity.artistZh || identity.cultureEn || identity.cultureZh || item.makerOrCulture || "",
       displayDate: identity.displayDate || item.date || "",
       medium: identity.medium || item.medium || "",
       identityAnchor: item.identityAnchor || identity.identityAnchor || workId,
@@ -91,6 +93,64 @@ if (process.argv.includes("--fresh")) await fs.rm(evidenceRoot, {recursive: true
 await fs.mkdir(assetsRoot, {recursive: true});
 const ext = type => ({"image/jpeg":".jpg","image/png":".png","image/webp":".webp","image/gif":".gif","image/tiff":".tif"}[type] || ".img");
 const records = [];
+const modelBatchSize = 10;
+
+async function reusePriorEvidence() {
+  if (descriptor.runKind !== "production" || !process.argv.includes("--reuse-prior-evidence")) return [];
+  const museumRoot=path.dirname(runRoot);
+  const entries=await fs.readdir(museumRoot,{withFileTypes:true});
+  const prior=[];
+  for(const entry of entries.filter(item=>item.isDirectory()&&item.name!==descriptor.runId).sort((a,b)=>b.name.localeCompare(a.name))){
+    const priorRoot=path.join(museumRoot,entry.name);
+    const priorDescriptor=await readJson(path.join(priorRoot,"run.json")).catch(()=>null);
+    if(!priorDescriptor||!["accepted","published"].includes(priorDescriptor.status)) continue;
+    const evidence=await readJson(path.join(priorRoot,"image-evidence","verified-image-evidence.json")).catch(()=>null);
+    if(evidence?.museumId===museumId) prior.push({runId:entry.name,root:priorRoot,evidenceRoot:path.join(priorRoot,"image-evidence"),works:evidence.works??[]});
+  }
+  const attemptsRoot=path.join(runRoot,"attempts");
+  const attempts=await fs.readdir(attemptsRoot,{withFileTypes:true}).catch(()=>[]);
+  for(const entry of attempts.filter(item=>item.isDirectory()).sort((a,b)=>b.name.localeCompare(a.name))){
+    const attemptRoot=path.join(attemptsRoot,entry.name);
+    const evidence=await readJson(path.join(attemptRoot,"verified-image-evidence.json")).catch(()=>null);
+    if(evidence?.museumId===museumId) prior.push({runId:descriptor.runId,root:runRoot,evidenceRoot:attemptRoot,attempt:entry.name,works:evidence.works??[]});
+  }
+  const reused=[];
+  const used=new Set();
+  for(const candidate of candidates){
+    const matches=[];
+    for(const sourceRun of prior){
+      for(const work of sourceRun.works){
+        if(!["accepted","object_image_accepted","context_image_accepted"].includes(work.status)||!work.selected?.localPath) continue;
+        if(workIdentityMatches(candidate.identity,work.identity)) matches.push({sourceRun,work});
+      }
+      if(matches.length) break;
+    }
+    if(matches.length!==1) continue;
+    const {sourceRun,work}=matches[0];
+    const key=`${sourceRun.runId}:${work.workId}`;
+    if(used.has(key)) continue;
+    let source=path.resolve(projectRoot,work.selected.localPath);
+    if(!await fs.access(source).then(()=>true).catch(()=>false)) source=path.join(sourceRun.evidenceRoot,"assets",path.basename(work.selected.localPath));
+    await assertPathInside(sourceRun.root,source);
+    const bytes=await fs.readFile(source);
+    if(sha256(bytes)!==work.selected.sha256) continue;
+    const dimensions=imageDimensions(bytes,work.selected.contentType);
+    if(!dimensions||dimensions.width!==work.selected.width||dimensions.height!==work.selected.height) continue;
+    const destination=path.join(assetsRoot,`${candidate.workId}${ext(work.selected.contentType)}`);
+    await fs.copyFile(source,destination);
+    used.add(key);
+    reused.push({
+      ...work,workId:candidate.workId,identity:candidate.identity,
+      fastPath:{status:"prior_verified_evidence_reused",fastCandidate:null,excludedImageUrls:[]},
+      selected:{...work.selected,localPath:rel(destination),method:"prior_verified_evidence",provider:"prior_production_run",evidenceId:`img:${museumId}:${candidate.workId}:${work.selected.sha256.slice(0,12)}`},
+      aiRequired:false,reusedFromRunId:sourceRun.runId,reusedFromAttempt:sourceRun.attempt??null,reusedFromWorkId:work.workId,durationMs:0,
+    });
+  }
+  return reused;
+}
+
+records.push(...await reusePriorEvidence());
+const reusedIds=new Set(records.map(record=>record.workId));
 const browser = await chromium.launch({headless: true, executablePath: browserExecutable});
 
 async function inspectFast(candidate) {
@@ -217,7 +277,7 @@ async function saveRemoteImage(record, candidate, selected, method) {
 }
 
 try {
-  const queue = [...candidates];
+  const queue = candidates.filter(candidate=>!reusedIds.has(candidate.workId));
   const worker = async () => {
     while (queue.length) {
       const candidate = queue.shift();
@@ -254,10 +314,16 @@ if (unresolved.length) {
   await fs.mkdir(batchRoot, {recursive: true});
   const aiOutputs = [];
   const stageResults = [];
-  for (let offset = 0; offset < unresolved.length; offset += 10) {
-    const batchWorks = unresolved.slice(offset, offset + 10);
+  const pendingBatches = [];
+  for (let offset = 0; offset < unresolved.length; offset += modelBatchSize) {
+    pendingBatches.push({batchWorks: unresolved.slice(offset, offset + modelBatchSize), batchNumber: offset / modelBatchSize + 1, supplement: false});
+  }
+  let batchRuns = 0;
+  while (pendingBatches.length) {
+    const {batchWorks, batchNumber, supplement} = pendingBatches.shift();
+    batchRuns += 1;
     const batchKey = sha256(batchWorks.map(record => record.workId).join("\n")).slice(0, 12);
-    const batchDirectory = path.join(batchRoot, `batch-${String(offset / 10 + 1).padStart(2, "0")}-${batchKey}`);
+    const batchDirectory = path.join(batchRoot, `batch-${String(batchNumber).padStart(2, "0")}${supplement ? "-supplement" : ""}-${batchKey}`);
     await fs.mkdir(batchDirectory, {recursive: true});
     const packetPath = path.join(batchDirectory, "image-research-packet.json");
     const packet = {
@@ -293,29 +359,27 @@ if (unresolved.length) {
     await fs.writeFile(path.join(batchDirectory, "run-header.json"), `${JSON.stringify(header, null, 2)}\n`, "utf8");
     const modelOutputPath = path.join(batchDirectory, "image-decisions.json");
     const existingModelOutput = await readModelJson(modelOutputPath).catch(() => null);
-    const normalizeWorkId = value => String(value || "").toLowerCase().replace(/[^a-z0-9-]/g, "");
-    const expectedWorkIds = new Set(batchWorks.map(record => normalizeWorkId(record.workId)));
-    const reuseModelOutput = Boolean(existingModelOutput)
-      && !process.argv.includes("--rerun-model")
-      && existingModelOutput.works?.length === batchWorks.length
-      && existingModelOutput.works.every(item => {
-        const workId = normalizeWorkId(item.workId);
-        return !workId || expectedWorkIds.has(workId);
-      });
+    const expectedWorkIds = batchWorks.map(record => record.workId);
+    let reusablePartition = null;
+    try {
+      if (existingModelOutput) reusablePartition = partitionImageBatchResults(normalizeAiResult(existingModelOutput).works, expectedWorkIds);
+    } catch {}
+    const reuseModelOutput = Boolean(reusablePartition) && !process.argv.includes("--rerun-model");
     if (!reuseModelOutput) {
       const run = spawnSync("powershell.exe", ["-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-File", path.join(projectRoot, "scripts", "run-isolated-generation.ps1"), "-ProjectRoot", projectRoot, "-RunDirectory", batchDirectory], {cwd: projectRoot, encoding: "utf8", timeout: 20 * 60 * 1000});
       if (run.status !== 0) throw new Error(`two-level image research failed: ${run.stderr || run.stdout}`);
     }
     const aiOutput = normalizeAiResult(await readModelJson(modelOutputPath));
-    const normalizedWorks = aiOutput.works.map((item, index) => {
-      const workId = normalizeWorkId(item.workId);
-      return {...item, workId: workId || normalizeWorkId(batchWorks[index]?.workId)};
-    });
-    if (normalizedWorks.length !== batchWorks.length || new Set(normalizedWorks.map(item => item.workId)).size !== batchWorks.length || normalizedWorks.some(item => !expectedWorkIds.has(item.workId))) throw new Error("AI image research must return exactly one result per batch");
-    aiOutputs.push(...normalizedWorks);
+    const partition = partitionImageBatchResults(aiOutput.works, expectedWorkIds);
+    aiOutputs.push(...partition.works);
     const resultFile = path.join(batchDirectory, "image_disambiguation-result.json");
     const stageResult = await readJson(resultFile).catch(() => null);
     if (stageResult) stageResults.push(stageResult);
+    if (partition.missingWorkIds.length) {
+      if (supplement) throw new Error(`AI image research supplement still omitted: ${partition.missingWorkIds.join(", ")}`);
+      const missing = new Set(partition.missingWorkIds);
+      pendingBatches.push({batchWorks: batchWorks.filter(record => missing.has(String(record.workId || "").toLowerCase().replace(/[^a-z0-9-]/g, ""))), batchNumber, supplement: true});
+    }
   }
   for (const item of aiOutputs) {
     const workId = String(item.workId || "").toLowerCase().replace(/[^a-z0-9-]/g, "");
@@ -336,7 +400,7 @@ if (unresolved.length) {
     reasoningEffort: manifest.modelRouting.image_disambiguation.reasoningEffort,
     durationMs: stageResults.reduce((sum, result) => sum + (result.modelDurationMs || 0), 0) || null,
     tokens: stageResults.reduce((sum, result) => sum + (result.tokenUsage?.total || 0), 0) || null,
-    batches: Math.ceil(unresolved.length / 10),
+    batches: batchRuns,
   };
 }
 
@@ -405,6 +469,7 @@ const output = {
   resolver: {version: 3, mode: "four_tier", tiers: ["official_api_iiif", "luna_official_page_plan", "wikidata_commons", "luna_open_web"], fastPath: "official_structured_or_identity_bound_dom", modelPolicy: "unresolved_only", model: manifest.modelRouting.image_disambiguation.model, reasoningEffort: manifest.modelRouting.image_disambiguation.reasoningEffort},
   summary: {
     works: records.length,
+    priorEvidenceReused: records.filter(record => record.selected?.method === "prior_verified_evidence").length,
     fastPathAccepted: records.filter(record => record.selected?.method === "official_fast_path").length,
     aiResearchTriggered: unresolved.length,
     aiAccepted: records.filter(record => record.selected?.method === "ai_image_research").length,

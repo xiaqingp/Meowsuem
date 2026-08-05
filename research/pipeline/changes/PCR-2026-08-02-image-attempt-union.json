@@ -1,0 +1,31 @@
+{
+  "id": "PCR-2026-08-02-image-attempt-union",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-02",
+  "ownerInstruction": "继续复用已有 image evidence；图片重试不能丢掉同一 run 先前尝试中已经确认的图片。",
+  "baseRelease": "research/pipeline/releases/v2.13.47.json",
+  "targetVersion": "2.13.48",
+  "implementationStatus": "completed",
+  "scope": [
+    "reuse the verified union of prior published evidence and preserved current-run image attempts",
+    "resolve only works still missing after the union"
+  ],
+  "outOfScope": [
+    "cross-museum evidence reuse",
+    "accepting image bytes without hash and dimension validation"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/resolve-two-level-image-evidence.mjs"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/run-pipeline-tests.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

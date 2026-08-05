@@ -1,3 +1,4 @@
+import crypto from "node:crypto";
 import fs from "node:fs/promises";
 import path from "node:path";
 
@@ -84,7 +85,9 @@ export async function summarizeSingleWorkBatch(runRoot, metadata = {}) {
 const failureSignature = async (attemptRoot, result) => {
   const verification = await readJson(path.join(attemptRoot, "verification.json")).catch(() => null);
   const codes = [...new Set((verification?.errors ?? []).map(issue => issue.code).filter(Boolean))].sort();
-  return [result.failureCode, ...codes].filter(Boolean).join(":");
+  const lockedInput = await fs.readFile(path.join(attemptRoot, "input", "locked-metadata.json")).catch(() => null);
+  const inputHash = lockedInput ? crypto.createHash("sha256").update(lockedInput).digest("hex") : null;
+  return [result.failureCode, ...codes, inputHash].filter(Boolean).join(":");
 };
 
 export async function inspectSingleWorkRetryGuard(oneShotRoot, limits = {}) {
@@ -103,12 +106,16 @@ export async function inspectSingleWorkRetryGuard(oneShotRoot, limits = {}) {
   const maxAttempts = Number(limits.maxAttempts ?? 4);
   const tokenBudget = Number(limits.tokenBudget ?? 400000);
   const repeatedFailureLimit = Number(limits.repeatedFailureLimit ?? 2);
+  const currentInput = await fs.readFile(path.join(oneShotRoot, "input", "locked-metadata.json")).catch(() => null);
+  const currentInputHash = currentInput ? crypto.createHash("sha256").update(currentInput).digest("hex") : null;
   let reason = null;
   if (attempts.length >= maxAttempts) reason = `max attempts reached (${attempts.length}/${maxAttempts})`;
   else if (totalTokens >= tokenBudget) reason = `work token budget reached (${totalTokens}/${tokenBudget})`;
   else if (repeatedFailureLimit > 0 && attempts.length >= repeatedFailureLimit) {
     const recent = attempts.slice(-repeatedFailureLimit);
-    if (recent[0].signature && recent.every(item => item.signature === recent[0].signature)) {
+    if (recent[0].signature
+      && recent.every(item => item.signature === recent[0].signature)
+      && (!currentInputHash || recent[0].signature.endsWith(`:${currentInputHash}`))) {
       reason = `same failure repeated ${repeatedFailureLimit} times (${recent[0].signature})`;
     }
   }

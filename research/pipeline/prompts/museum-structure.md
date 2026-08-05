@@ -1,6 +1,6 @@
 # Museum Structure and Routes
 
-Using the frozen selection and rating, create chapters, order, routes, stay, priority and the museum narrative. Do not change the selected work list, significance, rare status or museum score. If the selection cannot form a coherent route, output structureConflict rather than replacing a work.
+Using the museum understanding plus the frozen selection and rating, create chapters, order, routes, stay, priority and the museum narrative. The understanding is required guidance rather than a frozen conclusion: deepen or revise its interpretation when the locked evidence supports that, but do not silently ignore it. Do not change the selected work list, significance, rare status or museum score. If the selection cannot form a coherent route, output structureConflict rather than replacing a work.
 
 Write only `structure.json` with `schemaVersion`, `museumId`, `museum`,
 `chapters`, `routes`, and `works`. Each work placement must contain `workId`,

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "filesystemContractVersion": 1,
+  "runKind": "production",
+  "runId": "20260804T071253Z-p2.13.71",
+  "museumId": "smk",
+  "milestone": "M31.3-rating-recalibration",
+  "pipelineVersion": "2.13.71",
+  "instructionVersion": "2.4.3",
+  "status": "published",
+  "createdAt": "2026-08-04T07:12:53.246Z",
+  "createdBy": "scripts/create-generation-run.mjs",
+  "layoutVersion": 1,
+  "immutable": true,
+  "contentContract": "one_shot_v1",
+  "allowLegacyAuthorBundles": false,
+  "legacyWorkIds": [],
+  "legacyImageResolutionAllowed": false,
+  "patchProvenance": {
+    "sourceRunId": "20260803T044953Z-p2.13.57",
+    "scope": "rating_only",
+    "workSelectionChanged": false,
+    "workProseChanged": false,
+    "workImagesChanged": false,
+    "adoptedWorkProseModelCalls": 0,
+    "discardedModelCalls": 2,
+    "discardedModelTokens": 249018
+  },
+  "updatedAt": "2026-08-04T08:14:06.580Z",
+  "publishedAt": "2026-08-04T08:14:06.580Z"
+}

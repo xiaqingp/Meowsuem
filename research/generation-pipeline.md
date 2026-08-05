@@ -1,7 +1,7 @@
 # Meowseum Generation Pipeline
 
 > Status: Canonical  
-> Pipeline: 2.13.43
+> Pipeline: 2.13.80
 > Filesystem contract: 1  
 > Content contract for new production runs: `one_shot_v1`
 
@@ -45,7 +45,9 @@ new run. A current canonical run declares:
 
 ```text
 Create Museum Run
-  -> Museum Scope and Discovery
+  -> Museum Scope
+  -> Museum Understanding
+  -> Museum Discovery
   -> Planning Research
   -> Museum Selection
   -> Rating Gate
@@ -68,8 +70,8 @@ The canonical orchestrator is:
 node scripts/run-museum-pipeline.mjs --museum=<museumId> --run-id=<runId>
 ```
 
-It supports `--until`, `--dry-run`, `--only-work`, `--retry-failed` and
-`--continue-from`. Unknown options are rejected. `--dry-run` is read-only and
+It supports `--until`, `--dry-run`, `--only-work`, `--retry-failed`,
+`--reuse-prior-work` and `--continue-from`. Unknown options are rejected. `--dry-run` is read-only and
 does not change run status or write an orchestrator result. It writes stage
 headers itself. It does not make editorial decisions, lower gates, switch
 models or silently fall back.
@@ -92,23 +94,43 @@ Run states are `created`, `running`, `blocked`, `verified`, `accepted`,
 `works/<workId>/status.json`; a failed work can be retried without rerunning
 accepted siblings.
 
+For an explicitly reuse-aware regeneration, `--reuse-prior-work` looks for the
+same work in earlier accepted or published runs of the same museum. Reuse is
+matched by stable work identity rather than mutable `workId` slugs. Verified
+image evidence is imported first when its bytes, SHA-256, dimensions and
+identity still match; the resolver runs only for new, unresolved or invalid
+images. Prior articles and sources are then checked by the current verifier
+against new locked metadata. Compatible works are reintegrated with current
+route/display metadata and consume zero new model tokens; missing or rejected
+candidates proceed through normal one-shot generation.
+
 ## 2. Model routing
 
 | Stage | Model | Effort | Network |
 | --- | --- | --- | --- |
-| Museum scope/discovery and candidate pool | Luna | high | yes |
+| Museum scope | Luna | high | yes |
+| Museum understanding | Sol | medium | yes |
+| Museum discovery and candidate pool | Sol | medium | yes |
 | Ordinary planning research | Luna | high | yes |
 | Deep research dossier | Sol | medium | yes |
 | Museum selection | Sol | medium | no, except an explicit research-gap loop |
 | Rating gate | code | — | no |
-| Museum structure and routes | Luna | high | no |
+| Museum structure and routes | Sol | medium | no |
 | Single-work search and writing | Luna | high | yes |
 | Image ambiguity decision | Luna | medium | only when deterministic signals remain ambiguous |
 | Metadata, verification, assembly, causality, reporting, publish | code | — | no |
 
-There is no automatic model fallback. Museum Selection remains Sol Medium.
+There is no automatic model fallback. Museum Understanding, Discovery,
+Selection and Structure use Sol Medium.
 
-## 3. Museum discovery and planning research
+## 3. Museum understanding, discovery and planning research
+
+After scope, Sol Medium produces `understanding/museum-understanding.md` as an
+open-ended, source-grounded understanding of the museum as a whole. The
+pipeline deliberately imposes no content schema or required headings. It is
+guidance rather than a frozen conclusion: Discovery, Selection and Structure
+must read it, may broaden, narrow or revise it when evidence warrants, and may
+not silently ignore it.
 
 Discovery produces a lightweight candidate pool. It locks identity anchors,
 official object URLs, accession numbers, collection groups, a short selection
@@ -127,12 +149,13 @@ Planning research is batched at no more than ten works:
   rating-critical objects, source conflicts, architecture/sites and complex
   groups produce `deep-research-dossier.json`.
 
-Compact evidence uses Luna High. Deep dossiers use Sol Medium. Neither is an
-input to single-work writing.
+Discovery uses Sol Medium. Compact evidence uses Luna High. Deep dossiers use
+Sol Medium. Neither planning output is an input to single-work writing.
 
-Selection consumes the candidate pool and the actual compact/deep evidence
-files, not merely an index. If evidence is insufficient it emits a research
-gap, the responsible research output is repaired, and Selection reruns.
+Selection consumes the museum understanding, candidate pool and the actual
+compact/deep evidence files, not merely an index. If evidence is insufficient
+it emits a research gap, the responsible research output is repaired, and
+Selection reruns.
 
 ## 4. Rating and structure
 
@@ -140,10 +163,11 @@ Museum Selection freezes the work list, importance, rare candidates and rating
 roles. `scripts/process-museum-rating.mjs` then applies the code-only rating
 gate using canonical run identity and records the selection input hash.
 
-Only after selection and rating are frozen does Luna High produce chapters,
-order, routes, stay and priority. Structure cannot change the selected works,
-importance, rare status or museum score. It emits `structureConflict` when the
-frozen selection cannot form a coherent route.
+Only after selection and rating are frozen does Sol Medium use the museum
+understanding and locked evidence to produce chapters, order, routes, stay and
+priority. Structure cannot change the selected works, importance, rare status
+or museum score. It emits `structureConflict` when the frozen selection cannot
+form a coherent route.
 
 ## 5. Verified images
 
@@ -178,11 +202,13 @@ not sent to Luna as a work image and cannot support visual analysis.
 
 When a provider returns an HTML source page instead of an image, the
 failed-image retry is isolated to `scripts/retry-failed-image-evidence.mjs`.
-After a retry chain reaches complete accepted evidence,
-`scripts/promote-image-retry-to-parent.mjs` verifies every parent evidence hash,
-asset hash and duplicate-image gate before atomically replacing the writable
-production evidence. It preserves the previous evidence file and never invokes
-a model.
+After each retry, `scripts/promote-image-retry-to-parent.mjs` verifies the
+parent evidence hash, asset hashes and duplicate-image gate, then merges the
+accepted results into the writable production evidence while preserving
+unresolved records. The production evidence is compacted back to a root, so
+the next retry starts from production instead of extending an experiment
+chain. Historical deep chains remain verifiable with cycle detection. The
+promotion preserves the previous evidence file and never invokes a model.
 It reuses the parent run's locked upstream artifacts and retries only failed
 image records. Playwright enumerates concrete image resources and uniquely
 identified page image elements; Luna Medium selects a `candidateId` and an
@@ -192,7 +218,9 @@ downloads the resource or calls the shared
 nearest visible image container, hides overlapping page controls, records
 `captureType=clipped_image_container` plus its bounding box, and never uses a
 full-page or raw-element screenshot. A source-page URL can never be accepted
-as an image URL. Accepted parent images are referenced by hash and are not
+as an image URL. On file-description pages, the explicitly marked current-file
+image outranks creator portraits, related files and interface images. Accepted
+parent images are referenced by hash and are not
 rerun; the retry never runs museum research, selection, structure, writing,
 assembly or publishing stages. Any capture without this evidence is rejected
 before locked metadata.
@@ -382,3 +410,93 @@ Pipeline 2.13 resolves images through one manifest-selected production entrypoin
   publication safeguards introduced in 2.13.41.
 - 2.13.43: separates current failure-code counts from accepted warning-code
   counts in cumulative single-work reports.
+- 2.13.44: adds a free-form, source-grounded Museum Understanding stage and
+  routes Understanding, Discovery and Structure through Sol Medium; Discovery,
+  Selection and Structure all receive the same locked understanding artifact.
+- 2.13.45: adds explicit `--reuse-prior-work` regeneration. Prior accepted work
+  prose is reused only after identity compatibility and current deterministic
+  verification; current display metadata is rebuilt and incompatible works are
+  generated normally.
+- 2.13.46: makes regeneration reuse identity-based rather than slug-based and
+  imports valid same-museum verified image evidence before resolution. Only new,
+  unresolved or invalid images reach the resolver; reused prose receives the
+  current work ID and title wrapper before deterministic verification.
+- 2.13.47: authorizes the canonical prior-work reuser as a non-authoring writer
+  of run-local outputs; the content gate continues to require current identity
+  checks and verification before reused prose is accepted.
+- 2.13.48: image reruns reuse the verified union of same-museum published
+  evidence and preserved attempts in the current writable run, so successful
+  images from an earlier attempt are not resolved again.
+- 2.13.49: same-museum unique titles survive official-page URL drift during
+  identity reuse; nonstandard `image/jpg` is normalized to JPEG, and unsupported
+  page-image MIME responses may fall back to verified element capture.
+- 2.13.50: failed-image retries may receive additional official source pages;
+  those pages only expand the candidate set and still pass through model
+  disambiguation, byte validation, dimension checks, and evidence hashing.
+- 2.13.51: page-image candidates bind to their nearest image container before
+  broad article text, preserving adjacent work captions for identity ranking.
+- 2.13.52: one-shot evidence treats museum subdomains as one institution and
+  requires separate material coverage only for specific constituent materials,
+  not generic work categories such as painting, sculpture, or video.
+- 2.13.53: corrects the subdomain regression fixture so it tests source-host
+  equivalence without intentionally drifting locked metadata.
+- 2.13.54: display-status questions and explicit non-display wording are
+  conservative, while interpretive phrases such as "only protagonist" are not
+  misclassified as high-risk uniqueness claims.
+- 2.13.55: museum identity and date remain institution-locked, while specific
+  material may be supported by museum, foundation, academic, or publication
+  sources; generic language examples are not misread as attributed quotations.
+- 2.13.56: structured source coverage treats `medium` as the schema-compatible
+  alias of `material` when validating specific material evidence.
+- 2.13.57: assembly replaces all prior quoted or unquoted registrations for the
+  same museum, deduplicates homepage location/order entries, and refreshes the
+  existing museum data-script cache key.
+- 2.13.58: file-description pages mark their current-file image as an explicit
+  record relation so creator portraits and related files cannot outrank it.
+- 2.13.59: synchronizes this canonical document with the frozen 2.13.58 image
+  retry fix after live readiness caught the stale header label.
+- 2.13.60: recognizes the current Commons file-page DOM where the main artwork
+  image itself carries `id="file"`.
+- 2.13.61: explicit current-file and official-record relations bypass generic
+  navigation-text penalties; unrelated images remain penalized.
+- 2.13.62: selection receives the locked museum scope so its 20/30/40/60 work
+  count matches the editorial capacity declared before discovery and research.
+- 2.13.63: image disambiguation batches at most eight works after two separate
+  ten-work Glyptotek attempts each omitted one required result.
+- 2.13.64: the isolated runner reads the next standalone numeric token-count
+  line even when Codex echoes a JSON final message between the marker and count.
+- 2.13.65: image-retry promotion follows the complete hash-verified parent chain
+  with cycle detection instead of rejecting valid chains deeper than 20 retries.
+- 2.13.66: work dates may be covered by an authoritative museum, academic,
+  foundation, or publication source while the official object page still locks identity.
+- 2.13.67: figurative object-language and evaluative “most daring” prose no longer
+  trigger direct-quote or superlative-fact failures; deterministic reverify can select a prior attempt.
+- 2.13.68: publication attribution prefers the stable image source page over an
+  expiring direct-download URL; the verified local image asset remains unchanged.
+- 2.13.69: incomplete image-disambiguation batches retain valid returned works
+  and call the model once only for missing IDs; retry promotion accepts partial
+  improvements and compacts production evidence back to a hash-verified root.
+- 2.13.72: freezes the post-publication SMK page cache-key hash after the
+  rating-only release; ratings, work metadata, prose, images and selection are unchanged.
+- 2.13.73: allows an explicitly named accepted image to re-enter the isolated
+  image retry when downstream research proves an identity mismatch; broad
+  accepted-image retries remain forbidden.
+- 2.13.74: lets a single-work image retry enumerate one explicit image URL and
+  its evidence page after a shared collection page misbinds adjacent records;
+  model selection and all byte, hash, duplicate and identity gates still run.
+- 2.13.75: targeted locked-metadata refreshes replace only the named work while
+  preserving the complete frozen work order and upstream-hash report required
+  by publication causality.
+- 2.13.76: repeated-failure retry signatures include the locked-input hash, so
+  a materially changed image-bound input gets a new attempt while maximum
+  attempts and cumulative token budgets remain enforced.
+- 2.13.77: the repeated-failure guard compares the current locked-input hash to
+  the recent failed attempts before blocking, allowing a changed input to
+  create its first new attempt.
+- 2.13.78: high-risk claim matching normalizes equivalent museum attribution,
+  and a negative display statement passes only when locked route metadata
+  explicitly confirms the work is currently not on view.
+- 2.13.79: candidate assembly preserves quoted JavaScript object keys when
+  replacing an existing museum record, so IDs containing hyphens remain valid.
+- 2.13.80: the canonical museum page registers the published Designmuseum
+  Danmark bundle and its current cache-busting version.

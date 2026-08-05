@@ -1,0 +1,37 @@
+{
+  "museumId": "louisiana",
+  "runId": "20260802T052456Z-p2.13.45",
+  "runKind": "production",
+  "completedAt": "2026-08-02T07:29:41.421Z",
+  "stages": [
+    {
+      "name": "assembly",
+      "seconds": 0.296
+    },
+    {
+      "name": "causality-prepublish",
+      "seconds": 0.249
+    },
+    {
+      "name": "future-contract",
+      "seconds": 0.068
+    },
+    {
+      "name": "verification",
+      "seconds": 27.746
+    },
+    {
+      "name": "publication",
+      "seconds": 0.238
+    },
+    {
+      "name": "causality-postpublish",
+      "seconds": 0.347
+    }
+  ],
+  "totalSeconds": 28.944,
+  "modelCalls": 0,
+  "modelTokens": 0,
+  "liveVerification": true,
+  "publicationMode": "publish"
+}

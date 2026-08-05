@@ -1,0 +1,33 @@
+{
+  "id": "PCR-2026-08-03-token-count-after-json",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-03",
+  "ownerInstruction": "用最新pipeline，重新生成并发布新嘉士伯美术馆。如果新选出来的作品和老作品重复，仅图片可以复用。",
+  "baseRelease": "research/pipeline/releases/v2.13.63.json",
+  "targetVersion": "2.13.64",
+  "implementationStatus": "completed",
+  "scope": [
+    "parse the standalone token-count line when Codex echoes a JSON final message after the tokens-used marker",
+    "continue the failed Glyptotek image retry without changing its locked candidate packet"
+  ],
+  "outOfScope": [
+    "changing model output or image acceptance",
+    "guessing token usage from JSON numbers",
+    "mutating frozen releases"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/run-isolated-generation.ps1"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/test-run-isolated-generation.ps1",
+      "node scripts/run-pipeline-tests.mjs",
+      "node scripts/freeze-pipeline-release.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs"
+    ]
+  }
+}

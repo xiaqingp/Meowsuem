@@ -11,6 +11,7 @@ const schemaRoot = path.join(path.dirname(fileURLToPath(import.meta.url)), "sche
 const forbiddenArtifact = /(?:research[-_ ]?card|writing[-_ ]?plan|claim[-_ ]?ledger|story[-_ ]?beats|reviewer[-_ ]?output)/i;
 const forbiddenInput = /(?:research[-_ ]?card|writing[-_ ]?plan|old[-_ ]?(?:card|draft|article)|claim[-_ ]?ledger|story[-_ ]?beats|valueType|mustNotAssume|reviewer[-_ ]?output)/i;
 const allowedSourceTypes = new Set(["museum", "academic", "foundation", "publication", "media", "other"]);
+const authoritativeFactSourceTypes = new Set(["museum", "academic", "foundation", "publication"]);
 const sha256 = value => crypto.createHash("sha256").update(value).digest("hex");
 
 export const articleTitleCandidates = locked => [
@@ -19,8 +20,14 @@ export const articleTitleCandidates = locked => [
 ];
 const exists = target => fs.access(target).then(() => true).catch(() => false);
 const officialHostKey = value => new URL(value).hostname.toLowerCase().replace(/^www\./, "");
+const sameInstitutionHost = (left, right) => left === right || left.endsWith(`.${right}`) || right.endsWith(`.${left}`);
+const requiresSpecificMaterialEvidence = medium => /(?:花岗岩|大理石|青铜|铜|钢|铁|铝|木|纸|布|帆布|油彩|油画|丙烯|石膏|玻璃|塑料|树脂|陶|瓷|铅|墨|炭笔|水彩|蛋彩|银盐|c-?print)/i.test(String(medium || ""));
 
 const issue = (code, message, matches = [], severity = "error") => ({code, message, matches, severity});
+const sourceCovers = (source, use) => {
+  const uses = new Set(source.usedFor ?? []);
+  return uses.has(use) || (use === "material" && uses.has("medium"));
+};
 
 async function walk(directory) {
   const files = [];
@@ -164,7 +171,10 @@ function sourceReferencesValid(record, sourceIds, sourceUrls) {
 function collectDirectQuotes(article) {
   return [...article.matchAll(/([\p{L}·]{1,30})(?:说|写道|回忆|称|表示)[，,:：]?\s*[“"]([^”"\n]{2,})[”"]/gu)]
     .filter(match => !/(?:没有|并未|未曾|不是)\s*(?:说|写道|回忆|称|表示)/.test(match[0]))
-    .filter(match => !/^(?:而|而是|却|只是)$/.test(match[1]))
+    .filter(match => !/只称/.test(match[0]))
+    .filter(match => !/^(?:而|而是|却|只|只是)$/.test(match[1]))
+    .filter(match => !/(?:画面|题名|标题|作品|图像|构图|颜色|线条|姿态|表情|像是|仿佛|似乎)(?:在)?(?:说|称|表示)/.test(match[0]))
+    .filter(match => !/(?:通常|一般)?(?:英语|中文|人们)?会$/.test(match[1]))
     .map(match => ({full: match[0], speaker: match[1], quote: match[2]}));
 }
 
@@ -172,10 +182,10 @@ function collectStrongClaims(article) {
   return article
     .split(/[。！？\n]/)
     .map(text => text.trim())
-    .filter(text => /(?:第一(?:件|张|幅|座|个|位)|唯一|最早|最大|首次|开创了|奠定了)/.test(text))
+    .filter(text => /(?:第一(?:件|张|幅|座|个|位)|唯一|最早|最大(?!胆)|首次|开创了|奠定了)/.test(text))
     .filter(text => /(?:这是|是|成为|被视为|堪称|全球|世界|现存|他|她|该作|本作|作品|画)/.test(text))
     .filter(text => !/(?:不(?:是|等于|应|能|可|必)|不能|并非|没有证据(?:证明|表明)?|尚无证据|无法证明|未必|不可称为|不应理解为)[^。！？\n]{0,30}(?:第一|唯一|最早|最大|首次|开创|奠定)/.test(text))
-    .filter(text => !/唯一(?:答案|解释|读法|看法|含义|意义)/.test(text));
+    .filter(text => !/唯一(?:答案|解释|读法|看法|含义|意义|主角|焦点|中心)/.test(text));
 }
 
 function collectArtistIntent(article) {
@@ -185,12 +195,17 @@ function collectArtistIntent(article) {
 }
 
 function matchingRiskRecord(records, match, types, sourceIds, sourceUrls) {
+  const normalizeClaim = value => String(value ?? "")
+    .replace(/[。！？，、；：\s]/g, "")
+    .replace(/^(?:DesignmuseumDanmark)?(?:官方)?(?:页面)?(?:介绍|讲述)?(?:称)?/, "")
+    .replace(/^馆方(?:页面)?(?:介绍|讲述|称)?/, "")
+    .replace(/该馆/g, "博物馆");
   return records.some(record => {
     if (!types.includes(record.type)) return false;
     const claim = String(record.claim ?? "").trim();
     if (!claim) return false;
-    const normalizedMatch = match.replace(/[。！？\s]/g, "");
-    const normalizedClaim = claim.replace(/[。！？\s]/g, "");
+    const normalizedMatch = normalizeClaim(match);
+    const normalizedClaim = normalizeClaim(claim);
     return (normalizedMatch.includes(normalizedClaim) || normalizedClaim.includes(normalizedMatch))
       && sourceReferencesValid(record, sourceIds, sourceUrls);
   });
@@ -277,30 +292,34 @@ export async function verifyOneShotWork({
     try { sourceUrls.add(normalizeUrl(source.url)); } catch { addError("INVALID_SOURCE_URL", `Source ${index + 1} has invalid URL`, [source.url]); }
     if (!allowedSourceTypes.has(source.sourceType)) addError("INVALID_SOURCE_TYPE", `Source ${index + 1} has invalid sourceType`, [source.sourceType]);
   }
+  const officialHost = (() => {
+    try { return officialHostKey(locked.officialObjectUrl); } catch { return ""; }
+  })();
+  const officialInstitutionSources = sourceRecords.filter(source => {
+    if (source.sourceType !== "museum") return false;
+    try { return sameInstitutionHost(officialHostKey(source.url), officialHost); } catch { return false; }
+  });
   let official;
   try {
     const officialUrl = normalizeUrl(locked.officialObjectUrl);
     official = sourceRecords.find(source => {
       try { return source.sourceType === "museum" && normalizeUrl(source.url) === officialUrl; } catch { return false; }
-    });
+    }) ?? officialInstitutionSources.find(source => new Set(source.usedFor ?? []).has("identity"));
   } catch {
     official = null;
   }
   if (!official) addError("MISSING_OFFICIAL_OBJECT_SOURCE", "Official object source is missing");
-  const officialHost = (() => {
-    try { return officialHostKey(locked.officialObjectUrl); } catch { return ""; }
-  })();
-  const officialMuseumSources = sourceRecords.filter(source => {
-    if (source.sourceType !== "museum") return false;
-    try { return officialHostKey(source.url) === officialHost; } catch { return false; }
-  });
   if (!new Set(official?.usedFor ?? []).has("identity")) {
     addError("OFFICIAL_SOURCE_COVERAGE", "Official object source does not cover identity", ["identity"]);
   }
-  for (const use of ["date", "material"]) {
-    if (!officialMuseumSources.some(source => new Set(source.usedFor ?? []).has(use))) {
-      addError("OFFICIAL_SOURCE_COVERAGE", `Official museum sources do not cover ${use}`, [use]);
-    }
+  if (!sourceRecords.some(source => authoritativeFactSourceTypes.has(source.sourceType)
+    && sourceCovers(source, "date"))) {
+    addError("AUTHORITATIVE_SOURCE_COVERAGE", "Authoritative sources do not cover date", ["date"]);
+  }
+  if (requiresSpecificMaterialEvidence(locked.medium)
+    && !sourceRecords.some(source => authoritativeFactSourceTypes.has(source.sourceType)
+      && sourceCovers(source, "material"))) {
+    addError("AUTHORITATIVE_SOURCE_COVERAGE", "Authoritative sources do not cover material", ["material"]);
   }
   if (sourceRecords.length < 2) addWarning("LOW_SOURCE_COUNT", "Only one source is recorded; this may be sufficient but deserves human attention");
 
@@ -352,8 +371,10 @@ export async function verifyOneShotWork({
   if (broadEvaluations.length) addWarning("BROAD_EVALUATION", "Broad evaluative wording is not a hard failure", [...new Set(broadEvaluations)]);
 
   const certaintyMatch = article.match(/(?:目前|当前|现正|正在)[^。！？\n]{0,28}(?:展出|在展|馆内看到)/)?.[0];
-  const certainty = Boolean(certaintyMatch);
-  const conservative = /(?:无法确认|不能确认|尚未确认|未明确|是否在展|参观前[^。！？\n]{0,12}(?:查询|核验|确认))/.test(article);
+  const upstreamConfirmsNotOnView = /(?:当前|目前)不在展/.test(String(locked.stay ?? ""));
+  const certainty = Boolean(certaintyMatch)
+    && !(/(?:不在展|未展出|没有展出|并未展出)/.test(certaintyMatch) && upstreamConfirmsNotOnView);
+  const conservative = /(?:无法确认|不能确认|尚未确认|未明确|是否[^。！？\n]{0,12}(?:展出|在展)|不宜[^。！？\n]{0,20}(?:说成|视为)[^。！？\n]{0,12}(?:展出|在展)|参观前[^。！？\n]{0,12}(?:查询|核验|确认))/.test(article);
   if (locked.availability !== "confirmed_on_view" && certainty && !conservative) {
     addError("UNSUPPORTED_DISPLAY_STATUS", "Current display status is stated as certain although metadata is not confirmed", [certaintyMatch]);
   } else if (locked.availability !== "confirmed_on_view" && /(?:可能|似乎|大概)[^。！？\n]{0,12}(?:展出|在展)/.test(article)) {

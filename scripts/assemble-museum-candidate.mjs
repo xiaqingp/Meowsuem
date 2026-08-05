@@ -251,7 +251,8 @@ await fs.writeFile(
 );
 
 const replaceObject = (source, key, value) => {
-  const start = source.indexOf(`  ${key}: {`);
+  const escapedKey = key.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const start = source.search(new RegExp(`^  (?:${escapedKey}|"${escapedKey}"): \\{`, "m"));
   if (start < 0) throw new Error(`missing object block: ${key}`);
   const brace = source.indexOf("{", start);
   let depth = 0;
@@ -267,10 +268,40 @@ const replaceObject = (source, key, value) => {
     else if (character === "{") depth += 1;
     else if (character === "}" && --depth === 0) {
       const formatted = JSON.stringify(value, null, 2).replace(/^/gm, "  ").trimStart();
-      return `${source.slice(0, start)}  ${key}: ${formatted}${source.slice(index + 1)}`;
+      return `${source.slice(0, start)}  ${JSON.stringify(key)}: ${formatted}${source.slice(index + 1)}`;
     }
   }
   throw new Error(`unterminated object block: ${key}`);
+};
+const removeDuplicateObjects = (source, key) => {
+  const escapedKey = key.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const starts = [...source.matchAll(new RegExp(`^  (?:${escapedKey}|"${escapedKey}"): \\{`, "gm"))]
+    .map(match => match.index);
+  for (let matchIndex = starts.length - 1; matchIndex >= 1; matchIndex -= 1) {
+    const start = starts[matchIndex];
+    const brace = source.indexOf("{", start);
+    let depth = 0;
+    let quote = "";
+    let escaped = false;
+    for (let index = brace; index < source.length; index += 1) {
+      const character = source[index];
+      if (quote) {
+        if (escaped) escaped = false;
+        else if (character === "\\") escaped = true;
+        else if (character === quote) quote = "";
+      } else if (character === '"' || character === "'" || character === "`") quote = character;
+      else if (character === "{") depth += 1;
+      else if (character === "}" && --depth === 0) {
+        let end = index + 1;
+        if (source[end] === ",") end += 1;
+        if (source.slice(end, end + 2) === "\r\n") end += 2;
+        else if (source[end] === "\n") end += 1;
+        source = `${source.slice(0, start)}${source.slice(end)}`;
+        break;
+      }
+    }
+  }
+  return source;
 };
 const insertObject = (source, container, key, value) => {
   const marker = `const ${container} = {`;
@@ -296,8 +327,13 @@ const insertObject = (source, container, key, value) => {
   }
   throw new Error(`unterminated object container: ${container}`);
 };
-const upsertObject = (source, container, key, value) =>
-  source.includes(`  ${key}: {`) ? replaceObject(source, key, value) : insertObject(source, container, key, value);
+const upsertObject = (source, container, key, value) => {
+  const escapedKey = key.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const pattern = new RegExp(`^  (?:${escapedKey}|"${escapedKey}"): \\{`, "m");
+  return pattern.test(source)
+    ? replaceObject(removeDuplicateObjects(source, key), key, value)
+    : insertObject(source, container, key, value);
+};
 
 const ratingsSource = await fs.readFile(path.join(projectRoot, "ratings.js"), "utf8");
 let nextRatings = upsertObject(ratingsSource, "museumRatings", input.museum.id, input.rating);
@@ -344,7 +380,8 @@ const publicationFiles = [
 ];
 if (isFutureMuseum) {
   const insertScript = html => {
-    if (new RegExp(`src=["']\\./${dataName}(?:\\?[^"']*)?["']`).test(html)) return html;
+    const existing = new RegExp(`(src=["']\\./${dataName})(?:\\?[^"']*)?(["'])`, "g");
+    if (existing.test(html)) return html.replace(existing, `$1?v=${input.publication.cacheKey}$2`);
     return html.replace(
       /(^\s*<script src=["']\.\/museums\.js[^>]*><\/script>)/m,
       `$1\n  <script src="./${dataName}?v=${input.publication.cacheKey}"></script>`
@@ -354,11 +391,20 @@ if (isFutureMuseum) {
   const [latitude, longitude] = input.integration.coordinates;
   indexHtml = indexHtml.replace(
     /(const museumLocations=\{)([^}]*)(\};)/,
-    (_, open, entries, close) => `${open}${entries}${entries.trim() ? "," : ""}${quotedMuseumId}:[${latitude},${longitude}]${close}`
+    (_, open, entries, close) => {
+      const escapedId = input.museum.id.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      const duplicate = new RegExp(`,?\\s*(?:${escapedId}|"${escapedId}"):\\[[^\\]]*\\]`, "g");
+      const remaining = entries.replace(duplicate, "").replace(/^\s*,|,\s*$/g, "");
+      return `${open}${remaining}${remaining.trim() ? "," : ""}${quotedMuseumId}:[${latitude},${longitude}]${close}`;
+    }
   );
   indexHtml = indexHtml.replace(
     /(const order=\[)([^\]]*)(\]\.sort)/,
-    (_, open, entries, close) => `${open}${entries}${entries.trim() ? "," : ""}"${input.museum.id}"${close}`
+    (_, open, entries, close) => {
+      const ids = JSON.parse(`[${entries}]`).filter(id => id !== input.museum.id);
+      ids.push(input.museum.id);
+      return `${open}${JSON.stringify(ids).slice(1, -1)}${close}`;
+    }
   );
   const museumHtml = insertScript(await fs.readFile(path.join(projectRoot, "museum.html"), "utf8"));
   await fs.writeFile(path.join(candidateRoot, "index.html"), indexHtml, "utf8");
@@ -369,7 +415,8 @@ if (isFutureMuseum) {
   );
 } else {
   const insertLegacyScript = html => {
-    if (new RegExp(`src=["']\\./${dataName}(?:\\?[^"']*)?["']`).test(html)) return html;
+    const existing = new RegExp(`(src=["']\\./${dataName})(?:\\?[^"']*)?(["'])`, "g");
+    if (existing.test(html)) return html.replace(existing, `$1?v=${input.publication.cacheKey}$2`);
     const beforeRoutes = html.replace(
       /(^\s*<script src=["']\.\/routes\.js[^>]*><\/script>)/m,
       `  <script src="./${dataName}?v=${input.publication.cacheKey}"></script>\n$1`

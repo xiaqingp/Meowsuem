@@ -62,7 +62,14 @@ export async function prepareOneShotWorkInputs({projectRoot, kind, museum, caseI
   }
   const ids = structuredOrder.filter(id => !onlyWork || id === onlyWork);
   if (!ids.length) throw new Error(onlyWork ? `selected work not found: ${onlyWork}` : "selection contains no works");
-  const outputs = [];
+  const reportPath = path.join(runRoot, "reports", "locked-metadata-report.json");
+  const previousReport = onlyWork
+    ? await readJson(reportPath).catch(error => error?.code === "ENOENT" ? null : Promise.reject(error))
+    : null;
+  if (previousReport && (previousReport.runId !== runId || previousReport.museumId !== targetMuseumId)) {
+    throw new Error("existing locked metadata report identity drift");
+  }
+  const outputsById = new Map((previousReport?.works ?? []).map(item => [item.workId, item]));
   for (const workId of ids) {
     assertSafeIdentifier(workId, "work id");
     const candidateRecord = candidates.get(workId);
@@ -134,7 +141,11 @@ export async function prepareOneShotWorkInputs({projectRoot, kind, museum, caseI
     await writeWorkStatus(runRoot, workId, {
       status: "locked_input_ready", lastStage: "locked_metadata", model: null, verification: null,
     });
-    outputs.push({workId, path: relative(projectRoot, path.join(inputRoot, "locked-metadata.json")), sha256: sha256(Buffer.from(`${JSON.stringify(locked, null, 2)}\n`))});
+    outputsById.set(workId, {workId, path: relative(projectRoot, path.join(inputRoot, "locked-metadata.json")), sha256: sha256(Buffer.from(`${JSON.stringify(locked, null, 2)}\n`))});
+  }
+  const outputs = structuredOrder.map(workId => outputsById.get(workId));
+  if (outputs.some(item => !item)) {
+    throw new Error("targeted locked metadata refresh requires an existing complete report");
   }
   const upstreamHashes = Object.fromEntries(await Promise.all(
     Object.entries(files).map(async ([name, file]) => [name, {
@@ -149,7 +160,7 @@ export async function prepareOneShotWorkInputs({projectRoot, kind, museum, caseI
     upstreamHashes,
     works: outputs,
   };
-  await atomicJson(path.join(runRoot, "reports", "locked-metadata-report.json"), result);
+  await atomicJson(reportPath, result);
   return result;
 }
 

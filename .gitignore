@@ -1,4 +1,17 @@
 /runner.log
+/research/runs/experiment/
+/research/runs/production/**/assembly/
+/research/runs/production/**/attempts/
+/research/runs/production/**/candidate/
+/research/runs/production/**/candidate-pool/
+/research/runs/production/**/image-evidence/
+/research/runs/production/**/rating/
+/research/runs/production/**/research/
+/research/runs/production/**/scope/
+/research/runs/production/**/selection/
+/research/runs/production/**/structure/
+/research/runs/production/**/understanding/
+/research/runs/production/**/works/
 /tmp/
 /.agents/
 node_modules/

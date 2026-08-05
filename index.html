@@ -37,9 +37,10 @@
   <script src="./ratings.js?v=20260726-p2.10.0-seattle"></script>
   <script src="./muxin.js?v=20260723-m28-4"></script>
   <script src="./museums.js?v=20260723-m28-4-muxin"></script>
+  <script src="./louisiana.js?v=louisiana-p2-13-56"></script>
   <script src="./rosenborg.js?v=rosenborg-p2-13-39"></script>
   <script src="./nationalmuseum.js?v=nationalmuseum-p2-13-26"></script>
-  <script src="./designmuseum-danmark.js?v=designmuseum-danmark-p2-11-6"></script>
+  <script src="./designmuseum-danmark.js?v=designmuseum-danmark-p2-13-79"></script>
   <script src="./louvre.js?v=20260719-muxin2"></script>
   <script src="./vienna.js?v=20260724-m28-8-vienna"></script>
   <script src="./enoura.js?v=20260720-m13"></script>
@@ -49,12 +50,13 @@
   <script src="./chichu.js?v=20260727-image-retry-2.11.5c"></script>
   <script src="./egyptian.js?v=20260721-m19"></script>
   <script src="./alhambra.js?v=20260721-m20"></script>
-  <script src="./smk.js?v=20260721-m23"></script>
+  <script src="./smk.js?v=smk-p2-13-71"></script>
   <script src="./frye.js?v=20260722-m27"></script>
   <script src="./seattle.js?v=20260726-p2.10.0-seattle"></script>
+  <script src="./glyptotek.js?v=glyptotek-p2-13-70"></script>
   <script>
-    const museumLocations={louvre:[48.8606,2.3376],met:[40.7794,-73.9632],seattle:[47.6073,-122.3381],frye:[47.6071,-122.3241],glyptotek:[55.6726,12.5724],smk:[55.6889,12.5783],muxin:[30.7527069,120.4835269],vienna:[48.2038,16.3618],enoura:[35.203,139.141],british:[51.5194,-0.127],anchorage:[61.2165,-149.8842],getty:[34.078,-118.4741],chichu:[34.4497583,133.9858028],egyptian:[30.0478,31.2336],alhambra:[37.1761,-3.5881],"designmuseum-danmark":[55.6865563,12.5928422],"nationalmuseum":[59.32848,18.07818],"rosenborg":[55.685661,12.577481]};
-    const order=["louvre","met","british","egyptian","vienna","alhambra","chichu","getty","glyptotek","smk","muxin","enoura","anchorage","seattle","frye","designmuseum-danmark","nationalmuseum","rosenborg"].sort((a,b)=>museumData[b].score-museumData[a].score);
+    const museumLocations={louvre:[48.8606,2.3376],met:[40.7794,-73.9632],seattle:[47.6073,-122.3381],frye:[47.6071,-122.3241],glyptotek:[55.6726,12.5724],smk:[55.6889,12.5783],muxin:[30.7527069,120.4835269],vienna:[48.2038,16.3618],enoura:[35.203,139.141],british:[51.5194,-0.127],anchorage:[61.2165,-149.8842],getty:[34.078,-118.4741],chichu:[34.4497583,133.9858028],egyptian:[30.0478,31.2336],alhambra:[37.1761,-3.5881],"nationalmuseum":[59.32848,18.07818],"rosenborg":[55.685661,12.577481],"louisiana":[55.969176,12.542302],"designmuseum-danmark":[55.686375,12.59335]};
+    const order=["louvre","met","british","egyptian","vienna","alhambra","chichu","getty","glyptotek","smk","muxin","enoura","anchorage","seattle","frye","nationalmuseum","rosenborg","louisiana","designmuseum-danmark"].sort((a,b)=>museumData[b].score-museumData[a].score);
     const map=L.map("map",{minZoom:2,maxZoom:17,worldCopyJump:true}).setView([28,0],2);
     L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
     order.forEach(id=>{const museum=museumData[id];const markerClass=museum.score>=90?"":museum.score>=80?" mid":" optional";const icon=L.divIcon({className:`score-marker${markerClass} ${id}`,html:String(museum.score),iconSize:[40,40]});L.marker(museumLocations[id],{icon,title:`${museum.zh} · ${museum.score}`}).addTo(map).bindPopup(`<div class="popup-city">${museum.city} · ${museum.score} 分</div><div class="popup-name">${museum.zh}</div><div class="popup-city">${museum.en}</div><a class="popup-link" href="./museum.html?id=${encodeURIComponent(id)}">进入博物馆 →</a>`)});

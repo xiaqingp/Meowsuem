@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260803T155036Z-p2.13.61",
+  "runKind": "production",
+  "museumId": "glyptotek",
+  "caseId": null,
+  "until": "planning_research",
+  "dryRun": false,
+  "results": [
+    {
+      "stage": "museum_scope",
+      "status": "reused_before_continuation"
+    },
+    {
+      "stage": "museum_understanding",
+      "status": "reused_before_continuation"
+    },
+    {
+      "stage": "museum_discovery",
+      "status": "reused_before_continuation"
+    },
+    {
+      "stage": "planning_research",
+      "status": "reused_before_continuation"
+    }
+  ]
+}

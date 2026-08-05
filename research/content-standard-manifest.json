@@ -25,6 +25,7 @@
   "canonicalFilesystemMigration": "scripts/migrate-filesystem-contract-v1.mjs",
   "canonicalOneShotRunner": "scripts/run-one-shot-work.mjs",
   "canonicalOneShotReverifier": "scripts/reverify-one-shot-work.mjs",
+  "canonicalPriorWorkReuser": "scripts/reuse-prior-single-work.mjs",
   "canonicalOneShotVerifier": "scripts/verify-one-shot-work.mjs",
   "canonicalOneShotAdapter": "scripts/adapt-one-shot-work.mjs",
   "canonicalMuseumOrchestrator": "scripts/run-museum-pipeline.mjs",
@@ -39,6 +40,7 @@
   "releaseAdditionalCanonicalFiles": [
     "scripts/lib/work-status.mjs",
     "research/pipeline/prompts/museum-scope.md",
+    "research/pipeline/prompts/museum-understanding.md",
     "research/pipeline/prompts/museum-discovery.md",
     "research/pipeline/prompts/planning-research.md",
     "research/pipeline/prompts/museum-selection.md",
@@ -58,6 +60,7 @@
     "scripts/lib/page-image-capture.mjs",
     "scripts/lib/browser-executable.mjs",
     "scripts/lib/model-json.mjs",
+    "scripts/lib/prior-work-identity.mjs",
     "scripts/lib/candidate-pool-contract.mjs",
     "scripts/lib/two-level-image-resolution.mjs",
     "scripts/lib/verified-image-evidence-contract.mjs",
@@ -76,10 +79,10 @@
     "museum-app.js",
     "museum.html"
   ],
-  "pipelineVersion": "2.13.43",
-  "currentVersion": "2.4.2",
-  "currentRelease": "research/pipeline/releases/v2.13.43.json",
-  "activePipelineChange": "research/pipeline/changes/PCR-2026-08-01-warning-report-separation.json",
+  "pipelineVersion": "2.13.80",
+  "currentVersion": "2.4.3",
+  "currentRelease": "research/pipeline/releases/v2.13.80.json",
+  "activePipelineChange": "research/pipeline/changes/PCR-2026-08-04-designmuseum-page-registration.json",
   "releaseStatus": "active",
   "activeMilestone": "M31",
   "filesystemContract": {
@@ -163,9 +166,13 @@
       "model": "gpt-5.6-luna",
       "reasoningEffort": "high"
     },
+    "museum_understanding": {
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "medium"
+    },
     "museum_candidate_pool": {
-      "model": "gpt-5.6-luna",
-      "reasoningEffort": "high"
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "medium"
     },
     "image_disambiguation": {
       "model": "gpt-5.6-luna",
@@ -186,8 +193,8 @@
       "reasoningEffort": "medium"
     },
     "museum_structure": {
-      "model": "gpt-5.6-luna",
-      "reasoningEffort": "high"
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "medium"
     },
     "single_work": {
       "model": "gpt-5.6-luna",
@@ -203,6 +210,14 @@
   },
   "stageInstructionViews": {
     "museum_scope": [
+      "0",
+      "1",
+      "2",
+      "4",
+      "12",
+      "13"
+    ],
+    "museum_understanding": [
       "0",
       "1",
       "2",
@@ -275,11 +290,24 @@
       "requiredRoles": [
         "content_instruction",
         "museum_scope",
+        "museum_understanding",
         "stage_prompt"
       ],
       "maxCandidateRatio": 1.5,
-      "model": "gpt-5.6-luna",
-      "reasoningEffort": "high"
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "medium"
+    },
+    "museumUnderstanding": {
+      "version": 1,
+      "requiredRoles": [
+        "content_instruction",
+        "museum_scope",
+        "stage_prompt"
+      ],
+      "output": "museum-understanding.md",
+      "format": "freeform_markdown",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "medium"
     },
     "planningResearch": {
       "version": 1,
@@ -427,7 +455,7 @@
     ],
     "museumSpecificBuilderAllowed": false
   },
-  "updatedAt": "2026-08-01",
+  "updatedAt": "2026-08-04",
   "globalMigration": {
     "targetVersion": "1.8.1",
     "status": "pending_all_published_museums_native_chinese_and_core_history_audit",
@@ -597,7 +625,7 @@
       "origin": "prose_first_then_m22_artifacts_backfilled_not_causal_pipeline_evidence",
       "targetVersion": "1.6.7",
       "ratingCalibration": "passed_2026-07-22_v1.6.7",
-      "status": "in_audit",
+      "status": "compliant",
       "declaredCapacity": 20,
       "scopeBoundary": "Frye Art Museum at 704 Terry Avenue only; temporary loans do not count toward the rating; founding and contemporary collection objects rotate",
       "structuralGate": "passed_2026-07-22_20_of_20",
@@ -775,18 +803,21 @@
     },
     "glyptotek": {
       "contentFile": "research/content/glyptotek.md",
-      "origin": "mixed_20_iterative_plus_10_generated_by_retired_script_requires_rewrite",
-      "targetVersion": "1.3.1",
-      "ratingCalibration": "passed_2026-07-20_v1.5.0",
-      "status": "pending_full_audit",
-      "declaredCapacity": 30,
-      "capacityCompatibilityAudit": "passed_2026-07-20_rebuilt_30",
-      "structuralGate": "passed_2026-07-20_30_of_30",
-      "humanVoiceAudit": "pending_after_partial_rewrite_works_21_to_30",
-      "factAndComparisonAudit": "pending_after_partial_rewrite_works_21_to_30",
-      "auditRecord": "research/evidence/audits/m11-five-museum-regeneration-v1.3.1.md",
-      "contentGate": "pending_rewrite_works_21_to_30",
-      "browserGate": "pending_after_rewrite"
+      "origin": "rating_only_patch_from_immutable_pipeline_2.13.61_publication",
+      "targetVersion": "2.13.70",
+      "ratingCalibration": "passed_2026-08-03_score_86_zero_rare_assets_three_peak_lines",
+      "status": "compliant",
+      "declaredCapacity": 40,
+      "scopeBoundary": "Ny Carlsberg Glyptotek in Copenhagen; permanent collection objects only",
+      "capacityCompatibilityAudit": "passed_2026-08-03_40_of_40",
+      "structuralGate": "passed_2026-08-03_40_of_40",
+      "voiceVarietyGate": "passed_2026-08-03",
+      "humanVoiceAudit": "pipeline_verified_2026-08-03",
+      "factAndComparisonAudit": "passed_2026-08-03_40_of_40",
+      "auditRecord": "research/evidence/audits/glyptotek-rating-calibration-v2.4.3.md",
+      "contentGate": "passed_2026-08-03_40_of_40",
+      "browserGate": "passed_2026-08-03_score_86_40_cards_40_images_16_feature_labels_zero_console_errors",
+      "generationReport": "research/runs/production/glyptotek/20260804T054833Z-p2.13.70/reports/finalization-report.json"
     },
     "vienna": {
       "contentFile": "research/content/vienna.md",
@@ -806,35 +837,37 @@
     },
     "smk": {
       "contentFile": "research/content/smk.md",
-      "origin": "m22_batched_research_single_work_authored_prose",
-      "targetVersion": "1.5.0",
-      "ratingCalibration": "passed_2026-07-21_v1.5.0",
+      "origin": "rating_only_patch_from_immutable_pipeline_2.13.61_publication",
+      "targetVersion": "2.13.71",
+      "ratingCalibration": "passed_2026-08-04_score_87_zero_rare_assets_two_peak_lines",
       "status": "in_audit",
-      "declaredCapacity": 30,
-      "scopeBoundary": "SMK Solvgade main museum only; SMK Thy and other sites are excluded; all 30 objects checked as on display through the official API on 2026-07-21",
-      "structuralGate": "passed_2026-07-21_30_of_30",
-      "voiceVarietyGate": "passed_2026-07-21_zero_duplicate_prose_and_formula_scan",
-      "humanVoiceAudit": "author_self_audit_completed_owner_review_pending",
-      "factAndComparisonAudit": "completed_with_official_smk_collection_pages_and_api_2026-07-21",
-      "contentGate": "passed_2026-07-21_30_of_30",
-      "browserGate": "passed_2026-07-21_30_cards_30_deep_links_30_images",
-      "auditRecord": "research/evidence/audits/smk-m23-build-v1.5.0.md"
+      "declaredCapacity": 40,
+      "scopeBoundary": "SMK Solvgade main museum only; SMK Thy, the Royal Cast Collection at Toldbodgade and temporary exhibitions are excluded",
+      "capacityCompatibilityAudit": "passed_2026-08-04_40_of_40_selection_order_unchanged",
+      "structuralGate": "passed_2026-08-04_40_of_40",
+      "voiceVarietyGate": "passed_2026-08-04_articles_sha256_unchanged",
+      "humanVoiceAudit": "pipeline_verified_2026-08-03_prose_unchanged_2026-08-04",
+      "factAndComparisonAudit": "passed_2026-08-04_two_collection_peak_lines",
+      "contentGate": "passed_2026-08-04_40_of_40",
+      "browserGate": "passed_2026-08-04_score_87_40_cards_40_images_25_important_15_feature_zero_console_errors",
+      "auditRecord": "research/evidence/audits/smk-rating-calibration-v2.4.3.md",
+      "generationReport": "research/runs/production/smk/20260804T071253Z-p2.13.71/reports/finalization-report.json"
     },
     "designmuseum-danmark": {
       "contentFile": "research/content/designmuseum-danmark.md",
-      "origin": "pipeline_2.11.6_warning_publication",
-      "targetVersion": "2.11.6-warning",
-      "ratingCalibration": "passed_2026-08-01_score_77_zero_rare_assets",
-      "status": "in_audit",
-      "declaredCapacity": 20,
+      "origin": "full_isolated_generation_under_pipeline_2.13.79",
+      "targetVersion": "2.13.79",
+      "ratingCalibration": "passed_2026-08-05_score_82_zero_rare_assets",
+      "status": "compliant",
+      "declaredCapacity": 30,
       "scopeBoundary": "Designmuseum Danmark in Copenhagen; selected collection and design-history objects only",
-      "structuralGate": "passed_2026-08-01_20_of_20",
-      "voiceVarietyGate": "warning_publication_13_works_require_followup_verification",
-      "humanVoiceAudit": "owner_authorized_warning_publication_2026-07-31",
-      "factAndComparisonAudit": "7_passed_13_published_with_visible_verifier_warnings",
-      "contentGate": "warning_2026-08-01_13_of_20_require_followup",
-      "browserGate": "warning_display_required_before_release",
-      "generationReport": "research/runs/production/designmuseum-danmark/20260801T015014Z-p2.11.6/reports/single-work-batch.json"
+      "structuralGate": "passed_2026-08-05_30_of_30",
+      "voiceVarietyGate": "passed_2026-08-05",
+      "humanVoiceAudit": "pipeline_verified_2026-08-05",
+      "factAndComparisonAudit": "passed_2026-08-05",
+      "contentGate": "passed_2026-08-05_30_of_30",
+      "browserGate": "passed_2026-08-05_30_deep_links_30_images_zero_console_errors",
+      "generationReport": "research/runs/production/designmuseum-danmark/20260805T033208Z-p2.13.72/reports/finalization-report.json"
     },
     "nationalmuseum": {
       "contentFile": "research/content/nationalmuseum.md",
@@ -867,6 +900,22 @@
       "contentGate": "warning_2026-08-01_3_of_20_require_followup",
       "browserGate": "passed_2026-08-01_20_deep_links_3_visible_warnings",
       "generationReport": "research/runs/production/rosenborg/20260801T223003Z-p2.13.34/reports/single-work-batch.json"
+    },
+    "louisiana": {
+      "contentFile": "research/content/louisiana.md",
+      "origin": "full_isolated_generation_under_pipeline_2.13.45",
+      "targetVersion": "2.13.45",
+      "ratingCalibration": "passed_2026-08-02_score_79_zero_rare_assets",
+      "status": "compliant",
+      "declaredCapacity": 40,
+      "scopeBoundary": "Louisiana Museum of Modern Art at its single Humlebaek campus, including the Sculpture Park; temporary exhibitions and non-collection facilities excluded",
+      "structuralGate": "passed_2026-08-02_40_of_40",
+      "voiceVarietyGate": "passed_2026-08-02",
+      "humanVoiceAudit": "pipeline_verified_2026-08-02",
+      "factAndComparisonAudit": "passed_2026-08-02",
+      "contentGate": "passed_2026-08-02_40_of_40",
+      "browserGate": "passed_2026-08-02_homepage_museum_page_40_deep_links",
+      "generationReport": "research/runs/production/louisiana/20260802T052456Z-p2.13.45/reports/finalization-report.json"
     },
     "muxin": {
       "contentFile": "research/content/muxin.md",

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260805T033208Z-p2.13.72",
+  "runKind": "production",
+  "museumId": "designmuseum-danmark",
+  "caseId": null,
+  "until": "image_evidence",
+  "dryRun": false,
+  "results": [
+    {
+      "stage": "museum_scope",
+      "status": "reused_before_continuation"
+    },
+    {
+      "stage": "museum_understanding",
+      "status": "reused_before_continuation"
+    },
+    {
+      "stage": "museum_discovery",
+      "status": "reused_before_continuation"
+    },
+    {
+      "stage": "planning_research",
+      "status": "reused_before_continuation"
+    },
+    {
+      "stage": "museum_selection",
+      "status": "reused_before_continuation"
+    },
+    {
+      "stage": "rating",
+      "status": "reused_before_continuation"
+    },
+    {
+      "stage": "museum_structure",
+      "status": "reused_before_continuation"
+    },
+    {
+      "stage": "image_evidence",
+      "status": "completed"
+    }
+  ]
+}

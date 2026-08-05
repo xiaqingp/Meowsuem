@@ -79,10 +79,10 @@ async function writeFixture(article, sources = baseSources, metadata = locked) {
 try {
   await fs.writeFile(path.join(root, "production.md"), "protected\n");
   const protectedSnapshot = await snapshotProtectedPaths(root, protectedPaths);
-  const verify = () => verifyOneShotWork({
+  const verify = (expectedMetadata = locked) => verifyOneShotWork({
     projectRoot: root,
     artifactRoot,
-    expectedMetadata: locked,
+    expectedMetadata,
     protectedPaths,
     protectedSnapshot,
     model: "gpt-5.6-luna",
@@ -98,7 +98,9 @@ try {
     "它没有说“柳树”，而说“柳树倒影”。",
     "这不是唯一答案。",
     "不能称为第一张滴画。",
-    "没有证据证明它是最早的。"
+    "没有证据证明它是最早的。",
+    "她没有让剑成为唯一主角。",
+    "通常英语会说“figure it out”。"
   ]) {
     await writeFixture(baseArticle(safe));
     const result = await verify();
@@ -138,14 +140,99 @@ try {
   await writeFixture(baseArticle("这是波洛克第一张滴画。波洛克说：“绘画有它自己的生命。”波洛克的明确意图是表现海洋。"), supported);
   assert.equal((await verify()).status, "passed");
 
+  await writeFixture(baseArticle("馆方介绍，博物馆在1926年使用这盏灯，成为丹麦第一座采用电气照明的博物馆。"), {
+    ...baseSources,
+    highRiskClaims: [{
+      claim: "Designmuseum Danmark介绍称，该馆在1926年使用这盏灯，成为丹麦第一座采用电气照明的博物馆。",
+      type: "first_or_earliest",
+      sourceIds: ["S1"],
+    }],
+  });
+  assert.equal((await verify()).status, "passed");
+
+  await writeFixture(baseArticle("普通说明。"), {
+    ...baseSources,
+    sources: [
+      {...baseSources.sources[0], usedFor: ["identity", "date"]},
+      {
+        id: "S2",
+        title: "Published catalogue",
+        publisher: "Example Publisher",
+        url: "https://publisher.example/catalogue",
+        sourceType: "publication",
+        usedFor: ["medium"]
+      }
+    ]
+  });
+  assert.equal((await verify()).status, "passed");
+
+  await writeFixture(baseArticle("普通说明。"), {
+    ...baseSources,
+    sources: [
+      {...baseSources.sources[0], usedFor: ["identity", "material"]},
+      {
+        id: "S2",
+        title: "Other museum object record",
+        publisher: "Other Museum",
+        url: "https://other.example/object/dated",
+        sourceType: "museum",
+        usedFor: ["date"]
+      }
+    ]
+  });
+  assert.equal((await verify()).status, "passed");
+
+  await writeFixture(baseArticle("普通说明。"), {
+    ...baseSources,
+    sources: [
+      {...baseSources.sources[0], usedFor: ["identity", "material"]},
+      {
+        id: "S2",
+        title: "Unverified date note",
+        publisher: "Unknown",
+        url: "https://other.example/date",
+        sourceType: "other",
+        usedFor: ["date"]
+      }
+    ]
+  });
+  assert.equal((await verify()).status, "failed");
+
   await writeFixture(baseArticle("有人称它“经典之作”，而它可能具有开创性。"));
   const warnings = await verify();
   assert.equal(warnings.status, "passed");
   assert.ok(warnings.warnings.length >= 1);
 
+  for (const figurative of [
+    "画面在说“这是我们的国家”。",
+    "像是在说“我代表一种理想”。",
+    "题名在说“大溪地”。",
+    "资料只称“公主”。",
+    "德加最大胆的动作，也许不是塑造少女，而是给雕塑穿上衣服。"
+  ]) {
+    await writeFixture(baseArticle(figurative));
+    assert.equal((await verify()).status, "passed", figurative);
+  }
+
   await writeFixture(baseArticle("普通说明。"), {
     ...baseSources,
     highRiskClaims: [{claim: "", type: "other", sourceIds: ["S1"]}],
+  });
+  assert.equal((await verify()).status, "failed");
+
+  await writeFixture(baseArticle("普通说明。"), {
+    ...baseSources,
+    sources: [
+      {...baseSources.sources[0], usedFor: ["identity", "date"]},
+      {
+        id: "S2",
+        title: "Unverified material note",
+        publisher: "Unknown",
+        url: "https://other.example/material",
+        sourceType: "other",
+        usedFor: ["material"]
+      }
+    ]
   });
   assert.equal((await verify()).status, "failed");
 
@@ -179,7 +266,20 @@ try {
       }
     ]
   });
-  assert.equal((await verify()).status, "failed");
+  assert.equal((await verify()).status, "passed");
+
+  await writeFixture(baseArticle("普通说明。"), {
+    ...baseSources,
+    sources: [{...baseSources.sources[0], url: "https://guide.example.org/object/1"}]
+  });
+  assert.equal((await verify()).status, "passed");
+
+  const genericLocked = {...locked, medium: "绘画"};
+  await writeFixture(baseArticle("普通说明。"), {
+    ...baseSources,
+    sources: [{...baseSources.sources[0], usedFor: ["identity", "date"]}]
+  }, genericLocked);
+  assert.equal((await verify(genericLocked)).status, "passed");
 
   await writeFixture(baseArticle("这是波洛克第一张滴画。"), {
     ...baseSources,
@@ -189,6 +289,19 @@ try {
 
   await writeFixture(baseArticle("这件作品目前正在馆内展出。"));
   assert.equal((await verify()).status, "failed");
+  await writeFixture(baseArticle("目前，这件灯具不在展。"));
+  assert.equal((await verify()).status, "failed");
+  const confirmedOffView = {...locked, availability: "collection_rotation", stay: "3分钟（当前不在展）"};
+  await writeFixture(baseArticle("目前，这件灯具不在展。"), baseSources, confirmedOffView);
+  assert.equal((await verify(confirmedOffView)).status, "passed");
+
+  for (const conservativeStatus of [
+    "目前是否仍在展厅展出，公开页面没有给出确定信息。",
+    "网页没有提供当前状态，因此不宜把它说成正在展出。"
+  ]) {
+    await writeFixture(baseArticle(conservativeStatus));
+    assert.equal((await verify()).status, "passed");
+  }
 
   await writeFixture(baseArticle("普通说明。"), baseSources, {...locked, workId: "drift"});
   assert.equal((await verify()).status, "failed");

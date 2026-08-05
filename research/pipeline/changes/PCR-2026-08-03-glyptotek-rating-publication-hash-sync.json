@@ -1,0 +1,29 @@
+{
+  "id": "PCR-2026-08-03-glyptotek-rating-publication-hash-sync",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-03",
+  "ownerInstruction": "可以，你更新一下pipeline，然后再现在新嘉士伯美术馆里，对作品重新评分，以及对馆级重新评分并更新文本。每件作品的文本和图片不用更新了。你figure out一下还有什么需要更新。",
+  "baseRelease": "research/pipeline/releases/v2.13.70.json",
+  "targetVersion": "2.13.71",
+  "implementationStatus": "completed",
+  "scope": [
+    "freeze the post-publication museum page cache-key hash after the Glyptotek rating release"
+  ],
+  "outOfScope": [
+    "changing ratings, work metadata, prose, images, selection, or publication content",
+    "mutating the frozen 2.13.70 release"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "museum.html"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/freeze-pipeline-release.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs"
+    ]
+  }
+}

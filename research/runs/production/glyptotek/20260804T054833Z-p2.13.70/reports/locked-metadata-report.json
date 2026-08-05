@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260803T155036Z-p2.13.61",
+  "museumId": "glyptotek",
+  "upstreamHashes": {
+    "candidates": {
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/candidate-pool/candidate-pool.json",
+      "sha256": "353a13f6d0f371561dfc82cfe2d4b98fdfd1252a49fd3133ac9468930e2e549a"
+    },
+    "selection": {
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/selection/selection.json",
+      "sha256": "4c3617adfef89b8b393c30bd7208c4f26f7ca123567e3832ea739f230b8672be"
+    },
+    "structure": {
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/structure/structure.json",
+      "sha256": "4f1f5e68d7381dbe52befaf8bed0595ba3b54e997321b33439ee9cae79647ec6"
+    },
+    "images": {
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/image-evidence/verified-image-evidence.json",
+      "sha256": "da6e3d02ec37db913af305c992ec358cfc5164f281512d7ec2f93ce47f69dd3e"
+    }
+  },
+  "works": [
+    {
+      "workId": "water-mother-kai-nielsen",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/water-mother-kai-nielsen/one-shot/input/locked-metadata.json",
+      "sha256": "6c92535d1ed6eb23aeee86463c34987f13f48d2a08528d8ab359bfcd42b27ffd"
+    },
+    {
+      "workId": "rayet-head-in-0418",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/rayet-head-in-0418/one-shot/input/locked-metadata.json",
+      "sha256": "9160667568b607d4220ad1e125fc869a591ee21a1c9a21e6347d5e5b2cd7c8d3"
+    },
+    {
+      "workId": "prehistoric-egyptian-hippopotamus",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/prehistoric-egyptian-hippopotamus/one-shot/input/locked-metadata.json",
+      "sha256": "8ae96f51089e707ef9da4b57e55c4be8a7ac72253a681a9b04363d7fbd0e1e4d"
+    },
+    {
+      "workId": "ramses-ii-ptah-colossal-dyad",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/ramses-ii-ptah-colossal-dyad/one-shot/input/locked-metadata.json",
+      "sha256": "eb525e80524e343ebfdc2393ea1110ee4381bac1175ba5c6cc907e266eee2742"
+    },
+    {
+      "workId": "amenemhat-iii-head-aein-0924",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/amenemhat-iii-head-aein-0924/one-shot/input/locked-metadata.json",
+      "sha256": "625fa3f605fabb5f43dc428c0cda2276d71de9533a97c5ab8b7efde8ce68d314"
+    },
+    {
+      "workId": "head-of-princess-aein-1663",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/head-of-princess-aein-1663/one-shot/input/locked-metadata.json",
+      "sha256": "840ed71a03e5f2b751b612491cb67adc6c8ff2845078f432ac578aea2a92d59a"
+    },
+    {
+      "workId": "treasury-master-gebu",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/treasury-master-gebu/one-shot/input/locked-metadata.json",
+      "sha256": "f691b813843902ac24be0ac4e0e5296e6280720937353ba1f7bf75286073a8de"
+    },
+    {
+      "workId": "anubis-jackal-headed-god",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/anubis-jackal-headed-god/one-shot/input/locked-metadata.json",
+      "sha256": "da26491542325cb6be7027e69157aea66877a63aca20aec34ecfe4678ede963e"
+    },
+    {
+      "workId": "gemni-e-hat-funerary-equipment",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/gemni-e-hat-funerary-equipment/one-shot/input/locked-metadata.json",
+      "sha256": "9dbe791faf58d6d4f4d42778db3d18137ed54778725f0aa32446098c7f5db6b0"
+    },
+    {
+      "workId": "demosthenes-in-2782",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/demosthenes-in-2782/one-shot/input/locked-metadata.json",
+      "sha256": "e46df93c221e0177f527a72f89bd23f0367083066c363da557ef6f8d821e0902"
+    },
+    {
+      "workId": "homer-in-2818",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/homer-in-2818/one-shot/input/locked-metadata.json",
+      "sha256": "f29a7832a44aafdadf90581224d305388ad5e77ab95603d0e5e4c0e4df83c812"
+    },
+    {
+      "workId": "portrait-pompey-great-official-highlight",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/portrait-pompey-great-official-highlight/one-shot/input/locked-metadata.json",
+      "sha256": "ebd38d18fdc0c5339edcfd45a3e735ff69b012849d6dddaa80af7a713e9ef37e"
+    },
+    {
+      "workId": "sciarra-amazon-in-1568",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/sciarra-amazon-in-1568/one-shot/input/locked-metadata.json",
+      "sha256": "b6634cb76bd596dd65e9b3ea751f503f1f24da86b64bedfdaaff381bdb9a297d"
+    },
+    {
+      "workId": "diana-of-nemi-in-1517",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/diana-of-nemi-in-1517/one-shot/input/locked-metadata.json",
+      "sha256": "5e472ea57f7130214249668e5bc26bd29ecfd0f7df95ca27130fe1128a83e6d0"
+    },
+    {
+      "workId": "casali-sarcophagus-in-0843",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/casali-sarcophagus-in-0843/one-shot/input/locked-metadata.json",
+      "sha256": "fca57062dcc6039d1571257f1f9aaa36828a4ad0cdf77ab7acc2e1b11e810eeb"
+    },
+    {
+      "workId": "beauty-of-palmyra-in-2795",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/beauty-of-palmyra-in-2795/one-shot/input/locked-metadata.json",
+      "sha256": "69c478c23faabcf1df17ec81529ee893ee12a04978b1321c3dbca06fb1775d47"
+    },
+    {
+      "workId": "palmyra-man-camel-official-media",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/palmyra-man-camel-official-media/one-shot/input/locked-metadata.json",
+      "sha256": "a6bb12916dbb68b3b85d6c016779fb19118dee8e1ac42e16c533dd5d0dcd1173"
+    },
+    {
+      "workId": "palmyra-boy-bird-official-media",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/palmyra-boy-bird-official-media/one-shot/input/locked-metadata.json",
+      "sha256": "6cbaca609b204084c04fcd81dbd933b78d8cc560dceb13c4b6526459d052bf9e"
+    },
+    {
+      "workId": "yarhai-servant-palmyra-official-media",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/yarhai-servant-palmyra-official-media/one-shot/input/locked-metadata.json",
+      "sha256": "178e003bac88a0c01573f16714782206c9b8540ea96ffdeac0f4a0ec02c00fa9"
+    },
+    {
+      "workId": "palmyra-sarcophagus-lid-couple-official-media",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/palmyra-sarcophagus-lid-couple-official-media/one-shot/input/locked-metadata.json",
+      "sha256": "4d46b15665c6f168b97cee03efefae395259c057e050e1e42fdc6c6ebae493e8"
+    },
+    {
+      "workId": "palmyra-altar-two-hands-official-media",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/palmyra-altar-two-hands-official-media/one-shot/input/locked-metadata.json",
+      "sha256": "ce7844d2e22a14d3e1941790d5156b100408880a717207817b9cf5b777202d7d"
+    },
+    {
+      "workId": "wrathful-achilles-bissen-min-0027",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/wrathful-achilles-bissen-min-0027/one-shot/input/locked-metadata.json",
+      "sha256": "b614ca9a8fc1d079383c42e891fa6123c719196d1c38e159311f812c8cfd200f"
+    },
+    {
+      "workId": "panther-hunter-jerichau-min-0367",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/panther-hunter-jerichau-min-0367/one-shot/input/locked-metadata.json",
+      "sha256": "c93525a4dffc85922826fea01399b00f1734fbdfb3253c637651d1da48f6a26b"
+    },
+    {
+      "workId": "burghers-of-calais-rodin-min-0608",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/burghers-of-calais-rodin-min-0608/one-shot/input/locked-metadata.json",
+      "sha256": "fbde0c0b6abf6a0746a58f17d4e441ebd57c90586f41fc8eab247844f33f771b"
+    },
+    {
+      "workId": "kiss-rodin-min-0609",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/kiss-rodin-min-0609/one-shot/input/locked-metadata.json",
+      "sha256": "29f54ef96d7622da21fb13d6e310a8f36cba847021e8eb43fcb14a7cfd6becda"
+    },
+    {
+      "workId": "little-dancer-degas-min-2651",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/little-dancer-degas-min-2651/one-shot/input/locked-metadata.json",
+      "sha256": "c65638cca649e83f825130d0fda2a5211141198e805334bf16fd43bb583f9b98"
+    },
+    {
+      "workId": "via-sacra-eckersberg-min-2611",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/via-sacra-eckersberg-min-2611/one-shot/input/locked-metadata.json",
+      "sha256": "b9d4160b6fa92d74d5bf426d5a6fad3b133193aed3ee69424c96c7177fe884d4"
+    },
+    {
+      "workId": "florentine-mirror-henriques",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/florentine-mirror-henriques/one-shot/input/locked-metadata.json",
+      "sha256": "c5ac6382abf741232f011783c93ec46abb78b48b1b463503ff0a4a45fdfd426b"
+    },
+    {
+      "workId": "mother-denmark-jerichau-baumann",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/mother-denmark-jerichau-baumann/one-shot/input/locked-metadata.json",
+      "sha256": "8abce641db6bbb416ef7947bcd657160ed9318219f36e5d5b5f7a42a34ecc4cc"
+    },
+    {
+      "workId": "autumn-morning-sortedam-koebke-min-1756",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/autumn-morning-sortedam-koebke-min-1756/one-shot/input/locked-metadata.json",
+      "sha256": "9813be4131d871b921f0962f1789f75038cd59d5456b2b67790d0b9e508babe9"
+    },
+    {
+      "workId": "smoking-party-bendz-min-1881",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/smoking-party-bendz-min-1881/one-shot/input/locked-metadata.json",
+      "sha256": "95a57112980cc486983e85db1a6dded1aaf0a2f13b90ab3e074d06ac7dcfce70"
+    },
+    {
+      "workId": "mont-blanc-rousseau-min-1783",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/mont-blanc-rousseau-min-1783/one-shot/input/locked-metadata.json",
+      "sha256": "f0bd2a829cc447a29ece10806ea8a826af5b5f444a2f087b7f5d13f62c27a0f1"
+    },
+    {
+      "workId": "absinthe-drinker-manet-min-1778",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/absinthe-drinker-manet-min-1778/one-shot/input/locked-metadata.json",
+      "sha256": "16d412611618f4c0ab668b9186cb4daa14922cbe2ea8a0a017406ad0c63041e1"
+    },
+    {
+      "workId": "flood-at-giverny-monet-min-3632",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/flood-at-giverny-monet-min-3632/one-shot/input/locked-metadata.json",
+      "sha256": "5d7082112a17b58aea4c259de28b2af0586d2ef5edb45cf1f477317be3ef97f7"
+    },
+    {
+      "workId": "landscape-saint-remy-van-gogh-smk-1840",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/landscape-saint-remy-van-gogh-smk-1840/one-shot/input/locked-metadata.json",
+      "sha256": "8b2ffec39d1c5dbc5b6f5038d1b7c753d30f45ebf8daa25fe87c27f0db337dbd"
+    },
+    {
+      "workId": "skaters-frederiksberg-gauguin-min-3213",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/skaters-frederiksberg-gauguin-min-3213/one-shot/input/locked-metadata.json",
+      "sha256": "94eaca637ace7f438909ec3810c5832a1a69855186d1924e5eb5d22d168e98e7"
+    },
+    {
+      "workId": "double-vase-breton-girl-gauguin-min-3548",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/double-vase-breton-girl-gauguin-min-3548/one-shot/input/locked-metadata.json",
+      "sha256": "84af5e98a1697290a0f1cbb3374d7a97f40ffa6fd333db799fdb5e76254280f1"
+    },
+    {
+      "workId": "breton-shepherdess-gauguin-min-1827",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/breton-shepherdess-gauguin-min-1827/one-shot/input/locked-metadata.json",
+      "sha256": "6f337b523da2960caf8d3b7731d54f3d3088602877aecbb4257e8a9aa4c451e4"
+    },
+    {
+      "workId": "tahitian-woman-flower-gauguin-min-1828",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/tahitian-woman-flower-gauguin-min-1828/one-shot/input/locked-metadata.json",
+      "sha256": "20d1744b6dd5543ede27b265cf2b217247ab25cd21ec01ab5991e05299a91102"
+    },
+    {
+      "workId": "amusement-evil-spirit-gauguin-min-1832",
+      "path": "research/runs/production/glyptotek/20260803T155036Z-p2.13.61/works/amusement-evil-spirit-gauguin-min-1832/one-shot/input/locked-metadata.json",
+      "sha256": "f89baf746432d3e9268452d4de852aa15b41d64dcf1589c8e6580f9808917cc5"
+    }
+  ]
+}

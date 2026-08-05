@@ -1,0 +1,35 @@
+{
+  "id": "PCR-2026-08-03-figurative-quote-detection",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-03",
+  "ownerInstruction": "用最新pipeline，重新生成并发布新嘉士伯美术馆。如果新选出来的作品和老作品重复，仅图片可以复用。",
+  "baseRelease": "research/pipeline/releases/v2.13.66.json",
+  "targetVersion": "2.13.67",
+  "implementationStatus": "completed",
+  "scope": [
+    "exclude figurative object-language from direct-person quotation detection",
+    "exclude evaluative most-daring phrasing from maximum-size factual claims",
+    "allow deterministic reverify to select an earlier preserved attempt"
+  ],
+  "outOfScope": [
+    "relaxing real person quotations or factual superlatives",
+    "editing generated article text",
+    "mutating frozen releases"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/verify-one-shot-work.mjs",
+    "scripts/reverify-one-shot-work.mjs"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/test-one-shot-work.mjs",
+      "node scripts/run-pipeline-tests.mjs",
+      "node scripts/freeze-pipeline-release.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs"
+    ]
+  }
+}

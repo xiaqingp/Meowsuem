@@ -1,0 +1,37 @@
+{
+  "id": "PCR-2026-08-02-prior-work-reuse",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-02",
+  "ownerInstruction": "重新生成路易斯安那博物馆；每件作品如果选到原来生成过的，就复用。",
+  "baseRelease": "research/pipeline/releases/v2.13.44.json",
+  "targetVersion": "2.13.45",
+  "implementationStatus": "completed",
+  "scope": [
+    "add explicit prior-work reuse for production regeneration",
+    "require locked identity compatibility and current verification",
+    "rebuild integration metadata from the current run",
+    "fall through to normal one-shot generation when reuse is unavailable or rejected"
+  ],
+  "outOfScope": [
+    "reusing museum-level understanding, selection or structure",
+    "modifying prior immutable runs",
+    "bypassing current verification"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/run-museum-pipeline.mjs",
+    "scripts/reuse-prior-single-work.mjs"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/test-reuse-prior-single-work.mjs",
+      "node scripts/test-museum-pipeline-e2e.mjs",
+      "node scripts/run-pipeline-tests.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

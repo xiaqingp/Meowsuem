@@ -1,0 +1,34 @@
+{
+  "id": "PCR-2026-08-03-authoritative-date-coverage",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-03",
+  "ownerInstruction": "用最新pipeline，重新生成并发布新嘉士伯美术馆。如果新选出来的作品和老作品重复，仅图片可以复用。",
+  "baseRelease": "research/pipeline/releases/v2.13.65.json",
+  "targetVersion": "2.13.66",
+  "implementationStatus": "completed",
+  "scope": [
+    "accept date coverage from museum, academic, foundation, or publication sources",
+    "continue requiring the official object source to cover identity"
+  ],
+  "outOfScope": [
+    "accepting media or other sources for date coverage",
+    "relaxing identity, quotation, or high-risk claim verification",
+    "mutating frozen releases"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "research/pipeline/prompts/single-work-one-shot.md",
+    "scripts/verify-one-shot-work.mjs"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/test-one-shot-work.mjs",
+      "node scripts/run-pipeline-tests.mjs",
+      "node scripts/freeze-pipeline-release.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs"
+    ]
+  }
+}

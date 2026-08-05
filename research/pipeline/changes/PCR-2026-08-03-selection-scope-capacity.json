@@ -1,0 +1,39 @@
+{
+  "id": "PCR-2026-08-03-selection-scope-capacity",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-03",
+  "ownerInstruction": "用最新pipeline，重新生成并发布新嘉士伯美术馆。如果新选出来的作品和老作品重复，仅图片可以复用。",
+  "baseRelease": "research/pipeline/releases/v2.13.61.json",
+  "targetVersion": "2.13.62",
+  "implementationStatus": "completed",
+  "scope": [
+    "pass the locked museum scope into museum selection",
+    "keep selected work count aligned with the pre-research editorial capacity",
+    "continue the current Glyptotek production run from museum selection",
+    "carry forward the current published museum shell without editing it"
+  ],
+  "outOfScope": [
+    "changing the declared Glyptotek capacity",
+    "changing rating or prose rules",
+    "reusing prior prose or sources",
+    "mutating frozen releases"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/run-museum-pipeline.mjs",
+    "scripts/test-museum-pipeline-e2e.mjs",
+    "museum.html"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node --check scripts/run-museum-pipeline.mjs",
+      "node scripts/test-museum-pipeline-e2e.mjs",
+      "node scripts/run-pipeline-tests.mjs",
+      "node scripts/freeze-pipeline-release.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs"
+    ]
+  }
+}

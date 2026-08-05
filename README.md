@@ -6,13 +6,13 @@ Meowseum 是一个中文博物馆旅行内容产品：先判断一座馆是否�
 
 ## 当前正式版本
 
-- 范围：卢浮宫、大都会艺术博物馆、大英博物馆、埃及博物馆（解放广场）、阿尔罕布拉宫、新嘉士伯美术馆、木心美术馆、西雅图艺术博物馆、维也纳艺术史博物馆、江之浦测候所、Anchorage Museum、Getty Center、地中美术馆、丹麦国立美术馆、Frye Art Museum、丹麦设计博物馆（Designmuseum Danmark）、瑞典国家博物馆（Nationalmuseum）
-- 内容：17 馆、540 个作品或现场节点、105 个章节
-- 当前 pipeline release：`2.13.39`
+- 范围：卢浮宫、大都会艺术博物馆、大英博物馆、埃及博物馆（解放广场）、阿尔罕布拉宫、新嘉士伯美术馆、木心美术馆、西雅图艺术博物馆、维也纳艺术史博物馆、江之浦测候所、Anchorage Museum、Getty Center、地中美术馆、丹麦国立美术馆、Frye Art Museum、丹麦设计博物馆（Designmuseum Danmark）、瑞典国家博物馆（Nationalmuseum）、罗森堡城堡、路易斯安那现代艺术博物馆
+- 内容：19 馆、590 个作品或现场节点、119 个章节
+- 当前 pipeline release：`2.13.79`
 - 正式入口：`http://127.0.0.1:8094/`
 - 丹麦设计博物馆：`http://127.0.0.1:8094/museum.html?id=designmuseum-danmark`
 
-作品数量：卢浮宫、大都会与大英各 60 件；维也纳艺术史博物馆与埃及博物馆各 40 件；阿尔罕布拉、新嘉士伯、丹麦国立美术馆与 Getty Center 各 30 项；西雅图、Frye、木心、江之浦、安克雷奇、地中美术馆与丹麦设计博物馆各 20 项。
+作品数量：卢浮宫与大英各 60 件；维也纳艺术史博物馆、埃及博物馆、新嘉士伯、丹麦国立美术馆与路易斯安那各 40 项；阿尔罕布拉、Getty Center 与丹麦设计博物馆各 30 项；大都会、西雅图、Frye、木心、江之浦、安克雷奇、地中美术馆、瑞典国家博物馆与罗森堡各 20 项。
 
 ## 1. 启动与浏览
 
@@ -141,21 +141,17 @@ node .\scripts\retry-failed-image-evidence.mjs `
   --allow-model=true
 ```
 
-如果上一批也是 experiment，把 parent 改为：
-
-```text
---parent-kind=experiment --parent-case=<previous-case> --parent-run-id=<previous-run-id>
-```
-
-只在一个最终 repair run 已覆盖全部目标作品、每项均为可靠作品图且哈希互不重复时执行 promotion：
+每批完成后立即把其中已通过的作品增量合并回仍可写的 production run；未解决作品保持原状态：
 
 ```powershell
-node .\scripts\promote-image-repair.mjs `
-  --run-root=<research/runs/experiment/...> `
-  --museum=$museumId
+node .\scripts\promote-image-retry-to-parent.mjs `
+  --source-case=$caseId `
+  --source-run-id=$repair.runId `
+  --museum=$museumId `
+  --target-run-id=<production-run-id>
 ```
 
-Promotion 只更新 `image`、`imageSource`、`imageKind`，并复制已验证图片；不会改写正文和锁定元数据。无法可靠解析时保留“暂无可靠作品图”，不要用相似作品或网页装饰图代替。
+下一批仍以更新后的 production run 为 parent，不串联 experiment run。Promotion 验证父证据和图片哈希、保留尚未解决的作品，并把 production 证据压平为新的根；不会改写正文和锁定元数据。无法可靠解析时保留“暂无可靠作品图”，不要用相似作品或网页装饰图代替。
 
 ## 5. 验证
 

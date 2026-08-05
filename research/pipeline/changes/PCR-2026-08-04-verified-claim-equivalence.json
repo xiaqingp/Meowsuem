@@ -1,0 +1,17 @@
+{
+  "id": "PCR-2026-08-04-verified-claim-equivalence",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-04",
+  "ownerInstruction": "用最新pipeline重做并发布丹麦设计博物馆；同一作品可以复用原来的图片。",
+  "baseRelease": "research/pipeline/releases/v2.13.77.json",
+  "targetVersion": "2.13.78",
+  "implementationStatus": "completed",
+  "scope": ["normalize equivalent museum attribution in sourced high-risk claims", "accept current not-on-view wording only when locked route metadata explicitly confirms it"],
+  "outOfScope": ["accepting unsupported records", "inferring display status", "weakening source identity checks", "mutating frozen releases"],
+  "allowedCanonicalFiles": ["research/generation-pipeline.md", "scripts/verify-one-shot-work.mjs", "scripts/test-one-shot-work.mjs"],
+  "verification": {
+    "status": "pending",
+    "commands": ["node scripts/test-one-shot-work.mjs", "node scripts/run-pipeline-tests.mjs", "node scripts/check-pipeline-readiness.mjs --mode=live", "node scripts/verify-project-authority.mjs", "node scripts/freeze-pipeline-release.mjs"]
+  }
+}

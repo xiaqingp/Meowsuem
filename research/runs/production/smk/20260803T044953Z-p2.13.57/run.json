@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "filesystemContractVersion": 1,
+  "runKind": "production",
+  "runId": "20260803T044953Z-p2.13.57",
+  "museumId": "smk",
+  "milestone": null,
+  "pipelineVersion": "2.13.57",
+  "instructionVersion": "2.4.2",
+  "status": "published",
+  "createdAt": "2026-08-03T04:49:53.551Z",
+  "createdBy": "scripts/create-generation-run.mjs",
+  "layoutVersion": 1,
+  "immutable": true,
+  "contentContract": "one_shot_v1",
+  "allowLegacyAuthorBundles": false,
+  "legacyWorkIds": [],
+  "legacyImageResolutionAllowed": false,
+  "updatedAt": "2026-08-03T06:56:44.605Z",
+  "pipelineContinuation": {
+    "fromVersion": "2.13.57",
+    "toVersion": "2.13.61",
+    "instructionVersion": "2.4.2",
+    "fromStage": "image_evidence",
+    "authorizedAt": "2026-08-03T06:33:09.468Z"
+  },
+  "publishedAt": "2026-08-03T06:56:44.605Z"
+}

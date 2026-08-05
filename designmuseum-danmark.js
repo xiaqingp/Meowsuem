@@ -3,85 +3,94 @@ museumData["designmuseum-danmark"] = {
   ...museumRatings["designmuseum-danmark"],
   ...{
   "id": "designmuseum-danmark",
-  "editorialCapacity": 20,
+  "editorialCapacity": 30,
   "city": "Copenhagen，Denmark",
   "zh": "丹麦设计博物馆",
   "en": "Designmuseum Danmark",
-  "verdict": "70–79 · 可去可不去",
-  "hero": "./assets/designmuseum-danmark/portrait-pietro-krohn-1887.jpg",
+  "verdict": "80–89 · 应主动列入行程",
+  "hero": "./assets/designmuseum-danmark/royal-frederiks-hospital-museum-interiors.webp",
   "contentFile": "research/content/designmuseum-danmark.md",
   "official": "https://designmuseum.dk/en/",
   "visit": "https://designmuseum.dk/en/",
-  "contentUpdatedAt": "2026-08-01",
+  "contentUpdatedAt": "2026-08-05",
   "intro": [
-    "这家馆真正特别的地方，是把设计放回材料、生产、使用和制度的连续关系里：中国器物与日本工艺、皇家瓷器、早期工业产品、椅子和当代灯具并不是孤立名作，而是同一问题在不同时代的回答。",
-    "如果你在哥本哈根停留，并且对设计、工艺或丹麦现代家具感兴趣，值得安排半天；它不靠一件已核实的稀世珍品支撑专程前往，而靠一条从历史器物、跨文化工艺到工业产品和丹麦现代家具的长线叙事取胜。"
+    "这家馆最特别的不是名椅数量，而是能在同一座旧医院里看见“好设计”如何被生产：历史范例被收藏，身体与材料被研究，草图和原型保存决策过程，制造、教学、展览与国际传播又共同塑造了 Danish Modern。日本收藏、瓷器、纺织、平面设计和日用品则不断纠正“丹麦设计只等于木椅”的窄化印象。",
+    "82分，属于“应主动列入行程”。如果你关心家具、产品设计、工艺或设计过程，值得在哥本哈根专门留出半天；若兴趣一般，90分钟抓住馆舍、丹麦现代家具与材料转折即可。这里没有通过稀世珍品硬门的单件孤品，吸引力来自馆舍、收藏与设计史网络共同形成的完整体验。"
   ],
   "routes": {
     "90": {
-      "title": "90 分钟：先看这家馆为什么值得",
-      "note": "只保留能支撑本馆核心判断的节点：跨文化形式、皇家瓷器、早期工业设计、光、丹麦现代家具和塑料转向。主动跳过机构肖像、平面设计、纺织、同系列补充和当代收束；每件对象是否当天可见须先向馆方核验。",
+      "title": "90分钟：看懂这家馆为何不只是“名椅展厅”",
+      "note": "先用馆舍建立“功能、人体与展示”的总问题，再快速经过跨文化工艺、工业日用品和Danish Modern，最后以潘顿椅与档案书收束材料和过程。主动跳过多数历史工艺、珠宝、瓷器和平面设计支线。除馆舍与2026年确认在展的潘顿椅外，其余节点须以当日展厅为准；遇到未展对象就直接跳过，不为寻找单件打乱节奏。",
       "workIds": [
-        "chinese-jug-handle-spout-yongle",
-        "spengler-temple-spiral-staircase-1760",
-        "flora-danica-four-sided-serving-dish",
+        "royal-frederiks-hospital-museum-interiors",
+        "krohn-heron-service-wine-cooler-1885-88",
         "malling-hansen-writing-ball-1870s",
-        "gauguin-jug-self-portrait-1889",
-        "poul-henningsen-table-lamp-4-3-1927",
         "kaare-klint-red-chair-1927",
-        "hans-wegner-wishbone-chair-1950",
-        "arne-jacobsen-ant-chair-1952",
-        "verner-panton-panton-chair-1960-1967"
+        "wegner-round-chair-jh501-1947",
+        "finn-juhl-butterfly-coffee-table-prototype-1949",
+        "wegner-valet-chair-jh540-1953",
+        "panton-chair-1960-1967-68",
+        "lisbet-friis-archive-book-2021"
       ]
     },
     "half": {
-      "title": "半天：看懂从工艺到丹麦现代设计的结构",
-      "note": "在核心节点外，加入日本工艺、晚十九世纪协作瓷器、穿孔瓷、平面设计、家具原型、纺织和 Beogram 4000，形成主要收藏群的代表性横切面。按章节顺序行走，遇到轮换对象时保留该章节的比较逻辑，不把不可见对象当作当天必看。",
+      "title": "半天：从范本收藏走到原型、量产与国际品牌",
+      "note": "约3至4小时。按七章顺序建立完整骨架：馆舍与机构史、历史范本、日本转译、艺术与工艺边界、日常工业品、Danish Modern、材料实验。中段在日用品章节后休息，再进入家具密集段。路线包含多件展出状态未知对象，入馆后应按当日开放展厅做同章替换或跳过；明永乐壶与明确不在展的PH 5/5灯具不纳入本路线。",
       "workIds": [
-        "chinese-jug-handle-spout-yongle",
-        "tsuba-sano-naoyoshi-c1775",
+        "royal-frederiks-hospital-museum-interiors",
         "spengler-temple-spiral-staircase-1760",
         "flora-danica-four-sided-serving-dish",
-        "heron-service-wine-cooler-1885-88",
+        "sano-naoyoshi-tsuba-c1775",
+        "krohn-heron-service-wine-cooler-1885-88",
+        "rasmus-fenhann-hikari-lamp-2005",
         "gauguin-jug-self-portrait-1889",
-        "hegermann-lindencrone-porcelain-vase-1899-1900",
+        "bindesboll-carlsberg-label-1904",
         "malling-hansen-writing-ball-1870s",
-        "thorvald-bindesboll-carlsberg-label-1904",
-        "nilfisk-l10-vacuum-cleaner-1922",
-        "poul-henningsen-table-lamp-4-3-1927",
+        "bernadotte-bjorn-margrethe-bowl-1954",
         "kaare-klint-red-chair-1927",
-        "marie-gudme-leth-tree-pattern-1937",
+        "wegner-round-chair-jh501-1947",
         "finn-juhl-butterfly-coffee-table-prototype-1949",
-        "hans-wegner-wishbone-chair-1950",
-        "arne-jacobsen-ant-chair-1952",
-        "verner-panton-panton-chair-1960-1967",
-        "bang-olufsen-beogram-4000-1972"
+        "wegner-valet-chair-jh540-1953",
+        "kjaerholm-pk0-prototype-1952",
+        "henningsen-artichoke-lamp-1957",
+        "panton-chair-1960-1967-68",
+        "lisbet-friis-archive-book-2021"
       ]
     },
     "all": {
-      "title": "完整浏览：沿六个问题走完 20 件精选",
-      "note": "按章节顺序覆盖全部入选对象；它是研究内容的完整观看序列，不保证一天内全部可见，也不提供实时馆内导航。出发前核验轮换、借展和展厅状态；Katrine Bendixen 的对象尤其只能按曾展出且当前未知处理。全程均以 Bredgade 68 主馆址为边界。",
+      "title": "完整浏览：30件作品，两次看完一套设计判断系统",
+      "note": "覆盖全部30件，建议分两次而非压进一天。第一次看第1、5、6、7章，集中于馆舍、日用品、Danish Modern与原型材料；第二次看第2、3、4章，处理历史工艺、收藏分类、日本线与世纪之交的边界变化。两次都在家具密集段前安排休息。此路线是内容库顺序，不代表30件同时在展：明永乐壶为轮换对象，PH 5/5灯具明确不在展，其余多数也须核对当日状态；不可见条目作为馆藏理解节点保留，不应在现场耗时寻找。",
       "workIds": [
-        "portrait-pietro-krohn-1887",
-        "chinese-jug-handle-spout-yongle",
-        "tsuba-sano-naoyoshi-c1775",
+        "royal-frederiks-hospital-museum-interiors",
+        "kroyer-portrait-pietro-krohn-1887",
+        "henningsen-ph-5-5-lighting-system-1926",
         "spengler-temple-spiral-staircase-1760",
         "flora-danica-four-sided-serving-dish",
-        "heron-service-wine-cooler-1885-88",
+        "ming-yongle-jug-handle-spout",
+        "sano-naoyoshi-tsuba-c1775",
+        "hiroshige-lake-satta-suruga-1858",
+        "krohn-heron-service-wine-cooler-1885-88",
+        "rasmus-fenhann-hikari-lamp-2005",
         "gauguin-jug-self-portrait-1889",
+        "lalique-gold-enamel-opal-pin-1898-99",
         "hegermann-lindencrone-porcelain-vase-1899-1900",
+        "bindesboll-carlsberg-label-1904",
         "malling-hansen-writing-ball-1870s",
-        "thorvald-bindesboll-carlsberg-label-1904",
         "nilfisk-l10-vacuum-cleaner-1922",
-        "poul-henningsen-table-lamp-4-3-1927",
+        "bernadotte-bjorn-margrethe-bowl-1954",
+        "jacobsen-cylinda-line-1967",
         "kaare-klint-red-chair-1927",
-        "marie-gudme-leth-tree-pattern-1937",
+        "wegner-round-chair-jh501-1947",
         "finn-juhl-butterfly-coffee-table-prototype-1949",
-        "hans-wegner-wishbone-chair-1950",
-        "arne-jacobsen-ant-chair-1952",
-        "verner-panton-panton-chair-1960-1967",
-        "bang-olufsen-beogram-4000-1972",
-        "katrine-bendixen-inside-out-lamp-2019"
+        "riis-carstensen-finn-juhl-easy-chair-1953",
+        "wegner-valet-chair-jh540-1953",
+        "gudme-leth-tree-pattern-1937",
+        "kjaerholm-pk0-prototype-1952",
+        "panton-s-chair-1956",
+        "henningsen-artichoke-lamp-1957",
+        "panton-chair-1960-1967-68",
+        "grete-jalk-bow-chair-1963",
+        "lisbet-friis-archive-book-2021"
       ]
     }
   },
@@ -89,73 +98,1067 @@ museumData["designmuseum-danmark"] = {
   "cardCopyContract": "independent-v1",
   "chapters": [
     {
-      "id": "origins-and-crossings",
+      "id": "museum-as-design-infrastructure",
       "number": 1,
-      "title": "设计从哪里开始：人物与跨文化形式如何进入一座馆？",
-      "intro": "先看博物馆如何把机构史和跨地域的器物联系起来：设计不是只从丹麦现代家具开始，也包括收藏、转译和使用身份。"
+      "title": "一座旧医院，怎样变成生产设计判断的机器？",
+      "intro": "从院落、长廊和采光开始，再看首任馆长与电气照明：建筑、人物和展示设备共同说明，这家馆并非在丹麦设计成名后才来纪念它，而是曾把收藏、教学与展示组织成一套设计基础设施。"
     },
     {
-      "id": "craft-and-worldmaking",
+      "id": "examples-collecting-and-classification",
       "number": 2,
-      "title": "器物怎样解释世界：从精密工艺到皇家瓷器？",
-      "intro": "这一段把构造、植物分类、宫廷委托和艺术／工艺边界放在一起，看手工如何从实用与陈设走向观念表达。"
+      "title": "谁决定什么器物值得成为“范本”？",
+      "intro": "微型神殿、皇家餐盘、中国壶与日本刀镡来自不同用途和分类系统。把它们并置，不是做材质百科，而是观察工艺、知识、身份与收藏制度如何把器物变成可供学习的范例。"
     },
     {
-      "id": "communication-and-public-design",
+      "id": "japan-as-source-and-mirror",
       "number": 3,
-      "title": "设计怎样服务沟通：机器与图像如何进入公共生活？",
-      "intro": "写字球和嘉士伯标签分别面对能力差异与公共传播，提示设计不仅塑造物，也塑造信息抵达人的方式。"
+      "title": "日本何时是收藏对象，何时又成为丹麦设计资源？",
+      "intro": "从日本木版画和刀镡自身的图像、用途与工艺出发，再看《苍鹭餐具组》和Hikari灯如何落实跨文化转译。这里强调有证据的传播与构造关系，不凭今天所谓“极简感”倒推影响。"
     },
     {
-      "id": "modern-life-and-materials",
+      "id": "craft-crosses-into-art-and-brand",
       "number": 4,
-      "title": "现代生活如何被重新安排：家务、光线、家具与图案？",
-      "intro": "进入二十世纪后，设计开始直接处理家务、电气化、坐姿和织物图案；功能并没有取消形式，而是改变了形式的任务。"
+      "title": "当器物不再只服从用途，设计边界发生了什么？",
+      "intro": "高更把壶变成肖像，赫格曼-林登克罗内让花瓶失去盛水功能，拉利克让材料与佩戴位置共同决定珠宝形式，宾德斯伯尔则把有机字体送进商业品牌。世纪之交的关键不是装饰突然增多，而是艺术、工艺与工业传播重新划界。"
     },
     {
-      "id": "danish-chair-as-system",
+      "id": "machines-bodies-and-everyday-life",
       "number": 5,
-      "title": "一把椅子怎样把木工变成工业语言？",
-      "intro": "从原型、系列生产到单壳和整体塑料，连续看四把椅子如何分别处理承托、制造、轻量化和材料转向。"
+      "title": "好设计如何进入书写、清洁与吃喝？",
+      "intro": "书写球从身体条件出发，吸尘器把工程带入清洁劳动，搅拌碗与Cylinda-line则把材料、制造和一整套使用动作组织起来。设计史由此从名家造型回到普通人的手、身体和家务。"
     },
     {
-      "id": "beyond-the-chair",
+      "id": "danish-modern-made-and-exported",
       "number": 6,
-      "title": "当设计不只解决问题：技术、声音与材料还能提出什么问题？",
-      "intro": "最后从家具移向音响和当代灯具：设计既可以把技术变成日常界面，也可以主动追问材料、用途和设计博物馆的边界。"
+      "title": "Danish Modern 是怎样被做出来、又被传播出去的？",
+      "intro": "从克林特改写历史类型，到韦格纳把日常动作嵌入木作，再到1949年前后的原型、工匠合作和国际媒体传播，这一章把“丹麦现代”拆成教学、协作、制作与品牌形成的连续过程，而不是大师名录。"
+    },
+    {
+      "id": "prototype-material-and-archive",
+      "number": 7,
+      "title": "从原型到量产，真正决定形式的是哪一步？",
+      "intro": "模压胶合板、连续塑料壳、分层遮光结构、印花织物与档案书把设计过程摊开：有的实验很快量产，有的跨越多年，有的价值就在保存尚未完成或正在消失的技术知识。完成品不再是唯一的收藏单位。"
     }
   ],
   "works": [
     {
-      "id": "portrait-pietro-krohn-1887",
-      "ch": "origins-and-crossings",
-      "zh": "彼得罗·克龙肖像",
-      "en": "Portrait of Pietro Krohn",
-      "by": "Peder Severin Krøyer",
-      "date": "1887",
-      "material": "not specified on the official object page",
+      "id": "royal-frederiks-hospital-museum-interiors",
+      "ch": "museum-as-design-infrastructure",
+      "zh": "皇家腓特烈医院改建的博物馆建筑与室内",
+      "en": "Royal Frederik's Hospital adapted as museum buildings and interiors",
+      "by": "尼古拉·艾格特维德；伊瓦尔·本特森；卡勒·克林特 / Nicolai Eigtved; Ivar Bentsen; Kaare Klint",
+      "date": "1752–1757；1920年代改建",
+      "material": "建筑、室内与博物馆陈设",
       "place": "Designmuseum Danmark",
-      "tag": "时间充裕再看",
+      "tag": "绝对不可错过",
       "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "5—8分钟",
-      "image": "./assets/designmuseum-danmark/portrait-pietro-krohn-1887.webp",
-      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2024/03/P_S_Kroyer_-48_1969_Designmuseum-Danmark_Photo-Pernille-Klemp-Stor.jpg",
-      "imageCaption": "彼得罗·克龙肖像 / Portrait of Pietro Krohn",
+      "availabilityTag": "",
+      "time": "10—15分钟",
+      "image": "./assets/designmuseum-danmark/royal-frederiks-hospital-museum-interiors.webp",
+      "imageSource": "https://designmuseum.dk/en/om-museet-2/history-architecture/",
+      "imageCaption": "皇家腓特烈医院改建的博物馆建筑与室内 / Royal Frederik's Hospital adapted as museum buildings and interiors",
       "imageKind": "object",
-      "source": "https://designmuseum.dk/en/directors-choice/",
-      "cardSummary": "这是一幅由佩德尔·塞韦林·克勒耶（P. S. Krøyer）创作于1887年的彼得罗·克龙肖像。克龙不是只做一件事的人：他画画、做插画，曾任宾格朗达尔瓷厂的艺术指导，也参与皇家剧院的财务、服装和歌剧事务。1893年，他成为丹麦艺术工业博物馆的首任馆长——这座机构后来就是今天的 Designmuseum Danmark。",
-      "preciousWhy": "这是一幅由佩德尔·塞韦林·克勒耶（P. S. Krøyer）创作于1887年的彼得罗·克龙肖像。克龙不是只做一件事的人：他画画、做插画，曾任宾格朗达尔瓷厂的艺术指导，也参与皇家剧院的财务、服装和歌剧事务。1893年，他成为丹麦艺术工业博物馆的首任馆长——这座机构后来就是今天的 Designmuseum Danmark。",
+      "source": "https://designmuseum.dk/en/om-museet-2/history-architecture/",
+      "cardSummary": "这不是一件被放进博物馆的物品，而是博物馆本身：一组由建筑、室内和陈设共同组成的观看对象。它最初是1752—1757年建成的皇家腓特烈医院，1920年代改建为博物馆，1926年起成为 Designmuseum Danmark 的所在地。站在这里，先别急着寻找某件名作；先看空间怎样安排光线、行走和停留。医院时代的长廊、庭院和窗户，原本服务于病床与照护；后来，卡勒·克林特又把这些空间转化为展柜、家具和观看秩序。于是，设计不再只是柜子里的东西，也包括我们如何被引导去看东西。",
+      "preciousWhy": "这不是一件被放进博物馆的物品，而是博物馆本身：一组由建筑、室内和陈设共同组成的观看对象。它最初是1752—1757年建成的皇家腓特烈医院，1920年代改建为博物馆，1926年起成为 Designmuseum Danmark 的所在地。站在这里，先别急着寻找某件名作；先看空间怎样安排光线、行走和停留。医院时代的长廊、庭院和窗户，原本服务于病床与照护；后来，卡勒·克林特又把这些空间转化为展柜、家具和观看秩序。于是，设计不再只是柜子里的东西，也包括我们如何被引导去看东西。",
       "contentWarning": {
         "title": "内容尚未通过完整校验",
         "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
         "issues": [
           {
-            "code": "OFFICIAL_SOURCE_COVERAGE",
-            "message": "Official museum sources do not cover material",
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
             "matches": [
-              "material"
-            ]
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "History & architecture",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/en/om-museet-2/history-architecture/"
+        },
+        {
+          "title": "Museum Display Between Past and Present: Contemporary Explorations of Historical Display Design at Designmuseum Danmark",
+          "publisher": "Intellect / Journal of Curatorial Studies",
+          "url": "https://doi.org/10.1386/jcs_00108_1"
+        }
+      ]
+    },
+    {
+      "id": "kroyer-portrait-pietro-krohn-1887",
+      "ch": "museum-as-design-infrastructure",
+      "zh": "彼得罗·克罗恩肖像",
+      "en": "Portrait of Pietro Krohn",
+      "by": "佩德·塞韦林·克勒耶 / Peder Severin Krøyer",
+      "date": "1887",
+      "material": "肖像画",
+      "place": "Designmuseum Danmark",
+      "tag": "时间充裕再看",
+      "significance": "特色看点",
+      "availabilityTag": "不确定是否展出",
+      "time": "4—6分钟",
+      "image": "./assets/designmuseum-danmark/kroyer-portrait-pietro-krohn-1887.webp",
+      "imageSource": "https://designmuseum.dk/en/directors-choice/",
+      "imageCaption": "彼得罗·克罗恩肖像 / Portrait of Pietro Krohn",
+      "imageKind": "object",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "cardSummary": "这是一幅佩德·塞韦林·克勒耶于1887年创作的彼得罗·克罗恩肖像。画中的人不是只会坐着让别人画像的“模特”：他既是画家、插画家，也参与剧院工作，后来还成为丹麦艺术工业博物馆的首任馆长。换句话说，这幅画在设计博物馆里格外有意思，因为它画的不只是一个人，也像是在画一位未来会参与决定“什么值得收藏、什么值得被设计”的文化组织者。",
+      "preciousWhy": "这是一幅佩德·塞韦林·克勒耶于1887年创作的彼得罗·克罗恩肖像。画中的人不是只会坐着让别人画像的“模特”：他既是画家、插画家，也参与剧院工作，后来还成为丹麦艺术工业博物馆的首任馆长。换句话说，这幅画在设计博物馆里格外有意思，因为它画的不只是一个人，也像是在画一位未来会参与决定“什么值得收藏、什么值得被设计”的文化组织者。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/en/directors-choice/"
+        },
+        {
+          "title": "Pietro Krohn",
+          "publisher": "Dansk Biografisk Leksikon / Lex",
+          "url": "https://biografiskleksikon.lex.dk/Pietro_Krohn"
+        }
+      ]
+    },
+    {
+      "id": "henningsen-ph-5-5-lighting-system-1926",
+      "ch": "museum-as-design-infrastructure",
+      "zh": "PH 5/5 照明系统灯具",
+      "en": "Lamp, PH lighting system, 5/5",
+      "by": "保尔·汉宁森 / Poul Henningsen",
+      "date": "1926",
+      "material": "电灯与多层灯罩",
+      "place": "Designmuseum Danmark",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "3—5分钟（当前不在展，作为馆史补充）",
+      "image": "./assets/designmuseum-danmark/henningsen-ph-5-5-lighting-system-1926.webp",
+      "imageSource": "https://designmuseum.dk/en/directors-choice/",
+      "imageCaption": "PH 5/5 照明系统灯具 / Lamp, PH lighting system, 5/5",
+      "imageKind": "object",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "cardSummary": "这是一盏1926年的保尔·汉宁森灯具：电灯藏在一组层层展开的灯罩里，光线不直接刺向眼睛，而是经过反射、遮挡和重新分配，变得柔和而均匀。它值得看的地方，不只是外形像一朵悬在空中的白色花，更在于它把“怎样看得舒服”变成了可以设计、可以计算的系统。站在它面前，先看灯罩之间的间距和弧线，再想象灯泡被藏在里面：你看到的不是光源本身，而是被整理过的光。",
+      "preciousWhy": "这是一盏1926年的保尔·汉宁森灯具：电灯藏在一组层层展开的灯罩里，光线不直接刺向眼睛，而是经过反射、遮挡和重新分配，变得柔和而均匀。它值得看的地方，不只是外形像一朵悬在空中的白色花，更在于它把“怎样看得舒服”变成了可以设计、可以计算的系统。站在它面前，先看灯罩之间的间距和弧线，再想象灯泡被藏在里面：你看到的不是光源本身，而是被整理过的光。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要",
+              "经典"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/en/directors-choice/"
+        },
+        {
+          "title": "PH 5/5 Pendant by Poul Henningsen",
+          "publisher": "Louis Poulsen",
+          "url": "https://www.louispoulsen.com/en-us/catalog/professional/decorative-lighting/pendants/ph-55-pendant2?st=spareparts&t=spareparts"
+        },
+        {
+          "title": "POP-UP EXHIBITION: NEW ADDITIONS TO THE COLLECTION",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/en/pop-up-exhibition-new-additions-to-the-collection/"
+        }
+      ]
+    },
+    {
+      "id": "spengler-temple-spiral-staircase-1760",
+      "ch": "examples-collecting-and-classification",
+      "zh": "螺旋楼梯神殿",
+      "en": "Temple with a spiral staircase",
+      "by": "洛伦茨·施彭格勒 / Lorentz Spengler",
+      "date": "1760",
+      "material": "车木工艺微型建筑",
+      "place": "Designmuseum Danmark",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "7—10分钟",
+      "image": "./assets/designmuseum-danmark/spengler-temple-spiral-staircase-1760.webp",
+      "imageSource": "https://designmuseum.dk/en/directors-choice/",
+      "imageCaption": "螺旋楼梯神殿 / Temple with a spiral staircase",
+      "imageKind": "object",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "cardSummary": "这是一件由洛伦茨·施彭格勒制作、完成于1760年的车木工艺微型建筑。它看起来像一座细小的神殿，真正的主角却是从底部一路向上缠绕的螺旋楼梯：建筑因此不再只是静止的外壳，而像一股正在上升的力量。站在作品前，可以先看中央竖轴，再沿着螺旋向上追踪，最后回到下方的柱廊与底座。你会发现，所谓“精巧”并不是零碎装饰的堆积，而是所有细部都被安排在一条稳定的旋转秩序里。馆方将它归为车木工艺；公开对象页没有进一步说明具体材种，所以不宜仅凭乳白色外观断定它就是象牙。",
+      "preciousWhy": "这是一件由洛伦茨·施彭格勒制作、完成于1760年的车木工艺微型建筑。它看起来像一座细小的神殿，真正的主角却是从底部一路向上缠绕的螺旋楼梯：建筑因此不再只是静止的外壳，而像一股正在上升的力量。站在作品前，可以先看中央竖轴，再沿着螺旋向上追踪，最后回到下方的柱廊与底座。你会发现，所谓“精巧”并不是零碎装饰的堆积，而是所有细部都被安排在一条稳定的旋转秩序里。馆方将它归为车木工艺；公开对象页没有进一步说明具体材种，所以不宜仅凭乳白色外观断定它就是象牙。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/en/directors-choice/"
+        },
+        {
+          "title": "Audioguide DIRECTOR’S CHOICE: Temple with a spiral staircase",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://soundcloud.com/designmuseumdanmark/temple-with-a-spiral-staircase"
+        },
+        {
+          "title": "Lorenz Spengler – Dansk Biografisk Leksikon",
+          "publisher": "Lex / Dansk Biografisk Leksikon",
+          "url": "https://biografiskleksikon.lex.dk/Lorenz_Spengler"
+        },
+        {
+          "title": "Einzigartige Elfenbeinschnitzerei wird erstmals der Öffentlichkeit präsentiert",
+          "publisher": "Museum zu Allerheiligen Schaffhausen",
+          "url": "https://www.hochrhein-zeitung.de/am-hochrhein/konstanz/15575-einzigartige-elfenbeinschnitzerei-wird-erstmals-der-oeffentlichkeit-praesentiert"
+        },
+        {
+          "title": "Concatenated spiked spheres on a pole",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/art/collection/search/825875"
+        },
+        {
+          "title": "Kongens vidunderkammer",
+          "publisher": "Nationalmuseet, Denmark",
+          "url": "https://nationalmuseet.dk/udstillinger/konge-kunst-og-pral"
+        }
+      ]
+    },
+    {
+      "id": "flora-danica-four-sided-serving-dish",
+      "ch": "examples-collecting-and-classification",
+      "zh": "《丹麦植物志》餐具组四方上菜盘",
+      "en": "Four-sided serving dish from the Flora Danica service",
+      "by": "丹麦皇家瓷器厂 / Royal Porcelain Factory, Denmark",
+      "date": "1790年代",
+      "material": "彩绘瓷、金饰",
+      "place": "Designmuseum Danmark",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "6—8分钟",
+      "image": "./assets/designmuseum-danmark/flora-danica-four-sided-serving-dish.webp",
+      "imageSource": "https://designmuseum.dk/en/directors-choice/",
+      "imageCaption": "《丹麦植物志》餐具组四方上菜盘 / Four-sided serving dish from the Flora Danica service",
+      "imageKind": "object",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "cardSummary": "这是一件18世纪90年代、由丹麦皇家瓷器厂制作的彩绘瓷上菜盘，属于著名的《丹麦植物志》餐具组。它最值得看的地方，不只是花画得细，而是它把启蒙时代的植物学知识，变成了王室餐桌上的奢华器物。盘面描绘长茎、叶片和白色小花，边缘饰以密集的金色珠链纹，既像一本植物图谱的页面，又像一件不太舍得真正端菜的珠宝。站在它面前，可以先看三个层次：植物形象如何被转译到瓷器上；四方盘形怎样被金饰边框住；以及为什么一套餐具会和一部宏大的百科全书联系在一起。",
+      "preciousWhy": "这是一件18世纪90年代、由丹麦皇家瓷器厂制作的彩绘瓷上菜盘，属于著名的《丹麦植物志》餐具组。它最值得看的地方，不只是花画得细，而是它把启蒙时代的植物学知识，变成了王室餐桌上的奢华器物。盘面描绘长茎、叶片和白色小花，边缘饰以密集的金色珠链纹，既像一本植物图谱的页面，又像一件不太舍得真正端菜的珠宝。站在它面前，可以先看三个层次：植物形象如何被转译到瓷器上；四方盘形怎样被金饰边框住；以及为什么一套餐具会和一部宏大的百科全书联系在一起。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/en/directors-choice/"
+        },
+        {
+          "title": "History of the Factory - Timeline",
+          "publisher": "Royal Copenhagen",
+          "url": "https://www.royalcopenhagen.com/en-se/our-legacy/our-history/timeline-of-the-factory-history"
+        },
+        {
+          "title": "The Craft",
+          "publisher": "Royal Copenhagen",
+          "url": "https://www.royalcopenhagen.com/en-mc/our-legacy/a-delicate-craft/the-craft"
+        },
+        {
+          "title": "Flora Danica",
+          "publisher": "The Royal Danish Library",
+          "url": "https://www.kb.dk/en/services/cultural-heritage-research-and-study/cultural-heritage-data-and-datasets/flora-danica"
+        },
+        {
+          "title": "The Flora Danica encyclopedia",
+          "publisher": "The Royal Danish Collection",
+          "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-flora-danica-encyclopedia/"
+        }
+      ]
+    },
+    {
+      "id": "ming-yongle-jug-handle-spout",
+      "ch": "examples-collecting-and-classification",
+      "zh": "带柄四方流壶",
+      "en": "Jug with handle and spout",
+      "by": "中国明代永乐时期 / Ming dynasty, Yongle period, China",
+      "date": "1403–1424",
+      "material": "陶瓷",
+      "place": "Designmuseum Danmark",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "5—7分钟（轮换对象）",
+      "image": "./assets/designmuseum-danmark/ming-yongle-jug-handle-spout.jpg",
+      "imageSource": "https://designmuseum.dk/en/directors-choice/",
+      "imageCaption": "带柄四方流壶 / Jug with handle and spout",
+      "imageKind": "object",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "cardSummary": "这是一件中国明代永乐时期的陶瓷壶，制作于1403—1424年，作者不详。它最值得看的地方，不只是“古老”或“来自中国”，而是它把一种带有波斯金属器气息的外来形制，变成了中国工匠手中的陶瓷器。馆方特别注意到它体量较大，并拥有醒目的四方流——也就是截面带有棱角、不是圆管状的壶嘴。",
+      "preciousWhy": "这是一件中国明代永乐时期的陶瓷壶，制作于1403—1424年，作者不详。它最值得看的地方，不只是“古老”或“来自中国”，而是它把一种带有波斯金属器气息的外来形制，变成了中国工匠手中的陶瓷器。馆方特别注意到它体量较大，并拥有醒目的四方流——也就是截面带有棱角、不是圆管状的壶嘴。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/en/directors-choice/"
+        },
+        {
+          "title": "Ewer with Silver Fittings",
+          "publisher": "University of Michigan Museum of Art",
+          "url": "https://umma.umich.edu/objects/ewer-with-silver-fittings-1968-1-50/"
+        }
+      ]
+    },
+    {
+      "id": "sano-naoyoshi-tsuba-c1775",
+      "ch": "japan-as-source-and-mirror",
+      "zh": "刀镡",
+      "en": "Tsuba, Japanese sword guard",
+      "by": "佐野直好 / Sano Naoyoshi",
+      "date": "约1775年",
+      "material": "金属工艺",
+      "place": "Designmuseum Danmark",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "6—8分钟",
+      "image": "./assets/designmuseum-danmark/sano-naoyoshi-tsuba-c1775.webp",
+      "imageSource": "https://designmuseum.dk/en/directors-choice/",
+      "imageCaption": "刀镡 / Tsuba, Japanese sword guard",
+      "imageKind": "object",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "cardSummary": "这是一件约1775年制作的日本刀镡，由佐野直好制作。刀镡不是刀刃，而是夹在刀身与刀柄之间的护手：它先保护手，也把佩戴者的趣味、身份和想象力放到了最显眼的位置。观看时先别急着把它当成一块“装饰片”，可以先看三处：中央让刀茎穿过的孔、两侧的椭圆开孔，以及上下两组图像。上方像一只长喙水鸟，正俯身探向下方；底部则是层层翻卷的波纹。实用结构、动物形象和水势被压缩在一个手掌大小的金属表面上，这正是它值得看的地方：一件本来要装在刀上的部件，竟然像一幅可以随身携带的小型浮雕画。",
+      "preciousWhy": "这是一件约1775年制作的日本刀镡，由佐野直好制作。刀镡不是刀刃，而是夹在刀身与刀柄之间的护手：它先保护手，也把佩戴者的趣味、身份和想象力放到了最显眼的位置。观看时先别急着把它当成一块“装饰片”，可以先看三处：中央让刀茎穿过的孔、两侧的椭圆开孔，以及上下两组图像。上方像一只长喙水鸟，正俯身探向下方；底部则是层层翻卷的波纹。实用结构、动物形象和水势被压缩在一个手掌大小的金属表面上，这正是它值得看的地方：一件本来要装在刀上的部件，竟然像一幅可以随身携带的小型浮雕画。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/en/directors-choice/"
+        },
+        {
+          "title": "Sword Guard (Tsuba)",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/art/collection/search/26415"
+        },
+        {
+          "title": "The A. H. Church Collection of Japanese Sword-Guards (Tsuba): Sano school",
+          "publisher": "Ashmolean Museum, University of Oxford",
+          "url": "https://jameelcentre.ashmolean.org/collection/7/10237/10384"
+        },
+        {
+          "title": "Tsuba, TS.1",
+          "publisher": "The British Museum",
+          "url": "https://www.britishmuseum.org/collection/object/A_TS-1"
+        },
+        {
+          "title": "Artwork by Sano Naoyoshi: Tsuba with a Crane in Flight",
+          "publisher": "The Walters Art Museum",
+          "url": "https://art.thewalters.org/browse/creator/sano-naoyoshi/"
+        }
+      ]
+    },
+    {
+      "id": "hiroshige-lake-satta-suruga-1858",
+      "ch": "japan-as-source-and-mirror",
+      "zh": "《骏河国薩埵湖》，“富士三十六景”之一",
+      "en": "Lake Satta in Suruga Province, from Thirty-six Views of Mount Fuji",
+      "by": "歌川广重 / Utagawa Hiroshige",
+      "date": "1858",
+      "material": "彩色木版画",
+      "place": "Designmuseum Danmark",
+      "tag": "时间充裕再看",
+      "significance": "特色看点",
+      "availabilityTag": "不确定是否展出",
+      "time": "4—6分钟",
+      "image": "./assets/designmuseum-danmark/hiroshige-lake-satta-suruga-1858.png",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3AHiroshige-Sea-at-Satta-Suruga-Province.png",
+      "imageCaption": "《骏河国薩埵湖》，“富士三十六景”之一 / Lake Satta in Suruga Province, from Thirty-six Views of Mount Fuji",
+      "imageKind": "object",
+      "source": "https://designmuseum.dk/en/exhibition/learning-from-japan/",
+      "cardSummary": "这是一张歌川广重在1858年创作的彩色木版画，属于《富士三十六景》。画面看似在画富士山，真正先撞进眼睛的却是前景里几乎要冲出画面的巨浪。浪花、海湾、小船、飞鸟和远处的富士，被压缩在一幅竖长构图里：自然既有猛烈的一面，也有安静得近乎屏息的一面。",
+      "preciousWhy": "这是一张歌川广重在1858年创作的彩色木版画，属于《富士三十六景》。画面看似在画富士山，真正先撞进眼睛的却是前景里几乎要冲出画面的巨浪。浪花、海湾、小船、飞鸟和远处的富士，被压缩在一幅竖长构图里：自然既有猛烈的一面，也有安静得近乎屏息的一面。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Learning from Japan",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/en/exhibition/learning-from-japan/"
+        },
+        {
+          "title": "The sea at Satta, Suruga Province",
+          "publisher": "RISD Museum",
+          "url": "https://risdmuseum.org/art-design/collection/sea-satta-suruga-province-462935"
+        },
+        {
+          "title": "Suruga satta no kaijō",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/pictures/item/2008660878/"
+        },
+        {
+          "title": "Hiroshige and Mount Fuji",
+          "publisher": "Shizuoka City Tokaido Hiroshige Museum of Art",
+          "url": "https://tokaido-hiroshige.jp/en/exhibition/2021/hiroshige_and_fuji.html"
+        },
+        {
+          "title": "The Ukiyo-e (Woodblock) Printing Process",
+          "publisher": "Asian Art Museum",
+          "url": "https://education.asianart.org/resources/the-ukiyo-e-woodblock-printing-process/"
+        },
+        {
+          "title": "How to make a woodblock print like Hiroshige",
+          "publisher": "The British Museum",
+          "url": "https://www.britishmuseum.org/blog/how-make-woodblock-print-hiroshige"
+        }
+      ]
+    },
+    {
+      "id": "krohn-heron-service-wine-cooler-1885-88",
+      "ch": "japan-as-source-and-mirror",
+      "zh": "《苍鹭餐具组》葡萄酒冷却器",
+      "en": "The Heron Service, wine cooler",
+      "by": "彼得罗·克罗恩、范妮·加德、埃菲·赫格曼-林登克罗内、路德维·布兰斯特鲁普 / Pietro Krohn, Fanny Garde, Effie Hegermann-Lindencrone and Ludvig Brandstrup",
+      "date": "1885–1888",
+      "material": "陶瓷餐具",
+      "place": "Designmuseum Danmark",
+      "tag": "绝对不可错过",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "8—10分钟",
+      "image": "./assets/designmuseum-danmark/krohn-heron-service-wine-cooler-1885-88.webp",
+      "imageSource": "https://designmuseum.dk/en/directors-choice/",
+      "imageCaption": "《苍鹭餐具组》葡萄酒冷却器 / The Heron Service, wine cooler",
+      "imageKind": "object",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "cardSummary": "这是一件为餐桌而做、却几乎不肯安静待在餐桌上的陶瓷葡萄酒冷却器，属于《苍鹭餐具组》，制作于1885—1888年。彼得罗·克罗恩负责设计，范妮·加德、埃菲·赫格曼-林登克罗内和路德维·布兰斯特鲁普共同参与完成。它最值得看的地方，是把实用器物变成了一小片热闹的自然世界：苍鹭、羽毛、水波般的纹理和浓淡交错的蓝色，沿着器身向上翻涌；金色细节则像阳光落在水面上。站在它面前，先别急着寻找一只完整的鸟。先看整体轮廓：这个器物像一只被鸟群和水草包围的容器，功能与幻想从一开始就没有分家。",
+      "preciousWhy": "这是一件为餐桌而做、却几乎不肯安静待在餐桌上的陶瓷葡萄酒冷却器，属于《苍鹭餐具组》，制作于1885—1888年。彼得罗·克罗恩负责设计，范妮·加德、埃菲·赫格曼-林登克罗内和路德维·布兰斯特鲁普共同参与完成。它最值得看的地方，是把实用器物变成了一小片热闹的自然世界：苍鹭、羽毛、水波般的纹理和浓淡交错的蓝色，沿着器身向上翻涌；金色细节则像阳光落在水面上。站在它面前，先别急着寻找一只完整的鸟。先看整体轮廓：这个器物像一只被鸟群和水草包围的容器，功能与幻想从一开始就没有分家。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Director's Choice: The Heron Service, wine cooler, 1885–88",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/en/directors-choice/"
+        },
+        {
+          "title": "Pietro Krohn",
+          "publisher": "Lex / Gyldendal",
+          "url": "https://lex.dk/Pietro_Krohn"
+        },
+        {
+          "title": "Fanny Garde",
+          "publisher": "Lex / Gyldendal",
+          "url": "https://lex.dk/Fanny_Garde"
+        },
+        {
+          "title": "Effie Hegermann-Lindencrone & Fanny Garde – The Pioneering Women of Ceramics",
+          "publisher": "Bruun Rasmussen Auctioneers",
+          "url": "https://bruun-rasmussen.dk/m/artists/2039"
+        },
+        {
+          "title": "An A–Z of Ceramics: U is for underglaze",
+          "publisher": "Victoria and Albert Museum",
+          "url": "https://www.vam.ac.uk/articles/a-z-of-ceramics"
+        }
+      ]
+    },
+    {
+      "id": "rasmus-fenhann-hikari-lamp-2005",
+      "ch": "japan-as-source-and-mirror",
+      "zh": "Hikari 灯",
+      "en": "Hikari Lamp",
+      "by": "拉斯穆斯·芬汉 / Rasmus Fenhann",
+      "date": "2005",
+      "material": "灯具",
+      "place": "Designmuseum Danmark",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "6—8分钟",
+      "image": "./assets/designmuseum-danmark/rasmus-fenhann-hikari-lamp-2005.webp",
+      "imageSource": "https://designmuseum.dk/en/exhibition/learning-from-japan/",
+      "imageCaption": "Hikari 灯 / Hikari Lamp",
+      "imageKind": "object",
+      "source": "https://designmuseum.dk/en/exhibition/learning-from-japan/",
+      "cardSummary": "这是一盏把“灯罩”变成空间几何体的吊灯。丹麦设计师拉斯穆斯·芬汉在 2005 年提出 Hikari 系列：用极薄的木质构件组成多面体，再让光从一个个不规则开口之间穿出。它看起来像一颗被拆开的木质星球，也像自然界某种尚未命名的晶体。站在它面前，先别急着数有多少边；请看三件事：木纹怎样沿着结构流动，开口怎样形成明暗节奏，以及这颗“球”为什么不需要一个藏在里面的骨架也能站住。Hikari 的价值正在这里：日本纸灯的柔和光感、丹麦家具木工的精确接缝，以及现代计算几何，被压缩进了一件仍然可以照明的物品里。",
+      "preciousWhy": "这是一盏把“灯罩”变成空间几何体的吊灯。丹麦设计师拉斯穆斯·芬汉在 2005 年提出 Hikari 系列：用极薄的木质构件组成多面体，再让光从一个个不规则开口之间穿出。它看起来像一颗被拆开的木质星球，也像自然界某种尚未命名的晶体。站在它面前，先别急着数有多少边；请看三件事：木纹怎样沿着结构流动，开口怎样形成明暗节奏，以及这颗“球”为什么不需要一个藏在里面的骨架也能站住。Hikari 的价值正在这里：日本纸灯的柔和光感、丹麦家具木工的精确接缝，以及现代计算几何，被压缩进了一件仍然可以照明的物品里。",
+      "sources": [
+        {
+          "title": "Learning from Japan",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/en/exhibition/learning-from-japan/"
+        },
+        {
+          "title": "Hikari \"AERO\" - solo exhibition - Designmuseum Denmark",
+          "publisher": "Rasmus Fenhann",
+          "url": "https://www.fenhann.com/journal/hikari-aero-solo-exhibition"
+        },
+        {
+          "title": "JAPANOMETRY - Solo Exhibition at Galerie Maria Wettergren - Paris",
+          "publisher": "Rasmus Fenhann",
+          "url": "https://www.fenhann.com/journal/japanometry"
+        },
+        {
+          "title": "Designmuseum Danmark Årsberetning 2015",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/wp-content/uploads/2017/03/Designmuseum-Danmark-Aarsberetning2015.pdf"
+        },
+        {
+          "title": "Magnetic Cubes og Hikari",
+          "publisher": "Statens Værksteder for Kunst",
+          "url": "https://svfk.dk/project/magnetic-cubes-og-hikari"
+        }
+      ]
+    },
+    {
+      "id": "gauguin-jug-self-portrait-1889",
+      "ch": "craft-crosses-into-art-and-brand",
+      "zh": "自画像壶",
+      "en": "Jug Self-portrait",
+      "by": "保罗·高更 / Paul Gauguin",
+      "date": "1889",
+      "material": "陶器、红色釉",
+      "place": "Designmuseum Danmark",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "6—8分钟",
+      "image": "./assets/designmuseum-danmark/gauguin-jug-self-portrait-1889.webp",
+      "imageSource": "https://designmuseum.dk/en/directors-choice/",
+      "imageCaption": "自画像壶 / Jug Self-portrait",
+      "imageKind": "object",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "cardSummary": "这不是“把一个头像做成花瓶”那么简单。保罗·高更在1889年把自己的脸、壶的功能和一段复杂的艺术家自我想象，压缩进一件不到20厘米高的陶器里。作品现藏于 Designmuseum Danmark，并被列入馆长 Anne-Louise Sommer 的收藏选择。[馆方页面](https://designmuseum.dk/en/directors-choice/) 将它描述为工艺与艺术难以分开的例子；一份展览目录则记录它约于1889年2月1日前后在巴黎制作，材质为上釉炻器，高19.5厘米。[Art Institute of Chicago 展览目录](https://archive.artic.edu/vangogh/vg_list.html)",
+      "preciousWhy": "这不是“把一个头像做成花瓶”那么简单。保罗·高更在1889年把自己的脸、壶的功能和一段复杂的艺术家自我想象，压缩进一件不到20厘米高的陶器里。作品现藏于 Designmuseum Danmark，并被列入馆长 Anne-Louise Sommer 的收藏选择。[馆方页面](https://designmuseum.dk/en/directors-choice/) 将它描述为工艺与艺术难以分开的例子；一份展览目录则记录它约于1889年2月1日前后在巴黎制作，材质为上釉炻器，高19.5厘米。[Art Institute of Chicago 展览目录](https://archive.artic.edu/vangogh/vg_list.html)",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/en/directors-choice/"
+        },
+        {
+          "title": "Van Gogh and Gauguin: The Studio of the South — complete list of works",
+          "publisher": "Art Institute of Chicago",
+          "url": "https://archive.artic.edu/vangogh/vg_list.html"
+        },
+        {
+          "title": "Paul Gauguin — Cleopatra Pot, Catalogue: Contemporaries of Van Gogh 1",
+          "publisher": "Van Gogh Museum",
+          "url": "https://catalogues.vangoghmuseum.com/contemporaries-of-van-gogh-1/cat61"
+        },
+        {
+          "title": "Containing the Divine: Ancient Peruvian Pots",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Containing_the_Divine_Ancient_Peruvian_Pots.pdf"
+        },
+        {
+          "title": "Connecting Gauguin’s metaphors of the creative act",
+          "publisher": "RES: Anthropology and Aesthetics / Harvard University",
+          "url": "https://www.unige.ch/lettres/armus/unites/istar/download_file/view/251/259"
+        }
+      ]
+    },
+    {
+      "id": "lalique-gold-enamel-opal-pin-1898-99",
+      "ch": "craft-crosses-into-art-and-brand",
+      "zh": "金胎珐琅镶蛋白石与钻石饰针",
+      "en": "Pin in gold enamel with opals and brilliants",
+      "by": "勒内·朱尔·拉利克 / René Jules Lalique",
+      "date": "1898–1899",
+      "material": "金、珐琅、蛋白石、钻石",
+      "place": "Designmuseum Danmark",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "5—7分钟",
+      "image": "./assets/designmuseum-danmark/lalique-gold-enamel-opal-pin-1898-99.webp",
+      "imageSource": "https://designmuseum.dk/en/directors-choice/",
+      "imageCaption": "金胎珐琅镶蛋白石与钻石饰针 / Pin in gold enamel with opals and brilliants",
+      "imageKind": "object",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "cardSummary": "这是一枚法国珠宝家勒内·朱尔·拉利克创作于1898—1899年的饰针，材料包括金、珐琅、蛋白石和钻石。它最特别的地方，不是把贵重材料整齐地排成一圈，而是把饰针变成了一幅微型自然剧场：几只黄蜂般的昆虫围着一块乳白、闪烁的蛋白石，金色线条像枝蔓，也像画面的骨架。先别急着数钻石，先看这几种材料怎样分工：蛋白石负责发光，珐琅负责制造色彩与阴影，金负责勾勒运动，钻石则像忽然落下的亮点。一个本来只需“固定衣物”的小物件，就这样获得了雕塑和绘画般的戏剧性。",
+      "preciousWhy": "这是一枚法国珠宝家勒内·朱尔·拉利克创作于1898—1899年的饰针，材料包括金、珐琅、蛋白石和钻石。它最特别的地方，不是把贵重材料整齐地排成一圈，而是把饰针变成了一幅微型自然剧场：几只黄蜂般的昆虫围着一块乳白、闪烁的蛋白石，金色线条像枝蔓，也像画面的骨架。先别急着数钻石，先看这几种材料怎样分工：蛋白石负责发光，珐琅负责制造色彩与阴影，金负责勾勒运动，钻石则像忽然落下的亮点。一个本来只需“固定衣物”的小物件，就这样获得了雕塑和绘画般的戏剧性。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/en/directors-choice/"
+        },
+        {
+          "title": "Annual Report 2024",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/wp-content/uploads/2025/05/Aarsrapport_2024_WEB.pdf"
+        },
+        {
+          "title": "Jewellery",
+          "publisher": "Musée Lalique",
+          "url": "https://www.musee-lalique.com/en/discover/the-collections/jewellery/"
+        },
+        {
+          "title": "The Jeweler's Art: European and American Jewelry, 1840–1910",
+          "publisher": "Philadelphia Museum of Art",
+          "url": "https://www.philamuseum.org/exhibitions/the-jewelers-art-european-and-american-jewelry-1840-1910"
+        },
+        {
+          "title": "René Lalique, Orchid Comb, 1903–1904",
+          "publisher": "The Walters Art Museum",
+          "url": "https://art.thewalters.org/object/57.936/"
+        }
+      ]
+    },
+    {
+      "id": "hegermann-lindencrone-porcelain-vase-1899-1900",
+      "ch": "craft-crosses-into-art-and-brand",
+      "zh": "镂空花叶瓷瓶",
+      "en": "Porcelain vase",
+      "by": "埃菲·赫格曼-林登克罗内 / Effie Hegermann-Lindencrone",
+      "date": "1899–1900",
+      "material": "镂空瓷",
+      "place": "Designmuseum Danmark",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "6—8分钟",
+      "image": "./assets/designmuseum-danmark/hegermann-lindencrone-porcelain-vase-1899-1900.webp",
+      "imageSource": "https://designmuseum.dk/en/directors-choice/",
+      "imageCaption": "镂空花叶瓷瓶 / Porcelain vase",
+      "imageKind": "object",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "cardSummary": "这是一件看起来像花瓶、实际上几乎不能装水的瓷器。埃菲·赫格曼-林登克罗内在1899—1900年创作它，把花、叶和枝蔓塑造成一团向外生长的立体花簇；瓷胎被镂开，光线可以穿过，器物也因此从“容器”滑向了“雕塑”。站在它面前，先看整体轮廓：上部像一朵鼓胀的花团，下部则沉入深褐色的阴影；再看白色花朵如何覆盖、穿插、叠压在叶片之间。最值得注意的，不是它装饰得有多满，而是它让装饰反过来决定了瓶子的形状。",
+      "preciousWhy": "这是一件看起来像花瓶、实际上几乎不能装水的瓷器。埃菲·赫格曼-林登克罗内在1899—1900年创作它，把花、叶和枝蔓塑造成一团向外生长的立体花簇；瓷胎被镂开，光线可以穿过，器物也因此从“容器”滑向了“雕塑”。站在它面前，先看整体轮廓：上部像一朵鼓胀的花团，下部则沉入深褐色的阴影；再看白色花朵如何覆盖、穿插、叠压在叶片之间。最值得注意的，不是它装饰得有多满，而是它让装饰反过来决定了瓶子的形状。",
+      "sources": [
+        {
+          "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/en/directors-choice/"
+        },
+        {
+          "title": "Effie Hegermann-Lindencrone",
+          "publisher": "Lex / Designmuseum Danmark",
+          "url": "https://lex.dk/Effie_Hegermann-Lindencrone"
+        },
+        {
+          "title": "Inv. no. MK 22: Effie Hegermann-Lindencrone, Vase",
+          "publisher": "The David Collection",
+          "url": "https://catalog.davidmus.dk/en/item/1890/mk-22.pdf"
+        }
+      ]
+    },
+    {
+      "id": "bindesboll-carlsberg-label-1904",
+      "ch": "craft-crosses-into-art-and-brand",
+      "zh": "嘉士伯标签",
+      "en": "Carlsberg label",
+      "by": "托瓦尔·宾德斯伯尔 / Thorvald Bindesbøll",
+      "date": "1904",
+      "material": "平面与字体设计",
+      "place": "Designmuseum Danmark",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "5—7分钟",
+      "image": "./assets/designmuseum-danmark/bindesboll-carlsberg-label-1904.png",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3ACarlsberg_Pilsner_1904_label_by_Thorvald_Bindesboll.png",
+      "imageCaption": "嘉士伯标签 / Carlsberg label",
+      "imageKind": "object",
+      "source": "https://designmuseum.dk/qr-site/2-thorvald-bindesboell-carlsberg-etikette-1904/",
+      "cardSummary": "这是一枚由托瓦尔·宾德斯伯尔于1904年设计的嘉士伯啤酒标签。它值得看的地方，不只是“老”，而是它把一件本来服务于销售的包装，做成了完整的视觉身份：绿色底色、金色椭圆、红色王冠、像植物一样舒展的字母，几乎同时讲出了啤酒、自然和王室联系。",
+      "preciousWhy": "这是一枚由托瓦尔·宾德斯伯尔于1904年设计的嘉士伯啤酒标签。它值得看的地方，不只是“老”，而是它把一件本来服务于销售的包装，做成了完整的视觉身份：绿色底色、金色椭圆、红色王冠、像植物一样舒展的字母，几乎同时讲出了啤酒、自然和王室联系。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Thorvald Bindesbøll, Carlsberg-etikette, 1904",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/qr-site/2-thorvald-bindesboell-carlsberg-etikette-1904/"
+        },
+        {
+          "title": "Historien bag Carlsberg Danmark",
+          "publisher": "Carlsberg Danmark",
+          "url": "https://www.carlsbergdanmark.dk/mod-os/historien-bag/"
+        },
+        {
+          "title": "Thorvald Bindesbøll – Dansk arkitekt og designer",
+          "publisher": "Lex",
+          "url": "https://lex.dk/Thorvald_Bindesb%C3%B8ll"
+        },
+        {
+          "title": "skønvirke – Dansk stilretning",
+          "publisher": "Lex",
+          "url": "https://lex.dk/sk%C3%B8nvirke"
+        },
+        {
+          "title": "Designmuseum Danmark Årsrapport 2024",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/wp-content/uploads/2025/05/Aarsrapport_2024_WEB.pdf"
+        }
+      ]
+    },
+    {
+      "id": "malling-hansen-writing-ball-1870s",
+      "ch": "machines-bodies-and-everyday-life",
+      "zh": "汉森书写球",
+      "en": "Hansen Writing Ball",
+      "by": "拉斯穆斯·马林-汉森 / Rasmus Malling-Hansen",
+      "date": "1870年代",
+      "material": "机械书写设备",
+      "place": "Designmuseum Danmark",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "7—9分钟",
+      "image": "./assets/designmuseum-danmark/malling-hansen-writing-ball-1870s.webp",
+      "imageSource": "https://designmuseum.dk/en/directors-choice/",
+      "imageCaption": "汉森书写球 / Hansen Writing Ball",
+      "imageKind": "object",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "cardSummary": "这不是一只长得有点古怪的金属球，而是一台把手指动作直接变成文字的早期打字机。它由丹麦牧师、发明家拉斯穆斯·马林-汉森在19世纪60年代设计，1870年代进入制作与改良阶段，通常被视为世界上最早商业化生产的打字机之一。最值得先看的，是顶部那圈密密麻麻的字键：按下其中一个，带有字符的字杆便向下运动，在同一个打印点留下字迹。",
+      "preciousWhy": "这不是一只长得有点古怪的金属球，而是一台把手指动作直接变成文字的早期打字机。它由丹麦牧师、发明家拉斯穆斯·马林-汉森在19世纪60年代设计，1870年代进入制作与改良阶段，通常被视为世界上最早商业化生产的打字机之一。最值得先看的，是顶部那圈密密麻麻的字键：按下其中一个，带有字符的字杆便向下运动，在同一个打印点留下字迹。",
+      "sources": [
+        {
+          "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/en/directors-choice/"
+        },
+        {
+          "title": "Designmuseum Danmark Årsberetning 2017",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/wp-content/uploads/2018/04/DesignmuseumDanmark_Aarsberetning_2017_Web.pdf"
+        },
+        {
+          "title": "Hansen's Writing Ball, also known as Malling-Hansen Writing Ball",
+          "publisher": "Science Museum Group",
+          "url": "https://collection.sciencemuseumgroup.org.uk/objects/co38206/hansens-writing-ball-also-known-as-malling-hansen-writing-ball"
+        },
+        {
+          "title": "Nyheder — NY POP-UP UDSTILLING: SKRIVEKUGLEN",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/om/nyheder/"
+        }
+      ]
+    },
+    {
+      "id": "nilfisk-l10-vacuum-cleaner-1922",
+      "ch": "machines-bodies-and-everyday-life",
+      "zh": "Nilfisk L10 吸尘器",
+      "en": "Nilfisk vacuum cleaner, L10",
+      "by": "菲斯克与尼尔森公司 / Fisker & Nielsen A/S",
+      "date": "1922",
+      "material": "金属与电机工业产品",
+      "place": "Designmuseum Danmark",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "4—6分钟",
+      "image": "./assets/designmuseum-danmark/nilfisk-l10-vacuum-cleaner-1922.webp",
+      "imageSource": "https://designmuseum.dk/en/directors-choice/",
+      "imageCaption": "Nilfisk L10 吸尘器 / Nilfisk vacuum cleaner, L10",
+      "imageKind": "object",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "cardSummary": "这是一台 1922 年由菲斯克与尼尔森公司制造的家用吸尘器。它值得看的地方，不只是“早期家电”这几个字，而是它把原本依靠扫帚、掸子和体力完成的家务，变成了由电机驱动、可以握在手里控制的机械动作。先看它的身体：细长的金属筒体、向上延伸的长柄，以及贴近地面的吸头，几乎把“站着清洁”这件事画成了一条竖直的线。它既是工业产品，也像一件竖立起来的日常雕塑。站在它面前，可以特别留意：人的手、身体和地面，怎样被这台机器安排到同一个工作系统里。",
+      "preciousWhy": "这是一台 1922 年由菲斯克与尼尔森公司制造的家用吸尘器。它值得看的地方，不只是“早期家电”这几个字，而是它把原本依靠扫帚、掸子和体力完成的家务，变成了由电机驱动、可以握在手里控制的机械动作。先看它的身体：细长的金属筒体、向上延伸的长柄，以及贴近地面的吸头，几乎把“站着清洁”这件事画成了一条竖直的线。它既是工业产品，也像一件竖立起来的日常雕塑。站在它面前，可以特别留意：人的手、身体和地面，怎样被这台机器安排到同一个工作系统里。",
+      "sources": [
+        {
+          "title": "Director's Choice",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/en/directors-choice/"
+        },
+        {
+          "title": "The history of Nilfisk | Over a century of innovation",
+          "publisher": "Nilfisk",
+          "url": "https://www.nilfisk.com/global/professional/about-nilfisk/about-nilfisk-group/the-history-of-nilfisk/"
+        },
+        {
+          "title": "Extreme free - 100 years with vacuum cleaners",
+          "publisher": "Nilfisk Consumer",
+          "url": "https://im.consumer.nilfisk.com/en/news/Pages/Extreme_Free.aspx"
+        }
+      ]
+    },
+    {
+      "id": "bernadotte-bjorn-margrethe-bowl-1954",
+      "ch": "machines-bodies-and-everyday-life",
+      "zh": "玛格丽特搅拌碗",
+      "en": "Margrethe bowl",
+      "by": "西格瓦德·贝尔纳多特与阿克顿·比约恩 / Sigvard Bernadotte and Acton Bjørn",
+      "date": "1954",
+      "material": "工业塑料",
+      "place": "Designmuseum Danmark",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "5—7分钟",
+      "image": "./assets/designmuseum-danmark/bernadotte-bjorn-margrethe-bowl-1954.webp",
+      "imageSource": "https://designmuseum.dk/en/directors-choice/",
+      "imageCaption": "玛格丽特搅拌碗 / Margrethe bowl",
+      "imageKind": "object",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "cardSummary": "眼前这组层层套叠的红色碗，原本是厨房里再普通不过的搅拌碗，却被 Designmuseum Danmark 选进了馆长精选。它值得看的地方，不在装饰，而在它怎样把一连串厨房动作安排得顺手：碗口有便于倾倒的尖嘴，侧边有可以抓握的小柄，底部稳，大小不同的碗还能彼此套入。1954 年的它把工业材料、批量生产和日常生活接到了一起。站在它面前，先别急着问“它像不像艺术品”，不妨问：一个好设计，能不能让你少费一点力？",
+      "preciousWhy": "眼前这组层层套叠的红色碗，原本是厨房里再普通不过的搅拌碗，却被 Designmuseum Danmark 选进了馆长精选。它值得看的地方，不在装饰，而在它怎样把一连串厨房动作安排得顺手：碗口有便于倾倒的尖嘴，侧边有可以抓握的小柄，底部稳，大小不同的碗还能彼此套入。1954 年的它把工业材料、批量生产和日常生活接到了一起。站在它面前，先别急着问“它像不像艺术品”，不妨问：一个好设计，能不能让你少费一点力？",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要",
+              "经典"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/en/directors-choice/"
+        },
+        {
+          "title": "bowl — Margrethe nesting bowls",
+          "publisher": "The British Museum",
+          "url": "https://www.britishmuseum.org/collection/object/H_2014-8024-377-a-e"
+        },
+        {
+          "title": "Design Fortællinger",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/design-fortaellinger/"
+        },
+        {
+          "title": "Our History",
+          "publisher": "Rosti",
+          "url": "https://www.rosti.com/en-us/company/our-history/"
+        },
+        {
+          "title": "The Transatlantic Outlook: About Bernadotte & Bjørn’s ‘American’ design practice",
+          "publisher": "Formkraft",
+          "url": "https://formkraft.dk/en/the-transatlantic-outlook-about-bernadotte-bjoerns-american-design-practice/"
+        },
+        {
+          "title": "History — from back room to international company",
+          "publisher": "Rosti",
+          "url": "https://rosti.design/us/history/"
+        }
+      ]
+    },
+    {
+      "id": "jacobsen-cylinda-line-1967",
+      "ch": "machines-bodies-and-everyday-life",
+      "zh": "Cylinda-line 茶、咖啡与酒吧器具系列",
+      "en": "Cylinda-line",
+      "by": "阿纳·雅各布森 / Arne Jacobsen",
+      "date": "1967",
+      "material": "不锈钢；18件产品系列",
+      "place": "Designmuseum Danmark",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "6—8分钟",
+      "image": "./assets/designmuseum-danmark/jacobsen-cylinda-line-1967.webp",
+      "imageSource": "https://arnejacobsen.com/works/cylinda-line/",
+      "imageCaption": "Cylinda-line 茶、咖啡与酒吧器具系列 / Cylinda-line",
+      "imageKind": "object",
+      "source": "https://designmuseum.dk/qr-site/7-arne-jacobsen-cylindaline-1967/",
+      "cardSummary": "这不是一只孤零零的茶壶，而是阿纳·雅各布森在1967年为丹麦制造商 Stelton 设计的整套器具系列：茶具、咖啡器具和酒吧用品，共18件，主体以不锈钢制成。图中这只壶最值得看的地方，是它把“壶”压缩成了几何关系：一个挺拔的圆柱、一条向外伸出的细长壶嘴，以及一只黑色、近乎剪影般的手柄。它看上去安静、冷静，甚至有点像实验室设备；但它服务的却是喝茶、喝咖啡和调酒这些带有社交意味的日常活动。站在作品前，先看它如何让圆柱形同时承担容量、稳定感和视觉秩序，再看那些看似简单的曲线其实怎样把倒水、握持和开合组织在一起。",
+      "preciousWhy": "这不是一只孤零零的茶壶，而是阿纳·雅各布森在1967年为丹麦制造商 Stelton 设计的整套器具系列：茶具、咖啡器具和酒吧用品，共18件，主体以不锈钢制成。图中这只壶最值得看的地方，是它把“壶”压缩成了几何关系：一个挺拔的圆柱、一条向外伸出的细长壶嘴，以及一只黑色、近乎剪影般的手柄。它看上去安静、冷静，甚至有点像实验室设备；但它服务的却是喝茶、喝咖啡和调酒这些带有社交意味的日常活动。站在作品前，先看它如何让圆柱形同时承担容量、稳定感和视觉秩序，再看那些看似简单的曲线其实怎样把倒水、握持和开合组织在一起。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Arne Jacobsen, Cylindaline, 1967",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/qr-site/7-arne-jacobsen-cylindaline-1967/"
+        },
+        {
+          "title": "Cylinda Line",
+          "publisher": "Arne Jacobsen Design",
+          "url": "https://arnejacobsen.com/works/cylinda-line/"
+        },
+        {
+          "title": "Cylinda-line by Arne Jacobsen",
+          "publisher": "Stelton",
+          "url": "https://www.stelton.com/pages/cylinda-line"
+        }
+      ]
+    },
+    {
+      "id": "kaare-klint-red-chair-1927",
+      "ch": "danish-modern-made-and-exported",
+      "zh": "红椅",
+      "en": "Red Chair",
+      "by": "卡勒·克林特 / Kaare Klint",
+      "date": "1927",
+      "material": "木与皮革家具",
+      "place": "Designmuseum Danmark",
+      "tag": "绝对不可错过",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "8—10分钟",
+      "image": "./assets/designmuseum-danmark/kaare-klint-red-chair-1927.webp",
+      "imageSource": "https://designmuseum.dk/en/directors-choice/",
+      "imageCaption": "红椅 / Red Chair",
+      "imageKind": "object",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "cardSummary": "这是一把丹麦设计师卡勒·克林特于1927年设计的木与皮革家具。它值得看，不是因为外形惊天动地，而是因为它做了一件很有分量的事：把历史家具中的比例、结构和坐感，重新整理成适合现代生活的椅子。先别急着把它归类为“老式椅子”。请看三处：高而平静的椅背、被皮革包住的座面，以及四周一圈像小圆点一样的钉饰。它们共同让椅子既有手工家具的温度，又有近乎建筑般的秩序。名字叫“红椅”，但眼前的皮革已是温暖的棕红色——不是交通灯式的红，而是时间坐出来的颜色。",
+      "preciousWhy": "这是一把丹麦设计师卡勒·克林特于1927年设计的木与皮革家具。它值得看，不是因为外形惊天动地，而是因为它做了一件很有分量的事：把历史家具中的比例、结构和坐感，重新整理成适合现代生活的椅子。先别急着把它归类为“老式椅子”。请看三处：高而平静的椅背、被皮革包住的座面，以及四周一圈像小圆点一样的钉饰。它们共同让椅子既有手工家具的温度，又有近乎建筑般的秩序。名字叫“红椅”，但眼前的皮革已是温暖的棕红色——不是交通灯式的红，而是时间坐出来的颜色。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
           }
         ]
       },
@@ -171,760 +1174,119 @@ museumData["designmuseum-danmark"] = {
           "url": "https://designmuseum.dk/en/om-museet-2/history-architecture/"
         },
         {
-          "title": "Pietro Krohn",
-          "publisher": "Royal Danish Academy of Fine Arts Publications",
-          "url": "https://publ.royalacademy.dk/backend/web/uploads/2020-02-14/AFL%206/SDH4_4_00_00_2014_5856/SDH4_4_00_00_2014_5856.pdf"
+          "title": "KK37580 | Large Red Chair",
+          "publisher": "Carl Hansen & Søn",
+          "url": "https://www.carlhansen.com/en/en/collection/chairs/dining-chairs/kk37580"
         },
         {
-          "title": "Pietro Krohn: F. Hendriksen, Ord och Bild, 1905",
-          "publisher": "Project Runeberg",
-          "url": "https://runeberg.org/ordochbild/1905/0723.html"
-        },
-        {
-          "title": "Som sendt fra himlen - Pietro Krohns farvesammenstillinger",
+          "title": "Danish Modern",
           "publisher": "Designmuseum Danmark",
-          "url": "https://designmuseum.dk/i-fokus/som-sendt-fra-himlen/"
-        },
-        {
-          "title": "WONDER",
-          "publisher": "Designmuseum Danmark",
-          "url": "https://designmuseum.dk/en/exhibition/wonder/"
+          "url": "https://designmuseum.dk/en/exhibition/danish-modern/"
         }
       ]
     },
     {
-      "id": "chinese-jug-handle-spout-yongle",
-      "ch": "origins-and-crossings",
-      "zh": "带把手与流口的壶",
-      "en": "Jug with handle and spout",
-      "by": "Unknown artist, Ming dynasty, Yongle period, China",
-      "date": "1403–24",
-      "material": "not specified on the official object page",
-      "place": "Designmuseum Danmark",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "8—12分钟",
-      "image": "./assets/designmuseum-danmark/chinese-jug-handle-spout-yongle.webp",
-      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2024/03/038_1950_Designmuseum-Danmark_photopernilleklemp-Stor.jpg",
-      "imageCaption": "带把手与流口的壶 / Jug with handle and spout",
-      "imageKind": "object",
-      "source": "https://designmuseum.dk/en/directors-choice/",
-      "cardSummary": "这是一件中国明代永乐时期、约1403—1424年的壶，作者不详。它最值得看的地方，不只是“一个装液体的容器”，而是它把一段跨地域的设计交流，压缩进了把手、壶身和流口的组合里。馆方特别提到，它有醒目的四棱流口，形制可以追溯到中东尤其是波斯地区常见的金属壶。",
-      "preciousWhy": "这是一件中国明代永乐时期、约1403—1424年的壶，作者不详。它最值得看的地方，不只是“一个装液体的容器”，而是它把一段跨地域的设计交流，压缩进了把手、壶身和流口的组合里。馆方特别提到，它有醒目的四棱流口，形制可以追溯到中东尤其是波斯地区常见的金属壶。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "OFFICIAL_SOURCE_COVERAGE",
-            "message": "Official museum sources do not cover material",
-            "matches": [
-              "material"
-            ]
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
-          "publisher": "Designmuseum Danmark",
-          "url": "https://designmuseum.dk/en/directors-choice/"
-        },
-        {
-          "title": "Defining Yongle: Imperial Art in Early Fifteenth-Century China",
-          "publisher": "The Metropolitan Museum of Art",
-          "url": "https://www.metmuseum.org/ko/met-publications/defining-yongle-imperial-art-in-early-fifteenth-century-china"
-        }
-      ]
-    },
-    {
-      "id": "tsuba-sano-naoyoshi-c1775",
-      "ch": "origins-and-crossings",
-      "zh": "日本刀镡",
-      "en": "Tsuba, Japanese sword guard",
-      "by": "Sano Naoyoshi, Japanese",
-      "date": "c. 1775",
-      "material": "metalwork",
-      "place": "Designmuseum Danmark",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "6—8分钟",
-      "image": "./assets/designmuseum-danmark/tsuba-sano-naoyoshi-c1775.webp",
-      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2024/03/h115_1a_designmuseumdanmark_photopernilleklemp.jpg",
-      "imageCaption": "日本刀镡 / Tsuba, Japanese sword guard",
-      "imageKind": "object",
-      "source": "https://designmuseum.dk/en/directors-choice/",
-      "cardSummary": "这不是一件“缩小版的武器”，而是一件夹在刀身与刀柄之间的金属护手。作品由日本工匠佐野直义制作，约作于1775年。刀镡首先保护持刀者的手，也帮助调整刀的平衡与操控；但在日本武士文化中，它又远不止一个安全零件：金属表面可以承载身份、审美和象征意味。",
-      "preciousWhy": "这不是一件“缩小版的武器”，而是一件夹在刀身与刀柄之间的金属护手。作品由日本工匠佐野直义制作，约作于1775年。刀镡首先保护持刀者的手，也帮助调整刀的平衡与操控；但在日本武士文化中，它又远不止一个安全零件：金属表面可以承载身份、审美和象征意味。",
-      "sources": [
-        {
-          "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
-          "publisher": "Designmuseum Danmark",
-          "url": "https://designmuseum.dk/en/directors-choice/"
-        },
-        {
-          "title": "How was it made? Tsuba",
-          "publisher": "Victoria and Albert Museum",
-          "url": "https://www.vam.ac.uk/articles/how-was-it-made-tsuba"
-        },
-        {
-          "title": "Tsuba (sword guard): Geometric patterns",
-          "publisher": "Princeton University Art Museum",
-          "url": "https://artmuseum.princeton.edu/art/collections/objects/19846"
-        }
-      ]
-    },
-    {
-      "id": "spengler-temple-spiral-staircase-1760",
-      "ch": "craft-and-worldmaking",
-      "zh": "带螺旋楼梯的神殿",
-      "en": "Temple with a spiral staircase",
-      "by": "Lorentz Spengler",
-      "date": "1760",
-      "material": "not specified on the official object page",
-      "place": "Designmuseum Danmark",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "8—12分钟",
-      "image": "./assets/designmuseum-danmark/spengler-temple-spiral-staircase-1760.webp",
-      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2024/03/1987_detail_Designmuseum-Danmark_photopernilleklemp-Stor.jpg",
-      "imageCaption": "带螺旋楼梯的神殿 / Temple with a spiral staircase",
-      "imageKind": "object",
-      "source": "https://designmuseum.dk/en/directors-choice/",
-      "cardSummary": "这是一件由洛伦茨·施彭格勒创作于1760年的工艺作品，现被 Designmuseum Danmark 选入馆长推荐的馆藏清单。它最值得看的地方，不只是“神殿”这个庄严的外形，而是其中那道不断旋转、向上延展的楼梯：一个本来需要身体去走的空间，被浓缩成了可以用眼睛游历的路径。",
-      "preciousWhy": "这是一件由洛伦茨·施彭格勒创作于1760年的工艺作品，现被 Designmuseum Danmark 选入馆长推荐的馆藏清单。它最值得看的地方，不只是“神殿”这个庄严的外形，而是其中那道不断旋转、向上延展的楼梯：一个本来需要身体去走的空间，被浓缩成了可以用眼睛游历的路径。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "SOURCES_SCHEMA",
-            "message": "$.upstreamConflicts[0].lockedValue is required",
-            "matches": []
-          },
-          {
-            "code": "SOURCES_SCHEMA",
-            "message": "$.upstreamConflicts[0].observedValue is required",
-            "matches": []
-          },
-          {
-            "code": "SOURCES_SCHEMA",
-            "message": "$.upstreamConflicts[0].explanation is required",
-            "matches": []
-          },
-          {
-            "code": "OFFICIAL_SOURCE_COVERAGE",
-            "message": "Official museum sources do not cover material",
-            "matches": [
-              "material"
-            ]
-          },
-          {
-            "code": "UNSUPPORTED_DISPLAY_STATUS",
-            "message": "Current display status is stated as certain although metadata is not confirmed",
-            "matches": []
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
-          "publisher": "Designmuseum Danmark",
-          "url": "https://designmuseum.dk/en/directors-choice/"
-        },
-        {
-          "title": "Elfenben og rav (rum C)",
-          "publisher": "Den Kongelige Samling",
-          "url": "https://denkongeligesamling.dk/rosenborg-slot/sale-rum/rum-c-elfenben-og-rav/"
-        },
-        {
-          "title": "Lorenz Spengler",
-          "publisher": "Dansk Biografisk Leksikon / Lex",
-          "url": "https://biografiskleksikon.lex.dk/Lorenz_Spengler"
-        }
-      ]
-    },
-    {
-      "id": "flora-danica-four-sided-serving-dish",
-      "ch": "craft-and-worldmaking",
-      "zh": "Flora Danica 餐具中的四边形餐盘",
-      "en": "Four-sided serving dish from the Flora Danica service",
-      "by": "Flora Danica / Royal Copenhagen Porcelain Factory",
-      "date": "1752–1803",
-      "material": "painted porcelain with gold ornamentation",
+      "id": "wegner-round-chair-jh501-1947",
+      "ch": "danish-modern-made-and-exported",
+      "zh": "圆椅（The Chair），JH 501",
+      "en": "The Round Chair (The Chair), JH 501",
+      "by": "汉斯·J. 韦格纳 / Hans J. Wegner",
+      "date": "1947",
+      "material": "木家具",
       "place": "Designmuseum Danmark",
       "tag": "绝对不可错过",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "10—15分钟",
-      "image": "./assets/designmuseum-danmark/flora-danica-four-sided-serving-dish.webp",
-      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2024/03/D1148_Designmuseum-Danmark_photopernilleklemp-Stor-Copy.jpg",
-      "imageCaption": "Flora Danica 餐具中的四边形餐盘 / Four-sided serving dish from the Flora Danica service",
-      "imageKind": "object",
-      "source": "https://designmuseum.dk/en/directors-choice/",
-      "cardSummary": "这是一件 Flora Danica 餐具中的四边形餐盘：绘饰瓷上有植物图像，边缘配以金色装饰，馆方标注年代为 1752—1803。它值得看的地方，不只是“皇家餐具很贵很精致”，而是它把三种通常分开的东西放到了一张餐桌上：启蒙时代整理自然的科学热情、王室展示身份与外交的需要，以及瓷器工匠几乎不容出错的手艺。",
-      "preciousWhy": "这是一件 Flora Danica 餐具中的四边形餐盘：绘饰瓷上有植物图像，边缘配以金色装饰，馆方标注年代为 1752—1803。它值得看的地方，不只是“皇家餐具很贵很精致”，而是它把三种通常分开的东西放到了一张餐桌上：启蒙时代整理自然的科学热情、王室展示身份与外交的需要，以及瓷器工匠几乎不容出错的手艺。",
-      "sources": [
-        {
-          "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
-          "publisher": "Designmuseum Danmark",
-          "url": "https://designmuseum.dk/en/directors-choice/"
-        },
-        {
-          "title": "The Flora Danica encyclopedia",
-          "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-flora-danica-encyclopedia/"
-        },
-        {
-          "title": "The story of Flora Danica",
-          "publisher": "Royal Copenhagen",
-          "url": "https://floradanica.royalcopenhagen.com/"
-        },
-        {
-          "title": "The Craft",
-          "publisher": "Royal Copenhagen",
-          "url": "https://floradanica.royalcopenhagen.com/the-craft/"
-        },
-        {
-          "title": "Flora Danica",
-          "publisher": "The Royal House of Denmark",
-          "url": "https://www.kongehuset.dk/nyheder/flora-danica"
-        }
-      ]
-    },
-    {
-      "id": "heron-service-wine-cooler-1885-88",
-      "ch": "craft-and-worldmaking",
-      "zh": "《苍鹭餐具》酒桶",
-      "en": "The Heron Service, wine cooler",
-      "by": "Pietro Krohn, with Fanny Garde, Effie Hegermann-Lindencrone and Ludvig Brandstrup",
-      "date": "1885–88",
-      "material": "not specified on the official object page",
-      "place": "Designmuseum Danmark",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "8—12分钟",
-      "image": "./assets/designmuseum-danmark/heron-service-wine-cooler-1885-88.webp",
-      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2024/03/208ab_1992_Designmuseum-Danmark_photopernilleklemp-Stor.jpg",
-      "imageCaption": "《苍鹭餐具》酒桶 / The Heron Service, wine cooler",
-      "imageKind": "object",
-      "source": "https://designmuseum.dk/en/directors-choice/",
-      "cardSummary": "这不是一只孤零零的酒桶，而是“苍鹭餐具”这套大型瓷质餐具中的一个成员。它由彼得罗·克龙设计，1885—1888年间完成，并与范妮·加德、埃菲·赫格曼-林登克罗内、路德维希·布兰德斯楚普合作制作。酒桶本来是餐桌上的实用器具，到了这里，却同时承担了展示身份、工艺和审美趣味的任务。",
-      "preciousWhy": "这不是一只孤零零的酒桶，而是“苍鹭餐具”这套大型瓷质餐具中的一个成员。它由彼得罗·克龙设计，1885—1888年间完成，并与范妮·加德、埃菲·赫格曼-林登克罗内、路德维希·布兰德斯楚普合作制作。酒桶本来是餐桌上的实用器具，到了这里，却同时承担了展示身份、工艺和审美趣味的任务。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "OFFICIAL_SOURCE_COVERAGE",
-            "message": "Official museum sources do not cover material",
-            "matches": [
-              "material"
-            ]
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Director’s Choice: Anne-Louise Sommer talks about her favorite design objects",
-          "publisher": "Designmuseum Danmark",
-          "url": "https://designmuseum.dk/en/directors-choice/"
-        },
-        {
-          "title": "Audioguide DIRECTOR’S CHOICE: The Heron Service",
-          "publisher": "Designmuseum Danmark / SoundCloud",
-          "url": "https://soundcloud.com/designmuseumdanmark/the-heron-service"
-        },
-        {
-          "title": "Japonisme 2 (2017), pp. 170–179",
-          "publisher": "Brill, Journal of Japonisme",
-          "url": "https://brill.com/view/journals/joj/2/2/article-p170_5.pdf"
-        },
-        {
-          "title": "Fanny Garde, keramiker",
-          "publisher": "Dansk Kvindebiografisk Leksikon / Lex.dk",
-          "url": "https://kvindebiografiskleksikon.lex.dk/Fanny_Garde"
-        },
-        {
-          "title": "A Bing & Grøndahl porcelain ‘Heron’ pattern japonaiserie part dinner service",
-          "publisher": "Sotheby’s",
-          "url": "https://www.sothebys.com/en/buy/auction/2024/noble-private-collections/a-bing-groendahl-porcelain-heron-pattern"
-        },
-        {
-          "title": "CLAY Nyt nr. 5, juni 2020",
-          "publisher": "CLAY Museum of Ceramic Art Denmark",
-          "url": "https://claymuseum.dk/wp-content/uploads/2020/06/CLAY-Nyt-05-2020.pdf"
-        }
-      ]
-    },
-    {
-      "id": "gauguin-jug-self-portrait-1889",
-      "ch": "craft-and-worldmaking",
-      "zh": "自画像壶",
-      "en": "Jug Self-portrait",
-      "by": "Paul Gauguin, French",
-      "date": "1889",
-      "material": "ceramic",
-      "place": "Designmuseum Danmark",
-      "tag": "绝对不可错过",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "8—12分钟",
-      "image": "./assets/designmuseum-danmark/gauguin-jug-self-portrait-1889.webp",
-      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2024/03/962.-Designmuseum-Danmark.-Photo-Pernille-Klemp-Stor.jpg",
-      "imageCaption": "自画像壶 / Jug Self-portrait",
-      "imageKind": "object",
-      "source": "https://designmuseum.dk/en/directors-choice/",
-      "cardSummary": "这是法国艺术家保罗·高更在1889年制作的一件釉陶作品，高约19.5厘米。它看起来是一只壶，却长着一张高更自己的脸：眼睛闭合，颈部像被突然截断，深红褐色的“牛血色”釉顺着表面流下。它最值得看的地方，不只是“画家也会做陶瓷”，而是高更让泥土直接承担了情绪。站在它面前，先别急着把它归入绘画、雕塑或日用品；请同时看它的开口、头部轮廓和釉色流向。这个小东西既能让人想到器皿，也像一具肖像、一张面具，甚至像一段被烧进窑火里的私人记忆。",
-      "preciousWhy": "这是法国艺术家保罗·高更在1889年制作的一件釉陶作品，高约19.5厘米。它看起来是一只壶，却长着一张高更自己的脸：眼睛闭合，颈部像被突然截断，深红褐色的“牛血色”釉顺着表面流下。它最值得看的地方，不只是“画家也会做陶瓷”，而是高更让泥土直接承担了情绪。站在它面前，先别急着把它归入绘画、雕塑或日用品；请同时看它的开口、头部轮廓和釉色流向。这个小东西既能让人想到器皿，也像一具肖像、一张面具，甚至像一段被烧进窑火里的私人记忆。",
-      "sources": [
-        {
-          "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
-          "publisher": "Designmuseum Danmark",
-          "url": "https://designmuseum.dk/en/directors-choice/"
-        },
-        {
-          "title": "Van Gogh and Gauguin: The Studio of the South — checklist",
-          "publisher": "Art Institute of Chicago",
-          "url": "https://archive.artic.edu/vangogh/vg_list.html"
-        },
-        {
-          "title": "Vessel with Women and Goats — Paul Gauguin",
-          "publisher": "The Metropolitan Museum of Art",
-          "url": "https://www.metmuseum.org/art/collection/search/239364"
-        },
-        {
-          "title": "Connecting Gauguin’s metaphors of the creative act",
-          "publisher": "RES: Anthropology and Aesthetics / Harvard University",
-          "url": "https://www.unige.ch/lettres/armus/unites/istar/download_file/view/251/259"
-        },
-        {
-          "title": "Four days after finding Van Gogh with a mutilated ear, Gauguin witnessed the guillotining of a murderer",
-          "publisher": "The Art Newspaper",
-          "url": "https://www.theartnewspaper.com/2024/10/25/four-days-after-finding-van-gogh-with-a-mutilated-ear-gauguin-witnessed-the-guillotining-of-a-murderer"
-        }
-      ]
-    },
-    {
-      "id": "hegermann-lindencrone-porcelain-vase-1899-1900",
-      "ch": "craft-and-worldmaking",
-      "zh": "瓷花瓶",
-      "en": "Porcelain vase",
-      "by": "Effie Hegermann-Lindencrone",
-      "date": "1899–1900",
-      "material": "pierced porcelain",
-      "place": "Designmuseum Danmark",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "8—12分钟",
-      "image": "./assets/designmuseum-danmark/hegermann-lindencrone-porcelain-vase-1899-1900.webp",
-      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2024/03/1214_designmuseumdanmark_photopernilleklemp-Stor.jpg",
-      "imageCaption": "瓷花瓶 / Porcelain vase",
-      "imageKind": "object",
-      "source": "https://designmuseum.dk/en/directors-choice/",
-      "cardSummary": "这是一件由埃菲·赫格尔曼-林登克罗内（Effie Hegermann-Lindencrone）创作于1899—1900年的穿孔瓷花瓶。它最值得看的地方，恰恰是它对“花瓶”这个身份的轻微 sabotaging：器壁被镂空，花和叶不只是贴在表面的装饰，而仿佛长成了容器本身；因此，它几乎不能再承担盛水的实用功能，却获得了更强的雕塑感。",
-      "preciousWhy": "这是一件由埃菲·赫格尔曼-林登克罗内（Effie Hegermann-Lindencrone）创作于1899—1900年的穿孔瓷花瓶。它最值得看的地方，恰恰是它对“花瓶”这个身份的轻微 sabotaging：器壁被镂空，花和叶不只是贴在表面的装饰，而仿佛长成了容器本身；因此，它几乎不能再承担盛水的实用功能，却获得了更强的雕塑感。",
-      "sources": [
-        {
-          "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
-          "publisher": "Designmuseum Danmark",
-          "url": "https://designmuseum.dk/en/directors-choice/"
-        },
-        {
-          "title": "Effie Hegermann-Lindencrone, Vase, Inv. no. MK 22",
-          "publisher": "The David Collection",
-          "url": "https://catalog.davidmus.dk/en/item/1890/mk-22.pdf"
-        },
-        {
-          "title": "Effie Hegermann-Lindencrone",
-          "publisher": "Lex / Designmuseum Danmark",
-          "url": "https://lex.dk/Effie_Hegermann-Lindencrone"
-        }
-      ]
-    },
-    {
-      "id": "malling-hansen-writing-ball-1870s",
-      "ch": "communication-and-public-design",
-      "zh": "汉森写字球",
-      "en": "Hansen Writing Ball",
-      "by": "Rasmus Malling-Hansen",
-      "date": "1870s",
-      "material": "not specified on the official object page",
-      "place": "Designmuseum Danmark",
-      "tag": "绝对不可错过",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "10—15分钟",
-      "image": "./assets/designmuseum-danmark/malling-hansen-writing-ball-1870s.webp",
-      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2024/03/057_2017_Designmuseum-Danmark_photopernilleklemp-Stor-Copy.jpg",
-      "imageCaption": "汉森写字球 / Hansen Writing Ball",
-      "imageKind": "object",
-      "source": "https://designmuseum.dk/en/directors-choice/",
-      "cardSummary": "这是一台19世纪70年代的打字机，由丹麦发明家 Rasmus Malling-Hansen 设计。它最特别的地方，不是把键排成我们熟悉的横向键盘，而是让字母、数字和符号围绕一个半球排列；手指按下某个键，字杆便向中央落下，把字符印到纸上。",
-      "preciousWhy": "这是一台19世纪70年代的打字机，由丹麦发明家 Rasmus Malling-Hansen 设计。它最特别的地方，不是把键排成我们熟悉的横向键盘，而是让字母、数字和符号围绕一个半球排列；手指按下某个键，字杆便向中央落下，把字符印到纸上。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "OFFICIAL_SOURCE_COVERAGE",
-            "message": "Official museum sources do not cover material",
-            "matches": [
-              "material"
-            ]
-          },
-          {
-            "code": "UNSUPPORTED_DIRECT_QUOTE",
-            "message": "Direct quotation lacks a valid source record",
-            "matches": [
-              "尼采后来写道：“书写工具也帮助塑造我们的思想。”"
-            ]
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
-          "publisher": "Designmuseum Danmark",
-          "url": "https://designmuseum.dk/en/directors-choice/"
-        },
-        {
-          "title": "Hansen's Writing Ball, also known as Malling-Hansen Writing Ball",
-          "publisher": "Science Museum Group Collection",
-          "url": "https://collection.sciencemuseumgroup.org.uk/objects/co38206/hansens-writing-ball-also-known-as-malling-hansen-writing-ball"
-        },
-        {
-          "title": "Nyheder - Designmuseum Danmark",
-          "publisher": "Designmuseum Danmark",
-          "url": "https://designmuseum.dk/om/nyheder/"
-        },
-        {
-          "title": "Friedrich Nietzsche’s writing ball",
-          "publisher": "Klassik Stiftung Weimar",
-          "url": "https://www.klassik-stiftung.de/en/home/digital/collection-highlights/friedrich-nietzsches-writing-ball/"
-        }
-      ]
-    },
-    {
-      "id": "thorvald-bindesboll-carlsberg-label-1904",
-      "ch": "communication-and-public-design",
-      "zh": "嘉士伯标签",
-      "en": "Carlsberg label",
-      "by": "Thorvald Bindesbøll",
-      "date": "1904",
-      "material": "graphic design / label",
-      "place": "Designmuseum Danmark",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "6—8分钟",
-      "image": "./assets/designmuseum-danmark/thorvald-bindesboll-carlsberg-label-1904.png",
-      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Carlsberg_Pilsner_1904_label_by_Thorvald_Bindesboll.png",
-      "imageCaption": "嘉士伯标签 / Carlsberg label",
-      "imageKind": "object",
-      "source": "https://designmuseum.dk/qr-site/2-thorvald-bindesboell-carlsberg-etikette-1904/",
-      "cardSummary": "这是一件由丹麦建筑师、艺术家 Thorvald Bindesbøll 设计的商业标签，创作于1904年。它为嘉士伯啤酒服务，却不只是“把品牌名印上去”这么简单：标签用卷曲、有机的字形联想到啤酒花，把植物、酿造和丹麦当时流行的 Skønvirke 设计气质，压缩进一小块随瓶流通的纸面。1904年，嘉士伯获得向丹麦王室供货的资格，标签也因此承担了身份认证的作用。站在作品前，先关注三件事：字母怎样像藤蔓一样展开，皇冠与啤酒花怎样共同组织信息，以及一件原本会被撕掉的包装，为什么值得进入设计博物馆。",
-      "preciousWhy": "这是一件由丹麦建筑师、艺术家 Thorvald Bindesbøll 设计的商业标签，创作于1904年。它为嘉士伯啤酒服务，却不只是“把品牌名印上去”这么简单：标签用卷曲、有机的字形联想到啤酒花，把植物、酿造和丹麦当时流行的 Skønvirke 设计气质，压缩进一小块随瓶流通的纸面。1904年，嘉士伯获得向丹麦王室供货的资格，标签也因此承担了身份认证的作用。站在作品前，先关注三件事：字母怎样像藤蔓一样展开，皇冠与啤酒花怎样共同组织信息，以及一件原本会被撕掉的包装，为什么值得进入设计博物馆。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "SOURCES_SCHEMA",
-            "message": "$.upstreamConflicts[0].lockedValue is required",
-            "matches": []
-          },
-          {
-            "code": "SOURCES_SCHEMA",
-            "message": "$.upstreamConflicts[0].observedValue is required",
-            "matches": []
-          },
-          {
-            "code": "SOURCES_SCHEMA",
-            "message": "$.upstreamConflicts[0].explanation is required",
-            "matches": []
-          },
-          {
-            "code": "OFFICIAL_SOURCE_COVERAGE",
-            "message": "Official museum sources do not cover material",
-            "matches": [
-              "material"
-            ]
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Thorvald Bindesbøll, Carlsberg-etikette, 1904",
-          "publisher": "Designmuseum Danmark",
-          "url": "https://designmuseum.dk/qr-site/2-thorvald-bindesboell-carlsberg-etikette-1904/"
-        },
-        {
-          "title": "Årsrapport 2024",
-          "publisher": "Designmuseum Danmark",
-          "url": "https://designmuseum.dk/wp-content/uploads/2025/05/Aarsrapport_2024_WEB.pdf"
-        },
-        {
-          "title": "Historien bag Carlsberg",
-          "publisher": "Carlsberg Danmark",
-          "url": "https://carlsbergdanmark.dk/mod-os/historien-bag/"
-        },
-        {
-          "title": "Carlsberg Heritage",
-          "publisher": "Carlsberg",
-          "url": "https://www.carlsberghongkong.com.hk/en/about-us/carlsberg-heritage/"
-        },
-        {
-          "title": "Th. Bindesbølls etiket til Carlsberg",
-          "publisher": "Vejen Kunstmuseum",
-          "url": "https://www.vejenkunstmuseum.dk/Dansk/KOT/2016/KOT_2016_nr_2%20-%20Samlet.pdf"
-        }
-      ]
-    },
-    {
-      "id": "nilfisk-l10-vacuum-cleaner-1922",
-      "ch": "modern-life-and-materials",
-      "zh": "Nilfisk L10 吸尘器",
-      "en": "Nilfisk vacuum cleaner, L10",
-      "by": "Fisker & Nielsen A/S",
-      "date": "1922",
-      "material": "industrial product; material not specified on the official object page",
-      "place": "Designmuseum Danmark",
-      "tag": "强烈推荐",
       "significance": "重要藏品",
       "availabilityTag": "不确定是否展出",
       "time": "8—10分钟",
-      "image": "./assets/designmuseum-danmark/nilfisk-l10-vacuum-cleaner-1922.jpg",
-      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Nilfisk_1920_Vacuum_cleaner_img_1392.jpg",
-      "imageCaption": "Nilfisk L10 吸尘器 / Nilfisk vacuum cleaner, L10",
+      "image": "./assets/designmuseum-danmark/wegner-round-chair-jh501-1947.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3AHans_j._wegner_per_johannes_hansen%2C_sedia_modello_JH_501%2C_copenhagen_1949.jpg",
+      "imageCaption": "圆椅（The Chair），JH 501 / The Round Chair (The Chair), JH 501",
       "imageKind": "object",
-      "source": "https://designmuseum.dk/en/directors-choice/",
-      "cardSummary": "这是一台由 Fisker & Nielsen A/S 制作、1922 年问世的 Nilfisk L10 吸尘器。它值得看的地方，不只是“老”，而是它把一个原本笨重、费力的清洁工具，整理成了清楚、紧凑、带有工业气质的日常机器。站在它面前，先看整体轮廓：从上方的环形把手，到中段收束的机身，再到下方展开的吸尘部分，线条像一枚竖立的鱼雷。你会发现，设计并没有把机器伪装成家具；它坦率地展示自己是一台机器，而且正因为坦率，反而显得利落。",
-      "preciousWhy": "这是一台由 Fisker & Nielsen A/S 制作、1922 年问世的 Nilfisk L10 吸尘器。它值得看的地方，不只是“老”，而是它把一个原本笨重、费力的清洁工具，整理成了清楚、紧凑、带有工业气质的日常机器。站在它面前，先看整体轮廓：从上方的环形把手，到中段收束的机身，再到下方展开的吸尘部分，线条像一枚竖立的鱼雷。你会发现，设计并没有把机器伪装成家具；它坦率地展示自己是一台机器，而且正因为坦率，反而显得利落。",
+      "source": "https://designmuseum.dk/qr-site/11-hans-j-wegner-jh-501-den-runde-stol-the-chair-1947/",
+      "cardSummary": "这是汉斯·J. 韦格纳设计的木制扶手椅，官方对象页标为1947年。它最值得看的地方，不只是“丹麦设计很简洁”，而是它把木材、藤编和人体支撑组织成了一条连续的曲线：椅背向两侧滑入扶手，扶手再落向前腿，像一圈开放的木头把身体轻轻围住。先看这条上部曲线，再看座面交错的藤条，以及光线穿过镂空座面投下的影子。你会发现，它并没有把结构藏起来；恰恰相反，手艺、材料和舒适感都被放在了明处。",
+      "preciousWhy": "这是汉斯·J. 韦格纳设计的木制扶手椅，官方对象页标为1947年。它最值得看的地方，不只是“丹麦设计很简洁”，而是它把木材、藤编和人体支撑组织成了一条连续的曲线：椅背向两侧滑入扶手，扶手再落向前腿，像一圈开放的木头把身体轻轻围住。先看这条上部曲线，再看座面交错的藤条，以及光线穿过镂空座面投下的影子。你会发现，它并没有把结构藏起来；恰恰相反，手艺、材料和舒适感都被放在了明处。",
       "contentWarning": {
         "title": "内容尚未通过完整校验",
         "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
         "issues": [
           {
-            "code": "OFFICIAL_SOURCE_COVERAGE",
-            "message": "Official museum sources do not cover material",
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
             "matches": [
-              "material"
-            ]
+              "重要",
+              "经典"
+            ],
+            "severity": "warning"
           }
         ]
       },
       "sources": [
         {
-          "title": "Director’s Choice: Anne-Louise Sommer talks about her favorite design objects",
+          "title": "11. Hans J. Wegner, JH 501, Den runde stol, The Chair, 1947",
           "publisher": "Designmuseum Danmark",
-          "url": "https://designmuseum.dk/en/directors-choice/"
+          "url": "https://designmuseum.dk/qr-site/11-hans-j-wegner-jh-501-den-runde-stol-the-chair-1947/"
         },
         {
-          "title": "Design Fortællinger",
-          "publisher": "Designmuseum Danmark",
-          "url": "https://designmuseum.dk/design-fortaellinger/"
+          "title": "Armchair ‘JH 501’",
+          "publisher": "Nationalmuseum, Sweden",
+          "url": "https://collection.nationalmuseum.se/en/collection/item/10057/"
         },
         {
-          "title": "The history of Nilfisk | Over a century of innovation",
-          "publisher": "Nilfisk",
-          "url": "https://www.nilfisk.com/global/professional/about-nilfisk/about-nilfisk-group/the-history-of-nilfisk/"
-        }
-      ]
-    },
-    {
-      "id": "poul-henningsen-table-lamp-4-3-1927",
-      "ch": "modern-life-and-materials",
-      "zh": "4/3 台灯",
-      "en": "Table lamp 4/3",
-      "by": "Poul Henningsen",
-      "date": "1927",
-      "material": "lighting product; material not specified on the official collection page",
-      "place": "Designmuseum Danmark",
-      "tag": "绝对不可错过",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "10—15分钟",
-      "image": "./assets/designmuseum-danmark/poul-henningsen-table-lamp-4-3-1927.webp",
-      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2017/02/039_71441.jpg",
-      "imageCaption": "4/3 台灯 / Table lamp 4/3",
-      "imageKind": "object",
-      "source": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
-      "cardSummary": "这是一件由丹麦设计师 Poul Henningsen 设计、年代标为 1927 年的台灯，现被 Designmuseum Danmark 列入产品设计藏品。它最值得看的地方，不只是“长得经典”，而是它把照明从一个灯泡，变成了一套精心安排光线的系统：光不必刺眼，也不必平均地洒得到处都是，而是可以被分层、反射，再送到真正需要的地方。",
-      "preciousWhy": "这是一件由丹麦设计师 Poul Henningsen 设计、年代标为 1927 年的台灯，现被 Designmuseum Danmark 列入产品设计藏品。它最值得看的地方，不只是“长得经典”，而是它把照明从一个灯泡，变成了一套精心安排光线的系统：光不必刺眼，也不必平均地洒得到处都是，而是可以被分层、反射，再送到真正需要的地方。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "OFFICIAL_SOURCE_COVERAGE",
-            "message": "Official museum sources do not cover material",
-            "matches": [
-              "material"
-            ]
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Objects & collections",
-          "publisher": "Designmuseum Danmark",
-          "url": "https://designmuseum.dk/en/samlinger/genstandssamlinger/"
+          "title": "pp501/pp503 | Round Chair",
+          "publisher": "PP Møbler",
+          "url": "https://pp.dk/product/pp501-pp503/"
         },
         {
-          "title": "PH 4/3 Table",
-          "publisher": "Louis Poulsen",
-          "url": "https://www.louispoulsen.com/en/catalog/private/table/ph-43-table?v=90391-5744911120-06"
+          "title": "Milling",
+          "publisher": "PP Møbler",
+          "url": "https://pp.dk/milling/"
         },
         {
-          "title": "PH 4/3, table lamp",
+          "title": "Round chair, model no. JH 501",
           "publisher": "National Gallery of Victoria",
-          "url": "https://www.ngv.vic.gov.au/explore/collection/work/114726/"
-        },
-        {
-          "title": "PH-5 Lamp, Designed 1957",
-          "publisher": "Philadelphia Museum of Art",
-          "url": "https://www.philamuseum.org/objects/76343"
-        }
-      ]
-    },
-    {
-      "id": "kaare-klint-red-chair-1927",
-      "ch": "modern-life-and-materials",
-      "zh": "红椅",
-      "en": "Red Chair",
-      "by": "Kaare Klint",
-      "date": "1927",
-      "material": "chair; material not specified on the official object page",
-      "place": "Designmuseum Danmark",
-      "tag": "绝对不可错过",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "8—10分钟",
-      "image": "./assets/designmuseum-danmark/kaare-klint-red-chair-1927.webp",
-      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2024/03/15-002_Den_danske_stole_13976_109238-Stor.jpg",
-      "imageCaption": "红椅 / Red Chair",
-      "imageKind": "object",
-      "source": "https://designmuseum.dk/en/directors-choice/",
-      "cardSummary": "《红椅》是一把由丹麦设计师卡埃尔·克林特（Kaare Klint，1888—1954）设计、完成于1927年的椅子。它最值得看的地方，不是“红色”有多醒目，而是它怎样把一把带有18世纪英国家具影子的历史椅子，重新整理成适合现代生活和公共空间的家具。它原本为丹麦艺术与设计博物馆的讲演厅设计，因此从出生起就要面对真实的身体、连续使用和成排摆放，而不是只在纸上漂亮。",
-      "preciousWhy": "《红椅》是一把由丹麦设计师卡埃尔·克林特（Kaare Klint，1888—1954）设计、完成于1927年的椅子。它最值得看的地方，不是“红色”有多醒目，而是它怎样把一把带有18世纪英国家具影子的历史椅子，重新整理成适合现代生活和公共空间的家具。它原本为丹麦艺术与设计博物馆的讲演厅设计，因此从出生起就要面对真实的身体、连续使用和成排摆放，而不是只在纸上漂亮。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "OFFICIAL_SOURCE_COVERAGE",
-            "message": "Official museum sources do not cover material",
-            "matches": [
-              "material"
-            ]
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
-          "publisher": "Designmuseum Danmark",
-          "url": "https://designmuseum.dk/en/directors-choice/"
-        },
-        {
-          "title": "Kaare Klint - 'The Red Chair' - Designed 1927",
-          "publisher": "Dansk Møbelkunst",
-          "url": "https://dmk.dk/item/kaare-klint-the-red-chair-rud-rasmussen-1927-2/"
-        },
-        {
-          "title": "Den røde stol / the Red Chair by Kaare Klint 1927",
-          "publisher": "Danish Design Review",
-          "url": "https://danishdesignreview.com/a-danish-chair-1/2017/11/1/the-red-chair-by-kaare-klint-1927-w7dw5"
-        }
-      ]
-    },
-    {
-      "id": "marie-gudme-leth-tree-pattern-1937",
-      "ch": "modern-life-and-materials",
-      "zh": "树木图案",
-      "en": "Tree pattern",
-      "by": "Marie Gudme Leth",
-      "date": "1937",
-      "material": "textile print; material not specified on the official object page",
-      "place": "Designmuseum Danmark",
-      "tag": "强烈推荐",
-      "significance": "特色看点",
-      "availabilityTag": "不确定是否展出",
-      "time": "6—8分钟",
-      "image": "./assets/designmuseum-danmark/marie-gudme-leth-tree-pattern-1937.webp",
-      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2024/03/167_1999-Traemonster..-Designmuseum-Danmark.-Photo-Pernille-Klemp-Stor.jpg",
-      "imageCaption": "树木图案 / Tree pattern",
-      "imageKind": "object",
-      "source": "https://designmuseum.dk/en/directors-choice/",
-      "cardSummary": "《树木图案》是丹麦纺织设计师玛丽·古德梅·利特（Marie Gudme Leth）创作于1937年的纺织印花作品。它值得看的地方，不只是“把树印在布上”这么直白：利特把自然形象转换成可以重复、铺展、进入日常生活的图案，让布料同时拥有工艺的手感、设计的秩序和图像的表现力。站在作品前，可以先别急着寻找一棵“标准的树”，而是观察树木怎样被安排进一块平面：它如何重复，怎样形成节奏，又如何从单个形象变成覆盖整块织物的视觉环境。1937年正处在利特推动丹麦纺织印花重新成为重要手工艺的时期；所以这件作品也像一座小小的桥，连接自然观察、手工技术与现代生活。",
-      "preciousWhy": "《树木图案》是丹麦纺织设计师玛丽·古德梅·利特（Marie Gudme Leth）创作于1937年的纺织印花作品。它值得看的地方，不只是“把树印在布上”这么直白：利特把自然形象转换成可以重复、铺展、进入日常生活的图案，让布料同时拥有工艺的手感、设计的秩序和图像的表现力。站在作品前，可以先别急着寻找一棵“标准的树”，而是观察树木怎样被安排进一块平面：它如何重复，怎样形成节奏，又如何从单个形象变成覆盖整块织物的视觉环境。1937年正处在利特推动丹麦纺织印花重新成为重要手工艺的时期；所以这件作品也像一座小小的桥，连接自然观察、手工技术与现代生活。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "OFFICIAL_SOURCE_COVERAGE",
-            "message": "Official museum sources do not cover material",
-            "matches": [
-              "material"
-            ]
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Director's Choice: Tree pattern, 1937",
-          "publisher": "Designmuseum Danmark",
-          "url": "https://designmuseum.dk/en/directors-choice/"
-        },
-        {
-          "title": "Marie Gudme Leth - Pioneer of print",
-          "publisher": "Designmuseum Danmark via Google Arts & Culture",
-          "url": "https://artsandculture.google.com/story/marie-gudme-leth-pioneer-of-print-designmuseum-danmark/ygUBORBdLNlEKw?hl=en"
-        },
-        {
-          "title": "Marie Gudme Leth, kunsthåndværker",
-          "publisher": "Lex / Dansk Kvindebiografisk Leksikon",
-          "url": "https://kvindebiografiskleksikon.lex.dk/Marie_Gudme_Leth"
+          "url": "https://www.ngv.vic.gov.au/explore/collection/work/20436/"
         }
       ]
     },
     {
       "id": "finn-juhl-butterfly-coffee-table-prototype-1949",
-      "ch": "danish-chair-as-system",
+      "ch": "danish-modern-made-and-exported",
       "zh": "蝴蝶咖啡桌（原型）",
       "en": "Butterfly coffee table (prototype)",
-      "by": "Finn Juhl",
+      "by": "芬·尤尔 / Finn Juhl",
       "date": "1949",
-      "material": "coffee table; material not specified on the official object page",
+      "material": "木家具原型",
       "place": "Designmuseum Danmark",
-      "tag": "强烈推荐",
+      "tag": "绝对不可错过",
       "significance": "重要藏品",
       "availabilityTag": "不确定是否展出",
-      "time": "8—12分钟",
+      "time": "7—9分钟",
       "image": "./assets/designmuseum-danmark/finn-juhl-butterfly-coffee-table-prototype-1949.webp",
-      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2024/03/409_2021_Designmuseum-Danmark_photopernilleklemp-Stor-Copy.jpg",
+      "imageSource": "https://designmuseum.dk/en/directors-choice/",
       "imageCaption": "蝴蝶咖啡桌（原型） / Butterfly coffee table (prototype)",
       "imageKind": "object",
       "source": "https://designmuseum.dk/en/directors-choice/",
-      "cardSummary": "这是一件丹麦建筑师、家具设计师芬·尤尔（Finn Juhl）于1949年设计的咖啡桌原型。它最值得看的地方，不只是造型轻盈、名字听起来很有翅膀，而是它把“桌子要好用”和“桌子可以像雕塑一样有生命”放进了同一个设计里。站在它前面，可以先注意三件事：桌面的有机轮廓、中央圆形黄铜嵌件，以及三条腿如何托住整个结构。再想一想：如果桌面可以收放，家具是不是也能像身体一样改变姿态？",
-      "preciousWhy": "这是一件丹麦建筑师、家具设计师芬·尤尔（Finn Juhl）于1949年设计的咖啡桌原型。它最值得看的地方，不只是造型轻盈、名字听起来很有翅膀，而是它把“桌子要好用”和“桌子可以像雕塑一样有生命”放进了同一个设计里。站在它前面，可以先注意三件事：桌面的有机轮廓、中央圆形黄铜嵌件，以及三条腿如何托住整个结构。再想一想：如果桌面可以收放，家具是不是也能像身体一样改变姿态？",
+      "cardSummary": "这是一张由芬·尤尔设计、木匠大师尼尔斯·沃德合作完成的咖啡桌原型，诞生于1949年。它值得看，不只是因为造型漂亮，而是因为它把一件家具做得像一件小型雕塑：桌面轻轻展开，边缘像翅膀，三条腿从下方支撑起一片有机的木头。站在它面前，先别急着把它当成“放咖啡的平面”，可以先看三件事：桌面如何悬挑，侧面如何向下收拢，以及那枚黄铜圆片怎样像一只安静的眼睛，把整张桌子的视觉重心稳住。",
+      "preciousWhy": "这是一张由芬·尤尔设计、木匠大师尼尔斯·沃德合作完成的咖啡桌原型，诞生于1949年。它值得看，不只是因为造型漂亮，而是因为它把一件家具做得像一件小型雕塑：桌面轻轻展开，边缘像翅膀，三条腿从下方支撑起一片有机的木头。站在它面前，先别急着把它当成“放咖啡的平面”，可以先看三件事：桌面如何悬挑，侧面如何向下收拢，以及那枚黄铜圆片怎样像一只安静的眼睛，把整张桌子的视觉重心稳住。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
       "sources": [
         {
           "title": "Director's Choice: Anne-Louise Sommer talks about her favorite design objects",
           "publisher": "Designmuseum Danmark",
           "url": "https://designmuseum.dk/en/directors-choice/"
-        },
-        {
-          "title": "Designmuseum Danmark Årsberetning 2020",
-          "publisher": "Designmuseum Danmark",
-          "url": "https://designmuseum.dk/wp-content/uploads/2023/04/Designmuseum-Danmark-Aarsberetning-2020-1.pdf"
         },
         {
           "title": "The Butterfly Table | Finn Juhl | 1949",
@@ -934,246 +1296,135 @@ museumData["designmuseum-danmark"] = {
       ]
     },
     {
-      "id": "hans-wegner-wishbone-chair-1950",
-      "ch": "danish-chair-as-system",
-      "zh": "Wishbone 椅",
-      "en": "Wishbone chair",
-      "by": "Hans J. Wegner",
-      "date": "1950",
-      "material": "chair; material not specified on the official exhibition page",
-      "place": "Designmuseum Danmark",
-      "tag": "绝对不可错过",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "10—15分钟",
-      "image": "./assets/designmuseum-danmark/hans-wegner-wishbone-chair-1950.jpg",
-      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/5/58/Hans_J_Wegner_Wishbone_Chair.jpg",
-      "imageCaption": "Wishbone 椅 / Wishbone chair",
-      "imageKind": "object",
-      "source": "https://designmuseum.dk/en/the-danish-chair/",
-      "cardSummary": "这是一把由丹麦设计师汉斯·J.·韦格纳设计、馆方标注为1950年的椅子，也常被称为 CH24 或 Y椅。它值得看，不只是因为轮廓漂亮，而是因为它把“坐得舒服”“做得结实”和“看起来轻巧”压缩进了几根木料与一张编织座面里。",
-      "preciousWhy": "这是一把由丹麦设计师汉斯·J.·韦格纳设计、馆方标注为1950年的椅子，也常被称为 CH24 或 Y椅。它值得看，不只是因为轮廓漂亮，而是因为它把“坐得舒服”“做得结实”和“看起来轻巧”压缩进了几根木料与一张编织座面里。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "OFFICIAL_SOURCE_COVERAGE",
-            "message": "Official museum sources do not cover material",
-            "matches": [
-              "material"
-            ]
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "The Danish Chair – An International Affair",
-          "publisher": "Designmuseum Danmark",
-          "url": "https://designmuseum.dk/en/the-danish-chair/"
-        },
-        {
-          "title": "CH24 | Wishbone Chair",
-          "publisher": "Carl Hansen & Søn",
-          "url": "https://www.carlhansen.com/en/en/collection/chairs/dining-chairs/ch24"
-        },
-        {
-          "title": "Behind an icon: CH24",
-          "publisher": "Carl Hansen & Søn",
-          "url": "https://www.carlhansen.com/en/en/designers/hans-j-wegner/behind-an-icon-ch24"
-        },
-        {
-          "title": "Weaving",
-          "publisher": "Carl Hansen & Søn",
-          "url": "https://www.carlhansen.com/en/en/inspiration/craftsmanship/weaving"
-        }
-      ]
-    },
-    {
-      "id": "arne-jacobsen-ant-chair-1952",
-      "ch": "danish-chair-as-system",
-      "zh": "蚂蚁椅",
-      "en": "The Ant",
-      "by": "Arne Jacobsen",
-      "date": "1952",
-      "material": "chair; material not specified on the official exhibition page",
-      "place": "Designmuseum Danmark",
-      "tag": "绝对不可错过",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "10—15分钟",
-      "image": "./assets/designmuseum-danmark/arne-jacobsen-ant-chair-1952.jpg",
-      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Design_Museum_Danmark_-_Ant_chair.jpg/1920px-Design_Museum_Danmark_-_Ant_chair.jpg",
-      "imageCaption": "蚂蚁椅 / The Ant",
-      "imageKind": "object",
-      "source": "https://designmuseum.dk/en/the-danish-chair/",
-      "cardSummary": "《蚂蚁椅》是丹麦建筑师阿纳·雅各布森于1952年设计的3100号椅子，最初为诺和诺德前身 Novo 的食堂而作，由 Fritz Hansen 制造。它最值得看的地方，不只是外形轻巧，而是把座面和椅背压成一片连续的木质壳体：少一点零件，少一点重量，却要同时承担强度、舒适和批量生产的要求。",
-      "preciousWhy": "《蚂蚁椅》是丹麦建筑师阿纳·雅各布森于1952年设计的3100号椅子，最初为诺和诺德前身 Novo 的食堂而作，由 Fritz Hansen 制造。它最值得看的地方，不只是外形轻巧，而是把座面和椅背压成一片连续的木质壳体：少一点零件，少一点重量，却要同时承担强度、舒适和批量生产的要求。",
-      "sources": [
-        {
-          "title": "The Danish Chair - An International Affair",
-          "publisher": "Designmuseum Danmark",
-          "url": "https://designmuseum.dk/en/the-danish-chair/"
-        },
-        {
-          "title": "Arne Jacobsen, 3100, Myren, 1952",
-          "publisher": "Designmuseum Danmark",
-          "url": "https://designmuseum.dk/qr-site/20-arne-jacobsen-3100-myren-1952/"
-        },
-        {
-          "title": "The Ant",
-          "publisher": "Arne Jacobsen Design",
-          "url": "https://arnejacobsen.com/works/the-ant/"
-        },
-        {
-          "title": "Ant™ - Chair with focus on strength and comfort",
-          "publisher": "Fritz Hansen",
-          "url": "https://www.fritzhansen.com/en/categories/products/popular-series/ant"
-        }
-      ]
-    },
-    {
-      "id": "verner-panton-panton-chair-1960-1967",
-      "ch": "danish-chair-as-system",
-      "zh": "潘顿椅",
-      "en": "Panton Chair",
-      "by": "Verner Panton",
-      "date": "1960/1967–68",
-      "material": "plastic",
-      "place": "Designmuseum Danmark",
-      "tag": "绝对不可错过",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "10—15分钟",
-      "image": "./assets/designmuseum-danmark/verner-panton-panton-chair-1960-1967.jpg",
-      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/7/79/Panton_Chair_by_Verner_Panton.JPG",
-      "imageCaption": "潘顿椅 / Panton Chair",
-      "imageKind": "object",
-      "source": "https://designmuseum.dk/qr-site/23-verner-panton-panton-chair-1960-1967-68/",
-      "cardSummary": "潘顿椅是丹麦设计师维纳·潘顿设计的一把塑料椅。它最值得看的地方，不只是外形像一条从椅背滑到地面的连续曲线，而是它把“椅子应该怎样被制造”这个问题重新问了一遍：椅腿、座面和靠背不再分别制作、再组装，而是成为一个整体。潘顿在1960年前后做出最初原型，1967年公开展示，随后由Vitra推进生产，因此馆方将年代标为1960/1967—68。",
-      "preciousWhy": "潘顿椅是丹麦设计师维纳·潘顿设计的一把塑料椅。它最值得看的地方，不只是外形像一条从椅背滑到地面的连续曲线，而是它把“椅子应该怎样被制造”这个问题重新问了一遍：椅腿、座面和靠背不再分别制作、再组装，而是成为一个整体。潘顿在1960年前后做出最初原型，1967年公开展示，随后由Vitra推进生产，因此馆方将年代标为1960/1967—68。",
-      "sources": [
-        {
-          "title": "23. Verner Panton, Panton Chair, 1960/1967-68",
-          "publisher": "Designmuseum Danmark",
-          "url": "https://designmuseum.dk/qr-site/23-verner-panton-panton-chair-1960-1967-68/"
-        },
-        {
-          "title": "Panton Chair",
-          "publisher": "Vitra",
-          "url": "https://www.vitra.com/en-gb/page/panton-chair"
-        },
-        {
-          "title": "Panton Chair",
-          "publisher": "Verner Panton Design AG",
-          "url": "https://www.verner-panton.com/en/collection/panton-chair/"
-        }
-      ]
-    },
-    {
-      "id": "bang-olufsen-beogram-4000-1972",
-      "ch": "beyond-the-chair",
-      "zh": "Beogram 4000 唱片机",
-      "en": "Beogram 4000",
-      "by": "B&O",
-      "date": "1972",
-      "material": "industrial product; material not specified on the official collection page",
+      "id": "riis-carstensen-finn-juhl-easy-chair-1953",
+      "ch": "danish-modern-made-and-exported",
+      "zh": "自由扶手软包休闲椅",
+      "en": "Upholstered easy chair with free arms",
+      "by": "玛丽安娜·里斯-卡斯滕森与芬·尤尔 / Marianne Riis-Carstensen and Finn Juhl",
+      "date": "1953",
+      "material": "软包家具",
       "place": "Designmuseum Danmark",
       "tag": "强烈推荐",
       "significance": "重要藏品",
       "availabilityTag": "不确定是否展出",
-      "time": "8—10分钟",
-      "image": "./assets/designmuseum-danmark/bang-olufsen-beogram-4000-1972.jpg",
-      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/e/e5/B%26O_Beogram_4000.jpg?_=20110602093117",
-      "imageCaption": "Beogram 4000 唱片机 / Beogram 4000",
+      "time": "6—8分钟",
+      "image": "./assets/designmuseum-danmark/riis-carstensen-finn-juhl-easy-chair-1953.webp",
+      "imageSource": "https://designmuseum.dk/en/directors-choice/",
+      "imageCaption": "自由扶手软包休闲椅 / Upholstered easy chair with free arms",
       "imageKind": "object",
-      "source": "https://designmuseum.dk/en/samlinger/genstandssamlinger/",
-      "cardSummary": "这是一台由 B&O 制造、1972 年推出的唱片机，设计者是 Jacob Jensen。它值得看的地方，不只是“老式音响很好看”，而是它把一个听起来很抽象的问题——唱针怎样准确地沿着唱片纹路前进——变成了清楚可见、也可操作的机械动作。",
-      "preciousWhy": "这是一台由 B&O 制造、1972 年推出的唱片机，设计者是 Jacob Jensen。它值得看的地方，不只是“老式音响很好看”，而是它把一个听起来很抽象的问题——唱针怎样准确地沿着唱片纹路前进——变成了清楚可见、也可操作的机械动作。",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "cardSummary": "这是一件 1953 年的丹麦家具设计，由玛丽安娜·里斯-卡斯滕森与芬·尤尔共同署名。眼前看到的并不是一张普通产品照片，而更像一页把椅子从侧面、背面和上方交代清楚的设计绘图：黄色的软包负责承托身体，深色木框则把座位、靠背和扶手的关系勾勒出来。先看那条没有被软垫包住的扶手——“自由扶手”说的正是这种让结构露在外面的处理。它值得看，不只是因为造型优雅，还因为它让我们看见一把椅子如何在“坐得舒服”和“看起来轻盈”之间取得平衡。",
+      "preciousWhy": "这是一件 1953 年的丹麦家具设计，由玛丽安娜·里斯-卡斯滕森与芬·尤尔共同署名。眼前看到的并不是一张普通产品照片，而更像一页把椅子从侧面、背面和上方交代清楚的设计绘图：黄色的软包负责承托身体，深色木框则把座位、靠背和扶手的关系勾勒出来。先看那条没有被软垫包住的扶手——“自由扶手”说的正是这种让结构露在外面的处理。它值得看，不只是因为造型优雅，还因为它让我们看见一把椅子如何在“坐得舒服”和“看起来轻盈”之间取得平衡。",
       "contentWarning": {
         "title": "内容尚未通过完整校验",
         "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
         "issues": [
           {
-            "code": "OFFICIAL_SOURCE_COVERAGE",
-            "message": "Official museum sources do not cover material",
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
             "matches": [
-              "material"
-            ]
-          },
-          {
-            "code": "UNSUPPORTED_DISPLAY_STATUS",
-            "message": "Current display status is stated as certain although metadata is not confirmed",
-            "matches": []
+              "重要"
+            ],
+            "severity": "warning"
           }
         ]
       },
       "sources": [
         {
-          "title": "Objects & collections",
+          "title": "Director’s Choice: Anne-Louise Sommer talks about her favorite design objects",
           "publisher": "Designmuseum Danmark",
-          "url": "https://designmuseum.dk/en/samlinger/genstandssamlinger/"
+          "url": "https://designmuseum.dk/en/directors-choice/"
         },
         {
-          "title": "Jacob Jensen. Beogram 4000 Record Player. 1972",
-          "publisher": "The Museum of Modern Art",
-          "url": "https://www.moma.org/collection/works/2483"
-        },
-        {
-          "title": "Years of Magic — A History of B&O products",
-          "publisher": "Bang & Olufsen",
-          "url": "https://www.bang-olufsen.com/en/ie/story/years-of-magic"
-        },
-        {
-          "title": "BeoGram 4000",
-          "publisher": "Beoworld",
-          "url": "https://beoworld.org/beogram-4000/"
+          "title": "Designmuseum Danmark Årsberetning 2020",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/wp-content/uploads/2023/04/Designmuseum-Danmark-Aarsberetning-2020-1.pdf"
         }
       ]
     },
     {
-      "id": "katrine-bendixen-inside-out-lamp-2019",
-      "ch": "beyond-the-chair",
-      "zh": "《由内而外》灯具",
-      "en": "Inside Out, lamp",
-      "by": "Katrine Barbro Bendixen",
-      "date": "2019",
-      "material": "lamp; surrounding material not specified on the official object page",
+      "id": "wegner-valet-chair-jh540-1953",
+      "ch": "danish-modern-made-and-exported",
+      "zh": "侍从椅 JH 540",
+      "en": "The Valet Chair, JH 540",
+      "by": "汉斯·J. 韦格纳 / Hans J. Wegner",
+      "date": "1953",
+      "material": "木家具与衣物收纳结构",
       "place": "Designmuseum Danmark",
-      "tag": "时间充裕再看",
-      "significance": "特色看点",
+      "tag": "绝对不可错过",
+      "significance": "重要藏品",
       "availabilityTag": "不确定是否展出",
-      "time": "8—12分钟",
-      "image": "./assets/designmuseum-danmark/katrine-bendixen-inside-out-lamp-2019.webp",
-      "imageSource": "https://designmuseum.dk/en/wp-content/uploads/sites/5/2024/03/MG_2694-Stor.jpg",
-      "imageCaption": "《由内而外》灯具 / Inside Out, lamp",
+      "time": "8—10分钟",
+      "image": "./assets/designmuseum-danmark/wegner-valet-chair-jh540-1953.jpg",
+      "imageSource": "https://www.ngv.vic.gov.au/explore/collection/work/146352/",
+      "imageCaption": "侍从椅 JH 540 / The Valet Chair, JH 540",
       "imageKind": "object",
-      "source": "https://designmuseum.dk/en/directors-choice/",
-      "cardSummary": "这是一件2019年的灯具装置，作者是丹麦设计师 Katrine Barbro Bendixen。它的核心很简单：一盏LED灯，外面包围着经过处理的牛肠。听起来像厨房、屠宰场和设计博物馆之间开了一个玩笑，但作品真正有意思的地方，正在于它把“废料”“光”和“漂亮”放进了同一个问题里。站在作品前，可以先关注中央的光源，再看外层材料怎样遮挡、透过并重新组织光线。不要急着猜它像什么；先想一想：当一种通常被丢弃、甚至令人本能回避的材料被做成灯，我们对“有价值的材料”会不会也需要重新定义？",
-      "preciousWhy": "这是一件2019年的灯具装置，作者是丹麦设计师 Katrine Barbro Bendixen。它的核心很简单：一盏LED灯，外面包围着经过处理的牛肠。听起来像厨房、屠宰场和设计博物馆之间开了一个玩笑，但作品真正有意思的地方，正在于它把“废料”“光”和“漂亮”放进了同一个问题里。站在作品前，可以先关注中央的光源，再看外层材料怎样遮挡、透过并重新组织光线。不要急着猜它像什么；先想一想：当一种通常被丢弃、甚至令人本能回避的材料被做成灯，我们对“有价值的材料”会不会也需要重新定义？",
+      "source": "https://designmuseum.dk/qr-site/10-hans-j-wegner-jh540-jakkens-hvile-1953/",
+      "cardSummary": "这不是一把只负责让人坐下的椅子。汉斯·J. 韦格纳在 1953 年设计的 JH 540，同时扮演衣帽架、座椅和小型收纳柜：上方像衣架的部分可以挂外套，座面可以掀起，里面能放钥匙、钱包等小物，掀起后还可整理长裤。它值得看的地方，正是把“回家后如何放衣服”这种琐碎动作，变成了一件完整而优雅的家具。站在它面前，先别只看那块漂亮的木头；请看它怎样把一个人的身体、衣物和日常顺序，安排进同一副结构里。",
+      "preciousWhy": "这不是一把只负责让人坐下的椅子。汉斯·J. 韦格纳在 1953 年设计的 JH 540，同时扮演衣帽架、座椅和小型收纳柜：上方像衣架的部分可以挂外套，座面可以掀起，里面能放钥匙、钱包等小物，掀起后还可整理长裤。它值得看的地方，正是把“回家后如何放衣服”这种琐碎动作，变成了一件完整而优雅的家具。站在它面前，先别只看那块漂亮的木头；请看它怎样把一个人的身体、衣物和日常顺序，安排进同一副结构里。",
       "contentWarning": {
         "title": "内容尚未通过完整校验",
         "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
         "issues": [
           {
-            "code": "SOURCES_SCHEMA",
-            "message": "$.upstreamConflicts[0].lockedValue is required",
-            "matches": []
-          },
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "10. Hans J. Wegner, JH540, Jakkens Hvile, 1953",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/qr-site/10-hans-j-wegner-jh540-jakkens-hvile-1953/"
+        },
+        {
+          "title": "Valet chair, model no. JH540",
+          "publisher": "National Gallery of Victoria",
+          "url": "https://www.ngv.vic.gov.au/explore/collection/work/146352/"
+        },
+        {
+          "title": "Valet Chair",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/art/collection/search/495222"
+        }
+      ]
+    },
+    {
+      "id": "gudme-leth-tree-pattern-1937",
+      "ch": "prototype-material-and-archive",
+      "zh": "树纹",
+      "en": "Tree pattern",
+      "by": "玛丽·古德梅·莱特 / Marie Gudme Leth",
+      "date": "1937",
+      "material": "印花织物",
+      "place": "Designmuseum Danmark",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "5—7分钟",
+      "image": "./assets/designmuseum-danmark/gudme-leth-tree-pattern-1937.webp",
+      "imageSource": "https://designmuseum.dk/en/directors-choice/",
+      "imageCaption": "树纹 / Tree pattern",
+      "imageKind": "object",
+      "source": "https://designmuseum.dk/en/directors-choice/",
+      "cardSummary": "这是一件玛丽·古德梅·莱特（Marie Gudme Leth）创作于1937年的印花织物，也是 Designmuseum Danmark“馆长精选”中的作品。站在它面前，先别急着把它看成一块“花布”：请先看那棵深棕色的树。它像一条竖直的骨架，把鸟、花、叶子和果实组织成一幅可以不断接续的图案。作品最值得看的地方，正在于它把手工艺的温度、现代设计的秩序和日常织物的实用性放在了同一张布上。",
+      "preciousWhy": "这是一件玛丽·古德梅·莱特（Marie Gudme Leth）创作于1937年的印花织物，也是 Designmuseum Danmark“馆长精选”中的作品。站在它面前，先别急着把它看成一块“花布”：请先看那棵深棕色的树。它像一条竖直的骨架，把鸟、花、叶子和果实组织成一幅可以不断接续的图案。作品最值得看的地方，正在于它把手工艺的温度、现代设计的秩序和日常织物的实用性放在了同一张布上。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
           {
-            "code": "SOURCES_SCHEMA",
-            "message": "$.upstreamConflicts[0].observedValue is required",
-            "matches": []
-          },
-          {
-            "code": "SOURCES_SCHEMA",
-            "message": "$.upstreamConflicts[0].explanation is required",
-            "matches": []
-          },
-          {
-            "code": "UNSUPPORTED_DISPLAY_STATUS",
-            "message": "Current display status is stated as certain although metadata is not confirmed",
-            "matches": []
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
           }
         ]
       },
@@ -1184,24 +1435,336 @@ museumData["designmuseum-danmark"] = {
           "url": "https://designmuseum.dk/en/directors-choice/"
         },
         {
-          "title": "Matters – rethinking materials",
+          "title": "Marie Gudme Leth - Pioneer of print",
+          "publisher": "Designmuseum Danmark via Google Arts & Culture",
+          "url": "https://artsandculture.google.com/story/marie-gudme-leth-pioneer-of-print-designmuseum-danmark/ygUBORBdLNlEKw?hl=en"
+        },
+        {
+          "title": "Marie Gudme Leth",
+          "publisher": "Dansk Biografisk Leksikon, Lex",
+          "url": "https://biografiskleksikon.lex.dk/Marie_Gudme_Leth"
+        }
+      ]
+    },
+    {
+      "id": "kjaerholm-pk0-prototype-1952",
+      "ch": "prototype-material-and-archive",
+      "zh": "PK0 椅（原型）",
+      "en": "PK0",
+      "by": "保尔·克耶霍尔姆 / Poul Kjærholm",
+      "date": "1952",
+      "material": "模压胶合板",
+      "place": "Designmuseum Danmark",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "7—9分钟",
+      "image": "./assets/designmuseum-danmark/kjaerholm-pk0-prototype-1952.jpg",
+      "imageSource": "https://www.mutualart.com/Artwork/Fauteuil-mod--PK0--prototype--Creation/B9C34ACD9AD6A7A5",
+      "imageCaption": "PK0 椅（原型） / PK0",
+      "imageKind": "object",
+      "source": "https://designmuseum.dk/qr-site/22-poul-kjaerholm-pk0-1952/",
+      "cardSummary": "这是一把椅子，也是一场对“椅子应该长什么样”的测试。保尔·克耶霍尔姆在1952年设计了PK0原型；它属于这位受训家具建筑师最早的一批椅子设计。馆方特别强调，它把模压成型技术推向了极限，也挑战了人们对传统椅子形态的习惯想象。",
+      "preciousWhy": "这是一把椅子，也是一场对“椅子应该长什么样”的测试。保尔·克耶霍尔姆在1952年设计了PK0原型；它属于这位受训家具建筑师最早的一批椅子设计。馆方特别强调，它把模压成型技术推向了极限，也挑战了人们对传统椅子形态的习惯想象。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "22. Poul Kjærholm, PK0, 1952",
           "publisher": "Designmuseum Danmark",
-          "url": "https://designmuseum.dk/en/exhibition/matters/"
+          "url": "https://designmuseum.dk/qr-site/22-poul-kjaerholm-pk0-1952/"
         },
         {
-          "title": "Årsberetning 2019",
+          "title": "Poul Kjærholm",
+          "publisher": "Fritz Hansen",
+          "url": "https://www.fritzhansen.com/en/about-us/poul-kjaerholm"
+        },
+        {
+          "title": "POUL KJAERHOLM 1929-1980, Chaise PK0, le modèle créé en 1952, édition Fritz Hansen, 1997",
+          "publisher": "Christie's",
+          "url": "https://www.christies.com/en/lot/lot-5998190"
+        },
+        {
+          "title": "PK0 A - Fritz Hansen - chair",
+          "publisher": "designindex",
+          "url": "https://www.designindex.org/index/design/pk0-a-fritz-hansen.html"
+        }
+      ]
+    },
+    {
+      "id": "panton-s-chair-1956",
+      "ch": "prototype-material-and-archive",
+      "zh": "S 椅",
+      "en": "S Chair",
+      "by": "维尔纳·潘顿 / Verner Panton",
+      "date": "1956",
+      "material": "模压胶合板",
+      "place": "Designmuseum Danmark",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "6—8分钟",
+      "image": "./assets/designmuseum-danmark/panton-s-chair-1956.jpg",
+      "imageSource": "https://www.verner-panton.com/en/werk/s-stuhl-vp0035-00-b-d01/",
+      "imageCaption": "S 椅 / S Chair",
+      "imageKind": "object",
+      "source": "https://designmuseum.dk/qr-site/24-verner-panton-s-stolen-1956/",
+      "cardSummary": "这是一把1956年由维尔纳·潘顿设计的模压胶合板椅。它最值得看的地方，不只是轮廓像一个漂亮的“S”，而是潘顿把椅子的座面、靠背和承重结构连成一条连续曲线：椅子不再像由零件拼起来的家具，更像一条被“定格”的运动轨迹。站在它面前，可以先看两件事：一是这条曲线怎样从地面弹起，二是它怎样在没有四条传统椅腿的情况下托住身体。看起来轻盈，实际上每一道弯曲都在承担任务。",
+      "preciousWhy": "这是一把1956年由维尔纳·潘顿设计的模压胶合板椅。它最值得看的地方，不只是轮廓像一个漂亮的“S”，而是潘顿把椅子的座面、靠背和承重结构连成一条连续曲线：椅子不再像由零件拼起来的家具，更像一条被“定格”的运动轨迹。站在它面前，可以先看两件事：一是这条曲线怎样从地面弹起，二是它怎样在没有四条传统椅腿的情况下托住身体。看起来轻盈，实际上每一道弯曲都在承担任务。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Verner Panton, S-stolen, 1956",
           "publisher": "Designmuseum Danmark",
-          "url": "https://designmuseum.dk/wp-content/uploads/2020/06/%C3%85rsberetning-2019_v10_WEB.pdf"
+          "url": "https://designmuseum.dk/qr-site/24-verner-panton-s-stolen-1956/"
         },
         {
-          "title": "Inside Out by Kathrine Barbro Bendixen",
-          "publisher": "Thisispaper",
-          "url": "https://www.thisispaper.com/mag/inside-out-by-kathrine-barbro-bendixen"
+          "title": "WK/WKs furniture competition",
+          "publisher": "Verner Panton Official",
+          "url": "https://www.verner-panton.com/en/collection/wk-wks-furniture-competition/"
         },
         {
-          "title": "Inside Out - Intestine Lighting",
-          "publisher": "Material Lab",
-          "url": "https://www.material-lab.co.uk/blog/inside-out-intestine-lighting/"
+          "title": "A Sinuous Seat",
+          "publisher": "Cooper Hewitt, Smithsonian Design Museum",
+          "url": "https://www.cooperhewitt.org/2019/10/22/a-sinuous-seat/"
+        },
+        {
+          "title": "Verner Panton × Thonet",
+          "publisher": "Thonet",
+          "url": "https://www.thonet.de/en/magazine/history-brand/detail/verner-panton-x-thonet"
+        },
+        {
+          "title": "S-Chair Model 275",
+          "publisher": "Verner Panton Official",
+          "url": "https://www.verner-panton.com/en/collection/s-chair-model-275/"
+        }
+      ]
+    },
+    {
+      "id": "henningsen-artichoke-lamp-1957",
+      "ch": "prototype-material-and-archive",
+      "zh": "洋蓟灯",
+      "en": "Artichoke lamp",
+      "by": "保尔·汉宁森 / Poul Henningsen",
+      "date": "1957",
+      "material": "72片金属叶片组成的吊灯",
+      "place": "Designmuseum Danmark",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "7—9分钟",
+      "image": "./assets/designmuseum-danmark/henningsen-artichoke-lamp-1957.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:PH_Artichoke_lamp.jpg",
+      "imageCaption": "洋蓟灯 / Artichoke lamp",
+      "imageKind": "object",
+      "source": "https://designmuseum.dk/qr-site/13-poul-henningen-koglen-1958/",
+      "cardSummary": "这是一盏由保尔·汉宁森于1957年设计的吊灯，原本为哥本哈根的兰厄里尼馆餐厅而作。它看起来像一朵倒悬的洋蓟，也像一颗正在展开的植物果实；但这副“花瓣”并不是装饰，而是72片金属叶片组成的照明结构。",
+      "preciousWhy": "这是一盏由保尔·汉宁森于1957年设计的吊灯，原本为哥本哈根的兰厄里尼馆餐厅而作。它看起来像一朵倒悬的洋蓟，也像一颗正在展开的植物果实；但这副“花瓣”并不是装饰，而是72片金属叶片组成的照明结构。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "13. Poul Henningen, Koglen, 1957 / Poul Henningsen, Artichoke lamp, 1957",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/qr-site/13-poul-henningen-koglen-1958/"
+        },
+        {
+          "title": "PH Artichoke | Poul Henningsen | Louis Poulsen",
+          "publisher": "Louis Poulsen",
+          "url": "https://www.louispoulsen.com/en/catalog/professional/decorative-lighting/pendants/ph-artichoke"
+        },
+        {
+          "title": "Poul Henningsen. PH Artichoke Lamp. 1958",
+          "publisher": "The Museum of Modern Art",
+          "url": "https://www.moma.org/collection/works/3215?classifications=3&date_begin=Pre-1850&date_end=1965&locale=en&page=1&q=&with_images=1"
+        }
+      ]
+    },
+    {
+      "id": "panton-chair-1960-1967-68",
+      "ch": "prototype-material-and-archive",
+      "zh": "潘顿椅",
+      "en": "Panton Chair",
+      "by": "维尔纳·潘顿 / Verner Panton",
+      "date": "1960/1967–1968",
+      "material": "一体成型塑料",
+      "place": "Designmuseum Danmark",
+      "tag": "绝对不可错过",
+      "significance": "重要藏品",
+      "availabilityTag": "",
+      "time": "8—10分钟",
+      "image": "./assets/designmuseum-danmark/panton-chair-1960-1967-68.webp",
+      "imageSource": "https://designmuseum.dk/en/directors-choice/",
+      "imageCaption": "潘顿椅 / Panton Chair",
+      "imageKind": "object",
+      "source": "https://designmuseum.dk/qr-site/23-verner-panton-panton-chair-1960-1967-68/",
+      "cardSummary": "这是一把把“椅子”压缩成一条连续曲线的作品：没有传统椅子的四条腿，也看不见座面、靠背和支架之间的拼接，整件家具像一条从地面向上弯起、再向前伸出的红色波浪。维尔纳·潘顿在1960年做出最初原型，后来与Vitra合作，于1967年前后公开亮相，并在1968年进入量产。",
+      "preciousWhy": "这是一把把“椅子”压缩成一条连续曲线的作品：没有传统椅子的四条腿，也看不见座面、靠背和支架之间的拼接，整件家具像一条从地面向上弯起、再向前伸出的红色波浪。维尔纳·潘顿在1960年做出最初原型，后来与Vitra合作，于1967年前后公开亮相，并在1968年进入量产。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "AMBIGUOUS_QUOTATION",
+            "message": "Quoted wording may be emphasis or an unattributed quotation; human review may be useful",
+            "matches": [
+              "“后方没有支撑点，却把重量送到前方”",
+              "“看起来像未来”",
+              "“经典设计”",
+              "“Danish Modern”",
+              "“像椅子的形状”"
+            ],
+            "severity": "warning"
+          },
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要",
+              "经典"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "23. Verner Panton, Panton Chair, 1960/1967-68",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/qr-site/23-verner-panton-panton-chair-1960-1967-68/"
+        },
+        {
+          "title": "Panton Chair",
+          "publisher": "Vitra",
+          "url": "https://www.vitra.com/en-as/about-vitra/original/panton-chair"
+        },
+        {
+          "title": "100 år med Verner Panton",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/verner-panton-100-aar/"
+        }
+      ]
+    },
+    {
+      "id": "grete-jalk-bow-chair-1963",
+      "ch": "prototype-material-and-archive",
+      "zh": "蝴蝶结椅",
+      "en": "Bow Chair",
+      "by": "格蕾特·亚尔克 / Grete Jalk",
+      "date": "1963",
+      "material": "层压模压胶合板",
+      "place": "Designmuseum Danmark",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "6—8分钟",
+      "image": "./assets/designmuseum-danmark/grete-jalk-bow-chair-1963.webp",
+      "imageSource": "https://designmuseum.dk/en/directors-choice/",
+      "imageCaption": "蝴蝶结椅 / Bow Chair",
+      "imageKind": "object",
+      "source": "https://designmuseum.dk/qr-site/19-grete-jalk-sloejfestolen-1963/",
+      "cardSummary": "《蝴蝶结椅》是丹麦设计师格蕾特·亚尔克在1963年设计的层压模压胶合板椅。它最值得看的地方，不只是轮廓像一只被拉开的蝴蝶结，而是它把“木头怎样弯曲、怎样承重”直接变成了造型。椅子的两组木质部件彼此分开，中间留下明显空隙，却又在视觉上像一整件被拉到极限的木结构。站在它面前，可以先看三件事：上方宽大的靠背如何向外张开，下方座面和支撑如何向两侧展开，以及这些曲线为什么看起来既柔软又有力量。它不是把木头雕成弧线，而是让多层薄木片在成形过程中共同保持弧度。",
+      "preciousWhy": "《蝴蝶结椅》是丹麦设计师格蕾特·亚尔克在1963年设计的层压模压胶合板椅。它最值得看的地方，不只是轮廓像一只被拉开的蝴蝶结，而是它把“木头怎样弯曲、怎样承重”直接变成了造型。椅子的两组木质部件彼此分开，中间留下明显空隙，却又在视觉上像一整件被拉到极限的木结构。站在它面前，可以先看三件事：上方宽大的靠背如何向外张开，下方座面和支撑如何向两侧展开，以及这些曲线为什么看起来既柔软又有力量。它不是把木头雕成弧线，而是让多层薄木片在成形过程中共同保持弧度。",
+      "sources": [
+        {
+          "title": "19. Grete Jalk, Sløjfestolen, 1963 / Grete Jalk, Bow Chair, 1963",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/qr-site/19-grete-jalk-sloejfestolen-1963/"
+        },
+        {
+          "title": "Director's Choice",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/en/directors-choice/"
+        },
+        {
+          "title": "Grete Jalk - Dansk møbeldesigner - Karriere",
+          "publisher": "Lex / Syddansk Universitet",
+          "url": "https://lex.dk/Grete_Jalk"
+        },
+        {
+          "title": "Grete Jalk. Lounge Chair. 1963",
+          "publisher": "The Museum of Modern Art",
+          "url": "https://www.moma.org/collection/works/4721?sov_referrer=theme&theme_id=5905"
+        }
+      ]
+    },
+    {
+      "id": "lisbet-friis-archive-book-2021",
+      "ch": "prototype-material-and-archive",
+      "zh": "档案书",
+      "en": "Archive Book",
+      "by": "莉斯贝特·弗里斯 / Lisbet Friis",
+      "date": "2021",
+      "material": "比利时亚麻布、哈内姆勒纸；260种手工印花",
+      "place": "Designmuseum Danmark",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "7—9分钟",
+      "image": "./assets/designmuseum-danmark/lisbet-friis-archive-book-2021.webp",
+      "imageSource": "https://designmuseum.dk/nyerhvervelser/",
+      "imageCaption": "档案书 / Archive Book",
+      "imageKind": "object",
+      "source": "https://designmuseum.dk/nyerhvervelser/",
+      "cardSummary": "这不是一本用来阅读文字的书，而是一件把布料、纸张和印花工艺装订在一起的“工作档案”。莉斯贝特·弗里斯在约三十年间设计并手工印制的260种图案，被收进这本黑色画布封面的书里：有些页面是比利时亚麻布，有些是哈内姆勒纸。书被打开时，橙色、黄色、蓝色和黑白图案一层层站立起来，像一本书突然长成了小型屏风。",
+      "preciousWhy": "这不是一本用来阅读文字的书，而是一件把布料、纸张和印花工艺装订在一起的“工作档案”。莉斯贝特·弗里斯在约三十年间设计并手工印制的260种图案，被收进这本黑色画布封面的书里：有些页面是比利时亚麻布，有些是哈内姆勒纸。书被打开时，橙色、黄色、蓝色和黑白图案一层层站立起来，像一本书突然长成了小型屏风。",
+      "sources": [
+        {
+          "title": "Designmuseum Danmark modtager stor bevilling fra Ny Carlsbergfondet",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/nyerhvervelser/"
+        },
+        {
+          "title": "Pattern archive, shadow play and architectural stoneware to Designmuseum Danmark",
+          "publisher": "Ny Carlsbergfondet / New Carlsberg Foundation",
+          "url": "https://ny-carlsbergfondet.dk/en/pattern-archive-shadow-play-and-architectural-stoneware-designmuseum-danmark"
+        },
+        {
+          "title": "Årsrapport 2023",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/wp-content/uploads/2024/06/Aarsrapport_2023_spread_WEB.pdf"
+        },
+        {
+          "title": "Meet the Designer: Lisbet Friis",
+          "publisher": "Designmuseum Danmark",
+          "url": "https://designmuseum.dk/en/meet-the-designer-lisbet-friis/"
         }
       ]
     }

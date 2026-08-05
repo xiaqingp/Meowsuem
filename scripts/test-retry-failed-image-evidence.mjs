@@ -10,6 +10,10 @@ const runRoot = path.resolve(root, run);
 const read = file => JSON.parse(syncFs.readFileSync(file, "utf8"));
 const resolverSource = syncFs.readFileSync(path.join(root, "scripts", "retry-failed-image-evidence.mjs"), "utf8");
 const captureSource = syncFs.readFileSync(path.join(root, "scripts", "lib", "page-image-capture.mjs"), "utf8");
+if (!resolverSource.includes('args["source-pages"]') || !resolverSource.includes("...extraSourcePages")) throw new Error("image retry must accept additional official source pages without changing parent evidence");
+if (!resolverSource.includes('args["retry-accepted"] === "true"') || !resolverSource.includes('retryAccepted && !onlyWorks.size') || !resolverSource.includes('(retryAccepted && work.selected)')) throw new Error("accepted-image retry must be explicit and target named works only");
+if (!resolverSource.includes('args["source-image"]') || !resolverSource.includes('candidateId:"explicit-image-001"') || !resolverSource.includes('identityScore:3000')) throw new Error("explicit identity-bound image retry candidate is missing");
+if (!resolverSource.includes('element.closest("figure,.image,[role=figure]')) throw new Error("image retry must bind candidates to adjacent image captions before broad article text");
 if (!resolverSource.includes("capturePageImageElement") || !captureSource.includes('page.screenshot({type: "png", clip: box})') || captureSource.includes("locator.screenshot({type: \"png\"})") || captureSource.includes("page.screenshot({type: \"png\"})")) {
   throw new Error("page-image capture must use the shared clipped image-container helper, never a locator/full-page screenshot");
 }

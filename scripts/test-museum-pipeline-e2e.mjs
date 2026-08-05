@@ -34,6 +34,8 @@ try {
   const scope={...request,coordinates:[1,2],collectionBoundaries:["fixture"],exclusions:[],riskFlags:[],sourcePointers:["https://example.org/collection"]};
   await writeJson("scope/request.json",request);
   await writeJson("scope/scope.json",scope);
+  await fs.mkdir(path.join(runRoot,"understanding"),{recursive:true});
+  await fs.writeFile(path.join(runRoot,"understanding","museum-understanding.md"),"# Micro Museum understanding\n\nFixture understanding with source: https://example.org/collection\n");
 
   const identities=[
     {workId:"ordinary-painting",objectType:"painting",title:{zh:"普通绘画",en:"Ordinary Painting"},titleZh:"普通绘画",titleEn:"Ordinary Painting",artistZh:"测试画家",artistEn:"Test Painter",displayDate:"1900年",medium:"布面油画",identityAnchor:"P.1",accessionNumber:"P.1",officialObjectUrl:"https://example.org/object/p1",riskFlags:[]},
@@ -59,7 +61,7 @@ try {
   }));
   const ratingInput={
     evidence:{museumId,works:selectedWorks},
-    rating:{museumId,score:79,scoreBand:"70–79 · 可去可不去",withinBandAnchor:"78–79",scoreReason:"fixture",withinBandReason:"fixture",rareAssets:[],independentRareLines:[],dedicatedTrip:false,worldDominantConcentration:false,worldDominantConcentrationEvidence:[]},
+    rating:{museumId,score:79,scoreBand:"70–79 · 可去可不去",withinBandAnchor:"78–79",scoreReason:"fixture",withinBandReason:"fixture",rareAssets:[],independentRareLines:[],peakLines:[],independentPeakLines:[],dedicatedTrip:false,worldDominantConcentration:false,worldDominantConcentrationEvidence:[]},
   };
   await writeJson("selection/selection.json",{schemaVersion:1,museumId,museumName:"Micro Museum",selectedWorks});
   await writeJson("selection/rating-input.json",ratingInput);
@@ -124,24 +126,31 @@ try {
 
   run("run-museum-pipeline.mjs",[`--museum=${museumId}`,`--run-id=${runId}`,"--mock"]);
   const result=JSON.parse(await fs.readFile(path.join(runRoot,"reports","orchestrator-result.json"),"utf8"));
-  assert.equal(result.results.length,12);
+  assert.equal(result.results.length,13);
   assert.ok(result.results.every(item=>item.status==="completed"));
   const descriptor=JSON.parse(await fs.readFile(path.join(runRoot,"run.json"),"utf8"));
   assert.equal(descriptor.status,"verified");
   assert.equal((await verifyRunCausality({projectRoot,kind:"production",museum:museumId,runId})).status,"passed");
   const expectedRoutes=[
     ["scope/run-header.json","gpt-5.6-luna","high"],
-    ["candidate-pool/run-header.json","gpt-5.6-luna","high"],
+    ["understanding/run-header.json","gpt-5.6-sol","medium"],
+    ["candidate-pool/run-header.json","gpt-5.6-sol","medium"],
     ["research/batches/compact-01/run-header.json","gpt-5.6-luna","high"],
     ["research/batches/deep-01/run-header.json","gpt-5.6-sol","medium"],
     ["selection/run-header.json","gpt-5.6-sol","medium"],
-    ["structure/run-header.json","gpt-5.6-luna","high"],
+    ["structure/run-header.json","gpt-5.6-sol","medium"],
   ];
   for(const [file,model,effort] of expectedRoutes){
     const header=JSON.parse(await fs.readFile(path.join(runRoot,file),"utf8"));
     assert.equal(header.executionProfile.model,model,`${file} model`);
     assert.equal(header.executionProfile.reasoningEffort,effort,`${file} effort`);
   }
+  for(const file of ["candidate-pool/run-header.json","selection/run-header.json","structure/run-header.json"]){
+    const header=JSON.parse(await fs.readFile(path.join(runRoot,file),"utf8"));
+    assert.ok(header.allowedInputs.some(input=>input.role==="museum_understanding"),`${file} museum understanding input`);
+  }
+  const selectionHeader=JSON.parse(await fs.readFile(path.join(runRoot,"selection/run-header.json"),"utf8"));
+  assert.ok(selectionHeader.allowedInputs.some(input=>input.role==="museum_scope"),"selection/run-header.json museum scope input");
   assert.equal(manifest.modelRouting.image_disambiguation.model,"gpt-5.6-luna");
   assert.equal(manifest.modelRouting.image_disambiguation.reasoningEffort,"medium");
   const draftPath=path.join(runRoot,"works","ordinary-painting","one-shot","integration","draft.md");

@@ -1,6 +1,6 @@
 # Museum Discovery
 
-Confirm the museum scope, then discover a lightweight candidate pool. Use official collection identities first. Output only structured identity, official object URL, accession number, collection group, a short selection rationale, risk flags, and image availability. Do not write articles, complete art-historical dossiers, or final rarity judgments.
+Confirm the museum scope, read the museum understanding, then discover a lightweight candidate pool. Treat the understanding as required guidance, not a frozen conclusion: follow its strongest museum-specific leads, broaden them when discovery finds important omissions, and do not silently ignore them. Use official collection identities first. Output only structured identity, official object URL, accession number, collection group, a short selection rationale, risk flags, and image availability. Do not write articles, complete art-historical dossiers, or final rarity judgments.
 
 Write `candidate-pool.json` with numeric `schemaVersion: 1`, `museumId`,
 `museumName`, and `candidates`. Do not use the pipeline version string as the

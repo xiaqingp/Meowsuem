@@ -1,0 +1,30 @@
+{
+  "id": "PCR-2026-08-02-source-semantics-fixture",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-02",
+  "ownerInstruction": "继续生成并发布 Louisiana；完成 verifier 修复并通过完整测试。",
+  "baseRelease": "research/pipeline/releases/v2.13.52.json",
+  "targetVersion": "2.13.53",
+  "implementationStatus": "completed",
+  "scope": [
+    "correct the subdomain regression fixture without changing locked metadata"
+  ],
+  "outOfScope": [
+    "changing verifier behavior",
+    "changing generated museum content"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/test-one-shot-work.mjs"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/run-pipeline-tests.mjs",
+      "node scripts/freeze-pipeline-release.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs"
+    ]
+  }
+}

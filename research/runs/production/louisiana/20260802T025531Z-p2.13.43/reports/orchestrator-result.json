@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260802T025531Z-p2.13.43",
+  "runKind": "production",
+  "museumId": "louisiana",
+  "caseId": null,
+  "until": "assembly_publish_dry_run",
+  "dryRun": false,
+  "results": [
+    {
+      "stage": "museum_scope",
+      "status": "reused_before_continuation"
+    },
+    {
+      "stage": "museum_discovery",
+      "status": "reused_before_continuation"
+    },
+    {
+      "stage": "planning_research",
+      "status": "reused_before_continuation"
+    },
+    {
+      "stage": "museum_selection",
+      "status": "reused_before_continuation"
+    },
+    {
+      "stage": "rating",
+      "status": "reused_before_continuation"
+    },
+    {
+      "stage": "museum_structure",
+      "status": "reused_before_continuation"
+    },
+    {
+      "stage": "image_evidence",
+      "status": "reused_before_continuation"
+    },
+    {
+      "stage": "locked_metadata",
+      "status": "reused_before_continuation"
+    },
+    {
+      "stage": "single_work",
+      "status": "reused_before_continuation"
+    },
+    {
+      "stage": "publication_plan",
+      "status": "completed"
+    },
+    {
+      "stage": "assembly_publish_dry_run",
+      "status": "already_complete"
+    }
+  ]
+}

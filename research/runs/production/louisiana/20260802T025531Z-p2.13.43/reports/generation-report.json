@@ -1,0 +1,153 @@
+{
+  "museumId": "louisiana",
+  "caseId": null,
+  "runId": "20260802T025531Z-p2.13.43",
+  "runRoot": "research/runs/production/louisiana/20260802T025531Z-p2.13.43",
+  "reportCompletedAt": "2026-08-02T04:07:53.866Z",
+  "firstRunnerStartedAt": "2026-08-02T02:55:36.307Z",
+  "lastModelCompletedAt": "2026-08-02T04:05:39.890Z",
+  "totalWallSeconds": 4338,
+  "postGenerationSeconds": 134,
+  "modelRuns": 48,
+  "totalTokens": 7417512,
+  "tokenUsage": {
+    "input": 6360812,
+    "cachedInput": 4596224,
+    "reasoning": 109950,
+    "output": 205507,
+    "total": 7417512
+  },
+  "webSearchCount": 162,
+  "retryCount": 17,
+  "weightedCreditEstimate": "unavailable",
+  "weightedCreditEstimateStatus": "estimate_only",
+  "perModel": {
+    "gpt-5.6-luna": {
+      "runs": 46,
+      "tokens": 7299603
+    },
+    "gpt-5.6-sol": {
+      "runs": 2,
+      "tokens": 117909
+    }
+  },
+  "perWorkAverage": {
+    "runs": 37,
+    "tokens": 177468
+  },
+  "stages": {
+    "museum_candidate_pool": {
+      "runs": 1,
+      "wallSeconds": 379,
+      "modelSecondsSum": 379,
+      "tokenUsage": {
+        "input": 0,
+        "cachedInput": 0,
+        "reasoning": 0,
+        "output": 0,
+        "total": 96877
+      },
+      "searches": 0,
+      "retries": 0
+    },
+    "image_disambiguation": {
+      "runs": 2,
+      "wallSeconds": 313,
+      "modelSecondsSum": 312,
+      "tokenUsage": {
+        "input": 0,
+        "cachedInput": 0,
+        "reasoning": 0,
+        "output": 0,
+        "total": 252192
+      },
+      "searches": 0,
+      "retries": 0
+    },
+    "compact_planning_research": {
+      "runs": 4,
+      "wallSeconds": 593,
+      "modelSecondsSum": 591,
+      "tokenUsage": {
+        "input": 0,
+        "cachedInput": 0,
+        "reasoning": 0,
+        "output": 0,
+        "total": 258438
+      },
+      "searches": 0,
+      "retries": 0
+    },
+    "deep_planning_research": {
+      "runs": 1,
+      "wallSeconds": 142,
+      "modelSecondsSum": 141,
+      "tokenUsage": {
+        "input": 0,
+        "cachedInput": 0,
+        "reasoning": 0,
+        "output": 0,
+        "total": 50404
+      },
+      "searches": 0,
+      "retries": 0
+    },
+    "museum_scope": {
+      "runs": 1,
+      "wallSeconds": 100,
+      "modelSecondsSum": 100,
+      "tokenUsage": {
+        "input": 0,
+        "cachedInput": 0,
+        "reasoning": 0,
+        "output": 0,
+        "total": 58405
+      },
+      "searches": 0,
+      "retries": 0
+    },
+    "museum_selection": {
+      "runs": 1,
+      "wallSeconds": 158,
+      "modelSecondsSum": 158,
+      "tokenUsage": {
+        "input": 0,
+        "cachedInput": 0,
+        "reasoning": 0,
+        "output": 0,
+        "total": 67505
+      },
+      "searches": 0,
+      "retries": 0
+    },
+    "museum_structure": {
+      "runs": 1,
+      "wallSeconds": 152,
+      "modelSecondsSum": 152,
+      "tokenUsage": {
+        "input": 0,
+        "cachedInput": 0,
+        "reasoning": 0,
+        "output": 0,
+        "total": 67372
+      },
+      "searches": 0,
+      "retries": 0
+    },
+    "single_work": {
+      "runs": 37,
+      "wallSeconds": 1139,
+      "modelSecondsSum": 4356,
+      "tokenUsage": {
+        "input": 6360812,
+        "cachedInput": 4596224,
+        "reasoning": 109950,
+        "output": 205507,
+        "total": 6566319
+      },
+      "searches": 162,
+      "retries": 17
+    }
+  },
+  "missingMetrics": []
+}

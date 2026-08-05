@@ -1,0 +1,33 @@
+{
+  "id": "PCR-2026-08-02-one-shot-source-semantics",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-02",
+  "ownerInstruction": "继续生成并发布 Louisiana；修正系统性 verifier 误判后复用已经生成的正文。",
+  "baseRelease": "research/pipeline/releases/v2.13.51.json",
+  "targetVersion": "2.13.52",
+  "implementationStatus": "completed",
+  "scope": [
+    "treat museum subdomains as the same official institution",
+    "distinguish generic work categories from specific constituent materials"
+  ],
+  "outOfScope": [
+    "accepting third-party identity anchors",
+    "removing evidence requirements for specific materials",
+    "changing article text"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/verify-one-shot-work.mjs",
+    "scripts/test-one-shot-work.mjs"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/run-pipeline-tests.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs",
+      "node scripts/freeze-pipeline-release.mjs"
+    ]
+  }
+}

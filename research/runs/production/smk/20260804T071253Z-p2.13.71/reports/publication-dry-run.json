@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260804T071253Z-p2.13.71",
+  "museumId": "smk",
+  "mode": "dry-run",
+  "candidateAssemblyResultSha256": "312260bbe12431d308ce617f1a3efed0dc29c47e10cd8f3fd9cda56d422e63ca",
+  "files": {
+    "smk.js": {
+      "sha256": "665a8c1c46accfe26755bd87231956db9f63e24f5b50438137ec29d678e3d8d5",
+      "changed": true
+    },
+    "research/content/smk.md": {
+      "sha256": "504fc8a8210951d9c80ca07278f5c309ef03246d13a3f4f3bc0288e9b1367e21",
+      "changed": false
+    },
+    "ratings.js": {
+      "sha256": "d9e5f10978b5002f5e01a0c6475c4cf02172323381dc4be0867f16a38addd6c9",
+      "changed": true
+    },
+    "routes.js": {
+      "sha256": "5692f24dc9f6316af9802b732f20b9b1285e9199d8769140cf4cdf200014c502",
+      "changed": true
+    },
+    "assets/smk/cecco-virgin-child-goldfinch.jpg": {
+      "sha256": "d5b262a922b7b190b71f8dc2e8f20096bf8271be743c16c59692eed4ecb32caf",
+      "changed": false
+    },
+    "assets/smk/cranach-electress-sibyl.jpg": {
+      "sha256": "3f770b64f2a984488338a72f4d5e3b8b21d8ba6f6bf8bcb575a3e75e64ba9047",
+      "changed": false
+    },
+    "assets/smk/cornelis-fall-titans.jpg": {
+      "sha256": "4cea199dccc5f2f5918e2afaaf61587c464931e4c89261cde21586f47577e0ef",
+      "changed": false
+    },
+    "assets/smk/rubens-judgement-solomon.jpg": {
+      "sha256": "7969802279883390587f9f706d1087c6ed3917881880db882290942ab4fa6913",
+      "changed": false
+    },
+    "assets/smk/gijsbrechts-studio-wall.jpg": {
+      "sha256": "8ce830d3352066e1f29ea5d95a3b31f6bc6b1affd00b407d41fc7ce5654f56b8",
+      "changed": false
+    },
+    "assets/smk/dom-miguel-de-castro.jpg": {
+      "sha256": "e6d9947a3ad33de7f10087125a5140d453039cd416374ce548fcbe85da3f5ad3",
+      "changed": false
+    },
+    "assets/smk/rembrandt-old-man-profile.jpg": {
+      "sha256": "dcb0d6bdb572f566f34ce77c28e13249c9904669c5324eacca537e631c5e1431",
+      "changed": false
+    },
+    "assets/smk/rembrandt-crusader-sketch.jpg": {
+      "sha256": "85aace57e497c53ad018cadb957672dd711e723e966b311c437fa6ff79c3dc47",
+      "changed": false
+    },
+    "assets/smk/therbusch-self-portrait.jpg": {
+      "sha256": "04cf50053f2327a443f9b56e94805a2b540917e7ee2cf6802baafbf20b9c53cf",
+      "changed": false
+    },
+    "assets/smk/juel-niels-ryberg-family.jpg": {
+      "sha256": "d542a0904f33876fe9caf0d0cb76075fbd218ea6fc9d0e5b976d4c9a02081029",
+      "changed": false
+    },
+    "assets/smk/eckersberg-nathanson-daughters.jpg": {
+      "sha256": "88bd8f04f5241ed69a7e67406085d73bebb24c2b50096d6e5aba666318c92613",
+      "changed": false
+    },
+    "assets/smk/rorbye-artists-window.jpg": {
+      "sha256": "f4e5b7425dacae34389863dedd8e524566d6a0c953c8f837c007397acff55fef",
+      "changed": false
+    },
+    "assets/smk/bendz-young-artist-mirror.jpg": {
+      "sha256": "df805186f504ac4d66e083f3800946e12740d68e0688767db31395ef6a339bf8",
+      "changed": false
+    },
+    "assets/smk/koebke-dosseringen-copenhagen.jpg": {
+      "sha256": "b543d714abf8a7e9753d479f373f78b799fc91bde62b529907bd6206886ace95",
+      "changed": false
+    },
+    "assets/smk/koebke-self-portrait.jpg": {
+      "sha256": "f7a9b17620cc10e792507d34c611bb9cb3db077a8e84edb00afb8dce4a9daa57",
+      "changed": false
+    },
+    "assets/smk/koebke-eckersberg-marstrand-trip.jpg": {
+      "sha256": "aa0101036e99bef612f0e89165b686662bc32ec9646e4b47d7172946883d1b0b",
+      "changed": false
+    },
+    "assets/smk/constantin-hansen-artists-rome.jpg": {
+      "sha256": "d39bd2dd07d92a638d22ef140bf7dd23263467b1d59fac91da7dcb58ad408200",
+      "changed": false
+    },
+    "assets/smk/friedrich-after-storm.jpg": {
+      "sha256": "a4bf0373a72072657f1f7784f707d9fbd90da5b3cf9db5c765919ce638f7264e",
+      "changed": false
+    },
+    "assets/smk/marstrand-justina-antoine.jpg": {
+      "sha256": "99810852be7d20c72dc8ea4fdcc6f9aabd2ab5e8657ba67124b5e87e0af9d8a4",
+      "changed": false
+    },
+    "assets/smk/wegmann-anna-seekamp.jpg": {
+      "sha256": "7c8e0b5d2ff4ecd27c31f48577f1ac09979ad1daff5755c4ff3c562293b5b1ba",
+      "changed": false
+    },
+    "assets/smk/jerichau-egyptian-pot-seller.jpg": {
+      "sha256": "80c47239e3d670f63cf33fc2fe6728451456f213ec6ab9ec8d3247db3b3f553e",
+      "changed": false
+    },
+    "assets/smk/ring-french-windows.jpg": {
+      "sha256": "93e455407cd3a32d6aeea84aaa93ae3eb26e52676f731b8efceab381c13ebf90",
+      "changed": false
+    },
+    "assets/smk/munch-evening-talk.jpg": {
+      "sha256": "178d5876438ba84f85d4150759ca6cd69fe528311ebd883d8568dab7f2a621f1",
+      "changed": false
+    },
+    "assets/smk/hammershoi-artemis.jpg": {
+      "sha256": "ee7c3db4b3ed7eafe1bec2b8558cec9060139b4139173a14491cc1d67783877e",
+      "changed": false
+    },
+    "assets/smk/hammershoi-interior-easel.jpg": {
+      "sha256": "7c93be359522a2af3a11556c98046312ca1451126bc1e7a18f810491b10b6d67",
+      "changed": false
+    },
+    "assets/smk/hammershoi-interior-artificial-light.jpg": {
+      "sha256": "b0e30829a04d58df8200e922a84155b01dc54377a04b8662eab62518e3ab7b2c",
+      "changed": false
+    },
+    "assets/smk/matisse-green-line.jpg": {
+      "sha256": "0d879a7abb4b080ff3e3d71d4a996d210d04877e78130a94b6e05ef04bc706d0",
+      "changed": false
+    },
+    "assets/smk/matisse-collioure-joy-life-study.jpg": {
+      "sha256": "e57a7074a98cad9ca04083ca5e403b78bdc6c56d0b0e5c6fde9c514c260ccb5e",
+      "changed": false
+    },
+    "assets/smk/derain-woman-chemise.jpg": {
+      "sha256": "278c94628e1b0bbefd6d2afbff35a6057c4f8e59554914d2dd5e4950dc9478c5",
+      "changed": false
+    },
+    "assets/smk/braque-trees-estaque.jpg": {
+      "sha256": "10f938e02f36492a17508bd83216152a6783aa2611c1a6d36ac48af747e91fba",
+      "changed": false
+    },
+    "assets/smk/modigliani-alice.jpg": {
+      "sha256": "698362c0c1af7d76aff27f1c83f8f8b21d3665041fffdc6feaef7e8f72295ef6",
+      "changed": false
+    },
+    "assets/smk/matisse-zulma.jpg": {
+      "sha256": "c0156e2f19f08ab4602663b9b321d6f742a0cc761835d9a4cf0b3569c61965a5",
+      "changed": false
+    },
+    "assets/smk/giersing-judgment-paris.jpg": {
+      "sha256": "8c28d8bfa70db91bbefa8fee076493fc9ceeef8abafc0cdb87db6b3e92cc5796",
+      "changed": false
+    },
+    "assets/smk/niels-hansen-jacobsen-shadow.jpg": {
+      "sha256": "7232c5881644f77b75fe8ba090dfca62dc5975311ac2613aab4328555a72fe31",
+      "changed": false
+    },
+    "assets/smk/noack-standing-female-nude.jpg": {
+      "sha256": "77d189010a04a007b006365c0ba0e05acefe5c2f0f6308ad1cadf6daa1ce2a4d",
+      "changed": false
+    },
+    "assets/smk/kernn-larsen-phantoms.jpg": {
+      "sha256": "42f4f302267c371c4ef8c0a7d4f2717d4193f126b0646f31317feff5d9b6e003",
+      "changed": false
+    },
+    "assets/smk/nolde-legend.jpg": {
+      "sha256": "1fed69e41d94301c1dd83c69bd84850e6e110c285dbd985b519b895dba252c26",
+      "changed": false
+    },
+    "assets/smk/kirkeby-untitled-laesoe.jpg": {
+      "sha256": "cac493ba619511d242927c032e8f5d02e8c477ebb3d1b95f67bd54d856c07aec",
+      "changed": false
+    },
+    "assets/smk/roepstorff-desolation-beast.jpg": {
+      "sha256": "a48c06baace83b0af3347b0e5f265a971ad1c8bca535f0ad987906ccf23bd3e9",
+      "changed": false
+    },
+    "assets/smk/mantegna-bacchanal-wine-vat.jpg": {
+      "sha256": "8bd9d798f2b8110d1ab3cafa75cf87002fb17e02476a5d958d03bf63a5812bff",
+      "changed": false
+    },
+    "index.html": {
+      "sha256": "92d03643931e1ba21747374e0200ecd5effb7f1eb22e4ad42c3d7d11122a4a83",
+      "changed": true
+    },
+    "museum.html": {
+      "sha256": "706d3599022aad6ad47999603e6c4ee4dcd705fea4ad237bf47ad14bb5f6df16",
+      "changed": true
+    }
+  }
+}

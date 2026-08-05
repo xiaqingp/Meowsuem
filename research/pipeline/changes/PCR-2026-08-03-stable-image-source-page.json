@@ -1,0 +1,33 @@
+{
+  "id": "PCR-2026-08-03-stable-image-source-page",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-03",
+  "ownerInstruction": "用最新pipeline，重新生成并发布新嘉士伯美术馆。如果新选出来的作品和老作品重复，仅图片可以复用。",
+  "baseRelease": "research/pipeline/releases/v2.13.67.json",
+  "targetVersion": "2.13.68",
+  "implementationStatus": "completed",
+  "scope": [
+    "publish stable evidence-page URLs as image attribution links",
+    "retain the hash-verified local image asset for display"
+  ],
+  "outOfScope": [
+    "changing accepted image bytes",
+    "changing image identity decisions",
+    "mutating frozen releases"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/prepare-museum-publication-plan.mjs"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/test-image-resolution-v2.mjs",
+      "node scripts/run-pipeline-tests.mjs",
+      "node scripts/freeze-pipeline-release.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs"
+    ]
+  }
+}

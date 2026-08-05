@@ -293,7 +293,7 @@ You are executing Meowseum canonical isolated generation. The standard runner ha
 
 Use only the run header and locked inputs in this message. Do not read, search, or enumerate any local file. During image_disambiguation only, you may inspect the exact local image candidate paths enumerated in the locked image_candidate_packet with the image-viewing tool; no other local files are allowed. Do not use conversation history, memory, skills, old research, old prose, or old image mappings. This is a content-production task, not a coding task.
 
-Follow the stage in the run header exactly. The museum_scope, museum_candidate_pool, compact_planning_research and deep_planning_research stages may use the web, but must query in batches and stop when the canonical stopping conditions are met. The image_disambiguation, museum_selection, museum_structure and legacy author stages must use only their locked evidence inputs and must not use the web. Create only the files listed in run header.outputs, preferably in one write. After writing, do not reread outputs, print a full diff, recompute hashes, or run a reviewer; the runner performs mechanical checks externally.
+Follow the stage in the run header exactly. The museum_scope, museum_understanding, museum_candidate_pool, compact_planning_research and deep_planning_research stages may use the web, but must query in batches and stop when the canonical stopping conditions are met. The image_disambiguation, museum_selection, museum_structure and legacy author stages must use only their locked evidence inputs and must not use the web. Create only the files listed in run header.outputs, preferably in one write. After writing, do not reread outputs, print a full diff, recompute hashes, or run a reviewer; the runner performs mechanical checks externally.
 '@ }
 
     $prompt = "$fixedInstruction`n<run-header>`n$headerText`n</run-header>`n$($blocks -join "`n")"
@@ -335,7 +335,7 @@ Follow the stage in the run header exactly. The museum_scope, museum_candidate_p
     }
 
     $logText = Read-RunnerText -LiteralPath $resolvedLog
-    $tokenMatches = [Text.RegularExpressions.Regex]::Matches($logText, 'tokens used\s*(?:\r?\n)+\s*([\d,]+)', [Text.RegularExpressions.RegexOptions]::IgnoreCase)
+    $tokenMatches = [Text.RegularExpressions.Regex]::Matches($logText, '^tokens used\s*$[\s\S]*?^\s*([\d,]+)\s*$', [Text.RegularExpressions.RegexOptions]::IgnoreCase -bor [Text.RegularExpressions.RegexOptions]::Multiline)
     if ($tokenMatches.Count -lt 1) { throw 'runner log is missing token usage' }
     $totalTokens = [int64](($tokenMatches[$tokenMatches.Count - 1].Groups[1].Value -replace ',', ''))
 }

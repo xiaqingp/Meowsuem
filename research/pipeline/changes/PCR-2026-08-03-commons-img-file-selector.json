@@ -1,0 +1,34 @@
+{
+  "id": "PCR-2026-08-03-commons-img-file-selector",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-03",
+  "ownerInstruction": "授权修复图片解析器的 Commons 主图排序 bug，并冻结新版本后继续。",
+  "baseRelease": "research/pipeline/releases/v2.13.59.json",
+  "targetVersion": "2.13.60",
+  "implementationStatus": "completed",
+  "scope": [
+    "recognize the current Commons file-page main image when the image element itself carries id=file",
+    "continue the existing SMK image retry and production run"
+  ],
+  "outOfScope": [
+    "changing museum selection, rating or prose",
+    "accepting an image without identity evidence",
+    "mutating frozen releases"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/retry-failed-image-evidence.mjs"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node --check scripts/retry-failed-image-evidence.mjs",
+      "node scripts/test-image-resolution-v2.mjs",
+      "node scripts/run-pipeline-tests.mjs",
+      "node scripts/freeze-pipeline-release.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs"
+    ]
+  }
+}
