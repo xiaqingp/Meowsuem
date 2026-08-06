@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "stage": "single_work",
+  "runId": "20260805T182728Z-p2.13.82",
+  "museumId": "nationalmuseum",
+  "caseId": null,
+  "runs": 30,
+  "accepted": [
+    "anguissola-canon-regular-640747",
+    "aved-count-tessin-22585",
+    "bergh-artist-eva-bonnier-18510",
+    "boden-rorstrand-vase-230112",
+    "boucher-study-triton-214899",
+    "boucher-triumph-venus-17773",
+    "bourdillon-pocket-watch-6842",
+    "chardin-morning-toilet-17785",
+    "el-greco-peter-paul-20131",
+    "elias-martin-gustav-academy-35234",
+    "fogelberg-balder-26783",
+    "fogelberg-thor-26782",
+    "gauguin-landscape-brittany-19216",
+    "hald-celestial-globe-7985",
+    "henrichsen-gustav-gold-box-244051",
+    "larsson-midwinter-sacrifice-32534",
+    "lewerentz-grand-piano-96678",
+    "mathsson-reclining-chair-134846",
+    "ohrstrom-ariel-vase-11625",
+    "pauli-breakfast-time-18709",
+    "rembrandt-claudius-civilis-17581",
+    "rembrandt-kitchen-maid-17587",
+    "roslin-lady-with-veil-21152",
+    "sergel-ceres-proserpine-26828",
+    "sergel-cupid-psyche-26739",
+    "sergel-faun-26823",
+    "sergel-gustav-statue-study-71152",
+    "sergel-noisy-dinner-14667",
+    "wertmuller-marie-antoinette-18035",
+    "zorn-midsummer-dance-18607"
+  ],
+  "warning": [
+    "boucher-study-triton-214899",
+    "gauguin-landscape-brittany-19216"
+  ],
+  "failed": [],
+  "blocked": [],
+  "pending": [],
+  "failureCodes": {},
+  "warningCodes": {
+    "UNSUPPORTED_DISPLAY_STATUS": 2
+  }
+}

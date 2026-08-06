@@ -1,0 +1,30 @@
+{
+  "id": "PCR-2026-08-05-warning-promotion-blocked-statuses",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-05",
+  "ownerInstruction": "批准",
+  "baseRelease": "research/pipeline/releases/v2.13.85.json",
+  "targetVersion": "2.13.86",
+  "implementationStatus": "completed",
+  "scope": [
+    "allow explicitly approved warning publication after the retry guard records a failed work as blocked",
+    "preserve the failed verifier evidence and warning text during promotion"
+  ],
+  "outOfScope": [
+    "changing verifier conclusions or automatically approving warnings",
+    "mutating the frozen 2.13.85 release"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "scripts/promote-warning-works.mjs"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/freeze-pipeline-release.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs"
+    ]
+  }
+}

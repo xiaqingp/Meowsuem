@@ -3,83 +3,97 @@ museumData["nationalmuseum"] = {
   ...museumRatings["nationalmuseum"],
   ...{
   "id": "nationalmuseum",
-  "editorialCapacity": 20,
+  "editorialCapacity": 30,
   "city": "Stockholm，Sweden",
   "zh": "瑞典国家博物馆",
   "en": "Nationalmuseum",
-  "verdict": "70–79 · 可去可不去",
-  "hero": "./assets/nationalmuseum/rembrandt-self-portrait-nm-5324.jpg",
+  "verdict": "80–89 · 应主动列入行程",
+  "hero": "./assets/nationalmuseum/anguissola-canon-regular-640747.png",
   "contentFile": "research/content/nationalmuseum.md",
   "official": "https://collection.nationalmuseum.se/en/",
   "visit": "https://collection.nationalmuseum.se/en/",
-  "contentUpdatedAt": "2026-08-01",
+  "contentUpdatedAt": "2026-08-05",
   "intro": [
-    "这家馆的独特之处，不只是按年代串起瑞典与欧洲艺术，而是把绘画、雕塑、家具、玻璃、陶瓷、珠宝和微型画放进同一条可步行的收藏叙事：从十七世纪的工作室与材料，到十八世纪的宫廷和城市，再到瑞典国家浪漫主义、北欧家具与当代设计。",
-    "75分，属于“可去可不去”。如果你在斯德哥尔摩有半天，并且对瑞典艺术、北欧设计或艺术与日常生活的交界感兴趣，值得专程安排；若只想看一件世界级不可替代的镇馆之宝，则不必把它列为首要目的地。"
+    "这家馆最独特的不是把瑞典名作与欧洲大师并排陈列，而是让绘画、雕塑、纸上作品、珍宝与现代设计沿同一条时间线互相解释：王室收藏如何成为公共财产，法国与欧洲形式如何经外交、学院和艺术家网络进入瑞典，国家形象又如何在博物馆、工业生产与后来的纠偏性收藏中不断被重写。",
+    "82分，属于“应主动列入行程”档。第一次到斯德哥尔摩，值得为主馆预留半天；它没有通过稀世珍品门槛的单件孤品，但《仲冬祭》的原位楼梯体验、法国十八世纪收藏、塞尔格尔雕塑与瑞典现代设计共同形成了难以由普通欧洲美术馆替代的完整叙事。"
   ],
   "routes": {
     "90": {
-      "title": "90分钟：先看决定值不值得来的节点",
-      "note": "按主馆时间线从十七世纪绘画走到十八世纪，再转入转世纪艺术、雕塑庭院和设计。作品停留之外要留出楼层转换时间；主动跳过两件当前未展出的轮换作品、次要设计比较和完整 Treasury 浏览。",
+      "title": "90分钟：看懂这家馆为何值得专程安排",
+      "note": "先看老大师与法国—瑞典文化输入，再用学院、古斯塔夫时代雕塑和珍宝室理解国家收藏机制；在雕塑庭院比较两位北欧神祇，最后把《仲冬祭》的楼梯原位体验与1930年代设计并读。主动跳过轮换中的纸本、未确认在展的《克劳狄乌斯·西维利斯》和多数深度对照；以下顺序是内容优先级，不是实时导航。",
       "workIds": [
-        "rembrandt-self-portrait-nm-5324",
-        "goya-truth-time-history-nm-5593",
-        "roslin-lady-with-veil-nm-4098",
-        "pilo-coronation-gustav-iii-nm-1004",
-        "fanny-brate-day-of-celebration-nm-1605",
-        "fogelberg-odin-nmsk-392",
-        "mathsson-reclining-chair-36-nmk-46-2010",
-        "halds-cactus-exhibition-nmk-215-2011"
+        "rembrandt-kitchen-maid-17587",
+        "boucher-triumph-venus-17773",
+        "roslin-lady-with-veil-21152",
+        "elias-martin-gustav-academy-35234",
+        "sergel-cupid-psyche-26739",
+        "henrichsen-gustav-gold-box-244051",
+        "fogelberg-thor-26782",
+        "fogelberg-balder-26783",
+        "larsson-midwinter-sacrifice-32534",
+        "lewerentz-grand-piano-96678",
+        "mathsson-reclining-chair-134846"
       ]
     },
     "half": {
-      "title": "半天：看懂艺术与设计如何接成一条线",
-      "note": "以主馆现场可见的 18 件入选作品组成半日主线：先按年代看绘画，再看雕塑庭院，最后安排家具、陶瓷、玻璃和 Treasury。Josephson《水妖》和 Zorn《仲夏舞》当前不作为现场节点；若某件作品临时轮换，按同章其他作品继续，不把路线当作实时导航。",
+      "title": "半天：从王室收藏走到瑞典现代设计",
+      "note": "按六个章节的逻辑覆盖主馆最重要的在展节点，并在法国十八世纪、塞尔格尔和现代设计处保留成组比较。中途可在古斯塔夫时代章节后休息；《刻瑞斯寻找普洛塞耳皮娜》位于易变的临时展陈环境，本路线不把它当作稳定必见对象。",
       "workIds": [
-        "rembrandt-self-portrait-nm-5324",
-        "rubens-three-graces-nm-601",
-        "goya-truth-time-history-nm-5593",
-        "roslin-lady-with-veil-nm-4098",
-        "pilo-coronation-gustav-iii-nm-1004",
-        "elias-martin-view-stockholm-nm-1470",
-        "julius-kronberg-nymph-and-fauns-nm-1316",
-        "rodin-bellona-nmsk-985",
-        "fogelberg-odin-nmsk-392",
-        "hasselberg-spring-snowflake-nmsk-746",
-        "fanny-brate-day-of-celebration-nm-1605",
-        "persson-portrait-of-a-pea-nmk-169-1972",
-        "stig-lindberg-bersa-bowl-nmk-60-1996",
-        "mathsson-reclining-chair-36-nmk-46-2010",
-        "aalto-paimio-armchair-nmk-13-1963",
-        "ron-arad-rover-chair-nmk-72-2013",
-        "halds-cactus-exhibition-nmk-215-2011",
-        "charles-x-gustav-miniature-nmb-2163"
+        "anguissola-canon-regular-640747",
+        "el-greco-peter-paul-20131",
+        "rembrandt-kitchen-maid-17587",
+        "aved-count-tessin-22585",
+        "boucher-triumph-venus-17773",
+        "chardin-morning-toilet-17785",
+        "wertmuller-marie-antoinette-18035",
+        "roslin-lady-with-veil-21152",
+        "elias-martin-gustav-academy-35234",
+        "sergel-faun-26823",
+        "sergel-cupid-psyche-26739",
+        "henrichsen-gustav-gold-box-244051",
+        "fogelberg-thor-26782",
+        "fogelberg-balder-26783",
+        "bergh-artist-eva-bonnier-18510",
+        "larsson-midwinter-sacrifice-32534",
+        "lewerentz-grand-piano-96678",
+        "mathsson-reclining-chair-134846",
+        "ohrstrom-ariel-vase-11625"
       ]
     },
     "all": {
-      "title": "完整浏览：分两次把主馆的收藏逻辑走完",
-      "note": "建议至少分两次：第一次完成时间线绘画、雕塑庭院与转世纪节点，第二次专看家具、Design Depot、玻璃和 Treasury。完整结构包含两件当前未展出的馆藏轮换作品，它们是收藏延伸，不是当天可见保证；遇到跨楼层或临时不可见时，以章节顺序和作品价值取舍为准。",
+      "title": "完整浏览：30件读完国家视觉文化的形成与修订",
+      "note": "把完整路线分为至少两个时段：第一段看早期绘画、法国—瑞典交流、古斯塔夫时代与雕塑庭院；第二段看十九世纪国家图像、《仲冬祭》和现代设计。全部30件是内容库的完整结构，不是单日可见承诺：轮换或状态未明的对象若未展出，保留其章节位置但不要在馆内寻找；纸本和小型珍宝需要更慢的近距离观看。",
       "workIds": [
-        "rembrandt-self-portrait-nm-5324",
-        "rubens-three-graces-nm-601",
-        "goya-truth-time-history-nm-5593",
-        "roslin-lady-with-veil-nm-4098",
-        "pilo-coronation-gustav-iii-nm-1004",
-        "elias-martin-view-stockholm-nm-1470",
-        "julius-kronberg-nymph-and-fauns-nm-1316",
-        "rodin-bellona-nmsk-985",
-        "fogelberg-odin-nmsk-392",
-        "hasselberg-spring-snowflake-nmsk-746",
-        "josephson-water-sprite-nm-1905",
-        "zorn-midsummer-dance-nm-1603",
-        "fanny-brate-day-of-celebration-nm-1605",
-        "persson-portrait-of-a-pea-nmk-169-1972",
-        "stig-lindberg-bersa-bowl-nmk-60-1996",
-        "mathsson-reclining-chair-36-nmk-46-2010",
-        "aalto-paimio-armchair-nmk-13-1963",
-        "ron-arad-rover-chair-nmk-72-2013",
-        "halds-cactus-exhibition-nmk-215-2011",
-        "charles-x-gustav-miniature-nmb-2163"
+        "anguissola-canon-regular-640747",
+        "el-greco-peter-paul-20131",
+        "rembrandt-kitchen-maid-17587",
+        "rembrandt-claudius-civilis-17581",
+        "elias-martin-gustav-academy-35234",
+        "aved-count-tessin-22585",
+        "boucher-triumph-venus-17773",
+        "boucher-study-triton-214899",
+        "chardin-morning-toilet-17785",
+        "wertmuller-marie-antoinette-18035",
+        "roslin-lady-with-veil-21152",
+        "sergel-faun-26823",
+        "sergel-cupid-psyche-26739",
+        "sergel-ceres-proserpine-26828",
+        "sergel-gustav-statue-study-71152",
+        "sergel-noisy-dinner-14667",
+        "henrichsen-gustav-gold-box-244051",
+        "bourdillon-pocket-watch-6842",
+        "fogelberg-thor-26782",
+        "fogelberg-balder-26783",
+        "pauli-breakfast-time-18709",
+        "bergh-artist-eva-bonnier-18510",
+        "gauguin-landscape-brittany-19216",
+        "zorn-midsummer-dance-18607",
+        "larsson-midwinter-sacrifice-32534",
+        "mathsson-reclining-chair-134846",
+        "lewerentz-grand-piano-96678",
+        "hald-celestial-globe-7985",
+        "ohrstrom-ariel-vase-11625",
+        "boden-rorstrand-vase-230112"
       ]
     }
   },
@@ -87,63 +101,914 @@ museumData["nationalmuseum"] = {
   "cardCopyContract": "independent-v1",
   "chapters": [
     {
-      "id": "ch-01",
+      "id": "public-collection",
       "number": 1,
-      "title": "十七世纪的画面，为什么也是一场材料与协作实验？",
-      "intro": "先从两件都在十七世纪展厅的作品看：一件把早期伦勃朗的自画像与铜底、金箔底层连在一起；另一件把鲁本斯工作室、Jan Brueghel the Younger 与画面转移史放在同一幅画上。这里的重点不是把名家标签排队，而是看作者、工艺和收藏如何共同形成作品的价值。"
+      "title": "王室旧藏怎样变成一部公共艺术史？",
+      "intro": "从十六世纪肖像、欧洲宗教画到两件尺度悬殊的伦勃朗，再进入古斯塔夫三世访问学院的室内：这一章不按“大师名录”看作品，而是追问对象如何被收藏、教学、展示并纳入国家机构。安圭索拉的新购藏又提醒人们，所谓公共艺术史至今仍在补写缺席者。"
     },
     {
-      "id": "ch-02",
+      "id": "france-to-sweden",
       "number": 2,
-      "title": "十八世纪的权力，怎样在寓言、肖像、仪式与城市中显形？",
-      "intro": "这一段从戈雅的宪政寓言走向罗桑的社交肖像、皮洛的宫廷仪式和 Elias Martin 的斯德哥尔摩景观。连续观看时，城市、服饰、建筑和仪式不只是背景，而是权力如何被看见、被记住和被地方化的方式。"
+      "title": "法国趣味来到瑞典，经过了谁的手？",
+      "intro": "特辛的肖像先把外交官兼收藏者放到台前；布歇、相关素描与夏尔丹让采购、创作过程和不同社会尺度彼此对照；韦特米勒与罗斯林则显示瑞典艺术家如何在巴黎宫廷文化中工作。重点不是“瑞典也有洛可可”，而是图像、委托、人才与声望怎样跨境移动。"
     },
     {
-      "id": "ch-03",
+      "id": "gustavian-networks",
       "number": 3,
-      "title": "十九世纪的身体，谁在观看，国家又如何塑造神话？",
-      "intro": "大型神话画、纪念性雕塑和沙龙裸体把身体变成叙事与制度的交汇处：Kronberg 的裸体女性被男性 fauns 观看，Rodin 将公共寓言改写为 Bellona，Fogelberg 用古典形式塑造 Odin，而 Hasselberg 让季节寓言落在被观看的女性身体上。"
+      "title": "古斯塔夫时代的艺术，只是用来纪念国王吗？",
+      "intro": "塞尔格尔的陶土、大理石、功能性烛台、纪念碑方案与私人宴会素描，把古典训练、剧场想象、公共权力和社交生活拆成不同尺度；珍宝室里的赏赐盒与怀表再把王室形象拉回手掌附近。宏大纪念与贴身器物共同说明，权力靠材料、专业协作和使用场景传播。"
     },
     {
-      "id": "ch-04",
+      "id": "nordic-gods",
       "number": 4,
-      "title": "瑞典经验如何进入家庭、节庆与艺术家的自我想象？",
-      "intro": "转世纪的瑞典艺术并不只有宏大民族符号，也有家庭室内、地方节庆和艺术家对民间神话的投射。Brate 的命名日室内和 Zorn 的仲夏舞把社会生活具体化；Josephson 的《水妖》则作为馆藏延伸，提醒我们国家浪漫主义也可能通过孤独的神话形象成立。"
+      "title": "北欧诸神为什么披上古典大理石的身体？",
+      "intro": "雕塑庭院中的《托尔》与《巴德尔》必须成对看：同一位雕塑家、同一年、同一种材料，却分别把力量与脆弱写进北欧神话。它们揭示十九世纪国家文化并非从本土神话直接长成，而是借用了古典雕塑和基督教视觉传统。"
     },
     {
-      "id": "ch-05",
+      "id": "modern-nation",
       "number": 5,
-      "title": "一把椅子怎样让身体、技术与国际传播同时可见？",
-      "intro": "从 Mathsson 的层压木曲线、Aalto 的 Paimio 模压木，到 Ron Arad 把汽车座椅和钢管架重新组装，家具不再只是风格样本。它们把身体尺度、材料工艺、功能和设计观念直接落到可观察的结构上，也显示北欧设计如何跨出本地语境。"
+      "title": "现代瑞典形象，是在本土发现还是在巴黎学会的？",
+      "intro": "保利、贝里与高更把巴黎学习、艺术家网络和新绘画语言带入瑞典现代艺术的形成过程；佐恩把地方节庆转成国家图像；拉松则在博物馆楼梯上把传说、建筑尺度和一次长期拒收史叠在一起。这里的“瑞典性”是选择、翻译和争论的结果。"
     },
     {
-      "id": "ch-06",
+      "id": "designed-modern-life",
       "number": 6,
-      "title": "从日常器物到宝库，设计如何保存社会记忆？",
-      "intro": "最后把视线从家具移到器物与收藏制度：Berså 碗把图案带进日常生活，Persson 的银与木挑战工艺和艺术的分类边界，Hald 的透明雕刻玻璃把观看变成多层深度，Treasury 的微型肖像则把王室记忆压缩到羊皮纸大小。"
+      "title": "“瑞典现代”究竟改变了谁的日常生活？",
+      "intro": "从身体测量形成的躺椅，到为豪华样板公寓制作的钢琴，再到高劳动强度的雕刻玻璃、Ariel 气泡技术和一件被重新归属作者的瓷瓶，这一章把功能主义从口号拉回材料、工厂、品牌、使用者与博物馆编目。现代设计既许诺普遍生活改善，也始终保留奢侈、手工与经典化的张力。"
     }
   ],
   "works": [
     {
-      "id": "rembrandt-self-portrait-nm-5324",
-      "ch": "ch-01",
-      "zh": "自画像",
-      "en": "Self-Portrait",
-      "by": "伦勃朗·哈尔曼松·凡·莱因 / Rembrandt Harmensz. van Rijn",
-      "date": "signed 1630",
-      "material": "Oil on copper",
-      "place": "Nationalmuseum，馆藏号NM 5324",
+      "id": "anguissola-canon-regular-640747",
+      "ch": "public-collection",
+      "zh": "修会司铎肖像",
+      "en": "Portrait of a Canon Regular",
+      "by": "索福尼斯巴·安圭索拉 / Sofonisba Anguissola",
+      "date": "c. 1554–1556",
+      "material": "Oil on walnut panel",
+      "place": "Nationalmuseum，馆藏号NM 7724",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "",
+      "time": "6—8分钟",
+      "image": "./assets/nationalmuseum/anguissola-canon-regular-640747.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/640747/",
+      "imageCaption": "修会司铎肖像 / Portrait of a Canon Regular",
+      "imageKind": "object",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/640747/",
+      "cardSummary": "这是一幅索福尼斯巴·安圭索拉在克雷莫纳创作的早期肖像，约作于1554—1556年。画中人是一位身份明确、姓名不详的修会司铎：他穿着白色亚麻礼服，坐在椅中，身体略向一侧展开，脸却回过来迎向我们。",
+      "preciousWhy": "这是一幅索福尼斯巴·安圭索拉在克雷莫纳创作的早期肖像，约作于1554—1556年。画中人是一位身份明确、姓名不详的修会司铎：他穿着白色亚麻礼服，坐在椅中，身体略向一侧展开，脸却回过来迎向我们。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Portrait of a Canon Regular",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/en/collection/item/640747/"
+        },
+        {
+          "title": "Porträtt av en reguljärkanik",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/sv/collection/item/640747/"
+        },
+        {
+          "title": "Philip II",
+          "publisher": "Museo Nacional del Prado",
+          "url": "https://www.museodelprado.es/en/the-collection/art-work/philip-ii/7d7280d6-5603-488a-8521-933acc357d7a/"
+        },
+        {
+          "title": "canon regular",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/canon%20regular"
+        }
+      ]
+    },
+    {
+      "id": "el-greco-peter-paul-20131",
+      "ch": "public-collection",
+      "zh": "圣彼得与圣保罗",
+      "en": "St Peter and St Paul",
+      "by": "埃尔·格列柯 / El Greco",
+      "date": "c. 1605–1608",
+      "material": "Oil on canvas",
+      "place": "Nationalmuseum，馆藏号NM 3077",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "",
+      "time": "6—8分钟",
+      "image": "./assets/nationalmuseum/el-greco-peter-paul-20131.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/20131/",
+      "imageCaption": "圣彼得与圣保罗 / St Peter and St Paul",
+      "imageKind": "object",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/20131/",
+      "cardSummary": "这不是一幅正在发生宏大事件的宗教叙事画，而像是两位使徒在沉默中交换立场。埃尔·格列柯把圣彼得与圣保罗画成一场心理戏：彼得身披金黄色外衣，年长、苍白，目光斜向身旁；保罗穿着炽烈的红袍，手按在书上，正面看向我们。最值得先看的，不是“谁是谁”的考试，而是两个人如何靠眼神、手势和颜色形成关系。画面越安静，分歧感反而越强。",
+      "preciousWhy": "这不是一幅正在发生宏大事件的宗教叙事画，而像是两位使徒在沉默中交换立场。埃尔·格列柯把圣彼得与圣保罗画成一场心理戏：彼得身披金黄色外衣，年长、苍白，目光斜向身旁；保罗穿着炽烈的红袍，手按在书上，正面看向我们。最值得先看的，不是“谁是谁”的考试，而是两个人如何靠眼神、手势和颜色形成关系。画面越安静，分歧感反而越强。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "St Peter and St Paul",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/en/collection/item/20131/"
+        },
+        {
+          "title": "El Greco (Domenikos Theotokopoulos)",
+          "publisher": "Museo Nacional del Prado",
+          "url": "https://www.museodelprado.es/en/the-collection/artist/el-greco-domenikos-theotokopoulos/b031da57-6a7e-43f2-a855-293275efc340"
+        }
+      ]
+    },
+    {
+      "id": "rembrandt-kitchen-maid-17587",
+      "ch": "public-collection",
+      "zh": "厨房女佣",
+      "en": "The Kitchen Maid",
+      "by": "伦勃朗·哈尔曼松·范·莱因 / Rembrandt Harmensz. van Rijn",
+      "date": "1651",
+      "material": "Oil on canvas",
+      "place": "Nationalmuseum，馆藏号NM 584",
       "tag": "绝对不可错过",
       "significance": "重要藏品",
       "availabilityTag": "",
-      "time": "10—12分钟",
-      "image": "./assets/nationalmuseum/rembrandt-self-portrait-nm-5324.jpg",
-      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Selfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif/lossy-page1-1280px-Selfportrait_%28Rembrandt_Harmensz._van_Rijn%29_-_Nationalmuseum_-_22374.tif.jpg?_=20161007120243",
-      "imageCaption": "自画像 / Self-Portrait",
+      "time": "8—10分钟",
+      "image": "./assets/nationalmuseum/rembrandt-kitchen-maid-17587.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/17587/",
+      "imageCaption": "厨房女佣 / The Kitchen Maid",
       "imageKind": "object",
-      "source": "https://collection.nationalmuseum.se/en/collection/item/22374/",
-      "cardSummary": "这是一幅24岁的伦勃朗把自己画下来的小型自画像：1630年署名，油彩绘在铜板上，现藏于瑞典国家博物馆。它最值得看的地方，不只是“年轻的伦勃朗长什么样”，而是他怎样用极小的尺寸，把一个人的神情画得既清楚又不急着下结论。",
-      "preciousWhy": "这是一幅24岁的伦勃朗把自己画下来的小型自画像：1630年署名，油彩绘在铜板上，现藏于瑞典国家博物馆。它最值得看的地方，不只是“年轻的伦勃朗长什么样”，而是他怎样用极小的尺寸，把一个人的神情画得既清楚又不急着下结论。",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/17587/",
+      "cardSummary": "这是一幅1651年由伦勃朗·哈尔曼松·范·莱因绘制的布面油画，现藏于斯德哥尔摩 Nationalmuseum，馆藏号 NM 584。画中的年轻女子倚在窗台上，手托面颊，像是刚从忙碌的厨房工作中暂时停下来，却没有摆出“正在劳动”的姿态。她直面观者，神情安静又有些难以捉摸。观看时先留意三件事：脸和手如何从黑暗中浮出来，红外衣与白色衣领怎样把视线聚拢到人物身上，以及那些看似粗放的笔触如何让她显得真实而不僵硬。作品最动人的地方，正在于它把一位身份普通的年轻女子，画出了几乎等同于肖像的存在感。",
+      "preciousWhy": "这是一幅1651年由伦勃朗·哈尔曼松·范·莱因绘制的布面油画，现藏于斯德哥尔摩 Nationalmuseum，馆藏号 NM 584。画中的年轻女子倚在窗台上，手托面颊，像是刚从忙碌的厨房工作中暂时停下来，却没有摆出“正在劳动”的姿态。她直面观者，神情安静又有些难以捉摸。观看时先留意三件事：脸和手如何从黑暗中浮出来，红外衣与白色衣领怎样把视线聚拢到人物身上，以及那些看似粗放的笔触如何让她显得真实而不僵硬。作品最动人的地方，正在于它把一位身份普通的年轻女子，画出了几乎等同于肖像的存在感。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "LOW_SOURCE_COUNT",
+            "message": "Only one source is recorded; this may be sufficient but deserves human attention",
+            "matches": [],
+            "severity": "warning"
+          },
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "\"The Kitchen Maid\"",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/en/collection/item/17587/"
+        }
+      ]
+    },
+    {
+      "id": "rembrandt-claudius-civilis-17581",
+      "ch": "public-collection",
+      "zh": "克劳狄乌斯·西维利斯领导下的巴达维亚人密谋",
+      "en": "The Conspiracy of the Batavians under Claudius Civilis",
+      "by": "伦勃朗·哈尔曼松·范·莱因 / Rembrandt Harmensz. van Rijn",
+      "date": "c. 1661–1662",
+      "material": "Oil on canvas",
+      "place": "Nationalmuseum，馆藏号NM 578",
+      "tag": "绝对不可错过",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "8—12分钟",
+      "image": "./assets/nationalmuseum/rembrandt-claudius-civilis-17581.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:The_Conspiracy_of_the_Batavians_under_Claudius_Civilis_(Rembrandt_Harmensz._van_Rijn)_-_Nationalmuseum_-_17581.jpg",
+      "imageCaption": "克劳狄乌斯·西维利斯领导下的巴达维亚人密谋 / The Conspiracy of the Batavians under Claudius Civilis",
+      "imageKind": "object",
+      "source": "https://www.nationalmuseum.se/en/lyssna-och-titta",
+      "cardSummary": "这是一幅历史画：在夜色中的宴席上，巴达维亚人的首领克劳狄乌斯·西维利斯正让同伴宣誓，共同反抗罗马。伦勃朗把这个古代故事画得不像一场整齐的英雄集会，更像一群刚刚被热酒、怒火和承诺拴在一起的人。站在画前，先找画面左侧偏中的首领：高冠、华服、正面朝向观众，而且少了一只眼睛。他举起的剑和周围人的剑交叠在一起，像把所有人暂时锁成一个集体。",
+      "preciousWhy": "这是一幅历史画：在夜色中的宴席上，巴达维亚人的首领克劳狄乌斯·西维利斯正让同伴宣誓，共同反抗罗马。伦勃朗把这个古代故事画得不像一场整齐的英雄集会，更像一群刚刚被热酒、怒火和承诺拴在一起的人。站在画前，先找画面左侧偏中的首领：高冠、华服、正面朝向观众，而且少了一只眼睛。他举起的剑和周围人的剑交叠在一起，像把所有人暂时锁成一个集体。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "AMBIGUOUS_QUOTATION",
+            "message": "Quoted wording may be emphasis or an unattributed quotation; human review may be useful",
+            "matches": [
+              "“我们坐在一起吃饭”",
+              "“我们要一起冒险”",
+              "“忠诚宣誓”",
+              "“重要藏品”"
+            ],
+            "severity": "warning"
+          },
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "克劳狄乌斯·西维利斯领导下的巴达维亚人密谋（官方对象页）",
+          "publisher": "Nationalmuseum",
+          "url": "https://www.nationalmuseum.se/en/lyssna-och-titta"
+        },
+        {
+          "title": "The Conspiracy of Claudius Civilis — Look and listen",
+          "publisher": "Nationalmuseum",
+          "url": "https://www.nationalmuseum.se/en/lyssna-och-titta"
+        },
+        {
+          "title": "Rembrandt: The Late Works — Supplement",
+          "publisher": "National Gallery, London",
+          "url": "https://www.nationalgallery.org.uk/media/16282/rembrandt-the-late-works_supplement_2014.pdf"
+        },
+        {
+          "title": "Rembrandt in detail — Light",
+          "publisher": "National Gallery, London",
+          "url": "https://www.nationalgallery.org.uk/stories/rembrandt-in-detail?viewPage=2"
+        },
+        {
+          "title": "Claudius Civilis",
+          "publisher": "Royal Academy of Fine Arts, Sweden",
+          "url": "https://konstakademien.se/en/claudius-civilis/"
+        },
+        {
+          "title": "Samtal: Rembrandts Batavernas trohetsed i fokus",
+          "publisher": "Nationalmuseum",
+          "url": "https://www.nationalmuseum.se/samtal-rembrandts-batavernas-trohetsed"
+        }
+      ]
+    },
+    {
+      "id": "elias-martin-gustav-academy-35234",
+      "ch": "public-collection",
+      "zh": "古斯塔夫三世于1780年访问美术学院",
+      "en": "King Gustav III Visits the Academy of Fine Arts 1780",
+      "by": "埃利亚斯·马丁 / Elias Martin",
+      "date": "1782",
+      "material": "Oil on canvas",
+      "place": "Nationalmuseum，馆藏号NMDrh 530",
+      "tag": "绝对不可错过",
+      "significance": "重要藏品",
+      "availabilityTag": "",
+      "time": "8—10分钟",
+      "image": "./assets/nationalmuseum/elias-martin-gustav-academy-35234.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Gustav_IIIs_visit_to_the_Royal_Academy_of_Arts.jpg",
+      "imageCaption": "古斯塔夫三世于1780年访问美术学院 / King Gustav III Visits the Academy of Fine Arts 1780",
+      "imageKind": "object",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/35234/",
+      "cardSummary": "这是一幅把“国王参观艺术学校”画成制度剖面的历史画：画面记录的是1780年的访问，但埃利亚斯·马丁在1782年签名完成。最值得先看的，不是右侧穿红色礼服的古斯塔夫三世，而是画面中央站在桌上的裸体男模。国王带着勋章出现，模特却占据了构图的核心——艺术学院真正训练的对象，是身体、观察和古典理想；王权则走进这套知识系统，成为它的赞助者和最高级别的观众。站在画前，可以先看中央人体，再看红衣国王，最后把目光移到墙上的伦勃朗作品和背景中的古代雕像：一间昏暗的模特教室，就这样同时变成了课堂、博物馆和国家权力的舞台。",
+      "preciousWhy": "这是一幅把“国王参观艺术学校”画成制度剖面的历史画：画面记录的是1780年的访问，但埃利亚斯·马丁在1782年签名完成。最值得先看的，不是右侧穿红色礼服的古斯塔夫三世，而是画面中央站在桌上的裸体男模。国王带着勋章出现，模特却占据了构图的核心——艺术学院真正训练的对象，是身体、观察和古典理想；王权则走进这套知识系统，成为它的赞助者和最高级别的观众。站在画前，可以先看中央人体，再看红衣国王，最后把目光移到墙上的伦勃朗作品和背景中的古代雕像：一间昏暗的模特教室，就这样同时变成了课堂、博物馆和国家权力的舞台。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要",
+              "经典"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Elias Martin | King Gustav III Visits the Academy of Fine Arts 1780",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/en/collection/item/35234/"
+        },
+        {
+          "title": "Royalty and other men of power - Art Academy",
+          "publisher": "Royal Swedish Academy of Fine Arts",
+          "url": "https://www.konstakademien.se/en/kungligheter-och-andra-maktens-man/"
+        },
+        {
+          "title": "Drottningholmsamlingen",
+          "publisher": "Nationalmuseum",
+          "url": "https://www.nationalmuseum.se/utforska-konst-och-design/vara-samlingar/drottningholmsamlingen"
+        },
+        {
+          "title": "Elias Martin",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/sv/artists/artist/5048/"
+        },
+        {
+          "title": "The Baptism of Karl Gustav, Duke of Småland",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/en/collection/item/21847/"
+        }
+      ]
+    },
+    {
+      "id": "aved-count-tessin-22585",
+      "ch": "france-to-sweden",
+      "zh": "卡尔·古斯塔夫·特辛伯爵",
+      "en": "Count Carl Gustaf Tessin",
+      "by": "雅克-安德烈-约瑟夫·阿韦德 / Jacques-André-Joseph Aved",
+      "date": "1740",
+      "material": "Oil on canvas",
+      "place": "Nationalmuseum，馆藏号NM 5535",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "",
+      "time": "6—8分钟",
+      "image": "./assets/nationalmuseum/aved-count-tessin-22585.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/22585/",
+      "imageCaption": "卡尔·古斯塔夫·特辛伯爵 / Count Carl Gustaf Tessin",
+      "imageKind": "object",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/22585/",
+      "cardSummary": "这是一幅1740年的油画，法国画家雅克·安德烈-约瑟夫·阿韦德为瑞典外交官、收藏家卡尔·古斯塔夫·特辛伯爵所作。它最值得看的地方，不只是人物画得像不像，而是画家把“收藏家”这个身份画进了整个房间：特辛穿着宽松长袍，坐在自己的书房里，身边有书籍、地球仪、书桌和艺术品，手中还展开一张版画。",
+      "preciousWhy": "这是一幅1740年的油画，法国画家雅克·安德烈-约瑟夫·阿韦德为瑞典外交官、收藏家卡尔·古斯塔夫·特辛伯爵所作。它最值得看的地方，不只是人物画得像不像，而是画家把“收藏家”这个身份画进了整个房间：特辛穿着宽松长袍，坐在自己的书房里，身边有书籍、地球仪、书桌和艺术品，手中还展开一张版画。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Count Carl Gustaf Tessin",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/en/collection/item/22585/"
+        },
+        {
+          "title": "The collections",
+          "publisher": "Nationalmuseum",
+          "url": "https://www.nationalmuseum.se/en/explore-art-and-design/the-collections"
+        },
+        {
+          "title": "The Timeline: 1720–1770",
+          "publisher": "Nationalmuseum",
+          "url": "https://www.nationalmuseum.se/en/webtour/tidslinjen-1720-1770"
+        },
+        {
+          "title": "Treasures from the Nationalmuseum of Sweden: The Collections of Count Tessin",
+          "publisher": "The Morgan Library & Museum",
+          "url": "https://www.themorgan.org/exhibitions/nationalmuseum-of-sweden"
+        },
+        {
+          "title": "Carl Gustaf Tessin 1695–1770",
+          "publisher": "The Royal Palaces of Sweden",
+          "url": "https://www.kungligaslotten.se/ur-arkivet/slottsarkitekter/2024-06-05-carl-gustaf-tessin--1695-1770.html"
+        }
+      ]
+    },
+    {
+      "id": "boucher-triumph-venus-17773",
+      "ch": "france-to-sweden",
+      "zh": "维纳斯的凯旋",
+      "en": "The Triumph of Venus",
+      "by": "弗朗索瓦·布歇 / François Boucher",
+      "date": "1740",
+      "material": "Oil on canvas",
+      "place": "Nationalmuseum，馆藏号NM 770",
+      "tag": "绝对不可错过",
+      "significance": "重要藏品",
+      "availabilityTag": "",
+      "time": "8—10分钟",
+      "image": "./assets/nationalmuseum/boucher-triumph-venus-17773.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:The_Triumph_of_Venus,_by_Fran%C3%A7ois_Boucher.jpg",
+      "imageCaption": "维纳斯的凯旋 / The Triumph of Venus",
+      "imageKind": "object",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/17773/",
+      "cardSummary": "这是法国画家弗朗索瓦·布歇在1740年创作的油画，描绘的却不只是“维纳斯坐在贝壳里”这么简单：它把诞生、爱情、欲望和庆典压缩进一片翻涌的海面。维纳斯刚从海泡沫中出现，海豚、特里同、水泽仙女和小爱神围着她旋转；她还没开始统治爱情，画面已经替她举行了胜利游行。",
+      "preciousWhy": "这是法国画家弗朗索瓦·布歇在1740年创作的油画，描绘的却不只是“维纳斯坐在贝壳里”这么简单：它把诞生、爱情、欲望和庆典压缩进一片翻涌的海面。维纳斯刚从海泡沫中出现，海豚、特里同、水泽仙女和小爱神围着她旋转；她还没开始统治爱情，画面已经替她举行了胜利游行。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "The Triumph of Venus | Nationalmuseum",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/en/collection/item/17773/"
+        },
+        {
+          "title": "Six Centuries of Contemporary Art: 18th Century – Talent and Taste",
+          "publisher": "Nationalmuseum",
+          "url": "https://www.nationalmuseum.se/en/webtour/sex-sekler-av-samtid-1700-talet-f%C3%B6rnuft-och-k%C3%A4nsla"
+        }
+      ]
+    },
+    {
+      "id": "boucher-study-triton-214899",
+      "ch": "france-to-sweden",
+      "zh": "海神习作",
+      "en": "Study of a Triton",
+      "by": "弗朗索瓦·布歇 / François Boucher",
+      "date": "1740",
+      "material": "Red, black and white chalk on paper",
+      "place": "Nationalmuseum，馆藏号NMH 60/2017",
+      "tag": "时间充裕再看",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "4—6分钟",
+      "image": "./assets/nationalmuseum/boucher-study-triton-214899.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/214899/",
+      "imageCaption": "海神习作 / Study of a Triton",
+      "imageKind": "object",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/214899/",
+      "cardSummary": "这是一张弗朗索瓦·布歇在1740年创作的纸上人物习作，使用红、黑、白三种粉笔，尺寸只有29.4×23厘米。它不是一幅独立讲述神话故事的完整画面，而是为《维纳斯的胜利》准备的局部研究：画面右侧那位特里同正托起一位海中仙女。",
+      "preciousWhy": "这是一张弗朗索瓦·布歇在1740年创作的纸上人物习作，使用红、黑、白三种粉笔，尺寸只有29.4×23厘米。它不是一幅独立讲述神话故事的完整画面，而是为《维纳斯的胜利》准备的局部研究：画面右侧那位特里同正托起一位海中仙女。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "UNSUPPORTED_DISPLAY_STATUS",
+            "message": "Current display status is stated as certain although metadata is not confirmed",
+            "matches": [
+              "目前标注它未在展出"
+            ],
+            "severity": "error"
+          },
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Study of a Triton",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/en/collection/item/214899/"
+        },
+        {
+          "title": "The Triumph of Venus",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/en/collection/item/17773/"
+        },
+        {
+          "title": "New acquisitions: 18th-century French master drawings",
+          "publisher": "Nationalmuseum",
+          "url": "https://www.mynewsdesk.com/nationalmuseum/pressreleases/new-acquisitions-18th-century-french-master-drawings-2275433"
+        },
+        {
+          "title": "Acquisitions for the reopened Nationalmuseum, Stockholm, 2011–18",
+          "publisher": "The Burlington Magazine",
+          "url": "https://burlington.org.uk/media/_file/generic/stockholm-supplement-2018-low-res.pdf"
+        }
+      ]
+    },
+    {
+      "id": "chardin-morning-toilet-17785",
+      "ch": "france-to-sweden",
+      "zh": "晨间梳妆",
+      "en": "The Morning Toilet",
+      "by": "让-巴蒂斯特-西梅翁·夏尔丹 / Jean Siméon Chardin",
+      "date": "1740–1741",
+      "material": "Oil on canvas",
+      "place": "Nationalmuseum，馆藏号NM 782",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "",
+      "time": "6—8分钟",
+      "image": "./assets/nationalmuseum/chardin-morning-toilet-17785.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/17785/",
+      "imageCaption": "晨间梳妆 / The Morning Toilet",
+      "imageKind": "object",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/17785/",
+      "cardSummary": "这是一幅画“出门前最后一分钟”的画：一位年轻女子正替小女孩整理帽子上的蓝色蝴蝶结，女孩却已经忍不住侧过脸，偷偷从镜子里检查自己的样子。夏尔丹把一个极普通的家庭动作画得很有分量——手指在系结，眼睛在偷看，桌上的蜡烛还没有熄灭，地上的小壶像是刚刚用过。这里没有神话英雄，也没有宫廷盛典，只有穿衣、照镜子和被人照料的日常。正是这种安静的日常，让我们看见十八世纪法国室内生活的温度，也看见一个孩子如何在别人的照料中，慢慢意识到“我看起来怎么样”。站在画前，可以先找那条蓝色蝴蝶结：它是全画最亮的细节，也是两个人关系的视觉纽带。",
+      "preciousWhy": "这是一幅画“出门前最后一分钟”的画：一位年轻女子正替小女孩整理帽子上的蓝色蝴蝶结，女孩却已经忍不住侧过脸，偷偷从镜子里检查自己的样子。夏尔丹把一个极普通的家庭动作画得很有分量——手指在系结，眼睛在偷看，桌上的蜡烛还没有熄灭，地上的小壶像是刚刚用过。这里没有神话英雄，也没有宫廷盛典，只有穿衣、照镜子和被人照料的日常。正是这种安静的日常，让我们看见十八世纪法国室内生活的温度，也看见一个孩子如何在别人的照料中，慢慢意识到“我看起来怎么样”。站在画前，可以先找那条蓝色蝴蝶结：它是全画最亮的细节，也是两个人关系的视觉纽带。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "The Morning Toilet",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/en/collection/item/17785/"
+        },
+        {
+          "title": "La Toilette du matin, dit aussi Le Négligé - Chardin",
+          "publisher": "Utpictura18, Aix-Marseille Université",
+          "url": "https://utpictura18.univ-amu.fr/notice/8165-toilette-matin-dit-aussi-neglige-chardin"
+        },
+        {
+          "title": "Chardin",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/exhibitions/listings/2000/chardin"
+        }
+      ]
+    },
+    {
+      "id": "wertmuller-marie-antoinette-18035",
+      "ch": "france-to-sweden",
+      "zh": "法国王后玛丽·安托瓦内特与两个孩子漫步特里亚农花园",
+      "en": "Queen Marie Antoinette of France and two of her Children Walking in The Park of Trianon",
+      "by": "阿道夫·乌尔里克·韦特米勒 / Adolf Ulrik Wertmüller",
+      "date": "1785",
+      "material": "Oil on canvas",
+      "place": "Nationalmuseum，馆藏号NM 1032",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "",
+      "time": "6—8分钟",
+      "image": "./assets/nationalmuseum/wertmuller-marie-antoinette-18035.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/18035/",
+      "imageCaption": "法国王后玛丽·安托瓦内特与两个孩子漫步特里亚农花园 / Queen Marie Antoinette of France and two of her Children Walking in The Park of Trianon",
+      "imageKind": "object",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/18035/",
+      "cardSummary": "这是一幅 1785 年签名的宫廷肖像：法国王后玛丽·安托瓦内特带着两个孩子，出现在特里亚农花园的林荫间。瑞典画家阿道夫·乌尔里克·韦特米勒把人物画成接近真人大小，画布高 276 厘米，王后几乎像从画面里走出来。",
+      "preciousWhy": "这是一幅 1785 年签名的宫廷肖像：法国王后玛丽·安托瓦内特带着两个孩子，出现在特里亚农花园的林荫间。瑞典画家阿道夫·乌尔里克·韦特米勒把人物画成接近真人大小，画布高 276 厘米，王后几乎像从画面里走出来。",
+      "sources": [
+        {
+          "title": "Queen Marie Antoinette of France and two of her Children Walking in The Park of Trianon",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/en/collection/item/18035/"
+        },
+        {
+          "title": "1770–1800 timeline",
+          "publisher": "Nationalmuseum",
+          "url": "https://www.nationalmuseum.se/en/webtour/tidslinjen-1770-1800"
+        },
+        {
+          "title": "Drottning Marie Antoinette av Frankrike med två av sina barn promenerande i Trianons park",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/sv/collection/item/18035/"
+        },
+        {
+          "title": "Kronprins, Le Dauphin, Louis-Joseph-Xavier-François av Frankrike (1781–1789)",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/sv/collection/item/132462/"
+        },
+        {
+          "title": "The Petit Trianon",
+          "publisher": "Château de Versailles",
+          "url": "https://en.chateauversailles.fr/discover/estate/estate-trianon/petit-trianon"
+        }
+      ]
+    },
+    {
+      "id": "roslin-lady-with-veil-21152",
+      "ch": "france-to-sweden",
+      "zh": "蒙面纱的女士：画家之妻玛丽·苏珊娜·吉鲁",
+      "en": "The Lady with the Veil. The Artist's Wife Marie Suzanne Giroust",
+      "by": "亚历山大·罗斯林 / Alexander Roslin",
+      "date": "1768",
+      "material": "Oil on canvas",
+      "place": "Nationalmuseum，馆藏号NM 4098",
+      "tag": "绝对不可错过",
+      "significance": "重要藏品",
+      "availabilityTag": "",
+      "time": "8—10分钟",
+      "image": "./assets/nationalmuseum/roslin-lady-with-veil-21152.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+      "imageCaption": "蒙面纱的女士：画家之妻玛丽·苏珊娜·吉鲁 / The Lady with the Veil. The Artist's Wife Marie Suzanne Giroust",
+      "imageKind": "object",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/21152/",
+      "cardSummary": "这是一幅亚历山大·罗斯林于1768年签名完成的油画，画中人是他的妻子玛丽·苏珊娜·吉鲁。她并不是一位没有姓名的“神秘美人”，而是一名法国艺术家，擅长粉彩和肖像画。作品最值得看的地方，是它把肖像变成了一场“看见与隐藏”的游戏：黑色面纱遮住部分面容，折扇又挡来一点视线；与此同时，白色蕾丝、粉色丝绸和闪亮的装饰把她的身份与场合透露出来。站在画前，可以先看她露出的眼睛和微笑，再顺着扇子移向手部，最后观察黑纱如何把整个人包进一种既亲密又难以接近的气氛里。",
+      "preciousWhy": "这是一幅亚历山大·罗斯林于1768年签名完成的油画，画中人是他的妻子玛丽·苏珊娜·吉鲁。她并不是一位没有姓名的“神秘美人”，而是一名法国艺术家，擅长粉彩和肖像画。作品最值得看的地方，是它把肖像变成了一场“看见与隐藏”的游戏：黑色面纱遮住部分面容，折扇又挡来一点视线；与此同时，白色蕾丝、粉色丝绸和闪亮的装饰把她的身份与场合透露出来。站在画前，可以先看她露出的眼睛和微笑，再顺着扇子移向手部，最后观察黑纱如何把整个人包进一种既亲密又难以接近的气氛里。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "The Lady with the Veil. The Artist's Wife Marie Suzanne Giroust",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/en/collection/item/21152/"
+        },
+        {
+          "title": "Suzanne Roslin",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/sv/artists/artist/10135/"
+        }
+      ]
+    },
+    {
+      "id": "sergel-faun-26823",
+      "ch": "gustavian-networks",
+      "zh": "斜卧在羊皮与酒囊上的牧神",
+      "en": "The Faun, Reclining on a Goat Skin and a Sack of Wine",
+      "by": "约翰·托比亚斯·塞尔格尔 / Johan Tobias Sergel",
+      "date": "1770",
+      "material": "Terracotta",
+      "place": "Nationalmuseum，馆藏号NMSk 452",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "",
+      "time": "6—8分钟",
+      "image": "./assets/nationalmuseum/sergel-faun-26823.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Sergelfaun.jpg",
+      "imageCaption": "斜卧在羊皮与酒囊上的牧神 / The Faun, Reclining on a Goat Skin and a Sack of Wine",
+      "imageKind": "object",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/26823/",
+      "cardSummary": "这是一件瑞典雕塑家约翰·托比亚斯·塞尔格尔于1770年创作并署名的陶土雕塑，现藏于斯德哥尔摩国家博物馆，馆藏号 NMSk 452。它描绘的是希腊罗马神话中的牧神：半人半羊，属于森林、酒宴与自然欲望的世界。",
+      "preciousWhy": "这是一件瑞典雕塑家约翰·托比亚斯·塞尔格尔于1770年创作并署名的陶土雕塑，现藏于斯德哥尔摩国家博物馆，馆藏号 NMSk 452。它描绘的是希腊罗马神话中的牧神：半人半羊，属于森林、酒宴与自然欲望的世界。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "The Faun, Reclining on a Goat Skin and a Sack of Wine",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/en/collection/item/26823/"
+        },
+        {
+          "title": "Johan Tobias Sergel",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/sv/artists/artist/4542/"
+        },
+        {
+          "title": "Sergel och hans romerska krets: Europeiska terrakottor 1760–1814",
+          "publisher": "Nationalmuseum bookshop",
+          "url": "https://nationalmuseum.bokorder.se/en-us/article/1713/sergel-och-hans-romerska-krets"
+        },
+        {
+          "title": "Seated Faun",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/art/collection/search/203915"
+        },
+        {
+          "title": "Playing with Fire: European Terracotta Models, 1740–1840",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/press-releases/playing-with-fire-european-terracotta-models-17401840-2003-exhibitions"
+        }
+      ]
+    },
+    {
+      "id": "sergel-cupid-psyche-26739",
+      "ch": "gustavian-networks",
+      "zh": "丘比特与普绪克",
+      "en": "Cupid and Psyche",
+      "by": "约翰·托比亚斯·塞尔格尔 / Johan Tobias Sergel",
+      "date": "1787",
+      "material": "Carrara marble",
+      "place": "Nationalmuseum，馆藏号NMSk 359",
+      "tag": "绝对不可错过",
+      "significance": "重要藏品",
+      "availabilityTag": "",
+      "time": "8—10分钟",
+      "image": "./assets/nationalmuseum/sergel-cupid-psyche-26739.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Sergelamorochpsyke.jpg",
+      "imageCaption": "丘比特与普绪克 / Cupid and Psyche",
+      "imageKind": "object",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/26739/",
+      "cardSummary": "这是一组用卡拉拉大理石雕成的爱情神话：高约159厘米的丘比特正要张开翅膀离开，跪在身旁的普绪克伸手挽留他。瑞典雕塑家约翰·托比亚斯·塞尔格尔在1787年抓住的，不是爱情最甜蜜的时刻，而是“秘密被看见之后，关系还能不能继续”的一瞬间。",
+      "preciousWhy": "这是一组用卡拉拉大理石雕成的爱情神话：高约159厘米的丘比特正要张开翅膀离开，跪在身旁的普绪克伸手挽留他。瑞典雕塑家约翰·托比亚斯·塞尔格尔在1787年抓住的，不是爱情最甜蜜的时刻，而是“秘密被看见之后，关系还能不能继续”的一瞬间。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Cupid and Psyche",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/en/collection/item/26739/"
+        },
+        {
+          "title": "Amor och Psyke",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/sv/collection/item/26739/"
+        },
+        {
+          "title": "Fantasy and Reality – The Art of Johan Tobias Sergel",
+          "publisher": "Nationalmuseum",
+          "url": "https://www.nationalmuseum.se/en/exhibitions/fantasy-and-reality-the-art-of-johan-tobias-sergel"
+        },
+        {
+          "title": "Johan Tobias Sergel",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/en/artists/artist/4542/"
+        }
+      ]
+    },
+    {
+      "id": "sergel-ceres-proserpine-26828",
+      "ch": "gustavian-networks",
+      "zh": "寻找普洛塞耳皮娜的刻瑞斯",
+      "en": "Ceres Searching for Proserpine",
+      "by": "约翰·托比亚斯·塞尔格尔 / Johan Tobias Sergel",
+      "date": "1780s",
+      "material": "Plaster",
+      "place": "Nationalmuseum，馆藏号NMSk 457",
+      "tag": "强烈推荐",
+      "significance": "特色看点",
+      "availabilityTag": "",
+      "time": "5—7分钟",
+      "image": "./assets/nationalmuseum/sergel-ceres-proserpine-26828.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/26828/",
+      "imageCaption": "寻找普洛塞耳皮娜的刻瑞斯 / Ceres Searching for Proserpine",
+      "imageKind": "object",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/26828/",
+      "cardSummary": "这是一件由约翰·托比亚斯·塞尔格尔在1780年代创作的石膏雕塑，高117厘米，现藏于斯德哥尔摩 Nationalmuseum。它表现罗马农业女神刻瑞斯：女儿普洛塞耳皮娜被冥界之神普鲁托掳走后，刻瑞斯举起火炬，在黑暗中寻找她。",
+      "preciousWhy": "这是一件由约翰·托比亚斯·塞尔格尔在1780年代创作的石膏雕塑，高117厘米，现藏于斯德哥尔摩 Nationalmuseum。它表现罗马农业女神刻瑞斯：女儿普洛塞耳皮娜被冥界之神普鲁托掳走后，刻瑞斯举起火炬，在黑暗中寻找她。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Ceres Searching for Proserpine",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/en/collection/item/26828/"
+        },
+        {
+          "title": "Louis Jean Desprez (1743–1804)",
+          "publisher": "Nationalmuseum",
+          "url": "https://www.nationalmuseum.se/louis-jean-desprez-1743-1804"
+        }
+      ]
+    },
+    {
+      "id": "sergel-gustav-statue-study-71152",
+      "ch": "gustavian-networks",
+      "zh": "斯凯普斯布隆古斯塔夫三世雕像习作",
+      "en": "Study for the Statue of Gustav III on Skeppsbron",
+      "by": "约翰·托比亚斯·塞尔格尔 / Johan Tobias Sergel",
+      "date": "1791",
+      "material": "Pen and ink, grey wash and black chalk on paper",
+      "place": "Nationalmuseum，馆藏号NMH 244/1933",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "",
+      "time": "6—8分钟",
+      "image": "./assets/nationalmuseum/sergel-gustav-statue-study-71152.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/71152/",
+      "imageCaption": "斯凯普斯布隆古斯塔夫三世雕像习作 / Study for the Statue of Gustav III on Skeppsbron",
+      "imageKind": "object",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/71152/",
+      "cardSummary": "这不是一张随手画的国王肖像，而是公共纪念碑诞生前的设计现场。1791年，瑞典雕塑家约翰·托比亚斯·塞尔格尔用纸、墨水、灰色水洗和黑色粉笔，为斯德哥尔摩斯凯普斯布隆的古斯塔夫三世雕像推敲姿态：国王仿佛正在向前行走，一手借着桨舵保持支撑，另一手伸出橄榄枝。画面最值得看的，是一个现实中的海军制服国王，如何被安排成几乎像古典英雄那样理想化的形象。先看左侧较完整的方案，再看右侧几乎隐去的淡稿：你会看到一座“国家形象”如何从线条和阴影中慢慢站起来。",
+      "preciousWhy": "这不是一张随手画的国王肖像，而是公共纪念碑诞生前的设计现场。1791年，瑞典雕塑家约翰·托比亚斯·塞尔格尔用纸、墨水、灰色水洗和黑色粉笔，为斯德哥尔摩斯凯普斯布隆的古斯塔夫三世雕像推敲姿态：国王仿佛正在向前行走，一手借着桨舵保持支撑，另一手伸出橄榄枝。画面最值得看的，是一个现实中的海军制服国王，如何被安排成几乎像古典英雄那样理想化的形象。先看左侧较完整的方案，再看右侧几乎隐去的淡稿：你会看到一座“国家形象”如何从线条和阴影中慢慢站起来。",
+      "sources": [
+        {
+          "title": "Study for the Statue of Gustav III on Skeppsbron",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/en/collection/item/71152/"
+        },
+        {
+          "title": "Johan Tobias Sergel",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/sv/artists/artist/4542/"
+        }
+      ]
+    },
+    {
+      "id": "sergel-noisy-dinner-14667",
+      "ch": "gustavian-networks",
+      "zh": "喧闹的晚宴",
+      "en": "A Noisy Dinner",
+      "by": "约翰·托比亚斯·塞尔格尔 / Johan Tobias Sergel",
+      "date": "c. 1784 or later",
+      "material": "Pen and brown ink with brown and grey wash on paper",
+      "place": "Nationalmuseum，馆藏号NMH 610/1875",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "",
+      "time": "6—8分钟",
+      "image": "./assets/nationalmuseum/sergel-noisy-dinner-14667.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/14667/",
+      "imageCaption": "喧闹的晚宴 / A Noisy Dinner",
+      "imageKind": "object",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/14667/",
+      "cardSummary": "这是一张约翰·托比亚斯·塞尔格尔在18世纪80年代中期创作的钢笔与棕色、灰色水洗素描。它画的不是一场端庄、人人坐好的宫廷宴会，而是一群人喝到兴致正浓、身体开始失去“礼仪姿势”的晚餐。最值得先看的，是桌面那片亮光：杯子、手臂和白色桌布被照得像一个临时舞台，前景人物反而沉入深色剪影。于是，喧闹并不是靠我们听见的，而是靠画面的光线、姿势和拥挤被“看见”的。站近一点，你会发现这还是一张社交地图：艺术家、商人、演员、建筑师和仆人被塞进同一个夜晚，名流社会忽然不再像肖像画里的静止头像，而像一桌随时可能掀翻的牌局。",
+      "preciousWhy": "这是一张约翰·托比亚斯·塞尔格尔在18世纪80年代中期创作的钢笔与棕色、灰色水洗素描。它画的不是一场端庄、人人坐好的宫廷宴会，而是一群人喝到兴致正浓、身体开始失去“礼仪姿势”的晚餐。最值得先看的，是桌面那片亮光：杯子、手臂和白色桌布被照得像一个临时舞台，前景人物反而沉入深色剪影。于是，喧闹并不是靠我们听见的，而是靠画面的光线、姿势和拥挤被“看见”的。站近一点，你会发现这还是一张社交地图：艺术家、商人、演员、建筑师和仆人被塞进同一个夜晚，名流社会忽然不再像肖像画里的静止头像，而像一桌随时可能掀翻的牌局。",
+      "sources": [
+        {
+          "title": "Johan Tobias Sergel | En ståjande middag",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/en/collection/item/14667/"
+        },
+        {
+          "title": "Johan Tobias Sergel",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/en/artists/artist/4542/"
+        },
+        {
+          "title": "Fantasy and Reality – The Art of Johan Tobias Sergel",
+          "publisher": "Nationalmuseum",
+          "url": "https://www.nationalmuseum.se/en/exhibitions/fantasy-and-reality-the-art-of-johan-tobias-sergel"
+        }
+      ]
+    },
+    {
+      "id": "henrichsen-gustav-gold-box-244051",
+      "ch": "gustavian-networks",
+      "zh": "镶珠宝双色金质王室赏赐鼻烟盒",
+      "en": "A Jewelled Two-colour Gold Royal Presentation Snuff Box",
+      "by": "约翰·格奥尔格·亨里克森（归属） / Attributed to Johan Georg Henrichsen",
+      "date": "c. 1775–1777",
+      "material": "Gold, enamel and precious stones",
+      "place": "Nationalmuseum，馆藏号NMB 2799",
+      "tag": "绝对不可错过",
+      "significance": "重要藏品",
+      "availabilityTag": "",
+      "time": "7—9分钟",
+      "image": "./assets/nationalmuseum/henrichsen-gustav-gold-box-244051.jpg",
+      "imageSource": "https://www.sothebys.com/en/buy/auction/2021/gold-boxes-silver-and-ceramics/a-jewelled-two-colour-gold-royal-presentation",
+      "imageCaption": "镶珠宝双色金质王室赏赐鼻烟盒 / A Jewelled Two-colour Gold Royal Presentation Snuff Box",
+      "imageKind": "object",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/244051/",
+      "cardSummary": "这是一只约作于1775—1777年的椭圆形金质鼻烟盒，馆方将盒盖中央的古斯塔夫三世肖像微型画归于宫廷珐琅师约翰·格奥尔格·亨里克森，盒体则归于德国哈瑙的工坊。它真正值得看的地方，不只是金、珐琅和钻石堆出的华丽，而是它曾经承担过一项很正式的工作：替国王表达恩宠。",
+      "preciousWhy": "这是一只约作于1775—1777年的椭圆形金质鼻烟盒，馆方将盒盖中央的古斯塔夫三世肖像微型画归于宫廷珐琅师约翰·格奥尔格·亨里克森，盒体则归于德国哈瑙的工坊。它真正值得看的地方，不只是金、珐琅和钻石堆出的华丽，而是它曾经承担过一项很正式的工作：替国王表达恩宠。",
       "contentWarning": {
         "title": "内容尚未通过完整校验",
         "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
@@ -158,188 +1023,32 @@ museumData["nationalmuseum"] = {
       },
       "sources": [
         {
-          "title": "Self-Portrait",
+          "title": "A Jewelled two-colour Gold Royal Presentation Snuff Box",
           "publisher": "Nationalmuseum",
-          "url": "https://collection.nationalmuseum.se/en/collection/item/22374/"
+          "url": "https://collection.nationalmuseum.se/en/collection/item/244051/"
         }
       ]
     },
     {
-      "id": "rubens-three-graces-nm-601",
-      "ch": "ch-01",
-      "zh": "三美神与玫瑰花篮",
-      "en": "The Three Graces with a Basket of Roses",
-      "by": "彼得·保罗·鲁本斯，作坊；小扬·勃鲁盖尔 / Peter Paul Rubens, Workshop of; Jan Brueghel the younger",
-      "date": "ca. 1620–1625",
-      "material": "Oil on canvas",
-      "place": "Nationalmuseum，馆藏号NM 601",
+      "id": "bourdillon-pocket-watch-6842",
+      "ch": "gustavian-networks",
+      "zh": "怀表",
+      "en": "Pocket Watch",
+      "by": "奥古斯坦·布尔迪永 / Augustin Bourdillon",
+      "date": "1760s",
+      "material": "Gold and enamel",
+      "place": "Nationalmuseum，馆藏号NMK 110/1979",
       "tag": "强烈推荐",
       "significance": "重要藏品",
-      "availabilityTag": "",
-      "time": "6—8分钟",
-      "image": "./assets/nationalmuseum/rubens-three-graces-nm-601.jpg",
-      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Rubens_The_Three_Graces.JPG",
-      "imageCaption": "三美神与玫瑰花篮 / The Three Graces with a Basket of Roses",
-      "imageKind": "object",
-      "source": "https://collection.nationalmuseum.se/en/collection/item/17604/",
-      "cardSummary": "三位裸体女子合力托起一只盛满玫瑰的篮子：她们是希腊神话中的三美神，却几乎没有“发生了什么”的戏剧故事，真正的主角是身体的转动、手臂的节奏和皮肤像被暖光照亮的质感。这件约作于1620—1625年的油画，现由斯德哥尔摩 Nationalmuseum 归入鲁本斯作坊，并标出小扬·勃鲁盖尔的名字。站在画前，先别急着寻找“鲁本斯亲手画的地方”，先看三个人怎样把一个静止的花篮变成一场向上的舞蹈；再看花、人物和风景之间，是否真的来自同一只手。",
-      "preciousWhy": "三位裸体女子合力托起一只盛满玫瑰的篮子：她们是希腊神话中的三美神，却几乎没有“发生了什么”的戏剧故事，真正的主角是身体的转动、手臂的节奏和皮肤像被暖光照亮的质感。这件约作于1620—1625年的油画，现由斯德哥尔摩 Nationalmuseum 归入鲁本斯作坊，并标出小扬·勃鲁盖尔的名字。站在画前，先别急着寻找“鲁本斯亲手画的地方”，先看三个人怎样把一个静止的花篮变成一场向上的舞蹈；再看花、人物和风景之间，是否真的来自同一只手。",
-      "sources": [
-        {
-          "title": "The Three Graces with a Basket of Roses",
-          "publisher": "Nationalmuseum",
-          "url": "https://collection.nationalmuseum.se/en/collection/item/17604/"
-        },
-        {
-          "title": "Biography of Rubens",
-          "publisher": "Rubenshuis, City of Antwerp",
-          "url": "https://rubenshuis.be/en/stories/biography-rubens"
-        }
-      ]
-    },
-    {
-      "id": "goya-truth-time-history-nm-5593",
-      "ch": "ch-02",
-      "zh": "真理、时间与历史",
-      "en": "Truth, Time and History",
-      "by": "弗朗西斯科·戈雅·卢西恩特斯 / Francisco Goya y Lucientes",
-      "date": "1804–1808",
-      "material": "Oil on canvas",
-      "place": "Nationalmuseum，馆藏号NM 5593",
-      "tag": "绝对不可错过",
-      "significance": "重要藏品",
-      "availabilityTag": "",
-      "time": "10—12分钟",
-      "image": "./assets/nationalmuseum/goya-truth-time-history-nm-5593.png",
-      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/22643/",
-      "imageCaption": "真理、时间与历史 / Truth, Time and History",
-      "imageKind": "object",
-      "source": "https://collection.nationalmuseum.se/en/collection/item/22643/",
-      "cardSummary": "这是一幅把抽象概念画成真人的历史寓言：画面中央，一位身穿白衣的女子迎着光站立，手持权杖和一本小书；她身后是长着翅膀、握着沙漏的老人；右侧另一位女子伏在大书上写字。通常可以把三人理解为真理或西班牙、时间与历史。戈雅真正高明的地方，不只是“给概念穿上衣服”，而是让它们形成一个动作关系：时间转动沙漏，真理被光照亮，历史负责记录。站在画前，先看那本小书和三个人的视线、手势，再看黑暗如何退到画面边缘。你会发现，这不是一幅安静的古典寓言，而像是在追问：一个国家究竟凭什么证明自己走在正确的道路上？",
-      "preciousWhy": "这是一幅把抽象概念画成真人的历史寓言：画面中央，一位身穿白衣的女子迎着光站立，手持权杖和一本小书；她身后是长着翅膀、握着沙漏的老人；右侧另一位女子伏在大书上写字。通常可以把三人理解为真理或西班牙、时间与历史。戈雅真正高明的地方，不只是“给概念穿上衣服”，而是让它们形成一个动作关系：时间转动沙漏，真理被光照亮，历史负责记录。站在画前，先看那本小书和三个人的视线、手势，再看黑暗如何退到画面边缘。你会发现，这不是一幅安静的古典寓言，而像是在追问：一个国家究竟凭什么证明自己走在正确的道路上？",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Truth, Time and History",
-          "publisher": "Nationalmuseum",
-          "url": "https://collection.nationalmuseum.se/en/collection/item/22643/"
-        },
-        {
-          "title": "Truth, Time and History (La Verdad, el Tiempo y la Historia)",
-          "publisher": "Fundación Goya en Aragón",
-          "url": "https://fundaciongoyaenaragon.es/eng/obra/la-verdad-el-tiempo-y-la-historia/165"
-        },
-        {
-          "title": "Constitución de 1812",
-          "publisher": "Congreso de los Diputados",
-          "url": "https://www.congreso.es/en/web/guest/cem/const1812"
-        }
-      ]
-    },
-    {
-      "id": "roslin-lady-with-veil-nm-4098",
-      "ch": "ch-02",
-      "zh": "戴面纱的女士——艺术家妻子玛丽·苏珊娜·吉鲁斯特",
-      "en": "The Lady with the Veil. The Artist's Wife Marie Suzanne Giroust",
-      "by": "亚历山大·罗林 / Alexander Roslin",
-      "date": "signed 1768",
-      "material": "Oil on canvas",
-      "place": "Nationalmuseum，馆藏号NM 4098",
-      "tag": "绝对不可错过",
-      "significance": "重要藏品",
-      "availabilityTag": "",
-      "time": "8—10分钟",
-      "image": "./assets/nationalmuseum/roslin-lady-with-veil-nm-4098.png",
-      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/21152/",
-      "imageCaption": "戴面纱的女士——艺术家妻子玛丽·苏珊娜·吉鲁斯特 / The Lady with the Veil. The Artist's Wife Marie Suzanne Giroust",
-      "imageKind": "object",
-      "source": "https://collection.nationalmuseum.se/en/collection/item/21152/",
-      "cardSummary": "这是一幅亚历山大·罗林于1768年签名的布面油画，画中人不是一位无名的神秘美人，而是他的妻子玛丽·苏珊娜·吉鲁斯特——一位法国艺术家。她穿着仿博洛尼亚风格的化装舞会服饰，黑色面纱遮住部分脸庞，手里的扇子贴近面颊，像是在邀请你靠近，又提醒你别靠得太近。",
-      "preciousWhy": "这是一幅亚历山大·罗林于1768年签名的布面油画，画中人不是一位无名的神秘美人，而是他的妻子玛丽·苏珊娜·吉鲁斯特——一位法国艺术家。她穿着仿博洛尼亚风格的化装舞会服饰，黑色面纱遮住部分脸庞，手里的扇子贴近面颊，像是在邀请你靠近，又提醒你别靠得太近。",
-      "sources": [
-        {
-          "title": "The Lady with the Veil. The Artist's Wife Marie Suzanne Giroust",
-          "publisher": "Nationalmuseum",
-          "url": "https://collection.nationalmuseum.se/en/collection/item/21152/"
-        },
-        {
-          "title": "Damen med slöjan – Vem var hon egentligen?",
-          "publisher": "Nationalmuseum",
-          "url": "https://www.nationalmuseum.se/assets/Dokument/Skolan/L%C3%A4rarhandledning-Damen-med-sl%C3%B6jan.pdf"
-        }
-      ]
-    },
-    {
-      "id": "pilo-coronation-gustav-iii-nm-1004",
-      "ch": "ch-02",
-      "zh": "瑞典国王古斯塔夫三世的加冕礼（未完成）",
-      "en": "The Coronation of King Gustav III of Sweden. Uncompleted",
-      "by": "卡尔·古斯塔夫·皮洛 / Carl Gustav Pilo",
-      "date": "1782–1793",
-      "material": "Oil on canvas",
-      "place": "Nationalmuseum，馆藏号NM 1004",
-      "tag": "绝对不可错过",
-      "significance": "重要藏品",
-      "availabilityTag": "",
-      "time": "8—10分钟",
-      "image": "./assets/nationalmuseum/pilo-coronation-gustav-iii-nm-1004.jpg",
-      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/The_Coronation_of_King_Gustav_III_of_Sweden._Uncompleted_%28Carl_Gustav_Pilo%29_-_Nationalmuseum_-_18007.tif/lossy-page1-500px-The_Coronation_of_King_Gustav_III_of_Sweden._Uncompleted_%28Carl_Gustav_Pilo%29_-_Nationalmuseum_-_18007.tif.jpg",
-      "imageCaption": "瑞典国王古斯塔夫三世的加冕礼（未完成） / The Coronation of King Gustav III of Sweden. Uncompleted",
-      "imageKind": "object",
-      "source": "https://collection.nationalmuseum.se/en/collection/item/18007/",
-      "cardSummary": "这是一幅卡尔·古斯塔夫·皮洛创作的巨型历史画：油彩画在画布上，作于1782—1793年，现藏于斯德哥尔摩 Nationalmuseum，馆藏号 NM 1004。画面描绘1772年5月29日，古斯塔夫三世在斯德哥尔摩大教堂接受加冕的场面。先别急着寻找“画得最像的人”，先看中心那片近乎发光的白色：国王站在整个仪式的焦点上，而四周的贵族、市民、教士和农民像层层展开的社会地图，共同把一个人的登基变成国家秩序的公开展示。",
-      "preciousWhy": "这是一幅卡尔·古斯塔夫·皮洛创作的巨型历史画：油彩画在画布上，作于1782—1793年，现藏于斯德哥尔摩 Nationalmuseum，馆藏号 NM 1004。画面描绘1772年5月29日，古斯塔夫三世在斯德哥尔摩大教堂接受加冕的场面。先别急着寻找“画得最像的人”，先看中心那片近乎发光的白色：国王站在整个仪式的焦点上，而四周的贵族、市民、教士和农民像层层展开的社会地图，共同把一个人的登基变成国家秩序的公开展示。",
-      "sources": [
-        {
-          "title": "The Coronation of King Gustav III of Sweden. Uncompleted",
-          "publisher": "Nationalmuseum",
-          "url": "https://collection.nationalmuseum.se/en/collection/item/18007/"
-        },
-        {
-          "title": "The 1770–1800 timeline",
-          "publisher": "Nationalmuseum",
-          "url": "https://www.nationalmuseum.se/en/webtour/tidslinjen-1770-1800"
-        },
-        {
-          "title": "Storkyrkan – Stockholm Cathedral",
-          "publisher": "Stockholms domkyrkoförsamling, Svenska kyrkan",
-          "url": "https://www.svenskakyrkan.se/stockholmsdomkyrkoforsamling/storkyrkan"
-        }
-      ]
-    },
-    {
-      "id": "elias-martin-view-stockholm-nm-1470",
-      "ch": "ch-02",
-      "zh": "斯德哥尔摩景色",
-      "en": "View of Stockholm",
-      "by": "伊利亚斯·马丁 / Elias Martin",
-      "date": "not dated in object record",
-      "material": "Oil on canvas",
-      "place": "Nationalmuseum，馆藏号NM 1470",
-      "tag": "强烈推荐",
-      "significance": "特色看点",
       "availabilityTag": "",
       "time": "5—7分钟",
-      "image": "./assets/nationalmuseum/elias-martin-view-stockholm-nm-1470.png",
-      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/18473/",
-      "imageCaption": "斯德哥尔摩景色 / View of Stockholm",
+      "image": "./assets/nationalmuseum/bourdillon-pocket-watch-6842.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/6842/",
+      "imageCaption": "怀表 / Pocket Watch",
       "imageKind": "object",
-      "source": "https://collection.nationalmuseum.se/en/collection/item/18473/",
-      "cardSummary": "这是一幅布面油画，作者是瑞典画家伊利亚斯·马丁（1739—1818），现藏于 Nationalmuseum，馆藏号 NM 1470；制作年代在馆方对象记录中没有注明。它值得看的地方，不只是“画了一座城市”，而是马丁把城市压低在地平线附近，让天空、云层和光线占据了更大的舞台。站在画前，可以先别急着寻找每一栋建筑：先看天空如何向远处倾斜，再看右侧的大建筑怎样把画面固定住，最后回到中间那条安静而细碎的城市轮廓。你会发现，这不是一张冷静的城市地图，而是一座城市在天气与时间中的样子。",
-      "preciousWhy": "这是一幅布面油画，作者是瑞典画家伊利亚斯·马丁（1739—1818），现藏于 Nationalmuseum，馆藏号 NM 1470；制作年代在馆方对象记录中没有注明。它值得看的地方，不只是“画了一座城市”，而是马丁把城市压低在地平线附近，让天空、云层和光线占据了更大的舞台。站在画前，可以先别急着寻找每一栋建筑：先看天空如何向远处倾斜，再看右侧的大建筑怎样把画面固定住，最后回到中间那条安静而细碎的城市轮廓。你会发现，这不是一张冷静的城市地图，而是一座城市在天气与时间中的样子。",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/6842/",
+      "cardSummary": "这不是一只把装饰贴在功能外面的普通怀表，而是一件把计时、绘画、金工和社交趣味压缩进约 5 厘米直径里的掌上工艺品。它由奥古斯丁·布尔迪永在 1760 年代于斯德哥尔摩制作，材质是黄金与珐琅。先看表盖：蓝紫色背景上，三位小天使般的普蒂围绕着花朵和轻盈的气流嬉戏，四周又有金色卷草与花环。这里最值得注意的不是“画得很可爱”，而是这幅小画其实借用了法国画家弗朗索瓦·布歇 1741 年作品《空气》的图像。也就是说，打开或携带它的人，带在身上的不只是时间，还有一幅当时流行的绘画图像，以及一整套欧洲贵族文化的审美密码。",
+      "preciousWhy": "这不是一只把装饰贴在功能外面的普通怀表，而是一件把计时、绘画、金工和社交趣味压缩进约 5 厘米直径里的掌上工艺品。它由奥古斯丁·布尔迪永在 1760 年代于斯德哥尔摩制作，材质是黄金与珐琅。先看表盖：蓝紫色背景上，三位小天使般的普蒂围绕着花朵和轻盈的气流嬉戏，四周又有金色卷草与花环。这里最值得注意的不是“画得很可爱”，而是这幅小画其实借用了法国画家弗朗索瓦·布歇 1741 年作品《空气》的图像。也就是说，打开或携带它的人，带在身上的不只是时间，还有一幅当时流行的绘画图像，以及一整套欧洲贵族文化的审美密码。",
       "contentWarning": {
         "title": "内容尚未通过完整校验",
         "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
@@ -356,85 +1065,37 @@ museumData["nationalmuseum"] = {
       },
       "sources": [
         {
-          "title": "View of Stockholm",
+          "title": "Pocket watch",
           "publisher": "Nationalmuseum",
-          "url": "https://collection.nationalmuseum.se/en/collection/item/18473/"
+          "url": "https://collection.nationalmuseum.se/en/collection/item/6842/"
         },
         {
-          "title": "Elias Martin",
-          "publisher": "Nationalmuseum",
-          "url": "https://collection.nationalmuseum.se/sv/artists/artist/5048/"
-        },
-        {
-          "title": "Elias Martin",
-          "publisher": "Svenskt biografiskt lexikon / Riksarkivet",
-          "url": "https://sok.riksarkivet.se/sbl/Artikel/9126"
-        },
-        {
-          "title": "Elias Martin",
-          "publisher": "British Museum",
-          "url": "https://www.britishmuseum.org/collection/term/BIOG37417"
+          "title": "Seventeenth-Century European Watches",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/ko/essays/seventeenth-century-european-watches"
         }
       ]
     },
     {
-      "id": "julius-kronberg-nymph-and-fauns-nm-1316",
-      "ch": "ch-03",
-      "zh": "仙女与法翁",
-      "en": "Nymph and Fauns",
-      "by": "尤利乌斯·克龙贝里 / Julius Kronberg",
-      "date": "signed 1875",
-      "material": "Oil on canvas",
-      "place": "Nationalmuseum，馆藏号NM 1316",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "",
-      "time": "7—9分钟",
-      "image": "./assets/nationalmuseum/julius-kronberg-nymph-and-fauns-nm-1316.png",
-      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/18319/",
-      "imageCaption": "仙女与法翁 / Nymph and Fauns",
-      "imageKind": "object",
-      "source": "https://collection.nationalmuseum.se/en/collection/item/18319/",
-      "cardSummary": "尤利乌斯·克龙贝里的《仙女与法翁》是一幅签名于1875年的大型油画，画布高269厘米、宽130厘米。画面把一位裸体仙女放在森林深处：她仿佛没有察觉，两个法翁却躲在暗处窥看；她身旁还放着一只死去的猎鸟。",
-      "preciousWhy": "尤利乌斯·克龙贝里的《仙女与法翁》是一幅签名于1875年的大型油画，画布高269厘米、宽130厘米。画面把一位裸体仙女放在森林深处：她仿佛没有察觉，两个法翁却躲在暗处窥看；她身旁还放着一只死去的猎鸟。",
-      "sources": [
-        {
-          "title": "Nymph and Fauns | Nationalmuseum",
-          "publisher": "Nationalmuseum",
-          "url": "https://collection.nationalmuseum.se/en/collection/item/18319/"
-        },
-        {
-          "title": "Julius Kronberg",
-          "publisher": "Nationalmuseum",
-          "url": "https://collection.nationalmuseum.se/sv/artists/artist/7426/"
-        },
-        {
-          "title": "Lust & Last",
-          "publisher": "Nationalmuseum",
-          "url": "https://nationalmuseum.bokorder.se/en-us/article/1806/lust-last"
-        }
-      ]
-    },
-    {
-      "id": "rodin-bellona-nmsk-985",
-      "ch": "ch-03",
-      "zh": "贝罗娜",
-      "en": "Bellona",
-      "by": "奥古斯特·罗丹 / Auguste Rodin",
-      "date": "1879",
-      "material": "Bronze",
-      "place": "Nationalmuseum，馆藏号NMSk 985",
+      "id": "fogelberg-thor-26782",
+      "ch": "nordic-gods",
+      "zh": "托尔",
+      "en": "Thor",
+      "by": "本特·埃兰德·福格尔贝里 / Bengt Erland Fogelberg",
+      "date": "1844",
+      "material": "Carrara marble",
+      "place": "Nationalmuseum，馆藏号NMSk 393",
       "tag": "强烈推荐",
       "significance": "重要藏品",
       "availabilityTag": "",
       "time": "6—8分钟",
-      "image": "./assets/nationalmuseum/rodin-bellona-nmsk-985.webp",
-      "imageSource": "https://svd.vgc.no/v2/images/f108ebca-bfdc-42c9-b77b-425d14c8388e?fit=crop&format=auto&h=551&q=80&s=b596b67f640cdefc6af533e0a54cc9aef1573647&upscale=true&w=980",
-      "imageCaption": "贝罗娜 / Bellona",
+      "image": "./assets/nationalmuseum/fogelberg-thor-26782.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/26782/",
+      "imageCaption": "托尔 / Thor",
       "imageKind": "object",
-      "source": "https://collection.nationalmuseum.se/en/collection/item/27289/",
-      "cardSummary": "这是一尊奥古斯特·罗丹于1879年创作的青铜雕塑，高101厘米，现藏于瑞典国家博物馆，官方页面标注为正在展出。贝罗娜是罗马神话中的战争女神，但罗丹没有把她塑造成一位遥远、端庄、只适合站在神殿里的古代神祇。她首先像一个正在压住怒火的人：眉眼紧绷，嘴唇抿成一条不太愿意讲道理的线，头发、肩部和衣物仿佛一起向外冲。",
-      "preciousWhy": "这是一尊奥古斯特·罗丹于1879年创作的青铜雕塑，高101厘米，现藏于瑞典国家博物馆，官方页面标注为正在展出。贝罗娜是罗马神话中的战争女神，但罗丹没有把她塑造成一位遥远、端庄、只适合站在神殿里的古代神祇。她首先像一个正在压住怒火的人：眉眼紧绷，嘴唇抿成一条不太愿意讲道理的线，头发、肩部和衣物仿佛一起向外冲。",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/26782/",
+      "cardSummary": "这是一尊由瑞典雕塑家本特·埃兰德·福格尔贝里创作于1844年的托尔像：高约2.8米，以卡拉拉大理石雕成，现藏于斯德哥尔摩Nationalmuseum，馆藏号NMSk 393。它最值得看的地方，是福格尔贝里怎样把一位北欧神塑造成了“古典英雄”的样子：结实、裸露的身体和稳定的站姿，让人想到古希腊罗马雕塑；肩后的锤子、兽皮衣、腰带和尖顶靴，又把他牢牢拉回北方神话。",
+      "preciousWhy": "这是一尊由瑞典雕塑家本特·埃兰德·福格尔贝里创作于1844年的托尔像：高约2.8米，以卡拉拉大理石雕成，现藏于斯德哥尔摩Nationalmuseum，馆藏号NMSk 393。它最值得看的地方，是福格尔贝里怎样把一位北欧神塑造成了“古典英雄”的样子：结实、裸露的身体和稳定的站姿，让人想到古希腊罗马雕塑；肩后的锤子、兽皮衣、腰带和尖顶靴，又把他牢牢拉回北方神话。",
       "contentWarning": {
         "title": "内容尚未通过完整校验",
         "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
@@ -451,118 +1112,95 @@ museumData["nationalmuseum"] = {
       },
       "sources": [
         {
-          "title": "Bellona",
+          "title": "Thor",
           "publisher": "Nationalmuseum",
-          "url": "https://collection.nationalmuseum.se/en/collection/item/27289/"
+          "url": "https://collection.nationalmuseum.se/en/collection/item/26782/"
         },
         {
-          "title": "Bellone",
-          "publisher": "Musée Rodin",
-          "url": "https://collections.musee-rodin.fr/fr/document/bellone/6385d6c505c32181005cc157"
-        },
-        {
-          "title": "Lost-wax bronze casting",
-          "publisher": "Musée Rodin",
-          "url": "https://www.musee-rodin.fr/en/resources/techniques/lost-wax-bronze-casting"
-        }
-      ]
-    },
-    {
-      "id": "fogelberg-odin-nmsk-392",
-      "ch": "ch-03",
-      "zh": "奥丁",
-      "en": "Odin",
-      "by": "本特·埃兰德·福格尔贝里 / Bengt Erland Fogelberg",
-      "date": "1830",
-      "material": "Carrara marble",
-      "place": "Nationalmuseum，馆藏号NMSk 392",
-      "tag": "绝对不可错过",
-      "significance": "重要藏品",
-      "availabilityTag": "",
-      "time": "8—10分钟",
-      "image": "./assets/nationalmuseum/fogelberg-odin-nmsk-392.png",
-      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/26781/",
-      "imageCaption": "奥丁 / Odin",
-      "imageKind": "object",
-      "source": "https://collection.nationalmuseum.se/en/collection/item/26781/",
-      "cardSummary": "这是一尊高达312厘米的卡拉拉大理石奥丁，由瑞典雕塑家本特·埃兰德·福格尔贝里于1830年完成。它最值得看的地方，不只是神话人物的威严，而是古典雕塑的身体、姿态与北欧神话的属性，如何在19世纪瑞典被拼接成一种新的国家形象。站到作品前，先看三处：笔直而展开的站姿、带有象征意味的盾牌，以及头盔上代表思想与记忆的两只乌鸦。它们共同说明：这位神并非从古代原封不动地走来，而是被一个现代国家重新想象出来的。",
-      "preciousWhy": "这是一尊高达312厘米的卡拉拉大理石奥丁，由瑞典雕塑家本特·埃兰德·福格尔贝里于1830年完成。它最值得看的地方，不只是神话人物的威严，而是古典雕塑的身体、姿态与北欧神话的属性，如何在19世纪瑞典被拼接成一种新的国家形象。站到作品前，先看三处：笔直而展开的站姿、带有象征意味的盾牌，以及头盔上代表思想与记忆的两只乌鸦。它们共同说明：这位神并非从古代原封不动地走来，而是被一个现代国家重新想象出来的。",
-      "sources": [
-        {
-          "title": "Odin",
+          "title": "Bengt Erland Fogelberg",
           "publisher": "Nationalmuseum",
-          "url": "https://collection.nationalmuseum.se/en/collection/item/26781/"
-        },
-        {
-          "title": "The Sculpture Courtyard: Three Ancient Norse Gods",
-          "publisher": "Nationalmuseum",
-          "url": "https://www.nationalmuseum.se/en/webtour/skulpturg%C3%A5rden"
+          "url": "https://collection.nationalmuseum.se/sv/artists/artist/9384/"
         },
         {
           "title": "Bengt E Fogelberg",
-          "publisher": "Svenskt Biografiskt Lexikon / Riksarkivet",
-          "url": "https://sok.riksarkivet.se/sbl/Artikel/14284"
+          "publisher": "Svenskt biografiskt lexikon / Riksarkivet",
+          "url": "https://sok.riksarkivet.se/sbl/Presentation.aspx?id=14284"
+        },
+        {
+          "title": "Marmorgudarnas resa till Skulpturgården",
+          "publisher": "Nationalmuseum",
+          "url": "https://shop.nationalmuseum.se/blogs/inspiration/marmorskulpturernas-resa-till-skulpturgarden"
+        },
+        {
+          "title": "Gudarna flyttar hem",
+          "publisher": "Nationalmuseum",
+          "url": "https://www.nationalmuseum.se/gudarna-flyttar-hem"
         }
       ]
     },
     {
-      "id": "hasselberg-spring-snowflake-nmsk-746",
-      "ch": "ch-03",
-      "zh": "春雪花",
-      "en": "The Spring Snowflake",
-      "by": "佩尔·哈塞尔贝里 / Per Hasselberg",
-      "date": "signed 1883",
-      "material": "Marble",
-      "place": "Nationalmuseum，馆藏号NMSk 746",
+      "id": "fogelberg-balder-26783",
+      "ch": "nordic-gods",
+      "zh": "巴德尔",
+      "en": "Balder",
+      "by": "本特·埃兰德·福格尔贝里 / Bengt Erland Fogelberg",
+      "date": "1844",
+      "material": "Carrara marble",
+      "place": "Nationalmuseum，馆藏号NMSk 394",
       "tag": "强烈推荐",
       "significance": "重要藏品",
       "availabilityTag": "",
       "time": "6—8分钟",
-      "image": "./assets/nationalmuseum/hasselberg-spring-snowflake-nmsk-746.png",
-      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/27068/",
-      "imageCaption": "春雪花 / The Spring Snowflake",
+      "image": "./assets/nationalmuseum/fogelberg-balder-26783.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/26783/",
+      "imageCaption": "巴德尔 / Balder",
       "imageKind": "object",
-      "source": "https://collection.nationalmuseum.se/en/collection/item/27068/",
-      "cardSummary": "这是一尊把“春天”放进人体的白色大理石雕塑。瑞典雕塑家佩尔·哈塞尔贝里于1883年签名完成了它；作品高161厘米、重175公斤，Nationalmuseum在1883年购入，馆藏号为NMSk 746，目前展出于1280号雕塑庭院。站在它面前，先看三件事：少女闭着的眼睛、像刚睡醒一样抬起的手臂，以及腰间贴近身体的植物状装饰。",
-      "preciousWhy": "这是一尊把“春天”放进人体的白色大理石雕塑。瑞典雕塑家佩尔·哈塞尔贝里于1883年签名完成了它；作品高161厘米、重175公斤，Nationalmuseum在1883年购入，馆藏号为NMSk 746，目前展出于1280号雕塑庭院。站在它面前，先看三件事：少女闭着的眼睛、像刚睡醒一样抬起的手臂，以及腰间贴近身体的植物状装饰。",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/26783/",
+      "cardSummary": "这是一尊高达257厘米的卡拉拉大理石雕像，创作于1844年，作者是瑞典雕塑家本特·埃兰德·福格尔贝里。作品表现北欧神话中的巴德尔：奥丁之子、光明之神，也是诸神中温和、聪慧而受爱戴的一位。先看他的姿态：上身裸露，双臂向外展开，身体没有防御动作，既像欢迎，也像把自己交给世界。再看脚边，断裂的箭和残剑悄悄告诉我们，他并不是普通的理想青年，而是那个“几乎不会受伤”的巴德尔。最值得注意的是，这尊北欧神像明显借用了基督像的姿态，却把基督教图像换成了北欧神话的故事。它因此不只是神话人物的肖像，也是一件19世纪作品：古老传说、古典大理石和现代民族文化意识，在同一具身体上相遇。",
+      "preciousWhy": "这是一尊高达257厘米的卡拉拉大理石雕像，创作于1844年，作者是瑞典雕塑家本特·埃兰德·福格尔贝里。作品表现北欧神话中的巴德尔：奥丁之子、光明之神，也是诸神中温和、聪慧而受爱戴的一位。先看他的姿态：上身裸露，双臂向外展开，身体没有防御动作，既像欢迎，也像把自己交给世界。再看脚边，断裂的箭和残剑悄悄告诉我们，他并不是普通的理想青年，而是那个“几乎不会受伤”的巴德尔。最值得注意的是，这尊北欧神像明显借用了基督像的姿态，却把基督教图像换成了北欧神话的故事。它因此不只是神话人物的肖像，也是一件19世纪作品：古老传说、古典大理石和现代民族文化意识，在同一具身体上相遇。",
       "sources": [
         {
-          "title": "The Spring Snowflake | Nationalmuseum",
+          "title": "Balder | Nationalmuseum collection",
           "publisher": "Nationalmuseum",
-          "url": "https://collection.nationalmuseum.se/en/collection/item/27068/"
+          "url": "https://collection.nationalmuseum.se/en/collection/item/26783/"
         },
         {
-          "title": "The Sculpture Courtyard | Nationalmuseum English Webtour",
+          "title": "Balder | Nationalmuseum",
           "publisher": "Nationalmuseum",
-          "url": "https://www.nationalmuseum.se/en/webtour/skulpturg%C3%A5rden"
+          "url": "https://www.nationalmuseum.se/balder"
         },
         {
-          "title": "Petter (Per) Hasselberg | Svenskt Biografiskt Lexikon",
-          "publisher": "Riksarkivet",
-          "url": "https://sok.riksarkivet.se/sbl/Artikel/12632"
+          "title": "Bengt E Fogelberg - Svenskt Biografiskt Lexikon",
+          "publisher": "Riksarkivet / Svenskt Biografiskt Lexikon",
+          "url": "https://sok.riksarkivet.se/sbl/Artikel/14284"
+        },
+        {
+          "title": "Balder – the beautiful and beloved",
+          "publisher": "Historiska museet",
+          "url": "https://historiska.se/en/explore-history/history-hub/balder-the-beautiful-and-beloved/"
         }
       ]
     },
     {
-      "id": "josephson-water-sprite-nm-1905",
-      "ch": "ch-04",
-      "zh": "水妖",
-      "en": "The Water Sprite",
-      "by": "恩斯特·约瑟夫松 / Ernst Josephson",
-      "date": "1882",
+      "id": "pauli-breakfast-time-18709",
+      "ch": "modern-nation",
+      "zh": "早餐时分",
+      "en": "Breakfast Time",
+      "by": "汉娜·保利 / Hanna Pauli",
+      "date": "1887",
       "material": "Oil on canvas",
-      "place": "Nationalmuseum，馆藏号NM 1905",
+      "place": "Nationalmuseum，馆藏号NM 1705",
       "tag": "强烈推荐",
       "significance": "重要藏品",
       "availabilityTag": "不确定是否展出",
-      "time": "不安排现场停留（当前未展出）",
-      "image": "./assets/nationalmuseum/josephson-water-sprite-nm-1905.jpg",
-      "imageSource": "https://www.album-online.com/photos/prev/MWE2ZTZjMA/album_alb3902651.jpg",
-      "imageCaption": "水妖 / The Water Sprite",
+      "time": "6—8分钟",
+      "image": "./assets/nationalmuseum/pauli-breakfast-time-18709.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/18709/",
+      "imageCaption": "早餐时分 / Breakfast Time",
       "imageKind": "object",
-      "source": "https://collection.nationalmuseum.se/en/collection/item/18910/",
-      "cardSummary": "这是一幅瑞典画家恩斯特·约瑟夫松于1882年创作的油画，现属斯德哥尔摩 Nationalmuseum，馆藏号 NM 1905。画中的“水妖”不是安静的风景精灵，而是北欧传说中用小提琴把人引入深水的神秘生物。真正值得看的，是约瑟夫松把“声音”画了出来：琴弓、手臂和身体形成一条斜向上升的线，仿佛旋律正在穿过黑暗；瀑布、月光和水草则把这段音乐包围起来。站在画前，可以先看人物的脸，再看他的手，最后看身体怎样被水流和植物半吞没。你会发现，这幅画既像神话场景，也像一位艺术家把自己投进作品后的自画像。",
-      "preciousWhy": "这是一幅瑞典画家恩斯特·约瑟夫松于1882年创作的油画，现属斯德哥尔摩 Nationalmuseum，馆藏号 NM 1905。画中的“水妖”不是安静的风景精灵，而是北欧传说中用小提琴把人引入深水的神秘生物。真正值得看的，是约瑟夫松把“声音”画了出来：琴弓、手臂和身体形成一条斜向上升的线，仿佛旋律正在穿过黑暗；瀑布、月光和水草则把这段音乐包围起来。站在画前，可以先看人物的脸，再看他的手，最后看身体怎样被水流和植物半吞没。你会发现，这幅画既像神话场景，也像一位艺术家把自己投进作品后的自画像。",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/18709/",
+      "cardSummary": "汉娜·保利的《早餐时分》画的不是一顿已经开始的早餐，而是早餐即将开始的那一刻：桌布铺好，茶壶、杯盘和食物已经就位，端着托盘的女性正从花园小径走来，椅子却还空着。1887年，保利把一张原本属于室内生活的餐桌搬进夏日自然，让树叶漏下的光成为真正的主角。站在画前，先别急着数桌上有多少东西，先看光怎样落在桌布、银器、瓷器和地面上——它让静物像在轻轻闪动，也让一个普通早晨获得了近乎舞台开幕般的期待。",
+      "preciousWhy": "汉娜·保利的《早餐时分》画的不是一顿已经开始的早餐，而是早餐即将开始的那一刻：桌布铺好，茶壶、杯盘和食物已经就位，端着托盘的女性正从花园小径走来，椅子却还空着。1887年，保利把一张原本属于室内生活的餐桌搬进夏日自然，让树叶漏下的光成为真正的主角。站在画前，先别急着数桌上有多少东西，先看光怎样落在桌布、银器、瓷器和地面上——它让静物像在轻轻闪动，也让一个普通早晨获得了近乎舞台开幕般的期待。",
       "contentWarning": {
         "title": "内容尚未通过完整校验",
         "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
@@ -579,46 +1217,158 @@ museumData["nationalmuseum"] = {
       },
       "sources": [
         {
-          "title": "The Water Sprite | Nationalmuseum",
+          "title": "Breakfast Time | Nationalmuseum",
           "publisher": "Nationalmuseum",
-          "url": "https://collection.nationalmuseum.se/en/collection/item/18910/"
+          "url": "https://collection.nationalmuseum.se/en/collection/item/18709/"
         },
         {
-          "title": "Ernst Josephson | Näcken | Nationalmuseum",
-          "publisher": "Nationalmuseum",
-          "url": "https://collection.nationalmuseum.se/sv/collection/item/18910/"
+          "title": "Hanna Pauli",
+          "publisher": "Svenskt biografiskt lexikon / Swedish Biographical Dictionary, Riksarkivet",
+          "url": "https://sok.riksarkivet.se/sbl/Artikel/8061"
         },
         {
-          "title": "The Magic North",
+          "title": "Hanna Hirsch Pauli – The Art of Being Free",
           "publisher": "Nationalmuseum",
-          "url": "https://www.nationalmuseum.se/en/the-magic-north"
+          "url": "https://www.nationalmuseum.se/en/hanna-hirsch-pauli"
         }
       ]
     },
     {
-      "id": "zorn-midsummer-dance-nm-1603",
-      "ch": "ch-04",
-      "zh": "仲夏舞",
+      "id": "bergh-artist-eva-bonnier-18510",
+      "ch": "modern-nation",
+      "zh": "艺术家伊娃·博尼耶",
+      "en": "The Artist Eva Bonnier",
+      "by": "里夏德·贝里 / Richard Bergh",
+      "date": "1889",
+      "material": "Oil on canvas",
+      "place": "Nationalmuseum，馆藏号NM 1507",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "",
+      "time": "6—8分钟",
+      "image": "./assets/nationalmuseum/bergh-artist-eva-bonnier-18510.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/18510/",
+      "imageCaption": "艺术家伊娃·博尼耶 / The Artist Eva Bonnier",
+      "imageKind": "object",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/18510/",
+      "cardSummary": "这是一幅“艺术家没有拿画笔”的肖像：1889年，瑞典画家里夏德·贝里为同行伊娃·博尼耶所作，油彩画布，现藏于 Nationalmuseum，馆藏号 NM 1507。画面中，博尼耶穿着几乎融进阴影的黑裙，坐在室内，一只手支着头，神情安静，却并不轻松。",
+      "preciousWhy": "这是一幅“艺术家没有拿画笔”的肖像：1889年，瑞典画家里夏德·贝里为同行伊娃·博尼耶所作，油彩画布，现藏于 Nationalmuseum，馆藏号 NM 1507。画面中，博尼耶穿着几乎融进阴影的黑裙，坐在室内，一只手支着头，神情安静，却并不轻松。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "The Artist Eva Bonnier",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/en/collection/item/18510/"
+        },
+        {
+          "title": "Eva Fredrika Bonnier",
+          "publisher": "Svenskt kvinnobiografiskt lexikon",
+          "url": "https://skbl.se/sv/artikel/EvaBonnier"
+        }
+      ]
+    },
+    {
+      "id": "gauguin-landscape-brittany-19216",
+      "ch": "modern-nation",
+      "zh": "布列塔尼风景",
+      "en": "Landscape from Brittany",
+      "by": "保罗·高更 / Paul Gauguin",
+      "date": "1889",
+      "material": "Oil on canvas",
+      "place": "Nationalmuseum，馆藏号NM 2156",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "6—8分钟",
+      "image": "./assets/nationalmuseum/gauguin-landscape-brittany-19216.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/19216/",
+      "imageCaption": "布列塔尼风景 / Landscape from Brittany",
+      "imageKind": "object",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/19216/",
+      "cardSummary": "这是一幅由保罗·高更创作、馆方以1889年标注的油画，画的是法国布列塔尼的乡野。它值得看的地方，不只是“风景画得像不像”，而是高更怎样把眼前的地方重新组织成一组有节奏的色彩：天空、山丘、田地、树木一层层叠起，形体被深色线条提炼，颜色也不再乖乖服从自然。站在画前，先别急着寻找一个准确的地名；先看那些横向色带和前景横斜的线条。你会发现，这不是旅行明信片，而是一片真实风景经过主观重组后的绘画。",
+      "preciousWhy": "这是一幅由保罗·高更创作、馆方以1889年标注的油画，画的是法国布列塔尼的乡野。它值得看的地方，不只是“风景画得像不像”，而是高更怎样把眼前的地方重新组织成一组有节奏的色彩：天空、山丘、田地、树木一层层叠起，形体被深色线条提炼，颜色也不再乖乖服从自然。站在画前，先别急着寻找一个准确的地名；先看那些横向色带和前景横斜的线条。你会发现，这不是旅行明信片，而是一片真实风景经过主观重组后的绘画。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "UNSUPPORTED_DISPLAY_STATUS",
+            "message": "Current display status is stated as certain although metadata is not confirmed",
+            "matches": [
+              "当前对象页，Nationalmuseum 将它标为“不在展厅展出"
+            ],
+            "severity": "error"
+          },
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Landscape from Brittany | Nationalmuseum",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/en/collection/item/19216/"
+        },
+        {
+          "title": "Sérusier’s ‘The Talisman’, a prophecy of colour",
+          "publisher": "Musée d'Orsay",
+          "url": "https://www.musee-orsay.fr/en/program/whats-on/exhibitions/presentation/serusiers-talisman-prophecy-colour"
+        }
+      ]
+    },
+    {
+      "id": "zorn-midsummer-dance-18607",
+      "ch": "modern-nation",
+      "zh": "仲夏之舞",
       "en": "Midsummer Dance",
       "by": "安德斯·佐恩 / Anders Zorn",
-      "date": "signed 1897",
+      "date": "1897",
       "material": "Oil on canvas",
       "place": "Nationalmuseum，馆藏号NM 1603",
       "tag": "强烈推荐",
       "significance": "重要藏品",
       "availabilityTag": "不确定是否展出",
-      "time": "不安排现场停留（当前未展出）",
-      "image": "./assets/nationalmuseum/zorn-midsummer-dance-nm-1603.jpg",
-      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Midsummer_Dance_%28Anders_Zorn%29_-_Nationalmuseum_-_18607.tif/lossy-page1-960px-Midsummer_Dance_%28Anders_Zorn%29_-_Nationalmuseum_-_18607.tif.jpg?_=20161007102019",
-      "imageCaption": "仲夏舞 / Midsummer Dance",
+      "time": "7—9分钟",
+      "image": "./assets/nationalmuseum/zorn-midsummer-dance-18607.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3AMidsummer_Dance_%28Anders_Zorn%29_-_Nationalmuseum_-_18607.tif",
+      "imageCaption": "仲夏之舞 / Midsummer Dance",
       "imageKind": "object",
       "source": "https://collection.nationalmuseum.se/en/collection/item/18607/",
-      "cardSummary": "这是一幅安德斯·佐恩于1897年签名的油画，画的是瑞典达拉纳地区仲夏夜的舞会。画面前景，一对男女正在旋转：女子背对我们，白色头巾和红色背带像被舞步甩起来；男子的脸迎向观者，却仿佛根本没空照顾“肖像礼仪”。四周的人群、木屋、红色房子和远处的五月柱，被压缩在一片暮色与余光里。",
-      "preciousWhy": "这是一幅安德斯·佐恩于1897年签名的油画，画的是瑞典达拉纳地区仲夏夜的舞会。画面前景，一对男女正在旋转：女子背对我们，白色头巾和红色背带像被舞步甩起来；男子的脸迎向观者，却仿佛根本没空照顾“肖像礼仪”。四周的人群、木屋、红色房子和远处的五月柱，被压缩在一片暮色与余光里。",
+      "cardSummary": "安德斯·佐恩在1897年画下的这场仲夏夜舞会，不是把民俗活动端端正正地摆给我们看，而是把我们推入人群之中。前景里，一对舞者正在旋转，裙摆、手臂和身体形成向外扩散的动势；左侧的人群几乎被截出画面，仿佛舞蹈还在画框之外继续。远处的五月柱、红色木屋和旗帜说明了地点与节庆，但真正的主角是运动，以及北欧夏夜迟迟不肯熄灭的光。",
+      "preciousWhy": "安德斯·佐恩在1897年画下的这场仲夏夜舞会，不是把民俗活动端端正正地摆给我们看，而是把我们推入人群之中。前景里，一对舞者正在旋转，裙摆、手臂和身体形成向外扩散的动势；左侧的人群几乎被截出画面，仿佛舞蹈还在画框之外继续。远处的五月柱、红色木屋和旗帜说明了地点与节庆，但真正的主角是运动，以及北欧夏夜迟迟不肯熄灭的光。",
       "contentWarning": {
         "title": "内容尚未通过完整校验",
         "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
         "issues": [
+          {
+            "code": "AMBIGUOUS_QUOTATION",
+            "message": "Quoted wording may be emphasis or an unattributed quotation; human review may be useful",
+            "matches": [
+              "“最重要的人物”",
+              "“某地有一种节庆”",
+              "“不会变黑的夜”"
+            ],
+            "severity": "warning"
+          },
           {
             "code": "BROAD_EVALUATION",
             "message": "Broad evaluative wording is not a hard failure",
@@ -636,201 +1386,75 @@ museumData["nationalmuseum"] = {
           "url": "https://collection.nationalmuseum.se/en/collection/item/18607/"
         },
         {
-          "title": "Måleri i urval / Painting in Selected Works: Midsommardans",
+          "title": "Anders Zorn - Sveriges mästarmålare",
           "publisher": "Nationalmuseum",
-          "url": "https://www.nationalmuseum.se/webbtur/m%C3%A5leri-i-urval"
+          "url": "https://www.nationalmuseum.se/anders-zorn-sveriges-m%C3%A4starm%C3%A5lare"
         },
         {
-          "title": "Anders Zorn",
-          "publisher": "Zorn Museum",
-          "url": "https://zorn.se/en/about-us/anders-zorn/"
+          "title": "Performing Midsommar: Sweden Nationalism, Folkloric Pageantry, and the Political Power of Symbolic Divergence",
+          "publisher": "Cambridge University Press, Theatre Survey",
+          "url": "https://www.cambridge.org/core/journals/theatre-survey/article/performing-midsommar-sweden-nationalism-folkloric-pageantry-and-the-political-power-of-symbolic-divergence/5B93A0D90C05BA42E1AC9A7839BFED87"
         }
       ]
     },
     {
-      "id": "fanny-brate-day-of-celebration-nm-1605",
-      "ch": "ch-04",
-      "zh": "庆祝日",
-      "en": "A Day of Celebration",
-      "by": "芬妮·布拉特 / Fanny Brate",
-      "date": "signed 1902",
+      "id": "larsson-midwinter-sacrifice-32534",
+      "ch": "modern-nation",
+      "zh": "仲冬祭",
+      "en": "Midwinter Sacrifice",
+      "by": "卡尔·拉松 / Carl Larsson",
+      "date": "1915",
       "material": "Oil on canvas",
-      "place": "Nationalmuseum，馆藏号NM 1605",
+      "place": "Nationalmuseum，馆藏号NM 6971",
       "tag": "绝对不可错过",
       "significance": "重要藏品",
       "availabilityTag": "",
-      "time": "8—10分钟",
-      "image": "./assets/nationalmuseum/fanny-brate-day-of-celebration-nm-1605.png",
-      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/18609/",
-      "imageCaption": "庆祝日 / A Day of Celebration",
+      "time": "12—15分钟",
+      "image": "./assets/nationalmuseum/larsson-midwinter-sacrifice-32534.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Midvinterblot.jpg",
+      "imageCaption": "仲冬祭 / Midwinter Sacrifice",
       "imageKind": "object",
-      "source": "https://collection.nationalmuseum.se/en/collection/item/18609/",
-      "cardSummary": "这是一幅把“家里正在准备一件小事”画得像一场光的庆典的作品。瑞典画家芬妮·布拉特于1902年在画布上完成它，画的是两个女儿——阿斯特丽德和托伦——在布拉特家族位于贝里斯拉根的庄园布雷特庄园里，为一场“名日”聚会做准备。名日不是生日，而是日历中与某个名字对应的日子；在19世纪的瑞典，庆祝名日一度比庆祝生日更普遍。",
-      "preciousWhy": "这是一幅把“家里正在准备一件小事”画得像一场光的庆典的作品。瑞典画家芬妮·布拉特于1902年在画布上完成它，画的是两个女儿——阿斯特丽德和托伦——在布拉特家族位于贝里斯拉根的庄园布雷特庄园里，为一场“名日”聚会做准备。名日不是生日，而是日历中与某个名字对应的日子；在19世纪的瑞典，庆祝名日一度比庆祝生日更普遍。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
+      "source": "https://collection.nationalmuseum.se/en/collection/item/32534/",
+      "cardSummary": "这是一幅把“国家神话”画成大型舞台的历史绘画：卡尔·拉松在1915年前后完成的《仲冬祭》，描绘古代瑞典国王多马尔德为求丰收而献祭的场面。画面中央，祭司、国王、神像和祭坛组成一条垂直轴线；两侧的人群、武士、动物和建筑则把仪式推向四周。先别急着数人物，先看那棵高高竖起的常青树：它像一支绿色的箭，把视线引向祭祀中心，也把寒冬、死亡与祈求新生连在了一起。值得看的不只是“画了什么”，而是拉松怎样用装饰性极强的线条、金色平面和拥挤的队列，把一段传说变成了关于瑞典起源的公共想象。",
+      "preciousWhy": "这是一幅把“国家神话”画成大型舞台的历史绘画：卡尔·拉松在1915年前后完成的《仲冬祭》，描绘古代瑞典国王多马尔德为求丰收而献祭的场面。画面中央，祭司、国王、神像和祭坛组成一条垂直轴线；两侧的人群、武士、动物和建筑则把仪式推向四周。先别急着数人物，先看那棵高高竖起的常青树：它像一支绿色的箭，把视线引向祭祀中心，也把寒冬、死亡与祈求新生连在了一起。值得看的不只是“画了什么”，而是拉松怎样用装饰性极强的线条、金色平面和拥挤的队列，把一段传说变成了关于瑞典起源的公共想象。",
       "sources": [
         {
-          "title": "A Day of Celebration",
+          "title": "Midvinterblot | Nationalmuseum collection",
           "publisher": "Nationalmuseum",
-          "url": "https://collection.nationalmuseum.se/en/collection/item/18609/"
+          "url": "https://collection.nationalmuseum.se/en/collection/item/32534/"
         },
         {
-          "title": "Namnsdagar i almanackan",
-          "publisher": "Institutet för språk och folkminnen",
-          "url": "https://www.isof.se/namn/personnamn/namnsdagar-i-almanackan"
+          "title": "Midvinterblot åter på plats",
+          "publisher": "Nationalmuseum",
+          "url": "https://www.nationalmuseum.se/midvinterblot-%C3%A5ter-p%C3%A5-plats"
+        },
+        {
+          "title": "Art in Sweden - Carl Larsson",
+          "publisher": "Carl Larsson Family Association",
+          "url": "https://carllarsson.se/en/carl-larsson/art-in-sweden/"
         }
       ]
     },
     {
-      "id": "persson-portrait-of-a-pea-nmk-169-1972",
-      "ch": "ch-06",
-      "zh": "豌豆肖像雕塑",
-      "en": "Sculpture Portrait of a Pea",
-      "by": "西古德·佩尔松 / Sigurd Persson",
-      "date": "1971",
-      "material": "Silver and wood",
-      "place": "Nationalmuseum，馆藏号NMK 169/1972",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "",
-      "time": "5—7分钟",
-      "image": "./assets/nationalmuseum/persson-portrait-of-a-pea-nmk-169-1972.png",
-      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/8717/",
-      "imageCaption": "豌豆肖像雕塑 / Sculpture Portrait of a Pea",
-      "imageKind": "object",
-      "source": "https://collection.nationalmuseum.se/en/collection/item/8717/",
-      "cardSummary": "这是一件只有 17 厘米高的银与木作品：一枚光洁的银色球体，安静地立在方正的木座上。它看起来像一颗被放大、抛光并郑重供奉的豌豆——当然，真正的豌豆不会这么闪，也不会被博物馆登记入册。",
-      "preciousWhy": "这是一件只有 17 厘米高的银与木作品：一枚光洁的银色球体，安静地立在方正的木座上。它看起来像一颗被放大、抛光并郑重供奉的豌豆——当然，真正的豌豆不会这么闪，也不会被博物馆登记入册。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "AMBIGUOUS_QUOTATION",
-            "message": "Quoted wording may be emphasis or an unattributed quotation; human review may be useful",
-            "matches": [
-              "“豌豆概念”",
-              "“被观看的对象”",
-              "“我是艺术”",
-              "“艺术身份”",
-              "“自由形式”",
-              "“艺术在墙上，工艺在桌上”",
-              "“Portrait of a Pea”",
-              "“自然的圆”",
-              "“什么值得被称为艺术”"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Sculpture \"Portrait of a pea\"",
-          "publisher": "Nationalmuseum",
-          "url": "https://collection.nationalmuseum.se/en/collection/item/8717/"
-        },
-        {
-          "title": "The Timeline: 1965–",
-          "publisher": "Nationalmuseum",
-          "url": "https://www.nationalmuseum.se/en/webtour/tidslinjen-1965-"
-        },
-        {
-          "title": "Sigurd Persson",
-          "publisher": "Nationalmuseum",
-          "url": "https://collection.nationalmuseum.se/en/artists/artist/2961/"
-        }
-      ]
-    },
-    {
-      "id": "stig-lindberg-bersa-bowl-nmk-60-1996",
-      "ch": "ch-06",
-      "zh": "Berså碗，LL型号",
-      "en": "Bowl Berså, model LL",
-      "by": "斯蒂格·林德贝里 / Stig Lindberg",
-      "date": "1960",
-      "material": "Earthenware with printed green and black decoration",
-      "place": "Nationalmuseum，馆藏号NMK 60/1996",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "",
-      "time": "5—7分钟",
-      "image": "./assets/nationalmuseum/stig-lindberg-bersa-bowl-nmk-60-1996.png",
-      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/136848/",
-      "imageCaption": "Berså碗，LL型号 / Bowl Berså, model LL",
-      "imageKind": "object",
-      "source": "https://collection.nationalmuseum.se/en/collection/item/136848/",
-      "cardSummary": "这是一只由斯蒂格·林德贝里设计、瑞典古斯塔夫斯贝里（Gustavsberg）制造的陶器碗，设计并制作于1960年。它不靠复杂造型吸引注意，而是把白色碗壁变成一块会弯曲的“画布”：绿色叶片沿黑色枝茎反复排列，形成清楚、轻快、几乎像乐谱一样的节奏。站在它面前，先别急着数叶子，先看图案怎样绕过圆弧仍保持连续。它最值得看的地方正在这里——一件日常餐具，如何同时具备实用性、图形秩序和鲜明个性。",
-      "preciousWhy": "这是一只由斯蒂格·林德贝里设计、瑞典古斯塔夫斯贝里（Gustavsberg）制造的陶器碗，设计并制作于1960年。它不靠复杂造型吸引注意，而是把白色碗壁变成一块会弯曲的“画布”：绿色叶片沿黑色枝茎反复排列，形成清楚、轻快、几乎像乐谱一样的节奏。站在它面前，先别急着数叶子，先看图案怎样绕过圆弧仍保持连续。它最值得看的地方正在这里——一件日常餐具，如何同时具备实用性、图形秩序和鲜明个性。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Bowl “Berså”, model LL",
-          "publisher": "Nationalmuseum",
-          "url": "https://collection.nationalmuseum.se/en/collection/item/136848/"
-        },
-        {
-          "title": "bowl, 2000,1107.10",
-          "publisher": "The British Museum",
-          "url": "https://www.britishmuseum.org/collection/object/H_2000-1107-10"
-        },
-        {
-          "title": "Stig Lindberg",
-          "publisher": "Store norske leksikon",
-          "url": "https://snl.no/Stig_Lindberg"
-        },
-        {
-          "title": "The joyful world of Stig Lindberg",
-          "publisher": "Gustavsbergs porslinsmuseum",
-          "url": "https://gustavsbergsporslinsmuseum.se/en/what-to-see-and-do/the-joyful-world-of-stig-lindberg"
-        }
-      ]
-    },
-    {
-      "id": "mathsson-reclining-chair-36-nmk-46-2010",
-      "ch": "ch-05",
+      "id": "mathsson-reclining-chair-134846",
+      "ch": "designed-modern-life",
       "zh": "36号躺椅",
       "en": "Reclining Chair No. 36",
-      "by": "布鲁诺·马特松；卡尔·马特松公司制造 / Bruno Mathsson; made by Firma Karl Mathsson",
+      "by": "布鲁诺·马特松 / Bruno Mathsson",
       "date": "designed 1936; manufactured 1939",
-      "material": "Bent-laminated birch, plywood and plaited webbing",
+      "material": "Bent laminated birch, plywood and plaited webbing",
       "place": "Nationalmuseum，馆藏号NMK 46/2010",
       "tag": "绝对不可错过",
       "significance": "重要藏品",
       "availabilityTag": "",
-      "time": "8—10分钟",
-      "image": "./assets/nationalmuseum/mathsson-reclining-chair-36-nmk-46-2010.png",
+      "time": "7—9分钟",
+      "image": "./assets/nationalmuseum/mathsson-reclining-chair-134846.png",
       "imageSource": "https://collection.nationalmuseum.se/en/collection/item/134846/",
       "imageCaption": "36号躺椅 / Reclining Chair No. 36",
       "imageKind": "object",
       "source": "https://collection.nationalmuseum.se/en/collection/item/134846/",
-      "cardSummary": "这不是一把把人“包”进软垫里的躺椅，而是一副用曲木和织带托住身体的轻盈骨架。瑞典设计师布鲁诺·马特松于1936年设计，卡尔·马特松公司于1939年制作；作品现藏于斯德哥尔摩 Nationalmuseum，编号 NMK 46/2010。先看它的侧面：从前端向上延伸的曲线，像一条连续的身体轨道；再看木框与织带之间留下的空隙，椅子几乎没有多余重量，却没有牺牲支撑。它最值得看的地方，正是把“坐得舒服”变成了可见的结构，而不是藏在厚重填充物里的感觉。",
-      "preciousWhy": "这不是一把把人“包”进软垫里的躺椅，而是一副用曲木和织带托住身体的轻盈骨架。瑞典设计师布鲁诺·马特松于1936年设计，卡尔·马特松公司于1939年制作；作品现藏于斯德哥尔摩 Nationalmuseum，编号 NMK 46/2010。先看它的侧面：从前端向上延伸的曲线，像一条连续的身体轨道；再看木框与织带之间留下的空隙，椅子几乎没有多余重量，却没有牺牲支撑。它最值得看的地方，正是把“坐得舒服”变成了可见的结构，而不是藏在厚重填充物里的感觉。",
+      "cardSummary": "这是一把由布鲁诺·马特松设计、Firma Karl Mathsson制作的躺椅：1936年设计，1939年制成。它最值得看的地方，是把“坐得舒服”变成了可见的结构——弯曲的层压桦木托住身体，编织织带提供有弹性的接触面，椅子的曲线几乎像从地面浮起。站在它面前，先别急着给它贴上“北欧极简”的标签；请看身体如何被一条连续的曲线接住，看木头怎样承担支撑、弹性和造型三项工作。它不是一件把功能藏在装饰后面的家具，而是让功能直接长成了外形。",
+      "preciousWhy": "这是一把由布鲁诺·马特松设计、Firma Karl Mathsson制作的躺椅：1936年设计，1939年制成。它最值得看的地方，是把“坐得舒服”变成了可见的结构——弯曲的层压桦木托住身体，编织织带提供有弹性的接触面，椅子的曲线几乎像从地面浮起。站在它面前，先别急着给它贴上“北欧极简”的标签；请看身体如何被一条连续的曲线接住，看木头怎样承担支撑、弹性和造型三项工作。它不是一件把功能藏在装饰后面的家具，而是让功能直接长成了外形。",
       "contentWarning": {
         "title": "内容尚未通过完整校验",
         "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
@@ -852,151 +1476,37 @@ museumData["nationalmuseum"] = {
           "url": "https://collection.nationalmuseum.se/en/collection/item/134846/"
         },
         {
-          "title": "'Model 36' chaise longue 864326",
-          "publisher": "National Trust Collections",
-          "url": "https://www.nationaltrustcollections.org.uk/object/864326"
-        },
-        {
-          "title": "Bruno Mathsson. Chaise Longue. 1936",
-          "publisher": "The Museum of Modern Art",
-          "url": "https://www.moma.org/collection/works/1957"
-        },
-        {
-          "title": "Bruno Mathsson: Architect and Designer",
-          "publisher": "Bard Graduate Center",
-          "url": "https://www.bgc.bard.edu/exhibitions/exhibitions/32/bruno-mathsson"
-        }
-      ]
-    },
-    {
-      "id": "aalto-paimio-armchair-nmk-13-1963",
-      "ch": "ch-05",
-      "zh": "帕伊米奥疗养院扶手椅",
-      "en": "Armchair Paimio Sanatorium",
-      "by": "阿尔瓦·阿尔托；Artek制造 / Alvar Aalto; made by Artek",
-      "date": "1932",
-      "material": "Birch",
-      "place": "Nationalmuseum，馆藏号NMK 13/1963",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "",
-      "time": "6—8分钟",
-      "image": "./assets/nationalmuseum/aalto-paimio-armchair-nmk-13-1963.jpg",
-      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Armchair_41_%E2%80%9CPaimio%E2%80%9C_designed_by_Alvar_Aalto_%281932%29.jpg/1920px-Armchair_41_%E2%80%9CPaimio%E2%80%9C_designed_by_Alvar_Aalto_%281932%29.jpg",
-      "imageCaption": "帕伊米奥疗养院扶手椅 / Armchair Paimio Sanatorium",
-      "imageKind": "object",
-      "source": "https://collection.nationalmuseum.se/en/collection/item/920/",
-      "cardSummary": "这是一把为芬兰帕伊米奥结核病疗养院设计的扶手椅：阿尔瓦·阿尔托设计，1932年制作，馆方记录的制造者是 Artek，材料为桦木。它最值得看的地方，不只是外形像一条优雅的木头波浪，而是它把“坐得舒服”变成了一个材料和身体共同完成的问题。",
-      "preciousWhy": "这是一把为芬兰帕伊米奥结核病疗养院设计的扶手椅：阿尔瓦·阿尔托设计，1932年制作，馆方记录的制造者是 Artek，材料为桦木。它最值得看的地方，不只是外形像一条优雅的木头波浪，而是它把“坐得舒服”变成了一个材料和身体共同完成的问题。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Armchair Paimio Sanatorium",
+          "title": "Liggstol nr 36",
           "publisher": "Nationalmuseum",
-          "url": "https://collection.nationalmuseum.se/en/collection/item/920/"
+          "url": "https://collection.nationalmuseum.se/sv/collection/item/134846/"
         },
         {
-          "title": "Paimio chair",
-          "publisher": "Alvar Aalto Foundation",
-          "url": "https://www.alvaraalto.fi/en/work/paimio-chair/"
-        },
-        {
-          "title": "History - Paimio Sanatorium",
-          "publisher": "Paimio Sanatorium Foundation",
-          "url": "https://paimiosanatorium.com/sanatorium/history/"
-        },
-        {
-          "title": "Armchair 41 “Paimio”",
-          "publisher": "Artek",
-          "url": "https://www.artek.fi/en/products/armchair-41-paimio"
-        }
-      ]
-    },
-    {
-      "id": "ron-arad-rover-chair-nmk-72-2013",
-      "ch": "ch-05",
-      "zh": "Rover Chair休闲椅",
-      "en": "Easy Chair Rover Chair",
-      "by": "罗恩·阿拉德；One Off有限公司制造 / Ron Arad; made by One Off Ltd",
-      "date": "designed 1981; manufactured 1981–1989",
-      "material": "Leather and metal",
-      "place": "Nationalmuseum，馆藏号NMK 72/2013",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "",
-      "time": "5—7分钟",
-      "image": "./assets/nationalmuseum/ron-arad-rover-chair-nmk-72-2013.png",
-      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/151064/",
-      "imageCaption": "Rover Chair休闲椅 / Easy Chair Rover Chair",
-      "imageKind": "object",
-      "source": "https://collection.nationalmuseum.se/en/collection/item/151064/",
-      "cardSummary": "这是一把由罗恩·阿拉德设计、One Off有限公司制造的休闲椅：1981年设计，1981—1989年间制造，皮革座椅被固定在黑色金属管架上。它最值得看的地方，不只是“旧物改造”，而是阿拉德把两个原本属于不同世界的东西——汽车座椅和工业管件——重新组织成了一件家具。站在它面前，可以先看三处：座椅像汽车内饰一样包裹身体；弧形钢管同时承担扶手、椅腿和支撑；座椅下方没有被遮住，连接件和结构全部大方露在外面。舒适、机械感和一点近乎顽皮的冲突，就这样被压缩进一把椅子里。",
-      "preciousWhy": "这是一把由罗恩·阿拉德设计、One Off有限公司制造的休闲椅：1981年设计，1981—1989年间制造，皮革座椅被固定在黑色金属管架上。它最值得看的地方，不只是“旧物改造”，而是阿拉德把两个原本属于不同世界的东西——汽车座椅和工业管件——重新组织成了一件家具。站在它面前，可以先看三处：座椅像汽车内饰一样包裹身体；弧形钢管同时承担扶手、椅腿和支撑；座椅下方没有被遮住，连接件和结构全部大方露在外面。舒适、机械感和一点近乎顽皮的冲突，就这样被压缩进一把椅子里。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Easy chair “Rover Chair”",
+          "title": "New objects in the Timeline February 2019",
           "publisher": "Nationalmuseum",
-          "url": "https://collection.nationalmuseum.se/en/collection/item/151064/"
-        },
-        {
-          "title": "Ron Arad. Rover Chair. 1981",
-          "publisher": "The Museum of Modern Art",
-          "url": "https://www.moma.org/collection/works/126043"
-        },
-        {
-          "title": "Ron Arad: Yes to the Uncommon!",
-          "publisher": "Vitra Design Museum",
-          "url": "https://www.design-museum.de/en/exhibitions/detailpages/ron-arad-yes-to-the-uncommon.html?cHash=bc831511723e53842bd50c85bfcaa27d&desktop=1%255C%255C"
+          "url": "https://www.nationalmuseum.se/en/webtour/rotation-i-salarna-februari-2019"
         }
       ]
     },
     {
-      "id": "halds-cactus-exhibition-nmk-215-2011",
-      "ch": "ch-06",
-      "zh": "仙人掌展览",
-      "en": "The Cactus Exhibition",
-      "by": "爱德华·哈尔德；奥勒福什制造，威廉·艾泽特镌刻 / Edward Hald; made by Orrefors, engraved by Wilhelm Eisert",
-      "date": "designed 1926",
-      "material": "Engraved glass",
-      "place": "Nationalmuseum，馆藏号NMK 215/2011",
+      "id": "lewerentz-grand-piano-96678",
+      "ch": "designed-modern-life",
+      "zh": "三角钢琴",
+      "en": "Grand Piano",
+      "by": "西居尔德·莱韦伦茨 / Sigurd Lewerentz",
+      "date": "1930",
+      "material": "Steel, brass, aluminium, wood, ivory and galalith",
+      "place": "Nationalmuseum，馆藏号NMK 132a/2004",
       "tag": "绝对不可错过",
       "significance": "重要藏品",
       "availabilityTag": "",
       "time": "8—10分钟",
-      "image": "./assets/nationalmuseum/halds-cactus-exhibition-nmk-215-2011.png",
-      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/137663/",
-      "imageCaption": "仙人掌展览 / The Cactus Exhibition",
+      "image": "./assets/nationalmuseum/lewerentz-grand-piano-96678.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Lewerentz_piano.jpg",
+      "imageCaption": "三角钢琴 / Grand Piano",
       "imageKind": "object",
-      "source": "https://collection.nationalmuseum.se/en/collection/item/137663/",
-      "cardSummary": "这是一件1926年设计的瑞典雕刻玻璃器，由爱德华·哈尔德设计，奥勒福什制造，威廉·艾泽特镌刻；国家博物馆收藏的这一件于1927年制作。它最值得看的地方，不只是玻璃够透明、刻工够细，而是图像被安排在玻璃的厚度和空间里：你不是在看一层贴在表面的花纹，而是在透过器物观看一个小小的温室。柱子、法式窗、吊灯、仙人掌和穿着当时流行服饰的女士彼此叠映，视线一转，场景就像有了轻微的移动。站到作品前，可以先找出器壁被分成的六个画面，再观察透明玻璃怎样把前后景压在同一件器物里。",
-      "preciousWhy": "这是一件1926年设计的瑞典雕刻玻璃器，由爱德华·哈尔德设计，奥勒福什制造，威廉·艾泽特镌刻；国家博物馆收藏的这一件于1927年制作。它最值得看的地方，不只是玻璃够透明、刻工够细，而是图像被安排在玻璃的厚度和空间里：你不是在看一层贴在表面的花纹，而是在透过器物观看一个小小的温室。柱子、法式窗、吊灯、仙人掌和穿着当时流行服饰的女士彼此叠映，视线一转，场景就像有了轻微的移动。站到作品前，可以先找出器壁被分成的六个画面，再观察透明玻璃怎样把前后景压在同一件器物里。",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/96678/",
+      "cardSummary": "这不是一架把装饰削掉之后、只剩“实用”的钢琴。1930年，建筑师西居尔德·莱韦伦茨为斯德哥尔摩展览的一间高级样板住宅设计了它，由 J.P. Nyströms 钢琴与管风琴厂制造。它有细长的钢制琴腿、简洁的琴身、宽条桦木与胡桃木饰面，打开的琴盖像一片被撑起的翼。",
+      "preciousWhy": "这不是一架把装饰削掉之后、只剩“实用”的钢琴。1930年，建筑师西居尔德·莱韦伦茨为斯德哥尔摩展览的一间高级样板住宅设计了它，由 J.P. Nyströms 钢琴与管风琴厂制造。它有细长的钢制琴腿、简洁的琴身、宽条桦木与胡桃木饰面，打开的琴盖像一片被撑起的翼。",
       "contentWarning": {
         "title": "内容尚未通过完整校验",
         "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
@@ -1013,72 +1523,165 @@ museumData["nationalmuseum"] = {
       },
       "sources": [
         {
-          "title": "The Cactus Exhibition",
+          "title": "Grand piano | Nationalmuseum",
           "publisher": "Nationalmuseum",
-          "url": "https://collection.nationalmuseum.se/en/collection/item/137663/"
+          "url": "https://collection.nationalmuseum.se/en/collection/item/96678/"
         },
         {
-          "title": "New acquisition: Cactus Exhibition vase by Edward Hald",
-          "publisher": "Nationalmuseum Sweden",
-          "url": "https://www.mynewsdesk.com/nationalmuseum/pressreleases/new-acquisition-vase-by-edward-hald-963275"
-        },
-        {
-          "title": "Checklist - The Brilliance of Swedish Glass, 1918-1939",
-          "publisher": "Bard Graduate Center",
-          "url": "https://www.bgc.bard.edu/files/Checklist_-_The_Brilliance_of_Swedish_Glass%2C_1918-1939.pdf"
-        },
-        {
-          "title": "History – Orrefors",
-          "publisher": "Orrefors",
-          "url": "https://orrefors.us/pages/history"
-        },
-        {
-          "title": "Edward Hald",
-          "publisher": "Orrefors Museum - Glasrikets Skatter",
-          "url": "https://www.orreforsmuseum.se/glaskonstnarer/edward-hald/"
+          "title": "Stockholmsutställningen 1930",
+          "publisher": "Stockholmskällan（斯德哥尔摩档案、图书馆与博物馆合作平台）",
+          "url": "https://stockholmskallan.stockholm.se/teman/stockholmshandelser/stockholmsutstallningen-1930/"
         }
       ]
     },
     {
-      "id": "charles-x-gustav-miniature-nmb-2163",
-      "ch": "ch-06",
-      "zh": "瑞典国王卡尔十世·古斯塔夫（1622–1660）",
-      "en": "Charles X Gustav of Sweden (1622–1660)",
-      "by": "亚历山大·库珀 / Alexander Cooper",
-      "date": "not dated in object record",
-      "material": "Watercolour on vellum",
-      "place": "Nationalmuseum，馆藏号NMB 2163",
+      "id": "hald-celestial-globe-7985",
+      "ch": "designed-modern-life",
+      "zh": "天球仪",
+      "en": "Celestial Globe",
+      "by": "爱德华·哈尔德 / Edward Hald",
+      "date": "1929–1930",
+      "material": "Engraved crystal glass mounted in pewter",
+      "place": "Nationalmuseum，馆藏号NMK 142A/1930",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "",
+      "time": "6—8分钟",
+      "image": "./assets/nationalmuseum/hald-celestial-globe-7985.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/7985/",
+      "imageCaption": "天球仪 / Celestial Globe",
+      "imageKind": "object",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/7985/",
+      "cardSummary": "这不是一只把大陆和海洋搬到球面上的地球仪，而是一座用玻璃表现天空秩序的天球仪。爱德华·哈尔德设计，瑞典 Orrefors 玻璃厂制作，1929—1930 年完成；透明水晶玻璃上刻着黄道十二星座，球体由锡制结构托住。它最值得看的地方，是把三种气质放在了一起：像科学仪器一样有坐标和秩序，像奢侈品一样精致，又站在现代设计即将改变日常生活的门槛上。先别急着辨认星座，先看黑色金属环怎样横过球面，再看雕刻图案如何在透明玻璃里随光线浮现。",
+      "preciousWhy": "这不是一只把大陆和海洋搬到球面上的地球仪，而是一座用玻璃表现天空秩序的天球仪。爱德华·哈尔德设计，瑞典 Orrefors 玻璃厂制作，1929—1930 年完成；透明水晶玻璃上刻着黄道十二星座，球体由锡制结构托住。它最值得看的地方，是把三种气质放在了一起：像科学仪器一样有坐标和秩序，像奢侈品一样精致，又站在现代设计即将改变日常生活的门槛上。先别急着辨认星座，先看黑色金属环怎样横过球面，再看雕刻图案如何在透明玻璃里随光线浮现。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Celestial globe | Nationalmuseum collection",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/en/collection/item/7985/"
+        },
+        {
+          "title": "The Timeline: 1920–1965",
+          "publisher": "Nationalmuseum",
+          "url": "https://www.nationalmuseum.se/en/webtour/tidslinjen-1920-1965"
+        },
+        {
+          "title": "Cut and Engraved Glass",
+          "publisher": "Kalmar läns museum",
+          "url": "https://kalmarlansmuseum.se/wp-content/uploads/2022/12/cut-and-engraved-glass-webb.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ohrstrom-ariel-vase-11625",
+      "ch": "designed-modern-life",
+      "zh": "花瓶（阿里尔工艺）",
+      "en": "Vase",
+      "by": "埃德温·厄斯特伦 / Edvin Öhrström",
+      "date": "1939",
+      "material": "Crystal glass, Ariel technique",
+      "place": "Nationalmuseum，馆藏号NMK 1076/1939",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "",
+      "time": "6—8分钟",
+      "image": "./assets/nationalmuseum/ohrstrom-ariel-vase-11625.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/11625/",
+      "imageCaption": "花瓶（阿里尔工艺） / Vase",
+      "imageKind": "object",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/11625/",
+      "cardSummary": "这是一件由埃德温·厄斯特伦设计、奥勒福什玻璃厂制造的水晶玻璃花瓶，创作于1939年。它真正值得看的地方，不只是外面这层透明玻璃，而是玻璃内部：鸟与面孔仿佛被封存在一块深色、带有金属光泽的空间里，周围还漂浮着一串串气泡。",
+      "preciousWhy": "这是一件由埃德温·厄斯特伦设计、奥勒福什玻璃厂制造的水晶玻璃花瓶，创作于1939年。它真正值得看的地方，不只是外面这层透明玻璃，而是玻璃内部：鸟与面孔仿佛被封存在一块深色、带有金属光泽的空间里，周围还漂浮着一串串气泡。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Vase | Nationalmuseum",
+          "publisher": "Nationalmuseum",
+          "url": "https://collection.nationalmuseum.se/en/collection/item/11625/"
+        },
+        {
+          "title": "Nordic Cool: Modernist Design exhibition labels",
+          "publisher": "National Gallery of Victoria",
+          "url": "https://www.ngv.vic.gov.au/wp-content/uploads/2015/02/NordicCoolLabels-web.pdf"
+        },
+        {
+          "title": "Edvin Öhrström",
+          "publisher": "Orrefors Museum",
+          "url": "https://www.orreforsmuseum.se/glaskonstnarer/edvin-ohrstrom/"
+        }
+      ]
+    },
+    {
+      "id": "boden-rorstrand-vase-230112",
+      "ch": "designed-modern-life",
+      "zh": "花瓶",
+      "en": "Vase",
+      "by": "阿斯特丽德·博登 / Astrid Bodén",
+      "date": "1900–1906",
+      "material": "Porcelain with painted relief decoration",
+      "place": "Nationalmuseum，馆藏号NMK 82/2019",
       "tag": "时间充裕再看",
       "significance": "特色看点",
       "availabilityTag": "",
       "time": "4—6分钟",
-      "image": "./assets/nationalmuseum/charles-x-gustav-miniature-nmb-2163.png",
-      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/26105/",
-      "imageCaption": "瑞典国王卡尔十世·古斯塔夫（1622–1660） / Charles X Gustav of Sweden (1622–1660)",
+      "image": "./assets/nationalmuseum/boden-rorstrand-vase-230112.png",
+      "imageSource": "https://collection.nationalmuseum.se/en/collection/item/230112/",
+      "imageCaption": "花瓶 / Vase",
       "imageKind": "object",
-      "source": "https://collection.nationalmuseum.se/en/collection/item/26105/",
-      "cardSummary": "这是一件挂坠式肖像微型画：亚历山大·库珀把瑞典国王卡尔十世·古斯塔夫的脸，画在一小片薄羊皮纸上，再装入华丽的椭圆外框。作品连同挂坠框高约4.7厘米，真正有趣的地方正在于这种反差：画中人是统治一个国家、长期征战的君王，眼前却只剩一张可以被贴近观看、甚至想象为随身携带的脸。先看他的眼睛、嘴唇和白色领口，再退一步看外框如何用黑、金与红色装饰把私人肖像包装成王权的珍贵物件。馆方对象页目前将它列为在展，位置在宝库展厅1419:3。",
-      "preciousWhy": "这是一件挂坠式肖像微型画：亚历山大·库珀把瑞典国王卡尔十世·古斯塔夫的脸，画在一小片薄羊皮纸上，再装入华丽的椭圆外框。作品连同挂坠框高约4.7厘米，真正有趣的地方正在于这种反差：画中人是统治一个国家、长期征战的君王，眼前却只剩一张可以被贴近观看、甚至想象为随身携带的脸。先看他的眼睛、嘴唇和白色领口，再退一步看外框如何用黑、金与红色装饰把私人肖像包装成王权的珍贵物件。馆方对象页目前将它列为在展，位置在宝库展厅1419:3。",
+      "source": "https://collection.nationalmuseum.se/en/collection/item/230112/",
+      "cardSummary": "这是一件由阿斯特丽德·博登设计、瑞典罗尔斯特兰德（Rörstrand）制造的瓷花瓶，制作于1900—1906年。它不靠复杂造型取胜，而是把一圈圈浮雕花朵、柔和的粉蓝色彩和一根向下延伸的绿色枝茎，压缩进一个约13厘米高的小器物里。站在它面前，可以先看口沿：花瓣像从瓶口自然长出来，边缘因此不再只是整齐的圆，而有了植物的起伏。再看花茎，它从装饰区向瓶底滑落，把上方的繁花和下方近乎空白的白瓷连在一起。最值得理解的是，这件作品把“工业制造的器物”和“手工般的自然感”放在了同一个表面上：它可以使用，却又像一小段被凝固的花园。",
+      "preciousWhy": "这是一件由阿斯特丽德·博登设计、瑞典罗尔斯特兰德（Rörstrand）制造的瓷花瓶，制作于1900—1906年。它不靠复杂造型取胜，而是把一圈圈浮雕花朵、柔和的粉蓝色彩和一根向下延伸的绿色枝茎，压缩进一个约13厘米高的小器物里。站在它面前，可以先看口沿：花瓣像从瓶口自然长出来，边缘因此不再只是整齐的圆，而有了植物的起伏。再看花茎，它从装饰区向瓶底滑落，把上方的繁花和下方近乎空白的白瓷连在一起。最值得理解的是，这件作品把“工业制造的器物”和“手工般的自然感”放在了同一个表面上：它可以使用，却又像一小段被凝固的花园。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
       "sources": [
         {
-          "title": "Charles X Gustav of Sweden (1622-1660)",
+          "title": "Vase",
           "publisher": "Nationalmuseum",
-          "url": "https://collection.nationalmuseum.se/en/collection/item/26105/"
+          "url": "https://collection.nationalmuseum.se/en/collection/item/230112/"
         },
         {
-          "title": "The Treasury: Miniatures",
-          "publisher": "Nationalmuseum",
-          "url": "https://www.nationalmuseum.se/en/webtour/skattkammaren-miniatyrer"
-        },
-        {
-          "title": "Pigments in Early-Modern Portrait Miniature Painting in Sweden",
-          "publisher": "Nationalmuseum",
-          "url": "https://www.nationalmuseum.se/en/pigments-used-in-early-modern-portrait-miniature-painting-in-sweden"
-        },
-        {
-          "title": "King Karl X Gustav",
-          "publisher": "The Royal Palaces of Sweden",
-          "url": "https://www.kungligaslotten.se/english/list-of-swedish-monarchs/karl-x-gustav.html"
+          "title": "Rörstrand – skönhet och innovation i Art Nouveau",
+          "publisher": "Uppsala Auktionskammare",
+          "url": "https://www.uppsalaauktion.se/fokus/rorstrand-skonhet-och-innovation-i-art-nouveau/"
         }
       ]
     }

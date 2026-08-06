@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "stage": "single_work",
+  "runId": "20260805T161114Z-p2.13.81",
+  "museumId": "rosenborg",
+  "caseId": null,
+  "runs": 20,
+  "accepted": [
+    "ampulla",
+    "brillant-cut-diamond-set",
+    "christian-iii-sword-of-state",
+    "christian-iv-bedchamber-room-3",
+    "christian-iv-blood-stained-clothes",
+    "christian-iv-crown",
+    "christian-v-crown",
+    "emerald-set",
+    "glass-cabinet-room-22",
+    "homage-of-1660",
+    "knights-hall-room-21",
+    "marble-room-room-5",
+    "narwhal-throne",
+    "oldenborg-horn",
+    "pearl-ruby-set",
+    "princess-lacquer-chamber-room-9",
+    "rose-cut-diamond-set",
+    "rosenborg-wine",
+    "the-rose-room-13",
+    "winter-room-room-1"
+  ],
+  "warning": [
+    "emerald-set",
+    "homage-of-1660"
+  ],
+  "failed": [],
+  "blocked": [],
+  "pending": [],
+  "failureCodes": {},
+  "warningCodes": {
+    "UNSUPPORTED_HIGH_RISK_CLAIM": 2
+  }
+}

@@ -7,83 +7,79 @@ museumData["rosenborg"] = {
   "city": "Copenhagen，Denmark",
   "zh": "罗森堡城堡",
   "en": "Rosenborg Castle",
-  "verdict": "70–79 · 可去可不去",
-  "hero": "./assets/rosenborg/christian-iv-blood-stained-clothes.jpg",
+  "verdict": "80–89 · 应主动列入行程",
+  "hero": "./assets/rosenborg/winter-room-room-1.webp",
   "contentFile": "research/content/rosenborg.md",
   "official": "https://denkongeligesamling.dk/en/rosenborg-castle/",
   "visit": "https://denkongeligesamling.dk/en/rosenborg-castle/",
-  "contentUpdatedAt": "2026-08-02",
+  "contentUpdatedAt": "2026-08-05",
   "intro": [
-    "罗森堡的独特性不只在王冠和珠宝，而在于一座保存王室居室、王权礼器、珍奇柜、宫廷日常与收藏展示空间的城堡，把丹麦王权从克里斯蒂安四世的身体与房间，一路连接到绝对君主制的仪式、战争图像、宪政记忆和仍在使用的王室珠宝。",
-    "评分 79，属于“可去可不去”：如果你在哥本哈根想集中理解丹麦王权如何被房间、礼器和珍宝做成可见秩序，罗森堡值得安排半天；若只有 90 分钟，应直奔骑士大厅与地下 Treasury，并接受部分王冠珠宝可能因王室使用而暂离展柜。它是高密度的王室历史现场，但不是凭单件稀世珍品就必须专程前往的博物馆。"
+    "罗森堡最不可替代的不是一柜昂贵珠宝，而是同一座紧凑城堡里仍能追踪一条连续链：克里斯蒂安四世的私人居所变成王朝库藏和年代博物馆，王冠、衣物、房间与珠宝在使用、保存、改装、展示和再次使用之间不断改变意义。",
+    "84分，属于“应主动列入行程”：第一次到哥本哈根，只要对王室制度、历史室内或珠宝工艺有一项兴趣，就值得预留约半天；时间紧也可用90分钟抓住私人城堡、绝对王权与仍在使用的王冠珠宝三条主线。"
   ],
   "routes": {
     "90": {
-      "title": "90分钟：先看王权舞台，再下到 Treasury",
-      "note": "按高回报节点取舍：优先骑士大厅、两把王冠、克里斯蒂安三世国剑、加冕剑与一件珍奇对象。跳过四套珠宝的逐套比较、玻璃柜和战争记忆组；地下 Treasury 的入口与参观边界以现场馆方安排为准。",
+      "title": "90分钟：从国王的身体走到仍在使用的王冠珠宝",
+      "note": "只保留决定84分结论的最高回报节点：先看克里斯蒂安四世的私人空间与战伤遗物，再以骑士厅建立权力环境，最后到地下Treasury比较两顶王冠、涂油壶和两套最能说明“继续改装与使用”的珠宝。主动跳过多数过渡房间、外交陈设、传说型奇珍和酒窖；冬室若当日因修复不可见，不把它当作可照走的节点，将时间留给卧室与Treasury。",
       "workIds": [
-        "knights-hall",
-        "narwhal-throne",
-        "silver-lions",
+        "winter-room-room-1",
+        "christian-iv-bedchamber-room-3",
+        "christian-iv-blood-stained-clothes",
+        "knights-hall-room-21",
         "christian-iii-sword-of-state",
-        "oldenborg-horn",
         "christian-iv-crown",
         "christian-v-crown",
-        "coronation-sword",
         "ampulla",
-        "pomander"
+        "emerald-set",
+        "rose-cut-diamond-set"
       ]
     },
     "half": {
-      "title": "半天：从克里斯蒂安四世到宪政转折",
-      "note": "在90分钟核心线上加入克里斯蒂安四世的染血服装与弹片耳环、四套王冠珠宝的比较、玻璃柜和葡萄酒。玫瑰式切割钻石套饰属于通常王冠珠宝语境，但具体陈列和是否因王室使用暂离须提前核验；宪法笔在弗雷德里克七世房间观看。",
+      "title": "半天：看懂一座私人城堡怎样变成仍在运作的王朝博物馆",
+      "note": "在90分钟核心线上加入大理石厅、《1660年致敬》、玻璃陈列室、独角鲸牙王座、王室酒和明亮式切割钻石套装，覆盖历史室内、政治图像、宫廷工艺、饮食传统与王冠珠宝。建议先完成城堡房间，再下到酒窖和Treasury；现场看到的是空历史酒桶，仍被使用的酒液已另存。仍主动略过公主漆室、玫瑰厅、Oldenborg角杯和珍珠红宝石套装。",
       "workIds": [
+        "winter-room-room-1",
+        "christian-iv-bedchamber-room-3",
         "christian-iv-blood-stained-clothes",
-        "shrapnel-earrings",
-        "knights-hall",
+        "marble-room-room-5",
+        "homage-of-1660",
+        "knights-hall-room-21",
         "narwhal-throne",
-        "silver-lions",
-        "glass-cabinet",
+        "glass-cabinet-room-22",
+        "rosenborg-wine",
         "christian-iii-sword-of-state",
-        "oldenborg-horn",
-        "pomander",
         "christian-iv-crown",
         "christian-v-crown",
-        "coronation-sword",
         "ampulla",
         "emerald-set",
-        "pearl-ruby-set",
-        "brilliant-cut-diamond-set",
-        "rose-cut-diamond-set",
-        "constitution-pen",
-        "rosenborg-wine",
-        "wetting-trap-chair"
+        "brillant-cut-diamond-set",
+        "rose-cut-diamond-set"
       ]
     },
     "all": {
-      "title": "完整浏览：按楼层、制度与收藏线分段看",
-      "note": "完整路线覆盖全部20件入选对象。建议先看城堡室内和骑士大厅，再进入地下 Treasury，最后用王冠珠宝和葡萄酒收束；多层楼梯、休息和地下室独立入口会增加时间。所有对象的现场状态仍以访问日馆方通知为准，尤其是轮换珠宝；完整浏览不把关闭或未确认对象伪装成必然可见。",
+      "title": "完整浏览：房间、酒窖与Treasury的20个节点",
+      "note": "覆盖全部入选对象，但不把内容库伪装成必须连续打卡的清单。优先按城堡房间的大致层级推进，把同室或相邻意义的对象合并观看；休息后再进入酒窖与地下Treasury，依次处理奇珍、礼器、王冠和四套珠宝。若历史房间因修复关闭或珠宝组件临时离柜，保留其解释位置并明确记为当日不可见，不用其他作品冒充。",
       "workIds": [
+        "winter-room-room-1",
+        "christian-iv-bedchamber-room-3",
         "christian-iv-blood-stained-clothes",
-        "shrapnel-earrings",
-        "knights-hall",
+        "marble-room-room-5",
+        "princess-lacquer-chamber-room-9",
+        "the-rose-room-13",
+        "homage-of-1660",
+        "knights-hall-room-21",
         "narwhal-throne",
-        "silver-lions",
-        "glass-cabinet",
-        "wetting-trap-chair",
-        "christian-iii-sword-of-state",
+        "glass-cabinet-room-22",
+        "rosenborg-wine",
         "oldenborg-horn",
-        "pomander",
+        "christian-iii-sword-of-state",
         "christian-iv-crown",
-        "coronation-sword",
-        "ampulla",
         "christian-v-crown",
+        "ampulla",
         "emerald-set",
-        "pearl-ruby-set",
-        "brilliant-cut-diamond-set",
+        "brillant-cut-diamond-set",
         "rose-cut-diamond-set",
-        "constitution-pen",
-        "rosenborg-wine"
+        "pearl-ruby-set"
       ]
     }
   },
@@ -91,144 +87,539 @@ museumData["rosenborg"] = {
   "cardCopyContract": "independent-v1",
   "chapters": [
     {
-      "id": "christian-iv-body-and-memory",
+      "id": "private-body-to-dynastic-memory",
       "number": 1,
-      "title": "一个国王怎样把受伤的身体变成王室记忆？",
-      "intro": "先从克里斯蒂安四世的身体和私人关系进入罗森堡：这里保存的不只是战争史，而是君主如何主动留下可被后人观看的纪念物，以及战场材料如何进入亲密赠礼。"
+      "title": "一位国王的房间和伤口，怎样变成王朝记忆？",
+      "intro": "先从克里斯蒂安四世真实使用过的空间与身体遗物进入：这里保存的不是抽象君主，而是会接见、休息、受伤和死亡的人。房间的后世改饰与国王主动留下的战伤衣物，又揭示“保存”本身就是一种选择。"
     },
     {
-      "id": "from-election-to-absolutism",
+      "id": "rooms-rewritten-and-reassembled",
       "number": 2,
-      "title": "王冠和剑，怎样把制度变化变成一连串动作？",
-      "intro": "沿着地下 Treasury 的礼器线索，把1661年前的选举君主制、1596年的开放式王冠、1648年的礼器重组、1670—1671年的绝对君主王冠，以及1849年的宪政转折连起来看。对象不是抽象制度的插图，而是制度改变后被重新使用的器物。"
+      "title": "看似完整的王室房间，究竟叠了几层历史？",
+      "intro": "漆室、玫瑰厅与玻璃陈列室分别展示三种空间形成方式：后王改装旧房、19世纪从其他宫殿迁入构件，以及为外交赠礼专门设计整套陈列。判断“原貌”之前，先问每一层何时、为何来到这里。"
     },
     {
-      "id": "the-throne-as-political-stage",
+      "id": "power-made-visible",
       "number": 3,
-      "title": "王座为什么要同时像圣经范本、北方珍奇和一项未完成工程？",
-      "intro": "在骑士大厅，把独角鲸牙王座和银狮作为一个王权工程观看：所罗门王的范本、北方材料、预算约束和三只已完成的银狮，共同说明宏大政治形象总要经过材料与现实的改写。"
+      "title": "绝对王权如何占据一间房、一次仪式和一幅画？",
+      "intro": "从私人卧室改成的巴洛克厅、1660年致敬图像到铺满战争胜利叙事的骑士厅，权力被做成材料、空间和观看秩序。它们能证明王室如何宣称合法性，却不能代替对政治危机和战争事实的判断。"
     },
     {
-      "id": "cabinet-of-curiosities",
+      "id": "elected-to-absolute-monarchy",
       "number": 4,
-      "title": "王室收藏为什么要保存传说、气味和恶作剧？",
-      "intro": "从奥尔登堡号角和香球看到珍奇柜如何叠放物证、家族记忆、传说与感官经验，再以湿裤椅收束：王室展示并不只有庄严礼仪，也容纳不确定性、死亡意识和隐藏机械。"
+      "title": "从拔剑加冕到神授涂油，制度变化怎样写进器物？",
+      "intro": "把国剑的四方动作、开口冠与闭合冠的形式差异、涂油壶的身体用途和王座的圣经模型连起来，抽象的王权转型就有了可比较的物证。重点不是宝石多少，而是礼仪动作、材料改造与制度宣称怎样互相扣合。"
     },
     {
-      "id": "jewels-inheritance-and-use",
+      "id": "jewels-that-keep-changing",
       "number": 5,
-      "title": "王冠珠宝保存的到底是宝石，还是一条仍在变化的继承史？",
-      "intro": "把四套珠宝放在一起比较：翡翠套饰强调旧宝石与完整配置，珍珠红宝石套饰保留更早材料线索，明亮式与玫瑰式切割钻石则显示旧物如何重新组合、改变用途并继续进入王室佩戴。"
+      "title": "为什么“王冠珠宝”不是原样封存的古董？",
+      "intro": "四套珠宝把旧宝石、1840—1842年的重新镶嵌、可拆结构和当代佩戴放在同一制度中。逐套比较镶座、运动方式与组件身份，才能看见珠宝的年代不等于宝石的年代，展示也不等于停止使用。"
     },
     {
-      "id": "collection-as-lived-institution",
+      "id": "preserved-yet-still-active",
       "number": 6,
-      "title": "一座王室收藏怎样同时保存展示制度和日常延续？",
-      "intro": "玻璃柜把一次威尼斯赠礼变成专门的早期收藏展示空间，Rosenborg 葡萄酒则把宴饮、迁移、战争和持续使用带入地下室；两者提醒我们，这座城堡既是政治舞台，也是会被使用、整理和重新陈列的制度。"
+      "title": "进了宝库的东西，为什么仍可能继续生活？",
+      "intro": "一件中世纪角杯靠王朝传说获得长期珍藏身份，一项王室酒传统则在容器更换后继续进入少数仪式。两者提醒观众分开对象、故事和现实用途：保存有时让物件退出生活，有时恰恰维持其继续发生。"
     }
   ],
   "works": [
     {
-      "id": "christian-iv-blood-stained-clothes",
-      "ch": "christian-iv-body-and-memory",
-      "zh": "克里斯蒂安四世染血服装",
-      "en": "Christian IV’s blood-stained clothes",
-      "by": "丹麦王室 / Danish royal collection",
-      "date": "1644",
-      "material": "染血服装与王室纪念物",
+      "id": "winter-room-room-1",
+      "ch": "private-body-to-dynastic-memory",
+      "zh": "冬室（1号房）",
+      "en": "The Winter Room (room 1)",
+      "by": "丹麦宫廷文化 / Danish court culture",
+      "date": "约1620年完成核心木护墙；约1700年更换天花；1758年增建北侧凸窗",
+      "material": "建筑室内；雕刻木护墙、嵌入式板上油画、天花画与建筑装置",
       "place": "Rosenborg Castle",
       "tag": "绝对不可错过",
       "significance": "重要藏品",
-      "availabilityTag": "",
+      "availabilityTag": "不确定是否展出",
       "time": "8—10分钟",
-      "image": "./assets/rosenborg/christian-iv-blood-stained-clothes.jpg",
-      "imageSource": "https://kongegrave.dk/wp-content/uploads/2020/12/christian-4-blod-1-679x1024.jpg",
-      "imageCaption": "克里斯蒂安四世染血服装 / Christian IV’s blood-stained clothes",
+      "image": "./assets/rosenborg/winter-room-room-1.webp",
+      "imageSource": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-1-the-winter-room/",
+      "imageCaption": "冬室（1号房） / The Winter Room (room 1)",
       "imageKind": "object",
-      "source": "https://denkongeligesamling.dk/en/the-collection/objects/christian-ivs-blood-stained-clothes/",
-      "cardSummary": "这不是根据历史场景制作的戏服，而是丹麦国王克里斯蒂安四世在1644年海战中穿过、并留下血迹与弹片损伤的真实服装。画面里最醒目的，是黑紫色丝绒上密集的花纹、已经破损的蕾丝领口和袖口。它值得看的地方，不只是“国王受过伤”这件事，而是：一件本来应该被清洗、修补或丢弃的衣服，后来被保存成了王权记忆的一部分。站在它面前，先看布料的华丽，再看血迹、破口和穿孔如何把身体重新带回历史现场。",
-      "preciousWhy": "这不是根据历史场景制作的戏服，而是丹麦国王克里斯蒂安四世在1644年海战中穿过、并留下血迹与弹片损伤的真实服装。画面里最醒目的，是黑紫色丝绒上密集的花纹、已经破损的蕾丝领口和袖口。它值得看的地方，不只是“国王受过伤”这件事，而是：一件本来应该被清洗、修补或丢弃的衣服，后来被保存成了王权记忆的一部分。站在它面前，先看布料的华丽，再看血迹、破口和穿孔如何把身体重新带回历史现场。",
+      "source": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-1-the-winter-room/",
+      "cardSummary": "你眼前不是一幅挂在墙上的画，而是一整间被设计成“会说话”的宫廷室内：雕刻木护墙、嵌入画板、天花神话画、壁炉、半身像，甚至还有藏在建筑里的声音通道。它属于丹麦国王克里斯蒂安四世在罗森堡宫的私人空间，但又兼作接见宾客的场所，所以这里的“私人”从来不等于随便。",
+      "preciousWhy": "你眼前不是一幅挂在墙上的画，而是一整间被设计成“会说话”的宫廷室内：雕刻木护墙、嵌入画板、天花神话画、壁炉、半身像，甚至还有藏在建筑里的声音通道。它属于丹麦国王克里斯蒂安四世在罗森堡宫的私人空间，但又兼作接见宾客的场所，所以这里的“私人”从来不等于随便。",
       "sources": [
         {
-          "title": "Christian IV’s blood-stained clothes",
+          "title": "The Winter Room (room 1)",
           "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/the-collection/objects/christian-ivs-blood-stained-clothes/"
+          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-1-the-winter-room/"
         },
         {
-          "title": "Christian 4.s Sovekammer (rum 4)",
+          "title": "Restoration of the Winter Room",
           "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/rosenborg-slot/sale-rum/rum-3-christian-4s-sengekammer/"
+          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-1-the-winter-room/restoration-of-the-winter-room/"
         },
         {
-          "title": "Kongelige dragter",
-          "publisher": "The Danish Royal House",
-          "url": "https://www.kongehuset.dk/nyheder/kongelige-dragter"
-        },
-        {
-          "title": "Heltedyrkelse af kongemagten: ‘Kong Kristian stod ved højen mast’",
-          "publisher": "Vikingeskibsmuseet",
-          "url": "https://www.vikingeskibsmuseet.dk/fagligt/marinarkaeologi/marinarkaeologiske-undersoegelser/det-sidste-krigsskib-fra-slaget-i-femern-baelt-1644"
-        },
-        {
-          "title": "Christian 4., 1577-1648",
-          "publisher": "Danmarkshistorien / Lex",
-          "url": "https://danmarkshistorien.lex.dk/Christian_4.%2C_1577-1648"
+          "title": "Rosenborg Castle",
+          "publisher": "The Royal Danish Collection",
+          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/"
         }
       ]
     },
     {
-      "id": "shrapnel-earrings",
-      "ch": "christian-iv-body-and-memory",
-      "zh": "弹片耳环",
-      "en": "Shrapnel earrings",
-      "by": "丹麦王室 / Danish royal collection",
-      "date": "1644年战伤之后",
-      "material": "战场弹片改制的耳环",
+      "id": "christian-iv-bedchamber-room-3",
+      "ch": "private-body-to-dynastic-memory",
+      "zh": "克里斯蒂安四世卧室（3号房）",
+      "en": "Christian IV’s Bedchamber (room 3)",
+      "by": "丹麦宫廷文化 / Danish court culture",
+      "date": "17世纪初；1660年代改饰",
+      "material": "建筑室内；木护墙、门、绿色漆饰与金线描装饰",
       "place": "Rosenborg Castle",
       "tag": "强烈推荐",
-      "significance": "特色看点",
-      "availabilityTag": "",
-      "time": "4—6分钟",
-      "image": "./assets/rosenborg/shrapnel-earrings.webp",
-      "imageSource": "https://denkongeligesamling.dk/media/zd1mou2u/splinter-oeresmykker.jpg?width=1920&height=1080&v=1dc630086d29610",
-      "imageCaption": "弹片耳环 / Shrapnel earrings",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "7—9分钟",
+      "image": "./assets/rosenborg/christian-iv-bedchamber-room-3.webp",
+      "imageSource": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-3-christian-iv-s-bedchamber/",
+      "imageCaption": "克里斯蒂安四世卧室（3号房） / Christian IV’s Bedchamber (room 3)",
       "imageKind": "object",
-      "source": "https://denkongeligesamling.dk/en/the-collection/objects/shrapnel-earrings/",
-      "cardSummary": "这不是普通的宫廷首饰：它把一次海战留下的伤口，重新加工成了可以佩戴的亲密礼物。1644年，丹麦国王克里斯蒂安四世在对瑞典的科尔贝格海德海战中受伤，右眼失明。医生从他的额头和受伤的眼部取出碎片，其中两块后来被嵌进这对耳环，赠给陪伴国王多年的情人维贝克·克鲁泽（Vibeke Kruse）。",
-      "preciousWhy": "这不是普通的宫廷首饰：它把一次海战留下的伤口，重新加工成了可以佩戴的亲密礼物。1644年，丹麦国王克里斯蒂安四世在对瑞典的科尔贝格海德海战中受伤，右眼失明。医生从他的额头和受伤的眼部取出碎片，其中两块后来被嵌进这对耳环，赠给陪伴国王多年的情人维贝克·克鲁泽（Vibeke Kruse）。",
+      "source": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-3-christian-iv-s-bedchamber/",
+      "cardSummary": "这不是一件由单一艺术家完成的“作品”，而是一间被完整保存、又不断被重新装饰和陈列的王室室内。它原本是克里斯蒂安四世的私人房间，也是他1648年去世的地方。今天最值得看的，不只是“国王睡过的床”，而是房间怎样把私人生活、战争记忆和王朝家谱压缩在同一组墙面里：早期17世纪的木护墙与门，1660年代加入的绿色漆饰和金色线描，连同肖像、衣物和纪念物，组成了一份立体的王室档案。站在门口，先看天花板与墙面的整体秩序，再慢慢寻找绿色面板中的船、室内和风景。",
+      "preciousWhy": "这不是一件由单一艺术家完成的“作品”，而是一间被完整保存、又不断被重新装饰和陈列的王室室内。它原本是克里斯蒂安四世的私人房间，也是他1648年去世的地方。今天最值得看的，不只是“国王睡过的床”，而是房间怎样把私人生活、战争记忆和王朝家谱压缩在同一组墙面里：早期17世纪的木护墙与门，1660年代加入的绿色漆饰和金色线描，连同肖像、衣物和纪念物，组成了一份立体的王室档案。站在门口，先看天花板与墙面的整体秩序，再慢慢寻找绿色面板中的船、室内和风景。",
       "sources": [
         {
-          "title": "Shrapnel earrings",
+          "title": "Christian IV’s Bedroom (room 4) | The Royal Danish Collection",
           "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/the-collection/objects/shrapnel-earrings/"
+          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-3-christian-iv-s-bedchamber/"
+        },
+        {
+          "title": "Christian 4.s Sovekammer (rum 4) | Den Kongelige Samling",
+          "publisher": "Den Kongelige Samling",
+          "url": "https://denkongeligesamling.dk/rosenborg-slot/sale-rum/rum-3-christian-4s-sengekammer/"
+        },
+        {
+          "title": "Rosenborg Castle | The Royal Danish Collection",
+          "publisher": "The Royal Danish Collection",
+          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/"
+        },
+        {
+          "title": "Christian IV (1577–1648) | The Royal Danish Collection",
+          "publisher": "The Royal Danish Collection",
+          "url": "https://denkongeligesamling.dk/en/the-collection/persons/christian-iv-1577-1648/"
+        },
+        {
+          "title": "Rosenborg Palace",
+          "publisher": "The Danish Royal House",
+          "url": "https://www.kongehuset.dk/en/palaces-and-the-royal-yacht/rosenborg-palace/"
+        }
+      ]
+    },
+    {
+      "id": "christian-iv-blood-stained-clothes",
+      "ch": "private-body-to-dynastic-memory",
+      "zh": "克里斯蒂安四世的染血衣物",
+      "en": "Christian IV’s Blood-Stained Clothes",
+      "by": "丹麦王室服饰文化 / Danish royal dress culture",
+      "date": "1644年穿着并保存",
+      "material": "黑紫色丝绒上衣、染血蕾丝领口与袖口等服饰",
+      "place": "Rosenborg Castle",
+      "tag": "绝对不可错过",
+      "significance": "重要藏品",
+      "availabilityTag": "",
+      "time": "6—8分钟",
+      "image": "./assets/rosenborg/christian-iv-blood-stained-clothes.jpg",
+      "imageSource": "https://kongegrave.dk/?page_id=7835",
+      "imageCaption": "克里斯蒂安四世的染血衣物 / Christian IV’s Blood-Stained Clothes",
+      "imageKind": "object",
+      "source": "https://denkongeligesamling.dk/en/the-collection/objects/christian-ivs-blood-stained-clothes/",
+      "cardSummary": "这不是一件普通的旧衣服，而是一组从战场上保存下来的王室服饰：黑紫色丝绒上衣、染血的蕾丝领口和袖口，以及帽子、衬衣、手帕等。1644年7月1日，丹麦国王克里斯蒂安四世在基尔附近的科尔贝格海德海战中受伤，血迹留在了衣物上。最值得看的地方，是把它同时当成两件东西：一件真实承受过炮火的衣服，也是一位国王主动留下的“英雄证据”。先看破损和血迹，再看那些绣着“C4 1644”的细节；你会发现，历史并不是后来才写上去的，它早已被缝进布料、染进纤维。",
+      "preciousWhy": "这不是一件普通的旧衣服，而是一组从战场上保存下来的王室服饰：黑紫色丝绒上衣、染血的蕾丝领口和袖口，以及帽子、衬衣、手帕等。1644年7月1日，丹麦国王克里斯蒂安四世在基尔附近的科尔贝格海德海战中受伤，血迹留在了衣物上。最值得看的地方，是把它同时当成两件东西：一件真实承受过炮火的衣服，也是一位国王主动留下的“英雄证据”。先看破损和血迹，再看那些绣着“C4 1644”的细节；你会发现，历史并不是后来才写上去的，它早已被缝进布料、染进纤维。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Christian IV's blood stained clothes",
+          "publisher": "The Royal Danish Collection",
+          "url": "https://denkongeligesamling.dk/en/the-collection/objects/christian-ivs-blood-stained-clothes/"
+        },
+        {
+          "title": "Christian IV’s Bedchamber (room 3)",
+          "publisher": "The Royal Danish Collection",
+          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-3-christian-iv-s-bedchamber/"
         },
         {
           "title": "Christian 4. og brugen af historien",
-          "publisher": "Danmarkshistorien / Aarhus Universitet",
+          "publisher": "Danmarkshistorien / Lex",
           "url": "https://danmarkshistorien.lex.dk/Christian_4._og_brugen_af_historien"
         }
       ]
     },
     {
+      "id": "princess-lacquer-chamber-room-9",
+      "ch": "rooms-rewritten-and-reassembled",
+      "zh": "公主漆室（9号房）",
+      "en": "The Princess’ Lacquer Chamber (room 9)",
+      "by": "弗朗西斯·德·布雷 / Francis de Bray",
+      "date": "1663—1665年改饰；1716年修复",
+      "material": "建筑室内；漆饰、绿松石与珍珠母镶嵌",
+      "place": "Rosenborg Castle",
+      "tag": "时间充裕再看",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "6—8分钟",
+      "image": "./assets/rosenborg/princess-lacquer-chamber-room-9.webp",
+      "imageSource": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-9-the-princess-lacquer-chamber/",
+      "imageCaption": "公主漆室（9号房） / The Princess’ Lacquer Chamber (room 9)",
+      "imageKind": "object",
+      "source": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-9-the-princess-lacquer-chamber/",
+      "cardSummary": "这不是一件被单独摆在玻璃柜里的物品，而是一整个会“包围”你的历史室内：黑色漆饰铺满墙面，金色花鸟、绿松石和珍珠母在暗处闪动，镜子、家具、瓷器与门上五金共同组成一幅立体的图像。它最值得看的地方，是17世纪欧洲王室如何把对亚洲艺术的想象搬进日常空间，并把一间房变成身份、品味和权力的展示场。站在图片或房间前，先不要急着数器物；先看黑色墙面怎样压低光线，再看金色与贝壳的亮点如何把视线从墙上引向桌面、镜子和角落。你会发现，这间房并不只是“很华丽”，它在安排你的观看路线。",
+      "preciousWhy": "这不是一件被单独摆在玻璃柜里的物品，而是一整个会“包围”你的历史室内：黑色漆饰铺满墙面，金色花鸟、绿松石和珍珠母在暗处闪动，镜子、家具、瓷器与门上五金共同组成一幅立体的图像。它最值得看的地方，是17世纪欧洲王室如何把对亚洲艺术的想象搬进日常空间，并把一间房变成身份、品味和权力的展示场。站在图片或房间前，先不要急着数器物；先看黑色墙面怎样压低光线，再看金色与贝壳的亮点如何把视线从墙上引向桌面、镜子和角落。你会发现，这间房并不只是“很华丽”，它在安排你的观看路线。",
+      "sources": [
+        {
+          "title": "The Princess’ Lacquer Chamber (room 9)",
+          "publisher": "The Royal Danish Collection",
+          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-9-the-princess-lacquer-chamber/"
+        },
+        {
+          "title": "Chinese Lacquer: Treasures from the Irving Collection, 12th–18th Century",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/exhibitions/listings/2015/chinese-lacquer"
+        },
+        {
+          "title": "Mother-of-Pearl: A Tradition in Asian Lacquer",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/exhibitions/listings/2006/mother-of-pearl"
+        }
+      ]
+    },
+    {
+      "id": "the-rose-room-13",
+      "ch": "rooms-rewritten-and-reassembled",
+      "zh": "玫瑰厅（13号房）",
+      "en": "The Rose (room 13)",
+      "by": "丹麦王室博物馆文化 / Danish royal museum culture",
+      "date": "18世纪构件；19世纪在Rosenborg重新组合",
+      "material": "建筑室内；天花画、拼花地板、吊灯与陈设",
+      "place": "Rosenborg Castle",
+      "tag": "时间充裕再看",
+      "significance": "特色看点",
+      "availabilityTag": "不确定是否展出",
+      "time": "4—6分钟",
+      "image": "./assets/rosenborg/the-rose-room-13.webp",
+      "imageSource": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-13-the-rose/",
+      "imageCaption": "玫瑰厅（13号房） / The Rose (room 13)",
+      "imageKind": "object",
+      "source": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-13-the-rose/",
+      "cardSummary": "玫瑰厅不是一件由单一艺术家一次完成的作品，而是一间被重新编排过的王室室内：天花画原属于腓特烈斯贝宫殿，拼花地板也从那里移来，18世纪在英国制作的吊灯则来自 Jægerspris Castle。19世纪，丹麦王室旧宫殿中的许多陈设被集中到改建中的 Rosenborg，才形成了今天这组彼此呼应的景象。",
+      "preciousWhy": "玫瑰厅不是一件由单一艺术家一次完成的作品，而是一间被重新编排过的王室室内：天花画原属于腓特烈斯贝宫殿，拼花地板也从那里移来，18世纪在英国制作的吊灯则来自 Jægerspris Castle。19世纪，丹麦王室旧宫殿中的许多陈设被集中到改建中的 Rosenborg，才形成了今天这组彼此呼应的景象。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "AMBIGUOUS_QUOTATION",
+            "message": "Quoted wording may be emphasis or an unattributed quotation; human review may be useful",
+            "matches": [
+              "“天花画—吊灯—中央音乐柜—地板”",
+              "“王室生活”",
+              "“室内剪辑”",
+              "“装饰得很漂亮”",
+              "“柜子很贵”",
+              "“名人画像”",
+              "“艺术史课”",
+              "“哪一样东西最贵”",
+              "“哪一幅画最重要”",
+              "“王室玫瑰”"
+            ],
+            "severity": "warning"
+          },
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "The Rose (room 13)",
+          "publisher": "The Royal Danish Collection",
+          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-13-the-rose/"
+        },
+        {
+          "title": "About us — The history of the Royal Danish Collection",
+          "publisher": "The Royal Danish Collection",
+          "url": "https://denkongeligesamling.dk/en/about-us/"
+        }
+      ]
+    },
+    {
+      "id": "glass-cabinet-room-22",
+      "ch": "rooms-rewritten-and-reassembled",
+      "zh": "玻璃陈列室（22号房）",
+      "en": "The Glass Cabinet (room 22)",
+      "by": "戈特弗里德·福克斯（设计与施工） / Gottfried Fuchs (design and execution)",
+      "date": "1713—1714年",
+      "material": "建筑室内；威尼斯玻璃、定制鎏金铅饰托架、丝绸墙面与天花画",
+      "place": "Rosenborg Castle",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "7—9分钟",
+      "image": "./assets/rosenborg/glass-cabinet-room-22.webp",
+      "imageSource": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-22-the-glass-cabinet/",
+      "imageCaption": "玻璃陈列室（22号房） / The Glass Cabinet (room 22)",
+      "imageKind": "object",
+      "source": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-22-the-glass-cabinet/",
+      "cardSummary": "这不是一个“里面放着玻璃器皿的柜子”，而是一整个被设计成展柜的房间。1713—1714年，丹麦国王腓特烈四世把自己从威尼斯获得的玻璃收藏，安置进这间专门打造的室内；设计与施工由戈特弗里德·福克斯负责。这里最值得看的，不是某一只杯子是否比别的更华丽，而是房间如何把大量脆弱、透明、各不相同的器物，组织成一场有秩序的视觉盛宴。",
+      "preciousWhy": "这不是一个“里面放着玻璃器皿的柜子”，而是一整个被设计成展柜的房间。1713—1714年，丹麦国王腓特烈四世把自己从威尼斯获得的玻璃收藏，安置进这间专门打造的室内；设计与施工由戈特弗里德·福克斯负责。这里最值得看的，不是某一只杯子是否比别的更华丽，而是房间如何把大量脆弱、透明、各不相同的器物，组织成一场有秩序的视觉盛宴。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "The Glass Cabinet (room 22)",
+          "publisher": "The Royal Danish Collection",
+          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-22-the-glass-cabinet/"
+        },
+        {
+          "title": "The Glass Cabinet at Rosenborg Palace: Gottfried Fuchs's arrangement of 1714 rediscovered during restoration",
+          "publisher": "Journal of the History of Collections, Oxford Academic",
+          "url": "https://academic.oup.com/jhc/article-abstract/3/1/1/823057"
+        },
+        {
+          "title": "Wineglass (vetro a retortoli)",
+          "publisher": "Corning Museum of Glass",
+          "url": "https://glasscollection.cmog.org/objects/47182"
+        }
+      ]
+    },
+    {
+      "id": "marble-room-room-5",
+      "ch": "power-made-visible",
+      "zh": "大理石厅（5号房）",
+      "en": "The Marble Room (room 5)",
+      "by": "丹麦宫廷文化 / Danish court culture",
+      "date": "1668年改建；1671年首次颁授丹麦国旗勋章",
+      "material": "建筑室内；仿大理石饰面、灰泥、天花画与纹章装饰",
+      "place": "Rosenborg Castle",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "5—7分钟",
+      "image": "./assets/rosenborg/marble-room-room-5.webp",
+      "imageSource": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-5-the-marble-room/",
+      "imageCaption": "大理石厅（5号房） / The Marble Room (room 5)",
+      "imageKind": "object",
+      "source": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-5-the-marble-room/",
+      "cardSummary": "这不是一件摆在房间里的艺术品，而是一整间被设计成“权力肖像”的宫廷室内。它原本是克里斯蒂安四世第二位伴侣克尔斯滕·蒙克的卧室，1668年，弗雷德里克三世把它改造成华丽的巴洛克空间。最值得先看的，恰恰是它名字里那个小小的误导：墙上并不是真大理石，而是仿大理石饰面。再抬头看天花板，灰泥小天使托举着王冠、权杖、宝剑和王球；它们与周围的纹章一起，把“谁拥有权力”写进了房间。这里不是单纯的卧室，也不是只供欣赏的装饰，而是一套让君主制显得庄严、秩序井然、仿佛天经地义的视觉语言。",
+      "preciousWhy": "这不是一件摆在房间里的艺术品，而是一整间被设计成“权力肖像”的宫廷室内。它原本是克里斯蒂安四世第二位伴侣克尔斯滕·蒙克的卧室，1668年，弗雷德里克三世把它改造成华丽的巴洛克空间。最值得先看的，恰恰是它名字里那个小小的误导：墙上并不是真大理石，而是仿大理石饰面。再抬头看天花板，灰泥小天使托举着王冠、权杖、宝剑和王球；它们与周围的纹章一起，把“谁拥有权力”写进了房间。这里不是单纯的卧室，也不是只供欣赏的装饰，而是一套让君主制显得庄严、秩序井然、仿佛天经地义的视觉语言。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "The Marble Room (room 5)",
+          "publisher": "The Royal Danish Collection",
+          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-5-the-marble-room/"
+        },
+        {
+          "title": "Rosenborg Castle",
+          "publisher": "The Royal Danish Collection",
+          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/"
+        },
+        {
+          "title": "Ordener og medaljer",
+          "publisher": "The Royal House of Denmark",
+          "url": "https://www.kongehuset.dk/monarkiet-i-danmark/ordener-og-medaljer/"
+        },
+        {
+          "title": "Rosenborg Slot – Slots- og Kulturstyrelsen – Trap Danmark",
+          "publisher": "Lex / Trap Danmark",
+          "url": "https://trap.lex.dk/Rosenborg_Slot_-_Slots-_og_Kulturstyrelsen"
+        }
+      ]
+    },
+    {
+      "id": "homage-of-1660",
+      "ch": "power-made-visible",
+      "zh": "1660年致敬",
+      "en": "The Homage of 1660",
+      "by": "沃尔夫冈·海姆巴赫 / Wolfgang Heimbach",
+      "date": "1660年事件的17世纪绘画",
+      "material": "绘画",
+      "place": "Rosenborg Castle",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "6—8分钟",
+      "image": "./assets/rosenborg/homage-of-1660.webp",
+      "imageSource": "https://denkongeligesamling.dk/en/the-collection/objects/the-homage-of-1660/",
+      "imageCaption": "1660年致敬 / The Homage of 1660",
+      "imageKind": "object",
+      "source": "https://denkongeligesamling.dk/en/the-collection/objects/the-homage-of-1660/",
+      "cardSummary": "这是一幅把政治变成城市全景的历史画：1660年10月18日，丹麦国王腓特烈三世在哥本哈根城堡前被拥立为丹麦第一位世袭国王。画家沃尔夫冈·海姆巴赫没有只画一个威严的王者肖像，而是把广场、城堡、水面、船只、队列和密密麻麻的人群全部纳入画面。先看那条从前景伸向中心的红色路径，再看云层间落下的光：权力在这里并不只是某个人手里的王冠，而是一场必须被众人看见、承认、参与的公共仪式。需要记住的是，画面记录的是1660年的事件，但这幅画本身落款为1666年——它既是现场的回望，也是新王权对自身合法性的再确认。",
+      "preciousWhy": "这是一幅把政治变成城市全景的历史画：1660年10月18日，丹麦国王腓特烈三世在哥本哈根城堡前被拥立为丹麦第一位世袭国王。画家沃尔夫冈·海姆巴赫没有只画一个威严的王者肖像，而是把广场、城堡、水面、船只、队列和密密麻麻的人群全部纳入画面。先看那条从前景伸向中心的红色路径，再看云层间落下的光：权力在这里并不只是某个人手里的王冠，而是一场必须被众人看见、承认、参与的公共仪式。需要记住的是，画面记录的是1660年的事件，但这幅画本身落款为1666年——它既是现场的回望，也是新王权对自身合法性的再确认。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "UNSUPPORTED_HIGH_RISK_CLAIM",
+            "message": "Strong factual claim lacks a valid source record",
+            "matches": [
+              "这是一幅把政治变成城市全景的历史画：1660年10月18日，丹麦国王腓特烈三世在哥本哈根城堡前被拥立为丹麦第一位世袭国王"
+            ],
+            "severity": "error"
+          },
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "The Homage of 1660",
+          "publisher": "The Royal Danish Collection",
+          "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-homage-of-1660/"
+        },
+        {
+          "title": "Maleri af Arvehyldningen",
+          "publisher": "Den Kongelige Samling",
+          "url": "https://denkongeligesamling.dk/samlingen/genstande/maleri-af-arvehyldningen/"
+        },
+        {
+          "title": "The Stone Corridor and the Stair Tower, Room 7",
+          "publisher": "The Royal Danish Collection",
+          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-7-the-stone-corridor-and-the-stair-tower/"
+        },
+        {
+          "title": "The Crown and the nobility",
+          "publisher": "Aarhus University, Danmarkshistorien",
+          "url": "https://cas.au.dk/en/danish-history/modules/module-4-reformation-and-power-state-1523-1660/4-the-crown-and-the-nobility"
+        },
+        {
+          "title": "3. Absolute rule and the administration",
+          "publisher": "Aarhus University, Danmarkshistorien",
+          "url": "https://cas.au.dk/en/danish-history/modules/module-5-absolute-monarchy-1660-1814/3-absolute-rule-and-the-administration"
+        }
+      ]
+    },
+    {
+      "id": "knights-hall-room-21",
+      "ch": "power-made-visible",
+      "zh": "骑士厅与Rosenborg战争挂毯（21号房）",
+      "en": "The Knights’ Hall and the Rosenborg Tapestries (room 21)",
+      "by": "丹麦宫廷文化 / Danish court culture",
+      "date": "厅堂1624年完成；挂毯1690年代悬挂；18世纪初更新天花",
+      "material": "建筑室内、天花装饰与十二幅织锦挂毯",
+      "place": "Rosenborg Castle",
+      "tag": "绝对不可错过",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "9—12分钟",
+      "image": "./assets/rosenborg/knights-hall-room-21.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Denmark_0141_-_Knight%27s_Hall.jpg",
+      "imageCaption": "骑士厅与Rosenborg战争挂毯（21号房） / The Knights’ Hall and the Rosenborg Tapestries (room 21)",
+      "imageKind": "object",
+      "source": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/",
+      "cardSummary": "这不是一件摆在玻璃柜里的单独作品，而是一整间把王权、战争和仪式组合在一起的宫廷空间。骑士厅建成于1624年，起初是舞厅，曾被称为“长厅”；到了17世纪90年代，丹麦国王克里斯蒂安五世在这里悬挂十二幅战争挂毯，描绘他在斯堪尼亚战争中的胜利。今天看到的天花又是18世纪初弗雷德里克四世改造后的版本。",
+      "preciousWhy": "这不是一件摆在玻璃柜里的单独作品，而是一整间把王权、战争和仪式组合在一起的宫廷空间。骑士厅建成于1624年，起初是舞厅，曾被称为“长厅”；到了17世纪90年代，丹麦国王克里斯蒂安五世在这里悬挂十二幅战争挂毯，描绘他在斯堪尼亚战争中的胜利。今天看到的天花又是18世纪初弗雷德里克四世改造后的版本。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "The Knights’ Hall (room 21)",
+          "publisher": "The Royal Danish Collection",
+          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/"
+        },
+        {
+          "title": "Rosenborg Castle",
+          "publisher": "The Royal Danish Collection",
+          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/"
+        },
+        {
+          "title": "The narwhal throne",
+          "publisher": "The Royal Danish Collection",
+          "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-narwhal-throne/"
+        },
+        {
+          "title": "Hidden treasures from the Snapphane era",
+          "publisher": "Swedish History Museum",
+          "url": "https://historiska.se/en/explore-history/history-hub/hidden-treasures-from-the-snapphane-era/"
+        }
+      ]
+    },
+    {
       "id": "christian-iii-sword-of-state",
-      "ch": "from-election-to-absolutism",
+      "ch": "elected-to-absolute-monarchy",
       "zh": "克里斯蒂安三世国剑",
-      "en": "Christian III's sword of state",
-      "by": "丹麦王室 / Danish royal collection",
-      "date": "1551",
-      "material": "国剑；金属、宝石与珐琅装饰",
+      "en": "Christian III’s Sword of State",
+      "by": "丹麦王室金工 / Danish royal goldsmithing",
+      "date": "1551年",
+      "material": "钢、鎏金银、钻石与珐琅",
       "place": "Rosenborg Castle",
       "tag": "强烈推荐",
       "significance": "重要藏品",
       "availabilityTag": "",
-      "time": "6—8分钟",
+      "time": "5—7分钟",
       "image": "./assets/rosenborg/christian-iii-sword-of-state.webp",
-      "imageSource": "https://denkongeligesamling.dk/media/i1deqjce/a0610001-7-dig-ibk.jpg?width=1920&height=1080&v=1dbb9be723d33e0",
-      "imageCaption": "克里斯蒂安三世国剑 / Christian III's sword of state",
+      "imageSource": "https://denkongeligesamling.dk/en/the-collection/objects/chr-iii-s-sword-of-state/",
+      "imageCaption": "克里斯蒂安三世国剑 / Christian III’s Sword of State",
       "imageKind": "object",
       "source": "https://denkongeligesamling.dk/en/the-collection/objects/chr-iii-s-sword-of-state/",
-      "cardSummary": "这不是一把日常佩剑，而是一件把王权“演给所有人看”的仪式器物。克里斯蒂安三世在1551年订制它，用于丹麦国王的加冕礼。它超过一米长，沉重到需要双手挥动；剑柄和剑鞘以鎏金银制作，饰有珐琅、钻石和丹麦王室徽章。",
-      "preciousWhy": "这不是一把日常佩剑，而是一件把王权“演给所有人看”的仪式器物。克里斯蒂安三世在1551年订制它，用于丹麦国王的加冕礼。它超过一米长，沉重到需要双手挥动；剑柄和剑鞘以鎏金银制作，饰有珐琅、钻石和丹麦王室徽章。",
+      "cardSummary": "这是一把用来“让王权站起来”的仪式剑。克里斯蒂安三世在1551年订制它，供丹麦国王加冕时使用。剑长超过一米，沉重到需要双手挥动；握柄和剑鞘以鎏金银装饰，镶嵌钻石，并饰有珐琅丹麦国徽。站在它面前，先别只把它当成一件闪闪发光的王室珍宝：请想象国王在宗教仪式中接过剑、拔剑，朝四个方向指去。那一刻，剑不再只是武器，而变成了“我将保卫疆土”的公开动作。",
+      "preciousWhy": "这是一把用来“让王权站起来”的仪式剑。克里斯蒂安三世在1551年订制它，供丹麦国王加冕时使用。剑长超过一米，沉重到需要双手挥动；握柄和剑鞘以鎏金银装饰，镶嵌钻石，并饰有珐琅丹麦国徽。站在它面前，先别只把它当成一件闪闪发光的王室珍宝：请想象国王在宗教仪式中接过剑、拔剑，朝四个方向指去。那一刻，剑不再只是武器，而变成了“我将保卫疆土”的公开动作。",
       "contentWarning": {
         "title": "内容尚未通过完整校验",
         "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
@@ -258,110 +649,24 @@ museumData["rosenborg"] = {
     },
     {
       "id": "christian-iv-crown",
-      "ch": "from-election-to-absolutism",
+      "ch": "elected-to-absolute-monarchy",
       "zh": "克里斯蒂安四世王冠",
-      "en": "Christian IV’s crown",
-      "by": "丹麦王室 / Danish royal collection",
-      "date": "1596",
-      "material": "黄金、珐琅、切割宝石与珍珠",
+      "en": "Christian IV’s Crown",
+      "by": "丹麦王室金工 / Danish royal goldsmithing",
+      "date": "1596年；1648年加拱，1670年拆除",
+      "material": "金、珐琅、桌式切割宝石及其他宝石",
       "place": "Rosenborg Castle",
       "tag": "绝对不可错过",
       "significance": "重要藏品",
       "availabilityTag": "",
-      "time": "8—10分钟",
+      "time": "7—9分钟",
       "image": "./assets/rosenborg/christian-iv-crown.jpg",
-      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/6/61/Crown_of_King_Christian_IV_of_Denmark.jpg",
-      "imageCaption": "克里斯蒂安四世王冠 / Christian IV’s crown",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Crown_of_King_Christian_IV_of_Denmark.jpg",
+      "imageCaption": "克里斯蒂安四世王冠 / Christian IV’s Crown",
       "imageKind": "object",
       "source": "https://denkongeligesamling.dk/en/the-collection/objects/christian-iv-s-crown/",
-      "cardSummary": "这是一顶为丹麦国王克里斯蒂安四世在1596年加冕礼上制作的王冠，如今陈列在罗斯堡宫地下的王室珍宝库。它由黄金、珐琅、台面切割宝石和珍珠制成，重近2.9公斤。先别急着把它看成“贵金属版的大帽子”：它更像一份立体的君王职责说明书。王冠保持开放式形制，呼应早期北欧联盟国王的传统；冠身上的鹈鹕、骑狮的刚毅、手持剑与天平的正义，以及哺乳孩子的仁爱，共同回答了一个问题——一个好国王应该是什么样的人。观看时，可以先看整体轮廓，再沿着中央和两侧的尖饰寻找这些人物与动物。越靠近，越会发现它并非只是在闪耀，而是在把权力、宗教和道德压缩进一件可以戴在头上的物件里。",
-      "preciousWhy": "这是一顶为丹麦国王克里斯蒂安四世在1596年加冕礼上制作的王冠，如今陈列在罗斯堡宫地下的王室珍宝库。它由黄金、珐琅、台面切割宝石和珍珠制成，重近2.9公斤。先别急着把它看成“贵金属版的大帽子”：它更像一份立体的君王职责说明书。王冠保持开放式形制，呼应早期北欧联盟国王的传统；冠身上的鹈鹕、骑狮的刚毅、手持剑与天平的正义，以及哺乳孩子的仁爱，共同回答了一个问题——一个好国王应该是什么样的人。观看时，可以先看整体轮廓，再沿着中央和两侧的尖饰寻找这些人物与动物。越靠近，越会发现它并非只是在闪耀，而是在把权力、宗教和道德压缩进一件可以戴在头上的物件里。",
-      "sources": [
-        {
-          "title": "Christian IV’s crown",
-          "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/the-collection/objects/christian-iv-s-crown/"
-        },
-        {
-          "title": "Project ‘The Kingdom’s Treasury’",
-          "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/project-the-kingdom-s-treasury/"
-        },
-        {
-          "title": "Christian IV (1577–1648)",
-          "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/the-collection/persons/christian-iv-1577-1648/"
-        },
-        {
-          "title": "Rosenborg Slot - Nyt kongeligt skatkammer, gode publikumsfaciliteter og genskabt voldgrav forvandler oplevelsen",
-          "publisher": "The Royal Danish Collection",
-          "url": "https://via.ritzau.dk/pressemeddelelse/14752661/rosenborg-slot-nyt-kongeligt-skatkammer-gode-publikumsfaciliteter-og-genskabt-voldgrav-forvandler-oplevelsen?lang=da"
-        }
-      ]
-    },
-    {
-      "id": "coronation-sword",
-      "ch": "from-election-to-absolutism",
-      "zh": "加冕剑",
-      "en": "The Coronation Sword",
-      "by": "丹麦王室 / Danish royal collection",
-      "date": "1643；剑鞘为1648年加冕制作",
-      "material": "金属剑身；钻石、珐琅与纹章装饰的剑柄和剑鞘",
-      "place": "Rosenborg Castle，馆藏号5540",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "",
-      "time": "6—8分钟",
-      "image": "./assets/rosenborg/coronation-sword.webp",
-      "imageSource": "https://denkongeligesamling.dk/media/ny0ishuq/frederik-3-kronings-kaarde.jpg?width=1920&height=1080&v=1dcb3e6f8ff4080",
-      "imageCaption": "加冕剑 / The Coronation Sword",
-      "imageKind": "object",
-      "source": "https://denkongeligesamling.dk/en/the-collection/objects/the-coronation-sword/",
-      "cardSummary": "这不是一把准备上战场的普通武器，而是一件把“谁有资格统治”变成仪式的王室礼器。它制作于1643年，1648年由弗雷德里克三世在加冕礼上佩带，后来又用于丹麦国王的涂油礼。先看剑柄：钻石密密排布，彩色珐琅花饰像珠宝首饰一样铺开；再看剑鞘：各地纹章沿着表面排列，仿佛把一个王国折叠成了可携带的地图。它最值得看的地方，正是武器的锋利功能被退到幕后，取而代之的是王权、疆域与神圣仪式的可见化。",
-      "preciousWhy": "这不是一把准备上战场的普通武器，而是一件把“谁有资格统治”变成仪式的王室礼器。它制作于1643年，1648年由弗雷德里克三世在加冕礼上佩带，后来又用于丹麦国王的涂油礼。先看剑柄：钻石密密排布，彩色珐琅花饰像珠宝首饰一样铺开；再看剑鞘：各地纹章沿着表面排列，仿佛把一个王国折叠成了可携带的地图。它最值得看的地方，正是武器的锋利功能被退到幕后，取而代之的是王权、疆域与神圣仪式的可见化。",
-      "sources": [
-        {
-          "title": "The Coronation Sword",
-          "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-coronation-sword/"
-        },
-        {
-          "title": "Treasury, Section 3 (room I)",
-          "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-i-the-treasury/"
-        },
-        {
-          "title": "The Homage of 1660",
-          "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-homage-of-1660/"
-        },
-        {
-          "title": "The Sceptre",
-          "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-sceptre/"
-        }
-      ]
-    },
-    {
-      "id": "ampulla",
-      "ch": "from-election-to-absolutism",
-      "zh": "涂油壶",
-      "en": "The Ampulla",
-      "by": "丹麦王室 / Danish royal collection",
-      "date": "1648",
-      "material": "黄金、珐琅花饰与桌切钻石",
-      "place": "Rosenborg Castle，馆藏号5538",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "",
-      "time": "4—6分钟",
-      "image": "./assets/rosenborg/ampulla.webp",
-      "imageSource": "https://denkongeligesamling.dk/media/h0gjtxr1/buddike-2.jpg?rxy=0.5024077046548957,0.44640434192673&width=1920&height=1080&v=1dc83a7c0143880",
-      "imageCaption": "涂油壶 / The Ampulla",
-      "imageKind": "object",
-      "source": "https://denkongeligesamling.dk/en/the-collection/objects/ampulla/",
-      "cardSummary": "这是一只为丹麦国王弗雷德里克三世1648年加冕礼制作的黄金小壶，原本装的是涂油礼使用的圣油。它真正有趣的地方，不在于“一个小容器怎么能进王室宝库”，而在于它曾把抽象的王权变成一个具体动作：主教将油涂在国王的额头、手腕和胸口，仪式由此宣示，国王的权力来自上帝。",
-      "preciousWhy": "这是一只为丹麦国王弗雷德里克三世1648年加冕礼制作的黄金小壶，原本装的是涂油礼使用的圣油。它真正有趣的地方，不在于“一个小容器怎么能进王室宝库”，而在于它曾把抽象的王权变成一个具体动作：主教将油涂在国王的额头、手腕和胸口，仪式由此宣示，国王的权力来自上帝。",
+      "cardSummary": "这不是一件单纯“把贵重材料堆在一起”的王室首饰，而是一份立体的统治者说明书。它为19岁的克里斯蒂安四世在1596年加冕丹麦与挪威国王而制作，由金、珐琅、桌式切割宝石和珍珠组成，重量约2895克。最值得先看的，是它为什么没有合拢成圆顶：开放的冠体借用了卡尔马联盟诸王的传统，像是在宣告这位新王继承的是一个更广阔的北方政治记忆。再看正面、两侧和后方的珐琅人物：鹈鹕、骑狮的刚毅女神、手持剑与天平的正义女神，以及哺乳孩子的仁爱女神。它们共同回答一个问题：一个好国王究竟应该保护谁、如何作战、怎样裁判，又要对谁负责。",
+      "preciousWhy": "这不是一件单纯“把贵重材料堆在一起”的王室首饰，而是一份立体的统治者说明书。它为19岁的克里斯蒂安四世在1596年加冕丹麦与挪威国王而制作，由金、珐琅、桌式切割宝石和珍珠组成，重量约2895克。最值得先看的，是它为什么没有合拢成圆顶：开放的冠体借用了卡尔马联盟诸王的传统，像是在宣告这位新王继承的是一个更广阔的北方政治记忆。再看正面、两侧和后方的珐琅人物：鹈鹕、骑狮的刚毅女神、手持剑与天平的正义女神，以及哺乳孩子的仁爱女神。它们共同回答一个问题：一个好国王究竟应该保护谁、如何作战、怎样裁判，又要对谁负责。",
       "contentWarning": {
         "title": "内容尚未通过完整校验",
         "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
@@ -378,42 +683,42 @@ museumData["rosenborg"] = {
       },
       "sources": [
         {
-          "title": "Ampulla",
+          "title": "Christian IV’s crown",
           "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/the-collection/objects/ampulla/"
+          "url": "https://denkongeligesamling.dk/en/the-collection/objects/christian-iv-s-crown/"
         },
         {
-          "title": "The Treasury's 3rd section (room I)",
+          "title": "Treasury, Section 2 (room H)",
           "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-i-the-treasury/"
+          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-h-the-treasury/"
         },
         {
-          "title": "Historical artefacts",
+          "title": "The Crown of Christian V",
           "publisher": "The Royal House of Denmark",
-          "url": "https://www.kongehuset.dk/en/royal-collections/royal-symbols/historical-artefacts/"
+          "url": "https://www.kongehuset.dk/en/royal-collections/royal-symbols/the-crown-of-christian-v/"
         }
       ]
     },
     {
       "id": "christian-v-crown",
-      "ch": "from-election-to-absolutism",
+      "ch": "elected-to-absolute-monarchy",
       "zh": "克里斯蒂安五世王冠",
       "en": "Christian V’s Crown",
-      "by": "丹麦王室 / Danish royal collection",
-      "date": "1670—1671",
-      "material": "黄金、白钻、蓝宝石、石榴石与珐琅",
-      "place": "Rosenborg Castle，馆藏号5592",
+      "by": "保罗·库尔茨 / Paul Kurtz",
+      "date": "1670年",
+      "material": "金、钻石、蓝宝石、石榴石与刚玉",
+      "place": "Rosenborg Castle",
       "tag": "绝对不可错过",
       "significance": "重要藏品",
-      "availabilityTag": "",
-      "time": "8—10分钟",
+      "availabilityTag": "不确定是否展出",
+      "time": "7—9分钟",
       "image": "./assets/rosenborg/christian-v-crown.jpg",
-      "imageSource": "https://denkongeligesamling.dk/media/dz4ddzmu/christian_viii_og_caroline_amalie_i_salvingsdragt-1841.jpg?width=640&height=360&v=1db9ca17fe344b0",
+      "imageSource": "https://denkongeligesamling.dk/en/the-collection/objects/christian-v-s-crown/",
       "imageCaption": "克里斯蒂安五世王冠 / Christian V’s Crown",
       "imageKind": "object",
       "source": "https://denkongeligesamling.dk/en/the-collection/objects/christian-v-s-crown/",
-      "cardSummary": "这不是一顶“国王戴过，所以贵重”的普通王冠，而是一件把丹麦绝对君主制直接做成了珠宝的政治物件。它为克里斯蒂安五世制作于1670—1671年，主要由黄金、珐琅和切割宝石组成，重约2.08公斤，镶有两颗蓝宝石、两颗石榴石，以及约2600颗钻石。站在它面前，先别急着数宝石：请看它封闭的拱形结构、正面的巨大蓝宝石，以及整体近乎冷峻的金白色。它不像一件热闹的庆典饰品，更像一枚被放大的权力印章——告诉所有人，国王的权力不再主要来自贵族会议的同意，而来自一种集中、世袭、带有神圣意味的君主制度。",
-      "preciousWhy": "这不是一顶“国王戴过，所以贵重”的普通王冠，而是一件把丹麦绝对君主制直接做成了珠宝的政治物件。它为克里斯蒂安五世制作于1670—1671年，主要由黄金、珐琅和切割宝石组成，重约2.08公斤，镶有两颗蓝宝石、两颗石榴石，以及约2600颗钻石。站在它面前，先别急着数宝石：请看它封闭的拱形结构、正面的巨大蓝宝石，以及整体近乎冷峻的金白色。它不像一件热闹的庆典饰品，更像一枚被放大的权力印章——告诉所有人，国王的权力不再主要来自贵族会议的同意，而来自一种集中、世袭、带有神圣意味的君主制度。",
+      "cardSummary": "这不是一顶只负责“把国王打扮得更贵”的王冠。它诞生于丹麦绝对君主制建立之后：1670年，克里斯蒂安五世登基时，宫廷珠宝师保罗·库尔茨用从克里斯蒂安四世王冠上拆下来的拱架黄金，制作了这件新王冠。它以黄金为骨架，镶嵌钻石、蓝宝石、石榴石和刚玉，重量超过两公斤。站在它面前，先别急着数宝石；更值得看的是，一件珠宝怎样把政治制度、王室传统和一整套仪式压缩进自己的形状里。",
+      "preciousWhy": "这不是一顶只负责“把国王打扮得更贵”的王冠。它诞生于丹麦绝对君主制建立之后：1670年，克里斯蒂安五世登基时，宫廷珠宝师保罗·库尔茨用从克里斯蒂安四世王冠上拆下来的拱架黄金，制作了这件新王冠。它以黄金为骨架，镶嵌钻石、蓝宝石、石榴石和刚玉，重量超过两公斤。站在它面前，先别急着数宝石；更值得看的是，一件珠宝怎样把政治制度、王室传统和一整套仪式压缩进自己的形状里。",
       "sources": [
         {
           "title": "Christian V’s Crown",
@@ -421,7 +726,7 @@ museumData["rosenborg"] = {
           "url": "https://denkongeligesamling.dk/en/the-collection/objects/christian-v-s-crown/"
         },
         {
-          "title": "Treasury, Section 3 (room I)",
+          "title": "The Treasury's 3rd section (room I)",
           "publisher": "The Royal Danish Collection",
           "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-i-the-treasury/"
         },
@@ -433,34 +738,129 @@ museumData["rosenborg"] = {
       ]
     },
     {
-      "id": "constitution-pen",
-      "ch": "from-election-to-absolutism",
-      "zh": "1849年宪法笔",
-      "en": "The 1849 Constitution pen",
-      "by": "丹麦王室 / Danish royal collection",
-      "date": "1849",
-      "material": "签署宪法所用钢笔",
+      "id": "ampulla",
+      "ch": "elected-to-absolute-monarchy",
+      "zh": "涂油壶",
+      "en": "The Ampulla",
+      "by": "丹麦王室金工 / Danish royal goldsmithing",
+      "date": "1648年",
+      "material": "金质带螺旋盖小盒、刻纹、彩色珐琅花卉与桌式切割钻石",
       "place": "Rosenborg Castle",
       "tag": "强烈推荐",
       "significance": "重要藏品",
-      "availabilityTag": "",
-      "time": "5—7分钟",
-      "image": "./assets/rosenborg/constitution-pen.webp",
-      "imageSource": "https://denkongeligesamling.dk/media/ub5dmscv/billede.jpg?rxy=0.3358853601934988,0.6139827957585555&width=1920&height=1080&v=1dc630086b98fd0",
-      "imageCaption": "1849年宪法笔 / The 1849 Constitution pen",
+      "availabilityTag": "不确定是否展出",
+      "time": "4—6分钟",
+      "image": "./assets/rosenborg/ampulla.webp",
+      "imageSource": "https://denkongeligesamling.dk/en/the-collection/objects/ampulla/",
+      "imageCaption": "涂油壶 / The Ampulla",
       "imageKind": "object",
-      "source": "https://denkongeligesamling.dk/en/the-collection/objects/the-constitution-pen/",
-      "cardSummary": "这是一支真正参与过历史转折的书写工具。1849年6月5日，丹麦国王弗雷德里克七世用它签署丹麦第一部宪法。它不是因为造型稀奇才值得看，而是因为一次落在纸上的签名，改变了丹麦的国家制度。站在它前面，先看笔尖，再想象它面对的那份文件：如此细小的工具，怎样承载了从绝对王权走向宪政与议会的巨大变化？",
-      "preciousWhy": "这是一支真正参与过历史转折的书写工具。1849年6月5日，丹麦国王弗雷德里克七世用它签署丹麦第一部宪法。它不是因为造型稀奇才值得看，而是因为一次落在纸上的签名，改变了丹麦的国家制度。站在它前面，先看笔尖，再想象它面对的那份文件：如此细小的工具，怎样承载了从绝对王权走向宪政与议会的巨大变化？",
+      "source": "https://denkongeligesamling.dk/en/the-collection/objects/ampulla/",
+      "cardSummary": "这不是用来盛香水的精致小盒，而是丹麦王室加冕礼中盛放涂油的礼器。它为弗雷德里克三世1648年的加冕礼制作，金质盒身配螺旋盖，以刻纹、彩色珐琅花卉和桌式切割钻石装饰。站在它面前，先别只数宝石：请想象主教从这只小壶中取出香油，涂在国王的额头、手腕和胸前。那一刻，金属、花卉和宝石共同服务于一个政治神学观念——国王的权力来自上帝。它个头不大，却把一场王权仪式浓缩成了可以握在手中的物件。",
+      "preciousWhy": "这不是用来盛香水的精致小盒，而是丹麦王室加冕礼中盛放涂油的礼器。它为弗雷德里克三世1648年的加冕礼制作，金质盒身配螺旋盖，以刻纹、彩色珐琅花卉和桌式切割钻石装饰。站在它面前，先别只数宝石：请想象主教从这只小壶中取出香油，涂在国王的额头、手腕和胸前。那一刻，金属、花卉和宝石共同服务于一个政治神学观念——国王的权力来自上帝。它个头不大，却把一场王权仪式浓缩成了可以握在手中的物件。",
+      "sources": [
+        {
+          "title": "Ampulla",
+          "publisher": "The Royal Danish Collection",
+          "url": "https://denkongeligesamling.dk/en/the-collection/objects/ampulla/"
+        },
+        {
+          "title": "The Treasury's 3rd section (room I)",
+          "publisher": "The Royal Danish Collection",
+          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-i-the-treasury/"
+        },
+        {
+          "title": "The Orb",
+          "publisher": "The Royal Danish Collection",
+          "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-orb/"
+        }
+      ]
+    },
+    {
+      "id": "narwhal-throne",
+      "ch": "elected-to-absolute-monarchy",
+      "zh": "独角鲸牙王座",
+      "en": "The Narwhal Throne",
+      "by": "丹麦宫廷工艺 / Danish court craftsmanship",
+      "date": "1662—1671年",
+      "material": "独角鲸牙与鎏金金属装饰",
+      "place": "Rosenborg Castle",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "6—8分钟",
+      "image": "./assets/rosenborg/narwhal-throne.webp",
+      "imageSource": "https://denkongeligesamling.dk/en/the-collection/objects/the-narwhal-throne/",
+      "imageCaption": "独角鲸牙王座 / The Narwhal Throne",
+      "imageKind": "object",
+      "source": "https://denkongeligesamling.dk/en/the-collection/objects/the-narwhal-throne/",
+      "cardSummary": "这不是一把“长得很贵的椅子”，而是一件把王权、宗教和北极资源都压缩进座位里的仪式性王座。丹麦国王弗雷德里克三世在1662—1671年间命人制作它，原始用途是国王在涂油仪式中接受神圣授权。最值得先看的有三处：乳白色的独角鲸牙如何组成王座主体；红色天篷和鎏金装饰怎样把它变成一个小型舞台；以及它为何被称作“独角兽角”制成——答案是，独角兽没有来过哥本哈根，独角鲸来过，至少它的牙齿来过。",
+      "preciousWhy": "这不是一把“长得很贵的椅子”，而是一件把王权、宗教和北极资源都压缩进座位里的仪式性王座。丹麦国王弗雷德里克三世在1662—1671年间命人制作它，原始用途是国王在涂油仪式中接受神圣授权。最值得先看的有三处：乳白色的独角鲸牙如何组成王座主体；红色天篷和鎏金装饰怎样把它变成一个小型舞台；以及它为何被称作“独角兽角”制成——答案是，独角兽没有来过哥本哈根，独角鲸来过，至少它的牙齿来过。",
       "contentWarning": {
         "title": "内容尚未通过完整校验",
         "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
         "issues": [
           {
-            "code": "OFFICIAL_SOURCE_COVERAGE",
-            "message": "Official museum sources do not cover material",
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
             "matches": [
-              "material"
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "The narwhal throne",
+          "publisher": "The Royal Danish Collection",
+          "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-narwhal-throne/"
+        },
+        {
+          "title": "The Knights’ Hall (room 21)",
+          "publisher": "The Royal Danish Collection",
+          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/"
+        },
+        {
+          "title": "Historical artefacts",
+          "publisher": "The Royal House of Denmark",
+          "url": "https://www.kongehuset.dk/en/royal-collections/royal-symbols/historical-artefacts/"
+        },
+        {
+          "title": "Narwhal Ivory as the Arctic Colonial Speciality of the Kingdom of Denmark-Norway",
+          "publisher": "Journal18: a journal of eighteenth-century art and culture",
+          "url": "https://www.journal18.org/16-cold/narwhal-ivory-as-the-arctic-colonial-speciality-of-the-kingdom-of-denmark-norway/"
+        }
+      ]
+    },
+    {
+      "id": "emerald-set",
+      "ch": "jewels-that-keep-changing",
+      "zh": "祖母绿套装",
+      "en": "The Emerald Set",
+      "by": "C. M. Weishaupt & Söhne珠宝行 / C. M. Weishaupt & Söhne",
+      "date": "1840年；部分祖母绿可追溯至1723年赠礼",
+      "material": "金、银、祖母绿与明亮式切割钻石",
+      "place": "Rosenborg Castle",
+      "tag": "绝对不可错过",
+      "significance": "重要藏品",
+      "availabilityTag": "",
+      "time": "7—9分钟",
+      "image": "./assets/rosenborg/emerald-set.webp",
+      "imageSource": "https://denkongeligesamling.dk/en/the-collection/objects/the-emerald-set/",
+      "imageCaption": "祖母绿套装 / The Emerald Set",
+      "imageKind": "object",
+      "source": "https://denkongeligesamling.dk/en/the-collection/objects/the-emerald-set/",
+      "cardSummary": "这不是把几件绿宝石首饰简单凑在一起，而是一套经历过重新编排的王室珠宝：1840年，卡罗琳·阿玛莉王后委托德国哈瑙的 C. M. Weishaupt & Söhne 珠宝行为她制作了金框、银托、祖母绿和明亮式切割钻石组成的完整套装，包括项链、耳坠、胸针和冠冕。",
+      "preciousWhy": "这不是把几件绿宝石首饰简单凑在一起，而是一套经历过重新编排的王室珠宝：1840年，卡罗琳·阿玛莉王后委托德国哈瑙的 C. M. Weishaupt & Söhne 珠宝行为她制作了金框、银托、祖母绿和明亮式切割钻石组成的完整套装，包括项链、耳坠、胸针和冠冕。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "UNSUPPORTED_HIGH_RISK_CLAIM",
+            "message": "Strong factual claim lacks a valid source record",
+            "matches": [
+              "那是王太子克里斯蒂安（后来的克里斯蒂安六世）送给索菲·玛格达莱娜王后的生育礼物，用来庆祝他们第一个孩子、未来的弗雷德里克五世出生"
             ],
             "severity": "error"
           },
@@ -476,75 +876,99 @@ museumData["rosenborg"] = {
       },
       "sources": [
         {
-          "title": "The 1849 Constitution pen",
+          "title": "The Emerald Set",
           "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-constitution-pen/"
+          "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-emerald-set/"
         },
         {
-          "title": "Grundlovens og folkestyrets udvikling",
-          "publisher": "Folketinget",
-          "url": "https://www.ft.dk/da/folkestyret/grundloven-og-folkestyret/grundlovens-og-folkestyrets-udvikling"
+          "title": "The Danish crown jewels",
+          "publisher": "The Royal Danish Collection",
+          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/the-crown-jewels/"
+        },
+        {
+          "title": "Queen Caroline Amalie (1796–1881)",
+          "publisher": "The Royal Danish Collection",
+          "url": "https://denkongeligesamling.dk/en/the-collection/persons/queen-caroline-amalie-1796-1881/"
+        },
+        {
+          "title": "Queen Sophie Magdalene (1700-1770)",
+          "publisher": "The Royal Danish Collection",
+          "url": "https://denkongeligesamling.dk/en/the-collection/persons/dronning-sophie-magdalene-1700-1770/"
         }
       ]
     },
     {
-      "id": "knights-hall",
-      "ch": "the-throne-as-political-stage",
-      "zh": "骑士大厅（21号房）",
-      "en": "The Knights’ Hall (room 21)",
-      "by": "丹麦王室建筑与历史室内 / Danish royal historic interior",
-      "date": "王室博物馆历史陈设",
-      "material": "历史大厅、王座与王室陈设",
+      "id": "brillant-cut-diamond-set",
+      "ch": "jewels-that-keep-changing",
+      "zh": "明亮式切割钻石套装",
+      "en": "The Brillant-Cut Diamond Set",
+      "by": "C. M. Weishaupt & Söhne珠宝行 / C. M. Weishaupt & Söhne",
+      "date": "1840年重组",
+      "material": "明亮式切割钻石及金属镶座；项链、胸针与耳坠",
       "place": "Rosenborg Castle",
-      "tag": "绝对不可错过",
+      "tag": "强烈推荐",
       "significance": "重要藏品",
       "availabilityTag": "",
-      "time": "12—15分钟",
-      "image": "./assets/rosenborg/knights-hall.webp",
-      "imageSource": "https://denkongeligesamling.dk/media/t04jssmk/riddersal_rasmus_t_rosenberg-1.jpg?width=1920&height=1080&v=1dba5481ca16850",
-      "imageCaption": "骑士大厅（21号房） / The Knights’ Hall (room 21)",
+      "time": "5—7分钟",
+      "image": "./assets/rosenborg/brillant-cut-diamond-set.webp",
+      "imageSource": "https://denkongeligesamling.dk/en/the-collection/objects/the-brillant-cut-diamond-set/",
+      "imageCaption": "明亮式切割钻石套装 / The Brillant-Cut Diamond Set",
       "imageKind": "object",
-      "source": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/",
-      "cardSummary": "这不是一件孤零零的艺术品，而是一整套把王权“布置”出来的历史室内：长长的大厅、棋盘格地面、覆盖墙面的战争挂毯、华丽天花板，以及尽头的王座共同组成了一座政治舞台。它最值得看的地方，不只是“很华丽”，而是华丽在这里承担了明确的任务——让统治看起来有秩序、有传统，也有胜利的证据。",
-      "preciousWhy": "这不是一件孤零零的艺术品，而是一整套把王权“布置”出来的历史室内：长长的大厅、棋盘格地面、覆盖墙面的战争挂毯、华丽天花板，以及尽头的王座共同组成了一座政治舞台。它最值得看的地方，不只是“很华丽”，而是华丽在这里承担了明确的任务——让统治看起来有秩序、有传统，也有胜利的证据。",
+      "source": "https://denkongeligesamling.dk/en/the-collection/objects/the-brillant-cut-diamond-set/",
+      "cardSummary": "这是一套丹麦王室皇冠珠宝：项链、花束形胸针和一对垂坠耳环。今天看到的组合形成于1840年，为卡罗琳·阿玛莉王后制作；但其中许多钻石早在18世纪就属于丹麦王室。它最值得看的地方，恰恰是“旧石头，新身份”：钻石随着王后、婚姻和时代风尚不断换装，最后被重新组织成一套完整的礼仪珠宝。",
+      "preciousWhy": "这是一套丹麦王室皇冠珠宝：项链、花束形胸针和一对垂坠耳环。今天看到的组合形成于1840年，为卡罗琳·阿玛莉王后制作；但其中许多钻石早在18世纪就属于丹麦王室。它最值得看的地方，恰恰是“旧石头，新身份”：钻石随着王后、婚姻和时代风尚不断换装，最后被重新组织成一套完整的礼仪珠宝。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
       "sources": [
         {
-          "title": "The Knights’ Hall (room 21)",
+          "title": "The Brillant-Cut Diamond Set",
           "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/"
+          "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-brillant-cut-diamond-set/"
         },
         {
-          "title": "Plan your visit to Rosenborg Castle",
+          "title": "The Danish crown jewels",
           "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/plan-your-visit/"
+          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/the-crown-jewels/"
         },
         {
-          "title": "Opening hours for Rosenborg Castle",
+          "title": "Rosenstensdiademet",
           "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/plan-your-visit/opening-hours/"
+          "url": "https://denkongeligesamling.dk/samlingen/genstande/rosenstensdiademet/"
         }
       ]
     },
     {
-      "id": "narwhal-throne",
-      "ch": "the-throne-as-political-stage",
-      "zh": "独角鲸牙王座",
-      "en": "The narwhal throne",
-      "by": "丹麦王室 / Danish royal collection",
-      "date": "1662—1671",
-      "material": "独角鲸牙、镀金金属与王座结构",
+      "id": "rose-cut-diamond-set",
+      "ch": "jewels-that-keep-changing",
+      "zh": "玫瑰式切割钻石套装",
+      "en": "The Rose-Cut Diamond Set",
+      "by": "C. M. Weishaupt & Söhne珠宝行 / C. M. Weishaupt & Söhne",
+      "date": "1840—1842年重组；2024年新增可拆装冠饰框架",
+      "material": "玫瑰式切割钻石、金属镶座与可拆装腰带／胸饰组件",
       "place": "Rosenborg Castle",
       "tag": "绝对不可错过",
       "significance": "重要藏品",
       "availabilityTag": "",
       "time": "8—10分钟",
-      "image": "./assets/rosenborg/narwhal-throne.webp",
-      "imageSource": "https://denkongeligesamling.dk/media/a4glwlzz/trone-riddersal_rasmus_t_rosenberg.jpg?width=960&height=1440&v=1dc31182b000530",
-      "imageCaption": "独角鲸牙王座 / The narwhal throne",
+      "image": "./assets/rosenborg/rose-cut-diamond-set.jpg",
+      "imageSource": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/",
+      "imageCaption": "玫瑰式切割钻石套装 / The Rose-Cut Diamond Set",
       "imageKind": "object",
-      "source": "https://denkongeligesamling.dk/en/the-collection/objects/the-narwhal-throne/",
-      "cardSummary": "这是一把把“神话、材料和王权”坐到一起的王座。丹麦国王腓特烈三世在 1662—1671 年间打造它，原本用于国王的涂油仪式。它看起来像象牙制成，实际上主体使用的是独角鲸牙；当时欧洲人常把这种长而螺旋的牙误认作独角兽的角。图中左侧浅色王座就是它，右侧深色座椅则是银制的王后王座；上方红色天篷把两把椅子框成一个庄严的舞台。",
-      "preciousWhy": "这是一把把“神话、材料和王权”坐到一起的王座。丹麦国王腓特烈三世在 1662—1671 年间打造它，原本用于国王的涂油仪式。它看起来像象牙制成，实际上主体使用的是独角鲸牙；当时欧洲人常把这种长而螺旋的牙误认作独角兽的角。图中左侧浅色王座就是它，右侧深色座椅则是银制的王后王座；上方红色天篷把两把椅子框成一个庄严的舞台。",
+      "source": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/",
+      "cardSummary": "先别急着把它当成项链：这套珠宝真正的身份，是一条装饰礼服正面的钻石腰带，中央悬着大型胸饰。它由 C. M. Weishaupt & Söhne 珠宝行在 1840 年为丹麦国王克里斯蒂安八世的王后卡罗琳·阿玛莉娅制作，现有形制在 1840—1842 年间完成。最值得看的有三点：腰带如何服从十九世纪的紧身胸衣与长裙；玫瑰式切割为何只发出柔和的光；以及一件王室珠宝如何在 2024 年再次被改造成可佩戴的冠饰。它不是一件被时间封存的首饰，而是一套不断适应身体、服装和时代的“可变形”王冠珠宝。",
+      "preciousWhy": "先别急着把它当成项链：这套珠宝真正的身份，是一条装饰礼服正面的钻石腰带，中央悬着大型胸饰。它由 C. M. Weishaupt & Söhne 珠宝行在 1840 年为丹麦国王克里斯蒂安八世的王后卡罗琳·阿玛莉娅制作，现有形制在 1840—1842 年间完成。最值得看的有三点：腰带如何服从十九世纪的紧身胸衣与长裙；玫瑰式切割为何只发出柔和的光；以及一件王室珠宝如何在 2024 年再次被改造成可佩戴的冠饰。它不是一件被时间封存的首饰，而是一套不断适应身体、服装和时代的“可变形”王冠珠宝。",
       "contentWarning": {
         "title": "内容尚未通过完整校验",
         "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
@@ -561,109 +985,85 @@ museumData["rosenborg"] = {
       },
       "sources": [
         {
-          "title": "The narwhal throne",
+          "title": "The Rose-Cut Diamond Set",
           "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-narwhal-throne/"
+          "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/"
         },
         {
-          "title": "The Knights’ Hall (room 21)",
+          "title": "The Rose-cut Diamond Set",
+          "publisher": "The Royal House of Denmark",
+          "url": "https://www.kongehuset.dk/en/royal-collections/jewellery/the-rose-cut-diamond-set/"
+        },
+        {
+          "title": "The Danish crown jewels",
           "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/"
+          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/the-crown-jewels/"
         },
         {
-          "title": "Historical artefacts",
-          "publisher": "The Royal House of Denmark",
-          "url": "https://www.kongehuset.dk/en/royal-collections/royal-symbols/historical-artefacts/"
-        },
-        {
-          "title": "The History Behind the Anointing Throne",
-          "publisher": "The Royal House of Denmark",
-          "url": "https://www.kongehuset.dk/en/menu/news/the-history-behind-the-anointing-throne"
-        },
-        {
-          "title": "Narwhal Ivory as the Arctic Colonial Speciality of the Kingdom of Denmark-Norway",
-          "publisher": "Journal18",
-          "url": "https://www.journal18.org/16-cold/narwhal-ivory-as-the-arctic-colonial-speciality-of-the-kingdom-of-denmark-norway/"
+          "title": "The rose-cut diamond tiara",
+          "publisher": "The Royal Danish Collection",
+          "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-tiara/"
         }
       ]
     },
     {
-      "id": "silver-lions",
-      "ch": "the-throne-as-political-stage",
-      "zh": "银狮",
-      "en": "Silver lions",
-      "by": "丹麦王室 / Danish royal collection",
-      "date": "17世纪；弗雷德里克三世去世时已有三只完成",
-      "material": "银制王座守护狮",
+      "id": "pearl-ruby-set",
+      "ch": "jewels-that-keep-changing",
+      "zh": "珍珠红宝石套装",
+      "en": "The Pearl-Ruby Set",
+      "by": "C. M. Weishaupt & Söhne珠宝行 / C. M. Weishaupt & Söhne",
+      "date": "1842年形成现状；大颗珍珠至少可追溯至17世纪晚期",
+      "material": "珍珠、红宝石、明亮式切割钻石及金属镶座",
       "place": "Rosenborg Castle",
       "tag": "强烈推荐",
-      "significance": "特色看点",
+      "significance": "重要藏品",
       "availabilityTag": "",
       "time": "5—7分钟",
-      "image": "./assets/rosenborg/silver-lions.jpg",
-      "imageSource": "https://live.staticflickr.com/5592/15159647055_46a0fb6a96_o.jpg",
-      "imageCaption": "银狮 / Silver lions",
+      "image": "./assets/rosenborg/pearl-ruby-set.webp",
+      "imageSource": "https://denkongeligesamling.dk/en/the-collection/objects/the-pearl-ruby-set/",
+      "imageCaption": "珍珠红宝石套装 / The Pearl-Ruby Set",
       "imageKind": "object",
-      "source": "https://denkongeligesamling.dk/en/the-collection/objects/silver-lions/",
-      "cardSummary": "这不是三件普通的动物雕塑，而是罗斯堡宫王座前的三只全尺寸银狮：它们原本被设计成王权的“守门人”。弗雷德里克三世在17世纪下令打造一座仿照所罗门王宝座的王座，并计划配置十二只狮子；但黄金太贵，连银狮计划也超出预算，最后只完成了三只银狮。它们由哥本哈根银匠 Ferdinand Küblich 制作于1665—1670年，以锤揲、錾刻的银面塑出肌肉、鬃毛和威严的姿态。",
-      "preciousWhy": "这不是三件普通的动物雕塑，而是罗斯堡宫王座前的三只全尺寸银狮：它们原本被设计成王权的“守门人”。弗雷德里克三世在17世纪下令打造一座仿照所罗门王宝座的王座，并计划配置十二只狮子；但黄金太贵，连银狮计划也超出预算，最后只完成了三只银狮。它们由哥本哈根银匠 Ferdinand Küblich 制作于1665—1670年，以锤揲、錾刻的银面塑出肌肉、鬃毛和威严的姿态。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
+      "source": "https://denkongeligesamling.dk/en/the-collection/objects/the-pearl-ruby-set/",
+      "cardSummary": "这不是一条单纯的珍珠项链，而是一套会随着王室生活继续“变形”的珠宝：项链、带叶饰的大胸针、耳环，以及两个可拆卸的扣件，共同组成今天的珍珠红宝石套装。它最迷人的地方，在于三层时间叠在一起——大颗珍珠至少可追溯到17世纪晚期，1842年又由 C. M. Weishaupt & Söhne 珠宝行重新组合成现今形制，后来仍然可以被王后佩戴。",
+      "preciousWhy": "这不是一条单纯的珍珠项链，而是一套会随着王室生活继续“变形”的珠宝：项链、带叶饰的大胸针、耳环，以及两个可拆卸的扣件，共同组成今天的珍珠红宝石套装。它最迷人的地方，在于三层时间叠在一起——大颗珍珠至少可追溯到17世纪晚期，1842年又由 C. M. Weishaupt & Söhne 珠宝行重新组合成现今形制，后来仍然可以被王后佩戴。",
       "sources": [
         {
-          "title": "Silver lions",
+          "title": "The pearl-ruby set",
           "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/the-collection/objects/silver-lions/"
+          "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-pearl-ruby-set/"
         },
         {
-          "title": "The Knights’ Hall (room 21)",
+          "title": "The Danish crown jewels",
           "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-21-the-knights-hall/"
+          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/the-crown-jewels/"
         },
         {
-          "title": "Historical artefacts",
-          "publisher": "The Royal House of Denmark",
-          "url": "https://www.kongehuset.dk/en/royal-collections/royal-symbols/historical-artefacts/"
-        },
-        {
-          "title": "The narwhal throne",
+          "title": "Rosenborg Castle",
           "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-narwhal-throne/"
+          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/"
         }
       ]
     },
     {
       "id": "oldenborg-horn",
-      "ch": "cabinet-of-curiosities",
-      "zh": "奥尔登堡号角",
+      "ch": "preserved-yet-still-active",
+      "zh": "Oldenborg角杯",
       "en": "The Oldenborg Horn",
-      "by": "丹麦王室 / Danish royal collection",
-      "date": "约1400年制作；1663年起归丹麦王冠",
-      "material": "饮酒角与金属装饰",
+      "by": "中世纪北欧宫廷文化 / Medieval Northern European court culture",
+      "date": "约1400年；1663年进入丹麦王室所有",
+      "material": "饮酒角杯",
       "place": "Rosenborg Castle",
-      "tag": "强烈推荐",
-      "significance": "特色看点",
+      "tag": "时间充裕再看",
+      "significance": "重要藏品",
       "availabilityTag": "",
       "time": "5—7分钟",
       "image": "./assets/rosenborg/oldenborg-horn.jpg",
-      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Det_Oldenborgske_Horn_01.jpg",
-      "imageCaption": "奥尔登堡号角 / The Oldenborg Horn",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Det_Oldenborgske_Horn_01.jpg",
+      "imageCaption": "Oldenborg角杯 / The Oldenborg Horn",
       "imageKind": "object",
       "source": "https://denkongeligesamling.dk/en/the-collection/objects/the-oldenborg-horn/",
-      "cardSummary": "这不是一只“长得有点夸张的酒杯”，而是一件把饮酒、贵族继承、王室记忆和中世纪传奇压缩进同一件器物里的珍宝。它以饮酒角为核心，配有银质金属装饰与珐琅，整体像一座沿着弧形生长的微型城堡：塔楼、人物、徽饰和动物层层叠起。先别急着判断精灵女郎是不是真的；先看它怎样把“喝一杯”变成关于血统与权力的仪式。馆方资料对年代有“约1400年”和“约1465年”两种写法，稳妥地说，它属于15世纪中叶前后的中世纪晚期。后来它进入丹麦王室收藏，如今保存在Rosenborg城堡地下的藏宝室。它最迷人的地方正在这里：传说未必是真的，但这件器物确实被当作王朝起源的记忆来保存和讲述。",
-      "preciousWhy": "这不是一只“长得有点夸张的酒杯”，而是一件把饮酒、贵族继承、王室记忆和中世纪传奇压缩进同一件器物里的珍宝。它以饮酒角为核心，配有银质金属装饰与珐琅，整体像一座沿着弧形生长的微型城堡：塔楼、人物、徽饰和动物层层叠起。先别急着判断精灵女郎是不是真的；先看它怎样把“喝一杯”变成关于血统与权力的仪式。馆方资料对年代有“约1400年”和“约1465年”两种写法，稳妥地说，它属于15世纪中叶前后的中世纪晚期。后来它进入丹麦王室收藏，如今保存在Rosenborg城堡地下的藏宝室。它最迷人的地方正在这里：传说未必是真的，但这件器物确实被当作王朝起源的记忆来保存和讲述。",
+      "cardSummary": "这是一件中世纪北欧宫廷使用的奢华饮酒角杯，今天收藏并陈列于罗斯堡宫地下的王室宝库。它最值得看的地方，不只是“精美”，而是它怎样把饮酒、家族传说、宗教记忆和王权收藏压缩进同一件器物：角形的身体本来属于宴席，银与珐琅的装饰却让它更像一座可以举在手中的微型城堡。先别急着追究传说是真是假，先看它的整体轮廓、层层叠起的建筑式装饰，以及中央那块写满拉丁文的铭文——这几处共同说明，它从来不只是用来盛酒。",
+      "preciousWhy": "这是一件中世纪北欧宫廷使用的奢华饮酒角杯，今天收藏并陈列于罗斯堡宫地下的王室宝库。它最值得看的地方，不只是“精美”，而是它怎样把饮酒、家族传说、宗教记忆和王权收藏压缩进同一件器物：角形的身体本来属于宴席，银与珐琅的装饰却让它更像一座可以举在手中的微型城堡。先别急着追究传说是真是假，先看它的整体轮廓、层层叠起的建筑式装饰，以及中央那块写满拉丁文的铭文——这几处共同说明，它从来不只是用来盛酒。",
       "contentWarning": {
         "title": "内容尚未通过完整校验",
         "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
@@ -690,416 +1090,32 @@ museumData["rosenborg"] = {
           "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-g-the-treasury/"
         },
         {
-          "title": "Tronskiftet",
-          "publisher": "Gyldendal og Politikens Danmarkshistorie / Lex",
-          "url": "https://gyldendalogpolitikensdanmarkshistorie.lex.dk/Tronskiftet"
-        }
-      ]
-    },
-    {
-      "id": "pomander",
-      "ch": "cabinet-of-curiosities",
-      "zh": "香球",
-      "en": "Pomander",
-      "by": "丹麦王室 / Danish royal collection",
-      "date": "约1600年",
-      "material": "黄金、白色珐琅、红宝石、珊瑚与香料隔间",
-      "place": "Rosenborg Castle",
-      "tag": "强烈推荐",
-      "significance": "特色看点",
-      "availabilityTag": "",
-      "time": "4—6分钟",
-      "image": "./assets/rosenborg/pomander.webp",
-      "imageSource": "https://denkongeligesamling.dk/media/1eiclvrr/a0010033-8-dig-ibk.png?width=640&height=640&v=1dc2c7e07b6e380",
-      "imageCaption": "香球 / Pomander",
-      "imageKind": "object",
-      "source": "https://denkongeligesamling.dk/en/the-collection/objects/pomander/",
-      "cardSummary": "这不是一枚单纯的骷髅饰物，而是一只可以佩戴、可以散发气味、还藏着六个小隔间的文艺复兴时期香球，约制作于1600年。它由黄金、白色珐琅和红宝石组成，像一颗被珠宝化的骷髅头；链子上还连着珊瑚骷髅和背面同样带骷髅的女性头像。站在它面前，先别只盯着那排牙齿：请注意它如何把“实用的气味容器”“贵重的宫廷饰品”和“提醒人终有一死的骷髅”压缩进一个掌心大小的物件里。它最有意思的地方，正是香气本来为了让人安心，外形却不断提醒人：生命并不长久。",
-      "preciousWhy": "这不是一枚单纯的骷髅饰物，而是一只可以佩戴、可以散发气味、还藏着六个小隔间的文艺复兴时期香球，约制作于1600年。它由黄金、白色珐琅和红宝石组成，像一颗被珠宝化的骷髅头；链子上还连着珊瑚骷髅和背面同样带骷髅的女性头像。站在它面前，先别只盯着那排牙齿：请注意它如何把“实用的气味容器”“贵重的宫廷饰品”和“提醒人终有一死的骷髅”压缩进一个掌心大小的物件里。它最有意思的地方，正是香气本来为了让人安心，外形却不断提醒人：生命并不长久。",
-      "sources": [
-        {
-          "title": "Pomander",
+          "title": "Crowning Moments",
           "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/the-collection/objects/pomander/"
-        },
-        {
-          "title": "Pomander",
-          "publisher": "The Metropolitan Museum of Art",
-          "url": "https://www.metmuseum.org/art/collection/search/196980"
-        },
-        {
-          "title": "Pandemic Objects: Hand Sanitiser",
-          "publisher": "Victoria and Albert Museum",
-          "url": "https://www.vam.ac.uk/blog/projects/pandemic-objects-hand-sanitiser"
-        }
-      ]
-    },
-    {
-      "id": "wetting-trap-chair",
-      "ch": "cabinet-of-curiosities",
-      "zh": "国王恶作剧湿裤椅",
-      "en": "The King’s wetting trap chair",
-      "by": "丹麦王室珍奇柜 / Danish royal cabinet of curiosities",
-      "date": "17世纪；1752年进入皇家珍奇柜",
-      "material": "带隐藏机械装置的椅子",
-      "place": "Rosenborg Castle",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "",
-      "time": "4—6分钟",
-      "image": "./assets/rosenborg/wetting-trap-chair.png",
-      "imageSource": "https://media.lex.dk/media/206984/standard_Sk%C3%A6rmbillede_2025-04-09_kl._14.09.40.png",
-      "imageCaption": "国王恶作剧湿裤椅 / The King’s wetting trap chair",
-      "imageKind": "object",
-      "source": "https://denkongeligesamling.dk/en/the-collection/objects/wetting-trap-chair/",
-      "cardSummary": "这不是一把普通的王室扶手椅，而是一台披着红色天鹅绒外衣的恶作剧机器。17世纪的欧洲宫廷喜欢用隐藏水道、机关和突然声响制造惊吓；这把椅子把几种效果集中到了一起：有人坐下，椅子会发出类似放屁的声音，铁臂随即锁住身体，水再从暗处流出，弄湿裤子。它值得看的地方，不只是“古人也爱开低俗玩笑”，而是它把家具、机械、权力和观看揉成了一场小型表演。站在它面前，先别只看雕花和绒面，想想：一件看似供人休息的家具，怎样突然把坐着的人变成了舞台中央的演员？",
-      "preciousWhy": "这不是一把普通的王室扶手椅，而是一台披着红色天鹅绒外衣的恶作剧机器。17世纪的欧洲宫廷喜欢用隐藏水道、机关和突然声响制造惊吓；这把椅子把几种效果集中到了一起：有人坐下，椅子会发出类似放屁的声音，铁臂随即锁住身体，水再从暗处流出，弄湿裤子。它值得看的地方，不只是“古人也爱开低俗玩笑”，而是它把家具、机械、权力和观看揉成了一场小型表演。站在它面前，先别只看雕花和绒面，想想：一件看似供人休息的家具，怎样突然把坐着的人变成了舞台中央的演员？",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "The wetting trap chair",
-          "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/the-collection/objects/wetting-trap-chair/"
-        },
-        {
-          "title": "The Regalia Room (room 24)",
-          "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-24-the-regalia-room/"
-        },
-        {
-          "title": "Wet Trousers, Entrapment and Good Sports: The Wetting Trap Chair at Rosenborg Castle and Other Trap Chairs in Early Modern Europe",
-          "publisher": "The Court Historian / Taylor & Francis",
-          "url": "https://doi.org/10.1080/14629712.2025.2467604"
-        }
-      ]
-    },
-    {
-      "id": "emerald-set",
-      "ch": "jewels-inheritance-and-use",
-      "zh": "翡翠套饰",
-      "en": "The Emerald Set",
-      "by": "丹麦王室 / Danish royal collection",
-      "date": "1840；部分宝石可追溯至1723年",
-      "material": "黄金、白银、翡翠与明亮式切割钻石",
-      "place": "Rosenborg Castle，馆藏号5528",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "7—9分钟",
-      "image": "./assets/rosenborg/emerald-set.webp",
-      "imageSource": "https://denkongeligesamling.dk/media/ti4bywca/smaragdsaettet-collier-62-6a-3-ibk.jpg?width=960&height=1440&v=1dba52b91091570",
-      "imageCaption": "翡翠套饰 / The Emerald Set",
-      "imageKind": "object",
-      "source": "https://denkongeligesamling.dk/en/the-collection/objects/the-emerald-set/",
-      "cardSummary": "这是一整套为丹麦卡罗琳·阿玛莉娅王后制作的王室珠宝：黄金框架、白银镶座、深绿色翡翠和明亮式切割钻石，包含项链、耳坠、胸针和冠饰。它最值得看的地方，不只是“贵”，而是同一组宝石把三段时间串在了一起：1840年的时尚与工艺、1723年的王室家庭记忆，以及今天仍会被佩戴的王冠珠宝制度。",
-      "preciousWhy": "这是一整套为丹麦卡罗琳·阿玛莉娅王后制作的王室珠宝：黄金框架、白银镶座、深绿色翡翠和明亮式切割钻石，包含项链、耳坠、胸针和冠饰。它最值得看的地方，不只是“贵”，而是同一组宝石把三段时间串在了一起：1840年的时尚与工艺、1723年的王室家庭记忆，以及今天仍会被佩戴的王冠珠宝制度。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "UNSUPPORTED_HIGH_RISK_CLAIM",
-            "message": "Strong factual claim lacks a valid source record",
-            "matches": [
-              "1723年，索菲·玛格达琳王后从丈夫、当时的克里斯蒂安王储那里收到这份礼物，纪念他们第一个孩子弗雷德里克五世出生"
-            ],
-            "severity": "error"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "The Emerald Set",
-          "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-emerald-set/"
-        },
-        {
-          "title": "The Treasury's 3rd section (room I)",
-          "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-i-the-treasury/"
-        },
-        {
-          "title": "The Danish crown jewels",
-          "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/the-crown-jewels/"
-        }
-      ]
-    },
-    {
-      "id": "pearl-ruby-set",
-      "ch": "jewels-inheritance-and-use",
-      "zh": "珍珠红宝石套饰",
-      "en": "The Pearl-Ruby Set",
-      "by": "丹麦王室 / Danish royal collection",
-      "date": "1842；大型珍珠至少可追溯至17世纪晚期",
-      "material": "珍珠、红宝石、钻石与黄金",
-      "place": "Rosenborg Castle，馆藏号5532",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "6—8分钟",
-      "image": "./assets/rosenborg/pearl-ruby-set.webp",
-      "imageSource": "https://denkongeligesamling.dk/media/l5fb4rss/a0620002-a-dig-ibk.png?width=960&height=540&v=1db94c314c63830",
-      "imageCaption": "珍珠红宝石套饰 / The Pearl-Ruby Set",
-      "imageKind": "object",
-      "source": "https://denkongeligesamling.dk/en/the-collection/objects/the-pearl-ruby-set/",
-      "cardSummary": "这不是一件从零开始、一次完成的首饰，而是一段王室时间被重新编排后的结果：项链中的大珍珠至少可以追溯到17世纪晚期；到了19世纪40年代初，它们又被配上红宝石、钻石和新的金质结构，组成今天所见的套饰。丹麦王室收藏官网的对象页将现行形式具体定为1842年，并说明它是为卡罗琳·阿玛莉王后制作的。照片里主要看到的是珍珠项链，但完整套饰还包括胸针、耳饰和可拆卸扣件。观看时先别急着被“贵重”两个字带走：请看珍珠并不完全规整的形状、柔和的光泽，以及一串旧材料如何被安排成一件仍然可以佩戴的王室珠宝。",
-      "preciousWhy": "这不是一件从零开始、一次完成的首饰，而是一段王室时间被重新编排后的结果：项链中的大珍珠至少可以追溯到17世纪晚期；到了19世纪40年代初，它们又被配上红宝石、钻石和新的金质结构，组成今天所见的套饰。丹麦王室收藏官网的对象页将现行形式具体定为1842年，并说明它是为卡罗琳·阿玛莉王后制作的。照片里主要看到的是珍珠项链，但完整套饰还包括胸针、耳饰和可拆卸扣件。观看时先别急着被“贵重”两个字带走：请看珍珠并不完全规整的形状、柔和的光泽，以及一串旧材料如何被安排成一件仍然可以佩戴的王室珠宝。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "The pearl-ruby set",
-          "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-pearl-ruby-set/"
-        },
-        {
-          "title": "The crown jewels",
-          "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/the-crown-jewels/"
-        },
-        {
-          "title": "The Treasury's 3rd section (room I)",
-          "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-i-the-treasury/"
-        },
-        {
-          "title": "Perle-rubinsættet",
-          "publisher": "Kongehuset",
-          "url": "https://www.kongehuset.dk/kongelige-samlinger/smykker/perle-rubinsaettet/"
-        }
-      ]
-    },
-    {
-      "id": "brilliant-cut-diamond-set",
-      "ch": "jewels-inheritance-and-use",
-      "zh": "明亮式切割钻石套饰",
-      "en": "The Brilliant-Cut Diamond Set",
-      "by": "丹麦王室 / Danish royal collection",
-      "date": "1840",
-      "material": "钻石、黄金与白银镶座；项链、胸针和耳坠",
-      "place": "Rosenborg Castle，馆藏号5560",
-      "tag": "时间充裕再看",
-      "significance": "特色看点",
-      "availabilityTag": "不确定是否展出",
-      "time": "4—6分钟",
-      "image": "./assets/rosenborg/brilliant-cut-diamond-set.webp",
-      "imageSource": "https://denkongeligesamling.dk/media/frmdpmrf/1-brillantsaettet-collier-62-5a-3-ibk.jpg?width=960&height=960&v=1dba53ddcc13800",
-      "imageCaption": "明亮式切割钻石套饰 / The Brilliant-Cut Diamond Set",
-      "imageKind": "object",
-      "source": "https://denkongeligesamling.dk/en/the-collection/objects/the-brillant-cut-diamond-set/",
-      "cardSummary": "这不是一套“1840年新买来的钻石首饰”，而是一份被重新编排过的王室记忆：项链、胸针和耳坠的现行组合于1840年为卡罗琳·阿玛莉娅王后制作，但其中许多钻石早已在王室珠宝中流转多年。站在它面前，先看三件事：项链中央那枚泪滴形大钻石，胸针上像一小束会发光的花，以及不同大小钻石形成的明暗节奏。它们共同说明，王室珠宝的价值不只在“有多贵”，还在于它如何把继承、婚姻、身份和使用痕迹镶进同一套首饰里。",
-      "preciousWhy": "这不是一套“1840年新买来的钻石首饰”，而是一份被重新编排过的王室记忆：项链、胸针和耳坠的现行组合于1840年为卡罗琳·阿玛莉娅王后制作，但其中许多钻石早已在王室珠宝中流转多年。站在它面前，先看三件事：项链中央那枚泪滴形大钻石，胸针上像一小束会发光的花，以及不同大小钻石形成的明暗节奏。它们共同说明，王室珠宝的价值不只在“有多贵”，还在于它如何把继承、婚姻、身份和使用痕迹镶进同一套首饰里。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "OFFICIAL_SOURCE_COVERAGE",
-            "message": "Official museum sources do not cover material",
-            "matches": [
-              "material"
-            ],
-            "severity": "error"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "The Brillant-Cut Diamond Set",
-          "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-brillant-cut-diamond-set/"
-        },
-        {
-          "title": "The crown jewels",
-          "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/the-crown-jewels/"
-        },
-        {
-          "title": "Skatkammerets 3. sektion (rum I)",
-          "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/rosenborg-slot/sale-rum/rum-i-skatkammeret/"
-        },
-        {
-          "title": "About Diamond Cut",
-          "publisher": "Gemological Institute of America",
-          "url": "https://4cs.gia.edu/interactive-4cs/cut/index.html"
-        }
-      ]
-    },
-    {
-      "id": "rose-cut-diamond-set",
-      "ch": "jewels-inheritance-and-use",
-      "zh": "玫瑰式切割钻石套饰",
-      "en": "The Rose-Cut Diamond Set",
-      "by": "丹麦王室 / Danish royal collection",
-      "date": "1840—1842",
-      "material": "玫瑰式切割钻石、金属镶座；腰链与胸针组合",
-      "place": "Rosenborg Castle，馆藏号5564",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "6—8分钟",
-      "image": "./assets/rosenborg/rose-cut-diamond-set.jpg",
-      "imageSource": "https://denkongeligesamling.dk/media/rqpe2rzf/rosenstensaettet.jpg",
-      "imageCaption": "玫瑰式切割钻石套饰 / The Rose-Cut Diamond Set",
-      "imageKind": "object",
-      "source": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/",
-      "cardSummary": "先别急着把它看成一条项链。眼前这组珠宝真正有意思的地方，恰恰在于它曾经被看错：长长的钻石链原本是缝在礼服前襟上的腰饰，中央悬着一枚可以拆分的胸饰。它为1840年前后的丹麦王后卡罗琳·阿玛莉娅而制，后来成为丹麦王室皇冠珠宝的一部分。",
-      "preciousWhy": "先别急着把它看成一条项链。眼前这组珠宝真正有意思的地方，恰恰在于它曾经被看错：长长的钻石链原本是缝在礼服前襟上的腰饰，中央悬着一枚可以拆分的胸饰。它为1840年前后的丹麦王后卡罗琳·阿玛莉娅而制，后来成为丹麦王室皇冠珠宝的一部分。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "The Rose-Cut Diamond Set",
-          "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-set/"
-        },
-        {
-          "title": "The rose-cut diamond tiara",
-          "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/the-collection/objects/the-rose-cut-diamond-tiara/"
-        },
-        {
-          "title": "The Danish crown jewels",
-          "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/the-crown-jewels/"
-        },
-        {
-          "title": "The Rose-cut Diamond Set",
-          "publisher": "The Royal House of Denmark",
-          "url": "https://www.kongehuset.dk/en/royal-collections/jewellery/the-rose-cut-diamond-set/"
-        }
-      ]
-    },
-    {
-      "id": "glass-cabinet",
-      "ch": "collection-as-lived-institution",
-      "zh": "玻璃柜（22号房）",
-      "en": "The Glass Cabinet (room 22)",
-      "by": "丹麦王室建筑与历史室内 / Danish royal historic interior",
-      "date": "弗雷德里克四世时期收藏线",
-      "material": "历史陈列室与玻璃器收藏",
-      "place": "Rosenborg Castle",
-      "tag": "绝对不可错过",
-      "significance": "重要藏品",
-      "availabilityTag": "",
-      "time": "8—10分钟",
-      "image": "./assets/rosenborg/glass-cabinet.webp",
-      "imageSource": "https://denkongeligesamling.dk/media/l4cbibny/rosenborg_room22_01_web.jpg?width=1920&height=1080&v=1dba549c97957d0",
-      "imageCaption": "玻璃柜（22号房） / The Glass Cabinet (room 22)",
-      "imageKind": "object",
-      "source": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-22-the-glass-cabinet/",
-      "cardSummary": "这不是一件摆在房间里的玻璃器，而是一个把“收藏”本身变成作品的房间。丹麦国王弗雷德里克四世在1709年从威尼斯得到一批玻璃器，1713—1714年，他把罗森堡城堡的一间小室改造成专门陈列它们的玻璃柜。先别急着逐个认杯子：从画面中央向两侧看，注意金色架子如何形成对称的层层框景，再看透明、乳白、深蓝和红色玻璃怎样在黑暗中被托起来。这里最值得看的，是器物、房间和观看秩序已经分不开了。",
-      "preciousWhy": "这不是一件摆在房间里的玻璃器，而是一个把“收藏”本身变成作品的房间。丹麦国王弗雷德里克四世在1709年从威尼斯得到一批玻璃器，1713—1714年，他把罗森堡城堡的一间小室改造成专门陈列它们的玻璃柜。先别急着逐个认杯子：从画面中央向两侧看，注意金色架子如何形成对称的层层框景，再看透明、乳白、深蓝和红色玻璃怎样在黑暗中被托起来。这里最值得看的，是器物、房间和观看秩序已经分不开了。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "The Glass Cabinet (room 22)",
-          "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-22-the-glass-cabinet/"
-        },
-        {
-          "title": "Interior and objects | Rosenborg Castle",
-          "publisher": "The Royal Danish Collection",
-          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/"
-        },
-        {
-          "title": "The Glass Cabinet at Rosenborg Palace: Gottfried Fuchs's arrangement of 1714 rediscovered during restoration",
-          "publisher": "Journal of the History of Collections / Oxford Academic",
-          "url": "https://academic.oup.com/jhc/article-abstract/3/1/1/823057"
-        },
-        {
-          "title": "Wineglass (vetro a retortoli)",
-          "publisher": "The Corning Museum of Glass",
-          "url": "https://glasscollection.cmog.org/objects/47182"
+          "url": "https://denkongeligesamling.dk/en/koldinghus/calendar/crowning-moments/"
         }
       ]
     },
     {
       "id": "rosenborg-wine",
-      "ch": "collection-as-lived-institution",
-      "zh": "Rosenborg葡萄酒与酒桶",
-      "en": "The Rosenborg wine",
-      "by": "丹麦王室 / Danish royal collection",
-      "date": "1598、1599、1615（最古老酒桶）",
-      "material": "莱茵葡萄酒与木制酒桶",
+      "ch": "preserved-yet-still-active",
+      "zh": "Rosenborg王室酒",
+      "en": "The Rosenborg Wine",
+      "by": "丹麦王室饮食与礼仪文化 / Danish royal dining and ceremonial culture",
+      "date": "最早酒桶关联1598、1599与1615年；1982年转入钢罐和瓶中",
+      "material": "以莱茵白葡萄酒为基础的持续补充酒液；历史木桶",
       "place": "Rosenborg Castle",
-      "tag": "时间充裕再看",
+      "tag": "强烈推荐",
       "significance": "特色看点",
       "availabilityTag": "",
-      "time": "5—7分钟",
+      "time": "6—8分钟",
       "image": "./assets/rosenborg/rosenborg-wine.webp",
-      "imageSource": "https://denkongeligesamling.dk/media/nwcf3ht5/dscn6471.jpg?width=1920&height=1080&v=1dc630086b1eeb0",
-      "imageCaption": "Rosenborg葡萄酒与酒桶 / The Rosenborg wine",
+      "imageSource": "https://denkongeligesamling.dk/en/the-collection/objects/the-rosenborg-wine/",
+      "imageCaption": "Rosenborg王室酒 / The Rosenborg Wine",
       "imageKind": "object",
       "source": "https://denkongeligesamling.dk/en/the-collection/objects/the-rosenborg-wine/",
-      "cardSummary": "这不是一件把四百年前的酒原封不动封在桶里的“时间胶囊”，而是一套仍在王室礼仪中继续工作的收藏。它由莱茵葡萄酒、木制酒桶、王室宴会和一段被战争打断又接回来的收藏史组成。官方记录显示，Rosenborg葡萄酒最早于1598年供应王室新年宴会；今天在Rosenborg城堡地下酒窖展出的三只最老酒桶，年代分别为1598年、1599年和1615年。站在它们面前，先别只看“老”：请看桶头的木板、黑色铁箍、中央的取酒装置，以及木头被长期使用后留下的磨损。它们说明，这件作品的重要性不在于贵重材料，而在于一种王室传统如何被持续保存、调配和重新使用。",
-      "preciousWhy": "这不是一件把四百年前的酒原封不动封在桶里的“时间胶囊”，而是一套仍在王室礼仪中继续工作的收藏。它由莱茵葡萄酒、木制酒桶、王室宴会和一段被战争打断又接回来的收藏史组成。官方记录显示，Rosenborg葡萄酒最早于1598年供应王室新年宴会；今天在Rosenborg城堡地下酒窖展出的三只最老酒桶，年代分别为1598年、1599年和1615年。站在它们面前，先别只看“老”：请看桶头的木板、黑色铁箍、中央的取酒装置，以及木头被长期使用后留下的磨损。它们说明，这件作品的重要性不在于贵重材料，而在于一种王室传统如何被持续保存、调配和重新使用。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
+      "cardSummary": "这不是一瓶被密封了四百多年的“古董酒”，而是一项仍在运作的王室饮食传统：以16世纪末基督教四世时期的莱茵白葡萄酒为根基，经过世代补充，至今仍在丹麦王室的新年宴会等特殊场合使用。眼前这些厚重木桶分别关联1598、1599和1615年；但1982年，桶身老化，酒液已经转入钢罐和瓶中，木桶本身如今作为历史见证留在酒窖里。",
+      "preciousWhy": "这不是一瓶被密封了四百多年的“古董酒”，而是一项仍在运作的王室饮食传统：以16世纪末基督教四世时期的莱茵白葡萄酒为根基，经过世代补充，至今仍在丹麦王室的新年宴会等特殊场合使用。眼前这些厚重木桶分别关联1598、1599和1615年；但1982年，桶身老化，酒液已经转入钢罐和瓶中，木桶本身如今作为历史见证留在酒窖里。",
       "sources": [
         {
           "title": "The Rosenborg Wine",
@@ -1110,6 +1126,11 @@ museumData["rosenborg"] = {
           "title": "The Rosenborg Wine (room D)",
           "publisher": "The Royal Danish Collection",
           "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-d-the-rosenborg-wine/"
+        },
+        {
+          "title": "Weapons and wine (room B)",
+          "publisher": "The Royal Danish Collection",
+          "url": "https://denkongeligesamling.dk/en/rosenborg-castle/interior-and-objects/room-b-weapons-and-wine/"
         }
       ]
     }

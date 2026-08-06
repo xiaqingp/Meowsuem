@@ -1,7 +1,7 @@
 # Meowseum Generation Pipeline
 
 > Status: Canonical  
-> Pipeline: 2.13.80
+> Pipeline: 2.13.89
 > Filesystem contract: 1  
 > Content contract for new production runs: `one_shot_v1`
 
@@ -500,3 +500,21 @@ Pipeline 2.13 resolves images through one manifest-selected production entrypoin
   replacing an existing museum record, so IDs containing hyphens remain valid.
 - 2.13.80: the canonical museum page registers the published Designmuseum
   Danmark bundle and its current cache-busting version.
+- 2.13.81: freezes the post-publication Louisiana museum page cache-key hash
+  after the full regeneration release.
+- 2.13.82: freezes the post-publication Rosenborg museum page cache-key hash
+  after the full regeneration release.
+- 2.13.83: freezes the post-publication Nationalmuseum museum page cache-key
+  hash after the full regeneration release.
+- 2.13.84: freezes the owner-approved site favicon registration in the
+  canonical museum page; museum content and publication data are unchanged.
+- 2.13.85: makes museum selection reuse each rare line's peak ID verbatim and
+  fill the declared capacity whenever enough identity-stable candidates exist.
+- 2.13.86: allows an owner-approved warning promotion to preserve failed
+  verifier evidence after the retry guard records the work as blocked.
+- 2.13.87: corrects the release-history line wrapping after the warning-promotion
+  state transition; runtime behavior is unchanged.
+- 2.13.88: freezes the post-publication MFA Boston museum page cache-key hash
+  after the full generation release.
+- 2.13.89: refreshes the shared ratings cache key so newly published museum
+  scores cannot be paired with a stale ratings bundle.

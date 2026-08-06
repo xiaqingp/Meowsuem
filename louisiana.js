@@ -3,105 +3,94 @@ museumData["louisiana"] = {
   ...museumRatings["louisiana"],
   ...{
   "id": "louisiana",
-  "editorialCapacity": 40,
+  "editorialCapacity": 30,
   "city": "Humlebæk，Denmark",
   "zh": "路易斯安那现代艺术博物馆",
   "en": "Louisiana Museum of Modern Art",
-  "verdict": "70–79 · 可去可不去",
-  "hero": "./assets/louisiana/moore-reclining-figure-no-5.jpg",
+  "verdict": "80–89 · 应主动列入行程",
+  "hero": "./assets/louisiana/giacometti-walking-man.png",
   "contentFile": "research/content/louisiana.md",
-  "official": "https://louisiana.dk/en/collection/",
-  "visit": "https://louisiana.dk/en/collection/",
-  "contentUpdatedAt": "2026-08-02",
+  "official": "https://louisiana.dk/en/museum/collection/",
+  "visit": "https://louisiana.dk/en/museum/collection/",
+  "contentUpdatedAt": "2026-08-05",
   "intro": [
-    "Louisiana 最特别的不是一条完整的现代艺术编年史，而是一套制造‘相遇’的观看系统：从丹麦现代艺术出发的国际化收藏、按艺术家与时期形成的作品群、低调延展的建筑、临海地形与场域雕塑，共同让观众在室内与室外、作品与日常感官经验之间不断切换。",
-    "79分，属于‘可去可不去’档的上沿：若你重视战后艺术、Giacometti 与 Jorn 的作品群，或愿意把建筑、园林和雕塑当作同一次观看，值得从哥本哈根专程安排半天；若只想追逐全球不可替代的镇馆之宝，这里没有经证据确认的稀世珍品，不必压缩更高优先级行程。"
+    "Louisiana 最特别的不是一条完整的现代艺术年代线，而是它把选择性收藏、展览形成史、低矮连廊、专属展室与海边雕塑公园组织成一套关系系统：丹麦艺术由约恩接入战后国际网络，贾科梅蒂组群因长期收藏与建筑获得深度，塞拉等场域作品则让步行和地形直接成为观看的一部分。",
+    "84分，属于“应主动列入行程”：到哥本哈根一带旅行，值得专门留出半天前往 Humlebæk；第一次来至少抓住贾科梅蒂、约恩、音乐厅大型绘画和雕塑公园，南翼开放时再加入草间弥生。"
   ],
   "routes": {
     "90": {
-      "title": "90分钟：用七个节点判断 Louisiana 是否值得你再来",
-      "note": "先确认南翼与音乐厅开放，再从 Heerup 的丹麦起点进入 Giacometti 作品群，比较音乐厅两件巨幅画，体验草间弥生的空间装置，最后以 Serra 和 Trakas 的两种场域通道收束。主动跳过轮换状态不明的绘画、摄影和长篇影像；若天气或场地受限，宁可缩短路线，也不要把未确认作品当作必然可见。",
+      "title": "90分钟：用九个节点判断 Louisiana 是否值得",
+      "note": "从北翼贾科梅蒂入口与约恩核心开始，经音乐厅进入公园，最后在南翼开放时看草间弥生。主动跳过摄影、长时影像和多数轮换作品；若天气差，优先保留室内五站并缩短公园段。音乐厅或南翼受限时，不以其他轮换作品假装替代。",
       "workIds": [
-        "heerup-granite-sculptures",
-        "giacometti-la-foret",
-        "hockney-a-closer-grand-canyon",
-        "majerus-weisses-bild",
-        "kusama-gleaming-lights-of-the-souls",
-        "serra-gate-in-the-gorge",
-        "trakas-self-passage"
-      ]
-    },
-    "half": {
-      "title": "半天：看懂作品群、媒介变化与临海场地",
-      "note": "在90分钟主线外，加入 Jorn、欧美战后绘画、摄影与移动影像，使收藏结构真正成立。入馆先根据当天陈列删去不可见节点；影像作品只选当日实际播放且有足够时间完整观看的部分。音乐厅可能受活动限制，户外段留到体力和天气较合适的时段。",
-      "workIds": [
-        "heerup-granite-sculptures",
-        "jorn-dead-drunk-danes",
-        "pollock-black-over-yellow",
-        "bacon-three-studies-george-dyer",
-        "giacometti-walking-man",
-        "giacometti-la-foret",
-        "hockney-a-closer-grand-canyon",
-        "majerus-weisses-bild",
-        "polke-sieht-man-ja-was-es-ist",
-        "kusama-gleaming-lights-of-the-souls",
-        "kentridge-black-box-chambre-noire",
-        "rist-im-not-the-girl-who-misses-much",
-        "feldmann-100-years",
-        "superflex-flooded-mcdonalds",
-        "fischli-weiss-der-lauf-der-dinge",
-        "arbus-albino-sword-swallower",
-        "goldin-memory-lost",
-        "moore-reclining-figure-no-5",
-        "calder-little-janey-waney",
-        "serra-gate-in-the-gorge",
-        "trakas-self-passage"
-      ]
-    },
-    "all": {
-      "title": "完整浏览：40件分两次以上完成",
-      "note": "这不是一天必走清单。第一次优先完成 Jorn、Giacometti、音乐厅、南翼条件性锚点与雕塑公园；第二次按当天轮换集中补齐战后绘画、摄影、新入藏和移动影像，并为长篇装置留出完整播放时间。两次都先核对当日展陈：馆藏身份不等于当前可见，南翼、音乐厅、影像设备和户外维护都可能改变实际顺序。",
-      "workIds": [
-        "heerup-granite-sculptures",
-        "jorn-titania-ii",
-        "jorn-both-worlds",
-        "jorn-nocturne-iii",
-        "jorn-dead-drunk-danes",
-        "jorn-die-gedanken-sind-frei",
-        "pollock-black-over-yellow",
-        "bacon-three-studies-george-dyer",
         "giacometti-spoon-woman",
         "giacometti-walking-woman-i",
         "giacometti-walking-man",
-        "giacometti-grande-tete",
-        "giacometti-venice-woman-viii",
-        "giacometti-la-foret",
         "dumas-mourning-marsyas",
-        "warhol-close-cover-before-striking",
-        "warhol-flowers-1970",
-        "polke-sieht-man-ja-was-es-ist",
+        "jorn-die-gedanken-sind-frei",
+        "hockney-a-closer-grand-canyon",
+        "moore-reclining-figure-no-5",
+        "serra-the-gate-in-the-gorge",
+        "kusama-gleaming-lights-of-the-souls"
+      ]
+    },
+    "half": {
+      "title": "半天：从收藏组群走到建筑与地形",
+      "note": "先完整建立北翼的贾科梅蒂与约恩比较组，再看音乐厅、当前可核验的美国与当代影像节点，随后用公园路线理解运动、组群和场域性，南翼开放时以草间弥生收束。草间弥生、音乐厅和影像播放均须以当日开放为准；公园段预留天气与步行弹性。",
+      "workIds": [
+        "giacometti-spoon-woman",
+        "giacometti-walking-woman-i",
+        "giacometti-grande-tete",
+        "giacometti-walking-man",
+        "dumas-mourning-marsyas",
+        "jorn-die-gedanken-sind-frei",
+        "jorn-ojets-blikstille",
         "hockney-a-closer-grand-canyon",
         "majerus-weisses-bild",
-        "kusama-gleaming-lights-of-the-souls",
-        "feldmann-100-years",
-        "rist-im-not-the-girl-who-misses-much",
-        "abramovic-ulay-light-dark",
-        "fischli-weiss-der-lauf-der-dinge",
-        "superflex-flooded-mcdonalds",
-        "hill-viewer",
-        "dijkstra-ruth-drawing-picasso",
-        "kentridge-black-box-chambre-noire",
-        "goldin-memory-lost",
-        "ulay-she",
-        "arbus-albino-sword-swallower",
         "ruscha-figure-it-on-out",
-        "hughes-collide",
-        "schutz-the-public-process",
-        "moore-reclining-figure-no-5",
+        "cahen-nashi",
+        "kentridge-sibyl",
         "calder-little-janey-waney",
+        "heerup-granite-sculptures",
+        "moore-reclining-figure-no-5",
+        "serra-the-gate-in-the-gorge",
+        "trakas-self-passage",
+        "kusama-gleaming-lights-of-the-souls"
+      ]
+    },
+    "all": {
+      "title": "完整浏览：30件分两次，稳定锚点与轮换馆藏分开处理",
+      "note": "第一次按北翼—音乐厅—当代展区—雕塑公园走稳定或已确认节点；第二次只在到访前核实展厅后补看《森林》、波洛克、培根、乌雷、戈尔丁、阿勃丝、利希滕斯坦和克莱因等轮换或当前状态未知作品。以下顺序是编辑观看顺序，不是实时导航；实际位置随馆藏重组而变。戈尔丁单件约需24分钟，建议单独留出完整播放时间。",
+      "workIds": [
+        "giacometti-spoon-woman",
+        "giacometti-walking-woman-i",
+        "giacometti-grande-tete",
+        "giacometti-walking-man",
+        "dumas-mourning-marsyas",
+        "jorn-die-gedanken-sind-frei",
+        "jorn-ojets-blikstille",
+        "hockney-a-closer-grand-canyon",
+        "majerus-weisses-bild",
+        "ruscha-figure-it-on-out",
+        "cahen-nashi",
+        "kentridge-sibyl",
+        "el-anatsui-akua-surviving-children",
+        "kusama-gleaming-lights-of-the-souls",
+        "laurens-grande-femme-debout-a-la-draperie",
+        "calder-little-janey-waney",
+        "miro-personnage",
+        "heerup-granite-sculptures",
+        "moore-reclining-figure-no-5",
         "kirkeby-tor-ii",
-        "serra-gate-in-the-gorge",
-        "trakas-self-passage"
+        "serra-the-gate-in-the-gorge",
+        "trakas-self-passage",
+        "giacometti-la-foret",
+        "bacon-three-studies-of-george-dyer",
+        "pollock-black-over-yellow",
+        "klein-three-monochromes",
+        "lichtenstein-louisiana-painting-dorothy-sound",
+        "ulay-she",
+        "arbus-albino-sword-swallower-at-a-carnival",
+        "goldin-memory-lost"
       ]
     }
   },
@@ -109,63 +98,568 @@ museumData["louisiana"] = {
   "cardCopyContract": "independent-v1",
   "chapters": [
     {
-      "id": "from-denmark-to-international",
+      "id": "from-denmark-to-world",
       "number": 1,
-      "title": "一座从丹麦出发的博物馆，怎样突然把世界拉进来？",
-      "intro": "从 Heerup 的本土雕塑基础和 Jorn 的早晚期作品群出发，再接到 Pollock 与 Bacon，观察 Louisiana 的国际化并非均匀补齐艺术史，而是由艺术家关系、捐赠、基金支持与关键购藏逐步沉积成若干强节点。"
+      "title": "一家从丹麦出发的馆，怎样把自己接入战后世界？",
+      "intro": "从约恩这个本地—国际铰链出发，再看美国抽象、波普、欧洲单色绘画与洛杉矶图像文化如何进入馆藏。重点不是把姓名排成年表，而是看展览、捐赠和持续补藏如何建立一组跨国关系。"
     },
     {
-      "id": "giacometti-gallery-as-sequence",
+      "id": "giacometti-room-of-distance",
       "number": 2,
-      "title": "一个专厅，能否让你看见 Giacometti 的身体一步步改变？",
-      "intro": "不要把六件作品当作同一种瘦长人物的重复：从超现实主义阶段的观念化形体，经由行走、站立、头像和系列，再到《森林》用间距组织群体，专厅的价值正在于阶段与类型的连续比较；Dumas 的新作则提示轮换陈列如何重新改写这条长期主线。"
+      "title": "为什么贾科梅蒂在这里不是一件名作，而是一整个距离问题？",
+      "intro": "先由两件早期作品进入专室，再从头像、行走者与群像比较人物之间的尺度和间隔。培根与杜马斯把同一条人物线扩展到绘画，也提醒观众区分长期形成的核心组群与一次会变化的空间并置。"
     },
     {
-      "id": "images-scale-and-public-space",
+      "id": "camera-memory-identity",
       "number": 3,
-      "title": "消费图像、复制技术和巨幅画面，怎样占领公共空间？",
-      "intro": "Warhol 把商业视觉变成早期 Pop 的对象，Polke 让复制图像的可信度变得可疑；到了音乐厅，Hockney 与 Majerus 的巨幅作品又把景观、数字生产和青年文化带进一个同时承担公共活动的空间。这里要比较的不是名气，而是图像如何改变尺度、媒介与观看距离。"
+      "title": "当相机面对身份与记忆，单张照片还够不够？",
+      "intro": "从乌雷的三部分摄影和阿勃丝的单幅照片，走到戈尔丁约24分钟的数字幻灯片。三件作品让摄影从一个被凝固的形象，逐步变成关于身体、档案、时间与共同所有权的收藏问题。"
     },
     {
-      "id": "works-that-demand-time",
+      "id": "moving-images-new-materials",
       "number": 4,
-      "title": "当作品不再是一眼看完的物件，你愿意交出多少时间？",
-      "intro": "这一章从必须进入的镜面房间，转向需要连续播放、身体行动、多频道空间或长序列才能成立的作品。观看回报取决于你是否真正停留，因此路线应按播放状态和剩余精力取舍，不能把十件影像与装置压成打卡清单。"
+      "title": "轮换中的当代馆藏，怎样让影像和材料改变观看节奏？",
+      "intro": "卡亨与肯特里奇要求观众把时间交给放映，埃尔·阿纳祖伊的成组雕塑则把问题拉回材料、间距和展览并置。这里体现 Louisiana 自1990年代以来的媒介扩展，也最需要在到访前核对播放与展出状态。"
     },
     {
-      "id": "collection-rewrites-itself",
+      "id": "rooms-change-scale",
       "number": 5,
-      "title": "馆藏怎样用摄影、纸本与新绘画补写自己的缺口？",
-      "intro": "Louisiana 的收藏不是封闭仓库：历史摄影的购入、捐赠入藏的文字绘画、艺术家直接捐赠与基金支持的新绘画，都让旧有的欧美战后骨架继续变化。这里重点看取得机制如何改变叙事，同时避免把‘新入藏’自动等同于更高艺术等级。"
+      "title": "当房间改变尺度，绘画和装置会怎样包围观众？",
+      "intro": "音乐厅中两件长期大型绘画把峡谷景观与数字时代图像隔室相望；草间弥生则让观众直接进入由镜面、水池和灯光构成的空间。三件作品共同说明，Louisiana 的建筑条件并不是作品之外的漂亮背景。"
     },
     {
-      "id": "when-place-becomes-the-work",
+      "id": "park-as-medium",
       "number": 6,
-      "title": "风景何时只是背景，何时真正成为作品的条件？",
-      "intro": "从 Moore 借海峡获得变化背景、Calder 把天气带入活动结构，到 Serra 与 Trakas 让路径和地形直接参与作品，逐步区分‘精心安置’与‘场域特定’。Kirkeby 的门槛式体量则把雕塑、公园穿行和建筑经验接在一起。"
+      "title": "雕塑公园里，风景何时真正成为作品材料？",
+      "intro": "先比较现代雕塑在户外的体量、风与海景，再进入丹麦花岗岩组群和两件需要身体穿行的场域作品。真正的判断标准不是“放在海边更美”，而是位置、天气、路径或地形是否具体改变作品的成立方式。"
     }
   ],
   "works": [
     {
-      "id": "moore-reclining-figure-no-5",
-      "ch": "when-place-becomes-the-work",
-      "zh": "斜倚的人体第五号（西格拉姆）",
-      "en": "Reclining Figure No. 5 (Seagram)",
-      "by": "亨利·摩尔 / Henry Moore",
-      "date": "1963–1964",
-      "material": "雕塑",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
+      "id": "giacometti-walking-man",
+      "ch": "giacometti-room-of-distance",
+      "zh": "行走的人",
+      "en": "Walking Man",
+      "by": "阿尔贝托·贾科梅蒂 / Alberto Giacometti",
+      "date": "年代待对象级核实",
+      "material": "雕塑（具体材质待对象级核实）",
+      "place": "Louisiana Museum of Modern Art",
+      "tag": "绝对不可错过",
+      "significance": "重要藏品",
+      "availabilityTag": "",
+      "time": "8—10分钟",
+      "image": "./assets/louisiana/giacometti-walking-man.png",
+      "imageSource": "https://louisiana.dk/en/exhibition/giacometti-salen/",
+      "imageCaption": "行走的人 / Walking Man",
+      "imageKind": "object",
+      "source": "https://louisiana.dk/en/exhibition/giacometti-salen/",
+      "cardSummary": "这是阿尔贝托·贾科梅蒂创作于1960年的青铜雕塑。一个极度瘦长的人迈开腿，双臂垂下，脚却稳稳压在粗糙的底座上。乍看像一根会走路的火柴，细看才发现：身体虽然被压缩到几乎只剩线条，重量、方向和距离感反而格外强烈。",
+      "preciousWhy": "这是阿尔贝托·贾科梅蒂创作于1960年的青铜雕塑。一个极度瘦长的人迈开腿，双臂垂下，脚却稳稳压在粗糙的底座上。乍看像一根会走路的火柴，细看才发现：身体虽然被压缩到几乎只剩线条，重量、方向和距离感反而格外强烈。",
+      "sources": [
+        {
+          "title": "Giacometti Gallery",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://louisiana.dk/en/exhibition/giacometti-salen/"
+        },
+        {
+          "title": "Villa & North Wing",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://louisiana.dk/en/exhibition/villa-and-north-wing-2026/"
+        },
+        {
+          "title": "Kenneth Goldsmith: Please Do Not Touch",
+          "publisher": "Louisiana Channel, Louisiana Museum of Modern Art",
+          "url": "https://channel.louisiana.dk/video/kenneth-goldsmith-please-do-not-touch"
+        },
+        {
+          "title": "The Walking Man",
+          "publisher": "Fondation Giacometti",
+          "url": "https://www.fondation-giacometti.fr/download/pdf/136/press-release-the-walking-man"
+        },
+        {
+          "title": "Alberto Giacometti, L'Homme qui marche",
+          "publisher": "Fondation Maeght",
+          "url": "https://www.fondation-maeght.com/alberto-giacometti-homme-qui-marche-1960/"
+        }
+      ]
+    },
+    {
+      "id": "giacometti-spoon-woman",
+      "ch": "giacometti-room-of-distance",
+      "zh": "匙形女人",
+      "en": "Spoon Woman",
+      "by": "阿尔贝托·贾科梅蒂 / Alberto Giacometti",
+      "date": "1927",
+      "material": "雕塑（具体材质待对象级核实）",
+      "place": "Louisiana Museum of Modern Art",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "",
+      "time": "5—7分钟",
+      "image": "./assets/louisiana/giacometti-spoon-woman.jpg",
+      "imageSource": "https://art.icity.ly/museums/w5o4oo5",
+      "imageCaption": "匙形女人 / Spoon Woman",
+      "imageKind": "object",
+      "source": "https://louisiana.dk/en/exhibition/giacometti-salen/",
+      "cardSummary": "这是一件1927年的阿尔贝托·贾科梅蒂雕塑。它不像传统雕像那样努力把一个女人“雕得像”，而是把身体压缩成一件近乎图腾的立式形象：小小的头部、窄窄的肩胸、向前鼓出的腹部，以及两条极细却站得很稳的腿。最值得先看的，是腹部那个宽大的凹面——它既像勺子的碗，也像一个身体内部的空间。贾科梅蒂由此把“女人”和“器物”叠在了一起：一个人可以同时像生命、容器，也像从远古遗留下来的仪式物。",
+      "preciousWhy": "这是一件1927年的阿尔贝托·贾科梅蒂雕塑。它不像传统雕像那样努力把一个女人“雕得像”，而是把身体压缩成一件近乎图腾的立式形象：小小的头部、窄窄的肩胸、向前鼓出的腹部，以及两条极细却站得很稳的腿。最值得先看的，是腹部那个宽大的凹面——它既像勺子的碗，也像一个身体内部的空间。贾科梅蒂由此把“女人”和“器物”叠在了一起：一个人可以同时像生命、容器，也像从远古遗留下来的仪式物。",
+      "sources": [
+        {
+          "title": "Giacometti Gallery",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://louisiana.dk/en/exhibition/giacometti-salen/"
+        },
+        {
+          "title": "Spoon Woman",
+          "publisher": "Fondation Giacometti",
+          "url": "https://www.fondation-giacometti.fr/en/database/161069/spoon-woman"
+        },
+        {
+          "title": "Spoon Woman (Femme cuillère), 1927",
+          "publisher": "Guggenheim Museum Bilbao",
+          "url": "https://www.guggenheim-bilbao.eus/en/learn/schools/teachers-guides/spoon-woman-femme-cuillere-1927"
+        },
+        {
+          "title": "1880–1950: Works from the Collection — Spoon Woman",
+          "publisher": "The Museum of Modern Art",
+          "url": "https://www.moma.org/audio/playlist/296/4787"
+        },
+        {
+          "title": "Avant-Garde",
+          "publisher": "Giacometti-Stiftung",
+          "url": "https://www.giacometti-stiftung.ch/en/alberto-giacometti/creative-phases/avant-garde/"
+        }
+      ]
+    },
+    {
+      "id": "giacometti-walking-woman-i",
+      "ch": "giacometti-room-of-distance",
+      "zh": "行走的女人 I",
+      "en": "Femme qui marche I",
+      "by": "阿尔贝托·贾科梅蒂 / Alberto Giacometti",
+      "date": "1932–1936",
+      "material": "雕塑（具体材质待对象级核实）",
+      "place": "Louisiana Museum of Modern Art",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "",
+      "time": "5—7分钟",
+      "image": "./assets/louisiana/giacometti-walking-woman-i.jpg",
+      "imageSource": "https://louisiana.dk/en/exhibition/giacometti-salen/",
+      "imageCaption": "行走的女人 I / Femme qui marche I",
+      "imageKind": "object",
+      "source": "https://louisiana.dk/en/exhibition/giacometti-salen/",
+      "cardSummary": "这是阿尔贝托·贾科梅蒂创作于1932—1936年的雕塑。它最值得看的地方，是把“行走”压缩成一个极小却有力的暗示：一只脚略微向前，身体保持正面，头部和双臂却被省略。她似乎正要迈步，又像被时间钉在原地。",
+      "preciousWhy": "这是阿尔贝托·贾科梅蒂创作于1932—1936年的雕塑。它最值得看的地方，是把“行走”压缩成一个极小却有力的暗示：一只脚略微向前，身体保持正面，头部和双臂却被省略。她似乎正要迈步，又像被时间钉在原地。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "UNSUPPORTED_HIGH_RISK_CLAIM",
+            "message": "Strong factual claim lacks a valid source record",
+            "matches": [
+              "她没有告诉我们要去哪里，却把“继续向前”变成了唯一清晰的动作"
+            ],
+            "severity": "error"
+          },
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Giacometti Gallery",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://louisiana.dk/en/exhibition/giacometti-salen/"
+        },
+        {
+          "title": "La Femme qui marche",
+          "publisher": "Fondation Giacometti",
+          "url": "https://www.fondation-giacometti.fr/fr/article/384/la-femme-qui-marche"
+        },
+        {
+          "title": "Walking Woman [I]",
+          "publisher": "Fondation Giacometti",
+          "url": "https://www.fondation-giacometti.fr/en/database/161073/walking-woman-i"
+        },
+        {
+          "title": "Louisiana Museum of Modern Art Annual Report 2024",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://louisiana.dk/wp-content/uploads/2025/05/Louisiana-Museum-Aarsrapport-2024.pdf"
+        }
+      ]
+    },
+    {
+      "id": "giacometti-grande-tete",
+      "ch": "giacometti-room-of-distance",
+      "zh": "大头像",
+      "en": "Grande tête",
+      "by": "阿尔贝托·贾科梅蒂 / Alberto Giacometti",
+      "date": "1959–1960",
+      "material": "雕塑（具体材质待对象级核实）",
+      "place": "Louisiana Museum of Modern Art",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "",
+      "time": "5—7分钟",
+      "image": "./assets/louisiana/giacometti-grande-tete.jpg",
+      "imageSource": "https://louisiana.dk/en/exhibition/giacometti-salen/",
+      "imageCaption": "大头像 / Grande tête",
+      "imageKind": "object",
+      "source": "https://louisiana.dk/en/exhibition/giacometti-salen/",
+      "cardSummary": "这是阿尔贝托·贾科梅蒂在1959—1960年前后创作的青铜雕塑，也是 Louisiana 路易斯安那现代艺术博物馆贾科梅蒂展厅中的重要作品。它看起来像一颗被拉长的头：没有完整肩膀，脖颈细长，脸部以侧面迎向空间。先别急着把它当作一尊普通肖像；这里真正值得看的，是一个人的头部如何变成空间里的“存在”。请留意三点：脸部并不平滑，像被反复修改过；脖子把头从身体中抽离出来；它与白砖墙、木格栅和地面线条共同构成了一种孤独而庄严的秩序。",
+      "preciousWhy": "这是阿尔贝托·贾科梅蒂在1959—1960年前后创作的青铜雕塑，也是 Louisiana 路易斯安那现代艺术博物馆贾科梅蒂展厅中的重要作品。它看起来像一颗被拉长的头：没有完整肩膀，脖颈细长，脸部以侧面迎向空间。先别急着把它当作一尊普通肖像；这里真正值得看的，是一个人的头部如何变成空间里的“存在”。请留意三点：脸部并不平滑，像被反复修改过；脖子把头从身体中抽离出来；它与白砖墙、木格栅和地面线条共同构成了一种孤独而庄严的秩序。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Giacometti Gallery",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://louisiana.dk/en/exhibition/giacometti-salen/"
+        },
+        {
+          "title": "Bourgeois x Giacometti",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://louisiana.dk/en/exhibition/bourgeois-x-giacometti/"
+        },
+        {
+          "title": "Orden CUD/317/2019: garantía del Estado para la exposición Alberto Giacometti en el Museo Nacional del Prado",
+          "publisher": "Boletín Oficial del Estado, Gobierno de España",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-4070"
+        },
+        {
+          "title": "Le temps de Giacometti (1946–1966), dossier de presse",
+          "publisher": "Fondation Giacometti",
+          "url": "https://www.fondation-giacometti.fr/download/pdf/248/dossier-de-presse-le-temps-de-giacometti-1946-1966"
+        },
+        {
+          "title": "Alberto Giacometti, Grande tête 1960",
+          "publisher": "Fondation Maeght",
+          "url": "https://www.fondation-maeght.com/alberto-giacometti-grande-tete-1960/"
+        }
+      ]
+    },
+    {
+      "id": "giacometti-la-foret",
+      "ch": "giacometti-room-of-distance",
+      "zh": "森林",
+      "en": "La Forêt",
+      "by": "阿尔贝托·贾科梅蒂 / Alberto Giacometti",
+      "date": "1950",
+      "material": "雕塑群（具体材质待对象级核实）",
+      "place": "Louisiana Museum of Modern Art",
       "tag": "绝对不可错过",
       "significance": "重要藏品",
       "availabilityTag": "不确定是否展出",
       "time": "8—10分钟",
-      "image": "./assets/louisiana/moore-reclining-figure-no-5.jpg",
-      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/5/50/Louisiana_Museum_%2832962881804%29_%282%29.jpg",
-      "imageCaption": "斜倚的人体第五号（西格拉姆） / Reclining Figure No. 5 (Seagram)",
+      "image": "./assets/louisiana/giacometti-la-foret.jpg",
+      "imageSource": "https://louisiana.dk/en/exhibition/giacometti-salen/",
+      "imageCaption": "森林 / La Forêt",
+      "imageKind": "object",
+      "source": "https://louisiana.dk/en/exhibition/giacometti-salen/",
+      "cardSummary": "阿尔贝托·贾科梅蒂的《森林》创作于1950年。它看起来像一小片长在平台上的树林，但仔细数一数，会发现这是七个细长的人形和一个从地面冒出的头像。贾科梅蒂把“树”和“人”放进同一种形状语言里：直立、僵硬、扎根；又把“头像”和“岩石”联系起来。于是，这不是一幅森林风景，而是一座由身体组成的风景。",
+      "preciousWhy": "阿尔贝托·贾科梅蒂的《森林》创作于1950年。它看起来像一小片长在平台上的树林，但仔细数一数，会发现这是七个细长的人形和一个从地面冒出的头像。贾科梅蒂把“树”和“人”放进同一种形状语言里：直立、僵硬、扎根；又把“头像”和“岩石”联系起来。于是，这不是一幅森林风景，而是一座由身体组成的风景。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Giacometti Gallery",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://louisiana.dk/en/exhibition/giacometti-salen/"
+        },
+        {
+          "title": "Alberto Giacometti — Un arbre comme une femme, une pierre comme une tête（展览手册）",
+          "publisher": "Fondation Alberto et Annette Giacometti",
+          "url": "https://www.fondation-giacometti.fr/download/pdf/179/livret-de-lexposition-alberto-giacometti-un-arbre-comme-une-femme-une-pierre-comme-une-tete"
+        },
+        {
+          "title": "La Forêt — Alberto Giacometti Database",
+          "publisher": "Fondation Alberto et Annette Giacometti",
+          "url": "https://www.fondation-giacometti.fr/fr/database/163713/la-foret"
+        },
+        {
+          "title": "The Collection",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://louisiana.dk/en/museum/collection/"
+        },
+        {
+          "title": "The Forest (Composition with Seven Figures and a Head)",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/art/collection/search/490186"
+        }
+      ]
+    },
+    {
+      "id": "kusama-gleaming-lights-of-the-souls",
+      "ch": "rooms-change-scale",
+      "zh": "灵魂闪耀之光",
+      "en": "Gleaming Lights of the Souls",
+      "by": "草间弥生 / Yayoi Kusama",
+      "date": "2008",
+      "material": "镜面、反射水池、平台、百盏变色灯构成的房间装置",
+      "place": "Louisiana Museum of Modern Art",
+      "tag": "绝对不可错过",
+      "significance": "重要藏品",
+      "availabilityTag": "",
+      "time": "8—12分钟",
+      "image": "./assets/louisiana/kusama-gleaming-lights-of-the-souls.jpg",
+      "imageSource": "https://louisiana.dk/en/exhibition/kusama-installation/",
+      "imageCaption": "灵魂闪耀之光 / Gleaming Lights of the Souls",
+      "imageKind": "object",
+      "source": "https://louisiana.dk/en/exhibition/kusama-installation/",
+      "cardSummary": "这不是一件挂在墙上的作品，而是一间可以走进去的房间。草间弥生在2008年用镜面、反射水池、平台和一百盏会变色的灯，把一个约四乘四米的有限空间变成仿佛没有尽头的光之宇宙。站在中央平台上，灯光被墙面、天花板和水面反复复制，向四面八方延伸；你甚至会发现，自己的身体也成了这个无限图案的一部分。",
+      "preciousWhy": "这不是一件挂在墙上的作品，而是一间可以走进去的房间。草间弥生在2008年用镜面、反射水池、平台和一百盏会变色的灯，把一个约四乘四米的有限空间变成仿佛没有尽头的光之宇宙。站在中央平台上，灯光被墙面、天花板和水面反复复制，向四面八方延伸；你甚至会发现，自己的身体也成了这个无限图案的一部分。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Kusama installation",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://louisiana.dk/en/exhibition/kusama-installation/"
+        },
+        {
+          "title": "LOUISIANA MUSEUM OF MODERN ART ERHVERVELSER 2009–2",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://louisiana-web-prod.s3-eu-west-1.amazonaws.com/s3fs-public/09-11_dk_low_0.pdf"
+        },
+        {
+          "title": "Louisiana Museum of Modern Art",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://louisiana.dk/en/"
+        },
+        {
+          "title": "Samlingen",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://louisiana.dk/museet/samlingen/"
+        },
+        {
+          "title": "Infinity Mirrored Room – A Wish for Human Happiness Calling from Beyond the Universe",
+          "publisher": "Guggenheim Museum Bilbao",
+          "url": "https://www.guggenheim-bilbao.eus/en/the-collection/works/infinity-mirrored-room-a-wish-for-human-happiness-calling-from-beyond-the-universe"
+        }
+      ]
+    },
+    {
+      "id": "jorn-die-gedanken-sind-frei",
+      "ch": "from-denmark-to-world",
+      "zh": "思想是自由的",
+      "en": "Die Gedanken sind frei",
+      "by": "阿斯格·约恩 / Asger Jorn",
+      "date": "1970–1971",
+      "material": "绘画（具体材料待对象级核实）",
+      "place": "Louisiana Museum of Modern Art",
+      "tag": "绝对不可错过",
+      "significance": "重要藏品",
+      "availabilityTag": "",
+      "time": "7—9分钟",
+      "image": "./assets/louisiana/jorn-die-gedanken-sind-frei.jpg",
+      "imageSource": "https://louisiana.dk/en/exhibition/jorn-rummet-2026/",
+      "imageCaption": "思想是自由的 / Die Gedanken sind frei",
+      "imageKind": "object",
+      "source": "https://louisiana.dk/en/exhibition/jorn-rummet-2026/",
+      "cardSummary": "这是阿斯格·约恩创作于1970—1971年的绘画。它值得看的地方，不是画里藏着某个等待破解的“正确形象”，而是约恩怎样让颜色、笔触和模糊的形体彼此争夺空间：画面像风景，又像生物；像一群正在聚拢的人，又始终拒绝被命名。",
+      "preciousWhy": "这是阿斯格·约恩创作于1970—1971年的绘画。它值得看的地方，不是画里藏着某个等待破解的“正确形象”，而是约恩怎样让颜色、笔触和模糊的形体彼此争夺空间：画面像风景，又像生物；像一群正在聚拢的人，又始终拒绝被命名。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要",
+              "经典"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Jorn Gallery",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://louisiana.dk/en/exhibition/jorn-rummet-2026/"
+        },
+        {
+          "title": "About Asger Jorn",
+          "publisher": "Museum Jorn",
+          "url": "https://museumjorn.dk/en/about-asger-jorn/"
+        },
+        {
+          "title": "Louisiana Museum of Modern Art Annual Report 2023",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://louisiana.dk/wp-content/uploads/2024/06/Louisiana-Museum-Aarsrapport-2023-underskrevet-digitalt.pdf"
+        },
+        {
+          "title": "Hymne des Widerstands: Die Gedanken sind frei",
+          "publisher": "Bayerischer Rundfunk BR-KLASSIK",
+          "url": "https://www.br-klassik.de/programm/sendungen-a-z/mittagsmusik/mittagsmusik-extra-volkslieder-198.html"
+        }
+      ]
+    },
+    {
+      "id": "jorn-ojets-blikstille",
+      "ch": "from-denmark-to-world",
+      "zh": "眼睛的凝视",
+      "en": "Øjets blikstille",
+      "by": "阿斯格·约恩 / Asger Jorn",
+      "date": "1971",
+      "material": "绘画（具体材料待对象级核实）",
+      "place": "Louisiana Museum of Modern Art",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "",
+      "time": "5—7分钟",
+      "image": "./assets/louisiana/jorn-ojets-blikstille.jpg",
+      "imageSource": "https://louisiana.dk/en/exhibition/jorn-rummet-2026/",
+      "imageCaption": "眼睛的凝视 / Øjets blikstille",
+      "imageKind": "object",
+      "source": "https://louisiana.dk/en/exhibition/jorn-rummet-2026/",
+      "cardSummary": "阿斯格·约恩的《眼睛的凝视》是一幅1971年的油画，画在画布上，尺寸为116×89厘米。它值得看的地方，不是你能不能给画面找出一个准确故事，而是它怎样让“看”本身变得不稳定：画面上方中央，一张棕褐色、像老化面具的脸似乎停住了；四周的绿、黄、红、蓝却像植物、身体和风暴同时生长。站到画前，先别急着认图。找一块相对静止的“眼”，再顺着油彩的斜向运动看出去，你会发现，这幅画其实在同时制造凝视与骚动。",
+      "preciousWhy": "阿斯格·约恩的《眼睛的凝视》是一幅1971年的油画，画在画布上，尺寸为116×89厘米。它值得看的地方，不是你能不能给画面找出一个准确故事，而是它怎样让“看”本身变得不稳定：画面上方中央，一张棕褐色、像老化面具的脸似乎停住了；四周的绿、黄、红、蓝却像植物、身体和风暴同时生长。站到画前，先别急着认图。找一块相对静止的“眼”，再顺着油彩的斜向运动看出去，你会发现，这幅画其实在同时制造凝视与骚动。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Jorn Gallery",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://louisiana.dk/en/exhibition/jorn-rummet-2026/"
+        },
+        {
+          "title": "Asger Jorn and Louisiana’s Collection",
+          "publisher": "Louisiana Museum of Modern Art / Louisiana Learning",
+          "url": "https://louisiana.dk/wp-content/uploads/2020/10/Asger-Jorn-og-Samlingen_Louisiana-Learning_laerervejledning.pdf"
+        }
+      ]
+    },
+    {
+      "id": "laurens-grande-femme-debout-a-la-draperie",
+      "ch": "park-as-medium",
+      "zh": "披帷幔的高大立女",
+      "en": "Grande femme debout à la draperie",
+      "by": "亨利·洛朗 / Henri Laurens",
+      "date": "1928",
+      "material": "户外雕塑（具体材质待对象级核实）",
+      "place": "Louisiana Museum of Modern Art",
+      "tag": "时间充裕再看",
+      "significance": "特色看点",
+      "availabilityTag": "",
+      "time": "4—6分钟",
+      "image": "./assets/louisiana/laurens-grande-femme-debout-a-la-draperie.gif",
+      "imageSource": "https://www.ny-carlsbergfondet.dk/da/grande-femme-debout-la-draperie",
+      "imageCaption": "披帷幔的高大立女 / Grande femme debout à la draperie",
       "imageKind": "object",
       "source": "https://guide.louisiana.dk/en/skulpturparken/",
-      "cardSummary": "这是英国雕塑家亨利·摩尔创作于1963—1964年的青铜雕塑，现由路易斯安那现代艺术博物馆列入雕塑公园导览。它描绘的不是一个完整、连续的人体，而是被拆成两块的斜倚女性形象：一侧像竖起的头部与躯干，另一侧像弯曲、叠压的双腿。真正值得看的，是两块之间的空隙——海水、天空和远处的地平线从这里穿过，仿佛风景也成为身体的一部分。先别急着猜它到底像哪一块骨头；先看它怎样同时占据水平与垂直两个方向。",
-      "preciousWhy": "这是英国雕塑家亨利·摩尔创作于1963—1964年的青铜雕塑，现由路易斯安那现代艺术博物馆列入雕塑公园导览。它描绘的不是一个完整、连续的人体，而是被拆成两块的斜倚女性形象：一侧像竖起的头部与躯干，另一侧像弯曲、叠压的双腿。真正值得看的，是两块之间的空隙——海水、天空和远处的地平线从这里穿过，仿佛风景也成为身体的一部分。先别急着猜它到底像哪一块骨头；先看它怎样同时占据水平与垂直两个方向。",
+      "cardSummary": "这是法国雕塑家亨利·洛朗在1928年创作的一件青铜雕塑，高225厘米，现置于 Louisiana 的雕塑公园中。她看起来像一个站立的裸体女性：长发遮住半边脸，双手握着一块从背部垂下、一直绕到脚踝的布料。真正值得看的，不只是“一个女人披着布”，而是洛朗如何把古典雕塑的站姿改造成现代的身体：她保留了传统的重心转移，却把比例拉长，把细节压缩，让身体和帷幔变成几组清楚、沉静的形体。",
+      "preciousWhy": "这是法国雕塑家亨利·洛朗在1928年创作的一件青铜雕塑，高225厘米，现置于 Louisiana 的雕塑公园中。她看起来像一个站立的裸体女性：长发遮住半边脸，双手握着一块从背部垂下、一直绕到脚踝的布料。真正值得看的，不只是“一个女人披着布”，而是洛朗如何把古典雕塑的站姿改造成现代的身体：她保留了传统的重心转移，却把比例拉长，把细节压缩，让身体和帷幔变成几组清楚、沉静的形体。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要",
+              "经典"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Sculpture Park | Louisiana Guide",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://guide.louisiana.dk/en/skulpturparken/"
+        },
+        {
+          "title": "Grande femme debout à la draperie",
+          "publisher": "Ny Carlsbergfondet",
+          "url": "https://www.ny-carlsbergfondet.dk/da/grande-femme-debout-la-draperie"
+        },
+        {
+          "title": "Skulpturparken: Louisianas samling",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://louisiana.dk/wp-content/uploads/2021/11/skulptur_gym_hf_1-2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "moore-reclining-figure-no-5",
+      "ch": "park-as-medium",
+      "zh": "斜倚的人体第5号",
+      "en": "Reclining Figure No. 5",
+      "by": "亨利·摩尔 / Henry Moore",
+      "date": "1963–1964",
+      "material": "户外雕塑（具体材质待对象级核实）",
+      "place": "Louisiana Museum of Modern Art",
+      "tag": "绝对不可错过",
+      "significance": "重要藏品",
+      "availabilityTag": "",
+      "time": "7—10分钟",
+      "image": "./assets/louisiana/moore-reclining-figure-no-5.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Louisiana_Museum_(32962881804)_(2).jpg",
+      "imageCaption": "斜倚的人体第5号 / Reclining Figure No. 5",
+      "imageKind": "object",
+      "source": "https://guide.louisiana.dk/en/skulpturparken/",
+      "cardSummary": "这是英国雕塑家亨利·摩尔创作于1963—1964年的户外青铜雕塑，高约2.5米、长约3.86米。它乍看像一个被拆成两块的躺卧人体：左边较直的部分可以读作头部和躯干，右边低伏、弯曲的部分像腿和臀部。真正值得先看的，却不是“它像不像人”，而是两块之间那道巨大的空隙。空隙把人体拆开，也把海面、天空和远处的地平线请了进来。摩尔的身体因此不再只是一个独立物件，而像一段与地形相连的岸线。站在作品前，先看整体，再绕到侧面；你会发现，雕塑的形状并不只存在于青铜表面，也存在于它围出的空气里。",
+      "preciousWhy": "这是英国雕塑家亨利·摩尔创作于1963—1964年的户外青铜雕塑，高约2.5米、长约3.86米。它乍看像一个被拆成两块的躺卧人体：左边较直的部分可以读作头部和躯干，右边低伏、弯曲的部分像腿和臀部。真正值得先看的，却不是“它像不像人”，而是两块之间那道巨大的空隙。空隙把人体拆开，也把海面、天空和远处的地平线请了进来。摩尔的身体因此不再只是一个独立物件，而像一段与地形相连的岸线。站在作品前，先看整体，再绕到侧面；你会发现，雕塑的形状并不只存在于青铜表面，也存在于它围出的空气里。",
       "contentWarning": {
         "title": "内容尚未通过完整校验",
         "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
@@ -187,13 +681,13 @@ museumData["louisiana"] = {
           "url": "https://guide.louisiana.dk/en/skulpturparken/"
         },
         {
-          "title": "Skulpturparken: Louisianas samling",
+          "title": "Skab det nye sammen",
           "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/wp-content/uploads/2021/11/skulptur_gym_hf_1-2.pdf"
+          "url": "https://louisiana.dk/wp-content/uploads/2023/04/Skab-det-nye-sammen_elevhaefte.pdf"
         },
         {
           "title": "When Art Is an Icon for a Place: Henry Moore",
-          "publisher": "KUNSTEDER.DK / Louisiana Museum of Modern Art",
+          "publisher": "Louisiana Museum of Modern Art / Artsites",
           "url": "https://www.kunsteder.dk/en/cases/when-art-is-an-icon-for-a-place"
         },
         {
@@ -204,25 +698,25 @@ museumData["louisiana"] = {
       ]
     },
     {
-      "id": "serra-gate-in-the-gorge",
-      "ch": "when-place-becomes-the-work",
+      "id": "serra-the-gate-in-the-gorge",
+      "ch": "park-as-medium",
       "zh": "峡谷之门",
       "en": "The Gate in the Gorge",
       "by": "理查德·塞拉 / Richard Serra",
       "date": "1983–1986",
-      "material": "场域雕塑",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
+      "material": "两块钢板构成的场域雕塑",
+      "place": "Louisiana Museum of Modern Art",
       "tag": "绝对不可错过",
       "significance": "重要藏品",
       "availabilityTag": "",
       "time": "10—12分钟",
-      "image": "./assets/louisiana/serra-gate-in-the-gorge.jpg",
-      "imageSource": "https://www.kunsteder.dk/sites/default/files/richard_serra_tommyverting.jpg",
+      "image": "./assets/louisiana/serra-the-gate-in-the-gorge.jpg",
+      "imageSource": "https://www.kunsteder.dk/en/cases/when-art-gets-in-the-way",
       "imageCaption": "峡谷之门 / The Gate in the Gorge",
       "imageKind": "object",
       "source": "https://guide.louisiana.dk/en/skulpturparken/",
-      "cardSummary": "理查德·塞拉的《峡谷之门》不是一扇等待你推开的门，而是两块插入地形的巨大耐候钢板。作品创作于1983—1986年，位于路易斯安那现代艺术博物馆的户外雕塑公园。它最值得看的地方，不只是钢板有多大，而是它会随着你的移动改变形状：站在桥上，两块板仿佛合成一道封闭的墙；沿着坡道往下走，墙面逐渐张开，峡谷、草地和海的景色重新出现。这里，雕塑不再是摆在风景里的物件，而是让风景发生变化的一道“机关”。",
-      "preciousWhy": "理查德·塞拉的《峡谷之门》不是一扇等待你推开的门，而是两块插入地形的巨大耐候钢板。作品创作于1983—1986年，位于路易斯安那现代艺术博物馆的户外雕塑公园。它最值得看的地方，不只是钢板有多大，而是它会随着你的移动改变形状：站在桥上，两块板仿佛合成一道封闭的墙；沿着坡道往下走，墙面逐渐张开，峡谷、草地和海的景色重新出现。这里，雕塑不再是摆在风景里的物件，而是让风景发生变化的一道“机关”。",
+      "cardSummary": "这不是摆在草坪上的一件钢雕，而是把一条下坡路“改写”成观看装置的场域雕塑。理查德·塞拉在路易斯安那现代艺术博物馆的峡谷里放置两块巨大的耐候钢板，板与板之间留出可穿行的折线缝隙。站在不同位置，它们时而像一堵墙，时而像一扇打开的门；你走动，风景也跟着开合。先别急着把它看成抽象几何：注意钢板如何挡住、切开，又重新安排通往草地、海面和桥的视线。作品的主角不只是钢，也包括你的身体、脚下的坡和被重新分段的景色。",
+      "preciousWhy": "这不是摆在草坪上的一件钢雕，而是把一条下坡路“改写”成观看装置的场域雕塑。理查德·塞拉在路易斯安那现代艺术博物馆的峡谷里放置两块巨大的耐候钢板，板与板之间留出可穿行的折线缝隙。站在不同位置，它们时而像一堵墙，时而像一扇打开的门；你走动，风景也跟着开合。先别急着把它看成抽象几何：注意钢板如何挡住、切开，又重新安排通往草地、海面和桥的视线。作品的主角不只是钢，也包括你的身体、脚下的坡和被重新分段的景色。",
       "contentWarning": {
         "title": "内容尚未通过完整校验",
         "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
@@ -239,14 +733,14 @@ museumData["louisiana"] = {
       },
       "sources": [
         {
-          "title": "The Sculpture Park",
+          "title": "Sculpture Park | Louisiana Guide",
           "publisher": "Louisiana Museum of Modern Art",
           "url": "https://guide.louisiana.dk/en/skulpturparken/"
         },
         {
-          "title": "Sculpture Park | Louisiana Guide",
+          "title": "The Sculpture Park",
           "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://guide.louisiana.dk/category/skulpturparken/"
+          "url": "https://louisiana.dk/en/museum/park/"
         },
         {
           "title": "Richard Serra: On ‘Porten i slugten’",
@@ -254,40 +748,49 @@ museumData["louisiana"] = {
           "url": "https://channel.louisiana.dk/video/richard-serra-porten-i-slugten"
         },
         {
-          "title": "When Art Gets in the Way",
-          "publisher": "KUNSTEDER.DK",
-          "url": "https://www.kunsteder.dk/en/cases/when-art-gets-in-the-way"
-        },
-        {
-          "title": "Richard Serra",
-          "publisher": "Whitney Museum of American Art",
-          "url": "https://whitney.org/artists/1202"
+          "title": "Skulpturparken på Louisiana",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://louisiana.dk/wp-content/uploads/2021/11/skulptur_gym_hf_1-2.pdf"
         }
       ]
     },
     {
       "id": "calder-little-janey-waney",
-      "ch": "when-place-becomes-the-work",
+      "ch": "park-as-medium",
       "zh": "小珍妮-韦妮",
       "en": "Little Janey-Waney",
       "by": "亚历山大·考尔德 / Alexander Calder",
       "date": "1964–1976",
-      "material": "雕塑",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
+      "material": "户外动态雕塑（具体材质待对象级核实）",
+      "place": "Louisiana Museum of Modern Art",
       "tag": "强烈推荐",
       "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "5—7分钟",
+      "availabilityTag": "",
+      "time": "5—8分钟",
       "image": "./assets/louisiana/calder-little-janey-waney.jpg",
-      "imageSource": "https://calder.org/wp-content/uploads/2020/11/Little-Janey-Waney-1976-scaled.jpg",
+      "imageSource": "https://calder.org/works/monumental-sculpture/little-janey-waney-1976/",
       "imageCaption": "小珍妮-韦妮 / Little Janey-Waney",
       "imageKind": "object",
       "source": "https://guide.louisiana.dk/en/skulpturparken/",
-      "cardSummary": "这不是一件只负责“站着”的红色雕塑。亚历山大·考尔德的《小珍妮-韦妮》是一件站立式活动雕塑：红色金属结构固定在草地上，顶部却伸出一根黑色横杆，连接着白色圆片以及蓝、黄色的轻薄形体。风一来，它们会各自晃动，作品的轮廓也随之改变。",
-      "preciousWhy": "这不是一件只负责“站着”的红色雕塑。亚历山大·考尔德的《小珍妮-韦妮》是一件站立式活动雕塑：红色金属结构固定在草地上，顶部却伸出一根黑色横杆，连接着白色圆片以及蓝、黄色的轻薄形体。风一来，它们会各自晃动，作品的轮廓也随之改变。",
+      "cardSummary": "亚历山大·考尔德的《小珍妮-韦妮》是一件户外“立式活动雕塑”：底部像一只张开的红色三脚架，稳稳站在草地上；上方却悬着杆、金属丝和彩色薄片，风一来，它们便轻轻转动、摇摆。考尔德没有把雕塑做成一个永远不变的轮廓，而是给它安排了一套持续变化的动作。",
+      "preciousWhy": "亚历山大·考尔德的《小珍妮-韦妮》是一件户外“立式活动雕塑”：底部像一只张开的红色三脚架，稳稳站在草地上；上方却悬着杆、金属丝和彩色薄片，风一来，它们便轻轻转动、摇摆。考尔德没有把雕塑做成一个永远不变的轮廓，而是给它安排了一套持续变化的动作。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
       "sources": [
         {
-          "title": "Sculpture Park | Louisiana Guide",
+          "title": "Sculpture Park",
           "publisher": "Louisiana Museum of Modern Art",
           "url": "https://guide.louisiana.dk/en/skulpturparken/"
         },
@@ -302,37 +805,65 @@ museumData["louisiana"] = {
           "url": "https://calder.org/timeline/1963-1976/"
         },
         {
-          "title": "Calder Around the World",
-          "publisher": "Calder Foundation",
-          "url": "https://calder.org/calder-around-the-world/"
+          "title": "Alexander Calder, Spider, 1939",
+          "publisher": "Museum of Modern Art",
+          "url": "https://www.moma.org/collection/works/81431"
+        }
+      ]
+    },
+    {
+      "id": "miro-personnage",
+      "ch": "park-as-medium",
+      "zh": "人物",
+      "en": "Personnage",
+      "by": "胡安·米罗 / Joan Miró",
+      "date": "1970",
+      "material": "户外雕塑（具体材质待对象级核实）",
+      "place": "Louisiana Museum of Modern Art",
+      "tag": "时间充裕再看",
+      "significance": "特色看点",
+      "availabilityTag": "",
+      "time": "4—6分钟",
+      "image": "./assets/louisiana/miro-personnage.jpg",
+      "imageSource": "https://www.flickr.com/photos/50879678%40N03/51948971292/",
+      "imageCaption": "人物 / Personnage",
+      "imageKind": "object",
+      "source": "https://guide.louisiana.dk/en/skulpturparken/",
+      "cardSummary": "这是一件胡安·米罗1970年创作的户外青铜雕塑。它没有具体姓名，也不像传统雕像那样讲述某位英雄或历史人物；它更像一个从米罗画布里跳出来、正在努力学会站立的奇异生物。先看它的比例：椭圆形的大脑袋几乎压过身体，两只眼睛一大一小，手臂短而向外伸，双腿则像两片不太安分的叶子。米罗把“人物”简化成几条线、几个圆面和一个摇摇欲坠的身体，却仍然让我们一眼认出它是一个有脸、有姿态、正在与观看者打招呼的存在。最值得看的，正是这种转变：原本属于绘画的符号，怎样获得了重量、厚度和占据空气的能力。",
+      "preciousWhy": "这是一件胡安·米罗1970年创作的户外青铜雕塑。它没有具体姓名，也不像传统雕像那样讲述某位英雄或历史人物；它更像一个从米罗画布里跳出来、正在努力学会站立的奇异生物。先看它的比例：椭圆形的大脑袋几乎压过身体，两只眼睛一大一小，手臂短而向外伸，双腿则像两片不太安分的叶子。米罗把“人物”简化成几条线、几个圆面和一个摇摇欲坠的身体，却仍然让我们一眼认出它是一个有脸、有姿态、正在与观看者打招呼的存在。最值得看的，正是这种转变：原本属于绘画的符号，怎样获得了重量、厚度和占据空气的能力。",
+      "sources": [
+        {
+          "title": "Sculpture Park | Louisiana Guide",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://guide.louisiana.dk/en/skulpturparken/"
         },
         {
-          "title": "Alexander Calder",
-          "publisher": "National Gallery of Art",
-          "url": "https://www.nga.gov/artists/2047-alexander-calder"
+          "title": "Skulpturparken på Louisiana",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://louisiana.dk/wp-content/uploads/2021/11/skulptur_gym_hf_1-2.pdf"
         }
       ]
     },
     {
       "id": "heerup-granite-sculptures",
-      "ch": "from-denmark-to-international",
-      "zh": "花岗岩雕塑组",
+      "ch": "park-as-medium",
+      "zh": "花岗岩雕塑群",
       "en": "Granite sculptures",
-      "by": "亨利·赫鲁普 / Henry Heerup",
+      "by": "亨利·海鲁普 / Henry Heerup",
       "date": "1935–1965",
-      "material": "花岗岩雕塑组",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
+      "material": "花岗岩雕塑",
+      "place": "Louisiana Museum of Modern Art",
       "tag": "强烈推荐",
       "significance": "特色看点",
-      "availabilityTag": "",
-      "time": "6—8分钟",
+      "availabilityTag": "不确定是否展出",
+      "time": "8—10分钟",
       "image": "./assets/louisiana/heerup-granite-sculptures.jpg",
-      "imageSource": "https://live.staticflickr.com/65535/52711136535_8a9bccdc1d_o.jpg",
-      "imageCaption": "花岗岩雕塑组 / Granite sculptures",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Snowdrops_-_spring_is_on_its_way_-_Henry_Heerup_(1907-1993)_-_Granite_sculpture_-_Louisiana_Museum_of_Modern_Art_-_Zealand_-_Denmark_-_Flickr_-_Cederskjold_Photo.jpg",
+      "imageCaption": "花岗岩雕塑群 / Granite sculptures",
       "imageKind": "object",
       "source": "https://guide.louisiana.dk/en/skulpturparken/",
-      "cardSummary": "这是一组丹麦艺术家亨利·赫鲁普的户外花岗岩雕塑，创作年代标为1935—1965年，现列在路易斯安那现代艺术博物馆的雕塑公园导览中。先别急着把它们当成“石头做的人”来辨认：赫鲁普更关心的是，石头本身已经藏着什么形状。粗粝的天然表面、简化的身体轮廓和鲜艳的红、黄、蓝色，彼此碰撞，形成一种既原始又顽皮的生命感。它们值得看的地方，正在于花岗岩的沉重没有被藏起来，反而被转化成了活泼、近乎会讲故事的形象。",
-      "preciousWhy": "这是一组丹麦艺术家亨利·赫鲁普的户外花岗岩雕塑，创作年代标为1935—1965年，现列在路易斯安那现代艺术博物馆的雕塑公园导览中。先别急着把它们当成“石头做的人”来辨认：赫鲁普更关心的是，石头本身已经藏着什么形状。粗粝的天然表面、简化的身体轮廓和鲜艳的红、黄、蓝色，彼此碰撞，形成一种既原始又顽皮的生命感。它们值得看的地方，正在于花岗岩的沉重没有被藏起来，反而被转化成了活泼、近乎会讲故事的形象。",
+      "cardSummary": "这不是一块被加工得光滑端正的纪念碑，而是一组从花岗岩自身形状里“长”出来的雕塑。Louisiana 将亨利·海鲁普的这组作品标为 1935—1965 年，放在雕塑公园的自然环境中观看。先别急着判断它们究竟像人、动物还是神话生物：请先看粗粝的石面、天然的轮廓，以及红、黄、蓝色形体如何贴着石头展开。海鲁普的特别之处，正在于他没有把石头完全驯服成一个标准答案；石头的重量、裂隙、凹凸和原本的体积，都参与了形象的诞生。",
+      "preciousWhy": "这不是一块被加工得光滑端正的纪念碑，而是一组从花岗岩自身形状里“长”出来的雕塑。Louisiana 将亨利·海鲁普的这组作品标为 1935—1965 年，放在雕塑公园的自然环境中观看。先别急着判断它们究竟像人、动物还是神话生物：请先看粗粝的石面、天然的轮廓，以及红、黄、蓝色形体如何贴着石头展开。海鲁普的特别之处，正在于他没有把石头完全驯服成一个标准答案；石头的重量、裂隙、凹凸和原本的体积，都参与了形象的诞生。",
       "sources": [
         {
           "title": "Sculpture Park | Louisiana Guide",
@@ -345,14 +876,14 @@ museumData["louisiana"] = {
           "url": "https://louisiana.dk/en/museum/park/"
         },
         {
-          "title": "Henry Heerup — Louisianas samling",
+          "title": "Henry Heerup: Louisiana’s Collection",
           "publisher": "Louisiana Museum of Modern Art",
           "url": "https://louisiana.dk/wp-content/uploads/2021/07/heerup_1.pdf"
         },
         {
-          "title": "1960–70 — Timeline",
+          "title": "The Hardboiled Eggs of Nature: Stone Art by Henry Heerup",
           "publisher": "Heerup Museum",
-          "url": "https://heerup.dk/en/timeline/1960-70/"
+          "url": "https://heerup.dk/en/udstilling/the-hardboiled-eggs-of-nature/"
         },
         {
           "title": "Heerup, Henry",
@@ -363,24 +894,24 @@ museumData["louisiana"] = {
     },
     {
       "id": "kirkeby-tor-ii",
-      "ch": "when-place-becomes-the-work",
+      "ch": "park-as-medium",
       "zh": "门 II",
       "en": "Tor II",
       "by": "佩尔·柯克比 / Per Kirkeby",
       "date": "1987",
-      "material": "雕塑",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
+      "material": "户外雕塑（具体材质待对象级核实）",
+      "place": "Louisiana Museum of Modern Art",
       "tag": "时间充裕再看",
       "significance": "特色看点",
-      "availabilityTag": "不确定是否展出",
-      "time": "4—6分钟",
+      "availabilityTag": "",
+      "time": "5—7分钟",
       "image": "./assets/louisiana/kirkeby-tor-ii.jpg",
-      "imageSource": "https://guide.louisiana.dk/wp-content/uploads/2020/01/10_kirkeby.jpg",
+      "imageSource": "https://guide.louisiana.dk/en/skulpturparken/",
       "imageCaption": "门 II / Tor II",
       "imageKind": "object",
       "source": "https://guide.louisiana.dk/en/skulpturparken/",
-      "cardSummary": "《门 II》是一件1987年的青铜雕塑，作者是丹麦艺术家佩尔·柯克比。它高约2.4米，像一块被竖起来的黑色岩体，也像一扇没有真正门洞的门。站在它前面，先别急着寻找“里面”是什么：请看它怎样把周围的树林、道路和人的身体组织成一个新的空间。",
-      "preciousWhy": "《门 II》是一件1987年的青铜雕塑，作者是丹麦艺术家佩尔·柯克比。它高约2.4米，像一块被竖起来的黑色岩体，也像一扇没有真正门洞的门。站在它前面，先别急着寻找“里面”是什么：请看它怎样把周围的树林、道路和人的身体组织成一个新的空间。",
+      "cardSummary": "眼前这件高约2.4米的青铜雕塑，是丹麦艺术家佩尔·柯克比于1987年创作的《门 II》。它看起来像一扇门，却没有真正敞开的通道：厚重、粗粝的黑色体量中间，只留下一个深暗的凹陷。正因为不能顺利穿过去，它才把“门”从实用物变成了观看经验——你会开始注意自己站在哪一边，也会意识到树林、道路和海边的空间，正在被它重新分隔。先别急着寻找具体形象，可以先看三件事：它像建筑，却没有功能；像树干或身体，却无法被准确命名；表面仿佛正在生长、侵蚀，又仿佛凝固在某个剧烈动作之后。",
+      "preciousWhy": "眼前这件高约2.4米的青铜雕塑，是丹麦艺术家佩尔·柯克比于1987年创作的《门 II》。它看起来像一扇门，却没有真正敞开的通道：厚重、粗粝的黑色体量中间，只留下一个深暗的凹陷。正因为不能顺利穿过去，它才把“门”从实用物变成了观看经验——你会开始注意自己站在哪一边，也会意识到树林、道路和海边的空间，正在被它重新分隔。先别急着寻找具体形象，可以先看三件事：它像建筑，却没有功能；像树干或身体，却无法被准确命名；表面仿佛正在生长、侵蚀，又仿佛凝固在某个剧烈动作之后。",
       "contentWarning": {
         "title": "内容尚未通过完整校验",
         "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
@@ -420,38 +951,28 @@ museumData["louisiana"] = {
     },
     {
       "id": "trakas-self-passage",
-      "ch": "when-place-becomes-the-work",
+      "ch": "park-as-medium",
       "zh": "自我通道",
       "en": "Self Passage",
       "by": "乔治·特拉卡斯 / George Trakas",
       "date": "1986–1989",
-      "material": "场域雕塑",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
+      "material": "场域雕塑与步行通道（具体材质待对象级核实）",
+      "place": "Louisiana Museum of Modern Art",
       "tag": "强烈推荐",
       "significance": "特色看点",
       "availabilityTag": "",
-      "time": "10—12分钟",
+      "time": "8—12分钟",
       "image": "./assets/louisiana/trakas-self-passage.webp",
-      "imageSource": "https://d7hftxdivxxvm.cloudfront.net/?height=799&quality=85&resize_to=fit&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2Fc5A_n4rwA3DhjdZ_Mn2hDQ%2Fnormalized.jpg&width=718",
+      "imageSource": "https://www.artsy.net/artwork/george-trakas-self-passage",
       "imageCaption": "自我通道 / Self Passage",
       "imageKind": "object",
       "source": "https://guide.louisiana.dk/en/skulpturparken/",
-      "cardSummary": "乔治·特拉卡斯的《自我通道》不是一件放在草地上、供人绕着观看的雕塑，而是一段必须用身体走过的作品。它由木与钢构成，沿着路易斯安那现代艺术博物馆建筑外墙和山坡展开，曲折地通向水边的平台。照片里最重要的不是某个独立造型，而是路径如何把墙面、树木、海面、阳光和你的步伐编排到一起。站在这里，先别急着寻找一个“像什么”的形象：注意脚下的坡度、平台的弧线，以及视野怎样一段一段被打开。作品的关键就在于，风景不再只是背景，而成了行走过程中的材料。",
-      "preciousWhy": "乔治·特拉卡斯的《自我通道》不是一件放在草地上、供人绕着观看的雕塑，而是一段必须用身体走过的作品。它由木与钢构成，沿着路易斯安那现代艺术博物馆建筑外墙和山坡展开，曲折地通向水边的平台。照片里最重要的不是某个独立造型，而是路径如何把墙面、树木、海面、阳光和你的步伐编排到一起。站在这里，先别急着寻找一个“像什么”的形象：注意脚下的坡度、平台的弧线，以及视野怎样一段一段被打开。作品的关键就在于，风景不再只是背景，而成了行走过程中的材料。",
+      "cardSummary": "《自我通道》不是一件等着你从正面端详的雕塑，而是一段必须用身体经过的场域作品。乔治·特拉卡斯把木与钢做成贴着建筑、顺着坡地展开的步行通道：墙面、立柱、树木、海面和你的移动，共同组成作品。站在它面前，先别只看远处的水；留意通道怎样转弯、收窄，又怎样把视线重新推向海湾。你走的路线，就是这件作品正在发生的“形状”。",
+      "preciousWhy": "《自我通道》不是一件等着你从正面端详的雕塑，而是一段必须用身体经过的场域作品。乔治·特拉卡斯把木与钢做成贴着建筑、顺着坡地展开的步行通道：墙面、立柱、树木、海面和你的移动，共同组成作品。站在它面前，先别只看远处的水；留意通道怎样转弯、收窄，又怎样把视线重新推向海湾。你走的路线，就是这件作品正在发生的“形状”。",
       "contentWarning": {
         "title": "内容尚未通过完整校验",
         "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
         "issues": [
-          {
-            "code": "AMBIGUOUS_QUOTATION",
-            "message": "Quoted wording may be emphasis or an unattributed quotation; human review may be useful",
-            "matches": [
-              "“正在通过”",
-              "“陪衬演员”",
-              "“自然和建筑谁更重要”"
-            ],
-            "severity": "warning"
-          },
           {
             "code": "BROAD_EVALUATION",
             "message": "Broad evaluative wording is not a hard failure",
@@ -474,719 +995,46 @@ museumData["louisiana"] = {
           "url": "https://louisiana.dk/en/museum/park/"
         },
         {
-          "title": "Louisianas samling / Louisiana Collection PDF",
+          "title": "Skulpturparken på Louisiana / Sculpture Park at Louisiana",
           "publisher": "Louisiana Museum of Modern Art",
           "url": "https://louisiana.dk/wp-content/uploads/2021/11/skulptur_gym_hf_1-2.pdf"
         },
         {
-          "title": "George Trakas | FCA Grant Recipient",
-          "publisher": "Foundation for Contemporary Arts",
-          "url": "https://www.foundationforcontemporaryarts.org/recipients/george-trakas/"
-        }
-      ]
-    },
-    {
-      "id": "giacometti-spoon-woman",
-      "ch": "giacometti-gallery-as-sequence",
-      "zh": "匙形女人",
-      "en": "Spoon Woman",
-      "by": "阿尔贝托·贾科梅蒂 / Alberto Giacometti",
-      "date": "1926–1927",
-      "material": "雕塑",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "5—7分钟",
-      "image": "./assets/louisiana/giacometti-spoon-woman.jpg",
-      "imageSource": "https://pic.yupoo.com/fotomag/f377049c/d0bc9a1c.jpg",
-      "imageCaption": "匙形女人 / Spoon Woman",
-      "imageKind": "object",
-      "source": "https://louisiana.dk/en/exhibition/giacometti-salen/",
-      "cardSummary": "《匙形女人》是阿尔贝托·贾科梅蒂创作于1926—1927年的雕塑。它最值得看的地方，不是“像不像一个女人”，而是贾科梅蒂怎样用极少的形体，把身体、容器和一种近乎古老的仪式感压缩在一起。路易斯安那官方把它安排在通往贾科梅蒂展厅的北翼动线上，与《行走的女人》并列为艺术家超现实主义时期的重要作品。站到作品前，先看四处：宽大的凹腹、几何化的胸口、细长的腿，以及脚下那块像地面又像船底的基座。你会发现，她既像一个人，也像一件正在等待被使用的器物。",
-      "preciousWhy": "《匙形女人》是阿尔贝托·贾科梅蒂创作于1926—1927年的雕塑。它最值得看的地方，不是“像不像一个女人”，而是贾科梅蒂怎样用极少的形体，把身体、容器和一种近乎古老的仪式感压缩在一起。路易斯安那官方把它安排在通往贾科梅蒂展厅的北翼动线上，与《行走的女人》并列为艺术家超现实主义时期的重要作品。站到作品前，先看四处：宽大的凹腹、几何化的胸口、细长的腿，以及脚下那块像地面又像船底的基座。你会发现，她既像一个人，也像一件正在等待被使用的器物。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Giacometti Gallery",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/giacometti-salen/"
-        },
-        {
-          "title": "Alberto Giacometti – Femme cullière (1927)",
-          "publisher": "Louisiana Museum of Modern Art Design Store",
-          "url": "https://butik.louisiana.dk/en-eu/products/giacometti-femme-cuillere-louisiana-plakat"
-        },
-        {
-          "title": "Alberto Giacometti. Spoon Woman. 1926-27 (cast 1976)",
+          "title": "George Trakas",
           "publisher": "The Museum of Modern Art",
-          "url": "https://www.moma.org/collection/works/81046"
+          "url": "https://www.moma.org/artists/44921-george-trakas"
         },
         {
-          "title": "Spoon Woman",
-          "publisher": "Fondation Giacometti",
-          "url": "https://www.fondation-giacometti.fr/en/database/161069/spoon-woman"
-        },
-        {
-          "title": "Spoon Woman",
-          "publisher": "Art Institute of Chicago",
-          "url": "https://www.artic.edu/artworks/37761/spoon-woman"
-        },
-        {
-          "title": "Alberto Giacometti. Spoon Woman. 1926-27 (cast 1976) — Audio Playlist",
-          "publisher": "The Museum of Modern Art",
-          "url": "https://www.moma.org/audio/playlist/296/4787"
-        }
-      ]
-    },
-    {
-      "id": "giacometti-walking-woman-i",
-      "ch": "giacometti-gallery-as-sequence",
-      "zh": "行走的女人 I",
-      "en": "Femme qui marche I",
-      "by": "阿尔贝托·贾科梅蒂 / Alberto Giacometti",
-      "date": "1932–1936",
-      "material": "雕塑",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "5—7分钟",
-      "image": "./assets/louisiana/giacometti-walking-woman-i.jpg",
-      "imageSource": "https://louisiana.dk/wp-content/uploads/2020/05/CST_3077_done-huge_jpg-960x640.jpg",
-      "imageCaption": "行走的女人 I / Femme qui marche I",
-      "imageKind": "object",
-      "source": "https://louisiana.dk/en/exhibition/giacometti-salen/",
-      "cardSummary": "这是一件阿尔贝托·贾科梅蒂创作于1932—36年的细长人物雕塑，属于路易斯安那现代艺术博物馆贾科梅蒂展厅的重要作品。她没有头，也没有手臂，身体像一根被拉长、削薄的枝干；但一只脚向前，肩部微微转动，于是“行走”仍然发生了。观看时先别急着问她是谁，先看这个动作是怎样被压缩到几乎只剩一个姿势：她不像正在赶路的人，更像“走”这件事本身留下的骨架。作品的迷人之处正在这里——身体被简化了，人的存在感却没有消失，反而显得更孤独、更坚硬，也更像某种从很久以前走来的古老形象。",
-      "preciousWhy": "这是一件阿尔贝托·贾科梅蒂创作于1932—36年的细长人物雕塑，属于路易斯安那现代艺术博物馆贾科梅蒂展厅的重要作品。她没有头，也没有手臂，身体像一根被拉长、削薄的枝干；但一只脚向前，肩部微微转动，于是“行走”仍然发生了。观看时先别急着问她是谁，先看这个动作是怎样被压缩到几乎只剩一个姿势：她不像正在赶路的人，更像“走”这件事本身留下的骨架。作品的迷人之处正在这里——身体被简化了，人的存在感却没有消失，反而显得更孤独、更坚硬，也更像某种从很久以前走来的古老形象。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Giacometti Gallery",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/giacometti-salen/"
-        },
-        {
-          "title": "La Femme qui marche",
-          "publisher": "Fondation Giacometti",
-          "url": "https://www.fondation-giacometti.fr/fr/article/384/la-femme-qui-marche"
-        },
-        {
-          "title": "Bourgeois x Giacometti",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/bourgeois-x-giacometti/"
-        }
-      ]
-    },
-    {
-      "id": "giacometti-walking-man",
-      "ch": "giacometti-gallery-as-sequence",
-      "zh": "行走的人",
-      "en": "Walking Man",
-      "by": "阿尔贝托·贾科梅蒂 / Alberto Giacometti",
-      "date": "20世纪中期",
-      "material": "雕塑",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "绝对不可错过",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "8—10分钟",
-      "image": "./assets/louisiana/giacometti-walking-man.png",
-      "imageSource": "https://louisiana.dk/wp-content/uploads/2020/05/PET-Thumbnail-Giacometti_Web.png",
-      "imageCaption": "行走的人 / Walking Man",
-      "imageKind": "object",
-      "source": "https://louisiana.dk/en/exhibition/giacometti-salen/",
-      "cardSummary": "这是阿尔贝托·贾科梅蒂1960年的青铜雕塑：一个极其瘦长的人，迈出一只脚，身体略向前倾，像刚刚开始走，也像永远走在路上。站在作品前，先别急着问“他要去哪儿”，先看三件事：脚怎样落地，身体怎样穿过空气，表面留下了多少手工痕迹。贾科梅蒂并没有把人体塑造成丰满、稳定的纪念碑，反而把肉身削减到近乎骨架，让周围的空间变得同样重要。于是，这不是一个人的肖像，而是一种“人在世界中移动”的状态。路易斯安那的展厅又给了它开阔的建筑空间，使它看起来不只是摆在地上的物件，更像一个沉默的陌生人走进了房间。",
-      "preciousWhy": "这是阿尔贝托·贾科梅蒂1960年的青铜雕塑：一个极其瘦长的人，迈出一只脚，身体略向前倾，像刚刚开始走，也像永远走在路上。站在作品前，先别急着问“他要去哪儿”，先看三件事：脚怎样落地，身体怎样穿过空气，表面留下了多少手工痕迹。贾科梅蒂并没有把人体塑造成丰满、稳定的纪念碑，反而把肉身削减到近乎骨架，让周围的空间变得同样重要。于是，这不是一个人的肖像，而是一种“人在世界中移动”的状态。路易斯安那的展厅又给了它开阔的建筑空间，使它看起来不只是摆在地上的物件，更像一个沉默的陌生人走进了房间。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Giacometti Gallery",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/giacometti-salen/"
-        },
-        {
-          "title": "Kenneth Goldsmith: Please Do Not Touch",
-          "publisher": "Louisiana Channel / Louisiana Museum of Modern Art",
-          "url": "https://channel.louisiana.dk/video/kenneth-goldsmith-please-do-not-touch"
-        },
-        {
-          "title": "Walking Man I (Homme qui marche I), 1960",
-          "publisher": "Guggenheim Museum Bilbao",
-          "url": "https://www.guggenheim-bilbao.eus/en/learn/schools/teachers-guides/walking-man-homme-qui-marche-1960"
-        },
-        {
-          "title": "Walking Man I",
-          "publisher": "Fondation Giacometti",
-          "url": "https://www.fondation-giacometti.fr/en/database/179000/walking-man-i"
-        },
-        {
-          "title": "Alberto Giacometti - Au-delà des bronzes. Les chefs-d'oeuvre en plâtre et autres matériaux",
-          "publisher": "Fondation Giacometti",
-          "url": "https://www.fondation-giacometti.fr/en/article/144/alberto-giacometti-au-dela-des-bronzes-les-chefs-doeuvre-en-platre-et-autres-materiaux"
-        },
-        {
-          "title": "Louisiana's time",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/louisianas-time/"
-        }
-      ]
-    },
-    {
-      "id": "giacometti-grande-tete",
-      "ch": "giacometti-gallery-as-sequence",
-      "zh": "大头像",
-      "en": "Grande tête",
-      "by": "阿尔贝托·贾科梅蒂 / Alberto Giacometti",
-      "date": "1959–1960",
-      "material": "雕塑",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "时间充裕再看",
-      "significance": "特色看点",
-      "availabilityTag": "不确定是否展出",
-      "time": "4—6分钟",
-      "image": "./assets/louisiana/giacometti-grande-tete.jpg",
-      "imageSource": "https://louisiana.dk/wp-content/uploads/2020/05/93L0643-960x1433.jpg",
-      "imageCaption": "大头像 / Grande tête",
-      "imageKind": "object",
-      "source": "https://louisiana.dk/en/exhibition/giacometti-salen/",
-      "cardSummary": "这是一件阿尔贝托·贾科梅蒂在1959—60年间完成的青铜雕塑：一颗被拉长的头，立在细瘦的颈部和厚重底座上。它看起来像肖像，却没有把某个人的五官交代清楚；真正醒目的，是头部与空间之间那种既孤独又顽强的关系。",
-      "preciousWhy": "这是一件阿尔贝托·贾科梅蒂在1959—60年间完成的青铜雕塑：一颗被拉长的头，立在细瘦的颈部和厚重底座上。它看起来像肖像，却没有把某个人的五官交代清楚；真正醒目的，是头部与空间之间那种既孤独又顽强的关系。",
-      "sources": [
-        {
-          "title": "Giacometti Gallery",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/giacometti-salen/"
-        },
-        {
-          "title": "Bourgeois x Giacometti",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/bourgeois-x-giacometti/"
-        },
-        {
-          "title": "12. Monument",
-          "publisher": "Fondation Giacometti",
-          "url": "https://www.fondation-giacometti.fr/en/article/12/12-monument"
-        },
-        {
-          "title": "Large Head",
-          "publisher": "Fondation Giacometti",
-          "url": "https://www.fondation-giacometti.fr/en/database/163698/large-head"
-        },
-        {
-          "title": "Orden CUD/317/2019: garantía del Estado para la exposición Alberto Giacometti en el Museo Nacional del Prado",
-          "publisher": "Boletín Oficial del Estado, Ministerio de Cultura y Deporte de España",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-4070"
-        }
-      ]
-    },
-    {
-      "id": "giacometti-venice-woman-viii",
-      "ch": "giacometti-gallery-as-sequence",
-      "zh": "威尼斯女人 VIII",
-      "en": "Venice Woman VIII",
-      "by": "阿尔贝托·贾科梅蒂 / Alberto Giacometti",
-      "date": "1956",
-      "material": "雕塑",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "6—8分钟",
-      "image": "./assets/louisiana/giacometti-venice-woman-viii.jpg",
-      "imageSource": "https://sonograma.org/croniques-de-concerts/wp-content/uploads/sites/5/2019/11/sonogramamgzn-croniques-Louisiana-Museum6.jpg",
-      "imageCaption": "威尼斯女人 VIII / Venice Woman VIII",
-      "imageKind": "object",
-      "source": "https://louisiana.dk/en/exhibition/giacometti-salen/",
-      "cardSummary": "这是一件阿尔贝托·贾科梅蒂创作于1956年的站立女性雕塑。名字里的“威尼斯”，不是说她描绘了运河或面具，而是因为这组作品与1956年威尼斯双年展有关。站在她面前，先别急着寻找一张“真实的脸”：请看她如何从正面的体积，变成侧面的细线；再看身体表面那些密集、粗粝的起伏。贾科梅蒂的厉害之处，正在于他让一个人形同时像身体、像影子，也像一件仍在生成中的东西。",
-      "preciousWhy": "这是一件阿尔贝托·贾科梅蒂创作于1956年的站立女性雕塑。名字里的“威尼斯”，不是说她描绘了运河或面具，而是因为这组作品与1956年威尼斯双年展有关。站在她面前，先别急着寻找一张“真实的脸”：请看她如何从正面的体积，变成侧面的细线；再看身体表面那些密集、粗粝的起伏。贾科梅蒂的厉害之处，正在于他让一个人形同时像身体、像影子，也像一件仍在生成中的东西。",
-      "sources": [
-        {
-          "title": "Giacometti Gallery",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/giacometti-salen/"
-        },
-        {
-          "title": "Alberto Giacometti: brochure for the Museum of Modern Art exhibition",
-          "publisher": "The Museum of Modern Art",
-          "url": "https://www.moma.org/documents/moma_catalogue_165_300204588.pdf"
-        },
-        {
-          "title": "Woman of Venice II",
-          "publisher": "The Metropolitan Museum of Art",
-          "url": "https://www.metmuseum.org/art/collection/search/489981"
-        },
-        {
-          "title": "Woman of Venice VIII",
-          "publisher": "Fondation Giacometti",
-          "url": "https://www.fondation-giacometti.fr/en/database/172057/woman-of-venice-viii"
-        }
-      ]
-    },
-    {
-      "id": "giacometti-la-foret",
-      "ch": "giacometti-gallery-as-sequence",
-      "zh": "森林",
-      "en": "La Forêt",
-      "by": "阿尔贝托·贾科梅蒂 / Alberto Giacometti",
-      "date": "1950",
-      "material": "雕塑群",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "绝对不可错过",
-      "significance": "重要藏品",
-      "availabilityTag": "",
-      "time": "10—12分钟",
-      "image": "./assets/louisiana/giacometti-la-foret.jpg",
-      "imageSource": "https://louisiana.dk/wp-content/uploads/2020/05/782-Alberto-Giacometti-960x751.jpg",
-      "imageCaption": "森林 / La Forêt",
-      "imageKind": "object",
-      "source": "https://louisiana.dk/en/exhibition/giacometti-salen/",
-      "cardSummary": "这是一件阿尔贝托·贾科梅蒂创作于1950年的青铜雕塑。乍看之下，七个细长身影像一排没有枝叶的树；再看，会发现它们其实是站立的人物，底座前方还“长”出一个较低的头像。贾科梅蒂没有把森林做成风景，而是把人物之间的距离、方向和沉默，组织成了一片森林。",
-      "preciousWhy": "这是一件阿尔贝托·贾科梅蒂创作于1950年的青铜雕塑。乍看之下，七个细长身影像一排没有枝叶的树；再看，会发现它们其实是站立的人物，底座前方还“长”出一个较低的头像。贾科梅蒂没有把森林做成风景，而是把人物之间的距离、方向和沉默，组织成了一片森林。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Giacometti Gallery",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/giacometti-salen/"
-        },
-        {
-          "title": "La Forêt",
-          "publisher": "Fondation Alberto et Annette Giacometti",
-          "url": "https://www.fondation-giacometti.fr/fr/database/163713/la-foret"
-        },
-        {
-          "title": "The Forest (Composition with Seven Figures and a Head)",
-          "publisher": "The Metropolitan Museum of Art",
-          "url": "https://www.metmuseum.org/art/collection/search/490186"
-        }
-      ]
-    },
-    {
-      "id": "jorn-dead-drunk-danes",
-      "ch": "from-denmark-to-international",
-      "zh": "烂醉的丹麦人",
-      "en": "Dead Drunk Danes",
-      "by": "阿斯格·约恩 / Asger Jorn",
-      "date": "1960",
-      "material": "绘画",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "绝对不可错过",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "7—9分钟",
-      "image": "./assets/louisiana/jorn-dead-drunk-danes.jpg",
-      "imageSource": "https://louisiana.dk/wp-content/uploads/2020/05/2085-Asger-Jorn-960x715.jpg",
-      "imageCaption": "烂醉的丹麦人 / Dead Drunk Danes",
-      "imageKind": "object",
-      "source": "https://louisiana.dk/en/exhibition/jorn-meets-jorn/",
-      "cardSummary": "这是丹麦艺术家阿斯格尔·约恩在1960年创作的一幅油画：红色像火一样铺满画面，黄色、绿色和蓝色的形体在其中碰撞，仿佛一群人、一群动物，也仿佛一场正在失去方向的集体舞蹈。它值得看的地方，不是“画里到底有几个人”，而是约恩怎样让混乱产生秩序：笔触尽管奔放，画面却被斜向的运动、大片色块和反复出现的脸与眼睛牢牢牵住。站在它面前，可以先看最亮的黄色，再退一步看那些形体如何从红色背景里浮现。你会发现，这幅画并不是把醉酒画成懒散，而是把醉意变成一种视觉状态——世界还在运转，只是每条边界都开始摇晃。",
-      "preciousWhy": "这是丹麦艺术家阿斯格尔·约恩在1960年创作的一幅油画：红色像火一样铺满画面，黄色、绿色和蓝色的形体在其中碰撞，仿佛一群人、一群动物，也仿佛一场正在失去方向的集体舞蹈。它值得看的地方，不是“画里到底有几个人”，而是约恩怎样让混乱产生秩序：笔触尽管奔放，画面却被斜向的运动、大片色块和反复出现的脸与眼睛牢牢牵住。站在它面前，可以先看最亮的黄色，再退一步看那些形体如何从红色背景里浮现。你会发现，这幅画并不是把醉酒画成懒散，而是把醉意变成一种视觉状态——世界还在运转，只是每条边界都开始摇晃。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Jorn meets Jorn",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/jorn-meets-jorn/"
-        },
-        {
-          "title": "Asger Jorn & Louisianas samling / Asger Jorn and the Louisiana Collection",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/wp-content/uploads/2020/10/Asger-Jorn-og-Samlingen_Louisiana-Learning_laerervejledning.pdf"
-        },
-        {
-          "title": "The Collection",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/museum/collection/"
-        }
-      ]
-    },
-    {
-      "id": "jorn-both-worlds",
-      "ch": "from-denmark-to-international",
-      "zh": "两个世界",
-      "en": "Both Worlds",
-      "by": "阿斯格·约恩 / Asger Jorn",
-      "date": "1944",
-      "material": "绘画",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "6—8分钟",
-      "image": "./assets/louisiana/jorn-both-worlds.jpg",
-      "imageSource": "https://louisiana.dk/wp-content/uploads/2020/05/3233-Asger-Jorn-960x537.jpg",
-      "imageCaption": "两个世界 / Both Worlds",
-      "imageKind": "object",
-      "source": "https://louisiana.dk/en/exhibition/jorn-meets-jorn/",
-      "cardSummary": "这是阿斯格尔·约恩1944年创作的一幅布面油画，画面不大，却像一扇通往蓝黑色梦境的门。它值得看的地方，不在于你能不能立刻认出“画的是什么”，而在于约恩怎样让风景、人物、面具般的生物和一块遥远的光同时存在。先找画面中央那个小小的、像有一只蓝绿色眼睛的生物，再看它周围彼此嵌合、却没有被轮廓线完全固定住的形象。标题所说的“两个世界”，可以是现实与幻想，也可以是外部景象与内在生命；作品没有替我们宣布唯一答案。",
-      "preciousWhy": "这是阿斯格尔·约恩1944年创作的一幅布面油画，画面不大，却像一扇通往蓝黑色梦境的门。它值得看的地方，不在于你能不能立刻认出“画的是什么”，而在于约恩怎样让风景、人物、面具般的生物和一块遥远的光同时存在。先找画面中央那个小小的、像有一只蓝绿色眼睛的生物，再看它周围彼此嵌合、却没有被轮廓线完全固定住的形象。标题所说的“两个世界”，可以是现实与幻想，也可以是外部景象与内在生命；作品没有替我们宣布唯一答案。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Jorn meets Jorn",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/jorn-meets-jorn/"
-        },
-        {
-          "title": "Asger Jorn og Louisianas samling / Asger Jorn and the Louisiana Collection: Teacher's Guide",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/wp-content/uploads/2020/10/Asger-Jorn-og-Samlingen_Louisiana-Learning_laerervejledning.pdf"
-        },
-        {
-          "title": "Jorn Gallery",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/jorn-rummet-2026/"
-        },
-        {
-          "title": "About Asger Jorn",
-          "publisher": "Museum Jorn",
-          "url": "https://museumjorn.dk/en/about-asger-jorn/"
-        }
-      ]
-    },
-    {
-      "id": "jorn-nocturne-iii",
-      "ch": "from-denmark-to-international",
-      "zh": "夜曲 III",
-      "en": "Nocturne III",
-      "by": "阿斯格·约恩 / Asger Jorn",
-      "date": "1959",
-      "material": "绘画",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "6—8分钟",
-      "image": "./assets/louisiana/jorn-nocturne-iii.webp",
-      "imageSource": "https://theuniversalcabinet.wordpress.com/wp-content/uploads/2016/02/asger-jorn-nocturne-iii-1959.jpg?w=1000",
-      "imageCaption": "夜曲 III / Nocturne III",
-      "imageKind": "object",
-      "source": "https://louisiana.dk/en/exhibition/jorn-meets-jorn/",
-      "cardSummary": "这是一幅阿斯格·约恩1959年创作的油画，尺寸约为85×152厘米。它表面上像一片蓝绿色的夜景：远处有水面、天空和树木，近处却被巨大的蓝白色形体搅动。真正值得注意的是，这并不是从一块空白画布开始的“纯粹抽象画”，而是约恩在一幅旧的风景画上继续作画。原来的宁静景色没有被彻底抹掉，反而和后来猛烈、近乎生物般的笔触同时存在。站在画前，可以先看它像一幅风景，再看那些笔触怎样把风景改造成了某种难以命名的夜间剧场。约恩在这里重新提出了一个很现代、也很顽皮的问题：一幅被认为普通甚至过时的画，能不能被再次激活？",
-      "preciousWhy": "这是一幅阿斯格·约恩1959年创作的油画，尺寸约为85×152厘米。它表面上像一片蓝绿色的夜景：远处有水面、天空和树木，近处却被巨大的蓝白色形体搅动。真正值得注意的是，这并不是从一块空白画布开始的“纯粹抽象画”，而是约恩在一幅旧的风景画上继续作画。原来的宁静景色没有被彻底抹掉，反而和后来猛烈、近乎生物般的笔触同时存在。站在画前，可以先看它像一幅风景，再看那些笔触怎样把风景改造成了某种难以命名的夜间剧场。约恩在这里重新提出了一个很现代、也很顽皮的问题：一幅被认为普通甚至过时的画，能不能被再次激活？",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Jorn meets Jorn",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/jorn-meets-jorn/"
-        },
-        {
-          "title": "Louisiana Museum of Modern Art — Erhvervelser 2009–2011",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana-web-prod.s3-eu-west-1.amazonaws.com/s3fs-public/09-11_dk_low_0.pdf"
-        },
-        {
-          "title": "A simple hand-drawn sketch / Pencil in Pocket",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/wp-content/uploads/2022/11/Workbook_TOOLKIT_UK_pencil-in-pocket.pdf"
-        },
-        {
-          "title": "Detournement: Asger Jorn's modifications",
-          "publisher": "Museum Jorn",
-          "url": "https://museumjorn.dk/en/exhibit/detournement-2/"
-        },
-        {
-          "title": "About Asger Jorn",
-          "publisher": "Museum Jorn",
-          "url": "https://museumjorn.dk/en/about-asger-jorn/"
-        }
-      ]
-    },
-    {
-      "id": "jorn-titania-ii",
-      "ch": "from-denmark-to-international",
-      "zh": "泰坦妮娅 II",
-      "en": "Titania II",
-      "by": "阿斯格·约恩 / Asger Jorn",
-      "date": "1940–1941",
-      "material": "绘画",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "时间充裕再看",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "5—7分钟",
-      "image": "./assets/louisiana/jorn-titania-ii.jpg",
-      "imageSource": "https://live.staticflickr.com/1516/24965686053_abb8b0966d.jpg",
-      "imageCaption": "泰坦妮娅 II / Titania II",
-      "imageKind": "object",
-      "source": "https://louisiana.dk/en/exhibition/jorn-meets-jorn/",
-      "cardSummary": "阿斯格尔·约恩的《泰坦妮娅 II》创作于1940—41年，是一幅油画，尺寸约为120.5×115.5厘米。它最值得看的地方，不是让你认出某个明确人物，而是让你亲眼看见：一根线、几块颜色和一点像眼睛的痕迹，怎样慢慢长成脸、身体、动物，甚至一整片神话般的世界。",
-      "preciousWhy": "阿斯格尔·约恩的《泰坦妮娅 II》创作于1940—41年，是一幅油画，尺寸约为120.5×115.5厘米。它最值得看的地方，不是让你认出某个明确人物，而是让你亲眼看见：一根线、几块颜色和一点像眼睛的痕迹，怎样慢慢长成脸、身体、动物，甚至一整片神话般的世界。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Jorn meets Jorn",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/jorn-meets-jorn/"
-        },
-        {
-          "title": "Asger Jorn og Louisianas samling",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/wp-content/uploads/2021/11/Asger-Jorn-og-Samlingen_Louisiana-Learning_laerervejledning.pdf"
-        },
-        {
-          "title": "About Asger Jorn",
-          "publisher": "Museum Jorn",
-          "url": "https://museumjorn.dk/en/about-asger-jorn/"
-        },
-        {
-          "title": "Asger Jorn og maleriets metafysikk",
-          "publisher": "Hans Kolstad",
-          "url": "https://forart.no/wp-content/uploads/sites/2/2018/01/Hans-Kolstad.pdf"
-        },
-        {
-          "title": "Becoming CoBrA",
-          "publisher": "Kunsthalle Mannheim",
-          "url": "https://www.kuma.art/de/ausstellungen/becoming-cobra"
-        }
-      ]
-    },
-    {
-      "id": "jorn-die-gedanken-sind-frei",
-      "ch": "from-denmark-to-international",
-      "zh": "思想是自由的",
-      "en": "Die Gedanken sind frei",
-      "by": "阿斯格·约恩 / Asger Jorn",
-      "date": "1970–1971",
-      "material": "绘画",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "时间充裕再看",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "5—7分钟",
-      "image": "./assets/louisiana/jorn-die-gedanken-sind-frei.jpg",
-      "imageSource": "https://louisiana.dk/wp-content/uploads/2026/05/2092-Asger-jorn_noframe-huge_jpg.jpg",
-      "imageCaption": "思想是自由的 / Die Gedanken sind frei",
-      "imageKind": "object",
-      "source": "https://louisiana.dk/wp-content/uploads/2024/06/Louisiana-Museum-Aarsrapport-2023-underskrevet-digitalt.pdf",
-      "cardSummary": "这是一幅阿斯格·约恩在1970—1971年创作的绘画。它最值得看的地方，不是画里藏着一个等待破解的谜底，而是它让“自由”变成了一种观看经验：形体不断出现，又不断溶解；颜色像在彼此争夺空间，却没有谁最终取得统治。画面上方的深蓝、右侧的红色块面、中央仿佛人物或生物的形状，以及下方翻卷的黄绿和湖蓝，共同构成了一个既像风景、又像梦境、还像某种巨大生物内部的世界。标题来自一句清晰得近乎格言式的德语：思想是自由的。可画面偏偏不清晰。约恩似乎把“自由”从一句话里释放出来，让它变成一种不必服从单一解释的绘画状态。",
-      "preciousWhy": "这是一幅阿斯格·约恩在1970—1971年创作的绘画。它最值得看的地方，不是画里藏着一个等待破解的谜底，而是它让“自由”变成了一种观看经验：形体不断出现，又不断溶解；颜色像在彼此争夺空间，却没有谁最终取得统治。画面上方的深蓝、右侧的红色块面、中央仿佛人物或生物的形状，以及下方翻卷的黄绿和湖蓝，共同构成了一个既像风景、又像梦境、还像某种巨大生物内部的世界。标题来自一句清晰得近乎格言式的德语：思想是自由的。可画面偏偏不清晰。约恩似乎把“自由”从一句话里释放出来，让它变成一种不必服从单一解释的绘画状态。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Louisiana Museum of Modern Art Annual Report 2023",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/wp-content/uploads/2024/06/Louisiana-Museum-Aarsrapport-2023-underskrevet-digitalt.pdf"
-        },
-        {
-          "title": "Jorn meets Jorn",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/jorn-meets-jorn/"
-        },
-        {
-          "title": "About Asger Jorn",
-          "publisher": "Museum Jorn",
-          "url": "https://museumjorn.dk/en/about-asger-jorn/"
-        },
-        {
-          "title": "CoBrA",
-          "publisher": "The Museum of Modern Art",
-          "url": "https://www.moma.org/collection/terms/cobra"
-        },
-        {
-          "title": "Volkslieder (11): Die Gedanken sind frei",
-          "publisher": "DIE ZEIT",
-          "url": "https://www.zeit.de/kultur/musik/2010-11/volkslieder-folge-11"
-        },
-        {
-          "title": "Focus points of the collection",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/museum/collection/focus/"
-        }
-      ]
-    },
-    {
-      "id": "kusama-gleaming-lights-of-the-souls",
-      "ch": "works-that-demand-time",
-      "zh": "灵魂闪耀的光",
-      "en": "Gleaming Lights of the Souls",
-      "by": "草间弥生 / Yayoi Kusama",
-      "date": "2008",
-      "material": "镜面、水池、平台与变色灯光装置",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "绝对不可错过",
-      "significance": "重要藏品",
-      "availabilityTag": "",
-      "time": "6—8分钟",
-      "image": "./assets/louisiana/kusama-gleaming-lights-of-the-souls.jpg",
-      "imageSource": "https://louisiana.dk/wp-content/uploads/2020/08/CST_8728-DONE-full_jpg-1920x2877.jpg",
-      "imageCaption": "灵魂闪耀的光 / Gleaming Lights of the Souls",
-      "imageKind": "object",
-      "source": "https://louisiana.dk/en/exhibition/kusama-installation/",
-      "cardSummary": "这是一件让“房间”失去边界的沉浸式装置。草间弥生在约四米见方的空间里，把墙壁和天花板都覆上镜子，地面做成反光水池，只留一座供人站立的平台；头顶悬着约一百盏会变换颜色、像发光乒乓球的灯。镜子把每个光点复制到无穷远，水面又把它们倒映到脚下，于是一个有限的房间看起来像没有尽头的宇宙。",
-      "preciousWhy": "这是一件让“房间”失去边界的沉浸式装置。草间弥生在约四米见方的空间里，把墙壁和天花板都覆上镜子，地面做成反光水池，只留一座供人站立的平台；头顶悬着约一百盏会变换颜色、像发光乒乓球的灯。镜子把每个光点复制到无穷远，水面又把它们倒映到脚下，于是一个有限的房间看起来像没有尽头的宇宙。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "LOW_SOURCE_COUNT",
-            "message": "Only one source is recorded; this may be sufficient but deserves human attention",
-            "matches": [],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Kusama installation",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/kusama-installation/"
+          "title": "VISUAL ARTS: 2 Sculptures Complement Their Locations",
+          "publisher": "Los Angeles Times",
+          "url": "https://www.latimes.com/archives/la-xpm-1989-02-10-ca-2405-story.html"
         }
       ]
     },
     {
       "id": "hockney-a-closer-grand-canyon",
-      "ch": "images-scale-and-public-space",
+      "ch": "rooms-change-scale",
       "zh": "更近的大峡谷",
       "en": "A Closer Grand Canyon",
       "by": "大卫·霍克尼 / David Hockney",
       "date": "1998",
-      "material": "多联幅绘画",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
+      "material": "大型绘画，约2 × 7.5米",
+      "place": "Louisiana Museum of Modern Art",
       "tag": "绝对不可错过",
       "significance": "重要藏品",
       "availabilityTag": "",
-      "time": "7—9分钟",
+      "time": "8—12分钟",
       "image": "./assets/louisiana/hockney-a-closer-grand-canyon.png",
-      "imageSource": "https://louisiana.dk/wp-content/uploads/2025/07/PET-Thumbnail-Hockney3_Web.png",
+      "imageSource": "https://louisiana.dk/en/exhibition/the-concert-hall/",
       "imageCaption": "更近的大峡谷 / A Closer Grand Canyon",
       "imageKind": "object",
       "source": "https://louisiana.dk/en/exhibition/the-concert-hall/",
-      "cardSummary": "大卫·霍克尼这件1998年的《更近的大峡谷》，是一幅约2米高、7.5米宽的油画，由多幅画布组成，现陈列在路易斯安那现代艺术博物馆的音乐厅。它值得看的地方，不只是“大”——大峡谷本来就很大，艺术家没有必要再和地理课本比赛尺子——而是它追问了一个更难的问题：一个没有中心、没有固定焦点、需要不断转动身体才能感受的空间，怎样被画下来？",
-      "preciousWhy": "大卫·霍克尼这件1998年的《更近的大峡谷》，是一幅约2米高、7.5米宽的油画，由多幅画布组成，现陈列在路易斯安那现代艺术博物馆的音乐厅。它值得看的地方，不只是“大”——大峡谷本来就很大，艺术家没有必要再和地理课本比赛尺子——而是它追问了一个更难的问题：一个没有中心、没有固定焦点、需要不断转动身体才能感受的空间，怎样被画下来？",
+      "cardSummary": "大卫·霍克尼在1998年创作的这幅巨型绘画，由60块小画布拼成，整体约2×7.5米，现藏于Louisiana现代艺术博物馆的音乐厅。它画的当然是大峡谷，但真正值得看的，不是“像不像旅游照片”，而是它怎样把观看本身变成一段身体经验：你的眼睛会沿着画面横向移动，在红、橙、黄、绿的色块和画布接缝之间不断停留、转向。站在它面前，先别急着寻找一个最准确的透视中心；不妨把它当作许多次凝视被拼到了一起。标题中的“更近”，说的不只是距离，也像是在说：只有当人真正坐在那里、看了一阵子，风景才会从远方的奇观变成可以进入的空间。",
+      "preciousWhy": "大卫·霍克尼在1998年创作的这幅巨型绘画，由60块小画布拼成，整体约2×7.5米，现藏于Louisiana现代艺术博物馆的音乐厅。它画的当然是大峡谷，但真正值得看的，不是“像不像旅游照片”，而是它怎样把观看本身变成一段身体经验：你的眼睛会沿着画面横向移动，在红、橙、黄、绿的色块和画布接缝之间不断停留、转向。站在它面前，先别急着寻找一个最准确的透视中心；不妨把它当作许多次凝视被拼到了一起。标题中的“更近”，说的不只是距离，也像是在说：只有当人真正坐在那里、看了一阵子，风景才会从远方的奇观变成可以进入的空间。",
       "contentWarning": {
         "title": "内容尚未通过完整校验",
         "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
         "issues": [
-          {
-            "code": "AMBIGUOUS_QUOTATION",
-            "message": "Quoted wording may be emphasis or an unattributed quotation; human review may be useful",
-            "matches": [
-              "“最重要的那一块”",
-              "“大峡谷是一种空间经验”"
-            ],
-            "severity": "warning"
-          },
           {
             "code": "BROAD_EVALUATION",
             "message": "Broad evaluative wording is not a hard failure",
@@ -1209,56 +1057,42 @@ museumData["louisiana"] = {
           "url": "https://louisiana.dk/en/museum/collection/focus/"
         },
         {
+          "title": "A Closer Grand Canyon",
+          "publisher": "The David Hockney Foundation",
+          "url": "https://www.thedavidhockneyfoundation.org/artwork/2060"
+        },
+        {
+          "title": "1998 chronology",
+          "publisher": "The David Hockney Foundation",
+          "url": "https://www.thedavidhockneyfoundation.org/chronology/1998"
+        },
+        {
           "title": "David Hockney: I Am a Space Freak",
-          "publisher": "Louisiana Channel / Louisiana Museum of Modern Art",
+          "publisher": "Louisiana Channel",
           "url": "https://channel.louisiana.dk/video/david-hockney-i-am-space-freak"
-        },
-        {
-          "title": "Louisiana Learning Workbook: Pencil in Pocket",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/wp-content/uploads/2022/11/Workbook_TOOLKIT_UK_pencil-in-pocket.pdf"
-        },
-        {
-          "title": "Looking Closer",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/looking-closer/"
         }
       ]
     },
     {
       "id": "majerus-weisses-bild",
-      "ch": "images-scale-and-public-space",
-      "zh": "白色画面",
+      "ch": "rooms-change-scale",
+      "zh": "白色图画",
       "en": "Weißes Bild",
       "by": "米歇尔·马耶鲁斯 / Michel Majerus",
       "date": "1994",
-      "material": "大型绘画",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
+      "material": "大型绘画（具体材料待对象级核实）",
+      "place": "Louisiana Museum of Modern Art",
       "tag": "强烈推荐",
       "significance": "重要藏品",
       "availabilityTag": "",
-      "time": "5—7分钟",
+      "time": "6—8分钟",
       "image": "./assets/louisiana/majerus-weisses-bild.jpg",
-      "imageSource": "https://cdn.kunstkritikk.no/uploads/2022/11/KW_MM22_Weisses-Bild_1994-2.jpg",
-      "imageCaption": "白色画面 / Weißes Bild",
+      "imageSource": "https://kunstkritikk.no/everbody-dies-and-everything-stays/",
+      "imageCaption": "白色图画 / Weißes Bild",
       "imageKind": "object",
       "source": "https://louisiana.dk/en/exhibition/the-concert-hall/",
-      "cardSummary": "这不是一块被擦干净的白板，而是一幅被白色反复覆盖、又不断露出图像的巨型绘画。米歇尔·马耶鲁斯在1994年用丙烯和画布，把卡通角色、鲜艳色带、类似广告或电子游戏的视觉碎片，与粗粝的笔触和大面积白色并置起来。站在它面前，先别急着寻找“画的是什么”：更值得看的是，白色怎样遮住图像，又让图像重新浮现。作品目前陈列在路易斯安那现代艺术博物馆的音乐厅，与大卫·霍克尼的巨幅作品隔墙相对；一个像打开景观的窗口，另一个则像一整面正在高速加载的图像墙。",
-      "preciousWhy": "这不是一块被擦干净的白板，而是一幅被白色反复覆盖、又不断露出图像的巨型绘画。米歇尔·马耶鲁斯在1994年用丙烯和画布，把卡通角色、鲜艳色带、类似广告或电子游戏的视觉碎片，与粗粝的笔触和大面积白色并置起来。站在它面前，先别急着寻找“画的是什么”：更值得看的是，白色怎样遮住图像，又让图像重新浮现。作品目前陈列在路易斯安那现代艺术博物馆的音乐厅，与大卫·霍克尼的巨幅作品隔墙相对；一个像打开景观的窗口，另一个则像一整面正在高速加载的图像墙。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
+      "cardSummary": "米歇尔·马耶鲁斯1994年的《白色图画》，是一幅由多块画布拼成的巨型绘画。它乍看像被一层白雾冲淡：卡通动物、彩色条纹、网格线和奔放的笔触，彼此叠在一起，像许多图像同时抢着发言。站在作品前，先别急着辨认“画的是什么”，而要观察白色如何覆盖、连接又打断这些图像。马耶鲁斯把传统绘画与数字生产、广告、电子游戏和流行文化带来的视觉经验放在同一张画面里。于是，这件作品真正有趣的地方不是“白”，而是它让绘画看起来像一块正在加载、擦除和重新组合的巨大屏幕，同时又不断提醒你：这里仍然是颜料、画布和人的手留下的痕迹。",
+      "preciousWhy": "米歇尔·马耶鲁斯1994年的《白色图画》，是一幅由多块画布拼成的巨型绘画。它乍看像被一层白雾冲淡：卡通动物、彩色条纹、网格线和奔放的笔触，彼此叠在一起，像许多图像同时抢着发言。站在作品前，先别急着辨认“画的是什么”，而要观察白色如何覆盖、连接又打断这些图像。马耶鲁斯把传统绘画与数字生产、广告、电子游戏和流行文化带来的视觉经验放在同一张画面里。于是，这件作品真正有趣的地方不是“白”，而是它让绘画看起来像一块正在加载、擦除和重新组合的巨大屏幕，同时又不断提醒你：这里仍然是颜料、画布和人的手留下的痕迹。",
       "sources": [
         {
           "title": "The Concert Hall",
@@ -1271,37 +1105,37 @@ museumData["louisiana"] = {
           "url": "https://louisiana.dk/wp-content/uploads/2023/05/Louisiana-Museum-Arsrapport-2022.pdf"
         },
         {
-          "title": "Michel Majerus — Early Works",
+          "title": "Michel Majerus Early Works",
           "publisher": "KW Institute for Contemporary Art",
           "url": "https://www.kw-berlin.de/en/exhibitions/michel-majerus"
         },
         {
-          "title": "Dårlige nyheder",
+          "title": "Everybody Dies and Everything Stays",
           "publisher": "Kunstkritikk",
-          "url": "https://kunstkritikk.dk/darlige-nyheder/"
+          "url": "https://kunstkritikk.no/everbody-dies-and-everything-stays/"
         }
       ]
     },
     {
       "id": "pollock-black-over-yellow",
-      "ch": "from-denmark-to-international",
-      "zh": "黄底上的黑色",
+      "ch": "from-denmark-to-world",
+      "zh": "黄色之上的黑色",
       "en": "Black over Yellow",
       "by": "杰克逊·波洛克 / Jackson Pollock",
-      "date": "约1950",
-      "material": "绘画",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "绝对不可错过",
+      "date": "约1950年",
+      "material": "绘画（具体材料待对象级核实）",
+      "place": "Louisiana Museum of Modern Art",
+      "tag": "强烈推荐",
       "significance": "重要藏品",
       "availabilityTag": "不确定是否展出",
       "time": "6—8分钟",
       "image": "./assets/louisiana/pollock-black-over-yellow.jpg",
       "imageSource": "https://louisiana.dk/wp-content/uploads/2024/07/3105-Pollock-huge_jpg-1-e1721916021736.jpg",
-      "imageCaption": "黄底上的黑色 / Black over Yellow",
+      "imageCaption": "黄色之上的黑色 / Black over Yellow",
       "imageKind": "object",
       "source": "https://louisiana.dk/en/exhibition/louisianas-time/",
-      "cardSummary": "这是一件约1950年创作的杰克逊·波洛克绘画，也是路易斯安那现代艺术博物馆收藏中很能代表战后美国绘画转向的一件作品。画面没有人物、风景或故事，只有黑色、黄褐色、奶油色、粉色和红色的颜料彼此覆盖、穿插、滴落。先别急着问“它像什么”：更值得看的，是颜料如何留下动作的轨迹。黑色像骨架，黄色像不断闪出的电流；整幅画没有真正的中心，视线只能在其中游走。",
-      "preciousWhy": "这是一件约1950年创作的杰克逊·波洛克绘画，也是路易斯安那现代艺术博物馆收藏中很能代表战后美国绘画转向的一件作品。画面没有人物、风景或故事，只有黑色、黄褐色、奶油色、粉色和红色的颜料彼此覆盖、穿插、滴落。先别急着问“它像什么”：更值得看的，是颜料如何留下动作的轨迹。黑色像骨架，黄色像不断闪出的电流；整幅画没有真正的中心，视线只能在其中游走。",
+      "cardSummary": "这是一件约1950年的杰克逊·波洛克绘画。它值得看的地方，不只是“颜料怎么能泼成这样”，而是波洛克把绘画从描绘某个对象，变成了记录动作、重力、速度和停顿的现场。先别急着找中心：从左到右看，你会发现黑色、土黄、粉红、灰白和暗红彼此穿插，画面没有一个地方愿意乖乖当主角。黑色像网、裂缝，也像突然压下来的阴影；黄色则在底层、缝隙和飞溅中不断露头。标题只告诉我们颜色关系，却没有替你规定一条“正确答案”。",
+      "preciousWhy": "这是一件约1950年的杰克逊·波洛克绘画。它值得看的地方，不只是“颜料怎么能泼成这样”，而是波洛克把绘画从描绘某个对象，变成了记录动作、重力、速度和停顿的现场。先别急着找中心：从左到右看，你会发现黑色、土黄、粉红、灰白和暗红彼此穿插，画面没有一个地方愿意乖乖当主角。黑色像网、裂缝，也像突然压下来的阴影；黄色则在底层、缝隙和飞溅中不断露头。标题只告诉我们颜色关系，却没有替你规定一条“正确答案”。",
       "contentWarning": {
         "title": "内容尚未通过完整校验",
         "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
@@ -1323,47 +1157,47 @@ museumData["louisiana"] = {
           "url": "https://louisiana.dk/en/exhibition/louisianas-time/"
         },
         {
-          "title": "Louisiana Museum of Modern Art Annual Report 2020",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/wp-content/uploads/2021/06/Louisiana_arsrapport_2020.pdf"
-        },
-        {
           "title": "Kunst i verdensklasse doneret til Louisiana",
           "publisher": "Magasinet Kunst",
           "url": "https://magasinetkunst.dk/Blog/Detail?id2=MzA5MA%3D%3D"
         },
         {
-          "title": "Jackson Pollock — Number 28, 1950",
-          "publisher": "The Metropolitan Museum of Art",
-          "url": "https://www.metmuseum.org/art/collection/search/490217"
-        },
-        {
           "title": "Jackson Pollock",
           "publisher": "The Museum of Modern Art",
           "url": "https://www.moma.org/artists/4675-jackson-pollock"
+        },
+        {
+          "title": "Jackson Pollock | Number 27, 1950",
+          "publisher": "Whitney Museum of American Art",
+          "url": "https://whitney.org/collection/works/2634"
+        },
+        {
+          "title": "Celia Ascher Bequeathed Collection to Denmark’s Louisiana Museum",
+          "publisher": "Artnet News",
+          "url": "https://news.artnet.com/art-world/celia-ascher-bequeathed-collection-to-denmarks-louisiana-museum-213734"
         }
       ]
     },
     {
-      "id": "bacon-three-studies-george-dyer",
-      "ch": "from-denmark-to-international",
+      "id": "bacon-three-studies-of-george-dyer",
+      "ch": "giacometti-room-of-distance",
       "zh": "乔治·戴尔三习作",
       "en": "Three Studies of George Dyer",
       "by": "弗朗西斯·培根 / Francis Bacon",
       "date": "1969",
-      "material": "三联画",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "绝对不可错过",
+      "material": "三联绘画（具体材料待对象级核实）",
+      "place": "Louisiana Museum of Modern Art",
+      "tag": "强烈推荐",
       "significance": "重要藏品",
       "availabilityTag": "不确定是否展出",
       "time": "8—10分钟",
-      "image": "./assets/louisiana/bacon-three-studies-george-dyer.jpg",
+      "image": "./assets/louisiana/bacon-three-studies-of-george-dyer.jpg",
       "imageSource": "https://louisiana.dk/wp-content/uploads/2024/07/1140_2_Francis_Bacon-huge_jpg.jpg",
       "imageCaption": "乔治·戴尔三习作 / Three Studies of George Dyer",
       "imageKind": "object",
       "source": "https://louisiana.dk/en/exhibition/louisianas-time/",
-      "cardSummary": "弗朗西斯·培根把同一个人画成三幅并列肖像：乔治·戴尔——他长期亲密关系中的重要人物，也是培根反复描绘的对象。画面里的脸乍看像被“压扁”了：眼睛、鼻子、嘴和耳朵仍在，却被拧转、切开，又用肉色、橙红、紫蓝和黑色重新拼回去。先别急着把它当成“画坏的人像”。培根关心的不是五官是否像照片，而是一个具体的人如何在记忆、亲密关系和失去的阴影中留下形状。三幅画的并置尤其重要：它们像同一张脸被连续回看，既让戴尔保持为一个可辨认的人，也让他的面貌变成不断滑动的心理现场。站在作品前，可以先看中央的黑色鼻孔和嘴部，再看白色与橙色的笔触怎样把脸推向观者；震撼不只来自变形，而来自变形中仍然保留的亲近感。",
-      "preciousWhy": "弗朗西斯·培根把同一个人画成三幅并列肖像：乔治·戴尔——他长期亲密关系中的重要人物，也是培根反复描绘的对象。画面里的脸乍看像被“压扁”了：眼睛、鼻子、嘴和耳朵仍在，却被拧转、切开，又用肉色、橙红、紫蓝和黑色重新拼回去。先别急着把它当成“画坏的人像”。培根关心的不是五官是否像照片，而是一个具体的人如何在记忆、亲密关系和失去的阴影中留下形状。三幅画的并置尤其重要：它们像同一张脸被连续回看，既让戴尔保持为一个可辨认的人，也让他的面貌变成不断滑动的心理现场。站在作品前，可以先看中央的黑色鼻孔和嘴部，再看白色与橙色的笔触怎样把脸推向观者；震撼不只来自变形，而来自变形中仍然保留的亲近感。",
+      "cardSummary": "这是一件1969年的三联画：三块画布分别呈现乔治·戴尔的头像，每块约35.5×30.5厘米，现属路易斯安那现代艺术博物馆藏。它最值得看的地方，不是“培根把人画得多像”，而是他怎样让一张熟悉的脸同时处在辨认和失控之间。",
+      "preciousWhy": "这是一件1969年的三联画：三块画布分别呈现乔治·戴尔的头像，每块约35.5×30.5厘米，现属路易斯安那现代艺术博物馆藏。它最值得看的地方，不是“培根把人画得多像”，而是他怎样让一张熟悉的脸同时处在辨认和失控之间。",
       "contentWarning": {
         "title": "内容尚未通过完整校验",
         "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
@@ -1393,906 +1227,34 @@ museumData["louisiana"] = {
           "title": "George Dyer",
           "publisher": "The Estate of Francis Bacon",
           "url": "https://www.francis-bacon.com/life/family-friends-sitters/george-dyer"
-        }
-      ]
-    },
-    {
-      "id": "polke-sieht-man-ja-was-es-ist",
-      "ch": "images-scale-and-public-space",
-      "zh": "你看得出它是什么",
-      "en": "Sieht man ja, was es ist",
-      "by": "西格玛·波尔克 / Sigmar Polke",
-      "date": "1984",
-      "material": "绘画",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "7—9分钟",
-      "image": "./assets/louisiana/polke-sieht-man-ja-was-es-ist.jpg",
-      "imageSource": "https://louisiana.dk/wp-content/uploads/2022/11/Sigmar-polke-til-web-1920x1471.jpg",
-      "imageCaption": "你看得出它是什么 / Sieht man ja, was es ist",
-      "imageKind": "object",
-      "source": "https://louisiana.dk/en/exhibition/warhol-opie-sherman-klein/",
-      "cardSummary": "这是德国艺术家西格玛·波尔克1984年的绘画。画面乍看像一张放大的黑白新闻照片：几个人聚在一起，动作和表情都若隐若现；再靠近看，人物却被密密麻麻的黑色网点拆散了。波尔克最值得看的地方，正在这次“看清—看不清”的来回摆动：我们以为自己在辨认一个事件，其实首先看到的是一套制造图像的方式。标题像一句漫不经心的保证：“你看得出它是什么。”但作品偏偏让这句话变得可疑。站在画前，可以先别急着猜人物身份，看看你的眼睛什么时候把点重新拼成了一个场景。",
-      "preciousWhy": "这是德国艺术家西格玛·波尔克1984年的绘画。画面乍看像一张放大的黑白新闻照片：几个人聚在一起，动作和表情都若隐若现；再靠近看，人物却被密密麻麻的黑色网点拆散了。波尔克最值得看的地方，正在这次“看清—看不清”的来回摆动：我们以为自己在辨认一个事件，其实首先看到的是一套制造图像的方式。标题像一句漫不经心的保证：“你看得出它是什么。”但作品偏偏让这句话变得可疑。站在画前，可以先别急着猜人物身份，看看你的眼睛什么时候把点重新拼成了一个场景。",
-      "sources": [
-        {
-          "title": "Warhol, Opie, Sherman, Klein, Polke",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/warhol-opie-sherman-klein/"
         },
         {
-          "title": "Untitled (Landscape) — Sigmar Polke",
-          "publisher": "The Art Institute of Chicago",
-          "url": "https://www.artic.edu/artworks/146442/untitled-landscape"
-        },
-        {
-          "title": "Sigmar Polke’s Printed Dots",
-          "publisher": "The Museum of Modern Art",
-          "url": "https://www.moma.org/explore/inside_out/2014/06/05/sigmar-polkes-printed-dots/"
-        },
-        {
-          "title": "Sigmar Polke: Photographs",
-          "publisher": "Getty Center",
-          "url": "https://www.getty.edu/art/exhibitions/polke/"
-        }
-      ]
-    },
-    {
-      "id": "warhol-flowers-1970",
-      "ch": "images-scale-and-public-space",
-      "zh": "花",
-      "en": "Flowers",
-      "by": "安迪·沃霍尔 / Andy Warhol",
-      "date": "1970",
-      "material": "版画组",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "5—7分钟",
-      "image": "./assets/louisiana/warhol-flowers-1970.jpg",
-      "imageSource": "https://www.moma.org/media/W1siZiIsIjEyOTM2MSJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=05d5439fddb41a7c",
-      "imageCaption": "花 / Flowers",
-      "imageKind": "object",
-      "source": "https://louisiana.dk/wp-content/uploads/2023/05/Louisiana-Museum-Arsrapport-2022.pdf",
-      "cardSummary": "安迪·沃霍尔的《花》不是一幅孤零零的花卉画，而是1970年制作的版画组：十幅丝网印刷，单幅约91厘米见方，通常以成套方式理解。画面把几朵花推到几乎满幅的位置，红、橙、黄、粉与蓝紫色彼此碰撞，像一张被调成霓虹色的海报。",
-      "preciousWhy": "安迪·沃霍尔的《花》不是一幅孤零零的花卉画，而是1970年制作的版画组：十幅丝网印刷，单幅约91厘米见方，通常以成套方式理解。画面把几朵花推到几乎满幅的位置，红、橙、黄、粉与蓝紫色彼此碰撞，像一张被调成霓虹色的海报。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Louisiana Museum of Modern Art Annual Report 2022",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/wp-content/uploads/2023/05/Louisiana-Museum-Arsrapport-2022.pdf"
-        },
-        {
-          "title": "Andy Warhol. Flowers. 1970",
-          "publisher": "The Museum of Modern Art",
-          "url": "https://www.moma.org/collection/works/64279"
-        },
-        {
-          "title": "Lesson 4: Underpainting and Photographic Silkscreen Printing",
-          "publisher": "The Andy Warhol Museum",
-          "url": "https://www.warhol.org/lessons/silkscreen-printing/underpainting-and-photographic-silkscreen-printing/"
-        },
-        {
-          "title": "Flowers",
-          "publisher": "National Gallery of Art",
-          "url": "https://www.nga.gov/artworks/144935-flowers"
-        },
-        {
-          "title": "Through Time",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/through-time/"
-        }
-      ]
-    },
-    {
-      "id": "warhol-close-cover-before-striking",
-      "ch": "images-scale-and-public-space",
-      "zh": "划火柴前请合上盒盖",
-      "en": "Close Cover Before Striking",
-      "by": "安迪·沃霍尔 / Andy Warhol",
-      "date": "1962",
-      "material": "绘画",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "5—7分钟",
-      "image": "./assets/louisiana/warhol-close-cover-before-striking.webp",
-      "imageSource": "https://butik.louisiana.dk/cdn/shop/products/11205-Warhol-CloseCoverBeforeStriking_1962-Ingen-Ramme.jpg?crop=center&height=1200&v=1585697578&width=1200",
-      "imageCaption": "划火柴前请合上盒盖 / Close Cover Before Striking",
-      "imageKind": "object",
-      "source": "https://louisiana.dk/wp-content/uploads/2020/08/Louisiana_aarsrapport_2014.pdf",
-      "cardSummary": "先别把它只当成一张可口可乐广告。安迪·沃霍尔把一只普通的火柴盒封面放大到绘画尺度：红底、白色 Coca-Cola 字样、饮料杯和绿色条纹，几乎没有“艺术家正在抒情”的迹象，却把商业包装直接搬进了美术馆。标题“击打前合上封面”原本是火柴盒上的安全提示，如今变成了作品名称，也像一句对观看者发出的命令。",
-      "preciousWhy": "先别把它只当成一张可口可乐广告。安迪·沃霍尔把一只普通的火柴盒封面放大到绘画尺度：红底、白色 Coca-Cola 字样、饮料杯和绿色条纹，几乎没有“艺术家正在抒情”的迹象，却把商业包装直接搬进了美术馆。标题“击打前合上封面”原本是火柴盒上的安全提示，如今变成了作品名称，也像一句对观看者发出的命令。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Louisiana Museum of Modern Art Annual Report 2014",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/wp-content/uploads/2020/08/Louisiana_aarsrapport_2014.pdf"
-        },
-        {
-          "title": "Andy Warhol – Close Cover Before Striking (1962)",
-          "publisher": "Louisiana Museum of Modern Art Design Store",
-          "url": "https://butik.louisiana.dk/en-eu/products/andy-warhol-close-cover-before-striking-1962-louisiana-plakat"
-        },
-        {
-          "title": "Andy Warhol: From A to B and Back Again – Press Kit",
-          "publisher": "Whitney Museum of American Art",
-          "url": "https://whitneymedia.org/assets/generic_file/945/Warhol_Press_Kit_Draft.11.5.18_AC_Final__1_.pdf"
-        },
-        {
-          "title": "The Colour Code – Pop Art Design",
-          "publisher": "Moderna Museet",
-          "url": "https://www.modernamuseet.se/stockholm/en/exhibitions/pop-art-design/the-colour-code/"
-        },
-        {
-          "title": "POP ART DESIGN – Teacher Guide",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/wp-content/uploads/2021/07/popversion1502_0.pdf"
-        },
-        {
-          "title": "Andy Warhol",
-          "publisher": "The Museum of Modern Art",
-          "url": "https://www.moma.org/collection/artists/6246"
-        }
-      ]
-    },
-    {
-      "id": "feldmann-100-years",
-      "ch": "works-that-demand-time",
-      "zh": "100 年",
-      "en": "100 Years",
-      "by": "汉斯-彼得·费尔德曼 / Hans-Peter Feldmann",
-      "date": "2001",
-      "material": "大型摄影装置",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "10—15分钟",
-      "image": "./assets/louisiana/feldmann-100-years.jpg",
-      "imageSource": "https://d2zy2h1755x359.cloudfront.net/public/DigitalAsset/266914/307206edb3f3e68590ec9a40d2152c2f/full/large/0/default.jpg",
-      "imageCaption": "100 年 / 100 Years",
-      "imageKind": "object",
-      "source": "https://louisiana.dk/en/exhibition/hans-peter-feldmann/",
-      "cardSummary": "这是一件由汉斯-彼得·费尔德曼于2001年创作的大型摄影装置：一百零一幅黑白肖像，按照人物年龄，从婴儿一路排到百岁。它最值得看的地方，不是某一张照片有多“戏剧化”，而是许多普通人的脸被排成了一条可以用身体走过的时间轴。站在作品前，先别急着逐幅辨认；先看这条横向展开的队列，看年龄如何从数字变成空间，也看一个人的一生如何被拆成许多张彼此相邻、却各自沉默的面孔。",
-      "preciousWhy": "这是一件由汉斯-彼得·费尔德曼于2001年创作的大型摄影装置：一百零一幅黑白肖像，按照人物年龄，从婴儿一路排到百岁。它最值得看的地方，不是某一张照片有多“戏剧化”，而是许多普通人的脸被排成了一条可以用身体走过的时间轴。站在作品前，先别急着逐幅辨认；先看这条横向展开的队列，看年龄如何从数字变成空间，也看一个人的一生如何被拆成许多张彼此相邻、却各自沉默的面孔。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Hans-Peter Feldmann",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/hans-peter-feldmann/"
-        },
-        {
-          "title": "Hans-Peter Feldmann. 100 Years. 2001",
-          "publisher": "The Museum of Modern Art",
-          "url": "https://www.moma.org/collection/works/214521"
-        },
-        {
-          "title": "100 Jahre, 2001",
-          "publisher": "MACBA Museum of Contemporary Art of Barcelona",
-          "url": "https://www.macba.cat/en/obra/r2252-100-jahre/"
-        }
-      ]
-    },
-    {
-      "id": "kentridge-black-box-chambre-noire",
-      "ch": "works-that-demand-time",
-      "zh": "黑箱／暗室",
-      "en": "Black Box / Chambre Noire",
-      "by": "威廉·肯特里奇 / William Kentridge",
-      "date": "2005",
-      "material": "影像与剧场装置",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "绝对不可错过",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "12—18分钟",
-      "image": "./assets/louisiana/kentridge-black-box-chambre-noire.jpg",
-      "imageSource": "https://www.ny-carlsbergfondet.dk/sites/default/files/styles/subpage_hero/public/2018-10/10045Kentridge1.jpg?h=c4ac901c&itok=eYGCHL1l",
-      "imageCaption": "黑箱／暗室 / Black Box / Chambre Noire",
-      "imageKind": "object",
-      "source": "https://louisiana.dk/en/exhibition/new-acquisitions/",
-      "cardSummary": "眼前这件作品像一个小剧场，却不是让演员来演戏，而是让影像、纸张、灯光和机械物件一起“演出”。南非艺术家威廉·肯特里奇在2005年制作了这件影像与剧场装置：动画胶片被转成视频，投射到一个模型剧场上，剧场里还放置着绘画和会运动的机械木偶。路易斯安那把它纳入永久收藏。",
-      "preciousWhy": "眼前这件作品像一个小剧场，却不是让演员来演戏，而是让影像、纸张、灯光和机械物件一起“演出”。南非艺术家威廉·肯特里奇在2005年制作了这件影像与剧场装置：动画胶片被转成视频，投射到一个模型剧场上，剧场里还放置着绘画和会运动的机械木偶。路易斯安那把它纳入永久收藏。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "New acquisitions - The theater of William Kentridge",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/new-acquisitions/"
-        },
-        {
-          "title": "Principal work by Kentridge for Louisiana",
-          "publisher": "New Carlsberg Foundation",
-          "url": "https://www.ny-carlsbergfondet.dk/en/principal-work-kentridge-louisiana"
-        },
-        {
-          "title": "Black Box/Chambre Noire",
-          "publisher": "William Kentridge Studio",
-          "url": "https://www.kentridge.studio/william-kentridge-projects/black-box-chambre-noire/"
-        },
-        {
-          "title": "Black Box: Between the Lens and the Eyepiece",
-          "publisher": "William Kentridge Studio",
-          "url": "https://www.kentridge.studio/black-box-between-the-lens-and-the-eyepiece/"
-        },
-        {
-          "title": "The Herero and Nama Genocides in German Southwest Africa, 1904–1908",
-          "publisher": "Cambridge University Press",
-          "url": "https://www.cambridge.org/core/books/abs/cambridge-world-history-of-genocide/rivers-of-blood-and-rivers-of-money/FD80F4320201914194A68C6A59FA4593"
-        }
-      ]
-    },
-    {
-      "id": "rist-im-not-the-girl-who-misses-much",
-      "ch": "works-that-demand-time",
-      "zh": "我不是那个错过许多的女孩",
-      "en": "I’m Not The Girl Who Misses Much",
-      "by": "皮皮洛蒂·里斯特 / Pipilotti Rist",
-      "date": "1986",
-      "material": "影像作品",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "6—9分钟",
-      "image": "./assets/louisiana/rist-im-not-the-girl-who-misses-much.jpg",
-      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/9/9b/I%27m_Not_The_Girl_Who_Misses_Much_still.jpg",
-      "imageCaption": "我不是那个错过许多的女孩 / I’m Not The Girl Who Misses Much",
-      "imageKind": "object",
-      "source": "https://louisiana.dk/en/exhibition/moving-images/",
-      "cardSummary": "这是一件1986年的单频道彩色有声录像作品：皮皮洛蒂·里斯特穿着黑色低领连衣裙，在镜头前跳舞、歌唱，画面和声音则不断加速、减速、模糊、错位。你看到的不是一个“拍坏了”的录像，而是图像本身正在失控。图中人物的脸、头发和身体被拉成一团颜色，横向干扰线像一道突然闯入的电流；她既是表演者，也是被摄像机和剪辑重新塑形的材料。",
-      "preciousWhy": "这是一件1986年的单频道彩色有声录像作品：皮皮洛蒂·里斯特穿着黑色低领连衣裙，在镜头前跳舞、歌唱，画面和声音则不断加速、减速、模糊、错位。你看到的不是一个“拍坏了”的录像，而是图像本身正在失控。图中人物的脸、头发和身体被拉成一团颜色，横向干扰线像一道突然闯入的电流；她既是表演者，也是被摄像机和剪辑重新塑形的材料。",
-      "sources": [
-        {
-          "title": "Moving Images",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/moving-images/"
-        },
-        {
-          "title": "Pipilotti Rist – Im Not the Girl who Misses Much (1986)",
-          "publisher": "Louisiana Museum of Modern Art Design Store",
-          "url": "https://butik.louisiana.dk/en-int/products/pipilotti-rist-im-not-the-girl-who-misses-much-louisiana-plakat"
-        },
-        {
-          "title": "Pipilotti Rist. I'm Not the Girl Who Misses Much. 1986",
-          "publisher": "The Museum of Modern Art",
-          "url": "https://www.moma.org/collection/works/119076?l=&locale=en&page=591&with_images=true"
-        },
-        {
-          "title": "Pipilotti Rist - I'm Not the Girl Who Misses Much",
-          "publisher": "The Metropolitan Museum of Art",
-          "url": "https://www.metmuseum.org/art/collection/search/856930"
-        },
-        {
-          "title": "I’m Not The Girl Who Misses Much",
-          "publisher": "ZKM | Center for Art and Media",
-          "url": "https://zkm.de/en/artworks/im-not-the-girl-who-misses-much"
-        },
-        {
-          "title": "Pipilotti Rist Wants You to Spit on Your Mobile Phone: A Q&A With the Ecstatic Hippie Feminist Artist",
-          "publisher": "Phaidon / Artspace Archive",
-          "url": "https://www.phaidon.com/en-int/blogs/artspace/pipilotti-rist-says-spit-on-your-mobile-phone"
-        }
-      ]
-    },
-    {
-      "id": "abramovic-ulay-light-dark",
-      "ch": "works-that-demand-time",
-      "zh": "光／暗",
-      "en": "Light/Dark",
-      "by": "乌雷与玛丽娜·阿布拉莫维奇 / Ulay & Marina Abramović",
-      "date": "1977",
-      "material": "行为影像",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "6—9分钟",
-      "image": "./assets/louisiana/abramovic-ulay-light-dark.jpg",
-      "imageSource": "https://vanabbemuseum.nl/en/collection/light-dark/2439-02.jpg/@@images/image/huge",
-      "imageCaption": "光／暗 / Light/Dark",
-      "imageKind": "object",
-      "source": "https://louisiana.dk/en/exhibition/moving-images/",
-      "cardSummary": "两个人跪坐在黑白影像里，面对面，用手掌互相击打对方的脸，直到其中一人停下。这就是乌雷与玛丽娜·阿布拉莫维奇1977年的《光／暗》：一场约束极少、强度极高的行为，被摄像机保存成六分多钟的影像。它值得看的地方，不只是“艺术家真的打了起来”这件容易抢走注意力的事，而是两个人如何把亲密关系变成一套公开执行的规则：谁先出手，谁承受，谁决定结束？站在作品前，可以先看他们的姿势、距离和节奏，再观察这场行为怎样从两个人之间，扩展成观看者也无法置身事外的局面。",
-      "preciousWhy": "两个人跪坐在黑白影像里，面对面，用手掌互相击打对方的脸，直到其中一人停下。这就是乌雷与玛丽娜·阿布拉莫维奇1977年的《光／暗》：一场约束极少、强度极高的行为，被摄像机保存成六分多钟的影像。它值得看的地方，不只是“艺术家真的打了起来”这件容易抢走注意力的事，而是两个人如何把亲密关系变成一套公开执行的规则：谁先出手，谁承受，谁决定结束？站在作品前，可以先看他们的姿势、距离和节奏，再观察这场行为怎样从两个人之间，扩展成观看者也无法置身事外的局面。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Moving Images",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/moving-images/"
-        },
-        {
-          "title": "Light / Dark",
-          "publisher": "Van Abbemuseum",
-          "url": "https://vanabbemuseum.nl/en/collection/light-dark"
-        },
-        {
-          "title": "Ulay / Abramovic: Video installations 1976-1988",
-          "publisher": "Van Abbemuseum",
-          "url": "https://vanabbemuseum.nl/en/exhibitions/ulay-abramovic-video-installaties-1976-1988"
-        },
-        {
-          "title": "Marina Abramović exhibition large print guide",
-          "publisher": "Royal Academy of Arts",
-          "url": "https://royal-academy-production-asset.s3.amazonaws.com/uploads/94834528-2c16-402d-bbd1-5f5f79224b5a/Marina%20Abramovic%20exhibition%20large%20print%20guide.pdf"
-        },
-        {
-          "title": "Marina Abramović & Ulay: No Predicted End",
-          "publisher": "Louisiana Channel, Louisiana Museum of Modern Art",
-          "url": "https://channel.louisiana.dk/video/marina-abramovi%C4%87-ulay-no-predicted-end"
-        }
-      ]
-    },
-    {
-      "id": "superflex-flooded-mcdonalds",
-      "ch": "works-that-demand-time",
-      "zh": "被淹没的麦当劳",
-      "en": "Flooded McDonald’s",
-      "by": "SUPERFLEX / Superflex",
-      "date": "2008",
-      "material": "影像作品",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "12—20分钟",
-      "image": "./assets/louisiana/superflex-flooded-mcdonalds.jpg",
-      "imageSource": "https://superflex.net/pressimages/th_mcflooded_production_1.jpg.jpg",
-      "imageCaption": "被淹没的麦当劳 / Flooded McDonald’s",
-      "imageKind": "object",
-      "source": "https://louisiana.dk/en/exhibition/moving-images/",
-      "cardSummary": "这是一件2008年的影像作品：一间看起来无比熟悉的麦当劳餐厅，先是空无一人，随后水位缓慢上升，桌椅、托盘、纸杯和食物逐渐漂浮，灯光与设备失灵，整个空间最后沉入水中。创作者是丹麦艺术团体SUPERFLEX。它值得看的地方，不只是“把麦当劳淹了”这个很有画面感的点子，而是它把全球化消费社会最日常、最明亮的一角，变成了一场安静得近乎礼貌的灾难。站在作品前，先别急着寻找象征意义：看水怎样一点点改变空间的秩序，看原本服务人的物品怎样失去用途，甚至像演员一样开始“表演”。",
-      "preciousWhy": "这是一件2008年的影像作品：一间看起来无比熟悉的麦当劳餐厅，先是空无一人，随后水位缓慢上升，桌椅、托盘、纸杯和食物逐渐漂浮，灯光与设备失灵，整个空间最后沉入水中。创作者是丹麦艺术团体SUPERFLEX。它值得看的地方，不只是“把麦当劳淹了”这个很有画面感的点子，而是它把全球化消费社会最日常、最明亮的一角，变成了一场安静得近乎礼貌的灾难。站在作品前，先别急着寻找象征意义：看水怎样一点点改变空间的秩序，看原本服务人的物品怎样失去用途，甚至像演员一样开始“表演”。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Moving Images",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/moving-images/"
-        },
-        {
-          "title": "Superflex: Why We Flooded McDonald's",
-          "publisher": "Louisiana Channel / Louisiana Museum of Modern Art",
-          "url": "https://vimeo.com/150651361"
-        },
-        {
-          "title": "Drowning McDonalds in the Hirshhorn",
-          "publisher": "Smithsonian Magazine",
-          "url": "https://www.smithsonianmag.com/smithsonian-institution/drowning-mcdonalds-in-the-hirshhorn-275945/"
-        }
-      ]
-    },
-    {
-      "id": "fischli-weiss-der-lauf-der-dinge",
-      "ch": "works-that-demand-time",
-      "zh": "事物的运行方式",
-      "en": "Der Lauf der Dinge",
-      "by": "彼得·菲施利与大卫·魏斯 / Peter Fischli & David Weiss",
-      "date": "1985–1987",
-      "material": "影像作品",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "15—25分钟",
-      "image": "./assets/louisiana/fischli-weiss-der-lauf-der-dinge.jpg",
-      "imageSource": "https://zkm.de/system/files/field_media_image/2023/02/23/101414/s039001.jpg",
-      "imageCaption": "事物的运行方式 / Der Lauf der Dinge",
-      "imageKind": "object",
-      "source": "https://louisiana.dk/en/exhibition/moving-images/",
-      "cardSummary": "这是一部由彼得·菲施利与大卫·魏斯创作于1985—87年的录像作品：轮胎、木板、塑料容器、气球、火焰和液体彼此碰撞，把一件小事推给下一件小事，组成一条约半小时的连锁反应。它值得看的地方，不只是“居然成功了”，而是艺术家把日常物品拍成了真正的主角。站在画面前，先别急着猜下一步会发生什么，观察一个动作怎样变成另一个动作：重力、摩擦、速度和偶然，如何共同写出一部没有人类演员的戏。",
-      "preciousWhy": "这是一部由彼得·菲施利与大卫·魏斯创作于1985—87年的录像作品：轮胎、木板、塑料容器、气球、火焰和液体彼此碰撞，把一件小事推给下一件小事，组成一条约半小时的连锁反应。它值得看的地方，不只是“居然成功了”，而是艺术家把日常物品拍成了真正的主角。站在画面前，先别急着猜下一步会发生什么，观察一个动作怎样变成另一个动作：重力、摩擦、速度和偶然，如何共同写出一部没有人类演员的戏。",
-      "sources": [
-        {
-          "title": "Moving Images",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/moving-images/"
-        },
-        {
-          "title": "Peter Fischli, David Weiss. The Way Things Go. 1987",
-          "publisher": "The Museum of Modern Art",
-          "url": "https://www.moma.org/collection/works/80908"
-        },
-        {
-          "title": "Der Lauf der Dinge",
-          "publisher": "ZKM | Zentrum für Kunst und Medien",
-          "url": "https://zkm.de/de/werk/der-lauf-der-dinge"
-        },
-        {
-          "title": "Der Lauf der Dinge / The Way Things Go",
-          "publisher": "SWISS FILMS",
-          "url": "https://www.swissfilms.ch/de/movie/der-lauf-der-dinge/d243456565d44c7cb99c5b6fcb210490"
-        },
-        {
-          "title": "Peter Fischli and David Weiss",
-          "publisher": "Queensland Art Gallery | Gallery of Modern Art",
-          "url": "https://www.qagoma.qld.gov.au/burn/peter-fischli-and-david-weiss/"
-        }
-      ]
-    },
-    {
-      "id": "hill-viewer",
-      "ch": "works-that-demand-time",
-      "zh": "观看者",
-      "en": "Viewer",
-      "by": "加里·希尔 / Gary Hill",
-      "date": "1996",
-      "material": "影像装置",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "时间充裕再看",
-      "significance": "特色看点",
-      "availabilityTag": "不确定是否展出",
-      "time": "8—12分钟",
-      "image": "./assets/louisiana/hill-viewer.jpg",
-      "imageSource": "https://artdistrictpalma.com/wp-content/uploads/2024/07/Event_2_12_2023-2-of-316-10.jpg",
-      "imageCaption": "观看者 / Viewer",
-      "imageKind": "object",
-      "source": "https://louisiana.dk/en/exhibition/moving-images/",
-      "cardSummary": "加里·希尔的《观看者》不是一段坐着看的录像，而是一场被投射到墙上的“对视”。这件1996年的五频道无声影像装置，把17位日工劳动者的近真人大小彩色影像排成一条约14米长的横向队列。他们几乎不动，只朝观众望来。乍看像一张奇异的集体肖像，站久一点却会发现：真正被作品持续观察的，似乎也包括我们自己。站在它面前，先别急着寻找故事，留意你的距离、姿势，以及那种“我在看他们，还是他们在看我”的微妙不安。",
-      "preciousWhy": "加里·希尔的《观看者》不是一段坐着看的录像，而是一场被投射到墙上的“对视”。这件1996年的五频道无声影像装置，把17位日工劳动者的近真人大小彩色影像排成一条约14米长的横向队列。他们几乎不动，只朝观众望来。乍看像一张奇异的集体肖像，站久一点却会发现：真正被作品持续观察的，似乎也包括我们自己。站在它面前，先别急着寻找故事，留意你的距离、姿势，以及那种“我在看他们，还是他们在看我”的微妙不安。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Moving Images",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/moving-images/"
-        },
-        {
-          "title": "Viewer — Gary Hill work record",
-          "publisher": "Gary Hill",
-          "url": "https://garyhill.com/wp-content/uploads/wp-advanced-pdf/1/viewer.pdf"
-        }
-      ]
-    },
-    {
-      "id": "arbus-albino-sword-swallower",
-      "ch": "collection-rewrites-itself",
-      "zh": "嘉年华上的白化病吞剑艺人",
-      "en": "Albino sword swallower at a carnival",
-      "by": "黛安·阿勃丝 / Diane Arbus",
-      "date": "1970",
-      "material": "摄影",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "5—7分钟",
-      "image": "./assets/louisiana/arbus-albino-sword-swallower.jpg",
-      "imageSource": "https://www.moma.org/media/W1siZiIsIjU1MzgzOCJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=1f6b7cd2867d518e",
-      "imageCaption": "嘉年华上的白化病吞剑艺人 / Albino sword swallower at a carnival",
-      "imageKind": "object",
-      "source": "https://louisiana.dk/en/exhibition/louisianas-new-works-2022-2025/",
-      "cardSummary": "这是黛安·阿勃丝1970年拍摄的一张黑白摄影：一位女吞剑艺人站在巨大的深色帐篷前，双臂展开，剑从脸部中央向上竖起，白色上衣和苍白的面部在黑背景中格外醒目。它值得看的地方，不只是“有人把剑吞下去了”这一惊险事实，而是阿勃丝把一个本应喧闹、吸引围观的嘉年华节目，拍成了一幅近乎肃穆的肖像。站在作品前，先看三条线：剑的垂直线、双臂的水平线，以及帐篷边缘从左上方斜向右侧的线。它们把一个人的身体组织成了一个既像表演姿势、又像宗教图像的图形。",
-      "preciousWhy": "这是黛安·阿勃丝1970年拍摄的一张黑白摄影：一位女吞剑艺人站在巨大的深色帐篷前，双臂展开，剑从脸部中央向上竖起，白色上衣和苍白的面部在黑背景中格外醒目。它值得看的地方，不只是“有人把剑吞下去了”这一惊险事实，而是阿勃丝把一个本应喧闹、吸引围观的嘉年华节目，拍成了一幅近乎肃穆的肖像。站在作品前，先看三条线：剑的垂直线、双臂的水平线，以及帐篷边缘从左上方斜向右侧的线。它们把一个人的身体组织成了一个既像表演姿势、又像宗教图像的图形。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Louisiana's new works",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/louisianas-new-works-2022-2025/"
-        },
-        {
-          "title": "Diane Arbus. Albino sword swallower at a carnival, Maryland, 1970",
-          "publisher": "The Museum of Modern Art",
-          "url": "https://www.moma.org/collection/works/89201"
-        },
-        {
-          "title": "Albino sword swallower at a carnival, Md. 1970",
-          "publisher": "National Galleries of Scotland",
-          "url": "https://www.nationalgalleries.org/art-and-artists/92899"
-        },
-        {
-          "title": "Albino sword swallower at a carnival, MD.",
-          "publisher": "Museum of New Zealand Te Papa Tongarewa",
-          "url": "https://collections.tepapa.govt.nz/object/41825"
-        }
-      ]
-    },
-    {
-      "id": "ruscha-figure-it-on-out",
-      "ch": "collection-rewrites-itself",
-      "zh": "把它想明白",
-      "en": "Figure It On Out",
-      "by": "爱德华·鲁沙 / Ed Ruscha",
-      "date": "2007",
-      "material": "布面丙烯",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "时间充裕再看",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "4—6分钟",
-      "image": "./assets/louisiana/ruscha-figure-it-on-out.jpg",
-      "imageSource": "https://oklahomacontemporary.org/wp-content/uploads/2025/12/Figure-It-On-Out.jpg",
-      "imageCaption": "把它想明白 / Figure It On Out",
-      "imageKind": "object",
-      "source": "https://louisiana.dk/en/exhibition/louisianas-new-works-2022-2025/",
-      "cardSummary": "这是一幅把一句口语“钉”在雪山上的画。爱德华·鲁沙在2007年创作的《把它想明白》，媒介是布面丙烯：白色大字分成三行，横跨一座冷峻、几乎没有人迹的高山。山像宏伟的自然景观，字却像广告牌、电影片名或旅游海报；两者放在一起，既庄严，又有一点不合时宜的幽默。",
-      "preciousWhy": "这是一幅把一句口语“钉”在雪山上的画。爱德华·鲁沙在2007年创作的《把它想明白》，媒介是布面丙烯：白色大字分成三行，横跨一座冷峻、几乎没有人迹的高山。山像宏伟的自然景观，字却像广告牌、电影片名或旅游海报；两者放在一起，既庄严，又有一点不合时宜的幽默。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Louisiana's new works",
-          "publisher": "路易斯安那现代艺术博物馆",
-          "url": "https://louisiana.dk/en/exhibition/louisianas-new-works-2022-2025/"
-        },
-        {
-          "title": "Ed Ruscha: OKLA",
-          "publisher": "Oklahoma Contemporary",
-          "url": "https://oklahomacontemporary.org/exhibition/ed-ruscha-okla/"
-        },
-        {
-          "title": "Ed Ruscha Exhibit Examines the Artist’s Oklahoma Roots",
-          "publisher": "The Wall Street Journal（经 Gagosian 提供的转载 PDF）",
-          "url": "https://gagosian.com/media/gallery/press/2021/Crow_Kelly._Ed_Ruscha_Exhibit_Examiet_Journal_February_15_2021.pdf"
-        },
-        {
-          "title": "Ed Ruscha, the most famous Catholic artist few Catholics know",
-          "publisher": "National Catholic Reporter",
-          "url": "https://www.ncronline.org/opinion/ed-ruscha-most-famous-catholic-artist-few-catholics-know"
-        }
-      ]
-    },
-    {
-      "id": "goldin-memory-lost",
-      "ch": "works-that-demand-time",
-      "zh": "失落的记忆",
-      "en": "Memory Lost",
-      "by": "南·戈尔丁 / Nan Goldin",
-      "date": "2019–2021",
-      "material": "数字幻灯与声音装置",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "12—18分钟",
-      "image": "./assets/louisiana/goldin-memory-lost.jpg",
-      "imageSource": "https://louisiana.dk/wp-content/uploads/2023/03/5174_23182-Goldin_5.jpg",
-      "imageCaption": "失落的记忆 / Memory Lost",
-      "imageKind": "object",
-      "source": "https://louisiana.dk/en/exhibition/louisianas-new-works-2022-2025/",
-      "cardSummary": "这是美国艺术家南·戈尔丁在2019—2021年制作的数字幻灯与声音装置，时长约24分钟。黑暗展厅里，一块大屏幕反复放映来自她个人档案的照片与影像；画面有时亲密，有时模糊，有时像从记忆深处突然浮上来。作品围绕成瘾、友谊、爱、虐待、匮乏与失去展开，但它并不是一部按时间讲完的个人传记。站在这里，先别急着给每个画面找出处，注意影像怎样在声音和停顿中变成一种不稳定的记忆。它最值得看的地方，是把“记得什么”变成了一个身体问题：当生活曾经被真实地经历过，却又被成瘾和时间切断，我们还能怎样保存它？",
-      "preciousWhy": "这是美国艺术家南·戈尔丁在2019—2021年制作的数字幻灯与声音装置，时长约24分钟。黑暗展厅里，一块大屏幕反复放映来自她个人档案的照片与影像；画面有时亲密，有时模糊，有时像从记忆深处突然浮上来。作品围绕成瘾、友谊、爱、虐待、匮乏与失去展开，但它并不是一部按时间讲完的个人传记。站在这里，先别急着给每个画面找出处，注意影像怎样在声音和停顿中变成一种不稳定的记忆。它最值得看的地方，是把“记得什么”变成了一个身体问题：当生活曾经被真实地经历过，却又被成瘾和时间切断，我们还能怎样保存它？",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Louisiana's new works",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/louisianas-new-works-2022-2025/"
-        },
-        {
-          "title": "Nan Goldin: Memory Lost",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/nan-goldin-memory-lost/"
-        },
-        {
-          "title": "Memory Lost – Alla konstverk",
-          "publisher": "Moderna Museet, Stockholm",
-          "url": "https://sis.modernamuseet.se/sv/objects/112502/memory-lost"
-        },
-        {
-          "title": "Nan Goldin | Memory Lost",
-          "publisher": "Marian Goodman Gallery",
-          "url": "https://www.mariangoodman.com/exhibitions/444-nan-goldin-memory-lost/"
-        },
-        {
-          "title": "Nan Goldin: Memory Lost, followed by a Summer Bar with ODE Aperitif",
-          "publisher": "n.b.k. – neue Gesellschaft für bildende Kunst",
-          "url": "https://www.nbk.org/en/diskurs/screeninggoldin"
-        }
-      ]
-    },
-    {
-      "id": "dumas-mourning-marsyas",
-      "ch": "giacometti-gallery-as-sequence",
-      "zh": "哀悼马尔叙阿斯",
-      "en": "Mourning Marsyas",
-      "by": "玛琳·杜马斯 / Marlene Dumas",
-      "date": "2024",
-      "material": "绘画",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "强烈推荐",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "6—8分钟",
-      "image": "./assets/louisiana/dumas-mourning-marsyas.jpg",
-      "imageSource": "https://www.studiointernational.com/images/articles/d/038-dumas-marlene-2024/smallpix/Marlene-Dumas,-Mourning-Marsyas,-2024-300.jpg",
-      "imageCaption": "哀悼马尔叙阿斯 / Mourning Marsyas",
-      "imageKind": "object",
-      "source": "https://louisiana.dk/en/exhibition/louisianas-new-works-2022-2025/",
-      "cardSummary": "这是南非艺术家玛琳·杜马斯于2024年创作的一幅油画，尺寸约为3米高、1米宽。画面像一根被染成褐橙色的细长身体，悬在画布中央；深蓝、灰紫色的身影从左右和下方靠近它，有的拥抱，有的触碰，有的蹲伏。标题中的马尔叙阿斯，来自希腊神话：这位萨堤尔挑战阿波罗进行音乐比赛，失败后遭到活剥。杜马斯没有把故事画成一场清楚的神罚，而是把暴力压缩成一种暧昧的陪伴。站在画前，先看中央身体怎样被“照料”，再看这种照料究竟是安慰、哀悼，还是伤害尚未结束的另一种形式。",
-      "preciousWhy": "这是南非艺术家玛琳·杜马斯于2024年创作的一幅油画，尺寸约为3米高、1米宽。画面像一根被染成褐橙色的细长身体，悬在画布中央；深蓝、灰紫色的身影从左右和下方靠近它，有的拥抱，有的触碰，有的蹲伏。标题中的马尔叙阿斯，来自希腊神话：这位萨堤尔挑战阿波罗进行音乐比赛，失败后遭到活剥。杜马斯没有把故事画成一场清楚的神罚，而是把暴力压缩成一种暧昧的陪伴。站在画前，先看中央身体怎样被“照料”，再看这种照料究竟是安慰、哀悼，还是伤害尚未结束的另一种形式。",
-      "sources": [
-        {
-          "title": "Collection in the North Wing",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/louisianas-new-works-2022-2025/"
-        },
-        {
-          "title": "Louisiana Museum of Modern Art Annual Report 2024",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/wp-content/uploads/2025/05/Louisiana-Museum-Aarsrapport-2024.pdf"
-        },
-        {
-          "title": "Marlene Dumas Speaks Truth to Power",
-          "publisher": "Frieze",
-          "url": "https://www.frieze.com/article/marlene-dumas-profile-245"
-        },
-        {
-          "title": "Apollo and Marsyas",
-          "publisher": "The Fitzwilliam Museum, University of Cambridge",
-          "url": "https://www.fitzmuseum.cam.ac.uk/index.php/explore-our-collection/highlights/context/stories-and-histories/apollo-and-marsyas"
-        }
-      ]
-    },
-    {
-      "id": "hughes-collide",
-      "ch": "collection-rewrites-itself",
-      "zh": "碰撞",
-      "en": "Collide",
-      "by": "莎拉·休斯 / Shara Hughes",
-      "date": "2022",
-      "material": "绘画",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "时间充裕再看",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "4—6分钟",
-      "image": "./assets/louisiana/hughes-collide.webp",
-      "imageSource": "https://saltsmillshop.co.uk/cdn/shop/files/Hughes-Collide-1_1024x1024.jpg?v=1770126693",
-      "imageCaption": "碰撞 / Collide",
-      "imageKind": "object",
-      "source": "https://louisiana.dk/en/exhibition/louisianas-new-works-2022-2025/",
-      "cardSummary": "《碰撞》是美国艺术家莎拉·休斯于2022年创作的一幅大型绘画。它看起来像风景：中央有一棵高大的树，四周铺开水面、植物和天空；但这里没有可供导航的真实地点，风景更像一场正在发作的心理天气。最值得先看的，是树干与枝条怎样把整幅画撑开：它像脊柱，也像一组伸向四面的手臂。红、橙、粉、紫、绿彼此推挤，明亮得近乎过热。你可以把“碰撞”理解为画布之间的相接，也可以理解为自然与情绪、吸引与不安同时撞在一起。",
-      "preciousWhy": "《碰撞》是美国艺术家莎拉·休斯于2022年创作的一幅大型绘画。它看起来像风景：中央有一棵高大的树，四周铺开水面、植物和天空；但这里没有可供导航的真实地点，风景更像一场正在发作的心理天气。最值得先看的，是树干与枝条怎样把整幅画撑开：它像脊柱，也像一组伸向四面的手臂。红、橙、粉、紫、绿彼此推挤，明亮得近乎过热。你可以把“碰撞”理解为画布之间的相接，也可以理解为自然与情绪、吸引与不安同时撞在一起。",
-      "contentWarning": {
-        "title": "内容尚未通过完整校验",
-        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
-        "issues": [
-          {
-            "code": "BROAD_EVALUATION",
-            "message": "Broad evaluative wording is not a hard failure",
-            "matches": [
-              "重要"
-            ],
-            "severity": "warning"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "title": "Louisiana's new works",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/louisianas-new-works-2022-2025/"
-        },
-        {
-          "title": "Louisiana Museum of Modern Art Annual Report 2023",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/wp-content/uploads/2024/06/Louisiana-Museum-Aarsrapport-2023-underskrevet-digitalt.pdf"
-        },
-        {
-          "title": "Shara Hughes Interview: Changing the Way We See",
-          "publisher": "Louisiana Channel / Louisiana Museum of Modern Art",
-          "url": "https://vimeo.com/345866017"
-        },
-        {
-          "title": "Shara Hughes: ‘Right This Way’ by Alice Godwin",
-          "publisher": "Doris Press",
-          "url": "https://www.doris.press/blog/shara-hughes-alice-godwin"
-        }
-      ]
-    },
-    {
-      "id": "schutz-the-public-process",
-      "ch": "collection-rewrites-itself",
-      "zh": "公共过程",
-      "en": "The Public Process",
-      "by": "达娜·舒茨 / Dana Schutz",
-      "date": "2022",
-      "material": "绘画",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "时间充裕再看",
-      "significance": "重要藏品",
-      "availabilityTag": "不确定是否展出",
-      "time": "5—7分钟",
-      "image": "./assets/louisiana/schutz-the-public-process.webp",
-      "imageSource": "https://static-assets.artlogic.net/w_780%2Cc_limit%2Cf_auto%2Cfl_lossy/artlogicstorage/thomasdane/images/view/e925bea238f3f678e814c0ff56ed233aj.jpg",
-      "imageCaption": "公共过程 / The Public Process",
-      "imageKind": "object",
-      "source": "https://louisiana.dk/en/exhibition/louisianas-new-works-2022-2025/",
-      "cardSummary": "这是一幅达娜·舒茨于2022年创作的巨幅油画，尺寸约为2.90×5.79米，几乎像一面正在发生事故的墙。画面中央是一块浅色的板墙或舞台，人物从上方垂下来，从左右挤入，底部还有身体、工具、颜料和碎片纠缠在一起。第一眼看，它像一场失控的演出；再看会发现，演员、观众、画家和被观看的对象根本分不清。作品最值得看的地方，正是它把绘画变成了一个公开现场：图像如何被制造、展示、解释和评判，全部同时发生。站在画前，可以先沿着中央那块浅色区域横向扫一遍，再回到边缘寻找那些正在看、正在做、也可能正在被看的人物。",
-      "preciousWhy": "这是一幅达娜·舒茨于2022年创作的巨幅油画，尺寸约为2.90×5.79米，几乎像一面正在发生事故的墙。画面中央是一块浅色的板墙或舞台，人物从上方垂下来，从左右挤入，底部还有身体、工具、颜料和碎片纠缠在一起。第一眼看，它像一场失控的演出；再看会发现，演员、观众、画家和被观看的对象根本分不清。作品最值得看的地方，正是它把绘画变成了一个公开现场：图像如何被制造、展示、解释和评判，全部同时发生。站在画前，可以先沿着中央那块浅色区域横向扫一遍，再回到边缘寻找那些正在看、正在做、也可能正在被看的人物。",
-      "sources": [
-        {
-          "title": "Louisiana's new works",
-          "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/louisianas-new-works-2022-2025/"
-        },
-        {
-          "title": "Dana Schutz: The Public Process, 2022",
-          "publisher": "David Zwirner",
-          "url": "https://www.davidzwirner.com/artworks/dana-schutz-the-public-process-c4090"
-        },
-        {
-          "title": "Dana Schutz - Works",
-          "publisher": "Thomas Dane Gallery",
-          "url": "https://www.thomasdanegallery.com/artists/276-dana-schutz/works/"
-        },
-        {
-          "title": "Dana Schutz",
-          "publisher": "Whitney Museum of American Art",
-          "url": "https://whitney.org/artists/10019"
-        },
-        {
-          "title": "Dana Schutz. Presentation. 2005",
-          "publisher": "The Museum of Modern Art",
-          "url": "https://www.moma.org/collection/works/98800"
-        },
-        {
-          "title": "Public Process, the art of Dana Schutz",
-          "publisher": "Doris Press",
-          "url": "https://www.doris.press/blog/the-public-process"
+          "title": "Francis Bacon: In the Mirror of Photography",
+          "publisher": "The Estate of Francis Bacon",
+          "url": "https://www.francis-bacon.com/node/7297"
         }
       ]
     },
     {
       "id": "ulay-she",
-      "ch": "collection-rewrites-itself",
+      "ch": "camera-memory-identity",
       "zh": "她／他",
       "en": "S'he",
       "by": "乌雷 / Ulay",
       "date": "1974",
-      "material": "摄影作品",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
+      "material": "摄影作品（具体工艺待对象级核实）",
+      "place": "Louisiana Museum of Modern Art",
       "tag": "时间充裕再看",
       "significance": "特色看点",
       "availabilityTag": "不确定是否展出",
-      "time": "5—7分钟",
+      "time": "6—8分钟",
       "image": "./assets/louisiana/ulay-she.jpg",
-      "imageSource": "https://sammlung.staedelmuseum.de/images/116859/ulay-she-1-stf3941a--thumb-xl.jpg",
+      "imageSource": "https://sammlung.staedelmuseum.de/en/work/she-1",
       "imageCaption": "她／他 / S'he",
       "imageKind": "object",
       "source": "https://louisiana.dk/en/exhibition/louisianas-time/",
-      "cardSummary": "这是一件乌雷于1974年创作的摄影作品。乍看之下，画面很安静：浅青灰色的背景中央，像有一道细长、略显摇晃的深色痕迹。它不像传统肖像那样努力证明“这是谁”，反而让身份变成一个正在生成、也正在消失的过程。",
-      "preciousWhy": "这是一件乌雷于1974年创作的摄影作品。乍看之下，画面很安静：浅青灰色的背景中央，像有一道细长、略显摇晃的深色痕迹。它不像传统肖像那样努力证明“这是谁”，反而让身份变成一个正在生成、也正在消失的过程。",
+      "cardSummary": "这是一件乌雷创作于1974年的摄影作品。先别急着把它当成一张“看人”的照片：画面里几乎没有清晰可辨的脸，只有一块浅灰绿色的影像，以及中央一道像裂缝、接缝或身体分界线的深色痕迹。它真正有趣的地方，是把“自画像”变成了一个身份实验——艺术家不是在证明“我是谁”，而是在观察一个人怎样被图像拆开、重组，再变得难以归类。站在作品前，可以先看那条竖线：它把画面分成两边，也把“他”和“她”放进了同一幅小小的照片里。",
+      "preciousWhy": "这是一件乌雷创作于1974年的摄影作品。先别急着把它当成一张“看人”的照片：画面里几乎没有清晰可辨的脸，只有一块浅灰绿色的影像，以及中央一道像裂缝、接缝或身体分界线的深色痕迹。它真正有趣的地方，是把“自画像”变成了一个身份实验——艺术家不是在证明“我是谁”，而是在观察一个人怎样被图像拆开、重组，再变得难以归类。站在作品前，可以先看那条竖线：它把画面分成两边，也把“他”和“她”放进了同一幅小小的照片里。",
       "contentWarning": {
         "title": "内容尚未通过完整校验",
         "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
@@ -2301,7 +1263,6 @@ museumData["louisiana"] = {
             "code": "BROAD_EVALUATION",
             "message": "Broad evaluative wording is not a hard failure",
             "matches": [
-              "重要",
               "经典"
             ],
             "severity": "warning"
@@ -2315,42 +1276,37 @@ museumData["louisiana"] = {
           "url": "https://louisiana.dk/en/exhibition/louisianas-time/"
         },
         {
-          "title": "S'he - Digital Collection",
-          "publisher": "Städel Museum",
+          "title": "S'he",
+          "publisher": "Städel Museum Digital Collection",
           "url": "https://sammlung.staedelmuseum.de/en/work/she"
         },
         {
-          "title": "Café Deutschland. Im Gespräch mit ULAY",
-          "publisher": "Städel Museum",
-          "url": "https://cafedeutschland.staedelmuseum.de/gespraeche/ulay"
-        },
-        {
-          "title": "Ulay Life-Sized: Explore Art at SCHIRN Kunsthalle Frankfurt",
-          "publisher": "SCHIRN Kunsthalle Frankfurt",
-          "url": "https://www.schirn.de/en/schirnmag/ulay-life-sized-ulay-context-en/"
+          "title": "About Ulay",
+          "publisher": "Ulay Foundation",
+          "url": "https://www.ulayfoundation.org/about"
         }
       ]
     },
     {
-      "id": "dijkstra-ruth-drawing-picasso",
-      "ch": "works-that-demand-time",
-      "zh": "露丝临摹毕加索，泰特利物浦",
-      "en": "Ruth Drawing Picasso, Tate Liverpool",
-      "by": "里内克·迪克斯特拉 / Rineke Dijkstra",
-      "date": "2009",
-      "material": "影像肖像",
-      "place": "路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
-      "tag": "时间充裕再看",
-      "significance": "特色看点",
+      "id": "goldin-memory-lost",
+      "ch": "camera-memory-identity",
+      "zh": "失落的记忆",
+      "en": "Memory Lost",
+      "by": "南·戈尔丁 / Nan Goldin",
+      "date": "2019–2021",
+      "material": "约24分钟的数字幻灯片作品，由档案图像与影像组成",
+      "place": "Louisiana Museum of Modern Art",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
       "availabilityTag": "不确定是否展出",
-      "time": "6—9分钟",
-      "image": "./assets/louisiana/dijkstra-ruth-drawing-picasso.jpg",
-      "imageSource": "https://d3opzdukpbxlns.cloudfront.net/56b5197e-d680-4f58-a8d1-691c766545ee/06df12e1537440e98dbc207864352970.thumbnail?response-content-type=image%2Fjpeg&Expires=1785758400&Signature=TATv9gPIXt8H6Rv-yZgC2h2DygLux2asSnjTot1BEXKNFyGVYFpVdklha8pjMt~Gqq79WB~2j1XUdeME4pxL8T-XLJN5eq9l-tiuu2ycvm5HBYvQyUYtgiSugrTiQ6VKol~yg4XDs4ctfnYfYscHgVHVbSmaXQYL98xYY4aGEtBbGTk4z8VnTA2cc3rM1JGCVsT15iduci5ii~7fe1f4X8VtOdwFPnHdvVCGIb6BUoIskVyJOLsPDcnNU0P~ksM9IKcgBNS9oLLHnNslvEjO3uHi-I2OjtW0HiPNWmqi1ug7clRZncO-RLQl9OjguW5tC11kF0bpymFEyplODRMDhA__&Key-Pair-Id=APKAI33AGAEAYCXFBDTA",
-      "imageCaption": "露丝临摹毕加索，泰特利物浦 / Ruth Drawing Picasso, Tate Liverpool",
+      "time": "24—28分钟",
+      "image": "./assets/louisiana/goldin-memory-lost.jpg",
+      "imageSource": "https://louisiana.dk/en/exhibition/nan-goldin-memory-lost/",
+      "imageCaption": "失落的记忆 / Memory Lost",
       "imageKind": "object",
-      "source": "https://louisiana.dk/en/exhibition/moving-images/",
-      "cardSummary": "这是一段由里内克·迪克斯特拉拍摄的影像肖像：一个名叫露丝的女孩坐在利物浦泰特美术馆里，专心临摹毕加索1937年的《哭泣的女人》。作品的妙处在于，我们看不到她正在临摹的那幅画，只能看见她如何看、如何犹豫、如何把别人的图像慢慢变成自己的线条。迪克斯特拉没有把重点放在毕加索这位艺术大师身上，而是把镜头交给一个正在学习观看的普通人。站在作品前，可以先留意她的姿势、手部动作和注意力如何变化：这里真正被“画出来”的，也许不是毕加索，而是观看本身。",
-      "preciousWhy": "这是一段由里内克·迪克斯特拉拍摄的影像肖像：一个名叫露丝的女孩坐在利物浦泰特美术馆里，专心临摹毕加索1937年的《哭泣的女人》。作品的妙处在于，我们看不到她正在临摹的那幅画，只能看见她如何看、如何犹豫、如何把别人的图像慢慢变成自己的线条。迪克斯特拉没有把重点放在毕加索这位艺术大师身上，而是把镜头交给一个正在学习观看的普通人。站在作品前，可以先留意她的姿势、手部动作和注意力如何变化：这里真正被“画出来”的，也许不是毕加索，而是观看本身。",
+      "source": "https://louisiana.dk/en/exhibition/nan-goldin-memory-lost/",
+      "cardSummary": "这不是一张挂在墙上的照片，而是一段约24分钟的数字幻灯片：南·戈尔丁把档案中的照片、影像和声音重新编排，让记忆像一条忽明忽暗的河，流经成瘾、友谊、爱情、伤害与失去。安装视图里，投影悬在近乎全黑的房间中，红色光线把墙面、长凳和屏幕染成一个有点不安的密室。站在作品前，先别急着辨认每一张照片；注意画面怎样出现、消失，以及声音怎样改变你对同一幅图像的感受。这里真正重要的，是私人记忆如何被变成一种身体可以经历的时间。",
+      "preciousWhy": "这不是一张挂在墙上的照片，而是一段约24分钟的数字幻灯片：南·戈尔丁把档案中的照片、影像和声音重新编排，让记忆像一条忽明忽暗的河，流经成瘾、友谊、爱情、伤害与失去。安装视图里，投影悬在近乎全黑的房间中，红色光线把墙面、长凳和屏幕染成一个有点不安的密室。站在作品前，先别急着辨认每一张照片；注意画面怎样出现、消失，以及声音怎样改变你对同一幅图像的感受。这里真正重要的，是私人记忆如何被变成一种身体可以经历的时间。",
       "contentWarning": {
         "title": "内容尚未通过完整校验",
         "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
@@ -2359,7 +1315,6 @@ museumData["louisiana"] = {
             "code": "BROAD_EVALUATION",
             "message": "Broad evaluative wording is not a hard failure",
             "matches": [
-              "经典",
               "重要"
             ],
             "severity": "warning"
@@ -2368,29 +1323,473 @@ museumData["louisiana"] = {
       },
       "sources": [
         {
-          "title": "Moving Images",
+          "title": "Nan Goldin: Memory Lost",
           "publisher": "Louisiana Museum of Modern Art",
-          "url": "https://louisiana.dk/en/exhibition/moving-images/"
+          "url": "https://louisiana.dk/en/exhibition/nan-goldin-memory-lost/"
         },
         {
-          "title": "Rineke Dijkstra: Ruth Drawing Picasso, Tate Liverpool",
-          "publisher": "Seattle Art Museum",
-          "url": "https://seattleartmuseum.org/whats-on/exhibitions/rineke-dijkstra"
+          "title": "Nan Goldin – This Will Not End Well: Collection Guide",
+          "publisher": "Moderna Museet",
+          "url": "https://guide.modernamuseet.se/stockholm/en/collection/nan-goldin-this-will-not-end-well/"
         },
         {
-          "title": "Rineke Dijkstra: Ruth Drawing Picasso",
-          "publisher": "Michael Stevenson",
-          "url": "https://archive.stevenson.info/exhibitions/forex/dijkstra.htm"
+          "title": "Memory Lost – Collection Record",
+          "publisher": "Moderna Museet",
+          "url": "https://sis.modernamuseet.se/sv/objects/112502/memory-lost"
         },
         {
-          "title": "Rineke Dijkstra",
+          "title": "Nan Goldin: Memory Lost",
           "publisher": "Marian Goodman Gallery",
-          "url": "https://www.mariangoodman.com/exhibitions/119-rineke-dijkstra/"
+          "url": "https://www.mariangoodman.com/exhibitions/444-nan-goldin-memory-lost/"
+        }
+      ]
+    },
+    {
+      "id": "arbus-albino-sword-swallower-at-a-carnival",
+      "ch": "camera-memory-identity",
+      "zh": "嘉年华上的白化症吞剑艺人",
+      "en": "Albino sword swallower at a carnival",
+      "by": "黛安·阿勃丝 / Diane Arbus",
+      "date": "1970",
+      "material": "摄影作品（具体工艺待对象级核实）",
+      "place": "Louisiana Museum of Modern Art",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "6—8分钟",
+      "image": "./assets/louisiana/arbus-albino-sword-swallower-at-a-carnival.jpg",
+      "imageSource": "https://www.moma.org/collection/works/89201",
+      "imageCaption": "嘉年华上的白化症吞剑艺人 / Albino sword swallower at a carnival",
+      "imageKind": "object",
+      "source": "https://louisiana.dk/en/exhibition/louisianas-new-works-2022-2025/",
+      "cardSummary": "这是一张黛安·阿勃丝在1970年拍摄的黑白照片：一位嘉年华吞剑艺人站在帐篷外，双臂展开，剑从口中直直向上。画面乍看像一场惊险表演的宣传照，细看却几乎没有“热闹”：没有观众，没有舞台灯光，只有深色帆布、空旷天空和一个被定格成十字形的人体。",
+      "preciousWhy": "这是一张黛安·阿勃丝在1970年拍摄的黑白照片：一位嘉年华吞剑艺人站在帐篷外，双臂展开，剑从口中直直向上。画面乍看像一场惊险表演的宣传照，细看却几乎没有“热闹”：没有观众，没有舞台灯光，只有深色帆布、空旷天空和一个被定格成十字形的人体。",
+      "sources": [
+        {
+          "title": "Louisiana's new works",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://louisiana.dk/en/exhibition/louisianas-new-works-2022-2025/"
         },
         {
-          "title": "Pablo Picasso Weeping Woman art print",
-          "publisher": "Tate",
-          "url": "https://shop.tate.org.uk/pablo-picasso-weeping-woman-art-print/26240.html"
+          "title": "Diane Arbus. Albino sword swallower at a carnival, Maryland, 1970",
+          "publisher": "The Museum of Modern Art",
+          "url": "https://www.moma.org/collection/works/89201"
+        },
+        {
+          "title": "Albino sword swallower at a carnival, Maryland",
+          "publisher": "Yale University Art Gallery",
+          "url": "https://artgallery.yale.edu/collections/objects/29800"
+        },
+        {
+          "title": "Albino sword swallower at a carnival, Md. 1970",
+          "publisher": "National Galleries of Scotland",
+          "url": "https://www.nationalgalleries.org/art-and-artists/92899"
+        },
+        {
+          "title": "Albino sword swallower at a carnival, MD.",
+          "publisher": "Museum of New Zealand Te Papa Tongarewa",
+          "url": "https://collections.tepapa.govt.nz/object/41825"
+        },
+        {
+          "title": "Diane Arbus: Revelations exhibition overview",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/exhibitions/listings/2005/diane-arbus?action=click&contentCollection=meter-links-click&contentId=&mediaId=&module=meter-Links&pgtype=Blogs&priority=true&version=meter+at+null"
+        }
+      ]
+    },
+    {
+      "id": "ruscha-figure-it-on-out",
+      "ch": "from-denmark-to-world",
+      "zh": "把它想明白",
+      "en": "Figure It On Out",
+      "by": "爱德华·鲁沙 / Ed Ruscha",
+      "date": "2007",
+      "material": "绘画（具体材料待对象级核实）",
+      "place": "Louisiana Museum of Modern Art",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "6—8分钟",
+      "image": "./assets/louisiana/ruscha-figure-it-on-out.jpg",
+      "imageSource": "https://oklahomacontemporary.org/exhibition/ed-ruscha-okla/",
+      "imageCaption": "把它想明白 / Figure It On Out",
+      "imageKind": "object",
+      "source": "https://louisiana.dk/en/exhibition/louisianas-new-works-2022-2025/",
+      "cardSummary": "这是一幅爱德华·鲁沙于2007年创作的丙烯画，画在画布上，约152厘米见方。画面是一座覆盖冰雪的高山，白色大字分三行压在山体上：FIGURE / IT ON / OUT。先看，它像一张壮观的雪山海报；再读，标题却是一句带着地方口音的口头话。",
+      "preciousWhy": "这是一幅爱德华·鲁沙于2007年创作的丙烯画，画在画布上，约152厘米见方。画面是一座覆盖冰雪的高山，白色大字分三行压在山体上：FIGURE / IT ON / OUT。先看，它像一张壮观的雪山海报；再读，标题却是一句带着地方口音的口头话。",
+      "sources": [
+        {
+          "title": "Louisiana's new works",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://louisiana.dk/en/exhibition/louisianas-new-works-2022-2025/"
+        },
+        {
+          "title": "Ed Ruscha: OKLA",
+          "publisher": "Oklahoma Contemporary",
+          "url": "https://oklahomacontemporary.org/exhibition/ed-ruscha-okla/"
+        },
+        {
+          "title": "Ed Ruscha Exhibit Examines the Artist’s Oklahoma Roots",
+          "publisher": "The Wall Street Journal, hosted by Gagosian",
+          "url": "https://gagosian.com/media/gallery/press/2021/Crow_Kelly._Ed_Ruscha_Exhibit_Examiet_Journal_February_15_2021.pdf"
+        },
+        {
+          "title": "Joslyn Art Museum Announces Major Gift by Ed Ruscha of Multiple Works",
+          "publisher": "Western Art & Architecture",
+          "url": "https://westernartandarchitecture.com/best-of-the-west/joslyn-art-museum-announces-major-gift-by-ed-ruscha-of-multiple-works"
+        },
+        {
+          "title": "“Things Fall Apart”: Ed Ruscha’s Swiped Words",
+          "publisher": "Gagosian Quarterly",
+          "url": "https://gagosian.com/quarterly/2020/09/04/essay-things-fall-apart-ed-ruscha-swiped-words/"
+        }
+      ]
+    },
+    {
+      "id": "cahen-nashi",
+      "ch": "moving-images-new-materials",
+      "zh": "纳什",
+      "en": "Nashi",
+      "by": "达娅·卡亨 / Daya Cahen",
+      "date": "2008",
+      "material": "影像作品",
+      "place": "Louisiana Museum of Modern Art",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "10—15分钟",
+      "image": "./assets/louisiana/cahen-nashi.jpg",
+      "imageSource": "https://louisiana.dk/en/exhibition/louisianas-new-works-2022-2025/",
+      "imageCaption": "纳什 / Nashi",
+      "imageKind": "object",
+      "source": "https://louisiana.dk/en/exhibition/louisianas-new-works-2022-2025/",
+      "cardSummary": "《纳什》是荷兰艺术家、电影制作者达娅·卡亨于2008年完成的影像作品。她在2007年进入俄罗斯亲克里姆林宫青年组织“纳什”的夏令营，拍下年轻人如何在集体生活、爱国口号和政治训练中，被塑造成某种理想公民。",
+      "preciousWhy": "《纳什》是荷兰艺术家、电影制作者达娅·卡亨于2008年完成的影像作品。她在2007年进入俄罗斯亲克里姆林宫青年组织“纳什”的夏令营，拍下年轻人如何在集体生活、爱国口号和政治训练中，被塑造成某种理想公民。",
+      "sources": [
+        {
+          "title": "Louisiana's new works",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://louisiana.dk/en/exhibition/louisianas-new-works-2022-2025/"
+        },
+        {
+          "title": "Daya Cahen - Nashi",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://louisiana.dk/en/exhibition/daya-cahen-nashi/"
+        },
+        {
+          "title": "Nashi (video)",
+          "publisher": "Daya Cahen",
+          "url": "https://dayacahen.com/work/nashi-video"
+        },
+        {
+          "title": "The Fate of the Nashi Movement: Where Will the Kremlin's Youth Go?",
+          "publisher": "Institute of Modern Russia",
+          "url": "https://www.imrussia.org/en/politics/420-the-fate-of-the-nashi-movement-where-will-the-kremlins-youth-go"
+        }
+      ]
+    },
+    {
+      "id": "kentridge-sibyl",
+      "ch": "moving-images-new-materials",
+      "zh": "女预言家",
+      "en": "Sibyl",
+      "by": "威廉·肯特里奇 / William Kentridge",
+      "date": "年代待对象级核实",
+      "material": "影像作品",
+      "place": "Louisiana Museum of Modern Art",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "",
+      "time": "10—15分钟",
+      "image": "./assets/louisiana/kentridge-sibyl.webp",
+      "imageSource": "https://vimeo.com/568851987",
+      "imageCaption": "女预言家 / Sibyl",
+      "imageKind": "object",
+      "source": "https://louisiana.dk/en/exhibition/fra-bacon-til-bourgeois/",
+      "cardSummary": "《女预言家》是一件2019年的高清视频作品，时长约10分钟，由南非艺术家威廉·肯特里奇创作。它不是一段安静地播放的动画，而像一座被压缩进屏幕的剧场：书页翻动，人物穿行，舞者、黑色剪影、音乐和投影彼此叠加。画面中的百科全书既像知识的仓库，也像一台试图替人类整理命运的机器。",
+      "preciousWhy": "《女预言家》是一件2019年的高清视频作品，时长约10分钟，由南非艺术家威廉·肯特里奇创作。它不是一段安静地播放的动画，而像一座被压缩进屏幕的剧场：书页翻动，人物穿行，舞者、黑色剪影、音乐和投影彼此叠加。画面中的百科全书既像知识的仓库，也像一台试图替人类整理命运的机器。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "From Bacon to Bourgeois",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://louisiana.dk/en/exhibition/fra-bacon-til-bourgeois/"
+        },
+        {
+          "title": "South African Artist William Kentridge’s First Large-scale Solo Exhibition in Taiwan",
+          "publisher": "Taipei Fine Arts Museum",
+          "url": "https://www.tfam.museum/News/News_page.aspx?ddlLang=en-us&id=1830"
+        },
+        {
+          "title": "William Kentridge, Sibyl (Still), 2019, HD film, 9 minutes 59 seconds",
+          "publisher": "Taipei Fine Arts Museum",
+          "url": "https://www.tfam.museum/File/files/01news/240502_WK_press/EN/20240502_%E8%87%BA%E5%8C%97%E5%B8%82%E7%AB%8B%E7%BE%8E%E8%A1%93%E9%A4%A8%E6%96%B0%E8%81%9E%E7%A8%BF_%E5%A8%81%E5%BB%89%EF%BC%8E%E8%82%AF%E7%89%B9%E9%87%8C%E5%A5%87William%20Kentridge_%E5%AA%92%E9%AB%94%E5%9C%96%E8%AA%AA_Image%20Sheet.pdf"
+        },
+        {
+          "title": "Waiting for the Sibyl",
+          "publisher": "William Kentridge Studio",
+          "url": "https://www.kentridge.studio/william-kentridge-projects/waiting-for-the-sibyl/"
+        }
+      ]
+    },
+    {
+      "id": "lichtenstein-louisiana-painting-dorothy-sound",
+      "ch": "from-denmark-to-world",
+      "zh": "路易斯安那题材大型绘画（题名待核）",
+      "en": "Louisiana painting with Dorothy and the Sound (title to verify)",
+      "by": "罗伊·利希滕斯坦 / Roy Lichtenstein",
+      "date": "年代待对象级核实",
+      "material": "大型绘画",
+      "place": "Louisiana Museum of Modern Art",
+      "tag": "绝对不可错过",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "8—10分钟",
+      "image": "./assets/louisiana/lichtenstein-louisiana-painting-dorothy-sound.jpg",
+      "imageSource": "https://louisiana.dk/en/exhibition/fra-bacon-til-bourgeois/",
+      "imageCaption": "路易斯安那题材大型绘画（题名待核） / Louisiana painting with Dorothy and the Sound (title to verify)",
+      "imageKind": "object",
+      "source": "https://louisiana.dk/en/exhibition/fra-bacon-til-bourgeois/",
+      "cardSummary": "这件横向巨幅绘画由罗伊·利希滕斯坦于1977年创作。Louisiana 官方资料与艺术家基金会图录将它识别为 *Figures in Landscape*：画面里有艺术家妻子 Dorothy 的侧脸，也有远处的帆船、海峡、飞鸟，以及像柱子、绳结、头发和布料一样彼此穿插的形状。它看起来像一幅风景画，实际却更像一场“图像大拼盘”。",
+      "preciousWhy": "这件横向巨幅绘画由罗伊·利希滕斯坦于1977年创作。Louisiana 官方资料与艺术家基金会图录将它识别为 *Figures in Landscape*：画面里有艺术家妻子 Dorothy 的侧脸，也有远处的帆船、海峡、飞鸟，以及像柱子、绳结、头发和布料一样彼此穿插的形状。它看起来像一幅风景画，实际却更像一场“图像大拼盘”。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "From Bacon to Bourgeois",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://louisiana.dk/en/exhibition/fra-bacon-til-bourgeois/"
+        },
+        {
+          "title": "Roy Lichtenstein – Figures in Landscape (1977)",
+          "publisher": "Louisiana Design Store",
+          "url": "https://butik.louisiana.dk/products/roy-lichtenstein-figures-in-landscape-louisiana-plakat"
+        },
+        {
+          "title": "Figures in Landscape, 1977 (RLCR 2564)",
+          "publisher": "Roy Lichtenstein Foundation, Roy Lichtenstein: A Catalogue Raisonné",
+          "url": "https://www.lichtensteincatalogue.org/catalogue/entry.php?id=954"
+        },
+        {
+          "title": "Roy Lichtenstein",
+          "publisher": "The Museum of Modern Art",
+          "url": "https://www.moma.org/artists/3542-roy-lichtenstein"
+        }
+      ]
+    },
+    {
+      "id": "klein-three-monochromes",
+      "ch": "from-denmark-to-world",
+      "zh": "红、蓝、金三件单色作品",
+      "en": "Three monochromes in red, blue and gold",
+      "by": "伊夫·克莱因 / Yves Klein",
+      "date": "年代待对象级核实",
+      "material": "三件单色绘画",
+      "place": "Louisiana Museum of Modern Art",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "不确定是否展出",
+      "time": "8—10分钟",
+      "image": "./assets/louisiana/klein-three-monochromes.jpg",
+      "imageSource": "https://louisiana.dk/en/exhibition/fra-bacon-til-bourgeois/",
+      "imageCaption": "红、蓝、金三件单色作品 / Three monochromes in red, blue and gold",
+      "imageKind": "object",
+      "source": "https://louisiana.dk/en/exhibition/fra-bacon-til-bourgeois/",
+      "cardSummary": "这不是一幅被切成三块的画，而是三件独立的单色绘画：蓝、金，以及标题所说的红色（从图像看更接近玫红）。Louisiana 的资料将它们标为 1960 年的 Monoblue、Monogold 和 Monopink，常常并排悬挂，像一件三联画。",
+      "preciousWhy": "这不是一幅被切成三块的画，而是三件独立的单色绘画：蓝、金，以及标题所说的红色（从图像看更接近玫红）。Louisiana 的资料将它们标为 1960 年的 Monoblue、Monogold 和 Monopink，常常并排悬挂，像一件三联画。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "From Bacon to Bourgeois",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://louisiana.dk/en/exhibition/fra-bacon-til-bourgeois/"
+        },
+        {
+          "title": "Louisiana Poster Collection Product Sheet 2025",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://gigaplus.makeshop.jp/designshopjp/LouisianaMuseumPosterCollectionExhibition/Product%20Sheet%202025.pdf"
+        },
+        {
+          "title": "Untitled Blue Monochrome (IKB 75)",
+          "publisher": "Yves Klein Archives",
+          "url": "https://www.yvesklein.com/en/archives/view/artwork/899/untitled-blue-monochrome"
+        },
+        {
+          "title": "Yves Klein. Blue Monochrome. 1961",
+          "publisher": "The Museum of Modern Art",
+          "url": "https://www.moma.org/collection/works/80103?art_term_slug=monochrome&sov_referrer=art_term"
+        },
+        {
+          "title": "Monochrome bleu (IKB 81)",
+          "publisher": "Fondation Louis Vuitton",
+          "url": "https://www.fondationlouisvuitton.fr/en/collection/artworks/monochrome-bleu-ikb-81"
+        }
+      ]
+    },
+    {
+      "id": "dumas-mourning-marsyas",
+      "ch": "giacometti-room-of-distance",
+      "zh": "哀悼马耳叙阿斯",
+      "en": "Mourning Marsyas",
+      "by": "玛琳·杜马斯 / Marlene Dumas",
+      "date": "2024",
+      "material": "绘画（具体材料待对象级核实）",
+      "place": "Louisiana Museum of Modern Art",
+      "tag": "强烈推荐",
+      "significance": "重要藏品",
+      "availabilityTag": "",
+      "time": "6—8分钟",
+      "image": "./assets/louisiana/dumas-mourning-marsyas.jpg",
+      "imageSource": "https://www.studiointernational.com/index.php/marlene-dumas-mourning-marsyas-review-frith-street-gallery-london",
+      "imageCaption": "哀悼马耳叙阿斯 / Mourning Marsyas",
+      "imageKind": "object",
+      "source": "https://louisiana.dk/en/exhibition/villa-and-north-wing-2026/",
+      "cardSummary": "这是一幅玛琳·杜马斯于2024年创作的高而窄的绘画：赭橙色的中央身躯从画面上方垂落，几道深蓝、紫灰色的人形在旁边拥抱、触碰或蹲伏。它看起来像一幅古代神话画，却不是把故事规规矩矩地画出来，而是让油彩先流动，再从流痕中“长出”人物。",
+      "preciousWhy": "这是一幅玛琳·杜马斯于2024年创作的高而窄的绘画：赭橙色的中央身躯从画面上方垂落，几道深蓝、紫灰色的人形在旁边拥抱、触碰或蹲伏。它看起来像一幅古代神话画，却不是把故事规规矩矩地画出来，而是让油彩先流动，再从流痕中“长出”人物。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Villa & North Wing",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://louisiana.dk/en/exhibition/villa-and-north-wing-2026/"
+        },
+        {
+          "title": "Villa & Nordfløj",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://louisiana.dk/udstilling/villa-og-nordfloej-2026/"
+        },
+        {
+          "title": "Marlene Dumas Speaks Truth to Power",
+          "publisher": "Frieze",
+          "url": "https://www.frieze.com/article/marlene-dumas-profile-245"
+        },
+        {
+          "title": "Marlene Dumas: Mourning Marsyas",
+          "publisher": "Frith Street Gallery",
+          "url": "https://www.frithstreetgallery.com/exhibitions/231-marlene-dumas-mourning-marsyas/"
+        },
+        {
+          "title": "Marlene Dumas: Mourning Marsyas — Press Release",
+          "publisher": "Frith Street Gallery",
+          "url": "https://www.frithstreetgallery.com/usr/library/documents/main/md-press-release-2024-final.pdf"
+        },
+        {
+          "title": "The Louvre announces the entrance in its collections of Liaisons, a work by Marlene Dumas",
+          "publisher": "Musée du Louvre",
+          "url": "https://presse.louvre.fr/the-louvre-announces-the-entrance-in-its-collections-of-liaisons-a-work-by-marlene-dumas-commissioned-for-the-porte-des-lions/?lang=en"
+        }
+      ]
+    },
+    {
+      "id": "el-anatsui-akua-surviving-children",
+      "ch": "moving-images-new-materials",
+      "zh": "阿库娅幸存的孩子们",
+      "en": "Akua’s Surviving Children",
+      "by": "埃尔·阿纳祖伊 / El Anatsui",
+      "date": "1996",
+      "material": "雕塑（具体材质待对象级核实）",
+      "place": "Louisiana Museum of Modern Art",
+      "tag": "时间充裕再看",
+      "significance": "特色看点",
+      "availabilityTag": "",
+      "time": "6—8分钟",
+      "image": "./assets/louisiana/el-anatsui-akua-surviving-children.jpg",
+      "imageSource": "https://elanatsui.art/artworks/akuas-surviving-children-1996",
+      "imageCaption": "阿库娅幸存的孩子们 / Akua’s Surviving Children",
+      "imageKind": "object",
+      "source": "https://louisiana.dk/en/exhibition/villa-and-north-wing-2026/",
+      "cardSummary": "这是一群自由站立的木雕人物：粗糙、开裂、被风浪磨过的木柱，顶着一块块像头颅一样的黑色木块，彼此靠近，却没有排成整齐队伍。埃尔·阿纳祖伊在1996年制作它们时，面对的是丹麦与黄金海岸（今加纳）之间的奴役贸易历史。作品最动人的地方，在于它没有把这段历史做成一块冷冰冰的纪念碑，而是让木头重新“站起来”：它们看似伤痕累累，却仍然作为一个群体存在。",
+      "preciousWhy": "这是一群自由站立的木雕人物：粗糙、开裂、被风浪磨过的木柱，顶着一块块像头颅一样的黑色木块，彼此靠近，却没有排成整齐队伍。埃尔·阿纳祖伊在1996年制作它们时，面对的是丹麦与黄金海岸（今加纳）之间的奴役贸易历史。作品最动人的地方，在于它没有把这段历史做成一块冷冰冰的纪念碑，而是让木头重新“站起来”：它们看似伤痕累累，却仍然作为一个群体存在。",
+      "contentWarning": {
+        "title": "内容尚未通过完整校验",
+        "summary": "正文可以阅读，但以下事实或来源仍需复核，请不要把它当作已经完全核验的定稿。",
+        "issues": [
+          {
+            "code": "BROAD_EVALUATION",
+            "message": "Broad evaluative wording is not a hard failure",
+            "matches": [
+              "重要"
+            ],
+            "severity": "warning"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Villa & North Wing",
+          "publisher": "Louisiana Museum of Modern Art",
+          "url": "https://louisiana.dk/en/exhibition/villa-and-north-wing-2026/"
+        },
+        {
+          "title": "El Anatsui, Akua’s Surviving Children, 1996",
+          "publisher": "El Anatsui official website",
+          "url": "https://elanatsui.art/artworks/akuas-surviving-children-1996"
+        },
+        {
+          "title": "Uncomfortable Truths: The Shadow of Slave Trading on Contemporary Art and Design",
+          "publisher": "Victoria and Albert Museum",
+          "url": "https://media.vam.ac.uk/media/documents/legacy_documents/file_upload/30350_file.pdf"
+        },
+        {
+          "title": "Entangled Pasts, 1768–now: online guide",
+          "publisher": "Royal Academy of Arts",
+          "url": "https://royal-academy-production-asset.s3.amazonaws.com/uploads/553878ea-2821-491c-97de-14f363a29c91/Entangled%20Pasts%20exhibition%20%28online%20guide%29.pdf"
+        },
+        {
+          "title": "El Anatsui’s haunting driftwood sculptures",
+          "publisher": "Apollo Magazine",
+          "url": "https://apollo-magazine.com/el-anatsui-akuas-surviving-children-driftwood-sculptures-denmark-damion-searls/"
         }
       ]
     }

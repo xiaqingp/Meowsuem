@@ -1,0 +1,37 @@
+{
+  "museumId": "mfa-boston",
+  "runId": "20260806T040005Z-p2.13.84",
+  "runKind": "production",
+  "completedAt": "2026-08-06T05:55:53.717Z",
+  "stages": [
+    {
+      "name": "assembly",
+      "seconds": 0.471
+    },
+    {
+      "name": "causality-prepublish",
+      "seconds": 0.355
+    },
+    {
+      "name": "future-contract",
+      "seconds": 0.065
+    },
+    {
+      "name": "verification",
+      "seconds": 0.159
+    },
+    {
+      "name": "publication",
+      "seconds": 0.318
+    },
+    {
+      "name": "causality-postpublish",
+      "seconds": 0.563
+    }
+  ],
+  "totalSeconds": 1.931,
+  "modelCalls": 0,
+  "modelTokens": 0,
+  "liveVerification": false,
+  "publicationMode": "publish"
+}

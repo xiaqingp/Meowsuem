@@ -24,7 +24,10 @@ const reportFile = path.join(runRoot, "reports", "single-work-batch.json");
 const warnings = [];
 
 for (const work of await listSingleWorkResults(runRoot)) {
-  if (work.result?.status !== "failed" || work.status?.status !== "verification_failed") continue;
+  if (
+    work.result?.status !== "failed" ||
+    !["verification_failed", "blocked_needs_upstream_review", "blocked_cost_limit"].includes(work.status?.status)
+  ) continue;
   const {workId, oneShotRoot} = work;
   const failedResult = work.result;
   const attempt = String(failedResult.attempt).padStart(2, "0");

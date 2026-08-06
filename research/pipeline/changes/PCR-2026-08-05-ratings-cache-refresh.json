@@ -1,0 +1,31 @@
+{
+  "id": "PCR-2026-08-05-ratings-cache-refresh",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-05",
+  "ownerInstruction": "为什么首页是undefined；不懂，所以我要干嘛你要干嘛",
+  "baseRelease": "research/pipeline/releases/v2.13.88.json",
+  "targetVersion": "2.13.89",
+  "implementationStatus": "completed",
+  "scope": [
+    "refresh the shared ratings bundle cache key on the homepage and museum page",
+    "prevent newly published museums from rendering undefined scores with a stale cached ratings file"
+  ],
+  "outOfScope": [
+    "changing MFA content, rating, routes, images, or warning decisions",
+    "mutating the frozen 2.13.88 release"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "index.html",
+    "museum.html"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/freeze-pipeline-release.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs"
+    ]
+  }
+}

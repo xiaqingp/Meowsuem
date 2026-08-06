@@ -1,0 +1,28 @@
+{
+  "id": "PCR-2026-08-05-release-history-wrap",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-05",
+  "ownerInstruction": "批准",
+  "baseRelease": "research/pipeline/releases/v2.13.86.json",
+  "targetVersion": "2.13.87",
+  "implementationStatus": "completed",
+  "scope": [
+    "correct the release-history line wrapping introduced while documenting the approved warning-promotion transition"
+  ],
+  "outOfScope": [
+    "changing pipeline runtime behavior or MFA content",
+    "mutating the frozen 2.13.86 release"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/freeze-pipeline-release.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs"
+    ]
+  }
+}

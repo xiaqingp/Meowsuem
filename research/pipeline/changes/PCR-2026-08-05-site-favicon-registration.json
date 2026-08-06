@@ -1,0 +1,29 @@
+{
+  "id": "PCR-2026-08-05-site-favicon-registration",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-05",
+  "ownerInstruction": "同意保留 favicon，并纳入下一版冻结 release。",
+  "baseRelease": "research/pipeline/releases/v2.13.83.json",
+  "targetVersion": "2.13.84",
+  "implementationStatus": "completed",
+  "scope": [
+    "register the existing site favicon reference in the canonical museum page"
+  ],
+  "outOfScope": [
+    "changing generated museum content, ratings, images, routes, or publication data",
+    "mutating the frozen 2.13.83 release"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "museum.html"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/freeze-pipeline-release.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs"
+    ]
+  }
+}

@@ -21,3 +21,5 @@ The evidence works must be the selected works. `scoreBand` must be exactly one o
 - `60 以下 · 可以略过`
 
 `withinBandAnchor` must be exactly one of the anchors defined in the locked instruction, using the same en dash. A rare work requires a supported nearest comparator and independence key. A museum may enter 80+ without a rare work only through evidenced `peakLines`; each peak must be one indivisible work, collection group, or site whole, and its member works cannot be split into additional lines. If evidence is insufficient, write a `researchGaps` array and do not invent a passing rating.
+
+For every rare work, `independenceKey` must exactly equal the `id` of its corresponding entry in `peakLines`; `independentRareLines` is the unique set of those IDs, and `independentPeakLines` is the unique set of all `peakLines[].id`. When the locked evidence contains at least the capacity declared by museum scope in identity-stable candidates, select exactly that many works in both `selectedWorks` and `evidence.works`.

@@ -1,0 +1,29 @@
+{
+  "id": "PCR-2026-08-05-louisiana-publication-hash-sync",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-05",
+  "ownerInstruction": "用最新pipeline 重新生成并发布 路易斯安那现代艺术博物馆（Louisiana Museum of Modern Art）",
+  "baseRelease": "research/pipeline/releases/v2.13.80.json",
+  "targetVersion": "2.13.81",
+  "implementationStatus": "completed",
+  "scope": [
+    "freeze the post-publication museum page cache-key hash after the Louisiana regeneration"
+  ],
+  "outOfScope": [
+    "changing generated museum content, image evidence, selection, rating, routes, or publication output",
+    "mutating the frozen 2.13.80 release"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "museum.html"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/freeze-pipeline-release.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs"
+    ]
+  }
+}

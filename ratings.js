@@ -417,40 +417,242 @@ const museumRatings = {
   },
   "nationalmuseum": {
     "museumId": "nationalmuseum",
-    "score": 75,
-    "scoreBand": "70–79 · 可去可不去",
-    "withinBandAnchor": "73–75",
-    "scoreReason": "锁定证据显示，本馆可用十七至十九世纪欧洲与瑞典绘画、瑞典国家与家庭图像、雕塑庭院以及近现代北欧设计组成一条完整而有鲜明地域优势的参观线；但本次候选中没有任何作品通过稀世珍品的不可替代性硬门，因此不能跨入80档。",
-    "withinBandReason": "多件重要藏品当前有在展证据，绘画、雕塑、玻璃与家具之间也能形成连续路线，足以落在‘值得顺路’区间的上沿；两件瑞典名作当前不在展，且核心作品的全球不可替代性均未获证明，所以不足以进入强调同城高优先级的76–77锚点。",
+    "score": 82,
+    "scoreBand": "80–89 · 应主动列入行程",
+    "withinBandAnchor": "80–82",
+    "scoreReason": "Nationalmuseum 的旅行价值由一条可在现场稳定兑现的场所整体峰值线成立：卡尔·拉松《仲冬祭》与原定楼梯墙面、拒收及回归史不可拆分；其外，瑞典十八至十九世纪绘画、法国十八世纪收藏、塞尔格尔雕塑与纸本、珍宝室和二十世纪瑞典设计构成连续而跨媒介的第二梯队。来到斯德哥尔摩应主动安排，但现有证据没有锁定稀世珍品，法国十八世纪收藏的世界等级也缺少独立比较。",
+    "withinBandReason": "落在80–82的上沿，因为一条明确的场所峰值线之外，现场确认的第二梯队跨越绘画、雕塑、纸本、贵金属、家具与玻璃，足以支撑完整参观；未进入83–85，是因为多件代表作轮换或状态未知，且第二条不可替代峰值线尚未通过比较证据。",
     "rareAssets": [],
     "independentRareLines": [],
+    "peakLines": [
+      {
+        "id": "site-midwinter-staircase",
+        "type": "site",
+        "label": "《仲冬祭》与 Nationalmuseum 上层楼梯构成的场所整体",
+        "workIds": [
+          "larsson-midwinter-sacrifice-32534"
+        ],
+        "sourcePointers": [
+          "deep-01#larsson-midwinter-sacrifice-32534",
+          "museum-understanding#建筑不是中性容器"
+        ]
+      }
+    ],
+    "independentPeakLines": [
+      "site-midwinter-staircase"
+    ],
     "dedicatedTrip": false,
     "worldDominantConcentration": false,
     "worldDominantConcentrationEvidence": []
   },
   "rosenborg": {
     "museumId": "rosenborg",
-    "score": 79,
-    "scoreBand": "70–79 · 可去可不去",
-    "withinBandAnchor": "78–79",
-    "scoreReason": "锁定证据支持一条高度连贯且现场性很强的丹麦王权路线：两顶制度含义不同的国王王冠、成组礼器与国剑、独角鲸牙王座及银狮、仍在历史空间中展示的战伤纪念物、王冠珠宝，以及骑士大厅和整体保存的玻璃柜，共同把宫殿、仪式、收藏和制度转折连成不可由普通装饰艺术馆替代的体验。然而全部候选均未完成稀世珍品不可替代性硬门，故不得进入80分档。",
-    "withinBandReason": "在70分档内取上限，是因为重要对象密度、历史室内与原有收藏展示关系同时成立，且多条观看线可支撑一次完整参观；它接近80分所需的珍品门槛，但现有研究对王冠、礼器、王座及玻璃柜均缺少足以证明全球不可替代性的最近比较对象与决定性差异，因此止于79分。",
+    "score": 84,
+    "scoreBand": "80–89 · 应主动列入行程",
+    "withinBandAnchor": "83–85",
+    "scoreReason": "Rosenborg具备两条难以拆开的峰值线：一是Christian IV私人原境、后世王权改装与19世纪王朝博物馆化共同构成的城堡整体；二是四套丹麦王冠珠宝作为馆藏展示又可由在位王后继续使用的制度性收藏。两顶王冠、国剑、涂油壶、独角鲸牙王座、政治图像与王室身体遗物形成可靠第二梯队，使它不只是珠宝展柜，而是把住所、收藏、礼仪和再使用连在同一紧凑场所。",
+    "withinBandReason": "清楚的双峰和连续第二梯队支持83–85中段；但没有单件通过稀世珍品硬门，历史室内与若干礼器的展示状态不明，冬室和漆室又处于修复关闭边界。收藏集中于丹麦王朝，跨馆比较也不足以证明世界主导密度，因此落在84而非86以上，更不足以成为决定哥本哈根旅行的90档目的地。",
     "rareAssets": [],
     "independentRareLines": [],
+    "peakLines": [
+      {
+        "id": "rosenborg-castle-dynastic-continuum",
+        "type": "site",
+        "label": "从Christian IV私人离宫到王朝年代博物馆的Rosenborg城堡整体",
+        "workIds": [
+          "winter-room-room-1",
+          "christian-iv-bedchamber-room-3",
+          "marble-room-room-5",
+          "princess-lacquer-chamber-room-9",
+          "the-rose-room-13",
+          "knights-hall-room-21",
+          "glass-cabinet-room-22",
+          "christian-iv-blood-stained-clothes",
+          "rosenborg-wine"
+        ],
+        "sourcePointers": [
+          "research/runs/production/rosenborg/20260805T161114Z-p2.13.81/understanding/museum-understanding.md#核心理解",
+          "research/runs/production/rosenborg/20260805T161114Z-p2.13.81/research/batches/compact-01/compact-planning-evidence.json",
+          "research/runs/production/rosenborg/20260805T161114Z-p2.13.81/research/batches/deep-01/deep-research-dossier.json#works[workId=rosenborg-wine]"
+        ]
+      },
+      {
+        "id": "danish-crown-jewels-living-collection",
+        "type": "collection",
+        "label": "展示于Treasury并继续进入当代王室使用的四套丹麦王冠珠宝",
+        "workIds": [
+          "emerald-set",
+          "brillant-cut-diamond-set",
+          "rose-cut-diamond-set",
+          "pearl-ruby-set"
+        ],
+        "sourcePointers": [
+          "research/runs/production/rosenborg/20260805T161114Z-p2.13.81/research/batches/compact-03/compact-planning-evidence.json",
+          "research/runs/production/rosenborg/20260805T161114Z-p2.13.81/research/batches/deep-01/deep-research-dossier.json#works[workId=rose-cut-diamond-set]",
+          "https://denkongeligesamling.dk/en/rosenborg-castle/the-history-of-the-castle/the-crown-jewels/"
+        ]
+      }
+    ],
+    "independentPeakLines": [
+      "rosenborg-castle-dynastic-continuum",
+      "danish-crown-jewels-living-collection"
+    ],
     "dedicatedTrip": false,
     "worldDominantConcentration": false,
     "worldDominantConcentrationEvidence": []
   },
   "louisiana": {
     "museumId": "louisiana",
-    "score": 79,
-    "scoreBand": "70–79 · 可去可不去",
-    "withinBandAnchor": "78–79",
-    "scoreReason": "现有证据支持一套高度不可复制的整体体验：Giacometti 与 Jorn 作品群、欧美战后绘画和移动影像形成多条连续收藏线，Serra 与 Trakas 的场域作品、雕塑公园、低调渐进的建筑及海峡景观又把观看组织成只有在 Louisiana 才能完整兑现的路线。但逐件比较研究没有一件作品通过稀世珍品的不可替代性硬门，因此评分不能跨入 80 档。",
-    "withinBandReason": "落在 70 档上限，是因为它同时具备重要作品密度、明确领域重心、稳定的户外场域节点和显著高于普通现代艺术馆的建筑—园林—公共空间体验；对现代雕塑、战后艺术或博物馆建筑兴趣强的旅行者，整体足以支持专门绕行。没有进入更高档，主要受三点限制：缺少通过硬门的稀世珍品，室内馆藏大量轮换，若干代表作仅能证明曾展出或当前状态未知。",
+    "score": 84,
+    "scoreBand": "80–89 · 应主动列入行程",
+    "withinBandAnchor": "83–85",
+    "scoreReason": "Louisiana 通过 Humlebæk 单一馆址上艺术、低层建筑、玻璃步道、园林、海峡与场域雕塑的不可拆分关系形成一条明确峰值线；Giacometti 与 Jorn 的密集组群、Kusama 房间装置、音乐厅中的 Hockney 与 Majerus，以及战后欧美绘画和持续更新的影像收藏构成可靠第二梯队。",
+    "withinBandReason": "它不只刚过 80：场所整体的现场回报清楚，且 Giacometti、Jorn、战后欧美绘画、雕塑公园与当代影像提供持续内容；但现有证据没有通过稀世珍品硬门的单件，也不足以证明第二条独立世界级峰值线，轮换展示和南翼、音乐厅等访问条件又削弱兑现稳定性，因此落在 83–85 的中段而非 86 以上。",
     "rareAssets": [],
     "independentRareLines": [],
+    "peakLines": [
+      {
+        "id": "humlebaek-art-architecture-landscape-whole",
+        "type": "site",
+        "label": "Humlebæk 馆址中作品、建筑、步行路径、园林与海峡共同构成的场所整体",
+        "workIds": [
+          "giacometti-walking-man",
+          "serra-the-gate-in-the-gorge",
+          "moore-reclining-figure-no-5",
+          "trakas-self-passage",
+          "kusama-gleaming-lights-of-the-souls"
+        ],
+        "sourcePointers": [
+          "museum-understanding:建筑不只是漂亮背景，而是决定作品怎样成为这里的作品",
+          "museum-understanding:雕塑公园把景观从布景变成变量",
+          "deep-01:serra-the-gate-in-the-gorge",
+          "deep-01:kusama-gleaming-lights-of-the-souls"
+        ]
+      }
+    ],
+    "independentPeakLines": [
+      "humlebaek-art-architecture-landscape-whole"
+    ],
     "dedicatedTrip": false,
+    "worldDominantConcentration": false,
+    "worldDominantConcentrationEvidence": []
+  },
+  "mfa-boston": {
+    "museumId": "mfa-boston",
+    "score": 92,
+    "scoreBand": "90–100 · 值得专程旅行",
+    "withinBandAnchor": "90–92",
+    "scoreReason": "MFA通过至少四条彼此独立且难以被同一替代馆覆盖的峰值线通过专程旅行检验：带稳定发掘语境的埃及—努比亚收藏、日本绘画—佛教雕塑—版画的跨媒介收藏、以莫奈系列及多位十九世纪大师构成的法国艺术密度，以及从革命时期波士顿到跨大西洋与非裔纺织叙事的美洲收藏；萨金特壁画与馆舍的原位整体又提供独立现场回报。哈丽雅特·鲍尔斯拼布被另以仅知两件存世、明确比较对象和不可替代的后期叙事范围通过单件稀世珍品硬门。",
+    "withinBandReason": "分数落在90–92而非93以上，主要因为锁定证据中的40件容量未能全部闭合身份，核心日本纸本和唯一通过硬门的鲍尔斯拼布被处于轮换或不在展，多件法国与亚洲重点作品的当前展示状态未知，萨金特单幅的最高评价又必须归回整套空间而不能重复计分。收藏足以让博物馆成为波士顿旅行理由，但现场兑现稳定性和本轮证据完整度仍有具体扣分。",
+    "rareAssets": [
+      "pictorial-quilt-harriet-powers"
+    ],
+    "independentRareLines": [
+      "work:pictorial-quilt-harriet-powers"
+    ],
+    "peakLines": [
+      {
+        "id": "collection:egypt-nubia",
+        "type": "collection",
+        "label": "吉萨古王国与埃及—努比亚考古语境收藏",
+        "workIds": [
+          "king-menkaura-and-queen",
+          "menkaura-hathor-hare-nome",
+          "bust-prince-ankhhaf",
+          "statue-lady-sennuwy",
+          "isis-knot-amulet-tabiry",
+          "mentuhotep-iii-osiride-statue"
+        ],
+        "sourcePointers": [
+          "museum-understanding/四个最能定义MFA的收藏峰值/埃及与努比亚",
+          "deep-01/king-menkaura-and-queen:https://www.mfa.org/gallery/masterpieces-of-egyptian-sculpture-from-the-pyramid-age"
+        ]
+      },
+      {
+        "id": "collection:japan",
+        "type": "collection",
+        "label": "日本绘画、佛教雕塑与浮世绘的跨媒介收藏",
+        "workIds": [
+          "night-attack-sanjo-palace",
+          "miroku-bosatsu-kaikei",
+          "nihonbashi-thirty-six-views",
+          "utamaro-woman-letter-mosquito-net",
+          "hokusai-two-carp-waterfall"
+        ],
+        "sourcePointers": [
+          "museum-understanding/四个最能定义MFA的收藏峰值/日本艺术",
+          "compact-02/night-attack-sanjo-palace:https://collections.mfa.org/objects/24523"
+        ]
+      },
+      {
+        "id": "collection:boston-americas",
+        "type": "collection",
+        "label": "波士顿本地革命史、美国艺术与跨大西洋叙事收藏",
+        "workIds": [
+          "paul-revere-portrait",
+          "sons-of-liberty-bowl",
+          "watson-and-the-shark",
+          "daughters-edward-darley-boit",
+          "in-the-loge-cassatt"
+        ],
+        "sourcePointers": [
+          "museum-understanding/四个最能定义MFA的收藏峰值/美洲艺术",
+          "compact-03/sons-of-liberty-bowl:https://www.mfa.org/article/2025/sons-of-liberty-bowl",
+          "deep-01/watson-and-the-shark:https://www.mfa.org/entry/2017/watson-and-the-shark"
+        ]
+      },
+      {
+        "id": "collection:french-nineteenth-century",
+        "type": "collection",
+        "label": "莫奈系列与十九世纪法国绘画高密度收藏",
+        "workIds": [
+          "where-do-we-come-from-gauguin",
+          "dance-at-bougival",
+          "la-japonaise-monet",
+          "grainstack-sunset-monet",
+          "postman-joseph-roulin",
+          "the-sower-millet",
+          "woman-parasol-child-renoir"
+        ],
+        "sourcePointers": [
+          "museum-understanding/四个最能定义MFA的收藏峰值/十九世纪法国艺术",
+          "compact-04/grainstack-sunset-monet:https://collections.mfa.org/objects/32189"
+        ]
+      },
+      {
+        "id": "work:pictorial-quilt-harriet-powers",
+        "type": "work",
+        "label": "哈丽雅特·鲍尔斯《图像拼布被》",
+        "workIds": [
+          "pictorial-quilt-harriet-powers"
+        ],
+        "sourcePointers": [
+          "deep-01/pictorial-quilt-harriet-powers:https://mfaboston6.emuseum.com/objects/116166/pictorial-quilt",
+          "deep-01/comparator:https://www.si.edu/object/1885-1886-harriet-powerss-bible-quilt%3Anmah_556462"
+        ]
+      },
+      {
+        "id": "site:sargent-rotunda-colonnade",
+        "type": "site",
+        "label": "萨金特圆厅与柱廊壁画—馆舍原位整体",
+        "workIds": [
+          "sargent-athena-mural"
+        ],
+        "sourcePointers": [
+          "deep-02/sargent-athena-mural:https://collections.mfa.org/objects/31934",
+          "deep-02/sargent-program:https://www.mfa.org/collections/publications/john-singer-sargent-murals-museum-fine-arts-boston"
+        ]
+      }
+    ],
+    "independentPeakLines": [
+      "collection:egypt-nubia",
+      "collection:japan",
+      "collection:boston-americas",
+      "collection:french-nineteenth-century",
+      "work:pictorial-quilt-harriet-powers",
+      "site:sargent-rotunda-colonnade"
+    ],
+    "dedicatedTrip": true,
     "worldDominantConcentration": false,
     "worldDominantConcentrationEvidence": []
   }
@@ -458,6 +660,6 @@ const museumRatings = {
 
 // A rating is only current when every museum is calibrated against the same live set.
 for (const rating of Object.values(museumRatings)) {
-  rating.calibratedAgainst = ["alhambra","anchorage","british","chichu","egyptian","enoura","frye","getty","glyptotek","louvre","met","muxin","seattle","smk","vienna","designmuseum-danmark","nationalmuseum","rosenborg","louisiana"];
+  rating.calibratedAgainst = ["alhambra","anchorage","british","chichu","egyptian","enoura","frye","getty","glyptotek","louvre","met","muxin","seattle","smk","vienna","designmuseum-danmark","nationalmuseum","rosenborg","louisiana","mfa-boston"];
   rating.calibratedAt = "2026-07-23";
 }

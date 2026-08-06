@@ -1,0 +1,29 @@
+{
+  "id": "PCR-2026-08-05-rosenborg-publication-hash-sync",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-05",
+  "ownerInstruction": "用最新pipeline重做并发布罗森堡城堡；同一作品可以复用原来的图片",
+  "baseRelease": "research/pipeline/releases/v2.13.81.json",
+  "targetVersion": "2.13.82",
+  "implementationStatus": "completed",
+  "scope": [
+    "freeze the post-publication museum page cache-key hash after the Rosenborg regeneration"
+  ],
+  "outOfScope": [
+    "changing generated museum content, image evidence, selection, rating, routes, or publication output",
+    "mutating the frozen 2.13.81 release"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "museum.html"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/freeze-pipeline-release.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "PCR-2026-08-05-selection-rare-line-alignment",
+  "status": "owner_approved",
+  "authorizedBy": "owner",
+  "authorizedAt": "2026-08-05",
+  "ownerInstruction": "生成并发布波士顿美术馆（MFA）。",
+  "baseRelease": "research/pipeline/releases/v2.13.84.json",
+  "targetVersion": "2.13.85",
+  "implementationStatus": "completed",
+  "scope": [
+    "clarify the existing museum-selection contract so rare independence keys reuse peak-line IDs exactly",
+    "require the declared scope capacity when enough identity-stable candidates exist"
+  ],
+  "outOfScope": [
+    "changing rating thresholds, rare-work evidence gates, or MFA research conclusions",
+    "mutating the frozen 2.13.84 release"
+  ],
+  "allowedCanonicalFiles": [
+    "research/generation-pipeline.md",
+    "research/pipeline/prompts/museum-selection.md"
+  ],
+  "verification": {
+    "status": "pending",
+    "commands": [
+      "node scripts/freeze-pipeline-release.mjs",
+      "node scripts/check-pipeline-readiness.mjs --mode=live",
+      "node scripts/verify-project-authority.mjs"
+    ]
+  }
+}
